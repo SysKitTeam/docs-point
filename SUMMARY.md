@@ -27,7 +27,7 @@
 
 ## Common Tasks
 
-* [Check Access for Specific User](common-tasks/untitled.md)
+* [Check Access for Specific User](common-tasks/check-access-for-specific-user.md)
 * [Check Who Has Access to What in Office 365](common-tasks/check-who-has-access-to-what-in-office-365.md)
 * [Track External Users and Their Activities](common-tasks/track-external-users-and-their-activities.md)
 * [View Permission Changes](common-tasks/view-permission-changes.md)
@@ -38,4 +38,5 @@
 ## FAQ
 
 * [Report Data Limits](faq/untitled.md)
+* [Server Error](faq/server-error.md)
 
