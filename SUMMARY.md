@@ -11,20 +11,31 @@
 
 * [Install SysKit Point](installation-and-configuration/install-syskit-point.md)
 * [Configure SysKit Point](installation-and-configuration/configure-syskit-point.md)
+* [Enable Role-Based Access](installation-and-configuration/enable-role-based-access.md)
+* [Customize Audit Logs Collection](installation-and-configuration/customize-audit-logs-collection.md)
 
 ## Activation
 
-* [Untitled](activation/untitled.md)
+* [Activate SysKit Point](activation/untitled.md)
+* [Activation Privacy Statement](activation/activation-privacy-statement.md)
+* [Activation FAQ](activation/activation-faq.md)
 
 ## How To
 
-* [Untitled](how-to/untitled.md)
+* [SysKit Point Quick Start Guide](how-to/untitled.md)
+* [Collect Office 365 Data](how-to/collect-office-365-data.md)
 
 ## Common Tasks
 
-* [Untitled](common-tasks/untitled.md)
+* [Check Access for Specific User](common-tasks/untitled.md)
+* [Check Who Has Access to What in Office 365](common-tasks/check-who-has-access-to-what-in-office-365.md)
+* [Track External Users and Their Activities](common-tasks/track-external-users-and-their-activities.md)
+* [View Permission Changes](common-tasks/view-permission-changes.md)
+* [View File and Folder Activities](common-tasks/view-file-and-folder-activities.md)
+* [Monitor User Activity](common-tasks/monitor-user-activity.md)
+* [Configure SSL Certificate](common-tasks/configure-ssl-certificate.md)
 
 ## FAQ
 
-* [Untitled](faq/untitled.md)
+* [Report Data Limits](faq/untitled.md)
 
