@@ -15,7 +15,7 @@ After installation, you can access SysKit Point interface from any supported int
 ### Installation Steps
 
 1. [Download the SysKit Point setup file.](https://www.syskit.com/products/point/download/)
-2. Unpack and run the installation file **SysKitPoint.exe**. The wizard will guide you through the installation steps.
+2. Unpack and run the installation file - **SysKitPoint.exe**. The wizard will guide you through the installation steps.
 3. Click “I Accept the terms of the license agreement” to accept the [EULA](https://www.syskit.com/eula/), and then click Next &gt; to proceed.
 4. Choose the installation folder, note that if you don’t change it the default will be: C:\Program Files\SysKit\Point. Click Next &gt; to proceed.
 5. SysKit Point Configuration Wizard will automatically start after the installation is done. Alternatively, you can always start it manually by running it from the installation folder. The default location is: 'C:\ProgramFiles\SysKit\Point\Host\Configuration.exe'.
