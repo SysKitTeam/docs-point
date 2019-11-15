@@ -1,1 +1,2 @@
-# docs-point
+# Initial page
+
