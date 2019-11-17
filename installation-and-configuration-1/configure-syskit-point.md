@@ -104,12 +104,11 @@ You can find answers in the [following article](../requirements-1/permission-req
 
 ### Web Application Settings
 
- The default URL for the web interface is [https://machine-name](https://machine-name/) and port 443. You can customize this URL as you wish at any point in time, but make sure to configure DNS for the customized URL to correctly resolve the target address.   
+The default URL for the web interface of SysKit Point is set to [`https://machine-name`](https://machine-name/) and port to `443`. You can customize these values as you wish at any point in time, but make sure to also configure your DNS for the customized URL to correctly resolve the target address.   
    
-Use this URL to log in to SysKit Point web interface.   
- 
+Use this URL to log in to SysKit Point web interface from the web browser of your choice. 
 
-### Certificate
+#### SSL Certificates
 
 Choose the certificate type to ensure secure connection between SysKit Point machine and web interface in browser: 
 
