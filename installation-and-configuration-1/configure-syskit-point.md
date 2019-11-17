@@ -56,7 +56,7 @@ Click **OK** to close the Info window, and **Next &gt;** to continue to the next
 Check the supported SQLServer versions and requirements [here](../requirements-1/system-requirements.md).
 {% endhint %}
 
-### Service Account
+### Service Settings
 
 Provide local service account that will be used for running the automatic actions performed by SysKit Point, such as:  
 
