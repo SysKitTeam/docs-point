@@ -10,10 +10,10 @@ Once the installation is completed, by default, **SysKit Point - Configuration W
 
 In the Configuration Wizard, you will need to provide the following information:
 
-* MS SQL server and SQL database
-* Local service account
-* Office 365 Global admin account
-* SSL Certificate \(we can provide you with a self-signed one, but for production we recommend you use full SSL certificate\).
+* **MS SQL server and SQL database**
+* **Local service account**
+* **Office 365 Global admin account**
+* **SSL Certificate** \(we can provide you with a self-signed one, but for production we recommend you use full SSL certificate\).
 
 For a detailed overview of SysKit Point system and permission requirements, [navigate to the Requirements section](../requirements-1/).
 
