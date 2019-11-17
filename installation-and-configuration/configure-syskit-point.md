@@ -4,5 +4,5 @@ description: This article explains how to configure SysKit Point
 
 # Configure SysKit Point
 
-After the installation wizard finished, SysKit Point Configuration Wizard starts automatically. Alternatively, you can start it manually at any time by running it from the installation folder. The default location is: C:\ProgramFiles\SysKit\Point\Host\Configuration.exe.
+Once the installation is completed, by default, **SysKit Point - Configuration Wizard** starts automatically. Alternatively, you can start it manually at any time by running it from the installation folder. The default location is: **C:\ProgramFiles\SysKit\Point\Host\Configuration.exe**.
 
