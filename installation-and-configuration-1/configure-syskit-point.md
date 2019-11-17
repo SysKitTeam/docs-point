@@ -110,12 +110,16 @@ Use this URL to log in to SysKit Point web interface from the web browser of you
 
 #### SSL Certificates
 
-Choose the certificate type to ensure secure connection between SysKit Point machine and web interface in browser: 
+Choose the certificate type to ensure secure connection between SysKit Point machine and web interface in the browser: 
 
-* Self-signed certificate – will be provided automatically by SysKit and will work for testing purposes. Since this certificate is not signed by a certificate authority, you will receive security warnings when you try to open the web application in browser from other machines \(other the one where the tool is installed\). 
-* Import SSL certificate – recommended for the production usage and it needs to be performed by the customer.  \(link na how to configure SSL certificate?\) 
+* **Import SSL certificate** – recommended for the production usage and it needs to be created by the end user/customer. For more information about SSL certificates, continue to [this article](../common-tasks-1/configure-ssl-certificate.md).
+* **Use self-signed certificate** – this is a certificate provided automatically by SysKit, and will work for testing purposes. Since this certificate is not signed by a certification authority, you will receive security warnings when you try to open the web application in browser from other machines \(other the one where SysKit Point is installed\). 
 
-SysKit Point application will open in the default browser once that you finish all steps of the Configuration Wizard and you are ready to go. 
+### Finish
+
+The last step shows the status of operations that are done before the application can be accessed. If the configuration was successful, all steps are marked with green checkmarks, and SysKit Point URL is shown.   
+  
+Click the **Finish** button to open SysKit Point in the default browser and you are ready to go. 
 
 
 
