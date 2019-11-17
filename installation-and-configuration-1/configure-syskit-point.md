@@ -87,6 +87,8 @@ Please note that this can be any global admin account; it doesn’t have to be t
 
 When you first connect to your tenant, SysKit Point will request permissions needed to collect data from your Office 365 environment.
 
+**TODO - insert consent image**
+
 To continue, click the **Accept** button.
 
 
