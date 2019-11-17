@@ -15,7 +15,7 @@ In the Configuration Wizard, you will need to provide the following information:
 * **Office 365 Global admin account**
 * **SSL Certificate** \(we can provide you with a self-signed one, but for production we recommend you use full SSL certificate\).
 
-{% hint style="warning" %}
+{% hint style="info" %}
 For a detailed overview of the **SysKit Point system and permission requirements**, [navigate to the Requirements section](../requirements-1/).
 {% endhint %}
 
