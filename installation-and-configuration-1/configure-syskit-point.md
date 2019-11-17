@@ -10,9 +10,9 @@ Once the installation is completed, by default, **SysKit Point - Configuration W
 
 In the Configuration Wizard, you will need to provide the following information:
 
-* MS SQL server name and SQL database name
-* Local service account credentials
-* Office 365 Global admin account credentials
+* MS SQL server and SQL database
+* Local service account
+* Office 365 Global admin account
 * SSL Certificate \(we can provide you with a self-signed one, but for production we recommend you use full SSL certificate\).
 
 ## Configuration Steps
