@@ -25,9 +25,7 @@
   * [View File and Folder Activities](common-tasks-1/view-file-and-folder-activities.md)
   * [Monitor User Activity](common-tasks-1/monitor-user-activity.md)
   * [Configure SSL Certificate](common-tasks-1/configure-ssl-certificate.md)
-
-## FAQ
-
-* [Report Data Limits](faq/untitled.md)
-* [Server Error](faq/server-error.md)
+* [FAQ](faq-1/README.md)
+  * [Report Data Limits](faq-1/untitled.md)
+  * [Server Error](faq-1/server-error.md)
 
