@@ -52,7 +52,7 @@ If everything is configured properly, an Info window appears with the message:
 
 Click **OK** to close the Info window, and **Next &gt;** to continue to the next step. 
 
-{% hint style="success" %}
+{% hint style="info" %}
 Check the supported SQLServer versions and requirements [here](../requirements-1/system-requirements.md).
 {% endhint %}
 
@@ -92,7 +92,8 @@ When you first connect to your tenant, SysKit Point will request permissions nee
 To continue, click the **Accept** button.
 
 {% hint style="info" %}
-Navigate to the [following article](../requirements-1/permission-requirements.md) to find out **why you need to provide an Office 365 global admin account**.
+**Why do I need to provide global admin account?**  
+You can find answers in the [following article](../requirements-1/permission-requirements.md).
 {% endhint %}
 
 ### Application Scope
