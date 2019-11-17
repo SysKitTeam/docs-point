@@ -30,16 +30,24 @@ First, you need to choose between the following two options:
 
 ### Database Configuration
 
-Provide SQL database server and database name 
+Provide SQL database server name and database name.
 
-Check the supported SQLServer versions and requirements [here](../requirements-1/system-requirements.md). 
+{% hint style="warning" %}
+Check the supported SQLServer versions and requirements [here](../requirements-1/system-requirements.md).
+{% endhint %}
 
-Choose the type of authentication to this SQL server and database: 
+ Choose the type of authentication to this SQL server and database: 
 
-* Windows Authentication \(recommended\)  
-* SQL Authentication 
+* **Windows Authentication** \(recommended\)  
+* **SQL Authentication** 
 
+{% hint style="warning" %}
 How to enter the server name? 
+
+* if you are using the default instance type “servername”, or “servername.yourdomain.loc” 
+* if you are using a named instance type “servername\instancename”, or “servername. Yourdomain.loc\instancenameˇ  
+* if your SQL Server is on a non-standard port \(different from 1433\), type “servername,port” or “servername\instance,port”. \(FQDN formats are also supported\) 
+{% endhint %}
 
 * if you are using the default instance type “servername”, or “servername.yourdomain.loc” 
 * if you are using a named instance type “servername\instancename”, or “servername. Yourdomain.loc\instancenameˇ  
