@@ -11,7 +11,7 @@ description: >-
 We recommend installing SysKit Point on a Windows Server machine, to allow SysKit Point Service to crawl your Office 365 environment continuously. 
 
 * **Windows Server 2012 and newer are supported** 
-* **Microsoft .NET Framework 4.5 or higher** 
+* **Microsoft .NET Framework 4.5 or higher**
 
 ## SQL Server
 
