@@ -77,7 +77,7 @@ Click **OK** to close the Success window, and **Next &gt;** to continue to the n
 
 ### Connect to Office 365
 
-Connect your Office 365 tenant by providing Office 365 global admin account. This account will be used for collecting all the data from your environment and for the continuous auto discovery of new resources.   
+Connect your Office 365 tenant by providing the Office 365 global admin account. This account will be used for collecting all the data from your environment and for the continuous auto discovery of new resources.   
 
 \*\*SysKit Point uses modern authentication methods and does not store any passwords or accounts that you present here. 
 
