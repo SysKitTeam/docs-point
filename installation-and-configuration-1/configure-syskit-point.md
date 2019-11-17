@@ -64,9 +64,18 @@ Provide local service account that will be used for running the automatic action
 * **Writing the collected data to a specified SQL database**  
 * **Writing down collected Audit data to the Index location** 
 
-Make sure that this account has all the [proper privileges](../requirements-1/permission-requirements.md). Supported service account formats: machine\_name\username, .\username. 
+Supported service account formats: 
 
-### Global Admin Account
+* `machine_name\username`
+* `.\username`
+
+After you've entered the credentials click the **Validate Account** button. If the account has all [proper privileges](../requirements-1/permission-requirements.md), a Success window appears with the message:   
+  
+`This account can be used to run SysKit Point!` 
+
+Click **OK** to close the Success window, and **Next &gt;** to continue to the next step. 
+
+### Connect to Office 365
 
 Connect your Office 365 tenant by providing Office 365 global admin account. This account will be used for collecting all the data from your environment and for the continuous auto discovery of new resources.   
 
