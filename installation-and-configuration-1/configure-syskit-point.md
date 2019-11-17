@@ -91,7 +91,7 @@ When you first connect to your tenant, SysKit Point will request permissions nee
 
 To continue, click the **Accept** button.
 
-{% hint style="info" %}
+{% hint style="warning" %}
 **Why do I need to provide global admin account?**  
 You can find answers in the [following article](../requirements-1/permission-requirements.md).
 {% endhint %}
