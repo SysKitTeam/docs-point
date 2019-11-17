@@ -13,7 +13,7 @@ We recommend installing SysKit Point on a Windows Server machine, to allow SysKi
 * **Windows Server 2012 and newer are supported** 
 * **Microsoft .NET Framework 4.5 or higher** 
 
-### Microsoft SQL Server and Database
+## SQL Server
 
 SysKit Point requires Microsoft SQL Server for storing data collected from Office 365. 
 
