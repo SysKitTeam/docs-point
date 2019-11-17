@@ -15,19 +15,75 @@ Once the installation is completed, by default, **SysKit Point - Configuration W
 
 ### Configuration Steps
 
+First thing, you need to choose the database type: 
+
+* **Create new database** – use this when configuring SysKit Point for the first time and if the account running the Configuration Wizard has proper privileges on SQL server to create new databases. 
+* **Use existing database** – if you have your SQL database pre-created by your SQL administrator or if you already configured SysKit Point and just upgrading to a newer version of SysKit Point or modifying settings. 
+
 #### SQL Server and Database
+
+Provide SQL database server and database name 
+
+Check the supported SQLServer versions and requirements \(link na requirements\). 
+
+Choose the type of authentication to this SQL server and database: 
+
+* Windows Authentication \(recommended\)  
+* SQL Authentication 
+
+How to enter the server name? 
+
+* if you are using the default instance type “servername”, or “servername.yourdomain.loc” 
+* if you are using a named instance type “servername\instancename”, or “servername. Yourdomain.loc\instancenameˇ  
+* if your SQL Server is on a non-standard port \(different from 1433\), type “servername,port” or “servername\instance,port”. \(FQDN formats are also supported\) 
+
+To make sure that you will be able to use this server and database, click on the Test Connection button and then Next to continue if everything is ok. 
 
 #### Service Account
 
+Provide local service account that will be used for running the automatic actions performed by SysKit Point, such as:  
+
+* Office 365 auto discovery and data crawl 
+* Writing the collected data to a specified SQL database  
+* Writing down collected Audit data to the Index location 
+
+Make sure that this account has all the proper privileges \(requirements\). Supported service account formats: machine\_name\username, .\username. 
+
 #### Global Admin Account
+
+Connect your Office 365 tenant by providing Office 365 global admin account. This account will be used for collecting all the data from your environment and for the continuous auto discovery of new resources.   
+
+\*\*SysKit Point uses modern authentication methods and does not store any passwords or accounts that you present here. 
+
+Please note that this can be any global admin account; it doesn’t have to be the account you will use in the future to log in to the application. 
+
+Why do I need to provide global admin account? \(link na drugi clanak\) 
 
 #### Application Scope
 
+Choose which information would you like to collect when it comes to your Office 365 environment: 
+
+1. Autodiscovery – allow the application to continuously monitor all updates and changes from the environment and present you with the latest data. 
+2. Audit Logs - collect all audit logs to monitor internal and external user activities and changes 
+3. OneDrive Accounts - collect information and report on user OneDrive activity, content and sharing 
+
+You can change this selection at any point of time under Settings \(link na setttings\). 
+
 #### Web Application
+
+ The default URL for the web interface is [https://machine-name](https://machine-name/) and port 443. You can customize this URL as you wish at any point in time, but make sure to configure DNS for the customized URL to correctly resolve the target address.   
+   
+Use this URL to log in to SysKit Point web interface.   
+ 
 
 #### Certificate
 
+Choose the certificate type to ensure secure connection between SysKit Point machine and web interface in browser: 
 
+* Self-signed certificate – will be provided automatically by SysKit and will work for testing purposes. Since this certificate is not signed by a certificate authority, you will receive security warnings when you try to open the web application in browser from other machines \(other the one where the tool is installed\). 
+* Import SSL certificate – recommended for the production usage and it needs to be performed by the customer.  \(link na how to configure SSL certificate?\) 
+
+SysKit Point application will open in the default browser once that you finish all steps of the Configuration Wizard and you are ready to go. 
 
 
 
