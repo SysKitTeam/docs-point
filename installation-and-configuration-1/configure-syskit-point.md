@@ -64,7 +64,7 @@ Provide local service account that will be used for running the automatic action
 * **Writing the collected data to a specified SQL database**  
 * **Writing down collected Audit data to the Index location** 
 
-Make sure that this account has all the proper privileges \(requirements\). Supported service account formats: machine\_name\username, .\username. 
+Make sure that this account has all the proper privileges. Supported service account formats: machine\_name\username, .\username. 
 
 ### Global Admin Account
 
