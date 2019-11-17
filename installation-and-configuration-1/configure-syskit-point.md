@@ -21,7 +21,7 @@ For a detailed overview of **SysKit Point system and permission requirements**, 
 
 ### Database
 
-First, you need to choose the database type: 
+First, you need to choose between two options regarding the database: 
 
 * **Create new database** – use this when configuring SysKit Point for the first time and if the account running the Configuration Wizard has proper privileges on SQL server to create new databases. 
 * **Use existing database** – if you have your SQL database pre-created by your SQL administrator or if you already configured SysKit Point and just upgrading to a newer version of SysKit Point or modifying settings. 
