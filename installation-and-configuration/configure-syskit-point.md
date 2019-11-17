@@ -6,21 +6,21 @@ description: This article explains how to configure SysKit Point
 
 Once the installation is completed, by default, **SysKit Point - Configuration Wizard** starts automatically. Alternatively, you can start it manually at any time by running it from the installation folder. The default location is: **C:\ProgramFiles\SysKit\Point\Host\Configuration.exe**.
 
-### Prerequisites
+## Prerequisites
 
 * MS SQL server and SQL database
 * Local service account
 * Office 365 Global admin account
 * SSL Certificate \(we can provide you with a self-signed one, but for production we recommend you use full SSL certificate\).
 
-### Configuration Steps
+## Configuration Steps
 
 First thing, you need to choose the database type: 
 
 * **Create new database** – use this when configuring SysKit Point for the first time and if the account running the Configuration Wizard has proper privileges on SQL server to create new databases. 
 * **Use existing database** – if you have your SQL database pre-created by your SQL administrator or if you already configured SysKit Point and just upgrading to a newer version of SysKit Point or modifying settings. 
 
-#### SQL Server and Database
+### SQL Server and Database
 
 Provide SQL database server and database name 
 
@@ -39,7 +39,7 @@ How to enter the server name?
 
 To make sure that you will be able to use this server and database, click on the Test Connection button and then Next to continue if everything is ok. 
 
-#### Service Account
+### Service Account
 
 Provide local service account that will be used for running the automatic actions performed by SysKit Point, such as:  
 
@@ -49,7 +49,7 @@ Provide local service account that will be used for running the automatic action
 
 Make sure that this account has all the proper privileges \(requirements\). Supported service account formats: machine\_name\username, .\username. 
 
-#### Global Admin Account
+### Global Admin Account
 
 Connect your Office 365 tenant by providing Office 365 global admin account. This account will be used for collecting all the data from your environment and for the continuous auto discovery of new resources.   
 
@@ -59,7 +59,7 @@ Please note that this can be any global admin account; it doesn’t have to be t
 
 Why do I need to provide global admin account? \(link na drugi clanak\) 
 
-#### Application Scope
+### Application Scope
 
 Choose which information would you like to collect when it comes to your Office 365 environment: 
 
@@ -69,14 +69,14 @@ Choose which information would you like to collect when it comes to your Office 
 
 You can change this selection at any point of time under Settings \(link na setttings\). 
 
-#### Web Application
+### Web Application
 
  The default URL for the web interface is [https://machine-name](https://machine-name/) and port 443. You can customize this URL as you wish at any point in time, but make sure to configure DNS for the customized URL to correctly resolve the target address.   
    
 Use this URL to log in to SysKit Point web interface.   
  
 
-#### Certificate
+### Certificate
 
 Choose the certificate type to ensure secure connection between SysKit Point machine and web interface in browser: 
 
