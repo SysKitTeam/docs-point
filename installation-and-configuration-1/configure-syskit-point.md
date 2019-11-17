@@ -119,11 +119,8 @@ Choose the certificate type to ensure a secure connection between SysKit Point m
 
 The last step shows the status of all operations that are done before you can access SysKit Point. If the configuration was successful, all steps are marked with green checkmarks, and SysKit Point URL is shown.   
   
-Click the **Finish** button to open SysKit Point in the default browser, and you are ready to go. 
+Click the **Finish** button to open SysKit Point in the default browser, and you are ready to go.   
 
 
-
-
-
-
+[Get to know SysKit Point by reading the Quick Start Guide article.](../how-to-1/untitled.md)
 
