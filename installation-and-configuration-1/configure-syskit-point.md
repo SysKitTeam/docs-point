@@ -95,21 +95,14 @@ To continue, click the **Accept** button. New window opens where you can choose 
 * **OneDrive** - by default, SysKit Point will collect information and report on user OneDrive activity, content and sharing. To stop collecting OneDrive data, uncheck this option.
 * **Audit Logs** - SysKit Point will also collect all audit logs to monitor internal and external user activities and changes and Store them to local hard drive. To stop storing audit logs, uncheck this option.
 
-You can change these options anytime by navigating to **Settings**. 
+You can change these options anytime by navigating to **Settings** in SysKit Point. 
 
 {% hint style="warning" %}
 **Why do I need to provide global admin account?**  
 You can find answers in the [following article](../requirements-1/permission-requirements.md).
 {% endhint %}
 
-### Application Scope
-
-: 
-
-1. 
-You can change this selection at any point of time under Settings \(link na setttings\). 
-
-### Web Application
+### Web Application Settings
 
  The default URL for the web interface is [https://machine-name](https://machine-name/) and port 443. You can customize this URL as you wish at any point in time, but make sure to configure DNS for the customized URL to correctly resolve the target address.   
    
