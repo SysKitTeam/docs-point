@@ -33,15 +33,6 @@ First, you need to choose between the following two options:
 Provide SQL database server name and database name.
 
 {% hint style="warning" %}
-Check the supported SQLServer versions and requirements [here](../requirements-1/system-requirements.md).
-{% endhint %}
-
- Choose the type of authentication to this SQL server and database: 
-
-* **Windows Authentication** \(recommended\)  
-* **SQL Authentication** 
-
-{% hint style="warning" %}
 **How to enter the server name?** 
 
 * if you are using the default instance type “servername”, or “servername.yourdomain.loc” 
@@ -49,11 +40,21 @@ Check the supported SQLServer versions and requirements [here](../requirements-1
 * if your SQL Server is on a non-standard port \(different from 1433\), type “servername,port” or “servername\instance,port”. \(FQDN formats are also supported\) 
 {% endhint %}
 
-* if you are using the default instance type “servername”, or “servername.yourdomain.loc” 
-* if you are using a named instance type “servername\instancename”, or “servername. Yourdomain.loc\instancenameˇ  
-* if your SQL Server is on a non-standard port \(different from 1433\), type “servername,port” or “servername\instance,port”. \(FQDN formats are also supported\) 
+ Choose the type of authentication to this SQL server and database: 
 
-To make sure that you will be able to use this server and database, click on the Test Connection button and then Next to continue if everything is ok. 
+* **Windows Authentication** \(recommended\)  
+* **SQL Authentication** 
+
+To make sure that you will be able to use this server and database, click the **Test Connection** button.  
+If everything is configured properly, an Info window appears with the message:  
+  
+**`Successfully connected to the SQL Server`** 
+
+Click **OK** to close the Info window, and **Next &gt;** to continue to the next step. 
+
+{% hint style="warning" %}
+Check the supported SQLServer versions and requirements [here](../requirements-1/system-requirements.md).
+{% endhint %}
 
 ### Service Account
 
