@@ -17,16 +17,14 @@
 * [How To](how-to-1/README.md)
   * [SysKit Point Quick Start Guide](how-to-1/untitled.md)
   * [Collect Office 365 Data](how-to-1/collect-office-365-data.md)
-
-## Common Tasks
-
-* [Check Access for Specific User](common-tasks/check-access-for-specific-user.md)
-* [Check Who Has Access to What in Office 365](common-tasks/check-who-has-access-to-what-in-office-365.md)
-* [Track External Users and Their Activities](common-tasks/track-external-users-and-their-activities.md)
-* [View Permission Changes](common-tasks/view-permission-changes.md)
-* [View File and Folder Activities](common-tasks/view-file-and-folder-activities.md)
-* [Monitor User Activity](common-tasks/monitor-user-activity.md)
-* [Configure SSL Certificate](common-tasks/configure-ssl-certificate.md)
+* [Common Tasks](common-tasks-1/README.md)
+  * [Check Access for Specific User](common-tasks-1/check-access-for-specific-user.md)
+  * [Check Who Has Access to What in Office 365](common-tasks-1/check-who-has-access-to-what-in-office-365.md)
+  * [Track External Users and Their Activities](common-tasks-1/track-external-users-and-their-activities.md)
+  * [View Permission Changes](common-tasks-1/view-permission-changes.md)
+  * [View File and Folder Activities](common-tasks-1/view-file-and-folder-activities.md)
+  * [Monitor User Activity](common-tasks-1/monitor-user-activity.md)
+  * [Configure SSL Certificate](common-tasks-1/configure-ssl-certificate.md)
 
 ## FAQ
 
