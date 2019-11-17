@@ -42,7 +42,7 @@ Check the supported SQLServer versions and requirements [here](../requirements-1
 * **SQL Authentication** 
 
 {% hint style="warning" %}
-How to enter the server name? 
+**How to enter the server name?** 
 
 * if you are using the default instance type “servername”, or “servername.yourdomain.loc” 
 * if you are using a named instance type “servername\instancename”, or “servername. Yourdomain.loc\instancenameˇ  
