@@ -89,7 +89,11 @@ When you first connect to your tenant, SysKit Point will request permissions nee
 
 **TODO - insert consent image**
 
-To continue, click the **Accept** button.
+To continue, click the **Accept** button. New window opens where you can choose which information would you like to collect when it comes to your Office 365 environment:
+
+* Automatic Discovery – allow the application to continuously monitor all updates and changes from the environment and present you with the latest data. 
+* Audit Logs - collect all audit logs to monitor internal and external user activities and changes 
+* OneDrive Accounts - collect information and report on user OneDrive activity, content and sharing 
 
 {% hint style="warning" %}
 **Why do I need to provide global admin account?**  
@@ -98,12 +102,9 @@ You can find answers in the [following article](../requirements-1/permission-req
 
 ### Application Scope
 
-Choose which information would you like to collect when it comes to your Office 365 environment: 
+: 
 
-1. Autodiscovery – allow the application to continuously monitor all updates and changes from the environment and present you with the latest data. 
-2. Audit Logs - collect all audit logs to monitor internal and external user activities and changes 
-3. OneDrive Accounts - collect information and report on user OneDrive activity, content and sharing 
-
+1. 
 You can change this selection at any point of time under Settings \(link na setttings\). 
 
 ### Web Application
