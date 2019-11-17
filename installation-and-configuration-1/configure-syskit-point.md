@@ -83,8 +83,6 @@ Connect your Office 365 tenant by providing the Office 365 global admin account.
 **SysKit Point** uses modern authentication methods and **does not store any passwords or accounts** that you present here.
 {% endhint %}
 
-SysKit Point uses modern authentication methods and does not store any passwords or accounts that you present here. 
-
 Please note that this can be any global admin account; it doesn’t have to be the account you will use in the future to log in to the application. 
 
 Why do I need to provide global admin account? \(link na drugi clanak\) 
