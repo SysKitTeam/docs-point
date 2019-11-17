@@ -16,7 +16,7 @@ In the Configuration Wizard, you will need to provide the following information:
 * **SSL Certificate** \(we can provide you with a self-signed one, but for production we recommend you use full SSL certificate\).
 
 {% hint style="info" %}
-For a detailed overview of the **SysKit Point system and permission requirements**, [navigate to the Requirements section](../requirements-1/).
+For a detailed overview of the **SysKit Point system and permission requirements**, [navigate to the Requirements section](../requirements/).
 {% endhint %}
 
 ## Configuration Steps
@@ -53,7 +53,7 @@ If everything is configured properly, an Info window appears with the message:
 Click **OK** to close the Info window, and **Next &gt;** to continue to the next step. 
 
 {% hint style="info" %}
-Check the supported SQLServer versions and requirements [here](../requirements-1/system-requirements.md).
+Check the supported SQLServer versions and requirements [here](../requirements/system-requirements.md).
 {% endhint %}
 
 ### Service Settings
@@ -69,7 +69,7 @@ Supported service account formats:
 * `machine_name\username`
 * `.\username`
 
-After you've entered the credentials click the **Validate Account** button. If the account has all [proper privileges](../requirements-1/permission-requirements.md), a Success window appears with the message:   
+After you've entered the credentials click the **Validate Account** button. If the account has all [proper privileges](../requirements/permission-requirements.md), a Success window appears with the message:   
   
 `This account can be used to run SysKit Point!` 
 
@@ -99,7 +99,7 @@ You can change these options anytime by navigating to **Settings** in SysKit Poi
 
 {% hint style="warning" %}
 **Why do I need to provide a global admin account?**  
-You can find answers in the [following article](../requirements-1/permission-requirements.md).
+You can find answers in the [following article](../requirements/permission-requirements.md).
 {% endhint %}
 
 ### Web Application Settings

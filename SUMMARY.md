@@ -2,9 +2,9 @@
 
 * [SysKit Point](README.md)
 * [Product Updates](product-updates.md)
-* [Requirements](requirements-1/README.md)
-  * [System Requirements](requirements-1/system-requirements.md)
-  * [Permission Requirements](requirements-1/permission-requirements.md)
+* [Requirements](requirements/README.md)
+  * [System Requirements](requirements/system-requirements.md)
+  * [Permission Requirements](requirements/permission-requirements.md)
 * [Installation & Configuration](installation-and-configuration-1/README.md)
   * [Install SysKit Point](installation-and-configuration-1/install-syskit-point.md)
   * [Configure SysKit Point](installation-and-configuration-1/configure-syskit-point.md)
