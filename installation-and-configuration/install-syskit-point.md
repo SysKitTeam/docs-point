@@ -7,7 +7,7 @@ description: This article guides you through the SysKit Point installation.
 **SysKit Point** is a desktop application with a web-based interface, meaning that you need to install it on a Windows machine or server in your environment. 
 
 {% hint style="warning" %}
-Check the exact [hardware and software requirements here](../requirements/system-requirements.md).
+Check the exact [hardware and software requirements here](../requirements-1/system-requirements.md).
 {% endhint %}
 
 After installation, you can access the SysKit Point interface from any supported internet browser through the specified app URL.

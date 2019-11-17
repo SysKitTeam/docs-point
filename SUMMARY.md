@@ -1,11 +1,10 @@
 # Table of contents
 
 * [SysKit Point](README.md)
-
-## Requirements
-
-* [System Requirements](requirements/system-requirements.md)
-* [Permission Requirements](requirements/permission-requirements.md)
+* [Product Updates](product-updates.md)
+* [Requirements](requirements-1/README.md)
+  * [System Requirements](requirements-1/system-requirements.md)
+  * [Permission Requirements](requirements-1/permission-requirements.md)
 
 ## Installation & Configuration
 
