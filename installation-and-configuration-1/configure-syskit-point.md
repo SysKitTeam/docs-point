@@ -32,7 +32,7 @@ First, you need to choose between the following two options:
 
 Provide SQL database server and database name 
 
-Check the supported SQLServer versions and requirements \(link na requirements\). 
+Check the supported SQLServer versions and requirements [here](../requirements-1/system-requirements.md). 
 
 Choose the type of authentication to this SQL server and database: 
 
