@@ -5,13 +5,11 @@
 * [Requirements](requirements-1/README.md)
   * [System Requirements](requirements-1/system-requirements.md)
   * [Permission Requirements](requirements-1/permission-requirements.md)
-
-## Installation & Configuration
-
-* [Install SysKit Point](installation-and-configuration/install-syskit-point.md)
-* [Configure SysKit Point](installation-and-configuration/configure-syskit-point.md)
-* [Enable Role-Based Access](installation-and-configuration/enable-role-based-access.md)
-* [Customize Audit Logs Collection](installation-and-configuration/customize-audit-logs-collection.md)
+* [Installation & Configuration](installation-and-configuration-1/README.md)
+  * [Install SysKit Point](installation-and-configuration-1/install-syskit-point.md)
+  * [Configure SysKit Point](installation-and-configuration-1/configure-syskit-point.md)
+  * [Enable Role-Based Access](installation-and-configuration-1/enable-role-based-access.md)
+  * [Customize Audit Logs Collection](installation-and-configuration-1/customize-audit-logs-collection.md)
 
 ## Activation
 
