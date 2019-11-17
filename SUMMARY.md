@@ -10,17 +10,13 @@
   * [Configure SysKit Point](installation-and-configuration-1/configure-syskit-point.md)
   * [Enable Role-Based Access](installation-and-configuration-1/enable-role-based-access.md)
   * [Customize Audit Logs Collection](installation-and-configuration-1/customize-audit-logs-collection.md)
-
-## Activation
-
-* [Activate SysKit Point](activation/untitled.md)
-* [Activation Privacy Statement](activation/activation-privacy-statement.md)
-* [Activation FAQ](activation/activation-faq.md)
-
-## How To
-
-* [SysKit Point Quick Start Guide](how-to/untitled.md)
-* [Collect Office 365 Data](how-to/collect-office-365-data.md)
+* [Activation](activation-1/README.md)
+  * [Activate SysKit Point](activation-1/untitled.md)
+  * [Activation Privacy Statement](activation-1/activation-privacy-statement.md)
+  * [Activation FAQ](activation-1/activation-faq.md)
+* [How To](how-to-1/README.md)
+  * [SysKit Point Quick Start Guide](how-to-1/untitled.md)
+  * [Collect Office 365 Data](how-to-1/collect-office-365-data.md)
 
 ## Common Tasks
 
