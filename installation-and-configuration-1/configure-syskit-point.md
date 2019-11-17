@@ -91,13 +91,9 @@ When you first connect to your tenant, SysKit Point will request permissions nee
 
 To continue, click the **Accept** button.
 
-
-
- you will need to **grant SysKit Point permissions**   
-  
-
-
-Why do I need to provide global admin account?
+{% hint style="info" %}
+Navigate to the [following article](../requirements-1/permission-requirements.md) to find out **why you need to provide an Office 365 global admin account**.
+{% endhint %}
 
 ### Application Scope
 
