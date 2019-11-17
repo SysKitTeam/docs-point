@@ -8,10 +8,19 @@ description: >-
 
 ## Software
 
-We recommend installing SysKit Point on a Windows Server machine, to allow SysKit Point Service to crawl the environment continuously. 
+We recommend installing SysKit Point on a Windows Server machine, to allow SysKit Point Service to crawl your Office 365 environment continuously. 
 
 * **Windows Server 2012 and newer are supported** 
 * **Microsoft .NET Framework 4.5 or higher** 
+
+### Microsoft SQL Server and Database
+
+SysKit Point requires Microsoft SQL Server for storing data collected from Office 365. 
+
+* **Microsoft SQL Server 2012 and never are supported**
+* **SQL Express can be used for demo or trial purposes only**
+
+Permission requirements for the account used to connect to the SQL server are listed [here](permission-requirements.md).
 
 ## Hardware
 
@@ -21,12 +30,10 @@ SysKit Point requires a server where SysKit Point will be installed and a SQL se
 
 Here is the list of recommended hardware requirements based on the size of your environment. 
 
-
+**TODO - ubaciti sliku?**
 
 {% hint style="warning" %}
 **Please note!**   
 ****If you do not own On-Premises servers, you can use Azure Virtual Machine with the installed SQL server on it as well. Have in mind the requirements recommendation when creating this virtual machine.
 {% endhint %}
-
-Please note! If you do not own On-Premises servers, you can use Azure Virtual Machine with the installed SQL server on it as well. Have in mind the requirements recommendation when creating this virtual machine.
 
