@@ -85,6 +85,16 @@ Please note that this can be any global admin account; it doesn’t have to be t
 **SysKit Point** uses modern authentication methods and **does not store any passwords or accounts** that you present here.
 {% endhint %}
 
+When you first connect to your tenant, SysKit Point will request permissions needed to collect data from your Office 365 environment.
+
+To continue, click the **Accept** button.
+
+
+
+ you will need to **grant SysKit Point permissions**   
+  
+
+
 Why do I need to provide global admin account?
 
 ### Application Scope
