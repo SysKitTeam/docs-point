@@ -60,9 +60,9 @@ Check the supported SQLServer versions and requirements [here](../requirements-1
 
 Provide local service account that will be used for running the automatic actions performed by SysKit Point, such as:  
 
-* Office 365 auto discovery and data crawl 
-* Writing the collected data to a specified SQL database  
-* Writing down collected Audit data to the Index location 
+* **Office 365 auto discovery and data crawl** 
+* **Writing the collected data to a specified SQL database**  
+* **Writing down collected Audit data to the Index location** 
 
 Make sure that this account has all the proper privileges \(requirements\). Supported service account formats: machine\_name\username, .\username. 
 
