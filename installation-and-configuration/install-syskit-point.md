@@ -20,7 +20,7 @@ After installation, you can access the SysKit Point interface from any supported
 4. By default, the installation folder is set to **C:\Program Files\SysKit\Point**. You can modify it by clicking the **Change** button. Once selected, click **Next &gt;** to proceed. 
 5. By default, the **Run Configuration Wizard now** option is selected. **SysKit Point Configuration Wizard** will, therefore, automatically start when you click the **Finish** button.  Alternatively, you can always start the Configuration Wizard manually by running it from the installation folder. The default location is: **C:\ProgramFiles\SysKit\Point\Host\Configuration.exe**.
 
-For more information about Configuration Wizard, [continue to the next article](configure-syskit-point.md).  
+To continue with the configuration of the application, proceed to the [next article](configure-syskit-point.md).  
 
 
 
