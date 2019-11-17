@@ -89,16 +89,16 @@ When you first connect to your tenant, SysKit Point will request permissions nee
 
 **TODO - insert consent image**
 
-To continue, click the **Accept** button. New window opens where you can choose which information would you like to collect when it comes to your Office 365 environment:
+To continue, click the **Accept** button. A new window opens where you can choose which information would you like to collect when it comes to your Office 365 environment:
 
 * **Automatic Discovery** – by default, SysKit Point continuously monitors your Office 365 environment and shows you the latest data. SharePoint Online sites and Office 365 Groups data will always be monitored. This setting cannot be modified.
 * **OneDrive** - by default, SysKit Point will collect information and report on user OneDrive activity, content and sharing. To stop collecting OneDrive data, uncheck this option.
-* **Audit Logs** - SysKit Point will also collect all audit logs to monitor internal and external user activities and changes and Store them to local hard drive. To stop storing audit logs, uncheck this option.
+* **Audit Logs** - SysKit Point will also collect all audit logs to monitor internal and external user activities and changes and Store them to the hard drive. To stop storing audit logs, uncheck this option.
 
 You can change these options anytime by navigating to **Settings** in SysKit Point. 
 
 {% hint style="warning" %}
-**Why do I need to provide global admin account?**  
+**Why do I need to provide a global admin account?**  
 You can find answers in the [following article](../requirements-1/permission-requirements.md).
 {% endhint %}
 
@@ -106,20 +106,20 @@ You can find answers in the [following article](../requirements-1/permission-req
 
 The default URL for the web interface of SysKit Point is set to [`https://machine-name`](https://machine-name/) and port to `443`. You can customize these values as you wish at any point in time, but make sure to also configure your DNS for the customized URL to correctly resolve the target address.   
    
-Use this URL to log in to SysKit Point web interface from the web browser of your choice. 
+Use this URL to log in to the SysKit Point web interface from the web browser of your choice. 
 
 #### SSL Certificates
 
-Choose the certificate type to ensure secure connection between SysKit Point machine and web interface in the browser: 
+Choose the certificate type to ensure a secure connection between SysKit Point machine and web interface in the browser: 
 
-* **Import SSL certificate** – recommended for the production usage and it needs to be created by the end user/customer. For more information about SSL certificates, continue to [this article](../common-tasks-1/configure-ssl-certificate.md).
-* **Use self-signed certificate** – this is a certificate provided automatically by SysKit, and will work for testing purposes. Since this certificate is not signed by a certification authority, you will receive security warnings when you try to open the web application in browser from other machines \(other the one where SysKit Point is installed\). 
+* **Import SSL certificate** – recommended for the production usage and it needs to be created by the end-user/customer. For more information about SSL certificates, continue to [this article](../common-tasks-1/configure-ssl-certificate.md).
+* **Use self-signed certificate** – this is a certificate provided automatically by SysKit, and will work for testing purposes. Since this certificate is not signed by a certification authority, you will receive security warnings when you try to open the web application in the browser from other machines \(other than the one where SysKit Point is installed\). 
 
 ### Finish
 
-The last step shows the status of operations that are done before the application can be accessed. If the configuration was successful, all steps are marked with green checkmarks, and SysKit Point URL is shown.   
+The last step shows the status of all operations that are done before you can access SysKit Point. If the configuration was successful, all steps are marked with green checkmarks, and SysKit Point URL is shown.   
   
-Click the **Finish** button to open SysKit Point in the default browser and you are ready to go. 
+Click the **Finish** button to open SysKit Point in the default browser, and you are ready to go. 
 
 
 
