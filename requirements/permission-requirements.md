@@ -27,3 +27,17 @@ User running SysKit Security Manager will need to be granted the **db\_datareade
 
 ### Service Account
 
+**Service Configuration** wizard page requires appropriate [service account](https://docs.microsoft.com/en-us/windows/security/identity-protection/access-control/service-accounts) details.
+
+A service account is a user account that is created explicitly to provide a security context for services running on Windows Server operating systems. The security context determined the service’s ability to access local and network resources. The Windows operating systems rely on services to run various features. These services can be configured through the applications, the Services snap-in, or Task Manager, or by using Windows PowerShell.
+
+**The service account needs to have the following privileges** to be able to run the service, collect Office 365 data and run other associated jobs:
+
+* **local administrator** privileges on the installation computer with UAC control disabled so we can verify your credentials
+* **db\_owner** privileges on the created SysKit Point dedicated database
+* **log on as Service** rights configured
+
+{% hint style="info" %}
+If the service account is outside your domain the account name must be typed in the down-level logon name format: _**domain\accountname**_
+{% endhint %}
+
