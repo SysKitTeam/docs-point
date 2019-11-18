@@ -17,7 +17,7 @@ We recommend installing SysKit Point on a Windows Server machine, to allow SysKi
 
 SysKit Point requires Microsoft SQL Server database for storing data collected from Office 365. 
 
-* **Microsoft SQL Server 2012 and never are supported**
+* **Microsoft SQL Server 2012 and newer are supported**
 * **SQL Express can be used for demo or trial purposes only**
 
 Permission requirements for the account used to connect to the SQL server are listed [here](permission-requirements.md).
