@@ -46,5 +46,9 @@ If the service account is outside your domain the account name must be typed in 
 ### Global Administrator
 
 **When connecting to an Office 365 tenant** during the [Configuration](../installation-and-configuration/configure-syskit-point.md#connect-to-office-365) process, **you need to connect with an Global Administrator account.**   
-will be prompted to consent to a set of permissions that SysKit Security Manager requires to function properly. Additional prompts may show up in the future when installing a newer version of SysKit Security Manager because of new functionality and in consequence potentially new required permissions.
+The first time, you will be prompted to consent to a set of permissions that SysKit Point requires to function properly. Additional prompts may show up in the future when installing a newer version of SysKit Point because of new functionality and in consequence potentially new required permissions.
+
+**TODO insert consent image**
+
+To achieve its functionality, SysKit Point is registered as an **Enterprise Application in Azure Active Directory.** The permissions model is based on OAuth and OpenID Connect flows. This enables us to consume all of the APIs provided by Microsoft in a standard and well defined way. It also enables us to use modern authentication including Multi-Factor Authentication.
 
