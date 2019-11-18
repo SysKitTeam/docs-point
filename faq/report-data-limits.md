@@ -18,8 +18,8 @@ Once a certain threshold value is reached, a warning message will appear. For in
 
 What to do when you encounter these warning messages? There are two approaches you can take: 
 
-* Specify the report generation parameters more conservatively. For instance, you might want to generate a Permission Matrix report for a fewer number of sites. That is the recommended approach. 
-* Increase the related threshold setting. That might in turn greatly affect the application’s performance and load times which is something to keep in mind while choosing the right value for you. 
+* **Specify the report generation parameters more conservatively** - for instance, you might want to generate a Permission Matrix report for a fewer number of sites. That is the recommended approach. 
+* **Increase the related threshold setting** - that might in turn greatly affect the application’s performance and load times which is something to keep in mind while choosing the right value for you. 
 
 When the data is simply too large 
 
