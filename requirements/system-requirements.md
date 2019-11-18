@@ -32,6 +32,8 @@ Here is the list of recommended hardware requirements based on the license type 
 
 ### Professional Subscription
 
+Environments with fewer than 1000 users.
+
 | Server | Resource | Recommended |
 | :--- | :--- | :--- |
 | **Point Server** | CPU | 64-bit CPU, 2 cores |
