@@ -22,10 +22,6 @@ SysKit Point requires Microsoft SQL Server database for storing data collected f
 
 Permission requirements for the account used to connect to the SQL server are listed [here](permission-requirements.md).
 
-{% page-ref page="permission-requirements.md" %}
-
-
-
 ## Hardware
 
 **Hardware requirements highly depend on the Office 365 activity, number of users and the amount of data in your environment.** The larger the environment, the more resources will be required to smoothly run SysKit Point. 
