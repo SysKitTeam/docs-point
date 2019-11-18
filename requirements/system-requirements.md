@@ -37,8 +37,8 @@ For Office 365 environments with up to 1000 users.
 | Server/Resource | CPU | Memory | Disk | SQL Edition | SQL Version |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Point Server | 64-bit CPU, 2 cores | 8GB RAM | 6GB-12GB per month for 1000 users | - | - |
-| SQL Server | MS SQL Recommended System Requirements or better | MS SQL Recommended System Requirements or better | - |  |  |
-| Point & SQL on the same machine |  |  |  |  |  |
+| SQL Server | MS SQL Recommended System Requirements or better | MS SQL Recommended System Requirements or better | - | MS SQL Server Express and better | MS SQL Server 2012 and newer |
+| Point & SQL on the same machine | 64-bit CPU, 4 cores | 16GB RAM | 6GB-12GB per month for 1000 users | - | - |
 
 ### Team Subscription
 
