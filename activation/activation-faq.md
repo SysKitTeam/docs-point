@@ -53,7 +53,7 @@ You can migrate the license key to a new machine only once in every 30 days.
 
 ### How to deactivate the license? 
 
-Detailed instructions on how to deactivate the license are given[ here](./).
+Detailed instructions on how to deactivate the license are given[ here](activate-syskit-point.md#deactivate-license).
 
 ### Where can I find the EULA for SysKit Point? 
 
@@ -68,5 +68,8 @@ To reset your password, please go to the [following link](https://my.syskit.com/
 3. Instructions on how to reset your password will be emailed to you.  
 4. If for some reason you are still unable to retrieve the new password, please [contact us](https://www.syskit.com/company/contact-us/) for further assistance. 
 
-Please note! These notifications can sometimes end up in your junk folder, so please check there if you don’t see our email within a few minutes. To avoid these situations, please add our email address to your Safe Senders List. 
+{% hint style="warning" %}
+**Please note!**   
+These notifications can sometimes end up in your junk folder, so please check there if you don’t see our email within a few minutes. To avoid these situations, please add our email address to your Safe Senders List. 
+{% endhint %}
 
