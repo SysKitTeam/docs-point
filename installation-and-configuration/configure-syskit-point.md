@@ -122,5 +122,5 @@ The last step shows the status of all operations that are done before you can ac
 Click the **Finish** button to open SysKit Point in the default browser, and you are ready to go.   
 
 
-[Get to know SysKit Point by reading the Quick Start Guide article.](../how-to/untitled.md)
+[Get to know SysKit Point by reading the Quick Start Guide article.](../how-to/syskit-point-quick-start-guide.md)
 

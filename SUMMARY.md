@@ -15,7 +15,7 @@
   * [Activation Privacy Statement](activation/activation-privacy-statement.md)
   * [Activation FAQ](activation/activation-faq.md)
 * [How To](how-to/README.md)
-  * [SysKit Point Quick Start Guide](how-to/untitled.md)
+  * [SysKit Point Quick Start Guide](how-to/syskit-point-quick-start-guide.md)
   * [Collect Office 365 Data](how-to/collect-office-365-data.md)
 * [Common Tasks](common-tasks/README.md)
   * [Check Access for Specific User](common-tasks/check-access-for-specific-user.md)
