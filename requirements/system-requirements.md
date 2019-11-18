@@ -28,9 +28,21 @@ Permission requirements for the account used to connect to the SQL server are li
 
 SysKit Point requires a server where SysKit Point will be installed and a SQL server for the database \(for smaller Office 365 environments this can be the same server\). 
 
-Here is the list of recommended hardware requirements based on the license type and the size of your environment. 
+Here is the list of recommended hardware requirements based on your license type and the size of your environment. 
 
-**TODO ubaciti table image**
+### Professional Subscription
+
+For Office 365 environments with up to 1000 users.
+
+| Server/Resource | CPU | Memory | Disk | SQL Edition | SQL Version |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Point Server | 64-bit CPU, 2 cores | 8GB RAM | 6GB-12GB per month for 1000 users | - | - |
+| SQL Server | MS SQL Recommended System Requirements or better | MS SQL Recommended System Requirements or better | - |  |  |
+| Point & SQL on the same machine |  |  |  |  |  |
+
+### Team Subscription
+
+For Office 365 environments with up to 10000 users.
 
 {% hint style="warning" %}
 **Please note!**   
