@@ -53,7 +53,7 @@ You can migrate the license key to a new machine only once in every 30 days.
 
 ### How to deactivate the license? 
 
-\(Link na Activations clanak, podsection Deactivation\) 
+Detailed instructions on how to deactivate the license are given[ here](./).
 
 ### Where can I find the EULA for SysKit Point? 
 
