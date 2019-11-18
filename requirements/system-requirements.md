@@ -30,47 +30,7 @@ SysKit Point requires a server where SysKit Point will be installed and a SQL se
 
 Here is the list of recommended hardware requirements based on the license type and the size of your environment. 
 
-### Professional Subscription
-
-Environments with fewer than 1000 users.
-
-| Server | Resource | Recommended |
-| :--- | :--- | :--- |
-| **Point Server** | CPU | 64-bit CPU, 2 cores |
-|  | Memory | 8GB RAM |
-|  | Disk | 6GB-12GB per month for 1000 users |
-| **SQL Server** | CPU | MS SQL Recommended System Requirements or better |
-|  | Memory | MS SQL Recommended System Requirements or better |
-|  | SQL Edition | MS SQL Server Express and better |
-|  | SQL Version | MS SQL Server 2012 and newer |
-| **Point and SQL on the same machine** | CPU | 64-bit CPU, 4 cores |
-|  | Memory | 16GB RAM |
-|  | Disk | 6GB-12GB per month for 1000 users |
-
-{% tabs %}
-{% tab title="Professional" %}
-| Server | Resource | Recommended |
-| :--- | :--- | :--- |
-| **Point Server** | CPU | 64-bit CPU, 2 cores |
-|  | Memory | 8GB RAM |
-|  | Disk | 6GB-12GB per month for 1000 users |
-| **SQL Server** | CPU | MS SQL Recommended System Requirements or better |
-|  | Memory | MS SQL Recommended System Requirements or better |
-|  | SQL Edition | MS SQL Server Express and better |
-|  | SQL Version | MS SQL Server 2012 and newer |
-| **Point and SQL on the same machine** | CPU | 64-bit CPU, 4 cores |
-|  | Memory | 16GB RAM |
-|  | Disk | 6GB-12GB per month for 1000 users |
-{% endtab %}
-
-{% tab title="Team" %}
-
-{% endtab %}
-
-{% tab title="Enterprise" %}
-
-{% endtab %}
-{% endtabs %}
+**TODO ubaciti table image**
 
 {% hint style="warning" %}
 **Please note!**   
