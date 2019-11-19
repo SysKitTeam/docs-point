@@ -1,5 +1,5 @@
 ---
-description: This article describe the first version of SysKit Point.
+description: This article describes the first version of SysKit Point.
 ---
 
 # SysKit Point 10
