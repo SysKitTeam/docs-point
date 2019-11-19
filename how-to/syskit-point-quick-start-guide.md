@@ -44,8 +44,6 @@ Whenever possible, SysKit Point shows you an external link so you can, e.g. quic
 
 ![SysKit Point - External link for a site](../.gitbook/assets/syskit-point-quick-start-guide_drill_external-link.png)
 
-
-
 ## **What will you see here if you are a Site owner/Administrator?** 
 
 SysKit Point will present you with the inventory of your resources, meaning you will be able to see sites, Teams and Office 365 groups you are the owner of.  
