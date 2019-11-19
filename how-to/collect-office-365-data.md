@@ -49,7 +49,7 @@ While the first Sync collects data for all SharePoint Online Sites, Microsoft Te
 Since change detection is based on Office 365 audit log data, it can take up to 24 hours after a change event occurs for the corresponding audit log entry to be available for SysKit Point to process. 
 {% endhint %}
 
-**Auto Discover takes place every 24 hours.**
+**Auto Discover of Sites and Office 365 Groups is by default run every 24 hours.**
 
 **User Sync is by default run every 24 hours** and collects data for all Office 365 tenant users. Single user sync is not available at this point.
 
