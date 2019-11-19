@@ -24,7 +24,7 @@ And the second time when your app opens in a browser after the installation! All
 
 ## Simplicity
 
-Drills, breadcrumbs, views, contextual and global actions, filters, and each and every aspect of SysKit Point was redone and **made to simplify navigation in the app**. **Simple as it can possibly be, but flexible enough to do everything you need** was the main thought behind every developed feature. [View more details here.](../how-to/syskit-point-quick-start-guide.md)
+Drills, breadcrumbs, views, contextual and global actions, filters, and each and every aspect of SysKit Point was redone and **made to simplify navigation in the app**. **Simple as it can possibly be, but flexible enough to do everything you need** was the main thought behind every developed feature. [You can find more details here.](../how-to/syskit-point-quick-start-guide.md)
 
 
 
