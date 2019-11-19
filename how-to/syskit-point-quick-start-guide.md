@@ -17,6 +17,12 @@ Place where everything in SysKit Point starts. You can see 4 major sections:
 
 ![SysKit Point - Home Screen](../.gitbook/assets/syskit-point-quick-start-guide_home-screen.png)
 
+To view a section, click the appropriate tile.
+
+## Sites Screen
+
+
+
 ### **What will you see here if you are a Site owner/Administrator?** 
 
 SysKit Point will present you with the inventory of your resources, meaning you will be able to see sites, Teams and Office 365 groups you are the owner of.  
