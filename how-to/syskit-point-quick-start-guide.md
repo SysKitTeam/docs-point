@@ -74,7 +74,7 @@ There are two types of actions/reports:
 
 ## **What Can a Site Owner See?** 
 
-SysKit Point will present you with the inventory of your resources, meaning you will be able to see sites, Teams and Office 365 groups you are the owner of.  
+SysKit Point will present you with the inventory of your resources, meaning you will be able to see sites, Teams and Office 365 groups you are the owner/administrator of.  
 
 Check the [following link](../installation-and-configuration/enable-role-based-access.md) for more details about **role based access configuration**. 
 
