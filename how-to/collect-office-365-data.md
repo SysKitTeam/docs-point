@@ -25,19 +25,29 @@ While the initial load is in progress, if you drill to Site details of a not-yet
 
 ## Sync 
 
-The Sync button can be found positioned in the top right corner of the most screens in SysKit Point. Depending on the screen you are currently seeing, running the Sync will trigger different sync actions. 
+The Sync button can be found positioned in the top right corner on most screens in SysKit Point. Depending on the screen you are currently seeing, running the Sync will trigger different sync actions. 
 
 Here is an overview of screens and actions triggered by clicking the Sync button:
 
-* **Sites screen** - Sync action triggers the Autodiscover - all new Sites are discovered
-* **Microsoft Teams & Groups screen** - Sync action triggers the Autodiscover - all new Microsoft Teams and Office 365 groups will be discovered
+* **Sites screen** - Sync action triggers the Autodiscover action where all new Sites are discovered
+* **Microsoft Teams & Groups screen** - Sync action triggers the Autodiscover action where all new Microsoft Teams and Office 365 groups are discovered
 * **Users screen** - Sync action triggers data collection for all Users in Office 365 tenant
-* **Site details screen** - Sync action triggers **data collection for the currently viewed site only**; if the site in question has a connected Office 365 group, the group data will also be collected
+* **Site details screen** - Sync action triggers **data collection for the currently viewed site only**; if the site in question has a connected Office 365 Group, the Group data will also be collected
 * **Group details screen** - Sync action triggers **data collection for the currently viewed Office 365 Group only**; if the group in question has a connected Site, the Site data will also be collected
 
 ## Sync Schedule
 
-While the first Sync collects data for all before mentioned Sites, Groups and Users, further Sync 
+While the first Sync collects data for all SharePoint Online Sites, Microsoft Teams, Office 365 Groups, Office 365 tenant users and their OneDrive \(optional\), **all following Sync recurrences will take changes into account, meaning that only SharePoint Online Sites and Office 365 Groups with some activity and changes will be synced.** 
+
+**User Sync** is by default run every 24 hours and collects data for all Office 365 users.
+
+{% hint style="info" %}
+**Hint!**  
+All changes in your Office 365 environment should be synced in no more than 24 hours.   
+Should you require data to be synced immediately, you can start the Sync manually at any time by clicking the Sync button on the appropriate screen.
+{% endhint %}
+
+\*\*\*\*
 
 
 
