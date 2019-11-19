@@ -23,26 +23,34 @@ To view specific section, click the appropriate tile.
 
 There are multiple ways of navigating through the application. 
 
-* **Main Navigation** – click on the Home orange circle to access main sections of the application. 
-* **Breadcrumbs** – easily detect where you are currently located or move up the hierarchy/back to parent. 
+* **Main Navigation** – click on the Home orange circle to access the main sections of the application. 
+* **Breadcrumbs** – easily detect where you are currently located or move up the hierarchy/back to the parent. 
 * **Drill** – clicking on the underlined objects takes you to a more detailed report about that resource. 
 * **Back Button** – takes you to the previous screen, the one that you were at before jumping to a different report. 
 
 ![SysKit Point - Navigation elements](../.gitbook/assets/syskit-point-quick-start-guide_navigation.png)
 
-### **What will you see here if you are a Site owner/Administrator?** 
+## Drill for Details 
+
+The basic principle in the application is, whenever you wish to see more details about a specific resource, you simply click on its name to drill deeper. Resources, numbers, and details that can be drilled on will be marked with the underline. 
+
+![SysKit Point - Drill on the Sites screen](../.gitbook/assets/syskit-point-quick-start-guide_drill.png)
+
+## External Links
+
+Whenever possible, SysKit Point shows you an external link so you can, e.g. quickly open a site in SharePoint Online or send an email to Office 365 Group. External links are marked with an icon that suggests you will leave the current context, and to distinguish them from drill links mentioned above, they are colored blue.
+
+![SysKit Point - External link for a site](../.gitbook/assets/syskit-point-quick-start-guide_drill_external-link.png)
+
+## **What will you see here if you are a Site owner/Administrator?** 
 
 SysKit Point will present you with the inventory of your resources, meaning you will be able to see sites, Teams and Office 365 groups you are the owner of.  
 
-Check for more details about [role based access configuration here](../installation-and-configuration/enable-role-based-access.md). 
-
-## Drill for Details 
-
-Basic principle in the application is, whenever you wish to see more details about specific resource you simply click on its name  to drill deeper. Resources, numbers and details that can be drilled on will be marked with the underline. 
+Check the [following link](../installation-and-configuration/enable-role-based-access.md) for more details about **role based access configuration**. 
 
 Everything is connected and we made it easy for you to navigate from specific site to the user details and vice versa. 
 
-Contextual Actions and Reports 
+## Contextual Actions and Reports 
 
 On the right hand side of the screen you will find suggested actions and reports that are connected to the current selection \(site/user\) or report on your screen. 
 
