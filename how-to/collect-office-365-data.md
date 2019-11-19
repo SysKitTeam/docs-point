@@ -29,5 +29,5 @@ Here is an overview of screens and actions triggered by clicking the Sync button
 * **Site details screen** - Sync action triggers **data collection for the currently viewed site only**; if the site in question has a connected Office 365 group, the group data will also be collected
 * **Group details screen** - Sync action triggers **data collection for the currently viewed Office 365 Group only**; if the group in question has a connected Site, the Site data will also be collected
 
-## 
+## Sync Schedule
 
