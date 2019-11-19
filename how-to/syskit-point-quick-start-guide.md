@@ -17,7 +17,7 @@ Place where everything in SysKit Point starts. You can see 4 major sections:
 
 ![SysKit Point - Home Screen](../.gitbook/assets/syskit-point-quick-start-guide_home-screen.png)
 
-To view a section, click the appropriate tile.
+To view specific section, click the appropriate tile.
 
 ## Sites Screen
 
