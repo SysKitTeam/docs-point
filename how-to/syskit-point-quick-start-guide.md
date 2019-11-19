@@ -34,6 +34,8 @@ There are multiple ways of navigating through the application.
 
 The basic principle in the application is, whenever you wish to see more details about a specific resource, you simply click on its name to drill deeper. Resources, numbers, and details that can be drilled on will be marked with the underline. 
 
+Everything is connected and we made it easy for you to navigate from specific site to the user details and vice versa. 
+
 ![SysKit Point - Drill on the Sites screen](../.gitbook/assets/syskit-point-quick-start-guide_drill.png)
 
 ## External Links
@@ -42,21 +44,25 @@ Whenever possible, SysKit Point shows you an external link so you can, e.g. quic
 
 ![SysKit Point - External link for a site](../.gitbook/assets/syskit-point-quick-start-guide_drill_external-link.png)
 
+
+
 ## **What will you see here if you are a Site owner/Administrator?** 
 
 SysKit Point will present you with the inventory of your resources, meaning you will be able to see sites, Teams and Office 365 groups you are the owner of.  
 
 Check the [following link](../installation-and-configuration/enable-role-based-access.md) for more details about **role based access configuration**. 
 
-Everything is connected and we made it easy for you to navigate from specific site to the user details and vice versa. 
-
-## Contextual Actions and Reports 
+## Contextual Actions & Reports 
 
 On the right hand side of the screen you will find suggested actions and reports that are connected to the current selection \(site/user\) or report on your screen. 
 
 There are two types of actions/reports: 
 
-* Global Actions/Reports - these actions are always visible and will create report or perform action for the specific site/user you are currently located at.  
+* **Global Actions/Reports** - these actions are always visible and will create report or perform action for the specific site/user you are currently located at.   **Example:** If you are exploring in details site called Research and Development, reports on the right hand site will contain information only about that site.
 
-For example: If you are exploring in details site called Research and Development, reports on the right hand site will contain information only about that site. 
+![SysKit Point - Global actions on site details screen](../.gitbook/assets/syskit-point-quick-start-guide_global-actions.png)
+
+* **Contextual Actions/Reports** - when you select something in the screen, additional actions and reports may appear. If you choose to create a report/perform an action, they will impact currently selected object in one of the tiles. **Example:** If you select the Documents library in the Content tile, reports on the right hand side will be related to that selection only, meaning that they will present information about that selected folder, not the entire site you are currently exploring.
+
+![SysKit Point - Contextual actions after selection](../.gitbook/assets/syskit-point-quick-start-guide_contextual-actions.png)
 
