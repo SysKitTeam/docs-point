@@ -8,8 +8,8 @@ SysKit Point is a comprehensive, **role-based Office 365 governance tool** that 
 
 * Collaborative Office 365 governance - empower site owners and business users to take responsibility 
 * Full control and transparency over who has access to what in Office 365
-* Powerful Office 365 auditing 
-* Automated Office 365 Onboarding and Offboarding
-* Manage Office 365 access and memberships from reports
+* Powerful Office 365 auditing and reporting 
+* Automated Office 365 user onboarding and offboarding
+* Manage Office 365 access and sharing directly from reports
 * Monitor adoption and usage with Office 365 analytics 
 
