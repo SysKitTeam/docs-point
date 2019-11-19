@@ -41,5 +41,9 @@ Contextual audit reports as you know and love them, only better! Like all things
 
 **Reports and actions are always there when you need them**, be it on a details screen, or a generated report**.** By selecting different objects in different contexts and running available reports or actions, you can get the right information and manage the exact part of your Office 365 environment that you are observing. [You can find the most common tasks described in detail here.](../common-tasks/)
 
+## Future
+
+Make sure to [check our roadmap](https://feedback.syskit.com/?project=POINT) to see what is the next big thing to come. [Try SysKit Point](https://syskit.com/products/point/request-a-demo/) and feel free to [share your thoughts and ideas](https://feedback.syskit.com/ideas/new). 
+
 
 
