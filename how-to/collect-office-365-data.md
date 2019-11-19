@@ -34,8 +34,8 @@ The Sync button can be found positioned in the top right corner on most screens 
 
 Here is an overview of screens and actions triggered by clicking the Sync button:
 
-* **Sites screen** - Sync action triggers the Autodiscover process where all new Sites are discovered
-* **Microsoft Teams & Groups screen** - Sync action triggers the Autodiscover process where all new Microsoft Teams and Office 365 groups are discovered
+* **Sites screen** - Sync action triggers the Auto Discover process where all new and deleted Sites are discovered
+* **Microsoft Teams & Groups screen** - Sync action triggers the Auto Discover process where all new and deleted Microsoft Teams and Office 365 groups are discovered
 * **Users screen** - Sync action triggers data collection for all Users in Office 365 tenant
 * **Site details screen** - Sync action triggers **data collection for the currently viewed site only**; if the site in question has a connected Office 365 Group, the Group data will also be collected
 * **Group details screen** - Sync action triggers **data collection for the currently viewed Office 365 Group only**; if the group in question has a connected Site, the Site data will also be collected
