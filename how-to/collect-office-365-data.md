@@ -23,6 +23,11 @@ If you navigate to the Sites screen and drill to Site details of a site for whic
 While the initial load is in progress, if you drill to Site details of a not-yet-synced site, the site automatically gets a higher sync priority and will be synced as soon as possible.
 {% endhint %}
 
+{% hint style="warning" %}
+**Please note!**  
+Initial Sync can take considerably longer than 24 hours to complete, all depending on the size of your Office 365 environment.
+{% endhint %}
+
 ## Sync 
 
 The Sync button can be found positioned in the top right corner on most screens in SysKit Point. Depending on the screen you are currently seeing, running the Sync will trigger different sync actions. 
@@ -37,7 +42,12 @@ Here is an overview of screens and actions triggered by clicking the Sync button
 
 ## Sync Schedule
 
-While the first Sync collects data for all SharePoint Online Sites, Microsoft Teams, Office 365 Groups, Office 365 tenant users and their OneDrive \(optional\), **all following Sync recurrences will take changes into account, meaning that only SharePoint Online Sites and Office 365 Groups with discovered changes will be synced. By default, SysKit Point will Sync sites with detected changes every 4 hours.**
+While the first Sync collects data for all SharePoint Online Sites, Microsoft Teams, Office 365 Groups, Office 365 tenant users and their OneDrive \(optional\), **all following Sync recurrences will take changes into account, meaning that only SharePoint Online Sites and Office 365 Groups with discovered changes will be synced.** 
+
+{% hint style="warning" %}
+**Please note!**  
+Since change detection is based on Office 365 audit log data, it can take up to 24 hours after a change event occurs for the corresponding audit log entry to be available for SysKit Point to process. 
+{% endhint %}
 
 **User Sync is by default run every 24 hours** and collects data for all Office 365 tenant users.
 
