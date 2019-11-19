@@ -10,9 +10,24 @@ When you log in to SysKit Point, you will get an appropriate notification tellin
 
 If you navigate to the Sites screen and drill to Site details of a site for which the sync is not yet finished, a loading screen is displayed and you can notice the animated Sync icon in the top right corner. 
 
-## Autodiscover
+![SysKit Point - Initial site details load screen and sync icon](../.gitbook/assets/collect-office-365-data_loading_sync.png)
 
-On the sites screen
+{% hint style="info" %}
+**Hint!**  
+While the initial load is in progress, if you drill to Site details of a not-yet-synced site, the site automatically gets a higher sync priority and will be synced as soon as possible.
+{% endhint %}
+
+## Sync 
+
+The Sync button can be found positioned in the top right corner of the most screens in SysKit Point. Depending on the screen you are currently seeing, running the Sync will trigger different sync actions. 
+
+Here is an overview of screens and actions triggered by clicking the Sync button:
+
+* **Sites screen** - Sync action triggers the Autodiscover - all new Sites are discovered
+* **Microsoft Teams & Groups screen** - Sync will trigger the Autodiscover - all new Microsoft Teams and Office 365 groups will be discovered
+* **Users screen** - Sync will trigger data collection for all Users in Office 365 tenant
+* **Site details screen** - Sync will trigger data collection for the currently viewed site only; if the site in question has a connected Office 365 group, the group data will also be collected
+* **Group details screen** - Sync will trigger data collection for the currently viewed Office 365 Group; if the group in question has a connected Site, the Site data will also be collected
 
 ## 
 
