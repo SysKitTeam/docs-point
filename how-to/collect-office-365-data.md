@@ -8,7 +8,7 @@ description: >-
 
 ## First Run
 
-After you install and configure SysKit Point, all data for SharePoint Online Sites, Microsoft Teams, Office 365 Groups, Office 365 tenant users and their OneDrive \(optional\) begins to load automatically. We call this process **Sync** since we sync Office 365 tenant data with data in the SysKit Point database.
+After you install and configure SysKit Point, all data for SharePoint Online Sites, Microsoft Teams, Office 365 Groups, Office 365 tenant users and their OneDrive \(optional\) begins to load automatically. We call this process **Sync** since Office 365 tenant data is synced with data in the SysKit Point database.
 
 When you log in to SysKit Point, you will get an appropriate notification telling you that Sync started.
 
