@@ -1,7 +1,9 @@
 ---
 title: Check Access for specific user
 author: Ivica Boskovic
-description: how to generate user access report and options available on it.
+description: >-
+  This article explains how to generate the User Access report and the options
+  available once generated.
 date: 19.11.2019.
 ---
 
@@ -17,9 +19,9 @@ Here's how you can do it.
 
 ## Generate User Access from Report Center
 
-From the **Home Screen**, you can either click on Reports tile, or directly to **User Access** report. 
+From the **Home Screen**, you can either click on Reports tile, or directly to **User Access** report.
 
-If you've clicked on **Reports** you will be redirected to **Report Center** where you can select **User Access** report. 
+If you've clicked on **Reports** you will be redirected to **Report Center** where you can select **User Access** report.
 
 To find **User Access** easier you can also use filters on the upper side of Report Center, User Access has tags for **Permission Reports** and **Users**, so selecting either of those will show you User Access report.
 
@@ -27,7 +29,7 @@ To find **User Access** easier you can also use filters on the upper side of Rep
 
 After clicking on User Access, you are redirected to **Selection** page. There you can see all the **Users** on your **Tenant**.
 
-You can filter through **Users** by changing the type of **view** you're using. Change the type of view by clicking on **view selector** on the left side of the screen. 
+You can filter through **Users** by changing the type of **view** you're using. Change the type of view by clicking on **view selector** on the left side of the screen.
 
 Clicking on **Column Chooser** also enables you at adding additional columns to the grid so you can filter further through those columns. To open a Column Chooser click on the icon next to the **Search bar** on the right.
 
@@ -39,7 +41,7 @@ While making a selection you have various possibilities. Clicking on a **checkbo
 
 By clicking on checkboxes next to a User you can make a **single** or **multiple** User selection.
 
-If you know names of Users you want to generate a report for and you don't want to scroll through the User list. You can use Search bar to enter each name and click on a checkbox next to User's name. 
+If you know names of Users you want to generate a report for and you don't want to scroll through the User list. You can use Search bar to enter each name and click on a checkbox next to User's name.
 
 After you've made a selection, click on **Run Report**, it will generate User Access report for all the users you selected.
 
@@ -47,7 +49,7 @@ After you've made a selection, click on **Run Report**, it will generate User Ac
 
 ### Default options
 
-When report is generated, if you focus on the right side of the screen you will see the **side panel**. 
+When report is generated, if you focus on the right side of the screen you will see the **side panel**.
 
 If you haven't selected anything on the report, there will be option to **Export** your report.
 
@@ -55,10 +57,9 @@ You can export the report into **PDF** and **Excel**.
 
 ### Options when making a selection.
 
+If you make a selection on a **Root level** of the report be it single selection or multi selection, side panel changes and action **Remove Access** becomes available.
 
-If you make a selection on a **Root level** of the report be it single selection or multi selection, side panel changes and action **Remove Access** becomes available. 
-
-Also you get the option to generate other **SysKit Point** reports for selected objects from there. 
+Also you get the option to generate other **SysKit Point** reports for selected objects from there.
 
 ## Generate User Access from Site Details
 
@@ -77,7 +78,6 @@ Generating report from there will show what kind of access do users have on that
 From **Home Screen** click on **Users** tile which redirects you to Users Overview screen.
 
 On **Users Overview** screen you see all the Users on your environment.
-
 
 Select any user and on the **side panel** click on the **User Access**.
 
