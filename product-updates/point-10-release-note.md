@@ -27,7 +27,9 @@ Drills, breadcrumbs, views, contextual and global actions, filters, and each and
 
 ## Role-based Access
 
-Not only Global Administrators, but also **Site Owners and users with Full Control Permissions can access SysKit Point** and manage their Sites and Office 365 Groups. Find out how to [enable their access  in few mouse clicks here. ](../installation-and-configuration/enable-role-based-access.md)These options are available depending on the subscription type, so make sure to [check available plans.](https://syskit.com/products/point/pricing/)
+Not only Global Administrators, but also **Site Owners and users with Full Control Permissions can access SysKit Point** and manage their Sites and Office 365 Groups. Find out how to [enable their access  in few mouse clicks here. ](../installation-and-configuration/enable-role-based-access.md)These options are available depending on the subscription type, so make sure to [check available plans here.](https://syskit.com/products/point/pricing/)
+
+## 
 
 
 
