@@ -14,13 +14,13 @@ When you log in to SysKit Point, you will get an appropriate notification tellin
 
 ![SysKit Point - Sync started notification on the first log in](../.gitbook/assets/collect-office-365-data.png)
 
-If you navigate to the Sites screen and drill to Site details of a site for which the sync is not yet finished, a loading screen is displayed and you can notice the animated Sync icon in the top right corner, meaning that the Sync is in progress. 
+If you navigate to the Sites screen and drill to Site details of a site for which the Sync is not yet finished, a loading screen is displayed and you can notice the animated Sync icon in the top right corner, meaning that the Sync is in progress. 
 
-![SysKit Point - Initial site details load screen and sync icon](../.gitbook/assets/collect-office-365-data_loading_sync.png)
+![SysKit Point - Initial load screen and sync icon](../.gitbook/assets/collect-office-365-data_loading_sync.png)
 
 {% hint style="info" %}
 **Hint!**  
-While the initial load is in progress, if you drill to Site details of a not-yet-synced site, the site automatically gets a higher sync priority and will be synced as soon as possible.
+While the initial Sync is in progress, if you drill to Site details of a not-yet-synced site, the site automatically gets a higher Sync priority and will be synced as soon as possible.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -30,7 +30,7 @@ Initial Sync can take considerably longer than 24 hours to complete, all dependi
 
 ## Sync 
 
-The Sync button can be found positioned in the top right corner on most screens in SysKit Point. Depending on the screen you are currently seeing, running the Sync will trigger different sync actions. 
+The Sync button can be found positioned in the top right corner on most screens in SysKit Point. Depending on the screen you are currently seeing, running Sync will trigger different Sync actions. 
 
 Here is an overview of screens and actions triggered by clicking the Sync button:
 
