@@ -37,7 +37,7 @@ Here is an overview of screens and actions triggered by clicking the Sync button
 
 ## Sync Schedule
 
-While the first Sync collects data for all SharePoint Online Sites, Microsoft Teams, Office 365 Groups, Office 365 tenant users and their OneDrive \(optional\), **all following Sync recurrences will take changes into account, meaning that only SharePoint Online Sites and Office 365 Groups with discovered changes will be synced. By default, SysKit Point will Sync sites with changes every 4 hours.**
+While the first Sync collects data for all SharePoint Online Sites, Microsoft Teams, Office 365 Groups, Office 365 tenant users and their OneDrive \(optional\), **all following Sync recurrences will take changes into account, meaning that only SharePoint Online Sites and Office 365 Groups with discovered changes will be synced. By default, SysKit Point will Sync sites with detected changes every 4 hours.**
 
 **User Sync is by default run every 24 hours** and collects data for all Office 365 tenant users.
 
