@@ -8,13 +8,13 @@ description: >-
 
 ## First Run
 
-After you install and configure SysKit Point, all data for SharePoint Online Sites, Microsoft Teams, Office 365 Groups and Office 365 tenant users begins to load automatically. We will call this process **Sync**, ****since  we sync Office 365 tenant data with data in the SysKit Point database.
+After you install and configure SysKit Point, all data for SharePoint Online Sites, Microsoft Teams, Office 365 Groups, Office 365 tenant users and their OneDrive \(optional\) begins to load automatically. We call this process **Sync**, ****since we sync Office 365 tenant data with data in the SysKit Point database.
 
 When you log in to SysKit Point, you will get an appropriate notification telling you that Sync started.
 
 ![SysKit Point - Sync started notification on first log in](../.gitbook/assets/collect-office-365-data.png)
 
-If you navigate to the Sites screen and drill to Site details of a site for which the sync is not yet finished, a loading screen is displayed and you can notice the animated Sync icon in the top right corner. 
+If you navigate to the Sites screen and drill to Site details of a site for which the sync is not yet finished, a loading screen is displayed and you can notice the animated Sync icon in the top right corner, meaning that the Sync is in progress. 
 
 ![SysKit Point - Initial site details load screen and sync icon](../.gitbook/assets/collect-office-365-data_loading_sync.png)
 
@@ -36,6 +36,8 @@ Here is an overview of screens and actions triggered by clicking the Sync button
 * **Group details screen** - Sync action triggers **data collection for the currently viewed Office 365 Group only**; if the group in question has a connected Site, the Site data will also be collected
 
 ## Sync Schedule
+
+While the first Sync collects data for all before mentioned Sites, Groups and Users, further Sync 
 
 
 
