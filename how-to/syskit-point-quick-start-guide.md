@@ -19,9 +19,16 @@ Place where everything in SysKit Point starts. You can see 4 major sections:
 
 To view specific section, click the appropriate tile.
 
-## Sites Screen
+## Navigation 
 
+There are multiple ways of navigating through the application. 
 
+* **Main Navigation** – click on the Home orange circle to access main sections of the application. 
+* **Breadcrumbs** – easily detect where you are currently located or move up the hierarchy/back to parent. 
+* **Drill** – clicking on the underlined objects takes you to a more detailed report about that resource. 
+* **Back Button** – takes you to the previous screen, the one that you were at before jumping to a different report. 
+
+![SysKit Point - Navigation elements](../.gitbook/assets/syskit-point-quick-start-guide_navigation.png)
 
 ### **What will you see here if you are a Site owner/Administrator?** 
 
@@ -34,16 +41,6 @@ Check for more details about [role based access configuration here](../installat
 Basic principle in the application is, whenever you wish to see more details about specific resource you simply click on its name  to drill deeper. Resources, numbers and details that can be drilled on will be marked with the underline. 
 
 Everything is connected and we made it easy for you to navigate from specific site to the user details and vice versa. 
-
-   
-Navigation 
-
-There are multiple ways of navigating through the application. 
-
-* Main Navigation – click on the SysKit orange circle to access main sections of the application. 
-* Breadcrumbs – easily detect where you are currently located or move up the hierarchy/back to parent. 
-* Drill – clicking on the underlined objects takes you to a more detailed report about that resource. 
-* Back Button – takes you to the previous screen, the one that you were at before jumping to a different report.   
 
 Contextual Actions and Reports 
 
