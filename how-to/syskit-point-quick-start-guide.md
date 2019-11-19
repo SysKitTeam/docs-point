@@ -36,6 +36,14 @@ There are multiple ways of navigating through the application.
 
 ![SysKit Point - Built-in Views on the Sites screen](../.gitbook/assets/syskit-point-quick-start-guide_views.png)
 
+## Custom Views
+
+If you are not satisfied with the predefined views, please [let us know](https://feedback.syskit.com/).  
+  
+As an easy workaround, you can add additional columns on your own with the help of column chooser, or filter each column to get the desired results.
+
+![SysKit Point - Column chooser and column filter](../.gitbook/assets/syskit-point-quick-start-guide_column-chooser_filter.png)
+
 ## Drill for Details 
 
 The basic principle in the application is, whenever you wish to see more details about a specific resource, you simply click on its name to drill deeper. Resources, numbers, and details that can be drilled on will be marked with the underline. 
