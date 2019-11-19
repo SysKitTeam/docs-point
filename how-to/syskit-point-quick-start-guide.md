@@ -58,12 +58,6 @@ Whenever possible, SysKit Point shows you an external link so you can, e.g. quic
 
 ![SysKit Point - External link for a site](../.gitbook/assets/syskit-point-quick-start-guide_drill_external-link.png)
 
-## **What will you see here if you are a Site owner/Administrator?** 
-
-SysKit Point will present you with the inventory of your resources, meaning you will be able to see sites, Teams and Office 365 groups you are the owner of.  
-
-Check the [following link](../installation-and-configuration/enable-role-based-access.md) for more details about **role based access configuration**. 
-
 ## Contextual Actions & Reports 
 
 On the right hand side of the screen you will find suggested actions and reports that are connected to the current selection \(site/user\) or report on your screen. 
@@ -77,4 +71,10 @@ There are two types of actions/reports:
 * **Contextual Actions/Reports** - when you select something in the screen, additional actions and reports may appear. If you choose to create a report/perform an action, they will impact currently selected object in one of the tiles. **Example:** If you select the Documents library in the Content tile, reports on the right hand side will be related to that selection only, meaning that they will present information about that selected folder, not the entire site you are currently exploring.
 
 ![SysKit Point - Contextual actions after selection](../.gitbook/assets/syskit-point-quick-start-guide_contextual-actions.png)
+
+## **What will you see if you are a Site owner/Administrator?** 
+
+SysKit Point will present you with the inventory of your resources, meaning you will be able to see sites, Teams and Office 365 groups you are the owner of.  
+
+Check the [following link](../installation-and-configuration/enable-role-based-access.md) for more details about **role based access configuration**. 
 
