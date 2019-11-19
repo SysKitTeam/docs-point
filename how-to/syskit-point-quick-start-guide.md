@@ -72,7 +72,7 @@ There are two types of actions/reports:
 
 ![SysKit Point - Contextual actions after selection](../.gitbook/assets/syskit-point-quick-start-guide_contextual-actions.png)
 
-## **What will you see if you are a Site owner/Administrator?** 
+## **What Can a Site Owner See?** 
 
 SysKit Point will present you with the inventory of your resources, meaning you will be able to see sites, Teams and Office 365 groups you are the owner of.  
 
