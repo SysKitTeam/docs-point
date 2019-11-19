@@ -22,9 +22,9 @@ SysKit Point comes as a successor to SysKit Security Manager, a product that has
 With the new and intuitive web-based interface it’s easier than ever to analyze your content, check if everything is ok, and make reports on the fly. You will first notice this shift when [configuring SysKit Point](../installation-and-configuration/configure-syskit-point.md#web-application-settings).  
 And the second time when your app opens in a browser after the installation! All that is left to do is to **log in with your Office 365 user account** \(yes, you read that right\), **and you are ready to go!**
 
-## User First
+## Simplicity
 
-Drills, breadcrumbs, views, contextual and global actions, filters, and each and every aspect of SysKit Point was redone and [made to simplify navigating through the app](../how-to/syskit-point-quick-start-guide.md). **Simple as it can possibly be, but configurable enough to do everything you need**, was the main thought behind every developed feature. 
+Drills, breadcrumbs, views, contextual and global actions, filters, and each and every aspect of SysKit Point was redone and **made to simplify navigation in the app**. **Simple as it can possibly be, but flexible enough to do everything you need** was the main thought behind every developed feature. [View more details here.](../how-to/syskit-point-quick-start-guide.md)
 
 
 
