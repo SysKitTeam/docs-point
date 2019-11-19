@@ -27,10 +27,12 @@ In order to run this report, audit logs collection must be enabled. Check [this 
 
 Site Permissions Activities report is accessible from a few different places in SysKit Point:
 
-* In Report Center there is Site Permissions Activities report
-* On the Sites overview screen you can select sites and choose Permissions Activities from the side panel on the right
-* On the Microsoft Teams & Group overview screen you can select Groups or Teams and choose Permissions Activities from the side panel on the right
-* On the screen which shows details for Site/Team/Office 365 Group/OneDrive, you can select Permissions Activities from the side panel on the right
+* In **Report Center,** there is Site Permissions Activities report
+* On the **Sites overview screen**, you can select sites and choose Permissions Activities from the side panel on the right
+* On the **Microsoft Teams & Group overview screen**, you can select Groups or Teams and choose Permissions Activities from the side panel on the right
+* On the **details screen for Site/Team/Office 365 Group/OneDrive**, you can select Permissions Activities from the side panel on the right
+
+### **Report Center**
 
 On the **Home** screen, you can click on the **Reports** tile, then click on the Audit Logs filter at the top, and you’ll find Site Permissions Activities report.
 
@@ -38,19 +40,20 @@ When you click on the report, you’ll get the screen where you’ll be able to 
 
 After selecting one or more sites, you’ll be able to adjust additional filters:
 
-* Choose the date period for which you want to see activities
-* Select specific activities you want to show
+* **Choose the date period** for which you want to see activities
+* **Select specific activities** you want to show
 
-When you click on the Run Report, you’ll get the report data. Reports shows basic info for every activity, and for more details every activity can be expanded. Here is the description of every column:
+When you click the **Run Report** button, you’ll get the report data. The report shows basic info for every activity, and for more details, every activity can be expanded. Here is the description of every column:
 
-* Date – date and time when activity happened
-* Activity – name of the activity
-* User - user who performed the action
-* Item – name of the Site/Group/Team where action happened
-* Details – short description of the activity
-* Details when expanded – shows more detailed properties and it depends on the activity
+* **Date** – date and time when activity happened
+* **Activity** – name of the activity
+* **User** - user who performed the action
+* **Item** – name of the Site/Group/Team where the action happened
+* **Details** – short description of the activity
+* **Details when expanded** – shows more detailed properties and it depends on the activity
 
-**Hint!**
-
-For the Office 365 group connected sites both SharePoint and Office 365 Group activities will be shown.
+{% hint style="info" %}
+**Hint!**  
+For the Office 365 Groups and their connected sites, both SharePoint and Office 365 Group activities will be shown.
+{% endhint %}
 
