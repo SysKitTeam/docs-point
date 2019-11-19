@@ -77,7 +77,7 @@ You can export the report into **PDF** and **Excel**.
 
 ![User Access report - side panel export options](../.gitbook/assets/check_access_for_specific_user_12.png)
 
-### Options when making a selection.
+### Options when making a selection
 
 If you make a selection on a **Root level** of the report be it single selection or multi selection, side panel changes and action **Remove Access** becomes available.
 
