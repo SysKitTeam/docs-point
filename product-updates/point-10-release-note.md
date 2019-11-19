@@ -29,7 +29,11 @@ Drills, breadcrumbs, views, contextual and global actions, filters, and each and
 
 Not only Global Administrators, but also **Site Owners and users with Full Control Permissions can access SysKit Point** and manage their Sites and Office 365 Groups. Find out how to [enable their access  in few mouse clicks here. ](../installation-and-configuration/enable-role-based-access.md)These options are available depending on the subscription type, so make sure to [check available plans here.](https://syskit.com/products/point/pricing/)
 
-## 
+## Sync it!
 
+Old ways of collecting data from Office 365 are no more. **With the new Sync capability, data collection has become granular, quick and lightweight.** Heavy lifting is done only when needed. Or when you want it. [Learn more about Sync here.](../how-to/collect-office-365-data.md)
 
+## Audit Logs & Analytics
+
+Contextual audit reports as you know and love them, only better! As all things in SysKit Point, audit reports are easy to understand and accessible from all parts of the app. **The analytics information is being calculated even if you decide not to store the audit logs.** You can easily [customize what to store as described here.](../installation-and-configuration/customize-audit-logs-collection.md)
 
