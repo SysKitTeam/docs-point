@@ -24,7 +24,7 @@ Here you can mark or unmark checkbox for storing Audit Logs, depending on whethe
 Regardless of your selection to store or not to store **Audit Logs** locally onto your disc, they are still regularly **processed by Microsoft Admin Center**.
 {% endhint %}
 
-Audit Logs are by default marked for collection.
+Audit Logs are by default marked for storing.
 
 If you choose to collect Audit Logs, they will be stored onto your local disk storage with default path like **C:\ProgramData\SysKit\Point\AuditIndex**.
 
