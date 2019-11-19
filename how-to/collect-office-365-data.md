@@ -1,3 +1,9 @@
+---
+description: >-
+  This article explains options available regarding Office 365 data collection,
+  also known as Sync.
+---
+
 # Collect Office 365 Data
 
 ## First Run
@@ -30,4 +36,6 @@ Here is an overview of screens and actions triggered by clicking the Sync button
 * **Group details screen** - Sync action triggers **data collection for the currently viewed Office 365 Group only**; if the group in question has a connected Site, the Site data will also be collected
 
 ## Sync Schedule
+
+
 
