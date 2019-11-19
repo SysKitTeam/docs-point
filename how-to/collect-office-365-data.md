@@ -12,7 +12,7 @@ After you install and configure SysKit Point, all data for SharePoint Online Sit
 
 When you log in to SysKit Point, you will get an appropriate notification telling you that Sync started.
 
-![SysKit Point - Sync started notification on first log in](../.gitbook/assets/collect-office-365-data.png)
+![SysKit Point - Sync started notification on the first log in](../.gitbook/assets/collect-office-365-data.png)
 
 If you navigate to the Sites screen and drill to Site details of a site for which the sync is not yet finished, a loading screen is displayed and you can notice the animated Sync icon in the top right corner, meaning that the Sync is in progress. 
 
@@ -42,7 +42,7 @@ Here is an overview of screens and actions triggered by clicking the Sync button
 
 ## Sync Schedule
 
-While the first Sync collects data for all SharePoint Online Sites, Microsoft Teams, Office 365 Groups, Office 365 tenant users and their OneDrive \(optional\), **all following Sync recurrences will take changes into account, meaning that only SharePoint Online Sites and Office 365 Groups with discovered changes will be synced.** 
+While the first Sync collects data for all SharePoint Online Sites, Microsoft Teams, Office 365 Groups, Office 365 tenant users and their OneDrive \(optional\), **all following Sync recurrences take changes into account, meaning that only SharePoint Online Sites and Office 365 Groups with discovered changes will be synced.** 
 
 {% hint style="warning" %}
 **Please note!**  
