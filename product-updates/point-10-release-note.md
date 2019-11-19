@@ -15,7 +15,7 @@ This is the first official release of SysKit Point.
 ## Hello World!
 
 Dear ladies and gentleman, if we could have your attention please - introducing the new, shinny and awesome tool - [**SysKit Point!**](https://syskit.com/products/point) ****You might find it strange that the 1st release is marked with the number 10. The reason lies behind the fact that [**SysKit is celebrating it's 10th birthday**.](https://syskit.com/blog/syskit-celebrates-10-years/)   
-SysKit Point comes as a successor to SysKit Security Manager, a product that has given us knowledge and insight used as a foundation in building the next great thing. Other than wisdom, all is new in SysKit Point, so let's get started and see what was done.
+SysKit Point comes as a successor to SysKit Security Manager, a product that has given us knowledge and insight used as a foundation in building the next great thing. Other than wisdom, all is new in SysKit Point, so let's get started.
 
 ## Web-based Interface
 
