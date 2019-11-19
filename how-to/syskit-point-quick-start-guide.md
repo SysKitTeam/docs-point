@@ -11,15 +11,15 @@ description: >-
 Place where everything in SysKit Point starts. You can see 4 major sections: 
 
 * **Sites** – complete overview and inventory of all sites and ownerships. Full list of classic sites, sites connected to MS Teams and Office 365 groups, and OneDrive as well. 
-* **Microsoft Teams & Office 365 Groups** – complete overview of all Teams and Office 365 groups detected in your environment. 
+* **Microsoft Teams & Office 365 Groups** – a complete overview of all Teams and Office 365 groups detected in your environment. 
 * **Users** – explore all users and see more details about their memberships and permissions they hold across the sites. 
 * **Reports** – create security and audit activities across your resources. 
 
-**What will you see here if you are Site owner/Administrator?** 
+**What will you see here if you are a Site owner/Administrator?** 
 
-SysKit Point will present you with inventory of your own resources, meaning you will be able to see sites, Teams and Office 365 groups you are the owner of.  
+SysKit Point will present you with the inventory of your resources, meaning you will be able to see sites, Teams and Office 365 groups you are the owner of.  
 
-Check for more details about [role based access configuration](../installation-and-configuration/enable-role-based-access.md). 
+Check for more details about [role based access configuration here](../installation-and-configuration/enable-role-based-access.md). 
 
 Drill for Details 
 
