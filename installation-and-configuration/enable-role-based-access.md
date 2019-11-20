@@ -10,23 +10,21 @@ After the installation and configuration of **SysKit Point**, depending on the s
 **Please note!**                                                                                                                                       Simultaneous usage of **SysKit Point** is only available in **Team** and **Enterprise** licence plan. 
 {% endhint %}
 
-### Setting up Role-Based Access
+## Setting up Role-Based Access
 
-#### Setting up when you have activated Team licence
+### Team licence
 
-Let's say you activated **SysKit Point Team** licence. With it you get an option to simultaneously use **SysKit Point** between **five** Users. Here's how you can manage who gets to use it.
+Let's say you activated **SysKit Point Team** licence. With it you get an option to simultaneously use **SysKit Point** between **five** users. Here's how you can manage who gets to use it.
 
 {% hint style="warning" %}
 **Please note!**                                                                                                                                                                 Account that has activated your licence will automatically occupy **one** out of **five** eligible **Admin user** places.
 {% endhint %}
 
-\*\*\*\*
-
-When located on the **Home Screen**, click on the **Settings** option in the upper right corner
+When located on the **Home Screen**, click on the **Settings** option in the upper right corner.
 
 ![Clicking on settings from home screen](../.gitbook/assets/enable_role_based_access_1.png)
 
-You will be redirected to the **settings** page. From there, click on the **Manage Access** tab.
+You will be redirected to the **Settings** page. From there, click on the **Manage Access** tab.
 
 {% hint style="info" %}
 **Hint!**                                                                                                                                                                      Shortcut to Manage Access is also available from Licence tab in Settings.
@@ -34,15 +32,15 @@ You will be redirected to the **settings** page. From there, click on the **Mana
 
 ![Settings page overview](../.gitbook/assets/enable_role_based_access_2.png)
 
-After **Manage Access** tab becomes active you will see options where you can decide who has access to **SysKit Point**.
+After **Manage Access** tab becomes active, you will see options where you can decide who has access to **SysKit Point**.
 
 ![Settings screen - Manage Access tab](../.gitbook/assets/enable_role_based_access_3.png)
 
-If user that you want to add as **Admin** **Users** doesn't have **Global Administrator** rights on your environment, you have to **enable** the option 'Allow site owners access to SysKit Point'.
+If user that you want to add as **Admin** **Users** doesn't have **Global Administrator** rights on your environment, you have to **enable** the **Allow site owners access to SysKit Point** option.
 
-After that you can also enable the option 'Allow users with full control on site access to SysKit Point', in case user that you want to add as Admin is not a **Site Owner** but has **Full Control** permissions on some **Site Collections** or **Office 365** **Groups** in your environment.
+After that, you can enable the **Allow users with full control on site access to SysKit Point** option, in case the user that you want to add as Admin is not a **Site Owner** but has **Full Control** permissions on some Site Collections or Office 365 Groups in your environment.
 
-Now that you've enabled all those options, click on the **People Picker** box and add users to Admin users by typing their name into it.
+Now that you've enabled all those options, click on the **People Picker** box and add users to Admin users by typing their name.
 
 Once you've added all desired users, click on the **Save** button. All of them are now able to **Login** to **SysKit Point** via **URL** of your machine.
 
