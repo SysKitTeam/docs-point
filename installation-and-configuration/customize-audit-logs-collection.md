@@ -64,5 +64,5 @@ The last option in the Audit Logs screen is **Data Retention**.
 
 By default, this option is turned off.
 
-When enabled, you can set a timeframe in the number of days, weeks, or months for the application to delete older Audit Logs folders than the specified date.
+When enabled, you can set a time frame in the number of days, weeks, or months for the application to delete older Audit Logs folders than the specified date.
 
