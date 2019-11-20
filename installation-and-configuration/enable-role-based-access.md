@@ -42,7 +42,7 @@ After that, you can enable the **Allow users with full control on site access to
 
 Now that you've enabled all those options, click on the **People Picker** box and add users to Admin users by typing their name.
 
-Once you've added all desired users, click on the **Save** button. All of them are now able to **Login** to **SysKit Point** via **URL** of your machine.
+Once you've added all desired users, click on the **Save** button. All of them are now able to log in to SysKit Point.
 
 {% hint style="info" %}
 **Hint!**  
