@@ -19,9 +19,9 @@
   * [SysKit Point Quick Start Guide](how-to/syskit-point-quick-start-guide.md)
   * [Collect Office 365 Data](how-to/collect-office-365-data.md)
 * [Common Tasks](common-tasks/README.md)
-  * [Check Access for Specific User](common-tasks/check-access-for-specific-user.md)
-  * [Track External Users and Their Activities](common-tasks/track-external-users-and-their-activities.md)
-  * [View Permission Changes](common-tasks/view-permission-changes.md)
+  * [Check Access for Specific Office 365 User](common-tasks/check-access-for-specific-user.md)
+  * [Track Office 365 External Users and Their Activities](common-tasks/track-external-users-and-their-activities.md)
+  * [View Permission Changes in Office 365](common-tasks/view-permission-changes.md)
 * [FAQ](faq/README.md)
   * [Report Data Limits](faq/report-data-limits.md)
 

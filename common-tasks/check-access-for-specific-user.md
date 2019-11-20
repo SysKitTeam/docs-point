@@ -7,7 +7,7 @@ description: >-
 date: 19.11.2019.
 ---
 
-# Check Access for Specific User
+# Check Access for Specific Office 365 User
 
 In **Office 365** and **SharePoint**, there are a variety of **permission levels** which allow users to **access** the resources they need. They tend to group actions and define what users can and can't see within your environment.
 

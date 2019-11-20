@@ -4,7 +4,7 @@ description: >-
   using SysKit Point.
 ---
 
-# View Permission Changes
+# View Permission Changes in Office 365
 
 If you are an Office 365 global administrator or a site owner, one of the most common tasks while doing permissions review for your sites is to check who did what, and when. For example:
 
