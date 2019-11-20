@@ -71,13 +71,13 @@ When working in big environments it's easier to keep things tidy if more people 
 
 As you know, **Global Administrator** account can see all the content that is available on the **Tenant**.
 
-**Role-Based Access** empowers all the **Site Owners** \(and users with **Full Control** permissions\) to keep their **Sites** and **Teams** clean. gives them access to all the reports and informations relevant to them without showing them pages or files they are not allowed to see on your **Tenant**. 
+**Role-Based Access** empowers all **Site Owners** \(and users with **Full Control** permissions\) to keep their **Sites** and **Teams** clean. It gives them access to all reports and information relevant to them, without showing the content they are not allowed to see. 
 
-e.g. **Global Administrator** has generated a **User Access** report and instead of sharing the URL of generated report to the other **Global Administrator**, it was sent to the **Site Owner** that doesn't have access to all the users on said environment. This is where **Role-Based Access** kicks in.
+**For example:** **Global Administrator** has generated a **User Access** report and instead of sharing the URL of generated report to the other **Global Administrator**, it was sent to the **Site Owner** that doesn't have access to all the users on said environment. This is where **Role-Based Access** kicks in.
 
-When said **Site Owner** opens the URL, report will be generated but only containing **Users** who are members to his **Site Collections** and **Groups**. 
+When said **Site Owner** opens the URL, report will be generated but only containing **Users** who are members on his **Site Collections** and **Office 365** **Groups**. 
 
-Also when **Site Owner** tries to **drill** to the **User Details** page of a User he is not manager to, he/she will be redirected to **Unauthorized Access** page.
+Also, when **Site Owner** tries to **drill** to the **User Details** page of a user he is not manager to, he/she will be redirected to an **Unauthorized Access** page.
 
 ![Unauthorized access page](../.gitbook/assets/enable_role_based_access_6.png)
 
