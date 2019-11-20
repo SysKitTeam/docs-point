@@ -24,7 +24,7 @@ Regardless of your selection to store or not to store **Audit Logs** locally to 
 
 Audit Logs are by default marked for storing.
 
-If you choose to collect Audit Logs, they will be stored onto your local disk storage with default set to **C:\ProgramData\SysKit\Point\AuditIndex**.
+If you choose to collect Audit Logs, they will be stored to your local disk storage with the default path set to **C:\ProgramData\SysKit\Point\AuditIndex**.
 
 In the **SysKit Point** application, you can open **Settings** and under section **Audit** -&gt; **Audit Logs**, manage some options.
 
