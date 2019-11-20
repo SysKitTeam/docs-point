@@ -17,7 +17,7 @@ After the installation and configuration of **SysKit Point**, depending on the s
 Let's say you activated the **SysKit Point Team** license. With it, you get an option to simultaneously use **SysKit Point** between **five** users. Here's how you can manage who gets to use it.
 
 {% hint style="warning" %}
-**Please note!**                                                                                                                                                                 The account that has activated your licence will automatically occupy **one** out of **five** eligible **Admin user** places.
+**Please note!**                                                                                                                                                                 The account that has activated your license **will automatically occupy one out of five eligible** **Admin user** places.
 {% endhint %}
 
 When located on the **Home Screen**, click on the **Settings** option in the upper right corner.
@@ -27,7 +27,7 @@ When located on the **Home Screen**, click on the **Settings** option in the upp
 You will be redirected to the **Settings** page. From there, click on the **Manage Access** tab.
 
 {% hint style="info" %}
-**Hint!**                                                                                                                                                                      Shortcut to Manage Access is also available from Licence tab in Settings.
+**Hint!**                                                                                                                                                                      Shortcut to Manage Access is also available from License tab in Settings.
 {% endhint %}
 
 ![Settings page overview](../.gitbook/assets/enable_role_based_access_2.png)
