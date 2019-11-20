@@ -12,7 +12,7 @@ After the installation and configuration of **SysKit Point**, depending on the s
 
 ## Setting up Role-Based Access
 
-### Team licence
+### Team License
 
 Let's say you activated **SysKit Point Team** licence. With it you get an option to simultaneously use **SysKit Point** between **five** users. Here's how you can manage who gets to use it.
 
