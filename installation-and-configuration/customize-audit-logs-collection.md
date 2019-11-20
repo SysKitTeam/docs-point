@@ -6,9 +6,7 @@ description: >-
 
 # Customize Audit Logs Collection
 
-Audit Logs, within the **SysKit Point**, are directly connected with the **Microsoft Office 365 Security & Compliance Center** and their Audit Logs.
-
-Logs can provide you insights into all activities related to users and administration activities in your Office 365 organization.
+Audit logs can provide you insights into all activities related to user and administration activities in your Office 365 organization.
 
 You have the option to turn storage of Audit Logs on or off while you are configuring **SysKit Point** in **Configuration Wizard**.
 
@@ -21,7 +19,7 @@ Here you can mark or unmark checkbox for storing Audit Logs, depending on whethe
 ![](../.gitbook/assets/customize-audit-logs-collection_point-01.png)
 
 {% hint style="info" %}
-Regardless of your selection to store or not to store **Audit Logs** locally onto your disc, they are still regularly **processed by SysKit Point**.
+Regardless of your selection to store or not to store **Audit Logs** locally to your disk, they are still regularly **processed by SysKit Point**.
 {% endhint %}
 
 Audit Logs are by default marked for storing.
