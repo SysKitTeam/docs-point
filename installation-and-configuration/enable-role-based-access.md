@@ -57,13 +57,13 @@ If you are using the **Enterprise** plan for your **SysKit Point** you are not l
 
 Click on **Settings** and then select the **Manage Access tab**. 
 
-If you wish to enable login to **SysKit Point** for users that are **Site Owners** activate that option. You also have the option to enable login for users that have **Full Control** permissions on sites from in your environment.
+If you wish to enable log in to **SysKit Point** for users that are **Site Owners** activate that option. You also have the option to enable login for users that have **Full Control** permissions on sites or groups in your environment.
 
 Click on **Save** button.
 
 ![Manage access - Enterprise Licence edition](../.gitbook/assets/enable_role_based_access_5.png)
 
-After you've saved, all **Site Owners** and users with **Full Control** permissions are able to login into **SysKit Point**.
+After you have saved your changes, all **Site Owners** and users with **Full Control** permissions are able to log in to **SysKit Point**.
 
 ### Why should you enable Role-Based Access
 
