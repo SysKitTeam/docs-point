@@ -56,7 +56,7 @@ In the new window there will be categories of all activities:
 * SharePoint list events
 * User activities.
 
-You can adjust which activities are going to be collected when clicking the checkbox next to categories.
+You can adjust which activities are going to be collected by clicking the checkbox next to categories.
 
 If you need only specific activities to be collected within one category, just mark those activities and click **OK** and then **Save** button in **Audit Logs** screen.
 
