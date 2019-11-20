@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article explains how you can enable Role-Based Access in SysKit Point and
-  what are the benefits of it
+description: This article explains how you can enable Role-based Access in SysKit Point.
 ---
 
 # Enable Role-Based Access
