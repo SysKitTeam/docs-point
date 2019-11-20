@@ -53,7 +53,7 @@ You can change selected Admin Users at any time by clicking on crossmark next to
 
 ### Enterprise License
 
-If you have purchased **Enterprise** licence for your **SysKit Point** you are not limited to a number of **Admin** users using it simultaneously. However if you want to enable it to users who don't have **Global Administrator** rights on your tenant you have to allow it in **Settings**.
+If you are using the **Enterprise** plan for your **SysKit Point** you are not limited to a number of **Admin** users using it simultaneously. However if you want to enable log in for users who don't have **Global Administrator** rights on your tenant, you have to allow it in **Settings**.
 
 Click on **Settings** and then select the **Manage Access tab**. 
 
