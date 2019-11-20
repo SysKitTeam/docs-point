@@ -1,5 +1,5 @@
 ---
-description: This article explains how to configure SysKit Point
+description: This article explains how to configure SysKit Point.
 ---
 
 # Configure SysKit Point
