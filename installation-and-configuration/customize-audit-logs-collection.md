@@ -21,7 +21,7 @@ Here you can mark or unmark checkbox for storing Audit Logs, depending on whethe
 ![](../.gitbook/assets/customize-audit-logs-collection_point-01.png)
 
 {% hint style="info" %}
-Regardless of your selection to store or not to store **Audit Logs** locally onto your disc, they are still regularly **processed by Microsoft Admin Center**.
+Regardless of your selection to store or not to store **Audit Logs** locally onto your disc, they are still regularly **processed by SysKit Point**.
 {% endhint %}
 
 Audit Logs are by default marked for storing.
