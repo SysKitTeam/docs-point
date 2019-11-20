@@ -65,7 +65,7 @@ Click on the **Save** button.
 
 After you have saved your changes, all **Site Owners** and users with **Full Control** permissions can log in to **SysKit Point**.
 
-### Why should you enable Role-Based Access
+### Why Should You Enable Role-Based Access
 
 When working in big environments it's easier to keep things tidy if more people are working together.
 
