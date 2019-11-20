@@ -4,20 +4,20 @@ description: This article explains how you can enable Role-based Access in SysKi
 
 # Enable Role-Based Access
 
-After the installation and configuration of **SysKit Point**, depending on the subscription plan you selected, you can have multiple users using **SysKit Point** simultaneously. This option is found under **Settings** tab called **Manage Access.**
+After the installation and configuration of **SysKit Point**, depending on the subscription plan you selected, you can have multiple users using **SysKit Point** simultaneously. This option is found under the **Settings** tab called **Manage Access.**
 
 {% hint style="warning" %}
-**Please note!**                                                                                                                                       Simultaneous usage of **SysKit Point** is only available in **Team** and **Enterprise** licence plan. 
+**Please note!**                                                                                                                                       Simultaneous usage of **SysKit Point** is only available in the **Team** and **Enterprise** license plan. 
 {% endhint %}
 
 ## Setting up Role-Based Access
 
 ### Team License
 
-Let's say you activated **SysKit Point Team** licence. With it you get an option to simultaneously use **SysKit Point** between **five** users. Here's how you can manage who gets to use it.
+Let's say you activated the **SysKit Point Team** license. With it, you get an option to simultaneously use **SysKit Point** between **five** users. Here's how you can manage who gets to use it.
 
 {% hint style="warning" %}
-**Please note!**                                                                                                                                                                 Account that has activated your licence will automatically occupy **one** out of **five** eligible **Admin user** places.
+**Please note!**                                                                                                                                                                 The account that has activated your licence will automatically occupy **one** out of **five** eligible **Admin user** places.
 {% endhint %}
 
 When located on the **Home Screen**, click on the **Settings** option in the upper right corner.
