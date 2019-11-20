@@ -6,6 +6,29 @@ description: >-
 
 # SysKit Point Quick Start Guide
 
+## Login Screen
+
+After you complete the installation and come to the last step in SysKit Point Configuration Wizard, you can see the **SysKit Point web-app URL** displayed. 
+
+![Configuration Wizard - SysKit Point web-app URL](../.gitbook/assets/syskit-point-quick-start-guide_point-url.png)
+
+Once you click the Finish button, SysKit Point should open in your default browser. You can also copy the URL directly from the text box and paste it to your preferred browser. Once opened in your browser, SysKit Point shows the Welcome screen. Click the **Sign in** button.
+
+![SysKit Point - Welcome screen](../.gitbook/assets/syskit-point-quick-start-guide_login_screen.png)
+
+This action redirects you to the well known Microsoft sign-in screen.
+
+![Microsoft Sign in screen](../.gitbook/assets/syskit-point-quick-start-guide_microsoft-sign-in.png)
+
+Here, you have to enter your existing Office 365 credentials.
+
+{% hint style="warning" %}
+**Please note!**  
+When you are signing in for the first time, it is advisable to use Global Administrator credentials and proceed with the [Role-based Access configuration](../installation-and-configuration/enable-role-based-access.md).
+{% endhint %}
+
+After the sign-in, the SysKit Point Home screen opens.
+
 ## Home Screen 
 
 Place where everything in SysKit Point starts. You can see 4 major sections: 
