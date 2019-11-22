@@ -25,4 +25,5 @@
   * [Configure SSL Certificate](common-tasks/configure-ssl-certificate.md)
 * [FAQ](faq/README.md)
   * [Report Data Limits](faq/report-data-limits.md)
+  * [Migrate Audit Logs](faq/migrate-audit-logs.md)
 
