@@ -26,4 +26,5 @@
 * [FAQ](faq/README.md)
   * [Report Data Limits](faq/report-data-limits.md)
   * [Migrate Audit Logs](faq/migrate-audit-logs.md)
+  * [Turn On Auditing](faq/turn-on-auditing.md)
 

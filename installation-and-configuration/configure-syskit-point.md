@@ -93,9 +93,14 @@ To continue, click the **Accept** button. A new window opens where you can choos
 
 * **Automatic Discovery** – by default, SysKit Point continuously monitors your Office 365 environment and shows you the latest data. SharePoint Online sites and Office 365 Groups data will always be monitored. This setting cannot be modified.
 * **OneDrive** - by default, SysKit Point will collect information and report on user OneDrive activity, content and sharing. To stop collecting OneDrive data, uncheck this option.
-* **Audit Logs** - SysKit Point will also collect all audit logs to monitor internal and external user activities and changes and Store them to the hard drive. To stop storing audit logs, uncheck this option.
+* **Audit Logs** - SysKit Point will also collect all audit logs to monitor internal and external user activities and changes and Store them to the hard drive. To stop storing audit logs, uncheck this option. 
 
 You can change these options anytime by navigating to **Settings** in SysKit Point. 
+
+{% hint style="warning" %}
+**Please note!**  
+For SysKit Point to be able to collect, process, and save audit logs, the auditing has to be enabled in your tenant. [Navigate here to find out how to turn on auditing.](../faq/turn-on-auditing.md)
+{% endhint %}
 
 {% hint style="warning" %}
 **Why do I need to provide a global admin account?**  
