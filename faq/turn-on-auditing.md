@@ -18,15 +18,15 @@ To turn on auditing, first, open the following URL in your browser of choice: [h
 
 The Office 365 Security & Compliance Center will open, showing the Audit log search page. At the top, a yellow warning bar is displayed. On the right side of the warning bar, you can find the **Turn on auditing button** – click it to turn on auditing.
 
-![Office 365 Security &amp; Compliance Center - Turn on auditing button](../.gitbook/assets/turn-on-auditing_turn-on-button.png)
+![](../.gitbook/assets/turn-on-auditing_turn-on-button.png)
 
 Once the page is refreshed, a different warning message appears telling us the **auditing can take a couple of hours** to be made available.
 
-![Office 365 Security &amp; Compliance Center - Warning bar message](../.gitbook/assets/turn-on-auditing_warning.png)
+![](../.gitbook/assets/turn-on-auditing_warning.png)
 
 When the page is refreshed at a later point in time, another warning message is displayed, with more precise information on how long it might take for the audit logs to be visible.
 
-![Office 365 Security &amp; Compliance Center - 24 hours message](../.gitbook/assets/turn-on-auditing_warning2.png)
+![](../.gitbook/assets/turn-on-auditing_warning2%20%281%29.png)
 
 {% hint style="warning" %}
 **Please note!**   
