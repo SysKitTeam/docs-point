@@ -35,6 +35,6 @@ SysKit Point will not be able to collect audit log data before it becomes availa
 
 {% hint style="info" %}
 **Hint!**  
-It is also possible to turn on auditing via **PowerShell.** You can find detailed instructions in the [following article](https://docs.microsoft.com/en-us/microsoft-365/compliance/turn-audit-log-search-on-or-off). 
+It is also possible to turn on auditing with **PowerShell.** You can find detailed instructions in the [following article](https://docs.microsoft.com/en-us/microsoft-365/compliance/turn-audit-log-search-on-or-off). 
 {% endhint %}
 

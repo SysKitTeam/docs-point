@@ -3,6 +3,7 @@
 * [SysKit Point](README.md)
 * [Product Updates](product-updates/README.md)
   * [SysKit Point 10](product-updates/point-10-release-note.md)
+  * [SysKit Point 11](product-updates/point-11-release-note.md)
 * [Requirements](requirements/README.md)
   * [System Requirements](requirements/system-requirements.md)
   * [Permission Requirements](requirements/permission-requirements.md)
