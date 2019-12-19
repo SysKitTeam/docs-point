@@ -4,10 +4,10 @@ description: This article explains how you can enable Role-based Access in SysKi
 
 # Enable Role-Based Access
 
-After the installation and configuration of **SysKit Point**, depending on the subscription plan you selected, you can have multiple users using **SysKit Point** simultaneously. This option is found under the **Settings** tab called **Manage Access.**
+After the installation and configuration of **SysKit Point**, depending on the subscription plan you selected, you can have multiple users using **SysKit Point** simultaneously. This option is found under **Settings** page named **Manage Access.**
 
 {% hint style="warning" %}
-**Please note!**                                                                                                                                       Simultaneous usage of **SysKit Point** is only available in the **Team** and **Enterprise** license plan. 
+**Please note!**                                                                                                                                       Simultaneous usage of **SysKit Point** is only available in the **Team** and **Enterprise** subscription plan. 
 {% endhint %}
 
 ## Setting up Role-Based Access
@@ -20,23 +20,25 @@ Let's say you activated the **SysKit Point Team** license. With it, you get an o
 **Please note!**                                                                                                                                                                 The account that has activated your license **will automatically occupy one out of five eligible** **Admin user** places.
 {% endhint %}
 
-When located on the **Home Screen**, click on the **Settings** option in the upper right corner.
+When located on the **Home Screen**, click on the **Settings** option \(1\) in the upper right corner. A drop-down appears. Click on the **Security** option \(2\).
 
-![Clicking on settings from home screen](../.gitbook/assets/enable_role_based_access_1.png)
+![SysKit Point Home Screen - Settings \(1\) &amp; Security option \(2\)](../.gitbook/assets/enable-role-based-access_settings%20%281%29.png)
 
-You will be redirected to the **Settings** page. From there, click on the **Manage Access** tab.
+You will be redirected to the **Settings** &gt; **Security** &gt; **Manage Access** page, where you can define who has access to **SysKit Point**.
+
+![SysKit Point Settings screen - Manage Access page](../.gitbook/assets/enable-role-based-access_manage-access_team_plan.png)
 
 {% hint style="info" %}
-**Hint!**                                                                                                                                                                      Shortcut to Manage Access is also available from the License tab in Settings.
+**Hint!**  
+Shortcut to Manage Access is also available from the License tab in Settings.
 {% endhint %}
 
-![Settings page overview](../.gitbook/assets/enable_role_based_access_2.png)
+{% hint style="warning" %}
+**Please note!**  
+By default, **SharePoint Admin** **users have the same privileges in SysKit Point as Global Administrators.** Uncheck the **Allow SharePoint admins full access to SysKit Point** option in Settings to disable SharePoint Admin's access to SysKit Point.
+{% endhint %}
 
-After the **Manage Access** tab becomes active, you will see options where you can decide who has access to **SysKit Point**.
-
-![Settings screen - Manage Access tab](../.gitbook/assets/enable_role_based_access_3.png)
-
-If the user that you want to add as **Admin** **Users** doesn't have **Global Administrator** rights on your environment, you have to **enable** the **Allow site owners access to SysKit Point** option.
+If the user that you want to add as **Admin** **Users** doesn't have **Global Administrator** or **SharePoint admin** role in your environment, you have to **enable** the **Allow site owners access to SysKit Point** option.
 
 After that, you can enable the **Allow users with full control on site access to SysKit Point** option, in case the user that you want to add as Admin is not a **Site Owner** but has **Full Control** permissions on some Site Collections or Office 365 Groups in your environment.
 
@@ -49,19 +51,24 @@ Once you've added all desired users, click on the **Save** button. All of them a
 You can change selected Admin Users at any time by clicking on cross mark next to their name and typing in the new one.
 {% endhint %}
 
-![Manage access - options enabled and users added](../.gitbook/assets/enable_role_based_access_4.png)
+![SysKit Point Manage Access page - Options enabled and users added](../.gitbook/assets/enable-role-based-access_manage-access_team_plan_admin_users.png)
 
 ### Enterprise License
 
-If you are using the **Enterprise** plan for your **SysKit Point** you are not limited to several **Admin** users using it simultaneously. However, if you want to enable login for users who don't have **Global Administrator** rights on your tenant, you have to allow it in **Settings**.
+If you are using the **Enterprise** plan, you are not limited to several **Admin** users using SysKit Point simultaneously. However, if you want to enable login for users who don't have **Global Administrator** or **SharePoint admin** rights on your tenant, you have to allow it in **Settings**.
 
-Click on **Settings** and then select the **Manage Access tab**. 
+{% hint style="warning" %}
+**Please note!**  
+By default, **SharePoint Admin** **users have the same privileges in SysKit Point as Global Administrators.** To disable such behavior, uncheck the **Allow SharePoint admins full access to SysKit Point** option.
+{% endhint %}
+
+When located on the **Home Screen**, click on the **Settings** option in the upper right corner. A drop-down appears. Click on the **Security** option.
 
 If you wish to enable login to **SysKit Point** for users that are **Site Owners** activate that option. You also have the option to enable login for users that have **Full Control** permissions on sites or groups in your environment.
 
-Click on the **Save** button.
+Click the **Save** button.
 
-![Manage access - Enterprise Licence edition](../.gitbook/assets/enable_role_based_access_5.png)
+![SysKit Point - Manage access page with Enterprise plan](../.gitbook/assets/enable-role-based-access_manage-access.png)
 
 After you have saved your changes, all **Site Owners** and users with **Full Control** permissions can log in to **SysKit Point**.
 
@@ -79,7 +86,7 @@ When said **Site Owner** opens the URL, the report will be generated but only co
 
 Also, when the **Site Owner** tries to **drill** to the **User Details** page of a user he is not a manager of, he/she will be redirected to an **Unauthorized Access** page.
 
-![Unauthorized access page](../.gitbook/assets/enable_role_based_access_6.png)
+![Unauthorized access page](../.gitbook/assets/enable-role-based-access_unauthorized-access-screen.png)
 
 
 
