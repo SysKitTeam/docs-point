@@ -88,11 +88,3 @@ Also, when the **Site Owner** tries to **drill** to the **User Details** page of
 
 ![Unauthorized access page](../.gitbook/assets/enable-role-based-access_unauthorized-access-screen.png)
 
-
-
-\*\*\*\*
-
-#### 
-
-\*\*\*\*
-
