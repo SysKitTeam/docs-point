@@ -16,7 +16,7 @@ After you successfully entered your credentials, a new window will open.
 
 Here you can mark or unmark checkbox for storing Audit Logs, depending on whether you need it or not.
 
-![](../.gitbook/assets/customize-audit-logs-collection_point-01.png)
+![Configuration wizard - Audit Logs settings](../.gitbook/assets/customize-audit-logs-collection_store-audit-logs-settings.png)
 
 {% hint style="info" %}
 Regardless of your selection to store or not to store **Audit Logs** locally to your disk, they are still regularly **processed by SysKit Point**.
@@ -32,11 +32,11 @@ Here, you can turn the storage of Audit Logs on or off, and configure **Audit In
 
 The information about **Index** **Size** and the **number** **of** **events** in the Audit Index is provided here too.
 
-![](../.gitbook/assets/customize-audit-logs-collection_point-02.png)
+![Audit Logs tab \(1\) in Settings - Store Audit Logs option \(2\), Audit Index storage location \(3\) and link to manage Audit activities that are collected \(4\)  ](../.gitbook/assets/customize_audit_logs_collection_settings_audit_logs_options.png)
 
 Audit Logs collected activities can be found if you click on the blue link **Select activities to collect**.
 
-![](../.gitbook/assets/customize-audit-logs-collection_point-03.png)
+![](../.gitbook/assets/customize_audit_logs_collection_select_activities_to_collect.png)
 
 In the new window there will be categories of all activities:
 
