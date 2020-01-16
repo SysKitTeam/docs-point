@@ -36,7 +36,7 @@ The information about **Index** **Size** and the **number** **of** **events** in
 
 Audit Logs collected activities can be found if you click on the blue link **Select activities to collect**.
 
-![](../.gitbook/assets/customize_audit_logs_collection_select_activities_to_collect.png)
+![Select activities to collect screen](../.gitbook/assets/customize_audit_logs_collection_select_activities_to_collect.png)
 
 In the new window there will be categories of all activities:
 
