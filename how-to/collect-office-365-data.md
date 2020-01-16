@@ -12,11 +12,11 @@ After you install and configure SysKit Point, all data for SharePoint Online Sit
 
 When you log in to SysKit Point, you will get an appropriate notification telling you that Sync started.
 
-![SysKit Point - Sync started notification on the first log in](../.gitbook/assets/collect-office-365-data.png)
+![SysKit Point - Sync started notification on the first log in](../.gitbook/assets/collect-office-365-data_syskit-point-sync-started-notification-on-the-first-log-in.png)
 
 If you navigate to the Sites screen and drill to Site details of a site for which the Sync is not yet finished, a loading screen is displayed and you can notice the animated Sync icon in the top right corner, meaning that the Sync is in progress.
 
-![SysKit Point - Initial load screen and sync icon](../.gitbook/assets/collect-office-365-data_loading_sync.png)
+![SysKit Point - Initial load screen and sync icon](../.gitbook/assets/collect-office-365-data_syskit-point-initial-load-screen-and-sync-icon.png)
 
 {% hint style="info" %}
 **Hint!**  
