@@ -59,5 +59,3 @@ All changes in your Office 365 environment should be synced in no more than 24 h
 Should you require data to be synced immediately, you can start the Sync manually at any time by clicking the Sync button on the appropriate screen, be it for a Site, Office 365 Group or all users in your tenant.
 {% endhint %}
 
-\*\*\*\*
-
