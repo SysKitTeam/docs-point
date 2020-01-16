@@ -8,7 +8,7 @@ description: >-
 
 ## Login Screen
 
-After you complete the installation and come to the last step in SysKit Point Configuration Wizard, you can see the **SysKit Point web-app URL** displayed. 
+After you complete the installation and come to the last step in SysKit Point Configuration Wizard, you can see the **SysKit Point web-app URL** displayed.
 
 ![Configuration Wizard - SysKit Point web-app URL](../.gitbook/assets/syskit-point-quick-start-guide_point-url.png)
 
@@ -29,9 +29,9 @@ When you are signing in for the first time, it is advisable to use Global Admini
 
 After the sign-in, the SysKit Point Home screen opens.
 
-## Home Screen 
+## Home Screen
 
-Place where everything in SysKit Point starts. You can see 4 major sections: 
+Place where everything in SysKit Point starts. You can see 4 major sections:
 
 * **Sites** – complete overview and inventory of all sites and ownerships. Full list of classic sites, sites connected to MS Teams and Office 365 groups, and OneDrive as well. 
 * **Microsoft Teams & Office 365 Groups** – a complete overview of all Teams and Office 365 groups detected in your environment. 
@@ -42,9 +42,9 @@ Place where everything in SysKit Point starts. You can see 4 major sections:
 
 To view specific section, click the appropriate tile.
 
-## Navigation 
+## Navigation
 
-There are multiple ways of navigating through the application. 
+There are multiple ways of navigating through the application.
 
 * **Main Navigation** – click on the Home orange circle to access the main sections of the application. 
 * **Breadcrumbs** – easily detect where you are currently located or move up the hierarchy/back to the parent. 
@@ -55,23 +55,23 @@ There are multiple ways of navigating through the application.
 
 ## Built-in Views
 
-Each overview screen comes with a set of predefined views to help you select the most important information for you. On the left-hand side of the report, simply click on the drop-down menu to select the views you are the most interested in.
+Each overview screen comes with a set of predefined views to help you select the most important information for you. On the left-hand side of the report, simply click on the drop-down menu to select the views you are the most interested in.
 
 ![SysKit Point - Built-in Views on the Sites screen](../.gitbook/assets/syskit-point-quick-start-guide_views.png)
 
 ## Custom Views
 
-If you are not satisfied with the predefined views, please [let us know](https://feedback.syskit.com/).  
-  
+If you are not satisfied with the predefined views, please [let us know](https://feedback.syskit.com/).
+
 As an easy workaround, you can add additional columns on your own with the help of column chooser, or filter each column to get the desired results.
 
-![SysKit Point - Column chooser and column filter](../.gitbook/assets/syskit-point-quick-start-guide_column-chooser_filter.png)
+![SysKit Point - Column Chooser and Column Filter](../.gitbook/assets/syskit-point-quick-start-guide_column-chooser_filter.png)
 
-## Drill for Details 
+## Drill for Details
 
-The basic principle in the application is, whenever you wish to see more details about a specific resource, you simply click on its name to drill deeper. Resources, numbers, and details that can be drilled on will be marked with the underline. 
+The basic principle in the application is, whenever you wish to see more details about a specific resource, you simply click on its name to drill deeper. Resources, numbers, and details that can be drilled on will be marked with the underline.
 
-Everything is connected and we made it easy for you to navigate from specific site to the user details and vice versa. 
+Everything is connected and we made it easy for you to navigate from specific site to the user details and vice versa.
 
 ![SysKit Point - Drill on the Sites screen](../.gitbook/assets/syskit-point-quick-start-guide_drill.png)
 
@@ -81,11 +81,11 @@ Whenever possible, SysKit Point shows you an external link so you can, e.g. quic
 
 ![SysKit Point - External link for a site](../.gitbook/assets/syskit-point-quick-start-guide_drill_external-link.png)
 
-## Contextual Actions & Reports 
+## Contextual Actions & Reports
 
-On the right hand side of the screen you will find suggested actions and reports that are connected to the current selection \(site/user\) or report on your screen. 
+On the right hand side of the screen you will find suggested actions and reports that are connected to the current selection \(site/user\) or report on your screen.
 
-There are two types of actions/reports: 
+There are two types of actions/reports:
 
 * **Global Actions/Reports** - these actions are always visible and will create report or perform action for the specific site/user you are currently located at.   **Example:** If you are exploring in details site called Research and Development, reports on the right hand site will contain information only about that site.
 
@@ -95,9 +95,9 @@ There are two types of actions/reports:
 
 ![SysKit Point - Contextual actions after selection](../.gitbook/assets/syskit-point-quick-start-guide_contextual-actions.png)
 
-## **What Can a Site Owner See?** 
+## **What Can a Site Owner See?**
 
-SysKit Point will present you with the inventory of your resources, meaning you will be able to see sites, Teams and Office 365 groups you are the owner/administrator of.  
+SysKit Point will present you with the inventory of your resources, meaning you will be able to see sites, Teams and Office 365 groups you are the owner/administrator of.
 
-Check the [following link](../installation-and-configuration/enable-role-based-access.md) for more details about **role based access configuration**. 
+Check the [following link](../installation-and-configuration/enable-role-based-access.md) for more details about **role based access configuration**.
 
