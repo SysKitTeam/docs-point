@@ -14,7 +14,7 @@ You can do this action while entering your tenant with the Office 365 Global adm
 
 After you successfully entered your credentials, a new window will open.
 
-Here you can mark or unmark checkbox for storing Audit Logs, depending on whether you need it or not. 
+Here you can mark or unmark checkbox for storing Audit Logs, depending on whether you need it or not.
 
 ![](../.gitbook/assets/customize-audit-logs-collection_point-01.png)
 
@@ -38,7 +38,7 @@ Audit Logs collected activities can be found if you click on the blue link **Sel
 
 ![](../.gitbook/assets/customize-audit-logs-collection_point-03.png)
 
-In the new window there will be categories of all activities: 
+In the new window there will be categories of all activities:
 
 * Sharing and access request activities
 * Application administration activities

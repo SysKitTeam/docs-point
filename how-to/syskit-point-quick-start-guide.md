@@ -10,15 +10,15 @@ description: >-
 
 After you complete the installation and come to the last step in SysKit Point Configuration Wizard, you can see the **SysKit Point web-app URL** displayed.
 
-![Configuration Wizard - SysKit Point web-app URL](../.gitbook/assets/syskit-point-quick-start-guide_point-url.png)
+![Configuration Wizard - SysKit Point web-app URL](../.gitbook/assets/syskit-point-quick-start-guide_syskit-point-web-app-url.png)
 
 Once you click the Finish button, SysKit Point should open in your default browser. You can also copy the URL directly from the text box and paste it to your preferred browser. Once opened in your browser, SysKit Point shows the Welcome screen. Click the **Sign in** button.
 
-![SysKit Point - Welcome screen](../.gitbook/assets/syskit-point-quick-start-guide_login_screen.png)
+![SysKit Point - Welcome screen](../.gitbook/assets/syskit-point-quick-start-guide_welcome-screen.png)
 
 This action redirects you to the well known Microsoft sign-in screen.
 
-![Microsoft Sign in screen](../.gitbook/assets/syskit-point-quick-start-guide_microsoft-sign-in.png)
+![Microsoft Sign-in screen](../.gitbook/assets/syskit-point-quick-start-guide_microsoft-sign-in-screen.png)
 
 Here, you have to enter your existing Office 365 credentials.
 
@@ -38,7 +38,7 @@ Place where everything in SysKit Point starts. You can see 4 major sections:
 * **Users** – explore all users and see more details about their memberships and permissions they hold across the sites. 
 * **Reports** – create security and audit activities across your resources. 
 
-![SysKit Point - Home Screen](../.gitbook/assets/syskit-point-quick-start-guide_home-screen.png)
+![SysKit Point - Welcome Home screen](../.gitbook/assets/syskit-point-quick-start-guide_syskit-point-home-screen.png)
 
 To view specific section, click the appropriate tile.
 
@@ -51,13 +51,13 @@ There are multiple ways of navigating through the application.
 * **Drill** – clicking on the underlined objects takes you to a more detailed report about that resource. 
 * **Back Button** – takes you to the previous screen, the one that you were at before jumping to a different report. 
 
-![SysKit Point - Navigation elements](../.gitbook/assets/syskit-point-quick-start-guide_navigation.png)
+![SysKit Point - Navigation elements](../.gitbook/assets/syskit-point-quick-start-guide_navigation-elements.png)
 
 ## Built-in Views
 
 Each overview screen comes with a set of predefined views to help you select the most important information for you. On the left-hand side of the report, simply click on the drop-down menu to select the views you are the most interested in.
 
-![SysKit Point - Built-in Views on the Sites screen](../.gitbook/assets/syskit-point-quick-start-guide_views.png)
+![SysKit Point - Built-in Views on the Sites screen](../.gitbook/assets/syskit-point-quick-start-guide_syskit-point-built-in-views-on-the-sites-screen.png)
 
 ## Custom Views
 
@@ -65,7 +65,7 @@ If you are not satisfied with the predefined views, please [let us know](https:/
 
 As an easy workaround, you can add additional columns on your own with the help of column chooser, or filter each column to get the desired results.
 
-![SysKit Point - Column Chooser and Column Filter](../.gitbook/assets/syskit-point-quick-start-guide_column-chooser_filter.png)
+![SysKit Point - Column Chooser and Column Filter](../.gitbook/assets/syskit-point-quick-start-guide_syskit-point-column-chooser-and-column-filter.png)
 
 ## Drill for Details
 
@@ -73,13 +73,13 @@ The basic principle in the application is, whenever you wish to see more details
 
 Everything is connected and we made it easy for you to navigate from specific site to the user details and vice versa.
 
-![SysKit Point - Drill on the Sites screen](../.gitbook/assets/syskit-point-quick-start-guide_drill.png)
+![SysKit Point - Drill on the Sites screen](../.gitbook/assets/syskit-point-quick-start-guide_syskit-point-drill-on-the-sites-screen.png)
 
 ## External Links
 
 Whenever possible, SysKit Point shows you an external link so you can, e.g. quickly open a site in SharePoint Online or send an email to Office 365 Group. External links are marked with an icon that suggests you will leave the current context, and to distinguish them from drill links mentioned above, they are colored blue.
 
-![SysKit Point - External link for a site](../.gitbook/assets/syskit-point-quick-start-guide_drill_external-link.png)
+![SysKit Point - External link for a site](../.gitbook/assets/syskit-point-quick-start-guide_syskit-point-external-link-for-a-site.png)
 
 ## Contextual Actions & Reports
 
@@ -89,11 +89,11 @@ There are two types of actions/reports:
 
 * **Global Actions/Reports** - these actions are always visible and will create report or perform action for the specific site/user you are currently located at.   **Example:** If you are exploring in details site called Research and Development, reports on the right hand site will contain information only about that site.
 
-![SysKit Point - Global actions on site details screen](../.gitbook/assets/syskit-point-quick-start-guide_global-actions.png)
+![SysKit Point - Global actions on site details screen](../.gitbook/assets/syskit-point-quick-start-guide_syskit-point-global-actions-on-site-details-screen.png)
 
 * **Contextual Actions/Reports** - when you select something in the screen, additional actions and reports may appear. If you choose to create a report/perform an action, they will impact currently selected object in one of the tiles. **Example:** If you select the Documents library in the Content tile, reports on the right hand side will be related to that selection only, meaning that they will present information about that selected folder, not the entire site you are currently exploring.
 
-![SysKit Point - Contextual actions after selection](../.gitbook/assets/syskit-point-quick-start-guide_contextual-actions.png)
+![SysKit Point - Contextual actions after selection](../.gitbook/assets/syskit-point-quick-start-guide_syskit-point-contextual-actions-after-selection.png)
 
 ## **What Can a Site Owner See?**
 

@@ -14,11 +14,11 @@ This is the first official release of SysKit Point.
 
 ## Hello World!
 
-Dear ladies and gentlemen, if we could have your attention please - introducing the new, shiny and awesome tool - [**SysKit Point!**](https://syskit.com/products/point)   
-  
-**SysKit Point** is a comprehensive, **role-based Office 365 governance tool** that fits the needs of **Office 365 admins, site owners, auditors, and compliance officers**. It empowers all these user roles to automate security tasks and take control of the content they own.​   
-  
-****You might find it strange that the 1st release is marked with the number 10. The reason lies behind the fact that [**SysKit is celebrating its 10th birthday**.](https://syskit.com/blog/syskit-celebrates-10-years/)   
+Dear ladies and gentlemen, if we could have your attention please - introducing the new, shiny and awesome tool - [**SysKit Point!**](https://syskit.com/products/point)
+
+**SysKit Point** is a comprehensive, **role-based Office 365 governance tool** that fits the needs of **Office 365 admins, site owners, auditors, and compliance officers**. It empowers all these user roles to automate security tasks and take control of the content they own.​
+
+**\*\*You might find it strange that the 1st release is marked with the number 10. The reason lies behind the fact that \[**SysKit is celebrating its 10th birthday\*\*.\]\([https://syskit.com/blog/syskit-celebrates-10-years/](https://syskit.com/blog/syskit-celebrates-10-years/)\)  
 SysKit Point comes as a successor to SysKit Security Manager, a product that has given us knowledge and insights used as a foundation in building the next great thing. Other than wisdom, all is new in SysKit Point, so let's get started.
 
 ## Web-based Interface
@@ -31,7 +31,7 @@ Drills, breadcrumbs, views, contextual and global actions, filters, and each and
 
 ## Role-based Access
 
-Not only Global Administrators but also **Site Owners and users with Full Control Permissions can access SysKit Point** and manage their Sites and Office 365 Groups. Find out how to [enable their access  in few mouse clicks here. ](../installation-and-configuration/enable-role-based-access.md)These options are available depending on the subscription type, so make sure to [check available plans here.](https://syskit.com/products/point/pricing/)
+Not only Global Administrators but also **Site Owners and users with Full Control Permissions can access SysKit Point** and manage their Sites and Office 365 Groups. Find out how to [enable their access in few mouse clicks here. ](../installation-and-configuration/enable-role-based-access.md)These options are available depending on the subscription type, so make sure to [check available plans here.](https://syskit.com/products/point/pricing/)
 
 ## Sync it!
 
@@ -47,7 +47,5 @@ Contextual audit reports as you know and love them, only better! Like all things
 
 ## Future
 
-Make sure to [check our roadmap](https://feedback.syskit.com/?project=POINT) to see what is the next big thing to come. [Try SysKit Point](https://syskit.com/products/point/request-a-demo/) and feel free to [share your thoughts and ideas](https://feedback.syskit.com/ideas/new). 
-
-
+Make sure to [check our roadmap](https://feedback.syskit.com/?project=POINT) to see what is the next big thing to come. [Try SysKit Point](https://syskit.com/products/point/request-a-demo/) and feel free to [share your thoughts and ideas](https://feedback.syskit.com/ideas/new).
 

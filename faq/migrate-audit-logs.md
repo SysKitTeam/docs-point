@@ -17,7 +17,7 @@ Before you begin with the migration, make sure your SysKit Security Manager appl
 
 On the machine where SysKit Security Manager is installed, **make sure that the Audit log collection is NOT in progress.** You can do so by checking the **Audit Log status bar**. If you see a green checkmark, you can continue to the next step.
 
-![SysKit Security Manager - Audit Log status bar](../.gitbook/assets/migrate-audit-logs_ssm-audit-log-status-bar%20%281%29.png)
+![SysKit Security Manager - Audit Log status bar](../.gitbook/assets/migrate-audit-logs_ssm-audit-log-status-bar-1.png)
 
 {% hint style="warning" %}
 **Please note!**  
@@ -32,7 +32,7 @@ Find the Audit Index location used by SysKit Security Manager to store Audit log
 
 ![SysKit Security Manager - Audit logs location](../.gitbook/assets/migrate-audit-logs_ssm-audit-logs-location.png)
 
-Once located, **copy the AuditIndex folder** to a safe temporary location or a thumb drive in case SysKit Point is installed on another machine. 
+Once located, **copy the AuditIndex folder** to a safe temporary location or a thumb drive in case SysKit Point is installed on another machine.
 
 ![Copying the located AuditIndex folder](../.gitbook/assets/migrate-audit-logs_copy-audit-index.png)
 
@@ -49,7 +49,7 @@ After the migration, **duplicate Audit Log entries may appear** in audit reports
 
 If you don't have an existing SysKit Point installation, first, install SysKit Point by following the instructions[ given here.](../installation-and-configuration/install-syskit-point.md)
 
-Before continuing to the [configuration steps](../installation-and-configuration/configure-syskit-point.md), **copy and paste the AuditIndex folder you retrieved from SysKit Security Manager to** **C:\ProgramData\SysKit\Point.** 
+Before continuing to the [configuration steps](../installation-and-configuration/configure-syskit-point.md), **copy and paste the AuditIndex folder you retrieved from SysKit Security Manager to** **C:\ProgramData\SysKit\Point.**
 
 Continue with the [configuration of SysKit Point](../installation-and-configuration/configure-syskit-point.md). When you complete the configuration and open SysKit Point web-app, you should be able to view existing Audit logs in the Audit Logs Overview report. To open the report, navigate to the **Report Center**, click the **Audit Logs Overview** tile, and run the report**.**
 
@@ -59,7 +59,7 @@ If you already installed SysKit Point, navigate to the default SysKit Point Audi
 
 ![Deleting the existing SysKit Point AuditIndex folder](../.gitbook/assets/migrate-audit-logs_delete-point-audit-index.png)
 
-**Copy and paste the AuditIndex folder you retrieved from SysKit Security Manager to** **C:\ProgramData\SysKit\Point.** 
+**Copy and paste the AuditIndex folder you retrieved from SysKit Security Manager to** **C:\ProgramData\SysKit\Point.**
 
-Start the SysKit Point service and open the SysKit Point web-app in your web browser. You should be able to view existing Audit logs in the Audit Logs Overview report. 
+Start the SysKit Point service and open the SysKit Point web-app in your web browser. You should be able to view existing Audit logs in the Audit Logs Overview report.
 
