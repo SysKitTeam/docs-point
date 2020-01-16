@@ -19,41 +19,37 @@ Here's how you can do it.
 
 ## Generate User Access from Report Center
 
-From the **Home Screen**, you can either click on Reports tile, or directly to **User Access** report.
+From the **Welcome Home screen**, you can either click on Reports tile, or directly to **User Access** report.
 
-![Home Screen](../.gitbook/assets/check_access_for_specific_user_1.png)
+![SysKit Point - Welcome Home screen](../.gitbook/assets/check-access-for-specific-office-365-user_welcome-home-screen.png)
 
 If you've clicked on **Reports** you will be redirected to **Report Center** where you can select **User Access** report.
 
-![Report Center - User Access](../.gitbook/assets/check_access_for_specific_user_2.png)
-
-To find **User Access** easier you can also use filters on the upper side of Report Center, User Access has tags for **Permission Reports** and **Users**, so selecting either of those will show you User Access report.
-
-![Report Center - report filters](../.gitbook/assets/check_access_for_specific_user_3.png)
+![Report Center - User Access report](../.gitbook/assets/check-access-for-specific-office-365-user_report-center-user-access-report.png)
 
 ### Filtering through users on Selection page
 
 After clicking on User Access, you are redirected to **Selection** page. There you can see all the **Users** on your **Tenant**.
 
-![User Access selection screen](../.gitbook/assets/check_access_for_specific_user_4.png)
+![User Access Selection screen](../.gitbook/assets/check-access-for-specific-office-365-user_user-access-selection-screen.png)
 
 You can filter through **Users** by changing the type of **view** you're using. Change the type of view by clicking on **view selector** on the left side of the screen.
 
-![User Access selection screen - view picker](../.gitbook/assets/check_access_for_specific_user_5.png)
+![User Access Selection screen - view picker](../.gitbook/assets/check-access-for-specific-office-365-user_user-access-selection-screen-view-picker.png)
 
 Clicking on **Column Chooser** also enables you at adding additional columns to the grid so you can filter further through those columns. To open a Column Chooser click on the icon next to the **Search bar** on the right.
 
-![User Access selection screen - column chooser](../.gitbook/assets/check_access_for_specific_user_6.png)
+![User Access Selection screen - Column Chooser](../.gitbook/assets/check-access-for-specific-office-365-user_user-access-selection-screen-column-chooser.png)
 
 Last type of filtering is by using the **Search bar** which is located on the right side of the screen. Type into it to find a specific user you want.
 
-![User Access selection screen - search bar](../.gitbook/assets/check_access_for_specific_user_7.png)
+![User Access Selection screen - Search bar](../.gitbook/assets/check-access-for-specific-office-365-user_user-access-selection-screen-search-bar.png)
 
 ### Making a Selection
 
 While making a selection you have various possibilities. Clicking on a **checkbox** next to a **Display Name** column will select all the Users on the current view.
 
-![User Access selection screen - select all users](../.gitbook/assets/check_access_for_specific_user_8.png)
+![User Access Selection screen - select all users](../.gitbook/assets/check-access-for-specific-office-365-user_user-access-selection-screen-select-all-users.png)
 
 By clicking on checkboxes next to a User you can make a **single** or **multiple** User selection.
 
