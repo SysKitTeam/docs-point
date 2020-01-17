@@ -10,7 +10,7 @@ If you want to find out everything about External users and their access to your
 
 The picture below shows you how to switch between different views at the **Users Overview** screen.
 
-![](../.gitbook/assets/track-external-users-and-their-activites_point-01.png)
+![Users Overview screen - opening views \(1\) and selection of External Users view \(2\)](../.gitbook/assets/track-office-365-external-users-and-their-activities_users-overview-screen-opening-views-and-selecti.png)
 
 You will find useful data while checking the External Users view in the grid, such as the sign-in status of the user.
 
