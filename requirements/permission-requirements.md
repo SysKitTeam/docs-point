@@ -90,7 +90,7 @@ The following permissions are required for SysKit Point Enterprise Application:
 
 | Permissions | Type | Reason |
 | :--- | :--- | :--- |
-| Have full access to the Skype Remote PowerShell Azure services | Delegated | Allows SysKit Point to gather additional dana about your Microsoft Teams. |
+| Have full access to the Skype Remote PowerShell Azure services | Delegated | Allows SysKit Point to gather additional data about your Microsoft Teams. |
 
 #### Windows Azure Service Management API
 
