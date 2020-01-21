@@ -23,7 +23,7 @@ This allows the account to create a new database and to assign proper privileges
 
 ### Using the existing database
 
-User running SysKit Point installation will need to be granted the **db\_datareader** rights on the existing Syskit Point database.
+User running SysKit Point installation will need to be granted the **db\_owner** rights on the existing Syskit Point database.
 
 ## Service Account
 
