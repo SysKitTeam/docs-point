@@ -16,7 +16,7 @@ After you successfully entered your credentials, a new window will open.
 
 Here you can mark or unmark checkbox for storing Audit Logs, depending on whether you need it or not.
 
-![Configuration wizard - Audit Logs settings](../.gitbook/assets/customize-audit-logs-collection_store-audit-logs-settings.png)
+![Store Audit Logs settings in configuration wizard](../.gitbook/assets/customize-audit-logs-collection_store-audit-logs-settings%20%281%29.png)
 
 {% hint style="info" %}
 Regardless of your selection to store or not to store **Audit Logs** locally to your disk, they are still regularly **processed by SysKit Point**.

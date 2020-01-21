@@ -23,7 +23,7 @@ This allows the account to create a new database and to assign proper privileges
 
 ### Using the existing database
 
-User running SysKit Point installation will need to be granted the **db\_datareader** rights on the existing Syskit Point database.
+User running SysKit Point installation will need to be granted the **db\_owner** rights on the existing Syskit Point database.
 
 ## Service Account
 
@@ -49,7 +49,7 @@ If the service account is outside your domain the account name must be typed in 
 
 **The first time you connect to your Office 365 tenant, you will be prompted to give consent** to a set of permissions that SysKit Point requires to function properly. Additional prompts may show up in the future when installing a newer version of SysKit Point because of new functionality and in consequence potentially new required permissions.
 
-![SysKit Point - Global Administrator Consent](../.gitbook/assets/permission_requirements_global_administrator_consent.png)
+![SysKit Point - Global Administrator Consent](../.gitbook/assets/permission_requirements_global_administrator_consent%20%281%29.png)
 
 ### SysKit Point App Permissions
 
