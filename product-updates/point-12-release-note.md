@@ -37,8 +37,8 @@ Discover what’s new in the list below!
 
 ## Bug Fixes
 
-* Fixed a bug that would cause the following error to appear during Site Sync: Microsoft.SharePoint.Client.CollectionNotInitializedException: The collection has not been initialized. It has not been requested or the request has not been executed. It may need to be explicitly requested.
+* Fixed a bug that would cause the following error to appear during Site Sync: `Microsoft.SharePoint.Client.CollectionNotInitializedException: The collection has not been initialized. It has not been requested or the request has not been executed. It may need to be explicitly requested.`
 * Fixed an issue where the web application would unexpectedly stop working after a couple of weeks, with the workaround being to reenter the credentials in the Configuration Wizard. SysKit Point now uses a more reliable method of application authorization with certificates.
-* Fixed a bug where an incorrect error was displayed when a site owner tried to access OneDrive content without being the OneDrive admin. The following error was displayed: There is no data to show for this report. The correct error is now displayed in such cases: Unauthorized Access Current user has insufficient permissions to view site page. Only administrators and allowed users have access.
-* Fixed a bug where retrieving analytics data for Sites that failed to sync would cause the following error: System.NullReferenceException: Object reference not set to an instance of an object at SysKit.SecurityManager.Business.Audit.AuditService.
+* Fixed a bug where an incorrect error was displayed when a site owner tried to access OneDrive content without being the OneDrive admin. The following error was displayed: `There is no data to show for this report.` The correct error is now displayed in such cases: `Unauthorized Access Current user has insufficient permissions to view site page. Only administrators and allowed users have access.`
+* Fixed a bug where retrieving analytics data for Sites that failed to sync would cause the following error: `System.NullReferenceException: Object reference not set to an instance of an object at SysKit.SecurityManager.Business.Audit.AuditService.`
 
