@@ -51,11 +51,11 @@ To assign a user to the **SysKit Point Global Viewer** role, **enable the** **to
 
 ![SysKit Point Settings screen - Manage Access page - Assigning a user to SysKit Point Global Viewer role](../.gitbook/assets/rbs-clanak-4.png)
 
-Each role on the **Manage Access** page has its user number label visible in a tile. It shows how many users are currently occupying SysKit Point roles.
+Each role on the **Manage Access** page has the number of users visible in the **Users tile**. It shows how many users are currently occupying SysKit Point roles.
 
 ![SysKit Point Settings screen - Manage Access page - Number of users in SysKit Point roles](../.gitbook/assets/rbs-clanak-5.png)
 
-Clicking on each of those labels redirects to the **report for the corresponding role**. The report shows the **list of users occupying the selected role**. From the report, you can **assign new users** to the role, **export the report** to PDF or XLSX, ****and **remove users** from the said role.
+Clicking on each of those tiles redirects to the **report for the corresponding role**. The report shows the **list of users occupying the selected role**. From the report, you can **assign new users** to the role, **export the report** to PDF or XLSX, ****and **remove users** from the said role.
 
 **To remove a user**, **click the checkbox** next to the desired user name \(1\), then click the **Remove Access from SysKit Point** action \(2\).
 
@@ -90,23 +90,24 @@ With the **Enterprise plan**, you have three available options when configuring 
 
 ![SysKit Point Settings screen - Manage Access page with Enterprise lincense](../.gitbook/assets/rbs-clanak-8.png)
 
-If you have activated **SysKit Point** with **Enterprise** license it will automatically add two **Office 365** administration roles \(**Company Administrator** and **SharePoint Service Administrator**\) as S**ysKit Point Admins**. So any user on your **Office 365 environment** that has that role will **automatically** have **full access** to **SysKit Point**.
+If you have activated **SysKit Point** with **Enterprise license**, it will automatically add two **Office 365** administrator roles - **Company Administrator** and **SharePoint Service Administrator** - as **SysKit Point Admins**. Any user in your **Office 365 environment** assigned to one of these roles will **automatically** have **admin access** to **SysKit Point**.
 
-To see all users associated with those roles, click on the **number** on Users label under **SysKit Point Admins** option.
+To see all users associated with the Office 365 administrator roles, **click the** **Users tile** under the **SysKit Point Admins** option.
 
-![SysKit Point Settings screen - Manage Access - SysKit Point Admins user label](../.gitbook/assets/rbs-clanak-9%20%281%29.png)
+![SysKit Point Settings screen - Manage Access - SysKit Point Admins Users tile](../.gitbook/assets/rbs-clanak-9%20%281%29.png)
 
-You are then redirected to **SysKit Point Admins** report where You can see who has **access** to **SysKit Point**.
+You are then redirected to the **SysKit Point Admins** report, where You can see who has **access** to **SysKit Point**.
 
-![SysKit Point Admins Report](../.gitbook/assets/rbs-clanak-10.png)
+![SysKit Point Admins report](../.gitbook/assets/rbs-clanak-10.png)
 
-While **Team** license plan gives you the ability to add **distinct users** only as **SysKit Point admins** \(also limited to number five\). **Enterprise** license enables you to add even **Office 365 Administration roles**, **security groups** and **Office 365 groups**.
+While the **Team license plan** gives you the ability to add **distinct users** as **SysKit Point admins** \(limited to five users\), the **Enterprise license** enables you to add **Office 365 Administrator roles**, **security groups**, ****and **Office 365 groups**.
 
 {% hint style="warning" %}
-**Please note!** it is not possible to remove or add a distinct user from **Office 365 administration role** in **SysKit Point**.
+**Please note!**   
+Adding/removing a specific user to/from a SysKit Point role **does not add/remove them to/from an Office 365 administration role.**
 {% endhint %}
 
-#### What is SysKit Point Collaborators role
+#### SysKit Point Collaborators
 
 **SysKit Point Collaborators** role is the specific role made for **SysKit Point** Enterprise license users in which they can enable their **Site admins/Teams owners** access to the **SysKit Point** to easily manage their **sites/teams** while not showing them information they should not see. When it's enabled, **SysKit Point** will **automatically** assign that type of users to **SysKit Point Collaborators** role.
 
@@ -124,13 +125,13 @@ You will be redirected to **SysKit Point Collaborators report** on which you can
 
 ### Why Should You Enable Role-Based Access
 
-When working in big environments it's easier to keep things tidy if more people are working together.
+When working in big environments, it's easier to keep things tidy if more people are working together.
 
-As you know, the **SysKit Point Admin** can see all the content that is available on the Office 365 Tenant.
+As you know, the **SysKit Point Admin** can see all the content that is available in the Office 365 Tenant.
 
 **Role-Based Access** empowers all **Site Owners** \(and users with **Full Control** permissions\) to keep their **Sites** and **Teams** clean. It gives them access to all reports and information relevant to them, without showing the content they are not allowed to see.
 
-**For example,** the **SysKit Point Admin** has generated the **User Access** report and instead of sharing the URL of the generated report to the other **SysKit Point Admin**, it was sent to the **SysKit Point Collaborator** that doesn't have access to all the users on the said environment. This is where **Role-Based Access** kicks in.
+**For example,** the **SysKit Point Admin** has generated the **User Access** report, and instead of sharing the URL of the generated report to the other **SysKit Point Admin**, it was sent to the **SysKit Point Collaborator** that doesn't have access to all the users in the said environment. This is where **Role-Based Access** kicks in.
 
 When said **SysKit Point Collaborator** opens the URL, the report will be generated but only containing **Users** who are members on his **Site Collections** and **Office 365** **Groups**.
 
