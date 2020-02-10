@@ -1,18 +1,16 @@
 ---
-description: This section describes how to access inactive content within SysKit Point.
+description: This section describes how to find inactive content within SysKit Point.
 ---
 
-# Inactive Content
+# Find Inactive Content
 
-Have you ever wondered how to view all inactive or unused content in your environment?
+Have you ever wondered how to discover all inactive or unused content in your Office 365 environment?  
+It is important to have this kind of information because you want a well-organized Office 365 environment.   
+Now you can find it all in one place with help of **SysKit Point**.
 
-Now you can check this kind of content with a unique feature used in **SysKit Point**.
+## Monitored Workloads
 
-It is important to have this information because you want a well-organized Office 365 environment. You will be able to delete unused content after identifying it.
-
-## Workloads included for the feature
-
-For this feature, we are collecting activities for the following workloads: **SharePoint**, **Exchange Server**, and **Yammer**.
+To decide whether something is inactive in your Office 365 environment, we are collecting activities for the following workloads: **SharePoint**, **Exchange Server**, and **Yammer**, with **Teams** workload coming soon.
 
 **SharePoint activity** is collected via Office 365 audit logs. The last activity is based on the latest date when a file was viewed, edited, or downloaded.
 
