@@ -22,7 +22,7 @@ Let's say you activated the **SysKit Point Team** license. With it, you get an o
 The account that has activated your license **will automatically occupy one out of five eligible** **Admin user** places.
 {% endhint %}
 
-When located on the **Home Screen**, click on the **Settings** option \(1\) in the upper right corner. A drop-down appears. Click on the **Security** option \(2\).
+When located on the **Home Screen**, click the **Settings** option \(1\) in the upper right corner. A drop-down appears. Click the **Security** option \(2\).
 
 ![SysKit Point Home Screen - Settings \(1\) &amp; Security option \(2\)](../.gitbook/assets/rbs-clanak-1%20%281%29.png)
 
@@ -74,9 +74,9 @@ Removing a user from the SysKit Point role **will not remove** them from your Of
 
 ### Enterprise License
 
-If you are using the **Enterprise** plan, you are not limited to several **Admin** users using SysKit Point simultaneously. However, if you want to enable login for users who don't have **Global Administrator** or **SharePoint admin** rights on your tenant, you have to allow it in **Settings**.
+If you are using the Enterprise plan, you are not limited to several Admin users using SysKit Point simultaneously. However, if you want to enable login for users who don't have **Global Administrator** or **SharePoint Admin** rights on your tenant, you have to allow it in Settings.
 
-When located on the **Home Screen**, click on the **Settings** option in the upper right corner. A drop-down appears. Click on the **Security** option.
+When located on the **Home Screen**, click the **Settings** option \(1\) in the upper right corner. A drop-down appears. Click the **Security** option \(2\).
 
 
 
@@ -84,7 +84,7 @@ When located on the **Home Screen**, click on the **Settings** option in the upp
 
 
 
-You will be redirected to **SysKit Point Settings screen - Manage access**. 
+You will be redirected to the **SysKit Point Settings** screen **- Manage access** page. 
 
 With **Enterprise** plan you have three available options for accessing SysKit Point. **SysKit Point Admins**\(1\), **SysKit Point Global Viewers**\(2\) and **SysKit Point Collaborators**\(3\) of which the latter ones are disabled by default.
 
