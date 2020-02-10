@@ -37,7 +37,7 @@ Shortcut to Manage Access is also available from the License tab in Settings.
 
 When you are on the **Manage Access screen**, you will see two roles that are available for the Team license plan; **SysKit Point Admin** and **SysKit Point Global Viewer** \(which is disabled by default\).
 
-When the user is assigned to the **SysKit Point Admin** role, they will be able to login to SysKit Point and view All data collected from the Office 365 tenant, but they will only be able to execute actions for which they have permissions in Office 365.
+When the user is assigned to the **SysKit Point Admin** role, they will be able to login to SysKit Point and view All data collected from the Office 365 tenant, but **they will only be able to execute actions for which they have permissions in Office 365**.
 
 To assign a user to the **SysKit Point Admin** role, simply click on the **Assign to role** button which will open up a **textbox** where you can type in the name of the **User** you want to **assign** to the **SysKit Point Admin role**. After you've selected the User, click **Save** to confirm your action. 
 
