@@ -26,7 +26,7 @@ When located on the **Home Screen**, click on the **Settings** option \(1\) in t
 
 You will be redirected to the **Settings** &gt; **Security** &gt; **Manage Access** page, where you can define who has access to **SysKit Point**.
 
-![SysKit Point Settings screen - Manage Access page](../.gitbook/assets/rbs-clanak-2.png)
+![SysKit Point Settings screen - Manage Access page Team License](../.gitbook/assets/rbs-clanak-2.png)
 
 {% hint style="info" %}
 **Hint!**  
@@ -73,34 +73,65 @@ When the action is **completed**, the selected user will **no longer have access
 
 If you are using the **Enterprise** plan, you are not limited to several **Admin** users using SysKit Point simultaneously. However, if you want to enable login for users who don't have **Global Administrator** or **SharePoint admin** rights on your tenant, you have to allow it in **Settings**.
 
-{% hint style="warning" %}
-**Please note!**  
-By default, **SharePoint Admin** **users have the same privileges in SysKit Point as Global Administrators.** To disable such behavior, uncheck the **Allow SharePoint admins full access to SysKit Point** option.
-{% endhint %}
-
 When located on the **Home Screen**, click on the **Settings** option in the upper right corner. A drop-down appears. Click on the **Security** option.
 
-If you wish to enable login to **SysKit Point** for users that are **Site Owners** activate that option. You also have the option to enable login for users that have **Full Control** permissions on sites or groups in your environment.
 
-Click the **Save** button.
 
-![SysKit Point - Manage access page with Enterprise plan](../.gitbook/assets/enable-role-based-access_manage-access.png)
+![SysKit Point Home Screen - Settings \(1\) &amp; Security option \(2\)](../.gitbook/assets/rbs-clanak-1%20%281%29.png)
 
-After you have saved your changes, all **Site Owners** and users with **Full Control** permissions can log in to **SysKit Point**.
+
+
+You will be redirected to **SysKit Point Settings screen - Manage access**. 
+
+With **Enterprise** plan you have three available options for accessing SysKit Point. **SysKit Point Admins**\(1\), **SysKit Point Global Viewers**\(2\) and **SysKit Point Collaborators**\(3\) of which the latter ones are disabled by default.
+
+![SysKit Point Settings screen - Manage Access page Enterprise lincese](../.gitbook/assets/rbs-clanak-8.png)
+
+If you have activated **SysKit Point** with **Enterprise** license it will automatically add two **Office 365** administration roles \(**Company Administrator** and **SharePoint Service Administrator**\) as S**ysKit Point Admins**. So any user on your **Office 365 environment** that has that role will **automatically** have **full access** to **SysKit Point**.
+
+To see all users associated with those roles, click on the **number** on Users label under **SysKit Point Admins** option.
+
+![SysKit Point Settings screen - Manage Access - SysKit Point Admins user label](../.gitbook/assets/rbs-clanak-9%20%281%29.png)
+
+You are then redirected to **SysKit Point Admins** report where You can see who has **access** to **SysKit Point**.
+
+![SysKit Point Admins Report](../.gitbook/assets/rbs-clanak-10.png)
+
+While **Team** license plan gives you the ability to add **distinct users** only as **SysKit Point admins** \(also limited to number five\). **Enterprise** license enables you to add even **Office 365 Administration roles**, **security groups** and **Office 365 groups**.
+
+{% hint style="warning" %}
+**Please note!** it is not possible to remove or add a distinct user from **Office 365 administration role** in **SysKit Point**.
+{% endhint %}
+
+#### What is SysKit Point Collaborators role
+
+**SysKit Point Collaborators** role is the specific role made for **SysKit Point** Enterprise license users in which they can enable their **Site admins/Teams owners** access to the **SysKit Point** to easily manage their **sites/teams** while not showing them information they should not see. When it's enabled, **SysKit Point** will **automatically** assign that type of users to **SysKit Point Collaborators** role.
+
+To enable **SysKit Point Collaborators**, when you're located on **Settings screen** - **Manage Access**, Enable the **toggle** next to **SysKit Point Collaborators**\(1\) and, you will see that Number appears automatically on **Site Owners label**. If you also wish to enable user who have **Full Control** permissions check '**Add users with Full Control**'\(3\) that will also **automatically** add that type of users to the **SysKit Point Collaborators** role. Also if you want to enable those users to login to **SysKit Point** but **do not want** them to be able to **execute actions** check '**Give users read-only access \(disable actions\)**'\(2\). When you're finished, click **Save**.
+
+![SysKit Point Settings screen - Manage Access - SysKit Point Collaborators](../.gitbook/assets/rbs-clanak-11.png)
+
+If you want to see which users are in SysKit Point Collaborators role simply Click on the Site Owners label.
+
+![SysKit Point Settings screen - Manage Access - SysKit Point Collaborators ](../.gitbook/assets/rbs-clanak-12%20%281%29.png)
+
+You will be redirected to **SysKit Point Collaborators report** on which you can see who are your **Site Owners**, where exactly do they have **permissions** in your **Office 365 environment** and through what means are they given those permissions.
+
+![SysKit Point Collaborators report](../.gitbook/assets/rbs-clanak-13.png)
 
 ### Why Should You Enable Role-Based Access
 
 When working in big environments it's easier to keep things tidy if more people are working together.
 
-As you know, the **Global Administrator** account can see all the content that is available on the Office 365 Tenant.
+As you know, the **SysKit Point Admin** can see all the content that is available on the Office 365 Tenant.
 
 **Role-Based Access** empowers all **Site Owners** \(and users with **Full Control** permissions\) to keep their **Sites** and **Teams** clean. It gives them access to all reports and information relevant to them, without showing the content they are not allowed to see.
 
-**For example,** the Global Administrator has generated the **User Access** report and instead of sharing the URL of the generated report to the other **Global Administrator**, it was sent to the **Site Owner** that doesn't have access to all the users on the said environment. This is where **Role-Based Access** kicks in.
+**For example,** the **SysKit Point Admin** has generated the **User Access** report and instead of sharing the URL of the generated report to the other **SysKit Point Admin**, it was sent to the **SysKit Point Collaborator** that doesn't have access to all the users on the said environment. This is where **Role-Based Access** kicks in.
 
-When said **Site Owner** opens the URL, the report will be generated but only containing **Users** who are members on his **Site Collections** and **Office 365** **Groups**.
+When said **SysKit Point Collaborator** opens the URL, the report will be generated but only containing **Users** who are members on his **Site Collections** and **Office 365** **Groups**.
 
-Also, when the **Site Owner** tries to **drill** to the **User Details** page of a user he is not a manager of, he/she will be redirected to an **Unauthorized Access** page.
+Also, when the **SysKit Point Collaborator** tries to **drill** to the **User Details** page of a user he is not a manager of, he/she will be redirected to an **Unauthorized Access** page.
 
 ![Unauthorized access page](../.gitbook/assets/enable-role-based-access_unauthorized-access-screen.png)
 
