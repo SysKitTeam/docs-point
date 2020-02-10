@@ -4,10 +4,11 @@ description: This article explains how you can enable Role-Based Access in SysKi
 
 # Enable Role-Based Access
 
-After the installation and configuration of **SysKit Point**, depending on the subscription plan you selected, you can have multiple users using **SysKit Point** simultaneously. This option is found under **Settings** page named **Manage Access.**
+After the installation and configuration, depending on the subscription plan you selected, you can have **multiple users using SysKit Point simultaneously**. This option is located under the **Settings** page named **Manage Access.**
 
 {% hint style="warning" %}
-**Please note!** Simultaneous usage of **SysKit Point** is only available in the **Team** and **Enterprise** subscription plan.
+**Please note!**   
+Simultaneous usage of **SysKit Point** by multiple users is only **available in the Team and Enterprise subscription plan**.
 {% endhint %}
 
 ## Setting up Role-Based Access
