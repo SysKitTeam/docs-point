@@ -109,7 +109,7 @@ Adding/removing a specific user to/from a SysKit Point role **does not add/remov
 
 #### SysKit Point Collaborators
 
-**SysKit Point Collaborators** role is the specific role made for **SysKit Point** Enterprise license users in which they can enable their **Site admins/Teams owners** access to the **SysKit Point** to easily manage their **sites/teams** while not showing them information they should not see. When it's enabled, **SysKit Point** will **automatically** assign that type of users to **SysKit Point Collaborators** role.
+**SysKit Point Collaborators** role is the specific role made for **SysKit Point** **Enterprise license** users in which they can enable their **Site admins/Teams owners** to access **SysKit Point** and easily manage their **sites/teams**, ****while not showing them information they should not see. When enabled, **SysKit Point** will **automatically** assign that type of users to **SysKit Point Collaborators** role.
 
 To enable **SysKit Point Collaborators**, when you're located on **Settings screen** - **Manage Access**, Enable the **toggle** next to **SysKit Point Collaborators**\(1\) and, you will see that Number appears automatically on **Site Owners label**. If you also wish to enable user who have **Full Control** permissions check '**Add users with Full Control**'\(3\) that will also **automatically** add that type of users to the **SysKit Point Collaborators** role. Also if you want to enable those users to login to **SysKit Point** but **do not want** them to be able to **execute actions** check '**Give users read-only access \(disable actions\)**'\(2\). When you're finished, click **Save**.
 
