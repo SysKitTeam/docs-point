@@ -115,11 +115,11 @@ To enable **SysKit Point Collaborators**, when located on **Settings screen** - 
 
 ![SysKit Point Settings screen - Manage Access - SysKit Point Collaborators](../.gitbook/assets/rbs-clanak-11.png)
 
-If you want to see which users are in **SysKit Point Collaborators** role simply Click on the **Site Owners** label.
+If you want to see which users are assigned to the **SysKit Point Collaborators** role, click the **Site Owners** tile.
 
 ![SysKit Point Settings screen - Manage Access - SysKit Point Collaborators ](../.gitbook/assets/rbs-clanak-12%20%281%29.png)
 
-You will be redirected to **SysKit Point Collaborators report** on which you can see who are your **Site Owners**, where exactly do they have **permissions** in your **Office 365 environment** and through what means are they given those permissions.
+You will be redirected to the **SysKit Point Collaborators** report, where you can see who are your **Site Owners**, where exactly do they have **permissions** in your **Office 365 environment**, and through what means are they given those permissions.
 
 ![SysKit Point Collaborators report](../.gitbook/assets/rbs-clanak-13.png)
 
