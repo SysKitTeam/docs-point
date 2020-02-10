@@ -15,7 +15,7 @@ Simultaneous usage of **SysKit Point** by multiple users is only **available in 
 
 ### Team License
 
-Let's say you activated the **SysKit Point Team** license. With it, you get an option to simultaneously use **SysKit Point** between **five** users be it like a **SysKit Point Admin** or **SysKit Point Global Viewer**. Here's how you can manage who gets to use it.
+Let's say you activated the **SysKit Point Team** license. With it, you get an option to **simultaneously use SysKit Point between five users** be it like a **SysKit Point Admin** or **SysKit Point Global Viewer**. Here's how you can manage who gets to use it.
 
 {% hint style="warning" %}
 **Please note!** The account that has activated your license **will automatically occupy one out of five eligible** **Admin user** places.
