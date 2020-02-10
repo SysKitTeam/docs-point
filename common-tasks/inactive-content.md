@@ -23,7 +23,7 @@ The collection of **Yammer activity** also comes from Microsoft 365 admin center
 Data for Exchange and Yammer activities is collected by SysKit Point's dedicated worker within non-working hours which are defined as between 7:00 p.m. and 7:00 a.m.
 
 {% hint style="warning" %}
-**Please note!**                                                                                                                                       Activity is being tracked from Syskit Point installation onward!
+**Please note!**                                                                                                                                       Activity is being tracked from Syskit Point installation onward! This applies to SharePoint and Exchange workloads.
 {% endhint %}
 
 ## Defining what is inactive content in SysKit Point
