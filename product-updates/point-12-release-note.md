@@ -32,7 +32,7 @@ Discover what’s new in the list below!
 * An **Remove Owners/Members** action has been added to the Sites and Microsoft Teams & Groups overview screens when one or more Office 365 Groups or Microsoft Teams, or their connected sites are selected.
 * A **Subsites content level** has been added as an option in the Permissions Matrix advanced filter. This option enables you to display only site collection and subsite objects in the Permissions Matrix report.
 * A **Remove from Group** action has been added to the Office 365 Group connected site details page, as well as the Permissions Matrix and Externally Shared Content reports. The action is available when an Office 365 Group member is selected.
-* The Sync Status Report now comes with an additional **In Progress** summary tile that enables you to see which sites are being synced in real-time.
+* The **Sync Status Report** now comes with an **additional In Progress summary tile** that enables you to see which sites are being synced in real-time.
 * **Various UX/UI improvements**, including **improved responsiveness of all screens** in SysKit Point, **enhanced action messages**, **upgraded design of the General Info tile** on the details screens, as well as a **refined design of the Home** dropdown menu.
 
 ## Bug Fixes
