@@ -111,7 +111,7 @@ To enable **SysKit Point Collaborators**, when you're located on **Settings scre
 
 ![SysKit Point Settings screen - Manage Access - SysKit Point Collaborators](../.gitbook/assets/rbs-clanak-11.png)
 
-If you want to see which users are in SysKit Point Collaborators role simply Click on the Site Owners label.
+If you want to see which users are in **SysKit Point Collaborators** role simply Click on the **Site Owners** label.
 
 ![SysKit Point Settings screen - Manage Access - SysKit Point Collaborators ](../.gitbook/assets/rbs-clanak-12%20%281%29.png)
 
