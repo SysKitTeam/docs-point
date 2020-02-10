@@ -39,29 +39,29 @@ When you are on the **Manage Access** screen, you will see two roles that are av
 
 When the user is assigned to the **SysKit Point Admin** role, they will be able to login to SysKit Point and view All data collected from the Office 365 tenant, but **they will only be able to execute actions for which they have permissions in Office 365**.
 
-To assign a user to the **SysKit Point Admin** role, simply click on the **Assign to role** button, which will open up a textbox where you can type in the name of the user you want to assign to the **SysKit Point Admin role**. After you've selected the user, click **Save** to confirm your action. 
+To assign a user to the **SysKit Point Admin** role, simply click on the **Assign to role** button, which will open up a textbox where you can type in the name of the user you want to assign to the **SysKit Point Admin** role. After you've selected the user, click **Save** to confirm your action. 
 
-![SysKit Point Settings screen - Manage Access page - Assigning user to SysKit Point Admin](../.gitbook/assets/rbs-clanak-3%20%281%29.png)
+![SysKit Point Settings screen - Manage Access page - Assigning a user to the SysKit Point Admin role](../.gitbook/assets/rbs-clanak-3%20%281%29.png)
 
 If you have a situation in your environment where you have Users that should be able to generate reports and see tenant permissions but don't want them to have the ability to execute actions, **SysKit Point Global Viewer** is a perfect role for that situation. 
 
-When User is assigned to **SysKit Point Global Viewer** role, they are able to login to **SysKit Point** and view all data collected from **Office 365** but are **unable** to **execute** **actions** or **manage application settings**.
+When User is assigned to **SysKit Point Global Viewer** role, **they can log in to** **SysKit Point** and **view all data collected from Office 365** but are **not able to execute actions or manage application settings**.
 
-To assign a User to a **SysKit Point Global Viewer** role, **enable** the **toggle**\(1\) ****next to it. Click on the '**Assign to role**' button, type in the name of the desired user and select it\(2\) and then click save\(3\).
+To assign a user to the **SysKit Point Global Viewer** role, **enable the** **toggle** \(1\) ****next to it. **Click on the** **Assign to role** button, **type in the name** of the desired user and **select it** \(2\), and then click **Save** \(3\).
 
-![SysKit Point Settings screen - Manage Access page - Assigning user to SysKit Point Global Viewer](../.gitbook/assets/rbs-clanak-4.png)
+![SysKit Point Settings screen - Manage Access page - Assigning a user to SysKit Point Global Viewer role](../.gitbook/assets/rbs-clanak-4.png)
 
-Each role on **Manage Access** has its user number label. It shows us how many users are currently occupying SysKit Point roles.
+Each role on the **Manage Access** page has its user number label visible in a tile. It shows how many users are currently occupying SysKit Point roles.
 
-![SysKit Point Settings screen - Manage Access page - Number of users in SysKit Point Roles](../.gitbook/assets/rbs-clanak-5.png)
+![SysKit Point Settings screen - Manage Access page - Number of users in SysKit Point roles](../.gitbook/assets/rbs-clanak-5.png)
 
-Clicking on each of those labels will redirect us to the **report** of the corresponding role. The report will show us **exact** users **occupying** that role. On the role reports, you can also **assign** new users to that role, **export** the report into **PDF** and **XLSX** and also **remove** users from said roles.
+Clicking on each of those labels redirects to the **report for the corresponding role**. The report shows the **list of users occupying the selected role**. From the report, you can **assign new users** to the role, **export the report** to PDF or XLSX, ****and **remove users** from the said role.
 
-To **remove** a user click on **checkbox** next to desired user name\(1\), then click on the '**Remove Access from SysKit Point**'\(2\).
+**To remove a user**, **click the checkbox** next to the desired user name \(1\), then click the **Remove Access from SysKit Point** action \(2\).
 
-![SysKit Point Settings - SysKit Point Admins report - Remove Access from SysKit Point](../.gitbook/assets/rbs-clanak-6.png)
+![SysKit Point Settings - SysKit Point Admins report - Remove Access from SysKit Point action](../.gitbook/assets/rbs-clanak-6.png)
 
-A **dialog** will pop out asking you to **confirm** your desired action.
+A **dialog** shows, asking you to **confirm** the action.
 
 ![SysKit Point Admins Report - Remove Access from SysKit Point confirmation dialog](../.gitbook/assets/rbs-clanak-7.png)
 
