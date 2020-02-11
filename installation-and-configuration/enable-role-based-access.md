@@ -7,7 +7,7 @@ description: This article explains how you can enable Role-based Access in SysKi
 After the installation and configuration of **SysKit Point**, depending on the subscription plan you selected, you can have multiple users using **SysKit Point** simultaneously. This option is found under **Settings** page named **Manage Access.**
 
 {% hint style="warning" %}
-**Please note!**                                                                                                                           Simultaneous usage of **SysKit Point** is only available in the **Team** and **Enterprise** subscription plan.
+**Please note!** Simultaneous usage of **SysKit Point** is only available in the **Team** and **Enterprise** subscription plan.
 {% endhint %}
 
 ## Setting up Role-Based Access
@@ -17,12 +17,12 @@ After the installation and configuration of **SysKit Point**, depending on the s
 Let's say you activated the **SysKit Point Team** license. With it, you get an option to simultaneously use **SysKit Point** between **five** users be it like a **SysKit Point Admin** or **SysKit Point Global Viewer**. Here's how you can manage who gets to use it.
 
 {% hint style="warning" %}
-**Please note!**                                                                                                                                             The account that has activated your license **will automatically occupy one out of five eligible** **Admin user** places.
+**Please note!** The account that has activated your license **will automatically occupy one out of five eligible** **Admin user** places.
 {% endhint %}
 
 When located on the **Home Screen**, click on the **Settings** option \(1\) in the upper right corner. A drop-down appears. Click on the **Security** option \(2\).
 
-![SysKit Point Home Screen - Settings \(1\) &amp; Security option \(2\)](../.gitbook/assets/rbs-clanak-1-1.png)
+![SysKit Point Home Screen - Settings \(1\) &amp; Security option \(2\)](../.gitbook/assets/rbs-clanak-1-1%20%281%29.png)
 
 You will be redirected to the **Settings** &gt; **Security** &gt; **Manage Access** page, where you can define who has access to **SysKit Point**.
 
@@ -66,7 +66,7 @@ A **dialog** will pop out asking you to **confirm** your desired action.
 When the action is **completed**, the selected user will **no longer have access** to **SysKit Point**.
 
 {% hint style="warning" %}
-**Please note!**                                                                                                                                  Removing user access from **SysKit Point** will not remove user from your **Office 365** environment.
+**Please note!** Removing user access from **SysKit Point** will not remove user from your **Office 365** environment.
 {% endhint %}
 
 ### Enterprise License
@@ -75,7 +75,7 @@ If you are using the **Enterprise** plan, you are not limited to several **Admin
 
 When located on the **Home Screen**, click on the **Settings** option in the upper right corner. A drop-down appears. Click on the **Security** option.
 
-![SysKit Point Home Screen - Settings \(1\) &amp; Security option \(2\)](../.gitbook/assets/rbs-clanak-1-1%20%281%29.png)
+![SysKit Point Home Screen - Settings \(1\) &amp; Security option \(2\)](../.gitbook/assets/rbs-clanak-1-1-1.png)
 
 You will be redirected to **SysKit Point Settings screen - Manage access**.
 
@@ -87,7 +87,7 @@ If you have activated **SysKit Point** with **Enterprise** license it will autom
 
 To see all users associated with those roles, click on the **number** on Users label under **SysKit Point Admins** option.
 
-![SysKit Point Settings screen - Manage Access - SysKit Point Admins user label](../.gitbook/assets/rbs-clanak-9-1.png)
+![SysKit Point Settings screen - Manage Access - SysKit Point Admins user label](../.gitbook/assets/rbs-clanak-9-1%20%281%29.png)
 
 You are then redirected to **SysKit Point Admins** report where You can see who has **access** to **SysKit Point**.
 
@@ -96,7 +96,7 @@ You are then redirected to **SysKit Point Admins** report where You can see who 
 While **Team** license plan gives you the ability to add **distinct users** only as **SysKit Point admins** \(also limited to number five\). **Enterprise** license enables you to add even **Office 365 Administration roles**, **security groups** and **Office 365 groups**.
 
 {% hint style="warning" %}
-**Please note!**                                                                                                                                                 it is not possible to remove or add a distinct user from **Office 365 administration role** in **SysKit Point**.
+**Please note!** it is not possible to remove or add a distinct user from **Office 365 administration role** in **SysKit Point**.
 {% endhint %}
 
 #### What is SysKit Point Collaborators role
