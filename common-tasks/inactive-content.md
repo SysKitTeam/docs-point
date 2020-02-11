@@ -91,5 +91,5 @@ Notice the **blue info icon** next to the Activity columns. **Hovering above the
 
 A **grey circle** icon represents an existing **workload with no activity. Hovering** **over** it will show the information since when SysKit Point monitors the activity.
 
-**Dash \(-\)** **is displayed in case there is** **no workload** associated with the selected item. An appropriate tooltip \_\*\*\_is displayed on hover.
+**Dash \(-\)** **is displayed in case there is** **no workload** associated with the selected item. An appropriate tooltip _\*\*_is displayed on hover.
 
