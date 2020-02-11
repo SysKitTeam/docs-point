@@ -58,15 +58,7 @@ There is also a separate **Inactive Sites view** available, which can be accesse
 
 ### Microsoft Teams & Groups Overview Screen
 
-This Overview screen has a similar representation of workload activity for teams and groups as the Sites Overview screen.
-
-The **Activity** column is shown as the last column in the grid.
-
-The same rules of displaying the activity data are applied here as explained for the Sites Overview screen.
-
-There is a separate **Inactive Groups** view.
-
-**Inactive** **tile** above the grid shows a quantity representation of inactive content.
+The **Microsoft Team & Groups Overview screen** has a similar representation of workload activity for Microsoft Teams and Office 365 groups as the Sites Overview screen. The **Activity column is**, **by default**, **shown** as the last column in the grid. The same rules of displaying the activity data are applied here, as explained for the Sites Overview screen. Additionally, here you can find a separate **Inactive** tile above the grid. By clicking the tile, the **Inactive Groups** view is shown.
 
 ![Inactive Content tile](../.gitbook/assets/inactive-content_inactive-content-tile.png)
 
