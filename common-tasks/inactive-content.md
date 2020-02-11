@@ -14,9 +14,9 @@ Now, you can find it all in one place with the help of **SysKit Point**.
 
 **SharePoint activity** is collected via Office 365 audit logs. The last activity is based on the latest date when a file was viewed, edited, or downloaded.
 
-For the collection of **Exchange activity**, SysKit Point uses Office 365 groups activity report available in Microsoft 365 admin center. The last activity is based on the latest date when an email was delivered to a group.
+For the collection of **Exchange activity**, SysKit Point uses Office 365 groups activity report available in Microsoft 365 admin center. The **last activity is based on the latest date when an email was delivered** to a group.
 
-The collection of **Yammer activity** is also accomplished through Microsoft 365 admin center usage report but for Yammer group activity. The last activity is based on the latest date a message was read, posted, or liked by the group.
+The collection of **Yammer activity** is also accomplished through Microsoft 365 admin center usage report but for Yammer groups activity. The last activity is based on the latest date a message was read, posted, or liked by the group.
 
 Data for Exchange and Yammer activities is collected by SysKit Point's dedicated worker within non-working hours which are defined as between 7:00 p.m. and 7:00 a.m.
 
