@@ -46,9 +46,7 @@ The collection of **Yammer activity** is also accomplished through Microsoft 365
 
 When you **hover over the info icon**, you will see which workloads are included in the evaluation of the activity for Sites, Microsoft Teams, Office 365 Groups, and OneDrive sites. There is also information for which period \(number of days\) was the activity assessment made. In the grid, you have a **column filter** to help you see just the active or the inactive content.
 
-Hover over circle icons for each row to get the information if the item has **no activity** since the application started collecting the data - that would be a **gray circle**.
-
-If the **circle icon** is colored **green**, that means that the item **has** the **activity**. Hover will display the date when was the last activity.
+Hover over circle icons for each row to get more information about the **activity**. The **circle is colored gray** if there **was no activity since the application started collecting the activity data**. If the **circle is colored** **green**, the **content is** **active**. The date of the last activity is displayed on hover.
 
 {% hint style="info" %}
 **Hint!**                                                                                                                                                              If more than one workload was active, then the latest date among all workloads will be shown here.
