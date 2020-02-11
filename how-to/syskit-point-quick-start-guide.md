@@ -87,7 +87,7 @@ On the right hand side of the screen you will find suggested actions and reports
 
 There are two types of actions/reports:
 
-* **Global Actions/Reports** - these actions are always visible and will create report or perform action for the specific site/user you are currently located at. **Example:** If you are exploring in details site called Research and Development, reports on the right hand site will contain information only about that site.
+* **Global Actions/Reports** - these actions are always visible and will create report or perform action for the specific site/user you are currently located at.   **Example:** If you are exploring in details site called Research and Development, reports on the right hand site will contain information only about that site.
 
 ![SysKit Point - Global actions on site details screen](../.gitbook/assets/syskit-point-quick-start-guide_syskit-point-global-actions-on-site-details-screen.png)
 
