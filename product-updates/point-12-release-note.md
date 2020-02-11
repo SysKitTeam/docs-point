@@ -6,8 +6,8 @@ description: >-
 
 # SysKit Point 12
 
-Sticking to our new year’s resolutions and trying to improve isn’t an easy task. Yet, **SysKit Point 12** takes the phrase ‘new year, new me’ quite seriously, and comes packed with new features and improvements, although the year has just started!
-
+Sticking to our new year’s resolutions and trying to improve isn’t an easy task. Yet, **SysKit Point 12** takes the phrase ‘new year, new me’ quite seriously, and comes packed with new features and improvements, although the year has just started!  
+  
 Discover what’s new in the list below!
 
 [Try SysKit Point trial](https://syskit.com/products/point/download/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
