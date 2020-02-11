@@ -75,25 +75,21 @@ Workload activity data is shown only for the **root site level**. Document libra
 
 ### Inactive Content Report
 
-The easiest way to **find all inactive content** is by using the **Inactive Content report**, which you can find in the Report Center. By clicking the Inactive Content report tile, the **Options** screen opens with a filter for you to choose whether you want to include **Sites**, **Microsoft Teams**, and/or **Office 365 Groups** in the report.
+The easiest way to **find all inactive content** is by using the **Inactive Content report**, which you can find in the Report Center. By clicking the Inactive Content report tile, the **Options** screen opens where you can choose whether to include **Sites**, **Microsoft Teams**, and/or **Office 365 Groups** in the report. By default, all options are selected.
 
-![Options screen](../.gitbook/assets/inactive-content_options-screen.png)
+![Inactive Content report - Options screen](../.gitbook/assets/inactive-content_options-screen.png)
 
-The default value is set to include all of them in the report.
 
-The report will be generated when you press the **Run Report** button.
 
-On the report, there are four columns in the grid - **Name** column on which you can click to open **Details** screen, and three activity columns for **SharePoint**, **Exchange**, and **Yammer**.
-
-Two columns, **Type** and **Primary** **Admin**, can be shown in the grid if you select them in **Column Chooser**.
+Click the **Run Report** button to generate the Inactive Content report. On the report, there are four columns in the grid - the **Name** column which you can **click to open the** **Details** **screen**, and **three activity columns** for **SharePoint**, **Exchange**, and **Yammer**. Two additional columns, **Type** and **Primary** **Admin**, can be added from the **Column Chooser**.
 
 ![Inactive Content report](../.gitbook/assets/inactive-content_inactive-content-report.png)
 
-Notice the **blue information icon** next to the Activity columns. Hovering above the icons displays **tooltip** with information about what is measured to determine the last activity date.
+Notice the **blue info icon** next to the Activity columns. **Hovering above the icons displays a** **tooltip** with information on how the last activity date was determined.
 
 ![Inactive Content report - Activity tooltip](../.gitbook/assets/inactive-content_inactive-content-report-activity-tooltip.png)
 
-**Grey circle** icons represent that **workload exists**, and **hovering** **over** it will show information since when SysKit Point measures that there is **no activity**.
+A **grey circle** icon represents an existing **workload with no activity. Hovering** **over** it will show the information since when SysKit Point monitors the activity.
 
-**Dash \(-\)** means that there is **no workload** for that item. Hover over it will tell you that **workload does not exist**.
+**Dash \(-\)** **is displayed in case there is** **no workload** associated with the selected item. An appropriate message telling you that the **workload does not exist** is displayed on hover.
 
