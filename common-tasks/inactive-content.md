@@ -83,13 +83,13 @@ Workload activity data is shown only for the **root site level**. Document libra
 
 Click the **Run Report** button to generate the Inactive Content report. On the report, there are four columns in the grid - the **Name** column which you can **click to open the** **Details** **screen**, and **three activity columns** for **SharePoint**, **Exchange**, and **Yammer**. Two additional columns, **Type** and **Primary** **Admin**, can be added from the **Column Chooser**.
 
-![Inactive Content report](../.gitbook/assets/inactive-content_inactive-content-report.png)
+![Inactive Content report - Column Chooser](../.gitbook/assets/inactive-content_inactive-content-report.png)
 
 Notice the **blue info icon** next to the Activity columns. **Hovering above the icons displays a** **tooltip** with information on how the last activity date was determined.
 
-![Inactive Content report - Activity tooltip](../.gitbook/assets/inactive-content_inactive-content-report-activity-tooltip.png)
+![Inactive Content report - Activity column tooltip](../.gitbook/assets/inactive-content_inactive-content-report-activity-tooltip.png)
 
 A **grey circle** icon represents an existing **workload with no activity. Hovering** **over** it will show the information since when SysKit Point monitors the activity.
 
-**Dash \(-\)** **is displayed in case there is** **no workload** associated with the selected item. An appropriate message telling you that the **workload does not exist** is displayed on hover.
+**Dash \(-\)** **is displayed in case there is** **no workload** associated with the selected item. An appropriate tooltip ****is displayed on hover.
 
