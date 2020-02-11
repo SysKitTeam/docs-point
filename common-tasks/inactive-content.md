@@ -52,9 +52,9 @@ Hover over circle icons for each row to get more information about the **activit
 **Hint!**                                                                                                                                                              If more than one workload was active, then the latest date among all workloads will be shown here.
 {% endhint %}
 
-There is also a separate view **Inactive Sites**, which can be accessed from the View dropdown menu. This way you have already displayed column Activity on the grid.
+There is also a separate **Inactive Sites view** available, which can be accessed from the View drop-down menu. By selecting it, the Activity column becomes visible in the grid.
 
-![Inactive Sites view](../.gitbook/assets/inactive-content_inactive-sites-view.png)
+![Sites Overview Screen - Inactive Sites view](../.gitbook/assets/inactive-content_inactive-sites-view.png)
 
 ### Microsoft Teams & Groups Overview Screen
 
