@@ -22,7 +22,7 @@ Let's say you activated the **SysKit Point Team** license. With it, you get an o
 
 When located on the **Home Screen**, click on the **Settings** option \(1\) in the upper right corner. A drop-down appears. Click on the **Security** option \(2\).
 
-![SysKit Point Home Screen - Settings \(1\) &amp; Security option \(2\)](../.gitbook/assets/rbs-clanak-1%20%281%29.png)
+![SysKit Point Home Screen - Settings \(1\) &amp; Security option \(2\)](../.gitbook/assets/rbs-clanak-1-1.png)
 
 You will be redirected to the **Settings** &gt; **Security** &gt; **Manage Access** page, where you can define who has access to **SysKit Point**.
 
@@ -37,15 +37,15 @@ When you are on the **Manage Access** screen, you will see two roles that are av
 
 When the user is assigned to the **SysKit Point Admin** role, they will be able to login to SysKit Point and view **All data** collected from the **Office 365** tenant, but they will only be able to **execute** actions for which they have **permissions** in **Office 365**.
 
-To assign a user to the **SysKit Point Admin** role, simply click on the **Assign to role** button which will open up a **textbox** where you can type in the name of the **User** you want to **assign** to the **SysKit Point Admin role**. After you've selected the User, click **Save** to confirm your action. 
+To assign a user to the **SysKit Point Admin** role, simply click on the **Assign to role** button which will open up a **textbox** where you can type in the name of the **User** you want to **assign** to the **SysKit Point Admin role**. After you've selected the User, click **Save** to confirm your action.
 
-![SysKit Point Settings screen - Manage Access page - Assigning user to SysKit Point Admin](../.gitbook/assets/rbs-clanak-3%20%281%29.png)
+![SysKit Point Settings screen - Manage Access page - Assigning user to SysKit Point Admin](../.gitbook/assets/rbs-clanak-3-1.png)
 
-If you have a situation in your environment where you have Users that should be able to generate reports and see tenant permissions but don't want them to have the ability to execute actions, **SysKit Point Global Viewer** is a perfect role for that situation. 
+If you have a situation in your environment where you have Users that should be able to generate reports and see tenant permissions but don't want them to have the ability to execute actions, **SysKit Point Global Viewer** is a perfect role for that situation.
 
 When User is assigned to **SysKit Point Global Viewer** role, they are able to login to **SysKit Point** and view all data collected from **Office 365** but are **unable** to **execute** **actions** or **manage application settings**.
 
-To assign a User to a **SysKit Point Global Viewer** role, **enable** the **toggle**\(1\) ****next to it. Click on the '**Assign to role**' button, type in the name of the desired user and select it\(2\) and then click save\(3\).
+To assign a User to a **SysKit Point Global Viewer** role, **enable** the **toggle**\(1\) **\*\*next to it. Click on the '**Assign to role\*\*' button, type in the name of the desired user and select it\(2\) and then click save\(3\).
 
 ![SysKit Point Settings screen - Manage Access page - Assigning user to SysKit Point Global Viewer](../.gitbook/assets/rbs-clanak-4.png)
 
@@ -75,13 +75,9 @@ If you are using the **Enterprise** plan, you are not limited to several **Admin
 
 When located on the **Home Screen**, click on the **Settings** option in the upper right corner. A drop-down appears. Click on the **Security** option.
 
+![SysKit Point Home Screen - Settings \(1\) &amp; Security option \(2\)](../.gitbook/assets/rbs-clanak-1-1%20%281%29.png)
 
-
-![SysKit Point Home Screen - Settings \(1\) &amp; Security option \(2\)](../.gitbook/assets/rbs-clanak-1%20%281%29.png)
-
-
-
-You will be redirected to **SysKit Point Settings screen - Manage access**. 
+You will be redirected to **SysKit Point Settings screen - Manage access**.
 
 With **Enterprise** plan you have three available options for accessing SysKit Point. **SysKit Point Admins**\(1\), **SysKit Point Global Viewers**\(2\) and **SysKit Point Collaborators**\(3\) of which the latter ones are disabled by default.
 
@@ -91,7 +87,7 @@ If you have activated **SysKit Point** with **Enterprise** license it will autom
 
 To see all users associated with those roles, click on the **number** on Users label under **SysKit Point Admins** option.
 
-![SysKit Point Settings screen - Manage Access - SysKit Point Admins user label](../.gitbook/assets/rbs-clanak-9%20%281%29.png)
+![SysKit Point Settings screen - Manage Access - SysKit Point Admins user label](../.gitbook/assets/rbs-clanak-9-1.png)
 
 You are then redirected to **SysKit Point Admins** report where You can see who has **access** to **SysKit Point**.
 
@@ -113,7 +109,7 @@ To enable **SysKit Point Collaborators**, when you're located on **Settings scre
 
 If you want to see which users are in SysKit Point Collaborators role simply Click on the Site Owners label.
 
-![SysKit Point Settings screen - Manage Access - SysKit Point Collaborators ](../.gitbook/assets/rbs-clanak-12%20%281%29.png)
+![SysKit Point Settings screen - Manage Access - SysKit Point Collaborators ](../.gitbook/assets/rbs-clanak-12-1.png)
 
 You will be redirected to **SysKit Point Collaborators report** on which you can see who are your **Site Owners**, where exactly do they have **permissions** in your **Office 365 environment** and through what means are they given those permissions.
 

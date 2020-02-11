@@ -17,7 +17,7 @@ Before you begin with the migration, make sure your SysKit Security Manager appl
 
 On the machine where SysKit Security Manager is installed, **make sure that the Audit log collection is NOT in progress.** You can do so by checking the **Audit Log status bar**. If you see a green checkmark, you can continue to the next step.
 
-![SysKit Security Manager - Audit Log status bar](../.gitbook/assets/migrate-audit-logs_ssm-audit-log-status-bar-1.png)
+![SysKit Security Manager - Audit Log status bar](https://github.com/SysKitTeam/docs-point/tree/6a40e21c3178bb6e755fa526975af9480f814ed7/.gitbook/assets/migrate-audit-logs_ssm-audit-log-status-bar-1.png)
 
 {% hint style="warning" %}
 **Please note!**  
