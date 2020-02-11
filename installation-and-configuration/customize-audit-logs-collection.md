@@ -6,19 +6,14 @@ description: >-
 
 # Customize Audit Logs Collection
 
-Audit logs can provide you insights into all activities related to user and administration activities in your Office 365 organization.
+Audit logs can provide you with **insights into all activities** related to user and administration activities in your Office 365 environment.‌ 
 
-You have the option to turn storage of Audit Logs on or off while you are configuring **SysKit Point** in **Configuration Wizard**.
+When configuring **SysKit Point** in **Configuration Wizard**, you have the **option to turn the storage of Audit Logs on/off**. The setting is available on the screen shown below, which appears after you enter the Office 365 Global admin credentials on the Configuration Wizard's **Connect to Office 365** step. When the option **Store audit logs** is enabled, SysKit Point processes and stores the audit logs to your local disk, by default in the **C:\ProgramData\SysKit\Point\AuditIndex** folder.
 
-You can do this action while entering your tenant with the Office 365 Global admin account.
+![Store audit logs setting in the Configuration Wizard](../.gitbook/assets/customize-audit-logs-collection_store-audit-logs-settings%20%281%29.png)
 
-After you successfully entered your credentials, a new window will open.
-
-Here you can mark or unmark checkbox for storing Audit Logs, depending on whether you need it or not.
-
-![Store Audit Logs settings in configuration wizard](../.gitbook/assets/customize-audit-logs-collection_store-audit-logs-settings%20%281%29.png)
-
-{% hint style="info" %}
+{% hint style="warning" %}
+**Please note!**  
 Regardless of your selection to store or not to store **Audit Logs** locally to your disk, they are still regularly **processed by SysKit Point**.
 {% endhint %}
 
