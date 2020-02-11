@@ -1,2 +1,2 @@
-# SysKit Point
+# Initial page
 
