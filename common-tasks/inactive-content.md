@@ -75,9 +75,7 @@ Workload activity data is shown only for the **root site level**. Document libra
 
 ### Inactive Content Report
 
-If you open the **Report Center**, you will find the **Inactive Content** report.
-
-By clicking on the dedicated tile, it will open the **Options** screen with a filter for you to choose whether you want to include **Sites**, **Microsoft Teams**, **Office 365 Groups** in the report.
+The easiest way to **find all inactive content** is by using the **Inactive Content report**, which you can find in the Report Center. By clicking the Inactive Content report tile, the **Options** screen opens with a filter for you to choose whether you want to include **Sites**, **Microsoft Teams**, and/or **Office 365 Groups** in the report.
 
 ![Options screen](../.gitbook/assets/inactive-content_options-screen.png)
 
