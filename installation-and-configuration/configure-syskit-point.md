@@ -87,7 +87,7 @@ Click the **Connect to your tenant** link to connect SysKit Point to your Office
 
 When you first connect to your tenant, SysKit Point will request permissions needed to collect data from your Office 365 environment.
 
-![SysKit Point - Global Administrator Consent](../.gitbook/assets/permission_requirements_global_administrator_consent.png)
+![](../.gitbook/assets/permission_requirements_global_administrator_consent.png)
 
 To continue, click the **Accept** button. A new window opens where you can choose which information would you like to collect when it comes to your Office 365 environment:
 
