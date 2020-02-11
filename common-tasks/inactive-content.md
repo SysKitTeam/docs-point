@@ -24,9 +24,9 @@ The collection of **Yammer activity** is also accomplished through Microsoft 365
 **Please note!                                                                                                                                       Activity is being monitored from Syskit Point installation onward!** This applies to SharePoint and Exchange workloads since historical data for these workloads is not available in usage reports.
 {% endhint %}
 
-## Defining what is inactive content in SysKit Point
+## Defining What Is Inactive
 
-For setting up what is **inactive/unused content** for your environment you can choose the number of days between **30** and **180** in SysKit Point Settings.
+You can **configure what is considered to be inactive** in SysKit Point by changing the number of days after which O between **30** and **180** in SysKit Point Settings.
 
 Open the **Settings** from any screen within the application, go to the **General Settings** screen where you will find section **Unused Content**.
 
