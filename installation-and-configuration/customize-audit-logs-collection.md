@@ -43,13 +43,7 @@ In the new window, all categories and activities are shown:
 * SharePoint list events
 * User activities.
 
-You can adjust which activities are going to be collected by clicking the checkbox next to categories.
+You can **adjust which activities are going to be collected by clicking the checkbox** next to categories. If you need only specific activities to be collected within one category, mark those activities and click **OK**. Save your changes by clicking the **Save** button on the **Audit Logs** screen.
 
-If you need only specific activities to be collected within one category, just mark those activities and click **OK** and then **Save** button in **Audit Logs** screen.
-
-The last option in the Audit Logs screen is **Data Retention**.
-
-By default, this option is turned off.
-
-When enabled, you can set a time frame in the number of days, weeks, or months for the application to delete older Audit Logs folders than the specified date.
+The last section available on the Audit Logs screen to configure is the **Data Retention** section. **By default, this option is turned off.** **When enabled, SysKit Point will delete audit logs older than specified.**
 
