@@ -8,7 +8,7 @@ description: >-
 
 ## Generate an SSL Certificate
 
-Here are the step-by-step \_\*\*\_instructions on how to generate an SSL certificate using the Certificates Microsoft Management Console \(MMC\) when you have an internal Certification Authority \(CA\).
+Here are the step-by-step instructions on how to generate an SSL certificate using the Certificates Microsoft Management Console \(MMC\) when you have an internal Certification Authority \(CA\).
 
 From the server on which you have **SysKit Point** installed, open the **MMC**. Click on **File &gt; Add/Remove Snap-in** and add the **Certificates** snap-in, managing the certificates for the Computer account on the local machine. Click **OK** to confirm.
 
