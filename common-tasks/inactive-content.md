@@ -10,7 +10,7 @@ Now, you can find it all in one place with the help of **SysKit Point**.
 
 ## Monitored Workloads
 
-To decide whether something is inactive in your Office 365 environment, we are collecting activities for the following workloads: **SharePoint**, **Exchange Server**, and **Yammer**, with **Teams** workload coming soon.
+To decide whether something is inactive in your Office 365 environment, we are collecting activity data for the following workloads: **SharePoint**, **Exchange**, and **Yammer**, with **Teams** workload coming soon.
 
 **SharePoint activity** is collected via Office 365 audit logs. The last activity is based on the latest date when a file was viewed, edited, or downloaded.
 
