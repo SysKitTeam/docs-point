@@ -32,13 +32,11 @@ The collection of **Yammer activity** is also accomplished through Microsoft 365
 
 ## View Inactive Content in SysKit Point
 
-There are several ways to find inactive content in **SysKit Point**.
-
-You can open the **Sites Overview** screen and **Microsoft Teams & Groups Overview** screen.
+There are several places where you can find activity information in **SysKit Point**. Let's get to know them.
 
 ### Sites Overview Screen
 
-When you open the Overview screen from the **Welcome Home** screen, you have to open **Column** **Chooser** and mark column **Activity** so that it can be shown in the grid.
+When you open the Sites Overview screen from the **Welcome Home** screen, click the **Column** **Chooser** and mark the **Activity** column to show it in the grid.
 
 ![Sites Overview screen - Activity column](../.gitbook/assets/inactive-content_sites-overview-screen-activity-column.png)
 
