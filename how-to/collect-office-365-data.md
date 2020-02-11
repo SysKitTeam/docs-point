@@ -12,11 +12,11 @@ After you install and configure SysKit Point, all data for SharePoint Online Sit
 
 When you log in to SysKit Point, you will get an appropriate notification telling you that Sync started.
 
-![SysKit Point - Sync started notification on the first log in](../.gitbook/assets/collect-office-365-data.png)
+![SysKit Point - Sync started notification on the first log in](../.gitbook/assets/collect-office-365-data_syskit-point-sync-started-notification-on-the-first-log-in.png)
 
 If you navigate to the Sites screen and drill to Site details of a site for which the Sync is not yet finished, a loading screen is displayed and you can notice the animated Sync icon in the top right corner, meaning that the Sync is in progress.
 
-![SysKit Point - Initial load screen and sync icon](../.gitbook/assets/collect-office-365-data_loading_sync.png)
+![SysKit Point - Initial load screen and sync icon](../.gitbook/assets/collect-office-365-data_syskit-point-initial-load-screen-and-sync-icon.png)
 
 {% hint style="info" %}
 **Hint!**  
@@ -58,6 +58,4 @@ Since change detection is based on Office 365 audit log data, it can take up to 
 All changes in your Office 365 environment should be synced in no more than 24 hours.  
 Should you require data to be synced immediately, you can start the Sync manually at any time by clicking the Sync button on the appropriate screen, be it for a Site, Office 365 Group or all users in your tenant.
 {% endhint %}
-
-\*\*\*\*
 
