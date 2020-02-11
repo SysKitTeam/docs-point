@@ -87,20 +87,15 @@ Click the **Connect to your tenant** link to connect SysKit Point to your Office
 
 When you first connect to your tenant, SysKit Point will request permissions needed to collect data from your Office 365 environment.
 
-![](../.gitbook/assets/permission_requirements_global_administrator_consent.png)
+![Global Administrator Consent](../.gitbook/assets/permission-requirements_consent%20%281%29.png)
 
 To continue, click the **Accept** button. A new window opens where you can choose which information would you like to collect when it comes to your Office 365 environment:
 
 * **Automatic Discovery** – by default, SysKit Point continuously monitors your Office 365 environment and shows you the latest data. SharePoint Online sites and Office 365 Groups data will always be monitored. This setting cannot be modified.
 * **OneDrive** - by default, SysKit Point will collect information and report on user OneDrive activity, content and sharing. To stop collecting OneDrive data, uncheck this option.
-* **Audit Logs** - SysKit Point will also collect all audit logs to monitor internal and external user activities and changes and Store them to the hard drive. To stop storing audit logs, uncheck this option. 
+* **Audit Logs** - SysKit Point will also collect all audit logs to monitor internal and external user activities and changes and Store them to the hard drive. To stop storing audit logs, uncheck this option.
 
 You can change these options anytime by navigating to **Settings** in SysKit Point.
-
-{% hint style="warning" %}
-**Please note!**  
-For SysKit Point to be able to collect, process, and save audit logs, the auditing has to be enabled in your tenant. [Navigate here to find out how to turn on auditing.](../faq/turn-on-auditing.md)
-{% endhint %}
 
 {% hint style="warning" %}
 **Why do I need to provide a global admin account?**  
@@ -117,7 +112,7 @@ Use this URL to log in to the SysKit Point web interface from the web browser of
 
 Choose the certificate type to ensure a secure connection between SysKit Point machine and web interface in the browser:
 
-* **Import SSL certificate** – recommended for the production usage and it needs to be created by the end-user/customer. Learn how to [configure the SSL certificate here.](../common-tasks/configure-ssl-certificate.md)
+* **Import SSL certificate** – recommended for the production usage and it needs to be created by the end-user/customer. 
 * **Use self-signed certificate** – this is a certificate provided automatically by SysKit, and will work for testing purposes. Since this certificate is not signed by a certification authority, you will receive security warnings when you try to open the web application in the browser from other machines \(other than the one where SysKit Point is installed\). 
 
 ### Finish

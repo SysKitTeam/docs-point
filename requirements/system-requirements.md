@@ -62,17 +62,6 @@ For Office 365 environments with more than 10000 users.
 
 {% hint style="warning" %}
 **Please note!**  
-If you do not own On-Premises servers, you can use Azure Virtual Machine with the installed SQL server on it as well. Have in mind the requirements recommendation when creating this virtual machine.
+_\*\*_If you do not own On-Premises servers, you can use Azure Virtual Machine with the installed SQL server on it as well. Have in mind the requirements recommendation when creating this virtual machine.
 {% endhint %}
-
-## Supported Browsers
-
-**SysKit Point** web-app can be used in the following browsers:
-
-* **Google Chrome** \(recommended\)
-* **Firefox**
-* **Opera**
-* **Microsoft Edge** \(Beta - version 79.0.309.25 and newer\)
-
-**Internet Explorer is not supported.**
 

@@ -2,8 +2,6 @@
 
 * [SysKit Point](README.md)
 * [Product Updates](product-updates/README.md)
-  * [SysKit Point 12](product-updates/point-12-release-note.md)
-  * [SysKit Point 11](product-updates/point-11-release-note.md)
   * [SysKit Point 10](product-updates/point-10-release-note.md)
 * [Requirements](requirements/README.md)
   * [System Requirements](requirements/system-requirements.md)
@@ -22,12 +20,8 @@
   * [Collect Office 365 Data](how-to/collect-office-365-data.md)
 * [Common Tasks](common-tasks/README.md)
   * [Check Access for Specific Office 365 User](common-tasks/check-access-for-specific-user.md)
-  * [Identify Inactive Content](common-tasks/inactive-content.md)
   * [Track Office 365 External Users and Their Activities](common-tasks/track-external-users-and-their-activities.md)
   * [View Permission Changes in Office 365](common-tasks/view-permission-changes.md)
-  * [Configure SSL Certificate](common-tasks/configure-ssl-certificate.md)
 * [FAQ](faq/README.md)
   * [Report Data Limits](faq/report-data-limits.md)
-  * [Migrate Audit Logs](faq/migrate-audit-logs.md)
-  * [Turn On Auditing](faq/turn-on-auditing.md)
 

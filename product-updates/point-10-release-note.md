@@ -9,8 +9,8 @@ This is the first official release of SysKit Point.
 [Try SysKit Point trial](https://syskit.com/products/point/download/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
 **Product version:** 10.0.0  
-**Build number:** 199  
-**Release date:** Dec 09, 2019
+**Build number:** 141  
+**Release date:** Nov 20, 2019
 
 ## Hello World!
 
@@ -18,7 +18,7 @@ Dear ladies and gentlemen, if we could have your attention please - introducing 
 
 **SysKit Point** is a comprehensive, **role-based Office 365 governance tool** that fits the needs of **Office 365 admins, site owners, auditors, and compliance officers**. It empowers all these user roles to automate security tasks and take control of the content they own.​
 
-**You might find it strange that the 1st release is marked with the number 10. The reason lies behind the fact that** [**SysKit is celebrating its 10th birthday**](https://syskit.com/blog/syskit-celebrates-10-years/).  
+**\*\*You might find it strange that the 1st release is marked with the number 10. The reason lies behind the fact that \[**SysKit is celebrating its 10th birthday\*\*.\]\([https://syskit.com/blog/syskit-celebrates-10-years/](https://syskit.com/blog/syskit-celebrates-10-years/)\)  
 SysKit Point comes as a successor to SysKit Security Manager, a product that has given us knowledge and insights used as a foundation in building the next great thing. Other than wisdom, all is new in SysKit Point, so let's get started.
 
 ## Web-based Interface
