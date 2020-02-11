@@ -6,7 +6,7 @@ description: >-
 
 # SysKit Point 11
 
-Just a month has passed since the last release, but we have been busy working on brand new features in SysKit Point, to give you the best possible Christmas present - **SysKit Point version 11**.  
+Just a month has passed since the last release, but we have been busy working on brand new features in SysKit Point, to give you the best possible Christmas present - **SysKit Point version 11**.
 
 Scroll on to see what's new!
 

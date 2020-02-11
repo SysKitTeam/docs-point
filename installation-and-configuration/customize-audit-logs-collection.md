@@ -1,44 +1,31 @@
 ---
 description: >-
-  This section describes how to customize Audit Logs collection using SysKit
+  This section describes how to customize the Audit Logs collection using SysKit
   Point.
 ---
 
 # Customize Audit Logs Collection
 
-Audit logs can provide you insights into all activities related to user and administration activities in your Office 365 organization.
+Audit logs can provide you with **insights into all activities** related to user and administration activities in your Office 365 environment.‌
 
-You have the option to turn storage of Audit Logs on or off while you are configuring **SysKit Point** in **Configuration Wizard**.
+When configuring **SysKit Point** in **Configuration Wizard**, you have the **option to turn the storage of Audit Logs on/off**. The setting is available on the screen shown below, which appears after you enter the Office 365 Global admin credentials on the Configuration Wizard's **Connect to Office 365** step. By default, the **Store audit logs** option is enabled, meaning that SysKit Point will process and store the audit logs to your local disk, by default in the **C:\ProgramData\SysKit\Point\AuditIndex** folder.
 
-You can do this action while entering your tenant with the Office 365 Global admin account.
+![Store audit logs setting in the Configuration Wizard](../.gitbook/assets/customize-audit-logs-collection_store-audit-logs-settings-1.png)
 
-After you successfully entered your credentials, a new window will open.
-
-Here you can mark or unmark checkbox for storing Audit Logs, depending on whether you need it or not. 
-
-![](../.gitbook/assets/customize-audit-logs-collection_point-01.png)
-
-{% hint style="info" %}
-Regardless of your selection to store or not to store **Audit Logs** locally to your disk, they are still regularly **processed by SysKit Point**.
+{% hint style="warning" %}
+**Please note!**  
+Regardless of your selection to store or not to store them, audit logs are **regularly** **processed by SysKit Point** to track changes and activity in your Office 365 environment. Storing audit logs gives you the possibility to access audit data for longer periods than available in Office 365.
 {% endhint %}
 
-Audit Logs are by default marked for storing.
+Audit log settings can also be configured after the initial configuration of **SysKit Point**. To do so, open the **Settings** screen, and navigate to the **Audit** &gt; **Audit Logs** page. Here, you can turn the storage of Audit Logs on or off, as well as configure the **Audit Index storage location**. The information about **Index** **Size** and the **number** **of** **events** in the Audit Index is provided here too.
 
-If you choose to collect Audit Logs, they will be stored to your local disk storage with the default path set to **C:\ProgramData\SysKit\Point\AuditIndex**.
+![Audit Logs page \(1\) in Settings - Store Audit Logs option \(2\), Audit Index storage location \(3\), and link to manage Audit activities that are collected \(4\) ](../.gitbook/assets/customize_audit_logs_collection_settings_audit_logs_options.png)
 
-In the **SysKit Point** application, you can open **Settings** and under section **Audit** -&gt; **Audit Logs**, manage some options.
+Audit logs activities that are being collected can be found by clicking the **Select activities to collect** link.
 
-Here, you can turn the storage of Audit Logs on or off, and configure **Audit Index storage location**.
+![Select activities to collect screen](../.gitbook/assets/customize_audit_logs_collection_select_activities_to_collect.png)
 
-The information about **Index** **Size** and the **number** **of** **events** in the Audit Index is provided here too.
-
-![](../.gitbook/assets/customize-audit-logs-collection_point-02.png)
-
-Audit Logs collected activities can be found if you click on the blue link **Select activities to collect**.
-
-![](../.gitbook/assets/customize-audit-logs-collection_point-03.png)
-
-In the new window there will be categories of all activities: 
+In the new window, all categories and activities are shown:
 
 * Sharing and access request activities
 * Application administration activities
@@ -56,13 +43,7 @@ In the new window there will be categories of all activities:
 * SharePoint list events
 * User activities.
 
-You can adjust which activities are going to be collected by clicking the checkbox next to categories.
+You can **adjust which activities are going to be collected by clicking the checkbox** next to categories. If you need only specific activities to be collected within one category, mark those activities and click **OK**. Save your changes by clicking the **Save** button on the **Audit Logs** screen.
 
-If you need only specific activities to be collected within one category, just mark those activities and click **OK** and then **Save** button in **Audit Logs** screen.
-
-The last option in the Audit Logs screen is **Data Retention**.
-
-By default, this option is turned off.
-
-When enabled, you can set a time frame in the number of days, weeks, or months for the application to delete older Audit Logs folders than the specified date.
+The last section available on the Audit Logs screen to configure is the **Data Retention** section. **By default, this option is turned off.** **When enabled, SysKit Point will delete audit logs older than specified.**
 
