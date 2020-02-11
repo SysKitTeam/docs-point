@@ -87,7 +87,7 @@ If you have activated **SysKit Point** with **Enterprise** license it will autom
 
 To see all users associated with those roles, click on the **number** on Users label under **SysKit Point Admins** option.
 
-![SysKit Point Settings screen - Manage Access - SysKit Point Admins user label](../.gitbook/assets/rbs-clanak-9-1%20%281%29.png)
+![SysKit Point Settings screen - Manage Access - SysKit Point Admins user label](../.gitbook/assets/rbs-clanak-9-1-1.png)
 
 You are then redirected to **SysKit Point Admins** report where You can see who has **access** to **SysKit Point**.
 
