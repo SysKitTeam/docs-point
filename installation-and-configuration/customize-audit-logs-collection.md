@@ -21,7 +21,7 @@ Audit log settings can also be configured after the initial configuration of **S
 
 ![Audit Logs page \(1\) in Settings - Store Audit Logs option \(2\), Audit Index storage location \(3\), and link to manage Audit activities that are collected \(4\)  ](../.gitbook/assets/customize_audit_logs_collection_settings_audit_logs_options.png)
 
-Audit Logs collected activities can be found if you click on the blue link **Select activities to collect**.
+Audit logs activities that are being collected can be found by clicking the **Select activities to collect** link.
 
 ![Select activities to collect screen](../.gitbook/assets/customize_audit_logs_collection_select_activities_to_collect.png)
 
