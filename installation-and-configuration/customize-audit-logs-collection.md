@@ -25,7 +25,7 @@ Audit logs activities that are being collected can be found by clicking the **Se
 
 ![Select activities to collect screen](../.gitbook/assets/customize_audit_logs_collection_select_activities_to_collect.png)
 
-In the new window there will be categories of all activities:
+In the new window, all categories and activities are shown:
 
 * Sharing and access request activities
 * Application administration activities
