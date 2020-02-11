@@ -49,7 +49,7 @@ If the service account is outside your domain the account name must be typed in 
 
 **The first time you connect to your Office 365 tenant, you will be prompted to give consent** to a set of permissions that SysKit Point requires to function properly. Additional prompts may show up in the future when installing a newer version of SysKit Point because of new functionality and in consequence potentially new required permissions.
 
-![SysKit Point - Global Administrator Consent](../.gitbook/assets/permission_requirements_global_administrator_consent.png)
+![SysKit Point - Global Administrator Consent](https://github.com/SysKitTeam/docs-point/tree/6a40e21c3178bb6e755fa526975af9480f814ed7/.gitbook/assets/permission_requirements_global_administrator_consent%20%281%29.png)
 
 ### SysKit Point App Permissions
 
@@ -98,7 +98,7 @@ The following permissions are required for SysKit Point Enterprise Application:
 | :--- | :--- | :--- |
 | Access Azure Service Management as organization users | Delegated | Allows SysKit Point to create an additional application in your tenant for safer data access. |
 
-To allow safer access to your audit log data and to use Microsoft Authentication for signing in your users to SysKit Point, an additional app registration will be created in your tenant with the following required permissions:
+To allow safer access to your audit log data and to use Microsoft Authentication for signing in your users to SysKit Point, an additional \_\*\*\_app registration will be created in your tenant with the following required permissions:
 
 #### Microsoft Graph
 
