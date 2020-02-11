@@ -18,10 +18,10 @@ For the collection of **Exchange activity**, SysKit Point uses Office 365 groups
 
 The collection of **Yammer activity** is also accomplished through Microsoft 365 admin center usage report but for Yammer groups activity. The **last activity is based on the latest date a message was read, posted, or liked** by the group.
 
-Data for Exchange and Yammer activities is collected by SysKit Point's dedicated worker within non-working hours, between 7:00 PM. and 7:00 AM.
+**Data for Exchange and Yammer activities is collected by SysKit Point's dedicated service within non-working hours**, between 7:00 PM. and 7:00 AM.
 
 {% hint style="warning" %}
-**Please note!**                                                                                                                                       Activity is being tracked from Syskit Point installation onward! This applies to SharePoint and Exchange workloads.
+**Please note!                                                                                                                                       Activity is being monitored from Syskit Point installation onward!** This applies to SharePoint and Exchange workloads since historical data for these workloads is not available in usage reports.
 {% endhint %}
 
 ## Defining what is inactive content in SysKit Point
