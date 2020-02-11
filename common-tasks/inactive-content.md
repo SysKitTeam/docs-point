@@ -40,13 +40,13 @@ The collection of **Yammer activity** is also accomplished through Microsoft 365
 
 ![Sites Overview screen - Activity column](../.gitbook/assets/inactive-content_sites-overview-screen-activity-column.png)
 
-You can see the **blue information icon** in the Activity column header.
+You can see the **blue info icon** in the Activity column header.
 
 ![Activity column tooltip](../.gitbook/assets/inactive-content_activity-column-tooltip.png)
 
 When you **hover over the info icon**, you will see which workloads are included in the evaluation of the activity for Sites, Microsoft Teams, Office 365 Groups, and OneDrive sites. There is also information for which period \(number of days\) was the activity assessment made. In the grid, you have a **column filter** to help you see just the active or the inactive content.
 
-Hovering over circle icons for each row you can get the information if the item has **no activity** since the application started collecting the data - that would be a **gray circle**.
+Hover over circle icons for each row to get the information if the item has **no activity** since the application started collecting the data - that would be a **gray circle**.
 
 If the **circle icon** is colored **green**, that means that the item **has** the **activity**. Hover will display the date when was the last activity.
 
