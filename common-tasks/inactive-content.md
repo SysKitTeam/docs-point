@@ -62,19 +62,18 @@ There is also a separate **Inactive Sites view** available, which can be accesse
 
 ![Inactive Content tile](../.gitbook/assets/inactive-content_inactive-content-tile.png)
 
-### Sites Details screen and Microsoft Teams & Groups Details screen
+### Details Screen
 
-Accessing **Details** screens for sites, groups, and teams are possible by clicking the link in the **Name** column on **Overview** screens.
+You can **access** **Details** **screens** for Sites, Office 365 Groups, and Microsoft Teams by **clicking the link in the Name column** on **Overview** screens. The activity information inside Details screens is shown in the **Analytics and Usage** tile. Hover over the **blue info icon** to see for which workloads are the activities tracked.
 
-The activity information inside Details screens is shown in **Analytics and Usage** tile.
+![Details screen - Analytics and Usage tile - Activity section](../.gitbook/assets/inactive-content_analytics-and-usage-tile-activity-section.png)
 
-![Analytics and Usage tile - Activity section](../.gitbook/assets/inactive-content_analytics-and-usage-tile-activity-section.png)
+{% hint style="warning" %}
+**Please note!**  
+Workload activity data is shown only for the **root site level**. Document libraries, lists, folders, and list items **won't have the Activity section displayed** in the **Analytics and Usage** tile.
+{% endhint %}
 
-Here you can see separate section **Activity**. Hover over **blue information icon** to see for which workloads are activities tracked.
-
-Workload activity data is shown only for the **root site level**. Document libraries, folders, or list items won't have displayed the **Activity** section in **Analytics and Usage** tile.
-
-### Inactive Content report
+### Inactive Content Report
 
 If you open the **Report Center**, you will find the **Inactive Content** report.
 
