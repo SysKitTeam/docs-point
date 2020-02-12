@@ -17,7 +17,7 @@ Before you begin with the migration, make sure your SysKit Security Manager appl
 
 On the machine where SysKit Security Manager is installed, **make sure that the Audit log collection is NOT in progress.** You can do so by checking the **Audit Log status bar**. If you see a green checkmark, you can continue to the next step.
 
-![SysKit Security Manager - Audit Log status bar](../.gitbook/assets/migrate-audit-logs_ssm-audit-log-status-bar.png)
+![SysKit Security Manager - Audit Log status bar](https://github.com/SysKitTeam/docs-point/tree/6a40e21c3178bb6e755fa526975af9480f814ed7/.gitbook/assets/migrate-audit-logs_ssm-audit-log-status-bar-1.png)
 
 {% hint style="warning" %}
 **Please note!**  
@@ -30,7 +30,7 @@ Open the Task Manager on the machine where SysKit Security Manager is installed.
 
 Find the Audit Index location used by SysKit Security Manager to store Audit logs data. By default, this is set to **C:\ProgramData\SysKit\Security Manager\AuditIndex**. If unsure, you can find the Audit logs location path in SysKit Security Manager by navigating to **Settings** &gt; **Audit** &gt; **Audit Logs**.
 
-![SysKit Security Manager - Audit logs location](../.gitbook/assets/migrate-audit-logs_ssm-audit-logs-location%20%281%29.png)
+![SysKit Security Manager - Audit logs location](../.gitbook/assets/migrate-audit-logs_ssm-audit-logs-location.png)
 
 Once located, **copy the AuditIndex folder** to a safe temporary location or a thumb drive in case SysKit Point is installed on another machine.
 
