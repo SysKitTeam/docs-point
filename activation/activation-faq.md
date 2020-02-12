@@ -49,7 +49,7 @@ Product activation is a one-time process that is typically completed immediately
 ## When is product reactivation required?
 
 Product reactivation is required only under exceptional circumstances – if, for example, you upgrade or replace your machine, or if the activation process detects that the license has been tampered with.  
-You can migrate the license key to a new machine only once in every 30 days.
+You can migrate the license key to a new machine only once every 30 days.
 
 ## How to deactivate the license?
 

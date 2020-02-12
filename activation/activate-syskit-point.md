@@ -6,7 +6,7 @@ description: This article outlines the steps needed to perform the product activ
 
 ## Activation
 
-After the purchase of the selected edition of SysKit Point, you will be provided with the license key for the product activation.
+You will be provided with the license key for the product activation after the purchase of the selected edition of SysKit Point.
 
 At any time, you can log in to SysKit [Customers Portal](https://my.syskit.com/) and navigate to the list of your licensed products. If you do not have the activation information, please [contact us](https://www.syskit.com/company/contact-us).
 
@@ -21,7 +21,7 @@ You can check license information and manage it later if you go to Settings &gt;
 
 ## Changing the License Key
 
-To change the existing license key with a new one, e.g. when you are upgrading to a different license edition, here are the instructions on how to do so:
+To change the existing license key with a new one, e.g., when you are upgrading to a different license edition, here are the instructions on how to do so:
 
 1. **Navigate to Settings** &gt; **License**.
 2. **Click the Deactivate button**.
