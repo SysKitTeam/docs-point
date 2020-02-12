@@ -66,7 +66,7 @@ A **dialog** will pop out, asking you to **confirm** your desired action.
 When the action is **completed**, the selected user will **no longer have access** to **SysKit Point**.
 
 {% hint style="warning" %}
-**Please note!** Removing user access from **SysKit Point** will not remove user from your **Office 365** environment.
+**Please note!**                                                                                                                                    Removing user access from **SysKit Point** will not remove user from your **Office 365** environment.
 {% endhint %}
 
 ### Enterprise License
@@ -96,7 +96,7 @@ You are then redirected to **SysKit Point Admins** report where You can see who 
 While **Team** license plan gives you the ability to add **distinct users** only as **SysKit Point admins** \(also limited to number five\). **Enterprise** license enables you to add even **Office 365 Administration roles**, **security groups** and **Office 365 groups**.
 
 {% hint style="warning" %}
-**Please note!**                                                                                                                                                 it is not possible to remove or add a distinct user from **Office 365 administration role** in **SysKit Point**.
+**Please note!** it is not possible to remove or add a distinct user from **Office 365 administration role** in **SysKit Point**.
 {% endhint %}
 
 #### What is SysKit Point Collaborators role
