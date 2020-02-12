@@ -55,7 +55,7 @@ There are multiple ways of navigating through the application.
 
 ## Built-in Views
 
-Each overview screen comes with a set of predefined views to help you select the most important information for you. On the left-hand side of the report, simply click on the drop-down menu to select the views you are the most interested in.
+Each overview screen comes with a set of predefined views to help you select the most important information for you. On the left-hand side of the report, click on the drop-down menu to select the views you are the most interested in.
 
 ![SysKit Point - Built-in Views on the Sites screen](../.gitbook/assets/syskit-point-quick-start-guide_syskit-point-built-in-views-on-the-sites-screen.png)
 
@@ -69,9 +69,9 @@ As an easy workaround, you can add additional columns on your own with the help 
 
 ## Drill for Details
 
-The basic principle in the application is, whenever you wish to see more details about a specific resource, you simply click on its name to drill deeper. Resources, numbers, and details that can be drilled on will be marked with the underline.
+The basic principle in the application is, whenever you wish to see more details about a specific resource, you click on its name to drill deeper. Resources, numbers, and details that can be drilled on will be marked with the underline.
 
-Everything is connected and we made it easy for you to navigate from specific site to the user details and vice versa.
+Everything is connected, and we made it accessible for you to navigate from a specific site to the user details and vice versa.
 
 ![SysKit Point - Drill on the Sites screen](../.gitbook/assets/syskit-point-quick-start-guide_syskit-point-drill-on-the-sites-screen.png)
 
