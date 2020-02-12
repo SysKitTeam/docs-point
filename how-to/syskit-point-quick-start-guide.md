@@ -77,21 +77,21 @@ Everything is connected, and we made it accessible for you to navigate from a sp
 
 ## External Links
 
-Whenever possible, SysKit Point shows you an external link so you can, e.g. quickly open a site in SharePoint Online or send an email to Office 365 Group. External links are marked with an icon that suggests you will leave the current context, and to distinguish them from drill links mentioned above, they are colored blue.
+Whenever possible, SysKit Point shows you an external link so you can, e.g., quickly open a site in SharePoint Online or send an email to Office 365 Group. External links are marked with an icon that suggests you will leave the current context, and to distinguish them from drill links mentioned above, they are colored blue.
 
 ![SysKit Point - External link for a site](../.gitbook/assets/syskit-point-quick-start-guide_syskit-point-external-link-for-a-site.png)
 
 ## Contextual Actions & Reports
 
-On the right hand side of the screen you will find suggested actions and reports that are connected to the current selection \(site/user\) or report on your screen.
+On the right-hand side of the screen, you will find suggested actions and reports that are connected to the current selection \(site/user\) or report on your screen.
 
 There are two types of actions/reports:
 
-* **Global Actions/Reports** - these actions are always visible and will create report or perform action for the specific site/user you are currently located at.   **Example:** If you are exploring in details site called Research and Development, reports on the right hand site will contain information only about that site.
+* **Global Actions/Reports** - these actions are always visible and will create a report or perform an action for the specific site/user you are currently located at. **Example:** If you are exploring in details site called Research and Development, reports on the right-hand side will contain information only about that site.
 
 ![SysKit Point - Global actions on site details screen](../.gitbook/assets/syskit-point-quick-start-guide_syskit-point-global-actions-on-site-details-screen.png)
 
-* **Contextual Actions/Reports** - when you select something in the screen, additional actions and reports may appear. If you choose to create a report/perform an action, they will impact currently selected object in one of the tiles. **Example:** If you select the Documents library in the Content tile, reports on the right hand side will be related to that selection only, meaning that they will present information about that selected folder, not the entire site you are currently exploring.
+* **Contextual Actions/Reports** - when you select something on the screen, additional actions and reports may appear. If you choose to create a report/perform an action, they will impact the currently selected object in one of the tiles. **Example:** If you select the Documents library in the Content tile, reports on the right-hand side will be related to that selection only, meaning that they will present information about that selected folder, not the entire site you are currently exploring.
 
 ![SysKit Point - Contextual actions after selection](../.gitbook/assets/syskit-point-quick-start-guide_syskit-point-contextual-actions-after-selection.png)
 
