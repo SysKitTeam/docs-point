@@ -53,7 +53,7 @@ If everything is configured properly, an Info window appears with the message:
 Click **OK** to close the Info window, and **Next &gt;** to continue to the next step.
 
 {% hint style="info" %}
-Check the supported SQLServer versions and requirements [here](../requirements/system-requirements.md).
+Check the supported SQL Server versions and requirements [here](../requirements/system-requirements.md).
 {% endhint %}
 
 ### Service Settings
