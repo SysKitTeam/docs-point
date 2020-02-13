@@ -7,7 +7,7 @@ description: This article explains how you can enable Role-based Access in SysKi
 After the installation and configuration of **SysKit Point**, depending on the subscription plan you selected, you can have multiple users using **SysKit Point** simultaneously. This option is found under **Settings** page named **Manage Access.**
 
 {% hint style="warning" %}
-**Please note!**                                                                                                                               Simultaneous usage of **SysKit Point** is only available in the **Team** and **Enterprise** subscription plan.
+**Please note!**                                                                                                                          Simultaneous usage of **SysKit Point** is only available in the **Team** and **Enterprise** subscription plan.
 {% endhint %}
 
 ## Setting up Role-Based Access
@@ -17,7 +17,7 @@ After the installation and configuration of **SysKit Point**, depending on the s
 Let's say you activated the **SysKit Point Team** license. With it, you get an option to simultaneously use **SysKit Point** between **five** users be it like a **SysKit Point Admin** or **SysKit Point Global Viewer**. Here's how you can manage who gets to use it.
 
 {% hint style="warning" %}
-**Please note!**                                                                                                                                             The account that has activated your license **will automatically occupy one out of five eligible** **Admin user** places.
+**Please note!**                                                                                                                                            The account that has activated your license **will automatically occupy one out of five eligible** **Admin user** places.
 {% endhint %}
 
 When located on the **Home Screen**, click on the **Settings** option \(1\) in the upper right corner. A drop-down appears. Click on the **Security** option \(2\).
@@ -45,7 +45,7 @@ If you have a situation in your environment where you have Users that should be 
 
 When User is assigned to **SysKit Point Global Viewer** role, they are able to login to **SysKit Point** and view all data collected from **Office 365** but are **unable** to **execute** **actions** or **manage application settings**.
 
-To assign a User to a **SysKit Point Global Viewer** role, **enable** the **toggle**\(1\) **next to it.** Click on the **Assign to role** button, type in the name of the desired user and select it\(2\) and then click Save\(3\).
+To assign a User to a **SysKit Point Global Viewer** role, **enable** the **toggle** \(1\) **next to it.** Click on the **Assign to role** button, type in the name of the desired user and select it \(2\) and then click Save \(3\).
 
 ![SysKit Point Settings screen - Manage Access page - Assigning user to SysKit Point Global Viewer](../.gitbook/assets/rbs-clanak-4.png)
 
@@ -55,7 +55,7 @@ Each role on **Manage Access** has its user number label. It shows us how many u
 
 Clicking on each of those labels will redirect us to the **report** of the corresponding role. The report will show us **exact** users **occupying** that role. On the role reports, you can also **assign** new users to that role, **export** the report into **PDF** and **XLSX** and also **remove** users from said roles.
 
-To **remove** a user click on **checkbox** next to desired user name\(1\), then click on the **Remove Access from SysKit Point**'2\).
+To **remove** a user click on **checkbox** next to desired user name \(1\), then click on the **Remove Access from SysKit Point \(**2\).
 
 ![SysKit Point Settings - SysKit Point Admins report - Remove Access from SysKit Point](../.gitbook/assets/rbs-clanak-6.png)
 
@@ -66,7 +66,7 @@ A **dialog** will pop out, asking you to **confirm** your desired action.
 When the action is **completed**, the selected user will **no longer have access** to **SysKit Point**.
 
 {% hint style="warning" %}
-**Please note!** Removing user access from **SysKit Point** will not remove user from your **Office 365** environment.
+**Please note!**                                                                                                                                 Removing user access from **SysKit Point** will not remove user from your **Office 365** environment.
 {% endhint %}
 
 ### Enterprise License
@@ -79,7 +79,7 @@ When located on the **Home Screen**, click on the **Settings** option in the upp
 
 You will be redirected to **SysKit Point Settings screen - Manage access**.
 
-With **Enterprise** plan you have three available options for accessing SysKit Point. **SysKit Point Admins**\(1\), **SysKit Point Global Viewers**\(2\) and **SysKit Point Collaborators**\(3\) of which the latter ones are disabled by default.
+With **Enterprise** plan you have three available options for accessing SysKit Point. **SysKit Point Admins** \(1\), **SysKit Point Global Viewers** \(2\) and **SysKit Point Collaborators** \(3\) of which the latter ones are disabled by default.
 
 ![SysKit Point Settings screen - Manage Access page Enterprise lincese](../.gitbook/assets/rbs-clanak-8.png)
 
@@ -103,7 +103,7 @@ While **Team** license plan gives you the ability to add **distinct users** only
 
 **SysKit Point Collaborators** role is the specific role made for **SysKit Point** Enterprise license users in which they can enable their **Site admins/Teams owners** access to the **SysKit Point** to easily manage their **sites/teams** while not showing them information they should not see. When it's enabled, **SysKit Point** will **automatically** assign that type of users to **SysKit Point Collaborators** role.
 
-To enable **SysKit Point Collaborators**, when you're located on **Settings screen** - **Manage Access**, enable the **toggle** next to **SysKit Point Collaborators**\(1\) and, you will see that number appears automatically on **Site Owners label**. If you also wish to enable user who have **Full Control** permissions check '**Add users with Full Control**'\(3\) that will also **automatically** add that type of users to the **SysKit Point Collaborators** role. Also if you want to enable those users to login to **SysKit Point** but **do not want** them to be able to **execute actions** check '**Give users read-only access \(disable actions\)**'\(2\). When you're finished, click **Save**.
+To enable **SysKit Point Collaborators**, when you're located on **Settings screen** - **Manage Access**, enable the **toggle** next to **SysKit Point Collaborators** \(1\) and, you will see that number appears automatically on **Site Owners label**. If you also wish to enable user who have **Full Control** permissions check '**Add users with Full Control**' \(3\) that will also **automatically** add that type of users to the **SysKit Point Collaborators** role. Also if you want to enable those users to login to **SysKit Point** but **do not want** them to be able to **execute actions** check '**Give users read-only access \(disable actions\)**' \(2\). When you're finished, click **Save**.
 
 ![SysKit Point Settings screen - Manage Access - SysKit Point Collaborators](../.gitbook/assets/rbs-clanak-11.png)
 
