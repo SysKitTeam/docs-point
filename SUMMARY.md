@@ -20,6 +20,7 @@
 * [How To](how-to/README.md)
   * [SysKit Point Quick Start Guide](how-to/syskit-point-quick-start-guide.md)
   * [Collect Office 365 Data](how-to/collect-office-365-data.md)
+  * [Upgrade SysKit Point to a new version](how-to/upgrade-syskit-point-to-a-new-version.md)
 * [Common Tasks](common-tasks/README.md)
   * [Check Access for Specific Office 365 User](common-tasks/check-access-for-specific-user.md)
   * [Identify Inactive Content](common-tasks/inactive-content.md)
