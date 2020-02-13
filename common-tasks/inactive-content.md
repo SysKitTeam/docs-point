@@ -49,7 +49,7 @@ When you **hover over the info icon**, you will see which workloads are included
 Hover over circle icons for each row to get more information about the **activity**. The **circle is colored gray** if there **was no activity since the application started collecting the activity data**. If the **circle is colored** **green**, the **content is** **active**. The date of the last activity is displayed on hover.
 
 {% hint style="info" %}
-**Hint!**                                                                                                                                                               If more than one workload was active, then the latest date among all workloads will be shown here.
+**Hint!** If more than one workload was active, then the latest date among all workloads will be shown here.
 {% endhint %}
 
 There is also a separate **Inactive Sites view** available, which can be accessed from the View drop-down menu. By selecting it, the Activity column becomes visible in the grid.
