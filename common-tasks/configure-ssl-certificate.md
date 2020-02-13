@@ -38,7 +38,7 @@ Check the **Make private key exportable** option under the Key options on the Pr
 
 ![MMC - Make private key exportable](../.gitbook/assets/configure-ssl-certificate_make-private-key-exportable.png)
 
-Click **Enroll** to generate the new cert from the CA and install it on the server.
+Click **Enroll** to generate the new certificate from the CA and install it on the server.
 
 ![MMC - Enroll certificate](../.gitbook/assets/configure-ssl-certificate_enroll.png)
 
