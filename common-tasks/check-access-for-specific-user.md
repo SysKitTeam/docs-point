@@ -75,19 +75,19 @@ You can export the report into **PDF** and **Excel**.
 
 ### Options when making a selection
 
-If you make a selection on a **Root level** of the report be it single selection or multi selection, side panel changes and action **Remove Access** becomes available.
+If you make a selection on a **Root level** of the report, be it single selection or multi-selection, side panel changes, and action **Remove Access** becomes available.
 
-Also you get the option to generate other **SysKit Point** reports for selected objects from there.
+Also, you get the option to generate other **SysKit Point** reports for selected objects from there.
 
 ![User Access report - side panel options on selection](../.gitbook/assets/check-access-for-specific-office-365-user_user-access-report-side-panel-options-on-selection.png)
 
 ## Generate User Access from Site Details
 
-You've visited **site details** page of one Site Collection on your tenant. There you can see the **Overview tile** which has **Users** and **External Users** metric.
+You've visited the **site details** page of one Site Collection on your tenant. There you can see the **Overview tile,** which has **Users** and **External Users** metric.
 
 ![Site Details page - Overview tile](../.gitbook/assets/check-access-for-specific-office-365-user_site-details-page-overview-tile.png)
 
-If you click on Users metric, you will be redirected to the page which shows you all types of user that have access to that Site Collection.
+If you click on Users metric, you will be redirected to the page which shows you all types of users that have access to that Site Collection.
 
 ![Site Details - Users report](../.gitbook/assets/check-access-for-specific-office-365-user_site-details-users-report.png)
 
@@ -95,21 +95,21 @@ Clicking on External Users metric will show you only external users that have ac
 
 If you select some users on that page, you will get options in **Side panel** to generate a **User Access** report.
 
-Generating report from there will show what kind of access do users have on that Site collection.
+Generating a report from there will show what kind of access do users have on that Site collection.
 
 ![User Access report generated from Site Details](../.gitbook/assets/check-access-for-specific-office-365-user_user-access-report-geenrated-from-site-details.png)
 
 ## Generate User Access from User Overview screen
 
-From **Home Screen** click on **Users** tile which redirects you to Users Overview screen.
+From **Home Screen,** click on **Users** tile, which redirects you to the Users Overview screen.
 
-On **Users Overview** screen you see all the Users on your environment.
+On **Users Overview** screen, you see all the Users on your environment.
 
-Select any user and on the **side panel** click on the **User Access**.
+Select any user, and on the **side panel,** click on the **User Access**.
 
 ![Users Overview screen - selection](../.gitbook/assets/check-access-for-specific-office-365-user_users-overview-screen-selection.png)
 
-You will get a User Access report generated for the **selected user** on which you can see what kind of access does that user have on all objects of your environment.
+You will get a User Access report generated for the **selected user** on which you can see what kind of access does the user has on all objects of your environment.
 
 ![User Access report generated from Users Overview screen](../.gitbook/assets/check-access-for-specific-office-365-user_user-access-report-generated-from-users-overview-screen.png)
 
