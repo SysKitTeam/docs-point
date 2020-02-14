@@ -49,7 +49,7 @@ If you **don't want to see** a popup **message** about the **new updates** anymo
 ![Warning message - necessary database upgrade](../.gitbook/assets/upgrade-syskit-point-to-a-new-version_warning-message-necessary-database-upgrade.png)
 
 * Enter your **service account** and validate it. Click **Next**.
-* In **Connect to Office 365** step, you can see that your **tenant is already connected** with the application. Continue to the next step.
+* In **Connect to Office 365** step, you can see that your **tenant is already connected** with the application. Proceed to the next step.
 * In **Web Application Settings** step, click on the **Next** button. 
 * In the **Finish** step, wait until all the checks are done and click on the **Finish** button to open the application automatically in your browser.
 
