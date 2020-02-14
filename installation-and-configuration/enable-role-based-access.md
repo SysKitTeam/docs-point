@@ -22,7 +22,7 @@ Let's say you activated the **SysKit Point Team** license. With it, you get an o
 
 When located on the **Home Screen**, click on the **Settings** option \(1\) in the upper right corner. A drop-down appears. Click on the **Security** option \(2\).
 
-![SysKit Point Home Screen - Settings \(1\) &amp; Security option \(2\)](../.gitbook/assets/rbs-clanak-1-1%20%281%29.png)
+![SysKit Point Home Screen - Settings \(1\) &amp; Security option \(2\)](../.gitbook/assets/rbs-clanak-1-1-1%20%281%29.png)
 
 You will be redirected to the **Settings** &gt; **Security** &gt; **Manage Access** page, where you can define who has access to **SysKit Point**.
 
@@ -87,7 +87,7 @@ If you have activated **SysKit Point** with **Enterprise** license it will autom
 
 To see all users associated with those roles, click on the **number** on Users label under **SysKit Point Admins** option.
 
-![SysKit Point Settings screen - Manage Access - SysKit Point Admins user label](../.gitbook/assets/rbs-clanak-9-1%20%281%29.png)
+![SysKit Point Settings screen - Manage Access - SysKit Point Admins user label](../.gitbook/assets/rbs-clanak-9-1-1.png)
 
 You are then redirected to **SysKit Point Admins** report where You can see who has **access** to **SysKit Point**.
 
