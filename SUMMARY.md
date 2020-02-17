@@ -19,6 +19,7 @@
   * [Activation FAQ](activation/activation-faq.md)
 * [How To](how-to/README.md)
   * [SysKit Point Quick Start Guide](how-to/syskit-point-quick-start-guide.md)
+  * [Supervise Microsoft Teams Private channels](how-to/supervise-microsoft-teams-private-channels.md)
   * [Collect Office 365 Data](how-to/collect-office-365-data.md)
   * [Upgrade SysKit Point to a new version](how-to/upgrade-syskit-point-to-a-new-version.md)
 * [Common Tasks](common-tasks/README.md)
