@@ -8,13 +8,9 @@ description: >-
 
 Here at **SysKit**, we are regularly improving our applications with useful new features.                                                                                                         
 
-If you are using **SysKit Point**, you want to have the latest version available installed to use its maximum potential. 
+We highly recommend having the latest version available installed to use its maximum potential. 
 
 ## Checking for version updates
-
-Luckily, as soon as the newest version is available to the market, we will notify you through the application, among other marketing activities.
-
-You can always Visit [**What's New**](https://www.syskit.com/products/point/whats-new/) page at our official site to get more in-depth information about how we improved the application.
 
 Every user that holds **SysKit Point Admins role** and opens the application will **receive a popup message** at the bottom of the screen that a **new update is available**.
 
@@ -52,4 +48,6 @@ If you **don't want to see** a popup **message** about the **new updates** anymo
 * In **Connect to Office 365** step, you can see that your **tenant is already connected** with the application. Proceed to the next step.
 * In **Web Application Settings** step, click on the **Next** button. 
 * In the **Finish** step, wait until all the checks are done and click on the **Finish** button to open the application automatically in your browser.
+
+You can always Visit [**What's New**](https://www.syskit.com/products/point/whats-new/) page at our official site to get more in-depth information about how we improved the application.
 
