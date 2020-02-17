@@ -30,12 +30,12 @@ If you **don't want to see** a popup **message** about the **new updates** anymo
 
 After you downloaded the newest version of the application, follow these steps for a successful upgrade:
 
-*  Unpack and run the setup file - **SysKitPointSetup.exe**.
+*  Unpack and run the setup file - **SysKitPointSetup.exe** on the same server where previous version was installed.
 * The wizard will require to uninstall the previous version of SysKit Point. 
 
 ![Previous version uninstallation](../.gitbook/assets/upgrade-syskit-point-to-a-new-version_previous-version-uninstallation.png)
 
-* The following steps are classic installation steps available [here](../installation-and-configuration/install-syskit-point.md).
+* Follow the wizard through the installation steps. For more information click [here](../installation-and-configuration/install-syskit-point.md).
 * After completing the installation, the **Configuration Wizard** will open by default.
 *  In the **Database** step, select **Use existing database** option to preserve all your previous data. Click **Next** to proceed.
 * In the **Database Configuration** step, click **Next**. A **warning message** will appear about the necessary upgrade for the database. For data protection, **consider backing up the database**. Click **Yes** and continue to the next step.
