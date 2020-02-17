@@ -20,7 +20,7 @@ Clicking on **Download Latest Version** link will redirect you to our [Customers
 
 In case you are using a **trial version** of the application, a link **will redirect you** to the **SysKit Point web download page**.
 
-If you **don't want to see** a popup **message** about the **new updates** anymore, close the message.
+If you **don't want to see** a popup **message** about the **new updates** anymore, close the message. Until you log out from the application or close the browser popup won't be shown again.
 
 {% hint style="info" %}
 **Hint!                                                                                                                                                         About** section in the **Settings** screen contains **Check for updates** link inside Point version tile. When you click on it, it will show you if there are new versions available to download. **If you possess the latest version**, it will write an **Already up to date** message.
