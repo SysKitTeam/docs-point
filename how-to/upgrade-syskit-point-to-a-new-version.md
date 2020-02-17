@@ -6,9 +6,7 @@ description: >-
 
 # Upgrade SysKit Point to a new version
 
-Here at **SysKit**, we are regularly improving our applications with useful new features.                                                                                                         
-
-We highly recommend having the latest version available installed to use its maximum potential. 
+Here at **SysKit**, we are regularly improving our applications with useful new features. We highly recommend having the latest version available installed to use its maximum potential. 
 
 ## Checking for version updates
 
@@ -16,9 +14,9 @@ Every user that holds **SysKit Point Admins role** and opens the application wil
 
 ![New update available message](../.gitbook/assets/upgrade-syskit-point-to-a-new-version_new-update-available-message.png)
 
-Link **Read What's New** will open a new tab in your browser at the [**Product Updates**](../product-updates/) ****section in SysKit Point documentation.
+Link **Read What's New** will open a new tab in your browser at the [Product Updates](../product-updates/) section in SysKit Point documentation where you can find out about new features, improvements, and bug fixes by each product version.
 
-Clicking on **Download Latest Version** link will redirect you to [**my.syskit.com**](https://my.syskit.com) page if you have a valid license. From here, you can download the latest version available.
+Clicking on **Download Latest Version** link will redirect you to our [Customers Portal](https://my.syskit.com/) page if you have a valid license. From here, you can download the latest version available.
 
 In case you are using a **trial version** of the application, a link **will redirect you** to the **SysKit Point web download page**.
 
