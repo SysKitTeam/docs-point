@@ -33,7 +33,7 @@ If you **don't want to see** a popup **message** about the **new updates** anymo
 *  Unpack and run the setup file - **SysKitPointSetup.exe** on the same server where previous version was installed.
 * The wizard will require to uninstall the previous version of SysKit Point. 
 
-![Previous version uninstallation](../.gitbook/assets/upgrade-syskit-point-to-a-new-version_previous-version-uninstallation.png)
+![Previous version uninstallation massage](../.gitbook/assets/upgrade-syskit-point-to-a-new-version_previous-version-uninstallation%20%281%29.png)
 
 * Follow the wizard through the installation steps. For more information click [here](../installation-and-configuration/install-syskit-point.md).
 * After completing the installation, the **Configuration Wizard** will open by default.
