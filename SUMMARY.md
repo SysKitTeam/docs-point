@@ -26,7 +26,7 @@
   * [Identify Inactive Content](common-tasks/inactive-content.md)
   * [Track Office 365 External Users and Their Activities](common-tasks/track-external-users-and-their-activities.md)
   * [View Permission Changes in Office 365](common-tasks/view-permission-changes.md)
-  * [Supervise Microsoft Teams Private channels](common-tasks/supervise-microsoft-teams-private-channels.md)
+  * [Supervise Microsoft Teams Private Channels](common-tasks/supervise-microsoft-teams-private-channels.md)
   * [Configure SSL Certificate](common-tasks/configure-ssl-certificate.md)
 * [FAQ](faq/README.md)
   * [Report Data Limits](faq/report-data-limits.md)
