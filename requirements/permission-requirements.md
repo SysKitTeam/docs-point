@@ -49,7 +49,7 @@ If the service account is outside your domain the account name must be typed in 
 
 **The first time you connect to your Office 365 tenant, you will be prompted to give consent** to a set of permissions that SysKit Point requires to function correctly. Additional prompts may show up in the future when installing a newer version of SysKit Point because of new functionality, and in consequence, potentially new required permissions.
 
-![SysKit Point - Global Administrator Consent](../.gitbook/assets/configure-syskit-point_global_administrator_consent.png)
+![Office 365 Global Admin Consent](../.gitbook/assets/permission_requirements_global_administrator_consent_without_steps.png)
 
 ### SysKit Point App Permissions
 
