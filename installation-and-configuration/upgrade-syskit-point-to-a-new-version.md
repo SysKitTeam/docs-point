@@ -10,7 +10,7 @@ Since **SysKit Point** is frequently getting new features, we highly recommend h
 
 ## Checking for Updates
 
-**Every SysKit Point user** **receives a popup message** at the bottom of the Home screen when they open the application, **in case a new update is available**. **SysKit Point automatically checks for updates** every day, outside of working hours, and has the information ready when a user opens the web application.
+**SysKit Point automatically checks for updates** every day, outside of working hours. **In case a new update is available, every SysKit Point user** **receives a popup message** at the bottom of the Home screen when they open the web application. 
 
 ![Home screen - The New Update Available message](../.gitbook/assets/upgrade-syskit-point-to-a-new-version_new-update-available-message.png)
 
