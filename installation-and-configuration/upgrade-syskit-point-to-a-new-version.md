@@ -32,7 +32,7 @@ Since **SysKit Point** is frequently getting new features, we highly recommend h
 * Follow the wizard through the installation steps. All installation steps are described [here](install-syskit-point.md).
 * After the installation is completed, the **Configuration Wizard** opens automatically.
 *  In the **Database** step, select the **Use existing database** option to preserve all data collected by SysKit Point. Click **Next** to proceed.
-* In the **Database Configuration** step, click **Next**. A **warning message** will appear about the necessary upgrade for the database. For data protection, **consider backing up the database**. Click **Yes** and continue to the next step.
+* In the **Database Configuration** step, click **Next**. A **warning message** is displayed. Before you continue, **consider backing up the database** to ensure no data is lost in an unlikely event of an upgrade failure. Click **Yes** to continue.
 
 ![Warning message - necessary database upgrade](../.gitbook/assets/upgrade-syskit-point-to-a-new-version_warning-message-necessary-database-upgrade.png)
 
