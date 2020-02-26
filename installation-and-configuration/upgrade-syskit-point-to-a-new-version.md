@@ -30,8 +30,8 @@ Since **SysKit Point** is frequently getting new features, we highly recommend h
 ![Installation wizard - Previous Version Uninstallation message ](../.gitbook/assets/upgrade-syskit-point-to-a-new-version_previous-version-uninstallation%20%281%29.png)
 
 * Follow the wizard through the installation steps. All installation steps are described [here](install-syskit-point.md).
-* After completing the installation, the **Configuration Wizard** will open by default.
-*  In the **Database** step, select **Use existing database** option to preserve all your previous data. Click **Next** to proceed.
+* After the installation is completed, the **Configuration Wizard** opens automatically.
+*  In the **Database** step, select the **Use existing database** option to preserve all data collected by SysKit Point. Click **Next** to proceed.
 * In the **Database Configuration** step, click **Next**. A **warning message** will appear about the necessary upgrade for the database. For data protection, **consider backing up the database**. Click **Yes** and continue to the next step.
 
 ![Warning message - necessary database upgrade](../.gitbook/assets/upgrade-syskit-point-to-a-new-version_warning-message-necessary-database-upgrade.png)
