@@ -20,7 +20,7 @@ Since **SysKit Point** is frequently getting new features, we highly recommend h
 
 **To hide the Update message**, **click the x icon** visible on the right side. The message will stay hidden until the next time you log in to SysKit Point.
 
-## Upgrading to a new version
+## Upgrading to the Latest Version
 
 After you downloaded the newest version of the application, follow these steps for a successful upgrade:
 
