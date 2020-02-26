@@ -22,7 +22,7 @@ Since **SysKit Point** is frequently getting new features, we highly recommend h
 
 ## Upgrading to the Latest Version
 
-After you downloaded the newest version of the application, follow these steps for a successful upgrade:
+After you downloaded the newest version of the application, follow these steps to upgrade SysKit Point:
 
 *  Unpack and run the setup file - **SysKitPointSetup.exe** on the same server where previous version was installed.
 * The wizard will require to uninstall the previous version of SysKit Point. 
