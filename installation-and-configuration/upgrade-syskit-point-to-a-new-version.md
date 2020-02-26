@@ -1,14 +1,14 @@
 ---
 description: >-
-  This article explains how to upgrade SysKit Point application with the newest
-  version available.
+  This article explains how to upgrade SysKit Point to the latest version
+  available.
 ---
 
 # Upgrade SysKit Point
 
-Here at **SysKit**, we are regularly improving our applications with useful new features. We highly recommend having the latest version available installed to use its maximum potential. 
+Since **SysKit Point** is frequently getting new features, we highly recommend having the latest available version installed, to use its maximum potential. 
 
-## Checking for version updates
+## Checking for Version Updates
 
 Every user that holds **SysKit Point Admins role** and opens the application will **receive a popup message** at the bottom of the screen that a **new update is available**.
 
