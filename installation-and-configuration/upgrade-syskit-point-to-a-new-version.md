@@ -22,12 +22,12 @@ Since **SysKit Point** is frequently getting new features, we highly recommend h
 
 ## Upgrading to the Latest Version
 
-After you downloaded the newest version of the application, follow these steps to upgrade SysKit Point:
+After you download the newest version of the application, follow these steps to upgrade SysKit Point:
 
-*  Unpack and run the setup file - **SysKitPointSetup.exe** on the same server where previous version was installed.
-* The wizard will require to uninstall the previous version of SysKit Point. 
+* **Unpack the previously downloaded .zip file and run the SysKitPointSetup.exe setup** file on the server where SysKit Point is installed. 
+* The installation wizard will require to uninstall the previous version of SysKit Point. Click **Next** to continue. 
 
-![Previous version uninstallation message ](../.gitbook/assets/upgrade-syskit-point-to-a-new-version_previous-version-uninstallation%20%281%29.png)
+![Installation wizard - Previous Version Uninstallation message ](../.gitbook/assets/upgrade-syskit-point-to-a-new-version_previous-version-uninstallation%20%281%29.png)
 
 * Follow the wizard through the installation steps. For more information click [here](install-syskit-point.md).
 * After completing the installation, the **Configuration Wizard** will open by default.
