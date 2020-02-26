@@ -87,9 +87,9 @@ Click the **Connect to your tenant** link to connect SysKit Point to your Office
 
 When you first connect to your tenant, SysKit Point will request permissions needed to collect data from your Office 365 environment.
 
-![](../.gitbook/assets/permission_requirements_global_administrator_consent.png)
+![Office 365 Global Admin Consent](../.gitbook/assets/permission_requirements_global_administrator_consent%20%283%29.png)
 
-To continue, click the **Accept** button. A new window opens where you can choose which information would you like to collect when it comes to your Office 365 environment:
+To continue, check the **Consent on behalf of your organization** **option \(1\)**, and click the **Accept** **button \(2\)**. A new window opens where you can choose which information would you like to collect when it comes to your Office 365 environment:
 
 * **Automatic Discovery** – by default, SysKit Point continuously monitors your Office 365 environment and shows you the latest data. SharePoint Online sites and Office 365 Groups data will always be monitored. This setting cannot be modified.
 * **OneDrive** - by default, SysKit Point will collect information and report on user OneDrive activity, content and sharing. To stop collecting OneDrive data, uncheck this option.
