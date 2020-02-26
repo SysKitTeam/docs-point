@@ -20,10 +20,6 @@ Since **SysKit Point** is frequently getting new features, we highly recommend h
 
 **To hide the Update message**, **click the x icon** visible on the right side. The message will stay hidden until the next time you log in to SysKit Point.
 
-{% hint style="info" %}
-**Hint!                                                                                                                                                         About** section in the **Settings** screen contains **Check for updates** link inside Point version tile. When you click on it, it will show you if there are new versions available to download. **If you possess the latest version**, it will write an **Already up to date** message.
-{% endhint %}
-
 ## Upgrading to a new version
 
 After you downloaded the newest version of the application, follow these steps for a successful upgrade:
