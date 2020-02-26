@@ -8,7 +8,7 @@ description: >-
 
 Since **SysKit Point** is frequently getting new features, we highly recommend having the latest available version installed, to use its maximum potential. 
 
-## Checking for Version Updates
+## Checking for Updates
 
 Every user that holds **SysKit Point Admins role** and opens the application will **receive a popup message** at the bottom of the screen that a **new update is available**.
 
