@@ -16,11 +16,9 @@ Since **SysKit Point** is frequently getting new features, we highly recommend h
 
 The **Read What's New** link opens a new tab in your browser at the [Product Updates](../product-updates/) section in SysKit Point documentation, where you can find out about new features, improvements, and bug fixes by each product version.
 
-Clicking on **Download Latest Version** link will redirect you to our [Customers Portal](https://my.syskit.com/) page if you have a valid license. From here, you can download the latest version available.
+**If you activated SysKit Point**, clicking the **Download Latest Version** link will redirect you to the [Customers Portal](https://my.syskit.com/) page. From there, you can download the latest SysKit Point version available. In case you are using a **trial version** of SysKit Point, the same link will redirect you to the **SysKit Point web download page**.
 
-In case you are using a **trial version** of the application, a link **will redirect you** to the **SysKit Point web download page**.
-
-If you **don't want to see** a popup **message** about the **new updates** anymore, close the message. Until you log out from the application or close the browser popup won't be shown again.
+**To hide the Update message**, **click the x icon** visible on the right side. The message will stay hidden until the next time you log in to SysKit Point.
 
 {% hint style="info" %}
 **Hint!                                                                                                                                                         About** section in the **Settings** screen contains **Check for updates** link inside Point version tile. When you click on it, it will show you if there are new versions available to download. **If you possess the latest version**, it will write an **Already up to date** message.
