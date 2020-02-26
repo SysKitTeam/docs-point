@@ -41,3 +41,8 @@ Since **SysKit Point** is frequently getting new features, we highly recommend h
 * On the **Web Application Settings** step, click the **Next** button. 
 * On the **Finish** step, wait until all the checks are done and click the **Finish** button to open the SysKit Point web application in your browser.
 
+{% hint style="info" %}
+**Hint!**  
+Use the [What's new](https://www.syskit.com/products/point/whats-new/) page as an additional source of information on new features available in the latest version of SysKit Point.
+{% endhint %}
+
