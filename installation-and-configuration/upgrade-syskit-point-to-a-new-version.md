@@ -31,13 +31,13 @@ Since **SysKit Point** is frequently getting new features, we highly recommend h
 
 * Follow the wizard through the installation steps. All installation steps are described [here](install-syskit-point.md).
 * After the installation is completed, the **Configuration Wizard** opens automatically.
-*  In the **Database** step, select the **Use existing database** option to preserve all data collected by SysKit Point. Click **Next** to proceed.
-* In the **Database Configuration** step, click **Next**. A **warning message** is displayed. Before you continue, **consider backing up the database** to ensure no data is lost in an unlikely event of an upgrade failure. Click **Yes** to continue.
+*  On the **Database** step, select the **Use existing database** option to preserve all data collected by SysKit Point. Click **Next** to proceed.
+* On the **Database Configuration** step, click **Next**. A **warning message** is displayed. Before you continue, **consider backing up the database** to ensure no data is lost in an unlikely event of an upgrade failure. Click **Yes** to continue.
 
 ![Configuration Wizard - Upgrade Database Warning](../.gitbook/assets/upgrade-syskit-point-to-a-new-version_warning-message-necessary-database-upgrade.png)
 
-* In the Service Settings step, enter your **service account** and validate it. Click **Next**.
-* In **Connect to Office 365** step, you can see that your **tenant is already connected** with the application. Proceed to the next step.
-* In **Web Application Settings** step, click the **Next** button. 
-* In the **Finish** step, wait until all the checks are done and click the **Finish** button to open the SysKit Point web application in your browser.
+* On the **Service Settings** step, enter your **service account** and validate it. Click **Next**.
+* On the **Connect to Office 365** step, you can see that your **tenant is already connected** with the application. Proceed to the next step.
+* On the **Web Application Settings** step, click the **Next** button. 
+* On the **Finish** step, wait until all the checks are done and click the **Finish** button to open the SysKit Point web application in your browser.
 
