@@ -14,7 +14,7 @@ Since **SysKit Point** is frequently getting new features, we highly recommend h
 
 ![Home screen - The New Update Available message](../.gitbook/assets/upgrade-syskit-point-to-a-new-version_new-update-available-message.png)
 
-Link **Read What's New** will open a new tab in your browser at the [Product Updates](../product-updates/) section in SysKit Point documentation where you can find out about new features, improvements, and bug fixes by each product version.
+The **Read What's New** link opens a new tab in your browser at the [Product Updates](../product-updates/) section in SysKit Point documentation, where you can find out about new features, improvements, and bug fixes by each product version.
 
 Clicking on **Download Latest Version** link will redirect you to our [Customers Portal](https://my.syskit.com/) page if you have a valid license. From here, you can download the latest version available.
 
