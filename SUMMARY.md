@@ -24,6 +24,7 @@
 * [Common Tasks](common-tasks/README.md)
   * [Check Access for Specific Office 365 User](common-tasks/check-access-for-specific-user.md)
   * [Identify Inactive Content](common-tasks/inactive-content.md)
+  * [Enable Microsoft Teams Activity Tracking](common-tasks/microsoft-teams-activity.md)
   * [Track Office 365 External Users and Their Activities](common-tasks/track-external-users-and-their-activities.md)
   * [View Permission Changes in Office 365](common-tasks/view-permission-changes.md)
   * [Supervise Microsoft Teams Private Channels](common-tasks/supervise-microsoft-teams-private-channels.md)
