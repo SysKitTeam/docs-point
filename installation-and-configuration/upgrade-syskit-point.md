@@ -12,7 +12,7 @@ Since **SysKit Point** is frequently getting new features, we highly recommend h
 
 **SysKit Point automatically checks for updates** every day, outside of working hours. **In case a new update is available, every SysKit Point user** **receives a popup message** at the bottom of the Home screen when they open the web application. 
 
-![](../.gitbook/assets/upgrade-syskit-point_new-update-available%20%282%29.png)
+![](../.gitbook/assets/upgrade-syskit-point_new-update-available%20%281%29.png)
 
 The **Read What's New** **link \(1\)** opens a new tab in your browser at the [Product Updates](../product-updates/) section in SysKit Point documentation, where you can find out about new features, improvements, and bug fixes by each product version.
 
