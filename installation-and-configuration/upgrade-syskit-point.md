@@ -34,7 +34,7 @@ Since **SysKit Point** is frequently getting new features, we highly recommend h
 *  On the **Database** step, select the **Use existing database** option to preserve all data collected by SysKit Point. Click **Next** to proceed.
 * On the **Database Configuration** step, click **Next**. A **warning message** is displayed. Before you continue, **consider backing up the database** to ensure no data is lost in an unlikely event of an upgrade failure. Click **Yes** to continue.
 
-![Configuration Wizard - Upgrade Database Warning](../.gitbook/assets/upgrade-syskit-point-to-a-new-version_warning-message-necessary-database-upgrade.png)
+![Configuration Wizard - Database upgrade warning](../.gitbook/assets/upgrade-syskit-point_database-upgrade.png)
 
 * On the **Service Settings** step, enter your **service account** and validate it. Click **Next**.
 * On the **Connect to Office 365** step, you can see that your **tenant is already connected** with the application. Proceed to the next step.
