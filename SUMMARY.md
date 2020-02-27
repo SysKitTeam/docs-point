@@ -11,7 +11,7 @@
 * [Installation & Configuration](installation-and-configuration/README.md)
   * [Install SysKit Point](installation-and-configuration/install-syskit-point.md)
   * [Configure SysKit Point](installation-and-configuration/configure-syskit-point.md)
-  * [Upgrade SysKit Point](installation-and-configuration/upgrade-syskit-point-to-a-new-version.md)
+  * [Upgrade SysKit Point](installation-and-configuration/upgrade-syskit-point.md)
   * [Enable Role-Based Access](installation-and-configuration/enable-role-based-access.md)
   * [Customize Audit Logs Collection](installation-and-configuration/customize-audit-logs-collection.md)
 * [Activation](activation/README.md)
