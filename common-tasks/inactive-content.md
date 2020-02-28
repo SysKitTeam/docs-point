@@ -40,7 +40,7 @@ There are several places where you can find activity information in **SysKit Poi
 
 When you open the Sites Overview screen from the **Welcome Home** screen, click the **Column** **Chooser** and mark the **Activity** column to show it in the grid.
 
-![Sites Overview screen - Activity column](../.gitbook/assets/inactive-content_sites-overview-screen-activity-column.png)
+![Sites Overview screen - Activity column](../.gitbook/assets/inactive-content_sites-overview-screen-activity-column%20%281%29.png)
 
 You can see the **blue info icon** in the Activity column header.
 
@@ -81,9 +81,9 @@ The easiest way to **find all inactive content** is by using the **Inactive Cont
 
 ![Inactive Content report - Options screen](../.gitbook/assets/inactive-content_inactive-content-report-options-screen.png)
 
-Click the **Run Report** button to generate the Inactive Content report. On the report, there are four columns in the grid - the **Name** column which you can **click to open the** **Details** **screen**, and **three activity columns** for **SharePoint**, **Exchange**, and **Yammer**. Two additional columns, **Type** and **Primary** **Admin**, can be added from the **Column Chooser**.
+Click the **Run Report** button to generate the Inactive Content report. On the report, there are four columns in the grid - the **Name** column which you can **click to open the** **Details** **screen**, and **three activity columns** for **SharePoint**, **Exchange**, **Teams**, and **Yammer**. Two additional columns, **Type** and **Primary** **Admin**, can be added from the **Column Chooser**.
 
-![Inactive Content report - Column Chooser](../.gitbook/assets/inactive-content_inactive-content-report.png)
+![Inactive Content report - Column Chooser](../.gitbook/assets/inactive-content_inactive-content-report-column-chooser.png)
 
 Notice the **blue info icon** next to the Activity columns. **Hovering above the icons displays a** **tooltip** with information on how the last activity date was determined.
 
