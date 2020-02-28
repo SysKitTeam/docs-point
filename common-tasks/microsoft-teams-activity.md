@@ -17,9 +17,10 @@ To learn more about Protected APIs in Microsoft Teams, read the [following artic
 
 ### Sending the Access Request Form
 
-**After you log in to SysKit Point** with a SysKit Point Admin account, you’ll **receive a message** on the bottom of the Home screen, notifying you about the **newly available feature**. Click the **Configure Now** link to proceed with the initial configuration.
+**After you log in to SysKit Point** with a SysKit Point Admin account, you’ll **receive a message** on the bottom of the Home screen, notifying you about the **newly available feature**.   
+Click the **Configure Now** link to proceed with the initial configuration.
 
 ![Home Screen - Detect Inactive Teams message](../.gitbook/assets/teams_activity-admin_message%20%281%29.png)
 
-
+The **Settings** &gt; **Governance** &gt; **Content Lifecycle** **settings page** opens. Here, you can find the current **Status** **\(1\)** information, the **Show Information button \(2\)** which will give you all data necessary to successfully fill the Microsoft Access Request form, and the **Fill Microsoft Request button \(3\)** that opens the before mentioned Microsoft Access Request form.
 
