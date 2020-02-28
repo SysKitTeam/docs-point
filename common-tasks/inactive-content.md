@@ -56,7 +56,7 @@ Hover over circle icons for each row to get more information about the **activit
 
 There is also a separate **Inactive Sites view** available, which can be accessed from the View drop-down menu. By selecting it, the Activity column becomes visible in the grid.
 
-![Sites Overview Screen - Inactive Sites view](../.gitbook/assets/inactive-content_inactive-sites-view.png)
+![Sites Overview Screen - Inactive Sites view](../.gitbook/assets/inactive-content_inactive-sites-view%20%281%29.png)
 
 Microsoft Teams & Groups Overview Screen
 
