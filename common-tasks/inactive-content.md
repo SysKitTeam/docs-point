@@ -44,7 +44,7 @@ When you open the Sites Overview screen from the **Welcome Home** screen, click 
 
 You can see the **blue info icon** in the Activity column header.
 
-![Activity column tooltip](../.gitbook/assets/inactive-content_activity-column-tooltip.png)
+![Activity column tooltip](../.gitbook/assets/inactive-content_activity-column-tooltip%20%281%29.png)
 
 When you **hover over the info icon**, you will see which workloads are included in the evaluation of the activity for Sites, Microsoft Teams, Office 365 Groups, and OneDrive sites. There is also information for which period \(number of days\) was the activity assessment made. In the grid, you have a **column filter** to help you see just the active or the inactive content.
 
