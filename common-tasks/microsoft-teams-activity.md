@@ -19,6 +19,8 @@ To learn more about Protected APIs in Microsoft Teams, read the [following artic
 
 **After you log in to SysKit Point** with a SysKit Point Admin account, you’ll **receive a message** on the bottom of the Home screen, notifying you about the **newly available feature**. Click the **Configure Now** link to proceed with the initial configuration.
 
+![Home Screen - Detect Inactive Teams message](../.gitbook/assets/teams_activity-admin_message.png)
+
   
 
 
