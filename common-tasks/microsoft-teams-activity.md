@@ -38,3 +38,5 @@ Click the **Show Information button**. A dialog is displayed giving you all info
 
 ![Prepared information in SysKit Point &amp; Access Request Form](../.gitbook/assets/teams_activity-information-and-form.png)
 
+
+
