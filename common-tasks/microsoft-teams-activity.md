@@ -24,3 +24,5 @@ Click the **Configure Now** link to proceed with the initial configuration.
 
 The **Settings** &gt; **Governance** &gt; **Content Lifecycle** **settings page** opens. Here, you can find the current **Status** **\(1\)** information, the **Show Information button \(2\)** which will give you all data necessary to successfully fill the Microsoft Access Request form, and the **Fill Microsoft Request button \(3\)** that opens the before mentioned Microsoft Access Request form.
 
+![SysKit Point Settings - Content Lifecycle page](../.gitbook/assets/teams_activity-settings.png)
+
