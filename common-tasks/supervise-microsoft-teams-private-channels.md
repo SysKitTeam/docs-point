@@ -70,7 +70,7 @@ Now only the sites of Private Channels will be visible on Site Overview screen, 
 
 Selecting any of those will redirect you to Private Channel **site details page** from where you can see how many **Users** and **External Users** have **permissions** in it, **shared files** and **all analytics** we provide for all other types of **Sites**. You will also be able to **Generate** multiple **reports** for that site, and perform multiple **actions** on it \(**Remove Access**, **Edit Permissions**, **Delete SharePoint Group**, **Remove Users from Group**\).
 
-![SysKit Point Private Channel site details screen](../.gitbook/assets/pc-clanak-5.png)
+![SysKit Point Private Channel site details screen](../.gitbook/assets/pc-clanak-5%20%281%29.png)
 
 #### Managing Private channels via Microsoft Teams & Groups screen
 

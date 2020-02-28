@@ -19,11 +19,11 @@ Regardless of your selection to store or not to store them, audit logs are **reg
 
 Audit log settings can also be configured after the initial configuration of **SysKit Point**. To do so, open the **Settings** screen, and navigate to the **Audit** &gt; **Audit Logs** page. Here, you can turn the storage of Audit Logs on or off, as well as configure the **Audit Index storage location**. The information about **Index** **Size** and the **number** **of** **events** in the Audit Index is provided here too.
 
-![Audit Logs page \(1\) in Settings - Store Audit Logs option \(2\), Audit Index storage location \(3\), and link to manage Audit activities that are collected \(4\) ](../.gitbook/assets/customize_audit_logs_collection_settings_audit_logs_options.png)
+![Audit Logs page \(1\) in Settings - Store Audit Logs option \(2\), Audit Index storage location \(3\), and link to manage Audit activities that are collected \(4\)](../.gitbook/assets/audit-logs-activities-2.png)
 
 Audit logs activities that are being collected can be found by clicking the **Select activities to collect** link.
 
-![Select activities to collect screen](../.gitbook/assets/customize_audit_logs_collection_select_activities_to_collect.png)
+![Select Activities to collect screen](../.gitbook/assets/audit-logs-activities-1.png)
 
 In the new window, all categories and activities are shown:
 
