@@ -28,9 +28,9 @@ The collection of **Yammer activity** is also accomplished through Microsoft 365
 
 ## Define What Is Inactive
 
-You can **configure what is considered to be inactive** in SysKit Point by changing the number of inactive days, after which workloads will be marked as inactive. To do so, open the **Settings** page from any screen within the application, go to the **General Settings** screen where you will find the **Unused Content** section. **Enter the number of days** in the field and click the **Save** button to update the value. The number of days can be set to a value between 30 and 180.
+You can **configure what is considered to be inactive** in SysKit Point by changing the number of inactive days, after which workloads will be marked as inactive. To do so, open the **Settings** page from any screen within the application, go to the **Governance &gt; Content Lifecycle** screen where you will find the **Inactive Content** section. **Enter the number of days** in the field and click the **Save** button to update the value. The number of days can be set to a value between 30 and 180.
 
-![General Settings - Unused Content section](../.gitbook/assets/inactive-content_unused-content-section.png)
+![Settings - Governance screen - Inactive Content section](../.gitbook/assets/inactive-content_settings_governance-screeninactive-content-section.png)
 
 ## View Inactive Content in SysKit Point
 
