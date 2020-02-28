@@ -15,7 +15,7 @@ SysKit Point does not read or store Microsoft Teams' chat messages** while colle
 
 To learn more about Protected APIs in Microsoft Teams, read the [following article](https://docs.microsoft.com/en-us/graph/teams-protected-apis).
 
-### Sending the Access Request Form
+## Sending the Access Request Form
 
 **After you log in to SysKit Point** with a SysKit Point Admin account, you’ll **receive a message** on the bottom of the Home screen, notifying you about the **newly available feature**.   
 Click the **Configure Now** link to proceed with the initial configuration.
@@ -38,5 +38,10 @@ Click the **Show Information button**. A dialog is displayed giving you all info
 
 ![Prepared information in SysKit Point &amp; Access Request Form](../.gitbook/assets/teams_activity-information-and-form%20%283%29.png)
 
+{% hint style="warning" %}
+**Please note!**  
+It may take up to 10 days for Microsoft to review your request.
+{% endhint %}
 
+## Getting Access to Protected APIs
 
