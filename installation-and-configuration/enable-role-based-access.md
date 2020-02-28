@@ -47,11 +47,11 @@ When User is assigned to **SysKit Point Global Viewer** role, they are able to l
 
 To assign a User to a **SysKit Point Global Viewer** role, **enable** the **toggle**\(1\) **\*\*next to it. Click on the '**Assign to role\*\*' button, type in the name of the desired user and select it\(2\) and then click save\(3\).
 
-![SysKit Point Settings screen - Manage Access page - Assigning user to SysKit Point Global Viewer](../.gitbook/assets/rbs-clanak-4.png)
+![SysKit Point Settings screen - Manage Access page - Assigning user to SysKit Point Global Viewer](../.gitbook/assets/rbs-clanak-4%20%282%29.png)
 
 Each role on **Manage Access** has its user number label. It shows us how many users are currently occupying SysKit Point roles.
 
-![SysKit Point Settings screen - Manage Access page - Number of users in SysKit Point Roles](../.gitbook/assets/rbs-clanak-5.png)
+![SysKit Point Settings screen - Manage Access page - Number of users in SysKit Point Roles](../.gitbook/assets/rbs-clanak-5%20%282%29.png)
 
 Clicking on each of those labels will redirect us to the **report** of the corresponding role. The report will show us **exact** users **occupying** that role. On the role reports, you can also **assign** new users to that role, **export** the report into **PDF** and **XLSX** and also **remove** users from said roles.
 
@@ -81,7 +81,7 @@ You will be redirected to **SysKit Point Settings screen - Manage access**.
 
 With **Enterprise** plan you have three available options for accessing SysKit Point. **SysKit Point Admins**\(1\), **SysKit Point Global Viewers**\(2\) and **SysKit Point Collaborators**\(3\) of which the latter ones are disabled by default.
 
-![SysKit Point Settings screen - Manage Access page Enterprise lincese](../.gitbook/assets/rbs-clanak-8.png)
+![SysKit Point Settings screen - Manage Access page Enterprise lincese](../.gitbook/assets/rbs-clanak-8%20%281%29.png)
 
 If you have activated **SysKit Point** with **Enterprise** license it will automatically add two **Office 365** administration roles \(**Company Administrator** and **SharePoint Service Administrator**\) as **SysKit Point Admins**. So any user on your **Office 365 environment** that has that role will **automatically** have **full access** to **SysKit Point**.
 
