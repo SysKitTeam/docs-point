@@ -6,7 +6,7 @@ description: >-
 
 # Enable Microsoft Teams Activity Tracking
 
-**SysKit Point** gives you the posibility to **discover which of your Microsoft Teams are not being actively used**. In order to collect necessary data, first, SysKit Point Admin has to **send an request to access Protected APIs in Microsoft Teams**.  Protected APIs make it posible for SysKit Point to **detect inactive Microsoft Teams based on the date of the last message.**  
+**SysKit Point** gives you the possibility to **discover which of your Microsoft Teams are not being actively used**. To collect necessary data, first, SysKit Point Admin has to **send a request to access Protected APIs in Microsoft Teams**.  Protected APIs make it possible for SysKit Point to **detect inactive Microsoft Teams based on the date of the last message.**  
 
 {% hint style="warning" %}
 **Please note!  
