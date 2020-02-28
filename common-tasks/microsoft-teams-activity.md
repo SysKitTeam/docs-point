@@ -26,3 +26,11 @@ The **Settings** &gt; **Governance** &gt; **Content Lifecycle** **settings page*
 
 ![SysKit Point Settings - Content Lifecycle page](../.gitbook/assets/teams_activity-settings.png)
 
+In case the Access Request was not yet approved, the following status is displayed:   
+`Approval From Microsoft Needed`
+
+{% hint style="warning" %}
+**Please note!**  
+The status will not change after you fill in the Access request form; it will change automatically after the Access Request is approved.
+{% endhint %}
+
