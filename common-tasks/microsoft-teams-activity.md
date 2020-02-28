@@ -51,5 +51,5 @@ Once the access to Microsoft Teams protected APIs has been approved, you will re
 
 **From now onward**, when SysKit Point collects activity data, **Microsoft Teams activity data will also be collected**. This happens **every day after working hours**, in order to reduce the load on your Office 365 environment. You will also notice that the **Detect inactive Teams message is no longer visible** after you log in to SysKit Point with a SysKit Point Admin account. On the **Settings** &gt; **Governance** &gt; **Content Lifecycle** screen, the **Microsoft Teams status is now set to Detecting Activity**.
 
-![](../.gitbook/assets/teams_activity-detecting_activity.png)
+![Microsoft Teams - Detecting Activity status](../.gitbook/assets/teams_activity-detecting_activity%20%281%29.png)
 
