@@ -68,7 +68,7 @@ Details Screen
 
 You can **access** **Details** **screens** for Sites, Office 365 Groups, and Microsoft Teams by **clicking the link in the Name column** on **Overview** screens. The activity information inside Details screens is shown in the **Analytics and Usage** tile. Hover over the **blue info icon** to see for which workloads are the activities tracked.
 
-![Details screen - Analytics and Usage tile - Activity section](../.gitbook/assets/inactive-content_analytics-and-usage-tile-activity-section.png)
+![Details screen - Analytics and Usage tile - Activity section](../.gitbook/assets/inactive-content_analytics-and-usage-tile-activity-section%20%281%29.png)
 
 {% hint style="warning" %}
 **Please note!**  
