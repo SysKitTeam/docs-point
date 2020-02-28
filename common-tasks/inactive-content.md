@@ -40,7 +40,7 @@ Sites Overview Screen
 
 When you open the Sites Overview screen from the **Welcome Home** screen, click the **Column** **Chooser** and mark the **Activity** column to show it in the grid.
 
-![Sites Overview screen - Activity column](../.gitbook/assets/inactive-content_sites-overview-screen-activity-column%20%281%29.png)
+![Sites Overview screen - Activity column](../.gitbook/assets/inactive-content_sites-overview-screen-activity-column%20%282%29.png)
 
 You can see the **blue info icon** in the Activity column header.
 
@@ -87,7 +87,7 @@ Click the **Run Report** button to generate the Inactive Content report. On the 
 
 Notice the **blue info icon** next to the Activity columns. **Hovering above the icons displays a** **tooltip** with information on how the last activity date was determined.
 
-![Inactive Content report - Activity column tooltip](../.gitbook/assets/inactive-content_inactive-content-report-activity-tooltip.png)
+![Inactive Content report - Activity column tooltip](../.gitbook/assets/inactive-content_inactive-content-report-activity-tooltip%20%281%29.png)
 
 A **grey circle** icon represents an existing **workload with no activity. Hovering** **over** it will show the information since when SysKit Point monitors the activity.
 
