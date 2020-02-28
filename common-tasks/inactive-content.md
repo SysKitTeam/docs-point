@@ -10,7 +10,7 @@ Have you ever wondered how to discover all inactive content in your Office 365 e
 
 ## Monitored Workloads
 
-To decide whether something is inactive in your Office 365 environment, we are collecting activity data for the following workloads: **SharePoint**, **Exchange**, and **Yammer**, with **Teams workload coming soon**.
+To decide whether something is inactive in your Office 365 environment, we are collecting activity data for the following workloads: **SharePoint**, **Exchange**, **Yammer**, and **Teams**.
 
 **SharePoint activity** is collected via Office 365 audit logs. The last activity is based on the latest date when a file was viewed, edited, or downloaded.
 
@@ -18,7 +18,9 @@ For the collection of **Exchange activity**, SysKit Point uses Office 365 groups
 
 The collection of **Yammer activity** is also accomplished through Microsoft 365 admin center usage report but for Yammer groups activity. The **last activity is based on the latest date a message was read, posted, or liked** by the group.
 
-**Data for Exchange and Yammer activities is collected by SysKit Point's dedicated service within non-working hours**, between 7:00 PM and 7:00 AM.
+**Teams activity** is collected using protected APIs in Microsoft Graph. The **last activity is based on the latest date when a message was posted or replied**.
+
+**Data for Exchange, Yammer, and Teams activities are collected by SysKit Point's dedicated service within non-working hours**, between 7:00 PM and 7:00 AM.
 
 {% hint style="warning" %}
 **Please note!                                                                                                                                       Activity is being monitored from Syskit Point installation onward!** This applies to SharePoint and Exchange workloads since historical data for these workloads is not available in usage reports.
