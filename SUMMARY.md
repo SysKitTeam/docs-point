@@ -2,6 +2,7 @@
 
 * [SysKit Point](README.md)
 * [Product Updates](product-updates/README.md)
+  * [SysKit Point 12.1](product-updates/point-12-1-release-note.md)
   * [SysKit Point 12](product-updates/point-12-release-note.md)
   * [SysKit Point 11](product-updates/point-11-release-note.md)
   * [SysKit Point 10](product-updates/point-10-release-note.md)
