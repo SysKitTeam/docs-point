@@ -98,7 +98,7 @@ The following permissions are required for SysKit Point Enterprise Application:
 | :--- | :--- | :--- |
 | Access Azure Service Management as organization users | Delegated | Allows SysKit Point to create an additional application in your tenant for safer data access. |
 
-To allow safer access to your audit log data and to use Microsoft Authentication for signing in your users to SysKit Point, an additional app registration will be created in your tenant with the following required permissions:
+To allow safer access to your audit log data and to use Microsoft Authentication for signing in your users to SysKit Point, an additional \_\*\*\_app registration will be created in your tenant with the following required permissions:
 
 #### Microsoft Graph
 
