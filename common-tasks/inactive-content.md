@@ -5,8 +5,8 @@ description: This section describes how to find inactive content within SysKit P
 # Identify Inactive Content
 
 Have you ever wondered how to discover all inactive content in your Office 365 environment?  
-                                                                                                                                                                                           It is important to have this kind of information because you want a well-organized and clutter-free Office 365 environment.  
-                                                                                                                                                                                       Now, you can find it all in one place with the help of **SysKit Point**.
+It is important to have this kind of information because you want a well-organized and clutter-free Office 365 environment.  
+Now, you can find it all in one place with the help of **SysKit Point**.
 
 ## Monitored Workloads
 
@@ -23,7 +23,7 @@ The collection of **Yammer activity** is also accomplished through Microsoft 365
 **Data for Exchange, Yammer, and Teams activities are collected by SysKit Point's dedicated service within non-working hours**, between 7:00 PM and 7:00 AM.
 
 {% hint style="warning" %}
-**Please note!                                                                                                                                       Activity is being monitored from Syskit Point installation onward!** This applies to SharePoint and Exchange workloads since historical data for these workloads is not available in usage reports.
+**Please note! Activity is being monitored from Syskit Point installation onward!** This applies to SharePoint and Exchange workloads since historical data for these workloads is not available in usage reports.
 {% endhint %}
 
 ## Define What Is Inactive
@@ -40,7 +40,7 @@ There are several places where you can find activity information in **SysKit Poi
 
 When you open the Sites Overview screen from the **Welcome Home** screen, click the **Column** **Chooser** and mark the **Activity** column to show it in the grid.
 
-![Sites Overview screen - Activity column](../.gitbook/assets/inactive-content_sites-overview-screen-activity-column%20%281%29.png)
+![Sites Overview screen - Activity column](../.gitbook/assets/inactive-content_sites-overview-screen-activity-column-1.png)
 
 You can see the **blue info icon** in the Activity column header.
 
@@ -51,7 +51,7 @@ When you **hover over the info icon**, you will see which workloads are included
 Hover over circle icons for each row to get more information about the **activity**. The **circle is colored gray** if there **was no activity since the application started collecting the activity data**. If the **circle is colored** **green**, the **content is** **active**. The date of the last activity is displayed on hover.
 
 {% hint style="info" %}
-**Hint!**                                                                                                                                                               If more than one workload was active, then the latest date among all workloads will be shown here.
+**Hint!** If more than one workload was active, then the latest date among all workloads will be shown here.
 {% endhint %}
 
 There is also a separate **Inactive Sites view** available, which can be accessed from the View drop-down menu. By selecting it, the Activity column becomes visible in the grid.
@@ -62,7 +62,7 @@ There is also a separate **Inactive Sites view** available, which can be accesse
 
 The **Microsoft Team & Groups Overview screen** has a similar representation of workload activity for Microsoft Teams and Office 365 groups as the Sites Overview screen. The **Activity column is**, **by default**, **shown** as the last column in the grid. The same rules of displaying the activity data are applied here, as explained for the Sites Overview screen. Additionally, here you can find a separate **Inactive** tile above the grid. By clicking the tile, the **Inactive Groups** view is shown.
 
-![Inactive Content tile](../.gitbook/assets/inactive-content_inactive-content-tile%20%281%29.png)
+![Inactive Content tile](../.gitbook/assets/inactive-content_inactive-content-tile-1.png)
 
 ### Details Screen
 

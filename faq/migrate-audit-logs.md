@@ -30,7 +30,7 @@ Open the Task Manager on the machine where SysKit Security Manager is installed.
 
 Find the Audit Index location used by SysKit Security Manager to store Audit logs data. By default, this is set to **C:\ProgramData\SysKit\Security Manager\AuditIndex**. If unsure, you can find the Audit logs location path in SysKit Security Manager by navigating to **Settings** &gt; **Audit** &gt; **Audit Logs**.
 
-![SysKit Security Manager - Audit logs location](../.gitbook/assets/migrate-audit-logs_ssm-audit-logs-location%20%281%29.png)
+![SysKit Security Manager - Audit logs location](https://github.com/SysKitTeam/docs-point/tree/07af9eafd0da689b98110559157c47dcb4ce8d3c/.gitbook/assets/migrate-audit-logs_ssm-audit-logs-location%20%281%29.png)
 
 Once located, **copy the AuditIndex folder** to a safe temporary location or a thumb drive in case SysKit Point is installed on another machine.
 
