@@ -4,7 +4,7 @@ description: This article guides you through the SysKit Point installation.
 
 # Install SysKit Point
 
-**SysKit Point** is a desktop application with a web-based interface, meaning that you need to install it on a Windows machine or server in your environment.
+**SysKit Point** is a **web application** that can be installed on a Windows machine or server in your environment.
 
 {% hint style="warning" %}
 Check the exact [hardware and software requirements here](../requirements/system-requirements.md).
@@ -14,7 +14,7 @@ After installation, you can access the SysKit Point interface from any supported
 
 ## Installation Steps
 
-1. [Download the SysKit Point setup file.](https://www.syskit.com/products/point/download/)
+1. [Download the SysKit Point setup file](https://my.syskit.com/).
 2. Unpack and run the setup file - **SysKitPointSetup.exe**. The wizard will guide you through the installation steps.
 3. Check the **I Accept the terms of the license agreement** option to accept the [EULA](https://www.syskit.com/eula/) and click **Next &gt;** to proceed.
 4. By default, the installation folder is set to **C:\Program Files\SysKit\Point**. You can modify it by clicking the **Change** button. Once selected, click **Next &gt;** to proceed. 
