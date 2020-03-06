@@ -9,9 +9,9 @@ date: 19.11.2019.
 
 # Check Access for Specific Office 365 User
 
-In **Office 365** and **SharePoint**, there are a variety of **permission levels** which allow users to **access** the resources they need. They tend to group actions and define what users can and can't see within your environment.
+In **Office 365** and **SharePoint**, there are a variety of **permission levels** that allow users to **access** the resources they need. They tend to group actions and define what users can and can't see within your environment.
 
-If you, as an administrator, try to check where does the user have access to in your environment, you would have to go through every site collection and check for a specific user.
+If you, as an administrator, try to check where does the user has access to in your environment, you would have to go through every site collection and check for a specific user.
 
 However, if you use **SysKit Point** it allows you to reach this collected data for a specific user's access in a single report.
 
@@ -19,7 +19,7 @@ Here's how you can do it.
 
 ## Generate User Access from Report Center
 
-From the **Welcome Home screen**, you can either click on Reports tile, or directly to **User Access** report.
+From the **Welcome Home screen**, you can either click on Reports tile or directly to **User Access** report.
 
 ![SysKit Point - Welcome Home screen](../.gitbook/assets/check-access-for-specific-office-365-user_welcome-home-screen.png)
 
@@ -67,7 +67,7 @@ After you've made a selection, click on **Run Report**, it will generate User Ac
 
 When report is generated, if you focus on the right side of the screen you will see the **side panel**.
 
-If you haven't selected anything on the report, there will be option to **Export** your report.
+If you haven't selected anything in the report, there will be an option to **Export** your report.
 
 You can export the report into **PDF** and **Excel**.
 
