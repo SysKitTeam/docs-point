@@ -81,7 +81,7 @@ You will be redirected to **SysKit Point Settings screen - Manage access**.
 
 With **Enterprise** plan you have three available options for accessing SysKit Point. **SysKit Point Admins** \(1\), **SysKit Point Global Viewers** \(2\) and **SysKit Point Collaborators** \(3\) of which the latter ones are disabled by default.
 
-![SysKit Point Settings screen - Manage Access page Enterprise lincese](../.gitbook/assets/rbs-clanak-8.png)
+![SysKit Point Settings screen - Manage Access page Enterprise license](../.gitbook/assets/rbs-clanak-8.png)
 
 If you have activated **SysKit Point** with **Enterprise** license it will automatically add two **Office 365** administration roles \(**Company Administrator** and **SharePoint Service Administrator**\) as **SysKit Point Admins**. So any user on your **Office 365 environment** that has that role will **automatically** have **full access** to **SysKit Point**.
 
@@ -103,7 +103,7 @@ While **Team** license plan gives you the ability to add **distinct users** only
 
 **SysKit Point Collaborators** role is the specific role made for **SysKit Point** Enterprise license users in which they can enable their **Site admins/Teams owners** access to the **SysKit Point** to easily manage their **sites/teams** while not showing them information they should not see. When it's enabled, **SysKit Point** will **automatically** assign that type of users to **SysKit Point Collaborators** role.
 
-To enable **SysKit Point Collaborators**, when you're located on **Settings screen** - **Manage Access**, enable the **toggle** next to **SysKit Point Collaborators** \(1\) and, you will see that number appears automatically on **Site Owners label**. If you also wish to enable user who have **Full Control** permissions check '**Add users with Full Control**' \(3\) that will also **automatically** add that type of users to the **SysKit Point Collaborators** role. Also if you want to enable those users to login to **SysKit Point** but **do not want** them to be able to **execute actions** check '**Give users read-only access \(disable actions\)**' \(2\). When you're finished, click **Save**.
+To enable **SysKit Point Collaborators**, when you're located on **Settings screen** - **Manage Access**, enable the **toggle** next to **SysKit Point Collaborators** \(1\) and, you will see that number appears automatically on **Site Owners label**. If you also wish to enable user who has **Full Control** permissions check '**Add users with Full Control**' \(3\) that will also **automatically** add that type of users to the **SysKit Point Collaborators** role. Also if you want to enable those users to login to **SysKit Point** but **do not want** them to be able to **execute actions** check '**Give users read-only access \(disable actions\)**' \(2\). When you're finished, click **Save**.
 
 ![SysKit Point Settings screen - Manage Access - SysKit Point Collaborators](../.gitbook/assets/rbs-clanak-11-1.png)
 

@@ -8,7 +8,7 @@ description: >-
 
 Since **SysKit Point** is frequently getting new features, we highly recommend having the latest available version installed, to use its maximum potential.
 
-Checking for Updates
+## Checking for Updates
 
 **SysKit Point automatically checks for updates** every day, outside of working hours. **In case a new update is available, every SysKit Point user** **receives a popup message** at the bottom of the Home screen when they open the web application.
 
@@ -20,7 +20,7 @@ The **Read What's New** **link \(1\)** opens a new tab in your browser at the [P
 
 **To hide the Update message**, **click the Close link \(3\)** visible on the right side. The message will stay hidden until the next time you log in to SysKit Point.
 
-Upgrading to the Latest Version
+## Upgrading to the Latest Version
 
 After you download the newest version of the application, follow these steps to upgrade SysKit Point:
 
