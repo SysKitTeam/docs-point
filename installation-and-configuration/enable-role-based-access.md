@@ -81,7 +81,7 @@ You will be redirected to **SysKit Point Settings screen - Manage access**.
 
 With **Enterprise** plan you have three available options for accessing SysKit Point. **SysKit Point Admins** \(1\), **SysKit Point Global Viewers** \(2\) and **SysKit Point Collaborators** \(3\) of which the latter ones are disabled by default.
 
-![SysKit Point Settings screen - Manage Access page Enterprise lincese](../.gitbook/assets/rbs-clanak-8.png)
+![SysKit Point Settings screen - Manage Access page Enterprise license](../.gitbook/assets/rbs-clanak-8.png)
 
 If you have activated **SysKit Point** with **Enterprise** license it will automatically add two **Office 365** administration roles \(**Company Administrator** and **SharePoint Service Administrator**\) as **SysKit Point Admins**. So any user on your **Office 365 environment** that has that role will **automatically** have **full access** to **SysKit Point**.
 
