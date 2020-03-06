@@ -10,7 +10,7 @@ Now, you can find it all in one place with the help of **SysKit Point**.
 
 ## Monitored Workloads
 
-To decide whether something is inactive in your Office 365 environment, we are collecting activity data for the following workloads: **SharePoint**, **Exchange**, **Yammer**, and **Teams**.
+To decide whether something is inactive in your Office 365 environment, we are collecting activity data for the following workloads: **SharePoint**, **Exchange**, **Yammer**, and **Microsoft Teams**.
 
 **SharePoint activity** is collected via Office 365 audit logs. The last activity is based on the latest date when a file was viewed, edited, or downloaded.
 
@@ -18,12 +18,13 @@ For the collection of **Exchange activity**, SysKit Point uses Office 365 groups
 
 The collection of **Yammer activity** is also accomplished through Microsoft 365 admin center usage report but for Yammer groups activity. The **last activity is based on the latest date a message was read, posted, or liked** by the group.
 
-**Teams activity** is collected using protected APIs in Microsoft Graph. The **last activity is based on the latest date when a message was posted or replied**.
+**Microsoft Teams activity** is collected using protected APIs in Microsoft Graph. The **last activity is based on the latest date when a message was posted or replied**.
 
-**Data for Exchange, Yammer, and Teams activities are collected by SysKit Point's dedicated service within non-working hours**, between 7:00 PM and 7:00 AM.
+**Data for Exchange, Yammer, and Microsoft Teams activities are collected by SysKit Point's dedicated service within non-working hours**, between 7:00 PM and 7:00 AM.
 
 {% hint style="warning" %}
-**Please note! Activity is being monitored from Syskit Point installation onward!** This applies to SharePoint and Exchange workloads since historical data for these workloads is not available in usage reports.
+**Please note!   
+Activity is being monitored from Syskit Point installation onward!** This applies to SharePoint and Exchange workloads since historical data for these workloads is not available in usage reports.
 {% endhint %}
 
 ## Define What Is Inactive
@@ -60,7 +61,7 @@ There is also a separate **Inactive Sites view** available, which can be accesse
 
 ### Microsoft Teams & Groups Overview Screen
 
-The **Microsoft Team & Groups Overview screen** has a similar representation of workload activity for Microsoft Teams and Office 365 groups as the Sites Overview screen. The **Activity column is**, **by default**, **shown** as the last column in the grid. The same rules of displaying the activity data are applied here, as explained for the Sites Overview screen. Additionally, here you can find a separate **Inactive** tile above the grid. By clicking the tile, the **Inactive Groups** view is shown.
+The **Microsoft Teams & Groups Overview screen** has a similar representation of workload activity for Microsoft Teams and Office 365 groups as the Sites Overview screen. The **Activity column is**, **by default**, **shown** as the last column in the grid. The same rules of displaying the activity data are applied here, as explained for the Sites Overview screen. Additionally, here you can find a separate **Inactive** tile above the grid. By clicking the tile, the **Inactive Groups** view is shown.
 
 ![Inactive Content tile](../.gitbook/assets/inactive-content_inactive-content-tile-1.png)
 
@@ -81,7 +82,7 @@ The easiest way to **find all inactive content** is by using the **Inactive Cont
 
 ![Inactive Content report - Options screen](../.gitbook/assets/inactive-content_inactive-content-report-options-screen.png)
 
-Click the **Run Report** button to generate the Inactive Content report. On the report, there are four columns in the grid - the **Name** column which you can **click to open the** **Details** **screen**, and **three activity columns** for **SharePoint**, **Exchange**, **Teams**, and **Yammer**. Two additional columns, **Type** and **Primary** **Admin**, can be added from the **Column Chooser**.
+Click the **Run Report** button to generate the Inactive Content report. On the report, there are four columns in the grid - the **Name** column which you can **click to open the** **Details** **screen**, and **four activity columns** for **SharePoint**, **Exchange**, **Microsoft Teams**, and **Yammer**. Two additional columns, **Type** and **Primary** **Admin**, can be added from the **Column Chooser**.
 
 ![Inactive Content report - Column Chooser](../.gitbook/assets/inactive-content_inactive-content-report-column-chooser.png)
 
