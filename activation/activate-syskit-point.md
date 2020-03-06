@@ -1,5 +1,5 @@
 ---
-description: This article outlines the steps needed to perform the product activation.
+description: This article outlines the steps needed to perform product activation.
 ---
 
 # Activate SysKit Point
