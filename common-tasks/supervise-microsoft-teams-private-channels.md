@@ -73,7 +73,7 @@ The name of the Private Channel site consists of the **name of its Team** + the 
 
 **Click the site name to open the Private Channel site details page**. Here, **you can see which users have permissions** in the private channel, **view shared files**, and **find all analytics data**, as in other types of Sites. Additionally, you can **generate multiple reports** for the Private Channel site and **perform multiple actions** - Remove Access, Edit Permissions, Delete SharePoint Group, Remove Users from Group, etc.
 
-![SysKit Point Private Channel site details screen](https://github.com/SysKitTeam/docs-point/tree/07af9eafd0da689b98110559157c47dcb4ce8d3c/.gitbook/assets/pc-clanak-5%20%281%29.png)
+![SysKit Point - Private Channel site details screen](../.gitbook/assets/supervise-microsoft-teams-private-channels-site-details-page.png)
 
 #### Microsoft Teams & Groups Screen
 
@@ -90,23 +90,25 @@ The report now shows only Microsoft Teams with Private Channels.
 You can also see which Microsoft Teams have Private Channels by enabling the **Private Channels** column in the **Column Chooser**.
 {% endhint %}
 
-When you have chosen to click on a Microsoft Teams you wish to inspect you will be redirected to the Group Details page of a said Team. Inside it contains a '**Channels**' tile which show all the channels that are inside that team be it a **Standard** or a **Private** channel. You will notice the **Private Channel** by a little '**lock**' icon next to the name of the channel or by checking under the column named '**Privacy**' where it says **Private**.
+When you click the name column of a Team you wish to inspect, the Group Details page opens. Here, you can find the **Channels** **tile**, which shows all the channels that are inside the Team, be it a **Standard** or a **Private** channel. You will notice that **Private Channels have a** **lock** **icon** next to the channel name, and under the column named **Privacy**, the value is set to **Private**.
 
 ![SysKit Point Group Details screen - Channels tile](../.gitbook/assets/pc-clanak-7.png)
 
-When you click on a Private Channel inside said tile, you will be redirected to **SysKit Point Channel Details** page where you will see all the **members** of that **Private Channel**, **when** was it **created**, **who** created it \(if SysKit Point was installed and collection of Audit logs was enabled before said channel was created\), All **files shared** within the **Channel** and also **externally shared files**.
+Clicking a Private Channel inside the Channels tile opens the **SysKit Point Channel Details** page, where you can **see all members** of that **Private Channel**, **when it was created**, **by whom**, as well as **all shared** **files.** 
 
 ![SysKit Point Private Channel details page](../.gitbook/assets/pc-clanak-8.png)
 
-#### Being in charge of Microsoft Teams Private Channels with a report
+#### Microsoft Teams with Private Channels Report
 
-Let's say you need all information about **Private channels** on your **Office 365 environment** in one place, **SysKit Point** has a solution for you, with **Microsoft Teams with Private Channels report**. This is the way to generate it. From home screen click on **Reports**, you will be redirected to the **Report Center**. When on said screen, click on the **Filter** in the left corner \(1\), select the **Microsoft Teams & Groups** option\(2\) and then you will see the report called **Microsoft Teams with Private Channels**\(3\).
+If you want to see all the information about **Private channels** in your **Office 365 environment**, **SysKit Point** has a solution for you in the form of the **Microsoft Teams with Private Channels report**. Here's how you can generate it. 
+
+From the Home screen, click the **Reports tile**. Report Center opens. Here, **click the Filter in the left corner** **\(1\)**, **select the Microsoft Teams & Groups option \(2\)**, and find the **Microsoft Teams with Private Channels report \(3\)**.
 
 ![SysKit Point Report Center - Microsoft Teams with Private Channels report](../.gitbook/assets/pc-clanak-9.png)
 
-When you click on that report it will **automatically generate** a report containing **all** the **Microsoft Teams** that have a **Private Channel** in your **environment**, it will show you **all** the **members** and **owners** inside the said **channels** and you will also have information about **who** created a **Private Channel** and **when** was it created. You can also export that report into **PDF** or **XLSX** file.
+When you click on the report tile, the report is **automatically generated,** **containing all the Microsoft Teams that have** **Private Channels,** **all** **the members** and **owners** inside the **channels,** and information about **who created the Private Channel and** **when**. You can also export the generated report as a **PDF** or **XLSX** file.
 
 ![SysKit Point Report center - Microsoft Teams with Private Channels generated report](../.gitbook/assets/pc-clanak-10.png)
 
-If you wish to know even more about the Private Channels [here's](https://docs.microsoft.com/en-us/microsoftteams/private-channels) all the things that Microsoft told us about it.
+If you wish to know even more about the Private Channels, you can find it in the [following Microsoft article](https://docs.microsoft.com/en-us/microsoftteams/private-channels).
 
