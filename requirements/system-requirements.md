@@ -72,7 +72,7 @@ If you do not own On-Premises servers, you can use Azure Virtual Machine with th
 * **Google Chrome** \(recommended\)
 * **Firefox**
 * **Opera**
-* **Microsoft Edge** \(Beta - version 79.0.309.25 and newer\)
+* **Microsoft Edge** \(Chromium based\)
 
 **Internet Explorer is not supported.**
 
