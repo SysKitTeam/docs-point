@@ -32,7 +32,7 @@
   * [View Permission Changes in Office 365](common-tasks/view-permission-changes.md)
   * [Supervise Microsoft Teams Private Channels](common-tasks/supervise-microsoft-teams-private-channels.md)
   * [Configure SSL Certificate](common-tasks/configure-ssl-certificate.md)
-  * [Perform Permissions Review in SysKit Point](common-tasks/perform-permissions-review.md)
+  * [Perform Permissions Review in SysKit Point](common-tasks/permissions-review.md)
 * [FAQ](faq/README.md)
   * [Report Data Limits](faq/report-data-limits.md)
   * [Migrate Audit Logs](faq/migrate-audit-logs.md)
