@@ -106,7 +106,7 @@ If you want to become familiar with how will the e-mail look like, open the **Pr
 
 In this section, you **have to define** which **sites** need **to be examined by the site owners** in the Permissions Review. 
 
-![Target Selection - Specific Items option](../.gitbook/assets/enable-automated-permissions-review_target-selection-specific-items-option.png)
+![Target Selection - Specific Items option](../.gitbook/assets/enable-automated-permissions-review_target-selection-specific-items-option%20%281%29.png)
 
 The option of **All active Microsoft Teams, Office 365 Groups and sites** **is chosen by default**. Optionally you **can include OneDrive** too. 
 
@@ -115,4 +115,26 @@ There is an **option** to include **only content that has enabled external shari
 For more information about **active/inactive content**, visit this [article](../common-tasks/inactive-content.md).
 
 Click on the **Preview tile** to open the details screen with content that would be included in the Permissions Review. 
+
+![Permissions Review - Preview screen](../.gitbook/assets/enable-automated-permissions-review_permissions-review-preview-screen.png)
+
+In this screen, you can see all **Microsoft Teams, Office 365 Groups, sites, and OneDrive** **that are included within the Permissions Review**. 
+
+Except for **All view**, there is **Orphaned Sites view** where you can see all the sites that do not have admins/owners.
+
+If you **select the row, in the side panel will appear Change admins/Change Owners action** with which you can assign user, and then this site will be later checked with a task in Permissions Review. 
+
+Choose the option **Specific items** if you want specific sites to include in the Permissions Review. Save the changes. 
+
+![Target Selection - Specific Items option](../.gitbook/assets/enable-automated-permissions-review_target-selection-specific-items-option.png)
+
+You must click on the **Select Now** link to **define sites to be included** in the **Permissions Review**. **Specific Permissions Review screen** will open. 
+
+Select all sites that you need and save the changes. 
+
+![Specific Permissions Review screen](../.gitbook/assets/enable-automated-permissions-review_specific-permissions-review-screen.png)
+
+Now that everything is defined for the Permissions Review, you have to wait until the flow starts on its own. 
+
+For more information about the **Permissions Review process** visit [article](../common-tasks/permissions-review.md). 
 
