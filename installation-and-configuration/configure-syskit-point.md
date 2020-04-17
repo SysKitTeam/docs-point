@@ -16,7 +16,7 @@ In the Configuration Wizard, you will need to provide the following information:
 * **SSL Certificate** \(we can provide you with a self-signed one, but for production we recommend you use full SSL certificate\).
 
 {% hint style="info" %}
-For a detailed overview of the **SysKit Point system and permission requirements**, [navigate to the Requirements section](../requirements/).
+For a detailed overview of the **SysKit Point system and permission requirements**, [navigate to the Requirements section](https://github.com/SysKitTeam/docs-point/tree/2a7b80632219ea7edc9e8d0e9d23a3b34f044978/requirements/README.md).
 {% endhint %}
 
 ## Configuration Steps
@@ -53,7 +53,7 @@ If everything is configured properly, an Info window appears with the message:
 Click **OK** to close the Info window, and **Next &gt;** to continue to the next step.
 
 {% hint style="info" %}
-Check the supported SQL Server versions and requirements [here](../requirements/system-requirements.md).
+Check the supported SQL Server versions and requirements [here](https://github.com/SysKitTeam/docs-point/tree/2a7b80632219ea7edc9e8d0e9d23a3b34f044978/requirements/system-requirements.md).
 {% endhint %}
 
 ### Service Settings

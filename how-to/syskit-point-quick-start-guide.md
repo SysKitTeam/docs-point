@@ -12,7 +12,7 @@ After you complete the installation and come to the last step in SysKit Point Co
 
 ![Configuration Wizard - SysKit Point web-app URL](../.gitbook/assets/syskit-point-quick-start-guide_syskit-point-web-app-url.png)
 
-Once you click the Finish button, SysKit Point should open in your default browser. You can also copy the URL directly from the text box and paste it to your preferred browser. 
+Once you click the Finish button, SysKit Point should open in your default browser. You can also copy the URL directly from the text box and paste it to your preferred browser.
 
 ## Sign In Screen
 
