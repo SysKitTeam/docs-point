@@ -64,7 +64,7 @@ You can check if the environment is set up in the right way, by sending a **test
 
 With the Manage Access screen in the SysKit Point Settings, you have to **enable SysKit Point Collaborators' role** to have access to the application. 
 
-This role includes all Site admins/Team owners in your environment. For more information, go to [Enable Role-Based Access](enable-role-based-access.md#what-is-syskit-point-collaborators-role) article.
+**This role includes all** **Site admins/Team owners** in your environment. For more information, go to this [article](enable-role-based-access.md#what-is-syskit-point-collaborators-role).
 
 ![Manage Access Settings screen](../.gitbook/assets/enable-automated-permissions-review_manage-access-settings-screen.png)
 
