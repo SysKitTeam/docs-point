@@ -19,7 +19,7 @@ Go to **Settings** &gt; **Governance** &gt; **Permissions Review** screen. The p
 
 Initially, you may find the Permissions Review settings screen displaying the following warnings: 
 
-![Settings - Permissions Review screen](../.gitbook/assets/enable-automated-permissions-review_permissions-review-settings-screen%20%281%29.png)
+![Settings - Permissions Review screen](../.gitbook/assets/enable-automated-permissions-review_permissions-review-settings-screen.png)
 
 Clicking the tiles in the **Additional Actions Required** section redirects to the appropriate settings screen.
 
