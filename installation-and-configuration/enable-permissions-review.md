@@ -1,64 +1,68 @@
 ---
 description: >-
-  This article explains how to Enable Automated Permissions Review in SysKit
-  Point.
+  This article explains how to enable and  configure the 
+  Automated Permissions Review in SysKit Point.
 ---
 
 # Enable Automated Permissions Review
 
-For allowing the Automated Permissions Review process in your environment, first, you need to configure e-mail settings and enable collaborators.
+To use the advantages of Automated Permissions Review, first, you need to enable it and configure the settings in SysKit Point.
 
 {% hint style="warning" %}
-**Please note!** Only users that are assigned **SysKit Point Admins role** can see and adjust Settings in the SysKit Point application. 
+**Please note!**
+Only users assigned to the **SysKit Point Admin** role can access and configure Settings in SysKit Point.  
 {% endhint %}
 
 Go to **Settings** &gt; **Governance** &gt; **Permissions Review** screen.
 
+The permission review is depending on two additional components that you need to set up: 
+* **E-mail**, and
+* **SysKit Point Collaborators** role 
+Initially, you may find the Permissions Review settings screen displaying the following warnings: 
+
 ![Settings - Permissions Review screen](../.gitbook/assets/enable-automated-permissions-review_permissions-review-settings-screen%20%281%29.png)
 
-You can perform this by clicking on tiles in the section **Additional Actions Required**. This action will redirect you to the appropriate settings screen. 
+Clicking the tiles in the **Additional Actions Required** section redirects to the appropriate settings screen. 
 
-{% hint style="info" %}
-**Hint!** You can also access these settings screens from the navigation menu.
+## **E-mail Settings** 
+
+As a part of the automated permissions review process, e-mails are sent to SysKit Point Admin and SysKit Point Collaborator users.
+For SysKit Point to be able to send e-mails, you need to configure the sending method. **Exchange Online** and **SMTP**\(Simple Mail Transfer Protocol\) options are available. 
+
+{% hint style="warning" %}
+**Please Note!**
+E-mail address set up in this section will appear in the **Sent from** field of all e-mails sent from SysKit Point 
 {% endhint %}
 
-## **E-mail settings** 
+### Exchange Online Settings 
 
-It is necessary to define e-mail so that your colleagues are aware of why and from who they are receiving e-mail from SysKit Point. 
+{% hint style="warning" %}
+**Please Note!**
+Exchange Online has the sending limit of 10000 e-mails per day. 
+{% endhint %}
 
-There are two methods to choose from - **Exchange Online** and **Simple Mail Transfer Protocol \(SMTP\)**. 
-
-### Exchange Online settings 
-
-If you select Exchange Online method, you only **have to enter a valid e-mail address**. All e-mails regarding the Permissions Review will be sent from this address. 
-
-Option for saving e-mails that are sent from the defined e-mail account in the Sent folder is turned on by default. It means that every e-mail which was sent concerning the Permissions Review can be found in the **Sent folder** in the mailbox. 
+The Exchange Online method enables you to use an existing Exchange account in your Office 365 tenant to send e-mails from SysKit Point.
+To do so, enter a valid e-mail address in the **Sent from** field. 
+By default, the **Save to sent items folder** option is turned on, meaning that all e-mails sent from SysKit Point will be stored in the **Sent** mailbox folder of the entered Exchange account.
 
 ![Exchange Online e-mail Settings screen](../.gitbook/assets/enable-automated-permissions-review_exchange-online-e-mail-settings-screen.png)
 
-If you would like **to turn off** this option, **uncheck** it next to the title. 
-
-After entering an e-mail address, click anywhere on white space on the screen and then Save button.  
-
-A new dialog will open asking you to save anyway, or to send a test e-mail to check if everything works properly. 
-
-If you choose to send a **test e-mail**, enter one address in the new dialog that appears, and after a few minutes, check if you received an e-mail in that account. 
-
-You should receive an e-mail like the one in the picture below. 
+Click the **Send test e-mail** button to check if the entered e-mail address is working properly. The **Sent test e-mail** dialog opens. Enter the e-mail address to which you want to send the test e-mail. After a moment, you should receive an e-mail like the one pictured below.
 
 ![Test e-mail](../.gitbook/assets/enable-automated-permissions-review_test-e-mail.png)
 
-### SMTP settings 
+Click the **Save** button to store your e-mail settings.
 
-If you choose the **SMTP** as your sending e-mail method, you have to define standard properties, including outgoing server, port, e-mail, and whether is encrypted connection and authentication required.  
+### SMTP Settings 
 
-Also, you will have to provide a username and password. 
+Select the **SMTP method** if you are using an **SMTP** server in your environment. 
+Here, you can enter the SMTP properties - **Outgoing Server**, **Port**, **Sent from** e-mail - and choose whether to **Use Encrypted Connection (SSL)** and **Require Authentication**. If the later is turned on, you will have to provide a **Username** and **Password**. 
 
 ![SMTP e-mail Settings screen](../.gitbook/assets/enable-automated-permissions-review_smtp-e-mail-settings-screen.png)
 
-After defining parameters, click the Save button. 
+You can check if the entered data is correct by **sending a test e-mail**. 
 
-You can check if the environment is set up in the right way, by sending a **test e-mail**. 
+Click the **Save** button once you confirm that the test email was received.
 
 ## **Manage Access Settings** 
 
@@ -85,11 +89,13 @@ Click on the **calendar icon** and choose the desired date. You can also enter t
 The next thing is to define how often you want to repeat the process of the Permissions Review. The process can be repeated monthly. Choose the number of months and save the changes. 
 
 {% hint style="warning" %}
-**Please** **Note!** You can always see the date when the next Permissions Review will start in the Customize section, and you can adjust it according to your preference by changing the settings. 
+
+**Please** **Note!** You can always see the date when the next Permissions Review will start in the Customize section, and you can adjust it according to your preference by changing the settings. 
 {% endhint %}
 
 {% hint style="info" %}
-**Hint!** Every Permissions Review lasts for ten working days only. 
+
+**Hint!** Every Permissions Review lasts for ten working days only. 
 {% endhint %}
 
 The last option in this section is turned on by default, and it regards the **e-mail reminder** to all the participant
