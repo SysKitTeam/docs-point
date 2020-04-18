@@ -71,7 +71,7 @@ For more information about role-based access in SysKit Point, go to the [followi
 After you have successfully set up e-mail and enabled the SysKit Point Collaborators role, you can enable the Automated Permissions Review by marking the checkbox on the **Governance** &gt; **Permissions Review** screen.
 Click **Save** to be able to proceed with further customization.
 
-### **Customize Section**
+### **Customize Permissions Review**
 
 First, **define the start date** for the first **Automated Permissions Review**. Click the **calendar icon (1)** and choose the desired date. You can also enter the date manually in the provided field. Next, define the **reocurrence period (2)** for the permissions review. Click **Save** to recalculate and view the **start date for the next permissions review (3)**. Each permissions review has a defined duration of **10 workdays (4)**.
 
@@ -92,39 +92,32 @@ If you want to become familiar with the look of the permissions review e-mail th
 
 **TODO Preview e-mail dialog image**
 
-### **Target Selection section**
+### **Permissions Review Targeting**
 
-In this section, you **have to define** which **sites** need **to be examined by the site owners** in the Permissions Review.
+In the **Target Selection** section, you can **define which sites to include in the permissions review**. By default, the **All active Microsoft Teams, Office 365 Groups and sites (1)** option is selected. Click the resource filter **(2)** in case you want to **include OneDrive**, or remove any of the initially selected resources. Additionally, you can choose to **only include resources where external sharing is enabled (3)**. To enable the **Preview tile (4)**, **Save your changes**.
 
-![Target Selection - Specific Items option](../.gitbook/assets/enable-automated-permissions-review_target-selection-specific-items-option%20%281%29.png)
+**TODO All Active filter image**
 
-The option of **All active Microsoft Teams, Office 365 Groups and sites** **is chosen by default**. Optionally you **can include OneDrive** too.
+To learn more about **active and inactive content**, visit [this article](../common-tasks/inactive-content.md).
 
-There is an **option** to include **only content that has enabled external sharing**. Mark the checkbox if you want this option and save the changes.
-
-For more information about **active/inactive content**, visit this [article](../common-tasks/inactive-content.md).
-
-Click on the **Preview tile** to open the details screen with content that would be included in the Permissions Review.
+Once your changes are saved, you can click the **Preview tile**, which opens the **Permissions Review - Preview** report showing detailed information about resources that will be included in the permissions review. **Top tiles** show the number of sites included in the permission review, grouped by type. Click a tile to show only a certain type of sites.Permissions review due date, number of email recipients, and the number of orphaned sites - sites that have no owners, or owners that are blocked or deleted - is visible on the top of the report **(2)**. Use the **Orphaned Sites view (3)** to see all such sites. For each Microsoft Team, Office 365 Group, site, and OneDrive included in the Permissions Review, all site owners that will get an permissions review email, are listed. If you **select a row (4)**, the **Change owners action (5)** shows in the side panel. 
 
 ![Permissions Review - Preview screen](../.gitbook/assets/enable-automated-permissions-review_permissions-review-preview-screen.png)
 
-In this screen, you can see all **Microsoft Teams, Office 365 Groups, sites, and OneDrive** **that are included within the Permissions Review**.
-
-Except for **All view**, there is **Orphaned Sites view** where you can see all the sites that do not have admins/owners.
-
-If you **select the row, in the side panel will appear Change admins/Change Owners action** with which you can assign user, and then this site will be later checked with a task in Permissions Review.
-
-Choose the option **Specific items** if you want specific sites to include in the Permissions Review. Save the changes.
+Choose the **Specific items** option if you want to manually select specific sites to be included in the permissions review. 
 
 ![Target Selection - Specific Items option](../.gitbook/assets/enable-automated-permissions-review_target-selection-specific-items-option.png)
 
-You must click on the **Select Now** link to **define sites to be included** in the **Permissions Review**. **Specific Permissions Review screen** will open.
-
-Select all sites that you need and save the changes.
+Save the changes to proceed with the selection. Click the **Select Now** link. The **Specific Permissions Review** screen opens. 
 
 ![Specific Permissions Review screen](../.gitbook/assets/enable-automated-permissions-review_specific-permissions-review-screen.png)
 
-Now that everything is defined for the Permissions Review, you have to wait until the flow starts on its own.
+When done with the selection, save your changes. The **Preview tile** becomes available and, once clicked, shows the **Permissions Review - Preview** report described above.
 
-For more information about the **Permissions Review process** visit [article](../common-tasks/permissions-review.md).
+Now that everything is defined, the permissions review will start automatically. To learn all about the automated permissions review in SysKit Point, visit the [following article](../common-tasks/permissions-review.md).
+
+
+
+
+
 
