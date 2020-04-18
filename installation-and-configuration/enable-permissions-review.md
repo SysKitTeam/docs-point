@@ -13,25 +13,22 @@ To use the advantages of Automated Permissions Review, first, you need to enable
 Only users assigned to the **SysKit Point Admin** role can access and configure Settings in SysKit Point.
 {% endhint %}
 
-Go to **Settings** &gt; **Governance** &gt; **Permissions Review** screen.
-
-The permission review is depending on two additional components that you need to set up:
-
+Go to **Settings** &gt; **Governance** &gt; **Permissions Review** screen. The permission review depends on two additional components that you need to set up: 
 * **E-mail**, and
 * **SysKit Point Collaborators** role 
 
-  Initially, you may find the Permissions Review settings screen displaying the following warnings: 
+Initially, you may find the Permissions Review settings screen displaying the following warnings: 
 
 ![Settings - Permissions Review screen](../.gitbook/assets/enable-automated-permissions-review_permissions-review-settings-screen%20%281%29.png)
 
 Clicking the tiles in the **Additional Actions Required** section redirects to the appropriate settings screen.
 
-## **E-mail Settings**
+## **Set Up E-Mail**
 
-As a part of the automated permissions review process, e-mails are sent to SysKit Point Admin and SysKit Point Collaborator users. For SysKit Point to be able to send e-mails, you need to configure the sending method. **Exchange Online** and **SMTP**\(Simple Mail Transfer Protocol\) options are available.
+As a part of the automated permissions review process, e-mails are sent to SysKit Point Admin and SysKit Point Collaborator users. For SysKit Point to be able to send e-mails, you need to configure the sending method. **Exchange Online** and **SMTP** \(Simple Mail Transfer Protocol\) options are available.
 
 {% hint style="warning" %}
-**Please Note!** E-mail address set up in this section will appear in the **Sent from** field of all e-mails sent from SysKit Point
+**Please Note!** E-mail address set up in this section will appear in the **Sent from** field of all e-mails sent from SysKit Point.
 {% endhint %}
 
 ### Exchange Online Settings
@@ -44,7 +41,7 @@ The Exchange Online method enables you to use an existing Exchange account in yo
 
 ![Exchange Online e-mail Settings screen](../.gitbook/assets/enable-automated-permissions-review_exchange-online-e-mail-settings-screen.png)
 
-Click the **Send test e-mail** button to check if the entered e-mail address is working properly. The **Sent test e-mail** dialog opens. Enter the e-mail address to which you want to send the test e-mail. After a moment, you should receive an e-mail like the one pictured below.
+Click the **Send test e-mail** button to check if the entered e-mail address is working properly. The **Sent test e-mail** dialog opens. Here, enter the e-mail address to which you want to send the test e-mail. After a moment, you should receive an e-mail like the one pictured below.
 
 ![Test e-mail](../.gitbook/assets/enable-automated-permissions-review_test-e-mail.png)
 
@@ -60,47 +57,40 @@ You can check if the entered data is correct by **sending a test e-mail**.
 
 Click the **Save** button once you confirm that the test email was received.
 
-## **Manage Access Settings**
+## **Enable SysKit Point Collaborators**
 
-With the Manage Access screen in the SysKit Point Settings, you have to **enable SysKit Point Collaborators' role** to have access to the application.
-
-**This role includes all** **Site admins/Team owners** in your environment. For more information, go to this [article](enable-role-based-access.md#what-is-syskit-point-collaborators-role).
+Navigate to the **Settings** &gt; **Security** &gt; **Manage Access** settings screen to **enable the SysKit Point Collaborators role**.
+When the role is enabled, site owners can access SysKit Point, where they can manage their sites and review permissions. 
 
 ![Manage Access Settings screen](../.gitbook/assets/enable-automated-permissions-review_manage-access-settings-screen.png)
 
-## **Permissions Review Settings**
+For more information about role-based access in SysKit Point, go to the [following article](enable-role-based-access.md).
 
-After you set up e-mail and access settings, you can enable automated Permissions Review by marking the checkbox in the **Governance** &gt; **Permissions Review** screen.
+## **Enable Automated Permissions Review**
 
-Click on the Save button after enabling this setting so that you can adjust all the parameters.
+After you have successfully set up e-mail and enabled the SysKit Point Collaborators role, you can enable the Automated Permissions Review by marking the checkbox on the **Governance** &gt; **Permissions Review** screen.
+Click **Save** to be able to proceed with further customization.
 
-### **Customize section**
+### **Customize Section**
 
-First, you have to **define the start date** for the **Permissions Review**.
+First, **define the start date** for the first **Automated Permissions Review**. Click the **calendar icon (1)** and choose the desired date. You can also enter the date manually in the provided field. Next, define the **reocurrence period (2)** for the permissions review. Click **Save** to recalculate and view the **start date for the next permissions review (3)**. Each permissions review has a defined duration of **10 workdays (4)**.
+
+{% hint style="warning" %}
+**Please Note!** 
+All dates in the permissions review, including start and due date, are calculated to fall on a workday. That way, SysKit Point ensures that no emails are sent during non-working hours.
+{% endhint %}
 
 ![Permissions Review - Customize section](../.gitbook/assets/enable-automated-permissions-review_permissions-review-customize-section.png)
 
-Click on the **calendar icon** and choose the desired date. You can also enter the date manually in the provided field.
-
-The next thing is to define how often you want to repeat the process of the Permissions Review. The process can be repeated monthly. Choose the number of months and save the changes.
-
-{% hint style="warning" %}
-**Please** **Note!** You can always see the date when the next Permissions Review will start in the Customize section, and you can adjust it according to your preference by changing the settings.
-{% endhint %}
+The last option in this section is turned on by default, and it regards the **e-mail reminder (5)** sent to all site owners included in the permissions review three workdays before the due date. It is possible to turn off this option at any time during the permissions review.
 
 {% hint style="info" %}
-**Hint!** Every Permissions Review lasts for ten working days only.
+**Hint!** SysKit Point Admins can manually send an e-mail reminder to site owners once a day, any time during the permissions review by choosing the **Remind Owners** action on the **Governance** &gt; **Permissions Review details** screen.
 {% endhint %}
 
-The last option in this section is turned on by default, and it regards the **e-mail reminder** to all the participant
+If you want to become familiar with the look of the permissions review e-mail that will be sent to site owners, click the **Preview e-mail button (6)**. A dialog opens showing the e-mail. Since each site owner will have different number of sites and site types to review, the **e-mail preview shows placeholders** marked with parenthesis **\{ \}**.
 
-{% hint style="info" %}
-**Hint!** As SysKit Point Admin, you can send a manual e-mail reminder to site owners once a day at any time during actual Permissions Review by choosing the action Remind Owners. You can find this action at Governance &gt; Permissions Review details screen.
-{% endhint %}
-
-**You can** **turn off an e-mail reminder at any time** during the Permissions Review if you want to.
-
-If you want to become familiar with how will the e-mail look like, open the **Preview e-mail**.
+**TODO Preview e-mail dialog image**
 
 ### **Target Selection section**
 
