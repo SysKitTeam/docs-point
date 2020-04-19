@@ -59,7 +59,7 @@ Click the **Save** button once you confirm that the test email was received.
 
 ## **Enable SysKit Point Collaborators**
 
-Navigate to the **Settings** &gt; **Security** &gt; **Manage Access** settings screen to **enable the SysKit Point Collaborators role**.
+Navigate to the **Settings** &gt; **Security** &gt; **Manage Access** settings screen, and **click the toggle to enable the SysKit Point Collaborators role**.
 When the role is enabled, site owners can access SysKit Point, where they can manage their sites and review permissions. 
 
 ![Manage Access Settings screen](../.gitbook/assets/enable-permissions-review/enable-permissions-review_manage-access-settings.png)
