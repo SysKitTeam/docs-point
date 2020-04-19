@@ -12,7 +12,7 @@ Since **SysKit Point** is frequently getting new features, we highly recommend h
 
 **SysKit Point automatically checks for updates** every day, outside of working hours. **In case a new update is available, every SysKit Point user** **receives a popup message** at the bottom of the Home screen when they open the web application.
 
-![Home screen - New Update Available](../.gitbook/assets/upgrade-syskit-point_new-update-available-1.png)
+![Home screen - New Update Available](../.gitbook/assets/upgrade-syskit-point/upgrade-syskit-point_new-update-available.png)
 
 The **Read What's New** **link \(1\)** opens a new tab in your browser at the [Product Updates](https://github.com/SysKitTeam/docs-point/tree/2a7b80632219ea7edc9e8d0e9d23a3b34f044978/product-updates/README.md) section in SysKit Point documentation, where you can find out about new features, improvements, and bug fixes by each product version.
 
@@ -27,14 +27,14 @@ After you download the newest version of the application, follow these steps to 
 * **Unpack the previously downloaded .zip file and run the SysKitPointSetup.exe setup** file on the server where SysKit Point is installed. 
 * The installation wizard will require to uninstall the previous version of SysKit Point. Click **Next** to continue. 
 
-![Installation wizard - Previous Version Uninstallation message](../.gitbook/assets/upgrade-syskit-point_previous-version-uninstallation.png)
+![Installation wizard - Previous Version Uninstallation message](../.gitbook/assets/upgrade-syskit-point/upgrade-syskit-point_previous-version-uninstallation.png)
 
 * Follow the wizard through the installation steps. All installation steps are described [here](install-syskit-point.md).
 * After the installation is completed, the **Configuration Wizard** opens automatically.
 * On the **Database** step, select the **Use existing database** option to preserve all data collected by SysKit Point. Click **Next** to proceed.
 * On the **Database Configuration** step, click **Next**. A **warning message** is displayed. Before you continue, **consider backing up the database** to ensure no data is lost in an unlikely event of an upgrade failure. Click **Yes** to continue.
 
-![Configuration Wizard - Database upgrade warning](../.gitbook/assets/upgrade-syskit-point_database-upgrade.png)
+![Configuration Wizard - Database upgrade warning](../.gitbook/assets/upgrade-syskit-point/upgrade-syskit-point_database-upgrade.png)
 
 * On the **Service Settings** step, enter your **service account** and validate it. Click **Next**.
 * On the **Connect to Office 365** step, you can see that your **tenant is already connected** with the application. Proceed to the next step.
