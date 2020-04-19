@@ -1,6 +1,6 @@
 ---
 description: >-
-  This article explains how to enable and  configure the  Automated Permissions
+  This article explains how to enable and configure the Automated Permissions
   Review in SysKit Point.
 ---
 
@@ -73,7 +73,7 @@ Click **Save** to be able to proceed with further customization.
 
 ### **Customize Permissions Review**
 
-First, **define the start date** for the first **Automated Permissions Review**. Click the **calendar icon (1)** and choose the desired date. You can also enter the date manually in the provided field. Next, define the **reocurrence period (2)** for the permissions review. Save your changes to recalculate and view the **start date for the next permissions review (3)**. Each permissions review has a defined duration of **10 workdays (4)**.
+First, **define the start date** for the first **Automated Permissions Review**. Click the **calendar icon (1)** and choose the desired date. You can also enter the date manually in the provided field. Next, define the **recurrence period (2)** for the permissions review. Save your changes to recalculate and view the **start date for the next permissions review (3)**. Each permissions review has a defined duration of **10 workdays (4)**.
 
 {% hint style="warning" %}
 **Please Note!** 
@@ -88,7 +88,7 @@ The last option in this section is turned on by default, and it regards the **e-
 **Hint!** SysKit Point Admins can manually send an e-mail reminder to site owners once a day, any time during the permissions review by choosing the **Remind Owners** action on the **Governance** &gt; **Permissions Review details** screen.
 {% endhint %}
 
-If you want to become familiar with the look of the permissions review e-mail that will be sent to site owners, click the **Preview e-mail button (6)**. A dialog opens showing the e-mail. Since each site owner will have different number of sites and site types to review, the **e-mail preview shows placeholders** marked with parenthesis **\{ \}**.
+If you want to become familiar with the look of the permissions review e-mail that will be sent to site owners, click the **Preview e-mail button (6)**. Since each site owner will have a different number of sites and site types to review, the **e-mail preview dialog shows placeholders** marked with parenthesis **\{ \}**.
 
 ![Permissions Review - Preview e-mail dialog](../.gitbook/assets/enable-permissions-review/enable-permissions-review_preview-email.png)
 
@@ -100,7 +100,7 @@ In the **Target Selection** section, you can **define which sites to include in 
 
 To learn more about **active and inactive content**, visit [this article](../common-tasks/inactive-content.md).
 
-Once your changes are saved, you can click the **Preview tile**, which opens the **Permissions Review - Preview** report showing detailed information about resources that will be included in the permissions review. **Top tiles (1)** show the number of sites included in the permission review, grouped by type. Click a tile to show only a certain type of sites.Permissions review due date, number of email recipients, and the number of orphaned sites - sites that have no owners, or owners that are blocked or deleted - is visible on the top of the report **(2)**. Use the **Orphaned Sites view (3)** to see all such sites. For each Microsoft Team, Office 365 Group, site, and OneDrive included in the Permissions Review, all site owners that will get an permissions review email, are listed. If you **select a row (4)**, the **Change owners action (5)** shows in the side panel. 
+Once your changes are saved, you can click the **Preview tile**, which opens the **Permissions Review - Preview** report showing detailed information about resources that will be included in the permissions review. **Top tiles (1)** show the number of sites included in the permission review, grouped by type. Click a tile to show only a certain site type. Permissions review due date, number of email recipients, and the number of orphaned sites - sites that have no owners, or owners that are blocked or deleted - is visible on the top of the report **(2)**. Use the **Orphaned Sites view (3)** to see all such sites. For each Microsoft Team, Office 365 Group, site, and OneDrive included in the Permissions Review, all site owners that will get a permissions review email, are listed. If you **select a row (4)**, the **Change owners action (5)** shows in the side panel. 
 
 ![Permissions Review - Preview screen](../.gitbook/assets/enable-permissions-review/enable-permissions-review_permissions-review-preview.png)
 
