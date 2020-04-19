@@ -19,7 +19,7 @@ Go to **Settings** &gt; **Governance** &gt; **Permissions Review** screen. The p
 
 Initially, you may find the Permissions Review settings screen displaying the following warnings: 
 
-![Settings - Permissions Review screen](../.gitbook/assets/enable-automated-permissions-review_permissions-review-settings-screen.png)
+![Settings - Permissions Review screen](../.gitbook/assets/enable-permissions-review/enable-permissions-review_permissions-review-settings.png)
 
 Clicking the tiles in the **Additional Actions Required** section redirects to the appropriate settings screen.
 
@@ -39,11 +39,11 @@ As a part of the automated permissions review process, e-mails are sent to SysKi
 
 The Exchange Online method enables you to use an existing Exchange account in your Office 365 tenant to send e-mails from SysKit Point. To do so, enter a valid e-mail address in the **Sent from** field. By default, the **Save to sent items folder** option is turned on, meaning that all e-mails sent from SysKit Point will be stored in the **Sent** mailbox folder of the entered Exchange account.
 
-![Exchange Online e-mail Settings screen](../.gitbook/assets/enable-automated-permissions-review_exchange-online-e-mail-settings-screen.png)
+![Exchange Online e-mail Settings screen](../.gitbook/assets/enable-permissions-review/enable-permissions-review_exchange-online-settings.png)
 
 Click the **Send test e-mail** button to check if the entered e-mail address is working properly. The **Sent test e-mail** dialog opens. Here, enter the e-mail address to which you want to send the test e-mail. After a moment, you should receive an e-mail like the one pictured below.
 
-![Test e-mail](../.gitbook/assets/enable-automated-permissions-review_test-e-mail.png)
+![Test e-mail](../.gitbook/assets/enable-permissions-review/enable-permissions-review_test-email.png)
 
 Click the **Save** button to store your e-mail settings.
 
