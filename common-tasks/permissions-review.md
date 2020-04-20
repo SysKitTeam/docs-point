@@ -10,19 +10,19 @@ description: >-
 If you are a SysKit Point Admin, first check how to [enable and configure the Automated Permissions Review in SysKit Point](../installation-and-configuration/enable-permissions-review.md).
 {% endhint %}
 
-Permissions review, in the context of Office 365 environment, is an activity where a person responsible for an Office 365 resource - be it Communication site, Microsoft Team, Office 365 Group or OneDrive – checks whether permissions, given to users inside (internal) and outside (external) of company, comply with the organizational rules and guidelines. Usually, the permissions review task is performed by a site owner and includes:
-* checking if all users – internal and external - have access to right resources
-* checking audit logs to identify unwanted permissions changes
-* checking if only necessary content is publicly/externally shared
-* performing correcting actions to mitigate errors discovered in previous steps
+**Permissions review**, in the context of Office 365 environment, is an activity where a person responsible for an Office 365 resource - be it Communication site, Microsoft Team, Office 365 Group or OneDrive - checks whether permissions, given to users inside (internal) and outside (external) of company, comply with the organizational rules and guidelines. The **permissions review task is usually performed by a site owner** and includes:
+* **checking if all users - internal and external - have access to right resources**
+* **checking audit logs** to identify unwanted permissions changes
+* **checking if only necessary content is externally shared**
+* **performing correcting actions** to mitigate errors discovered in previous steps
 
 The permissions review in SysKit Point can be viewed from two different roles, as described in this article:
 * [SysKit Point Admin user](#syskit-point-admin)
 * [SysKit Point Collaborator user](#syskit-point-collaborator)
 
-The first one defines permissions review settings and decides what resources are reviewed. The second performs the permissions review on resources where they are an owner or admin. These two roles will have a different set of reports and actions available before and during the permissions review and will receive a different kind of emails. 
+SysKit Point Admin users **define permissions review settings** and **decide what resources are reviewed**. Collaborators perform the permissions review on resources where they are an owner or admin. These two roles will have a **different set of reports and actions available** before and during the permissions review and will receive a different kind of emails. 
 
-First, we will take a look at the SysKit Point Admin users.
+First, we will take a look at the **SysKit Point Admin** users.
 
 ## SysKit Point Admin
 
@@ -77,8 +77,8 @@ The Permissions Review report gives SysKit Point Admins the following informatio
 Use the **Remind Owners action** to send a reminder email to site owners regarding the ongoing permissions review. You can use this action **once a day**, whenever you think appropriate, **as long as the permissions review is active**. **Only site owners with pending tasks will receive an email**.
 
 {% hint style="warning" %}
-Please note!
-Permissions review has a predefined duration of **ten days**. In this time frame, site owners should be able to complete the permissions review on their sites. By default, **three days before the permissions review end date**, SysKit Point sends an automatic email reminder to all site owners with pending tasks.
+**Please note!**
+Permissions review has a predefined duration of **ten days**. In this time frame, site owners should be able to complete the permissions review on their sites. By default, **three days before the permissions review end date**, SysKit Point sends an automatic **email reminder to all site owners with pending tasks**.
 {% endhint %}
 
 ### Permissions Review Completion
@@ -103,7 +103,7 @@ The **See Details** button opens the **Permissions Review** report, already desc
 
 ![Governance - Active and Previous category](../.gitbook/assets/permissions-review/permissions-review_governance-active-previous.png)
 
-With that, we finish the permissions review overview for SysKit Point Admin users.
+With that, we finish the permissions review overview for SysKit Point Admin users and continue with SysKit Point Collaborators overview.
 
-
+## SysKit Point Collaborator
 
