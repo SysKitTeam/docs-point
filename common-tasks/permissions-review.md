@@ -16,6 +16,8 @@ If you are a SysKit Point Admin, first check how to [enable and configure the Au
 * **checking if only necessary content is externally shared**
 * **performing correcting actions** to mitigate errors discovered in previous steps
 
+**SysKit Point** provides the tools the site owners need to perform these tasks.
+
 The permissions review in SysKit Point can be viewed from two different roles, as described in this article:
 * [SysKit Point Admin user](#syskit-point-admin)
 * [SysKit Point Collaborator user](#syskit-point-collaborator)
@@ -107,3 +109,89 @@ With that, we finish the permissions review overview for SysKit Point Admin user
 
 ## SysKit Point Collaborator
 
+### Permissions Review Email Request
+
+When the Automated Permissions Review starts, all site owners receive an email request to review permissions on their site(s). The email contains the following important data:
+* **number of sites an owner needs to review (1)**; grouped by site type
+* **due date of the permissions review (2)**
+* **Review Now button (3)**
+
+![Permissions review request email](../.gitbook/assets/permissions-review/permissions-review_request.png)
+
+The **Review Now** button opens the **Permissions Review Task** screen once clicked.
+On this screen, you can find:
+* **sites they are the owner of and need to review**; displayed in the grid
+* **information regarding the permissions review task (1)** 
+
+![Permissions Review Task screen](../.gitbook/assets/permissions-review/permissions-review_task.png)
+
+From here, you can continue and review a site by clicking the **link in the Task column (2)**, or **selecting a row (3)** and clicking the **Review action (4)**. We will stop here for now, and show how to access the same screen from within SysKit Point.
+
+### My Tasks
+
+On the Home screen, you can notice the **My Tasks** tile and a notification bubble displaying the number of tasks you need to address. It is set to one because a single permissions review task was created by SysKit Point and assigned to you. The **persona** button shows the same notification bubble. To view your tasks, click the **My Tasks tile** on the Home screen, or the **My Tasks section** in the persona drop-down menu.
+
+![My Tasks tile](../.gitbook/assets/permissions-review/permissions-review_my-tasks-tile.png)
+
+**My Tasks** screen displays the active permissions review task with the most important information:
+* **requested date**
+* **due date**
+* **completion progress**
+* **Review** button
+
+![My Tasks tile](../.gitbook/assets/permissions-review/permissions-review_my-tasks.png)
+
+Click **Review** to continue. The **Permissions Review Task** screen opens - the same screen that you accessed from email in the previous section where we stopped. From here, you can continue and review a site by clicking the **link in the Task column**. The **Task Details** screen opens.
+
+### Permissions Review Task Details
+
+The Task Details screen you information, reports, and actions needed to perform a permissions review. The following is available on the screen:
+* **Site owners list & Change Owners action (1)**
+* **All Users and External Users tile (2)**
+* **Permission Changes tile (3)**
+* **Shared Files and Externally Shared Files tile (4)**
+* **Permissions Matrix report link (5)**
+* **Complete Review button (6)**
+
+![Permissions Review Task Details](../.gitbook/assets/permissions-review/permissions-review_task-details.png)
+
+Use the **Change Owners** action to remove existing owners by clicking the x sign next to the user, or add new owners by typing their name. Click **Change** to confirm.
+
+![Change Owners action](../.gitbook/assets/permissions-review/permissions-review_change-owners.png)
+
+Click the **All Users** tile to access the **Users report**. Here, you can:
+* **see all users** that have access to your site and **granted permissions**
+* **grant access (1)** to additional users
+* **add owners and members (2)** 
+* **select users (3)** and **remove their access (4)** on the site.
+
+![Users report](../.gitbook/assets/permissions-review/permissions-review_users-report-actions.png)
+
+Click the **External Users** tile to access the **External Users report**. Here, you can:
+* **view all external users**
+* **select users (1)** and **remove their access (2)** 
+* **find additional information**, such as when and by whom the external user was added
+
+![External Users report](../.gitbook/assets/permissions-review/permissions-review_external-users-report-actions.png)
+
+Click the **Permissions Changes** tile if you want to see audit logs for events that occurred since the last permissions review. **Site Permissions Changes** report opens, with custom date filter values preselected (1). You can click the date filter (2) and change the dates if needed. The report gives you the following information:
+* **Activity date**
+* **Activity**
+* **User who performed the permission change**
+* **object where the change was done**
+* **target user of the permissions change**
+
+![Site Permissions Changes report](../.gitbook/assets/permissions-review/permissions-review_site-permissions-changes-report.png)
+
+Click the **Shared Files** tile to open the **Sharing Links** report, where you can:
+* **see information about all sharing links on your site**
+* **select (1)** and **remove sharing links (2)**
+* **find out who created the sharing link (3)**
+
+![Site Permissions Changes report](../.gitbook/assets/permissions-review/permissions-review_sharing-links-report.png)
+
+TODO Externally Shared Content Tile
+
+### Complete Permissions Review
+
+TODO Finish
