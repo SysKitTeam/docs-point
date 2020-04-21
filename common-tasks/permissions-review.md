@@ -190,8 +190,51 @@ Click the **Shared Files** tile to open the **Sharing Links** report, where you 
 
 ![Site Permissions Changes report](../.gitbook/assets/permissions-review/permissions-review_sharing-links-report.png)
 
-TODO Externally Shared Content Tile
+Click the Externally Shared Files to open the **Externally Shared Content** report. Here, you can:
+* **see sharing links** that give access to external users, for example, **anonymous links (1)**
+* **remove sharing links** by **selecting a link (2)** and clicking the **Remove Sharing Link (3)** action 
+* **view external users and their permissions (4)**; permissions given directly to external users are also visible here
+* **Remove external users' access** by **selecting a user (5)** and clicking the **Remove from Group (6)** action
 
-### Complete Permissions Review
+![Externally Shared Content report](../.gitbook/assets/permissions-review/permissions-review_externally-shared-content-report-actions.png)
 
-TODO Finish
+For more details, click the **Permissions Matrix link**, which gives you a complete overview of permissions on your site.
+
+### Complete Permissions Review Task
+
+When you are done with the review, and have made sure that your site is secure, **Complete the permissions review**. To do so:
+* **click the Complete Review button (1)** on the bottom of the Task Details screen; the **Complete Review dialog opens**
+* **leave a comment**; here, you can describe what kind of changes were made to ensure that the site is secured; the comment is visible to all site owners
+* **type CONFIRM (3)** in the appropriate field
+* **click the Confirm button (4)**
+
+{% hint style="warning" %}
+**Please note!**
+You cannot undo or edit the **Complete Review** action.  
+{% endhint %}
+
+![Complete Review dialog](../.gitbook/assets/permissions-review/permissions-review_complete-review.png)
+
+After you complete the permissions review for a site, the **Review Completed** dialog opens confirming the completion. Click the **Close Review** button to leave the screen and navigate to the Permissions Review screen, where you can find sites that you need to review. 
+
+![Review Completed dialog](../.gitbook/assets/permissions-review/permissions-review_review-completed.png)
+
+When you complete permissions reviews for all sites you are the owner of, your **Permissions Review task is completed.**
+On **My Tasks** screen, under **Active Permissions Review (1)**, the **No Tasks (2)** message is displayed. You can find your **completed permissions review task (3)** in the **Completed section (4)**, and access task details by clicking the **See Task (5)** button.
+
+![My Tasks - Active and completed](../.gitbook/assets/permissions-review/permissions-review_task-active-completed.png)
+
+### Overdue Tasks
+
+After ten days, the permissions review cycle ends. SysKit Point automatically changes the status of all uncompleted reviews to **Overdue**. 
+You can find them on the **Permissions Review** task screen. 
+
+![Permissions Review - Overdue](../.gitbook/assets/permissions-review/permissions-review_overdue-reviews.png)
+
+After the permissions review completion, you can still access the **Task Details screen**, however, you cannot complete the permissions review.
+An **appropriate message is displayed** instead of the Complete Review button.
+
+![Task details message](../.gitbook/assets/permissions-review/permissions-review_overdue-details.png)
+
+**With that, the first permissions review cycle is completed**. The cycle will repeat per schedule, as defined in [Permissions Review Settings](../installation-and-configuration/enable-permissions-review.md), giving you the same reports and actions to make this process as easy as possible.
+
