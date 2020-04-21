@@ -224,9 +224,9 @@ On **My Tasks** screen, under **Active Permissions Review (1)**, the **No Tasks 
 
 ![My Tasks - Active and completed](../.gitbook/assets/permissions-review/permissions-review_task-active-completed.png)
 
-### Overdue Tasks
+### Overdue Reviews
 
-After ten days, the permissions review cycle ends. SysKit Point automatically changes the status of all uncompleted reviews to **Overdue**. 
+After ten days, the permissions review cycle ends. SysKit Point automatically changes the status of all uncompleted site reviews to **Overdue**. 
 You can find them on the **Permissions Review** task screen. 
 
 ![Permissions Review - Overdue](../.gitbook/assets/permissions-review/permissions-review_overdue-reviews.png)
