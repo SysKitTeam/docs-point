@@ -11,8 +11,8 @@ If you are a SysKit Point Admin, first check how to [enable and configure the Au
 {% endhint %}
 
 **Permissions review**, in the context of Office 365 environment, is an activity where a person responsible for an Office 365 resource - be it Communication site, Microsoft Team, Office 365 Group or OneDrive - checks whether permissions, given to users inside (internal) and outside (external) of company, comply with the organizational rules and guidelines. The **permissions review task is usually performed by a site owner** and includes:
-* **checking if all users - internal and external - have access to right resources**
-* **checking audit logs** to identify unwanted permissions changes
+* **checking if all users - internal and external - have access to right resources, be it through directly given permissions, or group memberships**
+* **identify unwanted permissions changes** by checking the audit logs 
 * **checking if only necessary content is externally shared**
 * **performing correcting actions** to mitigate errors discovered in previous steps
 
@@ -22,7 +22,13 @@ The permissions review in SysKit Point can be viewed from two different roles, a
 * [SysKit Point Admin user](#syskit-point-admin)
 * [SysKit Point Collaborator user](#syskit-point-collaborator)
 
-SysKit Point Admin users **define permissions review settings** and **decide what resources are reviewed**. Collaborators perform the permissions review on resources where they are an owner or admin. These two roles will have a **different set of reports and actions available** before and during the permissions review and will receive a different kind of emails. 
+When working with permissions review, SysKit Point Admin users can:
+* **define permissions review settings**
+* **decide what resources are reviewed**
+* **monitor permissions review progress**
+On the other hand, SysKit Point Collaborators can **perform the permissions review on resources where they are an owner or admin**.
+
+These two roles will have a **different set of reports and actions available** before and during the permissions review and will receive a different kind of emails. 
 
 First, we will take a look at the **SysKit Point Admin** users.
 
@@ -52,7 +58,7 @@ To ensure that all sites have an owner responsible for the upcoming permissions 
 
 ### Governance - Permissions Review
 
-On the start date of the automated permissions review, **permissions review tasks are created in SysKit Point**, and **email requests sent to site owners**. **Each site included in the permissions review has one review task**, and that **task is assigned to all active site owners** of that particular site.
+On the start date of the automated permissions review, **permissions review tasks are created in SysKit Point**, and **email requests sent to site owners**. **Each site owner gets one permissions review task** and **that task includes all sites where the said user is site owner**.
 
 To **track the progress** of the currently active permissions review, SysKit Point Admins can **use the Governance screen**. To access it, **click the Governance tile** on the Home screen.
 
