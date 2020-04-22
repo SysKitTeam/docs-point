@@ -23,7 +23,7 @@ The collection of **Yammer activity** is also accomplished through Microsoft 365
 **Data for Exchange, Yammer, and Microsoft Teams activities are collected by SysKit Point's dedicated service within non-working hours**, between 7:00 PM and 7:00 AM.
 
 {% hint style="warning" %}
-**Please note!   
+**Please note!  
 Activity is being monitored from Syskit Point installation onward!** This applies to SharePoint and Exchange workloads since historical data for these workloads is not available in usage reports.
 {% endhint %}
 

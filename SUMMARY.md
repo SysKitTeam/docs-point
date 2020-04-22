@@ -2,6 +2,7 @@
 
 * [SysKit Point](README.md)
 * [Product Updates](product-updates/README.md)
+  * [SysKit Point 13](product-updates/point-13-release-note.md)
   * [SysKit Point 12.1](product-updates/point-12-1-release-note.md)
   * [SysKit Point 12](product-updates/point-12-release-note.md)
   * [SysKit Point 11](product-updates/point-11-release-note.md)
@@ -15,6 +16,7 @@
   * [Upgrade SysKit Point](installation-and-configuration/upgrade-syskit-point.md)
   * [Enable Role-Based Access](installation-and-configuration/enable-role-based-access.md)
   * [Customize Audit Logs Collection](installation-and-configuration/customize-audit-logs-collection.md)
+  * [Enable Automated Permissions Review](installation-and-configuration/enable-permissions-review.md)
 * [Activation](activation/README.md)
   * [Activate SysKit Point](activation/activate-syskit-point.md)
   * [Activation Privacy Statement](activation/activation-privacy-statement.md)
@@ -30,6 +32,7 @@
   * [View Permission Changes in Office 365](common-tasks/view-permission-changes.md)
   * [Supervise Microsoft Teams Private Channels](common-tasks/supervise-microsoft-teams-private-channels.md)
   * [Configure SSL Certificate](common-tasks/configure-ssl-certificate.md)
+  * [Permissions Review in SysKit Point](common-tasks/permissions-review.md)
 * [FAQ](faq/README.md)
   * [Report Data Limits](faq/report-data-limits.md)
   * [Migrate Audit Logs](faq/migrate-audit-logs.md)
