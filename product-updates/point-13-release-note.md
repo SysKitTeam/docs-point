@@ -13,7 +13,7 @@ A lot of tweaks make this version of SysKit Point the best one yet, so make sure
 [Try SysKit Point trial](https://syskit.com/products/point/download/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
 **Product version:** 13.0.0  
-**Build number:** 653  
+**Build number:** 722  
 **Release date:** Apr 22, 2020
 
 ## Features
