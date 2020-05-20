@@ -16,13 +16,14 @@ Allowing access **enables site owners and business users to access SysKit Point*
 {% endhint %}
 
 {% hint style="warning" %}
+**Please note!**
 The web application is accessible on the Internet when you allow access to SysKit Point outside of Azure Virtual Machine. **To secure your data**, **SysKit Point uses modern authentication methods**, making sure that only the right users inside your Office 365 tenant can sign in, as defined in [SysKit Point security settings](../installation-and-configuration/enable-role-based-access.md).
 {% endhint %}
 
 ## Prerequisites
 
 Before you install and configure SysKit Point, make sure to secure the following Azure resources:
-* **Azure Virtual Machine** and/or **SQL Server Virtual Machine where SysKit Point is going to be installed**; you can install SysKit Point on the SQL Server Virtual Machine if no additional VM is available; 
+* **Azure Virtual Machine** and/or **SQL Server Virtual Machine where SysKit Point is going to be installed**; you can install SysKit Point on the SQL Server Virtual Machine if no additional Virtual Machine is available; 
 when creating Azure Resources, consider the [SysKit Point system requirements](../requirements/system-requirements.md)
 * **Network Security Group assigned to the Azure Virtual Machine**
 * **Public IP address (static)** 
