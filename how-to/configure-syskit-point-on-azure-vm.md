@@ -61,7 +61,7 @@ In this step you need to provide the following information required to connect t
     * **Windows Authentication**
     * **SQL authentication**
 
-![Configuration Wizard - Database Configuration step](../.gitbook/assets/azure-vm/azure-vm_configuration-database.png)
+![Configuration Wizard - Database Configuration step](../.gitbook/assets/azure-vm/azure-vm_configuration-database_test.png)
 
 {% hint style="warning" %}
 **Please note!**
