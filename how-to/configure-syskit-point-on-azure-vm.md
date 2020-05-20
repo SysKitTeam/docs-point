@@ -4,7 +4,7 @@ description: >-
   and allow access to the web application.
 ---
 
-# Configure SysKit Point on Azure VM
+# Configure SysKit Point on Azure Virtual Machine
 
 You can use this guide when:
 
