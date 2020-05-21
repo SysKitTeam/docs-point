@@ -23,7 +23,7 @@
   * [Activation FAQ](activation/activation-faq.md)
 * [How To](how-to/README.md)
   * [SysKit Point Quick Start Guide](how-to/syskit-point-quick-start-guide.md)
-  * [Configure SysKit Point on Azure VM](how-to/configure-syskit-point-on-azure-vm.md)
+  * [Configure SysKit Point on Azure Virtual Machine](how-to/configure-syskit-point-on-azure-vm.md)
   * [Collect Office 365 Data](how-to/collect-office-365-data.md)
 * [Common Tasks](common-tasks/README.md)
   * [Check Access for Specific Office 365 User](common-tasks/check-access-for-specific-user.md)
