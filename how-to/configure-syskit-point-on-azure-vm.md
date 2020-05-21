@@ -109,7 +109,8 @@ When using such setup, make sure to:
 * **Define the DNS name label (2)**
 * **Save your changes (3)**
 
-![Azure - DNS Name configuration](../.gitbook/assets/azure-vm/azure-vm_dns-name.png)
+![](../.gitbook/assets/azure-vm/azure-vm_dns-name_01.png)
+![Azure - DNS Name configuration](../.gitbook/assets/azure-vm/azure-vm_dns-name_02.png)
 
 After the configuration is complete, you can continue with the next step - allowing access to SysKit Point.
 
@@ -140,7 +141,8 @@ To allow inbound security rule for the Network Security Group associated with th
 * **Click Networking** in the Settings section
 * **Click Add inbound port rule button (1) to add a rule for TCP protocol with destination port 443 (2)**
 
-![Azure - Adding inbound port rule](../.gitbook/assets/azure-vm/azure-vm_networking.png)
+![](../.gitbook/assets/azure-vm/azure-vm_networking_01.png)
+![Azure - Adding inbound port rule](../.gitbook/assets/azure-vm/azure-vm_networking_02.png)
 
 After the inbound rule is created, you can continue and test access to the SysKit Point web application.
 
