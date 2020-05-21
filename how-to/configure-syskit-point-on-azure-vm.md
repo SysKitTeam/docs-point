@@ -61,7 +61,7 @@ In this step you need to provide the following information required to connect t
     * **Windows Authentication**
     * **SQL authentication**
 
-![Configuration Wizard - Database Configuration step](../.gitbook/assets/azure-vm/azure-vm_configuration-database_test.png)
+![Configuration Wizard - Database Configuration step](../.gitbook/assets/azure-vm/azure-vm_configuration-database.png)
 
 {% hint style="warning" %}
 **Please note!**
@@ -137,12 +137,10 @@ To allow inbound security rule for the Network Security Group associated with th
 
 * **Open** [Azure portal](https://portal.azure.com)
 * **Navigate to your Azure Virtual Machine** 
-* **Click Networking (1)** in the Settings section
-* **Click Add inbound port rule button (2) to add a rule for TCP protocol with destination port 443 (3)**
+* **Click Networking** in the Settings section
+* **Click Add inbound port rule button (1) to add a rule for TCP protocol with destination port 443 (2)**
 
 ![Azure - Adding inbound port rule](../.gitbook/assets/azure-vm/azure-vm_networking.png)
-
-![Azure - Inbound rule configuration](../.gitbook/assets/azure-vm/azure-vm_networking-rule.png)
 
 After the inbound rule is created, you can continue and test access to the SysKit Point web application.
 
