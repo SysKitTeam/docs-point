@@ -17,7 +17,7 @@ description: >-
 
 The permissions review in SysKit Point can be viewed from two different roles:
 
-* ** SysKit Point Collaborator user**, as described in this article
+* **SysKit Point Collaborator user**, as described in this article
 * [SysKit Point Admin user](../common-tasks/monitor-permissions-review.md)
 
 When working with permissions review, SysKit Point Collaborators can **perform the permissions review on resources where they are an owner or admin**.
