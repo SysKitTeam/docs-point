@@ -1,10 +1,15 @@
 ---
 description: >-
-  This article provides a full overview of the automated permissions
-  review process in SysKit Point from a site owner's perspective.
+  This article provides you with the full overview of the automated permissions
+  review process in SysKit Point.
 ---
 
-# Perform Permissions Review in SysKit Point
+# Permissions Review in SysKit Point
+
+{% hint style="warning" %}
+**Please note!**  
+If you are a SysKit Point Admin, first check how to [enable and configure the Automated Permissions Review in SysKit Point](../installation-and-configuration/enable-permissions-review.md).
+{% endhint %}
 
 **Permissions review**, in the context of Office 365 environment, is an activity where a person responsible for an Office 365 resource - be it Communication site, Microsoft Team, Office 365 Group or OneDrive - checks whether permissions, given to users inside \(internal\) and outside \(external\) of company, comply with the organizational rules and guidelines. The **permissions review task is usually performed by a site owner** and includes:
 
@@ -15,18 +20,113 @@ description: >-
 
 **SysKit Point** provides the tools the site owners need to perform these tasks.
 
-The permissions review in SysKit Point can be viewed from two different roles:
+The permissions review in SysKit Point can be viewed from two different roles, as described in this article:
 
-* [SysKit Point Collaborator user](permissions-review.md#syskit-point-collaborator), as described in this article
-* [SysKit Point Admin user](../common-tasks/monitor-permissions-review.md)
+* [SysKit Point Admin user](permissions-review.md#syskit-point-admin)
+* [SysKit Point Collaborator user](permissions-review.md#syskit-point-collaborator)
 
-When working with permissions review, SysKit Point Collaborators can **perform the permissions review on resources where they are an owner or admin**.
+When working with permissions review, SysKit Point Admin users can:
 
-For a site owner or admin assigned to the SysKit Point Collaborators role, the permissions review process begins with an email.
+* **define permissions review settings**
+* **decide what resources are reviewed**
+* **monitor permissions review progress**
 
-## Permissions Review Email Request
+  On the other hand, SysKit Point Collaborators can **perform the permissions review on resources where they are an owner or admin**.
 
-When the Automated Permissions Review starts, site owners receive an email request to review permissions on their site\(s\). The email contains the following important data:
+These two roles will have a **different set of reports and actions available** before and during the permissions review and will receive a different kind of emails.
+
+First, we will take a look at the **SysKit Point Admin** users.
+
+## SysKit Point Admin
+
+### Admin Reminder for the Upcoming Permissions Review
+
+Three workdays before the start of automated permissions review, SysKit Point Admin users will receive a reminder email with the most important information about the upcoming permissions review:
+
+* **start date** of permissions review
+* **number of site owners** that will be asked to perform a permissions review
+* **the number of resources** - Microsoft Teams, Office 365 Groups, sites, and OneDrive - included in the upcoming permissions review
+* **modify \(1\)** link
+* **Resolve Now \(2\)** button
+
+![Permissions review reminder email](../.gitbook/assets/permissions-review_reminder-before.png)
+
+Click the **modify** link if you need to change the settings for the permissions review. When logged in to SysKit Point, this link opens the Permissions Review Settings screen.
+
+If you are already signed in to SysKit Point, clicking the **Resolve Now** button opens the **Permissions Review – Preview** report with the preselected **Orphaned Sites view \(2\)**. Here, you can **select a site \(3\)** and add active users as site owners with the help of the **Change Owners action \(4\)**.
+
+![Permissions Review &#x2014; Preview - Orphaned Sites](../.gitbook/assets/permissions-review_preview-orphaned-sites.png)
+
+{% hint style="warning" %}
+**Please note!**  
+To ensure that all sites have an owner responsible for the upcoming permissions review, set active users as site owners for all orphaned sites.
+{% endhint %}
+
+### Governance - Permissions Review
+
+On the start date of the automated permissions review, **permissions review tasks are created in SysKit Point**, and **email requests sent to site owners**. **Each site owner gets one permissions review task** and **that task includes all sites where the said user is site owner**.
+
+To **track the progress** of the currently active permissions review, SysKit Point Admins can **use the Governance screen**. To access it, **click the Governance tile** on the Home screen.
+
+![Home screen - Governance tile](../.gitbook/assets/permissions-review_home.png)
+
+When clicked, the Governance screen opens, giving a summary for the Active Permissions Review. Here, the following is displayed:
+
+* visual representation and the percentage of permissions review tasks completed \(1\)
+* start and end date of the permissions review \(2\)
+* number of completed review tasks \(3\)
+* number of completed reviews by site type \(4\)
+* **See Review Details** button \(5\) which opens the **Permissions Review** report
+
+![Governance - Permissions Review](../.gitbook/assets/permissions-review_governance.png)
+
+The Permissions Review report gives SysKit Point Admins the following information:
+
+* **request date**, **due date**, **progress**, and **date when the automatic reminder will be sent to site owners \(1\)**
+* **review status \(2\)** for each site included in the permissions review; can be **Pending** or **Completed**
+* **comments \(3\)** provided by site owners when completing the review
+* **all site owners**; blocked or deleted owners are displayed in **gray color \(4\)**
+* **Remind Owners action \(5\)** to manually send the reminder email to site owners
+
+![Governance - Permissions Review](../.gitbook/assets/permissions-review_governance-review-details.png)
+
+Use the **Remind Owners action** to send a reminder email to site owners regarding the ongoing permissions review. You can use this action **once a day**, whenever you think appropriate, **as long as the permissions review is active**. **Only site owners with pending tasks will receive an email**.
+
+{% hint style="warning" %}
+**Please note!** Permissions review has a predefined duration of **ten days**. In this time frame, site owners should be able to complete the permissions review on their sites. By default, **three days before the permissions review end date**, SysKit Point sends an automatic **email reminder to all site owners with pending tasks**.
+{% endhint %}
+
+### Permissions Review Completion
+
+Ten days after the start, the permissions review is automatically marked as completed. SysKit Point also sends summary emails regarding the completed review to all SysKit Point Admin users. The email contains the following information:
+
+* **number of sites where the permissions review was completed \(1\)**; grouped by site type
+* **total number of sites where the permissions review was not completed \(2\)**
+* **View Uncompleted Tasks \(3\)** button
+
+![Email - Permissions Review completed](../.gitbook/assets/permissions-review_email-after.png)
+
+To view sites where the permissions review was not completed, click the **View Uncompleted Tasks** button. If already signed in to SysKit Point, you will be redirected to the **Permissions Review** report. Here, you can see that all tasks where the permissions review was not completed have the status set to **Overdue**. SysKit Point changes the status automatically when the permissions review ends.
+
+![Permissions Review - Overdue tasks](../.gitbook/assets/permissions-review_governance-review-details-overdue.png)
+
+If you take a step back and look at the Governance screen, you can notice the following:
+
+* **Active Review \(1\)** category is displaying the **No active Permissions Review \(2\)** message
+* **Previous Reviews \(3\)** category has a single entry - **the completed permissions review \(4\)**
+* **See Details \(5\)** button is visible on the completed permissions review tile
+
+The **See Details** button opens the **Permissions Review** report, already described in this section.
+
+![Governance - Active and Previous category](../.gitbook/assets/permissions-review_governance-active-previous.png)
+
+With that, we finish the permissions review overview for SysKit Point Admin users and continue with SysKit Point Collaborators overview.
+
+## SysKit Point Collaborator
+
+### Permissions Review Email Request
+
+When the Automated Permissions Review starts, all site owners receive an email request to review permissions on their site\(s\). The email contains the following important data:
 
 * **number of sites an owner needs to review \(1\)**; grouped by site type
 * **due date of the permissions review \(2\)**
@@ -41,9 +141,9 @@ The **Review Now** button opens the **Permissions Review Task** screen once clic
 
 ![Permissions Review Task screen](../.gitbook/assets/permissions-review_task.png)
 
-From here, you can continue and review a site by clicking the **link in the Task column \(2\)**, or **selecting a row \(3\)** and clicking the **Review action \(4\)**. You can access the same screen from within SysKit Point from the **My Tasks** screen.
+From here, you can continue and review a site by clicking the **link in the Task column \(2\)**, or **selecting a row \(3\)** and clicking the **Review action \(4\)**. We will stop here for now, and show how to access the same screen from within SysKit Point.
 
-## My Tasks
+### My Tasks
 
 On the Home screen, you can notice the **My Tasks** tile and a notification bubble displaying the number of tasks you need to address. It is set to one because a single permissions review task was created by SysKit Point and assigned to you. The **persona** button shows the same notification bubble. To view your tasks, click the **My Tasks tile** on the Home screen, or the **My Tasks section** in the persona drop-down menu.
 
@@ -60,7 +160,7 @@ On the Home screen, you can notice the **My Tasks** tile and a notification bubb
 
 Click **Review** to continue. The **Permissions Review Task** screen opens - the same screen that you accessed from email in the previous section where we stopped. From here, you can continue and review a site by clicking the **link in the Task column**. The **Task Details** screen opens.
 
-## Permissions Review Task Details
+### Permissions Review Task Details
 
 The Task Details screen you information, reports, and actions needed to perform a permissions review. The following is available on the screen:
 
@@ -123,7 +223,7 @@ Click the Externally Shared Files to open the **Externally Shared Content** repo
 
 For more details, click the **Permissions Matrix link**, which gives you a complete overview of permissions on your site.
 
-## Complete Permissions Review Task
+### Complete Permissions Review Task
 
 When you are done with the review, and have made sure that your site is secure, **Complete the permissions review**. To do so:
 
@@ -146,7 +246,7 @@ When you complete permissions reviews for all sites you are the owner of, your *
 
 ![My Tasks - Active and completed](../.gitbook/assets/permissions-review_task-active-completed.png)
 
-## Overdue Reviews
+### Overdue Reviews
 
 After ten days, the permissions review cycle ends. SysKit Point automatically changes the status of all uncompleted site reviews to **Overdue**. You can find them on the **Permissions Review** task screen.
 
@@ -156,5 +256,5 @@ After the permissions review completion, you can still access the **Task Details
 
 ![Task details message](../.gitbook/assets/permissions-review_overdue-details.png)
 
-**With that, the first permissions review cycle is completed**. The cycle will repeat per schedule, as defined by SysKit Point Admin, giving you the same reports and actions to make this process as easy as possible.
+**With that, the first permissions review cycle is completed**. The cycle will repeat per schedule, as defined in [Permissions Review Settings](../installation-and-configuration/enable-permissions-review.md), giving you the same reports and actions to make this process as easy as possible.
 
