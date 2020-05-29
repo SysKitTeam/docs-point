@@ -34,7 +34,7 @@
   * [Supervise Microsoft Teams Private Channels](common-tasks/supervise-microsoft-teams-private-channels.md)
   * [Configure SSL Certificate](common-tasks/configure-ssl-certificate.md)
   * [Perform Permissions Review in SysKit Point](common-tasks/permissions-review.md)
-  * [Monitor Permissions Review in SysKit Point](common-tasks/permissions-review-admin.md)
+  * [Monitor Permissions Review in SysKit Point](common-tasks/monitor-permissions-review.md)
 * [FAQ](faq/README.md)
   * [Report Data Limits](faq/report-data-limits.md)
   * [Migrate Audit Logs](faq/migrate-audit-logs.md)
