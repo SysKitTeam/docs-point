@@ -7,6 +7,7 @@ description: >-
 # SysKit Point 14
 
 **SysKit Point 14** is here!
+
 Before the summer, it’s time to **get your Office 365 tenant into shape**! To help you with that, **SysKit Point 14** comes equipped with **Lifecycle Management Automation** and a set of new actions for you to exercise - **Keep**, **Archive**, **Delete**, and **Restore**.  
 As with all SysKit Point upgrades, this one is also filled with big and small improvements, giving you the best experience ever!
 Read on and learn what’s new!
