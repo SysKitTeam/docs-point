@@ -86,7 +86,7 @@ By default, site owners will receive two additional emails reminding them to com
 * **three days before the due**
 * **on the due date**
 
-  The emails display an appropriate message depending on the time you have left to complete the task and provide you with all available Lifecycle Management actions needed for task completion.
+The emails display an appropriate message depending on the time you have left to complete the task and provide you with all available Lifecycle Management actions needed for task completion.
 
 ![Lifecycle Management &#x2013; Reminder email](../.gitbook/assets/lifecycle-management_reminder-email.png)
 
