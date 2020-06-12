@@ -17,7 +17,7 @@ To Use the advantages of **Lifecycle Management Automation** in **SysKit Point**
 * **Configure Lifecycle Management Automation in settings**
 
 {% hint style="warning" %}
-**Please note!**                                                                                                                                                Only users assigned to the SysKit Point Admin role can access and configure Settings in SysKit Point.
+**Please note!**                                                                                                                                                Only users assigned to the **SysKit Point Admin** role can access and configure Settings in SysKit Point.
 {% endhint %}
 
 
