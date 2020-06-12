@@ -30,7 +30,7 @@ To start with the configuration, open the **Settings** &gt; **Governance** &gt; 
 
 If you haven't enabled the **E-mail** or **SysKit Point Collaborators** role yet, the screen will look like this.
 
-![SysKit Point Settings screen - Lifecycle Management Actions Required](../.gitbook/assets/1.png)
+![SysKit Point Settings screen - Lifecycle Management Actions Required](../.gitbook/assets/1%20%281%29.png)
 
 {% hint style="info" %}
 **Hint** – if you don't know how to enable those settings visit [Set Up E-Mail](https://docs.syskit.com/point/installation-and-configuration/enable-permissions-review#set-up-e-mail) and Enable [SysKit Point Collaborators](https://docs.syskit.com/point/installation-and-configuration/enable-permissions-review#enable-syskit-point-collaborators) articles on SysKit Docs page.
@@ -80,7 +80,7 @@ Once your changes are saved, you can click the **Preview tile**, which opens the
 * **view all site owners that will receive a lifecycle management e-mail**; for each Microsoft Team, Office 365 Group, site included in the lifecycle management automation.
 * **change admins** by **selecting a row \(4\)** and clicking the **Change Admins action \(5\)** available in the side panel
 
-![SysKit Point - Lifecycle Management Preview report](../.gitbook/assets/5.png)
+![SysKit Point - Lifecycle Management Preview report](../.gitbook/assets/5%20%281%29.png)
 
 Choose the **Specific items \(1\)** option if you want to manually select specific sites to be included in the lifecycle management automation. You can also select the checkbox if you wish to Auto-select new resources.
 

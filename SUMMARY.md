@@ -39,7 +39,7 @@
   * [Monitor Permissions Review in SysKit Point](common-tasks/monitor-permissions-review.md)
   * [Resolve Lifecycle Management Tasks in SysKit Point](common-tasks/lifecycle-management.md)
   * [Monitor Lifecycle Management Tasks in SysKit Point](common-tasks/monitor-lifecycle-management.md)
-  * [Run Lifecycle Management Actions](common-tasks/lifecycle-management-actions.md)
+  * [Run Lifecycle Management Actions in SysKit Point](common-tasks/lifecycle-management-actions.md)
 * [FAQ](faq/README.md)
   * [Report Data Limits](faq/report-data-limits.md)
   * [Migrate Audit Logs](faq/migrate-audit-logs.md)
