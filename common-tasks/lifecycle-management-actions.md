@@ -23,7 +23,7 @@ Each action can be executed by **SysKit Point Admin** and **SysKit Point Collabo
 
 You can find the actions in the side panel, under the **Manage category** **\(1\)**, except for the **Lifecycle Management task details** screen, where they are **displayed in a ribbon \(2\)**.
 
-![Sites Overview &#x2013; Side panel](../.gitbook/assets/0%20%281%29.png)
+![Sites Overview &#x2013; Side panel](../.gitbook/assets/0%20%282%29.png)
 
 
 
@@ -38,7 +38,7 @@ The **Restore** action is **available for deleted and archived resources only.**
 * **Can be Restored \(4\)** – green checkmark is displayed for resources currently in the Recycle Bin and can be restored
 * **Restore action \(5\)** is available in the side panel, as already described.
 
-![Deleted Sites View](../.gitbook/assets/2%20%281%29.png)
+![Deleted Sites View](../.gitbook/assets/2%20%282%29.png)
 
 
 
@@ -69,7 +69,7 @@ When executing this action, you can:
 * **leave a comment \(2\)** on why you want to keep this resource
 * **confirm the action** by clicking the **Keep button \(3\)**
 
-![Keep action dialog](../.gitbook/assets/3%20%281%29.png)
+![Keep action dialog](../.gitbook/assets/3%20%282%29.png)
 
 By default, the selected period \(number of days\) is defined inside the settings, after which a resource will be considered inactive. Besides the default option, you can always choose one of the following:
 
@@ -80,7 +80,7 @@ By default, the selected period \(number of days\) is defined inside the setting
 
 The **Custom** option lets you choose a specific date in the future until which you want to keep a resource and consider it active.
 
-![Keep dialog with custom selection](../.gitbook/assets/4%20%281%29.png)
+![Keep dialog with custom selection](../.gitbook/assets/4%20%282%29.png)
 
   
 As a result of this action, you can see the resource getting a new activity state – **Kept** – visible in the **Activity column \(1\)** on overview screens. Kept resources are depicted with a yellow circle. **On hover \(2\)**, the circle provides additional information on who and until when said to keep the resource.
@@ -109,7 +109,7 @@ On the Archive action dialog, you can:
 * **confirm the action by typing ARCHIVE \(2\)**
 * **execute the action by clicking the Archive button \(3\)**
 
-![Archive action dialog](../.gitbook/assets/6%20%281%29.png)
+![Archive action dialog](../.gitbook/assets/6%20%282%29.png)
 
 {% hint style="warning" %}
 **Please note!**  
