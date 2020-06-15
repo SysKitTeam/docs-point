@@ -10,10 +10,10 @@ description: >-
 **Before you continue**, check if the Lifecycle Management Automation feature is included in your [subscription plan](https://www.syskit.com/products/point/pricing/).
 {% endhint %}
 
-To use the advantages of **Lifecycle Management Automation** in **SysKit Point**, you need to:
+To Use the advantages of **Lifecycle Management Automation** in **SysKit Point**, you need to:
 
 * **Set up e-mail settings**
-* **Enable the SysKit Point Collaborators role**
+* **Enable SysKit Point Collaborators role**
 * **Configure Lifecycle Management Automation in settings**
 
 {% hint style="warning" %}
@@ -24,7 +24,7 @@ To use the advantages of **Lifecycle Management Automation** in **SysKit Point**
 
 ## Enable Lifecycle Management
 
-To start with the configuration, open the **Settings** &gt; **Governance** &gt; **Lifecycle Management** screen. Initially, you will see two **accordions** named; **General** and **Automation**. To expand the **Lifecycle Management Automation** settings, click on the Automation accordion \(1\).
+To start with the configuration, open the **Settings** &gt; **Governance** &gt; **Lifecycle Management** screen. Initially, you will see two **accordions** named; **General** and **Automation**. To expand the **Lifecycle Management Automation** settings, click on Automation accordion \(1\).
 
 ![SysKit Point Settings Screen - Lifecycle Management accordions](../.gitbook/assets/0.png)
 
@@ -33,12 +33,12 @@ If you haven't enabled the **E-mail** or **SysKit Point Collaborators** role yet
 ![SysKit Point Settings screen - Lifecycle Management Actions Required](../.gitbook/assets/1%20%281%29.png)
 
 {% hint style="info" %}
-**Hint** – if you don't know how to enable those settings visit the [Set Up E-Mail](https://docs.syskit.com/point/installation-and-configuration/enable-permissions-review#set-up-e-mail) and Enable [SysKit Point Collaborators](https://docs.syskit.com/point/installation-and-configuration/enable-permissions-review#enable-syskit-point-collaborators) articles on the SysKit Docs page.
+**Hint** – if you don't know how to enable those settings visit [Set Up E-Mail](https://docs.syskit.com/point/installation-and-configuration/enable-permissions-review#set-up-e-mail) and Enable [SysKit Point Collaborators](https://docs.syskit.com/point/installation-and-configuration/enable-permissions-review#enable-syskit-point-collaborators) articles on SysKit Docs page.
 {% endhint %}
 
 ## Customize Lifecycle Management Automation
 
-When you have enabled the required options, click on **Enable Lifecycle Management Automation** \(1\). After that, more options becomes available.
+When you have enabled required options, click on **Enable Lifecycle Management Automation** \(1\). After that, more options becomes available.
 
 You can select between three available actions for your **Site Owners** to take :
 
@@ -47,7 +47,7 @@ You can select between three available actions for your **Site Owners** to take 
 * **Delete**
 
 {% hint style="warning" %}
-**Please note** – Action **Keep** cannot be disabled, also a minimum of **two** actions is needed for this feature to be functional.
+**Please note** – Action **Keep** cannot be disabled, also minimum of **two** actions is needed for this feature to be functional.
 {% endhint %}
 
 If you wish to receive an **automatic reminder** for uncompleted tasks, select said checkbox \(2\).
@@ -70,7 +70,7 @@ By default, the **All Microsoft Teams, Office 365 Groups and sites \(1\)** optio
 ![SysKit Point Settings screen - Lifecycle Management Dynamic Target Selection](../.gitbook/assets/4%20%281%29.png)
 
 {% hint style="warning" %}
-**Please note** that if you haven't received the approval from **Microsoft** for detecting activity of **Microsoft Teams**, those resources **will not be monitored** with **Lifecycle Management Automation**.
+**Please note** that if you haven't got the approval from **Microsoft** for detecting activity of **Microsoft Teams**, those resources **will not be monitored** with **Lifecycle Management Automation**.
 {% endhint %}
 
 Once your changes are saved, you can click the **Preview tile**, which opens the **Lifecycle Management - Preview** report showing detailed information about resources that will be included in the lifecycle management automation. On the report, you can:
@@ -88,5 +88,5 @@ Choose the **Specific items \(1\)** option if you want to manually select specif
 
 When done with the selection, save your changes.
 
-Now that everything is defined, the lifecycle management will start automatically. To learn all about the lifecycle management in SysKit Point, visit the [following article](https://docs.syskit.com/point/common-tasks/lifecycle-management).
+Now that everything is defined, the lifecycle management will start automatically. To learn all about the lifecycle management in SysKit Point, visit the [following article](https://app.gitbook.com/@syskit/s/point-staging/common-tasks/monitor-lifecycle-management).
 
