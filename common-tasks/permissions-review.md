@@ -1,7 +1,7 @@
 ---
 description: >-
-  This article provides a full overview of the automated permissions
-  review process in SysKit Point from a site owner's perspective.
+  This article provides a full overview of the automated permissions review
+  process in SysKit Point from a site owner's perspective.
 ---
 
 # Perform Permissions Review in SysKit Point
@@ -18,7 +18,7 @@ description: >-
 The permissions review in SysKit Point can be viewed from two different roles:
 
 * **SysKit Point Collaborator user**, as described in this article
-* [SysKit Point Admin user](../common-tasks/monitor-permissions-review.md)
+* [SysKit Point Admin user](monitor-permissions-review.md)
 
 When working with permissions review, SysKit Point Collaborators can **perform the permissions review on resources where they are an owner or admin**.
 

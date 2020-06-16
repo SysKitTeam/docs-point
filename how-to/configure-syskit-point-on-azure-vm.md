@@ -17,7 +17,7 @@ Allowing access **enables site owners and business users to access SysKit Point*
 {% endhint %}
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 The web application is accessible on the Internet when you allow access to SysKit Point outside of Azure Virtual Machine. **To secure your data**, **SysKit Point uses modern authentication methods**, making sure that only the right users inside your Office 365 tenant can sign in, as defined in [SysKit Point security settings](../installation-and-configuration/enable-role-based-access.md).
 {% endhint %}
 
@@ -25,7 +25,7 @@ The web application is accessible on the Internet when you allow access to SysKi
 
 Before you install and configure SysKit Point, make sure to secure the following Azure resources:
 
-* **Azure Virtual Machine** and/or **SQL Server Virtual Machine where SysKit Point is going to be installed**; you can install SysKit Point on the SQL Server Virtual Machine if no additional Virtual Machine is available; 
+* **Azure Virtual Machine** and/or **SQL Server Virtual Machine where SysKit Point is going to be installed**; you can install SysKit Point on the SQL Server Virtual Machine if no additional Virtual Machine is available;
 
   when creating Azure Resources, consider the [SysKit Point system requirements](../requirements/system-requirements.md)
 
@@ -33,7 +33,7 @@ Before you install and configure SysKit Point, make sure to secure the following
 * **Public IP address \(static\)** 
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 Azure SQL Database is currently not supported.
 {% endhint %}
 
@@ -45,7 +45,7 @@ In addition to Azure Resources, **the following is recommended when using SysKit
 ## Install and Configure SysKit Point
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 To install and configure SysKit Point, make sure to **enable RDP connection \(port 3389\)** that allows you to access your virtual machine. After the configuration, you can remove the inbound rule allowing RDP connection.
 {% endhint %}
 
@@ -72,7 +72,7 @@ In this step you need to provide the following information required to connect t
 ![Configuration Wizard - Database Configuration step](../.gitbook/assets/azure-vm_configuration-database.png)
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 If you have provisioned a **separate Azure Virtual Machine** for hosting SysKit Point, **make sure it is deployed to the same Virtual Network as SQL Server Virtual Machine** and **can establish a connection to the SQL Server** by following the [guidelines](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-connect#connect-to-sql-server-within-a-virtual-network) from Microsoft.
 {% endhint %}
 
@@ -110,7 +110,7 @@ When using such setup, make sure to:
 * **Self-signed certificate created by SysKit Point**
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 **Self-signed certificates are by default not publicly trusted**; therefore, your connection to Point application may be marked as not private in the browser when accessing SysKit Point URL.
 {% endhint %}
 
@@ -155,7 +155,7 @@ To allow inbound security rule for the Network Security Group associated with th
 * **Open** [Azure portal](https://portal.azure.com)
 * **Navigate to your Azure Virtual Machine** 
 * **Click Networking** in the Settings section
-* **Click Add inbound port rule button (1) to add a rule for TCP protocol with destination port 443 (2)**
+* **Click Add inbound port rule button \(1\) to add a rule for TCP protocol with destination port 443 \(2\)**
 
 ![](../.gitbook/assets/azure-vm_networking_01.png)
 

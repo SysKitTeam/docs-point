@@ -1,10 +1,10 @@
 ---
 description: >-
-  This article provides a full overview of the automated permissions
-  review process for SysKit Point Admins.
+  This article provides a full overview of the automated permissions review
+  process for SysKit Point Admins.
 ---
 
-# Permissions Review in SysKit Point
+# Monitor Permissions Review in SysKit Point
 
 {% hint style="warning" %}
 **Please note!**  
@@ -23,7 +23,7 @@ First, make sure to check how to [enable and configure the Automated Permissions
 The permissions review in SysKit Point can be viewed from two different roles:
 
 * **SysKit Point Admin user**, as described in this article
-* [SysKit Point Collaborator user](../common-tasks/permissions-review.md)
+* [SysKit Point Collaborator user](permissions-review.md)
 
 When working with permissions review, SysKit Point Admin users can:
 
@@ -35,8 +35,7 @@ On the other hand, SysKit Point Collaborators can **perform the permissions revi
 
 These two roles will have a **different set of reports and actions available** before and during the permissions review and will receive a different kind of emails.
 
-Here, we will describe how **SysKit Point Admin** can monitor the progress of an active permissions review. 
-
+Here, we will describe how **SysKit Point Admin** can monitor the progress of an active permissions review.
 
 ## Admin Reminder for the Upcoming Permissions Review
 
