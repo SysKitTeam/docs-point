@@ -32,7 +32,7 @@ On the other hand, SysKit Point Collaborators can perform lifecycle management a
 
 Here, we will describe how a SysKit Point Admin can monitor the progress of an ongoing lifecycle management tasks.
 
-### Weekly summary of inactive content
+## Weekly summary of inactive content
 
 Let’s say that lifecycle management automation was enabled for your Office 365 environment in SysKit Point, every Site Owner received their e-mails and are taking care of their inactive resources. A week has passed and the SysKit Point Admin receives a Weekly summary of inactive content via e-mail with the following informations:
 
@@ -52,14 +52,13 @@ Clicking on **Resolve now** opens the lifecycle management **Awaiting Response**
 To ensure that every resource has an owner responsible for lifecycle management, always set an active user as an owner for orphaned resources.
 {% endhint %}
 
-### Governance – Lifecycle Management
+## Governance – Lifecycle Management
 
 To **track the progress** of the ongoing Lifecycle Management, SysKit Point Admins can **use the Governance screen.** To access it, **click the Governance tile** on the Home screen.
 
 ![SysKit Point - Home screen Governance Tile](../.gitbook/assets/2%20%281%29.png)
 
-You will be redirected to the **Governance screen**. Under the lifecycle management tab, click on the **Overview** \(1\). A **Lifecycle Management Overview** screen appears where you can check:  
-
+You will be redirected to the **Governance screen**. Under the lifecycle management tab, click on the **Overview** \(1\). A **Lifecycle Management Overview** screen appears where you can check:
 
 * **Resources that require your attention** \(orphaned resources\)\(2\)
 * See all **inactive resources** in your environment\(3\)
@@ -71,7 +70,7 @@ You will be redirected to the **Governance screen**. Under the lifecycle managem
 
 ![SysKit Point - Lifecycle Management Overview](../.gitbook/assets/3%20%281%29.png)
 
-### Resources that require your attention
+## Resources that require your attention
 
 When you click to resolve resources that require your attention, you will be redirected to the **Awaiting Response** report where you will find all the resources that require some sort of actions. Resources that you find there can be **Orphaned** resources, or resources that have tasks which are **Overdue**.
 
@@ -79,7 +78,7 @@ On said screen you can choose the resource and perform some actions, be it lifec
 
 ![SysKit Point - Awaiting Response report](../.gitbook/assets/4.png)
 
-### See all inactive resources in your environment
+## See all inactive resources in your environment
 
 When you click on **View All** inactive resources, SysKit Point generates an **Inactive Content** report showing you all the resources in your environment which are inactive, regardless of them being monitored or not by Lifecycle Management.
 
@@ -87,7 +86,7 @@ On said report you get an option to **Keep, Archive** or **Delete** any resource
 
 ![SysKit Point - Inactive Content Report](../.gitbook/assets/5.png)
 
-### View Lifecycle Management History
+## View Lifecycle Management History
 
 If you click on **View History**, **SysKit Point** redirects you to the **Lifecycle Management History** report, where you can see all the lifecycle management tasks that were performed in your environment, you can also:
 

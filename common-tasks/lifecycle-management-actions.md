@@ -25,11 +25,7 @@ You can find the actions in the side panel, under the **Manage category** **\(1\
 
 ![Sites Overview &#x2013; Side panel](../.gitbook/assets/0%20%282%29.png)
 
-
-
 ![Lifecycle Management Task - Actions](../.gitbook/assets/1.png)
-
-
 
 The **Restore** action is **available for deleted and archived resources only.** You can find these resources on the overview screens by selecting the **Deleted/Archived Sites/Groups view \(1\)**. On the view, additional columns are available:
 
@@ -39,8 +35,6 @@ The **Restore** action is **available for deleted and archived resources only.**
 * **Restore action \(5\)** is available in the side panel, as already described.
 
 ![Deleted Sites View](../.gitbook/assets/2%20%282%29.png)
-
-
 
 {% hint style="warning" %}
 **Please note!**  
@@ -82,7 +76,6 @@ The **Custom** option lets you choose a specific date in the future until which 
 
 ![Keep dialog with custom selection](../.gitbook/assets/4%20%282%29.png)
 
-  
 As a result of this action, you can see the resource getting a new activity state – **Kept** – visible in the **Activity column \(1\)** on overview screens. Kept resources are depicted with a yellow circle. **On hover \(2\)**, the circle provides additional information on who and until when said to keep the resource.
 
 ![Sites overview screen - Kept resource](../.gitbook/assets/image.png)
