@@ -11,10 +11,10 @@ description: >-
 Before the summer, it’s time to **get your Office 365 tenant into shape**! To help you with that, **SysKit Point 14** comes equipped with **Lifecycle Management Automation** and a set of new actions for you to exercise - **Keep**, **Archive**, **Delete**, and **Restore**.  
 As with all SysKit Point upgrades, this one is also filled with big and small improvements, giving you the best experience ever! Read on and learn what’s new!
 
-[Try SysKit Point trial](https://www.syskit.com/products/point/request-a-free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
+[Try SysKit Point trial](https://syskit.com/products/point/download/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
 **Product version:** 14.0.0  
-**Build number:** 836  
+**Build number:** 8xx  
 **Release date:** Jun 16, 2020
 
 ## Features
@@ -35,7 +35,7 @@ As with all SysKit Point upgrades, this one is also filled with big and small im
   * when trying to remove access for a blocked user
   * when trying to remove access for multiple users in case the removal fails for a single user
 
-    Action dialog description was also changed to improve readability.
+    Action dialog description was also changed to improve readability.  
 * **External user’s management improved**! Site owners and admins can now view reports for external users that have access to their sites. Before, site owners needed to be the external user's manager to see such information, which often resulted in insufficient data for most site owners.
 * **Sign-in flow is improved**! Before, SysKit Point would always redirect to the Home screen after a user signed in, even though they opened a link with a specified target screen from a Permissions Review email. Now, the defined target screen opens after the sign-in and enables a user to continue where he left off.
 * **Various UX/UI improvements and minor fixes available.**
