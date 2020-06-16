@@ -24,7 +24,7 @@ Permission requirements for the account used to connect to the SQL server are li
 
 ## Hardware
 
-**Hardware requirements highly depend on the Office 365 activity, number of users and the amount of data in your environment.** The larger the environment, the more resources will be required to smoothly run SysKit Point.
+**Hardware requirements highly depend on the Office 365 activity, the number of users, and the amount of data in your environment.** The larger the environment, the more resources will be required to smoothly run SysKit Point.
 
 SysKit Point requires a server where SysKit Point will be installed and a SQL server for the database \(for smaller Office 365 environments this can be the same server\).
 
