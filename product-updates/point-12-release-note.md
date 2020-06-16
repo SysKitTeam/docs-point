@@ -10,7 +10,7 @@ Sticking to our new year’s resolutions and trying to improve isn’t an easy t
 
 Discover what’s new in the list below!
 
-[Try SysKit Point trial](https://syskit.com/products/point/download/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
+[Try SysKit Point trial](https://www.syskit.com/products/point/request-a-free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
 **Product version:** 12.0.0  
 **Build number:** 387  
