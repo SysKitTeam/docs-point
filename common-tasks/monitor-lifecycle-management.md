@@ -11,9 +11,9 @@ description: >-
 First, make sure to check how to [enable and configure Lifecycle Management Automation in SysKit Point.](https://docs.syskit.com/point/installation-and-configuration/enable-lifecycle-management)
 {% endhint %}
 
-All **content** and **resources** in your **Office 365** Environment have a certain **lifecycle**, be it the **creation** of the **new** resource, that resource being **used** for collaboration, file sharing, chat or when a product is retired and when the previously used resource becomes **stale**, **inactive** and **no longer needed**.
+All **content** and **resources** in your **Office 365** Environment have a certain **lifecycle**, be it the **creation** of the **new** resource, that resource being **used** for collaboration, file sharing, chat, or when a product is retired and when the previously used resource becomes **stale**, **inactive** and **no longer needed**.
 
-That last moment is where **SysKit Point Lifecycle Management** comes to shine. It empowers your **Site Owners** to choose whether they want to **Keep**, **Delete** or **Archive** their inactive resources.
+That last moment is where **SysKit Point Lifecycle Management** comes to shine. It empowers your **Site Owners** to choose whether they want to **Keep**, **Delete,** or **Archive** their inactive resources.
 
 The lifecycle management in **SysKit Point** can be viewed from **two** different **roles**:
 
@@ -30,14 +30,14 @@ When working with lifecycle management, SysKit Point Admin users can:
 
 On the other hand, SysKit Point Collaborators can perform lifecycle management actions on resources where they are an owner or admin.
 
-Here, we will describe how a SysKit Point Admin can monitor the progress of an ongoing lifecycle management tasks.
+Here, we will describe how a SysKit Point Admin can monitor the progress of ongoing lifecycle management tasks.
 
 ## Weekly summary of inactive content
 
-Let’s say that lifecycle management automation was enabled for your Office 365 environment in SysKit Point, every Site Owner received their e-mails and are taking care of their inactive resources. A week has passed and the SysKit Point Admin receives a Weekly summary of inactive content via e-mail with the following informations:
+Let’s say that lifecycle management automation was enabled for your Office 365 environment in SysKit Point, every Site Owner received their e-mails and are taking care of their inactive resources. A week has passed and the SysKit Point Admin receives a Weekly summary of inactive content via e-mail with the following information:
 
 * newly detected **inactive resources** \(1\)
-* resources that **require** the SysKit Point Admins **attention** \(resources still awating a response or ones that might be without owners\) \(2\)
+* resources that **require** the SysKit Point Admins **attention** \(resources still awaiting a response or ones that might be without owners\) \(2\)
 
 ![SysKit Point - Weekly Summary e-mail](../.gitbook/assets/0%20%281%29.png)
 
@@ -72,9 +72,9 @@ You will be redirected to the **Governance screen**. Under the lifecycle managem
 
 ## Resources that require your attention
 
-When you click to resolve resources that require your attention, you will be redirected to the **Awaiting Response** report where you will find all the resources that require some sort of actions. Resources that you find there can be **Orphaned** resources, or resources that have tasks which are **Overdue**.
+When you click to resolve resources that require your attention, you will be redirected to the **Awaiting Response** report where you will find all the resources that require some sort of action. Resources that you find there can be **Orphaned** resources or resources that have **Overdue** tasks.
 
-On said screen you can choose the resource and perform some actions, be it lifecycle management actions \(**keep**, **archive**, **delete**\) or you can **change** the **owner**/**admin** of the resource.
+On the said screen you can choose the resource and perform some actions, be it lifecycle management actions \(**keep**, **archive**, **delete**\) or you can **change** the **owner**/**admin** of the resource.
 
 ![SysKit Point - Awaiting Response report](../.gitbook/assets/4.png)
 
@@ -82,7 +82,7 @@ On said screen you can choose the resource and perform some actions, be it lifec
 
 When you click on **View All** inactive resources, SysKit Point generates an **Inactive Content** report showing you all the resources in your environment which are inactive, regardless of them being monitored or not by Lifecycle Management.
 
-On said report you get an option to **Keep, Archive** or **Delete** any resource there.
+On the said report you get an option to **Keep, Archive** or **Delete** any resource there.
 
 ![SysKit Point - Inactive Content Report](../.gitbook/assets/5.png)
 
