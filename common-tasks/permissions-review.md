@@ -62,7 +62,7 @@ Click **Review** to continue. The **Permissions Review Task** screen opens - the
 
 ## Permissions Review Task Details
 
-The Task Details screen you information, reports, and actions needed to perform a permissions review. The following is available on the screen:
+The Task Details screen shows you information, reports, and actions needed to perform a permissions review. The following is available on the screen:
 
 * **Site owners list & Change Owners action \(1\)**
 * **All Users and External Users tile \(2\)**
