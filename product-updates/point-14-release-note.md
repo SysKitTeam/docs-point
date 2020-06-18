@@ -11,15 +11,15 @@ description: >-
 Before the summer, it’s time to **get your Office 365 tenant into shape**! To help you with that, **SysKit Point 14** comes equipped with **Lifecycle Management Automation** and a set of new actions for you to exercise - **Keep**, **Archive**, **Delete**, and **Restore**.  
 As with all SysKit Point upgrades, this one is also filled with big and small improvements, giving you the best experience ever! Read on and learn what’s new!
 
-[Try SysKit Point trial](https://syskit.com/products/point/download/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
+[Try SysKit Point trial](https://www.syskit.com/products/point/request-a-free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
 **Product version:** 14.0.0  
-**Build number:** 8xx  
+**Build number:** 836  
 **Release date:** Jun 16, 2020
 
 ## Features
 
-* **Lifecycle Management Automation** is now available! When the feature is enabled, SysKit Point sends automatic reminders via email to site owners in case their Mirosoft Teams, Office 365 Group, or a site is not actively used longer than the period defined in settings. Site owners can then decide whether to **keep**, **archive**, or **delete** such resources directly from the email! Along with the reminders, SysKit Point creates **Lifecycle Management tasks for site owners**. It allows SysKit Point Admins to monitor the owners’ response by providing essential metrics on the **Lifecycle Management Overview screen**. Use the following links to learn:
+* **Lifecycle Management Automation** is now available! When the feature is enabled, SysKit Point sends automatic reminders via email to site owners in case their Microsoft Teams, Office 365 Group, or a site is not actively used longer than the period defined in settings. Site owners can then decide whether to **keep**, **archive**, or **delete** such resources directly from the email! Along with the reminders, SysKit Point creates **Lifecycle Management tasks for site owners**. It allows SysKit Point Admins to monitor the owners’ response by providing essential metrics on the **Lifecycle Management Overview screen**. Use the following links to learn:
   * [how to enable and configure Lifecycle Management Automation](../installation-and-configuration/enable-lifecycle-management.md),
   * [more about the Lifecycle Management process](../common-tasks/lifecycle-management.md), and
   * [which subscription plans include the Lifecycle Management Automation feature.](https://www.syskit.com/products/point/pricing/)
@@ -35,7 +35,7 @@ As with all SysKit Point upgrades, this one is also filled with big and small im
   * when trying to remove access for a blocked user
   * when trying to remove access for multiple users in case the removal fails for a single user
 
-    Action dialog description was also changed to improve readability.  
+    Action dialog description was also changed to improve readability.
 * **External user’s management improved**! Site owners and admins can now view reports for external users that have access to their sites. Before, site owners needed to be the external user's manager to see such information, which often resulted in insufficient data for most site owners.
 * **Sign-in flow is improved**! Before, SysKit Point would always redirect to the Home screen after a user signed in, even though they opened a link with a specified target screen from a Permissions Review email. Now, the defined target screen opens after the sign-in and enables a user to continue where he left off.
 * **Various UX/UI improvements and minor fixes available.**
