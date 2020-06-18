@@ -10,7 +10,7 @@ For SysKit Point to be able to collect, process, and save audit logs, the auditi
 
 `Error starting a subscription. It may take up to 24h after initial audit configuration for this step to work.`
 
-![SysKit Point Configuration Wizard - Warning message](https://github.com/SysKitTeam/docs-point/tree/6c5a9274215233318f524448f9ae6284bfcd113d/.gitbook/assets/turn-on-auditing_cw-warning%20%281%29.png)
+![SysKit Point Configuration Wizard - Warning message](../.gitbook/assets/turn-on-auditing_syskit-point-configuration-wizard-warning-message.png)
 
 Although the SysKit Point configuration can be finished at this point, audit data cannot be collected.
 
