@@ -125,7 +125,7 @@ For more details, click the **Permissions Matrix link**, which gives you a compl
 
 ## Complete Permissions Review Task
 
-When you are done with the review, and have made sure that your site is secure, **Complete the permissions review**. To do so:
+When you are done with the review and have made sure that your site is secure, **Complete the permissions review**. To do so:
 
 * **click the Complete Review button \(1\)** on the bottom of the Task Details screen; the **Complete Review dialog opens**
 * **leave a comment**; here, you can describe what kind of changes were made to ensure that the site is secured; the comment is visible to all site owners
