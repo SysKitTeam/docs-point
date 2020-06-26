@@ -24,6 +24,7 @@
   * [Activation Privacy Statement](activation/activation-privacy-statement.md)
   * [Activation FAQ](activation/activation-faq.md)
 * [How To](how-to/README.md)
+  * [Configure SysKit Point Using Azure SQL Database](how-to/configure-syskit-point-using-azure-sql-database.md)
   * [SysKit Point Quick Start Guide](how-to/syskit-point-quick-start-guide.md)
   * [Configure SysKit Point on Azure Virtual Machine](how-to/configure-syskit-point-on-azure-vm.md)
   * [Collect Office 365 Data](how-to/collect-office-365-data.md)
