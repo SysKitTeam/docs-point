@@ -132,7 +132,7 @@ Once your changes are saved, you can click the **Preview tile**, which opens the
 
 * **click the tiles \(1\)** to show only a certain site type; the tiles show the number of sites included in the permission review, grouped by type
 * **view Permissions review information**, such as due date, number of e-mail recipients, and the number of orphaned sites \(sites that have no owners, or have owners that are blocked or deleted\) 
-* **click the Show link \(2\) that activates the** Orphaned Sites view \(3\)\*\*
+* **click the Show link \(2\) that activates the** Orphaned Sites view \(3\)
 * **view all site owners that will receive a permissions review e-mail**; for each Microsoft Team, Office 365 Group, site, and OneDrive included in the permissions review 
 * **change owners** by **selecting a row \(4\)** and clicking the **Change owners action \(5\)** available in the side panel
 

@@ -1,7 +1,7 @@
 ---
 description: >-
-  This article provides a full overview of the automated permissions
-  review process in SysKit Point from a site owner's perspective.
+  This article provides a full overview of the automated permissions review
+  process in SysKit Point from a site owner's perspective.
 ---
 
 # Perform Permissions Review in SysKit Point
@@ -18,7 +18,7 @@ description: >-
 The permissions review in SysKit Point can be viewed from two different roles:
 
 * **SysKit Point Collaborator user**, as described in this article
-* [SysKit Point Admin user](../common-tasks/monitor-permissions-review.md)
+* [SysKit Point Admin user](monitor-permissions-review.md)
 
 When working with permissions review, SysKit Point Collaborators can **perform the permissions review on resources where they are an owner or admin**.
 
@@ -45,7 +45,7 @@ From here, you can continue and review a site by clicking the **link in the Task
 
 ## My Tasks
 
-On the Home screen, you can notice the **My Tasks** tile and a notification bubble displaying the number of tasks you need to address. It is set to one because a single permissions review task was created by SysKit Point and assigned to you. The **persona** button shows the same notification bubble. To view your tasks, click the **My Tasks tile** on the Home screen, or the **My Tasks section** in the persona drop-down menu.
+On the Home screen, you can notice the **My Tasks** tile and a notification bubble displaying the number of tasks you need to address. It is set to one because a single permissions review task was created by SysKit Point and assigned to you. The **user profile** button shows the same notification bubble. To view your tasks, click the **My Tasks tile** on the Home screen, or the **My Tasks section** in the user profile menu.
 
 ![My Tasks tile](../.gitbook/assets/permissions-review_my-tasks-tile.png)
 
@@ -62,7 +62,7 @@ Click **Review** to continue. The **Permissions Review Task** screen opens - the
 
 ## Permissions Review Task Details
 
-The Task Details screen you information, reports, and actions needed to perform a permissions review. The following is available on the screen:
+The Task Details screen shows you information, reports, and actions needed to perform a permissions review. The following is available on the screen:
 
 * **Site owners list & Change Owners action \(1\)**
 * **All Users and External Users tile \(2\)**
@@ -125,7 +125,7 @@ For more details, click the **Permissions Matrix link**, which gives you a compl
 
 ## Complete Permissions Review Task
 
-When you are done with the review, and have made sure that your site is secure, **Complete the permissions review**. To do so:
+When you are done with the review and have made sure that your site is secure, **Complete the permissions review**. To do so:
 
 * **click the Complete Review button \(1\)** on the bottom of the Task Details screen; the **Complete Review dialog opens**
 * **leave a comment**; here, you can describe what kind of changes were made to ensure that the site is secured; the comment is visible to all site owners

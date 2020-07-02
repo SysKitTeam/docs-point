@@ -6,11 +6,13 @@ description: >-
 
 # SysKit Point 13
 
-Spring has arrived, and with it, **SysKit Point 13**! In this version, we introduce our brand-new **Automated Permissions Review** feature, which will help you extend the area covered by spring cleaning in your Office 365 environment. To make the cleaning easier **new actions were added** to the toolbelt, the **workspace was expanded**, and **all reports and exports were optimized** to reduce the load on your environment.
+Spring has arrived, and with it, **SysKit Point 13**!
+
+In this version, we introduce our brand-new **Automated Permissions Review** feature, which will help you extend the area covered by spring cleaning in your Office 365 environment. To make the cleaning easier **new actions were added** to the toolbelt, the **workspace was expanded**, and **all reports and exports were optimized** to reduce the load on your environment.
 
 A lot of tweaks make this version of SysKit Point the best one yet, so make sure to read on and get to know them all!
 
-[Try SysKit Point trial](https://syskit.com/products/point/download/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
+[Try SysKit Point trial](https://www.syskit.com/products/point/request-a-free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
 **Product version:** 13.0.0  
 **Build number:** 722  
