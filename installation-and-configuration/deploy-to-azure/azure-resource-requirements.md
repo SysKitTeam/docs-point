@@ -23,7 +23,7 @@ We recommend installing SysKit Point on a Windows Server machine to allow SysKit
 * **Windows Server 2012 or newer is required** 
 * **Microsoft .NET Framework 4.5 or higher is required**
 
-## Azure Virtual Machine Requirements per Subscription Plan
+## Requirements per Subscription Plan
 
 Here is the list of recommended Azure resources based on your license type and your environment's size.
 
