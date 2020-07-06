@@ -1,6 +1,6 @@
 ---
 description: >-
-  This article lists hardware and software requirements that are necessary to
+  This article lists Azure resource requirements that are necessary to
   install and use SysKit Point in Azure environment.
 ---
 
@@ -9,6 +9,7 @@ description: >-
 When deploying SysKit Point in the Azure cloud environment, two necessary components are required:
 * **Azure Virtual Machine** where SysKit Point will be installed
 * **Azure SQL database** where SysKit Point will store its data 
+
 Depending on the size of your Office 365 tenant, the Azure virtual Machine size and the SQL Service tier will vary accordingly.
 
 {% hint style="warning" %}
@@ -19,7 +20,7 @@ Depending on the size of your Office 365 tenant, the Azure virtual Machine size 
 
 We recommend installing SysKit Point on a Windows Server machine, to allow SysKit Point Service to crawl your Office 365 environment continuously. When choosing the Virtual machine image, please note the following:
 
-* **Windows Server 2012 and newer are supported** 
+* **Windows Server 2012 or newer is required** 
 * **Microsoft .NET Framework 4.5 or higher is required**
 
 ## Azure Virtual Machine Requirements per Subscription Plan
