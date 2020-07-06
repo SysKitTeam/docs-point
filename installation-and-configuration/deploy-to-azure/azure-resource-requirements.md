@@ -55,14 +55,3 @@ Recommended for Office 365 environments with more than 10000 users.
 
 SysKit Point requires an **Azure SQL database** for storing data collected from Office 365. When creating a SQL database, it is recommended to use the following SQL Service tier:   
 * **Standard S0 - 10DTUs, 250GB storage**
-
-## Supported Browsers
-
-**SysKit Point** web-app can be accessed and used via the following browsers:
-
-* **Google Chrome** \(recommended\)
-* **Firefox**
-* **Opera**
-* **Microsoft Edge** \(Chromium-based\)
-
-**Internet Explorer is not supported.**
