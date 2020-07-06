@@ -15,7 +15,7 @@
 * [Installation & Configuration](installation-and-configuration/README.md)
   * [Install SysKit Point](installation-and-configuration/install-syskit-point.md)
   * [Deploy SysKit Point to Azure Cloud](installation-and-configuration/deploy-to-azure.md)
-    * [Requirements](installation-and-configuration/deploy-to-azure/requirements.md)
+    * [Azure Resource Requirements](installation-and-configuration/deploy-to-azure/azure-resource-requirements.md)
     * [Configure SysKit Point on Azure Virtual Machine](installation-and-configuration/deploy-to-azure/configure-syskit-point-on-azure-vm.md)
     * [Configure SysKit Point Using Azure SQL Database](installation-and-configuration/deploy-to-azure/configure-syskit-point-using-azure-sql-database.md)
   * [Deploy SysKit Point On-Premises](installation-and-configuration/deploy-on-premises.md)
