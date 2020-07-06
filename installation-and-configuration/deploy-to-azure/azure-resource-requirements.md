@@ -13,23 +13,23 @@ When deploying SysKit Point in the Azure cloud environment, two necessary compon
 Depending on the size of your Office 365 tenant, the Azure virtual Machine size and the SQL Service tier will vary accordingly.
 
 {% hint style="warning" %}
-**Requirements highly depend on the Office 365 activity, the number of users, and the amount of data in your environment.** The larger the environment, the more resources will be required to smoothly run SysKit Point.
+**Requirements highly depend on the Office 365 activity, the number of users, and the amount of data in your environment.** The larger the environment, the more resources will be required to run SysKit Point smoothly.
 {% endhint %}
 
 ## Azure Virtual Machine
 
-We recommend installing SysKit Point on a Windows Server machine, to allow SysKit Point Service to crawl your Office 365 environment continuously. When choosing the Virtual machine image, please note the following:
+We recommend installing SysKit Point on a Windows Server machine to allow SysKit Point Service to crawl your Office 365 environment continuously. When choosing the Virtual machine image, please note the following:
 
 * **Windows Server 2012 or newer is required** 
 * **Microsoft .NET Framework 4.5 or higher is required**
 
 ## Azure Virtual Machine Requirements per Subscription Plan
 
-Here is the list of recommended Azure resources based on your license type and the size of your environment.
+Here is the list of recommended Azure resources based on your license type and your environment's size.
 
 ### Professional Subscription
 
-For Office 365 environments with up to 1000 users.
+Recommended for Office 365 environments with up to 1000 users.
 
 | Server/Resource | Instance | vCPU | Memory | Disk | 
 | :--- | :--- | :--- | :--- | :--- | 
@@ -37,7 +37,7 @@ For Office 365 environments with up to 1000 users.
 
 ### Team Subscription
 
-For Office 365 environments with up to 10000 users.
+Recommended for Office 365 environments with up to 10000 users.
 
 | Server/Resource | Instance | vCPU | Memory | Disk | 
 | :--- | :--- | :--- | :--- | :--- |
@@ -45,7 +45,7 @@ For Office 365 environments with up to 10000 users.
 
 ### Enterprise Subscription
 
-For Office 365 environments with more than 10000 users.
+Recommended for Office 365 environments with more than 10000 users.
 
 | Server/Resource | Instance | vCPU | Memory | Disk |
 | :--- | :--- | :--- | :--- | :--- | 
