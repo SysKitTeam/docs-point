@@ -1,7 +1,7 @@
 ---
 description: >-
   This article discusses permission requirements that are necessary to
-  successfully install, configure and use SysKit Point on Azure cloud environment.
+  successfully install and configure SysKit Point on Azure cloud environment.
 ---
 
 # Permission Requirements
@@ -11,11 +11,11 @@ To successfully install and configure SysKit Point, various permissions need to 
 * **Azure SQL administrator**
 * **Office 365 Global administrator**
 
-Let's take a look at each of them in more detail:
+Let's take a look at each of them in more detail.
 
 ## Azure administrator
 
-When deploying SysKit Point to your Azure environment, we can distinguish two main user accounts in Azure Active Directory:
+When deploying SysKit Point to an Azure environment, we can distinguish two main user accounts in Azure Active Directory:
 * **User installing SysKit Point**
 * **Service account running SysKit Point Service**
 
@@ -44,14 +44,15 @@ If the service account is outside your domain the account name must be typed in 
 ## Azure SQL Administrator
 
 After SysKit Point is installed on an Azure Virtual Machine, SysKit Point Configuration Wizard will require connection to an Azure SQL database.
-Azure SQL Administrator should ensure the following is met:
+
+**Azure SQL Administrator** should ensure the following is met:
 * **SysKit Point dedicated Azure SQL database is created**
 * **User account running the configuration wizard has db\_owner rights on Azure SQL database**
 * **SysKit Point Service account has db\_owner rights on Azure SQL database**
 
 ## Office 365 Global Administrator
 
-**When connecting to an Office 365 tenant** during the [configuration](configure-syskit-point-on-azure-vm#connect-to-office-365) process, **you need to connect with a Global Administrator account.**
+**When connecting to an Office 365 tenant** during the configuration process, **you need to connect with a Global Administrator account.**
 
 **The first time you connect to your Office 365 tenant, you will be prompted to give consent** to a set of permissions that SysKit Point requires to function correctly. Additional prompts may show up in the future when installing a newer version of SysKit Point because of new functionality, and in consequence, potentially new required permissions.
 
