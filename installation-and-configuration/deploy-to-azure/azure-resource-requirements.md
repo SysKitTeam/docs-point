@@ -58,8 +58,8 @@ SysKit Point requires an **Azure SQL database** for storing data collected from 
 
 ## Related Topics
 
-* [SysKit Point Permission Requirements](../installation-and-configuration/deploy-to-azure/permission-requirements.md)
-* [Install SysKit Point on Azure VM](../installation-and-configuration/deploy-to-azure/install-syskit-point-on-azure-vm.md) 
-* [Configure SysKit Point on Azure VM](../installation-and-configuration/deploy-to-azure/configure-syskit-point-on-azure-vm.md)
+* [SysKit Point Permission Requirements](permission-requirements.md)
+* [Install SysKit Point on Azure VM](install-syskit-point-on-azure-vm.md) 
+* [Configure SysKit Point on Azure VM](configure-syskit-point-on-azure-vm.md)
 
 If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/). 
