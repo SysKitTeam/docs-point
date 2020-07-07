@@ -55,3 +55,7 @@ Recommended for Office 365 environments with more than 10000 users.
 
 SysKit Point requires an **Azure SQL database** for storing data collected from Office 365. When creating a SQL database, it is recommended to use the following SQL Service tier:   
 * **Standard S0 - 10DTUs, 250GB storage**
+
+## Related Topics
+
+* [SysKit Point Permission Requirements] (../installation-and-configuration/deploy-to-azure/permission-requirements.md)

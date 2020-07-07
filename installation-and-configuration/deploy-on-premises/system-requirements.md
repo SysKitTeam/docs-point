@@ -4,27 +4,29 @@ description: >-
   install and use SysKit Point.
 ---
 
-# System Requirements
+# On-Premises System Requirements
 
-## Software
+When deploying SysKit Point in your environment, two necessary components are required:
+* **Server** where SysKit Point will be installed
+* **SQL server and database** where SysKit Point will store its data 
 
-We recommend installing SysKit Point on a Windows Server machine, to allow SysKit Point Service to crawl your Office 365 environment continuously.
+## SysKit Point Server
+
+We recommend installing SysKit Point on a Windows Server machine, to allow SysKit Point Service to crawl your Office 365 environment continuously. When choosing an existing server in your environment or provisioning a new one, please note the following:
 
 * **Windows Server 2012 and newer are supported** 
 * **Microsoft .NET Framework 4.5 or higher**
 
 ## SQL Server
 
-SysKit Point requires Microsoft SQL Server database for storing data collected from Office 365.
+SysKit Point requires Microsoft SQL Server database for storing data collected from Office 365. Please note the following requirements:
 
 * **Microsoft SQL Server 2012 and newer are supported**
 * **SQL Express can be used for demo or trial purposes only**
 
-Permission requirements for the account used to connect to the SQL server are listed [here](permission-requirements.md).
+## Requirements per Subscription Plan
 
-## Hardware
-
-**Hardware requirements highly depend on the Office 365 activity, the number of users, and the amount of data in your environment.** The larger the environment, the more resources will be required to smoothly run SysKit Point.
+**Requirements highly depend on the Office 365 activity, the number of users, and the amount of data in your environment.** The larger the environment, the more resources will be required to smoothly run SysKit Point.
 
 SysKit Point requires a server where SysKit Point will be installed and a SQL server for the database \(for smaller Office 365 environments this can be the same server\).
 
@@ -32,7 +34,7 @@ Here is the list of recommended hardware requirements based on your license type
 
 ### Professional Subscription
 
-For Office 365 environments with up to 1000 users.
+Recommended for Office 365 environments with up to 1000 users.
 
 | Server/Resource | CPU | Memory | Disk | SQL Edition | SQL Version |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -42,7 +44,7 @@ For Office 365 environments with up to 1000 users.
 
 ### Team Subscription
 
-For Office 365 environments with up to 10000 users.
+Recommended for Office 365 environments with up to 10000 users.
 
 | Server/Resource | CPU | Memory | Disk | SQL Edition | SQL Version |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -52,26 +54,10 @@ For Office 365 environments with up to 10000 users.
 
 ### Enterprise Subscription
 
-For Office 365 environments with more than 10000 users.
+Recommended for Office 365 environments with more than 10000 users.
 
 | Server/Resource | CPU | Memory | Disk | SQL Edition | SQL Version |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Point Server | 64-bit CPU, 4 cores | 32GB RAM | 6GB-12GB per month for 1000 users | - | - |
 | SQL Server | MS SQL Recommended System Requirements or better | MS SQL Recommended System Requirements or better | MS SQL Recommended System Requirements or better | MS SQL Server Enterprise | MS SQL Server 2012 and newer |
 | Point & SQL on the same machine | Not recommended | Not recommended | Not recommended | Not recommended | Not recommended |
-
-{% hint style="warning" %}
-**Please note!**  
-If you do not own On-Premises servers, you can use Azure Virtual Machine with the installed SQL server on it as well. Have in mind the requirements recommendation when creating this virtual machine.
-{% endhint %}
-
-## Supported Browsers
-
-**SysKit Point** web-app can be used in the following browsers:
-
-* **Google Chrome** \(recommended\)
-* **Firefox**
-* **Opera**
-* **Microsoft Edge** \(Chromium-based\)
-
-**Internet Explorer is not supported.**
