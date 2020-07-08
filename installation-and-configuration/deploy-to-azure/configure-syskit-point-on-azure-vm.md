@@ -18,7 +18,7 @@ Allowing access **enables site owners and business users to access SysKit Point*
 
 {% hint style="warning" %}
 **Please note!**  
-The web application is accessible on the Internet when you allow access to SysKit Point outside of Azure Virtual Machine. **To secure your data**, **SysKit Point uses modern authentication methods**, making sure that only the right users inside your Office 365 tenant can sign in, as defined in [SysKit Point security settings](../installation-and-configuration/enable-role-based-access.md).
+The web application is accessible on the Internet when you allow access to SysKit Point outside of Azure Virtual Machine. **To secure your data**, **SysKit Point uses modern authentication methods**, making sure that only the right users inside your Office 365 tenant can sign in, as defined in [SysKit Point security settings](https://github.com/SysKitTeam/docs-point/tree/d583078a5f2c57a8d2e52f4fc0ceef9f01633160/installation-and-configuration/installation-and-configuration/enable-role-based-access.md).
 {% endhint %}
 
 After configuration, SysKit Point users will be able to access the SysKit Point interface from any [supported internet browser](../../requirements/system-requirements.md#supported-browsers) through the specified app URL.
@@ -32,12 +32,12 @@ In addition to [Azure Resources](azure-resource-requirements.md), **the followin
 
 ## Configure SysKit Point
 
-After you [install SysKit Point on Azure Virtual Machine](install-syskit-point-on-azure-vm), **SysKit Point Configuration Wizard** starts.
-Below, each step of the Configuration Wizard is described in greater detail.
+After you [install SysKit Point on Azure Virtual Machine](https://github.com/SysKitTeam/docs-point/tree/d583078a5f2c57a8d2e52f4fc0ceef9f01633160/installation-and-configuration/deploy-to-azure/install-syskit-point-on-azure-vm/README.md), **SysKit Point Configuration Wizard** starts. Below, each step of the Configuration Wizard is described in greater detail.
 
 ### Database Step
 
 Here, you can choose between two options:
+
 * **Create new database \(1\)**
 * **Use existing database \(2\)**
 
@@ -69,8 +69,7 @@ If you have provisioned **separate Azure Virtual Machines** for Azure SQL databa
 
 ### Service Settings Step
 
-Here you must provide a [Service account](permission-requirements.md#service-account) provided by the Azure administrator. 
-The Service account will be used for running the automatic actions performed by SysKit Point, such as:
+Here you must provide a [Service account](permission-requirements.md#service-account) provided by the Azure administrator. The Service account will be used for running the automatic actions performed by SysKit Point, such as:
 
 * **Office 365 auto discovery and data crawl** 
 * **Writing the collected data to a specified SQL database**  
@@ -220,4 +219,5 @@ After all the steps are done, you can access the SysKit Point web application fr
 * [Permission Requirements](permission-requirements.md)
 * [Install SysKit Point on Azure VM](install-syskit-point-on-azure-vm.md) 
 
-If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/). 
+If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).
+
