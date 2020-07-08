@@ -6,8 +6,8 @@ description: A quick overview of the articles provided in the Cloud deployment s
 
 In this section, you can find steps to follow when deploying SysKit Point to the Azure cloud environment:
 1. **Ensure that all [Azure resource requirements](deploy-to-azure/azure-resource-requirements.md) are met** when preparing:
-    * **Azure Virtual Machine**
-    * **Azure SQL Database**
+    **Azure Virtual Machine**
+    **Azure SQL Database**
 2. **Grant [permissions required to install and configure SysKit Point](deploy-to-azure/permission-requirements.md)**
 3. **[Install SysKit Point](deploy-to-azure/install-syskit-point-on-azure-vm.md) on the Azure Virtual Machine**
 4. **[Configure SysKit Point](deploy-to-azure/configure-syskit-point-on-azure-vm.md) on Azure Virtual Machine**
