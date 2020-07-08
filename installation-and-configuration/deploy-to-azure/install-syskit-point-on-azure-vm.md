@@ -6,7 +6,7 @@ description: This article guides you through the SysKit Point installation.
 
 **SysKit Point** is a **web application** that can be installed on a Windows machine or server in your environment.
 
-{% hint style="check" %}
+{% hint style="success" %}
 Before continuing, please check the [Azure resource requirements](azure-resource-requirements.md) and [permission requirements](permission-requirements.md).
 {% endhint %}
 
@@ -14,7 +14,7 @@ Before continuing, please check the [Azure resource requirements](azure-resource
 
 {% hint style="warning" %}
 **Please note!**  
-To install SysKit Point, make sure to **enable RDP connection \(port 3389\)** that allows you to access your virtual machine. After the configuration, you can remove the inbound rule allowing RDP connection.
+To install SysKit Point, make sure that the **RDP connection \(port 3389\)** that allows you to access your virtual machine is enabled. After the configuration, the inbound rule allowing RDP connections can be removed.
 {% endhint %}
 
 1. **Connect to the Azure Virtual Machine** using RDP connection
