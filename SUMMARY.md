@@ -13,7 +13,7 @@
   * [System Requirements](requirements/system-requirements.md)
   * [Permission Requirements](requirements/permission-requirements.md)
 * [Installation & Configuration](installation-and-configuration/README.md)
-  * [Deploy SysKit Point to Azure Cloud](installation-and-configuration/deploy-to-azure.md)
+  * [Deploy SysKit Point to Cloud](installation-and-configuration/deploy-to-azure.md)
     * [Azure Resource Requirements](installation-and-configuration/deploy-to-azure/azure-resource-requirements.md)
     * [Permission Requirements](installation-and-configuration/deploy-to-azure/permission-requirements.md)
     * [Install SysKit Point on Azure Virtual Machine](installation-and-configuration/deploy-to-azure/install-syskit-point-on-azure-vm.md)
