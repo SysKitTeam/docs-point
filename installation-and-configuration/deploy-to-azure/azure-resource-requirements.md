@@ -23,6 +23,13 @@ We recommend installing SysKit Point on a Windows Server machine to allow SysKit
 * **Windows Server 2012 or newer is required** 
 * **Microsoft .NET Framework 4.5 or higher is required**
 
+
+After the Azure Virtual Machine is created, ensure the following:
+
+* **Network Security Group is assigned to the Azure Virtual Machine**
+* **Public IP address \(static\) is set for the Azure Virtual Machine** 
+
+
 ## Requirements per Subscription Plan
 
 Here is the list of recommended Azure resources based on your license type and your environment's size.
@@ -58,7 +65,7 @@ SysKit Point requires an **Azure SQL database** for storing data collected from 
 
 ## Related Topics
 
-* [SysKit Point Permission Requirements](permission-requirements.md)
+* [Permission Requirements](permission-requirements.md)
 * [Install SysKit Point on Azure VM](install-syskit-point-on-azure-vm.md) 
 * [Configure SysKit Point on Azure VM](configure-syskit-point-on-azure-vm.md)
 
