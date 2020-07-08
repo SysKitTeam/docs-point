@@ -18,6 +18,7 @@
     * [Permission Requirements](installation-and-configuration/deploy-to-azure/permission-requirements.md)
     * [Install SysKit Point on Azure Virtual Machine](installation-and-configuration/deploy-to-azure/install-syskit-point-on-azure-vm.md)
     * [Configure SysKit Point on Azure Virtual Machine](installation-and-configuration/deploy-to-azure/configure-syskit-point-on-azure-vm.md)
+    * [Allow Access to SysKit Point Web-App](installation-and-configuration/deploy-to-azure/allow-access-to-syskit-point-web-app.md)
   * [Deploy SysKit Point On-Premises](installation-and-configuration/deploy-syskit-point-on-premises/README.md)
     * [System Requirements](installation-and-configuration/deploy-syskit-point-on-premises/system-requirements.md)
     * [Permission Requirements](installation-and-configuration/deploy-syskit-point-on-premises/permission-requirements.md)
