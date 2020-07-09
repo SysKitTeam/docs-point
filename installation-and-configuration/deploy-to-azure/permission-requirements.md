@@ -17,7 +17,7 @@ Let's take a look at each of them in more detail.
 
 ## Azure administrator
 
-When deploying SysKit Point to an Azure environment, we can distinguish between three main user accounts in Azure Active Directory:
+When deploying SysKit Point to an Azure environment, we can distinguish between two main user accounts in Azure Active Directory:
 
 * **User installing SysKit Point**
 * **Service account running SysKit Point Service**
