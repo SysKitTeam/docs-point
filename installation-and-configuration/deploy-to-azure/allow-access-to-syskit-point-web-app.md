@@ -53,3 +53,5 @@ After all the steps are done, you can access the SysKit Point web application fr
 * [Create Azure SQL Database](prerequisites/create-azure-sql-database.md)
 * [Install SysKit Point on Azure VM](install-syskit-point-on-azure-vm.md) 
 * [Configure SysKit Point on Azure VM](configure-syskit-point-on-azure-vm.md)
+
+If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).

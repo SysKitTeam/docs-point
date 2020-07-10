@@ -12,7 +12,7 @@ To successfully deploy SysKit Point in the Azure cloud environment, follow these
 
      • **[Azure SQL Database](prerequisites/create-azure-sql-database.md)**   
 
-2. [**Install SysKit Point**](install-syskit-point-on-azure-vm.md) **on the Azure Virtual Machine**   
+2. [**Install SysKit Point**](install-syskit-point-on-azure-vm.md) **on Azure Virtual Machine**   
 3. [**Configure SysKit Point**](configure-syskit-point-on-azure-vm.md) **on Azure Virtual Machine**   
 4. [**Allow access to SysKit Point Web-App**](allow-access-to-syskit-point-web-app.md)
 

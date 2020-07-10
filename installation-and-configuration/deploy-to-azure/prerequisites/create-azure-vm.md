@@ -59,3 +59,5 @@ Recommended for Office 365 environments with more than 10000 users.
 * [Install SysKit Point on Azure VM](../install-syskit-point-on-azure-vm.md) 
 * [Configure SysKit Point on Azure VM](../configure-syskit-point-on-azure-vm.md)
 * [Allow Access to SysKit Point Web-App](../allow-access-to-syskit-point-web-app.md)
+
+If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).
