@@ -17,7 +17,6 @@
     * [Prerequisites](installation-and-configuration/deploy-to-azure/prerequisites/README.md)
       * [Create Azure Virtual Machine](installation-and-configuration/deploy-to-azure/prerequisites/create-azure-vm.md)
       * [Create Azure SQL Database](installation-and-configuration/deploy-to-azure/prerequisites/create-azure-sql-database.md)
-    * [Permission Requirements](installation-and-configuration/deploy-to-azure/permission-requirements.md)
     * [Install SysKit Point on Azure Virtual Machine](installation-and-configuration/deploy-to-azure/install-syskit-point-on-azure-vm.md)
     * [Configure SysKit Point on Azure Virtual Machine](installation-and-configuration/deploy-to-azure/configure-syskit-point-on-azure-vm.md)
     * [Allow Access to SysKit Point Web-App](installation-and-configuration/deploy-to-azure/allow-access-to-syskit-point-web-app.md)
