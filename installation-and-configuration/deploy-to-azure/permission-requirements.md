@@ -22,11 +22,6 @@ When deploying SysKit Point to an Azure environment, we can distinguish between 
 * **User installing SysKit Point**
 * **Service account running SysKit Point Service**
 
-Each of the user accounts needs to have proper privileges to:
-
-* **Complete SysKit Point installation and configuration**
-* **Run SysKit Point Service** and thus collect Office 365 data
-
 ### User Installing SysKit Point
 
 **User installing SysKit Point** needs to be granted the following privilege on the Azure Virtual Machine where SysKit Point will be installed:

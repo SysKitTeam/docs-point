@@ -46,3 +46,10 @@ You can test the connection to SysKit Point deployed on the Azure Virtual Machin
 Here, the `-Port` parameter should be set to 443 and `-ComputerName` to the DNS name of the Point web application you specified as the URL in the SysKit Point Configuration Wizard. For example: `Test-NetConnection -Port 443 -ComputerName point.mycustomdomain.`
 
 After all the steps are done, you can access the SysKit Point web application from anywhere on the Internet by opening the defined URL in your web browser. For example, `https://point.mycustomdomain.com`. If everything is set up correctly, the SysKit Point Sign in page opens.
+
+## Related Topics
+
+* [Create Azure Virtual Machine](prerequisites/create-azure-vm.md)
+* [Create Azure SQL Database](prerequisites/create-azure-sql-database.md)
+* [Install SysKit Point on Azure VM](install-syskit-point-on-azure-vm.md) 
+* [Configure SysKit Point on Azure VM](configure-syskit-point-on-azure-vm.md)

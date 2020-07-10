@@ -172,9 +172,10 @@ After the configuration is complete, you can continue with the next step - [allo
 
 ## Related Topics
 
-* [Azure Resource Requirements](azure-resource-requirements.md)
-* [Permission Requirements](permission-requirements.md)
+* [Create Azure Virtual Machine](prerequisites/create-azure-vm.md)
+* [Create Azure SQL Database](prerequisites/create-azure-sql-database.md)
 * [Install SysKit Point on Azure VM](install-syskit-point-on-azure-vm.md) 
+* [Allow Access to SysKit Point Web-App](allow-access-to-syskit-point-web-app.md)
 
 If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).
 
