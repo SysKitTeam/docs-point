@@ -27,7 +27,7 @@ Based on the size of your Office 365 environment, SysKit Point comes with three 
 To learn more about available SysKit Point subscription plans and included features, continue to the [Pricing page.](https://www.syskit.com/products/point/pricing/)  
 {% endhint %}
 
-Below, you can find Azure VM requirements based on your SysKit Point subscription plan and your environment's size.
+Below, you can find Azure Virtual Machine requirements based on your SysKit Point subscription plan and your environment's size.
 
 ### Professional Subscription
 

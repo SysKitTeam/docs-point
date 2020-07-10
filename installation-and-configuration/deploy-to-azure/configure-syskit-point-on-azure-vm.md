@@ -79,6 +79,7 @@ Supported service account formats are as follows:
 
 * `machine_name\username`
 * `.\username`
+* `domain\username`
 
 After you've entered the credentials click the **Validate Account** button. If the account has all [proper privileges](permission-requirements.md#service-account), a Success window appears with the message:
 
