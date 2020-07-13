@@ -105,9 +105,9 @@ Supported service account formats are as follows:
 
 **The first time you connect to your Office 365 tenant, you will be prompted to consent** to a set of permissions that SysKit Point requires to function correctly. Additional prompts may show up in the future when installing a newer version of SysKit Point because of new functionality, and in consequence, potentially new required permissions.
 
-![Office 365 Global Admin Consent](../../.gitbook/assets/permission_requirements_global_administrator_consent_without_steps.png)
+![Office 365 Global Admin Consent](../../../.gitbook/assets/permission_requirements_global_administrator_consent_without_steps.png)
 
-For a complete overview of individual permissions used by SysKit Point, please refer to the [following article](../../requirements/permission-requirements.md#syskit-point-app-permissions).
+For a complete overview of individual permissions used by SysKit Point, please refer to the [following article](../../../requirements/permission-requirements.md#syskit-point-app-permissions).
 
 ### SSL Certificate
 
@@ -139,9 +139,9 @@ When using such setup, make sure to:
 * **Define the DNS name label \(2\)**
 * **Save your changes \(3\)**
 
-![](../../.gitbook/assets/azure-vm_dns-name_01.png)
+![](../../../.gitbook/assets/azure-vm_dns-name_01.png)
 
-![Azure - DNS Name configuration](../../.gitbook/assets/azure-vm_dns-name_02.png)
+![Azure - DNS Name configuration](../../../.gitbook/assets/azure-vm_dns-name_02.png)
 
 ## Related Topics
 
