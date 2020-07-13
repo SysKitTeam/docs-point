@@ -17,6 +17,7 @@ To successfully deploy SysKit Point in the Azure cloud environment, follow these
 4. [**Allow access to SysKit Point Web-App**](allow-access-to-syskit-point-web-app.md)
 
 Provided steps result in the Cloud environment setup shown in the picture below.
+
 ![SysKit Point - Cloud Setup](../../.gitbook/assets/deploy-to-azure_architecture-diagram.png)
 
 If you run into any issues when preparing your environment or configuring SysKit Point, please [contact us](https://www.syskit.com/contact-us/).
