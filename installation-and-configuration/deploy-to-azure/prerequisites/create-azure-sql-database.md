@@ -1,12 +1,12 @@
 ---
 description: >-
   This article lists Azure SQL Database requirements that are necessary to install
-  and configure SysKit Point in Azure environment.
+  and configure SysKit Point in the Azure environment.
 ---
 
 ## Azure SQL Database
 
-SysKit Point requires an **Azure SQL database** for storing data collected from Office 365. When creating a SQL database, it is recommended to use the following SQL Service tier:
+SysKit Point requires an **Azure SQL database** for storing data collected from Office 365. When creating an Azure SQL database, it is recommended to use the following SQL Service tier:
 
 * **Standard S0 - 10DTUs, 250GB storage**
 

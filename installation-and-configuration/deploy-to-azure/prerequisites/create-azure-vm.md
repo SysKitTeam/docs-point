@@ -6,9 +6,7 @@ description: >-
 
 # Azure Virtual Machine
 
-## Requirements
-
-### Software Requirements
+## Software Requirements
 We recommend installing SysKit Point on a Windows Server machine to allow SysKit Point Service to crawl your Office 365 environment continuously. When choosing the Virtual machine image, please note the following:
 
 * **Windows Server 2012 or newer is required** 
@@ -31,9 +29,9 @@ Below, you can find Azure Virtual Machine requirements based on your SysKit Poin
 
 Recommended for Office 365 environments with up to 1000 users.
 
-| Server/Resource | Instance | vCPU | Memory (GB) | Disk |
+| Server/Resource | Instance | vCPU | Memory | Disk |
 | :--- | :--- | :--- | :--- | :--- |
-| Point Server | General purpose D2 v3 | 2 | 8 | 6GB-12GB per month for 1000 users |
+| Point Server | General purpose D2 v3 | 2 | 8GB | 6GB-12GB per month for 1000 users |
 
 ### Team Subscription
 
@@ -41,7 +39,7 @@ Recommended for Office 365 environments with up to 10000 users.
 
 | Server/Resource | Instance | vCPU | Memory | Disk |
 | :--- | :--- | :--- | :--- | :--- |
-| Point Server | General purpose D4 v3 | 4 | 16 | 6GB-12GB per month for 1000 users |
+| Point Server | General purpose D4 v3 | 4 | 16GB | 6GB-12GB per month for 1000 users |
 
 ### Enterprise Subscription
 
@@ -49,7 +47,7 @@ Recommended for Office 365 environments with more than 10000 users.
 
 | Server/Resource | Instance | vCPU | Memory | Disk |
 | :--- | :--- | :--- | :--- | :--- |
-| Point Server | General purpose D8 v3 | 8 cores | 32 | 6GB-12GB per month for 1000 users |
+| Point Server | General purpose D8 v3 | 8 cores | 32GB | 6GB-12GB per month for 1000 users |
 
 ## Prepare for Installation & Configuration
 
