@@ -95,7 +95,7 @@ Supported service account formats are as follows:
 * `.\username`
 * `domain\username`
 
-**The Service account used to run SysKit Point Service needs to have the following privileges** to be able to [collect Office 365 data](../../how-to/collect-office-365-data.md) and run other associated jobs:
+**The Service account used to run SysKit Point Service needs to have the following privileges** to be able to [collect Office 365 data](../../../how-to/collect-office-365-data.md) and run other associated jobs:
 
 * **local administrator** privileges on the Azure Virtual Machine
 
