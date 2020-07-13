@@ -6,55 +6,36 @@ description: >-
 
 # Configure SysKit Point on Azure Virtual Machine
 
-You can use this guide when:
-
-* **Configuring SysKit Point on Azure Virtual Machine**
-* **Allowing access to SysKit Point web application**
-* **Testing the access to SysKit Point web application**
-
 {% hint style="success" %}
-Allowing access **enables site owners and business users to access SysKit Point**, which **empowers collaborative Office 365 governance**.
+Before continuing, please make sure that all [prerequisites](prerequisites/README.md) are met.
 {% endhint %}
 
-{% hint style="warning" %}
-**Please note!**  
-The web application is accessible on the Internet when you allow access to SysKit Point outside of Azure Virtual Machine. **To secure your data**, **SysKit Point uses modern authentication methods**, making sure that only the right users inside your Office 365 tenant can sign in, as defined in [SysKit Point security settings](https://github.com/SysKitTeam/docs-point/tree/d583078a5f2c57a8d2e52f4fc0ceef9f01633160/installation-and-configuration/installation-and-configuration/enable-role-based-access.md).
-{% endhint %}
+By default, after [SysKit Point is installed on Azure Virtual Machine](../install-syskit-point-on-azure-vm.md), **SysKit Point Configuration Wizard** starts automatically. 
+Alternatively, you can start it manually at any time by running it from the installation folder. The default location is: **C:\ProgramFiles\SysKit\Point\Host\Configuration.exe**.
 
-After configuration, SysKit Point users will be able to access the SysKit Point interface from any [supported internet browser](../../requirements/system-requirements.md#supported-browsers) through the specified app URL.
+Below, each step of the Configuration Wizard is described in greater detail.
 
-## Prerequisites
-
-In addition to [Azure Resources](azure-resource-requirements.md), **the following is recommended when using SysKit Point in a production environment**:
-
-* **Ownership of a public domain with the ability to manage DNS records**
-* **SSL certificate from a publicly trusted certificate provider**
-
-## Configure SysKit Point
-
-After you [install SysKit Point on Azure Virtual Machine](https://github.com/SysKitTeam/docs-point/tree/d583078a5f2c57a8d2e52f4fc0ceef9f01633160/installation-and-configuration/deploy-to-azure/install-syskit-point-on-azure-vm/README.md), **SysKit Point Configuration Wizard** starts. Below, each step of the Configuration Wizard is described in greater detail.
-
-### Database Step
+## Database Step
 
 Here, you can choose between two options:
 
 * **Create new database \(1\)**
 * **Use existing database \(2\)**
 
-In case the Azure SQL Administrator prepared a Dedicated Azure SQL database for SysKit Point, choose the **Use existing database \(2\)**.
+In case a dedicated Azure SQL database is prepared for SysKit Point, choose the **Use existing database \(2\)** option.
 
 Click **Next\(3\)** to proceed.
 
 ![SysKit Point Configuration - Database](../../.gitbook/assets/configure-syskit-point_database_step.png)
 
-### Database Configuration Step
+## Database Configuration Step
 
 On the Database Configuration step you will be required to enter the:
 
 * **Database server**\(1\)
 * **Database name**\(2\)
 
-Select the option **Use SQL authentication**\(3\) to access the database and use the **data and credentials** provided by **Azure SQL Administrator**.
+Select the option **Use SQL authentication**\(3\) to access the database and use the **data and credentials** defined when creating an Azure SQL database.
 
 Click **Test Connection**\(4\) to see if **SysKit Point** can connect to the entered Azure SQL database.
 
@@ -62,14 +43,9 @@ Click **Test Connection**\(4\) to see if **SysKit Point** can connect to the ent
 
 If the connection is successful, click **Next** to proceed.
 
-{% hint style="warning" %}
-**Please note!**  
-If you have provisioned **separate Azure Virtual Machines** for Azure SQL database and SysKit Point installation, **make sure that they are deployed to the same Virtual Network** and the SysKit Point server **can establish a connection to the SQL Server** by following the [guidelines](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-connect#connect-to-sql-server-within-a-virtual-network) from Microsoft.
-{% endhint %}
+## Service Settings Step
 
-### Service Settings Step
-
-Here you must provide a [Service account](permission-requirements.md#service-account) provided by the Azure administrator. The Service account will be used for running the automatic actions performed by SysKit Point, such as:
+Here you must provide a [Service account](prerequisites/create-azure-vm.md#service-account) that will be used for running the automatic actions performed by SysKit Point, such as:
 
 * **Office 365 auto discovery and data crawl** 
 * **Writing the collected data to a specified SQL database**  
@@ -87,9 +63,14 @@ After you've entered the credentials click the **Validate Account** button. If t
 
 Click **OK** to close the Success window, and **Next &gt;** to continue to the next step.
 
-### Connect to Office 365 Step
+## Connect to Office 365 Step
 
 Click the **Connect to your tenant** link to connect SysKit Point to your Office 365 tenant. **You need to provide the Office 365 global admin account.** This account will be used for collecting all the data from your environment and for the continuous auto discovery of new resources.
+
+{% hint style="warning" %}
+**Please note!**  
+Office 365 Global Admin credentials are only needed when configuring SysKit Point for the first time.
+{% endhint %}
 
 **Please note that this can be any global admin account**; it doesn’t have to be the account you will use in the future to log in to the application.
 
@@ -119,7 +100,7 @@ For SysKit Point to be able to collect, process, and save audit logs, the auditi
 You can find answers in the [following article](permission-requirements.md).
 {% endhint %}
 
-### Web Application Settings Step
+## Web Application Settings Step
 
 In the Web Application Settings, the following is defined:
 
@@ -131,45 +112,13 @@ In the Web Application Settings, the following is defined:
 
 ![Configuration Wizard - Web Application Settings step](../../.gitbook/assets/azure-vm_configuration-web-app.png)
 
-**In a production environment**, **it is recommended to use**:
-
-* **Custom Domain used in SysKit Point Web App URL**; for example, `https://point.mycustomdomain.com`
-* **SSL certificate obtained from a publicly trusted SSL certificate provider**
-
-When using such setup, make sure to:
-
-* **Associate the SSL certificate with the custom domain used in the SysKit Point Web App URL**
-* **Add a public DNS A record on your custom domain pointing to Point Virtual Machine's public IP address** 
-
-**When configuring SysKit Point in a test environment**, you can use:
-
-* **Azure default domain** `cloudapp.azure.com` **in SysKit Point Web App URL**; for example, `https://azurevmname.eastus.cloudapp.azure.com`
-* **Self-signed certificate created by SysKit Point**
-
-{% hint style="warning" %}
-**Please note!**  
-**Self-signed certificates are by default not publicly trusted**; therefore, your connection to Point application may be marked as not private in the browser when accessing SysKit Point URL.
-{% endhint %}
-
-**To use the Azure default domain**, you need to configure a DNS name in the Azure Portal. To do so:
-
-* **Open** [Azure portal](https://portal.azure.com)
-* **Navigate to your Azure Virtual Machine**
-* **Click Configure \(1\)** next to the DNS name label on the Overview screen
-* **Define the DNS name label \(2\)**
-* **Save your changes \(3\)**
-
-![](../../.gitbook/assets/azure-vm_dns-name_01.png)
-
-![Azure - DNS Name configuration](../../.gitbook/assets/azure-vm_dns-name_02.png)
-
-### Finish Step
+## Finish Step
 
 When the configuration is completed, if everything was configured correctly the screen will look like this.
 
 ![SysKit Point Configuration - Finish](../../.gitbook/assets/7%20%281%29.png)
 
-After the configuration is complete, you can continue with the next step - [allowing access to SysKit Point](allow-access-to-syskit-point-web-app.md).
+After the configuration is complete, you can continue with the next, and final step of deployment - [allowing access to SysKit Point](allow-access-to-syskit-point-web-app.md).
 
 ## Related Topics
 

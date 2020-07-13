@@ -6,17 +6,15 @@ description: >-
 
 # Azure Virtual Machine
 
+## Requirements
+
+### Software Requirements
 We recommend installing SysKit Point on a Windows Server machine to allow SysKit Point Service to crawl your Office 365 environment continuously. When choosing the Virtual machine image, please note the following:
 
 * **Windows Server 2012 or newer is required** 
 * **Microsoft .NET Framework 4.5 or higher is required**
 
-After you create an Azure Virtual Machine, ensure the following:
-
-* **Network Security Group is assigned to the Azure Virtual Machine**
-* **Public IP address \(static\) is set for the Azure Virtual Machine** 
-
-## Requirements per Subscription Plan
+## Resource Requirements per Subscription Plan
 
 Based on the size of your Office 365 environment, SysKit Point comes with three different subscription plans:
 * **Professional**
@@ -53,33 +51,55 @@ Recommended for Office 365 environments with more than 10000 users.
 | :--- | :--- | :--- | :--- | :--- |
 | Point Server | General purpose D8 v3 | 8 cores | 32 | 6GB-12GB per month for 1000 users |
 
-## Permission Requirements
+## Prepare for Installation & Configuration
 
-### User Installing SysKit Point
+After you create an Azure Virtual Machine, ensure the following:
 
-**User installing SysKit Point** needs to be granted the following privilege on the Azure Virtual Machine where SysKit Point will be installed:
+* **Network Security Group is assigned** to the Azure Virtual Machine
+* **Public IP address \(static\)** is set for the Azure Virtual Machine
+* **RDP connection \(port 3389\)** that allows access to the Azure Virtual Machine is enabled
+* **User installing SysKit Point is a Local Administrator** on the Azure Virtual Machine
+* **Office 365 Global Administrator** credentials and consent are needed when configuring SysKit Point for the first time
+* **A service account with Local Administrator** on the Azure Virtual Machine is needed to run SysKit Point Service
 
-* **Local Administrator** 
+Additionally, the following is needed for SysKit Point configuration:
+* **Domain used in SysKit Point Web App URL**
+* **SSL certificate**
 
 {% hint style="warning" %}
-Once installed, SysKit Point web-app can be accessed and used with a non-privileged user account.
+**Please note!**  
+Once installed and configured, SysKit Point web-app can be accessed and used with a non-privileged user account.
+{% endhint %}
+
+{% hint style="warning" %}
+**Please note!**  
+After the SysKit Point configuration is completed, the inbound rule allowing RDP connections can be removed.
+{% endhint %}
+
+{% hint style="warning" %}
+**Please note!**  
+Office 365 Global Admin credentials are only needed when configuring SysKit Point for the first time.
 {% endhint %}
 
 ### Service Account
 
-A [service account](https://docs.microsoft.com/en-us/windows/security/identity-protection/access-control/service-accounts) is a user account that is created explicitly to provide a security context for Services running on Windows Server operating systems. The security context determined the Service’s ability to access local and network resources. The Windows operating systems rely on Services to run various features. These Services can be configured through the applications, the Services snap-in, or Task Manager, or by using Windows PowerShell.
+A Service account is used for running the automatic actions performed by SysKit Point, such as:
+
+* **Office 365 auto discovery and data crawl** 
+* **Writing the collected data to a specified SQL database**  
+* **Writing down collected Audit data to the Index location** 
+
+Supported service account formats are as follows:
+
+* `machine_name\username`
+* `.\username`
+* `domain\username`
 
 **The Service account used to run SysKit Point Service needs to have the following privileges** to be able to [collect Office 365 data](../../how-to/collect-office-365-data.md) and run other associated jobs:
 
-* **local administrator** privileges on the Azure Virtual Machine with UAC control disabled so that we can verify your credentials
-* **db\_owner** privileges on the created SysKit Point dedicated Azure SQL database
-* **log on as Service** rights configured
+* **local administrator** privileges on the Azure Virtual Machine
 
-{% hint style="info" %}
-If the service account is outside your domain the account name must be typed in the down-level logon name format: **domain\accountname**
-{% endhint %}
-
-## Office 365 Global Administrator
+### Office 365 Global Administrator
 
 **When connecting to an Office 365 tenant** during the configuration process, **you need to connect with a Global Administrator account.**
 
@@ -88,6 +108,40 @@ If the service account is outside your domain the account name must be typed in 
 ![Office 365 Global Admin Consent](../../.gitbook/assets/permission_requirements_global_administrator_consent_without_steps.png)
 
 For a complete overview of individual permissions used by SysKit Point, please refer to the [following article](../../requirements/permission-requirements.md#syskit-point-app-permissions).
+
+### SSL Certificate
+
+**In a production environment**, **it is recommended to use**:
+
+* **Custom Domain used in SysKit Point Web App URL**; for example, `https://point.mycustomdomain.com`
+* **SSL certificate obtained from a publicly trusted SSL certificate provider**
+
+When using such setup, make sure to:
+
+* **Associate the SSL certificate with the custom domain used in the SysKit Point Web App URL**
+* **Add a public DNS A record on your custom domain pointing to Point Virtual Machine's public IP address** 
+
+**When configuring SysKit Point in a test environment**, you can use:
+
+* **Azure default domain** `cloudapp.azure.com` **in SysKit Point Web App URL**; for example, `https://azurevmname.eastus.cloudapp.azure.com`
+* **Self-signed certificate created by SysKit Point**
+
+{% hint style="warning" %}
+**Please note!**  
+**Self-signed certificates are by default not publicly trusted**; therefore, your connection to Point application may be marked as not private in the browser when accessing SysKit Point URL.
+{% endhint %}
+
+**To use the Azure default domain**, you need to configure a DNS name in the Azure Portal. To do so:
+
+* **Open** [Azure portal](https://portal.azure.com)
+* **Navigate to your Azure Virtual Machine**
+* **Click Configure \(1\)** next to the DNS name label on the Overview screen
+* **Define the DNS name label \(2\)**
+* **Save your changes \(3\)**
+
+![](../../.gitbook/assets/azure-vm_dns-name_01.png)
+
+![Azure - DNS Name configuration](../../.gitbook/assets/azure-vm_dns-name_02.png)
 
 ## Related Topics
 
