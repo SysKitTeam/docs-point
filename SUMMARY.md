@@ -49,6 +49,7 @@
   * [SysKit Point Tasks](common-tasks/syskit-point-tasks.md)
   * [Perform Permissions Review in SysKit Point](common-tasks/permissions-review.md)
   * [Monitor Permissions Review in SysKit Point](common-tasks/monitor-permissions-review.md)
+  * [Manually Request Permissions Review in SysKit Point](common-tasks/manually-request-permissions-review.md)
   * [Resolve Lifecycle Management Tasks in SysKit Point](common-tasks/lifecycle-management.md)
   * [Monitor Lifecycle Management Tasks in SysKit Point](common-tasks/monitor-lifecycle-management.md)
   * [Run Lifecycle Management Actions in SysKit Point](common-tasks/lifecycle-management-actions.md)
