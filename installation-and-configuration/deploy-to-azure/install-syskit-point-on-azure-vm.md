@@ -14,7 +14,7 @@ Before continuing, please make sure that all [prerequisites](prerequisites/READM
 
 {% hint style="warning" %}
 **Please note!**  
-To install SysKit Point, make sure that the **RDP connection \(port 3389\)** that allows you to access your virtual machine is enabled. After the configuration, the inbound rule allowing RDP connections can be removed.
+To install SysKit Point, make sure that the **RDP connection \(TCP port 3389\)** that allows you to access your virtual machine is enabled. After the configuration, the inbound rule allowing RDP connections can be removed.
 {% endhint %}
 
 1. **Connect to the Azure Virtual Machine** using RDP connection
