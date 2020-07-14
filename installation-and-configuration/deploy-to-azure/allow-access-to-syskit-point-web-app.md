@@ -32,7 +32,7 @@ To make SysKit Point accessible for other users outside the Azure Virtual Machin
 To allow inbound traffic on the Azure Virtual Machine, follow these steps:
 
 * **Sign in to Azure Virtual Machine**
-* **Open Windows Firewall with Advanced Security on Local Computer**
+* **Open Windows Firewall with Advanced Security**
 * **Select Inbound Rules \(1\)**
 * **Click New Rule action \(2\)**
 
