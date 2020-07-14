@@ -58,7 +58,7 @@ For SysKit Point configuration, the following information is required:
 
 {% hint style="warning" %}
 **Please note!**  
-If you have provisioned **separate Azure Virtual Machines** for Azure SQL database and SysKit Point installation, **make sure that they are deployed to the same Virtual Network** and the SysKit Point server **can establish a connection to the SQL Server** by following the [guidelines](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-connect#connect-to-sql-server-within-a-virtual-network) from Microsoft.
+If you have provisioned **separate Azure Virtual Machines** for Azure SQL Server and SysKit Point installation, **make sure that they are deployed to the same Virtual Network** and the SysKit Point server **can establish a connection to the SQL Server** by following the [guidelines](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-connect#connect-to-sql-server-within-a-virtual-network) from Microsoft.
 {% endhint %}
 
 
