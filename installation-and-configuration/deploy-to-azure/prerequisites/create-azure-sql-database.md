@@ -71,7 +71,7 @@ If you have provisioned **separate Azure Virtual Machines** for Azure SQL Server
 
 ### Credentials 
 
-For SysKit Point configuration, the following information is required:
+For SysKit Point configuration, prepare the following information:
 
 * **Database server**
 * **Database name**
