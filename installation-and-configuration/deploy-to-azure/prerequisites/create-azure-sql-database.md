@@ -21,27 +21,27 @@ Below, you can find Azure SQL Database requirements based on your SysKit Point s
 
 ### Professional Subscription
 
-Recommended for Office 365 environments with up to 1000 users.
+Recommended for Office 365 environments with up to 1000 users and sites.
 
-| Server/Resource | Compute Hardware | Min vCores | Max vCores | Data max size |
-| :--- | :--- | :--- | :--- | :--- |
-| Azure SQL Database | General purpose Gen 5 Serverless| 0.5 | 2 | 8GB |
+| Server/Resource | Service tier | DTU | CPU | Included storage (GB) |
+| :--- | :--- | :--- | :--- | :--- | 
+| Azure SQL Database | S1 | 20 | non intensive (<1 vCore) | 250 (HDD-based) | 
 
 ### Team Subscription
 
-Recommended for Office 365 environments with up to 10000 users.
+Recommended for Office 365 environments with up to 10000 users and sites.
 
-| Server/Resource | Compute Hardware | Min vCores | Max vCores | Data max size |
-| :--- | :--- | :--- | :--- | :--- |
-| Azure SQL Database | General purpose Gen 5 Serverless | 2 | 4 | 16GB |
+| Server/Resource | Service tier | DTU | CPU | Included storage (GB) |
+| :--- | :--- | :--- | :--- | :--- | 
+| Azure SQL Database | S2 | 50 | non intensive (<1 vCore) | 250 (HDD-based) | 
 
 ### Enterprise Subscription
 
-Recommended for Office 365 environments with more than 10000 users.
+Recommended for Office 365 environments with more than 10000 users and sites.
 
-| Server/Resource | Compute Hardware | Min vCores | Max vCores | Data max size |
-| :--- | :--- | :--- | :--- | :--- |
-| Azure SQL Database | General purpose Gen 5 Serverless | 4 | 8 | 32GB |
+| Server/Resource | Service tier | DTU | vCore (CPU) | Included storage (GB) |
+| :--- | :--- | :--- | :--- | :--- | 
+| Azure SQL Database | S3 | 100 | intensive | 250 (SSD-based) | 
 
 ## Prepare for Installation & Configuration
 
