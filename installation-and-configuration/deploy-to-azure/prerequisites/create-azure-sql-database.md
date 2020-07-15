@@ -49,7 +49,7 @@ Recommended for Office 365 environments with more than 10000 users and sites.
 
 ## Prepare for Installation & Configuration
 
-When creating the database ensure the following:
+When creating the database, ensure the following:
 * **resource requirements are met**
 * **a dedicated Azure SQL database is created for SysKit Point.**
 * **Azure Virtual Machine, where SysKit Point will be installed, has access to Azure SQL database**
