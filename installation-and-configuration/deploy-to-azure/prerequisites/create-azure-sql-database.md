@@ -4,9 +4,7 @@ description: >-
   and configure SysKit Point in the Azure environment.
 ---
 
-## Azure SQL Database
-
-SysKit Point requires an **Azure SQL database** for storing data collected from Office 365. When creating an Azure SQL database, it is recommended to use the following 
+SysKit Point requires an **Azure SQL database** for storing data collected from Office 365. In this article, you can find recommendations to follow when creating this resource.
 
 ## Resource Requirements per Subscription Plan
 
@@ -47,7 +45,31 @@ Recommended for Office 365 environments with more than 10000 users.
 
 ## Prepare for Installation & Configuration
 
-**A dedicated Azure SQL database needs to be created for SysKit Point.**
+### Creating the Database
+
+When creating the database ensure the following:
+* **resource requirements are met**
+* **a dedicated Azure SQL database is created for SysKit Point.**
+* the **Allow Azure services to access server** option is enabled
+
+{% hint style="success" %}
+By enabling the **Allow Azure services to access server** option, you are also enabling SysKit Point to connect to the Azure SQL database.
+{% endhint %}
+
+To enable the **Allow Azure services to access server** option, follow these steps:
+* **Open** [Azure portal](https://portal.azure.com)
+* **Navigate to your Azure SQL server**
+* **Click** the **Firewalls and virtual networks (1)** option in the **Security** section
+* **Set** the **Allow Azure services and resources to access this server (2)** setting to **Yes**
+
+![Azure SQL - Allow Azure services and resources to access this server](../../../.gitbook/assets/create-azure-sql-database_allow-access.png)
+
+{% hint style="warning" %}
+**Please note!**  
+If you have provisioned **separate Azure Virtual Machines** for Azure SQL Server and SysKit Point installation, **make sure that they are deployed to the same Virtual Network** and the SysKit Point server **can establish a connection to the SQL Server** by following the [guidelines](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-connect#connect-to-sql-server-within-a-virtual-network) from Microsoft.
+{% endhint %}
+
+### Credentials 
 
 For SysKit Point configuration, the following information is required:
 
@@ -55,13 +77,6 @@ For SysKit Point configuration, the following information is required:
 * **Database name**
 * **Server admin login**
 * **Server admin password**
-
-{% hint style="warning" %}
-**Please note!**  
-If you have provisioned **separate Azure Virtual Machines** for Azure SQL Server and SysKit Point installation, **make sure that they are deployed to the same Virtual Network** and the SysKit Point server **can establish a connection to the SQL Server** by following the [guidelines](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-connect#connect-to-sql-server-within-a-virtual-network) from Microsoft.
-{% endhint %}
-
-
 
 ## Related Topics
 
