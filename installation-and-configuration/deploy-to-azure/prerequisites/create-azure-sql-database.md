@@ -4,6 +4,10 @@ description: >-
   and configure SysKit Point in the Azure environment.
 ---
 
+{% hint style="success" %}
+Before continuing, make sure to [create and configure an Azure Virtual Machine](create-azure-vm.md) where SysKit Point will be installed.  
+{% endhint %}
+
 SysKit Point requires an **Azure SQL database** for storing data collected from Office 365. In this article, you can find recommendations to follow when creating this resource.
 
 ## Resource Requirements per Subscription Plan
@@ -45,24 +49,24 @@ Recommended for Office 365 environments with more than 10000 users and sites.
 
 ## Prepare for Installation & Configuration
 
-### Creating the Database
-
 When creating the database ensure the following:
 * **resource requirements are met**
 * **a dedicated Azure SQL database is created for SysKit Point.**
-* the **Allow Azure services to access server** option is enabled
+* **Azure Virtual Machine, where SysKit Point will be installed, has access to Azure SQL database**
 
-{% hint style="success" %}
-By enabling the **Allow Azure services to access server** option, you are also enabling SysKit Point to connect to the Azure SQL database.
-{% endhint %}
+### Allowing Access to Azure SQL Database
 
-To enable the **Allow Azure services to access server** option, follow these steps:
+After the Azure SQL database is created, you need to allow Azure Virtual Machine, where SysKit Point will be installed, to access it.
+To do so, you must create a new firewall rule, as described in the steps below:
+
 * **Open** [Azure portal](https://portal.azure.com)
 * **Navigate to your Azure SQL server**
-* **Click** the **Firewalls and virtual networks (1)** option in the **Security** section
-* **Set** the **Allow Azure services and resources to access this server (2)** setting to **Yes**
+* **Select** the **Firewalls and virtual networks (1)** option in the **Security** section
+* **Define a Rule name (2)**
+* **Input the IP Address** of the Azure Virtual Machine where SysKit Point will be installed into the **Start IP (3)** and **End IP (4)** fields
+* **Save** changes
 
-![Azure SQL - Allow Azure services and resources to access this server](../../../.gitbook/assets/create-azure-sql-database_allow-access.png)
+![Azure SQL - Adding a firewall rule](../../../.gitbook/assets/create-azure-sql-database_allow-access.png)
 
 {% hint style="warning" %}
 **Please note!**  

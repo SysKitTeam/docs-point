@@ -66,17 +66,13 @@ Additionally, the following is needed for SysKit Point configuration:
 
 {% hint style="warning" %}
 **Please note!**  
-Once installed and configured, SysKit Point web-app can be accessed and used with a non-privileged user account.
+* **Once installed and configured, SysKit Point web-app can be accessed and used with a non-privileged user account.**
+* **After the SysKit Point configuration is completed, the inbound rule allowing RDP connections can be removed.**
+* **Office 365 Global Admin credentials are only needed when configuring SysKit Point for the first time.**
 {% endhint %}
 
-{% hint style="warning" %}
-**Please note!**  
-After the SysKit Point configuration is completed, the inbound rule allowing RDP connections can be removed.
-{% endhint %}
-
-{% hint style="warning" %}
-**Please note!**  
-Office 365 Global Admin credentials are only needed when configuring SysKit Point for the first time.
+{% hint style="success" %}
+* The Public IP address defined here is needed when [allowing access to Azure SQL database](create-azure-sql-database.md#allowing-access-to-azure-sql-database), so make sure to have it at hand.
 {% endhint %}
 
 ### Service Account
