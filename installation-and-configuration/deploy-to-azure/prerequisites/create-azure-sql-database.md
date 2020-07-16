@@ -21,7 +21,7 @@ Based on the size of your Office 365 environment, SysKit Point comes with three 
 * **Enterprise**
 
 {% hint style="info" %}
-**Learn more**
+**Learn more!**  
 To learn more about available SysKit Point subscription plans and included features, continue to the [Pricing page.](https://www.syskit.com/products/point/pricing/)
 {% endhint %}
 
@@ -80,7 +80,7 @@ After the Azure SQL database is created, you need to allow Azure Virtual Machine
 ![Azure SQL - Adding a firewall rule](../../../.gitbook/assets/create-azure-sql-database_allow-access.png)
 
 {% hint style="info" %}
-**Hint!** 
+**Hint!**   
 There are a couple of options when it comes to allowing access to the Azure SQL database. [You can find them all here](https://docs.microsoft.com/en-us/azure/azure-sql/database/network-access-controls-overview).
 {% endhint %}
 
