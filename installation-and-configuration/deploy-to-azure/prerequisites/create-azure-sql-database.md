@@ -28,7 +28,7 @@ To learn more about available SysKit Point subscription plans and included featu
 Below, you can find Azure SQL database recommendations based on your SysKit Point subscription plan and your environment's size.
 
 {% hint style="warning" %}
-**Please note!**
+**Please note!**   
 Here, we recommend you to create Azure SQL resources by selecting the [DTU-based](https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tiers-dtu) purchase model. If you find the [vCore-base](https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tiers-vcore?tabs=azure-portal) model will better suit your needs, you can migrate from the DTU-based model to the vCore-based model, and vice-versa, with minimal downtime, as described [here](https://docs.microsoft.com/en-us/azure/azure-sql/database/migrate-dtu-to-vcore#migrate-a-database).
 {% endhint %}
 
@@ -80,7 +80,7 @@ After the Azure SQL database is created, you need to allow Azure Virtual Machine
 ![Azure SQL - Adding a firewall rule](../../../.gitbook/assets/create-azure-sql-database_allow-access.png)
 
 {% hint style="info" %}
-**Hint!**   
+**Hint!**  
 There are a couple of options when it comes to allowing access to the Azure SQL database. [You can find them all here](https://docs.microsoft.com/en-us/azure/azure-sql/database/network-access-controls-overview).
 {% endhint %}
 
