@@ -86,17 +86,17 @@ There are a couple of options when it comes to allowing access to the Azure SQL 
 
 {% hint style="warning" %}
 **Please note!**  
-If you have provisioned **separate Azure Virtual Machines** for Azure SQL server and SysKit Point installation, **make sure that they are deployed to the same Virtual Network** and the SysKit Point server **can establish a connection to the SQL Server** by following the [guidelines](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-connect#connect-to-sql-server-within-a-virtual-network) from Microsoft.
+Azure SQL server can also be provisioned on a **separate Azure Virtual Machine**. If you decide to use such configuration, **make sure that the Azure SQL server Virtual Machine and Virtual Machine where SysKit Point will be installed, are deployed to the same Virtual Network**. Ensure that the SysKit Point server **can establish a connection to the SQL Server** by following the [guidelines](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-connect#connect-to-sql-server-within-a-virtual-network) from Microsoft.
 {% endhint %}
 
 ### Credentials
 
 For SysKit Point configuration, prepare the following information:
 
-* **Database server**
-* **Database name**
-* **Server admin login**
-* **Server admin password**
+* **Azure SQL server**
+* **Azure SQL database name**
+* **Azure SQL server admin login**
+* **Azure SQL server admin password**
 
 ## Related Topics
 
