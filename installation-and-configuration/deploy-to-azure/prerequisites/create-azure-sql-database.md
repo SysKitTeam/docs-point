@@ -84,11 +84,6 @@ After the Azure SQL database is created, you need to allow Azure Virtual Machine
 There are a couple of options when it comes to allowing access to the Azure SQL database. [You can find them all here](https://docs.microsoft.com/en-us/azure/azure-sql/database/network-access-controls-overview).
 {% endhint %}
 
-{% hint style="warning" %}
-**Please note!**  
-Azure SQL server can also be provisioned on a **separate Azure Virtual Machine**. If you decide to use such configuration, **make sure that the Azure SQL server Virtual Machine and Virtual Machine where SysKit Point will be installed, are deployed to the same Virtual Network**. Ensure that the SysKit Point server **can establish a connection to the SQL Server** by following the [guidelines](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-connect#connect-to-sql-server-within-a-virtual-network) from Microsoft.
-{% endhint %}
-
 ### Credentials
 
 For SysKit Point configuration, prepare the following information:
