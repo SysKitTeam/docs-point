@@ -39,7 +39,7 @@ When you are on the **Manage Access** screen, you will see two roles available f
 
 When the user is assigned to the **SysKit Point Admin** role, they will be able to login to SysKit Point and view **All data** collected from the **Office 365** tenant. Still, they will only be able to **execute** actions for which they have **permissions** in **Office 365**.
 
-To assign a user to the **SysKit Point Admin** role, click the **Assign to role** button which will open up a **textbox** where you can type in the name of the **user** you want to **assign** to the **SysKit Point Admin role**. After you've selected the user, click **Save** to confirm your action.
+To assign a user to the **SysKit Point Admin** role, click the **Assign to role** button, which will open up a **textbox** where you can type in the name of the **user** you want to **assign** to the **SysKit Point Admin role**. After you've selected the user, click **Save** to confirm your action.
 
 ![SysKit Point Settings screen - Manage Access page - Assigning user to SysKit Point Admin](../.gitbook/assets/rbs-clanak-3-1%20%281%29.png)
 
