@@ -92,14 +92,15 @@ To see all users associated with those roles, click on the **number** on Users l
 
 ![SysKit Point Settings screen - Manage Access - SysKit Point Admins user label](../.gitbook/assets/rbs_settings_updated_2.png)
 
-You are then redirected to **SysKit Point Admins** report where You can see who has **access** to **SysKit Point**.
+You are then redirected to the **SysKit Point Admins** report, where You can see who has **access** to **SysKit Point**.
 
 ![SysKit Point Admins Report](../.gitbook/assets/rbs-clanak-10.png)
 
-While **Team** license plan gives you the ability to add **distinct users** only as **SysKit Point admins** \(also limited to number five\). **Enterprise** license enables you to add even **Office 365 Administration roles**, **security groups** and **Office 365 groups**.
+While the **Team** license plan gives you the ability to add **distinct users** only as **SysKit Point admins** \(also limited to number five\), the **Enterprise** license enables you to add even **Office 365 Administration roles**, **security groups,** and **Office 365 groups**.
 
 {% hint style="warning" %}
-**Please note!** it is not possible to remove or add a distinct user from **Office 365 administration role** in **SysKit Point**.
+**Please note!**   
+It is not possible to remove or add a distinct user from **Office 365 administration role** in **SysKit Point**.
 {% endhint %}
 
 #### Who Are SysKit Point Exchange Admins
