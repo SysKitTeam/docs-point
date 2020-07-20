@@ -15,14 +15,14 @@ Simultaneous usage of **SysKit Point** is only available in the **Team** and **E
 
 ### Team License
 
-Let's say you activated the **SysKit Point Team** license. With it, you get an option to simultaneously use **SysKit Point** between **five** users be it like a **SysKit Point Admin** or **SysKit Point Global Viewer**. Here's how you can manage who gets to use it.
+Let's say you activated the **SysKit Point Team** license. With it, you can simultaneously use **SysKit Point** between **five** users, be it like a **SysKit Point Admin** or **SysKit Point Global Viewer**. Here's how you can manage who gets to use it.
 
 {% hint style="warning" %}
 **Please note!**   
 The account that has activated your license **will automatically occupy one out of five eligible** **Admin user** places.
 {% endhint %}
 
-When located on the **Home Screen**, click on the **Settings** option \(1\) in the upper right corner. A drop-down appears. Click on the **Security** option \(2\).
+When located on the **Home Screen**, click on the **Settings** **option \(1\)** in the upper right corner. A drop-down appears. Click on the **Security** **option \(2\)**.
 
 ![SysKit Point Settings Dropdown](../.gitbook/assets/rbs_home_screen_updated.png)
 
