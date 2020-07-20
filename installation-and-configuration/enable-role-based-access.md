@@ -55,9 +55,9 @@ Each role on **Manage Access** has its user number label. It shows us how many u
 
 ![SysKit Point Settings screen - Manage Access page - Number of users in SysKit Point Roles](../.gitbook/assets/rbs-clanak-5-3.png)
 
-Clicking on each of those labels will redirect us to the **report** of the corresponding role. The report will show us **exact** users **occupying** that role. On the role reports, you can also **assign** new users to that role, **export** the report into **PDF** and **XLSX** and also **remove** users from said roles.
+Clicking each of those labels redirects you to the **report** of the corresponding role. The report shows **exact** users **occupying** that role. On the role reports, you can also **assign** new users to that role, **export** the report into **PDF** or **XLSX**, and **remove** users from said roles.
 
-To **remove** a user click on **checkbox** next to desired user name \(1\), then click on the **Remove Access from SysKit Point** \(2\).
+To **remove** a user, click the **checkbox** next to the desired **user name \(1\)**, then click the **Remove Access from SysKit Point** **\(2\)** action.
 
 ![SysKit Point Settings - SysKit Point Admins report - Remove Access from SysKit Point](../.gitbook/assets/rbs-clanak-6.png)
 
