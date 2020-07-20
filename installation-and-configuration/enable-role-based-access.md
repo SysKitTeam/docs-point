@@ -82,7 +82,7 @@ When located on the **Home Screen**, click on the **Settings** option in the upp
 
 You will be redirected to **SysKit Point Settings screen - Manage access**.
 
-With **Enterprise** plan you have four available options for accessing SysKit Point. **SysKit Point Admins** \(1\), **SysKit Point Global Viewers** \(2\), **SysKit Point Exchange Admins** \(3\) and **SysKit Point Collaborators** \(4\) of which the latter ones are disabled by default.
+With the **Enterprise** plan, you have four available options for accessing SysKit Point. **SysKit Point Admins** **\(1\)**, **SysKit Point Global Viewers \(2\)**, **SysKit Point Exchange Admins \(3\)**, and **SysKit Point Collaborators** **\(4\)** of which the latter ones are disabled by default.
 
 ![SysKit Point Settings screen - Manage Access page Enterprise license](../.gitbook/assets/rbs_settings_updated.png)
 
