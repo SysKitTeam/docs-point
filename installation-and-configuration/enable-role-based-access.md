@@ -103,9 +103,9 @@ While the **Team** license plan gives you the ability to add **distinct users** 
 It is not possible to remove or add a distinct user from **Office 365 administration role** in **SysKit Point**.
 {% endhint %}
 
-#### Who Are SysKit Point Exchange Admins
+#### SysKit Point Exchange Admins
 
-**SysKit Point Exchange Admins** role is the special role made for **SysKit Point** in which you can delegate a person or security group in charge of monitoring Exchange Log reports for your environment, giving that person Read-Only access on Exchange Log report, without giving them the ability to execute actions and manage application settings.
+**SysKit Point Exchange Admin** is a ****role that enables you to put a person or security group in charge of monitoring Exchange Log reports for your environment. User with the assigned role has Read-Only access on the Exchange Logs report, and cannot execute actions and manage application settings.
 
 To enable **SysKit Point Exchange Admins** when you're located on **Settings screen** - **Manage Access**, enable the **toggle** next to **SysKit Point Exchange Admins** \(1\) and click on the button **Assign to role** \(2\), a textbox will open and you can enter the names of **users**, **Office 365 Administrator roles**, **security groups** and **Office 365 groups**. When you're finished, click on the **Save** button \(3\).
 
