@@ -65,10 +65,11 @@ A **dialog** will pop out, asking you to **confirm** your desired action.
 
 ![SysKit Point Admins Report - Remove Access from SysKit Point confirmation dialog](../.gitbook/assets/rbs-clanak-7.png)
 
-When the action is **completed**, the selected user will **no longer have access** to **SysKit Point**.
+When the action is **completed**, the selected user **no longer has access** to **SysKit Point**.
 
 {% hint style="warning" %}
-**Please note!** Removing user access from **SysKit Point** will not remove user from your **Office 365** environment.
+**Please note!**   
+Removing user access from **SysKit Point** will not remove a user from your **Office 365** environment.
 {% endhint %}
 
 ### Enterprise License
