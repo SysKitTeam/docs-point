@@ -34,11 +34,13 @@ Users with the SysKit Point Admins role assigned can:
 ### SysKit Point Global Viewers
 Users with the SysKit Point Global Viewers role assigned can:
 * **see all data collected from your Office 365 tenant**
+
 They have **Read-Only** access, and **cannot execute actions or manage application settings**.
 
 ### SysKit Point Exchange Admins
 Users with the SysKit Point Exchange Admins role assigned can:
 * **access the Exchange Logs report** exclusively
+
 They have **Read-Only** access, and **cannot execute actions or manage application settings only**.
 
 ### SysKit Point Collaborators
