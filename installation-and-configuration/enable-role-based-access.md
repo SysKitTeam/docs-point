@@ -49,8 +49,9 @@ When logged in to SysKit Point, they can:
 * **access all data related to Office 365 resources where they are owners/administrators**
 * **perform actions** based on the permissions granted in Office 365
 
-Optionally, you can assign this role to users with **Full Control** permissions in your tenant.
-Additionally, **actions can be disabled** for this role by enabling the **Read Only Access** option. 
+Optionally, you can assign this role to users with **Full Control** permissions, or enable **read-only**, which disables actions** for SysKit Point Collaborators.
+Both of these options are described in the following section. 
+
 
 ## Setting up Role-Based Access
 
