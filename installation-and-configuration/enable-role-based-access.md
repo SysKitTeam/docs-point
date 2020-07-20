@@ -45,9 +45,9 @@ To assign a user to the **SysKit Point Admin** role, click the **Assign to role*
 
 If you have a situation in your environment where you have Users that should be able to generate reports and see tenant permissions but don't want them to have the ability to execute actions, **SysKit Point Global Viewer** is a perfect role for that situation.
 
-When User is assigned to **SysKit Point Global Viewer** role, they are able to login to **SysKit Point** and view all data collected from **Office 365** but are **unable** to **execute** **actions** or **manage application settings**.
+When a user is assigned to the **SysKit Point Global Viewer** role, they can sign in to **SysKit Point** and view all data collected from **Office 365** but **cannot** **execute** **actions** or **manage application settings**.
 
-To assign a User to a **SysKit Point Global Viewer** role, **enable** the **toggle** \(1\) **next to it.** Click on the **Assign to role** button, type in the name of the desired user and select it \(2\) and then click Save \(3\).
+To assign a User to a **SysKit Point Global Viewer** role, **enable** the **toggle** **\(1\)** **next to it.** Click on the **Assign to role** button, **type in the name of the desired user and** **select it \(2\)** and then click Save \(3\).
 
 ![SysKit Point Settings screen - Manage Access page - Assigning user to SysKit Point Global Viewer](../.gitbook/assets/rbs-clanak-4-1.png)
 
