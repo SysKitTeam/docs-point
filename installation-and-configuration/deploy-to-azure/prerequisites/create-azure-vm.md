@@ -1,12 +1,13 @@
 ---
 description: >-
-  This article lists Azure Virtual Machine requirements that are necessary to install
-  and configure SysKit Point in Azure environment.
+  This article lists Azure Virtual Machine requirements that are necessary to
+  install and configure SysKit Point in Azure environment.
 ---
 
-# Azure Virtual Machine
+# Create Azure Virtual Machine
 
 ## Software Requirements
+
 We recommend installing SysKit Point on a Windows Server machine to allow SysKit Point Service to crawl your Office 365 environment continuously. When choosing the Virtual machine image, please note the following:
 
 * **Windows Server 2012 or newer is required** 
@@ -15,12 +16,13 @@ We recommend installing SysKit Point on a Windows Server machine to allow SysKit
 ## Resource Requirements per Subscription Plan
 
 Based on the size of your Office 365 environment, SysKit Point comes with three different subscription plans:
+
 * **Professional**
 * **Team**
 * **Enterprise**
 
 {% hint style="info" %}
-To learn more about available SysKit Point subscription plans and included features, continue to the [Pricing page.](https://www.syskit.com/products/point/pricing/)  
+To learn more about available SysKit Point subscription plans and included features, continue to the [Pricing page.](https://www.syskit.com/products/point/pricing/)
 {% endhint %}
 
 Below, you can find Azure Virtual Machine requirements based on your SysKit Point subscription plan and your environment's size.
@@ -61,11 +63,13 @@ After you create an Azure Virtual Machine, ensure the following:
 * **A service account with Local Administrator** on the Azure Virtual Machine is needed to run SysKit Point Service
 
 Additionally, the following is needed for SysKit Point configuration:
+
 * **Domain used in SysKit Point Web App URL**
 * **SSL certificate**
 
 {% hint style="warning" %}
-**Please note!**  
+**Please note!**
+
 * **Once installed and configured, SysKit Point web-app can be accessed and used with a non-privileged user account.**
 * **After the SysKit Point configuration is completed, the inbound rule allowing RDP connections can be removed.**
 * **Office 365 Global Admin credentials are only needed when configuring SysKit Point for the first time.**
@@ -145,3 +149,4 @@ When using such setup, make sure to:
 * [Allow Access to SysKit Point Web-App](../allow-access-to-syskit-point-web-app.md)
 
 If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).
+

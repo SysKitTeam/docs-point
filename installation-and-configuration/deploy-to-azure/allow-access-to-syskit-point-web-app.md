@@ -1,10 +1,10 @@
 ---
 description: >-
-  This article describes steps to take when you want to make SysKit Point available
-  to site owners and admins outside the Azure Virtual Machine.
+  This article describes steps to take when you want to make SysKit Point
+  available to site owners and admins outside the Azure Virtual Machine.
 ---
 
-# Allow Access to SysKit Point
+# Allow Access to SysKit Point Web-App
 
 You can use this guide when:
 
@@ -69,6 +69,7 @@ After all the steps are done, you can access the SysKit Point web application fr
 * [Create Azure SQL Database](prerequisites/create-azure-sql-database.md)
 * [Install SysKit Point on Azure VM](install-syskit-point-on-azure-vm.md) 
 * [Configure SysKit Point on Azure VM](configure-syskit-point-on-azure-vm.md)
-* [Enable Role Based Access](../../enable-role-based-access.md)
+* [Enable Role Based Access](https://github.com/SysKitTeam/docs-point/tree/6a4d083fa6b37deeced0024555103647b8738b73/enable-role-based-access.md)
 
 If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).
+

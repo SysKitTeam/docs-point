@@ -7,7 +7,7 @@ description: This article guides you through the SysKit Point installation.
 **SysKit Point** is a **web application** that can be installed on an Azure Virtual Machine in your Azure cloud environment.
 
 {% hint style="success" %}
-Before continuing, please make sure that all [prerequisites](prerequisites/README.md) are met.
+Before continuing, please make sure that all [prerequisites](prerequisites/) are met.
 {% endhint %}
 
 ## Installation Steps
