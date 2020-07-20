@@ -16,7 +16,7 @@ In the Configuration Wizard, you will need to provide the following information:
 * **SSL Certificate** \(we can provide you with a self-signed one, but for production we recommend you use full SSL certificate\).
 
 {% hint style="info" %}
-For a detailed overview of the **SysKit Point system and permission requirements**, [navigate to the Requirements section](../requirements/README.md).
+For a detailed overview of the **SysKit Point system and permission requirements**, [navigate to the Requirements section](../requirements/).
 {% endhint %}
 
 ## Configuration Steps
