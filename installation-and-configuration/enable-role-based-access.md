@@ -111,11 +111,11 @@ To enable **SysKit Point Exchange Admins,** navigate to the **Settings** &gt; **
 
 ![SysKit Point settings - enabling SysKit Point Exchange Admins role](../.gitbook/assets/rbs_settings_updated_3.png)
 
-After your settings have been saved, you can click on Users tile under SysKit Point Exchange Admins to see more details by checking out who is currently occupying said role, you can assign more users to that role, Export the report in PDF and Excel
+After your settings have been saved, you can click the Users tile under SysKit Point Exchange Admins to check who has the said role assigned; you can assign more users to that role, and Export the report to PDF or Excel.
 
 ![SysKit Point Exchange Admins report](../.gitbook/assets/rbs_settings_updated_4.png)
 
- You can also select current user or role and remove their access\(1\) from SysKit Point.
+ You can also select the current user or role and **remove their access \(1\)** from SysKit Point.
 
 ![SysKit Point Exchange Admins report user/role removal](../.gitbook/assets/rbs_settings_updated_5.png)
 
