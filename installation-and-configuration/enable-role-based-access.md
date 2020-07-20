@@ -119,7 +119,7 @@ After your settings have been saved, you can click the Users tile under SysKit P
 
 ![SysKit Point Exchange Admins report user/role removal](../.gitbook/assets/rbs_settings_updated_5.png)
 
-#### What is SysKit Point Collaborators role
+#### SysKit Point Collaborators
 
 **SysKit Point Collaborators** role is the specific role made for **SysKit Point** Enterprise license users in which they can enable their **Site admins/Teams owners** access to the **SysKit Point** to easily manage their **sites/teams** while not showing them information they should not see. When it's enabled, **SysKit Point** will **automatically** assign that type of users to **SysKit Point Collaborators** role.
 
