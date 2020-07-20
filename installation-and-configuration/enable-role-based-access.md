@@ -135,7 +135,7 @@ You will be redirected to **SysKit Point Collaborators report**, where you can s
 
 ![SysKit Point Collaborators report](../.gitbook/assets/rbs-clanak-13.png)
 
-### SysKit Point manage access Roles
+### SysKit Point Roles
 
 To sum up, SysKit Point gives you a wide range of managing access which you can tailor by your own needs and preferences. Here are all of SysKit Point Roles in short:
 
