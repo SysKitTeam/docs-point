@@ -86,9 +86,9 @@ With the **Enterprise** plan, you have four available options for accessing SysK
 
 ![SysKit Point Settings screen - Manage Access page Enterprise license](../.gitbook/assets/rbs_settings_updated.png)
 
-If you have activated **SysKit Point** with **Enterprise** license it will automatically add two **Office 365** administration roles \(**Company Administrator** and **SharePoint Service Administrator**\) as **SysKit Point Admins**. So any user on your **Office 365 environment** that has that role will **automatically** have **full access** to **SysKit Point**.
+If you have activated **SysKit Point** with **Enterprise** license, it will automatically add two **Office 365** administration roles \(**Company Administrator** and **SharePoint Service Administrator**\) as **SysKit Point Admins**. Any user on your **Office 365 environment** that has that role will **automatically** have **full access** to **SysKit Point**.
 
-To see all users associated with those roles, click on the **number** on Users label under **SysKit Point Admins** option \(1\).
+To see all users associated with those roles, click on the **number** on Users label under **SysKit Point Admins** **option \(1\)**.
 
 ![SysKit Point Settings screen - Manage Access - SysKit Point Admins user label](../.gitbook/assets/rbs_settings_updated_2.png)
 
