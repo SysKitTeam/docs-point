@@ -7,51 +7,56 @@ description: This article explains how you can enable Role-based Access in SysKi
 After the installation and configuration of **SysKit Point**, depending on the selected subscription plan, you can allow your Office 365 users to access **SysKit Point** web-app.
 
 {% hint style="warning" %}
-**Please note!**   
-Role-based access in SysKit Point is only available in the **Team** and **Enterprise** subscription plans.
-The **Professional** subscription plan allows only one SysKit Point admin to access the web-app.
+**Please note!**  
+Role-based access in SysKit Point is only available in the **Team** and **Enterprise** subscription plans. The **Professional** subscription plan allows only one SysKit Point admin to access the web-app.
 {% endhint %}
 
 ## SysKit Point Roles
 
 SysKit Point offers four predefined access roles:
+
 * **SysKit Point Admins**
 * **SysKit Point Global Viewers**
 * **SysKit Point Exchange Admins**
 * **SysKit Point Collaborators**
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 **SysKit Point Global Viewers** and **SysKit Point Exchange Admins** role is **available only in the Enterprise subscription plan**.
 {% endhint %}
 
 ### SysKit Point Admins
+
 Users with the SysKit Point Admins role assigned can:
+
 * **see all data** collected from your Office 365 tenant
 * **manage all settings in SysKit Point** 
 * **perform actions** based on the permissions granted in Office 365
 
 ### SysKit Point Global Viewers
+
 Users with the SysKit Point Global Viewers role assigned can:
+
 * **see all data collected from your Office 365 tenant**
 
 They have **Read-Only** access, and **cannot execute actions or manage application settings**.
 
 ### SysKit Point Exchange Admins
+
 Users with the SysKit Point Exchange Admins role assigned can:
+
 * **access the Exchange Logs report** exclusively
 
 They have **Read-Only** access, and **cannot execute actions or manage application settings only**.
 
 ### SysKit Point Collaborators
-The only role in SysKit Point that is **assigned automatically** to users or security groups, based on their **ownership permissions** in the **Office 365 tenant**. 
-When logged in to SysKit Point, they can:
+
+The only role in SysKit Point that is **assigned automatically** to users or security groups, based on their **ownership permissions** in the **Office 365 tenant**. When logged in to SysKit Point, they can:
+
 * **access all data related to Office 365 resources where they are owners/administrators**
 * **perform actions** based on the permissions granted in Office 365
 
-Optionally, you can assign this role to users with **Full Control** permissions, or enable **read-only**, which disables actions** for SysKit Point Collaborators.
-Both of these options are described in the following section. 
-
+Optionally, you can assign this role to users with **Full Control** permissions, or enable **read-only**, which disables actions for SysKit Point Collaborators. Both of these options are described in the following section.
 
 ## Setting up Role-Based Access
 
@@ -60,7 +65,7 @@ Both of these options are described in the following section.
 Let's say you activated the **SysKit Point Team** license. With it, you can simultaneously use **SysKit Point** between **five** users, be it like a **SysKit Point Admin** or **SysKit Point Global Viewer**. Here's how you can manage who gets to use it.
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 The account that has activated your license **will automatically occupy one out of five eligible** **Admin user** places.
 {% endhint %}
 
@@ -110,7 +115,7 @@ A **dialog** will pop out, asking you to **confirm** your desired action.
 When the action is **completed**, the selected user **no longer has access** to **SysKit Point**.
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 Removing user access from **SysKit Point** will not remove a user from your **Office 365** environment.
 {% endhint %}
 
@@ -141,13 +146,13 @@ You are then redirected to the **SysKit Point Admins** report, where You can see
 While the **Team** license plan gives you the ability to add **distinct users** only as **SysKit Point admins** \(also limited to number five\), the **Enterprise** license enables you to add even **Office 365 Administration roles**, **security groups,** and **Office 365 groups**.
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 It is not possible to remove or add a distinct user from **Office 365 administration role** in **SysKit Point**.
 {% endhint %}
 
 #### SysKit Point Exchange Admins
 
-**SysKit Point Exchange Admin** is a ****role that enables you to put a person or security group in charge of monitoring Exchange Log reports for your environment. User with the assigned role has Read-Only access on the Exchange Logs report, and cannot execute actions and manage application settings.
+**SysKit Point Exchange Admin** is a role that enables you to put a person or security group in charge of monitoring Exchange Log reports for your environment. User with the assigned role has Read-Only access on the Exchange Logs report, and cannot execute actions and manage application settings.
 
 To enable **SysKit Point Exchange Admins,** navigate to the **Settings** &gt; **Manage Access** screen, enable the **toggle** next to **SysKit Point Exchange Admins \(1\)**, and click the **Assign to role** **\(2\)** button. A textbox opens where you can enter the names of **users**, **Office 365 Administrator roles**, **security groups**, and **Office 365 groups**. When you're finished, click the **Save** **button \(3\)**.
 
@@ -157,7 +162,7 @@ After your settings have been saved, you can click the Users tile under SysKit P
 
 ![SysKit Point Exchange Admins report](../.gitbook/assets/rbs_settings_updated_4.png)
 
- You can also select the current user or role and **remove their access \(1\)** from SysKit Point.
+You can also select the current user or role and **remove their access \(1\)** from SysKit Point.
 
 ![SysKit Point Exchange Admins report user/role removal](../.gitbook/assets/rbs_settings_updated_5.png)
 
@@ -165,7 +170,7 @@ After your settings have been saved, you can click the Users tile under SysKit P
 
 The **SysKit Point Collaborators** role enables **Site admins/Teams owners** to access **SysKit Point** and efficiently manage their **sites/teams** while not showing the information they should not see. When it's enabled, **SysKit Point** **automatically** assigns that type of user to **SysKit Point Collaborators** role.
 
-To enable **SysKit Point Collaborators**, when located on the **Settings &gt;** **Manage Access** screen, enable the **toggle** next to **SysKit Point Collaborators** **\(1\).**  The total number of owners and administrators appears automatically above the **Site Owners label**. To assign the Collaborators role to users with **Full Control** permissions, check the **Add users with Full Control** **\(3\)** option. If you want to enable users to sign in to **SysKit Point** but **do not want** them to **execute actions**, check the **Give users read-only access \(disable actions\)** **\(2\)** option. When you're finished, click **Save**.
+To enable **SysKit Point Collaborators**, when located on the **Settings &gt;** **Manage Access** screen, enable the **toggle** next to **SysKit Point Collaborators** **\(1\).** The total number of owners and administrators appears automatically above the **Site Owners label**. To assign the Collaborators role to users with **Full Control** permissions, check the **Add users with Full Control** **\(3\)** option. If you want to enable users to sign in to **SysKit Point** but **do not want** them to **execute actions**, check the **Give users read-only access \(disable actions\)** **\(2\)** option. When you're finished, click **Save**.
 
 ![SysKit Point Settings screen - Manage Access - SysKit Point Collaborators](../.gitbook/assets/rbs_settings_updated_6.png)
 
