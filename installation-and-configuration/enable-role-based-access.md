@@ -131,7 +131,7 @@ If you want to see which users have the **SysKit Point Collaborators** role assi
 
 ![SysKit Point Settings screen - Manage Access - SysKit Point Collaborators - Owners label](../.gitbook/assets/rbs_settings_updated_7.png)
 
-You will be redirected to **SysKit Point Collaborators report** on which you can see who are your **Site Owners**, where exactly do they have **permissions** in your **Office 365 environment** and through what means are they given those permissions.
+You will be redirected to **SysKit Point Collaborators report**, where you can see which users are s**ite owners or administrators**, where exactly do they have **permissions** in your **Office 365 environment**, and through what means are they given those permissions.
 
 ![SysKit Point Collaborators report](../.gitbook/assets/rbs-clanak-13.png)
 
