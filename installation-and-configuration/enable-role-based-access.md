@@ -121,7 +121,7 @@ After your settings have been saved, you can click the Users tile under SysKit P
 
 #### SysKit Point Collaborators
 
-**SysKit Point Collaborators** role is the specific role made for **SysKit Point** Enterprise license users in which they can enable their **Site admins/Teams owners** access to the **SysKit Point** to easily manage their **sites/teams** while not showing them information they should not see. When it's enabled, **SysKit Point** will **automatically** assign that type of users to **SysKit Point Collaborators** role.
+The **SysKit Point Collaborators** role enables **Site admins/Teams owners** to access **SysKit Point** and efficiently manage their **sites/teams** while not showing the information they should not see. When it's enabled, **SysKit Point** **automatically** assigns that type of user to **SysKit Point Collaborators** role.
 
 To enable **SysKit Point Collaborators**, when you're located on **Settings screen** - **Manage Access**, enable the **toggle** next to **SysKit Point Collaborators** \(1\) and, you will see that number appears automatically on **Site Owners label**. If you also wish to enable user who has **Full Control** permissions check '**Add users with Full Control**' \(3\) that will also **automatically** add that type of users to the **SysKit Point Collaborators** role. Also if you want to enable those users to login to **SysKit Point** but **do not want** them to be able to **execute actions** check '**Give users read-only access \(disable actions\)**' \(2\). When you're finished, click **Save**.
 
