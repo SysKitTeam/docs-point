@@ -52,7 +52,9 @@ Request Permissions Review dialog will appear.
 
 ![Request Permissions Review dialog](../.gitbook/assets/manually-request-permissions-review_3.png)
 
-After confirming the request, you will be redirected to the Permissions Review overview screen. ![Permissions Review overview screen](../.gitbook/assets/manually-request-permissions-review_4.png)
+After confirming the request, you will be redirected to the Permissions Review overview screen. 
+
+![Permissions Review overview screen](../.gitbook/assets/manually-request-permissions-review_4.png)
 
 ## Resource Owners Flow
 
