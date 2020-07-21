@@ -29,11 +29,11 @@ To find more about the Automated Permissions Review, visit the [following articl
 
 ## Request Review
 
-To manually create a Permissions Review, use the Request Review action, available for SysKit Point Admin users on the following screens:
+To manually create a Permissions Review, use the **Request Review action**, **available for SysKit Point Admin users** on the following screens:
 
 * **Sites overview**
 * **Microsoft Teams & Groups overview**
-* **Site or Group details screen**
+* **Site or Group details**
 
 {% hint style="warning" %}
 **Please note!**  
@@ -43,7 +43,7 @@ You must be signed in to SysKit Point with a SysKit Point Admin account to see t
 To manually request a Permissions Review, do the following:
 
 * **Open the Sites Overview screen**
-* **Select a desired resource \(1\)**; you can also choose multiple resources at once
+* **Select the desired resource \(1\)**; you can also select multiple resources at once
 * **Click the Request Review Action \(2\)** available in the side panel
 
 ![Request Review action](../.gitbook/assets/manually-request-permissions-review_2.png)
