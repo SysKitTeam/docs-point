@@ -58,7 +58,9 @@ After confirming the request, you will be redirected to the Permissions Review o
 
 ## Resource Owners Flow
 
-After the manual permissions review request was sent, resource owner receives an e-mail in their mailbox. ![Permissions Review email](../.gitbook/assets/manually-request-permissions-review_5.png)
+After the manual permissions review request was sent, resource owner receives an e-mail in their mailbox. 
+
+![Permissions Review email](../.gitbook/assets/manually-request-permissions-review_5.png)
 
 Link in the email leads you directly to the Permissions Review task in SysKit Point. Here, you can:
 
