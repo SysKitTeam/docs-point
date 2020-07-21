@@ -26,5 +26,5 @@ If you run into any issues when preparing your environment or configuring SysKit
 
 ## Related Topics
 
-* [Deploy SysKit Point On-Premises](../deploy-syskit-point-on-premises/)
+* [Deploy SysKit Point On-Premises](../deploy-on-premises/)
 
