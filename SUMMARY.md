@@ -27,7 +27,7 @@
     * [System Requirements](installation-and-configuration/deploy-on-premises/system-requirements.md)
     * [Permission Requirements](installation-and-configuration/deploy-on-premises/permission-requirements.md)
     * [Install SysKit Point On-Premises](installation-and-configuration/deploy-on-premises/install-syskit-point-on-premises.md)
-    * [Configure SysKit Point On-Premises](installation-and-configuration/deploy-on-premises/configure-syskit-point.md)
+    * [Configure SysKit Point On-Premises](installation-and-configuration/deploy-on-premises/configure-syskit-point-on-premises.md)
   * [Upgrade SysKit Point](installation-and-configuration/upgrade-syskit-point.md)
   * [Enable Role-Based Access](installation-and-configuration/enable-role-based-access.md)
   * [Customize Audit Logs Collection](installation-and-configuration/customize-audit-logs-collection.md)
