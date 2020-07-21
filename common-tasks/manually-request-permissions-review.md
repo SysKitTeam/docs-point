@@ -56,7 +56,7 @@ After confirming the request, you will be redirected to the Permissions Review o
 
 ![Permissions Review overview screen](../.gitbook/assets/manually-request-permissions-review_4.png)
 
-## Resource Owners Flow
+## Resource Owners
 
 After the manual permissions review request was sent, **the resource owners receive a Permissions Review request e-mail** in their mailbox.
 
