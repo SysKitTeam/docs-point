@@ -1,2 +1,0 @@
-# SysKit Point SQL Database
-
