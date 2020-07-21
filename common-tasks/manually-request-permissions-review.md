@@ -58,21 +58,22 @@ After confirming the request, you will be redirected to the Permissions Review o
 
 ## Resource Owners Flow
 
-After the manual permissions review request was sent, **the resource owners receive a Permissions Review request e-mail** in their mailbox. 
+After the manual permissions review request was sent, **the resource owners receive a Permissions Review request e-mail** in their mailbox.
 
 ![Permissions Review email](../.gitbook/assets/manually-request-permissions-review_5.png)
 
 Link in the email leads you directly to the Permissions Review task in SysKit Point. Here, you can:
+
 * **select the resource \(1\)**
 * **perform the Permissions Review \(2\)**
 
 ![Permissions Review task screen](../.gitbook/assets/manually-request-permissions-review_6.png)
 
-The Permission Review details screen opens, where you can perform actions, check permission changes, and, in the end, complete the Permissions Review. Actions and reports available here are the same as in the Automated Permissions Review tasks. You can find them all described in greater detail [here](permissions-review.md#permissions-review-task-details).
+The **Permission Review details screen** opens, where you can **perform actions**, **check permission changes**, and, in the end, **complete the Permissions Review**. Actions and reports available here are the **same as in the Automated Permissions Review** tasks. You can find them all described in greater detail [here](permissions-review.md#permissions-review-task-details).
 
 ![Permissions Review task screen](../.gitbook/assets/manually-request-permissions-review_7.png)
 
-If a resource has a Permissions Review active, you can access the Permissions Review details screen from the Overview screen by clicking the **Review Now \(1\)** action link, visible when the resource is selected. This opens the Permissions Review details screen.
+If a resource has a Permissions Review active, you can access the Permissions Review details screen from the Overview screen by clicking the **Review Now \(1\)** action link, visible when the resource is selected. 
 
 ![Permissions Review task screen](../.gitbook/assets/manually-request-permissions-review_10.png)
 
