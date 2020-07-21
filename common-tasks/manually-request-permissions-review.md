@@ -8,7 +8,7 @@ description: >-
 
 **Permissions review**, in the context of Office 365 environment, is an activity where a person responsible for an Office 365 resource - be it Communication site, Microsoft Team, Office 365 Group or OneDrive - checks whether permissions, given to users inside \(internal\) and outside \(external\) of company, comply with the organizational rules and guidelines.
 
-While the **Automated Permissions Review** was introduced in SysKit Point 14, SysKit Point 15 brings the **Manually Requested Permissions Review** to the table. 
+While the **Automated Permissions Review** was introduced in SysKit Point 14, SysKit Point 15 brings the **Manually Requested Permissions Review** to the table.
 
 {% hint style="warning" %}
 **Please note!**  
@@ -23,7 +23,7 @@ You can also **use the Manual Permissions Review to test and prepare** your user
 {% endhint %}
 
 {% hint style="info" %}
-**Learn more!**   
+**Learn more!**  
 To find more about the Automated Permissions Review, visit the [following article](permissions-review.md).
 {% endhint %}
 
@@ -48,11 +48,11 @@ To manually request a Permissions Review, do the following:
 
 ![Request Review action](../.gitbook/assets/manually-request-permissions-review_2.png)
 
-Request Permissions Review dialog will appear. 
+Request Permissions Review dialog will appear.
 
 ![Request Permissions Review dialog](../.gitbook/assets/manually-request-permissions-review_3.png)
 
-After confirming the request, you will be redirected to the Permissions Review overview screen. 
+After confirming the request, you will be redirected to the Permissions Review overview screen, where you can [monitor the progress](monitor-permissions-review.md) of the created Permissions Review.
 
 ![Permissions Review overview screen](../.gitbook/assets/manually-request-permissions-review_4.png)
 
