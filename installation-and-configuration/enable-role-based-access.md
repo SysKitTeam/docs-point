@@ -22,7 +22,7 @@ SysKit Point offers four predefined access roles:
 
 {% hint style="warning" %}
 **Please note!**  
-**SysKit Point Global Viewers** and **SysKit Point Exchange Admins** role is **available only in the Enterprise subscription plan**.
+**SysKit Point Global Viewers** and **SysKit Point Exchange Admins** role are **available only in the Enterprise subscription plan**.
 {% endhint %}
 
 ### SysKit Point Admins
