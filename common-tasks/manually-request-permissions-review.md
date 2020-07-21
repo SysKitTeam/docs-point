@@ -48,7 +48,9 @@ To manually request a Permissions Review, do the following:
 
 ![Request Review action](../.gitbook/assets/manually-request-permissions-review_2.png)
 
-Request Permissions Review dialog will appear. ![Request Permissions Review dialog](../.gitbook/assets/manually-request-permissions-review_3.png)
+Request Permissions Review dialog will appear. 
+
+![Request Permissions Review dialog](../.gitbook/assets/manually-request-permissions-review_3.png)
 
 After confirming the request, you will be redirected to the Permissions Review overview screen. ![Permissions Review overview screen](../.gitbook/assets/manually-request-permissions-review_4.png)
 
