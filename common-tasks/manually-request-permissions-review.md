@@ -39,26 +39,38 @@ You must be signed in to SysKit Point with a SysKit Point Admin account to see t
 {% endhint %}
   
 To manually request a Permissions Review, do the following:
-* **Open the Sites Overiview screen**
-* **select a desired resource (1)**; you can also choose multiple resources at once
-* **click the Request Review Action (2)** available in the side panel
+* **Open the Sites Overview screen**
+* **Select a desired resource (1)**; you can also choose multiple resources at once
+* **Click the Request Review Action (2)** available in the side panel
 
-A Request for Permissions Review will appear. 
+![Request Review action](../.gitbook/assets/manually-request-permissions-review_2.png)
+
+Request Permissions Review dialog will appear. 
+![Request Permissions Review dialog](../.gitbook/assets/manually-request-permissions-review_3.png)
 
 After confirming the request, you will be redirected to the Permissions Review overview screen.
+![Permissions Review overview screen](../.gitbook/assets/manually-request-permissions-review_4.png)
+
 
 ## Resource Owners Flow 
 
 After the manual permissions review request was sent, resource owner receives an e-mail in their mailbox. 
+![Permissions Review email](../.gitbook/assets/manually-request-permissions-review_5.png)
 
 
 Link in the email leads you directly to the Permissions Review task in SysKit Point. Here, you can:
 * **select the resource (1)**
-* **perform the Permissions Review (2)**. 
+* **perform the Permissions Review (2)**
+
+![Permissions Review task screen](../.gitbook/assets/manually-request-permissions-review_6.png)
 
 The Permission Review details screen opens, where you can perform action, check permission changes, and, in the end, complete the Permissions Review.
 Actions and reports available here, are the same as in the Automated Permissions Review tasks. You can find them all described in greater detail [here](../common-tasks/permissions-review.md#permissions-review-task-details). 
 
-If a resource has a Permissions Review active, you can access the Permissions Review details screen from the Overview screeen by clicking the Review Now (1) action link, visible when the resource is selected.
+![Permissions Review task screen](../.gitbook/assets/manually-request-permissions-review_7.png)
 
-Which will instantly redirect them to Permissions Review details screen.
+If a resource has a Permissions Review active, you can access the Permissions Review details screen from the Overview screeen by clicking the **Review Now (1)** action link, visible when the resource is selected. This opens the Permissions Review details screen.
+
+![Permissions Review task screen](../.gitbook/assets/manually-request-permissions-review_10.png)
+
+
