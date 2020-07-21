@@ -25,7 +25,7 @@ If you run into any issues when preparing your environment or configuring SysKit
 
 ## Related Topics
 
-* [Deploy SysKit Point On-Premises](../deploy-to-azure/)
+* [Deploy SysKit Point to Cloud](../deploy-to-azure/)
 
 
 
