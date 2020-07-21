@@ -23,7 +23,7 @@
   * [Deploy SysKit Point On-Premises](installation-and-configuration/deploy-on-premises/README.md)
     * [Prerequisites](installation-and-configuration/deploy-on-premises/prerequisites/README.md)
       * [SysKit Point Server](installation-and-configuration/deploy-on-premises/prerequisites/syskit-point-server.md)
-      * [SysKit Point SQL Database](installation-and-configuration/deploy-on-premises/prerequisites/syskit-point-database.md)
+      * [SysKit Point Database](installation-and-configuration/deploy-on-premises/prerequisites/syskit-point-database.md)
     * [System Requirements](installation-and-configuration/deploy-on-premises/system-requirements.md)
     * [Permission Requirements](installation-and-configuration/deploy-on-premises/permission-requirements.md)
     * [Install SysKit Point On-Premises](installation-and-configuration/deploy-on-premises/install-syskit-point-on-premises.md)
