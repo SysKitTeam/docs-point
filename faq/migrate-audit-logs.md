@@ -47,7 +47,7 @@ After the migration, **duplicate Audit Log entries may appear** in audit reports
 
 ### **New SysKit Point Installation**
 
-If you don't have an existing SysKit Point installation, first, install SysKit Point by following the instructions[ given here.](../installation-and-configuration/deploy-syskit-point-on-premises/install-syskit-point-on-premises.md)
+If you don't have an existing SysKit Point installation, first, install SysKit Point by following the instructions[ given here.](../installation-and-configuration/deploy-on-premises/install-syskit-point-on-premises.md)
 
 Before continuing to the [configuration steps](https://github.com/SysKitTeam/docs-point/tree/6f0316e1f15f779c3c2e530ae1384197b23c8607/installation-and-configuration/configure-syskit-point.md), **copy and paste the AuditIndex folder you retrieved from SysKit Security Manager to** **C:\ProgramData\SysKit\Point.**
 
