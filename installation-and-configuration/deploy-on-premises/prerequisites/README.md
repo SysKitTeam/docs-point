@@ -24,5 +24,3 @@ If you run into any issues when preparing your environment, please [contact us](
 * [Install SysKit Point on-premises](../install-syskit-point-on-premises.md) 
 * [Configure SysKit Point on-premises](../configure-syskit-point-on-premises.md)
 
-
-

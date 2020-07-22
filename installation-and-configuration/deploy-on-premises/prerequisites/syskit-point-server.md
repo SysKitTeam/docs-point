@@ -28,7 +28,7 @@ To learn more about available SysKit Point subscription plans and included featu
 Below, you can find hardware requirements based on your SysKit Point subscription plan and your environment's size.
 
 {% hint style="info" %}
-Hardware requirements for the SQL Server installed on a separate machine are listed [here](syskit-point-database).
+Hardware requirements for the SQL Server installed on a separate machine are listed [here](https://github.com/SysKitTeam/docs-point/tree/518f32a1381545ae867d59fe3934cfa37a3e2439/installation-and-configuration/deploy-on-premises/prerequisites/syskit-point-database/README.md).
 {% endhint %}
 
 ### Professional Subscription
@@ -57,6 +57,4 @@ Recommended for Office 365 environments with more than 10000 users.
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Point Server | 64-bit CPU, 4 cores | 32GB RAM | 6GB-12GB per month for 1000 users | - | - |
 | Point & SQL on the same machine | Not recommended | Not recommended | Not recommended | Not recommended | Not recommended |
-
-
 
