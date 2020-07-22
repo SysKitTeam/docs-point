@@ -26,7 +26,9 @@ Regardless of which sending method you selected - [Exchange Online](https://app.
 
 After entering the URL and clicking on the empty white space on the screen, a logo will appear. Click save to apply changes.
 
-Modifying logo within SysKit Point is global action which means that editing on any location of the settings \(E-mail section, Permissions Review, and Lifecycle Management\) is correlated.
+{% hint style="info" %}
+**Hint!**                                                                                                                                               Modifying logo within SysKit Point is global action which means that editing on any location of the settings \(E-mail section, Permissions Review, and Lifecycle Management\) is correlated.
+{% endhint %}
 
 ## Settings &gt; Permissions Review
 
