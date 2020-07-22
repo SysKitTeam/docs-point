@@ -8,7 +8,7 @@ description: >-
 
 To successfully deploy SysKit Point on-premises, follow these steps:
 
-1. **Ensure that all** [**prerequisites**](prerequisites/) **are met**:
+1. **Ensure that all** [**prerequisites**](prerequisites/README.md) **are met**:
 
    • [**SysKit Point Server**](prerequisites/syskit-point-server.md)
 

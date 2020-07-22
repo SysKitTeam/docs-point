@@ -1,12 +1,11 @@
 ---
 description: >-
-  This article lists all requirements that are necessary to install and use
-  SysKit Point.
+  This article lists all requirements that are necessary to
+  install and use SysKit Point.
 ---
 
-# System Requirements
-
-No matter where you want to deploy SysKit Point - **Cloud** or **on-premises** - you will need to ensure all requirements are met. To make the process easier, all information is devided into several articles grouped by the mentioned deployment type.
+No matter where you want to deploy SysKit Point - **Cloud** or **on-premises** - you will need to ensure all requirements are met. 
+To make the process easier, all information is devided into several articles grouped by the mentioned deployment type.
 
 {% hint style="warning" %}
 **Please note!**  
@@ -14,20 +13,16 @@ No matter where you want to deploy SysKit Point - **Cloud** or **on-premises** -
 {% endhint %}
 
 ## Cloud
-
 When deploying SysKit Point to Cloud you will be dealing with Azure resources instead of physical machines. Two types of Azure resources are required to successfully install and configure SysKit Point:
-
-* [**Azure Virtual Machine**](../installation-and-configuration/deploy-to-azure/prerequisites/create-azure-vm.md#resource-requirements-per-subscription-plan) where SysKit Point will be installed
-* [**Azure SQL database**](../installation-and-configuration/deploy-to-azure/prerequisites/create-azure-sql-database.md#resource-requirements-per-subscription-plan) where SysKit Point will store its data 
+* **[Azure Virtual Machine](../installation-and-configuration/deploy-to-azure/prerequisites/create-azure-vm.md#resource-requirements-per-subscription-plan)** where SysKit Point will be installed
+* **[Azure SQL database](../installation-and-configuration/deploy-to-azure/prerequisites/create-azure-sql-database.md#resource-requirements-per-subscription-plan)** where SysKit Point will store its data 
 
 Click the appropriate link to learn more about the requirements for each of the mentioned resources.
 
 ## On-Premises
-
 When deploying SysKit Point on-premises, two things are required to successfully install and configure SysKit Point:
-
-* [**Windows Server**](../installation-and-configuration/deploy-on-premises/prerequisites/syskit-point-server.md) where SysKit Point will be installed
-* [**SQL database**](../installation-and-configuration/deploy-on-premises/prerequisites/syskit-point-database.md) where SysKit Point will store its data 
+* **[Windows Server](../installation-and-configuration/deploy-on-premises/prerequisites/syskit-point-server.md)** where SysKit Point will be installed
+* **[SQL database](../installation-and-configuration/deploy-on-premises/prerequisites/syskit-point-database.md)** where SysKit Point will store its data 
 
 Click the appropriate link to learn more about the requirements for each of the mentioned resources.
 
@@ -48,6 +43,5 @@ Once **SysKit Point** is installed and configured, you can access the SysKit Poi
 ## Related Topics
 
 * [Permission Requirements](permission-requirements.md)
-* [Deploy SysKit Point to Cloud](../installation-and-configuration/deploy-to-azure/)
-* [Deploy SysKit Point On-Premises](../installation-and-configuration/deploy-on-premises/)
-
+* [Deploy SysKit Point to Cloud](../installation-and-configuration/deploy-to-azure/README.md)
+* [Deploy SysKit Point On-Premises](../installation-and-configuration/deploy-on-premises/README.md)

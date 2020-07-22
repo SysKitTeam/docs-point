@@ -18,7 +18,7 @@ These changes can be performed in three locations within SysKit Point Settings:
 
 In E-mail settings, you can only define which global logo would be used in e-mails that are being sent to site owners.
 
-Regardless of which sending method you selected - Exchange Online or [SMTP](https://app.gitbook.com/@syskit/s/point-staging/~/drafts/-MCqXxgO525Wxs2xDP84/installation-and-configuration/enable-permissions-review#smtp-settings), you can enter your logo by providing a URL that is located in the **content distribution network** \(**CDN**\).
+Regardless of which sending method you selected - [Exchange Online](https://app.gitbook.com/@syskit/s/point-staging/installation-and-configuration/enable-permissions-review#exchange-online-settings) or [SMTP](https://app.gitbook.com/@syskit/s/point-staging/~/drafts/-MCqXxgO525Wxs2xDP84/installation-and-configuration/enable-permissions-review#smtp-settings), you can enter your logo by providing a URL that is located in the **content distribution network** \(**CDN**\).
 
 After entering the URL and clicking on the empty white space on the screen, a logo will appear. Click save to apply changes.
 
