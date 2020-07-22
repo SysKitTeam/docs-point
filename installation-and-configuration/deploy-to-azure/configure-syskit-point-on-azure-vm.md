@@ -10,7 +10,7 @@ description: >-
 Before continuing, please make sure that all [prerequisites](prerequisites/) are met.
 {% endhint %}
 
-By default, after [SysKit Point is installed on Azure Virtual Machine](https://github.com/SysKitTeam/docs-point/tree/32e9d7644ea32f664c24a60ce28c8689b0ddca7c/installation-and-configuration/install-syskit-point-on-azure-vm.md), **SysKit Point Configuration Wizard** starts automatically. Alternatively, you can start it manually at any time by running it from the installation folder. The default location is: **C:\ProgramFiles\SysKit\Point\Host\Configuration.exe**.
+By default, after [SysKit Point is installed on Azure Virtual Machine](install-syskit-point-on-azure-vm.md), **SysKit Point Configuration Wizard** starts automatically. Alternatively, you can start it manually at any time by running it from the installation folder. The default location is: **C:\ProgramFiles\SysKit\Point\Host\Configuration.exe**.
 
 Below, each step of the Configuration Wizard is described in greater detail.
 
@@ -56,7 +56,7 @@ Supported service account formats are as follows:
 * `.\username`
 * `domain\username`
 
-After you've entered the credentials click the **Validate Account** button. If the account has all [proper privileges](https://github.com/SysKitTeam/docs-point/tree/32e9d7644ea32f664c24a60ce28c8689b0ddca7c/installation-and-configuration/deploy-to-azure/permission-requirements.md#service-account), a Success window appears with the message:
+After you've entered the credentials click the **Validate Account** button. If the account has all [proper privileges](prerequisites/create-azure-vm.md#service-account), a Success window appears with the message:
 
 `This account can be used to run SysKit Point!`
 
