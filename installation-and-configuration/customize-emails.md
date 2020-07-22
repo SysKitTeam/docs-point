@@ -14,6 +14,10 @@ These changes can be performed in three locations within SysKit Point Settings:
 * **Governance Settings &gt; Permissions Review** 
 * **Governance Settings &gt; Lifecycle Management**
 
+{% hint style="warning" %}
+**Please note!**                                                                                                                             Customizing e-mail options are only available for the SysKit Point Enterprise [license](https://app.gitbook.com/@syskit/s/point-staging/~/drafts/-MCrLPR9x9lbJ9koNNIM/activation/activate-syskit-point).
+{% endhint %}
+
 ## Settings &gt; E-mail section
 
 In E-mail settings, you can only define which global logo would be used in e-mails that are being sent to site owners.
@@ -23,4 +27,8 @@ Regardless of which sending method you selected - [Exchange Online](https://app.
 After entering the URL and clicking on the empty white space on the screen, a logo will appear. Click save to apply changes.
 
 Modifying logo within SysKit Point is global action which means that editing on any location of the settings \(E-mail section, Permissions Review, and Lifecycle Management\) is correlated.
+
+## Settings &gt; Permissions Review
+
+
 
