@@ -71,3 +71,4 @@ Recommended for Office 365 environments with more than 10000 users.
 | SQL Server | MS SQL Recommended System Requirements or better | MS SQL Recommended System Requirements or better | MS SQL Recommended System Requirements or better | MS SQL Server Enterprise | MS SQL Server 2012 and newer |
 | Point & SQL on the same machine | Not recommended | Not recommended | Not recommended | Not recommended | Not recommended |
 
+

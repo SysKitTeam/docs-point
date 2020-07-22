@@ -64,5 +64,3 @@ Recommended for Office 365 environments with more than 10000 users.
 | Point Server | 64-bit CPU, 4 cores | 32GB RAM | 6GB-12GB per month for 1000 users | - | - |
 | Point & SQL on the same machine | Not recommended | Not recommended | Not recommended | Not recommended | Not recommended |
 
-
-
