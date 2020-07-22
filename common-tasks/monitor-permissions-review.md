@@ -4,7 +4,7 @@ description: >-
   process for SysKit Point Admins.
 ---
 
-# Monitor Permissions Review in SysKit Point
+# Monitor Permissions Review Tasks in SysKit Point
 
 {% hint style="warning" %}
 **Please note!**  
