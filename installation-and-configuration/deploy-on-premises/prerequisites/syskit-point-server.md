@@ -1,7 +1,7 @@
 ---
 description: >-
-  This article lists Windows Server requirements that are necessary to
-  install and configure SysKit Point on-premises.
+  This article lists Windows Server requirements that are necessary to install
+  and configure SysKit Point on-premises.
 ---
 
 # SysKit Point Server
@@ -22,19 +22,20 @@ Based on the size of your Office 365 environment, SysKit Point comes with three 
 * **Enterprise**
 
 {% hint style="info" %}
-**Learn more!**
+**Learn more!**   
 To learn more about available SysKit Point subscription plans and included features, continue to the [Pricing page.](https://www.syskit.com/products/point/pricing/)
 {% endhint %}
 
 Below, you can find hardware requirements based on your SysKit Point subscription plan and your environment's size.
 
 {% hint style="warning" %}
-**Requirements highly depend on the Office 365 activity, the number of users, and the amount of data in your environment.** The larger the environment, the more resources will be required to run SysKit Point smoothly.
+**Please note!  
+Requirements highly depend on the Office 365 activity, the number of users, and the amount of data in your environment.** The larger the environment, the more resources will be required to run SysKit Point smoothly.
 {% endhint %}
 
 {% hint style="info" %}
-**Learn more!**
-Hardware requirements for the SQL Server installed on a separate machine are listed [here](syskit-point-database).
+**Learn more!**   
+Hardware requirements for the SQL Server are listed [here](https://github.com/SysKitTeam/docs-point/tree/4fd41e693923cc7267b92d90a06d83f4d64efda6/installation-and-configuration/deploy-on-premises/prerequisites/syskit-point-database/README.md).
 {% endhint %}
 
 ### Professional Subscription
