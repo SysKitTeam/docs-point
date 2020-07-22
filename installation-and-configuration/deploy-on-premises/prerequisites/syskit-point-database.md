@@ -80,7 +80,7 @@ You can find Microsoft hardware and software recommendations on the following li
 
 When creating the database, ensure the following:
 
-* [**Resource recommendations are met**](syskit-point-database.md#hardware-requirements-per-subscription-plan)
+* [**Resource recommendations are met**](https://github.com/SysKitTeam/docs-point/tree/ca7ffe5454d9e646420b74f9c35d1e0eb25c302f/installation-and-configuration/deploy-on-premises/prerequisites/syskit-point-database/README.md#resource-recommendations-per-subscription-plan)
 * **A dedicated SQL database is created for SysKit Point**
 * **Windows Server**, where SysKit Point will be installed, **has access to the SQL database**
 * **User running SysKit Point installation will need to be granted the** db\_owner **rights** on the Syskit Point database
@@ -89,8 +89,8 @@ When creating the database, ensure the following:
 ## Related Topics
 
 * [SysKit Point Server](syskit-point-server.md)
-* [Install SysKit Point On-Premises](../install-syskit-point-on-premises.md) 
-* [Configure SysKit Point On-Premises](../configure-syskit-point-on-premises.md)
+* [Install SysKit Point On-Premises](https://github.com/SysKitTeam/docs-point/tree/ca7ffe5454d9e646420b74f9c35d1e0eb25c302f/installation-and-configuration/deploy-on-premises/prerequisites/install-syskit-point-on-premises.md) 
+* [Configure SysKit Point On-Premises](https://github.com/SysKitTeam/docs-point/tree/ca7ffe5454d9e646420b74f9c35d1e0eb25c302f/installation-and-configuration/deploy-on-premises/prerequisites/configure-syskit-point-on-premises.md)
 
 If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).
 

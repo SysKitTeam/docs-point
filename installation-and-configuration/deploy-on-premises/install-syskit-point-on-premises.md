@@ -14,7 +14,7 @@ Before continuing, please make sure that all [prerequisites](prerequisites/) are
 
 1. [Download the SysKit Point setup file](https://my.syskit.com/).
 2. **Unpack and run the setup file** - **SysKitPointSetup.exe**. The wizard will guide you through the installation steps.
-3. **Read and accept the license agreeement** - [EULA](https://www.syskit.com/eula/) - click **Next &gt;** to proceed.
+3. **Read and accept the license agreement** - [EULA](https://www.syskit.com/eula/) - click **Next &gt;** to proceed.
 4. By default, the installation folder is set to **C:\Program Files\SysKit\Point**. You can modify it by clicking the **Change** button. Once selected, click **Next &gt;** to proceed. 
 5. By default, the **Run Configuration Wizard now** option is selected. **SysKit Point Configuration Wizard** will, therefore, automatically start when you click the **Finish** button. Alternatively, you can always start the Configuration Wizard manually by running it from the installation folder. The default location is: **C:\ProgramFiles\SysKit\Point\Host\Configuration.exe**.
 
@@ -27,3 +27,4 @@ To continue with the configuration of the application, proceed to the [next arti
 * [Configure SysKit Point On-Premises](configure-syskit-point-on-premises.md)
 
 If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).
+
