@@ -32,7 +32,7 @@ By default, this report has the timeframe for the **Last 30 Days**. To switch th
 
 Every report within the **SysKit Point** is exportable, all of them in the form of **Microsoft Excel Worksheet** file type and most of them in **PDF** file type. You will find this option in the sidebar panel under section **Manage** -&gt; **Export** button.
 
-The icon will point out which export file type are you choosing. You can also access the **User Activity** report from the **Report Center** when you click on the **Welcome Home** screen -&gt; **Reports** tile. This screen will open:
+The icon will point out which export file type are you choosing. You can also access the **User Activity** report from the **Report Center** when you click the **Welcome Home** screen -&gt; **Reports** tile. This screen will open:
 
 ![Report Center](../.gitbook/assets/track-office-365-external-users-and-their-activities_report-center.png)
 

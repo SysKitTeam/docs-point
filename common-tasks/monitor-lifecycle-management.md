@@ -41,7 +41,7 @@ Let’s say that lifecycle management automation was enabled for your Office 365
 
 ![SysKit Point - Weekly Summary e-mail](../.gitbook/assets/0%20%281%29.png)
 
-Click on **Discover More** if you wish to see which new resources are now inactive. When logged in to SysKit Point, this link opens the Lifecycle Management Overview screen.
+Click the **Discover More** if you wish to see which new resources are now inactive. When logged in to SysKit Point, this link opens the Lifecycle Management Overview screen.
 
 Clicking on **Resolve now** opens the lifecycle management **Awaiting Response** report where you can select the problematic resource \(1\) and decide which action you are going to take with it. \(2\)
 
@@ -58,7 +58,7 @@ To **track the progress** of the ongoing Lifecycle Management, SysKit Point Admi
 
 ![SysKit Point - Home screen Governance Tile](../.gitbook/assets/2%20%281%29.png)
 
-You will be redirected to the **Governance screen**. Under the lifecycle management tab, click on the **Overview** \(1\). A **Lifecycle Management Overview** screen appears where you can check:
+You will be redirected to the **Governance screen**. Under the lifecycle management tab, click the **Overview** \(1\). A **Lifecycle Management Overview** screen appears where you can check:
 
 * **Resources that require your attention** \(orphaned resources\)\(2\)
 * See all **inactive resources** in your environment\(3\)
@@ -80,7 +80,7 @@ On the said screen you can choose the resource and perform some actions, be it l
 
 ## See all inactive resources in your environment
 
-When you click on **View All** inactive resources, SysKit Point generates an **Inactive Content** report showing you all the resources in your environment which are inactive, regardless of them being monitored or not by Lifecycle Management.
+When you click the **View All** inactive resources, SysKit Point generates an **Inactive Content** report showing you all the resources in your environment which are inactive, regardless of them being monitored or not by Lifecycle Management.
 
 On the said report you get an option to **Keep, Archive** or **Delete** any resource there.
 
@@ -88,7 +88,7 @@ On the said report you get an option to **Keep, Archive** or **Delete** any reso
 
 ## View Lifecycle Management History
 
-If you click on **View History**, **SysKit Point** redirects you to the **Lifecycle Management History** report, where you can see all the lifecycle management tasks that were performed in your environment, you can also:
+If you click the **View History**, **SysKit Point** redirects you to the **Lifecycle Management History** report, where you can see all the lifecycle management tasks that were performed in your environment, you can also:
 
 * **Filter** the report by clicking on the action tiles\(1\)
 * See the **status** of a resource and who performed an action on it\(2\)

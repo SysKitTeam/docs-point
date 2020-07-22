@@ -22,7 +22,7 @@ To use the advantages of **Lifecycle Management Automation** in **SysKit Point**
 
 ## Enable Lifecycle Management
 
-To start with the configuration, open the **Settings** &gt; **Governance** &gt; **Lifecycle Management** screen. Initially, you will see two **accordions** named; **General** and **Automation**. To expand the **Lifecycle Management Automation** settings, click on the Automation accordion \(1\).
+To start with the configuration, open the **Settings** &gt; **Governance** &gt; **Lifecycle Management** screen. Initially, you will see two **accordions** named; **General** and **Automation**. To expand the **Lifecycle Management Automation** settings, click the Automation accordion \(1\).
 
 ![SysKit Point Settings Screen - Lifecycle Management accordions](../.gitbook/assets/lifecycle_management_settings_accordion.png)
 
@@ -36,7 +36,7 @@ If you haven't enabled the **E-mail** or **SysKit Point Collaborators** role yet
 
 ## Customize Lifecycle Management Automation
 
-When you have enabled the required options, click on **Enable Lifecycle Management Automation** \(1\). After that, more options becomes available.
+When you have enabled the required options, click the **Enable Lifecycle Management Automation** \(1\) option. After that, more options becomes available.
 
 You can select between three available actions for your **Site Owners** to take :
 

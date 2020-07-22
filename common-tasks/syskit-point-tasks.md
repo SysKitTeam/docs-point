@@ -11,7 +11,7 @@ In the latest version of SysKit Point the following types of tasks are available
 * [**Permissions Review**](permissions-review.md)
 * [**Lifecycle Management**](lifecycle-management.md)
 
-Click on the appropriate link to learn more about how to resolve a specific type of task.
+Click the appropriate link to learn more about how to resolve a specific type of task.
 
 ## My Tasks
 

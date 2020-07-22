@@ -10,11 +10,11 @@ description: >-
 
 Here are the step-by-step instructions on how to generate an SSL certificate using the Certificates Microsoft Management Console \(MMC\) when you have an internal Certification Authority \(CA\).
 
-From the server on which you have **SysKit Point** installed, open the **MMC**. Click on **File &gt; Add/Remove Snap-in** and add the **Certificates** snap-in, managing the certificates for the Computer account on the local machine. Click **OK** to confirm.
+From the server on which you have **SysKit Point** installed, open the **MMC**. Click the **File &gt; Add/Remove Snap-in** and add the **Certificates** snap-in, managing the certificates for the Computer account on the local machine. Click **OK** to confirm.
 
 ![MMC - Adding the Certificates snap-in](../.gitbook/assets/configure-ssl-certificate_add-snap-in.png)
 
-Then expand **Certificates \(Local Computer\)** &gt; **Personal**, right-click on **Certificates** and go to **All Tasks &gt; Request New Certificate.**
+Then expand **Certificates \(Local Computer\)** &gt; **Personal**, right-click the **Certificates** and go to **All Tasks &gt; Request New Certificate.**
 
 ![MMC - Requesting a new certificate](../.gitbook/assets/configure-ssl-certificate_request-new-certificate.png)
 
@@ -50,7 +50,7 @@ After the certificate is successfully installed, click **View Certificate** and 
 
 ## Export the SSL Certificate
 
-To import the certificate in SysKit Point Configuration wizard, you'll need to export it with its private key. From the MMC, right-click on the certificate you installed and choose **All Tasks &gt; Export.** Choose the **Yes, export the private key** option. Click **Next** to proceed.
+To import the certificate in SysKit Point Configuration wizard, you'll need to export it with its private key. From the MMC, right-click the certificate you installed and choose **All Tasks &gt; Export.** Choose the **Yes, export the private key** option. Click **Next** to proceed.
 
 ![MMC - Export the private key option](../.gitbook/assets/configure-ssl-certificate_export-private-key.png)
 

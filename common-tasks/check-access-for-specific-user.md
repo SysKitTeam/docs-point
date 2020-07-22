@@ -19,7 +19,7 @@ Here's how you can do it.
 
 ## Generate User Access from Report Center
 
-From the **Welcome Home screen**, you can either click on Reports tile or directly to **User Access** report.
+From the **Welcome Home screen**, you can either click the Reports tile or directly to **User Access** report.
 
 ![SysKit Point - Welcome Home screen](../.gitbook/assets/check-access-for-specific-office-365-user_welcome-home-screen.png)
 
@@ -37,7 +37,7 @@ You can filter through **Users** by changing the type of **view** you're using. 
 
 ![User Access Selection screen - view picker](../.gitbook/assets/check-access-for-specific-office-365-user_user-access-selection-screen-view-picker.png)
 
-Clicking on **Column Chooser** also enables you at adding additional columns to the grid so you can filter further through those columns. To open a Column Chooser click on the icon next to the **Search bar** on the right.
+Clicking on **Column Chooser** also enables you at adding additional columns to the grid so you can filter further through those columns. To open a Column Chooser click the icon next to the **Search bar** on the right.
 
 ![User Access Selection screen - Column Chooser](../.gitbook/assets/check-access-for-specific-office-365-user_user-access-selection-screen-column-chooser.png)
 
@@ -55,9 +55,9 @@ By clicking on checkboxes next to a User you can make a **single** or **multiple
 
 ![User Access Selection screen - multiple user selection](../.gitbook/assets/check-access-for-specific-office-365-user_user-access-selection-screen-multiple-user-selection.png)
 
-If you know names of Users you want to generate a report for and you don't want to scroll through the User list. You can use Search bar to enter each name and click on a checkbox next to User's name.
+If you know names of Users you want to generate a report for and you don't want to scroll through the User list. You can use Search bar to enter each name and click the checkbox next to User's name.
 
-After you've made a selection, click on **Run Report**, it will generate User Access report for all the users you selected.
+After you've made a selection, click **Run Report**, it will generate User Access report for all the users you selected.
 
 ![User Access report](../.gitbook/assets/check-access-for-specific-office-365-user_user-access-report.png)
 
@@ -87,7 +87,7 @@ You've visited the **site details** page of one Site Collection on your tenant. 
 
 ![Site Details page - Overview tile](../.gitbook/assets/check-access-for-specific-office-365-user_site-details-page-overview-tile.png)
 
-If you click on Users metric, you will be redirected to the page which shows you all types of users that have access to that Site Collection.
+If you click the Users metric, you will be redirected to the page which shows you all types of users that have access to that Site Collection.
 
 ![Site Details - Users report](../.gitbook/assets/check-access-for-specific-office-365-user_site-details-users-report.png)
 
@@ -101,11 +101,11 @@ Generating a report from there will show what kind of access do users have on th
 
 ## Generate User Access from User Overview screen
 
-From **Home Screen,** click on **Users** tile, which redirects you to the Users Overview screen.
+From **Home Screen,** click the **Users** tile, which redirects you to the Users Overview screen.
 
 On **Users Overview** screen, you see all the Users on your environment.
 
-Select any user, and on the **side panel,** click on the **User Access**.
+Select any user, and on the **side panel,** click the **User Access**.
 
 ![Users Overview screen - selection](../.gitbook/assets/check-access-for-specific-office-365-user_users-overview-screen-selection.png)
 

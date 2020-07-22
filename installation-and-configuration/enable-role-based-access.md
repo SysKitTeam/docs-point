@@ -69,7 +69,7 @@ Let's say you activated the **SysKit Point Team** license. With it, you can simu
 The account that has activated your license **will automatically occupy one out of five eligible** **Admin user** places.
 {% endhint %}
 
-When located on the **Home Screen**, click on the **Settings** **option \(1\)** in the upper right corner. A drop-down appears. Click on the **Security** **option \(2\)**.
+When located on the **Home Screen**, click the **Settings** **option \(1\)** in the upper right corner. A drop-down appears. Click the **Security** **option \(2\)**.
 
 ![SysKit Point - Settings dropdown](../.gitbook/assets/rbs_home_screen_updated.png)
 
@@ -123,7 +123,7 @@ Removing user access from **SysKit Point** will not remove a user from your **Of
 
 If you are using the **Enterprise** plan, you are not limited to several **Admin** users using SysKit Point simultaneously. However, if you want to enable login for users who don't have **Global Administrator** or **SharePoint admin** rights on your tenant, you have to allow it in **Settings**.
 
-When located on the **Home Screen**, click on the **Settings** option in the upper right corner. A drop-down appears. Click on the **Security** option.
+When located on the **Home Screen**, click the **Settings** option in the upper right corner. A drop-down appears. Click the **Security** option.
 
 ![SysKit Point - Settings dropdown](../.gitbook/assets/rbs_home_screen_updated.png)
 
@@ -135,7 +135,7 @@ With the **Enterprise** plan, you have four available options for accessing SysK
 
 If you have activated **SysKit Point** with **Enterprise** license, it will automatically add two **Office 365** administration roles \(**Company Administrator** and **SharePoint Service Administrator**\) as **SysKit Point Admins**. Any user on your **Office 365 environment** that has that role will **automatically** have **full access** to **SysKit Point**.
 
-To see all users associated with those roles, click on the **number** on Users label under **SysKit Point Admins** **option \(1\)**.
+To see all users associated with those roles, click the **number** on Users label under **SysKit Point Admins** **option \(1\)**.
 
 ![Settings - SysKit Point Admins - Users](../.gitbook/assets/rbs_settings_updated_2.png)
 

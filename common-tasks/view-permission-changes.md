@@ -34,9 +34,9 @@ Site Permissions Activities report is accessible from a few different places in 
 
 ### **Report Center**
 
-On the **Home** screen, you can click on the **Reports** tile, then click on the Audit Logs filter at the top, and you’ll find Site Permissions Activities report.
+On the **Home** screen, you can click the **Reports** tile, then click the Audit Logs filter at the top, and you’ll find Site Permissions Activities report.
 
-When you click on the report, you’ll get the screen where you’ll be able to select sites for which you want to generate the report.
+When you click the report, you’ll get the screen where you’ll be able to select sites for which you want to generate the report.
 
 After selecting one or more sites, you’ll be able to adjust additional filters:
 
