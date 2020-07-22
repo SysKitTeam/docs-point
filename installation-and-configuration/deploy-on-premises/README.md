@@ -8,11 +8,11 @@ description: >-
 
 To successfully deploy SysKit Point on-premises, follow these steps:
 
-1. **Ensure that all** [**prerequisites**](https://github.com/SysKitTeam/docs-point/tree/dd9faa8746769d3310e75aae482d2a155d5484ed/installation-and-configuration/deploy-on-premises/prerequisites/README.md) **are met**:
+1. **Ensure that all** [**prerequisites**](prerequisites/README.md) **are met**:
 
    • [**SysKit Point Server**](prerequisites/syskit-point-server.md)
 
-   • [**SysKit Point SQL Database**](https://github.com/SysKitTeam/docs-point/tree/dd9faa8746769d3310e75aae482d2a155d5484ed/installation-and-configuration/deploy-on-premises/prerequisites/syskit-point-database.md)
+   • [**SysKit Point SQL Database**](prerequisites/syskit-point-database.md)
 
 2. [**Install SysKit Point**](install-syskit-point-on-premises.md) **on a dedicated server**
 3. [**Configure SysKit Point**](configure-syskit-point-on-premises.md)   
