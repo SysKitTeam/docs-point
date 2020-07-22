@@ -11,7 +11,7 @@ description: >-
 [Try SysKit Point trial](https://www.syskit.com/products/point/request-a-free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
 **Product version:** 15.0.0  
-**Build number:** 9xx  
+**Build number:** 932  
 **Release date:** Jul 27, 2020
 
 ## Features
@@ -21,7 +21,7 @@ description: >-
 * **Privacy settings added to SysKit Point**! To protect user privacy, **OneDrive content can be excluded from SysKit Point data collection**, making only general information about user’s OneDrive available to SysKit Point Administrators. **User activity reports can also be hidden to ensure user privacy**. The user’s activity is processed in the background and can be made available in case of a security incident. [Learn how to configure privacy settings here](point-15-release-note.md).
 * **Manually Requested Permissions Review is available**! In case of a security incident or other urgencies in Office 365, you might find yourself needing to review permissions for a resource right there on the spot. SysKit Point has you covered by enabling manual, on-demand Permissions Reviews that immediately start for the resources you select. [Learn how to manually Request a Review here](../common-tasks/manually-request-permissions-review.md).
 * **E-mail customization is available**! You can now customize e-mails that SysKit Point sends as a part of the Permissions Review and Lifecycle Management automation. [Learn how to add company Logo and custom messages to e-mails here](point-15-release-note.md).
-* **Azure SQL database support added**! To deploy SysKit Point in your Cloud environment, you can now use Azure SQL database. [Find more information on how to configure your Azure SQL database here](../installation-and-configuration/deploy-to-azure/prerequisites/create-azure-sql-database.md).
+* **Azure SQL database support added**! To deploy SysKit Point in your Cloud environment, you can now use the Azure SQL database. [Find more information on how to configure your Azure SQL database here](../installation-and-configuration/deploy-to-azure/prerequisites/create-azure-sql-database.md).
 
 ## Improvements & Bug Fixes
 

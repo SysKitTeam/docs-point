@@ -6,7 +6,7 @@ description: >-
 
 # System Requirements
 
-No matter where you want to deploy SysKit Point - **Cloud** or **on-premises** - you will need to ensure all requirements are met. To make the process easier, all information is devided into several articles grouped by the mentioned deployment type.
+No matter where you want to deploy SysKit Point - **Cloud** or **on-premises** - you will need to ensure all requirements are met. To make the process easier, all information is divided into several articles grouped by the mentioned deployment type.
 
 {% hint style="warning" %}
 **Please note!**  
