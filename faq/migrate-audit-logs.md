@@ -51,7 +51,7 @@ If you don't have an existing SysKit Point installation, first, install SysKit P
 
 Before continuing to the [configuration steps](../installation-and-configuration/deploy-on-premises/configure-syskit-point-on-premises.md), **copy and paste the AuditIndex folder you retrieved from SysKit Security Manager to** **C:\ProgramData\SysKit\Point.**
 
-Continue with the [configuration of SysKit Point](https://github.com/SysKitTeam/docs-point/tree/c44f31675c526c6b132a4d2ee69fd9848955fc9d/faq/installation-and-configuration/deploy-on-premises/configure-syskit-point-on-premises/README.md). When you complete the configuration and open SysKit Point web-app, you should be able to view existing Audit logs in the Audit Logs Overview report. To open the report, navigate to the **Report Center**, click the **Audit Logs Overview** tile, and run the report**.**
+Continue with the [configuration of SysKit Point](../installation-and-configuration/deploy-on-premises/configure-syskit-point-on-premises.md). When you complete the configuration and open SysKit Point web-app, you should be able to view existing Audit logs in the Audit Logs Overview report. To open the report, navigate to the **Report Center**, click the **Audit Logs Overview** tile, and run the report**.**
 
 ### Existing SysKit Point Installation
 
