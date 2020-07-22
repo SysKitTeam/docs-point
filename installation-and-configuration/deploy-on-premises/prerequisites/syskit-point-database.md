@@ -71,4 +71,7 @@ Recommended for Office 365 environments with more than 10000 users.
 | SQL Server | MS SQL Recommended System Requirements or better | MS SQL Recommended System Requirements or better | MS SQL Recommended System Requirements or better | MS SQL Server Enterprise | MS SQL Server 2012 and newer |
 | Point & SQL on the same machine | Not recommended | Not recommended | Not recommended | Not recommended | Not recommended |
 
-
+{% hint style="info" %}
+**Learn more!**
+You can find Microsoft hardware and software recommendations on the following links: [SQL Server 2016 and 2017](https://docs.microsoft.com/en-us/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server?view=sql-server-ver15), [SQL Server 2019](https://docs.microsoft.com/en-us/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server-ver15?view=sql-server-ver15).
+{% endhint %}

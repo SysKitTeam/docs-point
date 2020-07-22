@@ -63,8 +63,3 @@ Recommended for Office 365 environments with more than 10000 users.
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Point Server | 64-bit CPU, 4 cores | 32GB RAM | 6GB-12GB per month for 1000 users | - | - |
 | Point & SQL on the same machine | Not recommended | Not recommended | Not recommended | Not recommended | Not recommended |
-
-{% hint style="info" %}
-**Learn more!**
-You can find Microsoft hardware and software recommendations on the following links: [SQL Server 2016 and 2017](https://docs.microsoft.com/en-us/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server?view=sql-server-ver15), [SQL Server 2019](https://docs.microsoft.com/en-us/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server-ver15?view=sql-server-ver15).
-{% endhint %}
