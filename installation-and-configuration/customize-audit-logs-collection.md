@@ -78,5 +78,17 @@ The last section available on the Audit Logs screen to configure is the **Data R
 
 ### Exchange Logs
 
+SysKit Point doesn't collect exchange logs by default - they have to be selected among audit activities as shown in the picture above.
 
+After you select exchange activities, wait around 15-20 minutes until Syskit Point collects the data.
+
+You can now go to Reports Center and open Exchange Logs report that will show exchange logs in your environment.
+
+In the Options screen, you can choose which period and which specific activities you want to generate in the report.
+
+Also, you can search for logs for a specific user mailbox if you need to.
+
+![Options screen for Exchange Logs report](../.gitbook/assets/customize_audit_logs_collection-options_screen_for_exchange_logs_report.png)
+
+![Exchange Logs report](../.gitbook/assets/customize-audit-logs-collection_exchange-logs-report.png)
 
