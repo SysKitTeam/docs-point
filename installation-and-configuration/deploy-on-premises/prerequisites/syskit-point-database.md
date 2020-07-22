@@ -6,7 +6,7 @@ description: >-
 
 # SysKit Point Database
 
-SysKit Point requires an **SQL database** for storing data collected from Office 365. In this article, you can find recommendations to follow when choosing the appropriate **SQL Server**, where the SysKit Point database will be created.
+SysKit Point requires a dedicated **SQL database** for storing data collected from Office 365. In this article, you can find recommendations to follow when choosing the appropriate **SQL Server**, where the SysKit Point database is created.
 
 {% hint style="success" %}
 Before continuing, please ensure that you read the [following article](syskit-point-server.md) listing all requirements for the Windows Server, where SysKit Point will be installed.
@@ -35,7 +35,8 @@ To learn more about available SysKit Point subscription plans and included featu
 Below, you can find SQL Server recommendations based on your SysKit Point subscription plan and your environment's size.
 
 {% hint style="warning" %}
-**Requirements highly depend on the Office 365 activity, the number of users, and the amount of data in your environment.** The larger the environment, the more resources will be required to run SysKit Point smoothly.
+**Please note!**
+**Requirements highly depend on the Office 365 activity, the number of users, and the amount of data in your environment**. The larger the environment, the more resources will be required to run SysKit Point smoothly.
 {% endhint %}
 
 {% hint style="success" %}
@@ -76,3 +77,20 @@ Recommended for Office 365 environments with more than 10000 users.
 You can find Microsoft hardware and software recommendations on the following links: [SQL Server 2016 and 2017](https://docs.microsoft.com/en-us/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server?view=sql-server-ver15), [SQL Server 2019](https://docs.microsoft.com/en-us/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server-ver15?view=sql-server-ver15).
 {% endhint %}
 
+## Prepare for Installation & Configuration
+
+When creating the database, ensure the following:
+
+* [**Resource recommendations are met**](syskit-point-database#resource-recommendations-per-subscription-plan)
+* **A dedicated SQL database is created for SysKit Point**
+* **Windows Server**, where SysKit Point will be installed, **has access to the SQL database**
+* **User running SysKit Point installation will need to be granted the **db\_owner** rights** on the Syskit Point database
+* **Service account needs to have db\_owner privileges** on the SysKit Point database
+
+## Related Topics
+
+* [SysKit Point Server](syskit-point-server.md)
+* [Install SysKit Point On-Premises](install-syskit-point-on-premises.md) 
+* [Configure SysKit Point On-Premises](configure-syskit-point-on-premises.md)
+
+If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).
