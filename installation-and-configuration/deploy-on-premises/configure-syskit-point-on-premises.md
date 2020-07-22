@@ -16,7 +16,7 @@ In the Configuration Wizard, you will need to provide the following information:
 * **SSL Certificate** \(we can provide you with a self-signed one, but for production we recommend you use full SSL certificate\).
 
 {% hint style="info" %}
-For a detailed overview of the **SysKit Point system and permission requirements**, [navigate to the Requirements section](https://github.com/SysKitTeam/docs-point/tree/2a7b80632219ea7edc9e8d0e9d23a3b34f044978/requirements/README.md).
+For a detailed overview of the **SysKit Point requirements**, [navigate to the Prerequisites section](prerequisites/README.md).
 {% endhint %}
 
 ## Configuration Steps
@@ -53,7 +53,7 @@ If everything is configured properly, an Info window appears with the message:
 Click **OK** to close the Info window, and **Next &gt;** to continue to the next step.
 
 {% hint style="info" %}
-Check the supported SQL Server versions and requirements [here](https://github.com/SysKitTeam/docs-point/tree/2a7b80632219ea7edc9e8d0e9d23a3b34f044978/requirements/system-requirements.md).
+Check the supported SQL Server versions and requirements [here](prerequisites/syskit-point-database.md).
 {% endhint %}
 
 ### Service Settings
@@ -69,7 +69,7 @@ Supported service account formats:
 * `machine_name\username`
 * `.\username`
 
-After you've entered the credentials click the **Validate Account** button. If the account has all [proper privileges](https://github.com/SysKitTeam/docs-point/tree/6f0316e1f15f779c3c2e530ae1384197b23c8607/installation-and-configuration/requirements/permission-requirements.md), a Success window appears with the message:
+After you've entered the credentials click the **Validate Account** button. If the account has all [proper privileges](prerequisites/syskit-point-server.md#service-account), a Success window appears with the message:
 
 `This account can be used to run SysKit Point!`
 
@@ -87,7 +87,7 @@ Click the **Connect to your tenant** link to connect SysKit Point to your Office
 
 When you first connect to your tenant, SysKit Point will request permissions needed to collect data from your Office 365 environment.
 
-![Office 365 Global Admin Consent](https://github.com/SysKitTeam/docs-point/tree/6f0316e1f15f779c3c2e530ae1384197b23c8607/installation-and-configuration/.gitbook/assets/permission_requirements_global_administrator_consent-3.png)
+![Office 365 Global Admin Consent](../../.gitbook/assets/permission_requirements_global_administrator_consent-3.png)
 
 To continue, check the **Consent on behalf of your organization** **option \(1\)**, and click the **Accept** **button \(2\)**. A new window opens where you can choose which information would you like to collect when it comes to your Office 365 environment:
 
@@ -99,12 +99,12 @@ You can change these options anytime by navigating to **Settings** in SysKit Poi
 
 {% hint style="warning" %}
 **Please note!**  
-For SysKit Point to be able to collect, process, and save audit logs, the auditing has to be enabled in your tenant. [Navigate here to find out how to turn on auditing.](https://github.com/SysKitTeam/docs-point/tree/6f0316e1f15f779c3c2e530ae1384197b23c8607/installation-and-configuration/faq/turn-on-auditing.md)
+For SysKit Point to be able to collect, process, and save audit logs, the auditing has to be enabled in your tenant. [Navigate here to find out how to turn on auditing.](../../faq/turn-on-auditing.md)
 {% endhint %}
 
 {% hint style="warning" %}
 **Why do I need to provide a global admin account?**  
-You can find answers in the [following article](https://github.com/SysKitTeam/docs-point/tree/6f0316e1f15f779c3c2e530ae1384197b23c8607/installation-and-configuration/requirements/permission-requirements.md).
+You can find answers in the [following article](../../requirements/permission-requirements.md/#office-365).
 {% endhint %}
 
 ### Web Application Settings
@@ -117,7 +117,7 @@ Use this URL to log in to the SysKit Point web interface from the web browser of
 
 Choose the certificate type to ensure a secure connection between SysKit Point machine and web interface in the browser:
 
-* **Import SSL certificate** – recommended for the production usage and it needs to be created by the end-user/customer. Learn how to [configure the SSL certificate here.](https://github.com/SysKitTeam/docs-point/tree/6f0316e1f15f779c3c2e530ae1384197b23c8607/installation-and-configuration/common-tasks/configure-ssl-certificate.md)
+* **Import SSL certificate** – recommended for the production usage and it needs to be created by the end-user/customer. Learn how to [configure the SSL certificate here.](../../common-tasks/configure-ssl-certificate.md)
 * **Use self-signed certificate** – this is a certificate provided automatically by SysKit, and will work for testing purposes. Since this certificate is not signed by a certification authority, you will receive security warnings when you try to open the web application in the browser from other machines \(other than the one where SysKit Point is installed\). 
 
 ### Finish
@@ -126,5 +126,5 @@ The last step shows the status of all operations that are done before you can ac
 
 Click the **Finish** button to open SysKit Point in the default browser, and you are ready to go.
 
-To get started with SysKit Point, [read the Quick Start Guide article.](https://github.com/SysKitTeam/docs-point/tree/6f0316e1f15f779c3c2e530ae1384197b23c8607/installation-and-configuration/how-to/syskit-point-quick-start-guide.md)
+To get started with SysKit Point, [read the Quick Start Guide article.](../../how-to/syskit-point-quick-start-guide.md)
 

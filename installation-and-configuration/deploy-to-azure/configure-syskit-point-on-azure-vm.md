@@ -96,7 +96,7 @@ For SysKit Point to be able to collect, process, and save audit logs, the auditi
 
 {% hint style="warning" %}
 **Why do I need to provide a global admin account?**  
-You can find answers in the [following article](https://github.com/SysKitTeam/docs-point/tree/32e9d7644ea32f664c24a60ce28c8689b0ddca7c/installation-and-configuration/deploy-to-azure/permission-requirements.md).
+You can find answers in the [following article](../../permission-requirements.md#office-365).
 {% endhint %}
 
 ## Web Application Settings Step

@@ -45,7 +45,7 @@ If the service account is outside your domain the account name must be typed in 
 
 ### Global Administrator
 
-**When connecting to an Office 365 tenant** during the [configuration](https://github.com/SysKitTeam/docs-point/tree/6f0316e1f15f779c3c2e530ae1384197b23c8607/installation-and-configuration/configure-syskit-point.md#connect-to-office-365) process, **you need to connect with a Global Administrator account.**
+**When connecting to an Office 365 tenant** during the [configuration](../installation-and-configuration/deploy-on-premises/configure-syskit-point-on-premises#connect-to-office-365) process, **you need to connect with a Global Administrator account.**
 
 **The first time you connect to your Office 365 tenant, you will be prompted to give consent** to a set of permissions that SysKit Point requires to function correctly. Additional prompts may show up in the future when installing a newer version of SysKit Point because of new functionality, and in consequence, potentially new required permissions.
 
