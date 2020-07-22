@@ -141,8 +141,8 @@ When using such setup, make sure to:
 ## Related Topics
 
 * [SysKit Point SQL Database](syskit-point-database.md)
-* [Install SysKit Point On-Premises](https://github.com/SysKitTeam/docs-point/tree/3ab833c5801d06f9a677db7f226f8ce276776822/installation-and-configuration/deploy-on-premises/prerequisites/install-syskit-point-on-premises.md) 
-* [Configure SysKit Point On-Premises](https://github.com/SysKitTeam/docs-point/tree/3ab833c5801d06f9a677db7f226f8ce276776822/installation-and-configuration/deploy-on-premises/prerequisites/configure-syskit-point-on-premises.md)
+* [Install SysKit Point On-Premises](prerequisites/install-syskit-point-on-premises.md) 
+* [Configure SysKit Point On-Premises](prerequisites/configure-syskit-point-on-premises.md)
 
 If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).
 
