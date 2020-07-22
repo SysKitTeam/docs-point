@@ -1,2 +1,2 @@
-# Customize E-Mails
+# Customize E-mails
 
