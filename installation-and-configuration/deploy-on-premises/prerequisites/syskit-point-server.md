@@ -1,7 +1,7 @@
 ---
 description: >-
-  This article lists Azure Virtual Machine requirements that are necessary to
-  install and configure SysKit Point in Azure environment.
+  This article lists Windows Server requirements that are necessary to
+  install and configure SysKit Point on-premises.
 ---
 
 # SysKit Point Server
@@ -13,7 +13,7 @@ We recommend installing SysKit Point on a Windows Server machine to allow SysKit
 * **Windows Server 2012 or newer is required** 
 * **Microsoft .NET Framework 4.5 or higher is required**
 
-## Resource Requirements per Subscription Plan
+## Hardware Requirements per Subscription Plan
 
 Based on the size of your Office 365 environment, SysKit Point comes with three different subscription plans:
 
@@ -22,12 +22,18 @@ Based on the size of your Office 365 environment, SysKit Point comes with three 
 * **Enterprise**
 
 {% hint style="info" %}
+**Learn more!**
 To learn more about available SysKit Point subscription plans and included features, continue to the [Pricing page.](https://www.syskit.com/products/point/pricing/)
 {% endhint %}
 
 Below, you can find hardware requirements based on your SysKit Point subscription plan and your environment's size.
 
+{% hint style="warning" %}
+**Requirements highly depend on the Office 365 activity, the number of users, and the amount of data in your environment.** The larger the environment, the more resources will be required to run SysKit Point smoothly.
+{% endhint %}
+
 {% hint style="info" %}
+**Learn more!**
 Hardware requirements for the SQL Server installed on a separate machine are listed [here](syskit-point-database).
 {% endhint %}
 
