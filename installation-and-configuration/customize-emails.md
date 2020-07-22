@@ -38,5 +38,7 @@ If you wish to remove the logo, you can click on the action **Remove logo** and 
 
 ## Settings &gt; Permissions Review
 
+To customize e-mail for the Permissions review, first, you have to enable the feature. For more information visit this [article](https://app.gitbook.com/@syskit/s/point-staging/~/drafts/-MCrRqc4CfI6LOglzRkJ/installation-and-configuration/enable-permissions-review).
+
 
 
