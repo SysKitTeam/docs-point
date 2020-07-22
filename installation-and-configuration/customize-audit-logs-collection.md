@@ -50,7 +50,7 @@ Audit log settings can also be configured after the initial configuration of **S
 
 Audit logs activities that are being collected can be found by clicking the **Select activities to collect** link.
 
-![Select Activities to collect screen](../.gitbook/assets/customize_audit_logs_collection_select_activities_to_collect%20%281%29.png)
+![Select activities to collect screen](../.gitbook/assets/customize-audit-logs-collection_select-activities-to-collect.png)
 
 In the new window, all categories and activities are shown:
 
