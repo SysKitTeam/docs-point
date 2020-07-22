@@ -33,9 +33,8 @@ Below, you can find hardware requirements based on your SysKit Point subscriptio
 Requirements highly depend on the Office 365 activity, the number of users, and the amount of data in your environment.** The larger the environment, the more resources will be required to run SysKit Point smoothly.
 {% endhint %}
 
-{% hint style="info" %}
-**Learn more!**   
-Hardware requirements for the SQL Server are listed [here](https://github.com/SysKitTeam/docs-point/tree/4fd41e693923cc7267b92d90a06d83f4d64efda6/installation-and-configuration/deploy-on-premises/prerequisites/syskit-point-database/README.md).
+{% hint style="success" %}
+**For smaller Office 365 environments**, SQL Server can be installed on the same physical machine as SysKit Point. If you decided to install SQL Server on a separate machine, you can find the SQL Server hardware requirements listed [here](syskit-point-database.md)
 {% endhint %}
 
 ### Professional Subscription
