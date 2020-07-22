@@ -1,10 +1,10 @@
 ---
 description: >-
-  This article lists SQL Server requirements that are necessary to
-  install and configure SysKit Point on-premises.
+  This article lists SQL Server requirements that are necessary to install and
+  configure SysKit Point on-premises.
 ---
 
-# SQL Database
+# SysKit Point Database
 
 SysKit Point requires an **SQL database** for storing data collected from Office 365. In this article, you can find recommendations to follow when choosing the appropriate **SQL Server**, where the SysKit Point database will be created.
 
@@ -32,7 +32,7 @@ Based on the size of your Office 365 environment, SysKit Point comes with three 
 To learn more about available SysKit Point subscription plans and included features, continue to the [Pricing page.](https://www.syskit.com/products/point/pricing/)
 {% endhint %}
 
-Below, you can find SQL Server recommendations based on your SysKit Point subscription plan and your environment's size. 
+Below, you can find SQL Server recommendations based on your SysKit Point subscription plan and your environment's size.
 
 {% hint style="warning" %}
 **Requirements highly depend on the Office 365 activity, the number of users, and the amount of data in your environment.** The larger the environment, the more resources will be required to run SysKit Point smoothly.
@@ -72,6 +72,7 @@ Recommended for Office 365 environments with more than 10000 users.
 | Point & SQL on the same machine | Not recommended | Not recommended | Not recommended | Not recommended | Not recommended |
 
 {% hint style="info" %}
-**Learn more!**
+**Learn more!**   
 You can find Microsoft hardware and software recommendations on the following links: [SQL Server 2016 and 2017](https://docs.microsoft.com/en-us/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server?view=sql-server-ver15), [SQL Server 2019](https://docs.microsoft.com/en-us/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server-ver15?view=sql-server-ver15).
 {% endhint %}
+
