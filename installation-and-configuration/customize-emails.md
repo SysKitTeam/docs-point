@@ -30,6 +30,12 @@ After entering the URL and clicking on the empty white space on the screen, a lo
 **Hint!**                                                                                                                                               Modifying logo within SysKit Point is global action which means that editing on any location of the settings \(E-mail section, Permissions Review, and Lifecycle Management\) is correlated.
 {% endhint %}
 
+In the picture below, you can see the uploaded logo.
+
+![Customize Logo section in E-mail Settings](../.gitbook/assets/customize-e-mail_customize-logo-section-in-e-mail-settings.png)
+
+If you wish to remove the logo, you can click on the action **Remove logo** and save changes.
+
 ## Settings &gt; Permissions Review
 
 
