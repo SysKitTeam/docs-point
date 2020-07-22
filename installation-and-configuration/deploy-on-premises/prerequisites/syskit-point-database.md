@@ -12,7 +12,7 @@ SysKit Point requires a dedicated **SQL database** for storing data collected fr
 Before continuing, please ensure that you read the [following article](syskit-point-server.md) listing all requirements for the Windows Server, where SysKit Point will be installed.
 {% endhint %}
 
-## SQL Server Software Requirements
+## Software Requirements
 
 Please note the following software requirements:
 

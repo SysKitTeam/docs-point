@@ -21,8 +21,8 @@ Click the appropriate link to learn more about the requirements for each of the 
 
 ## On-Premises
 When deploying SysKit Point on-premises, two things are required to successfully install and configure SysKit Point:
-* **[Windows Server](../installation-and-configuration/deploy-on-premises/prerequisites/syskit-point-server.md#resource-requirements-per-subscription-plan)** where SysKit Point will be installed
-* **[SQL database](../installation-and-configuration/deploy-on-premises/prerequisites/syskit-point-database.md#resource-requirements-per-subscription-plan)** where SysKit Point will store its data 
+* **[Windows Server](../installation-and-configuration/deploy-on-premises/prerequisites/syskit-point-server.md)** where SysKit Point will be installed
+* **[SQL database](../installation-and-configuration/deploy-on-premises/prerequisites/syskit-point-database.md)** where SysKit Point will store its data 
 
 Click the appropriate link to learn more about the requirements for each of the mentioned resources.
 
