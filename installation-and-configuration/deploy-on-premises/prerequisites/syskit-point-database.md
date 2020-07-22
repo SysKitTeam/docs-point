@@ -35,8 +35,7 @@ To learn more about available SysKit Point subscription plans and included featu
 Below, you can find SQL Server recommendations based on your SysKit Point subscription plan and your environment's size.
 
 {% hint style="warning" %}
-**Please note!**
-**Requirements highly depend on the Office 365 activity, the number of users, and the amount of data in your environment**. The larger the environment, the more resources will be required to run SysKit Point smoothly.
+**Please note!** **Requirements highly depend on the Office 365 activity, the number of users, and the amount of data in your environment**. The larger the environment, the more resources will be required to run SysKit Point smoothly.
 {% endhint %}
 
 {% hint style="success" %}
@@ -73,7 +72,7 @@ Recommended for Office 365 environments with more than 10000 users.
 | Point & SQL on the same machine | Not recommended | Not recommended | Not recommended | Not recommended | Not recommended |
 
 {% hint style="info" %}
-**Learn more!**   
+**Learn more!**  
 You can find Microsoft hardware and software recommendations on the following links: [SQL Server 2016 and 2017](https://docs.microsoft.com/en-us/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server?view=sql-server-ver15), [SQL Server 2019](https://docs.microsoft.com/en-us/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server-ver15?view=sql-server-ver15).
 {% endhint %}
 
@@ -81,16 +80,17 @@ You can find Microsoft hardware and software recommendations on the following li
 
 When creating the database, ensure the following:
 
-* [**Resource recommendations are met**](syskit-point-database#resource-recommendations-per-subscription-plan)
+* [**Resource recommendations are met**](https://github.com/SysKitTeam/docs-point/tree/ca7ffe5454d9e646420b74f9c35d1e0eb25c302f/installation-and-configuration/deploy-on-premises/prerequisites/syskit-point-database/README.md#resource-recommendations-per-subscription-plan)
 * **A dedicated SQL database is created for SysKit Point**
 * **Windows Server**, where SysKit Point will be installed, **has access to the SQL database**
-* **User running SysKit Point installation will need to be granted the **db\_owner** rights** on the Syskit Point database
+* **User running SysKit Point installation will need to be granted the** db\_owner **rights** on the Syskit Point database
 * **Service account needs to have db\_owner privileges** on the SysKit Point database
 
 ## Related Topics
 
 * [SysKit Point Server](syskit-point-server.md)
-* [Install SysKit Point On-Premises](install-syskit-point-on-premises.md) 
-* [Configure SysKit Point On-Premises](configure-syskit-point-on-premises.md)
+* [Install SysKit Point On-Premises](https://github.com/SysKitTeam/docs-point/tree/ca7ffe5454d9e646420b74f9c35d1e0eb25c302f/installation-and-configuration/deploy-on-premises/prerequisites/install-syskit-point-on-premises.md) 
+* [Configure SysKit Point On-Premises](https://github.com/SysKitTeam/docs-point/tree/ca7ffe5454d9e646420b74f9c35d1e0eb25c302f/installation-and-configuration/deploy-on-premises/prerequisites/configure-syskit-point-on-premises.md)
 
 If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).
+

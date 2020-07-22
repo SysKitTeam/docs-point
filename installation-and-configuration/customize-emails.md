@@ -1,2 +1,26 @@
-# Customize E-Mails
+---
+description: This article explains how to customize e-mails within SysKit Point.
+---
+
+# Customize E-mails
+
+SysKit Point **allows you to edit e-mails** that will be **sent to site owners** regarding features like **Permissions Review and Lifecycle Management**.
+
+Customization can include changes to the subject, logo, and additional message in the body of the e-mail.
+
+These changes can be performed in three locations within SysKit Point Settings:
+
+* **General Settings &gt; E-mail section** 
+* **Governance Settings &gt; Permissions Review** 
+* **Governance Settings &gt; Lifecycle Management**
+
+## Settings &gt; E-mail section
+
+In E-mail settings, you can only define which global logo would be used in e-mails that are being sent to site owners.
+
+Regardless of which sending method you selected - Exchange Online or [SMTP](https://app.gitbook.com/@syskit/s/point-staging/~/drafts/-MCqXxgO525Wxs2xDP84/installation-and-configuration/enable-permissions-review#smtp-settings), you can enter your logo by providing a URL that is located in the **content distribution network** \(**CDN**\).
+
+After entering the URL and clicking on the empty white space on the screen, a logo will appear. Click save to apply changes.
+
+Modifying logo within SysKit Point is global action which means that editing on any location of the settings \(E-mail section, Permissions Review, and Lifecycle Management\) is correlated.
 
