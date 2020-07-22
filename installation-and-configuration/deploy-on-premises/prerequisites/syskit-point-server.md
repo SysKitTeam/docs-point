@@ -22,7 +22,7 @@ Based on the size of your Office 365 environment, SysKit Point comes with three 
 * **Enterprise**
 
 {% hint style="info" %}
-**Learn more!**   
+**Learn more!**  
 To learn more about available SysKit Point subscription plans and included features, continue to the [Pricing page.](https://www.syskit.com/products/point/pricing/)
 {% endhint %}
 
@@ -79,6 +79,7 @@ Additionally, the following is needed for SysKit Point configuration:
 
 {% hint style="warning" %}
 **Please note!**
+
 * **Once installed and configured, SysKit Point web-app can be accessed and used with a non-privileged user account.**
 * **Office 365 Global Admin credentials are only needed when configuring SysKit Point for the first time.**
 {% endhint %}
@@ -140,7 +141,8 @@ When using such setup, make sure to:
 ## Related Topics
 
 * [SysKit Point SQL Database](syskit-point-database.md)
-* [Install SysKit Point On-Premises](install-syskit-point-on-premises.md) 
-* [Configure SysKit Point On-Premises](configure-syskit-point-on-premises.md)
+* [Install SysKit Point On-Premises](https://github.com/SysKitTeam/docs-point/tree/3ab833c5801d06f9a677db7f226f8ce276776822/installation-and-configuration/deploy-on-premises/prerequisites/install-syskit-point-on-premises.md) 
+* [Configure SysKit Point On-Premises](https://github.com/SysKitTeam/docs-point/tree/3ab833c5801d06f9a677db7f226f8ce276776822/installation-and-configuration/deploy-on-premises/prerequisites/configure-syskit-point-on-premises.md)
 
 If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).
+
