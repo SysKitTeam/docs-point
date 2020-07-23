@@ -6,48 +6,43 @@ description: >-
 
 # Permission Requirements
 
-## Installation
+Depending on where you are deploying SysKit Point - **Cloud** or **on-premises** - various **permissions are needed to install and configure SysKit Point successfully**. 
+All information on this topic is available in multiple articles grouped by the deployment type. Here, a quick overview of said articles is given, as well as the description of permissions required regardless of the deployment type.
 
-To install SysKit Point, you need to have **Local Administrator** privileges on the target installation computer. Once installed, SysKit Point can be used with a non-privileged user account.
+## Cloud
 
-## SQL Database
+When deploying SysKit Point to Cloud, use the following articles to prepare your Azure environment for installation and configuration of SysKit Point:
 
-### Creating a new database
+* [**Azure Virtual Machine**](../installation-and-configuration/deploy-to-azure/prerequisites/create-azure-vm.md#prepare-for-installation-and-configuration) 
+* [**Azure SQL database**](../installation-and-configuration/deploy-to-azure/prerequisites/create-azure-sql-database.md#prepare-for-installation-and-configuration)
 
-To be able to create a new SysKit Point dedicated database, the **user account running the installation and configuration wizard should have the following rights** on the preferred SQL server:
+Click the appropriate link to learn more about the requirements for each of the mentioned resources.
 
-* **dbcreator** 
-* **securityadmin**
+## On-Premises
 
-This allows the account to create a new database and to assign proper privileges after database creation. The install account will be automatically given **db\_owner** privileges on the newly created database, if possible. Otherwise, it is advised that the account is given that privilege manually, as it is needed for upgrading the database.
+When deploying SysKit Point on-premises, you can find all information in the following articles:
 
-### Using the existing database
+* [**Windows Server**](../installation-and-configuration/deploy-on-premises/prerequisites/syskit-point-server.md#prepare-for-installation-and-configuration)
+* [**SQL database**](../installation-and-configuration/deploy-on-premises/prerequisites/syskit-point-database.md#prepare-for-installation-and-configuration)
 
-User running SysKit Point installation will need to be granted the **db\_owner** rights on the existing Syskit Point database.
-
-## Service Account
-
-**Service Settings** page in Configuration Wizard requires appropriate [service account](https://docs.microsoft.com/en-us/windows/security/identity-protection/access-control/service-accounts) details.
-
-A service account is a user account that is created explicitly to provide a security context for services running on Windows Server operating systems. The security context determined the service’s ability to access local and network resources. The Windows operating systems rely on services to run various features. These services can be configured through the applications, the Services snap-in, or Task Manager, or by using Windows PowerShell.
-
-**The service account needs to have the following privileges** to be able to run the service, [collect Office 365 data](../how-to/collect-office-365-data.md) and run other associated jobs:
-
-* **local administrator** privileges on the installation computer with UAC control disabled so we can verify your credentials
-* **db\_owner** privileges on the created SysKit Point dedicated database
-* **log on as Service** rights configured
-
-{% hint style="info" %}
-If the service account is outside your domain the account name must be typed in the down-level logon name format: **domain\accountname**
-{% endhint %}
+Click the appropriate link to learn more about the requirements for each of the mentioned resources.
 
 ## Office 365
+
+No matter the deployment type, when configuring SysKit Point, it is required for you to connect to Office 365 with a Global Administrator account. 
+
+{% hint style="warning" %}
+**Please note!**  
+Office 365 Global Admin credentials are only needed when configuring SysKit Point for the first time.
+{% endhint %}
+
+Below, reasons for such requirements are described in greater detail.
 
 ### Global Administrator
 
 **When connecting to an Office 365 tenant** during the [configuration](../installation-and-configuration/deploy-on-premises/configure-syskit-point-on-premises#connect-to-office-365) process, **you need to connect with a Global Administrator account.**
 
-**The first time you connect to your Office 365 tenant, you will be prompted to give consent** to a set of permissions that SysKit Point requires to function correctly. Additional prompts may show up in the future when installing a newer version of SysKit Point because of new functionality, and in consequence, potentially new required permissions.
+**The first time you connect to your Office 365 tenant, you will be prompted to consent** to a set of permissions that SysKit Point requires to function correctly. Additional prompts may show up in the future when installing a newer version of SysKit Point because of new functionality, and in consequence, potentially new required permissions.
 
 ![Office 365 Global Admin Consent](../.gitbook/assets/permission_requirements_global_administrator_consent_without_steps.png)
 
@@ -58,11 +53,11 @@ If the service account is outside your domain the account name must be typed in 
 Permissions described bellow are automatically granted to SysKit Point by giving consent during the configuration process.
 {% endhint %}
 
-To achieve its functionality, SysKit Point is registered as an **Enterprise Application in Azure Active Directory.** The permissions model is based on OAuth and OpenID Connect flows. This enables us to consume all of the APIs provided by Microsoft in a standard and well defined way. It also enables us to use modern authentication including Multi-Factor Authentication.  
+To achieve its functionality, SysKit Point is registered as an **Enterprise Application in Azure Active Directory.** The permissions model is based on OAuth, and OpenID Connect flows. This enables us to consume all of the APIs provided by Microsoft in a standard and well-defined way. It also allows us to use modern authentication, including Multi-Factor Authentication.  
 SysKit Point requires permissions to access several Microsoft APIs. There are two types of required permissions:
 
-* **Application permissions** - define what SysKit Point can do without a signed in user.
-* **Delegated permissions** - define what SysKit Point can do in the name of the signed in user.
+* **Application permissions** - define what SysKit Point can do without a signed-in user.
+* **Delegated permissions** - define what SysKit Point can do in the name of the signed-in user.
 
 The following permissions are required for SysKit Point Enterprise Application:
 
@@ -71,14 +66,14 @@ The following permissions are required for SysKit Point Enterprise Application:
 | Permissions | Type | Reason |
 | :--- | :--- | :--- |
 | Maintain access to data you have given it access to | Delegated | Allows SysKit Point to always show you the latest data about your environment. |
-| Sign users in | Delegated | Allows SysKit Point to scan your environment as signed in user |
-| Read all users' full profiles | Delegated | Allows SysKit Point to read your users profiles and show you reports based on that data. |
-| Access directory as the signed in user | Delegated | Allows SysKit Point to access your directory. |
-| Read directory data | Delegated | Allows SysKit Point to autodiscover your sites, groups and users. |
+| Sign users in | Delegated | Allows SysKit Point to scan your environment as signed-in user |
+| Read all users' full profiles | Delegated | Allows SysKit Point to read your users' profiles and show you reports based on that data. |
+| Access directory as the signed-in user | Delegated | Allows SysKit Point to access your directory. |
+| Read directory data | Delegated | Allows SysKit Point to autodiscover your sites, groups, and users. |
 | Read and write all groups | Delegated | Allows SysKit Point to read Office 365 group data and show you reports based on that data. Additionally, allows you to manage your groups from SysKit Point. |
 | Read items in all site collections | Delegated | Allows SysKit Point to read documents and list items in all site collections and show you reports based on that data. |
 | Read all usage reports | Delegated | Allows SysKit Point to read usage reports generated by Microsoft. |
-| Send mail as a user | Delegated | Allows SysKit Point to send emails as signed in user so you can be notified if something important happens. \(coming soon\) |
+| Send mail as a user | Delegated | Allows SysKit Point to send emails as a signed-in user so you can be notified if something important happens. \(coming soon\) |
 
 #### Office 365 SharePoint Online
 
@@ -111,18 +106,18 @@ To allow safer access to your Office 365 tenant data and to use Microsoft Authen
 
 | Permissions | Type | Reason |
 | :--- | :--- | :--- |
-| Read directory data | Application | Allows SysKit Point to autodiscover your sites, groups and users. |
+| Read directory data | Application | Allows SysKit Point to autodiscover your sites, groups, and users. |
 | Read and write all groups | Application | Allows SysKit Point to read Office 365 group data and show you reports based on that data. Additionally, allows you to manage your groups from SysKit Point. |
 | Read all usage reports | Application | Allows SysKit Point to read usage reports generated by Microsoft. |
 | Have full control on all sites | Application | Allows SysKit Point to read documents and list items in all site collections and show you reports based on that data. |
-| Read all users' full profiles | Application | Allows SysKit Point to read your users profiles and show you reports based on that data. |
+| Read all users' full profiles | Application | Allows SysKit Point to read your users' profiles and show you reports based on that data. |
 
 #### Office 365 Management APIs
 
 | Permissions | Type | Reason |
 | :--- | :--- | :--- |
-| Read activity data for your organization | Delegated, Application | Allows SysKit Point to read your organizations audit logs. |
-| Read service health information for your organization | Delegated, Application | Allows SysKit Point to read your organizations audit logs. |
+| Read activity data for your organization | Delegated, Application | Allows SysKit Point to read your organization's audit logs. |
+| Read service health information for your organization | Delegated, Application | Allows SysKit Point to read your organization's audit logs. |
 
 #### Skype For Business PowerShell Server Application
 
@@ -139,14 +134,14 @@ The second app registration, **SysKit Point Client**, enables users to securely 
 | Permissions | Type | Reason |
 | :--- | :--- | :--- |
 | Maintain access to data you have given it access to | Delegated | Allows SysKit Point to always show you the latest data about your environment. |
-| Sign users in | Delegated | Allows SysKit Point to scan your environment as signed in user |
-| Read all users' full profiles | Delegated | Allows SysKit Point to read your users profiles and show you reports based on that data. |
-| Access directory as the signed in user | Delegated | Allows SysKit Point to access your directory. |
-| Read directory data | Delegated | Allows SysKit Point to autodiscover your sites, groups and users. |
+| Sign users in | Delegated | Allows SysKit Point to scan your environment as signed-in user |
+| Read all users' full profiles | Delegated | Allows SysKit Point to read your users' profiles and show you reports based on that data. |
+| Access directory as the signed-in user | Delegated | Allows SysKit Point to access your directory. |
+| Read directory data | Delegated | Allows SysKit Point to autodiscover your sites, groups, and users. |
 | Read and write all groups | Delegated | Allows SysKit Point to read Office 365 group data and show you reports based on that data. Additionally, allows you to manage your groups from SysKit Point. |
 | Read items in all site collections | Delegated | Allows SysKit Point to read documents and list items in all site collections and show you reports based on that data. |
 | Read all usage reports | Delegated | Allows SysKit Point to read usage reports generated by Microsoft. |
-| Send mail as a user | Delegated | Allows SysKit Point to send emails as signed in user so you can be notified if something important happens. \(coming soon\) |
+| Send mail as a user | Delegated | Allows SysKit Point to send emails as a signed-in user so you can be notified if something important happens. \(coming soon\) |
 
 #### Office 365 SharePoint Online
 
@@ -154,3 +149,8 @@ The second app registration, **SysKit Point Client**, enables users to securely 
 | :--- | :--- | :--- |
 | Have full control of all site collections | Delegated | Allows you to manage your Site Collections directly from SysKit Point. |
 
+## Related Topics
+
+* [System Requirements](system-requirements.md)
+* [Deploy SysKit Point to Cloud](../installation-and-configuration/deploy-to-azure/)
+* [Deploy SysKit Point On-Premises](../installation-and-configuration/deploy-on-premises/)
