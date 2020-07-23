@@ -87,7 +87,7 @@ Office 365 Global Admin credentials are only needed when configuring SysKit Poin
 **Please note that this can be any global admin account**; it doesn’t have to be the account you will use in the future to log in to the application.
 
 {% hint style="success" %}
-**SysKit Point** uses modern authentication methods and **does not store any passwords or accounts** that you present here.
+**SysKit Point** uses modern authentication methods, and **does not store any passwords or accounts** you present here.
 {% endhint %}
 
 When you first connect to your tenant, SysKit Point will request permissions needed to collect data from your Office 365 environment.
@@ -96,15 +96,21 @@ When you first connect to your tenant, SysKit Point will request permissions nee
 
 To continue, check the **Consent on behalf of your organization** **option \(1\)**, and click the **Accept** **button \(2\)**. A new window opens where you can choose which information would you like to collect when it comes to your Office 365 environment:
 
-* **Automatic Discovery** – by default, SysKit Point continuously monitors your Office 365 environment and shows you the latest data. SharePoint Online sites and Office 365 Groups data will always be monitored. This setting cannot be modified.
-* **OneDrive** - by default, SysKit Point will collect information and report on user OneDrive activity, content and sharing. To stop collecting OneDrive data, uncheck this option.
-* **Audit Logs** - SysKit Point will also collect all audit logs to monitor internal and external user activities and changes and Store them to the hard drive. To stop storing audit logs, uncheck this option. 
+* **Automatic Discovery (1)** – by default, SysKit Point continuously monitors your Office 365 environment and shows you the latest data. SharePoint Online sites and Office 365 Groups data will always be monitored. This setting cannot be modified.
+* **Autodiscover OneDrive (2)** - by default, SysKit Point will collect information and report on user OneDrive activity, content, and sharing. To stop collecting OneDrive data, uncheck this option.
+* **Protect OneDrive privacy (3)** - When enabled, SysKit Point will only show general information about user's OneDrive, such as used storage. SysKit Point Admins won't be able to access OneDrive content and personal data. By default, this option is disabled.
+* **Store audit logs (4)** - SysKit Point will also collect all audit logs to monitor internal and external user activities and changes and Store them to the hard drive. To stop storing audit logs, uncheck this option.
+* **Protect user privacy (5)** - When enabled, user activity data will be hidden from SysKit Point and protected from Administrator supervision. By default, this option is disabled.
 
-You can change these options anytime by navigating to **Settings** in SysKit Point.
+![OneDrive and audit logs configuration](../../.gitbook/assets/configure-syskit-point_od-audit-configuration.png)
+
+{% hint style="success" %}
+You can change these options anytime by running **SysKit Point Configuration**.
+{% endhint %}
 
 {% hint style="warning" %}
 **Please note!**  
-For SysKit Point to be able to collect, process, and save audit logs, the auditing has to be enabled in your tenant. [Navigate here to find out how to turn on auditing.](../../faq/turn-on-auditing.md)
+For SysKit Point to collect, process, and save audit logs, the auditing has to be enabled in your tenant. [Navigate here to find out how to turn on auditing.](../../faq/turn-on-auditing.md)
 {% endhint %}
 
 {% hint style="warning" %}
