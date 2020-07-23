@@ -6,7 +6,7 @@ description: >-
 
 # Customize Audit Logs Collection
 
-Audit logs can provide you with **insights into all activities** related to user and administration activities in your Office 365 environment.‌
+Audit logs can provide you with **insights into all activities** related to the user and administration activities in your Office 365 environment.‌
 
 Users that are assigned **SysKit Point Admin role** can configure activities that are going to be collected in these locations:
 
@@ -23,23 +23,31 @@ When configuring **SysKit Point** in **Configuration Wizard**, you have the **op
 
 {% hint style="warning" %}
 **Please note!**  
-Regardless of your selection to store or not to store them, audit logs are **regularly** **processed by SysKit Point** to track changes and activity in your Office 365 environment. Storing audit logs gives you the possibility to access audit data for longer periods than available in Office 365.
+Regardless of your selection to store them or not, audit logs are **regularly** **processed by SysKit Point** to track changes and activity in your Office 365 environment. Storing audit logs gives you the possibility to access audit data for more extended periods than available in Office 365.
 {% endhint %}
 
-### User privacy option
+### User Privacy Option
 
-This option is by default turned off.
-
-When turned on, it will not show all the information in the application regarding user activity such as file and permissions changes.
-
-{% hint style="info" %}
-**Hint!**                                                                                                                                                     Information is collected and stored and will be hidden and protected from Administrator supervision.
-{% endhint %}
-
-The option can be defined for each tenant that is connected with SysKit Point.
+Turning this option on results in the following:
+* **User activity data**, such as file and permissions changes, **will be hidden and protected from Administrator supervision** 
+  * **User Activity report will be hidden from SysKit Point user interface**
+  * **Access to the File and Page Activities report will be hidden**
+  * **Summary data in the Analytics & Usage tile will remain visible, but cannot be drilled to access data for a specific user**
+* **User activity** data will, however, be collected and stored
 
 {% hint style="warning" %}
-**Please note!**                                                                                                                                              Protect user privacy option is disabled automatically if storing audit logs is turned off.
+**Please note!**                                                                                                                                             
+User activity data continues to be collected and stored, to be readily available if needed, in case of a security incident.
+{% endhint %}
+
+The following rules apply regarding the User Privacy option:
+* **By default, this option is turned off**
+* **Option can be defined for each tenant connected with SysKit Point independently**
+* **Changing the option is only possible through the SysKit Point Configuration Wizard**
+
+{% hint style="warning" %}
+**Please note!**                                                                                                                                             
+The **Protect user privacy** option is disabled automatically if the **Store audit logs option** is turned off.
 {% endhint %}
 
 ## Audit Logs section in Settings
