@@ -10,10 +10,10 @@ Once the installation is completed, by default, **SysKit Point - Configuration W
 
 In the Configuration Wizard, you will need to provide the following information:
 
-* **MS SQL server and SQL database**
+* **MS SQL Server and SQL database**
 * **Local service account**
 * **Office 365 Global admin account**
-* **SSL Certificate** \(we can provide you with a self-signed one, but for production we recommend you use full SSL certificate\).
+* **SSL Certificate** \(we can provide you with a self-signed one, but for production, we recommend you use full SSL certificate\).
 
 {% hint style="info" %}
 For a detailed overview of the **SysKit Point requirements**, [navigate to the Prerequisites section](prerequisites/).
@@ -25,7 +25,7 @@ For a detailed overview of the **SysKit Point requirements**, [navigate to the P
 
 First, you need to choose between the following two options:
 
-* **Create new database** – use this when configuring SysKit Point for the first time, and if the account running the Configuration Wizard has proper privileges on the SQL server to create new databases. 
+* **Create a new database** – use this when configuring SysKit Point for the first time, and if the account running the Configuration Wizard has proper privileges on the SQL server to create new databases. 
 * **Use existing database** – if you have your SQL database pre-created by your SQL administrator, or if you already configured SysKit Point and are just upgrading to a newer version of SysKit Point, or modifying settings. 
 
 ### Database Configuration
@@ -60,7 +60,7 @@ Check the supported SQL Server versions and requirements [here](prerequisites/sy
 
 Provide local service account that will be used for running the automatic actions performed by SysKit Point, such as:
 
-* **Office 365 auto discovery and data crawl** 
+* **Office 365 autodiscovery and data crawling** 
 * **Writing the collected data to a specified SQL database**  
 * **Writing down collected Audit data to the Index location** 
 
@@ -77,7 +77,7 @@ Click **OK** to close the Success window, and **Next &gt;** to continue to the n
 
 ### Connect to Office 365
 
-Click the **Connect to your tenant** link to connect SysKit Point to your Office 365 tenant. **You need to provide the Office 365 global admin account.** This account will be used for collecting all the data from your environment and for the continuous auto discovery of new resources.
+Click the **Connect to your tenant** link to connect SysKit Point to your Office 365 tenant. **You need to provide the Office 365 global admin account.** This account will be used for collecting all the data from your environment and for the continuous autodiscovery of new resources.
 
 {% hint style="warning" %}
 **Please note!**  
@@ -87,7 +87,7 @@ Office 365 Global Admin credentials are only needed when configuring SysKit Poin
 **Please note that this can be any global admin account**; it doesn’t have to be the account you will use in the future to log in to the application.
 
 {% hint style="success" %}
-**SysKit Point** uses modern authentication methods, and **does not store any passwords or accounts** you present here.
+**SysKit Point** uses modern authentication methods and **does not store any passwords or accounts** you present here.
 {% endhint %}
 
 When you first connect to your tenant, SysKit Point will request permissions needed to collect data from your Office 365 environment.
@@ -96,11 +96,11 @@ When you first connect to your tenant, SysKit Point will request permissions nee
 
 To continue, check the **Consent on behalf of your organization** **option \(1\)**, and click the **Accept** **button \(2\)**. A new window opens where you can choose which information would you like to collect when it comes to your Office 365 environment:
 
-* **Automatic Discovery (1)** – by default, SysKit Point continuously monitors your Office 365 environment and shows you the latest data. SharePoint Online sites and Office 365 Groups data will always be monitored. This setting cannot be modified.
-* **Autodiscover OneDrive (2)** - by default, SysKit Point will collect information and report on user OneDrive activity, content, and sharing. To stop collecting OneDrive data, uncheck this option.
-* **Protect OneDrive privacy (3)** - When enabled, SysKit Point will only show general information about user's OneDrive, such as used storage. SysKit Point Admins won't be able to access OneDrive content and personal data. By default, this option is disabled.
-* **Store audit logs (4)** - SysKit Point will also collect all audit logs to monitor internal and external user activities and changes and Store them to the hard drive. To stop storing audit logs, uncheck this option.
-* **Protect user privacy (5)** - When enabled, user activity data will be hidden from SysKit Point and protected from Administrator supervision. By default, this option is disabled.
+* **Automatic Discovery** – by default, SysKit Point continuously monitors your Office 365 environment and shows you the latest data. SharePoint Online sites and Office 365 Groups data will always be monitored. This setting cannot be modified.
+* **Autodiscover OneDrive (1)** - by default, SysKit Point will collect information and report on user OneDrive activity, content, and sharing. To stop collecting OneDrive data, uncheck this option.
+* **Protect OneDrive privacy (2)** - When enabled, SysKit Point will only show general information about user's OneDrive, such as used storage. SysKit Point Admins won't be able to access OneDrive content and personal data. By default, this option is disabled.
+* **Store audit logs (3)** - SysKit Point will also collect all audit logs to monitor internal and external user activities and changes and Store them to the hard drive. To stop storing audit logs, uncheck this option.
+* **Protect user privacy (4)** - When enabled, user activity data will be hidden from SysKit Point and protected from Administrator supervision. By default, this option is disabled.
 
 ![OneDrive and audit logs configuration](../../.gitbook/assets/configure-syskit-point_od-audit-configuration.png)
 
@@ -139,3 +139,10 @@ Click the **Finish** button to open SysKit Point in the default browser, and you
 
 To get started with SysKit Point, [read the Quick Start Guide article.](../../how-to/syskit-point-quick-start-guide.md)
 
+## Related Topics
+
+* [SysKit Point Server](prerequisites/syskit-point-server.md)
+* [SysKit Point SQL Database](prerequisites/syskit-point-database.md)
+* [Install SysKit Point On-Premises](install-syskit-point-on-premises.md)
+
+If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).
