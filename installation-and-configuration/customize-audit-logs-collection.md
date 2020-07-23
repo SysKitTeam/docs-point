@@ -15,18 +15,22 @@ Users that are assigned **SysKit Point Admin role** can configure activities tha
 
 ## SysKit Point Configuration Wizard
 
-### Audit Logs
+When configuring **SysKit Point**, on the **Connect to Office 365** step, you have the following audit options on disposal:
+* **Store audit logs (1)**
+* **Protect user privacy (2)**
 
-When configuring **SysKit Point** in **Configuration Wizard**, you have the **option to turn the storage of Audit Logs on/off**. The setting is available on the screen shown below, which appears after you enter the Office 365 Global admin credentials on the Configuration Wizard's **Connect to Office 365** step. By default, the **Store audit logs** option is enabled, meaning that SysKit Point will process and store the audit logs to your local disk, by default in the **C:\ProgramData\SysKit\Point\AuditIndex** folder.
+![SysKit Point Configuration - Audit logs options](../.gitbook/assets/customize-audit-logs-collection-01-audit-options.png)
 
-![Store audit logs setting in the Configuration Wizard](../.gitbook/assets/customize_audit_logs_collection_store_audit_logs_settings.png)
+### Store Audit Logs Option
+
+By default, the **Store audit logs** option is enabled, meaning that SysKit Point will process and store the audit logs to your local disk, by default in the **C:\ProgramData\SysKit\Point\AuditIndex** folder.
 
 {% hint style="warning" %}
 **Please note!**  
-Regardless of your selection to store them or not, audit logs are **regularly** **processed by SysKit Point** to track changes and activity in your Office 365 environment. Storing audit logs gives you the possibility to access audit data for more extended periods than available in Office 365.
+Regardless of your selection to store them or not, audit logs are **regularly processed by SysKit Point** to track changes and activity in your Office 365 environment. Storing audit logs gives you the possibility to access audit data for more extended periods than available in Office 365.
 {% endhint %}
 
-### User Privacy Option
+### Protect User Privacy Option
 
 Turning this option on results in the following:
 * **User activity data**, such as file and permissions changes, **will be hidden and protected from Administrator supervision** 
@@ -86,7 +90,7 @@ The last section available on the Audit Logs screen to configure is the **Data R
 
 ### Exchange Logs
 
-SysKit Point doesn't collect exchange logs by default - they have to be selected among audit activities as shown in the picture above.
+SysKit Point doesn't collect exchange logs by default - they have to be selected among audit activities, as shown in the picture above.
 
 After you select exchange activities, wait around 15-20 minutes until Syskit Point collects the data.
 
