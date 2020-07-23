@@ -6,8 +6,7 @@ description: >-
 
 # Permission Requirements
 
-Depending on where you are deploying SysKit Point - **Cloud** or **on-premises** - various **permissions are needed to install and configure SysKit Point successfully**. 
-All information on this topic is available in multiple articles grouped by the deployment type. Here, a quick overview of said articles is given, as well as the description of permissions required regardless of the deployment type.
+Depending on where you are deploying SysKit Point - **Cloud** or **on-premises** - various **permissions are needed to install and configure SysKit Point successfully**. All information on this topic is available in multiple articles grouped by the deployment type. Here, a quick overview of said articles is given, as well as the description of permissions required regardless of the deployment type.
 
 ## Cloud
 
@@ -29,7 +28,7 @@ Click the appropriate link to learn more about the requirements for each of the 
 
 ## Office 365
 
-No matter the deployment type, when configuring SysKit Point, it is required for you to connect to Office 365 with a Global Administrator account. 
+No matter the deployment type, when configuring SysKit Point, it is required for you to connect to Office 365 with a Global Administrator account.
 
 {% hint style="warning" %}
 **Please note!**  
@@ -40,7 +39,7 @@ Below, reasons for such requirements are described in greater detail.
 
 ### Global Administrator
 
-**When connecting to an Office 365 tenant** during the [configuration](../installation-and-configuration/deploy-on-premises/configure-syskit-point-on-premises#connect-to-office-365) process, **you need to connect with a Global Administrator account.**
+**When connecting to an Office 365 tenant** during the [configuration](https://github.com/SysKitTeam/docs-point/tree/9cc04f04fda2392b399e9365600a4ca400c5e6fd/installation-and-configuration/deploy-on-premises/configure-syskit-point-on-premises/README.md#connect-to-office-365) process, **you need to connect with a Global Administrator account.**
 
 **The first time you connect to your Office 365 tenant, you will be prompted to consent** to a set of permissions that SysKit Point requires to function correctly. Additional prompts may show up in the future when installing a newer version of SysKit Point because of new functionality, and in consequence, potentially new required permissions.
 
@@ -154,3 +153,4 @@ The second app registration, **SysKit Point Client**, enables users to securely 
 * [System Requirements](system-requirements.md)
 * [Deploy SysKit Point to Cloud](../installation-and-configuration/deploy-to-azure/)
 * [Deploy SysKit Point On-Premises](../installation-and-configuration/deploy-on-premises/)
+

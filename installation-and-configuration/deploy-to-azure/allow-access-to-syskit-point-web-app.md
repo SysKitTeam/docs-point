@@ -17,7 +17,7 @@ Allowing access **enables site owners and business users to access SysKit Point*
 
 {% hint style="warning" %}
 **Please note!**  
-The web application is accessible on the Internet when you allow access to SysKit Point outside of Azure Virtual Machine. **To secure your data**, **SysKit Point uses modern authentication methods**, making sure that only the right users inside your Office 365 tenant can sign in, as defined in [SysKit Point security settings](../../enable-role-based-access.md).
+The web application is accessible on the Internet when you allow access to SysKit Point outside of Azure Virtual Machine. **To secure your data**, **SysKit Point uses modern authentication methods**, making sure that only the right users inside your Office 365 tenant can sign in, as defined in [SysKit Point security settings](https://github.com/SysKitTeam/docs-point/tree/fd209009594255aec1a4bbcc0f169a3d631f7ccf/enable-role-based-access.md).
 {% endhint %}
 
 After configuration, SysKit Point users will be able to access the SysKit Point interface from any [supported internet browser](../../requirements/system-requirements.md#supported-browsers) through the specified app URL.
@@ -69,7 +69,7 @@ After all the steps are done, you can access the SysKit Point web application fr
 * [Create Azure SQL Database](prerequisites/create-azure-sql-database.md)
 * [Install SysKit Point on Azure VM](install-syskit-point-on-azure-vm.md) 
 * [Configure SysKit Point on Azure VM](configure-syskit-point-on-azure-vm.md)
-* [Enable Role Based Access](../../enable-role-based-access.md)
+* [Enable Role Based Access](https://github.com/SysKitTeam/docs-point/tree/fd209009594255aec1a4bbcc0f169a3d631f7ccf/enable-role-based-access.md)
 
 If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).
 

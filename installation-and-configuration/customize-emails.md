@@ -15,7 +15,7 @@ These changes can be performed in three locations within SysKit Point Settings:
 * **Governance Settings &gt; Lifecycle Management**
 
 {% hint style="warning" %}
-**Please note!**                                                                                                                             Customizing e-mail options are only available for the SysKit Point Enterprise [license](https://app.gitbook.com/@syskit/s/point-staging/~/drafts/-MCrLPR9x9lbJ9koNNIM/activation/activate-syskit-point).
+**Please note!**                                                                                                                             Customizing e-mail options are only available for the **SysKit Point Enterprise** [**license**](https://app.gitbook.com/@syskit/s/point-staging/~/drafts/-MCrLPR9x9lbJ9koNNIM/activation/activate-syskit-point).
 {% endhint %}
 
 ## Settings &gt; E-mail section
@@ -34,11 +34,35 @@ In the picture below, you can see the uploaded logo.
 
 ![Customize Logo section in E-mail Settings](../.gitbook/assets/customize-e-mail_customize-logo-section-in-e-mail-settings.png)
 
-If you wish to remove the logo, you can click on the action **Remove logo** and save changes.
+If you wish to remove the logo, you can click on the action **Remove Logo** and save changes.
 
 ## Settings &gt; Permissions Review
 
 To customize e-mail for the Permissions review, first, you have to enable the feature. For more information visit this [article](https://app.gitbook.com/@syskit/s/point-staging/~/drafts/-MCrRqc4CfI6LOglzRkJ/installation-and-configuration/enable-permissions-review).
+
+Open the Permissions Review tab in the Governance section. Click on **Customize e-mail** button to open the editing screen.
+
+![Permissions Review Settings screen](../.gitbook/assets/customize-e-mail_permissions-review-settings-screen.png)
+
+There you will see a few sections such as subject, logo, banner image, and custom message.
+
+![Customize Permissions Review E-mail screen](../.gitbook/assets/customize-e-mail_customize-permissions-review-e-mail-screen.png)
+
+You can change the subject of the mail for your coworkers for better communication.
+
+The logo is also adjustable as mentioned earlier in the E-mail Settings section.
+
+**Banner image** shown on the screen is a default SysKit image sent in our e-mails that are dedicated to site owners included in the Permissions Review process. For removing this image click on **Remove image** action below the image.
+
+Regarding the custom message, it can contain plain text or link. A link has to be defined by HTML form **&lt;a href="link URL"&gt;text for the link&lt;/a&gt;** where instead of link URL you have to enter the actual desired URL, and instead of text for the link you have to enter some wanted words.
+
+When you are done with editing the appearance of the Permissions Review e-mail, click the Confirm button to save the changes.
+
+You can immediately see the e-mail changes if you open the **Preview e-mail screen**.
+
+![Preview e-mail screen for Permissions Review](../.gitbook/assets/customize-e-mail_preview-e-mail-screen.png)
+
+## Settings &gt; Lifecycle Management
 
 
 
