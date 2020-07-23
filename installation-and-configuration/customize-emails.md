@@ -56,13 +56,11 @@ The logo is also adjustable as mentioned earlier in the E-mail Settings section.
 
 Regarding the custom message, it can contain plain text or link. A link has to be defined by HTML form **&lt;a href="link URL"&gt;text for the link&lt;/a&gt;** where instead of link URL you have to enter the actual desired URL, and instead of text for the link you have to enter some wanted words.
 
-When you are done with editing the appearance of the Permissions Review e-mail, click the Confirm button to save the changes.
+When you are done with editing the appearance of the Permissions Review e-mail, click the **Confirm button** to save the changes.
 
 You can immediately see the e-mail changes if you open the **Preview e-mail screen**.
 
 ![Preview e-mail screen for Permissions Review](../.gitbook/assets/customize-e-mail_preview-e-mail-screen.png)
 
 ## Settings &gt; Lifecycle Management
-
-
 
