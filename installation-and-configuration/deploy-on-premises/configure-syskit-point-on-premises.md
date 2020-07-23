@@ -10,7 +10,7 @@ Once the installation is completed, by default, **SysKit Point - Configuration W
 
 In the Configuration Wizard, you will need to provide the following information:
 
-* **MS SQL Server and SQL database**
+* **MS SQL Server and SQL Server database**
 * **Local service account**
 * **Office 365 Global admin account**
 * **SSL Certificate** \(we can provide you with a self-signed one, but for production, we recommend you use full SSL certificate\).
@@ -25,27 +25,27 @@ For a detailed overview of the **SysKit Point requirements**, [navigate to the P
 
 First, you need to choose between the following two options:
 
-* **Create a new database** – use this when configuring SysKit Point for the first time, and if the account running the Configuration Wizard has proper privileges on the SQL server to create new databases. 
-* **Use existing database** – if you have your SQL database pre-created by your SQL administrator, or if you already configured SysKit Point and are just upgrading to a newer version of SysKit Point, or modifying settings. 
+* **Create a new database** – use this when configuring SysKit Point for the first time, and if the account running the Configuration Wizard has proper privileges on the MS SQL server to create new SQL Server databases. 
+* **Use existing database** – if you have your SQL Server database pre-created by your SQL administrator, or if you already configured SysKit Point and are just upgrading to a newer version of SysKit Point, or modifying settings. 
 
 ### Database Configuration
 
-Provide SQL database server name and database name.
+Provide MS SQL Server name and SQL Server database name.
 
 {% hint style="warning" %}
 **How to enter the server name?**
 
-* if you are using the default instance type “servername”, or “servername.yourdomain.loc” 
-* if you are using a named instance type “servername\instancename”, or “servername. Yourdomain.loc\instancenameˇ  
-* if your SQL Server is on a non-standard port \(different from 1433\), type “servername,port” or “servername\instance,port”. \(FQDN formats are also supported\) 
+* if you are using the default instance type “servername”, or “FQDN” 
+* if you are using a named instance type “servername\instancename”, or “FQDN\instancenameˇ  
+* if your MS SQL Server is on a non-standard port \(different from 1433\), type “servername,port” or “servername\instance,port”. \(FQDN formats are also supported\) 
 {% endhint %}
 
-Choose the type of authentication to this SQL server and database:
+Choose the type of authentication to this MS SQL Server and SQL Server database:
 
 * **Windows Authentication** \(recommended\)  
 * **SQL Authentication** 
 
-To make sure that you will be able to use this server and database, click the **Test Connection** button.  
+To make sure that you will be able to use this MS SQL Server and SQL Server database, click the **Test Connection** button.  
 If everything is configured properly, an Info window appears with the message:
 
 **`Successfully connected to the SQL Server`**
@@ -53,7 +53,7 @@ If everything is configured properly, an Info window appears with the message:
 Click **OK** to close the Info window, and **Next &gt;** to continue to the next step.
 
 {% hint style="info" %}
-Check the supported SQL Server versions and requirements [here](prerequisites/syskit-point-database.md).
+Check the supported MS SQL Server versions and requirements [here](prerequisites/syskit-point-database.md).
 {% endhint %}
 
 ### Service Settings
@@ -61,7 +61,7 @@ Check the supported SQL Server versions and requirements [here](prerequisites/sy
 Provide local service account that will be used for running the automatic actions performed by SysKit Point, such as:
 
 * **Office 365 autodiscovery and data crawling** 
-* **Writing the collected data to a specified SQL database**  
+* **Writing the collected data to a specified SQL Server database**  
 * **Writing down collected Audit data to the Index location** 
 
 Supported service account formats:
@@ -122,14 +122,38 @@ You can find answers in the [following article](../../requirements/permission-re
 
 The default URL for the web interface of SysKit Point is set to `https://fully-qualified-domain-name` and port to `443`. You can customize these values as you wish at any point in time, but make sure to also configure your DNS for the customized URL to correctly resolve the target address.
 
-Use this URL to log in to the SysKit Point web interface from the web browser of your choice.
+Use this URL to log in to the SysKit Point web interface by using the [supported browsers](../../requirements/system-requirements.md#supported-browsers).
 
 #### SSL Certificates
 
 Choose the certificate type to ensure a secure connection between SysKit Point machine and web interface in the browser:
 
 * **Import SSL certificate** – recommended for the production usage and it needs to be created by the end-user/customer. Learn how to [configure the SSL certificate here.](../../common-tasks/configure-ssl-certificate.md)
-* **Use self-signed certificate** – this is a certificate provided automatically by SysKit, and will work for testing purposes. Since this certificate is not signed by a certification authority, you will receive security warnings when you try to open the web application in the browser from other machines \(other than the one where SysKit Point is installed\). 
+* **Use self-signed certificate** – this is a certificate provided automatically by SysKit Point, and will work for testing purposes. Since this certificate is not signed by a certification authority, you will receive security warnings when you try to open the web application in the browser from other machines \(other than the one where SysKit Point is installed\). 
+
+**If you decide to configure SysKit Point web-app be reachable from the public internet**, **the following is recommended**:
+
+* **Use a Custom Domain mapped to SysKit Point Web App**; for example, `https://point.mycustomdomain.com`
+* **Use an SSL certificate obtained from a publicly trusted SSL certificate provider**
+
+When using such setup, make sure to:
+
+* **Associate the SSL certificate with the custom domain used in the SysKit Point Web App URL**
+* **Add a public DNS A record on your custom domain pointing to Windows Server public IP address** 
+
+**When configuring SysKit Point to be used inside your company or in a test environment**, you can use:
+
+* **FQDN of the Windows Server as SysKit Point Web App URL**; for example, `https://pointserver.contoso.com`
+* **Internally-signed certificate or Self-signed certificate created by SysKit Point**
+
+{% hint style="success" %}
+**When configuring**, SysKit Point will, by default, automatically set up the **Web App URL** and the **Self-signed certificate** so there is no additional configuration needed on your side.
+{% endhint %}
+
+{% hint style="warning" %}
+**Please note!**  
+**Self-signed certificates are by default not publicly trusted**; therefore, your connection to Point application may be marked as not private in the browser when accessing SysKit Point URL.
+{% endhint %}
 
 ### Finish
 
@@ -142,7 +166,7 @@ To get started with SysKit Point, [read the Quick Start Guide article.](../../ho
 ## Related Topics
 
 * [SysKit Point Server](prerequisites/syskit-point-server.md)
-* [SysKit Point SQL Database](prerequisites/syskit-point-database.md)
+* [SysKit Point SQL Server Database](prerequisites/syskit-point-database.md)
 * [Install SysKit Point On-Premises](install-syskit-point-on-premises.md)
 
 If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).

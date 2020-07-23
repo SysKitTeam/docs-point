@@ -9,7 +9,7 @@ description: >-
 When deploying SysKit Point on-premises, two necessary components are required:
 
 * [**Windows Server**](syskit-point-server.md) where SysKit Point will be installed
-* [**SQL database**](syskit-point-database.md) where SysKit Point will store its data 
+* [**SQL Server database**](syskit-point-database.md) where SysKit Point will store its data 
 
 Click the appropriate link to learn more about requirements for each of the mentioned resources.
 

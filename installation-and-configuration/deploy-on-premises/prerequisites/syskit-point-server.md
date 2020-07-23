@@ -26,7 +26,7 @@ Based on the size of your Office 365 environment, SysKit Point comes with three 
 To learn more about available SysKit Point subscription plans and included features, continue to the [Pricing page.](https://www.syskit.com/products/point/pricing/)
 {% endhint %}
 
-Below, you can find SQL server hardware requirements based on your SysKit Point subscription plan and your environment's size.
+Below, you can find MS SQL server hardware requirements based on your SysKit Point subscription plan and your environment's size.
 
 {% hint style="warning" %}
 **Please note!**  
@@ -34,7 +34,7 @@ Below, you can find SQL server hardware requirements based on your SysKit Point 
 {% endhint %}
 
 {% hint style="success" %}
-**For smaller Office 365 environments**, SQL Server can be installed on the same physical machine as SysKit Point. If you decided to install SQL Server on a separate machine, you can find the SQL Server hardware requirements listed [here](syskit-point-database.md)
+**For smaller Office 365 environments**, MS SQL Server can be installed on the same physical machine as SysKit Point. If you decided to install MS SQL Server on a separate machine, you can find the MS SQL Server hardware requirements listed [here](syskit-point-database.md)
 {% endhint %}
 
 ### Professional Subscription
@@ -69,8 +69,9 @@ Recommended for Office 365 environments with more than 10000 users.
 After you choose or provision a Windows Server where to install SysKit Point, ensure the following:
 
 * **User installing SysKit Point is a Local Administrator** on the Windows Server
-* **Office 365 Global Administrator** credentials and consent are needed when configuring SysKit Point for the first time
 * **A service account with Local Administrator privileges** on the Windows Server is required to run SysKit Point Service
+* **Office 365 Global Administrator** credentials and consent are needed when configuring SysKit Point for the first time
+
 
 Additionally, the following is needed for SysKit Point configuration:
 
@@ -89,7 +90,7 @@ Additionally, the following is needed for SysKit Point configuration:
 A Service account is used for running the automatic actions performed by SysKit Point, such as:
 
 * **Office 365 auto-discovery and data crawl** 
-* **Writing the collected data to a specified SQL database**  
+* **Writing the collected data to a specified SQL Server database**  
 * **Writing down collected Audit data to the Index location** 
 
 Supported service account formats are as follows:
@@ -100,7 +101,7 @@ Supported service account formats are as follows:
 
 **The Service account used to run SysKit Point Service needs to have the following privileges** to be able to [collect Office 365 data](../../../how-to/collect-office-365-data.md) and run other associated jobs:
 
-* **local administrator** privileges on the Windows Server
+* **Local Administrator** privileges on the Windows Server
 
 ### Office 365 Global Administrator
 
@@ -114,20 +115,20 @@ For a complete overview of individual permissions used by SysKit Point, please r
 
 ### SSL Certificate
 
-**In a production environment**, **it is recommended to use**:
+**If you decide to configure SysKit Point web-app be reachable from the public internet**, **the following is recommended**:
 
-* **Custom Domain used in SysKit Point Web App URL**; for example, `https://point.mycustomdomain.com`
-* **SSL certificate obtained from a publicly trusted SSL certificate provider**
+* **Use a Custom Domain mapped to SysKit Point Web App**; for example, `https://point.mycustomdomain.com`
+* **Use an SSL certificate obtained from a publicly trusted SSL certificate provider**
 
 When using such setup, make sure to:
 
 * **Associate the SSL certificate with the custom domain used in the SysKit Point Web App URL**
 * **Add a public DNS A record on your custom domain pointing to Windows Server public IP address** 
 
-**When configuring SysKit Point in a test environment**, you can use:
+**When configuring SysKit Point to be used inside your company or in a test environment**, you can use:
 
-* **FQDN of the Windows Server in SysKit Point Web App URL**; for example, `https://pointserver.contoso.com`
-* **Self-signed certificate created by SysKit Point**
+* **FQDN of the Windows Server as SysKit Point Web App URL**; for example, `https://pointserver.contoso.com`
+* **Internally-signed certificate or Self-signed certificate created by SysKit Point**
 
 {% hint style="success" %}
 **When configuring**, SysKit Point will, by default, automatically set up the **Web App URL** and the **Self-signed certificate** so there is no additional configuration needed on your side.
@@ -140,7 +141,7 @@ When using such setup, make sure to:
 
 ## Related Topics
 
-* [SysKit Point SQL Database](syskit-point-database.md)
+* [SysKit Point Database](syskit-point-database.md)
 * [Install SysKit Point On-Premises](https://github.com/SysKitTeam/docs-point/tree/042148d95858d33a0a9e000baa6cd23e89af9c00/installation-and-configuration/deploy-on-premises/prerequisites/prerequisites/install-syskit-point-on-premises.md) 
 * [Configure SysKit Point On-Premises](https://github.com/SysKitTeam/docs-point/tree/042148d95858d33a0a9e000baa6cd23e89af9c00/installation-and-configuration/deploy-on-premises/prerequisites/prerequisites/configure-syskit-point-on-premises.md)
 

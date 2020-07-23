@@ -59,8 +59,9 @@ After you create an Azure Virtual Machine, ensure the following:
 * **Public IP address \(static\)** is set for the Azure Virtual Machine
 * **RDP connection \(port 3389\)** that allows access to the Azure Virtual Machine is enabled
 * **User installing SysKit Point is a Local Administrator** on the Azure Virtual Machine
-* **Office 365 Global Administrator** credentials and consent are needed when configuring SysKit Point for the first time
 * **A service account with Local Administrator** on the Azure Virtual Machine is needed to run SysKit Point Service
+* **Office 365 Global Administrator** credentials and consent are needed when configuring SysKit Point for the first time
+
 
 Additionally, the following is needed for SysKit Point configuration:
 
@@ -84,7 +85,7 @@ Additionally, the following is needed for SysKit Point configuration:
 A Service account is used for running the automatic actions performed by SysKit Point, such as:
 
 * **Office 365 auto discovery and data crawl** 
-* **Writing the collected data to a specified SQL database**  
+* **Writing the collected data to a specified Azure SQL database**  
 * **Writing down collected Audit data to the Index location** 
 
 Supported service account formats are as follows:
@@ -95,7 +96,7 @@ Supported service account formats are as follows:
 
 **The Service account used to run SysKit Point Service needs to have the following privileges** to be able to [collect Office 365 data](../../../how-to/collect-office-365-data.md) and run other associated jobs:
 
-* **local administrator** privileges on the Azure Virtual Machine
+* **Local Administrator** privileges on the Azure Virtual Machine
 
 ### Office 365 Global Administrator
 

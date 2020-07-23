@@ -23,7 +23,7 @@ To continue with the configuration of the application, proceed to the [next arti
 ## Related Topics
 
 * [SysKit Point Server](prerequisites/syskit-point-server.md)
-* [SysKit Point SQL Database](prerequisites/syskit-point-database.md)
+* [SysKit Point Database](prerequisites/syskit-point-database.md)
 * [Configure SysKit Point On-Premises](configure-syskit-point-on-premises.md)
 
 If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).

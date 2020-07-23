@@ -22,7 +22,7 @@ Click the appropriate link to learn more about the requirements for each of the 
 When deploying SysKit Point on-premises, you can find all information in the following articles:
 
 * [**Windows Server**](../installation-and-configuration/deploy-on-premises/prerequisites/syskit-point-server.md#prepare-for-installation-and-configuration)
-* [**SQL database**](../installation-and-configuration/deploy-on-premises/prerequisites/syskit-point-database.md#prepare-for-installation-and-configuration)
+* [**SQL Server database**](../installation-and-configuration/deploy-on-premises/prerequisites/syskit-point-database.md#prepare-for-installation-and-configuration)
 
 Click the appropriate link to learn more about the requirements for each of the mentioned resources.
 

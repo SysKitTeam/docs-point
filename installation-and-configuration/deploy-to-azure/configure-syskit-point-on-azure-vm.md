@@ -47,7 +47,7 @@ If the connection is successful, click **Next** to proceed.
 Here you must provide a [Service account](prerequisites/create-azure-vm.md#service-account) that will be used for running the automatic actions performed by SysKit Point, such as:
 
 * **Office 365 auto discovery and data crawl** 
-* **Writing the collected data to a specified SQL database**  
+* **Writing the collected data to a specified Azure SQL database**  
 * **Writing down collected Audit data to the Index location** 
 
 Supported service account formats are as follows:
