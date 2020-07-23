@@ -64,3 +64,17 @@ You can immediately see the e-mail changes if you open the **Preview e-mail scre
 
 ## Settings &gt; Lifecycle Management
 
+Similar to the Permissions Review e-mail customization, there is one for the Lifecycle Management e-mails.
+
+Open the **Customize e-mail** screen for editing.
+
+![Lifecycle Management Settings screen](../.gitbook/assets/customize-e-mail_lifecycle-management-settings-screen.png)
+
+You can see that the three subjects are changeable - subject, logo, and custom message.
+
+![Customize Lifecycle Management E-mail screen](../.gitbook/assets/customize-e-mail_cuatomize-lifecycle-management-e-mail-screen.png)
+
+All the rules are the same as for the Permissions Review e-mail customization regarding the type of date for the subject, custom message, and the logo.
+
+You can see how the real e-mail would look like at the **Preview e-mail** screen. The button is located right next to the Customize e-mail button.
+
