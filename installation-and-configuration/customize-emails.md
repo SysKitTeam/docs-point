@@ -54,7 +54,7 @@ The logo is also adjustable as mentioned earlier in the E-mail Settings section.
 
 **Banner image** shown on the screen is a default SysKit image sent in our e-mails that are dedicated to site owners included in the Permissions Review process. For removing this image click on **Remove image** action below the image.
 
-Regarding the custom message, it can contain plain text or link. A link has to be defined by HTML form **&lt;a href="link URL"&gt;text for the link&lt;/a&gt;** where instead of link URL you have to enter the actual desired URL, and instead of text for the link you have to enter some wanted words.
+Regarding the custom message, it can contain plain text or HTML. A link has to be defined by HTML form **&lt;a href="link URL"&gt;text for the link&lt;/a&gt;** where instead of link URL you have to enter the actual desired URL, and instead of text for the link you have to enter some wanted words.
 
 When you are done with editing the appearance of the Permissions Review e-mail, click the **Confirm button** to save the changes.
 
