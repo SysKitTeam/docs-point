@@ -30,7 +30,7 @@ In E-mail settings, you can define a global logo that will be used in all e-mail
 * **Click Save** to apply changes
 
 {% hint style="info" %}
-**Hint!**   
+**Hint!**  
 **Modifying the logo** in SysKit Point **is a global action**, which means that **editing from any location in the settings** \(E-mail section, Permissions Review, or Lifecycle Management\) **will affect all E-mails**.
 {% endhint %}
 
@@ -63,7 +63,7 @@ Here, you will see the following sections that can be edited:
 
 ![Customize Permissions Review E-mail screen](../.gitbook/assets/customize-e-mail_customize-permissions-review-e-mail-screen.png)
 
-The custom message can contain **plain text** or **HTML**. A **link has to be defined in the HTML form** `<a href="URL">LinkDisplayText</a>`, where `URL` represent a web address to a web resource, and the `LinkDisplayText` is an arbitrary text that will be displayed in the e-mail and, when clicked, lead to the defined URL.
+The custom message can contain **plain text** or **HTML**. A **link has to be defined in the HTML form** `<a href="URL">LinkDisplayText</a>`, where `URL` represents a web address to a web resource, and the `LinkDisplayText` is an arbitrary text that will be displayed in the e-mail and, when clicked, lead to the defined URL.
 
 When done with editing, click the **Confirm button** to save your changes. You can immediately see the e-mail changes by clicking the **Preview e-mail button**.
 
