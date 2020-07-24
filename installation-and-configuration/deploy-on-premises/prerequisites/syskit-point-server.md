@@ -122,8 +122,8 @@ For a complete overview of individual permissions used by SysKit Point, please r
 
 When using such setup, make sure to:
 
-* **Associate the SSL certificate with the custom domain used in the SysKit Point Web App URL**
-* **Add a public DNS A record on your custom domain pointing to Windows Server public IP address** 
+* **Associate the SSL certificate with the FQDN domain used in the SysKit Point Web App URL**
+* **Add a public DNS A record on your custom domain pointing to SysKit Point server's public IP address** 
 
 **When configuring SysKit Point to be used inside your company or in a test environment**, you can use:
 

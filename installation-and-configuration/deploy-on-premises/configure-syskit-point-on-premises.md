@@ -30,10 +30,10 @@ First, you need to choose between the following two options:
 
 ### Database Configuration
 
-Provide MS SQL Server name and SQL Server database name.
+Provide MS SQL Server and database names.
 
 {% hint style="warning" %}
-**How to enter the server name?**
+**How to enter the MS SQL Server name?**
 
 * if you are using the default instance type “servername”, or “FQDN” 
 * if you are using a named instance type “servername\instancename”, or “FQDN\instancenameˇ  
@@ -126,11 +126,6 @@ Use this URL to log in to the SysKit Point web interface by using the [supported
 
 #### SSL Certificates
 
-Choose the certificate type to ensure a secure connection between SysKit Point machine and web interface in the browser:
-
-* **Import SSL certificate** – recommended for the production usage and it needs to be created by the end-user/customer. Learn how to [configure the SSL certificate here.](../../common-tasks/configure-ssl-certificate.md)
-* **Use self-signed certificate** – this is a certificate provided automatically by SysKit Point, and will work for testing purposes. Since this certificate is not signed by a certification authority, you will receive security warnings when you try to open the web application in the browser from other machines \(other than the one where SysKit Point is installed\). 
-
 **If you decide to configure SysKit Point web-app be reachable from the public internet**, **the following is recommended**:
 
 * **Use a Custom Domain mapped to SysKit Point Web App**; for example, `https://point.mycustomdomain.com`
@@ -138,13 +133,23 @@ Choose the certificate type to ensure a secure connection between SysKit Point m
 
 When using such setup, make sure to:
 
-* **Associate the SSL certificate with the custom domain used in the SysKit Point Web App URL**
-* **Add a public DNS A record on your custom domain pointing to Windows Server public IP address** 
+* **Associate the SSL certificate with the FQDN used in the SysKit Point Web App URL**
+* **Add a public DNS A record on your custom domain pointing to SysKit Point server's public IP address** 
 
 **When configuring SysKit Point to be used inside your company or in a test environment**, you can use:
 
 * **FQDN of the Windows Server as SysKit Point Web App URL**; for example, `https://pointserver.contoso.com`
 * **Internally-signed certificate or Self-signed certificate created by SysKit Point**
+
+
+Choose the certificate type to ensure a secure connection between SysKit Point machine and web interface in the browser:
+
+* **Import SSL certificate** – recommended for the production usage and it needs to be created by the end-user/customer
+* **Use self-signed certificate** – this is a certificate provided automatically by SysKit Point, and will work for testing purposes. Since this certificate is not signed by a certification authority, you will receive security warnings when you try to open the web application in the browser from other machines \(other than the one where SysKit Point is installed\). 
+
+{% hint style="info" %}
+Learn how to [configure the SSL certificate by using your internal CA here.](../../common-tasks/configure-ssl-certificate.md)
+{% endhint %}
 
 {% hint style="success" %}
 **When configuring**, SysKit Point will, by default, automatically set up the **Web App URL** and the **Self-signed certificate** so there is no additional configuration needed on your side.
