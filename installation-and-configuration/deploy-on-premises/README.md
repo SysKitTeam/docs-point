@@ -17,10 +17,6 @@ To successfully deploy SysKit Point on-premises, follow these steps:
 2. [**Install SysKit Point**](install-syskit-point-on-premises.md) **on a dedicated server**
 3. [**Configure SysKit Point**](configure-syskit-point-on-premises.md)   
 
-Provided steps result in the on-premises setup shown in the picture below.
-
-![SysKit Point - On-premises setup](https://github.com/SysKitTeam/docs-point/tree/dd9faa8746769d3310e75aae482d2a155d5484ed/.gitbook/assets/deploy-on-premises_architecture-diagram.png)
-
 If you run into any issues when preparing your environment or configuring SysKit Point, please [contact us](https://www.syskit.com/contact-us/).
 
 ## Related Topics
