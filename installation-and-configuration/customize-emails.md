@@ -63,7 +63,7 @@ Here, you will see the following sections that can be edited:
 
 ![Customize Permissions Review E-mail screen](../.gitbook/assets/customize-e-mail_customize-permissions-review-e-mail-screen.png)
 
-The custom message can contain **plain text** or **HTML**. A **link has to be defined in the HTML form** `&lt;a href="URL"&gt;LinkDisplayText&lt;/a&gt;`, where `URL` represent a web address to a web resource, and the `LinkDisplayText` is an arbitrary text that will be displayed in the e-mail and, when clicked, lead to the defined URL.
+The custom message can contain **plain text** or **HTML**. A **link has to be defined in the HTML form** `<a href="URL">LinkDisplayText</a>`, where `URL` represent a web address to a web resource, and the `LinkDisplayText` is an arbitrary text that will be displayed in the e-mail and, when clicked, lead to the defined URL.
 
 When done with editing, click the **Confirm button** to save your changes. You can immediately see the e-mail changes by clicking the **Preview e-mail button**.
 
