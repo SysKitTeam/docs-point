@@ -44,7 +44,7 @@ To remove the logo, click the **Remove Logo** action and save your changes.
 
 {% hint style="info" %}
 **Hint!**  
-Customizing the Permissions review e-mail is possible only if the Automated Permissions Review feature is enabled. For more information on that topic, visit the [following article](https://github.com/SysKitTeam/docs-point/tree/760d1915a5eae5f73e1897f8d65be591aec401f9/installation-and-configuration/enable-permissions-review/README.md).
+Customizing the Permissions review e-mail is possible only if the Automated Permissions Review feature is enabled. For more information on that topic, visit the [following article](enable-permissions-review.md).
 {% endhint %}
 
 To customize the Permissions Review e-mail:
@@ -63,7 +63,7 @@ Here, you will see the following sections that can be edited:
 
 ![Customize Permissions Review E-mail screen](../.gitbook/assets/customize-e-mail_customize-permissions-review-e-mail-screen.png)
 
-The custom message can contain **plain text** or **HTML**. A **link has to be defined in the HTML form** `<a href="URL">LinkDisplayText</a>`, where `URL` represents a web address to a web resource, and the `LinkDisplayText` is an arbitrary text that will be displayed in the e-mail and, when clicked, lead to the defined URL.
+The custom message can contain **plain text** or **HTML**. A **link has to be defined in the HTML form** `<a href="URL">LinkDisplayText</a>` where `URL` represents a web address to a web resource, and the `LinkDisplayText` is an arbitrary text that will be displayed in the e-mail and, when clicked, lead to the defined URL.
 
 When done with editing, click the **Confirm button** to save your changes. You can immediately see the e-mail changes by clicking the **Preview e-mail button**.
 
