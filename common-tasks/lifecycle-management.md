@@ -50,7 +50,7 @@ After the action is executed, the information is displayed in the bottom ribbon 
 
 {% hint style="warning" %}
 **Please note!**   
-You can find more detailed information on all Lifecycle Management actions available in SysKit Point [here](lifecycle-management-actions.md)
+You can find more detailed information on all Lifecycle Management actions available in SysKit Point [here](lifecycle-management-actions.md).
 {% endhint %}
 
 All Lifecycle Management tasks assigned to you can be found on the **My Tasks screen**.
