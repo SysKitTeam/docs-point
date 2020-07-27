@@ -30,7 +30,6 @@
   * [Enable Role-Based Access](installation-and-configuration/enable-role-based-access.md)
   * [Customize Audit Logs Collection](installation-and-configuration/customize-audit-logs-collection.md)
   * [Customize E-mails](installation-and-configuration/customize-emails.md)
-  * [Customize Privacy Settings](installation-and-configuration/customize-privacy-settings.md)
   * [Enable Automated Permissions Review](installation-and-configuration/enable-permissions-review.md)
   * [Enable Lifecycle Management Automation](installation-and-configuration/enable-lifecycle-management.md)
 * [Activation](activation/README.md)
