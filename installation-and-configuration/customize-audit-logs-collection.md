@@ -124,9 +124,8 @@ To select Exchange activities:
 
 ![Exchange log categories](../.gitbook/assets/customize-audit-logs-collection-04-exchange-categories.png)
 
-{% hint style="warning" %}
-**Please note!**   
-It can take up to 30 minutes for Syskit Point to collect Exchange log data.
+{% hint style="success" %}
+**Please note!** It can take up to 30 minutes for Syskit Point to collect Exchange log data.
 {% endhint %}
 
 To view collected Exchange logs, use the **Exchange Logs report** available in the Report Center.
