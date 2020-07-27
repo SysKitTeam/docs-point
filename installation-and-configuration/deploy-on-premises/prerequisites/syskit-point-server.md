@@ -72,7 +72,6 @@ After you choose or provision a Windows Server where to install SysKit Point, en
 * **A service account with Local Administrator privileges** on the Windows Server is required to run SysKit Point Service
 * **Office 365 Global Administrator** credentials and consent are needed when configuring SysKit Point for the first time
 
-
 Additionally, the following is needed for SysKit Point configuration:
 
 * **Domain used in SysKit Point Web App URL**

@@ -71,7 +71,7 @@ The account that has activated your license **will automatically occupy one out 
 
 When located on the **Home Screen**, click the **Settings** **option \(1\)** in the upper right corner. A drop-down appears. Click the **Security** **option \(2\)**.
 
-![SysKit Point - Settings dropdown](../.gitbook/assets/rbs_home_screen_updated.png)
+![SysKit Point - Settings dropdown](../.gitbook/assets/rbs_home_screen_updated%20%281%29.png)
 
 You will be redirected to the **Settings** &gt; **Security** &gt; **Manage Access** page, where you can define who has access to **SysKit Point**.
 

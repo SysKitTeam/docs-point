@@ -73,7 +73,7 @@ The **Permission Review details screen** opens, where you can **perform actions*
 
 ![Permissions Review task screen](../.gitbook/assets/manually-request-permissions-review_7.png)
 
-If a resource has a Permissions Review active, you can access the Permissions Review details screen from the Overview screen by clicking the **Review Now \(1\)** action link, visible when the resource is selected. 
+If a resource has a Permissions Review active, you can access the Permissions Review details screen from the Overview screen by clicking the **Review Now \(1\)** action link, visible when the resource is selected.
 
 ![Permissions Review task screen](../.gitbook/assets/manually-request-permissions-review_10.png)
 

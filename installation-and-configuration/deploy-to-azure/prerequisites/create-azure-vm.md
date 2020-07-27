@@ -62,7 +62,6 @@ After you create an Azure Virtual Machine, ensure the following:
 * **A service account with Local Administrator** on the Azure Virtual Machine is needed to run SysKit Point Service
 * **Office 365 Global Administrator** credentials and consent are needed when configuring SysKit Point for the first time
 
-
 Additionally, the following is needed for SysKit Point configuration:
 
 * **Domain used in SysKit Point Web App URL**

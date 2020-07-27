@@ -1,7 +1,7 @@
 ---
 description: >-
-  This article lists MS SQL Server requirements that are necessary to install and
-  configure SysKit Point on-premises.
+  This article lists MS SQL Server requirements that are necessary to install
+  and configure SysKit Point on-premises.
 ---
 
 # SysKit Point Database

@@ -19,7 +19,7 @@ These changes can be performed in three locations within SysKit Point Settings:
 * **Governance Settings &gt; Lifecycle Management**
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 E-mail customization is only available as a part of the [**Enterprise subscription plan**](https://www.syskit.com/products/point/pricing/).
 {% endhint %}
 
