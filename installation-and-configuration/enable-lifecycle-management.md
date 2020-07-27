@@ -6,7 +6,7 @@ description: >-
 
 # Enable Lifecycle Management Automation
 
-{% hint style="warning" %}
+{% hint style="success" %}
 **Before you continue**, check if the Lifecycle Management Automation feature is included in your [subscription plan](https://www.syskit.com/products/point/pricing/).
 {% endhint %}
 
