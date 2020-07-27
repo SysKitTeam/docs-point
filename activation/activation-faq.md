@@ -64,7 +64,7 @@ Our End User License Agreement is located at the following [link](https://www.sy
 To reset your password, please go to the [following link](https://my.syskit.com/ForgotPassword.aspx).
 
 1. Enter the email address associated with your account  
-2. Click on Reset Password.  
+2. Click Reset Password.  
 3. Instructions on how to reset your password will be emailed to you.  
 4. If for some reason you are still unable to retrieve the new password, please [contact us](https://www.syskit.com/company/contact-us/) for further assistance. 
 

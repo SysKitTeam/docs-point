@@ -12,9 +12,9 @@ At any time, you can log in to SysKit [Customers Portal](https://my.syskit.com/)
 
 To **activate your copy of the SysKit Point**, please proceed with the following steps:
 
-1. **Click on the Settings button** and **select the General Settings option** in the drop-down.
+1. **Click the Settings button** and **select the General Settings option** in the drop-down.
 2. **Navigate to the License page** and **click the Activate link**
-3. **Fill in all the required fields**: name, company, email and the provided license key. 
+3. **Fill in all the required fields**: name, company, email, and the provided license key. 
 4. **Click the Activate button** to start the validation process. It only takes 2-5 seconds to perform the activation and it is a one-time-only procedure. If the validation of your email address is successful, an info dialog will appear thanking you for the activation. 
 
 You can check license information and manage it later if you go to Settings &gt; License page.

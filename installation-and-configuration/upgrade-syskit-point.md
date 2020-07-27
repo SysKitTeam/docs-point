@@ -14,7 +14,7 @@ Since **SysKit Point** is frequently getting new features, we highly recommend h
 
 ![Home screen - New Update Available](../.gitbook/assets/upgrade-syskit-point_new-update-available.png)
 
-The **Read What's New** **link \(1\)** opens a new tab in your browser at the [Product Updates](https://github.com/SysKitTeam/docs-point/tree/2a7b80632219ea7edc9e8d0e9d23a3b34f044978/product-updates/README.md) section in SysKit Point documentation, where you can find out about new features, improvements, and bug fixes by each product version.
+The **Read What's New** **link \(1\)** opens a new tab in your browser at the [Product Updates](../product-updates/) section in SysKit Point documentation, where you can find out about new features, improvements, and bug fixes by each product version.
 
 **If you activated SysKit Point**, clicking the **Download Latest Version \(2\)** link will redirect you to the [Customers Portal](https://my.syskit.com/) page. From there, download the latest SysKit Point version available. In case you are using a **trial version** of SysKit Point, the same link will redirect you to the **SysKit Point web download page**.
 
@@ -29,7 +29,7 @@ After you download the newest version of the application, follow these steps to 
 
 ![Installation wizard - Previous Version Uninstallation message](../.gitbook/assets/upgrade-syskit-point_previous-version-uninstallation.png)
 
-* Follow the wizard through the installation steps. All installation steps are described [here](install-syskit-point.md).
+* Follow the wizard through the installation steps. All installation steps are described [here](deploy-on-premises/install-syskit-point-on-premises.md).
 * After the installation is completed, the **Configuration Wizard** opens automatically.
 * On the **Database** step, select the **Use existing database** option to preserve all data collected by SysKit Point. Click **Next** to proceed.
 * On the **Database Configuration** step, click **Next**. A **warning message** is displayed. Before you continue, **consider backing up the database** to ensure no data is lost in an unlikely event of an upgrade failure. Click **Yes** to continue.
