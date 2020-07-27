@@ -35,13 +35,15 @@ As a part of the automated permissions review process, e-mails are sent to SysKi
 * **SMTP** - Simple Mail Transfer Protocol
 
 {% hint style="warning" %}
-**Please Note!** E-mail address set up in this section will appear in the **Sent from** field of all e-mails sent from SysKit Point.
+**Please Note!**   
+E-mail address set up in this section will appear in the **Sent from** field of all e-mails sent from SysKit Point.
 {% endhint %}
 
 ### Exchange Online Settings
 
 {% hint style="warning" %}
-**Please Note!** Exchange Online has the sending limit of 10000 e-mails per day.
+**Please Note!**   
+Exchange Online has the sending limit of 10000 e-mails per day.
 {% endhint %}
 
 The Exchange Online method enables you to use an existing Exchange account in your Office 365 tenant to send e-mails from SysKit Point. Here, you can:
@@ -99,7 +101,8 @@ In the **Customize section** of the permissions review, you can do the following
 * **preview the permissions review e-mail \(6\)**
 
 {% hint style="warning" %}
-**Please Note!** All dates in the permissions review, including start and due date, are calculated to fall on a workday. That way, SysKit Point ensures that no e-mails are sent during non-working hours.
+**Please Note!**   
+All dates in the permissions review, including start and due date, are calculated to fall on a workday. That way, SysKit Point ensures that no e-mails are sent during non-working hours.
 {% endhint %}
 
 ![Permissions Review - Customize section](../.gitbook/assets/enable-permissions-review_customize-section.png)
@@ -145,7 +148,8 @@ Choose the **Specific items \(1\)** option if you want to manually select specif
 Save the changes to proceed with the selection. Click the **Select Now \(2\)** link. The **Specific Permissions Review** screen opens. Here, you can select sites that you want to include in the permissions review.
 
 {% hint style="warning" %}
-**Please note!** Only selected sites will be included in future permissions reviews. If a new site is created, you need to add it manually to the selection on the Specific Permissions Review screen.
+**Please note!**   
+Only selected sites will be included in future permissions reviews. If a new site is created, you need to add it manually to the selection on the Specific Permissions Review screen.
 {% endhint %}
 
 ![Specific Permissions Review screen](../.gitbook/assets/enable-permissions-review_specific_permissions_review.png)
