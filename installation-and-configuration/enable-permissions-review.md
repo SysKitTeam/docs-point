@@ -108,7 +108,8 @@ All dates in the permissions review, including start and due date, are calculate
 ![Permissions Review - Customize section](../.gitbook/assets/enable-permissions-review_customize-section.png)
 
 {% hint style="info" %}
-**Hint!** SysKit Point Admins can manually send an e-mail reminder to site owners once a day, any time during the permissions review by choosing the **Remind Owners** action on the **Governance** &gt; **Permissions Review details** screen.
+**Hint!**   
+SysKit Point Admins can manually send an e-mail reminder to site owners once a day, any time during the permissions review by choosing the **Remind Owners** action on the **Governance** &gt; **Permissions Review details** screen.
 {% endhint %}
 
 If you want to become familiar with the look of the permissions review e-mail that will be sent to site owners, click the **Preview e-mail button**. Since each site owner will have a different number of sites and site types to review, the **e-mail preview dialog shows placeholders** marked with parenthesis **{ }**.
@@ -128,7 +129,8 @@ In the **Target Selection** section, you can **define which sites to include in 
 To learn more about **active and inactive content**, visit [this article](../common-tasks/inactive-content.md).
 
 {% hint style="info" %}
-**Hint!** You can find resources with the enabled external sharing setting on the Sites overview screen. In the Sharing Settings column, they will have one of the following values: **Anyone**, **New and existing guests**, or **Existing guests only**.
+**Hint!**   
+You can find resources with the enabled external sharing setting on the Sites overview screen. In the Sharing Settings column, they will have one of the following values: **Anyone**, **New and existing guests**, or **Existing guests only**.
 {% endhint %}
 
 Once your changes are saved, you can click the **Preview tile**, which opens the **Permissions Review - Preview** report showing detailed information about resources that will be included in the permissions review. On the report, you can:
