@@ -7,8 +7,7 @@ This article describes what are additional configuration necesary in case of som
 
 ##  Install a compatible browser
 
-We are always trying to give our users the best security and visual experience while using our application and in order to provide that we are not compatible with Internet Explorer and you should install compatible browser to be able to use SysKit Point.
-Here are the browsers we are recommending:
+We are always trying to give our users the best security and visual experience while using our application and in order to provide that we are not compatible with Internet Explorer and you should install a compatible browser to be able to use SysKit Point.Here are the browsers we are recommending:
 
 // TODO staviti linkove na sluzbene stranice za download?
 * **Google Chrome**

@@ -9,9 +9,9 @@ description: >-
 
 ### Enable access to Microsoft pages
 
-Server versions of Windows (Internet explorer) use an enhanced security settings and in order to be able to use SSO authentication it is necesary to reach pages like login.microsoft.com.
+Server versions of Windows (Internet explorer) use an enhanced security settings and in order to be able to use SSO authentication it is necessary to reach pages like login.microsoft.com.
 
-In most cases you will see error like this one:
+In most cases you will see an error like this one:
 
 // TODO: slika ovdje
 
@@ -21,14 +21,13 @@ We recommend configuring IE settings the following way:
 * **Add following Microsoft addresses to trusted sites list: 
   [*.microsoft.com](), [*.live.com](),  [*.microsoftonline.com]()**
 
-In most cases you will be able to identfy this problem if you see this type of error:
+In most cases you will be able to identify this problem if you see this type of error:
 
 // TODO: slika ovdje?
 
 ### Enable scripting
 
-In order for SysKit Point application to be able to authenticate you in Azure AD, it is neccessary to enable scripting in Internet Explorer settings, so the SSO login popup would be shown.
-To enable it, follow the steps:
+In order for the SysKit Point application to be able to authenticate you in Azure AD, it is necessary to enable scripting in Internet Explorer settings, so the SSO login popup would be shown.To enable it, follow the steps:
 * **Select "Tools" -> "Internet Options" -> "Security" tab**
 * **Click the "Custom Level..." button**
 * **Scroll down and change the Active Scripting setting -> select "Enable" option**
