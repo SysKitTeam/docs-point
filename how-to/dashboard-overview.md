@@ -10,7 +10,10 @@ To get a whole picture of your **Office 365 environment**, you must keep an eye 
 
 The Dashboard screen provides you precisely that! 
 
-You can access the **Dashboard** screen from the **Welcome Home** screen or the **Home dropdown menu** on any other screen within the application. 
+You can access the **Dashboard** screen from:
+
+1. the **Welcome Home** screen,
+2. the **Home dropdown menu** on any other screen within the application. 
 
 ![Dashboard tile on Welcome Home screen](../.gitbook/assets/dashboard_dashboard-tile-on-welcome-home-screen.png)
 
