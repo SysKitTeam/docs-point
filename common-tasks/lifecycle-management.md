@@ -49,7 +49,7 @@ After the action is executed, the information is displayed in the bottom ribbon 
 ![Lifecycle Management task &#x2013; Resource deleted](../.gitbook/assets/lifecycle-management_action-completed.png)
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 You can find more detailed information on all Lifecycle Management actions available in SysKit Point [here](lifecycle-management-actions.md).
 {% endhint %}
 
