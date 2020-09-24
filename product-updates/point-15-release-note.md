@@ -6,7 +6,7 @@ description: >-
 
 # SysKit Point 15
 
-**SysKit Point 15 is here**! 
+**SysKit Point 15 is here**!
 
 Before you sail into the vacation, check out what we have prepared for you in the brand-new version of SysKit Point.
 

@@ -9,107 +9,89 @@ date: 19.11.2019.
 
 # Check Access for Specific Office 365 User
 
-In **Office 365** and **SharePoint**, there are a variety of **permission levels** that allow users to **access** the resources they need. They tend to group actions and define what users can and can't see within your environment.
+## User Permissions in your Office 365 environment
 
-If you, as an administrator, try to check where does the user has access to in your environment, you would have to go through every site collection and check for a specific user.
+When you are using **Office 365** for your daily **collaboration** there are numerous occasions where you’ll **grant** or **remove access** to certain items in your environment. **Office 365** gives us multiple ways of doing that, be it via **direct rights** to the file or maybe through **security groups**, **SharePoint groups**, **sharing links** and many more. After a while, you may lose traction of which user has access to the item and how that user exactly got rights to said item. This is where the **SysKit Point User Access report** comes in to save the day.
 
-However, if you use **SysKit Point** it allows you to reach this collected data for a specific user's access in a single report.
+## SysKit Point User Access report
 
-Here's how you can do it.
+### What is the User Access report?
 
-## Generate User Access from Report Center
+**SysKit Point User Access report** is a powerful tool that gives you the ability to **check** all **individual permissions** for **every specific user** in your **Office 365 environment**. It enables you to:
 
-From the **Welcome Home screen**, you can either click the Reports tile or directly to **User Access** report.
+* See what type of **access** does a user have \(**Full Control**, **Edit**, **Contribute**, or **any personal type of access** you may have **added** to your **environment**\).
+* Understand **through which channel** is the **access given** to the user \(**Being a member in a SharePoint** **group**, **Group owner**, **Administrator**, through **security group** or **directly** to said **user**\).
+* Show the **details** from which exact **source** were those rights given to it.
+* **Perform** multiple **actions directly** on the report \(**Remove Access**, **Change Owners**, **Change to Member**, **Edit Permissions**, **Remove from Group**, **Remove Sharing Link**\).
 
-![SysKit Point - Welcome Home screen](../.gitbook/assets/check-access-for-specific-office-365-user_welcome-home-screen.png)
+### When should You use the User Access report
 
-If you've clicked on **Reports** you will be redirected to **Report Center** where you can select **User Access** report.
+There are multiple occasions where using the **User Access report** which will help you manage your **Office 365 environment** successfully.
 
-![Report Center - User Access report](../.gitbook/assets/check-access-for-specific-office-365-user_report-center-user-access-report.png)
+Some of them are:
 
-### Filtering through users on Selection page
+* When a **new user** in your **Office 365 environment** is being **onboarded**, to easily check if they have all the correct permissions to be successful in their work.
+* When a **user** is being **offboarded** to double-check if they still have access to some information they shouldn’t have anymore \(via **Anonymous sharing links**\).
+* To check if some external cooperants have access to something they shouldn’t have.
+* When reorganizing your environment \(**removing users** from certain **security groups** or **changing permissions** for specific users in your environment\).
 
-After clicking on User Access, you are redirected to **Selection** page. There you can see all the **Users** on your **Tenant**.
+## How to use User Access to be a true Permissions champion
 
-![User Access Selection screen](../.gitbook/assets/check-access-for-specific-office-365-user_user-access-selection-screen.png)
+### How to generate the User Access report
 
-You can filter through **Users** by changing the type of **view** you're using. Change the type of view by clicking on **view selector** on the left side of the screen.
+First, you will need to **Sign in** to your **SysKit Point**. When located on the **home screen**, click on the **Reports** tile.
 
-![User Access Selection screen - view picker](../.gitbook/assets/check-access-for-specific-office-365-user_user-access-selection-screen-view-picker.png)
+![SysKit Point Welcome screen](../.gitbook/assets/user_access_docs1.png)
 
-Clicking on **Column Chooser** also enables you at adding additional columns to the grid so you can filter further through those columns. To open a Column Chooser click the icon next to the **Search bar** on the right.
+It will redirect you to the **SysKit Point Report Center** where you can click on **User Access**.
 
-![User Access Selection screen - Column Chooser](../.gitbook/assets/check-access-for-specific-office-365-user_user-access-selection-screen-column-chooser.png)
+![SysKit Point Report Center screen](../.gitbook/assets/user_access_docs2.png)
 
-Last type of filtering is by using the **Search bar** which is located on the right side of the screen. Type into it to find a specific user you want.
+{% hint style="info" %}
+**Hint! -** you can also access the **User Access report** through various other **SysKit Point** **reports**, **User overview screen**, and **User details screens**.
+{% endhint %}
 
-![User Access Selection screen - Search bar](../.gitbook/assets/check-access-for-specific-office-365-user_user-access-selection-screen-search-bar.png)
+Now that you are located on the **User Access Selection** **screen**, choose **one** or **multiple users** \(1\) you wish to generate the report for and click the **Run Report button** \(2\).
 
-### Making a Selection
+![SysKit Point User Access report selection screen](../.gitbook/assets/user_access_docs3.png)
 
-While making a selection you have various possibilities. Clicking on a **checkbox** next to a **Display Name** column will select all the Users on the current view.
+### Things to do with User Access Report
 
-![User Access Selection screen - select all users](../.gitbook/assets/check-access-for-specific-office-365-user_user-access-selection-screen-select-all-users.png)
+Now that you have **successfully** generated the **User Access report** it should look something like this.
 
-By clicking on checkboxes next to a User you can make a **single** or **multiple** User selection.
+![SysKit Point User Access report result](../.gitbook/assets/user_access_docs4.png)
 
-![User Access Selection screen - multiple user selection](../.gitbook/assets/check-access-for-specific-office-365-user_user-access-selection-screen-multiple-user-selection.png)
+As the **User Access report** is a Tree structure report you can see:
 
-If you know names of Users you want to generate a report for and you don't want to scroll through the User list. You can use Search bar to enter each name and click the checkbox next to User's name.
+* **User** for which you have generated the report \(1\).
+* All **types** of **resources** \(**Sites**, **Microsoft Teams**, **Office 365 Groups**, and **OneDrive** accounts\) that user has some kind of **access** to \(2\).
+* What kind of **access** does the user have on a said **resource** \(3\).
+* **How** the access was **Given Through** to said user \(4\).
+* **Details** containing **exact resources** where the user got their **permissions** for \(5\), and if those are **Office 365 groups** or **Microsoft Teams** they are **drillable** to their respective **Detail Screens** in **SysKit Point** \(6\).
 
-After you've made a selection, click **Run Report**, it will generate User Access report for all the users you selected.
+![SysKit Point User Access report structure](../.gitbook/assets/user_access_docs5.png)
 
-![User Access report](../.gitbook/assets/check-access-for-specific-office-365-user_user-access-report.png)
+Let’s say that you have now found out that this user has **Multiple Access** over the same resource via **Direct Access** and **through** the **Security Group**. You want to **remove** the **Direct Access** that the user was given so he only has access through the Security Group. 
 
-## Side Panel options when report is successfully generated
+Here’s how to do it.
 
-### Default options
+**Expand** the resource you have chosen, and **select** the **row** in which it says that the user has **Direct Access** \(1\). On the **side panel**, click the **action** called **Remove Access**\(2\).
 
-When report is generated, if you focus on the right side of the screen you will see the **side panel**.
+![SysKit Point User Access report using Remove Access action](../.gitbook/assets/user_access_docs6.png)
 
-If you haven't selected anything in the report, there will be an option to **Export** your report.
+**Remove Access** action **prompt** will appear where you just click the **Remove Access button**.
 
-You can export the report into **PDF** and **Excel**.
+![SysKit Point Remove Access action prompt dialogue](../.gitbook/assets/user_access_docs7.png)
 
-![User Access report - side panel export options](../.gitbook/assets/check-access-for-specific-office-365-user_user-access-report-side-panel-export-options.png)
+After the action is completed you will receive a **notification bubble** where you can **click** and **see the result**. On selected resource, it is now visible that the user has rights only through the Security Group.
 
-### Options when making a selection
+![SysKit Point User Access result after the action was executed ](../.gitbook/assets/user_access_docs8.png)
 
-If you make a selection on a **Root level** of the report, be it single selection or multi-selection, side panel changes, and action **Remove Access** becomes available.
+By the same principle, you can also **Edit** the given permissions, **Remove** said Users from groups that have access to the resource, **Remove Sharing Links** which might give access to unwanted users.
 
-Also, you get the option to generate other **SysKit Point** reports for selected objects from there.
+**User Access report** helps all **Admins** and content **Owners** to keep their **Office 365 environment** **clean**, **secure**, and **easy to manage** all at one place, the **SysKit Point**.
 
-![User Access report - side panel options on selection](../.gitbook/assets/check-access-for-specific-office-365-user_user-access-report-side-panel-options-on-selection.png)
 
-## Generate User Access from Site Details
 
-You've visited the **site details** page of one Site Collection on your tenant. There you can see the **Overview tile,** which has **Users** and **External Users** metric.
 
-![Site Details page - Overview tile](../.gitbook/assets/check-access-for-specific-office-365-user_site-details-page-overview-tile.png)
-
-If you click the Users metric, you will be redirected to the page which shows you all types of users that have access to that Site Collection.
-
-![Site Details - Users report](../.gitbook/assets/check-access-for-specific-office-365-user_site-details-users-report.png)
-
-Clicking on External Users metric will show you only external users that have access to that Site Collection.
-
-If you select some users on that page, you will get options in **Side panel** to generate a **User Access** report.
-
-Generating a report from there will show what kind of access do users have on that Site collection.
-
-![User Access report generated from Site Details](../.gitbook/assets/check-access-for-specific-office-365-user_user-access-report-geenrated-from-site-details.png)
-
-## Generate User Access from User Overview screen
-
-From **Home Screen,** click the **Users** tile, which redirects you to the Users Overview screen.
-
-On **Users Overview** screen, you see all the Users on your environment.
-
-Select any user, and on the **side panel,** click the **User Access**.
-
-![Users Overview screen - selection](../.gitbook/assets/check-access-for-specific-office-365-user_users-overview-screen-selection.png)
-
-You will get a User Access report generated for the **selected user** on which you can see what kind of access does the user has on all objects of your environment.
-
-![User Access report generated from Users Overview screen](../.gitbook/assets/check-access-for-specific-office-365-user_user-access-report-generated-from-users-overview-screen.png)
 
