@@ -78,7 +78,12 @@ Drill on each of the numbers will guide you to the appropriate view in the **Use
 
 You can supervise external sharing within your environment with this tile. 
 
-Here you can find the total number of external users and ad-hoc \(guest\) users. Drill on the number will open the **Users Overview** screen with filtered external/ad-hoc users. 
+Here you can find the total number of:
+
+* **external users**,
+* **ad-hoc \(guest\)** users. 
+
+Drill on the number will open the **Users Overview** screen with filtered external/ad-hoc users. 
 
 ![External Collaboration tile ](../.gitbook/assets/dashboard_external-collaboration-tile.png)
 
@@ -126,11 +131,15 @@ If you have some **resources that require attention**, they **will be highlighte
 
 ### Storage tile
 
-This tile provides you information about the total, used, and free space in your environment. Especially for Microsoft teams, Office 365 groups, and sites. 
+This tile provides you information about the total, used, and free space in your environment. Especially for: 
 
-SharePoint storage includes all the files, including those in the recycle bin, and archived files. OneDrive storage is not included in the metrics. 
+* Microsoft teams, 
+* Office 365 groups, 
+* and sites. 
 
-View All link will open the Largest Sites view on the Sites Overview screen. 
+**SharePoint storage** includes all the files, including those in the recycle bin, and archived files. OneDrive storage is not included in the metrics. 
+
+**View All** link will open the **Largest Sites view** on the **Sites Overview** screen. 
 
 ![Storage tile ](../.gitbook/assets/dashboard_storage-tile.png)
 
