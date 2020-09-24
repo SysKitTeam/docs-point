@@ -39,6 +39,7 @@
   * [Activation FAQ](activation/activation-faq.md)
 * [How To](how-to/README.md)
   * [SysKit Point Quick Start Guide](how-to/syskit-point-quick-start-guide.md)
+  * [Dashboard Overview](how-to/dashboard-overview.md)
   * [Collect Office 365 Data](how-to/collect-office-365-data.md)
 * [Common Tasks](common-tasks/README.md)
   * [Check Access for Specific Office 365 User](common-tasks/check-access-for-specific-user.md)
