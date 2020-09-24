@@ -40,21 +40,6 @@ To allow inbound traffic on the Azure Virtual Machine, follow these steps:
 
 New Inbound Rule Wizard opens that enables you to create an inbound rule for TCP protocol on port 443.
 
-## Network Security Group
-
-To allow inbound security rule for the Network Security Group associated with the Azure Virtual Machine, follow these steps:
-
-* **Open** [Azure portal](https://portal.azure.com)
-* **Navigate to your Azure Virtual Machine** 
-* **Click Networking** in the Settings section
-* **Click Add inbound port rule button \(1\) to add a rule for TCP protocol with destination port 443 \(2\)**
-
-![](../../.gitbook/assets/azure-vm_networking_01.png)
-
-![Azure - Adding inbound port rule](../../.gitbook/assets/azure-vm_networking_02.png)
-
-After the inbound rule is created, you can continue and test access to the SysKit Point web application.
-
 ## Test Access to SysKit Point
 
 You can test the connection to SysKit Point deployed on the Azure Virtual Machine now that the configuration is finished. To do so, use the following PowerShell cmdlet from any computer connected to the Internet: `Test-NetConnection -Port Point_port -ComputerName PointDNSName`

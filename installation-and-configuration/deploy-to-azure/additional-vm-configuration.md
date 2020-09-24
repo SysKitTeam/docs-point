@@ -2,12 +2,12 @@
 description: >-
 This article describes what are additional configuration necesary in case of some common errors
 ---
-// TODO: da li mijenjati naslov?
-# Configure Azure Virtual Machine
+
+# Additional Azure Virtual Machine Configuration
 
 ##  Install a compatible browser
 
-We are always trying to give our users the best security and visual experience while using our application and in order to provide that we are not compatible with Internet Explorer and you should install a compatible browser to be able to use SysKit Point.Here are the browsers we are recommending:
+We are always trying to give our users the best security and visual experience while using our application and in order to provide that we are not compatible with Internet Explorer and you should install a compatible browser to be able to use SysKit Point. Here are the browsers we are recommending:
 
 // TODO staviti linkove na sluzbene stranice za download?
 * **Google Chrome**
@@ -39,5 +39,24 @@ And you should do the following:
 * **Safari???**
 
 //TODO: Slika koraka za postavljanje?
+
+### Service Account
+
+A Service account is used for running the automatic actions performed by SysKit Point, such as:
+
+* **Office 365 auto discovery and data crawl** 
+* **Writing the collected data to a specified Azure SQL database**  
+* **Writing down collected Audit data to the Index location** 
+
+Supported service account formats are as follows:
+
+* `machine_name\username`
+* `.\username`
+* `domain\username`
+
+**The Service account used to run SysKit Point Service needs to have the following privileges** to be able to [collect Office 365 data](../../../how-to/collect-office-365-data.md) and run other associated jobs:
+
+* **Local Administrator** privileges on the Azure Virtual Machine
+
 
 
