@@ -31,7 +31,16 @@ This summary screen consists of six tiles - Inventory, Users, External Collabora
 
 ### Inventory tile
 
-In Inventory, you can find the information about the **total number of Microsoft teams, Office 365 groups, sites, and OneDrive**. Each of these numbers is drillable, and it will open the Sites Overview screen, that is filtered with the selected resource.
+In Inventory, you can find the information about the total number of:
+
+* **Microsoft teams,** 
+* **Office 365 groups,** 
+* **sites,** 
+* **OneDrive,**
+* **orphaned resources,**
+* **and inactive resources.**
+
+Each of these numbers is drillable, and it will open the Sites Overview screen, that is filtered with the selected resource.
 
 ![Inventory tile](../.gitbook/assets/dashboard_inventory-tile.png)
 
