@@ -6,7 +6,7 @@ description: >-
 
 # Dashboard Overview
 
-To get a whole picture of your Office 365 environment, you must keep an eye on all happening changes.  
+To get a whole picture of your **Office 365 environment**, you must keep an eye on all happening changes.  
 
 The Dashboard screen provides you precisely that! 
 
@@ -22,7 +22,7 @@ Here is an example of how it looks.
 
 This summary screen consists of six tiles - Inventory, Users, External Collaboration, Storage, Permissions Review, and Lifecycle Management.
 
-{% hint style="info" %}
+{% hint style="warning" %}
 **Please note!** Only **SysKit Point Admin** role can see the Dashboard.
 {% endhint %}
 
@@ -38,5 +38,15 @@ If you **hover over a bar** which represents a newly added resource, a **tooltip
 
 ![Inventory tile - bar tooltip](../.gitbook/assets/dashboard_inventory-tile-bar-tooltip.png)
 
+To see all resources more detailed, click on **View All** link, and the **Sites Overview** screen will open. 
 
+In the bottom part of the Inventory tile, colored in red, you will find inactive and orphaned resources number if they are present in your environment. 
+
+By clicking on the number of the inactive resource, it will open the **Inactive Content** report. For more information, click [**here**](../common-tasks/inactive-content.md#inactive-content-report). 
+
+{% hint style="warning" %}
+**Please note!** The number of inactive resources **will be visible 10 days after the first installation of SysKit Point.** 
+{% endhint %}
+
+Similarly, clicking on the number of orphaned resources will open the **Orphaned Resources** report in the **Report Center**. 
 
