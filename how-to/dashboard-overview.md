@@ -7,25 +7,26 @@ description: >-
 # Dashboard Overview
 
 The Dashboard screen provides you with the information needed to see the whole picture of your **Office 365 environment**.   
+
 You can use the Dashboard to:
 * **see what was happening in your Office 365 environment** in the last 30 days at a glance  
 * **find summary data** on your resources, internal and external users, sharing links, and used storage - all numbers are drillable, taking you to the related reports, which will show more details 
 * **detect potential issues**, for example, if your environment has inactive or orphaned resources
 
 {% hint style="warning" %}
-**Please note!** Only **SysKit Point Admin** role can see the Dashboard.
+**Please note!** Only users assigned to the **SysKit Point Admin** role can see the Dashboard.
 {% endhint %}
 
 You can access the **Dashboard** screen from:
 
-* **the **Welcome Home** screen
-* **the **Home dropdown menu** on any other screen within the application 
+* the **Welcome Home** screen
+* the **Home dropdown menu** on any other screen within the application 
 
 ![Dashboard tile on the Welcome Home screen](../.gitbook/assets/dashboard_dashboard-tile-on-welcome-home-screen.png)
 
 ![Dashboard tile on the Home dropdown menu](../.gitbook/assets/dashboard_dashboard-tile-on-home-dropdown-menu.png)
 
-The Dashboard screen consists of six tiles:
+The Dashboard screen shows six tiles:
 * **Inventory**
 * **Users**
 * **External Collaboration**
