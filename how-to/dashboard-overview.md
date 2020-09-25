@@ -74,7 +74,7 @@ For more information about the Inactive Content report, click [here](../common-t
 Similarly, **clicking the number** of orphaned resources will open the **Orphaned Resources** report in the **Report Center**. 
 
 ### Users
-This tile contains following information:
+This tile contains the following information:
  * **the total number of users** in your environment
  * **the number of newly added users** in the past 30 days
  * **the number of external users**, **administrators**, **inactive users**, and **users with blocked sign-in**
@@ -159,7 +159,7 @@ Information about used storage is also given for each resource type separately.
 ![Storage tile ](../.gitbook/assets/dashboard_storage-tile.png)
 
 {% hint style="success" %}
-**Learn more!** Used storage number is calculated for all the files, including those in the recycle bin, as well as archived files. OneDrive storage is not included in the metrics.
+**Learn more!** The used storage number is calculated for all the files, including those in the recycle bin, as well as archived files. OneDrive storage is not included in the metrics.
 {% endhint %}
 
 {% hint style="warning" %}
