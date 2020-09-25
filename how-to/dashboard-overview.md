@@ -109,29 +109,31 @@ The last information on this tile is the number of **Sites With Anonymous Sharin
 
 ### Permissions Review and Lifecycle Management
 
-The **Permissions Review** and **Lifecycle Management** tiles show the progress of current automated tasks if the automation is configured. 
+The **Permissions Review** and **Lifecycle Management** tiles show the progress of current automated tasks. 
 
 {% hint style="warning" %}
 **Please note!** Permissions Review tile and Lifecycle Management tile are only visible within the **Enterprise subscription plan**. Click [here ](https://www.syskit.com/products/point/pricing/)for more information. 
 {% endhint %}
 
-When the automation is not configured, they will look like shown in the picture below. 
+If the Permissions Review and Lifecycle Management automation is not configured, the tiles will help you navigate to the settings screen by clicking the **Configure Now** button. 
+
+{% hint style="success" %}
+**Learn more!** Use the following articles to learn how to enable and configure automation in SysKit Point: [Enable Automated Permissions Review](../installation-and-configuration/enable-permissions-review.md) [Enable Lifecycle Management Automation](../installation-and-configuration/enable-lifecycle-management.md)
+{% endhint %}
 
 ![Permissions Review tile and Lifecycle Management tile &#x2013; not configured ](../.gitbook/assets/dashboard_permissions-review-tile-and-lifecycle-management-tile-not-configured.png)
 
-Click on the link **Configure Now** to set up Permissions Review and Lifecycle Management features. The settings screen will open. 
+When the Permissions Review is configured, the tile shows information about the upcoming Review, previous Review, or the current active Review, depending on the current state of the Permissions Review automation.
 
-When the Permissions review is configured, it will give you the information about the upcoming review, the previous review, and the current active review, depending on the available information. 
+Below, you can see the information for the active Permissions Review. The **View All** link guides you to the **Governance screen**, where additional information is provided about the active Permissions Review. 
 
-Below, you can see the information for the active Permissions Review. The **View All** link guides you to the **Governance screen**, where additional information is provided about the active review. 
+![Permissions Review tile with active Permissions Review information ](../.gitbook/assets/dashboard_permissions-review-tile-with-active-review.png)
 
-![Permissions Review tile with active review information ](../.gitbook/assets/dashboard_permissions-review-tile-with-active-review.png)
+When the **Lifecycle Management feature** is configured, the tile gives information whether it is in an active state, or just turned on but inactive. 
 
-When the **Lifecycle Management feature** is configured, the tile will give you information if it is in the active state, or just turned on but not active. 
+If inactive, the numbers in the tile will be zero. 
 
-If not active, the numbers in the tile will be zero. 
-
-In the picture below, you can see the feature in the active state. 
+In the picture below, you can see the tile when Lifecycle Management is in the active state. 
 
 ![Lifecycle Management tile in active state ](../.gitbook/assets/dashboard_lifecycle-management-tile-in-active-state.png)
 
@@ -141,7 +143,7 @@ The **chart shows information about performed actions in the last 30 days**.
 
 Every number is drillable and opens the dedicated screen in the Governance section. 
 
-If you have some **resources that require attention**, they **will be highlighted in red** on the bottom part of the tile. Clicking the link opens the **Awaiting Response** screen, where you can decide how to resolve tasks for these resources. 
+**Resources that require attention are highlighted with red color** and displayed on the bottom of the tile. Clicking the link opens the **Awaiting Response** screen, where you can decide how to resolve tasks for these resources. 
 
 ### Storage
 
@@ -156,7 +158,7 @@ Information about used storage is also given for each resource type separately.
 
 ![Storage tile ](../.gitbook/assets/dashboard_storage-tile.png)
 
-{% hint style="warning" %}
+{% hint style="success" %}
 **Learn more!** Used storage number is calculated for all the files, including those in the recycle bin, as well as archived files. OneDrive storage is not included in the metrics.
 {% endhint %}
 
