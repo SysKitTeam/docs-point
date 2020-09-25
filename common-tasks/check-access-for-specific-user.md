@@ -31,7 +31,7 @@ There are multiple occasions where using the **User Access report** will help yo
 Some of them are:
 
 * When a **new user** in your **Office 365 environment** is being **onboarded**, to quickly check if they have all the correct permissions to succeed in their work.
-* When a **user** is being **offboarded** to double-check if they still have access to some information they shouldn’t have \(via **Anonymous sharing links**\).
+* When a **user** is being **offboarded** to double-check if they still have access to some information, they shouldn’t have \(via **Anonymous sharing links**\).
 * To check if some external collaborators have access to something they shouldn’t have.
 * When reorganizing your environment \(**removing users** from certain **security groups** or **changing permissions** for specific users in your environment\).
 
