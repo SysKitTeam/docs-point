@@ -6,15 +6,15 @@ description: >-
 
 # Dashboard Overview
 
-The Dashboard screen provides you with the information needed to see the whole picture of your **Office 365 environment**.   
+The **Dashboard** screen provides you with the information needed to see the whole picture of your **Office 365 environment**.   
 
-You can use the Dashboard to:
+You can use Dashboard to:
 * **see what was happening in your Office 365 environment** in the last 30 days at a glance  
 * **find summary data** on your resources, internal and external users, sharing links, and used storage - all numbers are drillable, taking you to the related reports, which will show more details 
 * **detect potential issues**, for example, if your environment has inactive or orphaned resources
 
 {% hint style="warning" %}
-**Please note!** Only users assigned to the **SysKit Point Admin** role can see the Dashboard.
+**Please note!** Only users assigned to the **SysKit Point Admin** role can see the Dashboard screen.
 {% endhint %}
 
 You can access the **Dashboard** screen from:
@@ -61,9 +61,9 @@ If you **hover over a bar**, which represents a newly added resource, a **toolti
 
 To see more details about all resources, click the **View All** link, which opens the **Sites Overview** screen. 
 
-In the bottom part of the Inventory tile, colored in red, you will find inactive and orphaned resources number if they are present in your environment. 
+On the bottom, colored in red, you will find the number of **inactive** and **orphaned resources** if they are present in your environment. 
 
-By clicking the number of the inactive resource, the **Inactive Content** report opens. 
+By **clicking the number** of the inactive resource, the **Inactive Content** report opens. 
 
 For more information about the Inactive Content report, click [here](../common-tasks/inactive-content.md#inactive-content-report). 
 
@@ -71,40 +71,43 @@ For more information about the Inactive Content report, click [here](../common-t
 **Please note!** The number of inactive resources **will be visible 10 days after the first installation of SysKit Point.** 
 {% endhint %}
 
-Similarly, clicking on the number of orphaned resources will open the **Orphaned Resources** report in the **Report Center**. 
+Similarly, **clicking the number** of orphaned resources will open the **Orphaned Resources** report in the **Report Center**. 
 
-### Users tile
+### Users
+This tile contains following information:
+ * **the total number of users** in your environment
+ * **the number of newly added users** in the past 30 days
+ * **the number of external users**, **administrators**, **inactive users**, and **users with blocked sign-in**
+ * **the View All** link
 
-This tile contains information about the total number of users in the environment and newly added in the past 30 days. 
-
-To access detailed information about the users, click on the total number of users or the **View All** link. 
+To access detailed information about all users, click on the total number of users or the **View All** link, which opens the **Users Overview** screen. 
 
 ![Users tile](../.gitbook/assets/dashboard_users-tile.png)
 
-In the bottom part of the tile, additional information is provided about the number of external users, administrators, inactive users, and users who have blocked sign-in in Office 365. 
+Each of the numbers drills to the appropriate view in the **Users Overview** screen, where you can perform further actions on each user by selecting them and choosing an action from the side panel. 
 
-Drill on each of the numbers will guide you to the appropriate view in the **Users Overview** screen. You can perform further actions with each user by selecting them and choosing action in the side panel. 
-
-### External Collaboration tile
+### External Collaboration
 
 You can supervise external sharing within your environment with this tile. 
 
 Here you can find the total number of:
 
-* **external users**,
-* **ad-hoc \(guest\)** users. 
-
-Drill on the number will open the **Users Overview** screen with filtered external/ad-hoc users. 
+* **External users** 
+* **Sites with External Sharing**
+* **Anonymous Links**
+* **Sites with Anonymous Sharing**  
 
 ![External Collaboration tile ](../.gitbook/assets/dashboard_external-collaboration-tile.png)
 
-Drill on **Sites With External Sharing** number opens a view with the name **External Sharing** in the **Sites Overview** screen. There will be Microsoft teams, Office 365 groups, sites, and OneDrive that have **external sharing settings different from "Only people in your organization"**. 
+Clicking the External users opens the **Users Overview** screen with filtered external/ad-hoc users. 
 
-Clicking on the **Anonymous Links** number will open the **Sharing Links** report in Report Center. Link types shown on the report are **Anyone with access to the shared link can edit/view**. You can remove specific links with action in the side panel. 
+Drill on the **Sites With External Sharing** number opens the **External Sharing** view on the **Sites Overview** screen. Here you can find Microsoft teams, Office 365 groups, sites, and OneDrive with **external sharing setting set to any other value than 'Only people in your organization'**. 
 
-The last information on this tile is the number of **Sites With Anonymous Sharing**. The drill will show you the **Anonymous Sharing** **view** in the Sites Overview screen. There will be resources that have external sharing settings set as **"Anyone"**. 
+Clicking the **Anonymous Links** number opens the **Sharing Links** report in Report Center. Here, only links shared to anyone are displayed. You can remove specific links with the help of actions available in the side panel. 
 
-### Permissions Review tile and Lifecycle Management tile
+The last information on this tile is the number of **Sites With Anonymous Sharing**. The drill opens the **Anonymous Sharing view** on the Sites Overview screen. Here, only resources with the external sharing settings set to **'Anyone'** are displayed. 
+
+### Permissions Review and Lifecycle Management
 
 The **Permissions Review** and **Lifecycle Management** tiles show the progress of current automated tasks if the automation is configured. 
 
@@ -140,21 +143,24 @@ Every number is drillable and opens the dedicated screen in the Governance secti
 
 If you have some **resources that require attention**, they **will be highlighted in red** on the bottom part of the tile. Clicking the link opens the **Awaiting Response** screen, where you can decide how to resolve tasks for these resources. 
 
-### Storage tile
+### Storage
 
-This tile provides you with information about the total, used, and free space in your environment. Especially for: 
+This tile provides the following storage metrics:
+* **total storage**
+* **used storage**
+* **free storage**
 
-* Microsoft teams, 
-* Office 365 groups, 
-* and sites. 
-
-**SharePoint storage** includes all the files, including those in the recycle bin, and archived files. OneDrive storage is not included in the metrics. 
+Information about used storage is also given for each resource type separately.
 
 **View All** link will open the **Largest Sites view** on the **Sites Overview** screen. 
 
 ![Storage tile ](../.gitbook/assets/dashboard_storage-tile.png)
 
 {% hint style="warning" %}
-**Please note!** SysKit Point data regarding storage can differ from the data provided by the **SharePoint admin center**.
+**Learn more!** Used storage number is calculated for all the files, including those in the recycle bin, as well as archived files. OneDrive storage is not included in the metrics.
+{% endhint %}
+
+{% hint style="warning" %}
+**Please note!** Storage data displayed on the Dashboard can differ from the data provided by the **SharePoint admin center** since it doesn't include changes made within the last 24-48 hours, as described [here](https://docs.microsoft.com/en-us/sharepoint/manage-site-collection-storage-limits).  
 {% endhint %}
 
