@@ -123,7 +123,7 @@ If the Permissions Review and Lifecycle Management automation is not configured,
 
 ![Permissions Review tile and Lifecycle Management tile &#x2013; not configured ](../.gitbook/assets/dashboard_permissions-review-tile-and-lifecycle-management-tile-not-configured.png)
 
-When the Permissions Review is configured, the tile shows information about the upcoming Review, previous Review, or the current active Review, depending on the current state of the Permissions Review automation.
+When the Permissions Review is configured, the tile shows information about the upcoming Review, previous Review, or the current active Review, depending on the Permissions Review's current state.
 
 Below, you can see the information for the active Permissions Review. The **View All** link guides you to the **Governance screen**, where additional information is provided about the active Permissions Review. 
 
