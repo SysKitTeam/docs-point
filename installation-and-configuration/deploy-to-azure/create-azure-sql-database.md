@@ -6,7 +6,7 @@ description: >-
 
 # Create Azure SQL Database
 
-SysKit Point requires an **Azure SQL database** for storing data collected from Office 365. In this article, you can find recommendations to follow when creating this resource.
+Your **Azure team** needs to create an **Azure SQL database** for storing data which SysKit Point collectes from Office 365. In this article, you can find recommendations to follow when creating this resource.
 
 {% hint style="success" %}
 Before continuing, make sure to [create and configure an Azure Virtual Machine](create-azure-vm.md) where SysKit Point will be installed.
@@ -17,43 +17,43 @@ Before continuing, make sure to [create and configure an Azure Virtual Machine](
 
 When creating the database, ensure the following:
 
-* [**resource recommendations are met**](create-azure-sql-database.md#resource-recommendations-per-subscription-plan)
-* **a dedicated Azure SQL database is created for SysKit Point**
-* **Azure Virtual Machine**, where SysKit Point will be installed, **has access to Azure SQL database**
+* Create a dedicated **Azure SQL database** for SysKit Point and be sure to meet the [**minimum Azure SQL Database requirements**](hardware-software-requirements.md#azure-sql-database-requirements)
+  * This dabase can be empty, Point will create the necessary database tables during it's setup
+* You need to configure your **Azure SQL database to allow access to your Azure Virtual Machine**, where SysKit Point will be installed 
+  * Make sure you already completed the previous installation step [**Create an Azure Virtual Machine**](create-azure-vm.md), and obtained a **Static IP** for that VM
+
 
 ### Allowing Access to Azure SQL Database
 
-After the Azure SQL database is created, you need to allow Azure Virtual Machine, where SysKit Point will be installed, to access it. To do so, you must create a new IP firewall rule, as described in the steps below:
+After the Azure SQL database is created, you need to allow your Azure Virtual Machine, where SysKit Point will be installed, to access it. To do so, you must **create** a new **IP firewall rule**, as described in the steps below:
 
-* **Open** [Azure portal](https://portal.azure.com)
-* **Navigate to your Azure SQL server**
+* Open [Azure portal](https://portal.azure.com)
+* **Navigate** to your **Azure SQL server**
 * **Select** the **Firewalls and virtual networks \(1\)** option in the **Security** section
 * **Define a Rule name \(2\)**
 * **Input the IP Address** of the Azure Virtual Machine where SysKit Point will be installed into the **Start IP \(3\)** and **End IP \(4\)** fields
 * **Save** changes
 
-![Azure SQL - Adding a firewall rule](../../../.gitbook/assets/create-azure-sql-database_allow-access.png)
+![Azure SQL - Adding a firewall rule](../../.gitbook/assets/create-azure-sql-database_allow-access.png)
 
 {% hint style="info" %}
 **Hint!**  
 There are a couple of options when it comes to allowing access to the Azure SQL database. [You can find them all here](https://docs.microsoft.com/en-us/azure/azure-sql/database/network-access-controls-overview).
 {% endhint %}
 
-### Credentials
+### Output
 
 For SysKit Point configuration, prepare the following information:
 
 * **Azure SQL server**
 * **Azure SQL database name**
-* **Azure SQL server admin login**
-* **Azure SQL server admin password**
+* **SQL account** - needs to have the db owner permissions on the database
 
 ## Related Topics
 
+* [Install SysKit Point on Azure Virtual Machine](overview.md) 
+* [Hardware and Software Requirements](hardware-software-requirements.md)
 * [Create Azure Virtual Machine](create-azure-vm.md)
-* [Install SysKit Point on Azure VM](../install-syskit-point-on-azure-vm.md) 
-* [Configure SysKit Point on Azure VM](../configure-syskit-point-on-azure-vm.md)
-* [Allow Access to SysKit Point Web-App](../allow-access-to-syskit-point-web-app.md)
 
 If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).
 
