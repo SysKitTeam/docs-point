@@ -20,9 +20,9 @@ The following conditions needs to be met before you can start SysKit Point insta
     * You need to [**install a compatibile browser**](additional-vm-configuration.md) so SysKit Point can be accessed localy from the VM
 * **Azure SQL database** where SysKit Point will store its data 
     * Ask your **Azure team** to [**create a dedicated Azure SQL database**](create-azure-sql-database.md) in accordance with the [**minimum requirements**](hardware-software-requirements.md#azure-sql-database-requirements) and provide you with a **SQL login** account which has **db owner** permissions  
-* **Decide which URL are you going to use for SysKit Point web application** and prepare an **SSL certificate** required to make a secure https conenctions from the browser
-  * During trial the application can generate a self-signed certificate 
-  * For production use we recommend you obtain a trusted certificate
+* **Decide which URL are you going to use for SysKit Point web application** and prepare an **SSL certificate** required to make a **secure https conenctions** from the browser
+  * Obtain a SSL certificate from a **publicly trusted certificate provider**, check instructions at article [**deploy SysKit Point to a production environment**](ssl-certificate.md#deploy-syskit-point-to-a-production-environment)
+  * For testing environemnts the application will generate a self-signed certificate, check instructions at article [**deploy SysKit Point to a test environment**](ssl-certificate.md#deploy-syskit-point-to-a-test-environment)
 * [**Global Administrator**]( global-admin-consent.md) will be asked to login and provide application consent during the setup
   * Please note: Global admin account is only necessary during the initial configuration, later the application can be used with other non-privileged accounts
 
@@ -40,4 +40,5 @@ Once you went through all the requirements above and prepared all the necessary 
 ## First Steps After Installation SysKit Point
 * Request access to Microsoft Teams Protected API
 * Setup initial RBS options
+* Setup Audit logs data retention
 

@@ -4,11 +4,11 @@ description: >-
 ---
 
 # Determine URL for SysKit Point web application
-Decide which URL are you going to use for SysKit Point web application and prepare an SSL certificate required to make a secure https conenctions from the browser
+Decide which **URL are you going to use for SysKit Point web application** and prepare an SSL certificate required to make a secure https conenctions from the browser. This is the URL your users will use to access SysKit Point through their browsers.
 
-You have different options available wether depending on which environment you are deploying SysKit Point:
-* Production environment where SysKit Point is connected to your **Production** tenant
-* Test environemnt where SysKit Point is connected to your **QA/Test/DEV** tenant
+You have different options available depending wether on which environment you are deploying SysKit Point:
+* **Production environment** where SysKit Point is connected to your **Production** tenant
+* **Test environment** where SysKit Point is connected to your **QA/Test/DEV** tenant
 
 
 ## Deploy SysKit Point to a production environment
@@ -29,18 +29,20 @@ To use SysKit Point with a custom domain perform the following steps:
 
 ### Use an Azure default domain for SysKit Point
 To use SysKit Point with an Azure default domain perform the following steps:
-* **Add a public DNS A record** on your **custom domain** pointing to **Point Virtual Machine's public IP address** 
-  * VM **DNS name** is obtained during the previous configuration step [**Configure a DNS Name**](create-azure-vm.md#configure-a-dns-name) during the Virtual Machine setup
+* Check what is the full **DNS name** of the Azure Virtual Machine the **Azure team** provided you. Visible in the **RDP Connection file** or inside the [**Azure portal**](https://portal.azure.com). 
+  * VM **DNS name** is configured during the previous configuration step [**Configure a DNS Name**](create-azure-vm.md#configure-a-dns-name) during the Virtual Machine setup
+  * It should look like `https://AzureVmName.eastus.cloudapp.azure.com`
 
 * Obtain a **SSL certificate** from a **publicly trusted SSL certificate provider**
-  * Associate the SSL certificate with the custom domain used in the SysKit Point web application URL
+  * Associate the SSL certificate with the full DNS name of the Azure Virtual Machine used for the SysKit Point web application URL
 
 ## Deploy SysKit Point to a test environment
 
-To use SysKit Point on a **test environment** perform the following steps:
+To simplify SysKit Point installation on a **test environment** we recommend you use an **Azure default domain** `cloudapp.azure.com` for the SysKit Point web application URL. In this case it is **not required** to obtain a certificate from a publicly trusted SSL certificate provider and there is **no additional configuration on your DNS server**.
 
-* **Azure default domain** `cloudapp.azure.com` **in SysKit Point Web App URL**; for example, `https://azurevmname.eastus.cloudapp.azure.com`
-  * VM **DNS name** is obtained during the previous configuration step [**Configure a DNS Name**](create-azure-vm.md#configure-a-dns-name) during the Virtual Machine setup
+* Check what is the full **DNS name** of the Azure Virtual Machine the **Azure team** provided you. Visible in the **RDP Connection file** or inside the [**Azure portal**](https://portal.azure.com). 
+  * VM **DNS name** is configured during the previous configuration step [**Configure a DNS Name**](create-azure-vm.md#configure-a-dns-name) during the Virtual Machine setup
+  * It should look like `https://AzureVmName.eastus.cloudapp.azure.com`
 * **Self-signed certificate will be created by SysKit Point**
 
 {% hint style="warning" %}
@@ -48,7 +50,7 @@ To use SysKit Point on a **test environment** perform the following steps:
 **Self-signed certificates are by default not publicly trusted**; therefore, your connection to Point application may be marked as not private in the browser when accessing SysKit Point URL.
 {% endhint %}
 
-### Output
+## Output
 
 For SysKit Point configuration, prepare the following information:
 
