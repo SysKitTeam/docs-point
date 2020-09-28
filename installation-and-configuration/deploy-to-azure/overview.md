@@ -33,10 +33,12 @@ If you run into any issues when preparing your environment, please [contact us](
 
 
 ## SysKit Point Installation & Configuration
-Once you went through all the requirements above and prepared all the necessary  resources you are ready to install SyKit Point.
-* Download installation package
-* Install SysKit Point
-* Run Configuration Wizard
+Once you went through all the requirements above and prepared all the necessary  resources you are ready to install SyKit Point. Use RDP to connect to the Virtual Machine where SysKit Point will be installed and perform the following:
+* Download the SysKit Point installation package to the virtual machine
+  * **New customers** will receive the download link from our support team
+  * **Existing customers** can find the link on our [**Customers portal**](https://my.syskit.com/)
+* [**Install SysKit Point**](install-syskit-point-on-azure-vm#install-syskit-point) on the virtual machine
+* [**Run the SysKit Point Configuration Wizard**](install-syskit-point-on-azure-vm#configure-syskit-point) to perform the initial setup
 
 ## First Steps After Installation SysKit Point
 * Request access to Microsoft Teams Protected API

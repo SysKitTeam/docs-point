@@ -2,7 +2,7 @@
 description: This article guides you through the SysKit Point installation.
 ---
 
-# Install SysKit Point on Azure Virtual Machine
+# Install & Configure SysKit Point on Azure Virtual Machine
 
 **SysKit Point** is a **web application** that can be installed on an Azure Virtual Machine in your Azure cloud environment.
 
@@ -10,7 +10,7 @@ description: This article guides you through the SysKit Point installation.
 Before continuing, please make sure that all [prerequisites](prerequisites/) are met.
 {% endhint %}
 
-## Installation Steps
+## Install SysKit Point
 
 {% hint style="warning" %}
 **Please note!**  
@@ -24,15 +24,11 @@ To install SysKit Point, make sure that the **RDP connection \(TCP port 3389\)**
 5. By default, the installation folder is set to **C:\Program Files\SysKit\Point**. You can modify it by clicking the **Change** button. Once selected, click **Next &gt;** to proceed. 
 6. By default, the **Run Configuration Wizard now** option is selected. **SysKit Point Configuration Wizard** will, therefore, automatically start when you click the **Finish** button. Alternatively, you can always start the Configuration Wizard manually by running it from the installation folder. The default location is: **C:\ProgramFiles\SysKit\Point\Host\Configuration.exe**.
 
-To continue with SysKit Point configuration, proceed to the [configuration article](configure-syskit-point-on-azure-vm.md).
 
-# Configure SysKit Point on Azure Virtual Machine
+# Configure SysKit Point
 
-{% hint style="success" %}
-Before continuing, please make sure that all [prerequisites](prerequisites/) are met.
-{% endhint %}
 
-By default, after [SysKit Point is installed on Azure Virtual Machine](install-syskit-point-on-azure-vm.md), **SysKit Point Configuration Wizard** starts automatically. Alternatively, you can start it manually at any time by running it from the installation folder. The default location is: **C:\ProgramFiles\SysKit\Point\Host\Configuration.exe**.
+By default, after SysKit Point is installed the **SysKit Point Configuration Wizard** starts automatically. Alternatively, you can start it manually at any time by running it from the installation folder. The default location is: **C:\ProgramFiles\SysKit\Point\Host\Configuration.exe**.
 
 Below, each step of the Configuration Wizard is described in greater detail.
 
@@ -66,11 +62,7 @@ If the connection is successful, click **Next** to proceed.
 
 ## Service Settings Step
 
-Here you must provide a [Service account](prerequisites/create-azure-vm.md#service-account) that will be used for running the automatic actions performed by SysKit Point, such as:
-
-* **Office 365 auto discovery and data crawl** 
-* **Writing the collected data to a specified Azure SQL database**  
-* **Writing down collected Audit data to the Index location** 
+Here you must provide a [Service account](additional-vm-configuration.md#service-account) that will be used for running SysKit Point windows service.
 
 Supported service account formats are as follows:
 
@@ -78,7 +70,7 @@ Supported service account formats are as follows:
 * `.\username`
 * `domain\username`
 
-After you've entered the credentials click the **Validate Account** button. If the account has all [proper privileges](prerequisites/create-azure-vm.md#service-account), a Success window appears with the message:
+After you've entered the credentials click the **Validate Account** button. If the account has all [proper privileges](additional-vm-configuration.md#service-account), a Success window appears with the message:
 
 `This account can be used to run SysKit Point!`
 
@@ -86,18 +78,7 @@ Click **OK** to close the Success window, and **Next &gt;** to continue to the n
 
 ### Connect to Office 365
 
-Click the **Connect to your tenant** link to connect SysKit Point to your Office 365 tenant. **You need to provide the Office 365 global admin account.** This account will be used for collecting all the data from your environment and for the continuous autodiscovery of new resources.
-
-{% hint style="warning" %}
-**Please note!**  
-Office 365 Global Admin credentials are only needed when configuring SysKit Point for the first time.
-{% endhint %}
-
-**Please note that this can be any global admin account**; it doesn’t have to be the account you will use in the future to log in to the application.
-
-{% hint style="success" %}
-**SysKit Point** uses modern authentication methods and **does not store any passwords or accounts** you present here.
-{% endhint %}
+Click the **Connect to your tenant** link to connect SysKit Point to your Office 365 tenant. **You need to provide the Office 365 global admin account.** This account will be **used only for the initial setup** and Point **does not store any passwords** you present here.
 
 When you first connect to your tenant, SysKit Point will request permissions needed to collect data from your Office 365 environment.
 
@@ -145,25 +126,11 @@ When the configuration is completed, if everything was configured correctly the 
 
 ![SysKit Point Configuration - Finish](../../.gitbook/assets/7%20%281%29.png)
 
-After the configuration is complete, you can continue with the next, and final step of deployment - [allowing access to SysKit Point](allow-access-to-syskit-point-web-app.md).
-
 ## Related Topics
 
-* [Create Azure Virtual Machine](prerequisites/create-azure-vm.md)
-* [Create Azure SQL Database](prerequisites/create-azure-sql-database.md)
-* [Install SysKit Point on Azure VM](install-syskit-point-on-azure-vm.md) 
-* [Allow Access to SysKit Point Web-App](allow-access-to-syskit-point-web-app.md)
+* [Install SysKit Point on Azure Virtual Machine](overview.md) 
+* [Hardware and Software Requirements](hardware-software-requirements.md)
+* [Create Azure Virtual Machine](create-azure-vm.md)
+* [Create Azure SQL Database](create-azure-sql-database.md)
 
 If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).
-
-
-
-## Related Topics
-
-* [Create Azure Virtual Machine](prerequisites/create-azure-vm.md)
-* [Create Azure SQL Database](prerequisites/create-azure-sql-database.md)
-* [Configure SysKit Point on Azure VM](configure-syskit-point-on-azure-vm.md)
-* [Allow Access to SysKit Point Web-App](allow-access-to-syskit-point-web-app.md)
-
-If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).
-
