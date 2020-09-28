@@ -12,8 +12,8 @@ Depending on where you are deploying SysKit Point - **Cloud** or **on-premises**
 
 When deploying SysKit Point to Cloud, use the following articles to prepare your Azure environment for installation and configuration of SysKit Point:
 
-* [**Azure Virtual Machine**](../installation-and-configuration/deploy-to-azure/prerequisites/create-azure-vm.md#prepare-for-installation-and-configuration) 
-* [**Azure SQL database**](../installation-and-configuration/deploy-to-azure/prerequisites/create-azure-sql-database.md#prepare-for-installation-and-configuration)
+* [**Azure Virtual Machine**](https://github.com/SysKitTeam/docs-point/tree/7d6a334c15cb1a5545f7bb2da6cd12f48c5efc7d/installation-and-configuration/deploy-to-azure/prerequisites/create-azure-vm.md#prepare-for-installation-and-configuration) 
+* [**Azure SQL database**](https://github.com/SysKitTeam/docs-point/tree/7d6a334c15cb1a5545f7bb2da6cd12f48c5efc7d/installation-and-configuration/deploy-to-azure/prerequisites/create-azure-sql-database.md#prepare-for-installation-and-configuration)
 
 Click the appropriate link to learn more about the requirements for each of the mentioned resources.
 

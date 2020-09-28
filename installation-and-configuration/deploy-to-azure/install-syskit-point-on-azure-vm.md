@@ -2,15 +2,17 @@
 description: This article guides you through the SysKit Point installation.
 ---
 
-# Install & Configure SysKit Point on Azure Virtual Machine
+# Install SysKit Point on Azure Virtual Machine
+
+## Install & Configure SysKit Point on Azure Virtual Machine
 
 **SysKit Point** is a **web application** that can be installed on an Azure Virtual Machine in your Azure cloud environment.
 
 {% hint style="success" %}
-Before continuing, please make sure that all [prerequisites](prerequisites/) are met.
+Before continuing, please make sure that all [prerequisites](https://github.com/SysKitTeam/docs-point/tree/7d6a334c15cb1a5545f7bb2da6cd12f48c5efc7d/installation-and-configuration/deploy-to-azure/prerequisites/README.md) are met.
 {% endhint %}
 
-## Install SysKit Point
+### Install SysKit Point
 
 {% hint style="warning" %}
 **Please note!**  
@@ -24,15 +26,13 @@ To install SysKit Point, make sure that the **RDP connection \(TCP port 3389\)**
 5. By default, the installation folder is set to **C:\Program Files\SysKit\Point**. You can modify it by clicking the **Change** button. Once selected, click **Next &gt;** to proceed. 
 6. By default, the **Run Configuration Wizard now** option is selected. **SysKit Point Configuration Wizard** will, therefore, automatically start when you click the **Finish** button. Alternatively, you can always start the Configuration Wizard manually by running it from the installation folder. The default location is: **C:\ProgramFiles\SysKit\Point\Host\Configuration.exe**.
 
-
-# Configure SysKit Point
-
+## Configure SysKit Point
 
 By default, after SysKit Point is installed the **SysKit Point Configuration Wizard** starts automatically. Alternatively, you can start it manually at any time by running it from the installation folder. The default location is: **C:\ProgramFiles\SysKit\Point\Host\Configuration.exe**.
 
 Below, each step of the Configuration Wizard is described in greater detail.
 
-## Database Step
+### Database Step
 
 Here, you can choose between two options:
 
@@ -45,7 +45,7 @@ Click **Next\(3\)** to proceed.
 
 ![SysKit Point Configuration - Database](../../.gitbook/assets/configure-syskit-point_database_step.png)
 
-## Database Configuration Step
+### Database Configuration Step
 
 On the Database Configuration step you will be required to enter the:
 
@@ -60,7 +60,7 @@ Click **Test Connection**\(4\) to see if **SysKit Point** can connect to the ent
 
 If the connection is successful, click **Next** to proceed.
 
-## Service Settings Step
+### Service Settings Step
 
 Here you must provide a [Service account](additional-vm-configuration.md#service-account) that will be used for running SysKit Point windows service.
 
@@ -76,7 +76,7 @@ After you've entered the credentials click the **Validate Account** button. If t
 
 Click **OK** to close the Success window, and **Next &gt;** to continue to the next step.
 
-### Connect to Office 365
+#### Connect to Office 365
 
 Click the **Connect to your tenant** link to connect SysKit Point to your Office 365 tenant. **You need to provide the Office 365 global admin account.** This account will be **used only for the initial setup** and Point **does not store any passwords** you present here.
 
@@ -108,7 +108,7 @@ For SysKit Point to collect, process, and save audit logs, the auditing has to b
 You can find answers in the [following article](../../requirements/permission-requirements.md#office-365).
 {% endhint %}
 
-## Web Application Settings Step
+### Web Application Settings Step
 
 In the Web Application Settings, the following is defined:
 
@@ -120,13 +120,13 @@ In the Web Application Settings, the following is defined:
 
 ![Configuration Wizard - Web Application Settings step](../../.gitbook/assets/azure-vm_configuration-web-app.png)
 
-## Finish Step
+### Finish Step
 
 When the configuration is completed, if everything was configured correctly the screen will look like this.
 
 ![SysKit Point Configuration - Finish](../../.gitbook/assets/7%20%281%29.png)
 
-## Related Topics
+### Related Topics
 
 * [Install SysKit Point on Azure Virtual Machine](overview.md) 
 * [Hardware and Software Requirements](hardware-software-requirements.md)
@@ -134,3 +134,4 @@ When the configuration is completed, if everything was configured correctly the 
 * [Create Azure SQL Database](create-azure-sql-database.md)
 
 If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).
+

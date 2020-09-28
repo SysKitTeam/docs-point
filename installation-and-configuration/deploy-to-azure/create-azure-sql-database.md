@@ -12,7 +12,6 @@ Your **Azure team** needs to create an **Azure SQL database** for storing data w
 Before continuing, make sure to [create and configure an Azure Virtual Machine](create-azure-vm.md) where SysKit Point will be installed.
 {% endhint %}
 
-
 ## Prepare for Installation & Configuration
 
 When creating the database, ensure the following:
@@ -21,7 +20,6 @@ When creating the database, ensure the following:
   * This database can be empty, Point will create the necessary database tables during its setup
 * You need to configure your **Azure SQL database to allow access to your Azure Virtual Machine**, where SysKit Point will be installed 
   * Make sure you already completed the previous installation step [**Create an Azure Virtual Machine**](create-azure-vm.md), and obtained a **Static IP** for that VM
-
 
 ### Allowing Access to Azure SQL Database
 
