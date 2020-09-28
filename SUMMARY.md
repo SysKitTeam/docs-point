@@ -20,6 +20,7 @@
     * [Create Azure SQL Database](installation-and-configuration/deploy-to-azure/create-azure-sql-database.md)
     * [Additional Azure Virtual Machine Configuration](installation-and-configuration/deploy-to-azure/additional-vm-configuration.md)
     * [Configure URL for Point Web Application](installation-and-configuration/deploy-to-azure/ssl-certificate.md)
+    * [Global Admin Consent](installation-and-configuration/deploy-to-azure/gloabal-admin-consent.md)
     * [Install SysKit Point on Azure Virtual Machine](installation-and-configuration/deploy-to-azure/install-syskit-point-on-azure-vm.md)    
   * [Deploy SysKit Point On-Premises](installation-and-configuration/deploy-on-premises/README.md)
     * [Prerequisites](installation-and-configuration/deploy-on-premises/prerequisites/README.md)
@@ -59,4 +60,5 @@
   * [Report Data Limits](faq/report-data-limits.md)
   * [Migrate Audit Logs](faq/migrate-audit-logs.md)
   * [Turn On Auditing](faq/turn-on-auditing.md)
+  * [Test Access to Point](faq/test-access.md)
 
