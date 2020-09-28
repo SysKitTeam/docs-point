@@ -71,7 +71,7 @@ As the **User Access report** is a tree structure report, you can see:
 
 ![User Access - Report structure](../.gitbook/assets/user_access_docs5.png)
 
-Let’s say that you have now found out that this user has **Multiple Access** over the same resource via **Direct Access** and **through** the **Security Group**. You want to **remove** the **direct access** that the user was given, so he only has access through the Security Group. 
+Let’s say that you have now found out that this user has **Multiple Access** over the same resource via **Direct Access** and **through** the **Security Group**. You want to **remove** the **direct access** that the user was given, so he only has access through the Security Group.
 
 Here’s how to do it.
 
@@ -90,8 +90,4 @@ After the action is completed, you will receive a **notification bubble** where 
 By the same principle, you can also **Edit** the given permissions, **Remove** said Users from groups with access to the resource, **Remove Sharing Links**, which might provide access to unwanted users.
 
 **User Access report** helps all **Admins** and content **Owners** to keep their **Office 365 environment** **clean**, **secure**, and **easy to manage** all at one place, the **SysKit Point**.
-
-
-
-
 
