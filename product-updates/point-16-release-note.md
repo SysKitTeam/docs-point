@@ -13,7 +13,7 @@ Along with autumn comes a new version of SysKit Point packed with new features a
 [Try SysKit Point trial](https://www.syskit.com/products/point/request-a-free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
 **Product version:** 16.0.0  
-**Build number:** 1175  
+**Build number:** 1186  
 **Release date:** Sep 29, 2020
 
 ## Features
