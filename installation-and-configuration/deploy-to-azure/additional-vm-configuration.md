@@ -1,16 +1,10 @@
+---
+description: >-
+ This article describes what additional configuration is necesary on the Azure Virtual Machine before SysKit Point can be installed.
+---
+
 # Additional Azure Virtual Machine Configuration
 
-description:
-
-### This article describes what additional configuration is necesary on the Azure Virtual Machine before SysKit Point can be installed.
-
-## Additional Azure Virtual Machine Configuration
-
-description: &gt;-
-
-#### This article describes what additional configuration is necesary on the Azure Virtual Machine before SysKit Point can be installed.
-
-### Additional Azure Virtual Machine Configuration
 
 After the Virtual Machine has been created by your **Azure team** some **additional configuration steps are needed before you install SysKit Point** to that machine. Connect to the virtual machine using an **RDP connection** and perform the following steps:
 
@@ -61,9 +55,9 @@ We recommend configuring IE settings the following way:
 * Open **Internet Explorer**
 * Select **Tools** -&gt; **Internet Options** -&gt; **Security tab**
 * Select **Trusted sites** icon -&gt; **Sites** button
-* Add following Microsoft addresses to \*\*trusted sites list:
+* Add following Microsoft addresses to trusted sites list:
 
-  [\*.microsoft.com](additional-vm-configuration.md), [\*.live.com](additional-vm-configuration.md), [\*.microsoftonline.com](additional-vm-configuration.md)\*\*
+  [\*.microsoft.com](additional-vm-configuration.md), [\*.live.com](additional-vm-configuration.md), [\*.microsoftonline.com](additional-vm-configuration.md) 
 
 **Enable JavaScript**
 
