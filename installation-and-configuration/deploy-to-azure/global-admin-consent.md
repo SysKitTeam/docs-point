@@ -3,7 +3,8 @@ description: >-
   This article explains why Global Administration consent is necessary to
   configure SysKit Point.
 ---
-# Office 365 Global Administrator Consent
+
+# Global Admin Consent
 
 **When connecting to an Office 365 tenant** during the configuration process, **you need to connect with a Global Administrator account.**
 
@@ -13,10 +14,9 @@ description: >-
 
 For a complete overview of individual permissions used by SysKit Point, please refer to the [following article](../../requirements/permission-requirements.md#syskit-point-app-permissions).
 
-
 {% hint style="warning" %}
 **Please note!**
 
 * **Once installed and configured, SysKit Point web-app can be accessed and used with a non-privileged user account.**
-
 {% endhint %}
+

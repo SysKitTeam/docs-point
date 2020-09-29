@@ -13,7 +13,6 @@ Before you can install and configure **SysKit Point** on your Azure Virtual Mach
 * [**Service account**](additional-vm-configuration.md#service-account): windows account to run the SysKit Point windows service
 * [**Global Administrator**](global-admin-consent.md) is ready to provide consent
 
-
 ### Install SysKit Point
 
 {% hint style="warning" %}
