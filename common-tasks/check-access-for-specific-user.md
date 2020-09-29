@@ -81,11 +81,11 @@ Here’s how to do it.
 
 **Remove Access** action **prompt** will appear where you just click the **Remove Access button**.
 
-![Remove Access action - Prompt dialogue](../.gitbook/assets/user_access_docs7.png)
+![SysKit Point User Access report Remove Access action prompt](../.gitbook/assets/user_access_docs7%20%281%29.png)
 
 After the action is completed, you will receive a **notification bubble** where you can **click** and **see the result**. On selected resource, it is now visible that the user has rights only through the Security Group.
 
-![User Access - Action result](../.gitbook/assets/user_access_docs8.png)
+![User Access - Action result](../.gitbook/assets/user_access_docs8%20%281%29.png)
 
 By the same principle, you can also **Edit** the given permissions, **Remove** said Users from groups with access to the resource, **Remove Sharing Links**, which might provide access to unwanted users.
 

@@ -19,7 +19,7 @@ To successfully deploy SysKit Point on-premises, follow these steps:
 
 Provided steps result in the on-premises setup shown in the picture below.
 
-![](../../.gitbook/assets/deploy-on-premises_architecture-diagram.png)
+![SysKit Point - On-Premises Setup](../../.gitbook/assets/deploy-on-premises_architecture-diagram.png)
 
 If you run into any issues when preparing your environment or configuring SysKit Point, please [contact us](https://www.syskit.com/contact-us/).
 
