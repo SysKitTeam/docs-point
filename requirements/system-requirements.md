@@ -17,8 +17,8 @@ No matter where you want to deploy SysKit Point - **Cloud** or **on-premises** -
 
 When deploying SysKit Point to Cloud you will be dealing with Azure resources instead of physical machines. Two types of Azure resources are required to successfully install and configure SysKit Point:
 
-* [**Azure Virtual Machine**](../installation-and-configuration/deploy-to-azure/prerequisites/create-azure-vm.md#resource-requirements-per-subscription-plan) where SysKit Point will be installed
-* [**Azure SQL database**](../installation-and-configuration/deploy-to-azure/prerequisites/create-azure-sql-database.md#resource-requirements-per-subscription-plan) where SysKit Point will store its data 
+* [**Azure Virtual Machine**](https://github.com/SysKitTeam/docs-point/tree/7d6a334c15cb1a5545f7bb2da6cd12f48c5efc7d/installation-and-configuration/deploy-to-azure/prerequisites/create-azure-vm.md#resource-requirements-per-subscription-plan) where SysKit Point will be installed
+* [**Azure SQL database**](https://github.com/SysKitTeam/docs-point/tree/7d6a334c15cb1a5545f7bb2da6cd12f48c5efc7d/installation-and-configuration/deploy-to-azure/prerequisites/create-azure-sql-database.md#resource-requirements-per-subscription-plan) where SysKit Point will store its data 
 
 Click the appropriate link to learn more about the requirements for each of the mentioned resources.
 

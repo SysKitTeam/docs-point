@@ -5,11 +5,12 @@ description: >-
 ---
 
 # Create Azure Virtual Machine
+
 Here are the instructions for your **Azure team** to create and configure a **dedicated Azure Virtual Machine** in the [Azure portal](https://portal.azure.com) which will host SysKit Point.
 
 ## Prepare for Installation & Configuration
 
-First you have to create a new **Virtual Machine** in the  [Azure portal](https://portal.azure.com). During creation you need to select an appropriate **Windows Server** image and set the **Size** according to our [minimum hardware requirements](hardware-software-requirements.md#azure-virtual-machine-requirements). 
+First you have to create a new **Virtual Machine** in the [Azure portal](https://portal.azure.com). During creation you need to select an appropriate **Windows Server** image and set the **Size** according to our [minimum hardware requirements](hardware-software-requirements.md#azure-virtual-machine-requirements).
 
 After you create an Azure Virtual Machine, ensure the following configuration is set:
 
@@ -19,12 +20,10 @@ After you create an Azure Virtual Machine, ensure the following configuration is
 * **Configure a DNS name** is set for the Azure Virtual Machine
   * **Public IP address \(static\)** is set for the Azure Virtual Machine
 
-
-
 {% hint style="warning" %}
 **Please note!**
-* **For increased security after the SysKit Point configuration is completed, the inbound rule allowing RDP connections can be removed.**
 
+* **For increased security after the SysKit Point configuration is completed, the inbound rule allowing RDP connections can be removed.**
 {% endhint %}
 
 ## Network Security Group
@@ -41,9 +40,7 @@ To **allow inbound security rule** for the **Network Security Group** associated
 
 ![Azure - Adding inbound port rule](../../.gitbook/assets/azure-vm_networking_02.png)
 
-
 ### Configure a DNS Name
-
 
 You need to **configure a DNS name** in the Azure Portal which will be used for **RDP connection** or as a **hostname for the Point web application**. To do so:
 
@@ -65,6 +62,7 @@ You need to **configure a DNS name** in the Azure Portal which will be used for 
 ## Output
 
 When your **Azure team** finishes the above steps, they need to provide you with the following information for the next steps in the installation process:
+
 * **RDP connection file** so you can connect to the new Azure Virtual Machine 
 * **User account** with **Local Administrator rights** on the Azure Virtual Machine used for RDP connection and the SysKit Point installation
 * **Static IP address value** need to [allow access to Azure SQL database](create-azure-sql-database.md#allowing-access-to-azure-sql-database) and custom DNS setup if you decide to configure it
@@ -72,14 +70,12 @@ When your **Azure team** finishes the above steps, they need to provide you with
   * This will be in the format {DNSNameLabel}.{DataCenter}.cloudapp.azure.com as visible during the step **Configure a DNS Name**
   * Example `point.eastus.cloudapp.azure.com`
 
-
 ## Related Topics
 
 * [Install SysKit Point on Azure Virtual Machine](overview.md) 
 * [Hardware and Software Requirements](hardware-software-requirements.md)
 * [Additional Azure Virtual Machine Configuration](additional-vm-configuration.md)
 * [Create Azure SQL Database](create-azure-sql-database.md)
-
 
 If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).
 
