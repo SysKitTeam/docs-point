@@ -1,10 +1,9 @@
 ---
-description: This article is an index of content that provides guidance for installing SysKit Point on an Azure Virtual Machine.
+description:
+  This article is an index of content that provides guidance for installing SysKit Point on an Azure Virtual Machine.
 ---
 
 # Install SysKit Point on Azure Virtual Machine
-
-This article is an index of content that provides guidance for **installing SysKit Point on an Azure Virtual Machine.**
 
 ## Getting started
 The following conditions need to be met before you can start SysKit Point installation:
@@ -24,7 +23,7 @@ The following conditions need to be met before you can start SysKit Point instal
 * **Decide which URL are you going to use for SysKit Point web application** and prepare an **SSL certificate** required to make a **secure https connection** from the browser
   * Obtain a SSL certificate from a **publicly trusted certificate provider**, check instructions at article [**deploy SysKit Point to a production environment**](ssl-certificate.md#deploy-syskit-point-to-a-production-environment)
   * For testing environments the application will generate a self-signed certificate, check instructions at article [**deploy SysKit Point to a test environment**](ssl-certificate.md#deploy-syskit-point-to-a-test-environment)
-* [**Global Administrator**]( global-admin-consent.md) will be asked to login and provide application consent during the setup
+* [**Global Administrator**](global-admin-consent.md) will be asked to login and provide application consent during the setup
   * Please note: Global admin account is only necessary during the initial configuration, later the application can be used with other non-privileged accounts
 
 Click the appropriate link to learn more about requirements for each of the mentioned resources.
@@ -40,8 +39,10 @@ Once you went through all the requirements above and prepared all the necessary 
 * [**Install SysKit Point**](install-syskit-point-on-azure-vm#install-syskit-point) on the virtual machine
 * [**Run the SysKit Point Configuration Wizard**](install-syskit-point-on-azure-vm#configure-syskit-point) to perform the initial setup
 
-## First Steps After Installation SysKit Point
-* Request access to Microsoft Teams Protected API
-* Setup initial RBS options
-* Setup Audit logs data retention
+## First steps with SysKit Point
+By now your SysKit Point is up and running. You can login to the Point web application and it continuously collects data from Office 365. There are a few important considerations to make to complete the setup and secure your Point web application:
+
+* [**Request access to Protected APIs in Microsoft Teams**](.\..\..\common-tasks\microsoft-teams-activity.md) - Point needs **additional approval from Microsoft** in order to be able to **detect Inactive Teams**
+* [**Manage who can access Point**](.\..\enable-role-based-access.md) - by default only **Global Administrators** and **SharePoint admins** have the rights to login to the Point web application
+* [**Setup data retention for Audit logs**](.\..\customize-audit-logs-collection.md#audit-logs-settings) - depending on your company policy and available disk space set the data retention policy for Office 365 audit logs stored locally
 

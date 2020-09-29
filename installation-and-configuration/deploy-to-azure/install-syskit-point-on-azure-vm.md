@@ -4,11 +4,13 @@ description: This article guides you through the SysKit Point installation.
 
 # Install & Configure SysKit Point on Azure Virtual Machine
 
-**SysKit Point** is a **web application** that can be installed on an Azure Virtual Machine in your Azure cloud environment.
+Before you can install and configure **SysKit Point** on your Azure Virtual Machine make sure you prepared the following information described in the [**installation guide**](overview.md):
 
-{% hint style="success" %}
-Before continuing, please make sure that all [prerequisites](prerequisites/) are met.
-{% endhint %}
+* [**Azure SQL database information**](create-azure-sql-database.md#output): **Azure SQL server**, **Azure SQL database name** and **SQL account** with db owner permissions 
+* [**URL for Point web application and a valid SSL certificate**](ssl-certificate.md#output)
+* [**Service account**](additional-vm-configuration.md#service-account): windows account to run the SysKit Point windows service
+* [**Global Administrator**](global-admin-consent.md) is ready to provide consent
+
 
 ## Install SysKit Point
 
@@ -20,7 +22,7 @@ To install SysKit Point, make sure that the **RDP connection \(TCP port 3389\)**
 1. **Connect to the Azure Virtual Machine** using RDP connection
 2. [Download the SysKit Point setup file](https://my.syskit.com/).
 3. **Unpack and run the setup file** - **SysKitPointSetup.exe**. The wizard will guide you through the installation steps.
-4. Read and accept the license agreeement - [EULA](https://www.syskit.com/eula/) - click **Next &gt;** to proceed.
+4. Read and accept the license agreement - [EULA](https://www.syskit.com/eula/) - click **Next &gt;** to proceed.
 5. By default, the installation folder is set to **C:\Program Files\SysKit\Point**. You can modify it by clicking the **Change** button. Once selected, click **Next &gt;** to proceed. 
 6. By default, the **Run Configuration Wizard now** option is selected. **SysKit Point Configuration Wizard** will, therefore, automatically start when you click the **Finish** button. Alternatively, you can always start the Configuration Wizard manually by running it from the installation folder. The default location is: **C:\ProgramFiles\SysKit\Point\Host\Configuration.exe**.
 

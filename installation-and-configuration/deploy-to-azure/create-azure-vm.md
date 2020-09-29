@@ -70,7 +70,7 @@ When your **Azure team** finishes the above steps, they need to provide you with
 * **Static IP address value** need to [allow access to Azure SQL database](create-azure-sql-database.md#allowing-access-to-azure-sql-database) and custom DNS setup if you decide to configure it
 * **DNS name** for the Azure Virtual Machine 
   * This will be in the format {DNSNameLabel}.{DataCenter}.cloudapp.azure.com as visible during the step **Configure a DNS Name**
-  * Example point.eastus.cloudapp.azure.com
+  * Example `point.eastus.cloudapp.azure.com`
 
 
 ## Related Topics
