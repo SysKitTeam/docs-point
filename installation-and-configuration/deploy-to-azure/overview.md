@@ -8,12 +8,7 @@ description: >-
 
 ## Getting started
 
-To successfully deploy SysKit Point in the Azure cloud environment, the following resources are needed:
-
-* **Azure Virtual Machine**
-* **Azure SQL Database**
-
-The following conditions need to be met before you can start SysKit Point installation:
+These are the 4 most important requirements to get you started:
 
 1.  **Azure Virtual Machine** where SysKit Point will be installed
    * Ask your **Azure team** to create a dedicated VM according to this  [**article**](create-azure-vm.md) and check the [**minimum requirements**](hardware-software-requirements.md#azure-virtual-machine-requirements) 
@@ -25,7 +20,7 @@ The following conditions need to be met before you can start SysKit Point instal
 2.  **Azure SQL database** where SysKit Point will store its data
    * Ask your **Azure team** to [**create a dedicated Azure SQL database**](create-azure-sql-database.md) in accordance with the [**minimum requirements**](hardware-software-requirements.md#azure-sql-database-requirements) and provide you with a **SQL login** account which has **db owner** permissions  
 3. **Decide which URL are you going to use for SysKit Point web application** and prepare an **SSL certificate** required to make a **secure https connection** from the browser
-   * Obtain a SSL certificate from a **publicly trusted certificate provider**, check instructions at article [**deploy SysKit Point to a production environment**](ssl-certificate.md#deploy-syskit-point-to-a-production-environment)
+   * Obtain a SSL certificate from a **publicly trusted certificate provider**, check instructions at article [**deploy SysKit Point to a production environment**](ssl-certificate.md#deploy-syskit-point-to-a-production-environment) and perform **DNS server** configuration if necessary    
    * For testing environments the application will generate a self-signed certificate, check instructions at article [**deploy SysKit Point to a test environment**](ssl-certificate.md#deploy-syskit-point-to-a-test-environment)
 4. [**Global Administrator**](global-admin-consent.md) will be asked to login and provide application consent during the setup
    * Please note: Global admin account is only necessary during the initial configuration, later the application can be used with other non-privileged accounts
