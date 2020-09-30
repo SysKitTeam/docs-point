@@ -38,17 +38,17 @@ If you run into any issues when preparing your environment, please [contact us](
 
 Once you went through all the requirements above and prepared all the necessary resources you are ready to install SyKit Point. Use RDP to connect to the Virtual Machine where SysKit Point will be installed and perform the following:
 
-1) Download the SysKit Point installation package to the virtual machine
+* Download the SysKit Point installation package to the virtual machine
   * **New customers** will receive the download link from our support team
   * **Existing customers** can find the link on our [**Customers portal**](https://my.syskit.com/)
-2) [**Install SysKit Point**](https://github.com/SysKitTeam/docs-point/tree/7d6a334c15cb1a5545f7bb2da6cd12f48c5efc7d/installation-and-configuration/deploy-to-azure/install-syskit-point-on-azure-vm/README.md#install-syskit-point) on the virtual machine
-3) [**Run the SysKit Point Configuration Wizard**](https://github.com/SysKitTeam/docs-point/tree/7d6a334c15cb1a5545f7bb2da6cd12f48c5efc7d/installation-and-configuration/deploy-to-azure/install-syskit-point-on-azure-vm/README.md#configure-syskit-point) to perform the initial setup
+* [**Install SysKit Point**](https://github.com/SysKitTeam/docs-point/tree/7d6a334c15cb1a5545f7bb2da6cd12f48c5efc7d/installation-and-configuration/deploy-to-azure/install-syskit-point-on-azure-vm/README.md#install-syskit-point) on the virtual machine
+* [**Run the SysKit Point Configuration Wizard**](https://github.com/SysKitTeam/docs-point/tree/7d6a334c15cb1a5545f7bb2da6cd12f48c5efc7d/installation-and-configuration/deploy-to-azure/install-syskit-point-on-azure-vm/README.md#configure-syskit-point) to perform the initial setup
 
 ## First steps with SysKit Point
 
 By now your SysKit Point is up and running. You can login to the Point web application and it continuously collects data from Office 365. There are a few important considerations to make to complete the setup and secure your Point web application:
 
-1) [**Request access to Protected APIs in Microsoft Teams**](../../common-tasks/microsoft-teams-activity.md) - Point needs **additional approval from Microsoft** in order to be able to **detect Inactive Teams**
-2) [**Manage who can access Point**](../enable-role-based-access.md) - by default only **Global Administrators** and **SharePoint admins** have the rights to login to the Point web application
-3) [**Setup data retention for Audit logs**](../customize-audit-logs-collection.md#audit-logs-settings) - depending on your company policy and available disk space set the data retention policy for Office 365 audit logs stored locally
+* [**Request access to Protected APIs in Microsoft Teams**](../../common-tasks/microsoft-teams-activity.md) - Point needs **additional approval from Microsoft** in order to be able to **detect Inactive Teams**
+* [**Manage who can access Point**](../enable-role-based-access.md) - by default only **Global Administrators** and **SharePoint admins** have the rights to login to the Point web application
+* [**Setup data retention for Audit logs**](../customize-audit-logs-collection.md#audit-logs-settings) - depending on your company policy and available disk space set the data retention policy for Office 365 audit logs stored locally
 
