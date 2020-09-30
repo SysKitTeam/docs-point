@@ -26,7 +26,7 @@ After you create an Azure Virtual Machine, ensure the following configuration is
 * **For increased security after the SysKit Point configuration is completed, the inbound rule allowing RDP connections can be removed.**
 {% endhint %}
 
-## Network Security Group
+### Network Security Group
 
 To **allow inbound security rule** for the **Network Security Group** associated with the Azure Virtual Machine, follow these steps:
 
