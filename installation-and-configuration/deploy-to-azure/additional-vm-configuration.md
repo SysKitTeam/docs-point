@@ -15,7 +15,7 @@ After the Virtual Machine has been created by your **Azure team** some **additio
 
 #### Service Account
 
-A Service account is a **Windows Account** used to run the **SysKit Point windows service**. This service will **host the Point web application** and **collect all the necessary data from your Office 365**.
+A Service account is a **Windows Account** used to run the **SysKit Point windows service**. This windows service will **host the Point web application**.
 
 We recommend you use one of the following options for the service account:
 
@@ -24,9 +24,12 @@ We recommend you use one of the following options for the service account:
 * Use your own account \(the same one you use for RDP connection\): `Domain\Username`
   * Please note each time your **password expires SysKit Point windows service will stop** until you update it
 
-**The Service account used to run SysKit Point windows service needs to have the following privileges**:
+The **only privileges** this Service account needs to have is the **Local Administrator** role on the Azure Virtual Machine.
+Please note:
+* This account is **not used** to authenticate against Office 365 and does **not need** any Office 365 roles. 
+* This account is **not used** to authenticate against Azure SQL Database and does **not need** any permissions on the SQL Server (if using SQL authentication per our recommendations).
 
-* **Local Administrator** privileges on the Azure Virtual Machine
+
 
 #### Configure Windows Firewall
 

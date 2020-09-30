@@ -13,7 +13,7 @@ These are the 4 most important requirements to get you started:
 1.  **Azure Virtual Machine** where SysKit Point will be installed
    * Ask your **Azure team** to create a dedicated VM according to this  [**article**](create-azure-vm.md) and check the [**minimum requirements**](hardware-software-requirements.md#azure-virtual-machine-requirements) 
    * After the VM has been created and your **Azure team** provided you with the **RDP connection** info and **Windows login account** you need to connect to the VM and **perform additional configuration** steps:
-     * [**Prepare a service account**](additional-vm-configuration.md#service-account) to run the SysKit Point windows service
+     * [**Prepare a service account**](additional-vm-configuration.md#service-account) to run the SysKit Point windows service. This windows service will host the Point web application and requires the **Local Administrator** role on the Azure Virtual Machine.
      * [**Configure Internet Explorer settings**](additional-vm-configuration.md#configure-internet-explorer-settings) to add the **Office 365 login page to Trusted sites** and **enable JavaScript execution** inside Internet Explorer
      * [**Allow network traffic through**](additional-vm-configuration.md#configure-windows-firewall) the Windows Firewall on port 443 \(default port for https\) 
      * [**Install a compatible browser**](additional-vm-configuration.md#install-a-compatible-browser) so SysKit Point can be accessed locally from the VM
