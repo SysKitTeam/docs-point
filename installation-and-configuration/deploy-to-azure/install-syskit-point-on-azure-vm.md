@@ -11,7 +11,7 @@ Before you can install and configure **SysKit Point** on your Azure Virtual Mach
 * [**Azure SQL database information**](create-azure-sql-database.md#output): **Azure SQL server**, **Azure SQL database name** and **SQL account** with db owner permissions 
 * [**URL for Point web application and a valid SSL certificate**](ssl-certificate.md#output)
 * [**Service account**](additional-vm-configuration.md#service-account): windows account to run the SysKit Point windows service
-* [**Global Administrator**](global-admin-consent.md) is ready to provide consent
+* **Global Administrator** is ready to provide [**application consent**](https://docs.syskit.com/point-staging/-LxKneJ8FEJNNJxk8KeG/v/v16_DEV/requirements/permission-requirements#global-administrator)\*\*\*\*
 
 ### Install SysKit Point
 
