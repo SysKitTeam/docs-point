@@ -19,7 +19,9 @@ These are the 4 most important requirements to get you started:
      * [**Install a compatible browser**](additional-vm-configuration.md#install-a-compatible-browser) so SysKit Point can be accessed locally from the VM
 2.  **SQL Server database** where SysKit Point will store its data
    * Ask your **SQL team** to [**prepare a dedicated SQL Server**](syskit-point-database.md) in accordance with the [**minimum requirements**](hardware-software-requirements.md#sql-server-requirements)
-   * Make sure they **assing the correct permissions** to both **your user account** which will be running the SysKit Point Configuration Wizard and the **Service account** which will be running SysKit Point service  
+   * Make sure they **assing the correct permissions** depending on the option you decide to use:
+      * Option 1: [**Use a pre-created database**](syskit-point-database.md#option-1-use-a-pre-created-database)
+      * Option 2: [**Point will create a new database**](syskit-point-database.md#option-2-point-will-create-a-new-database)
 3. **Decide which URL are you going to use for SysKit Point web application** and prepare an **SSL certificate** required to make a **secure https connection** from the browser
    * Obtain a SSL certificate from a **publicly trusted certificate provider**, check instructions at article [**deploy SysKit Point to a production environment**](ssl-certificate.md#deploy-syskit-point-to-a-production-environment) and perform **DNS server** configuration if necessary    
    * For testing environments the application will generate a self-signed certificate, check instructions at article [**deploy SysKit Point to a test environment**](ssl-certificate.md#deploy-syskit-point-to-a-test-environment)
