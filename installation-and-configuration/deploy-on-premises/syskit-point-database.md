@@ -10,29 +10,34 @@ SysKit Point requires a dedicated **SQL Server database** for storing data colle
 
 ## Prepare a database for SysKit Point
 
-First you need to prepare a SQL Server with accorandce to the [**minimum requirements**](hardware-software-requirements.md#sql-server-requirements). We **recommend you use a dedicated virtual machine** for your SQL Server.
+First you need to prepare a SQL Server in accordance with the [**minimum requirements**](hardware-software-requirements.md#sql-server-requirements). We **recommend you use a dedicated virtual machine** for your SQL Server.
 
-Once the SQL Server is ready you have **2 options** how to prepare for SysKit Point setup:
-* **Pre-create an empty database SysKit Point will use**
-* **Let SysKit Point create a new database during the SysKit Point Configuration Wizard**
+## SQL Permissions
+To authenticate on the SQL Server SysKit Point can use the following options:
+* **Windows authentication (recommended)** - **windows account running the SysKit Point Configuration Wizard** and the **service account running the SysKit Point service** need to be assigned permissions
+* **SQL Server authentication** - create a SQL account and assign permissions
 
-### Use a pre-created database
-* **User running SysKit Point installation will need to be granted the** db\_owner **rights** on the Syskit Point database
-* **Service account needs to have db\_owner privileges** on the SysKit Point database
-### Point will create a database
+The instructions below are written for the recommended scenario with windows authentication but if you decide to use SQL Server authentication the requirements for the SQL account are the same as for the windows accounts.
 
-When creating the database, ensure the following:
 
-* **User running SysKit Point installation will need to be granted the** db\_owner **rights** on the Syskit Point database
-* **Service account needs to have db\_owner privileges** on the SysKit Point database
+### Option 1: Use a pre-created database
+If you decided to **manually pre-create an empty database** for SysKit Point using SQL Server Management Studio here are the minimum privileges that need to be assigned:
+* **Grant db\_owner database-level role** to the **user running SysKit Point Configuration Wizard** on the pre-create database
+* **Grant  db\_owner database-level role** to the **SysKit Point Service Account** on the pre-create database
+
+### Option 2: Point will create a new database
+
+**SysKit Point will create a new database** during its Configuration Wizard. In this case it is important that you **assign proper SQL Server privileges** to the **user running SysKit Point Configuration Wizard**:
+* **dbcreator server-level role** - to be able to create a new database
+* **securityadmin server-level role** - to be able to assign permissions to the service account automatically during setup
 
 ## Output
 
 For SysKit Point configuration, prepare the following information:
 
 * **SQL Server name**
-* **Database name** - if an empty database was pre-created
-
+* **Database name*** - if an empty database was pre-created what is its name
+* **SQL account*** - if you decide to use SQL Server authentication
 
 
 ## Related Topics
