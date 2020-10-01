@@ -1,12 +1,12 @@
 ---
 description: >-
- This article describes what additional configuration is necesary on the Azure Virtual Machine before SysKit Point can be installed.
+ This article describes what additional configuration is necesary on the Virtual Machine before SysKit Point can be installed.
 ---
 
-# Additional Azure Virtual Machine Configuration
+# Additional Virtual Machine Configuration
 
 
-After the Virtual Machine has been created by your **Azure team** some **additional configuration steps are needed before you install SysKit Point** to that machine. Connect to the virtual machine using an **RDP connection** and perform the following steps:
+After the Virtual Machine has been created by your **Infrastructure team** some **additional configuration steps are needed before you install SysKit Point** to that machine. Connect to the virtual machine using an **RDP connection** and perform the following steps:
 
 * **Prepare a Service Account** - **windows account** to run the **SysKit Point windows service**
 * **Configure Windows Firewall** - need to allow access to the SysKit Point web application
@@ -24,20 +24,21 @@ We recommend you use one of the following options for the service account:
 * Use your own account \(the same one you use for RDP connection\): `Domain\Username`
   * Please note each time your **password expires SysKit Point windows service will stop** until you update it
 
-The **only privileges** this Service account needs to have is the **Local Administrator** role on the Azure Virtual Machine.
-Please note:
-* This account is **not used** to authenticate against Office 365 and does **not need** any Office 365 roles. 
-* This account is **not used** to authenticate against Azure SQL Database and does **not need** any permissions on the SQL Server (if using SQL authentication per our recommendations).
+The service account needs the following privileges:
+* **Local Administrator** role on the **Virtual Machine**.
+* **db owner** role on the **SysKit Point SQL database** if you setup the database connection to use windows authentication (Recommended)
 
+
+Please note: This account is **not used** to authenticate against Office 365 and does **not need** any Office 365 roles. 
 
 
 ## Configure Windows Firewall
 
 To be able to use the SysKit Point application from **outside the local virtual machine** you need to be able to reach the page where the Point web application is hosted.
 
-To allow inbound traffic on the Azure Virtual Machine, follow these steps:
+To allow inbound traffic on the Virtual Machine, follow these steps:
 
-* **Use RDP connection to connect to Azure Virtual Machine**
+* **Use RDP connection to connect to Virtual Machine**
 * **Open Windows Firewall with Advanced Security**
 * **Select Inbound Rules \(1\)**
 * **Click New Rule action \(2\)**
@@ -85,10 +86,9 @@ When you finish the above steps, you will need the following information for the
 
 ## Related Topics
 
-* [Install SysKit Point on Azure Virtual Machine](overview.md) 
+* [Install SysKit Point On-Premises](overview.md) 
 * [Hardware and Software Requirements](hardware-software-requirements.md)
-* [Create Azure Virtual Machine](create-azure-vm.md)
-* [Install SysKit Point on Azure VM](install-syskit-point-on-azure-vm.md) 
+* [Install SysKit Point on Azure VM](install-syskit-point-on-premises.md) 
 
 If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).
 

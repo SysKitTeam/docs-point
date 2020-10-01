@@ -6,16 +6,12 @@ description: >-
 
 # Deploy SysKit Point On-Premises
 
-To successfully deploy SysKit Point on-premises, follow these steps:
+To successfully deploy SysKit Point in a On-Premises environment, the following resources are needed:
 
-1. **Ensure that all** [**prerequisites**](prerequisites/) **are met**:
+* **Virtual Machine**
+* **SQL Server Database**
 
-   • [**SysKit Point Server**](prerequisites/syskit-point-server.md)
-
-   • [**SysKit Point Database**](prerequisites/syskit-point-database.md)
-
-2. [**Install SysKit Point**](install-syskit-point-on-premises.md) **on a dedicated server**
-3. [**Configure SysKit Point**](configure-syskit-point-on-premises.md)   
+Find the complete installation guide at the following [**link**](overview.md).
 
 If you run into any issues when preparing your environment or configuring SysKit Point, please [contact us](https://www.syskit.com/contact-us/).
 
