@@ -11,9 +11,9 @@ Before you can install and configure **SysKit Point** on your Azure Virtual Mach
 * [**Azure SQL database information**](create-azure-sql-database.md#output): **Azure SQL server**, **Azure SQL database name** and **SQL account** with db owner permissions 
 * [**URL for Point web application and a valid SSL certificate**](ssl-certificate.md#output)
 * [**Service account**](additional-vm-configuration.md#service-account): windows account to run the SysKit Point windows service
-* **Global Administrator** is ready to provide [**application consent**](https://docs.syskit.com/point-staging/-LxKneJ8FEJNNJxk8KeG/v/v16_DEV/requirements/permission-requirements#global-administrator)\*\*\*\*
+* **Global Administrator** is ready to provide [**application consent**](./../../requirements/permission-requirements#global-administrator)
 
-### Install SysKit Point
+## Install SysKit Point
 
 {% hint style="warning" %}
 **Please note!**  
@@ -77,7 +77,7 @@ After you've entered the credentials click the **Validate Account** button. If t
 
 Click **OK** to close the Success window, and **Next &gt;** to continue to the next step.
 
-#### Connect to Office 365
+### Connect to Office 365
 
 Click the **Connect to your tenant** link to connect SysKit Point to your Office 365 tenant. **You need to provide the Office 365 global admin account.** This account will be **used only for the initial setup** and Point **does not store any passwords** you present here.
 
