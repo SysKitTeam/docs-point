@@ -53,7 +53,7 @@ We recommended that you use a **dedicated virtual machine for the SQL Server** a
 | **More than 10 000 users/sites** | 64-bit CPU, 4 cores | 32GB RAM | 100GB |
 
 ### Using SysKit Point and SQL Server on the same Virtual Machine
-It is **not recommended** to install SysKit Point and SQL Server on the same virtual machine. If you have limited resources and just want to test the application, you can do it, but SysKit Point's **performance will be downgraded**. **SQL Server Express** edition is only allowed if you have a small Office 365 Environment with up to 1000 users/sites.
+It is **not recommended** to install SysKit Point and SQL Server on the same virtual machine. If you have limited resources and just want to test the application, you can do it, but SysKit Point's **performance will be downgraded**. **SQL Server Express** edition is only allowed if you have a small Office 365 Environment with up to 500 users/sites.
 
 Below, you can find the Virtual Machine **minimum requirements** if you install both SysKit Point and SQL Server on that VM based on your environment's size.
 
