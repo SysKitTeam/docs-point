@@ -50,8 +50,8 @@ Click **Next\(3\)** to proceed.
 
 On the Database Configuration step you will be required to enter the:
 
-* **Database server**\(1\)
-* **Database name**\(2\)
+* **Database server \(1\)**
+* **Database name \(2\)**
 
 Select the option **Use SQL authentication**\(3\) to access the database and use the **data and credentials** defined when creating an Azure SQL database.
 

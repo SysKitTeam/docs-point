@@ -43,8 +43,8 @@ Click **Next\(3\)** to proceed.
 
 On the Database Configuration step you will be required to enter the:
 
-* **Database server**\(1\)
-* **Database name**\(2\)
+* **Database server \(1\)**
+* **Database name \(2\)**
 
 {% hint style="warning" %}
 **How to enter the MS SQL Server name?**
