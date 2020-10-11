@@ -37,7 +37,7 @@ In case you **pre-created an empty SQL database** for SysKit Point, choose the *
 
 Click **Next\(3\)** to proceed.
 
-![SysKit Point Configuration - Database](../../.gitbook/assets/configure-syskit-point_database_step.png)
+![SysKit Point Configuration - Database](../../.gitbook/assets/install-syskit-point-on-premises_database-step.png)
 
 ### Database Configuration Step
 
