@@ -57,7 +57,7 @@ Select the option **Use SQL authentication**\(3\) to access the database and use
 
 Click **Test Connection**\(4\) to see if **SysKit Point** can connect to the entered Azure SQL database.
 
-![SysKit Point Configuration - Database Configuration](../../.gitbook/assets/2%20%283%29.png)
+![SysKit Point Configuration - Database Configuration](../../.gitbook/assets/install-syskit-point-on-azure-vm_database-configuration-step.png)
 
 If the connection is successful, click **Next** to proceed.
 
