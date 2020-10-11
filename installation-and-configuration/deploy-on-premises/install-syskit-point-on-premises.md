@@ -6,10 +6,10 @@ description: This article guides you through the SysKit Point installation.
 
 Before you can install and configure **SysKit Point** on your Virtual Machine make sure you prepared the following information described in the [**installation guide**](overview.md):
 
-* [**SQL Server database information**](create-azure-sql-database.md#output): **SQL server**, and **optionally** depending on your setup **SQL database name** and **SQL account** with db owner permissions 
+* [**SQL Server database information**](https://github.com/SysKitTeam/docs-point/tree/fa9484765a1247ba48a349633f72e21f791c5b1a/installation-and-configuration/deploy-on-premises/create-azure-sql-database.md#output): **SQL server**, and **optionally** depending on your setup **SQL database name** and **SQL account** with db owner permissions 
 * [**URL for Point web application and a valid SSL certificate**](ssl-certificate.md#output)
 * [**Service account**](additional-vm-configuration.md#service-account): windows account to run the SysKit Point windows service
-* **Global Administrator** is ready to provide [**application consent**](./../../requirements/permission-requirements#global-administrator)
+* **Global Administrator** is ready to provide [**application consent**](https://github.com/SysKitTeam/docs-point/tree/fa9484765a1247ba48a349633f72e21f791c5b1a/requirements/permission-requirements/README.md#global-administrator)
 
 ## Install SysKit Point
 
@@ -35,7 +35,7 @@ Here, you can choose between two options:
 
 In case you **pre-created an empty SQL database** for SysKit Point, choose the **Use existing database \(2\)** option.
 
-Click **Next\(3\)** to proceed.
+Click **Next \(3\)** to proceed.
 
 ![SysKit Point Configuration - Database](../../.gitbook/assets/install-syskit-point-on-premises_database-step.png)
 
@@ -55,7 +55,8 @@ On the Database Configuration step you will be required to enter the:
 {% endhint %}
 
 Choose the type of authentication to this MS SQL Server and SQL Server database:
-* **Windows Authentication** (recommended)  
+
+* **Windows Authentication** \(recommended\)  
 * **SQL Authentication** 
 
 Click **Test Connection**\(4\) to see if **SysKit Point** can connect to the entered SQL Server.
@@ -92,7 +93,7 @@ To continue, check the **Consent on behalf of your organization** **option \(1\)
 
 * **Automatic Discovery** – by default, SysKit Point continuously monitors your Office 365 environment and shows you the latest data. SharePoint Online sites and Office 365 Groups data will always be monitored. This setting cannot be modified.
 * **Autodiscover OneDrive \(1\)** - by default, SysKit Point will collect information and report on user OneDrive activity, content, and sharing. To stop collecting OneDrive data, uncheck this option.
-* **Protect OneDrive privacy \(2\)** - When enabled, SysKit Point will only show general information about user's OneDrive, such as used storage. SysKit Point Admins won't be able to access OneDrive content and personal data. By default, this option is disabled.
+* **Protect OneDrive privacy \(2\)** - When enabled, SysKit Point will only show general information about the user's OneDrive, such as used storage. SysKit Point Admins won't be able to access OneDrive content and personal data. By default, this option is disabled.
 * **Store audit logs \(3\)** - SysKit Point will also collect all audit logs to monitor internal and external user activities and changes and Store them to the hard drive. To stop storing audit logs, uncheck this option.
 * **Protect user privacy \(4\)** - When enabled, user activity data will be hidden from SysKit Point and protected from Administrator supervision. By default, this option is disabled.
 
@@ -118,8 +119,6 @@ The default URL for the web interface of SysKit Point is set to `https://fully-q
 
 Use this URL to log in to the SysKit Point web interface by using the [supported browsers](../../requirements/system-requirements.md#supported-browsers).
 
-
-
 In the Web Application Settings, the following is defined:
 
 * **URL of SysKit Point Web App \(1\)**
@@ -135,7 +134,6 @@ In the Web Application Settings, the following is defined:
 When the configuration is completed, if everything was configured correctly the screen will look like this.
 
 ![SysKit Point Configuration - Finish](../../.gitbook/assets/install-syskit-point-on-premises_finish-step.png)
-
 
 ## Related Topics
 
