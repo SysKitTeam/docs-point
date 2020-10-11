@@ -119,7 +119,7 @@ In the Web Application Settings, the following is defined:
   * **SSL Certificate \(3\)**
   * **Self-signed certificate \(4\)**
 
-![Configuration Wizard - Web Application Settings step](../../.gitbook/assets/azure-vm_configuration-web-app.png)
+![Configuration Wizard - Web Application Settings step](../../.gitbook/assets/install-syskit-point-on-azure-vm_webapp-settings-step.png)
 
 ### Finish Step
 
