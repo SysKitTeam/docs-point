@@ -93,7 +93,7 @@ To continue, check the **Consent on behalf of your organization** **option \(1\)
 * **Store audit logs \(3\)** - SysKit Point will also collect all audit logs to monitor internal and external user activities and changes and Store them to the hard drive. To stop storing audit logs, uncheck this option.
 * **Protect user privacy \(4\)** - When enabled, user activity data will be hidden from SysKit Point and protected from Administrator supervision. By default, this option is disabled.
 
-![OneDrive and audit logs configuration](../../.gitbook/assets/configure-syskit-point_od-audit-configuration.png)
+![OneDrive and audit logs configuration](../../.gitbook/assets/install-syskit-point-on-azure-vm_configure-od-audit.png)
 
 {% hint style="success" %}
 You can change these options anytime by running **SysKit Point Configuration**.
