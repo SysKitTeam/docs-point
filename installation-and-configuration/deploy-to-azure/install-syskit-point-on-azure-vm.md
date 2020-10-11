@@ -44,7 +44,7 @@ In case a dedicated Azure SQL database is prepared for SysKit Point, choose the 
 
 Click **Next\(3\)** to proceed.
 
-![SysKit Point Configuration - Database](../../.gitbook/assets/configure-syskit-point_database_step.png)
+![SysKit Point Configuration - Database](../../.gitbook/assets/install-syskit-point-on-azure-vm_database-step.png)
 
 ### Database Configuration Step
 
