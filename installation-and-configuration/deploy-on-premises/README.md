@@ -6,7 +6,7 @@ description: >-
 
 # Deploy SysKit Point On-Premises
 
-To successfully deploy SysKit Point in a On-Premises environment, the following resources are needed:
+To successfully deploy SysKit Point in an On-Premises environment, the following resources are needed:
 
 * **Virtual Machine**
 * **SQL Server Database**
