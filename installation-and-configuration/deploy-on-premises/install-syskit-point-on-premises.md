@@ -60,7 +60,7 @@ Choose the type of authentication to this MS SQL Server and SQL Server database:
 
 Click **Test Connection**\(4\) to see if **SysKit Point** can connect to the entered SQL Server.
 
-![SysKit Point Configuration - Database Configuration](../../.gitbook/assets/2%20%283%29.png)
+![SysKit Point Configuration - Database Configuration](../../.gitbook/assets/install-syskit-point-on-premises_database-configuration-step.png)
 
 If the connection is successful, click **Next** to proceed.
 
