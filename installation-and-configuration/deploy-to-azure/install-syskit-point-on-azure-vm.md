@@ -125,7 +125,7 @@ In the Web Application Settings, the following is defined:
 
 When the configuration is completed, if everything was configured correctly the screen will look like this.
 
-![SysKit Point Configuration - Finish](../../.gitbook/assets/7%20%281%29.png)
+![SysKit Point Configuration - Finish](../../.gitbook/assets/install-syskit-point-on-azure-vm_finish-step.png)
 
 ### Related Topics
 
