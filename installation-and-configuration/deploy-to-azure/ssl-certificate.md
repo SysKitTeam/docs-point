@@ -13,10 +13,7 @@ You have different options available depending whether on which environment you 
 
 ## Deploy SysKit Point to a production environment
 
-In a production environment, **it is recommended to use** an **SSL certificate obtained from a publicly trusted SSL certificate provider** and the **URL which will be recognisable by your users**. You can choose from **two options** for your URL:
-
-* **Recommended** - Use a **Custom domain** for SysKit Point web application URL, for example,  `https://point.YourCompanyDomain.com`
-* Use an **Azure default domain** for SysKit Point web application URL, for example, `https://AzureVmName.eastus.cloudapp.azure.com`
+In a production environment, **it is recommended to use** an **SSL certificate obtained from a publicly trusted SSL certificate provider** and the **URL which will be recognisable by your users**. We **recommend** you use a **Custom domain** for SysKit Point web application URL, for example: `https://point.contoso.com`.
 
 ### Use a custom domain for SysKit Point
 
@@ -26,16 +23,6 @@ To use SysKit Point with a custom domain perform the following steps:
   * VM **Static IP Address** is obtained during the previous configuration step [**Configure a DNS Name**](create-azure-vm.md#configure-a-dns-name) during the Virtual Machine setup
 * Obtain an **SSL certificate** from a **publicly trusted SSL certificate provider**
   * Associate the SSL certificate with the custom domain used in the SysKit Point web application URL
-
-### Use an Azure default domain for SysKit Point
-
-To use SysKit Point with an Azure default domain perform the following steps:
-
-* Check what is the full **DNS name** of the Azure Virtual Machine the **Azure team** provided you. Visible in the **RDP Connection file** or inside the [**Azure portal**](https://portal.azure.com).
-  * VM **DNS name** is configured during the previous configuration step [**Configure a DNS Name**](create-azure-vm.md#configure-a-dns-name) during the Virtual Machine setup
-  * It should look like `https://AzureVmName.eastus.cloudapp.azure.com`
-* Obtain an **SSL certificate** from a **publicly trusted SSL certificate provider**
-  * Associate the SSL certificate with the full DNS name of the Azure Virtual Machine used for the SysKit Point web application URL
 
 ## Deploy SysKit Point to a test environment
 
