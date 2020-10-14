@@ -13,7 +13,7 @@ Along with autumn comes a new version of SysKit Point packed with new features a
 [Try SysKit Point trial](https://www.syskit.com/products/point/request-a-free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
 **Product version:** 16.0.0  
-**Build number:** 1186  
+**Build number:** 1211  
 **Release date:** Sep 29, 2020
 
 ## Features
@@ -29,7 +29,7 @@ Along with autumn comes a new version of SysKit Point packed with new features a
   * **find summary data on your resources**, **internal and external users**, **sharing links**, and **used storage** - **all numbers are drillable**, taking you to the related reports which will show more details 
   * **detect potential issues**, for example, if your environment has inactive or orphaned resources
 
-    [Find more information about the new Dashboard here.](https://github.com/SysKitTeam/docs-point/tree/4404dffd2b720abb0fec405b7f9e703eff326f3b/how-to/dashboard-overview.md)
+    [Find more information about the new Dashboard here.](https://docs.syskit.com/point/how-to/dashboard-overview)
 * **New SharePoint Groups report is available!** Use the report to view all SharePoint Groups and their permissions on your sites, remove group members, or drill to the Group Access report for selected SharePoint Groups.
 * **SysKit Point supports Hub sites!** You can find hub-related information on the Sites Overview screen, in the **Hub Title** and **Is Hub Site** columns, and determine if a site is a part of a Hub.
 * **Block and Unblock User Sign-in actions are available!** With these actions, you can block or allow the user to access Office 365 and other Microsoft services.
