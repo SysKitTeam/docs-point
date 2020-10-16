@@ -10,7 +10,7 @@ After the Virtual Machine has been created by your **Azure team** some **additio
 
 * **Prepare a Service Account** - a **Windows account** to run the **SysKit Point Windows service**
 * **Configure Windows Firewall** - needed to allow access to the SysKit Point web application
-* **Configure Internet Options** - required to **enable login to Office 365** from the **Point Configuration Wizard**
+* **Configure Internet Options** - required to **enable logging in to Office 365** from the **Point Configuration Wizard**
 * **Install a Compatible Browser** - needed **after** the Point setup to access the **Point web application**
 
 ## Service Account

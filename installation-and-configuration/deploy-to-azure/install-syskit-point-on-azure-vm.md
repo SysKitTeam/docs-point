@@ -100,7 +100,7 @@ To continue, check the **Consent on behalf of your organization** **option \(1\)
 ![OneDrive and audit logs configuration](../../.gitbook/assets/install-syskit-point-on-azure-vm_configure-od-audit.png)
 
 {% hint style="success" %}
-You can change these options anytime by running the **SysKit Point Configuration** again.
+You can change these options anytime by running the **SysKit Point Configuration Wizard** again.
 {% endhint %}
 
 {% hint style="warning" %}

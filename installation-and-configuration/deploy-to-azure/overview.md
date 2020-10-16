@@ -22,7 +22,7 @@ These are the 4 most important requirements to get you started:
 3. **Decide which URL are you going to use for the SysKit Point web application** and prepare an **SSL certificate** required to make a **secure HTTPS connection** from the browser
    * Obtain a SSL certificate from a **publicly trusted certificate provider**, check the following article for instructions on how to [**deploy SysKit Point to a production environment**](ssl-certificate.md#deploy-syskit-point-to-a-production-environment) and perform **DNS server** configuration if necessary    
    * For testing environments, the application will generate a self-signed certificate, check the following article for instructions on how to [**deploy SysKit Point to a test environment**](ssl-certificate.md#deploy-syskit-point-to-a-test-environment)
-4. A **Global Administrator** will be asked to login and [**provide application consent**](./../../requirements/permission-requirements.md#global-administrator) during the setup
+4. A **Global Administrator** will be asked to log in and [**provide application consent**](./../../requirements/permission-requirements.md#global-administrator) during the setup
    * Please note: the Global admin account is only necessary during the initial configuration, later the application can be used with other non-privileged accounts
 
 Click the appropriate link to learn more about the requirements for each of the mentioned resources.
