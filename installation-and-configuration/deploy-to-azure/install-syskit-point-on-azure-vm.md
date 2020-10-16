@@ -2,7 +2,7 @@
 description: This article guides you through the SysKit Point installation.
 ---
 
-# Install SysKit Point on Azure Virtual Machine
+# Install SysKit Point on an Azure Virtual Machine
 
 ## Install & Configure SysKit Point on Azure Virtual Machine
 
@@ -59,7 +59,11 @@ Click **Test Connection**\(4\) to see if **SysKit Point** can connect to the ent
 
 ![SysKit Point Configuration - Database Configuration](../../.gitbook/assets/install-syskit-point-on-azure-vm_database-configuration-step.png)
 
-If the connection is successful, click **Next** to proceed.
+If the connection is successful, a Success window appears with the message:
+
+`Successfully connected to the database!`
+
+Click **OK** to close the Success window, and **Next &gt;** to continue to the next step.
 
 ### Service Settings Step
 
@@ -79,7 +83,7 @@ Click **OK** to close the Success window, and **Next &gt;** to continue to the n
 
 ### Connect to Office 365
 
-Click the **Connect to your tenant** link to connect SysKit Point to your Office 365 tenant. **You need to provide the Office 365 global admin account.** This account will be **used only for the initial setup** and Point **does not store any passwords** you present here.
+Click the **Connect to your tenant** link to connect SysKit Point to your Office 365 tenant. **You need to provide a Office 365 Global Admin account.** This account will be **used only for the initial setup** and Point **does not store any passwords** you enter here.
 
 When you first connect to your tenant, SysKit Point will request permissions needed to collect data from your Office 365 environment.
 
@@ -88,20 +92,20 @@ When you first connect to your tenant, SysKit Point will request permissions nee
 To continue, check the **Consent on behalf of your organization** **option \(1\)**, and click the **Accept** **button \(2\)**. A new window opens where you can choose which information would you like to collect when it comes to your Office 365 environment:
 
 * **Automatic Discovery** – by default, SysKit Point continuously monitors your Office 365 environment and shows you the latest data. SharePoint Online sites and Office 365 Groups data will always be monitored. This setting cannot be modified.
-* **Autodiscover OneDrive \(1\)** - by default, SysKit Point will collect information and report on user OneDrive activity, content, and sharing. To stop collecting OneDrive data, uncheck this option.
-* **Protect OneDrive privacy \(2\)** - When enabled, SysKit Point will only show general information about user's OneDrive, such as used storage. SysKit Point Admins won't be able to access OneDrive content and personal data. By default, this option is disabled.
-* **Store audit logs \(3\)** - SysKit Point will also collect all audit logs to monitor internal and external user activities and changes and Store them to the hard drive. To stop storing audit logs, uncheck this option.
+* **Autodiscover OneDrive \(1\)** - by default, SysKit Point will collect information and report on the users' OneDrive activity, content, and sharing. To stop collecting OneDrive data, uncheck this option.
+* **Protect OneDrive privacy \(2\)** - When enabled, SysKit Point will only show general information about user's OneDrive, such as used storage. SysKit Point Admins won't be able to access any OneDrive content and personal data. By default, this option is disabled.
+* **Store audit logs \(3\)** - SysKit Point will also collect all audit logs to monitor internal and external user activities and changes and store them to the hard drive. To stop storing audit logs, uncheck this option.
 * **Protect user privacy \(4\)** - When enabled, user activity data will be hidden from SysKit Point and protected from Administrator supervision. By default, this option is disabled.
 
 ![OneDrive and audit logs configuration](../../.gitbook/assets/install-syskit-point-on-azure-vm_configure-od-audit.png)
 
 {% hint style="success" %}
-You can change these options anytime by running **SysKit Point Configuration**.
+You can change these options anytime by running the **SysKit Point Configuration** again.
 {% endhint %}
 
 {% hint style="warning" %}
 **Please note!**  
-For SysKit Point to collect, process, and save audit logs, the auditing has to be enabled in your tenant. [Navigate here to find out how to turn on auditing.](../../faq/turn-on-auditing.md)
+For SysKit Point to collect, process, and save audit logs, auditing has to be enabled in your tenant. [Navigate here to find out how to turn on auditing.](../../faq/turn-on-auditing.md)
 {% endhint %}
 
 {% hint style="warning" %}
@@ -111,10 +115,10 @@ You can find answers in the [following article](../../requirements/permission-re
 
 ### Web Application Settings Step
 
-In the Web Application Settings, the following is defined:
+In the Web Application Settings, the following options are defined:
 
 * **URL of SysKit Point Web App \(1\)**
-* **Port used \(2\)**
+* **Port to use \(2\)**
 * **Certificate**; here you can choose from two options:
   * **SSL Certificate \(3\)**
   * **Self-signed certificate \(4\)**
@@ -123,13 +127,13 @@ In the Web Application Settings, the following is defined:
 
 ### Finish Step
 
-When the configuration is completed, if everything was configured correctly the screen will look like this.
+When the configuration is completed, if everything was configured correctly the screen will look like this:
 
 ![SysKit Point Configuration - Finish](../../.gitbook/assets/install-syskit-point-on-azure-vm_finish-step.png)
 
 ### Related Topics
 
-* [Install SysKit Point on Azure Virtual Machine](overview.md) 
+* [Overview - Install SysKit Point on Azure Virtual Machine](overview.md) 
 * [Hardware and Software Requirements](hardware-software-requirements.md)
 * [Create Azure Virtual Machine](create-azure-vm.md)
 * [Create Azure SQL Database](create-azure-sql-database.md)

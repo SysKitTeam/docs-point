@@ -1,15 +1,15 @@
 ---
 description: >-
-  This article is an explains what are the hardware and sofware requirements for
-  installing SysKit Point in a Azure enivornment.
+  This article is lists the hardware and sofware requirements for
+  installing SysKit Point in an Azure enivornment.
 ---
 
 # Hardware and Software Requirements
 
 SysKit Point has two main components which have their own requirements:
 
-* **Azure Virtual Machine** - host the data collection service and the Point web application
-* **Azure SQL Database** - stores data collected by Point
+* **Azure Virtual Machine** - hosts the data collection service and the Point web application
+* **Azure SQL Database** - stores the data collected by Point
 
 ## Azure Virtual Machine Requirements
 
@@ -57,5 +57,5 @@ Below, you can find **minimum** Azure SQL database recommendations based on your
 
 ## Related Topics
 
-* [Install SysKit Point on Azure Virtual Machine](overview.md) 
+* [Overview - Install SysKit Point on Azure Virtual Machine](overview.md) 
 
