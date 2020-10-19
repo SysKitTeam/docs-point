@@ -2,7 +2,7 @@
 description: This article guides you through the SysKit Point installation.
 ---
 
-# Install SysKit Point on an Azure Virtual Machine
+# Install SysKit Point on Azure Virtual Machine
 
 ## Install & Configure SysKit Point on Azure Virtual Machine
 
@@ -11,7 +11,7 @@ Before you can install and configure **SysKit Point** on your Azure Virtual Mach
 * [**Azure SQL database information**](create-azure-sql-database.md#output): **Azure SQL server**, **Azure SQL database name** and **SQL account** with db owner permissions 
 * [**URL for Point web application and a valid SSL certificate**](ssl-certificate.md#output)
 * [**Service account**](additional-vm-configuration.md#service-account): windows account to run the SysKit Point windows service
-* **Global Administrator** is ready to provide [**application consent**](./../../requirements/permission-requirements#global-administrator)
+* **Global Administrator** is ready to provide [**application consent**](../../requirements/permission-requirements.md#global-administrator)
 
 ## Install SysKit Point
 
