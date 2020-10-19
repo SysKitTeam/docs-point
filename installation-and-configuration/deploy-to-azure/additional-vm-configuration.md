@@ -1,10 +1,10 @@
 ---
 description: >-
- This article describes what additional configuration is necesary on the Azure Virtual Machine before SysKit Point can be installed on it.
+  This article describes what additional configuration is necesary on the Azure
+  Virtual Machine before SysKit Point can be installed on it.
 ---
 
 # Additional Azure Virtual Machine Configuration
-
 
 After the Virtual Machine has been created by your **Azure team** some **additional configuration steps are needed before you install SysKit Point** to that machine. Connect to the virtual machine using a **RDP connection** and perform the following steps:
 
@@ -24,12 +24,10 @@ We recommend you use one of the following options for the service account:
 * Use your own account \(the same one you use for RDP connection\): `Domain\Username`
   * Please note each time your **password expires, the SysKit Point Windows service will stop** until you update it in the **SysKit Point Configuration Wizard**
 
-The **only privileges** this Service account needs to have is the **Local Administrator** role on the Azure Virtual Machine.
-Please note:
+The **only privileges** this Service account needs to have is the **Local Administrator** role on the Azure Virtual Machine. Please note:
+
 * This account is **not used** to authenticate against Office 365 and does **not need** any Office 365 roles. 
-* This account is **not used** to authenticate against the Azure SQL Database and does **not need** any permissions on the SQL Server (if using SQL authentication per our recommendations).
-
-
+* This account is **not used** to authenticate against the Azure SQL Database and does **not need** any permissions on the SQL Server \(if using SQL authentication per our recommendations\).
 
 ## Configure Windows Firewall
 
@@ -49,7 +47,7 @@ To allow inbound traffic on the Azure Virtual Machine, follow these steps:
 
 SysKit Point uses **modern authentication** to enable **single sign-on** with your **Office 365 account** to the Point web application. **During the SysKit Point configuration** process, a **Global administrator** will be asked to **log in** and **provide consent**. For this login experience, Point uses an integrated version of the **Internet Explorer** browser. **Additional configuration of Internet Explorer is needed** in order to be able to sign in to [**Office.com**](https://www.office.com/).
 
-**Enable access to Microsoft pages**
+**Enable Access to Microsoft Pages**
 
 Server versions of Windows \(Internet Explorer\) use enhanced security settings and, in order to be able to use single sign-on authentication, it is necessary to enable access to the [**Microsoft login page**](https://login.microsoft.com).
 
@@ -60,16 +58,16 @@ We recommend configuring IE settings the following way:
 * Select the **Trusted sites** icon &gt; **Sites** button
 * Add the following Microsoft addresses to the trusted sites list:
 
-  [\*.microsoft.com](additional-vm-configuration.md), [\*.live.com](additional-vm-configuration.md), [\*.microsoftonline.com](additional-vm-configuration.md) 
+  [\*.microsoft.com](additional-vm-configuration.md), [\*.live.com](additional-vm-configuration.md), [\*.microsoftonline.com](additional-vm-configuration.md)
 
 **Enable JavaScript**
 
 Microsoft’s login window uses JavaScript to render its content. For it to work it is necessary to enable scripting in the Internet Explorer settings. To enable it, follow these steps:
 
 * Open **Internet Explorer**
-* Select **Tools** &gt; **Internet Options** &gt; **Security tab (1)**
-* Click the **Custom Level...** button **(2)**
-* Scroll down and change the **Active Scripting setting** &gt; select the **Enable** option **(3)**
+* Select **Tools** &gt; **Internet Options** &gt; **Security tab \(1\)**
+* Click the **Custom Level...** button **\(2\)**
+* Scroll down and change the **Active Scripting setting** &gt; select the **Enable** option **\(3\)**
 * **Confirm** the change
 * Close **Internet Options**
 
