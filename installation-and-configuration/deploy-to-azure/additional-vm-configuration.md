@@ -56,8 +56,8 @@ Server versions of Windows \(Internet Explorer\) use enhanced security settings 
 We recommend configuring IE settings the following way:
 
 * Open **Internet Explorer**
-* Select **Tools** -&gt; **Internet Options** -&gt; **Security tab**
-* Select the **Trusted sites** icon -&gt; **Sites** button
+* Select **Tools** &gt; **Internet Options** &gt; **Security tab**
+* Select the **Trusted sites** icon &gt; **Sites** button
 * Add the following Microsoft addresses to the trusted sites list:
 
   [\*.microsoft.com](additional-vm-configuration.md), [\*.live.com](additional-vm-configuration.md), [\*.microsoftonline.com](additional-vm-configuration.md) 
@@ -67,9 +67,9 @@ We recommend configuring IE settings the following way:
 Microsoft’s login window uses JavaScript to render its content. For it to work it is necessary to enable scripting in the Internet Explorer settings. To enable it, follow these steps:
 
 * Open **Internet Explorer**
-* Select **Tools** -&gt; **Internet Options** -&gt; **Security tab (1)**
+* Select **Tools** &gt; **Internet Options** &gt; **Security tab (1)**
 * Click the **Custom Level...** button **(2)**
-* Scroll down and change the **Active Scripting setting** -&gt; select the **Enable** option **(3)**
+* Scroll down and change the **Active Scripting setting** &gt; select the **Enable** option **(3)**
 * **Confirm** the change
 * Close **Internet Options**
 
