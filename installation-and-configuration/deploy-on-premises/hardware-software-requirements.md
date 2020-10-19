@@ -31,7 +31,7 @@ Below, you can find the Virtual Machine **minimum requirements** based on your e
 | Office 365 Environment | CPU | Memory | Disk |
 | :--- | :--- | :--- | :--- |
 | **Up to 1000 users/sites** | 64-bit CPU, 2 cores | 8GB RAM | 6GB-12GB per month for 1000 users |
-| **Up to 10 000 users/sites** | 64-bit CPU, 4 cores | 16GB RAM | 6GB-12GB per month for 1000 users |
+| **Up to 10 000 users/sites** | 64-bit CPU, 4 cores | 16GB RAM | 6GB-12GB per month for 1000 users
 | **More than 10 000 users/sites** | 64-bit CPU, 4 cores | 32GB RAM | 6GB-12GB per month for 1000 users |
 
 {% hint style="warning" %}
@@ -41,7 +41,6 @@ Below, you can find the Virtual Machine **minimum requirements** based on your e
 ## SQL Server Requirements
 
 We recommend using a **dedicated SQL Server** for SysKit Point to store its data collected from your Office 365 environment. When creating a new SQL Server, please note the following:
-
 * **MS SQL Server Web edition or better is required**
 * **MS SQL Server 2012 version or newer is required**
 
@@ -50,11 +49,10 @@ We recommended that you use a **dedicated virtual machine for the SQL Server** a
 | Office 365 Environment | CPU | Memory | Disk |
 | :--- | :--- | :--- | :--- |
 | **Up to 1000 users/sites** | 64-bit CPU, 2 cores | 8GB RAM | 20GB |
-| **Up to 10 000 users/sites** | 64-bit CPU, 4 cores | 16GB RAM | 50GB |
+| **Up to 10 000 users/sites** | 64-bit CPU, 4 cores | 16GB RAM | 50GB
 | **More than 10 000 users/sites** | 64-bit CPU, 4 cores | 32GB RAM | 100GB |
 
-### Using SysKit Point and SQL Server on the Same Virtual Machine
-
+### Using SysKit Point and SQL Server on the same Virtual Machine
 It is **not recommended** to install SysKit Point and SQL Server on the same virtual machine. If you have limited resources and just want to test the application, you can do it, but SysKit Point's **performance will be downgraded**. **SQL Server Express** edition is only allowed if you have a small Office 365 Environment with up to 500 users/sites.
 
 Below, you can find the Virtual Machine **minimum requirements** if you install both SysKit Point and SQL Server on that VM based on your environment's size.
@@ -62,7 +60,7 @@ Below, you can find the Virtual Machine **minimum requirements** if you install 
 | Office 365 Environment | CPU | Memory | Disk |
 | :--- | :--- | :--- | :--- |
 | **Up to 1000 users/sites** | 64-bit CPU, 4 cores | 16GB RAM | 20GB + 6GB-12GB per month for 1000 users |
-| **Up to 10 000 users/sites** | 64-bit CPU, 4 cores | 32GB RAM | 50GB + 6GB-12GB per month for 1000 users |
+| **Up to 10 000 users/sites** | 64-bit CPU, 4 cores | 32GB RAM | 50GB + 6GB-12GB per month for 1000 users
 | **More than 10 000 users/sites** | Not recommended | Not recommended | Not recommended |
 
 {% hint style="warning" %}
