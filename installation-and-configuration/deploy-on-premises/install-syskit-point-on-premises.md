@@ -6,10 +6,10 @@ description: This article guides you through the SysKit Point installation.
 
 Before you can install and configure **SysKit Point** on your Virtual Machine make sure you prepared the following information described in the [**installation guide**](overview.md):
 
-* [**SQL Server database information**](https://github.com/SysKitTeam/docs-point/tree/fa9484765a1247ba48a349633f72e21f791c5b1a/installation-and-configuration/deploy-on-premises/create-azure-sql-database.md#output): **SQL server**, and **optionally** depending on your setup **SQL database name** and **SQL account** with db owner permissions 
+* [**SQL Server database information**](syskit-point-database#output): **SQL server**, and **optionally** depending on your setup **SQL database name** and **SQL account** with db owner permissions 
 * [**URL for Point web application and a valid SSL certificate**](ssl-certificate.md#output)
 * [**Service account**](additional-vm-configuration.md#service-account): windows account to run the SysKit Point windows service
-* **Global Administrator** is ready to provide [**application consent**](https://github.com/SysKitTeam/docs-point/tree/fa9484765a1247ba48a349633f72e21f791c5b1a/requirements/permission-requirements/README.md#global-administrator)
+* **Global Administrator** is ready to provide [**application consent**](../requirements/permission-requirements#global-administrator)
 
 ## Install SysKit Point
 
