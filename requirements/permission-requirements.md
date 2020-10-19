@@ -12,8 +12,9 @@ Depending on where you are deploying SysKit Point - **Cloud** or **on-premises**
 
 When deploying SysKit Point to Cloud, use the following articles to prepare your Azure environment for installation and configuration of SysKit Point:
 
-* [**Azure Virtual Machine**](https://github.com/SysKitTeam/docs-point/tree/7d6a334c15cb1a5545f7bb2da6cd12f48c5efc7d/installation-and-configuration/deploy-to-azure/prerequisites/create-azure-vm.md#prepare-for-installation-and-configuration) 
-* [**Azure SQL database**](https://github.com/SysKitTeam/docs-point/tree/7d6a334c15cb1a5545f7bb2da6cd12f48c5efc7d/installation-and-configuration/deploy-to-azure/prerequisites/create-azure-sql-database.md#prepare-for-installation-and-configuration)
+* [**Azure Virtual Machine**](../installation-and-configuration/deploy-to-azure/hardware-software-requirements.md#azure-virtual-machine-requirements)
+* [**Azure SQL database**](../installation-and-configuration/deploy-to-azure/hardware-software-requirements.md#azure-sql-server-requirements)
+
 
 Click the appropriate link to learn more about the requirements for each of the mentioned resources.
 
@@ -21,8 +22,8 @@ Click the appropriate link to learn more about the requirements for each of the 
 
 When deploying SysKit Point on-premises, you can find all information in the following articles:
 
-* [**Windows Server**](../installation-and-configuration/deploy-on-premises/prerequisites/syskit-point-server.md#prepare-for-installation-and-configuration)
-* [**SQL Server database**](../installation-and-configuration/deploy-on-premises/prerequisites/syskit-point-database.md#prepare-for-installation-and-configuration)
+* [**Windows Server**](../installation-and-configuration/deploy-on-premises/hardware-software-requirements.md#virtual-machine-requirements)
+* [**SQL Server database**](../installation-and-configuration/deploy-on-premises/hardware-software-requirements.md#sql-server-requirements)
 
 Click the appropriate link to learn more about the requirements for each of the mentioned resources.
 
