@@ -13,7 +13,7 @@ Depending on where you are deploying SysKit Point - **Cloud** or **on-premises**
 When deploying SysKit Point to Cloud, use the following articles to prepare your Azure environment for installation and configuration of SysKit Point:
 
 * [**Azure Virtual Machine**](../installation-and-configuration/deploy-to-azure/hardware-software-requirements.md#azure-virtual-machine-requirements)
-* [**Azure SQL database**](../installation-and-configuration/deploy-to-azure/hardware-software-requirements.md#azure-sql-server-requirements)
+* [**Azure SQL database**](../installation-and-configuration/deploy-to-azure/hardware-software-requirements.md#azure-sql-database-requirements)
 
 
 Click the appropriate link to learn more about the requirements for each of the mentioned resources.
