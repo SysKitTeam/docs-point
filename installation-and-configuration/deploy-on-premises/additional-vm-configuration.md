@@ -68,11 +68,14 @@ We recommend configuring IE settings the following way:
 Microsoft’s login window uses JavaScript to render its content. For it to work it is necessary to enable scripting in Internet Explorer settings. To enable it, follow the steps:
 
 * Open **Internet Explorer**
-* Select **Tools** -&gt; **Internet Options** -&gt; **Security tab**
-* Click the **Custom Level...** button
-* Scroll down and change the **Active Scripting setting** -&gt; select **Enable** option
+* Select **Tools** -&gt; **Internet Options** -&gt; **Security tab (1)**
+* Click the **Custom Level...** button **(2)**
+* Scroll down and change the **Active Scripting setting** -&gt; select the **Enable** option **(3)**
 * **Confirm** the change
 * Close **Internet Options**
+
+![](../../.gitbook/assets/azure-vm_ie-js-settings_1.png)
+![Internet Explorer - Enabling JavaScript](../../.gitbook/assets/azure-vm_ie-js-settings_2.png)
 
 ## Install a Compatible Browser
 
