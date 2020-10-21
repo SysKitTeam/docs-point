@@ -2,6 +2,7 @@
 
 * [SysKit Point](README.md)
 * [Product Updates](product-updates/README.md)
+  * [SysKit Point 16](product-updates/point-16-release-note.md)
   * [SysKit Point 15](product-updates/point-15-release-note.md)
   * [SysKit Point 14](product-updates/point-14-release-note.md)
   * [SysKit Point 13](product-updates/point-13-release-note.md)
@@ -40,6 +41,7 @@
   * [Activation FAQ](activation/activation-faq.md)
 * [How To](how-to/README.md)
   * [SysKit Point Quick Start Guide](how-to/syskit-point-quick-start-guide.md)
+  * [Dashboard Overview](how-to/dashboard-overview.md)
   * [Collect Office 365 Data](how-to/collect-office-365-data.md)
 * [Common Tasks](common-tasks/README.md)
   * [Check Access for Specific Office 365 User](common-tasks/check-access-for-specific-user.md)

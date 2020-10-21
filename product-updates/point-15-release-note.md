@@ -6,7 +6,9 @@ description: >-
 
 # SysKit Point 15
 
-**SysKit Point 15 is here**! Before you sail into the vacation, check out what we have prepared for you in the brand-new version of SysKit Point.
+**SysKit Point 15 is here**!
+
+Before you sail into the vacation, check out what we have prepared for you in the brand-new version of SysKit Point.
 
 [Try SysKit Point trial](https://www.syskit.com/products/point/request-a-free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
