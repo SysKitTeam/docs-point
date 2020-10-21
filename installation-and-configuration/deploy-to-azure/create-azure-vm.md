@@ -4,26 +4,26 @@ description: >-
   install and configure SysKit Point in an Azure environment.
 ---
 
-# Create an Azure Virtual Machine
+# Create Azure Virtual Machine
 
 Here are the instructions for your **Azure team** to create and configure a **dedicated Azure Virtual Machine** in the [Azure portal](https://portal.azure.com) which will host SysKit Point.
 
 ## Prepare for Installation & Configuration
 
-First you have to create a new **Virtual Machine** in the [Azure portal](https://portal.azure.com). During creation, you need to select an appropriate **Windows Server** image and set the **size** according to our [minimum hardware requirements](hardware-software-requirements.md#azure-virtual-machine-requirements).
+First, you have to create a new **Virtual Machine** in the [Azure portal](https://portal.azure.com). During creation, you need to select an appropriate **Windows Server** image and set the **size** according to our [minimum hardware requirements](hardware-software-requirements.md#azure-virtual-machine-requirements).
 
 After you create an Azure Virtual Machine, ensure the following configuration is set:
 
-* A **[Network Security Group](#network-security-group) is assigned** to the Azure Virtual Machine
+* A [**Network Security Group**](create-azure-vm.md#network-security-group) **is assigned** to the Azure Virtual Machine
   * **RDP connection \(port 3389\)** that allows access to the Azure Virtual Machine is enabled
   * **HTTPS connection \(TCP port 443\)** that allows access to Point web application is enabled
-* A **[DNS name](#configure-a-dns-name)** is set for the Azure Virtual Machine
+* A [**DNS name**](create-azure-vm.md#configure-a-dns-name) is set for the Azure Virtual Machine
   * A **Public IP address \(static\)** is set for the Azure Virtual Machine
 
 {% hint style="warning" %}
 **Please note!**
 
-* **For increased security after the SysKit Point configuration is completed, the inbound rule allowing RDP connections can be removed.**
+* **For increased security, after the SysKit Point configuration is completed, the inbound rule allowing RDP connections can be removed.**
 {% endhint %}
 
 ### Network Security Group
@@ -33,8 +33,8 @@ To **allow inbound traffic** for the **Network Security Group** associated with 
 * Open the [Azure portal](https://portal.azure.com)
 * Navigate to your **Azure Virtual Machine** 
 * **Click Networking** in the Settings section
-* To enable **RDP connection**, click **Add inbound port rule button \(1\)** to add a rule for the **TCP protocol** with destination **port 3389 \(2\)** or **edit an existing rule** if it exists
-* To enable **HTTPS connection**, click **Add inbound port rule button \(1\)** to add a rule for the **TCP protocol** with destination **port 443 \(2\)**
+* To enable **RDP connection**, click the **Add inbound port rule button \(1\)** to add a rule for the **TCP protocol** with destination **port 3389 \(2\)** or **edit an existing rule** if it exists
+* To enable **HTTPS connection**, click the **Add inbound port rule button \(1\)** to add a rule for the **TCP protocol** with destination **port 443 \(2\)**
 
 ![](../../.gitbook/assets/azure-vm_networking_01.png)
 
@@ -56,18 +56,18 @@ You need to **configure a DNS name** in the Azure Portal which will be used for 
 ![Azure - DNS Name configuration](../../.gitbook/assets/azure-vm_dns-name_02.png)
 
 {% hint style="success" %}
-* The Public IP address defined here is needed when [allowing access to Azure SQL database](create-azure-sql-database.md#allowing-access-to-azure-sql-database), so make sure to have it at hand.
+* The Public IP address defined here is needed when [allowing access to the Azure SQL database](create-azure-sql-database.md#allowing-access-to-azure-sql-database), so make sure to have it at hand.
 {% endhint %}
 
 ## Output
 
 When your **Azure team** finishes the above steps, they need to provide you with the following information for the next steps in the installation process:
 
-* A **RDP connection file** so you can connect to the new Azure Virtual Machine 
+* An **RDP connection file** so you can connect to the new Azure Virtual Machine 
 * A **User account** with **Local Administrator rights** on the Azure Virtual Machine used for RDP connection and the SysKit Point installation
-* A **Static IP address value** needed to [allow access to Azure SQL database](create-azure-sql-database.md#allowing-access-to-azure-sql-database) and a custom DNS setup if you decide to configure it
+* A **Static IP address value** needed to [allow access to the Azure SQL database](create-azure-sql-database.md#allowing-access-to-azure-sql-database) and a custom DNS setup if you decide to configure it
 * The **DNS name** of the Azure Virtual Machine 
-  * This will be in the format `{DNSNameLabel}.{DataCenter}.cloudapp.azure.com` as visible during the **[Configure a DNS Name](#configure-a-dns-name)** step
+  * This will be in the format `{DNSNameLabel}.{DataCenter}.cloudapp.azure.com` as visible during the [**Configure a DNS Name**](create-azure-vm.md#configure-a-dns-name) step
   * Example `point.eastus.cloudapp.azure.com`
 
 ## Related Topics
