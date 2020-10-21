@@ -9,7 +9,7 @@ Before you can install and configure **SysKit Point** on your Virtual Machine ma
 * [**SQL Server database information**](syskit-point-database.md#output): **SQL server**, and **optionally** depending on your setup **SQL database name** and **SQL account** with db owner permissions 
 * [**URL for Point web application and a valid SSL certificate**](ssl-certificate.md#output)
 * [**Service account**](additional-vm-configuration.md#service-account): windows account to run the SysKit Point windows service
-* **Global Administrator** is ready to provide [**application consent**](https://github.com/SysKitTeam/docs-point/tree/b3cffaa8f5ae8fa6ced6c70c2331b0b3ab0c6ce4/installation-and-configuration/requirements/permission-requirements/README.md#global-administrator)
+* **Global Administrator** is ready to provide [**application consent**](../../requirements/permission-requirements.md#global-administrator)
 
 ## Install SysKit Point
 
