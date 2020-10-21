@@ -15,7 +15,7 @@ After the Virtual Machine has been created by your **Infrastructure team** some 
 
 ## Service Account
 
-A Service account is a **Windows Account** used to run the **SysKit Point windows service**. This windows service will **host the Point web application**.
+A Service account is a **Windows account** used to run the **SysKit Point windows service**. This windows service will **host the Point web application**.
 
 We recommend you use one of the following options for the service account:
 
@@ -47,18 +47,18 @@ To allow inbound traffic on the Virtual Machine, follow these steps:
 
 ## Configure Internet Explorer Settings
 
-SysKit Point uses **modern authentication** to enable **single sign-on** with your **Office 365 account** to the Point web application. **During the SysKit Point configuration** process **Global administrator** will be asked to **login** and **provide consent**. For this login experience Point uses an integrated version of the **Internet Explorer** browser. **Additional configuration of Internet Explorer is needed** in order to be able to sign in to [**Office.com**](https://www.office.com/).
+SysKit Point uses **modern authentication** to enable **single sign-on** with your **Office 365 account** to the Point web application. **During the SysKit Point configuration** process, the **Global administrator** will be asked to **login** and **provide consent**. For this login experience Point uses an integrated version of the **Internet Explorer** browser. **Additional configuration of Internet Explorer is needed** in order to be able to sign in to [**Office.com**](https://www.office.com/).
 
 **Enable Access to Microsoft Pages**
 
-Server versions of Windows \(Internet Explorer\) use an enhanced security settings and in order to be able to use single sign-on authentication it is necessary to enable access to the [**Microsoft login page**](https://login.microsoft.com).
+Server versions of Windows \(Internet Explorer\) use enhanced security settings and in order to be able to use single sign-on authentication, it is necessary to enable access to the [**Microsoft login page**](https://login.microsoft.com).
 
 We recommend configuring IE settings the following way:
 
 * Open **Internet Explorer**
 * Select **Tools** &gt; **Internet Options** &gt; **Security tab**
 * Select **Trusted sites** icon &gt; **Sites** button
-* Add following Microsoft addresses to trusted sites list:
+* Add the following Microsoft addresses to the trusted sites list:
 
   [\*.microsoft.com](additional-vm-configuration.md), [\*.live.com](additional-vm-configuration.md), [\*.microsoftonline.com](additional-vm-configuration.md)
 
