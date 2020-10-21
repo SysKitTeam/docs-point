@@ -2,16 +2,16 @@
 description: This article guides you through the SysKit Point installation.
 ---
 
-# Install SysKit Point on Azure Virtual Machine
+# Install SysKit Point on an Azure Virtual Machine
 
 ## Install & Configure SysKit Point on Azure Virtual Machine
 
 Before you can install and configure **SysKit Point** on your Azure Virtual Machine make sure you prepared the following information described in the [**installation guide**](overview.md):
 
-* [**Azure SQL database information**](create-azure-sql-database.md#output): **Azure SQL Server**, **Azure SQL database name**, and **SQL account** with db owner permissions 
+* [**Azure SQL database information**](create-azure-sql-database.md#output): **Azure SQL server**, **Azure SQL database name** and **SQL account** with db owner permissions 
 * [**URL for Point web application and a valid SSL certificate**](ssl-certificate.md#output)
 * [**Service account**](additional-vm-configuration.md#service-account): windows account to run the SysKit Point windows service
-* **Global Administrator** is ready to provide [**application consent**](../../requirements/permission-requirements.md#global-administrator)
+* **Global Administrator** is ready to provide [**application consent**](./../../requirements/permission-requirements#global-administrator)
 
 ## Install SysKit Point
 
@@ -20,7 +20,7 @@ Before you can install and configure **SysKit Point** on your Azure Virtual Mach
 To install SysKit Point, make sure that the **RDP connection \(TCP port 3389\)** that allows you to access your virtual machine is enabled. After the configuration, the inbound rule allowing RDP connections can be removed.
 {% endhint %}
 
-1. **Connect to the Azure Virtual Machine** using an RDP connection
+1. **Connect to the Azure Virtual Machine** using RDP connection
 2. [Download the SysKit Point setup file](https://my.syskit.com/).
 3. **Unpack and run the setup file** - **SysKitPointSetup.exe**. The wizard will guide you through the installation steps.
 4. Read and accept the license agreement - [EULA](https://www.syskit.com/eula/) - click **Next &gt;** to proceed.
@@ -53,9 +53,9 @@ On the Database Configuration step you will be required to enter the:
 * **Database server \(1\)**
 * **Database name \(2\)**
 
-Select the option **Use SQL authentication** \(3\) to access the database and use the **data and credentials** defined when creating an Azure SQL database.
+Select the option **Use SQL authentication**\(3\) to access the database and use the **data and credentials** defined when creating an Azure SQL database.
 
-Click **Test Connection** \(4\) to see if **SysKit Point** can connect to the entered Azure SQL database.
+Click **Test Connection**\(4\) to see if **SysKit Point** can connect to the entered Azure SQL database.
 
 ![SysKit Point Configuration - Database Configuration](../../.gitbook/assets/install-syskit-point-on-azure-vm_database-configuration-step.png)
 
@@ -67,7 +67,7 @@ Click **OK** to close the Success window, and **Next &gt;** to continue to the n
 
 ### Service Settings Step
 
-Here you must provide a [Service account](additional-vm-configuration.md#service-account) that will be used for running the SysKit Point windows service.
+Here you must provide a [Service account](additional-vm-configuration.md#service-account) that will be used for running SysKit Point windows service.
 
 Supported service account formats are as follows:
 
@@ -83,7 +83,7 @@ Click **OK** to close the Success window, and **Next &gt;** to continue to the n
 
 ### Connect to Office 365
 
-Click the **Connect to your tenant** link to connect SysKit Point to your Office 365 tenant. **You need to provide an Office 365 Global Admin account.** This account will be **used only for the initial setup** and Point **does not store any passwords** you enter here.
+Click the **Connect to your tenant** link to connect SysKit Point to your Office 365 tenant. **You need to provide a Office 365 Global Admin account.** This account will be **used only for the initial setup** and Point **does not store any passwords** you enter here.
 
 When you first connect to your tenant, SysKit Point will request permissions needed to collect data from your Office 365 environment.
 
@@ -93,8 +93,8 @@ To continue, check the **Consent on behalf of your organization** **option \(1\)
 
 * **Automatic Discovery** – by default, SysKit Point continuously monitors your Office 365 environment and shows you the latest data. SharePoint Online sites and Office 365 Groups data will always be monitored. This setting cannot be modified.
 * **Autodiscover OneDrive \(1\)** - by default, SysKit Point will collect information and report on the users' OneDrive activity, content, and sharing. To stop collecting OneDrive data, uncheck this option.
-* **Protect OneDrive privacy \(2\)** - When enabled, SysKit Point will only show general information about the user's OneDrive, such as used storage. SysKit Point Admins won't be able to access any OneDrive content and personal data. By default, this option is disabled.
-* **Store audit logs \(3\)** - SysKit Point will also collect all audit logs to monitor internal and external user activities and changes and store them on the hard drive. To stop storing audit logs, uncheck this option.
+* **Protect OneDrive privacy \(2\)** - When enabled, SysKit Point will only show general information about user's OneDrive, such as used storage. SysKit Point Admins won't be able to access any OneDrive content and personal data. By default, this option is disabled.
+* **Store audit logs \(3\)** - SysKit Point will also collect all audit logs to monitor internal and external user activities and changes and store them to the hard drive. To stop storing audit logs, uncheck this option.
 * **Protect user privacy \(4\)** - When enabled, user activity data will be hidden from SysKit Point and protected from Administrator supervision. By default, this option is disabled.
 
 ![OneDrive and audit logs configuration](../../.gitbook/assets/install-syskit-point-on-azure-vm_configure-od-audit.png)
