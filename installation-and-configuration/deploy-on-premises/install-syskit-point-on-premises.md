@@ -6,10 +6,10 @@ description: This article guides you through the SysKit Point installation.
 
 Before you can install and configure **SysKit Point** on your Virtual Machine make sure you prepared the following information described in the [**installation guide**](overview.md):
 
-* [**SQL Server database information**](https://github.com/SysKitTeam/docs-point/tree/b3cffaa8f5ae8fa6ced6c70c2331b0b3ab0c6ce4/installation-and-configuration/deploy-on-premises/syskit-point-database/README.md#output): **SQL server**, and **optionally** depending on your setup **SQL database name** and **SQL account** with db owner permissions 
+* [**SQL Server database information**](syskit-point-database#output): **SQL server**, and **optionally** depending on your setup **SQL database name** and **SQL account** with db owner permissions 
 * [**URL for Point web application and a valid SSL certificate**](ssl-certificate.md#output)
 * [**Service account**](additional-vm-configuration.md#service-account): windows account to run the SysKit Point windows service
-* **Global Administrator** is ready to provide [**application consent**](https://github.com/SysKitTeam/docs-point/tree/b3cffaa8f5ae8fa6ced6c70c2331b0b3ab0c6ce4/installation-and-configuration/requirements/permission-requirements/README.md#global-administrator)
+* **Global Administrator** is ready to provide [**application consent**](../requirements/permission-requirements#global-administrator)
 
 ## Install SysKit Point
 
@@ -67,7 +67,7 @@ If the connection is successful, click **Next** to proceed.
 
 ### Service Settings Step
 
-Here you must provide a [Service account](additional-vm-configuration.md#service-account) that will be used for running the SysKit Point windows service.
+Here you must provide a [Service account](additional-vm-configuration.md#service-account) that will be used for running SysKit Point windows service.
 
 Supported service account formats are as follows:
 
@@ -94,7 +94,7 @@ To continue, check the **Consent on behalf of your organization** **option \(1\)
 * **Automatic Discovery** – by default, SysKit Point continuously monitors your Office 365 environment and shows you the latest data. SharePoint Online sites and Office 365 Groups data will always be monitored. This setting cannot be modified.
 * **Autodiscover OneDrive \(1\)** - by default, SysKit Point will collect information and report on user OneDrive activity, content, and sharing. To stop collecting OneDrive data, uncheck this option.
 * **Protect OneDrive privacy \(2\)** - When enabled, SysKit Point will only show general information about the user's OneDrive, such as used storage. SysKit Point Admins won't be able to access OneDrive content and personal data. By default, this option is disabled.
-* **Store audit logs \(3\)** - SysKit Point will also collect all audit logs to monitor internal and external user activities and changes and Store them on the hard drive. To stop storing audit logs, uncheck this option.
+* **Store audit logs \(3\)** - SysKit Point will also collect all audit logs to monitor internal and external user activities and changes and Store them to the hard drive. To stop storing audit logs, uncheck this option.
 * **Protect user privacy \(4\)** - When enabled, user activity data will be hidden from SysKit Point and protected from Administrator supervision. By default, this option is disabled.
 
 ![OneDrive and audit logs configuration](../../.gitbook/assets/install-syskit-point-on-premises_configure-od-audit.png)
