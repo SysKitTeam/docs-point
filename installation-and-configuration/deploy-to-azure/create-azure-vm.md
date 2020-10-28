@@ -19,11 +19,14 @@ After you create an Azure Virtual Machine, ensure the following configuration is
   * **HTTPS connection \(TCP port 443\)** that allows access to Point web application is enabled
 * A **[DNS name](#configure-a-dns-name)** is set for the Azure Virtual Machine
   * A **Public IP address \(static\)** is set for the Azure Virtual Machine
+* **A Premium (SSD) [Disk is attached](#attach-premium-ssd-data-disk)** to the Azure Virtual Machine
 
 {% hint style="warning" %}
+
 **Please note!**
 
 * **For increased security after the SysKit Point configuration is completed, the inbound rule allowing RDP connections can be removed.**
+
 {% endhint %}
 
 ### Network Security Group
@@ -58,6 +61,17 @@ You need to **configure a DNS name** in the Azure Portal which will be used for 
 {% hint style="success" %}
 * The Public IP address defined here is needed when [allowing access to Azure SQL database](create-azure-sql-database.md#allowing-access-to-azure-sql-database), so make sure to have it at hand.
 {% endhint %}
+
+### Attach Premium (SSD) data disk
+
+* While creating your Azure VM data disk please make sure that you calculate your storage requirements based on the number of users on your tenants multiplied by the number of months you want to keep audit logs. You can find more details at [minimum hardware requirements page](hardware-software-requirements.md#azure-virtual-machine-requirements).
+* When attaching a data disk to you VM, make sure that you select **Premium (SSD)** disk type.
+
+      TODO: ovdje mozda SS kod attachanja diska?
+
+* After the disk is attached, in order to achieve best performance, switch your data disk `Host caching` to [**Read Only**](https://docs.microsoft.com/en-us/azure/virtual-machines/premium-storage-performance#disk-caching)
+
+      TODO: SS ubacitti!!!
 
 ## Output
 
