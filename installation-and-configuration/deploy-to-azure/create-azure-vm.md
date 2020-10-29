@@ -65,13 +65,10 @@ You need to **configure a DNS name** in the Azure Portal which will be used for 
 ### Attach Premium (SSD) data disk
 
 * While creating your Azure VM data disk please make sure that you calculate your storage requirements based on the number of users on your tenants multiplied by the number of months you want to keep audit logs. You can find more details at [minimum hardware requirements page](hardware-software-requirements.md#azure-virtual-machine-requirements).
-* When attaching a data disk to you VM, make sure that you select **Premium (SSD)** disk type.
+* When attaching a data disk to you VM, make sure that you select **Premium (SSD) (1)** disk type.
+* After the disk is attached, in order to achieve best performance, switch your data disk `Host caching` to [**Read Only (2)**](https://docs.microsoft.com/en-us/azure/virtual-machines/premium-storage-performance#disk-caching)
 
-      TODO: ovdje mozda SS kod attachanja diska?
-
-* After the disk is attached, in order to achieve best performance, switch your data disk `Host caching` to [**Read Only**](https://docs.microsoft.com/en-us/azure/virtual-machines/premium-storage-performance#disk-caching)
-
-      TODO: SS ubacitti!!!
+![Azure - Azure - Storage type and Host caching](../../.gitbook/assets/create-azure-vm_disk-cache.png)
 
 ## Output
 
