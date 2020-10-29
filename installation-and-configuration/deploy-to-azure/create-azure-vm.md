@@ -19,7 +19,7 @@ After you create an Azure Virtual Machine, ensure the following configuration is
   * **HTTPS connection \(TCP port 443\)** that allows access to Point web application is enabled
 * A **[DNS name](#configure-a-dns-name)** is set for the Azure Virtual Machine
   * A **Public IP address \(static\)** is set for the Azure Virtual Machine
-* **A Premium (SSD) [Disk is attached](#attach-premium-ssd-data-disk)** to the Azure Virtual Machine
+* A **Premium (SSD) [Disk is attached](#attach-premium-ssd-data-disk)** to the Azure Virtual Machine
 
 {% hint style="warning" %}
 
