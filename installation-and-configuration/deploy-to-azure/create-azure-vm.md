@@ -68,7 +68,7 @@ You need to **configure a DNS name** in the Azure Portal which will be used for 
 * When attaching a data disk to you VM, make sure that you select **Premium (SSD) (1)** disk type.
 * After the disk is attached, in order to achieve best performance, switch your data disk `Host caching` to [**Read Only (2)**](https://docs.microsoft.com/en-us/azure/virtual-machines/premium-storage-performance#disk-caching)
 
-![Azure - Azure - Storage type and Host caching](../../.gitbook/assets/create-azure-vm_disk-cache.png)
+![Azure - Storage type and Host caching](../../.gitbook/assets/create-azure-vm_disk-cache.png)
 
 ## Output
 
