@@ -2,6 +2,7 @@
 
 * [SysKit Point](README.md)
 * [Product Updates](product-updates/README.md)
+  * [SysKit Point 17](product-updates/point-17-release-note.md)
   * [SysKit Point 16](product-updates/point-16-release-note.md)
   * [SysKit Point 15](product-updates/point-15-release-note.md)
   * [SysKit Point 14](product-updates/point-14-release-note.md)
@@ -45,6 +46,7 @@
   * [Collect Office 365 Data](how-to/collect-office-365-data.md)
 * [Common Tasks](common-tasks/README.md)
   * [Check Access for Specific Office 365 User](common-tasks/check-access-for-specific-user.md)
+  * [Copy User Permissions](common-tasks/copy-user-permissions.md)
   * [Identify Inactive Content](common-tasks/inactive-content.md)
   * [Enable Microsoft Teams Activity Tracking](common-tasks/microsoft-teams-activity.md)
   * [Track Office 365 External Users and Their Activities](common-tasks/track-external-users-and-their-activities.md)
@@ -58,6 +60,7 @@
   * [Resolve Lifecycle Management Tasks in SysKit Point](common-tasks/lifecycle-management.md)
   * [Monitor Lifecycle Management Tasks in SysKit Point](common-tasks/monitor-lifecycle-management.md)
   * [Run Lifecycle Management Actions in SysKit Point](common-tasks/lifecycle-management-actions.md)
+  * [Schedule Reports](common-tasks/schedule-reports.md)
 * [FAQ](faq/README.md)
   * [Report Data Limits](faq/report-data-limits.md)
   * [Migrate Audit Logs](faq/migrate-audit-logs.md)
