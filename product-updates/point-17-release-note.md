@@ -6,9 +6,7 @@ description: >-
 
 # SysKit Point 17
 
-**SysKit Point 17 is here**!
-
-Along with autumn comes a new version of SysKit Point packed with new features and improvements! Find what's new in the list below.
+Let the festivities begin; **SysKit Point 17 is here**! Although it's still November, we bring you many gifts and treats to sweeten your end of the year! The list is long, so scroll down fast!
 
 [Try SysKit Point trial](https://www.syskit.com/products/point/request-a-free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
