@@ -83,8 +83,7 @@ Along with autumn comes a new version of SysKit Point packed with new features a
 * **Fixed a bug** where the side panel showed erroneous information for the selected resource regarding the state of the last permissions review. Although the previous permissions review was completed, the following message was displayed: `Review ended n day(s) ago. Task was not completed in time.`
 * **Fixed a bug** where the OneDrive report link was not displayed in the side panel if a user was selected on the Users Overview screen. The report link is now displayed as intended. 
 * **Fixed an issue** where the site sync would fail, and the following error was thrown:
-
-  `Errors loading data for list  <`_`listname> ("<listurl>") (<object_id`_`>) System.InvalidOperationException: There is an error in XML document.`
+  `Errors loading data for list <list_name> ("<list_url>") (<object_id>) System.InvalidOperationException: There is an error in XML document.`
 
 * **Fixed a bug** with the export of Sites Overview report where the ‘Storage Used’ column data was exported in bytes. The excel export now shows data in megabytes as the column name suggests – Storage Used \[MB\]. 
 * **Fixed a bug** where the Orphaned Users report would result in the Bad Request error message. The following errors were visible in the event log:
