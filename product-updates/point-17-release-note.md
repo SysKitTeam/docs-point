@@ -26,7 +26,7 @@ Along with autumn comes a new version of SysKit Point packed with new features a
   * **Manually send scheduled reports when needed**
   * **Edit**, **pause**, **start** and **delete scheduled reports**
 
-  \*\*\*\*[To learn more about Scheduled reports, read the dedicated article.](../common-tasks/schedule-reports.md)
+[To learn more about Scheduled reports, read the dedicated article.](../common-tasks/schedule-reports.md)
 
 * **New Permissions Review wizard is available!** To simplify the Permissions Review process for site owners, the Permissions Review tasks can now be completed with the help of a wizard that guides you through the most important aspects of the Permissions Review.
 
