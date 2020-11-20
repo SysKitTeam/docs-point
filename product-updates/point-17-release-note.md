@@ -23,7 +23,8 @@ Let the festivities begin; **SysKit Point 17 is here**! Although it's still Nove
   * **View all scheduled reports on a dedicated Scheduled Reports screen**
   * **Manually send scheduled reports when needed**
   * **Edit**, **pause**, **start** and **delete scheduled reports**
-[To learn more about Scheduled reports, read the dedicated article.](../common-tasks/schedule-reports.md)
+
+  \*\*\*\*[To learn more about Scheduled reports, read the dedicated article.](../common-tasks/schedule-reports.md)
 
 * **New Permissions Review wizard is available!** To simplify the Permissions Review process for site owners, the Permissions Review tasks can now be completed with the help of a wizard that guides you through the most important aspects of the Permissions Review.
 
@@ -41,7 +42,7 @@ Let the festivities begin; **SysKit Point 17 is here**! Although it's still Nove
   * [Monitor Permissions Review](../common-tasks/monitor-permissions-review.md)
   * [Manually Request Permissions Review](../common-tasks/manually-request-permissions-review.md)
 
-* **Copy User Permissions action is available!** You can use it to make the onboarding process faster by copying permissions from an existing team member to the new one, for example, or even copy to multiple users at once. All directly given permissions and group memberships are copied, eliminating the daunting task of comparing permissions and manually applying them to the new user. 
+* **Copy User Permissions action is available!** You can use it to make the onboarding process faster by copying permissions from an existing team member to the new one, for example, or even copy to multiple users at once. All directly given permissions and group memberships are copied, eliminating the daunting task of comparing permissions and manually applying them to the new user.
 
   [Find more details about the Copy User Permissions action here!](../common-tasks/copy-user-permissions.md)
 
@@ -52,9 +53,9 @@ Let the festivities begin; **SysKit Point 17 is here**! Although it's still Nove
   * **Existing guests**
   * **Only people in your organization**
 
-  You can find the new action on the Sites overview screen when one or multiple sites are selected, as well as on the Site details screen. 
+  You can find the new action on the Sites overview screen when one or multiple sites are selected, as well as on the Site details screen.
 
-* **SysKit Point supports new group types – Distribution Lists and Mail-enabled security groups!** You can find group members and their access by using the **Group Access report**. All Distribution Lists and Mail-enabled security groups, which the user is a member of, are displayed on the user details screen. 
+* **SysKit Point supports new group types – Distribution Lists and Mail-enabled security groups!** You can find group members and their access by using the **Group Access report**. All Distribution Lists and Mail-enabled security groups, which the user is a member of, are displayed on the user details screen.
 * **New Audit Index growth charts are available!** They show valuable information on how your audit data is growing through time, which can help you plan and ensure enough disk size for SysKit Point to save the audit data. The charts are available on the Audit Settings screen. 
 * **When customizing emails**, you can now **upload your logo and banner images** directly from SysKit Point settings, eliminating the need to set up your environment to host the content. 
 
@@ -69,23 +70,21 @@ Let the festivities begin; **SysKit Point 17 is here**! Although it's still Nove
 * **Export added to all views!** You can now export exact data that you see when selecting different views on overview screens – Sites, Microsoft Teams & Groups, and Users overview screen.   
 * **Domain column was added to the External Users report**, enabling you to filter external users from the same domain easily. 
 * **Fixed the Details column filter** on the User Access report to show valid group names. 
-* **Fixed an issue with the Autodiscover Sync** where sites with the same URL would cause the following error: 
+* **Fixed an issue with the Autodiscover Sync** where sites with the same URL would cause the following error:
 
   `SysKit.SecurityManager.WorkerUtils.Database.CustomSqlException: Cannot insert duplicate key row in object 'dbo.ConnectedUnifiedGroups' with unique index 'UX_ConnectedSiteCollectionID'.`
 
 * **Fixed an issue with the email sender job**, where the following error would appear in case SysKit Point was connected to multiple tenants:
 
-  `System.InvalidOperationException: Collection was modified; enumeration operation may not execute.` 
+  `System.InvalidOperationException: Collection was modified; enumeration operation may not execute.`
 
 * **Fixed a bug** where the side panel showed erroneous information for the selected resource regarding the state of the last permissions review. Although the previous permissions review was completed, the following message was displayed: `Review ended n day(s) ago. Task was not completed in time.`
 * **Fixed a bug** where the OneDrive report link was not displayed in the side panel if a user was selected on the Users Overview screen. The report link is now displayed as intended. 
-* **Fixed an issue** where the site sync would fail, and the following error was thrown:
-  `Errors loading data for list <list_name> ("<list_url>") (<object_id>) System.InvalidOperationException: There is an error in XML document.`
-
-* **Fixed a bug** with the export of Sites Overview report where the ‘Storage Used’ column data was exported in bytes. The excel export now shows data in megabytes as the column name suggests – Storage Used \[MB\]. 
+* **Fixed an issue** where the site sync would fail, and the following error was thrown: `Errors loading data for list <list_name> ("<list_url>") (<object_id>) System.InvalidOperationException: There is an error in XML document.`
+* **Fixed a bug** with the export of Sites Overview report where the ‘Storage Used’ column data was exported in bytes. The excel export now shows data in megabytes as the column name suggests – Storage Used \[MB\].
 * **Fixed a bug** where the Orphaned Users report would result in the Bad Request error message. The following errors were visible in the event log:
 
-  `System.ArgumentNullException: Value cannot be null.` and 
+  `System.ArgumentNullException: Value cannot be null.` and
 
   `SysKit.SecurityManager.Business.Exceptions.ReportGeneration.ReportGenerationException: Exception of type 'SysKit.SecurityManager.Business.Exceptions.ReportGeneration.ReportGenerationException' was thrown.`
 
