@@ -94,7 +94,7 @@ You can manage all Scheduled Reports on the dedicated **Scheduled Reports** scre
 
 ![Report Center - Scheduled Reports](../.gitbook/assets/schedule-reports_report-center.png) 
 
-![User Profile - Scheduled Reports](../.gitbook/assets/schedule-reports_user-profile-menu.png)
+![User Profile Menu - Scheduled Reports](../.gitbook/assets/schedule-reports_user-profile-menu.png)
 
 The Scheduled Reports screen enables you to:
 
