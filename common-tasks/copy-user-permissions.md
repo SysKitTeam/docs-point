@@ -30,7 +30,7 @@ To copy permissions from one user to another, follow these steps:
 destination users
 * **Click the Copy Permissions button (5)** to run the action
 
-![Users Overview - Copy User Permissions](../.gitbook/assets/copy-user-permissions_users-overview.png )
+![Users Overview - Copy User Permissions](../.gitbook/assets/copy-user-permissions_users-overview.png)
 
 ![Copy User Permissions Dialog](../.gitbook/assets/copy-user-permissions_copy-permissions-dialog.png)
 
