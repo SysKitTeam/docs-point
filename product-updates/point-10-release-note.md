@@ -23,7 +23,7 @@ SysKit Point comes as a successor to SysKit Security Manager, a product that has
 
 ## Web-based Interface
 
-With the new and intuitive web-based interface it’s easier than ever to analyze your content, check if everything is ok, and make reports on the fly. You will first notice this shift when [configuring SysKit Point](https://github.com/SysKitTeam/docs-point/tree/7e90de9712318651405813e82777e5dd7ecf54b6/installation-and-configuration/deploy-on-premises/configure-syskit-point-on-premises.md), and the second time when your app opens in a browser after the installation. All that is left to do is to **log in with your existing Office 365 user account** \(yes, you read that right\), **and you are ready to go!**
+With the new and intuitive web-based interface it’s easier than ever to analyze your content, check if everything is ok, and make reports on the fly. You will first notice this shift when [configuring SysKit Point](../installation-and-configuration/deploy-on-premises/configure-syskit-point-on-premises.md), and the second time when your app opens in a browser after the installation. All that is left to do is to **log in with your existing Office 365 user account** \(yes, you read that right\), **and you are ready to go!**
 
 ## Simplicity
 

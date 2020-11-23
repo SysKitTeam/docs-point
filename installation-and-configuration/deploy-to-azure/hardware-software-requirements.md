@@ -1,7 +1,7 @@
 ---
 description: >-
-  This article is lists the hardware and sofware requirements for installing
-  SysKit Point in an Azure enivornment.
+  This article is lists the hardware and sofware requirements for
+  installing SysKit Point in an Azure enivornment.
 ---
 
 # Hardware and Software Requirements

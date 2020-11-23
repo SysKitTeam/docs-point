@@ -24,7 +24,7 @@ Let the festivities begin; **SysKit Point 17 is here**! Although it's still Nove
   * **Manually send scheduled reports when needed**
   * **Edit**, **pause**, **start** and **delete scheduled reports**
 
-  [To learn more about Scheduled reports, read the dedicated article.](../common-tasks/schedule-reports.md)
+  \*\*\*\*[To learn more about Scheduled reports, read the dedicated article.](../common-tasks/schedule-reports.md)
 
 * **New Permissions Review wizard is available!** To simplify the Permissions Review process for site owners, the Permissions Review tasks can now be completed with the help of a wizard that guides you through the most important aspects of the Permissions Review.
 

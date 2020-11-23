@@ -15,7 +15,7 @@ With the help of this feature, you can do the following:
 * **create a Subscription - group of Scheduled Reports** that share the same schedule frequency and delivery options
 
 {% hint style="warning" %}
-**Please note!**  
+**Please note!**   
 Scheduled Reports are available only in the Enterprise subscription plan.
 {% endhint %}
 
@@ -44,7 +44,7 @@ For example, in the picture below, a generated Permissions Matrix report is show
 ![Scheduling a generated report](../.gitbook/assets/schedule-reports_schedule-report.png)
 
 {% hint style="warning" %}
-**Please note!**  
+**Please note!**   
 One subscription can contain multiple reports, but they all share the same schedule and delivery options.
 {% endhint %}
 
@@ -61,7 +61,7 @@ The Schedule Report button opens the Schedule Report dialog displayed in the pic
 ![Schedule Report dialog - Create New Subscription](../.gitbook/assets/schedule-reports_create-subscription-dialog.png)
 
 {% hint style="warning" %}
-**Please note!**  
+**Please note!**   
 Schedule & Delivery options are defined per Subscription.
 {% endhint %}
 
@@ -76,7 +76,7 @@ In the Report Settings tab, you can:
 ![Schedule Report dialog - Report Settings](../.gitbook/assets/schedule-reports_create-subscription-dialog-report-settings.png)
 
 {% hint style="warning" %}
-**Please note!**  
+**Please note!**   
 Report options are defined per each report in the subscription separately.
 {% endhint %}
 
@@ -92,7 +92,7 @@ You can manage all Scheduled Reports on the dedicated **Scheduled Reports** scre
 * **Navigate to the Report Center and click the Scheduled Reports button \(1\)**
 * **Click the Scheduled Report option in the user profile menu \(2\)**
 
-![Report Center - Scheduled Reports](../.gitbook/assets/schedule-reports_report-center.png)
+![Report Center - Scheduled Reports](../.gitbook/assets/schedule-reports_report-center.png) 
 
 ![User Profile Menu - Scheduled Reports](../.gitbook/assets/schedule-reports_user-profile-menu.png)
 

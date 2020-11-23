@@ -13,23 +13,26 @@ You have different options available depending whether on which environment you 
 
 ## Deploy SysKit Point to a production environment
 
-In a production environment, **it is recommended to use** an **SSL certificate obtained from a publicly trusted SSL certificate provider** or **internal Certificate Authority \(CA\)** and the **URL which will be recognisable by your users**. You can choose from **two options**:
+In a production environment, **it is recommended to use** an **SSL certificate obtained from a publicly trusted SSL certificate provider** or **internal Certificate Authority (CA)** and the **URL which will be recognisable by your users**. You can choose from **two options**:
 
 * Use a **public internet domain** for SysKit Point web application URL which will be reachable from the **internet**
 * Use a **internal company domain** for SysKit Point web application URL which will be reachable from the **inside of your company**
 
+
 ### Use a public internet domain for SysKit Point
 
-To use SysKit Point with a public internet domain \(for example, `https://point.publicdomain.com`\) perform the following steps:
+To use SysKit Point with a public internet domain (for example, `https://point.publicdomain.com`) perform the following steps:
 
 * On a **public DNS provider** create a **DNS A record** for a **public internet domain** pointing to the **on-premises public IP address** 
 * Configure the **internet facing firewall** to allow communication between the **on-premises public IP address** and **Syskit Point server** on **TCP port 443** 
 * Obtain an **SSL certificate** from a **publicly trusted SSL certificate provider**
   * Associate the SSL certificate with the public domain used in the SysKit Point web application URL
+  
+ 
 
 ### Use an internal company domain for SysKit Point
 
-To use SysKit Point with an **internal company domain** \(for example, `https://point.internaldomain.com`\) which will be reachable from the **inside of your company**, perform the following steps:
+To use SysKit Point with an **internal company domain** (for example, `https://point.internaldomain.com`) which will be reachable from the **inside of your company**, perform the following steps:
 
 * On a **local DNS server** create a **DNS A record** for an **internal domain** pointing to **SysKit Point server's private IP address** 
 * Obtain an **internally signed SSL certificate** trusted by all domain joined devices
@@ -39,9 +42,10 @@ To use SysKit Point with an **internal company domain** \(for example, `https://
 Learn how to [configure the SSL certificate by using your internal CA here.](../../common-tasks/configure-ssl-certificate.md)
 {% endhint %}
 
+
 ## Deploy SysKit Point to a test environment
 
-To simplify SysKit Point installation on a **test environment** we recommend you use an **FQDN of the Windows Server** \(for example, `https://pointserver.testdomain.com`\) for the SysKit Point web application URL. In this case it is **not required** to obtain a publicly trusted SSL certificate and there is **no additional configuration on a DNS server**.
+To simplify SysKit Point installation on a **test environment** we recommend you use an **FQDN of the Windows Server** (for example, `https://pointserver.testdomain.com`) for the SysKit Point web application URL. In this case it is **not required** to obtain a publicly trusted SSL certificate and there is **no additional configuration on a DNS server**.
 
 * **Self-signed certificate will be created by SysKit Point**
 
