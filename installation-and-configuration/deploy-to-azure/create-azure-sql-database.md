@@ -45,7 +45,7 @@ For the configuration of SysKit Point, prepare the following information:
 
 * **Azure SQL server**
 * **Azure SQL database name**
-* **SQL account** - needs to have **db_owner** permissions on the database
+* **SQL account** - needs to have **db\_owner** permissions on the database
 
 ## Related Topics
 

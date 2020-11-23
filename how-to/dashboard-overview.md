@@ -13,7 +13,7 @@ You can use Dashboard to:
 * **detect potential issues**, for example, if your environment has inactive or orphaned resources
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 Only users assigned to the **SysKit Point Admin** role can see the Dashboard screen.
 {% endhint %}
 
@@ -69,7 +69,7 @@ By **clicking the number** of the inactive resource, the **Inactive Content** re
 For more information about the Inactive Content report, click [here](../common-tasks/inactive-content.md#inactive-content-report).
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 The number of inactive resources **will be visible 10 days after the first installation of SysKit Point.**
 {% endhint %}
 
@@ -116,14 +116,14 @@ The last information on this tile is the number of **Sites With Anonymous Sharin
 The **Permissions Review** and **Lifecycle Management** tiles show the progress of current automated tasks.
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 Permissions Review tile and Lifecycle Management tile are only visible within the **Enterprise subscription plan**. Click [here ](https://www.syskit.com/products/point/pricing/)for more information.
 {% endhint %}
 
 If the Permissions Review and Lifecycle Management automation is not configured, the tiles will help you navigate to the settings screen by clicking the **Configure Now** button.
 
 {% hint style="info" %}
-**Learn more!**   
+**Learn more!**  
 Use the following articles to learn how to enable and configure automation in SysKit Point: [Enable Automated Permissions Review](../installation-and-configuration/enable-permissions-review.md) [Enable Lifecycle Management Automation](../installation-and-configuration/enable-lifecycle-management.md)
 {% endhint %}
 
@@ -166,12 +166,12 @@ Information about used storage is also given for each resource type separately.
 ![Storage tile ](../.gitbook/assets/dashboard_storage-tile.png)
 
 {% hint style="info" %}
-**Learn more!**   
+**Learn more!**  
 The used storage number is calculated for all the files, including those in the recycle bin, as well as archived files. OneDrive storage is not included in the metrics.
 {% endhint %}
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 Storage data displayed on the Dashboard can differ from the data provided by the **SharePoint admin center** since it doesn't include changes made within the last 24-48 hours, as described [here](https://docs.microsoft.com/en-us/sharepoint/manage-site-collection-storage-limits).
 {% endhint %}
 
