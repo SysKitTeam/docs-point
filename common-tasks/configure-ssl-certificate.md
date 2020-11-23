@@ -62,5 +62,5 @@ On the following screen, choose the **Include all certificates in certificate pa
 
 ![MMC - Enter a password](../.gitbook/assets/configure-ssl-certificate_export-password.png)
 
-After you exported the certificate, use [SysKit Point Configuration Wizard](../installation-and-configuration/deploy-on-premises/configure-syskit-point-on-premises.md#web-application-settings) to import the same SSL certificate into the Web Application Settings, with the password you set previously. Also, **make sure you have an appropriate DNS record** in place for the URL you set in the wizard.
+After you exported the certificate, use [SysKit Point Configuration Wizard](https://github.com/SysKitTeam/docs-point/tree/7e90de9712318651405813e82777e5dd7ecf54b6/installation-and-configuration/deploy-on-premises/configure-syskit-point-on-premises.md#web-application-settings) to import the same SSL certificate into the Web Application Settings, with the password you set previously. Also, **make sure you have an appropriate DNS record** in place for the URL you set in the wizard.
 

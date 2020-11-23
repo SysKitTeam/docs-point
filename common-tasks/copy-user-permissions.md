@@ -28,7 +28,7 @@ To copy permissions from one user to another, follow these steps:
 * **Select a user on the Users overview screen \(1\)** – permissions will be copied from this user
 * **Click the Copy User Permissions \(2\)** action in the side panel – the Copy Permissions dialog opens
 * **Select one or more Destination users \(3\)** – permissions will be copied to this user
-* **Check the Transfer Permissions option \(4\)** if you want to remove all permissions from the source user after the permissions are granted for the 
+* **Check the Transfer Permissions option \(4\)** if you want to remove all permissions from the source user after the permissions are granted for the
 
   destination users
 
@@ -47,14 +47,18 @@ Once the Copy User Permissions action is started, a notification is displayed. *
 ## What is Copied
 
 When using the Copy User Permissions action, **the following is copied**:
+
 * **O365 Group and Microsoft Teams memberships**
 * **Site administrator privileges**
 * **All directly given permissions on sites and items with broken permission inheritance**
 * **SharePoint group memberships**
 
 ## What is not Copied
+
 The Copy User Permissions **does not copy the following**:
+
 * **Access that is given through Sharing links**
 * **OneDrive permissions**
 * **Security Group memberships**
 * **Azure AD role privileges**
+
