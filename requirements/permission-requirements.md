@@ -15,7 +15,6 @@ When deploying SysKit Point to Cloud, use the following articles to prepare your
 * [**Azure Virtual Machine**](../installation-and-configuration/deploy-to-azure/hardware-software-requirements.md#azure-virtual-machine-requirements)
 * [**Azure SQL database**](../installation-and-configuration/deploy-to-azure/hardware-software-requirements.md#azure-sql-database-requirements)
 
-
 Click the appropriate link to learn more about the requirements for each of the mentioned resources.
 
 ## On-Premises
@@ -40,7 +39,7 @@ Below, reasons for such requirements are described in greater detail.
 
 ### Global Administrator
 
-**When connecting to an Office 365 tenant** during the [configuration](../installation-and-configuration/deploy-on-premises/deploy-on-premises/install-syskit-point-on-premises#connect-to-office-365) process, **you need to connect with a Global Administrator account.**
+**When connecting to an Office 365 tenant** during the [configuration](../installation-and-configuration/deploy-on-premises/install-syskit-point-on-premises.md#configure-syskit-point) process, **you need to connect with a Global Administrator account.**
 
 **The first time you connect to your Office 365 tenant, you will be prompted to consent** to a set of permissions that SysKit Point requires to function correctly. Additional prompts may show up in the future when installing a newer version of SysKit Point because of new functionality, and in consequence, potentially new required permissions.
 
