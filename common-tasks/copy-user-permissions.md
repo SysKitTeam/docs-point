@@ -44,3 +44,17 @@ Once the Copy User Permissions action is started, a notification is displayed. *
 
 ![Actions Details - Copy User Permissions steps](../.gitbook/assets/copy-user-permissions_action-details.png)
 
+## What is Copied
+
+When using the Copy User Permissions action, **the following is copied**:
+* **O365 Group and Microsoft Teams memberships**
+* **Site administrator privileges**
+* **All directly given permissions on sites and items with broken permission inheritance**
+* **SharePoint group memberships**
+
+## What is not Copied
+The Copy User Permissions **does not copy the following**:
+* **Access that is given through Sharing links**
+* **OneDrive permissions**
+* **Security Group memberships**
+* **Azure AD role privileges**
