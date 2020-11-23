@@ -15,8 +15,6 @@ While the **Automated Permissions Review** was introduced in SysKit Point 14, Sy
 Manual Permissions Review is available only in the Enterprise subscription plan.
 {% endhint %}
 
-To use the manually requested Permissions Review, first, ensure the [**Automated Permissions Review is enabled**](../installation-and-configuration/enable-permissions-review.md).
-
 {% hint style="success" %}
 Use **Manual Permissions Review** in situations **when you need fast response on an urgent issue**, such as sudden offboarding of a user, or unauthorized external sharing, where you want a resource to be checked as soon as possible.  
 You can also **use the Manual Permissions Review to test and prepare** your users for the **Automated Permissions Review**.
