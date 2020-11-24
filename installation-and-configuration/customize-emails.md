@@ -21,25 +21,40 @@ These changes can be performed in three locations within SysKit Point Settings:
 {% hint style="warning" %}
 **Please note!**  
 E-mail customization is only available as a part of the [**Enterprise subscription plan**](https://www.syskit.com/products/point/pricing/).
+Only SysKit Point Admin users can customize e-mails.
 {% endhint %}
 
 ## E-mail Settings
 
 In E-mail settings, you can define a global logo that will be used in all e-mails sent by SysKit Point. To define the logo:
 
-* **Enter a URL of your logo** located in the **content distribution network** \(**CDN**\)
-* **Click Save** to apply changes
+* **Navigate to the E-mail Settings screen (1)**
+* **Click the Upload Logo link (2)** - File Explorer window opens
+* **Select the file with your logo (3)** 
+* **click Open (4)**
+
+[Customize Logo - Upload Logo](../.gitbook/assets/customize-e-mail_upload-logo.png)
+
+[Customize Logo - File Explorer](../.gitbook/assets/customize-e-mail_file-explorer.png)
 
 {% hint style="info" %}
 **Hint!**  
-**Modifying the logo** in SysKit Point **is a global action**, which means that **editing from any location in the settings** \(E-mail section, Permissions Review, or Lifecycle Management\) **will affect all E-mails**.
+**Modifying the logo** in SysKit Point **is a global action**, which means that **editing from any location in the settings** \(E-mail section, Permissions Review, or Lifecycle Management\) **will affect all e-mails**.
 {% endhint %}
 
 In the picture below, the defined logo is shown.
+Here, you can also:
+* **Upload New Logo (1)**, as already described
+* **Remove Logo (2)**
 
-![Customize Logo section in E-mail Settings](../.gitbook/assets/customize-e-mail_customize-logo-section-in-e-mail-settings.png)
+[Customize Logo - Uploaded Logo](../.gitbook/assets/customize-e-mail_uploaded-logo.png)
 
-To remove the logo, click the **Remove Logo** action and save your changes.
+If you already have a URL of your logo located in the content distribution network (CDN) and want to use it, you can do the following:
+* **Navigate to the `C:\ProgramData\SysKit\Point\Settings folder`**
+* **Open the `settings.json` file with a text editor**
+* **Paste your URL next to the `logoURL` attribute (3)**
+
+[Customize Logo - Settings file](../.gitbook/assets/customize-e-mail_settings-json.png)
 
 ## Permissions Review Settings
 
@@ -50,25 +65,29 @@ Customizing the Permissions review e-mail is possible only if the Automated Perm
 
 To customize the Permissions Review e-mail:
 
-* **Open the Permissions Review tab** in the Governance section of settings 
-* **Click the Customize e-mail button** to open the editing screen
+* **Open the Permissions Review tab (1)** in the Governance section of settings 
+* **Click the Customize e-mail button (2)** to open the editing screen
 
 ![Permissions Review Settings screen](../.gitbook/assets/customize-e-mail_permissions-review-settings-screen.png)
 
 Here, you will see the following sections that can be edited:
 
-* **Subject**
-* **Logo**
-* **Banner image**
-* **Custom message**
+* **Subject (1)** -  only applies to the Permissions Review email sent to the owners or administrators
+* **Logo (2)** - global for all emails
+* **Banner image (3)** - only applies to the Permissions Review email sent to the owners or administrators
+* **Custom message (4)** - only applies to the Permissions Review email sent to the owners or administrators
 
-![Customize Permissions Review E-mail screen](../.gitbook/assets/customize-e-mail_customize-permissions-review-e-mail-screen.png)
+![Customize Permissions Review E-mail](../.gitbook/assets/customize-e-mail_customize-permissions-review-e-mail.png)
+
+![Customize Permissions Review E-mail](../.gitbook/assets/customize-e-mail_customize-permissions-review-e-mail2.png)
 
 The custom message can contain **plain text** or **HTML**. A **link has to be defined in the HTML form** `<a href="URL">LinkDisplayText</a>` where `URL` represents a web address to a web resource, and the `LinkDisplayText` is an arbitrary text that will be displayed in the e-mail and, when clicked, lead to the defined URL.
 
-When done with editing, click the **Confirm button** to save your changes. You can immediately see the e-mail changes by clicking the **Preview e-mail button**.
+When done with editing, click the **Confirm button (5)** to save your changes. 
 
-![Preview e-mail screen for Permissions Review](../.gitbook/assets/customize-e-mail_preview-e-mail-screen.png)
+You can immediately see the e-mail changes by clicking the **Preview e-mail button (1)**.
+
+![Permissions Review - Preview e-mail](../.gitbook/assets/customize-e-mail_permissions-review-settings-preview.png)
 
 ## Lifecycle Management Settings
 
@@ -76,8 +95,8 @@ Similar to the Permissions Review e-mail customization, there is an option to cu
 
 To customize the Permissions Review e-mail:
 
-* **Open the Lifecycle Management tab** in the Governance section of settings 
-* **Click the Customize e-mail button** to open the editing screen
+* **Open the Lifecycle Management tab (1)** in the Governance section of settings 
+* **Click the Customize e-mail button (2)** to open the editing screen
 
 ![Lifecycle Management Settings screen](../.gitbook/assets/customize-e-mail_lifecycle-management-settings-screen.png)
 
@@ -86,8 +105,6 @@ Similar to the Permissions Review e-mail, you can edit the following sections:
 * **Subject**
 * **Logo**
 * **Custom Message**
-
-![Customize Lifecycle Management E-mail screen](../.gitbook/assets/customize-e-mail_cuatomize-lifecycle-management-e-mail-screen.png)
 
 All the rules apply as for the Permissions Review e-mail customization.
 
