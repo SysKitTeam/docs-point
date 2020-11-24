@@ -96,7 +96,8 @@ In the **Customize section** of the permissions review, you can do the following
 * **view the start date for the next permissions review \(3\)**; save your changes to recalculate and refresh values if needed
 * **view the permissions review duration \(4\)**; permissions review has a defined duration of **10 workdays**
 * **choose whether to send an e-mail reminder \(5\)** to all site owners included in the permissions review three workdays before the due date; you can turn off this option at any time during the permissions review
-* **preview the permissions review e-mail \(6\)**
+* **customize the permissions review e-mail (6)** - learn more about e-mail customization [here](customize-emails.md)
+* **preview the permissions review e-mail \(7\)**
 
 {% hint style="warning" %}
 **Please Note!** All dates in the permissions review, including start and due date, are calculated to fall on a workday. That way, SysKit Point ensures that no e-mails are sent during non-working hours.
