@@ -41,7 +41,7 @@ As a part of the automated permissions review process, e-mails are sent to SysKi
 ### Exchange Online Settings
 
 {% hint style="warning" %}
-**Please Note!** Exchange Online has a sending limit of 10000 e-mails per day.
+**Please Note!** Exchange Online has the sending limit of 10000 e-mails per day.
 {% endhint %}
 
 The Exchange Online method enables you to use an existing Exchange account in your Office 365 tenant to send e-mails from SysKit Point. Here, you can:
@@ -96,7 +96,7 @@ In the **Customize section** of the permissions review, you can do the following
 * **view the start date for the next permissions review \(3\)**; save your changes to recalculate and refresh values if needed
 * **view the permissions review duration \(4\)**; permissions review has a defined duration of **10 workdays**
 * **choose whether to send an e-mail reminder \(5\)** to all site owners included in the permissions review three workdays before the due date; you can turn off this option at any time during the permissions review
-* **customize the permissions review e-mail \(6\)** - learn more about e-mail customization [here](customize-emails.md)
+* **customize the permissions review e-mail (6)** - learn more about e-mail customization [here](customize-emails.md)
 * **preview the permissions review e-mail \(7\)**
 
 {% hint style="warning" %}
@@ -106,10 +106,10 @@ In the **Customize section** of the permissions review, you can do the following
 ![Permissions Review - Customize section](../.gitbook/assets/enable-permissions-review_customize-section.png)
 
 {% hint style="info" %}
-**Hint!** SysKit Point Admins can manually send an e-mail reminder to site owners once a day, any time during the permissions review, by choosing the **Remind Owners** action on the **Governance** &gt; **Permissions Review details** screen.
+**Hint!** SysKit Point Admins can manually send an e-mail reminder to site owners once a day, any time during the permissions review by choosing the **Remind Owners** action on the **Governance** &gt; **Permissions Review details** screen.
 {% endhint %}
 
-If you want to become familiar with the look of the permissions review e-mail that will be sent to site owners, click the **Preview e-mail button**. Since each site owner will have different sites and site types to review, the **e-mail preview dialog shows placeholders** marked with parenthesis **{ }**.
+If you want to become familiar with the look of the permissions review e-mail that will be sent to site owners, click the **Preview e-mail button**. Since each site owner will have a different number of sites and site types to review, the **e-mail preview dialog shows placeholders** marked with parenthesis **{ }**.
 
 ![Permissions Review - Preview e-mail dialog](../.gitbook/assets/enable-permissions-review_preview-email.png)
 
@@ -132,7 +132,7 @@ To learn more about **active and inactive content**, visit [this article](../com
 Once your changes are saved, you can click the **Preview tile**, which opens the **Permissions Review - Preview** report showing detailed information about resources that will be included in the permissions review. On the report, you can:
 
 * **click the tiles \(1\)** to show only a certain site type; the tiles show the number of sites included in the permission review, grouped by type
-* **view Permissions review information**, such as due date, number of e-mail recipients, and the number of orphaned sites \(sites that have no owners or have owners that are blocked or deleted\) 
+* **view Permissions review information**, such as due date, number of e-mail recipients, and the number of orphaned sites \(sites that have no owners, or have owners that are blocked or deleted\) 
 * **click the Show link \(2\) that activates the** Orphaned Sites view \(3\)
 * **view all site owners that will receive a permissions review e-mail**; for each Microsoft Team, Office 365 Group, site, and OneDrive included in the permissions review 
 * **change owners** by **selecting a row \(4\)** and clicking the **Change owners action \(5\)** available in the side panel
