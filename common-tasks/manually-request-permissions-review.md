@@ -51,13 +51,14 @@ Request Permissions Review dialog will appear.
 ![Request Permissions Review dialog](../.gitbook/assets/manually-request-permissions-review_request-review-dialog.png)
 
 After confirming the request, you will be redirected to the Permissions Review overview screen, where you can:
-* **Select a site, Office 365 Group, or Microsoft Team (1)**; you can also select multiple resources at once
-* **Review the resource (2)** - only available for owners and administrators when a single resource is selected
-* **View the Permissions Review Details (3)** 
+
+* **Select a site, Office 365 Group, or Microsoft Team \(1\)**; you can also select multiple resources at once
+* **Review the resource \(2\)** - only available for owners and administrators when a single resource is selected
+* **View the Permissions Review Details \(3\)** 
 
 ![Permissions Review overview screen](../.gitbook/assets/manually-request-permissions-review_review-overview.png)
 
-Find detailed information on how to [monitor the progress of the created Permissions Review, here](monitor-permissions-review.md) .
+Find detailed information on how to [monitor the progress of the created Permissions Review, here](monitor-permissions-review.md).
 
 ## Resource Owners
 
@@ -65,7 +66,7 @@ After the manual permissions review request was sent, **the resource owners rece
 
 ![Permissions Review email](../.gitbook/assets/manually-request-permissions-review_email.png)
 
-Link in the email leads you directly to the Permissions Review task in SysKit Point. Here, you can:
+The link in the email leads you directly to the Permissions Review task in SysKit Point. Here, you can:
 
 * **select a resource \(1\)**
 * **perform the Permissions Review \(2\)**
