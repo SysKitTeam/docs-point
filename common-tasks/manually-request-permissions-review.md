@@ -58,7 +58,7 @@ After confirming the request, you will be redirected to the Permissions Review o
 
 ![Permissions Review overview screen](../.gitbook/assets/manually-request-permissions-review_review-overview.png)
 
-Find detailed information on how to [monitor the progress of the created Permissions Review, here](monitor-permissions-review.md).
+Find detailed information on how to [monitor the progress of the created Permissions Review here](monitor-permissions-review.md).
 
 ## Resource Owners
 
