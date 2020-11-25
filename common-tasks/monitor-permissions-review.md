@@ -11,9 +11,9 @@ description: >-
 First, make sure to check how to [enable and configure the Automated Permissions Review in SysKit Point](../installation-and-configuration/enable-permissions-review.md).
 {% endhint %}
 
-**Permissions review**, in the context of Office 365 environment, is an activity where a person responsible for an Office 365 resource - be it Communication site, Microsoft Team, Office 365 Group or OneDrive - checks whether permissions, given to users inside \(internal\) and outside \(external\) of company, comply with the organizational rules and guidelines. The **permissions review task is usually performed by a site owner** and includes:
+**Permissions review**, in the context of the Office 365 environment, is an activity where a person responsible for an Office 365 resource - be it Communication site, Microsoft Team, Office 365 Group, or OneDrive - checks whether permissions, given to users inside \(internal\) and outside \(external\) of company, comply with the organizational rules and guidelines. The **permissions review task is usually performed by a site owner** and includes:
 
-* **checking if all users - internal and external - have access to right resources, be it through directly given permissions, or group memberships**
+* **checking if all users - internal and external - have access to the right resources, be it through directly given permissions, or group memberships**
 * **identify unwanted permissions changes** by checking the audit logs 
 * **checking if only necessary content is externally shared**
 * **performing correcting actions** to mitigate errors discovered in previous steps
@@ -49,7 +49,7 @@ Three workdays before the start of automated permissions review, SysKit Point Ad
 
 ![Permissions review reminder email](../.gitbook/assets/permissions-review_reminder-before.png)
 
-Click the **modify** link if you need to change the settings for the permissions review. When logged in to SysKit Point, this link opens the Permissions Review Settings screen.
+Click the **Modify** link if you need to change the settings for the permissions review. When logged in to SysKit Point, this link opens the Permissions Review Settings screen.
 
 If you are already signed in to SysKit Point, clicking the **Resolve Now** button opens the **Permissions Review – Preview** report with the preselected **Orphaned Sites view \(2\)**. Here, you can **select a site \(3\)** and add active users as site owners with the help of the **Change Owners action \(4\)**.
 
@@ -62,7 +62,7 @@ To ensure that all sites have an owner responsible for the upcoming permissions 
 
 ## Governance - Permissions Review
 
-On the start date of the automated permissions review, **permissions review tasks are created in SysKit Point**, and **email requests sent to site owners**. **Each site owner gets one permissions review task** and **that task includes all sites where the said user is site owner**.
+On the start date of the automated permissions review, **permissions review tasks are created in SysKit Point**, and **email requests sent to site owners**. **Each site owner gets one permissions review task** and **that task includes all sites where the said user is the site owner**.
 
 To **track the progress** of the currently active permissions review, SysKit Point Admins can **use the Governance screen**. To access it, **click the Governance tile** on the Home screen.
 
