@@ -44,34 +44,39 @@ To manually request a Permissions Review, do the following:
 * **Select the desired resource \(1\)**; you can also select multiple resources at once
 * **Click the Request Review Action \(2\)** available in the side panel
 
-![Request Review action](../.gitbook/assets/manually-request-permissions-review_2.png)
+![Request Review action](../.gitbook/assets/manually-request-permissions-review_request-review.png)
 
 Request Permissions Review dialog will appear.
 
-![Request Permissions Review dialog](../.gitbook/assets/manually-request-permissions-review_3.png)
+![Request Permissions Review dialog](../.gitbook/assets/manually-request-permissions-review_request-review-dialog.png)
 
-After confirming the request, you will be redirected to the Permissions Review overview screen, where you can [monitor the progress](monitor-permissions-review.md) of the created Permissions Review.
+After confirming the request, you will be redirected to the Permissions Review overview screen, where you can:
+* **Select a site, Office 365 Group, or Microsoft Team (1)**; you can also select multiple resources at once
+* **Review the resource (2)** - only available for owners and administrators when a single resource is selected
+* **View the Permissions Review Details (3)** 
 
-![Permissions Review overview screen](../.gitbook/assets/manually-request-permissions-review_4.png)
+![Permissions Review overview screen](../.gitbook/assets/manually-request-permissions-review_review-overview.png)
+
+Find detailed information on how to [monitor the progress of the created Permissions Review, here](monitor-permissions-review.md) .
 
 ## Resource Owners
 
 After the manual permissions review request was sent, **the resource owners receive a Permissions Review request e-mail** in their mailbox.
 
-![Permissions Review email](../.gitbook/assets/manually-request-permissions-review_5.png)
+![Permissions Review email](../.gitbook/assets/manually-request-permissions-review_email.png)
 
 Link in the email leads you directly to the Permissions Review task in SysKit Point. Here, you can:
 
-* **select the resource \(1\)**
+* **select a resource \(1\)**
 * **perform the Permissions Review \(2\)**
 
-![Permissions Review task screen](../.gitbook/assets/manually-request-permissions-review_6.png)
+![Permissions Review task screen](../.gitbook/assets/manually-request-permissions-review_task.png)
 
-The **Permission Review details screen** opens, where you can **perform actions**, **check permission changes**, and, in the end, **complete the Permissions Review**. Actions and reports available here are the **same as in the Automated Permissions Review** tasks. You can find them all described in greater detail [here](permissions-review.md#permissions-review-task-details).
+The **Permission Review wizard** opens, where you can **perform actions**, **check permission changes**, and, in the end, **complete the Permissions Review** for a resource. Actions and reports available here are the **same as in the Automated Permissions Review** tasks. You can find them all described in greater detail [here](permissions-review.md#permissions-review-task-details).
 
-![Permissions Review task screen](../.gitbook/assets/manually-request-permissions-review_7.png)
+![Permissions Review wizard](../.gitbook/assets/manually-request-permissions-review_wizard.png)
 
-If a resource has a Permissions Review active, you can access the Permissions Review details screen from the Overview screen by clicking the **Review Now \(1\)** action link, visible when the resource is selected.
+If a resource has a Permissions Review active, you can access the Permissions Review details screen from the overview screen by clicking the **Review Now \(1\)** action link, visible when the resource is selected.
 
-![Permissions Review task screen](../.gitbook/assets/manually-request-permissions-review_10.png)
+![Permissions Review task screen](../.gitbook/assets/manually-request-permissions-review_review-now.png)
 
