@@ -78,5 +78,5 @@ The **Permission Review wizard** opens, where you can **perform actions**, **che
 
 If a resource has a Permissions Review active, you can access the Permissions Review details screen from the overview screen by clicking the **Review Now \(1\)** action link, visible when the resource is selected.
 
-![Permissions Review task screen](../.gitbook/assets/manually-request-permissions-review_review-now.png)
+![Review Now action](../.gitbook/assets/manually-request-permissions-review_review-now.png)
 
