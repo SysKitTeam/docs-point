@@ -51,18 +51,24 @@ On the Home screen, you can notice the **My Tasks** tile and a notification bubb
 
 **My Tasks** screen displays the active permissions review task with the most important information:
 
-* **requested date**
-* **due date**
-* **completion progress**
-* **Review** button
+* **requested date (1)**
+* **due date (2)**
+* **completion progress (3)**
+* **Review button (4)**
+* **Task categories (5)**
+* **Completed tasks categories (6)**
 
-![My Tasks tile](../.gitbook/assets/permissions-review_my-tasks.png)
+![My Tasks screen](../.gitbook/assets/permissions-review_my-tasks.png)
 
-Click **Review** to continue. The **Permissions Review Task** screen opens - the same screen that you accessed from email in the previous section where we stopped. From here, you can continue and review a site by clicking the **link in the Task column**. The **Task Details** screen opens.
+Click **Review** to continue. The **Permissions Review Task** screen opens - the same screen that you accessed from email in the previous section where we stopped. From here, you can continue and review a site by clicking the **link in the Task column**. The **Permissions Review Wizard** opens that will guide you through the Permissions Review process.
 
-## Permissions Review Task Details
+## Permissions Review Wizard
 
-The Task Details screen shows you information, reports, and actions needed to perform a permissions review. The following is available on the screen:
+The **Permissions Review Wizard** has three or four steps, depending on the resource type:
+* **Overview**
+* **Members**
+* **Sharing**
+* **Summary**
 
 * **Site owners list & Change Owners action \(1\)**
 * **All Users and External Users tile \(2\)**
