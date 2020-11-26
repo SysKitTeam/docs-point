@@ -84,7 +84,7 @@ This step provides general information about the resource that you are about to 
 
 ![Permissions Review wizard - Overview step](../.gitbook/assets/permissions-review_wizard-overview.png)
 
-The **Close & Continue Later** option is available on all steps, and enable you to leave the Permissions Review wizard. 
+The **Close & Continue Later** option is available on all steps on the left-bottom, and enables you to leave the Permissions Review wizard. 
 
 {% hint style="success" %}
 **Hint!**  
@@ -134,7 +134,7 @@ Multiple filters and views enable you to find shared content that you want to re
   * **All Shared Content** - shows content that has been shared via sharing links or through direct access; use it when you want to see everyhing
   * **Shared Outside the Group** - selected by default; use it to find content shared with users that are not a part of the Office 365 Group or Microsoft Team
   * **Shared Externally** - shows content shared with specific people outside your organization
-  * **Shared With Anyone** - show content shared with anyone via sharing links; this can be dangerous ground so make sure to examine such files carrefully
+  * **Shared With Anyone** - show content shared with anyone via sharing links; this can be dangerous ground so make sure to examine such files carefully
 * **views (2)** enable you to see sharing from two different perspectives - you can group by:
   * **Content**
   * **Users**
@@ -147,12 +147,12 @@ Multiple filters and views enable you to find shared content that you want to re
 
 ![Permissions Review wizard - Sharing step](../.gitbook/assets/permissions-review_wizard-sharing.png)
 
-In case you switch to the **Users view**, the **top filters** are changed acordingly and enable you to filter out specific types of users.
+In case you switch to the **Users view**, the **top filters** are changed accordingly and enable you to filter out specific types of users.
 You can find descriptions for all filters by **hovering your mouse over the filter tile (1)**. 
 
 ![Permissions Review wizard - Sharing step - Users view](../.gitbook/assets/permissions-review_wizard-sharing-by-users.png)
 
-In the example above, Microsoft Team was reviewed. Filters will differ slightly when you review sites or OneDrive, since there is no Office 365 Group involved whose members would have access by default, so the Users Outside the Group filter is not applicable. Instead, the **Access on Child Objects filter is given**, showing only users that don't have access on a site level, but have access on a specific file or folder.
+In the example above, Microsoft Team was reviewed. Filters will differ slightly when you review sites or OneDrive since there is no Office 365 Group involved whose members would have access by default, so the Users Outside the Group filter is not applicable. Instead, the **Access on Child Objects filter is given**, showing only users that don't have access on a site level but have access to a specific file or folder.
 
 ![Permissions Review wizard - Sharing step - Site](../.gitbook/assets/permissions-review_wizard-site-sharing-by-users.png)
 ### Summary
@@ -161,75 +161,16 @@ The **Summary step** gives a recap of all actions performed during the Permissio
 Here, the following is displayed:
 * **number of performed actions grouped by action (1)**
 * **grid with all actions (2)** and information about who performed them, when, and other details
-* **Export button (3)** which exportes the data in the grid into a XLSX file
+* **Export button (3)** that exports the data in the grid into an XLSX file
 * **Complete Review button (4)** that opens the **Complete Review dialog** 
 
 ![Permissions Review wizard - Summary step](../.gitbook/assets/permissions-review_wizard-summary.png)
-
-* **Site owners list & Change Owners action \(1\)**
-* **All Users and External Users tile \(2\)**
-* **Permission Changes tile \(3\)**
-* **Shared Files and Externally Shared Files tile \(4\)**
-* **Permissions Matrix report link \(5\)**
-* **Complete Review button \(6\)**
-
-![Permissions Review Task Details](../.gitbook/assets/permissions-review_task-details.png)
-
-Use the **Change Owners** action to remove existing owners by clicking the x sign next to the user, or add new owners by typing their name. Click **Change** to confirm.
-
-![Change Owners action](../.gitbook/assets/permissions-review_change-owners.png)
-
-Click the **All Users** tile to access the **Users report**. Here, you can:
-
-* **see all users** that have access to your site and **granted permissions**
-* **grant access \(1\)** to additional users
-* **add owners and members \(2\)** 
-* **select users \(3\)** and **remove their access \(4\)** on the site.
-
-![Users report](../.gitbook/assets/permissions-review_users-report-actions.png)
-
-Click the **External Users** tile to access the **External Users report**. Here, you can:
-
-* **view all external users**
-* **select users \(1\)** and **remove their access \(2\)** 
-* **find additional information**, such as when and by whom the external user was added
-
-![External Users report](../.gitbook/assets/permissions-review_external-users-report-actions.png)
-
-Click the **Permissions Changes** tile if you want to see audit logs for events that occurred since the last permissions review. **Site Permissions Changes** report opens, with custom date filter values preselected \(1\). You can click the date filter \(2\) and change the dates if needed. The report gives you the following information:
-
-* **Activity date**
-* **Activity**
-* **User who performed the permission change**
-* **object where the change was done**
-* **target user of the permissions change**
-
-![Site Permissions Changes report](../.gitbook/assets/permissions-review_site-permissions-changes-report.png)
-
-Click the **Shared Files** tile to open the **Sharing Links** report, where you can:
-
-* **see information about all sharing links on your site**
-* **select \(1\)** and **remove sharing links \(2\)**
-* **find out who created the sharing link \(3\)**
-
-![Site Permissions Changes report](../.gitbook/assets/permissions-review_sharing-links-report.png)
-
-Click the Externally Shared Files to open the **Externally Shared Content** report. Here, you can:
-
-* **see sharing links** that give access to external users, for example, **anonymous links \(1\)**
-* **remove sharing links** by **selecting a link \(2\)** and clicking the **Remove Sharing Link \(3\)** action 
-* **view external users and their permissions \(4\)**; permissions given directly to external users are also visible here
-* **Remove external users' access** by **selecting a user \(5\)** and clicking the **Remove from Group \(6\)** action
-
-![Externally Shared Content report](../.gitbook/assets/permissions-review_externally-shared-content-report-actions.png)
-
-For more details, click the **Permissions Matrix link**, which gives you a complete overview of permissions on your site.
 
 ## Complete Permissions Review Task
 
 When you are done with the review and have made sure that your site is secure, **Complete the permissions review**. To do so:
 
-* **click the Complete Review button \(1\)** on the bottom of the Task Details screen; the **Complete Review dialog opens**
+* **click the Complete Review button \(1\)** on the bottom of the Summary step; the **Complete Review dialog opens**
 * **leave a comment**; here, you can describe what kind of changes were made to ensure that the site is secured; the comment is visible to all site owners
 * **type CONFIRM \(3\)** in the appropriate field
 * **click the Confirm button \(4\)**
