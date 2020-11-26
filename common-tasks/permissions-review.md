@@ -187,7 +187,9 @@ After you complete the permissions review for a site, the **Review Completed** d
 
 When you complete permissions reviews for all sites you are the owner of, your **Permissions Review task is completed.** On the **My Tasks** screen, under **Active Permissions Review \(1\)**, the **No Tasks \(2\)** message is displayed. You can find your **completed permissions review task \(3\)** in the **Completed section \(4\)**, and access task details by clicking the **See Task \(5\)** button.
 
-![My Tasks - Active and completed](../.gitbook/assets/permissions-review_task-active-completed.png)
+![My Tasks - Active](../.gitbook/assets/permissions-review_task-active.png)
+
+![My Tasks - Completed](../.gitbook/assets/permissions-review_task-active-completed.png)
 
 ## Overdue Reviews
 
@@ -195,9 +197,7 @@ After ten days, the permissions review cycle ends. SysKit Point automatically ch
 
 ![Permissions Review - Overdue](../.gitbook/assets/permissions-review_overdue-reviews.png)
 
-After the permissions review completion, you can still access the **Task Details screen**, however, you cannot complete the permissions review. An **appropriate message is displayed** instead of the Complete Review button.
-
-![Task details message](../.gitbook/assets/permissions-review_overdue-details.png)
+After the permissions review completion, you cannot complete the permissions review.
 
 **With that, the first permissions review cycle is completed**. The cycle will repeat per schedule, as defined by SysKit Point Admin, giving you the same reports and actions to make this process as easy as possible.
 
