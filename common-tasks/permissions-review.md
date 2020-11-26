@@ -66,9 +66,58 @@ Click **Review** to continue. The **Permissions Review Task** screen opens - the
 
 The **Permissions Review Wizard** has three or four steps, depending on the resource type:
 * **Overview**
-* **Members**
+* **Members** (for Office 365 Groups and Microsoft Teams), or **Users** (for sites); this step is not available for OneDrive 
 * **Sharing**
 * **Summary**
+
+Let's take a look at every step in more detail.
+
+### Overview Step
+This step provides general information about the resource that you are about to review. The following is displayed:
+* **List of owners, along with the Change Owners action (1)**
+* **General resource information (2)** - **Description**, **Creation date and time**, **Privacy**, **Sharing Policy**, **resource URL**, and **Last Activity**
+* **when the resource was last reviewed and by whom (3)**
+* **Who else got this task? information (4)** - hover over it to see the full list of users that received the Permissions Review task
+* **Permissions Changes tile (5)** - in case there were no changes since the last review, the **Skip wizard and complete review (6)** action is available
+* **Close & Continue Later action (7)**, which closes the wizard 
+* **Start Review button (8)**, which takes you to the next step of the Permissions Review wizard
+
+![Permissions Review wizard - Overview step](../.gitbook/assets/permissions-review_my-tasks.png)
+### Members/Users
+
+The **Members step** is available **when reviewing Office 365 Groups or Microsoft Teams**. The following options are available:
+* **top filters (1)** - they help you view only a specific group of users on your resource:
+  * **Added users**
+  * **Removed users**
+  * **Owners**
+  * **Members**
+  * **Guests**
+* **when a user is selected (2)**, several options are available:
+  * **actions (3)** - remove members or owners, promote members to owners, or change owners to members
+  * **User Activity report (4)** - see all audit logs for the selected user
+  * **Additional information (5)** - see user's latest activity and when it happened
+  when no users are selected the **Add Owners/Memebers** action is available
+* **click Next (6)** to continue to the next step of the Permissions Review Wizard
+
+![Permissions Review wizard - Members step](../.gitbook/assets/permissions-review_members.png)
+
+The **Users step** is available **when reviewing sites**. The following options are available here:
+* **top filters (1)** - choose to view only a certain type of users on site:
+  * **Administrators**
+  * **Users with permissions on the site level** 
+  * **External Users**
+* **when a user is selected (2)**, additional options are available:
+  * **actions (3)** - based on the type of the selected user, various actions are available - Remove Access, Edit Permissions, Delete SharePoint Group, and Change Admins
+  * **User Activity report (4)** - see all audit logs for the selected user
+  * **Additional information (5)** - see user's latest activity and when it happened
+  when no users are selected the **Add Owners/Memebers** action is available
+  * **click Next (6)** to continue to the next step of the Permissions Review Wizard
+
+  ![Permissions Review wizard - Users step](../.gitbook/assets/permissions-review_users.png)
+
+### Sharing
+
+### Summary
 
 * **Site owners list & Change Owners action \(1\)**
 * **All Users and External Users tile \(2\)**
