@@ -82,7 +82,7 @@ This step provides general information about the resource that you are about to 
 * **Close & Continue Later action (7)**, which closes the wizard 
 * **Start Review button (8)**, which takes you to the next step of the Permissions Review wizard
 
-![Permissions Review wizard - Overview step](../.gitbook/assets/permissions-review_my-tasks.png)
+![Permissions Review wizard - Overview step](../.gitbook/assets/permissions-review_wizard-overview.png)
 ### Members/Users
 
 The **Members step** is available **when reviewing Office 365 Groups or Microsoft Teams**. The following options are available:
@@ -96,10 +96,10 @@ The **Members step** is available **when reviewing Office 365 Groups or Microsof
   * **actions (3)** - remove members or owners, promote members to owners, or change owners to members
   * **User Activity report (4)** - see all audit logs for the selected user
   * **Additional information (5)** - see user's latest activity and when it happened
-  when no users are selected the **Add Owners/Memebers** action is available
+* when no users are selected, the **Add Owners/Members** action is available
 * **click Next (6)** to continue to the next step of the Permissions Review Wizard
 
-![Permissions Review wizard - Members step](../.gitbook/assets/permissions-review_members.png)
+![Permissions Review wizard - Members step](../.gitbook/assets/permissions-review_wizard-members.png)
 
 The **Users step** is available **when reviewing sites**. The following options are available here:
 * **top filters (1)** - choose to view only a certain type of users on site:
@@ -110,10 +110,10 @@ The **Users step** is available **when reviewing sites**. The following options 
   * **actions (3)** - based on the type of the selected user, various actions are available - Remove Access, Edit Permissions, Delete SharePoint Group, and Change Admins
   * **User Activity report (4)** - see all audit logs for the selected user
   * **Additional information (5)** - see user's latest activity and when it happened
-  when no users are selected the **Add Owners/Memebers** action is available
+* when no users are selected, the **Grant Access** action is available
   * **click Next (6)** to continue to the next step of the Permissions Review Wizard
 
-  ![Permissions Review wizard - Users step](../.gitbook/assets/permissions-review_users.png)
+  ![Permissions Review wizard - Users step](../.gitbook/assets/permissions-review_wizard-users.png)
 
 ### Sharing
 
