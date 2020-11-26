@@ -64,19 +64,11 @@ Click **Review** to continue. The **Permissions Review Task** screen opens - the
 
 ## Permissions Review Wizard
 
-The **Permissions Review Wizard** has three or four steps, depending on the resource type:
+The **Permissions Review Wizard** has three or four steps, depending on the resource type. The following steps are available:
 * **Overview**
 * **Members** (for Office 365 Groups and Microsoft Teams), or **Users** (for sites); this step is not available for OneDrive 
 * **Sharing**
 * **Summary**
-
-On all steps, the **Close & Continue Later** option is available that closes the Permissions Review wizard. 
-
-
-{% hint style="success" %}
-**Hint!**  
-No need to worry when you leave the Permissions Review wizard - all performed actions take effect emmediately, and will be visible in the Summary step at the end of the Permissions Review.
-{% endhint %} 
 
 Let's take a closer look at every step in more detail.
 
@@ -91,6 +83,13 @@ This step provides general information about the resource that you are about to 
 * **Start Review button (8)**, which takes you to the next step of the Permissions Review wizard
 
 ![Permissions Review wizard - Overview step](../.gitbook/assets/permissions-review_wizard-overview.png)
+
+The **Close & Continue Later** option is available on all steps, and enable you to leave the Permissions Review wizard. 
+
+{% hint style="success" %}
+**Hint!**  
+No need to worry when you leave the Permissions Review wizard - all performed actions take effect immediately, and will be visible in the Summary step at the end of the Permissions Review.
+{% endhint %} 
 ### Members/Users
 
 The **Members step** is available **when reviewing Office 365 Groups or Microsoft Teams**. The following options are available:
