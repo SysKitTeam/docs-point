@@ -6,9 +6,9 @@ description: >-
 
 # Perform Permissions Review in SysKit Point
 
-**Permissions review**, in the context of Office 365 environment, is an activity where a person responsible for an Office 365 resource - be it Communication site, Microsoft Team, Office 365 Group or OneDrive - checks whether permissions, given to users inside \(internal\) and outside \(external\) of company, comply with the organizational rules and guidelines. The **permissions review task is usually performed by a site owner** and includes:
+**Permissions review**, in the context of the Office 365 environment, is an activity where a person responsible for an Office 365 resource - be it Communication site, Microsoft Team, Office 365 Group, or OneDrive - checks whether permissions, given to users inside \(internal\) and outside \(external\) of company, comply with the organizational rules and guidelines. The **permissions review task is usually performed by a site owner** and includes:
 
-* **checking if all users - internal and external - have access to right resources, be it through directly given permissions, or group memberships**
+* **checking if all users - internal and external - have access to the right resources, be it through directly given permissions, or group memberships**
 * **identify unwanted permissions changes** by checking the audit logs 
 * **checking if only necessary content is externally shared**
 * **performing correcting actions** to mitigate errors discovered in previous steps
@@ -142,7 +142,7 @@ After you complete the permissions review for a site, the **Review Completed** d
 
 ![Review Completed dialog](../.gitbook/assets/permissions-review_review-completed.png)
 
-When you complete permissions reviews for all sites you are the owner of, your **Permissions Review task is completed.** On **My Tasks** screen, under **Active Permissions Review \(1\)**, the **No Tasks \(2\)** message is displayed. You can find your **completed permissions review task \(3\)** in the **Completed section \(4\)**, and access task details by clicking the **See Task \(5\)** button.
+When you complete permissions reviews for all sites you are the owner of, your **Permissions Review task is completed.** On the **My Tasks** screen, under **Active Permissions Review \(1\)**, the **No Tasks \(2\)** message is displayed. You can find your **completed permissions review task \(3\)** in the **Completed section \(4\)**, and access task details by clicking the **See Task \(5\)** button.
 
 ![My Tasks - Active and completed](../.gitbook/assets/permissions-review_task-active-completed.png)
 
