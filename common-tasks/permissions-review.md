@@ -189,7 +189,17 @@ When you complete permissions reviews for all sites you are the owner of, your *
 
 ![My Tasks - Active](../.gitbook/assets/permissions-review_task-active.png)
 
-![My Tasks - Completed](../.gitbook/assets/permissions-review_task-active-completed.png)
+![My Tasks - Completed](../.gitbook/assets/permissions-review_task-completed.png)
+
+This opens the Permissions Review screen for the completed Permissions Review, where you can:
+* **select a site (1)** 
+* **click the Review button (2)** to open the **Review Summary report**
+
+![My Tasks - Completed](../.gitbook/assets/permissions-review_completed-review.png)
+
+The **Review Summary** report shows a detailed log of actions performed during the Permissions Review process and can be **exported to an XLSX file (1)**
+
+![Review Summary Report](../.gitbook/assets/permissions-review_review-summary.png)
 
 ## Overdue Reviews
 
