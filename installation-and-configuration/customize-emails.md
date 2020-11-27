@@ -50,9 +50,9 @@ Here, you can also:
 ![Customize Logo - Uploaded Logo](../.gitbook/assets/customize-e-mail_uploaded-logo.png)
 
 If you already have a URL of your logo located in the content distribution network (CDN) and want to use it, you can do the following:
-* **Navigate to the `C:\ProgramData\SysKit\Point\Settings folder`**
-* **Open the `settings.json` file with a text editor**
-* **Paste your URL next to the `logoURL` attribute (3)**
+* **Navigate to the** `C:\ProgramData\SysKit\Point\Settings` **folder**
+* **Open the** `settings.json` **file with a text editor**
+* **Paste your URL next to the** `logoURL` **attribute (3)**
 
 ![Customize Logo - Settings file](../.gitbook/assets/customize-e-mail_settings-json.png)
 
@@ -95,7 +95,7 @@ Similar to the Permissions Review e-mail customization, there is an option to cu
 
 To customize the Permissions Review e-mail:
 
-* **Open the Lifecycle Management tab (1)** in the Governance section of settings 
+* **Open the Lifecycle Management tab (1)** in the Governance section of the settings 
 * **Click the Customize e-mail button (2)** to open the editing screen
 
 ![Lifecycle Management Settings screen](../.gitbook/assets/customize-e-mail_lifecycle-management-settings-screen.png)
