@@ -131,7 +131,7 @@ When the configuration is completed, if everything was configured correctly the 
 
 ![SysKit Point Configuration - Finish](../../.gitbook/assets/install-syskit-point-on-azure-vm_finish-step.png)
 
-## Next Step
+## Get to Know SysKit Point
 After the installation, move on to the [Quick Start Guide](../../how-to/syskit-point-quick-start-guide.md) and learn how to use **SysKit Point**.
 
 ## Related Topics
