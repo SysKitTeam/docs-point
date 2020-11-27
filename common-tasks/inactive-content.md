@@ -29,9 +29,9 @@ Activity is being monitored from Syskit Point installation onward!** This applie
 
 ## Define What Is Inactive
 
-You can **configure what is considered to be inactive** in SysKit Point by changing the number of inactive days, after which workloads will be marked as inactive. To do so, open the **Settings** page from any screen within the application, go to the **Governance &gt; Content Lifecycle** screen where you will find the **Inactive Content** section. **Enter the number of days** in the field and click the **Save** button to update the value. The number of days can be set to a value between 30 and 180.
+You can **configure what is considered to be inactive** in SysKit Point by changing the number of inactive days, after which workloads will be marked as inactive. To do so, open the **Settings** page from any screen within the application, go to the **Governance &gt; Lifecycle Management** screen where you will find the **Inactive Content** section. **Enter the number of days** in the field and click the **Save** button to update the value. The number of days can be set to a value between 30 and 1000.
 
-![Settings - Governance screen - Inactive Content section](../.gitbook/assets/inactive-content_settings_governance-screeninactive-content-section.png)
+![Settings - Governance screen - Inactive Content section](../.gitbook/assets/inactive-content_settings-inactive-content.png)
 
 ## View Inactive Content in SysKit Point
 
@@ -39,13 +39,13 @@ There are several places where you can find activity information in **SysKit Poi
 
 ### Sites Overview Screen
 
-When you open the Sites Overview screen from the **Welcome Home** screen, click the **Column** **Chooser** and mark the **Activity** column to show it in the grid.
+When you open the Sites Overview screen from the **Welcome Home** screen, click the **Column Chooser icon (1)** and mark the **Activity column (2)** to show it in the grid.
 
-![Sites Overview screen - Activity column](../.gitbook/assets/inactive-content_sites-overview-screen-activity-column%20%281%29%20%282%29.png)
+![Sites Overview screen - Activity column](../.gitbook/assets/inactive-content_sites-overview-activity-column.png)
 
 You can see the **blue info icon** in the Activity column header.
 
-![Activity column tooltip](../.gitbook/assets/inactive-content_activity-column-tooltip%20%281%29.png)
+![Activity column tooltip](../.gitbook/assets/inactive-content_activity-column-tooltip.png)
 
 When you **hover over the info icon**, you will see which workloads are included in the evaluation of the activity for Sites, Microsoft Teams, Office 365 Groups, and OneDrive sites. There is also information for which period \(number of days\) was the activity assessment made. In the grid, you have a **column filter** to help you see just the active or the inactive content.
 
@@ -55,15 +55,15 @@ Hover over circle icons for each row to get more information about the **activit
 **Hint!** If more than one workload was active, then the latest date among all workloads will be shown here.
 {% endhint %}
 
-There is also a separate **Inactive Sites view** available, which can be accessed from the View drop-down menu. By selecting it, the Activity column becomes visible in the grid.
+There is also a separate **Inactive Sites view (1)** available, which can be accessed from the View drop-down menu. By selecting it, the Activity column becomes visible in the grid.
 
-![Sites Overview Screen - Inactive Sites view](../.gitbook/assets/inactive-content_inactive-sites-view%20%281%29.png)
+![Sites Overview Screen - Inactive Sites view](../.gitbook/assets/inactive-content_inactive-sites-view.png)
 
 ### Microsoft Teams & Groups Overview Screen
 
 The **Microsoft Teams & Groups Overview screen** has a similar representation of workload activity for Microsoft Teams and Office 365 groups as the Sites Overview screen. The **Activity column is**, **by default**, **shown** as the last column in the grid. The same rules of displaying the activity data are applied here, as explained for the Sites Overview screen. Additionally, here you can find a separate **Inactive** tile above the grid. By clicking the tile, the **Inactive Groups** view is shown.
 
-![Inactive Content tile](../.gitbook/assets/inactive-content_inactive-content-tile%20%281%29%20%281%29.png)
+![Inactive Content tile](../.gitbook/assets/inactive-content_inactive-content-tile.png)
 
 ### Details Screen
 
