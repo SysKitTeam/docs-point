@@ -69,7 +69,7 @@ The **Microsoft Teams & Groups Overview screen** has a similar representation of
 
 You can **access** **Details** **screens** for Sites, Office 365 Groups, and Microsoft Teams by **clicking the link in the Name column** on **Overview** screens. The activity information inside Details screens is shown in the **Analytics and Usage** tile. Hover over the **blue info icon** to see for which workloads are the activities tracked.
 
-![Details screen - Analytics and Usage tile - Activity section](../.gitbook/assets/inactive-content_analytics-and-usage-tile-activity-section%20%281%29.png)
+![Details screen - Analytics and Usage tile - Activity section](../.gitbook/assets/inactive-content_analytics-and-usage-tile-activity-section.png)
 
 {% hint style="warning" %}
 **Please note!**  
@@ -80,13 +80,13 @@ Workload activity data is shown only for the **root site level**. Document libra
 
 The easiest way to **find all inactive content** is by using the **Inactive Content report**, which you can find in the Report Center. By clicking the Inactive Content report tile, the **Options** screen opens where you can choose whether to include **Sites**, **Microsoft Teams**, and/or **Office 365 Groups** in the report. By default, all options are selected.
 
-![Inactive Content report - Options screen](../.gitbook/assets/inactive-content_inactive-content-report-options-screen.png)
+![Inactive Content report - Options screen](../.gitbook/assets/inactive-content_inactive-content-report-options-screen.png.png)
 
-Click the **Run Report** button to generate the Inactive Content report. On the report, there are four columns in the grid - the **Name** column which you can **click to open the** **Details** **screen**, and **four activity columns** for **SharePoint**, **Exchange**, **Microsoft Teams**, and **Yammer**. Two additional columns, **Type** and **Primary** **Admin**, can be added from the **Column Chooser**.
+Click the **Run Report** button to generate the Inactive Content report. On the report, there are four columns in the grid - the **Name** column which you can **click to open the** **Details** **screen**, and **four activity columns** for **SharePoint**, **Exchange**, **Microsoft Teams**, and **Yammer**. Two additional columns, **Type** and **Owner(s)**, can be added from the **Column Chooser**.
 
 ![Inactive Content report - Column Chooser](../.gitbook/assets/inactive-content_inactive-content-report-column-chooser.png)
 
-Notice the **blue info icon** next to the Activity columns. **Hovering above the icons displays a** **tooltip** with information on how the last activity date was determined.
+Notice the **blue info icon** next to the Activity columns. **Hovering above the icons displays a tooltip** with information on how the last activity date was determined.
 
 ![Inactive Content report - Activity column tooltip](../.gitbook/assets/inactive-content_inactive-content-report-activity-tooltip%20%281%29%20%281%29.png)
 
