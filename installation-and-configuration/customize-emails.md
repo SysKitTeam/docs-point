@@ -33,9 +33,9 @@ In E-mail settings, you can define a global logo that will be used in all e-mail
 * **Select the file with your logo (3)** 
 * **click Open (4)**
 
-[Customize Logo - Upload Logo](../.gitbook/assets/customize-e-mail_upload-logo.png)
+![Customize Logo - Upload Logo](../.gitbook/assets/customize-e-mail_upload-logo.png)
 
-[Customize Logo - File Explorer](../.gitbook/assets/customize-e-mail_file-explorer.png)
+![Customize Logo - File Explorer](../.gitbook/assets/customize-e-mail_file-explorer.png)
 
 {% hint style="info" %}
 **Hint!**  
@@ -47,14 +47,14 @@ Here, you can also:
 * **Upload New Logo (1)**, as already described
 * **Remove Logo (2)**
 
-[Customize Logo - Uploaded Logo](../.gitbook/assets/customize-e-mail_uploaded-logo.png)
+![Customize Logo - Uploaded Logo](../.gitbook/assets/customize-e-mail_uploaded-logo.png)
 
 If you already have a URL of your logo located in the content distribution network (CDN) and want to use it, you can do the following:
 * **Navigate to the `C:\ProgramData\SysKit\Point\Settings folder`**
 * **Open the `settings.json` file with a text editor**
 * **Paste your URL next to the `logoURL` attribute (3)**
 
-[Customize Logo - Settings file](../.gitbook/assets/customize-e-mail_settings-json.png)
+![Customize Logo - Settings file](../.gitbook/assets/customize-e-mail_settings-json.png)
 
 ## Permissions Review Settings
 
