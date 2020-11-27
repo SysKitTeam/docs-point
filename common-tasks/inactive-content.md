@@ -80,7 +80,7 @@ Workload activity data is shown only for the **root site level**. Document libra
 
 The easiest way to **find all inactive content** is by using the **Inactive Content report**, which you can find in the Report Center. By clicking the Inactive Content report tile, the **Options** screen opens where you can choose whether to include **Sites**, **Microsoft Teams**, and/or **Office 365 Groups** in the report. By default, all options are selected.
 
-![Inactive Content report - Options screen](../.gitbook/assets/inactive-content_inactive-content-report-options-screen.png.png)
+![Inactive Content report - Options screen](../.gitbook/assets/inactive-content_inactive-content-report-options-screen.png)
 
 Click the **Run Report** button to generate the Inactive Content report. On the report, there are four columns in the grid - the **Name** column which you can **click to open the** **Details** **screen**, and **four activity columns** for **SharePoint**, **Exchange**, **Microsoft Teams**, and **Yammer**. Two additional columns, **Type** and **Owner(s)**, can be added from the **Column Chooser**.
 
@@ -88,7 +88,7 @@ Click the **Run Report** button to generate the Inactive Content report. On the 
 
 Notice the **blue info icon** next to the Activity columns. **Hovering above the icons displays a tooltip** with information on how the last activity date was determined.
 
-![Inactive Content report - Activity column tooltip](../.gitbook/assets/inactive-content_inactive-content-report-activity-tooltip%20%281%29%20%281%29.png)
+![Inactive Content report - Activity column tooltip](../.gitbook/assets/inactive-content_inactive-content-report-activity-tooltip.png)
 
 A **grey circle** icon represents an existing **workload with no activity. Hovering** **over** it will show the information since when SysKit Point monitors the activity.
 
