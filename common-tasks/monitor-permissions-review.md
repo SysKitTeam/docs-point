@@ -73,7 +73,7 @@ When clicked, the Governance screen opens, giving a summary for the active autom
 * **Review categories \(1\)**
   * **Scheduled \(automated\) permissions review** - selected by default
   * **Manually Requested Reviews**
-  * **History** - overview of all completed reviews \(- \)automated and manually requested\)
+  * **History** - overview of all completed reviews \(automated and manually requested\)
 * **visual representation and the percentage of permissions review tasks completed \(2\)**
 * **start and end date of the permissions review \(3\)**
 * **number of completed review tasks \(4\)**
@@ -98,7 +98,8 @@ The Permissions Review report gives SysKit Point Admins the following informatio
 Use the **Remind Owners action** to send a reminder email to site owners regarding the ongoing permissions review. You can use this action **once a day**, whenever you think appropriate, **as long as the permissions review is active**. **Only site owners with pending tasks will receive an email**.
 
 {% hint style="warning" %}
-**Please note!** Permissions review has, by default, duration of **ten days**. In this time frame, site owners should be able to complete the permissions review on their sites. By default, **three days before the permissions review end date**, SysKit Point sends an automatic **email reminder to all site owners with pending tasks**.
+**Please note!**   
+Permissions review has, by default, duration of **ten days**. In this time frame, site owners should be able to complete the permissions review on their sites. By default, **three days before the permissions review end date**, SysKit Point sends an automatic **email reminder to all site owners with pending tasks**.
 {% endhint %}
 
 ## Permissions Review Completion
@@ -153,7 +154,7 @@ The generated **Permissions Review - Summary** report shows the following inform
 * **who performed the action \(4\)** 
 * **when the action was performed \(5\)**
 * **action details \(6\)** that provides all information about performed actions 
-* **Export button** that generates an XLSX file with all data visible in the SysKit Point interface
+* **Export button \(7\)** that generates an XLSX file with all data visible in the SysKit Point interface
 
 With that, we finish the permissions review overview for SysKit Point Admin users.
 
