@@ -59,7 +59,7 @@ After confirming the request, you will be redirected to the Permissions Review o
 ![Permissions Review overview screen](../.gitbook/assets/manually-request-permissions-review_review-overview.png)
 
 To see all Manually Requested Reviews, follow these steps:
-* **From home screen, click the Governance tile**; the Governance screen opens
+* **From the Home screen, click the Governance tile**; the Governance screen opens
 * **click the Manually Requested Reviews category (1)**
 * **click the See Details button (2)** to open the Permissions Review report 
 
