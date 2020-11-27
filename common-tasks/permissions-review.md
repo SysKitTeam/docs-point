@@ -36,7 +36,7 @@ When the Automated Permissions Review starts, site owners receive an email reque
 
 The **Review Now** button opens the **Permissions Review Task** screen once clicked. On this screen, you can find:
 
-* **sites they are the owner of and need to review**; displayed in the grid
+* **sites you are the owner of and need to review**; displayed in the grid
 * **information regarding the permissions review task \(1\)** 
 
 ![Permissions Review Task screen](../.gitbook/assets/permissions-review_task.png)
@@ -51,12 +51,12 @@ On the Home screen, you can notice the **My Tasks** tile and a notification bubb
 
 **My Tasks** screen displays the active permissions review task with the most important information:
 
-* **requested date (1)**
-* **due date (2)**
-* **completion progress (3)**
-* **Review button (4)**
-* **Task categories (5)**
-* **Completed tasks categories (6)**
+* **requested date \(1\)**
+* **due date \(2\)**
+* **completion progress \(3\)**
+* **Review button \(4\)**
+* **Task categories \(5\)**
+* **Completed tasks categories \(6\)**
 
 ![My Tasks screen](../.gitbook/assets/permissions-review_my-tasks.png)
 
@@ -64,105 +64,112 @@ Click **Review** to continue. The **Permissions Review Task** screen opens - the
 
 ## Permissions Review Wizard
 
-The **Permissions Review Wizard** has three or four steps, depending on the resource type. The following steps are available:
+The **Permissions Review Wizard** has three steps when reviewing OneDrive, and four steps when reviewing Office 365 Groups, Microsoft Teams, or sites. The following steps are available:
+
 * **Overview**
-* **Members** (for Office 365 Groups and Microsoft Teams), or **Users** (for sites); this step is not available for OneDrive 
+* **Members** \(for Office 365 Groups and Microsoft Teams\), or **Users** \(for sites\); this step is not available for OneDrive 
 * **Sharing**
 * **Summary**
 
-Let's take a closer look at every step in more detail.
+Let's take a closer look at every step.
 
 ### Overview Step
+
 This step provides general information about the resource that you are about to review. The following is displayed:
-* **List of owners, along with the Change Owners action (1)**
-* **General resource information (2)** - **Description**, **Creation date and time**, **Privacy**, **Sharing Policy**, **resource URL**, and **Last Activity**
-* **when the resource was last reviewed and by whom (3)**
-* **Who else got this task? information (4)** - hover over it to see the full list of users that received the Permissions Review task
-* **Permissions Changes tile (5)** - in case there were no changes since the last review, the **Skip wizard and complete review (6)** action is available
-* **Close & Continue Later action (7)**, which closes the wizard 
-* **Start Review button (8)**, which takes you to the next step of the Permissions Review wizard
+
+* **List of owners, along with the Change Owners action \(1\)**
+* **General resource information \(2\)** - **Description**, **Creation date and time**, **Privacy**, **Sharing Policy**, **resource URL**, and **Last Activity**
+* **when the resource was last reviewed and by whom \(3\)**
+* **Who else got this task? information \(4\)** - hover over it to see the full list of users that received the Permissions Review task
+* **Permissions Changes tile \(5\)** - in case there were no changes since the last review, the **Skip wizard and complete review \(6\)** action is available
+* **Close & Continue Later action \(7\)**, which closes the wizard 
+* **Start Review button \(8\)**, which takes you to the next step of the Permissions Review wizard
 
 ![Permissions Review wizard - Overview step](../.gitbook/assets/permissions-review_wizard-overview.png)
 
-The **Close & Continue Later** option is available on all steps on the left-bottom, and enables you to leave the Permissions Review wizard. 
+The **Close & Continue Later** option is available on all steps on the left-bottom and enables you to leave the Permissions Review wizard.
 
 {% hint style="success" %}
 **Hint!**  
 No need to worry when you leave the Permissions Review wizard - all performed actions take effect immediately, and will be visible in the Summary step at the end of the Permissions Review.
-{% endhint %} 
-### Members/Users
+{% endhint %}
+
+### Members/Users Step
 
 The **Members step** is available **when reviewing Office 365 Groups or Microsoft Teams**. The following options are available:
-* **top filters (1)** - they help you view only a specific group of users on your resource:
+
+* **top filters \(1\)** - they help you view only a specific group of users in your resource:
   * **Added users**
   * **Removed users**
   * **Owners**
   * **Members**
   * **Guests**
-* **when a user is selected (2)**, several options are available:
-  * **actions (3)** - remove members or owners, promote members to owners, or change owners to members
-  * **User Activity report (4)** - see all audit logs for the selected user
-  * **Additional information (5)** - see user's latest activity and when it happened
+* **when a user is selected \(2\)**, several options are available:
+  * **actions \(3\)** - remove members or owners, promote members to owners, or change owners to members
+  * **User Activity report \(4\)** - see all audit logs for the selected user
+  * **Additional information \(5\)** - see user's latest activity and when it happened
 * when no users are selected, the **Add Owners/Members** action is available
-* **click Next (6)** to continue to the next step of the Permissions Review Wizard
+* **click Next \(6\)** to continue to the next step of the Permissions Review Wizard
 
 ![Permissions Review wizard - Members step](../.gitbook/assets/permissions-review_wizard-members.png)
 
 The **Users step** is available **when reviewing sites**. The following options are available here:
-* **top filters (1)** - choose to view only a certain type of users on site:
+
+* **top filters \(1\)** - choose to view only a certain type of users on site:
   * **Administrators**
   * **Users with permissions on the site level** 
   * **External Users**
-* **when a user is selected (2)**, additional options are available:
-  * **actions (3)** - based on the type of the selected user, various actions are available - Remove Access, Edit Permissions, Delete SharePoint Group, and Change Admins
-  * **User Activity report (4)** - see all audit logs for the selected user
-  * **Additional information (5)** - see user's latest activity and when it happened
+* **when a user is selected \(2\)**, additional options are available:
+  * **actions \(3\)** - based on the type of the selected user, various actions are available - Remove Access, Edit Permissions, Delete SharePoint Group, and Change Admins
+  * **User Activity report \(4\)** - see all audit logs for the selected user
+  * **Additional information \(5\)** - see user's latest activity and when it happened
 * when no users are selected, the **Grant Access** action is available
-* **click Next (6)** to continue to the next step of the Permissions Review Wizard
+* **click Next \(6\)** to continue to the next step of the Permissions Review Wizard
 
 ![Permissions Review wizard - Users step](../.gitbook/assets/permissions-review_wizard-users.png)
 
 {% hint style="warning" %}
 **Please note!**  
-Described steps are not available when reviewing permissions for OneDrive.
+Members/Users step is not available when reviewing permissions for OneDrive.
 {% endhint %}
-### Sharing
 
-The **Sharing step** gives you a simple, yet detailed overview of all shared content.
-Multiple filters and views enable you to find shared content that you want to review.
-* **top filters (1)** enable you to filter content by sharing type
-  * **All Shared Content** - shows content that has been shared via sharing links or through direct access; use it when you want to see everyhing
-  * **Shared Outside the Group** - selected by default; use it to find content shared with users that are not a part of the Office 365 Group or Microsoft Team
+### Sharing Step
+
+The **Sharing step** gives you a simple, yet detailed overview of all shared content. Multiple filters and views enable you to find shared content that you want to review.
+
+* **top filters \(1\)** enable you to filter content by sharing type
+  * **All Shared Content** - shows content that has been shared via sharing links or through direct access; use it when you want to see everything that was shared
+  * **Shared Outside the Group** - selected by default; use it to find content shared with users that are not a part of the Office 365 Group or Microsoft Team you are reviewing
   * **Shared Externally** - shows content shared with specific people outside your organization
-  * **Shared With Anyone** - show content shared with anyone via sharing links; this can be dangerous ground so make sure to examine such files carefully
-* **views (2)** enable you to see sharing from two different perspectives - you can group by:
+  * **Shared With Anyone** - show content shared with anyone via sharing links; this can be dangerous ground so make sure to examine such content carefully
+* **views \(2\)** enable you to see sharing from two different perspectives - you can group by:
   * **Content**
   * **Users**
-* **Advanced Filters (3)** - by default, only content with unique permissions is visible down to the document level; with the help of the Advanced Filters, you can choose to:
+* **Advanced Filters \(3\)** - by default, only the content with unique permissions is visible down to the document level; with the help of the Advanced Filters, you can choose to:
   * **view content without unique permissions**
   * **view content down to a specific level**, for example, down to the document library or list level
-* **when a row is selected (4)**, available actions are displayed in the **side panel (5)**
+* **when a row is selected \(4\)**, available actions are displayed in the **side panel \(5\)**
 * **when no rows are selected**, the **Permissions Changes report link** is visible
-* **click Next (6)** to continue to the final step of the Permissions Review Wizard
+* **click Next \(6\)** to continue to the final step of the Permissions Review Wizard
 
 ![Permissions Review wizard - Sharing step](../.gitbook/assets/permissions-review_wizard-sharing.png)
 
-In case you switch to the **Users view**, the **top filters** are changed accordingly and enable you to filter out specific types of users.
-You can find descriptions for all filters by **hovering your mouse over the filter tile (1)**. 
+In case you switch to the **Users view**, the **top filters** are changed accordingly and enable you to filter out specific types of users. You can find descriptions for all filters by **hovering your mouse over the filter tile \(1\)**.
 
 ![Permissions Review wizard - Sharing step - Users view](../.gitbook/assets/permissions-review_wizard-sharing-by-users.png)
 
-In the example above, Microsoft Team was reviewed. Filters will differ slightly when you review sites or OneDrive since there is no Office 365 Group involved whose members would have access by default, so the Users Outside the Group filter is not applicable. Instead, the **Access on Child Objects filter is given**, showing only users that don't have access on a site level but have access to a specific file or folder.
+In the example above, Microsoft Team was reviewed. **Filters will differ slightly when you review sites or OneDrive** since there is no Office 365 Group involved whose members would have access by default, so the Users Outside the Group filter is not applicable. Instead, the **Access on Child Objects filter is given**, showing only users that don't have access on a site level but have access to a specific file or folder.
 
 ![Permissions Review wizard - Sharing step - Site](../.gitbook/assets/permissions-review_wizard-site-sharing-by-users.png)
-### Summary
 
-The **Summary step** gives a recap of all actions performed during the Permissions Review.
-Here, the following is displayed:
-* **number of performed actions grouped by action (1)**
-* **grid with all actions (2)** and information about who performed them, when, and other details
-* **Export button (3)** that exports the data in the grid into an XLSX file
-* **Complete Review button (4)** that opens the **Complete Review dialog** 
+### Summary Step
+
+The **Summary step** gives a recap of all actions performed during the Permissions Review. Here, the following is displayed:
+
+* **total number of performed actions grouped by action name \(1\)**
+* **grid with all actions \(2\)** and information about who performed them, when, and other details
+* **Export button \(3\)** that exports the data in the grid into an XLSX file
+* **Complete Review button \(4\)** that opens the **Complete Review dialog** 
 
 ![Permissions Review wizard - Summary step](../.gitbook/assets/permissions-review_wizard-summary.png)
 
@@ -171,7 +178,7 @@ Here, the following is displayed:
 When you are done with the review and have made sure that your site is secure, **Complete the permissions review**. To do so:
 
 * **click the Complete Review button \(1\)** on the bottom of the Summary step; the **Complete Review dialog opens**
-* **leave a comment**; here, you can describe what kind of changes were made to ensure that the site is secured; the comment is visible to all site owners
+* **leave a comment**; here, you can describe what kind of changes were made to ensure that the site is secured; the comment is visible to all site owners and SysKit Point Admins
 * **type CONFIRM \(3\)** in the appropriate field
 * **click the Confirm button \(4\)**
 
@@ -192,12 +199,13 @@ When you complete permissions reviews for all sites you are the owner of, your *
 ![My Tasks - Completed](../.gitbook/assets/permissions-review_task-completed.png)
 
 This opens the Permissions Review screen for the completed Permissions Review, where you can:
-* **select a site (1)** 
-* **click the Review button (2)** to open the **Review Summary report**
+
+* **select a site \(1\)** 
+* **click the Review button \(2\)** to open the **Review Summary report**
 
 ![My Tasks - Completed](../.gitbook/assets/permissions-review_completed-review.png)
 
-The **Review Summary** report shows a detailed log of actions performed during the Permissions Review process and can be **exported to an XLSX file (1)**
+The **Review Summary** report shows a detailed log of actions performed during the Permissions Review process and can be **exported to an XLSX file \(1\)**
 
 ![Review Summary Report](../.gitbook/assets/permissions-review_review-summary.png)
 
