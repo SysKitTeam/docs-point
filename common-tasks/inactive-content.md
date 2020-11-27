@@ -41,11 +41,11 @@ There are several places where you can find activity information in **SysKit Poi
 
 When you open the Sites Overview screen from the **Welcome Home** screen, click the **Column** **Chooser** and mark the **Activity** column to show it in the grid.
 
-![Sites Overview screen - Activity column](../.gitbook/assets/inactive-content_sites-overview-screen-activity-column-1.png)
+![Sites Overview screen - Activity column](../.gitbook/assets/inactive-content_sites-overview-screen-activity-column%20%281%29%20%282%29.png)
 
 You can see the **blue info icon** in the Activity column header.
 
-![Activity column tooltip](../.gitbook/assets/inactive-content_activity-column-tooltip.png)
+![Activity column tooltip](../.gitbook/assets/inactive-content_activity-column-tooltip%20%281%29.png)
 
 When you **hover over the info icon**, you will see which workloads are included in the evaluation of the activity for Sites, Microsoft Teams, Office 365 Groups, and OneDrive sites. There is also information for which period \(number of days\) was the activity assessment made. In the grid, you have a **column filter** to help you see just the active or the inactive content.
 
@@ -57,19 +57,19 @@ Hover over circle icons for each row to get more information about the **activit
 
 There is also a separate **Inactive Sites view** available, which can be accessed from the View drop-down menu. By selecting it, the Activity column becomes visible in the grid.
 
-![Sites Overview Screen - Inactive Sites view](../.gitbook/assets/inactive-content_inactive-sites-view.png)
+![Sites Overview Screen - Inactive Sites view](../.gitbook/assets/inactive-content_inactive-sites-view%20%281%29.png)
 
 ### Microsoft Teams & Groups Overview Screen
 
 The **Microsoft Teams & Groups Overview screen** has a similar representation of workload activity for Microsoft Teams and Office 365 groups as the Sites Overview screen. The **Activity column is**, **by default**, **shown** as the last column in the grid. The same rules of displaying the activity data are applied here, as explained for the Sites Overview screen. Additionally, here you can find a separate **Inactive** tile above the grid. By clicking the tile, the **Inactive Groups** view is shown.
 
-![Inactive Content tile](../.gitbook/assets/inactive-content_inactive-content-tile-1.png)
+![Inactive Content tile](../.gitbook/assets/inactive-content_inactive-content-tile%20%281%29%20%281%29.png)
 
 ### Details Screen
 
 You can **access** **Details** **screens** for Sites, Office 365 Groups, and Microsoft Teams by **clicking the link in the Name column** on **Overview** screens. The activity information inside Details screens is shown in the **Analytics and Usage** tile. Hover over the **blue info icon** to see for which workloads are the activities tracked.
 
-![Details screen - Analytics and Usage tile - Activity section](../.gitbook/assets/inactive-content_analytics-and-usage-tile-activity-section.png)
+![Details screen - Analytics and Usage tile - Activity section](../.gitbook/assets/inactive-content_analytics-and-usage-tile-activity-section%20%281%29.png)
 
 {% hint style="warning" %}
 **Please note!**  
@@ -88,7 +88,7 @@ Click the **Run Report** button to generate the Inactive Content report. On the 
 
 Notice the **blue info icon** next to the Activity columns. **Hovering above the icons displays a** **tooltip** with information on how the last activity date was determined.
 
-![Inactive Content report - Activity column tooltip](../.gitbook/assets/inactive-content_inactive-content-report-activity-tooltip.png)
+![Inactive Content report - Activity column tooltip](../.gitbook/assets/inactive-content_inactive-content-report-activity-tooltip%20%281%29%20%281%29.png)
 
 A **grey circle** icon represents an existing **workload with no activity. Hovering** **over** it will show the information since when SysKit Point monitors the activity.
 

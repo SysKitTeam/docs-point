@@ -136,6 +136,7 @@ When the configuration is completed, if everything was configured correctly the 
 ![SysKit Point Configuration - Finish](../../.gitbook/assets/install-syskit-point-on-premises_finish-step.png)
 
 ## Get to Know SysKit Point
+
 After the installation, move on to the [Quick Start Guide](../../how-to/syskit-point-quick-start-guide.md) and learn how to use **SysKit Point**.
 
 ## Related Topics
