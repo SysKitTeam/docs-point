@@ -73,9 +73,9 @@ Microsoft’s login window uses JavaScript to render its content. For it to work
 * **Confirm** the change
 * Close **Internet Options**
 
-![](../../.gitbook/assets/additional-vm-configuration_internet-options.png)
+![](../../.gitbook/assets/additional-vm-configuration_internet-options%20%282%29.png)
 
-![Internet Explorer - Enabling JavaScript](../../.gitbook/assets/additional-azure-vm-configuration_security-settings.png)
+![Internet Explorer - Enabling JavaScript](../../.gitbook/assets/additional-azure-vm-configuration_security-settings%20%282%29.png)
 
 ## Install a Compatible Browser
 
