@@ -156,6 +156,6 @@ The generated **Permissions Review - Summary** report shows the following inform
 * **action details \(6\)** that provides all information about performed actions 
 * **Export button \(7\)** that generates an XLSX file with all data visible in the SysKit Point interface
 
-With that, we finish the permissions review overview for SysKit Point Admin users.
-
 ![Permissions Review - Summary report](../.gitbook/assets/monitor-permissions-review_summary.png)
+
+With that, we finish the permissions review overview for SysKit Point Admin users.
