@@ -131,7 +131,10 @@ When the configuration is completed, if everything was configured correctly the 
 
 ![SysKit Point Configuration - Finish](../../.gitbook/assets/install-syskit-point-on-azure-vm_finish-step.png)
 
-### Related Topics
+## Next Step
+After the installation, move on to the [Quick Start Guide](../../how-to/syskit-point-quick-start-guide.md) and learn how to use **SysKit Point**.
+
+## Related Topics
 
 * [Overview - Install SysKit Point on Azure Virtual Machine](overview.md) 
 * [Hardware and Software Requirements](hardware-software-requirements.md)
