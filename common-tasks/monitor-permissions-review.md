@@ -158,3 +158,4 @@ The generated **Permissions Review - Summary** report shows the following inform
 
 With that, we finish the permissions review overview for SysKit Point Admin users.
 
+![Permissions Review - View Details](../.gitbook/assetsmonitor-permissions-review_summary.png)
