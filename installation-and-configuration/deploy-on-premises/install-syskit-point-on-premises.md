@@ -130,7 +130,7 @@ In the Web Application Settings, the following is defined:
 ![Configuration Wizard - Web Application Settings step](../../.gitbook/assets/install-syskit-point-on-premises_configuration-web-app.png)
 
 {% hint style="success" %}
-All certificate file types are supported - `cer`, `pfx`, `p12`, `crt`, and other.
+All certificate file types are supported - `cer`, `pfx`, `p12`, `crt`, and others.
 In case importing a specific certificate file should fail, import the certificate manually with the help of the Certificate Manager, and then select it in SysKit Point Configuration Wizard by using the **Import from Personal Store** option.
 {% endhint %}
 ### Finish Step
