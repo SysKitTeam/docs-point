@@ -37,7 +37,7 @@ In case you **pre-created an empty SQL database** for SysKit Point, choose the *
 
 Click **Next \(3\)** to proceed.
 
-![SysKit Point Configuration - Database](../../.gitbook/assets/install-syskit-point-on-premises_database-step.png)
+![SysKit Point Configuration - Database](../../.gitbook/assets/install-syskit-point-on-premises_database-step%20%283%29%20%281%29.png)
 
 ### Database Configuration Step
 
@@ -87,7 +87,7 @@ Click the **Connect to your tenant** link to connect SysKit Point to your Office
 
 When you first connect to your tenant, SysKit Point will request permissions needed to collect data from your Office 365 environment.
 
-![Office 365 Global Admin Consent](../../.gitbook/assets/permission_requirements_global_administrator_consent-3.png)
+![Office 365 Global Admin Consent](../../.gitbook/assets/permission_requirements_global_administrator_consent%20%283%29%20%284%29%20%281%29.png)
 
 To continue, check the **Consent on behalf of your organization** **option \(1\)**, and click the **Accept** **button \(2\)**. A new window opens where you can choose which information would you like to collect when it comes to your Office 365 environment:
 
@@ -97,7 +97,7 @@ To continue, check the **Consent on behalf of your organization** **option \(1\)
 * **Store audit logs \(3\)** - SysKit Point will also collect all audit logs to monitor internal and external user activities and changes and Store them on the hard drive. To stop storing audit logs, uncheck this option.
 * **Protect user privacy \(4\)** - When enabled, user activity data will be hidden from SysKit Point and protected from Administrator supervision. By default, this option is disabled.
 
-![OneDrive and audit logs configuration](../../.gitbook/assets/install-syskit-point-on-premises_configure-od-audit.png)
+![OneDrive and audit logs configuration](../../.gitbook/assets/install-syskit-point-on-azure-vm_configure-od-audit%20%283%29%20%284%29.png)
 
 {% hint style="success" %}
 You can change these options anytime by running **SysKit Point Configuration**.
@@ -123,17 +123,25 @@ In the Web Application Settings, the following is defined:
 
 * **URL of SysKit Point Web App \(1\)**
 * **Port used \(2\)**
-* **Certificate**; here you can choose from two options:
-  * **SSL Certificate \(3\)**
-  * **Self-signed certificate \(4\)**
+* **Certificate**; here, you can choose between two options:
+  * **Import SSL certificate \(3\)** - here, you can **import the certificate from a file (5)**, or from the **Personal Store (6)**
+  * **Use self-signed certificate \(4\)**
 
 ![Configuration Wizard - Web Application Settings step](../../.gitbook/assets/install-syskit-point-on-premises_configuration-web-app.png)
 
+{% hint style="success" %}
+All certificate file types are supported - `cer`, `pfx`, `p12`, `crt`, and others.
+In case importing a specific certificate file should fail, import the certificate manually with the help of the Certificate Manager, and then select it in SysKit Point Configuration Wizard by using the **Import from Personal Store** option.
+{% endhint %}
 ### Finish Step
 
 When the configuration is completed, if everything was configured correctly the screen will look like this.
 
-![SysKit Point Configuration - Finish](../../.gitbook/assets/install-syskit-point-on-premises_finish-step.png)
+![SysKit Point Configuration - Finish](../../.gitbook/assets/install-syskit-point-on-azure-vm_finish-step%20%281%29.png)
+
+## Get to Know SysKit Point
+
+After the installation, move on to the [Quick Start Guide](../../how-to/syskit-point-quick-start-guide.md) and learn how to use **SysKit Point**.
 
 ## Related Topics
 

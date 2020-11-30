@@ -98,7 +98,7 @@ The Permissions Review report gives SysKit Point Admins the following informatio
 Use the **Remind Owners action** to send a reminder email to site owners regarding the ongoing permissions review. You can use this action **once a day**, whenever you think appropriate, **as long as the permissions review is active**. **Only site owners with pending tasks will receive an email**.
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 Permissions review has, by default, duration of **ten days**. In this time frame, site owners should be able to complete the permissions review on their sites. By default, **three days before the permissions review end date**, SysKit Point sends an automatic **email reminder to all site owners with pending tasks**.
 {% endhint %}
 
@@ -110,7 +110,7 @@ Ten days after the start, the permissions review is automatically marked as comp
 * **total number of sites where the permissions review was not completed \(2\)**
 * **View Uncompleted Tasks \(3\)** button
 
-![Email - Permissions Review completed](../.gitbook/assets/monitor-permissions-review_email-after.png)
+![Email - Permissions Review completed](../.gitbook/assets/monitor-permissions-review_email-after%20%282%29.png)
 
 To view sites where the permissions review was not completed, click the **View Uncompleted Tasks** button. If already signed in to SysKit Point, you will be redirected to the **Permissions Review** report. Here, you can:
 
@@ -159,3 +159,4 @@ The generated **Permissions Review - Summary** report shows the following inform
 ![Permissions Review - Summary report](../.gitbook/assets/monitor-permissions-review_summary.png)
 
 With that, we finish the permissions review overview for SysKit Point Admin users.
+
