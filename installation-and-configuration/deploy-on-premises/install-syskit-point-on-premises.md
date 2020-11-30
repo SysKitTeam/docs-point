@@ -124,7 +124,7 @@ In the Web Application Settings, the following is defined:
 * **URL of SysKit Point Web App \(1\)**
 * **Port used \(2\)**
 * **Certificate**; here, you can choose between two options:
-  * **Import SSL certificate \(3\)** - here, you can **import the certificate from a file (5)**, or from the **Personal store (6)**
+  * **Import SSL certificate \(3\)** - here, you can **import the certificate from a file (5)**, or from the **Personal Store (6)**
   * **Use self-signed certificate \(4\)**
 
 ![Configuration Wizard - Web Application Settings step](../../.gitbook/assets/install-syskit-point-on-premises_configuration-web-app.png)
