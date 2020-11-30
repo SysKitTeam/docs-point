@@ -125,7 +125,7 @@ If the Permissions Review and Lifecycle Management automation is not configured,
 {% hint style="info" %}
 **Learn more!**  
 Use the following articles to learn how to enable and configure automation in SysKit Point: 
-* [Enable Automated Permissions Review](../installation-and-configuration/enable-permissions-review.md) and
+* [Enable Automated Permissions Review](../installation-and-configuration/enable-permissions-review.md)
 * [Enable Lifecycle Management Automation](../installation-and-configuration/enable-lifecycle-management.md)
 {% endhint %}
 
