@@ -123,12 +123,16 @@ In the Web Application Settings, the following is defined:
 
 * **URL of SysKit Point Web App \(1\)**
 * **Port used \(2\)**
-* **Certificate**; here you can choose from two options:
-  * **SSL Certificate \(3\)**
-  * **Self-signed certificate \(4\)**
+* **Certificate**; here, you can choose between two options:
+  * **Import SSL certificate \(3\)** - here, you can **import the certificate from a file (5)**, or from the **Personal store (6)**
+  * **Use self-signed certificate \(4\)**
 
 ![Configuration Wizard - Web Application Settings step](../../.gitbook/assets/install-syskit-point-on-premises_configuration-web-app.png)
 
+{% hint style="success" %}
+All certificate file types are supported - `cer`, `pfx`, `p12`, `crt`, and other.
+In case importing a specific certificate file should fail, import the certificate manually with the help of the Certificate Manager, and then select it in SysKit Point Configuration Wizard by using the **Import from Personal Store** option.
+{% endhint %}
 ### Finish Step
 
 When the configuration is completed, if everything was configured correctly the screen will look like this.
