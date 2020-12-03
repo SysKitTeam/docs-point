@@ -120,14 +120,13 @@ In the Web Application Settings, the following options are defined:
 * **URL of SysKit Point Web App \(1\)**
 * **Port to use \(2\)**
 * **Certificate**; here, you can choose between two options:
-  * **Import SSL certificate \(3\)** - here, you can **import the certificate from a file (5)**, or from the **Personal Store (6)**
+  * **Import SSL certificate \(3\)** - here, you can **import the certificate from a file \(5\)**, or from the **Personal Store \(6\)**
   * **Use self-signed certificate \(4\)**
 
 ![Configuration Wizard - Web Application Settings step](../../.gitbook/assets/install-syskit-point-on-azure-vm_webapp-settings-step.png)
 
 {% hint style="success" %}
-All certificate file types are supported - `cer`, `pfx`, `p12`, `crt`, and others.
-In case importing a specific certificate file should fail, import the certificate manually with the help of the Certificate Manager, and then select it in SysKit Point Configuration Wizard by using the **Import from Personal Store** option.
+All certificate file types are supported - `cer`, `pfx`, `p12`, `crt`, and others. In case importing a specific certificate file should fail, import the certificate manually with the help of the Certificate Manager, and then select it in SysKit Point Configuration Wizard by using the **Import from Personal Store** option.
 {% endhint %}
 
 ### Finish Step
