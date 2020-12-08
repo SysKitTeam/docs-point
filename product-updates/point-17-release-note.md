@@ -11,7 +11,7 @@ Let the festivities begin; **SysKit Point 17 is here**! Although it's still Nove
 [Try SysKit Point trial](https://www.syskit.com/products/point/request-a-free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
 **Product version:** 17.0.0  
-**Build number:** 1396  
+**Build number:** 1456  
 **Release date:** Nov 23, 2020
 
 ## Features
