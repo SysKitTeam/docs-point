@@ -31,7 +31,7 @@ To simplify the SysKit Point installation on a **test environment**, we recommen
 * Check what is the full **DNS name** of the Azure Virtual Machine provided by your **Azure team**. It is visible in the **RDP Connection file** or inside the [**Azure portal**](https://portal.azure.com). 
   * The VM **DNS name** is configured during the previous configuration step \([**Configure a DNS Name**](create-azure-vm.md#configure-a-dns-name) during the Virtual Machine setup\)
   * It should look like `https://AzureVmName.eastus.cloudapp.azure.com`
-* A **self-signed certificate will be created by SysKit Point**
+* A **Self-signed certificate will be created by SysKit Point**
 
 {% hint style="warning" %}
 **Please note!**  
