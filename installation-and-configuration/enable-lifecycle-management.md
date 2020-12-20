@@ -36,7 +36,7 @@ If you haven't enabled the **E-mail** or **SysKit Point Collaborators** role yet
 
 ## Customize Lifecycle Management Automation
 
-When you have enabled the required options, click the **Enable Lifecycle Management Automation** \(1\) option. After that, more options becomes available.
+When you have enabled the required options, click the **Enable Lifecycle Management Automation** \(1\) option. After that, more options become available.
 
 You can select between three available actions for your **Site Owners** to take :
 
@@ -45,7 +45,7 @@ You can select between three available actions for your **Site Owners** to take 
 * **Delete**
 
 {% hint style="warning" %}
-**Please note** – Action **Keep** cannot be disabled, also a minimum of **two** actions is needed for this feature to be functional.
+**Please note** – Action **Keep** cannot be disabled, also a minimum of **two** actions are needed for this feature to be functional.
 {% endhint %}
 
 If you wish to receive an **automatic reminder** for uncompleted tasks, select said checkbox \(2\).
@@ -68,14 +68,14 @@ By default, the **All Microsoft Teams, Office 365 Groups and sites \(1\)** optio
 ![SysKit Point Settings screen - Lifecycle Management Dynamic Target Selection](../.gitbook/assets/4%20%281%29.png)
 
 {% hint style="warning" %}
-**Please note** that if you haven't received the approval from **Microsoft** for detecting activity of **Microsoft Teams**, those resources **will not be monitored** with **Lifecycle Management Automation**.
+**Please note** that if you haven't received the approval from **Microsoft** for detecting the activity of **Microsoft Teams**, those resources **will not be monitored** with **Lifecycle Management Automation**.
 {% endhint %}
 
 Once your changes are saved, you can click the **Preview tile**, which opens the **Lifecycle Management - Preview** report showing detailed information about resources that will be included in the lifecycle management automation. On the report, you can:
 
 * **click the tiles \(1\)** to show only a certain site type; the tiles show the number of sites included in the lifecycle management automation, grouped by type
 * **click the Show link \(2\) that activates the** Orphaned Sites view \(3\)
-* **view all site owners that will receive a lifecycle management e-mail**; for each Microsoft Team, Office 365 Group, site included in the lifecycle management automation.
+* **view all site owners that will receive a lifecycle management e-mail**; for each Microsoft Team, Office 365 Group, the site included in the lifecycle management automation.
 * **change admins** by **selecting a row \(4\)** and clicking the **Change Admins action \(5\)** available in the side panel
 
 ![SysKit Point - Lifecycle Management Preview report](../.gitbook/assets/5%20%282%29.png)
