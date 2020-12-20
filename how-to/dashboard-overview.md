@@ -107,7 +107,7 @@ Clicking the External users opens the **Users Overview** screen with filtered ex
 
 Drill on the **Sites With External Sharing** number opens the **External Sharing** view on the **Sites Overview** screen. Here you can find Microsoft teams, Office 365 groups, sites, and OneDrive with **external sharing setting set to any other value than 'Only people in your organization'**.
 
-Clicking the **Anonymous Links** number opens the **Sharing Links** report in Report Center. Here, only links shared to anyone are displayed. You can remove specific links with the help of actions available in the side panel.
+Clicking the **Anonymous Links** number opens the **Sharing Links** report in Report Center. Here, only links shared with anyone are displayed. You can remove specific links with the help of actions available in the side panel.
 
 The last information on this tile is the number of **Sites With Anonymous Sharing**. The drill opens the **Anonymous Sharing view** on the Sites Overview screen. Here, only resources with the external sharing settings set to **'Anyone'** are displayed.
 
