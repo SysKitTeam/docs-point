@@ -190,9 +190,9 @@ As you know, the **SysKit Point Admin** can see all the available content in the
 
 **Role-Based Access** empowers all **Site Owners** \(and users with **Full Control** permissions\) to keep their **Sites** and **Teams** clean. It gives them access to all reports and information relevant to them, without showing the content they are not allowed to see.
 
-**For example,** the **SysKit Point Admin** has generated the **User Access** report. Instead of sharing the URL of the generated report to the other **SysKit Point Admin**, it was sent to the **SysKit Point Collaborator** that doesn't have access to all the users on the said environment. This is where **Role-Based Access** kicks in.
+**For example,** the **SysKit Point Admin** has generated the **User Access** report. Instead of sharing the URL of the generated report to the other **SysKit Point Admin**, it was sent to the **SysKit Point Collaborator** that doesn't have access to all the users in the said environment. This is where **Role-Based Access** kicks in.
 
-When said **SysKit Point Collaborator** opens the URL, the report will be generated but only containing **Users** who are members on his **Site Collections** and **Office 365** **Groups**.
+When said **SysKit Point Collaborator** opens the URL, the report will be generated but only containing **Users** who are members of his **Site Collections** and **Office 365** **Groups**.
 
 When the **SysKit Point Collaborator** tries to **drill** to the **User Details** page of a user he is not a manager of, he/she will be redirected to an **Unauthorized Access** page.
 
