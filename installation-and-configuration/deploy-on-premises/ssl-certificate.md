@@ -6,7 +6,7 @@ description: This article explains how to use a SSL certificate with SysKit Poin
 
 Decide which **URL are you going to use for SysKit Point web application** and prepare an SSL certificate required to make a secure https connection from the browser. This is the URL your users will use to access SysKit Point through one of the [supported browsers](../../requirements/system-requirements.md#supported-browsers).
 
-You have different options available depending on whether on which environment you are deploying SysKit Point:
+You have different options available depending whether on which environment you are deploying SysKit Point:
 
 * **Production environment** where SysKit Point is connected to your **Production** tenant
 * **Test environment** where SysKit Point is connected to your **QA/Test/DEV** tenant
@@ -16,14 +16,14 @@ You have different options available depending on whether on which environment y
 In a production environment, **it is recommended to use** an **SSL certificate obtained from a publicly trusted SSL certificate provider** or **internal Certificate Authority \(CA\)** and the **URL which will be recognisable by your users**. You can choose from **two options**:
 
 * Use a **public internet domain** for SysKit Point web application URL which will be reachable from the **internet**
-* Use an **internal company domain** for SysKit Point web application URL which will be reachable from the **inside of your company**
+* Use a **internal company domain** for SysKit Point web application URL which will be reachable from the **inside of your company**
 
 ### Use a public internet domain for SysKit Point
 
 To use SysKit Point with a public internet domain \(for example, `https://point.publicdomain.com`\) perform the following steps:
 
 * On a **public DNS provider** create a **DNS A record** for a **public internet domain** pointing to the **on-premises public IP address** 
-* Configure the **internet-facing firewall** to allow communication between the **on-premises public IP address** and **Syskit Point server** on **TCP port 443** 
+* Configure the **internet facing firewall** to allow communication between the **on-premises public IP address** and **Syskit Point server** on **TCP port 443** 
 * Obtain an **SSL certificate** from a **publicly trusted SSL certificate provider**
   * Associate the SSL certificate with the public domain used in the SysKit Point web application URL
 
@@ -41,9 +41,9 @@ Learn how to [configure the SSL certificate by using your internal CA here.](../
 
 ## Deploy SysKit Point to a test environment
 
-To simplify SysKit Point installation on a **test environment** we recommend you use an **FQDN of the Windows Server** \(for example, `https://pointserver.testdomain.com`\) for the SysKit Point web application URL. In this case, it is **not required** to obtain a publicly trusted SSL certificate and there is **no additional configuration on a DNS server**.
+To simplify SysKit Point installation on a **test environment** we recommend you use an **FQDN of the Windows Server** \(for example, `https://pointserver.testdomain.com`\) for the SysKit Point web application URL. In this case it is **not required** to obtain a publicly trusted SSL certificate and there is **no additional configuration on a DNS server**.
 
-* **A self-signed certificate will be created by SysKit Point**
+* **Self-signed certificate will be created by SysKit Point**
 
 {% hint style="success" %}
 **When configuring**, SysKit Point will, by default, automatically set up the **Web App URL** to the **FQDN of the Windows Server** and the **Self-signed certificate** so there is no additional configuration needed on your side.

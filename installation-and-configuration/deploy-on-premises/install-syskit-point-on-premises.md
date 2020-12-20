@@ -59,7 +59,7 @@ Choose the type of authentication to this MS SQL Server and SQL Server database:
 * **Windows Authentication** \(recommended\)  
 * **SQL Authentication** 
 
-Click **Test Connection**\(4\) to see if **SysKit Point** can connect to the entered SQL Server.
+Click **Test Connection \(4\)** to see if **SysKit Point** can connect to the entered SQL Server.
 
 ![SysKit Point Configuration - Database Configuration](../../.gitbook/assets/install-syskit-point-on-premises_database-configuration-step.png)
 
@@ -124,7 +124,7 @@ In the Web Application Settings, the following is defined:
 * **URL of SysKit Point Web App \(1\)**
 * **Port used \(2\)**
 * **Certificate**; here, you can choose between two options:
-  * **Import SSL certificate \(3\)** - here, you can **import the certificate from a file \(5\)**, or from the **Personal Store \(6\)**
+  * **Import SSL certificate \(3\)** - here, you can **import the certificate from a file \(5\)**, or the **Personal Store \(6\)**
   * **Use self-signed certificate \(4\)**
 
 ![Configuration Wizard - Web Application Settings step](../../.gitbook/assets/install-syskit-point-on-premises_configuration-web-app.png)
