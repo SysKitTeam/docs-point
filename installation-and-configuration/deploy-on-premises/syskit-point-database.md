@@ -10,7 +10,7 @@ SysKit Point requires a dedicated **SQL Server database** for storing data colle
 
 ## Prepare a database for SysKit Point
 
-First you need to prepare a SQL Server in accordance with the [**minimum requirements**](hardware-software-requirements.md#sql-server-requirements). We **recommend you use a dedicated virtual machine** for your SQL Server.
+First, you need to prepare a SQL Server in accordance with the [**minimum requirements**](hardware-software-requirements.md#sql-server-requirements). We **recommend you use a dedicated virtual machine** for your SQL Server.
 
 ## SQL Permissions
 
@@ -30,7 +30,7 @@ If you decided to **manually pre-create an empty database** for SysKit Point usi
 
 ### Option 2: Point will create a new database
 
-**SysKit Point will create a new database** during its Configuration Wizard. In this case it is important that you **assign proper SQL Server privileges** to the **user running SysKit Point Configuration Wizard**:
+**SysKit Point will create a new database** during its Configuration Wizard. In this case, it is important that you **assign proper SQL Server privileges** to the **user running SysKit Point Configuration Wizard**:
 
 * **dbcreator server-level role** - to be able to create a new database
 * **securityadmin server-level role** - to be able to assign permissions to the [**service account**](additional-vm-configuration.md#service-account) automatically during setup
