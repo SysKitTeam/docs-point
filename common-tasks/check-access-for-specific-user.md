@@ -19,7 +19,7 @@ When using **Office 365** for your daily **collaboration** there are numerous oc
 
 **SysKit Point User Access report** is a powerful tool that gives you the ability to **check** all **access** for **every specific user** in your **Office 365 environment**. It enables you to:
 
-* See what type of **access** does the user has \(**Full Control**, **Edit**, **Contribute**, or **any personal type of access** you may have **added** to your **environment**\).
+* See what type of **access** does a user have \(**Full Control**, **Edit**, **Contribute**, or **any personal type of access** you may have **added** to your **environment**\).
 * Understand **through which channel** is the **access given** to the user \(**Being a member in a SharePoint** **group**, **Group owner**, **Administrator**, through **security group** or **directly** to said **user**\).
 * Show the **details** from which exact **source** were those rights given to it.
 * **Perform** multiple **actions directly** on the report \(**Remove Access**, **Change Owners**, **Change to Member**, **Edit Permissions**, **Remove from Group**, **Remove Sharing Link**\).
