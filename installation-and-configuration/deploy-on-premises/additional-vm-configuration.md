@@ -1,6 +1,6 @@
 ---
 description: >-
-  This article describes what additional configuration is necesary on the
+  This article describes what additional configuration is necessary on the
   Virtual Machine before SysKit Point can be installed.
 ---
 
@@ -47,11 +47,11 @@ To allow inbound traffic on the Virtual Machine, follow these steps:
 
 ## Configure Internet Explorer Settings
 
-SysKit Point uses **modern authentication** to enable **single sign-on** with your **Office 365 account** to the Point web application. **During the SysKit Point configuration** process **Global administrator** will be asked to **login** and **provide consent**. For this login experience Point uses an integrated version of the **Internet Explorer** browser. **Additional configuration of Internet Explorer is needed** in order to be able to sign in to [**Office.com**](https://www.office.com/).
+SysKit Point uses **modern authentication** to enable **single sign-on** with your **Office 365 account** to the Point web application. **During the SysKit Point configuration** process, the **Global administrator** will be asked to **login** and **provide consent**. For this login, experience Point uses an integrated version of the **Internet Explorer** browser. **Additional configuration of Internet Explorer is needed** in order to be able to sign in to [**Office.com**](https://www.office.com/).
 
 **Enable Access to Microsoft Pages**
 
-Server versions of Windows \(Internet Explorer\) use an enhanced security settings and in order to be able to use single sign-on authentication it is necessary to enable access to the [**Microsoft login page**](https://login.microsoft.com).
+Server versions of Windows \(Internet Explorer\) use enhanced security settings and in order to be able to use single sign-on authentication, it is necessary to enable access to the [**Microsoft login page**](https://login.microsoft.com).
 
 We recommend configuring IE settings the following way:
 
