@@ -82,7 +82,7 @@ On the said screen you can choose the resource and perform some actions, be it l
 
 When you click the **View All** inactive resources, SysKit Point generates an **Inactive Content** report showing you all the resources in your environment which are inactive, regardless of them being monitored or not by Lifecycle Management.
 
-On the said report you get an option to **Keep, Archive** or **Delete** any resource there.
+On the said report you get an option to **Keep, Archive,** or **Delete** any resource there.
 
 ![SysKit Point - Inactive Content Report](../.gitbook/assets/5.png)
 
