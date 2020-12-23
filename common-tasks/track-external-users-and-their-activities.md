@@ -14,7 +14,7 @@ The picture below shows you how to switch between different views at the **Users
 
 You will find useful data while checking the External Users view in the grid, such as the sign-in status of the user.
 
-You can open **Column Chooser** with the list of all available columns to display by clicking on the button located on the left side from the **Search** field.
+You can open **Column Chooser** with the list of all available columns to display by clicking on the button located on the left side of the **Search** field.
 
 ![Users Overview screen - Column Chooser](../.gitbook/assets/track-office-365-external-users-and-their-activities_users-overview-screen-column-chooser.png)
 
@@ -28,9 +28,9 @@ By clicking on that report button, it will redirect you to the **User Activity**
 
 ![User Activity report](../.gitbook/assets/track-office-365-external-users-and-their-activities_user-activity-report.png)
 
-By default, this report has the timeframe for the **Last 30 Days**. To switch this, choose the different timeframe from the dropdown menu.
+By default, this report has the timeframe for the **Last 30 Days**. To switch this, choose a different timeframe from the dropdown menu.
 
-Every report within the **SysKit Point** is exportable, all of them in the form of **Microsoft Excel Worksheet** file type and most of them in **PDF** file type. You will find this option in the sidebar panel under section **Manage** &gt; **Export** button.
+Every report within the **SysKit Point** is exportable, all of them in the form of **Microsoft Excel Worksheet** file type and most of them in **PDF** file type. You will find this option in the sidebar panel under the section **Manage** &gt; **Export** button.
 
 The icon will point out which export file type are you choosing. You can also access the **User Activity** report from the **Report Center** when you click the **Welcome Home** screen &gt; **Reports** tile. This screen will open:
 
@@ -38,7 +38,7 @@ The icon will point out which export file type are you choosing. You can also ac
 
 While you are looking at the Report Center screen, try to use the **dropdown filter** above the tiles.
 
-For example, if you open dropdown filter and select **External Sharing** category - three reports will be selected \(**Externally Shared Content, External Users, Sharing Links**\), and all of them are regarding external users.
+For example, if you open the dropdown filter and select **External Sharing** category - three reports will be selected \(**Externally Shared Content, External Users, Sharing Links**\), and all of them are regarding external users.
 
 ![Report Center - External Sharing category selected](../.gitbook/assets/track-office-365-external-users-and-their-activities_report-center-external-sharing-category-selecte.png)
 

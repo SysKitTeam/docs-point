@@ -23,8 +23,6 @@ By default, any **Team Owner** or **Team Member can create a Private channel**. 
 
 ### What Can Team Owners and Members See in a Private Channel
 
-In **Microsoft Admin Center**, Team Owners can see the **names** of all **Private Channels** in their team and they can also **delete** any of them. They, however, **cannot see** any **conversations**, **files shared** or a **member list** of a Private Channel if they are **not a member** of said Private Channel.
-
 In **Microsoft Admin Center**, **Team Owners can see the names of all Private Channels** in their team, and they **can delete them**. However, **they cannot see any conversations**, **shared files**, or a **member list** of a Private Channel **if they are not a member** of said Private Channel.
 
 **Team Members** can only see the Private Channels they are members of. Unless they're added to them they are unable to see that said channels even exist.
@@ -73,7 +71,7 @@ The name of the Private Channel site consists of the **name of its Team** + the 
 
 **Click the site name to open the Private Channel site details page**. Here, **you can see which users have permissions** in the private channel, **view shared files**, and **find all analytics data**, as in other types of Sites. Additionally, you can **generate multiple reports** for the Private Channel site and **perform multiple actions** - Remove Access, Edit Permissions, Delete SharePoint Group, Remove Users from Group, etc.
 
-![SysKit Point - Private Channel site details screen](../.gitbook/assets/supervise-microsoft-teams-private-channels-site-details-page.png)
+![SysKit Point - Private Channel site details screen](../.gitbook/assets/pc-clanak-5%20%283%29%20%283%29.png)
 
 #### Microsoft Teams & Groups Screen
 
