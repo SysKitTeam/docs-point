@@ -22,7 +22,7 @@ SysKit Point has two main components which have their own requirements:
 We recommend installing SysKit Point on a **dedicated Windows Server** machine to allow SysKit Point to scan your Office 365 environment continuously. When creating a new virtual machine, please note the following:
 
 * **Windows Server 2012 or newer is required** 
-* **Microsoft .NET Framework 4.5 or higher is required**
+* **Microsoft .NET Framework 4.7.2. or higher is required**
 
 ### Hardware Requirements
 
