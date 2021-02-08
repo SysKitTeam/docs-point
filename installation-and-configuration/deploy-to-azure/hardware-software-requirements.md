@@ -38,18 +38,18 @@ Below, you can find Azure Virtual Machine **minimum requirements** based on your
 
 {% hint style="warning" %}
 **Please note!**  
-Here, we recommend you to create Azure SQL resources by selecting the [DTU-based](https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tiers-dtu) purchase model. If you find the [vCore-base](https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tiers-vcore?tabs=azure-portal) model will better suit your needs, you can migrate from the DTU-based model to the vCore-based model, and vice-versa, with minimal downtime, as described [here](https://docs.microsoft.com/en-us/azure/azure-sql/database/migrate-dtu-to-vcore#migrate-a-database).
+For smaller environments we recommend you to create Azure SQL resources by selecting the [DTU-based](https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tiers-dtu) purchase model. For bigger environments we recommend the [vCore-base](https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tiers-vcore?tabs=azure-portal) model which will better suit your needs. It is possible to migrate from the DTU-based model to the vCore-based model, and vice-versa, with minimal downtime, as described [here](https://docs.microsoft.com/en-us/azure/azure-sql/database/migrate-dtu-to-vcore#migrate-a-database).
 {% endhint %}
 
 If you have additional questions or concerns regarding the purchase models, please [contact us](https://www.syskit.com/contact-us/).
 
 Below, you can find **minimum** Azure SQL database recommendations based on your environment's size.
 
-| Office 365 Environment | Service tier | DTU | Included storage \(GB\) |
+| Office 365 Environment | Pricing model | Included storage \(GB\) |
 | :--- | :--- | :--- | :--- |
-| **Up to 1000 users/sites** | S1 | 20 | 250 \(HDD-based\) |
-| **Up to 10 000 users/sites** | S2 | 50 | 250 \(HDD-based\) |
-| **More than 10 000 users/sites** | S3 | 100 | 250 \(SSD-based\) |
+| **Up to 1000 users/sites** | DTU model S1 - 20 DTU | 50 |
+| **Up to 10 000 users/sites** | General Purpose 2 vCores \(Provisioned\) | 100 |
+| **More than 10 000 users/sites** | General Purpose 4+ vCores \(Provisioned\) | 250 |
 
 {% hint style="warning" %}
 **Requirements highly depend on the Office 365 activity, the number of users, and the amount of data in your environment.** The larger the environment, the more resources will be required to run SysKit Point smoothly.
