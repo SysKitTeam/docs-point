@@ -37,7 +37,7 @@ After you download the newest version of the application, follow these steps to 
 ![Configuration Wizard - Database upgrade warning](../.gitbook/assets/upgrade-syskit-point_database-upgrade%20%281%29%20%282%29%20%282%29.png)
 
 * On the **Service Settings** step, enter your **service account** and validate it. Click **Next**.
-* On the **Connect to Office 365** step, you can see that your **tenant is already connected** with the application. Proceed to the next step.
+* On the **Connect to Microsoft 365** step, you can see that your **tenant is already connected** with the application. Proceed to the next step.
 * On the **Web Application Settings** step, click the **Next** button. 
 * On the **Finish** step, wait until all the checks are done and click the **Finish** button to open the SysKit Point web application in your browser.
 

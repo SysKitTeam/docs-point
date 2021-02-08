@@ -4,11 +4,11 @@ description: This article describes all information presented in SysKit Point Da
 
 # Dashboard Overview
 
-The **Dashboard** screen provides you with the information needed to see the whole picture of your **Office 365 environment**.
+The **Dashboard** screen provides you with the information needed to see the whole picture of your **Microsoft 365 environment**.
 
 You can use Dashboard to:
 
-* **see what was happening in your Office 365 environment** in the last 30 days at a glance  
+* **see what was happening in your Microsoft 365 environment** in the last 30 days at a glance  
 * **find summary data** on your resources, internal and external users, sharing links, and used storage - all numbers are drillable, taking you to the related reports, which will show more details 
 * **detect potential issues**, for example, if your environment has inactive or orphaned resources
 
@@ -43,8 +43,8 @@ Below, each tile is described in more detail.
 
 In Inventory, you can find the information about the total number of:
 
-* **Microsoft teams** 
-* **Office 365 groups** 
+* **Microsoft Teams** 
+* **Microsoft 365 Groups** 
 * **SharePoint sites** 
 * **OneDrive**
 * **Orphaned resources**
@@ -105,7 +105,7 @@ Here you can find the total number of:
 
 Clicking the External users opens the **Users Overview** screen with filtered external/ad-hoc users.
 
-Drill on the **Sites With External Sharing** number opens the **External Sharing** view on the **Sites Overview** screen. Here you can find Microsoft teams, Office 365 groups, sites, and OneDrive with **external sharing setting set to any other value than 'Only people in your organization'**.
+Drill on the **Sites With External Sharing** number opens the **External Sharing** view on the **Sites Overview** screen. Here you can find Microsoft Teams, Microsoft 365 Groups, sites, and OneDrive with **external sharing setting set to any other value than 'Only people in your organization'**.
 
 Clicking the **Anonymous Links** number opens the **Sharing Links** report in Report Center. Here, only links shared to anyone are displayed. You can remove specific links with the help of actions available in the side panel.
 

@@ -6,7 +6,7 @@ description: >-
 
 # Customize Audit Logs Collection
 
-Audit logs can provide you with **insights into all activities** related to the user and administration activities in your Office 365 environment.‌
+Audit logs can provide you with **insights into all activities** related to the user and administration activities in your Microsoft 365 environment.‌
 
 Users that are assigned **SysKit Point Admin role** can configure activities that are going to be collected in these locations:
 
@@ -15,7 +15,7 @@ Users that are assigned **SysKit Point Admin role** can configure activities tha
 
 ## SysKit Point Configuration Wizard
 
-When configuring **SysKit Point**, on the **Connect to Office 365** step, you have the following audit options on disposal:
+When configuring **SysKit Point**, on the **Connect to Microsoft 365** step, you have the following audit options on disposal:
 
 * **Store audit logs \(1\)**
 * **Protect user privacy \(2\)**
@@ -28,7 +28,7 @@ By default, the **Store audit logs** option is enabled, meaning that SysKit Poin
 
 {% hint style="warning" %}
 **Please note!**  
-Regardless of your selection to store them or not, audit logs are **regularly processed by SysKit Point** to track changes and activity in your Office 365 environment. Storing audit logs gives you the possibility to access audit data for more extended periods than available in Office 365.
+Regardless of your selection to store them or not, audit logs are **regularly processed by SysKit Point** to track changes and activity in your Microsoft 365 environment. Storing audit logs gives you the possibility to access audit data for more extended periods than available in Microsoft 365.
 {% endhint %}
 
 ### Protect User Privacy Option

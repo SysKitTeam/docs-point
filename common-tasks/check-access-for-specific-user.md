@@ -7,17 +7,17 @@ description: >-
 date: 25.11.2020.
 ---
 
-# Check Access for Specific Office 365 User
+# Check Access for Specific Microsoft 365 User
 
-## User Access in Office 365 Environment
+## User Access in Microsoft 365 Environment
 
-When using **Office 365** for your daily **collaboration** there are numerous occasions where you will **grant** or **remove access** to specific items in your environment. **Office 365** gives multiple ways of doing that, be it via **direct access** to the file or maybe through **security groups**, **SharePoint groups**, **sharing links** among other. After a while, you may lose traction of which user has access to a specific item and how you gave the access. This is where the **SysKit Point User Access report** comes in to save the day.
+When using **Microsoft 365** for your daily **collaboration** there are numerous occasions where you will **grant** or **remove access** to specific items in your environment. **Microsoft 365** gives multiple ways of doing that, be it via **direct access** to the file or maybe through **security groups**, **SharePoint groups**, **sharing links** among other. After a while, you may lose traction of which user has access to a specific item and how you gave the access. This is where the **SysKit Point User Access report** comes in to save the day.
 
 ## SysKit Point User Access Report
 
 ### Capabilities
 
-**SysKit Point User Access report** is a powerful tool that gives you the ability to **check** all **access** for **every specific user** in your **Office 365 environment**. It enables you to:
+**SysKit Point User Access report** is a powerful tool that gives you the ability to **check** all **access** for **every specific user** in your **Microsoft 365 environment**. It enables you to:
 
 * See what type of **access** does a user have \(**Full Control**, **Edit**, **Contribute**, or **any personal type of access** you may have **added** to your **environment**\).
 * Understand **through which channel** is the **access given** to the user \(**Being a member in a SharePoint** **group**, **Group owner**, **Administrator**, through **security group** or **directly** to said **user**\).
@@ -26,11 +26,11 @@ When using **Office 365** for your daily **collaboration** there are numerous oc
 
 ### Use Cases
 
-There are multiple occasions where using the **User Access report** will help you manage your **Office 365 environment** successfully.
+There are multiple occasions where using the **User Access report** will help you manage your **Microsoft 365 environment** successfully.
 
 Some of them are:
 
-* When a **new user** in your **Office 365 environment** is being **onboarded**, to quickly check if they have all the correct permissions to succeed in their work.
+* When a **new user** in your **Microsoft 365 environment** is being **onboarded**, to quickly check if they have all the correct permissions to succeed in their work.
 * When a **user** is being **offboarded** to double-check if they still have access to some information, they shouldn’t have \(via **Anonymous sharing links**\).
 * To check if some external collaborators have access to something they shouldn’t have.
 * When reorganizing your environment \(**removing users** from certain **security groups** or **changing permissions** for specific users in your environment\).
@@ -64,10 +64,10 @@ Now that you have **successfully** generated the **User Access report**, it shou
 As the **User Access report** is a tree structure report, you can see:
 
 * **User** for which you have generated the report \(1\).
-* All **types** of **resources** \(**Sites**, **Microsoft Teams**, **Office 365 Groups**, and **OneDrive** accounts\) that user has some kind of **access** to \(2\).
+* All **types** of **resources** \(**Sites**, **Microsoft Teams**, **Microsoft 365 Groups**, and **OneDrive** accounts\) that user has some kind of **access** to \(2\).
 * What kind of **access** does the user have on a said **resource** \(3\).
 * **How** the access was **Given Through** to said user \(4\).
-* **Details** containing **exact resources** where the user got their **permissions** for \(5\), and if those are **Office 365 groups** or **Microsoft Teams** they are **drillable** to their respective **Detail Screens** in **SysKit Point** \(6\).
+* **Details** containing **exact resources** where the user got their **permissions** for \(5\), and if those are **Microsoft 365 Groups** or **Microsoft Teams** they are **drillable** to their respective **Detail Screens** in **SysKit Point** \(6\).
 
 ![User Access - Report structure](../.gitbook/assets/user_access_docs5.png)
 
@@ -89,5 +89,5 @@ After the action is completed, you will receive a **notification bubble** where 
 
 By the same principle, you can also **Edit** the given permissions, **Remove** said Users from groups with access to the resource, **Remove Sharing Links**, which might provide access to unwanted users.
 
-**User Access report** helps all **Admins** and content **Owners** to keep their **Office 365 environment** **clean**, **secure**, and **easy to manage** all at one place, the **SysKit Point**.
+**User Access report** helps all **Admins** and content **Owners** to keep their **Microsoft 365 environment** **clean**, **secure**, and **easy to manage** all at one place, the **SysKit Point**.
 

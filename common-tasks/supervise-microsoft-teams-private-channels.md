@@ -98,7 +98,7 @@ Clicking a Private Channel inside the Channels tile opens the **SysKit Point Cha
 
 #### Microsoft Teams with Private Channels Report
 
-If you want to see all the information about **Private channels** in your **Office 365 environment**, **SysKit Point** has a solution for you in the form of the **Microsoft Teams with Private Channels report**. Here's how you can generate it.
+If you want to see all the information about **Private channels** in your **Microsoft 365 environment**, **SysKit Point** has a solution for you in the form of the **Microsoft Teams with Private Channels report**. Here's how you can generate it.
 
 From the Home screen, click the **Reports tile**. Report Center opens. Here, **click the Filter in the left corner** **\(1\)**, **select the Microsoft Teams & Groups option \(2\)**, and find the **Microsoft Teams with Private Channels report \(3\)**.
 

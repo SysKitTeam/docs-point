@@ -4,7 +4,7 @@ description: This article provides all information about scheduled reports in Sy
 
 # Schedule Reports
 
-When you manage permissions and resources in your Office 365 tenant, creating reports, sharing them, or saving them for future reference, might take up a lot of your time – that’s where the Scheduled Reports in SysKit Point can help!
+When you manage permissions and resources in your Microsoft 365 tenant, creating reports, sharing them, or saving them for future reference, might take up a lot of your time – that’s where the Scheduled Reports in SysKit Point can help!
 
 With the help of this feature, you can do the following:
 

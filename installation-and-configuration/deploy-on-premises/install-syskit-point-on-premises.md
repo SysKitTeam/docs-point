@@ -81,17 +81,17 @@ After you've entered the credentials click the **Validate Account** button. If t
 
 Click **OK** to close the Success window, and **Next &gt;** to continue to the next step.
 
-### Connect to Office 365
+### Connect to Microsoft 365
 
-Click the **Connect to your tenant** link to connect SysKit Point to your Office 365 tenant. **You need to provide the Office 365 global admin account.** This account will be **used only for the initial setup** and Point **does not store any passwords** you present here.
+Click the **Connect to your tenant** link to connect SysKit Point to your Microsoft 365 tenant. **You need to provide the Microsoft 365 global admin account.** This account will be **used only for the initial setup** and Point **does not store any passwords** you present here.
 
-When you first connect to your tenant, SysKit Point will request permissions needed to collect data from your Office 365 environment.
+When you first connect to your tenant, SysKit Point will request permissions needed to collect data from your Microsoft 365 environment.
 
-![Office 365 Global Admin Consent](../../.gitbook/assets/permission_requirements_global_administrator_consent%20%283%29%20%284%29%20%281%29.png)
+![Microsoft 365 Global Admin Consent](../../.gitbook/assets/permission_requirements_global_administrator_consent%20%283%29%20%284%29%20%281%29.png)
 
-To continue, check the **Consent on behalf of your organization** **option \(1\)**, and click the **Accept** **button \(2\)**. A new window opens where you can choose which information would you like to collect when it comes to your Office 365 environment:
+To continue, check the **Consent on behalf of your organization** **option \(1\)**, and click the **Accept** **button \(2\)**. A new window opens where you can choose which information would you like to collect when it comes to your Microsoft 365 environment:
 
-* **Automatic Discovery** – by default, SysKit Point continuously monitors your Office 365 environment and shows you the latest data. SharePoint Online sites and Office 365 Groups data will always be monitored. This setting cannot be modified.
+* **Automatic Discovery** – by default, SysKit Point continuously monitors your Microsoft 365 environment and shows you the latest data. SharePoint Online sites and Microsoft 365 Groups data will always be monitored. This setting cannot be modified.
 * **Autodiscover OneDrive \(1\)** - by default, SysKit Point will collect information and report on user OneDrive activity, content, and sharing. To stop collecting OneDrive data, uncheck this option.
 * **Protect OneDrive privacy \(2\)** - When enabled, SysKit Point will only show general information about the user's OneDrive, such as used storage. SysKit Point Admins won't be able to access OneDrive content and personal data. By default, this option is disabled.
 * **Store audit logs \(3\)** - SysKit Point will also collect all audit logs to monitor internal and external user activities and changes and Store them on the hard drive. To stop storing audit logs, uncheck this option.

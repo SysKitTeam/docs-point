@@ -1,6 +1,6 @@
 ---
 description: >-
-  This article describes how to turn on auditing in the Office 365 Security &
+  This article describes how to turn on auditing in the Microsoft 365 Security &
   Compliance Center.
 ---
 
@@ -16,21 +16,21 @@ Although the SysKit Point configuration can be finished at this point, audit dat
 
 To turn on auditing, first, open the following URL in your browser of choice: [https://protection.office.com/unifiedauditlog](https://protection.office.com/unifiedauditlog)
 
-The Office 365 Security & Compliance Center will open, showing the Audit log search page. At the top, a yellow warning bar is displayed. On the right side of the warning bar, you can find the **Turn on auditing button** – click it to turn on auditing.
+The Microsoft 365 Security & Compliance Center will open, showing the Audit log search page. At the top, a yellow warning bar is displayed. On the right side of the warning bar, you can find the **Turn on auditing button** – click it to turn on auditing.
 
-![Office 365 Security &amp; Compliance Center - Turn on auditing](../.gitbook/assets/turn-on-auditing_turn-on-button-2%20%281%29%20%283%29.png)
+![Microsoft 365 Security &amp; Compliance Center - Turn on auditing](../.gitbook/assets/turn-on-auditing_turn-on-button-2%20%281%29%20%283%29.png)
 
 Once the page is refreshed, a different warning message appears telling us the **auditing can take a couple of hours** to be made available.
 
-![Office 365 Security &amp; Compliance Center - Warning bar](../.gitbook/assets/turn-on-auditing_warning.png)
+![Microsoft 365 Security &amp; Compliance Center - Warning bar](../.gitbook/assets/turn-on-auditing_warning.png)
 
 When the page is refreshed at a later point in time, another warning message is displayed, with more precise information on how long it might take for the audit logs to be visible.
 
-![Office 365 Security &amp; Compliance Center - Message](../.gitbook/assets/turn-on-auditing_warning2%20%282%29.png)
+![Microsoft 365 Security &amp; Compliance Center - Message](../.gitbook/assets/turn-on-auditing_warning2%20%282%29.png)
 
 {% hint style="warning" %}
 **Please note!**  
-SysKit Point will not be able to collect audit log data before it becomes available in the Office 365 Security & Compliance Center. As described in this article, **it can take up to 24 hours for audit log data to become available.**
+SysKit Point will not be able to collect audit log data before it becomes available in the Microsoft 365 Security & Compliance Center. As described in this article, **it can take up to 24 hours for audit log data to become available.**
 {% endhint %}
 
 {% hint style="info" %}

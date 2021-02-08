@@ -15,7 +15,7 @@ SysKit Point has two main components which have their own requirements:
 
 ### Software Requirements
 
-We recommend installing SysKit Point on a **Windows Server** machine to allow SysKit Point to scan your Office 365 environment continuously. When choosing the Virtual machine image, please note the following:
+We recommend installing SysKit Point on a **Windows Server** machine to allow SysKit Point to scan your Microsoft 365 environment continuously. When choosing the Virtual machine image, please note the following:
 
 * **Windows Server 2012 or newer is required** 
 * **Microsoft .NET Framework 4.7.2. or higher is required**
@@ -24,14 +24,14 @@ We recommend installing SysKit Point on a **Windows Server** machine to allow Sy
 
 Below, you can find Azure Virtual Machine **minimum requirements** based on your environment's size.
 
-| Office 365 Environment | Instance | vCPU | Memory | Disk |
+| Microsoft 365 Environment | Instance | vCPU | Memory | Disk |
 | :--- | :--- | :--- | :--- | :--- |
 | **Up to 1000 users/sites** | General purpose D2 v3 | 2 cores | 8GB | 6GB-12GB per month for 1000 users |
 | **Up to 10 000 users/sites** | General purpose D4 v3 | 4 cores | 16GB | 6GB-12GB per month for 1000 users |
 | **More than 10 000 users/sites** | General purpose D8 v3 | 8 cores | 32GB | 6GB-12GB per month for 1000 users |
 
 {% hint style="warning" %}
-**Requirements highly depend on the Office 365 activity, the number of users, and the amount of data in your environment.** The larger the environment, the more resources will be required to run SysKit Point smoothly.
+**Requirements highly depend on the Microsoft 365 activity, the number of users, and the amount of data in your environment.** The larger the environment, the more resources will be required to run SysKit Point smoothly.
 {% endhint %}
 
 ## Azure SQL Database Requirements
@@ -45,14 +45,14 @@ If you have additional questions or concerns regarding the purchase models, plea
 
 Below, you can find **minimum** Azure SQL database recommendations based on your environment's size.
 
-| Office 365 Environment | Pricing model | Included storage \(GB\) |
+| Microsoft 365 Environment | Pricing model | Included storage \(GB\) |
 | :--- | :--- | :--- | :--- |
 | **Up to 1000 users/sites** | DTU model S1 - 20 DTU | 50 |
 | **Up to 10 000 users/sites** | General Purpose 2 vCores \(Provisioned\) | 100 |
 | **More than 10 000 users/sites** | General Purpose 4+ vCores \(Provisioned\) | 250 |
 
 {% hint style="warning" %}
-**Requirements highly depend on the Office 365 activity, the number of users, and the amount of data in your environment.** The larger the environment, the more resources will be required to run SysKit Point smoothly.
+**Requirements highly depend on the Microsoft 365 activity, the number of users, and the amount of data in your environment.** The larger the environment, the more resources will be required to run SysKit Point smoothly.
 {% endhint %}
 
 ## Related Topics

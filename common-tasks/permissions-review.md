@@ -6,7 +6,7 @@ description: >-
 
 # Perform Permissions Review in SysKit Point
 
-**Permissions review**, in the context of the Office 365 environment, is an activity where a person responsible for an Office 365 resource - be it Communication site, Microsoft Team, Office 365 Group, or OneDrive - checks whether permissions, given to users inside \(internal\) and outside \(external\) of company, comply with the organizational rules and guidelines. The **permissions review task is usually performed by a site owner** and includes:
+**Permissions review**, in the context of the Microsoft 365 environment, is an activity where a person responsible for an Microsoft 365 resource - be it Communication site, Microsoft Team, Microsoft 365 Group, or OneDrive - checks whether permissions, given to users inside \(internal\) and outside \(external\) of company, comply with the organizational rules and guidelines. The **permissions review task is usually performed by a site owner** and includes:
 
 * **checking if all users - internal and external - have access to the right resources, be it through directly given permissions, or group memberships**
 * **identify unwanted permissions changes** by checking the audit logs 
@@ -64,10 +64,10 @@ Click **Review** to continue. The **Permissions Review Task** screen opens - the
 
 ## Permissions Review Wizard
 
-The **Permissions Review Wizard** has three steps when reviewing OneDrive, and four steps when reviewing Office 365 Groups, Microsoft Teams, or sites. The following steps are available:
+The **Permissions Review Wizard** has three steps when reviewing OneDrive, and four steps when reviewing Microsoft 365 Groups, Microsoft Teams, or sites. The following steps are available:
 
 * **Overview**
-* **Members** \(for Office 365 Groups and Microsoft Teams\), or **Users** \(for sites\); this step is not available for OneDrive 
+* **Members** \(for Microsoft 365 Groups and Microsoft Teams\), or **Users** \(for sites\); this step is not available for OneDrive 
 * **Sharing**
 * **Summary**
 
@@ -96,7 +96,7 @@ No need to worry when you leave the Permissions Review wizard - all performed ac
 
 ### Members/Users Step
 
-The **Members step** is available **when reviewing Office 365 Groups or Microsoft Teams**. The following options are available:
+The **Members step** is available **when reviewing Microsoft 365 Groups or Microsoft Teams**. The following options are available:
 
 * **top filters \(1\)** - they help you view only a specific group of users in your resource:
   * **Added users**
@@ -139,7 +139,7 @@ The **Sharing step** gives you a simple, yet detailed overview of all shared con
 
 * **top filters \(1\)** enable you to filter content by sharing type
   * **All Shared Content** - shows content that has been shared via sharing links or through direct access; use it when you want to see everything that was shared
-  * **Shared Outside the Group** - selected by default; use it to find content shared with users that are not a part of the Office 365 Group or Microsoft Team you are reviewing
+  * **Shared Outside the Group** - selected by default; use it to find content shared with users that are not a part of the Microsoft 365 Group or Microsoft Team you are reviewing
   * **Shared Externally** - shows content shared with specific people outside your organization
   * **Shared With Anyone** - show content shared with anyone via sharing links; this can be dangerous ground so make sure to examine such content carefully
 * **views \(2\)** enable you to see sharing from two different perspectives - you can group by:
@@ -158,7 +158,7 @@ In case you switch to the **Users view**, the **top filters** are changed accord
 
 ![Permissions Review wizard - Sharing step - Users view](../.gitbook/assets/permissions-review_wizard-sharing-by-users.png)
 
-In the example above, Microsoft Team was reviewed. **Filters will differ slightly when you review sites or OneDrive** since there is no Office 365 Group involved whose members would have access by default, so the Users Outside the Group filter is not applicable. Instead, the **Access on Child Objects filter is given**, showing only users that don't have access on a site level but have access to a specific file or folder.
+In the example above, Microsoft Team was reviewed. **Filters will differ slightly when you review sites or OneDrive** since there is no Microsoft 365 Group involved whose members would have access by default, so the Users Outside the Group filter is not applicable. Instead, the **Access on Child Objects filter is given**, showing only users that don't have access on a site level but have access to a specific file or folder.
 
 ![Permissions Review wizard - Sharing step - Site](../.gitbook/assets/permissions-review_wizard-site-sharing-by-users.png)
 

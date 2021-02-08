@@ -6,7 +6,7 @@ description: This article explains how to use Lifecycle Management Actions in Sy
 
 ## Lifecycle Management Actions in SysKit Point
 
-SysKit Point includes a set of **Lifecycle Management actions** that can be executed on Office 365 resources - Microsoft Teams, Office 365 Groups, and sites. The following actions are available:
+SysKit Point includes a set of **Lifecycle Management actions** that can be executed on Microsoft 365 resources - Microsoft Teams, Microsoft 365 Groups, and sites. The following actions are available:
 
 * **Keep**
 * **Archive**
@@ -92,7 +92,7 @@ Archiving a resource within SysKit Point results in the following:
 * **the resource gets into a read-only state**
 * **access to the site is left only for administrators and owners**
 * **the permissions inheritance is restored on all objects**
-* **all memberships on the resource are removed in Office 365**
+* **all memberships on the resource are removed in Microsoft 365**
 * **all memberships are saved in SysKit Point database to support the Restore action**
 * **the resource is renamed and gets the suffix \[Archived\]**
 
@@ -116,19 +116,19 @@ As described in the introduction, you can find the archived resources by switchi
 
 ### Delete
 
-With this action, you can easily delete a resource inside Office 365.
+With this action, you can easily delete a resource inside Microsoft 365.
 
 {% hint style="warning" %}
 **Please note!**  
 This action **does not delete** a resource **permanently**.  
-**The deleted resource is moved to the Recycle Bin**, and **you can restore inside the period defined by Microsoft**. Office 365 keeps your sites for **93 days**, and after that, they are deleted permanently. Office 365 groups are kept in the Recycle Bin for **30 days**.
+**The deleted resource is moved to the Recycle Bin**, and **you can restore inside the period defined by Microsoft**. Microsoft 365 keeps your sites for **93 days**, and after that, they are deleted permanently. Microsoft 365 Groups are kept in the Recycle Bin for **30 days**.
 {% endhint %}
 
 {% hint style="warning" %}
 **Please note!**  
 You can find more about Microsoft’s retention policies on the following links:
 
-* [Office 365 groups](https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide)
+* [Microsoft 365 Groups](https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide)
 * [SharePoint Online](https://support.office.com/en-us/article/restore-deleted-items-from-the-site-collection-recycle-bin-5fa924ee-16d7-487b-9a0a-021b9062d14b?ui=en-US&rs=en-001&ad=US#ID0EAAEAAA=Online)
 {% endhint %}
 

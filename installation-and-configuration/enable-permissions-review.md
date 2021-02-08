@@ -46,7 +46,7 @@ E-mail address set up in this section will appear in the **Sent from** field of 
 Exchange Online has a sending limit of 10000 e-mails per day.
 {% endhint %}
 
-The Exchange Online method enables you to use an existing Exchange account in your Office 365 tenant to send e-mails from SysKit Point. Here, you can:
+The Exchange Online method enables you to use an existing Exchange account in your Microsoft 365 tenant to send e-mails from SysKit Point. Here, you can:
 
 * **enter a valid e-mail address in the Sent from field \(1\)**
 * **choose whether to save e-mails sent by SysKit Point to the Sent items folder \(2\)**; by default, this option is turned on, meaning that all e-mails sent from SysKit Point will be stored in the **Sent** mailbox folder of the entered Exchange account
@@ -119,7 +119,7 @@ If you want to become familiar with the look of the permissions review e-mail th
 
 ### **Permissions Review Targeting**
 
-In the **Target Selection** section, you can **define which sites to include in the permissions review**. By default, the **All active Microsoft Teams, Office 365 Groups and sites \(1\)** option is selected. Additionally, you can:
+In the **Target Selection** section, you can **define which sites to include in the permissions review**. By default, the **All active Microsoft Teams, Microsoft 365 Groups and sites \(1\)** option is selected. Additionally, you can:
 
 * **include OneDrive or remove any of the initially selected resources** by clicking the **resource filter \(2\)**
 * **choose to include only resources where external sharing is enabled \(3\)**
@@ -139,7 +139,7 @@ Once your changes are saved, you can click the **Preview tile**, which opens the
 * **click the tiles \(1\)** to show only a certain site type; the tiles show the number of sites included in the permission review, grouped by type
 * **view Permissions review information**, such as due date, number of e-mail recipients, and the number of orphaned sites \(sites that have no owners or have owners that are blocked or deleted\) 
 * **click the Show link \(2\) that activates the** Orphaned Sites view \(3\)
-* **view all site owners that will receive a permissions review e-mail**; for each Microsoft Team, Office 365 Group, site, and OneDrive included in the permissions review 
+* **view all site owners that will receive a permissions review e-mail**; for each Microsoft Team, Microsoft 365 Group, site, and OneDrive included in the permissions review 
 * **change owners** by **selecting a row \(4\)** and clicking the **Change owners action \(5\)** available in the side panel
 
 ![Permissions Review - Preview screen](../.gitbook/assets/enable-permissions-review_permissions-review-preview%20%281%29%20%282%29%20%282%29.png)

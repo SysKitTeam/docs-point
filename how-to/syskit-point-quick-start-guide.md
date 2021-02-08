@@ -24,7 +24,7 @@ This action redirects you to the well known Microsoft Sign in screen.
 
 ![Microsoft Sign-in screen](../.gitbook/assets/syskit-point-quick-start-guide_microsoft-sign-in-screen.png)
 
-Here, you have to enter your existing Office 365 credentials.
+Here, you have to enter your existing Microsoft 365 credentials.
 
 {% hint style="warning" %}
 **Please note!**  
@@ -37,8 +37,8 @@ After the sign-in, the SysKit Point Home screen opens.
 
 Place where everything in SysKit Point starts. You can see 4 major sections:
 
-* **Sites** – complete overview and inventory of all sites and ownerships. Full list of classic sites, sites connected to MS Teams and Office 365 groups, and OneDrive as well. 
-* **Microsoft Teams & Office 365 Groups** – a complete overview of all Teams and Office 365 groups detected in your environment. 
+* **Sites** – complete overview and inventory of all sites and ownerships. Full list of classic sites, sites connected to MS Teams and Microsoft 365 Groups, and OneDrive as well. 
+* **Microsoft Teams & Microsoft 365 Groups** – a complete overview of all Teams and Microsoft 365 Groups detected in your environment. 
 * **Users** – explore all users and see more details about their memberships and permissions they hold across the sites. 
 * **Reports** – create security and audit activities across your resources. 
 
@@ -81,7 +81,7 @@ Everything is connected, and we made it accessible for you to navigate from a sp
 
 ## External Links
 
-Whenever possible, SysKit Point shows you an external link so you can, e.g., quickly open a site in SharePoint Online or send an email to Office 365 Group. External links are marked with an icon that suggests you will leave the current context, and to distinguish them from drill links mentioned above, they are colored blue.
+Whenever possible, SysKit Point shows you an external link so you can, e.g., quickly open a site in SharePoint Online or send an email to Microsoft 365 Group. External links are marked with an icon that suggests you will leave the current context, and to distinguish them from drill links mentioned above, they are colored blue.
 
 ![SysKit Point - External link for a site](../.gitbook/assets/syskit-point-quick-start-guide_syskit-point-external-link-for-a-site.png)
 
@@ -101,7 +101,7 @@ There are two types of actions/reports:
 
 ## **What Can a Site Owner See?**
 
-SysKit Point will present you with the inventory of your resources, meaning you will be able to see sites, Teams and Office 365 groups you are the owner/administrator of.
+SysKit Point will present you with the inventory of your resources, meaning you will be able to see sites, Teams and Microsoft 365 Groups you are the owner/administrator of.
 
 Check the [following link](../installation-and-configuration/enable-role-based-access.md) for more details about **role-based access configuration**.
 
