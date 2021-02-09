@@ -1,12 +1,12 @@
 ---
 description: >-
-  This article is lists the hardware and sofware requirements for installing
-  SysKit Point in an Azure enivornment.
+  This article lists the hardware and software requirements for installing
+  SysKit Point in an Azure environment.
 ---
 
 # Hardware and Software Requirements
 
-SysKit Point has two main components which have their own requirements:
+SysKit Point has two main components that have their requirements:
 
 * **Azure Virtual Machine** - hosts the data collection service and the Point web application
 * **Azure SQL Database** - stores the data collected by Point
@@ -31,14 +31,14 @@ Below, you can find Azure Virtual Machine **minimum requirements** based on your
 | **More than 10 000 users/sites** | General purpose D8 v3 | 8 cores | 32GB | 6GB-12GB per month for 1000 users |
 
 {% hint style="warning" %}
-**Requirements highly depend on the Microsoft 365 activity, the number of users, and the amount of data in your environment.** The larger the environment, the more resources will be required to run SysKit Point smoothly.
+**Requirements highly depend on the Microsoft 365 activity, the number of users, and the amount of data in your environment.** The larger the environment, the more resources SysKit Point will require to run smoothly.
 {% endhint %}
 
 ## Azure SQL Database Requirements
 
 {% hint style="warning" %}
 **Please note!**  
-For smaller environments we recommend you to create Azure SQL resources by selecting the [DTU-based](https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tiers-dtu) purchase model. For bigger environments we recommend the [vCore-base](https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tiers-vcore?tabs=azure-portal) model which will better suit your needs. It is possible to migrate from the DTU-based model to the vCore-based model, and vice-versa, with minimal downtime, as described [here](https://docs.microsoft.com/en-us/azure/azure-sql/database/migrate-dtu-to-vcore#migrate-a-database).
+We recommend creating Azure SQL resources for smaller environments by selecting the [DTU-based](https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tiers-dtu) purchase model. For bigger environments, we recommend the [vCore-based](https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tiers-vcore?tabs=azure-portal) model, which will better suit your needs. It is possible to migrate from the DTU-based model to the vCore-based model, and vice-versa, with minimal downtime, as described [here](https://docs.microsoft.com/en-us/azure/azure-sql/database/migrate-dtu-to-vcore#migrate-a-database).
 {% endhint %}
 
 If you have additional questions or concerns regarding the purchase models, please [contact us](https://www.syskit.com/contact-us/).
