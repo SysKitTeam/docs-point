@@ -6,6 +6,10 @@ description: >-
 
 # SysKit Point 18
 
+While you wait for spring to come, we bring you the latest and greatest **SysKit Point 18**!
+Version 18 brings you **Alerts** to help you fight against unwanted activities in your Microsoft 365 environment; the **Permissions Review automation** has more capabilities than ever before, and **new actions and reports** are also not missing. 
+Find them all listed below!
+
 [Try SysKit Point trial](https://www.syskit.com/products/point/request-a-free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
 **Product version:** 18.0.0  
