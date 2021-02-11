@@ -37,7 +37,7 @@ In case you **pre-created an empty SQL database** for SysKit Point, choose the *
 
 Click **Next \(3\)** to proceed.
 
-![SysKit Point Configuration - Database](../../.gitbook/assets/install-syskit-point-on-premises_database-step%20%283%29%20%281%29.png)
+![SysKit Point Configuration - Database](../../.gitbook/assets/install-syskit-point-on-premises_database-step%20%283%29%20%284%29%20%2812%29.png)
 
 ### Database Configuration Step
 
@@ -87,7 +87,7 @@ Click the **Connect to your tenant** link to connect SysKit Point to your Micros
 
 When you first connect to your tenant, SysKit Point will request permissions needed to collect data from your Microsoft 365 environment.
 
-![Microsoft 365 Global Admin Consent](../../.gitbook/assets/permission_requirements_global_administrator_consent%20%283%29%20%284%29%20%281%29.png)
+![Microsoft 365 Global Admin Consent](../../.gitbook/assets/permission_requirements_global_administrator_consent%20%283%29%20%284%29%20%285%29%20%288%29%20%287%29.png)
 
 To continue, check the **Consent on behalf of your organization** **option \(1\)**, and click the **Accept** **button \(2\)**. A new window opens where you can choose which information would you like to collect when it comes to your Microsoft 365 environment:
 
@@ -97,7 +97,7 @@ To continue, check the **Consent on behalf of your organization** **option \(1\)
 * **Store audit logs \(3\)** - SysKit Point will also collect all audit logs to monitor internal and external user activities and changes and Store them on the hard drive. To stop storing audit logs, uncheck this option.
 * **Protect user privacy \(4\)** - When enabled, user activity data will be hidden from SysKit Point and protected from Administrator supervision. By default, this option is disabled.
 
-![OneDrive and audit logs configuration](../../.gitbook/assets/install-syskit-point-on-azure-vm_configure-od-audit%20%283%29%20%284%29.png)
+![OneDrive and audit logs configuration](../../.gitbook/assets/install-syskit-point-on-azure-vm_configure-od-audit%20%283%29%20%284%29%20%282%29.png)
 
 {% hint style="success" %}
 You can change these options anytime by running **SysKit Point Configuration**.

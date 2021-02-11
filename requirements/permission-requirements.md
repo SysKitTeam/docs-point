@@ -6,7 +6,7 @@ description: >-
 
 # Permission Requirements
 
-Depending on where you are deploying SysKit Point - **Cloud** or **on-premises** - various **permissions are needed to install and configure SysKit Point successfully**. All information on this topic is available in multiple articles grouped by the deployment type. Here, a quick overview of said articles is given, as well as the description of permissions required regardless of the deployment type.
+Depending on where you are deploying SysKit Point - **Cloud** or **on-premises** - various **permissions are needed to install and configure SysKit Point successfully**. All information on this topic is available in multiple articles grouped by deployment type. Here, a quick overview of said articles is given, as well as the description of permissions required regardless of the deployment type.
 
 ## Cloud
 
@@ -39,7 +39,7 @@ Below, reasons for such requirements are described in greater detail.
 
 ### Global Administrator
 
-**When connecting to an Microsoft 365 tenant** during the [configuration](../installation-and-configuration/deploy-on-premises/install-syskit-point-on-premises.md#configure-syskit-point) process, **you need to connect with a Global Administrator account.**
+**When connecting to a Microsoft 365 tenant** during the [configuration](../installation-and-configuration/deploy-on-premises/install-syskit-point-on-premises.md#configure-syskit-point) process, **you need to connect with a Global Administrator account.**
 
 **The first time you connect to your Microsoft 365 tenant, you will be prompted to consent** to a set of permissions that SysKit Point requires to function correctly. Additional prompts may show up in the future when installing a newer version of SysKit Point because of new functionality, and in consequence, potentially new required permissions.
 
@@ -49,7 +49,7 @@ Below, reasons for such requirements are described in greater detail.
 
 {% hint style="warning" %}
 **Please note!**  
-Permissions described bellow are automatically granted to SysKit Point by giving consent during the configuration process.
+Permissions described below are automatically granted to SysKit Point by giving consent during the configuration process.
 {% endhint %}
 
 To achieve its functionality, SysKit Point is registered as an **Enterprise Application in Azure Active Directory.** The permissions model is based on OAuth, and OpenID Connect flows. This enables us to consume all of the APIs provided by Microsoft in a standard and well-defined way. It also allows us to use modern authentication, including Multi-Factor Authentication.  
@@ -65,7 +65,7 @@ The following permissions are required for SysKit Point Enterprise Application:
 | Permissions | Type | Reason |
 | :--- | :--- | :--- |
 | Maintain access to data you have given it access to | Delegated | Allows SysKit Point to always show you the latest data about your environment. |
-| Sign users in | Delegated | Allows SysKit Point to scan your environment as signed-in user |
+| Sign users in | Delegated | Allows SysKit Point to scan your environment as a signed-in user |
 | Read all users' full profiles | Delegated | Allows SysKit Point to read your users' profiles and show you reports based on that data. |
 | Access directory as the signed-in user | Delegated | Allows SysKit Point to access your directory. |
 | Read directory data | Delegated | Allows SysKit Point to autodiscover your sites, groups, and users. |

@@ -6,9 +6,7 @@ description: >-
 
 # SysKit Point 18
 
-While you wait for spring to come, we bring you the latest and greatest **SysKit Point 18**!
-Version 18 brings you **Alerts** to help you fight against unwanted activities in your Microsoft 365 environment; the **Permissions Review automation** has more capabilities than ever before, and **new actions and reports** are also not missing. 
-Find them all listed below!
+While you wait for spring to come, we bring you the latest and greatest **SysKit Point 18**! Version 18 brings you **Alerts** to help you fight against unwanted activities in your Microsoft 365 environment; the **Permissions Review automation** has more capabilities than ever before, and **new actions and reports** are also not missing. Find them all listed below!
 
 [Try SysKit Point trial](https://www.syskit.com/products/point/request-a-free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
@@ -25,7 +23,7 @@ Find them all listed below!
   * **Define who will get an email in case the alert is triggered**
   * **View all active alerts and resolve them** after ensuring that your environment is secure
 
-  [To learn more about alerts in SysKit Point, read the following article.](point-18-release-note.md#TODO) 
+  [To learn more about alerts in SysKit Point, read the following article.](point-18-release-note.md#TODO)
 
 * **New Permissions Review setup, policies, and capabilities are now available!**  
   You can now set up the automated Permissions Review with the help of the new Permissions Review wizard. Permissions review policies are also introduced to give you more possibilities and greater flexibility. Per each review policy, you can define the following:
@@ -34,8 +32,8 @@ Find them all listed below!
   * **Recurrence** – choose how often reviewers need to perform the permissions review
   * **Content scope** – select the content level that needs to be reviewed
 
-  Once created, **you can apply review policies to Microsoft Teams**, **Groups**, and **sites**.   
-  Besides that, you can now **decide which users will be responsible for the permissions review** of selected **Microsoft Teams**, **Groups**, and **sites**.  
+  Once created, **you can apply review policies to Microsoft Teams**, **Groups**, and **sites**.  
+  Besides that, you can now **decide which users will be responsible for the permissions review** of selected **Microsoft Teams**, **Groups**, and **sites**.
 
   [To learn all about the new capabilities of the automated Permissions Review, read the following article.](point-18-release-note.md#TODO)
 
@@ -50,7 +48,7 @@ Find them all listed below!
 
   [To learn more about the new license reports, read the following article.](point-18-release-note.md#TODO)
 
-* **New user actions added – Delete and Restore User**! 
+* **New user actions added – Delete and Restore User**!
 
   New actions are available on the **Users** overview screen. [To learn more about these actions and permissions needed to run them, navigate to the following article.](point-18-release-note.md#TODO)
 
@@ -88,19 +86,19 @@ Find them all listed below!
 
   `System.Exception: The remote server returned an error: (429). Unable to retry request no InitialRequest defined. RetryAttempt: 1`
 
-  or 
+  or
 
   `System.Net.WebException: The remote server returned an error: (429).`
 
 * **Fixed an issue that appeared when importing certificates from Personal Store**. The following error was visible in the event log:
 
-  `System.Exception: SSL Certificate add failed, Error: 1312 A specified logon session does not exist. It may already have been terminated.` 
+  `System.Exception: SSL Certificate add failed, Error: 1312 A specified logon session does not exist. It may already have been terminated.`
 
 * **Fixed an issue where the Auto Discover would fail** to complete writing data to the database, which would result in the following error:
 
-  `SysKit.SecurityManager.WorkerUtils.Database.CustomSqlException: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.`
+  `SysKit.SecurityManager.WorkerUtils.Database.CustomSqlException: Execution Timeout Expired. The timeout period elapsed prior to completion of the operation or the server is not responding.`
 
-* **Fixed an issue** where SysKit Point would ask you to request access to protected Microsoft Teams API, although Microsoft already granted the access. 
+* **Fixed an issue** where SysKit Point would ask you to request access to protected Microsoft Teams API, although Microsoft already granted the access.
 * **Fixed an issue** with the Sharing Links sync, where the following error would appear in case SysKit Point reached the throttling limits:
 
   `System.Exception: 429 TOO MANY REQUESTS`
@@ -109,6 +107,6 @@ Find them all listed below!
 
   `System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.`
 
-* **Fixed a bug** where unsuccessful Auto Discover syncs were erroneously displayed as successful in the Auto Discover drop-down menu. 
+* **Fixed a bug** where unsuccessful Auto Discover syncs were erroneously displayed as successful in the Auto Discover drop-down menu.
 * **Fixed a bug** where removing an orphaned user from multiple sites would fail if SysKit Point could not remove the user from a single site.
 
