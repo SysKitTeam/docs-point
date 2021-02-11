@@ -37,9 +37,9 @@ To **allow inbound traffic** for the **Network Security Group** associated with 
 * To enable **RDP connection**, click **Add inbound port rule button \(1\)** to add a rule for the **TCP protocol** with destination **port 3389 \(2\)** or **edit an existing rule** if it exists
 * To enable **HTTPS connection**, click **Add inbound port rule button \(1\)** to add a rule for the **TCP protocol** with destination **port 443 \(2\)**
 
-![](../../.gitbook/assets/azure-vm_networking_01%20%281%29%20%282%29%20%282%29%20%283%29%20%284%29.png)
+![](../../.gitbook/assets/azure-vm_networking_01%20%281%29%20%282%29%20%282%29%20%283%29%20%284%29%20%284%29.png)
 
-![Azure - Adding inbound port rule](../../.gitbook/assets/azure-vm_networking_02%20%281%29%20%282%29%20%282%29%20%282%29.png)
+![Azure - Adding inbound port rule](../../.gitbook/assets/azure-vm_networking_02%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
 
 ### Configure a DNS Name
 
@@ -52,9 +52,9 @@ You need to **configure a DNS name** in the Azure Portal which will be used for 
 * **Define** the **DNS name label \(2\)**
 * **Save** your changes \(3\)
 
-![](../../.gitbook/assets/azure-vm_dns-name_01%20%281%29%20%282%29%20%282%29%20%283%29.png)
+![](../../.gitbook/assets/azure-vm_dns-name_01%20%281%29%20%282%29%20%282%29%20%283%29%20%284%29.png)
 
-![Azure - DNS Name configuration](../../.gitbook/assets/azure-vm_dns-name_02%20%281%29%20%282%29%20%282%29%20%283%29.png)
+![Azure - DNS Name configuration](../../.gitbook/assets/azure-vm_dns-name_02%20%281%29%20%282%29%20%282%29%20%283%29%20%284%29.png)
 
 {% hint style="success" %}
 * The Public IP address defined here is needed when [allowing access to Azure SQL database](create-azure-sql-database.md#allowing-access-to-azure-sql-database), so make sure to have it at hand.
