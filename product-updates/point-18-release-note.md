@@ -30,7 +30,8 @@ description: >-
   * **Recurrence** – choose how often reviewers need to perform the permissions review
   * **Content scope** – select the content level that needs to be reviewed
 
-  Once created, **you can apply review policies to Microsoft Teams**, **Groups**, and **sites**. Besides that, you can now **decide which users will be responsible for the permissions review** of selected **Microsoft Teams**, **Groups**, and **sites**.  
+  Once created, **you can apply review policies to Microsoft Teams**, **Groups**, and **sites**.   
+  Besides that, you can now **decide which users will be responsible for the permissions review** of selected **Microsoft Teams**, **Groups**, and **sites**.  
 
   [To learn all about the new capabilities of the automated Permissions Review, read the following article.](point-18-release-note.md#TODO)
 
