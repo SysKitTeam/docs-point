@@ -46,7 +46,7 @@ If you have additional questions or concerns regarding the purchase models, plea
 Below, you can find **minimum** Azure SQL database recommendations based on your environment's size.
 
 | Microsoft 365 Environment | Pricing model | Included storage \(GB\) |
-| :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- |
 | **Up to 1000 users/sites** | DTU model S1 - 20 DTU | 50 |
 | **Up to 10 000 users/sites** | General Purpose 2 vCores \(Provisioned\) | 100 |
 | **More than 10 000 users/sites** | General Purpose 4+ vCores \(Provisioned\) | 250 |
