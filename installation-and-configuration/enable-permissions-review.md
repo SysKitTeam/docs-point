@@ -56,7 +56,7 @@ The Exchange Online method enables you to use an existing Exchange account in yo
 
 After you click the **Send test e-mail** button, the **Sent test e-mail** dialog opens. Here, **enter the e-mail address to which you want to send** the test e-mail. After a moment, you should receive an e-mail like the one pictured below.
 
-![Test e-mail](../.gitbook/assets/enable-permissions-review_test-email%20%281%29%20%282%29%20%281%29.png)
+![Test e-mail](../.gitbook/assets/enable-permissions-review_test-email%20%281%29%20%282%29%20%282%29%20%283%29%20%281%29.png)
 
 Click the **Save** button to store your e-mail settings.
 
@@ -115,7 +115,7 @@ SysKit Point Admins can manually send an e-mail reminder to site owners once a d
 
 If you want to become familiar with the look of the permissions review e-mail that will be sent to site owners, click the **Preview e-mail button**. Since each site owner will have different sites and site types to review, the **e-mail preview dialog shows placeholders** marked with parenthesis **{ }**.
 
-![Permissions Review - Preview e-mail dialog](../.gitbook/assets/enable-permissions-review_preview-email%20%281%29%20%282%29%20%281%29.png)
+![Permissions Review - Preview e-mail dialog](../.gitbook/assets/enable-permissions-review_preview-email%20%281%29%20%282%29%20%282%29%20%283%29%20%281%29.png)
 
 ### **Permissions Review Targeting**
 
@@ -142,7 +142,7 @@ Once your changes are saved, you can click the **Preview tile**, which opens the
 * **view all site owners that will receive a permissions review e-mail**; for each Microsoft Team, Microsoft 365 Group, site, and OneDrive included in the permissions review 
 * **change owners** by **selecting a row \(4\)** and clicking the **Change owners action \(5\)** available in the side panel
 
-![Permissions Review - Preview screen](../.gitbook/assets/enable-permissions-review_permissions-review-preview%20%281%29%20%282%29%20%282%29.png)
+![Permissions Review - Preview screen](../.gitbook/assets/enable-permissions-review_permissions-review-preview%20%281%29%20%282%29%20%282%29%20%282%29.png)
 
 Choose the **Specific items \(1\)** option if you want to manually select specific sites to be included in the permissions review.
 
