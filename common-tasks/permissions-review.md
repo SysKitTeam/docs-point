@@ -111,7 +111,7 @@ The **Members step** is available **when reviewing Office 365 Groups or Microsof
 * when no users are selected, the **Add Owners/Members** action is available
 * **click Next \(6\)** to continue to the next step of the Permissions Review Wizard
 
-![Permissions Review wizard - Members step](../.gitbook/assets/permissions-review_members%20%281%29%20%282%29.png)
+![Permissions Review wizard - Members step](../.gitbook/assets/permissions-review_members%20%281%29%20%283%29.png)
 
 The **Users step** is available **when reviewing sites**. The following options are available here:
 
@@ -126,7 +126,7 @@ The **Users step** is available **when reviewing sites**. The following options 
 * when no users are selected, the **Grant Access** action is available
 * **click Next \(6\)** to continue to the next step of the Permissions Review Wizard
 
-![Permissions Review wizard - Users step](../.gitbook/assets/permissions-review_users%20%282%29%20%281%29.png)
+![Permissions Review wizard - Users step](../.gitbook/assets/permissions-review_users%20%282%29%20%282%29%20%281%29.png)
 
 {% hint style="warning" %}
 **Please note!**  
@@ -194,7 +194,7 @@ After you complete the permissions review for a site, the **Review Completed** d
 
 When you complete permissions reviews for all sites you are the owner of, your **Permissions Review task is completed.** On the **My Tasks** screen, under **Active Permissions Review \(1\)**, the **No Tasks \(2\)** message is displayed. You can find your **completed permissions review task \(3\)** in the **Completed section \(4\)**, and access task details by clicking the **See Task \(5\)** button.
 
-![My Tasks - Active](../.gitbook/assets/permissions-review_task-active-completed%20%283%29.png)
+![My Tasks - Active](../.gitbook/assets/permissions-review_task-active-completed%20%283%29%20%282%29%20%283%29.png)
 
 ![My Tasks - Completed](../.gitbook/assets/permissions-review_task-completed.png)
 

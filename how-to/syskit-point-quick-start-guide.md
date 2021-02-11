@@ -18,7 +18,7 @@ Once you click the Finish button, SysKit Point should open in your default brows
 
 Once opened in your browser, SysKit Point shows the Welcome screen. Click the **Sign in** button.
 
-![SysKit Point - Welcome screen](../.gitbook/assets/syskit-point-quick-start-guide_welcome-screen%20%281%29%20%282%29%20%281%29.png)
+![SysKit Point - Welcome screen](../.gitbook/assets/syskit-point-quick-start-guide_welcome-screen%20%281%29%20%282%29%20%282%29%20%283%29.png)
 
 This action redirects you to the well known Microsoft Sign in screen.
 
