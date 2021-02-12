@@ -23,7 +23,7 @@ While you wait for spring to come, we bring you the latest and greatest **SysKit
   * **Define who will get an email in case the alert is triggered**
   * **View all active alerts and resolve them** after ensuring that your environment is secure
 
-  [To learn more about alerts in SysKit Point, read the following article.](point-18-release-note.md#TODO)
+  [To learn more about alerts in SysKit Point, read the following article.](../common-tasks/configure-alerts.md)
 
 * **New Permissions Review setup, policies, and capabilities are now available!**  
   You can now set up the automated Permissions Review with the help of the new Permissions Review wizard. Permissions review policies are also introduced to give you more possibilities and greater flexibility. Per each review policy, you can define the following:
@@ -35,7 +35,7 @@ While you wait for spring to come, we bring you the latest and greatest **SysKit
   Once created, **you can apply review policies to Microsoft Teams**, **Groups**, and **sites**.  
   Besides that, you can now **decide which users will be responsible for the permissions review** of selected **Microsoft Teams**, **Groups**, and **sites**.
 
-  [To learn all about the new capabilities of the automated Permissions Review, read the following article.](point-18-release-note.md#TODO)
+  [To learn all about the new capabilities of the automated Permissions Review, read the following article.](../installation-and-configuration/enable-permissions-review.md)
 
 * **New License Reports are available!** You can now find detailed information on license usage in the following reports:
 
@@ -46,11 +46,11 @@ While you wait for spring to come, we bring you the latest and greatest **SysKit
 
   The **Remove Licenses action** is available on the **Inactive Licenses report**, enabling you to **reclaim unused licenses and minimize your license costs**.
 
-  [To learn more about the new license reports, read the following article.](point-18-release-note.md#TODO)
+  [To learn more about the new license reports, read the following article.](../common-tasks/license-management.md)
 
 * **New user actions added – Delete and Restore User**!
 
-  New actions are available on the **Users** overview screen. [To learn more about these actions and permissions needed to run them, navigate to the following article.](point-18-release-note.md#TODO)
+  New actions are available on the **Users** overview screen. [To learn more about these actions and permissions needed to run them, navigate to the following article.](../common-tasks/delete-and-restore-users.md)
 
 * **New group management actions are available**:
 
