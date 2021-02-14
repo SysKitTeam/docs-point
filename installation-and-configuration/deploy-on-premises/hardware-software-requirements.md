@@ -1,18 +1,18 @@
 ---
 description: >-
-  This article explains what are the hardware and software requirements for
+  This article is an explains what are the hardware and sofware requirements for
   installing SysKit Point On-Premises.
 ---
 
 # Hardware and Software Requirements
 
-SysKit Point has two main components which have their requirements:
+SysKit Point has two main components which have their own requirements:
 
 * **Virtual Machine** - host the data collection service and the Point web application
 * **SQL Server Database** - stores data collected by Point
 
 {% hint style="success" %}
-**For smaller Office 365 environments**, MS SQL Server can be installed on the same physical machine as SysKit Point. If you decided to install MS SQL Server on a separate machine, you can find the MS SQL Server hardware requirements listed [here](syskit-point-database.md).
+**For smaller Office 365 environments**, MS SQL Server can be installed on the same physical machine as SysKit Point. If you decided to install MS SQL Server on a separate machine, you can find the MS SQL Server hardware requirements listed [here](syskit-point-database.md)
 {% endhint %}
 
 ## Virtual Machine Requirements
