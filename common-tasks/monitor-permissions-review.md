@@ -110,7 +110,7 @@ Ten days after the start, the permissions review is automatically marked as comp
 * **total number of sites where the permissions review was not completed \(2\)**
 * **View Uncompleted Tasks \(3\)** button
 
-![Email - Permissions Review completed](../.gitbook/assets/monitor-permissions-review_email-after%20%282%29%20%282%29%20%283%29.png)
+![Email - Permissions Review completed](../.gitbook/assets/monitor-permissions-review_email-after%20%282%29.png)
 
 To view sites where the permissions review was not completed, click the **View Uncompleted Tasks** button. If already signed in to SysKit Point, you will be redirected to the **Permissions Review** report. Here, you can:
 

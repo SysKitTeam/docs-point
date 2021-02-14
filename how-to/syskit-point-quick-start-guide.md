@@ -12,13 +12,13 @@ After you complete the installation and come to the last step in SysKit Point Co
 
 ![Configuration Wizard - SysKit Point web-app URL](../.gitbook/assets/syskit-point-quick-start-guide_syskit-point-web-app-url%20%281%29%20%282%29%20%282%29.png)
 
-Once you click the Finish button, SysKit Point should open in your default browser. You can also copy the URL directly from the text box and paste it to your preferred browser.
+Once you click the Finish button, SysKit Point should open in your default browser. You can also copy the URL directly from the text box and paste it into your preferred browser.
 
 ## Sign In Screen
 
 Once opened in your browser, SysKit Point shows the Welcome screen. Click the **Sign in** button.
 
-![SysKit Point - Welcome screen](../.gitbook/assets/syskit-point-quick-start-guide_welcome-screen%20%281%29%20%282%29%20%282%29%20%283%29.png)
+![SysKit Point - Welcome screen](../.gitbook/assets/syskit-point-quick-start-guide_welcome-screen%20%281%29%20%282%29%20%281%29.png)
 
 This action redirects you to the well known Microsoft Sign in screen.
 
@@ -44,7 +44,7 @@ Place where everything in SysKit Point starts. You can see 4 major sections:
 
 ![SysKit Point - Welcome Home screen](../.gitbook/assets/syskit-point-quick-start-guide_syskit-point-home-screen.png)
 
-To view specific section, click the appropriate tile.
+To view a specific section, click the appropriate tile.
 
 ## Navigation
 
@@ -91,7 +91,7 @@ On the right-hand side of the screen, you will find suggested actions and report
 
 There are two types of actions/reports:
 
-* **Global Actions/Reports** - these actions are always visible and will create a report or perform an action for the specific site/user you are currently located at. **Example:** If you are exploring in details site called Research and Development, reports on the right-hand side will contain information only about that site.
+* **Global Actions/Reports** - these actions are always visible and will create a report or perform an action for the specific site/user you are currently located at. **Example:** If you are exploring in detail a site called Research and Development, reports on the right-hand side will contain information only about that site.
 
 ![SysKit Point - Global actions on site details screen](../.gitbook/assets/syskit-point-quick-start-guide_syskit-point-global-actions-on-site-details-screen.png)
 
@@ -101,7 +101,7 @@ There are two types of actions/reports:
 
 ## **What Can a Site Owner See?**
 
-SysKit Point will present you with the inventory of your resources, meaning you will be able to see sites, Teams and Office 365 groups you are the owner/administrator of.
+SysKit Point will present you with the inventory of your resources, meaning you will be able to see sites, Teams, and Office 365 groups you are the owner/administrator of.
 
 Check the [following link](../installation-and-configuration/enable-role-based-access.md) for more details about **role-based access configuration**.
 

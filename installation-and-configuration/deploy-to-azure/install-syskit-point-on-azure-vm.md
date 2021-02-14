@@ -42,7 +42,7 @@ Here, you can choose between two options:
 
 In case a dedicated Azure SQL database is prepared for SysKit Point, choose the **Use existing database \(2\)** option.
 
-Click **Next\(3\)** to proceed.
+Click **Next \(3\)** to proceed.
 
 ![SysKit Point Configuration - Database](../../.gitbook/assets/install-syskit-point-on-premises_database-step%20%283%29.png)
 
@@ -53,9 +53,9 @@ On the Database Configuration step, you will be required to enter the:
 * **Database server \(1\)**
 * **Database name \(2\)**
 
-Select the option **Use SQL authentication**\(3\) to access the database and use the **data and credentials** defined when creating an Azure SQL database.
+Select the option **Use SQL authentication \(3\)** to access the database and use the **data and credentials** defined when creating an Azure SQL database.
 
-Click **Test Connection**\(4\) to see if **SysKit Point** can connect to the entered Azure SQL database.
+Click **Test Connection \(4\)** to see if **SysKit Point** can connect to the entered Azure SQL database.
 
 ![SysKit Point Configuration - Database Configuration](../../.gitbook/assets/install-syskit-point-on-azure-vm_database-configuration-step.png)
 
@@ -120,7 +120,7 @@ In the Web Application Settings, the following options are defined:
 * **URL of SysKit Point Web App \(1\)**
 * **Port to use \(2\)**
 * **Certificate**; here, you can choose between two options:
-  * **Import SSL certificate \(3\)** - here, you can **import the certificate from a file \(5\)**, or from the **Personal Store \(6\)**
+  * **Import SSL certificate \(3\)** - here, you can **import the certificate from a file \(5\)**, or the **Personal Store \(6\)**
   * **Use self-signed certificate \(4\)**
 
 ![Configuration Wizard - Web Application Settings step](../../.gitbook/assets/install-syskit-point-on-azure-vm_webapp-settings-step.png)

@@ -20,7 +20,7 @@ The user who installed SysKit Point will be required to activate the product. To
 
 ## How soon must I activate my product?
 
-It is recommended you activate your product within the 30 days of the trial period. After the period expires, you won’t be able to log in and access the application until it is activated.
+It is recommended you activate your product within 30 days of the trial period. After the period expires, you won’t be able to log in and access the application until it is activated.
 
 ## What happens if I do not activate my product?
 
