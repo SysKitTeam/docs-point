@@ -89,5 +89,4 @@ Let the festivities begin; **SysKit Point 17 is here**! Although it's still Nove
   `SysKit.SecurityManager.Business.Exceptions.ReportGeneration.ReportGenerationException: Exception of type 'SysKit.SecurityManager.Business.Exceptions.ReportGeneration.ReportGenerationException' was thrown.`
 
 * **Various UX/UI improvements and minor fixes available.**
-* T
 
