@@ -4,7 +4,7 @@ description: >-
   Review in SysKit Point.
 ---
 
-# Enable Automated Permissions Review
+# Prerequisites
 
 {% hint style="warning" %}
 **Before you continue**, check if the Automated Permissions Review feature is included in your [subscription plan](https://www.syskit.com/products/point/pricing/).
@@ -14,7 +14,7 @@ To use the advantages of Automated Permissions Review in SysKit Point, you need 
 
 * **set up e-mail settings**
 * **enable SysKit Point Collaborators role**
-* **configure Permissions review settings**
+* **configure Automated Permissions Review with the help of Permissions Review Setup wizard**
 
 {% hint style="warning" %}
 **Please note!**  
@@ -85,9 +85,36 @@ To enable site owners to perform the permissions review on their sites, you need
 
 For more information about role-based access in SysKit Point, go to the [following article](enable-role-based-access.md).
 
-## **Enable Automated Permissions Review**
+# **Automated Permissions Review Setup**
 
-After you have successfully set up e-mail and enabled the SysKit Point Collaborators role, you can enable the Automated Permissions Review by marking the checkbox on the **Governance** &gt; **Permissions Review** screen. Click **Save** to be able to proceed with further customization.
+After you have successfully set up e-mail and enabled the SysKit Point Collaborators role, you can enable the Automated Permissions Review by clicking the **Enable Automated Permissions Review (1)** button on the **Governance** &gt; **Permissions Review** screen. The **Permissions Review Setup wizard** opens, guiding you through the Automated Permissions Review configuration.
+![Enable Automated Permissions Review button](../.gitbook/assets/enable-permissions-review_enable-button.png)
+
+The Permissions Review Wizard consists of several steps with reports and actions that enable Permissions Review customization. Let's examine each step in more detail.
+
+## **Overview**
+The **Overview step** provides basic information on how the Permissions Review Setup works.
+Here, you can see that the Permissions Review Setup will ask you to:
+* **Create or customize Permissions Review Policies (1)**
+* **Apply policies to Microsoft Teams, Microsoft 365 Groups, and sites (2)**
+* **Manage who will get the Permissions Review task (3)**
+Additionally, you can find information about:
+* **Permissions Review policies (4)**
+* **Reviewers (5)**
+To continue to the next step, click the **Start button (6)**.
+You can find the **Close Setup link (7)** on all steps in the Permissions Review Setup wizard, enabling you to leave the setup at any time. 
+
+![Automated Permissions Setup - Overview](../.gitbook/assets/enable-permissions-review_enable-button.png)
+
+## **Set Up Policies**
+
+## **Apply Policies**
+
+## **Manage Reviewers**
+
+## **Review Options**
+
+## **Summary**
 
 ### **Customize Permissions Review**
 
