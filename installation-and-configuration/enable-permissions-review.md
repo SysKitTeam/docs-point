@@ -96,7 +96,7 @@ The Permissions Review Wizard consists of several steps with reports and actions
 The **Overview step** provides basic information on how the Permissions Review Setup works.
 Here, you can see that the Permissions Review Setup will ask you to:
 * **Create or customize Permissions Review Policies (1)**
-* **Apply policies to Microsoft Teams, Microsoft 365 Groups, and sites (2)**
+* **Apply policies to Microsoft Teams**, **Microsoft 365 Groups**, **OneDrive**, and **sites (2)**
 * **Manage who will get the Permissions Review task (3)**
 Additionally, you can find information about:
 * **Permissions Review policies (4)**
@@ -107,7 +107,7 @@ You can find the **Close Setup link (7)** on all steps in the Permissions Review
 ![Automated Permissions Review Setup - Overview](../.gitbook/assets/enable-permissions-review_enable-button.png)
 
 ## **Set Up Policies**
-**Permissions Review policies enable you to define different review options**, such as review frequency and scope, and later **apply them to different Microsoft Teams**, **Microsoft 365 Groups**, and **sites**.
+**Permissions Review policies enable you to define different review options**, such as review frequency and scope, and later **apply them to different Microsoft Teams**, **Microsoft 365 Groups**, **OneDrive** and **sites**.
 By default, SysKit Point offers a precreated policy - **All users and shared files (1)**.
 When a policy is selected, the following actions are available in the **side panel**:
 * **Edit Policy (2)**
@@ -139,12 +139,27 @@ The following review policy settings can be defined here:
 Depending on your selection of what should be reviewed, the **descriptions (6)** on the right side of the dialog will change.
 Click **Save (7)** when you are done editing the policy. 
 
-You can also **create a new review policy by clicking the Create Policy action (1)** in the right side panel. The **New Permissions Reviw Policy dialog (2)** opens, giving you the possibility to define review policy options as described when edititng.
+You can also **create a new review policy by clicking the Create Policy action (1)** in the right side panel. The **New Permissions Review Policy dialog (2)** opens, giving you the possibility to define review policy options as described when edititng.
 
 ![Automated Permissions Review Setup - New Policy](../.gitbook/assets/enable-permissions-review_new-policy.png)
 
 To continue to the next step, click the **Next** button
 ## **Apply Policies**
+
+On the **Apply Policies step**, you can apply created policies to your **Microsoft Teams**, **Microsoft 365 Groups**, **OneDrive**, and **sites**.
+To do so:
+* **select (1)** one or multiple resources; you can easily filter them by applied policies with the help of **top tiles (2)**
+* **click the Apply Policy action (3)**
+
+![Automated Permissions Review Setup - Apply Policy](../.gitbook/assets/enable-permissions-review_apply-policies.png)
+
+The **Apply Permissions Review Policy** dialog opens where you can:
+* **choose one of your review policies (3)**
+* **confirm your selection by clicking the Save button (4)**
+
+![Automated Permissions Review Setup - Apply Policy](../.gitbook/assets/enable-permissions-review_apply-policy-dialog.png)
+
+Once you're done assigning policies to **Microsoft Teams**, **Microsoft 365 Groups**, **OneDrive**, and **sites**, click the **Next** button to continue to the next step.
 
 ## **Manage Reviewers**
 
