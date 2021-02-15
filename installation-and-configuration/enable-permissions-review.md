@@ -104,10 +104,46 @@ Additionally, you can find information about:
 To continue to the next step, click the **Start button (6)**.
 You can find the **Close Setup link (7)** on all steps in the Permissions Review Setup wizard, enabling you to leave the setup at any time. 
 
-![Automated Permissions Setup - Overview](../.gitbook/assets/enable-permissions-review_enable-button.png)
+![Automated Permissions Review Setup - Overview](../.gitbook/assets/enable-permissions-review_enable-button.png)
 
 ## **Set Up Policies**
+**Permissions Review policies enable you to define different review options**, such as review frequency and scope, and later **apply them to different Microsoft Teams**, **Microsoft 365 Groups**, and **sites**.
+By default, SysKit Point offers a precreated policy - **All users and shared files (1)**.
+When a policy is selected, the following actions are available in the **side panel**:
+* **Edit Policy (2)**
+* **Enable Policies (3)**
+* **Disable Policies (4)**
+* **Delete Policies (5)** 
 
+![Automated Permissions Review Setup - Set Up Policies](../.gitbook/assets/enable-permissions-review_set-up-policies.png)
+
+
+Let's edit the existing predefined policy. After clicking the **Edit Policy link (2)**, the **Editing Policy** dialog opens.
+The following review policy settings can be defined here:
+* **Policy Name (1)**
+* **Memberships to review (2)** - you can choose between two options:
+  * **All**
+  * **Guests Only**
+* **Content to review (3)** - you can choose between two options:
+  * **All** 
+  * **External Only**
+* **Recurrence (4)** - set how often the review should be performed
+* **Content level to be reviewed (5)** - you can choose between the following options:
+  * **subsites**
+  * **document libraries & lists**
+  * **folders**
+  * **files & folders**
+
+![Automated Permissions Review Setup - Editing Policy](../.gitbook/assets/enable-permissions-review_editing-policy.png)
+
+Depending on your selection of what should be reviewed, the **descriptions (6)** on the right side of the dialog will change.
+Click **Save (7)** when you are done editing the policy. 
+
+You can also **create a new review policy by clicking the Create Policy action (1)** in the right side panel. The **New Permissions Reviw Policy dialog (2)** opens, giving you the possibility to define review policy options as described when edititng.
+
+![Automated Permissions Review Setup - New Policy](../.gitbook/assets/enable-permissions-review_new-policy.png)
+
+To continue to the next step, click the **Next** button
 ## **Apply Policies**
 
 ## **Manage Reviewers**
