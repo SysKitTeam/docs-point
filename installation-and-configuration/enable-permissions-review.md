@@ -4,7 +4,9 @@ description: >-
   Review in SysKit Point.
 ---
 
-# Prerequisites
+# Enable Automated Permissions Review
+
+## Prerequisites
 
 {% hint style="warning" %}
 **Before you continue**, check if the Automated Permissions Review feature is included in your [subscription plan](https://www.syskit.com/products/point/pricing/).
@@ -27,7 +29,7 @@ To start with the configuration, open the **Settings** &gt; **Governance** &gt; 
 
 Clicking the tiles in the **Additional Actions Required** section redirects to the appropriate settings screen.
 
-## **Set Up E-Mail**
+### **Set Up E-Mail**
 
 As a part of the automated permissions review process, e-mails are sent to SysKit Point Admin and SysKit Point Collaborator users. For SysKit Point to be able to send e-mails, you need to configure the sending method. Two options are available:
 
@@ -39,7 +41,7 @@ As a part of the automated permissions review process, e-mails are sent to SysKi
 E-mail address set up in this section will appear in the **Sent from** field of all e-mails sent from SysKit Point.
 {% endhint %}
 
-### Exchange Online Settings
+#### Exchange Online Settings
 
 {% hint style="warning" %}
 **Please Note!**  
@@ -60,7 +62,7 @@ After you click the **Send test e-mail** button, the **Sent test e-mail** dialog
 
 Click the **Save** button to store your e-mail settings.
 
-### SMTP Settings
+#### SMTP Settings
 
 Select the **SMTP method** if you are using an **SMTP** server in your environment. Here, you can enter the SMTP properties:
 
@@ -77,7 +79,7 @@ You can check if the entered data is correct by **sending a test e-mail**.
 
 Click the **Save** button once you confirm that the test e-mail was received.
 
-## **Enable SysKit Point Collaborators**
+### **Enable SysKit Point Collaborators**
 
 To enable site owners to perform the permissions review on their sites, you need to enable them to access SysKit Point. To do so, navigate to the **Settings** &gt; **Security** &gt; **Manage Access** screen, and **click the toggle to enable the SysKit Point Collaborators role**. When the role is enabled, site owners can access SysKit Point, where they can manage their sites and review permissions.
 
@@ -85,50 +87,53 @@ To enable site owners to perform the permissions review on their sites, you need
 
 For more information about role-based access in SysKit Point, go to the [following article](enable-role-based-access.md).
 
-# **Automated Permissions Review Setup**
+## **Automated Permissions Review Setup**
 
-After you have successfully set up e-mail and enabled the SysKit Point Collaborators role, you can enable the Automated Permissions Review by clicking the **Enable Automated Permissions Review (1)** button on the **Governance** &gt; **Permissions Review** screen. The **Permissions Review Setup wizard** opens, guiding you through the Automated Permissions Review configuration.
-![Enable Automated Permissions Review button](../.gitbook/assets/enable-permissions-review_enable-button.png)
+After you have successfully set up e-mail and enabled the SysKit Point Collaborators role, you can enable the Automated Permissions Review by clicking the **Enable Automated Permissions Review \(1\)** button on the **Governance** &gt; **Permissions Review** screen. The **Permissions Review Setup wizard** opens, guiding you through the Automated Permissions Review configuration. ![Enable Automated Permissions Review button](../.gitbook/assets/enable-permissions-review_enable-button.png)
 
 The Permissions Review Wizard consists of several steps with reports and actions that enable Permissions Review customization. Let's examine each step in more detail.
 
-## **Overview**
-The **Overview step** provides basic information on how the Permissions Review Setup works.
-Here, you can see that the Permissions Review Setup will ask you to:
-* **Create or customize Permissions Review Policies (1)**
-* **Apply policies to Microsoft Teams**, **Microsoft 365 Groups**, **OneDrive**, and **sites (2)**
-* **Manage who will get the Permissions Review task (3)**
-Additionally, you can find information about:
-* **Permissions Review policies (4)**
-* **Reviewers (5)**
-To continue to the next step, click the **Start button (6)**.
-You can find the **Close Setup link (7)** on all steps in the Permissions Review Setup wizard, enabling you to leave the setup at any time. 
+### **Overview**
+
+The **Overview step** provides basic information on how the Permissions Review Setup works. Here, you can see that the Permissions Review Setup will ask you to:
+
+* **Create or customize Permissions Review Policies \(1\)**
+* **Apply policies to Microsoft Teams**, **Microsoft 365 Groups**, **OneDrive**, and **sites \(2\)**
+* **Manage who will get the Permissions Review task \(3\)**
+
+  Additionally, you can find information about:
+
+* **Permissions Review policies \(4\)**
+* **Reviewers \(5\)**
+
+  To continue to the next step, click the **Start button \(6\)**.
+
+  You can find the **Close Setup link \(7\)** on all steps in the Permissions Review Setup wizard, enabling you to leave the setup at any time. 
 
 ![Automated Permissions Review Setup - Overview](../.gitbook/assets/enable-permissions-review_enable-button.png)
 
-## **Set Up Policies**
-**Permissions Review policies enable you to define different review options**, such as review frequency and scope, and later **apply them to different Microsoft Teams**, **Microsoft 365 Groups**, **OneDrive** and **sites**.
-By default, SysKit Point offers a precreated policy - **All users and shared files (1)**.
-When a policy is selected, the following actions are available in the **side panel**:
-* **Edit Policy (2)**
-* **Enable Policies (3)**
-* **Disable Policies (4)**
-* **Delete Policies (5)** 
+### **Set Up Policies**
+
+**Permissions Review policies enable you to define different review options**, such as review frequency and scope, and later **apply them to different Microsoft Teams**, **Microsoft 365 Groups**, **OneDrive** and **sites**. By default, SysKit Point offers a precreated policy - **All users and shared files \(1\)**. When a policy is selected, the following actions are available in the **side panel**:
+
+* **Edit Policy \(2\)**
+* **Enable Policies \(3\)**
+* **Disable Policies \(4\)**
+* **Delete Policies \(5\)** 
 
 ![Automated Permissions Review Setup - Set Up Policies](../.gitbook/assets/enable-permissions-review_set-up-policies.png)
 
+Let's edit the existing predefined policy. After clicking the **Edit Policy link \(2\)**, the **Editing Policy** dialog opens. The following review policy settings can be defined here:
 
-Let's edit the existing predefined policy. After clicking the **Edit Policy link (2)**, the **Editing Policy** dialog opens.
-The following review policy settings can be defined here:
-* **Policy Name (1)**
-* **Memberships to review (2)** - you can choose between two options:
+* **Policy Name \(1\)**
+* **Memberships to review \(2\)** - you can choose between two options:
   * **All**
   * **Guests Only**
-* **Content to review (3)** - you can choose between two options:
+* **Content to review \(3\)** - you can choose between two options:
   * **All** 
   * **External Only**
-* **Recurrence (4)** - set how often the review should be performed
-* **Content level to be reviewed (5)** - you can choose between the following options:
+* **Recurrence \(4\)** - set how often the review should be performed
+* **Content level to be reviewed \(5\)** - you can choose between the following options:
   * **subsites**
   * **document libraries & lists**
   * **folders**
@@ -136,38 +141,39 @@ The following review policy settings can be defined here:
 
 ![Automated Permissions Review Setup - Editing Policy](../.gitbook/assets/enable-permissions-review_editing-policy.png)
 
-Depending on your selection of what should be reviewed, the **descriptions (6)** on the right side of the dialog will change.
-Click **Save (7)** when you are done editing the policy. 
+Depending on your selection of what should be reviewed, the **descriptions \(6\)** on the right side of the dialog will change. Click **Save \(7\)** when you are done editing the policy.
 
-You can also **create a new review policy by clicking the Create Policy action (1)** in the right side panel. The **New Permissions Review Policy dialog (2)** opens, giving you the possibility to define review policy options as described when edititng.
+You can also **create a new review policy by clicking the Create Policy action \(1\)** in the right side panel. The **New Permissions Review Policy dialog \(2\)** opens, giving you the possibility to define review policy options as described when edititng.
 
 ![Automated Permissions Review Setup - New Policy](../.gitbook/assets/enable-permissions-review_new-policy.png)
 
 To continue to the next step, click the **Next** button
-## **Apply Policies**
 
-On the **Apply Policies step**, you can apply created policies to your **Microsoft Teams**, **Microsoft 365 Groups**, **OneDrive**, and **sites**.
-To do so:
-* **select (1)** one or multiple resources; you can easily filter them by applied policies with the help of **top tiles (2)**
-* **click the Apply Policy action (3)**
+### **Apply Policies**
+
+On the **Apply Policies step**, you can apply created policies to your **Microsoft Teams**, **Microsoft 365 Groups**, **OneDrive**, and **sites**. To do so:
+
+* **select \(1\)** one or multiple resources; you can easily filter them by applied policies with the help of **top tiles \(2\)**
+* **click the Apply Policy action \(3\)**
 
 ![Automated Permissions Review Setup - Apply Policy](../.gitbook/assets/enable-permissions-review_apply-policies.png)
 
 The **Apply Permissions Review Policy** dialog opens where you can:
-* **choose one of your review policies (3)**
-* **confirm your selection by clicking the Save button (4)**
+
+* **choose one of your review policies \(3\)**
+* **confirm your selection by clicking the Save button \(4\)**
 
 ![Automated Permissions Review Setup - Apply Policy](../.gitbook/assets/enable-permissions-review_apply-policy-dialog.png)
 
 Once you're done assigning policies to **Microsoft Teams**, **Microsoft 365 Groups**, **OneDrive**, and **sites**, click the **Next** button to continue to the next step.
 
-## **Manage Reviewers**
+### **Manage Reviewers**
 
-## **Review Options**
+### **Review Options**
 
-## **Summary**
+### **Summary**
 
-### **Customize Permissions Review**
+#### **Customize Permissions Review**
 
 In the **Customize section** of the permissions review, you can do the following:
 
@@ -195,7 +201,7 @@ If you want to become familiar with the look of the permissions review e-mail th
 
 ![Permissions Review - Preview e-mail dialog](../.gitbook/assets/enable-permissions-review_preview-email%20%281%29%20%282%29%20%282%29%20%283%29%20%284%29%20%284%29%20%281%29.png)
 
-### **Permissions Review Targeting**
+#### **Permissions Review Targeting**
 
 In the **Target Selection** section, you can **define which sites to include in the permissions review**. By default, the **All active Microsoft Teams, Microsoft 365 Groups and sites \(1\)** option is selected. Additionally, you can:
 
