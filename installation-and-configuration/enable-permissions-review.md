@@ -31,7 +31,7 @@ Clicking the tiles in the **Additional Actions Required** section redirects to t
 
 ### **Set Up E-Mail**
 
-As a part of the automated permissions review process, e-mails are sent to SysKit Point Admin and SysKit Point Collaborator users. For SysKit Point to be able to send e-mails, you need to configure the sending method. Two options are available:
+As a part of the Automated Permissions Review process, e-mails are sent to SysKit Point Admin and SysKit Point Collaborator users. For SysKit Point to be able to send e-mails, you need to configure the sending method. Two options are available:
 
 * **Exchange Online** 
 * **SMTP** - Simple Mail Transfer Protocol
@@ -169,79 +169,51 @@ Once you're done assigning policies to **Microsoft Teams**, **Microsoft 365 Grou
 
 ### **Manage Reviewers**
 
+The **Manage Reviewers step** enables you to define users responsible for the Permissions Review of a **Microsoft Team**, **Microsoft 365 Group**, **OneDrive**, or a **site**.
+Here, you can:
+* **Select one or multiple users (1)**
+* **Remove one or multiple users from reviewers (2)**
+* **Manage Admins or Owners (3)**
+* **Filter out resources without reviewers (4)** or otherwise filter the grid with the help of top tiles
+* **Switch the view (5)** - choose between two options:
+  * **Show by Content** - root node is a resource with all reviewers shown as child nodes
+  * **Show by Users** - root node is a user, with all resources where he is a reviewer shown as child nodes
+* **Find the number of active reviewers (6)** on all **Microsoft Teams**, **Microsoft 365 Groups**, **OneDrive**, and **sites**
+* **View users removed from reviewers (7)** - you can recognize them by the **Not Reviewing** status
+
+![Automated Permissions Review Setup - Manage Reviewers](../.gitbook/assets/enable-permissions-review_manage-reviewers.png)
+
+Click **Next (8)** to navigate to the next step.
 ### **Review Options**
 
+{% hint style="warning" %}
+**Please note!** Review options will apply to all resources included in the Automated Permissions Review, regardless of the applied policy.
+{% endhint %}
+
+Here you can:
+* **Set a default policy that SysKit Point will aply (1)** when a new **Microsoft Team**, **Microsoft 365 Group**, **OneDrive**, or a **site** is created
+* **Define the starting date for Automated Permissions Review (2)**
+* **Set the number of work days (3)** reviewers have to complete their permissions review tasks
+* **Enable or disable (4)** sending of e-mail reminders to reviewers three work days before the permissions review task's due date
+
+![Automated Permissions Review Setup - Review Options](../.gitbook/assets/enable-permissions-review_review-options.png)
+
+Click the **Next** button to navigate to the **Summary step**.
 ### **Summary**
 
-#### **Customize Permissions Review**
+The last step gives you an overview of:
+* **applied policies (1)**
+* **selected resources (2)**
+* **selected reviewers (3)**
+* **defined review options (4)**
 
-In the **Customize section** of the permissions review, you can do the following:
+![Automated Permissions Review Setup - Summary](../.gitbook/assets/enable-permissions-review_summary.png)
 
-* **define the start date** for the first **Automated Permissions Review** by clicking the **calendar icon \(1\)** and choosing the desired date
-* **define the recurrence period \(2\)** for the permissions review
-* **view the start date for the next permissions review \(3\)**; save your changes to recalculate and refresh values if needed
-* **define the permissions review duration \(4\)**; permissions review has a defined duration of **10 workdays**
-* **choose whether to send an e-mail reminder \(5\)** to all site owners included in the permissions review three workdays before the due date; you can turn off this option at any time during the permissions review
-* **customize the permissions review e-mail \(6\)** - learn more about e-mail customization [here](customize-emails.md)
-* **preview the permissions review e-mail \(7\)**
+Click the **Finish button (5)** to close the Permissions Review Setup wizard.
 
-{% hint style="warning" %}
-**Please Note!**  
-All dates in the permissions review, including start and due date, are calculated to fall on a workday. That way, SysKit Point ensures that no e-mails are sent during non-working hours.
+{% hint style="success" %}
+Once you complete the Permissions Review Wizard, you can **access all of the above mentioned reports and permissions review options from the Permissions Review Settings screen**, and customize them further to fit your specific needs.
 {% endhint %}
 
-![Permissions Review - Customize section](../.gitbook/assets/enable-permissions-review_customize-section.png)
-
-{% hint style="info" %}
-**Hint!**  
-SysKit Point Admins can manually send an e-mail reminder to site owners once a day, any time during the permissions review, by choosing the **Remind Owners** action on the **Governance** &gt; **Permissions Review details** screen.
-{% endhint %}
-
-If you want to become familiar with the look of the permissions review e-mail that will be sent to site owners, click the **Preview e-mail button**. Since each site owner will have different sites and site types to review, the **e-mail preview dialog shows placeholders** marked with parenthesis **{ }**.
-
-![Permissions Review - Preview e-mail dialog](../.gitbook/assets/enable-permissions-review_preview-email%20%281%29%20%282%29%20%282%29%20%283%29%20%284%29%20%284%29%20%281%29.png)
-
-#### **Permissions Review Targeting**
-
-In the **Target Selection** section, you can **define which sites to include in the permissions review**. By default, the **All active Microsoft Teams, Microsoft 365 Groups and sites \(1\)** option is selected. Additionally, you can:
-
-* **include OneDrive or remove any of the initially selected resources** by clicking the **resource filter \(2\)**
-* **choose to include only resources where external sharing is enabled \(3\)**
-* **preview selected sites based on your configuration by clicking the Preview tile \(4\)**; first, you need to save your changes to enable the Preview tile
-
-![Permissions Review - Target All Active option](../.gitbook/assets/enable-permissions-review_target_active.png)
-
-To learn more about **active and inactive content**, visit [this article](../common-tasks/inactive-content.md).
-
-{% hint style="info" %}
-**Hint!**  
-You can find resources with the enabled external sharing setting on the Sites overview screen. In the Sharing Settings column, they will have one of the following values: **Anyone**, **New and existing guests**, or **Existing guests only**.
-{% endhint %}
-
-Once your changes are saved, you can click the **Preview tile**, which opens the **Permissions Review - Preview** report showing detailed information about resources that will be included in the permissions review. On the report, you can:
-
-* **click the tiles \(1\)** to show only a certain site type; the tiles show the number of sites included in the permission review, grouped by type
-* **view Permissions review information**, such as due date, number of e-mail recipients, and the number of orphaned sites \(sites that have no owners or have owners that are blocked or deleted\) 
-* **click the Show link \(2\) that activates the** Orphaned Sites view \(3\)
-* **view all site owners that will receive a permissions review e-mail**; for each Microsoft Team, Microsoft 365 Group, site, and OneDrive included in the permissions review 
-* **change owners** by **selecting a row \(4\)** and clicking the **Change owners action \(5\)** available in the side panel
-
-![Permissions Review - Preview screen](../.gitbook/assets/enable-permissions-review_permissions-review-preview%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
-
-Choose the **Specific items \(1\)** option if you want to manually select specific sites to be included in the permissions review.
-
-![Target Selection - Specific Items option](../.gitbook/assets/enable-permissions-review_target-specific.png)
-
-Save the changes to proceed with the selection. Click the **Select Now \(2\)** link. The **Specific Permissions Review** screen opens. Here, you can select sites that you want to include in the permissions review.
-
-{% hint style="warning" %}
-**Please note!**  
-Only selected sites will be included in future permissions reviews. If a new site is created, you need to add it manually to the selection on the Specific Permissions Review screen.
-{% endhint %}
-
-![Specific Permissions Review screen](../.gitbook/assets/enable-permissions-review_specific_permissions_review.png)
-
-When done with the selection, save your changes. The **Preview tile** becomes available and, once clicked, shows the **Permissions Review - Preview** report described above.
-
-Now that everything is defined, the permissions review will start automatically. To learn all about the automated permissions review in SysKit Point, visit the [following article](../common-tasks/permissions-review.md).
+Now that everything is defined, the permissions review will start automatically. To learn all about the Automated Permissions Review in SysKit Point, visit the [following article](../common-tasks/permissions-review.md).
 
