@@ -110,5 +110,29 @@ You can always edit alerts on Overview screens where you created them - both ten
 
 ## Accessing alert reports
 
+When you login into SysKit Point as Point admin, you will see tile **Alerts** in the lower part of the screen.
+
+![Welcome Home &#x2013; Alerts tile](../.gitbook/assets/configure-alerts_welcome-home-alerts-tile.png)
+
+If you click on the tile, the **Alerts Overview** report will open. Here you can see all alerts that are created and currently active.
+
+{% hint style="info" %}
+**Hint!** You can also access the **Alerts Overview** screen from the **persona icon** in the upper right corner of every screen in the application.
+{% endhint %}
+
+![Persona dropdown &#x2013; Alerts Overview link ](../.gitbook/assets/configure-alerts_persona-dropdown-alerts-overview-link.png)
+
+On the **Alerts Overview** screen you can:
+
+* switch the view between **alert and scope \(1\)** 
+* select additional columns in **column chooser \(2\)** 
+* find two actions - **Disable Alert** and **Edit Alert \(3\)** when you select one row 
+
+{% hint style="success" %}
+**Hint!** Disable alert action allows multiple row selections.
+{% endhint %}
+
+
+
 
 
