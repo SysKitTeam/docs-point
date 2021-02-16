@@ -128,11 +128,40 @@ On the **Alerts Overview** screen you can:
 * select additional columns in **column chooser \(2\)** 
 * find two actions - **Disable Alert** and **Edit Alert \(3\)** when you select one row 
 
-{% hint style="success" %}
-**Hint!** Disable alert action allows multiple row selections.
+![Alerts Overview screen](../.gitbook/assets/configure-alerts_alerts-overview-screen.png)
+
+{% hint style="info" %}
+**Hint!** **Disable alert** action allows multiple row selections.
 {% endhint %}
 
+When you haven't selected anything on the screen, in the side panel, there is an action **Add Alert \(2\)**. With this, you can define tenant wide alerts for sites.  
 
+Here is also a link to the **Alerts History \(1\)** screen which shows all triggered alerts in your environment.
 
+![Alerts Overview screen &#x2013; no row selection ](../.gitbook/assets/configure-alerts_alerts-overview-screen-no-row-selection.png)
 
+On the **Alerts History** screen you can:
+
+* select one or multiple rows and **mark alerts as resolved and write a comment \(1\)** 
+* open **details screen for a single alert** **\(2\)** 
+
+![Alerts History screen](../.gitbook/assets/configure-alerts_alerts-history-screen.png)
+
+**Alert Details** screen allows you to see additional information about the alert and here you can:
+
+* **mark alert as resolved \(1\)** 
+* **edit settings for the alert \(2\)** 
+* **expand the More Details \(3\)** section - here are all audit logs for this alert 
+* **export** both sections - **triggered alerts and alert audit details \(4\)** 
+
+![Alert Details screen](../.gitbook/assets/configure-alerts_alert-detials-screen.png)
+
+{% hint style="info" %}
+**Hint!** When you open the **Notifications dropdown** from the upper right menu on every screen within the application, you can: 
+
+* click on the **View Details link \(1\)** to open the **Alert Details** screen for a specific alert 
+* click on **View All Alerts link \(2\)** to open the **Alerts History** screen 
+{% endhint %}
+
+![Notifications dropdown ](../.gitbook/assets/configure-alerts_notifications-dropdown.png)
 
