@@ -48,6 +48,8 @@ To use Restore User Action you have to be located on the user overview screen wi
 
 ![User overview screen - deleted users view, Restore User action](../.gitbook/assets/2%20%284%29.png)
 
+![Restore User Action popup screen](../.gitbook/assets/delete-and-restore-users4.png)
+
 {% hint style="info" %}
 **Please note** – When you delete a user in SysKit Point you have a period of 30 days to restore it. When that period passes the user will be permanently deleted.
 {% endhint %}
