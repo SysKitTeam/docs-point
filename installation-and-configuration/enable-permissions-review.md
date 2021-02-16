@@ -145,7 +145,7 @@ Let's edit the existing predefined policy. After clicking the **Edit Policy link
 
 Depending on your selection of what should be reviewed, the **descriptions \(6\)** on the right side of the dialog will change. Click **Save \(7\)** when you are done editing the policy.
 
-You can also **create a new review policy by clicking the Create Policy action \(1\)** in the right side panel. The **New Permissions Review Policy dialog \(2\)** opens, giving you the possibility to define review policy options as described when editing.
+You can also **create a new review policy by clicking the Create Policy action \(1\)** in the right-side panel. The **New Permissions Review Policy dialog \(2\)** opens, giving you the possibility to define review policy options as described when editing.
 
 ![Automated Permissions Review Setup - New Policy](../.gitbook/assets/enable-permissions-review_new-policy.png)
 
