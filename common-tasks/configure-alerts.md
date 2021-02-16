@@ -18,7 +18,7 @@ You can configure alerts on a **global level** of your tenant or individually fo
 
 ## Tenant wide alerts
 
-These tenant wide alerts can be set on Overview screens - Sites, Microsoft Teams & Groups, Users.
+These tenant wide alerts can be configured on Overview screens.
 
 {% hint style="warning" %}
 **Please note!** Tenant wide alerts on the **Sites Overview** screen and **Microsoft Teams & Groups Overview** screen are the same because they are focused on sites.
@@ -73,6 +73,42 @@ In total, there can be three sections in defining an alert:
 * **Notifications \(1\)** 
 * **Filters \(2\)** 
 * **Event Type \(3\)** 
+
+First, you must **define recipients** - choose between SysKit Point Admins and/or custom recipients. 
+
+Notification limits that are sending daily can be set from the dropdown menu. 
+
+![Configure Alerts dialog - sections](../.gitbook/assets/configure-alerts_configure-alerts-dialog-sections.png)
+
+In the **Filters** section, you can define which **users** and **IP ranges** will trigger the alert. 
+
+There are many combinations for you to set up. You can set the alert only for external users or some specific one. 
+
+![Configure Alerts dialog &#x2013; Filters section](../.gitbook/assets/configure-alerts_configure-alerts-dialog-filters-section.png)
+
+For some alerts, you can even choose the users on which the events were performed on. 
+
+If there are more events related to the alert, the **Event Type** section will also be present. 
+
+You can turn off certain events if you like. 
+
+![Configure Alerts dialog &#x2013; Event Type section](../.gitbook/assets/configure-alerts_configure-alerts-dialog-event-type-section.png)
+
+When the alert is created, and later event is performed and collected by audit logs, an e-mail will be sent to recipients that you defined while configuring the alert. 
+
+In the picture below is the example of an e-mail. You can access the alert details screen by clicking on the **View Alerts Details** link. 
+
+![Alert E-mail](../.gitbook/assets/configure-alerts_alert-email.png)
+
+## Editing alerts
+
+**Edit Alert** action is available on two screens - **Alerts Overview** and **Alert Details**.
+
+![Alerts Overview &#x2013; Edit Alert action dialog](../.gitbook/assets/configure-alerts_alerts-overview-edit-alert-action-dialog.png)
+
+You can always edit alerts on Overview screens where you created them - both tenant wide and specific site/user alert.
+
+## Accessing alert reports
 
 
 
