@@ -1,166 +1,247 @@
 ---
-description: This article describes how to handle alerts in SysKit Point.
+description: This article describes how to enable and customize alerts in SysKit Point.
 ---
 
 # Configure Alerts
 
 **Alerts** feature in SysKit Point **allows you to track many events** that are collected within **Microsoft 365 audit logs**.  
 
-**SysKit Point Admins** and **SysKit Point Collaborators** \(site owners and full control users\) can configure alerts. Point Admins can manage all created alerts regardless of who created them. 
+**SysKit Point Admins** and **SysKit Point Collaborators** \(site admins, Microsoft Teams and Microsoft 365 Group owners, and full control users\) can configure alerts. Point Admins can manage all created alerts regardless of who created them. 
 
-You can enable alerts on the following screens:
+You can **enable alerts on the following screens**:
 
-* **Sites Overview** 
-* **Microsoft Teams & Groups Overview** 
-* **Users Overview** 
+* **Sites overview screen** 
+* **Microsoft Teams & Groups overview screen** 
+* **Users overview screen** 
 
-You can configure alerts on a **global level** of your tenant or individually for a **specific site or user**.
+You can **enable alerts on the following scopes and objects**:
+* **tenant-wide** - to monitor events regardless of which site they come from or who caused them
+* **specific SharePoint site** - to monitor events that occurred on the selected site; additionally, when exploring site content, you can define alerts on the following objects:
+    * **subsite**
+    * **document library**
+    * **folder**
+    * **document**
+* **specific user** - to monitor events caused by a specific user
+## Alert Types and Categories
 
-## Tenant wide alerts
+### Tenant Wide Alerts
 
-These tenant wide alerts can be configured on Overview screens.
+You can enable and configure tenant wide alerts on the following overview screens:
+ * **Sites**
+ * **Microsoft Teams & Groups**
+ * **Users**
+
+ The **Configure Tenant Wide Alerts action (1)** is available in the right-side panel on all of the listed screens.
+
+ ![Sites - Configure Tenant Wide Alerts action](../.gitbook/assets/configure-alerts_configure-tenant-wide-alerts.png)
 
 {% hint style="warning" %}
-**Please note!** Tenant wide alerts on the **Sites Overview** screen and **Microsoft Teams & Groups Overview** screen are the same because they are focused on sites.
+**Please note!** 
+Tenant-wide alerts available on the **Sites overview screen** and **Microsoft Teams & Groups overview screen** are identical because they monitor the same SharePoint events; therefore, changes on one screen will also be visible on the other.
 {% endhint %}
 
-For **sites**, there are four alert categories:
+The following **tenant wide alert categories and alerts are available** for Microsoft Teams, Microsoft 365 Groups, OneDrive, and sites:
+| Alert Category | Alerts | Overview screen |
+| :--- | :--- |
+| External Collaboration | Shared File or Folder Externally | Sites, Microsoft Teams & Groups |
+| Sharing Activities | Shared File or Folder, Shared With Everyone | Sites, Microsoft Teams & Groups |
+| Site Administration Activities | Site Administrators Changed, Changed Sharing Policy, Created Site Collection, Deleted Site, Renamed Site | Sites, Microsoft Teams & Groups |
+| Microsoft Teams Activities | Created Team, Deleted Team | Sites, Microsoft Teams & Groups |
+| User Activities | User Logged in, User Login Failed | Users |
+| User & Role Administration Activities | Added User, Deleted User, Added User to Role, Removed User from Role | Users |
 
-* **External Collaboration** 
-* **Sharing Activities** 
-* **Site Administration Activities** 
-* **Microsoft Teams Activities** 
+### Site-Specific Alerts
 
-For **users**, there are two alert categories:
+You can enable site-specific alerts from the following screens:
+* **Sites overview screen** by selecting a site
+* **Microsoft Teams & Groups overview screen** by selecting a Microsoft Team or a Microsoft 365 Group 
+* **Site details screen** - as mentioned, you can configure alerts for specific SharePoint objects:
+    * **subsite**
+    * **document library**
+    * **folder**
+    * **document**
+* **Microsoft Teams and Microsoft 365 Group details screen**
 
-* **User Activities** 
-* **User & Role Administration Activities** 
+The **Configure Alerts action (1)** is available in the right-side panel.
 
-## Specific alerts for site or user
+ ![Sites - Configure Alerts action](../.gitbook/assets/configure-alerts_configure-alerts.png)
 
-Specific alerts for the site or user can also be created. On Overview screens, select one site/user and click on **Configure Alert** action in the side panel. 
+The following table shows **availability of alerts per scope**:
 
-For **sites**, there can be a maximum of seven alert categories to choose from, depending on the resource that you selected. These categories are:
+| Alert Category | Alerts | Resource / Scope |
+| External Collaboration | Shared File or Folder Externally | Microsoft Teams, Microsoft 365 Groups, OneDrive, sites |
+| Sharing Activities | Shared File or Folder, Shared With Everyone | Microsoft Teams, Microsoft 365 Groups, OneDrive, sites |
+| Site Administration Activities | Site Administrators Changed, Added User or Group to SharePoint Group, Changed Sharing Policy, Deleted Site, Renamed Site, Created SharePoint Group, Deleted SharePoint Group, Updated SharePoint Group | Microsoft Teams, Microsoft 365 Groups, OneDrive, sites |
+| File & Folder Activities | Accessed File, Checked In File, Checked Out File, Copied File, Detected Malware in File, Downloaded File, Moved File, Uploaded File, Created Folder, Changed File or Folder| Microsoft Teams, Microsoft 365 Groups, OneDrive, sites |
+| SharePoint List Activities | Created List, Deleted List | Microsoft Teams, Microsoft 365 Groups, OneDrive, sites |
+| Microsoft Teams & Groups Membership Changes | Added Member, Removed Member | Microsoft Teams, Microsoft 365 Groups |
 
-* **External Collaboration** 
-* **Sharing Activities** 
-* **Site Administration Activities** 
-* **File & Folder Activities** 
-* **SharePoint List Activities** 
-* **Microsoft Teams & Groups Membership Changes** 
-* **Microsoft Teams Activities** 
+### User-Specific Alerts
 
-For **users**, there is only one alert category **User Activities** with two alerts - **User Logged in**, **User Login Failed**.
+User-specific alerts can be enabled on the following screens:
+* **Users overview screen** by selecting a user
+* **User details screen**
 
-## Enabling alerts
+The **Configure Alerts action (1)** is available in the right-side panel.
 
-In the side panel of the Sites Overview screen, you will notice the link **Configure Tenant Wide Alerts \(1\)**.
+ ![Users - Configure Alerts action](../.gitbook/assets/configure-alerts_configure-user-alerts.png)
 
-![Sites Overview &#x2013; Configure Tenant Wide Alerts action](../.gitbook/assets/configure-alerts_sites-overview-configure-tenant-wide-alerts-action.png)
+The following **alert categories and alerts are available for a specific user**:
+| Alert Category | Alerts |
+| User Activities | User Logged in, User Login Failed | 
 
-A dialog screen will open when you click on it.  
+## Enabling and Customizing Alerts
 
-You will see few alert categories on the left side.  
+{% hint style="warning" %}
+**Please note!** 
+The following section explains how to enable and customize an alert on a specific site. 
+The same principles from this example also apply when dealing with alerts for other types of resources - Microsoft Teams, Microsoft 365 Groups, OneDrive, users, or SharePoint objects such as document libraries or folders.
+{% endhint %}
 
-To start editing one alert, switch the state of **toggle button next to the title \(1\)**.  
+To enable alerts for a specific site:
+* **navigate to the Sites overview screen**
+* **select a site (1)**
+* **click the **Configure Alerts \(2\)** link
 
-When you have an active alert already, a **green notification \(2\)** will be present next to the appropriate alert category. 
+ ![Sites overview screen - Configure Alerts action](../.gitbook/assets/configure-alerts_configure-alerts.png)
 
-![Configure Alerts dialog](../.gitbook/assets/configure-alerts_configure-alerts-dialog.png)
+The **Configure Alerts** dialog opens. Here, the following is available:
+* **alert categories (1)**
+* **alerts (2)** grouped by categories
+* **search (3)**
+* **alert state toggle (4)**
+* **alert options section (5)** - section is inactive untill the alert is enabled
 
-In total, there can be three sections in defining an alert:
+![Configure Alerts dialog](../.gitbook/assets/configure-alerts_configure-alerts.png)
 
-* **Notifications \(1\)** 
-* **Filters \(2\)** 
-* **Event Type \(3\)** 
+To enable and start editing an alert, switch the **toggle next to the alert title \(4\)**.  
 
-First, you must **define recipients** - choose between SysKit Point Admins and/or custom recipients. 
+After you enable the alert, the alert options section is activated. Here you can customize alert options separated into the following tabs:
+* **Notifications (1)**
+* **Filters (2)**
+* **Event Type (3)**
 
-Notification limits that are sending daily can be set from the dropdown menu. 
+![Configure Alerts - Tabs](../.gitbook/assets/configure-alerts_configure-alerts-tabs.png)
 
-![Configure Alerts dialog - sections](../.gitbook/assets/configure-alerts_configure-alerts-dialog-sections.png)
+{% hint style="warning" %}
+**Please note!** 
+Tabs and filters are displayed depending on the selected alert. For example, the **Event Type** tab is only available on alerts that monitor multiple events.
+{% endhint %}
 
-In the **Filters** section, you can define which **users** and **IP ranges** will trigger the alert. 
+Let's examine options on each tab separately.
 
-There are many combinations for you to set up. You can set the alert only for external users or some specific one. 
+On the **Notifications** tab you can:
+* **define email notification recipients (1)** - you can select on or multiple options options:
+    * **Site Owners**
+    * **SysKit Point Administrators**
+    * **Custom Recipients** - select a user from your Azure AD
+* **define notification limits (2)**  
+    * **unlimited** - emails are sent regardless how many alerts are triggered daily
+    * **selected number** - emails are no longer sent after the alert is triggered more than selected number of times
 
-![Configure Alerts dialog &#x2013; Filters section](../.gitbook/assets/configure-alerts_configure-alerts-dialog-filters-section.png)
+![Configure Alerts - Notifications tab](../.gitbook/assets/configure-alerts_notifications-tab.png)
 
-For some alerts, you can even choose the users on which the events were performed on. 
+In the **Filters** tab, you can limit the alerts to be triggered only when:
+* **selected user(s) caused an event (1)** - the following filter options are available:
+    * **All Users** - selected by default
+    * **External Users**
+    * **Internal Users**
+    * **Any of These** - additional selection of users is required
+    * **None of These** - additional selection of users is required
+* **action was performed on selected user(s) (2)** - the following filter options are available:
+    * **All Users** - selected by default
+    * **External Users**
+    * **Internal Users**
+    * **Any of These** - additional selection of users is required
+    * **None of These** - additional selection of users is required
+* **event has come from the selected IP or IP range (3)** - the following filter options are available:
+    * **Any IP Range** - selected by default
+    * **Like Any of** - additional input of IPs / IP ranges is required
+    * **Equals None of** - additional input of IPs / IP ranges is required
 
-If there are more events related to the alert, the **Event Type** section will also be present. 
+![Configure Alerts - Filters tab](../.gitbook/assets/configure-alerts_filters-tab.png)
 
-You can turn off certain events if you like. 
+In the **Events** tab, you can choose events for which SysKit Point will raise an alert. By default, all events are selected.
+Click the checkbox to ignore the event.
 
-![Configure Alerts dialog &#x2013; Event Type section](../.gitbook/assets/configure-alerts_configure-alerts-dialog-event-type-section.png)
+![Configure Alerts - Events tab](../.gitbook/assets/configure-alerts_events-tab.png)
 
-When the alert is created, and later event is performed and collected by audit logs, an **e-mail** will be sent to recipients that you defined while configuring the alert. 
+## Alert E-mail
 
-In the picture below is the example of an e-mail. You can access the alert details screen by clicking on the **View Alerts Details** link. 
+When SysKit Point collects audit logs, if there is an event you decided to monitor by enabling an alert, an **e-mail** is sent to defined recipients. 
+
+In the picture below is an example of such an e-mail. Click the **View Alerts Details** link to access the Alert details screen in SysKit Point. 
 
 ![Alert E-mail](../.gitbook/assets/configure-alerts_alert-email.png)
 
-## Editing alerts
+## Editing Alerts
 
-**Edit Alert** action is available on two screens - **Alerts Overview** and **Alert Details**.
+The **Edit Alert** action is available on two screens - **Alerts overview screen** and **Alert Details**.
 
-![Alerts Overview &#x2013; Edit Alert action dialog](../.gitbook/assets/configure-alerts_alerts-overview-edit-alert-action-dialog.png)
+![Edit Alert dialog](../.gitbook/assets/configure-alerts_alerts-overview-edit-alert-action-dialog.png)
 
-You can always edit alerts on Overview screens where you created them - both tenant wide and specific site/user alert.
 
-## Accessing alert reports
-
-When you login into SysKit Point as Point admin, you will see tile **Alerts** in the lower part of the screen.
-
-![Welcome Home &#x2013; Alerts tile](../.gitbook/assets/configure-alerts_welcome-home-alerts-tile.png)
-
-If you click on the tile, the **Alerts Overview** report will open. Here you can see all alerts that are created and currently active.
-
-{% hint style="info" %}
-**Hint!** You can also access the **Alerts Overview** screen from the **persona icon** in the upper right corner of every screen in the application.
+{% hint style="success" %}
+**Please note!** 
+You can edit all alerts on overview screens where you initially enabled them - both tenant-wide and site- or user-specific alerts.
 {% endhint %}
 
-![Persona dropdown &#x2013; Alerts Overview link ](../.gitbook/assets/configure-alerts_persona-dropdown-alerts-overview-link.png)
+## Alert Reports
 
-On the **Alerts Overview** screen you can:
+When you login into SysKit Point as Point admin, you will see the **Alerts** tile in the lower part of the Home screen.
+
+![Home screen - Alerts tile](../.gitbook/assets/configure-alerts_welcome-home-alerts-tile.png)
+
+Click the tile to open the **Alerts** report. Here you can see all alerts that are currently enabled.
+
+{% hint style="info" %}
+**Hint!** 
+You can also access the **Alerts** screen from the **user profile menu** in the upper right corner.
+{% endhint %}
+
+![Alerts report link](../.gitbook/assets/configure-alerts_persona-dropdown-alerts-overview-link.png)
+
+On the **Alerts** overview screen you can:
 
 * switch the view between **alert and scope \(1\)** 
-* select additional columns in **column chooser \(2\)** 
-* find two actions - **Disable Alert** and **Edit Alert \(3\)** when you select one row 
+* select additional columns in the **column chooser \(2\)** 
+* find two actions - **Disable Alert** and **Edit Alert \(3\)** when you select a single row 
 
-![Alerts Overview screen](../.gitbook/assets/configure-alerts_alerts-overview-screen.png)
+![Alerts overview screen](../.gitbook/assets/configure-alerts_alerts-overview-screen.png)
 
 {% hint style="info" %}
-**Hint!** **Disable alert** action allows multiple row selections.
+**Hint!** 
+**Disable alert** action allows selection of multiple rows.
 {% endhint %}
 
-When you haven't selected anything on the screen, in the side panel, there is an action **Add Alert \(2\)**. With this, you can define tenant wide alerts for sites.  
+When you haven't selected anything on the screen, there is an **Add Alert \(2\)** action visible in the side panel. With this, you can define tenant-wide alerts for sites.  
 
-Here is also a link to the **Alerts History \(1\)** screen which shows all triggered alerts in your environment.
+Here is also a link to the **Alerts History \(1\)** screen, which shows all triggered alerts in your environment.
 
 ![Alerts Overview screen &#x2013; no row selection ](../.gitbook/assets/configure-alerts_alerts-overview-screen-no-row-selection.png)
 
-On the **Alerts History** screen you can:
+On the **Alerts History** screen, you can:
 
 * select one or multiple rows and **mark alerts as resolved and write a comment \(1\)** 
 * open **details screen for a single alert** **\(2\)** 
 
 ![Alerts History screen](../.gitbook/assets/configure-alerts_alerts-history-screen.png)
 
-**Alert Details** screen allows you to see additional information about the alert and here you can:
+**Alert Details** screen allows you to see additional information about the alert. Here you can:
 
 * **mark alert as resolved \(1\)** 
 * **edit settings for the alert \(2\)** 
-* **expand the More Details \(3\)** section - here are all audit logs for this alert 
+* **expand the More Details \(3\)** section - here, all audit logs related to this alert are listed
 * **export** both sections - **triggered alerts and alert audit details \(4\)** 
 
 ![Alert Details screen](../.gitbook/assets/configure-alerts_alert-detials-screen.png)
 
 {% hint style="info" %}
-**Hint!** When you open the **Notifications dropdown** from the upper right menu on every screen within the application, you can: 
+**Hint!** 
+When you open the **Notifications dropdown** from the user profile menu, you can: 
 
-* click on the **View Details link \(1\)** to open the **Alert Details** screen for a specific alert 
-* click on **View All Alerts link \(2\)** to open the **Alerts History** screen 
+* click the **View Details link \(1\)** to open the **Alert Details** screen for a specific alert 
+* click the **View All Alerts link \(2\)** to open the **Alerts History** screen 
 {% endhint %}
 
 ![Notifications dropdown ](../.gitbook/assets/configure-alerts_notifications-dropdown.png)
