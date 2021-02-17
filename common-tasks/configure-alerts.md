@@ -94,7 +94,7 @@ You can turn off certain events if you like.
 
 ![Configure Alerts dialog &#x2013; Event Type section](../.gitbook/assets/configure-alerts_configure-alerts-dialog-event-type-section.png)
 
-When the alert is created, and later event is performed and collected by audit logs, an e-mail will be sent to recipients that you defined while configuring the alert. 
+When the alert is created, and later event is performed and collected by audit logs, an **e-mail** will be sent to recipients that you defined while configuring the alert. 
 
 In the picture below is the example of an e-mail. You can access the alert details screen by clicking on the **View Alerts Details** link. 
 

@@ -39,7 +39,7 @@ To **allow inbound traffic** for the **Network Security Group** associated with 
 
 ![](../../.gitbook/assets/azure-vm_networking_01%20%281%29%20%282%29%20%282%29%20%283%29%20%284%29%20%284%29.png)
 
-![Azure - Adding inbound port rule](../../.gitbook/assets/azure-vm_networking_02%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
+![Azure - Adding inbound port rule](../../.gitbook/assets/azure-vm_networking_02%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
 
 ### Configure a DNS Name
 

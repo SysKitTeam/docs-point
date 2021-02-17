@@ -22,14 +22,14 @@ The Delete and Restore User actions can be used when:
 * have the **User Admin** role assigned and specified as a manager to the targeted user in **Azure Active Directory**
 {% endhint %}
 
-### Running the Delete User Action
+## Running the Delete User Action
 
 To use the **Delete User action**, follow these steps:
 
 * navigate to the **Users** overview screen
-* **select the users you wish to delete (1)**
-* **click the Delete User action (2)** - the **Delete Users** window opens
-* **click the Delete User button (3)** on the **Delete Users** window to confirm the deletion
+* **select the users you wish to delete \(1\)**
+* **click the Delete User action \(2\)** - the **Delete Users** window opens
+* **click the Delete User button \(3\)** on the **Delete Users** window to confirm the deletion
 
 {% hint style="warning" %}
 **Please note** – you can only delete users that exist in the **Azure Active Directory**. Some external users in your tenant don’t appear in **Azure Active Directory** as they only have access to selected documents. To remove such users, use the **Remove Access** action on the [**User Access Report**](https://docs.syskit.com/point/common-tasks/check-access-for-specific-user).
@@ -39,13 +39,14 @@ To use the **Delete User action**, follow these steps:
 
 ![Delete Users - Confirm action](../.gitbook/assets/1%20%284%29.png)
 
-### Running the Restore User Action
+## Running the Restore User Action
 
 To use the **Restore User action**, navigate to the **Users overview screen**, and follow these steps:
-* **select the Deleted Users view(1)**
-* **select the users you wish to restore (2)**
-* **click the Restore User action (3)** - the **Restore Users** window opens
-* **click the Restore User button (4)** to confirm the action
+
+* **select the Deleted Users view\(1\)**
+* **select the users you wish to restore \(2\)**
+* **click the Restore User action \(3\)** - the **Restore Users** window opens
+* **click the Restore User button \(4\)** to confirm the action
 
 ![User overview screen - deleted users view, Restore User action](../.gitbook/assets/2%20%284%29.png)
 
@@ -54,6 +55,4 @@ To use the **Restore User action**, navigate to the **Users overview screen**, a
 {% hint style="info" %}
 **Please note** – When you delete a user from Azure Active Directory, you have a period of 30 days to restore them. After 30 days, the user is permanently deleted and cannot be restored.
 {% endhint %}
-
-
 

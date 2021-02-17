@@ -71,7 +71,7 @@ The account that has activated your license **will automatically occupy one out 
 
 When located on the **Home Screen**, click the **Settings** **option \(1\)** in the upper right corner. A drop-down appears. Click the **Security** **option \(2\)**.
 
-![SysKit Point - Settings dropdown](../.gitbook/assets/rbs_home_screen_updated%20%281%29%20%282%29%20%282%29%20%284%29%20%286%29%20%286%29%20%286%29%20%286%29.png)
+![SysKit Point - Settings dropdown](../.gitbook/assets/rbs_home_screen_updated%20%281%29%20%282%29%20%282%29%20%284%29%20%286%29%20%286%29%20%286%29%20%286%29%20%285%29.png)
 
 You will be redirected to the **Settings** &gt; **Security** &gt; **Manage Access** page, where you can define who has access to **SysKit Point**.
 
@@ -96,11 +96,11 @@ When a user is assigned to the **SysKit Point Global Viewer** role, they can sig
 
 To assign a User to a **SysKit Point Global Viewer** role, **enable** the **toggle** **\(1\)** **next to it.** Click the **Assign to role** button, **type in the name of the desired user, select it \(2\)**, and click **Save \(3\)**.
 
-![Settings - Assigning SysKit Point Global Viewer role](../.gitbook/assets/rbs-clanak-4%20%281%29%20%282%29%20%282%29%20%283%29%20%284%29%20%284%29%20%284%29%20%284%29%20%282%29.png)
+![Settings - Assigning SysKit Point Global Viewer role](../.gitbook/assets/rbs-clanak-4%20%281%29%20%282%29%20%282%29%20%283%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%282%29.png)
 
 Each role on **Manage Access** has its user number label. It shows us how many users are currently occupying SysKit Point roles.
 
-![Settings - Number of users per Role](../.gitbook/assets/rbs-clanak-5%20%283%29%20%282%29%20%282%29%20%283%29%20%284%29%20%284%29%20%284%29%20%284%29%20%281%29.png)
+![Settings - Number of users per Role](../.gitbook/assets/rbs-clanak-5%20%283%29%20%282%29%20%282%29%20%283%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%281%29.png)
 
 Clicking each of those labels redirects you to the **report** of the corresponding role. The report shows **exact** users **occupying** that role. On the role reports, you can also **assign** new users to that role, **export** the report into **PDF** or **XLSX**, and **remove** users from said roles.
 
@@ -125,7 +125,7 @@ If you are using the **Enterprise** plan, you are not limited to several **Admin
 
 When located on the **Home Screen**, click the **Settings** option in the upper right corner. A drop-down appears. Click the **Security** option.
 
-![SysKit Point - Settings dropdown](../.gitbook/assets/rbs_home_screen_updated%20%281%29%20%282%29%20%282%29%20%284%29%20%286%29%20%286%29%20%286%29%20%286%29%20%286%29.png)
+![SysKit Point - Settings dropdown](../.gitbook/assets/rbs_home_screen_updated%20%281%29%20%282%29%20%282%29%20%284%29%20%286%29%20%286%29%20%286%29%20%286%29%20%285%29%20%286%29.png)
 
 You will be redirected to **SysKit Point Settings screen - Manage access**.
 
