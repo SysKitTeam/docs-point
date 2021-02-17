@@ -43,7 +43,7 @@ Tenant-wide alerts available on the **Sites overview screen** and **Microsoft Te
 
 The following **tenant wide alert categories and alerts are available** for Microsoft Teams, Microsoft 365 Groups, OneDrive, and sites:
 | Alert Category | Alerts | Overview screen |
-| :--- | :--- |
+| :--- | :--- | :--- |
 | External Collaboration | Shared File or Folder Externally | Sites, Microsoft Teams & Groups |
 | Sharing Activities | Shared File or Folder, Shared With Everyone | Sites, Microsoft Teams & Groups |
 | Site Administration Activities | Site Administrators Changed, Changed Sharing Policy, Created Site Collection, Deleted Site, Renamed Site | Sites, Microsoft Teams & Groups |
@@ -70,6 +70,7 @@ The **Configure Alerts action (1)** is available in the right-side panel.
 The following table shows **availability of alerts per scope**:
 
 | Alert Category | Alerts | Resource / Scope |
+| :--- | :--- | :--- |
 | External Collaboration | Shared File or Folder Externally | Microsoft Teams, Microsoft 365 Groups, OneDrive, sites |
 | Sharing Activities | Shared File or Folder, Shared With Everyone | Microsoft Teams, Microsoft 365 Groups, OneDrive, sites |
 | Site Administration Activities | Site Administrators Changed, Added User or Group to SharePoint Group, Changed Sharing Policy, Deleted Site, Renamed Site, Created SharePoint Group, Deleted SharePoint Group, Updated SharePoint Group | Microsoft Teams, Microsoft 365 Groups, OneDrive, sites |
@@ -89,6 +90,7 @@ The **Configure Alerts action (1)** is available in the right-side panel.
 
 The following **alert categories and alerts are available for a specific user**:
 | Alert Category | Alerts |
+| :--- | :--- |
 | User Activities | User Logged in, User Login Failed | 
 
 ## Enabling and Customizing Alerts
