@@ -4,7 +4,7 @@ description: This article describes how to enable and customize alerts in SysKit
 
 # Configure Alerts
 
-**Alerts** feature in SysKit Point **allows you to track many events** that are collected within **Microsoft 365 audit logs**.  
+**Alerts** feature in SysKit Point **allows you to monitor events** that are collected within **Microsoft 365 audit logs**.  
 
 **SysKit Point Admins** and **SysKit Point Collaborators** \(site admins, Microsoft Teams and Microsoft 365 Group owners, and full control users\) can configure alerts. Point Admins can manage all created alerts regardless of who created them. 
 
@@ -67,7 +67,7 @@ The **Configure Alerts action (1)** is available in the right-side panel.
 
  ![Sites - Configure Alerts action](../.gitbook/assets/configure-alerts_configure-alerts.png)
 
-The following table shows **availability of alerts per scope**:
+The following table shows the **availability of alerts per scope**:
 
 | Alert Category | Alerts | Resource / Scope |
 | :--- | :--- | :--- |
@@ -113,7 +113,7 @@ The **Configure Alerts** dialog opens. Here, the following is available:
 * **alerts (2)** grouped by categories
 * **search (3)**
 * **alert state toggle (4)**
-* **alert options section (5)** - section is inactive untill the alert is enabled
+* **alert options section (5)** - section is inactive until the alert is enabled
 
 ![Configure Alerts dialog](../.gitbook/assets/configure-alerts_configure-alerts.png)
 
@@ -134,13 +134,13 @@ Tabs and filters are displayed depending on the selected alert. For example, the
 Let's examine options on each tab separately.
 
 On the **Notifications** tab you can:
-* **define email notification recipients (1)** - you can select on or multiple options options:
+* **define email notification recipients (1)** - you can select one or multiple options:
     * **Site Owners**
     * **SysKit Point Administrators**
     * **Custom Recipients** - select a user from your Azure AD
 * **define notification limits (2)**  
-    * **unlimited** - emails are sent regardless how many alerts are triggered daily
-    * **selected number** - emails are no longer sent after the alert is triggered more than selected number of times
+    * **unlimited** - emails are sent regardless of how many alerts are triggered daily
+    * **selected number** - emails are no longer sent after the alert is triggered more than a selected number of times
 
 ![Configure Alerts - Notifications tab](../.gitbook/assets/configure-alerts_notifications-tab.png)
 
@@ -151,7 +151,7 @@ In the **Filters** tab, you can limit the alerts to be triggered only when:
     * **Internal Users**
     * **Any of These** - additional selection of users is required
     * **None of These** - additional selection of users is required
-* **action was performed on selected user(s) (2)** - the following filter options are available:
+* **the action was performed on the selected user(s) (2)** - the following filter options are available:
     * **All Users** - selected by default
     * **External Users**
     * **Internal Users**
