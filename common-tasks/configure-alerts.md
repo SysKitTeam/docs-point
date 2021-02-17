@@ -22,6 +22,7 @@ You can **enable alerts on the following scopes and objects**:
     * **folder**
     * **document**
 * **specific user** - to monitor events caused by a specific user
+
 ## Alert Types and Categories
 This section describes all alert types and lists all available alerts for each type.
 ### Tenant Wide Alerts
