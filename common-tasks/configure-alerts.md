@@ -32,7 +32,7 @@ You can enable and configure tenant wide alerts on the following overview screen
  * **Users**
 
  The **Configure Tenant Wide Alerts action (1)** is available in the right-side panel on all of the listed screens.
-
+ 
  ![Sites - Configure Tenant Wide Alerts action](../.gitbook/assets/configure-alerts_configure-tenant-wide-alerts.png)
 
 {% hint style="warning" %}
