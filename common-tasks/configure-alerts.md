@@ -23,7 +23,7 @@ You can **enable alerts on the following scopes and objects**:
     * **document**
 * **specific user** - to monitor events caused by a specific user
 ## Alert Types and Categories
-
+This section describes all alert types and lists all available alerts for each type.
 ### Tenant Wide Alerts
 
 You can enable and configure tenant wide alerts on the following overview screens:
@@ -32,7 +32,7 @@ You can enable and configure tenant wide alerts on the following overview screen
  * **Users**
 
  The **Configure Tenant Wide Alerts action (1)** is available in the right-side panel on all of the listed screens.
- 
+
  ![Sites - Configure Tenant Wide Alerts action](../.gitbook/assets/configure-alerts_configure-tenant-wide-alerts.png)
 
 {% hint style="warning" %}
