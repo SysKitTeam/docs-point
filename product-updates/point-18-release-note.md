@@ -11,7 +11,7 @@ While you wait for spring to come, we bring you the latest and greatest **SysKit
 [Try SysKit Point trial](https://www.syskit.com/products/point/request-a-free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
 **Product version:** 18.0.0  
-**Build number:** 1695  
+**Build number:** 1713  
 **Release date:** Feb 18, 2021
 
 ## Features
