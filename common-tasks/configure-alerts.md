@@ -224,7 +224,7 @@ On the **Alerts** overview screen, you can:
 **Disable alert** action allows selection of multiple rows.
 {% endhint %}
 
-When you haven't selected anything on the screen, there is an **Add Alert \(2\)** action visible in the side panel. With this, you can define tenant-wide alerts for sites.
+When you haven't selected anything on the screen, an **Add Alert \(2\)** action is visible in the side panel. With this, you can define tenant-wide alerts for sites.
 
 Here is also a link to the **Alerts History \(1\)** screen, which shows all triggered alerts in your environment.
 
