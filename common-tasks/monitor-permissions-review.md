@@ -11,7 +11,7 @@ description: >-
 First, make sure to check how to [enable and configure the Automated Permissions Review in SysKit Point](../installation-and-configuration/enable-permissions-review.md).
 {% endhint %}
 
-**Permissions review**, in the context of the Office 365 environment, is an activity where a person responsible for an Office 365 resource - be it Communication site, Microsoft Team, Office 365 Group, or OneDrive - checks whether permissions, given to users inside \(internal\) and outside \(external\) of company, comply with the organizational rules and guidelines. The **permissions review task is usually performed by a site owner** and includes:
+**Permissions review**, in the context of the Microsoft 365 environment, is an activity where a person responsible for an Microsoft 365 resource - be it Communication site, Microsoft Team, Microsoft 365 Group, or OneDrive - checks whether permissions, given to users inside \(internal\) and outside \(external\) of company, comply with the organizational rules and guidelines. The **permissions review task is usually performed by a site owner** and includes:
 
 * **checking if all users - internal and external - have access to the right resources, be it through directly given permissions, or group memberships**
 * **identify unwanted permissions changes** by checking the audit logs 
@@ -43,7 +43,7 @@ Three workdays before the start of automated permissions review, SysKit Point Ad
 
 * **start date** of permissions review
 * **number of site owners** that will be asked to perform a permissions review
-* **the number of resources** - Microsoft Teams, Office 365 Groups, sites, and OneDrive - included in the upcoming permissions review
+* **the number of resources** - Microsoft Teams, Microsoft 365 Groups, sites, and OneDrive - included in the upcoming permissions review
 * **modify \(1\)** link
 * **Resolve Now \(2\)** button
 
@@ -110,7 +110,7 @@ Ten days after the start, the permissions review is automatically marked as comp
 * **total number of sites where the permissions review was not completed \(2\)**
 * **View Uncompleted Tasks \(3\)** button
 
-![Email - Permissions Review completed](../.gitbook/assets/monitor-permissions-review_email-after%20%282%29.png)
+![Email - Permissions Review completed](../.gitbook/assets/monitor-permissions-review_email-after%20%282%29%20%282%29%20%283%29%20%282%29%20%282%29.png)
 
 To view sites where the permissions review was not completed, click the **View Uncompleted Tasks** button. If already signed in to SysKit Point, you will be redirected to the **Permissions Review** report. Here, you can:
 

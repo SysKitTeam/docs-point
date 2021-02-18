@@ -10,7 +10,7 @@ After the Virtual Machine has been created by your **Azure team** some **additio
 
 * **Prepare a Service Account** - a **Windows account** to run the **SysKit Point Windows service**
 * **Configure Windows Firewall** - needed to allow access to the SysKit Point web application
-* **Configure Internet Options** - required to **enable logging in to Office 365** from the **Point Configuration Wizard**
+* **Configure Internet Options** - required to **enable logging in to Microsoft 365** from the **Point Configuration Wizard**
 * **Install a Compatible Browser** - needed **after** the Point setup to access the **Point web application**
 
 ## Service Account
@@ -26,7 +26,7 @@ We recommend you use one of the following options for the service account:
 
 The **only privileges** this Service account needs to have is the **Local Administrator** role on the Azure Virtual Machine. Please note:
 
-* This account is **not used** to authenticate against Office 365 and does **not need** any Office 365 roles. 
+* This account is **not used** to authenticate against Microsoft 365 and does **not need** any Microsoft 365 roles. 
 * This account is **not used** to authenticate against the Azure SQL Database and does **not need** any permissions on the SQL Server \(if using SQL authentication per our recommendations\).
 
 ## Configure Windows Firewall
@@ -45,7 +45,7 @@ To allow inbound traffic on the Azure Virtual Machine, follow these steps:
 
 ## Configure Internet Explorer Settings
 
-SysKit Point uses **modern authentication** to enable **single sign-on** with your **Office 365 account** to the Point web application. **During the SysKit Point configuration** process, a **Global administrator** will be asked to **log in** and **provide consent**. For this login experience, Point uses an integrated version of the **Internet Explorer** browser. **Additional configuration of Internet Explorer is needed** in order to be able to sign in to [**Office.com**](https://www.office.com/).
+SysKit Point uses **modern authentication** to enable **single sign-on** with your **Microsoft 365 account** to the Point web application. **During the SysKit Point configuration** process, a **Global administrator** will be asked to **log in** and **provide consent**. For this login experience, Point uses an integrated version of the **Internet Explorer** browser. **Additional configuration of Internet Explorer is needed** in order to be able to sign in to [**Office.com**](https://www.office.com/).
 
 **Enable access to Microsoft pages**
 
@@ -71,9 +71,9 @@ Microsoft’s login window uses JavaScript to render its content. For it to work
 * **Confirm** the change
 * Close **Internet Options**
 
-![](../../.gitbook/assets/additional-vm-configuration_internet-options%20%282%29%20%281%29.png)
+![](../../.gitbook/assets/additional-vm-configuration_internet-options%20%282%29%20%282%29%20%281%29%20%284%29%20%286%29%20%286%29%20%282%29%20%283%29.png)
 
-![Internet Explorer - Enabling JavaScript](../../.gitbook/assets/additional-azure-vm-configuration_security-settings%20%282%29%20%281%29.png)
+![Internet Explorer - Enabling JavaScript](../../.gitbook/assets/additional-azure-vm-configuration_security-settings%20%282%29%20%282%29%20%281%29%20%284%29%20%282%29%20%286%29.png)
 
 ## Install a Compatible Browser
 

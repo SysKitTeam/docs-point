@@ -71,7 +71,7 @@ The name of the Private Channel site consists of the **name of its Team** + the 
 
 **Click the site name to open the Private Channel site details page**. Here, **you can see which users have permissions** in the private channel, **view shared files**, and **find all analytics data**, as in other types of Sites. Additionally, you can **generate multiple reports** for the Private Channel site and **perform multiple actions** - Remove Access, Edit Permissions, Delete SharePoint Group, Remove Users from Group, etc.
 
-![SysKit Point - Private Channel site details screen](../.gitbook/assets/pc-clanak-5%20%283%29%20%283%29.png)
+![SysKit Point - Private Channel site details screen](../.gitbook/assets/pc-clanak-5%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29.png)
 
 #### Microsoft Teams & Groups Screen
 
@@ -98,7 +98,7 @@ Clicking a Private Channel inside the Channels tile opens the **SysKit Point Cha
 
 #### Microsoft Teams with Private Channels Report
 
-If you want to see all the information about **Private channels** in your **Office 365 environment**, **SysKit Point** has a solution for you in the form of the **Microsoft Teams with Private Channels report**. Here's how you can generate it.
+If you want to see all the information about **Private channels** in your **Microsoft 365 environment**, **SysKit Point** has a solution for you in the form of the **Microsoft Teams with Private Channels report**. Here's how you can generate it.
 
 From the Home screen, click the **Reports tile**. Report Center opens. Here, **click the Filter in the left corner** **\(1\)**, **select the Microsoft Teams & Groups option \(2\)**, and find the **Microsoft Teams with Private Channels report \(3\)**.
 

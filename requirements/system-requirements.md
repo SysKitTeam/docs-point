@@ -10,7 +10,7 @@ No matter where you want to deploy SysKit Point - **Cloud** or **on-premises** -
 
 {% hint style="warning" %}
 **Please note!**  
-**Requirements highly depend on the Office 365 activity, the number of users, and the amount of data in your environment**. The larger the environment, the more resources will be required to run SysKit Point smoothly.
+**Requirements highly depend on the Microsoft 365 activity, the number of users, and the amount of data in your environment**. The larger the environment, the more resources will be required to run SysKit Point smoothly.
 {% endhint %}
 
 ## Cloud

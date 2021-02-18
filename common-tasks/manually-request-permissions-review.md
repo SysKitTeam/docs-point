@@ -6,7 +6,7 @@ description: >-
 
 # Manually Request Permissions Review in SysKit Point
 
-**Permissions review**, in the context of the Office 365 environment, is an activity where a person responsible for an Office 365 resource - be it Communication site, Microsoft Team, Office 365 Group, or OneDrive - checks whether permissions, given to users inside \(internal\) and outside \(external\) of company, comply with the organizational rules and guidelines.
+**Permissions review**, in the context of the Microsoft 365 environment, is an activity where a person responsible for an Microsoft 365 resource - be it Communication site, Microsoft Team, Microsoft 365 Group, or OneDrive - checks whether permissions, given to users inside \(internal\) and outside \(external\) of company, comply with the organizational rules and guidelines.
 
 While the **Automated Permissions Review** was introduced in SysKit Point 14, SysKit Point 15 brings the **Manually Requested Permissions Review** to the table.
 
@@ -52,7 +52,7 @@ Request Permissions Review dialog will appear.
 
 After confirming the request, you will be redirected to the Permissions Review overview screen, where you can:
 
-* **Select a site, Office 365 Group, or Microsoft Team \(1\)**; you can also select multiple resources at once
+* **Select a site, Microsoft 365 Group, or Microsoft Team \(1\)**; you can also select multiple resources at once
 * **Review the resource \(2\)** - only available for owners and administrators when a single resource is selected
 * **View the Permissions Review Details \(3\)** 
 

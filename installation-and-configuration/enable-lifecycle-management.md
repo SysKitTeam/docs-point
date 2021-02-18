@@ -60,7 +60,7 @@ If you want to become familiar with the look of the lifecycle management e-mail 
 
 In the **Target Selection** section, you can **define which sites to include in the Lifecycle Management**.
 
-By default, the **All Microsoft Teams, Office 365 Groups and sites \(1\)** option is selected. Additionally, you can:
+By default, the **All Microsoft Teams, Microsoft 365 Groups and sites \(1\)** option is selected. Additionally, you can:
 
 * **remove any of the initially selected resources** by clicking the **resource filter \(2\)**
 * **preview selected sites based on your configuration by clicking the Preview tile \(3\)**; first, you need to save your changes to enable the Preview tile
@@ -75,7 +75,7 @@ Once your changes are saved, you can click the **Preview tile**, which opens the
 
 * **click the tiles \(1\)** to show only a certain site type; the tiles show the number of sites included in the lifecycle management automation, grouped by type
 * **click the Show link \(2\) that activates the** Orphaned Sites view \(3\)
-* **view all site owners that will receive a lifecycle management e-mail**; for each Microsoft Team, Office 365 Group, site included in the lifecycle management automation.
+* **view all site owners that will receive a lifecycle management e-mail**; for each Microsoft Team, Microsoft 365 Group, site included in the lifecycle management automation.
 * **change admins** by **selecting a row \(4\)** and clicking the **Change Admins action \(5\)** available in the side panel
 
 ![SysKit Point - Lifecycle Management Preview report](../.gitbook/assets/5%20%282%29.png)

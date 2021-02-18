@@ -44,7 +44,7 @@ In case a dedicated Azure SQL database is prepared for SysKit Point, choose the 
 
 Click **Next\(3\)** to proceed.
 
-![SysKit Point Configuration - Database](../../.gitbook/assets/install-syskit-point-on-premises_database-step%20%283%29.png)
+![SysKit Point Configuration - Database](../../.gitbook/assets/install-syskit-point-on-premises_database-step%20%283%29%20%284%29%20%283%29.png)
 
 ### Database Configuration Step
 
@@ -81,23 +81,23 @@ After you've entered the credentials, click the **Validate Account** button. If 
 
 Click **OK** to close the Success window, and **Next &gt;** to continue to the next step.
 
-### Connect to Office 365
+### Connect to Microsoft 365
 
-Click the **Connect to your tenant** link to connect SysKit Point to your Office 365 tenant. **You need to provide an Office 365 Global Admin account.** This account will be **used only for the initial setup**; Point **does not store any passwords** you enter here.
+Click the **Connect to your tenant** link to connect SysKit Point to your Microsoft 365 tenant. **You need to provide an Microsoft 365 Global Admin account.** This account will be **used only for the initial setup**; Point **does not store any passwords** you enter here.
 
-When you first connect to your tenant, SysKit Point will request permissions to collect data from your Office 365 environment.
+When you first connect to your tenant, SysKit Point will request permissions to collect data from your Microsoft 365 environment.
 
-![Office 365 Global Admin Consent](../../.gitbook/assets/permission_requirements_global_administrator_consent%20%283%29%20%284%29%20%281%29.png)
+![Microsoft 365 Global Admin Consent](../../.gitbook/assets/permission_requirements_global_administrator_consent%20%283%29%20%284%29%20%285%29%20%288%29%20%281%29%20%287%29.png)
 
-To continue, check the **Consent on behalf of your organization** **option \(1\)**, and click the **Accept** **button \(2\)**. A new window opens where you can choose which information would you like to collect when it comes to your Office 365 environment:
+To continue, check the **Consent on behalf of your organization** **option \(1\)**, and click the **Accept** **button \(2\)**. A new window opens where you can choose which information would you like to collect when it comes to your Microsoft 365 environment:
 
-* **Automatic Discovery** – by default, SysKit Point continuously monitors your Office 365 environment and shows you the latest data. SharePoint Online sites and Office 365 Groups data will always be monitored. This setting cannot be modified.
+* **Automatic Discovery** – by default, SysKit Point continuously monitors your Microsoft 365 environment and shows you the latest data. SharePoint Online sites and Microsoft 365 Groups data will always be monitored. This setting cannot be modified.
 * **Autodiscover OneDrive \(1\)** - by default, SysKit Point will collect information and report on the users' OneDrive activity, content, and sharing. To stop collecting OneDrive data, uncheck this option.
 * **Protect OneDrive privacy \(2\)** - When enabled, SysKit Point will only show general information about the user's OneDrive, such as used storage. SysKit Point Admins won't be able to access any OneDrive content and personal data. By default, this option is disabled.
 * **Store audit logs \(3\)** - SysKit Point will also collect all audit logs to monitor internal and external user activities and changes and store them on a hard drive. To stop storing audit logs, uncheck this option.
 * **Protect user privacy \(4\)** - When enabled, user activity data will be hidden from SysKit Point and protected from Administrator supervision. By default, this option is disabled.
 
-![OneDrive and audit logs configuration](../../.gitbook/assets/install-syskit-point-on-azure-vm_configure-od-audit%20%283%29.png)
+![OneDrive and audit logs configuration](../../.gitbook/assets/install-syskit-point-on-azure-vm_configure-od-audit%20%283%29%20%284%29%20%282%29%20%281%29%20%288%29.png)
 
 {% hint style="success" %}
 You can change these options anytime by rerunning the **SysKit Point Configuration Wizard**.
@@ -133,7 +133,7 @@ All certificate file types are supported - `cer`, `pfx`, `p12`, `crt`, and other
 
 When the configuration is completed, if everything was configured correctly, the screen will look like this:
 
-![SysKit Point Configuration - Finish](../../.gitbook/assets/install-syskit-point-on-azure-vm_finish-step%20%281%29%20%281%29.png)
+![SysKit Point Configuration - Finish](../../.gitbook/assets/install-syskit-point-on-azure-vm_finish-step%20%281%29%20%288%29.png)
 
 ## Get to Know SysKit Point
 

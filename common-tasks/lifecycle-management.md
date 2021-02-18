@@ -6,7 +6,7 @@ description: >-
 
 # Resolve Lifecycle Management Tasks in SysKit Point
 
-All content and resources in Office 365 have a lifecycle which usually consists of the following three stages:
+All content and resources in Microsoft 365 have a lifecycle which usually consists of the following three stages:
 
 * **Beginning** – for example, an admin creates a new resource - Microsoft Team.
 * **Middle** – users collaborate and use said resource, chat, create files, and take advantage of all means they have on disposal to collaborate and achieve their goals successfully.
@@ -24,7 +24,7 @@ After a SysKit Point Admin [enables and configures Lifecycle Management Automati
 
 ## Inactive Resource Email
 
-Once SysKit Point recognizes that a resource – Microsoft Team, Office 365 Group, or a site – is inactive, an email is sent to the owner or admin of said resource.
+Once SysKit Point recognizes that a resource – Microsoft Team, Microsoft 365 Group, or a site – is inactive, an email is sent to the owner or admin of said resource.
 
 The email provides the following:
 

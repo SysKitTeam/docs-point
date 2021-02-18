@@ -25,14 +25,14 @@ Along with autumn comes a new version of SysKit Point packed with new features a
 
     [To learn more about the new User Access report, navigate to the following article.](../common-tasks/check-access-for-specific-user.md)
 * **SysKit Point gets Dashboard!** Here you can:
-  * **see what was happening in your Office 365 environment** in the last 30 days at a glance  
+  * **see what was happening in your Microsoft 365 environment** in the last 30 days at a glance  
   * **find summary data on your resources**, **internal and external users**, **sharing links**, and **used storage** - **all numbers are drillable**, taking you to the related reports which will show more details 
   * **detect potential issues**, for example, if your environment has inactive or orphaned resources
 
     [Find more information about the new Dashboard here.](https://docs.syskit.com/point/how-to/dashboard-overview)
 * **New SharePoint Groups report is available!** Use the report to view all SharePoint Groups and their permissions on your sites, remove group members, or drill to the Group Access report for selected SharePoint Groups.
 * **SysKit Point supports Hub sites!** You can find hub-related information on the Sites Overview screen, in the **Hub Title** and **Is Hub Site** columns, and determine if a site is a part of a Hub.
-* **Block and Unblock User Sign-in actions are available!** With these actions, you can block or allow the user to access Office 365 and other Microsoft services.
+* **Block and Unblock User Sign-in actions are available!** With these actions, you can block or allow the user to access Microsoft 365 and other Microsoft services.
 * **New views are available on the Sites Overview screen!** The **External Sharing view** shows sites where external sharing is different from Only people in your organization. **Anonymous Sharing view** shows sites where external sharing is set to Anyone.
 * **Remove from Security Group action is available!** Now, you can remove a user from the selected security group on reports like Permissions Matrix or User Access.
 * **New Storage Limit and Storage Warning Level information available** on the Sites Overview screen! Coupled with the Storage Used column, they enable you to discover sites close to reaching the storage quota limit.
@@ -40,7 +40,7 @@ Along with autumn comes a new version of SysKit Point packed with new features a
 ## Improvements & Bug Fixes
 
 * **Improved detection of password protected sharing links** in SysKit Point. Password protected anonymous links are now correctly displayed on Permissions Matrix, Sharing Links, User Access, and Anonymous Links reports.
-* **The Orphaned Groups report was improved.** It now shows all orphaned resources \(Microsoft Teams, Office 365 groups, and SharePoint sites\), resources with no owners, and provides you with the Change Admins action for classic sites. Since it's no longer limited to groups, it was renamed Orphaned Resources.
+* **The Orphaned Groups report was improved.** It now shows all orphaned resources \(Microsoft Teams, Microsoft 365 Groups, and SharePoint sites\), resources with no owners, and provides you with the Change Admins action for classic sites. Since it's no longer limited to groups, it was renamed Orphaned Resources.
 * **Improved the Permissions Review experience** by showing information about the currently active Permissions Review in the side panel in case a resource is selected. Additionally, when a Permissions Review is created for a single resource, the resource name is displayed in the Permissions Review title.
 * **Email customization was improved** by adding the size, dimensions, and format information and validation on all email customization forms.
 * **Improved the Edit Permissions dialogue** by adding the list of existing group members. That way, when editing group permissions, you can see all users that will be affected by the change.
@@ -56,5 +56,5 @@ Along with autumn comes a new version of SysKit Point packed with new features a
 * **Fixed a bug** where Grant Access action would not work on other reports and views except on the Permissions Matrix.
 * **Fixed an issue** where the External Users Report would not show correct information about who added the guest users.
 * **Removed the Sync option** erroneously displayed on the site details page of deleted resources.
-* **Various UX/UI improvements and minor fixes** available. With this version, **SysKit Point switches to Microsoft's new Office 365 icons**.
+* **Various UX/UI improvements and minor fixes** available. With this version, **SysKit Point switches to Microsoft's new Microsoft 365 icons**.
 

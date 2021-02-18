@@ -4,7 +4,7 @@ description: >-
   environment using SysKit Point.
 ---
 
-# Track Office 365 External Users and Their Activities
+# Track Microsoft 365 External Users and Their Activities
 
 If you want to find out everything about External users and their access to your environment, you can simply open the **SysKit Point** web application and within **Users Overview** screen choose **External Users** view.
 

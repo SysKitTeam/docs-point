@@ -11,7 +11,7 @@ description: >-
 First, make sure to check how to [enable and configure Lifecycle Management Automation in SysKit Point.](https://docs.syskit.com/point/installation-and-configuration/enable-lifecycle-management)
 {% endhint %}
 
-All **content** and **resources** in your **Office 365** Environment have a certain **lifecycle**, be it the **creation** of the **new** resource, that resource being **used** for collaboration, file sharing, chat, or when a product is retired and when the previously used resource becomes **stale**, **inactive** and **no longer needed**.
+All **content** and **resources** in your **Microsoft 365** Environment have a certain **lifecycle**, be it the **creation** of the **new** resource, that resource being **used** for collaboration, file sharing, chat, or when a product is retired and when the previously used resource becomes **stale**, **inactive** and **no longer needed**.
 
 That last moment is where **SysKit Point Lifecycle Management** comes to shine. It empowers your **Site Owners** to choose whether they want to **Keep**, **Delete,** or **Archive** their inactive resources.
 
@@ -34,7 +34,7 @@ Here, we will describe how a SysKit Point Admin can monitor the progress of ongo
 
 ## Weekly summary of inactive content
 
-Let’s say that lifecycle management automation was enabled for your Office 365 environment in SysKit Point, every Site Owner received their e-mails and are taking care of their inactive resources. A week has passed and the SysKit Point Admin receives a Weekly summary of inactive content via e-mail with the following information:
+Let’s say that lifecycle management automation was enabled for your Microsoft 365 environment in SysKit Point, every Site Owner received their e-mails and are taking care of their inactive resources. A week has passed and the SysKit Point Admin receives a Weekly summary of inactive content via e-mail with the following information:
 
 * newly detected **inactive resources** \(1\)
 * resources that **require** the SysKit Point Admins **attention** \(resources still awaiting a response or ones that might be without owners\) \(2\)

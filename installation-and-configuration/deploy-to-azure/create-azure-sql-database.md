@@ -6,7 +6,7 @@ description: >-
 
 # Create Azure SQL Database
 
-Your **Azure team** needs to create an **Azure SQL database** for storing data which SysKit Point collects from Office 365. In this article, you can find recommendations to follow when creating this resource.
+Your **Azure team** needs to create an **Azure SQL database** for storing data which SysKit Point collects from Microsoft 365. In this article, you can find recommendations to follow when creating this resource.
 
 {% hint style="success" %}
 Before continuing, make sure to [create and configure an Azure Virtual Machine](create-azure-vm.md) where SysKit Point will be installed.

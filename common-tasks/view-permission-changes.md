@@ -4,9 +4,9 @@ description: >-
   using SysKit Point.
 ---
 
-# View Permission Changes in Office 365
+# View Permission Changes in Microsoft 365
 
-If you are an Office 365 global administrator or a site owner, one of the most common tasks while doing permissions review for your sites is to check who did what, and when. For example:
+If you are an Microsoft 365 global administrator or a site owner, one of the most common tasks while doing permissions review for your sites is to check who did what, and when. For example:
 
 * Which folders or files are shared, who shared them, and when
 * Who added Team members
@@ -30,7 +30,7 @@ Site Permissions Activities report is accessible from a few different places in 
 * In **Report Center,** there is Site Permissions Activities report
 * On the **Sites overview screen**, you can select sites and choose Permissions Activities from the side panel on the right
 * On the **Microsoft Teams & Group overview screen**, you can select Groups or Teams and choose Permissions Activities from the side panel on the right
-* On the **details screen for Site/Team/Office 365 Group/OneDrive**, you can select Permissions Activities from the side panel on the right
+* On the **details screen for Site / Microsoft Team / Microsoft 365 Group / OneDrive**, you can select Permissions Activities from the side panel on the right
 
 ### **Report Center**
 
@@ -54,6 +54,6 @@ When you click the **Run Report** button, you’ll get the report data. The repo
 
 {% hint style="info" %}
 **Hint!**  
-For the Office 365 Groups and their connected sites, both SharePoint and Office 365 Group activities will be shown.
+For Microsoft 365 Groups and their connected sites, both SharePoint and Microsoft 365 Group activities will be shown.
 {% endhint %}
 

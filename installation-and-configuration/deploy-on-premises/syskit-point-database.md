@@ -6,7 +6,7 @@ description: >-
 
 # Create SQL Database
 
-SysKit Point requires a dedicated **SQL Server database** for storing data collected from Office 365.
+SysKit Point requires a dedicated **SQL Server database** for storing data collected from Microsoft 365.
 
 ## Prepare a database for SysKit Point
 

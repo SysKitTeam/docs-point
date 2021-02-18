@@ -4,7 +4,7 @@ description: This article lists all types of tasks available in SysKit Point.
 
 # SysKit Point Tasks
 
-**SysKit Point empowers collaborative Office 365 governance through different tasks** created and assigned to site owners and administrators.
+**SysKit Point empowers collaborative Microsoft 365 governance through different tasks** created and assigned to site owners and administrators.
 
 In the latest version of SysKit Point the following types of tasks are available:
 
