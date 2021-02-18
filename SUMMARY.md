@@ -64,7 +64,6 @@
   * [Run Lifecycle Management Actions in SysKit Point](common-tasks/lifecycle-management-actions.md)
   * [Schedule Reports](common-tasks/scheduled-reports.md)
   * [Configure Alerts](common-tasks/configure-alerts.md)
-  * [License Management](common-tasks/license-management.md)
 * [FAQ](faq/README.md)
   * [Report Data Limits](faq/report-data-limits.md)
   * [Migrate Audit Logs](faq/migrate-audit-logs.md)

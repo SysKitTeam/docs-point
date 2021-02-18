@@ -46,8 +46,6 @@ While you wait for spring to come, we bring you the latest and greatest **SysKit
 
   The **Remove Licenses action** is available on the **Inactive Licenses report**, enabling you to **reclaim unused licenses and minimize your license costs**.
 
-  [To learn more about the new license reports, read the following article.](../common-tasks/license-management.md)
-
 * **New user actions added – Delete and Restore User**!
 
   New actions are available on the **Users** overview screen. [To learn more about these actions and permissions needed to run them, navigate to the following article.](../common-tasks/delete-and-restore-users.md)
