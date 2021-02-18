@@ -143,7 +143,7 @@ Tabs and filters are displayed depending on the selected alert. For example, the
 
 Let's examine options on each tab separately.
 
-On the **Notifications** tab you can:
+On the **Notifications** tab, you can:
 
 * **define email notification recipients \(1\)** - you can select one or multiple options:
   * **Site Owners**
@@ -212,7 +212,7 @@ You can also access the **Alerts** screen from the **user profile menu** in the 
 
 ![Alerts report link](../.gitbook/assets/configure-alerts_persona-dropdown-alerts-overview-link.png)
 
-On the **Alerts** overview screen you can:
+On the **Alerts** overview screen, you can:
 
 * switch the view between **alert and scope \(1\)** 
 * select additional columns in the **column chooser \(2\)** 
@@ -232,7 +232,7 @@ Here is also a link to the **Alerts History \(1\)** screen, which shows all trig
 
 On the **Alerts History** screen, you can:
 
-* select one or multiple rows and **mark alerts as resolved and write a comment \(1\)** 
+* select one or multiple rows and **mark alerts as resolved, and write a comment \(1\)** 
 * open **details screen for a single alert** **\(2\)** 
 
 ![Alerts History screen](../.gitbook/assets/configure-alerts_alerts-history-screen.png)
