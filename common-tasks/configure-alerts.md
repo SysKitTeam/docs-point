@@ -41,7 +41,7 @@ You can enable and configure tenant wide alerts on the following overview screen
 ![Sites - Configure Tenant Wide Alerts action](../.gitbook/assets/configure-alerts_configure-tenant-wide-alerts.png)
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 Tenant-wide alerts available on the **Sites overview screen** and **Microsoft Teams & Groups overview screen** are identical because they monitor the same SharePoint events; therefore, changes on one screen will also be visible on the other.
 {% endhint %}
 
@@ -71,7 +71,7 @@ You can enable site-specific alerts from the following screens:
 
 The **Configure Alerts action \(1\)** is available in the right-side panel.
 
-![Sites - Configure Alerts action](../.gitbook/assets/configure-alerts_configure-alerts.png)
+![Sites - Configure Alerts action](../.gitbook/assets/configure-alerts_configure-alerts%20%282%29.png)
 
 The following table shows the **availability of alerts per scope**:
 
@@ -104,7 +104,7 @@ The following **alert categories and alerts are available for a specific user**:
 ## Enabling and Customizing Alerts
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 The following section explains how to enable and customize an alert on a specific site. The same principles from this example also apply when dealing with alerts for other types of resources - Microsoft Teams, Microsoft 365 Groups, OneDrive, users, or SharePoint objects such as document libraries or folders.
 {% endhint %}
 
@@ -124,7 +124,7 @@ The **Configure Alerts** dialog opens. Here, the following is available:
 * **alert state toggle \(4\)**
 * **alert options section \(5\)** - section is inactive until the alert is enabled
 
-![Configure Alerts dialog](../.gitbook/assets/configure-alerts_configure-alerts.png)
+![Configure Alerts dialog](../.gitbook/assets/configure-alerts_configure-alerts%20%281%29.png)
 
 To enable and start editing an alert, switch the **toggle next to the alert title \(4\)**.
 
@@ -137,7 +137,7 @@ After you enable the alert, the alert options section is activated. Here you can
 ![Configure Alerts - Tabs](../.gitbook/assets/configure-alerts_configure-alerts-tabs.png)
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 Tabs and filters are displayed depending on the selected alert. For example, the **Event Type** tab is only available on alerts that monitor multiple events.
 {% endhint %}
 
