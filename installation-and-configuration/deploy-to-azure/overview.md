@@ -36,8 +36,8 @@ Once you went through all the requirements above and prepared all the necessary 
 * Download the SysKit Point installation package to the virtual machine
   * **New customers** will receive the download link from our support team
   * **Existing customers** can find the link on our [**Customers portal**](https://my.syskit.com/)
-* \*\*\*\*[**Install SysKit Point**](https://docs.syskit.com/point/installation-and-configuration/deploy-to-azure/install-syskit-point-on-azure-vm#install-syskit-point) on the virtual machine
-* \*\*\*\*[**Run the SysKit Point Configuration Wizard**](https://docs.syskit.com/point/installation-and-configuration/deploy-to-azure/install-syskit-point-on-azure-vm#configure-syskit-point) to perform the initial setup
+* [**Install SysKit Point**](https://docs.syskit.com/point/installation-and-configuration/deploy-to-azure/install-syskit-point-on-azure-vm#install-syskit-point) on the virtual machine
+* [**Run the SysKit Point Configuration Wizard**](https://docs.syskit.com/point/installation-and-configuration/deploy-to-azure/install-syskit-point-on-azure-vm#configure-syskit-point) to perform the initial setup
 
 ## First steps with SysKit Point
 

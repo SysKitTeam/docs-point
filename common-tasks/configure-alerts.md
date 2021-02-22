@@ -112,7 +112,7 @@ To enable alerts for a specific site:
 
 * **navigate to the Sites overview screen**
 * **select a site \(1\)**
-* **click the** Configure Alerts \(2\)\*\* link
+* **click the Configure Alerts \(2\) link**
 
   ![Sites overview screen - Configure Alerts action](../.gitbook/assets/configure-alerts_configure-alerts.png)
 
