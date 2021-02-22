@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article describes the new features and improvements in SysKit Point
-  version 18.
+description: This article describes the new features and improvements in SysKit Point version 18.
 ---
 
 # SysKit Point 18
