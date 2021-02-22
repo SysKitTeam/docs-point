@@ -15,7 +15,7 @@ The Delete and Restore User actions can be used when:
 * **restoring a user** – in case someone deleted a wrong user
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 To successfully execute **Delete User** and **Restore User actions**, you need to have the [**SysKit Point Admin**](https://docs.syskit.com/point/installation-and-configuration/enable-role-based-access#syskit-point-admins) role assigned. Additionally, you must meet one of the following conditions regarding **Microsoft 365 Azure Active Directory Roles** in your **Microsoft 365 environment**:
 
 * have the **Global Admin** role assigned
@@ -33,7 +33,7 @@ To use the **Delete User action**, follow these steps:
 * **click the Delete User button \(3\)** on the **Delete Users** window to confirm the deletion
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 You can only delete users that exist in the **Azure Active Directory**. Some external users in your tenant don’t appear in **Azure Active Directory** as they only have access to selected documents. To remove such users, use the **Remove Access** action on the [**User Access Report**](https://docs.syskit.com/point/common-tasks/check-access-for-specific-user).
 {% endhint %}
 
@@ -55,7 +55,7 @@ To use the **Restore User action**, navigate to the **Users overview screen**, a
 ![Restore User Action popup screen](../.gitbook/assets/3%20%284%29%20%281%29.png)
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 When you delete a user from Azure Active Directory, you have a period of 30 days to restore them. After 30 days, the user is permanently deleted and cannot be restored.
 {% endhint %}
 

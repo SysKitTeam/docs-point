@@ -91,7 +91,7 @@ For more information about role-based access in SysKit Point, go to the [followi
 
 After you have successfully set up e-mail and enabled the SysKit Point Collaborators role, you can enable the Automated Permissions Review by clicking the **Enable Automated Permissions Review \(1\)** button available on the **Governance** &gt; **Permissions Review** screen. The **Permissions Review Setup wizard** opens, guiding you through the Automated Permissions Review configuration.
 
-![Enable Automated Permissions Review button](../.gitbook/assets/enable-permissions-review_enable-button.png)
+![Enable Automated Permissions Review button](../.gitbook/assets/enable-permissions-review_enable-button%20%281%29.png)
 
 The Permissions Review Wizard consists of several steps with reports and actions that enable Permissions Review customization. Let's examine each step in more detail.
 
