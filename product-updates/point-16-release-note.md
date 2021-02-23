@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article describes the new features and improvements in SysKit Point
-  version 16.
+description: This article describes the new features and improvements in SysKit Point version 16.
 ---
 
 # SysKit Point 16

@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article describes the new features and improvements in SysKit Point
-  version 13.
+description: This article describes the new features and improvements in SysKit Point version 13.
 ---
 
 # SysKit Point 13

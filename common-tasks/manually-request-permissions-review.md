@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article provides a full overview of the manual permissions review process
-  in SysKit Point.
+description: This article provides a full overview of the manual permissions review process in SysKit Point.
 ---
 
 # Manually Request Permissions Review in SysKit Point

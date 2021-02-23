@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article describes how to turn on auditing in the Microsoft 365 Security &
-  Compliance Center.
+description: This article describes how to turn on auditing in the Microsoft 365 Security & Compliance Center.
 ---
 
 # Turn On Auditing

@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article outlines activation and licensing most frequently asked
-  questions.
+description: This article outlines activation and licensing most frequently asked questions.
 ---
 
 # Activation FAQ

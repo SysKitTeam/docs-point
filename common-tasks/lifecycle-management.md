@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article gives site owners a complete overview of the Lifecycle Management
-  Automation process in SysKit Point.
+description: This article gives site owners a complete overview of the Lifecycle Management Automation process in SysKit Point.
 ---
 
 # Resolve Lifecycle Management Tasks in SysKit Point

@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article describes how SysKit Point enables you to track Microsoft Teams
-  activity in your tenant.
+description: This article describes how SysKit Point enables you to track Microsoft Teams activity in your tenant.
 ---
 
 # Enable Microsoft Teams Activity Tracking

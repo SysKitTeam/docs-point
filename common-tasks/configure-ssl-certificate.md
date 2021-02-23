@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article explains how to generate and export an SSL certificate for SysKit
-  Point from your internal CA.
+description: This article explains how to generate and export an SSL certificate for SysKit Point from your internal CA.
 ---
 
 # Configure SSL Certificate

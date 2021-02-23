@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article lists Azure Virtual Machine requirements that are necessary to
-  install and configure SysKit Point in an Azure environment.
+description: This article lists Azure Virtual Machine requirements that are necessary to install and configure SysKit Point in an Azure environment.
 ---
 
 # Create Azure Virtual Machine

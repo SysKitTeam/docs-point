@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article explains how to upgrade SysKit Point to the latest version
-  available.
+description: This article explains how to upgrade SysKit Point to the latest version available.
 ---
 
 # Upgrade SysKit Point

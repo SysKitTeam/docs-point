@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article is an index of content that provides guidance for installing
-  SysKit Point On-Premises.
+description: This article is an index of content that provides guidance for installing SysKit Point On-Premises.
 ---
 
 # Overview

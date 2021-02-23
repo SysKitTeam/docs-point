@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article is an index of content that provides guidance for installing
-  SysKit Point on an Azure Virtual Machine.
+description: This article is an index of content that provides guidance for installing SysKit Point on an Azure Virtual Machine.
 ---
 
 # Overview

@@ -1,7 +1,5 @@
 ---
-description: >-
-  This section describes how to customize the Audit Logs collection using SysKit
-  Point.
+description: This section describes how to customize the Audit Logs collection using SysKit Point.
 ---
 
 # Customize Audit Logs Collection

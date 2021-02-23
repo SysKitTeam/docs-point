@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article describes what additional configuration is necesary on the Azure
-  Virtual Machine before SysKit Point can be installed on it.
+description: This article describes what additional configuration is necesary on the Azure Virtual Machine before SysKit Point can be installed on it.
 ---
 
 # Additional Azure Virtual Machine Configuration

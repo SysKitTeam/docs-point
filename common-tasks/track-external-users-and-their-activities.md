@@ -1,7 +1,5 @@
 ---
-description: >-
-  This section describes how to find information about External users in your
-  environment using SysKit Point.
+description: This section describes how to find information about External users in your environment using SysKit Point.
 ---
 
 # Track Microsoft 365 External Users and Their Activities

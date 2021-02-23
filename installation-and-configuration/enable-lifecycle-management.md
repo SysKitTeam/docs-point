@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article explains how to enable and configure the Lifecycle Management
-  Automation in SysKit Point.
+description: This article explains how to enable and configure the Lifecycle Management Automation in SysKit Point.
 ---
 
 # Enable Lifecycle Management Automation

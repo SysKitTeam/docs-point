@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article describes how to audit permission changes in your environment
-  using SysKit Point.
+description: This article describes how to audit permission changes in your environment using SysKit Point.
 ---
 
 # View Permission Changes in Microsoft 365

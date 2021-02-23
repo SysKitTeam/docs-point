@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article describes what are Private channels and how to oversee them using
-  SysKit Point
+description: This article describes what are Private channels and how to oversee them using SysKit Point.
 ---
 
 # Supervise Microsoft Teams Private Channels

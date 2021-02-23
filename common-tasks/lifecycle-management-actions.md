@@ -1,5 +1,5 @@
 ---
-description: This article explains how to use Lifecycle Management Actions in SysKit Point
+description: This article explains how to use Lifecycle Management Actions in SysKit Point.
 ---
 
 # Run Lifecycle Management Actions in SysKit Point

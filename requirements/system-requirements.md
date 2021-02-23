@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article lists all requirements that are necessary to install and use
-  SysKit Point.
+description: This article lists all requirements that are necessary to install and use SysKit Point.
 ---
 
 # System Requirements

@@ -1,8 +1,5 @@
 ---
-title: Copy User Permissions
-author: Igor Mesaric
 description: This article provides information about the Copy User Permissions action.
-date: 22.11.2020.
 ---
 
 # Copy User Permissions

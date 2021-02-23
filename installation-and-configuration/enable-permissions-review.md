@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article explains how to enable and configure the Automated Permissions
-  Review in SysKit Point.
+description: This article explains how to enable and configure the Automated Permissions Review in SysKit Point.
 ---
 
 # Enable Automated Permissions Review

@@ -1,10 +1,5 @@
 ---
-title: Check Access for specific user
-author: Ivica Boskovic
-description: >-
-  This article explains how to generate the User Access report and the options
-  available once generated.
-date: 25.11.2020.
+description: This article explains how to generate the User Access report and the options available once generated.
 ---
 
 # Check Access for Specific Microsoft 365 User

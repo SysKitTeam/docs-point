@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article describes what additional configuration is necesary on the
-  Virtual Machine before SysKit Point can be installed.
+description: This article describes what additional configuration is necesary on the Virtual Machine before SysKit Point can be installed.
 ---
 
 # Additional Virtual Machine Configuration

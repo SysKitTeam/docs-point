@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article describes how to navigate SysKit Point when starting the
-  application for the first time.
+description: This article describes how to navigate SysKit Point when starting the application for the first time.
 ---
 
 # SysKit Point Quick Start Guide

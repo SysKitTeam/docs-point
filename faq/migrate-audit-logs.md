@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article explains how to migrate SysKit Security Manager v7 Audit logs to
-  SysKit Point.
+description: This article explains how to migrate SysKit Security Manager v7 Audit logs to SysKit Point.
 ---
 
 # Migrate Audit Logs

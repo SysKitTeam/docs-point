@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article describes how to test if SysKit Point web application is
-  accessible.
+description: This article describes how to test if SysKit Point web application is accessible.
 ---
 
 # Test Access to Point

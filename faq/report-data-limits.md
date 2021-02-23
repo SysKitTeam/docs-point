@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article describes thresholds and other report limits available in SysKit
-  Point.
+description: This article describes thresholds and other report limits available in SysKit Point.
 ---
 
 # Report Data Limits

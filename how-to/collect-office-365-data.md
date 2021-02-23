@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article explains options available regarding Microsoft 365 data
-  collection, also known as Sync.
+description: This article explains options available regarding Microsoft 365 data collection, also known as Sync.
 ---
 
 # Collect Microsoft 365 Data

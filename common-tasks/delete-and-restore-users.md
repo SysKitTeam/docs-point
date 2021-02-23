@@ -1,5 +1,5 @@
 ---
-description: This article provides information about Delete and Restore User actions
+description: This article provides information about Delete and Restore User actions.
 ---
 
 # Delete and Restore Users

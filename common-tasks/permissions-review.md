@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article provides a full overview of the automated permissions review
-  process in SysKit Point from a site owner's perspective.
+description: This article provides a full overview of the automated permissions review process in SysKit Point from a site owner's perspective.
 ---
 
 # Perform Permissions Review in SysKit Point

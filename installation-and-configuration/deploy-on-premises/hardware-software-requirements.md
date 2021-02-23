@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article is an explains what are the hardware and sofware requirements for
-  installing SysKit Point On-Premises.
+description: This article is an explains what are the hardware and sofware requirements for installing SysKit Point On-Premises.
 ---
 
 # Hardware and Software Requirements
