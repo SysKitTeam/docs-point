@@ -6,7 +6,7 @@ description: This article describes the new features and improvements in SysKit 
 
 Let the festivities begin; **SysKit Point 17 is here**! Although it's still November, we bring you many gifts and treats to sweeten your end of the year! The list is long, so scroll down fast!
 
-[Try SysKit Point trial](https://www.syskit.com/products/point/request-a-free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
+[Schedule a demo](https://www.syskit.com/products/point/request-a-demo/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
 **Product version:** 17.0.0  
 **Build number:** 1513  

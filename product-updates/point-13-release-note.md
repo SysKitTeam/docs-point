@@ -10,7 +10,7 @@ In this version, we introduce our brand-new **Automated Permissions Review** fea
 
 A lot of tweaks make this version of SysKit Point the best one yet, so make sure to read on and get to know them all!
 
-[Try SysKit Point trial](https://www.syskit.com/products/point/request-a-free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
+[Schedule a demo](https://www.syskit.com/products/point/request-a-demo/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
 **Product version:** 13.0.0  
 **Build number:** 722  

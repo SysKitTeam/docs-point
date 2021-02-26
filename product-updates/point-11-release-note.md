@@ -8,7 +8,7 @@ Just a month has passed since the last release, but we have been busy working on
 
 Scroll on to see what's new!
 
-[Try SysKit Point trial](https://www.syskit.com/products/point/request-a-free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
+[Schedule a demo](https://www.syskit.com/products/point/request-a-demo/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
 **Product version:** 11.0.0  
 **Build number:** 253  

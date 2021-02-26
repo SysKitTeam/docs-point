@@ -9,7 +9,7 @@ description: This article describes the new features and improvements in SysKit 
 Before the summer, it’s time to **get your Microsoft 365 tenant into shape**! To help you with that, **SysKit Point 14** comes equipped with **Lifecycle Management Automation** and a set of new actions for you to exercise - **Keep**, **Archive**, **Delete**, and **Restore**.  
 As with all SysKit Point upgrades, this one is also filled with big and small improvements, giving you the best experience ever! Read on and learn what’s new!
 
-[Try SysKit Point trial](https://www.syskit.com/products/point/request-a-free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
+[Schedule a demo](https://www.syskit.com/products/point/request-a-demo/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
 **Product version:** 14.0.0  
 **Build number:** 836  

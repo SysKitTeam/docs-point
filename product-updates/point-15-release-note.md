@@ -8,7 +8,7 @@ description: This article describes the new features and improvements in SysKit 
 
 Before you sail into the vacation, check out what we have prepared for you in the brand-new version of SysKit Point.
 
-[Try SysKit Point trial](https://www.syskit.com/products/point/request-a-free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
+[Schedule a demo](https://www.syskit.com/products/point/request-a-demo/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
 **Product version:** 15.0.0  
 **Build number:** 932  

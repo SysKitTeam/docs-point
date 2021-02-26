@@ -6,7 +6,7 @@ description: This article describes the new features and improvements in SysKit 
 
 While you wait for spring to come, we bring you the latest and greatest **SysKit Point 18**! Version 18 brings you **Alerts** to help you fight against unwanted activities in your Microsoft 365 environment; the **Permissions Review automation** has more capabilities than ever before, and **new actions and reports** are also not missing. Find them all listed below!
 
-[Try SysKit Point trial](https://www.syskit.com/products/point/request-a-free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
+[Schedule a demo](https://www.syskit.com/products/point/request-a-demo/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
 **Product version:** 18.0.1  
 **Build number:** 1732  

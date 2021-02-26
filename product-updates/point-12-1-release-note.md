@@ -6,7 +6,7 @@ description: This article describes the new features and improvements in SysKit 
 
 Although Valentine’s day is behind us, we want to share some love by adding an extremely lovable feature to the existing SysKit Point activity love triangle. Scroll down and see what’s new in the brand-new version of SysKit Point.
 
-[Try SysKit Point trial](https://www.syskit.com/products/point/request-a-free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
+[Schedule a demo](https://www.syskit.com/products/point/request-a-demo/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
 **Product version:** 12.1.0  
 **Build number:** 479  

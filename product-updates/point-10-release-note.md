@@ -6,7 +6,7 @@ description: This article describes the first version of SysKit Point.
 
 This is the first official release of SysKit Point.
 
-[Try SysKit Point trial](https://www.syskit.com/products/point/request-a-free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
+[Schedule a demo](https://www.syskit.com/products/point/request-a-demo/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
 **Product version:** 10.0.0  
 **Build number:** 199  
@@ -47,5 +47,5 @@ Contextual audit reports as you know and love them, only better! Like all things
 
 ## Future
 
-Make sure to [check our roadmap](https://feedback.syskit.com/?project=POINT) to see what is the next big thing to come. [Try SysKit Point](https://syskit.com/products/point/request-a-demo/) and feel free to [share your thoughts and ideas](https://feedback.syskit.com/ideas/new).
+Make sure to [check our roadmap](https://feedback.syskit.com/?project=POINT) to see what is the next big thing to come. [Schedule a demo](https://www.syskit.com/products/point/request-a-demo/) and feel free to [share your thoughts and ideas](https://feedback.syskit.com/ideas/new).
 
