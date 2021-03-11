@@ -4,6 +4,14 @@ description: This article is an index of content that provides guidance for inst
 
 # Overview
 
+To successfully deploy SysKit Point in a On-Premises environment, the following resources are needed:
+
+* **Virtual Machine**
+* **SQL Server Database**
+
+Configuration steps provided in this article result in the on-premises setup shown in the picture below.
+
+![SysKit Point - On-Premises Setup](../../.gitbook/assets/deploy-on-premises_architecture-diagram.png)
 ## Getting started
 
 These are the 4 most important requirements to get you started:
