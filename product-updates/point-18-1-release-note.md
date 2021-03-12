@@ -16,6 +16,9 @@ description: This article describes the new features and improvements in SysKit 
   * **see what was happening on their Microsoft Teams, Microsoft 365 Groups, OneDrive, and sites** in the last 30 days at a glance  
   * **find summary data for their resources**, **internal and external users**, **sharing links**, and **used storage** - **all numbers are drillable**, opening related reports which will show more details 
   * **detect potential issues**, for example, if a Microsoft Team is inactive
+  * **view Microsoft Teams analytics data**, including **most active Teams**, **channels**, and **users**, as well as **meetings information** for their Microsoft Teams
+  * **explore the adoption of different workloads**, **discover adoption champions**, and **view adoption trends** for their resources
+
 * **Licensing reports are now available for owners and admins!** Admins and owners can now see license information about users they are the manager of and **discover inactive licenses** and **potential savings**. **Licenses Usage by Service**, **License Distribution**, and **Inactive Licenses** reports are available in the Report Center.
 
 ## Improvements & Bug Fixes
