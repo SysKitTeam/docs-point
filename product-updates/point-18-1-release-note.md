@@ -7,7 +7,7 @@ description: This article describes the new features and improvements in SysKit 
 **SysKit Point 18.1** is a minor release that comes with role-based dashboards and licensing reports, as well as customer-suggested improvements and a couple of important bug fixes. 
 
 **Product version:** 18.1.0  
-**Build number:** 1813  
+**Build number:** 1813
 **Release date:** March 16, 2021
 
 ## Features
