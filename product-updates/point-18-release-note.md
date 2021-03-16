@@ -9,7 +9,7 @@ While you wait for spring to come, we bring you the latest and greatest **SysKit
 [Schedule a demo](https://www.syskit.com/products/point/request-a-demo/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
 **Product version:** 18.0.1  
-**Build number:** 1732
+**Build number:** 1732  
 **Release date:** Feb 18, 2021
 
 ## Features
