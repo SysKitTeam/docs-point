@@ -4,6 +4,14 @@ description: This article is an index of content that provides guidance for inst
 
 # Overview
 
+To successfully deploy SysKit Point in the Azure cloud environment, the following resources are needed:
+
+* **Azure Virtual Machine**
+* **Azure SQL Database**
+
+Configuration steps provided in this article result in the Cloud environment setup shown in the picture below.
+
+![SysKit Point - Cloud Setup](../../.gitbook/assets/deploy-to-azure_architecture-diagram.png)
 ## Getting started
 
 These are the 4 most important requirements to get you started:
