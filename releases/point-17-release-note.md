@@ -22,7 +22,7 @@ Let the festivities begin; **SysKit Point 17 is here**! Although it's still Nove
   * **Manually send scheduled reports when needed**
   * **Edit**, **pause**, **start** and **delete scheduled reports**
 
-  [To learn more about Scheduled reports, read the dedicated article.](../common-tasks/scheduled-reports.md)
+  [To learn more about Scheduled reports, read the dedicated article.](../governance-and-automation/scheduled-reports.md)
 
 * **New Permissions Review wizard is available!** To simplify the Permissions Review process for site owners, the Permissions Review tasks can now be completed with the help of a wizard that guides you through the most important aspects of the Permissions Review.
 
@@ -35,14 +35,14 @@ Let the festivities begin; **SysKit Point 17 is here**! Although it's still Nove
 
   To learn all about the Permissions Review in SysKit Point, read the following articles:
 
-  * [Enable Automated Permissions Review](../installation-and-configuration/enable-permissions-review.md)
-  * [Perform Permissions Review](../common-tasks/permissions-review.md)
-  * [Monitor Permissions Review](../common-tasks/monitor-permissions-review.md)
-  * [Manually Request Permissions Review](../common-tasks/manually-request-permissions-review.md)
+  * [Enable Automated Permissions Review](../governance-and-automation/permissions-review/enable-permissions-review.md)
+  * [Perform Permissions Review](../governance-and-automation/permissions-review/permissions-review.md)
+  * [Monitor Permissions Review](../governance-and-automation/permissions-review/monitor-permissions-review.md)
+  * [Manually Request Permissions Review](../governance-and-automation/permissions-review/manually-request-permissions-review.md)
 
 * **Copy User Permissions action is available!** You can use it to make the onboarding process faster by copying permissions from an existing team member to the new one, for example, or even copy to multiple users at once. All directly given permissions and group memberships are copied, eliminating the daunting task of comparing permissions and manually applying them to the new user.
 
-  [Find more details about the Copy User Permissions action here!](../common-tasks/copy-user-permissions.md)
+  [Find more details about the Copy User Permissions action here!](../access-management/copy-user-permissions.md)
 
 * **Change Sharing Settings action is available!** Use this action to define which level of sharing you want to allow on sites. Depending on your tenant-wide sharing policies, you can choose between the following options:
 
