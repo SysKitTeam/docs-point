@@ -37,7 +37,7 @@ Below, reasons for such requirements are described in greater detail.
 
 ### Global Administrator
 
-**When connecting to a Microsoft 365 tenant** during the [configuration](../installation/deploy-syskit-point-on-premises/install-syskit-point-on-premises.md#configure-syskit-point) process, **you need to connect with a Global Administrator account.**
+**When connecting to a Microsoft 365 tenant** during the [configuration](../installation/deploy-syskit-point-to-cloud/install-syskit-point-on-azure-vm.md#configure-syskit-point) process, **you need to connect with a Global Administrator account.**
 
 **The first time you connect to your Microsoft 365 tenant, you will be prompted to consent** to a set of permissions that SysKit Point requires to function correctly. Additional prompts may show up in the future when installing a newer version of SysKit Point because of new functionality, and in consequence, potentially new required permissions.
 
@@ -97,7 +97,7 @@ To allow safer access to your Microsoft 365 tenant data and to use Microsoft Aut
 
 #### SysKit Point Service
 
-**SysKit Point Service** app registration is used for [data Sync](../faq/collect-office-365-data.md), [audit log collection](../installation/customize-audit-logs-collection.md), and sending emails. The following permissions enable SysKit Point to perform these actions:
+**SysKit Point Service** app registration is used for [data Sync](../faq/collect-office-365-data.md), [audit log collection](../configuration/customize-audit-logs-collection.md), and sending emails. The following permissions enable SysKit Point to perform these actions:
 
 #### Microsoft Graph
 
