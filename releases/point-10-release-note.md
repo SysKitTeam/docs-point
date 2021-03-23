@@ -23,27 +23,27 @@ SysKit Point comes as a successor to SysKit Security Manager, a product that has
 
 ## Web-based Interface
 
-With the new and intuitive web-based interface it’s easier than ever to analyze your content, check if everything is ok, and make reports on the fly. You will first notice this shift when [configuring SysKit Point](../installation-and-configuration/deploy-on-premises/install-syskit-point-on-premises.md#configure-syskit-point), and the second time when your app opens in a browser after the installation. All that is left to do is to **log in with your existing Microsoft 365 user account** \(yes, you read that right\), **and you are ready to go!**
+With the new and intuitive web-based interface it’s easier than ever to analyze your content, check if everything is ok, and make reports on the fly. You will first notice this shift when [configuring SysKit Point](../installation/deploy-syskit-point-on-premises/install-syskit-point-on-premises.md#configure-syskit-point), and the second time when your app opens in a browser after the installation. All that is left to do is to **log in with your existing Microsoft 365 user account** \(yes, you read that right\), **and you are ready to go!**
 
 ## Simplicity
 
-Drills, breadcrumbs, views, contextual and global actions, filters, and each and every aspect of SysKit Point were redone and **made to simplify navigation in the app**. **Simple as it can possibly be, but flexible enough to do everything you need** was the main thought behind every developed feature. [You can find more details here.](../how-to/syskit-point-quick-start-guide.md)
+Drills, breadcrumbs, views, contextual and global actions, filters, and each and every aspect of SysKit Point were redone and **made to simplify navigation in the app**. **Simple as it can possibly be, but flexible enough to do everything you need** was the main thought behind every developed feature. [You can find more details here.](../get-to-know-syskit-point/navigate-through-syskit-point.md)
 
 ## Role-based Access
 
-Not only Global Administrators but also **Site Owners and users with Full Control Permissions can access SysKit Point** and manage their Sites and Microsoft 365 Groups. Find out how to [enable their access in few mouse clicks here. ](../installation-and-configuration/enable-role-based-access.md)These options are available depending on the subscription type, so make sure to [check available plans here.](https://syskit.com/products/point/pricing/)
+Not only Global Administrators but also **Site Owners and users with Full Control Permissions can access SysKit Point** and manage their Sites and Microsoft 365 Groups. Find out how to [enable their access in few mouse clicks here. ](../configuration/enable-role-based-access.md)These options are available depending on the subscription type, so make sure to [check available plans here.](https://syskit.com/products/point/pricing/)
 
 ## Sync it!
 
-Old ways of collecting data from Microsoft 365 are no more. **With the new Sync capability, data collection has become granular, quick and lightweight.** Heavy lifting is done only when needed. Or when you want it. [Learn more about Sync here.](../how-to/collect-office-365-data.md)
+Old ways of collecting data from Microsoft 365 are no more. **With the new Sync capability, data collection has become granular, quick and lightweight.** Heavy lifting is done only when needed. Or when you want it. [Learn more about Sync here.](../faq/collect-office-365-data.md)
 
 ## Audit Logs & Analytics
 
-Contextual audit reports as you know and love them, only better! Like all things in SysKit Point, audit reports are easy to understand and accessible from all parts of the app. **The analytics information is being calculated even if you decide not to store the audit logs.** You can easily [customize what to store as described here.](../installation-and-configuration/customize-audit-logs-collection.md)
+Contextual audit reports as you know and love them, only better! Like all things in SysKit Point, audit reports are easy to understand and accessible from all parts of the app. **The analytics information is being calculated even if you decide not to store the audit logs.** You can easily [customize what to store as described here.](../configuration/customize-audit-logs-collection.md)
 
 ## Reports & Actions
 
-**Reports and actions are always there when you need them**, be it on a details screen, or a generated report**.** By selecting different objects in different contexts and running available reports or actions, you can get the right information and manage the exact part of your Microsoft 365 environment that you are observing. [You can find the most common tasks described in detail here.](../common-tasks/)
+**Reports and actions are always there when you need them**, be it on a details screen, or a generated report**.** By selecting different objects in different contexts and running available reports or actions, you can get the right information and manage the exact part of your Microsoft 365 environment that you are observing. [You can find the most common use cases described in the following section.](../get-to-know-syskit-point/)
 
 ## Future
 
