@@ -26,6 +26,7 @@ Along with autumn comes a new version of SysKit Point packed with new features a
   * **see what was happening in your Microsoft 365 environment** in the last 30 days at a glance  
   * **find summary data on your resources**, **internal and external users**, **sharing links**, and **used storage** - **all numbers are drillable**, taking you to the related reports which will show more details 
   * **detect potential issues**, for example, if your environment has inactive or orphaned resources
+  
     [Find more information about the new Dashboard here.](../get-to-know-syskit-point/control-your-microsoft-365-environment.md)
 * **New SharePoint Groups report is available!** Use the report to view all SharePoint Groups and their permissions on your sites, remove group members, or drill to the Group Access report for selected SharePoint Groups.
 * **SysKit Point supports Hub sites!** You can find hub-related information on the Sites Overview screen, in the **Hub Title** and **Is Hub Site** columns, and determine if a site is a part of a Hub.
