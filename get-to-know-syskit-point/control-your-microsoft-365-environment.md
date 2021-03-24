@@ -66,7 +66,7 @@ On the bottom, colored in red, you will find the number of **inactive** and **or
 
 By **clicking the number** of the inactive resource, the **Inactive Content** report opens.
 
-For more information about the Inactive Content report, click [here](../common-tasks/inactive-content.md#inactive-content-report).
+For more information about the Inactive Content report, click [here](../governance-and-automation/lifecycle-management/inactive-content.md#inactive-content-report).
 
 {% hint style="warning" %}
 **Please note!**  
@@ -126,8 +126,8 @@ If the Permissions Review and Lifecycle Management automation is not configured,
 **Learn more!**  
 Use the following articles to learn how to enable and configure automation in SysKit Point:
 
-* [Enable Automated Permissions Review](../installation-and-configuration/enable-permissions-review.md)
-* [Enable Lifecycle Management Automation](../installation-and-configuration/enable-lifecycle-management.md)
+* [Enable Automated Permissions Review](../governance-and-automation/permissions-review/enable-permissions-review.md)
+* [Enable Lifecycle Management Automation](../governance-and-automation/lifecycle-management/enable-lifecycle-management.md)
 {% endhint %}
 
 ![Permissions Review tile and Lifecycle Management tile &#x2013; not configured ](../.gitbook/assets/dashboard_permissions-review-tile-and-lifecycle-management-tile-not-configured.png)
