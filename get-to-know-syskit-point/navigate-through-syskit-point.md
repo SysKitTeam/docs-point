@@ -26,7 +26,7 @@ Here, you have to enter your existing Microsoft 365 credentials.
 
 {% hint style="warning" %}
 **Please note!**  
-When you are signing in for the first time, it is advisable to use Global Administrator credentials and proceed with the [Role-based Access configuration](../installation-and-configuration/enable-role-based-access.md).
+When you are signing in for the first time, it is advisable to use Global Administrator credentials and proceed with the [Role-based Access configuration](../configuration/enable-role-based-access.md).
 {% endhint %}
 
 After the sign-in, the SysKit Point Home screen opens.
@@ -101,5 +101,5 @@ There are two types of actions/reports:
 
 SysKit Point will present you with the inventory of your resources, meaning you will be able to see sites, Teams and Microsoft 365 Groups you are the owner/administrator of.
 
-Check the [following link](../installation-and-configuration/enable-role-based-access.md) for more details about **role-based access configuration**.
+Check the [following link](../configuration/enable-role-based-access.md) for more details about **role-based access configuration**.
 
