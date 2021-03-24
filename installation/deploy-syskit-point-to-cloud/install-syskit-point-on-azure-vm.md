@@ -11,7 +11,7 @@ Before you can install and configure **SysKit Point** on your Azure Virtual Mach
 * [**Azure SQL database information**](create-azure-sql-database.md#output): **Azure SQL Server**, **Azure SQL database name**, and **SQL account** with db owner permissions 
 * [**URL for Point web application and a valid SSL certificate**](ssl-certificate.md#output)
 * [**Service account**](additional-vm-configuration.md#service-account): windows account to run the SysKit Point windows service
-* **Global Administrator** is ready to provide [**application consent**](https://github.com/SysKitTeam/docs-point/tree/7e90de9712318651405813e82777e5dd7ecf54b6/requirements/permission-requirements/README.md#global-administrator)
+* **Global Administrator** is ready to provide [**application consent**](../../requirements/permission-requirements.md#global-administrator)
 
 ## Install SysKit Point
 
@@ -110,7 +110,7 @@ For SysKit Point to collect, process, and save audit logs, auditing has to be en
 
 {% hint style="warning" %}
 **Why do I need to provide a global admin account?**  
-You can find answers in the [following article](../../requirements/permission-requirements.md#office-365).
+You can find answers in the [following article](../../requirements/permission-requirements.md#microsoft-365).
 {% endhint %}
 
 ### Web Application Settings Step
@@ -137,7 +137,7 @@ When the configuration is completed, if everything was configured correctly, the
 
 ## Get to Know SysKit Point
 
-After the installation, move on to the [Quick Start Guide](../../how-to/syskit-point-quick-start-guide.md) and learn how to use **SysKit Point**.
+After the installation, move on to the [following article](../../get-to-know-syskit-point/navigate-through-syskit-point.md) and learn how to use **SysKit Point**.
 
 ## Related Topics
 
