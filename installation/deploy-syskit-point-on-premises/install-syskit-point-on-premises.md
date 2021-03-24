@@ -141,12 +141,14 @@ When the configuration is completed, if everything was configured correctly the 
 
 ## Get to Know SysKit Point
 
-After the installation, move on to the [Quick Start Guide](../../how-to/syskit-point-quick-start-guide.md) and learn how to use **SysKit Point**.
+After the installation, move on to the [following article](../../get-to-know-syskit-point/navigate-through-syskit-point.md) and learn how to use **SysKit Point**.
 
 ## Related Topics
 
-* [Install SysKit Point On-Premises](overview.md) 
+* [Overview - Install SysKit Point On-Premises](overview.md) 
 * [Hardware and Software Requirements](hardware-software-requirements.md)
+* [Virtual Machine Configuration](additional-vm-configuration.md)
+* [SysKit Point Database](isyskit-point-database.md)
 
 If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).
 
