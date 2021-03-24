@@ -18,7 +18,7 @@ With SysKit Point you can get the information you need using **Site Permissions 
 
 {% hint style="warning" %}
 **Please note!**  
-In order to run this report, audit logs collection must be enabled. Check [this article](https://docs.syskit.com/point/installation-and-configuration/customize-audit-logs-collection) to find out more.
+In order to run this report, audit logs collection must be enabled. Check [this article](../configuration/customize-audit-logs-collection.md) to find out more.
 {% endhint %}
 
 ## Generate Site Permissions Activities report
