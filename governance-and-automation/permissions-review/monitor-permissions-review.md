@@ -114,7 +114,7 @@ To view sites where the permissions review was not completed, click the **View U
 
 * **see that all tasks where the permissions review was not completed have the status set to Overdue \(1\)** 
 * **select one or multiple resources \(2\)**
-* **generate the** [**Permissions Review - Summary report**](monitor-permissions-review.md#permissions-review-summary) **\(3\)**
+* **generate the** [**Permissions Review - Summary report**](monitor-permissions-review.md#permissions-review---summary) **\(3\)**
 
 SysKit Point changes the status automatically when the permissions review ends.
 
