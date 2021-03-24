@@ -46,7 +46,7 @@ When the Lifecycle Management flow is enabled, **executing an action** \(except 
 On the Sites overview screen and the Microsoft Teams & Groups overview screen, you **run actions on resources in bulk** by selecting multiple resources and clicking the wanted action from the side panel.
 {% endhint %}
 
-Lifecycle Management actions are also available in emails that SysKit Point sends to site owners and admins as a part of the Lifecycle Management Automation. Still, **actions can be executed in SysKit Point only**. Follow [this link](https://docs.syskit.com/point/common-tasks/lifecycle-management-actions) to learn more about Lifecycle Management emails and tasks.
+Lifecycle Management actions are also available in emails that SysKit Point sends to site owners and admins as a part of the Lifecycle Management Automation. Still, **actions can be executed in SysKit Point only**. Follow [this link](lifecycle-management.md) to learn more about Lifecycle Management emails and tasks.
 
 Next, all actions are described in greater detail.
 
@@ -129,7 +129,7 @@ This action **does not delete** a resource **permanently**.
 You can find more about Microsoft’s retention policies on the following links:
 
 * [Microsoft 365 Groups](https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide)
-* [SharePoint Online](https://support.office.com/en-us/article/restore-deleted-items-from-the-site-collection-recycle-bin-5fa924ee-16d7-487b-9a0a-021b9062d14b?ui=en-US&rs=en-001&ad=US#ID0EAAEAAA=Online)
+* [SharePoint Online](https://support.microsoft.com/en-us/office/restore-items-in-the-recycle-bin-that-were-deleted-from-sharepoint-or-teams-6df466b6-55f2-4898-8d6e-c0dff851a0be?ui=en-us&rs=en-us&ad=us#ID0EAADAAA=Online)
 {% endhint %}
 
 When running the delete action, do the following:
