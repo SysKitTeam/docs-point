@@ -43,7 +43,9 @@ For SysKit Point configuration, prepare the following information:
 
 ## Related Topics
 
-* [Install SysKit Point On-Premises](overview.md) 
+* [Overview - Install SysKit Point On-Premises](overview.md) 
+* [Hardware and Software Requirements](hardware-software-requirements.md)
+* [Virtual Machine Configuration](additional-vm-configuration.md)
 
 If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).
 
