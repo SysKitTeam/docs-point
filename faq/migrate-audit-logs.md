@@ -49,7 +49,7 @@ If you don't have an existing SysKit Point installation, first, install SysKit P
 
 Before continuing to the [configuration steps](../installation/deploy-syskit-point-to-cloud/install-syskit-point-on-azure-vm.md#configure-syskit-point), **copy and paste the AuditIndex folder you retrieved from SysKit Security Manager to** **C:\ProgramData\SysKit\Point.**
 
-Continue with the [configuration of SysKit Point](../installation/deploy-syskit-point-to-cloud/install-syskit-point-on-azure-vm.md#configure-syskit-point). When you complete the configuration and open SysKit Point web-app, you should be able to view existing Audit logs in the Audit Logs Overview report. To open the report, navigate to the **Report Center**, click the **Audit Logs Overview** tile, and run the report**.**
+Continue with the [configuration of SysKit Point](../installation/deploy-syskit-point-to-cloud/install-syskit-point-on-azure-vm.md#configure-syskit-point). When you complete the configuration and open SysKit Point web-app, you should be able to view existing Audit logs in the Audit Logs Overview report. To open the report, navigate to the **Report Center**, click the **Audit Logs Overview** tile, and run the report.
 
 ### Existing SysKit Point Installation
 
