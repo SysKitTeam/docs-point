@@ -29,7 +29,7 @@ If you haven't enabled the **E-mail** or **SysKit Point Collaborators** role yet
 ![SysKit Point Settings screen - Lifecycle Management Actions Required](../../.gitbook/assets/1%20%281%29.png)
 
 {% hint style="info" %}
-**Hint** – if you don't know how to enable those settings visit the [Set Up E-Mail](https://docs.syskit.com/point/installation-and-configuration/enable-permissions-review#set-up-e-mail) and Enable [SysKit Point Collaborators](https://docs.syskit.com/point/installation-and-configuration/enable-permissions-review#enable-syskit-point-collaborators) articles on the SysKit Docs page.
+**Hint** – if you don't know how to enable those settings visit the [Set Up E-Mail](../../configuration/customize-emails.md) and Enable [SysKit Point Collaborators](../../configuration/enable-role-based-access.md#syskit-point-collaborators-1) articles on the SysKit Docs page.
 {% endhint %}
 
 ## Customize Lifecycle Management Automation
@@ -84,5 +84,5 @@ Choose the **Specific items \(1\)** option if you want to manually select specif
 
 When done with the selection, save your changes.
 
-Now that everything is defined, the lifecycle management will start automatically. To learn all about the lifecycle management in SysKit Point, visit the [following article](https://docs.syskit.com/point/common-tasks/lifecycle-management).
+Now that everything is defined, the lifecycle management will start automatically. To learn all about the lifecycle management in SysKit Point, visit the [following article](lifecycle-management.md).
 
