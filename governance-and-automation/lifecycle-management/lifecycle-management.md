@@ -18,7 +18,7 @@ All content and resources in Microsoft 365 have a lifecycle which usually consis
 
 To help with this process, **SysKit Point provides the Lifecycle Management Automation feature** and reduces the management to the previously described decision making.
 
-After a SysKit Point Admin [enables and configures Lifecycle Management Automation](../installation-and-configuration/enable-lifecycle-management.md), **site owners and admins will be notified via email** when some of their resources are inactive for longer period than [defined in SysKit Point settings](inactive-content.md#define-what-is-inactive).
+After a SysKit Point Admin [enables and configures Lifecycle Management Automation](enable-lifecycle-management.md), **site owners and admins will be notified via email** when some of their resources are inactive for longer period than [defined in SysKit Point settings](inactive-content.md#define-what-is-inactive).
 
 ## Inactive Resource Email
 
