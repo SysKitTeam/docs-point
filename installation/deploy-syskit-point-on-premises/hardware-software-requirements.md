@@ -10,7 +10,7 @@ SysKit Point has two main components which have their own requirements:
 * **SQL Server Database** - stores data collected by Point
 
 {% hint style="success" %}
-**For smaller Microsoft 365 environments**, MS SQL Server can be installed on the same physical machine as SysKit Point. If you decided to install MS SQL Server on a separate machine, you can find the MS SQL Server hardware requirements listed [here](syskit-point-database.md)
+**For smaller Microsoft 365 environments**, MS SQL Server can be installed on the same physical machine as SysKit Point. If you decided to install MS SQL Server on a separate machine, you can find the MS SQL Server hardware requirements listed [here](hardware-software-requirements.md#sql-server-requirements)
 {% endhint %}
 
 ## Virtual Machine Requirements
@@ -69,5 +69,5 @@ Below, you can find the Virtual Machine **minimum requirements** if you install 
 
 ## Related Topics
 
-* [Install SysKit Point On-Premises](overview.md) 
+* [Overview - Install SysKit Point On-Premises](overview.md) 
 
