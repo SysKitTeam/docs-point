@@ -51,7 +51,7 @@ Once the access to Microsoft Teams protected APIs has been approved, you will re
 
 ![Microsoft Teams - Detecting Activity status](../.gitbook/assets/microsoft-teams-activity_detecting-activity%20%283%29%20%283%29%20%281%29%20%284%29%20%282%29%20%281%29.png)
 
-To learn where to find activity information in SysKit Point, continue to the [Identify Inactive Content article](inactive-content.md).
+To learn where to find activity information in SysKit Point, continue to the [Identify Inactive Content article](../governance-and-automation/lifecycle-management/inactive-content.md).
 
 To learn more about protected APIs in Microsoft Teams, [click here](https://docs.microsoft.com/en-us/graph/teams-protected-apis).
 
