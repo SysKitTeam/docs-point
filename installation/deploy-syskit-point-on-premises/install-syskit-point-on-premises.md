@@ -148,7 +148,7 @@ After the installation, move on to the [following article](../../get-to-know-sys
 * [Overview - Install SysKit Point On-Premises](overview.md) 
 * [Hardware and Software Requirements](hardware-software-requirements.md)
 * [Virtual Machine Configuration](additional-vm-configuration.md)
-* [SysKit Point Database](isyskit-point-database.md)
+* [SysKit Point Database](syskit-point-database.md)
 
 If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).
 
