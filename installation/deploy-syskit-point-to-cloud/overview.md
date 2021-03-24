@@ -42,14 +42,14 @@ Once you went through all the requirements above and prepared all the necessary 
 * Download the SysKit Point installation package to the virtual machine
   * **New customers** will receive the download link from our support team
   * **Existing customers** can find the link on our [**Customers portal**](https://my.syskit.com/)
-* [**Install SysKit Point**](https://docs.syskit.com/point/installation-and-configuration/deploy-to-azure/install-syskit-point-on-azure-vm#install-syskit-point) on the virtual machine
-* [**Run the SysKit Point Configuration Wizard**](https://docs.syskit.com/point/installation-and-configuration/deploy-to-azure/install-syskit-point-on-azure-vm#configure-syskit-point) to perform the initial setup
+* [**Install SysKit Point**](install-syskit-point-on-azure-vm.md#install-syskit-point) on the virtual machine
+* [**Run the SysKit Point Configuration Wizard**](install-syskit-point-on-azure-vm.md#configure-syskit-point) to perform the initial setup
 
 ## First steps with SysKit Point
 
 By now, your SysKit Point is up and running. You can log in to the Point web application and it will continuously collect data from Microsoft 365. There are a few important considerations to make to complete the setup and secure your Point web application:
 
-* [**Request access to Protected APIs in Microsoft Teams**](../../common-tasks/microsoft-teams-activity.md) - Point needs **additional approval from Microsoft** in order to be able to **detect inactive Teams**
-* [**Manage who can access Point**](../enable-role-based-access.md) - by default only **Global Administrators** and **SharePoint admins** have the rights to log in to the Point web application
-* [**Setup data retention for Audit logs**](../customize-audit-logs-collection.md#audit-logs-settings) - depending on your company policy and available disk space, set the data retention policy for Microsoft 365 audit logs stored locally
+* [**Request access to Protected APIs in Microsoft Teams**](../../configuration/microsoft-teams-activity.md) - Point needs **additional approval from Microsoft** in order to be able to **detect inactive Teams**
+* [**Manage who can access Point**](../../configuration/enable-role-based-access.md) - by default only **Global Administrators** and **SharePoint admins** have the rights to log in to the Point web application
+* [**Setup data retention for Audit logs**](../../configuration/customize-audit-logs-collection.md) - depending on your company policy and available disk space, set the data retention policy for Microsoft 365 audit logs stored locally
 
