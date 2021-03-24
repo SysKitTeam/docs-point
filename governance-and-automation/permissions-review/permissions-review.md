@@ -30,14 +30,14 @@ When the Automated Permissions Review starts, site owners receive an email reque
 * **due date of the permissions review \(2\)**
 * **Review Now button \(3\)**
 
-![Permissions review request email](../.gitbook/assets/permissions-review_request.png)
+![Permissions review request email](../../.gitbook/assets/permissions-review_request.png)
 
 The **Review Now** button opens the **Permissions Review Task** screen once clicked. On this screen, you can find:
 
 * **sites you are the owner of and need to review**; displayed in the grid
 * **information regarding the permissions review task \(1\)** 
 
-![Permissions Review Task screen](../.gitbook/assets/permissions-review_task.png)
+![Permissions Review Task screen](../../.gitbook/assets/permissions-review_task.png)
 
 From here, you can continue and review a site by clicking the **link in the Task column \(2\)**, or **selecting a row \(3\)** and clicking the **Review action \(4\)**. You can access the same screen from within SysKit Point from the **My Tasks** screen.
 
@@ -45,7 +45,7 @@ From here, you can continue and review a site by clicking the **link in the Task
 
 On the Home screen, you can notice the **My Tasks** tile and a notification bubble displaying the number of tasks you need to address. It is set to one because a single permissions review task was created by SysKit Point and assigned to you. The **user profile** button shows the same notification bubble. To view your tasks, click the **My Tasks tile** on the Home screen, or the **My Tasks section** in the user profile menu.
 
-![My Tasks tile](../.gitbook/assets/permissions-review_my-tasks-tile.png)
+![My Tasks tile](../../.gitbook/assets/permissions-review_my-tasks-tile.png)
 
 **My Tasks** screen displays the active permissions review task with the most important information:
 
@@ -56,7 +56,7 @@ On the Home screen, you can notice the **My Tasks** tile and a notification bubb
 * **Task categories \(5\)**
 * **Completed tasks categories \(6\)**
 
-![My Tasks screen](../.gitbook/assets/permissions-review_my-tasks.png)
+![My Tasks screen](../../.gitbook/assets/permissions-review_my-tasks.png)
 
 Click **Review** to continue. The **Permissions Review Task** screen opens - the same screen that you accessed from email in the previous section where we stopped. From here, you can continue and review a site by clicking the **link in the Task column**. The **Permissions Review Wizard** opens that will guide you through the Permissions Review process.
 
@@ -83,7 +83,7 @@ This step provides general information about the resource that you are about to 
 * **Close & Continue Later action \(7\)**, which closes the wizard 
 * **Start Review button \(8\)**, which takes you to the next step of the Permissions Review wizard
 
-![Permissions Review wizard - Overview step](../.gitbook/assets/permissions-review_wizard-overview.png)
+![Permissions Review wizard - Overview step](../../.gitbook/assets/permissions-review_wizard-overview.png)
 
 The **Close & Continue Later** option is available on all steps on the left-bottom and enables you to leave the Permissions Review wizard.
 
@@ -109,7 +109,7 @@ The **Members step** is available **when reviewing Microsoft 365 Groups or Micro
 * when no users are selected, the **Add Owners/Members** action is available
 * **click Next \(6\)** to continue to the next step of the Permissions Review Wizard
 
-![Permissions Review wizard - Members step](../.gitbook/assets/permissions-review_members%20%281%29%20%283%29.png)
+![Permissions Review wizard - Members step](../../.gitbook/assets/permissions-review_members%20%281%29%20%283%29.png)
 
 The **Users step** is available **when reviewing sites**. The following options are available here:
 
@@ -124,7 +124,7 @@ The **Users step** is available **when reviewing sites**. The following options 
 * when no users are selected, the **Grant Access** action is available
 * **click Next \(6\)** to continue to the next step of the Permissions Review Wizard
 
-![Permissions Review wizard - Users step](../.gitbook/assets/permissions-review_users%20%282%29%20%282%29%20%283%29%20%284%29%20%284%29%20%284%29%20%283%29%20%282%29.png)
+![Permissions Review wizard - Users step](../../.gitbook/assets/permissions-review_users%20%282%29%20%282%29%20%283%29%20%284%29%20%284%29%20%284%29%20%283%29%20%282%29.png)
 
 {% hint style="warning" %}
 **Please note!**  
@@ -150,15 +150,15 @@ The **Sharing step** gives you a simple, yet detailed overview of all shared con
 * **when no rows are selected**, the **Permissions Changes report link** is visible
 * **click Next \(6\)** to continue to the final step of the Permissions Review Wizard
 
-![Permissions Review wizard - Sharing step](../.gitbook/assets/permissions-review_wizard-sharing.png)
+![Permissions Review wizard - Sharing step](../../.gitbook/assets/permissions-review_wizard-sharing.png)
 
 In case you switch to the **Users view**, the **top filters** are changed accordingly and enable you to filter out specific types of users. You can find descriptions for all filters by **hovering your mouse over the filter tile \(1\)**.
 
-![Permissions Review wizard - Sharing step - Users view](../.gitbook/assets/permissions-review_wizard-sharing-by-users.png)
+![Permissions Review wizard - Sharing step - Users view](../../.gitbook/assets/permissions-review_wizard-sharing-by-users.png)
 
 In the example above, Microsoft Team was reviewed. **Filters will differ slightly when you review sites or OneDrive** since there is no Microsoft 365 Group involved whose members would have access by default, so the Users Outside the Group filter is not applicable. Instead, the **Access on Child Objects filter is given**, showing only users that don't have access on a site level but have access to a specific file or folder.
 
-![Permissions Review wizard - Sharing step - Site](../.gitbook/assets/permissions-review_wizard-site-sharing-by-users.png)
+![Permissions Review wizard - Sharing step - Site](../../.gitbook/assets/permissions-review_wizard-site-sharing-by-users.png)
 
 ### Summary Step
 
@@ -169,7 +169,7 @@ The **Summary step** gives a recap of all actions performed during the Permissio
 * **Export button \(3\)** that exports the data in the grid into an XLSX file
 * **Complete Review button \(4\)** that opens the **Complete Review dialog** 
 
-![Permissions Review wizard - Summary step](../.gitbook/assets/permissions-review_wizard-summary.png)
+![Permissions Review wizard - Summary step](../../.gitbook/assets/permissions-review_wizard-summary.png)
 
 ## Complete Permissions Review Task
 
@@ -184,34 +184,34 @@ When you are done with the review and have made sure that your site is secure, *
 **Please note!** You cannot undo or edit the **Complete Review** action.
 {% endhint %}
 
-![Complete Review dialog](../.gitbook/assets/permissions-review_complete-review.png)
+![Complete Review dialog](../../.gitbook/assets/permissions-review_complete-review.png)
 
 After you complete the permissions review for a site, the **Review Completed** dialog opens confirming the completion. Click the **Close Review** button to leave the screen and navigate to the Permissions Review screen, where you can find sites that you need to review.
 
-![Review Completed dialog](../.gitbook/assets/permissions-review_review-completed.png)
+![Review Completed dialog](../../.gitbook/assets/permissions-review_review-completed.png)
 
 When you complete permissions reviews for all sites you are the owner of, your **Permissions Review task is completed.** On the **My Tasks** screen, under **Active Permissions Review \(1\)**, the **No Tasks \(2\)** message is displayed. You can find your **completed permissions review task \(3\)** in the **Completed section \(4\)**, and access task details by clicking the **See Task \(5\)** button.
 
-![My Tasks - Active](../.gitbook/assets/permissions-review_task-active-completed%20%283%29%20%282%29%20%283%29%20%284%29%20%284%29%20%284%29%20%284%29%20%283%29%20%282%29.png)
+![My Tasks - Active](../../.gitbook/assets/permissions-review_task-active-completed%20%283%29%20%282%29%20%283%29%20%284%29%20%284%29%20%284%29%20%284%29%20%283%29%20%282%29.png)
 
-![My Tasks - Completed](../.gitbook/assets/permissions-review_task-completed.png)
+![My Tasks - Completed](../../.gitbook/assets/permissions-review_task-completed.png)
 
 This opens the Permissions Review screen for the completed Permissions Review, where you can:
 
 * **select a site \(1\)** 
 * **click the Review button \(2\)** to open the **Review Summary report**
 
-![My Tasks - Completed](../.gitbook/assets/permissions-review_completed-review.png)
+![My Tasks - Completed](../../.gitbook/assets/permissions-review_completed-review.png)
 
 The **Review Summary** report shows a detailed log of actions performed during the Permissions Review process and can be **exported to an XLSX file \(1\)**
 
-![Review Summary Report](../.gitbook/assets/permissions-review_review-summary.png)
+![Review Summary Report](../../.gitbook/assets/permissions-review_review-summary.png)
 
 ## Overdue Reviews
 
 After ten days, the permissions review cycle ends. SysKit Point automatically changes the status of all uncompleted site reviews to **Overdue**. You can find them on the **Permissions Review** task screen.
 
-![Permissions Review - Overdue](../.gitbook/assets/permissions-review_overdue-reviews.png)
+![Permissions Review - Overdue](../../.gitbook/assets/permissions-review_overdue-reviews.png)
 
 After the permissions review completion, you cannot complete the permissions review.
 
