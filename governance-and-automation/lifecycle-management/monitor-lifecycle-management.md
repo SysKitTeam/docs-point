@@ -6,7 +6,7 @@ description: This article provides a full overview of the lifecycle management a
 
 {% hint style="warning" %}
 **Please note!**  
-First, make sure to check how to [enable and configure Lifecycle Management Automation in SysKit Point.](https://docs.syskit.com/point/installation-and-configuration/enable-lifecycle-management)
+First, make sure to check how to [enable and configure Lifecycle Management Automation in SysKit Point.](enable-lifecycle-management.md)
 {% endhint %}
 
 All **content** and **resources** in your **Microsoft 365** Environment have a certain **lifecycle**, be it the **creation** of the **new** resource, that resource being **used** for collaboration, file sharing, chat, or when a product is retired and when the previously used resource becomes **stale**, **inactive** and **no longer needed**.
@@ -37,13 +37,13 @@ Let’s say that lifecycle management automation was enabled for your Microsoft 
 * newly detected **inactive resources** \(1\)
 * resources that **require** the SysKit Point Admins **attention** \(resources still awaiting a response or ones that might be without owners\) \(2\)
 
-![SysKit Point - Weekly Summary e-mail](../.gitbook/assets/0%20%281%29.png)
+![SysKit Point - Weekly Summary e-mail](../../.gitbook/assets/0%20%281%29.png)
 
 Click the **Discover More** if you wish to see which new resources are now inactive. When logged in to SysKit Point, this link opens the Lifecycle Management Overview screen.
 
 Clicking on **Resolve now** opens the lifecycle management **Awaiting Response** report where you can select the problematic resource \(1\) and decide which action you are going to take with it. \(2\)
 
-![SysKit Point - Awaiting Response report](../.gitbook/assets/1%20%282%29.png)
+![SysKit Point - Awaiting Response report](../../.gitbook/assets/1%20%282%29.png)
 
 {% hint style="info" %}
 **Hint**!  
@@ -54,7 +54,7 @@ To ensure that every resource has an owner responsible for lifecycle management,
 
 To **track the progress** of the ongoing Lifecycle Management, SysKit Point Admins can **use the Governance screen.** To access it, **click the Governance tile** on the Home screen.
 
-![SysKit Point - Home screen Governance Tile](../.gitbook/assets/2%20%281%29.png)
+![SysKit Point - Home screen Governance Tile](../../.gitbook/assets/2%20%281%29.png)
 
 You will be redirected to the **Governance screen**. Under the lifecycle management tab, click the **Overview** \(1\). A **Lifecycle Management Overview** screen appears where you can check:
 
@@ -66,7 +66,7 @@ You will be redirected to the **Governance screen**. Under the lifecycle managem
 * Manage **Lifecycle Management settings** for your environment in SysKit Point\(7\)
 * Change the **time frame filter** for lifecycle management\(8\)
 
-![SysKit Point - Lifecycle Management Overview](../.gitbook/assets/3%20%281%29.png)
+![SysKit Point - Lifecycle Management Overview](../../.gitbook/assets/3%20%281%29.png)
 
 ## Resources that require your attention
 
@@ -74,7 +74,7 @@ When you click to resolve resources that require your attention, you will be red
 
 On the said screen you can choose the resource and perform some actions, be it lifecycle management actions \(**keep**, **archive**, **delete**\) or you can **change** the **owner**/**admin** of the resource.
 
-![SysKit Point - Awaiting Response report](../.gitbook/assets/4.png)
+![SysKit Point - Awaiting Response report](../../.gitbook/assets/4.png)
 
 ## See all inactive resources in your environment
 
@@ -82,7 +82,7 @@ When you click the **View All** inactive resources, SysKit Point generates an **
 
 On the said report you get an option to **Keep, Archive,** or **Delete** any resource there.
 
-![SysKit Point - Inactive Content Report](../.gitbook/assets/5.png)
+![SysKit Point - Inactive Content Report](../../.gitbook/assets/5.png)
 
 ## View Lifecycle Management History
 
@@ -92,12 +92,12 @@ If you click the **View History**, **SysKit Point** redirects you to the **Lifec
 * See the **status** of a resource and who performed an action on it\(2\)
 * Read the **comment** of a user who performed said action on the resource\(3\)
 
-![SysKit Point - Lifecycle Management History report](../.gitbook/assets/6.png)
+![SysKit Point - Lifecycle Management History report](../../.gitbook/assets/6.png)
 
 You can also perform the **Restore** action on resources that were **deleted** \(if they haven’t been permanently deleted\) or **archived.**
 
 {% hint style="info" %}
 **Hint**!  
-To learn more, visit the articles for running [lifecycle management actions](https://docs.syskit.com/point/common-tasks/lifecycle-management-actions) and [resolving lifecycle management tasks](https://docs.syskit.com/point/common-tasks/lifecycle-management).
+To learn more, visit the articles for running [lifecycle management actions](lifecycle-management-actions.md) and [resolving lifecycle management tasks](lifecycle-management.md).
 {% endhint %}
 
