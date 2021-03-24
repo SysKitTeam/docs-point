@@ -87,7 +87,7 @@ When you finish the above steps, you will need the following information for the
 
 ## Related Topics
 
-* [Install SysKit Point On-Premises](overview.md) 
+* [Overview - Install SysKit Point On-Premises](overview.md) 
 * [Hardware and Software Requirements](hardware-software-requirements.md)
 * [Install SysKit Point on Azure VM](install-syskit-point-on-premises.md) 
 
