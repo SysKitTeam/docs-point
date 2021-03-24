@@ -31,11 +31,11 @@ The email provides the following:
 * **Keep, Archive and Delete actions \(3\)**
 * **Link to the Lifecycle Management task in SysKit Point \(4\)**
 
-![Inactive content email](../.gitbook/assets/lifecycle-management_owner-email.png)
+![Inactive content email](../../.gitbook/assets/lifecycle-management_owner-email.png)
 
 Clicking an **action button \(3\)** takes you to the **Lifecycle Management task** of the resource in SysKit Point, where you can provide additional information and execute the selected action. Once clicked, the **task details screen opens with the appropriate action dialog visible**. For example, if the **Delete action button** is clicked, the screen shown below opens.
 
-![SysKit Point - Action dialog](../.gitbook/assets/lifecycle-management_action-dialog.png)
+![SysKit Point - Action dialog](../../.gitbook/assets/lifecycle-management_action-dialog.png)
 
 Here, you can:
 
@@ -44,7 +44,7 @@ Here, you can:
 
 After the action is executed, the information is displayed in the bottom ribbon of the Lifecycle management task for the viewed resource.
 
-![Lifecycle Management task &#x2013; Resource deleted](../.gitbook/assets/lifecycle-management_action-completed.png)
+![Lifecycle Management task &#x2013; Resource deleted](../../.gitbook/assets/lifecycle-management_action-completed.png)
 
 {% hint style="warning" %}
 **Please note!**  
@@ -63,7 +63,7 @@ My Tasks screen shows:
 * **completed Lifecycle Management tasks**
 * **Resolve button** to open the task details screen
 
-![SysKit Point &#x2013; My Tasks Screen](../.gitbook/assets/lifecycle-management_my-tasks.png)
+![SysKit Point &#x2013; My Tasks Screen](../../.gitbook/assets/lifecycle-management_my-tasks.png)
 
 ## Lifecycle Management Task Details
 
@@ -74,7 +74,7 @@ On the task details screen, the following is available:
 * **Last Activity**, **All Users**, and **All Files tile \(3\)**; All Users and All Files tile drills to the appropriate reports where you can find more information about users and content in your resource
 * **Actions \(4\)**; as previously described, here you can decide what to do with your inactive resource
 
-![SysKit Point &#x2013; Lifecycle Management Task details](../.gitbook/assets/lifecycle-management_task-details.png)
+![SysKit Point &#x2013; Lifecycle Management Task details](../../.gitbook/assets/lifecycle-management_task-details.png)
 
 **After you successfully run a Lifecycle Management action, SysKit Point automatically completes the Lifecycle Management task for the reviewed resource.**
 
@@ -87,15 +87,15 @@ By default, site owners will receive two additional emails reminding them to com
 
 The emails display an appropriate message depending on the time you have left to complete the task and provide you with all available Lifecycle Management actions needed for task completion.
 
-![Lifecycle Management &#x2013; Reminder email](../.gitbook/assets/lifecycle-management_reminder-email.png)
+![Lifecycle Management &#x2013; Reminder email](../../.gitbook/assets/lifecycle-management_reminder-email.png)
 
 ## Overdue Tasks
 
 In case you missed the opportunity to decide what to do with the inactive resource, SysKit Point automatically changes the status of all uncompleted Lifecycle Management tasks to **Overdue**. You can find them on the My Tasks screen under the Completed Lifecycle Management view. You can find them on the **My Tasks screen** under the Completed Lifecycle Management view.
 
-![My Tasks &#x2013; Overdue tasks](../.gitbook/assets/lifecycle-management_overdue-tasks.png)
+![My Tasks &#x2013; Overdue tasks](../../.gitbook/assets/lifecycle-management_overdue-tasks.png)
 
 **Such tasks are now assigned to SysKit Point Admins and can no longer be completed by site owners or admins.** When opened, the task details screen shows an appropriate message.
 
-![Task details screen &#x2013; Overdue task](../.gitbook/assets/lifecycle-management_overdue-task-details.png)
+![Task details screen &#x2013; Overdue task](../../.gitbook/assets/lifecycle-management_overdue-task-details.png)
 
