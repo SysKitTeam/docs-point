@@ -60,7 +60,7 @@ If you already have a URL of your logo located in the content distribution netwo
 
 {% hint style="info" %}
 **Hint!**  
-Customizing the Permissions review e-mail is possible only if the Automated Permissions Review feature is enabled. For more information on that topic, visit the [following article](enable-permissions-review.md).
+Customizing the Permissions review e-mail is possible only if the Automated Permissions Review feature is enabled. For more information on that topic, visit the [following article](../governance-and-automation/permissions-review/enable-permissions-review.md).
 {% endhint %}
 
 To customize the Permissions Review e-mail:
