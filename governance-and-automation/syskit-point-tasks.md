@@ -8,8 +8,8 @@ description: This article lists all types of tasks available in SysKit Point.
 
 In the latest version of SysKit Point the following types of tasks are available:
 
-* [**Permissions Review**](permissions-review.md)
-* [**Lifecycle Management**](lifecycle-management.md)
+* [**Permissions Review**](permissions-review/)
+* [**Lifecycle Management**](lifecycle-management/)
 
 Click the appropriate link to learn more about how to resolve a specific type of task.
 
@@ -34,11 +34,11 @@ By default, **all active tasks are displayed \(1\)**. Here, you can:
 
 ## Related Topics
 
-* [Enable Automated Permissions Review](../installation-and-configuration/enable-permissions-review.md)
-* [Manually Request Permissions Review](manually-request-permissions-review.md)
-* [Monitor Permissions Review Tasks](monitor-permissions-review.md)
-* [Perform Permissions Review](permissions-review.md)
-* [Enable Lifecycle Management Automation](../installation-and-configuration/enable-lifecycle-management.md)
-* [Monitor Lifecycle Management Tasks](monitor-lifecycle-management.md)
-* [Resolve Lifecycle Management Tasks](lifecycle-management.md)
+* [Enable Automated Permissions Review](permissions-review/enable-permissions-review.md)
+* [Manually Request Permissions Review](permissions-review/manually-request-permissions-review.md)
+* [Monitor Permissions Review Tasks](permissions-review/monitor-permissions-review.md)
+* [Perform Permissions Review](permissions-review/permissions-review.md)
+* [Enable Lifecycle Management Automation](lifecycle-management/enable-lifecycle-management.md)
+* [Monitor Lifecycle Management Tasks](lifecycle-management/monitor-lifecycle-management.md)
+* [Resolve Lifecycle Management Tasks](lifecycle-management/lifecycle-management.md)
 
