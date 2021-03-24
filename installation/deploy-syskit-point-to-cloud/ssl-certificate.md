@@ -48,7 +48,7 @@ For the SysKit Point configuration, prepare the following information:
 
 ## Related Topics
 
-* [Install SysKit Point on Azure Virtual Machine](overview.md)
+* [Install SysKit Point on Azure Virtual Machine](install-syskit-point-on-azure-vm.md)
 * [Create Azure Virtual Machine](create-azure-vm.md)
 
 If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).
