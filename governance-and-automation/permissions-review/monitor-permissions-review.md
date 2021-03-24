@@ -6,7 +6,7 @@ description: This article provides a full overview of the automated permissions 
 
 {% hint style="warning" %}
 **Please note!**  
-First, make sure to check how to [enable and configure the Automated Permissions Review in SysKit Point](../installation-and-configuration/enable-permissions-review.md).
+First, make sure to check how to [enable and configure the Automated Permissions Review in SysKit Point](enable-permissions-review.md).
 {% endhint %}
 
 **Permissions review**, in the context of the Microsoft 365 environment, is an activity where a person responsible for an Microsoft 365 resource - be it Communication site, Microsoft Team, Microsoft 365 Group, or OneDrive - checks whether permissions, given to users inside \(internal\) and outside \(external\) of company, comply with the organizational rules and guidelines. The **permissions review task is usually performed by a site owner** and includes:
@@ -45,13 +45,13 @@ Three workdays before the start of automated permissions review, SysKit Point Ad
 * **modify \(1\)** link
 * **Resolve Now \(2\)** button
 
-![Permissions review reminder email](../.gitbook/assets/permissions-review_reminder-before.png)
+![Permissions review reminder email](../../.gitbook/assets/permissions-review_reminder-before.png)
 
 Click the **Modify** link if you need to change the settings for the permissions review. When logged in to SysKit Point, this link opens the Permissions Review Settings screen.
 
 If you are already signed in to SysKit Point, clicking the **Resolve Now** button opens the **Permissions Review – Preview** report with the preselected **Orphaned Sites view \(2\)**. Here, you can **select a site \(3\)** and add active users as site owners with the **Change Owners action \(4\)**.
 
-![Permissions Review &#x2014; Preview - Orphaned Sites](../.gitbook/assets/monitor-permissions-review_preview-orphaned.png)
+![Permissions Review &#x2014; Preview - Orphaned Sites](../../.gitbook/assets/monitor-permissions-review_preview-orphaned.png)
 
 {% hint style="warning" %}
 **Please note!**  
@@ -64,7 +64,7 @@ On the start date of the automated permissions review, **permissions review task
 
 To **track the currently active permissions review** **progress**, SysKit Point Admins can **use the Governance screen**. To access it, **click the Governance tile** on the Home screen.
 
-![Home screen - Governance tile](../.gitbook/assets/monitor-permissions-review_home-screen.png)
+![Home screen - Governance tile](../../.gitbook/assets/monitor-permissions-review_home-screen.png)
 
 When clicked, the Governance screen opens, giving a summary for the active automated Permissions Review. Here, the following is displayed:
 
@@ -78,7 +78,7 @@ When clicked, the Governance screen opens, giving a summary for the active autom
 * **number of completed reviews by site type \(5\)**
 * **See Review Details** **button \(6\)**, which opens the **Permissions Review** report
 
-![Governance - Permissions Review](../.gitbook/assets/monitor-permissions-review_governance.png)
+![Governance - Permissions Review](../../.gitbook/assets/monitor-permissions-review_governance.png)
 
 The Permissions Review report gives SysKit Point Admins the following information:
 
@@ -91,7 +91,7 @@ The Permissions Review report gives SysKit Point Admins the following informatio
   * **Review \(7\)** - only available if SysKit Point Admin is also the owner of the selected resource
   * **View Details \(8\)** - available when one or multiple resources are selected; opens the [**Permissions Review - Summary**](monitor-permissions-review.md#permissions-review-summary) report
 
-![Governance - Permissions Review](../.gitbook/assets/monitor-permissions-review_permissions-review.png)
+![Governance - Permissions Review](../../.gitbook/assets/monitor-permissions-review_permissions-review.png)
 
 Use the **Remind Owners action** to send a reminder email to site owners regarding the ongoing permissions review. You can use this action **once a day**, whenever you think appropriate, **as long as the permissions review is active**. **Only site owners with pending tasks will receive an email**.
 
@@ -108,7 +108,7 @@ Ten days after the start, the permissions review is automatically marked as comp
 * **total number of sites where the permissions review was not completed \(2\)**
 * **View Uncompleted Tasks \(3\)** button
 
-![Email - Permissions Review completed](../.gitbook/assets/monitor-permissions-review_email-after%20%282%29%20%282%29%20%283%29%20%282%29%20%282%29.png)
+![Email - Permissions Review completed](../../.gitbook/assets/monitor-permissions-review_email-after%20%282%29%20%282%29%20%283%29%20%282%29%20%282%29.png)
 
 To view sites where the permissions review was not completed, click the **View Uncompleted Tasks** button. If already signed in to SysKit Point, you will be redirected to the **Permissions Review** report. Here, you can:
 
@@ -118,7 +118,7 @@ To view sites where the permissions review was not completed, click the **View U
 
 SysKit Point changes the status automatically when the permissions review ends.
 
-![Permissions Review - Overdue tasks](../.gitbook/assets/monitor-permissions-review_overdue.png)
+![Permissions Review - Overdue tasks](../../.gitbook/assets/monitor-permissions-review_overdue.png)
 
 If you take a step back and look at the Governance screen, you can see the following:
 
@@ -128,9 +128,9 @@ If you take a step back and look at the Governance screen, you can see the follo
 
 The **See Details** button opens the **Permissions Review** report, already described in this section.
 
-![Governance - Scheduled Review category](../.gitbook/assets/monitor-permissions-review_no-active.png)
+![Governance - Scheduled Review category](../../.gitbook/assets/monitor-permissions-review_no-active.png)
 
-![Governance - History category](../.gitbook/assets/monitor-permissions-review_history.png)
+![Governance - History category](../../.gitbook/assets/monitor-permissions-review_history.png)
 
 For more information on the **Manually Requested Reviews category**, [read the following article](manually-request-permissions-review.md).
 
@@ -142,7 +142,7 @@ The Permissions Review - Summary report offers a complete overview of actions pe
 * **select one or more resources \(1\)** for which you want to see what was done during the Permissions Review
 * **click the View Details link \(2\)** 
 
-![Permissions Review - View Details](../.gitbook/assets/monitor-permissions-review_view-details.png)
+![Permissions Review - View Details](../../.gitbook/assets/monitor-permissions-review_view-details.png)
 
 The generated **Permissions Review - Summary** report shows the following information:
 
@@ -154,7 +154,7 @@ The generated **Permissions Review - Summary** report shows the following inform
 * **action details \(6\)** that provides all information about performed actions 
 * **Export button \(7\)** that generates an XLSX file with all data visible in the SysKit Point interface
 
-![Permissions Review - Summary report](../.gitbook/assets/monitor-permissions-review_summary.png)
+![Permissions Review - Summary report](../../.gitbook/assets/monitor-permissions-review_summary.png)
 
 With that, we finish the permissions review overview for SysKit Point Admin users.
 
