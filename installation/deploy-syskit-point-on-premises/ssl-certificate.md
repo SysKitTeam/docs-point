@@ -36,7 +36,7 @@ To use SysKit Point with an **internal company domain** \(for example, `https://
   * Associate the SSL certificate with the internal domain used in the SysKit Point web application URL
 
 {% hint style="info" %}
-Learn how to [configure the SSL certificate by using your internal CA here.](../../common-tasks/configure-ssl-certificate.md)
+Learn how to [configure the SSL certificate by using your internal CA here.](../configure-ssl-certificate.md)
 {% endhint %}
 
 ## Deploy SysKit Point to a test environment
@@ -64,7 +64,7 @@ For SysKit Point configuration, prepare the following information:
 
 ## Related Topics
 
-* [Install SysKit Point On-Premises](overview.md)
+* [Overview - Install SysKit Point On-Premises](overview.md)
 
 If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).
 
