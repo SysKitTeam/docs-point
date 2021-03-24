@@ -27,7 +27,7 @@ After you download the newest version of the application, follow these steps to 
 
 ![Installation wizard - Previous Version Uninstallation message](../.gitbook/assets/upgrade-syskit-point_previous-version-uninstallation.png)
 
-* Follow the wizard through the installation steps. All installation steps are described [here](deploy-on-premises/install-syskit-point-on-premises.md).
+* Follow the wizard through the installation steps. All installation steps are described [here](deploy-syskit-point-to-cloud/install-syskit-point-on-azure-vm.md).
 * After the installation is completed, the **Configuration Wizard** opens automatically.
 * On the **Database** step, select the **Use existing database** option to preserve all data collected by SysKit Point. Click **Next** to proceed.
 * On the **Database Configuration** step, click **Next**. A **warning message** is displayed. Before you continue, **consider backing up the database** to ensure no data is lost in an unlikely event of an upgrade failure. Click **Yes** to continue.
