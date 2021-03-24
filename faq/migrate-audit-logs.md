@@ -8,7 +8,7 @@ Although you cannot upgrade SysKit Security Manager to SysKit Point, you can mig
 
 {% hint style="warning" %}
 **Please note!**  
-Before you begin with the migration, make sure your SysKit Security Manager application is upgraded to the [latest version](https://docs.syskit.com/security-manager/product-updates/security-manager-7-1-0-release-note).
+Before you begin with the migration, make sure your SysKit Security Manager application is upgraded to the **latest version** - **7.1.0**.
 {% endhint %}
 
 ## Get Existing Audit Logs
@@ -45,11 +45,11 @@ After the migration, **duplicate Audit Log entries may appear** in audit reports
 
 ### **New SysKit Point Installation**
 
-If you don't have an existing SysKit Point installation, first, install SysKit Point by following the instructions[ given here.](../installation-and-configuration/deploy-on-premises/install-syskit-point-on-premises.md)
+If you don't have an existing SysKit Point installation, first, install SysKit Point by following the instructions[ given here.](../installation/deploy-syskit-point-to-cloud/install-syskit-point-on-azure-vm.md#install-syskit-point)
 
-Before continuing to the [configuration steps](https://github.com/SysKitTeam/docs-point/tree/7e90de9712318651405813e82777e5dd7ecf54b6/installation-and-configuration/deploy-on-premises/configure-syskit-point-on-premises.md), **copy and paste the AuditIndex folder you retrieved from SysKit Security Manager to** **C:\ProgramData\SysKit\Point.**
+Before continuing to the [configuration steps](../installation/deploy-syskit-point-to-cloud/install-syskit-point-on-azure-vm.md#configure-syskit-point), **copy and paste the AuditIndex folder you retrieved from SysKit Security Manager to** **C:\ProgramData\SysKit\Point.**
 
-Continue with the [configuration of SysKit Point](https://github.com/SysKitTeam/docs-point/tree/7e90de9712318651405813e82777e5dd7ecf54b6/installation-and-configuration/deploy-on-premises/configure-syskit-point-on-premises.md). When you complete the configuration and open SysKit Point web-app, you should be able to view existing Audit logs in the Audit Logs Overview report. To open the report, navigate to the **Report Center**, click the **Audit Logs Overview** tile, and run the report**.**
+Continue with the [configuration of SysKit Point](../installation/deploy-syskit-point-to-cloud/install-syskit-point-on-azure-vm.md#configure-syskit-point). When you complete the configuration and open SysKit Point web-app, you should be able to view existing Audit logs in the Audit Logs Overview report. To open the report, navigate to the **Report Center**, click the **Audit Logs Overview** tile, and run the report**.**
 
 ### Existing SysKit Point Installation
 
