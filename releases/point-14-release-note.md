@@ -26,7 +26,7 @@ As with all SysKit Point upgrades, this one is also filled with big and small im
 ## Improvements & Bug Fixes
 
 * **Auto discover sync improved**! SysKit Point is now able to distinguish between kept, archived, and deleted resources. This information is preserved in Microsoft 365 and will be recognized by SysKit Point, even if the database changes. Moreover, additional data is now synced - Microsoft Teams and Microsoft 365 Group description – and displayed as a part of the lifecycle management tasks.
-* **Permissions Review improved**! Permissions reviews got a facelift in the new version of SysKit Point. Additional columns were added to related reports and various UX improvements made to simplify the permissions review process for site owners and admins. User Activity report was also changed to enable site owners and admins to see all activity on their sites, even for users they are not the manager of.
+* **Access Review improved**! Access Reviews got a facelift in the new version of SysKit Point. Additional columns were added to related reports and various UX improvements made to simplify the Access Review process for site owners and admins. User Activity report was also changed to enable site owners and admins to see all activity on their sites, even for users they are not the manager of.
 * **Remove Access action improved**! The action will now show more precise messages in various cases:
   * when removing users with access to content given through a companywide sharing link. 
   * when trying to remove a Primary admin
@@ -35,9 +35,9 @@ As with all SysKit Point upgrades, this one is also filled with big and small im
 
     Action dialog description was also changed to improve readability.
 * **External user’s management improved**! Site owners and admins can now view reports for external users that have access to their sites. Before, site owners needed to be the external user's manager to see such information, which often resulted in insufficient data for most site owners.
-* **Sign-in flow is improved**! Before, SysKit Point would always redirect to the Home screen after a user signed in, even though they opened a link with a specified target screen from a Permissions Review email. Now, the defined target screen opens after the sign-in and enables a user to continue where he left off.
+* **Sign-in flow is improved**! Before, SysKit Point would always redirect to the Home screen after a user signed in, even though they opened a link with a specified target screen from an Access Review email. Now, the defined target screen opens after the sign-in and enables a user to continue where he left off.
 * **Various UX/UI improvements and minor fixes available.**
-* **Fixed an issue** where the Change Owners and Change Admins actions would result in duplicate permissions review tasks.
+* **Fixed an issue** where the Change Owners and Change Admins actions would result in duplicate Access Review tasks.
 * **Fixed a bug** where, after long periods of inactivity, SysKit Point Service would result in the following error: `SysKit.SecurityManager.SPO.Graph.GraphException: DeltaLink older than 30 days is not supported.`
 * **Fixed an issue** with the database upgrade that appeared when upgrading SysKit Point to a new major version and resulted in a timeout exception.
 

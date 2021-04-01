@@ -1,31 +1,31 @@
 ---
-description: This article provides a full overview of the manual permissions review process in SysKit Point.
+description: This article provides a full overview of the manual access review process in SysKit Point.
 ---
 
-# Manually Request Permissions Review in SysKit Point
+# Manually Request Access Review in SysKit Point
 
-**Permissions review**, in the context of the Microsoft 365 environment, is an activity where a person responsible for an Microsoft 365 resource - be it Communication site, Microsoft Team, Microsoft 365 Group, or OneDrive - checks whether permissions, given to users inside \(internal\) and outside \(external\) of company, comply with the organizational rules and guidelines.
+**Access review**, in the context of the Microsoft 365 environment, is an activity where a person responsible for an Microsoft 365 resource - be it Communication site, Microsoft Team, Microsoft 365 Group, or OneDrive - checks whether permissions, given to users inside \(internal\) and outside \(external\) of company, comply with the organizational rules and guidelines.
 
-While the **Automated Permissions Review** was introduced in SysKit Point 14, SysKit Point 15 brings the **Manually Requested Permissions Review** to the table.
+While the **Automated Access Review** was introduced in SysKit Point 14, SysKit Point 15 brings the **Manually Requested Access Review** to the table.
 
 {% hint style="warning" %}
 **Please note!**  
-Manual Permissions Review is available only in the Enterprise subscription plan.
+Manual Access Review is available only in the Enterprise subscription plan.
 {% endhint %}
 
 {% hint style="success" %}
-Use **Manual Permissions Review** in situations **when you need a fast response on an urgent issue**, such as sudden offboarding of a user, or unauthorized external sharing, where you want a resource to be checked as soon as possible.  
-You can also **use the Manual Permissions Review to test and prepare** your users for the **Automated Permissions Review**.
+Use **Manual Access Review** in situations **when you need a fast response on an urgent issue**, such as sudden offboarding of a user, or unauthorized external sharing, where you want a resource to be checked as soon as possible.  
+You can also **use the Manual Access Review to test and prepare** your users for the **Automated Access Review**.
 {% endhint %}
 
 {% hint style="info" %}
 **Learn more!**  
-To find more about the Automated Permissions Review, visit the [following article](permissions-review.md).
+To find more about the Automated Access Review, visit the [following article](permissions-review.md).
 {% endhint %}
 
 ## Request Review
 
-To manually create a Permissions Review, use the **Request Review action**, **available for SysKit Point Admin users** on the following screens:
+To manually create an Access Review, use the **Request Review action**, **available for SysKit Point Admin users** on the following screens:
 
 * **Sites overview**
 * **Microsoft Teams & Groups overview**
@@ -36,7 +36,7 @@ To manually create a Permissions Review, use the **Request Review action**, **av
 You must be signed in to SysKit Point with a SysKit Point Admin account to see the Request Review action.
 {% endhint %}
 
-To manually request a Permissions Review, do the following:
+To manually request an Access Review, do the following:
 
 * **Open the Sites Overview screen**
 * **Select the desired resource \(1\)**; you can also select multiple resources at once
@@ -44,46 +44,46 @@ To manually request a Permissions Review, do the following:
 
 ![Request Review action](../../.gitbook/assets/manually-request-permissions-review_request-review.png)
 
-Request Permissions Review dialog will appear.
+Request Access Review dialog will appear.
 
-![Request Permissions Review dialog](../../.gitbook/assets/manually-request-permissions-review_request-review-dialog.png)
+![Request Access Review dialog](../../.gitbook/assets/manually-request-permissions-review_request-review-dialog.png)
 
-After confirming the request, you will be redirected to the Permissions Review overview screen, where you can:
+After confirming the request, you will be redirected to the Access Review overview screen, where you can:
 
 * **Select a site, Microsoft 365 Group, or Microsoft Team \(1\)**; you can also select multiple resources at once
 * **Review the resource \(2\)** - only available for owners and administrators when a single resource is selected
-* **View the Permissions Review Details \(3\)** 
+* **View the Access Review Details \(3\)** 
 
-![Permissions Review overview screen](../../.gitbook/assets/manually-request-permissions-review_review-overview.png)
+![Access Review overview screen](../../.gitbook/assets/manually-request-permissions-review_review-overview.png)
 
 To see all Manually Requested Reviews, follow these steps:
 
 * **From the Home screen, click the Governance tile**; the Governance screen opens
 * **click the Manually Requested Reviews category \(1\)**
-* **click the See Details button \(2\)** to open the Permissions Review report 
+* **click the See Details button \(2\)** to open the Access Review report 
 
 ![Governance - Manually Requested Reviews](../../.gitbook/assets/manually-request-permissions-review_governance.png)
 
-The Permissions Review report for manually requested reviews offers the same capabilities as for the automated permissions review. You can find more information on how to [monitor the progress of the created Permissions Reviews here](monitor-permissions-review.md).
+The Access Review report for manually requested reviews offers the same capabilities as for the automated Access Review. You can find more information on how to [monitor the progress of the created Access Reviews here](monitor-permissions-review.md).
 
 ## Resource Owners
 
-After the manual permissions review request was sent, **the resource owners receive a Permissions Review request e-mail** in their mailbox.
+After the manual Access Review request was sent, **the resource owners receive an Access Review request e-mail** in their mailbox.
 
-![Permissions Review email](../../.gitbook/assets/manually-request-permissions-review_email.png)
+![Access Review email](../../.gitbook/assets/manually-request-permissions-review_email.png)
 
-The link in the email leads you directly to the Permissions Review task in SysKit Point. Here, you can:
+The link in the email leads you directly to the Access Review task in SysKit Point. Here, you can:
 
 * **select a resource \(1\)**
-* **perform the Permissions Review \(2\)**
+* **perform the Access Review \(2\)**
 
-![Permissions Review task screen](../../.gitbook/assets/manually-request-permissions-review_task.png)
+![Access Review task screen](../../.gitbook/assets/manually-request-permissions-review_task.png)
 
-The **Permission Review wizard** opens, where you can **perform actions**, **check permission changes**, and, in the end, **complete the Permissions Review** for a resource. Actions and reports available here are the **same as in the Automated Permissions Review** tasks. You can find them all described in greater detail [here](permissions-review.md#permissions-review-task-details).
+The **Access Review wizard** opens, where you can **perform actions**, **check permission changes**, and, in the end, **complete the Access Review** for a resource. Actions and reports available here are the **same as in the Automated Access Review** tasks. You can find them all described in greater detail [here](permissions-review.md#permissions-review-task-details).
 
-![Permissions Review wizard](../../.gitbook/assets/manually-request-permissions-review_wizard.png)
+![Access Review wizard](../../.gitbook/assets/manually-request-permissions-review_wizard.png)
 
-If a resource has a Permissions Review active, you can access the Permissions Review details screen from the overview screen by clicking the **Review Now \(1\)** action link, visible when the resource is selected.
+If a resource has an Access Review active, you can access the Access Review details screen from the overview screen by clicking the **Review Now \(1\)** action link, visible when the resource is selected.
 
 ![Review Now action](../../.gitbook/assets/manually-request-permissions-review_review-now.png)
 

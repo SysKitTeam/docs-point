@@ -39,7 +39,7 @@ Along with autumn comes a new version of SysKit Point packed with new features a
 
 * **Improved detection of password protected sharing links** in SysKit Point. Password protected anonymous links are now correctly displayed on Permissions Matrix, Sharing Links, User Access, and Anonymous Links reports.
 * **The Orphaned Groups report was improved.** It now shows all orphaned resources \(Microsoft Teams, Microsoft 365 Groups, and SharePoint sites\), resources with no owners, and provides you with the Change Admins action for classic sites. Since it's no longer limited to groups, it was renamed Orphaned Resources.
-* **Improved the Permissions Review experience** by showing information about the currently active Permissions Review in the side panel in case a resource is selected. Additionally, when a Permissions Review is created for a single resource, the resource name is displayed in the Permissions Review title.
+* **Improved the Access Review experience** by showing information about the currently active Access Review in the side panel in case a resource is selected. Additionally, when an Access Review is created for a single resource, the resource name is displayed in the Access Review title.
 * **Email customization was improved** by adding the size, dimensions, and format information and validation on all email customization forms.
 * **Improved the Edit Permissions dialogue** by adding the list of existing group members. That way, when editing group permissions, you can see all users that will be affected by the change.
 * **The Remove Sharing Link action was improved** by adding the list of users currently using it to the action dialog displayed when removing a company-wide sharing link.

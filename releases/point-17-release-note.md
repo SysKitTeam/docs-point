@@ -24,21 +24,21 @@ Let the festivities begin; **SysKit Point 17 is here**! Although it's still Nove
 
   [To learn more about Scheduled reports, read the dedicated article.](../governance-and-automation/scheduled-reports.md)
 
-* **New Permissions Review wizard is available!** To simplify the Permissions Review process for site owners, the Permissions Review tasks can now be completed with the help of a wizard that guides you through the most important aspects of the Permissions Review.
+* **New Access Review wizard is available!** To simplify the Access Review process for site owners, the Access Review tasks can now be completed with the help of a wizard that guides you through the most important aspects of the Access Review.
 
   As a part of these change, the following improvements were made:
 
-  * **Actions performed during the Permissions Review are tracked and summarized** at the end of the review process; **action summary can be exported to an XLSX file**
-  * **Admins can now view Permissions Review summaries for one or multiple sites**; this **report can also be exported to an XLSX file**
-  * **New filters were added to reports** displayed in the Permissions Review wizard steps
-  * **Admins can manually request Permissions Reviews without enabling the Automated Permissions Review** 
+  * **Actions performed during the Access Review are tracked and summarized** at the end of the review process; **action summary can be exported to an XLSX file**
+  * **Admins can now view Access Review summaries for one or multiple sites**; this **report can also be exported to an XLSX file**
+  * **New filters were added to reports** displayed in the Access Review wizard steps
+  * **Admins can manually request Access Reviews without enabling the Automated Access Review** 
 
-  To learn all about the Permissions Review in SysKit Point, read the following articles:
+  To learn all about the Access Review in SysKit Point, read the following articles:
 
-  * [Enable Automated Permissions Review](../governance-and-automation/permissions-review/enable-permissions-review.md)
-  * [Perform Permissions Review](../governance-and-automation/permissions-review/permissions-review.md)
-  * [Monitor Permissions Review](../governance-and-automation/permissions-review/monitor-permissions-review.md)
-  * [Manually Request Permissions Review](../governance-and-automation/permissions-review/manually-request-permissions-review.md)
+  * [Enable Automated Access Review](../governance-and-automation/permissions-review/enable-permissions-review.md)
+  * [Perform Access Review](../governance-and-automation/permissions-review/permissions-review.md)
+  * [Monitor Access Review](../governance-and-automation/permissions-review/monitor-permissions-review.md)
+  * [Manually Request Access Review](../governance-and-automation/permissions-review/manually-request-permissions-review.md)
 
 * **Copy User Permissions action is available!** You can use it to make the onboarding process faster by copying permissions from an existing team member to the new one, for example, or even copy to multiple users at once. All directly given permissions and group memberships are copied, eliminating the daunting task of comparing permissions and manually applying them to the new user.
 
@@ -76,7 +76,7 @@ Let the festivities begin; **SysKit Point 17 is here**! Although it's still Nove
 
   `System.InvalidOperationException: Collection was modified; enumeration operation may not execute.`
 
-* **Fixed a bug** where the side panel showed erroneous information for the selected resource regarding the state of the last permissions review. Although the previous permissions review was completed, the following message was displayed: `Review ended n day(s) ago. Task was not completed in time.`
+* **Fixed a bug** where the side panel showed erroneous information for the selected resource regarding the state of the last Access Review. Although the previous Access Review was completed, the following message was displayed: `Review ended n day(s) ago. Task was not completed in time.`
 * **Fixed a bug** where the OneDrive report link was not displayed in the side panel if a user was selected on the Users Overview screen. The report link is now displayed as intended. 
 * **Fixed an issue** where the site sync would fail, and the following error was thrown: `Errors loading data for list <list_name> ("<list_url>") (<object_id>) System.InvalidOperationException: There is an error in XML document.`
 * **Fixed a bug** with the export of Sites Overview report where the ‘Storage Used’ column data was exported in bytes. The excel export now shows data in megabytes as the column name suggests – Storage Used \[MB\].

@@ -32,7 +32,7 @@ The Dashboard screen shows six tiles:
 * **Users**
 * **External Collaboration**
 * **Storage**
-* **Permissions Review**
+* **Access Review**
 * **Lifecycle Management**
 
 ![Dashboard screen](../.gitbook/assets/dashboard_dashboard-screen.png)
@@ -111,32 +111,32 @@ Clicking the **Anonymous Links** number opens the **Sharing Links** report in Re
 
 The last information on this tile is the number of **Sites With Anonymous Sharing**. The drill opens the **Anonymous Sharing view** on the Sites Overview screen. Here, only resources with the external sharing settings set to **'Anyone'** are displayed.
 
-## Permissions Review and Lifecycle Management
+## Access and Lifecycle Management
 
-The **Permissions Review** and **Lifecycle Management** tiles show the progress of current automated tasks.
+The **Access** and **Lifecycle Management** tiles show the progress of current automated tasks.
 
 {% hint style="warning" %}
 **Please note!**  
-Permissions Review tile and Lifecycle Management tile are only visible within the **Enterprise subscription plan**. Click [here ](https://www.syskit.com/products/point/pricing/)for more information.
+Access Review tile and Lifecycle Management tile are only visible within the **Enterprise subscription plan**. Click [here ](https://www.syskit.com/products/point/pricing/)for more information.
 {% endhint %}
 
-If the Permissions Review and Lifecycle Management automation is not configured, the tiles will help you navigate to the settings screen by clicking the **Configure Now** button.
+If the Access Review and Lifecycle Management automation is not configured, the tiles will help you navigate to the settings screen by clicking the **Configure Now** button.
 
 {% hint style="info" %}
 **Learn more!**  
 Use the following articles to learn how to enable and configure automation in SysKit Point:
 
-* [Enable Automated Permissions Review](../governance-and-automation/permissions-review/enable-permissions-review.md)
+* [Enable Automated Access Review](../governance-and-automation/permissions-review/enable-permissions-review.md)
 * [Enable Lifecycle Management Automation](../governance-and-automation/lifecycle-management/enable-lifecycle-management.md)
 {% endhint %}
 
-![Permissions Review tile and Lifecycle Management tile &#x2013; not configured ](../.gitbook/assets/dashboard_permissions-review-tile-and-lifecycle-management-tile-not-configured.png)
+![Access Review tile and Lifecycle Management tile &#x2013; not configured ](../.gitbook/assets/dashboard_permissions-review-tile-and-lifecycle-management-tile-not-configured.png)
 
-When the Permissions Review is configured, the tile shows information about the upcoming Review, previous Review, or the current active Review, depending on the Permissions Review's current state.
+When the Access Review is configured, the tile shows information about the upcoming Review, previous Review, or the current active Review, depending on the Access Review's current state.
 
-Below, you can see the information for the active Permissions Review. The **View All** link guides you to the **Governance screen**, where additional information is provided about the active Permissions Review.
+Below, you can see the information for the active Access Review. The **View All** link guides you to the **Governance screen**, where additional information is provided about the active Access Review.
 
-![Permissions Review tile with active Permissions Review information ](../.gitbook/assets/dashboard_permissions-review-tile-with-active-review.png)
+![Access Review tile with active Access Review information ](../.gitbook/assets/dashboard_permissions-review-tile-with-active-review.png)
 
 When the **Lifecycle Management feature** is configured, the tile gives information whether it is in an active state, or just turned on but inactive.
 

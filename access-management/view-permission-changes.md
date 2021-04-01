@@ -4,7 +4,7 @@ description: This article describes how to audit permission changes in your envi
 
 # View Permission Changes in Microsoft 365
 
-If you are an Microsoft 365 global administrator or a site owner, one of the most common tasks while doing permissions review for your sites is to check who did what, and when. For example:
+If you are a Microsoft 365 global administrator or a site owner, one of the most common tasks while reviewing access for your sites is to check who did what and when. For example:
 
 * Which folders or files are shared, who shared them, and when
 * Who added Team members

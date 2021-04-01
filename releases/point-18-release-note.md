@@ -4,7 +4,7 @@ description: This article describes the new features and improvements in SysKit 
 
 # SysKit Point 18
 
-While you wait for spring to come, we bring you the latest and greatest **SysKit Point 18**! Version 18 brings you **Alerts** to help you fight against unwanted activities in your Microsoft 365 environment; the **Permissions Review automation** has more capabilities than ever before, and **new actions and reports** are also not missing. Find them all listed below!
+While you wait for spring to come, we bring you the latest and greatest **SysKit Point 18**! Version 18 brings you **Alerts** to help you fight against unwanted activities in your Microsoft 365 environment; the **Access Review automation** has more capabilities than ever before, and **new actions and reports** are also not missing. Find them all listed below!
 
 [Schedule a demo](https://www.syskit.com/products/point/request-a-demo/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
@@ -29,17 +29,17 @@ While you wait for spring to come, we bring you the latest and greatest **SysKit
     * **track adoption of different workloads over time**
     * **view SharePoint activity for selected sites**; find most active users, the most popular sites, as well as pages and documents with most hits within a selected time frame 
 
-* **New Permissions Review setup, policies, and capabilities are now available!**  
-  You can now set up the automated Permissions Review with the help of the new Permissions Review wizard. Permissions review policies are also introduced to give you more possibilities and greater flexibility. Per each review policy, you can define the following:
+* **New Access Review setup, policies, and capabilities are now available!**  
+  You can now set up the automated Access Review with the help of the new Access Review wizard. Access review policies are also introduced to give you more possibilities and greater flexibility. Per each review policy, you can define the following:
 
   * **Review scope** – you can select to review membership, or content, or both, or only focus on the guest and external sharing
-  * **Recurrence** – choose how often reviewers need to perform the permissions review
+  * **Recurrence** – choose how often reviewers need to perform the Access Review
   * **Content scope** – select the content level that needs to be reviewed
 
   Once created, **you can apply review policies to Microsoft Teams**, **Groups**, and **sites**.  
-  Besides that, you can now **decide which users will be responsible for the permissions review** of selected **Microsoft Teams**, **Groups**, and **sites**.
+  Besides that, you can now **decide which users will be responsible for the Access Review** of selected **Microsoft Teams**, **Groups**, and **sites**.
 
-  [To learn all about the new capabilities of the automated Permissions Review, read the following article.](../governance-and-automation/permissions-review/enable-permissions-review.md)
+  [To learn all about the new capabilities of the automated Access Review, read the following article.](../governance-and-automation/permissions-review/enable-permissions-review.md)
 
 * **New License Reports are available!** You can now find detailed information on license usage in the following reports:
 
