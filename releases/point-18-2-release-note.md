@@ -7,7 +7,7 @@ description: This article describes improvements and bug fixes in SysKit Point v
 **SysKit Point 18.2** is a minor release that comes with important bug fixes. 
 
 **Product version:** 18.2.0  
-**Build number:** 1863  
+**Build number:** 1873  
 **Release date:** Mar 31, 2021
 
 ## Improvements & Bug Fixes
