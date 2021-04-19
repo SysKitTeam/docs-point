@@ -48,6 +48,7 @@
   * [Customize Audit Logs Collection](configuration/customize-audit-logs-collection.md)
   * [Manage Role-Based Access](configuration/enable-role-based-access.md)
   * [Enable Microsoft Teams Activity Tracking](configuration/microsoft-teams-activity.md)
+  * [Customize License Reports](configuration/customize-license-reports.md)
   * [Report Data Limits](configuration/report-data-limits.md)
 * [Governance & Automation](governance-and-automation/README.md)
   * [SysKit Point Tasks](governance-and-automation/syskit-point-tasks.md)
