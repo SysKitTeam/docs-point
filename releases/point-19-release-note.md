@@ -18,7 +18,7 @@ description: This article describes the new features and improvements in SysKit 
     * **Minimum number of owners** – SysKit Point will notify existing owners if it detects a Microsoft 365 Group or a Team with fewer owners than defined in the policy. Owners can then quickly resolve the policy violation through a SysKit Point task.
     * **Maximum number of owners** - SysKit Point will notify existing owners if there is a Microsoft 365 Group or a Team with more owners than defined in the policy. 
     * **Orphaned resources** – For Microsoft 365 Groups and Teams without active owners, SysKit Point will ask members or specific users to suggest new owners. Defined users can then approve suggestions and complete adding a new owner or decide to archive or remove the resource if it is not being used.
-    * **External Users Expiration** – SysKit Point will ask specified users to validate external users periodically or after they become inactive. This tenant-wide policy helps you ensure there are no unwanted external users in your environment. 
+    * **Guest Users Expiration** – SysKit Point will ask specified users to validate guest users periodically or after they become inactive. This tenant-wide policy helps you ensure there are no unwanted guest users in your environment. 
 **If owners or members do not resolve the policy violations, SysKit Point will automatically reassign the task or resolve the violation, depending on your settings.**
 [To learn more about the available capabilities, navigate to the Automated Workflows article.](#TODO)
 
