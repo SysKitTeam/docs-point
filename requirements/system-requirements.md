@@ -4,28 +4,17 @@ description: This article lists all requirements that are necessary to install a
 
 # System Requirements
 
-No matter where you want to deploy SysKit Point - **Cloud** or **on-premises** - you will need to ensure all requirements are met. To make the process easier, all information is divided into several articles grouped by the mentioned deployment type.
+Before deploying SysKit Point, you will need to ensure all requirements are met. To make the process easier, all information is divided into several articles.
 
 {% hint style="warning" %}
 **Please note!**  
 **Requirements highly depend on the Microsoft 365 activity, the number of users, and the amount of data in your environment**. The larger the environment, the more resources will be required to run SysKit Point smoothly.
 {% endhint %}
 
-## Cloud
-
 When deploying SysKit Point to Cloud you will be dealing with Azure resources instead of physical machines. Two types of Azure resources are required to successfully install and configure SysKit Point:
 
 * [**Azure Virtual Machine**](../installation/deploy-syskit-point-to-cloud/hardware-software-requirements.md#azure-virtual-machine-requirements) where SysKit Point will be installed
 * [**Azure SQL database**](../installation/deploy-syskit-point-to-cloud/hardware-software-requirements.md#azure-sql-database-requirements) where SysKit Point will store its data 
-
-Click the appropriate link to learn more about the requirements for each of the mentioned resources.
-
-## On-Premises
-
-When deploying SysKit Point on-premises, two things are required to successfully install and configure SysKit Point:
-
-* [**Windows Server**](../installation/deploy-syskit-point-on-premises/hardware-software-requirements.md#virtual-machine-requirements) where SysKit Point will be installed
-* [**SQL Server database**](../installation/deploy-syskit-point-on-premises/hardware-software-requirements.md#sql-server-requirements) where SysKit Point will store its data 
 
 Click the appropriate link to learn more about the requirements for each of the mentioned resources.
 
@@ -46,6 +35,5 @@ Once **SysKit Point** is installed and configured, you can access the SysKit Poi
 ## Related Topics
 
 * [Permission Requirements](permission-requirements.md)
-* [Deploy SysKit Point to Cloud](../installation/deploy-syskit-point-to-cloud/)
-* [Deploy SysKit Point On-Premises](../installation/deploy-syskit-point-on-premises/)
+* [Deploy SysKit Point](../installation/deploy-syskit-point-to-cloud/)
 
