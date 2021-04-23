@@ -44,5 +44,6 @@ When the **Give users access to license reports option (2)** option is enabled, 
 * **Licenses Usage by Service**
 * **License Distribution**
 * **Inactive Licenses**
+
 The **signed-in SysKit Point Collaborator can only see license data related to users he is the manager of**.   
 {% endhint %}
