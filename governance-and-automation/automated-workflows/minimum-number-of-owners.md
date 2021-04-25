@@ -44,7 +44,7 @@ The following is available on the task screen:
 {% hint style="warning" %}
 **Please note!**  
 **When you click an action within the policy violation task, think of it as a preview** of what will happen after resolving the policy violation.
-**All actions are performed after you click the Resolve button**.
+**All actions that change users' access are performed after you click the Resolve button**. 
 {% endhint %}
 
 ## Policy Violation Resolved 

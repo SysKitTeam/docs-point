@@ -48,7 +48,7 @@ When keeping the guest user's access, the following is expected, depending on th
 
 ![Policy Violation History Screen](../../.gitbook/assets/guest_users_expiration-history.png)
 
-After you resolve the policy violation, you will also receive a confirmation e-mail showing the following information:
+**After you resolve the policy violation**, **you will also receive a confirmation e-mail** showing the following information:
 * **Guest user whose access was revalidated (1)**
 * **Result of the validation (2)**, showing if the access was renewed or removed
 * **View Details button (3) that opens the History screen in SysKit Point**, showing all the information about actions performed in the automated workflow
