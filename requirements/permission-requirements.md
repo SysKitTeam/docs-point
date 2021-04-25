@@ -4,7 +4,7 @@ description: This article discusses permission requirements that are necessary t
 
 # Permission Requirements
 
-Depending on where you are deploying SysKit Point - **Cloud** or **on-premises** - various **permissions are needed to install and configure SysKit Point successfully**. All information on this topic is available in multiple articles grouped by deployment type. Here, a quick overview of said articles is given, as well as the description of permissions required regardless of the deployment type.
+**Various permissions are needed to install and configure SysKit Point successfully**. All information on this topic is available in multiple articles. Here, a quick overview of said articles is given, as well as the description of permissions required.
 
 ## Cloud
 
@@ -12,15 +12,6 @@ When deploying SysKit Point to Cloud, use the following articles to prepare your
 
 * [**Azure Virtual Machine**](../installation/deploy-syskit-point-to-cloud/hardware-software-requirements.md#azure-virtual-machine-requirements)
 * [**Azure SQL database**](../installation/deploy-syskit-point-to-cloud/hardware-software-requirements.md#azure-sql-database-requirements)
-
-Click the appropriate link to learn more about the requirements for each of the mentioned resources.
-
-## On-Premises
-
-When deploying SysKit Point on-premises, you can find all information in the following articles:
-
-* [**Windows Server**](../installation/deploy-syskit-point-on-premises/hardware-software-requirements.md#virtual-machine-requirements)
-* [**SQL Server database**](../installation/deploy-syskit-point-on-premises/hardware-software-requirements.md#sql-server-requirements)
 
 Click the appropriate link to learn more about the requirements for each of the mentioned resources.
 
@@ -153,5 +144,4 @@ The second app registration, **SysKit Point Client**, enables users to securely 
 
 * [System Requirements](system-requirements.md)
 * [Deploy SysKit Point to Cloud](../installation/deploy-syskit-point-to-cloud/)
-* [Deploy SysKit Point On-Premises](../installation/deploy-syskit-point-on-premises/)
 
