@@ -20,7 +20,7 @@ When SysKit Point detects that Microsoft Teams or Microsoft 365 Groups you are t
 You can find the following information in the e-mail:
 * **Minimum number of required owners (1)**
 * **Microsoft Teams** or **Microsoft 365 Group where the policy violation was detected (2)**
-* **Due date to resolve the policy violation (3)**
+* **Due date to resolve the policy violation (3)**; you have 15 work days to resolve the policy violation
 * **Resolve button (4) that takes you to SysKit Point**, where you can resolve the policy violation
 
 ![Policy Violation E-mail](../../.gitbook/assets/minimum_number_of_owners-email.png)
