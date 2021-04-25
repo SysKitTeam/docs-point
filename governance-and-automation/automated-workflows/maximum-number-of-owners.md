@@ -21,7 +21,7 @@ When SysKit Point detects that Microsoft Teams or Microsoft 365 Groups, which yo
 You can find the following information in the e-mail:
 * **Maximum number of allowed owners (1)**
 * **Microsoft Teams** or **Microsoft 365 Group where the policy violation was detected (2)**
-* **Due date to resolve the policy violation (3)**; you have 15 work days to resolve the policy violation
+* **Due date to resolve the policy violation (3)**; you have 15 workdays to resolve the policy violation
 * **Resolve button (4) that takes you to SysKit Point**, where you can resolve the policy violation
 
 ![Policy Violation E-mail](../../.gitbook/assets/maximum_number_of_owners-email.png)
