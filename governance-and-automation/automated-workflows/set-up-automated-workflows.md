@@ -2,8 +2,6 @@
 description: This article explains how to enable and configure automated workflows in SysKit Point.
 ---
 # Set Up Automated Workflows
-
-
 ## Prerequisites
 
 To use the advantages of Automated Workflows in SysKit Point, you need to:
