@@ -47,3 +47,4 @@ With the help of the **new License Reports settings screen**, you can define the
 With this version, **the Permissions Review feature is renamed Access Review**.
 * **Fixed an issue** where owners and admins would get a Bad Request error when accessing Lifecycle Management tasks from email. If the user accessing the task no longer has owner or admin rights, an Unauthorized Access message is now displayed. 
 * **Fixed an issue** where users could not download exported report files due to the lack of proper notifications in SysKit Point.
+* **Fixed a bug** where Access Review e-mail was sent to SysKit Point Admins, although no Access Review Policies were assigned to Microsoft Teams, Microsoft 365 Groups, OneDrive, or sites.
