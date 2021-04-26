@@ -31,7 +31,7 @@ SysKit Point enables you to create and apply 3 types of policies that will make 
 * **Maximum Number of Owners** - when enabled and applied to Microsoft Teams and Microsoft 365 Groups, **this policy triggers an automated workflow when the team/group has more owners than defined in the policy settings**
 * **Orphaned Resources** - when enabled and applied to Microsoft Teams and Microsoft 365 Groups, **this policy triggers an automated workflow when the team/group has no active owners**
 
-**In this article, you can find information on how to create, enable, and apply all mentioned policy types, along with explainations for all policy options.**
+**In this article, you can find information on how to create, enable, and apply all mentioned policy types, along with explanations for all policy options.**
 
 For more information on how **to resolve specific policy violations**, **navigate to the appropriate article given below**:
 * [resolve Minimum Number of Owners policy violation](minimum-number-of-owners.md)
@@ -41,9 +41,23 @@ For more information on how **to resolve specific policy violations**, **navigat
 ## Guest Users Expiration
 With SysKit Point, you can **enable a tenant-wide policy** that will **require Guest User Access validation periodically or when SysKit Point detects that a guest user is inactive**. 
 
-**In this article, you can find information on how to enable the Policy, along with detailed descriptions for all policy options.**
+**In this article, you can find information on how to enable the policy, along with detailed descriptions for all policy options.**
 
 [To learn how to resolve the Guest Users Expiration policy violation, navigate to the following article](guest-users-expiration.md). 
+
+## Automated Workflows Settings
+
+To **open the Automated Workflows settings screen**, navigate to **Settings** &gt; **Governance** &gt; **Automated Workflows**.
+Here, you can:
+* **Create a new policy (1)**
+* **Apply policies to Microsoft Teams, Microsoft 365 Groups, OneDrive, and sites (2)**
+* **View all predefined policies (3)**; SysKit Point comes with a predefined policy for each policy type to help you get started
+* **View additional information about each policy**; the following information is available **policy type (4)**, **to how many resources a policy is applied (5)**, and **whether a policy is active or inactive (6)**
+* **Manage policies (7)**; **Edit** and **Delete** actions are provided for each policy, **except the Guest Users Expiration policy**, which can not be deleted
+* **Define policies that SysKit Point will automatically apply to newly created Microsoft Teams, Microsoft 365 Groups, OneDrive, and sites (8)**
+
+![Automated Workflows Settings](../../.gitbook/assets/set_up_automated_workflows-settings.png)
+
 
 
 
