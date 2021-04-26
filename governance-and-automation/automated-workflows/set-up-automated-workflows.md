@@ -9,7 +9,7 @@ description: This article explains how to enable and configure automated workflo
 To use the advantages of Automated Workflows in SysKit Point, you need to:
 
 * [set up e-mail settings](../../configuration/set-up-email.md)
-* [enable SysKit Point Collaborators role](../../configuration/configuration/enable-role-based-access.md#syskit-point-collaborators)
+* [enable SysKit Point Collaborators role](../../configuration/configuration/enable-role-based-access.md)
 
 {% hint style="warning" %}
 **Please note!**
