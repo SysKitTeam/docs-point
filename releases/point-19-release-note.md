@@ -18,7 +18,7 @@ description: This article describes the new features and improvements in SysKit 
     * **Orphaned resources** – For Microsoft 365 Groups and Teams without active owners, SysKit Point will ask members or specific users to suggest new owners. Defined users can then approve suggestions and complete adding a new owner or decide to archive or remove the resource if it is not being used.
     * **Guest Users Expiration** – SysKit Point will ask specified users to validate guest users periodically or after they become inactive. This tenant-wide policy helps you ensure there are no unwanted guest users in your environment. 
 **If owners or members do not resolve the policy violations, SysKit Point will automatically reassign the task or resolve the violation, depending on your settings.**
-[To learn more about the available capabilities, navigate to the Automated Workflows article.](#TODO)
+[To learn more about the available capabilities, navigate to the Automated Workflows article.](../governance-and-automation/automated-workflows/set-up-automated-workflows.md)
 
 * **Additional License information and customizations are available**! With the help of the **new Licenses dashboard tile**, you can easily **track the number of active and inactive licenses and see their total cost**.
 With the help of the **new License Reports settings screen**, you can define the following values:
@@ -26,7 +26,7 @@ With the help of the **new License Reports settings screen**, you can define the
     * **Currency used in the license reports**
     * **Monthly license cost per user for all licenses** in your environment
 **SysKit Point Admins can now decide whether to show or hide the license reports for site admins and group owners** by simply checking an option on the Manage Access settings screen. 
-[To learn more about license reports and settings, navigate to the following article.](#TODO)
+[To learn more about license reports and settings, navigate to the following article.](../configuration/customize-license-reports.md)
 
 * **New alerts added – External User Logged in**, and **External User Login Failed**! New alerts help you track external user activity, so you are always aware. 
 
