@@ -4,7 +4,7 @@ description: This article explains how to customize e-mails within SysKit Point.
 
 # Customize E-mails
 
-SysKit Point **allows you to edit e-mails** that will be **sent to site owners** as a part of **Access Review and Lifecycle Management Automation**.
+SysKit Point **allows you to customize e-mails** that will be **sent to site owners** as a part of **Access Review and Lifecycle Management Automation**.
 
 You can customize the following aspects of e-mails:
 

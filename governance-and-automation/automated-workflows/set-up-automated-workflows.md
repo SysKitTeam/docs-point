@@ -1,0 +1,51 @@
+---
+description: This article explains how to enable and configure automated workflows in SysKit Point.
+---
+# Set Up Automated Workflows
+
+
+## Prerequisites
+
+To use the advantages of Automated Workflows in SysKit Point, you need to:
+
+* [set up e-mail settings](../../configuration/set-up-email.md)
+* [enable SysKit Point Collaborators role](../../configuration/configuration/enable-role-based-access.md#syskit-point-collaborators)
+
+{% hint style="warning" %}
+**Please note!**
+Only users with the **SysKit Point Admin** role assigned can access and configure Settings in SysKit Point.
+{% endhint %}
+
+## Automated Workflows and Policies
+
+**Automated workflows in SysKit Point consist of e-mails and tasks created when a policy violation is detected.**
+**Policies in SysKit Point contain rules to be followed when dealing with Microsoft Teams, Microsoft 365 Groups, and user access.** 
+
+SysKit Point enables you to create policies that will make sure the following is set correctly and reviewed when needed:
+* **Ownership on Microsoft Teams and Microsoft 365 Groups**
+* **Guest Users Expiration**
+
+## Ownership
+SysKit Point enables you to create and apply 3 types of policies that will make sure your Microsoft Teams and Microsoft 365 Groups comply with your company's policy regarding ownership:
+* **Minimum Number of Owners** - when enabled and applied to Microsoft Teams and Microsoft 365 Groups, **this policy triggers an automated workflow when the team/group has fewer owners than defined in the policy settings**
+* **Maximum Number of Owners** - when enabled and applied to Microsoft Teams and Microsoft 365 Groups, **this policy triggers an automated workflow when the team/group has more owners than defined in the policy settings**
+* **Orphaned Resources** - when enabled and applied to Microsoft Teams and Microsoft 365 Groups, **this policy triggers an automated workflow when the team/group has no active owners**
+
+**In this article, you can find information on how to create, enable, and apply all mentioned policy types, along with explainations for all policy options.**
+
+For more information on how **to resolve specific policy violations**, **navigate to the appropriate article given below**:
+* [resolve Minimum Number of Owners policy violation](minimum-number-of-owners.md)
+* [resolve Maximum Number of Owners policy violation](maximum-number-of-owners.md)
+* [resolve Orphaned Resources policy violation](orphaned-resources.md)
+
+## Guest Users Expiration
+With SysKit Point, you can **enable a tenant-wide policy** that will **require Guest User Access validation periodically or when SysKit Point detects that a guest user is inactive**. 
+
+**In this article, you can find information on how to enable the Policy, along with detailed descriptions for all policy options.**
+
+[To learn how to resolve the Guest Users Expiration policy violation, navigate to the following article](guest-users-expiration.md). 
+
+
+
+
+
