@@ -9,7 +9,7 @@ description: This article describes the new features and improvements in SysKit 
 [Schedule a demo](https://www.syskit.com/products/point/request-a-demo/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
 **Product version:** 19.0.0  
-**Build number:** 1935  
+**Build number:** 1958  
 **Release date:** Apr 26, 2021
 
 ## Features
