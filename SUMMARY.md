@@ -38,7 +38,7 @@
   * [Navigate Through SysKit Point](get-to-know-syskit-point/navigate-through-syskit-point.md) 
   * [Control Your Microsoft 365 Environment](get-to-know-syskit-point/control-your-microsoft-365-environment.md)
 * [Configuration](configuration/README.md)
-  * [Set Up E-Mail](configuration/set-up-emails.md)
+  * [Set Up E-Mail](configuration/set-up-email.md)
   * [Customize Audit Logs Collection](configuration/customize-audit-logs-collection.md)
   * [Manage Role-Based Access](configuration/enable-role-based-access.md)
   * [Enable Microsoft Teams Activity Tracking](configuration/microsoft-teams-activity.md)
