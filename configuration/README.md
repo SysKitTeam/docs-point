@@ -1,2 +1,2 @@
-# Common Tasks
+# Configuration
 

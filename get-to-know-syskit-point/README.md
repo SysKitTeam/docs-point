@@ -1,2 +1,2 @@
-# How To
+# Get to Know SysKit Point
 
