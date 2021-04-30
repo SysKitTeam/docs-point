@@ -4,7 +4,7 @@ description: This article provides a full overview of the automated Access Revie
 
 # Perform Access Review in SysKit Point
 
-*Access review**, in the context of the Microsoft 365 environment, is an activity where a person responsible for an Microsoft 365 resource - be it Communication site, Microsoft Team, Microsoft 365 Group, or OneDrive - checks whether permissions, given to users inside \(internal\) and outside \(external\) of company, comply with the organizational rules and guidelines. The **Access Review task is usually performed by a site owner** and includes:
+**Access review**, in the context of the Microsoft 365 environment, is an activity where a person responsible for an Microsoft 365 resource - be it Communication site, Microsoft Team, Microsoft 365 Group, or OneDrive - checks whether permissions, given to users inside \(internal\) and outside \(external\) of company, comply with the organizational rules and guidelines. The **Access Review task is usually performed by a site owner** and includes:
 
 * **checking if all users - internal and external - have access to the right resources, be it through directly given permissions, or group memberships**
 * **identify unwanted permissions changes** by checking the audit logs 
