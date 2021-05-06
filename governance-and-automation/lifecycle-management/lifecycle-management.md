@@ -91,7 +91,7 @@ The emails display an appropriate message depending on the time you have left to
 
 ## Overdue Tasks
 
-In case you missed the opportunity to decide what to do with the inactive resource, SysKit Point automatically changes the status of all uncompleted Lifecycle Management tasks to **Overdue**. You can find them on the My Tasks screen under the Completed Lifecycle Management view. You can find them on the **My Tasks screen** under the Completed Lifecycle Management view.
+In case you missed the opportunity to decide what to do with the inactive resource, SysKit Point automatically changes the status of all uncompleted Lifecycle Management tasks to **Overdue**. You can find them on the **My Tasks screen** under the Completed Lifecycle Management view.
 
 ![My Tasks &#x2013; Overdue tasks](../../.gitbook/assets/lifecycle-management_overdue-tasks.png)
 
