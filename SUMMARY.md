@@ -2,6 +2,7 @@
 
 * [SysKit Point](README.md)
 * [Releases](releases/README.md)
+  * [SysKit Point 19.0.2](releases/point-19-0-2-release-note.md)
   * [SysKit Point 19.0.1](releases/point-19-0-1-release-note.md)
   * [SysKit Point 19](releases/point-19-release-note.md)
   * [SysKit Point 18.2](releases/point-18-2-release-note.md)
