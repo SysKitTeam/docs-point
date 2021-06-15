@@ -14,7 +14,7 @@ This is the first official release of SysKit Point.
 
 ## Hello World!
 
-Dear ladies and gentlemen, if we could have your attention please - introducing the new, shiny and awesome tool - [**SysKit Point!**](https://syskit.com/products/point)
+Dear ladies and gentlemen, if we could have your attention please - introducing the new, shiny and awesome tool - [**SysKit Point!**](https://www.syskit.com/products/point/)
 
 **SysKit Point** is a comprehensive, **role-based Microsoft 365 governance tool** that fits the needs of **Microsoft 365 admins, site owners, auditors, and compliance officers**. It empowers all these user roles to automate security tasks and take control of the content they own.​
 
