@@ -12,7 +12,7 @@ To set up a complete provisioning process that fits your company needs, there ar
 
 2) **Approval Processes** – define a set of rules each new workspace request needs to go through to be approved. See the [article](approval-processes.md) for more information.
 
-3) **Teams Application** – deploy SysKit Point teams application to request and approve new workspaces. Click [here](syskit-point-teams-app.md) to find out more.
+3) **Teams Application** – deploy SysKit Point teams application to request and approve new workspaces. Click [here](../syskit-point-teams-app.md) to find out more.
 
 ## End-users 
 
