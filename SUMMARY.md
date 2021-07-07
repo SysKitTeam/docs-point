@@ -86,6 +86,5 @@
   * [Supervise Microsoft Teams Private Channels](access-management/supervise-microsoft-teams-private-channels.md)
 * [FAQ](faq/README.md)
   * [Turn On Auditing](faq/turn-on-auditing.md)
-  * [Migrate Audit Logs](faq/migrate-audit-logs.md)
   * [Collect Microsoft 365 Data](faq/collect-office-365-data.md)
 
