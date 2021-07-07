@@ -31,7 +31,7 @@ To create your custom template from scratch, click the **New Template** button. 
 
      To review currently available templates in your M365 tenant and use them in SysKit Point: 
 
-       1) Navigate to MS Teams admin center https://admin.teams.microsoft.com/
+       1) Navigate to the Microsoft Teams [admin center](https://admin.teams.microsoft.com/)
        2) Under the tab Teams, select **Team templates**
        3) Click the name of the template to review apps and channels they include 
        4) Copy the Template ID and paste in SysKit wizard 
