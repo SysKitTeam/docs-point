@@ -17,11 +17,11 @@ In SysKit Point, you can now:
     * **Create provisioning templates** – predefined workspace types which end-users can request
     * **Create approval processes** – you can define one-stage or multi-stage approval processes
     * **Deploy SysKit Point Teams application to end-users**
-Within the new [SysKit Point Teams app](governance-and-automation/syskit-point-teams-app.md), users will be able to:
+Within the new [SysKit Point Teams app](../governance-and-automation/syskit-point-teams-app.md), users will be able to:
     * **Request new workspaces**
     * **Approve or reject requests**
     * **Manage all their requests through time**
-[You can find all provisioning-related articles in the Provisioning section](governance-and-automation/provisioning/README.md). 
+[You can find all provisioning-related articles in the Provisioning section](../governance-and-automation/provisioning/README.md). 
 
 * **The new Change Security Group Owner action is available**! You can find it on the Group Access report when a security group is selected.
 
