@@ -14,9 +14,9 @@ By default, SysKit Point provides 3 approval processes:
   - Admin approval – SysKit Point admins need to approve this request 
   - Manager and admin approval – requires approval from both manager of the requester and SysKit Point admins 
 
-## Create a custom approval process 
+## Create a Custom Approval Process 
 
-To create your custom approval process from scratch, click on the **New Approval Process** button. You will need to define a number of settings: 
+To create your custom approval process from scratch, click on the **New Approval Process** button. You will need to define several settings: 
 
   - **Approval Process Name** – give a name to this approval process; this will be displayed in the template wizard  
   - **Number of stages for this approval** – how many levels of approval each request needs to go through before it is finally approved. Current options are: 
@@ -24,4 +24,4 @@ To create your custom approval process from scratch, click on the **New Approval
     - 2-stage – 2 people/groups will need to approve this request 
     - 3-stage - 3 people/groups will need to approve this request 
 
-  - **Approver for each stage** – for each stage you can choose between the manager of the requester, SysKit Point administrators or provide specific people that will be responsible for this level (multi-select allowed) 
+  - **Approver for each stage** – for each stage, you can choose between the manager of the requester, SysKit Point administrators or provide specific people that will be responsible for this level (multi-select allowed) 
