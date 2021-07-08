@@ -47,15 +47,6 @@ In the picture below, the defined logo is shown. Here, you can also:
 * **Remove Logo \(2\)**
 
 ![Customize Logo - Uploaded Logo](../.gitbook/assets/customize-e-mail_uploaded-logo.png)
-
-If you already have a URL of your logo located in the content distribution network \(CDN\) and want to use it, you can do the following:
-
-* **Navigate to the** `C:\ProgramData\SysKit\Point\Settings` **folder**
-* **Open the** `settings.json` **file with a text editor**
-* **Paste your URL next to the** `logoURL` **attribute \(3\)**
-
-![Customize Logo - Settings file](../.gitbook/assets/customize-e-mail_settings-json.png)
-
 ## Access Review Settings
 
 {% hint style="info" %}
