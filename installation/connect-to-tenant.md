@@ -29,15 +29,15 @@ When you first connect to your tenant, SysKit Point will request permissions to 
 To continue, check the __Consent on behalf of your organization option (1__), and click the __Accept button (2)__. A new page opens where you can choose which information would you like to collect when it comes to your Microsoft 365 environment:
 
 * __Automatic Discovery__ – by default, SysKit Point continuously monitors your Microsoft 365 environment and shows you the latest data. SharePoint Online sites and Microsoft 365 Groups data will always be monitored. This setting cannot be modified.
-* __Autodiscover OneDrive (1)__ - by default, SysKit Point will collect information and report on the users' OneDrive activity, content, and sharing. To stop collecting OneDrive data, uncheck this option.
-* __Protect OneDrive privacy (2)__ - When enabled, SysKit Point will only show general information about the user's OneDrive, such as used storage. SysKit Point Admins won't be able to access any OneDrive content and personal data. By default, this option is disabled.
-__Store audit logs (3)__ - SysKit Point will also collect all audit logs to monitor internal and external user activities and changes and store them on a hard drive. To stop storing audit logs, uncheck this option.
-* __Protect user privacy (4)__- - When enabled, user activity data will be hidden from SysKit Point and protected from Administrator supervision. By default, this option is disabled.
+* __Autodiscover OneDrive (1)__ – by default, SysKit Point will collect information and report on the users' OneDrive activity, content, and sharing. To stop collecting OneDrive data, uncheck this option.
+* __Protect OneDrive privacy (2)__ – When enabled, SysKit Point will only show general information about the user's OneDrive, such as used storage. SysKit Point Admins won't be able to access any OneDrive content and personal data. By default, this option is disabled.
+__Store audit logs (3)__ – SysKit Point will also collect all audit logs to monitor internal and external user activities and changes and store them on a hard drive. To stop storing audit logs, uncheck this option.
+* __Protect user privacy (4)__ - When enabled, user activity data will be hidden from SysKit Point and protected from Administrator supervision. By default, this option is disabled.
 
+{% hint style="success" %}
+You can change these options anytime by going to __Settings - General – Connected Tenant – Manage Connection__ in SysKit Point application.
+{% endhint %}
 
-You can change these options anytime by going to __Settings - General – Connected Tenant – Manage Connection__ in SysKit Point application. 
-
- 
 10. Click the __Connect__ button and wait for the app to initialize. This could take a while. Do not refresh the page.  
 
 After the app initialization is completed, you’ll be redirected to the __Welcome Home__ page. 
