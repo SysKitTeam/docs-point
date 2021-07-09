@@ -26,7 +26,7 @@ You need to provide a Microsoft 365 __Global Admin__ account. This account will 
 
 When you first connect to your tenant, SysKit Point will request permissions to collect data from your Microsoft 365 environment.
 
-To continue, check the __Consent on behalf of your organization option (1__), and click the __Accept button (2)__. A new page opens where you can choose which information would you like to collect when it comes to your Microsoft 365 environment:
+To continue, check the __Consent on behalf of your organization option (1)__, and click the __Accept button (2)__. A new page opens where you can choose which information would you like to collect when it comes to your Microsoft 365 environment:
 
 * __Automatic Discovery__ – by default, SysKit Point continuously monitors your Microsoft 365 environment and shows you the latest data. SharePoint Online sites and Microsoft 365 Groups data will always be monitored. This setting cannot be modified.
 * __Autodiscover OneDrive (1)__ – by default, SysKit Point will collect information and report on the users' OneDrive activity, content, and sharing. To stop collecting OneDrive data, uncheck this option.
