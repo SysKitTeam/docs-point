@@ -2,7 +2,7 @@
 description: This article explains how you can connect to your tenant and start using SysKit Point. 
 ---
 
-Follow the instructions to 
+Follow the instructions to connect to tenant and start using SysKit Point.
 
 1. Navigate to the __Register SysKit Point__ page by clicking __Web App URL__. 
 
@@ -25,3 +25,12 @@ Follow the instructions to
 You need to provide a Microsoft 365 __Global Admin__ account. This account will be used only for the initial setup; Point does not store any passwords you enter here. SysKit Point upgrades don't need Global Admin account.
 
 When you first connect to your tenant, SysKit Point will request permissions to collect data from your Microsoft 365 environment.
+
+You can change these options anytime by going to __Settings - General – Connected Tenant – Manage Connection__ in SysKit Point application. 
+
+ 
+10. Click the __Connect__ button and wait for the app to initialize. This could take a while. Do not refresh the page.  
+
+After the app initialization is completed, you’ll be redirected to the __Welcome Home__ page. 
+
+ 
