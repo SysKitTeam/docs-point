@@ -2,7 +2,9 @@
 description: This article explains how you can connect to your tenant and start using SysKit Point. 
 ---
 
-1. Navigate to the Register SysKit Point page by clicking __Web App URL__. 
+Follow the instructions to 
+
+1. Navigate to the __Register SysKit Point__ page by clicking __Web App URL__. 
 
 2. Click the __Open Azure Active Directory__ button from the first step which will navigate you to the Azure Active Directory __App registrations__. 
 
@@ -10,9 +12,9 @@ description: This article explains how you can connect to your tenant and start 
 
 4. For the __Name__ enter the SysKit Point installer. 
 
-5. For the __Supported account types__ select __Accounts in this organizational directory only (Single tenant)__ 
+5. For the __Supported account types__ select __Accounts in this organizational directory only (Single tenant)__.
  
-6. In the __Redirect URI__ section select __Single-page Application (SPA)__ and paste the URL copied from the second step in the Register SysKit Point page.  
+6. In the __Redirect URI__ section select __Single-page Application (SPA)__ and paste the __URL__ copied from the second step in the Register SysKit Point page.  
 
 7. Click __Register__. 
 
@@ -20,6 +22,6 @@ description: This article explains how you can connect to your tenant and start 
 
 9. Click the __Register__ button on the Register SysKit Point Page. 
 
-You need to provide a Microsoft 365 __Global Admin__ account. This account will be used only for the initial setup; Point does not store any passwords you enter here. 
+You need to provide a Microsoft 365 __Global Admin__ account. This account will be used only for the initial setup; Point does not store any passwords you enter here. SysKit Point upgrades don't need Global Admin account.
 
-When you first connect to your tenant, SysKit Point will request permissions to collect data from your Microsoft 365 environment. 
+When you first connect to your tenant, SysKit Point will request permissions to collect data from your Microsoft 365 environment.
