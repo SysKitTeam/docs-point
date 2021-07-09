@@ -38,6 +38,16 @@ __Store audit logs (3)__ – SysKit Point will also collect all audit logs to mo
 You can change these options anytime by going to __Settings - General – Connected Tenant – Manage Connection__ in SysKit Point application.
 {% endhint %}
 
+{% hint style="warning" %}
+**Please note!**  
+For SysKit Point to collect, process, and save audit logs, auditing has to be enabled in your tenant. [Navigate here to find out how to turn on auditing.](../../faq/turn-on-auditing.md)
+{% endhint %}
+
+{% hint style="warning" %}
+**Why do I need to provide a global admin account?**  
+You can find answers in the [following article](../../requirements/permission-requirements.md#microsoft-365).
+{% endhint %}
+
 10. Click the __Connect__ button and wait for the app to initialize. This could take a while. Do not refresh the page.  
 
 After the app initialization is completed, you’ll be redirected to the __Welcome Home__ page. 
