@@ -8,21 +8,22 @@ Audit logs can provide you with **insights into all activities** related to the 
 
 Users that are assigned **SysKit Point Admin role** can configure activities that are going to be collected in these locations:
 
-* **SysKit Point Configuration Wizard**
+* **SysKit Point Registration > Tenant settings**
 * **Audit Logs section in Settings**
 
-## SysKit Point Configuration Wizard
+## SysKit Point Registration > Tenant settings
 
-When configuring **SysKit Point**, on the **Connect to Microsoft 365** step, you have the following audit options on disposal:
+After registering **SysKit Point**, on the **Connect tenant** step, you have the following audit options on disposal:
 
 * **Store audit logs \(1\)**
 * **Protect user privacy \(2\)**
 
-![SysKit Point Configuration - Audit logs options](../.gitbook/assets/customize-audit-logs-collection-01-audit-options.png)
+![Connect Tenant step](../.gitbook\assets\customize-audit-logs-collection_connect-tenant-step.png)
+
 
 ### Store Audit Logs Option
 
-By default, the **Store audit logs** option is enabled, meaning that SysKit Point will process and store the audit logs to your local disk, by default in the **C:\ProgramData\SysKit\Point\AuditIndex** folder.
+By default, the **Store audit logs** option is enabled, meaning that SysKit Point will process and store the audit logs to your **Azure Cosmos DB account**.
 
 {% hint style="warning" %}
 **Please note!**  
@@ -48,7 +49,7 @@ The following rules apply regarding the User Privacy option:
 
 * **By default, this option is turned off**
 * **The option can be set for each tenant connected with SysKit Point independently**
-* **Changing the option is only possible through the SysKit Point Configuration Wizard**
+* **Changing the option is possible through Manage Connection button in the SysKit Point Settings > General > Connected Tenant screen**
 
 {% hint style="warning" %}
 **Please note!**  
