@@ -30,7 +30,7 @@ Here are the instructions on how to make your SysKit Point web application publi
 
  
 
-4. A new entry will be added under the Custom Domains, from where you can select Add binding (1) to add an SSL certificate for a secure connection to SysKit Point app. You can choose between uploading your .pfx certificate or importing an App Service Certificate if you have one. If you already have some certificates in Azure, you will be able to choose one from there (2). ja sam za test koristio free App Service Managed Certificate, ali ako treba testirati sa importom pfx certa javite. U članku ne bih spominjao taj free cert. Also, choose the SNI SSL (3) type and click Add Binding (4). 
+4. A new entry will be added under the Custom Domains, from where you can select Add binding (1) to add an SSL certificate for a secure connection to SysKit Point app. You can choose between uploading your .pfx certificate or importing an App Service Certificate if you have one. If you already have some certificates in Azure, you will be able to choose one from there (2). Also, choose the SNI SSL (3) type and click Add Binding (4). 
 
  
 
