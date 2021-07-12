@@ -32,6 +32,7 @@
     * [Install SysKit Point on Azure Virtual Machine](installation/deploy-syskit-point-to-cloud/install-syskit-point-on-azure-vm.md)
   * [Upgrade SysKit Point](installation/upgrade-syskit-point.md)
   * [Configure SSL Certificate](installation/configure-ssl-certificate.md)
+  * [Set up Custom Domain and SSL Certificate](installation/set-up-custom-domain-and-ssl-certificate.md)
   * [Test Access to Point](installation/test-access.md)
 * [Activation](activation/README.md)
   * [Activate SysKit Point](activation/activate-syskit-point.md)
