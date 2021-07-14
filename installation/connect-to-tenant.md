@@ -2,54 +2,106 @@
 description: This article explains how you can connect to your tenant and start using SysKit Point. 
 ---
 
-Follow the instructions to connect to tenant and start using SysKit Point.
+# Connect SysKit Point to Microsoft 365 Tenant
 
-1. Navigate to the __Register SysKit Point__ page by clicking __Web App URL__. 
+After you [deploy SysKit Point](#TODO) in your Azure environment, you need to connect SysKit Point to your Microsoft 365 tenant. 
+Before you continue, make sure to prepare the following:
 
-2. Click the __Open Azure Active Directory__ button from the first step which will navigate you to the Azure Active Directory __App registrations__. 
-
-3. In the Azure Active Directory App registrations page click __New registrations__ to register SysKit Point.  
-
-4. For the __Name__ enter the SysKit Point installer. 
-
-5. For the __Supported account types__ select __Accounts in this organizational directory only (Single tenant)__.
- 
-6. In the __Redirect URI__ section select __Single-page Application (SPA)__ and paste the __URL__ copied from the second step in the Register SysKit Point page.  
-
-7. Click __Register__. 
-
-8. Once you registered the app, copy the __Application ID__ (client ID) and __Directory ID__ (tenant ID) and paste them to the input fields in the third step in the Register SysKit Point page. 
-
-9. Click the __Register__ button on the Register SysKit Point Page. 
-
-You need to provide a Microsoft 365 __Global Admin__ account. This account will be used only for the initial setup; Point does not store any passwords you enter here. SysKit Point upgrades don't need Global Admin account.
-
-When you first connect to your tenant, SysKit Point will request permissions to collect data from your Microsoft 365 environment.
-
-To continue, check the __Consent on behalf of your organization option (1)__, and click the __Accept button (2)__. A new page opens where you can choose which information would you like to collect when it comes to your Microsoft 365 environment:
-
-* __Automatic Discovery__ – by default, SysKit Point continuously monitors your Microsoft 365 environment and shows you the latest data. SharePoint Online sites and Microsoft 365 Groups data will always be monitored. This setting cannot be modified.
-* __Autodiscover OneDrive (1)__ – by default, SysKit Point will collect information and report on the users' OneDrive activity, content, and sharing. To stop collecting OneDrive data, uncheck this option.
-* __Protect OneDrive privacy (2)__ – When enabled, SysKit Point will only show general information about the user's OneDrive, such as used storage. SysKit Point Admins won't be able to access any OneDrive content and personal data. By default, this option is disabled.
-__Store audit logs (3)__ – SysKit Point will also collect all audit logs to monitor internal and external user activities and changes and store them on a hard drive. To stop storing audit logs, uncheck this option.
-* __Protect user privacy (4)__ - When enabled, user activity data will be hidden from SysKit Point and protected from Administrator supervision. By default, this option is disabled.
-
-{% hint style="success" %}
-You can change these options anytime by going to __Settings - General – Connected Tenant – Manage Connection__ in SysKit Point application.
-{% endhint %}
+* **Point Web Application URL**
+* **Microsoft 365 Global Admin account**
 
 {% hint style="warning" %}
 **Please note!**  
-For SysKit Point to collect, process, and save audit logs, auditing has to be enabled in your tenant. [Navigate here to find out how to turn on auditing.](../../faq/turn-on-auditing.md)
+The Global Admin account is used only for the initial setup; Point does not store any passwords you enter here. SysKit Point upgrades do not need a Global Admin account.
 {% endhint %}
+
+## Connect for the First Time
+
+Open the __SysKit Point Web App URL__ in a browser to start the initial connection process.
+The __Register SysKit Point__ page opens, guiding you through the initial connecting process:
+
+* click the __Open Azure Active Directory button (1)__ to open the __App registrations__ screen in Azure Active Directory admin center and create the __SysKit Point Installer__ app registration 
+
+* copy the provided __URL (2)__ needed when creating the __SysKit Point Installer__ app registration
+
+* input the __Application (client) ID__ and __Directory (tenant) ID (3)__ available once you create the __SysKit Point Installer__ app registration
+
+* click the __Register button (4)__ after you enter the required data
+
+To obtain the __Application (client) ID__ and __Directory (tenant) ID__, create the __SysKit Point Installer__ app registration.
+
+![Register SysKit Point](#TODO)
+
+## Create App Registration
+
+Open the __App registrations__ screen in Azure Active Directory admin center by clicking the __Open Azure Active Directory button__ available on the __Register SysKit Point__ screen described in the previous section.
+
+To create the required app registration used by SysKit Point, do the following:
+
+* click the __New registration (1)__ button available in the top ribbon; the __Register an application__ screen opens
+
+* enter `SysKit Point Installer` in the __Name (2)__ field 
+
+* select __Accounts in this organizational directory only (<TenantName> only - Single tenant)__ option under __Supported account types (3)__ 
+ 
+* in the __Redirect URI__ section, select the __Single-page Application (SPA) (4)__ option and paste the __URL (5)__ copied from the second step on the __Register SysKit Point__ page  described in the previous section
+
+* click __Register__
+
+![Register an Application](#TODO)
+
+After the app registration is created, the App Registration's __Overview screen__ opens.
+Here, you can find the following data needed for the initial connection:
+* __Application (client) ID (1)__
+* __Directory (tenant) ID (2)__
+
+Copy the __Application (client) ID__ and __Directory (tenant) ID__ values, and paste them to the input fields in the third step in the Register SysKit Point page. 
+
+![App Registration Overview](#TODO)
+
+## Consent
+
+After you provide information on the __Register SysKit Point__ page and click the __Register__ button, you will be prompted to sign in.
+Here, you need to provide a Microsoft 365 __Global Admin__ account. This account will be used only for the initial setup; SysKit Point does not store any passwords you enter here. The Global Admin account will not be required in future SysKit Point upgrades.
 
 {% hint style="warning" %}
 **Why do I need to provide a global admin account?**  
 You can find answers in the [following article](../../requirements/permission-requirements.md#microsoft-365).
 {% endhint %}
 
-10. Click the __Connect__ button and wait for the app to initialize. This could take a while. Do not refresh the page.  
+When you first connect to your tenant, SysKit Point will request permissions to collect data from your Microsoft 365 environment.
 
-After the app initialization is completed, you’ll be redirected to the __Welcome Home__ page. 
+![Consent](#TODO)
+
+To continue, check the __Consent on behalf of your organization option (1)__, and click the __Accept button (2)__. 
+
+A new page opens where you can define additional connection settings. 
+
+## Connection Settings
+
+On the __Connect Tenant__ page, you can choose which information would you like to collect when it comes to your Microsoft 365 environment:
+
+* __Automatic Discovery__ – by default, SysKit Point continuously monitors your Microsoft 365 environment and shows you the latest data. You cannot modify this setting.
+* __Autodiscover OneDrive (1)__ – by default, SysKit Point will collect information and report on the users' OneDrive activity, content, and sharing. To stop collecting OneDrive data, uncheck this option.
+* __Protect OneDrive privacy (2)__ – When enabled, SysKit Point will only show general information about the user's OneDrive, such as used storage. SysKit Point Admins won't be able to access any OneDrive content and personal data. By default, this option is disabled.
+__Store audit logs (3)__ – SysKit Point will also collect all audit logs to monitor internal and external user activities and changes and store them on a hard drive. To stop storing audit logs, uncheck this option.
+* __Protect user privacy (4)__ - When enabled, user activity data will be hidden from SysKit Point and protected from Administrator supervision. By default, this option is disabled.
+
+{% hint style="success" %}
+You can change connection options anytime from the __Settings__ > __General__ > __Connected Tenant__ > __Manage Connection__ screen in SysKit Point application.
+{% endhint %}
+
+{% hint style="warning" %}
+**Please note!**  
+For SysKit Point to collect, process, and save audit logs, you must enable auditing in your tenant. [Navigate here to find out how to turn on auditing.](../../faq/turn-on-auditing.md)
+{% endhint %}
+
+Click the __Connect (5)__ button after defining the connection options. A new screen will open and show the progress of the initial connection. Please do not refresh the page as it will provide important information needed for troubleshooting in an unlikely event of an error. 
+
+![Connection Settings](#TODO)
+
+![Initial Connection Progress](#TODO)
+
+After all initial connection steps are completed, you will be redirected to the __Welcome Home__ page. 
 
  
