@@ -133,12 +133,18 @@ The second app registration, **SysKit Point Client**, enables users to securely 
 | Access directory as the signed-in user | Delegated | Allows SysKit Point to access your directory. |
 | Read and write directory data | Delegated | Allows SysKit Point to autodiscover your sites, groups, and users; allows license management actions to be performed. |
 | Read and write all groups | Delegated | Allows SysKit Point to read Microsoft 365 Group data and show you reports based on that data. Additionally, allows you to manage your groups from SysKit Point. |
+| View users' email address | Delegated | Allows SysKit Point to log users in Microsoft Teams application. |
+| Read presence information of all users in your organisation | Delegated | Allows SysKit Point Microsoft Teams application to show the status of users. |
+| View users' basic profile | Delegated | Allows SysKit Point Microsoft Teams application to show users basic data and allow secure communication with SysKit Point. |
+| Send a teamwork activity to any user | Delegated | Allows SysKit Point Microsoft Teams application to send notifications to users. |
+
 
 #### SharePoint
 
 | Permissions | Type | Reason |
 | :--- | :--- | :--- |
 | Have full control of all site collections | Delegated | Allows you to manage your Site Collections directly from SysKit Point. |
+
 
 ## Related Topics
 
