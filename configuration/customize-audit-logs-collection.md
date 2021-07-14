@@ -18,7 +18,7 @@ After registering **SysKit Point**, on the **Connect tenant** step, you have the
 * **Store audit logs \(1\)**
 * **Protect user privacy \(2\)**
 
-![Connect Tenant step](../.gitbook\assets\customize-audit-logs-collection_connect-tenant-step.png)
+![Connect Tenant step](../.gitbook/assets/customize-audit-logs-collection_connect-tenant-step.png)
 
 
 ### Store Audit Logs Option
@@ -70,7 +70,7 @@ Here, you can:
 * **View the number of events \(4\)** in the Audit Index
 * **Enable and set up audit logs data retention \(5\)** - by default, this option is turned off; when enabled, SysKit Point will delete audit logs older than specified
 
-![Audit Logs Settings](../.gitbook\assets\customize-audit-logs-collection_audit-logs-settings_new.png)
+![Audit Logs Settings](../.gitbook/assets/customize-audit-logs-collection_audit-logs-settings_new.png)
 
 Audit logs activities that are being collected can be found by clicking the **Select activities to collect \(3\)** link.
 
@@ -82,7 +82,7 @@ A new dialog opens, showing all audit log categories and activities available in
 * **Mark only specific activities within a category to be collected \(4\)**
 * **Confirm your changes** by clicking the **OK button \(5\)** and **Save** button on the **Audit Logs** screen.
 
-![Select activities to collect screen](../.gitbook\assets\customize-audit-logs-collection_select-activities-to-collect_new.png)
+![Select activities to collect screen](../.gitbook/assets/customize-audit-logs-collection_select-activities-to-collect_new.png)
 
 Available audit log categories:
 
@@ -124,7 +124,7 @@ To select Exchange activities:
   * **Exchange mailbox activities \(2\)**
 * **Click OK** to confirm
 
-![Exchange log categories](../.gitbook\assets\customize-audit-logs-collection_exchange-categories_new.png)
+![Exchange log categories](../.gitbook/assets/customize-audit-logs-collection_exchange-categories_new.png)
 
 {% hint style="success" %}
 **Please note!** It can take up to 30 minutes for Syskit Point to collect Exchange log data.
