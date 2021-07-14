@@ -22,6 +22,7 @@
   * [System Requirements](requirements/system-requirements.md)
   * [Permission Requirements](requirements/permission-requirements.md)
 * [Installation](installation/README.md)
+  * [Connect to Tenant](installation/connect-to-tenant.md)
   * [Deploy SysKit Point to Cloud](installation/deploy-syskit-point-to-cloud/README.md)
     * [Overview](installation/deploy-syskit-point-to-cloud/overview.md)
     * [Hardware and Software Requirements](installation/deploy-syskit-point-to-cloud/hardware-software-requirements.md)
