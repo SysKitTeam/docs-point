@@ -4,7 +4,7 @@ description: This article explains how you can connect to your tenant and start 
 
 # Connect SysKit Point to Microsoft 365 Tenant
 
-After you [deploy SysKit Point](#TODO) in your Azure environment, you need to connect SysKit Point to your Microsoft 365 tenant. 
+After you [deploy SysKit Point](deploy-syskit-point.md) in your Azure environment, you need to connect SysKit Point to your Microsoft 365 tenant. 
 Before you continue, make sure to prepare the following:
 
 * **Point Web Application URL**
@@ -30,7 +30,7 @@ The __Register SysKit Point__ page opens, guiding you through the initial connec
 
 To obtain the __Application (client) ID__ and __Directory (tenant) ID__, create the __SysKit Point Installer__ app registration.
 
-![Register SysKit Point](#TODO)
+![Register SysKit Point](../.gitbook/assets/connect-to-tenant_register.png)
 
 ## Create App Registration
 
@@ -46,9 +46,10 @@ To create the required app registration used by SysKit Point, do the following:
  
 * in the __Redirect URI__ section, select the __Single-page Application (SPA) (4)__ option and paste the __URL (5)__ copied from the second step on the __Register SysKit Point__ page  described in the previous section
 
-* click __Register__
+* click __Register (6)__
 
-![Register an Application](#TODO)
+![](../.gitbook/assets/connect-to-tenant_aad_admin_center.png)
+![Register an Application](../.gitbook/assets/connect-to-tenant_register-application.png)
 
 After the app registration is created, the App Registration's __Overview screen__ opens.
 Here, you can find the following data needed for the initial connection:
@@ -57,7 +58,7 @@ Here, you can find the following data needed for the initial connection:
 
 Copy the __Application (client) ID__ and __Directory (tenant) ID__ values, and paste them to the input fields in the third step in the Register SysKit Point page. 
 
-![App Registration Overview](#TODO)
+![App Registration Overview](../.gitbook/assets/connect-to-tenant_overview.png)
 
 ## Consent
 
@@ -71,7 +72,7 @@ You can find answers in the [following article](../../requirements/permission-re
 
 When you first connect to your tenant, SysKit Point will request permissions to collect data from your Microsoft 365 environment.
 
-![Consent](#TODO)
+![Consent](../.gitbook/assets/connect-to-tenant_consent.png)
 
 To continue, check the __Consent on behalf of your organization option (1)__, and click the __Accept button (2)__. 
 
@@ -98,9 +99,9 @@ For SysKit Point to collect, process, and save audit logs, you must enable audit
 
 Click the __Connect (5)__ button after defining the connection options. A new screen will open and show the progress of the initial connection. Please do not refresh the page as it will provide important information needed for troubleshooting in an unlikely event of an error. 
 
-![Connection Settings](#TODO)
+![Connection Settings](../.gitbook/assets/connect-to-tenant_setings.png)
 
-![Initial Connection Progress](#TODO)
+![Initial Connection Progress](../.gitbook/assets/connect-to-tenant_progress.png)
 
 After all initial connection steps are completed, you will be redirected to the __Welcome Home__ page. 
 
