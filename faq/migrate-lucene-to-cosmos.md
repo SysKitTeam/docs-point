@@ -6,30 +6,40 @@ description: This article describes how to migrate Lucene Index into Cosmos usin
 
 After you successfully finished **SysKit Point cloud deployment** and you have the **Cosmos database**, you can proceed with the migration of the Lucene Index.
 
+{% hint style="warning" %}
+**Please note!**  
+Necessary steps:
+1. You have to stop **SysKit Point Service** on the server where the app is installed during the whole process of migration.
+2. You have to stop both **Web App Service** and **BE App Service** that were created with SysKit Point deployment. Open **Microsoft Azure > your Resource group > here you will find App services**. Open each of them and in the **ribbon bar** on the **Overview screen** click the **Stop** button. See the picture.
+{% endhint %}
+
+![Microsoft Azure - Resource group](../.gitbook/assets/migrate-lucene-to-cosmos_microsoft-azure-resource-group.png)
+
 These are the steps:
 
 1. Download the [**SysKit.Point.MigrationTool.exe**](https://downloads.syskit.com/point/files/SysKitPoint-MigrationTool.zip) to the server where the **SysKit Point** is installed.
 2. Inside the **%ProgramData%\SysKit\Point** folder create a new file **migrationConfig.json**.
 3. Modify the file and add the configuration parameters - here is the example of minimal configuration file:
 
-    {% hint style="success" %}
+   ''' 
 {
     "DatabaseId": "PointAudit",
 
-    "TenantGuid": "Microsoft 365 tenant ID",
+    "TenantGuid": "024f552d-bcbc-4680-a63f-0716e6f3ed7d",
 
-    "Endpoint": "Cosmos URI",
+    "Endpoint": "https://pointcosmos-6kphi4ygrib4c.documents.azure.com:443/",
     
-    "Key": "Cosmos PK",
+    "Key": "q5dSFTABernYMKKM6KAnY6ufAbIwtYGDbIrBwgvGjybIE8XsS02hHTY9oJsL7wEnmorFQCYfAA4XIChKh7DV3Q==",
 
-    "AuditIndexLocation": "audit index location, example: C:\\\ProgramData\\\SysKit\\\Point_DBG\\\CustomAuditIndexName"
-  }
-{% endhint %}
+    "AuditIndexLocation": "C:\\\ProgramData\\\SysKit\\\Point\\\AuditIndex"
+    
+    }'''
+
 
     {% hint style="info" %} Hint!
 Tenant ID can be found in the **Azure Active Directory admin center > Overview screen**. Follow the [link](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview).
 
-    Endpoint and key can be found in the **Microsoft Azure > Azure Cosmos DB account > Settings > Keys**. See the picture below. {% endhint %}
+    Endpoint **(1)** and key **(2)** can be found in the **Microsoft Azure > Azure Cosmos DB account > Settings > Keys**. See the picture below. {% endhint %}
 
 ![Cosmos Endpoint and Primary key information](../.gitbook/assets/migrate-lucene-to-cosmos_cosmos-endpoint-and-key-information.png)
 
