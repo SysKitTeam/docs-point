@@ -8,21 +8,22 @@ Audit logs can provide you with **insights into all activities** related to the 
 
 Users that are assigned **SysKit Point Admin role** can configure activities that are going to be collected in these locations:
 
-* **SysKit Point Configuration Wizard**
+* **SysKit Point Registration > Tenant settings**
 * **Audit Logs section in Settings**
 
-## SysKit Point Configuration Wizard
+## SysKit Point Registration > Tenant settings
 
-When configuring **SysKit Point**, on the **Connect to Microsoft 365** step, you have the following audit options on disposal:
+After registering **SysKit Point**, on the **Connect tenant** step, you have the following audit options on disposal:
 
 * **Store audit logs \(1\)**
 * **Protect user privacy \(2\)**
 
-![SysKit Point Configuration - Audit logs options](../.gitbook/assets/customize-audit-logs-collection-01-audit-options.png)
+![Connect Tenant step](../.gitbook/assets/customize-audit-logs-collection_connect-tenant-step.png)
+
 
 ### Store Audit Logs Option
 
-By default, the **Store audit logs** option is enabled, meaning that SysKit Point will process and store the audit logs to your local disk, by default in the **C:\ProgramData\SysKit\Point\AuditIndex** folder.
+By default, the **Store audit logs** option is enabled, meaning that SysKit Point will process and store the audit logs to your **Azure Cosmos DB account**.
 
 {% hint style="warning" %}
 **Please note!**  
@@ -48,7 +49,7 @@ The following rules apply regarding the User Privacy option:
 
 * **By default, this option is turned off**
 * **The option can be set for each tenant connected with SysKit Point independently**
-* **Changing the option is only possible through the SysKit Point Configuration Wizard**
+* **Changing the option is possible through Manage Connection button in the SysKit Point Settings > General > Connected Tenant screen**
 
 {% hint style="warning" %}
 **Please note!**  
@@ -65,45 +66,48 @@ Audit log settings can also be configured after the initial configuration of **S
 Here, you can:
 
 * **Turn the storage of Audit Logs on or off \(2\)**
-* **View the Index Size \(3\)** information
+* **Select activities to collect \(3\)**
 * **View the number of events \(4\)** in the Audit Index
-* **Configure the Audit Index storage location \(5\)**
-* **Select activities to collect \(6\)**
-* **Enable and set up audit logs data retention \(7\)** - by default, this option is turned off; when enabled, SysKit Point will delete audit logs older than specified
+* **Enable and set up audit logs data retention \(5\)** - by default, this option is turned off; when enabled, SysKit Point will delete audit logs older than specified
 
-![Audit Logs Settings](../.gitbook/assets/customize-audit-logs-collection-02-audit-settings.png)
+![Audit Logs Settings](../.gitbook/assets/customize-audit-logs-collection_audit-logs-settings_new.png)
 
-Audit logs activities that are being collected can be found by clicking the **Select activities to collect \(6\)** link.
+Audit logs activities that are being collected can be found by clicking the **Select activities to collect \(3\)** link.
 
 A new dialog opens, showing all audit log categories and activities available in SysKit Point. Here you can:
 
-* **Adjust which audit log categories will be collected by clicking the checkbox \(1\)** next to a category
-* **Expand categories \(2\)**
-* **Mark only specific activities within a category to be collected \(3\)**
-* **Reset Selection \(4\)** to default
-* **Confirm your changes** by clicking the **OK button \(5\)** on the **Audit Logs** screen.
+* Use the **Select All** option to enable the collection of all available activities **\(1\)**
+* **Adjust which audit log categories will be collected by clicking the checkbox \(2\)** next to a category
+* **Expand categories \(3\)**
+* **Mark only specific activities within a category to be collected \(4\)**
+* **Confirm your changes** by clicking the **OK button \(5\)** and **Save** button on the **Audit Logs** screen.
 
-![Select activities to collect screen](../.gitbook/assets/customize-audit-logs-collection-03-select-activities.png)
+![Select activities to collect screen](../.gitbook/assets/customize-audit-logs-collection_select-activities-to-collect_new.png)
 
 Available audit log categories:
 
-* **Sharing and access request activities**
 * **Application administration activities**
+* **Azure AD group administration activities**
+* **Data governance**
+* **Directory administration activities**
 * **Exchange admin activities**
 * **Exchange mailbox activities**
-* **User administration activities**
-* **Directory administration activities**
-* **Azure AD group administration activities**
-* **Role administration activities**
-* **Site permissions activities**
-* **Site administration activities**
-* **Microsoft Teams activities**
 * **File and page activities**
-* **Synchronization activities**
 * **Folder activities**
-* **Data governance**
+* **Microsoft Forms**
+* **Microsoft Power Automate**
+* **Microsoft Stream**
+* **Microsoft Teams activities**
+* **Power Apps activities**
+* **Power BI activities**
+* **Role administration activities**
 * **SharePoint list events**
+* **Sharing and access request activities**
+* **Site administration activities**
+* **Site permissions activities**
+* **Synchronization activities**
 * **User activities**
+* **User administration activities**
 
 ### Exchange Logs
 
@@ -120,7 +124,7 @@ To select Exchange activities:
   * **Exchange mailbox activities \(2\)**
 * **Click OK** to confirm
 
-![Exchange log categories](../.gitbook/assets/customize-audit-logs-collection-04-exchange-categories.png)
+![Exchange log categories](../.gitbook/assets/customize-audit-logs-collection_exchange-categories_new.png)
 
 {% hint style="success" %}
 **Please note!** It can take up to 30 minutes for Syskit Point to collect Exchange log data.

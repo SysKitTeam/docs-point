@@ -4,13 +4,13 @@ description: This article describes how to turn on auditing in the Microsoft 365
 
 # Turn On Auditing
 
-For SysKit Point to be able to collect, process, and save audit logs, the auditing has to be enabled in your tenant. If the auditing is not properly configured, the following warning message is displayed in the SysKit Point Configuration Wizard:
+For SysKit Point to be able to collect, process, and save audit logs, auditing has to be enabled in your tenant. If the auditing is not properly configured, the following warning messages will be displayed in the **Microsoft Azure > App Service > Log Stream** and also in the **Application Insights > Failures**:
 
-`Error starting a subscription. It may take up to 24h after initial audit configuration for this step to work.`
+`Exception: Microsoft.Office.Compliance.Audit.DataServiceException: Tenant 531c845c-5ba4-4957-bfe4-da2a88b95bc6 does not exist at Microsoft.Office.Compliance.Audit.API.AzureManager.`
 
-![SysKit Point Configuration Wizard - Warning message](../.gitbook/assets/turn-on-auditing_syskit-point-configuration-wizard-warning-message.png)
+`Error: Audit collector job failed. Reason: Unable to check subscription status.`
 
-Although the SysKit Point configuration can be finished at this point, audit data cannot be collected.
+You will be able to use the SysKit Point app, but audit data won't be collected.
 
 To turn on auditing, first, open the following URL in your browser of choice: [https://protection.office.com/unifiedauditlog](https://protection.office.com/unifiedauditlog)
 
