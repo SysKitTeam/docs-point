@@ -65,7 +65,7 @@ The __Review + create__ tab shows the following information:
 
 ![Review + create Tab](../.gitbook/assets/deploy-syskit-point_review.png)
 
-At the start of the deployment, you will be redirected to a page showing the deployment progress. Once the deployment is complete, the __Go to resource group (1)__ button appears, as shown in the image below. Click the button to open the __Resource group's Overview page__, showing all created Azure resources.
+At the start of the deployment, you will be redirected to a page showing the deployment progress. After 5-10 minutes, the deployment is complete, and the __Go to resource group (1)__ button appears, as shown in the image below. Click the button to open the __Resource group's Overview page__, showing all created Azure resources.
 
 ![Go to resource group Button](../.gitbook/assets/deploy-syskit-point_go-to-resource-group.png)
 

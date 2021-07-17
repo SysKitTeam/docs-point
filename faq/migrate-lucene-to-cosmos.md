@@ -1,8 +1,8 @@
 ---
-description: This article describes how to migrate Lucene Index into Cosmos using SysKit Point Index Migration Tool.
+description: This article describes how to migrate Lucene Audit Index into Cosmos using SysKit Point Index Migration Tool.
 ---
 
-# Migrate Lucene to Cosmos
+# Migrate Audit Index to Cosmos
 
 After you successfully finished **SysKit Point cloud deployment** and you have the **Cosmos database**, you can proceed with the migration of the Lucene Index.
 
@@ -20,21 +20,13 @@ These are the steps:
 1. Download the [**SysKit.Point.MigrationTool.exe**](https://downloads.syskit.com/point/files/SysKitPoint-MigrationTool.zip) to the server where the **SysKit Point** is installed.
 2. Inside the **%ProgramData%\SysKit\Point** folder create a new file **migrationConfig.json**.
 3. Modify the file and add the configuration parameters - here is the example of minimal configuration file:
-
-   ''' 
-{
+`{
     "DatabaseId": "PointAudit",
-
     "TenantGuid": "024f552d-bcbc-4680-a63f-0716e6f3ed7d",
-
-    "Endpoint": "https://pointcosmos-6kphi4ygrib4c.documents.azure.com:443/",
-    
+    "Endpoint": "https://pointcosmos-6kphi4ygrib4c.documents.azure.com:443/",    
     "Key": "q5dSFTABernYMKKM6KAnY6ufAbIwtYGDbIrBwgvGjybIE8XsS02hHTY9oJsL7wEnmorFQCYfAA4XIChKh7DV3Q==",
-
-    "AuditIndexLocation": "C:\\\ProgramData\\\SysKit\\\Point\\\AuditIndex"
-    
-    }'''
-
+    "AuditIndexLocation": "C:\\\ProgramData\\\SysKit\\\Point\\\AuditIndex"    
+}`
 
     {% hint style="info" %} Hint!
 Tenant ID can be found in the **Azure Active Directory admin center > Overview screen**. Follow the [link](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview).
@@ -65,14 +57,10 @@ Tenant ID can be found in the **Azure Active Directory admin center > Overview s
     
  
 5. If you want to separate the migration into smaller phases, add additional parameters to the **migrationConfig.json** to specify the Start and End dates like this: 
-
-    {% hint style="success" %}
-{
+`{
     "MigrateFromDate": "2021-05-27", //NEWER DATE
-
     "MigrateUntilDate": "2021-05-26" //OLDER DATE
-  }
-{% endhint %}
+}`
 
 6. Run the migration tool by starting **SysKit.Point.MigrationTool.exe** file.
 
@@ -82,4 +70,4 @@ Tenant ID can be found in the **Azure Active Directory admin center > Overview s
 
 9. After the migration has finished, decrease the **RU/s** to the initial value before the migration.
 
-Contact the [SysKit support team](https://www.syskit.com/contact-us/) for more information.
+If you run into issues when migrating, contact the [SysKit support team](https://www.syskit.com/contact-us/) for more information.
