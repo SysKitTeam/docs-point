@@ -41,5 +41,11 @@ Here are the instructions on how to make your SysKit Point web application publi
 
 6. For Single Sign-on (SSO) to work, you need to add the new URL to the Redirect URIs of the SysKit Point Client app registration. To do that, navigate to __Azure Portal > App Registrations__. Find the __SysKit Point Client__ app registration and click on it, under __Manage > Authentication__ add a new redirect URI in the format __hostname + /auth__, in this example, it would be `https://point-test.syskit.com/auth`. 
 
+## Related Topics
 
+* [Deploy SysKit Point](deploy-syskit-point.md)
+* [Activate SysKit Point](../activation/activate-syskit-point.md)
+* [Connect to Microsoft 365 Tenant](connect-to-tenant.md)
+
+If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).
  

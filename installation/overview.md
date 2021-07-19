@@ -8,7 +8,7 @@ These are the 3 most important steps to get you started with SysKit Point:
 
 1. [Deploy SysKit Point](deploy-syskit-point.md) to an empty **Azure resource group**
    * Ask your **Azure team** to create a dedicated Azure resource group and deploy [SysKit Point from the Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit_point)
-   * When deploying, make sure to configure Azure resources following the [minimum requirements](#TODO)
+   * When deploying, make sure to configure Azure resources following the [minimum requirements](../requirements/system-requirements.md)
    * After the deployment, you will be able to access the SysKit Point web application by opening the defined URL
 2. [Activate SysKit Point](../activation/activate-syskit-point.md)
     * Our team will provide the license key for the product activation after purchasing the selected edition of SysKit Point.

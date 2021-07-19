@@ -6,7 +6,7 @@ description: This article lists all the steps to be performed when deploying Sys
 
 {% hint style="warning" %}
 **Please note!**  
-Before you continue, make sure to read the [resource requirements article.](resource-requirements.md)
+Before you continue, make sure to read the [resource requirements article.](../requirements/system-requirements.md)
 {% endhint %}
 
 Prepare the following for SysKit Point deployment:
@@ -21,7 +21,7 @@ Prepare the following for SysKit Point deployment:
 * click __Create (3)__ to continue with the deployment configuration; __Create SysKit Point__ screen opens with the __Basics__ tab selected
 
 ![](../.gitbook/assets/deploy-syskit-point_get.png)
-![](../.gitbook\assets\deploy-syskit-point_continue.png)
+![](../.gitbook/assets/deploy-syskit-point_continue.png)
 ![Getting SysKit Point](../.gitbook/assets/deploy-syskit-point_create.png)
 
 ## Azure Resources Deployment
@@ -87,7 +87,13 @@ To view the SysKit Point web app URL, do the following:
 SysKit Point web page opens, guiding you through the process of [connecting to a tenant for the first time](connect-to-tenant.md). 
 
 
+## Related Topics
 
+* [System Requirements](../requirements/system-requirements.md)
+* [Connect to Microsoft 365 Tenant](connect-to-tenant.md)
+* [Set Up Custom Domain and SSL Certificate](set-up-custom-domain-and-ssl-certificate.md)
+
+If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).
 
 
 
