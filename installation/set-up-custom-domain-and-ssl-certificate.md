@@ -1,5 +1,5 @@
 ---
-description: This article explains how to set up custom domain and ssl certificate.
+description: This article explains how to set up a custom domain and SSL certificate.
 ---
 
 # SysKit Point App Service Custom Domain and SSL Certificate Setup
@@ -26,7 +26,7 @@ Here are the instructions on how to make your SysKit Point web application publi
 
 ![CNAME Record](../.gitbook/assets/custom-domain-and-ssl-certificate_cname-record.png)
 
-3. Go back to the Azure Custom domains page and select __Add custom domain (1)__. Enter the fully qualified domain name as __Custom domain (2)__ and click __Validate__. After a few seconds, you should get two green checkmarks at the bottom which means you may proceed with clicking the __Add custom domain (3)__ button. 
+3. Go back to the Azure Custom domains page and select __Add custom domain (1)__. Enter the fully qualified domain name as __Custom domain (2)__ and click __Validate__. After a few seconds, you should get two green checkmarks at the bottom which means you may click the __Add custom domain (3)__ button. 
 
 ![Adding Custom Domain](../.gitbook/assets/custom-domain-and-ssl-certificate_add-custom-domain.png)
 

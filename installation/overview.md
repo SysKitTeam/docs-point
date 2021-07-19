@@ -11,12 +11,12 @@ These are the 3 most important steps to get you started with SysKit Point:
    * When deploying, make sure to configure Azure resources following the [minimum requirements](../requirements/system-requirements.md)
    * After the deployment, you will be able to access the SysKit Point web application by opening the defined URL
 2. [Activate SysKit Point](../activation/activate-syskit-point.md)
-    * Our team will provide the license key for the product activation after purchasing the selected edition of SysKit Point.
+    * Our team will provide the license key for the product activation after purchasing the selected edition of SysKit Point
     * At any time, you can find your keys in the [Customers Portal](https://my.syskit.com/)
-    * If you do not have the activation information, please [contact us](https://www.syskit.com/company/contact-us).
+    * If you do not have the activation information, please [contact us](https://www.syskit.com/company/contact-us)
 3. [Connect to Your Microsoft 365 Tenant](connect-to-tenant.md)
     * You will be asked to create an App registration in your Azure Active Directory
-    * A **Global Administrator** will be asked to sign in and [**provide application consent**](../requirements/permission-requirements.md#global-administrator) during the setup. __Please note__: the Global admin account is only necessary during the initial configuration; later, the application can be used with other non-privileged accounts
+    * A **Global Administrator** will be asked to sign in and [**provide application consent**](../requirements/permission-requirements.md#global-administrator) during the setup; __Please note__: the Global admin account is only necessary during the initial configuration; later, the application can be used with other non-privileged accounts
 
 If you run into any issues when preparing your environment, please [contact us](https://www.syskit.com/contact-us/).
 
