@@ -14,11 +14,11 @@ Below, reasons for such requirements are described in greater detail.
 
 ### Global Administrator
 
-**When connecting to a Microsoft 365 tenant** during the [configuration](../installation/deploy-syskit-point-to-cloud/install-syskit-point-on-azure-vm.md#configure-syskit-point) process, **you need to connect with a Global Administrator account.**
+When [connecting to a Microsoft 365 tenant](../installation/connect-to-tenant.md) for the first time, **you need to connect with a Global Administrator account.**
 
 **The first time you connect to your Microsoft 365 tenant, you will be prompted to consent** to a set of permissions that SysKit Point requires to function correctly. Additional prompts may show up in the future when installing a newer version of SysKit Point because of new functionality, and in consequence, potentially new required permissions.
 
-![Microsoft 365 Global Admin Consent](../.gitbook/assets/permission_requirements_global_administrator_consent_without_steps.png)
+![Microsoft 365 Global Admin Consent](../.gitbook/assets/permission_requirements_ga_consent.png)
 
 ### SysKit Point App Permissions
 
@@ -135,5 +135,5 @@ The second app registration, **SysKit Point Client**, enables users to securely 
 ## Related Topics
 
 * [System Requirements](system-requirements.md)
-* [Deploy SysKit Point to Cloud](../installation/deploy-syskit-point.md)
+* [Deploy SysKit Point](../installation/deploy-syskit-point.md)
 
