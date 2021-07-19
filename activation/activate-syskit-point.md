@@ -6,7 +6,7 @@ description: This article outlines the steps needed to perform product activatio
 
 ## Activation
 
-You will be provided with the license key for the product activation after the purchase of the selected edition of SysKit Point.
+You will be provided with the license key for the product activation after purchasing the selected edition of SysKit Point.
 
 At any time, you can log in to SysKit [Customers Portal](https://my.syskit.com/) and navigate to the list of your licensed products. If you do not have the activation information, please [contact us](https://www.syskit.com/company/contact-us).
 
@@ -16,7 +16,7 @@ When opening the SysKit Point web-app URL for the first time, you will be prompt
 
 After you click the appropriate button, continue with the following steps:
 * **Fill in all the required fields**: name, company, email, and the provided license key. 
-* **Click the Activate button** to start the validation process. It only takes 2-5 seconds to perform the activation and it is a one-time-only procedure. If the validation of your email address is successful, an info dialog will appear thanking you for the activation. 
+* **Click the Activate button** to start the validation process. It only takes 2-5 seconds to perform the activation, and it is a one-time-only procedure. If the validation of your email address is successful, an info dialog will appear thanking you for the activation. 
 
 ![Activation Dialog](../.gitbook/assets/activate-syskit-point_activation-dialog.png)
 
