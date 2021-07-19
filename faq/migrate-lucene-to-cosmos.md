@@ -2,24 +2,26 @@
 description: This article describes how to migrate Lucene Audit Index into Cosmos using SysKit Point Index Migration Tool.
 ---
 
-# Migrate Audit Index to Cosmos
+# Migrate Audit Logs
 
-After you successfully finished **SysKit Point cloud deployment** and you have the **Cosmos database**, you can proceed with the migration of the Lucene Index.
+After you successfully finish **deployment of SysKit Point 20**, you can proceed with the migration of Audit logs collected with SysKit Point 19, stored in the Lucene Index, to Cosmos DB.
 
 {% hint style="warning" %}
 **Please note!**  
-Necessary steps:
-1. You have to stop **SysKit Point Service** on the server where the app is installed during the whole process of migration.
-2. You have to stop both **Web App Service** and **BE App Service** that were created with SysKit Point deployment. Open **Microsoft Azure > your Resource group > here you will find App services**. Open each of them and in the **ribbon bar** on the **Overview screen** click the **Stop** button. See the picture.
+Necessary steps before the migration:
+* Stop **SysKit Point Service** on the server where SysKit Point 19 is installed, and keep it that way during the whole process of migration
+* Stop both **Web App Service** and **BE App Service** created during the SysKit Point deployment. Open **Microsoft Azure > your Resource group > here you will find App services**. Open each of them and in the **ribbon bar** on the **Overview screen** click the **Stop** button. See the picture below.
 {% endhint %}
 
 ![Microsoft Azure - Resource group](../.gitbook/assets/migrate-lucene-to-cosmos_microsoft-azure-resource-group.png)
 
-These are the steps:
+## Migration Steps
+To begin with the migration:
 
 1. Download the [**SysKit.Point.MigrationTool.exe**](https://downloads.syskit.com/point/files/SysKitPoint-MigrationTool.zip) to the server where the **SysKit Point** is installed.
-2. Inside the **%ProgramData%\SysKit\Point** folder create a new file **migrationConfig.json**.
-3. Modify the file and add the configuration parameters - here is the example of minimal configuration file:
+2. Inside the **%ProgramData%\SysKit\Point** folder create a new file **migrationConfig.json**. [You can download the example migrationConfig.json](../.gitbook/assets/migrationConfig.json) file here.
+3. Modify the file and add the configuration parameters - here is the example of an edited configuration file:
+
 `{
     "DatabaseId": "PointAudit",
     "TenantGuid": "024f552d-bcbc-4680-a63f-0716e6f3ed7d",
@@ -28,16 +30,17 @@ These are the steps:
     "AuditIndexLocation": "C:\\\ProgramData\\\SysKit\\\Point\\\AuditIndex"    
 }`
 
-    {% hint style="info" %} Hint!
-Tenant ID can be found in the **Azure Active Directory admin center > Overview screen**. Follow the [link](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview).
+{% hint style="info" %} Hint!
+You can find the Tenant ID in the **Azure Active Directory admin center** > **Overview screen**. Follow the [link](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) to access the screen.
 
-    Endpoint **(1)** and key **(2)** can be found in the **Microsoft Azure > Azure Cosmos DB account > Settings > Keys**. See the picture below. {% endhint %}
+Endpoint **(1)** and key **(2)** can be found in the **Microsoft Azure** > **Azure Cosmos DB account** > **Settings > Keys**. See the picture below.
+    
+{% endhint %}
 
 ![Cosmos Endpoint and Primary key information](../.gitbook/assets/migrate-lucene-to-cosmos_cosmos-endpoint-and-key-information.png)
 
 4. Check the size of your Lucene Index. The migration process can be performed at once or in phases. 
-
-    For large indexes, it is recommended to do it in phases. Here are the duration estimates:
+    For large indexes, it is recommended to do it in phases. Here are the duration estimates based on the index size and Cosmos DB throughput:
 
       | Disk Size (GB) | RU/s | Duration (h) |
       | :---| :--- | :--- |
@@ -52,17 +55,17 @@ Tenant ID can be found in the **Azure Active Directory admin center > Overview s
 
       | RU/s | Throughput(GB/h) |
       | :---| :--- |
-      |2500 | 0.465 |
+      | 2500 | 0.465 |
       | 10000 | 1.65 |
-    
  
-5. If you want to separate the migration into smaller phases, add additional parameters to the **migrationConfig.json** to specify the Start and End dates like this: 
+5. If you want to separate the migration into several phases, add additional parameters to the **migrationConfig.json** to specify the Start and End dates like this: 
+
 `{
     "MigrateFromDate": "2021-05-27", //NEWER DATE
     "MigrateUntilDate": "2021-05-26" //OLDER DATE
 }`
 
-6. Run the migration tool by starting **SysKit.Point.MigrationTool.exe** file.
+6. Run the migration tool by starting the **SysKit.Point.MigrationTool.exe** file.
 
 7. On the select operation step, enter value **2** to start the migration of the Lucene index.
 
