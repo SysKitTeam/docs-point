@@ -19,7 +19,7 @@ Necessary steps before the migration:
 To begin with the migration:
 
 1. Download the [**SysKit.Point.MigrationTool.exe**](https://downloads.syskit.com/point/files/SysKitPoint-MigrationTool.zip) to the server where the **SysKit Point** is installed.
-2. Inside the **%ProgramData%\SysKit\Point** folder create a new file **migrationConfig.json**. [You can download the example migrationConfig.json](../.gitbook/assets/migrationConfig.json) file here.
+2. Inside the **%ProgramData%\SysKit\Point** folder create a new file **migrationConfig.json**. [You can find the example migrationConfig.json file here](../.gitbook/assets/migrationConfig.json).
 3. Modify the file and add the configuration parameters - here is the example of an edited configuration file:
 
 `{
