@@ -90,6 +90,7 @@ SysKit Point web page opens, guiding you through the process of [connecting to a
 ## Related Topics
 
 * [System Requirements](../requirements/system-requirements.md)
+* [Activate SysKit Point](../activation/activate-syskit-point.md)
 * [Connect to Microsoft 365 Tenant](connect-to-tenant.md)
 * [Set Up Custom Domain and SSL Certificate](set-up-custom-domain-and-ssl-certificate.md)
 
