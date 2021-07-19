@@ -80,5 +80,5 @@
 * [FAQ](faq/README.md)
   * [Turn On Auditing](faq/turn-on-auditing.md)
   * [Collect Microsoft 365 Data](faq/collect-office-365-data.md)
-  * [Migrate Audit Index to Cosmos](faq/migrate-lucene-to-cosmos.md)
+  * [Migrate Audit Logs](faq/migrate-lucene-to-cosmos.md)
 
