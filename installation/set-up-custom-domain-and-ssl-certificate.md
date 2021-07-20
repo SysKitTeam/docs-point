@@ -39,7 +39,12 @@ Here are the instructions on how to make your SysKit Point web application publi
 ![SSL - Secured](../.gitbook/assets/custom-domain-and-ssl-certificate_secured.png)
 ![Secure Connection](../.gitbook/assets/custom-domain-and-ssl-certificate_secure-connection.png)
 
-6. For Single Sign-on (SSO) to work, you need to add the new URL to the Redirect URIs of the SysKit Point Client app registration. To do that, navigate to __Azure Portal > App Registrations__. Find the __SysKit Point Client__ app registration and click on it, under __Manage > Authentication__ add a new redirect URI in the format __hostname + /auth__, in this example, it would be `https://point-test.syskit.com/auth`. 
+6. __If you added the custom domain before connecting the application to your Microsoft 365 Tenant__, __then you can skip this step__. 
+If you already have a tenant connected, then you need to do the following: 
+    * __For Single Sign-on (SSO) to work__, you need to __add the new URL to the Redirect URIs of the SysKit Point Client app registration__. To do that navigate to __Azure Portal__ > __App Registrations__. Find the __SysKit Point Client app registration__ and click it, under __Manage__ > __Authentication__ add a new redirect URI in the format hostname + /auth, in this example, it would be `https://point-test.syskit.com/auth` 
+    * __For future upgrades to work__, you need to __add the new URL to the Redirect URIs of the SysKit Point Installer app registration__. To do that navigate to __Azure Portal__ > __App Registrations__. Find the __SysKit Point Installer app registration__ and click it, under __Manage__ > __Authentication__ add a new redirect URI in the format hostname + /auth, in this example, it would be `https://point-test.syskit.com/auth`
+    * Lastly, __you need to update the hostname in the SysKit Point database__. Run the following sql command:  
+`UPDATE [dbo].[Options] SET OptionValue = 'https://point-test.syskit.com' WHERE OptionID = 23`
 
 ## Related Topics
 
