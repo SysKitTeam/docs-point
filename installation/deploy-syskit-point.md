@@ -82,7 +82,7 @@ To view the SysKit Point web app URL, do the following:
 * __click the URL link (2)__ available in the Essentials section on the app service's Overview screen
 
 ![](../.gitbook/assets/deploy-syskit-point_app-service.png)
-![SysKit Point Web App URL]](../.gitbook/assets/deploy-syskit-point_url.png)
+![SysKit Point Web App URL](../.gitbook/assets/deploy-syskit-point_url.png)
 
 SysKit Point web page opens, guiding you through the process of [connecting to a tenant for the first time](connect-to-tenant.md). 
 
