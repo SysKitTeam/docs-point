@@ -57,7 +57,7 @@ Define the following on the __Azure SQL settings__ tab:
 * __SQL Password (3)__; enter the same password in the __Confirm SQL Password (4)__ field
 * __click Next (5)__ to move to the __Review + create__ tab
 
-![Web Application Settings Tab](../.gitbook/assets/deploy-syskit-point_azure-sql-settings.png)
+![Azure SQL Settings Tab](../.gitbook/assets/deploy-syskit-point_azure-sql-settings.png)
 
 The __Review + create__ tab shows the following information:
 * __Validation status (1)__ showing whether all resources are correctly configured
