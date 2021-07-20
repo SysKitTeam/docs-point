@@ -30,6 +30,7 @@ Before deploying Azure resources needed to run SysKit Point, you will be prompte
 * __Basics__
 * __Web application settings__
 * __Azure SQL settings__
+
 The last available tab - __Review + create__ - shows an overview of all configured options to check before the deployment is started.
 
 The __Basics__ tab enables you to:
