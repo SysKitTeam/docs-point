@@ -52,7 +52,7 @@ The following permissions are required for __SysKit Point Installer__ Enterprise
 | :--- | :--- | :--- |
 | Access Azure Service Management as organization users | Delegated | Allows SysKit Point to create an additional application in your tenant for safer data access. |
 
-To allow safer access to your Microsoft 365 tenant data and to use Microsoft Authentication for signing in your users to SysKit Point, two additional app registrations are createdv during the [initial connect](../installation/connect-to-tenant.md) process:
+To allow safer access to your Microsoft 365 tenant data and to use Microsoft Authentication for signing in your users to SysKit Point, two additional app registrations are created during the [initial connect](../installation/connect-to-tenant.md) process:
 
 * **SysKit Point Service**
 * **SysKit Point Client**
