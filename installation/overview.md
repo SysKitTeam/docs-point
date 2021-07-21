@@ -2,8 +2,15 @@
 description: This article shows an overview of steps to take when deploying SysKit Point.
 ---
 
+
 # Overview
 
+__SysKit Point__ is an Azure App application deployed in an Azure subscription. 
+After the deployment, the key components shown in the architecture diagram below will be created and ready to run SysKit Point. 
+
+![SysKit Point - Architecture Diagram](../.gitbook/assets/overview_architecture-diagram.png)
+
+## Getting Started
 These are the 3 most important steps to get you started with SysKit Point:
 
 1. [Deploy SysKit Point](deploy-syskit-point.md) to an empty **Azure resource group**
