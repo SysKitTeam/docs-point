@@ -30,6 +30,7 @@ Before deploying Azure resources needed to run SysKit Point, you will be prompte
 * __Basics__
 * __Web application settings__
 * __Azure SQL settings__
+
 The last available tab - __Review + create__ - shows an overview of all configured options to check before the deployment is started.
 
 The __Basics__ tab enables you to:
@@ -56,7 +57,7 @@ Define the following on the __Azure SQL settings__ tab:
 * __SQL Password (3)__; enter the same password in the __Confirm SQL Password (4)__ field
 * __click Next (5)__ to move to the __Review + create__ tab
 
-![Web Application Settings Tab](../.gitbook/assets/deploy-syskit-point_azure-sql-settings.png)
+![Azure SQL Settings Tab](../.gitbook/assets/deploy-syskit-point_azure-sql-settings.png)
 
 The __Review + create__ tab shows the following information:
 * __Validation status (1)__ showing whether all resources are correctly configured
@@ -82,7 +83,7 @@ To view the SysKit Point web app URL, do the following:
 * __click the URL link (2)__ available in the Essentials section on the app service's Overview screen
 
 ![](../.gitbook/assets/deploy-syskit-point_app-service.png)
-![SysKit Point Web App URL]](../.gitbook/assets/deploy-syskit-point_url.png)
+![SysKit Point Web App URL](../.gitbook/assets/deploy-syskit-point_url.png)
 
 SysKit Point web page opens, guiding you through the process of [connecting to a tenant for the first time](connect-to-tenant.md). 
 
