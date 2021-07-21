@@ -6,7 +6,7 @@ description: This article lists Azure resources requirements to consider when de
 
 {% hint style="warning" %}
 **Please note!**  
-**Requirements highly depend on the Microsoft 365 activity, the number of users, and the amount of data in your environment**. The larger the environment, The larger the environment, the higher the resource tier that is required to run SysKit Point smoothly.
+**Requirements highly depend on the Microsoft 365 activity, the number of users, and the amount of data in your environment**. The larger the environment, the higher the resource tier that is required to run SysKit Point smoothly.
 {% endhint %}
 
 When deploying SysKit Point, you will be dealing with Azure resources instead of physical machines. Below, you can __find all Azure resources and the required tiers__, based on the size of your environment.

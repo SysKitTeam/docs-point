@@ -85,7 +85,7 @@ On the __Connect Tenant__ page, you can choose which information would you like 
 * __Automatic Discovery__ – by default, SysKit Point continuously monitors your Microsoft 365 environment and shows you the latest data. You cannot modify this setting.
 * __Autodiscover OneDrive (1)__ – by default, SysKit Point will collect information and report on the users' OneDrive activity, content, and sharing. To stop collecting OneDrive data, uncheck this option.
 * __Protect OneDrive privacy (2)__ – When enabled, SysKit Point will only show general information about the user's OneDrive, such as used storage. SysKit Point Admins won't be able to access any OneDrive content and personal data. By default, this option is disabled.
-__Store audit logs (3)__ – SysKit Point will also collect all audit logs to monitor internal and external user activities and changes and store them on a hard drive. To stop storing audit logs, uncheck this option.
+* __Store audit logs (3)__ – SysKit Point will also collect all audit logs to monitor internal and external user activities and changes and store them on a hard drive. To stop storing audit logs, uncheck this option.
 * __Protect user privacy (4)__ - When enabled, user activity data will be hidden from SysKit Point and protected from Administrator supervision. By default, this option is disabled.
 
 {% hint style="success" %}
