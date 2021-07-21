@@ -20,9 +20,9 @@ Prepare the following for SysKit Point deployment:
 * click the __Continue (2) button__; you will be redirected to Azure Portal
 * click __Create (3)__ to continue with the deployment configuration; __Create SysKit Point__ screen opens with the __Basics__ tab selected
 
-![](../.gitbook/assets/deploy-syskit-point_get.png)
-![](../.gitbook/assets/deploy-syskit-point_continue.png)
-![Getting SysKit Point](../.gitbook/assets/deploy-syskit-point_create.png)
+![SysKit Point on Azure Marketplace](../.gitbook/assets/deploy-syskit-point_get.png)
+![Create App in Azure](../.gitbook/assets/deploy-syskit-point_continue.png)
+![SysKit Point in Azure](../.gitbook/assets/deploy-syskit-point_create.png)
 
 ## Azure Resources Deployment
 
@@ -43,7 +43,7 @@ The __Basics__ tab enables you to:
 
 
 On the __Web application settings__ tab, you will need to define the following:
-* __Website Name (1)__
+* __Website Name (1)__; must be a unique name to create FQDN; the resulting Point web app URL will be: `{wbsiteName}.azurewebsites.net`
 * __Web Application Time Zone (2)__
 * __Web Service Tier (3)__
 * __Backgorund Services Tier (4)__
@@ -82,7 +82,7 @@ To view the SysKit Point web app URL, do the following:
 * __find and click the app service resource (1)__
 * __click the URL link (2)__ available in the Essentials section on the app service's Overview screen
 
-![](../.gitbook/assets/deploy-syskit-point_app-service.png)
+![Azure Resource Group - App Service](../.gitbook/assets/deploy-syskit-point_app-service.png)
 ![SysKit Point Web App URL](../.gitbook/assets/deploy-syskit-point_url.png)
 
 SysKit Point web page opens, guiding you through the process of [connecting to a tenant for the first time](connect-to-tenant.md). 
