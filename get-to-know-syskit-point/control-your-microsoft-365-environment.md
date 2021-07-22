@@ -115,11 +115,6 @@ The last information on this tile is the number of **Sites With Anonymous Sharin
 
 The **Access** and **Lifecycle Management** tiles show the progress of current automated tasks.
 
-{% hint style="warning" %}
-**Please note!**  
-Access Review tile and Lifecycle Management tile are only visible within the **Enterprise subscription plan**. Click [here ](https://www.syskit.com/products/point/pricing/)for more information.
-{% endhint %}
-
 If the Access Review and Lifecycle Management automation is not configured, the tiles will help you navigate to the settings screen by clicking the **Configure Now** button.
 
 {% hint style="info" %}

@@ -20,7 +20,7 @@ These changes can be performed in three locations within SysKit Point Settings:
 
 {% hint style="warning" %}
 **Please note!**  
-E-mail customization is only available as a part of the [**Enterprise subscription plan**](https://www.syskit.com/products/point/pricing/). Only SysKit Point Admin users can customize e-mails.
+Only SysKit Point Admin users can customize e-mails.
 {% endhint %}
 
 ## E-mail Settings
