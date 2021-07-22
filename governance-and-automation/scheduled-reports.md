@@ -14,11 +14,6 @@ With the help of this feature, you can do the following:
 * **define how often and when to send Scheduled Reports**
 * **create a Subscription - group of Scheduled Reports** that share the same schedule frequency and delivery options
 
-{% hint style="warning" %}
-**Please note!**  
-Scheduled Reports are available only in the Enterprise subscription plan.
-{% endhint %}
-
 Users with the following roles assigned in SysKit Point can create Scheduled reports:
 
 * **SysKit Point Admins**
