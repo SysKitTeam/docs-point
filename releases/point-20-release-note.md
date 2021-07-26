@@ -13,9 +13,8 @@ description: This article describes the new features and improvements in SysKit 
 
 ## Get the Latest Version
 
-* **New to SysKit Point?** Get the latest SysKit Point version from [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit_point).
-    Find all steps described in detail in the [deployment article](../installation/deploy-syskit-point.md).
-    [![](https://aka.ms/deploytoazurebutton)](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit_point)
+* **New to SysKit Point?** Get the latest SysKit Point version from [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit_point). 
+Find all steps described in detail in the [deployment article](../installation/deploy-syskit-point.md).
     
 * **Already using SysKit Point?** [Contact us](https://www.syskit.com/company/contact-us/) and migrate your data to SysKit Point 20. 
 
