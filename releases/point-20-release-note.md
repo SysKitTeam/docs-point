@@ -1,7 +1,6 @@
 ---
 description: This article describes the new features and improvements in SysKit Point version 20.
 ---
-
 # SysKit Point 20
 
 [Schedule a demo](https://www.syskit.com/products/point/request-a-demo/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
@@ -11,6 +10,13 @@ description: This article describes the new features and improvements in SysKit 
 **Build number:** 38 
 
 **Release date:** Jul 8, 2021
+
+## Get the Latest Version
+
+* **New to SysKit Point?** Get the latest SysKit Point version from [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit_point).<br/>
+    Find all steps described in detail in the [deployment article](../installation/deploy-syskit-point.md).
+    
+* **Already using SysKit Point?** [Contact us](https://www.syskit.com/company/contact-us/) to arrange a guided migration to the latest version due to changes in SysKit Point's architecture.
 
 ## Features
 
