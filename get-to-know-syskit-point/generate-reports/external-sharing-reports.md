@@ -12,7 +12,7 @@ Use the **dropdown filter**, as shown below in the picture, and select the **Ext
 
 ## Externally Shared Content Report
 
-This report shows you external users that have access to your content via sharing links or have been granted access directly.
+This report shows you external users who have access to your content via sharing links or are granted access directly.
 
 ### Generate Report
 
