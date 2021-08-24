@@ -33,6 +33,8 @@
 * [Get to Know SysKit Point](get-to-know-syskit-point/README.md)
   * [Navigate Through SysKit Point](get-to-know-syskit-point/navigate-through-syskit-point.md) 
   * [Control Your Microsoft 365 Environment](get-to-know-syskit-point/control-your-microsoft-365-environment.md)
+  * [Generate Reports](get-to-know-syskit-point/generate-reports/README.md)
+    * [External Sharing Reports](get-to-know-syskit-point/generate-reports/external-sharing-reports.md)
 * [Configuration](configuration/README.md)
   * [Set Up E-Mail](configuration/set-up-email.md)
   * [Customize Audit Logs Collection](configuration/customize-audit-logs-collection.md)
