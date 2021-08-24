@@ -2,7 +2,7 @@
 
 Reports in this section are useful for managing your Microsoft 365 licenses. Use them to discover assigned, unassigned or inactive Microsoft 365 licenses, check their overall cost. You can also use these reports to identify underutilized licenses all in purpose of driving adoption and also to reduce cost of the licenses by assigning a less expensive ones to users.
 
-## Licenses Overview
+## Licenses Overview Report
 
 Licenses Overview report helps you to discover the assigned, unassigned and inactive Microsoft 365 licenses on your Microsoft 365 tenant. It also shows the overall cost of all the licenses you currently have purchased from Microsoft. 
 
@@ -87,7 +87,7 @@ Other columns that are enabled by default are:
 
 Licenses Distribution report can be exported into PDF and XLSX files and you also have the option of scheduling it.
 
-## Inactive Licenses
+## Inactive Licenses Report
 
 Inactive Licenses report allows you to find and reclaim licenses assigned to inactive or blocked users to easily optimize your Microsoft 365 license cost.
 
