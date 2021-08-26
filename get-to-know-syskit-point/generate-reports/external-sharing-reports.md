@@ -8,8 +8,7 @@ This category contains three reports that you can access through **Report Center
 
 Use the **dropdown filter**, as shown below in the picture, and select the **External Sharing** category.
 
-![Report Center – External sharing reports](../../../.gitbook/assets/external-sharing-reports_report-center-external-sharing-reports.png)
-
+![Report Center – External sharing reports](../../\.gitbook/assets/external-sharing-reports_report-center-external-sharing-reports.png)
 ## Externally Shared Content Report
 
 This report shows you external users who have access to your content via sharing links or are granted access directly.
