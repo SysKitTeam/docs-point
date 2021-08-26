@@ -8,7 +8,7 @@ This category contains three reports that you can access through **Report Center
 
 Use the **dropdown filter**, as shown below in the picture, and select the **External Sharing** category.
 
-![Report Center – External sharing reports](../../.gitbook/assets/external-sharing-reports_report-center-external-sharing-reports.png)
+![Report Center – External sharing reports](../../../.gitbook/assets/external-sharing-reports_report-center-external-sharing-reports.png)
 
 ## Externally Shared Content Report
 
@@ -30,7 +30,7 @@ Default columns displayed in the report are:
 * **Name** of the resource
 * several **permissions levels** depending on availability in your environment; for example - **Full Control, Design, Edit, Contribute, Read, Restricted View**
 
-![Externally Shared Content report](../../.gitbook/assets/external-sharing-reports_externally-shared-content-report.png)
+![Externally Shared Content report](../../../.gitbook/assets/external-sharing-reports_externally-shared-content-report.png)
 		
 There are also additional columns in the **column chooser (1)**:
 		
@@ -43,7 +43,7 @@ There are also additional columns in the **column chooser (1)**:
 * **Is Licensed**
 * **Sign-in Status**
 
-![Externally Shared Content report – column chooser](../../.gitbook/assets/external-sharing-reports_externally-shared-content-report-available-columns.png)
+![Externally Shared Content report – column chooser](../../../.gitbook/assets/external-sharing-reports_externally-shared-content-report-available-columns.png)
 
 
 ### Report Actions
@@ -79,7 +79,7 @@ Default columns displayed in the report are:
 * **Domain**
 * **Last Logged In** time
 
-![External Users report](../../.gitbook/assets/external-sharing-reports_external-users-report.png)
+![External Users report](../../../.gitbook/assets/external-sharing-reports_external-users-report.png)
 		
 There is one additional column in the column chooser:
 		
@@ -122,7 +122,7 @@ Default columns displayed in the report are:
 * **Created On**
 * **Expiration Date**
 
-![Sharing Links report](../../.gitbook/assets/external-sharing-reports_sharing-links-report.png)
+![Sharing Links report](../../../.gitbook/assets/external-sharing-reports_sharing-links-report.png)
 
 An external user can be identified if you look for the color of the user icon. If it's a **green-blue color**, it's an **external user**.
 
