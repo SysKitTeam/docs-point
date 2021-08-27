@@ -21,4 +21,4 @@ Note that it can take up to 24 hours after an event occurs for the corresponding
 
 ## Additional information
 
-You can find additional information about unified audit logs in the [following Microsoft's [article](https://docs.microsoft.com/en-us/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide).
+You can find additional information about unified audit logs in the [following Microsoft's article](https://docs.microsoft.com/en-us/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide).
