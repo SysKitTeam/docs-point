@@ -13,7 +13,7 @@ You can additionaly [customize for which activities will SysKit Point collect au
 
 Azure Active Directory shows all sing-ins performed by users, service principals, apps, and Azure resources.
 **SysKit Point does not collect Azure Active Directory sign-in logs.** 
-SysKit Point collects unified audit logs, which contain a subset of said logs related to Microsoft 365 and are visible in the [Microsoft 365 compliance center](https://compliance.microsoft.com/auditlogsearch).
+SysKit Point collects unified audit logs, which contain sign-in logs related to Microsoft 365 and are visible in the [Microsoft 365 compliance center](https://compliance.microsoft.com/auditlogsearch).
 
 ## How frequently does SysKit Point collect audit logs?
 
