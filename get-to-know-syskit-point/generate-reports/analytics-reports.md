@@ -51,7 +51,7 @@ You can also export site Structure reports to PDF and XLSX format, and you can s
 
 ## Inactive Content Report
 
-Inactive Content report gives you the ability to detect unused sites quickly, Microsoft 365 Groups, and Microsoft Teams in your Microsoft 365 environment. Use this report always to be aware of unused resources in your environment, so you can keep it clean and healthy.
+The Inactive Content report gives you the ability to quickly detect unused sites, Microsoft 365 Groups, and Microsoft Teams in your Microsoft 365 environment. Use this report always to be aware of unused resources in your environment, so you can keep it clean and healthy.
 
 ### Generate Inactive Content Report
 
@@ -164,4 +164,4 @@ Now that your report is generated, you can view the details about members' inter
 
 Network Interaction Details report is a tree-type style report that shows the user as a Parent branch and all other users they interacted with as a child branch. 
 
-The report shows departments for each user so you can see which departments are interacting with each other, it also shows how many Calls and Chat Messages were exchanged between said users.
+The report shows departments for each user so you can see which departments are interacting with each other. It also shows how many calls and chat messages users exchanged.
