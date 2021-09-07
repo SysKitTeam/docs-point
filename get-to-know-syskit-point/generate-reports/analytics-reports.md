@@ -1,6 +1,10 @@
 # Analytics Reports
 
-Reports in this article help track user interaction with Microsoft 365 services, compare adoption between departments and detect which content and services are not being used. For some of these reports, you will need an additional Analytics and Adoption module.
+Reports in this article help you track user interaction with Microsoft 365 services, compare adoption between departments and detect which content and services are not being used. For some of these reports, you will need an additional Analytics and Adoption module.
+
+To access the analytics reports:
+* **Navigate to the Report Center** by clicking the **Reports** tile on the Home screen
+* **Select the 'Analytics' option** in the left-hand filter 
 
 ## Site Analytics Report
 

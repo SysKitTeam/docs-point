@@ -4,27 +4,34 @@ description: External sharing reports provide information about the external use
 
 # External Sharing Reports
 
-This category contains three reports that you can access through **Report Center**.
+This category contains the following reports:
+* **Externally Shared Content**
+* **External Users**
+* **Sharing Links**
 
-Use the **dropdown filter**, as shown below in the picture, and select the **External Sharing** category.
+To generate a report:
+* **Navigate to the Report Center** by clicking the Reports tile on the Home screen
+* **Select the External Sharing category (1)** from the left hand filter
+* **Click a report tile (3)** of he report you want to generate
 
-![Report Center – External sharing reports](../../\.gitbook/assets/external-sharing-reports_report-center-external-sharing-reports.png)
-## Externally Shared Content Report
+## Externally Shared Content
 
-This report shows you external users who have access to your content via sharing links or are granted access directly.
+This report shows content shared with external users via sharing links or by granting the access directly.
 
-### Generate Report
+### Selection & Filters
 
-You can access this report from:
-
-*	Sites Overview screen and Microsoft Teams & Groups Overview screen - select the resource and click on the proper action in the side panel
-*	detail screen of specific resource
-*	the Report Center
-*	some other reports available in SysKit Point - for example, Permissions Matrix report
-
+After clicking the **Externally Shared Content** report tile, a selection step opens where you can:
+* **Filter displayed workspaces** by **changing the view (1)**, **selecting the workspace type (2)**, or **searching (3)**   
+* **Select one or multiple workspaces (4)**
+* **Select content level to be shown (5)**; choose between the following options:
+    * **subsites**
+    * **document libraries & lists**
+    * **folders**
+    * **files & folders**
+* **Click the Run Report button(6)** to generate the report
 ### Report Data
 
-Default columns displayed in the report are:
+The generated report displays all externally shared content based on the workspace and filter selection :
 		
 * **Name** of the resource
 * several **permissions levels** depending on availability in your environment; for example - **Full Control, Design, Edit, Contribute, Read, Restricted View**

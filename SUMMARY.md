@@ -72,7 +72,7 @@
     * [Templates](governance-and-automation/provisioning/templates.md)
     * [Approval Processes](governance-and-automation/provisioning/approval-processes.md)
     * [Request New Workspace](governance-and-automation/provisioning/request-new-workspace.md)
-    * [Approve\/Reject Requests](governance-and-automation/provisioning/approve-reject-requests.md)
+    * [Approve/Reject Requests](governance-and-automation/provisioning/approve-reject-requests.md)
     * [Manage Requests](governance-and-automation/provisioning/manage-requests.md)
   * [SysKit Point Teams App](governance-and-automation/syskit-point-teams-app.md)
   * [Schedule Reports](governance-and-automation/scheduled-reports.md)
