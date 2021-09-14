@@ -6,7 +6,7 @@ description: This article explains how to change privacy settings to fix issues 
 
 ## Problem
 
-On September 1st, Microsoft made changes to **Microsoft 365 usage analytics** and **is now pseudonymizing user-level information by default**. 
+On September 1st, Microsoft changed to **Microsoft 365 usage analytics** and **pseudonymized user-level information by default**. 
 [To see a complete list of affected products and APIs, visit this link.](https://techcommunity.microsoft.com/t5/microsoft-365-blog/privacy-changes-to-microsoft-365-usage-analytics/ba-p/2694137)
 **Changes in the default behavior of the products mentioned above also affected a subset of SysKit Point reports.**
 
