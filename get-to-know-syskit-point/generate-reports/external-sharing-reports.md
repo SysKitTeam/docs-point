@@ -31,15 +31,11 @@ After clicking the **Externally Shared Content** report tile, a selection step o
 * **Click the Run Report button(6)** to generate the report
 ### Report Data
 
-The generated report displays all externally shared content based on the workspace and filter selection :
+The generated report displays all externally shared content based on the workspace and filter selection. The following columns are visible:		
+* **Name** of the workspace, content, groups, and external users that are shown in the tree grid
+* **Permissions levels** showing the level of access for external users on the content; for example, **Full Control**, **Design**, **Read**, **Edit**, **Contribute**
 		
-* **Name** of the resource
-* several **permissions levels** depending on availability in your environment; for example - **Full Control, Design, Edit, Contribute, Read, Restricted View**
-
-![Externally Shared Content report](../../\.gitbook/assets/external-sharing-reports_externally-shared-content-report.png)
-		
-There are also additional columns in the **column chooser (1)**:
-		
+You can find and choose to display additional columns in the **column chooser**:		
 * **URL**
 * **Object Type**
 * **Email**
@@ -49,20 +45,20 @@ There are also additional columns in the **column chooser (1)**:
 * **Is Licensed**
 * **Sign-in Status**
 
-![Externally Shared Content report – column chooser](../../\.gitbook/assets/external-sharing-reports_externally-shared-content-report-available-columns.png)
-
-
 ### Report Actions
 
-Here you can remove and manage users' access directly from this report. Select the item or user and choose the available action from the side panel.
+When the report is displayed, you can do the following actions by clicking the corresponding link from the right-side panel:
+* **Schedule the Report**
+* **Export the report** to an **Excel** or a **PDF file**
+* **Open related reports**
 
-Some of the actions are:
-
-*	**Remove sharing link**
-*	**Remove user access**
-*	**edit user permissions**
-
-This report can be exported (PDF and XLSX) and scheduled.
+You can also manage the access directly from this report by selecting an object or a user, and choose the available action from the side panel.
+The following access management actions can be performed:
+* **Change Owners/Admins**
+* **Remove Sharing Links**
+* **Grant**, **Remove**, and **Edit** user access
+* **Break** and **Restore** permission inheritance
+* **Add** users to groups, **Remove** users from groups, and **Delete** SharePoint groups
 
 ## External Users Report
 
