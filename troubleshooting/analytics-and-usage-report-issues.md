@@ -11,9 +11,11 @@ On September 1st, Microsoft changed to **Microsoft 365 usage analytics** and **p
 **Changes in the default behavior of the products mentioned above also affected a subset of SysKit Point reports.**
 
 ## Affected Reports
-The **following reports will stop working** as a result of pseudonymization of user-level information:
+The **following components will stop working in SysKit Point** as a result of pseudonymization of user-level information:
 
-TODO
+* **Licenses Usage by Service report**
+* **Yammer, Exchange, and Microsoft Teams last activity detection**  
+* **Adoption metrics** and **Teams messages metrics** available on Dashboard
 
 ## Solution
 To restore complete reporting functionality in SysKit Point, revert the change to show identifiable user information. 
