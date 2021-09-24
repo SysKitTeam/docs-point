@@ -84,6 +84,7 @@
   * [Delete and Restore Users](access-management/delete-and-restore-users.md)
   * [View Permission Changes in Microsoft 365](access-management/view-permission-changes.md)
   * [Supervise Microsoft Teams Private Channels](access-management/supervise-microsoft-teams-private-channels.md)
+* [SysKit Point Power BI Companion](power-bi-app/README.md)
 * [FAQ](faq/README.md)
   * [Audit Logs FAQ](faq/audit-faq.md)
   * [How to Turn On Auditing](faq/turn-on-auditing.md)
