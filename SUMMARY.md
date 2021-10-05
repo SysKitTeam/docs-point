@@ -21,6 +21,7 @@
 * [Requirements](requirements/README.md)
   * [System Requirements](requirements/system-requirements.md)
   * [Permission Requirements](requirements/permission-requirements.md)
+  * [Change Log](requirements/permission-requirements-change-log.md)
 * [Installation](installation/README.md)
   * [Overview](installation/overview.md)
   * [Deploy SysKit Point](installation/deploy-syskit-point.md)
