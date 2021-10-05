@@ -4,7 +4,7 @@ description: This article provides a list of permission changes in SysKit Point 
 
 SysKit Point is constantly evolving and adding new features. Sometimes, we require additional consent from a Global administrator in your organization for these new features to work. This might be needed after you upgraded to the latest version of SysKit Point.
 
-## How to tell if Global Admin re-consent is needed after the upgrade?
+## How To Tell if Global Admin Re-Consent Is Needed After the Upgrade?
 If the latest SysKit Point version has some new permissions requirements to which your Global Administrator has not consented before, you will get a notification at the bottom of the Welcome Home screen after your first sign in to the new version:
 
 **Global Admin Reconsent Needed** - Grant permissions to SysKit Point to use the latest feature.
