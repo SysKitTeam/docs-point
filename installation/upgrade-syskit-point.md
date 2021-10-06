@@ -20,25 +20,29 @@ This article **describes SysKit Point upgrades from version 20 onwards**.
 
 The **Read What's New** **link \(1\)** opens a new tab in your browser at the [Releases](../releases/) section in SysKit Point documentation, where you can find out about new features, improvements, and bug fixes by each product version.
 
-Clicking the **Download Latest Version \(2\)** link will redirect you to the latest **Release Note page** displaying the **Upgrade SysKit Point** button. 
+Clicking the **Download Latest Version \(2\)** link will redirect you to the latest **Release Note page** displaying the **Deploy to Azure** button. 
 
 **To hide the Update message**, **click the Close link \(3\)** visible on the right side. The message will stay hidden until the next time you log in to SysKit Point.
 
 ## Upgrading to the Latest Version
 
-After you open the latest Release note, click the **Upgrade SysKit Point** button:  <br/>
-[![Upgrade SysKit Point](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitassetsstorage.blob.core.windows.net%2Fpoint%2FUpdateFilesARM%2FPointUpdateTemplate.json)
+After you **open the latest Release note**, **click** the **Deploy to Azure button (1)**.
+![Deploy to Azure Button](../.gitbook/assets/upgrade-syskit-point_deploy-button.png)
 
 The **Custom deployment** screen in Azure Portal opens. 
 Here you need to:
 * **Select the Resource group (1)** wherein the current SysKit Point version is deployed
 * **Select Region (2)** - use the location of your currently deployed SysKit Point resources
-* **Enter Website Name (3)** - enter the App Service resource Name
+* **Enter Website Name (3)** - enter the App Service resource Name; you can **find the App Service name (5)** by navigating to the Overview screen of SysKit Point resource group
 * **Click Next: Review + create > (4)** - Review + create screen opens showing entered data; check that the entered data is correct and click **Create**
 
 ![Azure Portal - Custom Deployment](../.gitbook/assets/upgrade-syskit-point_custom-deployment.png)
+![Resource Group - App Service Name](../.gitbook/assets/upgrade-syskit-point_app-service-name.png)
+## Next Steps
 
-**After the deployment is completed, you can access the SysKit Point web app again.**
+After the deployment is completed, you can:
+* **Access the SysKit Point web app**
+* [Check if a re-consent is needed after the upgrade](../requirements/permission-requirements-change-log.md)
 
 {% hint style="info" %}
 **Hint!**  
