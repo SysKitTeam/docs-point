@@ -21,6 +21,4 @@ description: This article describes the new features and improvements in SysKit 
 
 See detailed step-by-step instructions on how to upgrade SysKit Point in the [upgrade article](../installation/upgrade-syskit-point.md).
 
-[Contact us](https://www.syskit.com/company/contact-us/) to arrange a guided migration to the latest version due to changes in SysKit Point's architecture.
-
 ## Features
