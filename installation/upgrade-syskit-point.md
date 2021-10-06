@@ -37,6 +37,7 @@ Here you need to:
 * **Click Next: Review + create > (4)** - Review + create screen opens showing entered data; check that the entered data is correct and click **Create**
 
 ![Azure Portal - Custom Deployment](../.gitbook/assets/upgrade-syskit-point_custom-deployment.png)
+
 ![Resource Group - App Service Name](../.gitbook/assets/upgrade-syskit-point_app-service-name.png)
 ## Next Steps
 
