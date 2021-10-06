@@ -4,7 +4,13 @@ description: This article explains how to upgrade SysKit Point to the latest ver
 
 # Upgrade SysKit Point
 
-Since **SysKit Point** is frequently getting new features, we highly recommend having the latest available version installed, to use its maximum potential.
+Since **SysKit Point** is frequently getting new features, we highly recommend deploying the latest available version to use its maximum potential.
+
+{% hint style="warning" %}
+**Please note!**  
+This article **describes SysKit Point upgrades from version 20 onwards**. 
+* **If you are using SysKit Point 19**, [contact us](https://www.syskit.com/company/contact-us/) to arrange a guided migration to the latest version due to changes in SysKit Point's architecture.
+{% endhint %}
 
 ## Checking for Updates
 
@@ -14,30 +20,25 @@ Since **SysKit Point** is frequently getting new features, we highly recommend h
 
 The **Read What's New** **link \(1\)** opens a new tab in your browser at the [Releases](../releases/) section in SysKit Point documentation, where you can find out about new features, improvements, and bug fixes by each product version.
 
-**If you activated SysKit Point**, clicking the **Download Latest Version \(2\)** link will redirect you to the [Customers Portal](https://my.syskit.com/) page. From there, download the latest SysKit Point version available. In case you are using a **trial version** of SysKit Point, the same link will redirect you to the **SysKit Point web download page**.
+Clicking the **Download Latest Version \(2\)** link will redirect you to the latest **Release Note page** displaying the **Upgrade SysKit Point** button. 
 
 **To hide the Update message**, **click the Close link \(3\)** visible on the right side. The message will stay hidden until the next time you log in to SysKit Point.
 
 ## Upgrading to the Latest Version
 
-After you download the newest version of the application, follow these steps to upgrade SysKit Point:
+After you open the latest Release note, click the **Upgrade SysKit Point** button:  <br/>
+[![Upgrade SysKit Point](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitassetsstorage.blob.core.windows.net%2Fpoint%2FUpdateFilesARM%2FPointUpdateTemplate.json)
 
-* **Unpack the previously downloaded .zip file and run the SysKitPointSetup.exe setup** file on the server where SysKit Point is installed. 
-* The installation wizard will require to uninstall the previous version of SysKit Point. Click **Next** to continue. 
+The **Custom deployment** screen in Azure Portal opens. 
+Here you need to:
+* **Select the Resource group (1)** wherein the current SysKit Point version is deployed
+* **Select Region (2)** - use the location of your currently deployed SysKit Point resources
+* **Enter Website Name (3)** - enter the App Service resource Name
+* **Click Next: Review + create > (4)** - Review + create screen opens showing entered data; check that the entered data is correct and click **Create**
 
-![Installation wizard - Previous Version Uninstallation message](../.gitbook/assets/upgrade-syskit-point_previous-version-uninstallation.png)
+![Azure Portal - Custom Deployment](../.gitbook/assets/upgrade-syskit-point_custom-deployment.png)
 
-* Follow the wizard through the installation steps. All installation steps are described [here](deploy-syskit-point-to-cloud/install-syskit-point-on-azure-vm.md).
-* After the installation is completed, the **Configuration Wizard** opens automatically.
-* On the **Database** step, select the **Use existing database** option to preserve all data collected by SysKit Point. Click **Next** to proceed.
-* On the **Database Configuration** step, click **Next**. A **warning message** is displayed. Before you continue, **consider backing up the database** to ensure no data is lost in an unlikely event of an upgrade failure. Click **Yes** to continue.
-
-![Configuration Wizard - Database upgrade warning](../.gitbook/assets/upgrade-syskit-point_database-upgrade%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
-
-* On the **Service Settings** step, enter your **service account** and validate it. Click **Next**.
-* On the **Connect to Microsoft 365** step, you can see that your **tenant is already connected** with the application. Proceed to the next step.
-* On the **Web Application Settings** step, click the **Next** button. 
-* On the **Finish** step, wait until all the checks are done and click the **Finish** button to open the SysKit Point web application in your browser.
+**After the deployment is completed, you can access the SysKit Point web app again.**
 
 {% hint style="info" %}
 **Hint!**  

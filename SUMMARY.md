@@ -28,6 +28,7 @@
   * [Deploy SysKit Point](installation/deploy-syskit-point.md)
   * [Connect to Microsoft 365 Tenant](installation/connect-to-tenant.md)
   * [Set Up Custom Domain and SSL Certificate](installation/set-up-custom-domain-and-ssl-certificate.md)
+  * [Upgrade SysKit Point](installation/upgrade-syskit-point.md)
 * [Activation](activation/README.md)
   * [Activate SysKit Point](activation/activate-syskit-point.md)
   * [Activation Privacy Statement](activation/activation-privacy-statement.md)
