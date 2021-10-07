@@ -72,6 +72,7 @@
     * [Orphaned Resources](governance-and-automation/automated-workflows/orphaned-resources.md)
   * [Provisioning](governance-and-automation/provisioning/README.md)
     * [Set Up Provisioning](governance-and-automation/provisioning/set-up-provisioning.md)
+    * [Register Yammer App](governance-and-automation/provisioning/register-yammer-app.md)
     * [Templates](governance-and-automation/provisioning/templates.md)
     * [Approval Processes](governance-and-automation/provisioning/approval-processes.md)
     * [Request New Workspace](governance-and-automation/provisioning/request-new-workspace.md)
