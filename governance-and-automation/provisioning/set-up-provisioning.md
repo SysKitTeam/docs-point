@@ -8,7 +8,7 @@ description: This article explains how to get started with provisioning in SysKi
 
 To set up a complete provisioning process that fits your company needs, there are a couple of things that will require your attention: 
 
-1) **Provisioning Templates** – you need to specify which types of workspaces end-users can request 
+1) **Provisioning Templates** – you need to specify which types of workspaces end-users can request. Navigate to the [following article](templates.md) to learn more about templates.
 
 2) **Approval Processes** – define a set of rules each new workspace request needs to go through to be approved. See the [article](approval-processes.md) for more information.
 
