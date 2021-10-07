@@ -46,6 +46,7 @@ A registration dialog opens, where you need to:
 Once finished, a new screen loads, showing the following **information about the registered Yammer app**:
 * **Client ID (1)**
 * **Client Secret (2)**
+
 **Copy and paste the information provided here to the Yammer app registration screen in SysKit Point**, as described in the previous section.
 
 ![Yammer App - Client ID and Secret](../../.gitbook/assets/register-yammer-app_yammer-app-id-secret.png)
