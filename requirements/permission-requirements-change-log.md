@@ -9,7 +9,9 @@ If the latest SysKit Point version has some new permissions requirements to whic
 
 **Global Admin Reconsent Needed** - Grant permissions to SysKit Point to use the latest feature.
 
-To resolve this and ensure all the new features work properly, ask your Global Administrator to sign in to SysKit Point and click **Reconsent** on the shown notification.
+To resolve this and ensure all the new features work properly, ask your Global Administrator to sign in to SysKit Point and click **Reconsent (1)** on the shown notification.
+
+![Home Screen - Reconsent](../.gitbook/assets/permission-requirements-change-log_reconsent.png)
 
 
 # Change Log
