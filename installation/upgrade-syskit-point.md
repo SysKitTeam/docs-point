@@ -33,7 +33,7 @@ The **Custom deployment** screen in Azure Portal opens.
 Here you need to:
 * **Select the Resource group (1)** wherein the current SysKit Point version is deployed
 * **Select Region (2)** - use the location of your currently deployed SysKit Point resources
-* **Enter Website Name (3)** - enter the App Service resource Name; you can **find the App Service name (5)** by navigating to the Overview screen of SysKit Point resource group
+* **Enter App service Name (3)** - enter the App Service resource Name; you can **find the App Service name (5)** by navigating to the Overview screen of SysKit Point resource group
 * **Click Next: Review + create > (4)** - Review + create screen opens showing entered data; check that the entered data is correct and click **Create**
 
 ![Azure Portal - Custom Deployment](../.gitbook/assets/upgrade-syskit-point_custom-deployment.png)
