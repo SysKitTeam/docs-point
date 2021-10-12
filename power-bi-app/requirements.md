@@ -24,8 +24,9 @@ To do so:
 * **Open Security > Firewalls and virtual networks**
 * **Set the Deny public network access option to No (1)** > **Save**
 * **Click Add Client IP (2) to allow access for your client machine** > **Save**; this is needed to connect to SysKit Point database via SQL Server Management Studio
-* **Add a new firewall rule (3) to allow access for Power BI App** > **Save**; here, the following IP range should be added, deppending on your region:
-    * **TODO**
+* **Set the Allow Azure services and resources to access this server option to Yes (3) to allow access for Power BI App** > **Save**
+
+![Azure SQL - Allowing Access](../.gitbook/assets/power-bi-requirements_sql-server.png)
 
 ## Creating Server Login and Database User for Power BI App
 

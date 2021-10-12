@@ -23,10 +23,10 @@ The app is deployed but shows a set of example data in the reports.
 ## Connect to Your Tenant
 To show data from your tenant, SysKit Point Power BI app needs to be connected to your tenant. 
 To connect the app, do the following:
-* **Click the Connect your data link (1)** in the warning ribbon
+* **Click the Connect your data link** in the warning ribbon
 * **Enter SysKit Point database parameters:**
-    * **SysKit Point SQL Server (2)**
-    * **SysKit Point Database (3)** - enter `SysKitPointDB`
+    * **SysKit Point SQL Server**
+    * **SysKit Point Database** - enter `SysKitPointDB`
 * **Click Next**
 
 On the next screen, follow these steps:
