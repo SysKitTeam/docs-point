@@ -19,13 +19,22 @@ Available actions for these templates are listed under the **Manage** column and
  
 ## Create a New Provisioning Template 
 
-To create your custom template from scratch, click the **New Template** button. You will need to define several settings: 
+To create your custom template from scratch, click the **New Template** button. 
 
+You firts need to choose the type of workspace you want to create the template for. 
+You can create templates for the following workspaces:
+- **Microsoft Teams**
+- **SharePoint Site**
+- **Yammer Community**
+- **Microsoft 365 Group**
+
+### Microsoft Teams Template
+
+When creating a template for Microsoft Teams, you will need to define the following:
 - **Name** – a name you provide here will be used as a template name that is visible to your users 
 - **Description** – describe in short when to use this template; end-users will see it when requesting a new workspace using a list of templates 
 - **Microsoft template ID** – this property is used to predefine apps, channels, and tabs that should be created for new workspaces that use this Syskit Point template. 
-
-  1) If you leave this property empty, default apps or channels will not be created, it will be a blank MS team. 
+  1) If you leave this property empty, default apps or channels will not be created; it will be a blank MS team. 
 
   2) SysKit Point integrates with team templates you’ve created in the **Microsoft 365 Teams admin center**. When you enter a team template ID, SysKit Point will create apps, tabs, and channels you defined there. 
 
@@ -34,7 +43,7 @@ To create your custom template from scratch, click the **New Template** button. 
        1) Navigate to the Microsoft Teams [admin center](https://admin.teams.microsoft.com/)
        2) Under the tab Teams, select **Team templates**
        3) Click the name of the template to review apps and channels they include 
-       4) Copy the Template ID and paste in SysKit wizard 
+       4) Copy the Template ID and paste in the SysKit wizard 
 
           To create a brand-new Teams template in the admin center, follow the [Microsoft guide](https://docs.microsoft.com/en-us/microsoftteams/create-a-team-template).
 
@@ -47,13 +56,35 @@ To create your custom template from scratch, click the **New Template** button. 
   - Allow end-users to specify additional ones in addition to predefined users 
   - Leave this option altogether to the end-user who is requesting a new workspace 
 
-- **Members** – allows multiple options 
+- **Members** – allows multiple options: 
   - Predefine members that are always added to this type of workspace 
-  - Allow end-users to specify additional ones in addition to pre-defined users 
+  - Allow end-users to specify additional ones in addition to predefined users 
   - Leave this option completely to the end-user who is requesting a new workspace 
 
-- **Naming policy** – predefine suffix or prefix that will be added to a name of a workspace created using this template. 
-  - E.g., setting the prefix to **Marketing** results that each workspace created from this template will be named in a form **Marketing – (Request Name)**
+ - **Primary Contact** – allows multiple options: 
+  - Predefine a user that will be set as the primary contact for the created workspace
+  - Allow end-users to specify the Primary contact for the workspace
+
+ - **Secondary Contact** – allows multiple options: 
+  - Predefine a user that will be set as the Secondary contact for the created workspace
+  - Allow end-users to specify the Secondary contact for the workspace
+
+- **Sharing Settings** - choose from available options:
+  - Anyone
+  - New and existing guests
+  - Existing guests only
+  - Only people in your organization
+  Note that available options depend on defined tenant-level external sharing policies. For example, if sharing files and folders using links that don't require sign-in is not allowed, the Anyone option will not be enabled.
+
+- **Sensitivity Label** - choose from available sensitivity labels available in your tenant
+  To use sensitivity labels in SysKit Point, make sure to set up your environment as described in the [following article](enable-sensitivity-labels.md).
+
+- **Department** - choose from available values based on the data available in your Azure AD
+
+- **Terms & Conditions** - define the terms & conditions text displayed to end-users when they request a new workspace
+
+- **Naming Rule** – predefine suffix or prefix that will be added to a name of a workspace created using this template. 
+  - for example, setting the prefix to **Marketing** results that each workspace created from this template will be named in a form **Marketing – (Request Name)**
 
 - **Approval process** – define who is responsible for approving the requests using this template. 
     
@@ -76,4 +107,42 @@ To create your custom template from scratch, click the **New Template** button. 
 
   Read more about setting up these governance policies and customizing them to your needs [here](../automated-workflows/set-up-automated-workflows.md).
  
-Once you complete this process, your new template will appear in the **Templates** list and will become visible for end-users in **SysKit Point teams app** when requesting a new workspace. 
+Once you complete this process, your new template will appear in the **Templates** list and will become visible for end-users in **SysKit Point Teams app** when requesting a new workspace. 
+
+### SharePoint Site Template
+
+When creating a SharePoint Site template, there are a couple of differences compared to Microsoft Teams template.
+
+- **Site Template** - you can choose the site template for the SharePoint Site workspace created from this template
+
+- **Primary Site Collection Admin** – allows multiple options: 
+  - Predefine the primary site collection admin
+  - Allow end-users to specify the primary site collection admin
+
+- **Additional Site Collection Admins** – allows multiple options:
+  - Predefine site collection admins that are always added to this type of workspace 
+  - Allow end-users to specify additional ones in addition to predefined admins
+  - Leave this option altogether to the end-user who is requesting a new workspace 
+
+- **Site Members** – allows multiple options:
+  - Predefine site members that are always added to this type of workspace 
+  - Allow end-users to specify additional members in addition to predefined members
+  - Leave this option altogether to the end-user who is requesting a new workspace 
+
+### Yammer Community Template
+
+When creating a Yammer Community template, there are a couple of differences compared to Microsoft Teams template.
+
+- **Community Admins** – allows multiple options:
+  - Predefine community admins that are always added to this type of workspace 
+  - Allow end-users to specify additional ones in addition to predefined community admins
+  - Leave this option altogether to the end-user who is requesting a new workspace 
+
+- **Community Members**
+  - Predefine community members that are always added to this type of workspace 
+  - Allow end-users to specify additional community members in addition to predefined community members
+  - Leave this option altogether to the end-user who is requesting a new workspace 
+
+### Microsoft 365 Group Template
+
+Find all options available when creating a Microsoft 365 Group template described in the [Microsoft Teams Template section](#microsoft-teams-template).
