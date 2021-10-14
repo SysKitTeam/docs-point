@@ -1,6 +1,7 @@
 ---
 description: This article describes the new features and improvements in SysKit Point version 20.
----
+--- 
+
 # SysKit Point 20
 
 [Schedule a demo](https://www.syskit.com/products/point/request-a-demo/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
