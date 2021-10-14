@@ -6,9 +6,9 @@ description: This article describes the new features and improvements in SysKit 
 
 [Schedule a demo](https://www.syskit.com/products/point/request-a-demo/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
-**Product version:** 2021.10.14 
+**Product version:** 2021.10.13 
 
-**Build number:** 1
+**Build number:** 2
 
 **Release date:** Oct 14, 2021
 
