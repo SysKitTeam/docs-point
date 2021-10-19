@@ -2,7 +2,6 @@
 
 * [SysKit Point](README.md)
 * [Releases](releases/README.md)
-  * [SysKit Point 2021.10.15](releases/point-2021-10-15-release-note.md)
   * [SysKit Point 2021.10](releases/point-2021-10-release-note.md)
   * [SysKit Point 20](releases/point-20-release-note.md)
   * [SysKit Point 19.0.2](releases/point-19-0-2-release-note.md)
