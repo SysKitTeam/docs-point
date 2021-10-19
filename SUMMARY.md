@@ -84,6 +84,8 @@
   * [View Permission Changes in Microsoft 365](access-management/view-permission-changes.md)
   * [Supervise Microsoft Teams Private Channels](access-management/supervise-microsoft-teams-private-channels.md)
 * [SysKit Point Power BI Companion](power-bi-app/README.md)
+  * [Requirements](power-bi-app/requirements.md)
+  * [Deploy SysKit Point Power BI App](power-bi-app/deploy-power-bi-app.md)
 * [FAQ](faq/README.md)
   * [Security](faq/security.md)
   * [Audit Logs](faq/audit.md)

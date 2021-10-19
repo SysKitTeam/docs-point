@@ -28,6 +28,11 @@ Additional fields are displayed, where you can:
 * **Enter service account password (2)**
 * **Click the Connect button (3)** to finish
 
+{% hint style="warning" %}
+**Please note!**  
+**Use a service account that does not require MFA.**
+{% endhint %}
+
 **After successful connection the connect button turns green and shows a checkmark.**
 
 ## Next Steps
