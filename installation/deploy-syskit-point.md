@@ -85,7 +85,9 @@ To view the SysKit Point web app URL, do the following:
 ![Azure Resource Group - App Service](../.gitbook/assets/deploy-syskit-point_app-service.png)
 ![SysKit Point Web App URL](../.gitbook/assets/deploy-syskit-point_url.png)
 
-SysKit Point web page opens, guiding you through the process of [connecting to a tenant for the first time](connect-to-tenant.md). 
+SysKit Point web page opens.
+First, you will be prompted to [activate SysKit Point](../activation/activate-syskit-point.md)
+Once activated, SysKit Point will guide you through the process of [connecting to a tenant for the first time](connect-to-tenant.md). 
 
 
 ## Related Topics
