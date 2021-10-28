@@ -29,6 +29,19 @@ E-mail address set up in this section will appear in the **Sent from** field in 
 Exchange Online has a sending limit of 10000 e-mails per day.
 {% endhint %}
 
+{% hint style="warning" %}
+**Please Note!**
+When setting up the e-mail, please use a supported mailbox address, as specified in the table below.
+{% endhint %}
+
+| Mailbox type | Supported |
+| :--- | :--- | 
+| Microsoft 365 user mailbox | YES |
+| Shared mailbox | YES |
+| Distribution list | NO |
+| Microsoft 365 group | NO |
+| E-mail enabled security group | NO |
+
 The Exchange Online method enables you to use an existing Exchange account in your Microsoft 365 tenant to send e-mails from SysKit Point. Here, you can:
 
 * **enter a valid e-mail address in the Sent from field \(1\)**
