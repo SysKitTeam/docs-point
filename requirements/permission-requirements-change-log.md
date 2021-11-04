@@ -17,7 +17,7 @@ To resolve this and ensure all the new features work properly, ask your Global A
 # Change Log
 Depending on which version you are upgrading to, below you can find the list of changes in permissions requested and which features depend on them.
 
-## SysKit Point 21
+## SysKit Point 2021.10
 
 **The following permissions were added**:
 
