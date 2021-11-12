@@ -4,14 +4,6 @@ description: This article describes how to navigate SysKit Point when starting t
 
 # Navigate Through SysKit Point
 
-## SysKit Point Web App URL
-
-After you complete the installation and come to the last step in SysKit Point Configuration Wizard, you can see the **SysKit Point web-app URL** displayed.
-
-![Configuration Wizard - SysKit Point web-app URL](../.gitbook/assets/syskit-point-quick-start-guide_syskit-point-web-app-url%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
-
-Once you click the Finish button, SysKit Point should open in your default browser. You can also copy the URL directly from the text box and paste it to your preferred browser.
-
 ## Sign In Screen
 
 Once opened in your browser, SysKit Point shows the Welcome screen. Click the **Sign in** button.
