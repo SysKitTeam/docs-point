@@ -15,7 +15,7 @@ When deploying SysKit Point, you will be dealing with Azure resources instead of
 | :--- | :--- | :--- | :--- |
 | App Service - FE | Standard Tier - S1; 100 Total ACU, 1.75 GB memory, A-Series compute equivalent | Standard Tier - S2; 200 Total ACU, 3.5 GB memory, A-Series compute equivalent | Premium Tier - P2V2; 420 total ACU, 7 GB memory, Dv2-Series compute equivalent |
 | App Service - BE | Standard Tier - S1; 100 Total ACU, 1.75 GB memory, A-Series compute equivalent | Standard Tier - S2; 200 Total ACU, 3.5 GB memory, A-Series compute equivalent | Premium Tier - P2V2; 420 total ACU, 7 GB memory, Dv2-Series compute equivalent |
-| Azure SQL DB | Standard Tier - S1; 20 DTUs | General Purpose Tier; Gen5, 2 vCores | General Purpose Tier; Gen5, 4 vCores |
+| Azure SQL DB | Standard Tier - S1; 20 DTUs | General Purpose Tier; Compute tier - provisioned; Gen5, 2 vCores | General Purpose Tier; Compute tier - provisioned; Gen5, 4 vCores |
 | Cosmos DB | Provisioned throughput (manual); 3,000 RU/sec | Provisioned throughput (manual); 5,000 RU/sec | Provisioned throughput (manual); 10,000 RU/sec |
 | Service Bus | Basic tier: 10 million messaging operations/mo | Basic tier: 10 million messaging operations/mo | Basic tier: 10 million messaging operations/mo |
 | Storage Account | General Purpose v2 | General Purpose v2 | General Purpose v2 |
