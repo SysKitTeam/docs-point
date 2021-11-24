@@ -100,5 +100,5 @@ The **Apply Access Review Policy** dialog opens where you can:
 
 Once you're done assigning policies to **Microsoft Teams**, **Microsoft 365 Groups**, **OneDrive**, and **sites,** you can:
 * [define who will perform the Access Review in greater detail](access-review-options.md#manage-reviewers) by removing specific users from reviewers
-* [configure general Access Review options](access-review-options.md#manage-reviewers) applied to all Access Review Policies
+* [configure general Access Review options](access-review-options.md#review-options) applied to all Access Review Policies
 * [customize Access Review e-mail](../../configuration/customize-emails.md#access-review-settings)
