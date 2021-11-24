@@ -1,5 +1,5 @@
 ---
-description: This article lists bug fixes and improvements in SysKit Point version 2021.11.
+description: This article lists improvements and bug fixes in SysKit Point version 2021.11.
 --- 
 
 # SysKit Point 2021.11
