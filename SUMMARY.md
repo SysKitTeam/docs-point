@@ -49,6 +49,7 @@
   * [Access Review](governance-and-automation/permissions-review/README.md)
     * [Enable Automated Access Review](governance-and-automation/permissions-review/enable-permissions-review.md)
     * [Create and Apply Access Review Policies](governance-and-automation/permissions-review/create-apply-access-review-policies.md)
+    * [Modify Access Review Options](governance-and-automation/permissions-review/access-review-options.md)
     * [Perform Access Review in SysKit Point](governance-and-automation/permissions-review/permissions-review.md)
     * [Monitor Access Review in SysKit Point](governance-and-automation/permissions-review/monitor-permissions-review.md)
     * [Manually Request Access Review in SysKit Point](governance-and-automation/permissions-review/manually-request-permissions-review.md)
