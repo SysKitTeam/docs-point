@@ -8,7 +8,7 @@ description: This article lists improvements and bug fixes in SysKit Point versi
 
 **Product version:** 2021.11.25 
 
-**Build number:** 2
+**Build number:** 4
 
 **Release date:** Nov 25, 2021
 
