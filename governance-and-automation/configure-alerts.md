@@ -79,7 +79,7 @@ The following table shows the **availability of alerts per scope**:
 
 | Alert Category | Alerts | Resource / Scope |
 | :--- | :--- | :--- |
-| External Collaboration | Shared File or Folder Externally, External User FIle Activity | Microsoft Teams, Microsoft 365 Groups, OneDrive, sites |
+| External Collaboration | Shared File or Folder Externally, External User File Activity | Microsoft Teams, Microsoft 365 Groups, OneDrive, sites |
 | Sharing Activities | Shared File or Folder, Shared With Everyone | Microsoft Teams, Microsoft 365 Groups, OneDrive, sites |
 | Site Administration Activities | Site Administrators Changed, Added User or Group to SharePoint Group, Changed Sharing Policy, Deleted Site, Renamed Site, Created SharePoint Group, Deleted SharePoint Group, Updated SharePoint Group | Microsoft Teams, Microsoft 365 Groups, OneDrive, sites |
 | File & Folder Activities | Accessed File, Checked In File, Checked Out File, Copied File, Detected Malware in File, Downloaded File, Moved File, Uploaded File, Created Folder, Changed File or Folder | Microsoft Teams, Microsoft 365 Groups, OneDrive, sites |
