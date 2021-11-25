@@ -33,5 +33,5 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
 * **Added support for various types of sharing links**.
 * **Fixed an issue** where Access Review e-mails and tasks were created for the wrong users.
 * **Fixed an issue** where report links on Groups & Teams overview would result in an empty report.
-* **Fixed a bug** where provisioning a group with more than 20 members would fail with the following error: `Exceeded changed links limit(20)`.
+* **Fixed a bug** where provisioning a group with more than 20 members would fail with the following error: `Exceeded changed links limit(20)`
 * **Various UX/UI improvements and minor fixes are available**.
