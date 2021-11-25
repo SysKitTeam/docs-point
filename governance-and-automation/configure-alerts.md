@@ -53,7 +53,9 @@ The following **tenant wide alert categories and alerts are available** for Micr
 | Sharing Activities | Shared File or Folder, Shared With Everyone | Sites, Microsoft Teams & Groups |
 | Site Administration Activities | Site Administrators Changed, Changed Sharing Policy, Created Site Collection, Deleted Site, Renamed Site | Sites, Microsoft Teams & Groups |
 | Microsoft Teams Activities | Created Team, Deleted Team | Sites, Microsoft Teams & Groups |
-| User Activities | User Logged in, User Login Failed | Users |
+| Privacy Changes| Changed Private Group to Public, Changed Private Team to Public | Sites, Microsoft Teams & Groups |
+| Sensitivity Labels Changes | Changed Sensitivity Label on Site | Sites, Microsoft Teams & Groups |
+| User Activities | User Logged in, User Login Failed, External User Logged in, External User Login Failed | Users |
 | User & Role Administration Activities | Added User, Deleted User, Added User to Role, Removed User from Role | Users |
 
 ### Site-Specific Alerts
@@ -77,12 +79,15 @@ The following table shows the **availability of alerts per scope**:
 
 | Alert Category | Alerts | Resource / Scope |
 | :--- | :--- | :--- |
-| External Collaboration | Shared File or Folder Externally | Microsoft Teams, Microsoft 365 Groups, OneDrive, sites |
+| External Collaboration | Shared File or Folder Externally, External User File Activity | Microsoft Teams, Microsoft 365 Groups, OneDrive, sites |
 | Sharing Activities | Shared File or Folder, Shared With Everyone | Microsoft Teams, Microsoft 365 Groups, OneDrive, sites |
 | Site Administration Activities | Site Administrators Changed, Added User or Group to SharePoint Group, Changed Sharing Policy, Deleted Site, Renamed Site, Created SharePoint Group, Deleted SharePoint Group, Updated SharePoint Group | Microsoft Teams, Microsoft 365 Groups, OneDrive, sites |
 | File & Folder Activities | Accessed File, Checked In File, Checked Out File, Copied File, Detected Malware in File, Downloaded File, Moved File, Uploaded File, Created Folder, Changed File or Folder | Microsoft Teams, Microsoft 365 Groups, OneDrive, sites |
 | SharePoint List Activities | Created List, Deleted List | Microsoft Teams, Microsoft 365 Groups, OneDrive, sites |
+| Sensitivity Labels Changes | Changed Sensitivity Label on Site | Microsoft Teams, Microsoft 365 Groups, OneDrive, sites  |
 | Microsoft Teams & Groups Membership Changes | Added Member, Removed Member | Microsoft Teams, Microsoft 365 Groups |
+| Privacy Changes | Changed Private Team/Group to Public | Microsoft Teams/Microsoft 365 Groups |
+| Microsoft Teams Activities | Added Bot to Team, Removed Bot from Team, Added Channel, Deleted Channel, Added Connector, Updated Connector, Removed Connector, Added Tab, Updated Tab, Removed Tab, Deleted Team, Changed Team Settings, Changed Channel Settings | Microsoft Teams |
 
 ### User-Specific Alerts
 
