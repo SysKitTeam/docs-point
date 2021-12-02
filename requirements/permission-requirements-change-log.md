@@ -21,7 +21,7 @@ Depending on which version you are upgrading to, below you can find the list of 
 
 **The following app registrations were added**:
 * **SysKit Point Permissions Loader** - used for optimized data sync of SharePoint sites and OneDrive
-* **SysKit Point API** - used for third-party app integration to get SysKit Point data and use it in other business applications and web services; currently in Beta stage; by default, the app registration has **no permissions added**
+* **SysKit Point API** - used for third-party app integration to get SysKit Point data and use it in other business applications and web services; **currently in Beta stage**; by default, the app registration has **no permissions added**
 
 **The following permissions were added**:
 

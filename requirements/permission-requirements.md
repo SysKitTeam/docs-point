@@ -158,9 +158,9 @@ The second app registration, **SysKit Point Client**, enables users to securely 
 ### SysKit Point API
 
 **SysKit Point API** app registration is used for third-party app integration, meaning you can get SysKit Point data via SysKit Point API and use it in other business applications and web services.  
-This feature is currently in the Beta stage. 
+**This feature is currently in the Beta stage**. 
 
-By default, the app registration has no permissions added. 
+By default, the **app registration has no permissions added**. 
 
 ## Related Topics
 
