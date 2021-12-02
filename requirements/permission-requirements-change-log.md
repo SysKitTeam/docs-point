@@ -21,7 +21,7 @@ Depending on which version you are upgrading to, below you can find the list of 
 
 **The following app registrations were added**:
 * **SysKit Point Permissions Loader** - used for optimized data sync of SharePoint sites and OneDrive
-* **SysKit Point API** - currently in Beta stage; by default, the app registration has **no permissions added**
+* **SysKit Point API** - used for third-party app integration to get SysKit Point data and use it in other business applications and web services; currently in Beta stage; by default, the app registration has **no permissions added**
 
 **The following permissions were added**:
 
@@ -30,8 +30,8 @@ Depending on which version you are upgrading to, below you can find the list of 
 | SysKit Point Client | Read all users' relevant people lists | Delegated | Allows SysKit Point to display users' relevant people lists in People Picker within SysKit Point Teams app. |
 | SysKit Point Service | Read files in all site collections | Application | Enables SysKit Point to perform partial site syncs, containing changed files only.  |
 | SysKit Point Service | Read all published labels and label policies for an organization | Application | Enables SysKit Point to sync published sensitivity labels and store them in the database. | 
-| SysKit Point Permissions Loader | Uses the same set of permissions as SysKit Point Service App Registration  | Application | Used for optimized SharePoint and OneDrive sync |
-| SysKit Point API | No permissions added  | - | In Beta |
+| SysKit Point Permissions Loader | Uses the same set of permissions as SysKit Point Service App Registration  | Application | Used for optimized SharePoint and OneDrive sync. |
+| SysKit Point API | No permissions added  | - | Used for third-party app integration. |
 
 [To see the complete list of used App Registrations and assigned permissions, navigate to the Permission Requirements article](permission-requirements.md).
 
