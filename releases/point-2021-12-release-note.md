@@ -6,9 +6,9 @@ description: This article lists improvements and bug fixes in SysKit Point versi
 
 [Schedule a demo](https://www.syskit.com/products/point/request-a-demo/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
-**Product version:** 2021.12.20
+**Product version:** 2021.12.21
 
-**Build number:** 1
+**Build number:** 3
 
 **Release date:** Dec 21, 2021
 
