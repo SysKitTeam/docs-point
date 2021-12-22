@@ -1,5 +1,5 @@
 ---
-description: This article shows how to deploy SysKit Point - Power BI Companion app
+description: This article shows how to deploy SysKit Point - Power BI Companion app.
 ---
 
 # Deploy SysKit Point Power BI App
