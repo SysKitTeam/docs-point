@@ -15,6 +15,14 @@ The connected service account enables SysKit Point to:
 * **collect existing sensitivity labels**
 * **apply sensitivity labels when creating new workspaces with provisioning workflows**
 
+## Service Account Requirements
+When preparing a dedicated service account for SysKit Point, consider the following requirements:
+
+* **multi-factor authentication is disabled for the service account**
+* **sensitivity labels should be published to the service account**
+* **service account should not have the Global Administrator role assigned**
+* **no licenses are required for the service account**
+
 ## Connect Service Account
 
 To connect the service account in SysKit Point:
@@ -29,11 +37,6 @@ Additional fields are displayed, where you can:
 * **Click the Connect button (3)** to finish
 
 ![Service Account Credentials](../../.gitbook/assets/enable-sensitivity-labels_service-account-credentials.png)
-
-{% hint style="warning" %}
-**Please note!**  
-**Use a service account that does not require MFA.**
-{% endhint %}
 
 **After successful connection the connect button turns green and shows a checkmark.**
 
