@@ -19,7 +19,7 @@ The connected service account enables SysKit Point to:
 When preparing a dedicated service account for SysKit Point, consider the following requirements:
 
 * **multi-factor authentication is disabled for the service account**
-* **sensitivity labels should be published to the service account**
+* **sensitivity labels should be published to the service account**; [find more information on how to publish sensitivity labels here](https://docs.microsoft.com/en-us/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide#publish-sensitivity-labels-by-creating-a-label-policy)
 * **service account should not have the Global Administrator role assigned**
 * **no licenses are required for the service account**
 
