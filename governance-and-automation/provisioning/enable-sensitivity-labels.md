@@ -15,10 +15,16 @@ The connected service account enables SysKit Point to:
 * **collect existing sensitivity labels**
 * **apply sensitivity labels when creating new workspaces with provisioning workflows**
 
+{% hint style="warning" %}
+**Please note!**  
+It can take up to 24 hours for the sensitivity label changes to replicate to all apps and services.
+{% endhint %}
+
 ## Service Account Requirements
 When preparing a dedicated service account for SysKit Point, consider the following requirements:
 
 * **multi-factor authentication is disabled for the service account**
+* **service account password is set never to expire** to avoid repetitious password re-entries in SysKit Point; [learn how to set user's password never to expire here](https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/set-password-to-never-expire?view=o365-worldwide#set-a-password-to-never-expire) 
 * **sensitivity labels should be published to the service account**; [find more information on how to publish sensitivity labels here](https://docs.microsoft.com/en-us/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide#publish-sensitivity-labels-by-creating-a-label-policy)
 * **service account should not have the Global Administrator role assigned**
 * **no licenses are required for the service account**
