@@ -17,6 +17,13 @@ To resolve this and ensure all the new features work properly, ask your Global A
 # Change Log
 Depending on which version you are upgrading to, below you can find the list of changes in permissions requested and which features depend on them.
 
+## SysKit Point 2022.2
+
+* A redirect URI was added to the SysKit Point Service app registration that enables SysKit Point Admins to access the new Hangfire dashboard. The Hangfire dashboard offers an overview of the status of all the background jobs SysKit Point is periodically running. Therefore, a Global Admin will have to:
+  * Re-Consent in the SysKit Point Welcome Home screen
+  * Navigate to the Hangfire dashboard URL and grant permissions to the SysKit Point Service so it is able to securely log in users from the tenant.
+* No new permissions were added
+
 ## SysKit Point 2021.10
 
 **The following app registrations were added**:
