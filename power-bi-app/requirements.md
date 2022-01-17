@@ -32,7 +32,7 @@ To do so:
 
 ### New Server Login
 Now that you have access from your client machine to the Azure SQL Server, you can create a new server login for Power BI app.
-Before running the script on master database, **modify the passoword**.
+Before running the script on **master database**, **modify the passoword**.
 `
 CREATE LOGIN powerbireader
 	WITH PASSWORD = 'Password1234!' 
