@@ -66,7 +66,14 @@ Depending on your use case, you have __2 options available__:
 
 ![Network Configuration Tab](../.gitbook/assets/deploy-syskit-point_network-configuration.png)
 
+If you click the Create new option, a new screen appears where you can define:
+* __Name (1)__ of the virtual network
+* __Address range (2)__
+* __Names and address ranges (3)__ for __Default__, __FE app service__, and __BE app service__ subnets
 
+__Click OK__ when you are done with the virtual network setup. 
+
+![Create Virtual Network Screen](../.gitbook/assets/deploy-syskit-point_create-virtual-network.png)
 
 The __Review + create__ tab shows the following information:
 * __Validation status (1)__ showing whether all resources are correctly configured
