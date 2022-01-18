@@ -30,6 +30,13 @@ To do so:
 
 ## Creating Server Login and Database User for Power BI App
 
+Before running the SQL scripts listed below, open **SQL Server Management Studio** and connect to Azure SQL server holding SysKit Point database.
+[Learn how to connect to an Azure SQL Database here](https://docs.microsoft.com/en-us/sql/ssms/quickstarts/ssms-connect-query-azure-sql?view=sql-server-ver15#connect-to-an-azure-sql-database-or-azure-sql-managed-instance)
+
+{% hint style="info" %}
+To connect, use the SQL credentials created when [deploying SysKit Point](../installation/deploy-syskit-point.md).
+{% endhint %}
+
 ### New Server Login
 Now that you have access from your client machine to the Azure SQL Server, you can create a new server login for Power BI app.
 Before running the script on **master database**, **modify the passoword**.
