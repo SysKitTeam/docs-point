@@ -95,6 +95,8 @@ When creating a template for Microsoft Teams, you will need to define the follow
     - Admin approval – SysKit Point admins need to approve this request 
     - Manager and admin approval – requires approval from both manager of the requester and SysKit Point admins 
     - Automatically Approve – templates using this option don’t require approval. The workspace will be created immediately when the end-user sends a request. 
+
+  Additionally, you can enable comments for requesters when they request a new workspace in this section. 
   
   Read more about Approval processes and how to create custom ones in this [article](approval-processes.md).
  
