@@ -59,6 +59,29 @@ Define the following on the __Azure SQL settings__ tab:
 
 ![Azure SQL Settings Tab](../.gitbook/assets/deploy-syskit-point_azure-sql-settings.png)
 
+The __Network configuration__ tab enables you to __configure virtual network__ used by SysKit Point resources.
+Depending on your use case, you have __2 options available__:
+* __Use the predefined virtual network configuration__ - a new virtual network is created when deploying SysKit Point; no additional configuration is needed, and you can __proceed to the next step by clicking the Next button (1)__, or
+* __Create a new virtual network with custom settings by clicking the Create new option (2)__
+
+![Network Configuration Tab](../.gitbook/assets/deploy-syskit-point_network-configuration.png)
+
+If you click the Create new option, a new screen appears where you can change the predefined settings:
+* __Name (1)__ of the virtual network
+* __Address range (2)__
+* __Names and address ranges (3)__ for __Default__, __FE app service__, and __BE app service subnets__
+
+
+{% hint style="warning" %}
+**Please note!**  
+Predefined ranges comply with the minimum requirements for SysKit Point resources to work properly.
+If you decide to change the predefined values, **ensure that all subnets have 255 IP addresses reserved**.
+{% endhint %}
+
+__Click OK__ when you are done with the virtual network setup. 
+
+![Create Virtual Network Screen](../.gitbook/assets/deploy-syskit-point_create-virtual-network.png)
+
 The __Review + create__ tab shows the following information:
 * __Validation status (1)__ showing whether all resources are correctly configured
 * __Configuration summary (2)__ showing all options selected in previous steps

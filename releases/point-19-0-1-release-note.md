@@ -1,5 +1,5 @@
 ---
-description: This article describes improvements and bug fixes in SysKit Point version 19.0.1
+description: This article describes improvements and bug fixes in SysKit Point version 19.0.1.
 ---
 
 # SysKit Point 19.0.1
