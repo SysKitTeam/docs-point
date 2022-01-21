@@ -32,7 +32,7 @@ SysKit Point admins can **enable comments when creating/editing a provisioning t
 
 * **SysKit Point is optimized for faster performance**! Multiple changes were made in the background to make SysKit Point work better than ever:
     * **SQL optimizations** resulting in **improved speed of Teams & Groups overview screen and site details screen**
-    * **Audit logs read and write operation optimizations**, resulting in **improved performance of all audit log reports and faster analytics calculations**
+    * **Audit logs read and write operation optimizations**, resulting in **improved performance of all audit log reports and faster analytics calculations**.
     **Please note!** Due to optimizations, SysKit Point will automatically migrate audit logs to a new CosmosDB storage container outside of working hours. As a result, some audit logs might temporarily be inaccessible in the app until the migration is finished.
     * **Group members sync optimized** only to run when membership changes are detected with the help of delta queries
     * **Analytics tile** visible on the site details screen and the **Automated Workflows screen** in settings were **optimized to load data faster**
