@@ -28,32 +28,32 @@ To restrict group creation:
 * **Sign in with your administrator account when prompted**
 
 `
-$GroupName = $Null
-$AllowGroupCreation = $False
+    $GroupName = $Null
+    $AllowGroupCreation = $False
 
-Connect-AzureAD
+    Connect-AzureAD
 
-$settingsObjectID = (Get-AzureADDirectorySetting | Where-object -Property Displayname -Value "Group.Unified" -EQ).id
-if(!$settingsObjectID)
-{
-    $template = Get-AzureADDirectorySettingTemplate | Where-object {$_.displayname -eq "group.unified"}
-    $settingsCopy = $template.CreateDirectorySetting()
-    New-AzureADDirectorySetting -DirectorySetting $settingsCopy
     $settingsObjectID = (Get-AzureADDirectorySetting | Where-object -Property Displayname -Value "Group.Unified" -EQ).id
-}
+    if(!$settingsObjectID)
+    {
+        $template = Get-AzureADDirectorySettingTemplate | Where-object {$_.displayname -eq "group.unified"}
+        $settingsCopy = $template.CreateDirectorySetting()
+        New-AzureADDirectorySetting -DirectorySetting $settingsCopy
+        $settingsObjectID = (Get-AzureADDirectorySetting | Where-object -Property Displayname -Value "Group.Unified" -EQ).id
+    }
 
-$settingsCopy = Get-AzureADDirectorySetting -Id $settingsObjectID
-$settingsCopy["EnableGroupCreation"] = $AllowGroupCreation
+    $settingsCopy = Get-AzureADDirectorySetting -Id $settingsObjectID
+    $settingsCopy["EnableGroupCreation"] = $AllowGroupCreation
 
-if($GroupName)
-{
-  $settingsCopy["GroupCreationAllowedGroupId"] = (Get-AzureADGroup -SearchString $GroupName).objectid
-} else {
-$settingsCopy["GroupCreationAllowedGroupId"] = $GroupName
-}
-Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCopy
+    if($GroupName)
+    {
+    $settingsCopy["GroupCreationAllowedGroupId"] = (Get-AzureADGroup -SearchString $GroupName).objectid
+    } else {
+    $settingsCopy["GroupCreationAllowedGroupId"] = $GroupName
+    }
+    Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCopy
 
-(Get-AzureADDirectorySetting -Id $settingsObjectID).Values
+    (Get-AzureADDirectorySetting -Id $settingsObjectID).Values
 `
 
 {% hint style="warning" %}
