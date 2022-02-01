@@ -27,8 +27,7 @@ To restrict group creation:
 * **Copy & paste, and run the PowerShell script given below**
 * **Sign in with your administrator account when prompted**
 
-`
-    $GroupName = $Null
+`   $GroupName = $Null
     $AllowGroupCreation = $False
 
     Connect-AzureAD
@@ -53,8 +52,7 @@ To restrict group creation:
     }
     Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCopy
 
-    (Get-AzureADDirectorySetting -Id $settingsObjectID).Values
-`
+    (Get-AzureADDirectorySetting -Id $settingsObjectID).Values`
 
 {% hint style="warning" %}
 **Please note!**  
