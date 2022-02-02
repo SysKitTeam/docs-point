@@ -40,6 +40,7 @@ if(!$settingsObjectID)
 }
 
 $settingsCopy = Get-AzureADDirectorySetting -Id $settingsObjectID
+
 $settingsCopy["EnableGroupCreation"] = $False
 $settingsCopy["GroupCreationAllowedGroupId"] = $Null
 
