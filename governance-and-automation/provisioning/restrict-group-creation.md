@@ -28,9 +28,6 @@ To restrict group creation:
 * **Sign in with your administrator account when prompted**
 
 ```
-$GroupName = $Null
-$AllowGroupCreation = $False
-
 Connect-AzureAD
 
 $settingsObjectID = (Get-AzureADDirectorySetting | Where-object -Property Displayname -Value "Group.Unified" -EQ).id
@@ -43,14 +40,9 @@ if(!$settingsObjectID)
 }
 
 $settingsCopy = Get-AzureADDirectorySetting -Id $settingsObjectID
-$settingsCopy["EnableGroupCreation"] = $AllowGroupCreation
+$settingsCopy["EnableGroupCreation"] = $False
+$settingsCopy["GroupCreationAllowedGroupId"] = $Null
 
-if($GroupName)
-{
-$settingsCopy["GroupCreationAllowedGroupId"] = (Get-AzureADGroup -SearchString $GroupName).objectid
-} else {
-$settingsCopy["GroupCreationAllowedGroupId"] = $GroupName
-}
 Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCopy
 
 (Get-AzureADDirectorySetting -Id $settingsObjectID).Values
