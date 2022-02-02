@@ -14,7 +14,7 @@ To set up a complete provisioning process that fits your company needs, there ar
 
 3) **Teams Application** – deploy SysKit Point teams application to request and approve new workspaces. Click [here](../syskit-point-teams-app.md) to find out more.
 
-4) **Microsoft 365 group creation** - by default, all users can create Microsoft 365 groups and the workspaces that rely on groups for access. To limit the creation of workspaces to SysKit Point Teams app only, additional configuration is needed. Learn how to [manage who can create Microsoft 365 groups here](restrict-group-creation.md).
+4) **Microsoft 365 group creation** - by default, all users can create Microsoft 365 groups and the workspaces that rely on groups for access. To limit the creation of workspaces to SysKit Point Teams app, additional configuration is needed. Learn how to [manage who can create Microsoft 365 groups here](restrict-group-creation.md).
 
 ## End-users 
 
