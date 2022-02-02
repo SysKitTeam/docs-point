@@ -4,8 +4,11 @@ description: This article explains how to restrict who can create Microsoft 365 
 
 # Restrict Microsoft 365 Groups Creation
 
-If you are **using SysKit Point to manage the creation of new workspaces** in your tenant, you might want to **restrict the creation of new workspaces outside the SysKit Point Teams app**. By default, **all users can create Microsoft 365 groups in your tenant, and, with that, the various workspaces that rely on groups for access**. 
+If you are **using SysKit Point to manage the creation of new workspaces** in your tenant, you might want to **restrict the creation of new workspaces outside the SysKit Point Teams app**. 
+
+By default, **all users can create Microsoft 365 groups in your tenant, and, with that, the various workspaces that rely on groups for access**. 
 Such **workspaces might not comply with your business policies**,  which, on the other hand, can be easily controlled with the help of SysKit Point [provisioning templates](templates.md).
+
 Here, you can **find how to restrict Microsoft 365 group creation**, and thus **ensure that all created workspaces comply with your business policies defined in SysKit Point**.
 
 {% hint style="warning" %}
