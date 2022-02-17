@@ -8,7 +8,7 @@ description: This article lists improvements and bug fixes in SysKit Point versi
 
 **Product version:** 2022.2.1
 
-**Build number:** 10
+**Build number:** 15
 
 **Release date:** Feb 17, 2022
 
