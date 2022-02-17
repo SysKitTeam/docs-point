@@ -59,6 +59,6 @@ An exception occurred while removing users from specific sharing link.`
 
 **Fixed an issue** where archiving a Microsoft Team would result in the following error: `Can not find the principal with id: <n>.` 
 
-**Fixed an issue** where the result would be corrupted and have missing rows after the Group Access report was exported. 
+**Fixed an issue** where the Excel file would be corrupted and have missing rows when exporting the Group Access report. 
 
 **Various UX/UI improvements and minor fixes** are available.
