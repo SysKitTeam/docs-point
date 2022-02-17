@@ -30,9 +30,9 @@ Hangfire dashboard offers an overview of the status of all the background jobs
 
 **SysKit Point is now more stable and efficient than ever!** Multiple changes were made to make SysKit Point run smoother for everyone. As a result:
 
-* SysKit Point app services use less memory 
-* SysKit Point syncs your environment faster and more efficiently
-* SysKit Point uses SQL resources better due to reorganized indexes
+* **SysKit Point app services use less memory**
+* **SysKit Point syncs your environment faster and more efficiently**
+* **SysKit Point uses SQL resources better due to reorganized indexes**
 
 **Sites screen overview is now faster and more responsive.** Changes were made, so selection/deselection of workloads is now quicker on Site, User, and Group overview screens and in the report wizard filters.
 
