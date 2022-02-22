@@ -45,8 +45,8 @@ To connect the app, do the following:
 * **Click Next**
 
 {% hint style="warning" %}
-**Please note!** 
-Prepare SQL login credentials to enter in the next step. 
+**Please note!**
+Prepare SQL login credentials to enter in the next step.
 [Read this article to learn how to create the SQL login and allow access to the Azure SQL server](requirements.md). 
 {% endhint %}
 
