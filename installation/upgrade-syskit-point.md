@@ -29,6 +29,12 @@ Clicking the **Download Latest Version \(2\)** link will redirect you to the lat
 After you **open the latest Release note**, **click** the **Deploy to Azure button (1)**.
 ![Deploy to Azure Button](../.gitbook/assets/upgrade-syskit-point_deploy-button.png)
 
+{% hint style="warning" %}
+**Please note!**
+When entering the App service name, **make sure NOT to enter the app service name ending with '-BE'**. 
+**Entering the backend app service name in the upgrade process results in an invalid upgrade and SysKit Point not working correctly.**
+{% endhint %}
+
 The **Custom deployment** screen in Azure Portal opens. 
 Here you need to:
 * **Select the Resource group (1)** wherein the current SysKit Point version is deployed
