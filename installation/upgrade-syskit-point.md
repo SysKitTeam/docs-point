@@ -31,7 +31,7 @@ After you **open the latest Release note**, **click** the **Deploy to Azure butt
 
 {% hint style="warning" %}
 **Please note!**
-When entering the App service name, **make sure NOT to enter the app service name ending with `-BE`**. 
+When entering the App service name, **make sure NOT to enter the app service name ending with '-BE'**. 
 **Entering the backend app service name in the upgrade process results in an invalid upgrade and SysKit Point not working correctly.**
 {% endhint %}
 
