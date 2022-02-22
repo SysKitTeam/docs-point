@@ -35,6 +35,7 @@ Deployed application is a **template application** and comes with example data. 
 {% endhint %}
 
 ## Connect to Your Tenant
+
 To show data from your tenant, SysKit Point Power BI app needs to be connected to your tenant. 
 To connect the app, do the following:
 * **Click the Connect your data link** in the warning ribbon
@@ -42,6 +43,12 @@ To connect the app, do the following:
     * **SysKit Point SQL Server**
     * **SysKit Point Database** - enter `SysKitPointDB`
 * **Click Next**
+
+{% hint style="warning" %}
+**Please note!** 
+Prepare SQL login credentials to enter in the next step. 
+[Read this article to learn how to create the SQL login and allow access to the Azure SQL server](requirements.md). 
+{% endhint %}
 
 On the next screen, follow these steps:
 * **Enter User Name** - enter `powerbireader`
