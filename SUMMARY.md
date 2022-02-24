@@ -88,5 +88,7 @@
   * [Collect Microsoft 365 Data](faq/collect-office-365-data.md)
   * [Migrate Audit Logs](faq/migrate-lucene-to-cosmos.md)
 * [Troubleshooting](troubleshooting/README.md)
+  * [Export Diagnostic Logs](troubleshooting/export-diagnostic-logs.md)
+  * [Setup Diagnostic Logs Export](troubleshooting/setup-diagnostic-logs-export.md)
   * [Analytics and Usage Report Issues](troubleshooting/analytics-and-usage-report-issues.md)
 
