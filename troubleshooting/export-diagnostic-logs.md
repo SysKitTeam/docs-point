@@ -4,7 +4,7 @@ description: This article explains how to export diagnostic logs in SysKit Point
 
 # Export Diagnostic Logs
 
-IF you are facing **issues with SysKit Point**, the SysKit Point support team might ask you to **export diagnostic logs to help with troubleshooting**.
+If you are facing **issues with SysKit Point**, the SysKit Point support team might ask you to **export diagnostic logs to help with troubleshooting**.
 This article shows all options when it comes to diagnostic logs export.
 
 ## Requirements
