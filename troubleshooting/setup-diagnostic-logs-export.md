@@ -10,7 +10,7 @@ SysKit Point allows you to export diagnostics logs saved in Application Insights
 **Please note!**
 If you are a new customer and deployed **SysKit Point version 2022.2.2 or later**, **all requirements for diagnostic logs export are set up for you automatically**.
 **Use the steps described in this article if you are an existing customer upgrading from a previous version to set up diagnostic logs export in SysKit Point manually**.
-
+{% endhint %}
 
 You will need to set up the following in the SysKit Point Azure resource group:
 * **Enable user access to key vault**
