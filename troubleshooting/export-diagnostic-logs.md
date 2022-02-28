@@ -49,5 +49,5 @@ Once you **download the file**, please **forward it to the SysKit Point support 
 
 {% hint style="warning" %}
 **Please note!**
-If the exported file is larger than 7MB, please [contact our support team](support@syskit.com) to provide you with an upload link.
+If the exported file is larger than 7MB, please [contact our support team](mailto:support@syskit.com) to provide you with an upload link.
 {% endhint %}
