@@ -31,7 +31,7 @@ To get the Diagnostic Logs Export screen URL, paste `/#/app-diagnostics` text at
 {% endhint %}
 
 On the Diagnostic Logs Export screen:
-* **Select the time Range (1)**; there are several predefined options - **Today**, **Yesterday**, **Last 7 Days**, **Last 30 Days** - along with the possibility to select specific start and end dates when choosing the **Custom** option
+* **Select the time Range (1)**;there are several predefined options - **Today**, **Yesterday**, **Last 7 Days**, **Last 30 Days** - along with the possibility to select specific start and end dates when choosing the **Custom** option; **by default**, the **Today option is selected**
 * **Select Data to Export (2)**; **by default**, **all data types are selected**; use the default selection unless otherwise communicated by the SysKit Point support team
 * **Click Start Diagnostic Export** to create a file containing diagnostic logs
 
