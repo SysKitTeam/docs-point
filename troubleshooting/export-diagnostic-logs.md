@@ -27,7 +27,7 @@ To export diagnostic logs:
 
 {% hint style="success" %}
 Alternatively, you can open the Diagnostic Logs Export screen URL directly in your browser. 
-To get the Diagnostic Logs Export screen URL, paste `/#/app-diagnostics` text at the end of your SysKit Point URL. for example, `https://point-example.syskit.com//#/app-diagnostics`
+To get the Diagnostic Logs Export screen URL, paste `/#/app-diagnostics` text at the end of your SysKit Point URL. for example, `https://point-example.syskit.com/#/app-diagnostics`
 {% endhint %}
 
 On the Diagnostic Logs Export screen:
