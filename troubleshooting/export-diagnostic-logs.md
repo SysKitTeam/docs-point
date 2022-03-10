@@ -23,7 +23,7 @@ If the user sync is not working correctly, SysKit Point will not resolve user ro
 
 {% hint style="warning" %}
 **Please note!**
-When an event creates a new diagnostic log entry, it can take up to 5 minutes for the diagnostic log to be available for export in SysKit Point. 
+When an issue arises, SysKit Point creates a diagnostic log. **It can take up to 5 minutes for the diagnostic log to be available for export in SysKit Point**. 
 {% endhint %}
 
 To export diagnostic logs:
