@@ -9,7 +9,7 @@ description: This article describes improvements and bug fixes in SysKit Point v
 [Schedule a demo](https://www.syskit.com/products/point/request-a-demo/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
 **Product version:** 19.0.2  
-**Build number:** 2047  
+**Build number:** 2360 
 **Release date:** May 25, 2021
 
 ## Improvements & Bug Fixes
