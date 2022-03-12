@@ -8,8 +8,9 @@ SysKit Point **allows you to customize e-mails** that will be **sent to site own
 
 You can customize the following aspects of e-mails:
 
-* **subject**
 * **logo**
+* **banner**
+* **subject**
 * **additional message in the body of the e-mail**
 
 These changes can be performed in three locations within SysKit Point Settings:
@@ -25,28 +26,33 @@ Only SysKit Point Admin users can customize e-mails.
 
 ## E-mail Settings
 
-In E-mail settings, you can define a global logo that will be used in all e-mails sent by SysKit Point. To define the logo:
+In E-mail settings, you can define:
+    **A global logo** that will be used in all e-mails sent by SysKit Point
+    **A global e-mail banner** that will be used in all e-mails sent from SysKit Point
 
-* **Navigate to the E-mail Settings screen \(1\)**
-* **Click the Upload Logo link \(2\)** - File Explorer window opens
-* **Select the file with your logo \(3\)** 
-* **click Open \(4\)**
+To define a logo used in all e-mails:
+* **navigate to the E-mail Settings screen \(1\)**. 
+* **Scroll down to see the Customize Logo section**
+* **Drag and drop your logo file \(2\)** to define your logo; keep in mind the supported file formats - JPEG and PNG
+* **Click Save \(3\)** to save your changes
 
-![Customize Logo - Upload Logo](../.gitbook/assets/customize-e-mail_upload-logo.png)
+![Customize Logo](../.gitbook/assets/customize-e-mail_define-logo.png)
 
-![Customize Logo - File Explorer](../.gitbook/assets/customize-e-mail_file-explorer.png)
+To define a banner used in e-mails:
+* **navigate to the E-mail Settings screen \(1\)**. 
+* **Scroll down to see the Customize Banner section**
+* **Drag and drop your banner file** to define your banner; keep in mind the supported file formats - JPEG and PNG
+* **Drag the added image \(2\)** to adjust the position
+* **Zoom in or zoom out \(3\)** to adjust the view
+* **Click Save \(4\)** to save your changes
+
+![Customize Banner](../.gitbook/assets/customize-e-mail_define-banner.png)
 
 {% hint style="info" %}
 **Hint!**  
-**Modifying the logo** in SysKit Point **is a global action**, which means that **editing from any location in the settings** \(E-mail section, Access Review, or Lifecycle Management\) **will affect all e-mails**.
+**Modifying the logo and banner** as described here **is a global action**, meaning that it **will affect all e-mails**.
 {% endhint %}
 
-In the picture below, the defined logo is shown. Here, you can also:
-
-* **Upload New Logo \(1\)**, as already described
-* **Remove Logo \(2\)**
-
-![Customize Logo - Uploaded Logo](../.gitbook/assets/customize-e-mail_uploaded-logo.png)
 ## Access Review Settings
 
 {% hint style="info" %}
