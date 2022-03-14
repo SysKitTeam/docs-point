@@ -24,15 +24,15 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
 
 ## Improvements & Bug Fixes
 
-**New data privacy option added!** The option enables you to define if collaborators can access audit reports in SysKit Point.  
-Learn more about access settings in this [article](). 
+**New data privacy option added!** The option lets you define if owners and admins can access audit reports in SysKit Point.  
+[Learn more about access settings in this article](../configuration/enable-role-based-access.md). 
 
-**New options are added for Lifecycle Management Archive action**, and you can access them through the Settings > Lifecycle Management screen: 
+**New options are added for Lifecycle Management Archive action!** 
+In the Lifecycle Management options, you can now:
+* **define prefix and suffix added to workspace names when archiving them through SysKit Point**   
+* **choose to remove access for both members and owners when archiving a workspace**   
 
-* **we've added prefix and suffix for the custom naming rule**   
-* **now you can remove access for both members and owners when archiving resource**   
-
-**SysKit Point E-mail customization improved.** Now you can decide which banner will be visible for general E-mails that SysKit Point sends. You can also customize the E-mail banner for the Access Review and Lifecycle Management feature. 
+**SysKit Point e-mail customization improved.** You can now define which banner will be visible for all e-mails and define a custom banner for the Access Review and Lifecycle Management e-mail which can differ from the global settings. 
 
 **Diagnostic Logs export is now available in SysKit Point.** SysKit Point support team might ask you to provide the logs if you experience issues when running SysKit Point. 
 For existing customers, there are several steps to enable the new functionality.  
