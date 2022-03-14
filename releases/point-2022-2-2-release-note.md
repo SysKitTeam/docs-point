@@ -24,26 +24,28 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
 
 ## Improvements & Bug Fixes
 
-**New data privacy option added!** The option lets you define if owners and admins can access audit reports in SysKit Point.  
-[Learn more about access settings in this article](../configuration/enable-role-based-access.md). 
-
 **New options are added for Lifecycle Management Archive action!** 
 In the Lifecycle Management options, you can now:
 * **define prefix and suffix added to workspace names when archiving them through SysKit Point**   
 * **choose to remove access for both members and owners when archiving a workspace**   
+[Find all Lifecycle Management-related options explained in this article](../governance-and-automation/lifecycle-management/enable-lifecycle-management.md).
 
 **SysKit Point e-mail customization improved.** You can now define which banner will be visible for all e-mails and define a custom banner for the Access Review and Lifecycle Management e-mail which can differ from the global settings. 
+[Read the following article to learn how to customize e-mails in SysKit Point](../configuration/customize-emails.md).
+
+**New data privacy option added!** The option lets you define if owners and admins can access audit reports in SysKit Point.  
+[Learn more about access settings in this article](../configuration/enable-role-based-access.md). 
 
 **Diagnostic Logs export is now available in SysKit Point.** SysKit Point support team might ask you to provide the logs if you experience issues when running SysKit Point. 
-For existing customers, there are several steps to enable the new functionality.  
-Use this [link]() to learn how to export diagnostic logs. 
+For existing customers, there are several [steps to enable the new functionality](../troubleshooting/setup-diagnostic-logs-export.md).  
+[Use this link to learn how to export diagnostic logs](../troubleshooting/export-diagnostic-logs.md) . 
 
 **Resource-intensive SQL queries are now additionally optimized** to run faster, saving your time, as well as Azure SQL resources. 
 
-**Autodiscover is improved!** In rare cases, AutoDiscover would run into an issue when syncing basic site information, leading to it never finishing the sync process. 
+**Autodiscover is improved!** In rare cases, AutoDiscover would run into an issue when syncing basic site information, leading to it never finishing the sync process. The issue is now resolved.
 
 **Fixed an issue** where filters would not work on the Manage Policies screen for Policies Applied and Privacy columns.  
 
-**The resilience of the e-mail sender job is now improved.** If a single e-mail request fails, the e-mail sender job can now successfully recover and continue to deliver e-mails. 
+**Error handling when sending e-mails is now improved.** If a single e-mail request fails, the e-mail sender job can now successfully recover and continue to deliver SysKit Point e-mails. 
 
 **Various UX/UI improvements and minor fixes** are available.  
