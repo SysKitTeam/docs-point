@@ -23,3 +23,27 @@ description: This article lists improvements and bug fixes in SysKit Point versi
 See detailed step-by-step instructions on how to upgrade SysKit Point in the [upgrade article](../installation/upgrade-syskit-point.md).
 
 ## Improvements & Bug Fixes
+
+**New data privacy option added!** The option enables you to define if collaborators can access audit reports in SysKit Point.  
+Learn more about access settings in this [article](). 
+
+**New options are added for Lifecycle Management Archive action**, and you can access them through the Settings > Lifecycle Management screen: 
+
+* **we've added prefix and suffix for the custom naming rule**   
+* **now you can remove access for both members and owners when archiving resource**   
+
+**SysKit Point E-mail customization improved.** Now you can decide which banner will be visible for general E-mails that SysKit Point sends. You can also customize the E-mail banner for the Access Review and Lifecycle Management feature. 
+
+**Diagnostic Logs export is now available in SysKit Point.** SysKit Point support team might ask you to provide the logs if you experience issues when running SysKit Point. 
+For existing customers, there are several steps to enable the new functionality.  
+Use this [link]() to learn how to export diagnostic logs. 
+
+**Resource-intensive SQL queries are now additionally optimized** to run faster, saving your time, as well as Azure SQL resources. 
+
+**Autodiscover is improved!** In rare cases, AutoDiscover would run into an issue when syncing basic site information, leading to it never finishing the sync process. 
+
+**Fixed an issue** where filters would not work on the Manage Policies screen for Policies Applied and Privacy columns.  
+
+**The resilience of the e-mail sender job is now improved.** If a single e-mail request fails, the e-mail sender job can now successfully recover and continue to deliver e-mails. 
+
+**Various UX/UI improvements and minor fixes** are available.  
