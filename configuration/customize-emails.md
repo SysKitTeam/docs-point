@@ -8,8 +8,9 @@ SysKit Point **allows you to customize e-mails** that will be **sent to site own
 
 You can customize the following aspects of e-mails:
 
-* **subject**
 * **logo**
+* **banner**
+* **subject**
 * **additional message in the body of the e-mail**
 
 These changes can be performed in three locations within SysKit Point Settings:
@@ -25,28 +26,33 @@ Only SysKit Point Admin users can customize e-mails.
 
 ## E-mail Settings
 
-In E-mail settings, you can define a global logo that will be used in all e-mails sent by SysKit Point. To define the logo:
+In E-mail settings, you can define:
+    **A global logo** that will be used in all e-mails sent by SysKit Point
+    **A global e-mail banner** that will be used in all e-mails sent from SysKit Point
 
-* **Navigate to the E-mail Settings screen \(1\)**
-* **Click the Upload Logo link \(2\)** - File Explorer window opens
-* **Select the file with your logo \(3\)** 
-* **click Open \(4\)**
+To define a logo used in all e-mails:
+* **navigate to the E-mail Settings screen \(1\)**. 
+* **Scroll down to see the Customize Logo section**
+* **Drag and drop your logo file \(2\)** to define your logo; keep in mind the supported file formats - JPEG and PNG
+* **Click Save \(3\)** to save your changes
 
-![Customize Logo - Upload Logo](../.gitbook/assets/customize-e-mail_upload-logo.png)
+![Customize Logo](../.gitbook/assets/customize-e-mail_define-logo.png)
 
-![Customize Logo - File Explorer](../.gitbook/assets/customize-e-mail_file-explorer.png)
+To define a banner used in e-mails:
+* **navigate to the E-mail Settings screen \(1\)**. 
+* **Scroll down to see the Customize Banner section**
+* **Drag and drop your banner file** to define your banner; keep in mind the supported file formats - JPEG and PNG
+* **Drag the added image \(2\)** to adjust the position
+* **Zoom in or zoom out \(3\)** to adjust the view
+* **Click Save \(4\)** to save your changes
+
+![Customize Banner](../.gitbook/assets/customize-e-mail_define-banner.png)
 
 {% hint style="info" %}
 **Hint!**  
-**Modifying the logo** in SysKit Point **is a global action**, which means that **editing from any location in the settings** \(E-mail section, Access Review, or Lifecycle Management\) **will affect all e-mails**.
+**Modifying the logo and banner** as described here **is a global action**, meaning that it **will affect all e-mails**.
 {% endhint %}
 
-In the picture below, the defined logo is shown. Here, you can also:
-
-* **Upload New Logo \(1\)**, as already described
-* **Remove Logo \(2\)**
-
-![Customize Logo - Uploaded Logo](../.gitbook/assets/customize-e-mail_uploaded-logo.png)
 ## Access Review Settings
 
 {% hint style="info" %}
@@ -54,50 +60,56 @@ In the picture below, the defined logo is shown. Here, you can also:
 Customizing the Access Review e-mail is possible only if the Automated Access Review feature is enabled. For more information on that topic, visit the [following article](../governance-and-automation/permissions-review/enable-permissions-review.md).
 {% endhint %}
 
-To customize the Access Review e-mail:
+To customize the Access Review e-mail, first, **navigate to Settings** > **Governance** > **Access Review Options\(1\)**.
+Here you can:
+* **Customize the Access Review e-mail \(2\)** by clicking Customize e-mail button 
+* **Preview the Access Review e-mail \(3\)**
 
-* **Open the Access Review tab \(1\)** in the Governance section of settings 
-* **Click the Customize e-mail button \(2\)** to open the editing screen
+![Settings - Access Review Options](../.gitbook/assets/customize-e-mail_access-review-settings-screen.png)
 
-![Access Review Settings screen](../.gitbook/assets/customize-e-mail_permissions-review-settings-screen.png)
+After clicking the Customize e-mail button, you will see the following sections:
 
-Here, you will see the following sections that can be edited:
+* **Subject \(1\)** -  only applies to the Access Review e-mail sent to the owners and administrators
+* **Upload new banner image \(2\)** - only applies to the Access Review e-mail sent to the owners or administrators; initially, a default banner image is set up
+* **Remove banner image \(3\)**
+* **Define custom message \(4\)** - only applies to the Access Review e-mail sent to the owners or administrators
 
-* **Subject \(1\)** -  only applies to the Access Review email sent to the owners or administrators
-* **Logo \(2\)** - global for all emails
-* **Banner image \(3\)** - only applies to the Access email sent to the owners or administrators
-* **Custom message \(4\)** - only applies to the Access email sent to the owners or administrators
+When finished, click the **Confirm button \(5\)** to save your changes.
 
-![Customize Access Review E-mail](../.gitbook/assets/customize-e-mail_customize-permissions-review-e-mail.png)
+![Customize Access Review E-mail](../.gitbook/assets/customize-e-mail_access-review-dialog.png)
 
-![Customize Access Review E-mail](../.gitbook/assets/customize-e-mail_customize-permissions-review-e-mail2.png)
+{% hint style="warning" %}
+**Please note!** 
+The custom message can contain **plain text** or **HTML**. A **link has to be defined in the HTML form** `<a href="URL">LinkDisplayText</a>` where `URL` represents a web address to a web resource, and the `LinkDisplayText` is an arbitrary text that will be displayed in the e-mail, and, when clicked, lead to the defined URL.
+{% endhint %}
 
-The custom message can contain **plain text** or **HTML**. A **link has to be defined in the HTML form** `<a href="URL">LinkDisplayText</a>` where `URL` represents a web address to a web resource, and the `LinkDisplayText` is an arbitrary text that will be displayed in the e-mail and, when clicked, lead to the defined URL.
 
-When done with editing, click the **Confirm button \(5\)** to save your changes.
+You can immediately see the e-mail changes by clicking the before-mentioned **Preview e-mail button**.
+The Preview dialog opens, as shown in the image below.
 
-You can immediately see the e-mail changes by clicking the **Preview e-mail button \(1\)**.
-
-![Access Review - Preview e-mail](../.gitbook/assets/customize-e-mail_permissions-review-settings-preview.png)
+![Access Review - E-mail Preview](../.gitbook/assets/customize-e-mail_access-review-preview.png)
 
 ## Lifecycle Management Settings
 
 Similar to the Access Review e-mail customization, there is an option to customize Lifecycle Management e-mails.
 
-To customize the Access Review e-mail:
+To customize the Lifecycle Management e-mail, **navigate to Settings** > **Governance** > **Lifecycle Management \(1\)**.
+Here you can:
+* **Customize the Lifecycle Management e-mail \(2\)** by clicking Customize e-mail button 
+* **Preview the Lifecycle Management e-mail \(3\)**
 
-* **Open the Lifecycle Management tab \(1\)** in the Governance section of the settings 
-* **Click the Customize e-mail button \(2\)** to open the editing screen
+![Settings - Lifecycle Management Options](../.gitbook/assets/customize-e-mail_lifecycle-management-settings-screen.png)
 
-![Lifecycle Management Settings screen](../.gitbook/assets/customize-e-mail_lifecycle-management-settings-screen.png)
+Similar to the Access Review e-mail, you can edit the following sections after clicking the Customize e-mail button:
 
-Similar to the Access Review e-mail, you can edit the following sections:
+* **Subject \(1\)** -  only applies to the Lifecycle Management e-mail sent to the owners and administrators
+* **Define the banner image \(2\)** - only applies to the Lifecycle Management e-mail sent to the owners or administrators; initially, no banner image is set up
+* **Define custom message \(3\)** - only applies to the Lifecycle Management e-mail sent to the owners or administrators
 
-* **Subject**
-* **Logo**
-* **Custom Message**
+When done with editing, click the **Confirm button \(4\)** to save your changes.
 
-All the rules apply as for the Access Review e-mail customization.
+![Customize Lifecycle Management E-mail](../.gitbook/assets/customize-e-mail_lifecycle-management-dialog.png)
 
 You can access the e-mail preview by clicking the **Preview e-mail button**.
 
+![Lifecycle Management - E-mail Preview](../.gitbook/assets/customize-e-mail_lifecycle-management-preview.png)
