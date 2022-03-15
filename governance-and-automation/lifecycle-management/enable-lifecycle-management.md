@@ -113,5 +113,9 @@ You can also:
 
 When done with the selection, save your changes.
 
-Now that everything is defined, the Lifecycle Management will start automatically. To learn all about Lifecycle Management in SysKit Point, visit the [following article](lifecycle-management.md).
+## Next Steps
+
+Now that everything is defined, the Lifecycle Management will start automatically. 
+
+To learn all about Lifecycle Management in SysKit Point, visit the [following article](lifecycle-management.md).
 
