@@ -60,50 +60,56 @@ To define a banner used in e-mails:
 Customizing the Access Review e-mail is possible only if the Automated Access Review feature is enabled. For more information on that topic, visit the [following article](../governance-and-automation/permissions-review/enable-permissions-review.md).
 {% endhint %}
 
-To customize the Access Review e-mail:
+To customize the Access Review e-mail, first, **navigate to Settings** > **Governance** > **Access Review Options\(1\)**.
+Here you can:
+* **Customize the Access Review e-mail \(2\)** by clicking Customize e-mail button 
+* **Preview the Access Review e-mail \(3\)**
 
-* **Open the Access Review tab \(1\)** in the Governance section of settings 
-* **Click the Customize e-mail button \(2\)** to open the editing screen
+![Settings - Access Review Options](../.gitbook/assets/customize-e-mail_access-review-settings-screen.png)
 
-![Access Review Settings screen](../.gitbook/assets/customize-e-mail_permissions-review-settings-screen.png)
+After clicking the Customize e-mail button, you will see the following sections:
 
-Here, you will see the following sections that can be edited:
+* **Subject \(1\)** -  only applies to the Access Review e-mail sent to the owners and administrators
+* **Upload new banner image \(2\)** - only applies to the Access Review e-mail sent to the owners or administrators; initially, a default banner image is set up
+* **Remove banner image \(3\)**
+* **Define custom message \(4\)** - only applies to the Access Review e-mail sent to the owners or administrators
 
-* **Subject \(1\)** -  only applies to the Access Review email sent to the owners or administrators
-* **Logo \(2\)** - global for all emails
-* **Banner image \(3\)** - only applies to the Access email sent to the owners or administrators
-* **Custom message \(4\)** - only applies to the Access email sent to the owners or administrators
+When finished, click the **Confirm button \(5\)** to save your changes.
 
-![Customize Access Review E-mail](../.gitbook/assets/customize-e-mail_customize-permissions-review-e-mail.png)
+![Customize Access Review E-mail](../.gitbook/assets/customize-e-mail_access-review-dialog.png)
 
-![Customize Access Review E-mail](../.gitbook/assets/customize-e-mail_customize-permissions-review-e-mail2.png)
+{% hint style="warning" %}
+**Please note!** 
+The custom message can contain **plain text** or **HTML**. A **link has to be defined in the HTML form** `<a href="URL">LinkDisplayText</a>` where `URL` represents a web address to a web resource, and the `LinkDisplayText` is an arbitrary text that will be displayed in the e-mail, and, when clicked, lead to the defined URL.
+{% endhint %}
 
-The custom message can contain **plain text** or **HTML**. A **link has to be defined in the HTML form** `<a href="URL">LinkDisplayText</a>` where `URL` represents a web address to a web resource, and the `LinkDisplayText` is an arbitrary text that will be displayed in the e-mail and, when clicked, lead to the defined URL.
 
-When done with editing, click the **Confirm button \(5\)** to save your changes.
+You can immediately see the e-mail changes by clicking the before-mentioned **Preview e-mail button**.
+The Preview dialog opens, as shown in the image below.
 
-You can immediately see the e-mail changes by clicking the **Preview e-mail button \(1\)**.
-
-![Access Review - Preview e-mail](../.gitbook/assets/customize-e-mail_permissions-review-settings-preview.png)
+![Access Review - E-mail Preview](../.gitbook/assets/customize-e-mail_access-review-preview.png)
 
 ## Lifecycle Management Settings
 
 Similar to the Access Review e-mail customization, there is an option to customize Lifecycle Management e-mails.
 
-To customize the Access Review e-mail:
+To customize the Lifecycle Management e-mail, **navigate to Settings** > **Governance** > **Lifecycle Management \(1\)**.
+Here you can:
+* **Customize the Lifecycle Management e-mail \(2\)** by clicking Customize e-mail button 
+* **Preview the Lifecycle Management e-mail \(3\)**
 
-* **Open the Lifecycle Management tab \(1\)** in the Governance section of the settings 
-* **Click the Customize e-mail button \(2\)** to open the editing screen
+![Settings - Lifecycle Management Options](../.gitbook/assets/customize-e-mail_lifecycle-management-settings-screen.png)
 
-![Lifecycle Management Settings screen](../.gitbook/assets/customize-e-mail_lifecycle-management-settings-screen.png)
+Similar to the Access Review e-mail, you can edit the following sections after clicking the Customize e-mail button:
 
-Similar to the Access Review e-mail, you can edit the following sections:
+* **Subject \(1\)** -  only applies to the Lifecycle Management e-mail sent to the owners and administrators
+* **Define the banner image \(2\)** - only applies to the Lifecycle Management e-mail sent to the owners or administrators; initially, no banner image is set up
+* **Define custom message \(3\)** - only applies to the Lifecycle Management e-mail sent to the owners or administrators
 
-* **Subject**
-* **Logo**
-* **Custom Message**
+When done with editing, click the **Confirm button \(4\)** to save your changes.
 
-All the rules apply as for the Access Review e-mail customization.
+![Customize Lifecycle Management E-mail](../.gitbook/assets/customize-e-mail_lifecycle-management-dialog.png)
 
 You can access the e-mail preview by clicking the **Preview e-mail button**.
 
+![Lifecycle Management - E-mail Preview](../.gitbook/assets/customize-e-mail_lifecycle-management-preview.png)
