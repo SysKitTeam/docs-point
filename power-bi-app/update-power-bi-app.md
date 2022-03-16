@@ -12,7 +12,7 @@ To update the SysKit Point Power BI app:
 * **Find SysKit Point - Power BI Companion**
 * **Click Get it now**
 
-**You might be asked to permit usage of your account information and enter your contact data**. Fill in your information and click **Continue**
+**You might be asked to permit usage of your account information and enter your contact data**. Fill in your information and click **Continue**.
 
 The **Update app** dialog opens. 
 **Select the Update the workspace and the app (1)** option, and **click Install (2)**
