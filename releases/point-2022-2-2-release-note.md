@@ -23,7 +23,7 @@ description: This article lists improvements and bug fixes in SysKit Point versi
 See detailed step-by-step instructions on how to upgrade SysKit Point in the [upgrade article](../installation/upgrade-syskit-point.md).
 
 ## SysKit Point Power BI App
-**New version of SysKit Point Power BI app is available**! 
+**A new version of the SysKit Point Power BI app is available**!  <br/>
 Find out what's new in the latest [release note](../power-bi-app/releases/power-bi-app-21-release-note.md).
 
 
