@@ -8,7 +8,7 @@ description: This article lists improvements and bug fixes in SysKit Point Power
 
 **Product version:** 21
 
-**Release date:** Mar 17, 2022
+**Release date:** Mar 16, 2022
 
 ## Get the Latest Version
 
@@ -30,4 +30,4 @@ The report helps you **find all information regarding Access Reviews** requested
 Additionally, you can **filter the report per workspace**, **status**, and **date range**.
 
 * **Fixed an issue on the Licenses Overview report** where the Annual Potential Savings for Inactive Licenses was erroneously calculated.
-* **Fixed an issue on the Teams and Groups dashboard** where the total number of groups was incorrect. Additionally, a State filter was added to the view.
+* **Fixed an issue on the Teams and Groups dashboard** where the total number of groups was incorrect. Additionally, the **State filter was added to the report**.
