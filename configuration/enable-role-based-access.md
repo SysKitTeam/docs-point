@@ -37,7 +37,7 @@ Users with the SysKit Point Exchange Admins role assigned can:
 
 * **access the Exchange Logs report** exclusively
 
-They have **Read-Only** access and **cannot execute actions or manage application settings only**.
+They have **Read-Only** access and **cannot execute actions or manage application settings**.
 
 ### SysKit Point Collaborators
 
@@ -128,7 +128,7 @@ Additional options are available when the SysKit Point Collaborators role is ena
 * **Give users access to license reports (3)**; when enabled, Collaborators can access License reports
 * **Show audit reports to Collaborators (4)**; when enabled, Collaborators can access Audit log reports in SysKit Point for workspaces and users they manage
 
-![Collaborators - Options](../.gitbook/enable-role-based-access_collaborator-options.png)
+![Collaborators - Options](../.gitbook/assets/enable-role-based-access_collaborator-options.png)
 
 ### Why Should You Enable Role-Based Access
 
