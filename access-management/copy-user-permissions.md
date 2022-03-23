@@ -66,4 +66,3 @@ The Copy User Permissions **does not copy the following**:
 **Existing permissions of the destination user are not affected by the Copy User Permissions action**.
 Copied permissions are appended to the existing ones.
 {% endhint %}
-
