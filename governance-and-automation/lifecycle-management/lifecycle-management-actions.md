@@ -45,7 +45,6 @@ When the Lifecycle Management flow is enabled, **executing an action** \(except 
 **Hint!**  
 On the Sites overview screen and the Microsoft Teams & Groups overview screen, you **run actions on resources in bulk** by selecting multiple resources and clicking the wanted action from the side panel.
 {% endhint %}
-slkdnjflskndf
 
 Lifecycle Management actions are also available in emails that SysKit Point sends to site owners and admins as a part of the Lifecycle Management Automation. Still, **actions can be executed in SysKit Point only**. Follow [this link](lifecycle-management.md) to learn more about Lifecycle Management emails and tasks.
 
