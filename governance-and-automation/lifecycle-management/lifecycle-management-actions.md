@@ -87,32 +87,18 @@ The Keep action can be executed on inactive resources only!
 
 ### Archive
 
-Archiving a resource within SysKit Point results in the following:
+The **Archive action** has additional options available that are set up according to the administrator’s preference. More information on that can be found in the [Enable Lifecycle Management Automation article](https://www.syskit.com/products/point/documentation/?doc_page=governance-and-automation/lifecycle-management/enable-lifecycle-management.md).
 
+Archiving a resource within SysKit Point results in the following:
 * **the resource gets into a read-only state**
-* **access to the site is left only for administrators and owners**
+* **based on the parameters set by the admin, access to the resource is removed for**:
+   * **Members**; all members are removed when a workspace is archived
+   * **Owners**; all owners are removed when a workspace is archived; when this option is set up, **at least 1 owner will still exist for all workspaces** as set by the admin.
 * **the permissions inheritance is restored on all objects**
 * **all memberships on the resource are removed in Microsoft 365**
 * **all memberships are saved in SysKit Point database to support the Restore action**
-* **the resource is renamed and gets the suffix \[Archived\]**
+* **the resource is renamed to include the Prefix and/or Suffix that was set by the admin**
 
-Before archiving a resource make sure that everything has been set up according to your preference. 
-
-To do that go to the **Settings > Governance > Lifecycle Management** screen.
-Under the **Automation Options** section select **Archive**.
-
-The **Archive (1)** action has additional options available:
-
-* **Remove access for**:
-  * **Members (2)**; by selecting this all members are removed when a workspace is archived
-  * **Owners (3)**; by selecting this all owners are removed when a workspace is archived; if this option is selected, at least 1 owner should still exist for all workspaces, so you will be prompted to:
-    * **Choose who will be set as an owner (4) on archived workspaces**
-* **Use Prefix (5)**
-* **Use Suffix (6)**
-* **Check the Example (7)** to see a preview of the workspace name after archival
-* **Click on Save (8)** to finalize. 
-
-![Archive options](../../.gitbook/assets/enable-lifecycle-management_archive-options-new.png)
 
 After selecting the Archive option for a resource it opens the Archive action dialog where you can:
 
