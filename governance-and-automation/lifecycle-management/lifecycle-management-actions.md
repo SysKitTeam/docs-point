@@ -96,7 +96,25 @@ Archiving a resource within SysKit Point results in the following:
 * **all memberships are saved in SysKit Point database to support the Restore action**
 * **the resource is renamed and gets the suffix \[Archived\]**
 
-On the Archive action dialog, you can:
+Before archiving a resource make sure that everything has been set up according to your preferences. 
+
+To do that go to the **Settings > Governance > Lifecycle Management** screen.
+Under the **Automation Options** section select **Archive**.
+
+The **Archive (1)** action has additional options available:
+
+* **Remove access for**:
+  * **Members (2)**; by selecting this all members are removed when a workspace is archived
+  * **Owners (3)**; by selecting this all owners are removed when a workspace is archived; if this option is selected, at least 1 owner should still exist for all workspaces, so you will be prompted to:
+    * **Choose who will be set as an owner (4) on archived workspaces**
+* **Use Prefix (5)**
+* **Use Suffix (6)**
+* **Check the Example (7)** to see a preview of the workspace name after archival
+* **Click on Save (8)** to finalize. 
+
+![Archive options](../../.gitbook/assets/enable-lifecycle-management_archive-options-new.png)
+
+After selecting the Archive option for a resource it opens the Archive action dialog where you can:
 
 * **enter a comment \(1\)**
 * **confirm the action by typing ARCHIVE \(2\)**
