@@ -96,7 +96,7 @@ Archiving a resource within SysKit Point results in the following:
 * **all memberships are saved in SysKit Point database to support the Restore action**
 * **the resource is renamed and gets the suffix \[Archived\]**
 
-Before archiving a resource make sure that everything has been set up according to your preferences. 
+Before archiving a resource make sure that everything has been set up according to your preference. 
 
 To do that go to the **Settings > Governance > Lifecycle Management** screen.
 Under the **Automation Options** section select **Archive**.
