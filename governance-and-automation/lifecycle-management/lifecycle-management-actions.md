@@ -87,16 +87,20 @@ The Keep action can be executed on inactive resources only!
 
 ### Archive
 
-Archiving a resource within SysKit Point results in the following:
+The **Archive action** has additional options available that are set up according to the administrator’s preference. More information on that can be found in the [Enable Lifecycle Management Automation article](enable-lifecycle-management.md).
 
+Archiving a resource within SysKit Point results in the following:
 * **the resource gets into a read-only state**
-* **access to the site is left only for administrators and owners**
+* **based on the parameters set by the admin, access to the resource is removed for**:
+   * **Members**; all members are removed when a workspace is archived
+   * **Owners**; all owners are removed when a workspace is archived; when this option is set up, **at least 1 owner will still exist for all workspaces** as set by the admin.
 * **the permissions inheritance is restored on all objects**
 * **all memberships on the resource are removed in Microsoft 365**
 * **all memberships are saved in SysKit Point database to support the Restore action**
-* **the resource is renamed and gets the suffix \[Archived\]**
+* **the resource is renamed to include the Prefix and/or Suffix that was set by the admin**
 
-On the Archive action dialog, you can:
+
+After selecting the Archive option for a resource it opens the Archive action dialog where you can:
 
 * **enter a comment \(1\)**
 * **confirm the action by typing ARCHIVE \(2\)**
