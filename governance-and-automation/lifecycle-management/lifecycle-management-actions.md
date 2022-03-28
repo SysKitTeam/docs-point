@@ -87,7 +87,7 @@ The Keep action can be executed on inactive resources only!
 
 ### Archive
 
-The **Archive action** has additional options available that are set up according to the administrator’s preference. More information on that can be found in the [https://www.syskit.com/products/point/documentation/?doc_page=governance-and-automation/lifecycle-management/enable-lifecycle-management.md](enable-lifecycle-management.md).
+The **Archive action** has additional options available that are set up according to the administrator’s preference. More information on that can be found in the [Enable Lifecycle Management Automation article](enable-lifecycle-management.md).
 
 Archiving a resource within SysKit Point results in the following:
 * **the resource gets into a read-only state**
