@@ -28,6 +28,6 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
   * **The OneDrive tile and Analytics & Usage tile were removed** from User details for Collaborators. 
   * When setting up Access, **Admin can now select to give collaborators access to subordinate user's activities.** This option will not be automatically enabled. 
 
-* **Fixed a bug** where archiving Teams resulted in the following error: **Failed to execute Templates backend request ArchiveRequest**.
+* **Fixed an issue** where archiving a Microsoft Team would result in the following error: **Failed to execute Templates backend request ArchiveRequest**.
 
-* **Fixed an issue** where active guest users in Syskit Point were marked as inactive, prompting the admin to delete them.  
+* **Fixed a bug** where active guest users in Syskit Point were marked as inactive, prompting the admin to delete them.  
