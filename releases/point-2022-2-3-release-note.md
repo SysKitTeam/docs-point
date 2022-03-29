@@ -28,7 +28,7 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
   *	While setting up Access, **Admin can now select to ‘Give Collaborators access to subordinate user's activities’**, replacing the previously available option to ‘Show audit reports to Collaborators’. This will not be automatically enabled.  
     * **If disabled, the Collaborator will not be able to view** the OneDrive tile, the Analytics & Usage tile, and Audit Log Reports when accessing User details or workspaces they manage. 
     * **If enabled, the Collaborator will be able to view** the OneDrive tile, the Analytics & Usage tile, and Audit Log Reports when accessing User details or workspaces they manage. 
-  * For more details on Role-Based Access take a look at [this article](../configuratio/nenable-role-based-access.md).
+  * For more details on Role-Based Access take a look at [this article](../configuratio/enable-role-based-access.md).
 
 * **Fixed an issue** where archiving a Microsoft Team would result in the following error: 'Failed to execute Templates backend request ArchiveRequest'.
 
