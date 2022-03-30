@@ -55,7 +55,7 @@ Here, you will find:
 * **All SysKit Point roles (2)** in a separate section
 * **Toggle (3)** that enables a particular role; by default, all roles except the SysKit Point Admin role are initially disabled 
 * **Tile with number of assigned users (4)** for each role; the total number of users with the assigned role is displayed in the tile
-* **Assing to role (5)** button enabling you to add a user to a role easily
+* **Assign to role (5)** button enabling you to add a user to a role easily
 * **Save (6)** button to save changes
 
 ![Settings - Manage Access](../.gitbook/assets/enable-role-based-access_manage-access.png)
@@ -126,7 +126,7 @@ Additional options are available when the SysKit Point Collaborators role is ena
 * **Give users read-only access (disable actions) (1)**; when enabled, Collaborators cannot run actions in SysKit Point
 * **Add users with Full Control (2)**; when enabled, users with Full Control permissions on workspaces will be assigned with the Collaborators role in SysKit Point
 * **Give users access to license reports (3)**; when enabled, Collaborators can access License reports
-* **Show audit reports to Collaborators (4)**; when enabled, Collaborators can access Audit log reports in SysKit Point for workspaces and users they manage
+* **Give Collaborators access to subordinate user's activities (4)**; when enabled, Collaborators will be able to view the OneDrive tile, the Analytics & Usage tile, Audit Log Reports when accessing User details or Workspaces they manage
 
 ![Collaborators - Options](../.gitbook/assets/enable-role-based-access_collaborator-options.png)
 
