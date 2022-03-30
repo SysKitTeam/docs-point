@@ -25,14 +25,13 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
 ## Improvements & Bug Fixes
 
 * **Improved User privacy options when accessed by Collaborators.** 
-  *	While setting up Access, **Admin can now select to ‘Give Collaborators access to subordinate user's activities’**, replacing the previously available option to ‘Show audit reports to Collaborators’. This will not be automatically enabled.  
-    * **If disabled, the Collaborator will not be able to view** the OneDrive tile, the Analytics & Usage tile, and Audit Log Reports when accessing User details or workspaces they manage. 
-    * **If enabled, the Collaborator will be able to view** the OneDrive tile, the Analytics & Usage tile, and Audit Log Reports when accessing User details or workspaces they manage. 
+  *	While setting up Access, **Admin can now select to ‘Give Collaborators access to subordinate user's activities’**, replacing the previously available option to ‘Show audit reports to Collaborators’. It will not be automatically enabled.
+    * **This controls whether the Collaborators will be able to view** the OneDrive tile, the Analytics & Usage tile, and Audit Log Reports when accessing User details or workspaces they manage. 
   * For more details on Role-Based Access take a look at [this article](../configuration/enable-role-based-access.md).
 
 * **Fixed an issue** where archiving a Microsoft Team would result in the following error: `Failed to execute Templates backend request ArchiveRequest.`
 
 * **Fixed a bug** where active Guest Users in Syskit Point were marked as inactive.
-  * After setting up the Guest User Expiration Policy the **assigned User receives an email once a Guest User is marked as inactive**. 
+  * After setting up the Guest User Expiration Policy, the **assigned User receives an email once a Guest User is marked as inactive**. 
   * The assigned User then **has a choice whether to Keep or Delete the inactive Guest User**.
   * Due to this bug, **active Guest Users were reported as inactive** to the assigned User. 
