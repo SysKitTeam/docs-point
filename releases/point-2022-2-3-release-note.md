@@ -30,7 +30,7 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
     * **If enabled, the Collaborator will be able to view** the OneDrive tile, the Analytics & Usage tile, and Audit Log Reports when accessing User details or workspaces they manage. 
   * For more details on Role-Based Access take a look at [this article](../configuration/enable-role-based-access.md).
 
-* **Fixed an issue** where archiving a Microsoft Team would result in the following error: `Failed to execute Templates backend request ArchiveRequest`.
+* **Fixed an issue** where archiving a Microsoft Team would result in the following error: `Failed to execute Templates backend request ArchiveRequest.`
 
 * **Fixed a bug** where active Guest Users in Syskit Point were marked as inactive.
   * After setting up the Guest User Expiration Policy the **assigned User receives an email once a Guest User is marked as inactive**. 
