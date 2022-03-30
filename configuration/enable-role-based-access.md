@@ -126,7 +126,7 @@ Additional options are available when the SysKit Point Collaborators role is ena
 * **Give users read-only access (disable actions) (1)**; when enabled, Collaborators cannot run actions in SysKit Point
 * **Add users with Full Control (2)**; when enabled, users with Full Control permissions on workspaces will be assigned with the Collaborators role in SysKit Point
 * **Give users access to license reports (3)**; when enabled, Collaborators can access License reports
-* **Give Collaborators access to subordinate user's activities (4)**; when enabled, Collaborators will be able to view the OneDrive tile, the Analytics & Usage tile, Audit Log Reports when accessing User details or Workspaces they manage
+* **Give Collaborators access to subordinate user's activities (4)**; when enabled, Collaborators will be able to view the OneDrive tile, the Analytics & Usage tile, Audit log reports when accessing User details or workspaces they manage
 
 ![Collaborators - Options](../.gitbook/assets/enable-role-based-access_collaborator-options.png)
 
