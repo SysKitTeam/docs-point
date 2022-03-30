@@ -25,7 +25,7 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
 ## Improvements & Bug Fixes
 
 * **Improved User privacy options when accessed by Collaborators.** 
-  *	While setting up Access, **Admin can now select to ‘Give Collaborators access to subordinate user's activities’**, replacing the previously available option to ‘Show audit reports to Collaborators’. This will not be automatically enabled.
+  *	While setting up Access, **Admin can now select ‘Give Collaborators access to subordinate user's activities’**, replacing the previously available option ‘Show audit reports to Collaborators’. This will not be automatically enabled.
     *  **If enabled, the Collaborators will be able to view** the OneDrive tile, the Analytics & Usage tile, and Audit Log Reports when accessing User details or workspaces they manage. 
   * For more details on Role-Based Access take a look at [this article](../configuration/enable-role-based-access.md).
 
