@@ -55,7 +55,7 @@ The **Create New Policy** dialog opens where you can define the following Access
     * **files & folders**
 * **Description (6)** - shows summary info depending on selected options regarding memeberships (3) and content (4)
 * **Advanced Settings (7)** - define who will perform the access review 
-* **Save (8)** - click to Save the Access Review Policy when done with the confifuration
+* **Save (8)** - click to Save the Access Review Policy when done with the configuration
 
 ![Create New Policy Dialog](../../.gitbook/assets/create-access-review-policies_create-policy-dialog.png)
 
