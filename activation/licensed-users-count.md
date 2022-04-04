@@ -12,10 +12,12 @@ Using SysKit Point and all of its features, requires having licenses assigned to
  * **Guest Users** only fit into that category **if they have a license assigned to them**. 
    * Having a license assigned to Guest Users is unnecessary for rudimentary use cases such as sharing content and using the Microsoft Teams app.
 
-The number of licensed Users within Syskit Point can be found by going to **Settings > General > Point License > Number of Users M/N**.
+The number of licensed Users within Syskit Point can be found by going to **Settings (1) > General (2) > Point License (3) > Number of Users M/N (4)**.
 
- * **M** stands for the **number of licensed users in the tenant** 
- * **N** stands for the **number of Paid users that are included in the SysKit Point license**
+![Inactive Licensed Users](../.gitbook/assets/activation-licensed-users-point.png)
+
+ * **M** is the **number of licensed users in the tenant** 
+ * **N** is the **number of Paid users that are included in the SysKit Point license**
 
 If you have Inactive Users, you can remove their license through SysKit Point through the following steps:
  * **On the Home screen, click on Reports (1)**; the Reports site will open with several available options
