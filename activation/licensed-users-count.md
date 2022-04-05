@@ -12,7 +12,7 @@ The price of the SysKit Point subscription **depends on the number of licensed u
 
 The number of licensed Users within Syskit Point can be found by going to **Settings (1) > General (2) > Point License (3) > Number of Users M/N (4)**.
 
-![Inactive Licensed Users](../.gitbook/assets/activation-licensed-users-point.png)
+![Number of Licensed Users](../.gitbook/assets/activation-licensed-users-point.png)
 
  * **M** is the **number of licensed users in the tenant** 
  * **N** is the **number of Paid users that are included in the SysKit Point license**
@@ -27,7 +27,7 @@ If you have Inactive Users, you can remove their license through SysKit Point th
  * **Press the Remove Licenses button (4)**; the button is located on the right side of the screen. 
     * Once selected, a popup will appear. **Type REMOVE and click the Remove button to proceed**. 
 
-![Inactive Licensed Users](../.gitbook/assets/activation-licensed-users-count-inactive.png)
+![Removing Licenses](../.gitbook/assets/activation-licensed-users-count-inactive.png)
 
 ## Related Articles
 
