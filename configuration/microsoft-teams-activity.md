@@ -20,9 +20,9 @@ Click the **Configure Now** link to proceed with the initial configuration.
 
 ![Home Screen - Detect Inactive Teams message](../.gitbook/assets/teams_activity-admin_message%20%281%29%20%284%29%20%284%29%20%282%29%20%281%29%20%285%29.png)
 
-The **Settings** &gt; **Governance** &gt; **Content Lifecycle** **settings page** opens. Here, you can find the current **Status** **\(1\)** information, the **Show Information button \(2\)** which will give you all data to successfully fill the Microsoft Access Request form, and the **Fill Microsoft Request button \(3\)** that opens the before mentioned Microsoft Access Request form.
+The **Settings** &gt; **Governance** &gt; **Lifecycle Management** **settings page** opens. Here, you can find the current **Status** **\(1\)** information, the **Show Information button \(2\)** which will give you all data to successfully fill the Microsoft Access Request form, and the **Fill Microsoft Request button \(3\)** that opens the before mentioned Microsoft Access Request form.
 
-![SysKit Point Settings - Content Lifecycle page](../.gitbook/assets/teams_activity-settings%20%283%29%20%283%29%20%281%29%20%284%29%20%283%29%20%284%29.png)
+![SysKit Point Settings - Lifecycle Management page](../.gitbook/assets/teams_activity-settings.png)
 
 In case the Access Request was not yet approved, the following status is displayed:  
 `Approval From Microsoft Needed`
