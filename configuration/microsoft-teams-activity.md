@@ -47,9 +47,9 @@ Once the access to Microsoft Teams protected APIs has been approved, you will re
 
 ![Access approval email ](../.gitbook/assets/teams_activity-approval_email%20%283%29%20%283%29%20%283%29%20%281%29.png)
 
-**From now onward**, when SysKit Point collects activity data, **Microsoft Teams activity data will also be collected**. This happens **every day after working hours**, in order to reduce the load on your Microsoft 365 environment. You will also notice that the **Detect inactive Teams message is no longer visible** after you log in to SysKit Point with a SysKit Point Admin account. On the **Settings** &gt; **Governance** &gt; **Content Lifecycle** screen, the **Microsoft Teams status is now set to Detecting Activity**.
+**From now onward**, when SysKit Point collects activity data, **Microsoft Teams activity data will also be collected**. This happens **every day after working hours**, in order to reduce the load on your Microsoft 365 environment. You will also notice that the **Detect inactive Teams message is no longer visible** after you log in to SysKit Point with a SysKit Point Admin account. On the **Settings** &gt; **Governance** &gt; **Lifecycle Management** screen, the **Microsoft Teams status is now set to Detecting Activity**.
 
-![Microsoft Teams - Detecting Activity status](../.gitbook/assets/microsoft-teams-activity_detecting-activity%20%283%29%20%283%29%20%281%29%20%284%29%20%282%29%20%281%29.png)
+![Microsoft Teams - Detecting Activity status](../.gitbook/assets/.gitbook\assets\microsoft-teams-activity_detecting-activity.png.png)
 
 To learn where to find activity information in SysKit Point, continue to the [Identify Inactive Content article](../governance-and-automation/lifecycle-management/inactive-content.md).
 
