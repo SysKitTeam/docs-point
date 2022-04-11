@@ -21,7 +21,8 @@ The **Update app** dialog opens.
 
 {% hint style="warning" %}
 **Please note!**
-The update will overwrite the old Power BI app.
+Installing a new version overwrites any changes to the app's default reports. However, the **update doesn't affect custom reports saved under a different name or location**.
 {% endhint %}
 
 Once the update is complete, a pop-up notification with the workspace link appears.
+
