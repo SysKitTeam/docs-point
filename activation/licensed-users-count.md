@@ -7,6 +7,7 @@ description: This article explains how SysKit Point licensing depends on the Mic
 The price of the SysKit Point subscription **depends on the number of licensed users within the Microsoft 365 tenant connected to SysKit Point**.
 
 **Licensed Users are all users with any type of Microsoft 365 license attached to them**.
+ * Only **unique Licensed Users or Guest Users will be counted**, regardless of how many licenses the unique User has assigned to them. 
  * **Guest Users** only fit into that category **if they have a license assigned to them**. 
    * Having a license assigned to Guest Users is unnecessary for rudimentary use cases such as sharing content and using the Microsoft Teams app.
 
@@ -21,6 +22,14 @@ The number of licensed Users within Syskit Point can be found by going to **Sett
 
  * **M** is the **number of licensed users in the tenant** 
  * **N** is the **number of Paid users that are included in the SysKit Point license**
+
+**The exact number and type of licenses** that are counted toward your SysKit Point subscription can be found on the **Licensed Users tile**. 
+* Click on **Users (1)** on the Home page
+* Select **Licensed Users (2)** from the drop-down menu or tile
+* **Browse (3)** by type of license assigned to users under the Licenses section
+
+![Browse Licensed Users by license](../.gitbook/assets/activation-licensed-users_browse-license.png)
+
 
 ## License Cleanup
 
