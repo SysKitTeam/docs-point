@@ -8,7 +8,7 @@ description: This article describes how to navigate SysKit Point when starting t
 
 Once opened in your browser, SysKit Point shows the Welcome screen. Click the **Sign in** button.
 
-![SysKit Point - Welcome screen](../.gitbook/assets/syskit-point-quick-start-guide_welcome-screen%20%281%29%20%282%29%20%282%29%20%283%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%283%29.png)
+![SysKit Point - Welcome screen](../.gitbook/assets/syskit-point-quick-start-guide_welcome-screen.png)
 
 This action redirects you to the well known Microsoft Sign in screen.
 
@@ -40,12 +40,13 @@ To view specific section, click the appropriate tile.
 
 There are multiple ways of navigating through the application.
 
-* **Main Navigation** – click the Home orange circle to access the main sections of the application. 
-* **Breadcrumbs** – easily detect where you are currently located or move up the hierarchy/back to the parent. 
-* **Drill** – clicking on the underlined objects takes you to a more detailed report about that resource. 
-* **Back Button** – takes you to the previous screen, the one that you were at before jumping to a different report. 
+* **Main Navigation (1)** – click the Home orange circle to access the main sections of the application. 
+* **Back Button (2)** – takes you to the previous screen, the one that you were at before jumping to a different report. 
+* **Breadcrumbs (3)** – easily detect where you are currently located or move up the hierarchy/back to the parent. 
+* **Drill (4)** – clicking on the underlined objects takes you to a more detailed report about that resource. 
 
-![](../.gitbook/assets/syskit-point-quick-start-guide_navigation-elements%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29.png)
+
+![SysKit Point Navigation Introduction](../.gitbook/assets/syskit-point-quick-start-guide_navigation-elements.png)
 
 ## Built-in Views
 
@@ -57,13 +58,13 @@ Each overview screen comes with a set of predefined views to help you select the
 
 If you are not satisfied with the predefined views, please [let us know](https://feedback.syskit.com/).
 
-As an easy workaround, you can add additional columns on your own with the help of column chooser, or filter each column to get the desired results.
+As an easy workaround, you can add additional columns on your own with the help of **column chooser (1)**, or **column filter (2)** each column to get the desired results.
 
 ![SysKit Point - Column Chooser and Column Filter](../.gitbook/assets/syskit-point-quick-start-guide_syskit-point-column-chooser-and-column-filter.png)
 
 ## Drill for Details
 
-The basic principle in the application is, whenever you wish to see more details about a specific resource, you click the name to drill deeper. Resources, numbers, and details that can be drilled on will be marked with the underline.
+The basic principle in the application is, whenever you wish to see more details about a specific resource, you **click the name to drill (1)** deeper. Resources, numbers, and details that can be drilled on will be marked with the underline.
 
 Everything is connected, and we made it accessible for you to navigate from a specific site to the user details and vice versa.
 
@@ -71,7 +72,7 @@ Everything is connected, and we made it accessible for you to navigate from a sp
 
 ## External Links
 
-Whenever possible, SysKit Point shows you an external link so you can, e.g., quickly open a site in SharePoint Online or send an email to Microsoft 365 Group. External links are marked with an icon that suggests you will leave the current context, and to distinguish them from drill links mentioned above, they are colored blue.
+Whenever possible, SysKit Point shows you an external link so you can, e.g., quickly open a site in SharePoint Online or send an email to Microsoft 365 Group. **External links (1)** are marked with an icon that suggests you will leave the current context, and to distinguish them from drill links mentioned above, they are colored blue.
 
 ![SysKit Point - External link for a site](../.gitbook/assets/syskit-point-quick-start-guide_syskit-point-external-link-for-a-site.png)
 
