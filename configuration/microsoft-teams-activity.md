@@ -32,9 +32,14 @@ In case the Access Request was not yet approved, the following status is display
 The status will not change after you fill in the Access request form; it will change automatically after the Access Request is approved.
 {% endhint %}
 
-Click the **Show Information button**. A dialog is displayed giving you all the information needed to fill the Access Request form. Click the **Fill Microsoft Request button \(1\)** to **open the Request Access form in a new tab \(3\)**. In SysKit Point, click the **Copy link \(2\)** available next to each value, and **paste in the corresponding text field in the Access Request form \(4\)**. Once you fill the Access Request form, click the **Submit button \(5\)** to send.
+Click the **Show Information button**. A dialog is displayed giving you all the information needed to fill the Access Request form. 
+* Click the **Fill Microsoft Request button \(1\)**; this will **open the Request Access form in a new tab \(3\)**. 
+* Return to SysKit Point for information needed to fill out the form.
+  *  Click the **Copy link \(2\)** available next to each value.
+  * **Paste it in the corresponding text field within the Access Request form \(4\)**. 
+* Once you fill the Access Request form, click the **Submit button \(5\)** to send.
 
-![Prepared information in SysKit Point &amp; Access Request Form](../.gitbook/assets/microsoft-teams-activity_information-and-form%20%281%29%20%284%29%20%284%29%20%281%29%20%282%29.png)
+![Prepared information in SysKit Point &amp; Access Request Form](../.gitbook/assets/microsoft-teams-activity_information-and-form.png)
 
 {% hint style="warning" %}
 **Please note!**  
