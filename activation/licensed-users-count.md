@@ -30,6 +30,14 @@ The number of licensed Users within Syskit Point can be found by going to **Sett
 
 ![Browse Licensed Users by license](../.gitbook/assets/activation-licensed-users_browse-license.png)
 
+To access information on how many assigned licenses there are in your Microsoft 360, visit the admin center and take the following steps. 
+
+Under **Billing (1)** select **Licenses (2)**. The list of **owned licenses (3)** will then be shown. 
+ * The **Available Licenses (4)** section is the number of licenses that are still available to be assigned to users. 
+ * The **Assigned Licenses (5)** section shows the number of licenses that are assigned compared to the available number. 
+
+![How to Check the Microsoft 365 Licenses](../.gitbook/assets/licensed-users-count_microsoft-licenses.png)
+
 
 ## License Cleanup
 
