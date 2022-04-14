@@ -32,11 +32,28 @@ The number of licensed Users within Syskit Point can be found by going to **Sett
 
 To access information on how many assigned licenses there are in your Microsoft 365, visit the admin center and take the following steps. 
 
-Under **Billing (1)** select **Licenses (2)**. The list of **owned licenses (3)** will then be shown. 
+Under **Billing (1)**, select **Licenses (2)**. The list of **owned licenses (3)** will then be shown. 
  * The **Available Licenses (4)** section is the number of licenses that are still available to be assigned to users. 
- * The **Assigned Licenses (5)** section shows the number of licenses that are assigned compared to the available number. 
+ * The **Assigned Licenses (5)** section shows the number of assigned licenses compared to the available number. 
 
 ![How to Check the Microsoft 365 Licenses](../.gitbook/assets/licensed-users-count_microsoft-licenses.png)
+
+Selecting each license allows you to **Assign** it to additional users or **Unassign** it from current ones. This can help with optimizing the cost of the SysKit Point subscription to suit your needs better.
+
+**To unassign users from a license** click on the license name to select it. This will open the **License details (1)** screen.  
+
+ * Once there, **select either the individual Users to unassign or the top box to select all Users (2)**.
+ * This will provide the option to click on **Unassign licenses (3)**; a pop-up will open requesting you click the **Unassign button to confirm**.
+
+The pricing for SysKit Point is **calculated based on each User that has a license assigned to them**. 
+For example, if one User has three licenses, the charge would still be for that one User, regardless of the number of licenses assigned to them. 
+
+![Unassign Microsoft 365 Licenses](../.gitbook/assets/licensed-users-count_microsoft-license-unassign.png)
+
+{% hint style="warning" %}
+**Please note!**  
+SysKit Point does count the free Microsoft 365 licenses while calculating cost.  
+{% endhint %}
 
 
 ## License Cleanup
