@@ -52,7 +52,7 @@ For example, if one User has three licenses, the charge would still be for that 
 
 {% hint style="warning" %}
 **Please note!**  
-SysKit Point does count the free Microsoft 365 licenses while calculating cost.  
+SysKit Point **does** count the free Microsoft 365 licenses while calculating cost.  
 {% endhint %}
 
 
