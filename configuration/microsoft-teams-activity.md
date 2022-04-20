@@ -32,7 +32,7 @@ In case the Access Request was not yet approved, the following status is display
 The status will not change after you fill in the Access request form; it will change automatically after the Access Request is approved.
 {% endhint %}
 
-Click the **Show Information button**. A dialog is displayed giving you all the information needed to fill the Access Request form. 
+Click the **Show Information button**. A dialog is displayed, giving you all the information needed to fill out the Access Request form.
 * Click the **Fill Microsoft Request button \(1\)**; this will **open the Request Access form in a new tab \(3\)**. 
 * Return to SysKit Point for information needed to fill out the form.
   *  Click the **Copy link \(2\)** available next to each value.
