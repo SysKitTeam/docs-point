@@ -1,9 +1,16 @@
 ---
-description: This article explains what Ignored Service Accounts are and how to set them up in SysKit Point.
+description: This article explains what Service Accounts are and how to Ignore Service Account activities within SysKit Point.
 ---
 
 # Ignored Service Accounts
 The **Ignored Service Accounts** addition to the **General Settings** of Syskit Point allows you to enter certain accounts in order to avoid triggering alerts for their actions.
+
+Adding an account to the **Ignored Service Accounts list in order to avoid tracking Service Accounts activities** collected from Unified Audit Logs means:
+
+ * The Service Account page hits, and views **will be ignored when detecting any workspace activity**.
+ * The Service Account audit logs **won’t be stored**.
+ * The Service Account changes **will be ignored and won’t trigger alerts**.
+
 
 **Service accounts are user accounts created specifically to fulfill automated, expected changes to the server.**
 
@@ -17,9 +24,3 @@ Under **General (2)**, at the bottom of the screen, is the **Ignored Service Acc
 
 ![Setting up Ignored Service Accounts](../.gitbook/assets/ignored-service-accounts_set-up.png)
 
-
-Adding an account to the Ignored Service Accounts list means:
-
-* The account **will be ignored when detecting any workspace activity**.
-* The account **won’t be stored in your audit logs**.
-* The account **will be ignored and won’t trigger alerts**.
