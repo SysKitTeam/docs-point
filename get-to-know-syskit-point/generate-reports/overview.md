@@ -6,6 +6,12 @@ description: This article provides a list of available report categories and sho
 
 ## Generate Reports
 
+SysKit Point Reports gives insight into what's happening within the Microsoft 365 environment. 
+
+Within **Reports** the following actions can be completed:
+ * Clean up 
+
+
 To generate a report in SysKit Point, **navigate to the Report Center by clicking the Reports tile on the Home screen**.
 In the Report Center, you can:
 * **See all reports available in SysKit Point** along with a short description
