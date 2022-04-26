@@ -1,6 +1,17 @@
 # Licenses Reports
 
-Reports in this section help manage your Microsoft 365 licenses. Use them to discover assigned, unassigned or inactive Microsoft 365 licenses, check their overall cost. You can also use these reports to identify underutilized licenses to drive adoption and reduce the cost of the licenses by assigning less expensive ones to users.
+Reports in this section help manage your Microsoft 365 
+licenses. 
+
+In this article you can locate information on the following license reports:
+* Licenses Overview Report
+* Licenses Usage by Service Report
+* License Distribution
+* Inactive Licenses Report
+
+Use them to discover assigned, unassigned or inactive Microsoft 365 licenses, check their overall cost. 
+
+These reports can also be used to identify underutilized licenses to drive adoption and reduce the cost of the licenses by assigning less expensive ones to users.
 
 ## Licenses Overview Report
 
@@ -10,7 +21,7 @@ Use this report to help yourself calculate future license costs.
 
 ### Generate the Licenses Overview Report
 
-- From the SysKit Point home screen, click on the Reports tile.
+- From the SysKit Point home screen, **click on the Reports tile**.
 - In the upper left corner, click on the filter and select Licenses filter.
 - Click on the Licenses Overview report to generate the report.
 

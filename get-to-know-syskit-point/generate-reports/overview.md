@@ -8,17 +8,23 @@ description: This article provides a list of available report categories and sho
 
 SysKit Point Reports gives insight into what's happening within the Microsoft 365 environment. 
 
-Within **Reports** the following actions can be completed:
- * Clean up 
+The **Reports** section enables the following actions:
+* Clean up of oudated or unnecessary resources
+* Auditing help with Access Review
+* Contextual, one-click report generation
+* Advanced filtering
+* High-level overview
+* Exporting reports as PDF or Excel
+* Scheduled report delivery
 
 
 To generate a report in SysKit Point, **navigate to the Report Center by clicking the Reports tile on the Home screen**.
 In the Report Center, you can:
-* **See all reports available in SysKit Point** along with a short description
-* **Filter reports by category (1)**; only reports of a selected category are displayed
+* **See all reports available in SysKit Point** along with a short description of what each provides
+* **Filter reports by category (1)**; only reports within the selected category are displayed
 * **Search for a report (2)** by typing a search term into the input field
-* **Navigate to Scheduled Reports (3)** 
-* **Click a report tile (4) to generate the wanted report**
+* **Navigate to Scheduled Reports (3)**; set up a recurring delivery of reports 
+* **Click a report tile (4)** to generate the wanted report
 
 ![SysKit Point - Report Center](../../.gitbook/assets/generate_reports_overview-report_center.png)
 
@@ -32,10 +38,15 @@ Here, you can:
 
 {% hint style="warning" %}
 **Please note!**  
-Different reports show different objects to select as well as different filters to adjust. In the example given, the Selection step for the Permissions Matrix report shows Microsoft Teams, Microsoft 365 Groups, OneDrive, and sites to select. On the other hand, if we look at the User Access Report, it lists all users for selection. 
-Some reports, such as the External Users report, generate right after clicking the report tile and don't show the Selection step. 
-Since the selection and filters can differ, reports are further described within the category-specific articles given below.
+Different reports show different objects to select as well as different filters to adjust. 
 {% endhint %}
+
+In the example given, **the Selection step for the Permissions Matrix report shows Microsoft Teams, Microsoft 365 Groups, OneDrive, and sites to select**. 
+
+On the other hand, if we look at **the User Access Report, it lists all users for selection**. 
+
+Some reports, such as **the External Users report, generate right after clicking the report tile and don't show the Selection step**. 
+* Since the selection and filters can differ, reports are further described within the category-specific articles given below.
 
 ## Report Categories
 
