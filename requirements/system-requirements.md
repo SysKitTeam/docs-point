@@ -1,8 +1,17 @@
 ---
-description: This article lists Azure resources requirements to consider when deploying SysKit Point.
+description: This article lists requirements to consider when deploying SysKit Point.
 ---
 
-# Azure Resources Requirements
+# Requirements
+
+## SysKit Point Requirements
+
+**SysKit Point is dependent upon the use of**:
+* **Microsoft 365 tenant**
+* **Azure Subscription**
+* **Azure Active Directory** 
+
+## Azure Resources Requirements
 
 {% hint style="warning" %}
 **Please note!**  
