@@ -14,7 +14,7 @@ The **Reports** section enables the following actions:
 * Contextual, one-click report generation
 * Advanced filtering
 * High-level overview
-* Exporting reports as PDF or Excel
+* Exporting reports as PDF or XLSX files
 * Scheduled report delivery
 
 
