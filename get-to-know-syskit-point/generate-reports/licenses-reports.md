@@ -4,10 +4,10 @@ Reports in this section **help manage your Microsoft 365
 licenses**. 
 
 In this article you can locate information on the following license reports:
-* Licenses Overview Report
-* Licenses Usage by Service Report
-* License Distribution
-* Inactive Licenses Report
+* [Licenses Overview Report](#licenses-overview-report)
+* [Licenses Usage by Service Report](#licenses-usage-by-service-report)
+* [License Distribution](#license-distribution)
+* [Inactive Licenses Report](#inactive-licenses-report)
 
 Use them to **discover assigned, unassigned or inactive Microsoft 365 licenses** and check their overall cost. 
 
@@ -41,11 +41,14 @@ Now that your report is successfully generated, the following data will be displ
 * **Inactive Licenses**; shows the number of currently assigned licenses on inactive, blocked, or deleted users
 * **Potential Savings (Inactive)**; shows the potential savings you can obtain on inactive licenses
 
-The **total cost for All licenses, Assigned Licenses, and Total potential savings on unassigned and inactive licenses is located at the bottom** of the generated report.
+The **total cost for All licenses, Assigned Licenses, and Total potential savings on unassigned and inactive licenses are located at the bottom** of the generated report.
 
 Selecting a line in the generated report provides the option to create an Inactive Licenses report for the selected license.
 
 The Licenses Overview report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+
+![Licenses Overview screen](../../.gitbook/assets/licenses-reports_licenses-overview.png)
+
 
 ## Licenses Usage by Service Report
 
@@ -76,6 +79,8 @@ The following data can also be found in the columns:
 
 The Licenses Usage by Service report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
+![Licenses Usage by Service Report screen](../../.gitbook/assets/licenses-reports_licenses-usage-by-service.png)
+
 ## License Distribution
 
 The **License Distribution** report enables **viewing the license distribution and cost by department or location**. 
@@ -96,7 +101,7 @@ This report can also be **used to help calculate possible savings that can achie
 
 ### License Distribution Report Data
 
-When the License Distribution report is successfully generated, it will be grouped by Department or Usage Location. 
+When the License Distribution report is successfully generated, it will be grouped by either Department or Usage Location. 
 
 It shows all of the **licenses in the Microsoft 365 environment assigned by your company departments or various locations**.
 
@@ -110,6 +115,9 @@ Other columns that are enabled by default are:
 * **Possible savings (Inactive)**; the potential savings on inactive licenses
 
 The License Distribution report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+
+
+![Licenses Distribution screen](../../.gitbook/assets/licenses-reports_licenses-distribution.png)
 
 ## Inactive Licenses Report
 
@@ -132,7 +140,7 @@ It shows all of the **licenses assigned to a specific inactive user**.
 
 Other columns that are enabled by default are:
 
-* **License**; name of the License currently assigned to an inactive user
+* **License**; the name of the License currently assigned to an inactive user
 * **Last logged in**; the exact date when the user was last active
 * **User State**; shows if the user is inactive, has a blocked sign-in, or is deleted from Azure Active Directory
 * **Department**; Shows the name of the company Department that said user was a part of
@@ -141,6 +149,9 @@ Other columns that are enabled by default are:
 
 The Inactive Licenses report **provides the ability to select licenses assigned to an inactive user easily**. 
 
-On the side panel, an action called **Remove Licenses becomes available**, making it possible remove currently assigned licenses.
+On the side panel, an action called **Remove Licenses becomes available**, making it possible to remove currently assigned licenses.
 
-The Inactive Licenses  report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+The Inactive Licenses report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+
+
+![Inactive Licenses screen](../../.gitbook/assets/licenses-reports_inactive-licenses.png)
