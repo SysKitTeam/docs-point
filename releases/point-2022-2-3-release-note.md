@@ -36,11 +36,8 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
   * The assigned User then **has a choice whether to Keep or Delete the inactive Guest User**.
   * Due to this bug, **active Guest Users were reported as inactive** to the assigned User. 
 
- * **Fixed a bug** with data column filtering on Overview screens for item selection of more than 10k items.
-   * When filtering to select more than 10k items for any column on Overview, it would show that there was no data available to display. 
+ * **Fixed a bug** with data column filtering on Overview screens for item selection of more than 10k items. When filtering to select more than 10k items for any column on Overview, it would show that there was no data available to display. 
 
-* **Fixed an issue** where HTTP requests used an expired access token, instead of requiring a new one.
-  * Instead of generating a new access token, the action would be retried with a previously used token.
+* **Fixed an issue** where HTTP requests used an expired access token instead of requiring a new one. Instead of generating a new access token, SysKit Point would retry action with a previously used token.
 
-* **Fixed an issue** with triggering new hangfire jobs while they are still in progress.
-  * If a hangfire job was active for longer than 30 minutes, it was triggered to start again. 
+* **Fixed an issue** with triggering new hangfire jobs while existing ones are still in progress. If a hangfire job was active for longer than 30 minutes, it was triggered to start again. 
