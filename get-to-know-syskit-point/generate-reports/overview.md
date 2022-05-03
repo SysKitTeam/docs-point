@@ -10,7 +10,6 @@ SysKit Point Reports gives insight into what's happening within the Microsoft 36
 
 The **Reports** section enables the following actions:
 * Clean up of oudated or unnecessary resources
-* Auditing help with Access Review
 * Contextual, one-click report generation
 * Advanced filtering
 * High-level overview

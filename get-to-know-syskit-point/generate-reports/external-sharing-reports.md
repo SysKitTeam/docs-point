@@ -1,41 +1,54 @@
 ---
-description: External sharing reports provide information about the external users and their access to your tenant resources.
+description: External Sharing Reports provide information about the external users and their access to your tenant resources.
 ---
 
 # External Sharing Reports
 
-This category contains the following reports:
-* **Externally Shared Content**
-* **External Users**
-* **Sharing Links**
+In this article you can locate information on the following external sharing reports:
+* [Externally Shared Content](#externally-shared-content)
+* [External Users](#external-users-report)
+* [Sharing Links](#sharing-links)
 
-To generate a report:
-* **Navigate to the Report Center** by clicking the Reports tile on the Home screen
-* **Select the External Sharing category (1)** from the left hand filter
-* **Click a report tile (3)** of he report you want to generate
+These reports can be used to **optimize and keep track of externally shared content, links and external users with access to your Microsoft 365**. 
+
+In order to access an external sharing report complete the following steps:
+
+ * **Click the Reports tile**; located on the SysKit Point home screen.
+ * **Select the External Sharing category in the filter**; it can be found in the upper left corner.
+ * **Click the Externally Shared Content, External Users, or Sharing Links**; this will generate that specific report.
 
 ## Externally Shared Content
 
-This report shows content shared with external users via sharing links or by granting the access directly.
+This report shows content shared with external users via sharing links or by granting them access directly.
 
 ### Selection & Filters
 
 After clicking the **Externally Shared Content** report tile, a selection step opens where you can:
-* **Filter displayed workspaces** by **changing the view (1)**, **selecting the workspace type (2)**, or **searching (3)**   
-* **Select one or multiple workspaces (4)**
-* **Select content level to be shown (5)**; choose between the following options:
+* **Use the filter** to change the type of sites being viewed.
+* **Select one or multiple workspaces**; workspace can be selected in the top bar above the columns. 
+* **Use the search option** if there are any specific site inqueries.
+* **Click the select all button** in the top left corner **or select the individual sites** for which the report should be generated. 
+* **Choose the content level to be shown** once prompted.
+  * The option to select between the following options will appear:
     * **subsites**
     * **document libraries & lists**
     * **folders**
     * **files & folders**
-* **Click the Run Report button(6)** to generate the report
+* **Click the Run Report button** to generate the report.
+
 ### Report Data
 
-The generated report displays all externally shared content based on the workspace and filter selection. The following columns are visible:		
-* **Name** of the workspace, content, groups, and external users that are shown in the tree grid
-* **Permissions levels** showing the level of access for external users on the content; for example, **Full Control**, **Design**, **Read**, **Edit**, **Contribute**
+The generated report displays all externally shared content based on the workspace and filter selection. 
+
+The following columns are visible:		
+* **Name**; the workspace, content, groups, and external users shown in the tree grid.
+* **Permission levels**; the level of access for external users on the content. 
+  * For example, this can be: **Full Control**, **Design**, **Read**, **Edit**, **Contribute**...
 		
-You can find and choose to display additional columns in the **column chooser**:		
+Find and display additional columns in the **column chooser**, located in the top right corner, next to the search bar.
+
+The options available to select are:
+
 * **URL**
 * **Object Type**
 * **Email**
@@ -47,12 +60,14 @@ You can find and choose to display additional columns in the **column chooser**:
 
 ### Report Actions
 
-When the report is displayed, you can do the following actions by clicking the corresponding link from the right-side panel:
-* **Schedule the Report**
-* **Export the report** to an **Excel** or a **PDF file**
+When the report is displayed, the following actions can be completed by clicking the corresponding link from the right-side panel:
+
+* **Schedule the Report**; set up a recurring delivery
+* **Export the report** as an **XLSX** or a **PDF file**
 * **Open related reports**
 
-You can also manage the access directly from this report by selecting an object or a user, and choose the available action from the side panel.
+**Access can be managed directly from the report** by selecting an object or a user, and choosing one of the available actions from the side panel.
+
 The following access management actions can be performed:
 * **Change Owners/Admins**
 * **Remove Sharing Links**
@@ -66,13 +81,17 @@ This report contains all external users (registered in your tenant and outside y
 
 ### Generate Report
 
-You can access this report from:
+**Acccess this report from the Report Center**:
 
-*	the Report Center
+ * **Click the Reports tile**; located on the SysKit Point home screen.
+ * **Select the External Sharing category in the filter**; it can be found in the upper left corner.
+ * **Click the External Users tile** to generate the report
+
+
 
 ### Report Data
 
-Default columns displayed in the report are:
+The default columns displayed in the report are:
 		
 * **Name** of the user
 * **Site Name**
@@ -80,42 +99,40 @@ Default columns displayed in the report are:
 * **Username**
 * **Domain**
 * **Last Logged In** time
-
-![External Users report](../../\.gitbook/../.gitbook/assets/external-sharing-reports_external-users-report.png)
 		
-There is one additional column in the column chooser:
-		
-* **Site Type** - shows the type of workspace for resource
+There is one additional column available in the column chooser.
+  * **Site Type**; shows the type of workspace for resource
 
 
 ### Report Actions
 
-Here you can:
+The actions that can be taken here are the following:
 
-*	**Remove user access from a resource**
-*	**see when the user last logged in**
-*	**from which domain they are coming from**
+*	**Remove access for users** from a resource
+*	**Observe the last log in for users**
+*	**View which domain users are coming from**
 
-This report can be exported (PDF and XLSX) and scheduled.
+The External Users report can be **exported as PDF or XLSX file**. There is also the **option to schedule the report**.
 
 
-## Sharing Links report
+## Sharing Links 
 
-This report helps you identify all the files and folders and their sharing links. 
+The Sharing Links report helps **identify all the shared files and folders along with their sharing links**. 
 
-This way, external users can be located and removed easily.
+Use this to easily **locate and remove external users** when necessary.
 
 ### Generate Report
 
-You can access this report from:
+This report can be accessed from:
 
-*	detail screen of specific resource - Sharing Links tile
-*	the Report Center
-*	some other reports available in SysKit Point - for example, Permissions Matrix report, Externally Shared Content report, Unique Permissions report
+* The **details screen of specific resource**; clicking on the **Sharing Links tile**
+* The Report Center
+* **Other reports** available in SysKit Point 
+  * For example it is available in: **Permissions Matrix report, Externally Shared Content report, Unique Permissions report**
 
 ### Report Data
 
-Default columns displayed in the report are:
+There are default columns displayed in the report which list the follwing:
 		
 * **Name** of the resource
 * **URL**
@@ -124,14 +141,13 @@ Default columns displayed in the report are:
 * **Created On**
 * **Expiration Date**
 
-![Sharing Links report](../../\.gitbook/assets/external-sharing-reports_sharing-links-report.png)
-
-An external user can be identified if you look for the color of the user icon. If it's a **green-blue color**, it's an **external user**.
+An external user can be identified by looking for the color of the user icon. 
+  * If the color is a **green-blue**, it is an **external user**.
 
 ### Report Actions
 
-You can perform these actions:
-*	**Remove sharing link**
-*	**Remove user access**
+The following actions can be performed within the report:
+* **Remove sharing link**
+* **Remove user access**
 
-This report can be exported (PDF and XLSX) and scheduled.
+The Sharing Links report can be **exported as PDF or XLSX file**. There is also the **option to schedule the report**.
