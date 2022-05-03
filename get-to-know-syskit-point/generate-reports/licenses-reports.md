@@ -9,9 +9,9 @@ In this article you can locate information on the following license reports:
 * [License Distribution](#license-distribution)
 * [Inactive Licenses Report](#inactive-licenses-report)
 
-Use them to **discover assigned, unassigned or inactive Microsoft 365 licenses** and check their overall cost. 
+Use them to **discover assigned, unassigned Microsoft 365 licenses or Microsoft 365 licenses assigned to inactive users** and check their overall cost.
 
-These reports can also be used to **identify underutilized licenses to drive adoption and reduce the cost of the licenses** by assigning less expensive ones to users.
+These reports can also be used to **identify underutilized licenses to drive adoption and optimize license cost**.
 
 ## Licenses Overview Report
 
@@ -22,9 +22,9 @@ This report can be **used to help calculate future license costs**.
 
 ### Generate the Licenses Overview Report
 
- * **Click on the Reports tile**; it is located on the SysKit Point home screen.
+ * **Click the Reports tile**; it is located on the SysKit Point home screen.
  * **Select Licenses in the filter**; it can be found in the upper left corner.
- * **Click on the Licenses Overview report** to generate the report.
+ * **Click the Licenses Overview report** to generate the report.
 
 ### Licenses Overview Report Data
 
@@ -47,20 +47,17 @@ Selecting a line in the generated report provides the option to create an Inacti
 
 The Licenses Overview report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
-![Licenses Overview screen](../../.gitbook/assets/licenses-reports_licenses-overview.png)
-
-
 ## Licenses Usage by Service Report
 
 The **Licenses Usage by Service** report helps **identify underutilized licenses** to drive adoption and reduce costs by assigning less expensive licenses to users. 
 
-Use this report to quickly **check if users are fully utilizing their assigned licenses**. This helps determine if they should have **less expensive licenses assigned to save costs**.
+Use this report to quickly **check if users are fully utilizing their assigned licenses**. This helps determine if they should have **different licenses assigned to optimize usage and cost**.
 
 ### Generate the Licenses Usage by Service Report
 
-* **Click on the Reports tile**; located on the SysKit Point home screen.
+* **Click the Reports tile**; located on the SysKit Point home screen.
  * **Select Licenses in the filter**; can be found in the upper left corner.
- * **Click on the Licenses Usage by Service** tile to generate the report.
+ * **Click the Licenses Usage by Service** tile to generate the report.
 
 ### Licenses Usage by Service Report Data
 
@@ -79,8 +76,6 @@ The following data can also be found in the columns:
 
 The Licenses Usage by Service report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
-![Licenses Usage by Service Report screen](../../.gitbook/assets/licenses-reports_licenses-usage-by-service.png)
-
 ## License Distribution
 
 The **License Distribution** report enables **viewing the license distribution and cost by department or location**. 
@@ -92,10 +87,9 @@ This report can also be **used to help calculate possible savings that can achie
 
 ### Generate License Distribution Report
 
-
 * **Click on the Reports tile**; located on the SysKit Point home screen.
  * **Select Licenses in the filter**; can be found in the upper left corner.
- * **Click on the License Distribution** tile to generate the report.
+ * **Click the License Distribution** tile to generate the report.
 * **Select one of the two options** when redirected to the filter screen; the report data can be filtered by **Department or Usage Location**.
 * **Click the Run Report button** to generate the desired report.
 
@@ -116,27 +110,23 @@ Other columns that are enabled by default are:
 
 The License Distribution report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
-
-![Licenses Distribution screen](../../.gitbook/assets/licenses-reports_licenses-distribution.png)
-
 ## Inactive Licenses Report
 
-The **Inactive Licenses** report helps with **finding and reclaiming licenses assigned to inactive or blocked users** to optimize your Microsoft 365 license cost easily.
+The **Inactive Licenses** report helps with **finding and reclaiming licenses assigned to inactive or blocked users** to optimize your Microsoft 365 license cost.
 
 Use this report to **easily remove the assigned licenses from disabled users**. The license can then be **assigned to new users or removed in order to reduce costs**.
 
 ### Generate Inactive Licenses report
 
-
- * **Click on the Reports tile**; it is located on the SysKit Point home screen.
+ * **Click the Reports tile**; it is located on the SysKit Point home screen.
  * **Select Licenses in the filter**; it can be found in the upper left corner.
- * **Click on the Inactive Licenses report** to generate the report.
+ * **Click the Inactive Licenses report** to generate the report.
 
 ### Inactive Licenses Report Data
 
 Once the **Inactive Licenses** report is successfully generated, it is **grouped by the User column**. 
 
-It shows all of the **licenses assigned to a specific inactive user**. 
+It shows all the **licenses assigned to a specific inactive user**. 
 
 Other columns that are enabled by default are:
 
@@ -152,6 +142,3 @@ The Inactive Licenses report **provides the ability to select licenses assigned 
 On the side panel, an action called **Remove Licenses becomes available**, making it possible to remove currently assigned licenses.
 
 The Inactive Licenses report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
-
-
-![Inactive Licenses screen](../../.gitbook/assets/licenses-reports_inactive-licenses.png)
