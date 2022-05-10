@@ -152,6 +152,20 @@ The **Sharing step** gives you a simple, yet detailed overview of all shared con
 
 ![Access Review wizard - Sharing step](../../.gitbook/assets/permissions-review_wizard-sharing.png)
 
+**Actions displayed in the side panel depend on the type and state of the selected object (1)**.
+A file with unique permissions is selected in the image below. 
+The following **actions (2) are available** in that case:
+* **Grant access**
+* **Delete Unique Permissions**
+
+If an **object with permission inheritance is selected**, the **Stop Inheriting Permissions action** is available in the side panel.
+
+The following **reports (3) can be generated** regardless of the type of the selected object:
+* **File and Page Activities**; **Please note that administrators can limit the visibility of audit reports**
+* **Permissions Changes**
+
+![Access Review wizard - Sharing step - Actions and reports](../../.gitbook/assets/permissions-review_wizard-sharing-actions-reports.png)
+
 In case you switch to the **Users view**, the **top filters** are changed accordingly and enable you to filter out specific types of users. You can find descriptions for all filters by **hovering your mouse over the filter tile \(1\)**.
 
 ![Access Review wizard - Sharing step - Users view](../../.gitbook/assets/permissions-review_wizard-sharing-by-users.png)
