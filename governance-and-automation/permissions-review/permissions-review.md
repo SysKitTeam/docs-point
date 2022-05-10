@@ -157,6 +157,7 @@ A file with unique permissions is selected in the image below.
 The following **actions (1) are available** in that case:
 * **Grant access**
 * **Delete Unique Permissions**
+
 If an **object with permission inheritance is selected**, the **Stop Inheriting Permissions action** is available in the side panel.
 
 The following **reports (2) can be generated** regardless of the type of the selected object:
