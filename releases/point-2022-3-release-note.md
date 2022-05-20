@@ -10,7 +10,7 @@ description: This article lists improvements and bug fixes in SysKit Point versi
 
 **Build number:** 120
 
-**Release date:** May 19, 2022
+**Release date:** May 23, 2022
 
 ## Get the Latest Version
 
@@ -55,7 +55,7 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
 * **Improved speed and performance** for the OneDrive tile when accessing through User details.
 * **Optimized speed and performance** when loading the Lifecycle Management details screen.
 * **Improved speed** for loading the Overview tile when accessing the Private Channel details screen.
-* **Improved Access Review feature** to include exact dates when accessing the PR History Details Overview.
+* **Improved Access Review feature** to include exact dates when accessing the Access Review History Details Overview.
   * Names of columns changed to include Status, Performed On and Performed By.
     * Status bar states whether the action was Completed or Expired, and hovering above it provides information on who completed the task.
 * **Improved speed** for accessing the Lifecycle Management Email Preview.

@@ -2,6 +2,7 @@
 
 * [SysKit Point](README.md)
 * [Releases](releases/README.md)
+  * [SysKit Point 2022.3](releases/point-2022-3-release-note.md)
   * [SysKit Point 2022.2.3](releases/point-2022-2-3-release-note.md)
   * [SysKit Point 2022.2.2](releases/point-2022-2-2-release-note.md)
   * [SysKit Point 2022.2.1](releases/point-2022-2-1-release-note.md)
@@ -37,6 +38,7 @@
   * [Customize Audit Logs Collection](configuration/customize-audit-logs-collection.md)
   * [Manage Role-Based Access](configuration/enable-role-based-access.md)
   * [Enable Microsoft Teams Activity Tracking](configuration/microsoft-teams-activity.md)
+  * [Ignore Service Account Activity Tracking](configuration/ignore-service-account-activity-tracking.md)
   * [Customize License Reports](configuration/customize-license-reports.md)
   * [Customize E-Mails](configuration/customize-emails.md)
   * [Report Data Limits](configuration/report-data-limits.md)
