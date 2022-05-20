@@ -1,28 +1,35 @@
 ---
-description: Audit reports provide a detailed overview of your environment's users' activities by searching Microsoft 365 audit logs.
+description: Audit reports provide a detailed overview of the users' activities in your environment by searching Microsoft 365 audit logs.
 ---
 
 # Access Reports
 
-This category contains five reports that you can access through **Report Center**.
+In this article there is information on five audit reports available through the **Reports Center**:
 
-Use the **dropdown filter**, as shown below in the picture, and select the **Audit Logs** category.
+* [Audit Logs Overview Report](#audit-logs-overview-report)
+* [Exchange Logs Report](#exchange-logs-report)
+* [Site Permissions Changes Report](#site-permissions-changes-report)
+* [User Activity Report](#user-activity-report)
+* [File and Page Activities Report](#file-and-page-activities-report)
 
-![Report Center – Audit reports](../../.gitbook/assets/audit-reports_report-center-audit-reports.png)
 
-## Audit Logs Overview report
+These reports can be accessed in the Report section by selecting the **Audit Logs** category from the dropdown filter.
 
-Search the Microsoft 365 unified audit log data to view user and administrator activity in your environment. This report provides a detailed overview of all users' activities in your environment. Quickly detect and troubleshoot potential issues, security breaches, or suspicious behavior. 
+## Audit Logs Overview Report
+
+To view user and administrator activity in your environment, search the Microsoft 365 unified audit log data. This report provides a **detailed overview of all users' activities** in the environment. 
+
+Quickly detect and troubleshoot potential issues, security breaches, or suspicious behavior. 
 
 ### Generate Report
 
-You can access this report from:
-
-*	the Report Center
+ * **Click the Reports tile**; it is located on the SysKit Point home screen.
+ * **Select Audit Logs in the filter**; it can be found in the upper left corner.
+ * **Click the Audit Logs Overview report** to generate the report.
 
 ### Report Data
 
-Default columns displayed in the report are:
+The default columns displayed in the report are:
 		
 * **Date**
 * **Activity** type
@@ -30,40 +37,40 @@ Default columns displayed in the report are:
 * **IP Address**
 * **Item**
 * **Details**
-
-![Audit Logs Overview report](../../.gitbook/assets/audit-reports_audit-logs-overview-report.png)
 		
-There are no additional columns in the **column chooser**.
+There are no additional columns available in the **column chooser**.
 
-Expend each row to see more details.
+To see more details, **expand each row** by clicking on the arrow next to the date column. 
+
 
 ### Report Actions
 
-There are no available actions for this report.
+The Audit Logs Overview report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
-This report can be exported (XLSX file type only) and scheduled.
+There are no additional actions available for this report.
 
+## Exchange Logs Report
 
+For Exchange activity in your environment, search the Microsoft 365 logs. 
+  * The search can be done per **every mailbox in your Exchange Online**.
 
-## Exchange logs report
-
-Search the Microsoft 365 logs for Exchange activity in your environment. You can search per every mailbox in your Exchange Online.
 
 ### Generate Report
 
-You can access this report from:
 
-*	the Report Center
+ * **Click the Reports tile**; it is located on the SysKit Point home screen.
+ * **Select Audit Logs in the filter**; it can be found in the upper left corner.
+ * **Click the Exchange Logs report** to generate the report.
 
 {% hint style="warning" %} Please note!
 By default, Exchange logs are not collected; at least one Exchange activity must be selected for SysKit Point to collect and store Exchange log data. {% endhint %}
 
-Click [here](../../configuration/customize-audit-logs-collection.md) to find out more.
+Click [here](../../configuration/customize-audit-logs-collection.md) to find out more about customizing the Exchange logs collection.
 
 
 ### Report Data
 
-Default columns displayed in the report are:
+The default columns displayed in the report are:
 		
 * **Date**
 * **Activity** type
@@ -71,40 +78,34 @@ Default columns displayed in the report are:
 * **IP Address**
 * **Item**
 * **Details**
-
-![Exchange logs report](../../.gitbook/assets/audit-reports_exchange-logs-report.png)
 		
 There are no additional columns in the **column chooser**.
 
-You can filter this report for specific mailboxes in the initial **Options screen** before generating the report.
-
-Expend each row to see more details.
+For specific mailboxes, filter this report in the initial **Options screen** before generating the report.
+  * To see more details, **expand each row** by clicking on the arrow next to the date column. 
 
 
 ### Report Actions
 
-There are no available actions for this report.
+The Exchange Logs report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
-This report can be exported (XLSX file type only) and scheduled.
+There are no additional actions available for this report.
 
+## Site Permissions Changes Report
 
+This report provides insight into details about any permissions changes on selected site(s). 
+   * If somebody removed a member from a Team or broke sharing inheritance, you will be able to see it here.
 
-## Site Permissions Changes report
-
-View details about any permissions changes on your selected site(s). If somebody removed a member from a Team or broke sharing inheritance, you will be able to see it here. 
 
 ### Generate Report
 
-You can access this report from:
-
-*	Sites Overview screen and Microsoft Teams & Groups Overview screen - select the resource and click on the proper action in the side panel
-*	details screen of specific resource
-*	the Report Center
-*	some other reports available in SysKit Point - for example, Permissions Matrix report, Externally Shared Content report, Unique Permissions report, Sharing Links report
+ * **Click the Reports tile**; it is located on the SysKit Point home screen.
+ * **Select Audit Logs in the filter**; it can be found in the upper left corner.
+ * **Click the Site Permissions Changes report** to generate the report.
 
 ### Report Data
 
-Default columns displayed in the report are:
+The default columns displayed in the report are:
 		
 * **Date**
 * **Activity** type
@@ -113,35 +114,32 @@ Default columns displayed in the report are:
 * **Item**
 * **Details**
 
-![Site Permissions Changes report](../../.gitbook/assets/audit-reports_site-permissions-changes-report.png)
-		
-There are no additional columns in the **column chooser**.
+There are no additional columns available in the **column chooser**.
 
-Expend each row to see more details.
+To see more details on specific sites, select the individual site(s) or mark them all, select the amount of days the report should cover and click **Run Report** to generate.
 
 
 ### Report Actions
 
-There are no available actions for this report.
+The Site Permissions Changes report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
-This report can be exported (XLSX file type only) and scheduled.
+There are no additional actions available for this report.
 
 
 
-## User Activity report
+## User Activity Report
 
-View all actions performed by internal and external users in your environment. You can select the single user and understand what he has been doing in your environment, from logging in to viewing a file. If the admin or manager added or removed permissions for a particular user, you would also see that in this report.
+This report shows all actions performed by internal and external users in your environment. 
+
+Selecting a single user provides insight into what they have been doing in the environment; from logging in to viewing a file. 
+   * If the admin or manager added or removed permissions for a particular user, this would also be shown in this report.
+
 
 ### Generate Report
 
-You can access this report from:
-
-*   Users Overview screen - select the user and click on the proper action in the side panel
-*   user details screen
-*	site details screen of specific resource - Users report in Overview tile
-*	group/team details screen of specific resource - Members tile
-*	the Report Center
-*	some other reports available in SysKit Point - for example, Permissions Matrix report, Externally Shared Content report, External Users report
+ * **Click the Reports tile**; it is located on the SysKit Point home screen.
+ * **Select Audit Logs in the filter**; it can be found in the upper left corner.
+ * **Click the User Activity report** to generate the report.
 
 ### Report Data
 
@@ -153,38 +151,33 @@ Default columns displayed in the report are:
 * **IP Address**
 * **Item**
 * **Details**
-
-![User Activity report](../../.gitbook/assets/audit-reports_user-activity-report.png)
 		
 There are no additional columns in the **column chooser**.
 
-Expend each row to see more details.
+To see more details on specific users, select the individual user(s) or mark them all, select the amount of days the report should cover and click **Run Report** to generate.
 
 
 ### Report Actions
 
-There are no available actions for this report.
+The User Activity report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
-This report can be exported (XLSX file type only) and scheduled.
+There are no additional actions available for this report.
 
 
-
-## File and Page Activities report
+## File and Page Activities Report
 
 View who accessed and edited files/folders in your environment, as well as who visited your sites and when.
 
 ### Generate Report
 
-You can access this report from:
 
-*	Sites Overview screen and Microsoft Teams & Groups Overview screen - select the resource and click on the proper action in the side panel
-*	details screen of specific resource
-*	the Report Center
-*	some other reports available in SysKit Point - for example, Permissions Matrix report, Externally Shared Content report, Sharing Links report, Unique Permissions report
+ * **Click the Reports tile**; it is located on the SysKit Point home screen.
+ * **Select Audit Logs in the filter**; it can be found in the upper left corner.
+ * **Click the File and Page Activities report** to generate the report.
 
 ### Report Data
 
-Default columns displayed in the report are:
+The default columns displayed in the report are:
 		
 * **Date**
 * **Activity** type
@@ -192,16 +185,17 @@ Default columns displayed in the report are:
 * **IP Address**
 * **Item**
 * **Details**
-
-![File and Page Activities report](../../.gitbook/assets/audit-reports_file-and-page-activities-report.png)
 		
 There are no additional columns in the **column chooser**.
 
-Expend each row to see more details.
+		
+There are no additional columns in the **column chooser**.
+
+To see more details on specific users, select the individual user(s) or mark them all, select the amount of day the report should cover, set the other preferred parameters, and click **Run Report** to generate.
 
 
 ### Report Actions
 
-There are no available actions for this report.
+The File and Page Activities report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
-This report can be exported (XLSX file type only) and scheduled.
+There are no additional actions available for this report.

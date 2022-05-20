@@ -1,3 +1,7 @@
+---
+description: Licenses Reports provide information on managing your Microsoft 365 licenses assigned to users in your tenant.
+---
+
 # Licenses Reports
 
 Reports in this section **help manage your Microsoft 365 

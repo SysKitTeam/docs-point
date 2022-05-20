@@ -1,63 +1,92 @@
+---
+description: Analytics reports provide insight into user interactions with Microsoft 365 services, departments, and content.
+---
+
 # Analytics Reports
 
-Reports in this article help you track user interaction with Microsoft 365 services, compare adoption between departments and detect which content and services are not being used. For some of these reports, you will need an additional Analytics and Adoption module.
+Reports in this article help keep track of **user interaction** with Microsoft 365 services, compare adoption between **departments** and detect which **content and services** are not being used.
+ 
+ Some of these reports will require an additional Analytics and Adoption module.
 
-To access the analytics reports:
-* **Navigate to the Report Center** by clicking the **Reports** tile on the Home screen
-* **Select the 'Analytics' option** in the left-hand filter 
+This article contains information on eight analytics reports available through the **Reports Center**:
+
+* [Site Analytics Report](#site-analytics-report)
+* [Site Structure Report](#site-structure-report)
+* [Inactive Content Report](#inactive-content-report)
+* [SharePoint Activity Report](#sharePoint-activity-report)
+* [Most Popular Content Report](#most-popular-content-report)
+* [Meeting Interactions Report](#meeting-interactions-report)
+* [Conversation Interactions Report](#conversation-interactions-report)
+* [Network Interaction Details Report](#network-interaction-details-report)
+
 
 ## Site Analytics Report
 
-Site Analytics report gives you an overview of all your sites showing the total hits each site had in the last seven days, the highest number of unique daily visitors, and more.
+Site Analytics report provides an overview of all sites; it shows the total hits each site had in the last seven days, the highest number of unique daily visitors, and other details.
 
 ### Generate File and Page Activities Report
 
-- From the SysKit Point home screen, click on the Reports tile.
-- In the upper left corner, click on the filter and select Analytics filter.
-- Click on the Site Analytics Report
-
+ * **Click the Reports tile**; it is located on the SysKit Point home screen.
+ * **Select Audit Logs in the filter**; it can be found in the upper left corner.
+ * **Click the Site Analytics report** to generate the report.
 
 ### Analytics Report Data 
 
-Now that You successfully generated your report, you can see the following data by the columns:
+Once the report has successfully generated, the following data will be available in the columns:
 
-- Site Name - shows you the site's name in the column; when selecting the row, you can see the charts for Site Hits, Site Visitors, and Site Storage.
-- URL - gives you a direct link to the said site on your Microsoft 365 tenant.
-- Total Hits - This shows you the total number of hits the site had in the last seven days.
-- Visitors - This shows you the total number of unique visitors to the site.
-- Size - shows you the total size of the site
-- Last Content Modified - shows you the last date someone modified something on said site.
+* **Site Name**; shows the site's name in the column. 
+   * When selecting a site, the charts for that site showing Site Hits, Site Visitors, and Site Storage will be visible at the bottom of the screen.
+* **URL**; provides a direct link to the site on the Microsoft 365 tenant.
+* **Total Hits**; shows the total number of hits the site had in the last seven days.
+* **Visitors**; shows the total number of unique visitors to the site.
+* **Size**; shows the total size of the site.
+* **Last Content Modified**; shows the date the site was last modified on.
 
-You can also choose to see the analytics for the last 14, 30 days or choose a custom date period.
+For detailed insight into data about a specific site, click on the Site Name. 
+  * The page that opens will show tiles with the sites General Info, Overview, Content, Permissions, Site Activity, User Activity, Documents Activity, and Pages Activity.
+
+The analytics can show data from the last 7 days, 14 days, 30 days or a chosen custom date period.
 
 ## Site Structure Report
 
-Site Structure report gives you the ability to check the hierarchical structure for your sites down to the file level. Use this report when you want to display the structure of your Sharepoint environment. You can also Export the report, and you can delete unique or stop inheriting permissions.
+Site Structure report provides the ability to check the hierarchical structure for sites down to the file level. 
+
+Use this report to display the structure of the Sharepoint environment. 
+  * The report can also be exported, with the ability to delete unique permissions or stop inheriting permissions.
 
 ### Generate Site Structure Report
 
-- From the SysKit Point home screen, click on the Reports tile.
-- In the upper left corner, click on the filter and select Analytics filter.
-- Click on the Site Structure report
-- Now that you are redirected to the Selection screen, choose a site for which you want to generate a report. You can choose to show content down to; Subsites, Document libraries & lists, Folders and Files, and folders by selecting the dropdown in the additional filter on the bottom. 
-- Click on the Run Report button.
+* **Click the Reports tile**; it is located on the SysKit Point home screen.
+* **Select Audit Logs in the filter**; it can be found in the upper left corner.
+* **Click the Site Structure  report** to be redirected to the selection screen.
+* **Select one or multiple sites** for which the report should be generated for. 
+  * Once selected there are several options available to show content down to; Subsites, Document libraries & lists, Folders and Files, and folders. 
+    * These are available in the dropdown menu from the additional filter on the bottom. 
+* **Click on the Run Report button** when finished with the seleetion.
 
 ### Site Structure Report Data
 
-Now that You have successfully generated your report, you can see the following data by the columns:
+Once the report has successfully generated, the following data will be available in the columns:
 
-- Name - shows you the name of the site and all the content in the structure down to files & folders.
-- URL - clicking on it, you are redirected to the site's exact location or following folders, subsites, etc.
-- Last Modified - shows the exact date someone modified something on the site.
-- Created On - shows the exact date when someone created the site or some of its structure.
+* **Name**; shows the name of the site and all the content in the structure down to files & folders.
+* **URL**; clicking on it, you are redirected to the site's exact location or following folders, subsites, etc.
+* **Last Modified**; shows the exact date the site was last modified.
+* **Created On**; shows the exact date when someone created the site or some of its structure.
 
-You can also export site Structure reports to PDF and XLSX format, and you can schedule them.
+The Site Structure report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+
 
 ## Inactive Content Report
 
-The Inactive Content report gives you the ability to quickly detect unused sites, Microsoft 365 Groups, and Microsoft Teams in your Microsoft 365 environment. Use this report always to be aware of unused resources in your environment, so you can keep it clean and healthy.
+The Inactive Content report gives you the ability to quickly detect unused sites, Microsoft 365 Groups, and Microsoft Teams in your Microsoft 365 environment. 
+
+This report can be used to stay up to date with any unused resources in your environment, in order to keep it clean and healthy.
 
 ### Generate Inactive Content Report
+
+* **Click the Reports tile**; it is located on the SysKit Point home screen.
+* **Select Audit Logs in the filter**; it can be found in the upper left corner.
+* **Click the Site Structure  report** to be redirected to the selection screen.
 
 - From the SysKit Point home screen, click on the Reports tile.
 - In the upper left corner, click on the filter and select Analytics filter.
@@ -78,7 +107,8 @@ When looking at the generated reports, you can see the following columns:
 
 ## SharePoint Activity Report
 
-SharePoint Activity report gives you a detailed overview of SharePoint usage. Report on the most active users, most popular sites, documents, or pages. Use this report to track the adoption of SharePoint in your environment.
+SharePoint Activity report gives you a detailed overview of SharePoint usage. 
+Report on the most active users, most popular sites, documents, or pages. Use this report to track the adoption of SharePoint in your environment.
 
 To see this report, you need to have the Adoption and Analytics module installed in SysKit Point.
 
