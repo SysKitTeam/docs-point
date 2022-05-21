@@ -301,14 +301,6 @@ description: This article lists the currently supported Exchange Online reports 
 | **Mail&nbsp;Tips&nbsp;Mailbox Sourced Tips Enabled** | Specifies whether MailTips that rely on mailbox data (out-of-office or full mailbox) are enabled. |
 | **Mail&nbsp;Tips&nbsp;External Recipients Tips Enabled** | Specifies whether MailTips for external recipients are enabled. |
 
-### Mailbox Settings
-
-| Name | Description |
-| :--- | :--- |
-| **Display&nbsp;Name** | The display name of the Shared Mailbox. |
-| **Time&nbsp;Zone** | The name of the Time Zone to assign to the mailbox. |
-| **Locale** | The code of the 'Locale' to assign to the mailbox. |
-
 ### Malware Filter Policies
 
 | Name | Description |

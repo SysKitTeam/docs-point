@@ -62,19 +62,6 @@ description: This article lists the currently supported Azure Active Directory r
 | **Allow&nbsp;To&nbsp;Add Guests** | A boolean indicating whether or not is allowed to add guests to this directory. |
 | **Usage&nbsp;Guidelines&nbsp;Url** | A link to the Group Usage Guidelines. |
 
-### Groups
-
-| Name | Description |
-| :--- | :--- |
-| **Display&nbsp;Name** | DisplayName of the AADMS Group. |
-| **Mail&nbsp;Nickname** | Specifies a mail nickname for the group. If 'Mail Enabled' is False you must still specify a mail nickname. |
-| **Description** | Specifies a description for the group. |
-| **Group&nbsp;Types** | Specifies that the group is a dynamic group. To create a dynamic group, specify a value of DynamicMembership. |
-| **Visibility** | This property determines the visibility of the group's content and members list. |
-| **Membership&nbsp;Rule** | Specifies the membership rule for a dynamic group. |
-| **Security&nbsp;Enabled** | Specifies whether the group is security enabled. For security groups, this value must be True. |
-| **Mail&nbsp;Enabled** | Specifies whether this group is mail enabled. Currently, you cannot create mail enabled groups in Azure AD. |
-| **Is&nbsp;Assignable&nbsp;To Role** | Specifies whether this group can be assigned a role. Only available when creating a group and can't be modified after group is created. |
 
 ### Policies
 

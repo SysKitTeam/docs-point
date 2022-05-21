@@ -189,49 +189,6 @@ description: This article lists the currently supported SharePoint reports with 
 | **Title** | The title of the site script. |
 | **Description** | The description of the site script. |
 
-### Sites
-
-| Name | Description |
-| :--- | :--- |
-| **Url** | The URL of the site collection. |
-| **Title** | The title of the site collection. |
-| **Owner** | Specifies the owner of the site. |
-| **Compatibility&nbsp;Level** | Specifies the version of templates used on the site collection. |
-| **Locale&nbsp;Id** | Specifies the language of the site collection. Defaults to the current language of the web connected to. |
-| **Template** | Specifies with template of site to create. |
-| **Time&nbsp;Zone&nbsp;Id** | TimeZone ID of the site collection. |
-| **Is&nbsp;Hub&nbsp;Site** | Specifies if this site is a hub site. |
-| **Hub&nbsp;Url** | The URL of the Hub site the site collection needs to get connected to. |
-| **Description** | The description of the site collection. |
-| **Allow&nbsp;Self&nbsp;Service Upgrade** | Specifies if the site administrator can upgrade the site collection. |
-| **Deny&nbsp;Add&nbsp;And Customize Pages** | Determines whether the Add And Customize Pages right is denied on the site collection. For more information about permission levels, see User permissions and permission levels in SharePoint. |
-| **Lock&nbsp;State** | Specifies the lock state on a site. Valid values are: NoAccess, ReadOnly and Unlock. When the lock state of a site is ReadOnly, a message will appear on the site stating that the site is under maintenance and it is read-only. When the lock state of a site is NoAccess, all traffic to the site will be blocked. |
-| **Sharing&nbsp;Capability** | Specifies what the sharing capabilities are for the site. Possible values: Disabled, ExternalUserSharingOnly, ExternalUserAndGuestSharing, ExistingExternalUserSharingOnly. |
-| **Site&nbsp;Defined&nbsp;Sharing Capability** | Specifies the stored value of the site sharing capability. Note that the effective capability also depends on the tenant wide setting. |
-| **Comments&nbsp;On&nbsp;Site Pages Disabled** | Specifies if comments on site pages are enabled or disabled. |
-| **Social&nbsp;Bar&nbsp;On Site Pages Disabled** | Disables or enables the Social Bar for Site Collection. |
-| **Disable&nbsp;App&nbsp;Views** | Disables App Views. |
-| **Disable&nbsp;Company&nbsp;Wide Sharing Links** | Disables Company wide sharing links. |
-| **Disable&nbsp;Flows** | Disables Microsoft Flow for this site. |
-| **Sharing&nbsp;Allowed&nbsp;Domain List** | Specifies a list of email domains that is allowed for sharing with the external collaborators. |
-| **Sharing&nbsp;Blocked&nbsp;Domain List** | Specifies a list of email domains that is blocked for sharing with the external collaborators. |
-| **Sharing&nbsp;Domain&nbsp;Restriction Mode** | Specifies the external sharing mode for domains. |
-| **Show&nbsp;People&nbsp;Picker Suggestions For Guest Users** | To enable the option to search for existing guest users at Site Collection Level, set this property to True. |
-| **Default&nbsp;Sharing&nbsp;Link Type** | Specifies the default link type for the site collection. None - Respect the organization default sharing link type. AnonymousAccess - Sets the default sharing link for this site to an Anonymous Access or Anyone link. Internal - Sets the default sharing link for this site to the 'organization' link or company shareable link. Direct - Sets the default sharing link for this site to the 'Specific people' link. |
-| **Default&nbsp;Link&nbsp;Permission** | Specifies the default link permission for the site collection. None - Respect the organization default link permission. View - Sets the default link permission for the site to 'view' permissions. Edit - Sets the default link permission for the site to 'edit' permissions. |
-| **Default&nbsp;Link&nbsp;To Existing Access** | When set to TRUE, the 'Default Sharing Link Type' will be overriden and the default sharing link will a People with Existing Access link (which does not modify permissions). When set to FALSE (the default), the default sharing link type is controlled by the 'Default Sharing Link Type' parameter. |
-| **Override&nbsp;Tenant&nbsp;Anonymous Link Expiration Policy** | False - Respect the organization-level policy for anonymous or anyone link expiration. True - Override the organization-level policy for anonymous or anyone link expiration (can be more or less restrictive). |
-| **Anonymous&nbsp;Link&nbsp;Expiration In Days** | Specifies that all anonymous/anyone links that have been created (or will be created) will expire after the set number of days. Only applies if 'Override Tenant Anonymous Link Expiration Policy' is set to true. To remove the expiration requirement, set the value to zero (0). |
-| **Override&nbsp;Tenant&nbsp;External User Expiration Policy** | False - Respect the organization-level policy for external user expiration. True - Override the organization-level policy for external user expiration (can be more or less restrictive). |
-| **External&nbsp;User&nbsp;Expiration In Days** | Specifies that all external users will expire after the set number of days. Only applies if 'Override Tenant External User Expiration Policy' is set to true. To remove the expiration requirement, set the value to zero (0). |
-| **Storage&nbsp;Maximum&nbsp;Level** | Specifies the storage quota for this site collection in megabytes. This value must not exceed the company's available quota. |
-| **Storage&nbsp;Warning&nbsp;Level** | Specifies the warning level for the storage quota in megabytes. This value must not exceed the values set for the 'Storage Maximum Level' parameter. |
-| **Restricted&nbsp;To&nbsp;Region** | Defines geo-restriction settings for this site. |
-| **Allow&nbsp;Downloading&nbsp;Non Web Viewable Files** | Specifies if non web viewable files can be downloaded. |
-| **Allow&nbsp;Editing** | Prevents users from editing Office files in the browser and copying and pasting Office file contents out of the browser window. |
-| **Conditional&nbsp;Access&nbsp;Policy** | Specifies the policy for access from unmanaged devices. |
-| **Limited&nbsp;Access&nbsp;File Type** | This property can be used when the Conditional Access Policy is set to AllowLimitedAccess for both the organization-wide setting and the site-level setting. |
-
 ### Storage Entities
 
 | Name | Description |
