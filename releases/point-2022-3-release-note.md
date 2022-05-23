@@ -38,9 +38,7 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
     * Read more about **how to Ignore Service accounts here**.
 * **Added the ability to remove All Sharing links** on the Sharing Links report.
     * Select All feature available for removing all links attached to a certain Site.
-* **Configuration Inventory Module (CIM) settings have been added to SysKit Point**.
-    * Additional feature added that allows selecting who receives the CIM email.
-
+* **Configuration Inventory module is now a part of SysKit Point**!
 
 ## Improvements & Bug Fixes
 
