@@ -29,7 +29,7 @@ Permissions described below are automatically granted to SysKit Point by giving 
 Permissions are granted only if the Configuration Inventory module is deployed with SysKit Point deployment.
 {% endhint %}
 
-[For more information on Configuration Inventory deployment, use this link](deploy-configuration-inventory-module.md).
+[For more information on Configuration Inventory deployment, use this link](../installation/deploy-syskit-point.md).
 
 If the Configuration Inventory module is deployed, SysKit Point creates an Azure AD Application named **SysKit Point Configuration Inventory** when establishing a [connection](../installation/connect-to-tenant.md) to your tenant.  
 
