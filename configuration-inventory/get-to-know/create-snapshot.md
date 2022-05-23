@@ -8,7 +8,7 @@ A snapshot in the context of SysKit Point is a collection of all the Microsoft 3
 
 There are two ways to create a snapshot:
 * **manual** - described in this article
-* **automatic** - described in the [Enable Automatic Snapshots](enable-automatic-snapshots.md) article
+* **automatic** - described in the [Enable Automatic Snapshots article](enable-automatic-snapshots.md)
 
 {% hint style="warning" %}
 **Please note!**  
@@ -18,9 +18,9 @@ Before creating a snapshot, make sure to read the [Configuration Inventory Requi
 ## Take Snapshot
 
 To create a snapshot:
-* Click the Configuration Inventory tile (1) on the Home screen; the Configuration Inventory screen opens 
-* Click the Take Snapshot option (2) available in the side panel under the Manage section; the Take Snapshot dialog opens
-* Click the Start Snapshot button (3); SysKit Point starts to collect data in the background, 
+* Click the Configuration Inventory tile (1) on the Home screen - the Configuration Inventory screen opens 
+* Click the Take Snapshot option (2) available in the side panel under the Manage section - the Take Snapshot dialog opens
+* Click the Start Snapshot button (3) - SysKit Point starts to collect data in the background
 
 ![Configuration Inventory Tile](../../.gitbook/assets/create-snapshot_cim-tile.png)
 
