@@ -9,11 +9,13 @@ To collect Microsoft Teams-related data, you need to connect a service account i
 **The service account should have the Teams Administrator Azure AD role assigned**.
 
 To connect the service account in SysKit Point:
-* navigate to Settings > General > Connected Tenant (")
+* navigate to Settings > General > Connected Tenant (1)
 * click the Connect Service Account toggle (2)
 * enter service account username/e-mail address (3)
 * enter password (4)
 * click Connect (5); green button with checkmark shows if entered data was correct and the connection successful
+
+![Connect Service Account](../.gitbook/assets/configuration-inventory-requirements_connect-service-account.png)
 
 ## Access Configuration Inventory Settings & Reports
 
