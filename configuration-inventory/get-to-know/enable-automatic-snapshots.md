@@ -32,6 +32,15 @@ You can define the following:
 
 ![Configure Automatic Snapshots](../../.gitbook/assets/enable-automatic-snapshots_configure.png)
 
+## Snapshot Report
+
+After an automatic snapshot completes, SysKit Point sends an e-mail to defined users. 
+The e-mail comes with reports attached:
+* Tenant Documentation
+* Differences - only if SysKit Point detected differences between the new and the previous snapshot
+
+![Tenant Configuration Inventory Report](../../.gitbook/assets/enable-automatic-snapshots_e-mail-report.png)
+
 ## Related Articles
 
 [Configuration Inventory Requirements](../configuration-inventory-requirements.md)
