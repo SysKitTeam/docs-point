@@ -17,6 +17,13 @@ To resolve this and ensure all the new features work properly, ask your Global A
 # Change Log
 Depending on which version you are upgrading to, below you can find the list of changes in permissions requested and which features depend on them.
 
+## SysKit Point 2022.3
+
+**The following app registration was added**:
+  * **SysKit Point Configuration Inventory** - created when the Configuration Inventory module is deployed with SysKit Point; used to collect Microsoft 365 configuration data
+
+[To see the complete list of permissions assigned to the SysKit Point Configuration Inventory app registration, navigate to the following article](../configuration-inventory/configuration-inventory-requirements.md#configuration-inventory-app-permissions).
+
 ## SysKit Point 2022.2
 
 * A **redirect URI was added to the SysKit Point Service app registration** that **enables SysKit Point Admins to access the new Hangfire dashboard**. The Hangfire dashboard offers an overview of the status of all the background jobs SysKit Point is periodically running. Therefore, a **Global Admin will have to**:

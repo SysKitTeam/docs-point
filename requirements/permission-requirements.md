@@ -2,7 +2,7 @@
 description: This article discusses permission requirements that are necessary to deploy and use SysKit Point successfully.
 ---
 
-#Permission Requirements
+# Permission Requirements
 ## Microsoft 365
 
 After SysKit Point deployment, when [connecting to your Microsoft 365 tenant](../installation/connect-to-tenant.md), it is __required for you to connect with a Global Administrator account__.
@@ -14,7 +14,7 @@ Microsoft 365 Global Admin credentials are only needed when connecting for the f
 
 Below, reasons for such requirements are described in greater detail.
 
-### Global Administrator
+## Global Administrator
 
 When [connecting to a Microsoft 365 tenant](../installation/connect-to-tenant.md) for the first time, **you need to connect with a Global Administrator account.**
 
@@ -22,7 +22,7 @@ When [connecting to a Microsoft 365 tenant](../installation/connect-to-tenant.md
 
 ![Microsoft 365 Global Admin Consent](../.gitbook/assets/permission_requirements_ga_consent.png)
 
-### SysKit Point App Permissions
+## SysKit Point App Permissions
 
 {% hint style="warning" %}
 **Please note!**  
@@ -154,6 +154,12 @@ The second app registration, **SysKit Point Client**, enables users to securely 
 | Permissions | Type | Reason |
 | :--- | :--- | :--- |
 | Have full control on all sites | Application | Allows SysKit Point to read documents and list items in all site collections and show you reports based on that data. |
+
+### Configuration Inventory Module
+
+If the Configuration Inventory module is deployed, SysKit Point creates an Azure AD Application named **SysKit Point Configuration Inventory** when establishing a [connection](../installation/connect-to-tenant.md) to your tenant.  
+
+[Open this article to see all permissions granted to SysKit Point Configuration Inventory app registration](../configuration-inventory/configuration-inventory-permission-requirements.md).
 
 ### SysKit Point API
 
