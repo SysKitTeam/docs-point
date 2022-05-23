@@ -35,5 +35,5 @@ You can find the newly created snapshot in the snapshot list (2).
 
 ## Related Articles
 
-[Configuration Inventory Requirements](../configuration-inventory-requirements.md)
-[Enable Automatic Snapshots](enable-automatic-snapshots.md)
+* [Configuration Inventory Requirements](../configuration-inventory-requirements.md)
+* [Enable Automatic Snapshots](enable-automatic-snapshots.md)

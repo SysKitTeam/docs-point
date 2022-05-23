@@ -43,5 +43,5 @@ The e-mail comes with reports attached:
 
 ## Related Articles
 
-[Configuration Inventory Requirements](../configuration-inventory-requirements.md)
-[Create Snapshot](create-snapshot.md)
+* [Configuration Inventory Requirements](../configuration-inventory-requirements.md)
+* [Create Snapshot](create-snapshot.md)

@@ -35,4 +35,9 @@ Here, you can:
 
 ![Comparison report](../../.gitbook/assets/compare-snapshots_comparison-report.png)
 
+## Related Articles
+
+* [Create Snapshot](create-snapshot.md)
+* [Enable Automatic Snapshots](enable-automatic-snapshots.md)
+
 
