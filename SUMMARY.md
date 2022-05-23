@@ -86,7 +86,7 @@
 * [Configuration Inventory](configuration-inventory/README.md)
   * [Configuration Inventory Requirements](configuration-inventory/permission-requirements.md)
   * [Get to Know Configuration Inventory](configuration-inventory/get-to-know/README.md)
-    * [Take Snapshot](configuration-inventory/get-to-know/take-snapshot.md)
+    * [Create Snapshot](configuration-inventory/get-to-know/create-snapshot.md)
     * [Enable Automatic Snapshots](configuration-inventory/get-to-know/enable-automatic-snapshots.md)
     * [Compare Snapshots](configuration-inventory/get-to-know/compare-snapshots.md)
   * [Report Overview](configuration-inventory/report-overview/README.md)
