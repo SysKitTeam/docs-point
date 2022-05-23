@@ -29,18 +29,18 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
   * **Create new custom metadata in SysKit Point**
   * **Change metadata on Microsoft Teams, Microsoft 365 Groups, sites, and OneDrive**
   * **Define custom metadata in provisioning templates**
-  * **Filter reports by custom metadata** 
+  * **Filter reports by custom metadata** <br/>
 
 * **Configuration Inventory module is now a part of SysKit Point**! Formerly known as SysKit Trace, this solution for documenting Microsoft 365 tenant configuration settings is now integrated into SysKit Point. Use the following links to:
   * [learn more about Configuration Inventory requirements](../configuration-inventory/configuration-inventory-requirements.md)
   * learn how to [create a snapshot](../configuration-inventory/get-to-know/create-snapshot.md) or [enable automatic snapshots](../configuration-inventory/get-to-know/enable-automatic-snapshots.md)
-  * [view all available Configuration Inventory reports](../configuration-inventory/report-overview/README.md)
+  * [view all available Configuration Inventory reports](../configuration-inventory/report-overview/README.md) <br/>
 
 * **Service accounts can be added to an ignore list**. Setting up an ignored service account means:
     * The Service Account page hits and views **will be ignored when detecting any workspace activity**
     * The Service Account audit logs **won’t be stored**
-    * The Service Account changes **will be ignored and won’t trigger alerts**
-    Learn [how to Ignore Service accounts here](../configuration/ignore-service-account-activity-tracking.md).
+    * The Service Account changes **will be ignored and won’t trigger alerts** <br/>
+    Learn [how to Ignore Service accounts here](../configuration/ignore-service-account-activity-tracking.md). <br/>
 
 
 ## Improvements & Bug Fixes
