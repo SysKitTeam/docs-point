@@ -8,7 +8,7 @@ description: This article lists improvements and bug fixes in SysKit Point versi
 
 **Product version:** 2022.3.0
 
-**Build number:** 120
+**Build number:** 4
 
 **Release date:** May 23, 2022
 
@@ -21,32 +21,31 @@ description: This article lists improvements and bug fixes in SysKit Point versi
 [![](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitassetsstorage.blob.core.windows.net%2Fpoint%2FUpdateFilesARM%2FPointUpdateTemplate.json)
 
 See detailed step-by-step instructions on how to upgrade SysKit Point in the [upgrade article](../installation/upgrade-syskit-point.md).
+
+* **Want to try out the Configuration Inventory module?** [Contact us](https://www.syskit.com/contact-us/).
+
 ## Features
-* **SysKit Point provisioning templates allow choosing metadata columns** to include additional attributes when generating reports.
-    * The metadata columns available in the dropdown menu enable:
-        * **Setting custom values**
-        * **Users can define and fill in the value when creating a request**
-        * **The ability to create and edit new metadata columns**
-    * **Admins can define values** for metadata columns for every site, team or group on the Overview screen.
-        *The pre-defined metadata **set by the admin will be shown to the user as read-only**.
-    * For more information on **SysKit Point metadata, check out this article**.
-* **Service accounts can be added to an ignore list**.
-    * Setting up an ignored service account means:
-        * The Service Account page hits and views **will be ignored when detecting any workspace activity**.
-        * The Service Account audit logs **won’t be stored**.
-        * The Service Account changes **will be ignored and won’t trigger alerts**.
-    * Read more about **how to Ignore Service accounts here**.
-* **Added the ability to remove All Sharing links** on the Sharing Links report.
-    * Select All feature available for removing all links attached to a certain Site.
-* **Configuration Inventory Module (CIM) settings have been added to SysKit Point**.
-    * Additional feature added that allows selecting who receives the CIM email.
+* **SysKit Point now enables the creation, management, and provisioning of custom metadata on Microsoft Teams, Microsoft 365 Groups, sites and OneDrive**! SysKit Point admins can now:
+  * **Create new custom metadata in SysKit Point**
+  * **Change metadata on Microsoft Teams, Microsoft 365 Groups, sites, and OneDrive**
+  * **Define custom metadata in provisioning templates**
+  * **Filter reports by custom metadata** 
+
+* **Configuration Inventory module is now a part of SysKit Point**! Formerly known as SysKit Trace, this solution for documenting Microsoft 365 tenant configuration settings is now integrated into SysKit Point. Use the following links to:
+  * [learn more about Configuration Inventory requirements](../configuration-inventory/configuration-inventory-requirements.md)
+  * learn how to [create a snapshot](../configuration-inventory/get-to-know/create-snapshot.md) or [enable automatic snapshots](../configuration-inventory/get-to-know/enable-automatic-snapshots.md)
+  * [view all available Configuration Inventory reports](../configuration-inventory/report-overview/README.md)
+
+* **Service accounts can be added to an ignore list**. Setting up an ignored service account means:
+    * The Service Account page hits and views **will be ignored when detecting any workspace activity**
+    * The Service Account audit logs **won’t be stored**
+    * The Service Account changes **will be ignored and won’t trigger alerts**
+    Learn [how to Ignore Service accounts here](../configuration/ignore-service-account-activity-tracking.md).
 
 
 ## Improvements & Bug Fixes
 
-* **Fixed an issue** with the {groupName} variable used in the Lifecycle Management e-mail subject.
-   * If the subject line was customized, the variable was not resolved properly.
-
+* **Added the ability to remove All Sharing links** on the Sharing Links report. Select All option available for removing all links created on a selected site.
 * **Improved the loading speed** for Access Review Options, **improved the functionality** of the preview email and dialogue on **the Access Review Options page**.
 * **Improved performance** for Privileged Identity Management (PIM).
     * **Privileged Identity Management (PIM)** allows some users to assign themselves Global Admin rights for a limited amount of time.
@@ -59,6 +58,7 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
   * Names of columns changed to include Status, Performed On and Performed By.
     * Status bar states whether the action was Completed or Expired, and hovering above it provides information on who completed the task.
 * **Improved speed** for accessing the Lifecycle Management Email Preview.
+* **Fixed an issue** with the {groupName} variable used in the Lifecycle Management e-mail subject. If the subject line was customized, the variable was not resolved properly.
 * **Fixed a bug** where the New Update Available ribbon was showing even after updating SysKit Point to the newest version.
 * **Fixed a bug** where the loading screen was cut off when generating a Site’s Access Review details report.
     * Once loading was completed, the report would be unresponsive when trying to select lines.

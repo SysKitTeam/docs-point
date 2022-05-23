@@ -43,11 +43,14 @@ The __Basics__ tab enables you to:
 
 
 On the __Web application settings__ tab, you will need to define the following:
-* __Website Name (1)__; must be a unique name to create FQDN; the resulting Point web app URL will be: `{wbsiteName}.azurewebsites.net`
+* __Website Name (1)__; must be a unique name to create FQDN; the resulting Point web app URL will be: `{websiteName}.azurewebsites.net`
 * __Web Application Time Zone (2)__
 * __Web Service Tier (3)__
-* __Backgorund Services Tier (4)__
-* __click Next (5)__ to continue with the __Azure SQL settings__ configuration
+* __Background Services Tier (4)__
+* __Configuration Inventory Module (5)__ - available options
+  * __Deploy__ - Configuration Inventory module is deployed with SysKit Point; selected by default
+  * __Do not deploy__ - Configuration Inventory module is not deployed
+* __click Next (6)__ to continue with the __Azure SQL settings__ configuration
 
 ![Web Application Settings Tab](../.gitbook/assets/deploy-syskit-point_web-app-settings.png)
 
