@@ -1,5 +1,5 @@
 ---
-description: This article lists improvements and bug fixes in SysKit Point version 2022.3.
+description: This article lists new features, improvements, and bug fixes in SysKit Point version 2022.3.
 --- 
 
 # SysKit Point 2022.3
