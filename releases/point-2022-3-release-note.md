@@ -33,8 +33,8 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
 
 * **Configuration Inventory module is now a part of SysKit Point**! Formerly known as SysKit Trace, this solution for documenting Microsoft 365 tenant configuration settings is now integrated into SysKit Point. Use the following links to:
   * [learn more about Configuration Inventory requirements](../configuration-inventory/configuration-inventory-requirements.md)
-  * learn how to [create a snapshot](../configuration-inventory/get-to-know/create-snapshot.md) or [enable automatic snapshot](../configuration-inventory/get-to-know/enable-automatic-snapshots.md)
-  * [view all available reports](../configuration-inventory/report-overview/README.md)
+  * learn how to [create a snapshot](../configuration-inventory/get-to-know/create-snapshot.md) or [enable automatic snapshots](../configuration-inventory/get-to-know/enable-automatic-snapshots.md)
+  * [view all available Configuration Inventory reports](../configuration-inventory/report-overview/README.md)
 
 * **Service accounts can be added to an ignore list**. Setting up an ignored service account means:
     * The Service Account page hits and views **will be ignored when detecting any workspace activity**
