@@ -8,7 +8,7 @@ description: This article lists new features, improvements, and bug fixes in Sys
 
 **Product version:** 2022.3.0
 
-**Build number:** 4
+**Build number:** 9
 
 **Release date:** May 23, 2022
 
