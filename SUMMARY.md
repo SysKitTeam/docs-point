@@ -85,7 +85,7 @@
   * [View Permission Changes in Microsoft 365](access-management/view-permission-changes.md)
   * [Supervise Microsoft Teams Private Channels](access-management/supervise-microsoft-teams-private-channels.md)
 * [Configuration Inventory](configuration-inventory/README.md)
-  * [Configuration Inventory Requirements](configuration-inventory/permission-requirements.md)
+  * [Configuration Inventory Requirements](configuration-inventory/configuration-inventory-requirements.md)
   * [Get to Know Configuration Inventory](configuration-inventory/get-to-know/README.md)
     * [Create Snapshot](configuration-inventory/get-to-know/create-snapshot.md)
     * [Enable Automatic Snapshots](configuration-inventory/get-to-know/enable-automatic-snapshots.md)
