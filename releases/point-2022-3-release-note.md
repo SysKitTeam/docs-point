@@ -26,10 +26,10 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
 
 ## Features
 * **SysKit Point now enables the creation, management, and provisioning of custom metadata on Microsoft Teams, Microsoft 365 Groups, sites and OneDrive**! SysKit Point admins can now:
-  * **Create new custom metadata in SysKit Point**
-  * **Change metadata on Microsoft Teams, Microsoft 365 Groups, sites, and OneDrive**
+  * [Create new custom metadata in SysKit Point](../governance-and-automation/manage-custom-metadata.md#create-custom-metadata)
+  * [Change metadata on Microsoft Teams, Microsoft 365 Groups, sites, and OneDrive](../governance-and-automation/manage-custom-metadata.md#change-custom-metadata)
   * **Define custom metadata in provisioning templates**
-  * **Filter reports by custom metadata** 
+  * [Filter reports by custom metadata](../governance-and-automation/manage-custom-metadata.md#filter-workspaces-by-metadata)
   <br/><br/>
 
 * **Configuration Inventory module is now a part of SysKit Point**! Formerly known as SysKit Trace, this solution for documenting Microsoft 365 tenant configuration settings is now integrated into SysKit Point. Use the following links to:
