@@ -3,22 +3,25 @@ description: This article explains how to set up and use custom metadata for rep
 ---
 
 # Custom Metadata
-SysKit Point uses **metadata** to provide detailed information about all the collected data found in reports.
 
-The metadata usually collected includes but is not limited to:
+In the context of Microsoft 365, the metadata in SysKit Point provides detailed information on **Microsoft Teams, Microsoft 365 Groups, Sites, and OneDrive**.
 
- * Names and descriptions
- * Tags, dates, and categories
- * The admin assigned to the items
- * When the item was created
- * When the item was last modified
- * The storage used by the file
- * Who the file was shared with
- * And other useful information
+**Essential metadata** is natively available in  Microsoft 365 and collected by SysKit Point during the sync process. 
 
-In SysKit Point, these details can be located divided into columns when generating reports. They help **organize, find, and gain insight into data** from Sites, Microsoft Teams & Groups, and OneDrive.
+Here are some examples of such metadata:
 
-Setting up custom metadata enables choosing personalized parameters for data that should be collected and is not already available within SysKit Point. It provides the ability to **generate reports** based on specific custom metadata set by the admin. 
+ * **The Microsoft Teams Owner**
+ * **The date of creation for a site**
+ * **The storage used by a site**
+ * **And other useful information**
+
+With SysKit Point custom metadata feature, you can:
+
+* **Leverage custom metadata** to expand on the existing information and better describe Microsoft Teams, Microsoft 365 Groups, Sites, and OneDrive in relation to your business processes and policies.
+
+* **Organize and find workspaces**, and **generate reports** based on custom metadata.
+
+* **Provision new workspaces** from templates that define the custom metadata to be specified. 
 
 ## Create Custom Metadata
 This section will explain how to set up custom metadata in SysKit Point. 
