@@ -22,6 +22,8 @@ Depending on which version you are upgrading to, below you can find the list of 
 **The following app registration was added**:
   * **SysKit Point Configuration Inventory** - created when the Configuration Inventory module is deployed with SysKit Point; used to collect Microsoft 365 configuration data
 
+Therefore, a **Global Admin will have to re-consent in the SysKit Point Welcome Home screen**.
+
 [To see the complete list of permissions assigned to the SysKit Point Configuration Inventory app registration, navigate to the following article](../configuration-inventory/configuration-inventory-requirements.md#configuration-inventory-app-permissions).
 
 ## SysKit Point 2022.2
