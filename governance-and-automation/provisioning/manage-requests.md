@@ -1,5 +1,5 @@
 ---
-Description: This article describes how to view all your requests and their status or history.
+description: This article describes how to view all your requests and their status or history.
 ---
 
 # Manage Requests in SysKit Point
