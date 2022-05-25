@@ -36,6 +36,11 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
   * [learn more about Configuration Inventory requirements](../configuration-inventory/configuration-inventory-requirements.md)
   * learn how to [create a snapshot](../configuration-inventory/get-to-know/create-snapshot.md) or [enable automatic snapshots](../configuration-inventory/get-to-know/enable-automatic-snapshots.md)
   * [view all available Configuration Inventory reports](../configuration-inventory/report-overview/README.md)
+
+{% hint style="warning" %}
+**Please note!**  
+Global admin re-consent is required after the upgrade to the 2022.3 version. 
+[Learn more about permission changes here](../requirements/permission-requirements-change-log.md#syskit-point-20223).
    <br/><br/>
 
 * **Service accounts can be added to an ignore list**. Setting up an ignored service account means:
