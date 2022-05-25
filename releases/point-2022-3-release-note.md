@@ -42,7 +42,6 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
 Global admin re-consent is required after the upgrade to the 2022.3 version. 
 [Learn more about permission changes here](../requirements/permission-requirements-change-log.md#syskit-point-20223).
 {% endhint %}
-   <br/><br/>
 
 * **Service accounts can be added to an ignore list**. Setting up an ignored service account means:
     * The Service Account page hits and views **will be ignored when detecting any workspace activity**
