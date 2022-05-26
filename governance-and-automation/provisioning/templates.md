@@ -21,8 +21,9 @@ Available actions for these templates are listed under the **Manage** column and
 
 To create your custom template from scratch, click the **New Template** button. 
 
-You firts need to choose the type of workspace you want to create the template for. 
-You can create templates for the following workspaces:
+First, choose the type of workspace you want to create the template for. 
+
+Templates can be created for the following workspaces:
 - **Microsoft Teams**
 - **SharePoint Site**
 - **Yammer Community**
@@ -49,42 +50,58 @@ When creating a template for Microsoft Teams, you will need to define the follow
 
 - **Privacy** – set if workspaces created using this template will be public or private. You can leave this decision to your end-users as well. 
 
-- **Outlook experience** – define if the newly created workspace will be visible in the Outlook and Exchange global address list. 
-
 - **Owners** – allows multiple options: 
   - Predefine owners that are always added to this type of workspace 
   - Allow end-users to specify additional ones in addition to predefined users 
   - Leave this option altogether to the end-user who is requesting a new workspace 
 
 - **Members** – allows multiple options: 
-  - Predefine members that are always added to this type of workspace 
+  - Predefine members that are always added to this type of workspace
   - Allow end-users to specify additional ones in addition to predefined users 
   - Leave this option completely to the end-user who is requesting a new workspace 
 
  - **Primary Contact** – allows multiple options: 
-  - Predefine a user that will be set as the primary contact for the created workspace
-  - Allow end-users to specify the Primary contact for the workspace
+   - Predefine a user that will be set as the primary contact for the created workspace
+   - Allow end-users to specify the Primary contact for the workspace
 
  - **Secondary Contact** – allows multiple options: 
-  - Predefine a user that will be set as the Secondary contact for the created workspace
-  - Allow end-users to specify the Secondary contact for the workspace
+   - Predefine a user that will be set as the Secondary contact for the created workspace
+   - Allow end-users to specify the Secondary contact for the workspace
+
+- **Department** - choose from available values based on the data available in your Azure AD.
 
 - **Sharing Settings** - choose from available options:
   - Anyone
   - New and existing guests
   - Existing guests only
   - Only people in your organization
+
   Note that available options depend on defined tenant-level external sharing policies. For example, if sharing files and folders using links that don't require sign-in is not allowed, the Anyone option will not be enabled.
 
-- **Sensitivity Label** - choose from available sensitivity labels available in your tenant
+
+ - **Sharing Permission** - helps control the way things in the site can be shared. Choose between:
+   -  Site owners and members can share files, folders, and the site. People with edit permission can share files and folders. 
+   - ite owners and members and people with edit permission can share files and folders, but only owners can share the site.
+   - Only site owners can share files, folders, and the site. 
+
+- **Allow Access Requests** - decides who receives access requests for all workspaces created from the template. The options are:
+  - Owners
+  - Specific user(s)
+    - If specific user(s) is selected, the name of at least one specific user needs to be entered in the provided space.
+
+
+- **Sensitivity Label** - choose from available sensitivity labels available in your tenant to define which are applied on all workspaces created from the template. 
   To use sensitivity labels in SysKit Point, make sure to set up your environment as described in the [following article](enable-sensitivity-labels.md).
 
-- **Department** - choose from available values based on the data available in your Azure AD
+- **Terms & Conditions** - define the terms & conditions text displayed to end-users when they request a new workspace.
 
-- **Terms & Conditions** - define the terms & conditions text displayed to end-users when they request a new workspace
+- **Custom Metadata** - custom metadata provides expanded information collected and included in reports. Set up which fields users will need to input or select for the custom metadata when using the template. 
+  - If no custom metadata was created, it can be set up directly in the form by selecting **Create New Custom Field**. 
+  - For more information on managing and creating custom metadata, take a look at [this article](../manage-custom-metadata.md). 
 
 - **Naming Rule** – predefine suffix or prefix that will be added to a name of a workspace created using this template. 
   - for example, setting the prefix to **Marketing** results that each workspace created from this template will be named in a form **Marketing – (Request Name)**
+
 
 - **Approval process** – define who is responsible for approving the requests using this template. 
     
@@ -99,7 +116,7 @@ When creating a template for Microsoft Teams, you will need to define the follow
   Additionally, you can enable comments for requesters when they request a new workspace in this section. 
   
   Read more about Approval processes and how to create custom ones in this [article](approval-processes.md).
- 
+
 - **Governance policies** – predefine a set of rules to be applied to the workspace automatically upon creation. Currently available policies are: 
 
   - Access reviews 
@@ -108,8 +125,19 @@ When creating a template for Microsoft Teams, you will need to define the follow
   - Orphaned Resources 
 
   Read more about setting up these governance policies and customizing them to your needs [here](../automated-workflows/set-up-automated-workflows.md).
- 
+
+
+ - **Outlook experience** – define if the newly created workspace will be visible in the Outlook and Exchange global address list. 
+
+ - **Template availability** – defines the group of users that are able to select the template when submitting requests for new workspaces.
+   - Everyone - the template is available to all users in your organization
+   - Specific - the template is available to users that meet specified conditions
+     - If selected, condition type needs to be selected from the dropdown menu. 
+
 Once you complete this process, your new template will appear in the **Templates** list and will become visible for end-users in **SysKit Point Teams app** when requesting a new workspace. 
+
+
+
 
 ### SharePoint Site Template
 
