@@ -1,12 +1,12 @@
 ---
-description: SysKit Point templates help you define which types of workspaces your end-users can request and create. Each template contains properties and rules that guide the creation process and ensure all workspaces adhere to appropriate governance policies your company specified. 
+description: SysKit Point templates help you define which types of workspaces your end-users can request and create. Each template contains properties and rules that guide the creation process and ensure all workspaces adhere to the appropriate governance policies your company specified. 
 ---
 
-# Templates	
+# Templates 
 
 To start with the configuration, open the **Settings > Governance > Provisioning** screen.
 
-**Your Templates** list shows you which workspace templates will be available and visible for your end-users to request in the SysKit Point teams app. By default, SysKit Point provides 3 templates. 
+**Your Templates** list shows you which workspace templates will be available and visible for your end-users to request in the SysKit Point teams app. By default, SysKit Point provides three templates. 
 
 1) Manage a project 
 2) Department team 
@@ -37,14 +37,14 @@ When creating a template for Microsoft Teams, you will need to define the follow
 - **Microsoft template ID** – this property is used to predefine apps, channels, and tabs that should be created for new workspaces that use this Syskit Point template. 
   1) If you leave this property empty, default apps or channels will not be created; it will be a blank MS team. 
 
-  2) SysKit Point integrates with team templates you’ve created in the **Microsoft 365 Teams admin center**. When you enter a team template ID, SysKit Point will create apps, tabs, and channels you defined there. 
+  2) SysKit Point integrates with team templates you have created in the **Microsoft 365 Teams admin center**. When you enter a team template ID, SysKit Point will create apps, tabs, and channels you defined there. 
 
      To review currently available templates in your M365 tenant and use them in SysKit Point: 
 
        1) Navigate to the Microsoft Teams [admin center](https://admin.teams.microsoft.com/)
        2) Under the tab Teams, select **Team templates**
        3) Click the name of the template to review apps and channels they include 
-       4) Copy the Template ID and paste in the SysKit wizard 
+       4) Copy the Template ID and paste into the SysKit wizard 
 
           To create a brand-new Teams template in the admin center, follow the [Microsoft guide](https://docs.microsoft.com/en-us/microsoftteams/create-a-team-template).
 
@@ -81,13 +81,13 @@ When creating a template for Microsoft Teams, you will need to define the follow
 
  - **Sharing Permission** - helps control the way things in the site can be shared. Choose between:
    -  Site owners and members can share files, folders, and the site. People with edit permission can share files and folders. 
-   - ite owners and members and people with edit permission can share files and folders, but only owners can share the site.
+   - site owners and members, and people with edit permission can share files and folders, but only owners can share the site.
    - Only site owners can share files, folders, and the site. 
 
 - **Allow Access Requests** - decides who receives access requests for all workspaces created from the template. The options are:
   - Owners
   - Specific user(s)
-    - If specific user(s) is selected, the name of at least one specific user needs to be entered in the provided space.
+    - If Specific user(s) is selected, the name of at least one specific user needs to be entered in the provided space.
 
 
 - **Sensitivity Label** - choose from available sensitivity labels available in your tenant to define which are applied on all workspaces created from the template. 
@@ -132,7 +132,7 @@ When creating a template for Microsoft Teams, you will need to define the follow
  - **Template availability** – defines the group of users that are able to select the template when submitting requests for new workspaces.
    - Everyone - the template is available to all users in your organization
    - Specific - the template is available to users that meet specified conditions
-     - If selected, condition type needs to be selected from the dropdown menu. 
+     - If selected, the condition type needs to be selected from the dropdown menu. 
 
 Once you complete this process, your new template will appear in the **Templates** list and will become visible for end-users in **SysKit Point Teams app** when requesting a new workspace. 
 
