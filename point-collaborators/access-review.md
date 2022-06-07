@@ -2,11 +2,11 @@
 description: This article provides a full overview of the automated Access Review process in SysKit Point from a site owner's perspective.
 ---
 
-# Perform Access Review in SysKit Point
+# Perform Access Review Tasks in SysKit Point
 
-**Access review**, in the context of the Microsoft 365 environment, is an activity where a person responsible for a Microsoft 365 resource verifies whether permissions are given to users inside \(internal\) and outside \(external\) of the company, comply with the organizational rules and guidelines.
+**Access review**, in the context of the Microsoft 365 environment, is an activity where a person responsible for a Microsoft 365 workspace verifies whether permissions are given to users inside \(internal\) and outside \(external\) of the company, comply with the organizational rules and guidelines.
 
-Some examples of such Microsoft 365 resources are: 
+Some examples of such Microsoft 365 workspaces are: 
  * Communication site
  * Microsoft Team
  * Microsoft 365 Group
@@ -14,7 +14,7 @@ Some examples of such Microsoft 365 resources are:
 
 The **Access Review task is usually performed by a site owner** and includes:
 
-* **Checking if all users** - internal and external - **have access to the right resources.**
+* **Checking if all users** - internal and external - **have access to the right workspaces.**
   * Either through being given permissions directly or through group memberships.
 * **Identify unwanted permissions changes** by checking the audit logs.
 * **Checking if only necessary content is externally shared.**
@@ -22,12 +22,12 @@ The **Access Review task is usually performed by a site owner** and includes:
 
 **SysKit Point** provides the tools the site owners need to perform these tasks.
 
-The Access Review in SysKit Point can be viewed from two different roles:
+Two different roles can view The Access Review in SysKit Point:
 
-* **SysKit Point Collaborator user**, as described in this article
-* [SysKit Point Admin user](monitor-permissions-review.md)
+* **Site Owner with the SysKit Point Collaborator** role assigned in SysKit Point, as described in this article
+* [SysKit Point Admin user](../../governance-and-automation/permissions-review\monitor-permissions-review.md)
 
-When working with Access Review, SysKit Point Collaborators can **perform the Access Review on resources where they are an owner or admin**.
+When working with Access Review, SysKit Point Collaborators can **perform the Access Review on workspaces where they are an owner or admin**.
 
 For a site owner or admin assigned to the SysKit Point Collaborators role, the Access Review process begins with an email.
 
@@ -95,17 +95,17 @@ These steps are explained in further detail below.
 
 ### Overview Step
 
-This step provides general information about the resource that you are about to review. The following is displayed:
+This step provides general information about the workspace that you are about to review. The following is displayed:
 
 * **List of owners**, along with the **Change Owners action \(1\)**
-* **General resource information \(2\)** 
+* **General workspace information \(2\)** 
   * **Description** 
   * **Creation date and time**
   * **Privacy** 
   * **Sharing Policy** 
-  * **Resource URL** 
+  * **Workspace URL** 
   * **Last Activity**
-* When the resource was **last reviewed and by whom \(3\)**
+* When the workspace was **last reviewed and by whom \(3\)**
 * **Who else got this task? information \(4\)** 
   * This is located in the top right corner. Hover over it to see the full list of users that received the Access Review task.
 * **Close & Continue Later action \(6\)**
@@ -128,7 +128,7 @@ The **Members step** is the second one that shows **when reviewing Microsoft 365
 
 The following options are available:
 
-* **Top filters \(1\)**; they are helpful when viewing a specific group of users in the resource:
+* **Top filters \(1\)**; they are helpful when viewing a specific group of users in the workspace:
   * **Added users**
   * **Removed users**
   * **Owners**
@@ -149,13 +149,14 @@ The **Users step** is available **when reviewing sites**. The following options 
   * **Administrators**
   * **Users with permissions on the site level** 
   * **External Users**
-* **When a user is selected \(2\)**; additional options are available:
-  * **Actions \(3\)**; based on the type of the selected user, various actions are available.
+* **When a principal - user, SharePoint group, or a security group - is selected \(2\)**; additional options are available:
+  * **Actions \(3\)**; based on the type of the selected principal, various actions are available.
     * Remove Access
     * Edit Permissions 
     * Delete SharePoint Group
     * Change Admins
   * **User Activity report \(4\)**; see all audit logs for the selected user
+    * Please note that **administrators can limit the visibility** of audit reports.
   * **Additional information \(5\)**; see the user's latest activity and when it happened
 * The **Grant Access** action is available when no users are selected
 * **Click Next \(6\)** to continue to the next step of the Access Review Wizard
@@ -214,7 +215,7 @@ The descriptions for all filters can be found by **hovering your mouse over the 
 
 In the example above, Microsoft Team was reviewed. 
 
-**Filters will slightly differ when you review sites or OneDrive** since there is no Microsoft 365 Group involved whose members would have access by default. Due to that the Users Outside the Group filter is not applicable. 
+**Filters will slightly differ when you review sites or OneDrive** since there is no Microsoft 365 Group involved whose members would have access by default. Due to that, the Users Outside the Group filter is not applicable. 
 
 Instead, the **Access on Child Objects filter is given**, showing only users that don't have access on a site level but have access to a specific file or folder.
 
@@ -286,8 +287,11 @@ They can be found on the **Access Review** task screen.
 
 ![Access Review - Expired](../.gitbook/assets/access-review_expired-reviews.png)
 
-After the Access Review is completed, expired sites cannot be reviewed, and no further changes or reviews can be made.
+After the Access Review is completed, expired tasks can no longer be finalized.
 
-With that, **the first Access Review cycle is completed**. 
+With that, **the first Access Review cycle is concluded**. 
 
 The Access Review cycle will repeat based on the schedule defined by the SysKit Point Admin or when manually requested.
+
+For information on performing **Lifecycle Management tasks as a SysKit Point Collaborator** take a look at the following article:
+  * [Perform Lifecycle Management Tasks](point-collaborators\lifecycle-management.md)

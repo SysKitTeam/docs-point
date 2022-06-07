@@ -9,9 +9,9 @@ description: This article provides a full overview of the automated access revie
 First, make sure to check how to [enable and configure the Automated Access Review in SysKit Point](enable-permissions-review.md).
 {% endhint %}
 
-**Access review**, in the context of the Microsoft 365 environment, is an activity where a person responsible for an Microsoft 365 resource - be it Communication site, Microsoft Team, Microsoft 365 Group, or OneDrive - checks whether permissions, given to users inside \(internal\) and outside \(external\) of company, comply with the organizational rules and guidelines. The **Access Review task is usually performed by a site owner** and includes:
+**Access review**, in the context of the Microsoft 365 environment, is an activity where a person responsible for an Microsoft 365 workspace - be it Communication site, Microsoft Team, Microsoft 365 Group, or OneDrive - checks whether permissions, given to users inside \(internal\) and outside \(external\) of company, comply with the organizational rules and guidelines. The **Access Review task is usually performed by a site owner** and includes:
 
-* **checking if all users - internal and external - have access to the right resources, be it through directly given permissions, or group memberships**
+* **checking if all users - internal and external - have access to the right workspaces, be it through directly given permissions, or group memberships**
 * **identify unwanted permissions changes** by checking the audit logs 
 * **checking if only necessary content is externally shared**
 * **performing correcting actions** to mitigate errors discovered in previous steps
@@ -26,10 +26,10 @@ The Access Review in SysKit Point can be viewed from two different roles:
 When working with Access Review, SysKit Point Admin users can:
 
 * **define Access Review settings**
-* **decide what resources are reviewed**
+* **decide what workspaces are reviewed**
 * **monitor Access Review progress**
 
-On the other hand, SysKit Point Collaborators can **perform the Access Review on resources where they are an owner or admin**.
+On the other hand, SysKit Point Collaborators can **perform the Access Review on workspaces where they are an owner or admin**.
 
 These two roles will have **different reports and actions available** before and during the Access Review and receive different emails.
 
@@ -41,7 +41,7 @@ Three workdays before the start of automated Access Review, SysKit Point Admin u
 
 * **start date** of the Access Review
 * **number of site owners** that will be asked to perform an Access Review
-* **the number of resources** - Microsoft Teams, Microsoft 365 Groups, sites, and OneDrive - included in the upcoming Access Review
+* **the number of workspaces** - Microsoft Teams, Microsoft 365 Groups, sites, and OneDrive - included in the upcoming Access Review
 * **modify \(1\)** link
 * **Resolve Now \(2\)** button
 
@@ -87,9 +87,9 @@ The Access Review report gives SysKit Point Admins the following information:
 * **comments \(3\)** provided by site owners when completing the review
 * **all site owners**; blocked or deleted owners are displayed in **gray color \(4\)**
 * **Remind Owners action \(5\)** to send the reminder email to site owners manually 
-* **when a resource is selected \(6\)**, two actions are available in the side panel:
-  * **Review \(7\)** - only available if SysKit Point Admin is also the owner of the selected resource
-  * **View Details \(8\)** - available when one or multiple resources are selected; opens the [**Access Review - Summary**](monitor-permissions-review.md#permissions-review-summary) report
+* **when a workspace is selected \(6\)**, two actions are available in the side panel:
+  * **Review \(7\)** - only available if SysKit Point Admin is also the owner of the selected workspace
+  * **View Details \(8\)** - available when one or multiple workspaces are selected; opens the [**Access Review - Summary**](monitor-permissions-review.md#permissions-review-summary) report
 
 ![Governance - Access Review](../../.gitbook/assets/monitor-permissions-review_permissions-review.png)
 
@@ -113,7 +113,7 @@ Ten days after the start, the Access Review is automatically marked as completed
 To view sites where the Access Review was not completed, click the **View Uncompleted Tasks** button. If already signed in to SysKit Point, you will be redirected to the **Access Review** report. Here, you can:
 
 * **see that all tasks where the Access Review was not completed have the status set to Overdue \(1\)** 
-* **select one or multiple resources \(2\)**
+* **select one or multiple workspaces \(2\)**
 * **generate the** [**Access Review - Summary report**](monitor-permissions-review.md#permissions-review---summary) **\(3\)**
 
 SysKit Point changes the status automatically when the Access Review ends.
@@ -139,16 +139,16 @@ For more information on the **Manually Requested Reviews category**, [read the f
 The Access Review - Summary report offers a complete overview of actions performed during an Access Review. To generate the report:
 
 * **open the Access Review screen**; you can open this screen for an active Access Review, or a completed one
-* **select one or more resources \(1\)** for which you want to see what was done during the Access Review
+* **select one or more workspaces \(1\)** for which you want to see what was done during the Access Review
 * **click the View Details link \(2\)** 
 
 ![Access Review - View Details](../../.gitbook/assets/monitor-permissions-review_view-details.png)
 
 The generated **Access Review - Summary** report shows the following information:
 
-* **Resource Name \(1\)**
+* **Workspace Name \(1\)**
 * **Action \(2\)**
-* **URL - external link to the said resource \(3\)**
+* **URL - external link to the said workspace \(3\)**
 * **who performed the action \(4\)** 
 * **when the action was performed \(5\)**
 * **action details \(6\)** that provides all information about performed actions 
