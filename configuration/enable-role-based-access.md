@@ -43,7 +43,7 @@ They have **Read-Only** access and **cannot execute actions or manage applicatio
 
 The only role in SysKit Point that is **assigned automatically** to users or security groups, based on their **ownership permissions** in the **Microsoft 365 tenant**. When signed in to SysKit Point, they can:
 
-* **access all data related to Microsoft 365 resources where they are owners/administrators**
+* **access all data related to Microsoft 365 workspaces where they are owners/administrators**
 * **perform actions** based on the permissions granted in Microsoft 365
 
 Additional options enable you to control if actions and specific reports are available to Collaborators in SysKit Point. All options are described in the following section.

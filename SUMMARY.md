@@ -114,3 +114,6 @@
   * [Export Diagnostic Logs](troubleshooting/export-diagnostic-logs.md)
   * [Setup Diagnostic Logs Export](troubleshooting/setup-diagnostic-logs-export.md)
   * [Analytics and Usage Report Issues](troubleshooting/analytics-and-usage-report-issues.md)
+* [SysKit Point Collaborators](end-users-and-collaborators/README.md)
+  * [Perform Access Review Tasks](end-users-and-collaborators/access-review.md)
+  * [Perform Lifecycle Management Tasks](end-users-and-collaborators/lifecycle-management.md)
