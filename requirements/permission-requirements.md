@@ -159,7 +159,7 @@ The second app registration, **SysKit Point Client**, enables users to securely 
 
 If the Configuration Inventory module is deployed, SysKit Point creates an Azure AD Application named **SysKit Point Configuration Inventory** when establishing a [connection](../installation/connect-to-tenant.md) to your tenant.  
 
-[Open this article to see all permissions granted to SysKit Point Configuration Inventory app registration](../configuration-inventory/configuration-inventory-permission-requirements.md).
+[Open this article to see all permissions granted to SysKit Point Configuration Inventory app registration](../configuration-inventory/configuration-inventory-requirements.md).
 
 ### SysKit Point API
 
