@@ -86,4 +86,4 @@ For more information about role-based access in SysKit Point, go to the [followi
 Once you are finished with the e-mail and Collaborators role configuration, continue to the [Create and Apply Access Review Policies](create-apply-access-review-policies.md) article.
 
 
-For information on SysKit Point Collaborators completing Accss Review tasks take a look at the [Perform Access Review Tasks article](../../point-collaborators/access-review.md).
+For information on SysKit Point Collaborators completing Access Review tasks, take a look at the [Perform Access Review Tasks article](../../point-collaborators/access-review.md).
