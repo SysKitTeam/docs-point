@@ -123,4 +123,4 @@ When a site owner or admin opens an expired task, the task details screen shows 
 ![Task details screen &#x2013; Expired task](../.gitbook/assets/lifecycle-management_expired-task-details.png)
 
 For information on performing **Access Review tasks as a SysKit Point Collaborator** take a look at the following article:
-  * [Perform Access Review Tasks](point-collaborators\access-review.md)
+  * [Perform Access Review Tasks](point-collaborators/access-review.md)
