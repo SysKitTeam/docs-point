@@ -293,5 +293,7 @@ With that, **the first Access Review cycle is concluded**.
 
 The Access Review cycle will repeat based on the schedule defined by the SysKit Point Admin or when manually requested.
 
+## Related Topics
+
 For information on performing **Lifecycle Management tasks as a SysKit Point Collaborator** take a look at the following article:
-  * [Perform Lifecycle Management Tasks](point-collaborators/lifecycle-management.md)
+  * [Perform Lifecycle Management Tasks](lifecycle-management.md)

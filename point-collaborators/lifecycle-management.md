@@ -5,7 +5,14 @@ description: This article gives site owners a complete overview of the Lifecycle
 
 # Perform Lifecycle Management Tasks in SysKit Point
 
-The content and workspaces in Microsoft 365 usually consist of the following three stages:
+* For a quick start on Lifecycle Management tasks in SysKit Point, watch this short video.
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/714449776?h=441fb200e5" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+
+* Continue with the article to find detailed information on how to complete Lifecycle Management tasks in SysKit Point.
+
+## Workspace Lifecycle 
+
+Workspaces in Microsoft 365 usually display the following lifecycle stages:
 
 * **Beginning**; for example, when an admin creates a new workspace - Microsoft Team.
 * **Middle**; users collaborate and use said workspace, chat, create files, and take advantage of all means available to collaborate and achieve their goals successfully.
@@ -122,5 +129,8 @@ When a site owner or admin opens an expired task, the task details screen shows 
 
 ![Task details screen &#x2013; Expired task](../.gitbook/assets/lifecycle-management_expired-task-details.png)
 
-For information on performing **Access Review tasks as a SysKit Point Collaborator** take a look at the following article:
-  * [Perform Access Review Tasks](point-collaborators/access-review.md)
+## Related Topics
+
+* [Learn more about lifecycle management](https://docs.microsoft.com/en-us/microsoftteams/plan-teams-lifecycle)
+* [Learn how to Resolve Access Review Tasks](access-review.md)
+
