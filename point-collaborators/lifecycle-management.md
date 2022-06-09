@@ -3,7 +3,7 @@
 description: This article gives site owners a complete overview of the Lifecycle Management Automation process in SysKit Point.
 ---
 
-# Perform Lifecycle Management Tasks in SysKit Point
+# Resolve Lifecycle Management Tasks in SysKit Point
 
 * For a quick start on Lifecycle Management tasks in SysKit Point, watch this short video.
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/714449776?h=441fb200e5" width="640" height="360" frameborder="0" allowfullscreen></iframe>
