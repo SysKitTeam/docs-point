@@ -5,10 +5,14 @@ description: This article gives site owners a complete overview of the Lifecycle
 
 # Resolve Lifecycle Management Tasks in SysKit Point
 
-* For a quick start on Lifecycle Management tasks in SysKit Point, watch this short video.
+* **Watch this short video for a quick start on Lifecycle Management tasks in SysKit Point**.
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/714449776?h=441fb200e5" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+<br/>
+<br/>
 
-* Continue with the article to find detailed information on how to complete Lifecycle Management tasks in SysKit Point.
+* **Continue with the article to find detailed information** on how to complete Lifecycle Management tasks in SysKit Point.
+<br/>
+<br/>
 
 ## Workspace Lifecycle 
 
@@ -115,17 +119,17 @@ The emails display an appropriate message depending on the time left to complete
 
 If the opportunity to decide what to do with the inactive workspace is missed, SysKit Point automatically changes the status of all incomplete Lifecycle Management tasks to **Expired**.
 
-They can be found on the **My Tasks screen**, under the Completed Lifecycle Management view.
+They can be found on the **My Tasks screen** under the Completed Lifecycle Management view.
 
 
 ![My Tasks &#x2013; Expired tasks](../.gitbook/assets/lifecycle-management_expired-tasks.png)
 
 {% hint style="warning" %}
 **Please note!**  
-Expired tasks are now **assigned to SysKit Point Admins** and can no longer be completed by site owners or site admins.
+Expired tasks are now **assigned to SysKit Point Admins** and can no longer be completed by site owners or admins.
 {% endhint %}
 
-When a site owner or admin opens an expired task, the task details screen shows a message stating that 'This task has expired. We have transferred it back to the SysKit Point Admin'.
+When a site owner or admin opens an expired task, the task details screen shows a message stating, 'This task has expired.' We have transferred it back to the SysKit Point Admin'.
 
 ![Task details screen &#x2013; Expired task](../.gitbook/assets/lifecycle-management_expired-task-details.png)
 
