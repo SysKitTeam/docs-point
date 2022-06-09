@@ -117,6 +117,4 @@ When done with the selection, save your changes.
 
 Now that everything is defined, the Lifecycle Management will start automatically. 
 
-To learn all about Lifecycle Management in SysKit Point, visit the [following article](lifecycle-management.md).
-
 For information on SysKit Point Collaborators completing Lifecycle Management tasks, take a look at the [Perform Lifecycle Management Tasks article](../../point-collaborators/lifecycle-management.md).
