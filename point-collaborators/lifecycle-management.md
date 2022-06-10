@@ -30,7 +30,7 @@ Workspaces in Microsoft 365 usually display the following lifecycle stages:
 
 To help with this process, **SysKit Point provides the Lifecycle Management Automation feature** and reduces the management to the previously described decision-making.
 
-After a SysKit Point Admin [enables and configures Lifecycle Management Automation](../governance-and-automation/lifecycle-management/enable-lifecycle-management.md), **site owners and admins will be notified via email** when some of their workspaces are inactive for a period longer than the one [defined in SysKit Point settings](../../governance-and-automation/lifecycle-management/inactive-content.md#define-what-is-inactive).
+After a SysKit Point Admin [enables and configures Lifecycle Management Automation](../governance-and-automation/lifecycle-management/enable-lifecycle-management.md), **site owners and admins will be notified via email** when some of their workspaces are inactive for a period longer than the one [defined in SysKit Point settings](../governance-and-automation/lifecycle-management/inactive-content.md#define-what-is-inactive).
 
 ## Inactive Workspace Email
 
