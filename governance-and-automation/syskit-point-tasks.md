@@ -37,8 +37,8 @@ By default, **all active tasks are displayed \(1\)**. Here, you can:
 * [Enable Automated Access Review](permissions-review/enable-permissions-review.md)
 * [Manually Request Access Review](permissions-review/manually-request-permissions-review.md)
 * [Monitor Access Review Tasks](permissions-review/monitor-permissions-review.md)
-* [Perform Access Review](permissions-review/permissions-review.md)
+* [Perform Access Review](../point-collaborators/access-review.md)
 * [Enable Lifecycle Management Automation](lifecycle-management/enable-lifecycle-management.md)
 * [Monitor Lifecycle Management Tasks](lifecycle-management/monitor-lifecycle-management.md)
-* [Resolve Lifecycle Management Tasks](lifecycle-management/lifecycle-management.md)
+* [Resolve Lifecycle Management Tasks](../point-collaborators/lifecycle-management.md)
 
