@@ -59,7 +59,7 @@ Use this report to display the structure of the Sharepoint environment.
 * **Click the Reports tile**; it is located on the SysKit Point home screen.
 * **Select Audit Logs in the filter**; it can be found in the upper left corner.
 * **Click the Site Structure  report** to be redirected to the selection screen.
-* **Select one or multiple sites** for which the report should be generated for. 
+* **Select one or multiple sites** for which to generate the report. 
   * Once selected there are several options available to show content down to; Subsites, Document libraries & lists, Folders and Files, and folders. 
     * These are available in the dropdown menu from the additional filter on the bottom. 
 * **Click on the Run Report button** when finished with the seleetion.
@@ -85,18 +85,18 @@ This report can be used to stay up to date with any unused resources in your env
 ### Generate Inactive Content Report
 
 * **Click the Reports tile**; it is located on the SysKit Point home screen.
-* **Select Audit Logs in the filter**; it can be found in the upper left corner.
-* **Click the Site Structure  report** to be redirected to the selection screen.
-
-- From the SysKit Point home screen, click on the Reports tile.
-- In the upper left corner, click on the filter and select Analytics filter.
-- Click on the Inactive Content report.
-- On the Options screen, select which type of resource you want to generate the report (Site, Microsoft 365 Group, or Microsoft team) and click the Run Report button.
+* **Select Analytics in the filter**; it can be found in the upper left corner.
+* **Click the Inactive Content report** to be redirected to the options screen.
+  * **Select which type of resource** the report should be generated for (Site, Microsoft 365 Group, or Microsoft Team)
+* **Click the Run Report button**.
 
 ### Inactive Content Report Data
 
-Now that You successfully generated the report, you can see all the resources in your environment that are currently inactive. You can export the report data into PDF and XLSX formats. 
+When the report has successfully generated, all of the resources in your environment that are currently inactive can be found there. 
+The Inactice Content report data can be **exported into PDF and XLSX formats**.
 
+Select one or multiple resources to perform Lifecycle Management actions on those resources:
+ * Choose to **Keep, Archive or Delete** the resources or ask the **owner to Renew** the resources. 
 If you select one or multiple resources, you can also perform Lifecycle Management actions on those resources (choose to Keep, Archive, or Delete the resources) or ask owners to Renew said resources. When either of those actions is completed, said resource wouldn't be visible on the Inactive Content Report anymore.
 
 When looking at the generated reports, you can see the following columns:
