@@ -8,7 +8,7 @@ description: This article lists new features, improvements, and bug fixes in Sys
 
 **Product version:** 2022.3.1
 
-**Build number:** 1
+**Build number:** 4
 
 **Release date:** June 14, 2022
 
@@ -27,17 +27,17 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
 
 ## Improvements & Bug Fixes
 
-* **Improved the loading speed** for Access Review sites, showing top twenty reviewers per column and **optimized functionality of Access Review** when completing tasks. 
 
-* **Improved the loading speed** of the Users details tile for User Access and Group Access reports and **removed Single Owner/Single Admin information** from the reports. 
+* **Improved the loading speed** for Access Review task steps and **optimized the complete functionality** of Access Review.
 
-* **Optimized the loading speed and quality** for the Manage Policies screen after accessing Automated Workflows when loading a sizeable number of sites.
+* **Improved the loading speed** of the Sites tile on the User Details screen.
 
-* **Fixed a bug** where sites didn’t sync properly after exceeding 5k sites. 
+* **Optimized the loading speed** for the Manage Policies screen when selecting and applying policies to a sizeable number of sites.
 
-* **Fixed a bug** when resolving Lifecycle Management tasks.
-  * If a site was already deleted before completing the task, resolving the task was no longer possible.
+* **Improved the handling** of deleted sites when resolving Lifecycle Management tasks. 
+    * For sites deleted in SharePoint online, completing the Lifecycle Management task is now possible even if the site's state is not synced in SysKit Point.
 
-* **Fixed a bug** where deleted files in SysKit Point were not being logged as an event. 
+* **Added support** for Deleted file activity. 
+  * SysKit Point now collects and shows the Deleted file activity in audit reports.
 
 * **Fixed a bug** where duplicate users were created in SysKit Point. 
