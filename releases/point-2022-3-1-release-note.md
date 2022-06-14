@@ -29,7 +29,7 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
 
 * **Improved the loading speed** for Access Review sites, showing top twenty reviewers per column and **optimized functionality of Access Review** when completing tasks. 
 
-* **Improved the loading speed** for Users details tile for User Access and Group Access reports and **removed Single Owner/Single Admin information** from the reports. 
+* **Improved the loading speed** of the Users details tile for User Access and Group Access reports and **removed Single Owner/Single Admin information** from the reports. 
 
 * **Optimized the loading speed and quality** for the Manage Policies screen after accessing Automated Workflows when loading a sizeable number of sites.
 
