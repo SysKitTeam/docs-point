@@ -38,7 +38,7 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
 * **Fixed a bug** when resolving Lifecycle Management tasks.
   * If a site was already deleted before completing the task, resolving the task was no longer possible.
 
-* **Fixed a bug** for deleted files in SysKit Point not being logged as an event. 
+* **Fixed a bug** where deleted files in SysKit Point were not being logged as an event. 
 
 * **Fixed a bug** where duplicate users were created in SysKit Point. 
 
