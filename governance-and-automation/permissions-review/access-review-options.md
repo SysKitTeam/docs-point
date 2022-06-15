@@ -49,5 +49,5 @@ Here you can:
 ## Next Steps
 
 Now that everything is defined, the **Access Review will start automatically**. 
-To learn how to perform an Access Review in SysKit Point, visit the [following article](permissions-review.md).
+To learn how to perform an Access Review in SysKit Point, visit the [following article](../../point-collaborators/access-review.md).
 

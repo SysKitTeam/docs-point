@@ -21,7 +21,7 @@ First, make sure to check how to [enable and configure the Automated Access Revi
 The Access Review in SysKit Point can be viewed from two different roles:
 
 * **SysKit Point Admin user**, as described in this article
-* [SysKit Point Collaborator user](permissions-review.md)
+* [SysKit Point Collaborator user](../../point-collaborators/access-review.md)
 
 When working with Access Review, SysKit Point Admin users can:
 
