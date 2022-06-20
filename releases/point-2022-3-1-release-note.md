@@ -2,7 +2,7 @@
 description: This article lists new features, improvements, and bug fixes in SysKit Point version 2022.3.
 --- 
 
-# SysKit Point 2022.3
+# SysKit Point 2022.3.1
 
 [Schedule a demo](https://www.syskit.com/products/point/request-a-demo/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
