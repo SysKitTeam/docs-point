@@ -4,7 +4,7 @@ description: Audit reports provide a detailed overview of the users' activities 
 
 # Access Reports
 
-In this article there is information on five audit reports available through the **Reports Center**:
+In this article there is information on five audit reports available through the **Report Center**:
 
 * [Audit Logs Overview Report](#audit-logs-overview-report)
 * [Exchange Logs Report](#exchange-logs-report)
