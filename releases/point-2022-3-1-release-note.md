@@ -10,7 +10,7 @@ description: This article lists new features, improvements, and bug fixes in Sys
 
 **Build number:** 4
 
-**Release date:** June 14, 2022
+**Release date:** June 20, 2022
 
 ## Get the Latest Version
 
