@@ -15,7 +15,7 @@ In this article you can locate information on the following license reports:
 
 Use them to **discover assigned, unassigned Microsoft 365 licenses or Microsoft 365 licenses assigned to inactive users** and check their overall cost.
 
-These reports can also be used to **identify underutilized licenses to drive adoption and optimize license cost**.
+These reports can also be used to **identify underutilized licenses to drive adoption and optimize license costs**.
 
 ## Licenses Overview Report
 
@@ -47,7 +47,7 @@ Now that your report is successfully generated, the following data will be displ
 
 The **total cost for All licenses, Assigned Licenses, and Total potential savings on unassigned and inactive licenses are located at the bottom** of the generated report.
 
-Selecting a line in the generated report provides the option to create an Inactive Licenses report for the selected license.
+Selecting a line in the generated report allows the creation of an Inactive Licenses report for the selected license.
 
 The Licenses Overview report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 

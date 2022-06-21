@@ -4,7 +4,7 @@ description: Audit reports provide a detailed overview of the users' activities 
 
 # Access Reports
 
-In this article there is information on five audit reports available through the **Report Center**:
+In this article, there is information on five audit reports available through the **Report Center**:
 
 * [Audit Logs Overview Report](#audit-logs-overview-report)
 * [Exchange Logs Report](#exchange-logs-report)
@@ -30,14 +30,14 @@ Quickly detect and troubleshoot potential issues, security breaches, or suspicio
 ### Report Data
 
 The default columns displayed in the report are:
-		
+    
 * **Date**
 * **Activity** type
 * **Performed By**
 * **IP Address**
 * **Item**
 * **Details**
-		
+    
 There are no additional columns available in the **column chooser**.
 
 To see more details, **expand each row** by clicking on the arrow next to the date column. 
@@ -71,14 +71,14 @@ Click [here](../../configuration/customize-audit-logs-collection.md) to find out
 ### Report Data
 
 The default columns displayed in the report are:
-		
+    
 * **Date**
 * **Activity** type
 * **Performed By**
 * **IP Address**
 * **Item**
 * **Details**
-		
+    
 There are no additional columns in the **column chooser**.
 
 For specific mailboxes, filter this report in the initial **Options screen** before generating the report.
@@ -93,8 +93,8 @@ There are no additional actions available for this report.
 
 ## Site Permissions Changes Report
 
-This report provides insight into details about any permissions changes on selected site(s). 
-   * If somebody removed a member from a Team or broke sharing inheritance, you will be able to see it here.
+This report provides insight into details for any permissions changes on selected site(s). 
+   * If somebody removed a member from a Team or broke sharing inheritance, you can see it here.
 
 
 ### Generate Report
@@ -106,7 +106,7 @@ This report provides insight into details about any permissions changes on selec
 ### Report Data
 
 The default columns displayed in the report are:
-		
+    
 * **Date**
 * **Activity** type
 * **Performed By**
@@ -131,7 +131,7 @@ There are no additional actions available for this report.
 
 This report shows all actions performed by internal and external users in your environment. 
 
-Selecting a single user provides insight into what they have been doing in the environment; from logging in to viewing a file. 
+Selecting a single user provides insight into what they have been doing in the environment, from logging in to viewing a file. 
    * If the admin or manager added or removed permissions for a particular user, this would also be shown in this report.
 
 
@@ -144,14 +144,14 @@ Selecting a single user provides insight into what they have been doing in the e
 ### Report Data
 
 Default columns displayed in the report are:
-		
+    
 * **Date**
 * **Activity** type
 * **Performed By**
 * **IP Address**
 * **Item**
 * **Details**
-		
+    
 There are no additional columns in the **column chooser**.
 
 To see more details on specific users, select the individual user(s) or mark them all, select the amount of days the report should cover and click **Run Report** to generate.
@@ -178,17 +178,17 @@ View who accessed and edited files/folders in your environment, as well as who v
 ### Report Data
 
 The default columns displayed in the report are:
-		
+    
 * **Date**
 * **Activity** type
 * **Performed By**
 * **IP Address**
 * **Item**
 * **Details**
-		
+    
 There are no additional columns in the **column chooser**.
 
-		
+    
 There are no additional columns in the **column chooser**.
 
 To see more details on specific users, select the individual user(s) or mark them all, select the amount of day the report should cover, set the other preferred parameters, and click **Run Report** to generate.

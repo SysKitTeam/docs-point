@@ -9,7 +9,7 @@ description: This article provides a list of available report categories and sho
 SysKit Point Reports gives insight into what's happening within the Microsoft 365 environment. 
 
 The **Reports** section enables the following actions:
-* Clean up of oudated or unnecessary resources
+* The clean up of outdated or unnecessary resources
 * Contextual, one-click report generation
 * Advanced filtering
 * High-level overview
@@ -37,7 +37,7 @@ Here, you can:
 
 {% hint style="warning" %}
 **Please note!**  
-Different reports show different objects to select as well as different filters to adjust. 
+Different reports show different objects to select and different filters to adjust. 
 {% endhint %}
 
 In the example given, **the Selection step for the Permissions Matrix report shows Microsoft Teams, Microsoft 365 Groups, OneDrive, and sites to select**. 
@@ -45,7 +45,7 @@ In the example given, **the Selection step for the Permissions Matrix report sho
 On the other hand, if we look at **the User Access Report, it lists all users for selection**. 
 
 Some reports, such as **the External Users report, generate right after clicking the report tile and don't show the Selection step**. 
-* Since the selection and filters can differ, reports are further described within the category-specific articles given below.
+* Since the selection and filters can differ, reports are further described within the category-specific articles below.
 
 ## Report Categories
 
@@ -58,6 +58,3 @@ Reports in SysKit Point can be divided into 6 main categories:
 * [Analytics Reports](analytics-reports.md)
 
 **Click a link from the list to open an article showing all reports in the selected category.**
-
-
-

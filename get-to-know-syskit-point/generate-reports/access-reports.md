@@ -18,32 +18,36 @@ This article contains information on eight access reports available through the 
 
 ## Permissions Matrix Report
 
-The Permissions Matrix report gives insight into who has access to what content, across your environment.
+The Permissions Matrix report gives insight into who has access to which content across your environment.
 
-It provides the option to view site hierarchy and permissions down to the document level.
+It allows viewing site hierarchy and permissions down to the document level.
 
 ### Generate Report
 
-This report can be accessed from:
+* **Click the Reports tile**; it is located on the SysKit Point home screen.
+* **Select Permissions Matrix in the filter**; it can be found in the upper left corner.
+* **Click the User Access report** to be redirected to the options screen.
+* **Select the resources** for which the report should be generated.
+   * Click the checkboxes on the screen's left side to select one or more resources. 
+* **Click the Run Report button**once the selected parameters have been set.
 
-* **The Sites Overview screen, and The Microsoft Teams & Groups Overview screen**; select the resource and click on the suitable action in the side panel.
+This report can also be accessed from:
+
+* **The Sites Overview screen and The Microsoft Teams & Groups Overview screen**; select the resource and click on the suitable action in the side panel.
 * **The details screen** of specific resource
-* **The Report Center**
 * **Other reports** available in SysKit Point
-   * For example: User Access Report, Externally Shared Content Report, Unique Permissions Report
+   * For example, User Access Report, Externally Shared Content Report, Unique Permissions Report
 
 ### Report Data
 
 The default columns displayed in the report are:
-		
+      
 * **Name** of the resource
 * **Permissions levels**; depending on availability, several are shown in your environment.
-   * For example: **Full Control, Design, Edit, Contribute, Read, Restricted View**
-
-![Permissions Matrix report](../../.gitbook/assets/access-reports_permissions-matrix-report.png)
-		
-There are also additional columns in the **column chooser**:
-		
+   * For example **Full Control, Design, Edit, Contribute, Read, Restricted View**
+      
+There are also additional columns in the **column chooser**, located in the top right corner of the report:
+      
 * **URL**
 * **Object Type**
 * **Email**
@@ -56,90 +60,105 @@ There are also additional columns in the **column chooser**:
 
 ### Report Actions
 
-Here you can remove and manage users' access directly from this report. Select the item or user and choose the available action from the side panel.
+This report provides the ability to remove and manage users' access directly. 
 
-Some of the actions are:
+Select the item or user and choose the available action from the side panel.
 
-*	**Remove sharing link**
-*	**Remove user access**
-*	**edit user permissions**
-*   **delete unique permissions**
+Some of the available actions are:
 
-This report can be exported (PDF and XLSX) and scheduled.
+*  **Remove sharing link**
+*  **Remove user access**
+*  **Edit user permissions**
+*  **Delete unique permissions**
 
+The Permissions Matrix report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
 ## User Access Report
 
-With this report, you will see where exactly the user has access, and if permissions are given directly or through Microsoft 365 Group, Security group, or SharePoint group.
+With this report, you will see where exactly the user has access and if permissions are given directly or through Microsoft 365 Group, Security group, or SharePoint group.
 
 ### Generate Report
 
-You can access this report from:
+To generate the User Access report:
 
-*	Users Overview screen - select the user and click on the proper action in the side panel
-*	details screen of specific resource - Users report on sites details screen
-*	the Report Center
-*	some other reports available in SysKit Point - for example, External Users report
+* **Click the Reports tile**; it is located on the SysKit Point home screen.
+* **Select Permission Reports in the filter**; it can be found in the upper left corner.
+* **Click the User Access report** to be redirected to the options screen.
+* **Select one or multiple users** to include in the report.
+   * Click the checkboxes on the left side of the screen. 
+* **Click the Run Report button**.
+
+
+This report can also be accessed from:
+
+* **The Users Overview screen**; select the user and click on the proper action in the side panel
+* **The details screen** of specific resource; Users report on the sites details screen
+* **Other reports available** in SysKit Point
+   * For example, the External Users report
 
 ### Report Data
 
 Default columns displayed in the report are:
-		
+      
 * **Name** of the user/resource
-* **Access** - permissions level of the user
+* **Access**; the permissions level of the user
 * **Given Through**
-* **Details** - shows where the user got the permission from
-
-![User Access report](../../.gitbook/assets/access-reports_user-access-report.png)
-		
-There are also additional columns in the **column chooser**:
-		
+* **Details**; shows where the user received the permission from
+      
+The additional columns available in the **column chooser**, located in the top right corner of the report, are:
+      
 * **URL**
 * **Object Type**
 * **Site Type**
 
-There is a **toggle button** above the grid that changes the data to **see only publicly accessible content**.
+There is a **toggle button** above the grid that changes the data to **show only publicly accessible content**.
 
 ### Report Actions
 
-Here you can remove and manage users' access directly from this report. Select the item or user and choose the available action from the side panel.
+Users' access can be **removed and managed** directly from this report. **Select the item or user** and choose the available action from the side panel.
 
 Some of the actions are:
 
-*	**Remove user access**
-*	**edit user permissions**
-*   **remove user/group from SharePoint group**
-*   **change admins**
+*  **Remove user access**
+*  **Edit user permissions**
+*  **Remove user/group from SharePoint group**
+*  **Change admins**
 
-This report can be exported (PDF and XLSX) and scheduled.
+The User Access report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
 
 ## Unique Permissions Report
 
-This report shows you a list of objects (sites, lists, folders, files, etc.) with unique permissions (objects that do not inherit permissions).
+The Unique Permissions report shows a list of objects (sites, lists, folders, files, etc.) with unique permissions (objects that do not inherit permissions).
 
 ### Generate Report
 
-You can access this report from:
+* **Click the Reports tile**; it is located on the SysKit Point home screen.
+* **Select Permission Reports in the filter**; it can be found in the upper left corner.
+* **Click the Unique Permissions report** to be redirected to the options screen.
+* **Select the resources** for which the report should be generated.
+   * Click the checkboxes on the screen's left side to select one or more resources. 
+* **Click the Run Report button**.
 
-*	Sites Overview screen and Microsoft Teams & Groups Overview screen - select the resource and click on the proper action in the side panel
-*	details screen of specific resource - Unique Permissions report in Overview tile
-*	the Report Center
-*	some other reports available in SysKit Point - for example, Permissions Matrix report, Externally Shared Content report, User Access report
+
+This report can also be accessed from:
+
+* **Sites Overview screen and Microsoft Teams & Groups Overview screen**; select the resource and click the proper action in the side panel.
+* **The details screen** of a specific resource.
+* **Other reports available** in SysKit Point. 
+  * For example, Permissions Matrix report, Externally Shared Content report, User Access report.
 
 ### Report Data
 
-Default columns displayed in the report are:
-		
+The default columns displayed in the report are:
+      
 * **Name** of the resource
 * **URL**
 * **Last Modified**
 * **Created On**
 
-![Unique Permissions report](../../.gitbook/assets/access-reports_unique-permissions-report.png)
-		
-There are also additional columns in the **column chooser**:
-		
+There are additional columns available in the **column chooser**, located in the top right corner of the report:
+      
 * **Object Type**
 * **Unique Permissions**
 
@@ -150,37 +169,40 @@ Select the resource and choose the available action from the side panel.
 
 Available actions are:
 
-*	**Stop Sharing** - for OneDrive
-*   **Delete Unique Permissions** - for other resources
+*  **Stop Sharing**; for OneDrive
+*   **Delete Unique Permissions**; for other resources
 
-This report can be exported (PDF and XLSX) and scheduled.
-
+The Unique Permissions report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
 ## Group Memberships Report
 
-This report shows you all members, owners, and guest users across your Microsoft Teams and Microsoft 365 groups. 
+The Group Memberships report shows all members, owners, and guest users across your Microsoft Teams and Microsoft 365 groups. 
 
 ### Generate Report
 
-You can access this report from:
+* **Click the Reports tile**; it is located on the SysKit Point home screen.
+* **Select Permission Reports in the filter**; it can be found in the upper left corner.
+* **Click the Group Memberships report** to be redirected to the options screen.
+* **Select the resources** for which the report should be generated.
+   * Click the checkboxes on the screen's left side to select one or more resources. 
+* **Click the Run Report button**.
 
-*	Microsoft Teams & Groups Overview screen - select the resource and click on the proper action in the side panel
-*	teams/groups details screen - Members tile
-*	the Report Center
+This report can also be accessed from:
+
+* **Microsoft Teams & Groups Overview screen**; select the resource and click on the proper action in the side panel
+* **Teams/Groups details screen**; Members tile
 
 ### Report Data
 
-Default columns displayed in the report are:
-		
+The default columns displayed in the report are:
+      
 * **Display Name** of the resource
 * **Username**
 * **Role**
 * **Last Logged In**
-
-![Group Memberships report](../../.gitbook/assets/access-reports_group-memberships-report.png)
-		
-There are also additional columns in the **column chooser**:
-		
+      
+There are additional columns available in the **column chooser**, located in the top right corner of the report:
+      
 * **Email**
 * **Department**
 * **State or Province**
@@ -190,43 +212,50 @@ There are also additional columns in the **column chooser**:
 
 ### Report Actions
 
-Here you can remove and manage users' access directly from this report. Select the item or user and choose the available action from the side panel.
+Remove and manage users' access directly from this report. 
 
-The actions are:
+Select the item or user and choose the available action from the side panel.
 
-*	**Change Owners**
-*	**Add Owners/Members**
-*	**Change to Member/Promote to Owner**
+The available actions are:
+
+*  **Change Owners**
+*  **Add Owners/Members**
+*  **Change to Member/Promote to Owner**
 *   **Remove from Group**
 
-This report can be exported (PDF and XLSX) and scheduled.
+
+The Group Memberships report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
 
 ## Group Access Report
 
-View the permissions and access rights for each security group. For example, with this report, you can detect where "Everyone" and "Everyone except external users" groups have access.
+The Group Access report provides insight into each security group's permissions and access rights. 
+  * For example, with this report, you can detect where "Everyone" and "Everyone except external users" groups have access.
 
 ### Generate Report
 
-You can access this report from:
+* **Click the Reports tile**; it is located on the SysKit Point home screen.
+* **Select Permission Reports in the filter**; it can be found in the upper left corner.
+* **Click the Group Access report** to be redirected to the options screen.
+* **Select the resources** for which the report should be generated.
+   * Click the checkboxes on the screen's left side to select one or more resources. 
+* **Click the Run Report button**.
 
-*	the Report Center
-*   from SharePoint Groups report
+This report can also be accessed from the SharePoint Groups report.
 
 ### Report Data
 
-Default columns displayed in the report are:
+The default columns displayed in the report are:
 
 * **Name** of the user/resource
 * **Group Type**
-* **Access** - permissions level of the user
+* **Access**; permissions level of the user
 * **Given Through**
-* **Details** - shows where the user got the permission from
+* **Details**; shows where the user received the permission from
 
-![Group Access report](../../.gitbook/assets/access-reports_group-access-report.png)
-		
-There are also additional columns in the **column chooser**:
-		
+      
+There are additional columns in the **column chooser**, located in the top right corner of the report:
+      
 * **URL**
 * **Object Type**
 * **Site Type**
@@ -234,41 +263,50 @@ There are also additional columns in the **column chooser**:
 
 ### Report Actions
 
-Here you can remove and manage users' access directly from this report. Select the item or user and choose the available action from the side panel.
+Users' access can be removed and managed directly from this report. Select the item or user and choose the available action from the side panel.
 
-The actions are:
+The available actions are:
 
-*	**Add Owners/Members**
-*	**Change to Member/Promote to Owner**
-*   **Remove from Group**
-*   **Remove User Access**
+*  **Add Owners/Members**
+*  **Change to Member/Promote to Owner**
+*  **Remove from Group**
+*  **Remove User Access**
 
-This report can be exported (PDF and XLSX) and scheduled.
-
+The Group Access report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
 ## Users with Privileged Access Report
 
-This report shows all users with privileged access on the tenant - users in Global administrator roles, Exchange admins, Teams admins, Compliance admins, etc. You can also detect SharePoint site admins and users with full control permission level.
+The Users with Privileged Access report shows all users with privileged access on the tenant:
+  * Users in Global administrator roles
+  * Exchange admins
+  * Teams admins
+  * Compliance admins
+  * And more 
+  
+  It also detects SharePoint site admins and users with full control permission levels.
 
 ### Generate Report
 
-You can access this report from:
+* **Click the Reports tile**; it is located on the SysKit Point home screen.
+* **Select Permission Reports in the filter**; it can be found in the upper left corner.
+* **Click the Users with Privileged Access report** to be redirected to the options screen.
+* **Select the type of users** with privileged access for which the report should be generated.
+   * Select one or more options from the available drop-down menu. 
+* **Click the Run Report button**.
 
-*	the Report Center
 
 ### Report Data
 
-Default columns displayed in the report are:
+The default columns displayed in the report are:
 
 * **Name** of the user/resource
 * **URL**
 * **Role**
 * **Sign-in Status**
 
-![Users with Privileged Access report](../../.gitbook/assets/access-reports_users-with-privileged-access-report.png)
-		
-There are also additional columns in the **column chooser**:
-		
+
+There are additional columns in the **column chooser**, located in the top right corner of the report:
+      
 * **Email**
 * **Is External User**
 * **Privacy**
@@ -277,37 +315,64 @@ There are also additional columns in the **column chooser**:
 
 ### Report Actions
 
-Here you can remove and manage users' access directly from this report. Select the item or user and choose the available action from the side panel.
+Users' access can be removed and managed directly from this report. Select the item or user and choose the available action from the side panel.
 
-Available action:
+The available action for this report is choosing to **Change Owners**.
 
-*	**Change Owners**
+The Users with Privileged Access report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
-This report can be exported (PDF and XLSX) and scheduled.
+## SharePoint Groups Report
 
+The SharePoint Groups report provides a list of all SharePoint groups and their members across the selected groups, teams, and sites.
+
+### Generate Report
+
+* **Click the Reports tile**; it is located on the SysKit Point home screen.
+* **Select Permission Reports in the filter**; it can be found in the upper left corner.
+* **Click the SharePoint Groups report** to be redirected to the options screen.
+* **Select the resources** for which the report should be generated.
+   * Select one or more options from the available drop-down menu. 
+* **Click the Run Report button**.
+
+### Report Data
+
+The default columns displayed in the report are:
+      
+* **Name** of the resource
+* **URL**
+* **Access**
+
+There is one additional column in the **column chooser**, located in the top right corner of the report:
+      
+* **Email**
+
+### Report Actions
+
+There is no available action for this report.
+
+The SharePoint Groups report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
 
 ## Microsoft Teams with Private Channels Report
 
-This report shows you all Microsoft Teams with private channels, who created them, and who are the members that have access to this content.
+The Microsoft Teams with Private Channels report **shows all Microsoft Teams with private channels**, who created them, and who the members that have access to this content are.
 
 ### Generate Report
 
-You can access this report from:
-
-*	the Report Center
+* **Click the Reports tile**; it is located on the SysKit Point home screen.
+* **Select Microsoft Teams and Groups in the filter**; it can be found in the upper left corner.
+* **Click the Users with Privileged Access report** 
+* **Click the Microsoft Teams with Private Channels** to generate the report.
 
 ### Report Data
 
-Default columns displayed in the report are:
+The default columns displayed in the report are:
 
 * **Name** of the user/resource
 * **Role**
-
-![Microsoft Teams with Private Channels report](../../.gitbook/assets/access-reports_microsoft-teams-with-private-channels-report.png)
-		
-There are also additional columns in the **column chooser**:
-		
+      
+There are also additional columns in the **column chooser**,  located in the top right corner of the report:
+      
 * **Email**
 * **URL**
 * **Is External User**
@@ -317,39 +382,14 @@ There are also additional columns in the **column chooser**:
 
 There is no available action for this report.
 
-This report can be exported (PDF and XLSX) and scheduled.
+The Microsoft Teams with Private Channels report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
 
+## Other Reports
 
-## SharePoint Groups Report
+Several other reports can also be located through the **Permission Reports filter in the Report Center**: 
 
-List of all SharePoint groups and their members across the selected groups, teams, and sites.
-
-### Generate Report
-
-You can access this report from:
-
-*	the Report Center
-
-
-### Report Data
-
-Default columns displayed in the report are:
-		
-* **Name** of the resource
-* **URL**
-* **Access**
-
-![SharePoint Groups report](../../.gitbook/assets/access-reports_sharepoint-groups-report.png)
-		
-There is one additional column in the **column chooser**:
-		
-* **Email**
-
-
-### Report Actions
-
-There is no available action for this report.
-
-This report can be exported (PDF and XLSX) and scheduled.
-
+* [Externally Shared Content](external-sharing-reports.md#externally-shared-content)
+* [Sharing Links](external-sharing-reports.md#sharing-links)
+* [Site Permissions Changes Report](audit-reports.md#site-permissions-changes-report)
+* [User Activity Report](audit-reports.md#user-activity-report)

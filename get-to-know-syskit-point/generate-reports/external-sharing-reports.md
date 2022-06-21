@@ -11,7 +11,7 @@ In this article you can locate information on the following external sharing rep
 
 These reports can be used to **optimize and keep track of externally shared content, links and external users with access to your Microsoft 365**. 
 
-In order to access an external sharing report complete the following steps:
+To access an external sharing report, complete the following steps:
 
  * **Click the Reports tile**; located on the SysKit Point home screen.
  * **Select the External Sharing category in the filter**; it can be found in the upper left corner.
@@ -26,7 +26,7 @@ This report shows content shared with external users via sharing links or by gra
 After clicking the **Externally Shared Content** report tile, a selection step opens where you can:
 * **Use the filter** to change the type of sites being viewed.
 * **Select one or multiple workspaces**; workspace can be selected in the top bar above the columns. 
-* **Use the search option** if there are any specific site inqueries.
+* **Use the search option** for any specific site inquiries.
 * **Click the select all button** in the top left corner **or select the individual sites** for which the report should be generated. 
 * **Choose the content level to be shown** once prompted.
   * The option to select between the following options will appear:
@@ -40,11 +40,11 @@ After clicking the **Externally Shared Content** report tile, a selection step o
 
 The generated report displays all externally shared content based on the workspace and filter selection. 
 
-The following columns are visible:		
-* **Name**; the workspace, content, groups, and external users shown in the tree grid.
-* **Permission levels**; the level of access for external users on the content. 
+The following columns are visible:    
+* **Name**; the workspace, content, groups and external users are shown in the tree grid.
+* **Permission levels**; the level of access for external users over the content. 
   * For example, this can be: **Full Control**, **Design**, **Read**, **Edit**, **Contribute**...
-		
+    
 Find and display additional columns in the **column chooser**, located in the top right corner, next to the search bar.
 
 The options available to select are:
@@ -66,7 +66,7 @@ When the report is displayed, the following actions can be completed by clicking
 * **Export the report** as an **XLSX** or a **PDF file**
 * **Open related reports**
 
-**Access can be managed directly from the report** by selecting an object or a user, and choosing one of the available actions from the side panel.
+**Access can be managed directly from the report** by selecting an object or a user and choosing one of the available actions from the side panel.
 
 The following access management actions can be performed:
 * **Change Owners/Admins**
@@ -81,7 +81,7 @@ This report contains all external users (registered in your tenant and outside y
 
 ### Generate Report
 
-**Acccess this report from the Report Center**:
+**Access this report from the Report Center**:
 
  * **Click the Reports tile**; located on the SysKit Point home screen.
  * **Select the External Sharing category in the filter**; it can be found in the upper left corner.
@@ -92,14 +92,14 @@ This report contains all external users (registered in your tenant and outside y
 ### Report Data
 
 The default columns displayed in the report are:
-		
+    
 * **Name** of the user
 * **Site Name**
 * **Email**
 * **Username**
 * **Domain**
 * **Last Logged In** time
-		
+    
 There is one additional column available in the column chooser.
   * **Site Type**; shows the type of workspace for resource
 
@@ -108,9 +108,9 @@ There is one additional column available in the column chooser.
 
 The actions that can be taken here are the following:
 
-*	**Remove access for users** from a resource
-*	**Observe the last log in for users**
-*	**View which domain users are coming from**
+* **Remove access for users** from a resource
+* **Observe the last log-in for users**
+* **View which domain users are coming from**
 
 The External Users report can be **exported as PDF or XLSX file**. There is also the **option to schedule the report**.
 
@@ -128,12 +128,12 @@ This report can be accessed from:
 * The **details screen of specific resource**; clicking on the **Sharing Links tile**
 * The Report Center
 * **Other reports** available in SysKit Point 
-  * For example it is available in: **Permissions Matrix report, Externally Shared Content report, Unique Permissions report**
+  * For example, it is available in **Permissions Matrix report, Externally Shared Content report, Unique Permissions report**
 
 ### Report Data
 
-There are default columns displayed in the report which list the follwing:
-		
+There are default columns displayed in the report which list the following:
+    
 * **Name** of the resource
 * **URL**
 * **Link**
@@ -150,4 +150,4 @@ The following actions can be performed within the report:
 * **Remove sharing link**
 * **Remove user access**
 
-The Sharing Links report can be **exported as PDF or XLSX file**. There is also the **option to schedule the report**.
+The Sharing Links report can be **exported as a PDF or XLSX file**. There is also the **option to schedule the report**.

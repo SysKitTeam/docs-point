@@ -32,7 +32,7 @@ Site Analytics report provides an overview of all sites; it shows the total hits
 
 ### Analytics Report Data 
 
-Once the report has successfully generated, the following data will be available in the columns:
+Once the report has been successfully generated, the following data will be available in the columns:
 
 * **Site Name**; shows the site's name in the column. 
    * When selecting a site, the charts for that site showing Site Hits, Site Visitors, and Site Storage will be visible at the bottom of the screen.
@@ -40,12 +40,12 @@ Once the report has successfully generated, the following data will be available
 * **Total Hits**; shows the total number of hits the site had in the last seven days.
 * **Visitors**; shows the total number of unique visitors to the site.
 * **Size**; shows the total size of the site.
-* **Last Content Modified**; shows the date the site was last modified on.
+* **Last Content Modified**; shows the date the site was last modified.
 
-For detailed insight into data about a specific site, click on the Site Name. 
-  * The page that opens will show tiles with the sites General Info, Overview, Content, Permissions, Site Activity, User Activity, Documents Activity, and Pages Activity.
+For a detailed insight into data about a specific site, click on the Site Name. 
+  * The page that opens will show tiles with the site's General Info, Overview, Content, Permissions, Site Activity, User Activity, Documents Activity, and Pages Activity.
 
-The analytics can show data from the last 7 days, 14 days, 30 days or a chosen custom date period.
+The analytics can show data from the last seven days, 14 days, 30 days or a chosen custom date period.
 
 ## Site Structure Report
 
@@ -59,18 +59,18 @@ Use this report to display the structure of the SharePoint environment.
 
 * **Click the Reports tile**; it is located on the SysKit Point home screen.
 * **Select Audit Logs in the filter**; it can be found in the upper left corner.
-* **Click the Site Structure  report** to be redirected to the selection screen.
+* **Click the Site Structure report** to be redirected to the selection screen.
 * **Select one or multiple sites** for which to generate the report. 
-  * Once selected there are several options available to show content down to; Subsites, Document libraries & lists, Folders and Files, and folders. 
+  * Once selected, there are several options available to show content down to; Subsites, Document libraries & lists, Folders and Files, and folders. 
     * These are available in the dropdown menu from the additional filter on the bottom. 
-* **Click on the Run Report button** when finished with the seleetion.
+* **Click on the Run Report button** when finished with the selection.
 
 ### Site Structure Report Data
 
-Once the report has successfully generated, the following data will be available in the columns:
+Once the report has been successfully generated, the following data will be available in the columns:
 
-* **Name**; shows the name of the site and all the content in the structure down to files & folders.
-* **URL**; clicking on it, redirects to the site's exact location or the subsequent folders, subsites, etc.
+* **Name**; shows the site's name and all the structure's content down to files & folders.
+* **URL**; clicking on it redirects to the site's exact location or the following folders, subsites, etc.
 * **Last Modified**; shows the exact date the site was last modified.
 * **Created On**; shows the exact date when someone created the site or some of its structure.
 
@@ -81,7 +81,7 @@ The Site Structure report can be **exported as PDF and XLSX files**. There is al
 
 The Inactive Content report provides the ability to quickly detect unused sites, Microsoft 365 Groups, and Microsoft Teams in your Microsoft 365 environment. 
 
-This report can be used to stay up to date with any unused resources in the environment, in order to keep it clean and healthy.
+This report can be used to stay up to date with any unused resources in the environment in order to keep it clean and healthy.
 
 ### Generate Inactive Content Report
 
@@ -93,15 +93,15 @@ This report can be used to stay up to date with any unused resources in the envi
 
 ### Inactive Content Report Data
 
-When the report has successfully generated, all of the resources in your environment that are currently inactive can be found there. 
+When the report has been successfully generated, all of the currently inactive resources in your environment can be found there. 
 
-The Inactice Content report data can be **exported into PDF and XLSX formats**.
+The Inactive Content report data can be **exported into PDF and XLSX formats**.
 
 Select one or multiple resources to perform Lifecycle Management actions on those resources:
 
  * Choose to **Keep, Archive or Delete** the resources or ask the **owner to Renew** the resources. 
 
-When any of those actions is completed on a resource, it will no longer be visible on the Inactive Content Report.
+When any of those actions are completed on a resource, it will no longer be visible on the Inactive Content Report.
 
 When looking at the generated reports, the following columns can be found:
 
@@ -111,7 +111,7 @@ When looking at the generated reports, the following columns can be found:
 
 ## SharePoint Activity Report
 
-SharePoint Activity report **provides a detailed overview of SharePoint usage**. It offers insight on the most active users, most popular sites, documents, or pages. 
+SharePoint Activity report **provides a detailed overview of SharePoint usage**. It offers insight into the most active users, most popular sites, documents, or pages. 
 
 This report can be used to **track the adoption of SharePoint** in your environment.
 
@@ -127,7 +127,7 @@ To see this report, **the Adoption and Analytics module** needs to be installed 
 * **Click the Reports tile**; located on the SysKit Point home screen.
 * **Select Analytics in the filter**; located in the upper left corner.
 * **Click the SharePoint Activity report** to be redirected to the **Selections screen**.
-  * **Select which resource** the report should be generated for, and select the time period on the botton filter.
+  * **Select which resource** the report should be generated for, and select the time period on the bottom filter.
 * **Click the Run Report button**.
 
 ### SharePoint Activity Report Data
@@ -145,7 +145,7 @@ The number of Unique Visitors, the most popular days, which type of devices the 
 
 The Most Popular Content report makes it easy to **identify the most popular documents and pages** in your Microsoft 365 environment.
 
-To see this report, the Adoption and Analytics module needs to be installed in SysKit Point.
+To view this report, the Adoption and Analytics module needs to be installed in SysKit Point.
 
 ### Generate Most Popular Content Report
 
@@ -163,7 +163,7 @@ The Most Popular Content report can be **exported as PDF and XLSX files**. There
 
 The columns that are seen by default are:
 
-- **Name**; shows the name of the page or the document. 
+- **Name**; shows the name of the page or document. 
   * When clicked on, it redirected to the details page of that page or document in SysKit Point.
 - **Site Name**; shows the name of the resource where the most popular document is. 
   * When clicked on, it redirects to the site details page in Syskit Point.
@@ -172,7 +172,7 @@ The columns that are seen by default are:
 
 ## Meeting Interactions Report
 
-The Meeting Interactions report provides the option to explore how people interact in Microsoft Teams via 1:1 calls and meetings.
+The Meeting Interactions report allows the exploration of how people interact in Microsoft Teams via 1:1 calls and meetings.
 
 This report is can be used to see how users are adopting Microsoft Teams in your environment.
 
@@ -214,7 +214,7 @@ When the report is generated, the connection tree of all users in the selected e
 
 ## Network Interaction Details Report
 
-Network Interaction Details reports provides insight into details about members' interactions via meetings or conversations.
+Network Interaction Details report provides insight into details about members' interactions via meetings or conversations.
 
 To see this report, the Adoption and Analytics module needs to be installed in SysKit Point.
 
@@ -231,7 +231,7 @@ To see this report, the Adoption and Analytics module needs to be installed in S
 
 Once the report is generated, the details about members' interactions through meetings or conversations can be seen. 
 
-The Network Interaction Details  report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+The Network Interaction Details report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
 Network Interaction Details report is a tree-type style report that shows the user as a Parent branch and all other users they interacted with as a Child branch. 
 
