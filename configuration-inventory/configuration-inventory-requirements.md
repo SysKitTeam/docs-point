@@ -5,8 +5,10 @@ description: This article lists the requirements necessary to successfully deplo
 # Configuration Inventory Requirements
 
 ## Connect Service Account
-To collect Microsoft Teams-related data, you need to connect a service account in SysKit Point for the Configuration Inventory module. 
-**The service account should have the Teams Administrator Azure AD role assigned**.
+To collect Microsoft Teams-related data, you need to **connect a service account in SysKit Point for the Configuration Inventory module**. 
+When preparing a dedicated service account, consider the following requirements:
+* **service account should have the Teams Administrator Azure AD role assigned**
+* **multi-factor authentication is disabled for the service account**
 
 To connect the service account in SysKit Point:
 * navigate to Settings > General > Connected Tenant (1)
