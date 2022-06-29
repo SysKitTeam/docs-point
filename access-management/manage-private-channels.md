@@ -87,3 +87,35 @@ The **Members tile (1)** shows a list of all members and owners available, and t
 **Please note!**  
 After making these changes to private channels in SysKit Point, it could take up to a few hours for the changes to show in the SharePoint admin center.
 {% endhint %}
+
+## Private Channels Report
+
+Private Channels can also be included in reports. This can be useful when there are multiple private channels to be managed.
+
+The Teams with Private Channels report can be generated through these steps:
+
+* **Click the Reports tile**; located on the SysKit Point home screen.
+* **Select Microsoft Teams & Groups in the filter**; located in the upper left corner.
+* **Click the Microsoft Teams with Private Channels report** to generate the report.
+
+The report has two columns, **Name** and **Role**. The column chooser, located on the top right side of the report, offers additional columns that can be added:
+
+ * **Email**
+ * **URL**
+ * **Is External User**
+
+The following actions can be completed from this report:
+
+ * **Selecting the private channel (1)** provides information on who created the channel and when.
+ * **Selecting an owner (2)** provides the options to:
+   * **Remove from Channel**
+   * **Change to Member**
+ * **Selecting a member (3)** provides the options to:
+   * **Remove from Channel**
+   * **Promote to Owner** 
+
+ ![Manage Private Channels - Members Tile](../.gitbook/assets/manage-private-channels_report.png)
+
+The Microsoft Teams with Private Channels report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+
+The **User Access report** also provides the option to select a user from a private channel and then **Remove from Channel** on the right side of the screen. 
