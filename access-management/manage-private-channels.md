@@ -90,7 +90,7 @@ After making these changes to private channels in SysKit Point, it could take up
 
 ## Private Channels Report
 
-All private channels are included in the Teams with Private Channels report. This is useful when there are multiple private channels to be managed and kept up to date.
+All private channels are included in the Teams with Private Channels report. This is useful when there are multiple private channels to manage and keep up to date.
 
 The Teams with Private Channels report can be generated through these steps:
 
