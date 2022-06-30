@@ -90,7 +90,7 @@ After making these changes to private channels in SysKit Point, it could take up
 
 ## Private Channels Report
 
-Private Channels can also be included in reports. This can be useful when there are multiple private channels to be managed.
+All private channels are included in the Teams with Private Channels report. This is useful when there are multiple private channels to be managed and kept up to date.
 
 The Teams with Private Channels report can be generated through these steps:
 
@@ -117,5 +117,3 @@ The following actions can be completed from this report:
  ![Manage Private Channels - Members Tile](../.gitbook/assets/manage-private-channels_report.png)
 
 The Microsoft Teams with Private Channels report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
-
-The **User Access report** also provides the option to select a user from a private channel and then **Remove from Channel** on the right side of the screen. 
