@@ -6,6 +6,13 @@ description: This article provides information on managing who has access or is 
 
 This article will help set up and manage who the owners and members are for private channels in Microsoft Teams. 
 
+{% hint style="warning" %}
+**Please note!**  
+The following users can manage private channels access:
+  * **Global administrator**
+  * **Private channel owner**
+{% endhint %}
+
 There are several ways to manage and change the access to private channels from within SysKit Point.
 
 ## Access Private Channels Details 
@@ -14,7 +21,7 @@ To manage private channel access, complete the following:
 
 * **Click the Microsoft Teams & Groups tile (1)**; this is located on the home screen of SysKit Point. 
 * **Select the team or group to manage (2)**; clicking the selected resource opens the details screen.
-* On the details screen, **scroll to the Channels section (3)**; the private teams and groups will be marked by a lock symbol next to their name. 
+* On the details screen, **scroll to the Channels section (3)**; the private channels will be marked by a lock symbol next to their name. 
 * **Click the private channel (4)**; this opens the details screen of the channel.
 
 ![Private Channels Access - Microsoft Teams & Groups](../.gitbook/assets/manage-private-channels_teams-and-groups-access.png)
@@ -24,7 +31,7 @@ Another way to access private channels is through the **Sites screen** by taking
 * **Click the Sites tile (1)**; located on the home screen of SysKit Point. 
 * **Select the site to manage (2)**; the private channel site is marked with a lock symbol near its name. 
   * Clicking the selected site opens the details screen.
-* **Under General Information (3)** click on the resource shown under **Related Channel (4)**.  
+* **Under General Information (3)** click the resource shown under **Related Channel (4)**.  
   * This opens the details screen of the private channel.
 
   
@@ -34,7 +41,7 @@ Another way to access private channels is through the **Sites screen** by taking
 
 When the **private channel details screen** opens, two options are listed on the right side of the screen under **Manage**.
 
- * **Add Owners/Members (1)**; allows adding new members to the private channel. The new members can also be set as Owners.
+ * **Add Owners/Members (1)**; allows adding new members to the private channel. The new members can also be set as owners.
  * **Change Owners (2)**; provides the option to remove current owners or promote current members to owners. 
 
  ![Manage Private Channels - Options Panel](../.gitbook/assets/manage-private-channels_options-side.png)
@@ -48,7 +55,7 @@ Clicking the **Add Owners/Members** button opens a pop-up that provides the foll
    * If the change is unsuccessful, the notification states that the action was **completed with errors** and has **failed**. 
    * Clicking **check details** will redirect to the **Action Details screen** with a detailed log of all changes. 
 
-  {% hint style="warning" %}
+{% hint style="warning" %}
 **Please note!**  
 To add members to a private channel, the selected user must already be a member of the Microsoft Teams where the private channel is located. 
 {% endhint %}
@@ -117,3 +124,8 @@ The following actions can be completed from this report:
  ![Manage Private Channels - Members Tile](../.gitbook/assets/manage-private-channels_report.png)
 
 The Microsoft Teams with Private Channels report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+
+## Related Articles 
+
+* [Supervise Microsoft Teams Private Channels](../access-management/supervise-microsoft-teams-private-channels.md)
+* [Enable Microsoft Teams Activity Tracking](../configuration/microsoft-teams-activity.md)
