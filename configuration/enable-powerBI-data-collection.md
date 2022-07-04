@@ -10,14 +10,14 @@ Enabling Power BI data collection for SysKit Point requires initial setup throug
 
  * **Click the Azure Active Directory (1)**; on the Home page of your Azure portal. 
  * **Select Groups (2)**; located under the Manage section on the left side of the screen. Select Groups
- * **Click the New Group button (3)** on the top bar. 
+ * **Click the New group button (3)** on the top bar. 
  
 ![Azure Active Directory - Create New Group](../.gitbook/assets/enable-powerbi-data-collection_aad-newgroup.png)
 
 Fill out the following details when creating the new group:
 
  * Under **Group Type (1)**, select **Security (2)**
- * **Name(3)** the group **PowerBI Group** or similar
+ * **Name (3)** the group **PowerBI Group** or similar
  * For the **Group Description (4)** list the purpose of the new group
  * Set the **toggle as NO** when asked whether Azure AD roles can be assigned to the group
  * Set the Membership Type as **Assigned (5)**
