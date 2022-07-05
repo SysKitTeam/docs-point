@@ -10,7 +10,7 @@ Enabling Power BI data collection for SysKit Point requires initial setup throug
 
  * **Click the Azure Active Directory (1)**; on the Home page of your Azure portal. 
  * **Select Groups (2)**; located under the Manage section on the left side of the screen. Select Groups
- * **Click the New group button (3)** on the top bar. 
+ * **Click the [New group button (3)](https://portal.azure.com/#view/Microsoft_AAD_IAM/AddGroupBlade)** on the top bar. 
  
 ![Azure Active Directory - Create New Group](../.gitbook/assets/enable-powerbi-data-collection_aad-newgroup.png)
 
@@ -22,9 +22,14 @@ Fill out the following details when creating the new group:
  * Set the **toggle as NO** when asked whether Azure AD roles can be assigned to the group
  * Set the Membership Type as **Assigned (5)**
  * Select the **Owners and Members (6)** of the Group
-   * Make sure the **SysKit Point Power Platform application** is selected as a member of this group
 
 ![Create New Security Group - Power BI](../.gitbook/assets/enable-powerBI-data-collection_create-newgroup.png)
+
+{% hint style="warning" %}
+**Please note!**  
+Make sure the **SysKit Point Power Platform application** is selected as a member of this group, as shown in the picture below. {% endhint %}
+
+![Create New Security Group - Power BI](../.gitbook/assets/enable-powerBI-data-collection_power-platform.png)
 
 Once created, the group can be found by going to **Azure Active Directory > Groups**.
 
@@ -34,7 +39,7 @@ Enter the name of the Power BI security group into **Search** to filter the list
 
 The next step is to configure Power BI tenant settings which can be done in the following way:
 
- * Open the **Power BI admin portal (1)** and log in.
+ * Open the **[Power BI admin portal (1)](https://app.powerbi.com/admin-portal/tenantSettings?language=en-US)** and log in.
  * Under **Tenant settings (2)**, scroll down to the **Admin API settings (3)** section. 
  
  ![Configure Power BI tenant](../.gitbook/assets/enable-powerBI-data-collection_powerbi-admin-portal.png)
