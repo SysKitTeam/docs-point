@@ -8,20 +8,20 @@ Enabling Power BI data collection for SysKit Point requires initial setup throug
 
 ## Create a Power BI Security Group 
 
- * **Click the Azure Active Directory (1)**; on the Home page of your Azure portal. 
+ * **Click the [Azure Active Directory (1)](https://portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview)**; on the Home page of your Azure portal. 
  * **Select Groups (2)**; located under the Manage section on the left side of the screen. Select Groups
- * **Click the [New group button (3)](https://portal.azure.com/#view/Microsoft_AAD_IAM/AddGroupBlade)** on the top bar. 
+ * **Click the New group button (3)** on the top bar. 
  
 ![Azure Active Directory - Create New Group](../.gitbook/assets/enable-powerbi-data-collection_aad-newgroup.png)
 
 Fill out the following details when creating the new group:
 
  * Under **Group Type (1)**, select **Security (2)**
- * **Name (3)** the group **PowerBI Group** or similar
+ * **Name (3)** the group **Power BI Group** or similar
  * For the **Group Description (4)** list the purpose of the new group
- * Set the **toggle as NO** when asked whether Azure AD roles can be assigned to the group
- * Set the Membership Type as **Assigned (5)**
- * Select the **Owners and Members (6)** of the Group
+ * Select the **Owners and Members (5)** of the Group
+   * Add the **SysKit Point Power Platform application** as a member of the security group
+ * **Click Create (6)** when finished
 
 ![Create New Security Group - Power BI](../.gitbook/assets/enable-powerBI-data-collection_create-newgroup.png)
 
@@ -39,7 +39,7 @@ Enter the name of the Power BI security group into **Search** to filter the list
 
 The next step is to configure Power BI tenant settings which can be done in the following way:
 
- * Open the **[Power BI admin portal (1)](https://app.powerbi.com/admin-portal/tenantSettings?language=en-US)** and log in.
+ * Open the **[Power BI admin portal (1)](https://app.powerbi.com/admin-portal/tenantSettings?language=en-US)** and sign in.
  * Under **Tenant settings (2)**, scroll down to the **Admin API settings (3)** section. 
  
  ![Configure Power BI tenant](../.gitbook/assets/enable-powerBI-data-collection_powerbi-admin-portal.png)
