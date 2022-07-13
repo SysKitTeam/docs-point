@@ -30,7 +30,7 @@ Depending on which version you are upgrading to, below you can find the list of 
 | :--- | :--- | :--- | :--- |
 | SysKit Point Service | Read the members of all channels | Application | Allows SysKit Point to collect membership data for private and shared channels. |
 | SysKit Point Permissions Loader | Read the members of all channels | Application | Allows SysKit Point to collect membership data for private and shared channels. |
-| SysKit Point Client | Add and remove members from channels | Dellegated | Enables users to manage private channels in SysKit Point. |
+| SysKit Point Client | Add and remove members from channels | Delegated | Enables users to manage private channels in SysKit Point. |
 
 Due to listed permission changes, **Global Admin is required to re-consent permissions**.
 
