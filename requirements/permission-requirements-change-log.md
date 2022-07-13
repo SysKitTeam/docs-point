@@ -20,7 +20,10 @@ Depending on which version you are upgrading to, below you can find the list of 
 ## SysKit Point 2022.4
 
 **The following app registration was added**:
-  * **SysKit Point Power Platform** - created during the upgrade to the new SysKit Point version; used to collect Power BI data
+  * **SysKit Point Power Platform**
+    * created during the upgrade to the new SysKit Point version
+    * used to collect Power BI data
+    * by default, no permissions are added
 
 **The following permissions were added to existing app registrations**:
 | App Registration | Permissions | Type | Reason |
