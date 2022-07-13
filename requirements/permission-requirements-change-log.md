@@ -17,6 +17,22 @@ To resolve this and ensure all the new features work properly, ask your Global A
 # Change Log
 Depending on which version you are upgrading to, below you can find the list of changes in permissions requested and which features depend on them.
 
+## SysKit Point 2022.4
+
+**The following app registration was added**:
+  * **SysKit Point Power Platform** - created during the upgrade to the new SysKit Point version; used to collect Power BI data
+
+**The following permissions were added to existing app registrations**:
+| App Registration | Permissions | Type | Reason |
+| :--- | :--- | :--- | :--- |
+| SysKit Point Service | Read the members of all channels | Application | Allows SysKit Point to collect membership data for private and shared channels. |
+| SysKit Point Permissions Loader | Read the members of all channels | Application | Allows SysKit Point to collect membership data for private and shared channels. |
+| SysKit Point Client | Add and remove members from channels | Dellegated | Enables users to manage private channels in SysKit Point. |
+
+Due to listed permission changes, **Global Admin are required to perform re-consent**.
+
+[To see the complete list of used App Registrations and assigned permissions, navigate to the Permission Requirements article](permission-requirements.md).
+
 ## SysKit Point 2022.3
 
 **The following app registration was added**:
