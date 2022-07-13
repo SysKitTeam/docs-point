@@ -39,6 +39,7 @@
   * [Customize Audit Logs Collection](configuration/customize-audit-logs-collection.md)
   * [Manage Role-Based Access](configuration/enable-role-based-access.md)
   * [Enable Microsoft Teams Activity Tracking](configuration/microsoft-teams-activity.md)
+  * [Enable Power BI Data Collection](configuration/enable-powerBI-data-collection.md)
   * [Ignore Service Account Activity Tracking](configuration/ignore-service-account-activity-tracking.md)
   * [Customize License Reports](configuration/customize-license-reports.md)
   * [Customize E-Mails](configuration/customize-emails.md)
