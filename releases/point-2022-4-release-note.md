@@ -40,8 +40,10 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
    * Find out which **internal and external members have access to Shared Channels**, their domain and content, and see whether any Team was added to a specific shared channel. 
 * Admins for private channels can now **remove, add or change owners and members** or promote members to owners directly in SysKit Point.
   * Learn more about [how to Manage Private Channels Access here](../access-management/manage-private-channels.md).
-* **Collaborators** can change the metadata when the checkbox **‘Allow collaborators to change this metadata value’** has been enabled for a column. 
-   * Global admins can change any metadata column. 
+* Global admins can **change any metadata column** and set up whether Collaborators can change any metadata columns as well. 
+   * **Collaborators** can change the metadata when the checkbox **‘Allow collaborators to change this metadata value’** has been enabled for a column. 
+   * It can be enabled for every custom metadata column created in SysKit Point.
+
 * **The External User Type** column is included in SysKit Point and provides **insight into users that are outside of an organization** but have access to content.  
    * It allows differentiating whether a user is a guest, ad hoc guest or shared channel user.  
    * This information is available on the Users Overview screen and needs to be selected from the Column Chooser. 
