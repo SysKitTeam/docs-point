@@ -2,6 +2,7 @@
 
 * [SysKit Point](README.md)
 * [Releases](releases/README.md)
+  * [SysKit Point 2022.4](releases/point-2022-4-release-note.md)
   * [SysKit Point 2022.3.1](releases/point-2022-3-1-release-note.md)
   * [SysKit Point 2022.3](releases/point-2022-3-release-note.md)
   * [SysKit Point 2022.2.3](releases/point-2022-2-3-release-note.md)
@@ -39,6 +40,7 @@
   * [Customize Audit Logs Collection](configuration/customize-audit-logs-collection.md)
   * [Manage Role-Based Access](configuration/enable-role-based-access.md)
   * [Enable Microsoft Teams Activity Tracking](configuration/microsoft-teams-activity.md)
+  * [Enable Power BI Data Collection](configuration/enable-powerBI-data-collection.md)
   * [Ignore Service Account Activity Tracking](configuration/ignore-service-account-activity-tracking.md)
   * [Customize License Reports](configuration/customize-license-reports.md)
   * [Customize E-Mails](configuration/customize-emails.md)
@@ -83,6 +85,7 @@
   * [Delete and Restore Users](access-management/delete-and-restore-users.md)
   * [View Permission Changes in Microsoft 365](access-management/view-permission-changes.md)
   * [Supervise Microsoft Teams Private Channels](access-management/supervise-microsoft-teams-private-channels.md)
+  * [Manage Private Channels Access](access-management/manage-private-channels.md)
 * [Configuration Inventory](configuration-inventory/README.md)
   * [Configuration Inventory Requirements](configuration-inventory/configuration-inventory-requirements.md)
   * [Get to Know Configuration Inventory](configuration-inventory/get-to-know/README.md)

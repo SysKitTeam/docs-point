@@ -68,6 +68,7 @@ To allow safer access to your Microsoft 365 tenant data and optimize the data sy
 | Permissions | Type | Reason |
 | :--- | :--- | :--- |
 | Read all audit log data | Application | Enables SysKit Point to access data used to determine the exact time of the last sign-in for guest users. |
+| Read the members of all channels | Application | Allows SysKit Point to collect membership data for private and shared channels. |
 | Read directory data | Application | Allows SysKit Point to autodiscover your sites, groups, and users. |
 | Read files in all site collections | Application | Enables SysKit Point to perform partial site syncs, containing changed files only.  |
 | Read and write all groups | Application | Allows SysKit Point to read Microsoft 365 Group data and show you reports based on that data. Additionally, it allows you to manage your groups from SysKit Point. |
@@ -102,6 +103,7 @@ The second app registration, **SysKit Point Client**, enables users to securely 
 
 | Permissions | Type | Reason |
 | :--- | :--- | :--- |
+| Add and remove members from channels | Delegated | Enables users to manage private channels in SysKit Point. |
 | Access directory as the signed-in user | Delegated | Allows SysKit Point to access your directory. |
 | Read and write directory data | Delegated | Allows SysKit Point to autodiscover your sites, groups, and users; allows license management actions to be performed. |
 | View users' email address | Delegated | Allows SysKit Point to log users in Microsoft Teams application. |
@@ -129,6 +131,7 @@ The second app registration, **SysKit Point Client**, enables users to securely 
 | Permissions | Type | Reason |
 | :--- | :--- | :--- |
 | Read all audit log data | Application | Enables SysKit Point to access data used to determine the exact time of the last sign-in for guest users. |
+| Read the members of all channels | Application | Allows SysKit Point to collect membership data for private and shared channels. |
 | Read directory data | Application | Allows SysKit Point to autodiscover your sites, groups, and users. |
 | Read files in all site collections | Application | Enables SysKit Point to perform partial site syncs, containing changed files only.  |
 | Read and write all groups | Application | Allows SysKit Point to read Microsoft 365 Group data and show you reports based on that data. Additionally, it allows you to manage your groups from SysKit Point. |
@@ -154,6 +157,14 @@ The second app registration, **SysKit Point Client**, enables users to securely 
 | Permissions | Type | Reason |
 | :--- | :--- | :--- |
 | Have full control on all sites | Application | Allows SysKit Point to read documents and list items in all site collections and show you reports based on that data. |
+
+### SysKit Point Power Platform
+By default, no permissions are added. 
+If Power BI data collection is configured, the following Admin API permissions are given through a specified security group:
+* read-only access to all the information available through Power BI admin APIs; for example, user names and emails, dataset and report detailed metadata
+* read-only access to detailed metadata about Power BI items; for example, responses from GetScanResult APIs will contain the names of dataset tables and columns
+
+[Read the following article to learn how to enable Power BI data collection in SysKit Point](../configuration/enable-powerBI-data-collection.md)
 
 ### Configuration Inventory Module
 
