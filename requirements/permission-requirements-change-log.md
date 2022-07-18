@@ -26,6 +26,7 @@ Depending on which version you are upgrading to, below you can find the list of 
     * by default, no permissions are added
 
 **The following permissions were added to existing app registrations**:
+
 | App Registration | Permissions | Type | Reason |
 | :--- | :--- | :--- | :--- |
 | SysKit Point Service | Read the members of all channels | Application | Allows SysKit Point to collect membership data for private and shared channels. |
