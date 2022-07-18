@@ -2,6 +2,8 @@
 description: This article provides a list of permission changes in SysKit Point app registrations through versions.
 ---
 
+# Change Log
+
 SysKit Point is constantly evolving and adding new features. Sometimes, we require additional consent from a Global administrator in your organization for these new features to work. This might be needed after you upgraded to the latest version of SysKit Point.
 
 ## How To Tell if Global Admin Re-Consent Is Needed After the Upgrade?
@@ -14,7 +16,6 @@ To resolve this and ensure all the new features work properly, ask your Global A
 ![Home Screen - Reconsent](../.gitbook/assets/permission-requirements-change-log_reconsent.png)
 
 
-# Change Log
 Depending on which version you are upgrading to, below you can find the list of changes in permissions requested and which features depend on them.
 
 ## SysKit Point 2022.4
@@ -26,6 +27,7 @@ Depending on which version you are upgrading to, below you can find the list of 
     * by default, no permissions are added
 
 **The following permissions were added to existing app registrations**:
+
 | App Registration | Permissions | Type | Reason |
 | :--- | :--- | :--- | :--- |
 | SysKit Point Service | Read the members of all channels | Application | Allows SysKit Point to collect membership data for private and shared channels. |
