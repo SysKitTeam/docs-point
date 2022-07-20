@@ -30,7 +30,7 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
 * Enabling Power BI data collection provides:
    * **List of all Power BI workspaces** and ability to explore all workspaces with a list of **reports, dashboards, datasets, and dataflows**, including information on **who created them, who the owner is, when it was last modified**, and more!
    * Option to check which **users have access to Power BI workspaces and reports** and their level of access. 
-   * Get insight into **users with a Power BI Pro license** assigned to them, the date **when the Power BI Pro license was assigned**, and when the **license was last used**. 
+   * Get insight into **users with a Power BI Pro license** assigned to them, the date **when the Power BI Pro license was assigned**, and when the **license was last used**. Data is available in the [new version of SysKit Point Power BI companion app](../power-bi-app/releases/power-bi-app-25-release-note.md).
    * The following **Power BI reports** have been added:
       * Power BI Inventory
       * Power BI Workspaces
