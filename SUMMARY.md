@@ -102,6 +102,7 @@
 * [SysKit Point Power BI Companion](power-bi-app/README.md)
   * [Releases](power-bi-app/releases/README.md)
     * [SysKit Point Power BI App 21](power-bi-app/releases/power-bi-app-21-release-note.md)
+    * [SysKit Point Power BI App 25](power-bi-app/releases/power-bi-app-25-release-note.md)
   * [Requirements](power-bi-app/requirements.md)
   * [Deploy SysKit Point Power BI App](power-bi-app/deploy-power-bi-app.md)
   * [Update SysKit Point Power BI App](power-bi-app/update-power-bi-app.md)
