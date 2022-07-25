@@ -26,6 +26,13 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
 
 ## Features
 
+{% hint style="warning" %}
+**Please note!**  
+Global admin re-consent is required after the upgrade to the 2022.4 version. [Learn more about permission changes here](../requirements/permission-requirements-change-log.md#syskit-point-20224).
+
+[SysKit Point Teams app upgrade](../governance-and-automation/syskit-point-teams-app.md#upgrade-syskit-point-teams-app) is required after the upgrade to the 2022.4 version. 
+{% endhint %}
+
 * **Power Platform data sync can now be enabled for SysKit Point.** Collect Power BI data and utilize it for **Access Reports**.
 * Enabling Power BI data collection provides:
    * **List of all Power BI workspaces** and ability to explore all workspaces with a list of **reports, dashboards, datasets, and dataflows**, including information on **who created them, who the owner is, when it was last modified**, and more!
@@ -47,12 +54,6 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
 * **The External User Type** column is included in SysKit Point and provides **insight into users outside of an organization** who have access to content.  
    * It allows differentiating whether a user is a guest, ad hoc guest or shared channel user.  
    * This information is available on the Users Overview screen and needs to be selected from the Column Chooser. 
-
-{% hint style="warning" %}
-**Please note!**  
-Global admin re-consent is required after the upgrade to the 2022.4 version. 
-[Learn more about permission changes here](../requirements/permission-requirements-change-log.md#syskit-point-20224).
-{% endhint %}
 
 ## Improvements & Bug Fixes
 
