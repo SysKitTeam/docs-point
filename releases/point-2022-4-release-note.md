@@ -28,8 +28,9 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
 
 {% hint style="warning" %}
 **Please note!**  
-* Global admin re-consent is required after the upgrade to the 2022.4 version. [Learn more about permission changes here](../requirements/permission-requirements-change-log.md#syskit-point-20224).
-* [SysKit Point Teams app upgrade](../governance-and-automation/syskit-point-teams-app.md#upgrade-syskit-point-teams-app) is required after the upgrade to the 2022.4 version. 
+Global admin re-consent is required after the upgrade to the 2022.4 version. [Learn more about permission changes here](../requirements/permission-requirements-change-log.md#syskit-point-20224).
+
+[SysKit Point Teams app upgrade](../governance-and-automation/syskit-point-teams-app.md#upgrade-syskit-point-teams-app) is required after the upgrade to the 2022.4 version. 
 {% endhint %}
 
 * **Power Platform data sync can now be enabled for SysKit Point.** Collect Power BI data and utilize it for **Access Reports**.
