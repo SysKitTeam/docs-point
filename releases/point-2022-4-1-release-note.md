@@ -8,9 +8,9 @@ description: This article lists new features, improvements, and bug fixes in Sys
 
 **Product version:** 2022.4.1
 
-**Build number:** 4
+**Build number:** 1
 
-**Release date:** May 16, 2022
+**Release date:** August 17, 2022
 
 ## Get the Latest Version
 
@@ -27,6 +27,12 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
 
 ## Features
 
+{% hint style="warning" %}
+**Please note!**  
+Global admin re-consent is required after the upgrade to the 2022.4.1 version. [Learn more about permission changes here](../requirements/permission-requirements-change-log.md#syskit-point-20224).
+
+{% endhint %}
+
 * **Added Access Review for Private Channels.**
   * The Members and Sharing steps of the Access Review task now include Private Channels. 
 
@@ -37,7 +43,10 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
 ## Improvements & Bug Fixes
 
 * **Admins can set limitations** on the maximum period a site can be kept by a user when completing Lifecycle Management tasks.
-  * By default, this is set to twelve months but can be changed in Settings by the admin.  
+  * By default, this is set to twelve months but can be changed in Settings by the admin, and two options can be selected:
+    * Selecting **the option of months** allows keeping the site between 1 and 12 months, depending on selected.
+    * Selecting the **option of indefinitely** allows keeping the site longer than the 12 months limitation. 
+
 
 * **Fixed a bug** where previously archived sites would still appear on Lifecycle Management tasks. 
 
