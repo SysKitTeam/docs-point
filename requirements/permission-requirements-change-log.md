@@ -18,6 +18,15 @@ To resolve this and ensure all the new features work properly, ask your Global A
 
 Depending on which version you are upgrading to, below you can find the list of changes in permissions requested and which features depend on them.
 
+
+
+## SysKit Point 2022.4.1
+
+**Additional permissions for the Access Review feature were added** to the existing app registrations regarding private channels support.
+
+Therefore, **a Global Admin will have to re-consent in the SysKit Point Welcome Home screen**.
+
+
 ## SysKit Point 2022.4
 
 **The following app registration was added**:
