@@ -1,5 +1,5 @@
 ---
-description: This article lists new reports available in SysKit Point Power BI app version 25.
+description: This article lists new reports available in SysKit Point Power BI app version 26.
 --- 
 
 # SysKit Point Power BI App 26
