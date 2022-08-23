@@ -6,7 +6,8 @@ description: This article gives site owners a complete overview of the Lifecycle
 # Resolve Lifecycle Management Tasks in SysKit Point
 
 * **Watch this short video for a quick start on Lifecycle Management tasks in SysKit Point**.
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/714449776?h=441fb200e5" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/714449776?h=441fb200e5" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+<br/>
 <a href="https://player.vimeo.com/video/714449776?h=441fb200e5" target="_blank">Click here to watch this video in full-screen mode</a>
 <br/>
 <br/>
