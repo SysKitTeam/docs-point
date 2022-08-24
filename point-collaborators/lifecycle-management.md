@@ -10,6 +10,7 @@ description: This article gives site owners a complete overview of the Lifecycle
 <br/>
 <a href="https://player.vimeo.com/video/714449776?h=441fb200e5" target="_blank">Click here to watch this video in full-screen mode</a>
 <br/>
+<br/>
 
 * **Continue with the article to find detailed information** on how to complete Lifecycle Management tasks in SysKit Point.
 <br/>
