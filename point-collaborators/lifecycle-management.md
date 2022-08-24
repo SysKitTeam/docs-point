@@ -12,7 +12,7 @@ description: This article gives site owners a complete overview of the Lifecycle
 <br/>
 <br/>
 
-* **Continue with the article to find detailed information** on how to complete Lifecycle Management tasks in SysKit Point.
+* **Continue with the article to find detailed information** on how to resolve Lifecycle Management tasks in SysKit Point.
 <br/>
 <br/>
 
