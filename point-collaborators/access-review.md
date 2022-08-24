@@ -4,6 +4,18 @@ description: This article provides a full overview of the automated Access Revie
 
 # Complete Access Review Tasks in SysKit Point
 
+
+* **Watch this short video for a quick start on Access Review tasks in SysKit Point**.
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/731363189?h=a68fb4c8a2" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+<br/>
+<br/>
+
+* **Continue with the article to find detailed information** on how to complete Access Review tasks in SysKit Point.
+<br/>
+<br/>
+
+## Access Review Tasks
+
 **Access review**, in the context of the Microsoft 365 environment, is an activity where a person responsible for a Microsoft 365 workspace verifies whether permissions are given to users inside \(internal\) and outside \(external\) of the company, comply with the organizational rules and guidelines.
 
 Some examples of such Microsoft 365 workspaces are: 
