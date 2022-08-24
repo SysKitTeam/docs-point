@@ -12,7 +12,7 @@ Access Review policies in SysKit Point enable you to define the following settin
 * **who should perform the review** - depending on the workspace type, you can select between various groups of users with privileged access, such as team owners, site admins, primary administrators, etc.
 * **the Access Review recurrence frequency** - not all workspaces in a Microsoft 365 environment are equally important; therefore, you can choose to repeat the Access Review process once for the most important workspaces or up to once a year for the workspaces that are not frequently changed or used or don't contain sensitive data
 
-Once created, **policies need to be applied to Microsoft Teams**, **Microsoft 365 Groups**, **sites**, and **OneDrive**in order **to start the automated Access Review process in SysKit Point**.
+Once created, **policies need to be applied to Microsoft Teams**, **Microsoft 365 Groups**, **sites**, and **OneDrive** in order **to start the automated Access Review process in SysKit Point**.
 
 In the sections below, you can find detailed instructions on creating and applying the Access Review policies in SysKit Point.
 
