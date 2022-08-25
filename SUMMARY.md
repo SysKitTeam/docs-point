@@ -115,6 +115,7 @@
   * [Turn On Auditing](faq/turn-on-auditing.md)
   * [Collect Microsoft 365 Data](faq/collect-office-365-data.md)
   * [Migrate Audit Logs](faq/migrate-lucene-to-cosmos.md)
+  * [Security Self Assessment Questionnaire](faq/security-self-assessment.md)
 * [Troubleshooting](troubleshooting/README.md)
   * [Export Diagnostic Logs](troubleshooting/export-diagnostic-logs.md)
   * [Setup Diagnostic Logs Export](troubleshooting/setup-diagnostic-logs-export.md)
