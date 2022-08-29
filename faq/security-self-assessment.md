@@ -1,6 +1,11 @@
 ---
-description: This article describes how we use the Consensus Assessments Initiative Questionnaire (CAIQ) to assess our security posture and provide transparency for security control.
+description: This article describes how we use the Consensus Assessments Initiative Questionnaire Lite (CAIQ-Lite) to assess our security posture and provide transparency for security control.
 ---
+
+We use the Consensus Assessments Initiative Questionnaire Lite (CAIQ-Lite) from the Cloud Security Alliance as a baseline mechanism to express our security posture in real terms and provide security control transparency.
+
+We've made this publicly available to help customers assess our security posture for their vendor management initiatives. Please get in touch with our security people at support@syskit.com if you have any questions or concerns.
+
 
 
 | Category | Control Heading | Original ID | Question | Answer | Comments | 
