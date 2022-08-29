@@ -111,6 +111,7 @@
   * [Create Custom Power BI Reports](power-bi-app/create-custom-reports.md)
 * [FAQ](faq/README.md)
   * [Security](faq/security.md)
+  * [Security Self Assessment Questionnaire](faq/security-self-assessment.md)
   * [Audit Logs](faq/audit.md)
   * [Turn On Auditing](faq/turn-on-auditing.md)
   * [Collect Microsoft 365 Data](faq/collect-office-365-data.md)
