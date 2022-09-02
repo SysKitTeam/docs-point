@@ -54,7 +54,7 @@ The **Create New Policy** dialog opens where you can define the following Access
     * **Files & folders**
 * **Description (6)** - shows summary info depending on selected options regarding memeberships (3) and content (4)
 * **Advanced Settings (7)** - define who will perform the access review 
-* **Save (8)** - click to Save the Access Review Policy when done with the configuration
+* **Save (8)** - click to Save the Access Review Policy when finished with the configuration
 
 ![Create New Policy Dialog](../../.gitbook/assets/create-access-review-policies_create-policy-dialog.png)
 
@@ -78,22 +78,26 @@ The following groups can be defined based on the workspace type:
 
 ## Apply Policies
 
-To apply created Access Review Policies, navigate to **Settings** > **Governance** > **Automated Workflows** and click the **Apply Policy button (1)**.
+To apply created Access Review Policies, navigate to **Settings** > **Governance** > **Automated Workflows** and click the **Manage Policies button (1)**.
 
-![Apply Policy Button](../../.gitbook/assets/create-access-review-policies_apply-policy-button.png)
+![Manage Policies Button](../../.gitbook/assets/create-access-review-policies_apply-policy-button.png)
 
 The **Apply Policy report opens**, enabling you to apply created policies to your **Microsoft Teams**, **Microsoft 365 Groups**, **OneDrive**, and **sites**. 
 
 To do so:
 * **Select \(1\)** one or multiple resources; you can easily filter them by applied policies with the help of **top tiles \(2\)**
-* **Click the Apply Policy action \(3\)**
+* **Click the Manage Policies action \(3\)**
+  * When multiple resources are selected, clicking the **arrowhead next to Manage Policies** provides a selection of the following actions to choose from: 
+    * **Apply Policy**
+    * **Remove Policy**
+    * **Remove All Policies**
 
-![Apply Policy](../../.gitbook/assets/create-access-review-policies_apply-policy.png)
+![Manage Policies](../../.gitbook/assets/create-access-review-policies_apply-policy.png)
 
 The **Apply Access Review Policy** dialog opens where you can:
 
 * **Choose one of your review policies \(1\)**
-* **Confirm your selection by clicking the Save button \2\)**
+* **Confirm your selection by clicking the Save button (2)**
 
 ![Apply Policy Dialog](../../.gitbook/assets/create-access-review-policies_apply-policy-dialog.png)
 
