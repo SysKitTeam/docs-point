@@ -23,7 +23,7 @@ Available actions for these templates are listed under the **Manage (3)** column
 
 You can create custom templates by clicking the **New Template (6)** button. 
  
-![Templates default screen](../.gitbook/assets/templates_default-screen.png)
+![Templates default screen](../../.gitbook/assets/templates_default-screen.png)
  
 ## Create a New Provisioning Template 
 
@@ -57,7 +57,7 @@ When creating a template for Microsoft Teams, you will need to define the follow
 
 * **Privacy (4)** – set if workspaces created using this template will be public or private. You can leave this decision to your end-users as well. 
 
-![Template for Microsoft Teams](../.gitbook/assets/templates_teams-template-1.png)
+![Template for Microsoft Teams](../../.gitbook/assets/templates_teams-template-1.png)
 
 * **Owners (5)** – allows multiple options: 
   * Predefine owners that are always added to this type of workspace 
@@ -69,7 +69,7 @@ When creating a template for Microsoft Teams, you will need to define the follow
   * Allow end-users to specify additional ones in addition to predefined users 
   * Leave this option completely to the end-user who is requesting a new workspace 
 
-  ![Template for Microsoft Teams](../.gitbook/assets/templates_teams-template-2.png)
+  ![Template for Microsoft Teams](../../.gitbook/assets/templates_teams-template-2.png)
 
 * **Sharing Settings (7)** - choose from available options:
   * Anyone
@@ -85,7 +85,7 @@ When creating a template for Microsoft Teams, you will need to define the follow
    * Site owners and members, and people with edit permission can share files and folders, but only owners can share the site.
    * Only site owners can share files, folders, and the site. 
 
-![Template for Microsoft Teams](../.gitbook/assets/templates_teams-template-3.png)
+![Template for Microsoft Teams](../../.gitbook/assets/templates_teams-template-3.png)
 
 * **Allow Access Requests (9)** - decides who receives access requests for all workspaces created from the template. The options are:
   * Owners
@@ -102,7 +102,7 @@ When creating a template for Microsoft Teams, you will need to define the follow
   * If no custom metadata was created, it can be set up directly in the form by selecting **Create New Custom Field**. 
   * For more information on managing and creating custom metadata, take a look at [this article](../manage-custom-metadata.md). 
 
-![Template for Microsoft Teams](../.gitbook/assets/templates_teams-template-4.png)
+![Template for Microsoft Teams](../../.gitbook/assets/templates_teams-template-4.png)
 
 * **Naming Rule (13)** – predefine suffix or prefix that will be added to a name of a workspace created using this template. 
    * For example, setting the prefix to **Marketing** results that each workspace created from this template will be named in a form **Marketing – (Request Name)**
@@ -138,7 +138,7 @@ When creating a template for Microsoft Teams, you will need to define the follow
      * Allow external senders to e-mail this group
      * Send copies of group conversations and events to group members
 
- ![Template for Microsoft Teams](../.gitbook/assets/templates_teams-template-5.png)
+ ![Template for Microsoft Teams](../../.gitbook/assets/templates_teams-template-5.png)
 
  * **Template availability (17)** – defines the group of users that are able to select the template when submitting requests for new workspaces.
    * Everyone - the template is available to all users in your organization
@@ -146,7 +146,7 @@ When creating a template for Microsoft Teams, you will need to define the follow
      * If selected, the condition type needs to be selected from the dropdown menu. 
 * When everything has been finalized click **Create Template (18)**.
 
- ![Template for Microsoft Teams](../.gitbook/assets/templates_teams-template-6.png)
+ ![Template for Microsoft Teams](../../.gitbook/assets/templates_teams-template-6.png)
 
 Once you complete this process, your new template will appear in the **Templates** list and will become visible for end-users in **SysKit Point Teams app** when requesting a new workspace. 
 
