@@ -16,9 +16,10 @@ Prepare the following for SysKit Point deployment:
 ## Azure Marketplace
 
 * start by opening the [SysKit Point product page](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit_point) on Azure Marketplace
-* click the __Get It Now button (1)__; a confirmation dialog opens
-* click the __Continue (2) button__; you will be redirected to Azure Portal
-* click __Create (3)__ to continue with the deployment configuration; __Create SysKit Point__ screen opens with the __Basics__ tab selected
+* Click the __Get It Now button (1)__; a confirmation dialog opens
+* Click the __Continue (2) button__; you will be redirected to Azure Portal
+* Select the **Plan (3)** from the dropdown menu
+* Click __Create (4)__ to continue with the deployment configuration; __Create SysKit Point__ screen opens with the __Basics__ tab selected
 
 ![SysKit Point on Azure Marketplace](../.gitbook/assets/deploy-syskit-point_get.png)
 ![Create App in Azure](../.gitbook/assets/deploy-syskit-point_continue.png)
@@ -81,7 +82,7 @@ Predefined ranges comply with the minimum requirements for SysKit Point resource
 If you decide to change the predefined values, **ensure that all subnets have 255 IP addresses reserved**.
 {% endhint %}
 
-__Click OK__ when you are done with the virtual network setup. 
+__Click OK__ when you finish the virtual network setup. 
 
 ![Create Virtual Network Screen](../.gitbook/assets/deploy-syskit-point_create-virtual-network.png)
 
@@ -124,15 +125,3 @@ Once activated, SysKit Point will guide you through the process of [connecting t
 * [Set Up Custom Domain and SSL Certificate](set-up-custom-domain-and-ssl-certificate.md)
 
 If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).
-
-
-
-
-
-
-
-
-
-
-
-
