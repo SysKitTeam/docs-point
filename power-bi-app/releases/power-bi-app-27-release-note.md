@@ -2,7 +2,7 @@
 description: This article lists new reports available in SysKit Point Power BI app version 27.
 --- 
 
-# SysKit Point Power BI App 26
+# SysKit Point Power BI App 27
 
 [Schedule a demo](https://www.syskit.com/products/point/request-a-demo/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
