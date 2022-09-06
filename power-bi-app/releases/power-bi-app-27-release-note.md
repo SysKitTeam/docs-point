@@ -25,7 +25,7 @@ SysKit Point Power BI app requires SysKit Point version 2022.4.1 or later to run
 
 ## Improvements
 
-* **SQL Query Timeout parameter added to SysKit Point Power BI app**. It enables you to define how long a SQL query can take before the SQL server times out during the sync process.
+* **SQL Query Timeout parameter added to SysKit Point Power BI app**. It enables you to define how long a SQL query can take before the connection times out during the sync process.
     
 
 
