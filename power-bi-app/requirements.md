@@ -40,6 +40,30 @@ Before running the SQL scripts listed below, open **SQL Server Management Studio
 To connect, use the SQL credentials created when [deploying SysKit Point](../installation/deploy-syskit-point.md).
 {% endhint %}
 
+### New Server Login
+Now that you have access from your client machine to the Azure SQL Server, you can create a new server login for the Power BI app.
+Before running the script on **master database**, **modify the password**.
+`
+CREATE LOGIN powerbireader
+	WITH PASSWORD = 'Password1234!'
+`
+
+### New Database User
+
+To create a new database user, **run the following script on the SysKitPointDB database**:
+`
+CREATE USER powerbireader
+	FOR LOGIN powerbireader
+	WITH DEFAULT_SCHEMA = PowerBI
+`
+
+### Grant SELECT on PowerBI Schema
+
+To grant the SELECT permission for the created database user, **run the following script on the SysKitPointDB database**:
+`
+GRANT SELECT ON Schema :: [PowerBI] TO powerbireader
+`
+
 ## Next Steps
 
 Once you are done with the configuration described in this article, [continue with the Power BI app deployment](deploy-power-bi-app.md).
