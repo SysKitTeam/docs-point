@@ -4,14 +4,18 @@ description: This article explains how to customize e-mails within SysKit Point.
 
 # Customize E-mails
 
-SysKit Point **allows you to customize e-mails** that will be **sent to site owners** as a part of **Access Review and Lifecycle Management Automation**.
+SysKit Point **provides the option to customize e-mails** that are **sent to site owners** as a part of **Access Review and Lifecycle Management Automation**. 
 
-You can customize the following aspects of e-mails:
+These emails can be **scheduled** to send at a specific time period. Certain areas can be modified to suit your needs. 
 
-* **logo**
-* **banner**
-* **subject**
-* **additional message in the body of the e-mail**
+Emails are used for **Access Review and Lifecycle Management** tasks and any policies created under **Automated Workflows**. They are also used for receiving reports that are available in the **Reports** section of SysKit Point. 
+
+The following aspects of the e-mails can be customized:
+
+* **Logo**
+* **Banner**
+* **Subject**
+* **Additional message in the body of the e-mail**
 
 These changes can be performed in three locations within SysKit Point Settings:
 
@@ -27,11 +31,11 @@ Only SysKit Point Admin users can customize e-mails.
 ## E-mail Settings
 
 In E-mail settings, you can define:
-    **A global logo** that will be used in all e-mails sent by SysKit Point
-    **A global e-mail banner** that will be used in all e-mails sent from SysKit Point
+ * **A global logo** that will be used in all e-mails sent by SysKit Point
+ * **A global e-mail banner** that will be used in all e-mails sent from SysKit Point
 
 To define a logo used in all e-mails:
-* **navigate to the E-mail Settings screen \(1\)**. 
+* **Navigate to the E-mail Settings screen \(1\)**. 
 * **Scroll down to see the Customize Logo section**
 * **Drag and drop your logo file \(2\)** to define your logo; keep in mind the supported file formats - JPEG and PNG
 * **Click Save \(3\)** to save your changes
@@ -39,7 +43,7 @@ To define a logo used in all e-mails:
 ![Customize Logo](../.gitbook/assets/customize-e-mail_define-logo.png)
 
 To define a banner used in e-mails:
-* **navigate to the E-mail Settings screen \(1\)**. 
+* **Navigate to the E-mail Settings screen \(1\)**. 
 * **Scroll down to see the Customize Banner section**
 * **Drag and drop your banner file** to define your banner; keep in mind the supported file formats - JPEG and PNG
 * **Drag the added image \(2\)** to adjust the position
@@ -60,7 +64,8 @@ To define a banner used in e-mails:
 Customizing the Access Review e-mail is possible only if the Automated Access Review feature is enabled. For more information on that topic, visit the [following article](../governance-and-automation/permissions-review/enable-permissions-review.md).
 {% endhint %}
 
-To customize the Access Review e-mail, first, **navigate to Settings** > **Governance** > **Access Review Options\(1\)**.
+To customize the Access Review e-mail, first, navigate to **Settings** > **Governance** > **Access Review Options \(1\)**. 
+
 Here you can:
 * **Customize the Access Review e-mail \(2\)** by clicking Customize e-mail button 
 * **Preview the Access Review e-mail \(3\)**
@@ -94,6 +99,7 @@ The Preview dialog opens, as shown in the image below.
 Similar to the Access Review e-mail customization, there is an option to customize Lifecycle Management e-mails.
 
 To customize the Lifecycle Management e-mail, **navigate to Settings** > **Governance** > **Lifecycle Management \(1\)**.
+
 Here you can:
 * **Customize the Lifecycle Management e-mail \(2\)** by clicking Customize e-mail button 
 * **Preview the Lifecycle Management e-mail \(3\)**
