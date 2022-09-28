@@ -6,7 +6,7 @@ description: This article describes how SysKit Point enables you to track Micros
 
 **SysKit Point** enables you to easily **discover which of your Microsoft Teams are not being actively used**. 
 
-This provides regular insight on when a workspace should be assessed to determine any possible value for the future with options to **keep, archive or delete the workspace**. These reviews can be **automated** and will be sent to owners after a selected period of time.
+This provides regular insight on when a workspace should be assessed to determine any possible value for the future with options to **keep, archive or delete the workspace**. These reviews can be **automated** and will be sent to owners when SysKit Point detects a workspace is inactive.
 
  To start collecting all the necessary data, first, the SysKit Point Admin has to **send a request to access Protected APIs in Microsoft Teams**. Protected APIs make it possible for SysKit Point to **detect inactive Microsoft Teams based on the date of the last message.**
 
