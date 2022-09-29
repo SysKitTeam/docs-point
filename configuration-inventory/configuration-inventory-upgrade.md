@@ -15,14 +15,14 @@ After you **open the latest Release note**, **click** the **Deploy Configuration
 {% hint style="warning" %}
 **Please note!**
 When entering the App service name, **make sure NOT to enter the app service name ending with '-BE'**. 
-**Entering the backend app service name in the upgrade process may results in an invalid upgrade.**
+**Entering the backend app service name in the upgrade process may result in an invalid upgrade.**
 {% endhint %}
 
 The **Custom deployment** screen in Azure Portal opens. 
 Here you need to:
 * **Select the Resource group (1)** wherein the current SysKit Point version is deployed
 * **Select Region (2)** - use the location of your currently deployed SysKit Point resources
-* **Enter App service Name (3)** - enter the App Service resource Name; you can **find the App Service name (5)** by navigating to the Overview screen of SysKit Point resource group
+* **Enter App service Name (3)** - enter the App Service resource Name; you can **find the App Service name (5)** by navigating to the Overview screen of the SysKit Point resource group
 * **Click Next: Review + create > (4)** - Review + create screen opens showing entered data; check that the entered data is correct and click **Create**
 
 ![Azure Portal - Custom Deployment](../.gitbook/assets/upgrade-syskit-point_custom-deployment.png)
@@ -36,6 +36,6 @@ After the deployment is completed, you can:
 
 {% hint style="info" %}
 **Hint!**  
-Use the [What's new](https://www.syskit.com/products/point/whats-new/) page as an additional source of information on new features available in the latest version of SysKit Point and Configuration Inventory module.
+Use the [What's new](https://www.syskit.com/products/point/whats-new/) page as an additional source of information on new features available in the latest version of the SysKit Point and Configuration Inventory module.
 {% endhint %}
 
