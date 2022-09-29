@@ -9,9 +9,8 @@ Since **SysKit Point**, and all available features and modules, are frequently g
 
 ## Upgrading to the Latest Version
 
-<!--TODO - change this part, especially the screenshot -->
-After you **open the latest Release note**, **click** the **Deploy to Azure button (1)**.
-![Deploy to Azure Button](../.gitbook/assets/upgrade-syskit-point_deploy-button.png)
+After you **open the latest Release note**, **click** the **Deploy Configuration Inventory button (1)**.
+![Deploy Configuration Inventory Button](../.gitbook/assets/configuration-inventory-upgrade_deploy.png)
 
 {% hint style="warning" %}
 **Please note!**
