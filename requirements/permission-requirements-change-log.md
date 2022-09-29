@@ -18,6 +18,21 @@ To resolve this and ensure all the new features work properly, ask your Global A
 
 Depending on which version you are upgrading to, below you can find the list of changes in permissions requested and which features depend on them.
 
+## SysKit Point 2022.5
+
+Due to [Outlook REST APIs being fully decommissioned on November 30, 2022](https://devblogs.microsoft.com/microsoft365dev/outlook-rest-api-v2-0-deprecation-notice/),  **with version 2022.5**, **SysKit Point migrates to Microsoft Graph API**. **The newly added permissions listed below are used to send all automatic and on-demand emails in SysKit Point**.
+
+**Global Admin must re-consent permissions after the upgrade to SysKit Point 2022.5**. 
+
+**The following permissions were added to the existing SysKit Point service app registration**:
+| App Registration | API/ Permissions Name | Permission | Type | Reason |
+| :--- | :--- | :--- | :--- |
+| SysKit Point Service | Microsoft Graph/Mail.ReadWrite | Read and write mail in all mailboxes | Application | Allows SysKit Point to send emails as a part of the Access Review, Lifecycle Management, Scheduled Reports, Alerts, and other features. |
+| SysKit Point Service | Microsoft Graph/Mail.Send | Send mail as any user | Application | Allows SysKit Point to send emails as a part of the Access Review, Lifecycle Management, Scheduled Reports, Alerts, and other features. |
+
+**The following permissions were removed from the existing SysKit Point service app registration**:
+| App Registration | API/ Permissions Name | Permission | Type | Reason |
+| SysKit Point Service | Microsoft 365 Exchange Online/Mail.Send | Send mail as any user | Application | Allows SysKit Point to send emails as a part of the Access Review, Lifecycle Management, Scheduled Reports, and Alerts features. |
 
 
 ## SysKit Point 2022.4.1
@@ -34,6 +49,10 @@ Therefore, **a Global Admin will have to re-consent in the SysKit Point Welcome 
     * created during the upgrade to the new SysKit Point version
     * used to collect Power BI data
     * by default, no permissions are added
+
+Due to listed permission changes, **Global Admin is required to re-consent permissions**.
+
+[To see the complete list of used App Registrations and assigned permissions, navigate to the Permission Requirements article](permission-requirements.md).
 
 **The following permissions were added to existing app registrations**:
 

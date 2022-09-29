@@ -2,6 +2,7 @@
 
 * [SysKit Point](README.md)
 * [Releases](releases/README.md)
+  * [SysKit Point 2022.5](releases/point-2022-5-release-note.md)
   * [SysKit Point 2022.4.1](releases/point-2022-4-1-release-note.md)
   * [SysKit Point 2022.4](releases/point-2022-4-release-note.md)
   * [SysKit Point 2022.3.1](releases/point-2022-3-1-release-note.md)
@@ -89,6 +90,7 @@
   * [Manage Private Channels Access](access-management/manage-private-channels.md)
 * [Configuration Inventory](configuration-inventory/README.md)
   * [Configuration Inventory Requirements](configuration-inventory/configuration-inventory-requirements.md)
+  * [Upgrade Configuration Inventory Module](configuration-inventory/configuration-inventory-upgrade.md)
   * [Get to Know Configuration Inventory](configuration-inventory/get-to-know/README.md)
     * [Create Snapshot](configuration-inventory/get-to-know/create-snapshot.md)
     * [Enable Automatic Snapshots](configuration-inventory/get-to-know/enable-automatic-snapshots.md)
