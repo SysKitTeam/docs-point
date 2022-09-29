@@ -38,12 +38,16 @@ See detailed step-by-step instructions on how to upgrade Configuration Inventory
 {% hint style="warning" %}
 **Please note!**  
 Global admin re-consent is required after the upgrade to the 2022.5 version. [Learn more about permission changes here](../requirements/permission-requirements-change-log.md#syskit-point-20225).
-
 {% endhint %}
 
 
 
 
 ## Improvements & Bug Fixes
+
+{% hint style="warning" %}
+**Please note!**  
+Please [upgrade the Configuration Inventory module](../configuration-inventory/configuration-inventory-upgrade.md) to get the latest improvements and bug fixes delivered in the latest version.
+{% endhint %}
 
 * **Configuration Inventory error handling was improved** to simplify troubleshooting in case something goes wrong during a snapshot. Additionally, a bug was fixed where the Configuration Inventory snapshot would result in a `NullReferenceException` error when collecting Conditional Access Policies and Anti-Phish Policies information. 
