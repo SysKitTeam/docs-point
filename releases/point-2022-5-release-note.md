@@ -46,3 +46,4 @@ Global admin re-consent is required after the upgrade to the 2022.5 version. [Le
 
 ## Improvements & Bug Fixes
 
+* **Configuration Inventory error handling was improved** to simplify troubleshooting in case something goes wrong during a snapshot. Additionally, a bug was fixed where the Configuration Inventory snapshot would result in a `NullReferenceException` error when collecting Conditional Access Policies and Anti-Phish Policies information. 
