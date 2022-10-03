@@ -28,6 +28,7 @@
   * [Set Up Custom Domain and SSL Certificate](installation/set-up-custom-domain-and-ssl-certificate.md)
   * [Upgrade SysKit Point](installation/upgrade-syskit-point.md)
   * [Azure Networking](installation/azure-networking.md)
+  * [Managed Identity Authentication](installation/managed-identity-authentication.md)
 * [Activation](activation/README.md)
   * [Activate SysKit Point](activation/activate-syskit-point.md)
   * [Activation Privacy Statement](activation/activation-privacy-statement.md)
