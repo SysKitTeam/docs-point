@@ -10,7 +10,7 @@ description: This article lists new features, improvements, and bug fixes in Sys
 
 **Build number:** xxx
 
-**Release date:** Oct 15, 2022
+**Release date:** Oct 24, 2022
 
 ## Get the Latest Version
 
@@ -89,13 +89,13 @@ The switch was done due to the Outlook REST APIs being fully decommissioned on N
 * **Channel details screen fixed** to work with channels containing no folders. Before, the channel details screen for such channels would load indefinitely.
 
 * **Various UX/UI improvements and minor fixes are available**. 
-* **Access Review** and **Lifecycle Management emails now show a link to an instructional video** to help first-time users complete their tasks.
-* SysKit Point now has **improved support for users utilizing the browser translation tools**.
-* **Fixed an issue** where the upgrade banner showing that a new SysKit Point version is available would not show in newer SysKit Point versions after once being closed.
-* **Fixed a bug** where the Licenses Overview report would always show USD currency instead of the currency defined in License Reports settings.
-* **Fixed a bug** where people picker would incorrectly show M365 Group icon for Microsoft Teams. 
-* **Fixed an issue** where the number of inactive workspaces displayed on the Dashboard would differ from the one shown in the Inactive Content report.
-* **Fixed a bug** where Global Viewers would get an Internal Server Error instead of the Access Denied message when accessing the Settings screen. 
+    * **Access Review** and **Lifecycle Management emails now show a link to an instructional video** to help first-time users complete their tasks.
+    * SysKit Point now has **improved support for users utilizing the browser translation tools**.
+    * **Fixed an issue** where the upgrade banner showing that a new SysKit Point version is available would not show in newer SysKit Point versions after once being closed.
+    * **Fixed a bug** where the Licenses Overview report would always show USD currency instead of the currency defined in License Reports settings.
+    * **Fixed a bug** where people picker would incorrectly show M365 Group icon for Microsoft Teams. 
+    * **Fixed an issue** where the number of inactive workspaces displayed on the Dashboard would differ from the one shown in the Inactive Content report.
+    * **Fixed a bug** where Global Viewers would get an Internal Server Error instead of the Access Denied message when accessing the Settings screen. 
 
 
 
