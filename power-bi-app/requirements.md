@@ -9,6 +9,8 @@ Before you begin ensuring that the requirements for the Azure Power BI app are m
 * **You have the Azure SQL Server name and Server admin credentials on hand**
 {% endhint %}
 
+## Enable SQL authentication
+
 For the Power BI app to access SysKit Point data, the following steps need to be completed:
 
 * **Allow access to Azure SQL Server for Power BI app and client machine**
@@ -32,14 +34,18 @@ To do so:
 ![Azure SQL - Adding IPv4 address](../.gitbook/assets/power-bi-requirements_sql-server-IP.png)
 ![Azure SQL - Allowing Azure services and resources](../.gitbook/assets/power-bi-requirements_sql-server-azure.png)
 
+## Change to Active Directory for the SQL server
+
 The next step that should be completed while setting up the Azure SQL server is the following:
 
-* On the home page of the SQL server, under **Features**, click the **Active Directory admin** bubble
-  * The **Azure Active Directory** site will open
-* **Deselect** the Support only Azure Active Directory authentication for this server
+* On the home page of the SQL server, under **Features**, click the **Active Directory admin** option
+  * The **Azure Active Directory (1)** site will open
+* **Deselect (2)** the Support only Azure Active Directory authentication for this server
   * This option needs to be turned off and is located under the Azure Active Directory authentication section
-* After that, the SQL authentification can be used normally 
+* **Click Save (3)** to  finalize 
+  * After that, the SQL authentification can be used normally 
 
+![Azure SQL - authentication for server](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication_sql-server-allow-sql-auth.png)
 
 ## Creating Server Login and Database User for Power BI App
 
