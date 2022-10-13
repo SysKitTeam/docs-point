@@ -4,7 +4,7 @@ description: This article explains how to connect a service account to SysKit Po
 
 ## Connect Service Account
 
-**Service accounts** in SysKit Point are utilized for the Configuration Inventory module, using sensitivity labels for templates and other available features. 
+**Service accounts** in SysKit Point are utilized for the Configuration Inventory module, using sensitivity labels in provisioning templates and other available features. 
 
 To connect the service account in SysKit Point:
 * **Navigate to Settings** > **General** > **Connected Tenant**
@@ -12,14 +12,13 @@ To connect the service account in SysKit Point:
 
 Once the Connect Service Account option is turned on, you can choose how to connect and authenticate your service account.
 
-The two options are the following:
+Two options are available:
 
-* **Enter credentials (2)** for the service account
-* **Multi-factor authentication (3)** with Microsoft Authentication Flow
+* **Enter credentials (2)** option - service account should not have multi-factor authentication enabled
+* **Login with Microsoft Authentication Flow (3)** - supports a service account with **Multi-factor authentication enabled** 
 
 ![Connect Service Account](../.gitbook/assets/connect-service-account_toggle.png)
 
-If multi-factor authentication is selected, you will need to log in with Microsoft Authentication Flow. 
   * To enable multi-factor authentication, follow the instructions in [this article](https://support.microsoft.com/en-us/office/set-up-your-microsoft-365-sign-in-for-multi-factor-authentication-ace1d096-61e5-449b-a875-58eb3d74de14).
 
 
