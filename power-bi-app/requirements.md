@@ -9,11 +9,10 @@ Before you begin ensuring that the requirements for the Azure Power BI app are m
 * **You have the Azure SQL Server name and Server admin credentials on hand**
 {% endhint %}
 
-## Enable SQL authentication
-
 For the Power BI app to access SysKit Point data, the following steps need to be completed:
 
 * **Allow access to Azure SQL Server for Power BI app and client machine**
+* **Enable SQL authentication on Azure SQL Server**
 * **Create a SQL Server Login and Database User for the Power BI app**
 * **Grant select permission on Power BI schema for the created Power BI user**
 
@@ -34,7 +33,7 @@ To do so:
 ![Azure SQL - Adding IPv4 address](../.gitbook/assets/power-bi-requirements_sql-server-IP.png)
 ![Azure SQL - Allowing Azure services and resources](../.gitbook/assets/power-bi-requirements_sql-server-azure.png)
 
-## Change to Active Directory for the SQL server
+## Enable SQL Authentication on Azure SQL Server
 
 The next step that should be completed while setting up the Azure SQL server is the following:
 

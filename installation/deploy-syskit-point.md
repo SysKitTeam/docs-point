@@ -62,7 +62,7 @@ Define the following on the __Azure SQL settings__ tab:
 * __click Next (5)__ to move to the __Review + create__ tab
 
 {% hint style="warning" %}
-**Please note!** This is mandatory in order to **provision a new SQL server** as this is a Microsoft requirement. Without the SQL credentials, it would not be possible to create the SQL server; however, after the initial deployment, the credentials will not be used again. The SQL authentification is disabled, and Managed Identity authorization will be used in the future. 
+**Please note!** This is mandatory in order to **provision a new SQL server** as this is a Microsoft requirement. Without the SQL credentials, it would not be possible to create the SQL server; however, after the initial deployment, the credentials will not be used again. The SQL authentification is disabled, and Managed Identity authentication will be used in the future. 
 {% endhint %}
 
 ![Azure SQL Settings Tab](../.gitbook/assets/deploy-syskit-point_azure-sql-settings.png)
