@@ -32,3 +32,12 @@ If credentials are selected, additional fields are displayed where you can:
 **After a successful connection, the connect button turns green and shows a checkmark (1).**
 
 ![Service Account Credentials](../.gitbook/assets/connect-service-account_checkmark.png)
+
+
+If logging in with Microsoft Authentication Flow is selected, a pop-up will appear requesting the **sign-in information (1)** for the service account. 
+
+![Service Account Credentials](../.gitbook/assets/connect-service-account_MFA.png)
+
+Once the account is successfully connected, you will see the email listed stating it is a **Connected Account (2)**
+
+![Service Account Credentials](../.gitbook/assets/connect-service-account_MFA-connected.png).
