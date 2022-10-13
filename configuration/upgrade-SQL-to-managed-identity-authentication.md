@@ -24,15 +24,6 @@ In order to enable Managed Identity authentication instead of SQL authentication
 
 ![SQL server name](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication_copy-server-name.png)
 
-* On the home page of the SQL server, under **Features**, click the **Active Directory admin** option
-  * The **Azure Active Directory (1)** site will open
-* **Deselect (2)** the Support only Azure Active Directory authentication for this server
-  * This option needs to be turned off and is located under the Azure Active Directory authentication section
-* **Click Save (3)** to  finalize 
-  * After that, the SQL authentification can be used normally 
-
-![Azure SQL - authentication for server](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication_sql-server-allow-sql-auth.png)
-
 
 ## Upgrade to Managed Identity Authentication
 
