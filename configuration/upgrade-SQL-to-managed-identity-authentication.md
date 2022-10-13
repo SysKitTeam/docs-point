@@ -6,7 +6,7 @@ description: This article explains how to upgrade from SQL to Managed Identity a
 
 Instead of using SQL authentication, you are now able to **use Managed Identity authentication with SysKit Point**. If you deploy SysKit Point after the [v2022.5 release](../releases/point-2022-5-release-note.md), Managed Identity will be the authentication method by default. 
 
-Those that deployed SysKit Point before that release will need to manually upgrade to Managed Identity. 
+Those that deployed SysKit Point before that release can manually upgrade to Managed Identity. 
 
 ## SQL Server Information
 
@@ -97,7 +97,12 @@ There are two parts of the above text that will need to be changed:
 Data Source=tcp:**{serverName}** should be pasted from your SQL server for SysKit Point. The text is formatted as: servername.database.windows.net
 
 User Id="**{managed identity client id}** needs to be changed. The Client ID you previously copied from your Managed Identity resource should be placed where the text says **managed identity client id**. 
+
 {% endhint %}
+
+For example, after being edited with your server information, the text should look like this: 
+
+ `Data Source=tcp:contoso.database.windows.net,1433;Initial Catalog=SysKitPointDB;User Id="00000000-0000-0000-0000-000000000000";Authentication=Active Directory Managed Identity;`
 
 * When the **edited text** has been entered, **click Create**
 
