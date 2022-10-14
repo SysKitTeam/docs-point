@@ -6,9 +6,9 @@ description: This article explains how to enable the usage of sensitivity labels
 
 In order to use sensitivity labels when creating provisioning templates, the following requirements need to be met:
 * **Sensitivity labels are created and published** in [Microsoft compliance center](https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabels)
-[Click here to learn how to create and configure sensitivity labels and their policies.](https://docs.microsoft.com/en-us/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide)
+  * [Click here to learn how to create and configure sensitivity labels and their policies.](https://docs.microsoft.com/en-us/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide)
 * **Sensitivity labels are enabled for containers - Microsoft Teams sites, Microsoft 365 groups, and SharePoint sites**
-[Use this article to help you enable sensitivity labels for containers](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels-teams-groups-sites?view=o365-worldwide#enable-this-preview-and-synchronize-labels)
+  * [Use this article to help you enable sensitivity labels for containers](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels-teams-groups-sites?view=o365-worldwide#enable-this-preview-and-synchronize-labels)
 * **Dedicated service account is connected to SysKit Point**
 
 The connected service account enables SysKit Point to:
@@ -17,37 +17,32 @@ The connected service account enables SysKit Point to:
 
 {% hint style="warning" %}
 **Please note!**  
-It can take up to 24 hours for the sensitivity label changes to replicate to all apps and services.
+The sensitivity label changes can take up to 24 hours to replicate to all apps and services.
 {% endhint %}
 
 ## Service Account Requirements
 When preparing a dedicated service account for SysKit Point, consider the following requirements:
 
-* **multi-factor authentication is disabled for the service account**
+* **multifactor authentication can be enabled for the service account**, but it isn't mandatory
 * **service account password is set never to expire** to avoid repetitious password re-entries in SysKit Point; [learn how to set user's password never to expire here](https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/set-password-to-never-expire?view=o365-worldwide#set-a-password-to-never-expire) 
 * **sensitivity labels should be published to the service account**; [find more information on how to publish sensitivity labels here](https://docs.microsoft.com/en-us/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide#publish-sensitivity-labels-by-creating-a-label-policy)
 * **service account should not have the Global Administrator role assigned**
+* **the Global Administrator has to give consent on behalf of the organization** for a certain user to be assigned to the service account
+* **service account must have a SysKit Point admin role** to provide custom templates for creating new workspaces
 * **no licenses are required for the service account**
 
-## Connect Service Account
 
-To connect the service account in SysKit Point:
-* **Navigate to Settings** > **General** > **Connected Tenant**
-* **Switch the Connect Service Account toggle (1) on**
+{% hint style="warning" %}
+**Please note!**  
+To successfully **provision sensitivity labels onto newly created workspaces** when using the **Microsoft Authentication Flow** method, **only the service account** can create all provisioning templates.
+{% endhint %}
 
-![Connect Service Account](../../.gitbook/assets/enable-sensitivity-labels_connect-toggle.png)
-
-Additional fields are displayed, where you can:
-* **Enter service account username (1)**
-* **Enter service account password (2)**
-* **Click the Connect button (3)** to finish
-
-![Service Account Credentials](../../.gitbook/assets/enable-sensitivity-labels_service-account-credentials.png)
-
-**After successful connection the connect button turns green and shows a checkmark.**
+Learn more about how to set up multifactor authentication for Microsoft 365 by taking a look at [this Microsoft article](https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide)
 
 ## Next Steps
 
-After you connect the service account to SysKit Point, you will be able to specify a sensitivity label when creating provisioning templates.
+To connect a service account in SysKit Point, please follow the instructions provided in [this article](configuration/connect-service-account.md).
+
+Once the service account is connected to SysKit Point, you can specify a sensitivity label when creating provisioning templates.
 
 To learn more about templates and available options while setting them up, open the [following article](templates.md).
