@@ -33,7 +33,7 @@ To do so:
 ![Azure SQL - Adding IPv4 address](../.gitbook/assets/power-bi-requirements_sql-server-IP.png)
 ![Azure SQL - Allowing Azure services and resources](../.gitbook/assets/power-bi-requirements_sql-server-azure.png)
 
-## Enable SQL Authentication on Azure SQL Server
+## Enabling SQL Authentication on Azure SQL Server
 
 The next step that should be completed while setting up the Azure SQL server is the following:
 
