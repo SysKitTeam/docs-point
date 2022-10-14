@@ -40,7 +40,7 @@ See detailed step-by-step instructions on how to upgrade Configuration Inventory
     * **If you are an existing user**, **SysKit Point continues to use the SQL authentication after the upgrade to the latest version**. [To switch to the managed identity option, please read the following article](TODO).
     * **If you are using the Power BI companion app**, [discover how to set up Power BI data sync wit SQL authentication here](TODO).
 
-* **SysKit Point now supports Microsoft Authentication Flow to connect a service account with multifactor authentication enabled**! [Check out the following article to learn more about requirements and how to connect the service account in SysKit Point](TODO).
+* **SysKit Point now supports Microsoft Authentication Flow to connect a service account with multifactor authentication enabled**! [Check out the following article to learn more about requirements and how to connect the service account in SysKit Point](../configuration/connect-service-account.md).
 
 ## Improvements & Bug Fixes
 
@@ -58,7 +58,7 @@ Global admin re-consent is required after the upgrade to the 2022.5 version due 
 
 * **SysKit Point now uses Microsoft Graph API to send on-demand and automatic emails**.
 The switch was done due to the Outlook REST APIs being fully decommissioned on November 30, 2022.
-[To learn more about the permission changes performed because of this, open the Permission Requirements Change Log article](TODO).
+[To learn more about the permission changes performed because of this, open the Permission Requirements Change Log article](../requirements/permission-requirements-change-log.md).
 
 * **Multiple improvements are available for User sync**. 
     * **Improved handling of various user types and user roles** during User sync.

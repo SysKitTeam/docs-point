@@ -34,7 +34,6 @@ Due to [Outlook REST APIs being fully decommissioned on November 30, 2022](https
 | App Registration | API/ Permissions Name | Permission | Type | Reason |
 | SysKit Point Service | Microsoft 365 Exchange Online/Mail.Send | Send mail as any user | Application | Allows SysKit Point to send emails as a part of the Access Review, Lifecycle Management, Scheduled Reports, and Alerts features. |
 
-
 ## SysKit Point 2022.4.1
 
 **Additional permissions for the Access Review feature were added** to the existing app registrations regarding private channels support.

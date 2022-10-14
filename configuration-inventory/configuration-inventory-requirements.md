@@ -10,7 +10,12 @@ To collect Microsoft Teams-related data, you need to **connect a service account
 When preparing the service account, consider the following requirements:
 * **service account should have the Teams Administrator Azure AD role assigned**
 
-Learn how to connect the service account in SysKit Point by following the instructions from [this article](configuration/connect-service-account.md).
+Learn how to connect the service account in SysKit Point by following the instructions from [this article](../configuration/connect-service-account.md#enter-credentials).
+
+{% hint style="warning" %}
+**Please note!**  
+The Configuration Inventory module currently does not support a service account with multi-factor authentication enabled.
+{% endhint %}
 
 ## Access Configuration Inventory Settings & Reports
 

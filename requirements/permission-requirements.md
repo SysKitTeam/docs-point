@@ -112,11 +112,20 @@ The second app registration, **SysKit Point Client**, enables users to securely 
 | Send a teamwork activity to any user | Delegated | Allows SysKit Point Microsoft Teams application to send notifications to users. |
 | Read and write all users' full profiles | Delegated | Allows SysKit Point to read your users' profiles and show you reports based on that data; allows license management actions to be performed. |
 
+When using Microsoft Authentication Flow to connect a service account, the following Microsoft Graph permissions are added to the SysKit Point Client app registration:
+
+| Permissions | Type | Reason |
+| :--- | :--- | :--- |
+| Read all published labels and label policies for an organization | Delegated | Enables service account to read published sensitivity labels. |
+| Read users' full profiles | Delegated | Allows service account to read your users' profiles.|
+
 **SharePoint**
 
 | Permissions | Type | Reason |
 | :--- | :--- | :--- |
 | Have full control of all site collections | Delegated | Allows you to manage your Site Collections directly from SysKit Point. |
+
+
 
 ### SysKit Point Permissions Loader
 

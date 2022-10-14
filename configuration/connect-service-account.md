@@ -2,9 +2,9 @@
 description: This article explains how to connect a service account to SysKit Point. 
 ---
 
-## Connect Service Account
+# Connect Service Account
 
-**Service accounts** in SysKit Point are utilized for the Configuration Inventory module, using sensitivity labels in provisioning templates and other available features. 
+**Service account** in SysKit Point is utilized for the Configuration Inventory module and sensitivity labels in provisioning templates.
 
 To connect the service account in SysKit Point:
 * **Navigate to Settings** > **General** > **Connected Tenant**
@@ -21,6 +21,13 @@ Two options are available:
 
   * To enable multi-factor authentication, follow the instructions in [this article](https://support.microsoft.com/en-us/office/set-up-your-microsoft-365-sign-in-for-multi-factor-authentication-ace1d096-61e5-449b-a875-58eb3d74de14).
 
+## Enter Credentials
+
+{% hint style="warning" %}
+**Please note!**  
+Use this option when connecting the service account to collect Configuration Inventory data. 
+The Configuration Inventory module currently does not support a service account with multi-factor authentication enabled.
+{% endhint %}
 
 If credentials are selected, additional fields are displayed where you can:
 * **Enter service account email address (1)**
@@ -33,7 +40,7 @@ If credentials are selected, additional fields are displayed where you can:
 
 ![Service Account Credentials - Connected](../.gitbook/assets/connect-service-account_checkmark.png)
 
-
+## Login with Microsoft Authentication Flow
 If logging in with Microsoft Authentication Flow is selected, a pop-up will appear requesting the **sign-in information (1)** for the service account. 
 
 ![Service Account - Microsoft Authentication Flow](../.gitbook/assets/connect-service-account_MFA.png)
@@ -42,10 +49,13 @@ Once the account is successfully connected, you will see the email listed statin
 
 ![Microsoft Authentication Flow - Connected Account](../.gitbook/assets/connect-service-account_MFA-connected.png)
 
-
 {% hint style="warning" %}
 **Please note!**  
 **Global Admin consent is required** when connecting the service account through Microsoft Authentication Flow for the first time. 
 {% endhint %}
 
 ![Microsoft Authentication Flow - Global Admin Consent](../.gitbook/assets/connect-service-account_consent.png)
+
+## Additional Information
+When Microsoft Authentication Flow is used, Global Admin consent is required due to additional permissions required for the SySkit Point Client app registration. 
+[Learn more about these permissions in the Permission Requirements article](../requirements/permission-requirements.md#syskit-point-client).
