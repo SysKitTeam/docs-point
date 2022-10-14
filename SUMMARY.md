@@ -43,6 +43,7 @@
   * [Set Up E-Mail](configuration/set-up-email.md)
   * [Connect Service Account](configuration/connect-service-account.md)
   * [Customize Audit Logs Collection](configuration/customize-audit-logs-collection.md)
+  * [Upgrade SQL to Managed Identity Authentication](configuration/upgrade-SQL-to-managed-identity-authentication.md)
   * [Enable Power BI Data Collection](configuration/enable-powerBI-data-collection.md)
   * [Ignore Service Account Activity Tracking](configuration/ignore-service-account-activity-tracking.md)
   * [Customize License Reports](configuration/customize-license-reports.md)
