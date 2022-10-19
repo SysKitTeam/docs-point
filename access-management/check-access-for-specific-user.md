@@ -12,7 +12,7 @@ When using **Microsoft 365** for your daily **collaboration**, there are numerou
 
 ### Capabilities
 
-**SysKit Point User Access report** is a powerful tool that gives you the ability to **check** all **access** for **every specific user** in your **Microsoft 365 environment**. It enables you to:
+**SysKit Point User Access report** is a powerful tool that allows you to **check** all **access** for **every specific user** in your **Microsoft 365 environment**. It enables you to:
 
 * See what type of **access** does a user have \(**Full Control**, **Edit**, **Contribute**, or **any personal type of access** you may have **added** to your **environment**\).
 * Understand **through which channel** is the **access given** to the user \(**Being a member in a SharePoint** **group**, **Group owner**, **Administrator**, through **security group** or **directly** to said **user**\).
@@ -25,7 +25,7 @@ There are multiple occasions where using the **User Access report** will help yo
 
 Some of them are:
 
-* When a **new user** in your **Microsoft 365 environment** is being **onboarded**, to quickly check if they have all the correct permissions to succeed in their work.
+* When a **new user** in your **Microsoft 365 environment** is being **onboarded**, quickly check if they have all the correct permissions to succeed in their work.
 * When a **user** is being **offboarded** to double-check if they still have access to some information they shouldn't have \(via **Anonymous sharing links**\).
 * To check if some external collaborators have access to something they shouldn’t have.
 * When reorganizing your environment \(**removing users** from certain **security groups** or **changing permissions** for specific users in your environment\).
@@ -47,10 +47,10 @@ It will redirect you to the **SysKit Point Report Center**, where you can click 
 {% endhint %}
 
 Now that you are located on the **User Access selection** **screen**:
-* choose **one** or **multiple users** \(1\) you wish to generate the report for
-* select the **type of workspaces** \(2\) to show on the generated report 
-  * you can choose among Sites, Microsoft Teams, Microsoft 365 Groups, One Drive and Power BI   
-* click the **Run Report button** \(3\) to generate the report
+* Choose **one** or **multiple users** \(1\) you wish to generate the report for
+* Select the **type of workspaces** \(2\) to show on the generated report 
+  * You can choose among Sites, Microsoft Teams, Microsoft 365 Groups, One Drive and Power BI   
+* Click the **Run Report button** \(3\) to generate the report
 
 ![User Access - Selection screen](../.gitbook/assets/check-access-for-specific-user_selection-screen.png)
 
@@ -74,11 +74,11 @@ As the **User Access report** is a tree structure report, you can see:
 ### Remove Access
 
 There are several ways to remove access for a user through the report: 
-  * **To remove all access the User has**, **select the User's name (1)**. 
+  * **To remove all access the User has**, **select the user's name (1)**. 
      * On the right side of the screen, the option to **Remove Access (2)** will show.
        * After clicking the Remove Access action, a **pop-up will appear**, providing more details on what the action will entail and prompting you to confirm by typing **REMOVE** in the space available.
        * Clicking the **Remove(3)** button will finalize the action.  
-    * This can also be completed for a single resource by clicking the option to expand, located next to the User's name, and selecting the specific resource. 
+    * This can also be completed for a single resource by clicking the option to expand, located next to the user's name, and selecting the specific resource. 
 
 ![User Access - Remove Access action](../.gitbook/assets/check-access-for-specific-user_remove-access.png)
 
@@ -86,11 +86,11 @@ There are several ways to remove access for a user through the report:
 
 After the action is completed, you will receive a **notification bubble** where you can **click** and **see the result**. 
 
-Once the action is completed, the User will no longer have any resources assigned to them. 
+Once the action is completed, the user will no longer have access to any resources. 
 
 {% hint style="warning" %}
 **Please note!**  
-For any user that had their access removed, they will successfully be removed from any private channels they had access to; however, at this time, it is **not possible to remove access to shared channels and Power BI workspaces**.
+Any user that had their access removed will successfully be removed from any private channels they had access to; however, at this time, it is **not possible to remove access to shared channels and Power BI workspaces**.
 {% endhint %}
 
 You can also remove access for a specific user by clicking the user's name from the report. This will redirect you to the **user details screen**.
