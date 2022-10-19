@@ -46,9 +46,13 @@ It will redirect you to the **SysKit Point Report Center**, where you can click 
 **Hint! -** you can also access the **User Access report** through various other **SysKit Point** **reports**, **User overview screen**, and **User details screens**.
 {% endhint %}
 
-Now that you are located on the **User Access selection** **screen**, choose **one** or **multiple users** \(1\) you wish to generate the report for and click the **Run Report button** \(2\).
+Now that you are located on the **User Access selection** **screen**:
+* choose **one** or **multiple users** \(1\) you wish to generate the report for
+* select the **type of workspaces** \(2\) to show on the generated report 
+  * you can choose among Sites, Microsoft Teams, Microsoft 365 Groups, One Drive and Power BI   
+* click the **Run Report button** \(3\) to generate the report
 
-![User Access - Selection screen](../.gitbook/assets/user_access_docs3.png)
+![User Access - Selection screen](../.gitbook/assets/check-access-for-specific-user_selection-screen.png)
 
 ### Available Options and Actions
 
@@ -70,7 +74,7 @@ As the **User Access report** is a tree structure report, you can see:
 ### Remove Access
 
 There are several ways to remove access for a user through the report: 
-  * To remove all access the User has, **select the User's name (1)**. 
+  * **To remove all access the User has**, **select the User's name (1)**. 
      * On the right side of the screen, the option to **Remove Access (2)** will show.
        * After clicking the Remove Access action, a **pop-up will appear**, providing more details on what the action will entail and prompting you to confirm by typing **REMOVE** in the space available.
        * Clicking the **Remove(3)** button will finalize the action.  
@@ -86,10 +90,10 @@ Once the action is completed, the User will no longer have any resources assigne
 
 {% hint style="warning" %}
 **Please note!**  
-For any User that had their access removed, they will successfully be removed from any private channels they had access to; however, at this time, it is **not possible to remove access to shared channels and Power BI workspaces**. Attempting this action will result in an error.  
+For any user that had their access removed, they will successfully be removed from any private channels they had access to; however, at this time, it is **not possible to remove access to shared channels and Power BI workspaces**.
 {% endhint %}
 
-You can also remove access for a specific user by clicking the User's name from the report. This will redirect you to the **user details screen**.
+You can also remove access for a specific user by clicking the user's name from the report. This will redirect you to the **user details screen**.
   * Scroll down to the **Access tile (1)**, and you'll have the option to either **select all resources (2)** or select them individually to perform the **Remove Access (3)** action.
 
 ![User Details Screen - Remove Access](../.gitbook/assets/check-access-for-specific-user_user-details-screen.png)
