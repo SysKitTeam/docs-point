@@ -14,14 +14,14 @@ When using **Microsoft 365** for your daily **collaboration**, there are numerou
 
 **SysKit Point User Access report** is a powerful tool that allows you to **check** all **access** for **every specific user** in your **Microsoft 365 environment**. It enables you to:
 
-* See what type of **access** does a user have \(**Full Control**, **Edit**, **Contribute**, or **any personal type of access** you may have **added** to your **environment**\).
-* Understand **through which channel** is the **access given** to the user \(**Being a member in a SharePoint** **group**, **Group owner**, **Administrator**, through **security group** or **directly** to said **user**\).
+* See what type of **access** does a user have \(**Full Control**, **Edit**, **Contribute**, or **any other level of access** you may have **granted** in your **environment**\).
+* Understand **through which channel** is the **access given** to the user \(**Being a member in a SharePoint group**, **Group owner**, **Administrator**, through a **security group** or **directly** to said **user**\).
 * Show the **details** from which exact **source** were those rights given to it.
 * **Perform** multiple **actions directly** on the report \(**Remove Access**, **Change Owners**, **Change to Member**, **Edit Permissions**, **Remove from Group**, **Remove Sharing Link**\).
 
 ### Use Cases
 
-There are multiple occasions where using the **User Access report** will help you manage your **Microsoft 365 environment** successfully.
+There are multiple occasions where using the **User Access report** will help you successfully manage your **Microsoft 365 environment**.
 
 Some of them are:
 
@@ -34,11 +34,11 @@ Some of them are:
 
 ### Generate User Access Report
 
-First, you need to **Sign in** to your **SysKit Point**. When located on the **home screen**, click on the **Reports** tile.
+First, you need to **Sign in** to **SysKit Point**. When located on the **home screen**, click the **Reports** tile.
 
 ![SysKit Point - Welcome screen](../.gitbook/assets/user_access_docs1.png)
 
-It will redirect you to the **SysKit Point Report Center**, where you can click on **User Access**.
+It will redirect you to the **SysKit Point Report Center**, where you can click the **User Access** report tile.
 
 ![SysKit Point - Report Center](../.gitbook/assets/user_access_docs2.png)
 
@@ -47,10 +47,10 @@ It will redirect you to the **SysKit Point Report Center**, where you can click 
 {% endhint %}
 
 Now that you are located on the **User Access selection** **screen**:
-* Choose **one** or **multiple users** \(1\) you wish to generate the report for
-* Select the **type of workspaces** \(2\) to show on the generated report 
+* Choose **one** or **multiple users \(1\)** you wish to generate the report for
+* Select the **type of workspaces \(2\)** to show on the generated report 
   * You can choose among Sites, Microsoft Teams, Microsoft 365 Groups, One Drive and Power BI   
-* Click the **Run Report button** \(3\) to generate the report
+* Click the **Run Report button \(3\)** to generate the report
 
 ![User Access - Selection screen](../.gitbook/assets/check-access-for-specific-user_selection-screen.png)
 
@@ -64,10 +64,10 @@ As the **User Access report** is a tree structure report, you can see:
 
 * **User (1)** for which you have generated the report.
 * All **types of resources (2)** \(**Sites**, **Microsoft Teams**, **Microsoft 365 Groups**, **Power BI**, and **OneDrive** accounts\) that user has some kind of **access** to.
-* What kind of **Access (3)** does the user have on a said **resource**.
-* **How** the access was **Given Through (4)** to said user.
-* **Details (5)** containing **exact resources** where the user got their **permissions** from, and if those are **Microsoft 365 Groups** or **Microsoft Teams** they are **drillable** to their respective **Detail Screens** in **SysKit Point (6)**.
-* The report can also be **scheduled and exported as PDF or Excel (7)**. 
+* What kind of **access (3)** does the user have on a said **resource**.
+* **How** the access was **given (4)** to said user - **directly or through a group**, for example
+* **Details (5)** containing **exact resources** through which the user got their **permissions**; **Microsoft 365 Groups** and **Microsoft Teams** shown here are **drillable (6)**, opening their respective **detail screens**.
+* You can **schedule and export the report as PDF or Excel (7)**. 
 
 ![User Access - Report structure](../.gitbook/assets/check-access-for-specific-user_report-details.png)
 
@@ -84,13 +84,11 @@ There are several ways to remove access for a user through the report:
 
 ![SysKit Point User Access report Remove Access action prompt](../.gitbook/assets/check-access-for-specific-user_remove-access-confirm.png)
 
-After the action is completed, you will receive a **notification bubble** where you can **click** and **see the result**. 
-
-Once the action is completed, the user will no longer have access to any resources. 
+After completing the action, you will receive a **notification** containing the **see the result** link, which reloads the report data when clicked. Once the action is completed, the user will no longer have access to any resources. 
 
 {% hint style="warning" %}
 **Please note!**  
-Any user that had their access removed will successfully be removed from any private channels they had access to; however, at this time, it is **not possible to remove access to shared channels and Power BI workspaces**.
+Any user that had their access removed will successfully be removed from any private channels they had access to; however, at this time, it is **not possible to remove access from shared channels and Power BI workspaces**.
 {% endhint %}
 
 You can also remove access for a specific user by clicking the user's name from the report. This will redirect you to the **user details screen**.
@@ -99,5 +97,5 @@ You can also remove access for a specific user by clicking the user's name from 
 ![User Details Screen - Remove Access](../.gitbook/assets/check-access-for-specific-user_user-details-screen.png)
 
 
-**User Access report** helps all **Admins** and content **Owners** to keep their **Microsoft 365 environment** **clean**, **secure**, and **easy to manage** all at one place, the **SysKit Point**.
+**User Access report** helps all **Admins** and content **Owners** to keep their **Microsoft 365 environment** **clean**, **secure**, and **easy to manage** all at one place.
 
