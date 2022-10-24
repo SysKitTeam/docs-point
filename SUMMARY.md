@@ -34,6 +34,7 @@
   * [Activation Privacy Statement](activation/activation-privacy-statement.md)
   * [Activation FAQ](activation/activation-faq.md)
   * [Licensed Users Count](activation/licensed-users-count.md)
+  * [SysKit Point Trial](activation/trial.md)
 * [Get to Know SysKit Point](get-to-know-syskit-point/README.md)
   * [Navigate Through SysKit Point](get-to-know-syskit-point/navigate-through-syskit-point.md) 
   * [Control Your Microsoft 365 Environment](get-to-know-syskit-point/control-your-microsoft-365-environment.md)
