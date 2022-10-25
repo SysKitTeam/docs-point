@@ -4,30 +4,29 @@ description: External Sharing Reports provide information about the external use
 
 # External Sharing Reports
 
-In this article you can locate information on the following external sharing reports:
+In this article, you can locate information on the following external sharing reports:
 * [Externally Shared Content](#externally-shared-content)
 * [External Users](#external-users-report)
 * [Sharing Links](#sharing-links)
 
-These reports can be used to **optimize and keep track of externally shared content, links and external users with access to your Microsoft 365**. 
+These reports can be used to **optimize and keep track of externally shared content, links and external users with access to your Microsoft 365 workspaces and content**. 
 
 To access an external sharing report, complete the following steps:
 
  * **Click the Reports tile**; located on the SysKit Point home screen.
- * **Select the External Sharing category in the filter**; it can be found in the upper left corner.
- * **Click the Externally Shared Content, External Users, or Sharing Links**; this will generate that specific report.
+ * **Select the External Sharing category in the filter** located in the upper left corner.
+ * **Click the Externally Shared Content, External Users, or Sharing Links report tile**; this will generate that specific report.
 
 ## Externally Shared Content
 
-This report shows content shared with external users via sharing links or by granting them access directly.
+This report shows content shared with external users via sharing links or by granting them direct access.
 
 ### Selection & Filters
 
 After clicking the **Externally Shared Content** report tile, a selection step opens where you can:
-* **Use the filter** to change the type of sites being viewed.
-* **Select one or multiple workspaces**; workspace can be selected in the top bar above the columns. 
-* **Use the search option** for any specific site inquiries.
-* **Click the select all button** in the top left corner **or select the individual sites** for which the report should be generated. 
+* **Use the top filter** to show only a specific type of workspace.
+* **Select one or multiple workspaces** (sites, Microsoft Teams, Microsoft 365 Groups or OneDrive) for which the report should be generated.
+* **Use the search option** for any specific site inquiries. 
 * **Choose the content level to be shown** once prompted.
   * The option to select between the following options will appear:
     * **subsites**
@@ -43,7 +42,7 @@ The generated report displays all externally shared content based on the workspa
 The following columns are visible:    
 * **Name**; the workspace, content, groups and external users are shown in the tree grid.
 * **Permission levels**; the level of access for external users over the content. 
-  * For example, this can be: **Full Control**, **Design**, **Read**, **Edit**, **Contribute**...
+  * For example: **Full Control**, **Design**, **Read**, **Edit**, **Contribute** or custom permission levels
     
 Find and display additional columns in the **column chooser**, located in the top right corner, next to the search bar.
 
@@ -57,6 +56,7 @@ The options available to select are:
 * **Is Deleted**
 * **Is Licensed**
 * **Sign-in Status**
+* **option to hide or show a specific permission level**
 
 ### Report Actions
 
@@ -84,10 +84,10 @@ This report contains all external users (registered in your tenant and outside y
 **Access this report from the Report Center**:
 
  * **Click the Reports tile**; located on the SysKit Point home screen.
- * **Select the External Sharing category in the filter**; it can be found in the upper left corner.
- * **Click the External Users tile** to generate the report
+ * **Select the External Sharing category in the filter** located in the upper left corner.
+ * **Click the External Users tile** to generate the report.
 
-
+ The report generates immediately without a Selection step.
 
 ### Report Data
 
@@ -98,7 +98,7 @@ The default columns displayed in the report are:
 * **Email**
 * **Username**
 * **Domain**
-* **Last Logged In** time
+* **Last Logged In** DateTime
     
 There is one additional column available in the column chooser.
   * **Site Type**; shows the type of workspace for resource
@@ -109,10 +109,10 @@ There is one additional column available in the column chooser.
 The actions that can be taken here are the following:
 
 * **Remove access for users** from a resource
-* **Observe the last log-in for users**
-* **View which domain users are coming from**
+* **Generate User Access and User Activity reports**
+* **View additional information about who added the external user inside your Microsoft 365 environment**
 
-The External Users report can be **exported as PDF or XLSX file**. There is also the **option to schedule the report**.
+The External Users report can be **exported as a PDF or XLSX file**. There is also the **option to schedule the report**.
 
 
 ## Sharing Links 
@@ -125,10 +125,30 @@ Use this to easily **locate and remove external users** when necessary.
 
 This report can be accessed from:
 
-* The **details screen of specific resource**; clicking on the **Sharing Links tile**
-* The Report Center
+* The **details screen of specific resource** by clicking the **Sharing Links tile**
+* The **Report Center**
 * **Other reports** available in SysKit Point 
-  * For example, it is available in **Permissions Matrix report, Externally Shared Content report, Unique Permissions report**
+  * For example, **Permissions Matrix report, Externally Shared Content report, and Unique Permissions report**
+
+To generate this report from the Report Center:
+ * **Click the Reports tile**; located on the SysKit Point home screen.
+ * **Select the External Sharing category in the filter** located in the upper left corner.
+ * **Click the Sharing Links tile** to generate the report.
+
+### Selection & Filters
+
+After clicking the **Sharing Links** report tile, a selection step opens where you can:
+* **Use the top filter** to show only a specific type of workspace.
+* **Select one or multiple workspaces** (sites, Microsoft Teams, Microsoft 365 Groups or OneDrive) for which the report should be generated.
+* **Use the search option** for any specific site inquiries. 
+* **Choose the link type to show** on the generated report.
+  * You can choose between the following link types:
+    * **people in company can view**
+    * **people in company can edit**
+    * **anyone can view**
+    * **anyone can edit**
+    * **specific people can view or edit**
+* **Click the Run Report button** to generate the report.
 
 ### Report Data
 
@@ -141,13 +161,11 @@ There are default columns displayed in the report which list the following:
 * **Created On**
 * **Expiration Date**
 
-An external user can be identified by looking for the color of the user icon. 
-  * If the color is a **green-blue**, it is an **external user**.
-
 ### Report Actions
 
 The following actions can be performed within the report:
 * **Remove sharing link**
 * **Remove user access**
+* **Open related reports**
 
 The Sharing Links report can be **exported as a PDF or XLSX file**. There is also the **option to schedule the report**.

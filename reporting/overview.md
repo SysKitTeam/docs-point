@@ -4,25 +4,22 @@ description: This article provides a list of available report categories and sho
 
 # Reports in SysKit Point
 
-## Generate Reports
-
-SysKit Point Reports gives insight into what's happening within the Microsoft 365 environment. 
+SysKit Point Reports provide insight into what's happening within your Microsoft 365 environment. 
 
 The **Reports** section enables the following actions:
-* The clean up of outdated or unnecessary resources
-* Contextual, one-click report generation
 * Advanced filtering
 * High-level overview
 * Exporting reports as PDF or XLSX files
 * Scheduled report delivery
 
+## Generate Reports
 
 To generate a report in SysKit Point, **navigate to the Report Center by clicking the Reports tile on the Home screen**.
 In the Report Center, you can:
 * **See all reports available in SysKit Point** along with a short description of what each provides
 * **Filter reports by category (1)**; only reports within the selected category are displayed
 * **Search for a report (2)** by typing a search term into the input field
-* **Navigate to Scheduled Reports (3)**; set up a recurring delivery of reports 
+* **Navigate to Scheduled Reports (3)** where you can view and manage recurring delivery of reports 
 * **Click a report tile (4)** to generate the wanted report
 
 ![SysKit Point - Report Center](../../.gitbook/assets/generate_reports_overview-report_center.png)

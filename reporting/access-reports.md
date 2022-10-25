@@ -25,18 +25,32 @@ It allows viewing site hierarchy and permissions down to the document level.
 ### Generate Report
 
 * **Click the Reports tile**; it is located on the SysKit Point home screen.
-* **Select Permissions Matrix in the filter**; it can be found in the upper left corner.
-* **Click the User Access report** to be redirected to the options screen.
-* **Select the resources** for which the report should be generated.
-   * Click the checkboxes on the screen's left side to select one or more resources. 
-* **Click the Run Report button**once the selected parameters have been set.
+* **Select Permissions Reports category in the filter** you can find in the upper left corner.
+* **Click the Permissions Matrix report tile** to be redirected to the Selection screen.
 
 This report can also be accessed from:
 
-* **The Sites Overview screen and The Microsoft Teams & Groups Overview screen**; select the resource and click on the suitable action in the side panel.
+* **The Sites Overview screen and The Microsoft Teams & Groups Overview screen**; select the resource and click the suitable action in the side panel.
 * **The details screen** of specific resource
 * **Other reports** available in SysKit Point
    * For example, User Access Report, Externally Shared Content Report, Unique Permissions Report
+
+### Selection & Filters
+
+After clicking the **Permissions Matrix** report tile, the Selection step opens where you can:
+* **Select the resources** for which the report should be generated.
+   * Click the checkboxes on the screen's left side to select one or more resources. 
+* **Select various filter options** to refine data that will show once the report is generated
+   * **see permissions for users and groups** that are:
+      * internal, external, or both
+      * licensed, unlicensed, or both
+      * allowed to sign in, blocked from signing in, or both
+   * **show items with**:
+      * unique permissions only, or all (with permission inheritance)
+   * **show content down to**:
+      * subsites, document libraries & lists, folders, or files & folders
+   * **show or hide security group members**
+* **Click the Run Report button**once the selected parameters have been set.
 
 ### Report Data
 

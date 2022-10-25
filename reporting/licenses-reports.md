@@ -7,7 +7,7 @@ description: Licenses Reports provide information on managing your Microsoft 365
 Reports in this section **help manage your Microsoft 365 
 licenses**. 
 
-In this article you can locate information on the following license reports:
+In this article you can find information about the following license reports:
 * [Licenses Overview Report](#licenses-overview-report)
 * [Licenses Usage by Service Report](#licenses-usage-by-service-report)
 * [License Distribution](#license-distribution)
@@ -15,7 +15,7 @@ In this article you can locate information on the following license reports:
 
 Use them to **discover assigned, unassigned Microsoft 365 licenses or Microsoft 365 licenses assigned to inactive users** and check their overall cost.
 
-These reports can also be used to **identify underutilized licenses to drive adoption and optimize license costs**.
+These reports can be used to **identify underutilized licenses to drive adoption and optimize license costs**.
 
 ## Licenses Overview Report
 
