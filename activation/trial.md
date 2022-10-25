@@ -1,5 +1,5 @@
 ---
-description: This article explains how to get a free 21-day trial of SysKit Point and lists trial limits.
+description: This article provides a step-by-step guide on how to get a free 21-day trial of SysKit Point and lists trial limits.
 ---
 
 # SysKit Point Trial
@@ -60,6 +60,24 @@ After the provisioning is completed, an overview screen opens, providing the mos
 ![Subscriptions - Trial Overview](../.gitbook/assets/trial_trial-information.png)
 
 ## Trial Limits
-#TODO
 
+With the SysKit Point trial, you will receive **21 days of unlimited usage**. During that time, you'll be able to **explore everything SysKit Point offers and see what makes it the best governance and security software for Microsoft 365**. You'll be able to utilize most of the SysKit Point features while in the free trial; however, there will be some limitations: 
+* **SysKit Point will sync lists up to 5000 items**
+    * The remaining items will not be synced once the number of 5000 items is reached
+* **When SysKit Point syncs above one million items**, **the remaining workspaces will no longer be synced**
+* **PDF exports will have a watermark** stating you exported the file during the SysKit Point Trial 
+* **OneDrive data will not be synced** and will not be available for access to gain more details 
+* **The Configuration Inventory Module** is not available during the trial
+
+In the SysKit Point web app, you will notice the **trial banner** located at the top of the screen for the trial duration. Here you can find the following:
+    * **The amount of time that is left for your free trial (1)** out of the 21 available days
+    * **Buy Now button (2)** that redirects you to the SysKit contact page, where you'll be able to reach us and arrange the best possible SysKit Point package for your business needs 
+
+![SysKit Point - Trial Banner](../.gitbook/assets/trial_trial-banner.png)  
+
+{% hint style="warning" %}
+**Please note!**  
+When the trial ends, the sync option will turn off, and you will no longer be able to click the sync button, download reports or complete other actions.
+21 days after the last day of your trial, all of the data collected in SysKit Point will be erased as per the DPA (Data Processing Agreement). If during those 21 days you purchase a SysKit Point license, all of your data will remain untacted. 
+{% endhint %}
 
