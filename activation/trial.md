@@ -15,7 +15,7 @@ This article shows how to get a free trial of SysKit Point solution as a service
 If your company policies require using a self-hosted solution, please [contact us](https://www.syskit.com/company/contact-us) to acquire a trial key.
 {% endhint %}
 
-## Start SysKit Point Trial
+## Get SysKit Point Trial
 
 {% hint style="warning" %}
 **Please note!**  
