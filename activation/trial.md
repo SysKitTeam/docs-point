@@ -23,19 +23,20 @@ We recommend Global Administrators perform the initial registration since consen
 {% endhint %}
 
 To start the trial registration process:
-    * Navigate to [Subscriptions site](https://subscriptions.syskit.com/)
-    * Click the **Register button (1)**
+ * Navigate to [Subscriptions site](https://subscriptions.syskit.com/)
+ * Click the **Register button (1)**
 
 ![Subscriptions - Register](../.gitbook/assets/trial_register.png)
 
 Next, sign in with your Microsoft credentials. 
-Permitting to read your user profile requires consent, enabling SysKit to determine your Microsoft 365 tenant. Click Accept to continue.
+
+Permitting us to read your user profile **requires consent**, and enables SysKit to determine your Microsoft 365 tenant. **Click Accept** to continue.
 ![Subscriptions - Consent](../.gitbook/assets/trial_consent.png)
 
 A new page opens where you should:
 * **Enter the Name of your organization (1)**
 * **Enter the syskit365 subdomain you want to use (2)**
-    * if the entered subdomain is already in use, an appropriate message is displayed 
+    * If the entered subdomain is already in use, an appropriate message is displayed 
 * **Select the preferred time zone (3)**
 * **Select the region where SysKit Point data will be stored (4)**; the following regions are currently supported:
     * **USA**
@@ -78,6 +79,6 @@ In the SysKit Point web app, you will notice the **trial banner** located at the
 {% hint style="warning" %}
 **Please note!**  
 When the trial ends, the sync option will turn off, and you will no longer be able to click the sync button, download reports or complete other actions.
-21 days after the last day of your trial, all of the data collected in SysKit Point will be erased as per the DPA (Data Processing Agreement). If during those 21 days you purchase a SysKit Point license, all of your data will remain untacted. 
+21 days after the last day of your trial, all of the data collected in SysKit Point will be erased as per the DPA (Data Processing Agreement). If during those 21 days you purchase a SysKit Point license, all of your data will remain intact. 
 {% endhint %}
 
