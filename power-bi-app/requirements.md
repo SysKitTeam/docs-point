@@ -12,6 +12,7 @@ Before you begin ensuring that the requirements for the Azure Power BI app are m
 For the Power BI app to access SysKit Point data, the following steps need to be completed:
 
 * **Allow access to Azure SQL Server for Power BI app and client machine**
+* **Enable SQL authentication on Azure SQL Server**
 * **Create a SQL Server Login and Database User for the Power BI app**
 * **Grant select permission on Power BI schema for the created Power BI user**
 
@@ -27,9 +28,23 @@ To do so:
 * **Click the checkbox to Allow Azure services and resources to access this server (4);** enabling this will allow access from the Power BI App and is located under Exceptions at the bottom of the screen
 * Click **Save (5)** to store preferences
 
+
 ![Azure SQL - Allowing Access](../.gitbook/assets/power-bi-requirements_sql-server.png)
 ![Azure SQL - Adding IPv4 address](../.gitbook/assets/power-bi-requirements_sql-server-IP.png)
 ![Azure SQL - Allowing Azure services and resources](../.gitbook/assets/power-bi-requirements_sql-server-azure.png)
+
+## Enabling SQL Authentication on Azure SQL Server
+
+The next step that should be completed while setting up the Azure SQL server is the following:
+
+* On the home page of the SQL server, under **Features**, click the **Active Directory admin** option
+  * The **Azure Active Directory (1)** site will open
+* **Deselect (2)** the Support only Azure Active Directory authentication for this server
+  * This option needs to be turned off and is located under the Azure Active Directory authentication section
+* **Click Save (3)** to  finalize 
+  * After that, the SQL authentification can be used normally 
+
+![Azure SQL - authentication for server](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication_sql-server-allow-sql-auth.png)
 
 ## Creating Server Login and Database User for Power BI App
 
@@ -45,7 +60,7 @@ Now that you have access from your client machine to the Azure SQL Server, you c
 Before running the script on **master database**, **modify the password**.
 `
 CREATE LOGIN powerbireader
-	WITH PASSWORD = 'Password1234!'
+    WITH PASSWORD = 'Password1234!'
 `
 
 ### New Database User
@@ -53,8 +68,8 @@ CREATE LOGIN powerbireader
 To create a new database user, **run the following script on the SysKitPointDB database**:
 `
 CREATE USER powerbireader
-	FOR LOGIN powerbireader
-	WITH DEFAULT_SCHEMA = PowerBI
+    FOR LOGIN powerbireader
+    WITH DEFAULT_SCHEMA = PowerBI
 `
 
 ### Grant SELECT on PowerBI Schema

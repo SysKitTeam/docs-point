@@ -61,10 +61,14 @@ Define the following on the __Azure SQL settings__ tab:
 * __SQL Password (3)__; enter the same password in the __Confirm SQL Password (4)__ field
 * __click Next (5)__ to move to the __Review + create__ tab
 
+{% hint style="warning" %}
+**Please note!** This is mandatory in order to **provision a new SQL server** as this is a Microsoft requirement. Without the SQL credentials, it would not be possible to create the SQL server; however, after the initial deployment, the credentials will not be used again. The SQL authentification is disabled, and Managed Identity authentication will be used in the future. 
+{% endhint %}
+
 ![Azure SQL Settings Tab](../.gitbook/assets/deploy-syskit-point_azure-sql-settings.png)
 
 The __Network configuration__ tab enables you to __configure virtual network__ used by SysKit Point resources.
-Depending on your use case, you have __2 options available__:
+Depending on your use case, you have __two options available__:
 * __Use the predefined virtual network configuration__ - a new virtual network is created when deploying SysKit Point; no additional configuration is needed, and you can __proceed to the next step by clicking the Next button (1)__, or
 * __Create a new virtual network with custom settings by clicking the Create new option (2)__
 
