@@ -92,20 +92,6 @@ There are many reports available in SysKit Point, and **the categories that the 
    * Automatically detect inactive SharePoint sites, groups, and teams. 
    * Define policies for keeping, deleting, or archiving data.  
 
-## Create Alerts
-
-The ability to create alerts within SysKit Point **helps you detect any changes in your tenant**. Alerts can be set up on the tenant level and can be set up to get triggered per site, Team or Group, as well as specific users. 
-
-There are many options where creating Alerts can be **powerful tool for staying up to date with your environment**, for example:
-
- * Notifying owners when new members are added to their team.
- * Staying up to date with any new teams being created or if any resources are deleted
- * Get promptly informed of any harmful activity happening in your tenant 
- * Being notified of a specific user's activity
- * And much more!
-
- When creating an alert, you can select who should be notified via email. 
-
 
 ## Set Up Your SysKit Point
 
@@ -115,7 +101,7 @@ Follow the instructions in these articles to get started:
 
 * [Set Up E-mail](../configuration/set-up-email.md)
   * [Customize E-mails](../configuration/customize-emails.md)
-* [Enable Role-Based Access](../configuration/customize-emails.md)
+* [Enable Role-Based Access](../configuration/enable-role-based-access.md)
 * [Enable Microsoft Teams Activity Tracking](../configuration/microsoft-teams-activity.md)
 * [Ignore Service Account Activity tracking](../configuration/ignore-service-account-activity-tracking.md)
 * [Customize Audit Logs collection](../configuration/customize-audit-logs-collection.md)
