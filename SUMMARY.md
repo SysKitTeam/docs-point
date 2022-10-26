@@ -36,6 +36,7 @@
   * [Licensed Users Count](activation/licensed-users-count.md)
   * [SysKit Point Trial](activation/trial.md)
 * [Get to Know SysKit Point](get-to-know-syskit-point/README.md)
+  * [The SysKit Point Starter Kit](get-to-know-syskit-point/point-starter-kit.md) 
   * [Navigate Through SysKit Point](get-to-know-syskit-point/navigate-through-syskit-point.md) 
   * [Control Your Microsoft 365 Environment](get-to-know-syskit-point/control-your-microsoft-365-environment.md)
 * [Configuration](configuration/README.md)
