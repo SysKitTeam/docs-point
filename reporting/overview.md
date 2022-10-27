@@ -53,5 +53,6 @@ Reports in SysKit Point can be divided into 6 main categories:
 * [Cleanup & Health Reports](cleanup-and-health-reports.md)
 * [Licenses Reports](licenses-reports.md)
 * [Analytics Reports](analytics-reports.md)
+* [Power BI Reports](power-bi-reports.md)
 
 **Click a link from the list to open an article showing all reports in the selected category.**
