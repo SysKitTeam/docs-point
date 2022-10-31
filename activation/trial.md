@@ -79,6 +79,6 @@ In the SysKit Point web app, you will notice the **trial banner** located at the
 {% hint style="warning" %}
 **Please note!**  
 When the trial ends, the sync option will turn off, and you will no longer be able to click the sync button, download reports or complete other actions.
-21 days after the last day of your trial, all of the data collected in SysKit Point will be erased as per the DPA (Data Processing Agreement). If during those 21 days you purchase a SysKit Point license, all of your data will remain intact. 
+21 days after the last day of your trial, all of the data collected in SysKit Point will be erased as per the [DPA (Data Processing Addendum)](https://www.syskit.com/data-processing-addendum/). If during those 21 days you purchase a SysKit Point license, all of your data will remain intact. 
 {% endhint %}
 
