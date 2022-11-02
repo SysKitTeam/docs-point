@@ -10,7 +10,7 @@ The trial is the latest released application version containing all available ap
 
 ## What happens during product activation?
 
-Product activation is a simple step that takes place during the registration of SysKit Point. The users need to enter their product activation data, authenticated against the SysKit product activation server, to activate the product. The entire activation process is quick and easy, and the majority of users will have to perform product activation only once.
+Product activation is a simple step that takes place during the registration of SysKit Point. To activate the product, users need to enter their product activation data, authenticated against the SysKit product activation server. The entire activation process is quick and easy, and the majority of users will have to perform product activation only once.
 
 ## Who will be required to activate their products?
 
@@ -70,4 +70,3 @@ To reset your password, please go to the [following link](https://my.syskit.com/
 **Please note!**  
 These notifications can sometimes end up in your junk folder, so please check there if you don’t see our email within a few minutes. To avoid these situations, please add our email address to your Safe Senders List.
 {% endhint %}
-
