@@ -27,13 +27,14 @@ Due to [Outlook REST APIs being fully decommissioned on November 30, 2022](https
 **The following permissions were added to the existing SysKit Point service app registration**:
 
 | App Registration | API/ Permissions Name | Permission | Type | Reason |
-| :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | :--- |
 | SysKit Point Service | Microsoft Graph/Mail.ReadWrite | Read and write mail in all mailboxes | Application | Allows SysKit Point to send emails as a part of the Access Review, Lifecycle Management, Scheduled Reports, Alerts, and other features. |
 | SysKit Point Service | Microsoft Graph/Mail.Send | Send mail as any user | Application | Allows SysKit Point to send emails as a part of the Access Review, Lifecycle Management, Scheduled Reports, Alerts, and other features. |
 
 **The following permissions were removed from the existing SysKit Point service app registration**:
 
 | App Registration | API/ Permissions Name | Permission | Type | Reason |
+| :--- | :--- | :--- | :--- | :--- |
 | SysKit Point Service | Microsoft 365 Exchange Online/Mail.Send | Send mail as any user | Application | Allows SysKit Point to send emails as a part of the Access Review, Lifecycle Management, Scheduled Reports, and Alerts features. |
 
 ## SysKit Point 2022.4.1
