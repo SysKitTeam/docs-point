@@ -6,7 +6,7 @@ description: This article explains how you can enable Role-based Access in SysKi
 
 After deploying **SysKit Point**, your Microsoft 365 users can be given access to the **SysKit Point** web app.
 
-By using the built in **role-based security** of SysKit Point you can easily manage who has access SysKit Point, and what features are available to them. Those assigned a role will be **able to view all data collected from Office 365 tenant and perform actions based on the permissions granted to them in Microsoft 365** or have access to all data related to sites, Microsoft 365 Groups, Microsoft teams.
+By using the built-in **role-based security** of SysKit Point, you can easily manage who has access to SysKit Point and what features are available to them. Those assigned a role will be **able to view all data collected from the Microsoft 365 tenant and perform actions based on the permissions granted to them in Microsoft 365** or have access to all data related to sites, Microsoft 365 Groups, and Microsoft teams.
  * Level of access **depends on the roles assigned**.
 
 This allows **site owners to perform Access Reviews on their site and complete Lifecycle Management tasks** to determine which workspaces should be archived or kept. 
