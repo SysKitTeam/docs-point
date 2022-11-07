@@ -2,7 +2,7 @@
 description: This article explains how you can enable Role-based Access in SysKit Point.
 ---
 
-# Assign and Manage Access to Your SysKit Point
+# Assign and Manage Access to SysKit Point
 
 After deploying **SysKit Point**, your Microsoft 365 users can be given access to the **SysKit Point** web app.
 
