@@ -10,7 +10,7 @@ We offer frontline, non-profit, and educational discounts for our annual Cloud a
 
 ## How does SysKit determine who qualifies for non-profit discounts? 
 
-To qualify for non-profit discounts, you need to satisfy the requirements listed at https://aka.ms/eligibility-requirements.
+To qualify for non-profit discounts, you need to satisfy the requirements listed at [https://aka.ms/eligibility-requirements](https://aka.ms/eligibility-requirements).
 
 ## How do I purchase SysKit Point? 
 

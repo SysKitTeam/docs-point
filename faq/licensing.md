@@ -14,7 +14,7 @@ You can sign up for a 21-day free trial of our Governance plan. No credit card i
 
 ## Can I change my edition?
 
-To change the edition, please visit our Subscriptions portal (https://subscriptions.syskit.com/) or [contact us](https://www.syskit.com/company/contact-us).
+To change the edition, please visit our Subscriptions portal [https://subscriptions.syskit.com/](https://subscriptions.syskit.com/) or [contact us](https://www.syskit.com/company/contact-us).
 
 ## What does SysKit consider as a licensed Microsoft 365 user?
 
@@ -50,4 +50,4 @@ Please [contact us](https://www.syskit.com/company/contact-us) or your dedicated
 
 ## Can I reassign Syskit Point license to some other owner?
 
-To reassign a license to a new owner, please visit our customers portal (https://subscriptions.syskit.com/) to update billing and/or delivery contact.
+To reassign a license to a new owner, please visit our customers portal [https://subscriptions.syskit.com/](https://subscriptions.syskit.com/) to update billing and/or delivery contact.
