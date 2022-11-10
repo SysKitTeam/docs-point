@@ -51,7 +51,7 @@ You can migrate the license key to a new resource group only once every 30 days.
 
 ## How to deactivate the license?
 
-Detailed instructions on how to deactivate the license are given[ here](activate-syskit-point.md#deactivate-license).
+Detailed instructions on how to deactivate the license are given [here](../activation/activate-syskit-point.md#deactivate-license).
 
 ## Where can I find the EULA for SysKit Point?
 
