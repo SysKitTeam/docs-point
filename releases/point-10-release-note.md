@@ -35,7 +35,7 @@ Not only Global Administrators but also **Site Owners and users with Full Contro
 
 ## Sync it!
 
-Old ways of collecting data from Microsoft 365 are no more. **With the new Sync capability, data collection has become granular, quick and lightweight.** Heavy lifting is done only when needed. Or when you want it. [Learn more about Sync here.](../faq/collect-office-365-data.md)
+Old ways of collecting data from Microsoft 365 are no more. **With the new Sync capability, data collection has become granular, quick and lightweight.** Heavy lifting is done only when needed. Or when you want it. [Learn more about Sync here.](../get-to-know-syskit-point/collect-office-365-data.md)
 
 ## Audit Logs & Analytics
 
