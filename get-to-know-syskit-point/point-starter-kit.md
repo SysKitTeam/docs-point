@@ -5,15 +5,29 @@ description: This article helps you learn more about using your SysKit Point.
 # Get to Know Your SysKit Point
 
 SysKit Point is a **scalable and easy-to-use management and governance platform for Microsoft 365**. It makes complex environments easy to manage and secure by centralizing inventory and management across multiple Microsoft 365 workloads. 
- * **Visibility & awareness**: Centralize users, structure and resources across Microsoft 365 Groups, Microsoft Teams, OneDrive, SharePoint and Power Platform services.   
- 
-* **Security & compliance**:  Get a detailed overview of who has access to what and audit user actions, including external users, supported by bulk management actions.   
 
-* **Efficiency & automation**: Automate and enforce governance procedures and policies across Microsoft 365. Manage workspaces lifecycle from its creation to its end of life.    
+Your flow of using SysKit Point can go like this, and we will explain each part and link to resources you might need: 
 
-# 5 Must-Try Features to Get Started With SysKit Point 
+ * [**Discover**](#discover-microsoft-365-inventory): Start by centralizing users, structure and resources across Microsoft 365 Groups, Microsoft Teams, OneDrive, SharePoint and Power Platform services. 
 
-While there are many valuable features available, here we'll share just a few that will make it **difficult to go back to a time before you used SysKit Point** to manage your Microsoft 365 environment.
+ * [**Secure**](#secure-reporting-and-management) & [**Protect**](#protect-auditing): Drill down and dig deep to get a detailed overview of who has access to what and audit user actions, including external users, supported by bulk management actions. 
+
+ * [**Efficient Control**](#control-governance-automation-and-lifecycle-management): Automate and enforce governance procedures and policies across Microsoft 365 to gain control over all processes. Manage workspaces lifecycle from its creation to its end of life.  
+
+  * **Collaborate**: Make end users your reliable partners in governance. Enable them to help you secure the data and manage their workspaces to reduce uncontrolled sprawl and unnecessary sharing. 
+
+ {% hint style="warning" %}
+**Please note!**  
+If you are a free trial user, we recommend reading about activation, some limitations and instructions here.
+{% endhint %}
+
+# DISCOVER: MICROSOFT 365 INVENTORY 
+
+Gain a highly accurate and centralized view of all users and resources **across Microsoft Teams, Groups, OneDrive, SharePoint, and Power BI**. 
+
+Drill down into detailed reports about structure, memberships, permissions and much more - gain efficiency and secure your data. Avoid jumping from one admin center to another. 
+
+![SysKit Point - Home screen](../.gitbook/assets/point-starter-kit_discover.png)
 
 ## Users Overview
 
@@ -24,71 +38,102 @@ You can also click on a specific user through the Users Overview screen. The use
  * The user's analytics and usage
  * Microsoft Teams and Group Memberships the user is a part of
  * Which workplaces the user has access to 
- * The OneDrive data of the user
 
 
-## Sites Overview
+## Sites, Microsoft Teams, Groups, OneDrive Overviews 
 
-The Sites overview can also be found directly on the home screen, and **allows you to explore and filter through your sites, Groups, Microsoft Teams and OneDrive**. It's an effective way to stay up to date with your SharePoint activity. Just like the Users Overview, this information can be exported as PDF and Excel files or scheduled for delivery via email. 
+These overviews can also be found directly on the home screen, and **allows you to explore and filter through your sites, Groups, Microsoft Teams and OneDrive**. Selecting one or more sites also gives you a lot of useful details as well as the ability to **manage different options for the sites with one simple click**. You can also click on a specific site for a more detailed overview of it. Here you'll find information like:
 
-Selecting one or more sites also gives you the ability to **manage different options for the sites with one simple click**. Some of the options include:
- * **Site Management**
- * Managing Policies
- * Adding Owners or Members
- * Removing Owners or Members
- * Changing the Sharing Settings
- * Managing Metadata
-
-You can also click on a specific site for a more detailed overview of it. Here you'll find information like:
-
-  * General information about the site
   * Overview of the site with a number of users, external users, anonymous links, and unique permissions
   * Content overview, which includes a list of all files included in the site
-     * The files listed here can also be drilled for more information
   * Who has permission for the site
-  * Analytics and usage for the site
 
-## Generate Reports
 
- 
-With the one-click report generation, these detailed insights make it easy to manage your Microsoft 365 environment. Get a highly accurate and centralized view of all users and resources **across Microsoft Teams, Groups, OneDrive, SharePoint, and Power BI**. 
+-->  Learn how to [Navigate](../get-to-know-syskit-point/navigate-through-syskit-point.md) through SysKit Point.
 
-You can use Reports to **keep track of inventory, membership, external sharing, perform cleanup workspaces that are old or no longer needed, use auditing to get ahead of potential security issues and avoid security breaches*** and much more. 
+-->  Learn more about the [Dashboard](../get-to-know-syskit-point/control-your-microsoft-365-environment.md) and get the entire picture of the **Microsoft 365 environment**. 
 
-SysKit Point reports can be generated from the Reports section on the home screen or by accessing a specific workspace; in the right sidebar, you will have the option to generate all possible reports for that specific workspace.
+# SECURE: REPORTING AND MANAGEMENT 
 
-Reports come with advanced filtering and **can be exported as PDF or Excel files**. To stay up to date with your reports without having to generate them manually, you can also schedule them for delivery via email.
+Create numerous **reports and perform management actions straight from the data overview**. Easily **export or schedule reports** to be delivered to any inbox or SharePoint library you want.   
+
+## Generate reports
+
+With the one-click report generation, these detailed insights make it easy to manage your Microsoft 365 environment. Some of the reports we recommend trying first are:
 
 There are many reports available in SysKit Point, and **the categories that the reports cover** are:
 
-* Permission Reports
-* External Sharing
-* Audit Logs
-* Microsoft Teams & Groups
-* Users
-* Cleanup and Health Check
-* Analytics
-* OneDrive
-* Licenses
-* Power BI
+* **Permissions**: Detect and manage who has access to what across Microsoft 365 sites. Drill down into user permissions and memberships. Detect broken inheritance for all your content where permissions differ from a parent! 
 
-## Control Your Governance and Lifecycle Management
+* **External Sharing**: Control external access and excessive content sharing. Find all external users, guests, and detect externally shared content along with all sharing links. 
+
+* **License Usage**: Discover assigned, unassigned, and inactive Microsoft 365 licenses and the overall cost or find and reclaim licenses assigned to inactive or blocked users - optimize budget.   
+
+* **Cleanup**: Check Microsoft 365 Groups and Microsoft Teams with disabled or deleted owners and assign new. Identify and remove orphaned users. 
+
+![SysKit Point - Reports](../.gitbook/assets/point-starter-kit_secure.png)
+
+## Access Management 
+
+Gain complete control over user access and maximize the security of your tenant- perform numerous management actions directly from reports - **single actions or bulk ones!**  
+
+Some of the options include: 
+
+* **Manage user permissions** – manage who has access to what from one central place, easily offboard people who leave or switch department. You can also **add, copy, or transfer** permissions for multiple users at once. 
+
+* Remove multiple or suspicious **sharing links and manage external users** and guests.   
+
+* Manage Microsoft Teams and Groups **membership and ownership**. 
+
+* **Restore permissions inheritance** on items where you find unique permissions. 
+ 
+--> Learn how to use [Access Management](../access-management/README.md) 
+
+# PROTECT: AUDITING
+
+For Security and Compliance departments looking to **stay compliant with regulations and improve the security posture** of Microsoft 365, on top of reporting and management, Point brings auditing to secure and prevent malicious actions! 
+
+Control how your sensitive data is being used and accessed!  
+
+**Avoid security breaches – audit user and admin activity** across Microsoft 365: 
+
+* Sharing files, folders, sites, teams, or groups     
+
+* Breaking/restoring sharing inheritance    
+
+* Sharing links within the company & anonymous links   
+
+* Deleting or creating sites, teams, or groups 
+
+* Changing admins or modifying organization-wide settings  
+
+--> Learn how to [turn on auditing](../configuration/turn-on-auditing.md) in the Microsoft 365 Security & Compliance Center 
+
+--> Learn how to track [external users](../access-management/track-external-users-and-their-activities.md) and their activity. 
+
+**Plus**: Set up [alerts](../governance-and-automation/configure-alerts.md), prevent security issues, get real-time updates, and react quickly.   
+
+# CONTROL: GOVERNANCE AUTOMATION AND LIFECYCLE MANAGEMENT
+
+Setting up proper governance is key to the success of your organization’s Microsoft 365 deployment. When established appropriately, governance can help empower users to get maximum value from the platform.  
+
+Manage workspaces lifecycle from creation to an end with **automated actions and policies**. Make end users your reliable partners in governance - **keep the tenant secure and clutter-free**. 
+
+![SysKit Point - Automated Workflows](../.gitbook/assets/point-starter-kit_control.png)
 
 * **[Set up provisioning](../governance-and-automation/provisioning/README.md)**
-  * Create templates for new workspace requests for teams, groups, sites, and Yammer. 
-  * Leverage custom metadata, naming and other available policies.
-  * Customize approval workflows with our user-friendly Teams app for requests and approvals.
+  * **Control workspaces creation and avoid sprawl**: Set up **templates for new workspace requests** for Teams, Groups, sites, and Yammer with custom metadata, naming and governance policies in place.   
+  * **Unburden IT teams and simplify process for end user**: Customize requests and approval workflows with our user-friendly Teams app.
 
 * **[Collaborate on access reviews](../governance-and-automation/permissions-review/README.md)** 
   * Enable your admins to set up automated requests. 
   * Allow content owners to regularly review workspace memberships, sharing, and external users. 
   * Delegate the responsibility to those with the best operational knowledge – content owners.
 
-
-* **Create governance policies** 
+* **Enforce [governance policies and automate workflows](../governance-and-automation/automated-workflows/README.md)** 
   * Re-certify guest users, clean up orphaned workspaces, and enforce ownership best practices. 
 
- * **Keep your tenant clean** 
+ * **[Keep your tenant clean](../governance-and-automation/lifecycle-management/README.md)** 
    * Automatically detect inactive SharePoint sites, groups, and teams. 
    * Define policies for keeping, deleting, or archiving data.  
 
