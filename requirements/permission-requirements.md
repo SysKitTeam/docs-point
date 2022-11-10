@@ -61,7 +61,7 @@ To allow safer access to your Microsoft 365 tenant data and optimize the data sy
 
 ### SysKit Point Service
 
-**SysKit Point Service** app registration is used for [data Sync](../faq/collect-office-365-data.md), [audit log collection](../configuration/customize-audit-logs-collection.md), and sending emails. The following permissions enable SysKit Point to perform these actions:
+**SysKit Point Service** app registration is used for [data Sync](../get-to-know-syskit-point/collect-office-365-data.md), [audit log collection](../configuration/customize-audit-logs-collection.md), and sending emails. The following permissions enable SysKit Point to perform these actions:
 
 **Microsoft Graph**
 
@@ -129,7 +129,7 @@ When using Microsoft Authentication Flow to connect a service account, the follo
 
 ### SysKit Point Permissions Loader
 
-**SysKit Point Permissions Loader** app registration is used for optimized [data Sync](../faq/collect-office-365-data.md) for SharePoint and OneDrive data paired with the SysKit Point Service app registration. The following permissions enable SysKit Point to perform these actions:
+**SysKit Point Permissions Loader** app registration is used for optimized [data Sync](../get-to-know-syskit-point/collect-office-365-data.md) for SharePoint and OneDrive data paired with the SysKit Point Service app registration. The following permissions enable SysKit Point to perform these actions:
 
 **Microsoft Graph**
 
