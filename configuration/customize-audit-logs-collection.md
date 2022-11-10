@@ -132,9 +132,7 @@ To select Exchange activities:
 
 To view collected Exchange logs, use the **Exchange Logs report** available in the Report Center.
 
-
-
-## Audit Logs FAQ
+## Additional information
 
 ### Type of Audit Logs Collected
 
@@ -152,6 +150,6 @@ SysKit Point collects unified audit logs, which contain a subset of said logs re
 SysKit Point checks for and collects new audit logs every 15 minutes. 
 Note that it can take up to 24 hours after an event occurs for the corresponding audit log record to be returned in the results of an audit log search. 
 
-### Additional information
+### Unified Audit Logs
 
 You can find additional information about unified audit logs in the [following Microsoft's article](https://docs.microsoft.com/en-us/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide).
