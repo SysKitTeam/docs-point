@@ -32,7 +32,6 @@
 * [Activation](activation/README.md)
   * [Activate SysKit Point](activation/activate-syskit-point.md)
   * [Activation Privacy Statement](activation/activation-privacy-statement.md)
-  * [Activation FAQ](activation/activation-faq.md)
   * [Licensed Users Count](activation/licensed-users-count.md)
   * [SysKit Point Trial](activation/trial.md)
 * [Get to Know SysKit Point](get-to-know-syskit-point/README.md)
