@@ -8,7 +8,7 @@ SysKit Point is a **scalable and easy-to-use management and governance platform 
 
 Your flow of using SysKit Point can go like this, and we will explain each part and link to resources you might need: 
 
- * [**Discover**](#discover-microsoft-365-inventory): Start by centralizing users, structure and resources across Microsoft 365 Groups, Microsoft Teams, OneDrive, SharePoint and Power Platform services. 
+ * [**Discover**](#discover-microsoft-365-inventory): Start by centralizing users, structure, and resources across Microsoft 365 Groups, Microsoft Teams, OneDrive, SharePoint, and Power Platform services. 
 
  * [**Secure**](#secure-reporting-and-management) & [**Protect**](#protect-auditing): Drill down and dig deep to get a detailed overview of who has access to what and audit user actions, including external users, supported by bulk management actions. 
 
@@ -18,14 +18,14 @@ Your flow of using SysKit Point can go like this, and we will explain each part 
 
  {% hint style="warning" %}
 **Please note!**  
-If you are a free trial user, we recommend reading about activation, some limitations and instructions here.
+If you are a free trial user, we recommend reading about activation, some limitations, and instructions here.
 {% endhint %}
 
 # DISCOVER: MICROSOFT 365 INVENTORY 
 
 Gain a highly accurate and centralized view of all users and resources **across Microsoft Teams, Groups, OneDrive, SharePoint, and Power BI**. 
 
-Drill down into detailed reports about structure, memberships, permissions and much more - gain efficiency and secure your data. Avoid jumping from one admin center to another. 
+Drill down into detailed reports about structure, memberships, permissions, and much more - gain efficiency and secure your data. Avoid jumping from one admin center to another. 
 
 ![SysKit Point - Home screen](../.gitbook/assets/point-starter-kit_discover.png)
 
@@ -42,9 +42,9 @@ You can also click on a specific user through the Users Overview screen. The use
 
 ## Sites, Microsoft Teams, Groups, OneDrive Overviews 
 
-These overviews can also be found directly on the home screen, and **allows you to explore and filter through your sites, Groups, Microsoft Teams and OneDrive**. Selecting one or more sites also gives you a lot of useful details as well as the ability to **manage different options for the sites with one simple click**. You can also click on a specific site for a more detailed overview of it. Here you'll find information like:
+These overviews can also be found directly on the home screen, and **allows you to explore and filter through your sites, Groups, Microsoft Teams, and OneDrive**. Selecting one or more sites also gives you a lot of useful details as well as the ability to **manage different options for the sites with one simple click**. You can also click on a specific site for a more detailed overview of it. Here you'll find information like:
 
-  * Overview of the site with a number of users, external users, anonymous links, and unique permissions
+  * Overview of the site with the number of users, external users, anonymous links, and unique permissions
   * Content overview, which includes a list of all files included in the site
   * Who has permission for the site
 
@@ -65,11 +65,11 @@ There are many reports available in SysKit Point, and **the categories that the 
 
 * **Permissions**: Detect and manage who has access to what across Microsoft 365 sites. Drill down into user permissions and memberships. Detect broken inheritance for all your content where permissions differ from a parent! 
 
-* **External Sharing**: Control external access and excessive content sharing. Find all external users, guests, and detect externally shared content along with all sharing links. 
+* **External Sharing**: Control external access and excessive content sharing. Find all external users, and guests, and detect externally shared content along with all sharing links. 
 
-* **License Usage**: Discover assigned, unassigned, and inactive Microsoft 365 licenses and the overall cost or find and reclaim licenses assigned to inactive or blocked users - optimize budget.   
+* **License Usage**: Discover assigned, unassigned, and inactive Microsoft 365 licenses and the overall cost or find and reclaim licenses assigned to inactive or blocked users - optimize the budget.   
 
-* **Cleanup**: Check Microsoft 365 Groups and Microsoft Teams with disabled or deleted owners and assign new. Identify and remove orphaned users. 
+* **Cleanup**: Check Microsoft 365 Groups and Microsoft Teams with disabled or deleted owners and assign new ones. Identify and remove orphaned users. 
 
 ![SysKit Point - Reports](../.gitbook/assets/point-starter-kit_secure.png)
 
@@ -79,7 +79,7 @@ Gain complete control over user access and maximize the security of your tenant-
 
 Some of the options include: 
 
-* **Manage user permissions** – manage who has access to what from one central place, easily offboard people who leave or switch department. You can also **add, copy, or transfer** permissions for multiple users at once. 
+* **Manage user permissions** – manage who has access to what from one central place, easily offboard people who leave or switch departments. You can also **add, copy, or transfer** permissions for multiple users at once. 
 
 * Remove multiple or suspicious **sharing links and manage external users** and guests.   
 
@@ -117,13 +117,13 @@ Control how your sensitive data is being used and accessed!
 
 Setting up proper governance is key to the success of your organization’s Microsoft 365 deployment. When established appropriately, governance can help empower users to get maximum value from the platform.  
 
-Manage workspaces lifecycle from creation to an end with **automated actions and policies**. Make end users your reliable partners in governance - **keep the tenant secure and clutter-free**. 
+Manage workspace lifecycles from creation to end with **automated actions and policies**. Make end users your reliable partners in governance - **keep the tenant secure and clutter-free**. 
 
 ![SysKit Point - Automated Workflows](../.gitbook/assets/point-starter-kit_control.png)
 
 * **[Set up provisioning](../governance-and-automation/provisioning/README.md)**
-  * **Control workspaces creation and avoid sprawl**: Set up **templates for new workspace requests** for Teams, Groups, sites, and Yammer with custom metadata, naming and governance policies in place.   
-  * **Unburden IT teams and simplify process for end user**: Customize requests and approval workflows with our user-friendly Teams app.
+  * **Control workspace creation and avoid sprawl**: Set up **templates for new workspace requests** for Teams, Groups, sites, and Yammer with custom metadata, naming, and governance policies in place.   
+  * **Unburden IT teams and simplify the process for end-users**: Customize requests and approval workflows with our user-friendly Teams app.
 
 * **[Collaborate on access reviews](../governance-and-automation/permissions-review/README.md)** 
   * Enable your admins to set up automated requests. 
