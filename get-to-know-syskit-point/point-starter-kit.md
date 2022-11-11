@@ -18,7 +18,7 @@ Your flow of using SysKit Point can go like this, and we will explain each part 
 
  {% hint style="warning" %}
 **Please note!**  
-If you are a free trial user, we recommend reading about activation, some limitations, and instructions here.
+If you are a free trial user, we recommend reading about activation, some limitations, and instructions [here](../activation/trial.md).
 {% endhint %}
 
 # DISCOVER: MICROSOFT 365 INVENTORY 
