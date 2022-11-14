@@ -18,9 +18,9 @@ For customers using our Point Cloud versions, the activation is automatic after 
 
 ## What happens if I do not activate my product?
 
-If you do not activate your product within the 21-day trial period, you won’t be able to sign in and access the application until it is activated. After the 21-day period, your data will be destroyed as per our [DPA](https://www.syskit.com/data-processing-addendum/).
+If you do not activate your product within the 21-day trial period, you won’t be able to sign in and access the application until it is activated. 
 
-For customers using our Point Cloud versions, the activation is automatic after you purchase the subscription. 
+For customers using our Point Cloud versions, after the 21-day period, your data  will be destroyed as per our [DPA](https://www.syskit.com/data-processing-addendum/).
 
 ## How do I activate my product?
 
@@ -33,8 +33,6 @@ We use the information only to verify that your product is used within the scope
 ## Why does SysKit require its customers to activate the software?
 
 Product activation is a simple way to reduce and deter unauthorized use and casual copying of SysKit products with minimal effect on our loyal customers. 
-
-For customers using our Point Cloud versions, the activation is automatic after you purchase the subscription. 
 
 ## How long does the product activation take to complete?
 
