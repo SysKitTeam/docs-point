@@ -8,11 +8,11 @@ SysKit Point is a **scalable and easy-to-use management and governance platform 
 
 Your flow of using SysKit Point can go like this, and we will explain each part and link to resources you might need: 
 
- * [**Discover**](#discover-microsoft-365-inventory): Start by centralizing users, structure, and resources across Microsoft 365 Groups, Microsoft Teams, OneDrive, SharePoint, and Power Platform services. 
+ * **[Discover](#discover-microsoft-365-inventory)**: Start by centralizing users, structure, and resources across Microsoft 365 Groups, Microsoft Teams, OneDrive, SharePoint, and Power Platform services. 
 
- * [**Secure**](#secure-reporting-and-management) & [**Protect**](#protect-auditing): Drill down and dig deep to get a detailed overview of who has access to what and audit user actions, including external users, supported by bulk management actions. 
+ * **[Secure](#secure-reporting-and-management)** & **[Protect](#protect-auditing)**: Drill down and dig deep to get a detailed overview of who has access to what and audit user actions, including external users, supported by bulk management actions. 
 
- * [**Efficient Control**](#control-governance-automation-and-lifecycle-management): Automate and enforce governance procedures and policies across Microsoft 365 to gain control over all processes. Manage workspaces lifecycle from its creation to its end of life.  
+ * **[Efficient Control](#control-governance-automation-and-lifecycle-management)**: Automate and enforce governance procedures and policies across Microsoft 365 to gain control over all processes. Manage workspaces lifecycle from its creation to its end of life.  
 
   * **Collaborate**: Make end users your reliable partners in governance. Enable them to help you secure the data and manage their workspaces to reduce uncontrolled sprawl and unnecessary sharing. 
 
@@ -21,7 +21,7 @@ Your flow of using SysKit Point can go like this, and we will explain each part 
 If you are a free trial user, we recommend reading about activation, some limitations, and instructions [here](../activation/trial.md).
 {% endhint %}
 
-<h1 id="discover-microsoft-365-inventory"> DISCOVER: MICROSOFT 365 INVENTORY </h1>
+<h2 id="discover-microsoft-365-inventory"> DISCOVER: MICROSOFT 365 INVENTORY </h2>
 
 Gain a highly accurate and centralized view of all users and resources **across Microsoft Teams, Groups, OneDrive, SharePoint, and Power BI**. 
 
@@ -53,7 +53,7 @@ These overviews can also be found directly on the home screen, and **allows you 
 
 -->  Learn more about the [Dashboard](../get-to-know-syskit-point/control-your-microsoft-365-environment.md) and get the entire picture of the **Microsoft 365 environment**. 
 
-<h1 id="secure-reporting-and-management"> SECURE: REPORTING AND MANAGEMENT </h1>
+<h2 id="secure-reporting-and-management"> SECURE: REPORTING AND MANAGEMENT </h2>
 
 Create numerous **reports and perform management actions straight from the data overview**. Easily **export or schedule reports** to be delivered to any inbox or SharePoint library you want.   
 
@@ -89,7 +89,7 @@ Some of the options include:
  
 --> Learn how to use [Access Management](../access-management/README.md) 
 
-<h1 id="protect-auditing"> PROTECT: AUDITING </h1>
+<h2 id="protect-auditing"> PROTECT: AUDITING </h2>
 
 For Security and Compliance departments looking to **stay compliant with regulations and improve the security posture** of Microsoft 365, on top of reporting and management, Point brings auditing to secure and prevent malicious actions! 
 
@@ -113,7 +113,7 @@ Control how your sensitive data is being used and accessed!
 
 **Plus**: Set up [alerts](../governance-and-automation/configure-alerts.md), prevent security issues, get real-time updates, and react quickly.   
 
-<h1 id="control-governance-automation-and-lifecycle-management"> CONTROL: GOVERNANCE AUTOMATION AND LIFECYCLE MANAGEMENT </h1>
+<h2 id="control-governance-automation-and-lifecycle-management"> CONTROL: GOVERNANCE AUTOMATION AND LIFECYCLE MANAGEMENT </h2>
 
 Setting up proper governance is key to the success of your organization’s Microsoft 365 deployment. When established appropriately, governance can help empower users to get maximum value from the platform.  
 
