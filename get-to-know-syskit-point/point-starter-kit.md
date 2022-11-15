@@ -8,11 +8,11 @@ SysKit Point is a **scalable and easy-to-use management and governance platform 
 
 Your flow of using SysKit Point can go like this, and we will explain each part and link to resources you might need: 
 
- * [**Discover**](#discover-microsoft-365-inventory): Start by centralizing users, structure, and resources across Microsoft 365 Groups, Microsoft Teams, OneDrive, SharePoint, and Power Platform services. 
+ * [**Discover**](#discover:-microsoft-365-inventory): Start by centralizing users, structure, and resources across Microsoft 365 Groups, Microsoft Teams, OneDrive, SharePoint, and Power Platform services. 
 
- * [**Secure**](#secure-reporting-and-management) & [**Protect**](#protect-auditing): Drill down and dig deep to get a detailed overview of who has access to what and audit user actions, including external users, supported by bulk management actions. 
+ * [**Secure**](#secure:-reporting-and-management) & [**Protect**](#protect-auditing): Drill down and dig deep to get a detailed overview of who has access to what and audit user actions, including external users, supported by bulk management actions. 
 
- * [**Efficient Control**](#control-governance-automation-and-lifecycle-management): Automate and enforce governance procedures and policies across Microsoft 365 to gain control over all processes. Manage workspaces lifecycle from its creation to its end of life.  
+ * [**Efficient Control**](#control:-governance-automation-and-lifecycle-management): Automate and enforce governance procedures and policies across Microsoft 365 to gain control over all processes. Manage workspaces lifecycle from its creation to its end of life.  
 
   * **Collaborate**: Make end users your reliable partners in governance. Enable them to help you secure the data and manage their workspaces to reduce uncontrolled sprawl and unnecessary sharing. 
 
