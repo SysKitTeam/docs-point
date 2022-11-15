@@ -132,3 +132,24 @@ To select Exchange activities:
 
 To view collected Exchange logs, use the **Exchange Logs report** available in the Report Center.
 
+## Additional information
+
+### Type of Audit Logs Collected
+
+SysKit Point collects audit logs accessible in the unified audit log. Out of the box, you can review the audit logs from the [Microsoft 365 compliance center](https://compliance.microsoft.com/auditlogsearch).
+You can additionaly [customize for which activities will SysKit Point collect audit logs](../configuration/customize-audit-logs-collection.md).
+
+### Sign-in Logs from Azure Active Directory 
+
+Azure Active Directory shows all sing-ins performed by users, service principals, apps, and Azure resources.
+**SysKit Point does not collect Azure Active Directory sign-in logs.** 
+SysKit Point collects unified audit logs, which contain a subset of said logs related to Microsoft 365 and are visible in the [Microsoft 365 compliance center](https://compliance.microsoft.com/auditlogsearch).
+
+### Frequency of Audit Log Collection
+
+SysKit Point checks for and collects new audit logs every 15 minutes. 
+Note that it can take up to 24 hours after an event occurs for the corresponding audit log record to be returned in the results of an audit log search. 
+
+### Unified Audit Logs
+
+You can find additional information about unified audit logs in the [following Microsoft's article](https://docs.microsoft.com/en-us/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide).
