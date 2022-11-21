@@ -107,7 +107,7 @@
     * [Teams](configuration-inventory/report-overview/teams.md)
     * [Azure Active Directory](configuration-inventory/report-overview/azure-active-directory.md)
     * [Intune](configuration-inventory/report-overview/intune.md)
-* [SysKit Point Power BI Companion](power-bi-app/README.md)
+* [SysKit Point Power BI](power-bi-app/README.md)
   * [Releases](power-bi-app/releases/README.md)
     * [SysKit Point Power BI App 21](power-bi-app/releases/power-bi-app-21-release-note.md)
     * [SysKit Point Power BI App 25](power-bi-app/releases/power-bi-app-25-release-note.md)
