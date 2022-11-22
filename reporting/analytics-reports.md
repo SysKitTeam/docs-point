@@ -174,7 +174,7 @@ The columns that are seen by default are:
 
 The Meeting Interactions report allows the exploration of how people interact in Microsoft Teams via 1:1 calls and meetings.
 
-This report is can be used to see how users are adopting Microsoft Teams in your environment.
+This report can be used to see how users are adopting Microsoft Teams in your environment.
 
 To see this report, the Adoption and Analytics module needs to be installed in SysKit Point.
 

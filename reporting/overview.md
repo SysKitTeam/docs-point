@@ -46,7 +46,7 @@ Some reports, such as **the External Users report, generate right after clicking
 
 ## Report Categories
 
-Reports in SysKit Point can be divided into 6 main categories:
+Reports in SysKit Point can be divided into 8 main categories:
 * [External Sharing Reports](external-sharing-reports.md)
 * [Access Reports](access-reports.md)
 * [Audit Reports](audit-reports.md)
@@ -54,5 +54,7 @@ Reports in SysKit Point can be divided into 6 main categories:
 * [Licenses Reports](licenses-reports.md)
 * [Analytics Reports](analytics-reports.md)
 * [Power BI Reports](power-bi-reports.md)
+* [Inventory Reports](inventory-reports.md)
+
 
 **Click a link from the list to open an article showing all reports in the selected category.**

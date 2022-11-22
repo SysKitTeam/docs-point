@@ -12,8 +12,8 @@ This article contains information on eight access reports available through the 
 * [Group Memberships Report](#group-memberships-report)
 * [Group Access Report](#group-access-report)
 * [Users with Privileged Access Report](#users-with-privileged-access-report)
-* [Microsoft Teams with Private Channels Report](#microsoft-teams-with-private-channels-report)
 * [SharePoint Groups Report](#sharepoint-groups-report)
+* [Microsoft Teams with Private Channels Report](#microsoft-teams-with-private-channels-report)
 
 
 ## Permissions Matrix Report
@@ -70,7 +70,6 @@ There are also additional columns in the **column chooser**, located in the top 
 * **Is Deleted**
 * **Is Licensed**
 * **Sign-in Status**
-
 
 ### Report Actions
 
