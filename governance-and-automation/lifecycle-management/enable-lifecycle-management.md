@@ -27,7 +27,7 @@ The screen shows **additional actions** required before enabling the Lifecycle M
 ![Lifecycle Management - Additional Action Required](../../.gitbook/assets/enable-lifecycle-management_collaborators-disabled.png)
 
 {% hint style="info" %}
-Use the following links and learn how to [set up e-mail](../../configuration/customize-emails.md) and enable [SysKit Point Collaborators](../../configuration/enable-role-based-access.md#syskit-point-collaborators-1).
+Use the following links and learn how to [set up e-mail](../../configuration/set-up-email.md) and enable [SysKit Point Collaborators](../../configuration/enable-role-based-access.md#syskit-point-collaborators-1).
 {% endhint %}
 
 Once all requirements are met, on the Lifecycle Management settings screen, you can:
