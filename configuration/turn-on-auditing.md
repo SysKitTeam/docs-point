@@ -20,6 +20,8 @@ After you click the button, a security dialog appears. Click Yes to continue.
 
 ![Microsoft 365 Security Center - Security dialog](../.gitbook/assets/turn_on_auditing-security_dialog.png)
 
+After you complete the steps described, wait for audit logs to show on the Audit Log Search page.
+
 {% hint style="warning" %}
 **Please note!**  
 SysKit Point will not collect audit log data before it becomes available in the Microsoft 365 Security Center. **It can take up to 24 hours for audit log data to become available.**
