@@ -40,6 +40,7 @@ Create a new Access Review policy by clicking the **Create New Policy button (4)
 The following dialog opens, providing the ability to **choose the policy type**. 
 
 ![Policy Type Selection](../../.gitbook/assets/create-access-review-policies_policy-type.png)
+
 **Click Access Review \(1\)** to continue. 
 
 The **Create New Policy** dialog opens where the following Access Review options can be defined: 

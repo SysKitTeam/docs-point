@@ -95,7 +95,7 @@ The Access Review report gives SysKit Point Admins the following information:
 * **Remind Owners action \(5\)** to send the reminder email to site owners manually 
 * **When a workspace is selected \(6\)**, two actions are available in the side panel:
   * **Review \(7\)** - only available if SysKit Point Admin is also the owner of the selected workspace
-  * **View Details \(8\)** - available when one or multiple workspaces are selected; opens the [**Access Review - Summary**](monitor-permissions-review.md#permissions-review-summary) report
+  * **View Details \(8\)** - available when one or multiple workspaces are selected; opens the [**Access Review - Summary**](monitor-permissions-review.md#access-review---summary) report
 
 ![Governance - Access Review](../../.gitbook/assets/monitor-permissions-review_permissions-review.png)
 
@@ -120,7 +120,7 @@ To view sites where the Access Review was not completed, click the **View Uncomp
 
 * **See that all tasks where the Access Review was not completed have the status set to Overdue \(1\)** 
 * **Select one or multiple workspaces \(2\)**
-* **Generate the** [**Access Review - Summary report**](monitor-permissions-review.md#permissions-review---summary) **\(3\)**
+* **Generate the** [**Access Review - Summary report**](monitor-permissions-review.md#access-review---summary) **\(3\)**
 
 SysKit Point changes the status automatically when the Access Review ends.
 

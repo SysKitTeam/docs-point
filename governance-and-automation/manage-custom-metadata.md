@@ -36,6 +36,7 @@ To start, take the following steps:
 
 
 ![Access Custom Metadata](../.gitbook/assets/custom-metadata_how-to-locate.png)
+
 Once the create new metadata screen opens, fill in the following information.
 * **Metadata Name (1)**; the name of the metadata.
 * **Description (2)**; the description of the metadata for end users.
