@@ -15,7 +15,7 @@ You can also **use the Manual Access Review to test and prepare** your users for
 
 {% hint style="info" %}
 **Learn more!**  
-To find more about the Automated Access Review, visit the [following article](permissions-review.md).
+To find more about the Automated Access Review, visit the [following article](enable-permissions-review.md).
 {% endhint %}
 
 ## Request Review
