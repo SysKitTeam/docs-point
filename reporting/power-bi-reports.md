@@ -4,7 +4,7 @@ description: Power BI reports provide insight into the state of your Power BI re
 
 # Power BI Reports
 
-This article contains information on eight access reports available through the **Report Center**:
+This article contains information on three Power BI reports available through the **Report Center**:
 
 * [Power BI Inventory Report](#power-bi-inventory-report)
 * [Power BI Workspaces Report](#power-bi-workspaces-report)
@@ -14,7 +14,7 @@ This article contains information on eight access reports available through the 
 
 ## Power BI Inventory Report
 
-The Power BI Inventory report gives insight into the Power BI resources inside of your environment, such as dashboards, datasets, dataflows and reports.
+The Power BI Inventory reports gives insight into the Power BI resources inside of your environment, such as dashboards, datasets, dataflows and reports.
 
 It allows you to view the resources based on their classification and see which respource is located under which workspace.
 
@@ -63,23 +63,9 @@ The Power BI Workspaces report gives insight into the Power BI workspaces inside
 * **Click the Power BI Workspaces report tile** to be redirected to the Selection screen.
 
 After clicking the **Power BI Workspaces** report tile, the Selection step opens where you can:
-* **Select the resources** you want to manage
-   * Click the checkboxes on the screen's left side to select one or more resources. 
-* **Click the Remove Access button** that will show on the right side of the screen
-
-A **Remove User Access pop-up** will appear that will explain that the action to remove access will result in removing users from:
- * All SharePoint groups and connected Microsoft 365 groups
- * Private Channels 
- * Site owners
- * Secure shaking links
- * Directly assigned permissions 
-
-However, the remove access action will now:
- * Change security groups membership
- * Remove the primary site owner
- * Remove access to Shared Channels or Power BI Workspaces 
-
-To proceed with removing access, you will need to **type REMOVE and click the remove button**. 
+* **Selecting a resource** will provide the option to generate the following related reports: 
+   * Power BI Inventory
+   * Power BI Permissions
 
 The Power BI Workspaces overview report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
@@ -109,5 +95,7 @@ The default columns displayed in the report are:
 * **Type** of resource or user that is within the resource
 * **Users Permissions** shows the type of permission a user has within the resource - Admin, Member or Contributor
 * **External**
+
+Once the report is generated, on the right side under the section **Go to Report**, you have the option to directly generate the **Power BI Inventory report**. 
 
 The Power BI Permissions report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.

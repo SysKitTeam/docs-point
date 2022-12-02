@@ -8,13 +8,13 @@ In this article, you'll find a list of reports that will provide an overview of 
 
 They can all be accessed through the **home page**:
 
-* [Sites Reports](#sites-report)
-* [Users Reports](#users-report)
-* [Microsoft Teams & Groups Reports](#microsoft-teams-and-groups-report)
+* [Sites Report](#sites-report)
+* [Users Report](#users-report)
+* [Microsoft Teams & Groups Report](#microsoft-teams-and-groups-report)
 
 ## Sites Report
 
-Sites reports provide **insight into everything you need to know about your sites** usage and will help you efficiently manage different options for your sites. 
+The Sites report provides **a list of all SharePoint sires in your Microsoft 365 environment** which will help you gain insight into your most important properties and metadata, such as assigned sensitivity labels, privacy, sharing setting, who the primary admin is and more. 
 
 ### Generate Report
 
@@ -22,7 +22,7 @@ The Sites report can be accessed by **clicking Sites** on the Home page.
 
 This will open the Sites report, which can be viewed and filtered in multiple ways. 
 
-In the top left corner, **All Sites** is automatically selected in the filter. Clicking on the **View filter** will provide the following additional options: 
+In the top left corner, **All Sites** is automatically selected in the filter. Clicking the **View filter** will provide the following additional options: 
   * All Sites
   * Deleted Sites
   * Recently Created Sites
@@ -33,9 +33,9 @@ In the top left corner, **All Sites** is automatically selected in the filter. C
   * Anonymously Shared Sites
   * Hub Sites
 
-Clicking on any of those categories will filter the report based on the selected. 
+Clicking any of those categories will filter the report based on the selected. 
 
-At the top, above the report, there are 4 tiles that can be used to filter the report based on the type of resources. The following options are available and can be selected by clicking on them:
+At the top, above the report, there are 4 tiles that can be used to filter the report based on the type of resources. The following options are available and can be selected by clicking them:
   * Microsoft Teams
   * Microsoft 365 Groups 
   * Sites
@@ -93,6 +93,14 @@ The Manage actions available are:
   * Configure Alerts
   * Change Metadata
 
+The Go to Reports section lists all the related reports that can be generated. The available reports are:
+  * Permissions Matrix
+  * Externally Shared Content
+  * Unique Permissions
+  * File and Page Activities
+  * Permissions Changes
+
+
 Under Lifecycle Management, the following actions are available:
   * Keep
   * Archive
@@ -102,79 +110,9 @@ Under Lifecycle Management, the following actions are available:
 For Access Review, the action available is to **Request Review**.
 
 
-## Users Report
-
-The Users report provides a **detailed overview of all users' activities** in your environment. They enable you to quickly detect and troubleshoot potential issues, security breaches, or suspicious behavior. 
-
-### Generate Report
-
-The Users report can be accessed by **clicking Users** on the Home page. 
-
-This will open the Users report, which can be viewed and filtered in multiple ways. 
-
-In the top left corner, **All Users** is automatically selected in the filter. Clicking on the **View filter** will provide the following additional options: 
-
-  * All Users
-  * Recently Added Users
-  * External Users
-  * Administrators 
-  * Licensed Users
-  * Unlicensed Users
-  * Sign-in Allowed Users
-  * Sign-in Blocked Users
-  * Deleted Users
-  * Inactive Users
-
-At the top, above the report, there are 5 tiles that can be used to filter the report based on the type of user.
-
-The following options are available and can be selected by clicking on them:
-  * Total Users
-  * External Users
-  * Unlicensed Users
-  * Licensed Users
-  * Inactive Users
-
-
-The default columns displayed in the report are the following:
-  * Display Name
-  * Username
-  * Department
-  * Sign-in
-  * External
-  * Last Logged In
-
-Additional columns are available in the **column chooser**, located in the top right part of the report. The additional columns available are:
- * Manager
- * Email
- * Licenses
- * OneDrive Size
- * City
- * State or Province
- * Country or Region
- * Created On
- * Deleted On
- * Roles
- * User Sync Status
- * OneDrive Client Synced
- * External User Type
-
-### Report Actions
-
-The Users report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
-
-On the right side, there is a Manage section which provides the ability to **Configure Tenant Wide Alerts**.
-
-Selecting users provides several different actions that can be taken. The Manage actions available are: 
-  * Delete User
-  * Block User Sign-in
-  * Copy User Permissions
-  * Configure Alerts
-
-
-
 ## Microsoft Teams and Groups Report
 
-The Microsoft Teams & Groups report provides **detailed insight into data related to your Microsoft Teams and Groups** usage and helps you easily manage them.
+The Microsoft Teams & Groups report provides **insight into the properties and metadata relating to the Miscrosoft Teams & Groups in your environment** such as the number or members, oweners and guests in a specific Team or Group. 
 
 ### Generate Report
 
@@ -182,7 +120,7 @@ The Microsoft Teams & Groups report can be accessed by **clicking Microsoft Team
 
 This will open the Microsoft Teams & Groups report, which can be viewed and filtered in multiple ways. 
 
-In the top left corner, **All Groups** is automatically selected in the filter. Clicking on the **View filter** will provide the following additional options: 
+In the top left corner, **All Groups** is automatically selected in the filter. Clicking the **View filter** will provide the following additional options: 
   * Teams Only
   * Groups Only
   * Recently Created Groups
@@ -195,7 +133,7 @@ In the top left corner, **All Groups** is automatically selected in the filter. 
 
 Clicking on any of those categories will filter the report based on the selected. 
 
-At the top, there are 5 tiles that can be used to filter the report. The following options are available and can be selected by clicking on them:
+At the top, there are 5 tiles that can be used to filter the report. The following options are available and can be selected by clicking them:
   * The Number of Microsoft Teams
   * The Number of Microsoft 365 Groups 
   * Recently Created
@@ -253,6 +191,15 @@ The Manage actions available are:
   * Configure Alerts
   * Change Metadata
 
+The Go to Report section provides a list of related reports that are available: 
+  * Permissions Matrix
+  * Externally Shared Content
+  * Unique Permissions
+  * Group Members
+  * File and Page Activities
+  * Permissions Changes
+
+
 Under Lifecycle Management, the following actions are available:
   * Keep
   * Archive
@@ -260,3 +207,76 @@ Under Lifecycle Management, the following actions are available:
   * Ask Owners to Renew
 
 For Access Review, the action available is to **Request Review**.
+
+
+## Users Report
+
+The Users report provides insight into **all the users in your environment** and an overview of key data relating to them such as who is a manager, which department a user is in, if they have a license assigned, whether they're an external user and more.
+
+### Generate Report
+
+The Users report can be accessed by **clicking Users** on the Home page. 
+
+This will open the Users report, which can be viewed and filtered in multiple ways. 
+
+In the top left corner, **All Users** is automatically selected in the filter. Clicking the **View filter** will provide the following additional options: 
+
+  * All Users
+  * Recently Added Users
+  * External Users
+  * Administrators 
+  * Licensed Users
+  * Unlicensed Users
+  * Sign-in Allowed Users
+  * Sign-in Blocked Users
+  * Deleted Users
+  * Inactive Users
+
+At the top, above the report, there are 5 tiles that can be used to filter the report based on the type of user.
+
+The following options are available and can be selected by clicking them:
+  * Total Users
+  * External Users
+  * Unlicensed Users
+  * Licensed Users
+  * Inactive Users
+
+
+The default columns displayed in the report are the following:
+  * Display Name
+  * Username
+  * Department
+  * Sign-in
+  * External
+  * Last Logged In
+
+Additional columns are available in the **column chooser**, located in the top right part of the report. The additional columns available are:
+ * Manager
+ * Email
+ * Licenses
+ * OneDrive Size
+ * City
+ * State or Province
+ * Country or Region
+ * Created On
+ * Deleted On
+ * Roles
+ * User Sync Status
+ * OneDrive Client Synced
+ * External User Type
+
+### Report Actions
+
+The Users report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+
+On the right side, there is a Manage section which provides the ability to **Configure Tenant Wide Alerts**.
+
+Selecting users provides several different actions that can be taken. The Manage actions available are: 
+  * Delete User
+  * Block User Sign-in
+  * Copy User Permissions
+  * Configure Alerts
+
+  The Go to Report section provides access to related reports that are available:
+    * User Access
+    * User Activity 

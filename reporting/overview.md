@@ -14,7 +14,9 @@ The **Reports** section enables the following actions:
 
 ## Generate Reports
 
-To generate a report in SysKit Point, **navigate to the Report Center by clicking the Reports tile on the Home screen**.
+The **Inventory Reports** can be generated directly from the home page by clicking Sites, Microsoft Teams & Groups or Users. 
+
+To generate reports in all the other categories available in SysKit Point, **navigate to the Report Center by clicking the Reports tile on the Home screen**.
 In the Report Center, you can:
 * **See all reports available in SysKit Point** along with a short description of what each provides
 * **Filter reports by category (1)**; only reports within the selected category are displayed
@@ -22,7 +24,7 @@ In the Report Center, you can:
 * **Navigate to Scheduled Reports (3)** where you can view and manage recurring delivery of reports 
 * **Click a report tile (4)** to generate the wanted report
 
-![SysKit Point - Report Center](../../.gitbook/assets/generate_reports_overview-report_center.png)
+![SysKit Point - Report Center](../.gitbook/assets/generate_reports_overview-report_center.png)
 
 After you click the report tile, the **Selection screen** opens.
 Here, you can:
@@ -30,7 +32,7 @@ Here, you can:
 * **Adjust additional filters (2)**
 * **Click Run Report (3) to generate the report**
 
-![Generating Reports - Selection Screen](../../.gitbook/assets/generate_reports_overview-selection_step.png)
+![Generating Reports - Selection Screen](../.gitbook/assets/generate_reports_overview-selection_step.png)
 
 {% hint style="warning" %}
 **Please note!**  
@@ -47,6 +49,7 @@ Some reports, such as **the External Users report, generate right after clicking
 ## Report Categories
 
 Reports in SysKit Point can be divided into 8 main categories:
+* [Inventory Reports](inventory-reports.md)
 * [External Sharing Reports](external-sharing-reports.md)
 * [Access Reports](access-reports.md)
 * [Audit Reports](audit-reports.md)
@@ -54,7 +57,6 @@ Reports in SysKit Point can be divided into 8 main categories:
 * [Licenses Reports](licenses-reports.md)
 * [Analytics Reports](analytics-reports.md)
 * [Power BI Reports](power-bi-reports.md)
-* [Inventory Reports](inventory-reports.md)
 
 
 **Click a link from the list to open an article showing all reports in the selected category.**
