@@ -34,7 +34,7 @@ Some of them are:
 
 ### Generate User Access Report
 
-First, you need to **Sign in** to **SysKit Point**. When located on the **home screen**, click the **Reports** tile.
+First, you need to **Sign in** to your **SysKit Point**. When located on the **home screen**, click the **Reports** tile.
 
 ![SysKit Point - Welcome screen](../.gitbook/assets/user_access_docs1.png)
 

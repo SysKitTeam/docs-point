@@ -16,7 +16,7 @@ By default, SysKit Point provides 3 approval processes:
 
 ## Create a Custom Approval Process 
 
-To create your custom approval process from scratch, click on the **New Approval Process** button. You will need to define several settings: 
+To create your custom approval process from scratch, click the **New Approval Process** button. You will need to define several settings: 
 
   - **Approval Process Name** – give a name to this approval process; this will be displayed in the template wizard  
   - **Number of stages for this approval** – how many levels of approval each request needs to go through before it is finally approved. Current options are: 
