@@ -9,7 +9,7 @@ In this article, you can locate information on the following external sharing re
 * [External Users](#external-users-report)
 * [Sharing Links](#sharing-links)
 
-These reports can be used to **optimize and keep track of externally shared content, links and external users with access to your Microsoft 365 workspaces and content**. 
+These reports can be used to **optimize and keep track of externally shared content, links, and external users with access to your Microsoft 365 workspaces and content**. 
 
 To access an external sharing report, complete the following steps:
 
@@ -25,7 +25,7 @@ This report shows content shared with external users via sharing links or by gra
 
 After clicking the **Externally Shared Content** report tile, a selection step opens where you can:
 * **Use the top filter** to show only a specific type of workspace.
-* **Select one or multiple workspaces** (sites, Microsoft Teams, Microsoft 365 Groups or OneDrive) for which the report should be generated.
+* **Select one or multiple workspaces** (sites, Microsoft Teams, Microsoft 365 Groups, OneDrive, or shared channels) for which the report should be generated.
 * **Use the search option** for any specific site inquiries. 
 * **Choose the content level to be shown** once prompted.
   * The option to select between the following options will appear:
@@ -40,7 +40,7 @@ After clicking the **Externally Shared Content** report tile, a selection step o
 The generated report displays all externally shared content based on the workspace and filter selection. 
 
 The following columns are visible:    
-* **Name**; the workspace, content, groups and external users are shown in the tree grid.
+* **Name**; the workspace, content, groups, and external users are shown in the tree grid.
 * **Permission levels**; the level of access for external users over the content. 
   * For example: **Full Control**, **Design**, **Read**, **Edit**, **Contribute** or custom permission levels
     
@@ -77,7 +77,7 @@ The following access management actions can be performed:
 
 ## External Users Report
 
-This report contains all external users (registered in your tenant and outside your tenant) who have access to sites, Microsoft 365 Groups, Microsoft Teams, OneDrive, and Private Channels.
+This report contains all external users (registered in your tenant and outside your tenant) who have access to sites, Microsoft 365 Groups, Microsoft Teams, OneDrive, and shared or private channels.
 
 ### Generate Report
 
@@ -119,7 +119,7 @@ The External Users report can be **exported as a PDF or XLSX file**. There is al
 
 The Sharing Links report helps **identify all the shared files and folders along with their sharing links**. 
 
-Use this to easily **locate and remove external users** when necessary.
+Use this to **locate and remove sharing links** when necessary.
 
 ### Generate Report
 
@@ -139,7 +139,7 @@ To generate this report from the Report Center:
 
 After clicking the **Sharing Links** report tile, a selection step opens where you can:
 * **Use the top filter** to show only a specific type of workspace.
-* **Select one or multiple workspaces** (sites, Microsoft Teams, Microsoft 365 Groups or OneDrive) for which the report should be generated.
+* **Select one or multiple workspaces** (sites, Microsoft Teams, Microsoft 365 Groups, OneDrive, and shared or private channels) for which the report should be generated.
 * **Use the search option** for any specific site inquiries. 
 * **Choose the link type to show** on the generated report.
   * You can choose between the following link types:

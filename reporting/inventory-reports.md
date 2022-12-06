@@ -1,20 +1,20 @@
 ---
-description: This article provides a detailed overview of the reports available for Sites, Users, and Microsoft Teams & Groups. 
+description: This article provides a detailed overview of the reports available for Sites, Microsoft Teams & Groups, and Users. 
 ---
 
 # Inventory Reports
 
-In this article, you'll find a list of reports that will provide an overview of your tenant inventory filtered through **Sites, Users, and Microsoft Teams & Group**. 
+In this article, you'll find a list of reports that will provide an overview of your tenant inventory filtered through **Sites, Microsoft Teams & Groups, and Users**. 
 
 They can all be accessed through the **home page**:
 
 * [Sites Report](#sites-report)
-* [Users Report](#users-report)
 * [Microsoft Teams & Groups Report](#microsoft-teams-and-groups-report)
+* [Users Report](#users-report)
 
 ## Sites Report
 
-The Sites report provides **a list of all SharePoint sires in your Microsoft 365 environment** which will help you gain insight into your most important properties and metadata, such as assigned sensitivity labels, privacy, sharing setting, who the primary admin is and more. 
+The Sites report provides **a list of all SharePoint sites in your Microsoft 365 environment** which will help you gain insight into your most important properties and metadata, such as assigned sensitivity labels, privacy, sharing settings, who the primary admin is, and more. 
 
 ### Generate Report
 
@@ -35,7 +35,7 @@ In the top left corner, **All Sites** is automatically selected in the filter. C
 
 Clicking any of those categories will filter the report based on the selected. 
 
-At the top, above the report, there are 4 tiles that can be used to filter the report based on the type of resources. The following options are available and can be selected by clicking them:
+At the top, above the report, 4 tiles can be used to filter the report based on the type of resources. The following options are available and can be selected by clicking them:
   * Microsoft Teams
   * Microsoft 365 Groups 
   * Sites
@@ -112,7 +112,7 @@ For Access Review, the action available is to **Request Review**.
 
 ## Microsoft Teams and Groups Report
 
-The Microsoft Teams & Groups report provides **insight into the properties and metadata relating to the Miscrosoft Teams & Groups in your environment** such as the number or members, oweners and guests in a specific Team or Group. 
+The Microsoft Teams & Groups report provides **insight into the properties and metadata relating to the Microsoft Teams & Groups in your environment** such as the number of members, owners, and guests in a specific Team or Group. 
 
 ### Generate Report
 
@@ -131,9 +131,9 @@ In the top left corner, **All Groups** is automatically selected in the filter. 
   * Inactive Groups
   * Archived Groups
 
-Clicking on any of those categories will filter the report based on the selected. 
+Clicking any of those categories will filter the report based on the selected. 
 
-At the top, there are 5 tiles that can be used to filter the report. The following options are available and can be selected by clicking them:
+At the top, 5 tiles can be used to filter the report. The following options are available and can be selected by clicking them:
   * The Number of Microsoft Teams
   * The Number of Microsoft 365 Groups 
   * Recently Created
@@ -177,7 +177,7 @@ There are additional columns available in the **column chooser**, located in the
 
 ### Report Actions
 
-The Sites report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+The Microsoft Teams & Groups report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
 On the right side of the report, there is a Manage section that provides the ability to **Configure Tenant Wide Alerts**.
 
@@ -211,7 +211,7 @@ For Access Review, the action available is to **Request Review**.
 
 ## Users Report
 
-The Users report provides insight into **all the users in your environment** and an overview of key data relating to them such as who is a manager, which department a user is in, if they have a license assigned, whether they're an external user and more.
+The Users report provides insight into **all the users in your environment** and an overview of key data relating to them such as who is a manager, which department a user is in, if they have a license assigned, whether they're an external user, and more.
 
 ### Generate Report
 
@@ -232,7 +232,7 @@ In the top left corner, **All Users** is automatically selected in the filter. C
   * Deleted Users
   * Inactive Users
 
-At the top, above the report, there are 5 tiles that can be used to filter the report based on the type of user.
+At the top, above the report, 5 tiles can be used to filter the report based on the type of user.
 
 The following options are available and can be selected by clicking them:
   * Total Users

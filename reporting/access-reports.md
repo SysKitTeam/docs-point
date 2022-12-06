@@ -25,7 +25,7 @@ It allows viewing site hierarchy and permissions down to the document level.
 ### Generate Report
 
 * **Click the Reports tile**; it is located on the SysKit Point home screen.
-* **Select Permissions Reports category in the filter** you can find in the upper left corner.
+* **Select the Permissions Reports category in the filter** you can find in the upper left corner.
 * **Click the Permissions Matrix report tile** to be redirected to the Selection screen.
 
 This report can also be accessed from:
@@ -50,7 +50,7 @@ After clicking the **Permissions Matrix** report tile, the Selection step opens 
    * **show content down to**:
       * subsites, document libraries & lists, folders, or files & folders
    * **show or hide security group members**
-* **Click the Run Report button**once the selected parameters have been set.
+* **Click the Run Report button** once the selected parameters have been set.
 
 ### Report Data
 
@@ -104,14 +104,14 @@ To generate the User Access report:
 
 This report can also be accessed from:
 
-* **The Users Overview screen**; select the user and click on the proper action in the side panel
+* **The Users Overview screen**; select the user and click the proper action in the side panel
 * **The details screen** of specific resource; Users report on the sites details screen
 * **Other reports available** in SysKit Point
    * For example, the External Users report
 
 ### Report Data
 
-Default columns displayed in the report are:
+The default columns displayed in the report are:
       
 * **Name** of the user/resource
 * **Access**; the permissions level of the user
@@ -159,7 +159,7 @@ This report can also be accessed from:
 * **Sites Overview screen and Microsoft Teams & Groups Overview screen**; select the resource and click the proper action in the side panel.
 * **The details screen** of a specific resource.
 * **Other reports available** in SysKit Point. 
-  * For example, Permissions Matrix report, Externally Shared Content report, User Access report.
+  * For example, Permissions Matrix report, Externally Shared Content report, and User Access report.
 
 ### Report Data
 
@@ -202,7 +202,7 @@ The Group Memberships report shows all members, owners, and guest users across y
 
 This report can also be accessed from:
 
-* **Microsoft Teams & Groups Overview screen**; select the resource and click on the proper action in the side panel
+* **Microsoft Teams & Groups Overview screen**; select the resource and click the proper action in the side panel
 * **Teams/Groups details screen**; Members tile
 
 ### Report Data

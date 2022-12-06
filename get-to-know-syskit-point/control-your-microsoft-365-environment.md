@@ -84,7 +84,7 @@ This tile contains the following information:
 * **the number of external users**, **administrators**, **inactive users**, and **users with blocked sign-in**
 * **the View All** link
 
-To access detailed information about all users, click on the total number of users or the **View All** link, which opens the **Users Overview** screen.
+To access detailed information about all users, click the total number of users or the **View All** link, which opens the **Users Overview** screen.
 
 ![Users tile](../.gitbook/assets/dashboard_users-tile.png)
 

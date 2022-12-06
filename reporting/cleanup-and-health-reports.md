@@ -1,10 +1,10 @@
 ---
-description: Cleanup & Health Reports provide information on maintaining the health of your tenant environment. 
+description: Cleanup & Health Reports provide information on maintaining the health of your tenant. 
 ---
 
 # Cleanup & Health Reports
 
-Reports in this section **help maintain the health of your tenant environment**. 
+Reports in this section **help maintain the health of your tenant**. 
 
 In this article, you can locate information on [Orphaned Users](#orphaned-users) and [Orphaned Resources](#orphaned-resources).
 
@@ -14,12 +14,11 @@ Use Orphaned Users and Orphaned Resources reports to **detect and manage orphane
 
 The Orphaned Users report displays all orphaned users in your tenant environment. 
 
-It shows **all the users that have been disabled/blocked or deleted from Azure Active Directory**. 
+It shows **all the users that have been blocked or deleted from Azure Active Directory**. 
 
-This report helps detect and remove the disabled or deleted users from your Microsoft 365 resources.
+This report helps detect and remove blocked/disabled or deleted users from your Microsoft 365 resources.
 
 ### Generate Orphaned Users report
-
 
  * **Click the Reports tile**; located on the SysKit Point home screen.
  * **Select Cleanup & Health Check in the filter**; it can be found in the upper left corner.
@@ -48,7 +47,7 @@ For more details, there are also additional columns available in the column choo
 To group the report results by one or multiple columns, drag a column header to the designated place in the upper left corner of the report. 
   * Doing that provides a clearer view of where the orphaned user is still a member.
 
-By selecting the checkbox of an orphaned user, you can perform the Remove User action and see the additional information, like who disabled it and when was the selected user disabled.
+By selecting the checkbox of an orphaned user, you can perform the **Remove User** action and see the additional information, like who blocked it and when was the selected user blocked.
 
 The Orphaned Users report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
@@ -58,7 +57,7 @@ The Orphaned Resources report displays all the SharePoint Sites, Microsoft Teams
 
   * The last owner of those resources is either deleted or blocked in Azure Active Directory. 
 
-This report helps manage Microsoft 365 resources' health and helps ensure there are no abandoned resources on the tenant.
+This report helps manage Microsoft 365 resources' health and helps ensure there are no abandoned resources in your tenant.
 
 
 ### Generate Orphaned Resources report

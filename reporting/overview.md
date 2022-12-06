@@ -6,7 +6,7 @@ description: This article provides a list of available report categories and sho
 
 SysKit Point Reports provide insight into what's happening within your Microsoft 365 environment. 
 
-The **Reports** section enables the following actions:
+The following **actions are available when working with SysKit Point reports**:
 * Advanced filtering
 * High-level overview
 * Exporting reports as PDF or XLSX files
@@ -14,7 +14,7 @@ The **Reports** section enables the following actions:
 
 ## Generate Reports
 
-The **Inventory Reports** can be generated directly from the home page by clicking Sites, Microsoft Teams & Groups or Users. 
+The **Inventory Reports** can be generated directly from the home page by clicking Sites, Microsoft Teams & Groups, or Users. 
 
 To generate reports in all the other categories available in SysKit Point, **navigate to the Report Center by clicking the Reports tile on the Home screen**.
 In the Report Center, you can:

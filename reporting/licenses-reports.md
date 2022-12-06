@@ -4,10 +4,9 @@ description: Licenses Reports provide information on managing your Microsoft 365
 
 # Licenses Reports
 
-Reports in this section **help manage your Microsoft 365 
-licenses**. 
+Reports in this section **help manage your Microsoft 365 licenses**. 
 
-In this article you can find information about the following license reports:
+In this article, you can find information about the following license reports:
 * [Licenses Overview Report](#licenses-overview-report)
 * [Licenses Usage by Service Report](#licenses-usage-by-service-report)
 * [License Distribution](#license-distribution)
@@ -19,7 +18,7 @@ These reports can be used to **identify underutilized licenses to drive adoption
 
 ## Licenses Overview Report
 
-The **Licenses Overview report** helps discover the assigned, unassigned and inactive Microsoft 365 licenses on your Microsoft 365 tenant. 
+The **Licenses Overview report** helps discover the assigned, unassigned, and inactive Microsoft 365 licenses on your Microsoft 365 tenant. 
 It also **shows the overall cost of all the current licenses** you've purchased from Microsoft. 
 
 This report can be **used to help calculate future license costs**. 
@@ -53,7 +52,7 @@ The Licenses Overview report can be **exported as PDF and XLSX files**. There is
 
 ## Licenses Usage by Service Report
 
-The **Licenses Usage by Service** report helps **identify underutilized licenses** to drive adoption and reduce costs by assigning less expensive licenses to users. 
+The **Licenses Usage by Service** report helps **identify underutilized licenses** per service (Exchange, Microsoft Teams, OneDrive, SharePoint, Yammer, etc.). 
 
 Use this report to quickly **check if users are fully utilizing their assigned licenses**. This helps determine if they should have **different licenses assigned to optimize usage and cost**.
 
@@ -91,7 +90,7 @@ This report can also be **used to help calculate possible savings that can achie
 
 ### Generate License Distribution Report
 
-* **Click on the Reports tile**; located on the SysKit Point home screen.
+* **Click the Reports tile**; located on the SysKit Point home screen.
  * **Select Licenses in the filter**; can be found in the upper left corner.
  * **Click the License Distribution** tile to generate the report.
 * **Select one of the two options** when redirected to the filter screen; the report data can be filtered by **Department or Usage Location**.
@@ -118,7 +117,7 @@ The License Distribution report can be **exported as PDF and XLSX files**. There
 
 The **Inactive Licenses** report helps with **finding and reclaiming licenses assigned to inactive or blocked users** to optimize your Microsoft 365 license cost.
 
-Use this report to **easily remove the assigned licenses from disabled users**. The license can then be **assigned to new users or removed in order to reduce costs**.
+Use this report to **easily remove the assigned licenses from inactive users**. The license can then be **assigned to other users or removed to reduce costs**.
 
 ### Generate Inactive Licenses report
 
@@ -139,7 +138,7 @@ Other columns that are enabled by default are:
 * **User State**; shows if the user is inactive, has a blocked sign-in, or is deleted from Azure Active Directory
 * **Department**; Shows the name of the company Department that said user was a part of
 * **Manager**; shows the user that was the said user's manager 
-  * Only if that information is available in Azure Active Directory
+  * Only if that information is available in the Azure Active Directory
 
 The Inactive Licenses report **provides the ability to select licenses assigned to an inactive user easily**. 
 
