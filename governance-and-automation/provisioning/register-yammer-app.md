@@ -8,7 +8,9 @@ To be able **to create Yammer community templates**, you need to **register a ne
 
 Start by **navigating to Settings** > **Provisioning**, and click the **New Template** button.
 The following screen opens:
+
 ![New Template Dialog](../../.gitbook/assets/register-yammer-app_new-template.png)
+
 **Click the Yammer Community tile (1)** to continue.
 
 Yammer app registration screen opens, guiding you further through the app registration.

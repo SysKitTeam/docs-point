@@ -27,7 +27,7 @@ The screen shows **additional actions** required before enabling the Lifecycle M
 ![Lifecycle Management - Additional Action Required](../../.gitbook/assets/enable-lifecycle-management_collaborators-disabled.png)
 
 {% hint style="info" %}
-Use the following links and learn how to [set up e-mail](../../configuration/customize-emails.md) and enable [SysKit Point Collaborators](../../configuration/enable-role-based-access.md#syskit-point-collaborators-1).
+Use the following links and learn how to [set up e-mail](../../configuration/set-up-email.md) and enable [SysKit Point Collaborators](../../configuration/enable-role-based-access.md#syskit-point-collaborators-1).
 {% endhint %}
 
 Once all requirements are met, on the Lifecycle Management settings screen, you can:
@@ -82,7 +82,7 @@ In the **Target Selection** section, you can **define which workspaces to includ
 
 By default, all workspace types - **Microsoft Teams**, **Microsoft 365 Groups** and **sites** \(1\)** - are selected. 
 Additionally, you can:
-* **Modify the workspace types monitored** by clicking the **resource filter \(2\)**; here, you have the following options:
+* **Modify the workspace types monitored** by clicking the **workspace filter \(2\)**; here, you have the following options:
     * **Microsoft Teams**
     * **Microsoft 365 groups**
     * **Sites**
@@ -95,7 +95,7 @@ Additionally, you can:
 If you haven't received the approval from **Microsoft** for detecting the activity of **Microsoft Teams**, Microsoft Teams **will not be monitored** with **Lifecycle Management Automation**.
 {% endhint %}
 
-When you click the **Preview tile**, the **Lifecycle Management - Preview** report opens, showing detailed information about resources that will be included in the lifecycle management automation. Here, you can:
+When you click the **Preview tile**, the **Lifecycle Management - Preview** report opens, showing detailed information about workspaces that will be included in the lifecycle management automation. Here, you can:
 * **Click the tiles \(1\)** to show only a certain site type; the tiles show the number of sites included in the Lifecycle Management automation, grouped by type
 * **Click the Show link \(2\) that activates the** Orphaned Sites view \(3\)
 * **View all site owners that will receive a Lifecycle Management e-mail** for each Microsoft Team, Microsoft 365 Group, or a site included in the Lifecycle Management automation
@@ -105,7 +105,7 @@ When you click the **Preview tile**, the **Lifecycle Management - Preview** repo
 
 Instead of choosing workspace types that are monitored, you can select the **specific workspaces \(1\)** option. This option enables you to manually select specific Microsoft Teams, Microsoft 365 Groups, and sites monitored in the Lifecycle Management automation. 
 You can also:
-* **Select the Auto-select new resources (2)** option if you want to start monitoring newly created workspaces when SysKit Point detects them
+* **Select the Auto-select new workspaces (2)** option if you want to start monitoring newly created workspaces when SysKit Point detects them
 * **Edit selected workspaces (3)**
 * **Preview selected workspaces (4)**
 
@@ -117,5 +117,4 @@ When done with the selection, save your changes.
 
 Now that everything is defined, the Lifecycle Management will start automatically. 
 
-To learn all about Lifecycle Management in SysKit Point, visit the [following article](lifecycle-management.md).
-
+For information on SysKit Point Collaborators completing Lifecycle Management tasks, take a look at the [Perform Lifecycle Management Tasks article](../../point-collaborators/lifecycle-management.md).

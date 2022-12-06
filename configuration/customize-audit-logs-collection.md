@@ -4,7 +4,7 @@ description: This section describes how to customize the Audit Logs collection u
 
 # Customize Audit Logs Collection
 
-Audit logs can provide you with **insights into all activities** related to the user and administration activities in your Microsoft 365 environment.‌
+Audit logs can provide you with **insights into all activities** related to the user and administration activities in your Microsoft 365 environment.‌ The Audit Logs contain information on activities within your organization related to **groups, documents, permissions, directory services and much more**. 
 
 Users that are assigned **SysKit Point Admin role** can configure activities that are going to be collected in these locations:
 
@@ -27,7 +27,7 @@ By default, the **Store audit logs** option is enabled, meaning that SysKit Poin
 
 {% hint style="warning" %}
 **Please note!**  
-Regardless of your selection to store them or not, audit logs are **regularly processed by SysKit Point** to track changes and activity in your Microsoft 365 environment. Storing audit logs gives you the possibility to access audit data for more extended periods than available in Microsoft 365.
+Regardless of your choice of whether to store them or not, audit logs are **regularly processed by SysKit Point** to track changes and activity in your Microsoft 365 environment. Storing audit logs allows you to access audit data for more extended periods than available in Microsoft 365.
 {% endhint %}
 
 ### Protect User Privacy Option
@@ -37,12 +37,12 @@ Turning this option on results in the following:
 * **User activity data**, such as file and permissions changes, **will be hidden and protected from Administrator supervision** 
   * **User Activity report will be hidden from SysKit Point user interface**
   * **Access to the File and Page Activities report will be hidden**
-  * **Summary data in the Analytics & Usage tile will remain visible, but cannot be drilled to access data for a specific user**
+  * **Summary data in the Analytics & Usage tile will remain visible but cannot be drilled to access data for a specific user**
 * **User activity** data will, however, be collected and stored
 
 {% hint style="warning" %}
 **Please note!**  
-User activity data continues to be collected and stored, to be readily available if needed, in case of a security incident.
+User activity data continues to be collected and stored to be readily available, if needed, in case of a security incident.
 {% endhint %}
 
 The following rules apply regarding the User Privacy option:
@@ -132,3 +132,24 @@ To select Exchange activities:
 
 To view collected Exchange logs, use the **Exchange Logs report** available in the Report Center.
 
+## Additional information
+
+### Type of Audit Logs Collected
+
+SysKit Point collects audit logs accessible in the unified audit log. Out of the box, you can review the audit logs from the [Microsoft 365 compliance center](https://compliance.microsoft.com/auditlogsearch).
+You can additionaly [customize for which activities will SysKit Point collect audit logs](../configuration/customize-audit-logs-collection.md).
+
+### Sign-in Logs from Azure Active Directory 
+
+Azure Active Directory shows all sing-ins performed by users, service principals, apps, and Azure resources.
+**SysKit Point does not collect Azure Active Directory sign-in logs.** 
+SysKit Point collects unified audit logs, which contain a subset of said logs related to Microsoft 365 and are visible in the [Microsoft 365 compliance center](https://compliance.microsoft.com/auditlogsearch).
+
+### Frequency of Audit Log Collection
+
+SysKit Point checks for and collects new audit logs every 15 minutes. 
+Note that it can take up to 24 hours after an event occurs for the corresponding audit log record to be returned in the results of an audit log search. 
+
+### Unified Audit Logs
+
+You can find additional information about unified audit logs in the [following Microsoft's article](https://docs.microsoft.com/en-us/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide).

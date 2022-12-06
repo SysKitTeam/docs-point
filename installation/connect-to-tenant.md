@@ -94,7 +94,7 @@ You can change connection options anytime from the __Settings__ > __General__ > 
 
 {% hint style="warning" %}
 **Please note!**  
-For SysKit Point to collect, process, and save audit logs, you must enable auditing in your tenant. [Navigate here to find out how to turn on auditing.](../../faq/turn-on-auditing.md)
+For SysKit Point to collect, process, and save audit logs, you must enable auditing in your tenant. [Navigate here to find out how to turn on auditing.](../configuration/turn-on-auditing.md)
 {% endhint %}
 
 Click the __Connect (5)__ button after defining the connection options. A new screen will open and show the progress of the initial connection. __Please do not refresh the page__ as it will provide important information needed for troubleshooting in an unlikely event of an error. 

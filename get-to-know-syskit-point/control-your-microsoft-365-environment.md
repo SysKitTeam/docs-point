@@ -12,11 +12,6 @@ You can use Dashboard to:
 * **find summary data** on your resources, internal and external users, sharing links, and used storage - all numbers are drillable, taking you to the related reports, which will show more details 
 * **detect potential issues**, for example, if your environment has inactive or orphaned resources
 
-{% hint style="warning" %}
-**Please note!**  
-Only users assigned to the **SysKit Point Admin** role can see the Dashboard screen.
-{% endhint %}
-
 You can access the **Dashboard** screen from:
 
 * the **Welcome Home** screen

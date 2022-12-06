@@ -2,9 +2,16 @@
 description: This article explains how you can enable Role-based Access in SysKit Point.
 ---
 
-# Enable Role-Based Access
+# Assign and Manage Access to SysKit Point
 
-After deploying **SysKit Point**, you can allow your Microsoft 365 users to access the **SysKit Point** web app.
+After deploying **SysKit Point**, your Microsoft 365 users can be given access to the **SysKit Point** web app.
+
+By using the built-in **role-based security** of SysKit Point, you can easily manage who has access to SysKit Point and what features are available to them. Those assigned a role will be **able to view all data collected from the Microsoft 365 tenant and perform actions based on the permissions granted to them in Microsoft 365** or have access to all data related to sites, Microsoft 365 Groups, and Microsoft teams.
+ * Level of access **depends on the roles assigned**.
+
+This allows **site owners to perform Access Reviews on their site and complete Lifecycle Management tasks** to determine which workspaces should be archived or kept. 
+
+Read on to learn more about the specifics of each role and how to assign them to your users. 
 
 ## SysKit Point Roles
 
@@ -43,7 +50,7 @@ They have **Read-Only** access and **cannot execute actions or manage applicatio
 
 The only role in SysKit Point that is **assigned automatically** to users or security groups, based on their **ownership permissions** in the **Microsoft 365 tenant**. When signed in to SysKit Point, they can:
 
-* **access all data related to Microsoft 365 resources where they are owners/administrators**
+* **access all data related to Microsoft 365 workspaces where they are owners/administrators**
 * **perform actions** based on the permissions granted in Microsoft 365
 
 Additional options enable you to control if actions and specific reports are available to Collaborators in SysKit Point. All options are described in the following section.
@@ -146,4 +153,3 @@ When **SysKit Point Collaborator** tries to **drill** to the **user details** pa
 ![Unauthorized access page](../.gitbook/assets/enable-role-based-access_unauthorized-access-screen.png)
 
 **As demonstrated, the Role-Based Access provides a secure framework for collaboration in your Microsoft 365 environment**.
-
