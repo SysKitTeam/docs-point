@@ -43,7 +43,7 @@ You can also click on a specific user through the Users Overview screen. The use
 
 ## Sites, Microsoft Teams, Groups, OneDrive Overviews 
 
-These overviews can also be found directly on the home screen, and **allows you to explore and filter through your [Sites](../reporting/inventory-reports.md#sites-report), Microsoft Teams & Groups[Microsoft Teams & Groups](../reporting/inventory-reports.md#microsoft-teams-and-groups-report), and OneDrive**. Selecting one or more sites also gives you a lot of useful details as well as the ability to **manage different options for the sites with one simple click**. You can also click on a specific site for a more detailed overview of it. Here you'll find information like:
+These overviews can also be found directly on the home screen, and **allows you to explore and filter through your [Sites](../reporting/inventory-reports.md#sites-report), [Microsoft Teams & Groups](../reporting/inventory-reports.md#microsoft-teams-and-groups-report), and OneDrive**. Selecting one or more sites also gives you a lot of useful details as well as the ability to **manage different options for the sites with one simple click**. You can also click on a specific site for a more detailed overview of it. Here you'll find information like:
 
   * Overview of the site with the number of users, external users, anonymous links, and unique permissions
   * Content overview, which includes a list of all files included in the site
