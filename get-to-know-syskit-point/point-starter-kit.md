@@ -29,9 +29,10 @@ Drill down into detailed reports about structure, memberships, permissions, and 
 
 ![SysKit Point - Home screen](../.gitbook/assets/point-starter-kit_discover.png)
 
+
 ## Users Overview
 
-The Users Overview screen can be accessed from the homepage and **provides detailed insight into everything you need to know about your Microsoft 365 users**. This information can also be exported as PDF and Excel files or scheduled for delivery via email. 
+[**The Users Overview**](../reporting/inventory-reports.md#users-report) screen can be accessed from the homepage and **provides detailed insight into everything you need to know about your Microsoft 365 users**. This information can also be exported as PDF and Excel files or scheduled for delivery via email. 
 
 You can also click on a specific user through the Users Overview screen. The user details screen includes details on the following:
  * General information about the user
@@ -42,7 +43,7 @@ You can also click on a specific user through the Users Overview screen. The use
 
 ## Sites, Microsoft Teams, Groups, OneDrive Overviews 
 
-These overviews can also be found directly on the home screen, and **allows you to explore and filter through your sites, Groups, Microsoft Teams, and OneDrive**. Selecting one or more sites also gives you a lot of useful details as well as the ability to **manage different options for the sites with one simple click**. You can also click on a specific site for a more detailed overview of it. Here you'll find information like:
+These overviews can also be found directly on the home screen, and **allows you to explore and filter through your [Sites](../reporting/inventory-reports.md#sites-report), Microsoft Teams & Groups[Microsoft Teams & Groups](../reporting/inventory-reports.md#microsoft-teams-and-groups-report), and OneDrive**. Selecting one or more sites also gives you a lot of useful details as well as the ability to **manage different options for the sites with one simple click**. You can also click on a specific site for a more detailed overview of it. Here you'll find information like:
 
   * Overview of the site with the number of users, external users, anonymous links, and unique permissions
   * Content overview, which includes a list of all files included in the site
@@ -63,13 +64,13 @@ With the one-click report generation, these detailed insights make it easy to ma
 
 There are many reports available in SysKit Point, and **the categories that the reports cover** are:
 
-* **Permissions**: Detect and manage who has access to what across Microsoft 365 sites. Drill down into user permissions and memberships. Detect broken inheritance for all your content where permissions differ from a parent! 
+* [**Permissions**](../reporting/access-reports.md): Detect and manage who has access to what across Microsoft 365 sites. Drill down into user permissions and memberships. Detect broken inheritance for all your content where permissions differ from a parent! 
 
-* **External Sharing**: Control external access and excessive content sharing. Find all external users, and guests, and detect externally shared content along with all sharing links. 
+* [**External Sharing**](../reporting/external-sharing-reports.md): Control external access and excessive content sharing. Find all external users, and guests, and detect externally shared content along with all sharing links. 
 
-* **License Usage**: Discover assigned, unassigned, and inactive Microsoft 365 licenses and the overall cost or find and reclaim licenses assigned to inactive or blocked users - optimize the budget.   
+* [**License Usage**](../reporting/licenses-reports.md): Discover assigned, unassigned, and inactive Microsoft 365 licenses and the overall cost or find and reclaim licenses assigned to inactive or blocked users - optimize the budget.   
 
-* **Cleanup**: Check Microsoft 365 Groups and Microsoft Teams with disabled or deleted owners and assign new ones. Identify and remove orphaned users. 
+* [**Cleanup**](../reporting/cleanup-and-health-reports.md): Check Microsoft 365 Groups and Microsoft Teams with disabled or deleted owners and assign new ones. Identify and remove orphaned users. 
 
 ![SysKit Point - Reports](../.gitbook/assets/point-starter-kit_secure.png)
 
