@@ -114,7 +114,8 @@ The Access Review is automatically marked as completed ten days after the start.
 * **Total number of sites where the Access Review was not completed (2)**
 * **View Uncompleted Tasks (3)** button
 
-![Email - Access Review completed](<../../.gitbook/assets/monitor-permissions-review\_email-after (2) (2) (3) (2) (2) (2).png>)
+
+![Email - Access Review completed](<../../.gitbook/assets/monitor-permissions-review\_email-after (2) (2) (3) (2) (1).png>)
 
 To view sites where the Access Review was not completed, click the **View Uncompleted Tasks** button. If already signed in to SysKit Point, you will be redirected to the **Access Review** report. Here, you can:
 
