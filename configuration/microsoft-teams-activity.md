@@ -24,6 +24,7 @@ To learn more about Protected APIs in Microsoft Teams, read the [following artic
 **After you log in to SysKit Point** with a SysKit Point Admin account, you’ll **receive a message** on the bottom of the Home screen, notifying you about the **newly available feature**.\
 Click the **Configure Now** link to proceed with the initial configuration.
 
+
 ![Home Screen - Detect Inactive Teams message](<../.gitbook/assets/teams\_activity-admin\_message (1) (4) (4) (2) (1) (2).png>)
 
 The **Settings** > **Governance** > **Lifecycle Management** **settings page** opens. Here, you can find the current **Status** **(1)** information, the **Show Information button (2)**, which will give you all data to successfully fill the Microsoft Access Request form, and the **Fill Microsoft Request button (3)** that opens the before mentioned Microsoft Access Request form.
@@ -56,6 +57,7 @@ It may take up to 10 days for Microsoft to review your request.
 ## Getting Access to Protected APIs
 
 Once the access to Microsoft Teams protected APIs has been approved, you will receive an email.
+
 
 ![Access approval email](<../.gitbook/assets/teams\_activity-approval\_email (3) (3) (3) (1).png>)
 

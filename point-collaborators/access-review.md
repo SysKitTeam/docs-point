@@ -172,7 +172,7 @@ The **Users step** is available **when reviewing sites**. The following options 
 * The **Grant Access** action is available when no users are selected
 * **Click Next (6)** to continue to the next step of the Access Review Wizard
 
-![Access Review wizard - Users step](<../.gitbook/assets/permissions-review\_users (2) (2) (3) (4) (4) (4) (3) (2).png>)
+![Access Review wizard - Users step](<../.gitbook/assets/permissions-review\_users (2) (2) (3) (4) (4) (4) (3) (1).png>)
 
 {% hint style="warning" %}
 **Please note!**\
