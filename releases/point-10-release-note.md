@@ -21,10 +21,6 @@ Dear ladies and gentlemen, if we could have your attention please - introducing 
 **You might find it strange that the 1st release is marked with the number 10. The reason lies behind the fact that** [**SysKit is celebrating its 10th birthday**](https://syskit.com/blog/syskit-celebrates-10-years/).  
 SysKit Point comes as a successor to SysKit Security Manager, a product that has given us knowledge and insights used as a foundation in building the next great thing. Other than wisdom, all is new in SysKit Point, so let's get started.
 
-{% hint style="warning" %}
-**Before you continue**, check what features is included in your [subscription plan](https://www.syskit.com/products/point/pricing/).
-{% endhint %}
-
 ## Web-based Interface
 
 With the new and intuitive web-based interface it’s easier than ever to analyze your content, check if everything is ok, and make reports on the fly. You will first notice this shift when [configuring SysKit Point](../installation/deploy-syskit-point-to-cloud/install-syskit-point-on-azure-vm.md#configure-syskit-point), and the second time when your app opens in a browser after the installation. All that is left to do is to **log in with your existing Microsoft 365 user account** \(yes, you read that right\), **and you are ready to go!**
@@ -35,13 +31,22 @@ Drills, breadcrumbs, views, contextual and global actions, filters, and each and
 
 ## Role-based Access
 
-Not only Global Administrators but also **Site Owners and users with Full Control Permissions can access SysKit Point** and manage their Sites and Microsoft 365 Groups. Find out how to [enable their access in few mouse clicks here.](../configuration/enable-role-based-access.md) These options are available depending on the subscription type, so make sure to [check available plans here.](https://syskit.com/products/point/pricing/)
+{% hint style="information" %}
+**Collaborator roles** are available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% endhint %}
+
+Not only Global Administrators but also **Site Owners and users with Full Control Permissions can access SysKit Point** and manage their Sites and Microsoft 365 Groups. Find out how to [enable their access in few mouse clicks here.](../configuration/enable-role-based-access.md)
 
 ## Sync it!
 
 Old ways of collecting data from Microsoft 365 are no more. **With the new Sync capability, data collection has become granular, quick and lightweight.** Heavy lifting is done only when needed. Or when you want it. [Learn more about Sync here.](../get-to-know-syskit-point/collect-office-365-data.md)
 
+
 ## Audit Logs & Analytics
+
+{% hint style="information" %}
+**Audit Logs & Analytics** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% endhint %}
 
 Contextual audit reports as you know and love them, only better! Like all things in SysKit Point, audit reports are easy to understand and accessible from all parts of the app. **The analytics information is being calculated even if you decide not to store the audit logs.** You can easily [customize what to store as described here.](../configuration/customize-audit-logs-collection.md)
 

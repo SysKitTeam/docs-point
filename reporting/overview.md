@@ -12,10 +12,6 @@ The following **actions are available when working with SysKit Point reports**:
 * Exporting reports as PDF or XLSX files
 * Scheduled report delivery
 
-{% hint style="warning" %}
-**Before you continue**, check if Reports are included in your [subscription plan](https://www.syskit.com/products/point/pricing/).
-{% endhint %}
-
 ## Generate Reports
 
 The **Inventory Reports** can be generated directly from the home page by clicking Sites, Microsoft Teams & Groups, or Users. 
@@ -51,6 +47,10 @@ Some reports, such as **the External Users report, generate right after clicking
 * Since the selection and filters can differ, reports are further described within the category-specific articles below.
 
 ## Report Categories
+
+{% hint style="warning" %}
+Check the articles below for information on what [subscription plans](https://www.syskit.com/products/point/pricing/) the reports will be available in.
+{% endhint %}
 
 Reports in SysKit Point can be divided into 8 main categories:
 * [Inventory Reports](inventory-reports.md)

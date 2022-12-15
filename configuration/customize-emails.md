@@ -4,8 +4,8 @@ description: This article explains how to customize e-mails within SysKit Point.
 
 # Customize E-mails
 
-{% hint style="warning" %}
-**Before you continue**, check if the customized e-mails sent for different features are included in your [subscription plan](https://www.syskit.com/products/point/pricing/).
+{% hint style="information" %}
+**Customized E-mails** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 {% endhint %}
 
 SysKit Point **provides the option to customize e-mails** that are **sent to site owners** as a part of **Access Review and Lifecycle Management Automation**.  

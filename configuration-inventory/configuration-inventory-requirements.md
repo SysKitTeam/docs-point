@@ -4,8 +4,9 @@ description: This article lists the requirements necessary to successfully deplo
 
 # Configuration Inventory Requirements
 
-{% hint style="warning" %}
-**Before you continue**, check if the Configuration Inventory feature is included in your [subscription plan](https://www.syskit.com/products/point/pricing/).
+
+{% hint style="information" %}
+**Configuration Inventory** is available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 {% endhint %}
 
 ## Connect Service Account
