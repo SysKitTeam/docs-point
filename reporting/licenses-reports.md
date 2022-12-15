@@ -16,6 +16,13 @@ Use them to **discover assigned, unassigned Microsoft 365 licenses or Microsoft 
 
 These reports can be used to **identify underutilized licenses to drive adoption and optimize license costs**.
 
+
+
+{% hint style="information" %}
+**License Reports** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% endhint %}
+
+
 ## Licenses Overview Report
 
 The **Licenses Overview report** helps discover the assigned, unassigned, and inactive Microsoft 365 licenses on your Microsoft 365 tenant. 

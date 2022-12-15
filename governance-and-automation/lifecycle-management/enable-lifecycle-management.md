@@ -44,6 +44,10 @@ To enable Lifecycle Management automation:
 
 ## Automation Options
 
+{% hint style="information" %}
+**Lifecycle Management Automation** is available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% endhint %}
+
 In the **Automation Options** section, you can:
 * **Select between 3 available actions for your workspace owners to take when an inactive workspace is detected**:
     * **Keep (1)**

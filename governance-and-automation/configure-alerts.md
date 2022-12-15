@@ -4,6 +4,10 @@ description: This article describes how to enable and customize alerts in SysKit
 
 # Configure Alerts
 
+{% hint style="information" %}
+**Alerts** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% endhint %}
+
 **Alerts** feature in SysKit Point **allows you to monitor events** that are collected within **Microsoft 365 audit logs**.
 
 **SysKit Point Admins** and **SysKit Point Collaborators** \(site admins, Microsoft Teams and Microsoft 365 Group owners, and full control users\) can configure alerts. Point Admins can manage all created alerts regardless of who created them.

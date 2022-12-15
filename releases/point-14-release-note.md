@@ -17,6 +17,10 @@ As with all SysKit Point upgrades, this one is also filled with big and small im
 
 ## Features
 
+{% hint style="warning" %}
+**Before you continue**, check if the Lifecycle Management Automation feature is included in your [subscription plan](https://www.syskit.com/products/point/pricing/).
+{% endhint %}
+
 * **Lifecycle Management Automation** is now available! When the feature is enabled, SysKit Point sends automatic reminders via email to site owners in case their Microsoft Teams, Microsoft 365 Group, or a site is not actively used longer than the period defined in settings. Site owners can then decide whether to **keep**, **archive**, or **delete** such resources directly from the email! Along with the reminders, SysKit Point creates **Lifecycle Management tasks for site owners**. It allows SysKit Point Admins to monitor the owners’ response by providing essential metrics on the **Lifecycle Management Overview screen**. Use the following links to learn:
   * [how to enable and configure Lifecycle Management Automation](../governance-and-automation/lifecycle-management/enable-lifecycle-management.md),
   * [more about the Lifecycle Management process](../point-collaborators/lifecycle-management.md), and

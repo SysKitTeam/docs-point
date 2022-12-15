@@ -18,6 +18,10 @@ A lot of tweaks make this version of SysKit Point the best one yet, so make sure
 
 ## Features
 
+{% hint style="warning" %}
+**Before you continue**, check if the Access Review feature is included in your [subscription plan](https://www.syskit.com/products/point/pricing/).
+{% endhint %}
+
 * **Automated Access Review** is available! This new feature takes care of the Access Review process in your environment by sending **automatic reminders via email to site admins**, Microsoft Teams owners, and Microsoft 365 Group owners, and **creates related tasks for them in SysKit Point**. In the tasks, admins and owners get the full overview of users, their permissions, as well as shared content, edit permissions, and complete the Access Review Task once everything seems to be in order. Use the following links to find out:
   * [how to configure the Automated Access Review to suit your governance policies](../governance-and-automation/permissions-review/enable-permissions-review.md),
   * [what happens in the Access Review process](../point-collaborators/access-review.md), and

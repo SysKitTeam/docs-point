@@ -4,6 +4,10 @@ description: This article explains how to set up and use custom metadata for rep
 
 # Custom Metadata
 
+{% hint style="information" %}
+**Managing Custom Metadata** is available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% endhint %}
+
 In the context of Microsoft 365, the metadata in SysKit Point provides detailed information on **Microsoft Teams, Microsoft 365 Groups, Sites, and OneDrive**.
 
 **Essential metadata** is natively available in  Microsoft 365 and collected by SysKit Point during the sync process. 

@@ -4,6 +4,10 @@ description: This article describes how SysKit Point enables you to track Micros
 
 # Enable Microsoft Teams Activity Tracking
 
+{% hint style="information" %}
+**Microsoft Teams Activity Tracking** is available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% endhint %}
+
 **SysKit Point** enables you to easily **discover which of your Microsoft Teams are not being actively used**. 
 
 This provides regular insight on when a workspace should be assessed to determine any possible value for the future with options to **keep, archive or delete the workspace**. These reviews can be **automated** and will be sent to owners when SysKit Point detects a workspace is inactive.

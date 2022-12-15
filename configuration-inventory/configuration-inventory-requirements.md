@@ -4,6 +4,10 @@ description: This article lists the requirements necessary to successfully deplo
 
 # Configuration Inventory Requirements
 
+{% hint style="warning" %}
+**Before you continue**, check if the Configuration Inventory feature is included in your [subscription plan](https://www.syskit.com/products/point/pricing/).
+{% endhint %}
+
 ## Connect Service Account
 To collect Microsoft Teams-related data, you need to **connect a service account in SysKit Point for the Configuration Inventory module**. 
 

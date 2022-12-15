@@ -5,6 +5,11 @@ description: This article provides all information about SysKit Point MS Teams A
 # SysKit Point MS Teams App  
 SysKit Point teams application provides a familiar interface for your end-users to request new workspaces without leaving MS Teams. 
 
+
+{% hint style="information" %}
+**The Microsoft Teams App** feature is available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% endhint %}
+
 ## Deploy Microsoft Teams Application 
 
 __Pre-requisites__:  

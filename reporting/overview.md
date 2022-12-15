@@ -12,6 +12,10 @@ The following **actions are available when working with SysKit Point reports**:
 * Exporting reports as PDF or XLSX files
 * Scheduled report delivery
 
+{% hint style="warning" %}
+**Before you continue**, check if Reports are included in your [subscription plan](https://www.syskit.com/products/point/pricing/).
+{% endhint %}
+
 ## Generate Reports
 
 The **Inventory Reports** can be generated directly from the home page by clicking Sites, Microsoft Teams & Groups, or Users. 
