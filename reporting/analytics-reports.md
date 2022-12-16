@@ -20,6 +20,11 @@ This article contains information on eight analytics reports available through t
 * [Network Interaction Details Report](#network-interaction-details-report)
 
 
+{% hint style="information" %}
+**Analytics Reports** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% endhint %}
+
+
 ## Site Analytics Report
 
 Site Analytics report provides an overview of all sites; it shows the total hits each site had in the last seven days, the highest number of unique daily visitors, and other details.

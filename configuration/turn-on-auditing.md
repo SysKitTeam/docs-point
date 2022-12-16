@@ -4,6 +4,10 @@ description: This article describes how to turn on auditing in the Microsoft 365
 
 # Turn On Auditing
 
+{% hint style="information" %}
+**Audit Reports** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% endhint %}
+
 For SysKit Point to collect, process, and save audit logs, you must enable auditing in your tenant. The following warning message shows in SysKit Point if auditing is not enabled:
 
 ![SysKit Point - Audit Error](../.gitbook/assets/turn_on_auditing-point_error.png)

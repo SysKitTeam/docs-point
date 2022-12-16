@@ -15,6 +15,11 @@ In this article, there is information on five audit logs reports available throu
 
 These reports can be accessed in the Report section by selecting the **Audit Logs** category from the dropdown filter.
 
+{% hint style="information" %}
+**Audit Logs Reports** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% endhint %}
+
+
 ## Audit Logs Overview Report
 
 This report provides a detailed **overview of all logs collected from your Microsoft 365 environment**. 

@@ -74,7 +74,12 @@ Click the **Save** button once you confirm you received the test e-mail.
 
 ## Enable SysKit Point Collaborators
 
-To enable Teams and Groups owners and site administrators to perform the Access Review on their sites, you need to enable them to access SysKit Point. To do so, navigate to the **Settings** > **Security** > **Manage Access** screen. Here you should:
+{% hint style="information" %}
+**Managing Access for Collaborators** is available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% endhint %}
+
+To enable Teams and Groups owners and site administrators to perform the Access Review on their sites, you need to enable them to access SysKit Point. 
+To do so, navigate to the **Settings** &gt; **Security** &gt; **Manage Access** screen. Here you should:
 
 * **click the toggle to enable the SysKit Point Collaborators role (1)** - this will allow Teams owners, Group owners, and site administrators to access SysKit Point and to manage their workspaces
 * **check the Add users with Full Control option (2)** if you want to enable users with full control privileges to access SysKit Point; **this is needed in case you want to enable users in the Site Owners SharePoint group to perform access reviews**

@@ -4,6 +4,10 @@ description: This article explains how to customize e-mails within SysKit Point.
 
 # Customize E-mails
 
+{% hint style="information" %}
+**Customized E-mails** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% endhint %}
+
 SysKit Point **provides the option to customize e-mails** that are **sent to site owners** as a part of **Access Review and Lifecycle Management Automation**.  
 
 Emails are used for **Access Review and Lifecycle Management** tasks and any policies created under **Automated Workflows**. They are also used for receiving reports that are available in the **Reports** section of SysKit Point. 

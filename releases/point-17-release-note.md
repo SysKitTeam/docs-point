@@ -14,6 +14,10 @@ Let the festivities begin; **SysKit Point 17 is here**! Although it's still Nove
 
 ## Features
 
+{% hint style="information" %}
+**Scheduled reports** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% endhint %}
+
 * **Scheduled reports are available!** Now you can set the reports to be delivered via email or saved to a document library, which can help you share information and collaborate with external team members without giving them access to SysKit Point. When working with Scheduled Reports, you can:
 
   * **Schedule all reports and views** with a couple of clicks

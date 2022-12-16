@@ -4,8 +4,8 @@ description: This article explains how to enable and configure the Lifecycle Man
 
 # Enable Lifecycle Management Automation
 
-{% hint style="warning" %}
-**Before you continue**, check if the Lifecycle Management Automation feature is included in your [subscription plan](https://www.syskit.com/products/point/pricing/).
+{% hint style="information" %}
+**Lifecycle Management Automation** is available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 {% endhint %}
 
 To use the advantages of **Lifecycle Management Automation** in **SysKit Point**, you need to:
