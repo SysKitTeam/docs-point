@@ -2,6 +2,10 @@
 description: This article lists all the requirements to be met before deploying the SysKit Power BI app.
 ---
 
+{% hint style="information" %}
+**The Power BI Companion app** are available in the Data Center plan. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% endhint %}
+
 {% hint style="success" %}
 Before you begin ensuring that the requirements for the Azure Power BI app are met, verify the following:
 * **SysKit Point is deployed**

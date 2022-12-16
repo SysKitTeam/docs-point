@@ -5,7 +5,7 @@ description: This article explains how to enable and configure automated workflo
 # Set Up Automated Workflows
 
 {% hint style="information" %}
-**Power BI reports** are available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+**Automated Workflows** are available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 {% endhint %}
 
 ## Prerequisites
