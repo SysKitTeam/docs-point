@@ -4,6 +4,10 @@ description: Approval processes define who needs to approve the end-user request
 
 # Approval Processes 
 
+{% hint style="information" %}
+**Approval Processes** are available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% endhint %}
+
 To start with the configuration, open the **Settings > Governance > Approval Processes** screen. 
 
 **Your Approval Processes** list shows you which approval types will be available to use in provisioning templates. 

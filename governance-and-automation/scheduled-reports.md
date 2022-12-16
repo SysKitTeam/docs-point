@@ -4,6 +4,10 @@ description: This article provides all information about scheduled reports in Sy
 
 # Schedule Reports
 
+{% hint style="information" %}
+**Scheduled Reports** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% endhint %}
+
 When you manage permissions and resources in your Microsoft 365 tenant, creating reports, sharing them, or saving them for future reference, might take up a lot of your time – that’s where the Scheduled Reports in SysKit Point can help!
 
 With the help of this feature, you can do the following:

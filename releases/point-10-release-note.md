@@ -31,13 +31,22 @@ Drills, breadcrumbs, views, contextual and global actions, filters, and each and
 
 ## Role-based Access
 
-Not only Global Administrators but also **Site Owners and users with Full Control Permissions can access SysKit Point** and manage their Sites and Microsoft 365 Groups. Find out how to [enable their access in few mouse clicks here. ](../configuration/enable-role-based-access.md)These options are available depending on the subscription type, so make sure to [check available plans here.](https://syskit.com/products/point/pricing/)
+{% hint style="information" %}
+**Collaborator roles** are available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% endhint %}
+
+Not only Global Administrators but also **Site Owners and users with Full Control Permissions can access SysKit Point** and manage their Sites and Microsoft 365 Groups. Find out how to [enable their access in few mouse clicks here.](../configuration/enable-role-based-access.md)
 
 ## Sync it!
 
 Old ways of collecting data from Microsoft 365 are no more. **With the new Sync capability, data collection has become granular, quick and lightweight.** Heavy lifting is done only when needed. Or when you want it. [Learn more about Sync here.](../get-to-know-syskit-point/collect-office-365-data.md)
 
+
 ## Audit Logs & Analytics
+
+{% hint style="information" %}
+**Audit Logs & Analytics** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% endhint %}
 
 Contextual audit reports as you know and love them, only better! Like all things in SysKit Point, audit reports are easy to understand and accessible from all parts of the app. **The analytics information is being calculated even if you decide not to store the audit logs.** You can easily [customize what to store as described here.](../configuration/customize-audit-logs-collection.md)
 

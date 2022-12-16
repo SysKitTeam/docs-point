@@ -18,10 +18,13 @@ A lot of tweaks make this version of SysKit Point the best one yet, so make sure
 
 ## Features
 
+{% hint style="information" %}
+**Automated Access Review** is available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% endhint %}
+
 * **Automated Access Review** is available! This new feature takes care of the Access Review process in your environment by sending **automatic reminders via email to site admins**, Microsoft Teams owners, and Microsoft 365 Group owners, and **creates related tasks for them in SysKit Point**. In the tasks, admins and owners get the full overview of users, their permissions, as well as shared content, edit permissions, and complete the Access Review Task once everything seems to be in order. Use the following links to find out:
-  * [how to configure the Automated Access Review to suit your governance policies](../governance-and-automation/permissions-review/enable-permissions-review.md),
-  * [what happens in the Access Review process](../point-collaborators/access-review.md), and
-  * [which subscription plans include this feature](https://www.syskit.com/products/point/pricing/).
+  * [how to configure the Automated Access Review to suit your governance policies](../governance-and-automation/permissions-review/enable-permissions-review.md)
+  * [what happens in the Access Review process](../point-collaborators/access-review.md)
 * **Cancel option is available** when generating reports. Reports in large environments having a lot of content can take a while to generate. While at it, if you change your mind and want to go a step back, you can now cancel the report generation. By doing so, all server resources are being freed automatically, ensuring the best performance experience for all users. The same happens when you refresh the web page, close the browser tab, or even close your browser to optimize the usage of server resources.
 * **New Grant Access action** is available, which enables you to grant permissions to multiple users and security groups, either directly, or by adding them to multiple existing SharePoint groups. The action is available for all SharePoint objects with broken permissions inheritance and can be found on the Site Details screen, Users report, and Permissions Matrix report.
 * **New Change Owners action** is available. You can now easily change owners of Microsoft Teams and Microsoft 365 Groups from multiple reports and screens in SysKit Point – Sites Overview screen, Microsoft Teams & Groups overview screen, Microsoft 365 Group and Microsoft Teams details screens, Group Memberships report, Orphaned Groups report, Permissions Matrix report, and the Task Details screen when performing Access Review for a specific Microsoft Teams or Microsoft 365 Groups.

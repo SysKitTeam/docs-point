@@ -4,6 +4,10 @@ description: This section describes how to customize the Audit Logs collection u
 
 # Customize Audit Logs Collection
 
+{% hint style="information" %}
+**Audit Logs** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% endhint %}
+
 Audit logs can provide you with **insights into all activities** related to the user and administration activities in your Microsoft 365 environment.‌ The Audit Logs contain information on activities within your organization related to **groups, documents, permissions, directory services and much more**. 
 
 Users that are assigned **SysKit Point Admin role** can configure activities that are going to be collected in these locations:

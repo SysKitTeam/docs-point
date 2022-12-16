@@ -4,6 +4,10 @@ description: This article explains how to customize additional Access Review opt
 
 # Access Review Options
 
+{% hint style="information" %}
+**Access Review options** are available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% endhint %}
+
 To start with the configuration, navigate to **Settings** > **Governance** > **Access Review Options**
 Here, you can find 3 sections:
 * **Manage Reviewers**

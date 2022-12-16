@@ -13,6 +13,12 @@ In the latest version of SysKit Point the following types of tasks are available
 
 Click the appropriate link to learn more about how to resolve a specific type of task.
 
+
+{% hint style="information" %}
+**SysKit Point Tasks** are available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% endhint %}
+
+
 ## My Tasks
 
 You can find all tasks assigned to you by opening the My Tasks screen. To access the **My Tasks** screen:

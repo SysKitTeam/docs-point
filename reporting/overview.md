@@ -48,6 +48,10 @@ Some reports, such as **the External Users report, generate right after clicking
 
 ## Report Categories
 
+{% hint style="warning" %}
+Check the articles below for information on what [subscription plans](https://www.syskit.com/products/point/pricing/) the reports will be available in.
+{% endhint %}
+
 Reports in SysKit Point can be divided into 8 main categories:
 * [Inventory Reports](inventory-reports.md)
 * [External Sharing Reports](external-sharing-reports.md)
