@@ -3,7 +3,7 @@ description: This article lists all the requirements to be met before deploying 
 ---
 
 {% hint style="information" %}
-**The Power BI Companion app** are available in the Data Center plan. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+**The Power BI Companion app** is available in the Data Center plan. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 {% endhint %}
 
 {% hint style="success" %}
