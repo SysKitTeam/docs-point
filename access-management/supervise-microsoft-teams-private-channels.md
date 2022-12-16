@@ -1,5 +1,7 @@
 ---
-description: This article describes what are Private channels and how to oversee them using SysKit Point.
+description: >-
+  This article describes what are Private channels and how to oversee them using
+  SysKit Point.
 ---
 
 # Supervise Microsoft Teams Private Channels
@@ -11,7 +13,7 @@ description: This article describes what are Private channels and how to oversee
 You might want to use a Private Channel in a situation where you have a group of people who need a focused space to collaborate without having to create a separate team, or they need to discuss sensitive information, such as budgets, resourcing, strategic positioning, and so on.
 
 {% hint style="warning" %}
-**Please note!**  
+**Please note!**\
 Anyone, **including guest users**, can be a member of a Private Channel as long as they are a member of the Team within which the Private channel was created.
 {% endhint %}
 
@@ -30,7 +32,7 @@ In **Microsoft Admin Center**, **Team Owners can see the names of all Private Ch
 When you create a **Microsoft Teams Private Channel**, you are creating that channel's **SharePoint Site collection** **optimized for file sharing and fast provisioning**. The separate site collection is there to ensure that the access to private channel files is restricted only to members of the Private Channel compared to the Team site where Team owners have access to all the assets within the site collection
 
 {% hint style="warning" %}
-**Please note!**  
+**Please note!**\
 SharePoint Sites of Microsoft Teams Private Channels are **not visible** in the **SharePoint Admin Center**.
 {% endhint %}
 
@@ -50,18 +52,18 @@ From the **Home** screen of **SysKit Point**, click the **Sites** tile.
 
 It will redirect you to **SysKit Point Sites Overview screen**. As we know when a Private Channel is created, it also creates a SharePoint Site Collection. Unlike SharePoint Online, **SysKit Point gives you the ability to see that Site Collection within your Sites**, and also **gives Team owners the ability to see all members and shared files in a Private Channel**, even when the Team owner is not a member of a said Private Channel.
 
-On the **Sites Overview** screen, any existing Microsoft Teams **Private Channel site will be located right under its parent Microsoft Teams site**, but to easily filter said Sites, click the **Column Chooser \(1\)** and **enable the column called Template \(2\)**.
+On the **Sites Overview** screen, any existing Microsoft Teams **Private Channel site will be located right under its parent Microsoft Teams site**, but to easily filter said Sites, click the **Column Chooser (1)** and **enable the column called Template (2)**.
 
 ![SysKit Point Site Overview - Filtering sites of Private Channels](../.gitbook/assets/pc-clanak-2.png)
 
-The next thing you have to do is to **click the Filter icon \(1\)** of the Template column, **select the Private Channel site \(2\)** and **click OK \(3\)**.
+The next thing you have to do is to **click the Filter icon (1)** of the Template column, **select the Private Channel site (2)** and **click OK (3)**.
 
 ![SysKit Point Site Overview - Filtering sites of Private Channels](../.gitbook/assets/pc-clanak-3.png)
 
 Now, **only the sites of Private Channels will be visible** on the Site Overview screen. You can **recognize them by the lock icon** displayed next to the name of the site.
 
 {% hint style="warning" %}
-**Please note!**  
+**Please note!**\
 The name of the Private Channel site consists of the **name of its Team** + the **name of said Private Channel**.
 {% endhint %}
 
@@ -69,20 +71,20 @@ The name of the Private Channel site consists of the **name of its Team** + the 
 
 **Click the site name to open the Private Channel site details page**. Here, **you can see which users have permissions** in the private channel, **view shared files**, and **find all analytics data**, as in other types of Sites. Additionally, you can **generate multiple reports** for the Private Channel site and **perform multiple actions** - Remove Access, Edit Permissions, Delete SharePoint Group, Remove Users from Group, etc.
 
-![SysKit Point - Private Channel site details screen](../.gitbook/assets/pc-clanak-5%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29.png)
+![SysKit Point - Private Channel site details screen](<../.gitbook/assets/pc-clanak-5 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2).png>)
 
 #### Microsoft Teams & Groups Screen
 
 **SysKit Point** also gives you the **ability** to see **Microsoft Teams Private Channels** via the **Group details page** of its **parent Team**. Here's how you can do it.
 
-From the **Home Screen**, select the **Microsoft Teams & Groups** tile, which will redirect you to the Microsoft Teams & Group Overview screen. Here, click the **View chooser \(1\)** and select the **Teams with Private Channels** **option \(2\)**.
+From the **Home Screen**, select the **Microsoft Teams & Groups** tile, which will redirect you to the Microsoft Teams & Group Overview screen. Here, click the **View chooser (1)** and select the **Teams with Private Channels** **option (2)**.
 
 ![SysKit Point Group Overview screen - choosing Teams with Private Channels view](../.gitbook/assets/pc-clanak-6.png)
 
 The report now shows only Microsoft Teams with Private Channels.
 
 {% hint style="info" %}
-**Hint!**  
+**Hint!**\
 You can also see which Microsoft Teams have Private Channels by enabling the **Private Channels** column in the **Column Chooser**.
 {% endhint %}
 
@@ -98,7 +100,7 @@ Clicking a Private Channel inside the Channels tile opens the **SysKit Point Cha
 
 If you want to see all the information about **Private channels** in your **Microsoft 365 environment**, **SysKit Point** has a solution for you in the form of the **Microsoft Teams with Private Channels report**. Here's how you can generate it.
 
-From the Home screen, click the **Reports tile**. Report Center opens. Here, **click the Filter in the left corner** **\(1\)**, **select the Microsoft Teams & Groups option \(2\)**, and find the **Microsoft Teams with Private Channels report \(3\)**.
+From the Home screen, click the **Reports tile**. Report Center opens. Here, **click the Filter in the left corner** **(1)**, **select the Microsoft Teams & Groups option (2)**, and find the **Microsoft Teams with Private Channels report (3)**.
 
 ![SysKit Point Report Center - Microsoft Teams with Private Channels report](../.gitbook/assets/pc-clanak-9.png)
 
@@ -107,4 +109,3 @@ When you click the report tile, the report is **automatically generated,** **con
 ![SysKit Point Report center - Microsoft Teams with Private Channels generated report](../.gitbook/assets/pc-clanak-10.png)
 
 If you wish to know even more about the Private Channels, you can find it in the [following Microsoft article](https://docs.microsoft.com/en-us/microsoftteams/private-channels).
-

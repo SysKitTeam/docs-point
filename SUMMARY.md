@@ -2,6 +2,7 @@
 
 * [SysKit Point](README.md)
 * [Releases](releases/README.md)
+  * [SysKit Point 2022.5.1](releases/point-2022-5-1-release-note.md)
   * [SysKit Point 2022.5](releases/point-2022-5-release-note.md)
   * [SysKit Point 2022.4.1](releases/point-2022-4-1-release-note.md)
   * [SysKit Point 2022.4](releases/point-2022-4-release-note.md)
