@@ -9,7 +9,7 @@ In order to use sensitivity labels when creating provisioning templates, the fol
   * [Click here to learn how to create and configure sensitivity labels and their policies.](https://docs.microsoft.com/en-us/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide)
 * **Sensitivity labels are enabled for containers - Microsoft Teams sites, Microsoft 365 groups, and SharePoint sites**
   * [Use this article to help you enable sensitivity labels for containers](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels-teams-groups-sites?view=o365-worldwide#enable-this-preview-and-synchronize-labels)
-* **Dedicated service account is connected to SysKit Point**
+* **a service account is connected to SysKit Point**
 
 The connected service account enables SysKit Point to:
 * **collect existing sensitivity labels**
@@ -21,7 +21,7 @@ The sensitivity label changes can take up to 24 hours to replicate to all apps a
 {% endhint %}
 
 ## Service Account Requirements
-When preparing a dedicated service account for SysKit Point, consider the following requirements:
+When preparing a service account for SysKit Point, consider the following requirements:
 
 * **multifactor authentication can be enabled for the service account**, but it isn't mandatory
 * **service account password is set never to expire** to avoid repetitious password re-entries in SysKit Point; [learn how to set user's password never to expire here](https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/set-password-to-never-expire?view=o365-worldwide#set-a-password-to-never-expire) 
