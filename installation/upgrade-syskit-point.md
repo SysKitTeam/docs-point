@@ -19,8 +19,7 @@ This article **describes SysKit Point upgrades from version 20 onwards**.
 
 **SysKit Point automatically checks for updates** every day, outside of working hours. **In case a new update is available, every SysKit Point user** **receives a popup message** at the bottom of the Home screen when they open the web application.
 
-
-![Home screen - New Update Available](<../.gitbook/assets/upgrade-syskit-point\_new-update-available (1) (4) (3) (1) (2).png>)
+![Home screen - New Update Available](<../.gitbook/assets/upgrade-syskit-point\_new-update-available (1) (4) (3) (1) (1) (1).png>)
 
 The **Read What's New** **link (1)** opens a new tab in your browser at the [Releases](../releases/) section in SysKit Point documentation, where you can find out about new features, improvements, and bug fixes by each product version.
 
