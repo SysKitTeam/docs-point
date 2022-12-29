@@ -92,7 +92,7 @@ Additionally, you can:
 
 {% hint style="warning" %}
 **Please note!** 
-If you haven't received the approval from **Microsoft** for detecting the activity of **Microsoft Teams**, Microsoft Teams **will not be monitored** with **Lifecycle Management Automation**.
+If you haven't received approval from **Microsoft** for detecting the activity of **Microsoft Teams**, Microsoft Teams **will not be monitored** with **Lifecycle Management Automation**.
 [Find out how to enable Microsoft Teams activity tracking here](../../configuration/microsoft-teams-activity.md). 
 {% endhint %}
 
