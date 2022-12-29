@@ -29,6 +29,8 @@ When deploying SysKit Point, you will be dealing with Azure resources instead of
 | Service Bus | Basic tier: 10 million messaging operations/mo | Basic tier: 10 million messaging operations/mo | Basic tier: 10 million messaging operations/mo |
 | Storage Account | General Purpose v2 | General Purpose v2 | General Purpose v2 |
 | Key Vault | Standard Tier | Standard Tier | Standard Tier |
+| App Service - CIM | Premium Tier - P1V3; 195 total ACU, 8 GB memory, 2vCPU | Premium Tier - P1V3; 195 total ACU, 8 GB memory, 2vCPU | Premium Tier - P1V3; 195 total ACU, 8 GB memory, 2vCPU |
+
 
 ## Supported Browsers
 
