@@ -14,7 +14,7 @@ description: >-
 
 ## Workspace Access Review
 
-**Access review**, in the context of the Microsoft 365 environment, is an activity where a person responsible for a Microsoft 365 workspace verifies whether permissions are given to users inside (internal) and outside (external) of the company, comply with the organizational rules and guidelines.
+**Access review**, in the context of the Microsoft 365 environment, is an activity where a person responsible for a Microsoft 365 workspace verifies whether permissions are given to users inside (internal) and outside (external) of the company and comply with the organizational rules and guidelines.
 
 Some examples of such Microsoft 365 workspaces are:
 
@@ -288,19 +288,19 @@ The **Review Summary** report shows a detailed log of actions performed during t
 
 ![Review Summary Report](../.gitbook/assets/access-review\_review-summary.png)
 
-## Expired Reviews
+## Overdue Reviews
 
 After ten days, the Access Review cycle ends.
 
-SysKit Point automatically changes the status of all uncompleted site reviews to **Expired**.
+SysKit Point automatically changes the status of all uncompleted site reviews to **Active**.
 
 They can be found on the **Access Review** task screen.
 
 ![Access Review - Expired](../.gitbook/assets/access-review\_expired-reviews.png)
 
-After the Access Review is completed, expired tasks can no longer be finalized.
-
-With that, **the first Access Review cycle is concluded**.
+After the Access Review task is overdue, the following can be done: 
+  * **Owners can still resolve tasks** for all policies
+  * **Collaborators** can find the task under Active tasks in their My Tasks section, but it will show as expired
 
 The Access Review cycle will repeat based on the schedule defined by the SysKit Point Admin or when manually requested.
 
