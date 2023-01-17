@@ -20,8 +20,7 @@ No. SysKit doesn’t collect any billing information during the trial period.
 
 We believe it is best to see SysKit Point in action using your real data and we want to give you the possibility to set up and try SysKit Point in under 10 minutes.
 Therefore, **only for trial purposes**, we have put in place the following limitations:
- * Load is limited to 1 000 000 files, ​
- * Lists with more than 5000 items are not loaded,
+ * Load is limited to 10 000 000 files, ​
  * OneDrive sync is disabled​
 
 Please see our [documentation](../activation/trial.md) for more information.
