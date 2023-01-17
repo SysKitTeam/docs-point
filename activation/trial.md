@@ -25,7 +25,7 @@ We recommend Global Administrators perform the initial registration since consen
 
 To start the trial registration process:
 
-* Navigate to [Subscriptions site](https://subscriptions.syskit.com/)
+* Navigate to [Subscriptions site](https://subscriptions.syskit.com/create-account)
 * Click the **Register button (1)**
 
 ![Subscriptions - Register](../.gitbook/assets/trial\_register.png)
