@@ -30,6 +30,7 @@ To start the trial registration process:
 * Click the **Register button (2)** on the next screen
 
 ![Subscriptions - Start a Free Trial](../.gitbook/assets/trial-start.png)
+
 ![Subscriptions - Register](../.gitbook/assets/trial-register.png)
 
 Next, sign in with your Microsoft credentials.
