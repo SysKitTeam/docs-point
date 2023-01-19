@@ -44,7 +44,9 @@ To start, take the following steps:
 Once the create new metadata screen opens, fill in the following information.
 * **Metadata Name (1)**; the name of the metadata.
 * **Description (2)**; the description of the metadata for end users.
-* Select the **data type (3)** of the new metadata under the Customize Field.
+* **Enable collaborators to change the created metadata (3)** by checking the Allow collaborators to change this metadata value option
+  * by default, this option is disabled
+* Select the **data type (4)** of the new metadata under the Customize Field.
   * In the dropdown menu, there are several data types to choose from
     * **Text**
     * **People**
@@ -52,13 +54,13 @@ Once the create new metadata screen opens, fill in the following information.
     * **Dropdown**
     * **Yes/No**
     * **Number**
-* Use the **null text (4)** area to add a short hint that will describe the input field for end users.
-* When satisfied, click Confirm to apply the new metadata.
+* Use the **null text (5)** area to add a short hint describing the input field for end users.
+* When satisfied, click **Confirm (6)** to save the metadata definiton.
 
 ![Create New Metadata](../.gitbook/assets/custom-metadata_create-new.png)
 
  {% hint style="info" %}
-**Hint!** To connect to metadata from your environment, when creating custom metadata, click on Advanced Options and insert the property bag key in the designated space.
+**Hint!** To connect to metadata from your environment, when creating custom metadata, click the Advanced Options action and insert the property bag key in the designated space.
 {% endhint %}
 
 ## Change Custom Metadata
@@ -72,14 +74,13 @@ To change the custom metadata that has been set up on workspaces, select Sites o
 
 ![Create New Metadata](../.gitbook/assets/custom-metadata_change-location.png)
 
-* Select the **type of metadata (1)** that should be changed from the dropdown menu.
-  * In the field below, choose or input the required information.
-* Click the **Save (2)** button to store the change.
-   * There will then be the option to Change Another Column.
-* Click **Complete (3)** when satisfied with the changes.
+On the Change Metadata dialog, you can:
+* **Edit (1)** or **delete (2)** the existing metadata entry
+* **Specify additional metadata (3)** by clicking the Change Another Column action
+* Click **Complete (3)** when satisfied with your changes.
   * This will start the process of changing the custom metadata, and once completed, the information input will be displayed under the selected workspaces.
 
-![Create New Metadata](../.gitbook/assets/custom-metadata_change-custom-metadata.png)
+![Change Metadata](../.gitbook/assets/custom-metadata_change-custom-metadata.png)
 
 
 ## Filter Workspaces by Metadata
