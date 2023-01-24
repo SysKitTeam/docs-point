@@ -116,7 +116,7 @@ The Access Review is automatically marked as completed ten days after the start.
 
 ![Email - Access Review completed](<../../.gitbook/assets/monitor-permissions-review\_email-after (2) (2) (3) (2) (2) (1).png>)
 
-To view sites where the Access Review was not completed, click the **View Uncompleted Tasks** button. If already signed in to SysKit Point, you will be redirected to the **Access Review** report. Here, you can:
+To view sites where the Access Review was not completed, click the **View Uncompleted Tasks** button. If you are already signed in to SysKit Point, you will be redirected to the **Access Review** report. Here, you can:
 
 * **See that all tasks where the Access Review was not completed have the status set to Overdue (1)**
 * **Select one or multiple workspaces (2)**
@@ -139,6 +139,11 @@ The **See Details** button opens the **Access Review** report, already described
 ![Governance - History category](../../.gitbook/assets/monitor-permissions-review\_history.png)
 
 For more information on the **Manually Requested Reviews category**, [read the following article](manually-request-permissions-review.md).
+
+If the Access Review task is not completed during the given time limit, the following can still be done: 
+  * **Owners can still resolve tasks** for all policies
+  * **Collaborators** can find the task under Active tasks in their My Tasks section, but it will show as expired
+  * **When Administrators access the Governance screen**, the Access Review task is shown as active instead of completed when clicking on History, and they will have the ability to complete the task themselves
 
 ## Access Review - Summary
 
