@@ -39,19 +39,19 @@ See detailed step-by-step instructions on how to upgrade Configuration Inventory
   * Access Request policies can be **added to Microsoft Teams & Groups**.
   * **Admins can create** and edit access request policies.
 * **Users can request to join a specific Workspace.** 
-  * **Workspace Owners, Managers and Admins** can approve requests when users ask to join a workspace or a new workspace request is created; emails are sent to notify when these action occur. 
+  * **Workspace Owners, Managers, and Admins** can approve requests when users ask to join a workspace or a new workspace request is created; emails are sent to notify when these actions occur. 
   * **My Workspaces and All Workspaces** screens are shown in the Microsoft Teams app if they are set as Public and depending on the assigned Access Request policy. 
 * **SysKit Point can now be purchased directly through the [subscription portal](https://www.syskit.com/products/point/pricing/)** once the free trial period has expired.
-  * When the SysKit Point free trial is activated **the admin will receive an email**. 
+  * When the SysKit Point free trial is activated **, the admin will receive an email**. 
   * **Subscriptions portal can be accessed through SysKit Point** by going to Settings > Point license > Manage Subscriptions. 
 
 
 ## Improvements & Bug Fixes
 
-* **Microsoft Teams & Groups Overview** now shows additional group types: Security Groups, Exchange Groups and Distribution Lists. 
+* **Microsoft Teams & Groups Overview** now shows additional group types: Security Groups, Exchange Groups, and Distribution Lists. 
   * **Group Access reports** will provide information on owners and members for Distribution Lists and Security Groups.
 * SysKit Point now has the option to **enable or disable provisioning**.
-* **SysKit Point trial** no longer has a 5k limit for documents and libraries and the 1M items limit has been increased. [Read more about the trial here.](../activation/trial.md)
+* **SysKit Point trial** no longer has a 5k limit for documents and libraries, and the 1M items limit has been increased. [Read more about the trial here.](../activation/trial.md)
 * **Fixed a bug** 
 
 
