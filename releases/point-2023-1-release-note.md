@@ -1,8 +1,8 @@
 ---
-description: This article lists new features, improvements, and bug fixes in SysKit Point version 2022.5.
+description: This article lists new features, improvements, and bug fixes in SysKit Point version 2023.1.
 --- 
 
-# SysKit Point 2022.5
+# SysKit Point 2023.1
 
 [Schedule a demo](https://www.syskit.com/products/point/request-a-demo/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
@@ -10,7 +10,7 @@ description: This article lists new features, improvements, and bug fixes in Sys
 
 **Build number:** 
 
-**Release date:** Feb 1, 2023
+**Release date:** Feb 7, 2023
 
 ## Get the Latest Version
 
