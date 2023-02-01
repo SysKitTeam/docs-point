@@ -20,6 +20,8 @@ To set up a complete provisioning process that fits your company needs, there ar
 
 4) **Microsoft 365 group creation** - by default, all users can create Microsoft 365 groups and the workspaces that rely on groups for access. To limit the creation of workspaces to SysKit Point Teams app, additional configuration is needed. Learn how to [manage who can create Microsoft 365 groups here](restrict-group-creation.md).
 
+5) **Enable/Disable Feature** - by default, Provisioning is set as enabled but can be disabled without losing any of the existing provisioning requests. In case Provisioning is disabled, existing provisioning requests can stil be completed but no new provisioning requests can be create by end-users. [Read more on Enabling and Disabling Provisioning here](enable-disable-provisioning.md).
+
 ## End-users 
 
 Learn how to: 
