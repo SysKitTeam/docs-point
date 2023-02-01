@@ -18,6 +18,20 @@ To resolve this and ensure all the new features work properly, ask your Global A
 
 Depending on which version you are upgrading to, below you can find the list of changes in permissions requested and which features depend on them.
 
+## SysKit Point 2023.1
+
+**SysKit Point 2023.1 supports sync and management of distribution lists and email enabled security groups**. In order to sync all needed data and for the end-users to perform management actions, additional permissions were added to access the Exchange service.
+
+**Global Admin must re-consent permissions after the upgrade to SysKit Point 2023.1**. 
+
+**The following permissions were added to the existing SysKit Point app registrations**:
+
+| App Registration | API/Permissions Name | Permission | Type | Reason |
+| :--- | :--- | :--- | :--- | :--- |
+| SysKit Point Service | Exchange.ManageAsApp | Manage Exchange as application | Application | Allows SysKit Point to sync distribution lists and email enabled security groups. |
+| SysKit Point Permissions Loader | Exchange.ManageAsApp | Manage Exchange as application | Application | Allows SysKit Point to sync distribution lists and email enabled security groups. |
+| SysKit Point Client | Exchange.Manage | Manage Exchange configuration | Delegated | Allows SysKit Point users to manage owners and members in distribution lists and email enabled security groups. |
+
 ## SysKit Point 2022.5
 
 Due to [Outlook REST APIs being fully decommissioned on November 30, 2022](https://devblogs.microsoft.com/microsoft365dev/outlook-rest-api-v2-0-deprecation-notice/),  **with version 2022.5**, **SysKit Point migrates to Microsoft Graph API**. **The newly added permissions listed below are used to send all automatic and on-demand emails in SysKit Point**.
@@ -26,14 +40,14 @@ Due to [Outlook REST APIs being fully decommissioned on November 30, 2022](https
 
 **The following permissions were added to the existing SysKit Point service app registration**:
 
-| App Registration | API/ Permissions Name | Permission | Type | Reason |
+| App Registration | API/Permissions Name | Permission | Type | Reason |
 | :--- | :--- | :--- | :--- | :--- |
 | SysKit Point Service | Microsoft Graph/Mail.ReadWrite | Read and write mail in all mailboxes | Application | Allows SysKit Point to send emails as a part of the Access Review, Lifecycle Management, Scheduled Reports, Alerts, and other features. |
 | SysKit Point Service | Microsoft Graph/Mail.Send | Send mail as any user | Application | Allows SysKit Point to send emails as a part of the Access Review, Lifecycle Management, Scheduled Reports, Alerts, and other features. |
 
 **The following permissions were removed from the existing SysKit Point service app registration**:
 
-| App Registration | API/ Permissions Name | Permission | Type | Reason |
+| App Registration | API/Permissions Name | Permission | Type | Reason |
 | :--- | :--- | :--- | :--- | :--- |
 | SysKit Point Service | Microsoft 365 Exchange Online/Mail.Send | Send mail as any user | Application | Allows SysKit Point to send emails as a part of the Access Review, Lifecycle Management, Scheduled Reports, and Alerts features. |
 
