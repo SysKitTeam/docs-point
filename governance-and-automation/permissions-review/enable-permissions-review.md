@@ -51,7 +51,7 @@ The Exchange Online method enables you to use an existing Exchange account in yo
 
 After clicking the **Send test e-mail** button, the **Sent test e-mail** dialog opens. Here, **enter the e-mail address to which you want to send** the test e-mail. After a moment, you should receive an e-mail like the one pictured below.
 
-![Test e-mail](<../../.gitbook/assets/enable-permissions-review\_test-email (1) (2) (2) (3) (4) (4) (4) (6) (8) (2) (1).png>)
+![Test e-mail](<../../.gitbook/assets/enable-permissions-review\_test-email (1) (2) (2) (3) (4) (4) (4) (6) (8) (2) (6) (1) (1).png>)
 
 Click the **Save** button to store your e-mail settings.
 
@@ -74,12 +74,11 @@ Click the **Save** button once you confirm you received the test e-mail.
 
 ## Enable SysKit Point Collaborators
 
-{% hint style="information" %}
+{% hint style="info" %}
 **Managing Access for Collaborators** is available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 {% endhint %}
 
-To enable Teams and Groups owners and site administrators to perform the Access Review on their sites, you need to enable them to access SysKit Point. 
-To do so, navigate to the **Settings** &gt; **Security** &gt; **Manage Access** screen. Here you should:
+To enable Teams and Groups owners and site administrators to perform the Access Review on their sites, you need to enable them to access SysKit Point. To do so, navigate to the **Settings** > **Security** > **Manage Access** screen. Here you should:
 
 * **click the toggle to enable the SysKit Point Collaborators role (1)** - this will allow Teams owners, Group owners, and site administrators to access SysKit Point and to manage their workspaces
 * **check the Add users with Full Control option (2)** if you want to enable users with full control privileges to access SysKit Point; **this is needed in case you want to enable users in the Site Owners SharePoint group to perform access reviews**
