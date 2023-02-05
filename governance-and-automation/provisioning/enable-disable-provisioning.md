@@ -1,5 +1,5 @@
 ---
-description: This article explains 
+description: This article explains how to enable and disable provisioning in Point Teams app.
 ---
 
 

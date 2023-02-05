@@ -10,7 +10,7 @@ description: This article explains how to get started with provisioning in SysKi
 
 ## Admins 
 
-To set up a complete provisioning process that fits your company needs, there are a couple of things that will require your attention: 
+To set up a complete provisioning process that fits your company's needs, there are a couple of things that will require your attention: 
 
 1) **Provisioning Templates** – you need to specify which types of workspaces end-users can request. Navigate to the [following article](templates.md) to learn more about templates.
 
@@ -20,7 +20,7 @@ To set up a complete provisioning process that fits your company needs, there ar
 
 4) **Microsoft 365 group creation** - by default, all users can create Microsoft 365 groups and the workspaces that rely on groups for access. To limit the creation of workspaces to SysKit Point Teams app, additional configuration is needed. Learn how to [manage who can create Microsoft 365 groups here](restrict-group-creation.md).
 
-5) **Enable/Disable Feature** - by default, Provisioning is set as enabled but can be disabled without losing any of the existing provisioning requests. In case Provisioning is disabled, existing provisioning requests can stil be completed but no new provisioning requests can be create by end-users. [Read more on Enabling and Disabling Provisioning here](enable-disable-provisioning.md).
+5) **Enable/Disable Feature** - by default, Provisioning is set as enabled but can be disabled without losing any of the existing provisioning requests. In case Provisioning is disabled, existing provisioning requests can still be completed but no new provisioning requests can be created by end-users. [Read more on Enabling and Disabling Provisioning here](enable-disable-provisioning.md).
 
 ## End-users 
 
