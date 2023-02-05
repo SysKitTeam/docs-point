@@ -27,7 +27,7 @@ To start the trial registration process:
 
 * Navigate to the [Free Trial start page](https://www.syskit.com/products/point/free-trial/)
 * Enter your information and click **Start a Free Trial(1)**
-* Click the **Register button (2)** on the next screen
+* Click the **Register button (1)** on the next screen
 
 ![Subscriptions - Register](../.gitbook/assets/trial-register.png)
 
