@@ -4,7 +4,7 @@ description: This article describes how to enable and customize alerts in SysKit
 
 # Configure Alerts
 
-{% hint style="information" %}
+{% hint style="info" %}
 **Alerts** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 {% endhint %}
 
@@ -77,7 +77,7 @@ Site-specific alerts can be enabled from the following screens:
 
 The **Configure Alerts action (1)** is available in the right-side panel.
 
-![Sites - Configure Alerts action](<../.gitbook/assets/configure-alerts\_configure-alerts (2) (1) (1).png>)
+![Sites - Configure Alerts action](<../.gitbook/assets/configure-alerts\_configure-alerts (1) (1) (1) (2).png>)
 
 The following table shows the **availability of alerts per scope**:
 
@@ -121,10 +121,9 @@ To enable alerts for a specific site:
 
 * **Navigate to the Sites overview screen**
 * **Select a site (1)**
-*   **Click the Configure Alerts (2) link**
+* **Click the Configure Alerts (2) link**
 
-
-![Sites overview screen - Configure Alerts action](<../.gitbook/assets/configure-alerts\_configure-alerts (2) (1).png>)
+![Sites overview screen - Configure Alerts action](<../.gitbook/assets/configure-alerts\_configure-alerts (1) (1) (1).png>)
 
 The **Configure Alerts** dialog opens. Here, the following is available:
 
