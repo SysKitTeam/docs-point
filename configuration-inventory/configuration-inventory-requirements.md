@@ -19,7 +19,7 @@ Learn how to connect the service account in SysKit Point by following the instru
 
 {% hint style="warning" %}
 **Please note!**  
-Use the [Enter credentials](../configuration/connect-service-account.md#enter-credentials) option when connecting the service account to collect Configuration Inventory data. 
+Use the [Enter credentials](../configuration/connect-service-account.md#enter-credentials) option when connecting the service account to collect Configuration Inventory data.
 **The Configuration Inventory module currently does not support a service account with multi-factor authentication enabled.**
 {% endhint %}
 
