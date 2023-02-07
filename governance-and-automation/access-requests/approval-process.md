@@ -31,7 +31,7 @@ To approve Workspace Access Requests that you have received, complete the follow
 For more details on why the request was made, click on the request itself.
   * This opens a screen that shows **who the request can be approved by (1)**, and the **reason for wanting to join that  Workspace (2)** as stated by the requester
   * You can also click on **Additional Information (3)** for more details about the Workspace itself
-  * On this screen, you can also **Approve or Reject (4)** the request, by clicking the buttons in the bottom right corner
+  * On this screen, you can also **Approve or Reject (4)** the request by clicking the buttons in the bottom right corner
 
   ![Workspaces Approval - More Information](../../.gitbook/assets/approval-process_more-details.png)
 
