@@ -1,5 +1,5 @@
 ---
-description: This article explains how to request to join a workspace after an Access Requests policy has been applied. 
+description: This article explains how to request to join a workspace after an Access Requests policy is applied. 
 ---
 
 #  Request Access to Workspaces
@@ -15,7 +15,7 @@ To request to join a workspace, complete the following steps:
 
 You can request to join a workspace by either:
   * Searching through the list of available workspaces in your **All Workspaces (3)** section
-  * Typing in the name of the workspace you are looking for in the **search bar (4)** , located near the top right corner
+  * Typing in the name of the workspace you are looking for in the **search bar (4)**, located near the top right corner
 
 Once you locate the workspace you want to request access to, **click the Ask to Join button (5)**.
   * This can be found on the right side of the screen in the same line as the desired workspace 
@@ -23,11 +23,12 @@ Once you locate the workspace you want to request access to, **click the Ask to 
 ![Request Workspace Access](../.gitbook/assets/request-workspace-access_first-screen.png)
 
 Clicking Ask to Join will open a pop-up screen where you can **enter the reason why you are interested in joining (1)** the specific workspace. 
-  * If the Access Requests policy allows for multiple access levels, you will be able to choose between Member, Owner, or both, however, if the policy is set to allow just one of the mentioned **access levels (2)**, it will be automatically selected
+  * If the Access Requests policy allows for multiple access levels, you will be able to choose between Member, Owner, or both
+  * If  the policy is set to allow just one of the mentioned **access levels (2)**, it will be automatically selected
 
 **Click Submit (3)** once you are ready to submit your request.
 
-On this request form you can also find more information on the workspace by navigating to the bottom and click the **View Details button (4)**.
+On this request form, you can also find more information on the workspace by navigating to the bottom and clicking the **View Details button (4)**.
 
 ![Request Workspace Access - Ask to Join](../.gitbook/assets/request-workspace-access_second-screen.png)
 
@@ -38,9 +39,8 @@ View Details open an information section for the group which will list the follo
   * Description of the workspace
   * Owners
   * Members
-    * You can search for a specific user in the workspace by using the search bar, located in the top right of the screen
+    * You can search for a specific user in the workspace by using the search bar located in the top right of the screen
 
 {% hint style="information" %}
 After you've submitted the request, **it will need to be approved by a third party**. This will depend on who the Access Requests policy lists as responsible for approving requests for that workspace.
 {% endhint %}
-

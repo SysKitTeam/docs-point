@@ -43,7 +43,7 @@ Depending on the approval processes required for your workspaces, the following 
     * 1-stage process
     * 2-stage process
     * 3-stage process
-  * Depending on whether you selected the single or multiple-stage process, you will need to be complete the below information:
+  * Depending on whether you selected the single or multiple-stage process, you will need to complete the below information:
     * **Select who approves the requested workspace (4)**:
       * **Manager of Requester**; you are also able to **add additional information** in case the requester has no manager by entering details in the section below
       * **Workspace Owner**; you are also able to **add additional information** in case the workspace has no owner by entering details in the section below
@@ -66,7 +66,7 @@ Once you complete the above steps, **click Save (2)**; this opens a pop-up stati
 ![Access Requests Policy - Level of Access](../../.gitbook/assets/create-access-request_policy-created.png)
 
 The new policy can now be found in the **list of all policies created in your environment**. 
-  * The pop-up also allows clicking on Apply Policy and being taken to the Mange Policies screen directly. 
+  * The pop-up also allows clicking on Apply Policy and being taken to the Manage Policies screen directly. 
 
 {% hint style="information" %}
 To enforce the new policy, it will need to be **applied to resources in your environment**. Take a look at the [Apply Access Requests article](https://www.syskit.com/products/point/pricing/) for instructions on how to apply your policy.
