@@ -68,6 +68,6 @@ Once you complete the above steps, **click Save (2)**; this opens a pop-up stati
 The new policy can now be found in the **list of all policies created in your environment**. 
   * The pop-up also allows clicking on Apply Policy and being taken to the Manage Policies screen directly. 
 
-{% hint style="information" %}
+{% hint style="warning" %}
 To enforce the new policy, it will need to be **applied to resources in your environment**. Take a look at the [Apply Access Requests article](https://www.syskit.com/products/point/pricing/) for instructions on how to apply your policy.
 {% endhint %}

@@ -21,9 +21,9 @@ Select one or more resources that the Access Requests policy should be applied t
 ![Manage Policies - Apply](../../.gitbook/assets/apply-access-request_manage-policies-selection.png)
   
 A pop-up screen appears, prompting you to select the type of policy that should be applied to the selected workspaces.
-    * **Select Access Requests (1)** from the drop-down menu; this adds the option to select a specific policy
-    * **Select the policy (2)** that should be applied to the specific workspaces
-      * This shows a text below explaining what aspects of the workspaces the Access Requests policy applies to
+* **Select Access Requests (1)** from the drop-down menu; this adds the option to select a specific policy
+* **Select the policy (2)** that should be applied to the specific workspaces
+  * This shows a text below explaining what aspects of the workspaces the Access Requests policy applies to
  * **Click Save (3)** once you are satisfied with your selection
 
  ![Apply Access Requests Policy](../../.gitbook/assets/apply-access-request_apply-policy.png)
@@ -42,7 +42,7 @@ If you want to remove an Access Requests Policy that has been applied to a works
 
 This will remove the Access Requests policy that was assigned.
 
-{% hint style="information" %}
+{% hint style="warning" %}
 Instead of removing the policy, you can also select a different Access Requests policy to apply from the drop-down menu. 
 {% endhint %}
 

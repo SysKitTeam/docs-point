@@ -4,7 +4,7 @@ description: This article explains how to get started with Access Requests in Sy
 
 # Set Up Access Requests
 
-{% hint style="information" %}
+{% hint style="warning" %} 
 **Access Requests** are available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 {% endhint %}
 
