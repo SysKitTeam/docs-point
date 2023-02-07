@@ -47,7 +47,7 @@ Global admin re-consent is required after the upgrade to the 2023.1 version. [Le
   * [Apply the policies](../governance-and-automation/access-requests/apply-access-request.md) to **Microsoft Teams**, **Microsoft 365 groups**, **distribution lists**, **mail-enabled security groups**, **security groups**, and **SharePoint sites**.
 End-users can utilize the SysKit Point Teams app to:
   * [Request to join a specific workspace](../point-collaborators/request-workspace-access.md) and **approve requests** when users ask to join a workspace; emails are sent to notify when these actions occur. 
-  * **Discover All Workspaces in your environment** and **workspaces they have joined under My Workspaces**. 
+  * **Discover All Workspaces in their environment** and **workspaces they have joined, listed under My Workspaces**. 
 
 ## Improvements & Bug Fixes
 
