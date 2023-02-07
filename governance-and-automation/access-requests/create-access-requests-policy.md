@@ -1,16 +1,16 @@
 ---
-description: This article explains how to create an Access Request policy in SysKit Point. 
+description: This article explains how to create an Access Requests policy in SysKit Point. 
 ---
 
-#  Access Request Policy
+#  Access Requests Policy
 
-To create the **Access Request policy**, open SysKit point and go to **Settings**. 
+To create the **Access Requests policy**, open SysKit point and go to **Settings**. 
 
 Under Governance, select **Automated Workflows**. 
 
-## Create Access Request Policy
+## Create Access Requests Policy
 
-To create the Access Request policy, complete the following steps:
+To create the Access Requests policy, complete the following steps:
  * **Click the Create New Policy (1) button** located on the left side under the Automated Workflows title.
    * A pop-up screen will appear, prompting you to select which policy to create.
 
@@ -18,11 +18,11 @@ To create the Access Request policy, complete the following steps:
 
 * **Select Access Requests(2)** from the available list of policies.
 
-![Create Access Request Policy](../../.gitbook/assets/create-access-request_new-policy-ar.png)
+![Create Access Requests Policy](../../.gitbook/assets/create-access-request_new-policy-ar.png)
 
-Depending on the approval processes required for your Workspaces, the following information needs to be specified:
+Depending on the approval processes required for your workspaces, the following information needs to be specified:
 
-* **Create the new policies name (1)**; depending on the type of Access Request policy that will be created
+* **Create the new policies name (1)**; depending on the type of Access Requests policy that will be created
 
 * Select the **preferred approval process (2)** from the available list:
      * Manager approval
@@ -31,12 +31,12 @@ Depending on the approval processes required for your Workspaces, the following 
      * Automatically Approve
      * Owner approval
 
-![Access Request Policy - Set Up](../../.gitbook/assets/create-access-request_create-policy-1.png)
+![Access Requests Policy - Set Up](../../.gitbook/assets/create-access-request_create-policy-1.png)
 
-* Alternatively, you can also create a new approval process if the above does not suit your Workspaces' needs:
+* Alternatively, you can also create a new approval process if the above does not suit your workspaces' needs:
   * **Click Create New (1)**; located under the approval process dropdown menu
 
-![Access Request Policy - Set Up](../../.gitbook/assets/create-access-request_create-new-approval.png)
+![Access Requests Policy - Set Up](../../.gitbook/assets/create-access-request_create-new-approval.png)
 
   * **Enter the name** (2) of your new approval process
   * Select between the **single or multiple-stage approval process (3)**:
@@ -51,7 +51,7 @@ Depending on the approval processes required for your Workspaces, the following 
       * **Custom Recipients**; for this option, you will need to enter the desired recipients' details in the section below
       * **Click Confirm (5)** once finished
 
-![Access Request Policy - New Approval Process](../../.gitbook/assets/create-access-request_create-new-approval-final.png)
+![Access Requests Policy - New Approval Process](../../.gitbook/assets/create-access-request_create-new-approval-final.png)
 
 * After setting the desired approval process, you need to **specify the level of access** (1); users can request to join as **Members, Owners**, or both. 
   * This can be set for the following workspaces: 
@@ -63,11 +63,11 @@ Depending on the approval processes required for your Workspaces, the following 
 
 Once you complete the above steps, **click Save (2)**; this opens a pop-up stating that your **policy has been successfully created**. 
 
-![Access Request Policy - Level of Access](../../.gitbook/assets/create-access-request_policy-created.png)
+![Access Requests Policy - Level of Access](../../.gitbook/assets/create-access-request_policy-created.png)
 
 The new policy can now be found in the **list of all policies created in your environment**. 
   * The pop-up also allows clicking on Apply Policy and being taken to the Mange Policies screen directly. 
 
 {% hint style="information" %}
-To enforce the new policy, it will need to be **applied to resources in your environment**. Take a look at the [Apply Access Request article](https://www.syskit.com/products/point/pricing/) for instructions on how to apply your policy.
+To enforce the new policy, it will need to be **applied to resources in your environment**. Take a look at the [Apply Access Requests article](https://www.syskit.com/products/point/pricing/) for instructions on how to apply your policy.
 {% endhint %}

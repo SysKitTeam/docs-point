@@ -49,6 +49,10 @@ End-users can utilize the SysKit Point Teams app to:
   * [Request to join a specific workspace](../point-collaborators/request-workspace-access.md) and **approve requests** when users ask to join a workspace; emails are sent to notify when these actions occur. 
   * **Discover All Workspaces in their environment** and **workspaces they have joined, listed under My Workspaces**. 
 
+{% hint style="information" %}
+**Access Requests** are available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% endhint %}
+
 ## Improvements & Bug Fixes
 
 * **Microsoft Teams & Groups Overview** now shows additional group types: Security Groups, Exchange Groups, and Distribution Lists. 
