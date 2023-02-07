@@ -8,7 +8,7 @@ When an Access Requests policy is created, in order to enforce it for specific w
 
 In the Settings for SysKit Point, go under Governance and select Automated Workflows.  
 
-Click the **Manage Policies button (1)**to apply the policy. 
+Click the **Manage Policies button (1)** to apply the policy. 
 
 ![Manage Policies screen](../../.gitbook/assets/apply-access-request_manage-policies.png)
 
