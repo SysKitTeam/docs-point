@@ -6,9 +6,9 @@ description: This article lists new features, improvements, and bug fixes in Sys
 
 [Schedule a demo](https://www.syskit.com/products/point/request-a-demo/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
-**Product version:** 2023.1
+**Product version:** 2023.1.0
 
-**Build number:** 
+**Build number:** 16
 
 **Release date:** Feb 7, 2023
 
@@ -42,13 +42,17 @@ Global admin re-consent is required after the upgrade to the 2023.1 version. [Le
 [SysKit Point Teams app upgrade](../governance-and-automation/syskit-point-teams-app.md#upgrade-syskit-point-teams-app) is required after upgrading to the 2023.1 version. 
 {% endhint %}
 
-* **Access Request policy** has been added to Automated Workflows. 
-  * Access Request policies can be **added to Microsoft Teams & Groups**.
-  * **Admins can create** and edit access request policies.
-* **Users can request to join a specific Workspace.** 
-  * **Workspace Owners, Managers, and Admins** can approve requests when users ask to join a workspace or a new workspace request is created; emails are sent to notify when these actions occur. 
-  * **My Workspaces and All Workspaces** screens are shown in the Microsoft Teams app if they are set as Public and depending on the assigned Access Request policy.  
+* **Access Request feature** is now available! SysKit Point admins can now:
+  * [Create Access Request policies](../governance-and-automation/access-requests/create-access-request.md) where they can specify the level of access that can be requested, as well as the desired approval process.
+  * [Apply the policies](../governance-and-automation/access-requests/apply-access-request.md) to **Microsoft Teams**, **Microsoft 365 groups**, **distribution lists**, **mail-enabled security groups**, **security groups**, and **SharePoint sites**.
+[Use the Access Requests setup article to guide through the initial setup process](../governance-and-automation/access-requests/set-up-access-requests.md).
+End-users can utilize the SysKit Point Teams app to:
+  * [Request to join a specific workspace](../point-collaborators/request-workspace-access.md) and **approve requests** when users ask to join a workspace; emails are sent to notify when these actions occur. 
+  * **Discover All Workspaces in their environment** and **workspaces they have joined, listed under My Workspaces**. 
 
+{% hint style="information" %}
+**Access Requests** are available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% endhint %}
 
 ## Improvements & Bug Fixes
 
