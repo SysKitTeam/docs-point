@@ -47,10 +47,7 @@ Global admin re-consent is required after the upgrade to the 2023.1 version. [Le
   * **Admins can create** and edit access request policies.
 * **Users can request to join a specific Workspace.** 
   * **Workspace Owners, Managers, and Admins** can approve requests when users ask to join a workspace or a new workspace request is created; emails are sent to notify when these actions occur. 
-  * **My Workspaces and All Workspaces** screens are shown in the Microsoft Teams app if they are set as Public and depending on the assigned Access Request policy. 
-* **SysKit Point can now be purchased directly through the [subscription portal](https://www.syskit.com/products/point/pricing/)** once the free trial period has expired.
-  * When the SysKit Point free trial is activated **, the admin will receive an email**. 
-  * **Subscriptions portal can be accessed through SysKit Point** by going to Settings > Point license > Manage Subscriptions. 
+  * **My Workspaces and All Workspaces** screens are shown in the Microsoft Teams app if they are set as Public and depending on the assigned Access Request policy.  
 
 
 ## Improvements & Bug Fixes
@@ -64,12 +61,13 @@ Global admin re-consent is required after the upgrade to the 2023.1 version. [Le
 * **Improved the date format in SysKit Point generated emails**. Emails now show the long date format; for example, **Monday, January 3, 2023.**; thus avoiding the confusion of different day/month formats. Issues with emails showing the UTC were fixed. 
 * **Improved the experience and usability** of the Select Policy drop-down menu in the Manage Policies dialog by adding a tooltip showing the complete Policy name on hover.
 * **Fixed a bug** where provisioning templates were unavailable to security group members, although the security group availability was specified in the provisioning template settings.
-* **Fixed an issue** where policy violation emails (for example, Minimum number of owners and Maximum number of owners policy violation) displayed erroneous information regarding the task reassignment. The email would state the task was reassigned to managers instead of SysKit Point administrators or custom recipients, depending on the policy setup. 
+* **Fixed an issue** where **policy violation emails** (for example, Minimum number of owners and Maximum number of owners policy violation) displayed erroneous information regarding the task reassignment. The email would state the task was reassigned to managers instead of SysKit Point administrators or custom recipients, depending on the policy setup. Additionally, fixed an issue where emails were sent for inactive policies in some cases.
 * **Fixed a bug** where the Users with privileged access report would erroneously show users with Full Control permissions on child objects (for example, documents on a site). Only users with Full Control access to the site objects are displayed in the report now.
 * **Fixed an issue** with the Manage Reviewers report where the report didn't show SharePoint sites and OneDrive, although they had an Access Review policy assigned.
 * **Fixed an issue** with column filters on the Teams & Groups and other inventory reports where excluding blank cells wasn't applied to the displayed results.
 * **Fixed a bug** with the Change metadata action that was not visible to workspace owners on the Sites overview screen.
 * **Various UX/UI improvements and minor fixes are available**. 
+
 
 
 
