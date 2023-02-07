@@ -26,12 +26,12 @@ To approve Workspace Access Requests that you have received, complete the follow
   * To approve the received request, **click the Approve button (4)** on the right side of the screen
   * To reject the received request, **click the Reject button (5)** on the right side of the screen
 
-![Manage Policies - Apply](../../.gitbook/assets/approval-process_first-screen.png)
+![Approval Process for Workspaces](../../.gitbook/assets/approval-process_first-screen.png)
   
 For more details on why the request was made, click on the request itself.
   * This opens a screen that shows **who the request can be approved by (1)**, and the **reason for wanting to join that  Workspace (2)** as stated by the requester
   * You can also click on **Additional Information (3)** for more details about the Workspace itself
   * On this screen, you can also **Approve or Reject (4)** the request, by clicking the buttons in the bottom right corner
 
-  ![Manage Policies - Apply](../../.gitbook/assets/approval-process_more-details.png)
+  ![Workspaces Approval - More Information](../../.gitbook/assets/approval-process_more-details.png)
 
