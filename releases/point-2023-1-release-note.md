@@ -6,7 +6,7 @@ description: This article lists new features, improvements, and bug fixes in Sys
 
 [Schedule a demo](https://www.syskit.com/products/point/request-a-demo/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
-**Product version:** 2023.1
+**Product version:** 2023.1.0
 
 **Build number:** 16
 
