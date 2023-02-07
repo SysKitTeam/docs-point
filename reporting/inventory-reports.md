@@ -121,8 +121,11 @@ The Microsoft Teams & Groups report can be accessed by **clicking Microsoft Team
 This will open the Microsoft Teams & Groups report, which can be viewed and filtered in multiple ways. 
 
 In the top left corner, **All Groups** is automatically selected in the filter. Clicking the **View filter** will provide the following additional options: 
-  * Teams Only
-  * Groups Only
+  * Microsoft 365 Groups
+  * Microsoft Teams
+  * Security Groups
+  * Mail-Enabled Security Groups
+  * Distribution Lists
   * Recently Created Groups
   * Deleted Groups
   * Externally Shared Groups
@@ -143,6 +146,7 @@ At the top, 5 tiles can be used to filter the report. The following options are 
 The default columns displayed in the report are the following:
   * Name
   * Email
+  * Type
   * Privacy
   * Members
   * Owners
@@ -164,16 +168,11 @@ There are additional columns available in the **column chooser**, located in the
  * Last Activity Date
  * Is Team
  * Can be Restored
+ * Policies Applied
  * Primary Contact
  * Secondary Contact
  * Department
- * Project End Date
- * Certification Required
- * Priority
- * Project Category
- * Project Manager
- * Project Start Date
-
+ * Additional Custom Metadata Columns if configured
 
 ### Report Actions
 
@@ -199,7 +198,6 @@ The Go to Report section provides a list of related reports that are available:
   * File and Page Activities
   * Permissions Changes
 
-
 Under Lifecycle Management, the following actions are available:
   * Keep
   * Archive
@@ -207,6 +205,10 @@ Under Lifecycle Management, the following actions are available:
   * Ask Owners to Renew
 
 For Access Review, the action available is to **Request Review**.
+
+{% hint style="warning" %}
+**Please note!** The following actions are available for security groups, mail-enabled security groups, and distribution lists: Add Owners/Members, Remove Owners/Members, and Manage Policies.
+{% endhint %}
 
 
 ## Users Report

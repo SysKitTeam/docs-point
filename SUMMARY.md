@@ -85,6 +85,7 @@
     * [Orphaned Resources](governance-and-automation/automated-workflows/orphaned-resources.md)
   * [Provisioning](governance-and-automation/provisioning/README.md)
     * [Set Up Provisioning](governance-and-automation/provisioning/set-up-provisioning.md)
+    * [Enable or Disable Provisioning](governance-and-automation/provisioning/enable-disable-provisioning.md)
     * [Register Yammer App](governance-and-automation/provisioning/register-yammer-app.md)
     * [Enable Sensitivity Labels](governance-and-automation/provisioning/enable-sensitivity-labels.md)
     * [Restrict Microsoft 365 Groups Creation](governance-and-automation/provisioning/restrict-group-creation.md)
