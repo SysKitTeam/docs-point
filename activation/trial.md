@@ -27,9 +27,7 @@ To start the trial registration process:
 
 * Navigate to the [Free Trial start page](https://www.syskit.com/products/point/free-trial/)
 * Enter your information and click **Start a Free Trial(1)**
-* Click the **Register button (2)** on the next screen
-
-![Subscriptions - Start a Free Trial](../.gitbook/assets/trial-start.png)
+* Click the **Register button (1)** on the next screen
 
 ![Subscriptions - Register](../.gitbook/assets/trial-register.png)
 
@@ -69,9 +67,7 @@ After the provisioning is completed, an overview screen opens, providing the mos
 
 With the SysKit Point trial, you will receive **21 days of usage**. During that time, you'll be able to **explore everything SysKit Point offers and see what makes it the best governance and security software for Microsoft 365**. You'll be able to utilize most of the SysKit Point features while in the free trial; however, there will be some limitations:
 
-* **SysKit Point will sync lists up to 5000 items**
-  * Lists with more than 5000 items will not be synced
-* **When SysKit Point syncs above one million items**, **the remaining workspaces will no longer be synced**
+* **When SysKit Point syncs above ten million items**, **the remaining workspaces will no longer be synced**
 * **PDF exports will have a watermark** stating you exported the file during the SysKit Point Trial
 * **OneDrive data will not be synced** and will not be available for access to gain more details
 * **The Configuration Inventory Module** is not available during the trial
