@@ -4,7 +4,7 @@ description: This article describes the new features and improvements in SysKit 
 
 # SysKit Point 20
 
-[Schedule a demo](https://www.syskit.com/products/point/request-a-demo/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
+[Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
 **Product version:** 20.0.0  
 
