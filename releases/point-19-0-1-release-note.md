@@ -6,7 +6,7 @@ description: This article describes improvements and bug fixes in SysKit Point v
 
 **SysKit Point 19.0.1** is a minor release that comes with several improvements and important bug fixes. 
 
-[Schedule a demo](https://www.syskit.com/products/point/request-a-demo/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
+[Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
 **Product version:** 19.0.1  
 **Build number:** 1974  
