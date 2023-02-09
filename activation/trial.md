@@ -10,7 +10,7 @@ description: This article provides a step-by-step guide on how to get a free 21-
 * **limitations when using SysKit Point in trial**
 
 {% hint style="warning" %}
-**Please note!**\
+**Please note!**
 This article shows how to get a free trial of SysKit Point solution as a service. If your company policies require using a self-hosted solution, please [contact us](https://www.syskit.com/company/contact-us) to acquire a trial key.
 {% endhint %}
 
@@ -84,6 +84,6 @@ Here you can find the following:
 ![SysKit Point - Trial Banner](../.gitbook/assets/trial\_trial-banner.png)
 
 {% hint style="warning" %}
-**Please note!**\
+**Please note!**
 When the trial ends, the sync option will turn off, and you will no longer be able to click the sync button, download reports, or complete other actions. 21 days after the last day of your trial, all of the data collected in SysKit Point will be erased as per the [DPA (Data Processing Addendum)](https://www.syskit.com/data-processing-addendum/). If during those 21 days, you purchase a SysKit Point license, all of your data will remain intact.
 {% endhint %}
