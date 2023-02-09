@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article provides a step-by-step guide on how to get a free 21-day trial
-  of SysKit Point and lists trial limits.
+description: This article provides a step-by-step guide on how to get a free 21-day trial of SysKit Point and lists trial limits.
 ---
 
 # SysKit Point Trial
@@ -19,7 +17,7 @@ This article shows how to get a free trial of SysKit Point solution as a service
 ## Get SysKit Point Trial
 
 {% hint style="warning" %}
-**Please note!**\
+**Please note!**
 We recommend Global Administrators perform the initial registration since consent is required multiple times during the initial setup process, giving SysKit Point permissions to collect your Microsoft 365 tenant data.
 {% endhint %}
 
@@ -33,7 +31,7 @@ To start the trial registration process:
 
 Next, sign in with your Microsoft credentials.
 
-Permitting us to read your user profile **requires consent**, and enables SysKit to determine your Microsoft 365 tenant. **Click Accept** to continue. ![Subscriptions - Consent](../.gitbook/assets/trial\_consent.png)
+Permitting us to read your user profile **requires consent** and enables SysKit to determine your Microsoft 365 tenant. **Click Accept** to continue. ![Subscriptions - Consent](../.gitbook/assets/trial\_consent.png)
 
 A new page opens where you should:
 
@@ -70,13 +68,22 @@ With the SysKit Point trial, you will receive **21 days of usage**. During that 
 * **When SysKit Point syncs above ten million items**, **the remaining workspaces will no longer be synced**
 * **PDF exports will have a watermark** stating you exported the file during the SysKit Point Trial
 * **OneDrive data will not be synced** and will not be available for access to gain more details
-* **The Configuration Inventory Module** is not available during the trial
 
-In the SysKit Point web app, you will notice the **trial banner** located at the top of the screen for the trial duration. Here you can find the following: \* **The amount of time that is left for your free trial (1)** out of the 21 available days \* **Buy Now button (2)** that redirects you to the SysKit contact page, where you'll be able to reach us and arrange the best possible SysKit Point package for your business needs
+
+{% hint style="information" %}
+**Please note!**
+**The Configuration Inventory Module** is only available in the Data Center plan and cannot be utilized with any of the SysKit Point Cloud plans. For more information on available plans for SysKit Point, follow [this link](https://www.syskit.com/products/point/pricing/).
+{% endhint %}
+
+In the SysKit Point web app, you will notice the **trial banner** located at the top of the screen for the trial duration. 
+
+Here you can find the following: 
+* **The amount of time that is left for your free trial (1)** out of the 21 available days 
+* **Buy Now button (2)** that redirects you to the SysKit contact page, where you'll be able to reach us and arrange the best possible SysKit Point package for your business needs
 
 ![SysKit Point - Trial Banner](../.gitbook/assets/trial\_trial-banner.png)
 
 {% hint style="warning" %}
 **Please note!**\
-When the trial ends, the sync option will turn off, and you will no longer be able to click the sync button, download reports or complete other actions. 21 days after the last day of your trial, all of the data collected in SysKit Point will be erased as per the [DPA (Data Processing Addendum)](https://www.syskit.com/data-processing-addendum/). If during those 21 days you purchase a SysKit Point license, all of your data will remain intact.
+When the trial ends, the sync option will turn off, and you will no longer be able to click the sync button, download reports, or complete other actions. 21 days after the last day of your trial, all of the data collected in SysKit Point will be erased as per the [DPA (Data Processing Addendum)](https://www.syskit.com/data-processing-addendum/). If during those 21 days, you purchase a SysKit Point license, all of your data will remain intact.
 {% endhint %}
