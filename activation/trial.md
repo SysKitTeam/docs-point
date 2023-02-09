@@ -31,7 +31,7 @@ To start the trial registration process:
 
 Next, sign in with your Microsoft credentials.
 
-Permitting us to read your user profile **requires consent**and enables SysKit to determine your Microsoft 365 tenant. **Click Accept** to continue. ![Subscriptions - Consent](../.gitbook/assets/trial\_consent.png)
+Permitting us to read your user profile **requires consent** and enables SysKit to determine your Microsoft 365 tenant. **Click Accept** to continue. ![Subscriptions - Consent](../.gitbook/assets/trial\_consent.png)
 
 A new page opens where you should:
 
