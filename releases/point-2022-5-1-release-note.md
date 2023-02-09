@@ -4,7 +4,7 @@ description: This article lists new features, improvements, and bug fixes in Sys
 
 # SysKit Point 2022.5.1
 
-[Schedule a demo](https://www.syskit.com/products/point/request-a-demo/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
+[Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
 **Product version:** 2022.5.1
 

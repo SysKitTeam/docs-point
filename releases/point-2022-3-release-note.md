@@ -6,7 +6,7 @@ description: >-
 
 # SysKit Point 2022.3
 
-[Schedule a demo](https://www.syskit.com/products/point/request-a-demo/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
+[Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
 **Product version:** 2022.3.0
 
