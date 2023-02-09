@@ -37,7 +37,8 @@ See detailed step-by-step instructions on how to upgrade the Configuration Inven
 
 {% hint style="warning" %}
 **Please note!**  
-Global admin re-consent is required after the upgrade to the 2023.1 version. [Learn more about permission changes here](../requirements/permission-requirements-change-log.md#syskit-point-20231).
+Global admin re-consent is required after the upgrade to the 2023.1 version. Global admins can expect to receive an email with the subject **SysKit Point – Global Admin consent needed**. Consent is required due to permission changes added for the new Access Requests feature. [Learn more about permission changes here](../requirements/permission-requirements-change-log.md#syskit-point-20231).  
+
 
 [SysKit Point Teams app upgrade](../governance-and-automation/syskit-point-teams-app.md#upgrade-syskit-point-teams-app) is required after upgrading to the 2023.1 version. 
 {% endhint %}
