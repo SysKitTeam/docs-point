@@ -1,37 +1,34 @@
 ---
-description: DISCOVER, SECURE, AND CONTROL YOUR MICROSOFT 365 WITH SYSKIT POINT
+description: Discover, Secure, and Control Your Microsoft 365 with SysKit Point
 layout: landing
 ---
 
 # SysKit Point
 
-Deep visibility, powerful management, and automated governance – gain it all with a single scalable platform for Microsoft 365. Here you will find everything you need to set up SysKit Point and learn about features.&#x20;
+Deep visibility, powerful management, and automated governance – gain it all with a single scalable platform for Microsoft 365. Here you will find everything you need to set up SysKit Point and learn about features.
 
 
+**DISCOVER**
 
-**DISCOVER**&#x20;
+**Save hours of manual work and gain visibility with a centralized inventory:** users, structure, sharing, and resources across Microsoft Teams, Groups, OneDrive, SharePoint sites, and Power BI.
 
-**Save hours of manual work and gain visibility with a centralized inventory:** users, structure, sharing, and resources across Microsoft Teams, Groups, OneDrive, SharePoint sites, and Power BI.&#x20;
-
-Focus less on exploring, **be efficient**, and provide a better and safer collaboration experience. \
-
-
-&#x20;**SECURE**&#x20;
-
-Understand and **manage who has access to what** and **stay on top of unauthorized or malicious activity** by auditing internal and external users’ and admins’ actions.&#x20;
-
-Take necessary actions to **prevent security problems and data leaks**, stay compliant with regulations, and keep the data secured in your environment. \
+Focus less on exploring, **be efficient**, and provide a better and safer collaboration experience. 
 
 
-**CONTROL**&#x20;
+**SECURE**
 
-**Automate governance** procedures, **avoid uncontrolled sprawl, and manage workspaces lifecycle**, from its creation to end of life.&#x20;
+Understand and **manage who has access to what** and **stay on top of unauthorized or malicious activity** by auditing internal and external users’ and admins’ actions.
 
-With SysKit Point governance features and Point Teams app, **end users increase productivity, get simplified processes, and reduce dependency on the support** team to manage access and create workspaces. **Admins get the platform that helps them support** **adoption** of modern ways of cloud collaboration, **keeping the data secured and controlling** everything with policies applied in the background.&#x20;
+Take necessary actions to **prevent security problems and data leaks**, stay compliant with regulations, and keep the data secured in your environment.
 
 
+**CONTROL**
 
-&#x20;In case you have already set up your SysKit Point or started a 21-day free trial and need a quick-start guide, please go to our [Get to Know SysKit Point article](get-to-know-syskit-point/point-starter-kit.md).&#x20;
+**Automate governance** procedures, **avoid uncontrolled sprawl, and manage workspaces lifecycle**, from its creation to end of life.
+
+With SysKit Point governance features and Point Teams app, **end users increase productivity, get simplified processes, and reduce dependency on the support** team to manage access and create workspaces. **Admins get the platform that helps them support** **adoption** of modern ways of cloud collaboration, **keeping the data secured and controlling** everything with policies applied in the background.
+
+* In case you have already set up your SysKit Point or started a 21-day free trial and need a quick-start guide, please go to our [Get to Know SysKit Point article](get-to-know-syskit-point/point-starter-kit.md).
 
 
 
