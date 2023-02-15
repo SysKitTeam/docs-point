@@ -27,6 +27,7 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
 ## Improvements & Bug Fixes
 
 * **Microsoft Teams & Groups** screen was optimized to handle a large number of Distribution lists and Security groups.
+* **Fixed an issue** where Autodiscover sync would fail with the following error: `Error converting value {null} to type 'System.Boolean'. Path 'value[154].IsGroupConnected', line <integer>, position <integer>.`
 * **Fixed an issue** where Autodiscover sync would erroneously set the status of some sites to Hard-deleted, although the sites are active. This issue affected Multi-Geo tenants only.
 * **Fixed a bug** with E-mail settings where a specific SMTP configuration would result in an error when sending the test e-mail.
 
