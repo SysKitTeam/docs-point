@@ -8,7 +8,7 @@ description: This article lists new features, improvements, and bug fixes in Sys
 
 **Product version:** 2023.1.1
 
-**Build number:** 3
+**Build number:** 6
 
 **Release date:** Feb 15, 2023
 
