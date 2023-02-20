@@ -5,7 +5,7 @@ description: This article discusses permission requirements that are necessary t
 # Permission Requirements
 ## Microsoft 365
 
-After SysKit Point deployment, when [connecting to your Microsoft 365 tenant](../installation/connect-to-tenant.md), it is __required for you to connect with a Global Administrator account__.
+When using the Data Center version of SysKit Point, after deployment and when [connecting to your Microsoft 365 tenant](../installation/connect-to-tenant.md), it is __required for you to connect with a Global Administrator account__.
 
 {% hint style="warning" %}
 **Please note!**  
@@ -16,7 +16,7 @@ Below, reasons for such requirements are described in greater detail.
 
 ## Global Administrator
 
-When [connecting to a Microsoft 365 tenant](../installation/connect-to-tenant.md) for the first time, **you need to connect with a Global Administrator account.**
+When [connecting to a Microsoft 365 tenant](../../set-up-data-center/installation/connect-to-tenant.md) for the first time, **you need to connect with a Global Administrator account.**
 
 **The first time you connect to your Microsoft 365 tenant, you will be prompted to consent** to a set of permissions that SysKit Point requires to function correctly. Additional prompts may show up in the future when installing a newer version of SysKit Point because of new functionality, and in consequence, potentially new required permissions.
 
@@ -52,7 +52,7 @@ The following permissions are required for __SysKit Point Installer__ Enterprise
 | :--- | :--- | :--- |
 | Access Azure Service Management as organization users | Delegated | Allows SysKit Point to create an additional application in your tenant for safer data access. |
 
-To allow safer access to your Microsoft 365 tenant data and optimize the data sync process, additional app registrations are created during the [initial connect](../installation/connect-to-tenant.md) process:
+To allow safer access to your Microsoft 365 tenant data and optimize the data sync process, additional app registrations are created during the [initial connect](../../set-up-data-center/installation/connect-to-tenant.md) process:
 
 * **SysKit Point Service**
 * **SysKit Point Client**
@@ -61,7 +61,7 @@ To allow safer access to your Microsoft 365 tenant data and optimize the data sy
 
 ### SysKit Point Service
 
-**SysKit Point Service** app registration is used for [data Sync](../get-to-know-syskit-point/collect-office-365-data.md), [audit log collection](../configuration/customize-audit-logs-collection.md), and sending emails. The following permissions enable SysKit Point to perform these actions:
+**SysKit Point Service** app registration is used for [data Sync](../../get-to-know-syskit-point/collect-office-365-data.md), [audit log collection](../../configuration/customize-audit-logs-collection.md), and sending emails. The following permissions enable SysKit Point to perform these actions:
 
 **Microsoft Graph**
 
@@ -138,7 +138,7 @@ When using Microsoft Authentication Flow to connect a service account, the follo
 
 ### SysKit Point Permissions Loader
 
-**SysKit Point Permissions Loader** app registration is used for optimized [data Sync](../get-to-know-syskit-point/collect-office-365-data.md) for SharePoint and OneDrive data paired with the SysKit Point Service app registration. The following permissions enable SysKit Point to perform these actions:
+**SysKit Point Permissions Loader** app registration is used for optimized [data Sync](../../get-to-know-syskit-point/collect-office-365-data.md) for SharePoint and OneDrive data paired with the SysKit Point Service app registration. The following permissions enable SysKit Point to perform these actions:
 
 **Microsoft Graph**
 
@@ -179,13 +179,13 @@ If Power BI data collection is configured, the following Admin API permissions a
 * read-only access to all the information available through Power BI admin APIs; for example, user names and emails, dataset and report detailed metadata
 * read-only access to detailed metadata about Power BI items; for example, responses from GetScanResult APIs will contain the names of dataset tables and columns
 
-[Read the following article to learn how to enable Power BI data collection in SysKit Point](../configuration/enable-powerBI-data-collection.md)
+[Read the following article to learn how to enable Power BI data collection in SysKit Point](../../configuration/enable-powerBI-data-collection.md)
 
 ### Configuration Inventory Module
 
-If the Configuration Inventory module is deployed, SysKit Point creates an Azure AD Application named **SysKit Point Configuration Inventory** when establishing a [connection](../installation/connect-to-tenant.md) to your tenant.  
+If the Configuration Inventory module is deployed, SysKit Point creates an Azure AD Application named **SysKit Point Configuration Inventory** when establishing a [connection](../../set-up-data-center/installation/connect-to-tenant.md) to your tenant.  
 
-[Open this article to see all permissions granted to SysKit Point Configuration Inventory app registration](../configuration-inventory/configuration-inventory-requirements.md).
+[Open this article to see all permissions granted to SysKit Point Configuration Inventory app registration](../../configuration-inventory/configuration-inventory-requirements.md).
 
 ### SysKit Point API
 
@@ -196,6 +196,6 @@ By default, the **app registration has no permissions added**.
 
 ## Related Topics
 
-* [System Requirements](system-requirements.md)
-* [Deploy SysKit Point](../installation/deploy-syskit-point.md)
+* [System Requirements for Data Center](../../set-up-data-center/requirements/system-requirements.md)
+* [Deploy SysKit Point for Data Center](../../set-up-data-center/installation/deploy-syskit-point.md)
 

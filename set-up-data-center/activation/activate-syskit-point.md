@@ -34,13 +34,13 @@ At any time, you can log in to SysKit [Customers Portal](https://my.syskit.com/)
 
 When opening the SysKit Point web-app URL for the first time, you will be prompted to **activate your copy of SysKit Point (1) or start the trial (2)**.
 
-![Activation Screen](../.gitbook/assets/activate-syskit-point_activate.png)
+![Activation Screen](../../.gitbook/assets/activate-syskit-point_activate.png)
 
 After you click the appropriate button, continue with the following steps:
 * **Fill in all the required fields**: name, company, email, and the provided license key. 
 * **Click the Activate button** to start the validation process. It only takes 2-5 seconds to perform the activation, and it is a one-time-only procedure. If the validation of your email address is successful, an info dialog will appear thanking you for the activation. 
 
-![Activation Dialog](../.gitbook/assets/activate-syskit-point_activation-dialog.png)
+![Activation Dialog](../../.gitbook/assets/activate-syskit-point_activation-dialog.png)
 
 You can check license information and manage it later if you go to Settings &gt; License page.
 

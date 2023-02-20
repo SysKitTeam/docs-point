@@ -6,7 +6,7 @@ description: This article lists all the steps to be performed when deploying Sys
 
 {% hint style="warning" %}
 **Please note!**  
-Before you continue, make sure to read the [resource requirements article.](../requirements/system-requirements.md)
+Before you continue, make sure to read the [resource requirements article.](../../set-up-data-center/requirements/system-requirements.md)
 {% endhint %}
 
 Prepare the following for SysKit Point deployment:
@@ -21,9 +21,9 @@ Prepare the following for SysKit Point deployment:
 * Select the **Plan (3)** from the dropdown menu
 * Click __Create (4)__ to continue with the deployment configuration; __Create SysKit Point__ screen opens with the __Basics__ tab selected
 
-![SysKit Point on Azure Marketplace](../.gitbook/assets/deploy-syskit-point_get.png)
-![Create App in Azure](../.gitbook/assets/deploy-syskit-point_continue.png)
-![SysKit Point in Azure](../.gitbook/assets/deploy-syskit-point_create.png)
+![SysKit Point on Azure Marketplace](../../.gitbook/assets/deploy-syskit-point_get.png)
+![Create App in Azure](../../.gitbook/assets/deploy-syskit-point_continue.png)
+![SysKit Point in Azure](../../.gitbook/assets/deploy-syskit-point_create.png)
 
 ## Azure Resources Deployment
 
@@ -40,7 +40,7 @@ The __Basics__ tab enables you to:
 * __choose the Azure region (3)__ where SysKit Point resources will be created
 * __click Next (4)__ to proceed to the __Web application settings__ tab
 
-![Basics Tab](../.gitbook/assets/deploy-syskit-point_basics.png)
+![Basics Tab](../../.gitbook/assets/deploy-syskit-point_basics.png)
 
 
 On the __Web application settings__ tab, you will need to define the following:
@@ -53,7 +53,7 @@ On the __Web application settings__ tab, you will need to define the following:
   * __Do not deploy__ - Configuration Inventory module is not deployed
 * __click Next (6)__ to continue with the __Azure SQL settings__ configuration
 
-![Web Application Settings Tab](../.gitbook/assets/deploy-syskit-point_web-app-settings.png)
+![Web Application Settings Tab](../../.gitbook/assets/deploy-syskit-point_web-app-settings.png)
 
 Define the following on the __Azure SQL settings__ tab:
 * __Azure SQL Tier (1)__
@@ -65,14 +65,14 @@ Define the following on the __Azure SQL settings__ tab:
 **Please note!** This is mandatory in order to **provision a new SQL server** as this is a Microsoft requirement. Without the SQL credentials, it would not be possible to create the SQL server; however, after the initial deployment, the credentials will not be used again. The SQL authentification is disabled, and Managed Identity authentication will be used in the future. 
 {% endhint %}
 
-![Azure SQL Settings Tab](../.gitbook/assets/deploy-syskit-point_azure-sql-settings.png)
+![Azure SQL Settings Tab](../../.gitbook/assets/deploy-syskit-point_azure-sql-settings.png)
 
 The __Network configuration__ tab enables you to __configure virtual network__ used by SysKit Point resources.
 Depending on your use case, you have __two options available__:
 * __Use the predefined virtual network configuration__ - a new virtual network is created when deploying SysKit Point; no additional configuration is needed, and you can __proceed to the next step by clicking the Next button (1)__, or
 * __Create a new virtual network with custom settings by clicking the Create new option (2)__
 
-![Network Configuration Tab](../.gitbook/assets/deploy-syskit-point_network-configuration.png)
+![Network Configuration Tab](../../.gitbook/assets/deploy-syskit-point_network-configuration.png)
 
 If you click the Create new option, a new screen appears where you can change the predefined settings:
 * __Name (1)__ of the virtual network
@@ -88,18 +88,18 @@ If you decide to change the predefined values, **ensure that all subnets have 25
 
 __Click OK__ when you finish the virtual network setup. 
 
-![Create Virtual Network Screen](../.gitbook/assets/deploy-syskit-point_create-virtual-network.png)
+![Create Virtual Network Screen](../../.gitbook/assets/deploy-syskit-point_create-virtual-network.png)
 
 The __Review + create__ tab shows the following information:
 * __Validation status (1)__ showing whether all resources are correctly configured
 * __Configuration summary (2)__ showing all options selected in previous steps
 * __Create button (3)__; once clicked, the deployment of Azure resources starts
 
-![Review + create Tab](../.gitbook/assets/deploy-syskit-point_review.png)
+![Review + create Tab](../../.gitbook/assets/deploy-syskit-point_review.png)
 
 At the start of the deployment, you will be redirected to a page showing the deployment progress. After 5-10 minutes, the deployment is complete, and the __Go to resource group (1)__ button appears, as shown in the image below. Click the button to open the __Resource group's Overview page__, showing all created Azure resources.
 
-![Go to resource group Button](../.gitbook/assets/deploy-syskit-point_go-to-resource-group.png)
+![Go to resource group Button](../../.gitbook/assets/deploy-syskit-point_go-to-resource-group.png)
 
 {% hint style="success" %}
 With the described deployment, __all Azure resources needed to run SysKit Point are created__, and no additional installation is needed.
@@ -113,8 +113,8 @@ To view the SysKit Point web app URL, do the following:
 * __find and click the app service resource (1)__
 * __click the URL link (2)__ available in the Essentials section on the app service's Overview screen
 
-![Azure Resource Group - App Service](../.gitbook/assets/deploy-syskit-point_app-service.png)
-![SysKit Point Web App URL](../.gitbook/assets/deploy-syskit-point_url.png)
+![Azure Resource Group - App Service](../../.gitbook/assets/deploy-syskit-point_app-service.png)
+![SysKit Point Web App URL](../../.gitbook/assets/deploy-syskit-point_url.png)
 
 SysKit Point web page opens.
 First, you will be prompted to [activate SysKit Point](../activation/activate-syskit-point.md)
@@ -123,8 +123,8 @@ Once activated, SysKit Point will guide you through the process of [connecting t
 
 ## Related Topics
 
-* [System Requirements](../requirements/system-requirements.md)
-* [Activate SysKit Point](../activation/activate-syskit-point.md)
+* [System Requirements](../../set-up-data-center/requirements/system-requirements.md)
+* [Activate SysKit Point](../../set-up-data-center/activation/activate-syskit-point.md)
 * [Connect to Microsoft 365 Tenant](connect-to-tenant.md)
 * [Set Up Custom Domain and SSL Certificate](set-up-custom-domain-and-ssl-certificate.md)
 
