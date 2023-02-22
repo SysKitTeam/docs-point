@@ -31,7 +31,7 @@ Here you can find the following:
 * **The amount of time that is left for your free trial (1)** out of the 21 available days
 * **Buy Now button (2)** that redirects you to the SysKit contact page, where you'll be able to reach us and arrange the best possible SysKit Point package for your business needs
 
-![SysKit Point - Trial Banner](../../.gitbook/assets/trial\_trial-banner.png)
+![SysKit Point - Trial Banner](../.gitbook/assets/trial\_trial-banner.png)
 
 {% hint style="warning" %}
 **Please note!**&#x20;

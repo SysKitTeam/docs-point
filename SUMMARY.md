@@ -30,7 +30,7 @@
      * [Overview](set-up-saas/overview-saas.md)
      * [Trial](set-up-saas/trial.md)
      * [Trial Limits](set-up-saas/trial-limits.md)
-     * [Purchasing SysKit Point for Cloud](set-up-saas/purchasing-syskit-point.md)
+     * [SysKit Point Cloud Licensing](set-up-saas/syskit-point-cloud-licensing.md)
 * [Set Up with Data Center](set-up-data-center/README.md)
   * [Deployment](set-up-data-center/deployment/README.md)
     * [Overview](set-up-data-center/deployment/overview.md)

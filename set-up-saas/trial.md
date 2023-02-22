@@ -26,11 +26,11 @@ To start the trial registration process:
 * Enter your information and click **Start a Free Trial(1)**
 * Click the **Register button (1)** on the next screen
 
-![Subscriptions - Register](../../.gitbook/assets/trial-register.png)
+![Subscriptions - Register](../.gitbook/assets/trial-register.png)
 
 Next, sign in with your Microsoft credentials.
 
-Permitting us to read your user profile **requires consent** and enables SysKit to determine your Microsoft 365 tenant. **Click Accept** to continue. ![Subscriptions - Consent](../../.gitbook/assets/trial\_consent.png)
+Permitting us to read your user profile **requires consent** and enables SysKit to determine your Microsoft 365 tenant. **Click Accept** to continue. ![Subscriptions - Consent](../.gitbook/assets/trial\_consent.png)
 
 A new page opens where you should:
 
@@ -44,13 +44,13 @@ A new page opens where you should:
   * **Asia-Pacific & Australia**
 * **Click Register (5) when finished**
 
-![Subscriptions - Set up your account](../../.gitbook/assets/trial\_set-up-account.png)
+![Subscriptions - Set up your account](../.gitbook/assets/trial\_set-up-account.png)
 
-Next, consent is required, giving SysKit Point permission to collect your Microsoft 365 tenant data. ![Subscriptions - Consent](../../.gitbook/assets/trial\_ga-consent.png)
+Next, consent is required, giving SysKit Point permission to collect your Microsoft 365 tenant data. ![Subscriptions - Consent](../.gitbook/assets/trial\_ga-consent.png)
 
 After the consent, your SysKit Point instance starts to provision.
 
-![Subscriptions - Provisioning SysKit Point Instance](../../.gitbook/assets/trial\_provision-instance.png)
+![Subscriptions - Provisioning SysKit Point Instance](../.gitbook/assets/trial\_provision-instance.png)
 
 After the provisioning is completed, an overview screen opens, providing the most important subscription information:
 
@@ -58,7 +58,7 @@ After the provisioning is completed, an overview screen opens, providing the mos
 * **Trial expiration date (2)**
 * **Buy Now button (3)** enabling you to purchase a plan
 
-![Subscriptions - Trial Overview](../../.gitbook/assets/trial\_trial-information.png)
+![Subscriptions - Trial Overview](../.gitbook/assets/trial\_trial-information.png)
 
 
 {% hint style="warning" %}
