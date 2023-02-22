@@ -1,5 +1,5 @@
 ---
-description: This article provides information on how to purchase a SysKit Point subscription after the free trial period.
+description: This article provides information on everything you need to know about licensing SysKit Point for Cloud.
 ---
 
 # SysKit Point Subscription
