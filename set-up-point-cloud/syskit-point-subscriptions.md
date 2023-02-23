@@ -2,13 +2,23 @@
 description: This article provides information on everything you need to know about licensing SysKit Point for Cloud.
 ---
 
-# SysKit Point Subscription
+# Manage SysKit Point Subscriptions
 
-If you didn't start your free 21-day trial, take a look at the [**SysKit Point trial article**](trial.md) for details on getting started.  
+Once you have your SysKit Point free trial, the [**SysKit Point Subscriptions Portal**](https://subscriptions.syskit.com/) is where you can manage the state of your Point Cloud subscriptions. 
 
-At any point during the 21 days of the free trial, you can purchase a SysKit Point subscription. 
+The **My Subscriptions** portal provides insight into the current state of your subscription and provides the ability to modify or upgrade it. 
 
-After your free trial has expired, the account will be frozen, but you will still be able to purchase the SysKit Point subscription for the next 21 days in order to retain your data. 
+In this article, you will find information on the following:
+* [Purchasing Your SysKit Point Subscription](#purchasing-your-sysKit-point-subscription)
+* [Purchasing Additional User Licenses](#purchasing-additional-user-licenses)
+* [Upgrading Your Subscription Plan](#upgrading-your-subscription-plan)
+
+
+{% hint style="warning" %}
+**Please note!**&#x20;
+If you didn't start your free 21-day trial, take a look at the [**SysKit Point trial article**](trial.md) for details on getting started. At any point during the 21 days of the free trial, you can purchase a SysKit Point subscription. In order to retain your data after your free trial has expired, a SysKit Point subscription needs to be purchased within 21 days of your trial period ending. 
+{% endhint %}
+
 
 ## Purchasing Your SysKit Point Subscription
 
@@ -43,7 +53,7 @@ Your preferences for the following information need to be selected:
   * **Billing Cycle (4)** - clicking on it opens a drop-down menu where you can select how often you want to be billed for your subscription:
      * Annually
      * Monthly
-  * **Currency (5)** - clicking on it opens a drop-down menu where you can select the currency in which you want to be charged:
+  * **Currency (5)** - clicking on it opens a drop-down menu where you can select the currency in which you want to be charged in:
      * USD - US Dollar
      * GBP - British Pound
      * EUR - Euro
@@ -54,7 +64,7 @@ Your preferences for the following information need to be selected:
 
 ![SysKit Point Subscription - Subscriptions Screen](../.gitbook/assets/purchasing-syskit-point_subscriptions-screen.png)
 
-After clicking Buy Now, you are redirected to the purchasing site. 
+After clicking **Buy Now**, you are redirected to the purchasing site. 
   * On the left side of the screen, you can find an **overview of your selected subscription (1)**
   * On the right side of the screen, you will need to input your **credit card details (2)** to finalize the purchase
 
@@ -68,7 +78,7 @@ The **Purchased Plan** section will now show the name of the subscription you pu
 
 ## Purchasing Additional User Licenses
 
-In order to increase the number of user licenses that are included in your plan, take the following steps: 
+To increase the number of user licenses included in your plan, take the following steps: 
 
   * Log into your **SysKit Subscriptions** site
   * Under **Overview**, navigate down to the **Users section (1)** 
@@ -87,14 +97,14 @@ To increase the user license amount:
   * The two sections below show:
      * **What you'll be paying** - the amount you will be paying once your plan renews
      * **Amount due today** - the amount you will need to pay instantly to increase your license number
-       * This number will be the increased amount based on the added licenses; you will not be charged for the licenses you already purchased
+       * This number will show the necessary payment based on the price of the added licenses; you will not be charged for the licenses you already purchased
   * Click **Confirm (2)** to finalize your selection and proceed with your payment
 
 ![SysKit Point Subscription - Increased Users Licenses - Finalized](../.gitbook/assets/syskit-point-cloud-licensing_users-licenses.png)
 
 ## Upgrading Your Subscription Plan
 
-In order to change or upgrade the SysKit Point subscription plan you currently have, follow these steps: 
+To change or upgrade the SysKit Point subscription plan you currently have, complete the following: 
 
   * Log into your **SysKit Subscriptions** site
   * Under **Overview**, navigate down to the **Purchased Plan section (1)** 
@@ -117,7 +127,7 @@ You will also see all the available subscription plans listed. Change your subsc
   * The two sections below show:
      * **What you'll be paying** - the amount you will be paying once your plan renews
      * **Amount due today** - the amount you will need to pay instantly to upgrade to a different plan
-       * This number will be the increased amount based on the pay difference between your initial plan and the new one; the amount you already paid for your initial plan will be deducted from the original price of your new plan
+       * This number will be the increased amount based on the pay difference between your initial plan and the new one; the amount paid for the initial plan is deducted from the price of the new plan
   * Click **Confirm (2)** to finalize your selection and proceed with your payment
 
 ![SysKit Point Subscription - Upgrade Plan - Finalized](../.gitbook/assets/syskit-point-cloud-licensing_new-finalize.png)
