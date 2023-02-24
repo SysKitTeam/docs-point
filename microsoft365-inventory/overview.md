@@ -4,7 +4,7 @@ description: This article provides a detailed overview of the reports available 
 
 # Inventory Reports
 
-In this article, you'll find a list of reports that will provide an overview of your tenant inventory filtered through **Sites, Microsoft Teams & Groups, and Users**. 
+In this article, you'll find a list of reports that provide an overview of your tenant inventory filtered through **Sites, Microsoft Teams & Groups, and Users**. 
 
 They can all be accessed through the **home page**:
 
