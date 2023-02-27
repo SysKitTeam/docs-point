@@ -38,16 +38,19 @@ Before deploying SysKit Point, your dedicated customer success manager will prov
 {% endhint %}
 
 ## Azure Reservations
+
+****WIP****
 To optimize cost, consider using Azure reservations.
 The table below lists potential savings for App service and SQL Azure components.
 | Azure Component | 1 Year Reservation | 3 Years Reservation |
 | :--- | :--- | :--- |
 | App Service | Up to X% | Up to Y% |
 | SQL | Up to U% | Up to W% |
+| Cosmos |  |  |
 
 {% hint style="warning" %}
 **Please note!**  
-When considering reservations, note the planned Point roadmap changes:
+When considering reservations, note the following planned Point changes:
 * Q1 2024 - transition to Linux app services
 * Q1 2024 - replacing Cosmos DB with an alternative storage option
 {% endhint %}
