@@ -1,8 +1,13 @@
 ---
-description: This article lists requirements to consider when deploying SysKit Point.
+description: This article lists requirements to consider when deploying SysKit Point in your Azure subscription.
 ---
 
 # Requirements
+
+{% hint style="warning" %}
+**Please note!**  
+Requirements listed in this article apply to the self-hosted SysKit Point option required when using the Data Center plan only.
+{% endhint %}
 
 ## SysKit Point Requirements
 
@@ -13,28 +18,43 @@ description: This article lists requirements to consider when deploying SysKit P
 
 ## Azure Resources Requirements
 
+SysKit Point uses Azure cloud components managed by Microsoft. [You can view the architecture diagram of these components by following this link](https://www.syskit.com/products/point/resources/architecture-diagrams/).
+
+All components are provisioned inside your Azure subscription and configured automatically by using [SysKit's Azure Marketplace offering](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit_point?exp=ubp8&tab=Overview). 
+
+The following Azure components are used:
+* **Azure App Service**
+* **Cosmos DB**
+* **Azure SQL database**
+* **Service bus**
+* **Storage account**
+* **Key vault**
+
+
 {% hint style="warning" %}
 **Please note!**  
-**Requirements highly depend on the Microsoft 365 activity, the number of users, and the amount of data in your environment**. The larger the environment, the higher the resource tier that is required to run SysKit Point smoothly.
+Each customer's environment is unique, and, depending on the number of users, the number of files, and the number of event logs your tenant is generating, the resources will need to be scaled accordingly.
+Before deploying SysKit Point, your dedicated customer success manager will provide you with recommendations for all mentioned Azure components.
 {% endhint %}
 
-When deploying SysKit Point, you will be dealing with Azure resources instead of physical machines. Below, you can __find all Azure resources and the required tiers__, based on the size of your environment.
+## Azure Reservations
+To optimize cost, consider using Azure reservations.
+The table below lists potential savings for App service and SQL Azure components.
+| Azure Component | 1 Year Reservation | 3 Years Reservation |
+| :--- | :--- | :--- |
+| App Service | Up to X% | Up to Y% |
+| SQL | Up to U% | Up to W% |
 
-| Azure Resource | Point Tier 1 (<1000 Users) | Point Tier 2 (1K - 10K Users) | Point Tier 3 (10K+ Users) |
-| :--- | :--- | :--- | :--- |
-| App Service - FE | Standard Tier - S1; 100 Total ACU, 1.75 GB memory, A-Series compute equivalent | Standard Tier - S2; 200 Total ACU, 3.5 GB memory, A-Series compute equivalent | Premium Tier - P2V2; 420 total ACU, 7 GB memory, Dv2-Series compute equivalent |
-| App Service - BE | Standard Tier - S1; 100 Total ACU, 1.75 GB memory, A-Series compute equivalent | Standard Tier - S2; 200 Total ACU, 3.5 GB memory, A-Series compute equivalent | Premium Tier - P2V2; 420 total ACU, 7 GB memory, Dv2-Series compute equivalent |
-| Azure SQL DB | Standard Tier - S1; 20 DTUs | Service tier - General Purpose; Compute tier - Provisioned; Gen5, 2 vCores | Service tier - General Purpose; Compute tier - Provisioned; Gen5, 4 vCores |
-| Cosmos DB | Provisioned throughput (manual); 3,000 RU/sec | Provisioned throughput (manual); 5,000 RU/sec | Provisioned throughput (manual); 10,000 RU/sec |
-| Service Bus | Basic tier: 10 million messaging operations/mo | Basic tier: 10 million messaging operations/mo | Basic tier: 10 million messaging operations/mo |
-| Storage Account | General Purpose v2 | General Purpose v2 | General Purpose v2 |
-| Key Vault | Standard Tier | Standard Tier | Standard Tier |
-| App Service - CIM | Premium Tier - P1V3; 195 total ACU, 8 GB memory, 2vCPU | Premium Tier - P1V3; 195 total ACU, 8 GB memory, 2vCPU | Premium Tier - P1V3; 195 total ACU, 8 GB memory, 2vCPU |
-
+{% hint style="warning" %}
+**Please note!**  
+When considering reservations, note the planned Point roadmap changes:
+* Q1 2024 - transition to Linux app services
+* Q1 2024 - replacing Cosmos DB with an alternative storage option
+{% endhint %}
 
 ## Supported Browsers
 
-Once **SysKit Point** is installed and configured, you can access the SysKit Point web-app by using the following browsers:
+Once **SysKit Point** is installed and configured, you can access the SysKit Point web app by using the following browsers:
 
 * **Google Chrome** \(recommended\)
 * **Firefox**
