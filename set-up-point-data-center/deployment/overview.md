@@ -1,11 +1,12 @@
 ---
-description: This article shows an overview of steps to take when deploying SysKit Point.
+description: This article shows an overview of steps to take when deploying SysKit Point in your Azure environment.
 ---
 
 
 # Overview
 
-__SysKit Point__ is an Azure App application deployed in an Azure subscription. 
+__SysKit Point__ app can, apart from being used in software-as-a-service form, be deployed in your Azure subscription. The self-hosted deployment option described in this article is a requirement when using the SysKit Point Data Center plan, and requires a customized approach considering the number of users, sites, collected audit logs, and other variables from your environment.
+
 After the deployment, the key Azure resources shown in the architecture diagram below will be created and ready to run SysKit Point. 
 
 ![SysKit Point - Architecture Diagram](../../.gitbook/assets/overview_architecture-diagram.png)
@@ -20,7 +21,8 @@ These are the 3 most important steps to get you started with SysKit Point:
    * When deploying, make sure to configure Azure resources following the [minimum requirements](system-requirements.md)
    * After the deployment, you will be able to access the SysKit Point web application by opening the defined URL
 2. [Activate SysKit Point](../set-up-data-center/activation/activate-syskit-point.md)
-    * Our team will provide the license key for the product activation after purchasing the selected edition of SysKit Point
+    * [Contact our team](https://www.syskit.com/contact-us/) to provide you with a [free trial](../activation/free-trial-data-center.md) key that enables you to try out all SysKit Point features, without limits, for 21 days
+    * After the end of the trial period, our team will provide the license key for the activation after purchasing the selected edition of SysKit Point
     * At any time, you can find your keys in the [Customers Portal](https://my.syskit.com/)
     * If you do not have the activation information, please [contact us](https://www.syskit.com/company/contact-us)
 3. [Connect to Your Microsoft 365 Tenant](connect-to-tenant.md)

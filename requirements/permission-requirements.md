@@ -1,7 +1,6 @@
 ---
 description: >-
-  This article discusses permission requirements that are necessary to deploy
-  and use SysKit Point successfully.
+  This article discusses the permission requirements necessary to run SysKit Point successfully.
 ---
 
 # Permission Requirements

@@ -2,7 +2,7 @@
 description: This article provides information on everything you need to know about licensing SysKit Point for Cloud.
 ---
 
-# Manage SysKit Point Subscriptions
+# Manage SysKit Point Cloud Subscriptions
 
 Once you have your SysKit Point free trial, the [**SysKit Point Subscriptions Portal**](https://subscriptions.syskit.com/) is where you can manage the state of your Point Cloud subscriptions. 
 
@@ -16,16 +16,16 @@ In this article, you will find information on the following:
 
 {% hint style="warning" %}
 **Please note!**&#x20;
-If you didn't start your free 21-day trial, take a look at the [**SysKit Point trial article**](trial.md) for details on getting started. At any point during the 21 days of the free trial, you can purchase a SysKit Point subscription. In order to retain your data after your free trial has expired, a SysKit Point subscription needs to be purchased within 21 days of your trial period ending. 
+If you didn't start your free 21-day trial, take a look at the [**SysKit Point trial article**](trial.md) for details on getting started. At any point during the 21 days of the free trial, you can purchase a SysKit Point Cloud subscription. In order to retain your data after your free trial has expired, a SysKit Point subscription needs to be purchased within 21 days of your trial period ending. 
 {% endhint %}
 
 
-## Purchasing Your SysKit Point Subscription
+## Purchase Your SysKit Point Cloud Subscription
 
 To purchase the subscription, complete the following steps:
 
   * Click the **Buy Now** button, located in the top right corner of your SysKit Point trial screen
-  * On the **SysKit Subscriptions (1)** site that opens, log into the SysKit Point account you used for the trial
+  * On the **SysKit Subscriptions (1)** site that opens, sign-in with the M365 account you used to start the trial
 
 This will open a screen with **information about your SysKit Point subscription**.
 
@@ -76,7 +76,7 @@ If your purchase was successful, when you click **Overview**, the information fo
 
 The **Purchased Plan** section will now show the name of the subscription you purchased. 
 
-## Purchasing Additional User Licenses
+## Purchase Additional User Licenses
 
 To increase the number of user licenses included in your plan, take the following steps: 
 
@@ -102,7 +102,7 @@ To increase the user license amount:
 
 ![SysKit Point Subscription - Increased Users Licenses - Finalized](../.gitbook/assets/syskit-point-cloud-licensing_users-licenses.png)
 
-## Upgrading Your Subscription Plan
+## Upgrade Your Subscription Plan
 
 To change or upgrade the SysKit Point subscription plan you currently have, complete the following: 
 

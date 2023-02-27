@@ -2,15 +2,15 @@
 description: This article provides a list of limitations when using SysKit Point during your 21-day trial.
 ---
 
-# SysKit Point Trial & Limits
+# SysKit Point Free Trial Limits
 
-**SysKit Point trial** enables you to **test drive SysKit Point for free for 21 days**. To find out how to start your 21-day free trial, take a look at the [SysKit Point Trial article](trial.md). 
+**SysKit Point trial** enables you to **test drive SysKit Point for free for 21 days**. To find out how to start your 21-day free trial, take a look at the [SysKit Point Trial article](free-trial.md). 
 
 In this article, you can find information on the **limitations when using SysKit Point during your trial period**.
 
-## Trial Limits
+## Free Trial Limits
 
-With the SysKit Point trial, you will receive **21 days of usage**. During that time, you'll be able to **explore everything SysKit Point offers and see what makes it the best governance and security software for Microsoft 365**. 
+With the SysKit Point trial, you will receive **21 days of free usage of the SysKit Point Governance plan**. During that time, you'll be able to **explore everything SysKit Point offers and see what makes it the best governance and security software for Microsoft 365**. 
 
 You'll be able to utilize most of the SysKit Point features while in the free trial; however, there will be some limitations:
 
