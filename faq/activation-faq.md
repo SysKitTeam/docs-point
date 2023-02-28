@@ -40,4 +40,4 @@ Product activation is a one-time process and it typically takes 2-5 seconds to c
 
 ## How to deactivate the license?
 
-Detailed instructions on how to deactivate the license are given [here](../../set-up-data-center/activation/activate-syskit-point.md#deactivate-license).
+Detailed instructions on how to deactivate the license are given [here](../set-up-point-data-center/activation/activate-syskit-point.md#deactivate-license).

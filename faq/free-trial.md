@@ -23,7 +23,7 @@ Therefore, **only for trial purposes**, we have put in place the following limit
  * Load is limited to 10 000 000 files, ​
  * OneDrive sync is disabled​
 
-Please see our [documentation](../activation/trial.md) for more information.
+Please see our [documentation](../set-up-point-cloud/free-trial-limits.md) for more information.
 
 ## Can multiple people in my organization try out SysKit Point together? 
 

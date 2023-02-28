@@ -17,12 +17,12 @@ description: This article lists new features, improvements, and bug fixes in Sys
 ### SysKit Point
 
 * **New to SysKit Point?** Get the latest SysKit Point version from [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit_point).<br/>
-    Find all steps described in detail in the [deployment article](../installation/deploy-syskit-point.md).
+   Find all steps described in detail in the [deployment article](../set-up-point-data-center/deployment/deploy-syskit-point.md).
     
 * **Already using SysKit Point?** Upgrade to the latest SysKit Point version. <br/>
 [![](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitassetsstorage.blob.core.windows.net%2Fpoint%2FUpdateFilesARM%2FPointUpdateTemplate.json)
 
-See detailed step-by-step instructions on how to upgrade SysKit Point in the [upgrade article](../installation/upgrade-syskit-point.md).
+See detailed step-by-step instructions on how to upgrade SysKit Point in the [upgrade article](../set-up-point-data-center/deployment/upgrade-syskit-point.md).
 
 ### Configuration Inventory Module
 * **Want to try out the Configuration Inventory module?** [Contact us](https://www.syskit.com/contact-us/).
@@ -60,7 +60,7 @@ End-users can utilize the SysKit Point Teams app to:
 * **Microsoft Teams & Groups Overview** now shows additional group types: Security Groups, Exchange Groups, and Distribution Lists. 
   * **Group Access reports** will provide information on owners and members for Distribution Lists and Security Groups.
 * SysKit Point now has the option to **enable or disable provisioning**.
-* **SysKit Point trial** no longer has a 5k limit for documents and libraries, and the 1M items limit has been increased. [Read more about the trial here.](../activation/trial.md)
+* **SysKit Point trial** no longer has a 5k limit for documents and libraries, and the 1M items limit has been increased. [Read more about the trial here.](../set-up-point-cloud/free-trial.md)
 * **Optimized Power BI views in the SysKit Point database.** Before, large sets of data would allocate all available space for temporary SQL objects, which would, in the end, cause issues when syncing the Power BI model. 
 * **Improved responsiveness of the SysKit Point Teams app.** The Teams app now better scales on smaller screens, avoiding the overflow of interface elements. 
 * **Improved the date format in SysKit Point generated emails**. Emails now show the long date format; for example, **Monday, January 3, 2023.**; thus avoiding the confusion of different day/month formats. Issues with emails showing the UTC were fixed. 

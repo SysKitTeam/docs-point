@@ -44,7 +44,7 @@ Here are the instructions on how to make your SysKit Point web application publi
 ## Related Topics
 
 * [Deploy SysKit Point](deploy-syskit-point.md)
-* [Activate SysKit Point](../../set-up-data-center/activation/activate-syskit-point.md)
+* [Activate SysKit Point](../../set-up-point-data-center/activation/activate-syskit-point.md)
 * [Connect to Microsoft 365 Tenant](connect-to-tenant.md)
 
 If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).

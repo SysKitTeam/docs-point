@@ -20,8 +20,8 @@ These are the 3 most important steps to get you started with SysKit Point:
    * Ask your **Azure team** to create a dedicated Azure resource group and deploy [SysKit Point from the Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit_point)
    * When deploying, make sure to configure Azure resources following the [minimum requirements](system-requirements.md)
    * After the deployment, you will be able to access the SysKit Point web application by opening the defined URL
-2. [Activate SysKit Point](../set-up-data-center/activation/activate-syskit-point.md)
-    * [Contact our team](https://www.syskit.com/contact-us/) to provide you with a [free trial](../activation/free-trial-data-center.md) key that enables you to try out all SysKit Point features, without limits, for 21 days
+2. [Activate SysKit Point](../../set-up-point-data-center/activation/activate-syskit-point.md)
+    * [Contact our team](https://www.syskit.com/contact-us/) to provide you with a free trial key that enables you to try out all SysKit Point features, without limits, for 21 days
     * After the end of the trial period, our team will provide the license key for the activation after purchasing the selected edition of SysKit Point
     * At any time, you can find your keys in the [Customers Portal](https://my.syskit.com/)
     * If you do not have the activation information, please [contact us](https://www.syskit.com/company/contact-us)

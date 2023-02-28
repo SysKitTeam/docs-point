@@ -123,8 +123,8 @@ Once activated, SysKit Point will guide you through the process of [connecting t
 
 ## Related Topics
 
-* [System Requirements](../../set-up-data-center/requirements/system-requirements.md)
-* [Activate SysKit Point](../../set-up-data-center/activation/activate-syskit-point.md)
+* [System Requirements](system-requirements.md)
+* [Activate SysKit Point](../../set-up-point-data-center/activation/activate-syskit-point.md)
 * [Connect to Microsoft 365 Tenant](connect-to-tenant.md)
 * [Set Up Custom Domain and SSL Certificate](set-up-custom-domain-and-ssl-certificate.md)
 
