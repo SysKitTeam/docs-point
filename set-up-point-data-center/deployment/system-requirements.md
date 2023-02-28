@@ -57,7 +57,7 @@ Use the [Azure pricing calculator](https://azure.microsoft.com/en-us/pricing/cal
 {% hint style="warning" %}
 **Please note!**  
 When considering reservations, note the following planned Point changes:
-* Q1 2024 - transition to Linux app services
+* Q1 2024 - replacing Windows App Services with Linux App Services
 * Q1 2024 - replacing Cosmos DB with an alternative storage option
 {% endhint %}
 
