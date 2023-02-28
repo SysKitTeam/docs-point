@@ -77,6 +77,6 @@ Once **SysKit Point** is installed and configured, you can access the SysKit Poi
 
 ## Related Topics
 
-* [Permission Requirements](permission-requirements.md)
-* [Deploy SysKit Point](../installation/deploy-syskit-point.md)
+* [Permission Requirements](../../requirements/permission-requirements.md)
+* [Deploy SysKit Point](deploy-syskit-point.md)
 
