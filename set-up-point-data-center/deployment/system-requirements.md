@@ -33,7 +33,7 @@ The following Azure components are used:
 
 {% hint style="warning" %}
 **Please note!**  
-Each customer's environment is unique, and, depending on the number of users, the number of files, and the number of event logs your tenant is generating, the resources will need to be scaled accordingly.
+Each customer's environment is unique, and depending on the number of users, the number of files, and the number of event logs your tenant is generating, the resources will need to be scaled accordingly.
 Before deploying SysKit Point, your dedicated customer success manager will provide you with recommendations for all mentioned Azure components.
 {% endhint %}
 
