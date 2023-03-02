@@ -4,7 +4,7 @@ description: This article provides information on the Security and Compliance ch
 
 # Security and Compliance Checks: Early Access 
 
-The new **Security and Compliance Checks** visible directly from your SysKit Point home screen pinpoint the **most important vulnerabilities and misalignments** with Microsoft 365 best practices. These checks should keep you aware and help you **react quickly to keep your environment secure and under control**.
+The new **Security and Compliance Checks**, visible directly from your SysKit Point home screen, pinpoint the **most important vulnerabilities and misalignments** with Microsoft 365 best practices. These checks should keep you aware and help you **react quickly to keep your environment secure and under control**.
 
 Collecting all the important info about the security and compliance state of the environment is a time-consuming and repetitive administration task. SysKit Point will perform regular security and compliance checks for you and present the results on your home screen from where you can click and **drill down to a specific report to investigate further**, and decide if you want to take some action and **resolve** specific issue. 
 
@@ -14,14 +14,13 @@ Collecting all the important info about the security and compliance state of the
 {% endhint %}
 
 
- 
 Directly from your home screen, you will see several things that need to be investigated for each check, and if all is good, there will be a green checkmark. We plan to expand this list of checks. For now, you will be able to see: 
 
-* **Microsoft Teams and Groups with too many owners (1)** – shows the number of workspaces with more than 5 owners. Drill down to Microsoft Teams & Groups overview, where you can explore this easily and remove extra owners. Why is this important - if there are **too many owners, no one feels accountable for access and content management**. 
+* **Teams and Groups with too many owners (1)** – shows the number of workspaces with more than 5 owners. Drill down to Microsoft Teams & Groups overview, where you can explore this easily and remove extra owners. Why is this important - if there are **too many owners, no one feels accountable for access and content management**. 
 
-* **Microsoft Teams and Groups with only 1 owner (2)** – shows the number of workspaces with only 1 owner and takes you to Microsoft Teams & Groups overview, where you will be able to investigate further and assign additional owners if needed. You need to keep an eye on this, **if that one owner leaves, a workspace is left without an owner**. 
+* **Teams and Groups with only 1 owner (2)** – shows the number of workspaces with only 1 owner and takes you to Microsoft Teams & Groups overview, where you will be able to investigate further and assign additional owners if needed. You need to keep an eye on this, **if that one owner leaves, a workspace is left without an owner**. 
 
-* **Workspaces without an active owner (3)** – shows the number of SharePoint sites, Microsoft 365 Groups, and Microsoft Teams without an active owner. If you click on it, it drills down to the Orphaned Resources report, which helps manage Microsoft 365 resources' health and helps **ensure there are no abandoned resources** in your tenant. 
+* **Teams and Groups without active owners (3)** – shows the number of Microsoft Teams & Groups without an active owner. If you click on it, it drills down to the Microsoft Teams & Groups without active owners report, which helps manage Microsoft 365 resources' health and helps **ensure there are no abandoned resources** in your tenant. 
 
 * **Orphaned users (4)** - shows the number of orphaned users and takes you to the Orphaned Users report, which helps **detect and remove blocked/disabled or deleted users** from your Microsoft 365 resources. 
 
