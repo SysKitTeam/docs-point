@@ -58,7 +58,7 @@ Your preferences for the following information need to be selected:
      * GBP - British Pound
      * EUR - Euro
   * **Number of Licensed Microsoft 365 Users (6)** - here, you can write the number of users you expect will be utilizing SysKit Point
-     * The number of licensed users affects the pricing of your SysKit Point subscription
+     * The number of licensed users affects the pricing of your SysKit Point subscription; [for more information on licensed users count, take a look at this article ](../licensing-activation/licensed-users-count.md). 
   * **Summary (7)** - located on the right side of the screen, it shows a quick summary of the selection you've made with a cost estimate for your chosen subscription
   * Click the **Buy Now button (8)** for the final step to complete your purchase
 

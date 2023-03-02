@@ -6,19 +6,7 @@ description: This article outlines the steps needed to perform product activatio
 
 ## Acquisition
 
-To acquire **SysKit Point via Cloud**, take the following steps:
-  * Create a Point Cloud instance
-  * The 21-day trial license is automatically created, and SysKit Point activated
-  * Within the 21 days of your trial, you can click on the Buy Now button in SysKit Point at any point 
-  * Clicking the button purchases the SysKit Point Cloud plan through the Subscriptions Portal and Stripe
-    * Navigate to the [SysKit Point pricing page](https://www.syskit.com/products/point/pricing/)
-    * Click on the subscription plan you want to subscribe to. 
-    * Modify the quantity you need. It depends on the selected product, and for  SysKit Point, it is based on the number of licensed M365 users. [Read more here](https://docs.syskit.com/point/faq/purchasing-and-discounts#how-do-i-purchase-syskit-point).
-    * Provide your credit card details and billing information. 
-    * The subscription details will be delivered upon payment.
- * Additionally, you can [contact us](https://www.syskit.com/company/contact-us) for a custom quote if you have specific needs.
-
-To obtain SysKit Point through the Data Center (self-hosted), complete the following: 
+To obtain SysKit Point through the **Data Center (self-hosted)**, complete the following: 
 
 * Deploy SysKit Point through the Azure Marketplace
   * Take a look at [this article for more details on how to deploy SysKit Point](../set-up-point-data-center/deployment/deploy-syskit-point.md)  
