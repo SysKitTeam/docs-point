@@ -10,10 +10,10 @@ In this article, you can find out **how and where to get your 21 days of SysKit 
 
 {% hint style="warning" %}
 **Please note!**&#x20;
-This article shows how to get a free trial of SysKit Point solution as a service. If your company policies require using a self-hosted solution, please [contact us](https://www.syskit.com/company/contact-us) to acquire a trial key.
+This article shows how to get a free trial of the SysKit Point solution as a service. If your company policies require using a self-hosted solution, please [contact us](https://www.syskit.com/company/contact-us) to acquire a trial key.
 {% endhint %}
 
-## Get SysKit Point Trial
+## Get a Free Trial
 
 {% hint style="warning" %}
 **Please note!**&#x20;
@@ -63,5 +63,5 @@ After the provisioning is completed, an overview screen opens, providing the mos
 
 {% hint style="warning" %}
 **Please note!**&#x20;
-The SysKit Point trial comes with limitations. To learn about the limits of your SysKit Point trial take a look at the [SysKit Point trial limits article](free-trial-limits.md). 
+The SysKit Point trial comes with limitations. To learn about the limits of your SysKit Point trial, see the [SysKit Point trial limits article](free-trial-limits.md). 
 {% endhint %}
