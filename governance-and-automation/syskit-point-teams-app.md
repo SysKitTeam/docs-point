@@ -32,7 +32,7 @@ To deploy the SysKit Point teams application to the list of approved application
 
 To update Teams application to the latest version, make sure to: 
 
-1. [Upgrade to the latest SysKit Point version](../installation/upgrade-syskit-point.md). 
+1. [Upgrade to the latest SysKit Point version](../set-up-point-data-center/deployment/upgrade-syskit-point.md). 
 
 2. Navigate to __Settings > Governance > Provisioning__. 
 
