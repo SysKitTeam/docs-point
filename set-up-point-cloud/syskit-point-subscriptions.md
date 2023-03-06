@@ -9,9 +9,9 @@ Once you have your SysKit Point free trial, the [**SysKit Point Subscriptions Po
 The **My Subscriptions** portal provides insight into the current state of your subscription and provides the ability to modify or upgrade it. 
 
 In this article, you will find information on the following:
-* [Purchasing Your SysKit Point Subscription](#purchasing-your-sysKit-point-subscription)
-* [Purchasing Additional User Licenses](#purchasing-additional-user-licenses)
-* [Upgrading Your Subscription Plan](#upgrading-your-subscription-plan)
+* [Purchase Your SysKit Point Cloud Subscription](#purchase-your-syskit-point-cloud-subscription)
+* [Purchase Additional User Licenses](#purchase-additional-user-licenses)
+* [Upgrade Your Subscription Plan](#upgrade-your-subscription-plan)
 
 
 {% hint style="warning" %}

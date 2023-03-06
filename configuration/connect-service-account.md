@@ -60,4 +60,4 @@ Once the account is successfully connected, you will see the email listed statin
 
 ## Additional Information
 When Microsoft Authentication Flow is used, Global Admin consent is required due to additional permissions required for the SySkit Point Client app registration. 
-[Learn more about these permissions in the Permission Requirements article](../requirements-licensing/permission-requirements.md#syskit-point-client).
+[Learn more about these permissions in the Permission Requirements article](../requirements/permission-requirements.md#syskit-point-client).

@@ -6,7 +6,7 @@ description: This article lists all the steps to be performed when deploying Sys
 
 {% hint style="warning" %}
 **Please note!**  
-Before you continue, make sure to read the [resource requirements article.](../../set-up-data-center/requirements/system-requirements.md)
+Before you continue, make sure to read the [resource requirements article.](system-requirements.md)
 {% endhint %}
 
 Prepare the following for SysKit Point deployment:
