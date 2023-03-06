@@ -21,7 +21,7 @@ This article **describes SysKit Point upgrades from version 20 onwards**.
 
 ![Home screen - New Update Available](<../../.gitbook/assets/upgrade-syskit-point\_new-update-available (1) (4) (3) (1) (1) (1) (1) (1).png>)
 
-The **Read What's New** **link (1)** opens a new tab in your browser at the [Releases](../releases/) section in SysKit Point documentation, where you can find out about new features, improvements, and bug fixes by each product version.
+The **Read What's New** **link (1)** opens a new tab in your browser at the [Releases](../../releases/README.md) section in SysKit Point documentation, where you can find out about new features, improvements, and bug fixes by each product version.
 
 Clicking the **Download Latest Version (2)** link will redirect you to the latest **Release Note page** displaying the **Deploy to Azure** button.
 
@@ -51,7 +51,7 @@ The **Custom deployment** screen in Azure Portal opens. Here you need to:
 After the deployment is completed, you can:
 
 * **Access the SysKit Point web app**
-* [Check if a re-consent is needed after the upgrade](../../requirements-licensing/permission-requirements-change-log.md)
+* [Check if a re-consent is needed after the upgrade](../../requirements/permission-requirements-change-log.md)
 
 {% hint style="info" %}
 **Hint!**\

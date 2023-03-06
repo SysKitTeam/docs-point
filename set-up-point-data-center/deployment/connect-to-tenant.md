@@ -108,7 +108,7 @@ After all initial connection steps are completed, you will be redirected to the 
 ## Related Topics
 
 * [Deploy SysKit Point](deploy-syskit-point.md)
-* [Activate SysKit Point](../set-up-point-data-center/activation/activate-syskit-point.md)
+* [Activate SysKit Point](../../set-up-point-data-center/activation/activate-syskit-point.md)
 * [Set Up Custom Domain and SSL Certificate](set-up-custom-domain-and-ssl-certificate.md)
 
 If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).
