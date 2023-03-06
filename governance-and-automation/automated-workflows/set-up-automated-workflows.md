@@ -39,7 +39,7 @@ When dealing with automated workflows, you can either:
 **For a more complex setup**, you can **create multiple policies of the same policy type** and **apply them to a subset of your resources**.
 {% endhint %}
 
-## Ownership
+## Ownership Policies
 SysKit Point enables you to create and apply three types of policies that will make sure your Microsoft Teams and Microsoft 365 Groups comply with your company's policy regarding ownership:
 * **Minimum Number of Owners** - when enabled and applied to Microsoft Teams and Microsoft 365 Groups, **this policy triggers an automated workflow when the team/group has fewer owners than defined in the policy settings**
 * **Maximum Number of Owners** - when enabled and applied to Microsoft Teams and Microsoft 365 Groups, **this policy triggers an automated workflow when the team/group has more owners than defined in the policy settings**
@@ -52,7 +52,7 @@ For more information on how **to resolve specific policy violations**, **navigat
 * [Resolve Maximum Number of Owners policy violation](maximum-number-of-owners.md)
 * [Resolve Orphaned Resources policy violation](orphaned-resources.md)
 
-## Guest Users Expiration
+## Guest Users Expiration Policy
 With SysKit Point, you can **enable a tenant-wide policy** that will **require Guest User Access validation periodically or when SysKit Point detects that a guest user is inactive**. 
 
 In this article, you can **find information on how to enable the policy**, along with detailed **descriptions of all policy options.**

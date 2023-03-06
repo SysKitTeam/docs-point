@@ -32,7 +32,7 @@ Here you need to:
 
 After the deployment is completed, you can:
 * **Access the SysKit Point web app**
-* [Check if a re-consent is needed after the upgrade](../requirements/permission-requirements-change-log.md)
+* [Check if a re-consent is needed after the upgrade](../requirements-licensing/permission-requirements-change-log.md)
 
 {% hint style="info" %}
 **Hint!**  
