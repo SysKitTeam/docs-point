@@ -7,7 +7,7 @@ description: This article outlines the steps needed to perform product activatio
 To obtain SysKit Point **Data Center plan**, complete the following: 
 
 * Deploy SysKit Point through the Azure Marketplace
-  * Take a look at [this article for more details on how to deploy SysKit Point](../set-up-point-data-center/deployment/deploy-syskit-point.md)  
+  * Take a look at [this article for more details on how to deploy SysKit Point](../../set-up-point-data-center/deployment/deploy-syskit-point.md)  
 * [Contact us](https://www.syskit.com/company/contact-us) for the trial key that is needed to start your 21-day trial of SysKit Point 
 * After the trial period, or within the 21 days of your trial, you need to purchase the Data Center plan and enter the newly provided license key
    * [Contact us](https://www.syskit.com/company/contact-us) to receive your activation key
