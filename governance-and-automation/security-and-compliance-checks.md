@@ -56,6 +56,7 @@ Under the Security & Compliance Checks section, click the **number showing Teams
   * Once finished, click **Change (4)** to store your preference
 
 ![Security & Compliance Checks - Teams and Groups With Too Many Owners](../.gitbook/assets/security-and-compliance-checks_too-many-owners.png)
+
 ![Security & Compliance Checks - Remove Owners ](../.gitbook/assets/security-and-compliance-checks_remove-owners.png)
 
 ### Teams and Groups With Only 1 Owner
@@ -112,6 +113,7 @@ Under the Security & Compliance Checks section, click the **number showing Teams
  * Once finished, click **Change (5)** to store your preference
 
 ![Teams and Groups Without Active Owners - Without Owners](../.gitbook/assets/security-and-compliance-checks_no-owners-selection.png)
+
 ![Teams and Groups Without Active Owners - Add New Owner](../.gitbook/assets/security-and-compliance-checks_no-owners-add.png)
 
 ### Orphaned Users
@@ -128,6 +130,7 @@ Under the Security & Compliance Checks section, click the **number showing Orpha
   * **Click the Remove button (4)** to confirm your action
 
 ![Orphaned Users - Remove Users](../.gitbook/assets/security-and-compliance-checks_orphaned-users.png)
+
 ![Orphaned Users - Remove Users - Confirmation](../.gitbook/assets/security-and-compliance-checks_remove-users-final.png)
 
 {% hint style="warning" %}
