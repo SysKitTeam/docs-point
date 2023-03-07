@@ -50,7 +50,7 @@ A new page opens showing the Configure step of the four-step wizard where the re
 
 Next, consent is required on the Connect step, permitting SysKit Point to collect your Microsoft 365 tenant data.
 * Click **Grant Consent (1)** to proceed and provide your consent.
-* [Learn more about permission requirements here](../requirements/permission-requirements.md)
+* [Learn more about permission requirements here](../requirements/permission-requirements.md).
 
  ![Subscriptions - Connect](../.gitbook/assets/free-trial-subscriptions-connect-step.png)
 
