@@ -17,49 +17,60 @@ This article shows how to get a free trial of the SysKit Point solution as a ser
 
 {% hint style="warning" %}
 **Please note!**&#x20;
-We recommend Global Administrators perform the initial registration since consent is required multiple times during the initial setup process, giving SysKit Point permissions to collect your Microsoft 365 tenant data.
+We recommend Global Administrators perform the initial activation since consent is required multiple times during the initial setup process, giving SysKit Point permissions to collect your Microsoft 365 tenant data.
 {% endhint %}
 
 To start the trial registration process:
 
 * Navigate to the [Free Trial start page](https://www.syskit.com/products/point/free-trial/)
-* Enter your information and click **Start a Free Trial(1)**
-* Click the **Register button (1)** on the next screen
+* Enter your information and click **Start a Free Trial**
+* Click the **Sign in button (1)** on the next screen
 
-![Subscriptions - Register](../.gitbook/assets/trial-register.png)
+![Subscriptions - Sign in](../.gitbook/assets/free-trial-subscriptions-sign-in.png)
 
 Next, sign in with your Microsoft credentials.
 
-Permitting us to read your user profile **requires consent** and enables SysKit to determine your Microsoft 365 tenant. **Click Accept** to continue. ![Subscriptions - Consent](../.gitbook/assets/trial\_consent.png)
+Permitting us to read your user profile **requires consent** and enables SysKit to determine your Microsoft 365 tenant. **Click Accept** to continue. 
 
-A new page opens where you should:
+![Subscriptions - Consent](../.gitbook/assets/free-trial-subscriptions-read-profile-consent.png)
+
+A new page opens showing the Configure step of the four-step wizard where the rest of the trial activation takes place:
 
 * **Enter the Name of your organization (1)**
 * **Enter the syskit365 subdomain you want to use (2)**
   * If the entered subdomain is already in use, an appropriate message is displayed
 * **Select the preferred time zone (3)**
+  * SysKit Point will display date and time data in reports and emails as specified here
 * **Select the region where SysKit Point data will be stored (4)**; the following regions are currently supported:
   * **USA**
   * **Europe**
   * **Asia-Pacific & Australia**
-* **Click Register (5) when finished**
+* **Mark the checkbox (5)** to confirm you read and agree with the [SysKit End User Software License Agreement](https://www.syskit.com/wp-content/uploads/2022/10/EULA_SysKit-Point-2022.pdf)
+* **Click Next (6) when finished**
 
-![Subscriptions - Set up your account](../.gitbook/assets/trial\_set-up-account.png)
+![Subscriptions - Configure Step](../.gitbook/assets/free-trial-subscriptions-configure-step.png)
 
-Next, consent is required, giving SysKit Point permission to collect your Microsoft 365 tenant data. ![Subscriptions - Consent](../.gitbook/assets/trial\_ga-consent.png)
+Next, consent is required on the Connect step, permitting SysKit Point to collect your Microsoft 365 tenant data.
+* Click **Grant Consent (1)** to proceed and provide your consent.
+* [Learn more about permission requirements here](../requirements/permission-requirements.md).
+
+ ![Subscriptions - Connect](../.gitbook/assets/free-trial-subscriptions-connect-step.png)
+
+ ![Subscriptions - Consent](../.gitbook/assets/free-trial-subscriptions-consent.png)
 
 After the consent, your SysKit Point instance starts to provision.
+You can track the progress on the Complete step.
 
-![Subscriptions - Provisioning SysKit Point Instance](../.gitbook/assets/trial\_provision-instance.png)
+![Subscriptions - Creating SysKit Point Instance](../.gitbook/assets/free-trial-subscriptions-complete-step.png)
 
-After the provisioning is completed, an overview screen opens, providing the most important subscription information:
+After the SysKit Point instance is created, you can find the following in the Complete step:
 
-* **Link/button to open your SysKit Point instance (1)**
-* **Trial expiration date (2)**
-* **Buy Now button (3)** enabling you to purchase a plan
+* **Open SysKit Point button (1)**
+  * Opens SysKit Point web app URL in a new browser tab
+* **Manage Subscription button (2)**
+  * Opens the Subscription portal where you can [manage your SysKit Point subscription](syskit-point-subscriptions.md)
 
-![Subscriptions - Trial Overview](../.gitbook/assets/trial\_trial-information.png)
-
+![Subscriptions - SysKit Point instance created](../.gitbook/assets/free-trial-subscriptions-complete-point-instance-created.png)
 
 {% hint style="warning" %}
 **Please note!**&#x20;
