@@ -24,9 +24,10 @@ To start the trial registration process:
 
 * Navigate to the [Free Trial start page](https://www.syskit.com/products/point/free-trial/)
 * Enter your information and click **Start a Free Trial**
-* Click the **Sign in button (1)** on the next screen
+  * A new page opens showing the Sign In step of the four-step wizard where the rest of the trial activation takes place:
+* Click the **Sign in with your Microsoft Account button (1)** 
 
-![Subscriptions - Sign in](../.gitbook/assets/free-trial-subscriptions-sign-in.png)
+![Subscriptions - Sign in](../.gitbook/assets/free-trial-subscriptions-sign-in-step.png)
 
 Next, sign in with your Microsoft credentials.
 
@@ -34,7 +35,7 @@ Permitting us to read your user profile **requires consent** and enables SysKit 
 
 ![Subscriptions - Consent](../.gitbook/assets/free-trial-subscriptions-read-profile-consent.png)
 
-A new page opens showing the Configure step of the four-step wizard where the rest of the trial activation takes place:
+A new page opens showing the Configure step:
 
 * **Enter the Name of your organization (1)**
 * **Enter the syskit365 subdomain you want to use (2)**
