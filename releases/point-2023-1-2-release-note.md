@@ -26,7 +26,7 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
 
 ## Features
 * **SysKit Point** now supports Microsoft 365 Government Community Cloud High - GCC High - environments! 
-    * GCC High customers can now [Deploy SysKit Point](../set-up-point-data-center/deployment/overview.md) easily, just like with any other Microsoft 365 environment.
+    * Microsoft 365 GCC High customers can now [Deploy SysKit Point](../set-up-point-data-center/deployment/overview.md) the same way as Microsoft 365 Commercial customers.
 
 {% hint style="warning" %}
 **Please note!**  
