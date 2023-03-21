@@ -115,7 +115,9 @@ Available audit log categories:
 
 ## Data Retention
 
-The **data retention option for audit logs is only available in the Data Center plan**. For more details on SysKit Point plans that are currently available, check the [pricing page](https://www.syskit.com/products/point/pricing/).
+{% hint style="information" %}
+**Please Note!** The **data retention option for audit logs is only available in the Data Center plan**. For more details on SysKit Point plans that are currently available, check the [pricing page](https://www.syskit.com/products/point/pricing/).
+{% endhint %}
 
 When audit log data retention is **enabled and set up, SysKit Point will delete audit logs** that are older than the specified timeframe. 
 
