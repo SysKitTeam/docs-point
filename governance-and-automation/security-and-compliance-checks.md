@@ -127,9 +127,4 @@ Under the Security & Compliance Checks section, click the **number showing Block
 ![Blocked Users With Assigned Licenses - Inactive Licenses](../.gitbook/assets/security-and-compliance-checks_inactive-licenses.png)
 ![Blocked Users With Assigned Licenses - Remove Inactive Licenses](../.gitbook/assets/security-and-compliance-checks_inactive-licenses-remove.png)
 
-{% hint style="warning" %}
-**Please note!**  
-Security & Complicance checks take **two days** to properly sync the current state of your environment. 
-{% endhint %}
-
 **Want to join Early Access?** Security and Compliance Checks are not yet publicly available for all users. If you want to learn more and see how it works, [please find a suitable time slot](https://calendly.com/d/yjj-7y5-sky/syskit-point-early-access-program), and we will gladly guide you through.
