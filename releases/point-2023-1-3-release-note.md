@@ -10,7 +10,7 @@ description: This article lists improvements and bug fixes in SysKit Point versi
 
 **Build number:** 6
 
-**Release date:** Mar 27, 2023
+**Release date:** Mar 28, 2023
 
 ## Get the Latest Version
 
