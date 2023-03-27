@@ -22,8 +22,6 @@ Directly from your home screen, you will see several things that need to be inve
 
 * **Orphaned users (4)** - shows the number of orphaned users and takes you to the Orphaned Users report, which helps **detect and remove blocked/disabled or deleted users** from your Microsoft 365 resources. 
 
-* **Orphaned users (4)** - shows the number of orphaned users and takes you to the Orphaned Users report, which helps **detect and remove blocked/disabled or deleted users** from your Microsoft 365 resources. 
-
 * **Blocked users with assigned licenses (5)** - shows the number of users with one or more active licenses assigned that have been blocked, which helps you **detect and remove licenses** that are not being utilized.
 
 ![Security & Compliance Checks](../.gitbook/assets/security-and-compliance-checks_home-page.png)
@@ -47,7 +45,7 @@ By clicking each of the options, you are provided with **more information about 
 
 {% hint style="warning" %}
 **Please note!**  
-In case you have any security and compliance checks that need to be resolved, an **email is automatically sent each Wednesday**. Click the **Resolve button** within the email to access the reports in SysKit Point directly and perform the needed actions.
+In case you have any security and compliance checks that need to be resolved, an **email is automatically sent each Wednesday** to SysKit Point admins. Click the **Resolve button** within the email to access the reports in SysKit Point directly and perform the needed actions.
 {% endhint %}
 
 ### Teams and Groups With Too Many Owners
