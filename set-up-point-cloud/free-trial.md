@@ -27,7 +27,7 @@ There are two options on how to explore SysKit Point:
 In order to connect your Microsoft 365 tenant, you first need to sign up. 
 {% endhint %}
 
-## Get SysKit Point with Demo Data**
+## Get SysKit Point with Demo Data
 To get started:
 * **Navigate to the [Free Trial start page](https://www.syskit.com/products/point/free-trial/)**
 * **Click the Start a Free Trial button**; you are redirected to a Sign Up form 
