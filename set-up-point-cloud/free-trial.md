@@ -13,18 +13,18 @@ In this article, you can find out **how and where to get your 21 days of SysKit 
 This article shows how to get a free trial of the SysKit Point solution as a service. If your company policies require using a self-hosted solution, please [contact us](https://www.syskit.com/company/contact-us) to acquire a trial key.
 {% endhint %}
 
-There are two options on how to explore SysKit Point:
+There are two steps to exploring SysKit Point in the free trial:
 * **Try SysKit Point with demo data**
+  * Sign up with any e-mail
   * No additional permissions or consents are required
-  * SysKit Point shows demo data 
-  * Automatically available after signing up
-* **Try SysKit Point with real data**
-  * You will be prompted to connect to your Microsoft 365 tenant and provide Global Admin consent
-  * SysKit Point will collect and display data from your Microsoft 365 tenant
+  * SysKit Point shows demo data right after signing up 
+* **Try SysKit Point with your Microsoft 365 tenant data for free for 21 days**
+  * You will be prompted to connect your Microsoft 365 tenant and provide Global Admin consent
+  * SysKit Point will sync and display data from your Microsoft 365 tenant
 
 {% hint style="warning" %}
 **Please note!**&#x20;
-In order to connect your Microsoft 365 tenant, you first need to sign up. 
+To connect your Microsoft 365 tenant, you first need to sign up. 
 {% endhint %}
 
 ## Get SysKit Point with Demo Data
@@ -36,7 +36,7 @@ To get started:
 
 ![Sign Up Form](../.gitbook/assets/free-trial-sign-up.png)
 
-You will receive an email with the verification code.
+You will receive an e-mail with the verification code.
 
 ![Verification Code](../.gitbook/assets/free-trial-verification-code.png)
 
@@ -68,14 +68,14 @@ TODO list demo data limits
 We recommend Global Administrators perform the initial connection since consent is required multiple times during the initial setup process, giving SysKit Point permissions to collect your Microsoft 365 tenant data.
 {% endhint %}
 
-To connect your tenant:
+To connect with your tenant:
 
 * Navigate to [SysKit Point with demo data](https://demo.syskit.com/) acquired in the previous step
 * Click the **Connect Tenant button(1)** 
 
 ![Connect Tenant](../.gitbook/assets/free-trial-connect-tenant.png)
 
-Subscriptions portal opens, where you will be guided through the initial connection.
+The Subscriptions portal opens, where you will be guided through the initial connection.
 First, **sign in with your Microsoft 365 credentials (1)**.
 
 ![Sign In with Microsoft 365 Credentials](../.gitbook/assets/free-trial-subscriptions-sign-in-ms-account.png)
@@ -90,7 +90,7 @@ A new page opens showing the Configure step:
 * **Enter the syskit365 subdomain you want to use (2)**
   * If the entered subdomain is already in use, an appropriate message is displayed
 * **Select the preferred time zone (3)**
-  * SysKit Point will display date and time data in reports and emails as specified here
+  * SysKit Point will display date and time data in reports and e-mails as specified here
 * **Select the region where SysKit Point data will be stored (4)**; the following regions are currently supported:
   * **USA**
   * **Europe**
