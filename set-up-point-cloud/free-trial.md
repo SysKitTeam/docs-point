@@ -32,9 +32,9 @@ To connect your Microsoft 365 tenant, you first need to sign up.
 SysKit Point with demo data enables you to explore the main features and capabilities without connecting your Microsoft 365 tenant.
 Still, there are some limits:
 * **SysKit Point settings are not available**
-  * to explore SysKit Point settings, you need to connect your Microsoft 365 tenant
+  * To explore SysKit Point settings, you need to connect your Microsoft 365 tenant
 * **Running actions is not available**
-  * to run actions, you need to connect your Microsoft 365 tenant
+  * To run actions, you need to connect your Microsoft 365 tenant
 
 To get started:
 * **Navigate to the [Free Trial start page](https://www.syskit.com/products/point/free-trial/)**
@@ -57,12 +57,12 @@ Copy the verification code and return to the Sign Up form:
 
 Next, provide information in the Sign Up form:
 * **Define and confirm your password**
-  * The sign up results in a SysKit account that only you can access with the defined password
+  * The sign-up results in a SysKit account that only you can access with the defined password
 * **Enter your first and last name**
 * **Enter the number of Microsoft 365 users in your company**
 * **Agree to the terms of service and privacy policy**
 * **Click Sign Up to finish**
-  * note that all fields are required
+  * Note that all fields are required
 
 ![Sign Up Information](.gitbook\assets\free-trial-sign-up-information.png)
 
