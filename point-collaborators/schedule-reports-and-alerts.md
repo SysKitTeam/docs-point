@@ -25,7 +25,7 @@ With the help of the Scheduled Reports feature, you can:
 You can only set up **Scheduled Reports for workspaces where you are the owner**.
 {% endhint %}
 
-[To learn how to schedule a report, take a look at this article.](../../governance-and-automation/scheduled-reports.md#schedule-a-report)
+[To learn how to schedule a report, take a look at this article.](../governance-and-automation/scheduled-reports.md#schedule-a-report)
 
 ## Manage Scheduled Reports
 
@@ -83,7 +83,7 @@ You can only set up **Alerts for workspaces where you are the owner** and for us
 
 {% endhint %}
 
-[To learn how to set up an alert, take a look at this article.](../../governance-and-automation/configure-alerts.md#enabling-and-customizing-alerts)
+[To learn how to set up an alert, take a look at this article.](../governance-and-automation/configure-alerts.md#enabling-and-customizing-alerts)
 
 ## Manage Alerts
 
