@@ -36,9 +36,11 @@ For more explanations of the terms, click on the names to be redirected to the M
 
 * [**Microsoft Teams (1)**](https://support.microsoft.com/en-us/topic/what-is-microsoft-teams-3de4d369-0167-8def-b93b-0eb5286d7a29)
 * [**Microsoft Groups (2)**](https://support.microsoft.com/en-us/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
-* [**Mail-Enabled Security Groups**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - private sections within Microsoft Teams, used to give access exclusively to members of a team
-* [**Security Groups**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - collaboration space where you can invite people who are not on your team
-* [**Distribution Lists**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - collaboration space where you can invite people who are not on your team
+* [**Mail-Enabled Security Groups (3)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - private sections within Microsoft Teams, used to give access exclusively to members of a team
+* [**Security Groups (4)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - collaboration space where you can invite people who are not on your team
+* [**Distribution Lists (5)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - collaboration space where you can invite people who are not on your team
+
+![Icons for Microsoft Teams & Groups](../.gitbook/assets/syskit-icons-glossary_teams-groups.png)
 
 
 ## Users 
@@ -72,13 +74,15 @@ For more explanations on the terms, click on the names to be redirected to the M
 * [**Lists (3)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#list)
 * [**Document Library (4)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#document-library)
 * [**SharePoint Groups (5)**](https://support.microsoft.com/en-us/office/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d)
-* **Task**
+* [**Task (6)**](https://support.microsoft.com/en-us/office/tasks-overview-89f8064f-2516-4036-845c-a6953e166fe0)
 * [**Folder (7)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#folders)
-* **Calendar**
-* **File (6)** - an object that stores data, information, settings, or commands and can be saved to OneDrive, SharePoint, or Teams
+* [**Calendar (8)**](https://support.microsoft.com/en-us/office/introduction-to-the-outlook-calendar-d94c5203-77c7-48ec-90a5-2e2bc10bd6f8)
+* [**List Item (9)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#list)
+* **File** - an object that stores data, information, settings, or commands and can be saved to OneDrive, SharePoint, or Teams
 
 ![Icons for Access Reports](../.gitbook/assets/syskit-icons-glossary_access-reports.png)
 ![Icons for Access Reports](../.gitbook/assets/syskit-icons-glossary_access-reports-two.png)
+![Icons for Reports](../.gitbook/assets/syskit-icons-glossary_access-reports-list-item.png)
 
 
 ## Miscellaneous 
