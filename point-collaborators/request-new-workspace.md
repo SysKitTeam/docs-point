@@ -2,7 +2,14 @@
 description: This article describes how to request new Microsoft 365 workspaces.
 ---
 
-# Request New Workspace
+# New Workspace
+
+A new workspace may need to be created if your team or department is starting a new project that will require collaborating and file-sharing. 
+
+With the Request New Workspace feature, you can choose which type of workspace to create based on the available templates and once your request is sent, the only thing left is for it to be reviewed and approved by your SysKit Point Administrator. 
+
+## Request New Workspace
+
 
 1. Open **Microsoft Teams.** 
 2. Start the **SysKit Point** app in the left side panel.  

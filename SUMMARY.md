@@ -102,7 +102,6 @@
     * [Restrict Microsoft 365 Groups Creation](governance-and-automation/provisioning/restrict-group-creation.md)
     * [Templates](governance-and-automation/provisioning/templates.md)
     * [Approval Processes](governance-and-automation/provisioning/approval-processes.md)
-    * [Request New Workspace](governance-and-automation/provisioning/request-new-workspace.md)
     * [Approve/Reject Requests](governance-and-automation/provisioning/approve-reject-requests.md)
     * [Manage Requests](governance-and-automation/provisioning/manage-requests.md)
   * [Access Requests](governance-and-automation/access-requests/README.md)
@@ -165,4 +164,5 @@
   * [Complete Access Review Tasks](point-collaborators/access-review.md)
   * [Resolve Lifecycle Management Tasks](point-collaborators/lifecycle-management.md)
   * [Request Workspace Access](point-collaborators/request-workspace-access.md)
+  * [Request New Workspace](point-collaborators/request-new-workspace.md)
 

@@ -4,9 +4,13 @@ description: This article explains how to request to join a workspace after an A
 
 #  Request Access to Workspaces
 
-When the Access Requests policy is enabled on workspaces, users can request to join either as a Member, Owner, or both - depending on the Access Requests policy assigned to a particular workspace. 
+If you've found yourself in a situation where you need access to a certain site, team or group but haven't been given permission yet, the Request Access to Workspaces feature is a quick and easy solution to this problem. 
 
-To request to join a workspace, complete the following steps:
+This might happen in a situation when you've been place on a certain project or initiative that's already in progress, and you need to catch up with what's been going on or move the project along by sharing your own files with members of the workspace.
+
+When the Access Requests policy is enabled, **users can request to join workspaces either as a Member, Owner, or both** - depending on the Access Requests policy assigned to a particular workspace - **directly through their Microsoft Teams**. 
+
+To request to join a workspace, just follow these steps:
 
  * Open your **Microsoft Teams app** and navigate to the **SysKit Point feature (1)**
  * Under the **Workspaces section (2)**, you can see **My Workspaces and All Workspaces (3)** 
