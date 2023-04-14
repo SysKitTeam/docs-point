@@ -52,7 +52,7 @@ These overviews can also be found directly on the home screen, and **allows you 
 
 -->  Learn how to [Navigate](../get-to-know-syskit-point/navigate-through-syskit-point.md) through SysKit Point.
 
--->  Learn more about the [Dashboard](../get-to-know-syskit-point/control-your-microsoft-365-environment.md) and get the entire picture of the **Microsoft 365 environment**. 
+-->  Learn more about the [Dashboard](../microsoft365-inventory/explore-your-microsoft-365-dashboard.md) and get the entire picture of the **Microsoft 365 environment**. 
 
 <h2 id="secure-reporting-and-management"> SECURE: REPORTING AND MANAGEMENT </h2>
 
