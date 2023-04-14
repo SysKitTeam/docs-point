@@ -53,7 +53,6 @@ Check the articles below for information on what [subscription plans](https://ww
 {% endhint %}
 
 Reports in SysKit Point can be divided into 8 main categories:
-* [Inventory Reports](inventory-reports.md)
 * [External Sharing Reports](external-sharing-reports.md)
 * [Access Reports](access-reports.md)
 * [Audit Reports](audit-reports.md)
