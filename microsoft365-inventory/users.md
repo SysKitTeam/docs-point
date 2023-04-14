@@ -71,5 +71,5 @@ Selecting users provides several different actions that can be taken. The Manage
   * Configure Alerts
 
   The Go to Report section provides access to related reports that are available:
-    * User Access
-    * User Activity 
+  * User Access
+  * User Activity 
