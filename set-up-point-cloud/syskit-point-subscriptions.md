@@ -29,10 +29,13 @@ To purchase the subscription, complete the following steps:
 
   ![SysKit Point Subscriptions - Sign in](../.gitbook/assets/purchasing-syskit-point_subscriptions.png)
 
-**SysKit Sign in screen opens**, where you can:
+**SysKit Sign in screen opens**, where you can either:
 
-* **Sign in with your SysKit credentials (1)** - created in the [process of acquiring SysKit Point with demo data](free-trial.md#get-syskit-point-with-demo-data)
-* **Sign in with Microsoft Work Account (2)** - Microsoft account used to [connect your Microsoft 365 tenant to get the free trial](free-trial.md#connect-your-tenant)
+* **Sign in with your SysKit credentials (1)** - created in the [process of acquiring SysKit Point with demo data](free-trial.md#get-syskit-point-with-demo-data),
+
+or
+
+* **Sign in with Microsoft Work Account (2)** - used to [connect your Microsoft 365 tenant to get the free trial](free-trial.md#connect-your-tenant)
 
 ![SysKit Sign in](../.gitbook/assets/purchasing-syskit-point-syskit-sign-in.png)
 
