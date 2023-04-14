@@ -18,6 +18,6 @@ You'll find information such as:
 These inventory reports can all be accessed through the **home page**:
 
 * [Explore Your Microsoft 365 Dashboard](explore-your-microsoft-365-dashboard.md)
-* [Sites Report](sites-report.md)
-* [Users Report](#users-report.md)
-* [Microsoft Teams & Groups Report](microsoft-teams-and-groups-report.md)
+* [Sites Report](sites.md)
+* [Microsoft Teams & Groups Report](microsoft-teams-and-groups.md)
+* [Users Report](users.md)

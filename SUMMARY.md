@@ -45,7 +45,7 @@
   * [Microsoft 365 Inventory Overview](microsoft365-inventory/overview.md)
   * [Explore Your Microsoft 365 Dashboard](microsoft365-inventory/explore-your-microsoft-365-dashboard.md)
   * [Sites](microsoft365-inventory/sites.md)
-  * [Microsoft Teams & Groups](microsoft365-inventory/teams-and-groups.md)
+  * [Microsoft Teams & Groups](microsoft365-inventory/microsoft-teams-and-groups.md)
   * [Users](microsoft365-inventory/users.md)
 * [Configuration](configuration/README.md)
   * [Assign and Manage Access to SysKit Point](configuration/enable-role-based-access.md)
