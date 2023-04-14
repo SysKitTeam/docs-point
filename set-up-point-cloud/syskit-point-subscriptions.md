@@ -25,11 +25,18 @@ If you didn't start your free 21-day trial, take a look at the [**SysKit Point t
 To purchase the subscription, complete the following steps:
 
   * Click the **Buy Now** button, located in the top right corner of your SysKit Point trial screen
-  * On the **SysKit Subscriptions (1)** site that opens, sign-in with the M365 account you used to start the trial
+  * On the **SysKit Subscriptions** site that opens, **click the Sign in (1)** button 
 
-This will open a screen with **information about your SysKit Point subscription**.
+  ![SysKit Point Subscriptions - Sign in](../.gitbook/assets/purchasing-syskit-point_subscriptions.png)
 
-![SysKit Point Subscription - My Subscriptions page](../.gitbook/assets/purchasing-syskit-point_subscriptions.png)
+**SysKit Sign in screen opens**, where you can:
+
+* **Sign in with your SysKit credentials (1)** - created in the [process of acquiring SysKit Point with demo data](free-trial.md#get-syskit-point-with-demo-data)
+* **Sign in with Microsoft Work Account (2)** - Microsoft account used to [connect your Microsoft 365 tenant to get free trial](free-trial.md#connect-your-tenant)
+
+![SysKit Sign in](../.gitbook/assets/purchasing-syskit-point-syskit-sign-in.png)
+
+After signing in, a new screen opens showing **information about your SysKit Point subscription**.
 
 The **Overview section (1)** provides insight into general information on the status of your subscription and contains the following details:
   * **Name (2)** entered at the start of your trial 
