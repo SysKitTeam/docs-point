@@ -97,7 +97,9 @@ To increase the number of user licenses included in your plan, take the followin
 * Click the **Update plan (3)** button, located on the right side of the screen
 * Select your current plan by clicking the **Continue button** on the right side, next to your current plan
 
-![SysKit Point Subscription - Increase Users Licenses](../.gitbook/assets/syskit-point-cloud-licensing\_buy-more.png) ![SysKit Point Subscription - Increase Users Licenses - Update plan](../.gitbook/assets/syskit-point-cloud-licensing\_update\_plan.png)
+![SysKit Point Subscription - Increase Users Licenses](../.gitbook/assets/syskit-point-cloud-licensing\_buy-more.png) 
+
+![SysKit Point Subscription - Increase Users Licenses - Update plan](../.gitbook/assets/syskit-point-cloud-licensing\_update\_plan.png)
 
 The **Quantity section (1)** shows the number of Users you currently have a license for.
 
@@ -123,7 +125,9 @@ To change or upgrade the SysKit Point subscription plan you currently have, comp
 * Click the **Update plan (3)** button, located on the right side of the screen
   * This opens a pop-up where you can edit your current subscription and enhance your user licenses
 
-![SysKit Point Subscription - Manage Subscription](../.gitbook/assets/syskit-point-cloud-licensing\_manage-subs.png) ![SysKit Point Subscription - Update Plan](../.gitbook/assets/syskit-point-cloud-licensing\_update\_plan.png)
+![SysKit Point Subscription - Manage Subscription](../.gitbook/assets/syskit-point-cloud-licensing\_manage-subs.png) 
+
+![SysKit Point Subscription - Update Plan](../.gitbook/assets/syskit-point-cloud-licensing\_update\_plan.png)
 
 On the bottom, you will see the **Plans Available section (1)** where you can change your plan to being charged **Monthly or Yearly**.
 
