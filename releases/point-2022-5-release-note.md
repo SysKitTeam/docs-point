@@ -20,7 +20,7 @@ description: This article lists new features, improvements, and bug fixes in Sys
     Find all steps described in detail in the [deployment article](../set-up-point-data-center/deployment/deploy-syskit-point.md).
     
 * **Already using SysKit Point?** Upgrade to the latest SysKit Point version. <br/>
-[![](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitassetsstorage.blob.core.windows.net%2Fpoint%2FUpdateFilesARM%2FPointUpdateTemplate.json)
+[![](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitassetsstorage.blob.core.windows.net%2Fpoint%2FARMTemplates%2FPointUpdateDeploy%2FPointUpdateTemplate.json)
 
 See detailed step-by-step instructions on how to upgrade SysKit Point in the [upgrade article](../set-up-point-data-center/deployment/upgrade-syskit-point.md).
 
@@ -28,7 +28,7 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
 * **Want to try out the Configuration Inventory module?** [Contact us](https://www.syskit.com/contact-us/).
 
 * **Already using the Configuration Inventory module?** Upgrade to the latest version. <br/>
-[![](../.gitbook/assets/deployconfigurationinventory.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitdownloadsstorage.blob.core.windows.net%2Fpoint%2Fdeployment-packages%2FCimVersionUpdateTemplate.json)
+[![](../.gitbook/assets/deployconfigurationinventory.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitassetsstorage.blob.core.windows.net%2Fpoint%2FARMTemplates%2FPointUpdateDeploy%2FCimUpdateVersion.json)
 
 See detailed step-by-step instructions on how to upgrade Configuration Inventory module in the [Configuration Inventory upgrade article](../configuration-inventory/configuration-inventory-upgrade.md).
 

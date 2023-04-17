@@ -1,16 +1,16 @@
 ---
-description: This article lists new features, improvements, and bug fixes in SysKit Point version 2023.1.1.
+description: This article lists new features, improvements, and bug fixes in SysKit Point version 2023.1.2.
 --- 
 
-# SysKit Point 2023.1.1
+# SysKit Point 2023.1.2
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
-**Product version:** 2023.1.1
+**Product version:** 2023.1.2
 
-**Build number:** 31
+**Build number:** 6
 
-**Release date:** Feb 15, 2023
+**Release date:** Mar 16, 2023
 
 ## Get the Latest Version
 
@@ -24,12 +24,19 @@ description: This article lists new features, improvements, and bug fixes in Sys
 
 See detailed step-by-step instructions on how to upgrade SysKit Point in the [upgrade article](../set-up-point-data-center/deployment/upgrade-syskit-point.md).
 
+## Features
+* **SysKit Point** now supports Microsoft 365 Government Community Cloud High - GCC High - environments! 
+    * Microsoft 365 GCC High customers can now [Deploy SysKit Point](../set-up-point-data-center/deployment/overview.md) the same way as Microsoft 365 Commercial customers.
+
+{% hint style="warning" %}
+**Please note!**  
+Microsoft 365 Government - GCC High is only available in the United States.
+{% endhint %}
+
+
 ## Improvements & Bug Fixes
 
-* **Microsoft Teams & Groups** screen was optimized to handle a large number of Distribution lists and Security groups.
-* **Fixed an issue** where Autodiscover sync would fail with the following error: `Error converting value {null} to type 'System.Boolean'. Path 'value[154].IsGroupConnected', line <integer>, position <integer>.`
-* **Fixed an issue** where Autodiscover sync would erroneously set the status of some sites to Hard-deleted, although the sites are active. This issue affected Multi-Geo tenants only.
-* **Fixed a bug** with E-mail settings where a specific SMTP configuration would result in an error when sending the test e-mail.
+* **Improved performance in SysKit Point Teams app**. As a result, Teams app screens now load faster, even in large environments with tens of thousands of security groups and other workspaces. 
 
 
 

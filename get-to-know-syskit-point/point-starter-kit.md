@@ -32,7 +32,7 @@ Drill down into detailed reports about structure, memberships, permissions, and 
 
 ## Users Overview
 
-[**The Users Overview**](../reporting/inventory-reports.md#users-report) screen can be accessed from the homepage and **provides detailed insight into everything you need to know about your Microsoft 365 users**. This information can also be exported as PDF and Excel files or scheduled for delivery via email. 
+[**The Users Overview**](../microsoft365-inventory/users.md) screen can be accessed from the homepage and **provides detailed insight into everything you need to know about your Microsoft 365 users**. This information can also be exported as PDF and Excel files or scheduled for delivery via email. 
 
 You can also click on a specific user through the Users Overview screen. The user details screen includes details on the following:
  * General information about the user
@@ -43,7 +43,7 @@ You can also click on a specific user through the Users Overview screen. The use
 
 ## Sites, Microsoft Teams, Groups, OneDrive Overviews 
 
-These overviews can also be found directly on the home screen, and **allows you to explore and filter through your [Sites](../reporting/inventory-reports.md#sites-report), [Microsoft Teams & Groups](../reporting/inventory-reports.md#microsoft-teams-and-groups-report), and OneDrive**. Selecting one or more sites also gives you a lot of useful details as well as the ability to **manage different options for the sites with one simple click**. You can also click on a specific site for a more detailed overview of it. Here you'll find information like:
+These overviews can also be found directly on the home screen, and **allows you to explore and filter through your [Sites](../microsoft365-inventory/sites.md), [Microsoft Teams & Groups](../microsoft365-inventory/microsoft-teams-and-groups.md), and OneDrive**. Selecting one or more sites also gives you a lot of useful details as well as the ability to **manage different options for the sites with one simple click**. You can also click on a specific site for a more detailed overview of it. Here you'll find information like:
 
   * Overview of the site with the number of users, external users, anonymous links, and unique permissions
   * Content overview, which includes a list of all files included in the site
@@ -52,7 +52,7 @@ These overviews can also be found directly on the home screen, and **allows you 
 
 -->  Learn how to [Navigate](../get-to-know-syskit-point/navigate-through-syskit-point.md) through SysKit Point.
 
--->  Learn more about the [Dashboard](../get-to-know-syskit-point/control-your-microsoft-365-environment.md) and get the entire picture of the **Microsoft 365 environment**. 
+-->  Learn more about the [Dashboard](../microsoft365-inventory/explore-your-microsoft-365-dashboard.md) and get the entire picture of the **Microsoft 365 environment**. 
 
 <h2 id="secure-reporting-and-management"> SECURE: REPORTING AND MANAGEMENT </h2>
 
