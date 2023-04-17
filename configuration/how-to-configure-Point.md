@@ -2,7 +2,7 @@
 description: This article helps you learn everything you need to start using your SysKit Point. 
 ---
 
-# Get Started With SysKit Point
+# SysKit Point Configuration Guide
 
 SysKit Point enables Microsoft 365 admins, site owners, auditors, and compliance officers with everything they need to **manage and govern** the content they own and provides the ability to automate security tasks. 
 

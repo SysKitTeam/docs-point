@@ -37,9 +37,9 @@ Use the [Enter credentials](../configuration/connect-service-account.md#enter-cr
 Permissions described below are automatically granted to SysKit Point by giving consent during the tenant connection process. Permissions are granted only if the Configuration Inventory module is deployed with SysKit Point deployment.
 {% endhint %}
 
-[For more information on Configuration Inventory deployment, use this link](../installation/deploy-syskit-point.md).
+[For more information on Configuration Inventory deployment, use this link](../set-up-point-data-center/deployment/deploy-syskit-point.md).
 
-If the Configuration Inventory module is deployed, SysKit Point creates an Azure AD Application named **SysKit Point Configuration Inventory** when establishing a [connection](../installation/connect-to-tenant.md) to your tenant.
+If the Configuration Inventory module is deployed, SysKit Point creates an Azure AD Application named **SysKit Point Configuration Inventory** when establishing a [connection](../set-up-point-data-center/deployment/connect-to-tenant.md) to your tenant.
 
 SysKit Point and the Configuration Inventory module use two types of permissions to access several Microsoft APIs:
 

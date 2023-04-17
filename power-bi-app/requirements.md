@@ -27,14 +27,16 @@ To do so:
 * **Navigate to [Azure Portal](https://portal.azure.com/) and open the SysKit Point resource group**
 * **Find and open the SQL Server resource**
 * **Open Security > Networking (1)**
-* **For the Public network access option, set it to Selected resources (2)**
+* **For the Public network access option, set it to Selected networks (2)**
 * **Click Add Your Client IPv4 address (3) to allow access from your client machine**; this is needed to connect to the SysKit Point database via the SQL Server Management Studio
 * **Click the checkbox to Allow Azure services and resources to access this server (4);** enabling this will allow access from the Power BI App and is located under Exceptions at the bottom of the screen
 * Click **Save (5)** to store preferences
 
 
 ![Azure SQL - Allowing Access](../.gitbook/assets/power-bi-requirements_sql-server.png)
+
 ![Azure SQL - Adding IPv4 address](../.gitbook/assets/power-bi-requirements_sql-server-IP.png)
+
 ![Azure SQL - Allowing Azure services and resources](../.gitbook/assets/power-bi-requirements_sql-server-azure.png)
 
 ## Enabling SQL Authentication on Azure SQL Server

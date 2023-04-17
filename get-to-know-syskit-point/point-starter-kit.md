@@ -18,7 +18,7 @@ Your flow of using SysKit Point can go like this, and we will explain each part 
 
  {% hint style="warning" %}
 **Please note!**  
-If you are a free trial user, we recommend reading about activation, some limitations, and instructions [here](../activation/trial.md).
+If you are a free trial user, we recommend reading about activation, some limitations, and instructions [here](../set-up-point-cloud/README.md).
 {% endhint %}
 
 <h2 id="discover-microsoft-365-inventory"> DISCOVER: MICROSOFT 365 INVENTORY </h2>

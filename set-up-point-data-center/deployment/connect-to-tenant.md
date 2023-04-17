@@ -30,7 +30,7 @@ The __Register SysKit Point__ page opens, guiding you through the initial connec
 
 To obtain the __Application (client) ID__ and __Directory (tenant) ID__, create the __SysKit Point Installer__ app registration.
 
-![Register SysKit Point](../.gitbook/assets/connect-to-tenant_register.png)
+![Register SysKit Point](../../.gitbook/assets/connect-to-tenant_register.png)
 
 ## Create App Registration
 
@@ -49,7 +49,7 @@ To create the required app registration used by SysKit Point, do the following:
 * click __Register (6)__
 
 ![](../.gitbook/assets/connect-to-tenant_aad_admin_center.png)
-![Register an Application](../.gitbook/assets/connect-to-tenant_register-application.png)
+![Register an Application](../../.gitbook/assets/connect-to-tenant_register-application.png)
 
 After the app registration is created, the App Registration's __Overview screen__ opens.
 Here, you can find the following data needed for the initial connection:
@@ -58,7 +58,7 @@ Here, you can find the following data needed for the initial connection:
 
 Copy the __Application (client) ID__ and __Directory (tenant) ID__ values, and paste them to the input fields in the third step in the Register SysKit Point page. 
 
-![App Registration Overview](../.gitbook/assets/connect-to-tenant_overview.png)
+![App Registration Overview](../../.gitbook/assets/connect-to-tenant_overview.png)
 
 ## Consent
 
@@ -94,21 +94,21 @@ You can change connection options anytime from the __Settings__ > __General__ > 
 
 {% hint style="warning" %}
 **Please note!**  
-For SysKit Point to collect, process, and save audit logs, you must enable auditing in your tenant. [Navigate here to find out how to turn on auditing.](../configuration/turn-on-auditing.md)
+For SysKit Point to collect, process, and save audit logs, you must enable auditing in your tenant. [Navigate here to find out how to turn on auditing.](../../configuration/turn-on-auditing.md)
 {% endhint %}
 
 Click the __Connect (5)__ button after defining the connection options. A new screen will open and show the progress of the initial connection. __Please do not refresh the page__ as it will provide important information needed for troubleshooting in an unlikely event of an error. 
 
-![Connection Settings](../.gitbook/assets/connect-to-tenant_setings.png)
+![Connection Settings](../../.gitbook/assets/connect-to-tenant_setings.png)
 
-![Initial Connection Progress](../.gitbook/assets/connect-to-tenant_progress.png)
+![Initial Connection Progress](../../.gitbook/assets/connect-to-tenant_progress.png)
 
 After all initial connection steps are completed, you will be redirected to the __Welcome Home__ page. 
 
 ## Related Topics
 
 * [Deploy SysKit Point](deploy-syskit-point.md)
-* [Activate SysKit Point](../activation/activate-syskit-point.md)
+* [Activate SysKit Point](../../set-up-point-data-center/activation/activate-syskit-point.md)
 * [Set Up Custom Domain and SSL Certificate](set-up-custom-domain-and-ssl-certificate.md)
 
 If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).
