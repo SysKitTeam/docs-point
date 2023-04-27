@@ -9,9 +9,11 @@ Group Access in SysKit Point can **simplify the day-to-day management of groups*
 It helps you **ensure users have access to all the resources they need** to do their work effectively as well as **identify and remove users** that should no longer have access. 
 
 When it comes to group access management, SysKit Point lets you easily:
- * Manage group permissions
- * Add and remove group owners
- * Remove group access for members
+ * [Change Group Permissions](#manage-group-permissions)
+ * [Add and Remove Group Owners](#add-and-remove-group-owners)
+ * [Remove Group Access](#remove-group-access)
+
+These changes can be made in instances **when certain members or owners leave a project** and need to have their access revoked or if a member needs to have **permissions added as their responsibilities within the project increased**. 
 
 To manage your group's access, complete the following: 
 
