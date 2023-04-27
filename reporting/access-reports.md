@@ -245,6 +245,8 @@ The Group Memberships report can be **exported as PDF and XLSX files**. There is
 The Group Access report provides insight into each security group's permissions and access rights. 
   * For example, with this report, you can detect where "Everyone" and "Everyone except external users" groups have access.
 
+[For more details on how to Manage Group Access, take a look at this article.](../point-collaborators/manage-group-access.md) 
+
 ### Generate Report
 
 * **Click the Reports tile**; it is located on the SysKit Point home screen.
