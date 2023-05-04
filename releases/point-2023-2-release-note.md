@@ -84,14 +84,3 @@ In the newest addition, you will:
     * **Improved SysKit Point Teams app responsiveness** on smaller resolutions and scaled screens.
     * **Fixed issues** with the selection of collected audit logs activities in Audit Logs settings.
     * **Fixed an issue** where the Remove access action was erroneously displayed in the Power BI Inventory report when a workspace was selected. 
-    
-
-
-
-
-
-
-
-
-
-
