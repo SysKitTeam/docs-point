@@ -1,0 +1,97 @@
+---
+description: This article lists new features, improvements, and bug fixes in SysKit Point version 2023.2.
+--- 
+
+# SysKit Point 2023.2
+
+[Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
+
+**Product version:** 2023.2.0
+
+**Build number:** xxx
+
+**Release date:** May 11, 2023
+
+## Get the Latest Version
+
+### SysKit Point
+
+* **New to SysKit Point?** Get the latest SysKit Point version from [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit_point).<br/>
+   Find all steps described in detail in the [deployment article](../set-up-point-data-center/deployment/deploy-syskit-point.md).
+    
+* **Already using SysKit Point?** Upgrade to the latest SysKit Point version. <br/>
+[![](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitassetsstorage.blob.core.windows.net%2Fpoint%2FARMTemplates%2FPointUpdateDeploy%2FPointUpdateTemplate.json)
+
+See detailed step-by-step instructions on how to upgrade SysKit Point in the [upgrade article](../set-up-point-data-center/deployment/upgrade-syskit-point.md).
+
+## Features
+
+* **You can now resolve access and provisioning requests in the SysKit Point web app**! Whether using the SysKit Point Teams app or the SysKit Point web app, you can now resolve these tasks in any of the two places. 
+As before, you will:
+    * **Get a notification in the Teams app**
+    * **Receive an email that opens the request in SysKit Point Teams app** 
+    * **Be able to resolve access and provisioning requests within SysKit Point Teams app**
+In the newest addition, you will:
+    * **Get a task in the SysKit Point app as well**
+    * **Be able to navigate to a task in the SysKit Point web app from the received email**
+    * **Be able to resolve access and provisioning requests within the SysKit Point web app**
+
+* **Group email address and site address editing added to provisioning requests**!
+    * **When requesting a Microsoft Team or a Microsoft 365 Group**, you can **edit the group email address**. 
+    * **When requesting a new site**, you can now **edit the site address**, thus affecting the site's URL.
+
+## Improvements & Bug Fixes
+
+* **SysKit Point sync was improved to retrieve additional properties to distinguish between cloud and on-premises groups synced to Azure**! 
+    * **Refreshed look with additional icons** and **new on-premises views** on reports help you differentiate between the two group types
+    * **Microsoft Teams & Groups inventory report** and **Group Membership** report enable filtering by group type with the help of the newly added views:
+        * **Distribution Lists** and **Distribution Lists (On-Premises)**
+        * **Security Groups** and **Security Groups (On-Premises)**
+        * **Mail-Enabled Security Groups**
+
+* **Performed by filter added to Audit Logs Overview report**! The new filter enables you to generate the report showing audit logs performed by:
+    * **all users**
+    * **only internal users**
+    * **only external users**
+    * **specific users**; here, you can select one or more users from your tenant in the people picker dialog
+
+* **Recycled folder activity support added**!
+    * The audit logs related to the Recycled folder activity are now collected in SysKit Point by default.
+    * Activity is visible in the File and Page Activities report.
+    * Activity triggers the Changed File or Folder alert if the alert is enabled.
+
+* **Reports improved**!
+    * **Job Title column was added** to the Users inventory report.
+    * **Last Logged In column was added** to the Users with Privileged Access report.
+
+* **Multiple sync improvements and fixes are available**.
+    * **Fixed issues where changes in group memberships were not synced**.
+    * **Added support for Request files links**. Before the changes, the following error would appear in the error logs: `SysKit.Point.WorkerUtils.Database.CustomSqlException: Violation of PRIMARY KEY constraint 'PK_Crawl_SharePointSharingLinks'. Cannot insert duplicate key in object 'Crawl.SharePointSharingLinks'.`
+    * **Fixed an issue** that would appear when syncing sites with more than 1000 lists containing an Acess Requests list. The following exception was thrown: `Violation of PRIMARY KEY constraint 'PK_Crawl_SharePointObjects'. Cannot insert duplicate key in object 'Crawl.SharePointObjects'.`
+
+* **Fixed a bug** with service account setup using Microsoft authentication flow. When setting up, instead of the entered service account, the signed-in account was used, resulting in missing permissions during provisioning.  
+
+* **Multiple provisioning-related fixes are available**.
+    * **Fixed an issue** where custom metadata defined in the provisioning template was not correctly saved and applied in provisioning requests. The following custom metadata types were affected: number, yes/no, and Azure property - department.
+    * **Fixed a bug** where an incorrect approval process was displayed when editing a provisioning template.
+    * **Fixed an issue** where creating a new approval process from the provisioning template screen would reset the template form.
+
+* **Fixed an issue** where reconsent would timeout and fail in large M365 environments.
+
+* **Fixed an issue** where deleted users were displayed in the External Users report. Hard and soft deleted users are no longer shown.
+
+* **Various UX/UI improvements and minor fixes are available**. 
+    * **Improved SysKit Point Teams app responsiveness** on smaller resolutions and scaled screens.
+    * **Fixed issues** with the selection of collected audit logs activities in Audit Logs settings.
+    * **Fixed an issue** where the Remove access action was erroneously displayed in the Power BI Inventory report when a workspace was selected. 
+    
+
+
+
+
+
+
+
+
+
+
