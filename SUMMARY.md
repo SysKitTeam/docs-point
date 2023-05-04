@@ -169,3 +169,4 @@
   * [Complete Access Review Tasks](point-collaborators/access-review.md)
   * [Resolve Lifecycle Management Tasks](point-collaborators/lifecycle-management.md)
   * [Request Workspace Access](point-collaborators/request-workspace-access.md)
+ * [Manage Users](point-collaborators/manage-users.md)
