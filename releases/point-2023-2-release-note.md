@@ -30,9 +30,9 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
 As before, you will:
     * **Get a notification in the Teams app**
     * **Receive an email that opens the request in SysKit Point Teams app** 
-    * **Be able to resolve access and provisioning requests within SysKit Point Teams app**
+    * **Be able to resolve access and provisioning requests within the SysKit Point Teams app**
 In the newest addition, you will:
-    * **Get a task in the SysKit Point app as well**
+    * **Get a task in the SysKit Point web app as well**
     * **Be able to navigate to a task in the SysKit Point web app from the received email**
     * **Be able to resolve access and provisioning requests within the SysKit Point web app**
 
@@ -67,7 +67,7 @@ In the newest addition, you will:
 * **Multiple sync improvements and fixes are available**.
     * **Fixed issues where changes in group memberships were not synced**.
     * **Added support for Request files links**. Before the changes, the following error would appear in the error logs: `SysKit.Point.WorkerUtils.Database.CustomSqlException: Violation of PRIMARY KEY constraint 'PK_Crawl_SharePointSharingLinks'. Cannot insert duplicate key in object 'Crawl.SharePointSharingLinks'.`
-    * **Fixed an issue** that would appear when syncing sites with more than 1000 lists containing an Acess Requests list. The following exception was thrown: `Violation of PRIMARY KEY constraint 'PK_Crawl_SharePointObjects'. Cannot insert duplicate key in object 'Crawl.SharePointObjects'.`
+    * **Fixed an issue** that would appear when syncing sites with more than 1000 lists containing an Access Requests list. The following exception was thrown: `Violation of PRIMARY KEY constraint 'PK_Crawl_SharePointObjects'. Cannot insert duplicate key in object 'Crawl.SharePointObjects'.`
 
 * **Fixed a bug** with service account setup using Microsoft authentication flow. When setting up, instead of the entered service account, the signed-in account was used, resulting in missing permissions during provisioning.  
 
