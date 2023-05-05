@@ -79,7 +79,8 @@ To remove access to this user:
   * **Type Remove (4)** in the provided space to confirm
   * **Click the Remove Access button (5)** to finalize the changes
 
-![Remove Acces for User](../.gitbook/assets/manage-group-access_add-remove-group-owners.png)
+![Remove Acces for User](../.gitbook/assets/manage-users_remove-access.png)
+![Confirm Removal](../.gitbook/assets/manage-users_remove-access-removal.png)
 
 Under the **Microsoft Teams & Group Memberships (1)** section, you are able to promote the users to owner status or remove them from the group.
 
@@ -88,16 +89,15 @@ To promote users to owners:
   * **Select one or more groups (2)** by clicking the checkbox next to them
   * On the right screen side, click the **Promote to Owner button (3)**
     * The Promote User to Microsoft 365 Group Owner pop-up will open
-  * **Click the Promote (4)** button to confirm the change from member to owner
+  * **Click the Promote** button to confirm the change from member to owner
 
 To remove a user from the group:
 
   * **Select one or more groups** by clicking the checkbox next to them
-  * On the right screen side, click the **Remove from Group button (1)**
+  * On the right screen side, click the **Remove from Group button (4)**
     * The Remove from Group pop-up will open
-  * **Click the Remove (2)** button to confirm the removal of the user from the selected group or groups
+  * **Click the Remove** button to confirm the removal of the user from the selected group or groups
 
+![Promote User to Group Owner](../.gitbook/assets/manage-users_teams-and-groups.png)
 
-![Promote User to Group Owner](../.gitbook/assets/manage-group-access_add-remove-group-owners.png)
-![Remove User from Group](../.gitbook/assets/manage-group-access_add-remove-group-owners.png)
 
