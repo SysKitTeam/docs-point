@@ -27,7 +27,7 @@ Along with autumn comes a new version of SysKit Point packed with new features a
   * **find summary data on your resources**, **internal and external users**, **sharing links**, and **used storage** - **all numbers are drillable**, taking you to the related reports which will show more details 
   * **detect potential issues**, for example, if your environment has inactive or orphaned resources
   
-    [Find more information about the new Dashboard here.](../get-to-know-syskit-point/control-your-microsoft-365-environment.md)
+    [Find more information about the new Dashboard here.](../microsoft365-inventory/explore-your-microsoft-365-dashboard.md)
 * **New SharePoint Groups report is available!** Use the report to view all SharePoint Groups and their permissions on your sites, remove group members, or drill to the Group Access report for selected SharePoint Groups.
 * **SysKit Point supports Hub sites!** You can find hub-related information on the Sites Overview screen, in the **Hub Title** and **Is Hub Site** columns, and determine if a site is a part of a Hub.
 * **Block and Unblock User Sign-in actions are available!** With these actions, you can block or allow the user to access Microsoft 365 and other Microsoft services.
