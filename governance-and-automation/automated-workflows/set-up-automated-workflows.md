@@ -49,11 +49,13 @@ Take a look at the articles below to learn how to set up each governance policy:
 * [**Maximum Number of Owners**](maximum-number-of-owners-admin.md) - when enabled and applied to Microsoft Teams and Microsoft 365 Groups, this policy **triggers an automated workflow when the team/group has more owners** than defined in the policy settings
 * [**Orphaned Resources**](orphaned-resources-admin.md) - when enabled and applied to Microsoft Teams and Microsoft 365 Groups, this policy **triggers an automated workflow when the team/group has no active owners**
 * [**Guest Users Expiration**](guest-users-expiration-admin.md) - periodically checks Guest Users' access, or when SysKit Point detects a guest user is inactive
+* [**Access Request**](../access-requests/README.md) - provides end-users the ability to search all existing Microsoft Teams & Groups, sites, distribution lists, and security groups and request access to them
+* [**Access Review**](../permissions-review/README.md) - setting this up will allow site owners to perform regular access reviews of their sites
+
 
 By clicking on the names of each policy, you can **find an article with information on creating and enabling** all mentioned policy types. 
-
-How to apply the created policies is described below. 
-
+ 
+[For information on how to apply your created policies, take a look at this article.](manage-automated-workflow-policies.md)
 
 ## Automated Workflows Settings
 
