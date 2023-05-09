@@ -23,7 +23,7 @@ Only users with the role of **SysKit Point Admin** assigned can access and confi
 ## Automated Workflows and Policies
 
 **Automated workflows in SysKit Point consist of e-mails and tasks created when a policy violation is detected.**
-  * Policies in SysKit Point contain rules to be followed when dealing with Microsoft Teams, Microsoft 365 Groups, and user access.
+  * Policies in SysKit Point contain rules to follow when dealing with Microsoft Teams, Microsoft 365 Groups, and user access.
 
 SysKit Point enables creating policies that will make sure the following is set correctly and reviewed when needed:
 * **Ownership on Microsoft Teams and Microsoft 365 Groups**
