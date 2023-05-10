@@ -189,7 +189,25 @@ The Unique Permissions report can be **exported as PDF and XLSX files**. There i
 
 ## Group Memberships Report
 
-The Group Memberships report shows all members, owners, and guest users across your Microsoft Teams and Microsoft 365 groups. 
+The Group Memberships report shows all members, owners, and guest users across your Microsoft Teams and Microsoft 365 groups.       
+
+The groups available to generate the report for are the following:
+  * Microsoft 365 Groups
+  * Microsoft Teams
+  * Inactive Groups
+  * Archived Groups
+  * Security Groups
+  * Security Groups (on-premises)
+  * Mail-Enabled Security Groups
+  * Distribution Lists
+  * Distribution Lists (on-premises)
+  * Recently Created Groups
+  * Deleted Groups
+  * Externally Shared Groups
+  * Teams with Private Channels
+  * Teams with Shared Channels
+  * Teams and Groups with Only One Owner
+  * Teams and Groups with Too Many Owners
 
 ### Generate Report
 
