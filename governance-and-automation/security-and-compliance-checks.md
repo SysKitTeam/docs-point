@@ -6,7 +6,7 @@ description: This article provides information on the Security and Compliance ch
 
 The new **Security and Compliance Checks**, visible directly from your SysKit Point home screen, pinpoint the **most important vulnerabilities and misalignments** with Microsoft 365 best practices. These checks should keep you aware and help you **react quickly to keep your environment secure and under control**.
 
-Collecting all the important info about the security and compliance state of the environment is a time-consuming and repetitive administration task. SysKit Point will perform regular security and compliance checks for you and present the results on your home screen from where you can click and **drill down to a specific report to investigate further**and decide if you want to take some action and **resolve** specific issue. 
+Collecting all the important info about the security and compliance state of the environment is a time-consuming and repetitive administration task. SysKit Point will perform regular security and compliance checks for you and present the results on your home screen from where you can click and **drill down to a specific report to investigate further** and decide if you want to take some action and **resolve** specific issue. 
 
 {% hint style="information" %}
 **Want to join Early Access?** Security and Compliance Checks are not yet publicly available for all users. If you want to learn how it works and see what's coming up next, [schedule a call (calendly)](https://calendly.com/d/yjj-7y5-sky/syskit-point-early-access-program) with our Product Manager and provide feedback to help us shape up this feature to fit your needs.   
@@ -24,6 +24,8 @@ Directly from your home screen, you will see several things that need to be inve
 
 * **Blocked users with assigned licenses (5)** - shows the number of users with one or more active licenses assigned that have been blocked, which helps you **detect and remove licenses** that are not being utilized.
 
+* **Inactive guest users (6)** - shows the number of guest users that have been inactive for a certain amount of time and helps you optimize your environment and keep it safe
+
 ![Security & Compliance Checks](../.gitbook/assets/security-and-compliance-checks_home-page.png)
 
 ## Automated Governance
@@ -40,6 +42,7 @@ At the bottom of the screen, you will find:
   * Number of Teams and Groups without active owners 
   * Number of Orphaned Users 
   * Number of Blocked users with assigned licenses
+  * Number of Inactive Guest Users
 
 By clicking each of the options, you are provided with **more information about the current state of your environment**. 
 
@@ -124,5 +127,23 @@ Under the Security & Compliance Checks section, click the **number showing Block
 
 ![Blocked Users With Assigned Licenses - Inactive Licenses](../.gitbook/assets/security-and-compliance-checks_inactive-licenses.png)
 ![Blocked Users With Assigned Licenses - Remove Inactive Licenses](../.gitbook/assets/security-and-compliance-checks_inactive-licenses-remove.png)
+
+
+### Inactive Guest Users
+
+Under the Security & Compliance Checks section, click the **number showing Inactive Guest Users**.
+
+  * The Reports section opens, showing a list of all **Inactive Guest Users** 
+  * **Select one or multiple users (1)** by clicking the checkbox on the left side next to their name
+    * The bar should change color to a light orange when selected
+  * To remove inactive guest users, there are **two options**: 
+    * To completely remove the user, **click the Delete User button (2)** located on the right side
+      * When the Delete User pop-up appears, **click the Delete User option (4)** to confirm your decision
+    * To block the sign-in for the user, **click the Block User Sign-In button (3)**
+      * Confirm your choice by **clicking the Block button (5)** on the pop-up that appears
+
+![Inactive Guest Users](../.gitbook/assets/security-and-compliance-checks_inactive-guest-users.png)
+![Inactive Guest Users - Delete User](../.gitbook/assets/security-and-compliance-checks_inactive-guest-users-delete.png)
+![Inactive Guest Users - Block User Sign-In](../.gitbook/assets/security-and-compliance-checks_inactive-guest-users-block.png)
 
 **Want to join Early Access?** Security and Compliance Checks are not yet publicly available for all users. If you want to learn more and see how it works, [please find a suitable time slot](https://calendly.com/d/yjj-7y5-sky/syskit-point-early-access-program), and we will gladly guide you through.
