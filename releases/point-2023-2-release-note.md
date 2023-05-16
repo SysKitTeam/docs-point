@@ -21,6 +21,7 @@ As before, you will:
     * **Get a notification in the Teams app**
     * **Receive an email that opens the request in SysKit Point Teams app** 
     * **Be able to resolve access and provisioning requests within the SysKit Point Teams app**
+    
 In the newest addition, you will:
     * **Get a task in the SysKit Point web app as well**
     * **Be able to navigate to a task in the SysKit Point web app from the received email**
