@@ -14,18 +14,6 @@ description: This article lists new features, improvements, and bug fixes in Sys
 
 **Release target:** SysKit Point Cloud
 
-## Get the Latest Version
-
-### SysKit Point
-
-* **New to SysKit Point?** Get the latest SysKit Point version from [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit_point).<br/>
-   Find all steps described in detail in the [deployment article](../set-up-point-data-center/deployment/deploy-syskit-point.md).
-    
-* **Already using SysKit Point?** Upgrade to the latest SysKit Point version. <br/>
-[![](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitassetsstorage.blob.core.windows.net%2Fpoint%2FARMTemplates%2FPointUpdateDeploy%2FPointUpdateTemplate.json)
-
-See detailed step-by-step instructions on how to upgrade SysKit Point in the [upgrade article](../set-up-point-data-center/deployment/upgrade-syskit-point.md).
-
 ## Features
 
 * **You can now resolve access and provisioning requests in the SysKit Point web app**! Whether using the SysKit Point Teams app or the SysKit Point web app, you can now resolve these tasks in any of the two places. 
@@ -33,6 +21,7 @@ As before, you will:
     * **Get a notification in the Teams app**
     * **Receive an email that opens the request in SysKit Point Teams app** 
     * **Be able to resolve access and provisioning requests within the SysKit Point Teams app**
+    
 In the newest addition, you will:
     * **Get a task in the SysKit Point web app as well**
     * **Be able to navigate to a task in the SysKit Point web app from the received email**
