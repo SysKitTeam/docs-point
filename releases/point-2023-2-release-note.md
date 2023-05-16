@@ -8,9 +8,11 @@ description: This article lists new features, improvements, and bug fixes in Sys
 
 **Product version:** 2023.2.0
 
-**Build number:** xxx
+**Build number:** 58
 
-**Release date:** May 11, 2023
+**Release date:** May 16, 2023
+
+**Release target:** SysKit Point Cloud
 
 ## Get the Latest Version
 
@@ -69,6 +71,8 @@ In the newest addition, you will:
     * **Added support for Request files links**. Before the changes, the following error would appear in the error logs: `SysKit.Point.WorkerUtils.Database.CustomSqlException: Violation of PRIMARY KEY constraint 'PK_Crawl_SharePointSharingLinks'. Cannot insert duplicate key in object 'Crawl.SharePointSharingLinks'.`
     * **Fixed an issue** that would appear when syncing sites with more than 1000 lists containing an Access Requests list. The following exception was thrown: `Violation of PRIMARY KEY constraint 'PK_Crawl_SharePointObjects'. Cannot insert duplicate key in object 'Crawl.SharePointObjects'.`
 
+* **Fixed an issue** where generating the External Users report from the site details screen would result in an error.
+
 * **Fixed a bug** with service account setup using Microsoft authentication flow. When setting up, instead of the entered service account, the signed-in account was used, resulting in missing permissions during provisioning.  
 
 * **Multiple provisioning-related fixes are available**.
@@ -84,3 +88,4 @@ In the newest addition, you will:
     * **Improved SysKit Point Teams app responsiveness** on smaller resolutions and scaled screens.
     * **Fixed issues** with the selection of collected audit logs activities in Audit Logs settings.
     * **Fixed an issue** where the Remove access action was erroneously displayed in the Power BI Inventory report when a workspace was selected. 
+    * **Fixed an issue** in SysKit Point Teams app where sorting requests by Requested On date would result in an error.
