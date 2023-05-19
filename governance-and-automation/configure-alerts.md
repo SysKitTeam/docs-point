@@ -123,7 +123,7 @@ To enable alerts for a specific site:
 * **Select a site (1)**
 * **Click the Configure Alerts (2) link**
 
-![Sites overview screen - Configure Alerts action](<../.gitbook/assets/configure-alerts\_configure-alerts (1) (1) (1) (1).png>)
+![Sites overview screen - Configure Alerts action](<../.gitbook/assets/configure-alerts\_configure-alerts (1) (1) (1) (1) (1) (1).png>)
 
 The **Configure Alerts** dialog opens. Here, the following is available:
 

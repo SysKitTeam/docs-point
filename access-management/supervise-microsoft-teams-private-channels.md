@@ -71,7 +71,7 @@ The name of the Private Channel site consists of the **name of its Team** + the 
 
 **Click the site name to open the Private Channel site details page**. Here, **you can see which users have permissions** in the private channel, **view shared files**, and **find all analytics data**, as in other types of Sites. Additionally, you can **generate multiple reports** for the Private Channel site and **perform multiple actions** - Remove Access, Edit Permissions, Delete SharePoint Group, Remove Users from Group, etc.
 
-![SysKit Point - Private Channel site details screen](<../.gitbook/assets/pc-clanak-5 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (1).png>)
+![SysKit Point - Private Channel site details screen](<../.gitbook/assets/pc-clanak-5 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2).png>)
 
 #### Microsoft Teams & Groups Screen
 
