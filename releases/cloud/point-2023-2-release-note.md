@@ -12,7 +12,12 @@ description: This article lists new features, improvements, and bug fixes in Sys
 
 **Release date:** May 16, 2023
 
-**Release target:** SysKit Point Cloud
+## About SysKit Point Cloud
+
+* **New to SysKit Point Cloud?** Explore SysKit Point Cloud with a 21-day [free trial](https://www.syskit.com/products/point/free-trial/) for an easy and effective way to manage and secure your environment. 
+   
+* **Already using SysKit Point Cloud?** SysKit Point Cloud is automatically upgraded to the latest version when available. The automatic update occurs outside of working hours to ensure minimal interference with your day-to-day business.  
+
 
 ## Features
 
