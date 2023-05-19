@@ -2,6 +2,8 @@
 
 * [SysKit Point](README.md)
 * [Releases](releases/README.md)
+  * [SysKit Point Cloud](releases/cloud/README.md)
+      * [SysKit Point 2023.2](releases/cloud/point-2023-2-release-note.md)
   * [SysKit Point Data Center](releases/data-center/README.md)
     * [SysKit Point 2023.1.3](releases/data-center/point-2023-1-3-release-note.md)
     * [SysKit Point 2023.1.2](releases/data-center/point-2023-1-2-release-note.md)
@@ -24,8 +26,6 @@
     * [SysKit Point 19.0.2](releases/data-center/point-19-0-2-release-note.md)
     * [SysKit Point 19.0.1](releases/data-center/point-19-0-1-release-note.md)
     * [SysKit Point 19](releases/data-center/point-19-release-note.md)
-  * [SysKit Point Cloud](releases/cloud/README.md)
-      * [SysKit Point 2023.2](releases/cloud/point-2023-2-release-note.md)
 * [Requirements](requirements/README.md)
   * [Permission Requirements](requirements/permission-requirements.md)
   * [Change Log](requirements/permission-requirements-change-log.md)
