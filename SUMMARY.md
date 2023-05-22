@@ -5,6 +5,7 @@
   * [SysKit Point Cloud](releases/cloud/README.md)
       * [SysKit Point 2023.2](releases/cloud/point-2023-2-release-note.md)
   * [SysKit Point Data Center](releases/data-center/README.md)
+    * [SysKit Point 2023.2](releases/data-center/point-2023-2-release-note.md)
     * [SysKit Point 2023.1.3](releases/data-center/point-2023-1-3-release-note.md)
     * [SysKit Point 2023.1.2](releases/data-center/point-2023-1-2-release-note.md)
     * [SysKit Point 2023.1.1](releases/data-center/point-2023-1-1-release-note.md)
