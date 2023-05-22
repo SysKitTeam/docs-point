@@ -25,11 +25,10 @@ To copy permissions from one user to another, follow these steps:
 * **Select a user on the Users overview screen \(1\)** – permissions will be copied from this user
 * **Click the Copy User Permissions \(2\)** action in the side panel – the Copy Permissions dialog opens
 * **Select one or more Destination users \(3\)** – permissions will be copied to this user
-* **Check the Transfer Permissions option \(4\)** if you want to remove all permissions from the source user after the permissions are granted for the
+* **Check the Transfer Permissions option \(4\)** if you want to remove all permissions from the source user after the permissions are granted for the destination users
+* **Check the Copy memberships in Microsoft Teams private channels option \(5\)** if you want to copy the permissions of this user for the private channels where they are a member
 
-  destination users
-
-* **Click the Copy Permissions button \(5\)** to run the action
+* **Click the Copy Permissions button \(6\)** to run the action
 
 ![Users Overview - Copy User Permissions](../.gitbook/assets/copy-user-permissions_users-overview.png)
 
