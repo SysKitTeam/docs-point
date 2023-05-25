@@ -8,9 +8,9 @@ SysKit Point is a **management and governance platform for Microsoft 365** that 
 
 As a team and group owner, or manager, SysKit Point helps you:
 
-* **Resolve Governance Tasks** - LINK
-* **Manage Workspaces** - LINK
-* **Generate Reports** - LINK
+* [**Resolve Governance Tasks**](../point-collaborators/resolve-governance-tasks/README.md).
+* **Manage Workspaces** 
+* **Generate Reports** 
 
 ## SysKit Point Home Screen
 
@@ -24,6 +24,3 @@ Along with that, the SysKit Point home page gives you direct access to the follo
 * **My Tasks** – provides an overview of all the current (and previous) tasks you need to complete, which relate to Policy Violations, Access Review, Lifecycle Management, and Provisioning. Completing these tasks helps you maintain the health and security of sites, teams, and groups you are the owner of
 * **Scheduled Reports** – an overview of all reports you've scheduled to be automatically sent to you
 * **Alerts** – provides insight into alerts that have been set up to notify you of specific changes in the sites, groups, and teams you are the owner of
-
-
-(missing links to articles that haven't been written yet)
