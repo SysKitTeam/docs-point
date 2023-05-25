@@ -171,6 +171,7 @@
   * [Setup Diagnostic Logs Export](troubleshooting/setup-diagnostic-logs-export.md)
   * [Analytics and Usage Report Issues](troubleshooting/analytics-and-usage-report-issues.md)
 * [Explore SysKit Point for Site Owners/Collaborators](point-collaborators/README.md)
+  * [SysKit Point for Collaborators](point-collaborators/point-starter-kit-collaborators.md)
   * [Resolve Governance Tasks](point-collaborators/resolve-governance-tasks/README.md)
     * [Complete Access Review Tasks](point-collaborators/resolve-governance-tasks/access-review.md)
     * [Resolve Lifecycle Management Tasks](point-collaborators/resolve-governance-tasks/lifecycle-management.md)
