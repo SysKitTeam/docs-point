@@ -79,4 +79,4 @@ For more information on how collaborators **can resolve specific policy violatio
 * [Resolve Minimum Number of Owners policy violation](../../point-collaborators/resolve-governance-tasks/minimum-number-of-owners.md)
 * [Resolve Maximum Number of Owners policy violation](../../point-collaborators/resolve-governance-tasks/maximum-number-of-owners.md)
 * [Resolve Orphaned Resources policy violation](../../point-collaborators/resolve-governance-tasks/orphaned-resources.md)
-* [Resolve Guest User Expiration](../../point-collaborators/resolve-governance-tasks/guest-user-expiration.md)
+* [Resolve Guest User Expiration](../../point-collaborators/resolve-governance-tasks/guest-users-expiration.md)

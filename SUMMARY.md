@@ -176,6 +176,6 @@
     * [Resolve Lifecycle Management Tasks](point-collaborators/resolve-governance-tasks/lifecycle-management.md)
     * [Resolve Minimum Number of Owners Tasks](point-collaborators/resolve-governance-tasks/minimum-number-of-owners.md)
     * [Resolve Maximum Number of Owners Tasks](point-collaborators/resolve-governance-tasks/maximum-number-of-owners.md)
-    * [Resolve Guest User Expiration Tasks](point-collaborators/resolve-governance-tasks/guest-user-expiration.md)
+    * [Resolve Guest User Expiration Tasks](point-collaborators/resolve-governance-tasks/guest-users-expiration.md)
     * [Resolve Orphaned Resources Tasks](point-collaborators/resolve-governance-tasks/orphaned-resources.md)
   * [Request Workspace Access](point-collaborators/request-workspace-access.md)

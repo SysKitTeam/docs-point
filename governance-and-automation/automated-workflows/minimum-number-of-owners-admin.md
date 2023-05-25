@@ -23,4 +23,4 @@ The **Edit Policy** dialog opens where you can:
 
 Click **Save (8)** once you are done with the policy configuration.  
 
-For details on how collaborators can [**resolve Minimum Number of Owners policy violation tasks**, navigate to the following article](../../point-collaborators/resolve-governance-tasks/maximum-number-of-owners.md).
+For details on how collaborators can [**resolve Minimum Number of Owners policy violation tasks**, navigate to the following article](../../point-collaborators/resolve-governance-tasks/minimum-number-of-owners.md).

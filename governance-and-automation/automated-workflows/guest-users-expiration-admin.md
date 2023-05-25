@@ -35,4 +35,4 @@ Based on your configuration, **SysKit Point will start the automated workflow pe
 **You should have at least one user in your tenant with the Azure AD Premium P1 license assigned to detect sign-in times for guest users accurately.**
 {% endhint %}
 
-For details on how collaborators can [**resolve Guest User Expiration tasks** navigate to the following article](../../point-collaborators/resolve-governance-tasks/guest-user-expiration.md).
+For details on how collaborators can [**resolve Guest User Expiration tasks** navigate to the following article](../../point-collaborators/resolve-governance-tasks/guest-users-expiration.md).
