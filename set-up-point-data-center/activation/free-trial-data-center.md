@@ -15,7 +15,7 @@ This article shows how to get a free trial of the self-hosted SysKit Point solut
 
 To get the free trial:
 
-* [Doploy SysKit Point](../deployment/overview.md) to your Azure subscription 
+* [Deploy SysKit Point](../deployment/overview.md) to your Azure subscription 
    * In this step, all SysKit Point resources are created in Azure - no additional resources or migrations are needed when you decide to purchase a SysKit Point Data Center plan
 * [Contact us](https://www.syskit.com/contact-us/) to provide you with the trial key
     * Keys for the Data Center trial are provided via [SysKit customers portal](https://my.syskit.com/)
