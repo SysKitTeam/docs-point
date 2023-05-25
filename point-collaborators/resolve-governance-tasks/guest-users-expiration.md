@@ -6,15 +6,19 @@ description: This article explains how to renew or remove guest user access in S
 
 **This article shows how you can resolve a Guest Users Expiration policy violation** triggered when SysKit Point detects that a guest user is inactive or if the renewal process is defined to be performed periodically. 
 
+This policy helps you ensure there are no inactive guest users with access to sites, teams or groups. 
+
+If you are the manager of the guest user with expired access, you're responsible for resolving the task. Through this task, you can decide whether a guest user's access should be removed or extended.
+
 {% hint style="info" %}
-SysKit Point Administrators can [decide whether the guest user validation will be performed periodically or when SysKit Point detects that a guest user is inactive](set-up-automated-workflows.md). 
+SysKit Point Administrators can [decide whether the guest user validation will be performed periodically or when SysKit Point detects that a guest user is inactive](../../governance-and-automation/automated-workflows/guest-users-expiration-admin.md). 
 {% endhint %}
 
 In both cases, SysKit Point will send you an e-mail to revalidate the guest user’s access.
 
 ## Guest User Access Renewal E-mail
 
-SysKit Point sends an e-mail to guest users’ managers or other users defined in the Guest Users Expiration policy. 
+SysKit Point sends an e-mail to guest users’ managers or other users defined as points of contact in the Guest Users Expiration policy. 
 
 You can find the following information in the e-mail:
 * **Guest user whose access should be revalidated (1)**
@@ -28,7 +32,9 @@ You can find the following information in the e-mail:
 ## Guest Users Expiration Task
 
 Along with the e-mail, SysKit Point creates a policy violation task that provides you with information and actions needed to resolve the policy violation. 
+
 The following is available on the task screen:
+
 * **Guest User Information (1)**; here, you can find **information about the guest user**, most importantly, the time they last signed into Microsoft 365
 * **Remove button (2)**; when clicked, you need to enter a comment and confirm the action, which **results in the guest user being deleted in the Azure Active Directory**
 * **Keep button (3)**; when clicked, you need to enter a comment and confirm the action, which **results in the guest user keeping the access**

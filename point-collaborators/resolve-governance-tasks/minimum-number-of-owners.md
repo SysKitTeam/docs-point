@@ -6,6 +6,8 @@ description: This article explains how to resolve the Minimum number of Owners p
 
 **This article shows how Microsoft Teams and Microsoft 365 Group owners can resolve a policy violation regarding the minimum number of owners** required by the organization’s policy defined in SysKit Point. 
 
+This task helps you identify which Microsoft Teams & Groups don't have the required number of owners. You will be notified only for the teams or groups where you are the owner.
+
 {% hint style="success" %}
 By default, **SysKit Point suggests that Microsoft Teams and Microsoft 365 Groups should have at least 2 owners** so that if one owner leaves, the Microsoft Teams, and Microsoft 365 Groups are not left without an owner. 
 [SysKit Point Administrators can change the minimum number of required owners to fit the organization’s policies.](set-up-automated-workflows.md)

@@ -6,13 +6,14 @@ description: This article explains how to resolve the Maximum number of Owners p
 
 **This article shows how Microsoft Teams and Microsoft 365 Group owners can resolve a policy violation regarding the maximum number of owners** allowed by the organization’s policy defined in SysKit Point.
 
+This task helps you identify which sites, teams or groups have more than 5 owners. To avoid risks associated with having too many owners assigned, it's important to stay up to date with all current owners. 
+
 {% hint style="success" %}
 By default, **SysKit Point suggests that Microsoft Teams and Microsoft 365 Groups should have no more than 5 owners** since no one feels accountable for access and content management if there are too many owners.
 [SysKit Point Administrators can change the maximum number of allowed owners to fit the organization’s policies.](set-up-automated-workflows.md)
 {% endhint %}
 
 When SysKit Point detects that Microsoft Teams or Microsoft 365 Groups, which you are the owner of, have too many owners, **you will receive an e-mail to resolve the policy violation**.
-
 
 ## Policy Violation E-mail
 
