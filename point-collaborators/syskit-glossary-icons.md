@@ -18,12 +18,14 @@ Below is a list and explanation for all the icons, numbered and correlating to t
 For more explanations of the terms, click on the names to be redirected to the Microsoft 365 Glossary. 
 
 * [**Sites (1)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site)
-* **Private** [**Channels (2)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - private sections within Microsoft Teams, used to give access exclusively to members of a team
-* [**Microsoft Teams (3)**](https://support.microsoft.com/en-us/topic/what-is-microsoft-teams-3de4d369-0167-8def-b93b-0eb5286d7a29)
-* **Shared** [**Channels (4)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - collaboration space where you can invite people who are not on your team
-* [**Microsoft Groups (5)**](https://support.microsoft.com/en-us/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
-* [**OneDrive (6)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#onedrive-for-business)
+* [**Yammer (2)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#yammer)
+* [**Microsoft Groups (3)**](https://support.microsoft.com/en-us/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+* [**OneDrive (4)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#onedrive-for-business)
+* [**Microsoft Teams (5)**](https://support.microsoft.com/en-us/topic/what-is-microsoft-teams-3de4d369-0167-8def-b93b-0eb5286d7a29)
+* **Shared** [**Channels (6)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - collaboration space where you can invite people who are not on your team
+* **Private** [**Channels (7)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - private sections within Microsoft Teams, used to give access exclusively to members of a team
 
+ 
 ![Icons for Sites](../.gitbook/assets/syskit-icons-glossary_sites.png)
 
 ## Microsoft Teams & Groups
@@ -35,10 +37,12 @@ Below is a list and explanation for all the icons, numbered and correlating to t
 For more explanations of the terms, click on the names to be redirected to the Microsoft 365 Glossary. 
 
 * [**Microsoft Teams (1)**](https://support.microsoft.com/en-us/topic/what-is-microsoft-teams-3de4d369-0167-8def-b93b-0eb5286d7a29)
-* [**Microsoft Groups (2)**](https://support.microsoft.com/en-us/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
-* [**Mail-Enabled Security Groups (3)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - private sections within Microsoft Teams, used to give access exclusively to members of a team
-* [**Security Groups (4)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - collaboration space where you can invite people who are not on your team
-* [**Distribution Lists (5)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - collaboration space where you can invite people who are not on your team
+* [**Mail-Enabled Security Groups (2)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - private sections within Microsoft Teams, used to give access exclusively to members of a team
+* [**Microsoft Groups (3)**](https://support.microsoft.com/en-us/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+* [**Security Groups (on-premises) (6)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - collaboration space where you can invite people who are not on your team
+* [**Distribution Lists (on-premises) (7)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - collaboration space where you can invite people who are not on your team
+* [**Security Groups (6)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - collaboration space where you can invite people who are not on your team
+* [**Distribution Lists (7)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - collaboration space where you can invite people who are not on your team
 
 ![Icons for Microsoft Teams & Groups](../.gitbook/assets/syskit-icons-glossary_teams-groups.png)
 
@@ -61,9 +65,9 @@ For more explanations of the terms, click on the names to be redirected to the M
 
 ![Icons for Users](../.gitbook/assets/syskit-icons-glossary_users.png)
 
-## Access Reports
+## Reports
 
-When generating any of the **Access Reports**, you can explore workspaces you have access to and all of the content included in those workspaces. 
+When generating any of the **Reports**, you can explore workspaces you have access to and all of the content included in those workspaces. 
 
 Below is a list and explanation for all the icons used for the content, numbered and correlating to the included image. 
 
