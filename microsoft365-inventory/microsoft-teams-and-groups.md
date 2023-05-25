@@ -1,0 +1,103 @@
+---
+description: This article provides a detailed overview of the reports available for Sites, Microsoft Teams & Groups, and Users. 
+---
+
+# Microsoft Teams and Groups Report
+
+The Microsoft Teams & Groups report provides **insight into the properties and metadata relating to the Microsoft Teams & Groups in your environment** such as the number of members, owners, and guests in a specific Team or Group. 
+
+## Generate Report
+
+The Microsoft Teams & Groups report can be accessed by **clicking Microsoft Teams & Groups** on the Home page. 
+
+This will open the Microsoft Teams & Groups report, which can be viewed and filtered in multiple ways. 
+
+In the top left corner, **All Groups** is automatically selected in the filter. Clicking the **View filter** will provide the following additional options: 
+  * Microsoft 365 Groups
+  * Microsoft Teams
+  * Security Groups
+  * Mail-Enabled Security Groups
+  * Distribution Lists
+  * Recently Created Groups
+  * Deleted Groups
+  * Externally Shared Groups
+  * Teams with Private Channels
+  * Teams with Shared Channels
+  * Inactive Groups
+  * Archived Groups
+
+Clicking any of those categories will filter the report based on the selected. 
+
+At the top, 5 tiles can be used to filter the report. The following options are available and can be selected by clicking them:
+  * The Number of Microsoft Teams
+  * The Number of Microsoft 365 Groups 
+  * Recently Created
+  * Externally Shared
+  * Inactive
+
+The default columns displayed in the report are the following:
+  * Name
+  * Email
+  * Type
+  * Privacy
+  * Members
+  * Owners
+  * Guests
+  * Activity
+
+There are additional columns available in the **column chooser**, located in the top right part of the report. The additional columns available are:
+
+ * Connected Site
+ * Created On
+ * Private Channels
+ * Shared Channels
+ * Standard Channels
+ * Deleted By
+ * Deleted On
+ * Archived By
+ * Archived On
+ * Sensitivity Label
+ * Last Activity Date
+ * Is Team
+ * Can be Restored
+ * Policies Applied
+ * Primary Contact
+ * Secondary Contact
+ * Department
+ * Additional Custom Metadata Columns if configured
+
+## Report Actions
+
+The Microsoft Teams & Groups report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+
+On the right side of the report, there is a Manage section that provides the ability to **Configure Tenant Wide Alerts**.
+
+Selecting resources provides several actions that can be taken.
+
+The Manage actions available are: 
+  * Change Owners
+  * Manage Policies
+  * Add Owners/Members
+  * Remove Owners/Members
+  * Configure Alerts
+  * Change Metadata
+
+The Go to Report section provides a list of related reports that are available: 
+  * Permissions Matrix
+  * Externally Shared Content
+  * Unique Permissions
+  * Group Members
+  * File and Page Activities
+  * Permissions Changes
+
+Under Lifecycle Management, the following actions are available:
+  * Keep
+  * Archive
+  * Delete
+  * Ask Owners to Renew
+
+For Access Review, the action available is to **Request Review**.
+
+{% hint style="warning" %}
+**Please note!** The following actions are available for security groups, mail-enabled security groups, and distribution lists: Add Owners/Members, Remove Owners/Members, and Manage Policies.
+{% endhint %}
