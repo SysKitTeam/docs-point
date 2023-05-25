@@ -1,12 +1,12 @@
 ---
 description: This article lists improvements and bug fixes in SysKit Point version 2021.11.
---- 
+---
 
 # SysKit Point 2021.11
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
-**Product version:** 2021.11.29 
+**Product version:** 2021.11.29
 
 **Build number:** 1
 
@@ -14,17 +14,16 @@ description: This article lists improvements and bug fixes in SysKit Point versi
 
 ## Get the Latest Version
 
-* **New to SysKit Point?** Get the latest SysKit Point version from [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit_point).<br/>
-   Find all steps described in detail in the [deployment article](../set-up-point-data-center/deployment/deploy-syskit-point.md).
-    
-* **Already using SysKit Point?** Upgrade to the latest SysKit Point version. <br/>
-[![](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitassetsstorage.blob.core.windows.net%2Fpoint%2FARMTemplates%2FPointUpdateDeploy%2FPointUpdateTemplate.json)
+* **New to SysKit Point?** Get the latest SysKit Point version from [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit\_point).\
+  Find all steps described in detail in the [deployment article](../../set-up-point-data-center/deployment/deploy-syskit-point.md).
+* **Already using SysKit Point?** Upgrade to the latest SysKit Point version.\
+  [![](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitassetsstorage.blob.core.windows.net%2Fpoint%2FARMTemplates%2FPointUpdateDeploy%2FPointUpdateTemplate.json)
 
-See detailed step-by-step instructions on how to upgrade SysKit Point in the [upgrade article](../set-up-point-data-center/deployment/upgrade-syskit-point.md).
+See detailed step-by-step instructions on how to upgrade SysKit Point in the [upgrade article](../../set-up-point-data-center/deployment/upgrade-syskit-point.md).
 
 ## Improvements & Bug Fixes
 
-* **Sensitivity Label Changes** alert is now available! The alert can be enabled tenant-wide or on specific Microsoft Teams, Microsoft 365 Groups, or sites. [See the full list of alerts available in SysKit Point here.](../governance-and-automation/configure-alerts.md)
+* **Sensitivity Label Changes** alert is now available! The alert can be enabled tenant-wide or on specific Microsoft Teams, Microsoft 365 Groups, or sites. [See the full list of alerts available in SysKit Point here.](../../governance-and-automation/configure-alerts.md)
 * **Cosmos DB timeout and retry handling is improved**. SysKit Point is now more resistant to timeouts when collecting Unified Audit Logs.
 * **Users Overview screen is optimized**. As a result, generating the report, searching and filtering by licenses and assigned admin roles is faster.
 * **Microsoft Teams chat activity detection is optimized**. When determining Teams activity, SysKit Point is now faster and uses fewer Azure resources.
