@@ -25,7 +25,7 @@ The **Access Review task is usually performed by a site owner** and includes:
 The Access Review in SysKit Point can be viewed from two different roles:
 
 * **SysKit Point Admin user**, as described in this article
-* [SysKit Point Collaborator user](../../point-collaborators/access-review.md)
+* [SysKit Point Collaborator user](../../point-collaborators/resolve-governance-tasks/access-review.md)
 
 When working with Access Review, SysKit Point Admin users can:
 
