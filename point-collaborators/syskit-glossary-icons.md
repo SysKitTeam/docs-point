@@ -39,10 +39,10 @@ For more explanations of the terms, click on the names to be redirected to the M
 * [**Microsoft Teams (1)**](https://support.microsoft.com/en-us/topic/what-is-microsoft-teams-3de4d369-0167-8def-b93b-0eb5286d7a29)
 * [**Mail-Enabled Security Groups (2)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - private sections within Microsoft Teams, used to give access exclusively to members of a team
 * [**Microsoft Groups (3)**](https://support.microsoft.com/en-us/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
-* [**Security Groups (on-premises) (6)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - collaboration space where you can invite people who are not on your team
-* [**Distribution Lists (on-premises) (7)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - collaboration space where you can invite people who are not on your team
-* [**Security Groups (6)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - collaboration space where you can invite people who are not on your team
-* [**Distribution Lists (7)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - collaboration space where you can invite people who are not on your team
+* [**Security Group (on-premises) (4)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - used for granting access to Microsoft 365 resources, such as SharePoint
+* [**Distribution Lists (on-premises) (5)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - used when you want to send an email to a group of people without having to type each individual recipient's name
+* [**Security Groups (6)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - used for granting access to Microsoft 365 resources, such as SharePoint
+* [**Distribution Lists (7)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - used when you want to send an email to a group of people without having to type each individual recipient's name
 
 ![Icons for Microsoft Teams & Groups](../.gitbook/assets/syskit-icons-glossary_teams-groups.png)
 
