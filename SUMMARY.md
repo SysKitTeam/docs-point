@@ -180,6 +180,7 @@
     * [Resolve Guest User Expiration Tasks](point-collaborators/resolve-governance-tasks/guest-users-expiration.md)
     * [Resolve Orphaned Resources Tasks](point-collaborators/resolve-governance-tasks/orphaned-resources.md)
   * [Request Workspace Access](point-collaborators/request-workspace-access.md)
+  * [Manage Group Access](point-collaborators/manage-group-access.md)
   * [Manage Users](point-collaborators/manage-users.md)
   * [SysKit Icons Glossary](point-collaborators/syskit-glossary-icons.md)
 
