@@ -193,10 +193,10 @@ The Group Memberships report shows all members, owners, and guest users across y
 * **Microsoft Teams**
 * **Microsoft 365 groups**
 * **Security Groups**
-* **Security Groups (on-premises)**
+* **Security Groups (On-Premises)**
 * **Mail-Enabled Security Groups**
 * **Distribution Lists**
-* **Distribution Lists (on-premises)**
+* **Distribution Lists (On-Premises)**
 
 
 The views available when generating the report are the following:
@@ -205,10 +205,10 @@ The views available when generating the report are the following:
   * Inactive Groups
   * Archived Groups
   * Security Groups
-  * Security Groups (on-premises)
+  * Security Groups (On-Premises)
   * Mail-Enabled Security Groups
   * Distribution Lists
-  * Distribution Lists (on-premises)
+  * Distribution Lists (On-Premises)
   * Recently Created Groups
   * Deleted Groups
   * Externally Shared Groups
