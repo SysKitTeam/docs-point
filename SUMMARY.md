@@ -179,6 +179,7 @@
     * [Resolve Guest User Expiration Tasks](point-collaborators/resolve-governance-tasks/guest-users-expiration.md)
     * [Resolve Orphaned Resources Tasks](point-collaborators/resolve-governance-tasks/orphaned-resources.md)
   * [Request Workspace Access](point-collaborators/request-workspace-access.md)
+  * [Schedule Reports and Alerts](point-collaborators/schedule-reports-and-alerts.md)
   * [Request New Workspace](point-collaborators/request-new-workspace.md)
   * [Manage Group Access](point-collaborators/manage-group-access.md)
   * [Manage Users](point-collaborators/manage-users.md)
