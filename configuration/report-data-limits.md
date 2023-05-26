@@ -4,6 +4,10 @@ description: This article describes thresholds and other report limits available
 
 # Report Data Limits
 
+{% hint style="info" %}
+**Data Limits settings** are available in the Data Center plan. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% endhint %}
+
 ## Settings
 
 To prevent high load times and performance issues during report generation, several thresholds are set in place which limits the size of the generated report. These thresholds are predefined but can be easily adjusted in the Data Limits section of the settings screen to fit your needs. The following thresholds are defined:
