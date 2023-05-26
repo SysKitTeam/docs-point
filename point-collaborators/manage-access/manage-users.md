@@ -61,7 +61,7 @@ To configure alerts, complete these steps:
 
 You can create your alerts based on the specific actions you want to keep track of. 
 
-[For more details on how to set up and customize alerts in SysKit Point, take a look at this article.](../point-collaborators/schedule-reports-and-alerts.md) 
+[For more details on how to set up and customize alerts in SysKit Point, take a look at this article.](../reporting/schedule-reports-and-alerts.md) 
 
 ## User Details Page
 
@@ -79,8 +79,8 @@ To remove access to this user:
   * **Type Remove (4)** in the provided space to confirm
   * **Click the Remove Access button (5)** to finalize the changes
 
-![Remove Acces for User](../.gitbook/assets/manage-users_remove-access.png)
-![Confirm Removal](../.gitbook/assets/manage-users_remove-access-removal.png)
+![Remove Acces for User](../../.gitbook/assets/manage-users_remove-access.png)
+![Confirm Removal](../../.gitbook/assets/manage-users_remove-access-removal.png)
 
 Under the **Microsoft Teams & Group Memberships (1)** section, you are able to promote the users to owner status or remove them from the group.
 
@@ -98,6 +98,6 @@ To remove a user from the group:
     * The Remove from Group pop-up will open
   * **Click the Remove** button to confirm the removal of the user from the selected group or groups
 
-![Promote User to Group Owner](../.gitbook/assets/manage-users_teams-and-groups.png)
+![Promote User to Group Owner](../../.gitbook/assets/manage-users_teams-and-groups.png)
 
 

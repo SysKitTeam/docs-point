@@ -39,7 +39,7 @@ Under the External Collaboration section, you will have two options to manage ex
   * **External Users (2)**
   * **Sites With External Sharing (3)**
 
-![Manage External Sharing - Users](../.gitbook/assets/manage-external-sharing_users.png)
+![Manage External Sharing - Users](../../.gitbook/assets/manage-external-sharing_users.png)
 
 To manage external users:
  * Click the **External Users button**, and you will be redirected to the Users site with the **filter showing External Users**
@@ -51,7 +51,7 @@ To manage external users:
     * **Remove from Group**
     * **Remove Access** from a workspace
 
-[For instructions on how to complete these actions, take a look at this article.](../point-collaborators/manage-users.md) 
+[For instructions on how to complete these actions, take a look at this article.](manage-users.md) 
 
 ## Manage Sites with External Sharing
 
@@ -102,7 +102,7 @@ Under the External Collaboration section, you will have two options to manage ex
   * **Links Shared with Anyone (2)**
   * **Sites Shared with Anyone (3)**
 
-![Manage External Sharing - Links](../.gitbook/assets/manage-external-sharing_links.png)
+![Manage External Sharing - Links](../../.gitbook/assets/manage-external-sharing_links.png)
 
 To manage links shared with anyone, complete the following:
  * Click the Links Shared with Anyone button, and you will be redirected to the **Sharing Links report (1)**

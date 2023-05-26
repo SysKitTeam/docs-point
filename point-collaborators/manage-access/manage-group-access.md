@@ -48,9 +48,9 @@ When you see a list of your groups, take the following steps:
  * Scroll down to the **Access Review section** on the right side of the screen and **click the Review Now button (2)**
  * You will be redirected to the **Access Review task** for this group where you will be able to **change the group permissions**
 
-![Change Group Permissions](../.gitbook/assets/manage-group-access_change-group-permissions.png)
+![Change Group Permissions](../../.gitbook/assets/manage-group-access_change-group-permissions.png)
 
-[For more information on how to complete the Access Review task, take a look at this article.](../point-collaborators/access-review.md)
+[For more information on how to complete the Access Review task, take a look at this article.](../resolve-governance-tasks/access-review.md)
 
 
 ## Add and Remove Group Owners
@@ -66,8 +66,8 @@ To start, repeat [the initial step listed above ](#manage-group-access) so that 
   * To **add more owners** to the Team or Group, type the **name or email address (3)** of the person you want to assign as an owner in the space provided
   * Once finished, click **Change (4)** to store your preference
 
-![Add and Remove Group Owners](../.gitbook/assets/manage-group-access_add-remove-group-owners.png)
-![Add and Remove Group Owners Selection Step](../.gitbook/assets/manage-group-access_add-remove-group-owners-selection.png)
+![Add and Remove Group Owners](../../.gitbook/assets/manage-group-access_add-remove-group-owners.png)
+![Add and Remove Group Owners Selection Step](../../.gitbook/assets/manage-group-access_add-remove-group-owners-selection.png)
 
 ## Remove Group Access
 
@@ -81,5 +81,5 @@ To start, repeat [the initial step listed above ](#manage-group-access) so that 
     * You can remove multiple owners or members at once
   * Once finished, click **Remove (4)** to store your preference
 
-![Remove Group Access](../.gitbook/assets/manage-group-access_remove-group-access.png)
-![Remove Owners or Members](../.gitbook/assets/manage-group-access_remove-group-access-owners-members.png)
+![Remove Group Access](../../.gitbook/assets/manage-group-access_remove-group-access.png)
+![Remove Owners or Members](../../.gitbook/assets/manage-group-access_remove-group-access-owners-members.png)

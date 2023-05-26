@@ -26,7 +26,7 @@ For more explanations of the terms, click on the names to be redirected to the M
 * **Private** [**Channels (7)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - private sections within Microsoft Teams, used to give access exclusively to members of a team
 
  
-![Icons for Sites](../.gitbook/assets/syskit-icons-glossary_sites.png)
+![Icons for Sites](../../.gitbook/assets/syskit-icons-glossary_sites.png)
 
 ## Microsoft Teams & Groups
 
@@ -44,7 +44,7 @@ For more explanations of the terms, click on the names to be redirected to the M
 * [**Security Groups (6)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - used for granting access to Microsoft 365 resources, such as SharePoint
 * [**Distribution Lists (7)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - used when you want to send an email to a group of people without having to type each individual recipient's name
 
-![Icons for Microsoft Teams & Groups](../.gitbook/assets/syskit-icons-glossary_teams-groups.png)
+![Icons for Microsoft Teams & Groups](../../.gitbook/assets/syskit-icons-glossary_teams-groups.png)
 
 
 ## Users 
@@ -63,7 +63,7 @@ For more explanations of the terms, click on the names to be redirected to the M
 * **Inactive Users (5)** - users that have not logged in for a certain amount of time, such as 60 days
 * **Users with Blocked Sign-In (6)** - these are users that have had their log-in privileges removed, for example, an employee that has left the company and no longer has access 
 
-![Icons for Users](../.gitbook/assets/syskit-icons-glossary_users.png)
+![Icons for Users](../../.gitbook/assets/syskit-icons-glossary_users.png)
 
 ## Reports
 
@@ -84,9 +84,9 @@ For more explanations on the terms, click on the names to be redirected to the M
 * [**List Item (9)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#list)
 * **File** - an object that stores data, information, settings, or commands and can be saved to OneDrive, SharePoint, or Teams
 
-![Icons for Reports](../.gitbook/assets/syskit-icons-glossary_access-reports.png)
-![Icons for Reports](../.gitbook/assets/syskit-icons-glossary_access-reports-two.png)
-![Icons for Reports](../.gitbook/assets/syskit-icons-glossary_access-reports-list-item.png)
+![Icons for Reports](../../.gitbook/assets/syskit-icons-glossary_access-reports.png)
+![Icons for Reports](../../.gitbook/assets/syskit-icons-glossary_access-reports-two.png)
+![Icons for Reports](../../.gitbook/assets/syskit-icons-glossary_access-reports-list-item.png)
 
 
 ## Miscellaneous 
@@ -100,4 +100,4 @@ Below you will find a list and explanation for those icons, numbered and correla
 * **Reset Layout (3)** - resets the view back to how it looks by default, removing any custom filters you've selected
 * **Expand to full screen (4)**
 
-![Micellaneous Icons in Reports](../.gitbook/assets/syskit-icons-glossary_miscellaneous.png)
+![Micellaneous Icons in Reports](../../.gitbook/assets/syskit-icons-glossary_miscellaneous.png)

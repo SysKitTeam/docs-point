@@ -25,7 +25,7 @@ With the help of the Scheduled Reports feature, you can:
 You can only set up **Scheduled Reports for workspaces where you are the owner**.
 {% endhint %}
 
-[To learn how to schedule a report, take a look at this article.](../governance-and-automation/scheduled-reports.md#schedule-a-report)
+[To learn how to schedule a report, take a look at this article.](../../governance-and-automation/scheduled-reports.md#schedule-a-report)
 
 ## Manage Scheduled Reports
 
@@ -43,13 +43,13 @@ To make changes to your scheduled report, complete the following:
   * **Pause** - puts a pause on delivering the report included in this description
   * **Delete** - erases the subscription entirely
 
-![Managing Scheduled Reports - Subscription](../.gitbook/assets/schedule-reports-and-alerts_manage-subscription.png)
+![Managing Scheduled Reports - Subscription](../../.gitbook/assets/schedule-reports-and-alerts_manage-subscription.png)
 
 * **Selecting the report Excel file for the subscription (1)** provides **two different actions (2)** that can be completed on the right side of the screen:
   * **Choose to Preview** the file
   * **Delete** the file
 
-![Managing Scheduled Reports - Report](../.gitbook/assets/schedule-reports-and-alerts_manage-report.png)
+![Managing Scheduled Reports - Report](../../.gitbook/assets/schedule-reports-and-alerts_manage-report.png)
 
 By default, Scheduled Reports are sent once a day. As mentioned, **reports can be delivered via e-mail** or **uploaded to a document library**. The results for both cases are displayed in the pictures below.
 
@@ -83,7 +83,7 @@ You can only set up **Alerts for workspaces where you are the owner** and for us
 
 {% endhint %}
 
-[To learn how to set up an alert, take a look at this article.](../governance-and-automation/configure-alerts.md#enabling-and-customizing-alerts)
+[To learn how to set up an alert, take a look at this article.](../../governance-and-automation/configure-alerts.md#enabling-and-customizing-alerts)
 
 ## Manage Alerts
 
@@ -96,11 +96,11 @@ This will open the **Alerts screen**, which shows:
   * **Selecting Alerts History** opens a screen that shows all the alerts that have previously occurred in your environment 
   * There, you can select an alert, and on the right side of the screen, you have the option to **Mark as Resolved** of **View Details** on the alert
 
-![Notifications dropdown](../.gitbook/assets/schedule-reports-and-alerts_manage-alerts.png)
+![Notifications dropdown](../../.gitbook/assets/schedule-reports-and-alerts_manage-alerts.png)
 
 * Navigating back to the Alerts screen, you can also **select a workspace (1)** which provides the following options:
   * **Disable Alert (2)** - disables the alert for the selected workspace
   * **Edit Alert (3)** - lets you edit the alert for the selected workspace
     * If more than one workspace is selected at the same time, you can only disable the alerts for those workspaces
 
-![Notifications dropdown](../.gitbook/assets/schedule-reports-and-alerts_manage-alerts-workspaces.png)
+![Notifications dropdown](../../.gitbook/assets/schedule-reports-and-alerts_manage-alerts-workspaces.png)
