@@ -51,7 +51,7 @@ The Exchange Online method enables you to use an existing Exchange account in yo
 
 After clicking the **Send test e-mail** button, the **Sent test e-mail** dialog opens. Here, **enter the e-mail address to which you want to send** the test e-mail. After a moment, you should receive an e-mail like the one pictured below.
 
-![Test e-mail](<../../.gitbook/assets/enable-permissions-review\_test-email (1) (2) (2) (3) (4) (4) (4) (6) (8) (2) (1).png>)
+![Test e-mail](<../../.gitbook/assets/enable-permissions-review\_test-email (1) (2) (2) (3) (4) (4) (4) (6) (8) (2) (6) (1) (1).png>)
 
 Click the **Save** button to store your e-mail settings.
 
@@ -91,4 +91,4 @@ For more information about role-based access in SysKit Point, go to the [followi
 
 Once you are finished with the e-mail and Collaborators role configuration, continue to the [Create and Apply Access Review Policies](create-apply-access-review-policies.md) article.
 
-For information on SysKit Point Collaborators completing Access Review tasks, take a look at the [Perform Access Review Tasks article](../../point-collaborators/access-review.md).
+For information on SysKit Point Collaborators completing Access Review tasks, take a look at the [Perform Access Review Tasks article](../../point-collaborators/resolve-governance-tasks/access-review.md).
