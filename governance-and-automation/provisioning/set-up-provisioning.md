@@ -26,7 +26,7 @@ To set up a complete provisioning process that fits your company's needs, there 
 
 Learn how to: 
 
-1) [Request a new workspace](request-new-workspace.md) 
+1) [Request a new workspace](../../point-collaborators/request-new-workspace.md) 
 
 2) [Approve/reject new requests](approve-reject-requests.md) 
 
