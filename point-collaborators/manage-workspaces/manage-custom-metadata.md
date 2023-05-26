@@ -42,7 +42,7 @@ To change the custom metadata that has been set up to your workspaces, **select 
 * Select **Manage Metadata (2)**; the option is available on the right side of the screen
   * This will open the Change Metadata pop-up
 
-![Create New Metadata](../.gitbook/assets/manage-custom-metadata_change-location.png)
+![Create New Metadata](../../.gitbook/assets/manage-custom-metadata_change-location.png)
 
 On the Change Metadata pop-up, you can:
 * **Select the metadata column (1)** you would like to change  
@@ -51,7 +51,7 @@ On the Change Metadata pop-up, you can:
 * Click **Complete (4)** to finalize your selection
   * This will start the process of changing the custom metadata, and once completed, the information input will be displayed under the selected workspaces
 
-![Change Metadata](../.gitbook/assets/manage-custom-metadata_change-custom-metadata.png)
+![Change Metadata](../../.gitbook/assets/manage-custom-metadata_change-custom-metadata.png)
 
 ## Filter Workspaces by Metadata
 
@@ -63,13 +63,13 @@ To generate a report with custom metadata, take the following steps:
 * Use the **Column Chooser (1)** to select the metadata
 * Once the custom metadata column was added, use the **filter drop-down menu (2)** to select the details for the report
 
-![Create New Metadata](../.gitbook/assets/manage-custom-metadata_custom-metadata-report.png)
+![Create New Metadata](../../.gitbook/assets/manage-custom-metadata_custom-metadata-report.png)
 
 This will filter the report to show the items that the chosen metadata applies to.
 * **Select (1)** one or more files to include in the report
   * Set the values for the report on the pop-up that appears
 * Click **Run Report (2)** to generate the report
 
-![Create New Metadata](../.gitbook/assets/manage-custom-metadata_generate-report-metadata.png)
+![Create New Metadata](../../.gitbook/assets/manage-custom-metadata_generate-report-metadata.png)
 
 This can be applied to any reports from the Report section that include **Sites, Microsoft Teams & Groups, and OneDrive**.
