@@ -1,0 +1,150 @@
+---
+description: This article provides details helpful to group owners on how to Manage External Sharing.
+---
+
+# Manage External Sharing 
+
+External Sharing is the **ability to share documents, folders, and sites** with people **outside of your organization**. This can be done through **sharing links or by adding external users** to Microsoft Teams & Groups or sites.
+
+**Sharing links** allows you to **send a link to a specific document or folder** to someone **outside of your organization**. This gives them access to view or edit the file. 
+
+**External users** are people who are not part of your organization but who **are granted access to specific resources**, such as a site or a Microsoft Team.
+
+**Managing external sharing** is important for collaborators and owners of workspaces because it **helps to ensure that confidential or sensitive information is not shared with unauthorized individuals**. 
+
+SysKit Point helps you manage external sharing, which means you can easily **control who has access to your organization's data** and **limit the risk of data breaches** or other security issues.
+
+{% hint style="information" %}
+
+You are only able to **manage external sharing for workspaces where you are the owner**.
+
+{% endhint %}
+
+In this article, you will learn how to:
+
+* [**Manage External Users**](#manage-external-users)
+* [**Manage Sites with External Sharing**](#manage-sites-with-external-sharing)
+* [**Manage Sharing Links**](#manage-sharing-links)
+* [**Manage Sites Shared with Anyone**](#manage-sites-shared-with-anyone)
+
+
+## Manage External Users
+
+You can manage external users by taking the following steps:
+
+  * On the SysKit Point home page, **click the Dashboard button**
+  * Navigate to the section titled **External Collaboration (1)**
+
+Under the External Collaboration section, you will have two options to manage external users:
+  * **External Users (2)**
+  * **Sites With External Sharing (3)**
+
+![Manage External Sharing - Users](../.gitbook/assets/manage-external-sharing_users.png)
+
+To manage external users:
+ * Click the **External Users button**, and you will be redirected to the Users site with the **filter showing External Users**
+ * Here you will be able to access the **User Activity and User Access reports** and can complete the **following actions**:
+    * Add to Groups
+    * Configure Alerts
+ * Additionally, clicking on the user and opening the user details screen provides the option to:
+    * **Promote to Owner**
+    * **Remove from Group**
+    * **Remove Access** from a workspace
+
+[For instructions on how to complete these actions, take a look at this article.](../point-collaborators/manage-users.md) 
+
+## Manage Sites with External Sharing
+
+You can manage sites with external sharing by going back to the **External Collaboration section of the Dashboard**. 
+
+To start, complete the next steps: 
+
+ * Click the Sites with External Sharing button, and you will be redirected to the Sites page with the **filter showing Externally Shared Sites (1)**
+ * Selecting an externally shared site provides the following options, located on the right side of the screen:
+   * Add Admins
+   * Remove Admins
+   * Change Admins
+   * Configure Alerts
+   * Change Metadata
+
+Clicking on a site will open the details screen for that site and provide several more actions you can take.
+
+On the right side of the screen, under Manage, you will have the option to:
+
+  * **Grant Access** - where you can add users to the site and assign the level of access you want to provide
+  * **Change Admins** - allows you to change the admins in charge of the side
+  * **Configure Alerts** - lets you set up specific alerts for your site
+
+Scrolling to the Lifecycle Management section on the left side, you can choose to: 
+  * **Keep** the site
+  * **Archive** the site
+  * **Delete** the site
+
+In the middle part, under the content section, you will find a list of all content included in this site. Depending on the item selected, you will have additional options to:
+  * **Stop Inheriting Permissions**
+  * **Delete Unique Permissions**
+
+Clicking either action provides a pop-up that will ask you to confirm your choice. 
+
+The permissions section provides a list of users and the level of access they were given to the site. Selecting a user provides the options to:
+  * **Remove Access**
+  * **Edit Permissions**
+
+
+## Manage Sharing Links
+
+You can manage external users by taking the following steps:
+
+  * On the SysKit Point home page, **click the Dashboard button**
+  * Navigate to the section titled **External Collaboration (1)**
+
+Under the External Collaboration section, you will have two options to manage externally shared links:
+  * **Links Shared with Anyone (2)**
+  * **Sites Shared with Anyone (3)**
+
+![Manage External Sharing - Links](../.gitbook/assets/manage-external-sharing_links.png)
+
+To manage links shared with anyone, complete the following:
+ * Click the Links Shared with Anyone button, and you will be redirected to the **Sharing Links report (1)**
+ * Here, you can **select the workspace ** with externally shared links, and on the right side of the screen, you will have the option to **Remove All Sharing Links**
+    * Clicking Remove All Sharing Links will remove all the sharing links from all of the items included in the workspace
+ * Alternatively, you can remove a sharing link from a specific item in the workspace, for example, a folder
+   * To do this, **select the folder** you want to change and **click the Remove Sharing Link button** on the right side of the screen
+
+## Manage Sites Shared with Anyone
+
+You can manage sites that have been shared with anyone by going back to the **External Collaboration section of the Dashboard**. 
+
+To start, complete the next steps: 
+
+ * Click the Sites Shared with Anyone button, and you will be redirected to the Sites page with the **filter showing Anonymously Shared Sites (1)**
+ * Selecting an externally shared site provides the following options, located on the right side of the screen:
+   * Add Admins
+   * Remove Admins
+   * Change Admins
+   * Configure Alerts
+   * Change Metadata
+
+Clicking on a site will open the details screen for that site and provide several more actions you can take.
+
+On the right side of the screen, under Manage, you will have the option to:
+
+  * **Grant Access** - where you can add users to the site and assign the level of access you want to provide
+  * **Change Admins** - allows you to change the admins in charge of the side
+  * **Configure Alerts** - lets you set up specific alerts for your site
+
+Scrolling to the Lifecycle Management section on the left side, you can choose to: 
+  * **Keep** the site
+  * **Archive** the site
+  * **Delete** the site
+
+In the middle part, under the content section, you will find a list of all content that is included in this site. Depending on the item selected, you will have additional options to:
+  * **Stop Inheriting Permissions**
+  * **Delete Unique Permissions**
+
+Clicking either action provides a pop-up that will ask you to confirm your choice. 
+
+The permissions section provides a list of users and the level of access they were given to the site. Selecting a user provides the options to:
+  * **Remove Access**
+  * **Edit Permissions**
+
