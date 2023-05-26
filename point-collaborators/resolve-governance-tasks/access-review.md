@@ -50,14 +50,14 @@ When the Automated Access Review starts, site owners receive an email request to
 * **Due date of the Access Review (2)**
 * **Review Now button (3)**
 
-![Access Review request email](../.gitbook/assets/permissions-review\_request.png)
+![Access Review request email](../../.gitbook/assets/permissions-review\_request.png)
 
 The **Review Now** button opens the **Access Review Task** screen once clicked. On this screen, you can find:
 
 * **Sites you are the owner of and need to review**; displayed in the grid.
 * **Information regarding the Access Review task (1)**
 
-![Access Review Task screen](../.gitbook/assets/access-review\_task.png)
+![Access Review Task screen](../../.gitbook/assets/access-review\_task.png)
 
 From here, you can continue and review a site by clicking the **link in the Task column (2)**, or **selecting a row (3)** and clicking the **Review action (4)**.
 
@@ -71,7 +71,7 @@ It is set to one because a single Access Review task was created by SysKit Point
 
 To view tasks assigned to you, click the **My Tasks tile** on the Home screen or the **My Tasks section** in the user profile menu.
 
-![My Tasks tile](../.gitbook/assets/permissions-review\_my-tasks-tile.png)
+![My Tasks tile](../../.gitbook/assets/permissions-review\_my-tasks-tile.png)
 
 **My Tasks** screen displays the active Access Review task with the most important information:
 
@@ -82,7 +82,7 @@ To view tasks assigned to you, click the **My Tasks tile** on the Home screen or
 * **Task categories (5)**
 * **Completed tasks categories (6)**
 
-![My Tasks screen](../.gitbook/assets/access-review\_my-tasks.png)
+![My Tasks screen](../../.gitbook/assets/access-review\_my-tasks.png)
 
 Click **Review** to continue. The **Access Review Task** screen opens - the same screen that can be accessed from email, as explained in the previous section.
 
@@ -124,7 +124,7 @@ This step provides general information about the workspace that you are about to
 * **Start Review button (7)**
   * Clicking this continues the process to next step of the Access Review Wizard.
 
-![Access Review wizard - Overview step](../.gitbook/assets/access-review\_wizard-overview.png)
+![Access Review wizard - Overview step](../../.gitbook/assets/access-review\_wizard-overview.png)
 
 The **Close & Continue Later** option is available on all steps on the left-bottom and enables you to leave the Access Review wizard.
 
@@ -152,7 +152,7 @@ The following options are available:
 * When no users are selected, the **Add Owners/Members** action is available.
 * **Click Next (6)** to continue to the next step of the Access Review Wizard.
 
-![Access Review wizard - Members step](../.gitbook/assets/access-review\_members.png)
+![Access Review wizard - Members step](../../.gitbook/assets/access-review\_members.png)
 
 The **Users step** is available **when reviewing sites**. The following options are available here:
 
@@ -172,7 +172,7 @@ The **Users step** is available **when reviewing sites**. The following options 
 * The **Grant Access** action is available when no users are selected
 * **Click Next (6)** to continue to the next step of the Access Review Wizard
 
-![Access Review wizard - Users step](<../.gitbook/assets/permissions-review\_users (2) (2) (3) (4) (4) (4) (3) (1).png>)
+![Access Review wizard - Users step](<../../.gitbook/assets/permissions-review\_users (2) (2) (3) (4) (4) (4) (3) (2) (1) (1).png>)
 
 {% hint style="warning" %}
 **Please note!**\
@@ -202,7 +202,7 @@ The **Sharing step** provides a simple yet detailed overview of all shared conte
 * **When no rows are selected**, the **Permissions Changes report link** is visible.
 * **Click Next (6)** to continue to the final step of the Access Review Wizard.
 
-![Access Review wizard - Sharing step](../.gitbook/assets/access-review\_wizard-sharing.png)
+![Access Review wizard - Sharing step](../../.gitbook/assets/access-review\_wizard-sharing.png)
 
 **Actions displayed in the side panel depend on the type and state of the selected object (1)**. A file with unique permissions is selected in the image below. The following **actions (2) are available** in that case:
 
@@ -222,7 +222,7 @@ By switching to the **Users view**, the **top filters** are changed accordingly 
 
 The descriptions for all filters can be found by **hovering your mouse over the filter tile (1)**.
 
-![Access Review wizard - Sharing step - Users view](../.gitbook/assets/access-review\_wizard-sharing-by-users.png)
+![Access Review wizard - Sharing step - Users view](../../.gitbook/assets/access-review\_wizard-sharing-by-users.png)
 
 In the example above, Microsoft Team was reviewed.
 
@@ -230,7 +230,7 @@ In the example above, Microsoft Team was reviewed.
 
 Instead, the **Access on Child Objects filter is given**, showing only users that don't have access on a site level but have access to a specific file or folder.
 
-![Access Review wizard - Sharing step - Site](../.gitbook/assets/permissions-review\_wizard-site-sharing-by-users.png)
+![Access Review wizard - Sharing step - Site](../../.gitbook/assets/permissions-review\_wizard-site-sharing-by-users.png)
 
 ### Summary Step
 
@@ -243,7 +243,7 @@ Here, the following is displayed:
 * **Export button (3)**; exports the data in the grid into an XLSX file.
 * **Complete Review button (4)** that opens the **Complete Review dialog**.
 
-![Access Review wizard - Summary step](../.gitbook/assets/access-review\_wizard-summary.png)
+![Access Review wizard - Summary step](../../.gitbook/assets/access-review\_wizard-summary.png)
 
 ## Complete Access Review Task
 
@@ -261,11 +261,11 @@ To complete the Access Review, take the following steps:
 **Please note!** The **Complete Review** action cannot be undone or edited.
 {% endhint %}
 
-![Complete Review dialog](../.gitbook/assets/access-review\_complete-review.png)
+![Complete Review dialog](../../.gitbook/assets/access-review\_complete-review.png)
 
 After completing the Access Review for a site, the **Review Completed** dialog opens, confirming the completion. Click the **Close Review** button to leave the screen and navigate to the Access Review screen, where the sites needing review can be found.
 
-![Review Completed dialog](../.gitbook/assets/permissions-review\_review-completed.png)
+![Review Completed dialog](../../.gitbook/assets/permissions-review\_review-completed.png)
 
 When the Access Reviews for all sites you are the owner of have been finalized, the **Access Review task will be shown as completed.**
 
@@ -273,20 +273,20 @@ On the **My Tasks** screen, under **Active Access Review (1)**, the **No Tasks (
 
 The **completed Access Review task (3)** can be found in the **Completed section (4)**, and access task details by clicking the **See Task (5)** button.
 
-![My Tasks - Active](../.gitbook/assets/access-review\_no-task.png)
+![My Tasks - Active](../../.gitbook/assets/access-review\_no-task.png)
 
-![My Tasks - Completed](../.gitbook/assets/access-review\_task-completed.png)
+![My Tasks - Completed](../../.gitbook/assets/access-review\_task-completed.png)
 
 This opens the Access Review screen for the completed Access Review, where these options are available:
 
 * **Select a site (1)**
 * **Click the Review button (2)** to open the **Review Summary report**
 
-![My Tasks - Completed](../.gitbook/assets/access-review\_completed-review.png)
+![My Tasks - Completed](../../.gitbook/assets/access-review\_completed-review.png)
 
 The **Review Summary** report shows a detailed log of actions performed during the Access Review process and can be **exported to an XLSX file (1)**.
 
-![Review Summary Report](../.gitbook/assets/access-review\_review-summary.png)
+![Review Summary Report](../../.gitbook/assets/access-review\_review-summary.png)
 
 ## Expired Reviews
 
@@ -296,7 +296,7 @@ SysKit Point automatically changes the status of all uncompleted site reviews to
 
 They can be found on the **Access Review** task screen.
 
-![Access Review - Expired](../.gitbook/assets/access-review\_expired-reviews.png)
+![Access Review - Expired](../../.gitbook/assets/access-review\_expired-reviews.png)
 
 After the Access Review is completed, expired tasks can no longer be finalized.
 

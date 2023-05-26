@@ -40,7 +40,7 @@ Let the festivities begin; **SysKit Point 17 is here**! Although it's still Nove
   To learn all about the Access Review in SysKit Point, read the following articles:
 
   * [Enable Automated Access Review](../governance-and-automation/permissions-review/enable-permissions-review.md)
-  * [Perform Access Review](../point-collaborators/access-review.md)
+  * [Perform Access Review](../point-collaborators/resolve-governance-tasks/access-review.md)
   * [Monitor Access Review](../governance-and-automation/permissions-review/monitor-permissions-review.md)
   * [Manually Request Access Review](../governance-and-automation/permissions-review/manually-request-permissions-review.md)
 

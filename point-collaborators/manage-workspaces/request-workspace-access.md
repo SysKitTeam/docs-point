@@ -4,9 +4,13 @@ description: This article explains how to request to join a workspace after an A
 
 #  Request Access to Workspaces
 
-When the Access Requests policy is enabled on workspaces, users can request to join either as a Member, Owner, or both - depending on the Access Requests policy assigned to a particular workspace. 
+If you're ever in a situation where you **need access to a certain site, team, or group** but have yet to be given permission, the **Request Access to Workspaces feature is a quick and easy solution to this problem**. 
 
-To request to join a workspace, complete the following steps:
+This might happen in a situation where **you've been placed on a certain project that's already in progress, and you need to catch up with what's been going on**. Or maybe in order for the project to move along, the rest of the team will **need access to some of your files**. Being part of the same workspace makes sharing necessary files painless and easy.
+
+When the Access Requests policy is enabled, **users can request to join workspaces either as a Member, Owner, or both** - depending on the Access Requests policy assigned to a particular workspace - **directly through their Microsoft Teams**. 
+
+To request to join a workspace, just follow these steps:
 
  * Open your **Microsoft Teams app** and navigate to the **SysKit Point feature (1)**
  * Under the **Workspaces section (2)**, you can see **My Workspaces and All Workspaces (3)** 
@@ -20,17 +24,17 @@ You can request to join a workspace by either:
 Once you locate the workspace you want to request access to, **click the Ask to Join button (5)**.
   * This can be found on the right side of the screen in the same line as the desired workspace 
 
-![Request Workspace Access](../.gitbook/assets/request-workspace-access_first-screen.png)
+![Request Workspace Access](../../.gitbook/assets/request-workspace-access_first-screen.png)
 
 Clicking Ask to Join will open a pop-up screen where you can **enter the reason why you are interested in joining (1)** the specific workspace. 
-  * If the Access Requests policy allows for multiple access levels, you will be able to choose between Member, Owner, or both
+  * If the Access Requests policy that was assigned allows for multiple access levels, you will be able to choose between Member, Owner, or both
   * If  the policy is set to allow just one of the mentioned **access levels (2)**, it will be automatically selected
 
 **Click Submit (3)** once you are ready to submit your request.
 
 On this request form, you can also find more information on the workspace by navigating to the bottom and clicking the **View Details button (4)**.
 
-![Request Workspace Access - Ask to Join](../.gitbook/assets/request-workspace-access_second-screen.png)
+![Request Workspace Access - Ask to Join](../../.gitbook/assets/request-workspace-access_second-screen.png)
 
 View Details open an information section for the group which will list the following details:
   * URL of the workspace

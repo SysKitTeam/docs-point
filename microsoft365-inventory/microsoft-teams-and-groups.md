@@ -15,16 +15,20 @@ This will open the Microsoft Teams & Groups report, which can be viewed and filt
 In the top left corner, **All Groups** is automatically selected in the filter. Clicking the **View filter** will provide the following additional options: 
   * Microsoft 365 Groups
   * Microsoft Teams
+  * Inactive Groups
+  * Archived Groups
   * Security Groups
+  * Security Groups (On-Premises)
   * Mail-Enabled Security Groups
   * Distribution Lists
+  * Distribution Lists (On-Premises)
   * Recently Created Groups
   * Deleted Groups
   * Externally Shared Groups
   * Teams with Private Channels
   * Teams with Shared Channels
-  * Inactive Groups
-  * Archived Groups
+  * Teams and Groups with Only One Owner
+  * Teams and Groups with Too Many Owners
 
 Clicking any of those categories will filter the report based on the selected. 
 
