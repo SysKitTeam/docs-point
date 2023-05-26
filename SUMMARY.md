@@ -174,14 +174,22 @@
   * [Resolve Governance Tasks](point-collaborators/resolve-governance-tasks/README.md)
     * [Complete Access Review Tasks](point-collaborators/resolve-governance-tasks/access-review.md)
     * [Resolve Lifecycle Management Tasks](point-collaborators/resolve-governance-tasks/lifecycle-management.md)
+    * [Resolve Guest User Expiration Tasks](point-collaborators/resolve-governance-tasks/guest-users-expiration.md)
     * [Resolve Minimum Number of Owners Tasks](point-collaborators/resolve-governance-tasks/minimum-number-of-owners.md)
     * [Resolve Maximum Number of Owners Tasks](point-collaborators/resolve-governance-tasks/maximum-number-of-owners.md)
-    * [Resolve Guest User Expiration Tasks](point-collaborators/resolve-governance-tasks/guest-users-expiration.md)
     * [Resolve Orphaned Resources Tasks](point-collaborators/resolve-governance-tasks/orphaned-resources.md)
-  * [Request Workspace Access](point-collaborators/request-workspace-access.md)
-  * [Schedule Reports and Alerts](point-collaborators/schedule-reports-and-alerts.md)
-  * [Request New Workspace](point-collaborators/request-new-workspace.md)
-  * [Manage Group Access](point-collaborators/manage-group-access.md)
-  * [Manage Users](point-collaborators/manage-users.md)
-  * [SysKit Icons Glossary](point-collaborators/syskit-glossary-icons.md)
+  * [Manage Access](point-collaborators/manage-access/README.md)
+    * [Manage External Sharing](point-collaborators/manage-access/manage-external-sharing.md)
+    * [Manage Group Access](point-collaborators/manage-access/manage-group-access.md)
+    * [Manage Users](point-collaborators/manage-access/manage-users.md)
+  * [Manage Workspaces](point-collaborators/manage-workspaces/README.md) 
+    * [Request New Workspace](point-collaborators/manage-workspaces/request-new-workspace.md)
+    * [Request Workspace Access](point-collaborators/manage-workspaces/request-workspace-access.md)
+  * [Reporting](point-collaborators/reporting/README.md)
+    * [SysKit Icons Glossary](point-collaborators/reporting/syskit-glossary-icons.md)
+    * [Schedule Reports and Alerts](point-collaborators/reporting/schedule-reports-and-alerts.md)
+
+
+
+
 
