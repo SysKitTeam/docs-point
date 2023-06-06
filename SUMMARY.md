@@ -188,6 +188,7 @@
     * [Manage Custom Metadata](point-collaborators/manage-workspaces/manage-custom-metadata.md)
   * [Reporting](point-collaborators/reporting/README.md)
     * [SysKit Icons Glossary](point-collaborators/reporting/syskit-glossary-icons.md)
+    * [Inventory Reports](point-collaborators/reporting/inventory.md)
     * [Schedule Reports and Alerts](point-collaborators/reporting/schedule-reports-and-alerts.md)
 
 
