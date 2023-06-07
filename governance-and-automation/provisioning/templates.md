@@ -1,6 +1,6 @@
 ---
 description: >-
-  SysKit Point templates help you define which types of workspaces your
+  Syskit Point templates help you define which types of workspaces your
   end-users can request and create. Each template contains properties and rules
   that guide the creation process and ensure all works
 ---
@@ -9,9 +9,9 @@ description: >-
 
 To start with the configuration, open the **Settings > Governance > Provisioning (1)** screen.
 
-**Your Templates** list shows you which workspace templates will be available and visible for your end-users to request in the SysKit Point teams app.
+**Your Templates** list shows you which workspace templates will be available and visible for your end-users to request in the Syskit Point teams app.
 
-By default, SysKit Point provides **three templates (2)**.
+By default, Syskit Point provides **three templates (2)**.
 
 1. **Manage a project**
 2. **Department team**
@@ -20,7 +20,7 @@ By default, SysKit Point provides **three templates (2)**.
 Available actions for these templates are listed under the **Manage (3)** column and allow you to:
 
 * **Edit (4)**
-  * Use it to review and modify how the default template is configured - SysKit Point allows you to change any setting available to fit your needs.
+  * Use it to review and modify how the default template is configured - Syskit Point allows you to change any setting available to fit your needs.
 * **Delete (5)**
   * If you do not wish to use these default templates or make them available for your end-users, make sure to delete them from this list.
 
@@ -49,14 +49,14 @@ When creating a template for Microsoft Teams, you will need to define the follow
 * **Description (2)** – describe in short when to use this template; end-users will see it when requesting a new workspace using a list of templates
 * **Microsoft template ID (3)** – this property is used to predefine apps, channels, and tabs that should be created for new workspaces that use this Syskit Point template.
   * If you leave this property empty, default apps or channels will not be created; it will be a blank MS team.
-  *   SysKit Point integrates with team templates you have created in the **Microsoft 365 Teams admin center**. When you enter a team template ID, SysKit Point will create apps, tabs, and channels you defined there.
+  *   Syskit Point integrates with team templates you have created in the **Microsoft 365 Teams admin center**. When you enter a team template ID, Syskit Point will create apps, tabs, and channels you defined there.
 
-      To review currently available templates in your M365 tenant and use them in SysKit Point:
+      To review currently available templates in your M365 tenant and use them in Syskit Point:
 
       1. Navigate to the Microsoft Teams [admin center](https://admin.teams.microsoft.com/)
       2. Under the tab Teams, select **Team templates**
       3. Click the name of the template to review apps and channels they include
-      4. Copy the Template ID and paste into the SysKit wizard
+      4. Copy the Template ID and paste into the Syskit wizard
 
       To create a brand-new Teams template in the admin center, follow the [Microsoft guide](https://docs.microsoft.com/en-us/microsoftteams/create-a-team-template).
 * **Privacy (4)** – set if workspaces created using this template will be public or private. You can leave this decision to your end-users as well.
@@ -94,7 +94,7 @@ When creating a template for Microsoft Teams, you will need to define the follow
   * Specific user(s)
     * If Specific user(s) is selected, the name of at least one specific user needs to be entered in the provided space.
 * **Sensitivity Label (10)** - choose from available sensitivity labels available in your tenant to define which are applied on all workspaces created from the template.
-  * To use sensitivity labels in SysKit Point, make sure to set up your environment as described in the [following article](enable-sensitivity-labels.md).
+  * To use sensitivity labels in Syskit Point, make sure to set up your environment as described in the [following article](enable-sensitivity-labels.md).
 * **Terms & Conditions (11)** - define the terms & conditions text displayed to end-users when they request a new workspace.
 * **Custom Metadata (12)** - custom metadata provides expanded information collected and included in reports. Set up which fields users will need to input or select for the custom metadata when using the template.
   * If no custom metadata was created, it can be set up directly in the form by selecting **Create New Custom Field**.
@@ -111,8 +111,8 @@ When creating a template for Microsoft Teams, you will need to define the follow
     By default, you will see four types of approvals available:
 
     * Manager approval – manager of the end-users requesting new workspace needs to approve this request
-    * Admin approval – SysKit Point admins need to approve this request
-    * Manager and admin approval – requires approval from both manager of the requester and SysKit Point admins
+    * Admin approval – Syskit Point admins need to approve this request
+    * Manager and admin approval – requires approval from both manager of the requester and Syskit Point admins
     * Automatically Approve – templates using this option don’t require approval. The workspace will be created immediately when the end-user sends a request.
 
     Additionally, you can enable comments for requesters when they request a new workspace in this section.
@@ -143,7 +143,7 @@ When creating a template for Microsoft Teams, you will need to define the follow
 
 ![Template for Microsoft Teams](../../.gitbook/assets/templates\_teams-template-6.png)
 
-Once you complete this process, your new template will appear in the **Templates** list and will become visible for end-users in **SysKit Point Teams app** when requesting a new workspace.
+Once you complete this process, your new template will appear in the **Templates** list and will become visible for end-users in **Syskit Point Teams app** when requesting a new workspace.
 
 ### SharePoint Site Template
 

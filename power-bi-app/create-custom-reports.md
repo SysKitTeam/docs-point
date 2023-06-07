@@ -1,31 +1,31 @@
 ---
-description: This article provides an example of creating a custom report in the SysKit Power BI workspace.
+description: This article provides an example of creating a custom report in the Syskit Power BI workspace.
 ---
 
-# Create Custom Reports in SysKit Power BI Workspace
+# Create Custom Reports in Syskit Power BI Workspace
 
-This article will guide you through creating a custom report in the SysKit Power BI workspace.
+This article will guide you through creating a custom report in the Syskit Power BI workspace.
 
 {% hint style="warning" %}
 **Please note!**
-Customization of SysKit Point Power BI Companion app requires a Power BI Pro or Premium Per User license.
+Customization of Syskit Point Power BI Companion app requires a Power BI Pro or Premium Per User license.
 {% endhint %}
 
-## SysKit Point Workspace
+## Syskit Point Workspace
 
-Follow these steps to access SysKit Point Workspace:
+Follow these steps to access Syskit Point Workspace:
 * **Open [Power BI](https://app.powerbi.com/)**
 * **Click the Workspaces icon (1)**
-* **Find and click the SysKit Point workspace (2)**
+* **Find and click the Syskit Point workspace (2)**
 
-![Accessing SysKit Point Workspace](../.gitbook/assets/create-custom-reports_access-workspace.png)
+![Accessing Syskit Point Workspace](../.gitbook/assets/create-custom-reports_access-workspace.png)
 
-A new screen opens, showing you the **SysKit Point dataset** and **SysKit Point report** inside the SysKit Point workspace.
+A new screen opens, showing you the **Syskit Point dataset** and **Syskit Point report** inside the Syskit Point workspace.
 
-![Accessing SysKit Point Workspace](../.gitbook/assets/create-custom-reports_syskit-point-workspace.png)
+![Accessing Syskit Point Workspace](../.gitbook/assets/create-custom-reports_syskit-point-workspace.png)
 
-To create a new report based on the available SysKit Point dataset:
-* **mouseover the SysKit Point dataset and click the More options icon (1)**
+To create a new report based on the available Syskit Point dataset:
+* **mouseover the Syskit Point dataset and click the More options icon (1)**
 * **click the Create report option (2)** from the displayed menu
 
 ![Create report](../.gitbook/assets/create-custom-reports_create-report.png)

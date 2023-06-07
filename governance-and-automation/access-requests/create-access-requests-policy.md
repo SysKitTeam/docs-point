@@ -1,10 +1,10 @@
 ---
-description: This article explains how to create an Access Requests policy in SysKit Point. 
+description: This article explains how to create an Access Requests policy in Syskit Point. 
 ---
 
 #  Access Requests Policy
 
-To create the **Access Requests policy**, open SysKit point and go to **Settings**. 
+To create the **Access Requests policy**, open Syskit point and go to **Settings**. 
 
 Under Governance, select **Automated Workflows**. 
 
@@ -47,7 +47,7 @@ Depending on the approval processes required for your workspaces, the following 
     * **Select who approves the requested workspace (4)**:
       * **Manager of Requester**; you are also able to **add additional information** in case the requester has no manager by entering details in the section below
       * **Workspace Owner**; you are also able to **add additional information** in case the workspace has no owner by entering details in the section below
-      * **SysKit Point Administrators**
+      * **Syskit Point Administrators**
       * **Custom Recipients**; for this option, you will need to enter the desired recipients' details in the section below
       * **Click Confirm (5)** once finished
 

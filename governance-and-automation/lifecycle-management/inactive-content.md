@@ -1,12 +1,12 @@
 ---
-description: This section describes how to find inactive content within SysKit Point.
+description: This section describes how to find inactive content within Syskit Point.
 ---
 
 # Identify Inactive Content
 
 Have you ever wondered how to discover all inactive content in your Microsoft 365 environment?  
 It is important to have this kind of information because you want a well-organized and clutter-free Microsoft 365 environment.  
-Now, you can find it all in one place with the help of **SysKit Point**.
+Now, you can find it all in one place with the help of **Syskit Point**.
 
 ## Monitored Workloads
 
@@ -14,13 +14,13 @@ To decide whether something is inactive in your Microsoft 365 environment, we co
 
 **SharePoint activity** is collected via Microsoft 365 audit logs. The last activity is based on the latest date when a file was viewed, edited, or downloaded.
 
-For the collection of **Exchange activity**, SysKit Point uses Microsoft 365 Groups activity report available in Microsoft 365 admin center. The **last activity is based on the latest date when an email was delivered** to a group.
+For the collection of **Exchange activity**, Syskit Point uses Microsoft 365 Groups activity report available in Microsoft 365 admin center. The **last activity is based on the latest date when an email was delivered** to a group.
 
 The **Yammer activity** collection is also accomplished through Microsoft 365 admin center usage report for Yammer groups activity. The **last activity is based on the latest date a message was read, posted, or liked** by the group.
 
 **Microsoft Teams activity** is collected using protected APIs in Microsoft Graph. The **last activity is based on the latest date when a message was posted or replied to**.
 
-**Data for Exchange, Yammer, and Microsoft Teams activities are collected by SysKit Point's dedicated service within non-working hours**, between 7:00 PM and 7:00 AM.
+**Data for Exchange, Yammer, and Microsoft Teams activities are collected by Syskit Point's dedicated service within non-working hours**, between 7:00 PM and 7:00 AM.
 
 {% hint style="warning" %}
 **Please note!  
@@ -29,13 +29,13 @@ Activity is being monitored from Syskit Point installation onward!** This applie
 
 ## Define What Is Inactive
 
-You can **configure what is considered to be inactive** in SysKit Point by changing the number of inactive days, after which workloads will be marked as inactive. To do so, open the **Settings** page from any screen within the application, go to the **Governance &gt; Lifecycle Management** screen, where you will find the **Inactive Content** section. **Enter the number of days** in the field and click the **Save** button to update the value. The number of days can be set to a value between 30 and 1000.
+You can **configure what is considered to be inactive** in Syskit Point by changing the number of inactive days, after which workloads will be marked as inactive. To do so, open the **Settings** page from any screen within the application, go to the **Governance &gt; Lifecycle Management** screen, where you will find the **Inactive Content** section. **Enter the number of days** in the field and click the **Save** button to update the value. The number of days can be set to a value between 30 and 1000.
 
 ![Settings - Governance screen - Inactive Content section](../../.gitbook/assets/inactive-content_settings-inactive-content.png)
 
-## View Inactive Content in SysKit Point
+## View Inactive Content in Syskit Point
 
-There are several places in SysKit Point where you can find activity information at. Let's get to know them.
+There are several places in Syskit Point where you can find activity information at. Let's get to know them.
 
 ### Sites Overview Screen
 
@@ -90,7 +90,7 @@ Notice the **blue info icon** next to the Activity columns. **Hovering above the
 
 ![Inactive Content report - Activity column tooltip](../../.gitbook/assets/inactive-content_inactive-content-report-activity-tooltip.png)
 
-A **grey circle** icon represents an existing **workload with no activity. Hovering** **over** it will show the information since when SysKit Point monitors the activity.
+A **grey circle** icon represents an existing **workload with no activity. Hovering** **over** it will show the information since when Syskit Point monitors the activity.
 
 **Dash \(-\)** **is displayed in case there is** **no workload** associated with the selected item. An appropriate tooltip is displayed on hover.
 

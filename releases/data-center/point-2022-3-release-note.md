@@ -1,10 +1,10 @@
 ---
 description: >-
-  This article lists new features, improvements, and bug fixes in SysKit Point
+  This article lists new features, improvements, and bug fixes in Syskit Point
   version 2022.3.
 ---
 
-# SysKit Point 2022.3
+# Syskit Point 2022.3
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
@@ -16,24 +16,24 @@ description: >-
 
 ## Get the Latest Version
 
-* **New to SysKit Point?** Get the latest SysKit Point version from [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit\_point).\
+* **New to Syskit Point?** Get the latest Syskit Point version from [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit\_point).\
   Find all steps described in detail in the [deployment article](../../set-up-point-data-center/deployment/deploy-syskit-point.md).
-* **Already using SysKit Point?** Upgrade to the latest SysKit Point version.\
+* **Already using Syskit Point?** Upgrade to the latest Syskit Point version.\
   [![](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitassetsstorage.blob.core.windows.net%2Fpoint%2FARMTemplates%2FPointUpdateDeploy%2FPointUpdateTemplate.json)
 
-See detailed step-by-step instructions on how to upgrade SysKit Point in the [upgrade article](../../set-up-point-data-center/deployment/upgrade-syskit-point.md).
+See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../set-up-point-data-center/deployment/upgrade-syskit-point.md).
 
 * **Want to try out the Configuration Inventory module?** [Contact us](https://www.syskit.com/contact-us/).
 
 ## Features
 
-* **SysKit Point now enables the creation, management, and provisioning of custom metadata on Microsoft Teams, Microsoft 365 Groups, sites and OneDrive**! SysKit Point admins can now:
-  * [Create new custom metadata in SysKit Point](../../governance-and-automation/manage-custom-metadata.md#create-custom-metadata)
+* **Syskit Point now enables the creation, management, and provisioning of custom metadata on Microsoft Teams, Microsoft 365 Groups, sites and OneDrive**! Syskit Point admins can now:
+  * [Create new custom metadata in Syskit Point](../../governance-and-automation/manage-custom-metadata.md#create-custom-metadata)
   * [Change metadata on Microsoft Teams, Microsoft 365 Groups, sites, and OneDrive](../../governance-and-automation/manage-custom-metadata.md#change-custom-metadata)
   * [Define custom metadata in provisioning templates](../../governance-and-automation/provisioning/templates.md#create-a-new-provisioning-template)
   * [Filter reports by custom metadata](../../governance-and-automation/manage-custom-metadata.md#filter-workspaces-by-metadata)\
     \\
-* **Configuration Inventory module is now a part of SysKit Point**! Formerly known as SysKit Trace, this solution for documenting Microsoft 365 tenant configuration settings is now integrated into SysKit Point. Use the following links to:
+* **Configuration Inventory module is now a part of Syskit Point**! Formerly known as Syskit Trace, this solution for documenting Microsoft 365 tenant configuration settings is now integrated into Syskit Point. Use the following links to:
   * [learn more about Configuration Inventory requirements](../../configuration-inventory/configuration-inventory-requirements.md)
   * learn how to [create a snapshot](../../configuration-inventory/get-to-know/create-snapshot.md) or [enable automatic snapshots](../../configuration-inventory/get-to-know/enable-automatic-snapshots.md)
   * [view all available Configuration Inventory reports](../../configuration-inventory/report-overview/)
@@ -66,12 +66,12 @@ Global admin re-consent is required after the upgrade to the 2022.3 version. [Le
     * Status bar states whether the action was Completed or Expired, and hovering above it provides information on who completed the task.
 * **Improved speed** for accessing the Lifecycle Management Email Preview.
 * **Fixed an issue** with the {groupName} variable used in the Lifecycle Management e-mail subject. If the subject line was customized, the variable was not resolved properly.
-* **Fixed a bug** where the New Update Available ribbon was showing even after updating SysKit Point to the newest version.
+* **Fixed a bug** where the New Update Available ribbon was showing even after updating Syskit Point to the newest version.
 * **Fixed a bug** where the loading screen was cut off when generating a Site’s Access Review details report.
   * Once loading was completed, the report would be unresponsive when trying to select lines.
 * **Fixed an issue** where a `Bad Request` error message was shown after opening the Details screen on Alerts.
 * **Fixed an issue** where removing members from a Group or Team through Microsoft 365 portal doesn’t sync properly.
-  * When all members from a group or team are removed, and the group or team is empty after syncing, SysKit Point didn’t update that action and left all the members that were there from the previous sync.
+  * When all members from a group or team are removed, and the group or team is empty after syncing, Syskit Point didn’t update that action and left all the members that were there from the previous sync.
 * **Fixed a bug** where the number of workdays was not visible on the Access Review Options screen when viewed on a 2K resolution display.
   * When setting up the Access Review and entering the number of workdays allowed to complete the request, the number wouldn’t show in the selection box when using 2k resolution (2560x1440).
 * **Fixed an issue** where the Group Sync would fail in environments with more than 1000 deleted Security Groups.
@@ -81,6 +81,6 @@ Global admin re-consent is required after the upgrade to the 2022.3 version. [Le
 * **Fixed an issue** with OneDrive sync, resulting in erroneously displaying items as having unique permissions.
   * After sync, all items in a folder would show as having unique permissions, even though that was not their actual state in OneDrive.
 * **Fixed a bug** where exporting a report for All Sites as an XLSX file failed due to invalid characters.
-* **Fixed an issue** where the provisioning of Microsoft Teams and Microsoft 365 Groups would fail if specific characters - for example, &,!,@, or # - were used as a part of the Team/ Group Name when requesting a new workspace in the SysKit Point Teams app.
+* **Fixed an issue** where the provisioning of Microsoft Teams and Microsoft 365 Groups would fail if specific characters - for example, &,!,@, or # - were used as a part of the Team/ Group Name when requesting a new workspace in the Syskit Point Teams app.
 * **Fixed an issue** when trying to change admins for OneDrive by going to Users > Sites > User Access didn’t show current admins, and the only option was to cancel the action.
 * **Various UX/UI improvements and minor fixes** are available.

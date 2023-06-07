@@ -1,5 +1,5 @@
 ---
-description: This article explains how to enable and configure the Lifecycle Management Automation in SysKit Point.
+description: This article explains how to enable and configure the Lifecycle Management Automation in Syskit Point.
 ---
 
 # Enable Lifecycle Management Automation
@@ -8,26 +8,26 @@ description: This article explains how to enable and configure the Lifecycle Man
 **Lifecycle Management Automation** is available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 {% endhint %}
 
-To use the advantages of **Lifecycle Management Automation** in **SysKit Point**, you need to:
+To use the advantages of **Lifecycle Management Automation** in **Syskit Point**, you need to:
 
 * **Set up e-mail settings**
-* **Enable the SysKit Point Collaborators role**
+* **Enable the Syskit Point Collaborators role**
 * **Configure Lifecycle Management Automation in settings**
 
 {% hint style="warning" %}
-**Please note!** Only users assigned to the **SysKit Point Admin** role can access and configure Settings in SysKit Point.
+**Please note!** Only users assigned to the **Syskit Point Admin** role can access and configure Settings in Syskit Point.
 {% endhint %}
 
 ## Enable Lifecycle Management
 
 To start with the configuration, open the **Settings** &gt; **Governance** &gt; **Lifecycle Management** screen. 
 
-The screen shows **additional actions** required before enabling the Lifecycle Management automation feature. For example, if you have not enabled the **SysKit Point Collaborators** role.
+The screen shows **additional actions** required before enabling the Lifecycle Management automation feature. For example, if you have not enabled the **Syskit Point Collaborators** role.
 
 ![Lifecycle Management - Additional Action Required](../../.gitbook/assets/enable-lifecycle-management_collaborators-disabled.png)
 
 {% hint style="info" %}
-Use the following links and learn how to [set up e-mail](../../configuration/set-up-email.md) and enable [SysKit Point Collaborators](../../configuration/enable-role-based-access.md#syskit-point-collaborators-1).
+Use the following links and learn how to [set up e-mail](../../configuration/set-up-email.md) and enable [Syskit Point Collaborators](../../configuration/enable-role-based-access.md#syskit-point-collaborators-1).
 {% endhint %}
 
 Once all requirements are met, on the Lifecycle Management settings screen, you can:
@@ -73,7 +73,7 @@ The **Archive** action has additional options available:
 
 ## E-Mail Customization
 
-In the **Customize E-mail section**, you can adjust the look and feel of the e-mail sent out by SysKit Point when an inactive workspace is detected.
+In the **Customize E-mail section**, you can adjust the look and feel of the e-mail sent out by Syskit Point when an inactive workspace is detected.
 [Navigate to the Customize E-mails article, to find all available options regarding e-mail customization](../../configuration/customize-emails.md).
 
 ## Lifecycle Management Targeting
@@ -106,7 +106,7 @@ When you click the **Preview tile**, the **Lifecycle Management - Preview** repo
 
 Instead of choosing workspace types that are monitored, you can select the **specific workspaces \(1\)** option. This option enables you to manually select specific Microsoft Teams, Microsoft 365 Groups, and sites monitored in the Lifecycle Management automation. 
 You can also:
-* **Select the Auto-select new workspaces (2)** option if you want to start monitoring newly created workspaces when SysKit Point detects them
+* **Select the Auto-select new workspaces (2)** option if you want to start monitoring newly created workspaces when Syskit Point detects them
 * **Edit selected workspaces (3)**
 * **Preview selected workspaces (4)**
 
@@ -118,4 +118,4 @@ When done with the selection, save your changes.
 
 Now that everything is defined, the Lifecycle Management will start automatically. 
 
-For information on SysKit Point Collaborators completing Lifecycle Management tasks, take a look at the [Perform Lifecycle Management Tasks article](../../point-collaborators/lifecycle-management.md).
+For information on Syskit Point Collaborators completing Lifecycle Management tasks, take a look at the [Perform Lifecycle Management Tasks article](../../point-collaborators/lifecycle-management.md).

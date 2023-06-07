@@ -1,16 +1,16 @@
 ---
 description: >-
   This article gives site owners a complete overview of the Lifecycle Management
-  Automation process in SysKit Point.
+  Automation process in Syskit Point.
 ---
 
 # Resolve Lifecycle Management Tasks
 
-* **Watch this short video for a quick start on Lifecycle Management tasks in SysKit Point**.
+* **Watch this short video for a quick start on Lifecycle Management tasks in Syskit Point**.
 
 {% embed url="https://vimeo.com/714449776/441fb200e5" %}
 
-* **Continue with the article to find detailed information** on how to resolve Lifecycle Management tasks in SysKit Point.
+* **Continue with the article to find detailed information** on how to resolve Lifecycle Management tasks in Syskit Point.
 
 ## Workspace Lifecycle
 
@@ -26,22 +26,22 @@ Workspaces in Microsoft 365 usually display the following lifecycle stages:
 * **Archive** the produced content, or
 * **Delete** the workspace and all of its content.
 
-To help with this process, **SysKit Point provides the Lifecycle Management Automation feature** and reduces the management to the previously described decision-making.
+To help with this process, **Syskit Point provides the Lifecycle Management Automation feature** and reduces the management to the previously described decision-making.
 
-After a SysKit Point Admin [enables and configures Lifecycle Management Automation](../governance-and-automation/lifecycle-management/enable-lifecycle-management.md), **site owners and admins will be notified via email** when some of their workspaces are inactive for a period longer than the one [defined in SysKit Point settings](../governance-and-automation/lifecycle-management/inactive-content.md#define-what-is-inactive).
+After a Syskit Point Admin [enables and configures Lifecycle Management Automation](../governance-and-automation/lifecycle-management/enable-lifecycle-management.md), **site owners and admins will be notified via email** when some of their workspaces are inactive for a period longer than the one [defined in Syskit Point settings](../governance-and-automation/lifecycle-management/inactive-content.md#define-what-is-inactive).
 
 ## Inactive Workspace Email
 
-Once SysKit Point recognizes that a workspace – Microsoft Team, Microsoft 365 Group, or a site – is inactive, an email is sent to the owner or admin of said workspace.
+Once Syskit Point recognizes that a workspace – Microsoft Team, Microsoft 365 Group, or a site – is inactive, an email is sent to the owner or admin of said workspace.
 
 The email provides the following:
 
 * **Workspace name and type (1)**
 * **Inactivity period (2)**
 * **Keep, Archive and Delete actions (3)**
-* **Link to the Lifecycle Management task in SysKit Point (4)**
+* **Link to the Lifecycle Management task in Syskit Point (4)**
 
-Clicking any of the **action buttons (3)** redirects to the **Lifecycle Management task** of the workspace in SysKit Point.
+Clicking any of the **action buttons (3)** redirects to the **Lifecycle Management task** of the workspace in Syskit Point.
 
 ![Inactive content email](../.gitbook/assets/lifecycle-management\_owner-email.png)
 
@@ -56,7 +56,7 @@ The following can be:
 * **Comment (1)** on why you’re performing the action
 * **Run the action (2)**
 
-![SysKit Point - Action dialog](../.gitbook/assets/lifecycle-management\_action-dialog.png)
+![Syskit Point - Action dialog](../.gitbook/assets/lifecycle-management\_action-dialog.png)
 
 After the action is executed, **the information is displayed in the bottom ribbon of the Lifecycle management** task for the viewed workspace.
 
@@ -66,7 +66,7 @@ After the action is executed, **the information is displayed in the bottom ribbo
 
 {% hint style="warning" %}
 **Please note!**\
-You can find more detailed information on all Lifecycle Management actions available in SysKit Point [here](../governance-and-automation/lifecycle-management/lifecycle-management-actions.md).
+You can find more detailed information on all Lifecycle Management actions available in Syskit Point [here](../governance-and-automation/lifecycle-management/lifecycle-management-actions.md).
 {% endhint %}
 
 All Lifecycle Management tasks assigned to you can be found on the **My Tasks screen**.
@@ -81,7 +81,7 @@ My Tasks screen shows:
 * **Completed Lifecycle Management tasks (2)**
 * **Resolve button (3)** to open the task details screen
 
-![SysKit Point – My Tasks Screen](../.gitbook/assets/lifecycle-management\_my-tasks.png)
+![Syskit Point – My Tasks Screen](../.gitbook/assets/lifecycle-management\_my-tasks.png)
 
 ## Lifecycle Management Task Details
 
@@ -96,15 +96,15 @@ On the task details screen, the following information is available:
   * The All Users and All Files tile redirects to the relevant reports where more information can be found on the users and content in that workspace.
 * **Actions (4)**; this section provides options on what to do with the inactive workspace
 
-![SysKit Point – Lifecycle Management Task details](../.gitbook/assets/lifecycle-management\_task-details.png)
+![Syskit Point – Lifecycle Management Task details](../.gitbook/assets/lifecycle-management\_task-details.png)
 
-**After successfully running a Lifecycle Management action, SysKit Point automatically completes the Lifecycle Management task for the reviewed workspace.**
+**After successfully running a Lifecycle Management action, Syskit Point automatically completes the Lifecycle Management task for the reviewed workspace.**
 
 ## Reminder Emails
 
 By default, site owners will receive two additional emails reminding them to complete their Lifecycle Management task.
 
-SysKit Point automatically sends these emails:
+Syskit Point automatically sends these emails:
 
 * **three days before they're due**
 * **on the due date**
@@ -117,7 +117,7 @@ The emails display an appropriate message depending on the time left to complete
 
 ## Expired Tasks
 
-If the opportunity to decide what to do with the inactive workspace is missed, SysKit Point automatically changes the status of all incomplete Lifecycle Management tasks to **Expired**.
+If the opportunity to decide what to do with the inactive workspace is missed, Syskit Point automatically changes the status of all incomplete Lifecycle Management tasks to **Expired**.
 
 They can be found on the **My Tasks screen** under the Completed Lifecycle Management view.
 
@@ -125,10 +125,10 @@ They can be found on the **My Tasks screen** under the Completed Lifecycle Manag
 
 {% hint style="warning" %}
 **Please note!**\
-Expired tasks are now **assigned to SysKit Point Admins** and can no longer be completed by site owners or admins.
+Expired tasks are now **assigned to Syskit Point Admins** and can no longer be completed by site owners or admins.
 {% endhint %}
 
-When a site owner or admin opens an expired task, the task details screen shows a message stating, 'This task has expired.' We have transferred it back to the SysKit Point Admin'.
+When a site owner or admin opens an expired task, the task details screen shows a message stating, 'This task has expired.' We have transferred it back to the Syskit Point Admin'.
 
 ![Task details screen – Expired task](../.gitbook/assets/lifecycle-management\_expired-task-details.png)
 

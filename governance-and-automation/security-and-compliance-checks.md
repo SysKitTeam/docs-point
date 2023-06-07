@@ -1,12 +1,12 @@
 ---
-description: This article provides information on the Security and Compliance checks feature in SysKit Point.
+description: This article provides information on the Security and Compliance checks feature in Syskit Point.
 ---
 
 # Security and Compliance Checks: Early Access 
 
-The new **Security and Compliance Checks**, visible directly from your SysKit Point home screen, pinpoint the **most important vulnerabilities and misalignments** with Microsoft 365 best practices. These checks should keep you aware and help you **react quickly to keep your environment secure and under control**.
+The new **Security and Compliance Checks**, visible directly from your Syskit Point home screen, pinpoint the **most important vulnerabilities and misalignments** with Microsoft 365 best practices. These checks should keep you aware and help you **react quickly to keep your environment secure and under control**.
 
-Collecting all the important info about the security and compliance state of the environment is a time-consuming and repetitive administration task. SysKit Point will perform regular security and compliance checks for you and present the results on your home screen from where you can click and **drill down to a specific report to investigate further** and decide if you want to take some action and **resolve** specific issue. 
+Collecting all the important info about the security and compliance state of the environment is a time-consuming and repetitive administration task. Syskit Point will perform regular security and compliance checks for you and present the results on your home screen from where you can click and **drill down to a specific report to investigate further** and decide if you want to take some action and **resolve** specific issue. 
 
 {% hint style="information" %}
 **Want to join Early Access?** Security and Compliance Checks are not yet publicly available for all users. If you want to learn how it works and see what's coming up next, [schedule a call (calendly)](https://calendly.com/d/yjj-7y5-sky/syskit-point-early-access-program) with our Product Manager and provide feedback to help us shape up this feature to fit your needs.   
@@ -30,11 +30,11 @@ Directly from your home screen, you will see several things that need to be inve
 
 ## Automated Governance
 
-To keep all these things **under control proactively and even prevent** possible issues, we suggest exploring and [**setting up various governance policies and automated workflows**](../governance-and-automation/automated-workflows/README.md) in SysKit Point that will control the minimum and maximum number of owners in your workspaces as well as how you automatically find and manage orphaned resources. 
+To keep all these things **under control proactively and even prevent** possible issues, we suggest exploring and [**setting up various governance policies and automated workflows**](../governance-and-automation/automated-workflows/README.md) in Syskit Point that will control the minimum and maximum number of owners in your workspaces as well as how you automatically find and manage orphaned resources. 
  
 ## Navigate Security and Compliance Checks
 
-The Security and Compliance checks are visible on the home page of your SysKit Point. 
+The Security and Compliance checks are visible on the home page of your Syskit Point. 
 
 At the bottom of the screen, you will find:
   * Number of Teams and Groups with too many owners
@@ -48,7 +48,7 @@ By clicking each of the options, you are provided with **more information about 
 
 {% hint style="warning" %}
 **Please note!**  
-In case you have any security and compliance checks that need to be resolved, an **email is automatically sent each Wednesday** to SysKit Point admins. Click the **Resolve button** within the email to access the reports in SysKit Point directly and perform the needed actions.
+In case you have any security and compliance checks that need to be resolved, an **email is automatically sent each Wednesday** to Syskit Point admins. Click the **Resolve button** within the email to access the reports in Syskit Point directly and perform the needed actions.
 {% endhint %}
 
 ### Teams and Groups With Too Many Owners

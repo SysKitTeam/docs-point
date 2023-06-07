@@ -13,13 +13,13 @@ The following users can manage private channels access:
   * **Private channel owner**
 {% endhint %}
 
-There are several ways to manage and change the access to private channels from within SysKit Point.
+There are several ways to manage and change the access to private channels from within Syskit Point.
 
 ## Access Private Channels Details 
 
 To manage private channel access, complete the following: 
 
-* **Click the Microsoft Teams & Groups tile (1)**; this is located on the home screen of SysKit Point. 
+* **Click the Microsoft Teams & Groups tile (1)**; this is located on the home screen of Syskit Point. 
 * **Select the team or group to manage (2)**; clicking the selected resource opens the details screen.
 * On the details screen, **scroll to the Channels section (3)**; the private channels will be marked by a lock symbol next to their name. 
 * **Click the private channel (4)**; this opens the details screen of the channel.
@@ -28,7 +28,7 @@ To manage private channel access, complete the following:
 
 Another way to access private channels is through the **Sites screen** by taking the following steps:
 
-* **Click the Sites tile (1)**; located on the home screen of SysKit Point. 
+* **Click the Sites tile (1)**; located on the home screen of Syskit Point. 
 * **Select the site to manage (2)**; the private channel site is marked with a lock symbol near its name. 
   * Clicking the selected site opens the details screen.
 * **Under General Information (3)** click the resource shown under **Related Channel (4)**.  
@@ -92,7 +92,7 @@ The **Members tile (1)** shows a list of all members and owners available, and t
 
   {% hint style="warning" %}
 **Please note!**  
-After making these changes to private channels in SysKit Point, it could take up to a few hours for the changes to show in the SharePoint admin center.
+After making these changes to private channels in Syskit Point, it could take up to a few hours for the changes to show in the SharePoint admin center.
 {% endhint %}
 
 ## Private Channels Report
@@ -101,7 +101,7 @@ All private channels are included in the Teams with Private Channels report. Thi
 
 The Teams with Private Channels report can be generated through these steps:
 
-* **Click the Reports tile**; located on the SysKit Point home screen.
+* **Click the Reports tile**; located on the Syskit Point home screen.
 * **Select Microsoft Teams & Groups in the filter**; located in the upper left corner.
 * **Click the Microsoft Teams with Private Channels report** to generate the report.
 

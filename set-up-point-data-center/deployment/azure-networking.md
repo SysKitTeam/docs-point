@@ -1,5 +1,5 @@
 ---
-description: This article describes the configuration of Azure network resources used by SysKit Point.
+description: This article describes the configuration of Azure network resources used by Syskit Point.
 ---
 
 # Azure Networking
@@ -9,16 +9,16 @@ description: This article describes the configuration of Azure network resources
 **By default**, **the Front-end and Back-end app services are accessible from the Public Internet**. **The rest of the utilized Azure resources – Key Vault**, **Azure SQL Server**, **Azure Cosmos DB and Storage Account - are secured behind firewalls and private connections**.
 {% endhint %}
 
-When deploying SysKit Point, there are **two options available when considering Azure network resources**: 
-* **Deploy SysKit Point from Azure Marketplace**
+When deploying Syskit Point, there are **two options available when considering Azure network resources**: 
+* **Deploy Syskit Point from Azure Marketplace**
   * consider this to be your **'plug-and-play' option** 
-  * new **Azure network resources are automatically created and configured** when you deploy SysKit Point, without the need to perform additional configuration 
-  * **SysKit Point is ready to use and secured after the deployment**
+  * new **Azure network resources are automatically created and configured** when you deploy Syskit Point, without the need to perform additional configuration 
+  * **Syskit Point is ready to use and secured after the deployment**
 * **Deploy a custom ARM template**
-    * **use when you want to integrate SysKit Point into already existing Azure network resources**
-    * **custom ARM templates are used when deploying SysKit Point**
-    * **no Azure network resources are created** when deploying SysKit Point through custom ARM templates  
-    * **SysKit Point is ready to use but not secured after the deployment – additional configuration of Azure network resources is required** 
+    * **use when you want to integrate Syskit Point into already existing Azure network resources**
+    * **custom ARM templates are used when deploying Syskit Point**
+    * **no Azure network resources are created** when deploying Syskit Point through custom ARM templates  
+    * **Syskit Point is ready to use but not secured after the deployment – additional configuration of Azure network resources is required** 
 
 
 {% hint style="warning" %}
@@ -28,7 +28,7 @@ For use cases requiring custom deployment and manual configuration of Azure netw
 
 ## Architecture Diagram
 
-When SysKit Point is deployed from Azure Marketplace, a virtual network is created named point-vnet, with three subnets: 
+When Syskit Point is deployed from Azure Marketplace, a virtual network is created named point-vnet, with three subnets: 
 * **fe-subnet**
 * **be-subnet**
 * **default-subnet**
@@ -60,5 +60,5 @@ The subnets have **Network security groups associated** with the default rules a
 
 {% hint style="warning" %}
 **Please note!** 
-**As the Front-end and Back-end app services are accessible from the Public Internet by default**, [use Azure App Service access restrictions](https://docs.microsoft.com/en-us/azure/app-service/app-service-ip-restrictions) to add another layer of security to SysKit Point app services. 
+**As the Front-end and Back-end app services are accessible from the Public Internet by default**, [use Azure App Service access restrictions](https://docs.microsoft.com/en-us/azure/app-service/app-service-ip-restrictions) to add another layer of security to Syskit Point app services. 
 {% endhint %}

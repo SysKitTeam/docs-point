@@ -1,10 +1,10 @@
 ---
 description: >-
-  This article describes the new features and improvements in SysKit Point
+  This article describes the new features and improvements in Syskit Point
   version 20.
 ---
 
-# SysKit Point 20
+# Syskit Point 20
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
@@ -16,16 +16,16 @@ description: >-
 
 ## Get the Latest Version
 
-* **New to SysKit Point?** Get the latest SysKit Point version from [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit\_point).\
+* **New to Syskit Point?** Get the latest Syskit Point version from [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit\_point).\
   Find all steps described in detail in the [deployment article](../../set-up-point-data-center/deployment/deploy-syskit-point.md).
-* **Already using SysKit Point?** [Contact us](https://www.syskit.com/company/contact-us/) to arrange a guided migration to the latest version due to changes in SysKit Point's architecture.
+* **Already using SysKit Point?** [Contact us](https://www.syskit.com/company/contact-us/) to arrange a guided migration to the latest version due to changes in Syskit Point's architecture.
 
 ## Features
 
-* **The Provisioning feature is available**! It enables you to define a provisioning process that fits your company’s needs, and at the same time, ensure that all newly created resources are compliant with defined governance policies. In SysKit Point, you can now:
+* **The Provisioning feature is available**! It enables you to define a provisioning process that fits your company’s needs, and at the same time, ensure that all newly created resources are compliant with defined governance policies. In Syskit Point, you can now:
   * **Create provisioning templates** – predefined workspace types which end-users can request
   * **Create approval processes** – you can define one-stage or multi-stage approval processes
-  * **Deploy SysKit Point Teams application to end-users** Within the new [SysKit Point Teams app](../../governance-and-automation/syskit-point-teams-app.md), users will be able to:
+  * **Deploy Syskit Point Teams application to end-users** Within the new [Syskit Point Teams app](../../governance-and-automation/syskit-point-teams-app.md), users will be able to:
   * **Request new workspaces**
   * **Approve or reject requests**
   * **Manage all their requests through time** [You can find all provisioning-related articles in the Provisioning section](../../governance-and-automation/provisioning/).

@@ -1,26 +1,26 @@
 ---
-description: This article lists requirements to consider when deploying SysKit Point in your Azure subscription.
+description: This article lists requirements to consider when deploying Syskit Point in your Azure subscription.
 ---
 
 # Requirements
 
 {% hint style="warning" %}
 **Please note!**  
-Requirements listed in this article apply to the self-hosted SysKit Point option required when using the Data Center plan only.
+Requirements listed in this article apply to the self-hosted Syskit Point option required when using the Data Center plan only.
 {% endhint %}
 
-## SysKit Point Requirements
+## Syskit Point Requirements
 
-**SysKit Point is dependent upon the use of**:
+**Syskit Point is dependent upon the use of**:
 * **Microsoft 365 tenant**
 * **Azure Subscription**
 * **Azure Active Directory** 
 
 ## Azure Resources Requirements
 
-SysKit Point uses Azure cloud components managed by Microsoft. [You can view the architecture diagram of these components by following this link](https://www.syskit.com/products/point/resources/architecture-diagrams/).
+Syskit Point uses Azure cloud components managed by Microsoft. [You can view the architecture diagram of these components by following this link](https://www.syskit.com/products/point/resources/architecture-diagrams/).
 
-All components are provisioned inside your Azure subscription and configured automatically by using [SysKit's Azure Marketplace offering](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit_point?exp=ubp8&tab=Overview). 
+All components are provisioned inside your Azure subscription and configured automatically by using [Syskit's Azure Marketplace offering](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit_point?exp=ubp8&tab=Overview). 
 
 The following Azure components are used:
 * **Azure App Service**
@@ -34,7 +34,7 @@ The following Azure components are used:
 {% hint style="warning" %}
 **Please note!**  
 Each customer's environment is unique, and depending on the number of users, the number of files, and the number of event logs your tenant is generating, the resources will need to be scaled accordingly.
-Before deploying SysKit Point, your dedicated customer success manager will provide you with recommendations for all mentioned Azure components.
+Before deploying Syskit Point, your dedicated customer success manager will provide you with recommendations for all mentioned Azure components.
 {% endhint %}
 
 ## Azure Reservations
@@ -63,7 +63,7 @@ When considering reservations, note the following planned Point changes:
 
 ## Supported Browsers
 
-Once **SysKit Point** is installed and configured, you can access the SysKit Point web app by using the following browsers:
+Once **Syskit Point** is installed and configured, you can access the Syskit Point web app by using the following browsers:
 
 * **Google Chrome** \(recommended\)
 * **Firefox**
@@ -78,5 +78,5 @@ Once **SysKit Point** is installed and configured, you can access the SysKit Poi
 ## Related Topics
 
 * [Permission Requirements](../../requirements/permission-requirements.md)
-* [Deploy SysKit Point](deploy-syskit-point.md)
+* [Deploy Syskit Point](deploy-syskit-point.md)
 

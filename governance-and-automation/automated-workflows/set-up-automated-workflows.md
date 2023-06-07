@@ -1,5 +1,5 @@
 ---
-description: This article explains how to enable and configure automated workflows in SysKit Point.
+description: This article explains how to enable and configure automated workflows in Syskit Point.
 ---
 
 # Set Up Automated Workflows
@@ -10,22 +10,22 @@ description: This article explains how to enable and configure automated workflo
 
 ## Prerequisites
 
-To use the advantages of Automated Workflows in SysKit Point, you need to:
+To use the advantages of Automated Workflows in Syskit Point, you need to:
 
 * [set up e-mail settings](../../configuration/set-up-email.md)
-* [enable SysKit Point Collaborators role](../../configuration/enable-role-based-access.md)
+* [enable Syskit Point Collaborators role](../../configuration/enable-role-based-access.md)
 
 {% hint style="warning" %}
 **Please note!**
-Only users with the role of **SysKit Point Admin** assigned can access and configure Settings in SysKit Point.
+Only users with the role of **Syskit Point Admin** assigned can access and configure Settings in Syskit Point.
 {% endhint %}
 
 ## Automated Workflows and Policies
 
-**Automated workflows in SysKit Point consist of e-mails and tasks created when a policy violation is detected.**
-  * Policies in SysKit Point contain rules to be followed when dealing with Microsoft Teams, Microsoft 365 Groups, and user access.
+**Automated workflows in Syskit Point consist of e-mails and tasks created when a policy violation is detected.**
+  * Policies in Syskit Point contain rules to be followed when dealing with Microsoft Teams, Microsoft 365 Groups, and user access.
 
-SysKit Point enables creating policies that will make sure the following is set correctly and reviewed when needed:
+Syskit Point enables creating policies that will make sure the following is set correctly and reviewed when needed:
 * **Ownership on Microsoft Teams and Microsoft 365 Groups**
 * **Guest users expiration**
 * **User's access**
@@ -40,7 +40,7 @@ When dealing with automated workflows, you can either:
 {% endhint %}
 
 ## Ownership Policies
-SysKit Point enables you to create and apply three types of policies that will make sure your Microsoft Teams and Microsoft 365 Groups comply with your company's policy regarding ownership:
+Syskit Point enables you to create and apply three types of policies that will make sure your Microsoft Teams and Microsoft 365 Groups comply with your company's policy regarding ownership:
 * **Minimum Number of Owners** - when enabled and applied to Microsoft Teams and Microsoft 365 Groups, **this policy triggers an automated workflow when the team/group has fewer owners than defined in the policy settings**
 * **Maximum Number of Owners** - when enabled and applied to Microsoft Teams and Microsoft 365 Groups, **this policy triggers an automated workflow when the team/group has more owners than defined in the policy settings**
 * **Orphaned Resources** - when enabled and applied to Microsoft Teams and Microsoft 365 Groups, **this policy triggers an automated workflow when the team/group has no active owners**
@@ -53,7 +53,7 @@ For more information on how **to resolve specific policy violations**, **navigat
 * [Resolve Orphaned Resources policy violation](orphaned-resources.md)
 
 ## Guest Users Expiration Policy
-With SysKit Point, you can **enable a tenant-wide policy** that will **require Guest User Access validation periodically or when SysKit Point detects that a guest user is inactive**. 
+With Syskit Point, you can **enable a tenant-wide policy** that will **require Guest User Access validation periodically or when Syskit Point detects that a guest user is inactive**. 
 
 In this article, you can **find information on how to enable the policy**, along with detailed **descriptions of all policy options.**
 
@@ -65,16 +65,16 @@ To **open the Automated Workflows settings screen**, navigate to **Settings** &g
 Here, you can:
 * **create a new policy (1)**
 * **Apply policies to Microsoft Teams, Microsoft 365 Groups, OneDrive, and sites (2)**
-* **View all predefined policies (3)**; SysKit Point comes with a predefined policy for each policy type to help you get started
+* **View all predefined policies (3)**; Syskit Point comes with a predefined policy for each policy type to help you get started
 * **View additional information about each policy**; the following information is available **policy type (4)**, **to how many resources a policy is applied (5)**, and **whether a policy is active or inactive (6)**
 * **Manage policies (7)**; **Edit** and **Delete** actions are provided for each policy, **except the Guest Users Expiration policy**, which can not be deleted
-* **Define policies that SysKit Point will automatically apply to newly created Microsoft Teams, Microsoft 365 Groups, OneDrive, and sites (8)**
+* **Define policies that Syskit Point will automatically apply to newly created Microsoft Teams, Microsoft 365 Groups, OneDrive, and sites (8)**
 
 ![Automated Workflows Settings](../../.gitbook/assets/set_up_automated_workflows-settings.png)
 ![Automated Workflows Settings](../../.gitbook/assets/set_up_automated_workflows-settings-2.png)
 
 ## Guest Users Expiration
-SysKit Point provides a predefined **Guest Users Expiration policy** that is applied tenant-wide. 
+Syskit Point provides a predefined **Guest Users Expiration policy** that is applied tenant-wide. 
 To activate the policy, navigate to the Automated Workflows settings screen and **click the Edit Policy (1)** icon.
 
 ![Guest Users Expiration - Edit Policy](../../.gitbook/assets/set_up_automated_workflows-guest_users_edit.png)
@@ -82,23 +82,23 @@ To activate the policy, navigate to the Automated Workflows settings screen and 
 The **Edit Policy** dialog opens where you can:
 * **Enable the policy (1)** by clicking the toggle next to the policy name; this policy is disabled by default.
 * **Choose between two renewal options**:
-    * **Require guest users renewal when SysKit Point detects that a guest user is inactive (2).**
+    * **Require guest users renewal when Syskit Point detects that a guest user is inactive (2).**
       * When selected, you can **define the number of days after which a guest user is considered inactive** if no sign-ins are detected; this option is selected by default, and the number of days is set to 20.
     * **Validate all guest users periodically (3)**
       * When selected, you can configure how often the validation is required; this is set to 3 months by default
 * **Select who will validate guest users:**
     * **Manager of Guest User (4)**; when the option is selected, **the person responsible for the validation, in case the Guest User does not have a defined manager, needs to be chosen**
-    * **SysKit Point Administrators (5)**; this option is selected by defaut
+    * **Syskit Point Administrators (5)**; this option is selected by defaut
     * **Custom Recipients (6)**; when selected, use the input field to select custom users that will be responsible for the validation of Guest Users
-* **Enable SysKit Point to automatically delete Guest Users (7)** if there is no answer from the defined users; this option is disabled by default
-* **Enable SysKit Point to send a reminder three workdays before the due date (8)**; this option is enabled by default
+* **Enable Syskit Point to automatically delete Guest Users (7)** if there is no answer from the defined users; this option is disabled by default
+* **Enable Syskit Point to send a reminder three workdays before the due date (8)**; this option is enabled by default
 
 ![Edit Policy Dialog](../../.gitbook/assets/set_up_automated_workflows-guest_users_edit_dialog.png)
 ![Edit Policy Dialog](../../.gitbook/assets/set_up_automated_workflows-guest_users_edit_dialog-2.png)
 
 Click **Save** once you are done with the policy configuration.  
 
-Based on your configuration, **SysKit Point will start the automated workflow periodically or when an inactive Guest User is detected**. 
+Based on your configuration, **Syskit Point will start the automated workflow periodically or when an inactive Guest User is detected**. 
 
 {% hint style="warning" %}
 **Please note!**
@@ -117,10 +117,10 @@ The **Edit Policy** dialog opens where you can:
 * **Enable or disable the policy (1)**; this policy is enabled by default but not applied to any resources
 * **Define the policy name (2)**
 * **Define the maximum number of allowed owners (3)**; this is set to 5 by default
-* **Choose whether SysKit Point will send a reminder 3 workdays before the due date (4)**; this option is enabled by default
+* **Choose whether Syskit Point will send a reminder 3 workdays before the due date (4)**; this option is enabled by default
 * **Choose what to do if owners don't resolve the policy violation until the due date**. The following options are available:
-    * **Reassign Task (5)**; when selected, you can define who will get the task - **Manager of the Reviewer**, **SysKit Point Administrators**, or **custom recipients**; this option is selected by default, and the tasks are reassigned to Manager of Reviewer
-    * **Automatically Remove Owners (6)**; if selected, **SysKit Point will remove existing owners starting from users with the oldest sign-in date** until the defined maximum number of owners is reached to comply with the policy
+    * **Reassign Task (5)**; when selected, you can define who will get the task - **Manager of the Reviewer**, **Syskit Point Administrators**, or **custom recipients**; this option is selected by default, and the tasks are reassigned to Manager of Reviewer
+    * **Automatically Remove Owners (6)**; if selected, **Syskit Point will remove existing owners starting from users with the oldest sign-in date** until the defined maximum number of owners is reached to comply with the policy
 
 ![Edit Policy Dialog](../../.gitbook/assets/set_up_automated_workflows-max_owners_dialog.png)
 
@@ -137,11 +137,11 @@ The **Edit Policy** dialog opens where you can:
 * **Enable or disable the policy (1)**; by default, this policy is enabled but not applied to any resources
 * **Define the policy name (2)**
 * **Define the minimum number of required owners (3)**; this is set to 2 by default
-* **Select whether SysKit Point will send a reminder three workdays before the due date (4)**; this option is enabled by default
+* **Select whether Syskit Point will send a reminder three workdays before the due date (4)**; this option is enabled by default
 * **Decide what to do if owners don't resolve the policy violation until the due date**. The following options are available:
-    * **Reassign Task (5)**; when selected, you can define who will get the task - **Manager of the Reviewer**, **SysKit Point Administrators**, or **custom recipients**; this option is selected by default, and the tasks reassigned to Manager of Reviewer
-    * **Automatically Archive (6)**; if selected, **SysKit Point will automatically archive the team/group** that has fewer owners than defined in the policy settings
-    * **Automatically Delete (7)**; if selected, **SysKit Point will automatically delete the team/group** that has fewer owners than defined in the policy settings
+    * **Reassign Task (5)**; when selected, you can define who will get the task - **Manager of the Reviewer**, **Syskit Point Administrators**, or **custom recipients**; this option is selected by default, and the tasks reassigned to Manager of Reviewer
+    * **Automatically Archive (6)**; if selected, **Syskit Point will automatically archive the team/group** that has fewer owners than defined in the policy settings
+    * **Automatically Delete (7)**; if selected, **Syskit Point will automatically delete the team/group** that has fewer owners than defined in the policy settings
 
 ![Edit Policy Dialog](../../.gitbook/assets/set_up_automated_workflows-min_owners_dialog.png)
 
@@ -159,10 +159,10 @@ The **Edit Policy** dialog opens where you can:
 * **Enable or disable the policy (1)**; by default, this policy is enabled but not applied to any resources
 * **Define the policy name (2)**
 * **Decide between 3 processes**:
-    * **Ask Specific Users to Assign New Owners (3)**; this is a **1-stage process**, where selected users - SysKit Point Administrators and/or custom recipients - **get a task to assign new owners**
-    * **Ask Members to Suggest New Owners (4)**; this is a **2-stage process**, where members can suggest new owners, and afterward, the selected users - SysKit Point Administrators and/or custom recipients - **get a task to resolve the task base on the suggestions from owners**; by default, this option is selected
-    * **Automatically Assing New Owners (5)**; if selected, **SysKit Point will automatically assign the manager of the latest owner as a new owner**
-      * If the manager cannot be found, SysKit Point will escalate the task to the defined user
+    * **Ask Specific Users to Assign New Owners (3)**; this is a **1-stage process**, where selected users - Syskit Point Administrators and/or custom recipients - **get a task to assign new owners**
+    * **Ask Members to Suggest New Owners (4)**; this is a **2-stage process**, where members can suggest new owners, and afterward, the selected users - Syskit Point Administrators and/or custom recipients - **get a task to resolve the task base on the suggestions from owners**; by default, this option is selected
+    * **Automatically Assing New Owners (5)**; if selected, **Syskit Point will automatically assign the manager of the latest owner as a new owner**
+      * If the manager cannot be found, Syskit Point will escalate the task to the defined user
 
 ![Edit Policy Dialog](../../.gitbook/assets/set_up_automated_workflows-orphaned_dialog.png)
 
@@ -213,5 +213,5 @@ After clicking the **Manage Policies (6)** button, the **Manage Policy** dialog 
 
 
 {% hint style="success" %}
-**Once a policy is applied, SysKit Point will start an automated workflow if a policy violation is detected**. 
+**Once a policy is applied, Syskit Point will start an automated workflow if a policy violation is detected**. 
 {% endhint %}

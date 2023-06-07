@@ -20,7 +20,7 @@ This report helps detect and remove blocked/disabled or deleted users from your 
 
 ### Generate Orphaned Users report
 
- * **Click the Reports tile**; located on the SysKit Point home screen.
+ * **Click the Reports tile**; located on the Syskit Point home screen.
  * **Select Cleanup & Health Check in the filter**; it can be found in the upper left corner.
  * **Click the Orphaned Users report** to generate the report.
 
@@ -62,7 +62,7 @@ This report helps manage Microsoft 365 resources' health and helps ensure there 
 
 ### Generate Orphaned Resources report
 
- * **Click the Reports tile**; located on the SysKit Point home screen.
+ * **Click the Reports tile**; located on the Syskit Point home screen.
  * **Select Cleanup & Health Check in the filter**; it can be found in the upper left corner.
  * **Click the Orphaned Resources report** to generate the report.
 

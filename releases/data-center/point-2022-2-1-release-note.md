@@ -1,10 +1,10 @@
 ---
 description: >-
-  This article lists improvements and bug fixes in SysKit Point version
+  This article lists improvements and bug fixes in Syskit Point version
   2022.2.1.
 ---
 
-# SysKit Point 2022.2.1
+# Syskit Point 2022.2.1
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
@@ -16,29 +16,29 @@ description: >-
 
 ## Get the Latest Version
 
-* **New to SysKit Point?** Get the latest SysKit Point version from [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit\_point).\
+* **New to Syskit Point?** Get the latest Syskit Point version from [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit\_point).\
   Find all steps described in detail in the [deployment article](../../set-up-point-data-center/deployment/deploy-syskit-point.md).
-* **Already using SysKit Point?** Upgrade to the latest SysKit Point version.\
+* **Already using Syskit Point?** Upgrade to the latest Syskit Point version.\
   [![](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitassetsstorage.blob.core.windows.net%2Fpoint%2FARMTemplates%2FPointUpdateDeploy%2FPointUpdateTemplate.json)
 
-See detailed step-by-step instructions on how to upgrade SysKit Point in the [upgrade article](../../set-up-point-data-center/deployment/upgrade-syskit-point.md).
+See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../set-up-point-data-center/deployment/upgrade-syskit-point.md).
 
 ## Improvements & Bug Fixes
 
-**Hangfire dashboard is now available for the SysKit Point backend app service.**\
-Hangfire dashboard offers an overview of the status of all the background jobs SysKit Point is periodically running and shows detailed error logs in case some of them run into an issue.
+**Hangfire dashboard is now available for the Syskit Point backend app service.**\
+Hangfire dashboard offers an overview of the status of all the background jobs Syskit Point is periodically running and shows detailed error logs in case some of them run into an issue.
 
-**SysKit Point is now more stable and efficient than ever!** Multiple changes were made to make SysKit Point run smoother for everyone. As a result:
+**Syskit Point is now more stable and efficient than ever!** Multiple changes were made to make Syskit Point run smoother for everyone. As a result:
 
-* **SysKit Point app services use less memory**
-* **SysKit Point syncs your environment faster and more efficiently**
-* **SysKit Point uses SQL resources better due to reorganized indexes**
+* **Syskit Point app services use less memory**
+* **Syskit Point syncs your environment faster and more efficiently**
+* **Syskit Point uses SQL resources better due to reorganized indexes**
 
 **Sites screen overview is now faster and more responsive.** Changes were made, so selection/deselection of workloads is now quicker on Site, User, and Group overview screens and in the report wizard filters.
 
-**Sharing Links reports improved.** Sharing links reports are now faster due to changes made in SysKit Point sync.
+**Sharing Links reports improved.** Sharing links reports are now faster due to changes made in Syskit Point sync.
 
-**Analytics tile on Site Details screens improved.** Multiple optimization changes were made, so loading times for site analytics are improved greatly in SysKit Point.
+**Analytics tile on Site Details screens improved.** Multiple optimization changes were made, so loading times for site analytics are improved greatly in Syskit Point.
 
 **Users Manager can now be added as a column in reports.** By popular demand, we have added the option of User Manager info to the column chooser, and it is available on the User Overview screen under the column called 'Manager'.
 

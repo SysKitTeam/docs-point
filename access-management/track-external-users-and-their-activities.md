@@ -1,10 +1,10 @@
 ---
-description: This section describes how to find information about External users in your environment using SysKit Point.
+description: This section describes how to find information about External users in your environment using Syskit Point.
 ---
 
 # Track Microsoft 365 External Users and Their Activities
 
-If you want to find out everything about External users and their access to your environment, you can simply open the **SysKit Point** web application and within **Users Overview** screen choose **External Users** view.
+If you want to find out everything about External users and their access to your environment, you can simply open the **Syskit Point** web application and within **Users Overview** screen choose **External Users** view.
 
 The picture below shows you how to switch between different views at the **Users Overview** screen.
 
@@ -28,7 +28,7 @@ By clicking on that report button, it will redirect you to the **User Activity**
 
 By default, this report has the timeframe for the **Last 30 Days**. To switch this, choose a different timeframe from the dropdown menu.
 
-Every report within the **SysKit Point** is exportable, all of them in the form of **Microsoft Excel Worksheet** file type and most of them in **PDF** file type. You will find this option in the sidebar panel under the section **Manage** &gt; **Export** button.
+Every report within the **Syskit Point** is exportable, all of them in the form of **Microsoft Excel Worksheet** file type and most of them in **PDF** file type. You will find this option in the sidebar panel under the section **Manage** &gt; **Export** button.
 
 The icon will point out which export file type are you choosing. You can also access the **User Activity** report from the **Report Center** when you click the **Welcome Home** screen &gt; **Reports** tile. This screen will open:
 

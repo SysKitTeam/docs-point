@@ -1,12 +1,12 @@
 ---
-description: This article helps you learn more about using your SysKit Point.
+description: This article helps you learn more about using your Syskit Point.
 ---
 
-# The SysKit Point Starter Kit
+# The Syskit Point Starter Kit
 
-SysKit Point is a **scalable and easy-to-use management and governance platform for Microsoft 365**. It makes complex environments easy to manage and secure by centralizing inventory and management across multiple Microsoft 365 workloads.
+Syskit Point is a **scalable and easy-to-use management and governance platform for Microsoft 365**. It makes complex environments easy to manage and secure by centralizing inventory and management across multiple Microsoft 365 workloads.
 
-Your flow of using SysKit Point can go like this, and we will explain each part and link to resources you might need:
+Your flow of using Syskit Point can go like this, and we will explain each part and link to resources you might need:
 
 * [**Discover**](point-starter-kit.md#discover-microsoft-365-inventory): Start by centralizing users, structure, and resources across Microsoft 365 Groups, Microsoft Teams, OneDrive, SharePoint, and Power Platform services.
 * [**Secure**](point-starter-kit.md#secure-reporting-and-management) & [**Protect**](point-starter-kit.md#protect-auditing): Drill down and dig deep to get a detailed overview of who has access to what and audit user actions, including external users, supported by bulk management actions.
@@ -24,7 +24,7 @@ Gain a highly accurate and centralized view of all users and resources **across 
 
 Drill down into detailed reports about structure, memberships, permissions, and much more - gain efficiency and secure your data. Avoid jumping from one admin center to another.
 
-![SysKit Point - Home screen](../.gitbook/assets/point-starter-kit\_discover.png)
+![Syskit Point - Home screen](../.gitbook/assets/point-starter-kit\_discover.png)
 
 ## Users Overview
 
@@ -45,7 +45,7 @@ These overviews can also be found directly on the home screen, and **allows you 
 * Content overview, which includes a list of all files included in the site
 * Who has permission for the site
 
-\--> Learn how to [Navigate](navigate-through-syskit-point.md) through SysKit Point.
+\--> Learn how to [Navigate](navigate-through-syskit-point.md) through Syskit Point.
 
 \--> Learn more about the [Dashboard](../microsoft365-inventory/explore-your-microsoft-365-dashboard.md) and get the entire picture of the **Microsoft 365 environment**.
 
@@ -57,14 +57,14 @@ Create numerous **reports and perform management actions straight from the data 
 
 With the one-click report generation, these detailed insights make it easy to manage your Microsoft 365 environment. Some of the reports we recommend trying first are:
 
-There are many reports available in SysKit Point, and **the categories that the reports cover** are:
+There are many reports available in Syskit Point, and **the categories that the reports cover** are:
 
 * [**Permissions**](../reporting/access-reports.md): Detect and manage who has access to what across Microsoft 365 sites. Drill down into user permissions and memberships. Detect broken inheritance for all your content where permissions differ from a parent!
 * [**External Sharing**](../reporting/external-sharing-reports.md): Control external access and excessive content sharing. Find all external users, and guests, and detect externally shared content along with all sharing links.
 * [**License Usage**](../reporting/licenses-reports.md): Discover assigned, unassigned, and inactive Microsoft 365 licenses and the overall cost or find and reclaim licenses assigned to inactive or blocked users - optimize the budget.
 * [**Cleanup**](../reporting/cleanup-and-health-reports.md): Check Microsoft 365 Groups and Microsoft Teams with disabled or deleted owners and assign new ones. Identify and remove orphaned users.
 
-![SysKit Point - Reports](../.gitbook/assets/point-starter-kit\_secure.png)
+![Syskit Point - Reports](../.gitbook/assets/point-starter-kit\_secure.png)
 
 ## Access Management
 
@@ -105,7 +105,7 @@ Setting up proper governance is key to the success of your organization’s Micr
 
 Manage workspace lifecycles from creation to end with **automated actions and policies**. Make end users your reliable partners in governance - **keep the tenant secure and clutter-free**.
 
-![SysKit Point - Automated Workflows](../.gitbook/assets/point-starter-kit\_control.png)
+![Syskit Point - Automated Workflows](../.gitbook/assets/point-starter-kit\_control.png)
 
 * [**Set up provisioning**](../governance-and-automation/provisioning/)
   * **Control workspace creation and avoid sprawl**: Set up **templates for new workspace requests** for Teams, Groups, sites, and Yammer with custom metadata, naming, and governance policies in place.
@@ -120,9 +120,9 @@ Manage workspace lifecycles from creation to end with **automated actions and po
   * Automatically detect inactive SharePoint sites, groups, and teams.
   * Define policies for keeping, deleting, or archiving data.
 
-## Set Up Your SysKit Point
+## Set Up Your Syskit Point
 
-Now that you know just some of the benefits of using SysKit Point, **there are a few things you'll need to set up before you can start**.
+Now that you know just some of the benefits of using Syskit Point, **there are a few things you'll need to set up before you can start**.
 
 Follow the instructions in these articles to get started:
 

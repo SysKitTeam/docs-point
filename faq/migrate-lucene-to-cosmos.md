@@ -1,16 +1,16 @@
 ---
-description: This article describes how to migrate Lucene Audit Index into Cosmos using SysKit Point Index Migration Tool.
+description: This article describes how to migrate Lucene Audit Index into Cosmos using Syskit Point Index Migration Tool.
 ---
 
 # Migrate Audit Logs
 
-After you successfully finish **deployment of SysKit Point 20**, you can proceed with the migration of Audit logs collected with SysKit Point 19, stored in the Lucene Index, to Cosmos DB.
+After you successfully finish **deployment of Syskit Point 20**, you can proceed with the migration of Audit logs collected with Syskit Point 19, stored in the Lucene Index, to Cosmos DB.
 
 {% hint style="warning" %}
 **Please note!**  
 Necessary steps before the migration:
-* Stop **SysKit Point Service** on the server where SysKit Point 19 is installed, and keep it that way during the whole process of migration
-* Stop both **Web App Service** and **BE App Service** created during the SysKit Point deployment. Open **Microsoft Azure > your Resource group > here you will find App services**. Open each of them and in the **ribbon bar** on the **Overview screen** click the **Stop** button. See the picture below.
+* Stop **Syskit Point Service** on the server where Syskit Point 19 is installed, and keep it that way during the whole process of migration
+* Stop both **Web App Service** and **BE App Service** created during the Syskit Point deployment. Open **Microsoft Azure > your Resource group > here you will find App services**. Open each of them and in the **ribbon bar** on the **Overview screen** click the **Stop** button. See the picture below.
 {% endhint %}
 
 ![Microsoft Azure - Resource group](../.gitbook/assets/migrate-lucene-to-cosmos_microsoft-azure-resource-group.png)
@@ -18,7 +18,7 @@ Necessary steps before the migration:
 ## Migration Steps
 To begin with the migration:
 
-1. Download the [**SysKit.Point.MigrationTool.exe**](https://downloads.syskit.com/point/files/SysKitPoint-MigrationTool.zip) to the server where the **SysKit Point** is installed.
+1. Download the [**SysKit.Point.MigrationTool.exe**](https://downloads.syskit.com/point/files/SysKitPoint-MigrationTool.zip) to the server where the **Syskit Point** is installed.
 2. Inside the **%ProgramData%\SysKit\Point** folder create a new file **migrationConfig.json**. [You can find the example migrationConfig.json file here](../.gitbook/assets/migrationConfig.json).
 3. Modify the file and add the configuration parameters - here is the example of an edited configuration file:
 
@@ -73,4 +73,4 @@ Endpoint **(1)** and key **(2)** can be found in the **Microsoft Azure** > **Azu
 
 9. After the migration has finished, decrease the **RU/s** to the initial value before the migration.
 
-If you run into issues when migrating, contact the [SysKit support team](https://www.syskit.com/contact-us/) for more information.
+If you run into issues when migrating, contact the [Syskit support team](https://www.syskit.com/contact-us/) for more information.

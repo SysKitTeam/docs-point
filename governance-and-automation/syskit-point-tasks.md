@@ -1,12 +1,12 @@
 ---
-description: This article lists all types of tasks available in SysKit Point.
+description: This article lists all types of tasks available in Syskit Point.
 ---
 
-# SysKit Point Tasks
+# Syskit Point Tasks
 
-**SysKit Point empowers collaborative Microsoft 365 governance through different tasks** created and assigned to site owners and administrators.
+**Syskit Point empowers collaborative Microsoft 365 governance through different tasks** created and assigned to site owners and administrators.
 
-In the latest version of SysKit Point the following types of tasks are available:
+In the latest version of Syskit Point the following types of tasks are available:
 
 * [**Access Review**](permissions-review/)
 * [**Lifecycle Management**](lifecycle-management/)
@@ -15,7 +15,7 @@ Click the appropriate link to learn more about how to resolve a specific type of
 
 
 {% hint style="information" %}
-**SysKit Point Tasks** are available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+**Syskit Point Tasks** are available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 {% endhint %}
 
 

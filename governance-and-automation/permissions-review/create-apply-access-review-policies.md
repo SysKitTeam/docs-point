@@ -1,27 +1,27 @@
 ---
-description: This article explains how to create Access Review policies and apply them to your Microsoft Teams, Microsoft 365 Groups, sites, and OneDrive in SysKit Point.
+description: This article explains how to create Access Review policies and apply them to your Microsoft Teams, Microsoft 365 Groups, sites, and OneDrive in Syskit Point.
 ---
 
 
 # Create and Apply Access Review Policies
 
-Access Review in SysKit Point is enabled through Access Review policies applied to Microsoft Teams, Microsoft 365 Groups, sites, and OneDrive in SysKit Point.
+Access Review in Syskit Point is enabled through Access Review policies applied to Microsoft Teams, Microsoft 365 Groups, sites, and OneDrive in Syskit Point.
 
-Access Review policies in SysKit Point enable you to define the following settings of an Access Review:
+Access Review policies in Syskit Point enable you to define the following settings of an Access Review:
 * **The scope of the Access Review** - you can choose to review content or membership, or both, decide if you're only interested in shared content and guest users, or maybe want only to see the content down to the folder level
 * **Who should perform the review** - depending on the workspace type, you can select between various groups of users with privileged access, such as team owners, site admins, primary administrators, etc.
 * **The Access Review recurrence frequency** - not all workspaces in a Microsoft 365 environment are equally important; therefore, you can choose to repeat the Access Review process once for the most important workspaces, or up to once in a year for the workspaces that are not frequently changed or used or don't contain sensitive data
 
 
-Once created, **policies need to be applied to Microsoft Teams**, **Microsoft 365 Groups**, **sites**, and **OneDrive** in order **to start the automated Access Review process in SysKit Point**.
+Once created, **policies need to be applied to Microsoft Teams**, **Microsoft 365 Groups**, **sites**, and **OneDrive** in order **to start the automated Access Review process in Syskit Point**.
 
-In the sections below, you can find detailed instructions on creating and applying the Access Review policies in SysKit Point.
+In the sections below, you can find detailed instructions on creating and applying the Access Review policies in Syskit Point.
 
 ## Create Access Review Policy
 
 **To start creating Access Review policies**, navigate to **Settings** > **Governance** > **Automated Workflows**.
 
-By default, SysKit Point offers a predefined Access Review policy - **All users and shared files (1)**. 
+By default, Syskit Point offers a predefined Access Review policy - **All users and shared files (1)**. 
 
 Here you can choose to:
 * **Edit an existing policy \(2\)** or
