@@ -102,5 +102,5 @@ If your Microsoft 365 utilizes the Power BI data collection software, you can co
 When the initial set-up is finalized, the users from your Microsoft 365 environment with assigned roles can start exploring Syskit Point.
 
 Depending on the level of access permitted to a user, there are certain actions that can be completed:
-  * **[Complete Access Review Tasks in SysKit Point](../point-collaborators/resolve-governance-tasks/access-review.md)**
-  * **[Resolve Lifecycle Management Tasks in SysKit Point](../point-collaborators/resolve-governance-tasks/lifecycle-management.md)** 
+  * **[Complete Access Review Tasks in Syskit Point](../point-collaborators/resolve-governance-tasks/access-review.md)**
+  * **[Resolve Lifecycle Management Tasks in Syskit Point](../point-collaborators/resolve-governance-tasks/lifecycle-management.md)** 

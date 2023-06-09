@@ -169,8 +169,8 @@
   * [Export Diagnostic Logs](troubleshooting/export-diagnostic-logs.md)
   * [Setup Diagnostic Logs Export](troubleshooting/setup-diagnostic-logs-export.md)
   * [Analytics and Usage Report Issues](troubleshooting/analytics-and-usage-report-issues.md)
-* [Explore SysKit Point for Site Owners/Collaborators](point-collaborators/README.md)
-  * [SysKit Point for Collaborators](point-collaborators/point-starter-kit-collaborators.md)
+* [Explore Syskit Point for Site Owners/Collaborators](point-collaborators/README.md)
+  * [Syskit Point for Collaborators](point-collaborators/point-starter-kit-collaborators.md)
   * [Resolve Governance Tasks](point-collaborators/resolve-governance-tasks/README.md)
     * [Complete Access Review Tasks](point-collaborators/resolve-governance-tasks/access-review.md)
     * [Resolve Lifecycle Management Tasks](point-collaborators/resolve-governance-tasks/lifecycle-management.md)
@@ -187,7 +187,7 @@
     * [Request Workspace Access](point-collaborators/manage-workspaces/request-workspace-access.md)
     * [Manage Custom Metadata](point-collaborators/manage-workspaces/manage-custom-metadata.md)
   * [Reporting](point-collaborators/reporting/README.md)
-    * [SysKit Icons Glossary](point-collaborators/reporting/syskit-glossary-icons.md)
+    * [Syskit Icons Glossary](point-collaborators/reporting/syskit-glossary-icons.md)
     * [Schedule Reports and Alerts](point-collaborators/reporting/schedule-reports-and-alerts.md)
 
 

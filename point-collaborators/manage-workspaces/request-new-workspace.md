@@ -6,7 +6,7 @@ description: This article describes how to request new Microsoft 365 workspaces.
 
 If your team or department is starting a new project that will require collaborating and file-sharing, you may need to create a new workspace.**
 
-With the **Request New Workspace** feature, you can choose which type of workspace to create based on the available templates, and once your request is sent, the only thing left is for it to be reviewed and approved by your SysKit Point Administrator.
+With the **Request New Workspace** feature, you can choose which type of workspace to create based on the available templates, and once your request is sent, the only thing left is for it to be reviewed and approved by your Syskit Point Administrator.
 
 ## Request New Workspace
 
@@ -15,9 +15,9 @@ A new workspace needs to be requested from your Microsoft Teams.
 Complete the following steps to submit your request:
 
 * Open your **Microsoft Teams.** 
-* Start the **SysKit Point** app in the left side panel.  
-  * If you don’t see the app by default, click the three dots and search for SysKit Point. 
-  * Select the SysKit Point app, and it will appear on your Teams side panel. 
+* Start the **Syskit Point** app in the left side panel.  
+  * If you don’t see the app by default, click the three dots and search for Syskit Point. 
+  * Select the Syskit Point app, and it will appear on your Teams side panel. 
   * To have it permanently visible, right-click the app icon and select **Pin**.
 * Click the **Request Workspace** button, located on the top right.
 * Select the **type of workspace** you want to request: **Microsoft Team, Microsoft 365 Group, SharePoint Site**.
@@ -37,9 +37,9 @@ Complete the following steps to submit your request:
 ![Request New Workspace - Microsoft Teams Example](../../.gitbook/assets/request-new-workspace_microsoft-teams-info.png)
 ![Request New Workspace - Finalize Request](../../.gitbook/assets/request-new-workspace_microsoft-teams-finalize.png)
 
-All updates and notifications about your requests and approval progress will be visible in the **Microsoft Teams Activity tab** and in the **SysKit Point app**.
+All updates and notifications about your requests and approval progress will be visible in the **Microsoft Teams Activity tab** and in the **Syskit Point app**.
 
-* To check on the current status of your request through the SysKit Point app, click on the **Requests (1)** button at the top of the screen.  
+* To check on the current status of your request through the Syskit Point app, click on the **Requests (1)** button at the top of the screen.  
   * On the Requests screen, you will be able to check between: 
     * **Received (2)** requests
     * **Sent (3)** requests

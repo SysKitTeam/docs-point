@@ -48,7 +48,7 @@ Take a look at the articles below to learn how to set up each governance policy:
 * [**Minimum Number of Owners**](minimum-number-of-owners-admin.md) - when enabled and applied to Microsoft Teams and Microsoft 365 Groups, this policy **triggers an automated workflow when the team/group has fewer owners** than defined in the policy settings
 * [**Maximum Number of Owners**](maximum-number-of-owners-admin.md) - when enabled and applied to Microsoft Teams and Microsoft 365 Groups, this policy **triggers an automated workflow when the team/group has more owners** than defined in the policy settings
 * [**Orphaned Resources**](orphaned-resources-admin.md) - when enabled and applied to Microsoft Teams and Microsoft 365 Groups, this policy **triggers an automated workflow when the team/group has no active owners**
-* [**Guest Users Expiration**](guest-users-expiration-admin.md) - periodically checks Guest Users' access, or when SysKit Point detects a guest user is inactive
+* [**Guest Users Expiration**](guest-users-expiration-admin.md) - periodically checks Guest Users' access, or when Syskit Point detects a guest user is inactive
 * [**Access Request**](../access-requests/README.md) - provides end-users the ability to search all existing Microsoft Teams & Groups, sites, distribution lists, and security groups and request access to them
 * [**Access Review**](../permissions-review/README.md) - setting this up will allow site owners to perform regular access reviews of their sites
 

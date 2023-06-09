@@ -1,17 +1,17 @@
 ---
-description: This article explains all of the icons and terminology utilized in SysKit Point.  
+description: This article explains all of the icons and terminology utilized in Syskit Point.  
 ---
 
-# SysKit Icons Glossary
+# Syskit Icons Glossary
 
-**SysKit Point contains icons** that are placed next to different types of tracked **resources**. 
+**Syskit Point contains icons** that are placed next to different types of tracked **resources**. 
 
-This article will **explain all of the available icons** and what they mean, which will help you navigate your SysKit Point as a collaborator. 
+This article will **explain all of the available icons** and what they mean, which will help you navigate your Syskit Point as a collaborator. 
 
 
 ## Sites
 
-Selecting **Sites** on the home page of SysKit Point will open a list with all types of workspaces you can access. 
+Selecting **Sites** on the home page of Syskit Point will open a list with all types of workspaces you can access. 
 
 Below is a list and explanation for all the icons, numbered and correlating to the included image. 
 
@@ -30,7 +30,7 @@ For more explanations of the terms, click on the names to be redirected to the M
 
 ## Microsoft Teams & Groups
 
-Selecting **Microsoft Teams and Groups** on the home page of SysKit Point opens a list of all teams or groups you are the owner or member of. 
+Selecting **Microsoft Teams and Groups** on the home page of Syskit Point opens a list of all teams or groups you are the owner or member of. 
 
 Below is a list and explanation for all the icons, numbered and correlating to the included image. 
 
@@ -49,7 +49,7 @@ For more explanations of the terms, click on the names to be redirected to the M
 
 ## Users 
 
-Selecting **Users** on the home page of SysKit Point will open a list with all users you are the manager of.  
+Selecting **Users** on the home page of Syskit Point will open a list with all users you are the manager of.  
 
 Below is a list and explanation for all the icons, numbered and correlating to the included image. 
 

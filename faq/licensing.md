@@ -18,7 +18,7 @@ To change the edition, please visit our Subscriptions portal [https://subscripti
 
 ## What does Syskit consider as a licensed Microsoft 365 user?
 
-SysKit Point licenses are calculated based on your M365 assigned licenses. Only unique users and resources will be counted. Guest Users only fit into that category if they have a license assigned. [Read more details here](../licensing-activation/licensed-users-count.md).
+Syskit Point licenses are calculated based on your M365 assigned licenses. Only unique users and resources will be counted. Guest Users only fit into that category if they have a license assigned. [Read more details here](../licensing-activation/licensed-users-count.md).
 
 ## What will my Syskit Point subscription cost?
 

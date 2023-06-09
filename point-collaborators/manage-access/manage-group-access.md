@@ -4,11 +4,11 @@ description: This article provides details helpful to group owners on how to Man
 
 # Manage Group Access
 
-Group Access in SysKit Point can **simplify the day-to-day management of groups** where you are the owner. 
+Group Access in Syskit Point can **simplify the day-to-day management of groups** where you are the owner. 
 
 It helps you **ensure users have access to all the resources they need** to do their work effectively as well as **identify and remove users** that should no longer have access. 
 
-When it comes to group access management, SysKit Point lets you easily:
+When it comes to group access management, Syskit Point lets you easily:
  * [Change Group Permissions](#manage-group-permissions)
  * [Add and Remove Group Owners](#add-and-remove-group-owners)
  * [Remove Group Access](#remove-group-access)
@@ -17,7 +17,7 @@ These changes can be made in instances **when certain members or owners leave a 
 
 To manage your group's access, complete the following: 
 
-* On your SysKit Point home screen, click the **Microsoft Teams & Groups** button
+* On your Syskit Point home screen, click the **Microsoft Teams & Groups** button
   * This opens the Microsoft Teams & Groups
 * Navigate to your groups by either clicking the **Microsoft Groups button (1)** at the top or selecting **Microsoft Groups from the filter (2)**
 
@@ -55,7 +55,7 @@ When you see a list of your groups, take the following steps:
 
 ## Add and Remove Group Owners
 
-Adding and removing owners from the group can be done directly on the Microsoft Teams & Groups section of SysKit Point. 
+Adding and removing owners from the group can be done directly on the Microsoft Teams & Groups section of Syskit Point. 
 
 To start, repeat [the initial step listed above ](#manage-group-access) so that only your **Microsoft Groups** are visible on the Microsoft Teams & Groups screen. 
 
@@ -71,7 +71,7 @@ To start, repeat [the initial step listed above ](#manage-group-access) so that 
 
 ## Remove Group Access
 
-Removing Group Access from members or owners of the group can be done directly on the Microsoft Teams & Groups section of SysKit Point. 
+Removing Group Access from members or owners of the group can be done directly on the Microsoft Teams & Groups section of Syskit Point. 
 
 To start, repeat [the initial step listed above ](#manage-group-access) so that only your **Microsoft Groups** are visible on the Microsoft Teams & Groups screen. 
 
