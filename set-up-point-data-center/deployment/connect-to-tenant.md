@@ -40,7 +40,7 @@ To create the required app registration used by Syskit Point, do the following:
 
 * click the __New registration (1)__ button available in the top ribbon; the __Register an application__ screen opens
 
-* enter `SysKit Point Installer` in the __Name (2)__ field 
+* enter `Syskit Point Installer` in the __Name (2)__ field 
 
 * select __Accounts in this organizational directory only (<TenantName> only - Single tenant)__ option under __Supported account types (3)__ 
  
@@ -108,7 +108,7 @@ After all initial connection steps are completed, you will be redirected to the 
 ## Related Topics
 
 * [Deploy Syskit Point](deploy-syskit-point.md)
-* [Activate SysKit Point](../../set-up-point-data-center/activation/activate-syskit-point.md)
+* [Activate Syskit Point](../../set-up-point-data-center/activation/activate-syskit-point.md)
 * [Set Up Custom Domain and SSL Certificate](set-up-custom-domain-and-ssl-certificate.md)
 
 If you have additional questions or concerns, please [contact us](https://www.syskit.com/contact-us/).

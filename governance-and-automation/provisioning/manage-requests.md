@@ -2,7 +2,7 @@
 description: This article describes how to view all your requests and their status or history.
 ---
 
-# Manage Requests in SysKit Point
+# Manage Requests in Syskit Point
 
 1. Open **Microsoft Teams**.
 2. Start the **Syskit Point** app in the left side panel.  

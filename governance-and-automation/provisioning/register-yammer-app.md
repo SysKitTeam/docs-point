@@ -35,8 +35,8 @@ A **new browser tab opens, showing the Registered applications screen in Yammer 
 ![Yammer Portal - Register a New App](../../.gitbook/assets/register-yammer-app_yammer-register-new-app.png)
 
 A registration dialog opens, where you need to:
-* **Enter the application name (1)** - enter `SysKit Point Yammer App`
-* **Enter organization (2)** - enter `SysKit`
+* **Enter the application name (1)** - enter `Syskit Point Yammer App`
+* **Enter organization (2)** - enter `Syskit`
 * **Enter support e-mail (3)** - enter `support@syskit.com`
 * **Enter website (4)** - **copy and paste the value provided on the Syskit Point app registration screen** described in the previous section
 * **Enter Redirect URI (5)** - **copy and paste the value provided on the Syskit Point app registration screen** described in the previous section

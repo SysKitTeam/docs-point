@@ -29,7 +29,7 @@ Before you sail into the vacation, check out what we have prepared for you in th
 * **Changing the number of workdays to complete tasks supported**. You can define the number of workdays to complete Access Review and Lifecycle Management tasks separately in Governance settings.
 * **Site and Group details screen now shows additional information** about active and past Access Review and Lifecycle Management tasks, making it easy to see who, when, and why completed the task.
 * **Object Type column added** to Permissions Matrix and Externally Shared Content report. Enable the column in the column chooser to display it in the mentioned reports.
-* **Microsoft 365 Data Sync improved**. Changes in the site and tenant URLs no longer cause duplicate entries in SysKit Point.
+* **Microsoft 365 Data Sync improved**. Changes in the site and tenant URLs no longer cause duplicate entries in Syskit Point.
 * **Fixed a bug** with the Lifecycle Management tasks, where the request date was incorrectly set to `today – 1 day` when the task was created. Additionally, when calculating the due date of a task, a change was made to set it to workdays only.
 * **Fixed an issue** with the User Access report that would result in an error when opened from the External Users report by selecting multiple rows with the same external user. The following error would show: `System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.`
 * **Fixed a bug** where the Access Review summary e-mail would not be sent if the Access Review had been completed before the defined due date.

@@ -36,6 +36,6 @@ After the deployment is completed, you can:
 
 {% hint style="info" %}
 **Hint!**  
-Use the [What's new](https://www.syskit.com/products/point/whats-new/) page as an additional source of information on new features available in the latest version of the SysKit Point and Configuration Inventory module.
+Use the [What's new](https://www.syskit.com/products/point/whats-new/) page as an additional source of information on new features available in the latest version of the Syskit Point and Configuration Inventory module.
 {% endhint %}
 

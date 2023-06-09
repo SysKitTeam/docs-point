@@ -15,7 +15,7 @@ description: This article lists improvements and bug fixes in Syskit Point Power
 * **New to Syskit Point Power BI app?** Get the latest version from [AppSource](https://appsource.microsoft.com/en/product/power-bi/syskitltd.syskit_point_powerbi).<br/>
     Find all steps described in detail in the [deployment article](../deploy-power-bi-app.md).
     
-* **Already using Syskit Point Power BI app?** See detailed step-by-step instructions on how to upgrade the SysKit Point Power BI app in the [upgrade article](../update-power-bi-app.md).
+* **Already using Syskit Point Power BI app?** See detailed step-by-step instructions on how to upgrade the Syskit Point Power BI app in the [upgrade article](../update-power-bi-app.md).
 
 
 {% hint style="warning" %}

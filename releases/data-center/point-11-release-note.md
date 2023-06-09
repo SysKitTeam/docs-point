@@ -38,7 +38,7 @@ Scroll on to see what's new!
 
 * Fixed an issue where Syskit Point Configuration Wizard would fail in case the service account was defined with an FQDN. 
 * Fixed an issue where login to Syskit Point failed with the following error:   `Microsoft.Graph.ServiceException: Code: MailboxNotEnabledForRESTAPI  Message: REST API is not yet supported for this mailbox.   Inner error at SysKit.SecurityManager.SPO.Graph.GraphLoaders.TenantGraphLoader.<GetUserPhoto>d__25.MoveNext()`
-* Fixed a bug where SysKit Point Configuration Wizard would fail when creating a database on German Language MS SQL Server Versions. 
+* Fixed a bug where Syskit Point Configuration Wizard would fail when creating a database on German Language MS SQL Server Versions. 
 * Fixed an issue where no channels were loaded as a result of changes in Microsoft Graph API.  
 * Other various minor bug fixes. 
 
