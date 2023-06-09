@@ -6,7 +6,7 @@ description: This article provides information about Delete and Restore User act
 
 When managing your **Microsoft 365** environment, there are certain situations when you need to **remove users** from your tenant, be it in a situation of offboarding a colleague from the company or ending the collaboration with an external user.
 
-With **SysKit Point**, you get the ability to manage your users easily.
+With **Syskit Point**, you get the ability to manage your users easily.
 
 The Delete and Restore User actions can be used when:
 
@@ -16,7 +16,7 @@ The Delete and Restore User actions can be used when:
 
 {% hint style="warning" %}
 **Please note!**  
-To successfully execute **Delete User** and **Restore User actions**, you need to have the [**SysKit Point Admin**](../configuration/enable-role-based-access.md#syskit-point-admins) role assigned. Additionally, you must meet one of the following conditions regarding **Microsoft 365 Azure Active Directory Roles** in your **Microsoft 365 environment**:
+To successfully execute **Delete User** and **Restore User actions**, you need to have the [**Syskit Point Admin**](../configuration/enable-role-based-access.md#syskit-point-admins) role assigned. Additionally, you must meet one of the following conditions regarding **Microsoft 365 Azure Active Directory Roles** in your **Microsoft 365 environment**:
 
 * have the **Global Admin** role assigned
 * have the **SharePoint Admin** and the **User Admin** role assigned

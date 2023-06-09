@@ -1,12 +1,12 @@
 ---
-description: This article provides a full overview of the manual access review process in SysKit Point.
+description: This article provides a full overview of the manual access review process in Syskit Point.
 ---
 
-# Manually Request Access Review in SysKit Point
+# Manually Request Access Review in Syskit Point
 
 **Access review**, in the context of the Microsoft 365 environment, is an activity where a person responsible for an Microsoft 365 workspace - be it Communication site, Microsoft Team, Microsoft 365 Group, or OneDrive - checks whether permissions, given to users inside \(internal\) and outside \(external\) of company, comply with the organizational rules and guidelines.
 
-While the **Automated Access Review** was introduced in SysKit Point 14, SysKit Point 15 brings the **Manually Requested Access Review** to the table.
+While the **Automated Access Review** was introduced in Syskit Point 14, Syskit Point 15 brings the **Manually Requested Access Review** to the table.
 
 {% hint style="success" %}
 Use **Manual Access Review** in situations **when you need a fast response on an urgent issue**, such as sudden offboarding of a user, or unauthorized external sharing, where you want a workspace to be checked as soon as possible.  
@@ -20,7 +20,7 @@ To find more about the Automated Access Review, visit the [following article](en
 
 ## Request Review
 
-To manually create an Access Review, use the **Request Review action**, **available for SysKit Point Admin users** on the following screens:
+To manually create an Access Review, use the **Request Review action**, **available for Syskit Point Admin users** on the following screens:
 
 * **Sites overview**
 * **Microsoft Teams & Groups overview**
@@ -28,7 +28,7 @@ To manually create an Access Review, use the **Request Review action**, **availa
 
 {% hint style="warning" %}
 **Please note!**  
-You must be signed in to SysKit Point with a SysKit Point Admin account to see the Request Review action.
+You must be signed in to Syskit Point with a Syskit Point Admin account to see the Request Review action.
 {% endhint %}
 
 To manually request an Access Review, do the following:
@@ -67,7 +67,7 @@ After the manual Access Review request was sent, **the workspace owners receive 
 
 ![Access Review email](../../.gitbook/assets/manually-request-permissions-review_email.png)
 
-The link in the email leads you directly to the Access Review task in SysKit Point. Here, you can:
+The link in the email leads you directly to the Access Review task in Syskit Point. Here, you can:
 
 * **select a workspace \(1\)**
 * **perform the Access Review \(2\)**

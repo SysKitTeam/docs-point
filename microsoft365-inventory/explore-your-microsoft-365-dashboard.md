@@ -1,5 +1,5 @@
 ---
-description: This article describes all information presented in SysKit Point Dashboard.
+description: This article describes all information presented in Syskit Point Dashboard.
 ---
 
 # Control Your Microsoft 365 Environment
@@ -65,7 +65,7 @@ For more information about the Inactive Content report, click [here](../governan
 
 {% hint style="warning" %}
 **Please note!**  
-The number of inactive resources **will be visible 10 days after the first installation of SysKit Point.**
+The number of inactive resources **will be visible 10 days after the first installation of Syskit Point.**
 {% endhint %}
 
 Similarly, **clicking the number** of orphaned resources will open the **Orphaned Resources** report in the **Report Center**.
@@ -114,7 +114,7 @@ If the Access Review and Lifecycle Management automation is not configured, the 
 
 {% hint style="info" %}
 **Learn more!**  
-Use the following articles to learn how to enable and configure automation in SysKit Point:
+Use the following articles to learn how to enable and configure automation in Syskit Point:
 
 * [Enable Automated Access Review](../governance-and-automation/permissions-review/enable-permissions-review.md)
 * [Enable Lifecycle Management Automation](../governance-and-automation/lifecycle-management/enable-lifecycle-management.md)

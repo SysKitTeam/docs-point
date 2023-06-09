@@ -1,5 +1,5 @@
 ---
-description: This article provides all information about scheduled reports in SysKit Point.
+description: This article provides all information about scheduled reports in Syskit Point.
 ---
 
 # Schedule Reports
@@ -8,27 +8,27 @@ description: This article provides all information about scheduled reports in Sy
 **Scheduled Reports** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 {% endhint %}
 
-When you manage permissions and resources in your Microsoft 365 tenant, creating reports, sharing them, or saving them for future reference, might take up a lot of your time – that’s where the Scheduled Reports in SysKit Point can help!
+When you manage permissions and resources in your Microsoft 365 tenant, creating reports, sharing them, or saving them for future reference, might take up a lot of your time – that’s where the Scheduled Reports in Syskit Point can help!
 
 With the help of this feature, you can do the following:
 
-* **create Scheduled Reports from views and reports generated in SysKit Point**, meaning that all filters you define when generating a report or view are applied when sending the scheduled report
+* **create Scheduled Reports from views and reports generated in Syskit Point**, meaning that all filters you define when generating a report or view are applied when sending the scheduled report
 * **setup automatic sending of PDF or XLSX reports to one or more email recipients** in your tenant
 * **setup automatic saving of PDF or XLSX reports to a document library** in a SharePoint site
 * **define how often and when to send Scheduled Reports**
 * **create a Subscription - group of Scheduled Reports** that share the same schedule frequency and delivery options
 
-Users with the following roles assigned in SysKit Point can create Scheduled reports:
+Users with the following roles assigned in Syskit Point can create Scheduled reports:
 
-* **SysKit Point Admins**
-* **SysKit Point Global Viewers**
-* **SysKit Point Collaborators**
+* **Syskit Point Admins**
+* **Syskit Point Global Viewers**
+* **Syskit Point Collaborators**
 
-To learn more about roles in SysKit Point, see the [following article](../configuration/enable-role-based-access.md).
+To learn more about roles in Syskit Point, see the [following article](../configuration/enable-role-based-access.md).
 
 ## Schedule a Report
 
-In SysKit Point it is possible to schedule:
+In Syskit Point it is possible to schedule:
 
 * **All reports**, except the Site Analytics report
 * **All views** available on the overview screens – Sites, Microsoft Teams & Groups, and the Users overview screen 

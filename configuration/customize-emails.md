@@ -1,5 +1,5 @@
 ---
-description: This article explains how to customize e-mails within SysKit Point.
+description: This article explains how to customize e-mails within Syskit Point.
 ---
 
 # Customize E-mails
@@ -8,9 +8,9 @@ description: This article explains how to customize e-mails within SysKit Point.
 **Customized E-mails** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 {% endhint %}
 
-SysKit Point **provides the option to customize e-mails** that are **sent to site owners** as a part of **Access Review and Lifecycle Management Automation**.  
+Syskit Point **provides the option to customize e-mails** that are **sent to site owners** as a part of **Access Review and Lifecycle Management Automation**.  
 
-Emails are used for **Access Review and Lifecycle Management** tasks and any policies created under **Automated Workflows**. They are also used for receiving reports that are available in the **Reports** section of SysKit Point. 
+Emails are used for **Access Review and Lifecycle Management** tasks and any policies created under **Automated Workflows**. They are also used for receiving reports that are available in the **Reports** section of Syskit Point. 
 
 The following aspects of the e-mails can be customized:
 
@@ -19,7 +19,7 @@ The following aspects of the e-mails can be customized:
 * **Subject**
 * **Additional message in the body of the e-mail**
 
-These changes can be performed in three locations within SysKit Point Settings:
+These changes can be performed in three locations within Syskit Point Settings:
 
 * **General Settings &gt; E-mail section** 
 * **Governance Settings &gt; Access Review** 
@@ -27,14 +27,14 @@ These changes can be performed in three locations within SysKit Point Settings:
 
 {% hint style="warning" %}
 **Please note!**  
-Only SysKit Point Admin users can customize e-mails.
+Only Syskit Point Admin users can customize e-mails.
 {% endhint %}
 
 ## E-mail Settings
 
 In E-mail settings, you can define:
- * **A global logo** that will be used in all e-mails sent by SysKit Point
- * **A global e-mail banner** that will be used in all e-mails sent from SysKit Point
+ * **A global logo** that will be used in all e-mails sent by Syskit Point
+ * **A global e-mail banner** that will be used in all e-mails sent from Syskit Point
 
 To define a logo used in all e-mails:
 * **Navigate to the E-mail Settings screen \(1\)**. 

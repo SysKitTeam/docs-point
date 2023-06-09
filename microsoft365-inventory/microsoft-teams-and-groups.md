@@ -17,6 +17,8 @@ In the top left corner, **All Groups** is automatically selected in the filter. 
   * Microsoft Teams
   * Inactive Groups
   * Archived Groups
+  * Inactive Groups
+  * Archived Groups
   * Security Groups
   * Security Groups (On-Premises)
   * Mail-Enabled Security Groups

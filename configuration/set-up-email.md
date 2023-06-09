@@ -1,26 +1,26 @@
 ---
-description: This article explains how to set up e-mail settings in SysKit Point.
+description: This article explains how to set up e-mail settings in Syskit Point.
 ---
 
 # Set Up E-Mail
 
-**SysKit Point sends e-mails** to owners, administrators and, other users when automated workflows are enabled.
+**Syskit Point sends e-mails** to owners, administrators and, other users when automated workflows are enabled.
 
-Here you can find all the information needed to successfully configure e-mail settings, which SysKit Point will use to send the e-mails.
+Here you can find all the information needed to successfully configure e-mail settings, which Syskit Point will use to send the e-mails.
 
 {% hint style="warning" %}
 **Please note!**\
-Only users assigned to the **SysKit Point Admin** role can access and configure Settings in SysKit Point.
+Only users assigned to the **Syskit Point Admin** role can access and configure Settings in Syskit Point.
 {% endhint %}
 
-For SysKit Point to be able to send e-mails, you need to configure the sending method. Two options are available:
+For Syskit Point to be able to send e-mails, you need to configure the sending method. Two options are available:
 
 * **Exchange Online**
 * **SMTP** - Simple Mail Transfer Protocol
 
 {% hint style="warning" %}
 **Please Note!**\
-E-mail address set up in this section will appear in the **Sent from** field in all e-mails sent from SysKit Point.
+E-mail address set up in this section will appear in the **Sent from** field in all e-mails sent from Syskit Point.
 {% endhint %}
 
 ## Exchange Online Settings
@@ -42,10 +42,10 @@ Exchange Online has a sending limit of 10000 e-mails per day.
 | Microsoft 365 group           | NO        |
 | E-mail enabled security group | NO        |
 
-The Exchange Online method enables you to use an existing Exchange account in your Microsoft 365 tenant to send e-mails from SysKit Point. Here, you can:
+The Exchange Online method enables you to use an existing Exchange account in your Microsoft 365 tenant to send e-mails from Syskit Point. Here, you can:
 
 * **enter a valid e-mail address in the Sent from field (1)**
-* **choose whether to save e-mails sent by SysKit Point to the Sent items folder (2)**; by default, this option is turned on, meaning that all e-mails sent from SysKit Point will be stored in the **Sent** mailbox folder of the entered Exchange account
+* **choose whether to save e-mails sent by Syskit Point to the Sent items folder (2)**; by default, this option is turned on, meaning that all e-mails sent from Syskit Point will be stored in the **Sent** mailbox folder of the entered Exchange account
 * **Send a test e-mail (3)** to check if the entered e-mail address is working properly
 
 ![Exchange Online e-mail Settings screen](../.gitbook/assets/enable-permissions-review\_exchange-online-settings.png)

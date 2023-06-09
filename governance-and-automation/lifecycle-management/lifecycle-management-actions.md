@@ -1,20 +1,20 @@
 ---
-description: This article explains how to use Lifecycle Management Actions in SysKit Point.
+description: This article explains how to use Lifecycle Management Actions in Syskit Point.
 ---
 
-# Run Lifecycle Management Actions in SysKit Point
+# Run Lifecycle Management Actions in Syskit Point
 
-## Lifecycle Management Actions in SysKit Point
+## Lifecycle Management Actions in Syskit Point
 
-SysKit Point includes a set of **Lifecycle Management actions** that can be executed on Microsoft 365 workspaces - Microsoft Teams, Microsoft 365 Groups, and sites. The following actions are available:
+Syskit Point includes a set of **Lifecycle Management actions** that can be executed on Microsoft 365 workspaces - Microsoft Teams, Microsoft 365 Groups, and sites. The following actions are available:
 
 * **Keep**
 * **Archive**
 * **Delete**
 * **Restore**
 
-Each action can be executed by **SysKit Point Admin** and **SysKit Point Collaborator** users.  
-**Lifecycle Management actions** – **Keep, Archive, and Delete –** are available on the following screens in SysKit Point:
+Each action can be executed by **Syskit Point Admin** and **Syskit Point Collaborator** users.  
+**Lifecycle Management actions** – **Keep, Archive, and Delete –** are available on the following screens in Syskit Point:
 
 * **Sites overview**
 * **Microsoft Teams & Groups overview**
@@ -46,7 +46,7 @@ When the Lifecycle Management flow is enabled, **executing an action** \(except 
 On the Sites overview screen and the Microsoft Teams & Groups overview screen, you **run actions on workspaces in bulk** by selecting multiple workspaces and clicking the wanted action from the side panel.
 {% endhint %}
 
-Lifecycle Management actions are also available in emails that SysKit Point sends to site owners and admins as a part of the Lifecycle Management Automation. Still, **actions can be executed in SysKit Point only**. Follow [this link](../../point-collaborators/resolve-governance-tasks/lifecycle-management.md) to learn more about Lifecycle Management emails and tasks.
+Lifecycle Management actions are also available in emails that Syskit Point sends to site owners and admins as a part of the Lifecycle Management Automation. Still, **actions can be executed in Syskit Point only**. Follow [this link](../../point-collaborators/resolve-governance-tasks/lifecycle-management.md) to learn more about Lifecycle Management emails and tasks.
 
 Next, all actions are described in greater detail.
 
@@ -89,14 +89,14 @@ The Keep action can be executed on inactive workspaces only!
 
 The **Archive action** has additional options available that are set up according to the administrator’s preference. More information on that can be found in the [Enable Lifecycle Management Automation article](enable-lifecycle-management.md).
 
-Archiving a workspace within SysKit Point results in the following:
+Archiving a workspace within Syskit Point results in the following:
 * **the workspace gets into a read-only state**
 * **based on the parameters set by the admin, access to the workspace is removed for**:
    * **Members**; all members are removed when a workspace is archived
    * **Owners**; all owners are removed when a workspace is archived; when this option is set up, **at least 1 owner will still exist for all workspaces** as set by the admin.
 * **the permissions inheritance is restored on all objects**
 * **all memberships on the workspace are removed in Microsoft 365**
-* **all memberships are saved in SysKit Point database to support the Restore action**
+* **all memberships are saved in Syskit Point database to support the Restore action**
 * **the workspace is renamed to include the Prefix and/or Suffix that was set by the admin**
 
 

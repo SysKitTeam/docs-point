@@ -1,32 +1,32 @@
 ---
-description: This article outlines the most frequently asked questions about purchasing and discounts for SysKit Point.
+description: This article outlines the most frequently asked questions about purchasing and discounts for Syskit Point.
 ---
 
 # Purchasing and Discounts FAQ
 
 ## Can I try a product for free before purchasing it? 
 
-Yes, we offer a free trial for all SysKit products. SysKit Point comes with a 21-day free trial. You can find more details on the [SysKit Point product page](https://www.syskit.com/products/point/). 
+Yes, we offer a free trial for all Syskit products. Syskit Point comes with a 21-day free trial. You can find more details on the [Syskit Point product page](https://www.syskit.com/products/point/). 
 
-## How much do SysKit products cost? 
+## How much do Syskit products cost? 
 
-Our pricing information is available on the [SysKit Point product page](https://www.syskit.com/products/point/pricing/).   
+Our pricing information is available on the [Syskit Point product page](https://www.syskit.com/products/point/pricing/).   
 
-## Does SysKit offer any discounts?
+## Does Syskit offer any discounts?
 
 We offer frontline, non-profit, and educational discounts for our annual Cloud and Data Center editions. [Contact us](https://www.syskit.com/company/contact-us) to get a custom quote.
 
-## How does SysKit determine who qualifies for non-profit discounts? 
+## How does Syskit determine who qualifies for non-profit discounts? 
 
 To qualify for non-profit discounts, you need to satisfy the requirements listed at [https://aka.ms/eligibility-requirements](https://aka.ms/eligibility-requirements).
 
-## How do I purchase SysKit Point? 
+## How do I purchase Syskit Point? 
 
-Use our webshop on each pricing page to purchase SysKit products using credit cards. Additionally, you can [contact us](https://www.syskit.com/company/contact-us) for a custom quote if you have specific needs.
+Use our webshop on each pricing page to purchase Syskit products using credit cards. Additionally, you can [contact us](https://www.syskit.com/company/contact-us) for a custom quote if you have specific needs.
 
  * Navigate to the pricing page of the product you wish to purchase 
  * Click on the subscription plan you want to subscribe to. 
- * Modify the quantity you need. It depends on the selected product and for	SysKit Point it is based on the number of licensed M365 users. [Read more here](https://docs.syskit.com/point/faq/purchasing-and-discounts#how-do-i-purchase-syskit-point).
+ * Modify the quantity you need. It depends on the selected product and for	Syskit Point it is based on the number of licensed M365 users. [Read more here](https://docs.syskit.com/point/faq/purchasing-and-discounts#how-do-i-purchase-syskit-point).
  * Provide your credit card details and billing information. 
  * The subscription details will be delivered upon payment.
 
@@ -54,7 +54,7 @@ Read more about the available payment options at [https://syskit.cc/vendor-profi
 
 We can generate quotes in US dollars (USD), Euros (EUR), and British pounds (GBP). We calculate all the prices in a currency other than USD using an exchange rate that includes a currency fluctuation margin.
 
-## How do I buy from SysKit via Purchase Order? 
+## How do I buy from Syskit via Purchase Order? 
 
 Start by requesting a quote using the [contact form](https://www.syskit.com/contact-us/). 
 
@@ -68,13 +68,13 @@ Once the PO is processed, we'll send you an invoice, including the exact payment
 
 An additional VAT charge applies for EU customers who do not supply their own VAT number when placing an order.
 
-## What happens if I'm not satisfied with my SysKit Point purchase? 
+## What happens if I'm not satisfied with my Syskit Point purchase? 
 
 If you are not satisfied within 30 days, you can get a full refund. We do not want you to pay for a product you aren't satisfied with. 
 
  * Monthly Subscriptions - Refunds for subscriptions are available within the first paid month after the trial period. 
  * Annual Subscriptions – Refunds for subscriptions are available within 30 days of payment for annual subscriptions.  
-* SysKit Point Data Center licenses can be refunded within 30 days of the original purchase. 
+* Syskit Point Data Center licenses can be refunded within 30 days of the original purchase. 
 
 After these periods, we cannot offer refunds.  
 
@@ -88,7 +88,7 @@ United States customers should refer to our W8-BEN-E form. United States custome
 
 ## Can I buy your products via a partner network? 
 
-SysKit has a vast network of partners around the world. Select your country on the menu, choose a reseller, and [click here](https://www.syskit.com/company/partners/) for a complete partner list. Contact the reseller you find the most suitable and request a quote as described above.  
+Syskit has a vast network of partners around the world. Select your country on the menu, choose a reseller, and [click here](https://www.syskit.com/company/partners/) for a complete partner list. Contact the reseller you find the most suitable and request a quote as described above.  
 
 If you'd like to register as a partner, [contact us](https://www.syskit.com/contact-us/) for more info. 
 

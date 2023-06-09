@@ -1,2 +1,2 @@
-# Get to Know SysKit Point
+# Get to Know Syskit Point
 
