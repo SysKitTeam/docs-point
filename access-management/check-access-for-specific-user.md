@@ -6,13 +6,13 @@ description: This article explains how to generate the User Access report and th
 
 ## User Access in Microsoft 365 Environment
 
-When using **Microsoft 365** for your daily **collaboration**, there are numerous occasions where you will **grant** or **remove access** to specific items in your environment. **Microsoft 365** gives multiple ways of doing that, be it via **direct access** to the file or maybe through **security groups**, **SharePoint groups**, and **sharing links**, among others. After a while, you may lose traction of which user has access to a specific item and how you gave the access. This is where the **SysKit Point User Access report** comes in to save the day.
+When using **Microsoft 365** for your daily **collaboration**, there are numerous occasions where you will **grant** or **remove access** to specific items in your environment. **Microsoft 365** gives multiple ways of doing that, be it via **direct access** to the file or maybe through **security groups**, **SharePoint groups**, and **sharing links**, among others. After a while, you may lose traction of which user has access to a specific item and how you gave the access. This is where the **Syskit Point User Access report** comes in to save the day.
 
-## SysKit Point User Access Report
+## Syskit Point User Access Report
 
 ### Capabilities
 
-**SysKit Point User Access report** is a powerful tool that allows you to **check** all **access** for **every specific user** in your **Microsoft 365 environment**. It enables you to:
+**Syskit Point User Access report** is a powerful tool that allows you to **check** all **access** for **every specific user** in your **Microsoft 365 environment**. It enables you to:
 
 * See what type of **access** does a user have \(**Full Control**, **Edit**, **Contribute**, or **any other level of access** you may have **granted** in your **environment**\).
 * Understand **through which channel** is the **access given** to the user \(**Being a member in a SharePoint group**, **Group owner**, **Administrator**, through a **security group** or **directly** to said **user**\).
@@ -34,16 +34,16 @@ Some of them are:
 
 ### Generate User Access Report
 
-First, you need to **Sign in** to your **SysKit Point**. When located on the **home screen**, click the **Reports** tile.
+First, you need to **Sign in** to your **Syskit Point**. When located on the **home screen**, click the **Reports** tile.
 
-![SysKit Point - Welcome screen](../.gitbook/assets/user_access_docs1.png)
+![Syskit Point - Welcome screen](../.gitbook/assets/user_access_docs1.png)
 
-It will redirect you to the **SysKit Point Report Center**, where you can click the **User Access** report tile.
+It will redirect you to the **Syskit Point Report Center**, where you can click the **User Access** report tile.
 
-![SysKit Point - Report Center](../.gitbook/assets/user_access_docs2.png)
+![Syskit Point - Report Center](../.gitbook/assets/user_access_docs2.png)
 
 {% hint style="info" %}
-**Hint! -** you can also access the **User Access report** through various other **SysKit Point** **reports**, **User overview screen**, and **User details screens**.
+**Hint! -** you can also access the **User Access report** through various other **Syskit Point** **reports**, **User overview screen**, and **User details screens**.
 {% endhint %}
 
 Now that you are located on the **User Access selection** **screen**:
@@ -82,7 +82,7 @@ There are several ways to remove access for a user through the report:
 
 ![User Access - Remove Access action](../.gitbook/assets/check-access-for-specific-user_remove-access.png)
 
-![SysKit Point User Access report Remove Access action prompt](../.gitbook/assets/check-access-for-specific-user_remove-access-confirm.png)
+![Syskit Point User Access report Remove Access action prompt](../.gitbook/assets/check-access-for-specific-user_remove-access-confirm.png)
 
 After completing the action, you will receive a **notification** containing the **see the result** link, which reloads the report data when clicked. Once the action is completed, the user will no longer have access to any resources. 
 

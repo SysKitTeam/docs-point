@@ -4,7 +4,7 @@ description: This article describes how to compare Configuration Inventory snaps
 
 # Compare Snapshots
 
-SysKit Point Configuration Inventory module allows you to compare snapshots.
+Syskit Point Configuration Inventory module allows you to compare snapshots.
 
 You can track Microsoft 365 tenant changes and compare specific settings between snapshots with the comparison option. With a couple of easy steps, you can view the desired differences and export the result.  
 

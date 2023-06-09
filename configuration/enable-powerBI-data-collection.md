@@ -1,5 +1,5 @@
 ---
-description: This article explains how to enable Power BI data collection for SysKit Point.
+description: This article explains how to enable Power BI data collection for Syskit Point.
 ---
 
 # Enable Power BI Data Collection
@@ -8,7 +8,7 @@ description: This article explains how to enable Power BI data collection for Sy
 **Power BI reports** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 {% endhint %}
 
-Enabling Power BI data collection for SysKit Point requires initial setup through your Azure Portal. 
+Enabling Power BI data collection for Syskit Point requires initial setup through your Azure Portal. 
 
 ## Create a Power BI Security Group 
 
@@ -22,16 +22,16 @@ Fill out the following details when creating the new group:
 
  * Under **Group Type (1)**, select **Security (2)**
  * **Name (3)** the group **Power BI Group** or similar
- * For the **Group Description (4)** list the purpose of the new group, for example 'SysKit Point Power BI data collection group'
+ * For the **Group Description (4)** list the purpose of the new group, for example 'Syskit Point Power BI data collection group'
  * Select the **Owners and Members (5)** of the Group
-   * Add the **SysKit Point Power Platform application** as a member of the security group
+   * Add the **Syskit Point Power Platform application** as a member of the security group
  * **Click Create (6)** when finished
 
 ![Create New Security Group - Power BI](../.gitbook/assets/enable-powerBI-data-collection_create-newgroup.png)
 
 {% hint style="warning" %}
 **Please note!**  
-Make sure the **SysKit Point Power Platform application** is selected as the member of this group, as shown in the picture below. {% endhint %}
+Make sure the **Syskit Point Power Platform application** is selected as the member of this group, as shown in the picture below. {% endhint %}
 
 ![Create New Security Group - Power BI](../.gitbook/assets/enable-powerBI-data-collection_power-platform.png)
 
@@ -70,13 +70,13 @@ The next step is to configure Power BI tenant settings which can be done in the 
 It can take **up to 15 minutes** for these changes to apply. {% endhint %}
 
 
-## Enable Power BI Data Collection in SysKit Point
+## Enable Power BI Data Collection in Syskit Point
 
-Collecting Power BI data is disabled by default and must also be enabled within SysKit Point.  
+Collecting Power BI data is disabled by default and must also be enabled within Syskit Point.  
 
-  * **Go to General Settings (1)**; located in the top right corner of SysKit Point. 
+  * **Go to General Settings (1)**; located in the top right corner of Syskit Point. 
   * **Click the Power Platform (2)**, which can be found under General.
   * **Click the checkbox (3)** to **Collect Power BI data**; the checkbox turns orange and shows a checkmark to indicate it was selected. 
   * **Click Save (4)** when finished. 
 
- ![Enabling Power BI data collection in SysKit Point](../.gitbook/assets/enable-powerbi-data-collection_syskit-point-enable.png)
+ ![Enabling Power BI data collection in Syskit Point](../.gitbook/assets/enable-powerbi-data-collection_syskit-point-enable.png)

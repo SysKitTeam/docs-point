@@ -1,10 +1,10 @@
 ---
-description: This article explains how to create a snapshot of Microsoft 365 configuration settings using SysKit Point.
+description: This article explains how to create a snapshot of Microsoft 365 configuration settings using Syskit Point.
 ---
 
 # Create Snapshot
 
-A snapshot in the context of SysKit Point is a collection of all the Microsoft 365 configuration settings taken at a specific point in time. 
+A snapshot in the context of Syskit Point is a collection of all the Microsoft 365 configuration settings taken at a specific point in time. 
 
 There are two ways to create a snapshot:
 * **manual** - described in this article
@@ -20,7 +20,7 @@ Before creating a snapshot, make sure to read the [Configuration Inventory Requi
 To create a snapshot:
 * Click the Configuration Inventory tile (1) on the Home screen - the Configuration Inventory screen opens 
 * Click the Take Snapshot option (2) available in the side panel under the Manage section - the Take Snapshot dialog opens
-* Click the Start Snapshot button (3) - SysKit Point starts to collect data in the background
+* Click the Start Snapshot button (3) - Syskit Point starts to collect data in the background
 
 ![Configuration Inventory Tile](../../.gitbook/assets/create-snapshot_cim-tile.png)
 

@@ -2,8 +2,8 @@
 description: This article provides answers regarding backups and data security. 
 ---
   
-## Does SysKit Point perform database backups? Are these backups encrypted? 
-SysKit Point uses two types of Azure resources to store data:
+## Does Syskit Point perform database backups? Are these backups encrypted? 
+Syskit Point uses two types of Azure resources to store data:
 * **Azure SQL Database**, and
 * **Azure Cosmos DB**
 
@@ -21,21 +21,21 @@ As a PaaS service, Azure Cosmos DB is very easy to use. Because all user data st
 
 The solution uses TLS 1.2 and HTTPS to secure all messages.
 
-## Can I host SysKit Point in my own Azure subscription?
+## Can I host Syskit Point in my own Azure subscription?
 
-Yes, SysKit Point can be hosted by yourself in your own Azure subscription. Self-hosting is only available for the Data Center plan and will require additional installation and onboarding fees. Feel free to contact us to get more information about the Data Center plan.
+Yes, Syskit Point can be hosted by yourself in your own Azure subscription. Self-hosting is only available for the Data Center plan and will require additional installation and onboarding fees. Feel free to contact us to get more information about the Data Center plan.
 
 
 ## Do you perform both manual and automated testing as a part of your Quality Assurance process?
 
-Yes, SysKit believes that the quality of the product is extremely important for our customer satisfaction. We have quality assurance processes in place, and both manual and automated testing are included.
+Yes, Syskit believes that the quality of the product is extremely important for our customer satisfaction. We have quality assurance processes in place, and both manual and automated testing are included.
 
-## What happens to customer data once that SysKit Point subscription or trial period is over?
+## What happens to customer data once that Syskit Point subscription or trial period is over?
 
 In the first phase, we will freeze your data for a period of 21 days, in which period you will still be able to select a pricing plan but won't be able to use any of the reports. After this period of 21 days, your data will be destroyed as per the DPA (Data Processing Agreement). 
 
-## Why do I need to grant Global Admin permissions to SysKit Point?
+## Why do I need to grant Global Admin permissions to Syskit Point?
 
-For the first connection and some bigger upgrades, a global administrator needs to give consent to SysKit Point on your tenant. This consent allows us to crawl your environment and perform management actions from SysKit Point. During that process, the SysKit Point instance is registered in Azure Active Directory as an Active Directory Application. For various product functionalities, we use Azure, Microsoft Graph, and SharePoint Online APIs to perform certain actions. For some of these actions and crawls, we need delegated permissions, which is why a global admin must consent on behalf of all users in your tenant. 
+For the first connection and some bigger upgrades, a global administrator needs to give consent to Syskit Point on your tenant. This consent allows us to crawl your environment and perform management actions from Syskit Point. During that process, the Syskit Point instance is registered in Azure Active Directory as an Active Directory Application. For various product functionalities, we use Azure, Microsoft Graph, and SharePoint Online APIs to perform certain actions. For some of these actions and crawls, we need delegated permissions, which is why a global admin must consent on behalf of all users in your tenant. 
   * For more info on all required permissions, check out [this article](../requirements/permission-requirements.md).
   * To see which product updates require admin re-consent, visit [this article](../requirements/permission-requirements-change-log.md). 

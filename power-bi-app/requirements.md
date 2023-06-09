@@ -1,5 +1,5 @@
 ---
-description: This article lists all the requirements to be met before deploying the SysKit Power BI app.
+description: This article lists all the requirements to be met before deploying the Syskit Power BI app.
 ---
 
 {% hint style="information" %}
@@ -8,12 +8,12 @@ description: This article lists all the requirements to be met before deploying 
 
 {% hint style="success" %}
 Before you begin ensuring that the requirements for the Azure Power BI app are met, verify the following:
-* **SysKit Point is deployed**
+* **Syskit Point is deployed**
 * **SQL Server Management Studio is installed on your client machine**
 * **You have the Azure SQL Server name and Server admin credentials on hand**
 {% endhint %}
 
-For the Power BI app to access SysKit Point data, the following steps need to be completed:
+For the Power BI app to access Syskit Point data, the following steps need to be completed:
 
 * **Allow access to Azure SQL Server for Power BI app and client machine**
 * **Enable SQL authentication on Azure SQL Server**
@@ -22,13 +22,13 @@ For the Power BI app to access SysKit Point data, the following steps need to be
 
 ## Allowing Access to Azure SQL Server
 
-To enable the Power BI app to access data in the SysKit Point database, access to the Azure SQL Server needs to be allowed. 
+To enable the Power BI app to access data in the Syskit Point database, access to the Azure SQL Server needs to be allowed. 
 To do so:
-* **Navigate to [Azure Portal](https://portal.azure.com/) and open the SysKit Point resource group**
+* **Navigate to [Azure Portal](https://portal.azure.com/) and open the Syskit Point resource group**
 * **Find and open the SQL Server resource**
 * **Open Security > Networking (1)**
 * **For the Public network access option, set it to Selected networks (2)**
-* **Click Add Your Client IPv4 address (3) to allow access from your client machine**; this is needed to connect to the SysKit Point database via the SQL Server Management Studio
+* **Click Add Your Client IPv4 address (3) to allow access from your client machine**; this is needed to connect to the Syskit Point database via the SQL Server Management Studio
 * **Click the checkbox to Allow Azure services and resources to access this server (4);** enabling this will allow access from the Power BI App and is located under Exceptions at the bottom of the screen
 * Click **Save (5)** to store preferences
 
@@ -54,11 +54,11 @@ The next step that should be completed while setting up the Azure SQL server is 
 
 ## Creating Server Login and Database User for Power BI App
 
-Before running the SQL scripts listed below, open **SQL Server Management Studio** and connect to the Azure SQL server holding the SysKit Point database.
+Before running the SQL scripts listed below, open **SQL Server Management Studio** and connect to the Azure SQL server holding the Syskit Point database.
 [Learn how to connect to an Azure SQL Database here](https://docs.microsoft.com/en-us/sql/ssms/quickstarts/ssms-connect-query-azure-sql?view=sql-server-ver15#connect-to-an-azure-sql-database-or-azure-sql-managed-instance).
 
 {% hint style="info" %}
-To connect, use the SQL credentials created when [deploying SysKit Point](../installation/deploy-syskit-point.md).
+To connect, use the SQL credentials created when [deploying Syskit Point](../installation/deploy-syskit-point.md).
 {% endhint %}
 
 ### New Server Login

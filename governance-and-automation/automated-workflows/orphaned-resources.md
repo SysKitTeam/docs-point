@@ -1,18 +1,18 @@
 ---
-description: This article explains how to resolve the Orphaned Resources policy violation in SysKit Point.
+description: This article explains how to resolve the Orphaned Resources policy violation in Syskit Point.
 ---
 
 # Orphaned Resources
 
-**This article shows how you can resolve the Orphaned Resources policy violation** triggered when SysKit Point detects that Microsoft Teams and Microsoft 365 Groups don’t have active owners. 
+**This article shows how you can resolve the Orphaned Resources policy violation** triggered when Syskit Point detects that Microsoft Teams and Microsoft 365 Groups don’t have active owners. 
 
 {% hint style="info" %}
-SysKit Point Administrators can [decide whether specific users will be responsible for assigning new owners or existing team/group members will suggest new owners](set-up-automated-workflows.md).
+Syskit Point Administrators can [decide whether specific users will be responsible for assigning new owners or existing team/group members will suggest new owners](set-up-automated-workflows.md).
 The first option is a **1-stage process** where the policy violation is resolved when you promote members to owners or add new owners.
 The second option is a **2-stage process** where after the members suggest new owners, an additional step is required from defined users to approve the suggestion. 
 {% endhint %}
 
-In both cases, SysKit Point will send you an e-mail that will guide you through the process of resolving the policy violation. 
+In both cases, Syskit Point will send you an e-mail that will guide you through the process of resolving the policy violation. 
 
 Below, both cases are separately explained in more detail.
 
@@ -20,18 +20,18 @@ Below, both cases are separately explained in more detail.
 
 ### Policy Violation E-Mail
 
-SysKit Point sends you an **e-mail asking you to assign new owners** when Microsoft Teams or Microsoft 36 Groups are detected that have no active owners.
+Syskit Point sends you an **e-mail asking you to assign new owners** when Microsoft Teams or Microsoft 36 Groups are detected that have no active owners.
 
 You can find the following information in the e-mail:
 * **Microsoft Teams or Microsoft 365 Group where the policy violation was detected (1)**
 * **Due date to resolve the policy violation (2)**; you have 15 workdays to resolve the policy violation
-* **Resolve button (3)** that takes you to SysKit Point, where you can resolve the policy violation
+* **Resolve button (3)** that takes you to Syskit Point, where you can resolve the policy violation
 
 ![ Policy Violation E-mail](../../.gitbook/assets/orphaned_resources-assign_owners_email.png)
 
 ### Policy Violation Task
 
-Along with the e-mail, SysKit Point creates a policy violation task that provides you with all information and actions needed to resolve the policy violation. 
+Along with the e-mail, Syskit Point creates a policy violation task that provides you with all information and actions needed to resolve the policy violation. 
 The following is available on the task screen if you were selected to assign new owners:
 * **List of current members along with Search to help you filter out specific ones (1)**
 * **Promote to Owner action (2)**; once clicked, an **appropriate message appears next to the promoted user along with the Undo action (3)**
@@ -58,7 +58,7 @@ The following is available on the task screen if you were selected to assign new
 **After you resolve the policy violation**, **a confirmation e-mail is sent to all users that were assigned with the task**, showing the following information:
 * **Microsoft Teams or Microsoft 365 Group where the policy violation was resolved (1)**
 * **Who and when (2) resolved the policy violation**
-* **View Details button (3) that opens the History screen in SysKit Point showing all the activities that were performed within the automated workflow**
+* **View Details button (3) that opens the History screen in Syskit Point showing all the activities that were performed within the automated workflow**
 
 ![Policy Violation Resolved - E-mail](../../.gitbook/assets/orphaned_resources-confirmation_email.png)
 
@@ -71,16 +71,16 @@ In the first stage, **if you are a member of the team/group that has no owners, 
 You can find the following information in the e-mail:
 * **Microsoft Teams or Microsoft 365 Group where the policy violation was detected (1)**
 * **Due date to resolve the policy violation (2)**; you have 15 workdays to resolve the policy violation
-* **Resolve button (3)** that takes you to SysKit Point, where you can resolve the policy violation
+* **Resolve button (3)** that takes you to Syskit Point, where you can resolve the policy violation
 
 ![Policy Violation E-mail](../../.gitbook/assets/orphaned_resources-suggest_owners_email.png)
 
 
-**Click the Resolve button** to open the policy violation task in SysKit Point.
+**Click the Resolve button** to open the policy violation task in Syskit Point.
 
 ### Members’ Policy Violation Task
 
-**Along with the e-mail, SysKit Point creates a policy violation task** that provides you with all information and actions needed to resolve it within SysKit Point. 
+**Along with the e-mail, Syskit Point creates a policy violation task** that provides you with all information and actions needed to resolve it within Syskit Point. 
 The following is available on the task screen:
 * **List of current members along with Search to help you filter out specific ones (1)**
 * **Suggest action (2)**; once clicked, an **appropriate message appears next to the suggested user along with the Undo action (3)**
@@ -113,15 +113,15 @@ In the second stage of the process, **if you are defined to approve members' sug
 You can find the following information in the e-mail:
 * **Microsoft Teams or Microsoft 365 Group where the policy violation was detected (1)**
 * **Due date to resolve the policy violation (2)**; you have 15 workdays to resolve the policy violation
-* **Resolve button (3)** that takes you to SysKit Point, where you can resolve the policy violation
+* **Resolve button (3)** that takes you to Syskit Point, where you can resolve the policy violation
 
 ![Policy Violation E-mail](../../.gitbook/assets/orphaned_resources-assign_owners_email_approvers.png)
 
-**Click the Resolve button** to open the policy violation task in SysKit Point.
+**Click the Resolve button** to open the policy violation task in Syskit Point.
 
 ### Approvers’ Policy Violation Task
 
-**Along with the e-mail, SysKit Point creates a policy violation task** that provides you with all information and actions needed to resolve the policy violation. 
+**Along with the e-mail, Syskit Point creates a policy violation task** that provides you with all information and actions needed to resolve the policy violation. 
 The following is available on the task screen:
 * **Number of votes from members for each option (1)**
 * **Promote to Owner action (2)**; once clicked, an **appropriate message appears next to the promoted user along with the Undo action**
@@ -142,7 +142,7 @@ The following is available on the task screen:
 **After you resolve the policy violation**, a **confirmation e-mail is also sent to all users that were assigned with the task**, showing the following information:
 * **Microsoft Teams or Microsoft 365 Group where the policy violation was resolved (1)**
 * **Who and when (2) resolved the policy violation**
-* **View Details button (3)** that opens the History screen in SysKit Point, showing all the activities that were performed within the automated workflow
+* **View Details button (3)** that opens the History screen in Syskit Point, showing all the activities that were performed within the automated workflow
 
 ![Policy Violation Resolved - E-mail](../../.gitbook/assets/orphaned_resources-confirmation_email.png)
 
@@ -150,7 +150,7 @@ The following is available on the task screen:
 
 {% hint style="warning" %}
 **Please Note!**
-In case you decide to ignore the policy violation, **Microsoft Teams or Microsoft 365 Groups where the policy violation was detected will be considered compliant for the next 6 months**. **For the next 6 months, SysKit Point will not send any policy violation e-mails or create tasks for the team/group**.
+In case you decide to ignore the policy violation, **Microsoft Teams or Microsoft 365 Groups where the policy violation was detected will be considered compliant for the next 6 months**. **For the next 6 months, Syskit Point will not send any policy violation e-mails or create tasks for the team/group**.
 {% endhint %}
 
 **After you ignore the policy violation, the history screen opens**, as shown in the image below. 

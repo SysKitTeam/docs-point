@@ -1,23 +1,23 @@
 ---
-description: This article explains how to upgrade from SQL to Managed Identity authentication in SysKit Point. 
+description: This article explains how to upgrade from SQL to Managed Identity authentication in Syskit Point. 
 ---
 
 # Managed Identity Authentication
 
-Instead of using SQL authentication, you are now able to **use Managed Identity authentication with SysKit Point**. If you deploy SysKit Point after the [v2022.5 release](../releases/data-center/point-2022-5-release-note.md), Managed Identity will be the authentication method by default. 
+Instead of using SQL authentication, you are now able to **use Managed Identity authentication with Syskit Point**. If you deploy Syskit Point after the [v2022.5 release](../releases/data-center/point-2022-5-release-note.md), Managed Identity will be the authentication method by default. 
 
-Those that deployed SysKit Point before that release can manually upgrade to Managed Identity. 
+Those that deployed Syskit Point before that release can manually upgrade to Managed Identity. 
 
 ## SQL Server Information
 
-After updating SysKit Point with the latest release, SysKit Point will still continue using SQL authentication. 
+After updating Syskit Point with the latest release, Syskit Point will still continue using SQL authentication. 
 
 In order to enable Managed Identity authentication instead of SQL authentication, complete the following steps:
 
-* **Navigate to [Azure Portal](https://portal.azure.com/) and open the SysKit Point resource group**
+* **Navigate to [Azure Portal](https://portal.azure.com/) and open the Syskit Point resource group**
 * **Find and open the SQL Server resource (1)**; this can be located under Resources, with the **Type listed as SQL server**
 
-![SysKit Point resource group - SQL server](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication_sql-server.png)
+![Syskit Point resource group - SQL server](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication_sql-server.png)
 
 * **Copy the SQL server name (2)** listed on the right side. The name is formatted as: servername.database.windows.net
   * This information will be needed for one of the next steps, so store it somewhere easy to access
@@ -27,21 +27,21 @@ In order to enable Managed Identity authentication instead of SQL authentication
 
 ## Upgrade to Managed Identity Authentication
 
-* On the SysKit Point resource group, **click the Managed Identity resource (1)**
+* On the Syskit Point resource group, **click the Managed Identity resource (1)**
   * Located under Resources and marked as Managed Identity in the Type column
 
-![SysKit Point resource group - Managed Identity](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication_managed-identity.png)
+![Syskit Point resource group - Managed Identity](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication_managed-identity.png)
 
 * **Copy the Client ID (2)**; located on the right side of the Managed Identity resource screen 
    * This will be needed later, so store the copied text somewhere it will be easy to locate
 
 ![Managed Identity - Client ID](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication_copy-client-ID.png)
 
-* Return to the **SysKit Point resource group** page
+* Return to the **Syskit Point resource group** page
 * **Click the Key Vault resource (1)** 
   * Located under Resources and marked as Key Vault in the Type column
 
-![SysKit Point resource group - Key Vault](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication_key-vault.png)
+![Syskit Point resource group - Key Vault](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication_key-vault.png)
 
 * **Select the Access Policies option (2)**; located on the left side of the screen
 * Click the **Create (3)** button at the top of the screen
@@ -94,7 +94,7 @@ If this was completed successfully, proceed to the following steps:
 **IMPORTANT!**  
 There are two parts of the above text that will need to be changed:
 
-Data Source=tcp:**{serverName}** should be pasted from your SQL server for SysKit Point. The text is formatted as: servername.database.windows.net
+Data Source=tcp:**{serverName}** should be pasted from your SQL server for Syskit Point. The text is formatted as: servername.database.windows.net
 
 User Id="**{managed identity client id}** needs to be changed. The Client ID you previously copied from your Managed Identity resource should be placed where the text says **managed identity client id**. 
 
@@ -109,7 +109,7 @@ For example, after being edited with your server information, the text should lo
 ![Key Vault - Create a secret](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication_key-vault-db-secret-create.png)
 
 
-After successfully setting this up, the next step will be removing the access granted to perform the previous changes to secure SysKit Point Azure resources. 
+After successfully setting this up, the next step will be removing the access granted to perform the previous changes to secure Syskit Point Azure resources. 
 
 * **Under Networking, remove your IP address**
   * If this was successfully done, when clicking on Secret, the page should be empty
@@ -117,7 +117,7 @@ After successfully setting this up, the next step will be removing the access gr
 
 The last steps to finish setting up your Managed Identity authentication are the following:
 
-* **Navigate back to the SysKit Point resource group**
+* **Navigate back to the Syskit Point resource group**
 * **Open the SQL Server resource**
 * Once there, **click the Azure Active Directory (1)**; located on the left side under Settings
 * **Click the Set Admin (2)** button at the top of the screen
