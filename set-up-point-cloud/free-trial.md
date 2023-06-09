@@ -125,7 +125,7 @@ After the Syskit Point instance is created, you can find the following in the Co
 * **Open Syskit Point button (1)**
   * Opens Syskit Point web app URL in a new browser tab
 * **Manage Subscription button (2)**
-  * Opens the Subscription portal where you can [manage your Syskit Point subscription](Syskit-point-subscriptions.md)
+  * Opens the Subscription portal where you can [manage your Syskit Point subscription](syskit-point-subscriptions.md)
 
 ![Syskit Point instance created](../.gitbook/assets/free-trial-subscriptions-complete-point-instance-created.png)
 
