@@ -1,15 +1,15 @@
 ---
-description: This article shows how to update SysKit Point - Power BI Companion app.
+description: This article shows how to update Syskit Point - Power BI Companion app.
 ---
 
-# Update SysKit Point Power BI App
+# Update Syskit Point Power BI App
 
-To update the SysKit Point Power BI app:
+To update the Syskit Point Power BI app:
 
 * **Open [Power BI](https://app.powerbi.com/)**
 * **Navigate to Apps**
 * **Click Get apps**
-* **Find SysKit Point - Power BI Companion**
+* **Find Syskit Point - Power BI Companion**
 * **Click Get it now**
 
 **You might be asked to permit usage of your account information and enter your contact data**. Fill in your information and click **Continue**.

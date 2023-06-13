@@ -1,16 +1,16 @@
 ---
 description: >-
   This article provides a full overview of the automated Access Review process
-  in SysKit Point from a site owner's perspective.
+  in Syskit Point from a site owner's perspective.
 ---
 
 # Complete Access Review Tasks
 
-* **Watch this short video for a quick start on Access Review tasks in SysKit Point**.
+* **Watch this short video for a quick start on Access Review tasks in Syskit Point**.
 
 {% embed url="https://vimeo.com/731363189/a68fb4c8a2" %}
 
-* **Continue with the article to find detailed information** on how to complete Access Review tasks in SysKit Point.
+* **Continue with the article to find detailed information** on how to complete Access Review tasks in Syskit Point.
 
 ## Workspace Access Review
 
@@ -31,16 +31,16 @@ The **Access Review task is usually performed by a site owner** and includes:
 * **Checking if only necessary content is externally shared.**
 * **Performing correcting actions** to mitigate errors discovered in previous steps.
 
-**SysKit Point** provides the tools the site owners need to perform these tasks.
+**Syskit Point** provides the tools the site owners need to perform these tasks.
 
-Two different roles can view The Access Review in SysKit Point:
+Two different roles can view The Access Review in Syskit Point:
 
-* **Site Owner with the SysKit Point Collaborator** role assigned in SysKit Point, as described in this article
-* [SysKit Point Admin user](../governance-and-automation/permissions-review/monitor-permissions-review.md)
+* **Site Owner with the Syskit Point Collaborator** role assigned in Syskit Point, as described in this article
+* [Syskit Point Admin user](../governance-and-automation/permissions-review/monitor-permissions-review.md)
 
-When working with Access Review, SysKit Point Collaborators can **perform the Access Review on workspaces where they are an owner or admin**.
+When working with Access Review, Syskit Point Collaborators can **perform the Access Review on workspaces where they are an owner or admin**.
 
-For a site owner or admin assigned to the SysKit Point Collaborators role, the Access Review process begins with an email.
+For a site owner or admin assigned to the Syskit Point Collaborators role, the Access Review process begins with an email.
 
 ## Access Review Email Request
 
@@ -61,13 +61,13 @@ The **Review Now** button opens the **Access Review Task** screen once clicked. 
 
 From here, you can continue and review a site by clicking the **link in the Task column (2)**, or **selecting a row (3)** and clicking the **Review action (4)**.
 
-This screen can also be accessed from within SysKit Point by selecting **My Tasks**.
+This screen can also be accessed from within Syskit Point by selecting **My Tasks**.
 
 ## My Tasks
 
 The **My Tasks** tile is located on the Home screen, and a notification bubble displays the number of tasks that need to be reviewed.
 
-It is set to one because a single Access Review task was created by SysKit Point and assigned to you. The **user profile** button shows the same notification bubble.
+It is set to one because a single Access Review task was created by Syskit Point and assigned to you. The **user profile** button shows the same notification bubble.
 
 To view tasks assigned to you, click the **My Tasks tile** on the Home screen or the **My Tasks section** in the user profile menu.
 
@@ -253,7 +253,7 @@ To complete the Access Review, take the following steps:
 
 * **Click the Complete Review button (1)**; on the bottom of the Summary step, the **Complete Review dialog opens**.
 * **Leave a comment**; the changes made to ensure the site is secure can be described here.
-  * The comment is visible to all site owners and SysKit Point Admins.
+  * The comment is visible to all site owners and Syskit Point Admins.
 * **Type CONFIRM (3)** in the appropriate field.
 * **Click the Confirm button (4)**.
 
@@ -292,7 +292,7 @@ The **Review Summary** report shows a detailed log of actions performed during t
 
 After ten days, the Access Review cycle ends.
 
-SysKit Point automatically changes the status of all uncompleted site reviews to **Expired**.
+Syskit Point automatically changes the status of all uncompleted site reviews to **Expired**.
 
 They can be found on the **Access Review** task screen.
 
@@ -302,10 +302,10 @@ After the Access Review is completed, expired tasks can no longer be finalized.
 
 With that, **the first Access Review cycle is concluded**.
 
-The Access Review cycle will repeat based on the schedule defined by the SysKit Point Admin or when manually requested.
+The Access Review cycle will repeat based on the schedule defined by the Syskit Point Admin or when manually requested.
 
 ## Related Topics
 
-For information on performing **Lifecycle Management tasks as a SysKit Point Collaborator** take a look at the following article:
+For information on performing **Lifecycle Management tasks as a Syskit Point Collaborator** take a look at the following article:
 
 * [Perform Lifecycle Management Tasks](lifecycle-management.md)

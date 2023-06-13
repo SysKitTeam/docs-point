@@ -1,5 +1,5 @@
 ---
-description: This article explains how to set up and use custom metadata for reports in SysKit Point.
+description: This article explains how to set up and use custom metadata for reports in Syskit Point.
 ---
 
 # Custom Metadata
@@ -8,9 +8,9 @@ description: This article explains how to set up and use custom metadata for rep
 **Managing Custom Metadata** is available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 {% endhint %}
 
-In the context of Microsoft 365, the metadata in SysKit Point provides detailed information on **Microsoft Teams, Microsoft 365 Groups, Sites, and OneDrive**.
+In the context of Microsoft 365, the metadata in Syskit Point provides detailed information on **Microsoft Teams, Microsoft 365 Groups, Sites, and OneDrive**.
 
-**Essential metadata** is natively available in  Microsoft 365 and collected by SysKit Point during the sync process. 
+**Essential metadata** is natively available in  Microsoft 365 and collected by Syskit Point during the sync process. 
 
 Here are some examples of such metadata:
 
@@ -19,7 +19,7 @@ Here are some examples of such metadata:
  * **The storage used by a site**
  * **And other useful information**
 
-With SysKit Point custom metadata feature, you can:
+With Syskit Point custom metadata feature, you can:
 
 * **Leverage custom metadata** to expand on the existing information and better describe Microsoft Teams, Microsoft 365 Groups, Sites, and OneDrive in relation to your business processes and policies.
 
@@ -28,7 +28,7 @@ With SysKit Point custom metadata feature, you can:
 * **Provision new workspaces** from templates that define the custom metadata to be specified. 
 
 ## Create Custom Metadata
-This section will explain how to set up custom metadata in SysKit Point. 
+This section will explain how to set up custom metadata in Syskit Point. 
 
 To start, take the following steps:
 * On the Home page, click on **Settings(1)**; located in the top right corner of the screen.

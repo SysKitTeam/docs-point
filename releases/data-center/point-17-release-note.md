@@ -1,10 +1,10 @@
 ---
-description: This article describes the new features and improvements in SysKit Point version 17.
+description: This article describes the new features and improvements in Syskit Point version 17.
 ---
 
-# SysKit Point 17
+# Syskit Point 17
 
-Let the festivities begin; **SysKit Point 17 is here**! Although it's still November, we bring you many gifts and treats to sweeten your end of the year! The list is long, so scroll down fast!
+Let the festivities begin; **Syskit Point 17 is here**! Although it's still November, we bring you many gifts and treats to sweeten your end of the year! The list is long, so scroll down fast!
 
 [Schedule a demo](https://www.syskit.com/products/point/request-a-demo/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
@@ -18,7 +18,7 @@ Let the festivities begin; **SysKit Point 17 is here**! Although it's still Nove
 **Scheduled reports** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 {% endhint %}
 
-* **Scheduled reports are available!** Now you can set the reports to be delivered via email or saved to a document library, which can help you share information and collaborate with external team members without giving them access to SysKit Point. When working with Scheduled Reports, you can:
+* **Scheduled reports are available!** Now you can set the reports to be delivered via email or saved to a document library, which can help you share information and collaborate with external team members without giving them access to Syskit Point. When working with Scheduled Reports, you can:
 
   * **Schedule all reports and views** with a couple of clicks
   * **Create subscriptions with multiple scheduled reports** that share the same schedule frequency and delivery options
@@ -37,7 +37,7 @@ Let the festivities begin; **SysKit Point 17 is here**! Although it's still Nove
   * **New filters were added to reports** displayed in the Access Review wizard steps
   * **Admins can manually request Access Reviews without enabling the Automated Access Review** 
 
-  To learn all about the Access Review in SysKit Point, read the following articles:
+  To learn all about the Access Review in Syskit Point, read the following articles:
 
   * [Enable Automated Access Review](../governance-and-automation/permissions-review/enable-permissions-review.md)
   * [Perform Access Review](../point-collaborators/resolve-governance-tasks/access-review.md)
@@ -57,9 +57,9 @@ Let the festivities begin; **SysKit Point 17 is here**! Although it's still Nove
 
   You can find the new action on the Sites overview screen when one or multiple sites are selected, as well as on the Site details screen.
 
-* **SysKit Point supports new group types – Distribution Lists and Mail-enabled security groups!** You can find group members and their access by using the **Group Access report**. All Distribution Lists and Mail-enabled security groups, which the user is a member of, are displayed on the user details screen.
-* **New Audit Index growth charts are available!** They show valuable information on how your audit data is growing through time, which can help you plan and ensure enough disk size for SysKit Point to save the audit data. The charts are available on the Audit Settings screen. 
-* **When customizing emails**, you can now **upload your logo and banner images** directly from SysKit Point settings, eliminating the need to set up your environment to host the content. 
+* **Syskit Point supports new group types – Distribution Lists and Mail-enabled security groups!** You can find group members and their access by using the **Group Access report**. All Distribution Lists and Mail-enabled security groups, which the user is a member of, are displayed on the user details screen.
+* **New Audit Index growth charts are available!** They show valuable information on how your audit data is growing through time, which can help you plan and ensure enough disk size for Syskit Point to save the audit data. The charts are available on the Audit Settings screen. 
+* **When customizing emails**, you can now **upload your logo and banner images** directly from Syskit Point settings, eliminating the need to set up your environment to host the content. 
 
 ## Improvements & Bug Fixes
 
@@ -68,7 +68,7 @@ Let the festivities begin; **SysKit Point 17 is here**! Although it's still Nove
   * **Search query performance on Azure VM was improved** with additional caching
   * **Insignificant event logs are no longer saved by default to reduce disk requirements and improve performance**; for example, FileModifiedExtended and FileAccessedExtended
   * **New filters were introduced to audit reports** – you can now filter the ‘Site Permissions Changes’ and ‘File and Page Activities’ report by external or internal users only, or even select specific users to filter the report by
-* **Audit log notifications improved!** SysKit Point now shows an appropriate notification when the disk space is getting low. In case there is less than five percent disk space available, the audit log data collection is stopped, and the error is displayed. 
+* **Audit log notifications improved!** Syskit Point now shows an appropriate notification when the disk space is getting low. In case there is less than five percent disk space available, the audit log data collection is stopped, and the error is displayed. 
 * **Export added to all views!** You can now export exact data that you see when selecting different views on overview screens – Sites, Microsoft Teams & Groups, and Users overview screen.   
 * **Domain column was added to the External Users report**, enabling you to filter external users from the same domain easily. 
 * **Fixed the Details column filter** on the User Access report to show valid group names. 
@@ -76,7 +76,7 @@ Let the festivities begin; **SysKit Point 17 is here**! Although it's still Nove
 
   `SysKit.SecurityManager.WorkerUtils.Database.CustomSqlException: Cannot insert duplicate key row in object 'dbo.ConnectedUnifiedGroups' with unique index 'UX_ConnectedSiteCollectionID'.`
 
-* **Fixed an issue with the email sender job**, where the following error would appear in case SysKit Point was connected to multiple tenants:
+* **Fixed an issue with the email sender job**, where the following error would appear in case Syskit Point was connected to multiple tenants:
 
   `System.InvalidOperationException: Collection was modified; enumeration operation may not execute.`
 

@@ -1,5 +1,5 @@
 ---
-description: This article explains how to apply and manage policies in SysKit Point.
+description: This article explains how to apply and manage policies in Syskit Point.
 ---
 
 
@@ -15,7 +15,7 @@ You can choose from the following:
 * **Maximum Number of Owners**
 * **Orphaned Resources**
 * [**Access Requests**](../../governance-and-automation/access-requests/README.md)
-  * For more details on access requests in SysKit Point take a look at the [Access Requests section](../../governance-and-automation/access-requests/README.md).
+  * For more details on access requests in Syskit Point take a look at the [Access Requests section](../../governance-and-automation/access-requests/README.md).
 
 ![Create New Policy Dialog](../../.gitbook/assets/set_up_automated_workflows-create_policy_dialog.png)
 
@@ -49,7 +49,7 @@ After clicking the **Manage Policies (6)** button, the **Manage Policy** dialog 
 ![Manage Policies Dialog](../../.gitbook/assets/set_up_automated_workflows-apply_policy_dialog.png)
 
 {% hint style="success" %}
-**Once a policy is applied, SysKit Point will start an automated workflow if a policy violation is detected**. 
+**Once a policy is applied, Syskit Point will start an automated workflow if a policy violation is detected**. 
 {% endhint %}
 
 You can find an article on how to create or edit each policy used for Automated Workflows here:

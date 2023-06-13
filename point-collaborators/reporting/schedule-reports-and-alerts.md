@@ -1,12 +1,12 @@
 ---
-description: This article provides details on how to schedule reports and set up alerts as Collaborator in SysKit Point. 
+description: This article provides details on how to schedule reports and set up alerts as Collaborator in Syskit Point. 
 ---
 
 # Schedule Reports
 
 When you manage permissions and resources in your Microsoft 365 tenant, it is important to stay regularly updated on some aspects of your M365 workspaces. 
 
-Rather than generating specific reports manually every time you need them, **SysKit Point allows you to automate report generation** and sends the reports to you at your selected frequency.
+Rather than generating specific reports manually every time you need them, **Syskit Point allows you to automate report generation** and sends the reports to you at your selected frequency.
 
 Here are a few examples of the way the Scheduled Reports feature can be utilized:
  * **If you want to control what is being shared externally from your workspaces, you can schedule an Externally Shared Content report** and set it up so that you will receive the report daily, weekly or monthly, based on your needs. That way, you can be confident that access to the data inside of your workspaces is well controlled. 
@@ -15,7 +15,7 @@ Here are a few examples of the way the Scheduled Reports feature can be utilized
 
 With the help of the Scheduled Reports feature, you can:
 
-* **Create Scheduled Reports from views and reports generated in SysKit Point** - all of the filters you define when generating a report or view are then applied when sending the scheduled report
+* **Create Scheduled Reports from views and reports generated in Syskit Point** - all of the filters you define when generating a report or view are then applied when sending the scheduled report
 * **Setup automatic sending of PDF or XLSX reports to one or more e-mail recipients** in your tenant
 * **Define how often and when to send Scheduled Reports**
 * **Create a Subscription - group of Scheduled Reports** that share the same schedule frequency and delivery options
@@ -29,7 +29,7 @@ You can only set up **Scheduled Reports for workspaces where you are the owner**
 
 ## Manage Scheduled Reports
 
-**Clicking Scheduled Reports on the home page** of SysKit Point will open the dedicated Scheduled Reports screen with a list of all reports you have scheduled. 
+**Clicking Scheduled Reports on the home page** of Syskit Point will open the dedicated Scheduled Reports screen with a list of all reports you have scheduled. 
 
 Here you will be able to edit, pause or delete existing subscriptions. 
 
@@ -53,12 +53,12 @@ To make changes to your scheduled report, complete the following:
 
 By default, Scheduled Reports are sent once a day. As mentioned, **reports can be delivered via e-mail** or **uploaded to a document library**. The results for both cases are displayed in the pictures below.
 
-To **change the time when the Scheduled Reports are delivered**, the SysKit point admin will need to make changes in the E-mail Settings.
+To **change the time when the Scheduled Reports are delivered**, the Syskit point admin will need to make changes in the E-mail Settings.
 
 
 # Setting Alerts
 
-The **Alerts** feature in SysKit Point **allows you to monitor events** that are collected within **Microsoft 365 audit logs**, which means that you can work proactively and **be notified about an action immediately** after it happens.
+The **Alerts** feature in Syskit Point **allows you to monitor events** that are collected within **Microsoft 365 audit logs**, which means that you can work proactively and **be notified about an action immediately** after it happens.
 
 Be the first one to **learn when a team's privacy or sharing settings have been changed**. Keep an extra close eye on your organization's sensitive collaboration spaces and **monitor the ins and outs through personalized alerts**. 
 
@@ -87,7 +87,7 @@ You can only set up **Alerts for workspaces where you are the owner** and for us
 
 ## Manage Alerts
 
-You can manage the alerts you have set up by **clicking Alerts on the home page** of your SysKit Point. 
+You can manage the alerts you have set up by **clicking Alerts on the home page** of your Syskit Point. 
 
 This will open the **Alerts screen**, which shows:
 

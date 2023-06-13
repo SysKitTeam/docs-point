@@ -1,18 +1,18 @@
 ---
-description: This article explains how to configure Azure resources to enable diagnostic logs export in SysKit Point.
+description: This article explains how to configure Azure resources to enable diagnostic logs export in Syskit Point.
 ---
 
 # Setup Diagnostic Logs Export
 
-SysKit Point allows you to export diagnostics logs saved in Application Insights. They contain data that helps the SysKit Point support team resolve issues you might be facing when using SysKit Point. 
+Syskit Point allows you to export diagnostics logs saved in Application Insights. They contain data that helps the Syskit Point support team resolve issues you might be facing when using Syskit Point. 
 
 {% hint style="warning" %}
 **Please note!**
-If you are a new customer and deployed **SysKit Point version 2022.2.2 or later**, **all requirements for diagnostic logs export are set up for you automatically**.
-**Use the steps described in this article if you are an existing customer upgrading from a previous version to set up diagnostic logs export in SysKit Point manually**.
+If you are a new customer and deployed **Syskit Point version 2022.2.2 or later**, **all requirements for diagnostic logs export are set up for you automatically**.
+**Use the steps described in this article if you are an existing customer upgrading from a previous version to set up diagnostic logs export in Syskit Point manually**.
 {% endhint %}
 
-You will need to set up the following in the SysKit Point Azure resource group:
+You will need to set up the following in the Syskit Point Azure resource group:
 * **Enable user access to key vault**
 * **Create a new key vault secret**
 * **Remove user access from the key vault**
@@ -20,13 +20,13 @@ You will need to set up the following in the SysKit Point Azure resource group:
 
 {% hint style="warning" %}
 **Please note!**
-To perform changes described in this article, you need to have the owner role assigned on the SysKit Point resource group.
+To perform changes described in this article, you need to have the owner role assigned on the Syskit Point resource group.
 {% endhint %}
  
 ## Enable User Access to Key Vault
 
 Before you can create a new key vault secret, enable access to the key vault:
-* Open [Azure portal](https://portal.azure.com/) and open resource group where SysKit Point is deployed
+* Open [Azure portal](https://portal.azure.com/) and open resource group where Syskit Point is deployed
 * On the resource group **Overview screen**, **find and click the Key Vault resource**
 * **Click Access policies (1)** in the Settings section
 * **Click Add Access Policy (2)**; the Add access policy screen opens
@@ -53,7 +53,7 @@ Next, **allow your IP adress to access the key vault**. On the key vault resourc
 ## Create a New Key Vault Secret
 
 First, find the Application Insights app ID:
-* **Open the Application Insights resource** in SysKit Point resource group
+* **Open the Application Insights resource** in Syskit Point resource group
 * **Click API Access (1)** under the Configure section
 * **Copy and save aside the Application ID (2)**; you will need this value when creating the new key vault secret
 
@@ -96,7 +96,7 @@ Next, remove access for your IP address:
 ## Assign a Role to the User-Assigned Managed Identity
 
 Last thing left to do is assign 
-* **Navigate to SysKit Point resource group**
+* **Navigate to Syskit Point resource group**
 * **Click Access control (IAM) (1)** in the left menu
 * **Add** > **Add role assignment (2)**; **Add role assingment** screen opens
 
@@ -108,7 +108,7 @@ On the **Add role assignment** screen:
 * **Select Managed identity (3)** under **Assign access to**
 * **Click Select members (4)**
 * **Select User-assigned managed identity (5)** under Managed identity
-* **Find and click SysKit Point user-assigned managed identitiy (6)**
+* **Find and click Syskit Point user-assigned managed identitiy (6)**
 * **Click select (7)**
 * **Click Review + assign (8)** to navigate to the next tab
 * **Click Review + assign** again to run the role assignment action
@@ -119,5 +119,5 @@ On the **Add role assignment** screen:
 
 ## Next steps
 
-After the setup is complete, diagnostic logs export in SysKit Point should be enabled. 
-[To check if the export is working, use the following article explaining how to export diagnostic logs in SysKit Point](export-diagnostic-logs.md).
+After the setup is complete, diagnostic logs export in Syskit Point should be enabled. 
+[To check if the export is working, use the following article explaining how to export diagnostic logs in Syskit Point](export-diagnostic-logs.md).

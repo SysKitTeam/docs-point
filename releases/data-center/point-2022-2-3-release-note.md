@@ -1,8 +1,8 @@
 ---
-description: This article lists improvements and bug fixes in SysKit Point version 2022.2.3
+description: This article lists improvements and bug fixes in Syskit Point version 2022.2.3
 ---
 
-# SysKit Point 2022.2.3
+# Syskit Point 2022.2.3
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
@@ -14,12 +14,12 @@ description: This article lists improvements and bug fixes in SysKit Point versi
 
 ## Get the Latest Version
 
-* **New to SysKit Point?** Get the latest SysKit Point version from [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit\_point).\
+* **New to Syskit Point?** Get the latest Syskit Point version from [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit\_point).\
   Find all steps described in detail in the [deployment article](../../set-up-point-data-center/deployment/deploy-syskit-point.md).
-* **Already using SysKit Point?** Upgrade to the latest SysKit Point version.\
+* **Already using Syskit Point?** Upgrade to the latest Syskit Point version.\
   [![](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitassetsstorage.blob.core.windows.net%2Fpoint%2FARMTemplates%2FPointUpdateDeploy%2FPointUpdateTemplate.json)
 
-See detailed step-by-step instructions on how to upgrade SysKit Point in the [upgrade article](../../set-up-point-data-center/deployment/upgrade-syskit-point.md).
+See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../set-up-point-data-center/deployment/upgrade-syskit-point.md).
 
 ## Improvements & Bug Fixes
 
@@ -33,5 +33,5 @@ See detailed step-by-step instructions on how to upgrade SysKit Point in the [up
   * The assigned User then **has a choice whether to Keep or Delete the inactive Guest User**.
   * Due to this bug, **active Guest Users were reported as inactive** to the assigned User.
 * **Fixed a bug** with data column filtering on Overview screens for item selection of more than 10k items. When filtering to select more than 10k items for any column on Overview, it would show that there was no data available to display.
-* **Fixed an issue** where HTTP requests used an expired access token instead of requiring a new one. Instead of generating a new access token, SysKit Point would retry action with a previously used token.
+* **Fixed an issue** where HTTP requests used an expired access token instead of requiring a new one. Instead of generating a new access token, Syskit Point would retry action with a previously used token.
 * **Fixed an issue** with triggering new hangfire jobs while existing ones are still in progress. If a hangfire job was active for longer than 30 minutes, it was triggered to start again.

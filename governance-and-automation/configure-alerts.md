@@ -1,5 +1,5 @@
 ---
-description: This article describes how to enable and customize alerts in SysKit Point.
+description: This article describes how to enable and customize alerts in Syskit Point.
 ---
 
 # Configure Alerts
@@ -8,9 +8,9 @@ description: This article describes how to enable and customize alerts in SysKit
 **Alerts** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 {% endhint %}
 
-**Alerts** feature in SysKit Point **allows you to monitor events** that are collected within **Microsoft 365 audit logs**.
+**Alerts** feature in Syskit Point **allows you to monitor events** that are collected within **Microsoft 365 audit logs**.
 
-**SysKit Point Admins** and **SysKit Point Collaborators** (site admins, Microsoft Teams and Microsoft 365 Group owners, and full control users) can configure alerts. Point Admins can manage all created alerts regardless of who created them.
+**Syskit Point Admins** and **Syskit Point Collaborators** (site admins, Microsoft Teams and Microsoft 365 Group owners, and full control users) can configure alerts. Point Admins can manage all created alerts regardless of who created them.
 
 You can **enable alerts on the following screens**:
 
@@ -159,7 +159,7 @@ On the **Notifications** tab, you can:
 
 * **Define email notification recipients (1)**; one or multiple options can be selected:
   * **Site Owners**
-  * **SysKit Point Administrators**
+  * **Syskit Point Administrators**
   * **Custom Recipients**
     * Select a user from your Azure AD
 * **Define notification limits (2)**
@@ -200,15 +200,15 @@ In the **Filters** tab, you can limit the alerts to be triggered only when:
 
 ![Configure Alerts - Filters tab](../.gitbook/assets/configure-alerts\_filters-tab.png)
 
-In the **Events** tab, you can choose events for which SysKit Point will raise an alert. By default, all events are selected. Click the checkbox to ignore the event.
+In the **Events** tab, you can choose events for which Syskit Point will raise an alert. By default, all events are selected. Click the checkbox to ignore the event.
 
 ![Configure Alerts - Events tab](../.gitbook/assets/configure-alerts\_events-tab.png)
 
 ## Alert E-mail
 
-When SysKit Point collects audit logs, if there is an event you decided to monitor by enabling an alert, an **e-mail** is sent to defined recipients.
+When Syskit Point collects audit logs, if there is an event you decided to monitor by enabling an alert, an **e-mail** is sent to defined recipients.
 
-The picture below is an example of such an e-mail. Click the **View Alerts Details** link to access the Alert details screen in SysKit Point.
+The picture below is an example of such an e-mail. Click the **View Alerts Details** link to access the Alert details screen in Syskit Point.
 
 ![Alert E-mail](../.gitbook/assets/configure-alerts\_alert-email.png)
 
@@ -224,7 +224,7 @@ The **Edit Alert** action is available on two screens - **Alerts overview screen
 
 ## Alert Reports
 
-When you login into SysKit Point as Point admin, you will see the **Alerts** tile in the lower part of the Home screen.
+When you login into Syskit Point as Point admin, you will see the **Alerts** tile in the lower part of the Home screen.
 
 ![Home screen - Alerts tile](../.gitbook/assets/configure-alerts\_welcome-home-alerts-tile.png)
 

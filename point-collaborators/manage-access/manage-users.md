@@ -10,7 +10,7 @@ You can only **manage users you are in charge of and who belong to the workspace
 
 {% endhint %}
 
-SysKit Point enables you to **manage users' activity and permissions** in your Microsoft 365 workspaces. 
+Syskit Point enables you to **manage users' activity and permissions** in your Microsoft 365 workspaces. 
 
 You can **add or remove users to groups** and set up **alerts to notify you** when specific users complete certain actions. **Reports can also be generated** to gain deeper insight into a specific user's access and activity. 
 
@@ -18,7 +18,7 @@ This can be useful for situations when a **user leaves a specific project** and 
 
 To manage your users: 
 
-* On your SysKit Point home screen, click the **Users** button
+* On your Syskit Point home screen, click the **Users** button
   * This opens the Users page with a list of all users to who you have access as a manager or workspace owner 
 
 Here you will be able to **Schedule Report or export it** as a PDF or Excel file.
@@ -61,7 +61,7 @@ To configure alerts, complete these steps:
 
 You can create your alerts based on the specific actions you want to keep track of. 
 
-[For more details on how to set up and customize alerts in SysKit Point, take a look at this article.](../reporting/schedule-reports-and-alerts.md) 
+[For more details on how to set up and customize alerts in Syskit Point, take a look at this article.](../reporting/schedule-reports-and-alerts.md) 
 
 ## User Details Page
 

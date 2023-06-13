@@ -1,5 +1,5 @@
 ---
-description: This article describes how to audit permission changes in your environment using SysKit Point.
+description: This article describes how to audit permission changes in your environment using Syskit Point.
 ---
 
 # View Permission Changes in Microsoft 365
@@ -14,7 +14,7 @@ If you are a Microsoft 365 global administrator or a site owner, one of the most
 * See access request activities
 * …and much more
 
-With SysKit Point you can get the information you need using **Site Permissions Activities** report. The report shows changes made to group memberships, sharing activities, changes made to permission inheritance, and other important security activities. The data for this report comes from the audit logs – this report filters audit logs and shows only activities that are related to security.
+With Syskit Point you can get the information you need using **Site Permissions Activities** report. The report shows changes made to group memberships, sharing activities, changes made to permission inheritance, and other important security activities. The data for this report comes from the audit logs – this report filters audit logs and shows only activities that are related to security.
 
 {% hint style="warning" %}
 **Please note!**  
@@ -23,7 +23,7 @@ In order to run this report, audit logs collection must be enabled. Check [this 
 
 ## Generate Site Permissions Activities report
 
-Site Permissions Activities report is accessible from a few different places in SysKit Point:
+Site Permissions Activities report is accessible from a few different places in Syskit Point:
 
 * In **Report Center,** there is Site Permissions Activities report
 * On the **Sites overview screen**, you can select sites and choose Permissions Activities from the side panel on the right

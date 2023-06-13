@@ -13,7 +13,7 @@ These reports can be used to **optimize and keep track of externally shared cont
 
 To access an external sharing report, complete the following steps:
 
- * **Click the Reports tile**; located on the SysKit Point home screen.
+ * **Click the Reports tile**; located on the Syskit Point home screen.
  * **Select the External Sharing category in the filter** located in the upper left corner.
  * **Click the Externally Shared Content, External Users, or Sharing Links report tile**; this will generate that specific report.
 
@@ -83,7 +83,7 @@ This report contains all external users (registered in your tenant and outside y
 
 **Access this report from the Report Center**:
 
- * **Click the Reports tile**; located on the SysKit Point home screen.
+ * **Click the Reports tile**; located on the Syskit Point home screen.
  * **Select the External Sharing category in the filter** located in the upper left corner.
  * **Click the External Users tile** to generate the report.
 
@@ -127,11 +127,11 @@ This report can be accessed from:
 
 * The **details screen of specific resource** by clicking the **Sharing Links tile**
 * The **Report Center**
-* **Other reports** available in SysKit Point 
+* **Other reports** available in Syskit Point 
   * For example, **Permissions Matrix report, Externally Shared Content report, and Unique Permissions report**
 
 To generate this report from the Report Center:
- * **Click the Reports tile**; located on the SysKit Point home screen.
+ * **Click the Reports tile**; located on the Syskit Point home screen.
  * **Select the External Sharing category in the filter** located in the upper left corner.
  * **Click the Sharing Links tile** to generate the report.
 

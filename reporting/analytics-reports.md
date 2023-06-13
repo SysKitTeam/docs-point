@@ -31,7 +31,7 @@ Site Analytics report provides an overview of all sites; it shows the total hits
 
 ### Generate File and Page Activities Report
 
- * **Click the Reports tile**; it is located on the SysKit Point home screen.
+ * **Click the Reports tile**; it is located on the Syskit Point home screen.
  * **Select Audit Logs in the filter**; it can be found in the upper left corner.
  * **Click the Site Analytics report** to generate the report.
 
@@ -62,7 +62,7 @@ Use this report to display the structure of the SharePoint environment.
 
 ### Generate Site Structure Report
 
-* **Click the Reports tile**; it is located on the SysKit Point home screen.
+* **Click the Reports tile**; it is located on the Syskit Point home screen.
 * **Select Audit Logs in the filter**; it can be found in the upper left corner.
 * **Click the Site Structure report** to be redirected to the selection screen.
 * **Select one or multiple sites** for which to generate the report. 
@@ -90,7 +90,7 @@ This report can be used to stay up to date with any unused resources in the envi
 
 ### Generate Inactive Content Report
 
-* **Click the Reports tile**; it is located on the SysKit Point home screen.
+* **Click the Reports tile**; it is located on the Syskit Point home screen.
 * **Select Analytics in the filter**; it can be found in the upper left corner.
 * **Click the Inactive Content report** to be redirected to the options screen.
   * **Select which type of resource** the report should be generated for (Site, Microsoft 365 Group, or Microsoft Team)
@@ -112,7 +112,7 @@ When looking at the generated reports, the following columns can be found:
 
 - **Name**; shows the name of the inactive resource.
 - **SharePoint, Exchange, Teams, and Yammer activity column;** shows inactivity based on the last date any activity was made on the resource.
-- **Lifecycle Management**; shows if the site was monitored for activity by SysKit Point Lifecycle Management.
+- **Lifecycle Management**; shows if the site was monitored for activity by Syskit Point Lifecycle Management.
 
 ## SharePoint Activity Report
 
@@ -120,7 +120,7 @@ SharePoint Activity report **provides a detailed overview of SharePoint usage**.
 
 This report can be used to **track the adoption of SharePoint** in your environment.
 
-To see this report, **the Adoption and Analytics module** needs to be installed in SysKit Point.
+To see this report, **the Adoption and Analytics module** needs to be installed in Syskit Point.
 
 ### Generate SharePoint Activity Report
 
@@ -129,7 +129,7 @@ To see this report, **the Adoption and Analytics module** needs to be installed 
 - On the Selection screen, choose which resources you want to generate a report; select a time frame on the bottom filter and click the Run Report button.
 
 
-* **Click the Reports tile**; located on the SysKit Point home screen.
+* **Click the Reports tile**; located on the Syskit Point home screen.
 * **Select Analytics in the filter**; located in the upper left corner.
 * **Click the SharePoint Activity report** to be redirected to the **Selections screen**.
   * **Select which resource** the report should be generated for, and select the time frame on the bottom filter.
@@ -150,11 +150,11 @@ The number of Unique Visitors, the most popular days, which type of devices the 
 
 The Most Popular Content report makes it easy to **identify the most popular documents and pages** in your Microsoft 365 environment.
 
-To view this report, the Adoption and Analytics module needs to be installed in SysKit Point.
+To view this report, the Adoption and Analytics module needs to be installed in Syskit Point.
 
 ### Generate Most Popular Content Report
 
-* **Click the Reports tile**; located on the SysKit Point home screen.
+* **Click the Reports tile**; located on the Syskit Point home screen.
 * **Select Analytics in the filter**; located in the upper left corner.
 * **Click the Most Popular Content report** to be redirected to the **Selections screen**.
   * **Select which resource** the report should be generated for; in the bottom filter, select the time frame and choose between **Pages or Documents**. 
@@ -169,7 +169,7 @@ The Most Popular Content report can be **exported as PDF and XLSX files**. There
 The columns that are seen by default are:
 
 - **Name**; shows the name of the page or document. 
-  * When clicked on, it redirected to the details page of that page or document in SysKit Point.
+  * When clicked on, it redirected to the details page of that page or document in Syskit Point.
 - **Site Name**; shows the name of the resource where the most popular document is. 
   * When clicked on, it redirects to the site details page in Syskit Point.
 - **Hit Count**; shows the unique number of hits on the page or document.
@@ -181,11 +181,11 @@ The Meeting Interactions report allows the exploration of how people interact in
 
 This report can be used to see how users are adopting Microsoft Teams in your environment.
 
-To see this report, the Adoption and Analytics module needs to be installed in SysKit Point.
+To see this report, the Adoption and Analytics module needs to be installed in Syskit Point.
 
 ### Generate Meeting Interactions Report
 
-* **Click the Reports tile**; located on the SysKit Point home screen.
+* **Click the Reports tile**; located on the Syskit Point home screen.
 * **Select Analytics in the filter**; located in the upper left corner.
 * **Click the Meeting Interactions report** to be redirected to the **Selections screen**.
   * **Select which company department** the report should be generated for; in the bottom filter, select the time frame for the report. 
@@ -201,12 +201,12 @@ The Conversation Interactions report provides the ability to **explore how peopl
 
 Use this report to track the adoption of Microsoft Teams in your environment.
 
-To see this report, the Adoption and Analytics module needs to be installed in SysKit Point.
+To see this report, the Adoption and Analytics module needs to be installed in Syskit Point.
 
 ### Generate Conversation Interactions Report
 
 
-* **Click the Reports tile**; located on the SysKit Point home screen.
+* **Click the Reports tile**; located on the Syskit Point home screen.
 * **Select Analytics in the filter**; located in the upper left corner.
 * **Click the Conversation Interactions report** to be redirected to the **Selections screen**.
   * **Select which company department** the report should be generated for; in the bottom filter, select the time frame for the report. 
@@ -220,12 +220,12 @@ When the report is generated, the connection tree of all users in the selected e
 
 Network Interaction Details report provides insight into details about members' interactions via meetings or conversations.
 
-To see this report, the Adoption and Analytics module needs to be installed in SysKit Point.
+To see this report, the Adoption and Analytics module needs to be installed in Syskit Point.
 
 ### Generate Network Interaction Details Report
 
 
-* **Click the Reports tile**; located on the SysKit Point home screen.
+* **Click the Reports tile**; located on the Syskit Point home screen.
 * **Select Analytics in the filter**; located in the upper left corner.
 * **Click the Network Interaction Details report** to be redirected to the **Selections screen**.
   * **Select which company department** the report should be generated for; in the bottom filter, select the time frame for the report. 

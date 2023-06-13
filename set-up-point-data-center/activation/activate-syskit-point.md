@@ -2,23 +2,23 @@
 description: This article outlines the steps needed to perform product activation.
 ---
 
-# Activate SysKit Point
+# Activate Syskit Point
 
-To obtain SysKit Point **Data Center plan**, complete the following: 
+To obtain Syskit Point **Data Center plan**, complete the following: 
 
-* Deploy SysKit Point through the Azure Marketplace
-  * Take a look at [this article for more details on how to deploy SysKit Point](../../set-up-point-data-center/deployment/deploy-syskit-point.md)  
-* [Contact us](https://www.syskit.com/company/contact-us) for the trial key that is needed to start your 21-day trial of SysKit Point 
+* Deploy Syskit Point through the Azure Marketplace
+  * Take a look at [this article for more details on how to deploy Syskit Point](../../set-up-point-data-center/deployment/deploy-syskit-point.md)  
+* [Contact us](https://www.syskit.com/company/contact-us) for the trial key that is needed to start your 21-day trial of Syskit Point 
 * After the trial period, or within the 21 days of your trial, you need to purchase the Data Center plan and enter the newly provided license key
    * [Contact us](https://www.syskit.com/company/contact-us) to receive your activation key
 
 ## Activation
 
-You will be provided with the license key for the product activation after purchasing the selected edition of SysKit Point.
+You will be provided with the license key for the product activation after purchasing the selected edition of Syskit Point.
 
-Anytime, you can log in to SysKit [Customers Portal](https://my.syskit.com/) and navigate to the list of your licensed products. If you are not seeing the activation information, please [contact us](https://www.syskit.com/company/contact-us).
+Anytime, you can log in to Syskit [Customers Portal](https://my.syskit.com/) and navigate to the list of your licensed products. If you are not seeing the activation information, please [contact us](https://www.syskit.com/company/contact-us).
 
-When opening the SysKit Point web app URL for the first time, you will be prompted to **activate your copy of SysKit Point (1) or start the trial (2)**.
+When opening the Syskit Point web app URL for the first time, you will be prompted to **activate your copy of Syskit Point (1) or start the trial (2)**.
 
 ![Activation Screen](../../.gitbook/assets/activate-syskit-point_activate.png)
 
@@ -28,7 +28,7 @@ After you click the appropriate button, continue with the following steps:
 
 ![Activation Dialog](../../.gitbook/assets/activate-syskit-point_activation-dialog.png)
 
-You can check the license information in SysKit Point and manage the license on the Settings &gt; License page.
+You can check the license information in Syskit Point and manage the license on the Settings &gt; License page.
 
 ## Changing the License Key
 
@@ -40,7 +40,7 @@ To change the existing license key with a new one, e.g., when you are upgrading 
 
 ## **Deactivate License**
 
-To deactivate the SysKit Point license, please proceed with the following steps:
+To deactivate the Syskit Point license, please proceed with the following steps:
 
 1. **Navigate to Settings** &gt; **License**. 
 2. **Click the Deactivate button**. 

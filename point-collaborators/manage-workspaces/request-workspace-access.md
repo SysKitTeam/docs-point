@@ -12,7 +12,7 @@ When the Access Requests policy is enabled, **users can request to join workspac
 
 To request to join a workspace, just follow these steps:
 
- * Open your **Microsoft Teams app** and navigate to the **SysKit Point feature (1)**
+ * Open your **Microsoft Teams app** and navigate to the **Syskit Point feature (1)**
  * Under the **Workspaces section (2)**, you can see **My Workspaces and All Workspaces (3)** 
     * My Workspaces show all the workspaces you are already a part of
     * All Workspaces show all workspaces you can request access to

@@ -2,19 +2,19 @@
 description: This article explains options available regarding Microsoft 365 data collection, also known as Sync.
 ---
 
-# How SysKit Point Collects Microsoft 365 Data
+# How Syskit Point Collects Microsoft 365 Data
 
 ## First Run
 
-After you install and configure SysKit Point, all data for SharePoint Online Sites, Microsoft Teams, Microsoft 365 Groups, Microsoft 365 tenant users and their OneDrive \(optional\) begins to load automatically. We call this process **Sync** since Microsoft 365 tenant data is synced with data in the SysKit Point database.
+After you install and configure Syskit Point, all data for SharePoint Online Sites, Microsoft Teams, Microsoft 365 Groups, Microsoft 365 tenant users and their OneDrive \(optional\) begins to load automatically. We call this process **Sync** since Microsoft 365 tenant data is synced with data in the Syskit Point database.
 
-When you log in to SysKit Point, you will get an appropriate notification telling you that Sync started.
+When you log in to Syskit Point, you will get an appropriate notification telling you that Sync started.
 
-![SysKit Point - Sync started notification on the first log in](../.gitbook/assets/collect-office-365-data_syskit-point-sync-started-notification-on-the-first-log-in.png)
+![Syskit Point - Sync started notification on the first log in](../.gitbook/assets/collect-office-365-data_syskit-point-sync-started-notification-on-the-first-log-in.png)
 
 If you navigate to the Sites screen and drill to Site details of a site for which the Sync is not yet finished, a loading screen is displayed and you can notice the animated Sync icon in the top right corner, meaning that the Sync is in progress.
 
-![SysKit Point - Initial load screen and sync icon](../.gitbook/assets/collect-office-365-data_syskit-point-initial-load-screen-and-sync-icon.png)
+![Syskit Point - Initial load screen and sync icon](../.gitbook/assets/collect-office-365-data_syskit-point-initial-load-screen-and-sync-icon.png)
 
 {% hint style="info" %}
 **Hint!**  
@@ -28,7 +28,7 @@ Initial Sync can take considerably longer than 24 hours to complete, all dependi
 
 ## Sync
 
-The Sync button can be found positioned in the top right corner on most screens in SysKit Point. Depending on the screen you are currently seeing, running Sync will trigger different Sync actions.
+The Sync button can be found positioned in the top right corner on most screens in Syskit Point. Depending on the screen you are currently seeing, running Sync will trigger different Sync actions.
 
 Here is an overview of screens and actions triggered by clicking the Sync button:
 
@@ -44,7 +44,7 @@ While the first Sync collects data for all SharePoint Online Sites, Microsoft Te
 
 {% hint style="warning" %}
 **Please note!**  
-Since change detection is based on Microsoft 365 audit log data, it can take up to 24 hours after a change event occurs for the corresponding audit log entry to be available for SysKit Point to process.
+Since change detection is based on Microsoft 365 audit log data, it can take up to 24 hours after a change event occurs for the corresponding audit log entry to be available for Syskit Point to process.
 {% endhint %}
 
 **Auto Discover of Sites and Microsoft 365 Groups is by default run every 24 hours.**

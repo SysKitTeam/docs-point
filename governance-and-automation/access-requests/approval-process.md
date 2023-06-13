@@ -1,5 +1,5 @@
 ---
-description: This article explains how to approve Access Requests for workspaces in SysKit Point. 
+description: This article explains how to approve Access Requests for workspaces in Syskit Point. 
 ---
 
 #  Access Requests Approval
@@ -20,7 +20,7 @@ You can read more about this in the [Create Access Requests policy article](crea
 ## Approving Access Requests for Workspaces
 
 To approve workspace Access Requests that you have received, complete the following steps:  
- * Open your **Microsoft Teams app** and navigate to the **SysKit Point feature (1)**
+ * Open your **Microsoft Teams app** and navigate to the **Syskit Point feature (1)**
  * **Click the Requests section (2)**; there you can see **Active Requests and Resolved Requests (3)**
 * **Select Active Requests (3)** for any current workspace requests that need your approval
   * To approve the received request, **click the Approve button (4)** on the right side of the screen

@@ -1,14 +1,14 @@
 ---
-description: This article explains how to manage custom metadata in SysKit Point for collaborators.
+description: This article explains how to manage custom metadata in Syskit Point for collaborators.
 ---
 
 # Custom Metadata
 
 In the context of Microsoft 365, the custom metadata provides additional information on **Microsoft Teams, Microsoft 365 Groups, Sites, and OneDrive**. It allows you to create and define specific properties or attributes that are relevant to your needs.
 
-Custom metadata in SysKit Point allows you to **organize, find, and automate processes** that involve your workspaces based on your unique requirements in order to enhance your productivity and efficiency.
+Custom metadata in Syskit Point allows you to **organize, find, and automate processes** that involve your workspaces based on your unique requirements in order to enhance your productivity and efficiency.
 
-**Essential metadata** is natively available in  Microsoft 365 and collected by SysKit Point during the sync process. 
+**Essential metadata** is natively available in  Microsoft 365 and collected by Syskit Point during the sync process. 
 
 Here are some examples of such metadata:
 
@@ -17,7 +17,7 @@ Here are some examples of such metadata:
  * **The storage used by a site**
  * **And other useful information**
 
-With the SysKit Point custom metadata feature, you can:
+With the Syskit Point custom metadata feature, you can:
 
 * **Leverage custom metadata** to organize and expand on the existing information and better describe Microsoft Teams, Microsoft 365 Groups, Sites, and OneDrive in relation to your business processes and policies; for example, you can assign custom metadata properties such as "Project," "Department," or "Client Name."
 
@@ -29,12 +29,12 @@ With the SysKit Point custom metadata feature, you can:
 
 {% hint style="info" %}
 
-Only SysKit Point **administrators can create new custom metadata**.
+Only Syskit Point **administrators can create new custom metadata**.
 {% endhint %}
 
 ## Change Custom Metadata
 
-After custom metadata has been created by your SysKit Point admin, you are able to manage and change how it applies to the **workspaces where you are the owner**.
+After custom metadata has been created by your Syskit Point admin, you are able to manage and change how it applies to the **workspaces where you are the owner**.
 
 To change the custom metadata that has been set up to your workspaces, **select Sites or Microsoft Teams & Groups from the Home page**.
 
