@@ -1,5 +1,5 @@
 ---
-description: This article explains how to get started with provisioning in SysKit Point. Provisioning workflow helps you streamline workspace creation and prevent uncontrolled growth. 
+description: This article explains how to get started with provisioning in Syskit Point. Provisioning workflow helps you streamline workspace creation and prevent uncontrolled growth. 
 ---
 
 # Set up Provisioning 
@@ -16,9 +16,9 @@ To set up a complete provisioning process that fits your company's needs, there 
 
 2) **Approval Processes** – define a set of rules each new workspace request needs to go through to be approved. See the [article](approval-processes.md) for more information.
 
-3) **Teams Application** – deploy SysKit Point teams application to request and approve new workspaces. Click [here](../syskit-point-teams-app.md) to find out more.
+3) **Teams Application** – deploy Syskit Point teams application to request and approve new workspaces. Click [here](../syskit-point-teams-app.md) to find out more.
 
-4) **Microsoft 365 group creation** - by default, all users can create Microsoft 365 groups and the workspaces that rely on groups for access. To limit the creation of workspaces to SysKit Point Teams app, additional configuration is needed. Learn how to [manage who can create Microsoft 365 groups here](restrict-group-creation.md).
+4) **Microsoft 365 group creation** - by default, all users can create Microsoft 365 groups and the workspaces that rely on groups for access. To limit the creation of workspaces to Syskit Point Teams app, additional configuration is needed. Learn how to [manage who can create Microsoft 365 groups here](restrict-group-creation.md).
 
 5) **Enable/Disable Feature** - by default, Provisioning is set as enabled but can be disabled without losing any of the existing provisioning requests. In case Provisioning is disabled, existing provisioning requests can still be completed but no new provisioning requests can be created by end-users. [Read more on Enabling and Disabling Provisioning here](enable-disable-provisioning.md).
 

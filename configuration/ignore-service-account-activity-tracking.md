@@ -1,5 +1,5 @@
 ---
-description: This article explains what Service Accounts are and how to ignore Service Account activities within SysKit Point.
+description: This article explains what Service Accounts are and how to ignore Service Account activities within Syskit Point.
 ---
 
 # Ignored Service Accounts

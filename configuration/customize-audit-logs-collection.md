@@ -1,5 +1,5 @@
 ---
-description: This section describes how to customize the Audit Logs collection using SysKit Point.
+description: This section describes how to customize the Audit Logs collection using Syskit Point.
 ---
 
 # Customize Audit Logs Collection
@@ -10,14 +10,14 @@ description: This section describes how to customize the Audit Logs collection u
 
 Audit logs can provide you with **insights into all activities** related to the user and administration activities in your Microsoft 365 environment. The Audit Logs contain information on activities within your organization related to **groups, documents, permissions, directory services, and much more**. 
 
-Users that are assigned **SysKit Point Admin role** can configure activities that are going to be collected in these locations:
+Users that are assigned **Syskit Point Admin role** can configure activities that are going to be collected in these locations:
 
-* **SysKit Point Registration > Tenant settings**
+* **Syskit Point Registration > Tenant settings**
 * **Audit Logs section in Settings**
 
-## SysKit Point Registration > Tenant settings
+## Syskit Point Registration > Tenant settings
 
-After registering **SysKit Point**, on the **Connect tenant** step, you have the following audit options on disposal:
+After registering **Syskit Point**, on the **Connect tenant** step, you have the following audit options on disposal:
 
 * **Store audit logs \(1\)**
 * **Protect user privacy \(2\)**
@@ -26,11 +26,11 @@ After registering **SysKit Point**, on the **Connect tenant** step, you have the
 
 ### Store Audit Logs Option
 
-By default, the **Store audit logs** option is enabled, meaning that SysKit Point will process and store the audit logs to your **Azure Cosmos DB account**.
+By default, the **Store audit logs** option is enabled, meaning that Syskit Point will process and store the audit logs to your **Azure Cosmos DB account**.
 
 {% hint style="warning" %}
 **Please note!**  
-Regardless of your choice of whether to store them or not, audit logs are **regularly processed by SysKit Point** to track changes and activity in your Microsoft 365 environment. Storing audit logs allows you to access audit data for more extended periods than available in Microsoft 365.
+Regardless of your choice of whether to store them or not, audit logs are **regularly processed by Syskit Point** to track changes and activity in your Microsoft 365 environment. Storing audit logs allows you to access audit data for more extended periods than available in Microsoft 365.
 {% endhint %}
 
 ### Protect User Privacy Option
@@ -38,7 +38,7 @@ Regardless of your choice of whether to store them or not, audit logs are **regu
 Turning this option on results in the following:
 
 * **User activity data**, such as file and permissions changes, **will be hidden and protected from Administrator supervision** 
-  * **User Activity report will be hidden from SysKit Point user interface**
+  * **User Activity report will be hidden from Syskit Point user interface**
   * **Access to the File and Page Activities report will be hidden**
   * **Summary data in the Analytics & Usage tile will remain visible but cannot be drilled to access data for a specific user**
 * **User activity** data will, however, be collected and stored
@@ -51,8 +51,8 @@ User activity data continues to be collected and stored to be readily available,
 The following rules apply regarding the User Privacy option:
 
 * **By default, this option is turned off**
-* **The option can be set for each tenant connected with SysKit Point independently**
-* **Changing the option is possible through the Manage Connection button in the SysKit Point Settings > General > Connected Tenant screen**
+* **The option can be set for each tenant connected with Syskit Point independently**
+* **Changing the option is possible through the Manage Connection button in the Syskit Point Settings > General > Connected Tenant screen**
 
 {% hint style="warning" %}
 **Please note!**  
@@ -63,7 +63,7 @@ The **Protect user privacy** option is disabled automatically if the **Store aud
 
 ## Audit Logs Settings
 
-Audit log settings can also be configured after the initial configuration of **SysKit Point**. To do so:
+Audit log settings can also be configured after the initial configuration of **Syskit Point**. To do so:
 
 * Open the **Settings** screen
 * Navigate to the **Audit** &gt; **Audit Logs \(1\)** page
@@ -78,7 +78,7 @@ Here, you can:
 
 Audit logs activities that are being collected can be found by clicking the **Select activities to collect \(3\)** link.
 
-A new dialog opens, showing all audit log categories and activities available in SysKit Point. Here you can:
+A new dialog opens, showing all audit log categories and activities available in Syskit Point. Here you can:
 
 * Use the **Select All** option to enable the collection of all available activities **\(1\)**
 * **Adjust which audit log categories will be collected by clicking the checkbox \(2\)** next to a category
@@ -116,16 +116,16 @@ Available audit log categories:
 ## Data Retention
 
 {% hint style="information" %}
-**Please Note!** The **data retention option for audit logs is only available in the Data Center plan**. For more details on SysKit Point plans that are currently available, check the [pricing page](https://www.syskit.com/products/point/pricing/).
+**Please Note!** The **data retention option for audit logs is only available in the Data Center plan**. For more details on Syskit Point plans that are currently available, check the [pricing page](https://www.syskit.com/products/point/pricing/).
 {% endhint %}
 
-When audit log data retention is **enabled and set up, SysKit Point will delete audit logs** that are older than the specified timeframe. 
+When audit log data retention is **enabled and set up, Syskit Point will delete audit logs** that are older than the specified timeframe. 
 
 This option is **disabled by default**. 
 
-Go to the **General Settings** screen in your SysKit Point to enable it. 
+Go to the **General Settings** screen in your Syskit Point to enable it. 
  * Navigate to the **Audit section** &gt; **Audit Logs (1)** page
- * Select the checkbox next to **Remove old audit Logs from SysKit (2)**
+ * Select the checkbox next to **Remove old audit Logs from Syskit (2)**
  * Choose **the amount of time (3)** that should pass for audit logs to be deleted
     * Once set up, audit logs that are older than the timeframe you select will be deleted 
  * Click **Save (4)** to finalize
@@ -136,7 +136,7 @@ Go to the **General Settings** screen in your SysKit Point to enable it.
 
 {% hint style="warning" %}
 **Please note!**  
-By default, Exchange logs are **not collected**; at least one Exchange activity must be selected for SysKit Point to start collecting and storing Exchange log data.
+By default, Exchange logs are **not collected**; at least one Exchange activity must be selected for Syskit Point to start collecting and storing Exchange log data.
 {% endhint %}
 
 To select Exchange activities:
@@ -159,18 +159,18 @@ To view collected Exchange logs, use the **Exchange Logs report** available in t
 
 ### Type of Audit Logs Collected
 
-SysKit Point collects audit logs accessible in the unified audit log. Out of the box, you can review the audit logs from the [Microsoft 365 compliance center](https://compliance.microsoft.com/auditlogsearch).
-You can additionally [customize for which activities SysKit Point will collect audit logs](../configuration/customize-audit-logs-collection.md).
+Syskit Point collects audit logs accessible in the unified audit log. Out of the box, you can review the audit logs from the [Microsoft 365 compliance center](https://compliance.microsoft.com/auditlogsearch).
+You can additionally [customize for which activities Syskit Point will collect audit logs](../configuration/customize-audit-logs-collection.md).
 
 ### Sign-in Logs from Azure Active Directory 
 
 Azure Active Directory shows all sing-ins performed by users, service principals, apps, and Azure resources.
-**SysKit Point does not collect Azure Active Directory sign-in logs.** 
-SysKit Point collects unified audit logs, which contain a subset of said logs related to Microsoft 365 and are visible in the [Microsoft 365 compliance center](https://compliance.microsoft.com/auditlogsearch).
+**Syskit Point does not collect Azure Active Directory sign-in logs.** 
+Syskit Point collects unified audit logs, which contain a subset of said logs related to Microsoft 365 and are visible in the [Microsoft 365 compliance center](https://compliance.microsoft.com/auditlogsearch).
 
 ### Frequency of Audit Log Collection
 
-SysKit Point checks for and collects new audit logs every 15 minutes. 
+Syskit Point checks for and collects new audit logs every 15 minutes. 
 Note that it can take up to 24 hours after an event occurs for the corresponding audit log record to be returned in the results of an audit log search. 
 
 ### Unified Audit Logs

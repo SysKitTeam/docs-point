@@ -1,14 +1,14 @@
 ---
-description: This article explains how to connect a service account to SysKit Point. 
+description: This article explains how to connect a service account to Syskit Point. 
 ---
 
 # Connect Service Account
 
-**A service account** in SysKit Point is utilized for:
+**A service account** in Syskit Point is utilized for:
  * [The Configuration Inventory module](../configuration-inventory/configuration-inventory-requirements.md)
  * [Sensitivity labels in provisioning templates](../governance-and-automation/provisioning/enable-sensitivity-labels.md)
 
-To connect the service account in SysKit Point:
+To connect the service account in Syskit Point:
 * **Navigate to Settings** > **General** > **Connected Tenant**
 * **Switch the Connect Service Account (1) toggle on**
 
@@ -59,5 +59,5 @@ Once the account is successfully connected, you will see the email listed statin
 ![Microsoft Authentication Flow - Global Admin Consent](../.gitbook/assets/connect-service-account_consent.png)
 
 ## Additional Information
-When Microsoft Authentication Flow is used, Global Admin consent is required due to additional permissions required for the SySkit Point Client app registration. 
+When Microsoft Authentication Flow is used, Global Admin consent is required due to additional permissions required for the Syskit Point Client app registration. 
 [Learn more about these permissions in the Permission Requirements article](../requirements/permission-requirements.md#syskit-point-client).

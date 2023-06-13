@@ -1,12 +1,12 @@
 ---
-description: This article provides a list of available report categories and shows how to generate reports in SysKit Point.
+description: This article provides a list of available report categories and shows how to generate reports in Syskit Point.
 ---
 
-# Reports in SysKit Point
+# Reports in Syskit Point
 
-SysKit Point Reports provide insight into what's happening within your Microsoft 365 environment. 
+Syskit Point Reports provide insight into what's happening within your Microsoft 365 environment. 
 
-The following **actions are available when working with SysKit Point reports**:
+The following **actions are available when working with Syskit Point reports**:
 * Advanced filtering
 * High-level overview
 * Exporting reports as PDF or XLSX files
@@ -16,15 +16,15 @@ The following **actions are available when working with SysKit Point reports**:
 
 The **Inventory Reports** can be generated directly from the home page by clicking Sites, Microsoft Teams & Groups, or Users. 
 
-To generate reports in all the other categories available in SysKit Point, **navigate to the Report Center by clicking the Reports tile on the Home screen**.
+To generate reports in all the other categories available in Syskit Point, **navigate to the Report Center by clicking the Reports tile on the Home screen**.
 In the Report Center, you can:
-* **See all reports available in SysKit Point** along with a short description of what each provides
+* **See all reports available in Syskit Point** along with a short description of what each provides
 * **Filter reports by category (1)**; only reports within the selected category are displayed
 * **Search for a report (2)** by typing a search term into the input field
 * **Navigate to Scheduled Reports (3)** where you can view and manage recurring delivery of reports 
 * **Click a report tile (4)** to generate the wanted report
 
-![SysKit Point - Report Center](../.gitbook/assets/generate_reports_overview-report_center.png)
+![Syskit Point - Report Center](../.gitbook/assets/generate_reports_overview-report_center.png)
 
 After you click the report tile, the **Selection screen** opens.
 Here, you can:
@@ -52,7 +52,7 @@ Some reports, such as **the External Users report, generate right after clicking
 Check the articles below for information on what [subscription plans](https://www.syskit.com/products/point/pricing/) the reports will be available in.
 {% endhint %}
 
-Reports in SysKit Point can be divided into the following categories:
+Reports in Syskit Point can be divided into the following categories:
 * [External Sharing Reports](external-sharing-reports.md)
 * [Access Reports](access-reports.md)
 * [Audit Reports](audit-reports.md)

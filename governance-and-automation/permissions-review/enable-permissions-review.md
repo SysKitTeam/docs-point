@@ -1,19 +1,19 @@
 ---
 description: >-
   This article explains how to enable and configure the Automated Access Review
-  in SysKit Point.
+  in Syskit Point.
 ---
 
 # Enable Automated Access Review
 
-To use the advantages of Automated Access Review in SysKit Point, first, you need to:
+To use the advantages of Automated Access Review in Syskit Point, first, you need to:
 
 * **set up e-mail settings**
-* **enable SysKit Point Collaborators role**
+* **enable Syskit Point Collaborators role**
 
 {% hint style="warning" %}
 **Please note!**\
-Only users assigned to the **SysKit Point Admin** role can access and configure Settings in SysKit Point.
+Only users assigned to the **Syskit Point Admin** role can access and configure Settings in Syskit Point.
 {% endhint %}
 
 To start with the configuration, open the **Settings** > **Governance** > **Access Review** screen. Initially, you may find the Access Review settings screen displaying the following warnings:
@@ -24,14 +24,14 @@ Clicking the tiles in the **Additional Actions Required** section redirects to t
 
 ## Set Up E-Mail
 
-As a part of the Automated Access Review process, e-mails are sent to SysKit Point Admin and SysKit Point Collaborator users. For SysKit Point to be able to send e-mails, you need to configure the sending method. Two options are available:
+As a part of the Automated Access Review process, e-mails are sent to Syskit Point Admin and Syskit Point Collaborator users. For Syskit Point to be able to send e-mails, you need to configure the sending method. Two options are available:
 
 * **Exchange Online**
 * **SMTP** - Simple Mail Transfer Protocol
 
 {% hint style="warning" %}
 **Please Note!**\
-The e-mail address set up in this section will appear in the **Sent from** field in all e-mails sent from SysKit Point.
+The e-mail address set up in this section will appear in the **Sent from** field in all e-mails sent from Syskit Point.
 {% endhint %}
 
 ### Exchange Online Settings
@@ -41,10 +41,10 @@ The e-mail address set up in this section will appear in the **Sent from** field
 Exchange Online has a sending limit of 10000 e-mails per day.
 {% endhint %}
 
-The Exchange Online method enables you to use an existing Exchange account in your Microsoft 365 tenant to send e-mails from SysKit Point. Here, you can:
+The Exchange Online method enables you to use an existing Exchange account in your Microsoft 365 tenant to send e-mails from Syskit Point. Here, you can:
 
 * **enter a valid e-mail address in the Sent from field (1)**
-* **choose whether to save e-mails sent by SysKit Point to the Sent items folder (2)**; by default, this option is turned on, meaning that all e-mails sent from SysKit Point will be stored in the **Sent** mailbox folder of the entered Exchange account
+* **choose whether to save e-mails sent by Syskit Point to the Sent items folder (2)**; by default, this option is turned on, meaning that all e-mails sent from Syskit Point will be stored in the **Sent** mailbox folder of the entered Exchange account
 * **Send a test e-mail (3)** to check if the entered e-mail address is working properly
 
 ![Exchange Online e-mail Settings screen](../../.gitbook/assets/enable-permissions-review\_exchange-online-settings.png)
@@ -72,23 +72,23 @@ You can check if the entered data is correct by **sending a test e-mail**.
 
 Click the **Save** button once you confirm you received the test e-mail.
 
-## Enable SysKit Point Collaborators
+## Enable Syskit Point Collaborators
 
 {% hint style="info" %}
 **Managing Access for Collaborators** is available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 {% endhint %}
 
-To enable Teams and Groups owners and site administrators to perform the Access Review on their sites, you need to enable them to access SysKit Point. To do so, navigate to the **Settings** > **Security** > **Manage Access** screen. Here you should:
+To enable Teams and Groups owners and site administrators to perform the Access Review on their sites, you need to enable them to access Syskit Point. To do so, navigate to the **Settings** > **Security** > **Manage Access** screen. Here you should:
 
-* **click the toggle to enable the SysKit Point Collaborators role (1)** - this will allow Teams owners, Group owners, and site administrators to access SysKit Point and to manage their workspaces
-* **check the Add users with Full Control option (2)** if you want to enable users with full control privileges to access SysKit Point; **this is needed in case you want to enable users in the Site Owners SharePoint group to perform access reviews**
+* **click the toggle to enable the Syskit Point Collaborators role (1)** - this will allow Teams owners, Group owners, and site administrators to access Syskit Point and to manage their workspaces
+* **check the Add users with Full Control option (2)** if you want to enable users with full control privileges to access Syskit Point; **this is needed in case you want to enable users in the Site Owners SharePoint group to perform access reviews**
 
 ![Manage Access Settings screen](../../.gitbook/assets/enable-permissions-review\_manage-access-settings.png)
 
-For more information about role-based access in SysKit Point, go to the [following article](../../configuration/enable-role-based-access.md).
+For more information about role-based access in Syskit Point, go to the [following article](../../configuration/enable-role-based-access.md).
 
 ## Next Steps
 
 Once you are finished with the e-mail and Collaborators role configuration, continue to the [Create and Apply Access Review Policies](create-apply-access-review-policies.md) article.
 
-For information on SysKit Point Collaborators completing Access Review tasks, take a look at the [Perform Access Review Tasks article](../../point-collaborators/resolve-governance-tasks/access-review.md).
+For information on Syskit Point Collaborators completing Access Review tasks, take a look at the [Perform Access Review Tasks article](../../point-collaborators/resolve-governance-tasks/access-review.md).

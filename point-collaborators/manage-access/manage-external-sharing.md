@@ -12,7 +12,7 @@ External Sharing is the **ability to share documents, folders, and sites** with 
 
 **Managing external sharing** is important for collaborators and owners of workspaces because it **helps to ensure that confidential or sensitive information is not shared with unauthorized individuals**. 
 
-SysKit Point helps you manage external sharing, which means you can easily **control who has access to your organization's data** and **limit the risk of data breaches** or other security issues.
+Syskit Point helps you manage external sharing, which means you can easily **control who has access to your organization's data** and **limit the risk of data breaches** or other security issues.
 
 {% hint style="information" %}
 
@@ -32,7 +32,7 @@ In this article, you will learn how to:
 
 You can manage external users by taking the following steps:
 
-  * On the SysKit Point home page, **click the Dashboard button**
+  * On the Syskit Point home page, **click the Dashboard button**
   * Navigate to the section titled **External Collaboration (1)**
 
 Under the External Collaboration section, you will have two options to manage external users:
@@ -95,7 +95,7 @@ The permissions section provides a list of users and the level of access they we
 
 You can manage external users by taking the following steps:
 
-  * On the SysKit Point home page, **click the Dashboard button**
+  * On the Syskit Point home page, **click the Dashboard button**
   * Navigate to the section titled **External Collaboration (1)**
 
 Under the External Collaboration section, you will have two options to manage externally shared links:

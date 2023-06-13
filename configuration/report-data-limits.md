@@ -1,5 +1,5 @@
 ---
-description: This article describes thresholds and other report limits available in SysKit Point.
+description: This article describes thresholds and other report limits available in Syskit Point.
 ---
 
 # Report Data Limits
@@ -33,7 +33,7 @@ As mentioned above, increasing the Rows Threshold value might seem like a more c
 
 `Response data is larger than the configured threshold. Consider changing the filters to reduce response data.`
 
-The configured threshold in question is a hidden setting inside the settings.json file in the ProgramData/SysKit/Point/Settings folder with the name maxDataTransferSizeInBytes which indicates the maximum size of responses the browser app will handle while communicating with the SysKit Point service, in bytes. If any response exceeds the set value, the before mentioned error message will appear, but, if ever, the error message will most likely appear for report generation responses meaning that the generated report is too large. You can increase this value to enable the proper processing of larger responses. The value will default to 500 MB \(524288000 Bytes\) if a value less than 100MB \(104857600 Bytes\) is set. But, alongside possible poor performance consequences, even that can fail as explained below.
+The configured threshold in question is a hidden setting inside the settings.json file in the ProgramData/SysKit/Point/Settings folder with the name maxDataTransferSizeInBytes which indicates the maximum size of responses the browser app will handle while communicating with the Syskit Point service, in bytes. If any response exceeds the set value, the before mentioned error message will appear, but, if ever, the error message will most likely appear for report generation responses meaning that the generated report is too large. You can increase this value to enable the proper processing of larger responses. The value will default to 500 MB \(524288000 Bytes\) if a value less than 100MB \(104857600 Bytes\) is set. But, alongside possible poor performance consequences, even that can fail as explained below.
 
 Other problems you might notice are seeing Internal Server Error or Bad Request icons instead of the report data. Inspecting the event log, you might see error messages like
 

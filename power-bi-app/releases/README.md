@@ -1,5 +1,5 @@
 ---
-description: This section lists all SysKit Point Power BI releases.
+description: This section lists all Syskit Point Power BI releases.
 ---
 
 # Releases

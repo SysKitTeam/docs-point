@@ -1,5 +1,5 @@
 ---
-description: This section provides all information about Automated Access Review in SysKit Point.
+description: This section provides all information about Automated Access Review in Syskit Point.
 ---
 
 # Access Review

@@ -1,10 +1,10 @@
 ---
 description: >-
-  This article lists new features, improvements, and bug fixes in SysKit Point
+  This article lists new features, improvements, and bug fixes in Syskit Point
   version 2023.2.
 ---
 
-# SysKit Point 2023.2
+# Syskit Point 2023.2
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
@@ -14,22 +14,22 @@ description: >-
 
 **Release date:** May 16, 2023
 
-## About SysKit Point Cloud
+## About Syskit Point Cloud
 
-* **New to SysKit Point Cloud?** Explore SysKit Point Cloud with a 21-day [free trial](https://www.syskit.com/products/point/free-trial/) for an easy and effective way to manage and secure your environment.
-* **Already using SysKit Point Cloud?** SysKit Point Cloud is automatically upgraded to the latest version when available. The automatic update occurs outside of working hours to ensure minimal interference with your day-to-day business.
+* **New to Syskit Point Cloud?** Explore Syskit Point Cloud with a 21-day [free trial](https://www.syskit.com/products/point/free-trial/) for an easy and effective way to manage and secure your environment.
+* **Already using Syskit Point Cloud?** Syskit Point Cloud is automatically upgraded to the latest version when available. The automatic update occurs outside of working hours to ensure minimal interference with your day-to-day business.
 
 ## Features
 
-* **You can now resolve access and provisioning requests in the SysKit Point web app**! Whether using the SysKit Point Teams app or the SysKit Point web app, you can now resolve these tasks in any of the two places. As before, you will:
+* **You can now resolve access and provisioning requests in the Syskit Point web app**! Whether using the Syskit Point Teams app or the Syskit Point web app, you can now resolve these tasks in any of the two places. As before, you will:
   * **Get a notification in the Teams app**
-  * **Receive an email that opens the request in SysKit Point Teams app**
-  * **Be able to resolve access and provisioning requests within the SysKit Point Teams app**\
+  * **Receive an email that opens the request in Syskit Point Teams app**
+  * **Be able to resolve access and provisioning requests within the Syskit Point Teams app**\
     \
     In the newest addition, you will:&#x20;
-  * **Get a task in the SysKit Point web app as well**
-  * **Be able to navigate to a task in the SysKit Point web app from the received email**
-  * **Be able to resolve access and provisioning requests within the SysKit Point web app**\
+  * **Get a task in the Syskit Point web app as well**
+  * **Be able to navigate to a task in the Syskit Point web app from the received email**
+  * **Be able to resolve access and provisioning requests within the Syskit Point web app**\
 
 * **Group email address and site address editing added to provisioning requests**!
   * **When requesting a Microsoft Team or a Microsoft 365 Group**, you can **edit the group email address**.
@@ -37,7 +37,7 @@ description: >-
 
 ## Improvements & Bug Fixes
 
-* **SysKit Point sync was improved to retrieve additional properties to distinguish between cloud and on-premises groups synced to Azure**!
+* **Syskit Point sync was improved to retrieve additional properties to distinguish between cloud and on-premises groups synced to Azure**!
   * **Refreshed look with additional icons** and **new on-premises views** on reports help you differentiate between the two group types
   * **Microsoft Teams & Groups inventory report** and **Group Membership** report enable filtering by group type with the help of the newly added views:
     * **Distribution Lists** and **Distribution Lists (On-Premises)**
@@ -49,7 +49,7 @@ description: >-
   * **only external users**
   * **specific users**; here, you can select one or more users from your tenant in the people picker dialog
 * **Recycled folder activity support added**!
-  * The audit logs related to the Recycled folder activity are now collected in SysKit Point by default.
+  * The audit logs related to the Recycled folder activity are now collected in Syskit Point by default.
   * Activity is visible in the File and Page Activities report.
   * Activity triggers the Changed File or Folder alert if the alert is enabled.
 * **Reports improved**!
@@ -68,7 +68,7 @@ description: >-
 * **Fixed an issue** where reconsent would timeout and fail in large M365 environments.
 * **Fixed an issue** where deleted users were displayed in the External Users report. Hard and soft deleted users are no longer shown.
 * **Various UX/UI improvements and minor fixes are available**.
-  * **Improved SysKit Point Teams app responsiveness** on smaller resolutions and scaled screens.
+  * **Improved Syskit Point Teams app responsiveness** on smaller resolutions and scaled screens.
   * **Fixed issues** with the selection of collected audit logs activities in Audit Logs settings.
   * **Fixed an issue** where the Remove access action was erroneously displayed in the Power BI Inventory report when a workspace was selected.
-  * **Fixed an issue** in SysKit Point Teams app where sorting requests by Requested On date would result in an error.
+  * **Fixed an issue** in Syskit Point Teams app where sorting requests by Requested On date would result in an error.
