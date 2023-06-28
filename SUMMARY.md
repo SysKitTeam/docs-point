@@ -191,6 +191,7 @@
     * [Inventory Reports](point-collaborators/reporting/inventory.md)
     * [Schedule Reports and Alerts](point-collaborators/reporting/schedule-reports-and-alerts.md)
     * [Cleanup & Health Reports](point-collaborators/reporting/cleanup-and-health.md)
+    * [External Sharing Reports](point-collaborators/reporting/external-sharing.md)
     * [Access Reports](point-collaborators/reporting/access.md)
 
 
