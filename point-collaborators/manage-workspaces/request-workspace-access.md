@@ -4,9 +4,11 @@ description: This article explains how to request to join a workspace after an A
 
 #  Request Access to Workspaces
 
-If you're ever in a situation where you **need access to a certain site, team, or group** but have yet to be given permission, the **Request Access to Workspaces feature is a quick and easy solution to this problem**. 
+If you're ever in a situation where you **need access to a certain site, team, or group** but don't have permission, the **Request Access to Workspaces feature is a quick and easy solution to this problem**. 
 
-This might happen in a situation where **you've been placed on a certain project that's already in progress, and you need to catch up with what's been going on**. Or maybe in order for the project to move along, the rest of the team will **need access to some of your files**. Being part of the same workspace makes sharing necessary files painless and easy.
+Let's say you're **onboarding into a new organization, and want to join all conversations** relevant to your professional and individual interests. Whether it’s a project M365 group, or the after-work football Team – **ask for access and join the relevant workspaces** that will make your experience more enjoyable.
+
+Being part of the same workspace makes sharing necessary files painless and easy.
 
 When the Access Requests policy is enabled, **users can request to join workspaces either as a Member, Owner, or both** - depending on the Access Requests policy assigned to a particular workspace - **directly through their Microsoft Teams**. 
 

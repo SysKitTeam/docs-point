@@ -99,5 +99,3 @@ To remove a user from the group:
   * **Click the Remove** button to confirm the removal of the user from the selected group or groups
 
 ![Promote User to Group Owner](../../.gitbook/assets/manage-users_teams-and-groups.png)
-
-

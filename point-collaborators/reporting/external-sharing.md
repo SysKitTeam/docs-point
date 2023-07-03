@@ -8,7 +8,17 @@ Staying up to date with externally shared content helps you **keep your shared f
 
 These reports can be used to **optimize and keep track of externally shared content, links, and external users with access to your Microsoft 365 workspaces and content**.
 
-For example, if you're in charge of the marketing team and frequently collaborate with external agencies or partners, your team might use Microsoft 365 to share marketing materials. Tracking externally shared content is essential as it helps **maintain data security, control permissions, monitor collaboration**, and much more.
+For example, if you're in charge of the marketing team and frequently collaborate with external agencies or partners, your team might use Microsoft 365 to share marketing materials. 
+
+Or maybe your management has asked you to eliminate all potentially risky ways the teams and sites under you are shared. One of the most frequently seen exposures outside of the organization comes from outdated and improperly created sharing links. That's where the Sharing Links report comes to the rescue. 
+
+Tracking externally shared content is essential as it helps **maintain data security, control permissions, monitor collaboration**, and much more.
+
+{% hint style="hint" %}
+
+If there are multiple workspaces where you are encountering an issue and want to create a report for, you can **bulk select all of the workspaces** when generating a report to learn more about the problem.
+{% endhint %}
+
 
 [For more details on how to manage external sharing, take a look at this article.](../manage-access/manage-external-sharing.md)
 

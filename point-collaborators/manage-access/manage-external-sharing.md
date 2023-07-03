@@ -4,9 +4,11 @@ description: This article provides details helpful to group owners on how to Man
 
 # Manage External Sharing 
 
-External Sharing is the **ability to share documents, folders, and sites** with people **outside of your organization**. This can be done through **sharing links or by adding external users** to Microsoft Teams & Groups or sites.
+External Sharing is the **ability to share documents, folders, and sites** with someone who is not part of your Teams or Sites usually or might not even be within your organization.
 
-**Sharing links** allows you to **send a link to a specific document or folder** to someone **outside of your organization**. This gives them access to view or edit the file. 
+This can be done through **sharing links or by adding external users** to Microsoft Teams & Groups or sites.
+
+**Sharing links** allow you to **send a link to a specific document or folder** to someone **outside of your organization**. This gives them access to view or edit the file. 
 
 **External users** are people who are not part of your organization but who **are granted access to specific resources**, such as a site or a Microsoft Team.
 
@@ -51,9 +53,20 @@ To manage external users:
     * **Remove from Group**
     * **Remove Access** from a workspace
 
+
+Once you've identified all your external users, you might see a name or two that are outdated and should not have access to particular content. You can then choose whether to remove them from the Group or completely remove workspace access. The User Activity and User Access reports can help with that as well. 
+
+ User Activity reports help you track progress, resolve conflicts, and assess performance, while User Access reports let you monitor access to sensitive information and identify potential security breaches.
+
+For example, let's say you're working with a team on a project. User Activity reports allow you to see who accessed shared documents when they did so, and the changes they made.
+
 [For instructions on how to complete these actions, take a look at this article.](manage-users.md) 
 
 ## Manage Sites with External Sharing
+
+Let's say that as a team owner, you want to see every file under your ownership that is exposed to someone outside of your organization. This will not only make for phenomenal housekeeping but will also **prevent potential data breaches from happening within your own teams**. 
+
+By reviewing your externally shared content, in a couple of clicks, you can **make sure that no sensitive data is unnecessarily exposed**.
 
 You can manage sites with external sharing by going back to the **External Collaboration section of the Dashboard**. 
 
@@ -93,7 +106,11 @@ The permissions section provides a list of users and the level of access they we
 
 ## Manage Sharing Links
 
-You can manage external users by taking the following steps:
+It's time to put an end to accidental data leaks and security breaches caused by improper sharing practices. 
+
+Syskit Point provides a straightforward and effective method to identify and resolve misconfigured or outdated sharing links, ensuring the security and accessibility of your valuable data.
+
+You can manage sharing links by taking the following steps:
 
   * On the Syskit Point home page, **click the Dashboard button**
   * Navigate to the section titled **External Collaboration (1)**
@@ -105,15 +122,20 @@ Under the External Collaboration section, you will have two options to manage ex
 ![Manage External Sharing - Links](../../.gitbook/assets/manage-external-sharing_links.png)
 
 To manage links shared with anyone, complete the following:
- * Click the Links Shared with Anyone button, and you will be redirected to the **Sharing Links report (1)**
- * Here, you can **select the workspace ** with externally shared links, and on the right side of the screen, you will have the option to **Remove All Sharing Links**
+ * Click the **Links Shared with Anyone** button, and you will be redirected to the **Sharing Links report (1)**
+ * Here, you can **select the workspace** with externally shared links, and on the right side of the screen, you will have the option to **Remove All Sharing Links**
     * Clicking Remove All Sharing Links will remove all the sharing links from all of the items included in the workspace
+    * You can also complete this as a **bulk action by selecting all of the workspaces** before clicking Remove All Sharing Links
  * Alternatively, you can remove a sharing link from a specific item in the workspace, for example, a folder
    * To do this, **select the folder** you want to change and **click the Remove Sharing Link button** on the right side of the screen
 
 ## Manage Sites Shared with Anyone
 
-You can manage sites that have been shared with anyone by going back to the **External Collaboration section of the Dashboard**. 
+While talking about proper governance and Microsoft 365 security, one of the first things you will want to expose and address is all the content under your ownership that is shared with anyone. 
+
+This segment potentially exposes you and your organization to data leakage and should be one of your priorities. Through Syskit Point – you can achieve this in a couple of clicks.
+
+To manage sites that have been shared with anyone, go back to the **External Collaboration section of the Dashboard**. 
 
 To start, complete the next steps: 
 
@@ -147,4 +169,3 @@ Clicking either action provides a pop-up that will ask you to confirm your choic
 The permissions section provides a list of users and the level of access they were given to the site. Selecting a user provides the options to:
   * **Remove Access**
   * **Edit Permissions**
-

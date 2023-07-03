@@ -4,7 +4,13 @@ description: This article explains how to manage custom metadata in Syskit Point
 
 # Custom Metadata
 
-In the context of Microsoft 365, the custom metadata provides additional information on **Microsoft Teams, Microsoft 365 Groups, Sites, and OneDrive**. It allows you to create and define specific properties or attributes that are relevant to your needs.
+
+{% hint style="important" %}
+
+This feature has to be **enabled by your Syskit Point administrator** for you to utilize it.
+{% endhint %}
+
+Custom metadata provides additional information on **Microsoft Teams, Microsoft 365 Groups, Sites, and OneDrive**. It allows you to create and define specific properties or attributes that are relevant to your needs.
 
 Custom metadata in Syskit Point allows you to **organize, find, and automate processes** that involve your workspaces based on your unique requirements in order to enhance your productivity and efficiency.
 
@@ -25,7 +31,9 @@ With the Syskit Point custom metadata feature, you can:
 
 * **Improve search and discovery** as associating custom metadata with files makes it easier to find specific documents and filter them based on their attributes, making it more efficient to locate relevant information.
 
- 
+
+
+
 
 {% hint style="info" %}
 
@@ -33,6 +41,12 @@ Only Syskit Point **administrators can create new custom metadata**.
 {% endhint %}
 
 ## Change Custom Metadata
+
+{% hint style="info" %}
+
+**Ask your Syskit Point administrator** for the best practice on custom metadata adjustment.
+
+{% endhint %}
 
 After custom metadata has been created by your Syskit Point admin, you are able to manage and change how it applies to the **workspaces where you are the owner**.
 
@@ -55,7 +69,12 @@ On the Change Metadata pop-up, you can:
 
 ## Filter Workspaces by Metadata
 
-When generating a report, it can now include and be filtered by the specific custom metadata that was set up.
+When generating a report, it can include and be filtered by the specific custom metadata that was set up.
+
+As you’re starting your cleanup and planning on implementing automated governance, **use the metadata filed to segment your Teams and Sites into priority tiers**. 
+
+On your sites report filter out e.g. Externally shared (+) inactive (+) Teams, and apply the metadata field “Priority 1”. This way, **the mentioned subset of teams/sites will always be available through most reports**, automated governance application and other.
+
 
 To generate a report with custom metadata, take the following steps:
 
