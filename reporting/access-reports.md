@@ -268,8 +268,17 @@ The Group Memberships report can be **exported as PDF and XLSX files**. There is
 
 ## Group Access Report
 
-The Group Access report provides insight into each security group's permissions and access rights. 
+The Group Access report provides insight into each group's permissions and access rights. 
+
   * For example, with this report, you can detect where "Everyone" and "Everyone except external users" groups have access.
+
+The Group Access report can be generated for: 
+* **Microsoft Teams**
+* **Microsoft 365 groups**
+* **Security Groups**
+* **Security Groups (On-Premises)**
+* **Mail-Enabled Security Groups**
+
 
 [For more details on how to Manage Group Access, take a look at this article.](../point-collaborators/manage-group-access.md) 
 
