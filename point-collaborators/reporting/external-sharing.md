@@ -14,7 +14,7 @@ Or maybe your management has asked you to eliminate all potentially risky ways t
 
 Tracking externally shared content is essential as it helps **maintain data security, control permissions, monitor collaboration**, and much more.
 
-{% hint style="hint" %}
+{% hint style="information" %}
 
 If there are multiple workspaces where you are encountering an issue and want to create a report for, you can **bulk select all of the workspaces** when generating a report to learn more about the problem.
 {% endhint %}
