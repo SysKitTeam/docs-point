@@ -172,6 +172,7 @@
 * [Explore Syskit Point for Site Owners/Collaborators](point-collaborators/README.md)
   * [Syskit Point for Collaborators](point-collaborators/point-starter-kit-collaborators.md)
   * [Resolve Governance Tasks](point-collaborators/resolve-governance-tasks/README.md)
+    * [My Tasks](point-collaborators/resolve-governance-tasks/my-tasks.md)
     * [Complete Access Review Tasks](point-collaborators/resolve-governance-tasks/access-review.md)
     * [Resolve Lifecycle Management Tasks](point-collaborators/resolve-governance-tasks/lifecycle-management.md)
     * [Resolve Guest User Expiration Tasks](point-collaborators/resolve-governance-tasks/guest-users-expiration.md)

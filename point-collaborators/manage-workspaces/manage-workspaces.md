@@ -9,9 +9,9 @@ Managing your workspaces in Syskit Point can **simplify the day-to-day managemen
 Managing your workspaces helps you **ensure users have access to all the resources they need** to do their work effectively as well as **identify and remove users** that should no longer have access. 
 
 When it comes to workspace management, Syskit Point lets you easily:
- * [Change Permissions](#manage-group-permissions)
- * [Add and Remove Owners](#add-and-remove-group-owners)
- * [Remove Access](#remove-group-access)
+ * [Manage Workspace Access](#manage-workspace-access)
+ * [Add and Remove Owners](#add-and-remove-owners)
+ * [Remove Access](#remove-access)
 
 These changes can be made in instances **when certain members or owners leave a project** and need to have their access revoked or if a member needs to have **permissions added as their responsibilities within the project increased**. 
 
@@ -39,7 +39,7 @@ You are only able to **manage access for groups where you are the owner**.
 
 {% endhint %}
 
-## Change Permissions
+## Manage Workspace Access
 
 Once users have been added to your workspace, you can manage their permissions by assigning roles to the workspace. Roles control what members can do within the workspace and are as follows: 
   * **Full Control** - user has complete control of the group

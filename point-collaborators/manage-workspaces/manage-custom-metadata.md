@@ -71,7 +71,7 @@ On the Change Metadata pop-up, you can:
 
 When generating a report, it can include and be filtered by the specific custom metadata that was set up.
 
-As you’re starting your cleanup and planning on implementing automated governance, **use the metadata filed to segment your Teams and Sites into priority tiers**. 
+As you’re starting your cleanup and planning on implementing automated governance, **use the metadata field to segment your Teams and Sites into priority tiers**. 
 
 On your sites report filter out e.g. Externally shared (+) inactive (+) Teams, and apply the metadata field “Priority 1”. This way, **the mentioned subset of teams/sites will always be available through most reports**, automated governance application and other.
 
