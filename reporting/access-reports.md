@@ -191,7 +191,7 @@ The Unique Permissions report can be **exported as PDF and XLSX files**. There i
 
 The Group Memberships report shows all members, owners, and guest users across your:
 * **Microsoft Teams**
-* **Microsoft 365 groups**
+* **Microsoft 365 Groups**
 * **Security Groups**
 * **Security Groups (On-Premises)**
 * **Mail-Enabled Security Groups**
@@ -268,13 +268,13 @@ The Group Memberships report can be **exported as PDF and XLSX files**. There is
 
 ## Group Access Report
 
-The Group Access report provides insight into each group's permissions and access rights. 
+The Group Access report provides insight into each group's access. 
 
   * For example, with this report, you can detect where "Everyone" and "Everyone except external users" groups have access.
 
 The Group Access report can be generated for: 
 * **Microsoft Teams**
-* **Microsoft 365 groups**
+* **Microsoft 365 Groups**
 * **Security Groups**
 * **Security Groups (On-Premises)**
 * **Mail-Enabled Security Groups**
