@@ -318,14 +318,14 @@ There are additional columns in the **column chooser**, located in the top right
 
 ### Report Actions
 
-Users' access can be removed and managed directly from this report. Select the item or user and choose the available action from the side panel.
+Groups' access and user's membership within groups can be managed directly from this report. Select the group or a user and choose the available action from the side panel.
 
-The available actions are:
-
+The available actions for groups are:
 *  **Add Owners/Members**
+
+For users, you can find the following actions: 
 *  **Change to Member/Promote to Owner**
 *  **Remove from Group**
-*  **Remove User Access**
 
 The Group Access report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
