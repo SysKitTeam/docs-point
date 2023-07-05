@@ -3,6 +3,7 @@
 * [Syskit Point](README.md)
 * [Releases](releases/README.md)
   * [Syskit Point Cloud](releases/cloud/README.md)
+      * [Syskit Point 2023.3](releases/cloud/point-2023-3-release-note.md)
       * [Syskit Point 2023.2](releases/cloud/point-2023-2-release-note.md)
   * [Syskit Point Data Center](releases/data-center/README.md)
     * [Syskit Point 2023.2](releases/data-center/point-2023-2-release-note.md)
