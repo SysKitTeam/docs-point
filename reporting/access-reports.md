@@ -279,19 +279,23 @@ The Group Access report can be generated for:
 * **Security Groups (On-Premises)**
 * **Mail-Enabled Security Groups**
 
-
 [For more details on how to Manage Group Access, take a look at this article.](../point-collaborators/manage-group-access.md) 
 
 ### Generate Report
 
 * **Click the Reports tile**; it is located on the Syskit Point home screen.
 * **Select Permission Reports in the filter**; it can be found in the upper left corner.
-* **Click the Group Access report** to be redirected to the options screen.
-* **Select the resources** for which the report should be generated.
-   * Click the checkboxes on the screen's left side to select one or more resources. 
-* **Click the Run Report button**.
+* **Click the Group Access report** to be redirected to the Selection screen.
 
 This report can also be accessed from the SharePoint Groups report.
+
+### Selection & Filters
+
+After clicking the **Group Access** report tile, the Selection step opens where you can:
+* **Select the groups** for which the report should be generated.
+   * Click the checkboxes on the screen's left side to select one or more groups. 
+* **Use various grid filters** to refine displayed groups; for example, group type, email, sensitivity label, etc.
+* **Click the Run Report button** once the selected parameters have been set.
 
 ### Report Data
 
@@ -302,14 +306,15 @@ The default columns displayed in the report are:
 * **Access**; permissions level of the user
 * **Given Through**
 * **Details**; shows where the user received the permission from
-
       
 There are additional columns in the **column chooser**, located in the top right corner of the report:
       
 * **URL**
 * **Object Type**
+* **Email**
+* **Privacy**
+* **Sensitivity Label**
 * **Site Type**
-
 
 ### Report Actions
 
