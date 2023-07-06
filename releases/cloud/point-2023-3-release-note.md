@@ -17,12 +17,12 @@ description: >-
 ## About Syskit Point Cloud
 
 * **New to Syskit Point Cloud?** Explore Syskit Point Cloud with a 21-day [free trial](https://www.syskit.com/products/point/free-trial/) for an easy and effective way to manage and secure your environment.
-* **Already using Syskit Point Cloud?** Syskit Point Cloud is automatically upgraded to the latest version when available. The automatic update occurs outside of working hours to ensure minimal interference with your day-to-day business.
+* **Already using Syskit Point Cloud?** Syskit Point Cloud is automatically upgraded to the latest version when available. The automatic update occurs outside working hours to ensure minimal interference with your day-to-day business.
 
 ## Features
 
 * **Introducing the Policy Automation feature!** Syskit Point Admins can now define rules, which Syskit Point will follow, and automatically apply defined governance policies for workspaces that meet the conditions configured in the said rules.
-You can fine-tune rules to apply governance policies to workspaces based on:
+You can fine-tune rules to apply governance policies to workspaces based on the following:
   * **Workspace name**,
   * **Privacy**,
   * **Sharing Settings**,
@@ -61,6 +61,3 @@ As an admin, you can expect such emails when:
     * Improved the message displayed in case the license limit is exceeded - the number of users in the M365 environment is greater than the number of users purchased with a Point license. Now, the message shows both - the total number of users and the number of users purchased with a Point license.
     * Export option added to all reports on the Governance screens, enabling you to export a list of active or resolved Acess Reviews, Lifecycle Management tasks, policy violations, and provisioning requests.
     * Fixed an issue where custom metadata, defined in provisioning templates, wasn't correctly displayed in Point Teams app.  
-
-
-
