@@ -23,19 +23,19 @@ description: >-
 
 * **Introducing the Policy Automation feature!** Syskit Point Admins can now define rules, which Syskit Point will follow, and, automatically apply defined governance policies for workspaces that meet the conditions configured in the said rules.
 You can fine-tune rules to apply governance policies to workspaces based on:
-* **Workspace name**,
-* **Privacy**,
-* **Sharing Settings**,
-* **URL**, and
-* **Workspace Type**,
+  * **Workspace name**,
+  * **Privacy**,
+  * **Sharing Settings**,
+  * **URL**, and
+  * **Workspace Type**,
 with more conditions to come!
 [To learn all about policy automation and how to set it up, follow this link](TODO add link).   
 
 * **Notifications for provisioning errors are now available**. Syskit Point Admins will get an email in case of issues when the Syskit Point service creates a new workspace. Admins can also define custom recipients responsible for addressing such issues when they arise. 
 As an admin, you can expect such emails when: 
-* **Workspace provisioning failed**
-* **Workspace provisioning succeeded, but additional workspace configuration resulted in an error**
-* **Sensitivity label couldn't be applied to a provisioned workspace**
+  * **Workspace provisioning failed**
+  * **Workspace provisioning succeeded, but additional workspace configuration resulted in an error**
+  * **Sensitivity label couldn't be applied to a provisioned workspace**
 [Learn more about available settings here](TODO add link).
 
 ## Improvements & Bug Fixes
