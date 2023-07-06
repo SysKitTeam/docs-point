@@ -6,24 +6,29 @@ description: Analytics reports provide insight into user interactions with Micro
 
 Reports in this article help keep track of **user interaction** with Microsoft 365 services, compare adoption between **departments**, and detect which **content and services** are not being used.
  
- Some of these reports will require an additional Analytics and Adoption module.
-
-This article contains information on eight analytics reports available through the **Report Center**:
+This article contains information on analytics reports available through the **Report Center**:
 
 * [Site Analytics Report](#site-analytics-report)
 * [Site Structure Report](#site-structure-report)
 * [Inactive Content Report](#inactive-content-report)
+
+{% hint style="information" %}
+**Site Structure and Inactive Content reports** are available in all plans.
+**Site Analytics report** is available in the Security & Compliance plan and higher tiers. 
+See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% endhint %}
+
+## Adoption and Analytics Module Reports
+The Adoption and Analytics module brings additional reports available through the **Report Center**.
 * [SharePoint Activity Report](#sharepoint-activity-report)
 * [Most Popular Content Report](#most-popular-content-report)
 * [Meeting Interactions Report](#meeting-interactions-report)
 * [Conversation Interactions Report](#conversation-interactions-report)
 * [Network Interaction Details Report](#network-interaction-details-report)
 
-
-{% hint style="information" %}
-**Analytics Reports** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% hint style="warning" %}
+**Please note!** **Adoption & Analytics module support ends on January 1st, 2024**. No further fixes, feature updates, or general support will be available after the date. 
 {% endhint %}
-
 
 ## Site Analytics Report
 
