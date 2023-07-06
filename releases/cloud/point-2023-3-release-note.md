@@ -21,9 +21,17 @@ description: >-
 
 ## Features
 
-* **Rules engine**
+* **Introducing the Policy Automation feature!** Syskit Point Admins can now define rules, which Syskit Point will follow, and, automatically apply defined governance policies for workspaces that meet the conditions configured in the said rules.
+You can fine-tune rules to apply governance policies to workspaces based on:
+* **Workspace name**,
+* **Privacy**,
+* **Sharing Settings**,
+* **URL**, and
+* **Workspace Type**,
+with more conditions to come!
+[To learn all about policy automation and how to set it up, follow this link](TODO add link).   
 
-* **Notifications for provisioning errors are now available**. SysKit Point Admins will get an email in case of issues when the Syskit Point service creates a new workspace. Admins can also define custom recipients responsible for addressing such issues when they arise. 
+* **Notifications for provisioning errors are now available**. Syskit Point Admins will get an email in case of issues when the Syskit Point service creates a new workspace. Admins can also define custom recipients responsible for addressing such issues when they arise. 
 As an admin, you can expect such emails when: 
 * **Workspace provisioning failed**
 * **Workspace provisioning succeeded, but additional workspace configuration resulted in an error**
@@ -38,9 +46,9 @@ As an admin, you can expect such emails when:
     * Action was reworked from the ground up to execute faster and use less memory. The action result stayed the same - the selected user is completely removed from a site and has no access to any content on the site. 
     * Action now better handles removing access for orphaned users when run from the Orphaned Users report. If the user was deleted via PowerShell, and an additional Users Sync is needed to collect additional information before deletion, Syskit Point displays an appropriate message in the action log.
 
-* **Improved Copy Permissions action is available.** SysKit Point Admins can now copy memberships in Microsoft Teams private channels by selecting an option on the action dialog. [You can find more information in the Copy User Permissions article](../../access-management/copy-user-permissions.md).
+* **Improved Copy Permissions action is available.** Syskit Point Admins can now copy memberships in Microsoft Teams private channels by selecting an option on the action dialog. [You can find more information in the Copy User Permissions article](../../access-management/copy-user-permissions.md).
 
-* **Improved user details screen for external users.** On the external user's details screen, Syskit Point Collaborators can no longer see the list of workspaces to which an external user has access, except for workspaces where the said Collaborator is the owner.
+* **Improved user details screen for external users.** On the external user's details screen, Syskit Point Collaborators can no longer see the list of workspaces to which an external user has access, except for workspaces to which the said Collaborator is the owner.
 
 * **Fixed an issue** with the User Sync Status data for users synced from On-Premises Active Directory. Some users were erroneously classified as Cloud users if their SID (Security Identifier) was not synced to Azure Active Directory. 
 
