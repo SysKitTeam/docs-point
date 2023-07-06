@@ -21,14 +21,15 @@ description: >-
 
 ## Features
 
-* **Introducing the Policy Automation feature!** Syskit Point Admins can now define rules, which Syskit Point will follow, and, automatically apply defined governance policies for workspaces that meet the conditions configured in the said rules.
+* **Introducing the Policy Automation feature!** Syskit Point Admins can now define rules, which Syskit Point will follow, and automatically apply defined governance policies for workspaces that meet the conditions configured in the said rules.
 You can fine-tune rules to apply governance policies to workspaces based on:
-  * **Workspace name**
-  * **Privacy**
-  * **Sharing Settings**
-  * **URL**
-  * **Workspace Type**
-  * **Sensitivity Label**
+  * **Workspace name**,
+  * **Privacy**,
+  * **Sharing Settings**,
+  * **URL**,
+  * **Workspace Type**,
+  * **Sensitivity Label**; with
+  * **Additional conditions, such as Custom Metadata, coming soon!**
 
 [To learn all about policy automation and how to set it up, follow this link](TODO add link).   
 
@@ -43,6 +44,8 @@ As an admin, you can expect such emails when:
 ## Improvements & Bug Fixes
 
 * **Group Access now supports Microsoft 365 Groups and Microsoft Teams**. Use it to discover workspaces in your M365 environment to which a specific Microsoft 365 Group or Microsoft Teams have access. The report also received additional columns - Email, privacy, and Sensitivity label, helping you filter out wanted groups. As before, you can use export and scheduled reports for documentation needs and to share them with your colleagues. 
+
+* **Custom metadata sync was improved**. Syskit Point now periodically syncs custom metadata regardless of workspace activity. Before, Syskit Point didn't sync custom metadata for inactive workspaces in case it was applied outside of Syskit Point.
 
 * **Remove Access action is improved.** 
     * Action was reworked from the ground up to execute faster and use less memory. The action result stayed the same - the selected user is completely removed from a site and has no access to any content on the site. 
