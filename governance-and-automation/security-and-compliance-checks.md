@@ -9,7 +9,7 @@ The new **Security and Compliance Checks**, visible directly from your Syskit Po
 Collecting all the important info about the security and compliance state of the environment is a time-consuming and repetitive administration task. Syskit Point will perform regular security and compliance checks for you and present the results on your home screen from where you can click and **drill down to a specific report to investigate further** and decide if you want to take some action and **resolve** specific issue. 
 
 {% hint style="information" %}
-**Want to join Early Access?** Security and Compliance Checks are not yet publicly available for all users. If you want to learn how it works and see what's coming up next, [schedule a call (calendly)](https://calendly.com/d/yjj-7y5-sky/syskit-point-early-access-program) with our Product Manager and provide feedback to help us shape up this feature to fit your needs.   
+**Want to join Early Access?** Security and Compliance Checks are not yet publicly available for all users. If you want to learn how it works and see what's coming up next, [schedule a call (bookings)](https://outlook.office365.com/owa/calendar/SecurityandComplianceChecksEAP@syskit.com/bookings/) with our Product Manager and provide feedback to help us shape up this feature to fit your needs.   
 {% endhint %}
 
 Directly from your home screen, you will see several things that need to be investigated for each check, and if all is good, there will be a green checkmark. We plan to expand this list of checks. For now, you will be able to see: 
@@ -146,4 +146,4 @@ Under the Security & Compliance Checks section, click the **number showing Inact
 ![Inactive Guest Users - Delete User](../.gitbook/assets/security-and-compliance-checks_inactive-guest-users-delete.png)
 ![Inactive Guest Users - Block User Sign-In](../.gitbook/assets/security-and-compliance-checks_inactive-guest-users-block.png)
 
-**Want to join Early Access?** Security and Compliance Checks are not yet publicly available for all users. If you want to learn more and see how it works, [please find a suitable time slot](https://calendly.com/d/yjj-7y5-sky/syskit-point-early-access-program), and we will gladly guide you through.
+**Want to join Early Access?** Security and Compliance Checks are not yet publicly available for all users. If you want to learn more and see how it works, [please find a suitable time slot](https://outlook.office365.com/owa/calendar/SecurityandComplianceChecksEAP@syskit.com/bookings/), and we will gladly guide you through.
