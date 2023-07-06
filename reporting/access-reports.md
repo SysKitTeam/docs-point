@@ -318,12 +318,10 @@ There are additional columns in the **column chooser**, located in the top right
 
 ### Report Actions
 
-Groups' access and user's membership within groups can be managed directly from this report. Select the group or a user and choose the available action from the side panel.
+User's membership within groups can be managed directly from this report. Select the group or a user and choose the available action from the side panel.
 
-The available actions for groups are:
+The available actions are:
 *  **Add Owners/Members**
-
-For users, you can find the following actions: 
 *  **Change to Member/Promote to Owner**
 *  **Remove from Group**
 
