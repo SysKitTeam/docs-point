@@ -106,7 +106,7 @@ Under the External Collaboration section, you will have two options to manage ex
 
 To manage links shared with anyone, complete the following:
  * Click the Links Shared with Anyone button, and you will be redirected to the **Sharing Links report (1)**
- * Here, you can **select the workspace ** with externally shared links, and on the right side of the screen, you will have the option to **Remove All Sharing Links**
+ * Here, you can **select the workspace** with externally shared links, and on the right side of the screen, you will have the option to **Remove All Sharing Links**
     * Clicking Remove All Sharing Links will remove all the sharing links from all of the items included in the workspace
  * Alternatively, you can remove a sharing link from a specific item in the workspace, for example, a folder
    * To do this, **select the folder** you want to change and **click the Remove Sharing Link button** on the right side of the screen
