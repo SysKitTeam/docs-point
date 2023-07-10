@@ -41,6 +41,11 @@ Templates can be created for the following workspaces:
 * **Yammer Community**
 * **Microsoft 365 Group**
 
+{% hint style="warning" %}
+**Please note!**  
+When creating a provisioning template in Syskit Point, if you want to use existing Microsoft Teams templates or site templates, set your browser language to English (USA). That way, the correct format of calls directed from Syskit Point to Microsoft endpoints is ensured, which uses Locale set to "en-US" (LocaleID equals 1033).
+{% endhint %}
+
 ### Microsoft Teams Template
 
 When creating a template for Microsoft Teams, you will need to define the following:
