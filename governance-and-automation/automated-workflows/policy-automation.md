@@ -65,7 +65,7 @@ To create the rule, fill out the following information, as requested on the pop-
    * By clicking preview, you can also see if there are **any “Priority Overrides”** on any of your workspace
 * **Click the Create Rule button (6)** to finalize your selection
 
-The rule is automatically applied once you've created it. 
+The rule is enabled once you've created it and will start applying defined policies for the workspaces that meet the defined conditions. 
 
 ![Policy Automation - New Rule - Select Policy](../../.gitbook/assets/policy-automation_new-policy-third.png)
 ![Policy Automation - New Rule - Apply Policy](../../.gitbook/assets/policy-automation_new-policy-fourth.png)
@@ -73,7 +73,7 @@ The rule is automatically applied once you've created it.
 
 {% hint style="important" %}
 **Please Note!**
-While you are able to create more than 10 rules for policies, **only 10 rules can be active at once**. If you already have 10 rules active, you will not be able to create new rules without disabling one or [contacting Syskit support](https://www.syskit.com/contact-us/). 
+While you can create more than 10 rules for policies, **only 10 rules can be active at once**. If you already have 10 rules active, you will not be able to create new rules without disabling one or [contacting Syskit support](https://www.syskit.com/contact-us/). 
 {% endhint %}
 
 ## Priority and Priority Overrides
@@ -81,18 +81,18 @@ While you are able to create more than 10 rules for policies, **only 10 rules ca
 When it comes to setting the priority for your rules and how an override is applied to them, there are a few key things to keep in mind. 
 
 * **Manually applied policies always have the highest priority**
-  * This means that even if a rule's priority is set as 1 if there is a conflicting policy that was manually applied, the rule will not apply to that workspace
-  * It also means that **if you have provisioning set up** and policies assigned to your templates, they will always **have precedence over the rules you create** for auto-applying
+  * This means that even if a rule's priority is set as 1 if there is a policy that was manually applied, the rule will not apply a policy of the same type to that workspace
+  * It also means that **if you have provisioning set up** and policies defined in your templates, they will **have precedence over the rules you create** for within the Policy Automation settings
 
 * When considering **priority levels** for your rules, note that the **lower the number the higher the priority**
   * This means that the **highest priority rule should be set as 1** and the lowest priority rule should be set as the highest number available
 
-* If there are **two rules that apply policies of the same type**, the rule with the **highest priority level** ends up being applied
-  * **Clicking Preview shows you the Priority Override** for the workspaces that have conflicting priorities and where the rule with the higher priority number will replace the previous rule 
+* If there are **two rules that apply policies of the same type**, the rule with the **highest priority level** applies the policy
+  * **Clicking Preview shows you the Priority Override** for the workspaces where the rule with the higher priority number will apply policies over the rule with a lower priority 
 
-* If **two rules contain different policy types** that would apply to the same workspace, **both rules are automatically applied**
+* If **two rules contain different policy types** that apply to the same workspace, **both rules apply the policies**
 
-* If there is a **workspace that has a Do not apply/No policy option enabled**, even if a rule means the conditions for the workspace, **the rule is not applied**
+* If there is a **workspace that has a Do not apply/No policy option enabled**, no policies are applied for the workspace that meets the conditions
 
 
 ## Manage Rules
