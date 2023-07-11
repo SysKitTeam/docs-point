@@ -39,7 +39,7 @@ As an admin, you can expect such emails when:
   * **Workspace provisioning succeeded, but additional workspace configuration resulted in an error**
   * **Sensitivity label couldn't be applied to a provisioned workspace**
 
-[Learn more about available settings here](TODO add link).
+[Learn more about available settings here](../../governance-and-automation/provisioning/configure-provisioning-failure-notifications.md).
 
 ## Improvements & Bug Fixes
 
