@@ -111,6 +111,7 @@
     * [Enable Sensitivity Labels](governance-and-automation/provisioning/enable-sensitivity-labels.md)
     * [Restrict Microsoft 365 Groups Creation](governance-and-automation/provisioning/restrict-group-creation.md)
     * [Templates](governance-and-automation/provisioning/templates.md)
+    * [Configure Provisioning Failure Notifications](governance-and-automation/provisioning/configure-provisioning-failure-notifications.md)
     * [Approval Processes](governance-and-automation/provisioning/approval-processes.md)
     * [Approve/Reject Requests](governance-and-automation/provisioning/approve-reject-requests.md)
     * [Manage Requests](governance-and-automation/provisioning/manage-requests.md)

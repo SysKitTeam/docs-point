@@ -22,6 +22,8 @@ To set up a complete provisioning process that fits your company's needs, there 
 
 5) **Enable/Disable Feature** - by default, Provisioning is set as enabled but can be disabled without losing any of the existing provisioning requests. In case Provisioning is disabled, existing provisioning requests can still be completed but no new provisioning requests can be created by end-users. [Read more on Enabling and Disabling Provisioning here](enable-disable-provisioning.md).
 
+6) **Customize who will receive notifications in case of a provisioning failure** - by default, Syskit Point admins will get an email in case the creation of a new workspace fails, or a sensitivity label cannot be applied. In such cases, Syskit Point will notify specified users or groups that can troubleshoot and resolve the issue manually. [Learn more about available notification options here](configure-provisioning-failure-notifications.md).
+
 ## End-users 
 
 Learn how to: 
