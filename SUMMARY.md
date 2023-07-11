@@ -98,6 +98,7 @@
     * [Run Lifecycle Management Actions in Syskit Point](governance-and-automation/lifecycle-management/lifecycle-management-actions.md)
   * [Automated Workflows](governance-and-automation/automated-workflows/README.md)
     * [Set Up Automated Workflows](governance-and-automation/automated-workflows/set-up-automated-workflows.md)
+    * [Policy Automation](governance-and-automation/automated-workflows/policy-automation.md)
     * [Guest Users Expiration](governance-and-automation/automated-workflows/guest-users-expiration-admin.md)
     * [Minimum Number of Owners](governance-and-automation/automated-workflows/minimum-number-of-owners-admin.md)
     * [Maximum Number of Owners](governance-and-automation/automated-workflows/maximum-number-of-owners-admin.md)
