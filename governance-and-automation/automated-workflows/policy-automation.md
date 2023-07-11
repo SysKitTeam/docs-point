@@ -7,7 +7,7 @@ description: This article explains how to set up and utilize the policy automati
 
 The Policy Automation feature **lets you create rules for auto-applying policies based on specific metadata and built-in properties**. 
 
-This makes managing your environment and keeping it secure easier and more efficient. With policy automation, **you can define rules in SysKit Point that will automatically apply policies** (for example, Access Review, Guest Users Expiration, Maximum Owners, etc.) to your newly created workspaces **without having to apply them manually**. It also means you'll need to create fewer provisioning templates to secure your environment. 
+This makes managing your environment and keeping it secure easier and more efficient. With policy automation, **you can define rules in Syskit Point that will automatically apply policies** (for example, Access Review, Guest Users Expiration, Maximum Owners, etc.) to your newly created workspaces **without having to apply them manually**. It also means you'll need to create fewer provisioning templates to secure your environment. 
 
 {% hint style="important" %}
 **Please Note!**
@@ -21,7 +21,7 @@ To activate rules for auto-applying policies, please make sure you have already 
 
 To create rules for auto-applying policies, take the following steps:
 
-* Open your SysKit Point and **navigate to Settings** and under **Governance** select **Policy Automation (1)**
+* Open your Syskit Point and **navigate to Settings** and under **Governance** select **Policy Automation (1)**
 * **Click the New Rule button (2)** and a pop-up will appear
 
 ![Policy Automation - Create Rule](../../.gitbook/assets/policy-automation_policy-settings.png)
@@ -64,7 +64,7 @@ The rule is automatically applied once you've created it.
 
 {% hint style="important" %}
 **Please Note!**
-While you are able to create more than 10 rules for policies, **only 10 rules can be active at once**. If you already have 10 rules active, you will only be able to create new rules after first disabling one. 
+While you are able to create more than 10 rules for policies, **only 10 rules can be active at once**. If you already have 10 rules active, you will not be able to create new rules without disabling one or contacting Syskit support. 
 {% endhint %}
 
 
