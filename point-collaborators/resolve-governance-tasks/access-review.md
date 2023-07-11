@@ -60,7 +60,7 @@ From here, you can continue and review a site by clicking the **link in the Task
 
 This screen can also be accessed from within Syskit Point by selecting **My Tasks**.
 
-[You can learn more about the My Tasks section by taking a look at this article.](../resolve-governance-tasks/my-tasks-intro.md) 
+[You can learn more about the My Tasks section by taking a look at this article.](../resolve-governance-tasks/my-tasks.md) 
 
 Once you click to start your Access Review, the next screen is the **Access Review Wizard**, which guides you through the Access Review process.
 
