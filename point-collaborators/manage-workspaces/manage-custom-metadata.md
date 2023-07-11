@@ -29,7 +29,7 @@ With the Syskit Point custom metadata feature, you can:
 
 * **Improve reporting and analytics** to enable better tracking and reporting by using the custom metadata to generate reports and gain insights into various aspects of your workspaces, such as project progress, document usage, or team performance which can be valuable for decision-making and assessing productivity
 
-* **Improve search and discovery** as associating custom metadata with files makes it easier to find specific documents and filter them based on their attributes, making it more efficient to locate relevant information.
+* **Improve search and discovery** as associating custom metadata with workspaces makes it easier to find specific workspaces or filter them based on their attributes, making it more efficient to locate relevant information.
 
 
 
@@ -48,7 +48,11 @@ Only Syskit Point **administrators can create new custom metadata**.
 
 {% endhint %}
 
-After custom metadata has been created by your Syskit Point admin, you are able to manage and change how it applies to the **workspaces where you are the owner**.
+After custom metadata has been created by your Syskit Point admin, you will be able to manage and change how it applies to the **workspaces where you are the owner**.
+
+{% hint style="warning" %}
+**Please note!** Syskit Point administrators define which metadata can be modified by workspace owners or admins. In case you cannot modify specific custom metadata, contact your administrator.
+{% endhint %}
 
 To change the custom metadata that has been set up to your workspaces, **select Sites or Microsoft Teams & Groups from the Home page**.
 
