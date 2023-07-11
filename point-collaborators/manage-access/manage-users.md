@@ -14,7 +14,9 @@ Syskit Point enables you to **manage users' activity and permissions** in your M
 
 You can **add or remove users to groups** and set up **alerts to notify you** when specific users complete certain actions. **Reports can also be generated** to gain deeper insight into a specific user's access and activity. 
 
-This can be useful for situations when a **user leaves a specific project** and no longer needs access to a workspace or to **keep track of a user's activity** in order to better optimize what permissions are given.
+This can be useful for situations when a **user leaves a specific project** and no longer needs access to a workspace or to **keep track of a user's activity** in order to better optimize what permissions are given. If a user is no longer needed in your workspaces, you'll have a quick overview of all of your workspaces that the user has access to and be able to remove them with one quick click. 
+
+Alternatively, let's say there's a new team member joining your ranks, and you're in charge of onboarding them. You can easily add them to your workspaces and assign the required access level. This ensures all your team members can access relevant content and communicate effectively, for example, through your Microsoft Teams.
 
 To manage your users: 
 
@@ -99,5 +101,3 @@ To remove a user from the group:
   * **Click the Remove** button to confirm the removal of the user from the selected group or groups
 
 ![Promote User to Group Owner](../../.gitbook/assets/manage-users_teams-and-groups.png)
-
-

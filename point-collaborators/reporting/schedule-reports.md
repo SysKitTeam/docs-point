@@ -1,5 +1,5 @@
 ---
-description: This article provides details on how to schedule reports and set up alerts as Collaborator in Syskit Point. 
+description: This article provides details on how to schedule reports as a collaborator in Syskit Point. 
 ---
 
 # Schedule Reports
@@ -8,7 +8,10 @@ When you manage permissions and resources in your Microsoft 365 tenant, it is im
 
 Rather than generating specific reports manually every time you need them, **Syskit Point allows you to automate report generation** and sends the reports to you at your selected frequency.
 
+Scheduled reports provide an easy way to **enable contiunous tracking**. That way you can take quick action and **make any necessary changes to your workspaces**. 
+
 Here are a few examples of the way the Scheduled Reports feature can be utilized:
+ * **If you want to track any access changes that happened in the previous week, you can schedule the Site Permission Changes report** to help you stay up to date and keep your workspace secure
  * **If you want to control what is being shared externally from your workspaces, you can schedule an Externally Shared Content report** and set it up so that you will receive the report daily, weekly or monthly, based on your needs. That way, you can be confident that access to the data inside of your workspaces is well controlled. 
  * **If you want to stay on top of who has access to your workspaces, you can schedule the Permissions Matrix report** and also have it delivered at regular intervals. This helps you identify which users have access to what content and which users might need to be given access or removed from having access. 
 

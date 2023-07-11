@@ -4,21 +4,13 @@ description: >-
   Automation process in Syskit Point.
 ---
 
-# Resolve Lifecycle Management Tasks
-
-* **Watch this short video for a quick start on Lifecycle Management tasks in Syskit Point**.
-
-{% embed url="https://vimeo.com/714449776/441fb200e5" %}
-
-* **Continue with the article to find detailed information** on how to resolve Lifecycle Management tasks in Syskit Point.
-
-## Workspace Lifecycle
+# Workspace Lifecycle
 
 Workspaces in Microsoft 365 usually display the following lifecycle stages:
 
-* **Beginning**; for example, when an admin creates a new workspace - Microsoft Team.
-* **Middle**; users collaborate and use said workspace, chat, create files, and take advantage of all means available to collaborate and achieve their goals successfully.
-* **End**; after a team is dismissed or a product is retired, the previously used workspace becomes stale and is no longer needed.
+* **Creation**; for example, when an admin creates a new workspace (Microsoft Team) or end-users request new workspace from a menu of templated options created by admins in SysKit Point. 
+* **Maintenance**; users collaborate and use said workspace, chat, create files; enforcing continuous reviews with automated flows provides an easy way to manage ownership and access to your assets.
+* **Cleanup**; SysKit Point automatically detects inactive workspaces and lets you decide if you wish to keep, archive, or delete the data; after a team is dismissed or a product is retired, the previously used workspace becomes stale and is no longer needed.
 
 **When a workspace has reached the third stage**, a team owner for that workspace needs to decide:
 
@@ -131,6 +123,13 @@ Expired tasks are now **assigned to Syskit Point Admins** and can no longer be c
 When a site owner or admin opens an expired task, the task details screen shows a message stating, 'This task has expired.' We have transferred it back to the Syskit Point Admin'.
 
 ![Task details screen – Expired task](../../.gitbook/assets/lifecycle-management\_expired-task-details.png)
+
+# Resolve Lifecycle Management Tasks
+
+* **Watch this short video for a quick start on Lifecycle Management tasks in Syskit Point**.
+
+{% embed url="https://vimeo.com/714449776/441fb200e5" %}
+
 
 ## Related Topics
 
