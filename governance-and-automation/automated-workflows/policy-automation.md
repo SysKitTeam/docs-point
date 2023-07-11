@@ -5,9 +5,17 @@ description: This article explains how to set up and utilize the policy automati
 
 # Policy Automation
 
-The Policy Automation feature **lets you create rules for auto-applying policies based on specific metadata and built-in properties**. 
+The Policy Automation feature **lets you create rules for auto-applying policies** based on:
+  * Name
+  * Privacy
+  * Sensitivity Label
+  * Sharing Settings
+  * URL
+  * Workspace Type
 
-This makes managing your environment and keeping it secure easier and more efficient. With policy automation, **you can define rules in Syskit Point that will automatically apply policies** (for example, Access Review, Guest Users Expiration, Maximum Owners, etc.) to your newly created workspaces **without having to apply them manually**. It also means you'll need to create fewer provisioning templates to secure your environment. 
+Custom metadata is planned to be implemented into the feature soon as well. 
+
+Policy Automation makes managing your environment and keeping it secure easier and more efficient. With policy automation, **you can define rules in Syskit Point that will automatically apply policies** (for example, Access Review, Guest Users Expiration, Maximum Owners, etc.) to your newly created workspaces **without having to apply them manually**. It also means you'll need to create fewer provisioning templates to secure your environment. 
 
 {% hint style="important" %}
 **Please Note!**
@@ -31,9 +39,10 @@ To create the rule, fill out the following information, as requested on the pop-
 * Under the General section, fill out the following:
   * **Rule Name (1)** - in this space, you can write your desired rule name
   * **Description (2)** - this space can be used to describe the rule which you want to create
-* Under the **Priority section (3)**, set your desired level of priority for this rule by **selecting a number (4)** between 1-6 from the drop-down menu
-  * Priority will be **set as 1 by default** and is the number that signifies the highest priority, with 6 being the lowest priority
+* Under the **Priority section (3)**, set your desired level of priority for this rule by **selecting a number (4)** from the drop-down menu
+  * Priority will be **set as 1 by default** and is the number that signifies the highest priority, with the number furthest from 1 signifying the lowest priority level
   * This change also affects priorities on previously defined rules
+  * For more details on this, take a look at the [Priority and Overrides section of this article](../../governance-and-automation/automated-workflows/policy-automation.md#priority-and-priority-overrides)
 * When ready, **click Next to continue (5)**
 
 ![Policy Automation - New Rule](../../.gitbook/assets/policy-automation_new-policy-first.png)
@@ -45,15 +54,15 @@ To create the rule, fill out the following information, as requested on the pop-
   * Once saved, if you want to delete it, **click the delete button**
 * When you're ready, **click Next to continue (4)**
 
-![Policy Automation - New Rule - Add Condittions](../../.gitbook/assets/policy-automation_new-policy-second.png)
+![Policy Automation - New Rule - Add Conditions](../../.gitbook/assets/policy-automation_conditions.png)
 
 * Under the **Apply Policies (1)** section, you can select which policies the rule should apply for 
   * In the section **Apply following policies** select the **Add Policy (2)** button and **select your desired policy (3)** from the drop-down menu available
   * Once you've selected the policy or policies, **click the Save Policy (4)** button
   * If you've set a policy but want to change it,  **click the edit button** 
   * If you've set a policy but want to delete it, **click the delete button**
-* **Click the preview button (5)** when your preferences have been set to see how this new rule would affect your workspaces
-   * By clicking preview, you can also see if there are **any “Priority Overides”** on any of your workspace
+* **Click the Preview button (5)** when your preferences have been set to see how this new rule would affect your workspaces
+   * By clicking preview, you can also see if there are **any “Priority Overrides”** on any of your workspace
 * **Click the Create Rule button (6)** to finalize your selection
 
 The rule is automatically applied once you've created it. 
@@ -64,8 +73,26 @@ The rule is automatically applied once you've created it.
 
 {% hint style="important" %}
 **Please Note!**
-While you are able to create more than 10 rules for policies, **only 10 rules can be active at once**. If you already have 10 rules active, you will not be able to create new rules without disabling one or contacting Syskit support. 
+While you are able to create more than 10 rules for policies, **only 10 rules can be active at once**. If you already have 10 rules active, you will not be able to create new rules without disabling one or [contacting Syskit support](https://www.syskit.com/contact-us/). 
 {% endhint %}
+
+## Priority and Priority Overrides
+
+When it comes to setting the priority for your rules and how an override is applied to them, there are a few key things to keep in mind. 
+
+* **Manually applied policies always have the highest priority**
+  * This means that even if a rule's priority is set as 1 if there is a conflicting policy that was manually applied, the rule will not apply to that workspace
+  * It also means that **if you have provisioning set up** and policies assigned to your templates, they will always **have precedence over the rules you create** for auto-applying
+
+* When considering **priority levels** for your rules, note that the **lower the number the higher the priority**
+  * This means that the **highest priority rule should be set as 1** and the lowest priority rule should be set as the highest number available
+
+* If there are **two rules that apply policies of the same type**, the rule with the **highest priority level** ends up being applied
+  * **Clicking Preview shows you the Priority Override** for the workspaces that have conflicting priorities and where the rule with the higher priority number will replace the previous rule 
+
+* If **two rules contain different policy types** that would apply to the same workspace, **both rules are automatically applied**
+
+* If there is a **workspace that has a Do not apply/No policy option enabled**, even if a rule means the conditions for the workspace, **the rule is not applied**
 
 
 ## Manage Rules
