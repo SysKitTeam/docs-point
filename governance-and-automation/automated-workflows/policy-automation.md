@@ -64,7 +64,7 @@ The rule is automatically applied once you've created it.
 
 {% hint style="important" %}
 **Please Note!**
-While you are able to create more than 10 rules for policies, **only 10 rules can be active at once**. 
+While you are able to create more than 10 rules for policies, **only 10 rules can be active at once**. If you already have 10 rules active, you will only be able to create new rules after first disabling one. 
 {% endhint %}
 
 
