@@ -5,13 +5,13 @@ description: This article explains how to upgrade to Policy automation and remov
 
 # Upgrade to Policy Automation
 
-Syskit Point's newest feature, Policy Automation, provides an easy way to automatically apply policies to all newly created workspaces in order to ensure security and compliance.
+Syskit Point's newest feature, Policy Automation, provides an easy way to automatically apply policies to all existing and newly created workspaces in order to ensure security and compliance.
 
 You can read more about this feature and how to create rules for auto-applying policies in the [Policy Automation article](../../.gitbook/assets/policy-automation_policy-settings.png).
 
 One aspect of this feature is that it does not automatically apply policies when a policy has already been manually applied to a workspace. 
 
-That means that if your workspaces already have assigned policies, the rules you create with the same policy won't be applied to them. To ensure that the rules you create are applied to all of your workspaces in the same manner, you need to remove the current policies associated with them.
+That means that if your workspaces already have manually assigned policies, the rules you create with the same policy type won't be applied to them. To ensure that the rules you create apply policies to all of your workspaces in the same manner, you need to remove the current policies associated with them.
 
 For details on how to remove the policies from your workspaces, take a look at the instructions below. 
 
