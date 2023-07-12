@@ -11,7 +11,10 @@ You can read more about this feature and how to create rules for auto-applying p
 
 One aspect of this feature is that it does not automatically apply policies when a policy has already been manually applied to a workspace. 
 
-That means that if your workspaces already have manually assigned policies, the rules you create with the same policy type won't be applied to them. To ensure that the rules you create apply policies to all of your workspaces in the same manner, you need to remove the current policies associated with them.
+That means that if your workspaces already have manually assigned policies, the rules you create with the same policy type won't be applied to them. 
+  * Manually applied policies are the ones you applied to workspaces by running the Manage Policies action in Automated Workflows settings, Sites Overview screen, or Microsoft Teams & Groups Overview screen, or by assigning policies within Provisioning templates.  
+
+To ensure that the rules you create apply policies to all of your workspaces in the same manner, you need to remove the current policies associated with them.
 
 For details on how to remove the policies from your workspaces, take a look at the instructions below. 
 
