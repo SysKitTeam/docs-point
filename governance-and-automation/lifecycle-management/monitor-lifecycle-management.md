@@ -98,6 +98,6 @@ You can also perform the **Restore** action on resources that were **deleted** \
 
 {% hint style="info" %}
 **Hint**!  
-To learn more, visit the articles for running [lifecycle management actions](lifecycle-management-actions.md) and [resolving lifecycle management tasks](../../point-collaborators/lifecycle-management.md).
+To learn more, visit the articles for running [lifecycle management actions](lifecycle-management-actions.md) and [resolving lifecycle management tasks](../../point-collaborators/resolve-governance-tasks/lifecycle-management.md).
 {% endhint %}
 

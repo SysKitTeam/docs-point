@@ -4,21 +4,13 @@ description: >-
   Automation process in Syskit Point.
 ---
 
-# Resolve Lifecycle Management Tasks
-
-* **Watch this short video for a quick start on Lifecycle Management tasks in Syskit Point**.
-
-{% embed url="https://vimeo.com/714449776/441fb200e5" %}
-
-* **Continue with the article to find detailed information** on how to resolve Lifecycle Management tasks in Syskit Point.
-
-## Workspace Lifecycle
+# Workspace Lifecycle
 
 Workspaces in Microsoft 365 usually display the following lifecycle stages:
 
-* **Beginning**; for example, when an admin creates a new workspace - Microsoft Team.
-* **Middle**; users collaborate and use said workspace, chat, create files, and take advantage of all means available to collaborate and achieve their goals successfully.
-* **End**; after a team is dismissed or a product is retired, the previously used workspace becomes stale and is no longer needed.
+* **Creation**; for example, when an admin creates a new workspace (Microsoft Team) or end-users request new workspace from a menu of templated options created by admins in SysKit Point. 
+* **Maintenance**; users collaborate and use said workspace, chat, create files; enforcing continuous reviews with automated flows provides an easy way to manage ownership and access to your assets.
+* **Cleanup**; SysKit Point automatically detects inactive workspaces and lets you decide if you wish to keep, archive, or delete the data; after a team is dismissed or a product is retired, the previously used workspace becomes stale and is no longer needed.
 
 **When a workspace has reached the third stage**, a team owner for that workspace needs to decide:
 
@@ -43,7 +35,7 @@ The email provides the following:
 
 Clicking any of the **action buttons (3)** redirects to the **Lifecycle Management task** of the workspace in Syskit Point.
 
-![Inactive content email](../.gitbook/assets/lifecycle-management\_owner-email.png)
+![Inactive content email](../../.gitbook/assets/lifecycle-management\_owner-email.png)
 
 The Lifecycle Management task screen provides the option to **include additional information on the workspace and execute the selected action**.
 
@@ -56,13 +48,13 @@ The following can be:
 * **Comment (1)** on why you’re performing the action
 * **Run the action (2)**
 
-![Syskit Point - Action dialog](../.gitbook/assets/lifecycle-management\_action-dialog.png)
+![Syskit Point - Action dialog](../../.gitbook/assets/lifecycle-management\_action-dialog.png)
 
 After the action is executed, **the information is displayed in the bottom ribbon of the Lifecycle management** task for the viewed workspace.
 
 * An example of this is shown in the image below.
 
-![Lifecycle Management task – Workspace deleted](../.gitbook/assets/lifecycle-management\_action-completed.png)
+![Lifecycle Management task – Workspace deleted](../../.gitbook/assets/lifecycle-management\_action-completed.png)
 
 {% hint style="warning" %}
 **Please note!**\
@@ -81,7 +73,7 @@ My Tasks screen shows:
 * **Completed Lifecycle Management tasks (2)**
 * **Resolve button (3)** to open the task details screen
 
-![Syskit Point – My Tasks Screen](../.gitbook/assets/lifecycle-management\_my-tasks.png)
+![Syskit Point – My Tasks Screen](../../.gitbook/assets/lifecycle-management\_my-tasks.png)
 
 ## Lifecycle Management Task Details
 
@@ -96,7 +88,7 @@ On the task details screen, the following information is available:
   * The All Users and All Files tile redirects to the relevant reports where more information can be found on the users and content in that workspace.
 * **Actions (4)**; this section provides options on what to do with the inactive workspace
 
-![Syskit Point – Lifecycle Management Task details](../.gitbook/assets/lifecycle-management\_task-details.png)
+![Syskit Point – Lifecycle Management Task details](../../.gitbook/assets/lifecycle-management\_task-details.png)
 
 **After successfully running a Lifecycle Management action, Syskit Point automatically completes the Lifecycle Management task for the reviewed workspace.**
 
@@ -113,7 +105,7 @@ The emails display an appropriate message depending on the time left to complete
 
 * Choosing one of the Lifecycle Management actions is necessary for task completion.
 
-![Lifecycle Management – Reminder email](../.gitbook/assets/lifecycle-management\_reminder-email.png)
+![Lifecycle Management – Reminder email](../../.gitbook/assets/lifecycle-management\_reminder-email.png)
 
 ## Expired Tasks
 
@@ -121,7 +113,7 @@ If the opportunity to decide what to do with the inactive workspace is missed, S
 
 They can be found on the **My Tasks screen** under the Completed Lifecycle Management view.
 
-![My Tasks – Expired tasks](../.gitbook/assets/lifecycle-management\_expired-tasks.png)
+![My Tasks – Expired tasks](../../.gitbook/assets/lifecycle-management\_expired-tasks.png)
 
 {% hint style="warning" %}
 **Please note!**\
@@ -130,7 +122,14 @@ Expired tasks are now **assigned to Syskit Point Admins** and can no longer be c
 
 When a site owner or admin opens an expired task, the task details screen shows a message stating, 'This task has expired.' We have transferred it back to the Syskit Point Admin'.
 
-![Task details screen – Expired task](../.gitbook/assets/lifecycle-management\_expired-task-details.png)
+![Task details screen – Expired task](../../.gitbook/assets/lifecycle-management\_expired-task-details.png)
+
+# Resolve Lifecycle Management Tasks
+
+* **Watch this short video for a quick start on Lifecycle Management tasks in Syskit Point**.
+
+{% embed url="https://vimeo.com/714449776/441fb200e5" %}
+
 
 ## Related Topics
 

@@ -1,6 +1,6 @@
 ---
 description: >-
-  This article lists new features, improvements, and bug fixes in Syskit Point
+  This article lists new features, improvements, and bug fixes in Syskit Point Cloud
   version 2023.2.
 ---
 

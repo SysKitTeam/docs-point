@@ -4,17 +4,9 @@ description: >-
   in Syskit Point from a site owner's perspective.
 ---
 
-# Complete Access Review Tasks
+# Workspace Access Review
 
-* **Watch this short video for a quick start on Access Review tasks in Syskit Point**.
-
-{% embed url="https://vimeo.com/731363189/a68fb4c8a2" %}
-
-* **Continue with the article to find detailed information** on how to complete Access Review tasks in Syskit Point.
-
-## Workspace Access Review
-
-**Access review**, in the context of the Microsoft 365 environment, is an activity where a person responsible for a Microsoft 365 workspace verifies whether permissions are given to users inside (internal) and outside (external) of the company, comply with the organizational rules and guidelines.
+**Access review**, in the context of the Microsoft 365 environment, is an activity where a person responsible for a Microsoft 365 workspace verifies whether permissions are given to users inside (internal) and outside (external) of the company, and comply with the organizational rules and guidelines.
 
 Some examples of such Microsoft 365 workspaces are:
 
@@ -42,7 +34,12 @@ When working with Access Review, Syskit Point Collaborators can **perform the Ac
 
 For a site owner or admin assigned to the Syskit Point Collaborators role, the Access Review process begins with an email.
 
+
 ## Access Review Email Request
+
+If you receive a request to review your collaboration space, your organization has most likely **started an automated Access Review policy**. That means that occasionally **you will be asked to review the sites, teams, and groups you're responsible for**.  
+ 
+The importance of doing your part of the work will **determine how overall exposed your organization is to potential security risks or outdated sharing practices**. Syskit Point is here to help you along the way to ensure you do every step as effectively as possible. 
 
 When the Automated Access Review starts, site owners receive an email request to review permissions on their site(s). The email contains the following important data:
 
@@ -50,45 +47,22 @@ When the Automated Access Review starts, site owners receive an email request to
 * **Due date of the Access Review (2)**
 * **Review Now button (3)**
 
-![Access Review request email](../.gitbook/assets/permissions-review\_request.png)
+![Access Review request email](../../.gitbook/assets/permissions-review\_request.png)
 
 The **Review Now** button opens the **Access Review Task** screen once clicked. On this screen, you can find:
 
 * **Sites you are the owner of and need to review**; displayed in the grid.
 * **Information regarding the Access Review task (1)**
 
-![Access Review Task screen](../.gitbook/assets/access-review\_task.png)
+![Access Review Task screen](../../.gitbook/assets/access-review\_task.png)
 
-From here, you can continue and review a site by clicking the **link in the Task column (2)**, or **selecting a row (3)** and clicking the **Review action (4)**.
+From here, you can continue and review a site by clicking the **link in the Task column (2)**or **selecting a row (3)** and clicking the **Review action (4)**.
 
 This screen can also be accessed from within Syskit Point by selecting **My Tasks**.
 
-## My Tasks
+[You can learn more about the My Tasks section by taking a look at this article.](../resolve-governance-tasks/my-tasks.md) 
 
-The **My Tasks** tile is located on the Home screen, and a notification bubble displays the number of tasks that need to be reviewed.
-
-It is set to one because a single Access Review task was created by Syskit Point and assigned to you. The **user profile** button shows the same notification bubble.
-
-To view tasks assigned to you, click the **My Tasks tile** on the Home screen or the **My Tasks section** in the user profile menu.
-
-![My Tasks tile](../.gitbook/assets/permissions-review\_my-tasks-tile.png)
-
-**My Tasks** screen displays the active Access Review task with the most important information:
-
-* **Requested date (1)**
-* **Due date (2)**
-* **Completion progress (3)**
-* **Review button (4)**
-* **Task categories (5)**
-* **Completed tasks categories (6)**
-
-![My Tasks screen](../.gitbook/assets/access-review\_my-tasks.png)
-
-Click **Review** to continue. The **Access Review Task** screen opens - the same screen that can be accessed from email, as explained in the previous section.
-
-On the screen that opens, click the **link in the Task column** to continue and review a site.
-
-The next screen is the **Access Review Wizard**, which guides you through the Access Review process.
+Once you click to start your Access Review, the next screen is the **Access Review Wizard**, which guides you through the Access Review process.
 
 ## Access Review Wizard
 
@@ -122,9 +96,9 @@ This step provides general information about the workspace that you are about to
 * **Close & Continue Later action (6)**
   * Clicking this will close the wizard. It can be accessed again through the My Tasks tile.
 * **Start Review button (7)**
-  * Clicking this continues the process to next step of the Access Review Wizard.
+  * Clicking this continues the process to the next step of the Access Review Wizard.
 
-![Access Review wizard - Overview step](../.gitbook/assets/access-review\_wizard-overview.png)
+![Access Review wizard - Overview step](../../.gitbook/assets/access-review\_wizard-overview.png)
 
 The **Close & Continue Later** option is available on all steps on the left-bottom and enables you to leave the Access Review wizard.
 
@@ -137,22 +111,25 @@ If you choose to leave the Access Review Wizard all performed actions take effec
 
 The **Members step** is the second one that shows **when reviewing Microsoft 365 Groups or Microsoft Teams**.
 
+Default members are the **general users distributed into several groups that include members, visitors, and owners**. All other users that are present in your workspace have access that in some way does not fit the default owner, member, or visitor group.  
+
 The following options are available:
 
 * **Top filters (1)**; they are helpful when viewing a specific group of users in the workspace:
-  * **Added users**
-  * **Removed users**
-  * **Owners**
-  * **Members**
-  * **Guests**
+  * **Added users** - users that have now been added to the workspace
+  * **Removed users** - users that have now been removed from the workspace
+  * **Owners** - the owners of the workspace
+  * **Members** - current members of the workspace
+  * **Guests** - users that do not usually belong to your organization or team
+
 * **When a user is selected (2)**, several options are available:
   * **Actions (3)**; remove members or owners, promote members to owners, or change owners to members.
   * **User Activity report (4)**; see all audit logs for the selected user.
-  * **Additional information (5)**; see user's latest activity and when it happened.
+  * **Additional information (5)**; see the user's latest activity and when it happened.
 * When no users are selected, the **Add Owners/Members** action is available.
 * **Click Next (6)** to continue to the next step of the Access Review Wizard.
 
-![Access Review wizard - Members step](../.gitbook/assets/access-review\_members.png)
+![Access Review wizard - Members step](../../.gitbook/assets/access-review\_members.png)
 
 The **Users step** is available **when reviewing sites**. The following options are available here:
 
@@ -172,7 +149,7 @@ The **Users step** is available **when reviewing sites**. The following options 
 * The **Grant Access** action is available when no users are selected
 * **Click Next (6)** to continue to the next step of the Access Review Wizard
 
-![Access Review wizard - Users step](<../.gitbook/assets/permissions-review\_users (2) (2) (3) (4) (4) (4) (3) (1).png>)
+![Access Review wizard - Users step](<../../.gitbook/assets/permissions-review\_users (2) (2) (3) (4) (4) (4) (3) (2) (1) (1).png>)
 
 {% hint style="warning" %}
 **Please note!**\
@@ -181,13 +158,14 @@ Members/Users step is not available when reviewing permissions for OneDrive.
 
 ### Sharing Step
 
-The **Sharing step** provides a simple yet detailed overview of all shared content. Multiple filters and views enable you to find shared content that you want to review.
+The **Sharing step** provides a simple yet detailed overview of all shared content. Multiple filters and views enable you to find shared content that might need to be shared with guest users outside your organization and lets you review that decision.
 
 * **Top filters (1)** enable you to filter content by sharing type:
   * **All Shared Content**; shows content that has been shared via sharing links or through direct access.
     * Use this when wanting to see everything that was shared.
   * **Shared Outside the Group**; selected by default.
-    * Use it to find content shared with users that are not a part of the Microsoft 365 Group or Microsoft Team you are reviewing.
+    * Use it to find content that was shared with users that are not a part of the Microsoft 365 Group or Microsoft Team you are reviewing.
+    * This can help you determine who should have access to what; for example, a person from your HR shouldn't have access to financial information, or the external consultant that should only have access to a subset of files.
   * **Shared Externally**; shows content shared with specific people outside the organization.
   * **Shared With Anyone**; shows content shared with anyone via sharing links.
     * Make sure to examine this content carefully to avoid potential security risks.
@@ -202,7 +180,7 @@ The **Sharing step** provides a simple yet detailed overview of all shared conte
 * **When no rows are selected**, the **Permissions Changes report link** is visible.
 * **Click Next (6)** to continue to the final step of the Access Review Wizard.
 
-![Access Review wizard - Sharing step](../.gitbook/assets/access-review\_wizard-sharing.png)
+![Access Review wizard - Sharing step](../../.gitbook/assets/access-review\_wizard-sharing.png)
 
 **Actions displayed in the side panel depend on the type and state of the selected object (1)**. A file with unique permissions is selected in the image below. The following **actions (2) are available** in that case:
 
@@ -222,7 +200,7 @@ By switching to the **Users view**, the **top filters** are changed accordingly 
 
 The descriptions for all filters can be found by **hovering your mouse over the filter tile (1)**.
 
-![Access Review wizard - Sharing step - Users view](../.gitbook/assets/access-review\_wizard-sharing-by-users.png)
+![Access Review wizard - Sharing step - Users view](../../.gitbook/assets/access-review\_wizard-sharing-by-users.png)
 
 In the example above, Microsoft Team was reviewed.
 
@@ -230,7 +208,7 @@ In the example above, Microsoft Team was reviewed.
 
 Instead, the **Access on Child Objects filter is given**, showing only users that don't have access on a site level but have access to a specific file or folder.
 
-![Access Review wizard - Sharing step - Site](../.gitbook/assets/permissions-review\_wizard-site-sharing-by-users.png)
+![Access Review wizard - Sharing step - Site](../../.gitbook/assets/permissions-review\_wizard-site-sharing-by-users.png)
 
 ### Summary Step
 
@@ -243,7 +221,7 @@ Here, the following is displayed:
 * **Export button (3)**; exports the data in the grid into an XLSX file.
 * **Complete Review button (4)** that opens the **Complete Review dialog**.
 
-![Access Review wizard - Summary step](../.gitbook/assets/access-review\_wizard-summary.png)
+![Access Review wizard - Summary step](../../.gitbook/assets/access-review\_wizard-summary.png)
 
 ## Complete Access Review Task
 
@@ -261,11 +239,11 @@ To complete the Access Review, take the following steps:
 **Please note!** The **Complete Review** action cannot be undone or edited.
 {% endhint %}
 
-![Complete Review dialog](../.gitbook/assets/access-review\_complete-review.png)
+![Complete Review dialog](../../.gitbook/assets/access-review\_complete-review.png)
 
 After completing the Access Review for a site, the **Review Completed** dialog opens, confirming the completion. Click the **Close Review** button to leave the screen and navigate to the Access Review screen, where the sites needing review can be found.
 
-![Review Completed dialog](../.gitbook/assets/permissions-review\_review-completed.png)
+![Review Completed dialog](../../.gitbook/assets/permissions-review\_review-completed.png)
 
 When the Access Reviews for all sites you are the owner of have been finalized, the **Access Review task will be shown as completed.**
 
@@ -273,20 +251,20 @@ On the **My Tasks** screen, under **Active Access Review (1)**, the **No Tasks (
 
 The **completed Access Review task (3)** can be found in the **Completed section (4)**, and access task details by clicking the **See Task (5)** button.
 
-![My Tasks - Active](../.gitbook/assets/access-review\_no-task.png)
+![My Tasks - Active](../../.gitbook/assets/access-review\_no-task.png)
 
-![My Tasks - Completed](../.gitbook/assets/access-review\_task-completed.png)
+![My Tasks - Completed](../../.gitbook/assets/access-review\_task-completed.png)
 
 This opens the Access Review screen for the completed Access Review, where these options are available:
 
 * **Select a site (1)**
 * **Click the Review button (2)** to open the **Review Summary report**
 
-![My Tasks - Completed](../.gitbook/assets/access-review\_completed-review.png)
+![My Tasks - Completed](../../.gitbook/assets/access-review\_completed-review.png)
 
 The **Review Summary** report shows a detailed log of actions performed during the Access Review process and can be **exported to an XLSX file (1)**.
 
-![Review Summary Report](../.gitbook/assets/access-review\_review-summary.png)
+![Review Summary Report](../../.gitbook/assets/access-review\_review-summary.png)
 
 ## Expired Reviews
 
@@ -296,7 +274,7 @@ Syskit Point automatically changes the status of all uncompleted site reviews to
 
 They can be found on the **Access Review** task screen.
 
-![Access Review - Expired](../.gitbook/assets/access-review\_expired-reviews.png)
+![Access Review - Expired](../../.gitbook/assets/access-review\_expired-reviews.png)
 
 After the Access Review is completed, expired tasks can no longer be finalized.
 
@@ -304,8 +282,15 @@ With that, **the first Access Review cycle is concluded**.
 
 The Access Review cycle will repeat based on the schedule defined by the Syskit Point Admin or when manually requested.
 
+## Complete Access Review Tasks
+
+* **Watch this short video for a quick start on Access Review tasks in Syskit Point**.
+
+{% embed url="https://vimeo.com/731363189/a68fb4c8a2" %}
+
+
 ## Related Topics
 
-For information on performing **Lifecycle Management tasks as a Syskit Point Collaborator** take a look at the following article:
+For information on performing **Lifecycle Management tasks as a Syskit Point Collaborator**, take a look at the following article:
 
 * [Perform Lifecycle Management Tasks](lifecycle-management.md)
