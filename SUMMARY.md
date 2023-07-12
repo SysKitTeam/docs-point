@@ -105,6 +105,7 @@
     * [Maximum Number of Owners](governance-and-automation/automated-workflows/maximum-number-of-owners-admin.md)
     * [Orphaned Resources](governance-and-automation/automated-workflows/orphaned-resources-admin.md)
     * [Apply Automated Workflow Policies](governance-and-automation/automated-workflows/manage-automated-workflow-policies.md)
+    * [Upgrade to Policy Automation](governance-and-automation/automated-workflows/upgrade-to-policy-automation.md)
   * [Provisioning](governance-and-automation/provisioning/README.md)
     * [Set Up Provisioning](governance-and-automation/provisioning/set-up-provisioning.md)
     * [Enable or Disable Provisioning](governance-and-automation/provisioning/enable-disable-provisioning.md)
