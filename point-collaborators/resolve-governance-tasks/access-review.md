@@ -56,7 +56,7 @@ The **Review Now** button opens the **Access Review Task** screen once clicked. 
 
 ![Access Review Task screen](../../.gitbook/assets/access-review\_task.png)
 
-From here, you can continue and review a site by clicking the **link in the Task column (2)**or **selecting a row (3)** and clicking the **Review action (4)**.
+From here, you can continue and review a site by clicking the **link in the Task column (2)** or **selecting a row (3)** and clicking the **Review action (4)**.
 
 This screen can also be accessed from within Syskit Point by selecting **My Tasks**.
 
