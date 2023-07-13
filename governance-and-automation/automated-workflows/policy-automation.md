@@ -109,3 +109,15 @@ To manage your rules, complete the following:
 * To delete a rule and remove it from the list completely, **click the Delete button (4)** located under the Manage column
 
 ![Policy Automation - Manage Rule](../../.gitbook/assets/policy-automation_manage-policy.png)
+
+{% hint style="important" %}
+
+If you **disable, delete or update a rule with policies assigned to it**, any tasks related to those policies will be set as Canceled.
+
+Additionally, by clicking on the resolve task email you received, the site in Syskit Point will show the task as canceled due to the policy having been removed from the workspace. 
+
+When the rule is **enabled again**, the **old tasks will remain as canceled**, but when triggered, a **new task will be assigned**. 
+
+**Access Review is the only policy** where the task will **not be canceled if the rule is disabled, deleted, or updated**. 
+
+{% endhint %}
