@@ -4,11 +4,9 @@ description: >-
   Cloud version 2023.2.0.58
 ---
 
-# 2023-05-16
+# May 16, 2023
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
-
-**Release date:** May 16, 2023
 
 ## About Syskit Point Cloud
 
