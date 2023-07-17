@@ -1,18 +1,12 @@
 ---
 description: >-
-  This article lists new features, improvements, and bug fixes in Syskit Point Cloud
-  version 2023.2.
+  This article lists new features, improvements, and bug fixes in Syskit Point
+  Cloud version 2023.2.0.58
 ---
 
-# Syskit Point 2023.2
+# May 16, 2023
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
-
-**Product version:** 2023.2.0
-
-**Build number:** 58
-
-**Release date:** May 16, 2023
 
 ## About Syskit Point Cloud
 
@@ -26,11 +20,10 @@ description: >-
   * **Receive an email that opens the request in Syskit Point Teams app**
   * **Be able to resolve access and provisioning requests within the Syskit Point Teams app**\
     \
-    In the newest addition, you will:&#x20;
+    In the newest addition, you will:
   * **Get a task in the Syskit Point web app as well**
   * **Be able to navigate to a task in the Syskit Point web app from the received email**
-  * **Be able to resolve access and provisioning requests within the Syskit Point web app**\
-
+  * **Be able to resolve access and provisioning requests within the Syskit Point web app**\\
 * **Group email address and site address editing added to provisioning requests**!
   * **When requesting a Microsoft Team or a Microsoft 365 Group**, you can **edit the group email address**.
   * **When requesting a new site**, you can now **edit the site address**, thus affecting the site's URL.
