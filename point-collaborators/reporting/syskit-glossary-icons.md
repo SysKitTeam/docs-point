@@ -85,7 +85,9 @@ For more explanations on the terms, click on the names to be redirected to the M
 * **File** - an object that stores data, information, settings, or commands and can be saved to OneDrive, SharePoint, or Teams
 
 ![Icons for Reports](../../.gitbook/assets/syskit-icons-glossary_access-reports.png)
+
 ![Icons for Reports](../../.gitbook/assets/syskit-icons-glossary_access-reports-two.png)
+
 ![Icons for Reports](../../.gitbook/assets/syskit-icons-glossary_access-reports-list-item.png)
 
 
