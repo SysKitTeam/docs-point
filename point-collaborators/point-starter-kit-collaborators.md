@@ -8,10 +8,10 @@ Syskit Point is a **management and governance platform for Microsoft 365** that 
 
 As a team and group owner, or manager, Syskit Point helps you:
 
-* [**Resolve Governance Tasks**](../point-collaborators/resolve-governance-tasks/README.md)
-* [**Manage Access**](../point-collaborators/manage-access/README.md)
-* [**Manage Workspaces**](../point-collaborators/manage-workspaces/README.md)
-* [**Generate Reports**](../point-collaborators/reporting/README.md)
+* [**Resolve Governance Tasks**](resolve-governance-tasks/README.md)
+* [**Manage Access**](manage-access/README.md)
+* [**Manage Workspaces**](manage-workspaces/README.md)
+* [**Generate Reports**](reporting/README.md)
 
 
 ## Syskit Point Home Screen
