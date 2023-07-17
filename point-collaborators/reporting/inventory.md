@@ -8,7 +8,7 @@ Through SysKit Point, you can effectively **manage documents, streamline communi
 
 {% hint style="warning" %}
 **Please note:**  
-You can only view **workspaces where you are the owner ** and **users whom you manage**.
+You can only view **workspaces where you are the owner** and **users whom you manage**.
 {% endhint %}
 
 
