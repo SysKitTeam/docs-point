@@ -35,6 +35,7 @@ Complete the following steps to submit your request:
 * Once completed click **Request Team (10)** to finalize your request.
 
 ![Request New Workspace - Microsoft Teams Example](../../.gitbook/assets/request-new-workspace_microsoft-teams-info.png)
+
 ![Request New Workspace - Finalize Request](../../.gitbook/assets/request-new-workspace_microsoft-teams-finalize.png)
 
 All updates and notifications about your requests and approval progress will be visible in the **Microsoft Teams Activity tab** and in the **Syskit Point app**.
