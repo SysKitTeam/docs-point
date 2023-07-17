@@ -3,8 +3,8 @@
 * [Syskit Point](README.md)
 * [Releases](releases/README.md)
   * [Syskit Point Cloud](releases/cloud/README.md)
-      * [Syskit Point 2023.3](releases/cloud/point-2023-3-release-note.md)
-      * [Syskit Point 2023.2](releases/cloud/point-2023-2-release-note.md)
+    * [July 12, 2023](releases/cloud/point-2023-3-release-note.md)
+    * [May 16, 2023](releases/cloud/point-2023-2-release-note.md)
   * [Syskit Point Data Center](releases/data-center/README.md)
     * [Syskit Point 2023.2](releases/data-center/point-2023-2-release-note.md)
     * [Syskit Point 2023.1.3](releases/data-center/point-2023-1-3-release-note.md)
@@ -32,10 +32,10 @@
   * [Permission Requirements](requirements/permission-requirements.md)
   * [Change Log](requirements/permission-requirements-change-log.md)
 * [Set Up Point Cloud](set-up-point-cloud/README.md)
-    * [Overview](set-up-point-cloud/overview.md)
-    * [Free Trial](set-up-point-cloud/free-trial.md)
-    * [Free Trial Limits](set-up-point-cloud/free-trial-limits.md)
-    * [Manage Syskit Point Subscriptions](set-up-point-cloud/syskit-point-subscriptions.md)
+  * [Overview](set-up-point-cloud/overview.md)
+  * [Free Trial](set-up-point-cloud/free-trial.md)
+  * [Free Trial Limits](set-up-point-cloud/free-trial-limits.md)
+  * [Manage Syskit Point Subscriptions](set-up-point-cloud/syskit-point-subscriptions.md)
 * [Set Up Point Data Center](set-up-point-data-center/README.md)
   * [Deployment](set-up-point-data-center/deployment/README.md)
     * [Overview](set-up-point-data-center/deployment/overview.md)
@@ -186,7 +186,7 @@
   * [Manage Access](point-collaborators/manage-access/README.md)
     * [Manage External Sharing](point-collaborators/manage-access/manage-external-sharing.md)
     * [Manage Users](point-collaborators/manage-access/manage-users.md)
-  * [Manage Workspaces](point-collaborators/manage-workspaces/README.md) 
+  * [Manage Workspaces](point-collaborators/manage-workspaces/README.md)
     * [Request New Workspace](point-collaborators/manage-workspaces/request-new-workspace.md)
     * [Request Workspace Access](point-collaborators/manage-workspaces/request-workspace-access.md)
     * [Manage Workspaces](point-collaborators/manage-workspaces/manage-workspaces.md)
@@ -199,7 +199,3 @@
     * [Cleanup & Health Reports](point-collaborators/reporting/cleanup-and-health.md)
     * [External Sharing Reports](point-collaborators/reporting/external-sharing.md)
     * [Access Reports](point-collaborators/reporting/access.md)
-
-
-
-
