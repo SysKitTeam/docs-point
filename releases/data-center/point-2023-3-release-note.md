@@ -61,7 +61,7 @@ As an admin, you can expect such emails when:
 * **Fixed an issue** with the User Sync Status data for users synced from On-Premises Active Directory. Some users were erroneously classified as Cloud users if their SID (Security Identifier) was not synced to Azure Active Directory. 
 
 * **Fixed a bug** where syncing Power BI workspaces would fail with the following error: `Saving Power BI Workspace with Id {WorkspaceId} to database failed.
-Microsoft.Data.SqlClient.SqlException: Cannot insert the value NULL into column 'Name', table '@Dataflows'; column does not allow nulls. `
+Microsoft.Data.SqlClient.SqlException: Cannot insert the value NULL into column 'Name', table '@Dataflows'; column does not allow nulls.`
 
 * **Various UX/UI improvements and minor fixes are available**.
     * Improved the message displayed in case the license limit is exceeded - the number of users in the M365 environment is greater than the number of users purchased with a Point license. Now, the message shows both - the total number of users and the number of users purchased with a Point license.
