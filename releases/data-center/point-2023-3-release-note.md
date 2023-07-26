@@ -9,7 +9,7 @@ description: >-
 
 **Product version:** 2023.3
 
-**Build number:** XXX
+**Build number:** 70
 
 **Release date:** July 26, 2023
 
