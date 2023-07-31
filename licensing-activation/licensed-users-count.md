@@ -7,7 +7,7 @@ description: This article explains how Syskit Point licensing depends on the Mic
 The licensing of the Syskit Point subscription **depends on the number of licensed users within the Microsoft 365 tenant connected to Syskit Point**.
 
 **Licensed Users are all users and resources with any type of Microsoft 365 license attached to them**.
- * Resources include any **meeting rooms, service accounts**, and others with licenses assigned to them.
+ * Resources include any **meeting rooms, service accounts**, and others with licenses.
  * Only **unique Licensed Users or Guest Users and resources will be counted**, regardless of how many licenses the unique User has assigned to them. 
  * **Guest Users** only fit into that category **if they have a license assigned**. 
    * Having a license assigned to Guest Users is unnecessary for rudimentary use cases such as sharing content and using the Microsoft Teams app.
