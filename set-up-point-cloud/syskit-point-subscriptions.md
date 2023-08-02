@@ -152,13 +152,12 @@ You will also see all the available subscription plans listed. Change your subsc
 To change or upgrade the Syskit Point subscription plan you currently have, complete the following:
 
 * Log into your **Syskit Subscriptions** site
-* Under **Overview**, navigate down to the **Purchased Plan section (1)**
-* Click the **Manage Subscription button (2)** located in the Purchased Plan section
+* Under **Overview**, navigate down to the **Purchased Plan section**
+* Click the **Manage Subscription button** located in the Purchased Plan section
   * This opens a pop-up where you can manage your current subscription by upgrading your subscription plan or canceling it
-* Click the **Cancel plan (3)** button, located on the right side of the screen
+* Click the **Cancel plan (1)** button, located on the right side of the screen
   * This opens a screen where you can cancel your current plan
 
-![Syskit Point Subscription - Manage Subscription - Cancel](../.gitbook/assets/setup-point-cloud_syskit-point-subscriptions_manage.png) 
 ![Syskit Point Subscription - Cancel Subscription](../.gitbook/assets/setup-point-cloud_syskit-point-subscriptions_cancel-overview.png) 
 
 The Cancel Your Plan site will show an overview of your current plan with information about:
