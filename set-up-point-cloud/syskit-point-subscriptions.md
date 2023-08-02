@@ -15,6 +15,7 @@ In this article, you will find information on the following:
 * [Purchase Your Syskit Point Cloud Subscription](syskit-point-subscriptions.md#purchase-your-syskit-point-cloud-subscription)
 * [Purchase Additional User Licenses](syskit-point-subscriptions.md#purchase-additional-user-licenses)
 * [Upgrade Your Subscription Plan](syskit-point-subscriptions.md#upgrade-your-subscription-plan)
+* [Cancel Your Subscription](syskit-point-subscriptions.md#cancel-your-subscription)
 
 {% hint style="warning" %}
 **Please note!** If you didn't start your free 21-day trial, take a look at the [**Syskit Point trial article**](free-trial.md) for details on getting started. At any point during the 21 days of the free trial, you can purchase a Syskit Point Cloud subscription. In order to retain your data after your free trial has expired, a Syskit Point subscription needs to be purchased within 21 days of your trial period ending.
@@ -109,7 +110,7 @@ To increase the user license amount:
 * The two sections below show:
   * **What you'll be paying** - the amount you will be paying once your plan renews
   * **Amount due today** - the amount you will need to pay instantly to increase your license number
-    * This number will show the necessary payment based on the price of the added licenses; you will not be charged for the licenses you already purchased
+    * This number will show the necessary payment based on the price of the added licenses; you will not be charged for the licenses you have already purchased
 * Click **Confirm (2)** to finalize your selection and proceed with your payment
 
 ![Syskit Point Subscription - Increased Users Licenses - Finalized](../.gitbook/assets/syskit-point-cloud-licensing\_users-licenses.png)
@@ -145,3 +146,29 @@ You will also see all the available subscription plans listed. Change your subsc
 * Click **Confirm (2)** to finalize your selection and proceed with your payment
 
 ![Syskit Point Subscription - Upgrade Plan - Finalized](../.gitbook/assets/syskit-point-cloud-licensing\_new-finalize.png)
+
+## Cancel Your Subscription
+
+To change or upgrade the Syskit Point subscription plan you currently have, complete the following:
+
+* Log into your **Syskit Subscriptions** site
+* Under **Overview**, navigate down to the **Purchased Plan section (1)**
+* Click the **Manage Subscription button (2)** located in the Purchased Plan section
+  * This opens a pop-up where you can manage your current subscription by upgrading your subscription plan or canceling it
+* Click the **Cancel plan (3)** button, located on the right side of the screen
+  * This opens a screen where you can cancel your current plan
+
+![Syskit Point Subscription - Manage Subscription - Cancel](../.gitbook/assets/setup-point-cloud_syskit-point-subscriptions_manage.png) 
+![Syskit Point Subscription - Cancel Subscription](../.gitbook/assets/setup-point-cloud_syskit-point-subscriptions_cancel-overview.png) 
+
+The Cancel Your Plan site will show an overview of your current plan with information about:
+  * Name of your plan
+  * Cost per year
+  * Date until which your plan is available when canceled 
+
+To cancel your plan click the **Cancel plan button** (1).
+    * This will open a pop-up that asks for feedback on why you are choosing to cancel, but leaving this comment is optional
+
+Your subscription will now be canceled, and once the current plan you had already purchased expires, you will no longer be able to utilize SysKit Point. 
+
+![Syskit Point Subscription - Canceled](../.gitbook/assets/setup-point-cloud_syskit-point-subscriptions_cancel.png)
