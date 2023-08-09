@@ -15,4 +15,5 @@ description: >-
 
 ## Improvements & Bug Fixes
 
+* **Fixed an issue** where the External Users report wouldn't show the Last Logged In date when generated from the site details screen.
 * **Various improvements and minor fixes are available**.
