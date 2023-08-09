@@ -12,7 +12,7 @@ Several things need to be set up before you can utilize everything Syskit Point 
 
 ## Set Up and Customize E-mails
 
-To help you stay up to date with the workings of your Microsoft 365 environment, **Syskit Point sends e-mails** to owners, administrators and other users when automated workflows are enabled. For these e-mails to work properly and be successfully sent, you will need to set up your e-mail within Syskit Point.
+To help you stay up to date with the workings of your Microsoft 365 environment, **Syskit Point sends e-mails** to owners, administrators and other users when policies are applied. For these e-mails to work properly and be successfully sent, you will need to set up your e-mail within Syskit Point.
 
 {% hint style="warning" %}
 **For detailed instructions on configuring your e-mail settings within Syskit Point, please follow the steps listed in the [Set Up E-mail article](../configuration/set-up-email.md).**
@@ -20,7 +20,7 @@ To help you stay up to date with the workings of your Microsoft 365 environment,
 
 Once the e-mail has been set up, you can also customize the e-mails that are **sent to site owners** as a part of the **Access Review and Lifecycle Management Automation**.  
 
-E-mails are used for **Access Review and Lifecycle Management** tasks, any policies created under **Automated Workflows**, and for receiving reports available in the **Reports** section of Syskit Point. 
+E-mails are used for **Access Review and Lifecycle Management** tasks, any policies applied under **Policies or Policy Automation**, and for receiving reports available in the **Reports** section of Syskit Point. 
 
 {% hint style="warning" %}
 **Learn more on which aspects of the e-mails can be customized along with a step-by-step guide on how to customize them in the [Customize E-mails article](../configuration/customize-emails.md).**

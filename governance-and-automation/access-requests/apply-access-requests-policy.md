@@ -6,7 +6,7 @@ description: This article explains how to apply Access Requests policies in Sysk
 
 When an Access Requests policy is created, in order to enforce it for specific workspaces, it needs to be manually applied. 
 
-In the Settings for Syskit Point, go under Governance and select Automated Workflows.  
+In the Settings for Syskit Point, go under Governance and select Policies.  
 
 Click the **Manage Policies button (1)** to apply the policy. 
 

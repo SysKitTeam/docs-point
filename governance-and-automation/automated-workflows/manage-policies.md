@@ -4,7 +4,7 @@ description: This article explains how to apply and manage policies in Syskit Po
 
 
 # Creating a Policy
-To create a new policy, navigate to the Automated Workflows settings screen, and click the **Create New Policy (1)** button.
+To create a new policy, navigate to the Policies settings screen, and click the **Create New Policy (1)** button.
 
 ![Create Policy](../../.gitbook/assets/set_up_automated_workflows-create_policy.png)
 

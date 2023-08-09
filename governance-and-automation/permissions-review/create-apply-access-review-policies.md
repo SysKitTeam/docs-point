@@ -19,7 +19,7 @@ In the sections below, you can find detailed instructions on creating and applyi
 
 ## Create Access Review Policy
 
-**To start creating Access Review policies**, navigate to **Settings** > **Governance** > **Automated Workflows**.
+**To start creating Access Review policies**, navigate to **Settings** > **Governance** > **Policies**.
 
 By default, Syskit Point offers a predefined Access Review policy - **All users and shared files (1)**. 
 
@@ -33,7 +33,7 @@ Here you can choose to:
 **Please note!** The predefined Access Review policy is not applied to any resources and will not trigger an automated Access Review.
 {% endhint %}
 
-![Automated Workflows Screen](../../.gitbook/assets/create-access-review-policies_default-policy.png)
+![Policies Screen](../../.gitbook/assets/create-access-review-policies_default-policy.png)
 
 Create a new Access Review policy by clicking the **Create New Policy button (4)**. 
 
@@ -92,7 +92,7 @@ When finished, **click Confirm (6)** to store the preferences.
 
 ## Apply Policies
 
-To apply created Access Review Policies, navigate to **Settings** > **Governance** > **Automated Workflows** and click the **Manage Policies button (1)**.
+To apply created Access Review Policies, navigate to **Settings** > **Governance** > **Policies** and click the **Manage Policies button (1)**.
 
 ![Manage Policies Button](../../.gitbook/assets/create-access-review-policies_apply-policy-button.png)
 

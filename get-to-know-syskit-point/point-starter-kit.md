@@ -105,7 +105,7 @@ Setting up proper governance is key to the success of your organization’s Micr
 
 Manage workspace lifecycles from creation to end with **automated actions and policies**. Make end users your reliable partners in governance - **keep the tenant secure and clutter-free**.
 
-![Syskit Point - Automated Workflows](../.gitbook/assets/point-starter-kit\_control.png)
+![Syskit Point - Policies](../.gitbook/assets/point-starter-kit\_control.png)
 
 * [**Set up provisioning**](../governance-and-automation/provisioning/)
   * **Control workspace creation and avoid sprawl**: Set up **templates for new workspace requests** for Teams, Groups, sites, and Yammer with custom metadata, naming, and governance policies in place.
@@ -114,7 +114,7 @@ Manage workspace lifecycles from creation to end with **automated actions and po
   * Enable your admins to set up automated requests.
   * Allow content owners to regularly review workspace memberships, sharing, and external users.
   * Delegate the responsibility to those with the best operational knowledge – content owners.
-* **Enforce** [**governance policies and automate workflows**](../governance-and-automation/automated-workflows/)
+* **Enforce** [**governance policies and policy automation**](../governance-and-automation/automated-workflows/README.md)
   * Re-certify guest users, clean up orphaned workspaces, and enforce ownership best practices.
 * [**Keep your tenant clean**](../governance-and-automation/lifecycle-management/)
   * Automatically detect inactive SharePoint sites, groups, and teams.

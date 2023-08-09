@@ -1,28 +1,30 @@
 ---
-description: This article explains how to enable and configure automated workflows in Syskit Point.
+description: This article explains how to enable and configure policies in Syskit Point.
 ---
 
-# Set Up Automated Workflows
+# Set Up Policies
 
 {% hint style="information" %}
-**Automated Workflows** are available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+**Policies** are available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 {% endhint %}
 
 ## Prerequisites
 
-To use the advantages of Automated Workflows in Syskit Point, you need to:
+To use the advantages of Policies in Syskit Point, you need to:
 
 * [set up e-mail settings](../../configuration/set-up-email.md)
 * [enable Syskit Point Collaborators role](../../configuration/enable-role-based-access.md)
+
+Additionally, you can also [set up policy automation](../../governance-and-automation/automated-workflows/policy-automation.md) to have policies automatically apply to current and all future workspaces, without having to manually assign them. 
 
 {% hint style="warning" %}
 **Please note!**
 Only users with the role of **Syskit Point Admin** assigned can access and configure Settings in Syskit Point.
 {% endhint %}
 
-## Automated Workflows and Policies
+## Syskit Point Policies
 
-**Automated workflows in Syskit Point consist of e-mails and tasks created when a policy violation is detected.**
+**Policies in Syskit Point consist of e-mails and tasks created when a policy violation is detected.**
   * Policies in Syskit Point contain rules to follow when dealing with Microsoft Teams, Microsoft 365 Groups, and user access.
 
 Syskit Point enables creating policies that will make sure the following is set correctly and reviewed when needed:
@@ -30,9 +32,10 @@ Syskit Point enables creating policies that will make sure the following is set 
 * **Guest users expiration**
 * **User's access**
 
-When dealing with automated workflows, you can either:
+When dealing with policies, you can either:
 * **Adjust predefined policies and apply them to your resources**, or
 * **Create new policies from scratch and apply them to your resources**
+* **Set up policy automation to have policies automatically applied to current and new workspaces**
 
 {% hint style="success" %}
 **For simple use cases** where the same policies are applied to all resources, you can **adjust the predefined policies to speed up the configuration**. 
@@ -55,11 +58,11 @@ Take a look at the articles below to learn how to set up each governance policy:
 
 By clicking on the names of each policy, you can **find an article with information on creating and enabling** all mentioned policy types. 
  
-[For information on how to apply your created policies, take a look at this article.](manage-automated-workflow-policies.md)
+[For information on how to apply your created policies, take a look at this article.](manage-policies.md)
 
-## Automated Workflows Settings
+## Policy Settings
 
-To **open the Automated Workflows settings screen**, navigate to **Settings** &gt; **Governance** &gt; **Automated Workflows**.
+To **open the Policies settings screen**, navigate to **Settings** &gt; **Governance** &gt; **Policies**.
 
 Here, you can:
 * **Create a new policy (1)**
@@ -69,8 +72,8 @@ Here, you can:
 * **Manage policies (7)**; **Edit** and **Delete** actions are provided for each policy, **except the Guest Users Expiration policy**, which can not be deleted
 * **Define policies that Syskit Point will automatically apply to newly created Microsoft Teams, Microsoft 365 Groups, OneDrive, and sites (8)**
 
-![Automated Workflows Settings](../../.gitbook/assets/set_up_automated_workflows-settings.png)
-![Automated Workflows Settings](../../.gitbook/assets/set_up_automated_workflows-settings-2.png) 
+![Policy Settings](../../.gitbook/assets/set_up_automated_workflows-settings.png)
+![Policy Settings - Details](../../.gitbook/assets/set_up_automated_workflows-settings-2.png) 
 
 
 ## Resolving Policy Tasks

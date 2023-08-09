@@ -26,7 +26,7 @@ Available actions for these templates are listed under the **Manage (3)** column
 
 You can create custom templates by clicking the **New Template (6)** button.
 
-![Templates default screen](../../.gitbook/assets/templates\_default-screen.png)
+![Templates default screen](../../.gitbook/assets/templates__default-screen.png)
 
 ## Create a New Provisioning Template
 
@@ -130,7 +130,7 @@ When creating a template for Microsoft Teams, you will need to define the follow
     * Minimum number of owners
     * Orphaned Resources
 
-    Read more about setting up these governance policies and customizing them to your needs [here](../automated-workflows/set-up-automated-workflows.md).
+    Read more about setting up these governance policies and customizing them to your needs [here](../automated-workflows/set-up-policies.md).
 * **Outlook & Email Settings (16)** – define if the newly created workspace will:
   * Be **hidden** from your organization's global address list
   * Send a **welcome e-mail**
