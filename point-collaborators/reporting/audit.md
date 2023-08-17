@@ -12,6 +12,11 @@ Let's say you are the site owner of a SharePoint site that is being utilized for
 
 Use the **Audit Logs Reports feature in Syskit Point to quickly detect and troubleshoot potential issues, security breaches, or suspicious behavior** happening in your workspaces.
 
+{% hint style="warning" %}
+**Please note:**  
+**Access to Audit Logs Reports and subordinate user's activities needs to be given by your administrator**. If you do not have access, please make the request with your administrator. 
+{% endhint %}
+
 ## Generate Reports
 
 You can get more details on what information each report in this section includes by taking a look at the following links:
