@@ -15,7 +15,6 @@ description: >-
 
 ## Improvements & Bug Fixes
 
-* **Fixed an issue** where the External Users report wouldn't show the Last Logged In date when generated from the site details screen.
 * For **Provisioning templates**, added the option to **apply the Naming Rule (prefix and suffix) to the workspace URL and e-mail**, as well as the display name.
   * By default, it's enabled on all new and old provisioning templates.
 * **Various improvements and minor fixes are available**.
