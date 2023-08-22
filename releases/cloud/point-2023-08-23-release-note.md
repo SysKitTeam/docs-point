@@ -6,7 +6,7 @@ description: >-
 
 # August 23, 2023
 
-[Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
+[Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think](https://www.syskit.com/company/contact-us/).
 
 ## About Syskit Point Cloud
 
