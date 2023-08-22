@@ -2,7 +2,7 @@
 description: >-
   Syskit Point templates help you define which types of workspaces your
   end-users can request and create. Each template contains properties and rules
-  that guide the creation process and ensure all works
+  that guide the creation process and ensure all works.
 ---
 
 # Templates
@@ -60,8 +60,8 @@ When creating a template for Microsoft Teams, you will need to define the follow
 
       1. Navigate to the Microsoft Teams [admin center](https://admin.teams.microsoft.com/)
       2. Under the tab Teams, select **Team templates**
-      3. Click the name of the template to review apps and channels they include
-      4. Copy the Template ID and paste into the Syskit wizard
+      3. Click the name of the template to review the apps and channels they include
+      4. Copy the Template ID and paste it into the Syskit wizard
 
       To create a brand-new Teams template in the admin center, follow the [Microsoft guide](https://docs.microsoft.com/en-us/microsoftteams/create-a-team-template).
 * **Privacy (4)** – set if workspaces created using this template will be public or private. You can leave this decision to your end-users as well.
@@ -87,9 +87,9 @@ When creating a template for Microsoft Teams, you will need to define the follow
     * Only people in your organization
 
     Please note that available options depend on defined tenant-level external sharing policies. For example, if sharing files and folders using links that don't require sign-in is not allowed, the Anyone option will not be enabled.
-* **Sharing Permission (8)** - helps control the way things in the site can be shared. Choose between:
+* **Sharing Permission (8)** - helps control the way things on the site can be shared. Choose between:
   * Site owners and members can share files, folders, and the site. People with edit permission can share files and folders.
-  * Site owners and members, and people with edit permission can share files and folders, but only owners can share the site.
+  * Site owners and members and people with edit permission can share files and folders, but only owners can share the site.
   * Only site owners can share files, folders, and the site.
 
 ![Template for Microsoft Teams](../../.gitbook/assets/templates\_teams-template-3.png)
@@ -107,8 +107,9 @@ When creating a template for Microsoft Teams, you will need to define the follow
 
 ![Template for Microsoft Teams](../../.gitbook/assets/templates\_teams-template-4.png)
 
-* **Naming Rule (13)** – predefine suffix or prefix that will be added to a name of a workspace created using this template.
+* **Naming Rule (13)** – predefined suffix or prefix that will be added to a name of a workspace created using this template.
   * For example, setting the prefix to **Marketing** results that each workspace created from this template will be named in a form **Marketing – (Request Name)**
+  * **Select the checkbox Apply naming rule to workspace URL and e-mail** to have **all workspaces created from this template have the same URL based on the Name Prefix and Name Suffix** you entered into the form
 *   **Approval process (14)** – define who is responsible for approving the requests using this template.
 
     All requests using this template will need to be approved by specified people before the workspace is created.
@@ -123,7 +124,7 @@ When creating a template for Microsoft Teams, you will need to define the follow
     Additionally, you can enable comments for requesters when they request a new workspace in this section.
 
     Read more about Approval processes and how to create custom ones in this [article](approval-processes.md).
-*   **Governance policies (15)** – predefine a set of rules to be applied to the workspace automatically upon creation. Currently available policies are:
+*   **Governance policies (15)** – predefine a set of rules to be applied to the workspace automatically upon creation. Currently, available policies are:
 
     * Access reviews
     * Maximum number of owners
@@ -138,7 +139,8 @@ When creating a template for Microsoft Teams, you will need to define the follow
     * Allow external senders to e-mail this group
     * Send copies of group conversations and events to group members
 
-![Template for Microsoft Teams](../../.gitbook/assets/templates\_teams-template-5.png)
+![Template for Microsoft Teams](../../.gitbook/assets/templates_form-slide5-1.png)
+![Template for Microsoft Teams](../../.gitbook/assets/templates_form-slide5-2.png)
 
 * **Template availability (17)** – defines the group of users that are able to select the template when submitting requests for new workspaces.
   * Everyone - the template is available to all users in your organization
@@ -152,7 +154,7 @@ Once you complete this process, your new template will appear in the **Templates
 
 ### SharePoint Site Template
 
-When creating a SharePoint Site template, there are a couple of differences compared to Microsoft Teams template.
+When creating a SharePoint Site template, there are a couple of differences compared to the Microsoft Teams template.
 
 * **Site Template** - you can choose the site template for the SharePoint Site workspace created from this template
 * **Primary Site Collection Admin** – allows multiple options:
