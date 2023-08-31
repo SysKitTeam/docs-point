@@ -15,7 +15,7 @@ To use the advantages of Policies in Syskit Point, you need to:
 * [set up e-mail settings](../../configuration/set-up-email.md)
 * [enable Syskit Point Collaborators role](../../configuration/enable-role-based-access.md)
 
-Additionally, you can also [set up policy automation](../../governance-and-automation/automated-workflows/policy-automation.md) to have policies automatically apply to current and all future workspaces, without having to manually assign them. 
+Additionally, you can also [set up policy automation](../../governance-and-automation/automated-workflows/policy-automation.md) to have policies automatically apply to current and all future workspaces without having to manually assign them. 
 
 {% hint style="warning" %}
 **Please note!**
@@ -55,7 +55,6 @@ Take a look at the articles below to learn how to set up each governance policy:
 * [**Access Request**](../access-requests/README.md) - provides end-users the ability to search all existing Microsoft Teams & Groups, sites, distribution lists, and security groups and request access to them
 * [**Access Review**](../permissions-review/README.md) - setting this up will allow site owners to perform regular access reviews of their sites
 
-
 By clicking on the names of each policy, you can **find an article with information on creating and enabling** all mentioned policy types. 
  
 [For information on how to apply your created policies, take a look at this article.](manage-policies.md)
@@ -66,14 +65,12 @@ To **open the Policies settings screen**, navigate to **Settings** &gt; **Govern
 
 Here, you can:
 * **Create a new policy (1)**
-* **Apply policies to Microsoft Teams, Microsoft 365 Groups, OneDrive, and sites (2)**
-* **View all predefined policies (3)**; Syskit Point comes with a predefined policy for each policy type to help you get started
-* **View additional information about each policy**; the following information is available **policy type (4)**, **to how many resources a policy is applied (5)**, and **whether a policy is active or inactive (6)**
-* **Manage policies (7)**; **Edit** and **Delete** actions are provided for each policy, **except the Guest Users Expiration policy**, which can not be deleted
-* **Define policies that Syskit Point will automatically apply to newly created Microsoft Teams, Microsoft 365 Groups, OneDrive, and sites (8)**
+* **Manage and apply policies to Microsoft Teams, Microsoft 365 Groups, OneDrive, and sites (2)**
+* **View all predefined policies by name (3)**; Syskit Point comes with a predefined policy for each policy type to help you get started
+* **View additional information about each policy**; the following information is available **policy type (4)**, **severity of policy(5)**, **category policy fits under (6), **to how many resources a policy is applied (7)**, and **whether the policy is automated or not (8)**
+* **Manage policies (9)**; **Edit** and **Delete** actions are provided for each policy, **except for those applied tenant-wide**
 
-![Policy Settings](../../.gitbook/assets/set_up_automated_workflows-settings.png)
-![Policy Settings - Details](../../.gitbook/assets/set_up_automated_workflows-settings-2.png) 
+![Policy Settings](../../.gitbook/assets/set-up-policies_settings.png)
 
 
 ## Resolving Policy Tasks

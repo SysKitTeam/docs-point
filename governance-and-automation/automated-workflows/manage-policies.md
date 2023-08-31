@@ -44,12 +44,12 @@ The Manage Policies screen opens where you can:
 
 ![Manage Policies Screen](../../.gitbook/assets/set_up_automated_workflows-apply_policy_report.png)
 
-After clicking the **Manage Policies (6)** button, the **Manage Policy** dialog opens, where you can **apply** the chosen policies on the selected resources grouped by the policy type.
+After clicking the **Manage Policies (6)** button, the **Manage Policy** dialog opens, where you can **select a policy** and **apply** the chosen policy on the selected resources grouped by the policy type.
 
 ![Manage Policies Dialog](../../.gitbook/assets/set_up_automated_workflows-apply_policy_dialog.png)
 
 {% hint style="success" %}
-**Once a policy is applied, Syskit Point will start an automated workflow if a policy violation is detected**. 
+**Once a policy is applied, Syskit Point automates detection for a policy violation**. 
 {% endhint %}
 
 You can find an article on how to create or edit each policy used for Automated Workflows here:
