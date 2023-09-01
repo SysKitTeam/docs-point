@@ -36,7 +36,7 @@ See detailed step-by-step instructions on how to upgrade the Configuration Inven
 ## Improvements & Bug Fixes
 
 * **Optimized and improved the Manage Policies screen**. The report now loads a large number of workspaces faster. Additionally, custom metadata columns are now visible on the report to help with searching and filtering. The Owners column was also added to the report. It shows the number of owners per workspace, which can be useful when applying ownership-related policies.
-* **Improved the responsiveness of the Automated Workflows screen**. The screen now better handles devices that use scaling.
+* **Improved the responsiveness of the Policies screen**. The screen now better handles devices that use scaling.
 * **Fixed a bug** where running the Add to Groups action from the User details screen would fail.
 * **Fixed an issue** where the My/All Workspaces screen in Syskit Point Teams app would erroneously show duplicate workspace rows for workspaces with multiple policies assigned.
 

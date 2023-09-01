@@ -4,7 +4,7 @@ description: This article explains how to set up e-mail settings in Syskit Point
 
 # Set Up E-Mail
 
-**Syskit Point sends e-mails** to owners, administrators and, other users when automated workflows are enabled.
+**Syskit Point sends e-mails** to owners, administrators and, other users when policies are enabled and applied.
 
 Here you can find all the information needed to successfully configure e-mail settings, which Syskit Point will use to send the e-mails.
 

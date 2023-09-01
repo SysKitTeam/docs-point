@@ -31,7 +31,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
   * **SQL optimizations** resulting in **improved speed of Teams & Groups overview screen and site details screen**
   * **Audit logs read and write operation optimizations**, resulting in **improved performance of all audit log reports and faster analytics calculations**. **Please note!** Due to optimizations, Syskit Point will automatically migrate audit logs to a new CosmosDB storage container outside of working hours. As a result, some audit logs might temporarily be inaccessible in the app until the migration is finished.
   * **Group members sync optimized** only to run when membership changes are detected with the help of delta queries
-  * **Analytics tile** visible on the site details screen and the **Automated Workflows screen** in settings were **optimized to load data faster**
+  * **Analytics tile** visible on the site details screen and the **Policies screen** in settings were **optimized to load data faster**
 * **Syskit Point initialization screen improved**. The screen automatically refreshes once the service apps start, and the sign-in screen shows.
 * **Improved messages in Lifecycle management emails and tasks** if owners don’t resolve a task in time.
 * **Fixed an issue** where Syskit Point would not correctly detect if access to Microsoft Teams protected API is granted.

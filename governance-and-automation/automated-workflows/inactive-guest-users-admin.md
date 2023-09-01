@@ -1,13 +1,14 @@
 ---
-description: This article explains how to activate the Guest User Expiration policy. 
+description: This article explains how to activate the Inactive Guest Users policy. 
 ---
 
-# Guest Users Expiration
+# Inactive Guest Users
 
-Syskit Point provides a predefined **Guest Users Expiration policy** that is applied tenant-wide. 
-To activate the policy, navigate to the Automated Workflows settings screen and **click the Edit Policy (1)** icon.
+Syskit Point provides a predefined **Inactive Guest Users policy** that is applied tenant-wide. 
 
-![Guest Users Expiration - Edit Policy](../../.gitbook/assets/set_up_automated_workflows-guest_users_edit.png)
+To activate the policy, navigate to the Policies settings screen and **click the Edit Policy (1)** icon.
+
+![Inactive Guest Users - Edit Policy](../../.gitbook/assets/set_up_automated_workflows-guest_users_edit.png)
 
 The **Edit Policy** dialog opens where you can:
 * **Enable the policy (1)** by clicking the toggle next to the policy name; this policy is disabled by default.
@@ -35,4 +36,4 @@ Based on your configuration, **Syskit Point will start the automated workflow pe
 **You should have at least one user in your tenant with the Azure AD Premium P1 license assigned to detect sign-in times for guest users accurately.**
 {% endhint %}
 
-For details on how collaborators can [**resolve Guest User Expiration tasks** navigate to the following article](../../point-collaborators/resolve-governance-tasks/guest-users-expiration.md).
+For details on how collaborators can [**resolve Inactive Guest Users  tasks** navigate to the following article](../../point-collaborators/resolve-governance-tasks/guest-users-expiration.md).

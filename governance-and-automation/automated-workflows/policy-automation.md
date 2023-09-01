@@ -20,7 +20,7 @@ Policy Automation makes managing your environment and keeping it secure easier a
 {% hint style="important" %}
 **Please Note!**
 
-To activate rules for auto-applying policies, please make sure you have already set up your policies under the automated workflow section. [Follow this article for more information. ](../automated-workflows/set-up-automated-workflows.md)
+To activate rules for auto-applying policies, please make sure you have already set up your policies under the automated workflow section. [Follow this article for more information. ](../automated-workflows/set-up-policies.md)
 
 {% endhint %}
 

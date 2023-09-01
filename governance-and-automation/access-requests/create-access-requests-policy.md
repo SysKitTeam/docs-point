@@ -6,12 +6,12 @@ description: This article explains how to create an Access Requests policy in Sy
 
 To create the **Access Requests policy**, open Syskit point and go to **Settings**. 
 
-Under Governance, select **Automated Workflows**. 
+Under Governance, select **Policies**. 
 
 ## Create Access Requests Policy
 
 To create the Access Requests policy, complete the following steps:
- * **Click the Create New Policy (1) button** located on the left side under the Automated Workflows title.
+ * **Click the Create New Policy (1) button** located on the left side under the Policies title.
    * A pop-up screen will appear, prompting you to select which policy to create.
 
 ![Create New Policy](../../.gitbook/assets/create-access-request_new-policy.png)
