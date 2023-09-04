@@ -4,7 +4,7 @@ description: >-
   Cloud version 2023.4.0.257
 ---
 
-# September 7, 2023
+# September 6, 2023
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think](https://www.syskit.com/company/contact-us/).
 
