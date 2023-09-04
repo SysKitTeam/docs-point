@@ -15,7 +15,7 @@ To prevent high load times and performance issues during report generation, seve
 * **Rows Threshold** – The maximum number of rows per report. The default value is 200K.
 * **Excel Export Threshold** – The maximum number of rows for reports exported to Excel. The default value is 500K.  
 * **PDF Export Threshold** – The maximum number of rows for reports exported to PDF. The value is set to 10K. This value can not be changed.
-* **Permission Matrix Threshold** – The maximum number of sites displayed in the Permission Matrix report. The default value is 100. 
+* **Site Structure Threshold** – The maximum number of sites displayed in reports showing site structure, for example, the Permissions Matrix report. The default value is 100. 
 * **User Access Threshold** – The maximum number of users displayed in the User Access report. The default value is 100. 
 
 Once a certain threshold value is reached, a warning message will appear. For instance, if we detect that the report during generation contains more rows than the specified Rows Threshold value, a message on top of the browser window will appear telling you precisely that. The same goes for the exported reports. That means that the generated report does not contain the complete data set and thus some important information about your environment might be missing.
