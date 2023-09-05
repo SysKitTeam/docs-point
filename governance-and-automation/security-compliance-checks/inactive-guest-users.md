@@ -5,6 +5,10 @@ description: This article provides information on the Inactive Guest Users repor
 
 # Inactive Guest Users
 
+{% hint style="information" %}
+Security and Complaince checks for Inactive Guest Users are available in the XXXX plan and above. 
+{% endhint %}
+
 On the Security & Compliance Checks section dashboard, click the **Inactive Guest Users** button to see the report.
 
 The Inactive Guest Users screen opens, showing a list of all **users that have not been active for a significant period of time**.

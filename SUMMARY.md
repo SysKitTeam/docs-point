@@ -190,7 +190,7 @@
     * [My Tasks](point-collaborators/resolve-governance-tasks/my-tasks.md)
     * [Complete Access Review Tasks](point-collaborators/resolve-governance-tasks/access-review.md)
     * [Resolve Lifecycle Management Tasks](point-collaborators/resolve-governance-tasks/lifecycle-management.md)
-    * [Resolve Guest User Expiration Tasks](point-collaborators/resolve-governance-tasks/guest-users-expiration.md)
+    * [Resolve Guest Users Expiration Tasks](point-collaborators/resolve-governance-tasks/guest-users-expiration.md)
     * [Resolve Minimum Number of Owners Tasks](point-collaborators/resolve-governance-tasks/minimum-number-of-owners.md)
     * [Resolve Maximum Number of Owners Tasks](point-collaborators/resolve-governance-tasks/maximum-number-of-owners.md)
     * [Resolve Orphaned Resources Tasks](point-collaborators/resolve-governance-tasks/orphaned-resources.md)

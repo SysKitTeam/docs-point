@@ -13,8 +13,7 @@ The **Edit Policy** dialog opens where you can:
 * **Define the policy name (1)**
 * **Define the maximum number of allowed owners (2)**; this is set to 5 by default
 * **Choose the severity level (3)**; this option is enabled by default
-* Select your **automation preferences** and click the checkbox to:
-  * **Send task to existing owners (4)**, if a policy violation is detected; this option is enabled by default
+* * **Enable automation (4)** by clicking the toggle next to it and select your automation preferences:
   * **Send reminder to reviewers (5)** 3 work days before due date; this option is enabled by default
   * **Choose what to do if owners don't resolve the policy violation until the due date (6)**. The following options are available:
     * **Reassign Task**; when selected, you can define who will get the task - **Manager of the Reviewer**, **Syskit Point Administrators**, or **custom recipients**; this option is selected by default, and the tasks are reassigned to Manager of Reviewer

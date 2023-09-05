@@ -12,22 +12,17 @@ To activate the policy, navigate to the Policies settings screen and **click the
 
 The **Edit Policy** dialog opens where you can:
 * **Enable the policy (1)** by clicking the toggle next to the policy name; this policy is disabled by default.
-* **Choose between two renewal options**:
-    * **Require guest users renewal when Syskit Point detects that a guest user is inactive (2).**
-      * When selected, you can **define the number of days after which a guest user is considered inactive** if no sign-ins are detected; this option is selected by default, and the number of days is set to 20.
-    * **Validate all guest users periodically (3)**
-      * When selected, you can configure how often the validation is required; this is set to 3 months by default
-* **Select who will validate guest users:**
-    * **Manager of Guest User (4)**; when the option is selected, **the person responsible for the validation, in case the Guest User does not have a defined manager, needs to be chosen**
-    * **Syskit Point Administrators (5)**; this option is selected by defaut
-    * **Custom Recipients (6)**; when selected, use the input field to select custom users that will be responsible for the validation of Guest Users
-* **Enable Syskit Point to automatically delete Guest Users (7)** if there is no answer from the defined users; this option is disabled by default
-* **Enable Syskit Point to send a reminder three workdays before the due date (8)**; this option is enabled by default
+* **Select when a user us considered inactive (2)** by choosing the amount of days that need to pass
+* **Select the severity level (3)** for the policy
+* **Enable automation (4)** by clicking the toggle next to it
+  * **Select who will validate guest users:**
+     * **Manager of Guest User (5)**; when the option is selected, **the person responsible for the validation, in case the Guest User does not have a defined manager, needs to be chosen**
+     * **Syskit Point Administrators (6)**; this option is selected by defaut
+     * **Custom Recipients (7)**; when selected, use the input field to select custom users that will be responsible for the validation of Guest Users
+* Click **Save (8)** once you are done with the policy configuration.   
 
 ![Edit Policy Dialog](../../.gitbook/assets/set_up_automated_workflows-guest_users_edit_dialog.png)
-![Edit Policy Dialog](../../.gitbook/assets/set_up_automated_workflows-guest_users_edit_dialog-2.png)
 
-Click **Save** once you are done with the policy configuration.  
 
 Based on your configuration, **Syskit Point will start the automated workflow periodically or when an inactive Guest User is detected**. 
 

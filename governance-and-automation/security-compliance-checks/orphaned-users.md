@@ -5,6 +5,10 @@ description: This article provides information on the Orphaned Users report.
 
 # Orphaned Users
 
+{% hint style="information" %}
+Security and Complaince checks for Orphaned Users are available in the XXXX plan and above. 
+{% endhint %}
+
 On the Security & Compliance Checks section dashboard, click the **Orphaned Users** button to see the report.
 
 The Orphaned Users screen opens, showing a list of all **users that have been disabled or deleted from Azure AD** without having their SharePoint permissions revoked.
@@ -25,3 +29,7 @@ By **selecting all (9)** or more than one user, you can perform the bulk action 
 
 ![Orphaned Users](../../.gitbook/assets/security-compliance-checks_orphaned-users.png)
 ![Orphaned Users - Bulk](../../.gitbook/assets/security-compliance-checks_orphaned-users-bulk.png)
+
+{% hint style="information" %}
+Please note that the **Orphaned Users** policy cannot be automated but once active will be detected for your Security & Compliance checks. 
+{% endhint %}
