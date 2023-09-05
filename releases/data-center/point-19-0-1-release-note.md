@@ -16,6 +16,6 @@ description: This article describes improvements and bug fixes in Syskit Point v
 
 * **Timeline added to the Guest Users Expiration tasks**. That way, you can see when Syskit Point detected a policy violation and who was assigned with the task to resolve it.  
 
-* **Improved UX on policy violation timeline and history screens**. Additional information is provided when Syskit Point automatically resolves a policy violation to help everyone involved see the performed actions. **The improvement applies to all governance policies available in Syskit Point** – **Guest Users Expiration**, **Maximum Number of Owners**, **Minimum Number of Owners**, and **Orphaned Resources**. 
+* **Improved UX on policy violation timeline and history screens**. Additional information is provided when Syskit Point automatically resolves a policy violation to help everyone involved see the performed actions. **The improvement applies to all governance policies available in Syskit Point** – **Guest Users Expiration**, **Maximum Number of Owners**, **Minimum Number of Owners**, and **Orphaned Workspaces**. 
 
 * **Fixed an issue** where the Analytics and Usage tile would show an incorrect number of viewed files. 

@@ -6,9 +6,9 @@ description: Cleanup & Health Reports provide information on maintaining the hea
 
 Reports in this section **help maintain the health of your tenant**. 
 
-In this article, you can locate information on [Orphaned Users](#orphaned-users) and [Orphaned Resources](#orphaned-resources).
+In this article, you can locate information on [Orphaned Users](#orphaned-users) and [Orphaned Workspaces](#orphaned-workspaces).
 
-Use Orphaned Users and Orphaned Resources reports to **detect and manage orphaned users and resources**. 
+Use Orphaned Users and Orphaned Workspaces reports to **detect and manage orphaned users and resources**. 
 
 ## Orphaned Users
 
@@ -51,20 +51,20 @@ By selecting the checkbox of an orphaned user, you can perform the **Remove User
 
 The Orphaned Users report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
-## Orphaned Resources
+## Orphaned Workspaces
 
-The Orphaned Resources report displays all the SharePoint Sites, Microsoft Teams, or Microsoft 365 groups in your tenant that don't have an active owner or administrator.
+The Orphaned Workspaces report displays all the SharePoint Sites, Microsoft Teams, or Microsoft 365 groups in your tenant that don't have an active owner or administrator.
 
   * The last owner of those resources is either deleted or blocked in Azure Active Directory. 
 
 This report helps manage Microsoft 365 resources' health and helps ensure there are no abandoned resources in your tenant.
 
 
-### Generate Orphaned Resources report
+### Generate Orphaned Workspaces report
 
  * **Click the Reports tile**; located on the Syskit Point home screen.
  * **Select Cleanup & Health Check in the filter**; it can be found in the upper left corner.
- * **Click the Orphaned Resources report** to generate the report.
+ * **Click the Orphaned Workspaces report** to generate the report.
 
 ### Report Data
 Once the report is successfully generated, the following data will be displayed in the columns:
@@ -82,6 +82,6 @@ There are also additional columns in the column chooser:
 **Change the owner** of the selected resource by removing the orphaned user and promoting an active user to be the owner of the selected resource. 
   * This can be done by selecting a row on the report. 
 
-After executing that action, the selected resource **will no longer be visible on the Orphaned Resources** report.
+After executing that action, the selected resource **will no longer be visible on the Orphaned Workspaces** report.
 
-The Orphaned Resources report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+The Orphaned Workspaces report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.

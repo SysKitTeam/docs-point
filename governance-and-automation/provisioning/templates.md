@@ -129,7 +129,7 @@ When creating a template for Microsoft Teams, you will need to define the follow
     * Access reviews
     * Maximum number of owners
     * Minimum number of owners
-    * Orphaned Resources
+    * Orphaned Workspaces
 
     Read more about setting up these governance policies and customizing them to your needs [here](../automated-workflows/set-up-policies.md).
 * **Outlook & Email Settings (16)** – define if the newly created workspace will:
