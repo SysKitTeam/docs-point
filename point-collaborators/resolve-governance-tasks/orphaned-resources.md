@@ -1,10 +1,10 @@
 ---
-description: This article explains how to resolve the Orphaned Resources policy violation in Syskit Point.
+description: This article explains how to resolve the Orphaned Workspaces policy violation in Syskit Point.
 ---
 
-# Orphaned Resources
+# Orphaned Workspaces
 
-**This article shows how you can resolve the Orphaned Resources policy violation** triggered when Syskit Point detects that Microsoft Teams and Microsoft 365 Groups don’t have active owners. 
+**This article shows how you can resolve the Orphaned Workspaces policy violation** triggered when Syskit Point detects that Microsoft Teams and Microsoft 365 Groups don’t have active owners. 
 
 When a team no longer has an active owner, there is no longer a person on the other end of an automated governance policy which means the site could potentially have shared files that are outdated and pose a serious security risk. 
 

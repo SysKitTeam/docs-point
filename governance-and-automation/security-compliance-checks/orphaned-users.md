@@ -25,3 +25,7 @@ By **selecting all (9)** or more than one user, you can perform the bulk action 
 
 ![Orphaned Users](../../.gitbook/assets/security-compliance-checks_orphaned-users.png)
 ![Orphaned Users - Bulk](../../.gitbook/assets/security-compliance-checks_orphaned-users-bulk.png)
+
+{% hint style="information" %}
+Please note that the **Orphaned Users** policy cannot be automated but once active will be detected for your Security & Compliance checks. 
+{% endhint %}
