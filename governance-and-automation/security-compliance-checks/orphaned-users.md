@@ -5,10 +5,6 @@ description: This article provides information on the Orphaned Users report.
 
 # Orphaned Users
 
-{% hint style="information" %}
-Security and Complaince checks for Orphaned Users are available in the XXXX plan and above. 
-{% endhint %}
-
 On the Security & Compliance Checks section dashboard, click the **Orphaned Users** button to see the report.
 
 The Orphaned Users screen opens, showing a list of all **users that have been disabled or deleted from Azure AD** without having their SharePoint permissions revoked.

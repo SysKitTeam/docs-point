@@ -5,10 +5,6 @@ description: This article provides information on the Workspaces with Too Many O
 
 # Workspaces With Too Many Owners
 
-{% hint style="information" %}
-Security and Complaince checks for Workspaces with Too Many Owners are available in the XXXX plan and above. 
-{% endhint %}
-
 On the Security & Compliance Checks section dashboard, click the **Workspaces with too many owners** button to see the report.
 
 The Workspaces with Not Enough Owners screen opens, showing a list of all **workspaces with too many owners assigned** to them.

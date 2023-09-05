@@ -5,10 +5,6 @@ description: This article provides information on the Workspaces with Not Enough
 
 # Workspaces with Not Enough Owners
 
-{% hint style="information" %}
-Security and Complaince checks for Workspaces with Not Enough Owners are available in the XXXX plan and above. 
-{% endhint %}
-
 On the Security & Compliance Checks section dashboard, click the **Workspaces with not enough owners** button to see the report.
 
 The Workspaces with Not Enough Owners screen opens, showing a list of all **workspaces with not enough owners assigned** to them.

@@ -5,10 +5,6 @@ description: This article provides information on the Blocked Users with Assigne
 
 # Blocked Users with Assigned Licenses
 
-{% hint style="information" %}
-Security and Complaince checks for Blocked Users with Assigned Licenses are available in the XXXX plan and above. 
-{% endhint %}
-
 On the Security & Compliance Checks section dashboard, click the **Blocked users with assigned licenses** button to see the report.
 
 The Blocked Users with Assigned Licenses screen opens, showing a list of all **blocked users that still have licenses assigned** to them.

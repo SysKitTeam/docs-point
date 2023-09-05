@@ -5,10 +5,6 @@ description: This article provides information on the Orphaned Workspaces report
 
 # Orphaned Workspaces
 
-{% hint style="information" %}
-Security and Complaince checks for Orphaned Workspaces are available in the XXXX plan and above. 
-{% endhint %}
-
 {% hint style="hint" %}
 The Orphaned Workspaces policy can either be automated or detected depending on whether policy automation was enabled.
 {% endhint %}

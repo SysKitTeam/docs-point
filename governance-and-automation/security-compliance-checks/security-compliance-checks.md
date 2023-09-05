@@ -4,10 +4,6 @@ description: This article provides information on the Security and Compliance ch
 
 # Security and Compliance Checks
 
-{% hint style="information" %}
-Security and Complaince checks are available in the XXXX plan and above. 
-{% endhint %}
-
 The **Security and Compliance Checks**, visible directly on your Syskit Point home screen, pinpoint the **most important vulnerabilities and misalignments** with Microsoft 365 best practices. These checks keep you aware and help you **react quickly to keep your environment secure and under control**.
 
 Collecting all the important info about the security and compliance state of your environment is a time-consuming and repetitive administration task. Syskit Point performs regular security and compliance checks for you and presents the results directly on your home screen. 
@@ -44,7 +40,7 @@ After clicking View All, the Security and Compliance checks dashboard will open,
 
 ## Automated Governance
 
-To keep all these things **under control proactively and even prevent** possible issues, we suggest exploring and [**setting up various governance policies and policy automation**](../governance-and-automation/automated-workflows/README.md) in Syskit Point that will control the minimum and maximum number of owners in your workspaces as well as how you automatically find and manage orphaned resources. 
+To keep all these things **under control proactively and even prevent** possible issues, we suggest exploring and [**setting up various governance policies and policy automation**](../governance-and-automation/automated-workflows/README.md) in Syskit Point that will control the minimum and maximum number of owners in your workspaces as well as how you automatically find and manage orphaned workspaces. 
  
 ## Navigate Security and Compliance Checks
 

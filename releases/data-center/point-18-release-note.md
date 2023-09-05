@@ -69,7 +69,7 @@ While you wait for spring to come, we bring you the latest and greatest **Syskit
 * **Improved how Syskit Point queries the SQL database!** We took additional measures to speed things up for you. You will notice these changes when generating reports, overview, and detail screens. 
 * **Improved Home Screen and additional data about new features are available**! The latest features – **Alerts** and **Scheduled Reports** – are now available from the Home Screen. **After installing the latest version**, you will also get a **notification inside Syskit Point**, **giving you the list of most important** features added in the newest version.   
 * **Additional columns and improved report data are available!**
-  * **Site Type column added** to **External Users**, **Orphaned Users**, **Orphaned Resources**, **Users with Privileged Access**, **Group Access**, and **User Access report**
+  * **Site Type column added** to **External Users**, **Orphaned Users**, **Orphaned Workspaces**, **Users with Privileged Access**, **Group Access**, and **User Access report**
   * **IP Address column added** to **Audit Logs Overview**, **Exchange Logs**, **Site Permissions Changes**, **User Activity** and **File and Page Activities report**
 * **Privacy column added** to **Users with Privileged Access report**
 * **Details column** on audit reports now **shows additional data** for **Membership Changed** and **Changed Team Setting events** 

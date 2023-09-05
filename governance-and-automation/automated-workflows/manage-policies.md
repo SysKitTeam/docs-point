@@ -13,7 +13,7 @@ You can choose from the following:
 * **Access Review**
 * **Minimum Number of Owners**
 * **Maximum Number of Owners**
-* **Orphaned Resources**
+* **Orphaned Workspaces**
 * [**Access Requests**](../../governance-and-automation/access-requests/README.md)
   * For more details on access requests in Syskit Point take a look at the [Access Requests section](../../governance-and-automation/access-requests/README.md).
 
@@ -55,5 +55,5 @@ After clicking the **Manage Policies (6)** button, the **Manage Policy** dialog 
 You can find an article on how to create or edit each policy used for Automated Workflows here:
 * [**Minimum Number of Owners**](minimum-number-of-owners-admin.md)
 * [**Maximum Number of Owners**](maximum-number-of-owners-admin.md)
-* [**Orphaned Resources**](orphaned-resources-admin.md)
+* [**Orphaned Workspaces**](orphaned-resources-admin.md)
 * [**Guest Users Expiration**](guest-users-expiration-admin.md)
