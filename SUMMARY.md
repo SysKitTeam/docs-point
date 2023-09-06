@@ -105,7 +105,7 @@
   * [Policies](governance-and-automation/automated-workflows/README.md)
     * [Set Up Policies](governance-and-automation/automated-workflows/set-up-policies.md)
     * [Policy Automation](governance-and-automation/automated-workflows/policy-automation.md)
-    * [Guest Users Expiration](governance-and-automation/automated-workflows/guest-users-expiration-admin.md)
+    * [Guest Users Expiration](governance-and-automation/automated-workflows/guest-users-expiration.md)
     * [Minimum Number of Owners](governance-and-automation/automated-workflows/minimum-number-of-owners-admin.md)
     * [Maximum Number of Owners](governance-and-automation/automated-workflows/maximum-number-of-owners-admin.md)
     * [Orphaned Workspaces](governance-and-automation/automated-workflows/orphaned-resources-admin.md)
