@@ -23,6 +23,9 @@ If you are a workspace owner, you will continue to receive tasks for workspaces 
 * **Syskit Point 20203.4 comes with a new Look and feel and a revamped homepage experience!**
  We're excited to introduce the new look and feel of Syskit Point following our company rebranding. With improved platform capabilities and a redefined product vision as the central hub for administration, security, and compliance, we are thrilled to unveil the new homepage experience. This revamped interface features a left-hand menu and a centralized dashboard, offering a comprehensive overview of your Microsoft 365. Easily navigate and delve into specifics as needed.
 
+![Syskit Point - Sync started notification on the first log in](../../.gitbook\assets\newHomepagev2.gif)
+
+
 ## Improvements & Bug Fixes
 * **Group Access report was optimized**. The report now better handles special groups - Everyone and Everyone except external users - and thus loads the selection step faster.
 * **Improved the sensitivity label dropdown** used when creating a provisioning template. In some cases, the dropdown would show the senstivitiy label GUID instead of a friendly name. Instead of the name property, Syskit Point now shows display name. 
