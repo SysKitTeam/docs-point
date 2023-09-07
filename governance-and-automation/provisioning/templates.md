@@ -2,7 +2,7 @@
 description: >-
   Syskit Point templates help you define which types of workspaces your
   end-users can request and create. Each template contains properties and rules
-  that guide the creation process and ensure all works.
+  that guide the creation process and ensure all works
 ---
 
 # Templates
@@ -26,7 +26,7 @@ Available actions for these templates are listed under the **Manage (3)** column
 
 You can create custom templates by clicking the **New Template (6)** button.
 
-![Templates default screen](../../.gitbook/assets/templates__default-screen.png)
+![Templates default screen](../../.gitbook/assets/templates\_\_default-screen.png)
 
 ## Create a New Provisioning Template
 
@@ -42,7 +42,7 @@ Templates can be created for the following workspaces:
 * **Microsoft 365 Group**
 
 {% hint style="warning" %}
-**Please note!**  
+**Please note!**\
 When creating a provisioning template in Syskit Point, if you want to use existing Microsoft Teams templates or site templates, set your browser language to English (USA). That way, the correct format of calls directed from Syskit Point to Microsoft endpoints is ensured, which uses Locale set to "en-US" (LocaleID equals 1033).
 {% endhint %}
 
@@ -139,8 +139,7 @@ When creating a template for Microsoft Teams, you will need to define the follow
     * Allow external senders to e-mail this group
     * Send copies of group conversations and events to group members
 
-![Template for Microsoft Teams](../../.gitbook/assets/templates_form-slide5-1.png)
-![Template for Microsoft Teams](../../.gitbook/assets/templates_form-slide5-2.png)
+![Template for Microsoft Teams](../../.gitbook/assets/templates\_form-slide5-1.png) ![Template for Microsoft Teams](../../.gitbook/assets/templates\_form-slide5-2.png)
 
 * **Template availability (17)** – defines the group of users that are able to select the template when submitting requests for new workspaces.
   * Everyone - the template is available to all users in your organization
