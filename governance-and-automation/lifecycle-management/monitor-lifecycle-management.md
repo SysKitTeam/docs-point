@@ -47,7 +47,7 @@ Clicking on **Resolve now** opens the lifecycle management **Awaiting Response**
 
 {% hint style="info" %}
 **Hint**!  
-To ensure that every resource has an owner responsible for lifecycle management, always set an active user as an owner for orphaned resources.
+To ensure that every resource has an owner responsible for lifecycle management, always set an active user as an owner for orphaned workspace.
 {% endhint %}
 
 ## Governance – Lifecycle Management
@@ -58,7 +58,7 @@ To **track the progress** of the ongoing Lifecycle Management, Syskit Point Admi
 
 You will be redirected to the **Governance screen**. Under the lifecycle management tab, click the **Overview** \(1\). A **Lifecycle Management Overview** screen appears where you can check:
 
-* **Resources that require your attention** \(orphaned resources\)\(2\)
+* **Resources that require your attention** \(orphaned workspaces\)\(2\)
 * See all **inactive resources** in your environment\(3\)
 * Check out the graphic overview of the **owners response rate** to their lifecycle management tasks\(4\)
 * Graphic overview of **actions performed by owners**\(5\)

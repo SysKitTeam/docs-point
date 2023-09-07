@@ -25,7 +25,7 @@ Along with autumn comes a new version of Syskit Point packed with new features a
 * **Syskit Point gets Dashboard!** Here you can:
   * **see what was happening in your Microsoft 365 environment** in the last 30 days at a glance  
   * **find summary data on your resources**, **internal and external users**, **sharing links**, and **used storage** - **all numbers are drillable**, taking you to the related reports which will show more details 
-  * **detect potential issues**, for example, if your environment has inactive or orphaned resources
+  * **detect potential issues**, for example, if your environment has inactive or orphaned workspaces
   
     [Find more information about the new Dashboard here.](../microsoft365-inventory/explore-your-microsoft-365-dashboard.md)
 * **New SharePoint Groups report is available!** Use the report to view all SharePoint Groups and their permissions on your sites, remove group members, or drill to the Group Access report for selected SharePoint Groups.
@@ -38,7 +38,7 @@ Along with autumn comes a new version of Syskit Point packed with new features a
 ## Improvements & Bug Fixes
 
 * **Improved detection of password protected sharing links** in Syskit Point. Password protected anonymous links are now correctly displayed on Permissions Matrix, Sharing Links, User Access, and Anonymous Links reports.
-* **The Orphaned Groups report was improved.** It now shows all orphaned resources \(Microsoft Teams, Microsoft 365 Groups, and SharePoint sites\), resources with no owners, and provides you with the Change Admins action for classic sites. Since it's no longer limited to groups, it was renamed Orphaned Resources.
+* **The Orphaned Groups report was improved.** It now shows all orphaned workspaces \(Microsoft Teams, Microsoft 365 Groups, and SharePoint sites\), resources with no owners, and provides you with the Change Admins action for classic sites. Since it's no longer limited to groups, it was renamed Orphaned Workspaces.
 * **Improved the Access Review experience** by showing information about the currently active Access Review in the side panel in case a resource is selected. Additionally, when an Access Review is created for a single resource, the resource name is displayed in the Access Review title.
 * **Email customization was improved** by adding the size, dimensions, and format information and validation on all email customization forms.
 * **Improved the Edit Permissions dialogue** by adding the list of existing group members. That way, when editing group permissions, you can see all users that will be affected by the change.

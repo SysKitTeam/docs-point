@@ -10,7 +10,7 @@ description: This article explains how to customize e-mails within Syskit Point.
 
 Syskit Point **provides the option to customize e-mails** that are **sent to site owners** as a part of **Access Review and Lifecycle Management Automation**.  
 
-Emails are used for **Access Review and Lifecycle Management** tasks and any policies created under **Automated Workflows**. They are also used for receiving reports that are available in the **Reports** section of Syskit Point. 
+Emails are used for **Access Review and Lifecycle Management** tasks and any policies created under **Policies**. They are also used for receiving reports that are available in the **Reports** section of Syskit Point. 
 
 The following aspects of the e-mails can be customized:
 
