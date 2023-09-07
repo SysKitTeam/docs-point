@@ -19,7 +19,7 @@ description: >-
   [If you are an admin managing Syskit Point, navigate to the Security & Compliance Checks article](../../governance-and-automation/security-compliance-checks/security-compliance-checks.md). \
   If you are a workspace owner, you will continue to receive tasks for workspaces with automated policies applied. [Use this link to learn how to resolve governance tasks in Syskit Point](../../point-collaborators/resolve-governance-tasks/my-tasks.md).
 
-* **Syskit Point 20203.4 brings a new look and feel and a revamped homepage experience!** We're excited to introduce the new look and feel of Syskit Point following our company rebranding. With improved platform capabilities and a redefined product vision as the central hub for administration, security, and compliance, we are thrilled to unveil the new homepage experience. This revamped interface features a left-hand menu and a centralized dashboard, offering a comprehensive overview of your Microsoft 365. Easily navigate and delve into specifics as needed.
+* **Syskit Point 2023.4 brings a new look and feel and a revamped homepage experience!** We're excited to introduce the new look and feel of Syskit Point following our company rebranding. With improved platform capabilities and a redefined product vision as the central hub for administration, security, and compliance, we are thrilled to unveil the new homepage experience. This revamped interface features a left-hand menu and a centralized dashboard, offering a comprehensive overview of your Microsoft 365. Easily navigate and delve into specifics as needed.
 
 <figure><img src="../../.gitbook/assets/newHomepagev2.gif" alt=""><figcaption><p>New Home Page Experience</p></figcaption></figure>
 
