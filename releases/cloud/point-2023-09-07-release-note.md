@@ -30,6 +30,7 @@ Governance policies now have 2 modes of operation:
   * **Automation** 
     * **Can be enabled in policy settings** for the following policies: [Inactive Guest Users (Tenant-Wide)](../../governance-and-automation/security-compliance-checks/inactive-guest-users.md), [Maximum Number of Owners](../../governance-and-automation/security-compliance-checks/workspaces-too-many-owners.md), [Minimum Number of Owners](../../governance-and-automation/security-compliance-checks/workspaces-not-enough-owners.md), and [Orphaned Workspaces](../../governance-and-automation/security-compliance-checks/orphaned-workspaces.md)
     * **When enabled, tasks are created in Syskit Point and emails sent to users defined in policies**
+    * **Access Requests** and **Access Review** policies don't represent vulnerabilities, therefore they will not appear on the Security & compliance dashboard; think of them as automation-only policies
 
 \
   [If you are an admin managing Syskit Point, navigate to the Security & Compliance Checks article](../../governance-and-automation/security-compliance-checks/security-compliance-checks.md). \
