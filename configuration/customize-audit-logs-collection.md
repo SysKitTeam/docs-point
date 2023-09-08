@@ -115,9 +115,14 @@ Available audit log categories:
 
 ## Data Retention
 
-{% hint style="information" %}
-**Please Note!** The **data retention option for audit logs is only available in the Data Center plan**. For more details on Syskit Point plans that are currently available, check the [pricing page](https://www.syskit.com/products/point/pricing/).
-{% endhint %}
+### Point Cloud
+
+**Data retention is limited to only 1 year with Syskit Point Cloud**. 
+
+Due to that, there are no settings or options for you to modify it. This applies to the Management, Security & Compliance, and Governance plans. For more details on Syskit Point plans that are currently available, check the [pricing page](https://www.syskit.com/products/point/pricing/).
+
+
+### Point Data Center
 
 When audit log data retention is **enabled and set up, Syskit Point will delete audit logs** that are older than the specified timeframe. 
 
@@ -132,7 +137,7 @@ Go to the **General Settings** screen in your Syskit Point to enable it.
 
 ![Data retention for audit logs](../.gitbook/assets/customize-audit-logs-collection_data-retention-settings.png)
 
-### Exchange Logs
+## Exchange Logs
 
 {% hint style="warning" %}
 **Please note!**  
