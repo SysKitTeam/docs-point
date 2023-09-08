@@ -58,9 +58,6 @@ description: >-
 * **Orphaned Resources policy was renamed to Orphaned Workspaces**.&#x20;
 * You will see the change in multiple screens - settings, governance screens, etc.
 
-[If you are an admin managing Syskit Point, navigate to the Security & Compliance Checks article](../../governance-and-automation/security-compliance-checks/security-compliance-checks.md).\
-
-
 ### New Look and Homepage Experience
 
 **Syskit Point 2023.4 brings a new look and feel and a revamped homepage experience!** We're excited to introduce the new look and feel of Syskit Point following our company rebranding. With improved platform capabilities and a redefined product vision as the central hub for administration, security, and compliance, we are thrilled to unveil the new homepage experience. This revamped interface features a left-hand menu and a centralized dashboard, offering a comprehensive overview of your Microsoft 365. Easily navigate and delve into specifics as needed.
