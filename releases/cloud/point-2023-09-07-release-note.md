@@ -19,10 +19,6 @@ description: >-
 
 **Security & compliance dashboard and reports are available!** Visible from your new home screen, the dashboard pinpoints the most important vulnerabilities and misalignments with Microsoft 365 best practices. These checks will keep you aware and help you react promptly to maintain a secure and controlled environment. You will receive an overview of all checks, along with severity, the number of detected vulnerabilities, and the option to drill down for more details to decide if you want to take action to resolve a specific issue.
 
-<<<<<<< HEAD
-{% hint style="information" %} 
-The Security & Compliance dashboard is available to Syskit Point administrators only.
-=======
 * **If you are a Syskit Point Admin**, [**read the Security & compliance checks article**](../../governance-and-automation/security-compliance-checks/security-compliance-checks.md) to learn how to:
   * **Access and use the new dashboard**
   * **Monitor and resolve detected vulnerabilities**
@@ -32,28 +28,11 @@ The Security & Compliance dashboard is available to Syskit Point administrators 
 
 {% hint style="info" %}
 **The Security & compliance dashboard is available to Syskit Point administrators only**.
->>>>>>> d417d21d3222e2f226517b4fb0f6ce8e0a1cb6ff
 {% endhint %}
 
 **With the new dashboard, important policy changes were introduced.**
 
 **Governance policies now have 2 modes of operation**:
-<<<<<<< HEAD
-* **Detection**
-  * **Syskit Point detects a vulnerability on a workspace** based on an applied policy
-  * **Vulnerabilities are displayed on the new Security & compliance dashboard**
-  * **No tasks are created, and no emails are sent** to workspace owners; think of this mode as an assistant for Syskit Point admins, reminding them there are potential issues in the environment every time they open Syskit Point
-  * **For new users that acquire Syskit Point, default policies are created and applied to all your workspace via a default rule**; no need to worry, though - default policies are configured as **detection only policies**, meaning that **no tasks will be created or emails sent**
-  * **Existing customers can also expect to get 3 new default policies**; if you already applied Policies to your workspaces in the previous version, the default rule is configured to have the lowest priority, and therefore, the previously applied policies will still have precedence
-  * **2 new detection-only policies were added** - **[Blocked Users with Assigned Licenses (Tenant-Wide)](../../governance-and-automation/security-compliance-checks/blocked-users-assigned-license.md)** and **[Orphaned Users (Tenant-Wide)](../../governance-and-automation/security-compliance-checks/orphaned-users.md)**; Stay tuned for automation options in upcoming releases! 
-* **Automation** 
-  * **Can be enabled in policy settings for the following policies**: [Inactive Guest Users (Tenant-Wide)](../../governance-and-automation/security-compliance-checks/inactive-guest-users.md), [Maximum Number of Owners](../../governance-and-automation/security-compliance-checks/workspaces-too-many-owners.md), [Minimum Number of Owners](../../governance-and-automation/security-compliance-checks/workspaces-not-enough-owners.md), and [Orphaned Workspaces](../../governance-and-automation/security-compliance-checks/orphaned-workspaces.md)
-  * **When enabled, tasks are created in Syskit Point, and emails are sent to users defined in policies**
-  * **Access Requests** and **Access Review** policies don't represent vulnerabilities therefore they will not appear on the Security & compliance dashboard; think of them as automation-only policies
-
-**Guest Users Expiration (Tenant-Wide) policy is deprecated.**
-The deprecated policy offered detection or a periodic review of guest users, both from the same policy setting. To enable both the detection and periodic guest user review at the same time, the old policy needs to be split into 2 new policies.
-=======
 
 * **Detection**
   * **Syskit Point detects a vulnerability on a workspace** based on an applied policy.
@@ -70,7 +49,6 @@ The deprecated policy offered detection or a periodic review of guest users, bot
 
 **Guest Users Expiration (Tenant-Wide) policy is deprecated.** The deprecated policy offered to enable detection of inactive guest users or a periodic review of guest users from the same policy setting. To enable both the detection of inactive guest users and a periodic guest users review, the old policy needs to be split into 2 new policies.
 
->>>>>>> d417d21d3222e2f226517b4fb0f6ce8e0a1cb6ff
 * [Inactive Guest Users (Tenant-Wide)](../../governance-and-automation/security-compliance-checks/inactive-guest-users.md) policy enables detection of guest users that are inactive longer than defined in the policy settings. It also provides you with the option to enable automation, meaning that Syskit Point will create tasks and send emails to users defined in the policy settings.
 * **Guest Users Review** policy will be added in an upcoming release.
 
@@ -89,12 +67,7 @@ The deprecated policy offered detection or a periodic review of guest users, bot
 ## Improvements & Bug Fixes
 
 * **Group Access report was optimized**. It now better handles special groups - Everyone and Everyone except external users - and thus loads the selection step faster.
-<<<<<<< HEAD
-* **Improved the sensitivity label dropdown** used when creating a provisioning template. In some cases, the dropdown would show the sensitivity label GUID instead of a friendly name. Instead of the name property, Syskit Point now shows the display name.
-* **Fixed an issue** where owners would get an empty screen with infinite loading animation instead of an appropriate message in case they opened a link to a workspace they don't have access to. Now, the Access Denied message is displayed.
-=======
 * **Improved the sensitivity label dropdown** used when creating a provisioning template. In some cases, the dropdown would show the sensitivitiy label GUID instead of a friendly name. Instead of the name property, Syskit Point now shows the display name.
 * **Fixed an issue** where owners would get an empty screen with infinite loading animation instead of an appropriate message in case they opened a link to a workspace where they don't have access. Now, the Access Denied message is displayed.
->>>>>>> d417d21d3222e2f226517b4fb0f6ce8e0a1cb6ff
 * **Fixed a bug** where changing Audit Log settings and activities to collect was not applied instantly but only after app services restarted.
 * **Various improvements and minor fixes are available**.
