@@ -38,6 +38,14 @@ After clicking View All, the Security and Compliance checks dashboard will open,
 
 ![Security & Compliance Checks](../../.gitbook/assets/security-compliance-checks_dashboard.png)
 
+{% hint style="hint" %}
+
+**Please note!**  
+The Security & Compliance dashboard shows data based on the defined policies that have been applied to workspaces. For more details on how to [set up policies, take a look at this article](../../governance-and-automation/automated-workflows/set-up-policies.md).
+
+{% endhint %}
+
+
 ## Automated Governance
 
 To keep all these things **under control proactively and even prevent** possible issues, we suggest exploring and [**setting up various governance policies and policy automation**](../governance-and-automation/automated-workflows/README.md) in Syskit Point that will control the minimum and maximum number of owners in your workspaces as well as how you automatically find and manage orphaned workspaces. 

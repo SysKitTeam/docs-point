@@ -49,7 +49,7 @@ Syskit Point enables you to create and apply three types of ownership policies t
 Take a look at the articles below to learn how to set up each governance policy:
 
 
-* [**Blocked Users with Assigned Licenses**](blocked-users-with-licenses-admin.md) - detects which blocked users still have licenses assigned which helps you optimize cost
+* [**Blocked Users with Assigned Licenses**](blocked-users-with-licenses-admin.md) - detects which blocked users still have licenses assigned, which helps you optimize cost
 * [**Minimum Number of Owners**](minimum-number-of-owners-admin.md) - when enabled and applied to Microsoft Teams and Microsoft 365 Groups, this policy **triggers an automated workflow when the team/group has fewer owners** than defined in the policy settings
 * [**Maximum Number of Owners**](maximum-number-of-owners-admin.md) - when enabled and applied to Microsoft Teams and Microsoft 365 Groups, this policy **triggers an automated workflow when the team/group has more owners** than defined in the policy settings
 * [**Inactive Guest Users**](inactive-guest-users-admin.md) - detects when a **guest user is inactive** for a period of time and helps you remove access in a timely and efficient manner
@@ -74,6 +74,36 @@ Here, you can:
 * **Manage policies (9)**; **Edit** and **Delete** actions are provided for each policy, **except for those applied tenant-wide**
 
 ![Policy Settings](../../.gitbook/assets/set-up-policies_settings.png)
+
+
+## Policy Detection vs Policy Automation
+
+There are two modes of policy operation for Governance policies: **Detection and Automation**. 
+
+There are **two detection-only policies** that are applied tenant-wide: 
+* [**Blocked Users with Assigned Licenses (Tenant-Wide)**](../../governance-and-automation/security-compliance-checks/blocked-users-assigned-license.md) 
+* [**Orphaned Users (Tenant-Wide)**](../../governance-and-automation/security-compliance-checks/orphaned-users.md)
+
+When it comes to detection-only policies, Syskit Point detects a vulnerability on a workspace based on one of the applied policies. 
+
+Syskit Point **does not create tasks or send any emails to workspace owners for policies that are configured to perform as detection-only**. However, the vulnerabilities are displayed on the new [Security & Compliance dashboard](../../governance-and-automation/security-compliance-checks/security-compliance-checks.md).
+
+The purpose of this is to assist Syskit Point admins by reminding them there are potential issues in their Microsoft 365 environment every time they open Syskit Point. 
+  * **Existing customers can expect to get the 3 new default policies with detection only**; if you already applied Policies to your workspaces in the previous version, the default rule is configured to have the lowest priority, meaning the previously applied policies will still have precedence, and you should experience no changes.
+   * **For new users that acquire Syskit Point, default policies are created - Minimum 2 Owners (Default Policy), Maximum 5 Owners (Default Policy), and Orphaned Workspaces (Default Policy) - and applied to all your workspace via a default rule**; these policies serve to give you an overview of workspaces that are potentially not configured according to best practices; no need to worry, though - default policies are configured as **detection-only policies**, meaning that **Syskit Point will not create tasks or send emails**.
+
+There are **four policies that can be automated**: 
+* [Inactive Guest Users (Tenant-Wide)](../../governance-and-automation/security-compliance-checks/inactive-guest-users.md)
+* [Maximum Number of Owners](../../governance-and-automation/security-compliance-checks/workspaces-too-many-owners.md)
+* [Minimum Number of Owners](../../governance-and-automation/security-compliance-checks/workspaces-not-enough-owners.md)
+* [Orphaned Workspaces](../../governance-and-automation/security-compliance-checks/orphaned-workspaces.md)
+
+When it comes to policies that can be automated, you can enable automation in the [policy automation settings of Syskit Point](../../governance-and-automation/automated-workflows/policy-automation.md). 
+
+**When automation is enabled, Syskit Point creates tasks and sends emails to users as defined in the policy settings**.
+  * **Access Requests** and **Access Review** policies don't represent vulnerabilities and will not appear on the Security & Compliance dashboard; think of them as automation-only policies.
+  * **Existing customers can expect the automation option for the default policies to be turned off and for policies previously configured by Syskit Point admins to stay the same**. It is advised for the Syskit Point Admins to check policy settings and enable automation where needed.
+
 
 
 ## Resolving Policy Tasks
