@@ -15,7 +15,23 @@ description: >-
 
 ## Features
 
-* **Security & compliance dashboard and reports are available!** Visible from your new home screen, pinpoints the most important vulnerabilities and misalignments with Microsoft 365 best practices. These checks will keep you aware and help you react promptly to maintain a secure and controlled environment. You will receive an overview of all checks, along with severity, the number of detected vulnerabilities, and the option to drill down for more details to decide if you want to take action to resolve a specific issue.\
+* **Security & compliance dashboard and reports are available!** Visible from your new home screen, pinpoints the most important vulnerabilities and misalignments with Microsoft 365 best practices. These checks will keep you aware and help you react promptly to maintain a secure and controlled environment. You will receive an overview of all checks, along with severity, the number of detected vulnerabilities, and the option to drill down for more details to decide if you want to take action to resolve a specific issue.
+Security & compliance dashboard is available to Syskit Point administrators only.
+
+* **Policy changes and expected behavior** \
+Governance policies now have 2 modes of operation:
+  * **Detection**
+    * **Syskit Point detects a vulnerability on a workspace** based on an applied policy
+    * **Vulnerabilites are displayed on the new Security & compliance dashboard**
+    * **No tasks are created and no emails are sent** to workspace owners; think of this mode as an assistant for Syskit Point admins, reminding them there are potential issues in the environment every time they open Syskit Point
+    * **For new users that acquire Syskit Point, default policies are created and applied to all your workspace via a default rule**; no need to worry, though - default policies are configured as **detection only policies**, meaning that **no tasks will be created or emails sent**
+    * **Existing customers can also expect to get 3 new default policies**; if you already applied Policies to your workspaces in the previous version, the default rule is configured to have the lowest priority, and therefore, the previously applied policies will still have precedence
+    * **2 new detection-only policies were added** - **[Blocked Users with Assigned Licenses (Tenant-Wide)](../../governance-and-automation/security-compliance-checks/blocked-users-assigned-license.md)** and **[Orphaned Users (Tenant-Wide)](../../governance-and-automation/security-compliance-checks/orphaned-users.md)**; Stay tuned for automation options in upcoming releases! 
+  * **Automation** 
+    * **Can be enabled in policy settings** for the following policies: [Inactive Guest Users (Tenant-Wide)](../../governance-and-automation/security-compliance-checks/inactive-guest-users.md), [Maximum Number of Owners](../../governance-and-automation/security-compliance-checks/workspaces-too-many-owners.md), [Minimum Number of Owners](../../governance-and-automation/security-compliance-checks/workspaces-not-enough-owners.md), and [Orphaned Workspaces](../../governance-and-automation/security-compliance-checks/orphaned-workspaces.md)
+    * **When enabled, tasks are created in Syskit Point and emails sent to users defined in policies**
+
+\
   [If you are an admin managing Syskit Point, navigate to the Security & Compliance Checks article](../../governance-and-automation/security-compliance-checks/security-compliance-checks.md). \
   If you are a workspace owner, you will continue to receive tasks for workspaces with automated policies applied. [Use this link to learn how to resolve governance tasks in Syskit Point](../../point-collaborators/resolve-governance-tasks/my-tasks.md).
 
