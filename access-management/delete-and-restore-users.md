@@ -27,19 +27,18 @@ To successfully execute **Delete User** and **Restore User actions**, you need t
 
 To use the **Delete User action**, follow these steps:
 
-* navigate to the **Users** overview screen
-* **select the users you wish to delete \(1\)**
-* **click the Delete User action \(2\)** - the **Delete Users** window opens
-* **click the Delete User button \(3\)** on the **Delete Users** window to confirm the deletion
+* Navigate to the **Users** overview screen;located on the left side of the home page
+* **Select the users you wish to delete \(1\)**
+* **Click the Delete User action \(2\)** - the **Delete Users** window opens
+* **Click the Delete User button \(3\)** on the **Delete Users** window to confirm the deletion
 
 {% hint style="warning" %}
 **Please note!**  
 You can only delete users that exist in the **Azure Active Directory**. Some external users in your tenant don’t appear in **Azure Active Directory** as they only have access to selected documents. To remove such users, use the **Remove Access** action on the [**User Access Report**](check-access-for-specific-user.md).
 {% endhint %}
 
-![Users overview screen - Delete User action](../.gitbook/assets/0%20%284%29.png)
-
-![Delete Users - Confirm action](../.gitbook/assets/1%20%284%29.png)
+![Users overview screen - Delete User action](../.gitbook/assets/delete-restore-users_delete.png)
+![Delete Users - Confirm action](../.gitbook/assets/delete-restore-users_delete-confirm.png)
 
 ## Running the Restore User Action
 
@@ -50,9 +49,9 @@ To use the **Restore User action**, navigate to the **Users overview screen**, a
 * **click the Restore User action \(3\)** - the **Restore Users** window opens
 * **click the Restore User button \(4\)** to confirm the action
 
-![User overview screen - deleted users view, Restore User action](../.gitbook/assets/2%20%284%29.png)
+![User overview screen - deleted users view, Restore User action](../.gitbook/assets/delete-restore-users_restore.png)
 
-![Restore User Action popup screen](../.gitbook/assets/3%20%284%29%20%281%29.png)
+![Restore User Action popup screen](../.gitbook/assets/delete-restore-users_restore-confirm.png)
 
 {% hint style="warning" %}
 **Please note!**  
