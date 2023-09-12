@@ -1,5 +1,5 @@
 ---
-description: This article explains how to set up the Maximum Number of Owners policy for Automated Workflows in Syskit Point.
+description: This article explains how to set up the Maximum Number of Owners policy in Syskit Point.
 ---
 
 # Maximum Number of Owners

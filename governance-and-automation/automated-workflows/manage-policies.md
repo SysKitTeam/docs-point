@@ -15,7 +15,7 @@ You can choose from the following:
 * **Maximum Number of Owners**
 * **Orphaned Workspaces**
 * [**Access Requests**](../../governance-and-automation/access-requests/README.md)
-  * For more details on access requests in Syskit Point take a look at the [Access Requests section](../../governance-and-automation/access-requests/README.md).
+  * For more details on access requests in Syskit Point, read the [Access Requests section](../../governance-and-automation/access-requests/README.md).
 
 ![Create New Policy Dialog](../../.gitbook/assets/set_up_automated_workflows-create_policy_dialog.png)
 
@@ -27,7 +27,7 @@ You can choose from the following:
 
 **When the policies are defined**, the last thing left to do is to **apply them to Microsoft Teams, Microsoft 365 Groups, OneDrive, and Sites**. 
 
-To do so, navigate to the Automated Workflows settings screen, and click the **Manage Policies (1)** button.
+To do so, navigate to the Policies settings screen, and click the **Manage Policies (1)** button.
 
 ![Manage Policies](../../.gitbook/assets/set_up_automated_workflows-apply_policy.png)
 
@@ -52,8 +52,10 @@ After clicking the **Manage Policies (6)** button, the **Manage Policy** dialog 
 **Once a policy is applied, Syskit Point automates detection for a policy violation**. 
 {% endhint %}
 
-You can find an article on how to create or edit each policy used for Automated Workflows here:
+You can find an article on how to create or edit each policy here:
 * [**Minimum Number of Owners**](minimum-number-of-owners-admin.md)
 * [**Maximum Number of Owners**](maximum-number-of-owners-admin.md)
 * [**Orphaned Workspaces**](orphaned-resources-admin.md)
-* [**Guest Users Expiration**](guest-users-expiration-admin.md)
+* [**Inactive Guest Users**](inactive-guest-users-admin.md)
+* [**Blocked Users with Assigned Licenses**](blocked-users-with-licenses-admin.md)
+* [**Orphaned Users**](orphaned-users-admin.md)

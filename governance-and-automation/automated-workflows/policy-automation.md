@@ -15,15 +15,19 @@ The Policy Automation feature **lets you create rules for auto-applying policies
 
 Custom metadata is planned to be implemented into the feature soon as well. 
 
-Policy Automation makes managing your environment and keeping it secure easier and more efficient. With policy automation, **you can define rules in Syskit Point that will automatically apply policies** (for example, Access Review, Guest Users Expiration, Maximum Owners, etc.) to your newly created workspaces **without having to apply them manually**. It also means you'll need to create fewer provisioning templates to secure your environment. 
+Policy Automation makes managing your environment and keeping it secure easier and more efficient. With policy automation, **you can define rules in Syskit Point that will automatically apply policies** (for example, Access review, Maximum or Minimum number of owners, etc.) to your newly created workspaces **without having to apply them manually**. It also means you'll need to create fewer provisioning templates to secure your environment. 
 
 {% hint style="important" %}
 **Please Note!**
-
-To activate rules for auto-applying policies, please make sure you have already set up your policies under the automated workflow section. [Follow this article for more information. ](../automated-workflows/set-up-policies.md)
-
+To activate rules for auto-applying policies, please make sure you have already set up your policies under the policies section. [Follow this article for more information. ](../automated-workflows/set-up-policies.md)
 {% endhint %}
 
+## Default Rule
+
+**When you acquire Syskit Point, a default rule is created that applies default policies to all workspaces in your environment - Minimum 2 Owners (Default Policy), Maximum 5 Owners (Default Policy), and Orphaned Workspaces (Default Policy)**; these policies serve to give you an overview of workspaces that are potentially not configured according to best practices; 
+* Default policies are configured as **detection-only policies**, meaning that **Syskit Point will not create tasks or send emails**.
+* If you already applied Policies to your workspaces, **the default rule is configured to have the lowest priority, meaning that all additional rules that you create will have precedence**.
+* **The default rule is hidden from settings an cannot be modified or deleted**.
 
 ## Create Rules
 
@@ -38,7 +42,7 @@ To create the rule, fill out the following information, as requested on the pop-
 
 * Under the General section, fill out the following:
   * **Rule Name (1)** - in this space, you can write your desired rule name
-  * **Description (2)** - this space can be used to describe the rule which you want to create
+  * **Description (2)** - use it to describe the rule which you want to create
 * Under the **Priority section (3)**, set your desired level of priority for this rule by **selecting a number (4)** from the drop-down menu
   * Priority will be **set as 1 by default** and is the number that signifies the highest priority, with the number furthest from 1 signifying the lowest priority level
   * This change also affects priorities on previously defined rules
