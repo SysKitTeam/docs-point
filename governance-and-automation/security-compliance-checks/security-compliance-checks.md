@@ -11,7 +11,7 @@ Collecting all the important info about the security and compliance state of you
 When you acquire SysKit Point, a **[default rule](../../governance-and-automation/automated-workflows/policy-automation.md#default-rule) will automatically apply default governance policies to your workspaces**. 
   * **The default policies are configured to detect vulnerabilities without sending any emails or creating any tasks**.
   * **All vulnerabilites detected by Syskit Point are displayed on the Security & Compliance Dashboard**
-  * **Both the vulnerabilities detected by default policies, as well as policies created by Syskit Point admins are displayed on the Security & Compliance Dashboard**
+  * **Both the vulnerabilities detected by default policies, as well as the policies created by Syskit Point admins are displayed on the Security & Compliance Dashboard**
 
 ## Security & Compliance Dashboard
 On the home Dashboard, you can click and drill down to a specific report to investigate further by **clicking the View All button**.

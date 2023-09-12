@@ -82,7 +82,7 @@ Take a look at the articles below to learn how to set up each governance policy:
 * [**Inactive Guest Users**](inactive-guest-users-admin.md) - **detects when a guest user is inactive** for a period of time and helps you remove access in a timely and efficient manner
 * [**Blocked Users with Assigned Licenses**](blocked-users-with-licenses-admin.md) - **detects blocked users in your tenant that still have licenses assigned**, which helps you optimize cost
 * [**Orphaned Users**](orphaned-users-admin.md) - **detects users that are blocked from signing in or deleted** but still have access to SharePoint content
-* [**Access Request**](../access-requests/README.md) - provides end-users the **ability to request access to existing Microsoft Teams & Groups, sites, distribution lists, and security groups in the Microsoft 365 environment**; Syskit Point administrators can define workspaces visible to end-users and who is resonsible for the approval of access requests
+* [**Access Request**](../access-requests/README.md) - provides end-users with the **ability to request access to existing Microsoft Teams & Groups, sites, distribution lists, and security groups in the Microsoft 365 environment**; Syskit Point administrators can define workspaces visible to end-users and who is resonsible for the approval of access requests
 * [**Access Review**](../permissions-review/README.md) - enables Syskit Point admins to enforce regular Access reviews for workspace owners on their workspaces
 
 By clicking on the names of each policy, you can **find an article with information on enabling and managing** all mentioned policy types. 
