@@ -35,7 +35,7 @@ Along with the e-mail, **Syskit Point creates a policy violation task** that pro
 The following is available on the task screen:
 * **List of current owners (1)**
 * **Search (2)**, which can help you to find existing members
-* **Activity Timeline (3)** showing all steps in the automated workflow
+* **Activity Timeline (3)** showing all steps in th workflow
 * **Promote to Owner action (4)**; once clicked, an **appropriate message appears next to the promoted user along with the Undo action (5)**
 * **Add New Owner action (6)**; to add a new owner, **start typing the user's name in the input field**; once you select a user, **confirm your addition by clicking the Add New Owner link**; once clicked, an **appropriate message is displayed for the user, along with the Undo action (7)**
 * **Ignore Policy button (8)** that enables you to disregard the company policy in case there is a valid reason to do so
@@ -58,7 +58,7 @@ The following is available on the task screen:
 **After you resolve the policy violation, an e-mail is also sent to owners**, showing the following information:
 * **Microsoft Teams or Microsoft 365 Group where an owner resolved the policy violation (1)**
 * **Who and when (2) resolved the policy violation**
-* **View Details button (3)** that **opens the History screen** in Syskit Point, showing all the activities that were performed within the automated workflow
+* **View Details button (3)** that **opens the History screen** in Syskit Point, showing all the activities that were performed within the workflow
 
 ![Policy Violation Resolved - E-mail](../../.gitbook/assets/minimum_number_of_owners-resolved_email.png)
 

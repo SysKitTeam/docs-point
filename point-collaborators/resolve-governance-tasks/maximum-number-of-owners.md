@@ -34,7 +34,7 @@ You can find the following information in the e-mail:
 Along with the e-mail, Syskit Point creates a policy violation task that provides you with all information and actions needed to resolve the policy violation. 
 The following is available on the task screen:
 * **Search (1)**, which can help you to find existing owners
-* **Activity Timeline (2)** showing all steps in the automated workflow
+* **Activity Timeline (2)** showing all steps in the process - from detectin to resolving
 * **List of all owners who got the policy violation task (3)** 
 * **Change to Member action (4)**; once clicked, an appropriate **message appears next to the former owner along with the Undo action (5)** 
 * **Let other owners decide button (6)**, which will **result in you staying an owner and completing your policy violation task** while **leaving the task for other owners** to decide whether they want to renounce their ownership or change other owners to members
@@ -57,6 +57,6 @@ The following is available on the task screen:
 **After you resolve the policy violation, a confirmation e-mail is also sent to owners**, showing the following information:
 * **Microsoft Teams or Microsoft 365 Group where an owner resolved the policy violation (1)**
 * **Who and when (2) resolved the policy violation**
-* **View Details button (3)** that **opens the History screen** in Syskit Point, showing all the activities that were performed within the automated workflow
+* **View Details button (3)** that **opens the History screen** in Syskit Point, showing all the activities that were performed within the workflow
 
 ![Policy Violation Resolved - E-mail](../../.gitbook/assets/maximum_number_of_owners-resolved_email.png)
