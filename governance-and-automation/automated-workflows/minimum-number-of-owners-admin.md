@@ -1,10 +1,10 @@
 ---
-description: This article explains how set up the Minimum Number of Owners policy for Automated Workflows in Syskit Point.
+description: This article explains how set up the Minimum Number of Owners policy in Syskit Point.
 ---
 
 # Minimum Number of Owners
 
-A predefined policy - **Minimum 2 Owners** - is located on the Automated Workflows screen. 
+A predefined policy - **Minimum 2 Owners** - is located on the Policies screen. 
 Click the **Edit (1)** icon to view all defined options for the policy. 
 
 ![Minimum Number of Owners - Edit Policy](../../.gitbook/assets/set_up_automated_workflows-min_owners_edit.png)

@@ -1,10 +1,10 @@
 ---
-description: This article explains how to set up the Orphaned Workspaces policy for Automated Workflows in Syskit Point.
+description: This article explains how to set up the Orphaned Workspaces policy in Syskit Point.
 ---
 
 # Orphaned Workspaces
 
-A predefined policy - **Orphaned Workspaces** - can be found on the Automated Workflows screen. 
+A predefined policy - **Orphaned Workspaces** - can be found on the Policies screen. 
 
 Click the **Edit (1)** icon to view all defined options for the policy. 
 
