@@ -5,6 +5,15 @@ description: This article provides information on the Workspaces with Not Enough
 
 # Workspaces with Not Enough Owners
 
+Syskit Point detects workspaces that don't have enough owners predefined by your organization's policies which can make your workspaces less secure. 
+
+The Minimum Number of Owners policy can be automated and when automation is enabled, Syskit Point creates tasks and sends emails to users as defined in the policy settings. To learn more take a look at the [Minimum Number of Owners policy article](../../governance-and-automation/automated-workflows/minimum-number-of-owners-admin.md). 
+
+When the policy **isn't automated**, Workspaces with Not Enough Owners **is still detected** for the Security and Compliance checks. **This means that Syskit Point detects a vulnerability on a workspace** based on the applied policy, but it does not create tasks or send any emails to workspace owners. 
+
+The purpose of this is to assist Syskit Point admins by
+bringing awareness of potential issues in their Microsoft 365 environment. 
+
 On the Security & Compliance Checks section dashboard, click the **Workspaces with not enough owners** button to see the report.
 
 The Workspaces with Not Enough Owners screen opens, showing a list of all **workspaces with not enough owners assigned** to them.

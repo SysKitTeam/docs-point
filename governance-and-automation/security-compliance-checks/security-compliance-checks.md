@@ -6,7 +6,15 @@ description: This article provides information on the Security and Compliance ch
 
 The **Security and Compliance Checks**, visible directly on your Syskit Point home screen, pinpoint the **most important vulnerabilities and misalignments** with Microsoft 365 best practices. These checks keep you aware and help you **react quickly to keep your environment secure and under control**.
 
-Collecting all the important info about the security and compliance state of your environment is a time-consuming and repetitive administration task. **Syskit Point performs regular security and compliance checks** for you and **presents the results directly on your home screen**. 
+Collecting all the important info about the security and compliance state of your environment is a time-consuming and repetitive administration task. **Syskit Point performs regular security and compliance checks** for you and **presents the results directly on your home screen**.
+
+{% hint style="information" %}
+**Please note:** The Security and Compliance checks **email is sent to Syskit Point admins weekly**, on Wednesdays. 
+  * If there are no vulnerabilities in your environment, there is no email sent. 
+  * If Wednesday is less than 2 days from your installation date, the email will be sent next week. 
+
+{% endhint %}
+
 
 When you acquire SysKit Point, a **[default rule](../../governance-and-automation/automated-workflows/policy-automation.md#default-rule) will automatically apply default governance policies to your workspaces**. 
   * **The default policies are configured to detect vulnerabilities without sending any emails or creating any tasks**.

@@ -5,6 +5,15 @@ description: This article provides information on the Blocked Users with Assigne
 
 # Blocked Users with Assigned Licenses
 
+Syskit Point detects licenses that are assigned to blocked users. This helps you optimize cost by removing the unused licenses from the user and assigning them to active users. 
+
+The Blocked Users with Assigned Licenses is **a tenant-wide policy, and it cannot be automated**. That means that no tasks are created to resolve this policy, and no emails are sent to collaborators.
+
+The Blocked Users with Assigned Licenses policy **is still detected** for the Security and Compliance checks. **This means that Syskit Point detects a vulnerability on a workspace** based on the applied policy, but it does not create tasks or send any emails to collaborators. 
+
+The purpose of this is to assist Syskit Point admins by
+bringing awareness of potential issues in their Microsoft 365 environment. 
+
 On the Security & Compliance Checks section dashboard, click the **Blocked users with assigned licenses** button to see the report.
 
 The Blocked Users with Assigned Licenses screen opens, showing a list of all **blocked users that still have licenses assigned** to them.

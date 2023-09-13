@@ -5,6 +5,15 @@ description: This article provides information on the Inactive Guest Users repor
 
 # Inactive Guest Users
 
+Syskit Point periodically schedules a review of guest users based on your organization's policies, where you can choose to disable, delete, or perform no action with the guest user. This keeps your workspaces safe and prevents unauthorized access. 
+
+The Inactive Guest Users policy can be automated, and when automation is enabled, Syskit Point creates tasks and sends emails to users as defined in the policy settings. To learn more, take a look at the [Inactive Guest Users policy article](../../governance-and-automation/automated-workflows/inactive-guest-users-admin.md). 
+
+If the **policy isn't automated**, the Inactive Guest Users policy **is still detected** for the Security and Compliance checks. **This means that Syskit Point detects a vulnerability on a workspace** based on the applied policy, but it does not create tasks or send any emails to workspace owners. 
+
+The purpose of this is to assist Syskit Point admins by
+bringing awareness of potential issues in their Microsoft 365 environment. 
+
 On the Security & Compliance Checks section dashboard, click the **Inactive Guest Users** button to see the report.
 
 The Inactive Guest Users screen opens, showing a list of all **users that have not been active for a significant period of time**.

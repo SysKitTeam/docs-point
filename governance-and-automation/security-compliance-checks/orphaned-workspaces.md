@@ -5,9 +5,14 @@ description: This article provides information on the Orphaned Workspaces report
 
 # Orphaned Workspaces
 
-{% hint style="hint" %}
-The Orphaned Workspaces policy can either be automated or detected depending on whether policy automation was enabled.
-{% endhint %}
+Syskit Point detects workspaces that don't have active owners, which helps you ensure there is always someone responsible for access and content management for your workspaces. 
+
+The Orphaned Workspaces policy can be automated, and when automation is enabled, Syskit Point creates tasks and sends emails to users as defined in the policy settings. To learn more, take a look at the [Orphaned Workspaces policy article](../../governance-and-automation/automated-workflows/orphaned-resources-admin.md). 
+
+When the Orphaned Workspaces policy **isn't automated**, it **is still detected** for the Security and Compliance checks**. **This means that Syskit Point detects a vulnerability on a workspace** based on the applied policy, but it does not create tasks or send any emails to workspace owners. 
+
+The purpose of this is to assist Syskit Point admins by
+bringing awareness of potential issues in their Microsoft 365 environment. 
 
 On the Security & Compliance Checks section dashboard, click the **Orphaned Workspaces** button to see the report.
 
