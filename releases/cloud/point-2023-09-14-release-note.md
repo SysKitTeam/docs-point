@@ -25,7 +25,7 @@ description: >-
 * **Fixed a bug** with the filter tiles on the Sites screen. When drilled from the Home dashboard, only the selected workspace type count would show, while others would falsely display 0. 
 * **Fixed an issue** with the Inactive Guest Users policy settings. When the automation was enabled, no settings were displayed for the reminder email and the allowed Syskit Point action in case there was no response.
 * **Fixed a bug** where a deprecated toggle was displayed for the Inactive Guest Users policy dialog. 
-All tenant-wide policies, including the Inactive Guest Users policy have the detection enabled, which cannot be turned off.
+All tenant-wide policies, including the Inactive Guest Users policy, have the detection enabled, which cannot be turned off.
 In that case, Syskit Point admins can see detected vulnerabilities on the home dashboard and the Security & Compliance dashboard, but Syskit Point doesn't create tasks or send any emails.
 * **Fixed an issue** where clicking the View History link on a specific Security & Compliance check report would open a list of all checks instead of the History screen for a specific check.
 * **Fixed** the tooltip for the Assigned to column visible on Security & Compliance reports for policies with enabled automation. The tooltip was partially displayed, thus not showing the complete list of users to whom the task was assigned.
