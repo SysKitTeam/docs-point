@@ -9,7 +9,7 @@ Syskit Point detects users that have been disabled or deleted in Azure AD, but s
 
 The Orphaned Users policy is **a tenant-wide policy, and it cannot be automated**. That means that no tasks are created to resolve this policy violation, and no emails are sent to collaborators.
 
-The Orphaned Users **are still detected** and shown on the Security and Compliance dashboard. **This means that Syskit Point detects a vulnerability on a workspace** based on the applied policy, but it does not create tasks or send any emails to collaborators. 
+The orphaned users **are still detected** and shown on the Security and Compliance dashboard. **This means that Syskit Point detects a vulnerability on a workspace** based on the applied policy, but it does not create tasks or send any emails to collaborators. 
 
 The purpose of this is to assist Syskit Point admins by
 bringing awareness of potential issues in their Microsoft 365 environment. 

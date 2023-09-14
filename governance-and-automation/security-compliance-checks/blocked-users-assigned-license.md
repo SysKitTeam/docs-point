@@ -9,7 +9,7 @@ Syskit Point detects blocked users with assigned licenses based on the settings 
 
 The Blocked Users with Assigned Licenses is **a tenant-wide policy, and it cannot be automated**. That means that no tasks are created to resolve this policy, and no emails are sent to collaborators.
 
-The Blocked Users with Assigned Licenses **are still detected** as a part of the Security and Compliance checks feature. **This means that Syskit Point detects a vulnerability on a workspace** based on the applied policy, but it does not create tasks or send any emails to collaborators. 
+The blocked users with assigned licenses **are still detected** as a part of the Security and Compliance checks feature. **This means that Syskit Point detects a vulnerability on a workspace** based on the applied policy, but it does not create tasks or send any emails to collaborators. 
 
 The purpose of this is to assist Syskit Point admins by
 bringing awareness of potential issues in their Microsoft 365 environment. 

@@ -9,7 +9,7 @@ Syskit Point detects inactive Guest users based on the settings defined in the t
 
 The Inactive Guest Users policy can be automated, and when automation is enabled, Syskit Point creates tasks and sends emails to users as defined in the policy settings. To learn more, take a look at the [Inactive Guest Users policy article](../../governance-and-automation/automated-workflows/inactive-guest-users-admin.md). 
 
-By default, the automation is turned off for this policy, but the Inactive Guest Users are **is still detected**. **This means that Syskit Point detects a vulnerability on a workspace** based on the applied policy, but it does not create tasks or send any emails to workspace owners. 
+By default, the automation is turned off for this policy, but the inactive guest users **are still detected**. **This means that Syskit Point detects a vulnerability on a workspace** based on the applied policy, but it does not create tasks or send any emails to workspace owners. 
 
 The purpose of this is to assist Syskit Point admins by
 bringing awareness of potential issues in their Microsoft 365 environment. 
