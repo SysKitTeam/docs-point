@@ -97,7 +97,7 @@ Here, you can:
 * **Create a new policy (1)**
 * **Manage and apply policies to Microsoft Teams, Microsoft 365 Groups, OneDrive, and sites (2)**
 * **View all predefined policies by name (3)**; Syskit Point comes with multiple predefined policies to help you get started
-* **View additional information about each policy**; the following information is available **policy type (4)**, **severity of policy(5)**, **category policy fits under (6), **to how many resources a policy is applied (7)**, and **whether the policy is automated or not (8)**
+* **View additional information about each policy**; the following information is available **policy type (4)**, **severity of policy(5)**, **category policy fits under (6)**, **to how many resources a policy is applied (7)**, and **whether the policy is automated or not (8)**
 * **Manage policies (9)**; **Edit** and **Delete** actions are provided for each policy, **except for those applied tenant-wide and the default policies used by the default rule**
 
 ![Policy Settings](../../.gitbook/assets/set-up-policies_settings.png)
