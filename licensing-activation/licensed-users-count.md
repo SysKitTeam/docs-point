@@ -90,9 +90,11 @@ If you have Inactive Users, you can remove their license through Syskit Point th
 
 {% hint style="information" %}
 
-**Please note** that licenses cannot be removed from users when the license is assigned through a Microsoft group. If the license is assigned automatically once a user is given access to a specific group, the license cannot be removed while the user is a member of the group.
+**Please note** that is the license is assigned automatically to the user once he is added as a member of a specific group, it cannot be manually removed. The license will be removed automatically once the user is removed from being a member of the group. [For more information on removing users from workspaces, take a look at this article](../point-collaborators/manage-workspaces/manage-workspaces.md#remove-access).
 
 {% endhint %}
+
+#remove-access
 
 ## List of Free Licenses
 
