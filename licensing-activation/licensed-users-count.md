@@ -7,7 +7,7 @@ description: This article explains how Syskit Point licensing depends on the Mic
 The licensing of the Syskit Point subscription **depends on the number of licensed users within the Microsoft 365 tenant connected to Syskit Point**.
 
 **Licensed Users are all users and resources with any type of paid Microsoft 365 license attached to them**.
- * **Licenses that are listed as free do not count** toward calculating the costs of your Syskit Point subscription.
+ * **Licenses that are listed as free by Microsoft do not count** toward calculating the costs of your Syskit Point subscription
  * Resources include any **meeting rooms, service accounts**, and others with licenses.
  * Only **unique Licensed Users or Guest Users and resources will be counted**, regardless of how many licenses the unique User has assigned to them. 
  * **Guest Users** only fit into that category **if they have a paid license assigned**. 
@@ -19,14 +19,14 @@ Free Microsoft licenses assigned - for example, Microsoft Flow Free - are also c
 {% endhint %}
 
 The number of licensed Users within Syskit Point can be found by going to **Settings (1) > General (2) > Point License (3) > Number of Users M/N (4)**.
-* You can also see a report with all your licenses by clicking the **View Point Licenses button (5)**. 
+* You can also see a report with all your assigned paid licenses by clicking the **View Point Licenses button (5)**. 
 
 ![Number of Licensed Users](../.gitbook/assets/activation-licensed-users-point.png)
 
  * **M** is the **number of licensed users in the tenant** 
  * **N** is the **number of Paid users that are included in the Syskit Point license**
 
-**Clicking the View Point Licenses button** opens the Point Licenses report screen with a list of all licenses that are assigned to users in Syskit Point. 
+**Clicking the View Point Licenses button** opens the Point Licenses report screen with a list of all paid licenses that are assigned to users in Syskit Point. 
 
 On that screen, you will find the following information:
   * **Display Name (1)** of the user
@@ -38,7 +38,7 @@ You can also use the **column chooser (5)** to add additional columns to the rep
 
 ![View Point Licenses - Report](../.gitbook/assets/activation-licensed-users_licenses-report.png)
 
-**The exact number and type of licenses** that are counted toward your Syskit Point subscription can be found on the **Licensed Users screen**. 
+**The exact number and type of licenses** that are assigned to users in Syskit Point can be found on the **Licensed Users screen**. 
 * Click **Users (1)** on the left side of the Home page
 * Select **Licensed Users (2)** from the drop-down menu or tile
 * **Browse (3)** by type of license assigned to users under the Licenses section
@@ -86,6 +86,13 @@ If you have Inactive Users, you can remove their license through Syskit Point th
     * **Type REMOVE and click the Remove button to proceed**. 
 
 ![Removing Licenses](../.gitbook/assets/activation-licensed-users-count_inactive-remove.png)
+
+
+{% hint style="information" %}
+
+**Please note** that licenses cannot be removed from users when the license is assigned through a Microsoft group. If the license is assigned automatically once a user is given access to a specific group, the license cannot be removed while the user is a member of the group.
+
+{% endhint %}
 
 ## List of Free Licenses
 
