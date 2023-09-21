@@ -71,7 +71,7 @@ Once the report is successfully generated, the following data will be displayed 
 
 * **Name**; the name of the resource that is orphaned.
 * **Blocked Admins**; shows the orphaned user who was the resource owner.
-* **Users**; shows the current number of members in the orphaned resource.
+* **Users**; shows the current number of members in the orphaned workspace.
 
 There are also additional columns in the column chooser:
 
