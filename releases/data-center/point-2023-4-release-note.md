@@ -9,7 +9,7 @@ description: >-
 
 **Product version:** 2023.4
 
-**Build number:** 1XX
+**Build number:** 125
 
 **Release date:** September 25, 2023
 
