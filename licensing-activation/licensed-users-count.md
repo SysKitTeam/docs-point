@@ -13,11 +13,6 @@ The licensing of the Syskit Point subscription **depends on the number of licens
  * **Guest Users** only fit into that category **if they have a paid license assigned**. 
    * Having a license assigned to Guest Users is unnecessary for rudimentary use cases such as sharing content and using the Microsoft Teams app.
 
-{% hint style="warning" %}
-**Please note!**  
-Free Microsoft licenses assigned - for example, Microsoft Flow Free - are also counted when calculating licensed users in Syskit Point.
-{% endhint %}
-
 The number of licensed Users within Syskit Point can be found by going to **Settings (1) > General (2) > Point License (3) > Number of Users M/N (4)**.
 * You can also see a report with all your assigned paid licenses by clicking the **View Point Licenses button (5)**. 
 
@@ -65,11 +60,6 @@ For example, if one User has three licenses, the charge would still be for that 
 
 ![Unassign Microsoft 365 Licenses](../.gitbook/assets/licensed-users-count_microsoft-license-unassign.png)
 
-{% hint style="warning" %}
-**Please note!**  
-Syskit Point **does** count the free Microsoft 365 licenses while calculating the cost.  
-{% endhint %}
-
 ## License Cleanup
 
 If you have Inactive Users, you can remove their license through Syskit Point through the following steps:
@@ -93,8 +83,6 @@ If you have Inactive Users, you can remove their license through Syskit Point th
 **Please note** that if the license is assigned automatically to the user once he is added as a member of a specific group, **it cannot be manually removed**. The license is removed automatically once the user is removed from being a member of the group. [For more information on removing users from workspaces, take a look at this article](../point-collaborators/manage-workspaces/manage-workspaces.md#remove-access).
 
 {% endhint %}
-
-#remove-access
 
 ## List of Free Licenses
 
