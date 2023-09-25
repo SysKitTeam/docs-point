@@ -75,6 +75,10 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 ## Improvements & Bug Fixes
 
+* **Fixed a bug** where the Copy User Permissions action would erroneously copy permission of the source user to all existing team members on private channels where the source user had permissions. The issue manifested if:
+  * **Copy memberships in Microsoft Teams private channels option was enabled** when performing the action. 
+  * **The selected destination user was recently added to the tenant and not synced in Syskit Point**.
+SharePoint sites and Team memberships were not affected by this issue.
 * **Group Access report was optimized**. It now better handles special groups - Everyone and Everyone except external users - and thus loads the selection step faster.
 * **Improved the sensitivity label dropdown** used when creating a provisioning template. In some cases, the dropdown would show the sensitivity label GUID instead of a friendly name. Instead of the name property, Syskit Point now shows the display name.
 * **Fixed an issue** where owners would get an empty screen with infinite loading animation instead of an appropriate message in case they opened a link to a workspace to which they don't have access. Now, the Access Denied message is displayed.
