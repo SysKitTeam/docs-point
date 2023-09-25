@@ -6,7 +6,7 @@ description: This article outlines the most frequently asked questions about Sys
 
 ## How is Syskit Point licensed?
 
-Syskit point price is calculated based on the number of licensed Microsoft 365 users in your tenant. You can choose between predefined editions according to your needs. Check out the [feature comparison](https://www.syskit.com/products/point/pricing/).
+The price for Syskit Point is calculated based on the number of licensed Microsoft 365 users in your tenant. Syskit Point does not count any licenses that have FREE in their name when determining price. You can choose between available Syskit Point plans according to your needs. Check out the [feature comparison](https://www.syskit.com/products/point/pricing/).
 
 ## Can I try Syskit Point for free?
 
@@ -18,7 +18,7 @@ To change the edition, please visit our Subscriptions portal [https://subscripti
 
 ## What does Syskit consider as a licensed Microsoft 365 user?
 
-Syskit Point licenses are calculated based on your M365 assigned licenses. Only unique users and resources will be counted. Guest Users only fit into that category if they have a license assigned. [Read more details here](../licensing-activation/licensed-users-count.md).
+Syskit Point licenses are calculated based on your M365 assigned licenses. Only unique users and resources will be counted. Guest Users only fit into that category if they have a license assigned. Licenses that have FREE in their name are not counted when calculating cost. [Read more details here](../licensing-activation/licensed-users-count.md).
 
 ## What will my Syskit Point subscription cost?
 
