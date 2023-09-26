@@ -46,7 +46,7 @@ Under **Billing (1)**, select **Licenses (2)**. The list of **owned licenses (3)
  * The **Available Licenses (4)** section is the number of licenses that are still available to be assigned to users. 
  * The **Assigned Licenses (5)** section shows the number of assigned licenses compared to the available number. 
 
-![How to Check the Microsoft 365 Licenses](../.gitbook/assets/licensed-users-count_microsoft-licenses.png)
+![How to Check the Microsoft 365 Licenses](../.gitbook/assets/licensed-users-count-m365-licenses.png)
 
 Selecting each license allows you to **Assign** it to additional users or **Unassign** it from current ones. This can help with optimizing the cost of the Syskit Point subscription to suit your needs better.
 
@@ -58,7 +58,7 @@ Selecting each license allows you to **Assign** it to additional users or **Unas
 The pricing for Syskit Point is **calculated based on each User that has a license assigned to them**. 
 For example, if one User has three licenses, the charge would still be for that one User, regardless of the number of licenses assigned to them. 
 
-![Unassign Microsoft 365 Licenses](../.gitbook/assets/licensed-users-count_microsoft-license-unassign.png)
+![Unassign Microsoft 365 Licenses](../.gitbook/assets/licensed-users-count-unassign-m365-licenses.png)
 
 ## License Cleanup
 
