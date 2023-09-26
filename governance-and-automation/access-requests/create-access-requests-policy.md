@@ -13,11 +13,9 @@ Under Governance, select **Policies**.
 To create the Access Requests policy, complete the following steps:
  * **Click the Create New Policy (1) button** located on the left side under the Policies title.
    * A pop-up screen will appear, prompting you to select which policy to create.
-
-![Create New Policy](../../.gitbook/assets/create-access-request_new-policy.png)
-
 * **Select Access Requests(2)** from the available list of policies.
 
+![Create New Policy](../../.gitbook/assets/create-access-request_new-policy.png)
 ![Create Access Requests Policy](../../.gitbook/assets/create-access-request_new-policy-ar.png)
 
 Depending on the approval processes required for your workspaces, the following information needs to be specified:
@@ -35,10 +33,7 @@ Depending on the approval processes required for your workspaces, the following 
 
 * Alternatively, you can also create a new approval process if the above does not suit your workspaces' needs:
   * **Click Create New (1)**; located under the approval process dropdown menu
-
-![Access Requests Policy - Set Up](../../.gitbook/assets/create-access-request_create-new-approval.png)
-
-  * **Enter the name** (2) of your new approval process
+  * **Enter the name (2)** of your new approval process
   * Select between the **single or multiple-stage approval process (3)**:
     * 1-stage process
     * 2-stage process
@@ -51,6 +46,7 @@ Depending on the approval processes required for your workspaces, the following 
       * **Custom Recipients**; for this option, you will need to enter the desired recipients' details in the section below
       * **Click Confirm (5)** once finished
 
+![Access Requests Policy - Set Up](../../.gitbook/assets/create-access-request_create-new-approval.png)
 ![Access Requests Policy - New Approval Process](../../.gitbook/assets/create-access-request_create-new-approval-final.png)
 
 * After setting the desired approval process, you need to **specify the level of access** (1); users can request to join as **Members, Owners**, or both. 
