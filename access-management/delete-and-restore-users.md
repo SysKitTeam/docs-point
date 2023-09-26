@@ -38,6 +38,7 @@ You can only delete users that exist in the **Azure Active Directory**. Some ext
 {% endhint %}
 
 ![Users overview screen - Delete User action](../.gitbook/assets/delete-restore-users_delete.png)
+
 ![Delete Users - Confirm action](../.gitbook/assets/delete-restore-users_delete-confirm.png)
 
 ## Running the Restore User Action

@@ -58,6 +58,7 @@ If you want to remove an Access Requests Policy that has been applied to multipl
   * **Click Save (3)** when done; this will remove the Access Requests policy applied to the selected workspaces
 
 ![Remove Access Requests Policy - Multiple](../../.gitbook/assets/apply-access-request_remove-policy-multi.png)
+
 ![Remove Access Requests Policy - Multiple](../../.gitbook/assets/apply-access-request_remove-policy-multi-fin.png)
 
 

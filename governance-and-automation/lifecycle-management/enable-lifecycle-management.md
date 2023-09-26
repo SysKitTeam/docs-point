@@ -30,15 +30,9 @@ The screen shows **additional actions** required before enabling the Lifecycle M
 Use the following links and learn how to [set up e-mail](../../configuration/set-up-email.md) and enable [Syskit Point Collaborators](../../configuration/enable-role-based-access.md#syskit-point-collaborators-1).
 {% endhint %}
 
-Once all requirements are met, on the Lifecycle Management settings screen, you can:
-* **See the 2 main groups (accordions)** named **General** and **Automation**
-* **Click the Automation accordion \(1\)** to access  **Lifecycle Management Automation** settings
-
-![Lifecycle Management - Accordions](../../.gitbook/assets/enable-lifecycle-management_automation-disabled.png)
-
-To enable Lifecycle Management automation:
-* **Check the Enable Lifecycle Management Automation (1)** option
-* **Click Save** at the bottom of the screen
+Once all requirements are met, you can enable Lifecycle Management automation by completing the following:
+* **Click the checkbox to Enable Lifecycle Management Automation (1)** under the Automation option
+* **Click Save (2)** at the bottom of the screen
 
 ![Lifecycle Management - Enable Automation](../../.gitbook/assets/enable-lifecycle-management_enable-automation.png)
 
@@ -67,7 +61,8 @@ The **Archive** action has additional options available:
         * **Choose who will be set as an owner (3) on archived workspaces**
 * **Use Prefix (4)**
 * **Use Suffix (5)**
-* **Check the Example (6)** to preview workspace name after archival
+* **Check the Example (6)** to preview workspace name after archiving it
+* **Click the Save button (7)** to store your preferences
 
 ![Lifecycle Management - Archive Options](../../.gitbook/assets/enable-lifecycle-management_archive-options.png)
 

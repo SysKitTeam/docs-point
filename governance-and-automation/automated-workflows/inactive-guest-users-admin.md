@@ -25,6 +25,7 @@ The **Edit Policy** dialog opens where you can:
 * **Enable Syskit Point to send a reminder three workdays before the due date (8)**; this option is enabled by default
 
 ![Edit Policy Dialog](../../.gitbook/assets/set_up_automated_workflows-guest_users_edit_dialog.png)
+
 ![Edit Policy Dialog](../../.gitbook/assets/set_up_automated_workflows-guest_users_edit_dialog-2.png)
 
 Click **Save** once you are done with the policy configuration.  

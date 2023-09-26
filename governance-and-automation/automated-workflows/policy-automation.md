@@ -68,6 +68,7 @@ To create the rule, fill out the following information, as requested on the pop-
 The rule is enabled once you've created it and will start applying defined policies for the workspaces that meet the defined conditions. 
 
 ![Policy Automation - New Rule - Select Policy](../../.gitbook/assets/policy-automation_new-policy-third.png)
+
 ![Policy Automation - New Rule - Apply Policy](../../.gitbook/assets/policy-automation_new-policy-fourth.png)
 
 
