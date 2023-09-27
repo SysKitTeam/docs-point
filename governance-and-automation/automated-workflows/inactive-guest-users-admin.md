@@ -22,6 +22,7 @@ The **Edit Policy** dialog opens where you can:
 * Click **Save (8)** once you are done with the policy configuration.   
 
 ![Edit Policy Dialog](../../.gitbook/assets/set_up_automated_workflows-guest_users_edit_dialog.png)
+
 Based on your configuration, **Syskit Point will start the automated workflow when an inactive Guest User is detected**. 
 
 {% hint style="warning" %}
