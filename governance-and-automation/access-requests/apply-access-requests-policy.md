@@ -38,7 +38,7 @@ If you want to remove an Access Requests Policy that has been applied to a works
   * Under the Access Requests section, **click the Remove button (1)**; located under the drop-down menu for the specific policy
   * **Click Save (2)** to apply the change
 
- ![Remove Access Requests Policy - Single](../../.gitbook/assets/apply-access-request_remove-policy.png)
+ ![Remove Access Requests Policy - Single](../../.gitbook/assets/apply-access-requests-policy-remove-policy.png)
 
 This will remove the Access Requests policy that was assigned.
 
