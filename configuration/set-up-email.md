@@ -48,11 +48,11 @@ The Exchange Online method enables you to use an existing Exchange account in yo
 * **choose whether to save e-mails sent by Syskit Point to the Sent items folder (2)**; by default, this option is turned on, meaning that all e-mails sent from Syskit Point will be stored in the **Sent** mailbox folder of the entered Exchange account
 * **Send a test e-mail (3)** to check if the entered e-mail address is working properly
 
-![Exchange Online e-mail Settings screen](../.gitbook/assets/enable-permissions-review\_exchange-online-settings.png)
+![Exchange Online e-mail Settings screen](../.gitbook/assets/enable-permissions-review_exchange-online-settings.png)
 
 After you click the **Send test e-mail** button, the **Sent test e-mail** dialog opens. Here, **enter the e-mail address to which you want to send** the test e-mail. After a moment, you should receive an e-mail like the one pictured below.
 
-![Test e-mail](<../.gitbook/assets/enable-permissions-review\_test-email (1) (2) (2) (3) (4) (4) (4) (6) (8) (2) (1).png>)
+![Test e-mail](../.gitbook/assets/set-up-email-test-email.png)
 
 Click the **Save** button to store your e-mail settings.
 
@@ -67,7 +67,7 @@ Select the **SMTP method** if you are using an **SMTP** server in your environme
 
     You can also choose whether to **Use Encrypted Connection (SSL)**.
 
-![SMTP e-mail Settings screen](../.gitbook/assets/enable-permissions-review\_smtp-settings.png)
+![SMTP e-mail Settings screen](../.gitbook/assets/enable-permissions-review_smtp-settings.png)
 
 You can check if the entered data is correct by **sending a test e-mail**.
 
