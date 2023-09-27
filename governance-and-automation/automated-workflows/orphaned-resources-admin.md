@@ -22,6 +22,7 @@ The **Edit Policy** dialog opens where you can:
  * Click **Save (5)** once you are done with the policy configuration 
 
 ![Edit Policy Dialog](../../.gitbook/assets/set_up_automated_workflows-orphaned_dialog.png)
+
 ![Edit Policy Dialog](../../.gitbook/assets/set_up_automated_workflows-orphaned_dialog-automation.png)
 
 

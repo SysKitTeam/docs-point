@@ -61,13 +61,13 @@ There is also a separate **Inactive Sites view \(1\)** available, accessed from 
 
 ### Microsoft Teams & Groups Overview Screen
 
-The **Microsoft Teams & Groups Overview screen** has a similar representation of Microsoft Teams and Microsoft 365 Groups' workload activity as the Sites Overview screen. The **Activity column is**, **by default**, **shown** as the last column in the grid. The same rules of displaying the activity data are applied here, as explained for the Sites Overview screen. Additionally, here you can find a separate **Inactive** tile above the grid. By clicking the tile, the **Inactive Groups** view is shown.
+The **Microsoft Teams & Groups Overview screen** has a similar representation of Microsoft Teams and Microsoft 365 Groups' workload activity as the Sites Overview screen. The **Activity column is**, **by default**, **shown** as the last column in the grid. The same rules of displaying the activity data are applied here, as explained for the Sites Overview screen. Additionally, here you can find a separate **Inactive** tile above the grid. By clicking the tile, the **Inactive Groups (1)** view is shown.
 
 ![Inactive Content tile](../../.gitbook/assets/inactive-content_inactive-content-tile.png)
 
 ### Details Screen
 
-You can **access** **Details** **screens** for Sites, Microsoft 365 Groups, and Microsoft Teams by **clicking the link in the Name column** on **Overview** screens. The activity information inside the Details screens is shown in the **Analytics and Usage** tile. Hover over the **blue info icon** to see for which workloads are the activities tracked.
+You can **access** **Details** **screens** for Sites, Microsoft 365 Groups, and Microsoft Teams by **clicking the link in the Name column** on **Overview** screens. The activity information inside the Details screens is shown in the **Analytics and Usage** tile. Hover over the **blue info icon (1)** to see for which workloads are the activities tracked.
 
 ![Details screen - Analytics and Usage tile - Activity section](../../.gitbook/assets/inactive-content_analytics-and-usage-tile-activity-section.png)
 
@@ -82,11 +82,11 @@ The easiest way to **find all inactive content** is by using the **Inactive Cont
 
 ![Inactive Content report - Options screen](../../.gitbook/assets/inactive-content_inactive-content-report-options-screen.png)
 
-Click the **Run Report** button to generate the Inactive Content report. There are four columns in the grid - the **Name** column, which you can **click to open the** **Details** **screen**, and **four activity columns** for **SharePoint**, **Exchange**, **Microsoft Teams**, and **Yammer**. Two additional columns, **Type** and **Owner\(s\)**, can be added from the **Column Chooser**.
+Click the **Run Report** button to generate the Inactive Content report. There are four columns in the grid - the **Name** column, which you can **click to open the** **Details screen**, and **four activity columns** for **SharePoint**, **Exchange**, **Microsoft Teams**, and **Yammer**. Additional columns, such as **Type** or **Owner\(s\)**, can be added from the **Column Chooser (1)**.
 
 ![Inactive Content report - Column Chooser](../../.gitbook/assets/inactive-content_inactive-content-report-column-chooser.png)
 
-Notice the **blue info icon** next to the Activity columns. **Hovering above the icons displays a tooltip** with information on how the last activity date was determined.
+Notice the **blue info icon (1)** next to the Activity columns. **Hovering above the icons displays a tooltip** with information on how the last activity date was determined.
 
 ![Inactive Content report - Activity column tooltip](../../.gitbook/assets/inactive-content_inactive-content-report-activity-tooltip.png)
 
