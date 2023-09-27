@@ -10,7 +10,7 @@ You can use Dashboard to:
 
 * **see what was happening in your Microsoft 365 environment** in the last 30 days at a glance  
 * **find summary data** on your resources, internal and external users, sharing links, and used storage - all numbers are drillable, taking you to the related reports, which will show more details 
-* **detect potential issues**, for example, if your environment has inactive or orphaned resources
+* **detect potential issues**, for example, if your environment has inactive or orphaned workspaces
 
 You can access the **Dashboard** screen from:
 
@@ -42,7 +42,7 @@ In Inventory, you can find the information about the total number of:
 * **Microsoft 365 Groups** 
 * **SharePoint sites** 
 * **OneDrive**
-* **Orphaned resources**
+* **Orphaned workspaces**
 * **Inactive resources**
 
 Each of these numbers is drillable, and, once clicked, opens the Sites Overview screen filtered to show appropriate data.
@@ -57,7 +57,7 @@ If you **hover over a bar**, which represents a newly added resource, a **toolti
 
 To see more details about all resources, click the **View All** link, which opens the **Sites Overview** screen.
 
-On the bottom, colored in red, you will find the number of **inactive** and **orphaned resources** if they are present in your environment.
+On the bottom, colored in red, you will find the number of **inactive** and **orphaned workspaces** if they are present in your environment.
 
 By **clicking the number** of the inactive resource, the **Inactive Content** report opens.
 
@@ -68,7 +68,7 @@ For more information about the Inactive Content report, click [here](../governan
 The number of inactive resources **will be visible 10 days after the first installation of Syskit Point.**
 {% endhint %}
 
-Similarly, **clicking the number** of orphaned resources will open the **Orphaned Resources** report in the **Report Center**.
+Similarly, **clicking the number** of orphaned workspaces will open the **Orphaned Workspaces** report in the **Report Center**.
 
 ## Users
 

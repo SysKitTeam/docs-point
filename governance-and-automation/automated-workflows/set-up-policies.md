@@ -15,21 +15,51 @@ To use the advantages of Policies in Syskit Point, you need to:
 * [set up e-mail settings](../../configuration/set-up-email.md)
 * [enable Syskit Point Collaborators role](../../configuration/enable-role-based-access.md)
 
-Additionally, you can also [set up policy automation](../../governance-and-automation/automated-workflows/policy-automation.md) to have policies automatically apply to current and all future workspaces without having to manually assign them. 
+Additionally, you can also [set up policy automation](../../governance-and-automation/automated-workflows/policy-automation.md) to have policies automatically applied to current and all future workspaces without having to assign them manually. 
 
 {% hint style="warning" %}
 **Please note!**
 Only users with the role of **Syskit Point Admin** assigned can access and configure Settings in Syskit Point.
 {% endhint %}
 
-## Syskit Point Policies
+## Detection vs Automation
 
-**Policies in Syskit Point consist of e-mails and tasks created when a policy violation is detected.**
-  * Policies in Syskit Point contain rules to follow when dealing with Microsoft Teams, Microsoft 365 Groups, and user access.
+### Detection
+Two modes of policy operation for Governance policies are available in Syskit Point: **Detection and Automation**. 
+
+There are **two detection-only policies** that are applied tenant-wide: 
+* [**Blocked Users with Assigned Licenses (Tenant-Wide)**](../../governance-and-automation/security-compliance-checks/blocked-users-assigned-license.md) 
+* [**Orphaned Users (Tenant-Wide)**](../../governance-and-automation/security-compliance-checks/orphaned-users.md)
+
+When it comes to detection-only policies, Syskit Point detects a vulnerability on a workspace based on the applied policy. 
+
+Syskit Point **does not create tasks or send any emails to workspace owners for policies that are configured to perform as detection-only**. However, the vulnerabilities are displayed on the new [Security & Compliance dashboard](../../governance-and-automation/security-compliance-checks/security-compliance-checks.md).
+
+The purpose of this is to assist Syskit Point admins by reminding them there are potential issues in their Microsoft 365 environment every time they open Syskit Point. 
+
+* **When you acquire Syskit Point, default policies are created - Minimum 2 Owners (Default Policy), Maximum 5 Owners (Default Policy), and Orphaned Workspaces (Default Policy) - and applied to all your workspace via a default rule**; these policies serve to give you an overview of workspaces that are potentially not configured according to best practices; no need to worry, though - default policies are configured as **detection-only policies**, meaning that **Syskit Point will not create tasks or send emails**.
+
+### Automation
+
+Automation can be enabled in policy settings for each policy listed below.
+There are currently **4 policies that can be automated**: 
+* [Inactive Guest Users (Tenant-Wide)](../../governance-and-automation/security-compliance-checks/inactive-guest-users.md)
+* [Maximum Number of Owners](../../governance-and-automation/security-compliance-checks/workspaces-too-many-owners.md)
+* [Minimum Number of Owners](../../governance-and-automation/security-compliance-checks/workspaces-not-enough-owners.md)
+* [Orphaned Workspaces](../../governance-and-automation/security-compliance-checks/orphaned-workspaces.md)
+
+**When automation is enabled, Syskit Point creates tasks and sends emails to users as defined in the policy settings**.
+
+* **Access Requests** and **Access Review** policies don't represent vulnerabilities and will not appear on the Security & Compliance dashboard; think of them as automation-only policies.
+* **When you acquire Syskit Point, default policies are created with automation disabled.** Edit the default policies settings to enable automation.
+
+## Syskit Point Policies
 
 Syskit Point enables creating policies that will make sure the following is set correctly and reviewed when needed:
 * **Ownership on Microsoft Teams and Microsoft 365 Groups**
-* **Guest users expiration**
+* **Inactive Guest Users**
+* **Blocked Users with Assigned Licenses**
+* **Orphaned Users**
 * **User's access**
 
 When dealing with policies, you can either:
@@ -42,20 +72,20 @@ When dealing with policies, you can either:
 **For a more complex setup**, you can **create multiple policies of the same policy type** and **apply them to a subset of your resources**.
 {% endhint %}
 
-## Policies
-
-Syskit Point enables you to create and apply three types of ownership policies that make sure your **Microsoft Teams and Microsoft 365 Groups comply with your company's policy regarding ownership** as well as a tenant-wide policy that **requires Guest User Access validation**. 
+## Available Policies
 
 Take a look at the articles below to learn how to set up each governance policy:
 
-* [**Minimum Number of Owners**](minimum-number-of-owners-admin.md) - when enabled and applied to Microsoft Teams and Microsoft 365 Groups, this policy **triggers an automated workflow when the team/group has fewer owners** than defined in the policy settings
-* [**Maximum Number of Owners**](maximum-number-of-owners-admin.md) - when enabled and applied to Microsoft Teams and Microsoft 365 Groups, this policy **triggers an automated workflow when the team/group has more owners** than defined in the policy settings
-* [**Orphaned Resources**](orphaned-resources-admin.md) - when enabled and applied to Microsoft Teams and Microsoft 365 Groups, this policy **triggers an automated workflow when the team/group has no active owners**
-* [**Guest Users Expiration**](guest-users-expiration-admin.md) - periodically checks Guest Users' access, or when Syskit Point detects a guest user is inactive
-* [**Access Request**](../access-requests/README.md) - provides end-users the ability to search all existing Microsoft Teams & Groups, sites, distribution lists, and security groups and request access to them
-* [**Access Review**](../permissions-review/README.md) - setting this up will allow site owners to perform regular access reviews of their sites
+* [**Minimum Number of Owners**](minimum-number-of-owners-admin.md) - when enabled and applied to Microsoft Teams and Microsoft 365 Groups, this policy **detects whether a team or group have fewer owners** than defined in the policy settings
+* [**Maximum Number of Owners**](maximum-number-of-owners-admin.md) - when enabled and applied to Microsoft Teams and Microsoft 365 Groups, this policy **detects if a team or group has more owners** than defined in the policy settings
+* [**Orphaned Workspaces**](orphaned-resources-admin.md) - when enabled and applied to Microsoft Teams and Microsoft 365 Groups, this policy **detects teams and groups that have no active owners**
+* [**Inactive Guest Users**](inactive-guest-users-admin.md) - **detects when a guest user is inactive** for a period of time and helps you remove access in a timely and efficient manner
+* [**Blocked Users with Assigned Licenses**](blocked-users-with-licenses-admin.md) - **detects blocked users in your tenant that still have licenses assigned**, which helps you optimize cost
+* [**Orphaned Users**](orphaned-users-admin.md) - **detects users that are blocked from signing in or deleted** but still have access to SharePoint content
+* [**Access Request**](../access-requests/README.md) - provides end-users with the **ability to request access to existing Microsoft Teams & Groups, sites, distribution lists, and security groups in the Microsoft 365 environment**; Syskit Point administrators can define workspaces visible to end-users and who is resonsible for the approval of access requests
+* [**Access Review**](../permissions-review/README.md) - enables Syskit Point admins to enforce regular Access reviews for workspace owners on their workspaces
 
-By clicking on the names of each policy, you can **find an article with information on creating and enabling** all mentioned policy types. 
+By clicking on the names of each policy, you can **find an article with information on enabling and managing** all mentioned policy types. 
  
 [For information on how to apply your created policies, take a look at this article.](manage-policies.md)
 
@@ -66,17 +96,16 @@ To **open the Policies settings screen**, navigate to **Settings** &gt; **Govern
 Here, you can:
 * **Create a new policy (1)**
 * **Manage and apply policies to Microsoft Teams, Microsoft 365 Groups, OneDrive, and sites (2)**
-* **View all predefined policies by name (3)**; Syskit Point comes with a predefined policy for each policy type to help you get started
-* **View additional information about each policy**; the following information is available **policy type (4)**, **severity of policy(5)**, **category policy fits under (6), **to how many resources a policy is applied (7)**, and **whether the policy is automated or not (8)**
-* **Manage policies (9)**; **Edit** and **Delete** actions are provided for each policy, **except for those applied tenant-wide**
+* **View all predefined policies by name (3)**; Syskit Point comes with multiple predefined policies to help you get started
+* **View additional information about each policy**; the following information is available **policy type (4)**, **severity of policy(5)**, **category policy fits under (6)**, **to how many resources a policy is applied (7)**, and **whether the policy is automated or not (8)**
+* **Manage policies (9)**; **Edit** and **Delete** actions are provided for each policy, **except for those applied tenant-wide and the default policies used by the default rule**
 
 ![Policy Settings](../../.gitbook/assets/set-up-policies_settings.png)
-
 
 ## Resolving Policy Tasks
 
 For more information on how collaborators **can resolve specific policy violations**, navigate to the articles given below:
-* [Resolve Minimum Number of Owners policy violation](../../point-collaborators/resolve-governance-tasks/minimum-number-of-owners.md)
-* [Resolve Maximum Number of Owners policy violation](../../point-collaborators/resolve-governance-tasks/maximum-number-of-owners.md)
-* [Resolve Orphaned Resources policy violation](../../point-collaborators/resolve-governance-tasks/orphaned-resources.md)
-* [Resolve Guest User Expiration](../../point-collaborators/resolve-governance-tasks/guest-users-expiration.md)
+* [Resolve Minimum Number of Owners vulnerabilities](../../point-collaborators/resolve-governance-tasks/minimum-number-of-owners.md)
+* [Resolve Maximum Number of Owners vulnerabilities](../../point-collaborators/resolve-governance-tasks/maximum-number-of-owners.md)
+* [Resolve Orphaned Workspaces vulnerabilities](../../point-collaborators/resolve-governance-tasks/orphaned-resources.md)
+* [Resolve Inactive Guest Users vulnerabilities ](../../point-collaborators/resolve-governance-tasks/guest-users-expiration.md)

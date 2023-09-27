@@ -1,5 +1,5 @@
 ---
-description: This section shows how to configure automated workflows and resolve policy violations in Syskit Point.
+description: This section shows how to configure policies and resolve policy violations in Syskit Point.
 ---
 
-# Automated Workflows
+# Policies

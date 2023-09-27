@@ -24,7 +24,7 @@ Gain a highly accurate and centralized view of all users and resources **across 
 
 Drill down into detailed reports about structure, memberships, permissions, and much more - gain efficiency and secure your data. Avoid jumping from one admin center to another.
 
-![Syskit Point - Home screen](../.gitbook/assets/point-starter-kit\_discover.png)
+![Syskit Point - Home screen](../.gitbook/assets/point-starter-kit-home-screen.png)
 
 ## Users Overview
 
@@ -64,7 +64,7 @@ There are many reports available in Syskit Point, and **the categories that the 
 * [**License Usage**](../reporting/licenses-reports.md): Discover assigned, unassigned, and inactive Microsoft 365 licenses and the overall cost or find and reclaim licenses assigned to inactive or blocked users - optimize the budget.
 * [**Cleanup**](../reporting/cleanup-and-health-reports.md): Check Microsoft 365 Groups and Microsoft Teams with disabled or deleted owners and assign new ones. Identify and remove orphaned users.
 
-![Syskit Point - Reports](../.gitbook/assets/point-starter-kit\_secure.png)
+![Syskit Point - Reports](../.gitbook/assets/point-starter-kit-reports.png)
 
 ## Access Management
 
@@ -105,7 +105,7 @@ Setting up proper governance is key to the success of your organization’s Micr
 
 Manage workspace lifecycles from creation to end with **automated actions and policies**. Make end users your reliable partners in governance - **keep the tenant secure and clutter-free**.
 
-![Syskit Point - Policies](../.gitbook/assets/point-starter-kit\_control.png)
+![Syskit Point - Policies](../.gitbook/assets/point-starter-kit-policies.png)
 
 * [**Set up provisioning**](../governance-and-automation/provisioning/)
   * **Control workspace creation and avoid sprawl**: Set up **templates for new workspace requests** for Teams, Groups, sites, and Yammer with custom metadata, naming, and governance policies in place.

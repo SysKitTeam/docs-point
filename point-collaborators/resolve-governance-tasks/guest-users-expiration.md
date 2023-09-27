@@ -50,13 +50,13 @@ When keeping the guest user's access, the following is expected, depending on th
 
 ## Guest Users Task Resolved
 
-**After you resolve the policy violation, the History screen opens**, giving you an overview of actions performed within the automated workflow.
+**After you resolve the policy violation, the History screen opens**, giving you an overview of actions performed within the workflow.
 
 ![Policy Violation History Screen](../../.gitbook/assets/guest_users_expiration-history.png)
 
 **After you resolve the policy violation**, **you will also receive a confirmation e-mail** showing the following information:
 * **Guest user whose access was revalidated (1)**
 * **Result of the validation (2)**, showing if the access was renewed or removed
-* **View Details button (3) that opens the History screen in Syskit Point**, showing all the information about actions performed in the automated workflow
+* **View Details button (3) that opens the History screen in Syskit Point**, showing all the information about actions performed in the workflow
 
 ![Policy Violation Resolved - E-mail](../../.gitbook/assets/guest_users_expiration-confirmation_email.png)

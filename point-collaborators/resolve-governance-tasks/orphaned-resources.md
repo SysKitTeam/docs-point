@@ -1,10 +1,10 @@
 ---
-description: This article explains how to resolve the Orphaned Resources policy violation in Syskit Point.
+description: This article explains how to resolve the Orphaned Workspaces policy violation in Syskit Point.
 ---
 
-# Orphaned Resources
+# Orphaned Workspaces
 
-**This article shows how you can resolve the Orphaned Resources policy violation** triggered when Syskit Point detects that Microsoft Teams and Microsoft 365 Groups don’t have active owners. 
+**This article shows how you can resolve the Orphaned Workspaces policy violation** triggered when Syskit Point detects that Microsoft Teams and Microsoft 365 Groups don’t have active owners. 
 
 When a team no longer has an active owner, there is no longer a person on the other end of an automated governance policy which means the site could potentially have shared files that are outdated and pose a serious security risk. 
 
@@ -38,7 +38,7 @@ The following is available on the task screen if you were selected to assign new
 * **List of current members along with Search to help you filter out specific ones (1)**
 * **Promote to Owner action (2)**; once clicked, an **appropriate message appears next to the promoted user along with the Undo action (3)**
 * **Add New Owner action (4)**; to add a new owner, start typing the user's name in the input field; once you select a user, confirm your addition by clicking the Add New Owner link; once clicked, an **appropriate message is displayed for the user, along with the Undo action (5)**
-* **Activity Timeline (6)** showing all steps in the automated workflow
+* **Activity Timeline (6)** showing all steps in the workflow
 * **Archive button (7)** that enables you to Archive the Microsoft Team or Microsoft 365 Group
 * **Delete button (8)** that enables you to Delete the Microsoft Team or Microsoft 365 Group
 * **Resolve button (9)** that gets enabled when you promote members to owners or add new ones to comply with the company policy; once clicked, a dialog opens, enabling you to input a comment and **resolve the policy violation**
@@ -60,7 +60,7 @@ The following is available on the task screen if you were selected to assign new
 **After you resolve the policy violation**, **a confirmation e-mail is sent to all users that were assigned with the task**, showing the following information:
 * **Microsoft Teams or Microsoft 365 Group where the policy violation was resolved (1)**
 * **Who and when (2) resolved the policy violation**
-* **View Details button (3) that opens the History screen in Syskit Point showing all the activities that were performed within the automated workflow**
+* **View Details button (3) that opens the History screen in Syskit Point showing all the activities that were performed within the workflow**
 
 ![Policy Violation Resolved - E-mail](../../.gitbook/assets/orphaned_resources-confirmation_email.png)
 
@@ -87,7 +87,7 @@ The following is available on the task screen:
 * **List of current members along with Search to help you filter out specific ones (1)**
 * **Suggest action (2)**; once clicked, an **appropriate message appears next to the suggested user along with the Undo action (3)**
 * **Suggest New Owner action (4)**; to suggest a new owner, start typing the user's name in the input field; once you select a user, confirm your addition by clicking the Suggest New Owner link; once clicked, an **appropriate message is displayed for the user, along with the Undo action**
-* **Activity Timeline (5)** showing all steps in the automated workflow
+* **Activity Timeline (5)** showing all steps in the workflow
 * **Suggest Archive button (6)** that enables you to **suggest archiving the Microsoft Team or Microsoft 365 Group**
 * **Suggest Delete button (7)** that enables you to **suggest deleting the Microsoft Team or Microsoft 365 Group**
 * **Resolve button (8)** that gets enabled when you suggest what to do with the team/group to comply with the company policy; once clicked, a dialog opens, enabling you to **input a comment and resolve the policy violation**
@@ -144,7 +144,7 @@ The following is available on the task screen:
 **After you resolve the policy violation**, a **confirmation e-mail is also sent to all users that were assigned with the task**, showing the following information:
 * **Microsoft Teams or Microsoft 365 Group where the policy violation was resolved (1)**
 * **Who and when (2) resolved the policy violation**
-* **View Details button (3)** that opens the History screen in Syskit Point, showing all the activities that were performed within the automated workflow
+* **View Details button (3)** that opens the History screen in Syskit Point, showing all the activities that were performed within the workflow
 
 ![Policy Violation Resolved - E-mail](../../.gitbook/assets/orphaned_resources-confirmation_email.png)
 
