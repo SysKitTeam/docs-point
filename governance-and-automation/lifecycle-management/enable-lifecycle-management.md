@@ -80,7 +80,7 @@ In the **Customize E-mail section**, you can adjust the look and feel of the e-m
 
 In the **Target Selection** section, you can **define which workspaces to include in the Lifecycle Management**.
 
-By default, all workspace types - **Microsoft Teams**, **Microsoft 365 Groups** and **sites** \(1\)** - are selected. 
+By default, all workspace types - **Microsoft Teams**, **Microsoft 365 Groups** and **sites \(1\)** - are selected. 
 Additionally, you can:
 * **Modify the workspace types monitored** by clicking the **workspace filter \(2\)**; here, you have the following options:
     * **Microsoft Teams**
