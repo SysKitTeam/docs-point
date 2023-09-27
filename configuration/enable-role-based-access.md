@@ -150,5 +150,6 @@ When said **Syskit Point Collaborator** opens the URL, the report will be genera
 
 When **Syskit Point Collaborator** tries to **drill** to the **user details** page of a user they are not a manager of, they will be redirected to an **Unauthorized Access** page.
 
+![Unauthorized access page](../.gitbook/assets/enable-role-based-access-unauthorized-access.png)
 
 **As demonstrated, the Role-Based Access provides a secure framework for collaboration in your Microsoft 365 environment**.
