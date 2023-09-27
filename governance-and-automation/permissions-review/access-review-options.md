@@ -2,7 +2,7 @@
 description: This article explains how to customize additional Access Review options applied to all Access Review policies.
 ---
 
-# Access Review Options
+# Modify Access Review Options
 
 {% hint style="information" %}
 **Access Review options** are available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
@@ -32,7 +32,7 @@ The **Manage Reviewers report** opens, where you can:
   * **Show by Content** - root node is a resource with all reviewers shown as child nodes
   * **Show by Users** - root node is a user, with all resources where he is a reviewer shown as child nodes
 * **Find the number of active reviewers \(6\)** on all **Microsoft Teams**, **Microsoft 365 Groups**, **OneDrive**, and **sites**
-* **View users removed from reviewers \(7\)** - you can recognize them by the **Not Reviewing** status
+* **See the Review Status of users \(7\)** - users removed from reviewers are shown as **Not Reviewing** status
 
 ![Automated Access Review Setup - Manage Reviewers](../../.gitbook/assets/access-review-options_manage-reviewers.png)
 
