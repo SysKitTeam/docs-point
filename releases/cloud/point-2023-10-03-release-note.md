@@ -13,6 +13,9 @@ description: >-
 * **New to Syskit Point Cloud?** Explore Syskit Point Cloud with a 21-day [free trial](https://www.syskit.com/products/point/free-trial/) for an easy and effective way to manage and secure your environment.
 * **Already using Syskit Point Cloud?** Syskit Point Cloud is automatically upgraded to the latest version when available. The automatic update occurs outside working hours to ensure minimal interference with your day-to-day business.
 
+## Features
+* **New Storage Metrics report is available!**
+
 ## Improvements & Bug Fixes
 
 * **Remove Access action was improved**. Point now better handles removing access for a user from workspaces that were deleted in the M365 environment without being synced in Syskit Point. A clear message is displayed in the Action log in such cases.
