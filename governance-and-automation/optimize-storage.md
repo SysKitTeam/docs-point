@@ -66,7 +66,7 @@ You can also find the most important storage-related information for the largest
 * **Size (4)** - storage used up by the SharePoint site
 * **Storage Limit (5)**
     * Storage limit defined per site
-    * By default, set to 25TB, which represents the entirety of available storage in your Microsoft 365 environment
+    * By default, set in SharePoint to 25TB if not otherwise defined manually for the observed site; 25TB represents the pool of total available storage, although the actual size of available storage can be smaller, depending on the number of purchased licenses
     * Storage Limit for soft deleted sites is set to = KB
 * **% of Limit (6)** - shows the percentage of the site's size in the defined site storage limit
 * **Alert on % of Limit (7)** - shows the site's defined percentage limit when email notifications are sent to owners
@@ -82,4 +82,31 @@ The Storage Metrics report provides the storage trend and storage information on
 
 ## Free Up Storage
 
-TODO - describe how to remove file versions, large files that are not needed..
+After you click the **link in the Storage Metrics URL column**, the SharePoint site-specific Storage Metrics report opens in your browser.
+Here, you can find a detailed view of content size in your SharePoint site and the percentage of storage it uses.
+The following information is available:
+* **Available storage out of defined storage limit for the site collection (1)**
+* **List of contents in your SharePoint site (2)** ordered by size from largest descending
+* **Total size (3)** for each object
+* **% of Parent (4)** percentage of used storage within the total used storage of the parent object
+* **% of Site Quota(5)** percentage of used storage within the defined storage limit for the site collection
+**To reveal more details about a specific object - list, document library, folder, or file - click the Name (6)**. 
+
+![Site's Storage Metrics Report in SharePoint](../.gitbook/assets/optimize-storage-sharepoint-storage-metrics-site.png)
+
+By observing the Total Size column, you can easily **find large files (1)**.
+**Click the Version History link (2)** to see if several versions of the same file take up site's storage.
+On the next screen, you can:
+* **Delete All Versions (3)**
+* **Delete Minor Versions (4)**
+* **Delete a specific version (5)** in the version drop-down menu
+
+![Version History Link](../.gitbook/assets/optimize-storage-large-file.png)
+
+![Deleting Versions](../.gitbook/assets/optimize-storage-delete-versions.png)
+
+{% hint style="information" %}
+**Please note!** After you delete unwanted files, empty the site's recycle bin to free up storage.
+{% endhint %}
+
+
