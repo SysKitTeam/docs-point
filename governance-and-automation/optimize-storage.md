@@ -73,7 +73,6 @@ You can also find the most important storage-related information for the largest
 
 Once you detect the largest sites with the help of the Storage Metrics report, use the **link in the Storage Metrics URL column (8)** to open the site-specific Storage Metrics report. From there, you can start to clean up versions and files on your site.
 
-PLACEHOLDER IMAGE ALERT
 ![Storage Metrics Report in Point](../.gitbook/assets/optimize-storage-storage-metrics-report-point.png)
 
 {% hint style="information" %}
