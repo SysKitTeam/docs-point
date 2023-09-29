@@ -82,4 +82,4 @@ The Storage Metrics report provides the storage trend and storage information on
 
 ## Free Up Storage
 
-TODO - describe how to remove duplicates, file versions, large files that are not needed..
+TODO - describe how to remove file versions, large files that are not needed..
