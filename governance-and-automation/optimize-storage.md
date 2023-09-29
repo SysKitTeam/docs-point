@@ -109,4 +109,6 @@ On the next screen, you can:
 **Please note!** After you delete unwanted files, empty the site's recycle bin to free up storage.
 {% endhint %}
 
+## Related Articles
 
+[Configure Tenant Storage Limit Policy in Syskit Point](TODO)
