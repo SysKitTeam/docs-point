@@ -12,7 +12,7 @@ In this article, you can locate information on:
 * [Orphaned Workspaces](#orphaned-workspaces)
 * [Storage Metrics](#storage-metrics)
 
-Use Orphaned Users and Orphaned Workspaces reports to **detect and manage orphaned users and resources**, and the Storage Metric to **view storage consumption** for your tenant by site and **determine if you're at risk of running out of storage**. 
+Use Orphaned Users and Orphaned Workspaces reports to **detect and manage orphaned users and resources**, and the Storage Metric to view your **tenant-wide storage consumption** and **determine if you're at risk of running out of storage**. 
 
 ## Orphaned Users
 
@@ -92,9 +92,7 @@ The Orphaned Workspaces report can be **exported as PDF and XLSX files**. There 
 
 ## Storage Metrics
 
-The Storage Metrics report displays the storage consumption for your tenant across your sites.  
-
-It shows **the distribution of your storage over time and across your sites**. 
+The Storage Metrics report displays your tenant-wide storage consumption over time.  
 
 This report lets you check if you are at risk of running out of storage so that you can decrease clutter by optimizing or expanding your storage capability.
 
