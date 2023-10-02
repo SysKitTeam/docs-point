@@ -96,7 +96,7 @@ The following information is available:
 By observing the Total Size column, you can easily **find large files (1)**.
 **Click the Version History link (2)** to see if several versions of the same file take up site's storage.
 On the next screen, you can:
-* **Delete All Versions (3)**
+* **Delete All Versions (3)**; deletes all versions, except the latest one
 * **Delete Minor Versions (4)**
 * **Delete a specific version (5)** in the version drop-down menu
 
