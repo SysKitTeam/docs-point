@@ -42,11 +42,12 @@ The purpose of this is to assist Syskit Point admins by reminding them there are
 ### Automation
 
 Automation can be enabled in policy settings for each policy listed below.
-There are currently **4 policies that can be automated**: 
+There are currently **5 policies that can be automated**: 
 * [Inactive Guest Users (Tenant-Wide)](../../governance-and-automation/security-compliance-checks/inactive-guest-users.md)
 * [Maximum Number of Owners](../../governance-and-automation/security-compliance-checks/workspaces-too-many-owners.md)
 * [Minimum Number of Owners](../../governance-and-automation/security-compliance-checks/workspaces-not-enough-owners.md)
 * [Orphaned Workspaces](../../governance-and-automation/security-compliance-checks/orphaned-workspaces.md)
+* [**Tenant Storage Limit (Tenant-Wide)**](../../governance-and-automation/automated-workflows/tenant-storage-admin.md)
 
 **When automation is enabled, Syskit Point creates tasks and sends emails to users as defined in the policy settings**.
 
