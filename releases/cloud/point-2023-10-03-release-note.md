@@ -16,21 +16,13 @@ description: >-
 ## Features
 * **New Storage Metrics report is available!**
   * The Storage Metrics report shows your storage usage over time in your tenant to help you: 
-<<<<<<< HEAD
+    * [Manage and optimize content usage](../../governance-and-automation/optimize-storage.md)
     * Identify potentially unusual spikes
-    * Manage and optimize content usage 
-    * Declutter your environment
     * Determine whether you need additional storage options
 * **There is a new tenant-wide policy - Tenant Storage Limits**.
   * More details can be found in the [Tenant Storage Limit policy article](../../governance-and-automation/automated-workflows/tenant-storage-admin.md).
 * A new **Tenant Storage Limit** check can be found on the **Security & Compliance dashboard**.
   * For more information, [take a look at this article](../../governance-and-automation/security-compliance-checks/tenant-storage.md).
-
-=======
-    * [Manage and optimize content usage](../../governance-and-automation/optimize-storage.md)
-    * Identify potentially unusual spikes
-    * Determine whether you need additional storage options
->>>>>>> vNext
 
 ## Improvements & Bug Fixes
 
