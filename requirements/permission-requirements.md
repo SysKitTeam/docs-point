@@ -22,7 +22,7 @@ When [connecting to a Microsoft 365 tenant](../set-up-point-data-center/deployme
 
 **The first time you connect to your Microsoft 365 tenant, you will be prompted to consent** to a set of permissions that Syskit Point requires to function correctly. Additional prompts may show up in the future when installing a newer version of Syskit Point because of new functionality, and in consequence, potentially new required permissions.
 
-![Microsoft 365 Global Admin Consent](../.gitbook/assets/permission\_requirements\_ga\_consent.png)
+![Microsoft 365 Global Admin Consent](../.gitbook/assets/permission-requirements-ga-consent.png)
 
 ## Syskit Point App Permissions
 

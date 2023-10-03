@@ -18,7 +18,7 @@ Only users assigned to the **Syskit Point Admin** role can access and configure 
 
 To start with the configuration, open the **Settings** > **Governance** > **Access Review** screen. Initially, you may find the Access Review settings screen displaying the following warnings:
 
-![Settings - Access Review screen](../../.gitbook/assets/enable-permissions-review\_settings.png)
+![Settings - Access Review screen](../../.gitbook/assets/enable-permissions-review_settings.png)
 
 Clicking the tiles in the **Additional Actions Required** section redirects to the appropriate settings screen.
 
@@ -47,11 +47,9 @@ The Exchange Online method enables you to use an existing Exchange account in yo
 * **choose whether to save e-mails sent by Syskit Point to the Sent items folder (2)**; by default, this option is turned on, meaning that all e-mails sent from Syskit Point will be stored in the **Sent** mailbox folder of the entered Exchange account
 * **Send a test e-mail (3)** to check if the entered e-mail address is working properly
 
-![Exchange Online e-mail Settings screen](../../.gitbook/assets/enable-permissions-review\_exchange-online-settings.png)
+![Exchange Online e-mail Settings screen](../../.gitbook/assets/enable-permissions-review_exchange-online-settings.png)
 
-After clicking the **Send test e-mail** button, the **Sent test e-mail** dialog opens. Here, **enter the e-mail address to which you want to send** the test e-mail. After a moment, you should receive an e-mail like the one pictured below.
-
-![Test e-mail](broken-reference)
+After clicking the **Send test e-mail** button, the **Sent test e-mail** dialog opens. Here, **enter the e-mail address to which you want to send** the test e-mail. 
 
 Click the **Save** button to store your e-mail settings.
 
@@ -66,7 +64,7 @@ Select the **SMTP method** if you are using an **SMTP** server in your environme
 
     You can also choose whether to **Use Encrypted Connection (SSL)**.
 
-![SMTP e-mail Settings screen](../../.gitbook/assets/enable-permissions-review\_smtp-settings.png)
+![SMTP e-mail Settings screen](../../.gitbook/assets/enable-permissions-review_smtp-settings.png)
 
 You can check if the entered data is correct by **sending a test e-mail**.
 
@@ -83,7 +81,7 @@ To enable Teams and Groups owners and site administrators to perform the Access 
 * **click the toggle to enable the Syskit Point Collaborators role (1)** - this will allow Teams owners, Group owners, and site administrators to access Syskit Point and to manage their workspaces
 * **check the Add users with Full Control option (2)** if you want to enable users with full control privileges to access Syskit Point; **this is needed in case you want to enable users in the Site Owners SharePoint group to perform access reviews**
 
-![Manage Access Settings screen](../../.gitbook/assets/enable-permissions-review\_manage-access-settings.png)
+![Manage Access Settings screen](../../.gitbook/assets/enable-permissions-review_manage-access-settings.png)
 
 For more information about role-based access in Syskit Point, go to the [following article](../../configuration/enable-role-based-access.md).
 

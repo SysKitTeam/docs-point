@@ -53,9 +53,9 @@ After confirming the request, you will be redirected to the Access Review overvi
 
 To see all Manually Requested Reviews, follow these steps:
 
-* **From the Home screen, click the Governance tile**; the Governance screen opens
-* **click the Manually Requested Reviews category \(1\)**
-* **click the See Details button \(2\)** to open the Access Review report 
+* **Click the Governance tile** located on the left side of the screen; the Governance screen opens
+* **Click the Manually Requested Reviews category \(1\)**
+* **Click the See Details button \(2\)** to open the Access Review report 
 
 ![Governance - Manually Requested Reviews](../../.gitbook/assets/manually-request-permissions-review_governance.png)
 

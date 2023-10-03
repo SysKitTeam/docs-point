@@ -13,7 +13,7 @@ If the latest Syskit Point version has some new permissions requirements to whic
 
 To resolve this and ensure all the new features work properly, ask your Global Administrator to sign in to Syskit Point and click **Reconsent (1)** on the shown notification.
 
-![Home Screen - Reconsent](../.gitbook/assets/permission-requirements-change-log_reconsent.png)
+![Home Screen - Reconsent](../.gitbook/assets/permission-requirements-change-log-reconsent.png)
 
 
 Depending on which version you are upgrading to, below you can find the list of changes in permissions requested and which features depend on them.
