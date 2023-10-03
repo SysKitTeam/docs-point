@@ -64,7 +64,7 @@ Next, provide information in the Sign Up form:
 * **Click Sign Up to finish**
   * Note that all fields are required
 
-![Sign Up Information](.gitbook\assets\free-trial-sign-up-information.png)
+![Sign Up Information](../.gitbook/assets/free-trial-sign-up-information.png)
 
 **After a successful sign up**, **Syskit Point web app opens**, **and shows demo data**.
 
@@ -83,13 +83,9 @@ To connect with your tenant:
 ![Connect Tenant](../.gitbook/assets/free-trial-connect-tenant.png)
 
 The Subscriptions portal opens, where you will be guided through the initial connection.
-First, **sign in with your Microsoft 365 credentials (1)**.
+If you are not signed in to Subscriptions portal, **sign in with your account created during sign-up (1)**.
 
-![Sign In with Microsoft 365 Credentials](../.gitbook/assets/free-trial-subscriptions-sign-in-ms-account.png)
-
-Permitting us to read your user profile **requires consent** and enables Syskit to determine your Microsoft 365 tenant. **Click Accept** to continue. 
-
-![Consent](../.gitbook/assets/free-trial-subscriptions-read-profile-consent.png)
+![Sign In](../.gitbook/assets/free-trial-subscriptions-sign-in-aad-b2c.png)
 
 A new page opens showing the Configure step:
 
@@ -108,7 +104,7 @@ A new page opens showing the Configure step:
 ![Configure Step](../.gitbook/assets/free-trial-subscriptions-configure-step.png)
 
 Next, consent is required on the Connect step, permitting Syskit Point to collect your Microsoft 365 tenant data.
-* Click **Grant Consent (1)** to proceed and provide your consent.
+* Click **Grant Consent (1)** to proceed. **Sign in with your Microsoft work account and provide your consent**.
 * [Learn more about permission requirements here](../requirements/permission-requirements.md).
 
  ![Connect](../.gitbook/assets/free-trial-subscriptions-connect-step.png)
