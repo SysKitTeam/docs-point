@@ -83,7 +83,7 @@ To connect with your tenant:
 ![Connect Tenant](../.gitbook/assets/free-trial-connect-tenant.png)
 
 The Subscriptions portal opens, where you will be guided through the initial connection.
-If you are not signed in to Subscriptions portal, **sign in with your account created during sign-up (1)**.
+If you are not signed in to the Subscriptions portal, **sign in with your account created during sign-up (1)**.
 
 ![Sign In](../.gitbook/assets/free-trial-subscriptions-sign-in-aad-b2c.png)
 
