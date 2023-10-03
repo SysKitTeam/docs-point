@@ -39,9 +39,9 @@ Create a new Access Review policy by clicking the **Create New Policy button (4)
 
 The following dialog opens, providing the ability to **choose the policy type**. 
 
-![Policy Type Selection](../../.gitbook/assets/create-access-review-policies_policy-type.png)
-
 **Click Access Review \(1\)** to continue. 
+
+![Policy Type Selection](../../.gitbook/assets/create-access-review-policies_policy-type.png)
 
 The **Create New Policy** dialog opens where the following Access Review options can be defined: 
 * **Policy Name (1)**
@@ -58,7 +58,6 @@ The **Create New Policy** dialog opens where the following Access Review options
     * **Folders**
     * **Files & folders**
 * **Description (6)** - shows summary info depending on selected options regarding memeberships (3) and content (4)
-
 * **Advanced Settings (7)** - define who will perform the access review 
 * **Save (8)** - click to Save the Access Review Policy when finished with the configuration
 
