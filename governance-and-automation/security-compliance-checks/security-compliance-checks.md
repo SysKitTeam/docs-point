@@ -38,17 +38,20 @@ You are also able to [set up Policy Automation](../../governance-and-automation/
 After clicking View All, the Security and Compliance checks dashboard will open, showing the following: 
 
 
-* **Inactive Guest Users (1)** - shows the number of guest users that have been inactive for a certain amount of time and helps you optimize your environment and keep it safe.
+* **Orphaned workspaces (1)** - shows the number of workspaces without an active owner. It helps you manage your Microsoft 365 workspace's health and helps **ensure there are no abandoned resources** and **workspaces without owners** in your tenant. 
 
-* **Blocked users with assigned licenses (2)** - shows the number of users with one or more active licenses assigned that have been blocked, which helps you **detect and remove licenses** that are not being utilized.
+* **Inactive Guest Users (2)** - shows the number of guest users that have been inactive for a certain amount of time and helps you optimize your environment and keep it safe.
 
-* **Orphaned workspaces (3)** - shows the number of workspaces without an active owner. It helps you manage your Microsoft 365 workspace's health and helps **ensure there are no abandoned resources** and **workspaces without owners** in your tenant. 
+* **Tenant Storage Limit (3)** - shows whether you reached the tenant storage limit based on the percentage set for the policy.
 
-* **Workspaces with not enough owners (4)** – shows the number of workspaces that don't have enough owners. You will be able to investigate further and assign additional owners if needed. Keep an eye on workspaces with only 1 owner because **if that one owner leaves, a workspace is left without an owner**. 
+* **Blocked users with assigned licenses (4)** - shows the number of users with one or more active licenses assigned that have been blocked, which helps you **detect and remove licenses** that are not being utilized.
 
-* **Orphaned users (5)** - shows the number of orphaned users and takes you to the Orphaned Users report, which helps **detect and remove blocked or deleted users** from your Microsoft 365 workspaces. 
+* **Workspaces with not enough owners (5)** – shows the number of workspaces that don't have enough owners. You will be able to investigate further and assign additional owners if needed. Keep an eye on workspaces with only 1 owner because **if that one owner leaves, a workspace is left without an owner**. 
 
-* **Workspaces with too many owners (6)** – shows the number of workspaces with too many owners. If there are **too many owners, no one feels accountable for access and content management**. This helps you keep track of and remove extra owners. 
+* **Orphaned users (6)** - shows the number of orphaned users and takes you to the Orphaned Users report, which helps **detect and remove blocked or deleted users** from your Microsoft 365 workspaces. 
+
+* **Workspaces with too many owners (7)** – shows the number of workspaces with too many owners. If there are **too many owners, no one feels accountable for access and content management**. This helps you keep track of and remove extra owners. 
+
 
 ![Security & Compliance Checks](../../.gitbook/assets/security-compliance-checks_dashboard.png)
 
@@ -68,6 +71,7 @@ Take a look at the following articles to learn how to settle your security and c
  * [**Workspaces with not enough owners**](../security-compliance-checks/workspaces-not-enough-owners.md)
  * [**Orphaned users**](../security-compliance-checks/orphaned-users.md)
  * [**Workspaces with too many owners**](../security-compliance-checks/inactive-guest-users.md)
+ * [**Tenant Storage Limit**](../security-compliance-checks/tenant-storage.md)
 
 {% hint style="warning" %}
 **Please note!**  
