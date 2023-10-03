@@ -20,9 +20,8 @@ description: >-
     * Identify potentially unusual spikes
     * Determine whether you need additional storage options
 * **There is a new tenant-wide policy - Tenant Storage Limits**.
-  * More details can be found in the [Tenant Storage Limit policy article](../../governance-and-automation/automated-workflows/tenant-storage-admin.md).
-* A new **Tenant Storage Limit** check can be found on the **Security & Compliance dashboard**.
-  * For more information, [take a look at this article](../../governance-and-automation/security-compliance-checks/tenant-storage.md).
+  * You can modify the percentage of used tenant storage that, once reached, results in Syskit Point raising a check on the Security & Compliance dashboard. Find more details in the [Tenant Storage Limit policy article](../../governance-and-automation/automated-workflows/tenant-storage-admin.md).
+  * You can find the Tenant Storage Limit check on the [Security & Compliance dashboard](../../governance-and-automation/security-compliance-checks/security-compliance-checks.md). For more information about the Tenant Storage Limit report, [take a look at this article](../../governance-and-automation/security-compliance-checks/tenant-storage.md).
 
 ## Improvements & Bug Fixes
 
