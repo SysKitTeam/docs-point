@@ -15,6 +15,7 @@ To edit the policy, navigate to the Policies settings screen and **click the Edi
 The **Edit Policy** pop-up dialog opens where you can:
 * **Set the percentage limit (1)** for your storage consumption
   * When you reach the limit, Syskit Point provides a notification informing you of that
+  * By default, the storage limit percentage is set at 85%
 * **Select the Severity level (2)**
   * The severity level set by default for this policy is High
   * You can select between three levels of severity: **High, Medium, or Low**

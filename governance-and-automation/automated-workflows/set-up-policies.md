@@ -27,9 +27,10 @@ Only users with the role of **Syskit Point Admin** assigned can access and confi
 ### Detection
 Two modes of policy operation for Governance policies are available in Syskit Point: **Detection and Automation**. 
 
-There are **two detection-only policies** that are applied tenant-wide: 
+There are **three detection-only policies** that are applied tenant-wide: 
 * [**Blocked Users with Assigned Licenses (Tenant-Wide)**](../../governance-and-automation/security-compliance-checks/blocked-users-assigned-license.md) 
 * [**Orphaned Users (Tenant-Wide)**](../../governance-and-automation/security-compliance-checks/orphaned-users.md)
+* [**Tenant Storage Limit (Tenant-Wide)**](../../governance-and-automation/automated-workflows/tenant-storage-admin.md)
 
 When it comes to detection-only policies, Syskit Point detects a vulnerability on a workspace based on the applied policy. 
 
@@ -47,7 +48,7 @@ There are currently **5 policies that can be automated**:
 * [Maximum Number of Owners](../../governance-and-automation/security-compliance-checks/workspaces-too-many-owners.md)
 * [Minimum Number of Owners](../../governance-and-automation/security-compliance-checks/workspaces-not-enough-owners.md)
 * [Orphaned Workspaces](../../governance-and-automation/security-compliance-checks/orphaned-workspaces.md)
-* [**Tenant Storage Limit (Tenant-Wide)**](../../governance-and-automation/automated-workflows/tenant-storage-admin.md)
+
 
 **When automation is enabled, Syskit Point creates tasks and sends emails to users as defined in the policy settings**.
 
