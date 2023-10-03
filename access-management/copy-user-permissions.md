@@ -20,6 +20,8 @@ You can take advantage of the Copy User Permissions action in the following case
 
 ## Running the Action
 
+Start with accessing the Users overview screen by **clicking the Users button on the left side** of the Syskit Point home page.  
+
 To copy permissions from one user to another, follow these steps:
 
 * **Select a user on the Users overview screen \(1\)** – permissions will be copied from this user
