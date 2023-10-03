@@ -142,6 +142,7 @@
     * [Create Access Requests](governance-and-automation/access-requests/create-access-requests-policy.md)
     * [Apply Access Requests](governance-and-automation/access-requests/apply-access-requests-policy.md)
     * [Approval Process](governance-and-automation/access-requests/approval-process.md)
+  * [Optimize Storage](governance-and-automation/optimize-storage.md)
   * [Syskit Point Teams App](governance-and-automation/syskit-point-teams-app.md)
   * [Schedule Reports](governance-and-automation/scheduled-reports.md)
   * [Configure Alerts](governance-and-automation/configure-alerts.md)

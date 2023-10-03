@@ -6,9 +6,13 @@ description: Cleanup & Health Reports provide information on maintaining the hea
 
 Reports in this section **help maintain the health of your tenant**. 
 
-In this article, you can locate information on [Orphaned Users](#orphaned-users) and [Orphaned Workspaces](#orphaned-workspaces).
+In this article, you can locate information on:
 
-Use Orphaned Users and Orphaned Workspaces reports to **detect and manage orphaned users and resources**. 
+* [Orphaned Users](#orphaned-users) 
+* [Orphaned Workspaces](#orphaned-workspaces)
+* [Storage Metrics](#storage-metrics)
+
+Use Orphaned Users and Orphaned Workspaces reports to **detect and manage orphaned users and resources**, and the Storage Metric to view your **tenant-wide storage consumption** and **determine if you're at risk of running out of storage**. 
 
 ## Orphaned Users
 
@@ -20,7 +24,7 @@ This report helps detect and remove blocked/disabled or deleted users from your 
 
 ### Generate Orphaned Users report
 
- * **Click the Reports tile**; located on the Syskit Point home screen.
+ * **Click the Reports button**; located on the left side of the screen.
  * **Select Cleanup & Health Check in the filter**; it can be found in the upper left corner.
  * **Click the Orphaned Users report** to generate the report.
 
@@ -36,7 +40,7 @@ Once the report is successfully generated, the following data will be displayed 
 * **Status**; defines whether the user was deleted or disabled in Azure Active Directory.
 * **Department**; shows which department in the company the Orphaned User operated in. 
   * Only if that data is available from Azure Active Directory. 
-* **Manager**; shows who the manager was of the orphaned user.
+* **Manager**; shows the manager of the orphaned user.
 
 For more details, there are also additional columns available in the column chooser:
 
@@ -62,7 +66,7 @@ This report helps manage Microsoft 365 resources' health and helps ensure there 
 
 ### Generate Orphaned Workspaces report
 
- * **Click the Reports tile**; located on the Syskit Point home screen.
+ * **Click the Reports button**; located left side of the screen.
  * **Select Cleanup & Health Check in the filter**; it can be found in the upper left corner.
  * **Click the Orphaned Workspaces report** to generate the report.
 
@@ -85,3 +89,36 @@ There are also additional columns in the column chooser:
 After executing that action, the selected resource **will no longer be visible on the Orphaned Workspaces** report.
 
 The Orphaned Workspaces report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+
+## Storage Metrics
+
+The Storage Metrics report displays your tenant-wide storage consumption over time.  
+
+This report lets you check if you are at risk of running out of storage so that you can decrease clutter by optimizing or expanding your storage capability.
+
+### Generate Orphaned Users report
+
+ * **Click the Reports tile**; located on the Syskit Point home screen.
+ * **Select Cleanup & Health Check in the filter**; it can be found in the upper left corner.
+ * **Click the Storage Metrics report** to generate the report.
+
+
+### Report Data
+
+Once the report is successfully generated, the following information is available:
+
+ * **The Storage Trend chart** shows a graph that depicts your storage usage across time over the last 180 days.
+ * **The Tenant Storage box** on the right side shows the percentage of used storage out of the total number of available storage for your tenant.
+
+The following data will be displayed in the columns:
+
+* **Name**; the name of the site.
+   * Clicking the name opens the Site Details page of the selected workspaces.
+* **Storage Metrics URL**; the link for the site. 
+   * Clicking the link opens the Site Details page of the selected workspaces.
+* **Primary Admin**; shows the admins of the site. 
+* **Last Activity**; shows the date the last activity on the site happened.
+* **Size**; shows the size of the site.
+* **Storage Limit**; show the storage limit for the site.
+* **% of Limit**; shows the percentage of how close to the storage limit your site is.
+* **Alert on % of Limit**; shows the percentage at which you are alerted of being close to your storage limit. 
