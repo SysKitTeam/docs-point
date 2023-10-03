@@ -49,9 +49,7 @@ The Exchange Online method enables you to use an existing Exchange account in yo
 
 ![Exchange Online e-mail Settings screen](../../.gitbook/assets/enable-permissions-review_exchange-online-settings.png)
 
-After clicking the **Send test e-mail** button, the **Sent test e-mail** dialog opens. Here, **enter the e-mail address to which you want to send** the test e-mail. After a moment, you should receive an e-mail like the one pictured below.
-
-![Test e-mail](<../../.gitbook/assets/enable-permissions-review\_test-email (1) (2) (2) (3) (4) (4) (4) (6) (8) (2).png>)
+After clicking the **Send test e-mail** button, the **Sent test e-mail** dialog opens. Here, **enter the e-mail address to which you want to send** the test e-mail. 
 
 Click the **Save** button to store your e-mail settings.
 
