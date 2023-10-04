@@ -126,6 +126,7 @@
     * [Workspaces with Not Enough Owners](governance-and-automation/security-compliance-checks/workspaces-not-enough-owners.md)
     * [Orphaned Users](governance-and-automation/security-compliance-checks/orphaned-users.md)
     * [Workspaces with Too Many Owners](governance-and-automation/security-compliance-checks/workspaces-too-many-owners.md)
+    * [Tenant Storage Limit](governance-and-automation/security-compliance-checks/tenant-storage.md)
   * [Provisioning](governance-and-automation/provisioning/README.md)
     * [Set Up Provisioning](governance-and-automation/provisioning/set-up-provisioning.md)
     * [Enable or Disable Provisioning](governance-and-automation/provisioning/enable-disable-provisioning.md)
