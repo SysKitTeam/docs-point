@@ -19,6 +19,11 @@ The **Edit Policy** pop-up dialog opens where you can:
 * **Select the Severity level (2)**
   * The severity level set by default for this policy is High
   * You can select between three levels of severity: **High, Medium, or Low**
+* **Click the toggle to turn on automation (3)** for the policy
+  * Once automation is enabled you can **choose who to notify** about storage consumptions:
+    * Syskit Point Administrators, or
+    * Custom Recipients 
+
 
 Once the policy is set to your preference, **click the Save button (3)** to finalize. 
 
