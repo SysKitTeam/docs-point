@@ -65,7 +65,7 @@ Once the create new metadata screen opens, fill in the following information.
 
 ## Change Custom Metadata
 
-After setting up custom metadata, the information can be changed directly from a specific resource.
+After setting up custom metadata, the information can be changed directly from a specific workspace.
 
 To change the custom metadata that has been set up on workspaces, select Sites or Microsoft Teams & Groups from the Home page.
 

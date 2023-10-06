@@ -65,13 +65,13 @@ Syskit Point enables creating policies that will make sure the following is set 
 * **User's access**
 
 When dealing with policies, you can either:
-* **Adjust predefined policies and apply them to your resources**, or
-* **Create new policies from scratch and apply them to your resources**
+* **Adjust predefined policies and apply them to your workspaces**, or
+* **Create new policies from scratch and apply them to your workspaces**
 * **Set up policy automation to have policies automatically applied to current and new workspaces**
 
 {% hint style="success" %}
-**For simple use cases** where the same policies are applied to all resources, you can **adjust the predefined policies to speed up the configuration**. 
-**For a more complex setup**, you can **create multiple policies of the same policy type** and **apply them to a subset of your resources**.
+**For simple use cases** where the same policies are applied to all workspaces, you can **adjust the predefined policies to speed up the configuration**. 
+**For a more complex setup**, you can **create multiple policies of the same policy type** and **apply them to a subset of your workspaces**.
 {% endhint %}
 
 ## Available Policies
@@ -99,7 +99,7 @@ Here, you can:
 * **Create a new policy (1)**
 * **Manage and apply policies to Microsoft Teams, Microsoft 365 Groups, OneDrive, and sites (2)**
 * **View all predefined policies by name (3)**; Syskit Point comes with multiple predefined policies to help you get started
-* **View additional information about each policy**; the following information is available **policy type (4)**, **severity of policy(5)**, **category policy fits under (6)**, **to how many resources a policy is applied (7)**, and **whether the policy is automated or not (8)**
+* **View additional information about each policy**; the following information is available **policy type (4)**, **severity of policy(5)**, **category policy fits under (6)**, **to how many workspaces a policy is applied (7)**, and **whether the policy is automated or not (8)**
 * **Manage policies (9)**; **Edit** and **Delete** actions are provided for each policy, **except for those applied tenant-wide and the default policies used by the default rule**
 
 ![Policy Settings](../../.gitbook/assets/set-up-policies_settings.png)

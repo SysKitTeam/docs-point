@@ -26,4 +26,4 @@ The **Edit Policy** dialog opens where you can:
 ![Edit Policy Dialog](../../.gitbook/assets/set_up_automated_workflows-orphaned_dialog-automation.png)
 
 
-For details on how collaborators can [**resolve Orphanes Resources policy violation tasks**, navigate to the following article](../../point-collaborators/resolve-governance-tasks/orphaned-resources.md).
+For details on how collaborators can [**resolve Orphanes Workspaces policy violation tasks**, navigate to the following article](../../point-collaborators/resolve-governance-tasks/orphaned-resources.md).
