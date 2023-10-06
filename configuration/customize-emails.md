@@ -10,7 +10,7 @@ description: This article explains how to customize e-mails within Syskit Point.
 
 Syskit Point **provides the option to customize e-mails** that are **sent to site owners** as a part of **Access Review and Lifecycle Management Automation**.  
 
-Emails are used for **Access Review and Lifecycle Management** tasks and any policies created under **Policies**. They are also used for receiving reports that are available in the **Reports** section of Syskit Point. 
+E-mails are used for **Access Review and Lifecycle Management** tasks and any policies created under **Policies**. They are also used for receiving reports that are available in the **Reports** section of Syskit Point. 
 
 The following aspects of the e-mails can be customized:
 
@@ -33,8 +33,11 @@ Only Syskit Point Admin users can customize e-mails.
 ## E-mail Settings
 
 In E-mail settings, you can define:
- * **A global logo** that will be used in all e-mails sent by Syskit Point
- * **A global e-mail banner** that will be used in all e-mails sent from Syskit Point
+ * **A global logo** that is used in all e-mails sent by Syskit Point
+   * The recommended size for the logo is 512x50px
+   * It is best to use a PNG image with a transparent background
+ * **A global e-mail banner** that is used in all e-mails sent from Syskit Point
+   * The recommended banner size is 600x170px 
 
 To define a logo used in all e-mails:
 * **Navigate to the E-mail Settings screen \(1\)**. 
