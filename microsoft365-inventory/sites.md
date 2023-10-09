@@ -25,7 +25,7 @@ In the top left corner, **All Sites** is automatically selected in the filter. C
 
 Clicking any of those categories will filter the report based on the selected. 
 
-At the top, above the report, 4 tiles can be used to filter the report based on the type of resources. The following options are available and can be selected by clicking them:
+At the top, above the report, 4 tiles can be used to filter the report based on the type of workspaces. The following options are available and can be selected by clicking them:
   * Microsoft Teams
   * Microsoft 365 Groups 
   * Sites
@@ -72,7 +72,7 @@ There are additional columns available in the **column chooser**, located in the
 
 The Sites report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
-Selecting resources provides several actions that can be taken, **located on the right side** of the report.
+Selecting workspaces provides several actions that can be taken, **located on the right side** of the report.
 
 The Manage actions available are: 
   * Change Owners

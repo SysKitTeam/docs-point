@@ -1,5 +1,5 @@
 ---
-description: Power BI reports provide insight into the state of your Power BI resources.
+description: Power BI reports provide insight into the state of your Power BI workspaces.
 ---
 
 # Power BI Reports
@@ -17,9 +17,9 @@ This article contains information on three Power BI reports available through th
 
 ## Power BI Inventory Report
 
-The Power BI Inventory reports give insight into the Power BI resources inside of your environment, such as dashboards, datasets, dataflows, and reports.
+The Power BI Inventory reports give insight into the Power BI workspaces inside of your environment and the dashboards, datasets, dataflows, and reports within the workspaces.
 
-It allows you to view the resources based on their classification and see which resource is located under which workspace.
+It allows you to view the Power BI resources based on their classification and see which resource is located under which workspace.
 
 ### Generate Report
 
@@ -28,8 +28,8 @@ It allows you to view the resources based on their classification and see which 
 * **Click the Power BI Inventory report tile** to be redirected to the Selection screen.
 
 After clicking the **Power BI Inventory** report tile, the Selection step opens where you can:
-* **Select the resources** for which the report should be generated.
-   * Click the checkboxes on the screen's left side to select one or more resources. 
+* **Select the workspaces** for which the report should be generated.
+   * Click the checkboxes on the screen's left side to select one or more workspaces. 
 * **Select the resource types** that should be included in the report.
   * The choice includes dashboards, datasets, dataflows, and reports.
 * **Click the Run Report button** once the selected parameters have been set.
@@ -66,7 +66,7 @@ The Power BI Workspaces report gives insight into the Power BI workspaces inside
 * **Click the Power BI Workspaces report tile** to be redirected to the Selection screen.
 
 After clicking the **Power BI Workspaces** report tile, the Selection step opens where you can:
-* **Selecting a resource** will provide the option to generate the following related reports: 
+* **Selecting a workspace** will provide the option to generate the following related reports: 
    * Power BI Inventory
    * Power BI Permissions
 
@@ -84,8 +84,8 @@ The Power BI Permissions report gives insight into the permissions given within 
 * **Click the Power BI Permissions report tile** to be redirected to the Selection screen.
 
 After clicking the **Power BI Permissions** report tile, the Selection step opens where you can:
-* **Select the resources** for which the report should be generated.
-   * Click the checkboxes on the screen's left side to select one or more resources. 
+* **Select the workspaces** for which the report should be generated.
+   * Click the checkboxes on the screen's left side to select one or more workspaces. 
 * **Select the resource types** that should be included in the report.
   * The choice includes dashboards, datasets, dataflows, and reports.
 * **Click the Run Report button** once the selected parameters have been set.

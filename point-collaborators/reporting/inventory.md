@@ -55,7 +55,7 @@ You can access your dashboard by clicking the **Dashboard button on the home pag
 
 The Dashboard screen provides the following options for collaborators:
 
-* **Inventory** - provides insight into the number of Microsoft Teams, Microsoft Groups, Sites, or OneDrives that you are in charge of, as well as the number of inactive resources
+* **Inventory** - provides insight into the number of Microsoft Teams, Microsoft Groups, Sites, or OneDrives that you are in charge of, as well as the number of inactive workspaces
 * **Users** - provides an overview of the total number of users that are a part of your workspaces, as well as specifics such as the number of external users, users with blocked sign-in, inactive users, and administrators
 * **External Collaboration** - provides insight into the number of external users, sites with external sharing, links shared with anyone, and sites shared with anyone when it comes to the workspaces you manage
 * **Storage** - shows how much storage was taken by your Sites, Microsoft Teams, or Microsoft Groups 

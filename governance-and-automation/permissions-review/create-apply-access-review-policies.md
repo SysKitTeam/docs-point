@@ -30,7 +30,7 @@ Here you can choose to:
  **Manage existing policies (5)**
 
 {% hint style="warning" %}
-**Please note!** The predefined Access Review policy is not applied to any resources and will not trigger an automated Access Review.
+**Please note!** The predefined Access Review policy is not applied to any workspaces and will not trigger an automated Access Review.
 {% endhint %}
 
 ![Policies Screen](../../.gitbook/assets/create-access-review-policies_default-policy.png)
@@ -99,9 +99,9 @@ To apply created Access Review Policies, navigate to **Settings** > **Governance
 The **Apply Policy report opens**, enabling you to apply created policies to your **Microsoft Teams**, **Microsoft 365 Groups**, **OneDrive**, and **sites**. 
 
 To do so:
-* **Select \(1\)** one or multiple resources; you can easily filter them by applied policies with the help of **top tiles \(2\)**
+* **Select \(1\)** one or multiple workspaces; you can easily filter them by applied policies with the help of **top tiles \(2\)**
 * **Click the Manage Policies action \(3\)**
-  * When multiple resources are selected, clicking the **arrowhead next to Manage Policies** provides a selection of the following actions to choose from: 
+  * When multiple workspaces are selected, clicking the **arrowhead next to Manage Policies** provides a selection of the following actions to choose from: 
     * **Apply Policy**
     * **Remove Policy**
     * **Remove All Policies**

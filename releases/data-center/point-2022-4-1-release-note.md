@@ -34,7 +34,7 @@ Global admin re-consent is required after the upgrade to the 2022.4.1 version. [
 
 * **Added Access Review for Private Channels.**
   * The Members and Sharing steps of the Access Review task now include Private Channels.
-* **The User Access report has** a filter for Power BI, showing user access to Power BI workspaces and the resources within those workspaces.
+* **The User Access report has** a filter for Power BI, showing user access to Power BI workspaces and the content within those workspaces.
   * **The User Details shows which Power BI workspaces** a user has rights to access.
 
 ## Improvements & Bug Fixes
