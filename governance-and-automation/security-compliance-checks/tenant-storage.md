@@ -9,7 +9,6 @@ Syskit Point mitigates the risk of running out of storage based on the settings 
 
 The purpose of the Tenant Storage Limit check is to **notify you when your storage percentage gets close to the limit you set**. This information can help you determine whether you should change the storage limit set for the policy, remove any redundant content to free up space or purchase additional storage from Microsoft.
 
-
 The Tenant Storage policy is **a tenant-wide policy, and it can be automated**. When automation is enabled, Syskit Point creates tasks and sends emails to users as defined in the policy settings. To learn more, take a look at the [Tenant Storage Limit policy article](../../governance-and-automation/automated-workflows/tenant-storage-admin.md).
 
 By default, the automation is turned off for this policy, but when the tenant storage limit is exceeded, Syskit Point **detects the policy vulnerability** and shows it on the Security and Compliance dashboard. **This means that Syskit Point detects a vulnerability on a workspace** based on the applied policy, but it does not create tasks or send any emails to workspace owners. 
@@ -43,3 +42,9 @@ Other than the actions available in the report, there are a few additional ways 
   * **Removing unnecessary or redundant content** from your sites and cleaning up your tenant to free up storage
 
 Completing any of the above actions resolves the Security & Compliance checks violation. 
+
+## Related Articles
+
+* [Optimize Storage](../../governance-and-automation/optimize-storage.md)
+* [Configure Tenant Storage Limit Policy](../../governance-and-automation/automated-workflows/tenant-storage-admin.md)
+* [Resolve Tenant Storage Limit Task](../../point-collaborators/resolve-governance-tasks/tenant-storage-limit.md)
