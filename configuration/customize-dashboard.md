@@ -4,7 +4,7 @@ description:  This article describes how you can customize your Dashboard by rea
 
 # Syskit Point Dashboard
 
-The **Syskit Point** Dashboard shows the following information in boxes:
+The **Syskit Point** Dashboard shows administrators the following information in boxes:
  * Inventory
  * Users
  * Storage
@@ -13,6 +13,12 @@ The **Syskit Point** Dashboard shows the following information in boxes:
  * Active Access Review
  * Lifecycle Management
  * Microsoft 365 Licenses
+
+The **Syskit Point** Dashboard shows collaborators the following information in boxes:
+ * Inventory
+ * Users
+ * Storage
+ * External Collaboration
 
 You can customize the order in which these feature boxes are shown based on which of the features shown on the dashboard are most important to you. 
 
