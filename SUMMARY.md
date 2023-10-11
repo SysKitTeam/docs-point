@@ -84,6 +84,7 @@
   * [Customize E-Mails](configuration/customize-emails.md)
   * [Report Data Limits](configuration/report-data-limits.md)
   * [Turn On Auditing](configuration/turn-on-auditing.md)
+  * [Customize Dashboard](configuration/customize-dashboard.md)
 * [Reporting](reporting/README.md)
   * [Overview](reporting/overview.md)
   * [External Sharing Reports](reporting/external-sharing-reports.md)
