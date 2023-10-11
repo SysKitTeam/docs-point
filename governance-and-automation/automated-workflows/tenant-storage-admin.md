@@ -24,7 +24,7 @@ The **Edit Policy** pop-up dialog opens where you can:
 
 Once the policy is set to your preference, **click the Save button (4)** to finalize. 
 
-![Tenant Storage Limit - Editing the Policy](../../.gitbook/assets/tenant-storage_edit-policy-screen.png)
+![Tenant Storage Limit - Editing the Policy](../../.gitbook/assets/tenant-storage-edit-policy-screen.png)
 
 ## Related Articles
 
