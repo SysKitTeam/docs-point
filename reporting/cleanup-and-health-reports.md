@@ -96,7 +96,7 @@ The Storage Metrics report displays your tenant-wide storage consumption over ti
 
 This report lets you check if you are at risk of running out of storage so that you can decrease clutter by optimizing or expanding your storage capability.
 
-### Generate Orphaned Users report
+### Generate Storage Metrics report
 
  * **Click the Reports tile**; located on the Syskit Point home screen.
  * **Select Cleanup & Health Check in the filter**; it can be found in the upper left corner.
