@@ -4,9 +4,9 @@ description: This article provides details helpful to collaborators and site own
 
 # Manage Workspaces
 
-Managing your workspaces in Syskit Point can **simplify the day-to-day management of teams, sites and groups** where you are the owner of the workspace or the resource where the workspace is present. 
+Managing your workspaces in Syskit Point can **simplify the day-to-day management of teams, sites and groups** where you are the owner.
 
-Managing your workspaces helps you **ensure users have access to all the resources they need** to do their work effectively as well as **identify and remove users** that should no longer have access. 
+Managing your workspaces helps you **ensure users have access to all the workspaces they need** to do their work effectively as well as **identify and remove users** that should no longer have access. 
 
 When it comes to workspace management, Syskit Point lets you easily:
  * [Manage Workspace Access](#manage-workspace-access)

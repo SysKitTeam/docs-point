@@ -30,16 +30,16 @@ It allows viewing site hierarchy and permissions down to the document level.
 
 This report can also be accessed from:
 
-* **The Sites Overview screen and The Microsoft Teams & Groups Overview screen**; select the resource and click the suitable action in the side panel.
-* **The details screen** of specific resource
+* **The Sites Overview screen and The Microsoft Teams & Groups Overview screen**; select the workspace and click the suitable action in the side panel.
+* **The details screen** of specific workspace
 * **Other reports** available in Syskit Point
    * For example, User Access Report, Externally Shared Content Report, Unique Permissions Report
 
 ### Selection & Filters
 
 After clicking the **Permissions Matrix** report tile, the Selection step opens where you can:
-* **Select the resources** for which the report should be generated.
-   * Click the checkboxes on the screen's left side to select one or more resources. 
+* **Select the workspaces** for which the report should be generated.
+   * Click the checkboxes on the screen's left side to select one or more workspaces. 
 * **Select various filter options** to refine data that will show once the report is generated
    * **see permissions for users and groups** that are:
       * internal, external, or both
@@ -56,7 +56,7 @@ After clicking the **Permissions Matrix** report tile, the Selection step opens 
 
 The default columns displayed in the report are:
       
-* **Name** of the resource
+* **Name** of the workspace
 * **Permissions levels**; depending on availability, several are shown in your environment.
    * For example **Full Control, Design, Edit, Contribute, Read, Restricted View**
       
@@ -105,7 +105,7 @@ To generate the User Access report:
 This report can also be accessed from:
 
 * **The Users Overview screen**; select the user and click the proper action in the side panel
-* **The details screen** of specific resource; Users report on the sites details screen
+* **The details screen** of specific workspace; Users report on the sites details screen
 * **Other reports available** in Syskit Point
    * For example, the External Users report
 
@@ -113,7 +113,7 @@ This report can also be accessed from:
 
 The default columns displayed in the report are:
       
-* **Name** of the user/resource
+* **Name** of the user/workspace
 * **Access**; the permissions level of the user
 * **Given Through**
 * **Details**; shows where the user received the permission from
@@ -149,15 +149,15 @@ The Unique Permissions report shows a list of objects (sites, lists, folders, fi
 * **Click the Reports tile**; it is located on the Syskit Point home screen.
 * **Select Permission Reports in the filter**; it can be found in the upper left corner.
 * **Click the Unique Permissions report** to be redirected to the options screen.
-* **Select the resources** for which the report should be generated.
-   * Click the checkboxes on the screen's left side to select one or more resources. 
+* **Select the workspaces** for which the report should be generated.
+   * Click the checkboxes on the screen's left side to select one or more workspaces. 
 * **Click the Run Report button**.
 
 
 This report can also be accessed from:
 
-* **Sites Overview screen and Microsoft Teams & Groups Overview screen**; select the resource and click the proper action in the side panel.
-* **The details screen** of a specific resource.
+* **Sites Overview screen and Microsoft Teams & Groups Overview screen**; select the workspace and click the proper action in the side panel.
+* **The details screen** of a specific workspace.
 * **Other reports available** in Syskit Point. 
   * For example, Permissions Matrix report, Externally Shared Content report, and User Access report.
 
@@ -165,7 +165,7 @@ This report can also be accessed from:
 
 The default columns displayed in the report are:
       
-* **Name** of the resource
+* **Name** of the workspace
 * **URL**
 * **Last Modified**
 * **Created On**
@@ -178,12 +178,12 @@ There are additional columns available in the **column chooser**, located in the
 
 ### Report Actions
 
-Select the resource and choose the available action from the side panel.
+Select the workspace and choose the available action from the side panel.
 
 Available actions are:
 
 *  **Stop Sharing**; for OneDrive
-*   **Delete Unique Permissions**; for other resources
+*   **Delete Unique Permissions**; for other workspaces
 
 The Unique Permissions report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
@@ -222,20 +222,20 @@ The views available when generating the report are the following:
 * **Click the Reports tile**; it is located on the Syskit Point home screen.
 * **Select Permission Reports in the filter**; it can be found in the upper left corner.
 * **Click the Group Memberships report** to be redirected to the options screen.
-* **Select the resources** for which the report should be generated.
-   * Click the checkboxes on the screen's left side to select one or more resources. 
+* **Select the workspaces** for which the report should be generated.
+   * Click the checkboxes on the screen's left side to select one or more workspaces. 
 * **Click the Run Report button**.
 
 This report can also be accessed from:
 
-* **Microsoft Teams & Groups Overview screen**; select the resource and click the proper action in the side panel
+* **Microsoft Teams & Groups Overview screen**; select the workspace and click the proper action in the side panel
 * **Teams/Groups details screen**; Members tile
 
 ### Report Data
 
 The default columns displayed in the report are:
       
-* **Display Name** of the resource
+* **Display Name** of the workspace
 * **Username**
 * **Role**
 * **Last Logged In**
@@ -301,7 +301,7 @@ After clicking the **Group Access** report tile, the Selection step opens where 
 
 The default columns displayed in the report are:
 
-* **Name** of the user/resource
+* **Name** of the user/workspace
 * **Group Type**
 * **Access**; permissions level of the user
 * **Given Through**
@@ -352,7 +352,7 @@ The Users with Privileged Access report shows all users with privileged access o
 
 The default columns displayed in the report are:
 
-* **Name** of the user/resource
+* **Name** of the user/workspace
 * **URL**
 * **Role**
 * **Sign-in Status**
@@ -383,7 +383,7 @@ The SharePoint Groups report provides a list of all SharePoint groups and their 
 * **Click the Reports tile**; it is located on the Syskit Point home screen.
 * **Select Permission Reports in the filter**; it can be found in the upper left corner.
 * **Click the SharePoint Groups report** to be redirected to the options screen.
-* **Select the resources** for which the report should be generated.
+* **Select the workspaces** for which the report should be generated.
    * Select one or more options from the available drop-down menu. 
 * **Click the Run Report button**.
 
@@ -391,7 +391,7 @@ The SharePoint Groups report provides a list of all SharePoint groups and their 
 
 The default columns displayed in the report are:
       
-* **Name** of the resource
+* **Name** of the workspace
 * **URL**
 * **Access**
 
@@ -421,7 +421,7 @@ The Microsoft Teams with Private Channels report **shows all Microsoft Teams wit
 
 The default columns displayed in the report are:
 
-* **Name** of the user/resource
+* **Name** of the user/workspace
 * **Role**
       
 There are also additional columns in the **column chooser**,  located in the top right corner of the report:

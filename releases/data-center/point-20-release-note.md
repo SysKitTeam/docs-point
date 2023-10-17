@@ -22,7 +22,7 @@ description: >-
 
 ## Features
 
-* **The Provisioning feature is available**! It enables you to define a provisioning process that fits your company’s needs, and at the same time, ensure that all newly created resources are compliant with defined governance policies. In Syskit Point, you can now:
+* **The Provisioning feature is available**! It enables you to define a provisioning process that fits your company’s needs, and at the same time, ensure that all newly created workspaces are compliant with defined governance policies. In Syskit Point, you can now:
   * **Create provisioning templates** – predefined workspace types which end-users can request
   * **Create approval processes** – you can define one-stage or multi-stage approval processes
   * **Deploy Syskit Point Teams application to end-users** Within the new [Syskit Point Teams app](../../governance-and-automation/syskit-point-teams-app.md), users will be able to:
