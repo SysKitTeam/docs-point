@@ -154,7 +154,7 @@ This tile provides the following storage metrics:
 
 Information about used storage is also given for each workspace type separately.
 
-**View All** link will open the **Largest Sites view** on the **Sites Overview** screen.
+**View All** link opens the **Storage Metrics report** showing tenant-wide storage usage, usage trend through time, and the largest sites in your tenant.
 
 ![Storage tile ](../.gitbook/assets/dashboard_storage-tile.png)
 

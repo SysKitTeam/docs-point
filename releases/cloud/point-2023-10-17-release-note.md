@@ -38,6 +38,7 @@ description: >-
 * **Storage Metrics report was improved**.
   * **The Name column opens a Site Storage Metrics report when clicked**.
   * Color coding for tenant usage and site usage was improved. In case a defined limit is reached, the usage percentage bar graph related to the site will be colored red on the tenant, as well as the site level.
+  * When clicked, the **View All link on the Storage tile on Home dashboard now opens the Storage Metrics report**. 
 
 * **Multiple policy improvements are available.**
   * **The automation option in policy settings for all policies was renamed to Task Delegation**. The name better describes the process of delegating tasks and sharing the responsibility to resolve vulnerabilities among multiple users.
