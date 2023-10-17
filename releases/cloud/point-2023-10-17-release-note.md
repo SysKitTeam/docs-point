@@ -21,6 +21,7 @@ description: >-
 
 * **Tenant Storage Limit policy receives new options and changes**!
   * **Automation was added to the policy**, meaning that **an email will be sent to Syskit Point administrators when Syskit Point detects that the defined tenant-wide storage limit was reached**. Along with an email, **a task is created for Syskit Point administrators in Syskit Point**. 
+  * **[Find more information on how to resolve the task here](../../point-collaborators/resolve-governance-tasks/tenant-storage-limit.md)**.
   * The policy now has a **vulnerability history available** that enables you to see all previously detected and resolved tenant storage limit vulnerabilities. 
 
 * **Home dashboard is now customizable**! 
@@ -38,7 +39,7 @@ description: >-
 * **Storage Metrics report was improved**.
   * **The Name column opens a Site Storage Metrics report when clicked**.
   * Color coding for tenant usage and site usage was improved. In case a defined limit is reached, the usage percentage bar graph related to the site will be colored red on the tenant, as well as the site level.
-  * When clicked, the **View All link on the Storage tile on Home dashboard now opens the Storage Metrics report**. 
+  * When clicked, the **View All link on the Storage tile on the Home dashboard now opens the Storage Metrics report**. 
 
 * **Multiple policy improvements are available.**
   * **The automation option in policy settings for all policies was renamed to Task Delegation**. The name better describes the process of delegating tasks and sharing the responsibility to resolve vulnerabilities among multiple users.

@@ -21,12 +21,12 @@ By default, **Syskit Point notifies the Syskit Point admins** of this violation.
 When Syskit Point detects that you reached the storage limit for your tenant, as predefined by your storage tenant limit policy, **you will receive an e-mail to resolve the policy violation**.
 
 You can find the following information in the e-mail:
-* **The percentage of tenant storage capacity** that is being utilized by your organization
-* **The amount of tenant storage used**
-* **The amount of tenant storage available** 
+* **The percentage of storage used on the tenant level (1)**
+* **The amount of tenant storage used in gigabytes (2)**
+* **The amount of tenant storage available (3)** 
 * **The View details button (4)** takes you to Syskit Point, where you can resolve the policy violation
 
-![Policy Violation E-mail](../../.gitbook/assets/minimum_number_of_owners-email.png)
+![Policy Violation E-mail](../../.gitbook/assets/tenant-storage-limit-email.png)
 
 **Click the View details button to open the policy violation task** in Syskit Point.
 
