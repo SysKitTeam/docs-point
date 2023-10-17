@@ -7,11 +7,11 @@ description: This article provides information on the Tenant Storage Limit repor
 
 Syskit Point mitigates the risk of running out of storage based on the settings defined in the tenant-wide [policy](../automated-workflows/tenant-storage-admin.md). 
 
-The purpose of the Tenant Storage Limit check is to **notify you when your storage percentage gets close to the limit you set**. This information can help you determine whether you should change the storage limit set for the policy, remove any redundant content to free up space or purchase additional storage from Microsoft.
+The purpose of the Tenant Storage Limit check is to **notify you when your storage percentage gets close to the limit you set**. This information can help you determine whether you should change the storage limit set for the policy, remove any redundant content to free up space, or purchase additional storage from Microsoft.
 
 The Tenant Storage policy is **a tenant-wide policy, and it can be automated**. When automation is enabled, Syskit Point creates tasks and sends emails to users as defined in the policy settings. To learn more, take a look at the [Tenant Storage Limit policy article](../../governance-and-automation/automated-workflows/tenant-storage-admin.md).
 
-By default, the automation is turned on for this policy. If the policy automation is turned off, when the tenant storage limit is exceeded, Syskit Point still **detects the policy vulnerability** and shows it on the Security and Compliance dashboard. **This means that Syskit Point detects a vulnerability on a workspace** based on the applied policy, but if the policy automation is turned off, it does not create tasks or send any emails to workspace owners. 
+By default, the automation is turned on for this policy. If the policy automation is turned off when the tenant storage limit is exceeded, Syskit Point still **detects the policy vulnerability** and shows it on the Security and Compliance dashboard. This means that Syskit Point detects a vulnerability in the tenant based on the policy, but **if the policy automation is turned off, it does not create tasks or send any emails** to Syskit Point Administrators. 
 
 The purpose of this is to assist Syskit Point admins by
 bringing awareness of potential issues in their Microsoft 365 environment. 
