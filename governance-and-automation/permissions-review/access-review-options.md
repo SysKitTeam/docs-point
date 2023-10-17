@@ -27,10 +27,10 @@ The **Manage Reviewers report** opens, where you can:
 * **Select one or multiple users \(1\)**
 * **Remove one or multiple users from reviewers \(2\)**
 * **Manage Admins or Owners \(3\)**
-* **Filter out resources without reviewers \(4\)** or otherwise filter the grid with the help of top tiles
+* **Filter out workspaces without reviewers \(4\)** or otherwise filter the grid with the help of top tiles
 * **Switch the view \(5\)** - choose between two options:
-  * **Show by Content** - root node is a resource with all reviewers shown as child nodes
-  * **Show by Users** - root node is a user, with all resources where he is a reviewer shown as child nodes
+  * **Show by Content** - root node is a workspace with all reviewers shown as child nodes
+  * **Show by Users** - root node is a user, with all workspaces where he is a reviewer shown as child nodes
 * **Find the number of active reviewers \(6\)** on all **Microsoft Teams**, **Microsoft 365 Groups**, **OneDrive**, and **sites**
 * **See the Review Status of users \(7\)** - users removed from reviewers are shown as **Not Reviewing** status
 
@@ -39,7 +39,7 @@ The **Manage Reviewers report** opens, where you can:
 ## Review Options
 
 {% hint style="warning" %}
-**Please note!** Review options will apply to all resources included in the Automated Access Review process, regardless of the applied policy.
+**Please note!** Review options will apply to all workspaces included in the Automated Access Review process, regardless of the applied policy.
 {% endhint %}
 
 Here you can:

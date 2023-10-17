@@ -4,7 +4,7 @@ description: This article provides details on how to schedule reports as a colla
 
 # Schedule Reports
 
-When you manage permissions and resources in your Microsoft 365 tenant, it is important to stay regularly updated on some aspects of your M365 workspaces. 
+When you manage permissions and workspaces in your Microsoft 365 tenant, it is important to stay regularly updated on some aspects of your M365 workspaces. 
 
 Rather than generating specific reports manually every time you need them, **Syskit Point allows you to automate report generation** and sends the reports to you at your selected frequency.
 

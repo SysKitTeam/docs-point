@@ -18,9 +18,9 @@ Directly from your home screen, you will see several things that need to be inve
 
 * **Teams and Groups with only 1 owner (2)** – shows the number of workspaces with only 1 owner and takes you to Microsoft Teams & Groups overview, where you will be able to investigate further and assign additional owners if needed. You need to keep an eye on this, **if that one owner leaves, a workspace is left without an owner**. 
 
-* **Teams and Groups without active owners (3)** – shows the number of Microsoft Teams & Groups without an active owner. If you click on it, it drills down to the Microsoft Teams & Groups without active owners report, which helps manage Microsoft 365 resources' health and helps **ensure there are no abandoned resources** in your tenant. 
+* **Teams and Groups without active owners (3)** – shows the number of Microsoft Teams & Groups without an active owner. If you click on it, it drills down to the Microsoft Teams & Groups without active owners report, which helps manage Microsoft 365 workspaces' health and helps **ensure there are no abandoned workspaces** in your tenant. 
 
-* **Orphaned users (4)** - shows the number of orphaned users and takes you to the Orphaned Users report, which helps **detect and remove blocked/disabled or deleted users** from your Microsoft 365 resources. 
+* **Orphaned users (4)** - shows the number of orphaned users and takes you to the Orphaned Users report, which helps **detect and remove blocked/disabled or deleted users** from your Microsoft 365 workspaces. 
 
 * **Blocked users with assigned licenses (5)** - shows the number of users with one or more active licenses assigned that have been blocked, which helps you **detect and remove licenses** that are not being utilized.
 

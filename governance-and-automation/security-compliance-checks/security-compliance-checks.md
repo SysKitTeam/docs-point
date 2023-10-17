@@ -38,7 +38,7 @@ You are also able to [set up Policy Automation](../../governance-and-automation/
 After clicking View All, the Security and Compliance checks dashboard will open, showing the following: 
 
 
-* **Orphaned workspaces (1)** - shows the number of workspaces without an active owner. It helps you manage your Microsoft 365 workspace's health and helps **ensure there are no abandoned resources** and **workspaces without owners** in your tenant. 
+* **Orphaned workspaces (1)** - shows the number of workspaces without an active owner. It helps you manage your Microsoft 365 workspace's health and helps **ensure there are no workspaces without owners** in your tenant. 
 
 * **Inactive Guest Users (2)** - shows the number of guest users that have been inactive for a certain amount of time and helps you optimize your environment and keep it safe.
 

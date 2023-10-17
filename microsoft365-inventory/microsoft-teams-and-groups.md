@@ -78,7 +78,7 @@ The Microsoft Teams & Groups report can be **exported as PDF and XLSX files**. T
 
 On the right side of the report, there is a Manage section that provides the ability to **Configure Tenant Wide Alerts**.
 
-Selecting resources provides several actions that can be taken.
+Selecting workspaces provides several actions that can be taken.
 
 The Manage actions available are: 
   * Change Owners

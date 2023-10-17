@@ -10,7 +10,7 @@ This can be done through **sharing links or by adding external users** to Micros
 
 **Sharing links** allow you to **send a link to a specific document or folder** to someone **outside of your organization**. This gives them access to view or edit the file. 
 
-**External users** are people who are not part of your organization but who **are granted access to specific resources**, such as a site or a Microsoft Team.
+**External users** are people who are not part of your organization but who **are granted access to specific workspaces**, such as a site or a Microsoft Team.
 
 **Managing external sharing** is important for collaborators and owners of workspaces because it **helps to ensure that confidential or sensitive information is not shared with unauthorized individuals**. 
 

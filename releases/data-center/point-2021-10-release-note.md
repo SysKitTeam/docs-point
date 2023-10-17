@@ -39,12 +39,12 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 ## Improvements & Bug Fixes
 
-* **Syskit Point sync was optimized**! Syskit Point now only syncs OD files, group channels and settings, and users based on changes detected with the help of delta links, thus **saving valuable time and resources**.
+* **Syskit Point sync was optimized**! Syskit Point now only syncs OneDrive files, group channels and settings, and users based on changes detected with the help of delta links, thus **saving valuable time and resources**.
 * **Overview screens in Syskit Point are now faster**! **Sites**, **Microsoft Teams and Groups**, and **Users** screens are faster, even **when dealing with large data sets** (we are talking in millions here), and provide an improved user experience. All the data, filters, and views look and feel the same; you will only **get the results faster**.
 * **All group types with e-mail are now supported when configuring alerts**, **creating provisioning templates**, or **setting up policies**. You can now **select distribution lists**, **Microsoft 365 groups**, or **e-mail enabled security groups**, ensuring that the tasks and e-mails are sent to the desired group of users.
 * **Improved how Syskit Point calculates the Last Modified and Last Activity data**. With this improvement, Syskit Point will always fill the Last activity date and that the Last Modified date is older than or equal to Created on date.
 * **Improved Access Review notifications**, **naming**, **and actions are available**. The following has changed:
-  * **Syskit Point will now send an e-mail to all owners once the Access Review is completed** on their resources
+  * **Syskit Point will now send an e-mail to all owners once the Access Review is completed** on their workspaces
   * **Overdue tasks were renamed Expired**
   * **Syskit Point admins can now request a new Access Review for expired tasks** from the Access Review Summary screen
   * **You can now select the Access Review policy when manually requesting an Access Review** for workspaces without an assigned policy.

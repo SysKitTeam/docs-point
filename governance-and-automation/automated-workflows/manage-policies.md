@@ -32,19 +32,19 @@ To do so, navigate to the Policies settings screen, and click the **Manage Polic
 ![Manage Policies](../../.gitbook/assets/set_up_automated_workflows-apply_policy.png)
 
 The Manage Policies screen opens where you can:
-* **Find resources that don't have any policies applied (1)**; when the tile is clicked, the report only displays resources that have no policies applied
-* **Find the number of resources that have a specific policy type applied (2)**; when a tile is clicked, the report only displays resources with the selected policy applied
-* **Filter the report per policy or resource type (3)**
-* **Select one or multiple resources (4)**
-* **View all policies applied on a specific resource (6)**
-* **Click the Manage Policies button (6)**; if multiple resources are selected, clicking the arrow next to Manage Policies provides the options to choose between:
+* **Find workspaces that don't have any policies applied (1)**; when the tile is clicked, the report only displays workspaces that have no policies applied
+* **Find the number of workspaces that have a specific policy type applied (2)**; when a tile is clicked, the report only displays workspaces with the selected policy applied
+* **Filter the report per policy or workspace type (3)**
+* **Select one or multiple workspaces (4)**
+* **View all policies applied on a specific workspace (6)**
+* **Click the Manage Policies button (6)**; if multiple workspaces are selected, clicking the arrow next to Manage Policies provides the options to choose between:
    * **Apply Policy**
    * **Remove Policy**
    * **Remove All Policies** 
 
 ![Manage Policies Screen](../../.gitbook/assets/set_up_automated_workflows-apply_policy_report.png)
 
-After clicking the **Manage Policies (6)** button, the **Manage Policy** dialog opens, where you can **select a policy** and **apply** the chosen policy on the selected resources grouped by the policy type.
+After clicking the **Manage Policies (6)** button, the **Manage Policy** dialog opens, where you can **select a policy** and **apply** the chosen policy on the selected workspaces grouped by the policy type.
 
 ![Manage Policies Dialog](../../.gitbook/assets/set_up_automated_workflows-apply_policy_dialog.png)
 

@@ -1,5 +1,5 @@
 ---
-description: External Sharing Reports provide information about the external users and their access to your resources.
+description: External Sharing Reports provide information about the external users and their access to your workspaces.
 ---
 
 # External Sharing Reports

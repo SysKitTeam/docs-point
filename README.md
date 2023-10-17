@@ -9,7 +9,7 @@ Deep visibility, powerful management, and automated governance – gain it all w
 
 **DISCOVER**
 
-**Save hours of manual work and gain visibility with a centralized inventory:** users, structure, sharing, and resources across Microsoft Teams, Groups, OneDrive, SharePoint sites, and Power BI.
+**Save hours of manual work and gain visibility with a centralized inventory:** users, structure, sharing, and workspaces across Microsoft Teams, Groups, OneDrive, SharePoint sites, and Power BI.
 
 Focus less on exploring, **be efficient**, and provide a better and safer collaboration experience.
 

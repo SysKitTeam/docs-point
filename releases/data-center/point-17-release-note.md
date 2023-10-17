@@ -80,7 +80,7 @@ Let the festivities begin; **Syskit Point 17 is here**! Although it's still Nove
 
   `System.InvalidOperationException: Collection was modified; enumeration operation may not execute.`
 
-* **Fixed a bug** where the side panel showed erroneous information for the selected resource regarding the state of the last Access Review. Although the previous Access Review was completed, the following message was displayed: `Review ended n day(s) ago. Task was not completed in time.`
+* **Fixed a bug** where the side panel showed erroneous information for the selected workspace regarding the state of the last Access Review. Although the previous Access Review was completed, the following message was displayed: `Review ended n day(s) ago. Task was not completed in time.`
 * **Fixed a bug** where the OneDrive report link was not displayed in the side panel if a user was selected on the Users Overview screen. The report link is now displayed as intended. 
 * **Fixed an issue** where the site sync would fail, and the following error was thrown: `Errors loading data for list <list_name> ("<list_url>") (<object_id>) System.InvalidOperationException: There is an error in XML document.`
 * **Fixed a bug** with the export of Sites Overview report where the ‘Storage Used’ column data was exported in bytes. The excel export now shows data in megabytes as the column name suggests – Storage Used \[MB\].
