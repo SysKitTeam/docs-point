@@ -4,7 +4,7 @@ description:  This article describes how you can customize your Dashboard by rea
 
 # Syskit Point Dashboard
 
-The **Syskit Point** Dashboard shows administrators the following information in boxes:
+The **Syskit Point** Dashboard shows Syskit Point administrators the following information in boxes:
  * Inventory
  * Users
  * Storage
@@ -14,7 +14,7 @@ The **Syskit Point** Dashboard shows administrators the following information in
  * Lifecycle Management
  * Microsoft 365 Licenses
 
-The **Syskit Point** Dashboard shows collaborators the following information in boxes:
+The **Syskit Point** Dashboard shows Syskit Point collaborators the following information in boxes:
  * Inventory
  * Users
  * Storage
