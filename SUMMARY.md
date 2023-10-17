@@ -205,6 +205,7 @@
     * [Resolve Minimum Number of Owners Tasks](point-collaborators/resolve-governance-tasks/minimum-number-of-owners.md)
     * [Resolve Maximum Number of Owners Tasks](point-collaborators/resolve-governance-tasks/maximum-number-of-owners.md)
     * [Resolve Orphaned Workspaces Tasks](point-collaborators/resolve-governance-tasks/orphaned-resources.md)
+    * [Resolve Tenant Storage Limit Task](point-collaborators/resolve-governance-tasks/tenant-storage-limit.md)
   * [Manage Access](point-collaborators/manage-access/README.md)
     * [Manage External Sharing](point-collaborators/manage-access/manage-external-sharing.md)
     * [Manage Users](point-collaborators/manage-access/manage-users.md)
