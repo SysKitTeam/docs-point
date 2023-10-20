@@ -75,7 +75,7 @@ A **Lifecycle Management Overview** screen appears where you can check:
 
 When you click to resolve the task for workspaces that require your attention, you will be redirected to the **Awaiting Response** report, where you will find all the workspaces that require some sort of action. Workspaces that you find there can be **Orphaned** workspaces or workspaces that have **Overdue** tasks.
 
-On that screen, you can choose a workspace and perform lifecycle management actions \(**keep**, **archive**, **delete**\) or add **owners of members** to the workspace.
+On that screen, you can choose a workspace and perform lifecycle management actions \(**keep**, **archive**, **delete**\) or add **owners or members** to the workspace.
 
 If the Lifecycle Management task is Overdue, the following actions can be completed: 
   * **Owners can still resolve tasks** by deciding to Keep or Archive the workspace
