@@ -1,5 +1,5 @@
 ---
-description: External Sharing Reports provide information about the external users and their access to your tenant resources.
+description: External Sharing Reports provide information about the external users and their access to your tenant workspaces.
 ---
 
 # External Sharing Reports
@@ -101,14 +101,14 @@ The default columns displayed in the report are:
 * **Last Logged In** DateTime
     
 There is one additional column available in the column chooser.
-  * **Site Type**; shows the type of workspace for resource
+  * **Site Type**; shows the type of workspace
 
 
 ### Report Actions
 
 The actions that can be taken here are the following:
 
-* **Remove access for users** from a resource
+* **Remove access for users** from a workspace
 * **Generate User Access and User Activity reports**
 * **View additional information about who added the external user inside your Microsoft 365 environment**
 
@@ -125,7 +125,7 @@ Use this to **locate and remove sharing links** when necessary.
 
 This report can be accessed from:
 
-* The **details screen of specific resource** by clicking the **Sharing Links tile**
+* The **details screen of specific workspace** by clicking the **Sharing Links tile**
 * The **Report Center**
 * **Other reports** available in Syskit Point 
   * For example, **Permissions Matrix report, Externally Shared Content report, and Unique Permissions report**
@@ -154,7 +154,7 @@ After clicking the **Sharing Links** report tile, a selection step opens where y
 
 There are default columns displayed in the report which list the following:
     
-* **Name** of the resource
+* **Name** of the workspace
 * **URL**
 * **Link**
 * **Link Type**

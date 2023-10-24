@@ -14,7 +14,7 @@ Click the **Manage Policies button (1)** to apply the policy.
 
 ## Applying the Policy to Workspaces
 
-Select one or more resources that the Access Requests policy should be applied to by **clicking the checkbox (1)** on the left side of the screen.
+Select one or more workspaces that the Access Requests policy should be applied to by **clicking the checkbox (1)** on the left side of the screen.
   * Selecting one or more workspaces shows the **Manage Policies (2)** option on the right side of the screen under the Manage category
   * **Click Manage Policies (2)** 
 

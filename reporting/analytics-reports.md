@@ -91,32 +91,32 @@ The Site Structure report can be **exported as PDF and XLSX files**. There is al
 
 The Inactive Content report provides the ability to quickly detect unused sites, Microsoft 365 Groups, and Microsoft Teams in your Microsoft 365 environment. 
 
-This report can be used to stay up to date with any unused resources in the environment to keep it clean and healthy.
+This report can be used to stay up to date with any unused workspaces in the environment to keep it clean and healthy.
 
 ### Generate Inactive Content Report
 
 * **Click the Reports tile**; it is located on the Syskit Point home screen.
 * **Select Analytics in the filter**; it can be found in the upper left corner.
 * **Click the Inactive Content report** to be redirected to the options screen.
-  * **Select which type of resource** the report should be generated for (Site, Microsoft 365 Group, or Microsoft Team)
+  * **Select which type of workspaces** the report should be generated for (Site, Microsoft 365 Group, or Microsoft Team)
 * **Click the Run Report button**.
 
 ### Inactive Content Report Data
 
-When the report has been successfully generated, all of the currently inactive resources in your environment can be found there. 
+When the report has been successfully generated, all of the currently inactive workspaces in your environment can be found there. 
 
 The Inactive Content report data can be **exported into PDF and XLSX formats**.
 
-Select one or multiple resources to perform Lifecycle Management actions on those resources:
+Select one or multiple workspaces to perform Lifecycle Management actions on them:
 
- * Choose to **Keep, Archive or Delete** the resources or ask the **owner to Renew** the resources. 
+ * Choose to **Keep, Archive or Delete** the workspaces or ask the **owner to Renew** the workspaces. 
 
-When any of those actions are completed on a resource, it will no longer be visible on the Inactive Content Report.
+When any of those actions are completed on a workspace, it will no longer be visible on the Inactive Content Report.
 
 When looking at the generated reports, the following columns can be found:
 
-- **Name**; shows the name of the inactive resource.
-- **SharePoint, Exchange, Teams, and Yammer activity column;** shows inactivity based on the last date any activity was made on the resource.
+- **Name**; shows the name of the inactive workspace.
+- **SharePoint, Exchange, Teams, and Yammer activity column;** shows inactivity based on the last date any activity was made on the workspace.
 - **Lifecycle Management**; shows if the site was monitored for activity by Syskit Point Lifecycle Management.
 
 ## SharePoint Activity Report
@@ -131,13 +131,13 @@ To see this report, **the Adoption and Analytics module** needs to be installed 
 
 
 - Click the SharePoint Activity report.
-- On the Selection screen, choose which resources you want to generate a report; select a time frame on the bottom filter and click the Run Report button.
+- On the Selection screen, choose which workspaces you want to generate a report for; select a time frame on the bottom filter and click the Run Report button.
 
 
 * **Click the Reports tile**; located on the Syskit Point home screen.
 * **Select Analytics in the filter**; located in the upper left corner.
 * **Click the SharePoint Activity report** to be redirected to the **Selections screen**.
-  * **Select which resource** the report should be generated for, and select the time frame on the bottom filter.
+  * **Select which workspace** the report should be generated for, and select the time frame on the bottom filter.
 * **Click the Run Report button**.
 
 ### SharePoint Activity Report Data
@@ -162,7 +162,7 @@ To view this report, the Adoption and Analytics module needs to be installed in 
 * **Click the Reports tile**; located on the Syskit Point home screen.
 * **Select Analytics in the filter**; located in the upper left corner.
 * **Click the Most Popular Content report** to be redirected to the **Selections screen**.
-  * **Select which resource** the report should be generated for; in the bottom filter, select the time frame and choose between **Pages or Documents**. 
+  * **Select which workspace** the report should be generated for; in the bottom filter, select the time frame and choose between **Pages or Documents**. 
 * **Click the Run Report button**.
 
 ### Most Popular Content Report Data
@@ -175,7 +175,7 @@ The columns that are seen by default are:
 
 - **Name**; shows the name of the page or document. 
   * When clicked on, it redirected to the details page of that page or document in Syskit Point.
-- **Site Name**; shows the name of the resource where the most popular document is. 
+- **Site Name**; shows the name of the workspace where the most popular document is. 
   * When clicked on, it redirects to the site details page in Syskit Point.
 - **Hit Count**; shows the unique number of hits on the page or document.
 - **Unique Visitors Count**; shows the number of unique visitors that have visited the page or document.

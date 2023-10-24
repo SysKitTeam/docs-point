@@ -24,7 +24,7 @@ Along with autumn comes a new version of Syskit Point packed with new features a
     [To learn more about the new User Access report, navigate to the following article.](../access-management/check-access-for-specific-user.md)
 * **Syskit Point gets Dashboard!** Here you can:
   * **see what was happening in your Microsoft 365 environment** in the last 30 days at a glance  
-  * **find summary data on your resources**, **internal and external users**, **sharing links**, and **used storage** - **all numbers are drillable**, taking you to the related reports which will show more details 
+  * **find summary data on your workspaces**, **internal and external users**, **sharing links**, and **used storage** - **all numbers are drillable**, taking you to the related reports which will show more details 
   * **detect potential issues**, for example, if your environment has inactive or orphaned workspaces
   
     [Find more information about the new Dashboard here.](../microsoft365-inventory/explore-your-microsoft-365-dashboard.md)
@@ -38,8 +38,8 @@ Along with autumn comes a new version of Syskit Point packed with new features a
 ## Improvements & Bug Fixes
 
 * **Improved detection of password protected sharing links** in Syskit Point. Password protected anonymous links are now correctly displayed on Permissions Matrix, Sharing Links, User Access, and Anonymous Links reports.
-* **The Orphaned Groups report was improved.** It now shows all orphaned workspaces \(Microsoft Teams, Microsoft 365 Groups, and SharePoint sites\), resources with no owners, and provides you with the Change Admins action for classic sites. Since it's no longer limited to groups, it was renamed Orphaned Workspaces.
-* **Improved the Access Review experience** by showing information about the currently active Access Review in the side panel in case a resource is selected. Additionally, when an Access Review is created for a single resource, the resource name is displayed in the Access Review title.
+* **The Orphaned Groups report was improved.** It now shows all orphaned workspaces \(Microsoft Teams, Microsoft 365 Groups, and SharePoint sites\), workspaces with no owners, and provides you with the Change Admins action for classic sites. Since it's no longer limited to groups, it was renamed Orphaned Workspaces.
+* **Improved the Access Review experience** by showing information about the currently active Access Review in the side panel in case a workspace is selected. Additionally, when an Access Review is created for a single workspace, the workspace name is displayed in the Access Review title.
 * **Email customization was improved** by adding the size, dimensions, and format information and validation on all email customization forms.
 * **Improved the Edit Permissions dialogue** by adding the list of existing group members. That way, when editing group permissions, you can see all users that will be affected by the change.
 * **The Remove Sharing Link action was improved** by adding the list of users currently using it to the action dialog displayed when removing a company-wide sharing link.
@@ -53,6 +53,6 @@ Along with autumn comes a new version of Syskit Point packed with new features a
 * **Fixed a bug** where deleted sites would show up as not synced on the Sync Status Report.
 * **Fixed a bug** where Grant Access action would not work on other reports and views except on the Permissions Matrix.
 * **Fixed an issue** where the External Users Report would not show correct information about who added the guest users.
-* **Removed the Sync option** erroneously displayed on the site details page of deleted resources.
+* **Removed the Sync option** erroneously displayed on the site details page of deleted workspaces.
 * **Various UX/UI improvements and minor fixes** available. With this version, **Syskit Point switches to Microsoft's new Microsoft 365 icons**.
 

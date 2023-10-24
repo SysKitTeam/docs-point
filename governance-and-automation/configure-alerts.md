@@ -81,7 +81,7 @@ The **Configure Alerts action (1)** is available in the right-side panel.
 
 The following table shows the **availability of alerts per scope**:
 
-| Alert Category                              | Alerts                                                                                                                                                                                                                              | Resource / Scope                                       |
+| Alert Category                              | Alerts                                                                                                                                                                                                                              | Workspace / Scope                                       |
 | ------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
 | External Collaboration                      | Shared File or Folder Externally, External User File Activity                                                                                                                                                                       | Microsoft Teams, Microsoft 365 Groups, OneDrive, sites |
 | Sharing Activities                          | Shared File or Folder, Shared With Everyone                                                                                                                                                                                         | Microsoft Teams, Microsoft 365 Groups, OneDrive, sites |
@@ -114,7 +114,7 @@ The following **alert categories and alerts are available for a specific user**:
 
 {% hint style="warning" %}
 **Please note!**\
-The following section explains how to enable and customize an alert on a specific site. The same principles from this example also apply when dealing with alerts for other types of resources - Microsoft Teams, Microsoft 365 Groups, OneDrive, users, or SharePoint objects such as document libraries or folders.
+The following section explains how to enable and customize an alert on a specific site. The same principles from this example also apply when dealing with alerts for other types of workspaces - Microsoft Teams, Microsoft 365 Groups, OneDrive, users, or SharePoint objects such as document libraries or folders.
 {% endhint %}
 
 To enable alerts for a specific site:

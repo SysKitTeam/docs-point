@@ -13,7 +13,7 @@ In this article, you can locate information on:
 * [Storage Metrics](#storage-metrics)
 * [Site Storage](#site-storagetypo)
 
-Use Orphaned Users and Orphaned Workspaces reports to **detect and manage orphaned users and resources**, the Storage Metric to view your **tenant-wide storage consumption** and **determine if you're at risk of running out of storage**, and the Site Storage to gain **insight into the storage used by a particular site** and identify any potentially unusual spikes. 
+Use Orphaned Users and Orphaned Workspaces reports to **detect and manage orphaned users and workspaces**, and the Storage Metric to view your **tenant-wide storage consumption** and **determine if you're at risk of running out of storage**. 
 
 ## Orphaned Users
 
@@ -21,7 +21,7 @@ The Orphaned Users report displays all orphaned users in your tenant environment
 
 It shows **all the users that have been blocked or deleted from Azure Active Directory**. 
 
-This report helps detect and remove blocked/disabled or deleted users from your Microsoft 365 resources.
+This report helps detect and remove blocked/disabled or deleted users from your Microsoft 365 workspaces.
 
 ### Generate Orphaned Users report
 
@@ -36,8 +36,8 @@ Once the report is successfully generated, the following data will be displayed 
 
 * **User**; the name of the user that is orphaned. 
    * When clicked, the User Details page of the selected user is opened.
-* **Site**; the name of the resource where said user is a member. 
-   * When clicked, the page will be redirected to the Site Details screen of the selected resource.
+* **Site**; the name of the workspace where said user is a member. 
+   * When clicked, the page will be redirected to the Site Details screen of the selected workspace.
 * **Status**; defines whether the user was deleted or disabled in Azure Active Directory.
 * **Department**; shows which department in the company the Orphaned User operated in. 
   * Only if that data is available from Azure Active Directory. 
@@ -45,8 +45,8 @@ Once the report is successfully generated, the following data will be displayed 
 
 For more details, there are also additional columns available in the column chooser:
 
-* **Site Type**; defines the resource by SharePoint Site, Microsoft Team, Microsoft 365 Group, or OneDrive.
-* **URL**; a direct link to the selected resource on the Microsoft 365 tenant.
+* **Site Type**; defines the workspace by SharePoint Site, Microsoft Team, Microsoft 365 Group, or OneDrive.
+* **URL**; a direct link to the selected workspace on the Microsoft 365 tenant.
 * **Username**; shows the Microsoft 365 tenant username for the orphaned user.
 
 To group the report results by one or multiple columns, drag a column header to the designated place in the upper left corner of the report. 
@@ -60,9 +60,9 @@ The Orphaned Users report can be **exported as PDF and XLSX files**. There is al
 
 The Orphaned Workspaces report displays all the SharePoint Sites, Microsoft Teams, or Microsoft 365 groups in your tenant that don't have an active owner or administrator.
 
-  * The last owner of those resources is either deleted or blocked in Azure Active Directory. 
+  * The last owner of those workspaces is either deleted or blocked in Azure Active Directory. 
 
-This report helps manage Microsoft 365 resources' health and helps ensure there are no abandoned resources in your tenant.
+This report helps manage Microsoft 365 workspaces' health and helps ensure there are no abandoned workspaces in your tenant.
 
 
 ### Generate Orphaned Workspaces report
@@ -74,20 +74,20 @@ This report helps manage Microsoft 365 resources' health and helps ensure there 
 ### Report Data
 Once the report is successfully generated, the following data will be displayed in the columns:
 
-* **Name**; the name of the resource that is orphaned.
-* **Blocked Admins**; shows the orphaned user who was the resource owner.
+* **Name**; the name of the workspace that is orphaned.
+* **Blocked Admins**; shows the orphaned user who was the workspace owner.
 * **Users**; shows the current number of members in the orphaned workspace.
 
 There are also additional columns in the column chooser:
 
-* **Site Type**; defines the resource, whether it was a SharePoint Site, Microsoft Team, Microsoft 365 Group
-* **URL**; direct link to the selected resource on the Microsoft 365 tenant.
+* **Site Type**; defines the workspace, whether it was a SharePoint Site, Microsoft Team, Microsoft 365 Group
+* **URL**; direct link to the selected workspace on the Microsoft 365 tenant.
 
 
-**Change the owner** of the selected resource by removing the orphaned user and promoting an active user to be the owner of the selected resource. 
+**Change the owner** of the selected workspace by removing the orphaned user and promoting an active user to be the owner of the selected workspace. 
   * This can be done by selecting a row on the report. 
 
-After executing that action, the selected resource **will no longer be visible on the Orphaned Workspaces** report.
+After executing that action, the selected workspace **will no longer be visible on the Orphaned Workspaces** report.
 
 The Orphaned Workspaces report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 

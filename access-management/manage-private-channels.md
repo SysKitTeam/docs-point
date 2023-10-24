@@ -20,7 +20,7 @@ There are several ways to manage and change the access to private channels from 
 To manage private channel access, complete the following: 
 
 * **Click the Microsoft Teams & Groups tile (1)**; this is located on the home screen of Syskit Point. 
-* **Select the team or group to manage (2)**; clicking the selected resource opens the details screen.
+* **Select the team or group to manage (2)**; clicking the selected workspace opens the details screen.
 * On the details screen, **scroll to the Channels section (3)**; the private channels will be marked by a lock symbol next to their name. 
 * **Click the private channel (4)**; this opens the details screen of the channel.
 
@@ -31,7 +31,7 @@ Another way to access private channels is through the **Sites screen** by taking
 * **Click the Sites tile (1)**; located on the home screen of Syskit Point. 
 * **Select the site to manage (2)**; the private channel site is marked with a lock symbol near its name. 
   * Clicking the selected site opens the details screen.
-* **Under General Information (3)** click the resource shown under **Related Channel (4)**.  
+* **Under General Information (3)** click the channel name shown under **Related Channel (4)**.  
   * This opens the details screen of the private channel.
 
   

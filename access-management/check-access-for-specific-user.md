@@ -62,10 +62,10 @@ Now that you are located on the **User Access selection** **screen**:
 Now that you have **successfully** generated the **User Access report**, you'll see the following information:
 
 * **User (1)** for which you have generated the report.
-* All **types of resources (2)** \(**Sites**, **Microsoft Teams**, **Microsoft 365 Groups**, **Power BI**, and **OneDrive** accounts\) that user has some kind of **access** to.
-* What kind of **access (3)** does the user have on a said **resource**.
+* All **types of workspaces (2)** \(**Sites**, **Microsoft Teams**, **Microsoft 365 Groups**, **Power BI**, and **OneDrive** accounts\) that user has some kind of **access** to.
+* What kind of **access (3)** does the user have on a said **workspace**.
 * **How** the access was **given (4)** to said user - **directly or through a group**, for example
-* **Details (5)** containing **exact resources** through which the user got their **permissions**; **Microsoft 365 Groups** and **Microsoft Teams** shown here are **drillable (6)**, opening their respective **detail screens**.
+* **Details (5)** containing **exact workspaces** through which the user got their **permissions**; **Microsoft 365 Groups** and **Microsoft Teams** shown here are **drillable (6)**, opening their respective **detail screens**.
 * You can **schedule and export the report as PDF or Excel (7)**. 
 
 ![User Access - Report structure](../.gitbook/assets/access-for-specific-user_user-report-details.png)
@@ -77,13 +77,13 @@ There are several ways to remove access for a user through the report:
      * On the right side of the screen, the option to **Remove Access (2)** will show.
        * After clicking the Remove Access action, a **pop-up will appear**, providing more details on what the action will entail and prompting you to confirm by typing **REMOVE** in the space available.
        * Clicking the **Remove(3)** button will finalize the action.  
-    * This can also be completed for a single resource by clicking the option to expand, located next to the user's name, and selecting the specific resource. 
+    * This can also be completed for a single workspace by clicking the option to expand, located next to the user's name, and selecting the specific workspace. 
 
 ![User Access - Remove Access action](../.gitbook/assets/access-for-specific-user_user-remove.png)
 
 ![Syskit Point User Access report Remove Access action prompt](../.gitbook/assets/access-for-specific-user_access-removed.png)
 
-After completing the action, you will receive a **notification** containing the **see the result** link, which reloads the report data when clicked. Once the action is completed, the user will no longer have access to any resources. 
+After completing the action, you will receive a **notification** containing the **see the result** link, which reloads the report data when clicked. Once the action is completed, the user will no longer have access to any workspace. 
 
 {% hint style="warning" %}
 **Please note!**  
@@ -91,7 +91,7 @@ Any user that had their access removed will successfully be removed from any pri
 {% endhint %}
 
 You can also remove access for a specific user by clicking the user's name from the report. This will redirect you to the **user details screen**.
-  * Scroll down to the **Access tile (1)**, and you'll have the option to either **select all resources (2)** or select them individually to perform the **Remove Access (3)** action.
+  * Scroll down to the **Access tile (1)**, and you'll have the option to either **select all workspaces (2)** or select them individually to perform the **Remove Access (3)** action.
 
 ![User Details Screen - Remove Access](../.gitbook/assets/access-for-specific-user_user-details-screen.png)
 

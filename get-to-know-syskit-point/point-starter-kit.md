@@ -8,7 +8,7 @@ Syskit Point is a **scalable and easy-to-use management and governance platform 
 
 Your flow of using Syskit Point can go like this, and we will explain each part and link to resources you might need:
 
-* [**Discover**](point-starter-kit.md#discover-microsoft-365-inventory): Start by centralizing users, structure, and resources across Microsoft 365 Groups, Microsoft Teams, OneDrive, SharePoint, and Power Platform services.
+* [**Discover**](point-starter-kit.md#discover-microsoft-365-inventory): Start by centralizing users, structure, and workspaces across Microsoft 365 Groups, Microsoft Teams, OneDrive, SharePoint, and Power Platform services.
 * [**Secure**](point-starter-kit.md#secure-reporting-and-management) & [**Protect**](point-starter-kit.md#protect-auditing): Drill down and dig deep to get a detailed overview of who has access to what and audit user actions, including external users, supported by bulk management actions.
 * [**Efficient Control**](point-starter-kit.md#control-governance-automation-and-lifecycle-management): Automate and enforce governance procedures and policies across Microsoft 365 to gain control over all processes. Manage workspaces lifecycle from its creation to its end of life.
 * **Collaborate**: Make end users your reliable partners in governance. Enable them to help you secure the data and manage their workspaces to reduce uncontrolled sprawl and unnecessary sharing.
@@ -20,7 +20,7 @@ If you are a free trial user, we recommend reading about activation, some limita
 
 ## DISCOVER: MICROSOFT 365 INVENTORY <a href="#discover-microsoft-365-inventory" id="discover-microsoft-365-inventory"></a>
 
-Gain a highly accurate and centralized view of all users and resources **across Microsoft Teams, Groups, OneDrive, SharePoint, and Power BI**.
+Gain a highly accurate and centralized view of all users and workspaces **across Microsoft Teams, Groups, OneDrive, SharePoint, and Power BI**.
 
 Drill down into detailed reports about structure, memberships, permissions, and much more - gain efficiency and secure your data. Avoid jumping from one admin center to another.
 

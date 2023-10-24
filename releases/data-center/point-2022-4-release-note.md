@@ -57,7 +57,7 @@ Global admin re-consent is required after the upgrade to the 2022.4 version. [Le
 
 ## Improvements & Bug Fixes
 
-* **Fixed a bug** where Group Memberships showed permanently deleted resources when accessing the User details report.
+* **Fixed a bug** where Group Memberships showed permanently deleted workspaces when accessing the User details report.
 * **Fixed an issue** where the Sharing Links report was incorrectly throttled when running the report for a large number of sites.
 * **Fixed a bug** that prevented selecting which activities to collect from the Unified Audit Log.
 * **Fixed a bug** where Syskit Point’s Microsoft Teams app interface was not updated after deploying a new Syskit Point version.
