@@ -11,8 +11,9 @@ In this article, you can locate information on:
 * [Orphaned Users](#orphaned-users) 
 * [Orphaned Workspaces](#orphaned-workspaces)
 * [Storage Metrics](#storage-metrics)
+* [Site Storage](#site-storage)
 
-Use Orphaned Users and Orphaned Workspaces reports to **detect and manage orphaned users and workspaces**, and the Storage Metric to view your **tenant-wide storage consumption** and **determine if you're at risk of running out of storage**. 
+Use Orphaned Users and Orphaned Workspaces reports to **detect and manage orphaned users and workspaces**, the Storage Metric to view your **tenant-wide storage consumption** and **determine if you're at risk of running out of storage**, and the Site Storage to gain **insight into the storage used by a particular site** and identify any potentially unusual spikes. 
 
 ## Orphaned Users
 
@@ -24,7 +25,7 @@ This report helps detect and remove blocked/disabled or deleted users from your 
 
 ### Generate Orphaned Users report
 
- * **Click the Reports button**; located on the left side of the screen.
+ * **Click the Reports button** located on the left side of the screen.
  * **Select Cleanup & Health Check in the filter**; it can be found in the upper left corner.
  * **Click the Orphaned Users report** to generate the report.
 
@@ -66,7 +67,7 @@ This report helps manage Microsoft 365 workspaces' health and helps ensure there
 
 ### Generate Orphaned Workspaces report
 
- * **Click the Reports button**; located left side of the screen.
+ * **Click the Reports button** located on the left side of the screen.
  * **Select Cleanup & Health Check in the filter**; it can be found in the upper left corner.
  * **Click the Orphaned Workspaces report** to generate the report.
 
@@ -98,10 +99,9 @@ This report lets you check if you are at risk of running out of storage so that 
 
 ### Generate Storage Metrics report
 
- * **Click the Reports tile**; located on the Syskit Point home screen.
+ * **Click the Reports button** located on the left side of the screen.
  * **Select Cleanup & Health Check in the filter**; it can be found in the upper left corner.
  * **Click the Storage Metrics report** to generate the report.
-
 
 ### Report Data
 
@@ -113,12 +113,49 @@ Once the report is successfully generated, the following information is availabl
 The following data will be displayed in the columns:
 
 * **Name**; the name of the site.
-   * Clicking the name opens the Site Details page of the selected workspaces.
+   * Clicking the name opens the Site Storage report for the selected workspaces.
 * **Storage Metrics URL**; the link for the site. 
-   * Clicking the link opens the Site Details page of the selected workspaces.
+   * Clicking the link opens the Storage Metrics page of the selected workspaces in SharePoint.
 * **Primary Admin**; shows the admins of the site. 
 * **Last Activity**; shows the date the last activity on the site happened.
 * **Size**; shows the size of the site.
 * **Storage Limit**; show the storage limit for the site.
 * **% of Limit**; shows the percentage of how close to the storage limit your site is.
 * **Alert on % of Limit**; shows the percentage at which you are alerted of being close to your storage limit. 
+
+
+## Site Storage
+
+The Site Storage Metrics report displays your storage consumption across your sites over time.  
+
+The report lets you check on the amount of storage used by sites in your tenant. This makes it easier to maintain and organize your sites in order to optimize storage per site.
+
+### Generate Site Storage report
+
+ * **Click the Reports button** located on the left side of the screen.
+ * **Select Cleanup & Health Check in the filter**; it can be found in the upper left corner.
+ * **Click the Storage Metrics report** to generate the tenant-wide storage metric report.
+ * Under the Largest Sites section, **click the name of the site** you want to generate a report for.
+
+
+### Report Data
+
+Once the site report is successfully generated, the following information is available:
+
+ * **The Site Trend chart** shows a graph that depicts your site storage usage over time in the last 180 days.
+ * **The Site Storage Usage tile** on the right side shows the percentage of used storage out of the total number of available storage for your site.
+
+The following data will be displayed in the columns:
+
+* **Name**; the name of the site.
+   * Clicking the name opens the Site Details page of the selected workspaces.
+   * Clicking the arrow symbol next to the name expands the site details to show all content included in the site.
+* **Type**; shows what type of site or content it is.
+* **Extension**; shows any extensions to the site or content.
+* **Size**; shows the size of the site or content.
+* **Size (All Versions)**; shows the amount of storage taken by the site or specific content within the workspace.
+* **Size (% of the site storage)**; shows the percentage of storage used by the site or content.
+* **File Versions**; shows the versions of the files.
+* **Author**; shows the author of the content.
+* **Storage Limit**; show the storage limit for the site.
+* **Last Activity**; shows the date the last activity on the site or content happened.
