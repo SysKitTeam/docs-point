@@ -46,10 +46,17 @@ On the left side of the screen, you will find buttons to access the following fe
 * **Report** – create security and audit activities across your workspaces. 
 * **Tasks** - resolve current tasks and keep your environment secure and organized
 * **Govern** - stay up to date with governance in your environment
+* **Settings** - set up & configure your Syskit Point preferences; this is available and visible only to Syskit Point Administrators
+
+To view a specific section, click the appropriate tile or button.
 
 ![Syskit Point - Welcome Home screen](../.gitbook/assets/syskit-point-quick-start-guide-syskit-point-home-screen.png)
 
-To view a specific section, click the appropriate tile.
+The top right corner contains 3 additional buttons:
+
+  * **Notifications** - shows alerts and actions that occurred recently in your Syskit Point environment
+  * **Profile** - includes your profile details and contains buttons that lead to **Scheduled Reports** and **Alerts** as well as the **Sing Out** button
+  * **Help** - quick access to Syskit Point documentation, contact us form, and what's new dialog
 
 ## Navigation
 
