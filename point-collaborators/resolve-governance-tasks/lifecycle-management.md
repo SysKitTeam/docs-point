@@ -107,22 +107,15 @@ The emails display an appropriate message depending on the time left to complete
 
 ![Lifecycle Management – Reminder email](../../.gitbook/assets/lifecycle-management\_reminder-email.png)
 
-## Expired Tasks
+## Overdue Tasks
 
-If the opportunity to decide what to do with the inactive workspace is missed, Syskit Point automatically changes the status of all incomplete Lifecycle Management tasks to **Expired**.
+If the opportunity to decide what to do with the inactive workspace is missed, **Owners can still complete the overdue tasks** for all policies.
 
-They can be found on the **My Tasks screen** under the Completed Lifecycle Management view.
+**Collaborators** can find the overdue task under Active tasks in their My Tasks section, but it will show as Overdue.
+
+They can be found on the **My Tasks screen** under the Active Lifecycle Management view.
 
 ![My Tasks – Expired tasks](../../.gitbook/assets/lifecycle-management\_expired-tasks.png)
-
-{% hint style="warning" %}
-**Please note!**\
-Expired tasks are now **assigned to Syskit Point Admins** and can no longer be completed by site owners or admins.
-{% endhint %}
-
-When a site owner or admin opens an expired task, the task details screen shows a message stating, 'This task has expired.' We have transferred it back to the Syskit Point Admin'.
-
-![Task details screen – Expired task](../../.gitbook/assets/lifecycle-management\_expired-task-details.png)
 
 # Resolve Lifecycle Management Tasks
 
