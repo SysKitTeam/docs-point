@@ -202,7 +202,7 @@ In the **Filters** tab, you can limit the alerts to be triggered only when:
 
 In the **Events** tab, you can choose events for which Syskit Point will raise an alert. By default, all events are selected. Click the checkbox to ignore the event.
 
-![Configure Alerts - Events tab](../.gitbook/assets/configure-alerts\_events-tab.png)
+![Configure Alerts - Events tab](../.gitbook/assets/configure-alerts-events-tab.png)
 
 ## Alert E-mail
 
@@ -271,4 +271,4 @@ On the **Alerts History** screen, you can:
 * Click the **View All Alerts link (2)** to open the **Alerts History** screen
 {% endhint %}
 
-![Notifications dropdown](../.gitbook/assets/configure-alerts\_notifications-dropdown.png)
+![Notifications dropdown](../.gitbook/assets/configure-alerts-notifications-dropdown.png)
