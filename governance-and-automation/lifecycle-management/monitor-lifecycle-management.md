@@ -38,7 +38,7 @@ Let’s say that lifecycle management automation was enabled for your Microsoft 
 * newly detected **inactive workspaces** \(1\)
 * workspaces that **require** the Syskit Point Admins **attention** \(workspaces still awaiting a response or ones that might be without owners\) \(2\)
 
-![Syskit Point - Weekly Summary e-mail](../../.gitbook/assets/0%20%281%29.png)
+![Syskit Point - Weekly Summary e-mail](../../.gitbook/assets/monitor-lifecycle-management-tasks-weekly-summary-email.png)
 
 Click the **Discover More** if you wish to see which new workspaces are now inactive. When logged in to Syskit Point, this link opens the Lifecycle Management Overview screen.
 
