@@ -28,7 +28,7 @@ Quickly detect and troubleshoot potential issues, security breaches, or suspicio
 
 ### Generate Report
 
- * **Click the Reports tile**; it is located on the Syskit Point home screen.
+* **Click the Reports button**; it is located on left side of your Syskit Point.
  * **Select Audit Logs in the filter**; it can be found in the upper left corner.
  * **Click the Audit Logs Overview report** to generate the report.
 
@@ -71,7 +71,7 @@ Use this report to **see all Exchange-related activity in your environment**.
 
 ### Generate Report
 
- * **Click the Reports tile**; it is located on the Syskit Point home screen.
+* **Click the Reports button**; it is located on left side of your Syskit Point.
  * **Select Audit Logs in the filter**; it can be found in the upper left corner.
  * **Click the Exchange Logs report** to generate the report.
 
@@ -123,7 +123,7 @@ This report provides insight into details for any permissions changes on selecte
 
 ### Generate Report
 
- * **Click the Reports tile**; it is located on the Syskit Point home screen.
+* **Click the Reports button**; it is located on left side of your Syskit Point.
  * **Select Audit Logs in the filter**; it can be found in the upper left corner.
  * **Click the Site Permissions Changes report** to generate the report.
 
@@ -177,7 +177,7 @@ Selecting a single user provides insight into what they have been doing in the e
 
 ### Generate Report
 
- * **Click the Reports tile**; it is located on the Syskit Point home screen.
+* **Click the Reports button**; it is located on left side of your Syskit Point.
  * **Select Audit Logs in the filter**; it can be found in the upper left corner.
  * **Click the User Activity report** to generate the report.
 
@@ -225,7 +225,7 @@ View who accessed and edited files/folders in your environment, as well as who v
 
 ### Generate Report
 
- * **Click the Reports tile**; it is located on the Syskit Point home screen.
+* **Click the Reports button**; it is located on left side of your Syskit Point.
  * **Select Audit Logs in the filter**; it can be found in the upper left corner.
  * **Click the File and Page Activities report** to generate the report.
 
