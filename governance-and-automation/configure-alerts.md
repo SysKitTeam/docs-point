@@ -42,7 +42,7 @@ You can enable and configure tenant-wide alerts on the following overview screen
 
 The **Configure Tenant Wide Alerts action (1)** is available in the right-side panel on all of the listed screens.
 
-![Sites - Configure Tenant Wide Alerts action](../.gitbook/assets/configure-alerts\_configure-tenant-wide-alerts.png)
+![Sites - Configure Tenant Wide Alerts action](../.gitbook/assets/configure-alerts-configure-tenant-wide-alerts.png)
 
 {% hint style="warning" %}
 **Please note!**\
@@ -77,7 +77,7 @@ Site-specific alerts can be enabled from the following screens:
 
 The **Configure Alerts action (1)** is available in the right-side panel.
 
-![Sites - Configure Alerts action](<../.gitbook/assets/configure-alerts\_configure-alerts (1) (1) (1) (1) (1) (4).png>)
+![Sites - Configure Alerts action](../.gitbook/assets/configure-alerts-configure-site-specific-alerts.png)
 
 The following table shows the **availability of alerts per scope**:
 
@@ -102,7 +102,7 @@ User-specific alerts can be enabled on the following screens:
 
 The **Configure Alerts action (1)** is available in the right-side panel.
 
-![Users - Configure Alerts action](../.gitbook/assets/configure-alerts\_configure-user-alerts.png)
+![Users - Configure Alerts action](../.gitbook/assets/configure-alerts-configure-user-alerts.png)
 
 The following **alert categories and alerts are available for a specific user**:
 
@@ -123,7 +123,7 @@ To enable alerts for a specific site:
 * **Select a site (1)**
 * **Click the Configure Alerts (2) link**
 
-![Sites overview screen - Configure Alerts action](<../.gitbook/assets/configure-alerts\_configure-alerts (1) (1) (1) (1) (1) (1) (1).png>)
+![Sites overview screen - Configure Alerts action](../.gitbook/assets/configure-alerts-configure-site-specific-alerts.png)
 
 The **Configure Alerts** dialog opens. Here, the following is available:
 
@@ -132,11 +132,11 @@ The **Configure Alerts** dialog opens. Here, the following is available:
   * Click the arrowhead next to the alert category to expand
 * **Search (3)**
 * **Alert state toggle (4)**
-  * The toggle should turn orange when an alert is active
+  * The toggle should turn purple when an alert is active
 * **Alert options section (5)**
   * This section is inactive until the alert is enabled
 
-![Configure Alerts dialog](../.gitbook/assets/configure-alerts\_configure-alerts-dialog.png)
+![Configure Alerts dialog](../.gitbook/assets/configure-alerts-configure-alerts-dialog.png)
 
 To enable and start editing an alert, switch the **toggle next to the alert title (4)**.
 
@@ -146,7 +146,7 @@ After you enable the alert, the alert options section is activated. Here you can
 * **Filters (2)**
 * **Event Type (3)**
 
-![Configure Alerts - Tabs](../.gitbook/assets/configure-alerts\_configure-alerts-tabs.png)
+![Configure Alerts - Tabs](../.gitbook/assets/configure-alerts-configure-alerts-tabs.png)
 
 {% hint style="warning" %}
 **Please note!**\
@@ -168,7 +168,7 @@ On the **Notifications** tab, you can:
   * **Selected number**
     * Emails are no longer sent after the alert is triggered more than a selected number of times
 
-![Configure Alerts - Notifications tab](../.gitbook/assets/configure-alerts\_notifications-tab.png)
+![Configure Alerts - Notifications tab](../.gitbook/assets/configure-alerts-notifications-tab.png)
 
 In the **Filters** tab, you can limit the alerts to be triggered only when:
 
@@ -198,11 +198,11 @@ In the **Filters** tab, you can limit the alerts to be triggered only when:
   * **Equals None of**
     * Additional input of IPs / IP ranges is required
 
-![Configure Alerts - Filters tab](../.gitbook/assets/configure-alerts\_filters-tab.png)
+![Configure Alerts - Filters tab](../.gitbook/assets/configure-alerts-filters-tab.png)
 
 In the **Events** tab, you can choose events for which Syskit Point will raise an alert. By default, all events are selected. Click the checkbox to ignore the event.
 
-![Configure Alerts - Events tab](../.gitbook/assets/configure-alerts\_events-tab.png)
+![Configure Alerts - Events tab](../.gitbook/assets/configure-alerts-events-tab.png)
 
 ## Alert E-mail
 
@@ -210,13 +210,13 @@ When Syskit Point collects audit logs, if there is an event you decided to monit
 
 The picture below is an example of such an e-mail. Click the **View Alerts Details** link to access the Alert details screen in Syskit Point.
 
-![Alert E-mail](../.gitbook/assets/configure-alerts\_alert-email.png)
+![Alert E-mail](../.gitbook/assets/configure-alerts-alert-email.png)
 
 ## Editing Alerts
 
 The **Edit Alert** action is available on two screens - **Alerts overview screen** and **Alert Details**.
 
-![Edit Alert dialog](../.gitbook/assets/configure-alerts\_alerts-overview-edit-alert-action-dialog.png)
+![Edit Alert dialog](../.gitbook/assets/configure-alerts-alerts-overview-edit-alert-action-dialog.png)
 
 {% hint style="success" %}
 **You can edit all alerts on overview screens where you initially enabled them** - both tenant-wide and site- or user-specific alerts.
@@ -224,17 +224,11 @@ The **Edit Alert** action is available on two screens - **Alerts overview screen
 
 ## Alert Reports
 
-When you login into Syskit Point as Point admin, you will see the **Alerts** tile in the lower part of the Home screen.
+When you login into Syskit Point as Point admin, you can find the **Alerts** button by clicking your profile in the top right corner of the screen. 
 
-![Home screen - Alerts tile](../.gitbook/assets/configure-alerts\_welcome-home-alerts-tile.png)
+![Home screen - Alerts tile](../.gitbook/assets/configure-alerts-welcome-home-alerts-tile.png)
 
-Click the tile to open the **Alerts** report. Here you can see all alerts that are currently enabled.
-
-{% hint style="success" %}
-You can also access the **Alerts** screen from the **user profile menu** in the upper right corner.
-{% endhint %}
-
-![Alerts report link](../.gitbook/assets/configure-alerts\_persona-dropdown-alerts-overview-link.png)
+Click the button to open the **Alerts** report. Here you can see all alerts that are currently enabled.
 
 On the **Alerts** overview screen, you can:
 
@@ -242,7 +236,7 @@ On the **Alerts** overview screen, you can:
 * Select additional columns in the **column chooser (2)**
 * Find two actions - **Disable Alert** and **Edit Alert (3)** when you select a single row
 
-![Alerts overview screen](../.gitbook/assets/configure-alerts\_alerts-overview-screen.png)
+![Alerts overview screen](../.gitbook/assets/configure-alerts-alerts-overview-screen.png)
 
 {% hint style="success" %}
 **Disable alert** action allows selecting multiple rows.
@@ -252,14 +246,14 @@ When you haven't selected anything on the screen, an **Add Alert (2)** action is
 
 Here is also a link to the **Alerts History (1)** screen, which shows all triggered alerts in your environment.
 
-![Alerts Overview screen – no row selection](../.gitbook/assets/configure-alerts\_alerts-overview-screen-no-row-selection.png)
+![Alerts Overview screen – no row selection](../.gitbook/assets/configure-alerts-alerts-overview-screen-no-row-selection.png)
 
 On the **Alerts History** screen, you can:
 
 * Select one or multiple rows and **mark alerts as resolved, and write a comment (1)**
 * Open **details screen for a single alert** **(2)**
 
-![Alerts History screen](../.gitbook/assets/configure-alerts\_alerts-history-screen.png)
+![Alerts History screen](../.gitbook/assets/configure-alerts-alerts-history-screen.png)
 
 **Alert Details** screen allows you to see additional information about the alert. Here you can:
 
@@ -268,7 +262,7 @@ On the **Alerts History** screen, you can:
 * **Expand the More Details (3)** section - here, all audit logs related to this alert are listed
 * **Export** both sections - **triggered alerts and alert audit details (4)**
 
-![Alert Details screen](../.gitbook/assets/configure-alerts\_alert-detials-screen.png)
+![Alert Details screen](../.gitbook/assets/configure-alerts-alert-details-screen.png)
 
 {% hint style="info" %}
 **Hint!** When you open the **Notifications dropdown** from the user profile menu, you can:
@@ -277,4 +271,4 @@ On the **Alerts History** screen, you can:
 * Click the **View All Alerts link (2)** to open the **Alerts History** screen
 {% endhint %}
 
-![Notifications dropdown](../.gitbook/assets/configure-alerts\_notifications-dropdown.png)
+![Notifications dropdown](../.gitbook/assets/configure-alerts-notifications-dropdown.png)
