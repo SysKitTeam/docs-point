@@ -1,11 +1,9 @@
 ---
 description: >-
-  This article provides importantn information about the upcoming release of Syskit Point Cloud.
+  This article provides important information about the upcoming release of Syskit Point Cloud.
 ---
 
-# Syskit Point Cloud - Upcoming Release Announcement 
-
-Syskit Point is constantly evolving to serve you better and with this release, we wanted to bring your attention to **2 enhancements that will require your action**. 
+Syskit Point is constantly evolving to serve you better, and with this release, we wanted to bring your attention to **2 enhancements that will require your action**. 
 
  
 ## When Can You Expect the New Release? 
@@ -31,7 +29,7 @@ Without the required permissions, the efficiency and accuracy of this functional
 
 ## ACTION NO.2: Upgrade the Syskit Point Teams App   
 
-**We have improved Syskit Point Teams App to ensure compatibility with the New Microsoft Teams**. We highly advise to upgrade the Syskit Point Teams App to eliminate any potential compatibility issues once you decide to migrate to the New Microsoft Teams. 
+**We have improved the Syskit Point Teams App to ensure compatibility with the New Microsoft Teams**. We highly advise upgrading the Syskit Point Teams App to eliminate any potential compatibility issues once you decide to migrate to the New Microsoft Teams. 
 
 **What Do You Need to Do?** 
 
