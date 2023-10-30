@@ -12,6 +12,7 @@ In this article, you can locate information on:
 * [Orphaned Workspaces](#orphaned-workspaces)
 * [Storage Metrics](#storage-metrics)
 * [Site Storage](#site-storage)
+* [File Storage](#file-storage)
 
 Use Orphaned Users and Orphaned Workspaces reports to **detect and manage orphaned users and workspaces**, the Storage Metric to view your **tenant-wide storage consumption** and **determine if you're at risk of running out of storage**, and the Site Storage to gain **insight into the storage used by a particular site** and identify any potentially unusual spikes. 
 
@@ -159,3 +160,50 @@ The following data will be displayed in the columns:
 * **Author**; shows the author of the content.
 * **Storage Limit**; show the storage limit for the site.
 * **Last Activity**; shows the date the last activity on the site or content happened.
+
+## File Storage
+
+{% hint style="information" %}
+**The File Storage Details Report** is only available in the Governance plan or above. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% endhint %}
+
+
+The File Storage Details report displays the state of your storage across specific files.  
+
+The report lets you check on the amount of storage used by files in your tenant. This makes it easier to keep track of and organize your content on specific sites in order to optimize storage.
+
+### Generate Site Storage Report
+
+ * **Click the Reports button** located on the left side of the screen.
+ * **Select Cleanup & Health Check in the filter**; it can be found in the upper left corner.
+ * **Click the Storage Metrics report** to generate the tenant-wide storage metric report.
+ * Under the Largest Sites section, **click the name of the site** you want to check the content for.
+ * Under the Largest Files & Folders section, **click the arrow next to the folders** to expand them until you reach the list of files within the folder.
+ * **Click the name of the file** you want to generate the report for.
+
+
+### Report Data
+
+Once the site report is successfully generated, the following information is available at the top of the report:
+
+ * **The amount of storage** used by all versions of this file expressed in bytes.
+ * **The amount of storage used** that is older than 30 days.
+ * **The size of all versions of the files** except the newest 20 versions.
+    * This metric can be edited in Settings. 
+
+Above the columns of the report, you can find:
+
+ * The file name
+ * The author of the file
+ * The URL to the site and file
+ * The date of the last activity on the file
+
+
+The following data will be displayed in the columns:
+
+* **Version Number**; the number of the version of the file.
+* **Created on**; the date the version of the file was created.
+* **Created by**; the person this version of the file was created by. 
+* **Size**; shows the size of the version of the file. 
+
+You can also **export this report as a PDF or Excel file**, or **schedule it**, to have it regularly delivered to your email. 
