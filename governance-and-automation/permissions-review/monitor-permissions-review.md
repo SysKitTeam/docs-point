@@ -68,9 +68,9 @@ On the start date of the automated Access Review, **Access Review tasks are crea
 
 **Each site owner gets one Access Review task**, and that task includes **all sites where the said user is the site owner**.
 
-To **track the currently active Access Review** **progress**, Syskit Point Admins can **use the Governance screen**. To access it, **click the Governance tile** on the Home screen.
+To **track the currently active Access Review** **progress**, Syskit Point Admins can **use the Governance screen**. To access it, **click the Governance button** on the left side of the screen.
 
-![Home screen - Governance tile](../../.gitbook/assets/monitor-permissions-review\_home-screen.png)
+![Home screen - Governance tile](../../.gitbook/assets/monitor-permissions-review_home-screen.png)
 
 When clicked, the Governance screen opens, providing a summary of the active automated Access Review. Here, the following is displayed:
 
@@ -84,7 +84,7 @@ When clicked, the Governance screen opens, providing a summary of the active aut
 * **Number of completed Access Reviews by site type (5)**
 * **See Review Details** **button (6)**, which opens the **Access Review** report
 
-![Governance - Access Review](../../.gitbook/assets/monitor-permissions-review\_governance.png)
+![Governance - Access Review](../../.gitbook/assets/monitor-permissions-review_governance.png)
 
 The Access Review report gives Syskit Point Admins the following information:
 
@@ -97,7 +97,7 @@ The Access Review report gives Syskit Point Admins the following information:
   * **Review (7)** - only available if Syskit Point Admin is also the owner of the selected workspace
   * **View Details (8)** - available when one or multiple workspaces are selected; opens the [**Access Review - Summary**](monitor-permissions-review.md#access-review---summary) report
 
-![Governance - Access Review](../../.gitbook/assets/monitor-permissions-review\_permissions-review.png)
+![Governance - Access Review](../../.gitbook/assets/monitor-permissions-review_permissions-review.png)
 
 Use the **Remind Owners action** to send a reminder email to site owners regarding the ongoing Access Review. You can use this action **once a day**, whenever you think appropriate, **as long as the Access Review is active**. **Only site owners with pending tasks will receive an email**.
 

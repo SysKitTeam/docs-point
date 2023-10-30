@@ -8,31 +8,33 @@ The **Dashboard** screen provides you with the information needed to see the who
 
 You can use Dashboard to:
 
-* **see what was happening in your Microsoft 365 environment** in the last 30 days at a glance  
+* **see what was happening in your Microsoft 365 environment** at a glance  
 * **find summary data** on your workspaces, internal and external users, sharing links, and used storage - all numbers are drillable, taking you to the related reports, which will show more details 
 * **detect potential issues**, for example, if your environment has inactive or orphaned workspaces
 
-You can access the **Dashboard** screen from:
+The Dahboard is the home page of Syskit Point and shows as soon as you log in. 
 
-* the **Welcome Home** screen
-* the **Home dropdown menu** on any other screen within the application 
+The **Syskit Point** Dashboard shows Syskit Point administrators the following information in the tiles:
+ * Inventory
+ * Users
+ * Storage
+ * Security & Compliance
+ * External Collaboration
+ * Active Access Review
+ * Lifecycle Management
+ * Microsoft 365 Licenses
 
-![Dashboard tile on the Welcome Home screen](../.gitbook/assets/dashboard_dashboard-tile-on-welcome-home-screen.png)
+The **Syskit Point** Dashboard shows Syskit Point collaborators the following information in the tiles:
+ * Inventory
+ * Users
+ * Storage
+ * External Collaboration
 
-![Dashboard tile on the Home dropdown menu](../.gitbook/assets/dashboard_dashboard-tile-on-home-dropdown-menu.png)
 
-The Dashboard screen shows six tiles:
-
-* **Inventory**
-* **Users**
-* **External Collaboration**
-* **Storage**
-* **Access Review**
-* **Lifecycle Management**
-
-![Dashboard screen](../.gitbook/assets/dashboard_dashboard-screen.png)
+![Dashboard tile on the Welcome Home screen](../.gitbook/assets/explore-dashboard-dashboard-tiles-on-welcome-home-screen.png)
 
 Below, each tile is described in more detail.
+
 
 ## Inventory
 
@@ -40,14 +42,13 @@ In Inventory, you can find the information about the total number of:
 
 * **Microsoft Teams** 
 * **Microsoft 365 Groups** 
-* **SharePoint sites** 
+* **SharePoint Sites** 
 * **OneDrive**
-* **Orphaned workspaces**
 * **Inactive workspaces**
 
 Each of these numbers is drillable, and, once clicked, opens the Sites Overview screen filtered to show appropriate data.
 
-![Inventory tile](../.gitbook/assets/dashboard_inventory-tile.png)
+![Inventory tile](../.gitbook/assets/explore-dashboard-inventory-tile.png)
 
 For the **period of the last 30 days**, you can find the number of new items for each workspace type.
 
@@ -70,8 +71,8 @@ The number of inactive workspaces **will be visible 10 days after the first inst
 
 Similarly, **clicking the number** of orphaned workspaces will open the **Orphaned Workspaces** report in the **Report Center**.
 
-## Users
 
+## Users
 This tile contains the following information:
 
 * **the total number of users** in your environment
@@ -84,6 +85,57 @@ To access detailed information about all users, click the total number of users 
 ![Users tile](../.gitbook/assets/dashboard_users-tile.png)
 
 Each of the numbers drills to the appropriate view in the **Users Overview** screen, where you can perform further actions on each user by selecting them and choosing an action from the side panel.
+
+## Storage
+
+This tile provides the following storage metrics:
+
+* **total storage**
+* **used storage**
+* **free storage**
+
+Information about used storage is also given for each workspace type separately.
+
+**View All** link opens the **Storage Metrics report** showing tenant-wide storage usage, usage trend through time, and the largest sites in your tenant.
+
+![Storage tile ](../.gitbook/assets/dashboard_storage-tile.png)
+
+{% hint style="info" %}
+**Learn more!**  
+The used storage number is calculated for all the files, including those in the recycle bin, as well as archived files. OneDrive storage is not included in the metrics.
+{% endhint %}
+
+{% hint style="warning" %}
+**Please note!**  
+Storage data displayed on the Dashboard can differ from the data provided by the **SharePoint admin center** since it doesn't include changes made within the last 24-48 hours, as described [here](https://docs.microsoft.com/en-us/sharepoint/manage-site-collection-storage-limits).
+{% endhint %}
+
+## Security & Compliance
+
+The Security and Compliance Checks tile shows the most important vulnerabilities and misalignments in your environment. These checks keep you up-to-date in order to react quickly and efficiently to keep your environment secure and under control.
+
+The tile on the Dashboard shows:
+ * The number of high-rish vulnerabilities
+ * The number of medium-risk vulnerabilities
+ * The number of low-risk vulnerabilities
+
+Clicking on **View All** redirects you to the Security and Compliance checks screen. 
+
+The following information is tracked and available there:
+
+ * Orphaned Workspaces
+ * Inactive Guest Users
+ * Tenant Storage Limit
+ * Blocked Users with Assigned Licenses
+ * Workspaces with Not Enough Owners
+ * Orphaned Users
+ * Workspaces with Too Many Owners
+
+
+
+Syskit Point performs regular security and compliance checks for you and presents the results directly on your home screen.
+
+[For more details on Security and Compliance checks, take a look at this article.](../governance-and-automation/security-compliance-checks/security-compliance-checks.md)
 
 ## External Collaboration
 
@@ -106,7 +158,7 @@ Clicking the **Anonymous Links** number opens the **Sharing Links** report in Re
 
 The last information on this tile is the number of **Sites With Anonymous Sharing**. The drill opens the **Anonymous Sharing view** on the Sites Overview screen. Here, only workspaces with the external sharing settings set to **'Anyone'** are displayed.
 
-## Access and Lifecycle Management
+## Access Review & Lifecycle Management
 
 The **Access** and **Lifecycle Management** tiles show the progress of current automated tasks.
 
@@ -144,27 +196,7 @@ Every number is drillable and opens the dedicated screen in the Governance secti
 
 **Workspaces that require attention are highlighted with red color** and displayed on the bottom of the tile. Clicking the link opens the **Awaiting Response** screen, where you can decide how to resolve tasks for these workspaces.
 
-## Storage
+## Microsoft 365 Licenses
 
-This tile provides the following storage metrics:
-
-* **total storage**
-* **used storage**
-* **free storage**
-
-Information about used storage is also given for each workspace type separately.
-
-**View All** link opens the **Storage Metrics report** showing tenant-wide storage usage, usage trend through time, and the largest sites in your tenant.
-
-![Storage tile ](../.gitbook/assets/dashboard_storage-tile.png)
-
-{% hint style="info" %}
-**Learn more!**  
-The used storage number is calculated for all the files, including those in the recycle bin, as well as archived files. OneDrive storage is not included in the metrics.
-{% endhint %}
-
-{% hint style="warning" %}
-**Please note!**  
-Storage data displayed on the Dashboard can differ from the data provided by the **SharePoint admin center** since it doesn't include changes made within the last 24-48 hours, as described [here](https://docs.microsoft.com/en-us/sharepoint/manage-site-collection-storage-limits).
-{% endhint %}
+WHOLE NEW INFO
 
