@@ -135,6 +135,7 @@
     * [Enable or Disable Provisioning](governance-and-automation/provisioning/enable-disable-provisioning.md)
     * [Register Yammer App](governance-and-automation/provisioning/register-yammer-app.md)
     * [Enable Sensitivity Labels](governance-and-automation/provisioning/enable-sensitivity-labels.md)
+    * [Manage Sensitivity Labels](governance-and-automation/provisioning/manage-sensitivity-labels.md)
     * [Restrict Microsoft 365 Groups Creation](governance-and-automation/provisioning/restrict-group-creation.md)
     * [Templates](governance-and-automation/provisioning/templates.md)
     * [Configure Provisioning Failure Notifications](governance-and-automation/provisioning/configure-provisioning-failure-notifications.md)
