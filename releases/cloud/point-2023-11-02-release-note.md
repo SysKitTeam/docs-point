@@ -28,7 +28,7 @@ Global admin re-consent is required after the upgrade to the latest version. Con
     * Multiselect is also supported. 
     * **Please note that modifying the sensitivity labels can take up to 24 hours to propagate**. 
     * To apply or remove sensitivity labels, a dedicated Microsoft 365 service account for SysKit Point needs to be connected.
-    * [Learn more about this action in the new article](TODO).
+    * [Learn more about this action in the new article](../../governance-and-automation/manage-sensitivity-labels.md).
 
 * **New File Storage Details** report is available!
     * Drill from the Site Storage Metrics report to the File Storage Details report by clicking a file name.
