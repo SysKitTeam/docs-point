@@ -57,7 +57,7 @@ Defined site storage limit and percentage of used storage defined for email noti
 **The report is available to Syskit Point administrators only**.
 {% endhint %}
 
-The new Storage Metrics report is available in the latest Syskit Point version, and helps you:
+The new [Storage Metrics report](../reporting/cleanup-and-health-reports.md#storage-metrics) is available in the latest Syskit Point version, and helps you:
 * **Discover the percentage of used storage in your tenant (1)**
 * **See a trend of your storage usage over time (2)**
 * **Find the largest sites in your tenant (3)**
@@ -75,9 +75,7 @@ Once you detect the largest sites with the help of the Storage Metrics report, u
 
 ![Storage Metrics Report in Point](../.gitbook/assets/optimize-storage-storage-metrics-report-point.png)
 
-{% hint style="information" %}
-The Storage Metrics report provides the storage trend and storage information on a tenant level, with plans to add site and file-level reports in upcoming releases.
-{% endhint %}
+There are also the [Site Storage](../../point-collaborators/resolve-governance-tasks/tenant-storage-limit.md#site-storage) and the [File Storage](../../point-collaborators/resolve-governance-tasks/tenant-storage-limit.md#file-storage) reports available. 
 
 ## Free Up Storage
 
@@ -113,4 +111,6 @@ On the next screen, you can:
 * [Configure Tenant Storage Limit Policy](../governance-and-automation/automated-workflows/tenant-storage-admin.md)
 * [Tenant Storage Security & Compliance Check](../../governance-and-automation/security-compliance-checks/tenant-storage.md)
 * [Resolve Tenant Storage Limit Task](../../point-collaborators/resolve-governance-tasks/tenant-storage-limit.md)
-
+* [Storage Metrics Report](../reporting/cleanup-and-health-reports.md#storage-metrics)
+* [Site Storage Metrics Report](../reporting/cleanup-and-health-reports.md#site-storage-metrics)
+* [File Storage Details Report](../reporting/cleanup-and-health-reports.md#file-storage-details)
