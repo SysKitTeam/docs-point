@@ -152,6 +152,7 @@
   * [Schedule Reports](governance-and-automation/scheduled-reports.md)
   * [Configure Alerts](governance-and-automation/configure-alerts.md)
   * [Manage Custom Metadata](governance-and-automation/manage-custom-metadata.md)
+  * [Manage Sensitivity Labels](governance-and-automation/manage-sensitivity-labels.md)
 * [Access Management](access-management/README.md)
   * [Track Microsoft 365 External Users and Their Activities](access-management/track-external-users-and-their-activities.md)
   * [Check Access for Specific Microsoft 365 User](access-management/check-access-for-specific-user.md)
