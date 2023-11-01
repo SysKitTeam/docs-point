@@ -117,7 +117,8 @@ The second app registration, **Syskit Point Client**, enables users to securely 
 | Read all users' relevant people lists                       | Delegated | Allows Syskit Point to display users' relevant people lists in People Picker within Syskit Point Teams app.                                                        |
 | Read presence information of all users in your organization | Delegated | Allows Syskit Point Microsoft Teams application to show the status of users.                                                                                       |
 | View users' basic profile                                   | Delegated | Allows Syskit Point Microsoft Teams application to show users basic data and allow secure communication with Syskit Point.                                         |
-| Send a teamwork activity to any user                        | Delegated | Allows Syskit Point Microsoft Teams application to send notifications to users.                                                                                    |
+| Add and remove members from teams | Delegated | Allows Syskit Point to add newly created users in AAD to Microsoft Teams and private channels. |
+| Send a teamwork activity to any user                        | Application | Allows Syskit Point Microsoft Teams application to send notifications to users.                                                                                    |
 | Read and write all users' full profiles                     | Delegated | Allows Syskit Point to read your users' profiles and show you reports based on that data; allows license management actions to be performed.                       |
 
 When using Microsoft Authentication Flow to connect a service account, the following Microsoft Graph permissions are added to the Syskit Point Client app registration:
