@@ -36,7 +36,7 @@ Global admin re-consent is required after the upgrade to the latest version. Con
     * Find how much storage is used by the file versions older than 30 days.
     * See how much storage is used by the file versions other than the latest 20 versions. 
     * **Please note that the File Storage Details report is available in the Governance plan only**.
-    * [Read this article to find more information about the File Storage Details report](TODO).
+    * [Read this article to find more information about the File Storage Details report](../../reporting/cleanup-and-health-reports.md#file-storage-details).
 
 * **New option added to Minimum Owners policy**!
     * Admins can decide whether they want to allow owners to accept risk for detected minimum number of owners policy vulnerabilities or not.
