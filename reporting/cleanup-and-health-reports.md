@@ -125,7 +125,7 @@ The following data will be displayed in the columns:
 * **Alert on % of Limit**; shows the percentage at which you are alerted of being close to your storage limit. 
 
 
-## Site Storage
+## Site Storage Metrics
 
 The Site Storage Metrics report displays your storage consumption across your sites over time.  
 
@@ -161,7 +161,7 @@ The following data will be displayed in the columns:
 * **Storage Limit**; show the storage limit for the site.
 * **Last Activity**; shows the date the last activity on the site or content happened.
 
-## File Storage
+## File Storage Details
 
 {% hint style="information" %}
 **The File Storage Details Report** is only available in the Governance plan or above. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
@@ -189,7 +189,6 @@ Once the site report is successfully generated, the following information is ava
  * **The amount of storage** used by all versions of this file expressed in bytes.
  * **The amount of storage used** that is older than 30 days.
  * **The size of all versions of the files** except the newest 20 versions.
-    * This metric can be edited in Settings. 
 
 Above the columns of the report, you can find:
 
