@@ -41,6 +41,7 @@ Global admin re-consent is required after the upgrade to the latest version. Con
 * **New option added to Minimum Owners policy**!
     * Admins can decide whether they want to allow owners to accept risk for detected minimum number of owners policy vulnerabilities or not.
     * You can find the option under the Task Delegation section when editing a minimum number of owners policy.
+    * [Find out how to setup minimum number of owners policy here](../../governance-and-automation/automated-workflows/minimum-number-of-owners-admin.md).
 
 ## Improvements & Bug Fixes
 
