@@ -32,7 +32,7 @@ There are **three detection-only policies** that are applied tenant-wide:
 * [**Orphaned Users (Tenant-Wide)**](../../governance-and-automation/security-compliance-checks/orphaned-users.md)
 * [**Tenant Storage Limit (Tenant-Wide)**](../../governance-and-automation/automated-workflows/tenant-storage-admin.md)
 
-When it comes to detection-only policies, Syskit Point detects a vulnerability on a workspace based on the applied policy. 
+When it comes to detection-only policies, Syskit Point detects a vulnerability in a workspace based on the applied policy. 
 
 Syskit Point **does not create tasks or send any emails to workspace owners for policies that are configured to perform as detection-only**. However, the vulnerabilities are displayed on the new [Security & Compliance dashboard](../../governance-and-automation/security-compliance-checks/security-compliance-checks.md).
 
@@ -78,13 +78,13 @@ When dealing with policies, you can either:
 
 Take a look at the articles below to learn how to set up each governance policy:
 
-* [**Minimum Number of Owners**](minimum-number-of-owners-admin.md) - when enabled and applied to Microsoft Teams and Microsoft 365 Groups, this policy **detects whether a team or group have fewer owners** than defined in the policy settings
+* [**Minimum Number of Owners**](minimum-number-of-owners-admin.md) - when enabled and applied to Microsoft Teams and Microsoft 365 Groups, this policy **detects whether a team or group has fewer owners** than defined in the policy settings
 * [**Maximum Number of Owners**](maximum-number-of-owners-admin.md) - when enabled and applied to Microsoft Teams and Microsoft 365 Groups, this policy **detects if a team or group has more owners** than defined in the policy settings
 * [**Orphaned Workspaces**](orphaned-resources-admin.md) - when enabled and applied to Microsoft Teams and Microsoft 365 Groups, this policy **detects teams and groups that have no active owners**
 * [**Inactive Guest Users**](inactive-guest-users-admin.md) - **detects when a guest user is inactive** for a period of time and helps you remove access in a timely and efficient manner
 * [**Blocked Users with Assigned Licenses**](blocked-users-with-licenses-admin.md) - **detects blocked users in your tenant that still have licenses assigned**, which helps you optimize cost
 * [**Orphaned Users**](orphaned-users-admin.md) - **detects users that are blocked from signing in or deleted** but still have access to SharePoint content
-* [**Access Request**](../access-requests/README.md) - provides end-users with the **ability to request access to existing Microsoft Teams & Groups, sites, distribution lists, and security groups in the Microsoft 365 environment**; Syskit Point administrators can define workspaces visible to end-users and who is resonsible for the approval of access requests
+* [**Access Request**](../access-requests/README.md) - provides end-users with the **ability to request access to existing Microsoft Teams & Groups, sites, distribution lists, and security groups in the Microsoft 365 environment**; Syskit Point administrators can define workspaces visible to end-users and who is responsible for the approval of access requests
 * [**Access Review**](../permissions-review/README.md) - enables Syskit Point admins to enforce regular Access reviews for workspace owners on their workspaces
 
 By clicking on the names of each policy, you can **find an article with information on enabling and managing** all mentioned policy types. 
@@ -103,6 +103,27 @@ Here, you can:
 * **Manage policies (9)**; **Edit** and **Delete** actions are provided for each policy, **except for those applied tenant-wide and the default policies used by the default rule**
 
 ![Policy Settings](../../.gitbook/assets/set-up-policies_settings.png)
+
+
+## Modifying Policy Settings
+
+When you decide to modify existing governance policies, there is a notification showing what you can expect to occur based on the changes made. 
+
+ Here is a summary of policy updates and expected results:
+
+* **Modifying detection options for policies are applied within 24 hours**. For example, changing the minimum number of required owners would take up to 24 hours to apply.
+  * Once changes are made, previously detected vulnerabilities and tasks are examined again and closed if the workspace no longer violates the defined parameters. 
+  * All workspaces are rechecked; if any vulnerabilities now exist, they are detected, and tasks are created if needed.
+ * **Turning on the task delegation for the first time results in tasks being created and emails being sent** within 24 hours.
+* **Modifying the task delegation options**, in case the task delegation is already enabled for a policy, results in new options being applied to future vulnerabilities. **Existing tasks stay the same.
+
+{% hint style="information" %}
+**Hint**! If you want to apply new task delegation options to all tasks, turn off task delegation - which closes all existing tasks - and turn it on again, which creates new tasks with the new settings applied. 
+{% endhint %}
+
+ * **Turning off the task delegation results in the closing of previously opened tasks**. 
+   * You will continue to see the detected vulnerabilities on the Security and Compliance checks dashboard even though the related tasks are closed.
+
 
 ## Resolving Policy Tasks
 
