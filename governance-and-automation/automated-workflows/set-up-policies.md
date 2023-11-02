@@ -119,11 +119,11 @@ When you decide to modify existing governance policies, there is a notification 
 
 {% hint style="information" %}
 **Hint**! If you want to apply new task delegation options to all tasks, turn off task delegation - which closes all existing tasks - and turn it on again, which creates new tasks with the new settings applied. 
+
 {% endhint %}
 
  * **Turning off the task delegation results in the closing of previously opened tasks**. 
    * You will continue to see the detected vulnerabilities on the Security and Compliance checks dashboard even though the related tasks are closed.
-
 
 ## Resolving Policy Tasks
 
