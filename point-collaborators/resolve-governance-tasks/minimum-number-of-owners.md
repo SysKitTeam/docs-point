@@ -35,13 +35,12 @@ Along with the e-mail, **Syskit Point creates a policy violation task** that pro
 The following is available on the task screen:
 * **List of current owners (1)**
 * **Search (2)**, which can help you to find existing members
-* **Activity Timeline (3)** showing all steps in the workflow
-* **Promote to Owner action (4)**; once clicked, an **appropriate message appears next to the promoted user along with the Undo action (5)**
-* **Add New Owner action (6)**; to add a new owner, **start typing the user's name in the input field**; once you select a user, **confirm your addition by clicking the Add New Owner link**; once clicked, an **appropriate message is displayed for the user, along with the Undo action (7)**
-* **Ignore Policy button (8)** that enables you to disregard the company policy in case there is a valid reason to do so
-* **Resolve button (9)** that gets **enabled when you promote members to owners or add new ones to comply with the company policy** regarding the minimum number of owners; **once clicked, a dialog opens, enabling you to input a comment and resolve the policy violation**
+* **Promote to Owner action (3)**; once clicked, an **appropriate message appears next to the promoted user along with the Undo action (4)**
+* **Add New Owner action (5)**; to add a new owner, **start typing the user's name in the input field**; once you select a user, **confirm your addition by clicking the Add New Owner link**; once clicked, an **appropriate message is displayed for the user, along with the Undo action (6)**
+* **Accept Risk button (7)** that enables you to disregard the company policy and accept the risk in case there is a valid reason to do so
+* **Resolve button (8)** that gets **enabled when you promote members to owners or add new ones to comply with the company policy** regarding the minimum number of owners; **once clicked, a dialog opens, enabling you to input a comment and resolve the policy violation**
 
-![Policy Violation Task](../../.gitbook/assets/minimum_number_of_owners-policy_violation_task.png)
+![Policy Violation Task](../../.gitbook/assets/minimum-number-of-owners-policy-violation-task.png)
 
 {% hint style="warning" %}
 **Please note!**  
