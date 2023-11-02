@@ -46,8 +46,11 @@ Global admin re-consent is required after the upgrade to the latest version. Con
 ## Improvements & Bug Fixes
 
 * **Improved how changes in policy settings are handled**. You can expect clearer messages on what will happen when you decide to modify existing governance policies. Here is a summary of policy updates and expected results: 
-    * **Modifying detection options for policies** (e.g. changing the minimum number of required owners) **is applied within 24 hours**. Previously detected vulnerabilities and tasks will be examined again and closed if the workspace no longer violates the defined parameters. All other workspaces will be checked again, vulnerabilities will be detected, and tasks created if needed.
-    * **Turning off the task delegation results in the closing of previously opened tasks**. You will continue to see the detected vulnerabilities on the Security and Compliance dashboard even though the related tasks are closed. Modifying the task delegation options will be applied to future detections of policy mismatches. Existing tasks stay the same.
+    * **Modifying detection options for policies** (e.g. changing the minimum number of required owners) **is applied within 24 hours**. Previously detected vulnerabilities and tasks will be examined again and closed if the workspace no longer violates the defined parameters. All workspaces will be checked again, vulnerabilities will be detected, and tasks created if needed.
+    * **Turning on the task delegation for the first time results in tasks being created and emails being sent** within 24 hours.
+    * **Modifying the task delegation options**, in case the task delegation is already enabled for a policy, results in new options being applied to future vulnerabilities. Existing tasks stay the same.
+        * **Hint**! If you want to apply new task delegation options to all tasks, turn off task delegation - which will close all existing tasks - and turn it on again, which will create new tasks with new settings applied. 
+    * **Turning off the task delegation results in the closing of previously opened tasks**. You will continue to see the detected vulnerabilities on the Security and Compliance dashboard even though the related tasks are closed.
 
 * **The Copy user permissions action was enhanced**! Before, when adding members to private channels in Microsoft Teams, the action would often result in an error for users recently added to the Azure Active Directory.
 
