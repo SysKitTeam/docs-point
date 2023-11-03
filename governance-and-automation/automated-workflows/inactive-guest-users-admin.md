@@ -11,17 +11,21 @@ To activate the policy, navigate to the Policies settings screen and **click the
 ![Inactive Guest Users - Edit Policy](../../.gitbook/assets/set_up_automated_workflows-guest_users_edit.png)
 
 The **Edit Policy** dialog opens where you can:
-* **Enable the policy (1)** by clicking the toggle next to the policy name; this policy is disabled by default.
-* **Select when a user us considered inactive (2)** by choosing the amount of days that need to pass
-* **Select the severity level (3)** for the policy
-* **Enable automation (4)** by clicking the toggle next to it
-  * **Select who will validate guest users:**
-     * **Manager of Guest User (5)**; when the option is selected, **the person responsible for the validation, in case the Guest User does not have a defined manager, needs to be chosen**
-     * **Syskit Point Administrators (6)**; this option is selected by defaut
-     * **Custom Recipients (7)**; when selected, use the input field to select custom users that will be responsible for the validation of Guest Users
-* Click **Save (8)** once you are done with the policy configuration.   
+* **Select when a user is considered inactive (1)** by choosing the amount of days that need to pass
+* **Select the severity level (2)** for the policy
+* **Enable Task Delegation (3)** by clicking the toggle next to it
+  * **Select who will validate guest users (4):**
+     * **Manager of Guest User**; when the option is selected, **the person responsible for the validation, in case the Guest User does not have a defined manager, needs to be chosen**
+     * **Syskit Point Administrators**; this option is selected by defaut
+     * **Custom Recipients**; when selected, use the input field to select custom users that will be responsible for the validation of Guest Users
+  * **Select what Syskit Point should do if there is no validation response(5)**:
+    * Automatically disable guest user
+    * Automatically delete guest user
+    * Perform no action
+  * **Click the checkbox if you want a reminder sent (6)** 3 work days before due date 
+* Click **Save (7)** once you are done with the policy configuration.   
 
-![Edit Policy Dialog](../../.gitbook/assets/set_up_automated_workflows-guest_users_edit_dialog.png)
+![Edit Policy Dialog](../../.gitbook/assets/set-up-automated-workflows-guest-users-edit-dialog.png)
 
 Based on your configuration, **Syskit Point will start the automated workflow when an inactive Guest User is detected**. 
 
