@@ -43,19 +43,11 @@ Here, we will describe how **Syskit Point Admin** can monitor the progress of an
 
 Three workdays before the start of automated Access Review, Syskit Point Admin users will receive a reminder email with the most important information about the upcoming Access Review:
 
-* **Start date** of the Access Review
-* **Number of site owners** that will be asked to perform an Access Review
+* **End date** by which the Access Review should be completed
 * **The number of workspaces** - Microsoft Teams, Microsoft 365 Groups, sites, and OneDrive - included in the upcoming Access Review
-* **Modify (1)** link
-* **Resolve Now (2)** button
+* **Review Now (1)** button
 
-![Access Review reminder email](../../.gitbook/assets/permissions-review\_reminder-before.png)
-
-Click the **Modify** link if you need to change the settings for the Access Review. When logged in to Syskit Point, this link opens the Access Review Settings screen.
-
-If you are already signed in to Syskit Point, clicking the **Resolve Now** button opens the **Access Review – Preview** report with the preselected **Orphaned Sites view (2)**. Here, you can **select a site (3)** and add active users as site owners with the **Change Owners action (4)**.
-
-![Access Review - Preview Orphaned Sites](../../.gitbook/assets/monitor-permissions-review\_preview-orphaned.png)
+![Access Review reminder email](../../.gitbook/assets/access-review-reminder-before.png)
 
 {% hint style="warning" %}
 **Please note!**\
@@ -110,21 +102,37 @@ Access Review has, by default, a duration of **ten days**. In this time frame, s
 
 The Access Review is automatically marked as completed ten days after the start. Syskit Point also sends summary emails regarding the completed review to all Syskit Point Admin users. The email contains the following information:
 
-* **Number of sites where the Access Review was completed (1)**; grouped by site type
-* **Total number of sites where the Access Review was not completed (2)**
-* **View Uncompleted Tasks (3)** button
+* **Name of the workspace** the Access Review was completed on
+* **Name of the person** that performed the Access Review
+* **Date and time** the Access Review was completed on
 
-![Email - Access Review completed](<../../.gitbook/assets/monitor-permissions-review\_email-after (2) (2) (3) (2).png>)
+![Email - Access Review completed](../../.gitbook/assets/monitor-access-review-email-completed.png)
 
-To view sites where the Access Review was not completed, click the **View Uncompleted Tasks** button. If already signed in to Syskit Point, you will be redirected to the **Access Review** report. Here, you can:
+To view sites where the Access Review was not completed, open Syskit Point and click the **Govern** button, located on the left side of the screen. 
 
-* **See that all tasks where the Access Review was not completed have the status set to Overdue (1)**
+Click the **Scheduled Review (1)** button, located under the Access Review section. 
+
+This screen contains information on:
+
+* **The percentage** of your environment that has been secured
+* **The date** when the active Access Review was started
+* **The remaining time** left to complete the Access review
+* **The last date** that the Access Review should be completed by
+* **The number of Access Reviews** completed compared t0 how many are left to complete
+
+You can also see an **overview of the workspaces and how many review per workspaces were completed** out of how many are still left to complete. 
+
+**Click the See Review Details button (2)** to be redirected to the Access Review report.
+
+Here, you are able to:
+
+* **See that all tasks where the Access Review was not completed have the status set to Pending (1)**
 * **Select one or multiple workspaces (2)**
 * **Generate the** [**Access Review - Summary report**](monitor-permissions-review.md#access-review---summary) **(3)**
 
 Syskit Point changes the status automatically when the Access Review ends.
 
-![Access Review - Overdue tasks](../../.gitbook/assets/monitor-permissions-review\_overdue.png)
+![Access Review - Overdue tasks](../../.gitbook/assets/monitor-access-review-overdue.png)
 
 If you take a step back and look at the Governance screen, you can see the following:
 
@@ -134,9 +142,9 @@ If you take a step back and look at the Governance screen, you can see the follo
 
 The **See Details** button opens the **Access Review** report, already described in this section.
 
-![Governance - Scheduled Review category](../../.gitbook/assets/monitor-permissions-review\_no-active.png)
+![Governance - Scheduled Review category](../../.gitbook/assets/monitor-access-review-no-active.png)
 
-![Governance - History category](../../.gitbook/assets/monitor-permissions-review\_history.png)
+![Governance - History category](../../.gitbook/assets/monitor-access-review-history.png)
 
 For more information on the **Manually Requested Reviews category**, [read the following article](manually-request-permissions-review.md).
 
@@ -148,7 +156,7 @@ The Access Review - Summary report offers a complete overview of actions perform
 * **Select one or more workspaces (1)** for which you want to see what was done during the Access Review
 * **Click the View Details link (2)**
 
-![Access Review - View Details](../../.gitbook/assets/monitor-permissions-review\_view-details.png)
+![Access Review - View Details](../../.gitbook/assets/monitor-access-review-view-details.png)
 
 The generated **Access Review - Summary** report shows the following information:
 
@@ -160,6 +168,6 @@ The generated **Access Review - Summary** report shows the following information
 * **Action details (6)** that provides all information about performed actions
 * **Export button (7)** that generates an XLSX file with all data visible in the Syskit Point interface
 
-![Access Review - Summary report](../../.gitbook/assets/monitor-permissions-review\_summary.png)
+![Access Review - Summary report](../../.gitbook/assets/monitor-access-review-summary.png)
 
 With that, we finish the Access Review overview for Syskit Point Admin users.
