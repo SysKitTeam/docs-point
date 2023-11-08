@@ -7,7 +7,7 @@ description: >-
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
-**Product version:** 2023.4
+**Product version:** 2023.4.0
 
 **Build number:** 125
 
