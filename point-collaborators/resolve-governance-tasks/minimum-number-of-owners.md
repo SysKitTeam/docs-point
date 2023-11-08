@@ -25,7 +25,7 @@ You can find the following information in the e-mail:
 * **Due date to resolve the policy violation (3)**; you have 15 workdays to resolve the policy violation
 * **Resolve button (4) that takes you to Syskit Point**, where you can resolve the policy violation
 
-![Policy Violation E-mail](../../.gitbook/assets/minimum_number_of_owners-email.png)
+![Policy Violation E-mail](../../.gitbook/assets/minimum-number-of-owners-email.png)
 
 **Click the Resolve button to open the policy violation task** in Syskit Point.
 
@@ -52,22 +52,17 @@ The following is available on the task screen:
 
 **After you resolve the policy violation, the History screen opens**, giving you an overview of all actions performed within the workflow.
 
-![Policy Violation History Screen](../../.gitbook/assets/minimum_number_of_owners-workflow_history.png)
+![Policy Violation History Screen](../../.gitbook/assets/minimum-number-of-owners-workflow-history.png)
 
 **After you resolve the policy violation, an e-mail is also sent to owners**, showing the following information:
 * **Microsoft Teams or Microsoft 365 Group where an owner resolved the policy violation (1)**
 * **Who and when (2) resolved the policy violation**
 * **View Details button (3)** that **opens the History screen** in Syskit Point, showing all the activities that were performed within the workflow
 
-![Policy Violation Resolved - E-mail](../../.gitbook/assets/minimum_number_of_owners-resolved_email.png)
-
-## Policy Violation Ignored
+![Policy Violation Resolved - E-mail](../../.gitbook/assets/minimum-number-of-owners-resolved-email.png)
 
 {% hint style="warning" %}
 **Please note!**  
-**In case you decide to ignore the policy violation**, **Microsoft Teams** or **Microsoft 365 Groups where the policy violation was detected will be considered compliant for the next 6 months**. **For the next 6 months**, **Syskit Point will not send any policy violation e-mails or create policy violation tasks**.
+**In case you decide to click Accept Risk for the policy violation**, **Microsoft Teams** or **Microsoft 365 Groups where the policy violation was detected is considered compliant for the duration of time you selected when accepting the risk**. Syskit Point will not send any policy violation e-mails or create policy violation tasks during this timeframe.
 {% endhint %}
 
-**After you ignore the policy violation**, **the history screen opens**, as shown in the image below. 
-
-![History Screen - Policy Violation Ignored](../../.gitbook/assets/minimum_number_of_owners-workflow_history_ignored.png)
