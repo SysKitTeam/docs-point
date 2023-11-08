@@ -4,15 +4,15 @@ description: This article provides a list of permission changes in Syskit Point 
 
 # Change Log
 
-Syskit Point is constantly evolving and adding new features. Sometimes, we require additional consent from a Global administrator in your organization for these new features to work. This might be needed after you upgraded to the latest version of Syskit Point.
+Syskit Point is constantly evolving and adding new features. Sometimes, we require additional consent from a Global administrator in your organization for these new features to work. This might be needed after upgrading to the latest version of Syskit Point.
 
 ## How to Reconsent
 Reconsent can be performed:
-* **By clicking the Reconsent button in the notification that appears after Syskit Point upgrade**, or
+* **By clicking the Reconsent button in the notification that appears after the Syskit Point upgrade**, or
 * **By managing tenant connection in Syskit Point settings**
 
 ### Reconsent After Upgrade
-If the latest Syskit Point version has some new permissions requirements to which your Global Administrator has not consented before, you will get a notification at the bottom of the Home screen after your first sign in to the new version:
+If the latest Syskit Point version has some new permissions requirements to which your Global Administrator has not consented before, you will get a notification at the bottom of the Home screen after your first sign-in to the new version:
 
 **Global Admin Reconsent Needed** - Grant permissions to Syskit Point to use the latest feature.
 
@@ -107,7 +107,7 @@ Therefore, **a Global Admin will have to re-consent in the Syskit Point Welcome 
     * used to collect Power BI data
     * by default, no permissions are added
 
-Due to listed permission changes, **Global Admin is required to re-consent permissions**.
+Due to the listed permission changes, **Global Admin is required to re-consent permissions**.
 
 [To see the complete list of used App Registrations and assigned permissions, navigate to the Permission Requirements article](permission-requirements.md).
 
@@ -119,7 +119,7 @@ Due to listed permission changes, **Global Admin is required to re-consent permi
 | Syskit Point Permissions Loader | Read the members of all channels | Application | Allows Syskit Point to collect membership data for private and shared channels. |
 | Syskit Point Client | Add and remove members from channels | Delegated | Enables users to manage private channels in Syskit Point. |
 
-Due to listed permission changes, **Global Admin is required to re-consent permissions**.
+Due to the listed permission changes, **Global Admin is required to re-consent permissions**.
 
 [To see the complete list of used App Registrations and assigned permissions, navigate to the Permission Requirements article](permission-requirements.md).
 
