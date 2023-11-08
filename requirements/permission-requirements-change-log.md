@@ -27,9 +27,8 @@ To resolve this and ensure all the new features work properly, a Global Administ
 
 After clicking the Reconsent button, you can expect the following to happen:
 
-1.  **Microsoft authentication screen opens** asking you to Pick an account
-
-    Select or sign in with the Global Administrator account
+1. **Microsoft authentication screen opens** asking you to Pick an account\
+   Select or sign in with the Global Administrator account
 2. **Microsoft consent screen opens** asking you to consent\
    Check the Consent box and click the Accept button
 3. **Syskit Point progress screen opens** showing the connection update progress
