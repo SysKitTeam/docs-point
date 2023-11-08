@@ -21,12 +21,12 @@ To resolve this and ensure all the new features work properly, a Global Administ
 ![Home Screen - Reconsent](../.gitbook/assets/permission-requirements-change-log-reconsent.png)
 
 After clicking the Reconsent button, you can expect the following to happen:
-* **Microsoft authentication screen opens** asking you to Pick an account
+1) **Microsoft authentication screen opens** asking you to Pick an account
   * Select or sign in with the Global Administrator account
-* **Microsoft consent screen opens** asking you to consent
+2) **Microsoft consent screen opens** asking you to consent
   * Check the Consent box and click the Accept button
-* **Syskit Point progress screen opens** showing the connection update progress
-* **Syskit Point Home screen opens** when the update is completed and reconsent successfully performed
+3) **Syskit Point progress screen opens** showing the connection update progress
+4) **Syskit Point Home screen opens** when the update is completed and reconsent successfully performed
 
 ### Reconsent in Settings
 This option can be used as a fallback in case Syskit Point fails to show the reconsent notification after the upgrade. 
@@ -36,14 +36,14 @@ To reconsent via settings:
 * **Click the Manage Connection button**
 
 After clicking the Manage Connection button, you can expect the following to happen:
-* **Microsoft authentication screen opens** asking you to Pick an account
+1) **Microsoft authentication screen opens** asking you to Pick an account
   * Select or sign in with the Global Administrator account
-* **Microsoft consent screen opens** asking you to consent
+2) **Microsoft consent screen opens** asking you to consent
   * Check the Consent box and click the Accept button
-* **Syskit Point Connect Tenant screen opens** showing the OneDrive and Audit Logs privacy options
+3) **Syskit Point Connect Tenant screen opens** showing the OneDrive and Audit Logs privacy options
   * Click Connect to continue
-* **Syskit Point progress screen opens** showing the connection update progress
-* **Syskit Point Home screen opens** when the update is completed and reconsent successfully performed
+4) **Syskit Point progress screen opens** showing the connection update progress
+5) **Syskit Point Home screen opens** when the update is completed and reconsent successfully performed
 
 ## Permission Changes
 Depending on which version you are upgrading to, below you can find the list of changes in permissions requested and which features depend on them.
