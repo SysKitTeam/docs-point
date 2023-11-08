@@ -40,20 +40,21 @@ The purpose of this is to assist Syskit Point admins by reminding them there are
 
 * **When you acquire Syskit Point, default policies are created - Minimum 2 Owners (Default Policy), Maximum 5 Owners (Default Policy), and Orphaned Workspaces (Default Policy) - and applied to all your workspace via a default rule**; these policies serve to give you an overview of workspaces that are potentially not configured according to best practices; no need to worry, though - default policies are configured as **detection-only policies**, meaning that **Syskit Point will not create tasks or send emails**.
 
-### Automation
+### Task Delegation
 
-Automation can be enabled in policy settings for each policy listed below.
-There are currently **4 policies that can be automated**: 
+Task Delegation can be enabled in policy settings for each policy listed below.
+
+There are currently **4 policies that can be delegated**: 
 * [Inactive Guest Users (Tenant-Wide)](../../governance-and-automation/security-compliance-checks/inactive-guest-users.md)
 * [Maximum Number of Owners](../../governance-and-automation/security-compliance-checks/workspaces-too-many-owners.md)
 * [Minimum Number of Owners](../../governance-and-automation/security-compliance-checks/workspaces-not-enough-owners.md)
 * [Orphaned Workspaces](../../governance-and-automation/security-compliance-checks/orphaned-workspaces.md)
 
 
-**When automation is enabled, Syskit Point creates tasks and sends emails to users as defined in the policy settings**.
+**When task delegation is enabled, Syskit Point creates tasks and sends emails to users as defined in the policy settings**.
 
 * **Access Requests** and **Access Review** policies don't represent vulnerabilities and will not appear on the Security & Compliance dashboard; think of them as automation-only policies.
-* **When you acquire Syskit Point, default policies are created with automation disabled.** Edit the default policies settings to enable automation.
+* **When you acquire Syskit Point, default policies are created with task delegation disabled.** Edit the default policies settings to enable task delegation.
 
 ## Syskit Point Policies
 

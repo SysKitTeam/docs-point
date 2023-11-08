@@ -87,7 +87,7 @@ The Keep action can be executed on inactive workspaces only!
 
 ### Archive
 
-The **Archive action** has additional options available that are set up according to the administrator’s preference. More information on that can be found in the [Enable Lifecycle Management Automation article](enable-lifecycle-management.md).
+The **Archive action** has additional options available that are set up according to the administrator’s preference. More information on that can be found in the [Enable Lifecycle Management Task Delegation article](enable-lifecycle-management.md).
 
 Archiving a workspace within Syskit Point results in the following:
 * **the workspace gets into a read-only state**
