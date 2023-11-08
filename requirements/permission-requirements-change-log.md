@@ -8,8 +8,8 @@ Syskit Point is constantly evolving and adding new features. Sometimes, we requi
 
 ## How to Reconsent
 Reconsent can be performed:
-* **By clicking the Reconsent button in the notification that appears after the Syskit Point upgrade**, or
-* **By managing tenant connection in Syskit Point settings**
+* **[By clicking the Reconsent button](#reconsent-after-upgrade) in the notification that appears after the Syskit Point upgrade**, or
+* **[By managing tenant connection](#reconsent-in-settings) in Syskit Point settings**
 
 ### Reconsent After Upgrade
 If the latest Syskit Point version has some new permissions requirements to which your Global Administrator has not consented before, you will get a notification at the bottom of the Home screen after your first sign-in to the new version:
