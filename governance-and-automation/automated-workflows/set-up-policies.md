@@ -22,10 +22,10 @@ Additionally, you can also [set up policy automation](../../governance-and-autom
 Only users with the role of **Syskit Point Admin** assigned can access and configure Settings in Syskit Point.
 {% endhint %}
 
-## Detection vs Automation
+## Detection vs Task Delegation
 
 ### Detection
-Two modes of policy operation for Governance policies are available in Syskit Point: **Detection and Automation**. 
+Two modes of policy operation for Governance policies are available in Syskit Point: **Detection and Task Delegation**. 
 
 There are **three detection-only policies** that are applied tenant-wide: 
 * [**Blocked Users with Assigned Licenses (Tenant-Wide)**](../../governance-and-automation/security-compliance-checks/blocked-users-assigned-license.md) 
@@ -49,6 +49,7 @@ There are currently **4 policies that can be delegated**:
 * [Maximum Number of Owners](../../governance-and-automation/security-compliance-checks/workspaces-too-many-owners.md)
 * [Minimum Number of Owners](../../governance-and-automation/security-compliance-checks/workspaces-not-enough-owners.md)
 * [Orphaned Workspaces](../../governance-and-automation/security-compliance-checks/orphaned-workspaces.md)
+* [Tenant Storage Limit](../../governance-and-automation/security-compliance-checks/tenant-storage.md)
 
 
 **When task delegation is enabled, Syskit Point creates tasks and sends emails to users as defined in the policy settings**.
@@ -58,12 +59,13 @@ There are currently **4 policies that can be delegated**:
 
 ## Syskit Point Policies
 
-Syskit Point enables creating policies that will make sure the following is set correctly and reviewed when needed:
+Syskit Point enables creating and using policies that will make sure the following is set correctly and reviewed when needed:
 * **Ownership on Microsoft Teams and Microsoft 365 Groups**
 * **Inactive Guest Users**
 * **Blocked Users with Assigned Licenses**
 * **Orphaned Users**
 * **User's access**
+* **Tenant-wide Storage Usage**
 
 When dealing with policies, you can either:
 * **Adjust predefined policies and apply them to your workspaces**, or
@@ -87,6 +89,7 @@ Take a look at the articles below to learn how to set up each governance policy:
 * [**Orphaned Users**](orphaned-users-admin.md) - **detects users that are blocked from signing in or deleted** but still have access to SharePoint content
 * [**Access Request**](../access-requests/README.md) - provides end-users with the **ability to request access to existing Microsoft Teams & Groups, sites, distribution lists, and security groups in the Microsoft 365 environment**; Syskit Point administrators can define workspaces visible to end-users and who is responsible for the approval of access requests
 * [**Access Review**](../permissions-review/README.md) - enables Syskit Point admins to enforce regular Access reviews for workspace owners on their workspaces
+* [**Tenant Storage Limit**](tenant-storage-admin.md) - **detects when total tenant storage usage exceeds the defined percentage**
 
 By clicking on the names of each policy, you can **find an article with information on enabling and managing** all mentioned policy types. 
  
@@ -133,3 +136,4 @@ For more information on how collaborators **can resolve specific policy violatio
 * [Resolve Maximum Number of Owners vulnerabilities](../../point-collaborators/resolve-governance-tasks/maximum-number-of-owners.md)
 * [Resolve Orphaned Workspaces vulnerabilities](../../point-collaborators/resolve-governance-tasks/orphaned-resources.md)
 * [Resolve Inactive Guest Users vulnerabilities ](../../point-collaborators/resolve-governance-tasks/guest-users-expiration.md)
+* [Resolve Tenant Storage vulnerabilites](../../point-collaborators/resolve-governance-tasks/tenant-storage-limit.md)
