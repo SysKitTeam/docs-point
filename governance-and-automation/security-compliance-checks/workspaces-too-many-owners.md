@@ -7,9 +7,9 @@ description: This article provides information on the Workspaces with Too Many O
 
 Syskit Point detects workspaces with more than the maximum number of owners predefined in the policy settings, which can pose security concerns. 
 
-The Maximum Number of Owners policy can be automated, and when automation is enabled, Syskit Point creates tasks and sends emails to users as defined in the policy settings. To learn more, take a look at the [Maximum Number of Owners policy article](../../governance-and-automation/automated-workflows/maximum-number-of-owners-admin.md). 
+When the task delegation option is enabled for the Maximum Number of Owners policy, Syskit Point creates tasks and sends emails to users as defined in the policy settings. To learn more, take a look at the [Maximum Number of Owners policy article](../../governance-and-automation/automated-workflows/maximum-number-of-owners-admin.md). 
 
-By default, the automation is turned off for this policy, but workspaces with too many owners **are still detected** and shown on the Security & Compliance Dashboard. **This means that Syskit Point detects a vulnerability on a workspace** based on the applied policy, but it does not create tasks or send any emails to workspace owners. 
+By default, task delegation is turned off for this policy, but workspaces with too many owners **are still detected** and shown on the Security & Compliance Dashboard. **This means that Syskit Point detects a vulnerability on a workspace** based on the applied policy, but it does not create tasks or send any emails to workspace owners. 
 
 The purpose of this is to assist Syskit Point admins by
 bringing awareness of potential issues in their Microsoft 365 environment. 
@@ -31,7 +31,7 @@ The report itself provides information on:
   * **Rule (5)** - for the policy applied
   * **Status (5)** - status of the policy violation
     * If a vulnerability was detected, the status shows as *Detected*
-    * If automation is enabled for the policy, it shows the status in the automation process, for example *Awaiting response* from owners
+    * If task delegation is enabled for the policy, it shows the task status, for example, *Awaiting response* from owners
   * **Assigned to (7)** - who the policy violation is assigned to for a resolution
 
 Additionally, you can complete the following actions for the policy violation:
