@@ -2,7 +2,7 @@
 description:  This article describes how you can configure Syskit Point to use AMR API.
 ---
 
-# Configure Point to use AMR API
+# Configure Syskit Point to use Storage Management 
 
 ## Why is additional configuration needed for Azure storage account? 
 
