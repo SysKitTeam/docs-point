@@ -47,7 +47,7 @@ Three workdays before the start of automated Access Review, Syskit Point Admin u
 * **The number of workspaces** - Microsoft Teams, Microsoft 365 Groups, sites, and OneDrive - included in the upcoming Access Review
 * **Review Now (1)** button
 
-![Access Review reminder email](../../.gitbook/assets/access-review-reminder-before.png)
+![Access Review reminder email](../../.gitbook/assets/monitor-access-review-reminder-email.png)
 
 {% hint style="warning" %}
 **Please note!**\
