@@ -111,7 +111,7 @@ The Access Review is automatically marked as completed ten days after the start.
 
 ![Email - Access Review completed](../../.gitbook/assets/monitor-access-review-email-completed.png)
 
-To see the progress of an ongoing Access Review, click the **Scheduled Review (1)** button, located under the Access Review section. 
+To see the progress of an ongoing Access Review, click the **Scheduled Review (1)** button located under the Access Review section. 
 
 This screen contains information on:
 
