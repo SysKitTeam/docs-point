@@ -43,9 +43,10 @@ Here, we will describe how **Syskit Point Admin** can monitor the progress of an
 
 Three workdays before the start of automated Access Review, Syskit Point Admin users will receive a reminder email with the most important information about the upcoming Access Review:
 
-* **End date** by which the Access Review should be completed
+* **Start date** of the upcoming Access Review
 * **The number of workspaces** - Microsoft Teams, Microsoft 365 Groups, sites, and OneDrive - included in the upcoming Access Review
-* **Review Now (1)** button
+* **Resolve Now (1)** in case some workspaces don't have active owners who will be responsible for performing the Access Review
+  * Clicking the Resolve Now button in the e-mail opens the Manage Reviewers report in Syskit Point where you can add active owners to workspaces by running the Change Owners action
 
 ![Access Review reminder email](../../.gitbook/assets/monitor-access-review-reminder-email.png)
 
@@ -102,15 +103,15 @@ Access Review has, by default, a duration of **ten days**. In this time frame, s
 
 The Access Review is automatically marked as completed ten days after the start. Syskit Point also sends summary emails regarding the completed review to all Syskit Point Admin users. The email contains the following information:
 
-* **Name of the workspace** the Access Review was completed on
-* **Name of the person** that performed the Access Review
-* **Date and time** the Access Review was completed on
+* **Total number of workspaces per workspace type** for which the Access Review was completed
+* **Total number of workspaces** where Access Review was not completed
+* **View Uncompleted Tasks (1)** button 
+  * Clicking the button in the e-mail opens the Access Review report in Syskit Point, where you can see all workspaces in the completed Access Review
+  * Except via e-mail, you can find the completed Access Review by clicking the **Govern** button, located on the left side of the screen. 
 
 ![Email - Access Review completed](../../.gitbook/assets/monitor-access-review-email-completed.png)
 
-To view sites where the Access Review was not completed, open Syskit Point and click the **Govern** button, located on the left side of the screen. 
-
-Click the **Scheduled Review (1)** button, located under the Access Review section. 
+To see the progress of an ongoing Access Review, click the **Scheduled Review (1)** button, located under the Access Review section. 
 
 This screen contains information on:
 
