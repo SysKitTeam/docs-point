@@ -15,10 +15,6 @@ description: >-
 
 ## Features
 
-{% hint style="warning" %}
-[Syskit Point Teams app upgrade](../../governance-and-automation/syskit-point-teams-app.md#upgrade-syskit-point-teams-app) is required after upgrading to the latest version due to changes introduced in the new Microsoft Teams app.
-{% endhint %}
-
 * **New option added to the Storage feature**!
     * **The Storage tile on the Dashboard is updated**, showing storage details on the largest sites in your environment. 
     * **A warning message** is added and shown when the storage quota for the policy is surpassed. 
@@ -32,11 +28,6 @@ description: >-
 
 * **Improved validations and clearer messaging** added to the Subscriptions portal. 
   * Includes details on the number of licenses you need to purchase for Syskit Point or information if you are currently using more licenses for Syskit Point than previously purchased.
-
-* **Groups can now be added as Custom Recipients** when it comes to policy task delegation. 
-
-* **Fixed the links** in emails and Teams notifications for the new version of Teams. 
-   * The Microsoft Teams App needs to be updated in the Syskit Point settings.
 
 * **Fixed an issue** that made it difficult to click the Send Reminder button for Lifecycle Management when selecting a large number of workspaces. 
 
