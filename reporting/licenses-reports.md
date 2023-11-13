@@ -32,7 +32,7 @@ This report can be **used to help calculate future license costs**.
 
 ### Generate the Licenses Overview Report
 
- * **Click the Reports tile**; it is located on the Syskit Point home screen.
+ * **Click the Reports button**; located on the left side of the screen.
  * **Select Licenses in the filter**; it can be found in the upper left corner.
  * **Click the Licenses Overview report** to generate the report.
 
@@ -65,7 +65,7 @@ Use this report to quickly **check if users are fully utilizing their assigned l
 
 ### Generate the Licenses Usage by Service Report
 
-* **Click the Reports tile**; located on the Syskit Point home screen.
+ * **Click the Reports button**; located on the left side of the screen.
  * **Select Licenses in the filter**; can be found in the upper left corner.
  * **Click the Licenses Usage by Service** tile to generate the report.
 
@@ -97,7 +97,7 @@ This report can also be **used to help calculate possible savings that can achie
 
 ### Generate License Distribution Report
 
-* **Click the Reports tile**; located on the Syskit Point home screen.
+ * **Click the Reports button**; located on the left side of the screen.
  * **Select Licenses in the filter**; can be found in the upper left corner.
  * **Click the License Distribution** tile to generate the report.
 * **Select one of the two options** when redirected to the filter screen; the report data can be filtered by **Department or Usage Location**.
@@ -128,7 +128,7 @@ Use this report to **easily remove the assigned licenses from inactive users**. 
 
 ### Generate Inactive Licenses report
 
- * **Click the Reports tile**; it is located on the Syskit Point home screen.
+ * **Click the Reports button**; located on the left side of the screen.
  * **Select Licenses in the filter**; it can be found in the upper left corner.
  * **Click the Inactive Licenses report** to generate the report.
 
