@@ -30,7 +30,7 @@ The __Register Syskit Point__ page opens, guiding you through the initial connec
 
 To obtain the __Application (client) ID__ and __Directory (tenant) ID__, create the __Syskit Point Installer__ app registration.
 
-![Register Syskit Point](../../.gitbook/assets/connect-to-tenant_register.png)
+![Register Syskit Point](../../.gitbook/assets/connect-to-tenant-register.png)
 
 ## Create App Registration
 
@@ -48,8 +48,9 @@ To create the required app registration used by Syskit Point, do the following:
 
 * click __Register (6)__
 
-![](../.gitbook/assets/connect-to-tenant_aad_admin_center.png)
-![Register an Application](../../.gitbook/assets/connect-to-tenant_register-application.png)
+![New App Registration](../../.gitbook/assets/connect-to-tenant-new-app-registration.png)
+
+![Register an Application](../../.gitbook/assets/connect-to-tenant-register-application.png)
 
 After the app registration is created, the App Registration's __Overview screen__ opens.
 Here, you can find the following data needed for the initial connection:
@@ -58,7 +59,7 @@ Here, you can find the following data needed for the initial connection:
 
 Copy the __Application (client) ID__ and __Directory (tenant) ID__ values, and paste them to the input fields in the third step in the Register Syskit Point page. 
 
-![App Registration Overview](../../.gitbook/assets/connect-to-tenant_overview.png)
+![App Registration Overview](../../.gitbook/assets/connect-to-tenant-app-registration-overview.png)
 
 ## Consent
 
@@ -72,7 +73,7 @@ You can find answers in the [following article](../../requirements/permission-re
 
 When you first connect to your tenant, Syskit Point will request permissions to collect data from your Microsoft 365 environment.
 
-![Consent](../.gitbook/assets/connect-to-tenant_consent.png)
+![Consent](../../.gitbook/assets/connect-to-tenant-consent.png)
 
 To continue, check the __Consent on behalf of your organization option (1)__, and click the __Accept button (2)__. 
 
@@ -99,11 +100,11 @@ For Syskit Point to collect, process, and save audit logs, you must enable audit
 
 Click the __Connect (5)__ button after defining the connection options. A new screen will open and show the progress of the initial connection. __Please do not refresh the page__ as it will provide important information needed for troubleshooting in an unlikely event of an error. 
 
-![Connection Settings](../../.gitbook/assets/connect-to-tenant_setings.png)
+![Connection Settings](../../.gitbook/assets/connect-to-tenant-settings.png)
 
-![Initial Connection Progress](../../.gitbook/assets/connect-to-tenant_progress.png)
+![Initial Connection Progress](../../.gitbook/assets/connect-to-tenant-progress.png)
 
-After all initial connection steps are completed, you will be redirected to the __Welcome Home__ page. 
+After all initial connection steps are completed, you will be redirected to the __Sign in__ page. 
 
 ## Related Topics
 
