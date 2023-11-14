@@ -44,9 +44,9 @@ The **Custom deployment** screen in Azure Portal opens. Here you need to:
 * **Enter App service Name (3)** - enter the App Service resource Name; you can **find the App Service name (5)** by navigating to the Overview screen of Syskit Point resource group
 * **Click Next: Review + create > (4)** - Review + create screen opens showing entered data; check that the entered data is correct and click **Create**
 
-![Azure Portal - Custom Deployment](../../.gitbook/assets/upgrade-syskit-point\_custom-deployment.png)
+![Azure Portal - Custom Deployment](../../.gitbook/assets/upgrade-syskit-point-custom-deployment.png)
 
-![Resource Group - App Service Name](../../.gitbook/assets/upgrade-syskit-point\_app-service-name.png)
+![Resource Group - App Service Name](../../.gitbook/assets/upgrade-syskit-point-app-service-name.png)
 
 ## Next Steps
 
