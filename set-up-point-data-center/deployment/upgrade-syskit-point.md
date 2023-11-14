@@ -29,7 +29,9 @@ Clicking the **Download Latest Version (2)** link will redirect you to the lates
 
 ## Upgrading to the Latest Version
 
-After you **open the latest Release note**, **click** the **Deploy to Azure button (1)**. ![Deploy to Azure Button](../../.gitbook/assets/upgrade-syskit-point\_deploy-button.png)
+After you **open the latest Release note**, **click** the **Deploy to Azure button (1)**. 
+
+![Deploy to Azure Button](../../.gitbook/assets/upgrade-syskit-point-deploy.png)
 
 {% hint style="warning" %}
 **Please note!** When entering the App service name, **make sure NOT to enter the app service name ending with '-BE'**. **Entering the backend app service name in the upgrade process results in an invalid upgrade and Syskit Point not working correctly.**
@@ -42,9 +44,9 @@ The **Custom deployment** screen in Azure Portal opens. Here you need to:
 * **Enter App service Name (3)** - enter the App Service resource Name; you can **find the App Service name (5)** by navigating to the Overview screen of Syskit Point resource group
 * **Click Next: Review + create > (4)** - Review + create screen opens showing entered data; check that the entered data is correct and click **Create**
 
-![Azure Portal - Custom Deployment](../../.gitbook/assets/upgrade-syskit-point\_custom-deployment.png)
+![Azure Portal - Custom Deployment](../../.gitbook/assets/upgrade-syskit-point-custom-deployment.png)
 
-![Resource Group - App Service Name](../../.gitbook/assets/upgrade-syskit-point\_app-service-name.png)
+![Resource Group - App Service Name](../../.gitbook/assets/upgrade-syskit-point-app-service-name.png)
 
 ## Next Steps
 

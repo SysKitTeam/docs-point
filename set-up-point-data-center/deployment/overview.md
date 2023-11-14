@@ -9,7 +9,7 @@ __Syskit Point__ app can, apart from being used in software-as-a-service form, b
 
 After the deployment, the key Azure resources shown in the architecture diagram below will be created and ready to run Syskit Point. 
 
-![Syskit Point - Architecture Diagram](../../.gitbook/assets/overview_architecture-diagram.png)
+![Syskit Point - Architecture Diagram](../../.gitbook/assets/overview-architecture-diagram.png)
 
 [For more information about Syskit Point's Azure network configuration, please read the Azure Networking article](azure-networking.md).
 
