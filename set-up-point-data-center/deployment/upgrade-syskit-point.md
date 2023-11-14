@@ -29,7 +29,9 @@ Clicking the **Download Latest Version (2)** link will redirect you to the lates
 
 ## Upgrading to the Latest Version
 
-After you **open the latest Release note**, **click** the **Deploy to Azure button (1)**. ![Deploy to Azure Button](../../.gitbook/assets/upgrade-syskit-point-deploy.png)
+After you **open the latest Release note**, **click** the **Deploy to Azure button (1)**. 
+
+![Deploy to Azure Button](../../.gitbook/assets/upgrade-syskit-point-deploy.png)
 
 {% hint style="warning" %}
 **Please note!** When entering the App service name, **make sure NOT to enter the app service name ending with '-BE'**. **Entering the backend app service name in the upgrade process results in an invalid upgrade and Syskit Point not working correctly.**
