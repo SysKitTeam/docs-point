@@ -22,7 +22,9 @@ Prepare the following for Syskit Point deployment:
 * Click __Create (4)__ to continue with the deployment configuration; __Create Syskit Point__ screen opens with the __Basics__ tab selected
 
 ![Syskit Point on Azure Marketplace](../../.gitbook/assets/deploy-syskit-point-azure-marketplace.png)
+
 ![Create App in Azure](../../.gitbook/assets/deploy-syskit-point-continue.png)
+
 ![Syskit Point in Azure](../../.gitbook/assets/deploy-syskit-point-create.png)
 
 ## Azure Resources Deployment
