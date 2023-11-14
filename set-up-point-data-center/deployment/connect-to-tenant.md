@@ -104,7 +104,7 @@ Click the __Connect (5)__ button after defining the connection options. A new sc
 
 ![Initial Connection Progress](../../.gitbook/assets/connect-to-tenant-progress.png)
 
-After all initial connection steps are completed, you will be redirected to the __Sign in__ page. 
+After all initial connection steps are completed, you will be redirected to the [Sign in page](../../get-to-know-syskit-point/navigate-through-syskit-point.md#sign-in-screen). 
 
 ## Related Topics
 
