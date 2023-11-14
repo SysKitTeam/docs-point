@@ -33,7 +33,9 @@ Here are the instructions on how to make your Syskit Point web application publi
 
 1. Once the binding is created, the **SSL state becomes secured (1)**, and you should be able to access your Syskit Point app through a **secure URL connection (2)** - `https://point-test.syskit.com` in this example.
 
-![SSL - Secured](../../.gitbook/assets/custom-domain-and-ssl-certificate\_secured.png) ![Secure Connection](../../.gitbook/assets/custom-domain-and-ssl-certificate\_secure-connection.png)
+![SSL - Secured](../../.gitbook/assets/custom-domain-and-ssl-certificate\_secured.png) 
+
+![Secure Connection](../../.gitbook/assets/custom-domain-and-ssl-certificate\_secure-connection.png)
 
 1. **If you added the custom domain before connecting the application to your Microsoft 365 Tenant**, **then you can skip this step**. If you already have a tenant connected, then you need to do the following:
    * **For Single Sign-on (SSO) to work**, you need to **add the new URL to the Redirect URIs of the Syskit Point Client app registration**. To do that navigate to **Azure Portal** > **App Registrations**. Find the **Syskit Point Client app registration** and click it, under **Manage** > **Authentication** add a new redirect URI in the format hostname + /auth, in this example, it would be `https://point-test.syskit.com/auth`
