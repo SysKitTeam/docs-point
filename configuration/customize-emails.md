@@ -66,7 +66,7 @@ To define a banner used in e-mails:
 
 {% hint style="info" %}
 **Hint!**  
-Customizing the Access Review e-mail is possible only if the Automated Access Review feature is enabled. For more information on that topic, visit the [following article](../governance-and-automation/permissions-review/enable-permissions-review.md).
+The customization affects automatic emails sent for workspaces with assigned Access Review policies. For more information on that topic, visit the [following article](../governance-and-automation/permissions-review/create-apply-access-review-policies.md).
 {% endhint %}
 
 To customize the Access Review e-mail, first, navigate to **Settings** > **Governance** > **Access Review Options \(1\)**. 

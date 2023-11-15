@@ -24,7 +24,7 @@ It allows viewing site hierarchy and permissions down to the document level.
 
 ### Generate Report
 
-* **Click the Reports tile**; it is located on the Syskit Point home screen.
+* **Click the Reports button**; it is located on left side of your Syskit Point.
 * **Select the Permissions Reports category in the filter** you can find in the upper left corner.
 * **Click the Permissions Matrix report tile** to be redirected to the Selection screen.
 
@@ -94,7 +94,7 @@ With this report, you will see where exactly the user has access and if permissi
 
 To generate the User Access report:
 
-* **Click the Reports tile**; it is located on the Syskit Point home screen.
+* **Click the Reports button**; it is located on left side of your Syskit Point.
 * **Select Permission Reports in the filter**; it can be found in the upper left corner.
 * **Click the User Access report** to be redirected to the options screen.
 * **Select one or multiple users** to include in the report.
@@ -146,7 +146,7 @@ The Unique Permissions report shows a list of objects (sites, lists, folders, fi
 
 ### Generate Report
 
-* **Click the Reports tile**; it is located on the Syskit Point home screen.
+* **Click the Reports button**; it is located on left side of your Syskit Point.
 * **Select Permission Reports in the filter**; it can be found in the upper left corner.
 * **Click the Unique Permissions report** to be redirected to the options screen.
 * **Select the workspaces** for which the report should be generated.
@@ -219,7 +219,7 @@ The views available when generating the report are the following:
 
 ### Generate Report
 
-* **Click the Reports tile**; it is located on the Syskit Point home screen.
+* **Click the Reports button**; it is located on left side of your Syskit Point.
 * **Select Permission Reports in the filter**; it can be found in the upper left corner.
 * **Click the Group Memberships report** to be redirected to the options screen.
 * **Select the workspaces** for which the report should be generated.
@@ -283,7 +283,7 @@ The Group Access report can be generated for:
 
 ### Generate Report
 
-* **Click the Reports tile**; it is located on the Syskit Point home screen.
+* **Click the Reports button**; it is located on left side of your Syskit Point.
 * **Select Permission Reports in the filter**; it can be found in the upper left corner.
 * **Click the Group Access report** to be redirected to the Selection screen.
 
@@ -340,7 +340,7 @@ The Users with Privileged Access report shows all users with privileged access o
 
 ### Generate Report
 
-* **Click the Reports tile**; it is located on the Syskit Point home screen.
+* **Click the Reports button**; it is located on left side of your Syskit Point.
 * **Select Permission Reports in the filter**; it can be found in the upper left corner.
 * **Click the Users with Privileged Access report** to be redirected to the options screen.
 * **Select the type of users** with privileged access for which the report should be generated.
@@ -380,7 +380,7 @@ The SharePoint Groups report provides a list of all SharePoint groups and their 
 
 ### Generate Report
 
-* **Click the Reports tile**; it is located on the Syskit Point home screen.
+* **Click the Reports button**; it is located on left side of your Syskit Point.
 * **Select Permission Reports in the filter**; it can be found in the upper left corner.
 * **Click the SharePoint Groups report** to be redirected to the options screen.
 * **Select the workspaces** for which the report should be generated.
@@ -412,7 +412,7 @@ The Microsoft Teams with Private Channels report **shows all Microsoft Teams wit
 
 ### Generate Report
 
-* **Click the Reports tile**; it is located on the Syskit Point home screen.
+* **Click the Reports button**; it is located on left side of your Syskit Point.
 * **Select Microsoft Teams and Groups in the filter**; it can be found in the upper left corner.
 * **Click the Users with Privileged Access report** 
 * **Click the Microsoft Teams with Private Channels** to generate the report.

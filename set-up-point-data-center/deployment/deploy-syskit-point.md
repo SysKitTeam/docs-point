@@ -21,9 +21,11 @@ Prepare the following for Syskit Point deployment:
 * Select the **Plan (3)** from the dropdown menu
 * Click __Create (4)__ to continue with the deployment configuration; __Create Syskit Point__ screen opens with the __Basics__ tab selected
 
-![Syskit Point on Azure Marketplace](../../.gitbook/assets/deploy-syskit-point_get.png)
-![Create App in Azure](../../.gitbook/assets/deploy-syskit-point_continue.png)
-![Syskit Point in Azure](../../.gitbook/assets/deploy-syskit-point_create.png)
+![Syskit Point on Azure Marketplace](../../.gitbook/assets/deploy-syskit-point-azure-marketplace.png)
+
+![Create App in Azure](../../.gitbook/assets/deploy-syskit-point-continue.png)
+
+![Syskit Point in Azure](../../.gitbook/assets/deploy-syskit-point-create.png)
 
 ## Azure Resources Deployment
 
@@ -40,7 +42,7 @@ The __Basics__ tab enables you to:
 * __choose the Azure region (3)__ where Syskit Point resources will be created
 * __click Next (4)__ to proceed to the __Web application settings__ tab
 
-![Basics Tab](../../.gitbook/assets/deploy-syskit-point_basics.png)
+![Basics Tab](../../.gitbook/assets/deploy-syskit-point-basics.png)
 
 
 On the __Web application settings__ tab, you will need to define the following:
@@ -53,7 +55,7 @@ On the __Web application settings__ tab, you will need to define the following:
   * __Do not deploy__ - Configuration Inventory module is not deployed
 * __click Next (6)__ to continue with the __Azure SQL settings__ configuration
 
-![Web Application Settings Tab](../../.gitbook/assets/deploy-syskit-point_web-app-settings.png)
+![Web Application Settings Tab](../../.gitbook/assets/deploy-syskit-point-web-app-settings.png)
 
 Define the following on the __Azure SQL settings__ tab:
 * __Azure SQL Tier (1)__
@@ -65,14 +67,14 @@ Define the following on the __Azure SQL settings__ tab:
 **Please note!** This is mandatory in order to **provision a new SQL server** as this is a Microsoft requirement. Without the SQL credentials, it would not be possible to create the SQL server; however, after the initial deployment, the credentials will not be used again. The SQL authentification is disabled, and Managed Identity authentication will be used in the future. 
 {% endhint %}
 
-![Azure SQL Settings Tab](../../.gitbook/assets/deploy-syskit-point_azure-sql-settings.png)
+![Azure SQL Settings Tab](../../.gitbook/assets/deploy-syskit-point-azure-sql-settings.png)
 
 The __Network configuration__ tab enables you to __configure virtual network__ used by Syskit Point resources.
 Depending on your use case, you have __two options available__:
 * __Use the predefined virtual network configuration__ - a new virtual network is created when deploying Syskit Point; no additional configuration is needed, and you can __proceed to the next step by clicking the Next button (1)__, or
 * __Create a new virtual network with custom settings by clicking the Create new option (2)__
 
-![Network Configuration Tab](../../.gitbook/assets/deploy-syskit-point_network-configuration.png)
+![Network Configuration Tab](../../.gitbook/assets/deploy-syskit-point-network-configuration.png)
 
 If you click the Create new option, a new screen appears where you can change the predefined settings:
 * __Name (1)__ of the virtual network
@@ -88,18 +90,18 @@ If you decide to change the predefined values, **ensure that all subnets have 25
 
 __Click OK__ when you finish the virtual network setup. 
 
-![Create Virtual Network Screen](../../.gitbook/assets/deploy-syskit-point_create-virtual-network.png)
+![Create Virtual Network Screen](../../.gitbook/assets/deploy-syskit-point-create-virtual-network.png)
 
 The __Review + create__ tab shows the following information:
 * __Validation status (1)__ showing whether all resources are correctly configured
 * __Configuration summary (2)__ showing all options selected in previous steps
 * __Create button (3)__; once clicked, the deployment of Azure resources starts
 
-![Review + create Tab](../../.gitbook/assets/deploy-syskit-point_review.png)
+![Review + create Tab](../../.gitbook/assets/deploy-syskit-point-review.png)
 
 At the start of the deployment, you will be redirected to a page showing the deployment progress. After 5-10 minutes, the deployment is complete, and the __Go to resource group (1)__ button appears, as shown in the image below. Click the button to open the __Resource group's Overview page__, showing all created Azure resources.
 
-![Go to resource group Button](../../.gitbook/assets/deploy-syskit-point_go-to-resource-group.png)
+![Go to resource group Button](../../.gitbook/assets/deploy-syskit-point-go-to-resource-group.png)
 
 {% hint style="success" %}
 With the described deployment, __all Azure resources needed to run Syskit Point are created__, and no additional installation is needed.
@@ -113,8 +115,9 @@ To view the Syskit Point web app URL, do the following:
 * __find and click the app service resource (1)__
 * __click the URL link (2)__ available in the Essentials section on the app service's Overview screen
 
-![Azure Resource Group - App Service](../../.gitbook/assets/deploy-syskit-point_app-service.png)
-![Syskit Point Web App URL](../../.gitbook/assets/deploy-syskit-point_url.png)
+![Azure Resource Group - App Service](../../.gitbook/assets/deploy-syskit-point-app-service.png)
+
+![Syskit Point Web App URL](../../.gitbook/assets/deploy-syskit-point-url.png)
 
 Syskit Point web page opens.
 First, you will be prompted to [activate Syskit Point](../activation/activate-syskit-point.md)

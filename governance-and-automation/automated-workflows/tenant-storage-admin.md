@@ -19,7 +19,7 @@ The **Edit Policy** pop-up dialog opens where you can:
 * **Select the Severity level (2)**
   * The severity level set by default for this policy is High
   * You can select between three levels of severity: **High, Medium, or Low**
-* By default, **automation for this policy is turned on** but it can be turned off by clicking the toggle (3)
+* By default, **task delegation for this policy is turned on** but it can be turned off by **clicking the toggle (3)**
   * By default, Syskit Point admins are notified about storage usage but you can also select Custom Recipients 
 
 Once the policy is set to your preference, **click the Save button (4)** to finalize. 

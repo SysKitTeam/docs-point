@@ -33,7 +33,7 @@ When Syskit Point is deployed from Azure Marketplace, a virtual network is creat
 * **be-subnet**
 * **default-subnet**
 
-![Azure Networking - Architecture Diagram](../../.gitbook/assets/azure-networking_diagram.png)
+![Azure Networking - Architecture Diagram](../../.gitbook/assets/azure-networking-diagram.png)
 
 The subnets have **Network security groups associated** with the default rules applied. **By default**, **inbound traffic is denied** and **outbound traffic is allowed**. If you wish to limit outbound traffic, please [contact us](https://www.syskit.com/company/contact-us). 
 

@@ -23,7 +23,7 @@ It allows you to view the Power BI resources based on their classification and s
 
 ### Generate Report
 
-* **Click the Reports tile**; it is located on the Syskit Point home screen.
+ * **Click the Reports button**; located on the left side of the screen.
 * **Select the Power BI category in the filter** you can find in the upper left corner.
 * **Click the Power BI Inventory report tile** to be redirected to the Selection screen.
 
@@ -61,7 +61,7 @@ The Power BI Workspaces report gives insight into the Power BI workspaces inside
 
 ### Generate Report
 
-* **Click the Reports tile**; it is located on the Syskit Point home screen.
+ * **Click the Reports button**; located on the left side of the screen.
 * **Select the Power BI category in the filter** you can find in the upper left corner.
 * **Click the Power BI Workspaces report tile** to be redirected to the Selection screen.
 
@@ -79,7 +79,7 @@ The Power BI Permissions report gives insight into the permissions given within 
 
 ### Generate Report
 
-* **Click the Reports tile**; it is located on the Syskit Point home screen.
+ * **Click the Reports button**; located on the left side of the screen.
 * **Select the Power BI category in the filter** you can find in the upper left corner.
 * **Click the Power BI Permissions report tile** to be redirected to the Selection screen.
 

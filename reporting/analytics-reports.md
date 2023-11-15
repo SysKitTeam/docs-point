@@ -36,7 +36,7 @@ Site Analytics report provides an overview of all sites; it shows the total hits
 
 ### Generate File and Page Activities Report
 
- * **Click the Reports tile**; it is located on the Syskit Point home screen.
+* **Click the Reports button**; it is located on left side of your Syskit Point.
  * **Select Audit Logs in the filter**; it can be found in the upper left corner.
  * **Click the Site Analytics report** to generate the report.
 
@@ -67,7 +67,7 @@ Use this report to display the structure of the SharePoint environment.
 
 ### Generate Site Structure Report
 
-* **Click the Reports tile**; it is located on the Syskit Point home screen.
+* **Click the Reports button**; it is located on left side of your Syskit Point.
 * **Select Audit Logs in the filter**; it can be found in the upper left corner.
 * **Click the Site Structure report** to be redirected to the selection screen.
 * **Select one or multiple sites** for which to generate the report. 
@@ -95,7 +95,7 @@ This report can be used to stay up to date with any unused workspaces in the env
 
 ### Generate Inactive Content Report
 
-* **Click the Reports tile**; it is located on the Syskit Point home screen.
+* **Click the Reports button**; it is located on left side of your Syskit Point.
 * **Select Analytics in the filter**; it can be found in the upper left corner.
 * **Click the Inactive Content report** to be redirected to the options screen.
   * **Select which type of workspaces** the report should be generated for (Site, Microsoft 365 Group, or Microsoft Team)
@@ -129,12 +129,7 @@ To see this report, **the Adoption and Analytics module** needs to be installed 
 
 ### Generate SharePoint Activity Report
 
-
-- Click the SharePoint Activity report.
-- On the Selection screen, choose which workspaces you want to generate a report for; select a time frame on the bottom filter and click the Run Report button.
-
-
-* **Click the Reports tile**; located on the Syskit Point home screen.
+* **Click the Reports button**; it is located on left side of your Syskit Point.
 * **Select Analytics in the filter**; located in the upper left corner.
 * **Click the SharePoint Activity report** to be redirected to the **Selections screen**.
   * **Select which workspace** the report should be generated for, and select the time frame on the bottom filter.
@@ -159,7 +154,7 @@ To view this report, the Adoption and Analytics module needs to be installed in 
 
 ### Generate Most Popular Content Report
 
-* **Click the Reports tile**; located on the Syskit Point home screen.
+* **Click the Reports button**; it is located on left side of your Syskit Point.
 * **Select Analytics in the filter**; located in the upper left corner.
 * **Click the Most Popular Content report** to be redirected to the **Selections screen**.
   * **Select which workspace** the report should be generated for; in the bottom filter, select the time frame and choose between **Pages or Documents**. 
@@ -190,7 +185,7 @@ To see this report, the Adoption and Analytics module needs to be installed in S
 
 ### Generate Meeting Interactions Report
 
-* **Click the Reports tile**; located on the Syskit Point home screen.
+* **Click the Reports button**; it is located on left side of your Syskit Point.
 * **Select Analytics in the filter**; located in the upper left corner.
 * **Click the Meeting Interactions report** to be redirected to the **Selections screen**.
   * **Select which company department** the report should be generated for; in the bottom filter, select the time frame for the report. 
@@ -211,7 +206,7 @@ To see this report, the Adoption and Analytics module needs to be installed in S
 ### Generate Conversation Interactions Report
 
 
-* **Click the Reports tile**; located on the Syskit Point home screen.
+* **Click the Reports button**; it is located on left side of your Syskit Point.
 * **Select Analytics in the filter**; located in the upper left corner.
 * **Click the Conversation Interactions report** to be redirected to the **Selections screen**.
   * **Select which company department** the report should be generated for; in the bottom filter, select the time frame for the report. 
@@ -230,7 +225,7 @@ To see this report, the Adoption and Analytics module needs to be installed in S
 ### Generate Network Interaction Details Report
 
 
-* **Click the Reports tile**; located on the Syskit Point home screen.
+* **Click the Reports button**; it is located on left side of your Syskit Point.
 * **Select Analytics in the filter**; located in the upper left corner.
 * **Click the Network Interaction Details report** to be redirected to the **Selections screen**.
   * **Select which company department** the report should be generated for; in the bottom filter, select the time frame for the report. 
