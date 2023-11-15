@@ -29,10 +29,14 @@ description: >-
 * **Improved validations and clearer messaging** added to the Subscriptions portal. 
   * Includes details on the number of licenses you need to purchase for Syskit Point or information if you are currently using more licenses for Syskit Point than previously purchased.
 
-* **Fixed an issue** that made it difficult to click the Send Reminder button for Lifecycle Management when selecting a large number of workspaces. 
+* **Fixed a bug** where Teams with Private Channels report returned no results for Syskit Point admins.
+
+* **Fixed an issue** where creating a SharePoint site provisioning request resulted in an error.
 
 * **Fixed a bug** that caused issues during automatic sync where new Teams channels were not synced and visible in Syskit Point. 
 
 * **Fixed a bug** where Provisioning used the wrong template for SharePoint sites. 
+
+* **Fixed an issue** that made it difficult to click the Send Reminder button for Lifecycle Management when selecting a large number of workspaces. 
 
 * **Various improvements and minor fixes are available**.
