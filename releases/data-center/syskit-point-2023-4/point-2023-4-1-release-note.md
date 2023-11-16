@@ -16,24 +16,24 @@ description: >-
 ## Get the Latest Version
 
 * **New to Syskit Point?** Get the latest Syskit Point version from [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit\_point).\
-  Find all steps described in detail in the [deployment article](../../set-up-point-data-center/deployment/deploy-syskit-point.md).
+  Find all steps described in detail in the [deployment article](../../../set-up-point-data-center/deployment/deploy-syskit-point.md).
 * **Already using Syskit Point?** Upgrade to the latest Syskit Point version.\
   [![](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitassetsstorage.blob.core.windows.net%2Fpoint%2FARMTemplates%2FPointUpdateDeploy%2FPointUpdateTemplate.json)
 
-See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../set-up-point-data-center/deployment/upgrade-syskit-point.md).
+See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../set-up-point-data-center/deployment/upgrade-syskit-point.md).
 
 ## Features
 
 {% hint style="warning" %}
 **Please note!**\
-Global admin re-consent is required after the upgrade to the latest version. Consent is required due to permission changes introduced with enhancements in the Copy User Permissions action. [Learn more about permission changes here](../../requirements/permission-requirements-change-log.md).
+Global admin re-consent is required after the upgrade to the latest version. Consent is required due to permission changes introduced with enhancements in the Copy User Permissions action. [Learn more about permission changes here](../../../requirements/permission-requirements-change-log.md).
 
-[Syskit Point Teams app upgrade](../../governance-and-automation/syskit-point-teams-app.md#upgrade-syskit-point-teams-app) is required after upgrading to the latest version due to changes introduced in the new Microsoft Teams app.
+[Syskit Point Teams app upgrade](../../../governance-and-automation/syskit-point-teams-app.md#upgrade-syskit-point-teams-app) is required after upgrading to the latest version due to changes introduced in the new Microsoft Teams app.
 {% endhint %}
 
   * **New Storage Metrics report is available!**
     * The Storage Metrics report shows your storage usage over time in your tenant to help you: 
-      * [Manage and optimize content usage](../../governance-and-automation/optimize-storage.md)
+      * [Manage and optimize content usage](../../../governance-and-automation/optimize-storage.md)
       * Identify potentially unusual spikes
       * Determine whether you need additional storage options
       * In case a defined limit is reached, the usage percentage bar graph related to the site will be colored red on the tenant, as well as the site level.
@@ -44,10 +44,10 @@ Global admin re-consent is required after the upgrade to the latest version. Con
   * **The Storage tile on the Dashboard is updated**, showing storage details on the largest sites in your environment.
 
   * **There is a new tenant-wide policy - Tenant Storage Limits**.
-  * You can modify the percentage of used tenant storage that, once reached, results in Syskit Point raising a check on the Security & Compliance dashboard. Find more details in the [Tenant Storage Limit policy article](../../governance-and-automation/automated-workflows/tenant-storage-admin.md).
-  * You can find the Tenant Storage Limit check on the [Security & Compliance dashboard](../../governance-and-automation/security-compliance-checks/security-compliance-checks.md). For more information about the Tenant Storage Limit report, [take a look at this article](../../governance-and-automation/security-compliance-checks/tenant-storage.md).
+  * You can modify the percentage of used tenant storage that, once reached, results in Syskit Point raising a check on the Security & Compliance dashboard. Find more details in the [Tenant Storage Limit policy article](../../../governance-and-automation/automated-workflows/tenant-storage-admin.md).
+  * You can find the Tenant Storage Limit check on the [Security & Compliance dashboard](../../../governance-and-automation/security-compliance-checks/security-compliance-checks.md). For more information about the Tenant Storage Limit report, [take a look at this article](../../../governance-and-automation/security-compliance-checks/tenant-storage.md).
   * **Task delegation for the policy is, by default turned on**, meaning that **an email will be sent to Syskit Point administrators when Syskit Point detects that the defined tenant-wide storage limit was reached**. Along with an email, **a task is created for Syskit Point administrators in Syskit Point**. 
-  * **[Find more information on how to resolve the task here](../../point-collaborators/resolve-governance-tasks/tenant-storage-limit.md)**.
+  * **[Find more information on how to resolve the task here](../../../point-collaborators/resolve-governance-tasks/tenant-storage-limit.md)**.
   * The policy has a **vulnerability history available** that enables you to see all previously detected and resolved tenant storage limit vulnerabilities. 
   * **Tenant storage limit vulnerability also shows** the percentage of used storage, used and total storage in your tenant, as well as Accept risk action, and a link that provides you with information on how to resolve the issue at hand in Microsoft 365 by adding more storage.
 
@@ -63,12 +63,12 @@ Global admin re-consent is required after the upgrade to the latest version. Con
     * Multiselect is also supported. 
     * **Please note that modifying the sensitivity labels can take up to 24 hours to propagate**. 
     * To apply or remove sensitivity labels, a dedicated Microsoft 365 service account for SysKit Point needs to be connected.
-    * [Learn more about this action in the new article](../../governance-and-automation/manage-sensitivity-labels.md).
+    * [Learn more about this action in the new article](../../../governance-and-automation/manage-sensitivity-labels.md).
 
 * **New option added to Minimum Owners policy**!
     * Admins can decide whether they want to allow owners to accept risk for detected minimum number of owners policy vulnerabilities or not.
     * You can find the option under the Task Delegation section when editing a minimum number of owners policy.
-    * [Find out how to set up a minimum number of owners policy here](../../governance-and-automation/automated-workflows/minimum-number-of-owners-admin.md).
+    * [Find out how to set up a minimum number of owners policy here](../../../governance-and-automation/automated-workflows/minimum-number-of-owners-admin.md).
 
 
 ## Improvements & Bug Fixes
