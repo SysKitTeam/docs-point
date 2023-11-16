@@ -31,37 +31,25 @@ Global admin re-consent is required after the upgrade to the latest version. Con
 [Syskit Point Teams app upgrade](../../governance-and-automation/syskit-point-teams-app.md#upgrade-syskit-point-teams-app) is required after upgrading to the latest version due to changes introduced in the new Microsoft Teams app.
 {% endhint %}
 
-* **There is a new tenant-wide policy - Tenant Storage Limits**.
-  * You can modify the percentage of used tenant storage that, once reached, results in Syskit Point raising a check on the Security & Compliance dashboard. Find more details in the [Tenant Storage Limit policy article](../../governance-and-automation/automated-workflows/tenant-storage-admin.md).
-  * You can find the Tenant Storage Limit check on the [Security & Compliance dashboard](../../governance-and-automation/security-compliance-checks/security-compliance-checks.md). For more information about the Tenant Storage Limit report, [take a look at this article](../../governance-and-automation/security-compliance-checks/tenant-storage.md).
-  * **Task delegation for the policy can be turned on**, meaning that **an email will be sent to Syskit Point administrators when Syskit Point detects that the defined tenant-wide storage limit was reached**. Along with an email, **a task is created for Syskit Point administrators in Syskit Point**. 
-  * **[Find more information on how to resolve the task here](../../point-collaborators/resolve-governance-tasks/tenant-storage-limit.md)**.
-  * The policy has a **vulnerability history available** that enables you to see all previously detected and resolved tenant storage limit vulnerabilities. 
-  * **Tenant storage limit vulnerability also shows** the percentage of used storage, used and total storage in your tenant, as well as Accept risk action, and a link that provides you with information on how to resolve the issue at hand in Microsoft 365 by adding more storage.
-
-* **The Storage feature has been updated**!
-
   * **New Storage Metrics report is available!**
     * The Storage Metrics report shows your storage usage over time in your tenant to help you: 
       * [Manage and optimize content usage](../../governance-and-automation/optimize-storage.md)
       * Identify potentially unusual spikes
       * Determine whether you need additional storage options
       * In case a defined limit is reached, the usage percentage bar graph related to the site will be colored red on the tenant, as well as the site level.
-    * **The storage usage report comes with a Site Storage Metrics report**!
-      * You can **drill to the Site Storage Metrics report** by clicking the **Name column**.
-      * On the new report, see the complete site structure and content, accompanied with the **size**, **extension**, **number of file versions**, **author**, and **last activity** information for each file.
-    * **File Storage Details** are also available in the report!
-      * Drill from the Site Storage Metrics report to the File Storage Details report by clicking a file name.
-      * Use this report to see all file versions and the total storage used by all versions.
-      * Find how much storage is used by the file versions older than 30 days.
-      * See how much storage is used by the file versions other than the latest 20 versions. 
-      * **Please note that the File Storage Details report is available in the Governance plan only**.
-       * [Read this article to find more information about the File Storage Details report](../../reporting/cleanup-and-health-reports.md#file-storage-details).
   * When clicked, the **View All link on the Storage tile on the Home dashboard now opens the Storage Metrics report**. 
   * **A warning message** is added and shown when the storage quota for the policy is surpassed. 
   * **Additional metadata columns were added** to the Storage Metrics report and can be selected from the column chooser.
   * **The Storage Management screen** was added to General Settings, which lets you choose whether to collect storage data and provides the ability to define storage reporting settings. 
   * **The Storage tile on the Dashboard is updated**, showing storage details on the largest sites in your environment.
+
+  * **There is a new tenant-wide policy - Tenant Storage Limits**.
+  * You can modify the percentage of used tenant storage that, once reached, results in Syskit Point raising a check on the Security & Compliance dashboard. Find more details in the [Tenant Storage Limit policy article](../../governance-and-automation/automated-workflows/tenant-storage-admin.md).
+  * You can find the Tenant Storage Limit check on the [Security & Compliance dashboard](../../governance-and-automation/security-compliance-checks/security-compliance-checks.md). For more information about the Tenant Storage Limit report, [take a look at this article](../../governance-and-automation/security-compliance-checks/tenant-storage.md).
+  * **Task delegation for the policy is, by default turned on**, meaning that **an email will be sent to Syskit Point administrators when Syskit Point detects that the defined tenant-wide storage limit was reached**. Along with an email, **a task is created for Syskit Point administrators in Syskit Point**. 
+  * **[Find more information on how to resolve the task here](../../point-collaborators/resolve-governance-tasks/tenant-storage-limit.md)**.
+  * The policy has a **vulnerability history available** that enables you to see all previously detected and resolved tenant storage limit vulnerabilities. 
+  * **Tenant storage limit vulnerability also shows** the percentage of used storage, used and total storage in your tenant, as well as Accept risk action, and a link that provides you with information on how to resolve the issue at hand in Microsoft 365 by adding more storage.
 
 * **Home dashboard is now customizable**! 
   * All users can **reorder the dashboard tiles with the simple drag-n-drop action**. The layout is saved per user.
