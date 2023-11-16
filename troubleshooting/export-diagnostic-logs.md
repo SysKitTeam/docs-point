@@ -40,13 +40,13 @@ On the Diagnostic Logs Export screen:
 * **Select Data to Export (2)**; **by default**, **all data types are selected**; use the default selection unless otherwise communicated by the Syskit Point support team
 * **Click Start Diagnostic Export** to create a file containing diagnostic logs
 
-![Diagnostic Logs Export](../.gitbook/assets/export-diagnostic-logs_run-export.png)
+![Diagnostic Logs Export](../.gitbook/assets/export-diagnostic-logs-run-export.png)
 
 When the export is finished:
 * **Download link is displayed** in the Latest Exports section
 * **Click the Link to download the Excel file (1)**; the download starts automatically
 
-![Download Link](../.gitbook/assets/export-diagnostic-logs_download.png)
+![Download Link](../.gitbook/assets/export-diagnostic-logs-download.png)
 
 ## Next Steps
 
