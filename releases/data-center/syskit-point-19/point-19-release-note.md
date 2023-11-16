@@ -8,8 +8,8 @@ description: >-
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
-**Product version:** 19.0.0\
-**Build number:** 1958\
+**Product version:** 19.0.0
+**Build number:** 1958
 **Release date:** Apr 26, 2021
 
 ## Features
@@ -18,11 +18,11 @@ description: >-
   * **Minimum number of owners** – Syskit Point will notify existing owners if it detects a Microsoft 365 Group or a Team with fewer owners than defined in the policy. Owners can then quickly resolve the policy violation through a Syskit Point task.
   * **Maximum number of owners** - Syskit Point will notify existing owners if there is a Microsoft 365 Group or a Team with more owners than defined in the policy.
   * **Orphaned workspaces** – For Microsoft 365 Groups and Teams without active owners, Syskit Point will ask members or specific users to suggest new owners. Defined users can then approve suggestions and complete adding a new owner or decide to archive or remove the workspace if it is not being used.
-  * **Inactive Guest Users** – Syskit Point will ask specified users to validate guest users after they become inactive. This tenant-wide policy helps you ensure there are no unwanted guest users in your environment. **If owners or members do not resolve the policy violations, Syskit Point will automatically reassign the task or resolve the violation, depending on your settings.** [To learn more about the available capabilities, navigate to the Policies article.](../../governance-and-automation/automated-workflows/set-up-policies.md)
+  * **Inactive Guest Users** – Syskit Point will ask specified users to validate guest users after they become inactive. This tenant-wide policy helps you ensure there are no unwanted guest users in your environment. **If owners or members do not resolve the policy violations, Syskit Point will automatically reassign the task or resolve the violation, depending on your settings.** [To learn more about the available capabilities, navigate to the Policies article.](../../../governance-and-automation/automated-workflows/set-up-policies.md)
 * **Additional License information and customizations are available**! With the help of the **new Licenses dashboard tile**, you can easily **track the number of active and inactive licenses and see their total cost**. With the help of the **new License Reports settings screen**, you can define the following values:
   * **Number of inactivity days after which a user and assigned licenses will be considered inactive**
   * **Currency used in the license reports**
-  * **Monthly license cost per user for all licenses** in your environment **Syskit Point Admins can now decide whether to show or hide the license reports for site admins and group owners** by simply checking an option on the Manage Access settings screen. [To learn more about license reports and settings, navigate to the following article.](../../configuration/customize-license-reports.md)
+  * **Monthly license cost per user for all licenses** in your environment **Syskit Point Admins can now decide whether to show or hide the license reports for site admins and group owners** by simply checking an option on the Manage Access settings screen. [To learn more about license reports and settings, navigate to the following article.](../../../configuration/customize-license-reports.md)
 * **New alerts added – External User Logged in**, and **External User Login Failed**! New alerts help you track external user activity, so you are always aware.
 
 ## Improvements & Bug Fixes

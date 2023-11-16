@@ -15,18 +15,18 @@ description: This article lists improvements and bug fixes in Syskit Point versi
 ## Get the Latest Version
 
 * **New to Syskit Point?** Get the latest Syskit Point version from [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit\_point).\
-  Find all steps described in detail in the [deployment article](../../set-up-point-data-center/deployment/deploy-syskit-point.md).
+  Find all steps described in detail in the [deployment article](../../../set-up-point-data-center/deployment/deploy-syskit-point.md).
 * **Already using Syskit Point?** Upgrade to the latest Syskit Point version.\
   [![](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitassetsstorage.blob.core.windows.net%2Fpoint%2FARMTemplates%2FPointUpdateDeploy%2FPointUpdateTemplate.json)
 
-See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../set-up-point-data-center/deployment/upgrade-syskit-point.md).
+See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../set-up-point-data-center/deployment/upgrade-syskit-point.md).
 
 ## Improvements & Bug Fixes
 
 * **Improved User privacy options when accessed by Collaborators.**
   * While setting up Access, **Admin can now select ‘Give Collaborators access to subordinate user's activities’**, replacing the previously available option ‘Show audit reports to Collaborators’. This will not be automatically enabled.
     * **If enabled, the Collaborators will be able to view** the OneDrive tile, the Analytics & Usage tile, and Audit Log Reports when accessing User details or workspaces they manage.
-  * For more details on Role-Based Access take a look at [this article](../../configuration/enable-role-based-access.md).
+  * For more details on Role-Based Access take a look at [this article](../../../configuration/enable-role-based-access.md).
 * **Fixed an issue** where archiving a Microsoft Team would result in the following error: `Failed to execute Templates backend request ArchiveRequest.`
 * **Fixed a bug** where active Guest Users in Syskit Point were marked as inactive.
   * After setting up the Guest User Expiration Policy, the **assigned User receives an email once a Guest User is marked as inactive**.

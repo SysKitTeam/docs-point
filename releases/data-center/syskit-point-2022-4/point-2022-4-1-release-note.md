@@ -17,11 +17,11 @@ description: >-
 ## Get the Latest Version
 
 * **New to Syskit Point?** Get the latest Syskit Point version from [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit\_point).\
-  Find all steps described in detail in the [deployment article](../../set-up-point-data-center/deployment/deploy-syskit-point.md).
+  Find all steps described in detail in the [deployment article](../../../set-up-point-data-center/deployment/deploy-syskit-point.md).
 * **Already using Syskit Point?** Upgrade to the latest Syskit Point version.\
   [![](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitassetsstorage.blob.core.windows.net%2Fpoint%2FARMTemplates%2FPointUpdateDeploy%2FPointUpdateTemplate.json)
 
-See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../set-up-point-data-center/deployment/upgrade-syskit-point.md).
+See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../set-up-point-data-center/deployment/upgrade-syskit-point.md).
 
 * **Want to try out the Configuration Inventory module?** [Contact us](https://www.syskit.com/contact-us/).
 
@@ -29,7 +29,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 {% hint style="warning" %}
 **Please note!**\
-Global admin re-consent is required after the upgrade to the 2022.4.1 version. [Learn more about permission changes here](../../requirements/permission-requirements-change-log.md#syskit-point-20224).
+Global admin re-consent is required after the upgrade to the 2022.4.1 version. [Learn more about permission changes here](../../../requirements/permission-requirements-change-log.md#syskit-point-20224).
 {% endhint %}
 
 * **Added Access Review for Private Channels.**

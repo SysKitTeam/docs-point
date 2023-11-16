@@ -8,10 +8,8 @@ description: This article describes improvements and bug fixes in Syskit Point v
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
-**Product version:** 19.0.2  
-
-**Build number:** 2360 
-
+**Product version:** 19.0.2
+**Build number:** 2360
 **Release date:** May 25, 2021
 
 ## Improvements & Bug Fixes
