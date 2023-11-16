@@ -19,6 +19,7 @@
   * [Syskit Point Data Center](releases/data-center/README.md)
     * [Syskit Point 2023.4](releases/data-center/syskit-point-2023-4/README.md)   
       * [Syskit Point 2023.4.0](releases/data-center/syskit-point-2023-4/point-2023-4-release-note.md)
+      * [Syskit Point 2023.4.1](releases/data-center/syskit-point-2023-4/point-2023-4-1-release-note.md)
     * [Syskit Point 2023.3](releases/data-center/point-2023-3-release-note.md)
     * [Syskit Point 2023.2](releases/data-center/point-2023-2-release-note.md)
     * [Syskit Point 2023.1](releases/data-center/syskit-point-2023-1/README.md)    

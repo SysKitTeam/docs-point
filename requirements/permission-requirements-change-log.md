@@ -58,6 +58,16 @@ After clicking the Manage Connection button, you can expect the following to hap
 
 Depending on which version you are upgrading to, below you can find the list of changes in permissions requested and which features depend on them.
 
+### Syskit Point Data Center 2023.4.1
+
+**Consent is required due to permission changes introduced to make the Copy User Permissions action more robust**. Before, when adding members to private channels in Microsoft Teams, the action would often result in an error for users recently added to the Azure Active Directory.
+
+**The following permissions were added to the existing Syskit Point app registrations**:
+
+| App Registration    | API/Permissions Name                     | Permission                        | Type      | Reason                                                                                         |
+| ------------------- | ---------------------------------------- | --------------------------------- | --------- | ---------------------------------------------------------------------------------------------- |
+| Syskit Point Client | Microsoft Graph/TeamMember.ReadWrite.All | Add and remove members from teams | Delegated | Allows Syskit Point to add newly created users in AAD to Microsoft Teams and private channels. |
+
 ### Syskit Point Cloud - November 02, 2023
 
 **Consent is required due to permission changes introduced to make the Copy User Permissions action more robust**. Before, when adding members to private channels in Microsoft Teams, the action would often result in an error for users recently added to the Azure Active Directory.
