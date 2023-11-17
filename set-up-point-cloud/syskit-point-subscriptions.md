@@ -28,7 +28,7 @@ To purchase the subscription, complete the following steps:
 * Click the **Buy Now** button, located in the top right corner of your Syskit Point trial screen
 * On the **Syskit Subscriptions** site that opens, **click the Sign in (1)** button
 
-![Syskit Point Subscriptions - Sign in](../.gitbook/assets/purchasing-syskit-point\_subscriptions.png)
+![Syskit Point Subscriptions - Sign in](../.gitbook/assets/purchasing-syskit-point-subscriptions.png)
 
 **Syskit Sign in screen opens**, where you can either:
 
@@ -44,12 +44,12 @@ The **Overview section (1)** provides insight into general information on the st
 * **Name (2)** entered at the start of your trial
 * **Status (3)** of your Syskit Point license
 * **Next renewal date (4)** of your Syskit Point subscription or expiration date of your free trial
-* **Users (5)** the number of users for your Syskit Point
+* **Licenses (5)** the number of licenses included in your Syskit Point
 * **Purchased Plan (6)** for your subscription
   * This shows as Trial while your free trial period is still active
 * Next to **Purchased Plan** you can click on the **Buy Now button (7)** to purchase your Syskit Point subscription or manually click the **Subscriptions section (8)** on the left side of the screen under Overview
 
-![Syskit Point Subscription - Overview Screen](../.gitbook/assets/purchasing-syskit-point\_subscriptions-overview.png)
+![Syskit Point Subscription - Overview Screen](../.gitbook/assets/purchasing-syskit-point-subscriptions-overview.png)
 
 The **Subscription section (1)** is where you can purchase your subscription and select the specific details that suit your needs.
 
@@ -68,18 +68,22 @@ Your preferences for the following information need to be selected:
   * GBP - British Pound
   * EUR - Euro
 * **Number of Licensed Microsoft 365 Users (6)** - here, you can write the number of users you expect will be utilizing Syskit Point
-  * The number of licensed users affects the pricing of your Syskit Point subscription; [for more information on licensed users count, take a look at this article ](../licensing-activation/licensed-users-count.md).
-* **Summary (7)** - located on the right side of the screen, it shows a quick summary of the selection you've made with a cost estimate for your chosen subscription
-* Click the **Buy Now button (8)** for the final step to complete your purchase
+  * The number of licensed users affects the pricing of your Syskit Point subscription
+  * A minimum of 100 licenses needs to be purchased for your Syskit Point subscription. For more details on this, take a look at the [**Licensed Users Count article**](../licensing-activation/licensed-users-count.md). 
+    * This article can also be accessed by clicking **How we calculate licensing (7)**
 
-![Syskit Point Subscription - Subscriptions Screen](../.gitbook/assets/purchasing-syskit-point\_subscriptions-screen.png)
+* **Summary (8)** - located on the right side of the screen, it shows a quick summary of the selection you've made with a cost estimate for your chosen subscription
+* Click the **Buy Now button (9)** for the final step to complete your purchase
+
+![Syskit Point Subscription - Subscriptions Screen](../.gitbook/assets/purchasing-syskit-point-subscriptions-screen.png)
 
 After clicking **Buy Now**, you are redirected to the purchasing site.
 
-* On the left side of the screen, you can find an **overview of your selected subscription (1)**
-* On the right side of the screen, you will need to input your **credit card details (2)** to finalize the purchase
+* On the left side of the screen, you can find an **overview of your selected subscription (1)**.
+* On the right side of the screen, you can **pay with link (2)** or you need to input your **credit card details (2)**. 
+  * **Click the Pay and subscribe button (4)** to finalize the purchase.
 
-![Syskit Point Subscription - Purchasing Screen](../.gitbook/assets/purchasing-syskit-point\_subscriptions-payment.png)
+![Syskit Point Subscription - Purchasing Screen](../.gitbook/assets/purchasing-syskit-point-subscriptions-payment.png)
 
 Once you've purchased your Syskit Point subscription, you are redirected back to the Syskit Point Subscriptions site.
 
@@ -92,28 +96,33 @@ The **Purchased Plan** section will now show the name of the subscription you pu
 To increase the number of user licenses included in your plan, take the following steps:
 
 * Log into your **Syskit Subscriptions** site
-* Under **Overview**, navigate down to the **Users section (1)**
-* Click the **Buy More button (2)** located in the Users section
+* Under **Overview**, navigate down to the **Licenses section (1)**
+* Click the **Buy More button (2)** located in the Licenses section
   * This opens a pop-up where you can edit your current subscription and enhance your user licenses
 * Click the **Update plan (3)** button, located on the right side of the screen
 * Select your current plan by clicking the **Continue button** on the right side, next to your current plan
 
-![Syskit Point Subscription - Increase Users Licenses](../.gitbook/assets/syskit-point-cloud-licensing\_buy-more.png) 
+![Syskit Point Subscription - Increase Users Licenses](../.gitbook/assets/syskit-point-cloud-licensing-buy-more.png) 
 
-![Syskit Point Subscription - Increase Users Licenses - Update plan](../.gitbook/assets/syskit-point-cloud-licensing\_update\_plan.png)
+![Syskit Point Subscription - Increase Users Licenses - Update plan](../.gitbook/assets/syskit-point-cloud-licensing-update-plan.png)
 
-The **Quantity section (1)** shows the number of Users you currently have a license for.
+The screen to update your plan opens. Here you can:
 
-To increase the user license amount:
+* **Select the plan (1)** you want to change to
+* **Select the amount of licenses (2)** you want to purchase
+* **Click Continue (3)** when you are satisfied with your selection
 
-* Type the desired **number of licenses** in the space available under Quantity or use the + and - signs to adjust
-* The two sections below show:
-  * **What you'll be paying** - the amount you will be paying once your plan renews
-  * **Amount due today** - the amount you will need to pay instantly to increase your license number
+![Syskit Point Subscription - Update Plan - Selection](../.gitbook/assets/syskit-point-cloud-licensing-plan-selection.png)
+
+You are redirected to the confirmation screen, where the following information is shown: 
+
+* **The name and price (1)** of the new plan
+* **What you'll be paying (2)** - the amount you will be paying once your plan renews
+* **Amount due today (3)** - the amount you will need to pay instantly to increase your license number
     * This number will show the necessary payment based on the price of the added licenses; you will not be charged for the licenses you have already purchased
-* Click **Confirm (2)** to finalize your selection and proceed with your payment
+* Click **Confirm (4)** to finalize your selection and proceed with your payment
 
-![Syskit Point Subscription - Increased Users Licenses - Finalized](../.gitbook/assets/syskit-point-cloud-licensing\_users-licenses.png)
+![Syskit Point Subscription - Increased Users Licenses - Finalized](../.gitbook/assets/syskit-point-cloud-licensing-users-licenses.png)
 
 ## Upgrade Your Subscription Plan
 
@@ -126,26 +135,27 @@ To change or upgrade the Syskit Point subscription plan you currently have, comp
 * Click the **Update plan (3)** button, located on the right side of the screen
   * This opens a pop-up where you can edit your current subscription and enhance your user licenses
 
-![Syskit Point Subscription - Manage Subscription](../.gitbook/assets/syskit-point-cloud-licensing\_manage-subs.png) 
+![Syskit Point Subscription - Manage Subscription](../.gitbook/assets/syskit-point-cloud-licensing-manage-subs.png) 
 
-![Syskit Point Subscription - Update Plan](../.gitbook/assets/syskit-point-cloud-licensing\_update\_plan.png)
+![Syskit Point Subscription - Update Plan](../.gitbook/assets/syskit-point-cloud-licensing-update-plan.png)
 
-On the bottom, you will see the **Plans Available section (1)** where you can change your plan to being charged **Monthly or Yearly**.
+The **Update your plan screen** opens where you can:
+ * Change your plan to being charged **Monthly or Yearly (1)**.
+ * Change your subscription to a different plan by:
+   * **Selecting the plan (2)** you want to change to
+   * **Selecting the amount of licenses (3)** you want to purchase
+* Click the **Continue button (4)** to finalize your choice
 
-You will also see all the available subscription plans listed. Change your subscription to a different plan by:
+![Syskit Point Subscription - Upgrade Plan](../.gitbook/assets/syskit-point-cloud-licensing-new-plan.png)
 
-* Clicking the **Continue button (2)** located next to the new subscription plan of your choice
-
-![Syskit Point Subscription - Upgrade Plan](../.gitbook/assets/syskit-point-cloud-licensing\_new-plan.png)
-
-* The site that opens will show the **Changing To section (1)**, which lists the new plan you selected
+* The site that opens will show the **Changing your updates**, which lists the new plan you selected
 * The two sections below show:
   * **What you'll be paying** - the amount you will be paying once your plan renews
   * **Amount due today** - the amount you will need to pay instantly to upgrade to a different plan
     * This number will be the increased amount based on the pay difference between your initial plan and the new one; the amount paid for the initial plan is deducted from the price of the new plan
-* Click **Confirm (2)** to finalize your selection and proceed with your payment
+* Click **Confirm (1)** to finalize your selection and proceed with your payment
 
-![Syskit Point Subscription - Upgrade Plan - Finalized](../.gitbook/assets/syskit-point-cloud-licensing\_new-finalize.png)
+![Syskit Point Subscription - Upgrade Plan - Finalized](../.gitbook/assets/syskit-point-cloud-licensing-users-licenses-new.png)
 
 ## Cancel Your Subscription
 
@@ -158,18 +168,18 @@ To change or upgrade the Syskit Point subscription plan you currently have, comp
 * Click the **Cancel plan (2)** button, located on the right side of the screen
   * This opens a screen where you can cancel your current plan
 
-![Syskit Point Subscription - Cancel Subscription](../.gitbook/assets/syskit-point-cloud_syskit-point-subscriptions_manage-cancel.png)
+![Syskit Point Subscription - Cancel Subscription](../.gitbook/assets/syskit-point-cloud-syskit-point-subscriptions-manage-cancel.png)
 
-![Syskit Point Subscription - Cancel Subscription](../.gitbook/assets/setup-point-cloud_syskit-point-subscriptions_cancel-overview.png) 
+![Syskit Point Subscription - Cancel Subscription](../.gitbook/assets/setup-point-cloud-syskit-point-subscriptions-cancel-overview.png) 
 
 The Cancel Your Plan site will show an overview of your current plan with information about:
   * Name of your plan
   * Cost per year
   * Date until which your plan is available when canceled 
 
-To cancel your plan click the **Cancel plan button (1)**.
+To cancel your plan, click the **Cancel plan button (1)**.
   * This will open a pop-up that asks for feedback on why you are choosing to cancel, but leaving this comment is optional
 
 Your subscription will now be canceled, and once the current plan you had already purchased expires, you will no longer be able to utilize Syskit Point. 
 
-![Syskit Point Subscription - Canceled](../.gitbook/assets/setup-point-cloud_syskit-point-subscriptions_cancel.png)
+![Syskit Point Subscription - Canceled](../.gitbook/assets/setup-point-cloud-syskit-point-subscriptions-cancel.png)
