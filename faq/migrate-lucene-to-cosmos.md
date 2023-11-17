@@ -13,7 +13,7 @@ Necessary steps before the migration:
 * Stop both **Web App Service** and **BE App Service** created during the Syskit Point deployment. Open **Microsoft Azure > your Resource group > here you will find App services**. Open each of them and in the **ribbon bar** on the **Overview screen** click the **Stop** button. See the picture below.
 {% endhint %}
 
-![Microsoft Azure - Resource group](../.gitbook/assets/migrate-lucene-to-cosmos_microsoft-azure-resource-group.png)
+![Microsoft Azure - Resource group](../.gitbook/assets/migrate-lucene-to-cosmos-microsoft-azure-resource-group.png)
 
 ## Migration Steps
 To begin with the migration:
@@ -37,7 +37,7 @@ Endpoint **(1)** and key **(2)** can be found in the **Microsoft Azure** > **Azu
     
 {% endhint %}
 
-![Cosmos Endpoint and Primary key information](../.gitbook/assets/migrate-lucene-to-cosmos_cosmos-endpoint-and-key-information.png)
+![Cosmos Endpoint and Primary key information](../.gitbook/assets/migrate-lucene-to-cosmos-cosmos-endpoint-and-key-information.png)
 
 4. Check the size of your Lucene Index. The migration process can be performed at once or in phases. 
     For large indexes, it is recommended to do it in phases. Here are the duration estimates based on the index size and Cosmos DB throughput:
