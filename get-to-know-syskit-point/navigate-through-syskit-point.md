@@ -12,7 +12,7 @@ Once opened in your browser, Syskit Point shows the Welcome screen. Click the **
 
 This action redirects you to the well-known Microsoft Sign-in screen.
 
-![Microsoft Sign-in screen](../.gitbook/assets/syskit-point-quick-start-guide_microsoft-sign-in-screen.png)
+![Microsoft Sign-in screen](../.gitbook/assets/syskit-point-quick-start-guide-microsoft-sign-in-screen.png)
 
 Here, you have to enter your existing Microsoft 365 credentials.
 
