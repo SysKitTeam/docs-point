@@ -22,15 +22,20 @@ After registering **Syskit Point**, on the **Connect tenant** step, you have the
 * **Store audit logs \(1\)**
 * **Protect user privacy \(2\)**
 
-![Connect Tenant step](../.gitbook/assets/customize-audit-logs-collection_connect-tenant-step.png)
+![Connect Tenant step](../.gitbook/assets/customize-audit-logs-collection-connect-tenant.png)
+
+{% hint style="information" %}
+**Please note!**  
+You can change these settings by managing your tenant connection in Settings > General > Connected Tenant. 
+{% endhint %}
 
 ### Store Audit Logs Option
 
 By default, the **Store audit logs** option is enabled, meaning that Syskit Point will process and store the audit logs to your **Azure Cosmos DB account**.
 
-{% hint style="warning" %}
-**Please note!**  
-Regardless of your choice of whether to store them or not, audit logs are **regularly processed by Syskit Point** to track changes and activity in your Microsoft 365 environment. Storing audit logs allows you to access audit data for more extended periods than available in Microsoft 365.
+{% hint style="information" %}
+**Tip!**  
+You can change the Audit Logs settings after the initial connection by managing your tenant connection in Settings > General > Connected Tenant. 
 {% endhint %}
 
 ### Protect User Privacy Option
@@ -74,7 +79,7 @@ Here, you can:
 * **Select activities to collect \(3\)**
 * **View the number of events \(4\)** in the Audit Index
 
-![Audit Logs Settings](../.gitbook/assets/customize-audit-logs-collection_audit-logs-settings-saas.png)
+![Audit Logs Settings](../.gitbook/assets/customize-audit-logs-collection-settings-saas.png)
 
 Audit logs activities that are being collected can be found by clicking the **Select activities to collect \(3\)** link.
 
@@ -86,7 +91,7 @@ A new dialog opens, showing all audit log categories and activities available in
 * **Mark only specific activities within a category to be collected \(4\)**
 * **Confirm your changes** by clicking the **OK button \(5\)** and **Save** button on the **Audit Logs** screen.
 
-![Select activities to collect screen](../.gitbook/assets/customize-audit-logs-collection_select-activities-to-collect_new.png)
+![Select activities to collect screen](../.gitbook/assets/customize-audit-logs-collection-select-activities-to-collect.png)
 
 Available audit log categories:
 
@@ -135,7 +140,7 @@ Go to the **General Settings** screen in your Syskit Point to enable it.
     * Once set up, audit logs that are older than the timeframe you select will be deleted 
  * Click **Save (4)** to finalize
 
-![Data retention for audit logs](../.gitbook/assets/customize-audit-logs-collection_data-retention-settings.png)
+![Data retention for audit logs](../.gitbook/assets/customize-audit-logs-collection-data-retention-settings.png)
 
 ## Exchange Logs
 
@@ -152,7 +157,7 @@ To select Exchange activities:
   * **Exchange mailbox activities \(2\)**
 * **Click OK** to confirm
 
-![Exchange log categories](../.gitbook/assets/customize-audit-logs-collection_exchange-categories_new.png)
+![Exchange log categories](../.gitbook/assets/customize-audit-logs-collection-exchange-categories.png)
 
 {% hint style="success" %}
 **Please note!** It can take up to 30 minutes for Syskit Point to collect Exchange log data.

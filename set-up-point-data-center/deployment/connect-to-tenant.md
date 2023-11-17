@@ -17,54 +17,54 @@ The Global Admin account is used only for the initial setup; Point does not stor
 
 ## Connect for the First Time
 
-Open the __Syskit Point Web App URL__ in a browser to start the initial connection process.
-The __Register Syskit Point__ page opens, guiding you through the initial connecting process:
+Open the **Syskit Point Web App URL** in a browser to start the initial connection process.
+The **Register Syskit Point** page opens, guiding you through the initial connecting process:
 
-* click the __Open Azure Active Directory button (1)__ to open the __App registrations__ screen in Azure Active Directory admin center and create the __Syskit Point Installer__ app registration 
+* click the **Open Azure Active Directory button (1)** to open the **App registrations** screen in Azure Active Directory admin center and create the **Syskit Point Installer** app registration 
 
-* copy the provided __URL (2)__ needed when creating the __Syskit Point Installer__ app registration
+* copy the provided **URL (2)** needed when creating the **Syskit Point Installer** app registration
 
-* input the __Application (client) ID__ and __Directory (tenant) ID (3)__ available once you create the __Syskit Point Installer__ app registration
+* input the **Application (client) ID** and **Directory (tenant) ID (3)** available once you create the **Syskit Point Installer** app registration
 
-* click the __Register button (4)__ after you enter the required data
+* click the **Register button (4)** after you enter the required data
 
-To obtain the __Application (client) ID__ and __Directory (tenant) ID__, create the __Syskit Point Installer__ app registration.
+To obtain the **Application (client) ID** and **Directory (tenant) ID**, create the **Syskit Point Installer** app registration.
 
 ![Register Syskit Point](../../.gitbook/assets/connect-to-tenant-register.png)
 
 ## Create App Registration
 
-Open the __App registrations__ screen in Azure Active Directory admin center by clicking the __Open Azure Active Directory button__ available on the __Register Syskit Point__ screen described in the previous section.
+Open the **App registrations** screen in Azure Active Directory admin center by clicking the **Open Azure Active Directory button** available on the **Register Syskit Point** screen described in the previous section.
 
 To create the required app registration used by Syskit Point, do the following:
 
-* click the __New registration (1)__ button available in the top ribbon; the __Register an application__ screen opens
+* click the **New registration (1)** button available in the top ribbon; the **Register an application** screen opens
 
-* enter `Syskit Point Installer` in the __Name (2)__ field 
+* enter `Syskit Point Installer` in the **Name (2)** field 
 
-* select __Accounts in this organizational directory only (<TenantName> only - Single tenant)__ option under __Supported account types (3)__ 
+* select **Accounts in this organizational directory only (<TenantName> only - Single tenant)** option under **Supported account types (3)** 
  
-* in the __Redirect URI__ section, select the __Single-page Application (SPA) (4)__ option and paste the __URL (5)__ copied from the second step on the __Register Syskit Point__ page  described in the previous section
+* in the **Redirect URI** section, select the **Single-page Application (SPA) (4)** option and paste the **URL (5)** copied from the second step on the **Register Syskit Point** page  described in the previous section
 
-* click __Register (6)__
+* click **Register (6)**
 
 ![New App Registration](../../.gitbook/assets/connect-to-tenant-new-app-registration.png)
 
 ![Register an Application](../../.gitbook/assets/connect-to-tenant-register-application.png)
 
-After the app registration is created, the App Registration's __Overview screen__ opens.
+After the app registration is created, the App Registration's **Overview screen** opens.
 Here, you can find the following data needed for the initial connection:
-* __Application (client) ID (1)__
-* __Directory (tenant) ID (2)__
+* **Application (client) ID (1)**
+* **Directory (tenant) ID (2)**
 
-Copy the __Application (client) ID__ and __Directory (tenant) ID__ values, and paste them to the input fields in the third step in the Register Syskit Point page. 
+Copy the **Application (client) ID** and **Directory (tenant) ID** values, and paste them to the input fields in the third step in the Register Syskit Point page. 
 
 ![App Registration Overview](../../.gitbook/assets/connect-to-tenant-app-registration-overview.png)
 
 ## Consent
 
-After you provide information on the __Register Syskit Point__ page and click the __Register__ button, you will be prompted to sign in.
-Here, you need to provide a Microsoft 365 __Global Admin__ account. This account will be used only for the initial setup; Syskit Point does not store any passwords you enter here. The Global Admin account will not be required in future Syskit Point upgrades.
+After you provide information on the **Register Syskit Point** page and click the **Register** button, you will be prompted to sign in.
+Here, you need to provide a Microsoft 365 **Global Admin** account. This account will be used only for the initial setup; Syskit Point does not store any passwords you enter here. The Global Admin account will not be required in future Syskit Point upgrades.
 
 {% hint style="warning" %}
 **Why do I need to provide a global admin account?**  
@@ -75,22 +75,22 @@ When you first connect to your tenant, Syskit Point will request permissions to 
 
 ![Consent](../../.gitbook/assets/connect-to-tenant-consent.png)
 
-To continue, check the __Consent on behalf of your organization option (1)__, and click the __Accept button (2)__. 
+To continue, check the **Consent on behalf of your organization option (1)**, and click the **Accept button (2)**. 
 
 A new page opens where you can define additional connection settings. 
 
 ## Connection Settings
 
-On the __Connect Tenant__ page, you can choose which information would you like to collect when it comes to your Microsoft 365 environment:
+On the **Connect Tenant** page, you can choose which information would you like to collect when it comes to your Microsoft 365 environment:
 
-* __Automatic Discovery__ – by default, Syskit Point continuously monitors your Microsoft 365 environment and shows you the latest data. You cannot modify this setting.
-* __Autodiscover OneDrive (1)__ – by default, Syskit Point will collect information and report on the users' OneDrive activity, content, and sharing. To stop collecting OneDrive data, uncheck this option.
-* __Protect OneDrive privacy (2)__ – When enabled, Syskit Point will only show general information about the user's OneDrive, such as used storage. Syskit Point Admins won't be able to access any OneDrive content and personal data. By default, this option is disabled.
-* __Store audit logs (3)__ – Syskit Point will also collect all audit logs to monitor internal and external user activities and changes and store them on a hard drive. To stop storing audit logs, uncheck this option.
-* __Protect user privacy (4)__ - When enabled, user activity data will be hidden from Syskit Point and protected from Administrator supervision. By default, this option is disabled.
+* **Automatic Discovery** – by default, Syskit Point continuously monitors your Microsoft 365 environment and shows you the latest data. You cannot modify this setting.
+* **Autodiscover OneDrive (1)** – by default, Syskit Point will collect information and report on the users' OneDrive activity, content, and sharing. To stop collecting OneDrive data, uncheck this option.
+* **Protect OneDrive privacy (2)** – When enabled, Syskit Point will only show general information about the user's OneDrive, such as used storage. Syskit Point Admins won't be able to access any OneDrive content and personal data. By default, this option is disabled.
+* **Store audit logs (3)** – Syskit Point will also collect all audit logs to monitor internal and external user activities and changes and store them on a hard drive. To stop storing audit logs, uncheck this option.
+* **Protect user privacy (4)** - When enabled, user activity data will be hidden from Syskit Point and protected from Administrator supervision. By default, this option is disabled.
 
 {% hint style="success" %}
-You can change connection options anytime from the __Settings__ > __General__ > __Connected Tenant__ > __Manage Connection__ screen in Syskit Point application.
+You can change connection options anytime from the **Settings** > **General** > **Connected Tenant** > **Manage Connection** screen in Syskit Point application.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -98,7 +98,7 @@ You can change connection options anytime from the __Settings__ > __General__ > 
 For Syskit Point to collect, process, and save audit logs, you must enable auditing in your tenant. [Navigate here to find out how to turn on auditing.](../../configuration/turn-on-auditing.md)
 {% endhint %}
 
-Click the __Connect (5)__ button after defining the connection options. A new screen will open and show the progress of the initial connection. __Please do not refresh the page__ as it will provide important information needed for troubleshooting in an unlikely event of an error. 
+Click the **Connect (5)** button after defining the connection options. A new screen will open and show the progress of the initial connection. **Please do not refresh the page** as it will provide important information needed for troubleshooting in an unlikely event of an error. 
 
 ![Connection Settings](../../.gitbook/assets/connect-to-tenant-settings.png)
 
