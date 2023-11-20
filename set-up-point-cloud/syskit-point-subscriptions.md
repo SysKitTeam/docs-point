@@ -80,7 +80,7 @@ Your preferences for the following information need to be selected:
 After clicking **Buy Now**, you are redirected to the purchasing site.
 
 * On the left side of the screen, you can find an **overview of your selected subscription (1)**.
-* On the right side of the screen, you can **pay with link (2)** or you need to input your **credit card details (2)**. 
+* On the right side of the screen, you can **pay with link (2)** or you need to input your **credit card details (3)**. 
   * **Click the Pay and subscribe button (4)** to finalize the purchase.
 
 ![Syskit Point Subscription - Purchasing Screen](../.gitbook/assets/purchasing-syskit-point-subscriptions-payment.png)
