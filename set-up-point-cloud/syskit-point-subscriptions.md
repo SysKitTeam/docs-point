@@ -16,6 +16,7 @@ In this article, you will find information on the following:
 * [Purchase Additional User Licenses](syskit-point-subscriptions.md#purchase-additional-user-licenses)
 * [Upgrade Your Subscription Plan](syskit-point-subscriptions.md#upgrade-your-subscription-plan)
 * [Cancel Your Subscription](syskit-point-subscriptions.md#cancel-your-subscription)
+* [Reconnect After Purchasing](syskit-point-subscriptions.md#cancel-your-subscription)
 
 {% hint style="warning" %}
 **Please note!** If you didn't start your free 21-day trial, take a look at the [**Syskit Point trial article**](free-trial.md) for details on getting started. At any point during the 21 days of the free trial, you can purchase a Syskit Point Cloud subscription. In order to retain your data after your free trial has expired, a Syskit Point subscription needs to be purchased within 21 days of your trial period ending.
@@ -183,3 +184,21 @@ To cancel your plan, click the **Cancel plan button (1)**.
 Your subscription will now be canceled, and once the current plan you had already purchased expires, you will no longer be able to utilize Syskit Point. 
 
 ![Syskit Point Subscription - Canceled](../.gitbook/assets/setup-point-cloud-syskit-point-subscriptions-cancel.png)
+
+
+
+## Reconnect After Purchasing
+
+There are two potential reason why you may need to reconnect your tenant after purchasing your Syskit Point subscriptions: 
+
+  * Your **trial has expired, and 21 days after the trial expiration, your Syskit Point instance is deleted**. If you purchased your Syskit Point subscription more than 21 days after the trial expiration, you will **need to reconnect your tenant**.
+
+  * Your **Syskit Point license has expired, and 30 days after the expiration your Syskit Point instance is deleted**. When you purchase a Syskit Point subscription again, you will **need to reconnect your tenant**. 
+
+In case your Syskit Point is licensed, but your instance was deleted, you will see a message notifying you of that, as shown below. 
+
+To reconnect your tenant **click the Connect Tenant button (1)**.
+
+![Syskit Point Subscription - Canceled](../.gitbook/assets/syskit-point-subscriptions-reconnect-tenant.png)
+
+[For more details about connecting your tenant to Syskit Point, take a look at this article.](../set-up-point-cloud/free-trial.md)
