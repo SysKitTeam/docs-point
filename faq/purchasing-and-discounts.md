@@ -93,3 +93,11 @@ Syskit has a vast network of partners around the world. Select your country on t
 If you'd like to register as a partner, [contact us](https://www.syskit.com/contact-us/) for more info. 
 
 To read more on how our partnership program works, take a look at the [Partner Program FAQ](../faq/partner-program.md). 
+
+## Why can't I manage a subscription in the Subscriptions Portal?
+Currently, only the user who initially purchased the subscription can manage it.  
+If you want to change the user responsible for subscription management, please contact your Customer Success Manager or [Syskit support](https://support.syskit.com/hc/en-us).
+If you purchased your subscription via a partner network, contact the partner/reseller to update your subscription. 
+
+
+
