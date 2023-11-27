@@ -121,7 +121,7 @@
     * [Run Lifecycle Management Actions in Syskit Point](governance-and-automation/lifecycle-management/lifecycle-management-actions.md)
   * [Policies](governance-and-automation/automated-workflows/README.md)
     * [Set Up Policies](governance-and-automation/automated-workflows/set-up-policies.md)
-    * [Policy Automation](governance-and-automation/automated-workflows/policy-automation.md)
+    * [Rules](governance-and-automation/automated-workflows/policy-automation.md)
     * [Blocked Users with Assigned Licenses](governance-and-automation/automated-workflows/blocked-users-with-licenses-admin.md)   
     * [Inactive Guest Users](governance-and-automation/automated-workflows/inactive-guest-users-admin.md)
     * [Minimum Number of Owners](governance-and-automation/automated-workflows/minimum-number-of-owners-admin.md)

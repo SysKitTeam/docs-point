@@ -3,11 +3,11 @@ description: This article explains how to upgrade to Policy automation and remov
 
 ---
 
-# Upgrade to Policy Automation
+# Upgrade to Policy Rules
 
-Syskit Point's newest feature, Policy Automation, provides an easy way to automatically apply policies to all existing and newly created workspaces in order to ensure security and compliance.
+Syskit Point's feature, Rules, provides an easy way to automatically apply policies to all existing and newly created workspaces in order to ensure security and compliance.
 
-You can read more about this feature and how to create rules for auto-applying policies in the [Policy Automation article](../../.gitbook/assets/policy-automation_policy-settings.png).
+You can read more about this feature and how to create rules for auto-applying policies in the [Rules article](../../.gitbook/assets/policy-automation_policy-settings.png).
 
 One aspect of this feature is that it does not automatically apply policies when a policy has already been manually applied to a workspace. 
 
@@ -23,7 +23,7 @@ For details on how to remove the policies from your workspaces, take a look at t
 To manage all the policies assigned to your workspaces and remove them, take the following steps:
 
 * Open your Syskit Point and **navigate to Settings** and under **Governance** select **Policies**
-* Once there, **click the Manage Policies button**
+* Once there, **click the Manually Apply Policies button**
   * This opens the Manage Policies screen, where you can see a list of all the workspaces in your environment with policies assigned to them
 * **Select one or more workspaces (1)** by using the checkbox
    * Clicking the checkbox next to the **Name column** will **bulk select all the workspaces**
