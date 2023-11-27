@@ -186,14 +186,13 @@ Your subscription will now be canceled, and once the current plan you had alread
 ![Syskit Point Subscription - Canceled](../.gitbook/assets/setup-point-cloud-syskit-point-subscriptions-cancel.png)
 
 
-
 ## Reconnect After Purchasing
 
-There are two potential reason why you may need to reconnect your tenant after purchasing your Syskit Point subscriptions: 
+There are two potential reasons why you may need to reconnect your tenant after purchasing your Syskit Point subscriptions: 
 
   * Your **trial has expired, and 21 days after the trial expiration, your Syskit Point instance is deleted**. If you purchased your Syskit Point subscription more than 21 days after the trial expiration, you will **need to reconnect your tenant**.
 
-  * Your **Syskit Point license has expired, and 30 days after the expiration your Syskit Point instance is deleted**. When you purchase a Syskit Point subscription again, you will **need to reconnect your tenant**. 
+  * Your **Syskit Point license has expired, and 30 days after the expiration date, your Syskit Point instance is deleted**. When you purchase a Syskit Point subscription again, you will **need to reconnect your tenant**. 
 
 In case your Syskit Point is licensed, but your instance was deleted, you will see a message notifying you of that, as shown below. 
 
