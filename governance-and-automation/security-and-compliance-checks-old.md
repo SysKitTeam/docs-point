@@ -30,7 +30,7 @@ Directly from your home screen, you will see several things that need to be inve
 
 ## Automated Governance
 
-To keep all these things **under control proactively and even prevent** possible issues, we suggest exploring and [**setting up various governance policies and policy automation**](../governance-and-automation/automated-workflows/README.md) in Syskit Point that will control the minimum and maximum number of owners in your workspaces as well as how you automatically find and manage orphaned workspaces. 
+To keep all these things **under control proactively and even prevent** possible issues, we suggest exploring and [**setting up various governance policies and rules**](../governance-and-automation/automated-workflows/README.md) in Syskit Point that will control the minimum and maximum number of owners in your workspaces as well as how you automatically find and manage orphaned workspaces. 
  
 ## Navigate Security and Compliance Checks
 

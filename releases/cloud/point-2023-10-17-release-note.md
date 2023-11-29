@@ -20,7 +20,7 @@ description: >-
   * On the new report, see the complete site structure and content, accompanied with the **size**, **extension**, **number of file versions**, **author**, and **last activity** information for each file.
 
 * **Tenant Storage Limit policy receives new options and changes**!
-  * **Automation was added to the policy**, meaning that **an email will be sent to Syskit Point administrators when Syskit Point detects that the defined tenant-wide storage limit was reached**. Along with an email, **a task is created for Syskit Point administrators in Syskit Point**. 
+  * **Task Delegation was added to the policy**, meaning that **an email will be sent to Syskit Point administrators when Syskit Point detects that the defined tenant-wide storage limit was reached**. Along with an email, **a task is created for Syskit Point administrators in Syskit Point**. 
   * **[Find more information on how to resolve the task here](../../point-collaborators/resolve-governance-tasks/tenant-storage-limit.md)**.
   * The policy now has a **vulnerability history available** that enables you to see all previously detected and resolved tenant storage limit vulnerabilities. 
 

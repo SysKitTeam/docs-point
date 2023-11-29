@@ -15,7 +15,7 @@ description: >-
 
 ## Improvements & Bug Fixes
 
-* **Fixed an issue** with policy automation where the following error would appear when the underlying job tried to apply an inactive policy. `Failed to execute rules for specific workspaces
+* **Fixed an issue** with rules where the following error would appear when the underlying job tried to apply an inactive policy. `Failed to execute rules for specific workspaces
 System.Collections.Generic.KeyNotFoundException: The given key '(<int>, <inactivePolicyType>)' was not present in the dictionary.`
 
 * **Various improvements and minor fixes are available**.
