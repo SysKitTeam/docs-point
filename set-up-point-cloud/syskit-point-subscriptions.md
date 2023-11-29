@@ -183,3 +183,9 @@ To cancel your plan, click the **Cancel plan button (1)**.
 Your subscription will now be canceled, and once the current plan you had already purchased expires, you will no longer be able to utilize Syskit Point. 
 
 ![Syskit Point Subscription - Canceled](../.gitbook/assets/setup-point-cloud-syskit-point-subscriptions-cancel.png)
+
+## Related Articles
+
+[Licensing FAQ](../faq/licensing.md)
+[Purchasing and Discounts FAQ](../faq/purchasing-and-discounts.md)
+[Partner Program FAQ](../faq/partner-program.md)
