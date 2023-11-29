@@ -26,7 +26,7 @@ After that, the policy will be applied across your tenant to all workspaces that
 
 In this article, you can find information on the following:
 
-* [Default Rules](#default-rule)
+* [Default Rule](#default-rule)
 * [Creating Rules](#create-rules)
 * [Priority and Priority Overrides](#priority-and-priority-overrides)
 * [Managing Rules](#manage-rules)
@@ -63,7 +63,7 @@ To create the rule, fill out the following information, as requested on the pop-
   * For more details on this, take a look at the [Priority and Overrides section of this article](../../governance-and-automation/automated-workflows/policy-automation.md#priority-and-priority-overrides)
 * When ready, **click Next to continue (5)**
 
-![Rules - New Rule](../../.gitbook/assets/policy-automation_new-policy-first.png)
+![Rules - New Rule](../../.gitbook/assets/policy-automation-new-policy-first.png)
 
 
 * Under the **Add Conditions (1)** section, **set the conditions for your rule (2)** by using the drop-down menu
@@ -85,9 +85,9 @@ To create the rule, fill out the following information, as requested on the pop-
 
 The rule is enabled once you've created it and will start applying defined policies for the workspaces that meet the defined conditions. 
 
-![Rules - New Rule - Select Policy](../../.gitbook/assets/policy-automation_new-policy-third.png)
+![Rules - New Rule - Select Policy](../../.gitbook/assets/policy-automation-new-policy-third.png)
 
-![Rules - New Rule - Apply Policy](../../.gitbook/assets/policy-automation_new-policy-fourth.png)
+![Rules - New Rule - Apply Policy](../../.gitbook/assets/policy-automation-new-policy-fourth.png)
 
 
 {% hint style="important" %}
@@ -127,7 +127,7 @@ To manage your rules, complete the following:
 * To **edit a rule** and make changes, **click the Edit button (3)** located under the Manage column
 * To delete a rule and remove it from the list completely, **click the Delete button (4)** located under the Manage column
 
-![Rules - Manage Rule](../../.gitbook/assets/policy-automation_manage-policy.png)
+![Rules - Manage Rule](../../.gitbook/assets/policy-automation-manage-policy.png)
 
 {% hint style="important" %}
 
