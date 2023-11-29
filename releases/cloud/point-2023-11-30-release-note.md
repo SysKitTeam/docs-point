@@ -24,7 +24,8 @@ description: >-
   * The File Storage Details report has a **Delete Version action** added when files are selected. 
 
 * **A new Number of Guest users** condition has been added to the **Rules feature**.
-  * This condition makes completing Access Reviews on workspaces that have guest users easier by letting you set up a Rule that uses the condition of The Number of Guest Users set as 0 and has Access Review selected as the policy.
+  * This condition helps define rules that will apply policies to workspaces with or without guest users.
+  * For example, if you want to apply a specific policy to workspaces with Guest users, define a rule with the condition __Number of Guest Users is greater than 0__ and select a policy you want to apply. 
   * [Learn more about this in the Rules article](../../governance-and-automation/automated-workflows/policy-automation.md)
 
 
@@ -33,8 +34,6 @@ description: >-
 * The **Policy Automation feature** has been **renamed to Rules**, and **Automation within Policies** has been changed to **Task Delegation**. 
 
 * **Improved the descriptions on the policy screen** to enhance the comprehension of each policy.
-
-* **Improved descriptions on the policy screens** to enhance comprehension of each policy. 
 
 * **Improved and optimized the Site Metrics report** when showing larger sites.
 
