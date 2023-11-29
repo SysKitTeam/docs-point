@@ -114,7 +114,7 @@ Manage workspace lifecycles from creation to end with **automated actions and po
   * Enable your admins to set up automated requests.
   * Allow content owners to regularly review workspace memberships, sharing, and external users.
   * Delegate the responsibility to those with the best operational knowledge – content owners.
-* **Enforce** [**governance policies and policy automation**](../governance-and-automation/automated-workflows/README.md)
+* **Enforce** [**governance policies and rules**](../governance-and-automation/automated-workflows/README.md)
   * Re-certify guest users, clean up orphaned workspaces, and enforce ownership best practices.
 * [**Keep your tenant clean**](../governance-and-automation/lifecycle-management/)
   * Automatically detect inactive SharePoint sites, groups, and teams.

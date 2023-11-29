@@ -20,7 +20,7 @@ To help you stay up to date with the workings of your Microsoft 365 environment,
 
 Once the e-mail has been set up, you can also customize the e-mails that are **sent to site owners** as a part of the **Access Review and Lifecycle Management Automation**.  
 
-E-mails are used for **Access Review and Lifecycle Management** tasks, any policies applied under **Policies or Policy Automation**, and for receiving reports available in the **Reports** section of Syskit Point. 
+E-mails are used for **Access Review and Lifecycle Management** tasks, any policies applied under **Policies or Rules**, and for receiving reports available in the **Reports** section of Syskit Point. 
 
 {% hint style="warning" %}
 **Learn more on which aspects of the e-mails can be customized along with a step-by-step guide on how to customize them in the [Customize E-mails article](../configuration/customize-emails.md).**

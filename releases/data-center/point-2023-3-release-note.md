@@ -24,7 +24,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 ## Features
 
-* **Introducing the Policy Automation feature!** Syskit Point Admins can now define rules, which Syskit Point will follow, and automatically apply defined governance policies for workspaces that meet the conditions configured in the said rules.
+* **Introducing the Rules feature!** Syskit Point Admins can now define rules, which Syskit Point will follow, and automatically apply defined governance policies for workspaces that meet the conditions configured in the said rules.
 You can fine-tune rules to apply governance policies to workspaces based on the following:
   * **Workspace name**,
   * **Privacy**,
@@ -34,7 +34,7 @@ You can fine-tune rules to apply governance policies to workspaces based on the 
   * **Sensitivity Label**; with
   * **Additional conditions, such as Custom Metadata, coming soon!**
 
-[To learn all about policy automation and how to set it up, follow this link](../../governance-and-automation/automated-workflows/policy-automation.md).   
+[To learn all about rules and how to set them up, follow this link](../../governance-and-automation/automated-workflows/policy-automation.md).   
 
 * **Notifications for provisioning errors are now available**. Syskit Point Admins will get an email in case of issues when the Syskit Point service creates a new workspace. Admins can also define custom recipients responsible for addressing such issues when they arise. 
 As an admin, you can expect such emails when: 

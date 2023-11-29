@@ -130,7 +130,7 @@
     * [Orphaned Users](governance-and-automation/automated-workflows/orphaned-users-admin.md)
     * [Tenant Storage Limit](governance-and-automation/automated-workflows/tenant-storage-admin.md)
     * [Apply Policies](governance-and-automation/automated-workflows/manage-policies.md)
-    * [Upgrade to Policy Automation](governance-and-automation/automated-workflows/upgrade-to-policy-automation.md)
+    * [Upgrade to Rules](governance-and-automation/automated-workflows/upgrade-to-policy-automation.md)
   * [Security and Compliance Checks](governance-and-automation/security-compliance-checks/README.md)
     * [Security and Compliance Checks](governance-and-automation/security-compliance-checks/security-compliance-checks.md)
     * [Orphaned Workspaces](governance-and-automation/security-compliance-checks/orphaned-workspaces.md)

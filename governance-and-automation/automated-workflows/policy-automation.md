@@ -20,7 +20,7 @@ Custom metadata is planned to be implemented into the feature soon as well.
 Rules for policies make managing your environment and keeping it secure easier and more efficient. **You can define rules in Syskit Point that will automatically apply policies** (for example, Access review, Maximum or Minimum number of owners, etc.) to your newly created workspaces **without having to apply them manually**. It also means you'll need to create fewer provisioning templates to secure your environment. 
 
 For example, let's say you want to keep an eye on the access given to all the external users included in your Private Microsoft Teams & Groups. You can set this up easily by using the Rules feature in the following way:
-  * For conditions, select Privacy is set to Private for the first condition, and then add a second condition using Workspace Type and select the Microsoft 365 Groups & Teams from the list that will show.
+  * For conditions, set Privacy to Private for the first condition, and then add a second condition using Workspace Type and select the Microsoft 365 Groups & Teams from the list that will show.
   * Under policies, select Access Review and choose the External Users option.
 After that, the policy will be applied across your tenant to all workspaces that fit the rule you set up. 
 

@@ -1,5 +1,5 @@
 ---
-description: This article explains how to upgrade to Policy automation and remove currently assigned policies.
+description: This article explains how to upgrade to Rules and remove currently assigned policies.
 
 ---
 
