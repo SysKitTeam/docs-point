@@ -95,7 +95,10 @@ If you'd like to register as a partner, [contact us](https://www.syskit.com/cont
 To read more on how our partnership program works, take a look at the [Partner Program FAQ](../faq/partner-program.md). 
 
 ## Why can't I manage a subscription in the Subscriptions Portal?
-Currently, only the user who initially purchased the subscription can manage it.  
+Currently, **only the user who initially purchased the subscription can manage it**.
+
+Additional users may have access to the Subscriptions portal, but they will not be able to manage the subscription (purchase additional user licenses, for example). When such a user tries to manage the subscription, the Manage Subscription button turns red when clicked.
+
 If you want to change the user responsible for subscription management, please contact your Customer Success Manager or [Syskit support](https://support.syskit.com/hc/en-us).
 If you purchased your subscription via a partner network, contact the partner/reseller to update your subscription. 
 
