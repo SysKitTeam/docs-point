@@ -23,16 +23,14 @@ description: >-
   * The Storage Metrics report can have **metadata columns** added by selecting them from the column chooser. 
   * The File Storage Details report has a **Delete Version action** added when files are selected. 
 
-* The **Policy Automation feature** has been **renamed to Rules**, and **Automation within Policies** has been changed to **Task Delegation**. 
-
 * **A new Number of Guest users** condition has been added to the **Rules feature**.
-
-* **New Policies have been added!**
-  * **Workspaces with too many members** - works on Microsoft Groups, Microsoft Teams, and SharePoint Sites (Yammer is not included).
-  * **Workspaces with shadow users**.
+  * This condition makes completing Access Reviews on workspaces that have guest users easier by letting you set up a Rule that uses the condition of The Number of Guest Users set as 0 and has Access Review selected as the policy.
+  * [Learn more about this in the Rules article](../../governance-and-automation/automated-workflows/policy-automation.md)
 
 
 ## Improvements & Bug Fixes
+
+* The **Policy Automation feature** has been **renamed to Rules**, and **Automation within Policies** has been changed to **Task Delegation**. 
 
 * **Improved the descriptions on the policy screen** to enhance the comprehension of each policy.
 
@@ -40,18 +38,22 @@ description: >-
 
 * **Improved and optimized the Site Metrics report** when showing larger sites.
 
-* **Fixed an issue** where some values would stay cached even after being removed from the database.
+* **Fixed an issue** where giving reconsent permissions for Syskit Point couldn't be successfully completed.
+
+* **Fixed an issue** where the Reconsent banner would appear even though the reconsent was already provided.
 
 * **Fixed an issue** where hard deleted groups still provided membership information, seemingly giving permissions to users who were no longer members.
 
-* **Fixed a bug** that prevented Yammer sites from being included in Lifecycle Management when using only dynamic targeting selection. 
+* **Fixed a bug** that prevented Yammer sites from being included in Lifecycle Management when selecting All under Monitoring Activity. 
 
 * **Fixed a bug** where creating a SharePoint site provisioning request resulted in an error.
 
 * **Fixed an issue** where collaborators could see information about the storage of the entire tenant and the 3 biggest sites. 
   * Collaborators can only see the storage of the workspaces they are in charge of. 
 
-* **Fixed a bug** which caused no information to be shown when trying to generate a Teams with Private Channels report.
+* **Fixed a bug** which caused no information to be shown when Syskit Point Admins tried to generate a Teams with Private Channels report.
+
+* **Fixed a bug** that caused miscalculations to be shown in the Lifecycle Management column on the Inactive Workspaces report.
 
 * **Fixed a bug** where occasionally there would be a request timeout and slowdown for auto-discover, resulting in emails being sent stating auto-discover had failed.
 
