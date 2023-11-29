@@ -17,7 +17,7 @@ description: >-
 
 * **New options added to the Storage Management feature**!
   * The Site Storage Metrics report now has the **Clean Up File Versions action**. 
-    * This means you can select each site, folder, document library, or even **the entire site** and clean up the older file versions.
+    * This means you can select any site, folder, document library, or even **the entire site** and clean up the older file versions.
   * The Site Storage Metrics report now has a new **File Type tile** added. 
     * There, you can check how much **storage is occupied by different types of files**: videos, photos, office documents, or others.
   * The Storage Metrics report can have **metadata columns** added by selecting them from the column chooser. 
