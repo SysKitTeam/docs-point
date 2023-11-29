@@ -89,6 +89,15 @@ When finished, **click Confirm (6)** to store the preferences.
 
 ![Advanced Settings](../../.gitbook/assets/create-access-review-policies_advanced-settings.png)
 
+{% hint style="warning" %}
+**Please note!** 
+If you added users with Full Control to the Collaborator role, depending on advanced settings, they will receive an Access Review task.
+Keep the following in mind:
+* Users with Full Control access given via the default Site Owners SharePoint group and the Site Admins group on a SharePoint site will get an Access Review task.
+* Users who have Full Control access given in any other way - be it directly given Full Control access or via membership in any other non-default SharePoint group with Full Control access - will not get an Access Review task
+* For Microsoft Teams, Microsoft 365 Groups, and OneDrive, there is no option to include the Site Owners group members; only the Site Admins group can be included in the Access Review, meaning that Site Admins group members will receive Access Review tasks.
+{% endhint %}
+
 ## Apply Policies
 
 To apply created Access Review Policies, navigate to **Settings** > **Governance** > **Policies** and click the **Manage Policies button (1)**.
