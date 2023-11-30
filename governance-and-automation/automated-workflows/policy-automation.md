@@ -1,12 +1,14 @@
 ---
-description: This article explains how to set up and utilize the policy automation feature. 
+description: This article explains how to set up and utilize the policy rules feature. 
 
 ---
 
-# Policy Automation
+# Rules
 
-The Policy Automation feature **lets you create rules for auto-applying policies** based on:
+The Rules feature **lets you create rules for auto-applying policies** based on these conditions:
+
   * Name
+  * Number of Guest Users
   * Privacy
   * Sensitivity Label
   * Sharing Settings
@@ -15,7 +17,19 @@ The Policy Automation feature **lets you create rules for auto-applying policies
 
 Custom metadata is planned to be implemented into the feature soon as well. 
 
-Policy Automation makes managing your environment and keeping it secure easier and more efficient. With policy automation, **you can define rules in Syskit Point that will automatically apply policies** (for example, Access review, Maximum or Minimum number of owners, etc.) to your newly created workspaces **without having to apply them manually**. It also means you'll need to create fewer provisioning templates to secure your environment. 
+Rules for policies make managing your environment and keeping it secure easier and more efficient. **You can define rules in Syskit Point that will automatically apply policies** (for example, Access review, Maximum or Minimum number of owners, etc.) to your newly created workspaces **without having to apply them manually**. It also means you'll need to create fewer provisioning templates to secure your environment. 
+
+For example, let's say you want to keep an eye on the access given to all the external users included in your Private Microsoft Teams & Groups. You can set this up easily by using the Rules feature in the following way:
+  * For conditions, set Privacy to Private for the first condition, and then add a second condition using Workspace Type and select the Microsoft 365 Groups & Teams from the list that will show.
+  * Under policies, select Access Review and choose the External Users option.
+After that, the policy will be applied across your tenant to all workspaces that fit the rule you set up. 
+
+In this article, you can find information on the following:
+
+* [Default Rule](#default-rule)
+* [Creating Rules](#create-rules)
+* [Priority and Priority Overrides](#priority-and-priority-overrides)
+* [Managing Rules](#manage-rules)
 
 {% hint style="important" %}
 **Please Note!**
@@ -26,17 +40,17 @@ To activate rules for auto-applying policies, please make sure you have already 
 
 **When you acquire Syskit Point, a default rule is created that applies default policies to all workspaces in your environment - Minimum 2 Owners (Default Policy), Maximum 5 Owners (Default Policy), and Orphaned Workspaces (Default Policy)**; these policies serve to give you an overview of workspaces that are potentially not configured according to best practices; 
 * Default policies are configured as **detection-only policies**, meaning that **Syskit Point will not create tasks or send emails**.
-* If you already applied Policies to your workspaces, **the default rule is configured to have the lowest priority, meaning that all additional rules that you create will have precedence**.
-* **The default rule is hidden from settings an cannot be modified or deleted**.
+* If you have already applied Policies to your workspaces, **the default rule is configured to have the lowest priority, meaning that all additional rules that you create will have precedence**.
+* **The default rule is hidden from settings and cannot be modified or deleted**.
 
 ## Create Rules
 
 To create rules for auto-applying policies, take the following steps:
 
-* Open your Syskit Point and **navigate to Settings** and under **Governance** select **Policy Automation (1)**
+* Open your Syskit Point and **navigate to Settings** and under **Governance** select **Rules (1)**
 * **Click the New Rule button (2)** and a pop-up will appear
 
-![Policy Automation - Create Rule](../../.gitbook/assets/policy-automation_policy-settings.png)
+![Rules - Create Rule](../../.gitbook/assets/policy-automation-policy-settings.png)
 
 To create the rule, fill out the following information, as requested on the pop-up:
 
@@ -49,7 +63,7 @@ To create the rule, fill out the following information, as requested on the pop-
   * For more details on this, take a look at the [Priority and Overrides section of this article](../../governance-and-automation/automated-workflows/policy-automation.md#priority-and-priority-overrides)
 * When ready, **click Next to continue (5)**
 
-![Policy Automation - New Rule](../../.gitbook/assets/policy-automation_new-policy-first.png)
+![Rules - New Rule](../../.gitbook/assets/policy-automation-new-policy-first.png)
 
 
 * Under the **Add Conditions (1)** section, **set the conditions for your rule (2)** by using the drop-down menu
@@ -58,7 +72,7 @@ To create the rule, fill out the following information, as requested on the pop-
   * Once saved, if you want to delete it, **click the delete button**
 * When you're ready, **click Next to continue (4)**
 
-![Policy Automation - New Rule - Add Conditions](../../.gitbook/assets/policy-automation_conditions.png)
+![Rules - New Rule - Add Conditions](../../.gitbook/assets/policy-automation-conditions.png)
 
 * Under the **Apply Policies (1)** section, you can select which policies the rule should apply for 
   * In the section **Apply following policies** select the **Add Policy (2)** button and **select your desired policy (3)** from the drop-down menu available
@@ -71,9 +85,9 @@ To create the rule, fill out the following information, as requested on the pop-
 
 The rule is enabled once you've created it and will start applying defined policies for the workspaces that meet the defined conditions. 
 
-![Policy Automation - New Rule - Select Policy](../../.gitbook/assets/policy-automation_new-policy-third.png)
+![Rules - New Rule - Select Policy](../../.gitbook/assets/policy-automation-new-policy-third.png)
 
-![Policy Automation - New Rule - Apply Policy](../../.gitbook/assets/policy-automation_new-policy-fourth.png)
+![Rules - New Rule - Apply Policy](../../.gitbook/assets/policy-automation-new-policy-fourth.png)
 
 
 {% hint style="important" %}
@@ -87,7 +101,7 @@ When it comes to setting the priority for your rules and how an override is appl
 
 * **Manually applied policies always have the highest priority**
   * This means that even if a rule's priority is set as 1 if there is a policy that was manually applied, the rule will not apply a policy of the same type to that workspace
-  * It also means that **if you have provisioning set up** and policies defined in your templates, they will **have precedence over the rules you create** for within the Policy Automation settings
+  * It also means that **if you have provisioning set up** and policies defined in your templates, they will **have precedence over the rules you create** for them within the Rules settings
 
 * When considering **priority levels** for your rules, note that the **lower the number the higher the priority**
   * This means that the **highest priority rule should be set as 1** and the lowest priority rule should be set as the highest number available
@@ -106,18 +120,18 @@ Once you save a rule, it is enabled by default, but you can still edit or remove
 
 To manage your rules, complete the following:
 
-* **Navigate to Settings > Governance > Policy Automation (1)**
+* **Navigate to Settings > Governance > Rules (1)**
 * Under the **All Rules (1)** section, you can see a list of all rules created for your environment as well as a number that shows the number of currently active rules out of the 10 active spots available
 * To **disable a rule** in order to place another rule as active, **click the Disable button (2)** located under the Manage column
    * This can be done if you fill all 10 spots open for active rules and want to replace one or in case a rule should be temporarily deactivated
 * To **edit a rule** and make changes, **click the Edit button (3)** located under the Manage column
 * To delete a rule and remove it from the list completely, **click the Delete button (4)** located under the Manage column
 
-![Policy Automation - Manage Rule](../../.gitbook/assets/policy-automation_manage-policy.png)
+![Rules - Manage Rule](../../.gitbook/assets/policy-automation-manage-policy.png)
 
 {% hint style="important" %}
 
-If you **disable, delete or update a rule with policies assigned to it**, any tasks related to those policies will be set as Canceled.
+If you **disable, delete, or update a rule with policies assigned to it**, any tasks related to those policies will be set as Canceled.
 
 Additionally, by clicking on the resolve task email you received, the site in Syskit Point will show the task as canceled due to the policy having been removed from the workspace. 
 

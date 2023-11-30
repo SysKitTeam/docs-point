@@ -29,7 +29,7 @@ On your home screen, you can see the number of:
   * **Medium-risk** vulnerabilities
   * **Low-risk** vulnerabilities
 
-You are also able to [set up Policy Automation](../../governance-and-automation/automated-workflows/policy-automation.md) if you haven't already by clicking the **Policy Automation button**. 
+You are also able to manually apply policies or [set up policy rules](../../governance-and-automation/automated-workflows/policy-automation.md) if you haven't already by clicking the **Manage Policies button**. 
 
 
 ![Security & Compliance checks - Home](../../.gitbook/assets/security-and-compliance-checks_home.png)
@@ -59,7 +59,7 @@ After clicking View All, the Security and Compliance checks dashboard will open,
 
 ## Automated Governance
 
-To keep all vulnerabilities **under control proactively and prevent possible issues**, explore and [**[set up governance policies](../../governance-and-automation/automated-workflows/set-up-policies.md) and [policy automation](../../governance-and-automation/automated-workflows/policy-automation.md)**] in Syskit Point.
+To keep all vulnerabilities **under control proactively and prevent possible issues**, explore and [**[set up governance policies](../../governance-and-automation/automated-workflows/set-up-policies.md) and [policy rules](../../governance-and-automation/automated-workflows/policy-automation.md)**] in Syskit Point.
  
 ## Navigate Security and Compliance Checks
 

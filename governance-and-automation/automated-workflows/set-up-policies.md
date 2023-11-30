@@ -15,7 +15,7 @@ To use the advantages of Policies in Syskit Point, you need to:
 * [set up e-mail settings](../../configuration/set-up-email.md)
 * [enable Syskit Point Collaborators role](../../configuration/enable-role-based-access.md)
 
-Additionally, you can also [set up policy automation](../../governance-and-automation/automated-workflows/policy-automation.md) to have policies automatically applied to current and all future workspaces without having to assign them manually. 
+Additionally, you can also [set up policy rules](../../governance-and-automation/automated-workflows/policy-automation.md) to have policies automatically applied to current and all future workspaces without having to assign them manually. 
 
 {% hint style="warning" %}
 **Please note!**
@@ -68,7 +68,7 @@ Syskit Point enables creating and using policies that will make sure the followi
 When dealing with policies, you can either:
 * **Adjust predefined policies and apply them to your workspaces**, or
 * **Create new policies from scratch and apply them to your workspaces**
-* **Set up policy automation to have policies automatically applied to current and new workspaces**
+* **Set up policy rules to have policies automatically applied to current and new workspaces**
 
 {% hint style="success" %}
 **For simple use cases** where the same policies are applied to all workspaces, you can **adjust the predefined policies to speed up the configuration**. 
