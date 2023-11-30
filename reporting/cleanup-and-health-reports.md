@@ -145,6 +145,8 @@ Once the site report is successfully generated, the following information is ava
 
  * **The Site Trend chart** shows a graph that depicts your site storage usage over time in the last 180 days.
  * **The Site Storage Usage tile** on the right side shows the percentage of used storage out of the total number of available storage for your site.
+* **The File Type tile** that shows a chart and list of the types of files in your site and the amount of storage each files takes up. 
+* **The File Version Cleanup tile** shows the amount of space you can free up by cleaning up the outdated versions of the site. 
 
 The following data will be displayed in the columns:
 
@@ -160,6 +162,13 @@ The following data will be displayed in the columns:
 * **Author**; shows the author of the content.
 * **Storage Limit**; show the storage limit for the site.
 * **Last Activity**; shows the date the last activity on the site or content happened.
+
+**Selecting the site** or one or more of the files included in the site provides the **action to Clean Up File Versions**, located on the right side of the screen under the **Manage section**. 
+
+
+{% hint style="information" %}
+**Please note!** The Clean Up File Versions action is only available in the Governance plan or above. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% endhint %}
 
 ## File Storage Details
 
@@ -206,3 +215,5 @@ The following data will be displayed in the columns:
 * **Size**; shows the size of the version of the file. 
 
 You can also **export this report as a PDF or Excel file**, or **schedule it**, to have it regularly delivered to your email. 
+
+**Selecting one or more of the file versions** provides the **action to Delete Version**, located on the right side of the screen under the **Manage section**. 
