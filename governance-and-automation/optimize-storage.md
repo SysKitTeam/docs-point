@@ -77,16 +77,25 @@ Once you detect the largest sites with the help of the Storage Metrics report, u
 
 From the Storage Metrics Report, you can also access the [Site Storage](../../docs-point/reporting/cleanup-and-health-reports.md#site-storage-metrics) and the [File Storage](../../docs-point/reporting/cleanup-and-health-reports.md#file-storage-details) reports.
 
-There, you can gain deeper **insight into how your storage is used by specific file types**, such as videos, photos, office documents, and others. 
+With the help of these reports you can:
 
-You can also see how much **storage you can save per site** if you delete file versions older than a certain number of months or every file version except for the most recent one. 
+ * Gain deeper **insight into how your storage is used by specific file types**, such as videos, photos, office documents, and others. 
 
-It is also where you can **complete the Clean Up File Versions action and free up space**. 
+ * See how much **storage you can save per site** if you delete file versions older than a certain number of months or every file version except for the most recent one. 
+
+ * **Complete the Clean Up File Versions action and free up space**. 
 
 
 ## Free Up Storage
 
-There are two ways you can free up storage for your tenant. One can be completed from within Syskit Point, while the other requires you to remove it directly from the SharePoint site. Below, you can find instructions on both options. 
+There are two ways you can free up storage for your tenant, by using:
+
+  * [Syskit Point](../governance-and-automation/optimize-storage.md#syskit-point) 
+  * [SharePoint](../governance-and-automation/optimize-storage.md#sharepoint) 
+
+Below, you can find instructions on both options. 
+
+### Syskit Point
 
 To **free up storage directly in Syskit Point**, generate the tenant-wide **Storage Metrics Report** in the following way:
  
@@ -108,6 +117,8 @@ From there:
  * Once the report is generated, **select one or more of the file versions (1)**, and the **action to Delete Version (2)** is then available on the right side of the screen under the **Manage section**. 
 
 ![File Storage Details - Delete Version](../.gitbook/assets/optimize-storage-file-storage-details-delete.png)
+
+### SharePoint
 
 To remove storage directly from the SharePoint site, return back to the Storage Metrics report and click the **link in the Storage Metrics URL column**. 
   * The SharePoint site-specific Storage Metrics report opens in your browser.
@@ -140,6 +151,7 @@ On the next screen, you can:
 
 ## Related Articles
 
+* [Configure Storage Management](../configuration/configure-storage-management.md)
 * [Configure Tenant Storage Limit Policy](../governance-and-automation/automated-workflows/tenant-storage-admin.md)
 * [Tenant Storage Security & Compliance Check](../../governance-and-automation/security-compliance-checks/tenant-storage.md)
 * [Resolve Tenant Storage Limit Task](../../point-collaborators/resolve-governance-tasks/tenant-storage-limit.md)

@@ -87,6 +87,7 @@
   * [Syskit Point Configuration Guide](configuration/how-to-configure-Point.md)
   * [Assign and Manage Access to Syskit Point](configuration/enable-role-based-access.md)
   * [Enable Microsoft Teams Activity Tracking](configuration/microsoft-teams-activity.md)
+  * [Configure Storage Management](configuration/configure-storage-management.md)
   * [Set Up E-Mail](configuration/set-up-email.md)
   * [Connect Service Account](configuration/connect-service-account.md)
   * [Customize Audit Logs Collection](configuration/customize-audit-logs-collection.md)
