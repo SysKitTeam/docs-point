@@ -4,10 +4,10 @@ description:  This article describes how you can configure Syskit Point to use A
 
 # Configure Syskit Point to use Storage Management 
 
-## Why is additional configuration needed for Azure storage account? 
+## Why is additional configuration needed for the Azure storage account? 
 
 
-Syskit Point introduced a new Storage Management feature, for it to work additional configuration of your existing Point instance is needed. This functionality uses an API where the Microsoft backend software aggregates all the information into an xml file and saves it directly on your existing Storage account. For this to work we generate a [SAS token](https://learn.microsoft.com/en-us/azure/storage/common/storage-sas-overview) which is passed to the Microsoft backend, Microsoft uses this token to write back the output manifest directly to your blobs. This token is generated with a limited lifetime and scope, and it is only shared with Microsoft backend.
+Syskit Point introduced a new Storage Management feature; for it to work, additional configuration of your existing Point instance is needed. This functionality uses an API where the Microsoft backend software aggregates all the information into an xml file and saves it directly on your existing Storage account. For this to work, we generate a [SAS token](https://learn.microsoft.com/en-us/azure/storage/common/storage-sas-overview) which is passed to the Microsoft backend; Microsoft uses this token to write back the output manifest directly to your blobs. This token is generated with a limited lifetime and scope, and it is only shared with Microsoft backend.
 
 
 {% hint style="information" %}
@@ -20,7 +20,7 @@ Syskit Point introduced a new Storage Management feature, for it to work additio
 The following process is going to: 
 
  * **Create a Private endpoint** so Syskit Point can securely read information from the storage account queue 
- * **Configure Firewall rules** with exceptions for Microsoft services which need to access your storage account directly 
+ * **Configure Firewall rules** with exceptions for Microsoft services that need to access your storage account directly 
 
  * Login to [https://portal.azure.com](https://portal.azure.com)
 
@@ -38,17 +38,6 @@ The following process is going to:
    * Install the Azure CLI - [https://learn.microsoft.com/en-us/cli/azure/install-azure-cli](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
    * Or run in Azure Cloud Shell [https://learn.microsoft.com/en-us/azure/cloud-shell/quickstart?tabs=azurecli](https://learn.microsoft.com/en-us/azure/cloud-shell/quickstart?tabs=azurecli)
 
-* Provide the required parameters and then run the script. Enter the following values: 
+* [Contact us](https://www.syskit.com/contact-us/) to request the script you need to run and feel free to ask for more details if you need further assistance. 
 
-{% hint style="important" %}
-**Please note:** If you modified Syskit default installation ARM with your custom networking changes this script will also need to be modified before use.
-
-{% endhint %}
-
-  * $subscriptionId 
-  * $resourceGroupName 
-  * $storageAccountName 
-
-![Final Step](../.gitbook/assets/customize-dashboard.png)
-
-* Restart **both** App Services inside the Point resource group 
+After completing the above, restart **both** App Services inside the Point resource group. 
