@@ -186,6 +186,6 @@ Your subscription will now be canceled, and once the current plan you had alread
 
 ## Related Articles
 
-[Licensing FAQ](../faq/licensing.md)
-[Purchasing and Discounts FAQ](../faq/purchasing-and-discounts.md)
-[Partner Program FAQ](../faq/partner-program.md)
+* [Licensing FAQ](../faq/licensing.md)
+* [Purchasing and Discounts FAQ](../faq/purchasing-and-discounts.md)
+* [Partner Program FAQ](../faq/partner-program.md)
