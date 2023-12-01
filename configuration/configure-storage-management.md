@@ -19,7 +19,7 @@ Once storage management has been turned on, you can also customize your storage 
 * **Show how much I can save if I keep the latest X file versions (4)** - here, you can set a number in place of X depending on how many of the latest file versions you want to keep when trying to declutter your workspaces
 * **Show how much I can save if I delete file versions older than X months (5)** - here, you can select the number of months that the file version should be older than when considering cleaning up your site and deleting previous versions
 * These values can be found in tiles on: 
-  * The [Site Storage Metrics](../reporting/cleanup-and-health-reports.md#site-storage-metrics) report, where you can use them to also instantly clean up your site, along with being shown the amount of storage that will be freed up.  
+  * The [Site Storage Metrics](../reporting/cleanup-and-health-reports.md#site-storage-metrics) report, where you can use them to also instantly clean up your site, along with being shown the amount of storage that will be freed up.
   * The [File Storage Details](../reporting/cleanup-and-health-reports.md#file-storage-details) report, where you can use the tiles to filter between the versions of the files before deciding which to delete. 
 
 Once finished, **click Save (6)** to save your storage management preferences. 
