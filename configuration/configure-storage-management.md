@@ -14,8 +14,6 @@ To configure the Storage Management feature within Syskit Point, complete the fo
   * Under the General section, **click the Storage Management button (2)**
   *  The **Collect storage data checkbox (3)** is turned on by default
     * If you deselect the check box and turn off collecting storage data, Syskit Point retains and shows only the old versions of your files and your site storage, and no new storage data is collected or reflected in Syskit Point
-  
-  to turn on the storage management feature
 
 Once storage management has been turned on, you can also customize your storage reports in Syskit Point by setting the following:
   * **Show how much I can save if I keep the latest X file versions (4)** - here, you can set a number in place of X depending on how many of the latest file versions you want to keep when trying to declutter your workspaces
