@@ -8,15 +8,21 @@ The Syskit Point Storage Management feature helps you keep your environment clut
 
 For more information on this feature, [take a look at the Optimize Storage article](../governance-and-automation/optimize-storage.md). 
 
-To set up the Storage Management feature within Syskit Point, complete the following steps:
+To configure the Storage Management feature within Syskit Point, complete the following steps:
 
   * **Go to the Settings (1)** of your Syskit Point
   * Under the General section, **click the Storage Management button (2)**
-  * **Click the Collect storage data checkbox (3)** to turn on the storage management feature
+  *  The **Collect storage data checkbox (3)** is turned on by default
+    * If you deselect the check box and turn off collecting storage data, Syskit Point retains and shows only the old versions of your files and your site storage, and no new storage data is collected or reflected in Syskit Point
+  
+  to turn on the storage management feature
 
 Once storage management has been turned on, you can also customize your storage reports in Syskit Point by setting the following:
   * **Show how much I can save if I keep the latest X file versions (4)** - here, you can set a number in place of X depending on how many of the latest file versions you want to keep when trying to declutter your workspaces
   * **Show how much I can save if I delete file versions older than X months (5)** - here, you can select the number of months that the file version should be older than when considering cleaning up your site and deleting previous versions
+  * These values can be found in tiles on: 
+   * The [Site Storage Metrics](../.gitbook/assets/configure-storage-management-settings.png) report, where you can use them to also instantly clean up your site, along with being shown the amount of storage that will be freed up.  
+   * [File Storage Details](../.gitbook/assets/configure-storage-management-settings.png) report, where you can use the tiles to filter between the versions of the files before deciding which to delete. 
 
 Once finished, **click Save (6)** to save your storage management preferences. 
 
