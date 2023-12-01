@@ -24,7 +24,7 @@ It shows **all the users that have been blocked or deleted from Azure Active Dir
 
 This report helps detect and remove blocked/disabled or deleted users from your Microsoft 365 workspaces.
 
-### Generate Orphaned Users report
+### Generate Orphaned Users Report
 
  * **Click the Reports button** located on the left side of the screen.
  * **Select Cleanup & Health Check in the filter**; it can be found in the upper left corner.
@@ -66,7 +66,7 @@ The Orphaned Workspaces report displays all the SharePoint Sites, Microsoft Team
 This report helps manage Microsoft 365 workspaces' health and helps ensure there are no abandoned workspaces in your tenant.
 
 
-### Generate Orphaned Workspaces report
+### Generate Orphaned Workspaces Report
 
  * **Click the Reports button** located on the left side of the screen.
  * **Select Cleanup & Health Check in the filter**; it can be found in the upper left corner.
@@ -98,7 +98,7 @@ The Storage Metrics report displays your tenant-wide storage consumption over ti
 
 This report lets you check if you are at risk of running out of storage so that you can decrease clutter by optimizing or expanding your storage capability.
 
-### Generate Storage Metrics report
+### Generate Storage Metrics Report
 
  * **Click the Reports button** located on the left side of the screen.
  * **Select Cleanup & Health Check in the filter**; it can be found in the upper left corner.
@@ -131,7 +131,7 @@ The Site Storage Metrics report displays your storage consumption across your si
 
 The report lets you check on the amount of storage used by sites in your tenant. This makes it easier to maintain and organize your sites in order to optimize storage per site.
 
-### Generate Site Storage report
+### Generate Site Storage Report
 
  * **Click the Reports button** located on the left side of the screen.
  * **Select Cleanup & Health Check in the filter**; it can be found in the upper left corner.
@@ -145,7 +145,7 @@ Once the site report is successfully generated, the following information is ava
 
  * **The Site Trend chart** shows a graph that depicts your site storage usage over time in the last 180 days.
  * **The Site Storage Usage tile** on the right side shows the percentage of used storage out of the total number of available storage for your site.
-* **The File Type tile** that shows a chart and list of the types of files in your site and the amount of storage each files takes up. 
+* **The File Type tile** that shows a chart and list of the types of files in your site and the amount of storage each file takes up. 
 * **The File Version Cleanup tile** shows the amount of space you can free up by cleaning up the outdated versions of the site. 
 
 The following data will be displayed in the columns:
