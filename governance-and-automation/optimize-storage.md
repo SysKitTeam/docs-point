@@ -77,7 +77,7 @@ Once you detect the largest sites with the help of the Storage Metrics report, u
 
 From the Storage Metrics Report, you can also access the [Site Storage](../../docs-point/reporting/cleanup-and-health-reports.md#site-storage-metrics) and the [File Storage](../../docs-point/reporting/cleanup-and-health-reports.md#file-storage-details) reports.
 
-With the help of these reports you can:
+With the help of these reports, you can:
 
  * Gain deeper **insight into how your storage is used by specific file types**, such as videos, photos, office documents, and others. 
 
@@ -120,7 +120,7 @@ From there:
 
 ### SharePoint
 
-To remove storage directly from the SharePoint site, return back to the Storage Metrics report and click the **link in the Storage Metrics URL column**. 
+To remove storage directly from the SharePoint site, return to the Storage Metrics report and click the **link in the Storage Metrics URL column**. 
   * The SharePoint site-specific Storage Metrics report opens in your browser.
 
 Here, you can find a detailed view of the content size of your SharePoint site and the percentage of storage it uses.
