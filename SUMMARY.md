@@ -95,7 +95,7 @@
   * [Report Data Limits](configuration/report-data-limits.md)
   * [Turn On Auditing](configuration/turn-on-auditing.md)
   * [Customize Dashboard](configuration/customize-dashboard.md)
-  * [Configure Syskit Point to use Storage Management](configuration/configure-point-for-amr.md)
+  * [Configure Syskit Point to use Storage Management](configuration/configure-point-for-storage-management.md)
 * [Reporting](reporting/README.md)
   * [Overview](reporting/overview.md)
   * [External Sharing Reports](reporting/external-sharing-reports.md)
