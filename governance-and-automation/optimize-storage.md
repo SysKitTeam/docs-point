@@ -118,6 +118,10 @@ From there:
 
 ![File Storage Details - Delete Version](../.gitbook/assets/optimize-storage-file-storage-details-delete.png)
 
+{% hint style="information" %}
+**Hint!** The latest version is never deleted, even if you select all versions and run the Delete Version or Clean Up File Versions action.
+{% endhint %}
+
 ### SharePoint
 
 To remove storage directly from the SharePoint site, return to the Storage Metrics report and click the **link in the Storage Metrics URL column**. 
@@ -146,7 +150,7 @@ On the next screen, you can:
 ![Deleting Versions](../.gitbook/assets/optimize-storage-delete-versions.png)
 
 {% hint style="information" %}
-**Please note!** After you delete unwanted files, empty the site's recycle bin to free up storage.
+**Please note!** After you delete unwanted versions, empty the site's recycle bin to free up storage.
 {% endhint %}
 
 ## Related Articles

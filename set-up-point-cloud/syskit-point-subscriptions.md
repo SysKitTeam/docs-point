@@ -16,6 +16,7 @@ In this article, you will find information on the following:
 * [Purchase Additional User Licenses](syskit-point-subscriptions.md#purchase-additional-user-licenses)
 * [Upgrade Your Subscription Plan](syskit-point-subscriptions.md#upgrade-your-subscription-plan)
 * [Cancel Your Subscription](syskit-point-subscriptions.md#cancel-your-subscription)
+* [Reconnect After Purchasing](syskit-point-subscriptions.md#reconnect-after-purchasing)
 
 {% hint style="warning" %}
 **Please note!** If you didn't start your free 21-day trial, take a look at the [**Syskit Point trial article**](free-trial.md) for details on getting started. At any point during the 21 days of the free trial, you can purchase a Syskit Point Cloud subscription. In order to retain your data after your free trial has expired, a Syskit Point subscription needs to be purchased within 21 days of your trial period ending.
@@ -109,7 +110,7 @@ To increase the number of user licenses included in your plan, take the followin
 The screen to update your plan opens. Here you can:
 
 * **Select the plan (1)** you want to change to
-* **Select the amount of licenses (2)** you want to purchase
+* **Select the number of licenses (2)** you want to purchase
 * **Click Continue (3)** when you are satisfied with your selection
 
 ![Syskit Point Subscription - Update Plan - Selection](../.gitbook/assets/syskit-point-cloud-licensing-plan-selection.png)
@@ -143,7 +144,7 @@ The **Update your plan screen** opens where you can:
  * Change your plan to being charged **Monthly or Yearly (1)**.
  * Change your subscription to a different plan by:
    * **Selecting the plan (2)** you want to change to
-   * **Selecting the amount of licenses (3)** you want to purchase
+   * **Selecting the number of licenses (3)** you want to purchase
 * Click the **Continue button (4)** to finalize your choice
 
 ![Syskit Point Subscription - Upgrade Plan](../.gitbook/assets/syskit-point-cloud-licensing-new-plan.png)
@@ -183,6 +184,23 @@ To cancel your plan, click the **Cancel plan button (1)**.
 Your subscription will now be canceled, and once the current plan you had already purchased expires, you will no longer be able to utilize Syskit Point. 
 
 ![Syskit Point Subscription - Canceled](../.gitbook/assets/setup-point-cloud-syskit-point-subscriptions-cancel.png)
+
+
+## Reconnect After Purchasing
+
+There are two potential reasons why you may need to reconnect your tenant after purchasing your Syskit Point subscription: 
+
+  * Your **trial has expired, and 21 days after the trial expiration, your Syskit Point instance is deleted**. If you purchased your Syskit Point subscription more than 21 days after the trial expiration, you will **need to reconnect your tenant**.
+
+  * Your **Syskit Point license has expired, and 30 days after the expiration date, your Syskit Point instance is deleted**. When you purchase a Syskit Point subscription again, you will **need to reconnect your tenant**. 
+
+In case your Syskit Point is licensed, but your instance was deleted, you will see a message notifying you of that, as shown below. 
+
+To reconnect your tenant **click the Connect Tenant button (1)**.
+
+![Syskit Point Subscription - Canceled](../.gitbook/assets/syskit-point-subscriptions-reconnect-tenant.png)
+
+[For more details about connecting your tenant to Syskit Point, take a look at this article.](../set-up-point-cloud/free-trial.md)
 
 ## Related Articles
 
