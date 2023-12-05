@@ -21,7 +21,7 @@ description: >-
 
 * **Fixed an issue** where default policies erroneously had the automation option turned on after the upgrade; this resulted in Syskit Point sending emails and creating tasks for such policies. [Contact us](https://www.syskit.com/company/contact-us) if you want to remove the tasks created in Syskit Point.
 * **Fixed a bug** with the Keep action that would not follow limits defined in the Lifecycle Management settings under the option for maximum period end users can keep a workspace. 
-* **Fixed an issue** with the task details screen for tasks created in case the Inactive Guest Users policy automation is enabled. The screen design was flawed and blocked users from resolving the task.
+* **Fixed an issue** with the task details screen for tasks created in case the Inactive Guest Users task delegation is enabled. The screen design was flawed and blocked users from resolving the task.
 * **Fixed a bug** with the filter tiles on the Sites screen. When drilled from the Home dashboard, only the selected workspace type count would show, while others would falsely display 0. 
 * **Fixed an issue** with the Inactive Guest Users policy settings. When the automation was enabled, no settings were displayed for the reminder email and the allowed Syskit Point action in case there was no response.
 * **Fixed a bug** where a deprecated toggle was displayed for the Inactive Guest Users policy dialog. 

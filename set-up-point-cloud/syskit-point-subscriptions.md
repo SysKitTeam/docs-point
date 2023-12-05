@@ -201,3 +201,9 @@ To reconnect your tenant **click the Connect Tenant button (1)**.
 ![Syskit Point Subscription - Canceled](../.gitbook/assets/syskit-point-subscriptions-reconnect-tenant.png)
 
 [For more details about connecting your tenant to Syskit Point, take a look at this article.](../set-up-point-cloud/free-trial.md)
+
+## Related Articles
+
+* [Licensing FAQ](../faq/licensing.md)
+* [Purchasing and Discounts FAQ](../faq/purchasing-and-discounts.md)
+* [Partner Program FAQ](../faq/partner-program.md)
