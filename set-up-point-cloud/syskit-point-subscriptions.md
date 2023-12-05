@@ -110,7 +110,7 @@ To increase the number of user licenses included in your plan, take the followin
 The screen to update your plan opens. Here you can:
 
 * **Select the plan (1)** you want to change to
-* **Select the amount of licenses (2)** you want to purchase
+* **Select the number of licenses (2)** you want to purchase
 * **Click Continue (3)** when you are satisfied with your selection
 
 ![Syskit Point Subscription - Update Plan - Selection](../.gitbook/assets/syskit-point-cloud-licensing-plan-selection.png)
@@ -144,7 +144,7 @@ The **Update your plan screen** opens where you can:
  * Change your plan to being charged **Monthly or Yearly (1)**.
  * Change your subscription to a different plan by:
    * **Selecting the plan (2)** you want to change to
-   * **Selecting the amount of licenses (3)** you want to purchase
+   * **Selecting the number of licenses (3)** you want to purchase
 * Click the **Continue button (4)** to finalize your choice
 
 ![Syskit Point Subscription - Upgrade Plan](../.gitbook/assets/syskit-point-cloud-licensing-new-plan.png)
@@ -188,7 +188,7 @@ Your subscription will now be canceled, and once the current plan you had alread
 
 ## Reconnect After Purchasing
 
-There are two potential reasons why you may need to reconnect your tenant after purchasing your Syskit Point subscriptions: 
+There are two potential reasons why you may need to reconnect your tenant after purchasing your Syskit Point subscription: 
 
   * Your **trial has expired, and 21 days after the trial expiration, your Syskit Point instance is deleted**. If you purchased your Syskit Point subscription more than 21 days after the trial expiration, you will **need to reconnect your tenant**.
 
