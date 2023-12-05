@@ -44,11 +44,11 @@ To collect the data:
     * **Resource group name** 
     * **Subscription ID**
 
-![Resource Group](../.gitbook/assets/configure-point-amr-api-initial-screen.png)
+![Resource Group](../.gitbook/assets/configure-storage-management-subscription-id.png)
 
 * Find the Storage account and write down its name (name starts with pointsa*)
 
-![Storage Account](../.gitbook/assets/configure-point-amr-api-second-screen.png)
+![Storage Account](../.gitbook/assets/configure-storage-management-storage-account.png)
 
 * Modify the provided script and enter the collected data instead of default values.
 * To run the script, start Azure CLI 
