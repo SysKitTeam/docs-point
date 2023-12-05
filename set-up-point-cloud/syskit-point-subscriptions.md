@@ -16,7 +16,7 @@ In this article, you will find information on the following:
 * [Purchase Additional User Licenses](syskit-point-subscriptions.md#purchase-additional-user-licenses)
 * [Upgrade Your Subscription Plan](syskit-point-subscriptions.md#upgrade-your-subscription-plan)
 * [Cancel Your Subscription](syskit-point-subscriptions.md#cancel-your-subscription)
-* [Reconnect After Purchasing](syskit-point-subscriptions.md#cancel-your-subscription)
+* [Reconnect After Purchasing](syskit-point-subscriptions.md#reconnect-after-purchasing)
 
 {% hint style="warning" %}
 **Please note!** If you didn't start your free 21-day trial, take a look at the [**Syskit Point trial article**](free-trial.md) for details on getting started. At any point during the 21 days of the free trial, you can purchase a Syskit Point Cloud subscription. In order to retain your data after your free trial has expired, a Syskit Point subscription needs to be purchased within 21 days of your trial period ending.
