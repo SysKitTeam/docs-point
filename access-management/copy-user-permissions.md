@@ -32,15 +32,15 @@ To copy permissions from one user to another, follow these steps:
 
 * **Click the Copy Permissions button \(6\)** to run the action
 
-![Users Overview - Copy User Permissions](../.gitbook/assets/copy-user-permissions_users-overview.png)
+![Users Overview - Copy User Permissions](../.gitbook/assets/copy-user-permissions-users-overview.png)
 
-![Copy User Permissions Dialog](../.gitbook/assets/copy-user-permissions_copy-permissions-dialog.png)
+![Copy User Permissions Dialog](../.gitbook/assets/copy-user-permissions-copy-permissions-dialog.png)
 
 Once the Copy User Permissions action is started, a notification is displayed. **Click the action in the Notifications menu \(1\)** to access the **Action Details screen \(2\)** if you want to see all steps taken as a part of this action.
 
-![Notifications Menu - Copy User Permissions](../.gitbook/assets/copy-user-permissions_copy-permissions-notification.png)
+![Notifications Menu - Copy User Permissions](../.gitbook/assets/copy-user-permissions-copy-permissions-notification.png)
 
-![Actions Details - Copy User Permissions steps](../.gitbook/assets/copy-user-permissions_action-details.png)
+![Actions Details - Copy User Permissions steps](../.gitbook/assets/copy-user-permissions-action-details.png)
 
 ## What is Copied
 

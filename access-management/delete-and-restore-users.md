@@ -37,9 +37,9 @@ To use the **Delete User action**, follow these steps:
 You can only delete users that exist in the **Azure Active Directory**. Some external users in your tenant don’t appear in **Azure Active Directory** as they only have access to selected documents. To remove such users, use the **Remove Access** action on the [**User Access Report**](check-access-for-specific-user.md).
 {% endhint %}
 
-![Users overview screen - Delete User action](../.gitbook/assets/delete-restore-users_delete.png)
+![Users overview screen - Delete User action](../.gitbook/assets/delete-restore-users-delete.png)
 
-![Delete Users - Confirm action](../.gitbook/assets/delete-restore-users_delete-confirm.png)
+![Delete Users - Confirm action](../.gitbook/assets/delete-restore-users-delete-confirm.png)
 
 ## Running the Restore User Action
 
@@ -50,9 +50,9 @@ To use the **Restore User action**, navigate to the **Users overview screen**, a
 * **click the Restore User action \(3\)** - the **Restore Users** window opens
 * **click the Restore User button \(4\)** to confirm the action
 
-![User overview screen - deleted users view, Restore User action](../.gitbook/assets/delete-restore-users_restore.png)
+![User overview screen - deleted users view, Restore User action](../.gitbook/assets/delete-restore-users-restore.png)
 
-![Restore User Action popup screen](../.gitbook/assets/delete-restore-users_restore-confirm.png)
+![Restore User Action popup screen](../.gitbook/assets/delete-restore-users-restore-confirm.png)
 
 {% hint style="warning" %}
 **Please note!**  

@@ -31,7 +31,7 @@ Before you can create a new key vault secret, enable access to the key vault:
 * **Click Access policies (1)** in the Settings section
 * **Click Add Access Policy (2)**; the Add access policy screen opens
 
-![Key Vault - Add Access Policy link](../.gitbook/assets/setup-diagnostic-logs-export_add-access-policy.png)
+![Key Vault - Add Access Policy link](../.gitbook/assets/setup-diagnostic-logs-export-add-access-policy.png)
 
 On the next screen:
 * **Select the Secret Management option (1)** in the Configure from the template drop-down
@@ -41,14 +41,14 @@ On the next screen:
 * **Click Add (6) on the Add access policy screen**; the initial Access Policy screen opens
 * **Click Save** on the Access policies screen to save your changes
 
-![Key Vault - Add Access Policy screen](../.gitbook/assets/setup-diagnostic-logs-export_select-principal.png)
+![Key Vault - Add Access Policy screen](../.gitbook/assets/setup-diagnostic-logs-export-select-principal.png)
 
 Next, **allow your IP adress to access the key vault**. On the key vault resource:
 * **Navigate to Settings** > **Networking (1)**
 * **Enter your IP address (2)**
 * **Click Save**
 
-![Key Vault - Allow IP address](../.gitbook/assets/setup-diagnostic-logs-export_add-ip-address.png)
+![Key Vault - Allow IP address](../.gitbook/assets/setup-diagnostic-logs-export-add-ip-address.png)
  
 ## Create a New Key Vault Secret
 
@@ -57,21 +57,21 @@ First, find the Application Insights app ID:
 * **Click API Access (1)** under the Configure section
 * **Copy and save aside the Application ID (2)**; you will need this value when creating the new key vault secret
 
-![Application Insights - Application ID](../.gitbook/assets/setup-diagnostic-logs-export_application-id.png)
+![Application Insights - Application ID](../.gitbook/assets/setup-diagnostic-logs-export-application-id.png)
 
 Next, create a new key vault secret:
 * **Open the Key vault resource**
 * **Click Secrets (1)** under the Settings section
 * **Click Generate/Import (2)**; **Create a secret** screen opens
 
-![Key Vault - Secrets](../.gitbook/assets/setup-diagnostic-logs-export_secrets.png)
+![Key Vault - Secrets](../.gitbook/assets/setup-diagnostic-logs-export-secrets.png)
 
 On the **Crate a secret** screen:
 * **Under Name (1)**, enter the following string: `AppInsightsAppId`
 * **Under Value(2)** paste the Application ID that you saved earlier
 * **Click Create (3)**
 
-![Create a secret](../.gitbook/assets/setup-diagnostic-logs-export_create-secret.png)
+![Create a secret](../.gitbook/assets/setup-diagnostic-logs-export-create-secret.png)
 
 Once the new key vault secret is created, you can remove the previously added access policy and IP address rule to secure the key vault resource.
  
@@ -83,7 +83,7 @@ First, delete the Access Policy:
 * **Find your user and click Delete (2)**
 * **Click Save (3)**
 
-![Delete Access Policy](../.gitbook/assets/setup-diagnostic-logs-export_delete-access-policy.png)
+![Delete Access Policy](../.gitbook/assets/setup-diagnostic-logs-export-delete-access-policy.png)
 
 Next, remove access for your IP address:
 * **Open the Key vault resource**
@@ -91,7 +91,7 @@ Next, remove access for your IP address:
 * **Find your IP address and click the delete icon (3)**
 * **Click Save**
 
-![Delete IP Address](../.gitbook/assets/setup-diagnostic-logs-export_delete-ip-address.png)
+![Delete IP Address](../.gitbook/assets/setup-diagnostic-logs-export-delete-ip-address.png)
  
 ## Assign a Role to the User-Assigned Managed Identity
 
@@ -100,7 +100,7 @@ Last thing left to do is assign
 * **Click Access control (IAM) (1)** in the left menu
 * **Add** > **Add role assignment (2)**; **Add role assingment** screen opens
 
-![Add Role Assignment](../.gitbook/assets/setup-diagnostic-logs-export_add-role.png)
+![Add Role Assignment](../.gitbook/assets/setup-diagnostic-logs-export-add-role.png)
 
 On the **Add role assignment** screen:
 * **Find and select the Log Analytics Reader role (1)**
@@ -113,9 +113,9 @@ On the **Add role assignment** screen:
 * **Click Review + assign (8)** to navigate to the next tab
 * **Click Review + assign** again to run the role assignment action
 
-![Add Role Assignment - Role tab](../.gitbook/assets/setup-diagnostic-logs-export_add-role-assignment_1.png)
+![Add Role Assignment - Role tab](../.gitbook/assets/setup-diagnostic-logs-export-add-role-assignment-1.png)
 
-![Add Role Assignment - Members tab](../.gitbook/assets/setup-diagnostic-logs-export_add-role-assignment_2.png)
+![Add Role Assignment - Members tab](../.gitbook/assets/setup-diagnostic-logs-export-add-role-assignment-2.png)
 
 ## Next steps
 
