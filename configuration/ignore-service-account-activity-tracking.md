@@ -27,5 +27,5 @@ Under **General (2)**, at the bottom of the screen, is the **Ignored Service Acc
 
 **Write the service account name and press enter to add it to the list.** Click **Save (4)** when finished.
 
-![Setting up Ignored Service Accounts](../.gitbook/assets/ignored-service-accounts_set-up.png)
+![Setting up Ignored Service Accounts](../.gitbook/assets/ignored-service-accounts-set-up.png)
 
