@@ -14,9 +14,12 @@ The following **actions are available when working with Syskit Point reports**:
 
 ## Generate Reports
 
-The **Inventory Reports** can be generated directly from the home page by clicking Sites, Microsoft Teams & Groups, or Users. 
+The **Inventory Reports** can be generated directly from the main menu on the left side of the screen by clicking Sites, Microsoft Teams & Groups, or Users. 
 
-To generate reports in all the other categories available in Syskit Point, **navigate to the Report Center by clicking the Reports tile on the Home screen**.
+To generate reports in all the other categories available in Syskit Point, **click the Report icon** in the main menu, which opens the Report Center.
+
+![Syskit Point - Report Icon](../.gitbook/assets/reporting-overview-report-icon.png)
+
 In the Report Center, you can:
 * **See all reports available in Syskit Point** along with a short description of what each provides
 * **Filter reports by category (1)**; only reports within the selected category are displayed
@@ -24,7 +27,7 @@ In the Report Center, you can:
 * **Navigate to Scheduled Reports (3)** where you can view and manage recurring delivery of reports 
 * **Click a report tile (4)** to generate the wanted report
 
-![Syskit Point - Report Center](../.gitbook/assets/generate_reports_overview-report_center.png)
+![Syskit Point - Report Center](../.gitbook/assets/reporting-overview-report-center.png)
 
 After you click the report tile, the **Selection screen** opens.
 Here, you can:
@@ -32,7 +35,7 @@ Here, you can:
 * **Adjust additional filters (2)**
 * **Click Run Report (3) to generate the report**
 
-![Generating Reports - Selection Screen](../.gitbook/assets/generate_reports_overview-selection_step.png)
+![Generating Reports - Selection Screen](../.gitbook/assets/reporting-overview-selection-step.png)
 
 {% hint style="warning" %}
 **Please note!**  
