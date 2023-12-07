@@ -19,7 +19,7 @@ Two options are available:
 * **Enter credentials (2)** option - service account should not have multi-factor authentication enabled
 * **Login with Microsoft Authentication Flow (3)** - supports a service account with **Multi-factor authentication enabled** 
 
-![Connect Service Account](../.gitbook/assets/connect-service-account_toggle.png)
+![Connect Service Account](../.gitbook/assets/connect-service-account-toggle.png)
 
   * To enable multi-factor authentication, follow the instructions in [this article](https://support.microsoft.com/en-us/office/set-up-your-microsoft-365-sign-in-for-multi-factor-authentication-ace1d096-61e5-449b-a875-58eb3d74de14).
 
@@ -36,27 +36,27 @@ If credentials are selected, additional fields are displayed where you can:
 * **Enter service account password (2)**
 * **Click the Connect button (3)** to finish
 
-![Service Account Credentials](../.gitbook/assets/connect-service-account_credentials.png)
+![Service Account Credentials](../.gitbook/assets/connect-service-account-credentials.png)
 
 **After a successful connection, the connect button turns green and shows a checkmark (1).**
 
-![Service Account Credentials - Connected](../.gitbook/assets/connect-service-account_checkmark.png)
+![Service Account Credentials - Connected](../.gitbook/assets/connect-service-account-checkmark.png)
 
 ## Login with Microsoft Authentication Flow
 If logging in with Microsoft Authentication Flow is selected, a pop-up will appear requesting the **sign-in information (1)** for the service account. 
 
-![Service Account - Microsoft Authentication Flow](../.gitbook/assets/connect-service-account_MFA.png)
+![Service Account - Microsoft Authentication Flow](../.gitbook/assets/connect-service-account-MFA.png)
 
 Once the account is successfully connected, you will see the email listed stating it is a **Connected Account (2)**.
 
-![Microsoft Authentication Flow - Connected Account](../.gitbook/assets/connect-service-account_MFA-connected.png)
+![Microsoft Authentication Flow - Connected Account](../.gitbook/assets/connect-service-account-MFA-connected.png)
 
 {% hint style="warning" %}
 **Please note!**  
 **Global Admin consent is required** when connecting the service account through Microsoft Authentication Flow for the first time. 
 {% endhint %}
 
-![Microsoft Authentication Flow - Global Admin Consent](../.gitbook/assets/connect-service-account_consent.png)
+![Microsoft Authentication Flow - Global Admin Consent](../.gitbook/assets/connect-service-account-consent.png)
 
 ## Additional Information
 When Microsoft Authentication Flow is used, Global Admin consent is required due to additional permissions required for the Syskit Point Client app registration. 

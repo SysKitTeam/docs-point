@@ -45,7 +45,7 @@ To define a logo used in all e-mails:
 * **Drag and drop your logo file \(2\)** to define your logo; keep in mind the supported file formats - JPEG and PNG
 * **Click Save \(3\)** to save your changes
 
-![Customize Logo](../.gitbook/assets/customize-e-mail_define-logo.png)
+![Customize Logo](../.gitbook/assets/customize-emails-define-logo.png)
 
 To define a banner used in e-mails:
 * **Navigate to the E-mail Settings screen \(1\)**. 
@@ -55,7 +55,7 @@ To define a banner used in e-mails:
 * **Zoom in or zoom out \(3\)** to adjust the view
 * **Click Save \(4\)** to save your changes
 
-![Customize Banner](../.gitbook/assets/customize-e-mail_define-banner.png)
+![Customize Banner](../.gitbook/assets/customize-emails-define-banner.png)
 
 {% hint style="info" %}
 **Hint!**  
@@ -75,7 +75,7 @@ Here you can:
 * **Customize the Access Review e-mail \(2\)** by clicking Customize e-mail button 
 * **Preview the Access Review e-mail \(3\)**
 
-![Settings - Access Review Options](../.gitbook/assets/customize-e-mail_access-review-settings-screen.png)
+![Settings - Access Review Options](../.gitbook/assets/customize-emails-access-review-settings.png)
 
 After clicking the Customize e-mail button, you will see the following sections:
 
@@ -86,7 +86,7 @@ After clicking the Customize e-mail button, you will see the following sections:
 
 When finished, click the **Confirm button \(5\)** to save your changes.
 
-![Customize Access Review E-mail](../.gitbook/assets/customize-e-mail_access-review-dialog.png)
+![Customize Access Review E-mail](../.gitbook/assets/customize-emails-access-review-dialog.png)
 
 {% hint style="warning" %}
 **Please note!** 
@@ -97,7 +97,7 @@ The custom message can contain **plain text** or **HTML**. A **link has to be de
 You can immediately see the e-mail changes by clicking the before-mentioned **Preview e-mail button**.
 The Preview dialog opens, as shown in the image below.
 
-![Access Review - E-mail Preview](../.gitbook/assets/customize-e-mail_access-review-preview.png)
+![Access Review - E-mail Preview](../.gitbook/assets/customize-emails-access-review-preview.png)
 
 ## Lifecycle Management Settings
 
@@ -109,7 +109,7 @@ Here you can:
 * **Customize the Lifecycle Management e-mail \(2\)** by clicking Customize e-mail button 
 * **Preview the Lifecycle Management e-mail \(3\)**
 
-![Settings - Lifecycle Management Options](../.gitbook/assets/customize-e-mail_lifecycle-management-settings-screen.png)
+![Settings - Lifecycle Management Options](../.gitbook/assets/customize-emails-lifecycle-management-settings.png)
 
 Similar to the Access Review e-mail, you can edit the following sections after clicking the Customize e-mail button:
 
@@ -119,8 +119,8 @@ Similar to the Access Review e-mail, you can edit the following sections after c
 
 When done with editing, click the **Confirm button \(4\)** to save your changes.
 
-![Customize Lifecycle Management E-mail](../.gitbook/assets/customize-e-mail_lifecycle-management-dialog.png)
+![Customize Lifecycle Management E-mail](../.gitbook/assets/customize-emails-lifecycle-management-dialog.png)
 
 You can access the e-mail preview by clicking the **Preview e-mail button**.
 
-![Lifecycle Management - E-mail Preview](../.gitbook/assets/customize-e-mail_lifecycle-management-preview.png)
+![Lifecycle Management - E-mail Preview](../.gitbook/assets/customize-emails-lifecycle-management-preview.png)
