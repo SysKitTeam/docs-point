@@ -14,7 +14,7 @@ The following **actions are available when working with Syskit Point reports**:
 
 ## Generate Reports
 
-The **Inventory Reports** can be generated directly from the main menu on the left side of the screen, by clicking Sites, Microsoft Teams & Groups, or Users. 
+The **Inventory Reports** can be generated directly from the main menu on the left side of the screen by clicking Sites, Microsoft Teams & Groups, or Users. 
 
 To generate reports in all the other categories available in Syskit Point, **click the Report icon** in the main menu, which opens the Report Center.
 
