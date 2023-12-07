@@ -24,7 +24,7 @@ To manage private channel access, complete the following:
 * On the details screen, **scroll to the Channels section (3)**; the private channels will be marked by a lock symbol next to their name. 
 * **Click the private channel (4)**; this opens the details screen of the channel.
 
-![Private Channels Access - Microsoft Teams & Groups](../.gitbook/assets/manage-private-channels_teams-and-groups-access.png)
+![Private Channels Access - Microsoft Teams & Groups](../.gitbook/assets/manage-private-channels-teams-and-groups-access.png)
 
 Another way to access private channels is through the **Sites screen** by taking the following steps:
 
@@ -35,7 +35,7 @@ Another way to access private channels is through the **Sites screen** by taking
   * This opens the details screen of the private channel.
 
   
-![Private Channels Access - Sites](../.gitbook/assets/manage-private-channels_sites-access.png)
+![Private Channels Access - Sites](../.gitbook/assets/manage-private-channels-sites-access.png)
 
 ## Private Channels Access Options
 
@@ -44,7 +44,7 @@ When the **private channel details screen** opens, two options are listed on the
  * **Add Owners/Members (1)**; allows adding new members to the private channel. The new members can also be set as owners.
  * **Change Owners (2)**; provides the option to remove current owners or promote current members to owners. 
 
- ![Manage Private Channels - Options Panel](../.gitbook/assets/manage-private-channels_options-side.png)
+ ![Manage Private Channels - Options Panel](../.gitbook/assets/manage-private-channels-options-side.png)
 
 Clicking the **Add Owners/Members** button opens a pop-up that provides the following options: 
 
@@ -60,7 +60,7 @@ Clicking the **Add Owners/Members** button opens a pop-up that provides the foll
 To add members to a private channel, the selected user must already be a member of the Microsoft Teams where the private channel is located. 
 {% endhint %}
 
- ![Manage Private Channels - Add Owners/Members options](../.gitbook/assets/manage-private-channels_add-owners-members.png)
+ ![Manage Private Channels - Add Owners/Members options](../.gitbook/assets/manage-private-channels-add-owners-members.png)
 
 Clicking the **Change Owners** button opens a pop-up that provides the following options: 
 
@@ -77,7 +77,7 @@ Clicking the **Change Owners** button opens a pop-up that provides the following
 To set owners of a private channel, the selected user must already be a member of the Microsoft Teams where the private channel is located. 
 {% endhint %}
 
- ![Manage Private Channels - Change Owners options](../.gitbook/assets/manage-private-channels_change-owners.png)
+ ![Manage Private Channels - Change Owners options](../.gitbook/assets/manage-private-channels-change-owners.png)
 
 
 ### Manage Member and Owner Status
@@ -88,7 +88,7 @@ The **Members tile (1)** shows a list of all members and owners available, and t
   * **Selecting an Owner (3)** provides two options on the right side of the screen: **Remove from Channel or Change to Member (4)**.
   * **Selecting a Member** provides two options on the right side of the screen: **Remove from Channel** or **Promote to Owner**.
 
- ![Manage Private Channels - Members Tile](../.gitbook/assets/manage-private-channels_members-tile.png)
+ ![Manage Private Channels - Members Tile](../.gitbook/assets/manage-private-channels-members-tile.png)
 
   {% hint style="warning" %}
 **Please note!**  
@@ -121,7 +121,7 @@ The following actions can be completed from this report:
    * **Remove from Channel**
    * **Promote to Owner** 
 
- ![Manage Private Channels - Members Tile](../.gitbook/assets/manage-private-channels_report.png)
+ ![Manage Private Channels - Members Tile](../.gitbook/assets/manage-private-channels-report.png)
 
 The Microsoft Teams with Private Channels report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 

@@ -48,17 +48,17 @@ Depending on your needs, there are several places in **Syskit Point** where you 
 
 From the **Home** screen of **Syskit Point**, click the **Sites** button on the left side of the screen.
 
-![Syskit Point Home Screen - Click the Sites tile](../.gitbook/assets/supervise-microsoft-teams-private-channels_home.png)
+![Syskit Point Home Screen - Click the Sites tile](../.gitbook/assets/supervise-microsoft-teams-private-channels-home.png)
 
 It will redirect you to **Syskit Point Sites Overview screen**. As we know when a Private Channel is created, it also creates a SharePoint Site Collection. Unlike SharePoint Online, **Syskit Point gives you the ability to see that Site Collection within your Sites**, and also **gives Team owners the ability to see all members and shared files in a Private Channel**, even when the Team owner is not a member of a said Private Channel.
 
 On the **Sites Overview** screen, any existing Microsoft Teams **Private Channel site will be located right under its parent Microsoft Teams site**, but to easily filter said Sites, click the **Column Chooser (1)** and **enable the column called Template (2)**.
 
-![Syskit Point Site Overview - Filtering sites of Private Channels](../.gitbook/assets/supervise-microsoft-teams-private-channels_sites.png)
+![Syskit Point Site Overview - Filtering sites of Private Channels](../.gitbook/assets/supervise-microsoft-teams-private-channels-sites.png)
 
 The next thing you have to do is to **click the Filter icon (1)** of the Template column, **select the Private Channel site (2)** and **click OK (3)**.
 
-![Syskit Point Site Overview - Filtering sites of Private Channels](../.gitbook/assets/supervise-microsoft-teams-private-channels_site-private.png)
+![Syskit Point Site Overview - Filtering sites of Private Channels](../.gitbook/assets/supervise-microsoft-teams-private-channels-site-private.png)
 
 Now, **only the sites of Private Channels will be visible** on the Site Overview screen. You can **recognize them by the lock icon** displayed next to the name of the site.
 
@@ -67,7 +67,7 @@ Now, **only the sites of Private Channels will be visible** on the Site Overview
 The name of the Private Channel site consists of the **name of its Team** + the **name of said Private Channel**.
 {% endhint %}
 
-![Syskit Point Site Overview - Filtered sites of Private Channels](../.gitbook/assets/supervise-microsoft-teams-private-channels_private-channels.png)
+![Syskit Point Site Overview - Filtered sites of Private Channels](../.gitbook/assets/supervise-microsoft-teams-private-channels-private-channels.png)
 
 **Click the site name to open the Private Channel site details page**. 
 
@@ -75,7 +75,7 @@ Here, **you can see which users have permissions** in the private channel, **vie
 
 Additionally, you can **generate multiple reports** for the Private Channel site and **perform multiple actions** - Remove Access, Edit Permissions, Delete SharePoint Group, Remove Users from Group, etc.
 
-![Syskit Point - Private Channel site details screen](../.gitbook/assets/supervise-microsoft-teams-private-channels_sites-private-info.png)
+![Syskit Point - Private Channel site details screen](../.gitbook/assets/supervise-microsoft-teams-private-channels-sites-private-info.png)
 
 #### Microsoft Teams & Groups Screen
 
@@ -85,7 +85,7 @@ From the **Home Screen**, click the **Microsoft Teams & Groups** button on the l
 
 Here, click the **View chooser (1)** and select the **Teams with Private Channels** **option (2)**.
 
-![Syskit Point Group Overview screen - choosing Teams with Private Channels view](../.gitbook/assets/supervise-microsoft-teams-private-channels_microsoft-teams-private.png)
+![Syskit Point Group Overview screen - choosing Teams with Private Channels view](../.gitbook/assets/supervise-microsoft-teams-private-channels-microsoft-teams-private.png)
 
 The report now shows only Microsoft Teams with Private Channels.
 
@@ -100,11 +100,11 @@ Here, you can find the **Channels tile**, which shows all the channels that are 
 
 You will notice that **Private Channels have a lock icon** next to the channel name, and under the column named **Privacy**, the value is set to **Private**.
 
-![Syskit Point Group Details screen - Channels tile](../.gitbook/assets/supervise-microsoft-teams-private-channels_teams-private-channels.png)
+![Syskit Point Group Details screen - Channels tile](../.gitbook/assets/supervise-microsoft-teams-private-channels-teams-private-channels.png)
 
 Clicking a Private Channel inside the Channels tile opens the **Syskit Point Channel Details** page, where you can **see all members** of that **Private Channel**, **when it was created**, **by whom**, as well as **all shared** **files.**
 
-![Syskit Point Private Channel details page](../.gitbook/assets/supervise-microsoft-teams-private-channels_private-channels-info.png)
+![Syskit Point Private Channel details page](../.gitbook/assets/supervise-microsoft-teams-private-channels-private-channels-info.png)
 
 #### Microsoft Teams with Private Channels Report
 
@@ -112,12 +112,12 @@ If you want to see all the information about **Private channels** in your **Micr
 
 From the Home screen, click the **Reports tile**. Report Center opens. Here, **click the Filter in the left corner** **(1)**, **select the Microsoft Teams & Groups option (2)**, and find the **Microsoft Teams with Private Channels report (3)**.
 
-![Syskit Point Report Center - Microsoft Teams with Private Channels report](../.gitbook/assets/supervise-microsoft-teams-private-channels_report.png)
+![Syskit Point Report Center - Microsoft Teams with Private Channels report](../.gitbook/assets/supervise-microsoft-teams-private-channels-report.png)
 
 When you click the report tile, the report is **automatically generated**, containing all the **Microsoft Teams that have Private Channels** and all the **members** and **owners** inside the channels. 
 
 You can also export the generated report as a **PDF** or **XLSX** file.
 
-![Syskit Point Report center - Microsoft Teams with Private Channels generated report](../.gitbook/assets/supervise-microsoft-teams-private-channels_report-generated.png)
+![Syskit Point Report center - Microsoft Teams with Private Channels generated report](../.gitbook/assets/supervise-microsoft-teams-private-channels-report-generated.png)
 
 If you wish to know even more about the Private Channels, you can find it in the [following Microsoft article](https://docs.microsoft.com/en-us/microsoftteams/private-channels).

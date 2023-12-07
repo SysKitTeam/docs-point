@@ -39,11 +39,11 @@ From the home screen that opens, **click the Report button (1)** located in the 
 
 When located on the **home screen**, clic k the **Reports** tile.
 
-![Syskit Point - Welcome screen](../.gitbook/assets/access-for-specific-user_home-screen.png)
+![Syskit Point - Welcome screen](../.gitbook/assets/access-for-specific-user-home-screen.png)
 
 It will redirect you to the **Syskit Point Report Center**, where you can click the **User Access** report tile.
 
-![Syskit Point - Report Center](../.gitbook/assets/access-for-specific-user_report-screen.png)
+![Syskit Point - Report Center](../.gitbook/assets/access-for-specific-user-report-screen.png)
 
 {% hint style="info" %}
 **Hint! -** you can also access the **User Access report** through various other **Syskit Point** **reports**, **User overview screen**, and **User details screens**.
@@ -55,7 +55,7 @@ Now that you are located on the **User Access selection** **screen**:
   * You can choose among Sites, Microsoft Teams, Microsoft 365 Groups, One Drive and Power BI   
 * Click the **Run Report button \(3\)** to generate the report
 
-![User Access - Selection screen](../.gitbook/assets/access-for-specific-user_users-report-list.png)
+![User Access - Selection screen](../.gitbook/assets/access-for-specific-user-users-report-list.png)
 
 ### Available Options and Actions
 
@@ -68,7 +68,7 @@ Now that you have **successfully** generated the **User Access report**, you'll 
 * **Details (5)** containing **exact workspaces** through which the user got their **permissions**; **Microsoft 365 Groups** and **Microsoft Teams** shown here are **drillable (6)**, opening their respective **detail screens**.
 * You can **schedule and export the report as PDF or Excel (7)**. 
 
-![User Access - Report structure](../.gitbook/assets/access-for-specific-user_user-report-details.png)
+![User Access - Report structure](../.gitbook/assets/access-for-specific-user-user-report-details.png)
 
 ### Remove Access
 
@@ -79,9 +79,9 @@ There are several ways to remove access for a user through the report:
        * Clicking the **Remove(3)** button will finalize the action.  
     * This can also be completed for a single workspace by clicking the option to expand, located next to the user's name, and selecting the specific workspace. 
 
-![User Access - Remove Access action](../.gitbook/assets/access-for-specific-user_user-remove.png)
+![User Access - Remove Access action](../.gitbook/assets/access-for-specific-user-user-remove.png)
 
-![Syskit Point User Access report Remove Access action prompt](../.gitbook/assets/access-for-specific-user_access-removed.png)
+![Syskit Point User Access report Remove Access action prompt](../.gitbook/assets/access-for-specific-user-access-removed.png)
 
 After completing the action, you will receive a **notification** containing the **see the result** link, which reloads the report data when clicked. Once the action is completed, the user will no longer have access to any workspace. 
 
@@ -93,7 +93,7 @@ Any user that had their access removed will successfully be removed from any pri
 You can also remove access for a specific user by clicking the user's name from the report. This will redirect you to the **user details screen**.
   * Scroll down to the **Access tile (1)**, and you'll have the option to either **select all workspaces (2)** or select them individually to perform the **Remove Access (3)** action.
 
-![User Details Screen - Remove Access](../.gitbook/assets/access-for-specific-user_user-details-screen.png)
+![User Details Screen - Remove Access](../.gitbook/assets/access-for-specific-user-user-details-screen.png)
 
 
 **User Access report** helps all **Admins** and content **Owners** to keep their **Microsoft 365 environment** **clean**, **secure**, and **easy to manage** all at one place.
