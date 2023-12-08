@@ -13,7 +13,13 @@ To configure the Storage Management feature within Syskit Point, complete the fo
 * **Go to the Settings (1)** of your Syskit Point
 * Under the General section, **click the Storage Management button (2)**
 *  The **Collect storage data checkbox (3)** is turned on by default
-  * If you deselect the check box and turn off collecting storage data, Syskit Point retains and shows only the old versions of your files and your site storage, and no new storage data is collected or reflected in Syskit Point
+  * When the collecting storage data checkbox is selected, Syskit Point collects file sizes, file extensions, and file versions. 
+  * If you deselect the check box and turn off collecting storage data, Syskit Point does not collect file sizes, file extensions, or file versions, and no new storage data is reflected in Syskit Point.
+  * Site size history is collected even when the checkbox is deselected. 
+
+{% hint style="information" %}
+**Please note!** When the checkbox is deselected and collecting storage data is turned off, you will not be able to access any of the Storage Management reports.
+{% endhint %}
 
 Once storage management has been turned on, you can also customize your storage reports in Syskit Point by setting the following:
 * **Show how much I can save if I keep the latest X file versions (4)** - here, you can set a number in place of X depending on how many of the latest file versions you want to keep when trying to declutter your workspaces
@@ -28,10 +34,10 @@ Once finished, **click Save (6)** to save your storage management preferences.
 
 ## Related Articles
 
-* [Optimize Storage](../governance-and-automation/optimize-storage.md)
+* [Storage Management](../reporting/storage-management/storage-management.md)
 * [Configure Tenant Storage Limit Policy](../governance-and-automation/automated-workflows/tenant-storage-admin.md)
 * [Tenant Storage Security & Compliance Check](../../governance-and-automation/security-compliance-checks/tenant-storage.md)
 * [Resolve Tenant Storage Limit Task](../../point-collaborators/resolve-governance-tasks/tenant-storage-limit.md)
-* [Storage Metrics Report](../reporting/cleanup-and-health-reports.md#storage-metrics)
-* [Site Storage Metrics Report](../reporting/cleanup-and-health-reports.md#site-storage-metrics)
-* [File Storage Details Report](../reporting/cleanup-and-health-reports.md#file-storage-details)
+* [Storage Metrics Report](../reporting/storage-management/storage-reports.md#storage-metrics)
+* [Site Storage Metrics Report](../reporting/storage-management/storage-reports.md#site-storage-metrics)
+* [File Storage Details Report](../reporting/storage-management/storage-reports.md#file-storage-details)
