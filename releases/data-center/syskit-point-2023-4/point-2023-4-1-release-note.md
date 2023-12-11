@@ -3,7 +3,7 @@ description: >-
   This article lists improvements and bug fixes in Syskit Point version 2023.4.1
 ---
 
-# Syskit Point 2023.3
+# Syskit Point 2023.4.1
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
