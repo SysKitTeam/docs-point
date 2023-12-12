@@ -42,7 +42,7 @@ The following is available on the task screen:
 * **Tenant information on your storage (2)**:
   * Storage used shown as amount and percentage
   * Total tenant storage available shown as amount and percentage
-* **View Report button (3)** which redirects you to the [Storage Metrics Report](../../reporting/cleanup-and-health-reports.md#storage-metrics)
+* **View Report button (3)** which redirects you to the [Storage Metrics Report](../../reporting/storage-management/storage-reports.md#storage-metrics)
 * **Add Storage button (4)** which redirects you to [Microsoft documentation](https://learn.microsoft.com/en-us/microsoft-365/commerce/add-storage-space?view=o365-worldwide) detailing how to add storage through Microsoft
 
 ![Policy Violation Task](../../.gitbook/assets/resolve-governance-tasks-tenant-storage-limit.png)
