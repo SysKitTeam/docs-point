@@ -64,4 +64,4 @@ After completing the above, restart **both** App Services inside the Point resou
 
 ## Related Articles
 
-* [Learn How to Optimize Storage Using Syskit Point](../governance-and-automation/optimize-storage.md)
+* [Learn how to manage storage using Syskit Point](../reporting/storage-management/storage-management.md)
