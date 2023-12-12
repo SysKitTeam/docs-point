@@ -1,6 +1,6 @@
 ---
 description: >-
-  This article lists improvements and bug fixes in Syskit Point version 2023.5
+  This article lists improvements and bug fixes in Syskit Point version 2023.5.39.58.
 ---
 
 # Syskit Point 2023.5
@@ -24,8 +24,21 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 ## Features
 
-* **New options added to the Storage Management feature**!
-  * The Site Storage Metrics report now has the **Clean Up File Versions action**. 
+* **The storage usage reporting comes with a new Site Storage Metrics report**!
+  * You can drill from the Storage Metrics report to a more detailed per-site report by clicking the workspace name. 
+
+* **New File Storage Details** report is available!
+    * Drill from the Site Storage Metrics report to the File Storage Details report by clicking a file name.
+    * Use this report to see all file versions and the total storage used by all versions.
+    * Find how much storage is used by the file versions older than 30 days.
+    * See how much storage is used by the file versions other than the latest 20 versions. 
+    * **Please note that the File Storage Details report is available in the Governance plan only**.
+    * [Read this article to find more information about the File Storage Details report](../../reporting/storage-management/storage-reports.md#file-storage-details).
+
+
+* **The Storage Management feature is now fully available**!
+  * The report section contains the [Site Storage Metrics report](../../reporting/storage-management/storage-reports#site-storage-metrics) and [File Storage Details report](../../reporting/storage-management/storage-reports#site-storage-metrics).
+  * The Site Storage Metrics report has the **Clean Up File Versions action**. 
     * This means you can select any site, folder, document library, or even **the entire site** and clean up the older file versions.
   * The Site Storage Metrics report now has a new **File Type tile** added. 
     * There, you can check how much **storage is occupied by different types of files**: videos, photos, office documents, or others.
@@ -47,6 +60,8 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 * **Improved the descriptions on the policy screen** to enhance the comprehension of each policy.
 
 * **Improved and optimized the Site Metrics report** when showing larger sites.
+
+* **Improved data collection** for storage and site storage quota during autodiscovery.
 
 * **Fixed an issue** where giving reconsent permissions for Syskit Point couldn't be successfully completed.
 
@@ -70,6 +85,3 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 * **Fixed a bug** on reports that occasionally caused filtering issues when drilling to subsites.
 
 * **Various improvements and minor UX fixes are available**.
-
-
-
