@@ -28,6 +28,7 @@ Once the policy is set to your preference, **click the Save button (4)** to fina
 
 ## Related Articles
 
-* [Optimize Storage](../../governance-and-automation/optimize-storage.md)
+* [Storage Management](../../reporting/storage-management/storage-management.md)
 * [Tenant Storage Security & Compliance Check](../../governance-and-automation/security-compliance-checks/tenant-storage.md)
 * [Resolve Tenant Storage Limit Task](../../point-collaborators/resolve-governance-tasks/tenant-storage-limit.md)
+* [Storage Reports](../../reporting/storage-management/storage-reports.md)

@@ -33,7 +33,7 @@ Global admin re-consent is required after the upgrade to the latest version. Con
 
   * **New Storage Metrics report is available!**
     * The Storage Metrics report shows your storage usage over time in your tenant to help you: 
-      * [Manage and optimize content usage](../../../governance-and-automation/optimize-storage.md)
+      * [Manage and optimize storage usage](../../../reporting/storage-management/storage-management.md)
       * Identify potentially unusual spikes
       * Determine whether you need additional storage options
       * In case a defined limit is reached, the usage percentage bar graph related to the site will be colored red on the tenant, as well as the site level.
