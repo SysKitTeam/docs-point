@@ -52,7 +52,7 @@ Defined site storage limit and percentage of used storage defined for email noti
 
 ## Storage Metrics Report in Syskit Point
 
-The new [Storage Metrics report](../../reporting/cleanup-and-health-reports.md#storage-metrics) is available in the latest Syskit Point version and helps you:
+The new [Storage Metrics report](../../reporting/storage-management/storage-reports.md#storage-metrics) is available in the latest Syskit Point version and helps you:
 * **Discover the percentage of used storage in your tenant (1)**
 * **See a trend of your storage usage over time (2)**
 * **Find the largest sites in your tenant (3)**
