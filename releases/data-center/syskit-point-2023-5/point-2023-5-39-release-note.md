@@ -1,15 +1,15 @@
 ---
 description: >-
-  This article lists improvements and bug fixes in Syskit Point version 2023.5.39.104
+  This article lists improvements and bug fixes in Syskit Point version 2023.5.39.113
 ---
 
 # Syskit Point 2023.5.39
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
-**Product version:** 2023.5.39.104
+**Product version:** 2023.5.39
 
-**Build number:** 104
+**Build number:** 113
 
 **Release date:** December 14, 2023
 
