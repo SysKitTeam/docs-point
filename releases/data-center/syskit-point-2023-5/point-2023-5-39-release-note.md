@@ -1,6 +1,6 @@
 ---
 description: >-
-  This article lists improvements and bug fixes in Syskit Point version 2023.5.39.58.
+  This article lists improvements and bug fixes in Syskit Point version 2023.5.39.104.
 ---
 
 # Syskit Point 2023.5.39
@@ -9,7 +9,7 @@ description: >-
 
 **Product version:** 2023.5.39
 
-**Build number:** 58
+**Build number:** 104
 
 **Release date:** December 14, 2023
 
@@ -72,9 +72,6 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 * **Fixed a bug** that prevented Yammer sites from being included in Lifecycle Management when selecting All under Monitoring Activity. 
 
 * **Fixed a bug** where creating a SharePoint site provisioning request resulted in an error.
-
-* **Fixed an issue** where collaborators could see information about the storage of the entire tenant and the 3 biggest sites. 
-  * Collaborators can only see the storage of the workspaces they are in charge of. 
 
 * **Fixed a bug** which caused no information to be shown when Syskit Point Admins tried to generate a Teams with Private Channels report.
 
