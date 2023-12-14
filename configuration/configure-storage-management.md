@@ -2,7 +2,7 @@
 description:  This article describes how you can set up Storage Management in Syskit Point. 
 ---
 
-# Storage Management
+# Storage Storage Management in Syskit Point
 
 The Syskit Point Storage Management feature helps you keep your environment clutter-free, optimize the usage of your storage, and gain insight into how your storage is distributed across your tenant.
 
