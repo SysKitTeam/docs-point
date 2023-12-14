@@ -2,7 +2,7 @@
 description:  This article describes configuring Syskit Point to enable the Storage Management feature.
 ---
 
-# Configure Syskit Point to use Storage Management 
+# Configure Your Environment for Storage Management 
 
 {% hint style="information" %}
 **Please note!** 
