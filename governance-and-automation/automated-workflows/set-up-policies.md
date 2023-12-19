@@ -19,7 +19,7 @@ Additionally, you can also [set up policy rules](../../governance-and-automation
 
 {% hint style="warning" %}
 **Please note!**
-Only users with the role of **Syskit Point Admin** assigned can access and configure Settings in Syskit Point.
+Only users assigned the role of **Syskit Point Admin** can access and configure Settings in Syskit Point.
 {% endhint %}
 
 ## Detection vs Task Delegation
@@ -30,6 +30,8 @@ Two modes of policy operation for Governance policies are available in Syskit Po
 The following are **detection-only policies** that are applied tenant-wide: 
 * [**Blocked Users with Assigned Licenses (Tenant-Wide)**](../../governance-and-automation/security-compliance-checks/blocked-users-assigned-license.md) 
 * [**Orphaned Users (Tenant-Wide)**](../../governance-and-automation/security-compliance-checks/orphaned-users.md)
+* [**Workspaces with shadow users**](../../governance-and-automation/security-compliance-checks/workspaces-with-shadow-users.md) 
+* [**Workspaces with too many members**](../../governance-and-automation/security-compliance-checks/workspaces-with-too-many-members.md)
 
 When it comes to detection-only policies, Syskit Point detects a vulnerability in a workspace based on the applied policy. 
 
@@ -37,7 +39,7 @@ Syskit Point **does not create tasks or send any emails to workspace owners for 
 
 The purpose of this is to assist Syskit Point admins by reminding them there are potential issues in their Microsoft 365 environment every time they open Syskit Point. 
 
-* **When you acquire Syskit Point, default policies are created - Minimum 2 Owners (Default Policy), Maximum 5 Owners (Default Policy), and Orphaned Workspaces (Default Policy) - and applied to all your workspace via a default rule**; these policies serve to give you an overview of workspaces that are potentially not configured according to best practices; no need to worry, though - default policies are configured as **detection-only policies**, meaning that **Syskit Point will not create tasks or send emails**.
+* **When you acquire Syskit Point, default policies are created - Minimum 2 Owners (Default Policy), Maximum 5 Owners (Default Policy), and Orphaned Workspaces (Default Policy), Workspaces With Shadow Users (Default Policy), Maximum 50 Members (Default Policy) - and applied to all your workspace via a default rule**; these policies serve to give you an overview of workspaces that are potentially not configured according to best practices; no need to worry, though - default policies are configured as **detection-only policies**, meaning that **Syskit Point will not create tasks or send emails**.
 
 ### Task Delegation
 
@@ -49,6 +51,7 @@ Task Delegation can be enabled in policy settings for each policy listed below.
 * [Minimum Number of Owners](../../governance-and-automation/security-compliance-checks/workspaces-not-enough-owners.md)
 * [Orphaned Workspaces](../../governance-and-automation/security-compliance-checks/orphaned-workspaces.md)
 * [Tenant Storage Limit (Tenant-Wide)](../../governance-and-automation/security-compliance-checks/tenant-storage.md)
+
 
 **When task delegation is enabled, Syskit Point creates tasks and sends emails to users as defined in the policy settings**.
 
@@ -88,6 +91,8 @@ Take a look at the articles below to learn how to set up each governance policy:
 * [**Access Request**](../access-requests/README.md) - provides end-users with the **ability to request access to existing Microsoft Teams & Groups, sites, distribution lists, and security groups in the Microsoft 365 environment**; Syskit Point administrators can define workspaces visible to end-users and who is responsible for the approval of access requests
 * [**Access Review**](../permissions-review/README.md) - enables Syskit Point admins to enforce regular Access reviews for workspace owners on their workspaces
 * [**Tenant Storage Limit**](tenant-storage-admin.md) - **detects when total tenant storage usage exceeds the defined percentage**
+* [**Workspaces with Shadow Users**](shadow-users-admin.md) - **detects users that have access to specific content but are not members** of the Microsoft 365 Group or Team associated with it
+* [**Workspaces with Too Many Members**](workspaces-with-too-many-members-admin.md) - **detects which workspaces have more than the maximum number of members** predefined by your organization's policies
 
 By clicking on the names of each policy, you can **find an article with information on enabling and managing** all mentioned policy types. 
  
@@ -124,7 +129,7 @@ When you decide to modify existing governance policies, there is a notification 
 
 {% endhint %}
 
- * **Turning off the task delegation results in the closing of previously opened tasks**. 
+ * **Turning off the task delegation results in closing previously opened tasks**. 
    * You will continue to see the detected vulnerabilities on the Security and Compliance checks dashboard even though the related tasks are closed.
 
 ## Resolving Policy Tasks
