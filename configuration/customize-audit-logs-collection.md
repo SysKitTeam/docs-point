@@ -122,10 +122,19 @@ Available audit log categories:
 
 ### Point Cloud
 
-**Data retention is limited to only 1 year with Syskit Point Cloud**. 
+**By default, audit logs data retention is set to 1 year in Syskit Point Cloud**. 
 
-Due to that, there are no settings or options for you to modify it. This applies to the Management, Security & Compliance, and Governance plans. For more details on Syskit Point plans that are currently available, check the [pricing page](https://www.syskit.com/products/point/pricing/).
+You can purchase additional years of audit logs storage by contacting our Sales team. [Contact us](https://www.syskit.com/contact-us/)
 
+To find the information on how long the Audit logs are stored for you:
+* Navigate to **Settings** > **Audit** > **Audit Logs**
+* **Find the info section where the audit logs storage period is visible (1)**
+
+![Audit logs storage period](../.gitbook/assets/customize-audit-logs-collection-point-cloud-retention.png)
+
+{% hint style="information" %}
+**Purchased audit logs storage period will be added to the default period of 1-year audit log storage**. For example, if you purchased 2 years of additional storage, your audit logs will be stored for 3 years.
+{% endhint %}
 
 ### Point Data Center
 

@@ -19,33 +19,29 @@ description: >-
     * When the storage cleanup actions take a while to complete, the progress can now be tracked. 
     * Collaborators can now access Storage Metrics reports for their workspaces. 
 
-* **New policies added!** 
-   * **Workspaces with shadow users** - shows workspaces with a large number of users who are not members of the workspace but have access to specific documents, folders, or other content. 
-   * **Workspaces with too many members** - shows workspaces whose number of members exceeds the defined threshold. 
-
 * **Additional years for storing your Audit Logs** can now be purchased.
-  * [Read the Audit Logs Storage article for more information.](link-to-article.md)
+  * Until now, Point Cloud provided a default period of 1 year of audit log retention.
+  * Now, you can [purchase additional years of audit logs storage by contacting our Sales team](https://www.syskit.com/contact-us/). 
+  * [Read more about Audit Logs retention in Syskit Point Cloud in the following article.](../../configuration/customize-audit-logs-collection.md#point-cloud)
   
 
 ## Improvements & Bug Fixes
 
-* The ability to properly **manage sensitivity labels on Shared and Private channel sites** was added. 
+* The ability to **manage sensitivity labels on Shared and Private channel sites** was added. 
 
-* **Additional metadata columns were added** to Reports in the Access Review tasks.
+* **Additional columns were added** to Reports in the Access Review tasks. When reviewing a SharePoint site, you can now find the Email, Last Logged In, and Sign-in status on the Users step.
 
-* **A new column has been added** to the Site Analytics report that shows the "Type" of the workspaces.
+* **A new column has been added** to the Site Analytics report that shows the **Type** of the workspaces.
 
-* When selecting workspaces in the **Access section of the User details screen**, you can now select the **User Access report** in the side panel.
+* When selecting workspaces in the **Access section of the User details screen**, you can now open the **User Access report** from the side panel.
 
-* **Fixed an issue** with the CIM module showing incorrect information.
+* **Fixed an issue** where SHAREPOINT\\system account activity was used when calculating the Last activity of a workspace, even though the account was added to the list of Ignored Service Accounts. 
 
 * **Fixed a bug** where Sensitivity Labels for Private channel sites were not being synced correctly. 
 
-* **Fixed a bug** that showed deleted shared channels on the Team details screen.
+* **Fixed a bug** where deleted shared channels were not synced correctly. After sync, they would still be visible on the Teams details screen.
 
-* **Improved the messaging** in the Settings of Policies to include more information about actions being taken. 
-
-* **Improved data collection** for Storage Management reports.
+* **Improved the messaging** in the Policies settings to include more information about actions being taken. 
 
 * **Various improvements and minor UX fixes are available**.
 
