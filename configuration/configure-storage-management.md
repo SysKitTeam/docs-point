@@ -34,6 +34,7 @@ Once finished, **click Save (6)** to save your storage management preferences.
 
 ## Related Articles
 
+* [Configure Your Environment for Storage Management](../configuration/configure-point-for-storage-management.md)
 * [Storage Management](../reporting/storage-management/storage-management.md)
 * [Configure Tenant Storage Limit Policy](../governance-and-automation/automated-workflows/tenant-storage-admin.md)
 * [Tenant Storage Security & Compliance Check](../../governance-and-automation/security-compliance-checks/tenant-storage.md)

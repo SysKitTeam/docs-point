@@ -4,53 +4,22 @@ description: This article explains how to manage and free up your storage on Sha
 
 # Storage Management
 
-## Storage Management in Microsoft 365
-
 **Storage management in Microsoft 365 is an important task, as it directly impacts your monthly expenses**. 
 When talking about storage in Microsoft 365, we usually refer to the SharePoint space an organization has at its disposal, which depends on the number of purchased licenses.
+
 [Read this article provided by Microsoft to learn more about SharePoint storage limits](https://learn.microsoft.com/en-us/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
 
 After you run out of storage for your SharePoint sites, depending on your plan, you can use the Office 365 Extra File Storage add-on to buy more storage in 1GB increments.
-The best thing you can do to avoid additional costs is to proactively clean up your storage and use tools that are available to manage your storage.
+The best thing you can do **to avoid additional costs is to proactively clean up your storage and use tools that are available to manage your storage**.
+
 In the sections below, you can find ways to utilize Microsoft 365 built-in options, as well as Syskit Point, to stay on top of your storage management tasks.
+
+  * [Storage Metrics Reports in Syskit Point](../storage-management/storage-management.md#storage-metrics-report-in-syskit-point)
+  * [Free Up Storage](../storage-management/storage-management.md#free-up-storage)
 
 [To find more information and see if your plan is eligible to buy extra storage, explore the following Microsoft article](https://learn.microsoft.com/en-us/microsoft-365/commerce/add-storage-space?view=o365-worldwide).
 
-## Site Storage Limits in Microsoft 365
-
-{% hint style="information" %}
-Steps described in this section can be performed with SharePoint Admin or Global Admin permissions only.
-{% endhint %}
-
-By default, all SharePoint sites use a pool of SharePoint storage without any limits until the pool runs out of all available storage. 
-To fine-tune how much total storage is available for each site, you can modify the default behavior by changing the settings in the SharePoint admin center.
-To do so, follow these steps: 
-* **Navigate to [SharePoint settings](https://go.microsoft.com/fwlink/?linkid=2185220)**
-* **Select the Manual option (1)**
-* **Click Save (2)**
-
-![Site storage limits settings](../../.gitbook/assets/optimize-storage-site-storage-limits.png)
-
-Afterward, you can define the storage limit for each site:
-* **Open SharePoint admin center > [Active Sites](https://go.microsoft.com/fwlink/?linkid=2185220)**
-* **Select a site** - settings open on the right side
-* **On the General tab**, **find the Storage limit option**, and **click Edit (1)** - Edit storage limit dialog opens
-* **On the Edit storage limit dialog**, you can:
-    * **Define maximum storage for the site (2)** - by default, it is set to 25TB, even though your available storage could be less than that
-    * **Enable email notifications (3)** for site owners that are sent when a defined percentage of storage limit is used
-    * **Save (4)** your changes
-
-![Site settings](../../.gitbook/assets/optimize-storage-site-settings.png)
-
-![Edit site storage limit](../../.gitbook/assets/optimize-storage-edit-site-storage-limit.png)
-
-{% hint style="success" %}
-Defined site storage limit and percentage of used storage defined for email notifications are synced and visible in Syskit Point.
-{% endhint %}
-
-[Read this article to find all details on storage settings available in the SharePoint admin center](https://learn.microsoft.com/en-us/sharepoint/manage-site-collection-storage-limits). 
-
-## Storage Metrics Report in Syskit Point
+## Storage Metrics Reports in Syskit Point
 
 The new [Storage Metrics report](../../reporting/storage-management/storage-reports.md#storage-metrics) is available in the latest Syskit Point version and helps you:
 * **Discover the percentage of used storage in your tenant (1)**
@@ -128,10 +97,15 @@ From there:
 You can also remove storage directly from SharePoint by clicking the **link in the Storage Metrics URL column**. 
   * The SharePoint site-specific Storage Metrics report opens in your browser.
 
+{% hint style="information" %}
+[Learn about the site storage limits in Microsoft 365 in this article.](../../reporting/storage-management/site-storage-limits.md)
+{% endhint %}
+
 ## Related Articles
 
 * [Configure Storage Management](../../configuration/configure-storage-management.md)
 * [Configure Tenant Storage Limit Policy](../../governance-and-automation/automated-workflows/tenant-storage-admin.md)
+* [Site Storage Limits in Microsoft 365](../../reporting/storage-management/site-storage-limits.md)
 * [Tenant Storage Security & Compliance Check](../../governance-and-automation/security-compliance-checks/tenant-storage.md)
 * [Resolve Tenant Storage Limit Task](../../point-collaborators/resolve-governance-tasks/tenant-storage-limit.md)
 * [Storage Metrics Report](../../reporting/storage-management/storage-reports.md#storage-metrics)
