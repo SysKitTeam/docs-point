@@ -8,15 +8,15 @@ description: This article provides all information about scheduled reports in Sy
 **Scheduled Reports** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 {% endhint %}
 
-When you manage permissions and workspaces in your Microsoft 365 tenant, creating reports, sharing them, or saving them for future reference, might take up a lot of your time – that’s where the Scheduled Reports in Syskit Point can help!
+When you manage permissions and workspaces in your Microsoft 365 tenant, creating reports, sharing them, or saving them for future reference might take up a lot of your time – that’s where the Scheduled Reports in Syskit Point can help!
 
 With the help of this feature, you can do the following:
 
 * **create Scheduled Reports from views and reports generated in Syskit Point**, meaning that all filters you define when generating a report or view are applied when sending the scheduled report
-* **setup automatic sending of PDF or XLSX reports to one or more email recipients** in your tenant
-* **setup automatic saving of PDF or XLSX reports to a document library** in a SharePoint site
-* **define how often and when to send Scheduled Reports**
-* **create a Subscription - group of Scheduled Reports** that share the same schedule frequency and delivery options
+* **Set up automatic sending of PDF or XLSX reports to one or more email recipients** in your tenant
+* **Setup automatic saving of PDF or XLSX reports to a document library** in a SharePoint site
+* **Define how often and when to send Scheduled Reports**
+* **Create a Subscription - group of Scheduled Reports** that share the same schedule frequency and delivery options
 
 Users with the following roles assigned in Syskit Point can create Scheduled reports:
 
@@ -28,26 +28,26 @@ To learn more about roles in Syskit Point, see the [following article](../config
 
 ## Schedule a Report
 
-In Syskit Point it is possible to schedule:
+In Syskit Point, it is possible to schedule:
 
 * **All reports**, except the Site Analytics report
 * **All views** available on the overview screens – Sites, Microsoft Teams & Groups, and the Users overview screen 
 
-For example, in the picture below, a generated Permissions Matrix report is shown. Here you can find the following options in the side panel:
+For example, in the picture below, a generated Permissions Matrix report is shown. Here, you can find the following options in the side panel:
 
 * **Schedule Report \(1\)**
-* **Schedule Report options icon \(2\)**, which, when clicked opens a drop-down menu with the following **options \(3\)**:
+* **Schedule Report options icon \(2\)**, which, when clicked, opens a drop-down menu with the following **options \(3\)**:
   * **Create Subscription**
   * **Add to Existing Subscriptions**
 
-![Scheduling a generated report](../.gitbook/assets/schedule-reports_schedule-report.png)
+![Scheduling a generated report](../.gitbook/assets/scheduled-reports-schedule-report.png)
 
 {% hint style="warning" %}
 **Please note!**  
 One subscription can contain multiple reports, but they all share the same schedule and delivery options.
 {% endhint %}
 
-The Schedule Report button opens the Schedule Report dialog displayed in the picture below. Here you can see and do the following:
+The Schedule Report button opens the Schedule Report dialog displayed in the picture below. Here, you can see and do the following:
 
 * **Create New Subscription \(1\)** option is selected by default 
 * **Define the Subscription Name \(2\)** – Subscription name is visible as the email subject in case the reports are delivered via email
@@ -57,7 +57,7 @@ The Schedule Report button opens the Schedule Report dialog displayed in the pic
   * **Upload report to SharePoint Document Library** – here, you can paste the document library URL directly from your browser
 * **Click the Report Settings tab \(5\) to define per-report**
 
-![Schedule Report dialog - Create New Subscription](../.gitbook/assets/schedule-reports_create-subscription-dialog.png)
+![Schedule Report dialog - New Subscription](../.gitbook/assets/scheduled-reports-new-subscription-dialog.png)
 
 {% hint style="warning" %}
 **Please note!**  
@@ -70,9 +70,9 @@ In the Report Settings tab, you can:
 * **Choose between two file formats \(2\)**:
   * **XLSX**
   * **PDF**
-* **Click the Schedule Report button \(3\)** to create your first subscription with a Scheduled Report, once you adjust all the settings 
+* **Click the Schedule Report button \(3\)** to create your first subscription with a Scheduled Report 
 
-![Schedule Report dialog - Report Settings](../.gitbook/assets/schedule-reports_create-subscription-dialog-report-settings.png)
+![Schedule Report dialog - Report Settings](../.gitbook/assets/scheduled-reports-report-settings.png)
 
 {% hint style="warning" %}
 **Please note!**  
@@ -81,19 +81,13 @@ Report options are defined per each report in the subscription separately.
 
 A confirmation dialog appears. Close it or use the **View Subscriptions button** to open the **Scheduled Reports** screen.
 
-![Schedule Report - Confirmation dialog](../.gitbook/assets/schedule-reports_confirmation-dialog.png)
-
 ## Manage Scheduled Reports
 
 You can manage all Scheduled Reports on the dedicated **Scheduled Reports** screen. You can access it in one of the following ways:
 
 * **Click the View Subscriptions button** after you create a subscription
-* **Navigate to the Report Center and click the Scheduled Reports button \(1\)**
-* **Click the Scheduled Report option in the user profile menu \(2\)**
-
-![Report Center - Scheduled Reports](../.gitbook/assets/schedule-reports_report-center.png)
-
-![User Profile Menu - Scheduled Reports](../.gitbook/assets/schedule-reports_user-profile-menu.png)
+* **Navigate to the Report Center and click the Scheduled Reports button**
+* **Click the Scheduled Report option in the user profile menu**
 
 The Scheduled Reports screen enables you to:
 
@@ -105,26 +99,26 @@ The Scheduled Reports screen enables you to:
   * **Edit Subscription settings**
   * **Pause or Start a paused Subscription**
   * **Delete the Subscription and all associated reports**
-* **View additional information \(5\)**, such as the link to the defined document library, or a list of emails for all defined email recipients
+* **View additional information \(5\)**, such as the link to the defined document library or a list of emails for all defined email recipients
 
-![Scheduled Reports screen - Managing a subscription](../.gitbook/assets/schedule-reports_manage-subscription.png)
+![Scheduled Reports screen - Managing a subscription](../.gitbook/assets/scheduled-reports-manage-subscription.png)
 
 If you select a single report inside a subscription, two options are available:
 
 * **Preview \(1\)**, which opens the report which will be sent or uploaded
 * **Delete \(2\)**, which removes the selected report from the parent subscription
 
-![Scheduled Reports screen - Managing a report](../.gitbook/assets/schedule-reports_manage-report.png)
+![Scheduled Reports screen - Managing a report](../.gitbook/assets/scheduled-reports-manage-report.png)
 
 ## Scheduled Reports Delivery
 
 By default, Scheduled Reports are sent once a day. As mentioned, **reports can be delivered via email** or **uploaded to a document library**. The results for both cases are displayed in the pictures below.
 
-![Scheduled Reports - Email](../.gitbook/assets/schedule-reports_email.png)
+![Scheduled Reports - Email](../.gitbook/assets/scheduled-reports-email.png)
 
-![Scheduled Reports - Document Library](../.gitbook/assets/schedule-reports_document-library.png)
+![Scheduled Reports - Document Library](../.gitbook/assets/scheduled-reports-document-library.png)
 
 To **change the time when the Scheduled Reports are delivered**, use the **Scheduled Reports section in the E-mail Settings \(1\)**.
 
-![Scheduled Reports Setting](../.gitbook/assets/schedule-reports_email-settings.png)
+![Scheduled Reports Setting](../.gitbook/assets/scheduled-reports-delivery-time-settings.png)
 
