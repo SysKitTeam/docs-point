@@ -37,11 +37,11 @@ To manually request an Access Review, do the following:
 * **Select the desired workspace \(1\)**; you can also select multiple workspaces at once
 * **Click the Request Review Action \(2\)** available in the side panel
 
-![Request Review action](../../.gitbook/assets/manually-request-permissions-review_request-review.png)
+![Request Review action](../../.gitbook/assets/manually-request-permissions-review-request-review.png)
 
 Request Access Review dialog will appear.
 
-![Request Access Review dialog](../../.gitbook/assets/manually-request-permissions-review_request-review-dialog.png)
+![Request Access Review dialog](../../.gitbook/assets/manually-request-permissions-review-request-review-dialog.png)
 
 After confirming the request, you will be redirected to the Access Review overview screen, where you can:
 
@@ -49,7 +49,7 @@ After confirming the request, you will be redirected to the Access Review overvi
 * **Review the workspace \(2\)** - only available for owners and administrators when a single workspace is selected
 * **View the Access Review Details \(3\)** 
 
-![Access Review overview screen](../../.gitbook/assets/manually-request-permissions-review_review-overview.png)
+![Access Review overview screen](../../.gitbook/assets/manually-request-permissions-review-review-overview.png)
 
 To see all Manually Requested Reviews, follow these steps:
 
@@ -57,7 +57,7 @@ To see all Manually Requested Reviews, follow these steps:
 * **Click the Manually Requested Reviews category \(1\)**
 * **Click the See Details button \(2\)** to open the Access Review report 
 
-![Governance - Manually Requested Reviews](../../.gitbook/assets/manually-request-permissions-review_governance.png)
+![Governance - Manually Requested Reviews](../../.gitbook/assets/manually-request-permissions-review-governance.png)
 
 The Access Review report for manually requested reviews offers the same capabilities as for the automated Access Review. You can find more information on how to [monitor the progress of the created Access Reviews here](monitor-permissions-review.md).
 
@@ -65,20 +65,20 @@ The Access Review report for manually requested reviews offers the same capabili
 
 After the manual Access Review request was sent, **the workspace owners receive an Access Review request e-mail** in their mailbox.
 
-![Access Review email](../../.gitbook/assets/manually-request-permissions-review_email.png)
+![Access Review email](../../.gitbook/assets/manually-request-permissions-review-email.png)
 
 The link in the email leads you directly to the Access Review task in Syskit Point. Here, you can:
 
 * **select a workspace \(1\)**
 * **perform the Access Review \(2\)**
 
-![Access Review task screen](../../.gitbook/assets/manually-request-permissions-review_task.png)
+![Access Review task screen](../../.gitbook/assets/manually-request-permissions-review-task.png)
 
 The **Access Review wizard** opens, where you can **perform actions**, **check permission changes**, and, in the end, **complete the Access Review** for a workspace. Actions and reports available here are the **same as in the Automated Access Review** tasks. You can find them all described in greater detail [here](../../point-collaborators/resolve-governance-tasks/access-review.md#access-review-wizard).
 
-![Access Review wizard](../../.gitbook/assets/manually-request-permissions-review_wizard.png)
+![Access Review wizard](../../.gitbook/assets/manually-request-permissions-review-wizard.png)
 
 If a workspace has an Access Review active, you can access the Access Review details screen from the overview screen by clicking the **Review Now \(1\)** action link, visible when the workspace is selected.
 
-![Review Now action](../../.gitbook/assets/manually-request-permissions-review_review-now.png)
+![Review Now action](../../.gitbook/assets/manually-request-permissions-review-review-now.png)
 
