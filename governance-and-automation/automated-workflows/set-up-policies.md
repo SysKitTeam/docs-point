@@ -104,7 +104,7 @@ Here, you can:
 * **View additional information about each policy**; the following information is available **policy type (4)**, **severity of policy(5)**, **category policy fits under (6)**, **to how many workspaces a policy is applied (7)**, and **whether the policy is automated or not (8)**
 * **Manage policies (9)**; **Edit** and **Delete** actions are provided for each policy, **except for those applied tenant-wide and the default policies used by the default rule**
 
-![Policy Settings](../../.gitbook/assets/set-up-policies_settings.png)
+![Policy Settings](../../.gitbook/assets/set-up-policies-settings.png)
 
 
 ## Modifying Policy Settings

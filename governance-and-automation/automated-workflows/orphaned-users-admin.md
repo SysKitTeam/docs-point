@@ -10,7 +10,7 @@ This policy helps you detect and remove users who can potentially lead to risks 
 
 To edit the policy, navigate to the Policies settings screen and **click the Edit Policy (1)** icon.
 
-![Blocked Users with Assigned Licenses - Edit Policy](../../.gitbook/assets/orphaned-users-admin_edit-policy.png)
+![Blocked Users with Assigned Licenses - Edit Policy](../../.gitbook/assets/orphaned-users-admin-edit-policy.png)
 
 The **Edit Policy** dialog opens where you can select the **Severity level (1)**.
   * The severity level set by default for this policy is **Medium**
@@ -24,4 +24,4 @@ You can select between three levels of severity:
 Once you've selected the one that best suits your needs for this policy, **click the Save button (2)** to store your preference. 
 
 
-![Blocked Users with Assigned Licenses - Severity](../../.gitbook/assets/orphaned-users-admin_severity.png)
+![Blocked Users with Assigned Licenses - Severity](../../.gitbook/assets/orphaned-users-admin-severity.png)

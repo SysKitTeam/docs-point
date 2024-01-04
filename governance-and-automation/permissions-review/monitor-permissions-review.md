@@ -121,7 +121,7 @@ This screen contains information on:
 * **The last date** that the Access Review should be completed by
 * **The number of Access Reviews** completed compared t0 how many are left to complete
 
-You can also see an **overview of the workspaces and how many review per workspaces were completed** out of how many are still left to complete. 
+You can also see an **overview of the workspaces and how many reviews per workspace were completed** out of how many are still left to complete. 
 
 **Click the See Review Details button (2)** to be redirected to the Access Review report.
 
@@ -153,7 +153,7 @@ For more information on the **Manually Requested Reviews category**, [read the f
 
 The Access Review - Summary report offers a complete overview of actions performed during an Access Review. To generate the report:
 
-* **Open the Access Review screen**; you can open this screen for an active Access Review, or a completed one
+* **Open the Access Review screen**; you can open this screen for an active Access Review or a completed one
 * **Select one or more workspaces (1)** for which you want to see what was done during the Access Review
 * **Click the View Details link (2)**
 

@@ -24,7 +24,7 @@ To start with the configuration, open the **Settings** &gt; **Governance** &gt; 
 
 The screen shows **additional actions** required before enabling the Lifecycle Management automation feature. For example, if you have not enabled the **Syskit Point Collaborators** role.
 
-![Lifecycle Management - Additional Action Required](../../.gitbook/assets/enable-lifecycle-management_collaborators-disabled.png)
+![Lifecycle Management - Additional Action Required](../../.gitbook/assets/enable-lifecycle-management-collaborators-disabled.png)
 
 {% hint style="info" %}
 Use the following links and learn how to [set up e-mail](../../configuration/set-up-email.md) and enable [Syskit Point Collaborators](../../configuration/enable-role-based-access.md#syskit-point-collaborators-1).
@@ -34,7 +34,7 @@ Once all requirements are met, you can enable Lifecycle Management automation by
 * **Click the checkbox to Enable Lifecycle Management Automation (1)** under the Automation option
 * **Click Save (2)** at the bottom of the screen
 
-![Lifecycle Management - Enable Automation](../../.gitbook/assets/enable-lifecycle-management_enable-automation.png)
+![Lifecycle Management - Enable Automation](../../.gitbook/assets/enable-lifecycle-management-enable-automation.png)
 
 ## Automation Options
 
@@ -47,7 +47,7 @@ In the **Automation Options** section, you can:
 * **Choose whether to send automatic reminders to owners (5)** in case they don't complete the assigned tasks
 * **Click Save (6)** when finished with the configuration
 
-![Lifecycle Management - Automation Options](../../.gitbook/assets/enable-lifecycle-management_automation-options.png)
+![Lifecycle Management - Automation Options](../../.gitbook/assets/enable-lifecycle-management-automation-options.png)
 
 {% hint style="warning" %}
 **Please note!**
@@ -64,12 +64,12 @@ The **Archive** action has additional options available:
 * **Check the Example (6)** to preview workspace name after archiving it
 * **Click the Save button (7)** to store your preferences
 
-![Lifecycle Management - Archive Options](../../.gitbook/assets/enable-lifecycle-management_archive-options.png)
+![Lifecycle Management - Archive Options](../../.gitbook/assets/enable-lifecycle-management-archive-options.png)
 
 ## E-Mail Customization
 
 In the **Customize E-mail section**, you can adjust the look and feel of the e-mail sent out by Syskit Point when an inactive workspace is detected.
-[Navigate to the Customize E-mails article, to find all available options regarding e-mail customization](../../configuration/customize-emails.md).
+[Navigate to the Customize E-mails article to find all available options regarding e-mail customization](../../configuration/customize-emails.md).
 
 ## Lifecycle Management Targeting
 
@@ -83,7 +83,7 @@ Additionally, you can:
     * **Sites**
 * **Preview selected sites based on your configuration by clicking the Preview tile \(3\)**; first, you need to save your changes to enable the Preview tile
 
-![Lifecycle Management - Monitored Workspace Types](../../.gitbook/assets/enable-lifecycle-management_monitor-all.png)
+![Lifecycle Management - Monitored Workspace Types](../../.gitbook/assets/enable-lifecycle-management-monitor-all.png)
 
 {% hint style="warning" %}
 **Please note!** 
@@ -97,7 +97,7 @@ When you click the **Preview tile**, the **Lifecycle Management - Preview** repo
 * **View all site owners that will receive a Lifecycle Management e-mail** for each Microsoft Team, Microsoft 365 Group, or a site included in the Lifecycle Management automation
 * **Change admins** by **selecting a row \(4\)** and clicking the **Change Admins action \(5\)** available in the side panel
 
-![Lifecycle Management - Preview Report](../../.gitbook/assets/enable-lifecycle-management_preview-report.png)
+![Lifecycle Management - Preview Report](../../.gitbook/assets/enable-lifecycle-management-preview-report.png)
 
 Instead of choosing workspace types that are monitored, you can select the **specific workspaces \(1\)** option. This option enables you to manually select specific Microsoft Teams, Microsoft 365 Groups, and sites monitored in the Lifecycle Management automation. 
 You can also:
@@ -105,7 +105,7 @@ You can also:
 * **Edit selected workspaces (3)**
 * **Preview selected workspaces (4)**
 
-![Lifecycle Management - Specific Workspaces](../../.gitbook/assets/enable-lifecycle-management_monitor-specific.png)
+![Lifecycle Management - Specific Workspaces](../../.gitbook/assets/enable-lifecycle-management-monitor-specific.png)
 
 When done with the selection, save your changes.
 

@@ -8,8 +8,8 @@ description: >-
 
 To use the advantages of Automated Access Review in Syskit Point, first, you need to:
 
-* **set up e-mail settings**
-* **enable Syskit Point Collaborators role**
+* **Set up e-mail settings**
+* **Enable Syskit Point Collaborators role**
 
 {% hint style="warning" %}
 **Please note!**\
@@ -18,7 +18,7 @@ Only users assigned to the **Syskit Point Admin** role can access and configure 
 
 To start with the configuration, open the **Settings** > **Governance** > **Access Review** screen. Initially, you may find the Access Review settings screen displaying the following warnings:
 
-![Settings - Access Review screen](../../.gitbook/assets/enable-permissions-review_settings.png)
+![Settings - Access Review screen](../../.gitbook/assets/enable-permissions-review-settings.png)
 
 Clicking the tiles in the **Additional Actions Required** section redirects to the appropriate settings screen.
 
@@ -43,11 +43,11 @@ Exchange Online has a sending limit of 10000 e-mails per day.
 
 The Exchange Online method enables you to use an existing Exchange account in your Microsoft 365 tenant to send e-mails from Syskit Point. Here, you can:
 
-* **enter a valid e-mail address in the Sent from field (1)**
-* **choose whether to save e-mails sent by Syskit Point to the Sent items folder (2)**; by default, this option is turned on, meaning that all e-mails sent from Syskit Point will be stored in the **Sent** mailbox folder of the entered Exchange account
+* **Enter a valid e-mail address in the Sent from field (1)**
+* **Choose whether to save e-mails sent by Syskit Point to the Sent Items folder (2)**; by default, this option is turned on, meaning that all e-mails sent from Syskit Point will be stored in the **Sent** mailbox folder of the entered Exchange account
 * **Send a test e-mail (3)** to check if the entered e-mail address is working properly
 
-![Exchange Online e-mail Settings screen](../../.gitbook/assets/enable-permissions-review_exchange-online-settings.png)
+![Exchange Online e-mail Settings screen](../../.gitbook/assets/enable-permissions-review-exchange-online-settings.png)
 
 After clicking the **Send test e-mail** button, the **Sent test e-mail** dialog opens. Here, **enter the e-mail address to which you want to send** the test e-mail. 
 
@@ -64,7 +64,7 @@ Select the **SMTP method** if you are using an **SMTP** server in your environme
 
     You can also choose whether to **Use Encrypted Connection (SSL)**.
 
-![SMTP e-mail Settings screen](../../.gitbook/assets/enable-permissions-review_smtp-settings.png)
+![SMTP e-mail Settings screen](../../.gitbook/assets/enable-permissions-review-smtp-settings.png)
 
 You can check if the entered data is correct by **sending a test e-mail**.
 
@@ -78,10 +78,10 @@ Click the **Save** button once you confirm you received the test e-mail.
 
 To enable Teams and Groups owners and site administrators to perform the Access Review on their sites, you need to enable them to access Syskit Point. To do so, navigate to the **Settings** > **Security** > **Manage Access** screen. Here you should:
 
-* **click the toggle to enable the Syskit Point Collaborators role (1)** - this will allow Teams owners, Group owners, and site administrators to access Syskit Point and to manage their workspaces
-* **check the Add users with Full Control option (2)** if you want to enable users with full control privileges to access Syskit Point; **this is needed in case you want to enable users in the Site Owners SharePoint group to perform access reviews**
+* **Click the toggle to enable the Syskit Point Collaborators role (1)** - this will allow Teams owners, Group owners, and site administrators to access Syskit Point and manage their workspaces
+* **Check the Add users with Full Control option (2)** if you want to enable users with full control privileges to access Syskit Point; **this is needed in case you want to enable users in the Site Owners SharePoint group to perform access reviews**
 
-![Manage Access Settings screen](../../.gitbook/assets/enable-permissions-review_manage-access-settings.png)
+![Manage Access Settings screen](../../.gitbook/assets/enable-permissions-review-manage-access-settings.png)
 
 For more information about role-based access in Syskit Point, go to the [following article](../../configuration/enable-role-based-access.md).
 

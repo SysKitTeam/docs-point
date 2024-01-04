@@ -4,7 +4,7 @@ description: This article provides a full overview of the manual access review p
 
 # Manually Request Access Review in Syskit Point
 
-**Access review**, in the context of the Microsoft 365 environment, is an activity where a person responsible for an Microsoft 365 workspace - be it Communication site, Microsoft Team, Microsoft 365 Group, or OneDrive - checks whether permissions, given to users inside \(internal\) and outside \(external\) of company, comply with the organizational rules and guidelines.
+**Access review**, in the context of the Microsoft 365 environment, is an activity where a person responsible for a Microsoft 365 workspace - be it a Communication site, Microsoft Team, Microsoft 365 Group, or OneDrive - checks whether permissions given to users inside \(internal\) and outside \(external\) of company, comply with the organizational rules and guidelines.
 
 While the **Automated Access Review** was introduced in Syskit Point 14, Syskit Point 15 brings the **Manually Requested Access Review** to the table.
 
@@ -63,7 +63,7 @@ The Access Review report for manually requested reviews offers the same capabili
 
 ## Workspace Owners
 
-After the manual Access Review request was sent, **the workspace owners receive an Access Review request e-mail** in their mailbox.
+After the manual Access Review request is sent, **the workspace owners will receive an Access Review request e-mail** in their mailbox.
 
 ![Access Review email](../../.gitbook/assets/manually-request-permissions-review-email.png)
 

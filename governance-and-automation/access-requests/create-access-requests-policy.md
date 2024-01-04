@@ -15,13 +15,13 @@ To create the Access Requests policy, complete the following steps:
    * A pop-up screen will appear, prompting you to select which policy to create.
 * **Select Access Requests(2)** from the available list of policies.
 
-![Create New Policy](../../.gitbook/assets/create-access-request_new-policy.png)
+![Create New Policy](../../.gitbook/assets/create-access-request-new-policy.png)
 
-![Create Access Requests Policy](../../.gitbook/assets/create-access-request_new-policy-ar.png)
+![Create Access Requests Policy](../../.gitbook/assets/create-access-request-new-policy-ar.png)
 
 Depending on the approval processes required for your workspaces, the following information needs to be specified:
 
-* **Create the new policies name (1)**; depending on the type of Access Requests policy that will be created
+* **Create the new policy name (1)**; depending on the type of Access Requests policy that will be created
 
 * Select the **preferred approval process (2)** from the available list:
      * Manager approval
@@ -30,7 +30,7 @@ Depending on the approval processes required for your workspaces, the following 
      * Automatically Approve
      * Owner approval
 
-![Access Requests Policy - Set Up](../../.gitbook/assets/create-access-request_create-policy-1.png)
+![Access Requests Policy - Set Up](../../.gitbook/assets/create-access-request-create-policy-1.png)
 
 * Alternatively, you can also create a new approval process if the above does not suit your workspaces' needs:
   * **Click Create New (1)**; located under the approval process dropdown menu
@@ -47,9 +47,9 @@ Depending on the approval processes required for your workspaces, the following 
       * **Custom Recipients**; for this option, you will need to enter the desired recipients' details in the section below
       * **Click Confirm (5)** once finished
 
-![Access Requests Policy - Set Up](../../.gitbook/assets/create-access-request_create-new-approval.png)
+![Access Requests Policy - Set Up](../../.gitbook/assets/create-access-request-create-new-approval.png)
 
-![Access Requests Policy - New Approval Process](../../.gitbook/assets/create-access-request_create-new-approval-final.png)
+![Access Requests Policy - New Approval Process](../../.gitbook/assets/create-access-request-create-new-approval-final.png)
 
 * After setting the desired approval process, you need to **specify the level of access** (1); users can request to join as **Members, Owners**, or both. 
   * This can be set for the following workspaces: 
@@ -61,7 +61,7 @@ Depending on the approval processes required for your workspaces, the following 
 
 Once you complete the above steps, **click Save (2)**; this opens a pop-up stating that your **policy has been successfully created**. 
 
-![Access Requests Policy - Level of Access](../../.gitbook/assets/create-access-request_policy-created.png)
+![Access Requests Policy - Level of Access](../../.gitbook/assets/create-access-request-policy-created.png)
 
 The new policy can now be found in the **list of all policies created in your environment**. 
   * The pop-up also allows clicking on Apply Policy and being taken to the Manage Policies screen directly. 
