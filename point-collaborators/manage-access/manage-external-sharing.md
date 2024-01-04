@@ -34,14 +34,13 @@ In this article, you will learn how to:
 
 You can manage external users by taking the following steps:
 
-  * On the Syskit Point home page, **click the Dashboard button**
-  * Navigate to the section titled **External Collaboration (1)**
+  * On the Syskit Point home page, navigate to the section titled **External Collaboration (1)**
 
 Under the External Collaboration section, you will have two options to manage external users:
   * **External Users (2)**
   * **Sites With External Sharing (3)**
 
-![Manage External Sharing - Users](../../.gitbook/assets/manage-external-sharing_users.png)
+![Manage External Sharing - Users](../../.gitbook/assets/manage-external-sharing-users.png)
 
 To manage external users:
  * Click the **External Users button**, and you will be redirected to the Users site with the **filter showing External Users**
@@ -119,7 +118,7 @@ Under the External Collaboration section, you will have two options to manage ex
   * **Links Shared with Anyone (2)**
   * **Sites Shared with Anyone (3)**
 
-![Manage External Sharing - Links](../../.gitbook/assets/manage-external-sharing_links.png)
+![Manage External Sharing - Links](../../.gitbook/assets/manage-external-sharing-links.png)
 
 To manage links shared with anyone, complete the following:
  * Click the **Links Shared with Anyone** button, and you will be redirected to the **Sharing Links report (1)**

@@ -20,7 +20,7 @@ Alternatively, let's say there's a new team member joining your ranks, and you'r
 
 To manage your users: 
 
-* On your Syskit Point home screen, click the **Users** button
+* In your Syskit Point, click the **Users** button located on the left side of the screen
   * This opens the Users page with a list of all users to who you have access as a manager or workspace owner 
 
 Here you will be able to **Schedule Report or export it** as a PDF or Excel file.
@@ -45,7 +45,6 @@ On the right side of the screen, you will also see the ability to generate relev
 The available reports are:
   * User Access
   * User Activity 
-
 
 ## Configure Alerts
 
@@ -81,8 +80,9 @@ To remove access to this user:
   * **Type Remove (4)** in the provided space to confirm
   * **Click the Remove Access button (5)** to finalize the changes
 
-![Remove Acces for User](../../.gitbook/assets/manage-users_remove-access.png)
-![Confirm Removal](../../.gitbook/assets/manage-users_remove-access-removal.png)
+![Remove Acces for User](../../.gitbook/assets/manage-users-remove-access.png)
+
+![Confirm Removal](../../.gitbook/assets/manage-users-remove-access-removal.png)
 
 Under the **Microsoft Teams & Group Memberships (1)** section, you are able to promote the users to owner status or remove them from the group.
 

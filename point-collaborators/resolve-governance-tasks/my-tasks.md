@@ -4,15 +4,13 @@ description: >-
 ---
 
 
-## My Tasks
+# My Tasks
 
-The **My Tasks** tile is located on the Home screen, and a notification bubble displays the number of tasks that need to be reviewed.
+The **My Tasks** tile is located on the left side of Syskit Point, and a notification bubble displays the number of tasks that need to be reviewed.
 
-In this example, it is set to one because a single Access Review task was created by Syskit Point and assigned to you. The **user profile** button shows the same notification bubble.
+To view tasks assigned to you, click the **Tasks button (1)** in your Syskit Point.
 
-To view tasks assigned to you, click the **My Tasks tile** on the Home screen or the **My Tasks section** in the user profile menu.
-
-![My Tasks tile](../../.gitbook/assets/permissions-review\_my-tasks-tile.png)
+![My Tasks tile](../../.gitbook/assets/permissions-review-my-tasks-tile.png)
 
 **My Tasks** screen displays the active Access Review task with the most important information:
 
@@ -23,10 +21,20 @@ To view tasks assigned to you, click the **My Tasks tile** on the Home screen or
 * **Task categories (5)**
 * **Completed tasks categories (6)**
 
-![My Tasks screen](../../.gitbook/assets/access-review\_my-tasks.png)
+![My Tasks screen](../../.gitbook/assets/access-review-my-tasks.png)
 
 Click **Review** to continue. The **Access Review Task** screen opens - the same screen that can be accessed from email, as explained in the previous section.
 
 The same can be done for any type of task assigned to you, for example, [lifecycle management](../resolve-governance-tasks/lifecycle-management.md).  
 
 On the screen that opens, click the **link in the Task column** to continue and review a site.
+
+## Related Articles
+
+* [Complete Access Review Tasks](access-review.md)
+* [Perform Lifecycle Management Tasks](lifecycle-management.md)
+* [Resolve Inactive Guest Users Tasks](guest-users-expiration.md)
+* [Resolve Minimum Number of Owners Tasks](minimum-number-of-owners.md)
+* [Resolve Maximum Number of Owners Tasks](maximum-number-of-owners.md)
+* [Resolve Orphaned Workspaces Tasks](orphaned-resources.md)
+* [Resolve Tenant Storage Limit Task](tenant-storage-limit.md)
