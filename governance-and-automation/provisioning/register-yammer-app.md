@@ -4,7 +4,7 @@ description: This article guides you through the Yammer App registration require
 
 # Register Yammer App
 
-To be able **to create Yammer community templates**, you need to **register a new Yammer app in Yammer portal and Syskit Point**. 
+To be able **to create Yammer community templates**, you need to **register a new Yammer app in the Yammer portal and Syskit Point**. 
 
 Start by **navigating to Settings** > **Provisioning**, and click the **New Template** button.
 The following screen opens:
@@ -13,23 +13,23 @@ The following screen opens:
 
 **Click the Yammer Community tile (1)** to continue.
 
-Yammer app registration screen opens, guiding you further through the app registration.
+The Yammer app registration screen opens, guiding you further through the app registration.
 
 ## Register the Yammer App in Syskit Point
 
-Yammer app registration screen in Syskit Point enables you to:
+The Yammer app registration screen in Syskit Point enables you to:
 * **Open the Yammer app registration portal (1)**, where you will be able to **register a new Yammer app**
-* **Copy the Website (2) and Redirect URI (3) data required in Yammer portal when registering a new Yammer app**
-* **Input the Client ID (4) and Secret (5) data which you can access in the Yammer portal after the new Yammer app registration is created**
+* **Copy the Website (2) and Redirect URI (3) data required in the Yammer portal when registering a new Yammer app**
+* **Input the Client ID (4) and Secret (5) data, which you can access in the Yammer portal after the new Yammer app registration is created**
 * **Register the Yammer app (6)** in Syskit Point after entering the required data 
 
 ![Register Yammer App Screen](../../.gitbook/assets/register-yammer-app-register-screen.png)
 
 Next, **open the Yammer portal** by clicking the **Open the Yammer app registration portal button (1)**
 
-## Register a New App in Yammer Portal
+## Register a New App in the Yammer Portal
 
-A **new browser tab opens, showing the Registered applications screen in Yammer portal**. 
+A **new browser tab opens, showing the Registered applications screen in the Yammer portal**. 
 * **Click the link (1) to continue**
 
 ![Yammer Portal - Register a New App](../../.gitbook/assets/register-yammer-app-yammer-register-new-app.png)

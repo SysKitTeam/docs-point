@@ -1,5 +1,5 @@
 ---
-description: This article explains how to enable and disable provisioning in Point Teams app.
+description: This article explains how to enable and disable provisioning in the Syskit Point Teams app.
 ---
 
 
@@ -33,5 +33,5 @@ Once disabled, you can still enable provisioning at any point by clicking the **
 ![Enable Provisioning](../../.gitbook/assets/provisioning-enable.png)
 
   * Clicking Enable provisioning will open a pop-up that will ask you to confirm your decision by **clicking Enable**.
-  * Clicking Enable **will provide your end-users to request new workspaces**.
+  * Clicking Enable **will allow your end-users to request new workspaces**.
   * Once Provisioning is enabled, the **Request Workspace button will be visible** in the Syskit Point Teams app. 

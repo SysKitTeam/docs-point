@@ -9,27 +9,27 @@ In order to use sensitivity labels when creating provisioning templates, the fol
   * [Click here to learn how to create and configure sensitivity labels and their policies.](https://docs.microsoft.com/en-us/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide)
 * **Sensitivity labels are enabled for containers - Microsoft Teams sites, Microsoft 365 groups, and SharePoint sites**
   * [Use this article to help you enable sensitivity labels for containers](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels-teams-groups-sites?view=o365-worldwide#enable-this-preview-and-synchronize-labels)
-* **a service account is connected to Syskit Point**
+* **A service account is connected to Syskit Point**
 
 The connected service account enables Syskit Point to:
-* **collect existing sensitivity labels**
-* **apply sensitivity labels when creating new workspaces with provisioning workflows**
+* **Collect existing sensitivity labels**
+* **Apply sensitivity labels when creating new workspaces with provisioning workflows**
 
 {% hint style="warning" %}
 **Please note!**  
-The sensitivity label changes can take up to 24 hours to replicate to all apps and services.
+The sensitivity label changes can take up to 24 hours to replicate in all apps and services.
 {% endhint %}
 
 ## Service Account Requirements
 When preparing a service account for Syskit Point, consider the following requirements:
 
-* **multifactor authentication can be enabled for the service account**, but it isn't mandatory
-* **service account password is set never to expire** to avoid repetitious password re-entries in Syskit Point; [learn how to set user's password never to expire here](https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/set-password-to-never-expire?view=o365-worldwide#set-a-password-to-never-expire) 
-* **sensitivity labels should be published to the service account**; [find more information on how to publish sensitivity labels here](https://docs.microsoft.com/en-us/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide#publish-sensitivity-labels-by-creating-a-label-policy)
-* **service account should not have the Global Administrator role assigned**
-* **the Global Administrator has to give consent on behalf of the organization** for a certain user to be assigned to the service account
-* **service account must have a Syskit Point admin role** to provide custom templates for creating new workspaces
-* **no licenses are required for the service account**
+* **Multifactor authentication can be enabled for the service account**, but it isn't mandatory
+* **Service account password is set never to expire** to avoid repetitious password re-entries in Syskit Point; [learn how to set user's password never to expire here](https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/set-password-to-never-expire?view=o365-worldwide#set-a-password-to-never-expire) 
+* **Sensitivity labels should be published to the service account**; [find more information on how to publish sensitivity labels here](https://docs.microsoft.com/en-us/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide#publish-sensitivity-labels-by-creating-a-label-policy)
+* **Service account should not have the Global Administrator role assigned**
+* **The Global Administrator has to give consent on behalf of the organization** for a certain user to be assigned to the service account
+* **Service account must have a Syskit Point admin role** to provide custom templates for creating new workspaces
+* **No licenses are required for the service account**
 
 
 {% hint style="warning" %}

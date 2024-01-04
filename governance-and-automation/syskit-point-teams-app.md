@@ -1,9 +1,9 @@
 ---
-description: This article provides all information about Syskit Point MS Teams App.
+description: This article provides all the information about the Syskit Point Teams App.
 ---
 
 # Syskit Point MS Teams App  
-Syskit Point teams application provides a familiar interface for your end-users to request new workspaces without leaving MS Teams. 
+Syskit Point Teams application provides a familiar interface for your end-users to request new workspaces without leaving Microsoft Teams. 
 
 
 {% hint style="information" %}
@@ -12,30 +12,30 @@ Syskit Point teams application provides a familiar interface for your end-users 
 
 ## Deploy Microsoft Teams Application 
 
-__Pre-requisites__:  
+**Pre-requisites**:  
 
-* __Teams Administrator__ role for the person running Syskit Point 
+* **Teams Administrator** role for the person running Syskit Point 
 
-* If you do not hold this role, you can still perform the deployment. Still, the Syskit Point application will stay in the __Pending approval__ status until the Teams Administrator in your organization does not approve it. [Read more about how to do that ](https://docs.microsoft.com/en-us/microsoftteams/manage-apps#approve-a-custom-app). 
+* If you do not hold this role, you can still perform the deployment. Still, the Syskit Point application will stay in the **Pending approval** status until the Teams Administrator in your organization approves it. [Read more about how to do that ](https://docs.microsoft.com/en-us/microsoftteams/manage-apps#approve-a-custom-app). 
  
 
 To deploy the Syskit Point teams application to the list of approved applications in your organization, do the following:
 
-1. Start __Syskit Point__. 
+1. Start **Syskit Point**. 
 
-2. Navigate to __Settings > Governance > Provisioning__. 
+2. Navigate to **Settings > Governance > Provisioning**. 
 
-3. Click the __Add to Teams App Store__ button. 
+3. Click the **Add to Teams App Store** button. 
 
 
 ## Upgrade Syskit Point Teams App 
 
-To update Teams application to the latest version, make sure to: 
+To update the Teams application to the latest version, make sure to: 
 
 1. [Upgrade to the latest Syskit Point version](../set-up-point-data-center/deployment/upgrade-syskit-point.md). 
 
-2. Navigate to __Settings > Governance > Provisioning__. 
+2. Navigate to **Settings > Governance > Provisioning**. 
 
-3. Click the __Update Microsoft Teams App__ button. 
+3. Click the **Update Microsoft Teams App** button. 
 
-This will update the teams application as well, without the need for any manual interference. 
+This will update the Teams application as well, without the need for any manual interference. 

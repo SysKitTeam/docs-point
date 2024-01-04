@@ -9,7 +9,7 @@ description: >-
 
 To start with the configuration, open the **Settings > Governance > Provisioning (1)** screen.
 
-**Your Templates** list shows you which workspace templates will be available and visible for your end-users to request in the Syskit Point teams app.
+**Your Templates** list shows you which workspace templates will be available and visible for your end-users to request in the Syskit Point Teams app.
 
 By default, Syskit Point provides **three templates (2)**.
 
@@ -50,9 +50,9 @@ When creating a provisioning template in Syskit Point, if you want to use existi
 
 When creating a template for Microsoft Teams, you will need to define the following:
 
-* **Name (1)** – a name you provide here will be used as a template name that is visible to your users
-* **Description (2)** – describe in short when to use this template; end-users will see it when requesting a new workspace using a list of templates
-* **Microsoft template ID (3)** – this property is used to predefine apps, channels, and tabs that should be created for new workspaces that use this Syskit Point template.
+* **Name (1)** – A name you provide here will be used as a template name that is visible to your users
+* **Description (2)** – Describe in short when to use this template; end-users will see it when requesting a new workspace using a list of templates
+* **Microsoft template ID (3)** – This property is used to predefine apps, channels, and tabs that should be created for new workspaces that use this Syskit Point template.
   * If you leave this property empty, default apps or channels will not be created; it will be a blank MS team.
   *   Syskit Point integrates with team templates you have created in the **Microsoft 365 Teams admin center**. When you enter a team template ID, Syskit Point will create apps, tabs, and channels you defined there.
 
@@ -76,7 +76,7 @@ When creating a template for Microsoft Teams, you will need to define the follow
 
     * Predefine members that are always added to this type of workspace
     * Allow end-users to specify additional ones in addition to predefined users
-    * Leave this option completely to the end-user who is requesting a new workspace
+    * Leave this option completely to the end user who is requesting a new workspace
 
 ![New Teams Template Dialog - Step 2](../../.gitbook/assets/provisioning-templates-teams-dialog-step-2.png)
 
@@ -90,7 +90,7 @@ When creating a template for Microsoft Teams, you will need to define the follow
     Please note that available options depend on defined tenant-level external sharing policies. For example, if sharing files and folders using links that don't require sign-in is not allowed, the Anyone option will not be enabled.
 * **Sharing Permission (8)** - helps control the way things on the site can be shared. Choose between:
   * Site owners and members can share files, folders, and the site. People with edit permission can share files and folders.
-  * Site owners and members and people with edit permission can share files and folders, but only owners can share the site.
+  * Site owners, members, and people with edit permission can share files and folders, but only owners can share the site.
   * Only site owners can share files, folders, and the site.
 
 ![New Teams Template Dialog - Step 3](../../.gitbook/assets/provisioning-templates-teams-dialog-step-3.png)
@@ -98,7 +98,7 @@ When creating a template for Microsoft Teams, you will need to define the follow
 * **Allow Access Requests (9)** - decides who receives access requests for all workspaces created from the template. The options are:
   * Owners
   * Specific user(s)
-    * If Specific user(s) is selected, the name of at least one specific user needs to be entered in the provided space.
+    * If a specific user(s) is selected, the name of at least one specific user needs to be entered in the provided space.
 * **Sensitivity Label (10)** - choose from available sensitivity labels available in your tenant to define which are applied on all workspaces created from the template.
   * To use sensitivity labels in Syskit Point, make sure to set up your environment as described in the [following article](enable-sensitivity-labels.md).
 * **Terms & Conditions (11)** - define the terms & conditions text displayed to end-users when they request a new workspace.
@@ -108,7 +108,7 @@ When creating a template for Microsoft Teams, you will need to define the follow
 
 ![New Teams Template Dialog - Step 4](../../.gitbook/assets/provisioning-templates-teams-dialog-step-4.png)
 
-* **Naming Rule (13)** – predefined suffix or prefix that will be added to a name of a workspace created using this template.
+* **Naming Rule (13)** – predefined suffix or prefix that will be added to the name of a workspace created using this template.
   * For example, setting the prefix to **Marketing** results that each workspace created from this template will be named in a form **Marketing – (Request Name)**
   * **Select the checkbox Apply naming rule to workspace URL and e-mail** to have **all workspaces created from this template have the same URL based on the Name Prefix and Name Suffix** you entered into the form
 *   **Approval process (14)** – define who is responsible for approving the requests using this template.
@@ -117,10 +117,10 @@ When creating a template for Microsoft Teams, you will need to define the follow
 
     By default, you will see four types of approvals available:
 
-    * Manager approval – manager of the end-users requesting new workspace needs to approve this request
+    * Manager approval – The manager of the end-users requesting new workspace needs to approve this request
     * Admin approval – Syskit Point admins need to approve this request
-    * Manager and admin approval – requires approval from both manager of the requester and Syskit Point admins
-    * Automatically Approve – templates using this option don’t require approval. The workspace will be created immediately when the end-user sends a request.
+    * Manager and admin approval – Requires approval from both the manager of the requester and Syskit Point admins
+    * Automatically Approve – Templates using this option don’t require approval. The workspace will be created immediately when the end-user sends a request.
 
     Additionally, you can enable comments for requesters when they request a new workspace in this section.
 
@@ -150,7 +150,7 @@ When creating a template for Microsoft Teams, you will need to define the follow
 
 ![New Teams Template Dialog - Step 6](../../.gitbook/assets/provisioning-templates-teams-dialog-step-6.png)
 
-Once you complete this process, your new template will appear in the **Templates** list and will become visible for end-users in **Syskit Point Teams app** when requesting a new workspace.
+Once you complete this process, your new template will appear in the **Templates** list and will become visible for end-users in the **Syskit Point Teams app** when requesting a new workspace.
 
 ### SharePoint Site Template
 
@@ -171,7 +171,7 @@ When creating a SharePoint Site template, there are a couple of differences comp
 
 ### Yammer Community Template
 
-When creating a Yammer Community template, there are a couple of differences compared to Microsoft Teams template.
+When creating a Yammer Community template, there are a couple of differences compared to the Microsoft Teams template.
 
 * **Community Admins** – allows multiple options:
   * Predefine community admins that are always added to this type of workspace

@@ -39,11 +39,11 @@ Additionally, you can complete the following actions for the policy violation:
   * **Send reminder (9)** - this sends a reminder to the person responsible for resolving this task
   * **Ask Owners (10)** - this action shows if the policy is not automated, meaning that no tasks were sent to owners; when clicked, emails will be sent to owners and tasks created for owners to resolve the vulnerability
   
-![Teams and Groups With Only 1 Owner](../../.gitbook/assets/security-compliance-checks_workspaces-too-many-owners.png)
+![Teams and Groups With Only 1 Owner](../../.gitbook/assets/security-compliance-checks-workspaces-too-many-owners.png)
 
 By **selecting all (1)** or more than one workspace, you can perform the bulk action for **Ask Owners (2)**, **Send reminder (3)**, and **Accept risk (4)**. 
 
-![Teams and Groups With Only 1 Owner - Change Owners](../../.gitbook/assets/security-compliance-checks_workspaces-too-many-owners-bulk.png)
+![Teams and Groups With Only 1 Owner - Change Owners](../../.gitbook/assets/security-compliance-checks-workspaces-too-many-owners-bulk.png)
 
 To get more details on a specific workspace, **click the name of the workspace on the report**.
   * This opens the screen that shows more details about the workspace
@@ -58,4 +58,4 @@ Here you can find the following information:
 
  You can also perform the actions to **Accept Risk (7)** and **Change Owners (8)**. 
 
-![Workspaces with Not Enough Owners - More Details](../../.gitbook/assets/security-compliance-checks_workspaces-too-many-owners-details.png)
+![Workspaces with Not Enough Owners - More Details](../../.gitbook/assets/security-compliance-checks-workspaces-too-many-owners-details.png)

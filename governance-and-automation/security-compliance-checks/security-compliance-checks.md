@@ -32,7 +32,7 @@ On your home screen, you can see the number of:
 You are also able to manually apply policies or [set up policy rules](../../governance-and-automation/automated-workflows/policy-automation.md) if you haven't already by clicking the **Manage Policies button**. 
 
 
-![Security & Compliance checks - Home](../../.gitbook/assets/security-and-compliance-checks_home.png)
+![Security & Compliance checks - Home](../../.gitbook/assets/security-and-compliance-checks-home.png)
 
 
 After clicking View All, the Security and Compliance checks dashboard will open, showing the following: 
@@ -53,7 +53,7 @@ After clicking View All, the Security and Compliance checks dashboard will open,
 * **Workspaces with too many owners (7)** – shows the number of workspaces with too many owners. If there are **too many owners, no one feels accountable for access and content management**. This helps you keep track of and remove extra owners. 
 
 
-![Security & Compliance Checks](../../.gitbook/assets/security-compliance-checks_dashboard.png)
+![Security & Compliance Checks](../../.gitbook/assets/security-compliance-checks-dashboard.png)
 
 {% hint style="hint" %}
 
