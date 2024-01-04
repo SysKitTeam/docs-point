@@ -10,7 +10,7 @@ In the Settings for Syskit Point, go under Governance and select Policies.
 
 Click the **Manage Policies button (1)** to apply the policy. 
 
-![Manage Policies screen](../../.gitbook/assets/apply-access-request_manage-policies.png)
+![Manage Policies screen](../../.gitbook/assets/apply-access-request-manage-policies.png)
 
 ## Applying the Policy to Workspaces
 
@@ -18,7 +18,7 @@ Select one or more workspaces that the Access Requests policy should be applied 
   * Selecting one or more workspaces shows the **Manage Policies (2)** option on the right side of the screen under the Manage category
   * **Click Manage Policies (2)** 
 
-![Manage Policies - Apply](../../.gitbook/assets/apply-access-request_manage-policies-selection.png)
+![Manage Policies - Apply](../../.gitbook/assets/apply-access-request-manage-policies-selection.png)
   
 A pop-up screen appears, prompting you to select the type of policy that should be applied to the selected workspaces.
 * **Select Access Requests (1)** from the drop-down menu; this adds the option to select a specific policy
@@ -26,7 +26,7 @@ A pop-up screen appears, prompting you to select the type of policy that should 
   * This shows a text below explaining what aspects of the workspaces the Access Requests policy applies to
  * **Click Save (3)** once you are satisfied with your selection
 
- ![Apply Access Requests Policy](../../.gitbook/assets/apply-access-request_apply-policy.png)
+ ![Apply Access Requests Policy](../../.gitbook/assets/apply-access-request-apply-policy.png)
   
 
 ## Remove Access Requests Policy from Workspaces
@@ -57,9 +57,9 @@ If you want to remove an Access Requests Policy that has been applied to multipl
   * On the screen that appears, **select Access Requests (2)** from the drop-down menu
   * **Click Save (3)** when done; this will remove the Access Requests policy applied to the selected workspaces
 
-![Remove Access Requests Policy - Multiple](../../.gitbook/assets/apply-access-request_remove-policy-multi.png)
+![Remove Access Requests Policy - Multiple](../../.gitbook/assets/apply-access-request-remove-policy-multi.png)
 
-![Remove Access Requests Policy - Multiple](../../.gitbook/assets/apply-access-request_remove-policy-multi-fin.png)
+![Remove Access Requests Policy - Multiple](../../.gitbook/assets/apply-access-request-remove-policy-multi-fin.png)
 
 
 ## Filter workspaces with Access Requests Policies
@@ -70,5 +70,5 @@ For a quick search of which workspaces already have the Access Requests policy a
   * From the **column chooser (2)** next to Policies Applied select the Access Requests policies and **click OK (3)**
     * Clicking OK will filter and show only the workspaces that have the Access Requests policy
 
-![Filter - Access Requests policy](../../.gitbook/assets/apply-access-request_policy-filter.png)
+![Filter - Access Requests policy](../../.gitbook/assets/apply-access-request-policy-filter.png)
 

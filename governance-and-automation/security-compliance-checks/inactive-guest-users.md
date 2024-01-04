@@ -31,5 +31,6 @@ You can remove the user and resolve the vulnerability by **clicking the Delete U
 
 By **selecting all (8)** or more than one user, you can perform the bulk action for **Delete User (9)**. 
 
-![Inactive Guest Users](../../.gitbook/assets/security-compliance-checks_inactive-guest-user.png)
-![Inactive Guest Users - Bulk Action](../../.gitbook/assets/security-compliance-checks_inactive-guest-user-bulk.png)
+![Inactive Guest Users](../../.gitbook/assets/security-compliance-checks-inactive-guest-user.png)
+
+![Inactive Guest Users - Bulk Action](../../.gitbook/assets/security-compliance-checks-inactive-guest-user-bulk.png)

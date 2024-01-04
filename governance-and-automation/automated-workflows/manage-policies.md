@@ -4,9 +4,9 @@ description: This article explains how to apply and manage policies in Syskit Po
 
 
 # Creating a Policy
-To create a new policy, navigate to the Policies settings screen, and click the **Create New Policy (1)** button.
+To create a new policy, navigate to the Policies settings screen and click the **Create New Policy (1)** button.
 
-![Create Policy](../../.gitbook/assets/set_up_automated_workflows-create_policy.png)
+![Create Policy](../../.gitbook/assets/set-up-automated-workflows-create-policy.png)
 
 The **Create New Policy** dialog opens, where you can select the type of policy to create.
 You can choose from the following:
@@ -17,7 +17,7 @@ You can choose from the following:
 * [**Access Requests**](../../governance-and-automation/access-requests/README.md)
   * For more details on access requests in Syskit Point, read the [Access Requests section](../../governance-and-automation/access-requests/README.md).
 
-![Create New Policy Dialog](../../.gitbook/assets/set_up_automated_workflows-create_policy_dialog.png)
+![Create New Policy Dialog](../../.gitbook/assets/set-up-automated-workflows-create-policy-dialog.png)
 
 **After you select the policy type**, you will be able to **define all policy settings**, described in more detail in the previously linked individual articles. 
 
@@ -27,9 +27,9 @@ You can choose from the following:
 
 **When the policies are defined**, the last thing left to do is to **apply them to Microsoft Teams, Microsoft 365 Groups, OneDrive, and Sites**. 
 
-To do so, navigate to the Policies settings screen, and click the **Manage Policies (1)** button.
+To do so, navigate to the Policies settings screen and click the **Manage Policies (1)** button.
 
-![Manage Policies](../../.gitbook/assets/set_up_automated_workflows-apply_policy.png)
+![Manage Policies](../../.gitbook/assets/set-up-automated-workflows-apply-policy.png)
 
 The Manage Policies screen opens where you can:
 * **Find workspaces that don't have any policies applied (1)**; when the tile is clicked, the report only displays workspaces that have no policies applied
@@ -42,11 +42,11 @@ The Manage Policies screen opens where you can:
    * **Remove Policy**
    * **Remove All Policies** 
 
-![Manage Policies Screen](../../.gitbook/assets/set_up_automated_workflows-apply_policy_report.png)
+![Manage Policies Screen](../../.gitbook/assets/set-up-automated-workflows-apply-policy-report.png)
 
 After clicking the **Manage Policies (6)** button, the **Manage Policy** dialog opens, where you can **select a policy** and **apply** the chosen policy on the selected workspaces grouped by the policy type.
 
-![Manage Policies Dialog](../../.gitbook/assets/set_up_automated_workflows-apply_policy_dialog.png)
+![Manage Policies Dialog](../../.gitbook/assets/set-up-automated-workflows-apply-policy-dialog.png)
 
 {% hint style="success" %}
 **Once a policy is applied, Syskit Point automates detection for a policy violation**. 

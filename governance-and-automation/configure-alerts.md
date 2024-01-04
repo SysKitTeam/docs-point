@@ -49,7 +49,7 @@ The **Configure Tenant Wide Alerts action (1)** is available in the right-side p
 Tenant-wide alerts available on the **Sites overview screen** and **Microsoft Teams & Groups overview screen** are identical because they monitor the same SharePoint events; therefore, changes on one screen will also be visible on the other.
 {% endhint %}
 
-The following **tenant wide alert categories and alerts are available** for Microsoft Teams, Microsoft 365 Groups, OneDrive, and sites:
+The following **tenant-wide alert categories and alerts are available** for Microsoft Teams, Microsoft 365 Groups, OneDrive, and sites:
 
 | Alert Category                        | Alerts                                                                                                   | Overview screen                 |
 | ------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------- |
@@ -153,7 +153,7 @@ After you enable the alert, the alert options section is activated. Here you can
 Tabs and filters are displayed depending on the selected alert. For example, the **Event Type** tab is only available on alerts that monitor multiple events.
 {% endhint %}
 
-Let's examine options on each tab separately.
+Let's examine the options on each tab separately.
 
 On the **Notifications** tab, you can:
 
@@ -219,16 +219,16 @@ The **Edit Alert** action is available on two screens - **Alerts overview screen
 ![Edit Alert dialog](../.gitbook/assets/configure-alerts-alerts-overview-edit-alert-action-dialog.png)
 
 {% hint style="success" %}
-**You can edit all alerts on overview screens where you initially enabled them** - both tenant-wide and site- or user-specific alerts.
+**You can edit all alerts on overview screens where you initially enabled them** - both tenant-wide, and site-wide or user-specific alerts.
 {% endhint %}
 
 ## Alert Reports
 
-When you login into Syskit Point as Point admin, you can find the **Alerts** button by clicking your profile in the top right corner of the screen. 
+When you log into Syskit Point as Point admin, you can find the **Alerts** button by clicking your profile in the top right corner of the screen. 
 
 ![Home screen - Alerts tile](../.gitbook/assets/configure-alerts-welcome-home-alerts-tile.png)
 
-Click the button to open the **Alerts** report. Here you can see all alerts that are currently enabled.
+Click the button to open the **Alerts** report. Here, you can see all alerts that are currently enabled.
 
 On the **Alerts** overview screen, you can:
 

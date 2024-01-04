@@ -43,8 +43,9 @@ If the policy is set up without task delegation being enabled, instead of sendin
 
 By **selecting all (10)** or more than one workspaces, you can perform the bulk action for **Send reminder (11)** and **Accept risk (12)**, or if the task delegation is not enabled, **Ask Owners**. 
 
-![Workspaces with Not Enough Owners](../../.gitbook/assets/security-compliance-checks_workspaces-not-enough-owners.png)
-![Workspaces with Not Enough Owners - Bulk](../../.gitbook/assets/security-compliance-checks_workspaces-not-enough-owners-bulk.png)
+![Workspaces with Not Enough Owners](../../.gitbook/assets/security-compliance-checks-workspaces-not-enough-owners.png)
+
+![Workspaces with Not Enough Owners - Bulk](../../.gitbook/assets/security-compliance-checks-workspaces-not-enough-owners-bulk.png)
 
 
 To get more details on a specific workspace, **click the name of the workspace on the report**.
@@ -60,4 +61,4 @@ Here you can find the following information:
 
  You can also perform the actions to **Accept Risk (7)** and **Add Owners (8)**. 
 
-![Workspaces with Not Enough Owners - More Details](../../.gitbook/assets/security-compliance-checks_workspaces-not-enough-owners-details.png)
+![Workspaces with Not Enough Owners - More Details](../../.gitbook/assets/security-compliance-checks-workspaces-not-enough-owners-details.png)

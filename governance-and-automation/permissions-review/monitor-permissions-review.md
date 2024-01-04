@@ -63,7 +63,7 @@ On the start date of the automated Access Review, **Access Review tasks are crea
 
 To **track the currently active Access Review** **progress**, Syskit Point Admins can **use the Governance screen**. To access it, **click the Governance button** on the left side of the screen.
 
-![Home screen - Governance tile](../../.gitbook/assets/monitor-permissions-review_home-screen.png)
+![Home screen - Governance tile](../../.gitbook/assets/monitor-permissions-review-home-screen.png)
 
 When clicked, the Governance screen opens, providing a summary of the active automated Access Review. Here, the following is displayed:
 
@@ -77,7 +77,7 @@ When clicked, the Governance screen opens, providing a summary of the active aut
 * **Number of completed Access Reviews by site type (5)**
 * **See Review Details** **button (6)**, which opens the **Access Review** report
 
-![Governance - Access Review](../../.gitbook/assets/monitor-permissions-review_governance.png)
+![Governance - Access Review](../../.gitbook/assets/monitor-permissions-review-governance.png)
 
 The Access Review report gives Syskit Point Admins the following information:
 
@@ -90,7 +90,7 @@ The Access Review report gives Syskit Point Admins the following information:
   * **Review (7)** - only available if Syskit Point Admin is also the owner of the selected workspace
   * **View Details (8)** - available when one or multiple workspaces are selected; opens the [**Access Review - Summary**](monitor-permissions-review.md#access-review---summary) report
 
-![Governance - Access Review](../../.gitbook/assets/monitor-permissions-review_permissions-review.png)
+![Governance - Access Review](../../.gitbook/assets/monitor-permissions-review-permissions-review.png)
 
 Use the **Remind Owners action** to send a reminder email to site owners regarding the ongoing Access Review. You can use this action **once a day**, whenever you think appropriate, **as long as the Access Review is active**. **Only site owners with pending tasks will receive an email**.
 
@@ -121,7 +121,7 @@ This screen contains information on:
 * **The last date** that the Access Review should be completed by
 * **The number of Access Reviews** completed compared t0 how many are left to complete
 
-You can also see an **overview of the workspaces and how many review per workspaces were completed** out of how many are still left to complete. 
+You can also see an **overview of the workspaces and how many reviews per workspace were completed** out of how many are still left to complete. 
 
 **Click the See Review Details button (2)** to be redirected to the Access Review report.
 
@@ -153,7 +153,7 @@ For more information on the **Manually Requested Reviews category**, [read the f
 
 The Access Review - Summary report offers a complete overview of actions performed during an Access Review. To generate the report:
 
-* **Open the Access Review screen**; you can open this screen for an active Access Review, or a completed one
+* **Open the Access Review screen**; you can open this screen for an active Access Review or a completed one
 * **Select one or more workspaces (1)** for which you want to see what was done during the Access Review
 * **Click the View Details link (2)**
 

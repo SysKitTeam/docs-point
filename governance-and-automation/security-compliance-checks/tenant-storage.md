@@ -7,7 +7,7 @@ description: This article provides information on the Tenant Storage Limit repor
 
 Syskit Point mitigates the risk of running out of storage based on the settings defined in the tenant-wide [policy](../automated-workflows/tenant-storage-admin.md). 
 
-The purpose of the Tenant Storage Limit check is to **notify you when your storage percentage gets close to the limit you set**. This information can help you determine whether you should change the storage limit set for the policy, remove any redundant content to free up space, or purchase additional storage from Microsoft.
+The purpose of the Tenant Storage Limit check is to **notify you when your storage percentage gets close to the limit you set**. This information can help you determine whether you should change the storage limit set for the policy, remove any redundant content to free up space or purchase additional storage from Microsoft.
 
 When the task delegation option is enabled for the Tenant Storage policy, Syskit Point creates tasks and sends emails to users as defined in the policy settings.
 To learn more, take a look at the [Tenant Storage Limit policy article](../../governance-and-automation/automated-workflows/tenant-storage-admin.md).
@@ -31,12 +31,12 @@ The report provides information on:
 
 There are two actions that can be completed for this violation:
  * **Accept Risk (7)**
-   * Clicking Accept Risk opens a pop-up where you can **select the amount of days** you want Syskit Point to ignore this policy violation
+   * Clicking Accept Risk opens a pop-up where you can **select the number of days** you want Syskit Point to ignore this policy violation
    * Clicking the **Accept Risk button** finalizes your decision
  * **Add Storage (8)** 
    * Clicking Add Storage redirects you to the Microsoft 365 article that explains how to add more SharePoint storage to your tenant
 
-![Tenant Storage Limit - Security & Compliance checks report](../../.gitbook/assets/security-compliance-checks_tenant-storage-limits.png)
+![Tenant Storage Limit - Security & Compliance checks report](../../.gitbook/assets/security-compliance-checks-tenant-storage-limits.png)
 
 Other than the actions available in the report, there are a few additional ways to resolve this violation:
   * **Increasing the storage limit percentage** that is set for the [Tenant Storage Limit policy](../automated-workflows/tenant-storage-admin.md)

@@ -42,8 +42,9 @@ If the the task delegation is not enabled in policy settings, instead of sending
 By **selecting all (9)** or more than one workspace, you can perform the bulk action for **Send reminder (10)** and **Accept risk (11)**. 
 
 
-![Orphaned Workspaces](../../.gitbook/assets/security-compliance-checks_orphaned-workspaces.png)
-![Orphaned Workspaces - Bulk](../../.gitbook/assets/security-compliance-checks_orphaned-workspaces-bulk.png)
+![Orphaned Workspaces](../../.gitbook/assets/security-compliance-checks-orphaned-workspaces.png)
+
+![Orphaned Workspaces - Bulk](../../.gitbook/assets/security-compliance-checks-orphaned-workspaces-bulk.png)
 
 
 To get more details on a specific workspace, **click the name of the workspace on the report**.
@@ -59,4 +60,4 @@ Here you can find the following information:
 
  You can also perform the actions to **Accept Risk (7)** and **Add Owners (8)**. 
 
-![Orphaned Workspaces - More Details](../../.gitbook/assets/security-compliance-checks_orphaned-workspaces-details.png)
+![Orphaned Workspaces - More Details](../../.gitbook/assets/security-compliance-checks-orphaned-workspaces-details.png)
