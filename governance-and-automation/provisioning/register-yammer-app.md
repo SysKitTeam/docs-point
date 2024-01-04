@@ -9,7 +9,7 @@ To be able **to create Yammer community templates**, you need to **register a ne
 Start by **navigating to Settings** > **Provisioning**, and click the **New Template** button.
 The following screen opens:
 
-![New Template Dialog](../../.gitbook/assets/register-yammer-app_new-template.png)
+![New Template Dialog](../../.gitbook/assets/register-yammer-app-new-template.png)
 
 **Click the Yammer Community tile (1)** to continue.
 
@@ -23,16 +23,16 @@ Yammer app registration screen in Syskit Point enables you to:
 * **Input the Client ID (4) and Secret (5) data which you can access in the Yammer portal after the new Yammer app registration is created**
 * **Register the Yammer app (6)** in Syskit Point after entering the required data 
 
-![Register Yammer App Screen](../../.gitbook/assets/register-yammer-app_point-register-yammer-app.png)
+![Register Yammer App Screen](../../.gitbook/assets/register-yammer-app-register-screen.png)
 
-Next, **open the Yammer portal** by clicking the **Open the Yammer app registration portal button (2)**
+Next, **open the Yammer portal** by clicking the **Open the Yammer app registration portal button (1)**
 
 ## Register a New App in Yammer Portal
 
 A **new browser tab opens, showing the Registered applications screen in Yammer portal**. 
 * **Click the link (1) to continue**
 
-![Yammer Portal - Register a New App](../../.gitbook/assets/register-yammer-app_yammer-register-new-app.png)
+![Yammer Portal - Register a New App](../../.gitbook/assets/register-yammer-app-yammer-register-new-app.png)
 
 A registration dialog opens, where you need to:
 * **Enter the application name (1)** - enter `Syskit Point Yammer App`
@@ -43,7 +43,7 @@ A registration dialog opens, where you need to:
 * **Check the agreement checkbox (6)**
 * **Click Continue (7)** when finished
 
-![Register New App Dialog](../../.gitbook/assets/register-yammer-app_register-new-app-dialog.png)
+![Register New App Dialog](../../.gitbook/assets/register-yammer-app-register-new-app-dialog.png)
 
 Once finished, a new screen loads, showing the following **information about the registered Yammer app**:
 * **Client ID (1)**
@@ -51,7 +51,7 @@ Once finished, a new screen loads, showing the following **information about the
 
 **Copy and paste the information provided here to the Yammer app registration screen in Syskit Point**, as described in the previous section.
 
-![Yammer App - Client ID and Secret](../../.gitbook/assets/register-yammer-app_yammer-app-id-secret.png)
+![Yammer App - Client ID and Secret](../../.gitbook/assets/register-yammer-app-yammer-app-id-secret.png)
 
 ## Next Steps
 
