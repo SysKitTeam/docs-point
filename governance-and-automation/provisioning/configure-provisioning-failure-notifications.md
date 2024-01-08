@@ -25,7 +25,7 @@ To define who will get e-mail notifications:
 * **Save** when finished
 
 {% hint style="information" %}
-**If you want to turn off the provisioning failure notifications** deselect both available options in described settings and save your changes.
+**If you want to turn off the provisioning failure notifications** deselect both available options in the described settings and save your changes.
 {% endhint %}
 
 ## Provisioning Failure E-mail

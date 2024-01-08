@@ -19,9 +19,9 @@ Here are some examples of such metadata:
  * **The storage used by a site**
  * **And other useful information**
 
-With Syskit Point custom metadata feature, you can:
+With Syskit Point's custom metadata feature, you can:
 
-* **Leverage custom metadata** to expand on the existing information and better describe Microsoft Teams, Microsoft 365 Groups, Sites, and OneDrive in relation to your business processes and policies.
+* **Leverage custom metadata** to expand on the existing information and better describe Microsoft Teams, Microsoft 365 Groups, Sites, and OneDrive concerning your business processes and policies.
 
 * **Organize and find workspaces**, and **generate reports** based on custom metadata.
 
@@ -31,21 +31,19 @@ With Syskit Point custom metadata feature, you can:
 This section will explain how to set up custom metadata in Syskit Point. 
 
 To start, take the following steps:
-* On the Home page, click on **Settings(1)**; located in the top right corner of the screen.
-* Select **Governance (2)** from the menu, and the page will redirect to the Governance section within Settings.
-   * Alternatively, this screen can also be accessed by clicking **View All Settings** and scrolling to the Governance section of the screen.
-* Select the **Custom Metadata(3)** option; found at the bottom of the Governance list.
+* In the main menu, click **Settings (1)**
+* Select the **Custom Metadata (2)** option in the Governance category
    * This screen provides insight into what **custom metadata has already been set up**, along with the option to create new custom metadata.  
-* Click the **Create New (4)** button to create new custom metadata.
+* Click the **Create New (3)** button to create new custom metadata.
 
+![Custom Metadata Settings](../.gitbook/assets/manage-custom-metadata-create-new.png)
 
-![Access Custom Metadata](../.gitbook/assets/custom-metadata_how-to-locate.png)
-
-Once the create new metadata screen opens, fill in the following information.
+Once the create new metadata dialog opens, fill in the following information.
 * **Metadata Name (1)**; the name of the metadata.
 * **Description (2)**; the description of the metadata for end users.
 * **Enable collaborators to change the created metadata (3)** by checking the Allow collaborators to change this metadata value option
-  * by default, this option is disabled
+  * By default, this option is disabled
+  * When enabled, owners will be able to modify metadata on their workspaces
 * Select the **data type (4)** of the new metadata under the Customize Field.
   * In the dropdown menu, there are several data types to choose from
     * **Text**
@@ -57,7 +55,7 @@ Once the create new metadata screen opens, fill in the following information.
 * Use the **null text (5)** area to add a short hint describing the input field for end users.
 * When satisfied, click **Confirm (6)** to save the metadata definiton.
 
-![Create New Metadata](../.gitbook/assets/custom-metadata_create-new.png)
+![Create New Metadata](../.gitbook/assets/manage-custom-metadata-create-new-dialog.png)
 
  {% hint style="info" %}
 **Hint!** To connect to metadata from your environment, when creating custom metadata, click the Advanced Options action and insert the property bag key in the designated space.
@@ -69,37 +67,44 @@ After setting up custom metadata, the information can be changed directly from a
 
 To change the custom metadata that has been set up on workspaces, select Sites or Microsoft Teams & Groups from the Home page.
 
-* On the **Sites (1)** overview screen, select one or multiple workspaces to edit their metadata.
-* Select **Change Metadata (2)**; this option is available on the right side of the screen.
+* On the Sites overview screen, **select one or multiple workspaces (1)** to edit their metadata.
+* Click **Manage Metadata > Change Metadata (2)** option available on the right side of the screen.
 
-![Create New Metadata](../.gitbook/assets/custom-metadata_change-location.png)
+![Change Metadata](../.gitbook/assets/manage-custom-metadata-change-metadata.png) 
 
-On the Change Metadata dialog, you can:
-* **Edit (1)** or **delete (2)** the existing metadata entry
-* **Specify additional metadata (3)** by clicking the Change Another Column action
-* Click **Complete (3)** when satisfied with your changes.
+On the Change Metadata dialog:
+* **Specify custom metadata (1)** by clicking the Change Another Column action
+  * After defining a value for a custom metadata, click Save
+* **Edit (2)** or **Remove (3)** custom metadata you want to change
+* **Click Complete (4)** when finished
   * This will start the process of changing the custom metadata, and once completed, the information input will be displayed under the selected workspaces.
 
-![Change Metadata](../.gitbook/assets/custom-metadata_change-custom-metadata.png)
+![Change Metadata](../.gitbook/assets/manage-custom-metadata-change-metadata-dialog.png)
 
+## Remove Custom Metadata
+
+To remove custom metadata:
+* On the Sites overview screen, **select one or multiple workspaces (1)** to remove the custom metadata.
+* Click **Manage Metadata > Remobve Metadata (2)** option available on the right side of the screen.
+
+![Remove Metadata](../.gitbook/assets/manage-custom-metadata-remove-metadata.png) 
+
+Remove Metadata dialog opens; **select the metadata you want to remove**, and **click Remove**.
 
 ## Filter Workspaces by Metadata
 
-When generating a report, it can now include and be filtered by the specific custom metadata that was set up.
+When generating a report, you can filter out workspaces with desired custom metadata values:
 
-To generate a report with custom metadata, take the following steps:
+* Go to Reports and select a report to generate.
+* On the Selection step, use the **Column Chooser (1)** to select custom metadata, thus making the custom metadata column and values visible on the Selection step.
+* Once the custom metadata column is added, use the **filter dropdown menu (2)** in the custom metadata column to filter and show workspaces with selected metadata values. 
 
-* Go to Reports and select the type of report to generate.
-* Use the **Column Chooser (1)** to select the metadata.
-* Once the custom metadata column was added, use the **filter dropdown menu (2)** to select the details for the report. 
+![Filtering by metadata](../.gitbook/assets/manage-custom-metadata-filter.png)
 
-![Create New Metadata](../.gitbook/assets/custom-metadata_custom-metadata-report.png)
+**Workspaces with selected custom metadata values (3) are displayed**.
+* **Select (4)** one or more of the filtered workspaces to include in the report.
+* Click **Run Report (5)** to generate the report for selected workspaces. 
 
-This will filter the report to show the items that the chosen metadata applies to.
-* **Select (1)** one or more files to include in the report.
-  * Set the values for the report on the pop-up that appears.
-* Click **Run Report (2)** to generate the report. 
-
-![Create New Metadata](../.gitbook/assets/custom-metadata_generate-report-metadata.png)
+![Filtered workspaces](../.gitbook/assets/manage-custom-metadata-filter-run-report.png)
 
 This can be applied to any reports from the Report section that include **Sites, Microsoft Teams & Groups, and OneDrive**.

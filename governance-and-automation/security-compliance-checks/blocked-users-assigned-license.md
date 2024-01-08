@@ -30,6 +30,6 @@ Additionally, you can complete the following actions for the policy violation:
   * **Remove Licenses (7)** - this will remove the licenses from the blocked user and resolve the policy violation
 
 
-![Blocked Users with Assigned Licenses](../../.gitbook/assets/security-compliance-checks_blocked-users.png)
+![Blocked Users with Assigned Licenses](../../.gitbook/assets/security-compliance-checks-blocked-users.png)
 
 

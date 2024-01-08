@@ -13,6 +13,11 @@ Syskit Point includes a set of **Lifecycle Management actions** that can be exec
 * **Delete**
 * **Restore**
 
+{% hint style="warning" %}
+**Please note!**  
+The Keep action is available for inactive workspaces only.
+{% endhint %}
+
 Each action can be executed by **Syskit Point Admin** and **Syskit Point Collaborator** users.  
 **Lifecycle Management actions** – **Keep, Archive, and Delete –** are available on the following screens in Syskit Point:
 
@@ -21,20 +26,22 @@ Each action can be executed by **Syskit Point Admin** and **Syskit Point Collabo
 * **Details of a selected workspace**
 * **Lifecycle Management task details**
 
-You can find the actions in the side panel, under the **Manage category** **\(1\)**, except for the **Lifecycle Management task details** screen, where they are **displayed in a ribbon \(2\)**.
+You can find the actions in the side panel, under the **Lifecycle Management category** **\(1\)**. 
 
-![Sites Overview &#x2013; Side panel](../../.gitbook/assets/0%20%282%29.png)
+![Sites Overview - Side panel](../../.gitbook/assets/lifecycle-management-actions-sites-overview-side-panel.png)
 
-![Lifecycle Management Task - Actions](../../.gitbook/assets/1.png)
+When resolving the **Lifecycle Management task**, actions are **displayed in a ribbon \(2\)**.
+
+![Lifecycle Management Task - Actions](../../.gitbook/assets/lifecycle-management-actions-task.png)
 
 The **Restore** action is **available for deleted and archived workspaces only.** You can find these workspaces on the overview screens by selecting the **Deleted/Archived Sites/Groups view \(1\)**. On the view, additional columns are available:
 
 * **Deleted By \(2\)**
 * **Deleted On \(3\)**
-* **Can be Restored \(4\)** – green checkmark is displayed for workspaces currently in the Recycle Bin and can be restored
+* **Can be Restored \(4\)** – A green checkmark is displayed for workspaces currently in the Recycle Bin and can be restored
 * **Restore action \(5\)** is available in the side panel, as already described.
 
-![Deleted Sites View](../../.gitbook/assets/2%20%282%29.png)
+![Deleted Sites View - Restore](../../.gitbook/assets/lifecycle-management-actions-restore.png)
 
 {% hint style="warning" %}
 **Please note!**  
@@ -59,26 +66,18 @@ The **Keep** action is run to **mark that the selected workspace is being used**
 
 When executing this action, you can:
 
-* **select the period \(1\)** for which the workspace should be kept
-* **leave a comment \(2\)** on why you want to keep this workspace
-* **confirm the action** by clicking the **Keep button \(3\)**
+* **Select the period \(1\)** for which the workspace should be kept
+   * By default, the selected period equals the defined number of days after which a workspace will be considered inactive, which can be changed in the Lifecycle Management settings.
+   * Available options: 6 months, 1 year, 2 years, Custom
+   * The **Custom** option opens a date picker where you can choose a specific date in the future to keep a workspace and consider it active.
+* **Leave a comment \(2\)** on why you want to keep this workspace
+* **Confirm the action** by clicking the **Keep button \(3\)**
 
-![Keep action dialog](../../.gitbook/assets/3%20%282%29.png)
+![Keep action dialog](../../.gitbook/assets/lifecycle-management-actions-keep-dialog.png)
 
-By default, the selected period \(number of days\) is defined inside the settings, after which a workspace will be considered inactive. Besides the default option, you can always choose one of the following:
+As a result of this action, you can see the workspace getting a new activity state – **Kept** – visible in the **Activity column \(1\)** on overview screens. Kept workspaces are depicted with a yellow circle. **On hover \(2\)**, the circle provides additional information on who said to keep the workspace and how long.
 
-* **6 months**
-* **1 year**
-* **2 years**
-* **Custom**
-
-The **Custom** option lets you choose a specific date in the future until which you want to keep a workspace and consider it active.
-
-![Keep dialog with custom selection](../../.gitbook/assets/4%20%282%29.png)
-
-As a result of this action, you can see the workspace getting a new activity state – **Kept** – visible in the **Activity column \(1\)** on overview screens. Kept workspaces are depicted with a yellow circle. **On hover \(2\)**, the circle provides additional information on who and until when said to keep the workspace.
-
-![Sites overview screen - Kept workspace](../../.gitbook/assets/image.png)
+![Sites overview screen - Kept workspace](../../.gitbook/assets/lifecycle-management-actions-kept-workspace.png)
 
 {% hint style="warning" %}
 **Please note!**  
@@ -90,23 +89,23 @@ The Keep action can be executed on inactive workspaces only!
 The **Archive action** has additional options available that are set up according to the administrator’s preference. More information on that can be found in the [Enable Lifecycle Management Automation article](enable-lifecycle-management.md).
 
 Archiving a workspace within Syskit Point results in the following:
-* **the workspace gets into a read-only state**
-* **based on the parameters set by the admin, access to the workspace is removed for**:
+* **The workspace gets into a read-only state**
+* **Based on the parameters set by the admin, access to the workspace is removed for**:
    * **Members**; all members are removed when a workspace is archived
    * **Owners**; all owners are removed when a workspace is archived; when this option is set up, **at least 1 owner will still exist for all workspaces** as set by the admin.
-* **the permissions inheritance is restored on all objects**
-* **all memberships on the workspace are removed in Microsoft 365**
-* **all memberships are saved in Syskit Point database to support the Restore action**
-* **the workspace is renamed to include the Prefix and/or Suffix that was set by the admin**
+* **The permissions inheritance is restored on all objects**
+* **All memberships on the workspace are removed in Microsoft 365**
+* **All memberships are saved in the Syskit Point database to support the Restore action**
+* **The workspace is renamed to include the Prefix and/or Suffix that was set by the admin**
 
 
-After selecting the Archive option for a workspace it opens the Archive action dialog where you can:
+After selecting the Archive option for a workspace, it opens the Archive action dialog where you can:
 
-* **enter a comment \(1\)**
-* **confirm the action by typing ARCHIVE \(2\)**
-* **execute the action by clicking the Archive button \(3\)**
+* **Enter a comment \(1\)**
+* **Confirm the action by typing ARCHIVE \(2\)**
+* **Execute the action by clicking the Archive button \(3\)**
 
-![Archive action dialog](../../.gitbook/assets/6%20%282%29.png)
+![Archive action dialog](../../.gitbook/assets/lifecycle-management-actions-archive-dialog.png)
 
 {% hint style="warning" %}
 **Please note!**  
@@ -138,11 +137,11 @@ You can find more about Microsoft’s retention policies on the following links:
 
 When running the delete action, do the following:
 
-* **enter a comment \(1\)**
-* **confirm the action by typing DELETE \(2\)**
-* **execute the action by clicking the Delete button \(3\)**
+* **Enter a comment \(1\)**
+* **Confirm the action by typing DELETE \(2\)**
+* **Execute the action by clicking the Delete button \(3\)**
 
-![Delete action dialog](../../.gitbook/assets/7.png)
+![Delete action dialog](../../.gitbook/assets/lifecycle-management-actions-delete-dialog.png)
 
 {% hint style="warning" %}
 **Please note!**  
@@ -151,7 +150,7 @@ This action can be executed on workspaces that are not deleted or archived.
 
 ### Restore
 
-The **Restore action** can be executed on archived and deleted workpspaces.
+The **Restore action** can be executed on archived and deleted workspaces.
 
 * **When restoring a deleted workspace**, the action results in the following:
 * **The workspace is removed from the Recycle Bin**
@@ -163,7 +162,7 @@ The **Restore action** can be executed on archived and deleted workpspaces.
 
 When running the Restore action, a confirmation dialog appears. To execute the action, click the **Restore button**.
 
-![Restoring a deleted workspace](../../.gitbook/assets/8.png)
+![Restoring a deleted workspace](../../.gitbook/assets/lifecycle-management-actions-restore-dialog.png)
 
-![Restoring an archived workspace](../../.gitbook/assets/image%20%281%29.png)
+![Restoring an archived workspace](../../.gitbook/assets/lifecycle-management-actions-restore-archived-dialog.png)
 

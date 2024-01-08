@@ -10,7 +10,7 @@ Access Review in Syskit Point is enabled through Access Review policies applied 
 Access Review policies in Syskit Point enable you to define the following settings of an Access Review:
 * **The scope of the Access Review** - you can choose to review content or membership, or both, decide if you're only interested in shared content and guest users, or maybe want only to see the content down to the folder level
 * **Who should perform the review** - depending on the workspace type, you can select between various groups of users with privileged access, such as team owners, site admins, primary administrators, etc.
-* **The Access Review recurrence frequency** - not all workspaces in a Microsoft 365 environment are equally important; therefore, you can choose to repeat the Access Review process once for the most important workspaces, or up to once in a year for the workspaces that are not frequently changed or used or don't contain sensitive data
+* **The Access Review recurrence frequency** - not all workspaces in a Microsoft 365 environment are equally important; therefore, you can choose to repeat the Access Review process once for the most important workspaces, or up to once a year for the workspaces that are not frequently changed or used or don't contain sensitive data
 
 
 Once created, **policies need to be applied to Microsoft Teams**, **Microsoft 365 Groups**, **sites**, and **OneDrive** in order **to start the automated Access Review process in Syskit Point**.
@@ -23,7 +23,7 @@ In the sections below, you can find detailed instructions on creating and applyi
 
 By default, Syskit Point offers a predefined Access Review policy - **All users and shared files (1)**. 
 
-Here you can choose to:
+Here, you can choose to:
 * **Edit an existing policy \(2\)** or
 * **Delete an existing policy \(3\)** 
 * **Create a new policy \(4\)**
@@ -33,7 +33,7 @@ Here you can choose to:
 **Please note!** The predefined Access Review policy is not applied to any workspaces and will not trigger an automated Access Review.
 {% endhint %}
 
-![Policies Screen](../../.gitbook/assets/create-access-review-policies_default-policy.png)
+![Policies Screen](../../.gitbook/assets/create-access-review-policies-default-policy.png)
 
 Create a new Access Review policy by clicking the **Create New Policy button (4)**. 
 
@@ -41,7 +41,7 @@ The following dialog opens, providing the ability to **choose the policy type**.
 
 **Click Access Review \(1\)** to continue. 
 
-![Policy Type Selection](../../.gitbook/assets/create-access-review-policies_policy-type.png)
+![Policy Type Selection](../../.gitbook/assets/create-access-review-policies-policy-type.png)
 
 The **Create New Policy** dialog opens where the following Access Review options can be defined: 
 * **Policy Name (1)**
@@ -57,11 +57,11 @@ The **Create New Policy** dialog opens where the following Access Review options
     * **Document libraries**
     * **Folders**
     * **Files & folders**
-* **Description (6)** - shows summary info depending on selected options regarding memeberships (3) and content (4)
+* **Description (6)** - shows summary info depending on selected options regarding memberships (3) and content (4)
 * **Advanced Settings (7)** - define who will perform the access review 
 * **Save (8)** - click to Save the Access Review Policy when finished with the configuration
 
-![Create New Policy Dialog](../../.gitbook/assets/create-access-review-policies_create-policy-dialog.png)
+![Create New Policy Dialog](../../.gitbook/assets/create-access-review-policies-create-policy-dialog.png)
 
 **Advanced Settings option (7)** enables you to define which groups of users are responsible for the Access Review. 
 
@@ -87,7 +87,7 @@ Clicking the groups of users for each workspace shows **a checkbox next to each 
 
 When finished, **click Confirm (6)** to store the preferences. 
 
-![Advanced Settings](../../.gitbook/assets/create-access-review-policies_advanced-settings.png)
+![Advanced Settings](../../.gitbook/assets/create-access-review-policies-advanced-settings.png)
 
 {% hint style="warning" %}
 **Please note!** 
@@ -102,7 +102,7 @@ Keep the following in mind:
 
 To apply created Access Review Policies, navigate to **Settings** > **Governance** > **Policies** and click the **Manage Policies button (1)**.
 
-![Manage Policies Button](../../.gitbook/assets/create-access-review-policies_apply-policy-button.png)
+![Manage Policies Button](../../.gitbook/assets/create-access-review-policies-apply-policy-button.png)
 
 
 The **Apply Policy report opens**, enabling you to apply created policies to your **Microsoft Teams**, **Microsoft 365 Groups**, **OneDrive**, and **sites**. 
@@ -115,7 +115,7 @@ To do so:
     * **Remove Policy**
     * **Remove All Policies**
 
-![Manage Policies](../../.gitbook/assets/create-access-review-policies_apply-policy.png)
+![Manage Policies](../../.gitbook/assets/create-access-review-policies-apply-policy.png)
 
 The **Apply Access Review Policy** dialog opens where you can:
 
@@ -123,7 +123,7 @@ The **Apply Access Review Policy** dialog opens where you can:
 * **Choose one of your review policies \(1\)**
 * **Confirm your selection by clicking the Save button (2)**
 
-![Apply Policy Dialog - Policy](../../.gitbook/assets/create-access-review-policies_apply-policy-dialog-part-2.png)
+![Apply Policy Dialog - Policy](../../.gitbook/assets/create-access-review-policies-apply-policy-dialog-part-2.png)
 
 ## Next Steps
 

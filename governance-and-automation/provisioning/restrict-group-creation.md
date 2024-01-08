@@ -59,7 +59,7 @@ Changes can take 30 minutes or more to take effect.
 
 ## Verify Changes
 
-To verify that groups and thus workspaces that rely on groups cannot be created, do the following:
+To verify that groups, and thus workspaces that rely on groups, cannot be created, do the following:
 * **Open Microsoft Teams app**
 * **Click Teams**
 * **Click Join or create a team option** at the bottom of the teams' list
