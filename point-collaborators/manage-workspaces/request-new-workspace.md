@@ -47,7 +47,7 @@ All updates and notifications about your requests and approval progress will be 
     * **Active Requests (4)**
     * **Resolved Requests (5)**
 
-![Request New Workspace - Finalize Request](../../.gitbook/assets/request-new-workspace_requests-screen.png)
+![Request New Workspace - Finalize Request](../../.gitbook/assets/request-new-workspace-requests-screen.png)
 
 
 {% hint style="info" %}

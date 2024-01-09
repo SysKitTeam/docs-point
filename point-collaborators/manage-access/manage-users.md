@@ -100,4 +100,4 @@ To remove a user from the group:
     * The Remove from Group pop-up will open
   * **Click the Remove** button to confirm the removal of the user from the selected group or groups
 
-![Promote User to Group Owner](../../.gitbook/assets/manage-users_teams-and-groups.png)
+![Promote User to Group Owner](../../.gitbook/assets/manage-users-teams-and-groups.png)

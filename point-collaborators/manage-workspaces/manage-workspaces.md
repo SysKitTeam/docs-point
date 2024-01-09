@@ -24,10 +24,10 @@ This article will use Microsoft Groups to explain the steps, but the same steps 
 
 To manage your workspace's access, complete the following: 
 
-* On your Syskit Point home screen, click the **Microsoft Teams & Groups** button
+* On your Syskit Point screen, click the **Microsoft Teams & Groups** button
   * This opens the Microsoft Teams & Groups
   * To manage sites, **click on the Sites button**
-* Navigate to your groups by either clicking the **Microsoft Groups button (1)** at the top or selecting **Microsoft Groups from the filter (2)**
+* Navigate to your groups by either clicking the **Microsoft Groups button** at the top or selecting **Microsoft Groups from the filter**
 
 
 There, you will be able to complete any of the following actions described below. 

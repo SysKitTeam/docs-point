@@ -26,7 +26,7 @@ You can request to join a workspace by either:
 Once you locate the workspace you want to request access to, **click the Ask to Join button (5)**.
   * This can be found on the right side of the screen in the same line as the desired workspace 
 
-![Request Workspace Access](../../.gitbook/assets/request-workspace-access_first-screen.png)
+![Request Workspace Access](../../.gitbook/assets/request-workspace-access-first-screen.png)
 
 Clicking Ask to Join will open a pop-up screen where you can **enter the reason why you are interested in joining (1)** the specific workspace. 
   * If the Access Requests policy that was assigned allows for multiple access levels, you will be able to choose between Member, Owner, or both
