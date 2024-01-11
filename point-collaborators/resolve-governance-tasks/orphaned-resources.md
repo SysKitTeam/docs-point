@@ -144,4 +144,4 @@ The following is available on the task screen:
 * **Who and when (2) resolved the policy violation**
 * **View Details button (3)** that opens the History screen in Syskit Point, showing all the activities that were performed within the workflow
 
-![Policy Violation Resolved - E-mail](../../.gitbook/assets/orphaned_resources-confirmation_email.png)
+![Policy Violation Resolved - E-mail](../../.gitbook/assets/orphaned-resources-confirmation-email.png)
