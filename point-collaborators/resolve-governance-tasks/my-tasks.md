@@ -1,18 +1,18 @@
 ---
 description: >-
-  This article provides insight into the My Tasks section.
+  This article provides insight into the Tasks section.
 ---
 
 
-# My Tasks
+# Tasks
 
-The **My Tasks** tile is located on the left side of Syskit Point, and a notification bubble displays the number of tasks that need to be reviewed.
+The **Tasks** tile is located on the left side of Syskit Point, and a notification bubble displays the number of tasks that need to be reviewed.
 
 To view tasks assigned to you, click the **Tasks button (1)** in your Syskit Point.
 
 ![My Tasks tile](../../.gitbook/assets/permissions-review-my-tasks-tile.png)
 
-**My Tasks** screen displays the active Access Review task with the most important information:
+**Tasks** screen displays the active Access Review task with the most important information:
 
 * **Requested date (1)**
 * **Due date (2)**
@@ -21,11 +21,11 @@ To view tasks assigned to you, click the **Tasks button (1)** in your Syskit Poi
 * **Task categories (5)**
 * **Completed tasks categories (6)**
 
-![My Tasks screen](../../.gitbook/assets/access-review-my-tasks.png)
+![Tasks screen](../../.gitbook/assets/access-review-my-tasks.png)
 
 Click **Review** to continue. The **Access Review Task** screen opens - the same screen that can be accessed from email, as explained in the previous section.
 
-The same can be done for any type of task assigned to you, for example, [lifecycle management](../resolve-governance-tasks/lifecycle-management.md).  
+The same can be done for any type of task assigned to you, for example, [lifecycle management](../resolve-governance-tasks/lifecycle-management.md), or others.  
 
 On the screen that opens, click the **link in the Task column** to continue and review a site.
 
