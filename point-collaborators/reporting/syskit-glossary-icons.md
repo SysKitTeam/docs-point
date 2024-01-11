@@ -15,18 +15,17 @@ Selecting **Sites** on the home page of Syskit Point will open a list with all t
 
 Below is a list and explanation for all the icons, numbered and correlating to the included image. 
 
-For more explanations of the terms, click on the names to be redirected to the Microsoft 365 Glossary. 
+For more explanations of the terms, click on the names to be redirected to the Microsoft 365 Glossary.
 
-* [**OneDrive (1)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#onedrive-for-business)
-* [**Yammer (2)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#yammer)
-* [**Sites (3)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site)
-* [**Microsoft Groups (4)**](https://support.microsoft.com/en-us/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
-* [**Microsoft Teams (5)**](https://support.microsoft.com/en-us/topic/what-is-microsoft-teams-3de4d369-0167-8def-b93b-0eb5286d7a29)
-* **Shared** [**Channels (6)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - collaboration space where you can invite people who are not on your team
-* **Private** [**Channels (7)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - private sections within Microsoft Teams, used to give access exclusively to members of a team
-
- 
-![Icons for Sites](../../.gitbook/assets/syskit-icons-glossary-sites.png)
+| Icon | Explanation |
+|---|---|
+|![Microsoft Teams](../../.gitbook/assets/glossary-icons-microsoft-teams.png)|[Microsoft Teams](https://support.microsoft.com/en-us/topic/what-is-microsoft-teams-3de4d369-0167-8def-b93b-0eb5286d7a29)|
+|![Microsoft 365 Group](../../.gitbook/assets/glossary-icons-microsoft-365-group.png)|[Microsoft 365 Group](https://support.microsoft.com/en-us/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)|
+|![Site](../../.gitbook/assets/glossary-icons-site.png)|[Site](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site)|
+|![OneDrive](../../.gitbook/assets/glossary-icons-onedrive.png)|[OneDrive](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#onedrive-for-business)|
+|![Yammer](../../.gitbook/assets/glossary-icons-yammer.png)|[Yammer](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#yammer)|
+|![Private Channel](../../.gitbook/assets/glossary-icons-private-channel.png)|Private [Channels](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site)|
+|![Shared Channel](../../.gitbook/assets/glossary-icons-shared-channel.png)|Shared [Channels](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site)|
 
 ## Microsoft Teams & Groups
 
