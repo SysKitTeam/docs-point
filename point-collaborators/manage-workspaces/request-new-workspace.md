@@ -21,7 +21,7 @@ Complete the following steps to submit your request:
   * To have it permanently visible, right-click the app icon and select **Pin**.
 * Click the **Request Workspace** button, located on the top right.
 * Select the **type of workspace** you want to request: **Microsoft Team, Microsoft 365 Group, SharePoint Site**.
-* Choose the workspace template that best fits your need from the ones that are available.
+* Choose the workspace template that best fits your needs from the ones that are available.
 * Based on the template, multiple pieces of information may be required - in the case of requesting a Microsoft Teams workspace, the template might require the following information:
   * **Team name (1)**
   * **Group email address (2)**
@@ -34,13 +34,13 @@ Complete the following steps to submit your request:
   * **Department (9)** - that the workspace belongs to
 * Once completed click **Request Team (10)** to finalize your request.
 
-![Request New Workspace - Microsoft Teams Example](../../.gitbook/assets/request-new-workspace_microsoft-teams-info.png)
+![Request New Workspace - Microsoft Teams Example](../../.gitbook/assets/request-new-workspace-microsoft-teams-info.png)
 
-![Request New Workspace - Finalize Request](../../.gitbook/assets/request-new-workspace_microsoft-teams-finalize.png)
+![Request New Workspace - Finalize Request](../../.gitbook/assets/request-new-workspace-microsoft-teams-finalize.png)
 
 All updates and notifications about your requests and approval progress will be visible in the **Microsoft Teams Activity tab** and in the **Syskit Point app**.
 
-* To check on the current status of your request through the Syskit Point app, click on the **Requests (1)** button at the top of the screen.  
+* To check on the current status of your request through the Syskit Point app, click the **Requests (1)** tab at the top of the screen.  
   * On the Requests screen, you will be able to check between: 
     * **Received (2)** requests
     * **Sent (3)** requests
