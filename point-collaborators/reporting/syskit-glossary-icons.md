@@ -18,7 +18,7 @@ Below is a list and explanation for all the icons, numbered and correlating to t
 For more explanations of the terms, click on the names to be redirected to the Microsoft 365 Glossary.
 
 | Icon | Explanation |
-|---|---|
+|---:|---|
 |![Microsoft Teams](../../.gitbook/assets/glossary-icons-microsoft-teams.png)|[Microsoft Teams](https://support.microsoft.com/en-us/topic/what-is-microsoft-teams-3de4d369-0167-8def-b93b-0eb5286d7a29)|
 |![Microsoft 365 Group](../../.gitbook/assets/glossary-icons-microsoft-365-group.png)|[Microsoft 365 Group](https://support.microsoft.com/en-us/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)|
 |![Site](../../.gitbook/assets/glossary-icons-site.png)|[Site](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site)|
