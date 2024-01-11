@@ -6,13 +6,13 @@ description: This article explains how to request to join a workspace after an A
 
 If you're ever in a situation where you **need access to a certain site, team, or group** but don't have permission, the **Request Access to Workspaces feature is a quick and easy solution to this problem**. 
 
-Let's say you're **onboarding into a new organization, and want to join all conversations** relevant to your professional and individual interests. Whether it’s a project M365 group, or the after-work football Team – **ask for access and join the relevant workspaces** that will make your experience more enjoyable.
+Let's say you're **onboarding into a new organization and want to join all conversations** relevant to your professional and individual interests. Whether it’s a project M365 group or the after-work football Team – **ask for access and join the relevant workspaces** that will make your experience more enjoyable.
 
 Being part of the same workspace makes sharing necessary files painless and easy.
 
 When the Access Requests policy is enabled, **users can request to join workspaces either as a Member, Owner, or both** - depending on the Access Requests policy assigned to a particular workspace - **directly through their Microsoft Teams**. 
 
-To request to join a workspace, just follow these steps:
+To request to join a workspace, follow these steps:
 
  * Open your **Microsoft Teams app** and navigate to the **Syskit Point feature (1)**
  * Under the **Workspaces section (2)**, you can see **My Workspaces and All Workspaces (3)** 
@@ -36,9 +36,9 @@ Clicking Ask to Join will open a pop-up screen where you can **enter the reason 
 
 On this request form, you can also find more information on the workspace by navigating to the bottom and clicking the **View Details button (4)**.
 
-![Request Workspace Access - Ask to Join](../../.gitbook/assets/request-workspace-access_second-screen.png)
+![Request Workspace Access - Ask to Join](../../.gitbook/assets/request-workspace-access-second-screen.png)
 
-View Details open an information section for the group which will list the following details:
+View Details opens an information section for the group, which will list the following details:
   * URL of the workspace
   * E-mail for the workspace
   * Privacy level

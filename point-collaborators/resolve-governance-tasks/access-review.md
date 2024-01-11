@@ -181,7 +181,7 @@ The **Sharing step** provides a simple yet detailed overview of all shared conte
 
 If an **object with permission inheritance is selected**, the **Stop Inheriting Permissions action** is available in the side panel.
 
-![Access Review wizard - Sharing step - Actions and reports](../.gitbook/assets/access-review-wizard-sharing-actions-unique.png)
+![Access Review wizard - Sharing step - Actions and reports](../../.gitbook/assets/access-review-wizard-sharing-actions-unique.png)
 
 By switching to the **Users view**, the **top filters** are changed accordingly and enable filtering out specific types of users.
 
