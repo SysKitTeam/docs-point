@@ -32,7 +32,9 @@ You can only set up **Scheduled Reports for workspaces where you are the owner**
 
 ## Manage Scheduled Reports
 
-**Clicking Scheduled Reports on the home page** of Syskit Point will open the dedicated Scheduled Reports screen with a list of all reports you have scheduled. 
+**Clicking the Scheduled Reports button (1) on profile section** of Syskit Point will open the dedicated Scheduled Reports screen with a list of all reports you have scheduled. 
+
+![Scheduled Reports - Profile](../../.gitbook/assets/schedule-reports-profile.png)
 
 Here you will be able to edit, pause or delete existing subscriptions. 
 
@@ -46,13 +48,13 @@ To make changes to your scheduled report, complete the following:
   * **Pause** - puts a pause on delivering the report included in this description
   * **Delete** - erases the subscription entirely
 
-![Managing Scheduled Reports - Subscription](../../.gitbook/assets/schedule-reports-and-alerts_manage-subscription.png)
+![Managing Scheduled Reports - Subscription](../../.gitbook/assets/schedule-reports-manage-subscription.png)
 
 * **Selecting the report Excel file for the subscription (1)** provides **two different actions (2)** that can be completed on the right side of the screen:
   * **Choose to Preview** the file
   * **Delete** the file
 
-![Managing Scheduled Reports - Report](../../.gitbook/assets/schedule-reports-and-alerts_manage-report.png)
+![Managing Scheduled Reports - Report](../../.gitbook/assets/schedule-reports-manage-report.png)
 
 By default, Scheduled Reports are sent once a day. As mentioned, **reports can be delivered via e-mail** or **uploaded to a document library**. The results for both cases are displayed in the pictures below.
 

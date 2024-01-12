@@ -37,7 +37,9 @@ You can only set up **Alerts for workspaces where you are the owner** and for us
 
 ## Manage Alerts
 
-You can manage the alerts you have set up by **clicking Alerts on the home page** of your Syskit Point. 
+You can manage the alerts you have set up by **clicking Alerts button (1)** on the profile section of your Syskit Point. 
+
+![Alerts button](../../.gitbook/assets/alerts-profile.png)
 
 This will open the **Alerts screen**, which shows:
 
@@ -46,11 +48,11 @@ This will open the **Alerts screen**, which shows:
   * **Selecting Alerts History** opens a screen that shows all the alerts that have previously occurred in your environment 
   * There, you can select an alert, and on the right side of the screen, you have the option to **Mark as Resolved** of **View Details** on the alert
 
-![Notifications dropdown](../../.gitbook/assets/schedule-reports-and-alerts_manage-alerts.png)
+![Notifications dropdown](../../.gitbook/assets/alerts-manage-alerts.png)
 
 * Navigating back to the Alerts screen, you can also **select a workspace (1)** which provides the following options:
   * **Disable Alert (2)** - disables the alert for the selected workspace
   * **Edit Alert (3)** - lets you edit the alert for the selected workspace
     * If more than one workspace is selected at the same time, you can only disable the alerts for those workspaces
 
-![Notifications dropdown](../../.gitbook/assets/schedule-reports-and-alerts_manage-alerts-workspaces.png)
+![Notifications dropdown](../../.gitbook/assets/alerts-manage-alerts-workspaces.png)
