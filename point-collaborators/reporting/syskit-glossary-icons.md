@@ -17,15 +17,15 @@ Below is a list and explanation for all the icons, numbered and correlating to t
 
 For more explanations of the terms, click on the names to be redirected to the Microsoft 365 Glossary.
 
-| Icon | Explanation |
-|---:|---|
-|![Microsoft Teams](../../.gitbook/assets/glossary-icons-microsoft-teams.png)|[Microsoft Teams](https://support.microsoft.com/en-us/topic/what-is-microsoft-teams-3de4d369-0167-8def-b93b-0eb5286d7a29)|
-|![Microsoft 365 Group](../../.gitbook/assets/glossary-icons-microsoft-365-group.png)|[Microsoft 365 Group](https://support.microsoft.com/en-us/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)|
-|![Site](../../.gitbook/assets/glossary-icons-site.png)|[Site](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site)|
-|![OneDrive](../../.gitbook/assets/glossary-icons-onedrive.png)|[OneDrive](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#onedrive-for-business)|
-|![Yammer](../../.gitbook/assets/glossary-icons-yammer.png)|[Yammer](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#yammer)|
-|![Private Channel](../../.gitbook/assets/glossary-icons-private-channel.png)|Private [Channels](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site)|
-|![Shared Channel](../../.gitbook/assets/glossary-icons-shared-channel.png)|Shared [Channels](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site)|
+| Icon | Workspace | Description |
+|---:|---|---|
+|![Microsoft Teams](../../.gitbook/assets/glossary-icons-microsoft-teams.png)|[Microsoft Teams](https://learn.microsoft.com/en-us/microsoftteams/teams-overview)|Teams is the place to have informal chats, iterate quickly on a project, work with team files, and collaborate on shared deliverables.|
+|![Microsoft 365 Group](../../.gitbook/assets/glossary-icons-microsoft-365-group.png)|[Microsoft 365 Group](https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/office-365-groups?view=o365-worldwide)|Microsoft 365 Groups is the foundational membership service that drives all teamwork across Microsoft 365. With Microsoft 365 Groups, you can give a group of people access to a collection of shared resources. |
+|![Site](../../.gitbook/assets/glossary-icons-site.png)|[Site](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site)|SharePoint site keeps content at the center of teamwork, making all types of content easily shareable and accessible across teams.|
+|![OneDrive](../../.gitbook/assets/glossary-icons-onedrive.png)|[OneDrive](https://learn.microsoft.com/en-us/sharepoint/onedrive-overview)|OneDrive is a robust but simple-to-use cloud storage platform for small businesses, enterprises, and everything in between.|
+|![Yammer](../../.gitbook/assets/glossary-icons-yammer.png)|[Yammer](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#yammer)/Viva Engage|Viva Engage brings people together across the organization to connect with leaders, coworkers, and communities. It provides an experience where people can crowdsource answers and ideas, share their work and experience, and find belonging at work.|
+|![Private Channel](../../.gitbook/assets/glossary-icons-private-channel.png)|[Private Channel](https://learn.microsoft.com/en-us/microsoftteams/private-channels)| Private channels in Microsoft Teams create focused spaces for collaboration within your teams. Only the users on the team who are owners or members of the private channel can access the channel.|
+|![Shared Channel](../../.gitbook/assets/glossary-icons-shared-channel.png)|[Shared Channel](https://learn.microsoft.com/en-us/microsoftteams/shared-channels)|Shared channels in Microsoft Teams create collaboration spaces where you can invite people who aren't in the team.|
 
 ## Microsoft Teams & Groups
 
@@ -35,17 +35,16 @@ Below is a list and explanation for all the icons, numbered and correlating to t
 
 For more explanations of the terms, click on the names to be redirected to the Microsoft 365 Glossary. 
 
-* [**Mail-Enabled Security Groups (1)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - private sections within Microsoft Teams, used to give access exclusively to members of a team
-* [**Microsoft Groups (2)**](https://support.microsoft.com/en-us/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
-* [**Microsoft Teams (3)**](https://support.microsoft.com/en-us/topic/what-is-microsoft-teams-3de4d369-0167-8def-b93b-0eb5286d7a29)
-* [**Security Groups (4)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - used for granting access to Microsoft 365 workspaces
-* [**Distribution Lists (5)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - used when you want to send an email to a group of people without having to type each individual recipient's name
-* [**Security Group (on-premises) (6)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - used for granting access to Microsoft 365 workspaces
-* [**Distribution Lists (on-premises) (7)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site) - used when you want to send an email to a group of people without having to type each individual recipient's name
-
-![Icons for Microsoft Teams & Groups](../../.gitbook/assets/syskit-icons-glossary-teams-groups.png)
-
-![Icons for Microsoft Teams & Groups](../../.gitbook/assets/syskit-icons-glossary-teams-groups-two.png)
+| Icon | Teams/Group | Description |
+|---:|---|---|
+|![Microsoft Teams](../../.gitbook/assets/glossary-icons-microsoft-teams.png)|[Microsoft Teams](https://learn.microsoft.com/en-us/microsoftteams/teams-overview)|Teams is the place to have informal chats, iterate quickly on a project, work with team files, and collaborate on shared deliverables.|
+|![Microsoft 365 Group](../../.gitbook/assets/glossary-icons-microsoft-365-group.png)|[Microsoft 365 Group](https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/office-365-groups?view=o365-worldwide)|Microsoft 365 Groups is the foundational membership service that drives all teamwork across Microsoft 365. With Microsoft 365 Groups, you can give a group of people access to a collection of shared resources. |
+|![Yammer](../../.gitbook/assets/glossary-icons-yammer.png)|[Yammer](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#yammer)/Viva Engage|Viva Engage brings people together across the organization to connect with leaders, coworkers, and communities. It provides an experience where people can crowdsource answers and ideas, share their work and experience, and find belonging at work.|
+|![Security Group](../../.gitbook/assets/glossary-icons-security-group.png)|[Security Group](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-groups)|Use groups to collect user accounts, computer accounts, and other groups into manageable units. Working with groups instead of with individual users helps you simplify network maintenance and administration.|
+|![Mail-Enabled Security Group](../../.gitbook/assets/glossary-icons-mail-enabled-security-group.png)|[Mail-Enabled Security Groups](https://learn.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups)|A mail-enabled security group can be used to distribute messages and to grant access permissions to resources in Active Directory.|
+|![Security Group (On-Premises)](../../.gitbook/assets/glossary-icons-security-group-on-premises.png)|Security Group (On-Premises)|Security group synced to Azure Active Directory from on-premises Active Directory.|
+|![Distribution List](../../.gitbook/assets/glossary-icons-distribution-list.png)|[Distribution List](https://learn.microsoft.com/en-us/microsoft-365/admin/setup/create-distribution-lists?view=o365-worldwide) | Use distribution lists (sometimes called distribution groups) when you want to send email to group of people without having to type each individual recipient's name.|
+|![Distribution List (On-Premises)](../../.gitbook/assets/glossary-icons-distribution-list-on-premises.png)|Distribution List (On-Premises)|Distribution list synced to Azure Active Directory from on-premises Active Directory.|
 
 
 ## Users 
@@ -57,7 +56,7 @@ Below is a list and explanation for all the icons, numbered and correlating to t
 For more explanations of the terms, click on the names to be redirected to the Microsoft 365 Glossary. 
 
 
-* [**Users (1)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#site)
+* **Users (1)**
 * [**External Users (2)**](https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/about-guest-users?view=o365-worldwide) - also known as guest users
 * **Unlicensed Users (3)** - users without a license assigned
 * **Licensed Users (4)** - users with a license assigned
