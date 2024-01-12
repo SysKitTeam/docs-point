@@ -13,8 +13,6 @@ This article will **explain all of the available icons** and what they mean, whi
 
 Selecting **Sites** on the home page of Syskit Point will open a list with all types of workspaces you can access. 
 
-Below is a list and explanation for all the icons, numbered and correlating to the included image. 
-
 For more explanations of the terms, click on the names to be redirected to the Microsoft 365 Glossary.
 
 | Icon | Workspace | Description |
@@ -30,8 +28,6 @@ For more explanations of the terms, click on the names to be redirected to the M
 ## Microsoft Teams & Groups
 
 Selecting **Microsoft Teams and Groups** on the home page of Syskit Point opens a list of all teams or groups you are the owner or member of. 
-
-Below is a list and explanation for all the icons, numbered and correlating to the included image. 
 
 For more explanations of the terms, click on the names to be redirected to the Microsoft 365 Glossary. 
 
