@@ -71,7 +71,7 @@ When generating any of the **Reports**, you can explore workspaces you have acce
 
 Below is a list and explanation for all the icons used for the content, numbered and correlating to the included image. 
 
-For more explanations on the terms, click on the names to be redirected to the Microsoft 365 Glossary. 
+For more explanations of the terms, click on the names to be redirected to the Microsoft 365 Glossary. 
 
 * [**Lists (1)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#list)
 * [**SharePoint Groups (2)**](https://support.microsoft.com/en-us/office/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d)
@@ -95,7 +95,7 @@ For more explanations on the terms, click on the names to be redirected to the M
 
 When browsing through reports or Overviews for your workspaces, a few icons repeat and can help you get the most out of your search. 
 
-Below you will find a list and explanation for those icons, numbered and correlating to the included image. 
+Below, you will find a list and explanation for those icons, numbered and correlating to the included image. 
 
 * **Column filter (1)** - filter the selected column by selecting specific data from the available list
 * **Column chooser (2)** - you can select which metadata columns will show in your report or view
