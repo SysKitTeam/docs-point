@@ -13,7 +13,7 @@ This article will **explain all of the available icons** and what they mean, whi
 
 Selecting **Sites** on the home page of Syskit Point will open a list with all types of workspaces you can access. 
 
-For more explanations of the terms, click on the names to be redirected to the Microsoft 365 Glossary.
+For more explanations of the terms, click on the names to be redirected to the Microsoft 365 articles.
 
 | Icon | Workspace | Description |
 |---:|---|---|
@@ -29,7 +29,7 @@ For more explanations of the terms, click on the names to be redirected to the M
 
 Selecting **Microsoft Teams and Groups** on the home page of Syskit Point opens a list of all teams or groups you are the owner or member of. 
 
-For more explanations of the terms, click on the names to be redirected to the Microsoft 365 Glossary. 
+For more explanations of the terms, click on the names to be redirected to the Microsoft 365 documentation. 
 
 | Icon | Teams/Group | Description |
 |---:|---|---|
@@ -47,27 +47,23 @@ For more explanations of the terms, click on the names to be redirected to the M
 
 Selecting **Users** on the home page of Syskit Point will open a list with all users you are the manager of.  
 
-Below is a list and explanation for all the icons, numbered and correlating to the included image. 
+For more explanations of the terms, click on the names to be redirected to the Microsoft 365 resources. 
 
-For more explanations of the terms, click on the names to be redirected to the Microsoft 365 Glossary. 
-
-
-* **Users (1)**
-* [**External Users (2)**](https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/about-guest-users?view=o365-worldwide) - also known as guest users
-* **Unlicensed Users (3)** - users without a license assigned
-* **Licensed Users (4)** - users with a license assigned
-* **Inactive Users (5)** - users that have not logged in for a certain amount of time, such as 60 days
-* **Users with Blocked Sign-In (6)** - these are users that have had their log-in privileges removed, for example, an employee that has left the company and no longer has access 
-
-![Icons for Users](../../.gitbook/assets/syskit-icons-glossary-users.png)
+| Icon | User | Description |
+|---:|---|---|
+|![Active User](../../.gitbook/assets/glossary-icons-active-user.png)|[Microsoft 365 User](https://learn.microsoft.com/en-us/microsoft-365/enterprise/manage-microsoft-365-accounts?view=o365-worldwide)|Active Microsoft 365 user in your tenant.|
+|![Guest User](../../.gitbook/assets/glossary-icons-guest-user.png)|[Guest User](https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/about-guest-users?view=o365-worldwide)|Represents various type of Guest users - Guest user that can be found in Azure Active Directory, Ad Hoc Guest user added via sharing link that is not a part of the Azure Active Directory, or a Shared Channel user outside of your company.|
+|![Blocked/deleted User](../../.gitbook/assets/glossary-icons-deleted-user.png)|[Blocked](https://learn.microsoft.com/en-us/microsoft-365/lighthouse/m365-lighthouse-block-user-signin?view=o365-worldwide) or [deleted User](https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/delete-a-user?view=o365-worldwide) |Blocked users cannot sign-in to Microsoft 365 services. Deleted users can be restored within 30 days before their data is permanently deleted. |
 
 ## Reports
 
 When generating any of the **Reports**, you can explore workspaces you have access to and all of the content included in those workspaces. 
 
-Below is a list and explanation for all the icons used for the content, numbered and correlating to the included image. 
+Below is a table with icons used for the content and various users and groups who can have access to said content.
 
-For more explanations of the terms, click on the names to be redirected to the Microsoft 365 Glossary. 
+For more explanations of the terms, click on the names to be redirected to the Microsoft 365 articles. 
+
+### Content
 
 * [**Lists (1)**](https://learn.microsoft.com/en-us/microsoft-365/community/glossary#list)
 * [**SharePoint Groups (2)**](https://support.microsoft.com/en-us/office/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d)
@@ -86,16 +82,24 @@ For more explanations of the terms, click on the names to be redirected to the M
 
 ![Icons for Reports](../../.gitbook/assets/syskit-icons-glossary-access-reports-list-item.png)
 
+### Users & Groups
+
 
 ## Miscellaneous 
 
-When browsing through reports or Overviews for your workspaces, a few icons repeat and can help you get the most out of your search. 
+When browsing through reports or Overviews for your workspaces, a few icons repeat and can help you get the most out of your data. They also enable you to change the look of the interface. 
 
-Below, you will find a list and explanation for those icons, numbered and correlating to the included image. 
+Find a list and explanations for the icons in the table below.
 
-* **Column filter (1)** - filter the selected column by selecting specific data from the available list
-* **Column chooser (2)** - you can select which metadata columns will show in your report or view
-* **Reset Layout (3)** - resets the view back to how it looks by default, removing any custom filters you've selected
-* **Expand to full screen (4)**
-
-![Micellaneous Icons in Reports](../../.gitbook/assets/syskit-icons-glossary-miscellaneous.png)
+|Icon|Action|Description|
+|---:|---|---|
+|![Search](../../.gitbook/assets/glossary-icons-search.png)|Search|Report-level search and column search are available.|
+|![Column Filter](../../.gitbook/assets/glossary-icons-column-filter.png)|Column Filter|Helps you filter out and show rows with selected column values.|
+|![Column Chooser](../../.gitbook/assets/glossary-icons-column-chooser.png)|Column Chooser|Enables you to add additional columns or remove currently displayed columns from the report.|
+|![Reset Layout](../../.gitbook/assets/glossary-icons-reset-layout.png)|Reset Layout|Enables you to revert the report to show default columns, removing any custom filters you've selected.|
+|![Expand to Full Screen](../../.gitbook/assets/glossary-icons-expand-full-screen.png)|Expand to Full Screen|Shows the report in Full Screen.|
+|![Collapse from Full Screen](../../.gitbook/assets/glossary-icons-collapse-full-screen.png)|Collapse from Full Screen|Returns the report back from Full Screen mode. Navigation, sidebar, and top filter tiles are displayed along the report grid.|
+|![Collapse Sidebar](../../.gitbook/assets/glossary-icons-collapse-sidebar.png)|Collapse Sidebar|Collapsing the sidebar provides more space for the report grid. |
+|![Expand Sidebar](../../.gitbook/assets/glossary-icons-expand-sidebar.png)|Expand Sidebar| Expanding sidebar shows available contextual actions next to the report.|
+|![Expand All](../../.gitbook/assets/glossary-icons-expand-all.png)|Expand All|Expand All shows all nested elements on the report. Action is available on a tree-like report where an object has one or multiple sub-objects, such as a folder with files.|
+|![Collapse All](../../.gitbook/assets/glossary-icons-collapse-all.png)|Collapse All| Collapse All shows first-level elements only. Action is available on a tree-like report where an object has one or multiple sub-objects, such as a folder with files.|
