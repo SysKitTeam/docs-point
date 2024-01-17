@@ -14,9 +14,7 @@ description: >-
 * **Already using Syskit Point Cloud?** Syskit Point Cloud is automatically upgraded to the latest version when available. The automatic update occurs outside working hours to ensure minimal interference with your day-to-day business.
 
 
-
 ## Improvements & Bug Fixes
-
 
 * **Additional features and optimizations added to the User Access report.**
   * **The User Access report has additional columns** available to select from the column chooser: Sensitivity Label, Created On, Last Logged In.
@@ -37,7 +35,7 @@ description: >-
 
 * **Improved the description** for the Inactive Guest Users policy email and task screen.
 
-* **Improved provisioning** by increasing the sturdiness of Outlook properties. 
+* **Improved provisioning** by increasing the sturdiness of Syskit Point when applying Outlook properties to workspaces. 
 
 * **Fixed an issue** where task resolvers who were removed from their resolver position would still receive emails when someone else resolved their past Security & Compliance check violations.
 
