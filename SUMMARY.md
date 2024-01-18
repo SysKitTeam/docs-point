@@ -107,6 +107,7 @@
   * [Overview](reporting/overview.md)
   * [Storage Management](reporting/storage-management/README.md)
     * [Storage Management](reporting/storage-management/storage-management.md)
+    * [Site Storage Limits in Microsoft 365](reporting/storage-management/site-storage-limits.md)
     * [Storage Reports](reporting/storage-management/storage-reports.md)
   * [External Sharing Reports](reporting/external-sharing-reports.md)
   * [Access Reports](reporting/access-reports.md)
