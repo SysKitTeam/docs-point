@@ -72,19 +72,35 @@ Once the site report is successfully generated, the following information is ava
     * **Other**: any extensions not categorized in one of the above groups
 * **The File Version Cleanup tile** shows the amount of space you can free up by cleaning up the outdated versions of the site. 
 
-The following data will be displayed in the columns:
+The default view for your Site Storage Metrics report is set as Files Only. It shows the list of all files on your site with the following displayed in the columns:
+
+* **Name**; the name of the file.
+   * Clicking the name opens the File Storage Details report.
+* **Path**; shows the path this file follows in your workspace.
+* **Extension**; the type of extension the file has.
+* **File Size**; shows the size of the specific file.
+* **Total Size**; shows the amount of storage taken by all versions of the file.
+* **Size (% of the site storage)**; shows the percentage of storage used by the file.
+* **File Versions**; shows the versions of the files.
+* **Author**; shows the author of the file.
+* **Last Activity**; shows the date the last activity on the file happened.
+
+**Selecting one or more files** provides the **action to Clean Up File Versions**, located on the right side of the screen under the **Manage section**. 
+
+To change your report view, click the *Sort by* button located in the top right corner of the report. 
+
+Selecting the Site Structure view shows the following information:
 
 * **Name**; the name of the site.
    * Clicking the name opens the Site Details page of the selected workspaces.
    * Clicking the arrow symbol next to the name expands the site details to show all content included in the site.
 * **Type**; shows what type of site or content it is.
 * **Extension**; shows any extensions to the site or content.
-* **Size**; shows the size of the site or content.
-* **Size (All Versions)**; shows the amount of storage taken by the site or specific content within the workspace.
+* **File Size**; shows the size of the specific file.
+* **Total Size**; shows the amount of storage taken by the site or specific content within the workspace.
 * **Size (% of the site storage)**; shows the percentage of storage used by the site or content.
 * **File Versions**; shows the versions of the files.
 * **Author**; shows the author of the content.
-* **Storage Limit**; show the storage limit for the site.
 * **Last Activity**; shows the date the last activity on the site or content happened.
 
 **Selecting the site** or one or more of the files included in the site provides the **action to Clean Up File Versions**, located on the right side of the screen under the **Manage section**. 
