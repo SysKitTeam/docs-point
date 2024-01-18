@@ -14,6 +14,8 @@ The best thing you can do **to avoid additional costs is to proactively clean up
 
 In the sections below, you can find ways to utilize Microsoft 365 built-in options, as well as Syskit Point, to stay on top of your storage management tasks.
 
+This article contains details on:
+
   * [Storage Metrics Reports in Syskit Point](../storage-management/storage-management.md#storage-metrics-report-in-syskit-point)
   * [Free Up Storage](../storage-management/storage-management.md#free-up-storage)
 
@@ -54,12 +56,15 @@ For more details on exactly what information can be found in the reports, [take 
 
 ## Free Up Storage
 
-To **free up storage directly in Syskit Point**, generate the tenant-wide **Storage Metrics Report** in the following way:
+To **free up storage directly in Syskit Point**, you can generate the **Site Storage Metrics report** directly from Reports and filtering to the **Cleanup & Health checks** section.
+
+It can also be generated from the tenant-wide **Storage Metrics Report** in the following way:
  
  * **Click the View All** button on the Storage tile located on the dashboard.
    * Alternatively, **click the Reports button** located on the left side of the screen, **select Cleanup & Health Check** in the filter, and **click the Storage Metrics report**.
 
 Once the Storage Metrics Report is generated, under the Largest Sites section, **click the name of the site** you want to remove storage from. This opens the **Site Storage Metrics report (1)**. 
+
 
 There are three different ways to clean up the storage space across your sites. 
 
