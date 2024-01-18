@@ -17,7 +17,7 @@ In the sections below, you can find ways to utilize Microsoft 365 built-in optio
 This article contains details on:
 
   * [Storage Metrics Reports in Syskit Point](../storage-management/storage-management.md#storage-metrics-report-in-syskit-point)
-  * [Free Up Storage](../storage-management/storage-management.md#free-up-storage)
+  * [How to Free Up Storage](../storage-management/storage-management.md#free-up-storage)
 
 [To find more information and see if your plan is eligible to buy extra storage, explore the following Microsoft article](https://learn.microsoft.com/en-us/microsoft-365/commerce/add-storage-space?view=o365-worldwide).
 
@@ -56,7 +56,7 @@ For more details on exactly what information can be found in the reports, [take 
 
 ## Free Up Storage
 
-To **free up storage directly in Syskit Point**, you can generate the **Site Storage Metrics report** directly from Reports and filtering to the **Cleanup & Health checks** section.
+To **free up storage directly in Syskit Point**, you can generate the **Site Storage Metrics report** directly from Reports and filtering to the **Cleanup & Health Check** section.
 
 It can also be generated from the tenant-wide **Storage Metrics Report** in the following way:
  
