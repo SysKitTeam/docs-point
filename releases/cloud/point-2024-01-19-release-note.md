@@ -20,4 +20,4 @@ description: >-
   * Adressed security advisory - [CVE-2024-21319](https://github.com/advisories/GHSA-8g9c-28fc-mcx2).
 
 * **Updated the Microsoft.Data.SqlClient NuGet**.
-  * Adressed security advisory - [CVE 2024 0056](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-0056).
+  * Adressed security advisory - [CVE-2024-0056](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-0056).
