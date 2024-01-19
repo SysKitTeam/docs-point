@@ -17,7 +17,7 @@ description: >-
 ## Security Updates
 
 * **Replaced the System.IdentityModel.Tokens.Jwt with Microsoft.IdentityModel.JsonWebTokens NuGet**. 
-  * [Information about the related vulnerability is available here](https://github.com/advisories/GHSA-8g9c-28fc-mcx2).
+  * Adressed security advisory - [CVE-2024-21319](https://github.com/advisories/GHSA-8g9c-28fc-mcx2).
 
 * **Updated the Microsoft.Data.SqlClient NuGet**.
-  * [Information about the related vulnerability is available here](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-0056).
+  * Adressed security advisory - [CVE 2024 0056](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-0056).
