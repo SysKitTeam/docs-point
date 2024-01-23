@@ -20,7 +20,7 @@ Below, the reasons for such requirements are described in greater detail.
 
 When [connecting to a Microsoft 365 tenant](../set-up-point-data-center/deployment/connect-to-tenant.md) for the first time, **you must connect with a Global Administrator account.**
 
-**The first time you connect to your Microsoft 365 tenant, you will be prompted to consent** to a set of permissions that Syskit Point requires to function correctly. Additional prompts may show up in the future when installing a newer version of Syskit Point because of new functionality, and in consequence, potentially new required permissions.
+**The first time you connect to your Microsoft 365 tenant, you will be prompted to consent** to a set of permissions that Syskit Point requires to function correctly. Additional prompts may appear in the future when installing a newer version of Syskit Point because of new functionality and, consequently, new permissions required.
 
 ![Microsoft 365 Global Admin Consent](../.gitbook/assets/permission-requirements-ga-consent.png)
 
@@ -98,6 +98,15 @@ To allow safer access to your Microsoft 365 tenant data and optimize the data sy
 | Permissions                    | Type        | Reason                                                                                                                |
 | ------------------------------ | ----------- | --------------------------------------------------------------------------------------------------------------------- |
 | Have full control on all sites | Application | Allows Syskit Point to read documents and list items in all site collections and show you reports based on that data. |
+
+
+
+{% hint style="information" %}
+
+**Please note:** The Syskit Point Service Principal is also added to the Exchange Administrator role in order to support data collection.
+
+{% endhint %}
+
 
 ### Syskit Point Client
 
@@ -177,6 +186,13 @@ When using Microsoft Authentication Flow to connect a service account, the follo
 | Permissions                    | Type        | Reason                                                                                                                |
 | ------------------------------ | ----------- | --------------------------------------------------------------------------------------------------------------------- |
 | Have full control on all sites | Application | Allows Syskit Point to read documents and list items in all site collections and show you reports based on that data. |
+
+
+{% hint style="information" %}
+
+**Please note:** The Syskit Point Permissions Loader Principal is also added to the Exchange Administrator role in order to support data collection.
+
+{% endhint %}
 
 ### Syskit Point Power Platform
 
