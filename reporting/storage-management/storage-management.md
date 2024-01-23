@@ -4,22 +4,18 @@ description: This article explains how to manage and free up your storage on Sha
 
 # Storage Management
 
-**Storage management in Microsoft 365 is an important task, as it directly impacts your monthly expenses**. 
-When talking about storage in Microsoft 365, we usually refer to the SharePoint space an organization has at its disposal, which depends on the number of purchased licenses.
+## Storage Management in Microsoft 365
 
+**Storage management in Microsoft 365 is important, as it directly impacts your monthly expenses**. 
+When talking about storage in Microsoft 365, we usually refer to the SharePoint space an organization has at its disposal, which depends on the number of purchased licenses.
 [Read this article provided by Microsoft to learn more about SharePoint storage limits](https://learn.microsoft.com/en-us/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
 
 After you run out of storage for your SharePoint sites, depending on your plan, you can use the Office 365 Extra File Storage add-on to buy more storage in 1GB increments.
-The best thing you can do **to avoid additional costs is to proactively clean up your storage and use tools that are available to manage your storage**.
-
+The best thing you can do to avoid additional costs is to proactively clean up your storage and use tools that are available to manage your storage.
 In the sections below, you can find ways to utilize Microsoft 365 built-in options, as well as Syskit Point, to stay on top of your storage management tasks.
 
-This article contains details on:
-
-  * [Storage Metrics Reports in Syskit Point](../storage-management/storage-management.md#storage-metrics-report-in-syskit-point)
-  * [How to Free Up Storage](../storage-management/storage-management.md#free-up-storage)
-
 [To find more information and see if your plan is eligible to buy extra storage, explore the following Microsoft article](https://learn.microsoft.com/en-us/microsoft-365/commerce/add-storage-space?view=o365-worldwide).
+
 
 ## Storage Metrics Reports in Syskit Point
 
@@ -42,7 +38,9 @@ Once you detect the largest sites with the help of the Storage Metrics report, u
 
 ![Storage Metrics Report in Point](../../.gitbook/assets/optimize-storage-storage-metrics-report-point.png)
 
-You can also access the [Site Storage](../../reporting/storage-management/storage-reports.md#site-storage-metrics) and the [File Storage](../../reporting/storage-management/storage-reports.md#file-storage-details) reports.
+You can also access the following Storage reports:
+* [Site Storage Metrics](../../reporting/storage-management/storage-reports.md#site-storage-metrics); shows site storage usage over time, along with an overview of all files (and types of files) stored on the site and the option to clean up older file versions.
+* [File Storage Details](../../reporting/storage-management/storage-reports.md#file-storage-details); shows how much storage is used by a file as well as an overview of all file versions still stored and the ability to remove the older, or unused, file versions.
 
 With the help of these reports, you can:
 
@@ -56,15 +54,12 @@ For more details on exactly what information can be found in the reports, [take 
 
 ## Free Up Storage
 
-To **free up storage directly in Syskit Point**, you can generate the **Site Storage Metrics report** directly from Reports and filtering to the **Cleanup & Health Check** section.
-
-It can also be generated from the tenant-wide **Storage Metrics Report** in the following way:
+To **free up storage directly in Syskit Point**, generate the tenant-wide **Storage Metrics Report** in the following way:
  
  * **Click the View All** button on the Storage tile located on the dashboard.
    * Alternatively, **click the Reports button** located on the left side of the screen, **select Cleanup & Health Check** in the filter, and **click the Storage Metrics report**.
 
 Once the Storage Metrics Report is generated, under the Largest Sites section, **click the name of the site** you want to remove storage from. This opens the **Site Storage Metrics report (1)**. 
-
 
 There are three different ways to clean up the storage space across your sites. 
 
@@ -89,8 +84,7 @@ You can complete this action on the File Storage details screen as well. To navi
 
 From there:
 
- * Under the Largest Files & Folders section, **click the arrow next to the folders** to expand them until you reach the list of files within the folder.
- * **Click the name of the file** you want to generate the report for.
+ * Under the Largest Files & Folders section and **click the name of the file** you want to generate the File Details report for.
  * Once the report is generated, **select one or more of the file versions (1)**, and the **action to Delete Version (2)** is then available on the right side of the screen under the **Manage section**. 
 
 ![File Storage Details - Delete Version](../../.gitbook/assets/optimize-storage-file-storage-details-delete.png)
@@ -102,15 +96,10 @@ From there:
 You can also remove storage directly from SharePoint by clicking the **link in the Storage Metrics URL column**. 
   * The SharePoint site-specific Storage Metrics report opens in your browser.
 
-{% hint style="information" %}
-[Learn about the site storage limits in Microsoft 365 in this article.](../../reporting/storage-management/site-storage-limits.md)
-{% endhint %}
-
 ## Related Articles
 
 * [Configure Storage Management](../../configuration/configure-storage-management.md)
 * [Configure Tenant Storage Limit Policy](../../governance-and-automation/automated-workflows/tenant-storage-admin.md)
-* [Site Storage Limits in Microsoft 365](../../reporting/storage-management/site-storage-limits.md)
 * [Tenant Storage Security & Compliance Check](../../governance-and-automation/security-compliance-checks/tenant-storage.md)
 * [Resolve Tenant Storage Limit Task](../../point-collaborators/resolve-governance-tasks/tenant-storage-limit.md)
 * [Storage Metrics Report](../../reporting/storage-management/storage-reports.md#storage-metrics)
