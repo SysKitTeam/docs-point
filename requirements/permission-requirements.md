@@ -103,7 +103,7 @@ To allow safer access to your Microsoft 365 tenant data and optimize the data sy
 
 {% hint style="information" %}
 
-**Please note:** The Syskit Point Service Principal is also added to the Exchange Administrator role in order to sync the distribution list and email-enabled security group owners, as well as support management actions on such groups.
+**Please note:** The Syskit Point Service Principal is also added to the Exchange Administrator; this enables syncing the distribution list and email-enabled security group owners and running management actions for such groups in Syskit Point.
 
 {% endhint %}
 
@@ -190,7 +190,7 @@ When using Microsoft Authentication Flow to connect a service account, the follo
 
 {% hint style="information" %}
 
-**Please note:** The Syskit Point Permissions Loader Principal is also added to the Exchange Administrator role in order to sync the distribution list and email-enabled security group owners, as well as support management actions on such groups.
+**Please note:** The Syskit Point Permissions Loader Principal is also added to the Exchange Administrator role; this enables syncing the distribution list and email-enabled security group owners and running management actions for such groups in Syskit Point.
 
 {% endhint %}
 
