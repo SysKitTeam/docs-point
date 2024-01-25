@@ -45,6 +45,7 @@ In the **Automation Options** section, you can:
     * **Delete (3)**
 * **Define the number of days owners have to complete the assigned Lifecycle Management task (4)**
 * **Choose whether to send automatic reminders to owners (5)** in case they don't complete the assigned tasks
+  * When active, automatic **reminders are sent 3 work days before the due date** for the task
 * **Click Save (6)** when finished with the configuration
 
 ![Lifecycle Management - Automation Options](../../.gitbook/assets/enable-lifecycle-management-automation-options.png)
