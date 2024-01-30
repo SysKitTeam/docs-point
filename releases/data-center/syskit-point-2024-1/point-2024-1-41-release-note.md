@@ -1,17 +1,17 @@
 ---
 description: >-
-  This article lists improvements and bug fixes in Syskit Point version 2023.5.39.113
+  This article lists improvements and bug fixes in Syskit Point version 2024.1.41
 ---
 
-# Syskit Point 2023.5.39
+# Syskit Point 2024.1.41
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
-**Product version:** 2023.5.39
+**Product version:** 2024.1.41
 
-**Build number:** 113
+**Build number:** 74
 
-**Release date:** December 14, 2023
+**Release date:** February 1, 2024
 
 ## Get the Latest Version
 
@@ -23,7 +23,6 @@ description: >-
 See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../set-up-point-data-center/deployment/upgrade-syskit-point.md).
 
 ## Features
-
 
 * **New updates added to the Storage Management feature**!
     * When the storage cleanup actions take a while to complete, the progress can now be tracked. 
