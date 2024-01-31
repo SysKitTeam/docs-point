@@ -9,7 +9,7 @@ description: >-
 
 **Product version:** 2024.1.41
 
-**Build number:** 74
+**Build number:** 75
 
 **Release date:** February 1, 2024
 
@@ -22,14 +22,11 @@ description: >-
 
 See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../set-up-point-data-center/deployment/upgrade-syskit-point.md).
 
-## Features
+## Improvements
 
 * **New updates added to the Storage Management feature**!
     * When the storage cleanup actions take a while to complete, the progress can now be tracked. 
     * Collaborators can now access Storage Metrics reports for their workspaces. 
-
-
-## Improvements & Bug Fixes
 
 * The ability to **manage sensitivity labels on Shared and Private channel sites** was added. 
 
@@ -62,6 +59,18 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 * **Improved provisioning** by increasing the sturdiness of Syskit Point when applying Outlook properties to workspaces. 
 
+
+
+## Security Updates
+
+* **Replaced the System.IdentityModel.Tokens.Jwt with Microsoft.IdentityModel.JsonWebTokens NuGet**. 
+  * Adressed security advisory - [CVE-2024-21319](https://github.com/advisories/GHSA-8g9c-28fc-mcx2).
+
+* **Updated the Microsoft.Data.SqlClient NuGet**.
+  * Adressed security advisory - [CVE-2024-0056](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-0056).
+
+## Bug Fixes
+
 * **Fixed an issue** where SHAREPOINT\\system account activity was used when calculating the Last activity of a workspace, even though the account was added to the list of Ignored Service Accounts. 
 
 * **Fixed a bug** where Sensitivity Labels for Private channel sites were not being synced correctly. 
@@ -84,12 +93,6 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 * **Fixed an issue** where metadata sync was not properly functioning for external INT and DateTime values. 
 
+* **Fixed an issue** where Syskit Point deployment or upgrade would fail in specific Azure regions with the following error: `The parameter 'MinTlsCipherSuite' has an invalid value`.
+
 * **Various improvements and minor fixes are available**.
-
-## Security Updates
-
-* **Replaced the System.IdentityModel.Tokens.Jwt with Microsoft.IdentityModel.JsonWebTokens NuGet**. 
-  * Adressed security advisory - [CVE-2024-21319](https://github.com/advisories/GHSA-8g9c-28fc-mcx2).
-
-* **Updated the Microsoft.Data.SqlClient NuGet**.
-  * Adressed security advisory - [CVE-2024-0056](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-0056).
