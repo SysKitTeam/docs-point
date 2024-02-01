@@ -32,8 +32,8 @@ Additional configuration is needed for the Storage Management feature to work.
 
 * **The Storage Management feature is now fully available**!
   * The report section now also contains the: 
-    * [Site Storage Metrics report](../../../reporting/storage-management/storage-reports.md#site-storage-metrics) 
-    * [File Storage Details report](../../../reporting/storage-management/storage-reports.md#file-storage-details)
+    * [Site Storage Metrics report](../../../storage-management/storage-reports.md#site-storage-metrics) 
+    * [File Storage Details report](../../../storage-management/storage-reports.md#file-storage-details)
       * Drill from the Site Storage Metrics report to the File Storage Details report by clicking a file name.
       * Use this report to see all file versions and the total storage used by all versions.
       * Find how much storage is used by the file versions older than 6 months.

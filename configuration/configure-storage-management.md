@@ -2,11 +2,11 @@
 description:  This article describes how you can set up Storage Management in Syskit Point. 
 ---
 
-# Storage Storage Management in Syskit Point
+# Configure Storage Management in Syskit Point
 
 The Syskit Point Storage Management feature helps you keep your environment clutter-free, optimize the usage of your storage, and gain insight into how your storage is distributed across your tenant.
 
-For more information on this feature, [take a look at the Storage Management article](../reporting/storage-management/storage-management.md). 
+For more information on this feature, [take a look at the Storage Management article](../storage-management/storage-reports.md). 
 
 To configure the Storage Management feature within Syskit Point, complete the following steps:
 
@@ -25,8 +25,8 @@ Once storage management has been turned on, you can also customize your storage 
 * **Show how much I can save if I keep the latest X file versions (4)** - here, you can set a number in place of X depending on how many of the latest file versions you want to keep when trying to declutter your workspaces
 * **Show how much I can save if I delete file versions older than X months (5)** - here, you can select the number of months that the file version should be older than when considering cleaning up your site and deleting previous versions
 * These values can be found in tiles on: 
-  * The [Site Storage Metrics](../reporting/storage-management/storage-reports.md#site-storage-metrics) report, where you can use them to also instantly clean up your site, along with being shown the amount of storage that will be freed up.
-  * The [File Storage Details](../reporting/storage-management/storage-reports.md#file-storage-details) report, where you can use the tiles to filter between the versions of the files before deciding which to delete. 
+  * The [Site Storage Metrics](../storage-management/storage-reports.md#site-storage-metrics) report, where you can use them to also instantly clean up your site, along with being shown the amount of storage that will be freed up.
+  * The [File Storage Details](../storage-management/storage-reports.md#file-storage-details) report, where you can use the tiles to filter between the versions of the files before deciding which to delete. 
 
 Once finished, **click Save (6)** to save your storage management preferences. 
 
@@ -37,8 +37,8 @@ Once finished, **click Save (6)** to save your storage management preferences.
 * [Configure Your Environment for Storage Management](../configuration/configure-point-for-storage-management.md)
 * [Storage Management](../reporting/storage-management/storage-management.md)
 * [Configure Tenant Storage Limit Policy](../governance-and-automation/automated-workflows/tenant-storage-admin.md)
-* [Tenant Storage Security & Compliance Check](../../governance-and-automation/security-compliance-checks/tenant-storage.md)
-* [Resolve Tenant Storage Limit Task](../../point-collaborators/resolve-governance-tasks/tenant-storage-limit.md)
-* [Storage Metrics Report](../reporting/storage-management/storage-reports.md#storage-metrics)
-* [Site Storage Metrics Report](../reporting/storage-management/storage-reports.md#site-storage-metrics)
-* [File Storage Details Report](../reporting/storage-management/storage-reports.md#file-storage-details)
+* [Tenant Storage Security & Compliance Check](../governance-and-automation/security-compliance-checks/tenant-storage.md)
+* [Resolve Tenant Storage Limit Task](../point-collaborators/resolve-governance-tasks/tenant-storage-limit.md)
+* [Storage Metrics Report](../storage-management/storage-reports.md)
+* [Site Storage Metrics Report](../storage-management/storage-reports.md#site-storage-metrics)
+* [File Storage Details Report](../storage-management/storage-reports.md#file-storage-details)

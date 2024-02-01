@@ -51,7 +51,7 @@ The task is resolved when your tenant storage drops below the limit set for the 
 
 ## Related Articles
 
-* [Storage Management](../../reporting/storage-management/storage-management.md)
+* [Storage Management](../../storage-management/storage-management.md)
 * [Configure Tenant Storage Limits Policy](../../governance-and-automation/automated-workflows/tenant-storage-admin.md)
 * [Tenant Storage Security & Compliance check](../../governance-and-automation/security-compliance-checks/tenant-storage.md)
-* [Storage Reports](../../reporting/storage-management/storage-reports.md)
+* [Storage Reports](../../storage-management/storage-reports.md)
