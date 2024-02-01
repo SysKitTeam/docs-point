@@ -99,7 +99,8 @@ There are three different ways to clean up the storage space across your sites.
    * **Choose to Clean Up all but the last X file version(s) (3)**
      * The exact numbers shown here can be customized in your Syskit Point settings; for more details on this, take a look at the [Configure Storage Management article](../../configuration/configure-storage-management.md)
 
-  * **Selecting the site (4)**, or the files included in the site and clicking the **Clean Up File Versions button (5)**, located on the right side of the screen under the **Manage section**. 
+  * **Selecting the file (4)**, or the site itself, and clicking the **Clean Up File Versions button (5)**, located on the right side of the screen under the **Manage section**.
+    * The default setting for the Site Metrics report shows a list of all files included in the site. You can change how you view the Site Metrics report by clicking the **Sort by button (6)**, located on the top right of the report, and selecting between **Site Structure or Files Only**
 
 ![Site Storage Metrics Report- Clean Up File Versions](../../.gitbook/assets/optimize-storage-site-storage-metrics-report-cleanup.png)
 
