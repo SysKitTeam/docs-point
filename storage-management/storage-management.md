@@ -24,7 +24,7 @@ To start with your Storage Management, make sure it's configured based on your p
 
 That's where you can set up certain metrics that help you with the clean-up of your storage, such as how many versions of a file you want to keep or how old files should be before you delete them. 
 
-If you haven't done it already, [the first step is to configure your environment for Storage Management in Syskit Point, take a look at this article.](../../configuration/configure-storage-management.md)
+If you haven't done it already, [the first step is to configure your environment for Storage Management, take a look at this article.](../configuration/configure-point-for-storage-management.md)
 
 Next, for a step-by-step guide, [take a look at the Configure Storage Management within Syskit Point article.](../../configuration/configure-storage-management.md)
 
