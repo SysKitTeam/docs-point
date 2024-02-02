@@ -7,9 +7,6 @@ description: >-
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think](https://www.syskit.com/company/contact-us/).
 
-# January 18, 2024
-
-[Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think](https://www.syskit.com/company/contact-us/).
 
 ## About Syskit Point Cloud
 
@@ -20,8 +17,8 @@ description: >-
 ## Features
 
 * **New Policies added:** Shadow Users and Workspaces with Too Many Members. 
-  * Shadow users are users that have access to specific documents/folders or other content, but are not members of the workspace. For more details, [read the Workspaces with Shadow Users article.](../linkhere)
-  * Workspaces with Too Many Members are workspaces that have a number of members that is over a defined threshold. For more details, [read the Workspaces with Too Many Members article.](../linkhere)
+  * Shadow users are users who have access to specific documents/folders or other content but are not members of the workspace. For more details, [read the Workspaces with Shadow Users article.](../linkhere)
+  * Workspaces with Too Many Members are workspaces that have a number of members that are over a defined threshold. For more details, [read the Workspaces with Too Many Members article.](../linkhere)
 
 
 ## Improvements & Bug Fixes
@@ -58,10 +55,8 @@ description: >-
 
 * **Fixed an issue** on sites where information about file versions and sizes was not regularly refreshing.
 
-* **Fixed a bug** where users who were both admins and workspace owners were not added as Reviewers for Private Channels nor could they be added manually. 
-
+* **Fixed a bug** where users who were both admins and workspace owners were not added as Reviewers for Private Channels, nor could they be added manually. 
 
 * **Fixed an error** that showed up when trying to upgrade Syskit Point and stated the following: `The parameter MinTlsCipherSuite has an invalid value. Details: Value is invalid. Acceptable values are: TLS_AES_256_GCM_SHA384,TLS_AES_128_GCM_SHA256.`
-
 
 * **Various improvements and minor UX fixes are available**.
