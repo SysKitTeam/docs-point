@@ -8,7 +8,7 @@ A predefined policy - **Orphaned Workspaces** - can be found on the Policies scr
 
 Click the **Edit (1)** icon to view all defined options for the policy. 
 
-![Orphaned Workspaces - Edit Policy](../../.gitbook/assets/set_up_automated_workflows-orphaned_edit.png)
+![Orphaned Workspaces - Edit Policy](../../.gitbook/assets/set-up-automated-workflows-orphaned-edit.png)
 
 The **Edit Policy** dialog opens where you can:
 * **Define the policy name (1)**

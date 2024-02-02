@@ -25,7 +25,7 @@ You can find the following information in the e-mail:
 * **Due date to resolve the policy violation (3)**; you have 15 workdays to resolve the policy violation
 * **Resolve button (4) that takes you to Syskit Point**, where you can resolve the policy violation
 
-![Policy Violation E-mail](../../.gitbook/assets/maximum_number_of_owners-email.png)
+![Policy Violation E-mail](../../.gitbook/assets/maximum-number-of-owners-email.png)
 
 **Click the Resolve button to open the policy violation task** in Syskit Point.
 
@@ -34,13 +34,11 @@ You can find the following information in the e-mail:
 Along with the e-mail, Syskit Point creates a policy violation task that provides you with all information and actions needed to resolve the policy violation. 
 The following is available on the task screen:
 * **Search (1)**, which can help you to find existing owners
-* **Activity Timeline (2)** showing all steps in the process
-* **List of all owners who got the policy violation task (3)** 
-* **Change to Member action (4)**; once clicked, an appropriate **message appears next to the former owner along with the Undo action (5)** 
-* **Let other owners decide button (6)**, which will **result in you staying an owner and completing your policy violation task** while **leaving the task for other owners** to decide whether they want to renounce their ownership or change other owners to members
-* **Resolve button (7)** that gets **enabled when you change owners to members to comply with the company policy** regarding the maximum number of owners; **once clicked, a dialog opens, enabling you to input a comment and resolve the policy violation**
+* **Change to Member action (2)**; once clicked, an appropriate **message appears next to the former owner along with the Undo action (3)** 
+* **Let other owners decide button (4)**, which will **result in you staying an owner and completing your policy violation task** while **leaving the task for other owners** to decide whether they want to renounce their ownership or change other owners to members
+* **Resolve button (5)** that gets **enabled when you change owners to members to comply with the company policy** regarding the maximum number of owners; **once clicked, a dialog opens, enabling you to input a comment and resolve the policy violation**
 
-![Policy Violation Task](../../.gitbook/assets/maximum_number_of_owners-policy_violation_task.png)
+![Policy Violation Task](../../.gitbook/assets/maximum-number-of-owners-policy-violation-task.png)
 
 {% hint style="warning" %}
 **Please note!**  
@@ -52,11 +50,11 @@ The following is available on the task screen:
 
 **After you resolve the policy violation, the History screen opens**, giving you an overview of all actions performed within the workflow.
 
-![Policy Violation History Screen](../../.gitbook/assets/maximum_number_of_owners-workflow_history.png)
+![Policy Violation History Screen](../../.gitbook/assets/maximum-number-of-owners-workflow-history.png)
 
 **After you resolve the policy violation, a confirmation e-mail is also sent to owners**, showing the following information:
 * **Microsoft Teams or Microsoft 365 Group where an owner resolved the policy violation (1)**
 * **Who and when (2) resolved the policy violation**
 * **View Details button (3)** that **opens the History screen** in Syskit Point, showing all the activities that were performed within the workflow
 
-![Policy Violation Resolved - E-mail](../../.gitbook/assets/maximum_number_of_owners-resolved_email.png)
+![Policy Violation Resolved - E-mail](../../.gitbook/assets/maximum-number-of-owners-resolved-email.png)

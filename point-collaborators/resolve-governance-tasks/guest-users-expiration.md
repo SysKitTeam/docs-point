@@ -25,7 +25,7 @@ You can find the following information in the e-mail:
 * **Due date to resolve the task (2)**; you have 15 workdays to resolve the policy violation
 * **Resolve button (3)** that takes you to Syskit Point, where you can resolve the policy violation
 
-![Guest User Access Renewal E-mail](../../.gitbook/assets/guest_users_expiration-renewal_email.png)
+![Guest User Access Renewal E-mail](../../.gitbook/assets/guest-users-expiration-renewal-email.png)
 
 **Click the Resolve button to open the policy violation task** in Syskit Point.
 
@@ -39,7 +39,7 @@ The following is available on the task screen:
 * **Remove button (2)**; when clicked, you need to enter a comment and confirm the action, which **results in the guest user being deleted in the Azure Active Directory**
 * **Keep button (3)**; when clicked, you need to enter a comment and confirm the action, which **results in the guest user keeping the access**
 
-![Guest User Expiration Task](../../.gitbook/assets/guest_users_expiration-policy_violation_task.png)
+![Guest User Expiration Task](../../.gitbook/assets/guest-users-expiration-policy-violation-task.png)
 
 {% hint style="warning" %}
 **Please note!**
@@ -52,11 +52,11 @@ When keeping the guest user's access, the following is expected, depending on th
 
 **After you resolve the policy violation, the History screen opens**, giving you an overview of actions performed within the workflow.
 
-![Policy Violation History Screen](../../.gitbook/assets/guest_users_expiration-history.png)
+![Policy Violation History Screen](../../.gitbook/assets/guest-users-expiration-history.png)
 
 **After you resolve the policy violation**, **you will also receive a confirmation e-mail** showing the following information:
-* **Guest user whose access was revalidated (1)**
-* **Result of the validation (2)**, showing if the access was renewed or removed
+* **Guest user whose access was removed (1) or revalidated**
+* **Result of the validation**; showing if the access was renewed or removed
 * **View Details button (3) that opens the History screen in Syskit Point**, showing all the information about actions performed in the workflow
 
-![Policy Violation Resolved - E-mail](../../.gitbook/assets/guest_users_expiration-confirmation_email.png)
+![Policy Violation Resolved - E-mail](../../.gitbook/assets/guest-users-expiration-confirmation-email.png)

@@ -14,9 +14,9 @@ To start with the configuration, open the **Settings > Governance > Approval Pro
 
 By default, Syskit Point provides 3 approval processes:
 
-  - Manager approval – manager of the end-users requesting new workspace needs to approve this request 
+  - Manager approval – The manager of the end-users requesting new workspace needs to approve this request 
   - Admin approval – Syskit Point admins need to approve this request 
-  - Manager and admin approval – requires approval from both manager of the requester and Syskit Point admins 
+  - Manager and admin approval – Requires approval from both the manager of the requester and Syskit Point admins 
 
 ## Create a Custom Approval Process 
 
@@ -24,8 +24,8 @@ To create your custom approval process from scratch, click the **New Approval Pr
 
   - **Approval Process Name** – give a name to this approval process; this will be displayed in the template wizard  
   - **Number of stages for this approval** – how many levels of approval each request needs to go through before it is finally approved. Current options are: 
-    - 1-stage – only one person/group will need to approve this request 
+    - 1-stage – Only one person/group will need to approve this request 
     - 2-stage – 2 people/groups will need to approve this request 
     - 3-stage - 3 people/groups will need to approve this request 
 
-  - **Approver for each stage** – for each stage, you can choose between the manager of the requester, Syskit Point administrators or provide specific people that will be responsible for this level (multi-select allowed) 
+  - **Approver for each stage** – for each stage, you can choose between the manager of the requester, Syskit Point administrators, or provide specific people that will be responsible for this level (multi-select allowed) 

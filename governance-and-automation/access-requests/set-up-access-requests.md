@@ -21,7 +21,7 @@ When the Access Requests policy is assigned to a workspace, the **Ask To Join** 
 
 {% hint style="warning" %}
 **Please note!**  
-**For public workspaces**, for example, Microsoft Teams and Microsoft 365 groups with privacy set to public, the **Join action is visible** next to the workspace in Syskit Point Teams app, and users can join these workspaces without additional approvals.
+**For public workspaces**, for example, Microsoft Teams and Microsoft 365 groups with privacy set to public, the **Join action is visible** next to the workspace in the Syskit Point Teams app, and users can join these workspaces without additional approvals.
 {% endhint %}
 
 ## Admins 

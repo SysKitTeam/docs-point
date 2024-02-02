@@ -1,5 +1,5 @@
 ---
-description: This article explains how set up the Minimum Number of Owners policy in Syskit Point.
+description: This article explains how to set up the Minimum Number of Owners policy in Syskit Point.
 ---
 
 # Minimum Number of Owners
@@ -7,13 +7,13 @@ description: This article explains how set up the Minimum Number of Owners polic
 A predefined policy - **Minimum 2 Owners** - is located on the Policies screen. 
 Click the **Edit (1)** icon to view all defined options for the policy. 
 
-![Minimum Number of Owners - Edit Policy](../../.gitbook/assets/set_up_automated_workflows-min_owners_edit.png)
+![Minimum Number of Owners - Edit Policy](../../.gitbook/assets/set-up-automated-workflows-min-owners-edit.png)
 
 The **Edit Policy** dialog opens where you can:
 * **Define the policy name (1)**
 * **Define the maximum number of allowed owners (2)**; this is set to 5 by default
 * **Choose the severity level (3)**; this option is enabled by default
-* * **Enable Task Delegation (4)** by clicking the toggle next to it and select your task delegation preferences:
+* * **Enable Task Delegation (4)** by clicking the toggle next to it and selecting your task delegation preferences:
   * **Send reminder to reviewers (5)** 3 work days before due date; this option is enabled by default
   * **Choose what to do if owners don't resolve the policy violation until the due date (6)**. The following options are available:
     * **Reassign Task**; when selected, you can define who will get the task - **Manager of the Reviewer**, **Syskit Point Administrators**, or **custom recipients**; this option is selected by default, and the tasks are reassigned to Manager of Reviewer
