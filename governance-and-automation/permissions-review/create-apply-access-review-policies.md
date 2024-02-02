@@ -27,7 +27,8 @@ Here, you can choose to:
 * **Edit an existing policy \(2\)** or
 * **Delete an existing policy \(3\)** 
 * **Create a new policy \(4\)**
- **Manage existing policies (5)**
+ **Apply automatically with rules (5)**
+ **Manually apply policies (5)**
 
 {% hint style="warning" %}
 **Please note!** The predefined Access Review policy is not applied to any workspaces and will not trigger an automated Access Review.
@@ -100,15 +101,14 @@ Keep the following in mind:
 
 ## Apply Policies
 
-To apply created Access Review Policies, navigate to **Settings** > **Governance** > **Policies** and click the **Manage Policies button (1)**.
+To apply created Access Review Policies, navigate to **Settings** > **Governance** > **Policies** and click the **Manually Apply Policies button (1)**.
 
 ![Manage Policies Button](../../.gitbook/assets/create-access-review-policies-apply-policy-button.png)
 
-
-The **Apply Policy report opens**, enabling you to apply created policies to your **Microsoft Teams**, **Microsoft 365 Groups**, **OneDrive**, and **sites**. 
+The **Manually Apply Policy report opens**, enabling you to apply created policies to your **Microsoft Teams**, **Microsoft 365 Groups**, **OneDrive**, and **sites**. 
 
 To do so:
-* **Select \(1\)** one or multiple workspaces; you can easily filter them by applied policies with the help of **top tiles \(2\)**
+* **Select \(1\)** one or multiple workspaces; you can also easily filter through workspaces with the help of **top tiles \(2\)**
 * **Click the Manage Policies action \(3\)**
   * When multiple workspaces are selected, clicking the **arrowhead next to Manage Policies** provides a selection of the following actions to choose from: 
     * **Apply Policy**
@@ -120,10 +120,21 @@ To do so:
 The **Apply Access Review Policy** dialog opens where you can:
 
 
-* **Choose one of your review policies \(1\)**
+* **Choose which policy you want to add or change \(1\)**
 * **Confirm your selection by clicking the Save button (2)**
 
 ![Apply Policy Dialog - Policy](../../.gitbook/assets/create-access-review-policies-apply-policy-dialog-part-2.png)
+
+{% hint style="info" %}
+
+**You will recieve a warning** when trying to change or apply policies that states you will override selected policies. [Rules](../automated-workflows/policy-automation.md) automatically apply policies to your workspaces. 
+
+The warning serves as a reminder that, **if you have rules set up**, manually changing or adding policies will replace the once applied by the rules you have set up. Manually applied policies will take precedence over those applied with rules. An example of the warning can be seen below.
+
+{% endhint %}
+
+
+![Apply Policy Dialog - Warning](../../.gitbook/assets/create-access-review-policies-apply-policy-warning.png)
 
 ## Next Steps
 
