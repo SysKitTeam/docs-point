@@ -39,7 +39,9 @@ Syskit Point **does not create tasks or send any emails to workspace owners for 
 
 The purpose of this is to assist Syskit Point admins by reminding them there are potential issues in their Microsoft 365 environment every time they open Syskit Point. 
 
-* **When you acquire Syskit Point, default policies are created - Minimum 2 Owners (Default Policy), Maximum 5 Owners (Default Policy), and Orphaned Workspaces (Default Policy), Workspaces With Shadow Users (Default Policy), Maximum 50 Members (Default Policy) - and applied to all your workspace via a default rule**; these policies serve to give you an overview of workspaces that are potentially not configured according to best practices; no need to worry, though - default policies are configured as **detection-only policies**, meaning that **Syskit Point will not create tasks or send emails**.
+* **When you acquire Syskit Point, default policies are created - Minimum 2 Owners (Default Policy), Maximum 5 Owners (Default Policy), Orphaned Workspaces (Default Policy), Maximum 50 Members (Default Policy) - and applied to all your workspace via a default rule**; these policies serve to give you an overview of workspaces that are potentially not configured according to best practices; no need to worry, though - default policies are configured as **detection-only policies**, meaning that **Syskit Point will not create tasks or send emails**.
+
+**The Workspaces With Shadow Users (Default Policy)** is not included in the default rule and, as a result, is not applied to any workspaces.
 
 ### Task Delegation
 

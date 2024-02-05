@@ -54,10 +54,7 @@ After clicking View All, the Security and Compliance checks dashboard will open,
 
 * **Workspaces with Too Many Owners (8)** – shows the number of workspaces with too many owners. If there are **too many owners, no one feels accountable for access and content management**. This helps you keep track of and remove extra owners. 
 
-* **Workspaces with Shadow Users (9)** – shows the number of workspaces with users that have access to specific content on the SharePoint site but are not members of the Microsoft 365 Group or Team associated with it. Access given to shadow users can be a security concern if you don't keep up with them regularly. This helps you keep track of and remove access given to shadow users. 
-
-Shadow users have access to specific content on the SharePoint site but are not members of the Microsoft 365 Group or Team associated with it. Enhance security, compliance, and cost-effectiveness within a Microsoft 365 environment and prevent oversharing.
-
+* **Workspaces with Shadow Users (9)** – shows the number of workspaces with **shadow users** - users that have access to specific content on the SharePoint site but are not members of the Microsoft 365 Group or Team associated with it. Access given to shadow users can be a security concern if you don't keep up with them regularly. This helps you keep track of and remove access given to shadow users. 
 
 ![Security & Compliance Checks](../../.gitbook/assets/security-compliance-checks-dashboard.png)
 
