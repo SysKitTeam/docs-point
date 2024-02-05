@@ -16,9 +16,22 @@ description: >-
 
 ## Features
 
-* **New Policies added:** Shadow Users and Workspaces with Too Many Members. 
-  * Shadow users are users who have access to specific documents/folders or other content but are not members of the workspace. For more details, [read the Workspaces with Shadow Users article.](../linkhere)
-  * Workspaces with Too Many Members are workspaces that have a number of members that are over a defined threshold. For more details, [read the Workspaces with Too Many Members article.](../linkhere)
+* **New Policies added**: **Shadow Users** and **Workspaces with Too Many Members**. 
+  * **Shadow Users policy**
+    * **Shadow users** are users who have access to specific documents/folders or other content but are not members of the workspace. Shadow users can potentially represent a security risk, as it is best practice to share access within workspace members only, especially when a workspace is private and contains sensitive content.
+    * **Default Shadow Users policy** is created after the upgrade to the latest Point Cloud version.
+    * **The Default Shadow Users** policy is not applied to any workspaces as it is not included in the default rule. To apply the policy to your workspaces, we recommend using [Syskit Point rules](../../governance-and-automation/automated-workflows/policy-automation.md).
+    * **The default Shadow Users policy**, when applied to workspaces, **will show policy vulnerabilities on the Security & Compliance dashboard**, but **no tasks are created**, and **no emails sent**.
+    * [For more details about the Shadow Users policy settings, read this article.](../../governance-and-automation/automated-workflows/shadow-users-admin.md)
+    * [To find out more on how to resolve the detected vulnerability, read the related Security & Compliance report article](../../governance-and-automation/security-compliance-checks/workspaces-with-shadow-users.md)
+  * **Workspaces with Too Many Members policy**
+    * **Workspaces with Too Many Members** are workspaces that have a number of members that are over a defined threshold. 
+    * **Too many members in a workspace** may lead to more difficult access control, which can result in a security risk. 
+    * **Default Maximum Number of Members policy** is created after the upgrade to the latest Point Cloud version and sets a limit of 50 members on a workspace.
+    * **The Default Maximum Number of Members policy** is included in the default rule, meaning that it is applied to your workspaces.
+      * If policy vulnerabilities are detected, **they are shown on the Security & Compliance dashboard**, but **no tasks are created**, and **no emails sent**
+    * [For more details on how to modify the Maximum Number of Members, read the following article.](../../governance-and-automation/automated-workflows/workspaces-with-too-many-members-admin.md)
+    * [To learn how to resolve the policy vulnerability, navigate to the Security & Compliance report article](../../governance-and-automation/security-compliance-checks/workspaces-with-too-many-members.md)
 
 
 ## Improvements & Bug Fixes
