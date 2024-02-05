@@ -32,5 +32,6 @@ You can complete the following actions for the policy violation:
 
 By **selecting all (9)** or more than one user, you can perform the bulk action for **Remove User (10)** or **Accept Risk (11)**. 
 
-![Orphaned Users](../../.gitbook/assets/security-compliance-checks_orphaned-users.png)
-![Orphaned Users - Bulk](../../.gitbook/assets/security-compliance-checks_orphaned-users-bulk.png)
+![Orphaned Users](../../.gitbook/assets/security-compliance-checks-orphaned-users.png)
+
+![Orphaned Users - Bulk](../../.gitbook/assets/security-compliance-checks-orphaned-users-bulk.png)

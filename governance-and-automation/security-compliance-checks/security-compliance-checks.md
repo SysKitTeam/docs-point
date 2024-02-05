@@ -32,7 +32,7 @@ On your home screen, you can see the number of:
 You are also able to apply policies manually or [set up policy rules](../../governance-and-automation/automated-workflows/policy-automation.md) if you haven't already by clicking the **Manage Policies button**. 
 
 
-![Security & Compliance checks - Home](../../.gitbook/assets/security-and-compliance-checks_home.png)
+![Security & Compliance checks - Home](../../.gitbook/assets/security-and-compliance-checks-home.png)
 
 
 After clicking View All, the Security and Compliance checks dashboard will open, showing the following: 
