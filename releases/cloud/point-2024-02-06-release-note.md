@@ -1,6 +1,6 @@
 ---
 description: >-
-  This article lists improvements and bug fixes in the Syskit Point Cloud version 2024.1.42.3 
+  This article lists improvements and bug fixes in the Syskit Point Cloud version 2024.1.42.45
 ---
 
 # February 06, 2024
@@ -23,40 +23,40 @@ description: >-
 
 ## Improvements & Bug Fixes
 
+* **Ad-hoc external users can now be removed** with the Delete Users action.
+  * Ad-hoc users are external users who are not a part of Microsoft Entra ID but have access to specific SharePoint content.
+  * Since they can't be found in Microsoft Entra ID, deleting such users in the same way as your tenant users or guest users is not possible.
+  * The Delete Users action now removes ad-hoc external user access from SharePoint content. 
+  * After running the Delete Users action, the ad-hoc external user is no longer visible in Syskit Point access reports. 
+
 * **The Remove Access action is now enabled** for users on the Sharing step - Users view - in the Access Review task.  
-   * Multiselection of users is also enabled.
+  * Multiselection of users is also enabled.
 
-* **Ad-hoc users can now be deleted** with the Delete Users action.
+Multiple improvements are available for the Storage Management feature:
+  * The **Storage tag was added to reports** related to Storage Management for easier filtering in the Report Center.
+  * **Site Storage Metrics report** now has the Created On column added that can be selected from the column chooser. 
+  * **Columns sort on reports** is now correctly displayed on the tenant-wide Storage Metrics report.
+  * **Fixed an issue** on sites where information about file versions and sizes was not regularly refreshing.
 
-* The **Storage tag was added to Reports** related to storage for easier filtering.
+* **Global Viewers can now manage** Scheduled Reports they created. The following actions are available: Preview, Send Now, Edit, Pause, Delete. As before, Global Viewers cannot manage Scheduled Reports created by other users.
 
-* **Site Storage Metrics report** had the Created On column added that can be selected from the column chooser. 
+* **Improved the sync process for Private and Shared channels**, thus eliminating specific cases where manual intervention was needed to successfully sync Private and Shared channels in Syskit Point.
 
-* **Default sorting on grids** added to the Tenant Wide Storage Metrics report.
-
-* **Global Viewers can now complete actions** on Scheduled Reports. The following actions are available: Preview, Send Now, Edit, Pause, Delete.
-
-* **Improved the description** for the Inactive Guest Users policy email and task screen.
-
-* **Newly created licensed users** who have never logged in are not shown as inactive users. 
+* **Newly created licensed users** who have never logged in are no longer shown on the Inactive Licenses report. 
   * Additionally, on the Users Overview screen in the Inactive Users tile and Inactive Users view, newly created users (those created in the last 30 days) will not show.
+
+* **Fixed an issue** where the Autodiscover sync would load without ever finishing.
 
 * **Fixed an issue** where task resolvers who were removed from their resolver position would still receive emails when someone else resolved their past Security & Compliance check violations.
 
-* **Fixed an issue** where the site sync and group sync weren't loading successfully for Private and Scared channels. 
-
 * **Fixed an issue** where the Anonymously Shared Sites report and Externally Shared Sites report were not updating the information (numbers) in the tile filters accurately.  
-
-* **Fixed an issue** where the discovery of new sites would keep loading without ever finishing.
 
 * **Fixed a bug** that allowed owners of inactive workspaces to keep their workspace indefinitely, even when a maximum period limit for keeping the workspace was previously set.
 
 * **Fixed a bug** where automatically Scheduled Report emails did not include an Attachment.  
 
-* **Fixed an issue** on sites where information about file versions and sizes was not regularly refreshing.
-
 * **Fixed a bug** where users who were both admins and workspace owners were not added as Reviewers for Private Channels, nor could they be added manually. 
 
-* **Fixed an error** that showed up when trying to upgrade Syskit Point and stated the following: `The parameter MinTlsCipherSuite has an invalid value. Details: Value is invalid. Acceptable values are: TLS_AES_256_GCM_SHA384,TLS_AES_128_GCM_SHA256.`
+* **Improved the description** for the Inactive Guest Users policy email and task screen.
 
 * **Various improvements and minor UX fixes are available**.
