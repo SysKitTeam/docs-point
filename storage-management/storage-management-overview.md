@@ -2,43 +2,36 @@
 description: This article explains how to manage and free up your storage on SharePoint sites.
 ---
 
-# Storage Management
+# Storage Management 
 
-## Storage Management in Microsoft 365
+## The Importance of Storage Management in Microsoft 365
 
-**Storage management in Microsoft 365 is important, as it directly impacts your monthly expenses**. 
+**Storage management in Microsoft 365 isn't just a routine task - it's a strategic necessity.** 
 
-**Storage management in Microsoft 365 isn't just a routine task - it's a strategic necessity.** Your monthly expenses are directly linked to the efficiency of your storage management, particularly within SharePoint sites connected to your organization's purchased licenses.
+Here's why you should maintain an active approach to your Storage Management:
 
-After you run out of storage for your SharePoint sites, depending on your plan, you can use the Office 365 Extra File Storage add-on to buy more storage in 1GB increments.
+  * **Your monthly expenses are directly linked** to the efficiency of your storage management, particularly within SharePoint sites connected to your organization's purchased licenses.
+  * When you run out of storage for your SharePoint sites, depending on your plan, you would have to use the Office 365 Extra File Storage add-on to **buy more storage** in 1GB increments. 
+ * **The best thing you can do to avoid additional costs is to clean up your storage proactively** and use tools that are available to manage and optimize the usage of your storage.
 
-However, **the best thing you can do to avoid additional costs is to clean up your storage proactively** and use tools that are available to manage and optimize the usage of your storage.
+[For more details about site storage limits, take a look at this article.](../faq/site-storage-limits.md)
 
-* [Read this article provided by Microsoft to learn more about SharePoint storage limits.](https://learn.microsoft.com/en-us/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
-
-* [To find more information and see if your plan is eligible to buy extra storage, explore the following Microsoft article.](https://learn.microsoft.com/en-us/microsoft-365/commerce/add-storage-space?view=o365-worldwide)
-
-## Get Started with Storage Management
+## Storage Management in Syskit Point
 
 To start with your Storage Management, make sure it's configured based on your preferences within Syskit Point.
 
 That's where you can set up certain metrics that help you with the clean-up of your storage, such as how many versions of a file you want to keep or how old files should be before you delete them. 
 
-If you haven't done it already, [the first step is to configure your environment for Storage Management, take a look at this article.](../configuration/configure-point-for-storage-management.md)
+Here's how to get started with your storage management in Syskit Point: 
 
-Next, for a step-by-step guide, [take a look at the Configure Storage Management within Syskit Point article.](../../configuration/configure-storage-management.md)
-
-Once you're done configuring storage management, it's time to configure your tenant storage limit policy.
-
-Syskit Point provides a predefined Tenant Storage Limit policy that is applied tenant-wide and cannot be deleted. However, it can also be customized to your preferences. This policy is used to detect and monitor your storage, but if you choose to, you can also enable task delegation.  
-
-For more details and instructions, [read through the Configure Tenant Storage Limit Policy article.](../governance-and-automation/automated-workflows/tenant-storage-admin.md)
-
-Once the policy has been edited based on your preferences, you can [take a look at the Tenant Storage Security & Compliance Check article](../governance-and-automation/security-compliance-checks/tenant-storage.md) to see all the details and information you can get from this policy being detected in your environment.
+  * [The first step is to configure your environment for Storage Management, so take a look at this article.](../configuration/configure-point-for-storage-management.md) Please note, **this is only needed for the Syskit Point Data Center customers**. You can skip this step if you are using the Syskit Point Cloud.
+  * Make sure to [read through the Configure Storage Management within Syskit Point article.](../../configuration/configure-storage-management.md) 
+  * Next, it's time to configure your [Tenant Storage Limit Policy](../governance-and-automation/automated-workflows/tenant-storage-admin.md). This policy is used to detect and monitor your storage, but if you choose to, you can also enable task delegation.  
+ * Once the policy has been edited based on your preferences, you can [take a look at the Tenant Storage Security & Compliance Check article](../governance-and-automation/security-compliance-checks/tenant-storage.md) to see all the details and information you can get from this policy being detected in your environment.
 
 Now that we've covered how to begin utilizing your storage management within Syskit Point let's look into the valuable information and actions that can be completed from the Storage Metrics reports.
 
-### An Overview of the Storage Metrics Reports
+### The Storage Metrics Reports
 
 The [Storage Metrics report](../storage-management/storage-reports.md#storage-metrics) is available in the latest Syskit Point version and helps you:
 * **Discover the percentage of used storage in your tenant (1)**
