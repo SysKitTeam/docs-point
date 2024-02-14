@@ -18,9 +18,9 @@ Depending on the size of your environment, it takes some time to refresh the dat
 
 This depends on the size of your environment, as the sync happens gradually. 
 
-**Smaller tenants are synced every 24 hours. With larger tenants, the sync can take up to 7 days.**
+**Smaller sites are synced every 24 hours. With larger sites, the sync can take up to 7 days.**
 
-If a site is not yet synced and you want to have the current information instantly, you can manually sync your tenant. 
+If a site is not yet synced and you want to have the current information instantly, you can manually sync the site from the Site details screen.
 
 
 ## Site Storage Limits in Microsoft 365
