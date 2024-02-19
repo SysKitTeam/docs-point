@@ -10,7 +10,7 @@ Access Review in Syskit Point is enabled through Access Review policies applied 
 Access Review policies in Syskit Point enable you to define the following settings of an Access Review:
 * **The scope of the Access Review** - you can choose to review content or membership, or both, decide if you're only interested in shared content and guest users, or maybe want only to see the content down to the folder level
 * **Who should perform the review** - depending on the workspace type, you can select between various groups of users with privileged access, such as team owners, site admins, primary administrators, etc.
-* **The Access Review recurrence frequency** - not all workspaces in a Microsoft 365 environment are equally important; therefore, you can choose to repeat the Access Review process once for the most important workspaces, or up to once a year for the workspaces that are not frequently changed or used or don't contain sensitive data
+* **The Access Review recurrence frequency** - not all workspaces in a Microsoft 365 environment are equally important; therefore, you can choose to repeat the Access Review process once for the most important workspaces or up to once a year for the workspaces that are not frequently changed or used or don't contain sensitive data
 
 
 Once created, **policies need to be applied to Microsoft Teams**, **Microsoft 365 Groups**, **sites**, and **OneDrive** in order **to start the automated Access Review process in Syskit Point**.
@@ -127,9 +127,9 @@ The **Apply Access Review Policy** dialog opens where you can:
 
 {% hint style="info" %}
 
-**You will recieve a warning** when trying to change or apply policies that states you will override selected policies. [Rules](../automated-workflows/policy-automation.md) automatically apply policies to your workspaces. 
+**You will receive a warning** when trying to change or apply policies that state you will override selected policies. [Rules](../automated-workflows/policy-automation.md) automatically apply policies to your workspaces. 
 
-The warning serves as a reminder that, **if you have rules set up**, manually changing or adding policies will replace the once applied by the rules you have set up. Manually applied policies will take precedence over those applied with rules. An example of the warning can be seen below.
+The warning serves as a reminder that **if you have rules set up**, manually changing or adding policies will replace the ones applied by the rules you have set up. Manually applied policies will take precedence over those applied with rules. An example of the warning can be seen below.
 
 {% endhint %}
 
