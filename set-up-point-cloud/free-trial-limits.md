@@ -17,6 +17,7 @@ You'll be able to utilize most of the Syskit Point features while in the free tr
 * **When Syskit Point syncs above ten million items**, **the remaining workspaces will no longer be synced**
 * **PDF exports will have a watermark** stating you exported the file during the Syskit Point Trial
 * **OneDrive data will not be synced** and will not be available for access to gain more details
+* **You will have a limit** of running 5 File Version Cleanup actions
 
 {% hint style="warning" %}
 **Please note!**&#x20;
@@ -36,5 +37,5 @@ Here you can find the following:
 {% hint style="warning" %}
 **Please note!**&#x20;
 
-When the trial ends, the sync option will turn off, and you will no longer be able to click the sync button, download reports, or complete other actions. 21 days after the last day of your trial, all of the data collected in Syskit Point will be erased as per the [DPA (Data Processing Addendum)](https://www.syskit.com/data-processing-addendum/). If during those 21 days, you purchase a Syskit Point license, all of your data will remain intact.
+When the trial ends, the sync option will turn off, and you will no longer be able to click the sync button, download reports, or complete other actions. 21 days after the last day of your trial, all of the data collected in Syskit Point will be erased as per the [DPA (Data Processing Addendum)](https://www.syskit.com/data-processing-addendum/). If, during those 21 days, you purchase a Syskit Point license, all of your data will remain intact.
 {% endhint %}
