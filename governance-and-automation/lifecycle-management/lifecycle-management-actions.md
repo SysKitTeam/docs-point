@@ -124,7 +124,7 @@ With this action, you can easily delete a workspace inside Microsoft 365.
 {% hint style="warning" %}
 **Please note!**  
 This action **does not delete** a workspace **permanently**.  
-**The deleted workspace is moved to the Recycle Bin**, and **you can restore inside the period defined by Microsoft**. Microsoft 365 keeps your sites for **93 days**, and after that, they are deleted permanently. Microsoft 365 Groups are kept in the Recycle Bin for **30 days**.
+**The deleted workspace is moved to the Recycle Bin**, and **you can restore it within the period defined by Microsoft**. Microsoft 365 keeps your sites for **93 days**, and after that, they are deleted permanently. Microsoft 365 Groups are kept in the Recycle Bin for **30 days**.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -161,6 +161,11 @@ The **Restore action** can be executed on archived and deleted workspaces.
 * **The workspace is considered active**
 
 When running the Restore action, a confirmation dialog appears. To execute the action, click the **Restore button**.
+
+{% hint style="info" %}
+**Hint!**  
+There is no time limit for **performing the Restore action on Archived workspace**. 
+{% endhint %}
 
 ![Restoring a deleted workspace](../../.gitbook/assets/lifecycle-management-actions-restore-dialog.png)
 
