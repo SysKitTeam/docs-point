@@ -46,7 +46,7 @@ Completing any of the above actions resolves the Security & Compliance checks vi
 
 ## Related Articles
 
-* [Storage Management](../../reporting/storage-management/storage-management.md)
+* [Free Up Storage](../../storage-management/free-up-storage.md)
 * [Configure Tenant Storage Limit Policy](../../governance-and-automation/automated-workflows/tenant-storage-admin.md)
 * [Resolve Tenant Storage Limit Task](../../point-collaborators/resolve-governance-tasks/tenant-storage-limit.md)
-* [Storage Reports](../../reporting/storage-management/storage-reports.md)
+* [Storage Reports](../../storage-management/storage-reports.md)

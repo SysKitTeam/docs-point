@@ -44,7 +44,6 @@ The following data will be displayed in the columns:
 * **% of Limit**; shows the percentage of how close to the storage limit your site is.
 * **Alert on % of Limit**; shows the percentage at which you are alerted of being close to your storage limit. 
 
-
 ## Site Storage Metrics
 
 The Site Storage Metrics report displays your storage consumption across your sites over time.  
@@ -56,7 +55,6 @@ The report lets you check on the amount of storage used by sites in your tenant.
  * **Click the Reports button** located on the left side of the screen.
  * **Select Cleanup & Health Check in the filter**; it can be found in the upper left corner.
  * **Click the Site Storage Metrics report** to generate the report.
-
 
 ### Report Data
 
@@ -72,39 +70,24 @@ Once the site report is successfully generated, the following information is ava
     * **Other**: any extensions not categorized in one of the above groups
 * **The File Version Cleanup tile** shows the amount of space you can free up by cleaning up the outdated versions of the site. 
 
-The default view for your Site Storage Metrics report is set as Files Only. It shows the list of all files on your site with the following displayed in the columns:
+The Largest Files & Folders section of the report is by default set as a **Files Only view** which means it shows a list of all files in the site. You can change the report to be seen as the **Site Structure view** by clicking the **Show by:** button located on the top right side of Largest Files & Folders part of the report.  
 
-* **Name**; the name of the file.
-   * Clicking the name opens the File Storage Details report.
-* **Path**; shows the path this file follows in your workspace.
-* **Extension**; the type of extension the file has.
-* **File Size**; shows the size of the specific file.
-* **Total Size**; shows the amount of storage taken by all versions of the file.
-* **Size (% of the site storage)**; shows the percentage of storage used by the file.
-* **File Versions**; shows the versions of the files.
-* **Author**; shows the author of the file.
-* **Last Activity**; shows the date the last activity on the file happened.
-
-**Selecting one or more files** provides the **action to Clean Up File Versions**, located on the right side of the screen under the **Manage section**. 
-
-To change your report view, click the *Sort by* button located in the top right corner of the report. 
-
-Selecting the Site Structure view shows the following information:
+The following data will be displayed in the columns:
 
 * **Name**; the name of the site.
    * Clicking the name opens the Site Details page of the selected workspaces.
    * Clicking the arrow symbol next to the name expands the site details to show all content included in the site.
 * **Type**; shows what type of site or content it is.
 * **Extension**; shows any extensions to the site or content.
-* **File Size**; shows the size of the specific file.
-* **Total Size**; shows the amount of storage taken by the site or specific content within the workspace.
+* **Size**; shows the size of the site or content.
+* **Size (All Versions)**; shows the amount of storage taken by the site or specific content within the workspace.
 * **Size (% of the site storage)**; shows the percentage of storage used by the site or content.
 * **File Versions**; shows the versions of the files.
 * **Author**; shows the author of the content.
+* **Storage Limit**; show the storage limit for the site.
 * **Last Activity**; shows the date the last activity on the site or content happened.
 
 **Selecting the site** or one or more of the files included in the site provides the **action to Clean Up File Versions**, located on the right side of the screen under the **Manage section**. 
-
 
 {% hint style="information" %}
 **Please note!** The Clean Up File Versions action is only available in the Governance plan or above. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
@@ -128,7 +111,6 @@ The report lets you check on the amount of storage used by files in your tenant.
  * Under the Largest Files & Folders section, **click the arrow next to the folders** to expand them until you reach the list of files within the folder.
  * **Click the name of the file** you want to generate the report for.
 
-
 ### Report Data
 
 Once the site report is successfully generated, the following information is available at the top of the report:
@@ -143,7 +125,6 @@ Above the columns of the report, you can find:
  * The author of the file
  * The URL to the site and file
  * The date of the last activity on the file
-
 
 The following data will be displayed in the columns:
 
