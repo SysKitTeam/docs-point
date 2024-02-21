@@ -17,7 +17,7 @@ To update the Syskit Point Power BI app:
 The **Update app** dialog opens. 
 **Select the Update the workspace and the app (1)** option, and **click Install (2)**
 
-![Update app dialog](../.gitbook/assets/upgrade-power-bi_update-dialog.png)
+![Update app dialog](../.gitbook/assets/upgrade-power-bi-update-dialog.png)
 
 {% hint style="warning" %}
 **Please note!**
