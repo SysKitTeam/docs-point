@@ -20,13 +20,10 @@ description: >-
   * The cumulative storage for all your sites cannot exceed the total storage available for your tenant.
 
 
-
 ## Improvements & Bug Fixes
 
 * **The Remove Access action was enabled** for users in the Access review task on the Sharing step - Users View.   
   * Multiselection of users is also enabled.
-
-* **Every file with a sensitivity or retention label** assigned in Microsoft 365 will now have the labels applied within Syskit Point as well.
 
 * **Improved the performance** of the Site Storage Flat Report and Site Storage Structure Report. 
 
