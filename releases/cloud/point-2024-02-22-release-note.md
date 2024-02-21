@@ -23,7 +23,7 @@ description: >-
 
 * **Every file** now has the sensitivity and retention labels applied when they are available. 
 
-* **Improved the performance** of the Site Storage Flat Report and Sure Storage Structure Report. 
+* **Improved the performance** of the Site Storage Flat Report and Site Storage Structure Report. 
 
 * **Improved the performance** of the 'Tasks Overview' page when showing a large number of tasks.  
 
@@ -41,7 +41,6 @@ description: >-
 
 * **Fixed a bug** on the Teams & Groups reports that showed different values for the Created On date for Security Groups when compared to the values shown on the exported report. 
 
-
-* **Fixed an issue** where global search would not work as expected on the Sites, Teams & Groups Overview screen, the Storage Metrics, and Manually Apply Polivies reports, in case custom metadata columns were enabled in the column chooser.
+* **Fixed an issue** where global search would not work as expected on the Sites, Teams & Groups Overview screen, the Storage Metrics, and Manually Apply Policies reports, in case custom metadata columns were enabled in the column chooser.
 
 * **Various improvements and minor UX fixes are available**.
