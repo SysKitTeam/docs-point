@@ -205,6 +205,7 @@
 * [FAQ](faq/README.md)
   * [Security](faq/security.md)
   * [Security Self Assessment Questionnaire](faq/security-self-assessment.md)
+  * [Storage Management](faq/storage-management.md)
   * [Free Trial](faq/free-trial.md)
   * [Licensing](faq/licensing.md)
   * [Activation](faq/activation-faq.md)
