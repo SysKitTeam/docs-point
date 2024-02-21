@@ -38,7 +38,7 @@ Assigning these roles to users provides the users with different levels of acces
 These roles also allow **site owners to perform Access Reviews on their site and complete Lifecycle Management tasks** to determine which workspaces should be archived or kept. 
 
 {% hint style="warning" %}
-**To learn more about the specifics of each role and how to assign them to your users, take a look at the [Enable Role-Based Access article](../configuration/customize-emails.md).**
+**To learn more about the specifics of each role and how to assign them to your users, take a look at the [Enable Role-Based Access article](../configuration/enable-role-based-access.md).**
 {% endhint %}
 
 
