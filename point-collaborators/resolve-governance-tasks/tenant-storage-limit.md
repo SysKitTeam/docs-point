@@ -12,7 +12,7 @@ If you run out of storage, you are **not able to create any more SharePoint site
 
 {% hint style="success" %}
 By default, **Syskit Point notifies the Syskit Point admins** of this violation. However, the Syskit Point admin can customize this policy to include custom recipients instead. Learn more about how to
-[configure your tenant storage limit policy in this article.](../../governance-and-automation/automated-workflows/tenant-storage-admin.md).
+[configure your tenant storage limit policy in this article.](../../governance-and-automation/automated-workflows/tenant-storage-admin.md)
 {% endhint %}
 
 
@@ -51,7 +51,7 @@ The task is resolved when your tenant storage drops below the limit set for the 
 
 ## Related Articles
 
-* [Storage Management](../../storage-management/storage-management.md)
+* [Storage Management](../../storage-management/storage-management-overview.md)
 * [Configure Tenant Storage Limits Policy](../../governance-and-automation/automated-workflows/tenant-storage-admin.md)
-* [Tenant Storage Security & Compliance check](../../governance-and-automation/security-compliance-checks/tenant-storage.md)
+* [Tenant Storage Security & Compliance Check](../../governance-and-automation/security-compliance-checks/tenant-storage.md)
 * [Storage Reports](../../storage-management/storage-reports.md)
