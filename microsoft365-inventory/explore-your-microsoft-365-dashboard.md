@@ -118,7 +118,7 @@ The used storage number is calculated for all the files, including those in the 
 Storage data displayed on the Dashboard can differ from the data provided by the **SharePoint admin center** since it doesn't include changes made within the last 24-48 hours, as described [here](https://docs.microsoft.com/en-us/sharepoint/manage-site-collection-storage-limits).
 {% endhint %}
 
-[For more details on storage, take a look at the Storage Management article.](../reporting/storage-management/storage-management.md)
+[For more details on storage management, take a look at the Storage Management Overview article.](../storage-management/storage-management-overview.md)
 
 ## Security & Compliance
 

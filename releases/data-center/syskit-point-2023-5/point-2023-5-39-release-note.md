@@ -32,8 +32,8 @@ Additional configuration is needed for the Storage Management feature to work.
 
 * **The Storage Management feature is now fully available**!
   * The report section now also contains the: 
-    * [Site Storage Metrics report](../../../reporting/storage-management/storage-reports.md#site-storage-metrics) 
-    * [File Storage Details report](../../../reporting/storage-management/storage-reports.md#file-storage-details)
+    * [Site Storage Metrics report](../../../storage-management/storage-reports.md#site-storage-metrics) 
+    * [File Storage Details report](../../../storage-management/storage-reports.md#file-storage-details)
       * Drill from the Site Storage Metrics report to the File Storage Details report by clicking a file name.
       * Use this report to see all file versions and the total storage used by all versions.
       * Find how much storage is used by the file versions older than 6 months.
@@ -49,7 +49,7 @@ Additional configuration is needed for the Storage Management feature to work.
   * [Read this article to learn how to configure Storage Management settings](../../../configuration/configure-storage-management.md).
   * The Storage Metrics report can have **metadata columns** added by selecting them from the column chooser. 
   * The File Storage Details report has a **Delete Version action** added when files are selected. 
-  * [Learn more about Storage optimization in the following article](../../../reporting/storage-management/storage-management.md).
+  * [Learn more about Storage optimization in the following article](../../../storage-management/free-up-storage.md).
 
 * **A new Number of Guest users** condition has been added to the **Rules feature**.
   * This condition helps define rules that will apply policies to workspaces with or without guest users.
