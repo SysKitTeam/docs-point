@@ -118,7 +118,7 @@
   * [Power BI Reports](reporting/power-bi-reports.md)
 * [Storage Management](storage-management/README.md)
   * [Storage Management Overview](storage-management/storage-management-overview.md)
-  * [Free Up Storage](storage-management/optimize-storage.md)
+  * [Free Up Storage](storage-management/free-up-storage.md)
   * [Storage Reports](storage-management/storage-reports.md)
 * [Governance & Automation](governance-and-automation/README.md)
   * [Syskit Point Tasks](governance-and-automation/syskit-point-tasks.md)
