@@ -16,7 +16,7 @@ description: >-
 ## Features
 * **New Storage Metrics report is available!**
   * The Storage Metrics report shows your storage usage over time in your tenant to help you: 
-    * [Manage and optimize storage usage](../../reporting/storage-management/storage-management.md)
+    * [Free up storage](../../storage-management/free-up-storage.md)
     * Identify potentially unusual spikes
     * Determine whether you need additional storage options
 * **There is a new tenant-wide policy - Tenant Storage Limits**.
