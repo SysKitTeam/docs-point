@@ -121,6 +121,7 @@
   * [Storage Management Overview](storage-management/storage-management-overview.md)
   * [Free Up Storage](storage-management/free-up-storage.md)
   * [Storage Reports](storage-management/storage-reports.md)
+  * [Limit Storage Usage](storage-management/limit-storage-usage.md)
 * [Governance & Automation](governance-and-automation/README.md)
   * [Syskit Point Tasks](governance-and-automation/syskit-point-tasks.md)
   * [Access Review](governance-and-automation/permissions-review/README.md)
