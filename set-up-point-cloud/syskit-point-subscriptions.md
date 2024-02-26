@@ -17,6 +17,7 @@ In this article, you will find information on the following:
 * [Upgrade Your Subscription Plan](syskit-point-subscriptions.md#upgrade-your-subscription-plan)
 * [Cancel Your Subscription](syskit-point-subscriptions.md#cancel-your-subscription)
 * [Reconnect After Purchasing](syskit-point-subscriptions.md#reconnect-after-purchasing)
+* [Purchasing Additional Audit Logs Storage](syskit-point-subscriptions.md#purchasing-additional-audit-logs-storage)
 
 {% hint style="warning" %}
 **Please note!** If you didn't start your free 21-day trial, take a look at the [**Syskit Point trial article**](free-trial.md) for details on getting started. At any point during the 21 days of the free trial, you can purchase a Syskit Point Cloud subscription. In order to retain your data after your free trial has expired, a Syskit Point subscription needs to be purchased within 21 days of your trial period ending.
@@ -46,13 +47,13 @@ The **Overview section (1)** provides insight into general information on the st
 * **Status (3)** of your Syskit Point license
 * **Next renewal date (4)** of your Syskit Point subscription or expiration date of your free trial
 * **Licenses (5)** the number of licenses included in your Syskit Point
-* **Purchased Plan (6)** for your subscription
+* **Purchased Plan (6)** for your subscription as well as the amount of Audit Logs Storage years you have available
   * This shows as Trial while your free trial period is still active
-* Next to **Purchased Plan** you can click on the **Buy Now button (7)** to purchase your Syskit Point subscription or manually click the **Subscriptions section (8)** on the left side of the screen under Overview
+* In the **Purchased Plan section** you can click on the **Audit Logs Retention (7) button** for more details about Audit Logs retention for Cloud or the **Contact Us button (8)** to purchase additional audit log storage years 
 
 ![Syskit Point Subscription - Overview Screen](../.gitbook/assets/purchasing-syskit-point-subscriptions-overview.png)
 
-The **Subscription section (1)** is where you can purchase your subscription and select the specific details that suit your needs.
+The **Subscription section (1)** is where you can manage your subscription and select the specific details that suit your needs.
 
 Your preferences for the following information need to be selected:
 
@@ -130,7 +131,7 @@ You are redirected to the confirmation screen, where the following information i
 To change or upgrade the Syskit Point subscription plan you currently have, complete the following:
 
 * Log into your **Syskit Subscriptions** site
-* Under **Overview**, navigate down to the **Purchased Plan section (1)**
+* Under **Subscriptions**, navigate to the **Purchased Plan section (1)**
 * Click the **Manage Subscription button (2)** located in the Purchased Plan section
   * This opens a pop-up where you can edit your current subscription and upgrade your subscription plan
 * Click the **Update plan (3)** button, located on the right side of the screen
@@ -163,13 +164,15 @@ The **Update your plan screen** opens where you can:
 To change or upgrade the Syskit Point subscription plan you currently have, complete the following:
 
 * Log into your **Syskit Subscriptions** site
-* Under **Overview**, navigate down to the **Purchased Plan section**
-* Click the **Manage Subscription button (1)** located in the Purchased Plan section
+* Under **Subscriptions (1)**, navigate down to the **Manage Subscription**
+* Click the **Manage Subscription button (2)** located in the Purchased Plan section
   * This opens a pop-up where you can manage your current subscription by upgrading your subscription plan or canceling it
-* Click the **Cancel plan (2)** button, located on the right side of the screen
+* Click the **Cancel plan (3)** button, located on the right side of the screen
   * This opens a screen where you can cancel your current plan
 
 ![Syskit Point Subscription - Cancel Subscription](../.gitbook/assets/syskit-point-cloud-syskit-point-subscriptions-manage-cancel.png)
+
+![Syskit Point Subscription - Cancel Subscription](../.gitbook/assets/syskit-point-cloud-syskit-point-subscriptions-manage-cancel-2.png)
 
 ![Syskit Point Subscription - Cancel Subscription](../.gitbook/assets/setup-point-cloud-syskit-point-subscriptions-cancel-overview.png) 
 
@@ -201,6 +204,9 @@ To reconnect your tenant **click the Connect Tenant button (1)**.
 ![Syskit Point Subscription - Canceled](../.gitbook/assets/syskit-point-subscriptions-reconnect-tenant.png)
 
 [For more details about connecting your tenant to Syskit Point, take a look at this article.](../set-up-point-cloud/free-trial.md)
+
+## Purchasing Additional Audit Logs Storage
+
 
 ## Related Articles
 
