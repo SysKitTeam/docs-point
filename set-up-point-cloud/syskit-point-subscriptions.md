@@ -8,7 +8,7 @@ description: >-
 
 Once you have your Syskit Point free trial, the [**Syskit Point Subscriptions Portal**](https://subscriptions.syskit.com/) is where you can manage the state of your Point Cloud subscriptions.
 
-The **My Subscriptions** portal provides insight into the current state of your subscription and provides the ability to modify or upgrade it.
+The **My Subscriptions** portal provides insight into the current state of your subscription and allows you to modify or upgrade it.
 
 In this article, you will find information on the following:
 
@@ -208,6 +208,19 @@ If you want to purchase additional storage years for Audit Logs, click the **Con
 
 
 ![Syskit Point Subscription - Additional Audit Logs Storage](../.gitbook/assets/syskit-point-subscriptions-audit-logs-storage.png)
+
+
+Korisniku ćemo preko stripea updateati subscription da recimo smanji retention duration s 5 godina na 3 godine, portal će to pokupiti i poslati Pointu pa će Point s delay-om to updateati tek nakon 3 dana
+korisnik će možda očekivati da mu se u Pointu (Settings screen) odmah to updatea, ali ne bude to odmah nego tek nakon 3 dana
+objasniti možda najbolje da je to safety meassure, budući da se nakon te promjene audit podaci nepovratno brišu (ne svi naravno, samo oni koji su stariji od nove vrijednosti audit retentiona) 
+možda najbolje staviti 'Please note' u Settings članku i Subscription članku 
+
+{% hint style="information" %}
+**Please note!** If you request that we remove the additional years you had previously purchased, once our team makes this change, it can take up to 3 days to be reflected in Syskit Point.  
+
+This serves as a safety measure, as once the change is final, all extra audit log storage that surpasses your currently purchased and available audit log storage years will be erased.
+
+{% endhint %}
 
 ## Related Articles
 
