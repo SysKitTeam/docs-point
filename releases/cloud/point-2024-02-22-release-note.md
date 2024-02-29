@@ -18,6 +18,7 @@ description: >-
 * **The Change Storage Limit action** was added to the Storage Metrics report.
   * You can now customize and change the storage limit for each site, meaning that if you notice a certain site has a larger influx of data than others, you can increase the storage limit for that site while lowering the storage limit for others. 
   * The cumulative storage for all your sites cannot exceed the total storage available for your tenant.
+  * [Follow this link to learn how to limit storage usage in Syskit Point](../../storage-management/limit-storage-usage.md)
 
 
 ## Improvements & Bug Fixes

@@ -2,7 +2,7 @@
 description: This article explains the Site Storage limits in Microsoft 365.
 ---
 
-# Site Storage Limits in Microsoft 365
+# Enable Manual Site Storage Limits in Microsoft 365
 
 {% hint style="information" %}
 Steps described in this section can be performed with SharePoint Admin or Global Admin permissions only.
