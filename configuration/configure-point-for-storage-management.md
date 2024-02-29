@@ -34,6 +34,10 @@ To run the script, you will need to:
 * Install the Azure CLI - [https://learn.microsoft.com/en-us/cli/azure/install-azure-cli](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
 * Or run in Azure Cloud Shell [https://learn.microsoft.com/en-us/azure/cloud-shell/quickstart?tabs=azurecli](https://learn.microsoft.com/en-us/azure/cloud-shell/quickstart?tabs=azurecli)
 
+{% hint style="warning" %}
+**Please note!** When running the script outside the Azure CLI, you must log in using the az login command.
+{% endhint %}
+
 ### Environment Data and Running the script
 
 **The provided script contains placeholder values that you need to replace with data collected from your environment; this must be done before running the script**. 
@@ -54,6 +58,10 @@ To collect the data:
 * To run the script, start Azure CLI 
    * Install the Azure CLI - [https://learn.microsoft.com/en-us/cli/azure/install-azure-cli](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
    * Or run in Azure Cloud Shell [https://learn.microsoft.com/en-us/azure/cloud-shell/quickstart?tabs=azurecli](https://learn.microsoft.com/en-us/azure/cloud-shell/quickstart?tabs=azurecli)
+
+{% hint style="warning" %}
+**Please note!** When running the script outside the Azure CLI, you must log in using the az login command.
+{% endhint %}
 
 After completing the above, restart **both** App Services inside the Point resource group. After the restart, Syskit Point is configured to collect the storage data from Microsoft. 
 
