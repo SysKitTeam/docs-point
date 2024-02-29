@@ -210,11 +210,6 @@ If you want to purchase additional storage years for Audit Logs, click the **Con
 ![Syskit Point Subscription - Additional Audit Logs Storage](../.gitbook/assets/syskit-point-subscriptions-audit-logs-storage.png)
 
 
-Korisniku ćemo preko stripea updateati subscription da recimo smanji retention duration s 5 godina na 3 godine, portal će to pokupiti i poslati Pointu pa će Point s delay-om to updateati tek nakon 3 dana
-korisnik će možda očekivati da mu se u Pointu (Settings screen) odmah to updatea, ali ne bude to odmah nego tek nakon 3 dana
-objasniti možda najbolje da je to safety meassure, budući da se nakon te promjene audit podaci nepovratno brišu (ne svi naravno, samo oni koji su stariji od nove vrijednosti audit retentiona) 
-možda najbolje staviti 'Please note' u Settings članku i Subscription članku 
-
 {% hint style="information" %}
 **Please note!** If you request that we remove the additional years you had previously purchased, once our team makes this change, it can take up to 3 days to be reflected in Syskit Point.  
 
