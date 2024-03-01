@@ -63,7 +63,7 @@ Select the **SMTP method** if you are using an **SMTP** server in your environme
 * **Outgoing Server**
 * **Port**
 * **Sent from** e-mail
-   * The email format can also be the following: DisplayName < email@domain.com >
+   * The email format can also be the following: DisplayName \<email@domain.com>
 *   **Username** and **Password**; in case the **Require Authentication** option is enabled
 
     You can also choose whether to **Use Encrypted Connection (SSL)**.
