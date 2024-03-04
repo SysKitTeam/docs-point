@@ -48,8 +48,6 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 ## Improvements & Bug Fixes
 
-* **When [setting up your e-mail](../../../configuration/set-up-email.md)** along with the classic email@email.com format, the Sent From e-mail can now also be in the following format: DisplayName \<email@email.com>
-
 * **Ad-hoc external users can now be removed** with the Delete Users action.
   * Ad-hoc users are external users who are not a part of Microsoft Entra ID but have access to specific SharePoint content.
   * Since they can't be found in Microsoft Entra ID, deleting such users in the same way as your tenant users or guest users is not possible.
@@ -70,20 +68,22 @@ Multiple improvements are available for the Storage Management feature:
 * **The Remove Access action was enabled** for users in the Access review task on the Sharing step - Users View.   
   * Multiselection of users is also enabled.
 
-* **Added support** when utilizing a custom Azure environment M365 tenant to connect to Syskit Point.
-
-* **Improved the performance** of the Site Storage Flat Report and Site Storage Structure Report. 
-
-* **Improved the sync process for Private and Shared channels**, thus eliminating specific cases where manual intervention was needed to successfully sync Private and Shared channels in Syskit Point.
-
-* **Improved the performance** of the 'Tasks Overview' page when showing a large number of tasks.  
-
-* **Improved the description** for the Inactive Guest Users policy e-mail and task screen.
+* **When [setting up your e-mail](../../../configuration/set-up-email.md)** along with the classic email@email.com format, the Sent From e-mail can now also be in the following format: DisplayName \<email@email.com>
 
 * **Newly created licensed users** who have never logged in are no longer shown on the Inactive Licenses report. 
   * Additionally, on the Users Overview screen in the Inactive Users tile and Inactive Users view, newly created users (those created in the last 30 days) will not show.
 
 * **Fixed an issue** where the Autodiscover sync would load without ever finishing.
+
+* **Improved the sync process for Private and Shared channels**, thus eliminating specific cases where manual intervention was needed to successfully sync Private and Shared channels in Syskit Point.
+
+* **Improved the performance** of the Site Storage Flat Report and Site Storage Structure Report. 
+
+* **Improved the performance** of the 'Tasks Overview' page when showing a large number of tasks.  
+
+* **Improved the description** for the Inactive Guest Users policy e-mail and task screen.
+
+* **Fixed the issue** where background jobs were occasionally duplicated and caused delays in processing.
 
 * **Fixed an issue** where task resolvers who were removed from their resolver position would still receive e-mails when someone else resolved their past Security & Compliance check violations.
 
@@ -91,27 +91,24 @@ Multiple improvements are available for the Storage Management feature:
 
 * **Fixed an issue** where the Anonymously Shared Sites report and Externally Shared Sites report were not updating the information (numbers) in the tile filters accurately.  
 
-* **Fixed an issue** where global search would not work as expected on the Sites, Teams & Groups Overview screen, the Storage Metrics, and Manually Apply Policies reports, in case custom metadata columns were enabled in the column chooser.
-
 * **Fixed an issue** on the User Details screen where the Remove Access action would time out when selecting multiple workspaces.
-
-* **Fixed the issue** where background jobs were occasionally duplicated and caused delays in processing. 
 
 * **Fixed a bug** on the Permissions Summary report that caused the Site Details Screen to time out in some environments.
 
-* **Fixed a bug** that allowed owners of inactive workspaces to keep their workspace indefinitely, even when a maximum period limit for keeping the workspace was previously set.
-
-* **Fixed a bug** where automatically Scheduled Report e-mails did not include an Attachment.  
-
 * **Fixed a bug** where users who were both admins and workspace owners were not added as Reviewers for Private Channels, nor could they be added manually. 
 
+* **Fixed a bug** that allowed owners of inactive workspaces to keep their workspace indefinitely, even when a maximum period limit for keeping the workspace was previously set.
+
+* **Fixed a bug** that showed Security Groups on the Rule Preview report when using Policy Automation on All Users, Everyone, and Everyone Except External users, even though a rule was set that security groups should not be included. 
+
+* **Fixed a bug** on the Teams & Groups reports that showed different values for the Created On date for Security Groups when compared to the values shown on the exported report. 
+
+* **Fixed a bug** where automatically Scheduled Report e-mails did not include an Attachment.  
 
 * **Fixed a bug** that caused an error when trying to send Lifecycle Management reminders. The following error message was displayed in the action log: `Error. An item with the same key has already been added. Key: int`
 
 * **Fixed a bug** that caused the following error message to appear when performing the Clean Up File Versions action on a site: `'Microsoft.SharePoint.Client.ServerException: No version with the requested ID was found.'` and `'Microsoft.SharePoint.Client.ServerException: Operation is not valid due to the current state of the object.'`
 
-* **Fixed a bug** that showed Security Groups on the Rule Preview report when using Policy Automation on All Users, Everyone, and Everyone Except External users, even though a rule was set that security groups should not be included. 
-
-* **Fixed a bug** on the Teams & Groups reports that showed different values for the Created On date for Security Groups when compared to the values shown on the exported report. 
+* **Fixed an issue** where global search would not work as expected on the Sites, Teams & Groups Overview screen, the Storage Metrics, and Manually Apply Policies reports, in case custom metadata columns were enabled in the column chooser.
 
 * **Various improvements and minor UX fixes are available**.
