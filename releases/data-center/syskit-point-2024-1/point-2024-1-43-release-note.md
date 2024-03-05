@@ -26,14 +26,14 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 * **New Policies added**: **Shadow Users** and **Workspaces with Too Many Members**. 
   * **Shadow Users policy**
-    * **Shadow users** are users who have access to specific documents/folders or other content but are not members of the workspace. Shadow users can potentially represent a security risk, as it is best practice to share access within workspace members only, especially when a workspace is private and contains sensitive content.
+    * **Shadow users** are users who have access to specific documents/folders or other content but are not members of the Microsoft Groups or Microsoft Teams associated with it. Shadow users can potentially represent a security risk, as it is best practice to share access within workspace members only, especially when a workspace is private and contains sensitive content.
     * **Default Shadow Users policy** is created after the upgrade to the latest Point Cloud version.
     * **The Default Shadow Users** policy is not applied to any workspaces as it is not included in the default rule. To apply the policy to your workspaces, we recommend using [Syskit Point rules](../../../governance-and-automation/automated-workflows/policy-automation.md).
     * **The default Shadow Users policy**, when applied to workspaces, **will show policy vulnerabilities on the Security & Compliance dashboard**, but **no tasks are created**, and **no emails sent**.
     * [For more details about the Shadow Users policy settings, read this article.](../../../governance-and-automation/automated-workflows/shadow-users-admin.md)
     * [To find out more on how to resolve the detected vulnerability, read the related Security & Compliance report article](../../../governance-and-automation/security-compliance-checks/workspaces-with-shadow-users.md)
   * **Workspaces with Too Many Members policy**
-    * **Workspaces with Too Many Members** are workspaces that have a number of members that are over a defined threshold. 
+    * **Workspaces with Too Many Members** are Microsoft Groups or Microsoft Teams that have a number of members that are over a defined threshold. 
     * **Too many members in a workspace** may lead to more difficult access control, which can result in a security risk. 
     * **Default Maximum Number of Members policy** is created after the upgrade to the latest Point Cloud version and sets a limit of 50 members on a workspace.
     * **The Default Maximum Number of Members policy** is included in the default rule, meaning that it is applied to your workspaces.
@@ -68,7 +68,7 @@ Multiple improvements are available for the Storage Management feature:
 * **The Remove Access action was enabled** for users in the Access review task on the Sharing step - Users View.   
   * Multiselection of users is also enabled.
 
-* **When [configuring e-mail SMTP settings](../../../configuration/set-up-email.md)**, along with the classic email@email.com format, the Sent From e-mail can now also be in the following format: DisplayName <email@email.com>.
+* **When [configuring e-mail SMTP settings](../../../configuration/set-up-email.md#smtp-settings)**, along with the classic email@email.com format, the Sent From e-mail can now also be in the following format: DisplayName <email@email.com>.
 
 * **Newly created licensed users** who have never logged in are no longer shown on the Inactive Licenses report. 
   * Additionally, on the Users Overview screen in the Inactive Users tile and Inactive Users view, newly created users (those created in the last 30 days) will not show.
