@@ -133,8 +133,21 @@ The warning serves as a reminder that **if you have rules set up**, manually cha
 
 {% endhint %}
 
-
 ![Apply Policy Dialog - Warning](../../.gitbook/assets/create-access-review-policies-apply-policy-warning.png)
+
+{% hint style="warning" %}
+**Please note!** 
+
+Only **one Access Review policy can be active at a time** on a workspace.
+When a new Access Review policy is created and applied to workspaces, **it will be triggered depending on the date set in the Settings of the Access Review Options**.
+ * **If the date** in the Settings > Access Review Options **has not changed**, it will be triggered on the set date in the future and then occur depending on the period set for the individual policy.
+   * Let's say your Access Review is set to occur every 2 months, and the date in the Settings was set sometime in the past; the policy will be triggered in approximately 2 months on the date stated in Settings. For this example, if the date in the Settings is the 24th of February 2024, the policy would be triggered on the 24th of April 2024.   
+ * **If the date** in the Settings > Access Review Options **is set in the future**, it will be triggered on the set date in the future and then occur depending on the recurrence set for the individual policy.
+   * Let's say your Access Review is set to occur every 2 months; it will be triggered on the date specified in Settings and then every 2 months on that date. For this example, if the date in the Settings is the 24th of August 2024, the policy would be triggered on the 24th of August 2024, and then again on the 24th of October, and so on.   
+ * **If the date** in the Settings > Access Review Options **is set in the past**, the policy will be triggered based on the recurrence set for the policy.
+   * Let's say your Access Review is set to occur every 2 months; it will be triggered approximately 2 months after the policy was created and applied to the workspace(s). For this example, if the date in the Settings is the 24th of February 2024, the policy would be triggered on the 24th of April 2024.   
+
+{% endhint %}
 
 ## Next Steps
 
