@@ -139,10 +139,10 @@ The warning serves as a reminder that **if you have rules set up**, manually cha
 **Please note!** 
 
 Only **one Access Review policy can be active at a time** on a workspace.
-When a new Access Review policy is created and applied to workspaces, **it will be triggered depending on the date set in the Settings of the Access Review Option**.
- * **If the date** in the Settings for the Access Review Option **has not changed**, it will be triggered on the set date in the future and then occur depending on the recurrence date set for the individual policy.
- * **If the date** in the Settings for the Access Review Option **is set in the future**, it will be triggered on the set date in the future and then occur depending on the recurrence date set for the individual policy.
- * **If the date** in the Settings for the Access Review Option **is set in the past**, the policy will be triggered based on the recurrence set for the policy.
+When a new Access Review policy is created and applied to workspaces, **it will be triggered depending on the date set in the Settings of the Access Review Options**.
+ * **If the date** in the Settings for the Access Review Options **has not changed**, it will be triggered on the set date in the future and then occur depending on the recurrence date set for the individual policy.
+ * **If the date** in the Settings for the Access Review Options **is set in the future**, it will be triggered on the set date in the future and then occur depending on the recurrence date set for the individual policy.
+ * **If the date** in the Settings for the Access Review Options **is set in the past**, the policy will be triggered based on the recurrence set for the policy.
 
 {% endhint %}
 
