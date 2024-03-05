@@ -4,9 +4,9 @@ description: This article explains how to set up e-mail settings in Syskit Point
 
 # Set Up E-Mail
 
-**Syskit Point sends e-mails** to owners, administrators and, other users when policies are enabled and applied.
+**Syskit Point sends e-mails** to owners, administrators, and other users when policies are enabled and applied.
 
-Here you can find all the information needed to successfully configure e-mail settings, which Syskit Point will use to send the e-mails.
+Here, you can find all the information needed to successfully configure e-mail settings, which Syskit Point will use to send the e-mails.
 
 {% hint style="warning" %}
 **Please note!**\
@@ -20,7 +20,7 @@ For Syskit Point to be able to send e-mails, you need to configure the sending m
 
 {% hint style="warning" %}
 **Please Note!**\
-E-mail address set up in this section will appear in the **Sent from** field in all e-mails sent from Syskit Point.
+The e-mail address set up in this section will appear in the **Sent from** field in all e-mails sent from Syskit Point.
 {% endhint %}
 
 ## Exchange Online Settings
@@ -63,6 +63,7 @@ Select the **SMTP method** if you are using an **SMTP** server in your environme
 * **Outgoing Server**
 * **Port**
 * **Sent from** e-mail
+   * The email format can also be the following: DisplayName \<email@domain.com>
 *   **Username** and **Password**; in case the **Require Authentication** option is enabled
 
     You can also choose whether to **Use Encrypted Connection (SSL)**.
