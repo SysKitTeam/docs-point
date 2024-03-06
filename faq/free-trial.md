@@ -10,7 +10,7 @@ Before purchasing a subscription for Syskit Point, you can start a free 21-day t
 
 ## What do I get when I sign up for a free trial?
 
-Signing up for a free trial grants you 21-day of Governance edition of Syskit Point.
+Signing up for a free trial grants you 21 days of the Governance edition of Syskit Point.
 
 ## Do I need to provide my credit card or other billing information to start my trial?
 
@@ -18,12 +18,25 @@ No. Syskit doesn’t collect any billing information during the trial period.
 
 ## Are there any limits in the trial version of the tool?
 
-We believe it is best to see Syskit Point in action using your real data and we want to give you the possibility to set up and try Syskit Point in under 10 minutes.
+We believe it is best to see Syskit Point in action using your real data, and we want to give you the possibility to set up and try Syskit Point in under 10 minutes.
 Therefore, **only for trial purposes**, we have put in place the following limitations:
  * Load is limited to 10 000 000 files, ​
  * OneDrive sync is disabled​
 
 Please see our [documentation](../set-up-point-cloud/free-trial-limits.md) for more information.
+
+## What does it mean if, during the trial, the External Users report doesn't show a last login date? Does it mean the users have never logged in? 
+
+Login time for Ad Goc and Guest External Users is tracked from the moment Point was installed. It's possible that the External Users had not logged in since Syskit Point was installed. 
+
+Additionally, when it comes to Guest External Users, Syskit Point also checks Azure AD logs for information about the last login date. The logs store 90 days of login history. 
+
+If your External Users report isn't showing any data, the following scenarios are possible:
+
+ * The Ad Hoc External user has not logged in since Syskit Point was installed. 
+ * The Guest External User has not logged in for the past 90 days.
+ 
+[For more details about tracking External Users' activity, take a look at this article.](../access-management/track-external-users-and-their-activities.md)
 
 ## Can multiple people in my organization try out Syskit Point together? 
 
@@ -35,7 +48,7 @@ Of course! Our support team is available Monday through Friday from 8AM to 8PM C
 
 ## Do you offer trial extensions? 
 
-We do not offer trial extensions. We recommend starting a monthly subscription which you can cancel at any time.
+We do not offer trial extensions. We recommend starting a monthly subscription, which you can cancel at any time.
 
 ## What happens when my trial ends? 
 
