@@ -84,7 +84,11 @@ Once you've purchased your Syskit Point subscription, you are redirected back to
 
 If your purchase was successful, when you click **Overview**, the information for your **Next Renewal Data** will reflect the renewal period you selected for your subscription.
 
-The **Purchased Plan** section will now show the name of the subscription you purchased.
+The **Purchased Plan (1)** section will now show the name of the subscription you purchased.
+
+The section titled **Users (2)** is where you can find a list of users you have given Administrator rights to the Subscriptions portal, which means **these users are allowed to manage your subscription by adding additional user licenses, purchasing a different subscriptions plan**, and so on. 
+
+![Syskit Point Subscription - Purchased Plan & Users](../.gitbook/assets/syskit-point-subscriptions-users-purchased-plan.png)
 
 ## Purchase Additional User Licenses
 
@@ -163,9 +167,8 @@ To change or upgrade the Syskit Point subscription plan you currently have, comp
 * Click the **Cancel plan (3)** button, located on the right side of the screen
   * This opens a screen where you can cancel your current plan
 
-![Syskit Point Subscription - Cancel Subscription](../.gitbook/assets/syskit-point-cloud-syskit-point-subscriptions-manage-cancel.png)
+![Syskit Point Subscription - Cancel Subscription - Manage](../.gitbook/assets/syskit-point-cloud-licensing-manage-subs.png)
 
-![Syskit Point Subscription - Cancel Subscription](../.gitbook/assets/syskit-point-cloud-syskit-point-subscriptions-manage-cancel-2.png)
 
 ![Syskit Point Subscription - Cancel Subscription](../.gitbook/assets/setup-point-cloud-syskit-point-subscriptions-cancel-overview.png) 
 
