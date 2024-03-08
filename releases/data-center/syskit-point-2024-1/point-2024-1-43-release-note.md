@@ -103,7 +103,10 @@ Multiple improvements are available for the Storage Management feature:
 
 * **Fixed a bug** on the Teams & Groups reports that showed different values for the Created On date for Security Groups when compared to the values shown on the exported report. 
 
-* **Fixed a bug** where automatically Scheduled Report e-mails did not include an Attachment.  
+* **Fixed a bug** where automatically Scheduled Report e-mails did not include an Attachment.
+
+* **Fixed an issue** where deleting Microsoft Teams would result in the following error:
+`Error mapping types. Mapping types: ConnectedSiteCollection -> SiteInfoLite.`
 
 * **Fixed a bug** that caused an error when trying to send Lifecycle Management reminders. The following error message was displayed in the action log: `Error. An item with the same key has already been added. Key: int`
 
