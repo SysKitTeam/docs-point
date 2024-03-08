@@ -8,12 +8,23 @@ description: This section describes how to find information about External users
 
 The two types of external users you can track in Syskit Point are **Ad Hoc External Users** and **Guest Users**.
 
-**Ad Hoc External Users** are typically individuals who don't have a pre-existing identity in your Azure AD directory. They might have been given access to a specific resource, but this access is often temporary and might just be needed for a particular project or task. For example, perhaps you've outsourced an agency to do your branding and they require access to certain documents and files in order to complete their job. This would make them an Ad Hoc external user as they do not belong to your organization but need temporary access to certain files.
+**Ad Hoc External Users** 
+* Users who don't have an identity in your Azure AD directory.
+* Access is given via a sharing link to a specific resource.
+* Access is often temporary and might just be needed for a particular project or task. 
+    * For example, you've outsourced an agency to do your branding and they require access to certain documents and files in order to complete their job. This would make them an Ad Hoc external user as they do not belong to your organization but need temporary access to certain files.
+* You can distinguish Ad Hoc Users by their username that starts with `urn:spo:guest#`, for example, `urn:spo:guest#johndoe@gmail.com`.
+    * You can also use the External User Type column on the Users Overview screen to filter out Ad Hoc Users.
 
-**Guest Users** might have a more structured and potentially even long-term relationship with your organization. Due to that, these individuals are given access to your resources and are added to your Azure AD directory as guest accounts. Guest users typically have a broader scope of access and may have been given access to multiple resources or workspaces. Let's say you hired a freelance developer to help you maintain your website. While this person might not work for your organization directly, they are hired long-term and might require access to more workspaces than a short-term hire would. 
+**Guest Users** 
+* Users who have an identity/guest account in your Azure AD directory.
+* Guest users typically have a broader scope of access and may have been given access to multiple resources or workspaces.
+* They have a more structured and potentially even long-term relationship with your organization. 
+    * Let's say you hired a freelance developer to help you maintain your website. While this person might not work for your organization directly, they are hired long-term and might require access to more workspaces than a short-term hire would. 
+* Guest User's username contains `#EXT#` string in their username, for example, `johndoe_gmail.com#EXT#@contoso.onmicrosoft.com`.
+    * You can also use the External User Type column on the Users Overview screen to filter out Guest Users.
 
 Keeping track of your external users and their activity is vital in order to ensure a safe and secure collaborative environment. 
-
 
 ## Track External Users and Their Activities
 
