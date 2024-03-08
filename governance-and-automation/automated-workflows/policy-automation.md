@@ -116,7 +116,7 @@ There are two types of available properties you can select when setting up condi
   * Since there is no limitation on how you should name your custom metadata or how many custom metadata properties you create, Syskit Point focuses on supporting custom metadata types - e.g., number, boolean, string, etc.
   * For example, if you define custom metadata named **Project End Date**, the data type would be set to Date; for **Project Name** data type would be set to Text, etc.
 
-  In the following table, you can find all predefined properties and operators currently available in Syskit Point.
+In the following table, you can find all predefined properties and operators currently available in Syskit Point.
 
   | Workspaces property | Operator(s) |
   |-----|-----|
