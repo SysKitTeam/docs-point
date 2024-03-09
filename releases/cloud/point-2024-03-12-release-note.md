@@ -19,7 +19,7 @@ description: >-
   * Custom metadata, which you create and apply to your workspaces in Syskit Point or via third-party tools, can now be used in rule conditions.
   * The following custom metadata types are supported: **Text**, **Number**, **Date**, and **Boolean (Yes/No)**.
   * New predefined property is available - **Created On** - enabling you to utilize rules to apply governance policies to workspaces based on their creation date. 
-  * For more details about conditions, available properties, and operators, take a look at the [conditions section of the Rules article.](../../governance-and-automation/automated-workflows/policy-automation.md#conditions)
+  * [For more details about conditions, available properties, and operators, take a look at the conditions section of the Rules article.](../../governance-and-automation/automated-workflows/policy-automation.md#conditions)
 
 * **Storage Management gets new improvements!**
   * **Views were added** to the Storage Metrics report:
