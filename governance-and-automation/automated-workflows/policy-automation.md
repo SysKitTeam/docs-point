@@ -5,17 +5,11 @@ description: This article explains how to set up and utilize the policy rules fe
 
 # Rules
 
-The Rules feature **lets you create rules for auto-applying policies** based on these conditions:
+The Rules feature **lets you create rules for auto-applying policies** based on conditions - be it predefined in Syskit Point, but also your custom metadata.
 
-  * Name
-  * Number of Guest Users
-  * Privacy
-  * Sensitivity Label
-  * Sharing Settings
-  * URL
-  * Workspace Type
-
-Custom metadata is planned to be implemented into the feature soon as well. 
+{% hint style="information" %}
+Available conditions are explained in more detail in the [Conditions section](#conditions)
+{% endhint %}
 
 Rules for policies make managing your environment and keeping it secure easier and more efficient. **You can define rules in Syskit Point that will automatically apply policies** (for example, Access review, Maximum or Minimum number of owners, etc.) to your newly created workspaces **without having to apply them manually**. It also means you'll need to create fewer provisioning templates to secure your environment. 
 
@@ -28,6 +22,7 @@ In this article, you can find information on the following:
 
 * [Default Rule](#default-rule)
 * [Creating Rules](#create-rules)
+* [Conditions](#conditions)
 * [Priority and Priority Overrides](#priority-and-priority-overrides)
 * [Managing Rules](#manage-rules)
 
@@ -65,12 +60,15 @@ To create the rule, fill out the following information, as requested on the pop-
 
 ![Rules - New Rule](../../.gitbook/assets/policy-automation-new-policy-first.png)
 
-
 * Under the **Add Conditions (1)** section, **set the conditions for your rule (2)** by using the drop-down menu
   * Once you've set the condition, **click the Save Condition (3)** button
   * Once saved, if you want to make changes **click the edit button** 
   * Once saved, if you want to delete it, **click the delete button**
 * When you're ready, **click Next to continue (4)**
+
+{% hint style="information" %}
+Available conditions are explained in more detail in the [Conditions section](#conditions)
+{% endhint %}
 
 ![Rules - New Rule - Add Conditions](../../.gitbook/assets/policy-automation-conditions.png)
 
@@ -94,6 +92,51 @@ The rule is enabled once you've created it and will start applying defined polic
 **Please Note!**
 While you can create more than 10 rules for policies, **only 10 rules can be active at once**. If you already have 10 rules active, you will not be able to create new rules without disabling one or [contacting Syskit support](https://www.syskit.com/contact-us/). 
 {% endhint %}
+
+
+## Conditions
+
+Conditions are one of the key elements in rules since they enable filtering of workspaces where Syskit Point will apply defined governance policies. 
+
+When defining conditions, you need to:
+* Select a property that is checked
+  * For example, **Privacy**
+* Choose an operator (where available)
+  * For **Privacy**, the operator is predefined - **is set to**
+* Select the value of the property that satisfies the condition
+  * **Private** or **Public**
+
+In this example, if you define the condition to state **Privacy is set to Private**, the Rule will apply defined policies to Private workspaces only. 
+
+There are two types of available properties you can select when setting up conditions:
+* **Predefined properties**
+  * Such as Privacy or workspace Name
+* **Custom metadata**
+  * Workspace properties defined in [Custom Metadata in Syskit Point](../../governance-and-automation/manage-custom-metadata.md) or via third-party tools and synced to Syskit Point
+  * Since there is no limitation on how you should name your custom metadata or how many custom metadata properties you create, Syskit Point focuses on supporting custom metadata types - e.g., number, boolean, string, etc.
+  * For example, if you define custom metadata named **Project End Date**, the data type would be set to Date; for **Project Name** data type would be set to Text, etc.
+
+In the following table, you can find all predefined properties and operators currently available in Syskit Point.
+
+  | Workspaces property | Operator(s) |
+  |-----|-----|
+  | Created | After, Before, Between | 
+  | Name | Equals, Not Equals, Starts With, Contains | 
+  | Number of Guest Users | Equal, Greater Than, Greater Than or Equal, Less Than, Less Than or Equal | 
+  | Privacy | Is set to | 
+  | Sensitivity Label | Is set to |
+  | Sharing Settings | Is set to |
+  | URL | Equals, Not Equals, Starts With, Contains |
+  | Workspace Type | Is set to |
+
+Additionally, the following custom metadata types and related operators are supported:
+
+  | Custom Metadata Type | Operator(s) |
+  |-----|-----|
+  | Text | Equals, Not Equals, Starts With, Contains |
+  | Date | After, Before, Between |
+  | Boolean (Yes/No) | Is set to |
+  | Number | Equal, Greater Than, Greater Than or Equal, Less Than, Less Than or Equal |
 
 ## Priority and Priority Overrides
 

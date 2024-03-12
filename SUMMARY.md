@@ -3,6 +3,7 @@
 * [Syskit Point](README.md)
 * [Releases](releases/README.md)
   * [Syskit Point Cloud](releases/cloud/README.md)
+    * [March 12, 2024](releases/cloud/point-2024-03-12-release-note.md)
     * [February 22, 2024](releases/cloud/point-2024-02-22-release-note.md)
     * [February 06, 2024](releases/cloud/point-2024-02-06-release-note.md)
     * [January 19, 2024](releases/cloud/point-2024-01-19-release-note.md)
