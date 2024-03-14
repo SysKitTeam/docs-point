@@ -4,6 +4,10 @@ description: This article explains how to free up your storage on SharePoint sit
 
 # Free Up Storage
 
+{% hint style="information" %}
+**Please note!** If a certain site **has a hold or retention policy applied**, the Clean Up Storage action fails for that workspace, and storage is not freed. If a certain file has a hold or retention policy applied, that file is not cleaned up or deleted. 
+{% endhint %}
+
 To **free up storage directly in Syskit Point**, generate the tenant-wide **Storage Metrics Report** in the following way:
  
  * **Click the View All** button on the Storage tile located on the dashboard.
