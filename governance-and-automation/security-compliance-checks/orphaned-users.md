@@ -2,10 +2,9 @@
 description: This article provides information on the Orphaned Users report.
 ---
 
-
 # Orphaned Users
 
-Syskit Point detects users that have been disabled or deleted in Azure AD, but still have access to SharePoint content, which could lead to security risks in case they become active again. 
+Syskit Point detects users that have been disabled or deleted in Azure AD but still have access to SharePoint content, which could lead to security risks in case they become active again. 
 
 The Orphaned Users policy is **a tenant-wide policy, and it cannot have task delegation enabled**. That means that no tasks are created to resolve this policy violation, and no emails are sent to collaborators.
 
@@ -28,10 +27,18 @@ The report itself provides information on:
 
 You can complete the following actions for the policy violation:
   * **Accept Risk (7)** - this means you will close the policy violation without making any changes to the current state of the workspace
-  * **Remove User (8)** - this will remove the user from the SharePoint site and connected groups, and resolve the policy violation
+  * **Remove User (8)** - this will remove the user from the SharePoint site and connected groups and resolve the policy violation
 
 By **selecting all (9)** or more than one user, you can perform the bulk action for **Remove User (10)** or **Accept Risk (11)**. 
 
 ![Orphaned Users](../../.gitbook/assets/security-compliance-checks-orphaned-users.png)
 
 ![Orphaned Users - Bulk](../../.gitbook/assets/security-compliance-checks-orphaned-users-bulk.png)
+
+**Clicking the Remove User** action opens the Remove User dialogue. 
+  * To replace the user as Primary Admin, **select the checkbox (1)** that states *If the user is a Primary Admin replace them with*
+    * If the selected user is a Primary Admin on chosen sites/OneDrive, Microsoft does not allow their removal. In order to remove them, they have to be replaced as Primary Admin with an active user
+  * Once selected, a space is provided where you should **type the name or email of the user (2)** you want as the new Primary Admin
+* **Type REMOVE (3)** in the space provided and **click Remove (4)** to finalize your decision. 
+
+![Orphaned Users - Remove User Action](../../.gitbook/assets/security-compliance-checks-orphaned-users-remove-user.png)
