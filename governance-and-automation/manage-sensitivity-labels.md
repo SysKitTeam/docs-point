@@ -6,7 +6,7 @@ description: This article explains how to manage sensitivity labels on your work
 
 {% hint style="warning" %}
 **Please note!**  
-To use sensitivity labels, a service account needs to be connected to Syskit Point. For details on how to set up sensitivity labels, take a look at the [Enable Sensitivity Labels article](../provisioning/enable-sensitivity-labels.md). 
+To use sensitivity labels, a service account needs to be connected to Syskit Point. For details on how to set up sensitivity labels, take a look at the [Enable Sensitivity Labels article](provisioning/enable-sensitivity-labels.md). 
 {% endhint %}
 
 Once set up, **Syskit Point admins can apply or remove the sensitivity labels from workspaces**. 
