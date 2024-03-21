@@ -17,7 +17,7 @@ You'll be able to utilize most of the Syskit Point features while in the free tr
 * **When Syskit Point syncs above ten million items**, **the remaining workspaces will no longer be synced**
 * **PDF exports will have a watermark** stating you exported the file during the Syskit Point Trial
 * **OneDrive data will not be synced** and will not be available for access to gain more details
-* **You will have a limit** of running 5 File Version Cleanup actions
+* **You will have a limit** of running 10 File Version Cleanup actions
 
 {% hint style="warning" %}
 **Please note!**&#x20;
