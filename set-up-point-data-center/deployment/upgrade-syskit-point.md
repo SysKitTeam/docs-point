@@ -32,7 +32,8 @@ This article **describes Syskit Point upgrades from version 20 onwards**.
 
 {% hint style="warning" %}
 **Please note!**\
-Upgrade banner will not show in case of Syskit Point releases with new version containing minor changes in functionality or non-critical fixes.\ 
+Upgrade banner will not show in case of Syskit Point releases with new version containing minor changes in functionality or non-critical fixes.
+ 
 [For a list of all Syskit Point Data Center releases, follow this link](../../releases/data-center/).
 {% endhint %}
 
