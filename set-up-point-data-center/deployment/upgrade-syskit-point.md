@@ -10,7 +10,7 @@ Since **Syskit Point** frequently gets new features, we highly recommend deployi
 
 {% hint style="warning" %}
 **Please note!**\
-This article **describes Syskit Point upgrades from version 20 onwards**.
+This article describes Syskit Point upgrades from version 20 onwards.
 
 _If you are using Syskit Point 19, [contact us](https://www.syskit.com/company/contact-us/) to arrange a guided migration to the latest version due to significant changes in Syskit Point's architecture_.
 {% endhint %}
