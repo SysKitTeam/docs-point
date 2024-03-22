@@ -17,13 +17,12 @@ When Syskit Point detects that Microsoft Teams or Microsoft 365 Groups you are t
 
 ## Policy Violation E-mail
 
-**Syskit Point sends an e-mail to existing owners** when Microsoft Teams or Microsoft 365 Groups are detected that do not have a minimum number of owners predefined in the policy settings. 
+**Syskit Point sends an e-mail to existing owners** when Microsoft Teams or Microsoft 365 Groups are detected that do not have a minimum number of owners predefined in the policy settings. The e-mail includes all of the workspaces where the policy violation was triggered.
 
 You can find the following information in the e-mail:
-* **Minimum number of required owners (1)**
+* **Due date to resolve the policy violation (1)**; you have 15 workdays to resolve the policy violation
 * **Microsoft Teams** or **Microsoft 365 Group where the policy violation was detected (2)**
-* **Due date to resolve the policy violation (3)**; you have 15 workdays to resolve the policy violation
-* **Resolve button (4) that takes you to Syskit Point**, where you can resolve the policy violation
+* **Resolve button (3) that takes you to Syskit Point**, where you can resolve the policy violation
 
 ![Policy Violation E-mail](../../.gitbook/assets/minimum-number-of-owners-email.png)
 
@@ -55,11 +54,9 @@ The following is available on the task screen:
 ![Policy Violation History Screen](../../.gitbook/assets/minimum-number-of-owners-workflow-history.png)
 
 **After you resolve the policy violation, an e-mail is also sent to owners**, showing the following information:
-* **Microsoft Teams or Microsoft 365 Group where an owner resolved the policy violation (1)**
-* **Who and when (2) resolved the policy violation**
-* **View Details button (3)** that **opens the History screen** in Syskit Point, showing all the activities that were performed within the workflow
-
-![Policy Violation Resolved - E-mail](../../.gitbook/assets/minimum-number-of-owners-resolved-email.png)
+* **Microsoft Teams or Microsoft 365 Group where an owner resolved the policy violation**
+* **Who and when resolved the policy violation**
+* **View Details button** that **opens the History screen** in Syskit Point, showing all the activities that were performed within the workflow
 
 {% hint style="warning" %}
 **Please note!**  

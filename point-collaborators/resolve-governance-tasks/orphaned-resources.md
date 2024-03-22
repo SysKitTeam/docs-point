@@ -22,12 +22,12 @@ Below, both cases are separately explained in more detail.
 
 ### Policy Violation E-Mail
 
-Syskit Point sends you an **e-mail asking you to assign new owners** when Microsoft Teams or Microsoft 36 Groups are detected that have no active owners.
+Syskit Point sends you a bulk e-mail that includes all of the workspaces where the policy violation was triggered, **asking you to assign new owners** when Microsoft Teams or Microsoft 36 Groups with no active owners are detected.
 
 You can find the following information in the e-mail:
-* **Microsoft Teams or Microsoft 365 Group where the policy violation was detected (1)**
-* **Due date to resolve the policy violation (2)**; you have 15 workdays to resolve the policy violation
-* **Resolve button (3)** that takes you to Syskit Point, where you can resolve the policy violation
+* **Due date to resolve the policy violation (1)**; you have 15 workdays to resolve the policy violation
+* **Microsoft Teams** or **Microsoft 365 Group where the policy violation was detected (2)**
+* **Resolve button (3) that takes you to Syskit Point**, where you can resolve the policy violation
 
 ![Policy Violation E-mail](../../.gitbook/assets/orphaned-resources-assign-owners-email.png)
 
@@ -57,11 +57,9 @@ The following is available on the task screen if you were selected to assign new
 ![Policy Violation History Screen](../../.gitbook/assets/orphaned-resources-policy-history-screen.png)
 
 **After you resolve the policy violation**, **a confirmation e-mail is sent to all users that were assigned with the task**, showing the following information:
-* **Microsoft Teams or Microsoft 365 Group where the policy violation was resolved (1)**
-* **Who and when (2) resolved the policy violation**
-* **View Details button (3) that opens the History screen in Syskit Point showing all the activities that were performed within the workflow**
-
-![Policy Violation Resolved - E-mail](../../.gitbook/assets/orphaned-resources-confirmation-email.png)
+* **Microsoft Teams or Microsoft 365 Group where the policy violation was resolved**
+* **Who and when resolved the policy violation**
+* **View Details button that opens the History screen in Syskit Point showing all the activities that were performed within the workflow**
 
 ## 2-Stage Process
 
@@ -74,8 +72,7 @@ You can find the following information in the e-mail:
 * **Due date to resolve the policy violation (2)**; you have 15 workdays to resolve the policy violation
 * **Resolve button (3)** that takes you to Syskit Point, where you can resolve the policy violation
 
-![Policy Violation E-mail](../../.gitbook/assets/orphaned-resources-suggest-owners-email.png)
-
+![Policy Violation E-mail](../../.gitbook/assets/orphaned-resources-assign-owners-email.png)
 
 **Click the Resolve button** to open the policy violation task in Syskit Point.
 
@@ -137,11 +134,8 @@ The following is available on the task screen:
 
 **After you resolve the policy violation, the History screen opens**, giving you an overview of all actions performed within the workflow.
 
-![Policy Violation - History Screen](../../.gitbook/assets/orphaned-resources-policy-history-screen-approver.png)
-
 **After you resolve the policy violation**, a **confirmation e-mail is also sent to all users that were assigned with the task**, showing the following information:
-* **Microsoft Teams or Microsoft 365 Group where the policy violation was resolved (1)**
-* **Who and when (2) resolved the policy violation**
-* **View Details button (3)** that opens the History screen in Syskit Point, showing all the activities that were performed within the workflow
+* **Microsoft Teams or Microsoft 365 Group where the policy violation was resolved**
+* **Who and when resolved the policy violation**
+* **View Details button** that opens the History screen in Syskit Point, showing all the activities that were performed within the workflow
 
-![Policy Violation Resolved - E-mail](../../.gitbook/assets/orphaned-resources-confirmation-email.png)

@@ -57,6 +57,8 @@ Task Delegation can be enabled in policy settings for each policy listed below.
 
 **When task delegation is enabled, Syskit Point creates tasks and sends emails to users as defined in the policy settings**.
 
+Each e-mail that is sent **includes a list of all workspaces or users** that violated the policy and triggered the task. You will not receive individual e-mails for each workspace or user that violated the policy.  
+
 * **Access Requests** and **Access Review** policies don't represent vulnerabilities and will not appear on the Security & Compliance dashboard; think of them as automation-only policies.
 * **When you acquire Syskit Point, default policies are created with task delegation disabled.** Edit the default policies settings to enable task delegation.
 

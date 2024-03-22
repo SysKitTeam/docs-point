@@ -18,12 +18,13 @@ In both cases, Syskit Point will send you an e-mail to revalidate the guest user
 
 ## Guest User Access Renewal E-mail
 
-Syskit Point sends an e-mail to guest users’ managers or other users defined as points of contact in the Guest Users Expiration policy. 
+Syskit Point sends a bulk e-mail that includes all of the guest users that triggered the policy violation. The e-mail is sent to the guest users’ managers or other users defined as points of contact in the Guest Users Expiration policy. 
 
 You can find the following information in the e-mail:
-* **Guest user whose access should be revalidated (1)**
-* **Due date to resolve the task (2)**; you have 15 workdays to resolve the policy violation
-* **Resolve button (3)** that takes you to Syskit Point, where you can resolve the policy violation
+
+* **Due date to resolve the policy violation (1)**; you have 15 workdays to resolve the policy violation
+* **A list of guest users whose access should be revalidated (2)**
+* **Resolve button (3) that takes you to Syskit Point**, where you can resolve the policy violation
 
 ![Guest User Access Renewal E-mail](../../.gitbook/assets/guest-users-expiration-renewal-email.png)
 
@@ -32,6 +33,8 @@ You can find the following information in the e-mail:
 ## Guest Users Expiration Task
 
 Along with the e-mail, Syskit Point creates a policy violation task that provides you with information and actions needed to resolve the policy violation. 
+
+If there was a policy violation, a bulk email is sent that includes all of the workspaces where the policy violation was triggered.
 
 The following is available on the task screen:
 
@@ -55,8 +58,6 @@ When keeping the guest user's access, the following is expected, depending on th
 ![Policy Violation History Screen](../../.gitbook/assets/guest-users-expiration-history.png)
 
 **After you resolve the policy violation**, **you will also receive a confirmation e-mail** showing the following information:
-* **Guest user whose access was removed (1) or revalidated**
+* **Guest user whose access was removed or revalidated**
 * **Result of the validation**; showing if the access was renewed or removed
-* **View Details button (3) that opens the History screen in Syskit Point**, showing all the information about actions performed in the workflow
-
-![Policy Violation Resolved - E-mail](../../.gitbook/assets/guest-users-expiration-confirmation-email.png)
+* **View Details button that opens the History screen in Syskit Point**, showing all the information about actions performed in the workflow
