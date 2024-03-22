@@ -10,9 +10,7 @@ Since **Syskit Point** frequently gets new features, we highly recommend deployi
 
 {% hint style="warning" %}
 **Please note!**\
-This article describes Syskit Point upgrades from version 20 onwards.
-
-_If you are using Syskit Point 19, [contact us](https://www.syskit.com/company/contact-us/) to arrange a guided migration to the latest version due to significant changes in Syskit Point's architecture_.
+This article describes Syskit Point upgrades for Syskit Point Data Center customers only.
 {% endhint %}
 
 ## Checking for Updates
@@ -32,7 +30,7 @@ _If you are using Syskit Point 19, [contact us](https://www.syskit.com/company/c
 
 {% hint style="warning" %}
 **Please note!**\
-Upgrade banner will not show in case of Syskit Point releases with new version containing minor changes in functionality or non-critical fixes.
+The upgrade banner will not show in the case of Syskit Point releases with new versions containing minor changes in functionality or non-critical fixes.
 
 [For a list of all Syskit Point Data Center releases, follow this link](../../releases/data-center/).
 {% endhint %}
