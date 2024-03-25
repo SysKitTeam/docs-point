@@ -6,18 +6,34 @@ description: >-
 
 # Upgrade Syskit Point
 
-Since **Syskit Point** is frequently getting new features, we highly recommend deploying the latest available version to use its maximum potential.
+Since **Syskit Point** frequently gets new features, we highly recommend deploying the latest version to use its maximum potential.
 
 {% hint style="warning" %}
 **Please note!**\
-This article **describes Syskit Point upgrades from version 20 onwards**.
-
-* **If you are using Syskit Point 19**, [contact us](https://www.syskit.com/company/contact-us/) to arrange a guided migration to the latest version due to changes in Syskit Point's architecture.
+This article describes Syskit Point upgrades for Syskit Point Data Center customers only.
 {% endhint %}
 
 ## Checking for Updates
 
-**Syskit Point automatically checks for updates** every day, outside of working hours. **In case a new update is available, every Syskit Point user** **receives a popup message** at the bottom of the Home screen when they open the web application.
+**Syskit Point automatically checks for updates** every day, outside working hours.
+
+**Upgrade banner is displayed at the bottom of the Home screen to all users signed into the Syskit Point web app** in case there is a new Syskit Point version detected, which comes with one or several changes from the following categories:
+* **Major features**
+  * The new version of Syskit Point comes with new reports, actions, policies, etc., or significant improvements in existing features.
+  * This is usually reflected by changing the 2nd number in Syskit Point version; for example, old version is `2024.1.44`, and new version is `2024.2.45`.
+* **Hotfixes**
+  * Hotfix version is released in order to remedy critical issues in Syskit Point or breaking changes coming from the Microsoft 365 platform.
+  * Expect the third number in the Syskit Point version to change; for example, the old version is `2024.1.44`, and the new version is `2024.1.45`.
+* **Security Updates**
+  * A new version of Syskit Point resolves security vulnerabilities found in 3rd party dependencies or Syskit Point codebase itself. 
+  * Here, you can also expect the third number in the Syskit Point version to change; for example, the old version is `2024.1.46`, and the new version is `2024.1.47`.
+
+{% hint style="warning" %}
+**Please note!**\
+The upgrade banner will not show in the case of Syskit Point releases with new versions containing minor changes in functionality or non-critical fixes.
+
+[For a list of all Syskit Point Data Center releases, follow this link](../../releases/data-center/).
+{% endhint %}
 
 ![Home screen - New Update Available](../../.gitbook/assets/upgrade-syskit-point-new-update-available.png)
 
@@ -41,7 +57,7 @@ The **Custom deployment** screen in Azure Portal opens. Here you need to:
 
 * **Select the Resource group (1)** wherein the current Syskit Point version is deployed
 * **Select Region (2)** - use the location of your currently deployed Syskit Point resources
-* **Enter App service Name (3)** - enter the App Service resource Name; you can **find the App Service name (5)** by navigating to the Overview screen of Syskit Point resource group
+* **Enter App service Name (3)** - enter the App Service resource Name; you can **find the App Service name (5)** by navigating to the Overview screen of the Syskit Point resource group
 * **Click Next: Review + create > (4)** - Review + create screen opens showing entered data; check that the entered data is correct and click **Create**
 
 ![Azure Portal - Custom Deployment](../../.gitbook/assets/upgrade-syskit-point-custom-deployment.png)
