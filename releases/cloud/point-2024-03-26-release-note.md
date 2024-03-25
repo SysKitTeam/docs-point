@@ -19,7 +19,7 @@ description: >-
   * *Last Activity* was added to the default selection of columns included in the report. 
 
 * **Replaced the Add Storage button** on the Tenant Storage Limit Security & Compliance check with the Clean Up action.
-  * This action now leads to the Site Storage Metrics report where you can free up storage and clean up your file versions. 
+  * This action now leads to the Site Storage Metrics report, where you can free up storage and clean up your file versions. 
 
 * **Improved the Storage tile on the Dashboard**, which now includes information on how much storage you already saved by performing the Clean Up action as well as how much storage you can still potentially save. 
   * Clicking the Clean Up action takes you to the Storage Metrics report. 
@@ -38,11 +38,14 @@ description: >-
 
 * **Improved the functionality** of the Site Storage Metrics report for both views when working with large sites.
 
-* **Custom metadata conditions** can now be added from the dropdown menu when creating Rules for policy enforcement. 
+* **Custom metadata conditions** can now be added from the dropdown menu when creating Rules for policy enforcement.
+
+* **When creating new custom metadata**, there is a new checkbox that, when selected, includes this metadata in the SharePoint search index. 
+  * Selecting this checkbox ensures that editing or provisioning the metadata through Syskit Point results in an indexed property bag value. 
 
 * **Additional actions added for workspaces** when solving Security & Compliance checks: Archive and Delete. 
   * This can be accessed by clicking the Govern button on the left sidebar, navigating to the Security & Compliance section, and clicking on Active Tasks or History. 
 
-* **Improved the Reassign to Manager option on the Minimum Owners and Maximum Owners policies** to include the ability to select a different user the task should be assigned to in case there is no Manager for the user in question. 
+* **Improved the Reassign to Manager option on the Minimum Owners and Maximum Owners policies** to include the ability to select a different user that the task should be assigned to in case there is no Manager for the user in question. 
 
 * **Various improvements and minor UX and UI fixes are available**.
