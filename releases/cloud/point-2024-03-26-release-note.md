@@ -15,10 +15,16 @@ description: >-
 
 ## Improvements & Bug Fixes
 
-* **Rules support additional custom metadata types!**
-  * Additional custom metadata types, which you create and apply to your workspaces in Syskit Point or via third-party tools, can now be used in rule conditions.
-  * The following custom metadata types are now supported: **Dropdown** and **People**. 
-  * [For more details about conditions, available properties, and operators, take a look at the conditions section of the Rules article.](../../governance-and-automation/automated-workflows/policy-automation.md#conditions)
+{% hint style="warning" %}
+**Please note!**\
+After upgrading to the latest version, sites need to be synced for data to show on the Storage Metrics report due to performance optimization changes introduced.
+The first site sync for large sites is expected to execute longer than before due to introduced changes.
+{% endhint %}
+
+{% hint style="warning" %}
+**Please note!**\
+Summarized policy vulnerability emails will be gradually rolled out beginning today.
+{% endhint %}
 
 * **Storage Management gets new improvements!**
   * **The Clean Up File Versions** action is now available on the Storage Metrics report when bulk selecting multiple workspaces! 
@@ -45,6 +51,13 @@ description: >-
   * **The Site Storage Metrics report** includes the name of the site for which the report was generated in the top left tile of the report. 
   * **Optimized** the Site Storage Metrics report when working with large sites.
   * [Learn more about the Storage Management feature by reading articles in this section.](../../storage-management/)
+
+  * **Rules support additional custom metadata types!**
+  * Additional custom metadata types, which you create and apply to your workspaces in Syskit Point or via third-party tools, can now be used in rule conditions.
+  * The following custom metadata types are now supported: **Dropdown** and **People**. 
+  * [For more details about conditions, available properties, and operators, take a look at the conditions section of the Rules article.](../../governance-and-automation/automated-workflows/policy-automation.md#conditions)
+
+
 
 * **Syskit Point now sends summarized daily emails for detected policy vulnerabilities!** 
   * This means you will **get fewer emails but still get important information about policy vulnerabilities detected in your workspaces**.
