@@ -57,7 +57,15 @@ Task Delegation can be enabled in policy settings for each policy listed below.
 
 **When task delegation is enabled, Syskit Point creates tasks and sends emails to users as defined in the policy settings**.
 
-Each e-mail that is sent **includes a list of all workspaces or users** that violated the policy and triggered the task. You will not receive individual e-mails for each workspace or user that violated the policy.  
+**Please note!**\
+Summarized policy vulnerability emails will be gradually rolled out, beginning with the Point Cloud 2024.2.45 release.
+After this change, Syskit Point will no longer send individual e-mails for each workspace or user where a policy vulnerability was discovered.  
+{% endhint %}
+
+**The emails are summarized per policy type**:
+* One email shows up to 10 workspaces grouped by governance policies; if there are more workspaces with vulnerabilities, they will not be listed; instead, the total number of such workspaces is given in the email
+* Reminder emails are also grouped - owners, admins, or other users defined as resolvers will get an email listing all workspaces with vulnerabilities where they have a task due in 3 days
+* Emails sent when Syskit Point automatically resolves vulnerabilities with a defined action are also summarized.
 
 * **Access Requests** and **Access Review** policies don't represent vulnerabilities and will not appear on the Security & Compliance dashboard; think of them as automation-only policies.
 * **When you acquire Syskit Point, default policies are created with task delegation disabled.** Edit the default policies settings to enable task delegation.
