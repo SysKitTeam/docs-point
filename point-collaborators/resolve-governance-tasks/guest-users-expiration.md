@@ -4,7 +4,7 @@ description: This article explains how to renew or remove guest user access in S
 
 # Guest Users Expiration
 
-**This article shows how you can resolve a Guest Users Expiration policy violation** triggered when Syskit Point detects that a guest user is inactive or if the renewal process is defined to be performed periodically. 
+**This article shows how you can resolve a Guest Users Expiration policy violation** when Syskit Point detects that a guest user is inactive or if the renewal process is defined to be performed periodically. 
 
 This policy helps you ensure there are no inactive guest users with access to sites, teams or groups. 
 
@@ -18,7 +18,7 @@ In both cases, Syskit Point will send you an e-mail to revalidate the guest user
 
 ## Guest User Access Renewal E-mail
 
-Syskit Point sends a bulk e-mail that includes all of the guest users that triggered the policy violation. The e-mail is sent to the guest users’ managers or other users defined as points of contact in the Guest Users Expiration policy. 
+Syskit Point sends a bulk e-mail that includes all of the guest users that the policy violation detected. The e-mail is sent to the guest users’ managers or other users defined as points of contact in the Guest Users Expiration policy. 
 
 You can find the following information in the e-mail:
 
@@ -32,9 +32,7 @@ You can find the following information in the e-mail:
 
 ## Guest Users Expiration Task
 
-Along with the e-mail, Syskit Point creates a policy violation task that provides you with information and actions needed to resolve the policy violation. 
-
-If there was a policy violation, a bulk email is sent that includes all of the workspaces where the policy violation was triggered.
+Along with the bulk e-mail, Syskit Point creates a policy violation task that provides you with information and actions needed to resolve the policy violation. 
 
 The following is available on the task screen:
 
@@ -47,7 +45,7 @@ The following is available on the task screen:
 {% hint style="warning" %}
 **Please note!**
 When keeping the guest user's access, the following is expected, depending on the policy settings:
-* **If the guest user access is renewed periodically**, the **guest user keeps the access until the next renewal is triggered**; this happens **every 3 months by default** but can be configured by Syskit Point Admins
+* **If the guest user access is renewed periodically**, the **guest user keeps the access until the next renewal is detected**; this happens **every 3 months by default** but can be configured by Syskit Point Admins
 * **If the guest user access renewal is required when a guest user is detected to be inactive**, the **guest user keeps the access for the next 20 days by default**; Syskit Point Admins can configure this value as well
 {% endhint %}
 

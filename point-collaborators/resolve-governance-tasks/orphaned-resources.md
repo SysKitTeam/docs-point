@@ -4,7 +4,7 @@ description: This article explains how to resolve the Orphaned Workspaces policy
 
 # Orphaned Workspaces
 
-**This article shows how you can resolve the Orphaned Workspaces policy violation** triggered when Syskit Point detects that Microsoft Teams and Microsoft 365 Groups don’t have active owners. 
+**This article shows how you can resolve the Orphaned Workspaces policy violation** when Syskit Point detects that Microsoft Teams and Microsoft 365 Groups don’t have active owners. 
 
 When a team no longer has an active owner, there is no longer a person on the other end of an automated governance policy which means the site could potentially have shared files that are outdated and pose a serious security risk. 
 
@@ -22,7 +22,7 @@ Below, both cases are separately explained in more detail.
 
 ### Policy Violation E-Mail
 
-Syskit Point sends you a bulk e-mail that includes all of the workspaces where the policy violation was triggered, **asking you to assign new owners** when Microsoft Teams or Microsoft 36 Groups with no active owners are detected.
+Syskit Point sends you a bulk e-mail that includes all of the workspaces where the policy violation was detected, **asking you to assign new owners** to Microsoft Teams or Microsoft 36 Groups that have no active owners assigned.
 
 You can find the following information in the e-mail:
 * **Due date to resolve the policy violation (1)**; you have 15 workdays to resolve the policy violation

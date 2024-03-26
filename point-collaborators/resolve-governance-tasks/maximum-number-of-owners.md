@@ -17,7 +17,7 @@ When Syskit Point detects that Microsoft Teams or Microsoft 365 Groups, which yo
 
 ## Policy Violation E-mail
 
-**Syskit Point sends an e-mail to existing owners** when Microsoft Teams or Microsoft 365 Groups are detected that have more owners than defined in the policy settings. The e-mail includes all of the workspaces where the policy violation was triggered.
+**Syskit Point sends an e-mail to existing owners** when there are Microsoft Teams or Microsoft 365 Groups that have more than the maximum number of owners assigned, as defined in the policy settings. The e-mail includes a list with all of the workspaces where the policy violation was detected.
 
 You can find the following information in the e-mail:
 * **Due date to resolve the policy violation (1)**; you have 15 workdays to resolve the policy violation
