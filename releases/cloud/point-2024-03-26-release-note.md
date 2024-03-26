@@ -18,12 +18,13 @@ description: >-
 {% hint style="warning" %}
 **Please note!**\
 After upgrading to the latest version, sites need to be synced for data to show on the Storage Metrics report due to performance optimization changes introduced.
-The first site sync for large sites is expected to execute longer than before due to introduced changes.
+The first site sync after the upgrade will be a full site sync instead of a partial one, which is required for the optimization changes to take effect.
 {% endhint %}
 
 {% hint style="warning" %}
 **Please note!**\
-Summarized policy vulnerability emails will be gradually rolled out beginning today.
+Summarized policy vulnerability emails will be gradually rolled out, beginning with the Point Cloud 2024.2.45 release.
+You can expect to see the improved emails in the upcoming month.
 {% endhint %}
 
 * **Storage Management gets new improvements!**
@@ -34,8 +35,8 @@ Summarized policy vulnerability emails will be gradually rolled out beginning to
       * **Number Of Versions** 
       * **All But The Last File Version**
   * **Improved the Storage Metrics report** with a new Potential Savings tile that includes information on how much storage could be saved by removing all file versions older than X months or removing all file versions except for the last Y file versions.
-    * The tile also includes the Settings button that takes you directly to Settings, where you can set up your own values Storage Management feature.
     * Clicking on either value on the tile filters the report to show the workspaces where the Clean Up action can be performed.
+    * The tile also includes a button that takes you directly to Settings, where you can change the default Storage Management options.
   * **Replaced the Add Storage button** on the Tenant Storage Limit Security & Compliance check with the Clean Up action.
     * This action now leads to the Site Storage Metrics report, where you can free up storage and clean up your file versions. 
   * **Improved the Storage tile on the Dashboard**, which now includes information on how much storage you already saved by performing the Clean Up action as well as how much storage you can still potentially save. 
