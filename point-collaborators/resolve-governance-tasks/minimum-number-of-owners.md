@@ -1,5 +1,5 @@
 ---
-description: This article explains how to resolve the Minimum number of Owners policy vulnerability.
+description: This article explains how to resolve the Minimum number of Owners policy vulnerabilities.
 ---
 
 # Minimum Number of Owners
@@ -9,15 +9,15 @@ description: This article explains how to resolve the Minimum number of Owners p
 This task helps you identify which Microsoft Teams & Groups don't have the required number of owners. You will be notified only for the teams or groups where you are the owner.
 
 {% hint style="success" %}
-By default, **Syskit Point suggests that Microsoft Teams and Microsoft 365 Groups should have at least 2 owners** so that if one owner leaves, the Microsoft Teams, and Microsoft 365 Groups are not left without an owner. 
+By default, **Syskit Point suggests that Microsoft Teams and Microsoft 365 Groups should have at least 2 owners** so that if one owner leaves, Microsoft Teams and Microsoft 365 Groups are not left without an owner. 
 [Syskit Point Administrators can change the minimum number of required owners to fit the organization’s policies.](set-up-policies.md)
 {% endhint %}
 
-When Syskit Point detects that Microsoft Teams or Microsoft 365 Groups you are the owner of do not have a minimum number of owners predefined by your organization’s policies, **you will receive an e-mail to resolve the policy vulnerability**.
+When Syskit Point detects that the Microsoft Teams or Microsoft 365 Groups you are the owner of do not have a minimum number of owners predefined by your organization’s policies, **you will receive an e-mail to resolve the policy vulnerability**.
 
 ## Policy Vulnerability E-mail
 
-**Syskit Point sends an e-mail to existing owners** when there are Microsoft Teams or Microsoft 365 Groups that have less than the minimum number of owners assigned, as defined in the policy settings. The e-mail includes a list with all of the workspaces where the policy vulnerability was detected.
+**Syskit Point sends an e-mail to existing owners** when there are Microsoft Teams or Microsoft 365 Groups that have less than the minimum number of owners assigned, as defined in the policy settings. The e-mail includes a list of all workspaces where the policy vulnerability was detected.
 
 
 You can find the following information in the e-mail:
@@ -25,14 +25,14 @@ You can find the following information in the e-mail:
 * **Microsoft Teams** or **Microsoft 365 Group where the policy vulnerability was detected (2)**
 * **Resolve button (3) that takes you to Syskit Point**, where you can resolve the policy vulnerability
 
-![Policy Violation E-mail](../../.gitbook/assets/minimum-number-of-owners-email.png)
+![Policy Vulnerability E-mail](../../.gitbook/assets/minimum-number-of-owners-email.png)
 
 **Click the Resolve button to open the policy vulnerability task** in Syskit Point.
 
 ## Policy Vulnerability Task
 
-Along with the e-mail, **Syskit Point creates a policy vulnerability task** that provides you with all information and actions needed to resolve the policy vulnerability. 
-The following is available on the task screen:
+Along with the e-mail, **Syskit Point creates a policy vulnerability task** that provides you with all the information and actions needed to resolve the policy vulnerability. 
+The following are available on the task screen:
 * **List of current owners (1)**
 * **Search (2)**, which can help you to find existing members
 * **Promote to Owner action (3)**; once clicked, an **appropriate message appears next to the promoted user along with the Undo action (4)**
@@ -48,7 +48,7 @@ The following is available on the task screen:
 **All actions that change users' access are performed after you click the Resolve button**. 
 {% endhint %}
 
-## Policy Violation Resolved 
+## Policy Vulnerability Resolved 
 
 **After you resolve the policy vulnerability, the History screen opens**, giving you an overview of all actions performed within the workflow.
 
@@ -61,6 +61,6 @@ The following is available on the task screen:
 
 {% hint style="warning" %}
 **Please note!**  
-**In case you decide to click Accept Risk for the policy vulnerability**, **Microsoft Teams** or **Microsoft 365 Groups where the policy vulnerability was detected is considered compliant for the duration of time you selected when accepting the risk**. Syskit Point will not send any policy vulnerability e-mails or create policy vulnerability tasks during this timeframe.
+**In case you decide to click Accept Risk for the policy vulnerability**, **Microsoft Teams** or **Microsoft 365 Groups where the policy vulnerability was detected is considered compliant for the duration of time you selected when accepting the risk**. Syskit Point will not send policy vulnerability e-mails or create policy vulnerability tasks for this workspace during this timeframe.
 {% endhint %}
 
