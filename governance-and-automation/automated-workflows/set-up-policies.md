@@ -146,7 +146,7 @@ When you decide to modify existing governance policies, there is a notification 
 
 ## Resolving Policy Tasks
 
-For more information on how collaborators **can resolve specific policy violations**, navigate to the articles given below:
+For more information on how collaborators **can resolve specific policy vulnerabilities**, navigate to the articles given below:
 * [Resolve Minimum Number of Owners vulnerabilities](../../point-collaborators/resolve-governance-tasks/minimum-number-of-owners.md)
 * [Resolve Maximum Number of Owners vulnerabilities](../../point-collaborators/resolve-governance-tasks/maximum-number-of-owners.md)
 * [Resolve Orphaned Workspaces vulnerabilities](../../point-collaborators/resolve-governance-tasks/orphaned-resources.md)
