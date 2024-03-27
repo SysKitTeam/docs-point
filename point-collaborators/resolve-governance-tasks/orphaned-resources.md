@@ -22,7 +22,7 @@ Below, both cases are separately explained in more detail.
 
 ### Policy Vulnerability E-Mail
 
-Syskit Point sends you a bulk e-mail that includes all of the workspaces where the policy vulnerability was detected, **asking you to assign new owners** to Microsoft Teams or Microsoft 36 Groups that have no active owners assigned.
+Syskit Point sends you an e-mail that includes all of the workspaces where the policy vulnerability was detected, **asking you to assign new owners** to Microsoft Teams or Microsoft 36 Groups that have no active owners assigned.
 
 You can find the following information in the e-mail:
 * **Due date to resolve the policy vulnerability (1)**; you have 15 workdays to resolve the policy vulnerability
@@ -33,8 +33,8 @@ You can find the following information in the e-mail:
 
 ### Policy Vulnerability Task
 
-Along with the e-mail, Syskit Point creates a policy vulnerability task that provides you with all information and actions needed to resolve the policy vulnerability. 
-The following is available on the task screen if you were selected to assign new owners:
+Along with the e-mail, Syskit Point creates a policy vulnerability task that provides you with all the information and actions needed to resolve the policy vulnerability. 
+The following are available on the task screen if you were selected to assign new owners:
 * **List of current members along with Search to help you filter out specific ones (1)**
 * **Promote to Owner action (2)**; once clicked, an **appropriate message appears next to the promoted user along with the Undo action (3)**
 * **Add New Owner action (4)**; to add a new owner, start typing the user's name in the input field; once you select a user, confirm your addition by clicking the Add New Owner link; once clicked, an **appropriate message is displayed for the user, along with the Undo action (5)**
@@ -63,7 +63,7 @@ The following is available on the task screen if you were selected to assign new
 
 ## 2-Stage Process
 
-### Members’ Policy Violation E-Mail
+### Members’ Policy Vulnerability E-Mail
 
 In the first stage, **if you are a member of the team/group that has no owners, you will receive an e-mail asking you to suggest new owners**. 
 
@@ -76,10 +76,10 @@ You can find the following information in the e-mail:
 
 **Click the Resolve button** to open the policy vulnerability task in Syskit Point.
 
-### Members’ Policy Violation Task
+### Members’ Policy Vulnerability Task
 
-**Along with the e-mail, Syskit Point creates a policy vulnerability task** that provides you with all information and actions needed to resolve it within Syskit Point. 
-The following is available on the task screen:
+**Along with the e-mail, Syskit Point creates a policy vulnerability task** that provides you with all the information and actions needed to resolve it within Syskit Point. 
+The following are available on the task screen:
 * **List of current members along with Search to help you filter out specific ones (1)**
 * **Suggest action (2)**; once clicked, an **appropriate message appears next to the suggested user along with the Undo action (3)**
 * **Suggest New Owner action (4)**; to suggest a new owner, start typing the user's name in the input field; once you select a user, confirm your addition by clicking the Suggest New Owner link; once clicked, an **appropriate message is displayed for the user, along with the Undo action**
@@ -118,14 +118,14 @@ You can find the following information in the e-mail:
 
 ### Approvers’ Policy vulnerability Task
 
-**Along with the e-mail, Syskit Point creates a policy vulnerability task** that provides you with all information and actions needed to resolve the policy vulnerability. 
-The following is available on the task screen:
+**Along with the e-mail, Syskit Point creates a policy vulnerability task** that provides you with all the information and actions needed to resolve the policy vulnerability. 
+The following are available on the task screen:
 * **Number of votes from members for each option (1)**
 * **Promote to Owner action**; once clicked, an **appropriate message appears next to the promoted user along with the Undo action (2)**
 * **Add New Owner action (3)**; to add a new owner, start typing the user's name in the input field; once you select a user, confirm your addition by clicking the Add New Owner link; once clicked, **an appropriate message is displayed for the user, along with the Undo action**
 * **Archive action (4)** that enables you to **archive the Microsoft Team or Microsoft 365 Group**
 * **Delete action (5)** that enables you to delete the **Microsoft Team or Microsoft 365 Group**
-* **Accept Risk Policy button (6)** that enables you to disregard the company policy in case there is a valid reason to do so; **if risk is accepted, no further e-mails will be sent or tasks created for the number of days you select**
+* **Accept Risk Policy button (6)** that enables you to disregard the company policy in case there is a valid reason to do so; **if the risk is accepted, no further e-mails will be sent or tasks created for the number of days you select**
 * **Resolve button (7)** that gets enabled when you promote members to owners or add new ones to comply with the company policy; once clicked, a dialog opens, enabling you to **input a comment and resolve the policy vulnerability**
 
 ![Policy vulnerability Task](../../.gitbook/assets/orphaned-resources-policy-violation-task-approver.png)

@@ -30,7 +30,7 @@ You can find the following information in the e-mail:
 
 ## Inactive Guest Users Task
 
-Along with the bulk e-mail, Syskit Point creates a policy vulnerability task that provides you with information and actions needed to resolve the policy vulnerability. 
+Along with the e-mail, Syskit Point creates a policy vulnerability task that provides you with information and actions needed to resolve the policy vulnerability. 
 
 The following information is available on the task screen:
 
@@ -49,7 +49,7 @@ When keeping the guest user's access, **it is kept for the next 90 days by defau
 
 **After you resolve the policy vulnerability, the History screen opens**, giving you an overview of actions performed within the workflow.
 
-![Policy Violation History Screen](../../.gitbook/assets/guest-users-expiration-history.png)
+![Policy Vulnerability History Screen](../../.gitbook/assets/guest-users-expiration-history.png)
 
 **After you resolve the policy vulnerability**, **you will also receive a confirmation e-mail** showing the following information:
 * **Guest user whose access was removed or revalidated**
