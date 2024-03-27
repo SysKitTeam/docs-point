@@ -40,7 +40,8 @@ You can access the hidden list by constructing and opening the following URL:
   * User Details > Access Tile > Select site/workspace > Remove Access
  
 {% hint style="info" %}
-**PLEASE NOTE: in order to be able to remove a user from the hidden list:**
+**Please note!**\
+In order to be able to remove a user from the hidden list:**
  * The site needs to be synced in Syskit Point
    * Otherwise, the following error could be displayed when running the Remove Access action: The user's SharePoint ID is null. Please sync the site and try again.
  * User/group should have some access to the site
