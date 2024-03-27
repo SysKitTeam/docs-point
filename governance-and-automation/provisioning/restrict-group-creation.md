@@ -13,14 +13,14 @@ Here, you can **find how to restrict Microsoft 365 group creation**, and thus **
 
 {% hint style="warning" %}
 **Please note!**  
-**Restricting group creation affects all services that leverage groups for access** - Outlook, SharePoint, Yammer, Microsoft Teams, Microsoft Stream, Planner, Power BI (classic), Project for the web (roadmap)
+**Restricting group creation affects all services that leverage groups for access** - Outlook, SharePoint, Viva Engage, Microsoft Teams, Planner, Project for the web (roadmap)
 However, **Office 365 Global Administrators will be able to create groups via various admin centers**, for example, Microsoft 365 admin center.
 {% endhint %}
 
 ## Requirements
 
 Note the following requirements:
-* The **admin who configures the group creation settings needs the Azure AD Premium license or Azure AD Basic EDU license assigned** to them
+* The **admin who configures the group creation settings needs the Entra ID Premium license or Entra ID Basic EDU license assigned** to them
 * [Microsoft Graph PowerShell Beta module](https://learn.microsoft.com/en-us/powershell/microsoftgraph/installation?view=graph-powershell-1.0) needs to be installed
 
 ## PowerShell Command
