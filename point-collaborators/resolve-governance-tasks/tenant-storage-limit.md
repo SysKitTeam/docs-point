@@ -31,9 +31,9 @@ You can find the following information in the e-mail:
 
 ## Policy Vulnerability Task
 
-Along with the e-mail, **Syskit Point creates a policy vulnerability task** that provides you with all information and actions needed to resolve the policy vulnerability. 
+Along with the e-mail, **Syskit Point creates a policy vulnerability task** that provides you with all the information and actions needed to resolve the policy vulnerability. 
 
-The following is available on the task screen:
+The following are available on the task screen:
 * The **information box (1) that explains what actions can be completed to resolve the task** and ensure your tenant storage drops below the limit predefined by the policy:
   * Adding additional storage
   * Optimizing your current storage
@@ -44,7 +44,7 @@ The following is available on the task screen:
 * **View Report button (3)** which redirects you to the [Storage Metrics Report](../../storage-management/storage-reports.md#storage-metrics)
 * **Add Storage button (4)** which redirects you to [Microsoft documentation](https://learn.microsoft.com/en-us/microsoft-365/commerce/add-storage-space?view=o365-worldwide) detailing how to add storage through Microsoft
 
-![Policy Violation Task](../../.gitbook/assets/resolve-governance-tasks-tenant-storage-limit.png)
+![Policy Vulnerability Task](../../.gitbook/assets/resolve-governance-tasks-tenant-storage-limit.png)
 
 The task is resolved when your tenant storage drops below the limit set for the [Tenant Storage Limit policy](../../governance-and-automation/automated-workflows/tenant-storage-admin.md). 
 
