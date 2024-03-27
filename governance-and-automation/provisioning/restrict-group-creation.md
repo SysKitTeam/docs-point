@@ -21,35 +21,55 @@ However, **Office 365 Global Administrators will be able to create groups via va
 
 Note the following requirements:
 * The **admin who configures the group creation settings needs the Azure AD Premium license or Azure AD Basic EDU license assigned** to them
-* Preview version of [Azure AD PowerShell module](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0) needs to be installed
+* [Microsoft Graph PowerShell Beta module](https://learn.microsoft.com/en-us/powershell/microsoftgraph/installation?view=graph-powershell-1.0) needs to be installed
 
 ## PowerShell Command
 
 To restrict group creation:
 * **Open a PowerShell window**
 * **Copy & paste, and run the PowerShell script given below**
-* **Sign in with your administrator account when prompted**
+* **Sign in with Global Administrator account when prompted**
 
 ```
-Connect-AzureAD
+Import-Module Microsoft.Graph.Beta.Identity.DirectoryManagement
+Import-Module Microsoft.Graph.Beta.Groups
 
-$settingsObjectID = (Get-AzureADDirectorySetting | Where-object -Property Displayname -Value "Group.Unified" -EQ).id
+Connect-MgGraph -Scopes "Directory.ReadWrite.All", "Group.Read.All"
+
+$AllowGroupCreation = "False"
+
+$settingsObjectID = (Get-MgBetaDirectorySetting | Where-object -Property Displayname -Value "Group.Unified" -EQ).id
+
 if(!$settingsObjectID)
 {
-    $template = Get-AzureADDirectorySettingTemplate | Where-object {$_.displayname -eq "group.unified"}
-    $settingsCopy = $template.CreateDirectorySetting()
-    New-AzureADDirectorySetting -DirectorySetting $settingsCopy
-    $settingsObjectID = (Get-AzureADDirectorySetting | Where-object -Property Displayname -Value "Group.Unified" -EQ).id
+    $params = @{
+	  templateId = "62375ab9-6b52-47ed-826b-58e47e0e304b"
+	  values = @(
+		    @{
+			       name = "EnableMSStandardBlockedWords"
+			       value = "true"
+		     }
+	 	     )
+	     }
+	
+    New-MgBetaDirectorySetting -BodyParameter $params
+	
+    $settingsObjectID = (Get-MgBetaDirectorySetting | Where-object -Property Displayname -Value "Group.Unified" -EQ).Id
 }
 
-$settingsCopy = Get-AzureADDirectorySetting -Id $settingsObjectID
+$params = @{
+	templateId = "62375ab9-6b52-47ed-826b-58e47e0e304b"
+	values = @(
+		@{
+			name = "EnableGroupCreation"
+			value = $AllowGroupCreation
+		}
+	)
+}
 
-$settingsCopy["EnableGroupCreation"] = $False
-$settingsCopy["GroupCreationAllowedGroupId"] = $Null
+Update-MgBetaDirectorySetting -DirectorySettingId $settingsObjectID -BodyParameter $params
 
-Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCopy
-
-(Get-AzureADDirectorySetting -Id $settingsObjectID).Values
+(Get-MgBetaDirectorySetting -DirectorySettingId $settingsObjectID).Values
 ```
 
 {% hint style="warning" %}
@@ -62,9 +82,9 @@ Changes can take 30 minutes or more to take effect.
 To verify that groups, and thus workspaces that rely on groups, cannot be created, do the following:
 * **Open Microsoft Teams app**
 * **Click Teams**
-* **Click Join or create a team option** at the bottom of the teams' list
+* **Click the Create and join teams and channels** > **Create team** action located above the _Your Teams_ list
 
-The **Build a team from scratch** option is no longer available.
+Create a team **From template**, including **From Scratch**, and **From another team** options are disabled.
 
 ## Additional information
 
