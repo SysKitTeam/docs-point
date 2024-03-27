@@ -41,7 +41,7 @@ You can access the hidden list by constructing and opening the following URL:
  
 {% hint style="info" %}
 **Please note!**\
-In order to be able to remove a user from the hidden list:**
+In order to be able to remove a user from the hidden list:
  * The site needs to be synced in Syskit Point
    * Otherwise, the following error could be displayed when running the Remove Access action: The user's SharePoint ID is null. Please sync the site and try again.
  * User/group should have some access to the site
