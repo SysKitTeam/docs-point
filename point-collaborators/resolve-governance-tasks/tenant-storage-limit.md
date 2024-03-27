@@ -1,10 +1,10 @@
 ---
-description: This article explains how to resolve the Tenant Storage Limit policy vulnerability.
+description: This article explains how to resolve the Tenant Storage Limit policy violation.
 ---
 
 # Tenant Storage Limit
 
-**This article shows how Syskit Admins or custom recipients, as set in the [Tenant Storage Limit policy settings](../../governance-and-automation/automated-workflows/tenant-storage-admin.md), can resolve a policy vulnerability regarding the tenant storage limit**.
+**This article shows how Syskit Admins or custom recipients, as set in the [Tenant Storage Limit policy settings](../../governance-and-automation/automated-workflows/tenant-storage-admin.md), can resolve a policy violation regarding the tenant storage limit**.
 
 This task notifies you when **your storage percentage gets close to the limit that was set**. 
 
@@ -16,23 +16,23 @@ By default, **Syskit Point notifies the Syskit Point admins** of this violation.
 {% endhint %}
 
 
-## Policy Vulnerability E-mail
+## Policy Violation E-mail
 
-When Syskit Point detects that you reached the storage limit for your tenant, as predefined by your storage tenant limit policy, **you will receive an e-mail to resolve the policy vulnerability**.
+When Syskit Point detects that you reached the storage limit for your tenant, as predefined by your storage tenant limit policy, **you will receive an e-mail to resolve the policy violation**.
 
 You can find the following information in the e-mail:
 * **The percentage of storage used on the tenant level (1)**
 * **The amount of tenant storage used in gigabytes (2)**
 * **The amount of tenant storage available (3)** 
-* **The View details button (4)** takes you to Syskit Point, where you can resolve the policy vulnerability
+* **The View details button (4)** takes you to Syskit Point, where you can resolve the policy violation
 
-![Policy Vulnerability E-mail](../../.gitbook/assets/tenant-storage-limit-email.png)
+![Policy Violation E-mail](../../.gitbook/assets/tenant-storage-limit-email.png)
 
-**Click the View details button to open the policy vulnerability task** in Syskit Point.
+**Click the View details button to open the policy violation task** in Syskit Point.
 
-## Policy Vulnerability Task
+## Policy Violation Task
 
-Along with the e-mail, **Syskit Point creates a policy vulnerability task** that provides you with all information and actions needed to resolve the policy vulnerability. 
+Along with the e-mail, **Syskit Point creates a policy violation task** that provides you with all information and actions needed to resolve the policy violation. 
 
 The following is available on the task screen:
 * The **information box (1) that explains what actions can be completed to resolve the task** and ensure your tenant storage drops below the limit predefined by the policy:
@@ -45,7 +45,7 @@ The following is available on the task screen:
 * **View Report button (3)** which redirects you to the [Storage Metrics Report](../../storage-management/storage-reports.md#storage-metrics)
 * **Add Storage button (4)** which redirects you to [Microsoft documentation](https://learn.microsoft.com/en-us/microsoft-365/commerce/add-storage-space?view=o365-worldwide) detailing how to add storage through Microsoft
 
-![Policy Vulnerability Task](../../.gitbook/assets/resolve-governance-tasks-tenant-storage-limit.png)
+![Policy Violation Task](../../.gitbook/assets/resolve-governance-tasks-tenant-storage-limit.png)
 
 The task is resolved when your tenant storage drops below the limit set for the [Tenant Storage Limit policy](../../governance-and-automation/automated-workflows/tenant-storage-admin.md). 
 

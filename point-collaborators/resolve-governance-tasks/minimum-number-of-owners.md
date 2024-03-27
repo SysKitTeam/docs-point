@@ -1,10 +1,10 @@
 ---
-description: This article explains how to resolve the Minimum number of Owners policy vulnerability.
+description: This article explains how to resolve the Minimum number of Owners policy violation.
 ---
 
 # Minimum Number of Owners
 
-**This article shows how Microsoft Teams and Microsoft 365 Group owners can resolve a policy vulnerability regarding the minimum number of owners** required by the organization’s policy defined in Syskit Point. 
+**This article shows how Microsoft Teams and Microsoft 365 Group owners can resolve a policy violation regarding the minimum number of owners** required by the organization’s policy defined in Syskit Point. 
 
 This task helps you identify which Microsoft Teams & Groups don't have the required number of owners. You will be notified only for the teams or groups where you are the owner.
 
@@ -13,56 +13,56 @@ By default, **Syskit Point suggests that Microsoft Teams and Microsoft 365 Group
 [Syskit Point Administrators can change the minimum number of required owners to fit the organization’s policies.](set-up-policies.md)
 {% endhint %}
 
-When Syskit Point detects that Microsoft Teams or Microsoft 365 Groups you are the owner of do not have a minimum number of owners predefined by your organization’s policies, **you will receive an e-mail to resolve the policy vulnerability**.
+When Syskit Point detects that Microsoft Teams or Microsoft 365 Groups you are the owner of do not have a minimum number of owners predefined by your organization’s policies, **you will receive an e-mail to resolve the policy violation**.
 
-## Policy Vulnerability E-mail
+## Policy Violation E-mail
 
 **Syskit Point sends an e-mail to existing owners** when Microsoft Teams or Microsoft 365 Groups are detected that do not have a minimum number of owners predefined in the policy settings. 
 
 You can find the following information in the e-mail:
 * **Minimum number of required owners (1)**
-* **Microsoft Teams** or **Microsoft 365 Group where the policy vulnerability was detected (2)**
-* **Due date to resolve the policy vulnerability (3)**; you have 15 workdays to resolve the policy vulnerability
-* **Resolve button (4) that takes you to Syskit Point**, where you can resolve the policy vulnerability
+* **Microsoft Teams** or **Microsoft 365 Group where the policy violation was detected (2)**
+* **Due date to resolve the policy violation (3)**; you have 15 workdays to resolve the policy violation
+* **Resolve button (4) that takes you to Syskit Point**, where you can resolve the policy violation
 
-![Policy Vulnerability E-mail](../../.gitbook/assets/minimum-number-of-owners-email.png)
+![Policy Violation E-mail](../../.gitbook/assets/minimum-number-of-owners-email.png)
 
-**Click the Resolve button to open the policy vulnerability task** in Syskit Point.
+**Click the Resolve button to open the policy violation task** in Syskit Point.
 
-## Policy Vulnerability Task
+## Policy Violation Task
 
-Along with the e-mail, **Syskit Point creates a policy vulnerability task** that provides you with all information and actions needed to resolve the policy vulnerability. 
+Along with the e-mail, **Syskit Point creates a policy violation task** that provides you with all information and actions needed to resolve the policy violation. 
 The following is available on the task screen:
 * **List of current owners (1)**
 * **Search (2)**, which can help you to find existing members
 * **Promote to Owner action (3)**; once clicked, an **appropriate message appears next to the promoted user along with the Undo action (4)**
 * **Add New Owner action (5)**; to add a new owner, **start typing the user's name in the input field**; once you select a user, **confirm your addition by clicking the Add New Owner link**; once clicked, an **appropriate message is displayed for the user, along with the Undo action (6)**
 * **Accept Risk button (7)** that enables you to disregard the company policy and accept the risk in case there is a valid reason to do so
-* **Resolve button (8)** that gets **enabled when you promote members to owners or add new ones to comply with the company policy** regarding the minimum number of owners; **once clicked, a dialog opens, enabling you to input a comment and resolve the policy vulnerability**
+* **Resolve button (8)** that gets **enabled when you promote members to owners or add new ones to comply with the company policy** regarding the minimum number of owners; **once clicked, a dialog opens, enabling you to input a comment and resolve the policy violation**
 
-![Policy Vulnerability Task](../../.gitbook/assets/minimum-number-of-owners-policy-violation-task.png)
+![Policy Violation Task](../../.gitbook/assets/minimum-number-of-owners-policy-violation-task.png)
 
 {% hint style="warning" %}
 **Please note!**  
-**When you click an action within the policy vulnerability task, think of it as a preview** of what will happen after resolving the policy vulnerability.
+**When you click an action within the policy violation task, think of it as a preview** of what will happen after resolving the policy violation.
 **All actions that change users' access are performed after you click the Resolve button**. 
 {% endhint %}
 
-## Policy Vulnerability Resolved 
+## Policy Violation Resolved 
 
-**After you resolve the policy vulnerability, the History screen opens**, giving you an overview of all actions performed within the workflow.
+**After you resolve the policy violation, the History screen opens**, giving you an overview of all actions performed within the workflow.
 
-![Policy Vulnerability History Screen](../../.gitbook/assets/minimum-number-of-owners-workflow-history.png)
+![Policy Violation History Screen](../../.gitbook/assets/minimum-number-of-owners-workflow-history.png)
 
-**After you resolve the policy vulnerability, an e-mail is also sent to owners**, showing the following information:
-* **Microsoft Teams or Microsoft 365 Group where an owner resolved the policy vulnerability (1)**
-* **Who and when (2) resolved the policy vulnerability**
+**After you resolve the policy violation, an e-mail is also sent to owners**, showing the following information:
+* **Microsoft Teams or Microsoft 365 Group where an owner resolved the policy violation (1)**
+* **Who and when (2) resolved the policy violation**
 * **View Details button (3)** that **opens the History screen** in Syskit Point, showing all the activities that were performed within the workflow
 
-![Policy Vulnerability Resolved - E-mail](../../.gitbook/assets/minimum-number-of-owners-resolved-email.png)
+![Policy Violation Resolved - E-mail](../../.gitbook/assets/minimum-number-of-owners-resolved-email.png)
 
 {% hint style="warning" %}
 **Please note!**  
-**In case you decide to click Accept Risk for the policy vulnerability**, **Microsoft Teams** or **Microsoft 365 Groups where the policy vulnerability was detected is considered compliant for the duration of time you selected when accepting the risk**. Syskit Point will not send any policy vulnerability e-mails or create policy vulnerability tasks during this timeframe.
+**In case you decide to click Accept Risk for the policy violation**, **Microsoft Teams** or **Microsoft 365 Groups where the policy violation was detected is considered compliant for the duration of time you selected when accepting the risk**. Syskit Point will not send any policy violation e-mails or create policy violation tasks during this timeframe.
 {% endhint %}
 
