@@ -82,7 +82,7 @@ Changes can take 30 minutes or more to take effect.
 To verify that groups, and thus workspaces that rely on groups, cannot be created, do the following:
 * **Open Microsoft Teams app**
 * **Click Teams**
-* **Create and join teams and channels** > **Create team** action located above the _Your Teams_ list
+* **Click the Create and join teams and channels** > **Create team** action located above the _Your Teams_ list
 
 Create a team **From template**, including **From Scratch**, and **From another team** options are disabled.
 
