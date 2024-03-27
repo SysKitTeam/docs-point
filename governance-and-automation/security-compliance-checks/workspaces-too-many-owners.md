@@ -19,23 +19,23 @@ On the Security & Compliance dashboard, click the **Workspaces with too many own
 The Workspaces with Not Enough Owners screen opens, showing a list of all **workspaces with too many owners assigned** to them.
 
 Above the report, you can see the number of:
- * All workspaces with a policy violation
- * Microsoft Teams with a policy violation
- * Microsoft Groups with a policy violation
+ * All workspaces with a policy vulnerability
+ * Microsoft Teams with a policy vulnerability
+ * Microsoft Groups with a policy vulnerability
 
 The report itself provides information on:
   * **Workspace (1)** name
-  * **Detected (2)** - when the policy violation was detected
+  * **Detected (2)** - when the policy vulnerability was detected
   * **Owners (3)** - the number of owners the workspace has
   * **Policy (4)** - the policy assigned to the workspace
   * **Rule (5)** - for the policy applied
-  * **Status (5)** - status of the policy violation
+  * **Status (5)** - status of the policy vulnerability
     * If a vulnerability was detected, the status shows as *Detected*
     * If task delegation is enabled for the policy, it shows the task status, for example, *Awaiting response* from owners
-  * **Assigned to (7)** - who the policy violation is assigned to for a resolution
+  * **Assigned to (7)** - who the policy vulnerability is assigned to for a resolution
 
-Additionally, you can complete the following actions for the policy violation:
-  * **Accept risk (8)** - this means you will close the policy violation task without making any changes to the current state of the workspace
+Additionally, you can complete the following actions for the policy vulnerability:
+  * **Accept risk (8)** - this means you will close the policy vulnerability task without making any changes to the current state of the workspace
   * **Send reminder (9)** - this sends a reminder to the person responsible for resolving this task
   * **Ask Owners (10)** - this action shows if the policy is not automated, meaning that no tasks were sent to owners; when clicked, emails will be sent to owners and tasks created for owners to resolve the vulnerability
   

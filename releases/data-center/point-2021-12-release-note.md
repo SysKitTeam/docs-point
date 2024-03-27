@@ -37,11 +37,11 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
   * **Send copies of group conversations and events to group members**
   * **Hide from my organization's global address list** Listed options are also available in the Microsoft Admin center for all Teams, M365 Groups, and Yammer groups.
 * **Support for sensitivity sub-labels added to provisioning templates**.
-* **New automatic action - Disabling Guest user in Azure AD - added as an option when resolving Guest Users Expiration policy violation**. Suppose guest users are not verified in time. In that case, Syskit Point will automatically disable the guest user in Azure AD to secure your environment and ensure that unverified guest users don't access shared content.
+* **New automatic action - Disabling Guest user in Azure AD - added as an option when resolving Guest Users Expiration policy vulnerability**. Suppose guest users are not verified in time. In that case, Syskit Point will automatically disable the guest user in Azure AD to secure your environment and ensure that unverified guest users don't access shared content.
 
 ## Improvements & Bug Fixes
 
-* **Improved descriptions for policy violations automatically resolved by Syskit Point** are available. A detailed log of all actions performed by Syskit Point is now visible on all resolved policy violation tasks.
+* **Improved descriptions for policy vulnerabilities automatically resolved by Syskit Point** are available. A detailed log of all actions performed by Syskit Point is now visible on all resolved policy vulnerability tasks.
 * **Improved how user's last sign-in time is calculated in Syskit Point**. If the Exchange audit logs are collected in Syskit Point, the **User singed in to mailbox** event is now being considered in the calculation.
 * **Fixed an issue** where the Last Modified date was erroneously calculated.
 * **Remove Licenses action** now requires confirmation to avoid accidental bulk removal of licenses.

@@ -20,10 +20,10 @@ The Inactive Guest Users screen opens, showing a list of all **users that have n
 
 The report itself provides information on:
   * **User (1)** name
-  * **Detected (2)** - when the policy violation was detected
+  * **Detected (2)** - when the policy vulnerability was detected
   * **Username (3)** - the email of the blocked users
-  * **Status (4)** - status of the policy violation
-  * **Assigned to (5)** - who the policy violation is assigned to for a resolution
+  * **Status (4)** - status of the policy vulnerability
+  * **Assigned to (5)** - who the policy vulnerability is assigned to for a resolution
   * **Sign-in (6)** - shows whether the user is blocked or not
   * **Last Logged-in (7)** - date and time when the user was last online
 

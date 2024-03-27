@@ -54,5 +54,5 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 * **Fixed an issue where the Users overview report would show duplicate users**.
 * **Fixed a bug with the Archive action**, which resulted in Teams being archived, and the connected site staying active. This would then trigger another cycle of lifecycle management tasks where users could not perform the archive action. The issue is now resolved.
 * **Fixed a bug** where e-mail settings defaulted to the singed in user when reconnecting the tenant and giving Global Admin consent.
-* **Fixed an issue** with the Policy violation resolved e-mail for the Orphaned Teams & Groups Policy. The sent e-mail displayed the wrong user under the Resolved by value when a policy was resolved.
+* **Fixed an issue** with the Policy vulnerability resolved e-mail for the Orphaned Teams & Groups Policy. The sent e-mail displayed the wrong user under the Resolved by value when a policy was resolved.
 * **Fixed issues with Analytics reports**. When generating the reports, the following error occurred: `System.ArgumentException: An item with the same key has already been added.`

@@ -7,7 +7,7 @@ description: This article provides information on the Workspaces with Shadow Use
 
 Syskit Point detects users who have access to specific content on the SharePoint site but are not members of the Microsoft 365 Group or Team associated with it, which could lead to security risks and cause oversharing. 
 
-The Workspaces with Shadow Users policy **cannot have task delegation enabled**. That means that no tasks are created to resolve this policy violation, and no emails are sent to collaborators.
+The Workspaces with Shadow Users policy **cannot have task delegation enabled**. That means that no tasks are created to resolve this policy vulnerability, and no emails are sent to collaborators.
 
 The shadow users **are still detected** and shown on the Security and Compliance dashboard. **This means that Syskit Point detects a vulnerability on a workspace** based on the applied policy, but it does not create tasks or send any emails to collaborators. 
 
@@ -20,21 +20,21 @@ The Workspaces with Shadow Users screen opens, showing a list of all ***workspac
 
 The report itself provides information on:
   * **Workspace (1)** name of the workspace
-  * **Detected (2)** - when the policy violation was detected
+  * **Detected (2)** - when the policy vulnerability was detected
   * **Shadow Users (3)** - the number of shadow users that have access to content from the workspace
-  * **Policy (4)** - the policy violation that has been detected
+  * **Policy (4)** - the policy vulnerability that has been detected
   * **Rule (5)** - the rule that has been assigned, if any
-  * **Status (6)** - the status of the policy violation
+  * **Status (6)** - the status of the policy vulnerability
 
-You can complete the following actions for the policy violation:
-  * **Accept Risk (7)** - this means you will close the policy violation without making any changes to the current state of the workspace for the specified time period
+You can complete the following actions for the policy vulnerability:
+  * **Accept Risk (7)** - this means you will close the policy vulnerability without making any changes to the current state of the workspace for the specified time period
   * **View Users (8)** - this generates the list of shadow users that have access to this workspace
 
 ![Workspaces with Shadow Users](../../.gitbook/assets/security-compliance-checks-workspace-with-shadow-users.png)
 
 Clicking the Accept Risk button opens the Accept Risk pop-up. To delay this violation, complete the following:
 
-  * **Select the number of days (1)** this policy violation should be delayed for.
+  * **Select the number of days (1)** this policy vulnerability should be delayed for.
     * Once you accept the risk, this vulnerability is moved to the Govern > Security & Compliance > History section, and you can undo the action there. 
   * **Click the Accept Risk button (2)** to finalize your decision.
 

@@ -20,14 +20,14 @@ The Blocked Users with Assigned Licenses screen opens, showing a list of all **b
 
 The report provides information on:
   * **User (1)** name
-  * **Detected (2)** - when the policy violation was detected
+  * **Detected (2)** - when the policy vulnerability was detected
   * **Username (3)** - the email of the blocked users
   * **Licenses (4)** - name of licenses that are assigned to the blocked user
-  * **Status (5)** - status of the policy violation
+  * **Status (5)** - status of the policy vulnerability
 
-Additionally, you can complete the following actions for the policy violation:
-  * **Accept Risk (6)** - this means you will close the policy violation without making any changes to the current state of the workspace
-  * **Remove Licenses (7)** - this will remove the licenses from the blocked user and resolve the policy violation
+Additionally, you can complete the following actions for the policy vulnerability:
+  * **Accept Risk (6)** - this means you will close the policy vulnerability without making any changes to the current state of the workspace
+  * **Remove Licenses (7)** - this will remove the licenses from the blocked user and resolve the policy vulnerability
 
 
 ![Blocked Users with Assigned Licenses](../../.gitbook/assets/security-compliance-checks-blocked-users.png)
