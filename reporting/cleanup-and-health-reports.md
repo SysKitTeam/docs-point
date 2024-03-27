@@ -18,12 +18,10 @@ Use Orphaned Users and Orphaned Workspaces reports to **detect and manage orphan
 
 The Orphaned Users report displays all orphaned users in your tenant environment. 
 
-It shows **all the users that have been blocked or deleted from Azure Active Directory** and:
+Orphaned users are **all the users that have been blocked or deleted from Azure Active Directory** and:
   * Have access to workspace content, or
   * Had access to workspace content and visited the SharePoint site containing that content but lost access in the meantime
   * [For more details on Orphaned Users in Syskit Point, take a look at the FAQ article.](../faq/orphaned-users.md)
-
-If **the user currently has or has had, at any point in the past, access to a workspace**, that workspace can be seen on the Orphaned Users report. 
 
 This report helps detect and remove blocked/disabled or deleted users from your Microsoft 365 workspaces.
 

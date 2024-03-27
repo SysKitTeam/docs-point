@@ -6,6 +6,11 @@ description: This article provides information on the Orphaned Users report.
 
 Syskit Point detects users that have been disabled or deleted in Azure AD but still have access to SharePoint content, which could lead to security risks in case they become active again. 
 
+Orphaned users are **all the users that have been blocked or deleted from Azure Active Directory** and:
+  * Have access to workspace content, or
+  * Had access to workspace content and visited the SharePoint site containing that content but lost access in the meantime
+  * [For more details on Orphaned Users in Syskit Point, take a look at the FAQ article.](../faq/orphaned-users.md)
+
 The Orphaned Users policy is **a tenant-wide policy, and it cannot have task delegation enabled**. That means that no tasks are created to resolve this policy violation, and no emails are sent to collaborators.
 
 The orphaned users **are still detected** and shown on the Security and Compliance dashboard. **This means that Syskit Point detects a vulnerability on a workspace** based on the applied policy, but it does not create tasks or send any emails to collaborators. 
