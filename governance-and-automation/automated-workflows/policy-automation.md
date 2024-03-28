@@ -5,7 +5,7 @@ description: This article explains how to set up and utilize the policy rules fe
 
 # Rules
 
-The Rules feature **lets you create rules for auto-applying policies** based on conditions - be it predefined in Syskit Point, but also your custom metadata.
+The Rules feature **lets you create rules for auto-applying policies** based on conditions - be it predefined in Syskit Point or your custom metadata.
 
 {% hint style="information" %}
 Available conditions are explained in more detail in the [Conditions section](#conditions)
@@ -114,7 +114,7 @@ There are two types of available properties you can select when setting up condi
 * **Custom metadata**
   * Workspace properties defined in [Custom Metadata in Syskit Point](../../governance-and-automation/manage-custom-metadata.md) or via third-party tools and synced to Syskit Point
   * Since there is no limitation on how you should name your custom metadata or how many custom metadata properties you create, Syskit Point focuses on supporting custom metadata types - e.g., number, boolean, string, etc.
-  * For example, if you define custom metadata named **Project End Date**, the data type would be set to Date; for **Project Name** data type would be set to Text, etc.
+  * For example, if you define custom metadata named **Project End Date**, the data type would be set to Date; for **Project Name**, the data type would be set to Text, etc.
 
 In the following table, you can find all predefined properties and operators currently available in Syskit Point.
 
@@ -137,6 +137,8 @@ Additionally, the following custom metadata types and related operators are supp
   | Date | After, Before, Between |
   | Boolean (Yes/No) | Is set to |
   | Number | Equal, Greater Than, Greater Than or Equal, Less Than, Less Than or Equal |
+  | Dropdown  | Select one or multiple options |
+  | People | Search and select a user |
 
 ## Priority and Priority Overrides
 
