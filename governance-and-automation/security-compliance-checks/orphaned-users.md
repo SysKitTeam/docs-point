@@ -2,10 +2,14 @@
 description: This article provides information on the Orphaned Users report.
 ---
 
-
 # Orphaned Users
 
-Syskit Point detects users that have been disabled or deleted in Azure AD, but still have access to SharePoint content, which could lead to security risks in case they become active again. 
+Syskit Point detects users that have been disabled or deleted in Entra ID but still have access to SharePoint content, which could lead to security risks in case they become active again. 
+
+Orphaned users are **all the users that have been blocked or deleted from Entra ID** and:
+  * Have access to workspace content, or
+  * Had access to workspace content and visited the SharePoint site containing that content but lost access in the meantime
+  * [For more details on Orphaned Users in Syskit Point, take a look at the FAQ article.](../faq/orphaned-users.md)
 
 The Orphaned Users policy is **a tenant-wide policy, and it cannot have task delegation enabled**. That means that no tasks are created to resolve this policy violation, and no emails are sent to collaborators.
 
@@ -16,7 +20,7 @@ bringing awareness of potential issues in their Microsoft 365 environment.
 
 On the Security & Compliance dashboard, click the **Orphaned Users** button to see the report.
 
-The Orphaned Users screen opens, showing a list of all **users that have the sign-in blocked or are deleted from Azure AD** without having their SharePoint permissions revoked.
+The Orphaned Users screen opens, showing a list of all **users that have the sign-in blocked or are deleted from Entra ID** without having their SharePoint permissions revoked.
 
 The report itself provides information on:
   * **User (1)** name
@@ -28,10 +32,18 @@ The report itself provides information on:
 
 You can complete the following actions for the policy violation:
   * **Accept Risk (7)** - this means you will close the policy violation without making any changes to the current state of the workspace
-  * **Remove User (8)** - this will remove the user from the SharePoint site and connected groups, and resolve the policy violation
+  * **Remove User (8)** - this will remove the user from the SharePoint site and connected groups and resolve the policy violation
 
 By **selecting all (9)** or more than one user, you can perform the bulk action for **Remove User (10)** or **Accept Risk (11)**. 
 
 ![Orphaned Users](../../.gitbook/assets/security-compliance-checks-orphaned-users.png)
 
 ![Orphaned Users - Bulk](../../.gitbook/assets/security-compliance-checks-orphaned-users-bulk.png)
+
+**Clicking the Remove User** action opens the Remove User dialogue. 
+  * To replace the user as Primary Admin, **select the checkbox (1)** that states *If the user is a Primary Admin replace them with*
+    * If the selected user is a Primary Admin on chosen sites/OneDrive, Microsoft does not allow their removal. In order to remove them, they have to be replaced as Primary Admin with an active user
+  * Once selected, a space is provided where you should **type the name or email of the user (2)** you want as the new Primary Admin
+* **Type REMOVE (3)** in the space provided and **click Remove (4)** to finalize your decision. 
+
+![Orphaned Users - Remove User Action](../../.gitbook/assets/security-compliance-checks-orphaned-users-remove-user.png)
