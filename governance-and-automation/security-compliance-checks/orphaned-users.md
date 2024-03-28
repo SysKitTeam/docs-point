@@ -9,7 +9,7 @@ Syskit Point detects users that have been disabled or deleted in Entra ID but st
 Orphaned users are **all the users that have been blocked or deleted from Entra ID** and:
   * Have access to workspace content, or
   * Had access to workspace content and visited the SharePoint site containing that content but lost access in the meantime
-  * [For more details on Orphaned Users in Syskit Point, take a look at the FAQ article.](../faq/orphaned-users.md)
+  * [For more details on Orphaned Users in Syskit Point, take a look at the FAQ article.](../../faq/orphaned-users.md)
 
 The Orphaned Users policy is **a tenant-wide policy, and it cannot have task delegation enabled**. That means that no tasks are created to resolve this policy violation, and no emails are sent to collaborators.
 
