@@ -18,7 +18,7 @@ Use Orphaned Users and Orphaned Workspaces reports to **detect and manage orphan
 
 The Orphaned Users report displays all orphaned users in your tenant environment. 
 
-Orphaned users are **all the users that have been blocked or deleted from Azure Active Directory** and:
+Orphaned users are **all the users that have been blocked or deleted from Entra ID** and:
   * Have access to workspace content, or
   * Had access to workspace content and visited the SharePoint site containing that content but lost access in the meantime
   * [For more details on Orphaned Users in Syskit Point, take a look at the FAQ article.](../faq/orphaned-users.md)
@@ -40,9 +40,9 @@ Once the report is successfully generated, the following data will be displayed 
    * When clicked, the User Details page of the selected user is opened.
 * **Site**; the name of the workspace where said user is a member. 
    * When clicked, the page will be redirected to the Site Details screen of the selected workspace.
-* **Status**; defines whether the user was deleted or disabled in Azure Active Directory.
+* **Status**; defines whether the user was deleted or disabled in Entra ID.
 * **Department**; shows which department in the company the Orphaned User operated in. 
-  * Only if that data is available from Azure Active Directory. 
+  * Only if that data is available from Entra ID. 
 * **Manager**; shows the manager of the orphaned user.
 
 For more details, there are also additional columns available in the column chooser:
@@ -62,7 +62,7 @@ The Orphaned Users report can be **exported as PDF and XLSX files**. There is al
 
 The Orphaned Workspaces report displays all the SharePoint Sites, Microsoft Teams, or Microsoft 365 groups in your tenant that don't have an active owner or administrator.
 
-  * The last owner of those workspaces is either deleted or blocked in Azure Active Directory. 
+  * The last owner of those workspaces is either deleted or blocked in Entra ID. 
 
 This report helps manage Microsoft 365 workspaces' health and helps ensure there are no abandoned workspaces in your tenant.
 
