@@ -49,7 +49,7 @@ After clicking the **Manage Policies (6)** button, the **Manage Policy** dialog 
 ![Manage Policies Dialog](../../.gitbook/assets/set-up-automated-workflows-apply-policy-dialog.png)
 
 {% hint style="success" %}
-**Once a policy is applied, Syskit Point automates detection for a policy violation**. 
+**Once a policy is applied, Syskit Point automates detection for a policy vulnerability**. 
 {% endhint %}
 
 You can find an article on how to create or edit each policy here:
