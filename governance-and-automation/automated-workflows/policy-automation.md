@@ -138,7 +138,7 @@ Additionally, the following custom metadata types and related operators are supp
   | Boolean (Yes/No) | Is set to |
   | Number | Equal, Greater Than, Greater Than or Equal, Less Than, Less Than or Equal |
   | Dropdown  | Select one or multiple options |
-  | People | Search and select a user |
+  | People | Search and select one or multiple users |
 
 ## Priority and Priority Overrides
 
