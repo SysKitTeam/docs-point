@@ -45,14 +45,14 @@ description: >-
   * **The automation option in policy settings for all policies was renamed to Task Delegation**. The name better describes the process of delegating tasks and sharing the responsibility to resolve vulnerabilities among multiple users.
   * The policies settings screen was redesigned to provide more information at a glance - **grid with policies now shows the policy severity and policy status**.
   * For policies with a task delegation option, an **improved validation was added to ensure that the Collaborator role is enabled** if required for task delegation.
-  * **A new action - Ask Members - is available on the Security & Compliance report for Orphaned workspaces**. It helps you to ask members of an Orphaned workspace to resolve the policy violation and suggest new owners. 
+  * **A new action - Ask Members - is available on the Security & Compliance report for Orphaned workspaces**. It helps you to ask members of an Orphaned workspace to resolve the policy vulnerability and suggest new owners. 
   * **Tenant storage limit vulnerability now shows more details** - the percentage of used storage, used and total storage in your tenant, as well as Accept risk action, and a link that provides you with information on how to resolve the issue at hand in Microsoft 365 by adding more storage.
 
 * **The Active Tasks screen was improved** to show only the vulnerabilities with an open task. Previously, detected vulnerabilities without a task were displayed as well. 
 
 * **The term Resource was replaced with Workspace across Syskit Point and the documentation**. For example, the Orphaned Resources tile segment on the dashboard was renamed to Inactive Workspaces. The Inactive Content report was renamed to Inactive Workspaces, and so on.
 
-* **User sync was improved to resolve policy violations in case the user's status change in Microsoft 365 makes the vulnerability obsolete**. For example, if an orphaned user is deleted in Microsoft 365, Syskit Point will automatically resolve detected vulnerabilities for the user during the user sync.
+* **User sync was improved to resolve policy vulnerabilities in case the user's status change in Microsoft 365 makes the vulnerability obsolete**. For example, if an orphaned user is deleted in Microsoft 365, Syskit Point will automatically resolve detected vulnerabilities for the user during the user sync.
 
 * **Fixed an issue** where unassigned licenses were not shown in the Licenses Overview report. 
 

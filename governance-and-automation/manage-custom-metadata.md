@@ -41,10 +41,12 @@ To start, take the following steps:
 Once the create new metadata dialog opens, fill in the following information.
 * **Metadata Name (1)**; the name of the metadata.
 * **Description (2)**; the description of the metadata for end users.
-* **Enable collaborators to change the created metadata (3)** by checking the Allow collaborators to change this metadata value option
-  * By default, this option is disabled
-  * When enabled, owners will be able to modify metadata on their workspaces
-* Select the **data type (4)** of the new metadata under the Customize Field.
+* **Enable collaborators to change the created metadata (3)** by checking the Allow collaborators to change this metadata value option.
+  * By default, this option is disabled.
+  * When enabled, owners can modify metadata on their workspaces.
+* **Include this metadata in the SharePoint search index (4)**.
+  * **Selecting this checkbox** ensures that the custom metadata you've defined is included in SharePoint Online Search, which means that SharePoint sites can be searched using the custom metadata you've specified.
+* Select the **data type (5)** of the new metadata under the Customize Field.
   * In the dropdown menu, there are several data types to choose from
     * **Text**
     * **People**
@@ -52,8 +54,8 @@ Once the create new metadata dialog opens, fill in the following information.
     * **Dropdown**
     * **Yes/No**
     * **Number**
-* Use the **null text (5)** area to add a short hint describing the input field for end users.
-* When satisfied, click **Confirm (6)** to save the metadata definiton.
+* Use the **null text (6)** area to add a short hint describing the input field for end users.
+* When satisfied, click **Confirm (7)** to save the metadata definiton.
 
 ![Create New Metadata](../.gitbook/assets/manage-custom-metadata-create-new-dialog.png)
 
@@ -100,7 +102,7 @@ When generating a report, you can filter out workspaces with desired custom meta
 * Once the custom metadata column is added, use the **filter dropdown menu (2)** in the custom metadata column to filter and show workspaces with selected metadata values. 
 
 ![Filtering by metadata](../.gitbook/assets/manage-custom-metadata-filter.png)
-
+ 
 **Workspaces with selected custom metadata values (3) are displayed**.
 * **Select (4)** one or more of the filtered workspaces to include in the report.
 * Click **Run Report (5)** to generate the report for selected workspaces. 

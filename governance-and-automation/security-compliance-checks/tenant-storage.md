@@ -19,19 +19,19 @@ bringing awareness of potential issues in their Microsoft 365 environment.
 
 On the Security & Compliance dashboard, click the **Tenant Storage Limit** button to see the report.
 
-The Tenant Storage Limit screen opens, **showing the Tenant Storage Limit violation**.
+The Tenant Storage Limit screen opens, **showing the Tenant Storage Limit vulnerability**.
 
 The report provides information on:
   * **Name (1)** of the policy
-  * **Detected (2)** - when the policy violation was detected
+  * **Detected (2)** - when the policy vulnerability was detected
   * **Used Storage % (3)** - the percentage of storage that is used
   * **Used (4)** - the amount of storage that is used
   * **Total (5)** - the total amount of storage available
-  * **Status (6)** - the status of the policy violation
+  * **Status (6)** - the status of the policy vulnerability
 
 There are two actions that can be completed for this violation:
  * **Accept Risk (7)**
-   * Clicking Accept Risk opens a pop-up where you can **select the number of days** you want Syskit Point to ignore this policy violation
+   * Clicking Accept Risk opens a pop-up where you can **select the number of days** you want Syskit Point to ignore this policy vulnerability
    * Clicking the **Accept Risk button** finalizes your decision
  * **Add Storage (8)** 
    * Clicking Add Storage redirects you to the Microsoft 365 article that explains how to add more SharePoint storage to your tenant
