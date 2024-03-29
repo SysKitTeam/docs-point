@@ -45,7 +45,7 @@ Once the create new metadata dialog opens, fill in the following information.
   * By default, this option is disabled.
   * When enabled, owners can modify metadata on their workspaces.
 * **Include this metadata in the SharePoint search index (4)**.
-  * **Selecting this checkbox** ensures that editing or provisioning the metadata through Syskit Point **results in an indexed property bag value**.
+  * **Selecting this checkbox** ensures that the custom metadata you've defined is included in SharePoint Online Search, which means that SharePoint sites can be searched using the custom metadata you've specified.
 * Select the **data type (5)** of the new metadata under the Customize Field.
   * In the dropdown menu, there are several data types to choose from
     * **Text**
