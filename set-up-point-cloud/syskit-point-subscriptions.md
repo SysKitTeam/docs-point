@@ -65,13 +65,17 @@ Your preferences for the following information need to be selected:
 * **Billing Cycle (4)** - clicking on it opens a drop-down menu where you can select how often you want to be billed for your subscription:
   * Annually
   * Monthly
-* **Number of Licensed Microsoft 365 Users (5)** - here, you can write the number of users you expect will be utilizing Syskit Point
+* **Currency (5)** - clicking on it opens a drop-down menu where you can select the currency in which you want to be charged:
+  * USD - US Dollar
+  * GBP - British Pound
+  * EUR - Euro
+* **Number of Licensed Microsoft 365 Users (6)** - here, you can write the number of users you expect will be utilizing Syskit Point
   * The number of licensed users affects the pricing of your Syskit Point subscription
   * A minimum of 100 licenses need to be purchased for your Syskit Point subscription. For more details on this, take a look at the [**Licensed Users Count article**](../licensing-activation/licensed-users-count.md). 
-    * This article can also be accessed by clicking **How we calculate licensing (6)**
+    * This article can also be accessed by clicking **How we calculate licensing (7)**
 
-* **Summary (7)** - located on the right side of the screen, it shows a quick summary of the selection you've made with a cost estimate for your chosen subscription
-* Click the **Buy Now button (8)** for the final step to complete your purchase
+* **Summary (8)** - located on the right side of the screen, it shows a quick summary of the selection you've made with a cost estimate for your chosen subscription
+* Click the **Buy Now button (9)** for the final step to complete your purchase
 
 ![Syskit Point Subscription - Subscriptions Screen](../.gitbook/assets/purchasing-syskit-point-subscriptions-screen.png)
 
