@@ -7,6 +7,7 @@ description: This article explains how Syskit Point licensing depends on the Mic
 The licensing of the Syskit Point subscription **depends on the number of licensed users and resources within the Microsoft 365 tenant connected to Syskit Point**.
 
 **Licensed users are all users and resources with any Microsoft 365 license attached to them, except for those listed as [Free Licenses](#list-of-free-licenses).**
+ * **Licenses that are listed as free by Microsoft do not count** toward calculating the costs of your Syskit Point subscription
  * Resources include any **meeting rooms, service accounts**, and others with licenses.
  * Only **unique licensed users or guest users and resources will be counted**, regardless of how many licenses the unique user or resource has assigned to them. 
  * **Guest users** only fit into that category **if they have a paid license assigned**. 
