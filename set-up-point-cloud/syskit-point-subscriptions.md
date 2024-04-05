@@ -17,9 +17,10 @@ In this article, you will find information on the following:
 * [Upgrade Your Subscription Plan](syskit-point-subscriptions.md#upgrade-your-subscription-plan)
 * [Cancel Your Subscription](syskit-point-subscriptions.md#cancel-your-subscription)
 * [Reconnect After Purchasing](syskit-point-subscriptions.md#reconnect-after-purchasing)
+* [Purchasing Additional Audit Logs Storage](syskit-point-subscriptions.md#purchasing-additional-audit-logs-storage)
 
 {% hint style="warning" %}
-**Please note!** If you didn't start your free 21-day trial, take a look at the [**Syskit Point trial article**](free-trial.md) for details on getting started. At any point during the 21 days of the free trial, you can purchase a Syskit Point Cloud subscription. In order to retain your data after your free trial has expired, a Syskit Point subscription needs to be purchased within 21 days of your trial period ending.
+**Please note!** If you didn't start your free 21-day trial, take a look at the [**Syskit Point trial article**](free-trial.md) for details on getting started. At any point during the 21 days of the free trial, you can purchase a Syskit Point Cloud subscription. To retain your data after your free trial has expired, a Syskit Point subscription needs to be purchased within 21 days of your trial period ending.
 {% endhint %}
 
 ## Purchase Your Syskit Point Cloud Subscription
@@ -90,7 +91,14 @@ Once you've purchased your Syskit Point subscription, you are redirected back to
 
 If your purchase was successful, when you click **Overview**, the information for your **Next Renewal Data** will reflect the renewal period you selected for your subscription.
 
-The **Purchased Plan** section will now show the name of the subscription you purchased.
+The **Purchased Plan (1)** section will now show the name of the subscription you purchased.
+
+The section titled **Users (2)** is where you can find a **list of users (2)** you have given Administrator rights to the Subscriptions portal, which means **these users are allowed to manage your subscription by adding additional user licenses, purchasing a different subscriptions plan**, and so on.
+
+![Syskit Point Subscription - Purchased Plan & Users](../.gitbook/assets/syskit-point-subscriptions-users-purchased-plan.png)
+
+![Syskit Point Subscription - Purchased Plan & Users](../.gitbook/assets/syskit-point-subscriptions-users-list.png)
+
 
 ## Purchase Additional User Licenses
 
@@ -130,8 +138,8 @@ You are redirected to the confirmation screen, where the following information i
 To change or upgrade the Syskit Point subscription plan you currently have, complete the following:
 
 * Log into your **Syskit Subscriptions** site
-* Under **Overview**, navigate down to the **Purchased Plan section (1)**
-* Click the **Manage Subscription button (2)** located in the Purchased Plan section
+* Under **Subscriptions (1)**, navigate down to the **Manage Subscription**
+* Click the **Manage Subscription button (2)**
   * This opens a pop-up where you can edit your current subscription and upgrade your subscription plan
 * Click the **Update plan (3)** button, located on the right side of the screen
   * This opens a pop-up where you can edit your current subscription and enhance your user licenses
@@ -160,16 +168,16 @@ The **Update your plan screen** opens where you can:
 
 ## Cancel Your Subscription
 
-To change or upgrade the Syskit Point subscription plan you currently have, complete the following:
+To cancel the Syskit Point subscription plan you currently have, complete the following:
 
 * Log into your **Syskit Subscriptions** site
-* Under **Overview**, navigate down to the **Purchased Plan section**
-* Click the **Manage Subscription button (1)** located in the Purchased Plan section
+* Under **Subscriptions (1)**, navigate down to the **Manage Subscription**
+* Click the **Manage Subscription button (2)**
   * This opens a pop-up where you can manage your current subscription by upgrading your subscription plan or canceling it
-* Click the **Cancel plan (2)** button, located on the right side of the screen
+* Click the **Cancel plan (3)** button, located on the right side of the screen
   * This opens a screen where you can cancel your current plan
 
-![Syskit Point Subscription - Cancel Subscription](../.gitbook/assets/syskit-point-cloud-syskit-point-subscriptions-manage-cancel.png)
+![Syskit Point Subscription - Cancel Subscription](../.gitbook/assets/syskit-point-cloud-licensing-manage-subs.png)
 
 ![Syskit Point Subscription - Cancel Subscription](../.gitbook/assets/setup-point-cloud-syskit-point-subscriptions-cancel-overview.png) 
 
@@ -184,7 +192,6 @@ To cancel your plan, click the **Cancel plan button (1)**.
 Your subscription will now be canceled, and once the current plan you had already purchased expires, you will no longer be able to utilize Syskit Point. 
 
 ![Syskit Point Subscription - Canceled](../.gitbook/assets/setup-point-cloud-syskit-point-subscriptions-cancel.png)
-
 
 ## Reconnect After Purchasing
 
@@ -201,6 +208,26 @@ To reconnect your tenant **click the Connect Tenant button (1)**.
 ![Syskit Point Subscription - Canceled](../.gitbook/assets/syskit-point-subscriptions-reconnect-tenant.png)
 
 [For more details about connecting your tenant to Syskit Point, take a look at this article.](../set-up-point-cloud/free-trial.md)
+
+
+## Purchasing Additional Audit Logs Storage
+
+By purchasing your subscription, you receive one year of Audit Logs storage as stated in the **Purchased Plan section (1)**. 
+
+For more information about audit logs, you can click the **Audit Logs Retention link (2)**.
+
+If you want to purchase additional storage years for Audit Logs, click the **Contact Us link (3)** to email our Sales team directly, or fill out the form on our [Contact page](https://www.syskit.com/contact-us/).
+
+
+![Syskit Point Subscription - Additional Audit Logs Storage](../.gitbook/assets/syskit-point-subscriptions-audit-logs-storage.png)
+
+
+{% hint style="information" %}
+**Please note!** If you request the removal of additional retention years that you previously purchased, the change will be applied after 3 days.  
+
+This serves as a safety measure, as once the change is final, all audit logs that exceed your currently purchased retention period will be erased.
+
+{% endhint %}
 
 ## Related Articles
 
