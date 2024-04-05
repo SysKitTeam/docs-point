@@ -9,7 +9,7 @@ description: >-
 
 **Product version:** 2024.2.45
 
-**Build number:** X
+**Build number:** 79
 
 **Release date:** April 10, 2024
 
