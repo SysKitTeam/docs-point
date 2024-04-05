@@ -177,9 +177,7 @@ To cancel the Syskit Point subscription plan you currently have, complete the fo
 * Click the **Cancel plan (3)** button, located on the right side of the screen
   * This opens a screen where you can cancel your current plan
 
-![Syskit Point Subscription - Cancel Subscription](../.gitbook/assets/syskit-point-cloud-syskit-point-subscriptions-manage-cancel.png)
-
-![Syskit Point Subscription - Cancel Subscription](../.gitbook/assets/syskit-point-cloud-syskit-point-subscriptions-manage-cancel-2.png)
+![Syskit Point Subscription - Cancel Subscription](../.gitbook/assets/syskit-point-cloud-licensing-manage-subs.png)
 
 ![Syskit Point Subscription - Cancel Subscription](../.gitbook/assets/setup-point-cloud-syskit-point-subscriptions-cancel-overview.png) 
 
@@ -216,18 +214,18 @@ To reconnect your tenant **click the Connect Tenant button (1)**.
 
 By purchasing your subscription, you receive one year of Audit Logs storage as stated in the **Purchased Plan section (1)**. 
 
-For more information about audit logs, you can click the **Audit Logs Retention button (2)**.
+For more information about audit logs, you can click the **Audit Logs Retention link (2)**.
 
-If you want to purchase additional storage years for Audit Logs, click the **Contact Us button (3)** to email our Sales team directly, or fill out the form on our [Contact Us page](https://www.syskit.com/contact-us/).
+If you want to purchase additional storage years for Audit Logs, click the **Contact Us link (3)** to email our Sales team directly, or fill out the form on our [Contact page](https://www.syskit.com/contact-us/).
 
 
 ![Syskit Point Subscription - Additional Audit Logs Storage](../.gitbook/assets/syskit-point-subscriptions-audit-logs-storage.png)
 
 
 {% hint style="information" %}
-**Please note!** If you request that we remove the additional years you had previously purchased, once our team makes this change, it can take up to 3 days to be reflected in Syskit Point.  
+**Please note!** If you request that we remove the additional retention years you had previously purchased, once our team makes this change, the change is applied after 3 days in Syskit Point.  
 
-This serves as a safety measure, as once the change is final, all extra audit log storage that surpasses your currently purchased and available audit log storage years will be erased.
+This serves as a safety measure, as once the change is final, all audit log storage that surpasses your currently purchased retention period will be erased.
 
 {% endhint %}
 
