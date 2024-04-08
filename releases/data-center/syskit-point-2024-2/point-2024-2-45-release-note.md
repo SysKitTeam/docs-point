@@ -22,7 +22,7 @@ description: >-
 
 See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../set-up-point-data-center/deployment/upgrade-syskit-point.md).
 
-## Improvements & Bug Fixes
+## New Features
 
 {% hint style="warning" %}
 **Please note!**\
@@ -68,14 +68,13 @@ The first site sync after the upgrade will be a full site sync instead of a part
   * **Optimized** the Site Storage Metrics report when working with large sites.
   * [Learn more about the Storage Management feature by reading articles in this section.](../../../storage-management/)
 
-* **Rules support additional custom metadata types!**
 * **Rules were improved and now support several custom metadata types!**
   * Custom metadata, which you create and apply to your workspaces in Syskit Point or via third-party tools, can now be used in rule conditions.
   * The following custom metadata types are supported: **Dropdown**, **People**, **Text**, **Number**, **Date**, and **Boolean (Yes/No)**.
   * New predefined property is available - **Created On** - enabling you to utilize rules to apply governance policies to workspaces based on their creation date. 
   * [For more details about conditions, available properties, and operators, take a look at the conditions section of the Rules article.](../../../governance-and-automation/automated-workflows/policy-automation.md#conditions) 
 
-* **The E-mail settings** now include a Weekly Vulnerabilities summary section, where you can configure which users will receive summary e-mails or turn sending of summary e-mails off. 
+## Improvements & Bug Fixes
 
 * **Syskit Point now sends summarized daily e-mails for detected policy vulnerabilities!** 
   * This means you will **get fewer e-mails but still get important information about policy vulnerabilities detected in your workspaces**.
@@ -86,6 +85,8 @@ The first site sync after the upgrade will be a full site sync instead of a part
   * **Reminder e-mails are also grouped following the same logic as detection e-mails**.
   * **E-mails sent when Syskit Point resolves the vulnerabilities with a defined automatic action are also grouped.**
   * [Learn more about governance policies in the following article.](../../../governance-and-automation/automated-workflows/set-up-policies.md)
+
+* **The E-mail settings** now include a Weekly Vulnerabilities summary section, where you can configure which users will receive summary e-mails or turn sending of summary e-mails off. 
 
 * **When creating new custom metadata**, there is a new checkbox that, when selected, includes this metadata in the SharePoint search index. 
   * Selecting this checkbox ensures that editing or provisioning the metadata through Syskit Point results in an indexed property bag value.
