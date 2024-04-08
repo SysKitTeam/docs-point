@@ -74,13 +74,13 @@ Once the site report is successfully generated, the following information is ava
     * **Other**: any extensions not categorized in one of the above groups
 * **The File Version Cleanup tile** shows the amount of space you can free up by cleaning up the outdated versions of the site. 
 
-The Largest Files & Folders section of the report is by default, set as a **Files Only view**, which means it shows a list of all files in the site. You can change the report to be seen as the **Site Structure view** by clicking the **Show by:** button located on the top right side of the Largest Files & Folders part of the report.  
+The Largest Files & Folders section of the report is by default, set as a **Files Only view**, which means it shows a list of all files on the site. You can change the report to be seen as the **Site Structure view** by clicking the **Show by:** button located on the top right side of the Largest Files & Folders part of the report.  
 
 The following data will be displayed in the columns:
 
 * **Name**; the name of the site.
    * Clicking the name opens the Site Details page of the selected workspaces.
-   * Clicking the arrow symbol next to the name expands the site details to show all content included in the site.
+   * Clicking the arrow symbol next to the name expands the site details to show all content included on the site.
 * **Type**; shows what type of site or content it is.
 * **Extension**; shows any extensions to the site or content.
 * **Size**; shows the size of the site or content.
