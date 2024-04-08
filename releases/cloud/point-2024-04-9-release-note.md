@@ -28,9 +28,7 @@ description: >-
   * **Fixed an issue** that caused localization errors when trying to create a new SharePoint template from the Provisioning feature in Syskit Point.
   * **Fixed an issue** that prevented editing existing Provisioning templates.
 
-* **Improved logging** when encountering problems dealing with Sharing Links.
-
-* **Fixed an issue** with CSS High environments using the People Picker for the Syskit Point Teams App.
+* **Fixed an issue** with GCC High environments using the People Picker for the Syskit Point Teams App.
 
 * **Fixed a bug** that caused the Power BI Workspaces and Inventory reports to show the wrong name for Personal Workspaces. 
 
