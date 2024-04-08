@@ -28,21 +28,25 @@ This report lets you check if you are at risk of running out of storage so that 
 
 Once the report is successfully generated, the following information is available:
 
+ * **The Tenant Storage tile** on the left side shows the percentage of used storage out of the total number of available storage for your tenant.
+ * **The Potential Savings tile** shows how much you can save by cleaning up File versions older than X months or All but the last X number of file versions.
+   * You can **set your own values for X** through Settings > Storage Management, which you can quickly access by **clicking the Settings button in the top right corner of the tile**
  * **The Storage Trend chart** shows a graph that depicts your storage usage across time over the last 180 days.
- * **The Tenant Storage box** on the right side shows the percentage of used storage out of the total number of available storage for your tenant.
+
 
 The following data will be displayed in the columns:
 
 * **Name**; the name of the site.
    * Clicking the name opens the Site Storage report for the selected workspaces.
-* **Storage Metrics URL**; the link for the site. 
-   * Clicking the link opens the Storage Metrics page of the selected workspaces in SharePoint.
-* **Primary Admin**; shows the admins of the site. 
-* **Last Activity**; shows the date the last activity on the site happened.
 * **Size**; shows the size of the site.
+* **Last 180 Days**; shows the storage trend for a site during this period of time along with an arrow that signifies the growth or reduction. Hovering above it gives you a percentage of how much.
+   * By default, the Last 180 Days column is shown on the report, but the following views are also available: **Largest Growth in last 7 days, Largest Growth in last 30 days, Largest Growth in last 90 days**.
+* **State**; show the state of the site, whether it is active, archived, or other.
+  * Keep in mind that soft deleted and archived sites also count towards your storage usage until they are permanently deleted. 
 * **Storage Limit**; show the storage limit for the site.
 * **% of Limit**; shows the percentage of how close to the storage limit your site is.
 * **Alert on % of Limit**; shows the percentage at which you are alerted of being close to your storage limit. 
+* **Last Activity**; shows the date the last activity on the site happened.
 
 ## Site Storage Metrics
 
@@ -70,7 +74,7 @@ Once the site report is successfully generated, the following information is ava
     * **Other**: any extensions not categorized in one of the above groups
 * **The File Version Cleanup tile** shows the amount of space you can free up by cleaning up the outdated versions of the site. 
 
-The Largest Files & Folders section of the report is by default set as a **Files Only view** which means it shows a list of all files in the site. You can change the report to be seen as the **Site Structure view** by clicking the **Show by:** button located on the top right side of Largest Files & Folders part of the report.  
+The Largest Files & Folders section of the report is by default, set as a **Files Only view**, which means it shows a list of all files in the site. You can change the report to be seen as the **Site Structure view** by clicking the **Show by:** button located on the top right side of the Largest Files & Folders part of the report.  
 
 The following data will be displayed in the columns:
 
@@ -109,7 +113,7 @@ The report lets you check on the amount of storage used by files in your tenant.
  * **Select Cleanup & Health Check in the filter**; it can be found in the upper left corner.
  * **Click the Site Storage Metrics report** to generate the report.
  * Under the Largest Files & Folders section, **click the arrow next to the folders** to expand them until you reach the list of files within the folder.
- * **Click the name of the file** you want to generate the report for.
+ * **Click the name of the file** for which you want to generate the report.
 
 ### Report Data
 
@@ -130,8 +134,8 @@ The following data will be displayed in the columns:
 
 * **Version Number**; the number of the version of the file.
 * **Created on**; the date the version of the file was created.
-* **Created by**; the person this version of the file was created by. 
-* **Size**; shows the size of the version of the file. 
+* **Created by**; the person by whom this version of the file was created. 
+* **Size**; shows the size of the file version. 
 
 You can also **export this report as a PDF or Excel file**, or **schedule it**, to have it regularly delivered to your email. 
 
