@@ -27,14 +27,19 @@ The report provides information on:
   * **Used Storage % (3)** - the percentage of storage that is used
   * **Used (4)** - the amount of storage that is used
   * **Total (5)** - the total amount of storage available
-  * **Status (6)** - the status of the policy vulnerability
+  * **Potential Savings (Number of Versions) (6)** - the amount of storage that can be saved by cleaning up the X number of versions
+    * X can be set by going to Syskit Point > Settings > Storage Management 
+  * **Potential Savings (Old Versions) (7)** - the amount of storage that can be saved by cleaning up a certain number of versions
+    * The number can be set by going to Syskit Point > Settings > Storage Management 
+  * **Status (8)** - the status of the policy vulnerability
 
 There are two actions that can be completed for this violation:
- * **Accept Risk (7)**
+ * **Accept Risk (9)**
    * Clicking Accept Risk opens a pop-up where you can **select the number of days** you want Syskit Point to ignore this policy vulnerability
    * Clicking the **Accept Risk button** finalizes your decision
- * **Add Storage (8)** 
-   * Clicking Add Storage redirects you to the Microsoft 365 article that explains how to add more SharePoint storage to your tenant
+ * **Clean Up (10)** 
+   * Clicking Clean Up button redirects you to the Storage Metrics report where you can perform the Clean Up action and free up storage 
+    * [For more details on how to perform the Clean Up, take a look at the Free Up Storage article.](../../storage-management/free-up-storage.md)
 
 ![Tenant Storage Limit - Security & Compliance checks report](../../.gitbook/assets/security-compliance-checks-tenant-storage-limits.png)
 
