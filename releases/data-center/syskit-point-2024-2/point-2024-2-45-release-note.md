@@ -32,7 +32,7 @@ After upgrading to the latest version, sites need to be synced for data to show 
 The first site sync after the upgrade will be a full site sync instead of a partial one, which is required for the optimization changes to take effect.
 {% endhint %}
 
-* **Storage Management gets new improvements!**
+* **Storage Management for SharePoint Online gets new improvements!**
   * **Views were added** to the Storage Metrics report:
     * **Largest Sites** view sorts the report based on site size.
     * **Potential Savings - Number of Versions** view sorts the report based on the amount of saved storage you can achieve with the Clean Up action, keeping the [defined number of file versions](../../../configuration/configure-storage-management.md).
