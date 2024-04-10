@@ -1,9 +1,9 @@
 ---
 description: >-
-  This article lists improvements and bug fixes in Syskit Point version 2024.1.43.98
+  This article lists improvements and bug fixes in Syskit Point version 2024.1.43
 ---
 
-# Syskit Point 2024.1.43.98
+# Syskit Point 2024.1.43
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
