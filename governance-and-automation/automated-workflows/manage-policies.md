@@ -16,6 +16,7 @@ You can choose from the following:
 * **Orphaned Workspaces**
 * [**Access Requests**](../../governance-and-automation/access-requests/README.md)
   * For more details on access requests in Syskit Point, read the [Access Requests section](../../governance-and-automation/access-requests/README.md).
+* **Shadow Users**
 
 ![Create New Policy Dialog](../../.gitbook/assets/set-up-automated-workflows-create-policy-dialog.png)
 
@@ -23,13 +24,36 @@ You can choose from the following:
 
 [You can also find more information on Access Review policies in the following article.](../permissions-review/enable-permissions-review.md)
 
-## Manage Policies
+## Apply Policies
 
 **When the policies are defined**, the last thing left to do is to **apply them to Microsoft Teams, Microsoft 365 Groups, OneDrive, and Sites**. 
 
-To do so, navigate to the Policies settings screen and click the **Manage Policies (1)** button.
+Policies can be applied to workspaces either **manually or automatically**.  
 
-![Manage Policies](../../.gitbook/assets/set-up-automated-workflows-apply-policy.png)
+### Apply Automatically
+
+Applying policies manually means that policies are automatically applied to workspaces based on the [Rules](../automated-workflows/policy-automation.md) you created and the conditions you set. 
+
+To ensure policies are automatically applied, open the Policies settings screen, navigate to the Apply Policies section, and click the **Apply Automatically with Rules button (1)**.
+
+This redirects you to the **Rules** screen in the Settings of your Syskit Point. 
+
+[For a detailed explanation of how Rules work and how to set them up, please read through our Rules article.](../automated-workflows/policy-automation.md) 
+
+![Apply Policies - Automatically](../../.gitbook/assets/set-up-automated-workflows-apply-policy-automatic.png)
+
+### Apply Manually
+
+Applying policies manually means you can select the workspaces to which you want a specific policy applied. 
+
+{% hint style="information" %}
+**If you have [Rules](../automated-workflows/policy-automation.md) set up**, when you automatically apply a policy to a workspace that already had a policy of the same type assigned via Rules, the policy that was automatically assigned will be replaced with the new manually applied policy. 
+
+{% endhint %}
+
+To start, open the Policies settings screen, navigate to the Apply Policies section, and click the Manually Apply Policies button.
+
+![Apply Policies - Manually](../../.gitbook/assets/set-up-automated-workflows-apply-policy-manual.png)
 
 The Manage Policies screen opens where you can:
 * **Find workspaces that don't have any policies applied (1)**; when the tile is clicked, the report only displays workspaces that have no policies applied
@@ -46,11 +70,20 @@ The Manage Policies screen opens where you can:
 
 After clicking the **Manage Policies (6)** button, the **Manage Policy** dialog opens, where you can **select a policy** and **apply** the chosen policy on the selected workspaces grouped by the policy type.
 
+{% hint style="information" %}
+
+When manually applying a policy, you **receive a warning** that it will replace any automatically assigned policies. The warning will still appear even if you do not have Rules set up.  
+
+{% endhint %}
+
 ![Manage Policies Dialog](../../.gitbook/assets/set-up-automated-workflows-apply-policy-dialog.png)
+
+
 
 {% hint style="success" %}
 **Once a policy is applied, Syskit Point automates detection for a policy vulnerability**. 
 {% endhint %}
+
 
 You can find an article on how to create or edit each policy here:
 * [**Minimum Number of Owners**](minimum-number-of-owners-admin.md)
@@ -59,3 +92,5 @@ You can find an article on how to create or edit each policy here:
 * [**Inactive Guest Users**](inactive-guest-users-admin.md)
 * [**Blocked Users with Assigned Licenses**](blocked-users-with-licenses-admin.md)
 * [**Orphaned Users**](orphaned-users-admin.md)
+* [**Shadow Users**](shadow-users-admin.md)
+
