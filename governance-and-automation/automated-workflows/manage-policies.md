@@ -32,23 +32,29 @@ Policies can be applied to workspaces either **manually or automatically**.
 
 ### Apply Automatically
 
-Applying policies manually means that policies are automatically applied to workspaces based on the [Rules](../automated-workflows/policy-automation.md) you created and the conditions you set. 
+Applying policies automatically means that policies are applied to workspaces via [Rules](../automated-workflows/policy-automation.md) you create and the conditions you set within them. 
 
 To ensure policies are automatically applied, open the Policies settings screen, navigate to the Apply Policies section, and click the **Apply Automatically with Rules button (1)**.
 
 This redirects you to the **Rules** screen in the Settings of your Syskit Point. 
 
-[For a detailed explanation of how Rules work and how to set them up, please read through our Rules article.](../automated-workflows/policy-automation.md) 
+[For a detailed explanation of how Rules work and how to set them up, please read through the Rules article.](../automated-workflows/policy-automation.md) 
 
 ![Apply Policies - Automatically](../../.gitbook/assets/set-up-automated-workflows-apply-policy-automatic.png)
 
 ### Apply Manually
 
+{% hint style="information" %}
+Rules can simplify policy assignments to workspaces by introducing conditions based on which the policies are automatically assigned. 
+This way, existing workspaces and new ones that will be created in the future are covered without any manual intervention.
+Where possible, we encourage you to use rules for applying policies. 
+[To learn how to upgrade from manually applied policies to rules, read this article](upgrade-to-policy-automation.md).
+{% endhint %}
+
 Applying policies manually means you can select the workspaces to which you want a specific policy applied. 
 
 {% hint style="information" %}
-**If you have [Rules](../automated-workflows/policy-automation.md) set up**, when you automatically apply a policy to a workspace that already had a policy of the same type assigned via Rules, the policy that was automatically assigned will be replaced with the new manually applied policy. 
-
+**If you have [Rules](../automated-workflows/policy-automation.md) set up**, when you manually apply a policy to a workspace that already had a policy of the same type assigned via Rules, the automatically assigned policy will be replaced with the new manually applied policy. 
 {% endhint %}
 
 To start, open the Policies settings screen, navigate to the Apply Policies section, and click the Manually Apply Policies button.
