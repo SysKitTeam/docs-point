@@ -62,7 +62,7 @@ To configure alerts, complete these steps:
 
 You can create your alerts based on the specific actions you want to keep track of. 
 
-[For more details on how to set up and customize alerts in Syskit Point, take a look at this article.](../reporting/schedule-reports-and-alerts.md) 
+[For more details on how to set up and customize alerts in Syskit Point, take a look at this article.](../../governance-and-automation/configure-alerts.md) 
 
 ## User Details Page
 
