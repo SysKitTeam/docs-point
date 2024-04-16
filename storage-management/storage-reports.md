@@ -132,7 +132,8 @@ Above the columns of the report, you can find:
 
 The following data will be displayed in the columns:
 
-* **Version Number**; the number of the version of the file.
+* **Version Number** of the file.
+  * The version number can be a Major version, which is represented by whole numbers (e.g., 1.0), or a Minor version, which is represented by decimal numbers (e.g., 1.3). If your document library is configured to use Check In/Check Out, every change made by a user with a checked-out document will create a minor version. On the other hand, lists usually only have Major versions.
 * **Created on**; the date the version of the file was created.
 * **Created by**; the person by whom this version of the file was created. 
 * **Size**; shows the size of the file version. 
