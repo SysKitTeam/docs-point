@@ -167,6 +167,7 @@
     * [Tenant Storage Limit](governance-and-automation/security-compliance-checks/tenant-storage.md)
     * [Workspaces with Too Many Members](governance-and-automation/security-compliance-checks/workspaces-with-too-many-members.md)
     * [Workspaces with Shadow Users](governance-and-automation/security-compliance-checks/workspaces-with-shadow-users.md)
+    * [Security and Compliance: Govern Screen](governance-and-automation/security-compliance-checks/govern-screen.mdd)
   * [Provisioning](governance-and-automation/provisioning/README.md)
     * [Set Up Provisioning](governance-and-automation/provisioning/set-up-provisioning.md)
     * [Enable or Disable Provisioning](governance-and-automation/provisioning/enable-disable-provisioning.md)
