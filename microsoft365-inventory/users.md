@@ -17,6 +17,7 @@ In the top left corner, **All Users** is automatically selected in the filter. C
   * All Users
   * Recently Added Users
   * External Users
+  * External Users (Inactive)
   * Administrators 
   * Licensed Users
   * Unlicensed Users
