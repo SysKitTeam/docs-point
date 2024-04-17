@@ -105,7 +105,7 @@ Each webhook event also sends two headers:
 
 To verify if the notification was sent by Syskit Point:
 * **Get the signature key via Syskit Point API**
-* **Create signature signature**
+* **Create signature**
 
 To get the signature key, send the following GET request.
 
@@ -113,14 +113,31 @@ To get the signature key, send the following GET request.
 
 **Response**
 
-Successful registration of the webhook endpoint results in response status 200.
+Successful request results in response status 200 and provides the Signature Authentication Key.
 
 {% tabs %}
 {% tab title="200" %}
 ```json
 {
-    Null
+    "webhooksSignatureAuthenticationKey": "158b08cc-6a06-49f2-a724-2bc514fdcf1e"
 }
 ```
 {% endtab %}
 {% endtabs %}
+
+**Create Signature**
+
+Below is the code example that can be used to create the signature which can then be compared with the one received in the event object to verify it was semt from Syskit Point.  
+
+```
+private static string generateSignature(string content, string authKey)
+{
+    var keyBytes = Encoding.UTF8.GetBytes(authKey);
+    var payloadBytes = Encoding.UTF8.GetBytes(content);
+
+    using var hmac = new HMACSHA256(keyBytes);
+    var hashBytes = hmac.ComputeHash(payloadBytes);
+    return Convert.ToBase64String(hashBytes);
+}
+```
+
