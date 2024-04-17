@@ -33,8 +33,6 @@ Use the following POST request to register a webhook endpoint via Syskit Point A
 
 {% tabs %}
 {% tab title="Example" %}
-
-
 ```json
 {
   "endpoint": "https://contoso.azurewebsites.net/api/Logger?code=o74oKsbrgHDI-RnekJXdbR3Fba7mZxEmJQNyCIpV6z-ZAzFuwnaWJg==",
@@ -98,12 +96,13 @@ Each webhook event also sends two headers:
 
 * **Signature**
   * Contains the signature of the message created by using the hashing algorithm provided in the Algorithm header using a signature key.
-* **Algorithm**&#x20;
+* **Algorithm**
   * The hashing algorithm which is used to create the message signature.
 
 ## Signature Validation
 
 To verify if the notification was sent by Syskit Point:
+
 * **Get the signature key via Syskit Point API**
 * **Create signature**
 
@@ -127,9 +126,9 @@ Successful request results in response status 200 and provides the Signature Aut
 
 **Create Signature**
 
-Below is the code example that can be used to create the signature which can then be compared with the one received in the event object to verify it was semt from Syskit Point.  
+Below is the code example that can be used to create the signature, which can then be compared with the one received in the event object to verify it was sent from Syskit Point.
 
-```
+```csharp
 private static string generateSignature(string content, string authKey)
 {
     var keyBytes = Encoding.UTF8.GetBytes(authKey);
@@ -140,4 +139,3 @@ private static string generateSignature(string content, string authKey)
     return Convert.ToBase64String(hashBytes);
 }
 ```
-
