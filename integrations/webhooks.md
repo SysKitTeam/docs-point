@@ -13,7 +13,7 @@ The following steps should be performed to successfully enable webhooks:
 
 ## Register Webhook Endpoint with Syskit Point API
 
-<mark style="color:green;">`POST`</mark> \{{baseURL\}}/v1.0/webhooks/endpoints
+<mark style="color:yellow;">`POST`</mark> \{{baseURL\}}/v1.0/webhooks/endpoints
 
 Use the following POST request to register a webhook endpoint via Syskit Point API
 
@@ -108,3 +108,19 @@ To verify if the notification was sent by Syskit Point:
 * **Create signature signature**
 
 To get the signature key, send the following GET request.
+
+<mark style="color:green;">`GET`</mark> \{{baseURL\}}/v1.0/options
+
+**Response**
+
+Successful registration of the webhook endpoint results in response status 200.
+
+{% tabs %}
+{% tab title="200" %}
+```json
+{
+    Null
+}
+```
+{% endtab %}
+{% endtabs %}
