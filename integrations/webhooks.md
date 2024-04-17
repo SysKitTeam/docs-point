@@ -103,3 +103,8 @@ Each webhook event also sends two headers:
 
 ## Signature Validation
 
+To verify if the notification was sent by Syskit Point:
+* **Get the signature key via Syskit Point API**
+* **Create signature signature**
+
+To get the signature key, send the following GET request.
