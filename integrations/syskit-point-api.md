@@ -114,7 +114,7 @@ The provided example is shown in the image below:
 
 ![GET Request to Syskit Point](../.gitbook/assets/syskit-point-api-get-request.png)
 
-## Syskit Point API Swagger Documentation
+## Syskit Point API Documentation
 
 To find more information about the Syskit Point API, navigate to the provided Swagger documentation. You can find it on the following URL:
 * `<YourSyskitPointBaseURL/swagger>`
