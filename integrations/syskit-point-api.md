@@ -76,9 +76,9 @@ Here, you can find an example of how to fetch the `access_token` using Postman.
 
 Create a new POST request:
 
-<mark style="color:yellow;">`POST`</mark> https://login.microsoftonline.com/<tenant-id>/oauth2/v2.0/token
+<mark style="color:yellow;">`POST`</mark> https://login.microsoftonline.com/\<tenant-id\>/oauth2/v2.0/token
 
-Replace the <tenant-id> in your request with your Directory (tenant) ID saved in the previous step.
+Replace the \<tenant-id\> in your request with your Directory (tenant) ID saved in the previous step.
 
 **Body**
 Include the following parameters in the request body
