@@ -68,6 +68,39 @@ Syskit Point can send the following types of events:
 | ProvisioningCompleted | Triggered when the Provisioning process completes. |
 | ProvisioningFailed    | Triggered when the Provisioning process fails.     |
 
+{% tabs %}
+{% tab title="ProvisioningStarted" %}
+```json
+{
+  "endpoint": "https://contoso.azurewebsites.net/api/Logger?code=o74oKsbrgHDI-RnekJXdbR3Fba7mZxEmJQNyCIpV6z-ZAzFuwnaWJg==",
+  "types": [
+    "*"
+  ]
+}
+```
+{% endtab %}
+{% tab title="ProvisioningCompleted" %}
+```json
+{
+  "endpoint": "https://contoso.azurewebsites.net/api/Logger?code=o74oKsbrgHDI-RnekJXdbR3Fba7mZxEmJQNyCIpV6z-ZAzFuwnaWJg==",
+  "types": [
+    "*"
+  ]
+}
+```
+{% endtab %}
+{% tab title="ProvisioningFailed" %}
+```json
+{
+  "endpoint": "https://contoso.azurewebsites.net/api/Logger?code=o74oKsbrgHDI-RnekJXdbR3Fba7mZxEmJQNyCIpV6z-ZAzFuwnaWJg==",
+  "types": [
+    "*"
+  ]
+}
+```
+{% endtab %}
+{% endtabs %}
+
 **Response**
 
 Successful registration of the webhook endpoint results in response status 200.
