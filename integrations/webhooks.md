@@ -94,6 +94,7 @@ Below, you can find examples for all types:
     url = @"url",
     microsoftId = "guid"
   }
+}
 ```
 {% endtab %}
 {% tab title="ProvisioningFailed" %}
