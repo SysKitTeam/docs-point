@@ -68,6 +68,8 @@ Syskit Point can send the following types of events:
 | ProvisioningCompleted | Triggered when the Provisioning process completes. |
 | ProvisioningFailed    | Triggered when the Provisioning process fails.     |
 
+Below, you can find examples for all types:
+
 {% tabs %}
 {% tab title="ProvisioningStarted" %}
 ```json
