@@ -74,30 +74,38 @@ Below, you can find examples for all types:
 {% tab title="ProvisioningStarted" %}
 ```json
 {
-  "endpoint": "https://contoso.azurewebsites.net/api/Logger?code=o74oKsbrgHDI-RnekJXdbR3Fba7mZxEmJQNyCIpV6z-ZAzFuwnaWJg==",
-  "types": [
-    "*"
-  ]
+  "ProvisioningStarted":  
+  {
+     name = "name",
+     type = "teams",
+     requestedOn = "datetime",
+     requesterId = "guid"
+  }
 }
 ```
 {% endtab %}
 {% tab title="ProvisioningCompleted" %}
 ```json
 {
-  "endpoint": "https://contoso.azurewebsites.net/api/Logger?code=o74oKsbrgHDI-RnekJXdbR3Fba7mZxEmJQNyCIpV6z-ZAzFuwnaWJg==",
-  "types": [
-    "*"
-  ]
-}
+  "ProvisioningCompleted": 
+  {
+    name = "name",
+    type = "teams",
+    url = @"url",
+    microsoftId = "guid"
+  }
 ```
 {% endtab %}
 {% tab title="ProvisioningFailed" %}
 ```json
 {
-  "endpoint": "https://contoso.azurewebsites.net/api/Logger?code=o74oKsbrgHDI-RnekJXdbR3Fba7mZxEmJQNyCIpV6z-ZAzFuwnaWJg==",
-  "types": [
-    "*"
-  ]
+  "ProvisioningFailed":  
+  {
+    name = "name",
+    type = "teams",
+    error = "error message",
+    correlationId = "correlationId"
+  }
 }
 ```
 {% endtab %}
