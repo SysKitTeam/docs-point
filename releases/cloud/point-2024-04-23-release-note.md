@@ -12,6 +12,19 @@ description: This article lists improvements and bug fixes in the Syskit Point 
 * **New to Syskit Point Cloud?** Explore Syskit Point Cloud with a 21-day [free trial](https://www.syskit.com/products/point/free-trial/) for an easy and effective way to manage and secure your environment.
 * **Already using Syskit Point Cloud?** Syskit Point Cloud is automatically upgraded to the latest version when available. The automatic update occurs outside working hours to ensure minimal interference with your day-to-day business.
 
+## New Features
+
+* **New options for integrating 3rd party apps and Syskit Point are available!**
+  
+  * Syskit Point offers 2 types of integration: **Syskit Point API and Webhooks**.
+    
+    * **Syskit Point API** is an interface that enables 3rd party apps to **access data available in Syskit Point** and **trigger operations in Syskit Point**.
+
+    * **Webhooks** are messages that Syskit Point **sends to another defined application when an important event occurs**.
+
+    * [For more details, please read through the articles listed in Integrations.](../../integrations/README.md)
+
+
 ## Improvements & Bug Fixes
 
 * **Improvements made to Reports!**
