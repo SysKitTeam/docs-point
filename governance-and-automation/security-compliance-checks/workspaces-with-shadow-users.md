@@ -41,7 +41,7 @@ Clicking the Accept Risk button opens the Accept Risk pop-up. To delay this viol
 ![Workspaces with Shadow Users - Accept Risk Action](../../.gitbook/assets/security-compliance-checks-shadow-users-accept-risk.png)
 
 
-To view and manage the shadow users for this workspace, click the **View Users button**.
+To view and manage the shadow users for this workspace, click the **View Users button** or the **name of the workspace**.
 
 This opens the Remove Access for Shadow users screen, where you can:
 
