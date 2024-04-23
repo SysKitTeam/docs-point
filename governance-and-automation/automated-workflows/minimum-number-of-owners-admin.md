@@ -4,6 +4,8 @@ description: This article explains how to set up the Minimum Number of Owners po
 
 # Minimum Number of Owners
 
+Syskit Point detects workspaces that don't have enough owners which can make your workspaces less secure and difficult to manage. 
+
 A predefined policy - **Minimum 2 Owners** - is located on the Policies screen. 
 Click the **Edit (1)** icon to view all defined options for the policy. 
 
@@ -23,5 +25,12 @@ The **Edit Policy** dialog opens where you can:
 
 ![Edit Policy Dialog](../../.gitbook/assets/set-up-automated-workflows-min-owners-dialog.png)
 
+{% hint style="info" %}
+
+**Please note:** By default, the Minimum Number of Owners Orphaned policy vulnerability is detected when there are less than 2 active owners assigned to a workspace. If there are no active owners assigned to a workspace, the [Orphaned Workspaces](../automated-workflows/orphaned-resources-admin.md) vulnerability is detected instead. 
+
+If less than 2 owners are assigned to a workspace in order to resolve the Orphaned Workspaces vulnerability, Syskit Point will then detect the Minimum Number of Owners vulnerability.
+
+{% endhint %}
 
 For details on how collaborators can [**resolve Minimum Number of Owners policy vulnerability tasks**, navigate to the following article](../../point-collaborators/resolve-governance-tasks/minimum-number-of-owners.md).
