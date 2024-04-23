@@ -28,9 +28,12 @@ The report itself provides information on:
 
 You can complete the following actions for the policy vulnerability:
   * **Accept Risk (7)** - this means you will close the policy vulnerability without making any changes to the current state of the workspace
+    * By selecting multiple workspaces, you can perform the bulk **Accept Risk action (7)**
   * **View Members (8)** - this opens the screen where you can view more details
 
 ![Workspaces with Too Many Members](../../.gitbook/assets/security-compliance-checks-workspaces-too-many-members.png)
+
+## Accept Risk
 
 Clicking the Accept Risk button opens the Accept Risk pop-up. To delay this violation, complete the following:
 
@@ -39,3 +42,17 @@ Clicking the Accept Risk button opens the Accept Risk pop-up. To delay this viol
   * **Click the Accept Risk button (2)** to finalize your decision.
 
 ![Workspaces with Too Many Members - Accept Risk](../../.gitbook/assets/security-compliance-checks-workspaces-too-many-members-accept-risk.png)
+
+
+## View Members
+
+Clicking the View Members button opens the workspace screen that shows a list of all members included in the workspace. 
+
+To remove members that are no longer needed, complete the following:
+
+  * **Select one or more users (1)** that you want to remove from the workspace.
+    * Clicking View Access for any individual user generates the User Access report for that user.
+  * **Click the Remove from Group button (2)** which opens the Remove from Microsoft 365 Group pop-up.
+  * To finalize, **click Remove** on the pop-up and the user is removed from the members list for that workspace. 
+
+![Workspaces with Too Many Members - View Members](../../.gitbook/assets/security-compliance-checks-workspaces-too-many-members-view-members.png)
