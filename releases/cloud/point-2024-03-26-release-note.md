@@ -27,7 +27,7 @@ Summarized policy vulnerability emails will be gradually rolled out, beginning w
 You can expect to see the improved emails in the upcoming month.
 {% endhint %}
 
-* **Storage Management gets new improvements!**
+* **Storage Management for SharePoint Online gets new improvements!**
   * **The Clean Up File Versions** action is now available on the Storage Metrics report when bulk selecting multiple workspaces! 
     * You can now select up to 500 workspaces at a time, run the Clean Up action, and free up your tenant storage even faster.
     * The following options are available when running the Clean Up action:

@@ -12,7 +12,7 @@ Point Cloud instances require no additional configuration for Storage Management
 
 ## Why is additional configuration needed for the Azure storage account? 
 
-Syskit Point introduced a new Storage Management feature; for it to work, additional configuration of your existing Point instance is needed. This functionality uses an API where the Microsoft backend software aggregates all the information into an XML file and saves it directly on your existing Storage account. For this to work, we generate a [SAS token](https://learn.microsoft.com/en-us/azure/storage/common/storage-sas-overview), which is passed to the Microsoft backend; Microsoft uses this token to write back the output manifest directly to your blobs. This token is generated with a limited lifetime and scope, and it is shared with Microsoft backend only.
+Syskit Point introduced the new Storage Management for SharePoint Online feature; for it to work, additional configuration of your existing Point instance is needed. This functionality uses an API where the Microsoft backend software aggregates all the information into an XML file and saves it directly on your existing Storage account. For this to work, we generate a [SAS token](https://learn.microsoft.com/en-us/azure/storage/common/storage-sas-overview), which is passed to the Microsoft backend; Microsoft uses this token to write back the output manifest directly to your blobs. This token is generated with a limited lifetime and scope, and it is shared with Microsoft backend only.
 
 {% hint style="information" %}
 **Please note:** No anonymous or unauthorized access is allowed to your Azure Blob Storage Container. Neither Syskit nor any other 3rd party can access your blobs. 

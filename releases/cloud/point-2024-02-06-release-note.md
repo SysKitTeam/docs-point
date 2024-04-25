@@ -45,7 +45,7 @@ description: >-
 * **The Remove Access action is now enabled** for users on the Sharing step - Users view - in the Access Review task.  
   * Multiselection of users is also enabled.
 
-Multiple improvements are available for the Storage Management feature:
+Multiple improvements are available for the Storage Management for SharePoint Online feature:
   * The **Storage tag was added to reports** related to Storage Management for easier filtering in the Report Center.
   * **Site Storage Metrics report** now has the Created On column added that can be selected from the column chooser. 
   * **Columns sort on reports** is now correctly displayed on the tenant-wide Storage Metrics report.
