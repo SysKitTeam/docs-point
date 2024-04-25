@@ -54,11 +54,12 @@ The following are available on the task screen:
 
 ![Policy Vulnerability History Screen](../../.gitbook/assets/minimum-number-of-owners-workflow-history.png)
 
+
 {% hint style="info" %}
 
 **Please note:** By default, the Minimum Number of Owners Orphaned policy vulnerability is detected when there are less than 2 active owners assigned to a workspace. If there are no active owners assigned to a workspace, the [Orphaned Workspaces](../automated-workflows/orphaned-resources-admin.md) vulnerability is detected instead. 
 
-If less than 2 owners are assigned to a workspace in order to resolve the Orphaned Workspaces vulnerability, Syskit Point will then detect the Minimum Number of Owners vulnerability.
+If 1 owner is assigned to a workspace when resolving the Orphaned Workspaces vulnerability, Syskit Point will then detect the Minimum Number of Owners vulnerability.
 
 {% endhint %}
 

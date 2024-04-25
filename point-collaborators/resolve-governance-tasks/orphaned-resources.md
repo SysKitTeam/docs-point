@@ -141,8 +141,8 @@ The following are available on the task screen:
 
 {% hint style="info" %}
 
-**Please note:** The Orphaned Workspaces policy vulnerability is detected when there are 0 active owners assigned to a workspace. If there are less than 2 minimum owners assigned to a workspace, the [Minimum Number of Owners policy](../../point-collaborators/resolve-governance-tasks/minimum-number-of-owners.md) vulnerability is detected. 
+**Please note:** The Orphaned Workspaces policy vulnerability is detected when there are 0 active owners assigned to a workspace. 
 
-This means that if you assign less than 2 active owners to a workspace, the Orphaned Workspaces vulnerability is resolved. However, the Minimum Number of Owners policy vulnerability will then be detected. To avoid this, please assign a minimum of 2 active owners to a workspace. 
+If 1 owner is assigned to a workspace when resolving the Orphaned Workspaces vulnerability, Syskit Point will detect the [Minimum Number of Owners policy](../../point-collaborators/resolve-governance-tasks/minimum-number-of-owners.md) vulnerability, as the default requirement is to have at least 2 owners per workspace. 
 
 {% endhint %}
