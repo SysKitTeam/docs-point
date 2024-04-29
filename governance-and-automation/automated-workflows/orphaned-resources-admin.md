@@ -4,6 +4,8 @@ description: This article explains how to set up the Orphaned Workspaces policy 
 
 # Orphaned Workspaces
 
+Syskit Point detects **workspaces that don't have active owners**, which helps you ensure there is always someone responsible for access and content management for your workspaces. 
+
 A predefined policy - **Orphaned Workspaces** - can be found on the Policies screen. 
 
 Click the **Edit (1)** icon to view all defined options for the policy. 
@@ -23,5 +25,13 @@ The **Edit Policy** dialog opens where you can:
 
 ![Edit Policy Dialog](../../.gitbook/assets/set-up-automated-workflows-orphaned-dialog.png)
 
+
+{% hint style="info" %}
+
+**Please note:** The Orphaned Workspaces policy vulnerability is detected when there are 0 active owners assigned to a workspace. 
+
+If 1 owner is assigned to a workspace when resolving the Orphaned Workspaces vulnerability, Syskit Point will detect the [Minimum Number of Owners policy](../../point-collaborators/resolve-governance-tasks/minimum-number-of-owners.md) vulnerability, as the default requirement is to have at least 2 owners per workspace. 
+
+{% endhint %}
 
 For details on how collaborators can [**resolve Orphanes Workspaces policy vulnerability tasks**, navigate to the following article](../../point-collaborators/resolve-governance-tasks/orphaned-resources.md).

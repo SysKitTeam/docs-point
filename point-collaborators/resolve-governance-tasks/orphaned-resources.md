@@ -139,3 +139,10 @@ The following are available on the task screen:
 * **Who and when resolved the policy vulnerability**
 * **View Details button** that opens the History screen in Syskit Point, showing all the activities that were performed within the workflow
 
+{% hint style="info" %}
+
+**Please note:** The Orphaned Workspaces policy vulnerability is detected when there are 0 active owners assigned to a workspace. 
+
+If 1 owner is assigned to a workspace when resolving the Orphaned Workspaces vulnerability, Syskit Point will detect the [Minimum Number of Owners policy](../../point-collaborators/resolve-governance-tasks/minimum-number-of-owners.md) vulnerability, as the default requirement is to have at least 2 owners per workspace. 
+
+{% endhint %}
