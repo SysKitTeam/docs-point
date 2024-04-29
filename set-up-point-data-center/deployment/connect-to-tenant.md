@@ -11,11 +11,13 @@ Before you continue, make sure to prepare the following:
 * **Microsoft 365 Global Admin account**
 
 {% hint style="warning" %}
-**Please note!**  
+**Please note!** 
 The Global Admin account is used only for the initial setup; Point does not store any passwords you enter here. Syskit Point upgrades do not need a Global Admin account.
 {% endhint %}
 
 ## Connect for the First Time
+
+When **connecting to a Microsoft 365 tenant for the first time, you are required to connect with a [Global Administrator account](../../requirements/permission-requirements.md#global-administrator).**
 
 Open the **Syskit Point Web App URL** in a browser to start the initial connection process.
 The **Register Syskit Point** page opens, guiding you through the initial connecting process:
@@ -43,8 +45,8 @@ To create the required app registration used by Syskit Point, do the following:
 * enter `Syskit Point Installer` in the **Name (2)** field 
 
 * select **Accounts in this organizational directory only (<TenantName> only - Single tenant)** option under **Supported account types (3)** 
- 
-* in the **Redirect URI** section, select the **Single-page Application (SPA) (4)** option and paste the **URL (5)** copied from the second step on the **Register Syskit Point** page  described in the previous section
+ 
+* in the **Redirect URI** section, select the **Single-page Application (SPA) (4)** option and paste the **URL (5)** copied from the second step on the **Register Syskit Point** page described in the previous section
 
 * click **Register (6)**
 
@@ -64,10 +66,11 @@ Copy the **Application (client) ID** and **Directory (tenant) ID** values, and p
 ## Consent
 
 After you provide information on the **Register Syskit Point** page and click the **Register** button, you will be prompted to sign in.
-Here, you need to provide a Microsoft 365 **Global Admin** account. This account will be used only for the initial setup; Syskit Point does not store any passwords you enter here. The Global Admin account will not be required in future Syskit Point upgrades.
+
+For this, **you need to use a Microsoft 365 Global Admin account**. This account will be used only for the initial setup; Syskit Point does not store any passwords you enter here. The Global Admin account will not be required in future Syskit Point upgrades.
 
 {% hint style="warning" %}
-**Why do I need to provide a global admin account?**  
+**Why do I need to provide a global admin account?** 
 You can find answers in the [following article](../../requirements/permission-requirements.md#microsoft-365).
 {% endhint %}
 
@@ -81,7 +84,7 @@ A new page opens where you can define additional connection settings.
 
 ## Connection Settings
 
-On the **Connect Tenant** page, you can choose which information would you like to collect when it comes to your Microsoft 365 environment:
+On the **Connect Tenant** page, you can choose which information you would like to collect when it comes to your Microsoft 365 environment:
 
 * **Automatic Discovery** – by default, Syskit Point continuously monitors your Microsoft 365 environment and shows you the latest data. You cannot modify this setting.
 * **Autodiscover OneDrive (1)** – by default, Syskit Point will collect information and report on the users' OneDrive activity, content, and sharing. To stop collecting OneDrive data, uncheck this option.
@@ -94,11 +97,11 @@ You can change connection options anytime from the **Settings** > **General** > 
 {% endhint %}
 
 {% hint style="warning" %}
-**Please note!**  
+**Please note!** 
 For Syskit Point to collect, process, and save audit logs, you must enable auditing in your tenant. [Navigate here to find out how to turn on auditing.](../../configuration/turn-on-auditing.md)
 {% endhint %}
 
-Click the **Connect (5)** button after defining the connection options. A new screen will open and show the progress of the initial connection. **Please do not refresh the page** as it will provide important information needed for troubleshooting in an unlikely event of an error. 
+Click the **Connect (5)** button after defining the connection options. A new screen will open and show the progress of the initial connection. **Please do not refresh the page** as it will provide important information needed for troubleshooting in the unlikely event of an error. 
 
 ![Connection Settings](../../.gitbook/assets/connect-to-tenant-settings.png)
 
