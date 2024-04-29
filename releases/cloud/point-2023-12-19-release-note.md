@@ -15,7 +15,7 @@ description: >-
 
 ## Features
 
-* **New updates added to the Storage Management feature**!
+* **New updates added to the Storage Management for SharePoint Online feature**!
     * When the storage cleanup actions take a while to complete, the progress can now be tracked. 
     * Collaborators can now access Storage Metrics reports for their workspaces. 
 

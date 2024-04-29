@@ -4,7 +4,7 @@ description:  This article describes how you can set up Storage Management in Sy
 
 # Configure Storage Management in Syskit Point
 
-The Syskit Point Storage Management feature helps you keep your environment clutter-free, optimize the usage of your storage, and gain insight into how your storage is distributed across your tenant.
+The Syskit Point Storage Management for SharePoint Online feature helps you keep your environment clutter-free, optimize the usage of your storage, and gain insight into how your storage is distributed across your tenant.
 
 For more information on this feature, [take a look at the Storage Management article](../storage-management/storage-reports.md). 
 

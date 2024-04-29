@@ -4,7 +4,7 @@ description: This article explains how to limit and manage your storage usage th
 
 # Limit Storage Usage
 
-An important part of Storage Management is limiting and keeping track of your storage usage.
+An important part of Storage Management for SharePoint Online is limiting and keeping track of your storage usage.
 
 This can be done by enabling the [Tenant Storage Limit policy](../governance-and-automation/automated-workflows/tenant-storage-admin.md). The policy can be automated, which means you'll [receive tasks](../point-collaborators/resolve-governance-tasks/tenant-storage-limit.md) based on the parameters you set up for the policy. When the policy is not automated, your tenant storage limit is still detected and used for the Security & Compliance checks. That way, you can still stay on top of the state of your tenant's storage without receiving tasks sent to you via email. 
 

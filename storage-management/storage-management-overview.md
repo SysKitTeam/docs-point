@@ -2,7 +2,7 @@
 description: This article explains how to manage and free up your storage on SharePoint sites.
 ---
 
-# Storage Management 
+# Storage Management for SharePoint Online 
 
 ## The Importance of Storage Management in Microsoft 365
 

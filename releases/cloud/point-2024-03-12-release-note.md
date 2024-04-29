@@ -21,7 +21,7 @@ description: >-
   * New predefined property is available - **Created On** - enabling you to utilize rules to apply governance policies to workspaces based on their creation date. 
   * [For more details about conditions, available properties, and operators, take a look at the conditions section of the Rules article.](../../governance-and-automation/automated-workflows/policy-automation.md#conditions)
 
-* **Storage Management gets new improvements!**
+* **Storage Management for SharePoint Online gets new improvements!**
   * **Views were added** to the Storage Metrics report:
     * **Largest Sites** view sorts the report based on site size.
     * **Potential Savings - Number of Versions** view sorts the report based on the amount of saved storage you can achieve with the Clean Up action, keeping the [defined number of file versions](../../configuration/configure-storage-management.md).
