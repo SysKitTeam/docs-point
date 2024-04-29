@@ -1,2 +1,2 @@
-# Storage Management
+# Storage Management for SharePoint Online 
 

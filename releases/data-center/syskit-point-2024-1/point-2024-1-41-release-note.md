@@ -24,7 +24,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 ## Improvements
 
-* **New updates added to the Storage Management feature**!
+* **New updates added to the Storage Management for SharePoint Online feature**!
     * When the storage cleanup actions take a while to complete, the progress can now be tracked. 
     * Collaborators can now access Storage Metrics reports for their workspaces. 
 
