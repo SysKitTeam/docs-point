@@ -16,7 +16,7 @@ bringing awareness of potential issues in their Microsoft 365 environment.
 
 On the Security & Compliance dashboard, click the **Workspaces with Too Many Members** button to see the report.
 
-The Orphaned Users screen opens, showing a list of all **workspaces that have too many members**, which means the workspace surpasses the member limit you set [for the policy](.././automated-workflows/workspaces-with-too-many-members-admin.md).
+The Workspaces with Too Many Members screen opens, showing a list of all **workspaces that have too many members**, which means the workspace surpasses the member limit you set [for the policy](.././automated-workflows/workspaces-with-too-many-members-admin.md).
 
 The report itself provides information on:
 * **Workspace (1)** name of the workspace
