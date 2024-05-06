@@ -16,11 +16,16 @@ description: >-
 ## New Features
 
 * **New policy available:** Private Workspaces Shared with Anyone
-  * **Private Workspaces Shared with Anyone** workspaces that have given access to a large number of users or groups. 
-  * A violation is detected **when access is given to dynamic security groups that are shared with a large number of people**: Everyone / Everyone except external users / All Users. 
-  * The violation can be resolved either by the admin accepting the risk or by removing access to security groups shared with Everyone / Everyone except external users / All User
-  * [For more details about the Private Workspaces Shared with Anyone policy settings, read this article.](../../governance-and-automation/automated-workflows/private-workspaces-shared-with-anyone-admin.md)
-  * [To find out more on how to resolve the detected vulnerability, read the related Security & Compliance report article](../../governance-and-automation/security-compliance-checks/private-workspaces-shared-with-anyone.md)
+
+  * **Private Workspaces Shared with Anyone** workspaces that have given access to a large number of users or groups. 
+
+  * A violation is detected **when access is given to dynamic security groups that are shared with a large number of people**: Everyone / Everyone except external users / All Users. 
+
+  * The violation can be resolved either by the admin accepting the risk or by removing access to security groups shared with Everyone / Everyone except external users / All User
+
+  * [For more details about the Private Workspaces Shared with Anyone policy settings, read this article.](../../governance-and-automation/automated-workflows/private-workspaces-shared-with-anyone-admin.md)
+
+  * [To find out more on how to resolve the detected vulnerability, read the related Security & Compliance report article](../../governance-and-automation/security-compliance-checks/private-workspaces-shared-with-anyone.md)
 
 
 
@@ -28,11 +33,11 @@ description: >-
 
 * **Improvements made to Provisioning!**
 
-  * **When creating or editing provisioning templates** admins can now add security groups and mail-enabled security groups to the Additional Site Collection Admins section.
+  * **When creating or editing provisioning templates** admins can now add security groups and mail-enabled security groups to the Additional Site Collection Admins section.
 
-  * **The SharePoint Site Provisioning template** now includes the option to Select a Language from the dropdown menu of available languages.
+  * **The SharePoint Site Provisioning template** now includes the option to Select a Language from the dropdown menu of available languages.
   
-  * **Fixed an issue** that prevented all policies from being logged when applying policies on Provisioning templates. 
+  * **Fixed an issue** that prevented all policies from being logged when applying policies on Provisioning templates. 
 
 * **Improved the display** of used storage data for each workspace to reflect the most accurate data. 
 
