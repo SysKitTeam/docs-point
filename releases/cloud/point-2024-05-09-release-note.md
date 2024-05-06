@@ -19,7 +19,11 @@ description: >-
 
   * **Private Workspaces Shared with Everyone** are private workspaces that have given access to a large number of users or groups. 
 
-  * A violation is detected **when access is given to dynamic security groups that are shared with a large number of people**: Everyone / Everyone except external users / All Users. 
+  * A violation is detected when:
+  
+    * **Access is given to dynamic security groups that are shared with a large number of people**: Everyone / Everyone except external users / All Users. 
+
+    * **A public workspace is changed to private** and a large number of people still have access or the workspace is still set to providing access to Everyone / Everyone except external users / All User
 
   * The violation can be resolved either by the admin accepting the risk or by removing access to security groups shared with Everyone / Everyone except external users / All User
 
