@@ -24,9 +24,9 @@ description: >-
   
     * **Access is given to dynamic security groups that are shared with a large number of people**: Everyone / Everyone except external users / All Users. 
 
-    * **A public workspace is changed to private** and a large number of people still have access or the workspace is still set to providing access to Everyone / Everyone except external users / All User
+    * **A public workspace is changed to private** and a large number of people still have access or the workspace is still set to providing access to Everyone / Everyone except external users / All Users.
 
-  * The violation can be resolved either by the admin accepting the risk or by removing access to security groups shared with Everyone / Everyone except external users / All User
+  * The violation can be resolved either by the admin accepting the risk or by removing access to security groups shared with Everyone / Everyone except external users / All Users.
 
   * [For more details about the Private Workspaces Shared with Everyone policy settings, read this article.](../../governance-and-automation/automated-workflows/private-workspaces-shared-with-everyone-admin.md)
 
