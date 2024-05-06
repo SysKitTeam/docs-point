@@ -17,7 +17,7 @@ description: >-
 
 * **New policy available:** Private Workspaces Shared with Everyone
 
-  * **Private Workspaces Shared with Everyone** workspaces that have given access to a large number of users or groups. 
+  * **Private Workspaces Shared with Everyone** are private workspaces that have given access to a large number of users or groups. 
 
   * A violation is detected **when access is given to dynamic security groups that are shared with a large number of people**: Everyone / Everyone except external users / All Users. 
 
