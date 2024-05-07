@@ -1,5 +1,5 @@
 ---
-description: >-
+description:
   This article lists improvements and bug fixes in the Syskit Point Cloud version 2024.3.48.11
 ---
 
