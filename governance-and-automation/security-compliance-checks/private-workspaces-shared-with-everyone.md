@@ -15,13 +15,13 @@ bringing awareness of potential issues in their Microsoft 365 environment.
 
 Private Workspaces Shared with Everyone are private workspaces **shared with a large number of users** through Everyone / Everyone except external users / All Users. 
 
-The policy can be applied to Microsoft Groups, Microsoft Teams, Sites, and OneDrive workspaces. 
+The policy can be applied to **private Microsoft 365 Groups, Microsoft Teams, Sites, and OneDrive** workspaces. 
 
 A **vulnerability is detected** when:
 
  * **Access is given to dynamic security groups that are shared with a large number of people**: Everyone / Everyone except external users / All Users. 
 
- * **A public workspace is changed to private** and a large number of people still have access, or the workspace is still set to providing access to Everyone / Everyone except external users / All Users.
+ * **A public workspace is changed to private**, and a large number of people still have access through dynamic security groups that provide access to Everyone / Everyone except external users / All Users.
 
 On the Security & Compliance dashboard, click the **Private workspaces shared with everyone** button to see the report.
 

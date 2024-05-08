@@ -4,7 +4,7 @@ description: This article explains how to edit the Private Workspaces Shared wit
 
 # Private Workspaces Shared with Everyone
 
-Syskit Point provides a predefined **Private Workspaces Shared with Everyone policy** that is applied tenant-wide.
+Syskit Point provides a predefined **Private Workspaces Shared with Everyone policy** that is applied tenant-wide to **private** Microsoft 365 Groups, Microsoft Teams, Sites and OneDrive.
 
 Oversharing workspaces might lead to **security risks, administration difficulty, and a challenge manging access control**.
 
