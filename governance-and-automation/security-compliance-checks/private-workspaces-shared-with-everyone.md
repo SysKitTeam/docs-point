@@ -4,7 +4,7 @@ description: This article provides information on the Private Workspaces Shared 
 
 # Private Workspaces Shared with Everyone
 
-Syskit Point detects private workspaces shared with everyone based on the settings defined in the tenant-wide [policy](../automated-workflows/private-workspaces-shared-with-everyone-admin.md). This helps you ensure your private workspaces are secure and only the users who should have access to the workspace have it. 
+Syskit Point detects private workspaces shared with Everyone, Everyone except external users, or All Users security groups based on the settings defined in the tenant-wide [policy](../automated-workflows/private-workspaces-shared-with-everyone-admin.md). This helps you ensure your private workspaces are secure and only the users who should have access to the workspace have it. 
 
 The Private Workspaces Shared with Everyone is **a tenant-wide policy, and it cannot have task delegation enabled**. That means no tasks are created to resolve this policy, and no emails are sent to collaborators.
 
@@ -13,19 +13,17 @@ The private workspaces shared with everyone **are still detected** as a part of 
 The purpose of this is to assist Syskit Point admins by
 bringing awareness of potential issues in their Microsoft 365 environment. 
 
-Private Workspaces Shared with Everyone are private workspaces **shared with a large number of users** through Everyone / Everyone except external users / All Users. 
-
-The policy is by default applied to **private Microsoft 365 Groups, Microsoft Teams, Sites, and OneDrive**. 
+The policy is applied to **private Microsoft 365 Groups, Microsoft Teams, Sites, and OneDrive** by default. 
 
 A **vulnerability is detected** when:
 
- * **Access is given to dynamic security groups that are shared with a large number of users**: Everyone / Everyone except external users / All Users. 
+ * **Access is given to dynamic security groups - Everyone, Everyone except external users, and All Users** - that contain a large number of users. 
 
  * **A public workspace is changed to private**, and a large number of users still have access through dynamic security groups - Everyone / Everyone except external users / All Users.
 
 On the Security & Compliance dashboard, click the **Private workspaces shared with everyone** button to see the report.
 
-The Private Workspaces Shared with Everyone screen opens, showing a list of all **private workspaces with access given to large number of users** through Everyone, Everyone except external users, or All Users security groups.
+The Private Workspaces Shared with Everyone screen opens, showing a list of all **private workspaces with access given to a large number of users** through Everyone, Everyone except external users, or All Users security groups.
 
 The report provides information on:
   * **Workspace (1)** name
