@@ -16,32 +16,22 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 ## New Features
 
 * **New policy available:** Private Workspaces Shared with Everyone
-
-  * **Private Workspaces Shared with Everyone** are private workspaces shared with a large number of users through Everyone / Everyone except external users / All Users security groups. 
-
-  * A vulnerability is detected when:
-  
-    * **Access is given to dynamic security groups that are shared with a large number of users**: Everyone / Everyone except external users / All Users. 
-
-    * **A public workspace is changed to private** and a large number of users still have access, meaning the workspace is providing access via Everyone / Everyone except external users / All Users security groups.
-
-  * The vulnerability can be resolved by the admin accepting the risk or removing access from Everyone / Everyone except external users / All Users security groups.
-
-  * [For more details about the Private Workspaces Shared with Everyone policy settings, read this article.](../../governance-and-automation/automated-workflows/private-workspaces-shared-with-everyone-admin.md)
-
-  * [To find out more on how to resolve the detected vulnerability, read the related Security & Compliance report article](../../governance-and-automation/security-compliance-checks/private-workspaces-shared-with-everyone.md)
+  * **Private Workspaces Shared with Everyone** are private workspaces shared with a large number of users through Everyone / Everyone except external users / All Users security groups. 
+  * A vulnerability is detected when:
+    * **Access is given to dynamic security groups that are shared with a large number of users**: Everyone / Everyone except external users / All Users. 
+    * **A public workspace is changed to private** and a large number of users still have access, meaning the workspace is providing access via Everyone / Everyone except external users / All Users security groups.
+  * The vulnerability can be resolved by the admin accepting the risk or removing access from Everyone / Everyone except external users / All Users security groups.
+  * [For more details about the Private Workspaces Shared with Everyone policy settings, read this article.](../../governance-and-automation/automated-workflows/private-workspaces-shared-with-everyone-admin.md)
+  * [To find out more on how to resolve the detected vulnerability, read the related Security & Compliance report article](../../governance-and-automation/security-compliance-checks/private-workspaces-shared-with-everyone.md)
 
 
 
 ## Improvements & Bug Fixes
 
 * **Improvements made to Provisioning!**
-
-  * **When creating or editing provisioning templates** admins can now add security groups and mail-enabled security groups in the Additional Site Collection Admins section.
-
-  * **The SharePoint Site Provisioning template** now includes the option to Select a Language from the dropdown menu of available languages.
-  
-  * **Fixed an issue** where the provisioning template dialog didn't correctly display previously selected governance policies.
+  * **When creating or editing provisioning templates** admins can now add security groups and mail-enabled security groups in the Additional Site Collection Admins section.
+  * **The SharePoint Site Provisioning template** now includes the option to Select a Language from the dropdown menu of available languages.
+  * **Fixed an issue** where the provisioning template dialog didn't correctly display previously selected governance policies.
 
 * **Improved the display** of used storage data for each workspace to reflect the most accurate data. 
 

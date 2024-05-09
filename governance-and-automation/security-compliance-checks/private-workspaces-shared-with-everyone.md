@@ -19,25 +19,25 @@ The policy is applied to **private Microsoft 365 Groups, Microsoft Teams, Sites,
 
 A **vulnerability is detected** when:
 
- * **Access is given to dynamic security groups - Everyone, Everyone except external users, and All Users** - that contain a large number of users. 
+* **Access is given to dynamic security groups - Everyone, Everyone except external users, and All Users** - that contain a large number of users. 
 
- * **A public workspace is changed to private**, and a large number of users still have access through dynamic security groups - Everyone / Everyone except external users / All Users.
+* **A public workspace is changed to private**, and a large number of users still have access through dynamic security groups - Everyone / Everyone except external users / All Users.
 
 On the Security & Compliance dashboard, click the **Private workspaces shared with everyone** button to see the report.
 
 The Private Workspaces Shared with Everyone screen opens, showing a list of all **private workspaces with access given to a large number of users** through Everyone, Everyone except external users, or All Users security groups.
 
 The report provides information on:
-  * **Workspace (1)** name
-  * **Detected (2)** - when the policy vulnerability was detected
-  * **Policy (3)** - the name of the policy
-  * **Rule (4)** - the name of the Rule if one was created to automatically apply the policy
-  * **Status (5)** - status of the policy vulnerability
-  * **Sensitivity Label (6)** - shows the sensitivity label if assigned
+* **Workspace (1)** name
+* **Detected (2)** - when the policy vulnerability was detected
+* **Policy (3)** - the name of the policy
+* **Rule (4)** - the name of the Rule if one was created to automatically apply the policy
+* **Status (5)** - status of the policy vulnerability
+* **Sensitivity Label (6)** - shows the sensitivity label if assigned
 
 Additionally, you can complete the following actions for the policy vulnerability:
-  * **Accept Risk (7)** - clicking this closes the policy vulnerability without making any changes to the current state of the workspace 
-    * You can select a time frame for how long the vulnerability should be ignored: 30 days, 90 days, 6 months, or 1 year. 
-  * **Remove Access (8)** - clicking this removes access to the selected workspace(s) for Everyone, Everyone except external users, and All Users security group
+* **Accept Risk (7)** - clicking this closes the policy vulnerability without making any changes to the current state of the workspace 
+  * You can select a time frame for how long the vulnerability should be ignored: 30 days, 90 days, 6 months, or 1 year. 
+* **Remove Access (8)** - clicking this removes access to the selected workspace(s) for Everyone, Everyone except external users, and All Users security group
 
 ![Private Workspaces Shared with Everyone](../../.gitbook/assets/security-compliance-checks-private-workspaces-everyone.png)
