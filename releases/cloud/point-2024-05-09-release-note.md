@@ -17,15 +17,15 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **New policy available:** Private Workspaces Shared with Everyone
 
-  * **Private Workspaces Shared with Everyone** are private workspaces shared with a large number of users through Everyone / Everyone except external users / All Users. 
+  * **Private Workspaces Shared with Everyone** are private workspaces shared with a large number of users through Everyone / Everyone except external users / All Users security groups. 
 
   * A vulnerability is detected when:
   
-    * **Access is given to dynamic security groups that are shared with a large number of people**: Everyone / Everyone except external users / All Users. 
+    * **Access is given to dynamic security groups that are shared with a large number of users**: Everyone / Everyone except external users / All Users. 
 
-    * **A public workspace is changed to private** and a large number of people still have access, or the workspace is still set to providing access to Everyone / Everyone except external users / All Users.
+    * **A public workspace is changed to private** and a large number of users still have access, meaning the workspace is providing access via Everyone / Everyone except external users / All Users security groups.
 
-  * The vulnerability can be resolved either by the admin accepting the risk or by removing access to security groups shared with Everyone / Everyone except external users / All Users.
+  * The vulnerability can be resolved by the admin accepting the risk or removing access from Everyone / Everyone except external users / All Users security groups.
 
   * [For more details about the Private Workspaces Shared with Everyone policy settings, read this article.](../../governance-and-automation/automated-workflows/private-workspaces-shared-with-everyone-admin.md)
 
@@ -37,7 +37,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Improvements made to Provisioning!**
 
-  * **When creating or editing provisioning templates** admins can now add security groups and mail-enabled security groups to the Additional Site Collection Admins section.
+  * **When creating or editing provisioning templates** admins can now add security groups and mail-enabled security groups in the Additional Site Collection Admins section.
 
   * **The SharePoint Site Provisioning template** now includes the option to Select a Language from the dropdown menu of available languages.
   
@@ -47,7 +47,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Added new columns** to the Security and Compliance section of the Govern feature: **Number of owners and Number of members**.
 
-* **Improved the Tenant Storage vulnerability email** to include the following storage-related data: defined storage tenant limit percentage, percentage, and size of used storage, and the total amount of available tenant storage.
+* **Improved the Tenant Storage vulnerability email** to include the following storage-related data: defined storage tenant limit percentage, used percentage, size of the used storage, and the total amount of available tenant storage.
 
 * **Fixed an issue** that showed workspace type icons as too large when using the old Outlook browser to view Security and Compliance vulnerability emails.
 
