@@ -4,7 +4,9 @@ description: This article provides information on the Private Workspaces Shared 
 
 # Private Workspaces Shared with Everyone
 
-Syskit Point detects private workspaces shared with Everyone, Everyone except external users, or All Users security groups based on the settings defined in the tenant-wide [policy](../automated-workflows/private-workspaces-shared-with-everyone-admin.md). This helps you ensure your private workspaces are secure and only the users who should have access to the workspace have it. 
+Syskit Point detects **private workspaces shared with Everyone, Everyone except external users, or All Users security groups** based on the settings defined in the tenant-wide [policy](../automated-workflows/private-workspaces-shared-with-everyone-admin.md). This helps you ensure your private workspaces are secure and only the users who should have access to the workspace have it. 
+
+Oversharing workspaces might lead to **security risks, administration difficulty, and a challenge managing access control**.
 
 The Private Workspaces Shared with Everyone is **a tenant-wide policy, and it cannot have task delegation enabled**. That means no tasks are created to resolve this policy, and no emails are sent to collaborators.
 
