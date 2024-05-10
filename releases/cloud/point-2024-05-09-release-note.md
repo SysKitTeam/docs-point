@@ -25,12 +25,12 @@ description: This article lists improvements and bug fixes in the Syskit Point C
   * [To find out more on how to resolve the detected vulnerability, read the related Security & Compliance report article](../../governance-and-automation/security-compliance-checks/private-workspaces-shared-with-everyone.md)
 
 
-
 ## Improvements & Bug Fixes
 
 * **Improvements made to Provisioning!**
   * **When creating or editing provisioning templates** admins can now add security groups and mail-enabled security groups in the Additional Site Collection Admins section.
   * **The SharePoint Site Provisioning template** now includes the option to Select a Language from the dropdown menu of available languages.
+    * **Please note!** After the upgrade, a message requesting you to edit the template shows next to the existing SharePoint Site provisioning templates. Under Manage, find the Edit Template action and verify that the correct language is selected. Continue to the last step and click the Update Template button to complete the update and remove the displayed warning message. 
   * **Fixed an issue** where the provisioning template dialog didn't correctly display previously selected governance policies.
 
 * **Improved the display** of used storage data for each workspace to reflect the most accurate data. 
