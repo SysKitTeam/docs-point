@@ -271,7 +271,7 @@ The Access Review cycle will repeat based on the schedule defined by the Syskit 
 
 * **Watch this short video for a quick start on Access Review tasks in Syskit Point**.
 
-{% embed url="https://vimeo.com/731363189/a68fb4c8a2" %}
+{% embed url="https://www.youtube.com/embed/Jku8GqPifvI?si=YpNBlu2TrLY47JCn" %}
 
 
 ## Related Topics

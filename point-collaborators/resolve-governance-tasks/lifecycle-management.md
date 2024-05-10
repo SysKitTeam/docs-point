@@ -120,7 +120,7 @@ They can be found on the **My Tasks screen** under the Active Lifecycle Manageme
 
 * **Watch this short video for a quick start on Lifecycle Management tasks in Syskit Point**.
 
-{% embed url="https://vimeo.com/714449776/441fb200e5" %}
+{% embed url="https://www.youtube.com/embed/VnUb48kjYeo?si=-DIiVUQbyH500A6o" %}
 
 
 ## Related Topics
