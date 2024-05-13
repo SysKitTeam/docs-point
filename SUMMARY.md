@@ -235,7 +235,7 @@
   * [Export Diagnostic Logs](troubleshooting/export-diagnostic-logs.md)
   * [Setup Diagnostic Logs Export](troubleshooting/setup-diagnostic-logs-export.md)
   * [Analytics and Usage Report Issues](troubleshooting/analytics-and-usage-report-issues.md)
-* [Explore Syskit Point for Site Owners/Collaborators](point-collaborators/README.md)
+* [Explore as Site Owners/Collaborators](point-collaborators/README.md)
   * [Syskit Point for Collaborators](point-collaborators/point-starter-kit-collaborators.md)
   * [Resolve Governance Tasks](point-collaborators/resolve-governance-tasks/README.md)
     * [My Tasks](point-collaborators/resolve-governance-tasks/my-tasks.md)
