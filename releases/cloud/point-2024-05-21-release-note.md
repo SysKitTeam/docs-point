@@ -16,9 +16,6 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes
 
-* **New action added to metadata:** Ask Owners to Manage Metadata.
-  * When selecting one or more workspaces, the Manage Metadata action now has the additional option to Ask Owners to Manage Metadata. 
-
 * **Improved sorting and filtering** on the Lifecycle Management History report for ease of use.  
   * The Status column has been divided into Action, Performed On, and Performed By. 
 
