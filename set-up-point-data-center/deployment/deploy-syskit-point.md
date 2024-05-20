@@ -10,7 +10,7 @@ Before you continue, make sure to read the [resource requirements article.](syst
 {% endhint %}
 
 Prepare the following for Syskit Point deployment:
-* **precreated Azure resource group** and **user credentials of a resource group owner**, or
+* **pre-created Azure resource group** and **user credentials of a resource group owner**, or
 * **user credentials of a user able to create a new Azure resource group**
 
 ## Azure Marketplace
@@ -29,18 +29,19 @@ Prepare the following for Syskit Point deployment:
 
 ## Azure Resources Deployment
 
-Before deploying Azure resources needed to run Syskit Point, you will be prompted to configure several options grouped into three tabs:
+Before deploying Azure resources needed to run Syskit Point, you will be prompted to configure several options grouped into four tabs:
 * **Basics**
 * **Web application settings**
-* **Azure SQL settings**
+* **Storage settings**
+* **Network configuration**
 
 The last available tab - **Review + create** - shows an overview of all configured options to check before the deployment is started.
 
 The **Basics** tab enables you to:
-* **select the Azure subscription (1)**
-* **select an existing** or **create a new resource group (2)** within which the Syskit Point resources will be created
-* **choose the Azure region (3)** where Syskit Point resources will be created
-* **click Next (4)** to proceed to the **Web application settings** tab
+* **Select the Azure subscription (1)**
+* **Select an existing** or **create a new resource group (2)** within which the Syskit Point resources will be created
+* **Choose the Azure region (3)** where Syskit Point resources will be created
+* **Click Next (4)** to proceed to the **Web application settings** tab
 
 ![Basics Tab](../../.gitbook/assets/deploy-syskit-point-basics.png)
 
@@ -49,7 +50,7 @@ On the **Web application settings** tab, you will need to define the following:
 * **Website Name (1)**; must be a unique name to create FQDN; the resulting Point web app URL will be: `{websiteName}.azurewebsites.net`
 * **Web Application Time Zone (2)**
 * **Web Service Tier (3)**
-* **click Next (4)** to continue with the **Storage settings** configuration
+* **Click Next (4)** to continue with the **Storage settings** configuration
 
 ![Web Application Settings Tab](../../.gitbook/assets/deploy-syskit-point-web-app-settings.png)
 
@@ -58,10 +59,10 @@ Define the following on the **Storage settings** tab:
 * **SQL Account (2)**
 * **SQL Password (3)**; enter the same password in the **Confirm SQL Password (4)** field
 * **Cosmos Tier (5)**
-* **click Next (6)** to move to the **Network configuration** tab
+* **Click Next (6)** to move to the **Network configuration** tab
 
 {% hint style="warning" %}
-**Please note!** This is mandatory in order to **provision a new SQL server** as this is a Microsoft requirement. Without the SQL credentials, it would not be possible to create the SQL server; however, after the initial deployment, the credentials will not be used again. The SQL authentification is disabled, and Managed Identity authentication will be used in the future. 
+**Please note!** This is mandatory to **provision a new SQL server** as this is a Microsoft requirement. Without the SQL credentials, it would not be possible to create the SQL server; however, after the initial deployment, the credentials will not be used again. The SQL authentication is disabled, and Managed Identity authentication will be used in the future. 
 {% endhint %}
 
 ![Azure SQL Settings Tab](../../.gitbook/assets/deploy-syskit-point-azure-sql-settings.png)
@@ -107,15 +108,15 @@ You can now **access Syskit Point by opening the Syskit Point web app URL in a b
 ## Syskit Point Web App URL
 
 To view the Syskit Point web app URL, do the following:
-* **navigate to the Overview screen** of the created resource group
-* **find and click the app service resource (1)**
-* **click the URL link (2)** available in the Essentials section on the app service's Overview screen
+* **Navigate to the Overview screen** of the created resource group
+* **Find and click the app service resource (1)**
+* **Click the URL link (2)** available in the Essentials section on the app service's Overview screen
 
 ![Azure Resource Group - App Service](../../.gitbook/assets/deploy-syskit-point-app-service.png)
 
 ![Syskit Point Web App URL](../../.gitbook/assets/deploy-syskit-point-url.png)
 
-Syskit Point web page opens.
+The Syskit Point web page opens.
 First, you will be prompted to [activate Syskit Point](../activation/activate-syskit-point.md)
 Once activated, Syskit Point will guide you through the process of [connecting to a tenant for the first time](connect-to-tenant.md). 
 
