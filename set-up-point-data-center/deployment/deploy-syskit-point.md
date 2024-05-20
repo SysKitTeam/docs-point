@@ -49,19 +49,16 @@ On the **Web application settings** tab, you will need to define the following:
 * **Website Name (1)**; must be a unique name to create FQDN; the resulting Point web app URL will be: `{websiteName}.azurewebsites.net`
 * **Web Application Time Zone (2)**
 * **Web Service Tier (3)**
-* **Background Services Tier (4)**
-* **Configuration Inventory Module (5)** - available options
-  * **Deploy** - Configuration Inventory module is deployed with Syskit Point; selected by default
-  * **Do not deploy** - Configuration Inventory module is not deployed
-* **click Next (6)** to continue with the **Azure SQL settings** configuration
+* **click Next (4)** to continue with the **Storage settings** configuration
 
 ![Web Application Settings Tab](../../.gitbook/assets/deploy-syskit-point-web-app-settings.png)
 
-Define the following on the **Azure SQL settings** tab:
+Define the following on the **Storage settings** tab:
 * **Azure SQL Tier (1)**
 * **SQL Account (2)**
 * **SQL Password (3)**; enter the same password in the **Confirm SQL Password (4)** field
-* **click Next (5)** to move to the **Review + create** tab
+* **Cosmos Tier (5)**
+* **click Next (6)** to move to the **Network configuration** tab
 
 {% hint style="warning" %}
 **Please note!** This is mandatory in order to **provision a new SQL server** as this is a Microsoft requirement. Without the SQL credentials, it would not be possible to create the SQL server; however, after the initial deployment, the credentials will not be used again. The SQL authentification is disabled, and Managed Identity authentication will be used in the future. 
@@ -72,11 +69,11 @@ Define the following on the **Azure SQL settings** tab:
 The **Network configuration** tab enables you to **configure virtual network** used by Syskit Point resources.
 Depending on your use case, you have **two options available**:
 * **Use the predefined virtual network configuration** - a new virtual network is created when deploying Syskit Point; no additional configuration is needed, and you can **proceed to the next step by clicking the Next button (1)**, or
-* **Create a new virtual network with custom settings by clicking the Create new option (2)**
+* **Customize the virtual network settings by clicking the Edit virtual network (2) option**
 
 ![Network Configuration Tab](../../.gitbook/assets/deploy-syskit-point-network-configuration.png)
 
-If you click the Create new option, a new screen appears where you can change the predefined settings:
+If you click the Edit virtual option, a new screen appears where you can change the predefined settings:
 * **Name (1)** of the virtual network
 * **Address range (2)**
 * **Names and address ranges (3)** for **Default**, **FE app service**, and **BE app service subnets**
@@ -93,9 +90,8 @@ If you decide to change the predefined values, **ensure that all subnets have 25
 ![Create Virtual Network Screen](../../.gitbook/assets/deploy-syskit-point-create-virtual-network.png)
 
 The **Review + create** tab shows the following information:
-* **Validation status (1)** showing whether all resources are correctly configured
-* **Configuration summary (2)** showing all options selected in previous steps
-* **Create button (3)**; once clicked, the deployment of Azure resources starts
+* **Configuration summary (1)** showing all options selected in previous steps
+* **Create button (2)**; once clicked, the deployment of Azure resources starts
 
 ![Review + create Tab](../../.gitbook/assets/deploy-syskit-point-review.png)
 
