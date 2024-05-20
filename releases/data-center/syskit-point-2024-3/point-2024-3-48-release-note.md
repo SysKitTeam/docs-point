@@ -46,7 +46,6 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 * **Improvements made to Reports!**
   * **Added the total number of unique external users in the workspace** to the Power BI Workspaces report.
     * The Power BI Permissions report can now be filtered by user type: internal or external.
-
   * **Added a new column** to the Scheduled Reports screen: Last Manual Run.
     * The column shows information on when the Send Now action was last executed.
   * **The Storage Metrics report** can now be exported and scheduled.
