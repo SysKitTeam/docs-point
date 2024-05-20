@@ -1,6 +1,5 @@
 ---
-description: >-
-  This article lists improvements and bug fixes in Syskit Point version 2024.3.48 
+description: This article lists improvements and bug fixes in Syskit Point version 2024.3.48 
 ---
 
 # Syskit Point 2024.3.48 
@@ -9,7 +8,7 @@ description: >-
 
 **Product version:** 2024.3.48 
 
-**Build number:** XX
+**Build number:** 41
 
 **Release date:** May 21, 2024
 
