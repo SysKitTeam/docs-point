@@ -24,6 +24,15 @@ description: This article lists improvements and bug fixes in the Syskit Point C
   * [For more details about the Private Workspaces Shared with Everyone policy settings, read this article.](../../governance-and-automation/automated-workflows/private-workspaces-shared-with-everyone-admin.md)
   * [To find out more on how to resolve the detected vulnerability, read the related Security & Compliance report article](../../governance-and-automation/security-compliance-checks/private-workspaces-shared-with-everyone.md)
 
+* **Change the appearance of Syskit Point!** 
+  * Syskit Point can now be **customized to showcase your company branding**.
+  * You can customize the following aspects of Syskit Point:
+    * **Logo** - your company logo can now appear in the left corner of Syskit Point
+    * **Banner** - the Sign in page for Syskit Point can show your official company banner
+    * **Colors** - define your brand colors and transform the interface of Syskit Point
+  * **Dark Mode** is now available for Syskit Point, so if you normally prefer dark mode, you can change the background of Syskit Point from the default white color to a darker shade. 
+  * [For more details on how to customize the look and feel of your Syskit Point, take a look at the Customize Appearance article.](../../configuration/customize-appearance.md)
+
 
 ## Improvements & Bug Fixes
 
