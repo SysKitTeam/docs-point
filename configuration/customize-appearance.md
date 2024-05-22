@@ -20,7 +20,7 @@ In this article, we will cover the following customizations.
 {% hint style="information" %}
 **Please note:** the changes you make to the **logo, banner, and colors** are a company-wide setting. It is visible to all users within your company who utilize Syskit Point. 
 
-**Dark Mode (Beta) is an individual setting**. It can be personalized depending on the individual using Syskit Point and is not applied company-wide.  
+**Dark Mode (Beta) is a per-user setting**, meaning that its state is saved for each user separately and is not applied company-wide.  
 {% endhint %}
 
 
