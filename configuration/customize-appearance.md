@@ -17,6 +17,13 @@ In this article, we will cover the following customizations.
 
 * [Dark Mode](#dark-mode)
 
+{% hint style="information" %}
+**Please note:** the changes you make to the **logo, banner, and colors** are a company-wide setting. It is visible to all users within your company who utilize Syskit Point. 
+
+**Dark Mode (Beta) is a per-user setting**, meaning that its state is saved for each user separately and is not applied company-wide.  
+{% endhint %}
+
+
 To change the look of your Syskit Point, first go to Settings > General and **click the Appearance button (1)** on the left side of the screen.
 
 ![Syskit Point - Appearance](../.gitbook/assets/customize-appearance.png)
