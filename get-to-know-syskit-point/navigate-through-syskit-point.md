@@ -78,8 +78,6 @@ Each overview screen comes with a set of predefined views to help you select the
 
 ## Custom Views
 
-If you are not satisfied with the predefined views, please [let us know](https://feedback.syskit.com/).
-
 As an easy workaround, you can add additional columns on your own with the help of **column chooser (1)** or **column filter (2)** each column to get the desired results.
 
 ![Syskit Point - Column Chooser and Column Filter](../.gitbook/assets/syskit-point-quick-start-guide-syskit-point-column-chooser-and-column-filter.png)
