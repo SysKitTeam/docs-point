@@ -15,7 +15,7 @@ The private workspaces shared with everyone **are still detected** as a part of 
 The purpose of this is to assist Syskit Point admins by
 bringing awareness of potential issues in their Microsoft 365 environment. 
 
-The policy is applied to **private Microsoft 365 Groups, Microsoft Teams, Sites, and OneDrive** by default. 
+The policy is applied to **private Microsoft 365 Groups, Microsoft Teams, and Sites** by default. 
 
 A **vulnerability is detected** when:
 
