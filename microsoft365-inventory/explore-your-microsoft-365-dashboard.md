@@ -27,7 +27,6 @@ The **Syskit Point** Dashboard shows Syskit Point administrators the following i
 The **Syskit Point** Dashboard shows Syskit Point collaborators the following information in the tiles:
  * Inventory
  * Users
- * Storage
  * External Collaboration
 
 
