@@ -16,8 +16,8 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes
 
-* **Improved sorting and filtering** on the Lifecycle Management History report for ease of use.  
-  * The Status column has been divided into Action, Performed On, and Performed By. 
+* **Improved sorting and filtering** on the Lifecycle Management History report for ease of use.
+  * The Status column has been divided into Action, Performed On, and Performed By. 
 
 * **Fixed an issue** that prevented a successful site sync if the site's document count was increased by more than 50% during the SaaS trial period. 
 
