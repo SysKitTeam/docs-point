@@ -16,13 +16,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes
 
-* **Improvements made to Storage Management for SharePoint Online!**
-  * **Storage Versioning Limits** are now available in the Syskit Point Settings for Storage Management. 
-    * Storage Versioning Limits help you limit the number of file versions kept in SharePoint document libraries.
-    * The versioning limit that can be set is either a **Count Limit or Time Limit**. 
-    * File versions are deleted after exceeding the number of versions or the time period that you set. 
-    * For more details on versioning limits, [take a look at this article.](../../storage-management/storage-management-overview.md#storage-versioning-limits)
-
+* **Improvements made to Storage Reports!**
   * **The Storage Metrics report** has a new column added - Version Limit - where you can see if a workspace has a Syskit Point or Microsoft 365 version limit assigned, as well as which version limit is applied to which workspace. 
   * **The Site Storage Metrics** report has a new column added - Last Modified - where you can see when a file was last modified.
 
