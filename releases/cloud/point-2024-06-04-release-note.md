@@ -20,10 +20,6 @@ description: This article lists improvements and bug fixes in the Syskit Point C
   * **The Storage Metrics report** has a new column added - Version Limit - where you can see if a workspace has a Syskit Point or Microsoft 365 version limit assigned, as well as which version limit is applied to which workspace. 
   * **The Site Storage Metrics** report has a new column added - Last Modified - where you can see when a file was last modified.
 
-* **The Private Workspaces Shared with Everyone** policy can now be resolved manually or resolved automatically.
-  * **Resolve Manually**: The vulnerability is flagged on the Security and Compliance Dashboard, where manual actions can be taken to resolve it. 
-  * **Resolve Automatically**: Syskit Point automatically resolves the vulnerability by removing access via Everyone / Everyone except external users / All users. 
-
 * When trying the Syskit Point demo version, you can now see the available actions on the **the Security & Compliance** vulnerability reports.
   * **Please note:** these actions are preview-only with Syskit Point demo data. To run these actions, your tenant needs to be connect to Syskit Point.
 
