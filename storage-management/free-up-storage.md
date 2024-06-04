@@ -69,6 +69,13 @@ Once you click the **Clean Up button** on the File Version Cleanup tile or the *
 
 ![Clean Up File Versions - Confirm](../.gitbook/assets/optimize-storage-site-storage-cleanup.png)
 
+
+{% hint style="information" %}
+**Please note**: If you do not permanantly delete files, they are sent to the site's Recycle bin for the defined retention period. The retention period for your site's Recycle bin depends on period you previously defined on SharePoint. For more details on this, [take a look at this Microsoft 365 article.](https://support.microsoft.com/en-us/office/manage-the-recycle-bin-of-a-sharepoint-site-8a6c2198-910e-42dc-9a9c-bc5bc4f327da)
+
+{% endhint %}
+
+
 ## Clean Up Action on File Storage Details report
 
 You can complete the cleanup on the File Storage details screen as well. To navigate there, repeat the above steps until you reach the Site Storage Metrics report. 
