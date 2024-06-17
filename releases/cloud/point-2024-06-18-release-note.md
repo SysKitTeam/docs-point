@@ -17,16 +17,17 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 ## Improvements & Bug Fixes
 
 * **Improvements made to the Private Workspaces Shared with Everyone policy!** 
-  * The Private Workspaces Shared with Everyone policy can now be resolved manually or automatically.
-    * **Resolve Manually**: The vulnerability is flagged on the Security and Compliance Dashboard, where manual actions can be taken to resolve it. 
-    * **Resolve Automatically**: Syskit Point automatically resolves the vulnerability by removing access via Everyone / Everyone except external users / All users. 
+  * The Private Workspaces Shared with Everyone policy can now be resolved manually or automatically.
+    * **Resolve Manually**: The vulnerability is flagged on the Security and Compliance Dashboard, where manual actions can be taken to resolve it. 
+    * **Resolve Automatically**: Syskit Point automatically resolves the vulnerability by removing access via Everyone / Everyone except external users / All users. 
+    * [For more details on the Private Workspaces Shared with Everyone policy, take a look at this article.](../../governance-and-automation/automated-workflows/private-workspaces-shared-with-everyone-admin.md)
 
 
 * **Improvements made to Reports!**
-  * **Sensitivity Label and Retention Label** columns are now available on the Site Structure report and can be selected from the column chooser. 
-  * **Reports now have a new Copilot Readiness tag.**
-    * You can now select Copilot Readiness from the filter categories on Reports and the search bar.
-  * **The Group Access report** no longer shows deleted Workspaces.
+  * **Sensitivity Label and Retention Label** columns are now available on the Site Structure report and can be selected from the column chooser. 
+  * **Reports now have a new Copilot Readiness tag.**
+    * You can now select Copilot Readiness from the filter categories on Reports and the search bar.
+  * **The Group Access report** no longer shows deleted workspaces.
 
 * **Fixed an issue** with saving the changes made in Settings for Syskit Point while WAF (web application firewall) is enabled. 
 
