@@ -44,10 +44,23 @@ The Create New Manual Storage Limit popup opens. There, you can select:
 
 Once you have created your storage versioning limits, **you can apply them manually** by selecting the workspaces yourself or **automatically** by creating a rule that continuously applies limits to existing and new workspaces that get created.
 
-* **Apply Automatically with Rules**
-  * Selecting this redirects you to **Rules**, where you can create rules that will continually apply the limit to existing and new workspaces
-  * [For details on how to create Rules, take a look at this article.](../governance-and-automation/automated-workflows/policy-automation.md)
+### **Apply Automatically with Rules**
+
+* Selecting this redirects you to **Rules**, where you can create rules that will continually apply the limit to existing and new workspaces
+* [For details on how to create Rules, take a look at this article.](../governance-and-automation/automated-workflows/policy-automation.md)
 
 
-* **Manually Apply Limits**
-  * Selecting this opens the Storage Metrics report where you can THERE IS MISSING ACTIONS, WILL COMPLETE WHEN THE ACTION IS AVAILABLE
+### **Manually Apply Limits**
+
+Selecting this opens the Storage Metrics report where you can:
+* **Set Version Limit (Tenant-Wide)(1)** by clicking the button on the right side of the screen
+  * **Clicking Set Version** Limit opens the pop-up where you can set the file version limit on the whole tenant for new document libraries
+  * The options available are Automatic & Manual  
+    * **Selecting Automatic (3)** means that file versions are deleted based on their activity and age, with the algorith keeping the most valuable versions
+    * **Selecting Manual (2)** means that file versions are deleted after exceeding the set number of versions and/or after a set period of time, based on the metrics you previously set 
+
+![Storage Versioning Limits - Create New](../.gitbook/assets/storage-versioning-limits-new-limit-create.png)
+
+* **Set Version Limit** on one or more sites by **select one or more workspaces (1)**
+* Click the **Set Version Limit (2)** button on the right side
+* This opens the Set Version Limit popup where you can set the file version limit on the selected workspace(s) for new document libraries
