@@ -21,16 +21,16 @@ This report lets you check if you are at risk of running out of storage so that 
 ### Generate Storage Metrics Report
 
  * **Click the Reports button** located on the left side of the screen.
- * **Select Cleanup & Health Check in the filter**; it can be found in the upper left corner.
+ * **Select Cleanup & Health Check in the filter**; you can find it in the upper left corner.
  * **Click the Storage Metrics report** to generate the report.
 
 ### Report Data
 
-Once the report is successfully generated, the following information is available:
+Once the report is generated successfully, the following information is available:
 
- * **The Tenant Storage tile** on the left side shows the percentage of used storage out of the total number of available storage for your tenant.
+ * **The Tenant Storage tile** on the left side shows the percentage of used storage out of the total available storage for your tenant.
  * **The Potential Savings tile** shows how much you can save by cleaning up File versions older than X months or All but the last X number of file versions.
-   * You can **set your own values for X** through Settings > Storage Management, which you can quickly access by **clicking the Settings button in the top right corner of the tile**
+   * You can **set your values for X** through Settings > Storage Management, which you can quickly access by **clicking the Settings button in the top right corner of the tile**
  * **The Storage Trend chart** shows a graph that depicts your storage usage across time over the last 180 days.
 
 
@@ -39,7 +39,7 @@ The following data will be displayed in the columns:
 * **Name**; the name of the site.
    * Clicking the name opens the Site Storage report for the selected workspaces.
 * **Size**; shows the size of the site.
-* **Last 180 Days**; shows the storage trend for a site during this period of time along with an arrow that signifies the growth or reduction. Hovering above it gives you a percentage of how much.
+* **Last 180 Days**; shows the storage trend for a site during this period along with an arrow that signifies the growth or reduction. Hovering above it gives you a percentage of how much.
    * By default, the Last 180 Days column is shown on the report, but the following views are also available: **Largest Growth in last 7 days, Largest Growth in last 30 days, Largest Growth in last 90 days**.
 * **State**; show the state of the site, whether it is active, archived, or other.
   * Keep in mind that soft deleted and archived sites also count towards your storage usage until they are permanently deleted. 
@@ -49,11 +49,11 @@ The following data will be displayed in the columns:
 * **Last Activity**; shows the date the last activity on the site happened.
 
 {% hint style="information" %}
-**Please note:** If the **Last Activity column is empty** for a workspace, it means that the last activity for that workspace was before Syskit Point was deployed, and older than the Microsoft 365 audit logs retention period. 
+**Please note:** If the **Last Activity column is empty** for a workspace, it means that the last activity for that workspace was performed before Syskit Point was deployed. Additionally, the activity is older than the Microsoft 365 audit logs retention period and can no longer be collected and processed by Syskit Point. 
 
 Storage data for workspaces is collected from the **date of your initial Syskit Point deployment**.
 
-**If your Point was deployed prior to the Storage Management feature** integration, the data is collected from the date you **update your Syskit Point version** to the one that contains the Storage Management feature. 
+**If your Point was deployed before the Storage Management feature** integration, the data is collected from the date you **update your Syskit Point version** to the one that contains the Storage Management feature. 
 
 {% endhint %}
 
@@ -61,7 +61,7 @@ Storage data for workspaces is collected from the **date of your initial Syskit 
 
 The Site Storage Metrics report displays your storage consumption across your sites over time.  
 
-The report lets you check on the amount of storage used by sites in your tenant. This makes it easier to maintain and organize your sites in order to optimize storage per site.
+The report lets you check the amount of storage used by sites in your tenant. This makes it easier to maintain and organize your sites to optimize storage per site.
 
 ### Generate Site Storage Report
 
@@ -114,7 +114,7 @@ The following data will be displayed in the columns:
 
 The File Storage Details report displays all of the versions of the selected file with the most important information about each of the versions.
 
-The report lets you check on the amount of storage used by files in your tenant. This makes it easier to keep track of and organize your content on specific sites in order to optimize storage.
+The report lets you check on the amount of storage used by files in your tenant. This makes it easier to track and organize your content on specific sites to optimize storage.
 
 ### Generate File Storage Details Report
 
@@ -144,7 +144,7 @@ The following data will be displayed in the columns:
 * **Version Number** of the file.
   * The version number can be a Major version, which is represented by whole numbers (e.g., 1.0), or a Minor version, which is represented by decimal numbers (e.g., 1.3). If your document library is configured to use Check In/Check Out, every change made by a user with a checked-out document will create a minor version. On the other hand, lists usually only have Major versions.
 * **Created on**; the date the version of the file was created.
-* **Created by**; the person by whom this version of the file was created. 
+* **Created by**; the person by whom this file version was created. 
 * **Size**; shows the size of the file version. 
 
 You can also **export this report as a PDF or Excel file**, or **schedule it**, to have it regularly delivered to your email. 
