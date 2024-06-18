@@ -17,8 +17,7 @@ This action redirects you to the well-known Microsoft Sign-in screen.
 Here, you have to enter your existing Microsoft 365 credentials.
 
 {% hint style="warning" %}
-**Please note!**  
-When signing in for the first time, using Global Administrator credentials and proceeding with [Role-based Access configuration](../configuration/enable-role-based-access.md) is advisable.
+**Please note!** When signing in for the first time, using Global Administrator credentials and proceeding with [Role-based Access configuration](../configuration/enable-role-based-access.md) is advisable.
 {% endhint %}
 
 After the sign-in, the Syskit Point Home screen opens.
@@ -29,14 +28,14 @@ The home screen is where everything in Syskit Point starts.
 
 You can see 8 major sections:
 
- * **Inventory** - shows the number of each type of workspace in your tenant; clicking View All opens the Sites Overview screen  
- * **Users** - shows the number of users in your environment; clicking View All opens the Users Overview screen
- * **Storage** - shows the amount of your used tenant's storage, as well as which workspaces utilize the storage; clicking View All opens the Storage Metrics report
- * **Security & Compliance** - shows the vulnerabilities in your environment through security and compliance checks; clicking View All opens the Security & Compliance checks dashboard
- * **External Collaboration** - shows a list and number for all external collaboration in your environment
- * **Active Access Review** - shows the progress of your active Access Review tasks; clicking View All opens the Govern Overview screen on the Scheduled Review section of the Access Review 
- * **Lifecycle Management** - shows the progress of your Lifecycle Management tasks; clicking View All opens the Govern Overview screen on the Overview section of Lifecycle Management
- * **Microsoft 365 Licenses** - shows an overview of your Microsoft 365 Licenses; clicking View All opens the Licenses Overview report
+* **Inventory** - shows the number of each type of workspace in your tenant; clicking View All opens the Sites Overview screen  
+* **Users** - shows the number of users in your environment; clicking View All opens the Users Overview screen
+* **Storage** - shows the amount of your used tenant's storage, as well as which workspaces utilize the storage; clicking View All opens the Storage Metrics report
+* **Security & Compliance** - shows the vulnerabilities in your environment through security and compliance checks; clicking View All opens the Security & Compliance checks dashboard
+* **External Collaboration** - shows a list and number for all external collaboration in your environment
+* **Active Access Review** - shows the progress of your active Access Review tasks; clicking View All opens the Govern Overview screen on the Scheduled Review section of the Access Review 
+* **Lifecycle Management** - shows the progress of your Lifecycle Management tasks; clicking View All opens the Govern Overview screen on the Overview section of Lifecycle Management
+* **Microsoft 365 Licenses** - shows an overview of your Microsoft 365 Licenses; clicking View All opens the Licenses Overview report
 
 On the left side of the screen, you will find buttons to access the following features:
 
@@ -54,9 +53,9 @@ To view a specific section, click the appropriate tile or button.
 
 The top right corner contains 3 additional buttons:
 
-  * **Notifications** - shows alerts and actions that occurred recently in your Syskit Point environment
-  * **Profile** - includes your profile details and contains buttons that lead to **Scheduled Reports** and **Alerts** as well as the **Sing Out** button
-  * **Help** - quick access to Syskit Point documentation, contact us form, and what's new dialog
+* **Notifications** - shows alerts and actions that occurred recently in your Syskit Point environment
+* **Profile** - includes your profile details and contains buttons that lead to **Scheduled Reports** and **Alerts** as well as the **Sing Out** button
+* **Help** - quick access to Syskit Point documentation, contact us form, and what's new dialog
 
 ## Navigation
 
@@ -64,7 +63,7 @@ There are multiple ways of navigating through the application.
 
 * **Main Navigation (1)** – click the Home orange circle to access the main sections of the application. 
 * **Back Button (2)** – takes you to the previous screen, the one that you were at before jumping to a different report. 
-* **Breadcrumbs (3)** – easily detect where you are currently located or move up the hierarchy/back to the parent. 
+* **Breadcrumbs (3)** – easily detect where you are currently located and, by clicking them, return back to the previous screen
 * **Drill (4)** – clicking on the objects takes you to a more detailed report about that workspace. 
 
 
