@@ -33,9 +33,10 @@ description: This article lists improvements and bug fixes in the Syskit Point C
     * Use these reports and checks to deal with overshared and inactive content and prepare your environment for Copilot.
   * **The Group Access report** no longer shows deleted workspaces when generated.
 
-* **The Security & Compliance Checks Dashboard** has two new columns added: New (Last 30 Days) and Resolved (Last 30 Days)
-  * The **New (Last 30 Days)** column shows the number of new vulnerabities detected per each policy in the last 30 days
-  * The **Resolved (Last 30 Days)** column shows the number of vulnerabities resolved per each policy in the last 30 days
+* **The Security & Compliance Checks Dashboard** has two new columns added: New (Last 30 Days) and Resolved (Last 30 Days).
+  * The **New (Last 30 Days)** column shows the number of new vulnerabities detected per each policy in the last 30 days.
+  * The **Resolved (Last 30 Days)** column shows the number of vulnerabities resolved per each policy in the last 30 days.
+    * The Resolved (Last 30 Days) column includes manually resolved vulnerabilities and those resolved automatically by Syskit Point. 
 
 * **Fixed an issue** with saving the changes made in Settings for Syskit Point while WAF (web application firewall) is enabled. 
 
