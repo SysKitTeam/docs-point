@@ -8,7 +8,7 @@ description: This article explains how to free up your storage on SharePoint sit
 **Please note!** If a certain site **has a hold or retention policy applied**, the Clean Up Storage action fails for that workspace, and storage is not freed. If a certain file has a hold or retention policy applied, that file is not cleaned up or deleted. 
 {% endhint %}
 
-Regularly cleaning up older file versions is the best way to optimize performance, improve collaboration, increase your cost efficiency, and ensure better data security. 
+Regularly cleaning up older file versions is the best way to optimize performance, improve collaboration, increase cost efficiency, and ensure better data security. 
 
 In Syskit Point, there are several ways you can free up space and complete the clean up action. 
 
@@ -25,18 +25,18 @@ Once the Storage Metrics Report is generated, complete the next steps:
   * **The Clean Up File Versions action (2)** is now available on the right side of the screen.
   * **Clicking the arrow** next to the Clean Up File versions action provides several clean up actions:
     * **Old File Versions (3)** - lets you clean up old file versions based on the value you set up in Settings.
-    * **Number of File Versions (4)** - lets you clean up a number of old file versions based on the value you set up in Settings.
-      * For more details on setting up these values, take a look at the [Configure Storage Management article](../configuration/configure-storage-management.md).
+    * **Number of File Versions (4)** - lets you clean up several old file versions based on the value you set up in Settings.
+      * For more details on setting up these values, look at the [Configure Storage Management article](../configuration/configure-storage-management.md).
     * **All but the last file versions (5)** - lets you clean up all versions of the files, except for the most recent one. Clean Up Action on Site Storage Metrics Report
 
 {% hint style="information" %}
-**Please note**: Completing the cleanup action from the Storage Metrics report cleans up all files that are located at the selected site or sites. Freeing up space from one specific file or files on the site is possible from the [Site Storage Metrics](#clean-up-action-on-site-storage-metrics-report) and [File Storage Details](#clean-up-action-on-site-storage-metrics-report) reports.
+**Please note**: Completing the cleanup action from the Storage Metrics report cleans up all files located at the selected site or sites. Freeing up space from one specific file or files on the site is possible from the [Site Storage Metrics](#clean-up-action-on-site-storage-metrics-report) and [File Storage Details](#clean-up-action-on-site-storage-metrics-report) reports.
 {% endhint %}
 
 ![Storage Metrics Report- Clean Up File Versions](../.gitbook/assets/optimize-storage-storage-metrics-report-cleanup.png)
 
 * **Clicking any of the Clean Up options opens the Clean Up File Versions pop-up (1)**
-  * The information on the pop-up slightly varies depending whether you're cleaning up file versions older than X months, cleaning up all but the last X file versions or cleaning up all but the latest file version, however the options available for the clean up are the same.
+  * The information on the pop-up slightly varies depending on whether you're cleaning up file versions older than X months, cleaning up all but the last X file versions, or cleaning up all but the latest file version; however, the options available for the clean up are the same.
 * To premanantly delete the file(s), check the **Permanantly delete checkbox (2)**; doing this instantly frees up space for your site.
     * If the checkbox is not selected, the file(s) are sent to the site's Recycle bin for the defined retention period; doing this does not instantly free up space for your site, and the space is only cleared once the file(s) are removed from recycle bin. 
 * **Type Clean Up (3)** in the the available space to proceed.
@@ -50,7 +50,7 @@ You can complete the clean up action from the Site Storage Metrics report by doi
   * When the Storage Metrics Report is generated, **click the name of the site** you want to remove storage from. This opens the **Site Storage Metrics report**.
   * **Click the Report button** on the left of the screen and **select Storage from the dropdown menu**. There, you can **click the Site Storage Metrics report** to access it. 
 
-There are three different ways to clean up the storage space across your sites. 
+There are three ways to clean up the storage space across your sites. 
 
  * In the File Version Cleanup tile, you can:
    * **Choose to Clean Up file versions older than X month(s) (2)**
@@ -62,7 +62,7 @@ There are three different ways to clean up the storage space across your sites.
 ![Site Storage Metrics Report- Clean Up File Versions](../.gitbook/assets/optimize-storage-site-storage-metrics-report-cleanup.png)
 
 Once you click the **Clean Up button** on the File Version Cleanup tile or the **Clean Up File Versions button** in the Manage section, a **Clean Up File Versions pop-up opens (1)**.
-  * To premanantly delete the file(s), check the **Permanantly delete checkbox (2)**; doing this instantly frees up space for your site.
+  * To permanently delete the file(s), check the **Permanantly delete checkbox (2)**; doing this instantly frees up space for your site.
     * If the checkbox is not selected, the file(s) are sent to the site's Recycle bin for the defined retention period; doing this does not instantly free up space for your site, and the space is only cleared once the file(s) are removed from recycle bin. 
   * **Type Clean Up (3)** in the the available space to proceed.
   * **Click the Clean Up button (4)** to finalize.
@@ -71,7 +71,7 @@ Once you click the **Clean Up button** on the File Version Cleanup tile or the *
 
 
 {% hint style="information" %}
-**Please note**: If you do not permanantly delete files, they are sent to the site's Recycle bin for the defined retention period. The retention period for your site's Recycle bin depends on period you previously defined on SharePoint. For more details on this, [take a look at this Microsoft 365 article.](https://support.microsoft.com/en-us/office/manage-the-recycle-bin-of-a-sharepoint-site-8a6c2198-910e-42dc-9a9c-bc5bc4f327da)
+**Please note**: If you do not permanently delete files, they are sent to the site's Recycle bin for the defined retention period. The retention period for your site's Recycle bin depends on the period you previously defined in SharePoint. For more details on this, [take a look at this Microsoft 365 article.](https://support.microsoft.com/en-us/office/manage-the-recycle-bin-of-a-sharepoint-site-8a6c2198-910e-42dc-9a9c-bc5bc4f327da)
 
 {% endhint %}
 
@@ -91,5 +91,5 @@ From there:
 **Hint!** The latest version is never deleted, even if you select all versions and run the Delete Version or Clean Up File Versions action.
 {% endhint %}
 
-You can also remove storage directly from SharePoint by clicking the **link in the Storage Metrics URL column**. 
+You can also manage storage directly from SharePoint by clicking the **link in the Storage Metrics URL column**. 
   * The SharePoint site-specific Storage Metrics report opens in your browser.
