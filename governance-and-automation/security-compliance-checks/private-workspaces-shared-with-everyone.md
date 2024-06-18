@@ -10,9 +10,9 @@ Oversharing workspaces might lead to **security risks, administration difficulty
 
 The Private Workspaces Shared with Everyone is **a tenant-wide policy and can be automated without task delegation**. That means no tasks are created to resolve this policy, and no emails are sent to collaborators. 
 
-By default, the Private Workspaces Shared with Everyone policy is set to Resolve Manually, which means you can manually resolve the policy vulnerability on the Security & Compliance Dashboard when it is detected. 
+By default, the Private Workspaces Shared with Everyone policy is set to **Resolve Manually**, which means the vulnerability is flagged on the Security and Compliance Dashboard, where manual actions can be taken to resolve it. 
 
-If the policy is set to **Resolve Automatically**, Syskit Point **automatically resolves the vulnerability** by removing access via Everyone / Everyone except external users / All users. 
+If the policy is set to **Resolve Automatically**, Syskit Point **automatically resolves the vulnerability** by removing access granted to Everyone, Everyone except external users, and All users groups. 
 
 The private workspaces shared with everyone **are still detected** as a part of the Security and Compliance checks feature. **This means that Syskit Point detects a vulnerability in a workspace** based on the applied policy, but it does not create tasks or send any emails to collaborators. 
 

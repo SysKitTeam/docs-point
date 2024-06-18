@@ -22,8 +22,8 @@ The **Edit Policy** dialog opens where you can select:
     * Medium
     * Low
 * How to **resolve a vulnerability when it's detected.** The options are:
-  * **Resolve Manually (2)**: Selecting this detects the vulnerability and shows it on the Security and Compliance Dashboard, where manual actions can be taken to resolve it. 
-  * **Resolve Automatically (3)**: Selecting this means that Syskit Point automatically resolves the vulnerability by removing access via Everyone / Everyone except external users / All users. 
+  * **Resolve Manually (2)**: Selecting this flags the vulnerability on the Security and Compliance Dashboard, where manual actions can be taken to resolve it.
+  * **Resolve Automatically (3)**: Selecting this means that Syskit Point automatically resolves the vulnerability by removing access granted to Everyone, Everyone except external users, and All users groups. 
   * By **default**, the policy is set as **Resolve Manually**. 
 
 Once you've selected the one that best suits your needs for this policy, **click the Save button (4)** to store your preference. 
