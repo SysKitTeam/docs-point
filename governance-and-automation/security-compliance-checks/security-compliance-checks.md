@@ -10,24 +10,24 @@ Collecting all the important info about the security and compliance state of you
 
 {% hint style="information" %}
 **Please note:** The Security and Compliance checks **email is sent to Syskit Point admins weekly**, on Wednesdays. 
-  * If there are no vulnerabilities in your environment, there is no email sent. 
-  * If Wednesday is less than 2 days from your installation date, the email will be sent next week. 
+* If there are no vulnerabilities in your environment, there is no email sent. 
+* If Wednesday is less than 2 days from your installation date, the email will be sent next week. 
 
 {% endhint %}
 
 
 When you acquire SysKit Point, a **[default rule](../../governance-and-automation/automated-workflows/policy-automation.md#default-rule) will automatically apply default governance policies to your workspaces**. 
-  * **The default policies are configured to detect vulnerabilities without sending any emails or creating any tasks**.
-  * **All vulnerabilities detected by Syskit Point are displayed on the Security & Compliance Dashboard**
-  * **Both the vulnerabilities detected by default policies, as well as the policies created by Syskit Point admins, are displayed on the Security & Compliance Dashboard**
+* **The default policies are configured to detect vulnerabilities without sending any emails or creating any tasks**.
+* **All vulnerabilities detected by Syskit Point are displayed on the Security & Compliance Dashboard**
+* **Both the vulnerabilities detected by default policies, as well as the policies created by Syskit Point admins, are displayed on the Security & Compliance Dashboard**
 
 ## Security & Compliance Dashboard
 On the home Dashboard, you can click and drill down to a specific report to investigate further by **clicking the View All button**.
 
 On your home screen, you can see the number of:
-  * **High-risk** vulnerabilities
-  * **Medium-risk** vulnerabilities
-  * **Low-risk** vulnerabilities
+* **High-risk** vulnerabilities
+* **Medium-risk** vulnerabilities
+* **Low-risk** vulnerabilities
 
 You are also able to apply policies manually or [set up policy rules](../../governance-and-automation/automated-workflows/policy-automation.md) if you haven't already by clicking the **Manage Policies button**. 
 
@@ -69,15 +69,15 @@ To keep all vulnerabilities **under control proactively and prevent possible iss
 
 Take a look at the following articles to learn how to settle your security and compliance checks: 
 
- * [**Inactive Guest Users**](../security-compliance-checks/inactive-guest-users.md)
- * [**Blocked users with assigned licenses**](../security-compliance-checks/blocked-users-assigned-license.md)
- * [**Orphaned workspaces** ](../security-compliance-checks/orphaned-workspaces.md)
- * [**Workspaces with not enough owners**](../security-compliance-checks/workspaces-not-enough-owners.md)
- * [**Orphaned users**](../security-compliance-checks/orphaned-users.md)
- * [**Workspaces with too many owners**](../security-compliance-checks/inactive-guest-users.md)
- * [**Tenant Storage Limit**](../security-compliance-checks/tenant-storage.md)
- * [**Workspaces with too many members**](../security-compliance-checks/workspaces-with-too-many-members.md)
- * [**Workspaces with shadow users**](../security-compliance-checks/workspaces-with-shadow-users.md)
+* [**Inactive Guest Users**](../security-compliance-checks/inactive-guest-users.md)
+* [**Blocked users with assigned licenses**](../security-compliance-checks/blocked-users-assigned-license.md)
+* [**Orphaned workspaces** ](../security-compliance-checks/orphaned-workspaces.md)
+* [**Workspaces with not enough owners**](../security-compliance-checks/workspaces-not-enough-owners.md)
+* [**Orphaned users**](../security-compliance-checks/orphaned-users.md) 
+* [**Workspaces with too many owners**](../security-compliance-checks/inactive-guest-users.md)
+* [**Tenant Storage Limit**](../security-compliance-checks/tenant-storage.md)
+* [**Workspaces with too many members**](../security-compliance-checks/workspaces-with-too-many-members.md)
+* [**Workspaces with shadow users**](../security-compliance-checks/workspaces-with-shadow-users.md)
 
 {% hint style="warning" %}
 **Please note!**  
