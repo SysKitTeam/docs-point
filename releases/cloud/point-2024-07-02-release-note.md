@@ -21,7 +21,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
   * The following is counted for the Copilot Readiness: 
     * Number of vulnerabilities detected for the Workspaces with Too Many Members, Workspaces with Shadow Users, and Workspaces Shared with Everyone policies.
     * The Group Access and Sharing Links reports
-    * The number of company-wide sharing links and links share with everyone
+    * The number of company-wide sharing links and links shared with everyone
     * The number of public workspaces
 
 * **Improvements made to Storage Management for SharePoint Online!**
