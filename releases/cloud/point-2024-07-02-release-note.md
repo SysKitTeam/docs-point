@@ -49,9 +49,9 @@ description: This article lists improvements and bug fixes in the Syskit Point C
     * The action log now notifies you that the clean-up action could not be performed on the workspace due to a hold or retention period assigned to it. 
   * **Fixed a bug** that allowed Global Viewers to perform Storage clean-up actions. 
 
-* **Added the option** to hide the Workspace name from the URL link and e-mails. 
+* **Added the option** to hide the Workspace name from the URL link and e-mails when creating Provisioning templates. 
   * When the option is enabled, the URL and e-mail contain a number identifier (6-10 characters) instead of the workspace name.
-  * For more details, [please take a look at the XXXX article.](../../storage-management/LINK)
+  * For more details, [please take a look at this article.](../../governance-and-automation/provisioning/hide-workspace-name.md)
 
 * **Improvements made to the Lifecycle Management** feature when selecting to keep workspaces.
   * The default period is now set for 90 days, if the keep action is selected and the maximum limit is set to indefinitely.
