@@ -188,6 +188,7 @@
     * [Approval Processes](governance-and-automation/provisioning/approval-processes.md)
     * [Approve/Reject Requests](governance-and-automation/provisioning/approve-reject-requests.md)
     * [Manage Requests](governance-and-automation/provisioning/manage-requests.md)
+    * [Hide Workspace Name](governance-and-automation/provisioning/hide-workspace-name.md)
   * [Access Requests](governance-and-automation/access-requests/README.md)
     * [Set Up Access Requests](governance-and-automation/access-requests/set-up-access-requests.md)
     * [Create Access Requests](governance-and-automation/access-requests/create-access-requests-policy.md)
