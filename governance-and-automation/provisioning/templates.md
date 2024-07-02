@@ -113,13 +113,13 @@ When creating a template for Microsoft Teams, you will need to define the follow
   * Allow end users to edit URL
     * Selecting this lets workspace owners and end users edit the URL based on their preference
   * Hide workspace name from URL
-    * Selecting this hides the workspace name from the URL, which means when the workspace is created, instead of the workspace name, the URL consists of a number identifier (6-10 randomly generated numbers)
+    * Selecting this hides the workspace name from the URL, which means when the workspace is created, instead of the workspace name, the URL contains a number identifier (6-10 randomly generated numbers)
   * Customize URL prefix/suffix
     * Selecting this gives the ability to change the URL prefix and suffix
   * [For more details on this, take a look at this article.](../provisioning/hide-workspace-name.md)
 * **Customize E-mail (15)** - with this, you decide how the e-mail of the workspace will look like once the workspace is created
   * Hide workspace name from E-mail
-    * Selecting this hides the workspace name from e-mail of the created workspace, which means that instead of the workspace name, the e-mail consists of a number identifier (6-10 characters)
+    * Selecting this hides the workspace name from e-mail of the created workspace, which means that instead of the workspace name, the e-mail contains a number identifier (6-10 characters)
   * Customize e-mail prefix/suffix
     * Selecting this gives the ability to change the e-mail prefix and suffix
   * [For more details on this, take a look at this article.](../provisioning/hide-workspace-name.md)
