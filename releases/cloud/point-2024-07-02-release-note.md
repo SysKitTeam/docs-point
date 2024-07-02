@@ -13,7 +13,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Already using Syskit Point Cloud?** Syskit Point Cloud is automatically upgraded to the latest version when available. The automatic update occurs outside working hours to ensure minimal interference with your day-to-day business.
 
-## New Feature
+## New Features
 
 * **New Copilot Readiness tile available on the Dashboard!**
   * With the help of the Copilot Readiness score, **you can easily detect areas of improvement or potential security concerns as you prepare to integrate Copilot** into your day-to-day business.
@@ -36,7 +36,12 @@ description: This article lists improvements and bug fixes in the Syskit Point C
       * Without Activity in the Last 90 Days
       * Without Activity in the Last 180 Days
       * Without Activity in the Last 365 Days 
-    * These views show **workspaces that have not had activity registered or have not been modified** in the selected time period. 
+    * These views show **workspaces that have not had activity registered or have not been modified** in the selected time frame. 
+
+  * **Added the option to hide the Workspace name from the URL link and e-mails when creating Provisioning templates**. 
+    * When the option is enabled, the URL and e-mail contain a number identifier (6-10 characters) instead of the workspace name.
+    * Hiding the workspace name from the URL or e-mail can be useful when dealing with confidential workspaces where you don't want to disclose any information, even in the URL or e-mail. Additionally, if you think a workspace name will change with time, you can use this option and have a unique URL and e-mail that doesn't have to change with future changes.
+    * For more details, [please take a look at this article.](../../governance-and-automation/provisioning/hide-workspace-name.md)
 
 
 ## Improvements & Bug Fixes
@@ -49,23 +54,20 @@ description: This article lists improvements and bug fixes in the Syskit Point C
     * The action log now notifies you that the clean-up action could not be performed on the workspace due to a hold or retention period assigned to it. 
   * **Fixed a bug** that allowed Global Viewers to perform Storage clean-up actions. 
 
-* **Added the option** to hide the Workspace name from the URL link and e-mails when creating Provisioning templates. 
-  * When the option is enabled, the URL and e-mail contain a number identifier (6-10 characters) instead of the workspace name.
-  * For more details, [please take a look at this article.](../../governance-and-automation/provisioning/hide-workspace-name.md)
-
 * **Improvements made to the Lifecycle Management** feature when selecting to keep workspaces.
-  * The default period is now set for 90 days, if the keep action is selected and the maximum limit is set to indefinitely.
+  * The default period is now set for 90 days when the keep action is selected, and the maximum limit is set to indefinitely.
 
-* **Improvements made to Access Review** on the Sharing step, with the default Sharing view set to Show by Users.
-  * Added the Department column as a default for Users on the Sharing step. 
+* **Improvements made to Access Review**.
+  * On the Sharing step, the default Sharing view is now set to Show by Users.
+  * The Department column is now displayed for users on the Sharing step by default. 
+
+* **Improved the Provisioning process** to be more resilient and better handle errors. This should help avoid provisioning failures when creating new Microsoft Teams.
 
 * **Fixed a bug** that showed Access Review e-mails with the date in the UTC timezone instead of local time.
 
-* **Improved an issue** that occasionally caused Provisioning for Teams to fail by adding a fallback action to resolve and check the status.
-
 * **Fixed an issue** that prevented the Private Workspaces Shared with Everyone policy from correctly detecting vulnerabilities.
 
-* **Fixed an issue** that caused the following error to occur when attempting to complete the Yammer registration setup: 
+* **Fixed an issue** where the following error would occur when attempting to complete the Yammer registration setup: 
 `{"message":"An error has occurred.","exceptionMessage":"Unexpected character encountered while parsing value: i. Path '', line 0, position 0.","exceptionType":"Newtonsoft.Json.JsonReaderException"}`
 
 * **Fixed a bug** that allowed users to apply previously deleted sensitivity labels.
