@@ -20,9 +20,9 @@ By default, Syskit Point provides **three templates (2)**.
 Available actions for these templates are listed under the **Manage (3)** column and allow you to:
 
 * **Edit (4)**
-  * Use it to review and modify how the default template is configured - Syskit Point allows you to change any setting available to fit your needs.
+  * Use it to review and modify how the default template is configured - Syskit Point allows you to change any setting available to fit your needs.
 * **Delete (5)**
-  * If you do not wish to use these default templates or make them available for your end-users, make sure to delete them from this list.
+  * If you do not wish to use these default templates or make them available for your end-users, make sure to delete them from this list.
 
 You can create custom templates by clicking the **New Template (6)** button.
 

@@ -43,7 +43,6 @@ description: This article lists improvements and bug fixes in the Syskit Point C
     * Hiding the workspace name from the URL or e-mail can be useful when dealing with confidential workspaces where you don't want to disclose any information, even in the URL or e-mail. Additionally, if you think a workspace name will change with time, you can use this option and have a unique URL and e-mail that doesn't have to change with future changes.
     * For more details, [please take a look at this article.](../../governance-and-automation/provisioning/hide-workspace-name.md)
 
-
 ## Improvements & Bug Fixes
 
 * **Sensitivity Label and Retention Label** columns are now available on the Unique Permissions and Sharing Links reports and can be selected from the column chooser.

@@ -54,12 +54,12 @@ Once you have created your storage versioning limits, **you can apply them manua
 
 Selecting this opens the Storage Metrics report where you can:
 * **Set Version Limit (Tenant-Wide)(1)** by clicking the button on the right side of the screen.
-  * **Clicking Set Version** Limit opens the pop-up where you can set the file version limit on the whole tenant for new document libraries.
-  * The options available are Automatic & Manual.  
-    * **Selecting Automatic (2)** means that file versions are deleted based on their activity and age, with the algorithm keeping the most valuable versions.
-    * **Selecting Manual (3)** means that file versions are deleted after exceeding the set number of versions and/or after a set period of time based on the metrics you previously set.
-      * If you select manual, you can also **select the storage versioning limit (4)** that you want to apply tenant-wide
-    * **Click Set Version Limit (5)** to finalize your selection and apply the changes. 
+  * **Clicking Set Version** Limit opens the pop-up where you can set the file version limit on the whole tenant for new document libraries.
+  * The options available are Automatic & Manual.  
+    * **Selecting Automatic (2)** means that file versions are deleted based on their activity and age, with the algorithm keeping the most valuable versions.
+    * **Selecting Manual (3)** means that file versions are deleted after exceeding the set number of versions and/or after a set period of time based on the metrics you previously set.
+      * If you select manual, you can also **select the storage versioning limit (4)** that you want to apply tenant-wide
+    * **Click Set Version Limit (5)** to finalize your selection and apply the changes. 
 
 ![Storage Versioning Limits - Tenant](../.gitbook/assets/storage-versioning-limits-new-limit-tenant.png)
 
@@ -73,19 +73,20 @@ Selecting this opens the Storage Metrics report where you can:
 This opens the Set Version Limit pop-up, where you can set the file version limit for all new file versions on the selected workspace(s). 
 
 There, you can decide between Automatic, Manual, or Reset to Tenant Limit. 
-  * **Selecting Automatic (1)** means that file versions are deleted based on their activity and age, with the algorithm keeping the most valuable versions.
-  * **Selecting Manual (2)** means that file versions are deleted after exceeding the set number of versions and/or after a set period of time based on the metrics you previously set.
-    * If you select manual, you can also **select the storage versioning limit (3)** that you want to apply tenant-wide
-  * **Selecting Reset to Tenant Limits (4)** means the workspace(s) inherit the versioning limit policy set at the tenant level.
+
+* **Selecting Automatic (1)** means that file versions are deleted based on their activity and age, with the algorithm keeping the most valuable versions.
+* **Selecting Manual (2)** means that file versions are deleted after exceeding the set number of versions and/or after a set period of time based on the metrics you previously set.
+    * If you select manual, you can also **select the storage versioning limit (3)** that you want to apply tenant-wide
+* **Selecting Reset to Tenant Limits (4)** means the workspace(s) inherit the versioning limit policy set at the tenant level.
 
 You can also decide whether you want to **clean up existing file versions (5)** before setting the storage versioning limit. 
 
-  * **Select the checkbox (6)** to clean up existing file versions
-  * After selecting the checkbox, you can **choose the type of file version cleanup (7)**: 
-    * Old File Versions - cleans up files older than 2 months
-    * Number of Versions - cleans up all but the last 10 file versions
-    * All But the Last File Version - cleans up all file versions but the last one
-  * Finally, **if you want to permanently delete the file versions (8)** and clear the space immediately, you can select the checkbox
-  * **Click Set Version Limit (9)** to finalize your selection and apply the changes. 
+* **Select the checkbox (6)** to clean up existing file versions
+* After selecting the checkbox, you can **choose the type of file version cleanup (7)**: 
+  * Old File Versions - cleans up files older than 2 months
+  * Number of Versions - cleans up all but the last 10 file versions
+  * All But the Last File Version - cleans up all file versions but the last one
+* Finally, **if you want to permanently delete the file versions (8)** and clear the space immediately, you can select the checkbox
+* **Click Set Version Limit (9)** to finalize your selection and apply the changes. 
 
 ![Storage Versioning Limits - Set Version Limit on Workspace - Selection](../.gitbook/assets/storage-versioning-limits-new-limit-workspaces-selection.png)
