@@ -32,14 +32,14 @@ In the URL customization section, you can:
     * Selecting this lets workspace owners and end users edit the URL based on their preference or need
     * Note that once this option is selected, the e-mail option is automatically selected as well
 * Hide workspace name from URL
-    * Selecting this hides the workspace name from the URL, which means when the workspace is created, instead of the workspace name, the URL consists of a number identifier (6-10 randomly generated numbers)
+    * Selecting this hides the workspace name from the URL, which means when the workspace is created, instead of the workspace name, the URL contains a number identifier (6-10 randomly generated numbers)
 * Customize URL prefix/suffix
     * Selecting this gives the ability to change the URL prefix and suffix
 
 In the e-mail customization section, you can:
 
-* Hide workspace name from URL
-    * Selecting this hides the workspace name from e-mail of the created workspace, which means that instead of the workspace name, the e-mail consists of a number identifier (6-10 characters)
+* Hide workspace name from e-mail
+    * Selecting this hides the workspace name from the e-mail of the created workspace, which means that instead of the workspace name, the e-mail contains a number identifier (6-10 characters)
 * Customize e-mail prefix/suffix
     * Selecting this gives the ability to change the e-mail prefix and suffix
 
@@ -80,13 +80,13 @@ The following table shows how different template setups in the old version are u
 
 | Old version    | Syskit Point 2024.4.52 Onward | 
 | --- | --- | 
-| Namig Rule toggle disabled | Workspace Name Rule toggle disabled; all URL and e-mail customization options disabled | 
+| Naming Rule toggle disabled | Workspace Name Rule toggle disabled; all URL and e-mail customization options disabled | 
 | Naming Rule toggle enabled; prefix and suffix defined; Apply naming rule to workspace URL and e-mail option disabled | Workspace Name Rule toggle enabled; Name prefix and suffix set to the value defined in previous version; all URL and e-mail customization options disabled |
 | Naming Rule toggle enabled; prefix and suffix defined; Apply naming rule to workspace URL and e-mail option enabled | Workspace Name Rule toggle enabled; Name prefix and suffix set to the value defined in previous version; Customize URL prefix/suffix option enabled - URL prefix and suffix defined and equal to Name prefix and suffix; Customize e-mail prefix/suffix option enabled - E-mail prefix and suffix defined and equal to Name prefix and suffix |
 
 {% hint style="warning" %}
 **Please Note!** In all upgrade scenarios, __Allow end user to edit URL/e-mail__ and __Hide workspace name from URL/e-mail__ options are disabled. 
-If you want to allow end-users to edit URL/e-mail or wish to hide the workspace name from URL/e-mail, please edit existing provisioning templates or create new ones and enable appropriate options to fit your needs.
+If you want to allow end-users to edit URL/e-mail or want to hide the workspace name from URL/e-mail, please edit existing provisioning templates or create new ones and enable appropriate options to fit your needs.
 {% endhint %}
 
 
