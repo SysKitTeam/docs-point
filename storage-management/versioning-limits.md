@@ -4,9 +4,9 @@ description: This article explains how to create and apply Storage Versioning Li
 
 # Storage Versioning Limits  
 
-Having to manually keep with the state of the files in your workspaces can be unecessarily time consuming. Now, you can **set up versioning limits for your storage**, and automatically performs actions based on the limit settings. 
+Having to manually keep up with file versions in your workspaces can be unnecessarily time-consuming. Now, you can **set up versioning limits for your storage**, and automate actions based on the limit settings. 
 
-**Storage Versioning Limits help you limit the number of file versions kept in SharePoint document libraries**. File versions are deleted after exceeding the number of versions you set, the time period that you set, or both. 
+**Storage Versioning Limits help you limit the number of file versions kept in SharePoint document libraries**. File versions are deleted after exceeding the number of versions you set, the time period you set, or both. 
 
 ## Create Storage Versioning Limits
 
@@ -37,7 +37,7 @@ The Create New Manual Storage Limit pop-up opens. There, you can select:
 
  
 {% hint style="information" %}
-**Please note** that the **manual storage limit runs on a daily basis**.  
+**Please note** that the **manual storage limit runs daily**.  
 {% endhint %}
 
 ## Apply Storage Versioning Limits
@@ -57,7 +57,7 @@ Selecting this opens the Storage Metrics report where you can:
   * **Clicking Set Version** Limit opens the pop-up where you can set the file version limit on the whole tenant for new document libraries.
   * The options available are Automatic & Manual.  
     * **Selecting Automatic (2)** means that file versions are deleted based on their activity and age, with the algorithm keeping the most valuable versions.
-    * **Selecting Manual (3)** means that file versions are deleted after exceeding the set number of versions and/or after a set period of time-based on the metrics you previously set.
+    * **Selecting Manual (3)** means that file versions are deleted after exceeding the set number of versions and/or after a set period of time based on the metrics you previously set.
       * If you select manual, you can also **select the storage versioning limit (4)** that you want to apply tenant-wide
     * **Click Set Version Limit (5)** to finalize your selection and apply the changes. 
 
@@ -74,9 +74,9 @@ This opens the Set Version Limit pop-up, where you can set the file version limi
 
 There, you can decide between Automatic, Manual, or Reset to Tenant Limit. 
   * **Selecting Automatic (1)** means that file versions are deleted based on their activity and age, with the algorithm keeping the most valuable versions.
-  * **Selecting Manual (2)** means that file versions are deleted after exceeding the set number of versions and/or after a set period of time-based on the metrics you previously set.
+  * **Selecting Manual (2)** means that file versions are deleted after exceeding the set number of versions and/or after a set period of time based on the metrics you previously set.
     * If you select manual, you can also **select the storage versioning limit (3)** that you want to apply tenant-wide
-  * **Selecting Reset to Tenant Limits (4)** means the workspace(s) inherit the versioning limit policy that is set at the tenant level.
+  * **Selecting Reset to Tenant Limits (4)** means the workspace(s) inherit the versioning limit policy set at the tenant level.
 
 You can also decide whether you want to **clean up existing file versions (5)** before setting the storage versioning limit. 
 
