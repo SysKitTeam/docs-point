@@ -32,14 +32,14 @@ In the URL customization section, you can:
     * Selecting this lets workspace owners and end users edit the URL based on their preference or need
     * Note that once this option is selected, the e-mail option is automatically selected as well
 * Hide workspace name from URL
-    * Selecting this hides the workspace name from workspace UR; instead of the workspace name, the URL contains a number identifier (6-10 characters)
+    * Selecting this hides the workspace name from the URL, which means when the workspace is created, instead of the workspace name, the URL consists of a number identifier (6-10 randomly generated numbers)
 * Customize URL prefix/suffix
     * Selecting this gives the ability to change the URL prefix and suffix
 
 In the e-mail customization section, you can:
 
 * Hide workspace name from URL
-    * Selecting this hides the workspace name from the e-mail, which means that instead of the workspace name, the e-mail contains a number identifier (6-10 characters)
+    * Selecting this hides the workspace name from e-mail of the created workspace, which means that instead of the workspace name, the e-mail consists of a number identifier (6-10 characters)
 * Customize e-mail prefix/suffix
     * Selecting this gives the ability to change the e-mail prefix and suffix
 
