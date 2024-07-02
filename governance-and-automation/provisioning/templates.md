@@ -2,7 +2,7 @@
 description: >-
  Syskit Point templates help you define which types of workspaces your
  end-users can request and create. Each template contains properties and rules
- that guide the creation process and ensure all works
+ that guide the creation process.
 ---
 
 # Templates
@@ -109,19 +109,19 @@ When creating a template for Microsoft Teams, you will need to define the follow
 * **Workspace Name Rule (13)** – predefined suffix or prefix that will be added to the name of a workspace created using this template.
   * For example, setting the prefix to **Marketing** results that each workspace created from this template will be named in a form **Marketing – (Request Name)**
   * **Select the checkbox Apply naming rule to workspace URL and e-mail** to have **all workspaces created from this template have the same URL based on the Name Prefix and Name Suffix** you entered into the form
-* **Customize URL (14)** - here, you can select how the URL of the workspace is shown when the workspace is shared
+* **Customize URL (14)** - here, you can select how the URL of the workspace will look like when the workspace is created
   * Allow end users to edit URL
     * Selecting this lets workspace owners and end users edit the URL based on their preference
   * Hide workspace name from URL
-    * Selecting this hides the workspace name from view, which means when the workspace is shared with others instead of the workspace name, the URL consists of a number identifier (6-10 characters)
+    * Selecting this hides the workspace name from the URL, which means when the workspace is created, instead of the workspace name, the URL consists of a number identifier (6-10 randomly generated numbers)
   * Customize URL prefix/suffix
     * Selecting this gives the ability to change the URL prefix and suffix
   * [For more details on this, take a look at this article.](../provisioning/hide-workspace-name.md)
-* **Customize E-mail (15)** - with this, you decide how the URL of the workspace is shown when the workspace is mentioned in e-mails sent about it
-  * Hide workspace name from URL
-    * Selecting this hides the workspace name from view, which means when the workspace is included in any e-mails sent by Syskit Point, instead of the workspace name, the URL consists of a number identifier (6-10 characters)
-  * Customize URL prefix/suffix
-    * Selecting this gives the ability to change the URL prefix and suffix for the e-mail
+* **Customize E-mail (15)** - with this, you decide how the e-mail of the workspace will look like once the workspace is created
+  * Hide workspace name from E-mail
+    * Selecting this hides the workspace name from e-mail of the created workspace, which means that instead of the workspace name, the e-mail consists of a number identifier (6-10 characters)
+  * Customize e-mail prefix/suffix
+    * Selecting this gives the ability to change the e-mail prefix and suffix
   * [For more details on this, take a look at this article.](../provisioning/hide-workspace-name.md)
 * **Approval process (16)** – define who is responsible for approving the requests using this template.
 
