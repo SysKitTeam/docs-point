@@ -18,6 +18,10 @@ You'll be able to utilize most of the Syskit Point features while in the free tr
 * **PDF exports will have a watermark** stating you exported the file during the Syskit Point Trial
 * **OneDrive data will not be synced** and will not be available for access to gain more details
 * **You will have a limit** of running 10 File Version Cleanup actions
+* [**The Storage Versioning Limit action**](../storage-management/versioning-limits.md) has the following limitations during trial:
+  * Setting version limits is blocked during trial
+  * The Clean Up Existing File Versions has a limit of 5 actions by default during trial
+
 
 {% hint style="warning" %}
 **Please note!**&#x20;
