@@ -14,7 +14,7 @@ In the latest version of Syskit Point, the following types of tasks are availabl
     * [**Minimum Number of Owners**](../point-collaborators/resolve-governance-tasks/minimum-number-of-owners.md)
     * [**Maximum Number of Owners**](../point-collaborators/resolve-governance-tasks/maximum-number-of-owners.md)
     * [**Orphaned Workspaces**](../point-collaborators/resolve-governance-tasks/orphaned-resources.md)
-* [**Guest Users Expiration**](../point-collaborators/resolve-governance-tasks/guest-users-expiration.md)
+* [**Inactive Guest Users**](../point-collaborators/resolve-governance-tasks/guest-users-expiration.md)
 * [**Access Requests**](../governance-and-automation/access-requests/approval-process.md)
 * [**Provisioning Requests**](../governance-and-automation/provisioning/approve-reject-requests.md)
 * [**Tenant Storage Limit**](../point-collaborators/resolve-governance-tasks/tenant-storage-limit.md)
