@@ -32,3 +32,5 @@ With the Syskit Point trial, you will receive **21 days of free usage of the Sys
 The Data Center trial enables you to utilize all of the Syskit Point features while in the free trial; however, notice the following:
 
 * **PDF exports will have a watermark** stating you exported the file during the Syskit Point Trial
+
+* **The Set Version Limit action** for Storage is not available during your trial period 
