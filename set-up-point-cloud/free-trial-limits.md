@@ -30,7 +30,7 @@ In the Syskit Point web app, you will notice the **trial banner** located at the
 Here you can find the following:
 
 * **The amount of time that is left for your free trial (1)** out of the 21 available days
-* **Buy Now button (2)** that redirects you to the Syskit contact page, where you'll be able to reach us and arrange the best possible Syskit Point package for your business needs
+* **Buy Now button (2)** redirects you to the Subscriptions portal, where you can purchase a Point Cloud subscription, manage your subscription, and add additional administrators to help you with subscription management.
 
 ![Syskit Point - Trial Banner](../.gitbook/assets/free-trial-limits-trial-banner.png)
 
