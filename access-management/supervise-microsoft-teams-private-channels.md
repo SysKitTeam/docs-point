@@ -31,10 +31,6 @@ In **Microsoft Admin Center**, **Team Owners can see the names of all Private Ch
 
 When you create a **Microsoft Teams Private Channel**, you are creating that channel's **SharePoint Site collection** **optimized for file sharing and fast provisioning**. The separate site collection is there to ensure that the access to private channel files is restricted only to members of the Private Channel compared to the Team site where Team owners have access to all the assets within the site collection
 
-{% hint style="warning" %}
-**Please note!**\
-SharePoint Sites of Microsoft Teams Private Channels are **not visible** in the **SharePoint Admin Center**.
-{% endhint %}
 
 ## Using Syskit Point to Oversee Private Channels
 
@@ -50,7 +46,7 @@ From the **Home** screen of **Syskit Point**, click the **Sites** button on the 
 
 ![Syskit Point Home Screen - Click the Sites tile](../.gitbook/assets/supervise-microsoft-teams-private-channels-home.png)
 
-It will redirect you to **Syskit Point Sites Overview screen**. As we know when a Private Channel is created, it also creates a SharePoint Site Collection. Unlike SharePoint Online, **Syskit Point gives you the ability to see that Site Collection within your Sites**, and also **gives Team owners the ability to see all members and shared files in a Private Channel**, even when the Team owner is not a member of a said Private Channel.
+It will redirect you to **Syskit Point Sites Overview screen**. As we know when a Private Channel is created, it also creates a SharePoint Site Collection. **Syskit Point gives you the ability to see that Site Collection within your Sites**, and also **gives Team owners the ability to see all members and shared files in a Private Channel**, even when the Team owner is not a member of a said Private Channel.
 
 On the **Sites Overview** screen, any existing Microsoft Teams **Private Channel site will be located right under its parent Microsoft Teams site**, but to easily filter said Sites, click the **Column Chooser (1)** and **enable the column called Template (2)**.
 
