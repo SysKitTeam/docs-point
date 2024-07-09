@@ -84,7 +84,7 @@ The easiest way to **find all inactive workspaces** is by using the **Inactive W
 
 Click the **Run Report** button to generate the Inactive Workspaces report. There are four columns in the grid - the **Name** column, which you can **click to open the** **Details screen**, and **four activity columns** for **SharePoint**, **Exchange**, **Microsoft Teams**, and **Yammer**. Additional columns, such as **Type** or **Owner\(s\)**, can be added from the **Column Chooser (1)**.
 
-![Inactive Workpspaces report - Column Chooser](../../.gitbook/assets/inactive-content-inactive-content-report-column-chooser.png)
+![Inactive Workspaces report - Column Chooser](../../.gitbook/assets/inactive-content-inactive-content-report-column-chooser.png)
 
 Notice the **blue info icon (1)** next to the Activity columns. **Hovering above the icons displays a tooltip** with information on how the last activity date was determined.
 
