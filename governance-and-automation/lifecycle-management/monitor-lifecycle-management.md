@@ -20,20 +20,20 @@ The lifecycle management in **Syskit Point** can be viewed from **two** differen
 
 When working with lifecycle management, Syskit Point Admin users can:
 
-* **define lifecycle management settings**
-* **decide which workspaces are going to be monitored**
-* **monitor the progress of lifecycle management tasks**
-* **receive a weekly e-mail that summarizes inactive content on their environment**
-* **resolve the overdue tasks from Site Owners**
-* **send reminders to Site Owners to resolve the task**
+* **Define lifecycle management settings**
+* **Decide which workspaces are going to be monitored**
+* **Monitor the progress of lifecycle management tasks**
+* **Receive a weekly e-mail that summarizes inactive workspaces in their environment**
+* **Resolve the overdue tasks from Site Owners**
+* **Send reminders to Site Owners to resolve the task**
 
 On the other hand, Syskit Point Collaborators can perform lifecycle management actions on workspaces where they are an owner or admin.
 
 Here, we will describe how a Syskit Point Admin can monitor the progress of ongoing lifecycle management tasks.
 
-## Weekly summary of inactive content
+## Weekly summary of inactive workspaces
 
-Let’s say that lifecycle management automation was enabled for your Microsoft 365 environment in SysKit Point; every Site Owner received their e-mails and is taking care of their inactive resources. A week has passed, and the SysKit Point Admin receives a Weekly summary of inactive content via e-mail with the following information:
+Let’s say that lifecycle management automation was enabled for your Microsoft 365 environment in SysKit Point; every Site Owner received their e-mails and is taking care of their inactive workspaces. A week has passed, and the SysKit Point Admin receives a Weekly summary of inactive workspaces via e-mail with the following information:
 
 * newly detected **inactive workspaces** \(1\)
 * workspaces that **require** the Syskit Point Admins **attention** \(workspaces still awaiting a response or ones that might be without owners\) \(2\)
@@ -86,11 +86,11 @@ If the Lifecycle Management task is Overdue, the following actions can be comple
 
 ## See all inactive workspaces in your environment
 
-When you click the **View All** inactive resources, SysKit Point generates an **Inactive Content** report showing you all the inactive resources in your environment, regardless of whether they are being monitored by Lifecycle Management or not. 
+When you click the **View All** inactive workspaces, SysKit Point generates the **Inactive Workspaces** report showing you all the inactive workspaces in your environment, regardless of whether they are being monitored by Lifecycle Management or not. 
 
 On the said report, you get an option to **Keep, Archive, or Delete** any workspace there. You can also **Ask Owners to Review**, which sends a reminder to the workspace owners to resolve the task. 
 
-![Syskit Point - Inactive Content Report](../../.gitbook/assets/monitor-lifecycle-management-inactive-report.png)
+![Syskit Point - Inactive Workspaces Report](../../.gitbook/assets/monitor-lifecycle-management-inactive-report.png)
 
 ## View Lifecycle Management History
 

@@ -8,8 +8,8 @@ description: >-
 
 Workspaces in Microsoft 365 usually display the following lifecycle stages:
 
-* **Creation**; for example, when an admin creates a new workspace (Microsoft Team) or end-users request new workspace from a menu of templated options created by admins in SysKit Point. 
-* **Maintenance**; users collaborate and use said workspace, chat, create files; enforcing continuous reviews with automated flows provides an easy way to manage ownership and access to your assets.
+* **Creation**; for example, when an admin creates a new workspace (Microsoft Team) or end-users request a new workspace from a menu of templated options created by admins in SysKit Point. 
+* **Maintenance**; users collaborate and use said workspace, chat, and create files; enforcing continuous reviews with automated flows provides an easy way to manage ownership and access to your assets.
 * **Cleanup**; SysKit Point automatically detects inactive workspaces and lets you decide if you wish to keep, archive, or delete the data; after a team is dismissed or a product is retired, the previously used workspace becomes stale and is no longer needed.
 
 **When a workspace has reached the third stage**, a team owner for that workspace needs to decide:
@@ -35,13 +35,13 @@ The email provides the following:
 
 Clicking any of the **action buttons (3)** redirects to the **Lifecycle Management task** of the workspace in Syskit Point.
 
-![Inactive content email](../../.gitbook/assets/lifecycle-management-owner-email.png)
+![Inactive workspace email](../../.gitbook/assets/lifecycle-management-owner-email.png)
 
 The Lifecycle Management task screen provides the option to **include additional information on the workspace and execute the selected action**.
 
 Once clicked, the **task details screen opens** with the appropriate action dialog visible.
 
-* For example, if the **Delete action button** is clicked, the screen shown on the image below opens.
+* For example, if the **Delete action button** is clicked, the screen shown in the image below opens.
 
 The following can be:
 

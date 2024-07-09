@@ -10,10 +10,10 @@ This article contains information on analytics reports available through the **R
 
 * [Site Analytics Report](#site-analytics-report)
 * [Site Structure Report](#site-structure-report)
-* [Inactive Content Report](#inactive-content-report)
+* [Inactive Workspaces Report](#inactive-content-report)
 
 {% hint style="information" %}
-**Site Structure and Inactive Content reports** are available in all plans.
+**Site Structure and Inactive Workspaces reports** are available in all plans.
 **Site Analytics report** is available in the Security & Compliance plan and higher tiers. 
 See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 {% endhint %}
@@ -36,7 +36,7 @@ Site Analytics report provides an overview of all sites; it shows the total hits
 
 ### Generate File and Page Activities Report
 
-* **Click the Reports button**; it is located on left side of your Syskit Point.
+* **Click the Reports button**; it is located on the left side of your Syskit Point.
  * **Select Audit Logs in the filter**; it can be found in the upper left corner.
  * **Click the Site Analytics report** to generate the report.
 
@@ -67,7 +67,7 @@ Use this report to display the structure of the SharePoint environment.
 
 ### Generate Site Structure Report
 
-* **Click the Reports button**; it is located on left side of your Syskit Point.
+* **Click the Reports button**; it is located on the left side of your Syskit Point.
 * **Select Audit Logs in the filter**; it can be found in the upper left corner.
 * **Click the Site Structure report** to be redirected to the selection screen.
 * **Select one or multiple sites** for which to generate the report. 
@@ -87,31 +87,31 @@ Once the report has been successfully generated, the following data will be avai
 The Site Structure report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
 
-## Inactive Content Report
+## Inactive Workspaces Report
 
-The Inactive Content report provides the ability to quickly detect unused sites, Microsoft 365 Groups, and Microsoft Teams in your Microsoft 365 environment. 
+The Inactive Workspaces report provides the ability to quickly detect unused sites, Microsoft 365 Groups, and Microsoft Teams in your Microsoft 365 environment. 
 
 This report can be used to stay up to date with any unused workspaces in the environment to keep it clean and healthy.
 
-### Generate Inactive Content Report
+### Generate Inactive Workspaces Report
 
-* **Click the Reports button**; it is located on left side of your Syskit Point.
+* **Click the Reports button**; it is located on the left side of your Syskit Point.
 * **Select Analytics in the filter**; it can be found in the upper left corner.
-* **Click the Inactive Content report** to be redirected to the options screen.
+* **Click the Inactive Workspaces report** to be redirected to the options screen.
   * **Select which type of workspaces** the report should be generated for (Site, Microsoft 365 Group, or Microsoft Team)
 * **Click the Run Report button**.
 
-### Inactive Content Report Data
+### Inactive Workspaces Report Data
 
 When the report has been successfully generated, all of the currently inactive workspaces in your environment can be found there. 
 
-The Inactive Content report data can be **exported into PDF and XLSX formats**.
+The Inactive Workspaces report data can be **exported into PDF and XLSX formats**.
 
 Select one or multiple workspaces to perform Lifecycle Management actions on them:
 
  * Choose to **Keep, Archive or Delete** the workspaces or ask the **owner to Renew** the workspaces. 
 
-When any of those actions are completed on a workspace, it will no longer be visible on the Inactive Content Report.
+When any of those actions are completed on a workspace, it will no longer be visible on the Inactive Workspaces Report.
 
 When looking at the generated reports, the following columns can be found:
 
@@ -129,7 +129,7 @@ To see this report, **the Adoption and Analytics module** needs to be installed 
 
 ### Generate SharePoint Activity Report
 
-* **Click the Reports button**; it is located on left side of your Syskit Point.
+* **Click the Reports button**; it is located on the left side of your Syskit Point.
 * **Select Analytics in the filter**; located in the upper left corner.
 * **Click the SharePoint Activity report** to be redirected to the **Selections screen**.
   * **Select which workspace** the report should be generated for, and select the time frame on the bottom filter.
@@ -137,7 +137,7 @@ To see this report, **the Adoption and Analytics module** needs to be installed 
 
 ### SharePoint Activity Report Data
 
-When the report is successfully generated, detailed graphs which show the activity of Users, Sites, Pages, and Documents will be shown along with the following:
+When the report is successfully generated, detailed graphs that show the activity of Users, Sites, Pages, and Documents will be shown along with the following:
   * The Most Active Users 
   * Sites
   * Top five pages 
@@ -154,7 +154,7 @@ To view this report, the Adoption and Analytics module needs to be installed in 
 
 ### Generate Most Popular Content Report
 
-* **Click the Reports button**; it is located on left side of your Syskit Point.
+* **Click the Reports button**; it is located on the left side of your Syskit Point.
 * **Select Analytics in the filter**; located in the upper left corner.
 * **Click the Most Popular Content report** to be redirected to the **Selections screen**.
   * **Select which workspace** the report should be generated for; in the bottom filter, select the time frame and choose between **Pages or Documents**. 
@@ -169,7 +169,7 @@ The Most Popular Content report can be **exported as PDF and XLSX files**. There
 The columns that are seen by default are:
 
 - **Name**; shows the name of the page or document. 
-  * When clicked on, it redirected to the details page of that page or document in Syskit Point.
+  * When clicked on, it redirects to the details page of that page or document in Syskit Point.
 - **Site Name**; shows the name of the workspace where the most popular document is. 
   * When clicked on, it redirects to the site details page in Syskit Point.
 - **Hit Count**; shows the unique number of hits on the page or document.
@@ -185,7 +185,7 @@ To see this report, the Adoption and Analytics module needs to be installed in S
 
 ### Generate Meeting Interactions Report
 
-* **Click the Reports button**; it is located on left side of your Syskit Point.
+* **Click the Reports button**; it is located on the left side of your Syskit Point.
 * **Select Analytics in the filter**; located in the upper left corner.
 * **Click the Meeting Interactions report** to be redirected to the **Selections screen**.
   * **Select which company department** the report should be generated for; in the bottom filter, select the time frame for the report. 
@@ -206,7 +206,7 @@ To see this report, the Adoption and Analytics module needs to be installed in S
 ### Generate Conversation Interactions Report
 
 
-* **Click the Reports button**; it is located on left side of your Syskit Point.
+* **Click the Reports button**; it is located on the left side of your Syskit Point.
 * **Select Analytics in the filter**; located in the upper left corner.
 * **Click the Conversation Interactions report** to be redirected to the **Selections screen**.
   * **Select which company department** the report should be generated for; in the bottom filter, select the time frame for the report. 
@@ -225,7 +225,7 @@ To see this report, the Adoption and Analytics module needs to be installed in S
 ### Generate Network Interaction Details Report
 
 
-* **Click the Reports button**; it is located on left side of your Syskit Point.
+* **Click the Reports button**; it is located on the left side of your Syskit Point.
 * **Select Analytics in the filter**; located in the upper left corner.
 * **Click the Network Interaction Details report** to be redirected to the **Selections screen**.
   * **Select which company department** the report should be generated for; in the bottom filter, select the time frame for the report. 
@@ -239,6 +239,6 @@ The Network Interaction Details report can be **exported as PDF and XLSX files**
 
 The Network Interaction Details report is a tree-type style report that shows the user as a Parent branch and all other users they interacted with as a Child branch. 
 
-The report shows departments for each user to enable seeing which departments are interacting with each other. 
+The report shows departments for each user to see which departments are interacting with each other. 
 
 It also shows the number of calls and chat messages users exchanged.

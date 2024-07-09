@@ -59,9 +59,9 @@ To see more details about all workspaces, click the **View All** link, which ope
 
 On the bottom, colored in red, you will find the number of **inactive** and **orphaned workspaces** if they are present in your environment.
 
-By **clicking the number** of the inactive workspace, the **Inactive Content** report opens.
+By **clicking the number** of the inactive workspaces, the **Inactive Workspaces** report opens.
 
-For more information about the Inactive Content report, click [here](../governance-and-automation/lifecycle-management/inactive-content.md#inactive-content-report).
+For more information about the Inactive Workspaces report, click [here](../governance-and-automation/lifecycle-management/inactive-content.md#inactive-content-report).
 
 {% hint style="warning" %}
 **Please note!**  

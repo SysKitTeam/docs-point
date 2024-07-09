@@ -1,10 +1,10 @@
 ---
-description: This section describes how to find inactive content within Syskit Point.
+description: This section describes how to find inactive workspaces within Syskit Point.
 ---
 
-# Identify Inactive Content
+# Identify Inactive Workspaces
 
-Have you ever wondered how to discover all inactive content in your Microsoft 365 environment?  
+Have you ever wondered how to discover all inactive workspaces in your Microsoft 365 environment?  
 It is important to have this kind of information because you want a well-organized and clutter-free Microsoft 365 environment.  
 Now, you can find it all in one place with the help of **Syskit Point**.
 
@@ -29,11 +29,11 @@ Activity is being monitored from the Syskit Point installation onward!** This ap
 
 ## Define What Is Inactive
 
-You can **configure what is considered to be inactive** in Syskit Point by changing the number of inactive days, after which workloads will be marked as inactive. To do so, open the **Settings** page from any screen within the application and go to the **Governance &gt; Lifecycle Management** screen, where you will find the **Inactive Content** section. **Enter the number of days** in the field and click the **Save** button to update the value. The number of days can be set to a value between 30 and 1000.
+You can **configure what is considered to be inactive** in Syskit Point by changing the number of inactive days, after which workspaces will be marked as inactive. To do so, open the **Settings** page from any screen within the application and go to the **Governance &gt; Lifecycle Management** screen, where you will find the **Inactive Content** section. **Enter the number of days** in the field and click the **Save** button to update the value. The number of days can be set to a value between 30 and 1000.
 
 ![Settings - Governance screen - Inactive Content section](../../.gitbook/assets/inactive-content-settings-inactive-content.png)
 
-## View Inactive Content in Syskit Point
+## View Inactive Workspaces in Syskit Point
 
 There are several places in Syskit Point where you can find activity information at. Let's get to know them.
 
@@ -47,7 +47,7 @@ You can see the **blue info icon** in the Activity column header.
 
 ![Activity column tooltip](../../.gitbook/assets/inactive-content-activity-column-tooltip.png)
 
-When you **hover over the info icon**, you will see which workloads are included in evaluating the activity for Sites, Microsoft Teams, Microsoft 365 Groups, and OneDrive sites. There is also information for which period \(number of days\) was the activity assessment made. In the grid, you have a **column filter** to help you see just the active or the inactive content.
+When you **hover over the info icon**, you will see which workloads are included in evaluating the activity for Sites, Microsoft Teams, Microsoft 365 Groups, and OneDrive sites. There is also information for which period \(number of days\) was the activity assessment made. In the grid, you have a **column filter** to help you see just the active or the inactive workspaces.
 
 Hover over circle icons for each row to get more information about the **activity**. The **circle is colored gray** if there **was no activity since the application started collecting the activity data**. If the **circle is colored** **green**, the **content is** **active**. The date of the last activity is displayed on hover.
 
@@ -63,7 +63,7 @@ There is also a separate **Inactive Sites view \(1\)** available, accessed from 
 
 The **Microsoft Teams & Groups Overview screen** has a similar representation of Microsoft Teams and Microsoft 365 Groups' workload activity as the Sites Overview screen. The **Activity column is**, **by default**, **shown** as the last column in the grid. The same rules of displaying the activity data are applied here, as explained for the Sites Overview screen. Additionally, here you can find a separate **Inactive** tile above the grid. By clicking the tile, the **Inactive Groups (1)** view is shown.
 
-![Inactive Content tile](../../.gitbook/assets/inactive-content-inactive-content-tile.png)
+![Inactive Teams & Groups tile](../../.gitbook/assets/inactive-content-inactive-content-tile.png)
 
 ### Details Screen
 
@@ -76,19 +76,19 @@ You can **access** **Details** **screens** for Sites, Microsoft 365 Groups, and 
 Workload activity data is shown only for the **root site level**. Document libraries, lists, folders, and list items **won't have the Activity section displayed** in the **Analytics and Usage** tile.
 {% endhint %}
 
-### Inactive Content Report
+### Inactive Workspaces Report
 
-The easiest way to **find all inactive content** is by using the **Inactive Content report**, which you can find in the Report Center. By clicking the Inactive Content report tile, the **Options** screen opens where you can choose whether to include **Sites**, **Microsoft Teams**, and/or **Microsoft 365 Groups** in the report. By default, all options are selected.
+The easiest way to **find all inactive workspaces** is by using the **Inactive Workspaces report**, which you can find in the Report Center. By clicking the Inactive Workspaces report tile, the **Options** screen opens where you can choose whether to include **Sites**, **Microsoft Teams**, and/or **Microsoft 365 Groups** in the report. By default, all options are selected.
 
-![Inactive Content report - Options screen](../../.gitbook/assets/inactive-content-inactive-content-report-options-screen.png)
+![Inactive Workspaces report - Options screen](../../.gitbook/assets/inactive-content-inactive-content-report-options-screen.png)
 
-Click the **Run Report** button to generate the Inactive Content report. There are four columns in the grid - the **Name** column, which you can **click to open the** **Details screen**, and **four activity columns** for **SharePoint**, **Exchange**, **Microsoft Teams**, and **Yammer**. Additional columns, such as **Type** or **Owner\(s\)**, can be added from the **Column Chooser (1)**.
+Click the **Run Report** button to generate the Inactive Workspaces report. There are four columns in the grid - the **Name** column, which you can **click to open the** **Details screen**, and **four activity columns** for **SharePoint**, **Exchange**, **Microsoft Teams**, and **Yammer**. Additional columns, such as **Type** or **Owner\(s\)**, can be added from the **Column Chooser (1)**.
 
-![Inactive Content report - Column Chooser](../../.gitbook/assets/inactive-content-inactive-content-report-column-chooser.png)
+![Inactive Workspaces report - Column Chooser](../../.gitbook/assets/inactive-content-inactive-content-report-column-chooser.png)
 
 Notice the **blue info icon (1)** next to the Activity columns. **Hovering above the icons displays a tooltip** with information on how the last activity date was determined.
 
-![Inactive Content report - Activity column tooltip](../../.gitbook/assets/inactive-content-inactive-content-report-activity-tooltip.png)
+![Inactive Workspaces report - Activity column tooltip](../../.gitbook/assets/inactive-content-inactive-content-report-activity-tooltip.png)
 
 A **grey circle** icon represents an existing **workload with no activity. Hovering** **over** will show the information from when Syskit Point monitors the activity.
 

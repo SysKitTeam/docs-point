@@ -75,5 +75,5 @@ Global admin re-consent is required after the upgrade to the 2022.5 version due 
   * **Fixed an issue** where the upgrade banner showing that a new Syskit Point version is available would not show in newer Syskit Point versions after once being closed.
   * **Fixed a bug** where the Licenses Overview report would always show USD currency instead of the currency defined in License Reports settings.
   * **Fixed a bug** where people picker would incorrectly show M365 Group icon for Microsoft Teams.
-  * **Fixed an issue** where the number of inactive workspaces displayed on the Dashboard would differ from the one shown in the Inactive Content report.
+  * **Fixed an issue** where the number of inactive workspaces displayed on the Dashboard would differ from the one shown in the Inactive Workspaces report.
   * **Fixed a bug** where Global Viewers would get an Internal Server Error instead of the Access Denied message when accessing the Settings screen.
