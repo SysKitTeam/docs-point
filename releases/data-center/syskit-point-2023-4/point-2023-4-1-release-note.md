@@ -89,7 +89,7 @@ Global admin re-consent is required after the upgrade to the latest version. Con
 
 * **The Active Tasks screen was improved** to show only the vulnerabilities with an open task. Previously, detected vulnerabilities without a task were displayed as well. 
 
-* **The term Resource was replaced with Workspace across Syskit Point and the documentation**. For example, the Orphaned Resources tile segment on the dashboard was renamed to Inactive Workspaces. The Inactive Content report was renamed to Inactive Workspaces, and so on.
+* **The term Resource was replaced with Workspace across Syskit Point and the documentation**. For example, the Orphaned Resources tile segment on the dashboard was renamed to Orphaned Workspaces. The Inactive Content report was renamed to Inactive Workspaces, and so on.
 
 * **User sync was improved to resolve policy vulnerabilities in case the user's status change in Microsoft 365 makes the vulnerability obsolete**. For example, if an orphaned user is deleted in Microsoft 365, Syskit Point will automatically resolve detected vulnerabilities for the user during the user sync.
 

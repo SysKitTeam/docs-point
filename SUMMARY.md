@@ -148,7 +148,7 @@
     * [Monitor Access Review in Syskit Point](governance-and-automation/permissions-review/monitor-permissions-review.md)
     * [Manually Request Access Review in Syskit Point](governance-and-automation/permissions-review/manually-request-permissions-review.md)
   * [Lifecycle Management](governance-and-automation/lifecycle-management/README.md)
-    * [Identify Inactive Content](governance-and-automation/lifecycle-management/inactive-content.md)
+    * [Identify Inactive Workspaces](governance-and-automation/lifecycle-management/inactive-content.md)
     * [Enable Lifecycle Management Automation](governance-and-automation/lifecycle-management/enable-lifecycle-management.md)
     * [Monitor Lifecycle Management Tasks in Syskit Point](governance-and-automation/lifecycle-management/monitor-lifecycle-management.md)
     * [Run Lifecycle Management Actions in Syskit Point](governance-and-automation/lifecycle-management/lifecycle-management-actions.md)
