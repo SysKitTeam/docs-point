@@ -10,7 +10,7 @@ description: This article lists improvements and bug fixes in Syskit Point versi
 
 **Build number:** XX
 
-**Release date:** July 16, 2024
+**Release date:** July 17, 2024
 
 ## Get the Latest Version
 
@@ -36,7 +36,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
   * **Storage Versioning Limits** are now available in the Syskit Point Settings for Storage Management. 
     * Storage Versioning Limits help you limit the number of file versions kept in SharePoint document libraries.
     * The versioning limit that can be set is either a **Count Limit or Time Limit**. 
-    * File versions are deleted after exceeding the number of versions or the time period you set. 
+    * File versions are deleted after exceeding the number of versions or the time frame you set. 
     * The Storage Versioning Limits can be applied automatically or manually. 
     * For more details on versioning limits, [take a look at this article.](../../storage-management/versioning-limits.md)
     * During the trial period, the Set Version Limits action cannot be used.
@@ -84,7 +84,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
     * The **Resolved (Last 30 Days)** column shows the number of vulnerabilities resolved per each policy in the last 30 days.
      * The Resolved (Last 30 Days) column includes manually resolved vulnerabilities and those resolved automatically by Syskit Point. 
   * When trying the Syskit Point demo version, you can now see the available actions on the **the Security & Compliance** vulnerability reports.
-    * **Please note:** these actions are preview-only with Syskit Point demo data. To run these actions, your tenant needs to be connect to Syskit Point.
+    * **Please note:** These actions are preview-only with Syskit Point demo data. To run these actions, you must connect your tenant to Syskit Point.
 
 * **Improvements made to the Lifecycle Management!**
   * When **selecting to keep workspaces**, the default period is now set for 90 days when the keep action is selected, and the maximum limit is set to indefinitely.
@@ -101,7 +101,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 * **Improved the Provisioning process** to be more resilient and better handle errors. 
   * This should help avoid provisioning failures when creating new Microsoft Teams.
 
-* **Fixed an issue** with using the - symbol in Provisioning templates. 
+* **Fixed an issue** with using the `-` symbol in Provisioning templates. 
 
 * **Fixed a bug** that showed Access Review e-mails with the date in the UTC timezone instead of local time.
 
