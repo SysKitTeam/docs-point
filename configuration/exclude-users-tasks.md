@@ -8,8 +8,7 @@ The Governance-Excluded Users settings in Syskit Point allow you to exclude cert
 
 * Access Review tasks 
 * Lifecycle Management tasks
-* Security and Compliance Checks tasks
-* Policy-related tasks (for policies where task delegation is enabled)
+* Security and Compliance Checks tasks (for policies where task delegation is enabled)
 
 Take the following steps to set up your governance-excluded users:
 
