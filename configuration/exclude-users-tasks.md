@@ -4,9 +4,8 @@ description: This section describes how to exclude certain users from being able
 
 # Exclude Users from Receiving Tasks
 
-The Governance-Excluded Users settings in Syskit Point allow you to exclude certain users from governance tasks or task-related e-mails.
+The Governance-Excluded Users settings in Syskit Point allow you to exclude certain users receiving any of the following Governance tasks or task-related emails:
 
-The users added to this list do not receive any:
 * Access Review tasks 
 * Lifecycle Management tasks
 * Security and Compliance Checks tasks
