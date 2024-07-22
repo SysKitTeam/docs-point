@@ -38,7 +38,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
     * The versioning limit that can be set is either a **Count Limit or Time Limit**. 
     * File versions are deleted after exceeding the number of versions or the time frame you set. 
     * The Storage Versioning Limits can be applied automatically or manually. 
-    * For more details on versioning limits, [take a look at this article.](../../storage-management/versioning-limits.md)
+    * For more details on versioning limits, [take a look at this article.](../../../storage-management/versioning-limits.md)
     * During the trial period, the Set Version Limits action cannot be used.
   * **The Site Storage Metrics report** has three new views available that detect workspaces without activity
     * The new views available are: 
@@ -50,7 +50,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 * **Added the option to hide the Workspace name from the URL link and e-mails when creating Provisioning templates**. 
   * When the option is enabled, the URL and e-mail contain a number identifier (6-10 characters) instead of the workspace name.
   * Hiding the workspace name from the URL or e-mail can be useful when dealing with confidential workspaces where you don't want to disclose any information, even in the URL or e-mail. Additionally, if you think a workspace name will change with time, you can use this option to have a unique URL and e-mail that doesn't have to change with future changes.
-  * For more details, [please take a look at this article.](../../governance-and-automation/provisioning/hide-workspace-name.md)
+  * For more details, [please take a look at this article.](../../../governance-and-automation/provisioning/hide-workspace-name.md)
 
 ## Improvements & Bug Fixes
 
@@ -63,7 +63,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
   * The Private Workspaces Shared with Everyone policy can now be resolved manually or automatically.
     * **Resolve Manually**: The vulnerability is flagged on the Security and Compliance Dashboard, where manual actions can be taken to resolve it. 
     * **Resolve Automatically**: Syskit Point automatically resolves the vulnerability by removing access granted to Everyone, Everyone except external users and All users groups. 
-    * [For more details on the Private Workspaces Shared with Everyone policy, take a look at this article.](../../governance-and-automation/automated-workflows/private-workspaces-shared-with-everyone-admin.md)
+    * [For more details on the Private Workspaces Shared with Everyone policy, take a look at this article.](../../../governance-and-automation/automated-workflows/private-workspaces-shared-with-everyone-admin.md)
   * **Fixed an issue** that prevented the Private Workspaces Shared with Everyone policy from correctly detecting vulnerabilities.
 
 * **Improvements made to Reports!**
