@@ -123,6 +123,7 @@
   * [Customize E-Mails](configuration/customize-emails.md)
   * [Report Data Limits](configuration/report-data-limits.md)
   * [Turn On Auditing](configuration/turn-on-auditing.md)
+  * [Exclude Users from Receiving Governance Tasks](configuration/exclude-users-tasks.md)
   * [Customize Dashboard](configuration/customize-dashboard.md)
   * [Customize Syskit Point Appearance](configuration/customize-appearance.md)
   * [Configure Your Environment for Storage Management](configuration/configure-point-for-storage-management.md)
