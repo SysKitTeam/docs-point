@@ -67,6 +67,10 @@ The **Archive** action has additional options available:
 
 ![Lifecycle Management - Archive Options](../../.gitbook/assets/enable-lifecycle-management-archive-options.png)
 
+{% hint style="information" %}
+**Please note!** If a user, security group, or mail-enabled security group is added to the Governance-Excluded Users list, they do not receive any Lifecycle Management tasks or task-related emails. [For more details on setting up Governance-Excluded Users, take a look at this article.](../configuration/exclude-users-tasks.md)
+{% endhint %}
+
 ## E-Mail Customization
 
 In the **Customize E-mail section**, you can adjust the look and feel of the e-mail sent out by Syskit Point when an inactive workspace is detected.
