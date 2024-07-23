@@ -25,22 +25,22 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 * **Sensitivity Label and Retention Label columns** are now available on the Permissions Matrix and Externally Shared Content reports. 
 
 * **Improvements made to Storage Management**.  
-  * **Set version limit action** is no longer disabled by default. 
-  * **Set version limit action** now overrides rules and does manual policy assignment. 
-  * **Storage Metrics and Site Storage Metrics** reports now display the currently applied version limit. 
-  * **Renamed file type** "Photos" to "Images" in the Site Storage Metrics report. 
-  * **Improved efficiency** for Storage Metrics and Site Storage Metrics reports. 
+    * **Set version limit action** is no longer disabled by default. 
+    * **Set version limit action** now overrides rules and does manual policy assignment. 
+    * **Storage Metrics and Site Storage Metrics** reports now display the currently applied version limit. 
+    * **Renamed file type** "Photos" to "Images" in the Site Storage Metrics report. 
+    * **Improved efficiency** for Storage Metrics and Site Storage Metrics reports. 
 
 * **Improvements made to the Teams App**.
-  * **Fixed an issue** in the Approval Requests process, which displayed the error: "Something went wrong. Nullable object must have a value." 
-  * **The provisioning process** now displays the required minimum and maximum number of owners. This requirement needs to be satisfied for a user to continue the process. 
-  * **Removed** the deprecated "Wiki" option from the Request Workspace screen. 
+    * **Fixed an issue** in the Approval Requests process, which displayed the error: "Something went wrong. Nullable object must have a value." 
+    * **The provisioning process** now displays the required minimum and maximum number of owners. This requirement needs to be satisfied for a user to continue the process. 
+    * **Removed** the deprecated "Wiki" option from the Request Workspace screen. 
 
 * **Improvements made to Copilot Readiness**.
-  * **Public Teams & Groups were removed** from the Company-wide sharing links. 
-  * When opening **the Company Wide Links report**, the Sensitivity label and Privacy are now displayed by default, Site Type can be enabled manually. 
-  * **Fixed an issue** that prevented the Copilot Readiness tile from being visible on the home dashboard if the user changed the order of the tiles. 
-  * **Fixed an issue** causing the Copilot Readiness tile to crash in some cases. 
+    * **Public Teams & Groups were removed** from the Company-wide sharing links. 
+    * When opening **the Company Wide Links report**, the Sensitivity label and Privacy are now displayed by default, Site Type can be enabled manually. 
+    * **Fixed an issue** that prevented the Copilot Readiness tile from being visible on the home dashboard if the user changed the order of the tiles. 
+    * **Fixed an issue** causing the Copilot Readiness tile to crash in some cases. 
 
 * **Syskit Point now detects if a workspace is archived using Microsoft 365 Archive and sets the correct status**. 
 
