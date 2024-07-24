@@ -156,10 +156,12 @@ This option automatically assigns a new owner to an Orphaned Workspace.
 
 Once a workspace is detected as without any active owners, the following situations are possible:
 
-* When the **owners of a workspace have been disabled or deleted**
+* When the **owners of a workspace have been deleted or have blocked sign-in**
   * The **manager of one of these disabled or deleted owners is assigned as the new owner**.
-    * This can happen only if the manager is not disabled or deleted and has recently logged in.
-  * If the manager of the disabled or deleted users is also disabled, deleted, or has not been recently active **, the Orphaned Workspaces task is assigned to the specific resolver as defined when setting up the policy**.
+    * This can happen only if the manager is not deleted, does not have blocked sign-in and has recently logged in.
+  * If there are **two inactive owners** and they both have an active manager, **the role of workspace owner is assigned to the manager that has the most recent sign-in** date
+    * An e-mail notification is sent to notify this user
+  * If the manager of the deleted users or user with blocked sign-in, also has their sign-in blocked, had been deleted, or has not been recently active **, the Orphaned Workspaces task is assigned to the specific resolver as defined when setting up the policy**.
     * An e-mail notification is sent to notify this user
   * If a **new owner was located**, however, **the action of assigning them** as the new owner of the workspace **ends in failure, the task is assigned to Syskit Point Administrators**.
     * In this case, an e-mail notification is not sent to Syskit Point Administrators. 
@@ -171,4 +173,4 @@ Once a workspace is detected as without any active owners, the following situati
 
 If 1 owner is assigned to a workspace when resolving the Orphaned Workspaces vulnerability, Syskit Point will detect the [Minimum Number of Owners policy](../../point-collaborators/resolve-governance-tasks/minimum-number-of-owners.md) vulnerability, as the default requirement is to have at least 2 owners per workspace. 
 
-{% endhint %}
+{% endhint %} 
