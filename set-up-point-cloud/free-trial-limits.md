@@ -40,7 +40,7 @@ Here you can find the following:
 When the trial expires, you can expect the following:
 * **You can no longer use Syskit Point**
     * When trying to open Syskit Point, you will see the following message: `Your Subscription is not active`
-* **Data collected in Syskit Point is kept for 21 days** 
+* **Data collected in Syskit Point is kept for 21 days after the trial expiration** 
     * New changes in your environment will not be synced (for example, permission changes, newly added Teams, and so on)
     * 21 days after the last day of your trial, all of the data collected in Syskit Point will be erased as per the [DPA (Data Processing Addendum)](https://www.syskit.com/data-processing-addendum/)
     * If, during 21 days after trial expiration, you purchase a Syskit Point license, all of your data will remain intact; Syskit Point will continue to sync changes after license purchase
