@@ -146,3 +146,29 @@ The following are available on the task screen:
 If 1 owner is assigned to a workspace when resolving the Orphaned Workspaces vulnerability, Syskit Point will detect the [Minimum Number of Owners policy](../../point-collaborators/resolve-governance-tasks/minimum-number-of-owners.md) vulnerability, as the default requirement is to have at least 2 owners per workspace. 
 
 {% endhint %}
+
+
+## 3-Stage Process
+
+### Automatically Assign New Owners
+
+This option automatically assigns a new owner to an Orphaned Workspace. 
+
+Once a workspace is detected as without any active owners, the following situations are possible:
+
+* When the **owners of a workspace have been disabled or deleted**
+  * The **manager of one of these disabled or deleted owners is assigned as the new owner**.
+    * This can happen only if the manager is not disabled or deleted and has recently logged in.
+  * If the manager of the disabled or deleted users is also disabled, deleted, or has not been recently active **, the Orphaned Workspaces task is assigned to the specific resolver as defined when setting up the policy**.
+    * An e-mail notification is sent to notify this user
+  * If a **new owner was located**, however, **the action of assigning them** as the new owner of the workspace **ends in failure, the task is assigned to Syskit Point Administrators**.
+    * In this case, an e-mail notification is not sent to Syskit Point Administrators. 
+
+
+{% hint style="info" %}
+
+**Please note:** The Orphaned Workspaces policy vulnerability is detected when there are 0 active owners assigned to a workspace. 
+
+If 1 owner is assigned to a workspace when resolving the Orphaned Workspaces vulnerability, Syskit Point will detect the [Minimum Number of Owners policy](../../point-collaborators/resolve-governance-tasks/minimum-number-of-owners.md) vulnerability, as the default requirement is to have at least 2 owners per workspace. 
+
+{% endhint %}
