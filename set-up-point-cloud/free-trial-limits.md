@@ -35,8 +35,12 @@ Here you can find the following:
 
 ![Syskit Point - Trial Banner](../.gitbook/assets/free-trial-limits-trial-banner.png)
 
-{% hint style="warning" %}
-**Please note!**&#x20;
+## Free Trial Expiration
 
-When the trial ends, the sync option will turn off, and you will no longer be able to click the sync button, download reports, or complete other actions. 21 days after the last day of your trial, all of the data collected in Syskit Point will be erased as per the [DPA (Data Processing Addendum)](https://www.syskit.com/data-processing-addendum/). If, during those 21 days, you purchase a Syskit Point license, all of your data will remain intact.
-{% endhint %}
+When the trial expires, you can expect the following:
+* **You can no longer access Syskit Point**
+    * When trying to open Syskit Point, you will see the following message: `Your Subscription is not active`
+* **Data collected in Syskit Point is kept for 21 days after the trial expiration** 
+    * New changes in your environment will not be synced (for example, permission changes, newly added Teams, and so on)
+    * 21 days after the last day of your trial, all of the data collected in Syskit Point will be erased as per the [DPA (Data Processing Addendum)](https://www.syskit.com/data-processing-addendum/)
+    * If, during 21 days after trial expiration, you purchase a Syskit Point license, all of your data will remain intact; Syskit Point will continue to sync changes after license purchase
