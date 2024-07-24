@@ -38,7 +38,7 @@ Here you can find the following:
 ## Free Trial Expiration
 
 When the trial expires, you can expect the following:
-* **You can no longer use Syskit Point**
+* **You can no longer access Syskit Point**
     * When trying to open Syskit Point, you will see the following message: `Your Subscription is not active`
 * **Data collected in Syskit Point is kept for 21 days after the trial expiration** 
     * New changes in your environment will not be synced (for example, permission changes, newly added Teams, and so on)
