@@ -163,6 +163,10 @@ Once a workspace is detected as without any active owners, the following situati
     * An e-mail notification is sent to notify this user
   * If the manager of the deleted users or user with blocked sign-in, also has their sign-in blocked, had been deleted, or has not been recently active **, the Orphaned Workspaces task is assigned to the specific resolver as defined when setting up the policy**.
     * An e-mail notification is sent to notify this user
+
+
+![Automatically Assign New Owner E-mail](../../.gitbook/assets/orphaned-resources-reassign-owner-email.png)
+
   * If a **new owner was located**, however, **the action of assigning them** as the new owner of the workspace **ends in failure, the task is assigned to Syskit Point Administrators**.
     * In this case, an e-mail notification is not sent to Syskit Point Administrators. 
 

@@ -76,6 +76,9 @@ The Manage Policies screen opens where you can:
 
 After clicking the **Manage Policies (6)** button, the **Manage Policy** dialog opens, where you can **select a policy** and **apply** the chosen policy on the selected workspaces grouped by the policy type.
 
+Alternatively, 
+
+
 {% hint style="information" %}
 
 When manually applying a policy, you **receive a warning** that it will replace any automatically assigned policies. The warning will still appear even if you do not have Rules set up.  
@@ -83,6 +86,8 @@ When manually applying a policy, you **receive a warning** that it will replace 
 {% endhint %}
 
 ![Manage Policies Dialog](../../.gitbook/assets/set-up-automated-workflows-apply-policy-dialog.png)
+
+
 
 
 
