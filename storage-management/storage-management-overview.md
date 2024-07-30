@@ -55,7 +55,9 @@ You can also find the most important storage-related information for the largest
 Selecting one or more sites provides the following actions:
   * **Change Storage Limit (11)** - lets you change the storage limit for sites.
     * [For more details on how to set different storage limits, take a look at the Limit Storage Usage article.](../storage-management/limit-storage-usage.md)
-  * **Clean Up File Versions (12)** - lets you clean up old file versions, several file versions, or all but the last file version.
+  * **Set Version Limit (12)** - lets you set up a limit on the file versions kept per site based on your settings and preference.
+    * [For more details how to set up versioning limits, take a look at the Storage Versioning Limits article.](../storage-management/versioning-limits.md)
+  * **Clean Up File Versions (13)** - lets you clean up old file versions, several file versions, or all but the last file version.
     * [For more details on all of the ways you can complete the Clean Up File action, take a look at the Free Up Storage article.](../storage-management/free-up-storage.md)
 
 Once you detect the largest sites with the help of the Storage Metrics report, you can **click the name of the site** to open the site-specific Storage Metrics report.
