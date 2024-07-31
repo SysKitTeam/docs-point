@@ -6,23 +6,23 @@ description: This article outlines the most frequently asked questions about Sys
 
 ## How is Syskit Point licensed?
 
-The price for Syskit Point is calculated based on the number of licensed Microsoft 365 users in your tenant. Syskit Point does not count any licenses that have FREE in their name when determining price. You can choose between available Syskit Point plans according to your needs. Check out the [feature comparison](https://www.syskit.com/products/point/pricing/).
+The price for Syskit Point is calculated based on the number of licensed Microsoft 365 accounts in your tenant. Syskit Point does not count any licenses that have FREE in their name when determining price. You can choose between available Syskit Point plans according to your needs. Check out the [feature comparison](https://www.syskit.com/products/point/pricing/).
 
 ## Can I try Syskit Point for free?
 
-You can sign up for a 21-day free trial of our Governance plan. No credit card is needed for the trial activation.
+You can sign up for a 21-day free trial. No credit card is needed for the trial activation.
 
-## Can I change my edition?
+## Can I change my plan?
 
-To change the edition, please visit our Subscriptions portal [https://subscriptions.syskit.com/](https://subscriptions.syskit.com/) or [contact us](https://www.syskit.com/company/contact-us).
+To change your subscription plan, please visit our Subscriptions portal [https://subscriptions.syskit.com/](https://subscriptions.syskit.com/) or [contact us](https://www.syskit.com/company/contact-us).
 
-## What does Syskit consider as a licensed Microsoft 365 user?
+## What does Syskit consider as a licensed Microsoft 365 account?
 
 Syskit Point licenses are calculated based on your M365 assigned licenses. Only unique users and resources will be counted. Guest Users only fit into that category if they have a license assigned. Licenses that have FREE in their name are not counted when calculating cost. [Read more details here](../licensing-activation/licensed-users-count.md).
 
 ## What will my Syskit Point subscription cost?
 
-Use our pricing calculator to determine your exact price. For more than 5.000 users, contact us for a custom quote to explore our Data Center options.
+Please use our [pricing calculator](https://www.syskit.com/products/point/pricing/) to determine your exact price. 
 
 ## What's the difference between Syskit Point Cloud plan and Data Center plan?
 
@@ -32,11 +32,11 @@ Our Data Center plan enables you the flexibility to deploy on an infrastructure 
 
 ## Do you offer monthly subscriptions?
 
-Monthly subscriptions are available for our Management, Security & Compliance, and Governance Cloud plans. Use our pricing calculator to determine [your exact price](https://www.syskit.com/products/point/pricing/).
+Monthly subscriptions are available for our Management, Security, and Enterprise Cloud plans, while the Governance plan is available only on a yearly basis. Use our pricing calculator to determine [your exact price](https://www.syskit.com/products/point/pricing/).
 
-## Is there a user limit for Syskit Point editions?
+## Is there a user limit for Syskit Point plans?
 
-You may license up to 10.000 users for our Cloud editions. For Data Center edition, only the sky is the limit. It is currently being used successfully by organizations with more than 300.000 users on a daily basis.
+You may license up to 10.000 users for our Cloud plans. For Data Center edition, only the sky is the limit. It is currently being used successfully by organizations with more than 300.000 users on a daily basis.
 
 ## How long are the collected audit logs kept?
 
@@ -51,7 +51,7 @@ The minimum number of users you can purchase a Syskit Point Cloud plan for is 10
 
 The minimum number of users for the Data Center plan is 1000 licensed Microsoft 365 users.
 
-## I purchased Data Center edition. How do I acquire Configuration Inventory Manager, Analytics&Adoption, or Power BI Companion App?
+## I purchased Data Center edition. How do I acquire the Analytics&Adoption, or Power BI Companion App?
 
 Please [contact us](https://www.syskit.com/company/contact-us) or your dedicated sales/CSM representative for additional information on how to acquire these additional modules for Syskit Point.
 
