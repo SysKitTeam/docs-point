@@ -59,12 +59,12 @@ This opens the Remove Access for Shadow users screen, where you can:
 
 **Please note** the following situations might occur:
 
-* A Microsoft 365 Group has access to documents in a Microsoft Teams group and shows up as a shadow user. 
+* A Microsoft 365 Group (Marketing) has access to documents in a Microsoft Teams channel (Sales) and shows up as a shadow user. 
 
-* User 1 is a part of a Microsoft 365 Group. User 1 shows up as a shadow user on the Microsoft Team, even though he is not an owner or member of. This happens if the Microsoft 365 Group that User 1 is a part of has access to documents in the Microsoft Team. 
+* John is a part of a Microsoft 365 Group titled Marketing. John shows up as a shadow user on the Microsoft Team titled Sales, even though he is not an owner or member of it. This happens if the Marketing Group that John is a part of has access to documents in the Sales Microsoft Team. 
 
-* User 2 is also a part of a Microsoft 365 Group. However, User 2 is also an owner or member of the Microsoft Team to which the Microsoft 365 Group has access. Therefore, User 2 will not show as a shadow user for the Team. 
+* Joanna is also a part of a the Marketing Group. However, Joanna is also an owner or member of the Sales Microsoft Team to which the Marketing Group has access. Therefore, Joanna will not show as a shadow user for the Team. 
 
-* When the Microsoft 365 Group has its access removed from the Microsoft Team, User 1 no longer shows up as a shadow user.
+* When the Marketing Group has its access removed from the Sales Microsoft Team, John no longer shows up as a shadow user.
 
 {% endhint %}
