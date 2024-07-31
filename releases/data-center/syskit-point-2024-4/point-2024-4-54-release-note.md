@@ -36,7 +36,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 * **Improvements made to Storage Management!**
   * **The Remove Version Limit action** was added to the Storage Metrics and Site Storage Metrics reports.
     * Use this to **remove the manually applied** version limit set on a site.
-    * For more details on versioning limits, [take a look at this article.](../../storage-management/versioning-limits.md)
+    * For more details on versioning limits, [take a look at this article.](../../../storage-management/versioning-limits.md)
   * **Set version limit action** is no longer disabled by default. 
   * **Set version limit action** now overrides rules and does manual policy assignment. 
   * **Storage Metrics and Site Storage Metrics** reports now display the currently applied version limit. 
