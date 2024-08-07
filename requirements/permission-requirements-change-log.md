@@ -60,14 +60,14 @@ Depending on which version you are upgrading to, below you can find the list of 
 
 ### Syskit Point Data Center 2024.4.45
 
-**Consent is required if you are using the Access Request feature in order to enable adding members and owners to security groups.**
+**Consent is required if you are using the Access Request feature to enable the addition of members and owners to security groups.**
 
 **The following permissions were added to the existing Syskit Point app registrations**:
 
 | App Registration    | API/Permissions Name                     | Permission                        | Type      | Reason                                                                                         |
 | ------------------- | ---------------------------------------- | --------------------------------- | --------- | ---------------------------------------------------------------------------------------------- |
-| Syskit Point Service | Microsoft Graph/GroupMember.ReadWrite.All | Read and write all group memberships | Application | Allows Syskit Point to add  users in AAD to security groups after an access request is approved by group owner. |
-| Syskit Point Service | Microsoft Graph/RoleManagement.ReadWrite.All | Read and write all directory RBAC settings | Application | Allows Syskit Point to add  users in AAD to security groups after an access request is approved by group owner. |
+| Syskit Point Service | Microsoft Graph/GroupMember.ReadWrite.All | Read and write all group memberships | Application | Allows Syskit Point to add users in AAD to security groups after an access request is approved by the group owner. |
+| Syskit Point Service | Microsoft Graph/RoleManagement.ReadWrite.All | Read and write all directory RBAC settings | Application | Allows Syskit Point to add users in AAD to security groups after an access request is approved by the group owner. |
 
 ### Syskit Point Data Center 2023.4.1
 
