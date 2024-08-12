@@ -18,6 +18,4 @@ description: This article lists improvements and bug fixes in the Syskit Point C
   * After selecting an active sensitivity label from the filter, the Sharing Links report shows all Sharing Links with files containing the selected sensitivity label.
   * If the no label option is selected, only the Sharing Links whose files do not contain a sensitivity label are shown. 
 
-* **Fixed a bug** that caused the CSP (Cloud Service Provider) to block the function of the Configuration Inventory. 
-
 * **Various improvements and minor UX and UI fixes are available**.
