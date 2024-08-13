@@ -7,7 +7,7 @@ description: This article explains how to connect a service account to Syskit Po
 **A service account** in Syskit Point is utilized for:
  * [The Configuration Inventory module](../configuration-inventory/configuration-inventory-requirements.md)
  * [Sensitivity labels in provisioning templates](../governance-and-automation/provisioning/enable-sensitivity-labels.md)
- * [Applying Versioning limits to workspaces via rules and running cleanup actions based on set Versioning limits](../storage-management/versioning-limits.md)
+ * [Applying Versioning limits to workspaces via rules](../storage-management/versioning-limits.md)
 
 To connect the service account in Syskit Point:
 * **Navigate to Settings** > **General** > **Connected Tenant**
