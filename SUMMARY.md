@@ -141,6 +141,7 @@
   * [Cleanup & Health Reports](reporting/cleanup-and-health-reports.md)
   * [Licenses Reports](reporting/licenses-reports.md)
   * [Analytics Reports](reporting/analytics-reports.md)
+  * [Sensitivity Labels Report](reporting/sensitivity-labels.md)
   * [Power BI Reports](reporting/power-bi-reports.md)
 * [Storage Management](storage-management/README.md)
   * [Storage Management Overview](storage-management/storage-management-overview.md)
