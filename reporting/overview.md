@@ -62,6 +62,7 @@ Reports in Syskit Point can be divided into the following categories:
 * [Cleanup & Health Reports](cleanup-and-health-reports.md)
 * [Licenses Reports](licenses-reports.md)
 * [Analytics Reports](analytics-reports.md)
+* [Sensitivity Labels Report](sensitivity-labels.md)
 * [Power BI Reports](power-bi-reports.md)
 
 
