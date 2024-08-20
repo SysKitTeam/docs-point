@@ -1,8 +1,8 @@
 ---
-description: This article lists improvements and bug fixes in the Syskit Point Cloud version 2024.4.58.1
+description: This article lists improvements and bug fixes in the Syskit Point Cloud version 2024.4.58.15
 ---
 
-# August 19, 2024
+# August 20, 2024
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think](https://www.syskit.com/company/contact-us/).
 
