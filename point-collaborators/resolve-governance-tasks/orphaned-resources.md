@@ -9,16 +9,21 @@ description: This article explains how to resolve the Orphaned Workspaces policy
 When a team no longer has an active owner, there is no longer a person on the other end of an automated governance policy which means the site could potentially have shared files that are outdated and pose a serious security risk. 
 
 {% hint style="info" %}
-Syskit Point Administrators can [decide whether specific users will be responsible for assigning new owners or existing team/group members will suggest new owners](set-up-policies.md).
-The first option is a **1-stage process** where the policy vulnerability is resolved when you promote members to owners or add new owners.
-The second option is a **2-stage process** where after the members suggest new owners, an additional step is required from defined users to approve the suggestion. 
+When configuring the Orphaned Workspaces policy, Syskit Point Administrators can [decide how the process of assigning owners to orphaned workspaces will look like](../../governance-and-automation/automated-workflows/orphaned-resources-admin.md). There are 3 options available:
+* **Specific users are asked to assign new owners**
+  * 1-stage process where the policy vulnerability is resolved when you promote members to owners or add new owners
+* **Existing team/group members receive a task to suggest new owners**
+  * 2-stage process where, after the members suggest new owners, an additional step is required from defined users to approve the suggestion
+*  **Syskit Point automatically assigns new owners**
+  * The last owner's manager is assigned as the new group owner
+  * In case the manager is not found, a defined user gets a task to resolve the vulnerability
 {% endhint %}
 
-In both cases, Syskit Point will send you an e-mail that will guide you through the process of resolving the policy vulnerability. 
+In all cases, Syskit Point will send you an e-mail that will guide you through resolving the policy vulnerability, or notify you if you were assigned as a workspace owner. 
 
-Below, both cases are separately explained in more detail.
+Below, all cases are explained in more detail.
 
-## 1-Stage Process
+## Specific Users Assign New Owners
 
 ### Policy Vulnerability E-Mail
 
@@ -61,7 +66,7 @@ The following are available on the task screen if you were selected to assign ne
 * **Who and when resolved the policy vulnerability**
 * **View Details button that opens the History screen in Syskit Point showing all the activities that were performed within the workflow**
 
-## 2-Stage Process
+## Members Suggest New Owners
 
 ### Members’ Policy Vulnerability E-Mail
 
@@ -91,16 +96,16 @@ The following are available on the task screen:
 
 {% hint style="warning" %}
 **Please note!**
-When you suggest a new owner or the team/group to be archived or deleted, **your suggestion is forwarded to the approvers along with suggestions from other members**. The **approvers will finalize the actions and resolve the policy vulnerability** based on the given suggestions. 
+When you suggest a new owner or the team/group to be archived or deleted, **your suggestion is forwarded to the approvers along with suggestions from other members**. The **approvers will finalize the actions and resolve the policy vulnerability** based on the suggestions. 
 {% endhint %}
 
 ### Members’ Policy Vulnerability Task Resolved
 
-**After you resolve your task, the History screen opens**, giving you an overview of all actions performed within the workflow so far.
+**After you resolve your task, the History screen opens**, giving you an overview of all actions performed within the workflow.
 
 ![Policy Vulnerability - History Screen](../../.gitbook/assets/orphaned-resources-policy-history-screen-suggested.png)
 
-In the second stage of the process, **if you are defined to approve members' suggestions** for the team/group that has no owners, you will receive an e-mail asking you to assign new owners and resolve the policy vulnerability. 
+In the second stage of the process, **if you are defined to approve members' suggestions** for the team/group having no owners, you will receive an e-mail asking you to assign new owners and resolve the policy vulnerability. 
 
 {% hint style="warning" %}
 **Please note!**
@@ -148,7 +153,7 @@ If 1 owner is assigned to a workspace when resolving the Orphaned Workspaces vul
 {% endhint %}
 
 
-## 3-Stage Process
+## Syskit Point Automatically Assigns New Owners
 
 ### Automatically Assign New Owners
 
@@ -158,10 +163,10 @@ Once a workspace is detected as without any active owners, the following situati
 
 * When the **owners of a workspace have been deleted or have blocked sign-in**
   * The **manager of one of these disabled or deleted owners is assigned as the new owner**.
-    * This can happen only if the manager is not deleted, does not have blocked sign-in and has recently logged in.
-  * If there are **two inactive owners** and they both have an active manager, **the role of workspace owner is assigned to the manager that has the most recent sign-in** date
+    * This can happen only if the manager is not deleted and does not have blocked sign-in.
+  * If there are **two inactive owners** and they both have an active manager, **the role of workspace owner is assigned to the manager having the most recent sign-in** date.
     * An e-mail notification is sent to notify this user
-  * If the manager of the deleted users or user with blocked sign-in, also has their sign-in blocked, had been deleted, or has not been recently active **, the Orphaned Workspaces task is assigned to the specific resolver as defined when setting up the policy**.
+  * If the manager of the deleted user (or user with blocked sign-in), also has their sign-in blocked, had been deleted, or has not been recently active **, the Orphaned Workspaces task is assigned to the specific resolver as defined when setting up the policy**.
     * An e-mail notification is sent to notify this user
 
 
