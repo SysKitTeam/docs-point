@@ -17,7 +17,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 * **New Sensitivity Labels report is now available!**
   * The Sensitivity Labels report **shows a complete overview of your Sensitivity Labels as well as summarized data about your workspaces and files**. 
   * The report shows the name of the sensitivity label, the priority, the status of the label, the scope it covers, the number of workspaces affected, and the number of files affected. 
-  * The report **can be accessed through Reports ** by finding and clicking the Sensitivity Labels report to generate it or by **selecting the Sensitivity Labels category from the Filter**. 
+  * The report **can be accessed through Reports** by finding and clicking the Sensitivity Labels report to generate it or by **selecting the Sensitivity Labels category from the Filter**. 
   * For more details on the report, [take a look at the Sensitivity Labels report article](../../reporting/sensitivity-labels.md).
 
 * **Fixed an issue** with the License reports, where changing the currency in Settings did not reflect the new currency on the dashboard Licensing tile.
