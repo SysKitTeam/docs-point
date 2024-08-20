@@ -12,7 +12,7 @@ Use this report to ensure sensitive data is properly labeled and assigned to the
 
 ### Generate Report
 
- * **Click the Reports button** located on the left side of the screen.
+* **Click the Reports button** located on the left side of the screen.
 * **Select the Sensitivity Labels category in the filter** you can find in the upper left corner.
 * **Click the Sensitivity Labels report tile** to be redirected to the Selection screen.
 
