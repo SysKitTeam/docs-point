@@ -23,10 +23,9 @@ After clicking the **Sensitivity Labels** report tile, the Sensitivity Labels re
 The default columns displayed in the report are:
       
 * **Name** of the sensitivity labels
-   * The two available are **Confidential** and **Disabled**
 * **Priority** shows the level of priority for the label, with 0 being the lowest and 1 being the highest
 * **Status** shows the current status of the label, whether it is applied to workspaces or not
-* **Scope** shows a list of resources the sensitivity label is applied to (e.g., File, Email, Site, Unified Group, Schematized data assets)
+* **Scope** shows a list of resources the sensitivity label can be applied to (e.g., File, Email, Site, Unified Group, Schematized data assets)
 * **Workspaces Affected** shows the number of workspaces that the sensitivity label is applied to 
 * **Files Affected** shows the number of files the sensitivity label is applied to
       
