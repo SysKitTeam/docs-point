@@ -86,6 +86,8 @@ When manually applying a policy, you **receive a warning** that it will replace 
 
 
 
+
+
 {% hint style="success" %}
 **Once a policy is applied, Syskit Point automates detection for a policy vulnerability**. 
 {% endhint %}
