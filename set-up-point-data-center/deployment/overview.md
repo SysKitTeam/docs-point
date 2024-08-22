@@ -11,6 +11,16 @@ After the deployment, the key Azure resources shown in the architecture diagram 
 
 ![Syskit Point - Architecture Diagram](../../.gitbook/assets/overview-architecture-diagram.png)
 
+Find additional diagrams available for download in the following table:
+
+| Diagram | Description | PDF |
+| :--- | :--- | :--- |
+| Syskit Point Architecture Diagram | Syskit Point is being deployed as an Azure App application into an Azure subscription. The individual components can be scaled as needed based on the size of the customer or the amount of data. | [Download File](../../.gitbook/assets/Syskit-Point-Architecture-Diagram.pdf) |
+| Microsoft 365 Estate With Syskit Point | Syskit Point integrates with your Microsoft 365 infrastructure to provide you with a comprehensive understanding of your Microsoft 365 estate. | [Download File](../../.gitbook/assets/Microsoft-365-Estate-With-Syskit-Point.pdf) |
+| Syskit Point Azure Network Diagram | By default, the Front-end and Back-end app services are accessible from the Public Internet. The rest of the utilized Azure resources – Key Vault, Azure SQL Server, Azure Cosmos DB and Storage Account – are secured behind firewalls and private connections. When deploying Syskit Point, there are two options available when considering Azure network resources. | [Download File](../../.gitbook/assets/Syskit-Point-Azure-Network-Diagram.pdf) |
+| Syskit Point Reference Architecture Diagram | A reference architecture diagram is a model of the infrastructure that Syskit Point’s Microsoft commercial marketplace solution relies on. | [Download File](../../.gitbook/assets/Syskit-Point-Reference-Architecture-Diagram.pdf)|
+
+
 [For more information about Syskit Point's Azure network configuration, please read the Azure Networking article](azure-networking.md).
 
 ## Getting Started
