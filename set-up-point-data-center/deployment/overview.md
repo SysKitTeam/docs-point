@@ -23,7 +23,7 @@ Find additional diagrams available for download in the following table:
 These are the 3 most important steps to get you started with Syskit Point:
 
 1. [Deploy Syskit Point](deploy-syskit-point.md) to an empty **Azure resource group**
-   * Ask your **Azure team** to create a dedicated Azure resource group and deploy [Syskit Point from the Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit\_point)
+   * Ask your **Azure team** to create a dedicated Azure resource group and deploy [Syskit Point from the Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit_point)
    * When deploying, make sure to configure Azure resources following the [minimum requirements](system-requirements.md)
    * After the deployment, you will be able to access the Syskit Point web application by opening the defined URL
 2. [Activate Syskit Point](../activation/activate-syskit-point.md)
