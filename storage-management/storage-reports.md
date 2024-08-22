@@ -1,20 +1,20 @@
 ---
-description: Storage Reports provide information on your tenant-wide storage consumption. 
+description: Storage Reports provide information on your tenant-wide storage consumption.
 ---
 
 # Storage Reports
 
 In this article, you can locate information on:
 
-* [Storage Metrics](#storage-metrics)
-* [Site Storage Metrics](#site-storage-metrics)
-* [File Storage Details](#file-storage-details)
+* [Storage Metrics](storage-reports.md#storage-metrics)
+* [Site Storage Metrics](storage-reports.md#site-storage-metrics)
+* [File Storage Details](storage-reports.md#file-storage-details)
 
 Use the Storage Metrics report to view your **tenant-wide storage consumption** and **determine if you're at risk of running out of storage**, the Site Storage Metrics report to gain **insight into the storage used by a particular site** and identify any potentially unusual spikes, and the File Storage Details report to view all of the versions of your selected file with the most important information about each version.
 
 ## Storage Metrics
 
-The Storage Metrics report displays your tenant-wide storage consumption over time.  
+The Storage Metrics report displays your tenant-wide storage consumption over time. &#x20;
 
 This report lets you check if you are at risk of running out of storage so that you can decrease clutter by optimizing or expanding your storage capability.
 
@@ -30,36 +30,34 @@ Once the report is generated successfully, the following information is availabl
 
 * **The Tenant Storage tile** on the left side shows the percentage of used storage out of the total available storage for your tenant.
 * **The Potential Savings tile** shows how much you can save by cleaning up File versions older than X months or All but the last X number of file versions.
-    * You can **set your values for X** through Settings > Storage Management, which you can quickly access by **clicking the Settings button in the top right corner of the tile**
+  * You can **set your values for X** through Settings > Storage Management, which you can quickly access by **clicking the Settings button in the top right corner of the tile**
 * **The Storage Trend chart** shows a graph that depicts your storage usage across time over the last 180 days.
-
 
 The following data will be displayed in the columns:
 
 * **Name**; the name of the site.
-    * Clicking the name opens the Site Storage report for the selected workspaces.
+  * Clicking the name opens the Site Storage report for the selected workspaces.
 * **Size**; shows the size of the site.
 * **Last 180 Days**; shows the storage trend for a site during this period along with an arrow that signifies the growth or reduction. Hovering above it gives you a percentage of how much.
-    * By default, the Last 180 Days column is shown on the report, but the following views are also available: **Largest Growth in last 7 days, Largest Growth in last 30 days, Largest Growth in last 90 days**.
+  * By default, the Last 180 Days column is shown on the report, but the following views are also available: **Largest Growth in last 7 days, Largest Growth in last 30 days, Largest Growth in last 90 days**.
 * **State**; show the state of the site, whether it is active, archived, or other.
-    * Keep in mind that soft deleted and archived sites also count towards your storage usage until they are permanently deleted. 
+  * Keep in mind that soft deleted and archived sites also count towards your storage usage until they are permanently deleted.
 * **Storage Limit**; show the storage limit for the site.
 * **% of Limit**; shows the percentage of how close to the storage limit your site is.
-* **Alert on % of Limit**; shows the percentage at which you are alerted of being close to your storage limit. 
+* **Alert on % of Limit**; shows the percentage at which you are alerted of being close to your storage limit.
 * **Last Activity**; shows the date the last activity on the site happened.
 
-{% hint style="information" %}
-**Please note:** If the **Last Activity column is empty** for a workspace, it means that the last activity for that workspace was performed before Syskit Point was deployed. Additionally, the activity is older than the Microsoft 365 audit logs retention period and can no longer be collected and processed by Syskit Point. 
+{% hint style="info" %}
+**Please note:** If the **Last Activity column is empty** for a workspace, it means that the last activity for that workspace was performed before Syskit Point was deployed. Additionally, the activity is older than the Microsoft 365 audit logs retention period and can no longer be collected and processed by Syskit Point.
 
 Storage data for workspaces is collected from the **date of your initial Syskit Point deployment**.
 
-**If your Point was deployed before the Storage Management feature** integration, the data is collected from the date you **update your Syskit Point version** to the one that contains the Storage Management feature. 
-
+**If your Point was deployed before the Storage Management feature** integration, the data is collected from the date you **update your Syskit Point version** to the one that contains the Storage Management feature.
 {% endhint %}
 
 ## Site Storage Metrics
 
-The Site Storage Metrics report displays your storage consumption across your sites over time.  
+The Site Storage Metrics report displays your storage consumption across your sites over time. &#x20;
 
 The report lets you check the amount of storage used by sites in your tenant. This makes it easier to maintain and organize your sites to optimize storage per site.
 
@@ -75,21 +73,21 @@ Once the site report is successfully generated, the following information is ava
 
 * **The Site Trend chart** shows a graph that depicts your site storage usage over time in the last 180 days.
 * **The Site Storage Usage tile** on the right side shows the percentage of used storage out of the total number of available storage for your site.
-* **The File Type tile** that shows a chart and list of the types of files in your site and the amount of storage each file takes up. 
-    * The File types tracked are the following:
-        * **Videos**: mp4, mov, wmv, avi, avchd, webm
-        * **Photos**: jpeg, jpg, png, gif, raw, psd
-        * **Office**: doc, docx, rtf, xls, xlsx, ppt, pptx, pdf, txt, one
-        * **Other**: any extensions not categorized in one of the above groups
-* **The File Version Cleanup tile** shows the amount of space you can free up by cleaning up the outdated versions of the site. 
+* **The File Type tile** that shows a chart and list of the types of files in your site and the amount of storage each file takes up.
+  * The File types tracked are the following:
+    * **Videos**: mp4, mov, wmv, avi, avchd, webm
+    * **Photos**: jpeg, jpg, png, gif, raw, psd
+    * **Office**: doc, docx, rtf, xls, xlsx, ppt, pptx, pdf, txt, one
+    * **Other**: any extensions not categorized in one of the above groups
+* **The File Version Cleanup tile** shows the amount of space you can free up by cleaning up the outdated versions of the site.
 
-The Largest Files & Folders section of the report is by default, set as a **Files Only view**, which means it shows a list of all files on the site. You can change the report to be seen as the **Site Structure view** by clicking the **Show by:** button located on the top right side of the Largest Files & Folders part of the report.  
+The Largest Files & Folders section of the report is by default, set as a **Files Only view**, which means it shows a list of all files on the site. You can change the report to be seen as the **Site Structure view** by clicking the **Show by:** button located on the top right side of the Largest Files & Folders part of the report. &#x20;
 
 The following data will be displayed in the columns:
 
 * **Name**; the name of the site.
-    * Clicking the name opens the Site Details page of the selected workspaces.
-    * Clicking the arrow symbol next to the name expands the site details to show all content included on the site.
+  * Clicking the name opens the Site Details page of the selected workspaces.
+  * Clicking the arrow symbol next to the name expands the site details to show all content included on the site.
 * **Type**; shows what type of site or content it is.
 * **Extension**; shows any extensions to the site or content.
 * **Size**; shows the size of the site or content.
@@ -100,15 +98,15 @@ The following data will be displayed in the columns:
 * **Storage Limit**; show the storage limit for the site.
 * **Last Activity**; shows the date the last activity on the site or content happened.
 
-**Selecting the site** or one or more of the files included in the site provides the **action to Clean Up File Versions**, located on the right side of the screen under the **Manage section**. 
+**Selecting the site** or one or more of the files included in the site provides the **action to Clean Up File Versions**, located on the right side of the screen under the **Manage section**.
 
-{% hint style="information" %}
+{% hint style="info" %}
 **Please note!** The Clean Up File Versions action is only available in the Governance plan or above. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 {% endhint %}
 
 ## File Storage Details
 
-{% hint style="information" %}
+{% hint style="info" %}
 **The File Storage Details Report** is only available in the Governance plan or above. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 {% endhint %}
 
@@ -142,11 +140,11 @@ Above the columns of the report, you can find:
 The following data will be displayed in the columns:
 
 * **Version Number** of the file.
-    * The version number can be a Major version, which is represented by whole numbers (e.g., 1.0), or a Minor version, which is represented by decimal numbers (e.g., 1.3). If your document library is configured to use Check In/Check Out, every change made by a user with a checked-out document will create a minor version. On the other hand, lists usually only have Major versions.
+  * The version number can be a Major version, which is represented by whole numbers (e.g., 1.0), or a Minor version, which is represented by decimal numbers (e.g., 1.3). If your document library is configured to use Check In/Check Out, every change made by a user with a checked-out document will create a minor version. On the other hand, lists usually only have Major versions.
 * **Created on**; the date the version of the file was created.
-* **Created by**; the person by whom this file version was created. 
-* **Size**; shows the size of the file version. 
+* **Created by**; the person by whom this file version was created.
+* **Size**; shows the size of the file version.
 
-You can also **export this report as a PDF or Excel file**, or **schedule it**, to have it regularly delivered to your email. 
+You can also **export this report as a PDF or Excel file**, or **schedule it**, to have it regularly delivered to your email.
 
-**Selecting one or more of the file versions** provides the **action to Delete Version**, located on the right side of the screen under the **Manage section**. 
+**Selecting one or more of the file versions** provides the **action to Delete Version**, located on the right side of the screen under the **Manage section**.

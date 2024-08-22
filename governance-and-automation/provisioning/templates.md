@@ -1,8 +1,8 @@
 ---
 description: >-
- Syskit Point templates help you define which types of workspaces your
- end-users can request and create. Each template contains properties and rules
- that guide the creation process.
+  Syskit Point templates help you define which types of workspaces your
+  end-users can request and create. Each template contains properties and rules
+  that guide the creation process.
 ---
 
 # Templates
@@ -56,14 +56,15 @@ When creating a template for Microsoft Teams, you will need to define the follow
   * If you leave this property empty, default apps or channels will not be created; it will be a blank MS team.
   * Syskit Point integrates with team templates you have created in the **Microsoft 365 Teams admin center**. When you enter a team template ID, Syskit Point will create apps, tabs, and channels you defined there.
 
- To review currently available templates in your M365 tenant and use them in Syskit Point:
+To review currently available templates in your M365 tenant and use them in Syskit Point:
 
 1. Navigate to the Microsoft Teams [admin center](https://admin.teams.microsoft.com/)
 2. Under the tab Teams, select **Team templates**
 3. Click the name of the template to review the apps and channels they include
 4. Copy the Template ID and paste it into the Syskit wizard
 
- To create a brand-new Teams template in the admin center, follow the [Microsoft guide](https://docs.microsoft.com/en-us/microsoftteams/create-a-team-template).
+To create a brand-new Teams template in the admin center, follow the [Microsoft guide](https://docs.microsoft.com/en-us/microsoftteams/create-a-team-template).
+
 * **Privacy (4)** – set if workspaces created using this template will be public or private. You can leave this decision to your end-users as well.
 
 ![New Teams Template Dialog - Step 1](../../.gitbook/assets/provisioning-templates-teams-dialog-step-1.png)
@@ -85,7 +86,8 @@ When creating a template for Microsoft Teams, you will need to define the follow
   * Existing guests only
   * Only people in your organization
 
- Please note that available options depend on defined tenant-level external sharing policies. For example, if sharing files and folders using links that don't require sign-in is not allowed, the Anyone option will not be enabled.
+Please note that available options depend on defined tenant-level external sharing policies. For example, if sharing files and folders using links that don't require sign-in is not allowed, the Anyone option will not be enabled.
+
 * **Sharing Permission (8)** - helps control the way things on the site can be shared. Choose between:
   * Site owners and members can share files, folders, and the site. People with edit permission can share files and folders.
   * Site owners, members, and people with edit permission can share files and folders, but only owners can share the site.
@@ -116,32 +118,33 @@ When creating a template for Microsoft Teams, you will need to define the follow
     * Selecting this hides the workspace name from the URL, which means when the workspace is created, instead of the workspace name, the URL contains a number identifier (6-10 randomly generated numbers)
   * Customize URL prefix/suffix
     * Selecting this gives the ability to change the URL prefix and suffix
-  * [For more details on this, take a look at this article.](../provisioning/hide-workspace-name.md)
+  * [For more details on this, take a look at this article.](hide-workspace-name.md)
 * **Customize E-mail (15)** - with this, you decide how the e-mail of the workspace will look like once the workspace is created
   * Hide workspace name from E-mail
     * Selecting this hides the workspace name from e-mail of the created workspace, which means that instead of the workspace name, the e-mail contains a number identifier (6-10 characters)
   * Customize e-mail prefix/suffix
     * Selecting this gives the ability to change the e-mail prefix and suffix
-  * [For more details on this, take a look at this article.](../provisioning/hide-workspace-name.md)
+  * [For more details on this, take a look at this article.](hide-workspace-name.md)
 * **Approval process (16)** – define who is responsible for approving the requests using this template.
-
-   * All requests using this template will need to be approved by specified people before the workspace is created.
+  * All requests using this template will need to be approved by specified people before the workspace is created.
   * By default, you will see four types of approvals available:
-     * Manager approval – The manager of the end-users requesting new workspace needs to approve this request
-     * Admin approval – Syskit Point admins need to approve this request
-     * Manager and admin approval – Requires approval from both the manager of the requester and Syskit Point admins
-     * Automatically Approve – Templates using this option don’t require approval. The workspace will be created immediately when the end-user sends a request.
+    * Manager approval – The manager of the end-users requesting new workspace needs to approve this request
+    * Admin approval – Syskit Point admins need to approve this request
+    * Manager and admin approval – Requires approval from both the manager of the requester and Syskit Point admins
+    * Automatically Approve – Templates using this option don’t require approval. The workspace will be created immediately when the end-user sends a request.
 
- Additionally, you can enable comments for requesters when they request a new workspace in this section.
+Additionally, you can enable comments for requesters when they request a new workspace in this section.
 
- Read more about Approval processes and how to create custom ones in this [article](approval-processes.md).
-*  **Governance policies (17)** – predefine a set of rules to be applied to the workspace automatically upon creation. Currently, available policies are:
+Read more about Approval processes and how to create custom ones in this [article](approval-processes.md).
+
+* &#x20;**Governance policies (17)** – predefine a set of rules to be applied to the workspace automatically upon creation. Currently, available policies are:
   * Access reviews
   * Maximum number of owners
   * Minimum number of owners
   * Orphaned Workspaces
 
- Read more about setting up these governance policies and customizing them to your needs [here](../automated-workflows/set-up-policies.md).
+Read more about setting up these governance policies and customizing them to your needs [here](../automated-workflows/set-up-policies.md).
+
 * **Outlook & Email Settings (18)** – define if the newly created workspace will:
   * Be **hidden** from your organization's global address list
   * Send a **welcome e-mail**
@@ -180,10 +183,8 @@ When creating a SharePoint Site template, there are a couple of differences comp
   * Allow end-users to specify additional members in addition to predefined members
   * Leave this option altogether to the end-user who is requesting a new workspace
 
-{% hint style="information" %}
-
+{% hint style="info" %}
 **Please note**: SharePoint Site templates do not have a Customize E-mail option.
-
 {% endhint %}
 
 ### Yammer Community Template
@@ -199,10 +200,8 @@ When creating a Yammer Community template, there are a couple of differences com
   * Allow end-users to specify additional community members in addition to predefined community members
   * Leave this option altogether to the end-user who is requesting a new workspace
 
-{% hint style="information" %}
-
+{% hint style="info" %}
 **Please note:** Yammer templates do not have URL & E-mail customization options.
-
 {% endhint %}
 
 ### Microsoft 365 Group Template
