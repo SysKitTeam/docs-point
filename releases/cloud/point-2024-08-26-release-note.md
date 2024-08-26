@@ -14,9 +14,9 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes
 
-* **Improved the information message** when making changes to the Appearance and E-mail sections in Settings in order to include more details on the size and format of the logo and banner. 
+* **Improved the information message** when making changes to the Appearance and E-mail sections in Settings to include more details on the size and format of the logo and banner. 
 
-* **Fixed an issue** that caused the Privacy column on the Group Access report to appear as empty for some Microsoft 365 Groups and Teams. 
+* **Fixed an issue** that caused the Privacy column on the Group Access report to appear empty for some Microsoft 365 Groups and Teams. 
 
 * **Improved the Policy monitor job**, which is responsible for vulnerability detection. 
   * Timeouts were implemented to prevent the job from running indefinitely in case a single policy detection runs longer than expected due to many workspaces in the tenant.
