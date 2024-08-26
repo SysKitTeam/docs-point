@@ -1,104 +1,106 @@
 ---
-description: This article provides information on managing who has access to or is an owner of private channels in Microsoft Teams.
+description: >-
+  This article provides information on managing who has access to or is an owner
+  of private channels in Microsoft Teams.
 ---
 
 # Manage Private Channels Access
 
-This article helps you set up and manage who the owners and members are for private channels in Microsoft Teams. 
+This article helps you set up and manage who the owners and members are for private channels in Microsoft Teams.
 
 {% hint style="warning" %}
-**Please note!**  
-The following users can manage private channels access:
+**Please note!**   The following users can manage private channels access:
+
 * **Global administrator**
 * **Private channel owner**
 {% endhint %}
 
 There are several ways to manage and change the access to private channels from within Syskit Point.
 
-## Access Private Channels Details 
+## Access Private Channels Details
 
-To manage private channel access, complete the following: 
+To manage private channel access, complete the following:
 
-* **Click the Microsoft Teams & Groups tile (1)**; this is located on the home screen of Syskit Point. 
+* **Click the Microsoft Teams & Groups tile (1)**; this is located on the home screen of Syskit Point.
 * **Select the team or group to manage (2)**; clicking the selected workspace opens the details screen.
-* On the details screen, **scroll to the Channels section (3)**; the private channels will be marked by a lock symbol next to their name. 
+* On the details screen, **scroll to the Channels section (3)**; the private channels will be marked by a lock symbol next to their name.
 * **Click the private channel (4)**; this opens the details screen of the channel.
 
 ![Private Channels Access - Microsoft Teams & Groups](../.gitbook/assets/manage-private-channels-teams-and-groups-access.png)
 
 Another way to access private channels is through the **Sites screen** by taking the following steps:
 
-* **Click the Sites tile (1)**; located on the home screen of Syskit Point. 
-* **Select the site to manage (2)**; the private channel site is marked with a lock symbol near its name. 
+* **Click the Sites tile (1)**; located on the home screen of Syskit Point.
+* **Select the site to manage (2)**; the private channel site is marked with a lock symbol near its name.
   * Clicking the selected site opens the details screen.
-* **Under General Information (3)** click the channel name shown under **Related Channel (4)**. 
+* **Under General Information (3)** click the channel name shown under **Related Channel (4)**.
   * This opens the details screen of the private channel.
 
-  
 ![Private Channels Access - Sites](../.gitbook/assets/manage-private-channels-sites-access.png)
 
 ## Private Channels Access Options
 
 When the **private channel details screen** opens, two options are listed on the right side of the screen under **Manage**.
 
-* **Add Owners/Members (1)**; allows adding new members to the private channel as well as assigning owners. 
-  * The new members can be set as owners; however **you can also set a user as an owner but not add them as a member**. 
+* **Add Owners/Members (1)**; allows adding new members to the private channel as well as assigning owners.
+  * The new members can be set as owners; however **you can also set a user as an owner but not add them as a member**.
   * If a user is **set as an owner or a workspace** that they are not a member of, **they are able to complete administrative actions** on the workspace but are **not able to access group content** and chats.
-  * **Change Owners (2)**; provides the option to remove current owners or promote current members to owners. 
+  * **Change Owners (2)**; provides the option to remove current owners or promote current members to owners.
 
- ![Manage Private Channels - Options Panel](../.gitbook/assets/manage-private-channels-options-side.png)
+![Manage Private Channels - Options Panel](../.gitbook/assets/manage-private-channels-options-side.png)
 
-Clicking the **Add Owners/Members** button opens a pop-up that provides the following options: 
+Clicking the **Add Owners/Members** button opens a pop-up that provides the following options:
 
 * **Add members to private channel (1)**; enter the names of the users that should be added as members to the private channel.
-* **Add the selected users as group members (2)**; clicking this check box saves the user(s) entered above as members of the private channel. 
+* **Add the selected users as group members (2)**; clicking this check box saves the user(s) entered above as members of the private channel.
   * Members can access everything in the group.
 * **Add the selected users as group owners (3)**; clicking this check box saves the user(s) entered above as owners of the private channel.
-   * Owners manage and handle administrative tasks for the workspace.
-   * If a user is added only as an owner and not a member, they are able to complete administrative tasks but cannot access group content and chats. 
-* **Add when finished (4)**; when all the new members and/or owners have been selected, click Add to save the changes. 
-   * After confirming, a **notification** is sent to **acknowledge** the new changes. 
-   * If the change is unsuccessful, the notification states that the action was **completed with errors** and has **failed**. 
-   * Clicking **check details** redirects to the **Action Details screen** with a detailed log of all changes. 
+  * Owners manage and handle administrative tasks for the workspace.
+  * If a user is added only as an owner and not a member, they are able to complete administrative tasks but cannot access group content and chats.
+* **Add when finished (4)**; when all the new members and/or owners have been selected, click Add to save the changes.
+  * After confirming, a **notification** is sent to **acknowledge** the new changes.
+  * If the change is unsuccessful, the notification states that the action was **completed with errors** and has **failed**.
+  * Clicking **check details** redirects to the **Action Details screen** with a detailed log of all changes.
 
 {% hint style="warning" %}
-**Please note!**  
-To add members to a private channel, the selected user must already be a member of the Microsoft Teams where the private channel is located. 
+**Please note!**   To add members to a private channel, the selected user must already be a member of the Microsoft Teams where the private channel is located.
 {% endhint %}
 
- ![Manage Private Channels - Add Owners/Members options](../.gitbook/assets/manage-private-channels-add-owners-members.png)
+![Manage Private Channels - Add Owners/Members options](../.gitbook/assets/manage-private-channels-add-owners-members.png)
 
-Clicking the **Change Owners** button opens a pop-up that provides the following options: 
+Clicking the **Change Owners** button opens a pop-up that provides the following options:
 
-* **Set the owners (1)**; there are two options available here: 
+* **Set the owners (1)**; there are two options available here:
   * Enter the names of the users that **should be set as owners** of the private channel.
-  * **Remove the current owners** by clicking the x on the right side of their name. 
-* **Confirm when finished (2)**; when all the changes have been made, confirm to save them. 
-   * After confirming, a **notification** is sent to **acknowledge** the new changes. 
-   * If the change is unsuccessful, the notification states that the action was **completed with errors** and has **failed**. 
-   * Clicking **check details** will redirect to the **Action Details screen** with a detailed log of all changes. 
+  * **Remove the current owners** by clicking the x on the right side of their name.
+* **Confirm when finished (2)**; when all the changes have been made, confirm to save them.
+  * After confirming, a **notification** is sent to **acknowledge** the new changes.
+  * If the change is unsuccessful, the notification states that the action was **completed with errors** and has **failed**.
+  * Clicking **check details** will redirect to the **Action Details screen** with a detailed log of all changes.
 
-  {% hint style="warning" %}
-**Please note!**  
-To set owners of a private channel, the selected user must already be a member of the Microsoft Teams where the private channel is located. 
+&#x20;
+
+{% hint style="warning" %}
+**Please note!**   To set owners of a private channel, the selected user must already be a member of the Microsoft Teams where the private channel is located.
 {% endhint %}
 
- ![Manage Private Channels - Change Owners options](../.gitbook/assets/manage-private-channels-change-owners.png)
-
+![Manage Private Channels - Change Owners options](../.gitbook/assets/manage-private-channels-change-owners.png)
 
 ### Manage Member and Owner Status
 
-Members and Owners can also be managed through the **Members tile (1)** located lower on the private channel screen. 
+Members and Owners can also be managed through the **Members tile (1)** located lower on the private channel screen.
 
 The **Members tile (1)** shows a list of all members and owners available, and their status can be seen under the **Role column (2)**.
+
 * **Selecting an Owner (3)** provides two options on the right side of the screen: **Remove from Channel or Change to Member (4)**.
 * **Selecting a Member** provides two options on the right side of the screen: **Remove from Channel** or **Promote to Owner**.
 
- ![Manage Private Channels - Members Tile](../.gitbook/assets/manage-private-channels-members-tile.png)
+![Manage Private Channels - Members Tile](../.gitbook/assets/manage-private-channels-members-tile.png)
 
-  {% hint style="warning" %}
-**Please note!**  
-After making these changes to private channels in Syskit Point, it could take up to a few hours for the changes to show in the SharePoint admin center.
+&#x20;
+
+{% hint style="warning" %}
+**Please note!**   After making these changes to private channels in Syskit Point, it could take up to a few hours for the changes to show in the SharePoint admin center.
 {% endhint %}
 
 ## Private Channels Report
@@ -125,13 +127,13 @@ The following actions can be completed from this report:
   * **Change to Member**
 * **Selecting a member (3)** provides the options to:
   * **Remove from Channel**
-  * **Promote to Owner** 
+  * **Promote to Owner**
 
- ![Manage Private Channels - Members Tile](../.gitbook/assets/manage-private-channels-report.png)
+![Manage Private Channels - Members Tile](../.gitbook/assets/manage-private-channels-report.png)
 
 The Microsoft Teams with Private Channels report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
-## Related Articles 
+## Related Articles
 
-* [Supervise Microsoft Teams Private Channels](../access-management/supervise-microsoft-teams-private-channels.md)
+* [Supervise Microsoft Teams Private Channels](supervise-microsoft-teams-private-channels.md)
 * [Enable Microsoft Teams Activity Tracking](../configuration/microsoft-teams-activity.md)
