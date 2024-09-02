@@ -1,5 +1,5 @@
 ---
-description: This article lists improvements and bug fixes in the Syskit Point Cloud version 2024.4.60.1
+description: This article lists improvements and bug fixes in the Syskit Point Cloud version 2024.4.60.17
 ---
 
 # September 2, 2024
@@ -14,13 +14,17 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes
 
-* **A new API was added to the access tile on the User Details screen**.
-  * The API provides details on the Sites, Teams, Groups, and OneDrives to which the user has access.
+* **A new API endpoint was added enabling you to get user access data!**.
+    * Use it to get information on which MS Teams, sites, M365 Groups, and OneDrive the user has access.
+    * The following data is available in the response: Workspace Name, URL, Workspace Type, and the user's permission.
+    * [Find more information about Syskit Point API in the related article.](../../integrations/syskit-point-api.md)
+
+* **The Syskit Point Teams app will now show the custom app name in the notifications panel** if the app appearance is customized. 
 
 * **The due date in the policy emails** has been changed to reflect only the date and not the time for when the task is due. 
 
-* **Fixed an issue** when provisioning a new Microsoft 365 Team that caused the incorrect app name to show in the notifications panel. 
-
 * **Fixed a bug** when generating the Externally Shared Content report that caused the report's description not to show correctly. 
+
+* **Fixed an issue** where the Department dropdown would overflow on smaller screen sizes when defining conditions in the New/Edit Rule dialog.
 
 * **Various improvements and minor UX and UI fixes are available**.
