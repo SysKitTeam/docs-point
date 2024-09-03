@@ -28,7 +28,7 @@ After you complete the steps described, wait for audit logs to show on the Audit
 
 {% hint style="warning" %}
 **Please note!**  
-When you initially connect your tenant to Syskit Point, **Syskit Point collects audit logs no more than 7 days in the past**.
+When you initially connect your tenant to Syskit Point, **Syskit Point collects audit logs no more than 7 days in the past**; this is a technical limit of the Office 365 Management API utilized in the audit log collection process.
 Syskit Point will not collect audit log data before it becomes available in the Microsoft 365 Security Center. **It can take up to 24 hours for audit log data to become available.**
 {% endhint %}
 
