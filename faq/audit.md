@@ -20,10 +20,6 @@ Syskit Point collects unified audit logs, which contain sign-in logs related to 
 Syskit Point checks for and collects new audit logs every 15 minutes. 
 Note that it can take up to 24 hours after an event occurs for the corresponding audit log record to be returned in the results of an audit log search. 
 
-## How far back in the past can Syskit Point collect audit logs?
-
-When you initially connect your tenant to Syskit Point, **Syskit Point collects audit logs no more than 7 days in the past**.
-
 ## Additional information
 
 You can find additional information about unified audit logs in the [following Microsoft's article](https://docs.microsoft.com/en-us/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide).
