@@ -34,12 +34,9 @@ To add your company logo, **drag the file** into the designated space or **choos
 ![Syskit Point - Appearance - Logo](../.gitbook/assets/customize-appearance-logo.png)
 
 Once your logo is selected, you can:
-
-&#x20;\* Choose to **Upload New Logo (1)** if you want to try a different one.
-
-&#x20;\* **Remove (2)** the uploaded logo completely.
-
-&#x20;\* **Click Save (3)** to store the settings if you are satisfied with your changes.
+* Choose to **Upload New Logo (1)** if you want to try a different one.
+* **Remove (2)** the uploaded logo completely.
+* **Click Save (3)** to store the settings if you are satisfied with your changes.
 
 ![Syskit Point - Appearance - New Logo](../.gitbook/assets/customize-appearance-new-logo.png)
 
@@ -57,11 +54,10 @@ To add your company banner, **drag the file** into the designated space or **cho
 
 ![Syskit Point - Appearance - Banner](../.gitbook/assets/customize-appearance-banner.png)
 
-Once your banner is selected, you can:  \* Choose to **Upload New Banner (1)** if you want to try a different one.
-
-&#x20;\* **Remove (2)** the uploaded banner completely.
-
-&#x20;\* **Click Save (3)** to store the settings if you are satisfied with your changes.
+Once your banner is selected, you can:  
+* Choose to **Upload New Banner (1)** if you want to try a different one.
+* **Remove (2)** the uploaded banner completely.
+* **Click Save (3)** to store the settings if you are satisfied with your changes.
 
 ![Syskit Point - Appearance - New Banner](../.gitbook/assets/customize-appearance-new-banner.png)
 

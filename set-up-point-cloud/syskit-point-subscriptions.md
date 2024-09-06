@@ -202,7 +202,8 @@ Once the invitation is sent, the user gets an e-mail invitation to become a Subs
 The user needs to click the **Accept Invite (1)** button to join the subscriptions portal.
 
 * The user needs to fill out the form that pops up.
-* Their e-mail is automatically filled out, but the user needs to specify their display name and set up their password for the subscriptions portal.   \* After filling out and submitting the requested details, the Subscriptions Portal opens, where the user can manage the Syskit Point subscription.
+  * Their e-mail is automatically filled out, but the user needs to specify their display name and set up their password for the subscriptions portal.   
+* After filling out and submitting the requested details, the Subscriptions Portal opens, where the user can manage the Syskit Point subscription.
 
 ![Syskit Point Subscription - Manage Subscription Admins - Invite User](../.gitbook/assets/syskit-point-subscriptions-manage-sub-admins-invite-accept.png)
 
@@ -258,7 +259,7 @@ The Cancel Your Plan site will show an overview of your current plan with inform
 * Cost per year
 * Date until which your plan is available when canceled
 
-Click the \*\*Cancel plan button (1)\*\*to cancel your plan.
+Click the **Cancel plan button (1)**to cancel your plan.
 
 * This will open a pop-up that asks for feedback on why you are choosing to cancel, but leaving this comment is optional
 
