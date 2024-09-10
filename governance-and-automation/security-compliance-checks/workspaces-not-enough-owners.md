@@ -30,7 +30,7 @@ The report itself provides information on:
   * **Owners (3)** - the number of owners the workspace has
   * **Policy (4)** - the policy assigned to the workspace
   * **Rule (5)** - for the policy applied
-  * **Status (5)** - status of the policy vulnerability
+  * **Status (6)** - status of the policy vulnerability
     * If a vulnerability was detected, the status shows as *Detected*
     * If task delegation is enabled for the policy, it shows the task status, for example, *Awaiting response* from owners
   * **Assigned to (7)** - who the policy vulnerability is assigned to for a resolution
