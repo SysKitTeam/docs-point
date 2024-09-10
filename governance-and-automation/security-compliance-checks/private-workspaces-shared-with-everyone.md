@@ -40,7 +40,8 @@ The report provides information on:
 
 Additionally, you can complete the following actions for the policy vulnerability:
 
-* **Accept Risk (7)** - clicking this closes the policy vulnerability without making any changes to the current state of the workspace   \* You can select a time frame for how long the vulnerability should be ignored: 30 days, 90 days, 6 months, or 1 year.
+* **Accept Risk (7)** - clicking this closes the policy vulnerability without making any changes to the current state of the workspace   
+  * You can select a time frame for how long the vulnerability should be ignored: 30 days, 90 days, 6 months, or 1 year.
 * **Remove Access (8)** - clicking this removes access to the selected workspace(s) for Everyone, Everyone except external users, and All Users security group
 
 ![Private Workspaces Shared with Everyone](../../.gitbook/assets/security-compliance-checks-private-workspaces-everyone.png)
