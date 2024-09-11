@@ -27,7 +27,7 @@ The report itself provides information on:
 * **Status (6)** - the status of the policy vulnerability
 
 You can complete the following actions for the policy vulnerability:
-* **Accept Risk (7)** - this means you will close the policy vulnerability without making any changes to the current state of the workspace for the specified time period
+* **Accept Risk (7)** - this means you will close the policy vulnerability without making any changes to the current state of the workspace for the specified period
 * **View Users (8)** - this generates the list of shadow users that have access to this workspace
 
 ![Workspaces with Shadow Users](../../.gitbook/assets/security-compliance-checks-workspace-with-shadow-users.png)
@@ -61,7 +61,7 @@ This opens the Remove Access for Shadow users screen, where you can:
 
 * A Microsoft 365 Group named Marketing has access to documents in a Microsoft Team titled Sales; as a result, the Marketing group shows up as a shadow user on the Workspaces with Shadow Users report for the Sales team. 
 
-* John is a member of the Microsoft 365 Group Marketing. John shows up as a shadow user on the Sales team, even though he has no direct access to documents in the Sales team. This happens if the Marketing group that John is a part of has access to documents from the Sales team. 
+* John is a member of the Marketing Microsoft 365 Group. John shows up as a shadow user on the Sales team, even though he has no direct access to documents in the Sales team. This happens if the Marketing group that John is a part of has access to documents from the Sales team. 
 
 * Joanna is also a part of the Marketing group. However, Joanna is also an owner or member of the Sales team to which the Marketing group has access. Therefore, Joanna will not show as a shadow user for the team. 
 
