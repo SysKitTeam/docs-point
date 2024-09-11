@@ -76,7 +76,7 @@ Once the site report is successfully generated, the following information is ava
 * **The File Type tile** that shows a chart and list of the types of files in your site and the amount of storage each file takes up.
   * The File types tracked are the following:
     * **Videos**: mp4, mov, wmv, avi, avchd, webm
-    * **Photos**: jpeg, jpg, png, gif, raw, psd
+    * **Images**: jpeg, jpg, png, gif, raw, psd
     * **Office**: doc, docx, rtf, xls, xlsx, ppt, pptx, pdf, txt, one
     * **Other**: any extensions not categorized in one of the above groups
 * **The File Version Cleanup tile** shows the amount of space you can free up by cleaning up the outdated versions of the site.
