@@ -149,9 +149,9 @@ After clicking the **Sharing Links** report tile, a selection step opens where y
     * **anyone can edit**
     * **specific people can view or edit**
 * **Select which sensitivity labels to show**:
-  * **Any** - generated report will show both links for files with and without applied sensitivity labels
+  * **Any** - the generated report shows links for files with and without applied sensitivity labels
   * **No label** - the generated report shows sharing links for files with no sensitivity labels applied
-  * **Specific label(s)** - the filter shows all sensitivity labels in your environment; depending on the selected label(s), the generated report shows links for files with the selected sensitivity labels applied
+  * **Specific label(s)** - depending on the selected label(s), the generated report shows links for files with the selected sensitivity labels applied; the filter shows all sensitivity labels available in your environment
 
 * **Click the Run Report button** to generate the report.
 
