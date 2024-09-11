@@ -39,7 +39,9 @@ When storage management is configured, you can also customize your storage repor
 
 In this section, you can define how long you want to keep the storage-related data in Syskit Point. 
 * **Enter the number of months (7)** you want the storage data to be stored
+  * **Syskit Point regularly checks for and deletes historical Site size data that is older than defined in settings**
   * By default, data is stored for 12 months
+  * Site size data is used to show Storage Trend and Site Trend graphs on the Storage Metrics and Site Storage Metrics reports
 
 Once finished, **click Save (8)** to save your storage management preferences. 
 
