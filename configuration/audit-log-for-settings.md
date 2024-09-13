@@ -4,7 +4,7 @@ description:  This article describes how you can access the audit log for all ch
 
 # Audit for Settings
 
-Syskit Point logs the selection you make in Settings as well as any changes done after the initual set up. The Audit Log for your Point Settings can be accessed through  application insights.
+Syskit Point logs all changes in settings along with important additional information, such as the user who changed a setting, which setting was changed, as well as the values before and after the change, thus providing a complete picture of what was changed, when, and by whom. The Audit Log for your Point Settings can be accessed through the Application Insights resource.
 
 {% hint style="information" %}
 **Please note!** No additional configuration in Syskit Point is needed to log the changes in Settings. This is done automatically. 
@@ -43,14 +43,14 @@ In the table below, you can find common properties for all logs, along with more
 
 | Property | Description |
 | --- | --- |
-| category | TODO explain category=>propertyPath relation |
+| category / propertyName | Give you information about which exact settings were changed. For example, changing the e-mail send method from Exchange Online to SMTP would have the category set to  `Base` (since this is considered as one of the baseline settings for Syskit Point), and propertyName set to `EmailSettings.SelectedEmailMode` | 
 | userGuid | Object ID of the user who changed a setting |
 | userName | User principal name of the user who changed a setting |
 | userIp | IP address for the individual that made the changes |
 | sessionId | ID of the user's session | 
 | userAgent | Shows the browser and operating system used by the user |
-| newValue | Shows the settings value after change |
-| oldValue | Shows the settings value before change | 
+| newValue | Shows the settings value after the change; when the property is null, an object was deleted in Settings; e.g., an unused Policy |
+| oldValue | Shows the settings value before the change; when the property is null, an object was created in Settings; e.g., a new Policy | 
 
 ## Related Articles
 
