@@ -9,21 +9,21 @@ The Content & Structure section for Provisioning lets you copy the structure or 
 The options you have are the following:
 
 * **Start from scratch (1)**
-  * Selecting this option means that your new provisioned workspace will be a clean slate. 
-  * Default apps or channels will not be created, and the content and structure will not be copied from an existing workspace. 
+  * Selecting this option means that your new provisioned workspace will be a clean slate. 
+  * Default apps or channels will not be created, and the content and structure will not be copied from an existing workspace. 
 
 * **Use existing Microsoft Teams template (2)**
-  * After selecting this option, you need to enter Microsoft template ID for an existing template.
-  * Syskit Point integrates with team templates you have created in the **Microsoft 365 Teams admin center**. 
-  * When you enter a team template ID, Syskit Point creates predefined apps, channels, and tabs for the new workspaces that use the template.
+  * After selecting this option, you need to enter Microsoft template ID for an existing template.
+  * Syskit Point integrates with team templates you have created in the **Microsoft 365 Teams admin center**. 
+  * When you enter a team template ID, Syskit Point creates predefined apps, channels, and tabs for the new workspaces that use the template.
 
 * **Copy from existing team (3)**
-  * When selecting this, you need to select the workspace you want to copy by entering the name (or identifying information) of the workspace in the space provided.
-  * This copies channels, apps, tabs, and settings from the selected workspace to the one being provisioned. 
-  * You can also select whether to **check the Copy team SharePoint site (4)** checkbox
-    * If the check is marked, you can also select whether to:
-      * Copy structure - this copies only the structure of the workspace but not the content
-      * Copy structure and content - this copies both the structure of the workspace and the content within the workspace
+  * When selecting this, you need to select the workspace you want to copy by entering the name (or identifying information) of the workspace in the space provided.
+  * This copies channels, apps, tabs, and settings from the selected workspace to the one being provisioned. 
+  * You can also select whether to **check the Copy team SharePoint site (4)** checkbox
+    * If the check is marked, you can also select whether to:
+      * Copy structure - this copies only the structure of the workspace but not the content
+      * Copy structure and content - this copies both the structure of the workspace and the content within the workspace
 
 ![Provisioning - Content & Structure](../../.gitbook/assets/provisioning-content-and-structure-section.png)
 
@@ -33,61 +33,61 @@ The options you have are the following:
 Here, you can find a list of all objects that can be copied, along with which of the three options will copy which objects. 
 
 **Channels & channel folders**
-  * **Will not be** copied **if Start from scratch** is selected
-  * **Will be** copied **if Use existing Microsoft Teams template** is selected
-  * **Will be** copied **if Copy from existing team** is selected
-  * **Will be** copied **if Copy team SharePoint site - Copy structure** is selected
-  * **Will be** copied **if Copy team SharePoint site - Copy structure and content** is selected
+  * **Will not be** copied **if Start from scratch** is selected
+  * **Will be** copied **if Use existing Microsoft Teams template** is selected
+  * **Will be** copied **if Copy from existing team** is selected
+  * **Will be** copied **if Copy team SharePoint site - Copy structure** is selected
+  * **Will be** copied **if Copy team SharePoint site - Copy structure and content** is selected
 
 **Apps**
-  * **Will not be** copied **if Start from scratch** is selected
-  * **Will be** copied **if Use existing Microsoft Teams template** is selected
-  * **Will be** copied **if Copy from existing team** is selected
-  * **Will be** copied **if Copy team SharePoint site - Copy structure** is selected
-  * **Will be** copied **if Copy team SharePoint site - Copy structure and content** is selected
+  * **Will not be** copied **if Start from scratch** is selected
+  * **Will be** copied **if Use existing Microsoft Teams template** is selected
+  * **Will be** copied **if Copy from existing team** is selected
+  * **Will be** copied **if Copy team SharePoint site - Copy structure** is selected
+  * **Will be** copied **if Copy team SharePoint site - Copy structure and content** is selected
 
 **Tabs**
-  * **Will not be** copied **if Start from scratch** is selected
-  * **Will be** copied **if Use existing Microsoft Teams template** is selected
-  * **Will be** copied **if Copy from existing team** is selected
-  * **Will be** copied **if Copy team SharePoint site - Copy structure** is selected
-  * **Will be** copied **if Copy team SharePoint site - Copy structure and content** is selected
+  * **Will not be** copied **if Start from scratch** is selected
+  * **Will be** copied **if Use existing Microsoft Teams template** is selected
+  * **Will be** copied **if Copy from existing team** is selected
+  * **Will be** copied **if Copy team SharePoint site - Copy structure** is selected
+  * **Will be** copied **if Copy team SharePoint site - Copy structure and content** is selected
 
 **Site Theme**
-  * **Will not be** copied **if Start from scratch** is selected
-  * **Will not be** copied **if Use existing Microsoft Teams template** is selected
-  * **Will not be** copied **if Copy from existing team** is selected
-  * **Will not be** copied **if Copy team SharePoint site - Copy structure** is selected
-  * **Will not be** copied **if Copy team SharePoint site - Copy structure and content** is selected
+  * **Will not be** copied **if Start from scratch** is selected
+  * **Will not be** copied **if Use existing Microsoft Teams template** is selected
+  * **Will not be** copied **if Copy from existing team** is selected
+  * **Will not be** copied **if Copy team SharePoint site - Copy structure** is selected
+  * **Will not be** copied **if Copy team SharePoint site - Copy structure and content** is selected
 
 **Subsites**
-  * **Will not be** copied **if Start from scratch** is selected
-  * **Will not be** copied **if Use existing Microsoft Teams template** is selected
-  * **Will not be** copied **if Copy from existing team** is selected
-  * **Will not be** copied **if Copy team SharePoint site - Copy structure** is selected
-  * **Will not be** copied **if Copy team SharePoint site - Copy structure and content** is selected
+  * **Will not be** copied **if Start from scratch** is selected
+  * **Will not be** copied **if Use existing Microsoft Teams template** is selected
+  * **Will not be** copied **if Copy from existing team** is selected
+  * **Will not be** copied **if Copy team SharePoint site - Copy structure** is selected
+  * **Will not be** copied **if Copy team SharePoint site - Copy structure and content** is selected
 
 **Document Libraries and Lists**
-  * **Will not be** copied **if Start from scratch** is selected
-  * **Will not be** copied **if Use existing Microsoft Teams template** is selected
-  * **Will not be** copied **if Copy from existing team** is selected
-  * **Will be** copied **if Copy team SharePoint site - Copy structure** is selected
-  * **Will be** copied **if Copy team SharePoint site - Copy structure and content** is selected
+  * **Will not be** copied **if Start from scratch** is selected
+  * **Will not be** copied **if Use existing Microsoft Teams template** is selected
+  * **Will not be** copied **if Copy from existing team** is selected
+  * **Will be** copied **if Copy team SharePoint site - Copy structure** is selected
+  * **Will be** copied **if Copy team SharePoint site - Copy structure and content** is selected
 
 **Folders**
-  * **Will not be** copied **if Start from scratch** is selected
-  * **Will not be** copied **if Use existing Microsoft Teams template** is selected
-  * **Will not be** copied **if Copy from existing team** is selected
-  * **Will be** copied **if Copy team SharePoint site - Copy structure** is selected
-  * **Will be** copied **if Copy team SharePoint site - Copy structure and content** is selected
+  * **Will not be** copied **if Start from scratch** is selected
+  * **Will not be** copied **if Use existing Microsoft Teams template** is selected
+  * **Will not be** copied **if Copy from existing team** is selected
+  * **Will be** copied **if Copy team SharePoint site - Copy structure** is selected
+  * **Will be** copied **if Copy team SharePoint site - Copy structure and content** is selected
 
 **Files/Documents**
-  * **Will not be** copied **if Start from scratch** is selected
-  * **Will not be** copied **if Use existing Microsoft Teams template** is selected
-  * **Will not be** copied **if Copy from existing team** is selected
-  * **Will not be** copied **if Copy team SharePoint site - Copy structure** is selected
-  * **Will be** copied **if Copy team SharePoint site - Copy structure and content** is selected
-    * Up to 20 files can be copied
+  * **Will not be** copied **if Start from scratch** is selected
+  * **Will not be** copied **if Use existing Microsoft Teams template** is selected
+  * **Will not be** copied **if Copy from existing team** is selected
+  * **Will not be** copied **if Copy team SharePoint site - Copy structure** is selected
+  * **Will be** copied **if Copy team SharePoint site - Copy structure and content** is selected
+    * Up to 20 files can be copied
 
 
 
