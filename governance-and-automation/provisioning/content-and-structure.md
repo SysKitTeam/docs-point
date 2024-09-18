@@ -32,64 +32,46 @@ The options you have are the following:
 
 Here, you can find a list of all objects that can be copied, along with which of the three options will copy which objects. 
 
-**Channels & channel folders**
-  * **Will not be** copied **if Start from scratch** is selected
-  * **Will be** copied **if Use existing Microsoft Teams template** is selected
-  * **Will be** copied **if Copy from existing team** is selected
-  * **Will be** copied **if Copy team SharePoint site - Copy structure** is selected
-  * **Will be** copied **if Copy team SharePoint site - Copy structure and content** is selected
+The objects available for copying are: 
 
-**Apps**
-  * **Will not be** copied **if Start from scratch** is selected
-  * **Will be** copied **if Use existing Microsoft Teams template** is selected
-  * **Will be** copied **if Copy from existing team** is selected
-  * **Will be** copied **if Copy team SharePoint site - Copy structure** is selected
-  * **Will be** copied **if Copy team SharePoint site - Copy structure and content** is selected
-
-**Tabs**
-  * **Will not be** copied **if Start from scratch** is selected
-  * **Will be** copied **if Use existing Microsoft Teams template** is selected
-  * **Will be** copied **if Copy from existing team** is selected
-  * **Will be** copied **if Copy team SharePoint site - Copy structure** is selected
-  * **Will be** copied **if Copy team SharePoint site - Copy structure and content** is selected
-
-**Site Theme**
-  * **Will not be** copied **if Start from scratch** is selected
-  * **Will not be** copied **if Use existing Microsoft Teams template** is selected
-  * **Will not be** copied **if Copy from existing team** is selected
-  * **Will not be** copied **if Copy team SharePoint site - Copy structure** is selected
-  * **Will not be** copied **if Copy team SharePoint site - Copy structure and content** is selected
-
-**Subsites**
-  * **Will not be** copied **if Start from scratch** is selected
-  * **Will not be** copied **if Use existing Microsoft Teams template** is selected
-  * **Will not be** copied **if Copy from existing team** is selected
-  * **Will not be** copied **if Copy team SharePoint site - Copy structure** is selected
-  * **Will not be** copied **if Copy team SharePoint site - Copy structure and content** is selected
-
-**Document Libraries and Lists**
-  * **Will not be** copied **if Start from scratch** is selected
-  * **Will not be** copied **if Use existing Microsoft Teams template** is selected
-  * **Will not be** copied **if Copy from existing team** is selected
-  * **Will be** copied **if Copy team SharePoint site - Copy structure** is selected
-  * **Will be** copied **if Copy team SharePoint site - Copy structure and content** is selected
-
-**Folders**
-  * **Will not be** copied **if Start from scratch** is selected
-  * **Will not be** copied **if Use existing Microsoft Teams template** is selected
-  * **Will not be** copied **if Copy from existing team** is selected
-  * **Will be** copied **if Copy team SharePoint site - Copy structure** is selected
-  * **Will be** copied **if Copy team SharePoint site - Copy structure and content** is selected
-
-**Files/Documents**
-  * **Will not be** copied **if Start from scratch** is selected
-  * **Will not be** copied **if Use existing Microsoft Teams template** is selected
-  * **Will not be** copied **if Copy from existing team** is selected
-  * **Will not be** copied **if Copy team SharePoint site - Copy structure** is selected
-  * **Will be** copied **if Copy team SharePoint site - Copy structure and content** is selected
-    * Up to 20 files can be copied
+* **Channels & channel folders**
+* **Apps**
+* **Tabs**
+* **Site Theme**
+* **Subsites**
+* **Document Libraries and Lists**
+* **Folders**
+* **Files/Documents**
 
 
+When deciding which option to select from the three available, it helps to know which option copies which objects. Here's what each option copies: 
+
+* If you select **Start from scratch**, none of the objects are copied, your workspace is a clean slate.
+
+* If you select **Use existing Microsoft Teams template**, the following is copied:
+  * **Channels & channel folders**
+  * **Apps**
+  * **Tabs**
+
+* If you select **Copy from existing team**, the following is copied: 
+  * **Channels & channel folders**
+  * **Apps**
+  * **Tabs**
+
+* If you select **Copy team SharePoint site - Copy structure**, the following is copied: 
+  * **Channels & channel folders**
+  * **Apps**
+  * **Tabs**
+  * **Document Libraries and Lists**
+  * **Folders**
+
+* If you select **Copy team SharePoint site - Copy structure and content**, the following is copied: 
+  * **Channels & channel folders**
+  * **Apps**
+  * **Tabs**
+  * **Document Libraries and Lists**
+  * **Folders**
+  * **Files/Documents**
 
 {% hint style="warning" %}
 **Please note** the following: 
