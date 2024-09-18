@@ -15,38 +15,37 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 ## Features
 
 * **New feature added to Provisioning!**
-  * New section available when creating or editing Templates: **Content & Structure**
-  * The Content & Structure section provides three options:
-    * **Start from scratch** - the new provisioned workspace is blank. 
-    * **Use existing Microsoft Teams template** - when selected, predefined apps, channels, and tabs are created for the new provisioned workspace based on the template used. 
-    * **Copy from existing team** - selecting this will copy channels, apps, tabs, and settings from the selected existing workspace to the new one being provisioned.
-  * [For more details, take a look at the Content & Structure article.](../../governance-and-automation/provisioning/content-and-structure.md)
+  * New section available when creating or editing Templates: **Content & Structure**
+  * The Content & Structure section provides three options:
+    * **Start from scratch** - the new provisioned workspace is blank. 
+    * **Use existing Microsoft Teams template** - when selected, predefined apps, channels, and tabs are created for the new provisioned workspace based on the template used. 
+    * **Copy from existing team** - selecting this will copy channels, apps, tabs, and settings from the selected existing workspace to the new one being provisioned.
+  * [For more details, take a look at the Content & Structure article.](../../governance-and-automation/provisioning/content-and-structure.md)
 
 ## Improvements & Bug Fixes
 
 * **Improvements made to reports.**
+  * **The Sites Overview report and Teams & Groups Overview report** now have an additional column to select from the column chooser: **Last Reviewed**.  
+    * This column provides information on the date and time when the last Access Review was performed on the workspace.
 
-  * **The Sites Overview report and Teams & Groups Overview report** now have an additional column to select from the column chooser: **Last Reviewed**.  
-    * This column provides information on the date and time when the last Access Review was performed on the workspace.
+  * **The User Access report and Group Access report** now have additional columns: Sensitivity Label and Retention Label. 
 
-  * **The User Access report and Group Access report** now have additional columns: Sensitivity Label and Retention Label. 
-
-  * **The Site Storage Metrics report** is now available in all Syskit Point Subscription plans. 
+  * **The Site Storage Metrics report** is now available in all Syskit Point Subscription plans. 
 
 * **A new column** is available for workspaces in the Govern > Security & Compliance section: **Activity**.
-  * The Activity column shows the current state of the workspace: 
-    * If the light is **green**, the workspace is **active**.
-    * If the light is **gray**, the workspace is **inactive**.
-  * Activity is **based on usage** of SharePoint, Exchange, Teams and Yammer in **the last 90 days**.
-  * This column is available for both **Active Tasks and History**. 
+  * The Activity column shows the current state of the workspace: 
+    * If the light is **green**, the workspace is **active**.
+    * If the light is **gray**, the workspace is **inactive**.
+  * Activity is **based on usage** of SharePoint, Exchange, Teams and Yammer in **the last 90 days**.
+  * This column is available for both **Active Tasks and History**. 
 
 
 * **Fixed an issue** that caused the prefix not to show properly when a workspace was archived or restored. 
-  * The prefix [Archived] is added to the workspace name if a workspace is archived.
-  * The prefix [Archived] is removed from the workspace name if a workspace is restored.  
+  * The prefix [Archived] is added to the workspace name if a workspace is archived.
+  * The prefix [Archived] is removed from the workspace name if a workspace is restored.  
 
 * **Fixed an issue** where the link sent in the *task completed* e-mails, after completing an Access Review, would direct collaborators to the Govern screen of Syskit Point.
-  * The link sent in the e-mail now directs collaborators to the completed Task in Syskit Point. 
+  * The link sent in the e-mail now directs collaborators to the completed Task in Syskit Point. 
 
 * **Fixed an issue** where the policy vulnerability reminder e-mails were erroneously sent after a site sync was performed.
 
