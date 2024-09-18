@@ -52,9 +52,8 @@ When creating a template for Microsoft Teams, you will need to define the follow
 
 * **Name (1)** – A name you provide here will be used as a template name that is visible to your users
 * **Description (2)** – Describe in short when to use this template; end-users will see it when requesting a new workspace using a list of templates
-* **Microsoft template ID (3)** – This property is used to predefine apps, channels, and tabs that should be created for new workspaces that use this Syskit Point template.
-  * If you leave this property empty, default apps or channels will not be created; it will be a blank MS team.
-  * Syskit Point integrates with team templates you have created in the **Microsoft 365 Teams admin center**. When you enter a team template ID, Syskit Point will create apps, tabs, and channels you defined there.
+* **Content & Structure (3)** - choose an existing workspace or from scratch with a blank template
+  * [For more details on this section, take a look at the Content & Structure article](content-and-structure.md)
 
 To review currently available templates in your M365 tenant and use them in Syskit Point:
 
