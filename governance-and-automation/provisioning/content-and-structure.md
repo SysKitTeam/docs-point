@@ -76,6 +76,7 @@ When deciding which option to select from the three available, it helps to know 
 {% hint style="warning" %}
 **Please note** the following: 
 * **Channels & channel folders are provisioned by Microsoft** 365 and visible only after the first post is made and by **navigating to the Files tab** in the Teams app
+* **Site Themes** and **Subsites** are currently **not copied** under any of the options
 * **Empty folders** are not copied
 * **Folder color** is not copied
 * When copying files, **up to 20 files can be copied** 
