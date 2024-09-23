@@ -12,10 +12,6 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Already using Syskit Point Cloud?** Syskit Point Cloud is automatically upgraded to the latest version when available. The automatic update occurs outside working hours to ensure minimal interference with your day-to-day business.
 
-## Features
-
-
-* [For more details, take a look at the Content & Structure article.](../../governance-and-automation/provisioning/content-and-structure.md)
 
 ## Improvements & Bug Fixes
 
