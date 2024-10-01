@@ -50,18 +50,17 @@ The following are available on the task screen:
 
 ## Reassign to Manager
 
-If the policy is set as Reassign Task and the workspace owners do not resolve the task by the due date, it is reassigned to the manager(s) of the workspace owner(s).
+If the policy is set as **Reassign Task** and the workspace owners do not resolve the task by the due date, you can select to have it **reassigned to the manager(s)** of the workspace owner(s).
 
-When the due date for the task passes, the Manager of the owner(s) receives an email stating the following:
+In that case, when the due date for the task passes, the Manager of the owner(s) receives an email stating the following:
 
-* The name of the owner(s) that did not resolve the task
-* The expired date on which the task was due
-* A button to resolve the task in Syskit Point
+* **The name of policy** the vulnerability is detected for
+* **The name of the workspace(s)** where the vulnerability was detected
+* **The name of the workspace owner(s)** that did not resolve the task
+* **The expired date** on which the task was due
+* **The Resolve button** to resolve the task in Syskit Point
 
-Clicking the NAME button opens Syskit Point and the task screen, where the manager can choose how to resolve the task. 
-
-
-![Policy Vulnerability - Reassign to Manager](../../.gitbook/assets/minimum-number-of-owners-policy-violation-task.png)
+**Clicking the Resolve button** opens Syskit Point and the **Task screen**, where the manager can choose how to resolve the task. 
 
 
 ## Policy Vulnerability Resolved 
