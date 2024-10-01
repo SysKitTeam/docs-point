@@ -37,8 +37,6 @@ The objects available for copying are:
 * **Channels & channel folders**
 * **Apps**
 * **Tabs**
-* **Site Theme**
-* **Subsites**
 * **Document Libraries and Lists**
 * **Folders**
 * **Files/Documents**
