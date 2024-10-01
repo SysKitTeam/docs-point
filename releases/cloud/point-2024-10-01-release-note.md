@@ -20,11 +20,11 @@ description: This article lists improvements and bug fixes in the Syskit Point C
   * The Sensitivity Label with the highest priority rating is automatically set as sensitive.
   * Administrators can find the list of Sensitivity Labels in settings and define which should be registered as sensitive.
 
-* **New Reassign to Manager email** is set when owners do not resolve the Minimum Number of Owners and Maximum Number of Owners vulnerability tasks.
-  * If the task is not completed by the due date, the manager(s) of the owner(s) will receive an email stating that the task has been reassigned to them as it was not completed by the owner(s).
+* **New Reassign to Manager email** is sent when owners do not resolve the Minimum Number of Owners and Maximum Number of Owners vulnerability tasks and the reassign option is enabled in the policies.
+  * If the task is not completed by the due date, the defined users will receive an email stating that the task has been reassigned to them as it was not completed by the owner(s).
   * Learn more about this in the [Resolve Minimum Number of Owners Tasks](../../point-collaborators/resolve-governance-tasks/minimum-number-of-owners.md) and [Resolve Maximum Number of Owners Tasks](../../point-collaborators/resolve-governance-tasks/maximum-number-of-owners.md) articles. 
 
-* **The Site Type** column was added to the column chooser of the following reports: Site Overview, Storage Metrics, Site Storage Metrics.
+* **The Site Type** column was added to the following reports: Site Overview, Storage Metrics, Site Storage Metrics. You can show the column by enabling it in the column chooser.
 
 * **Improved detection** of the Shadow Users policy.
 
