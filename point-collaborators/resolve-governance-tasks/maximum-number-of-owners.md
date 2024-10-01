@@ -45,6 +45,23 @@ The following are available on the task screen:
 **All actions that change users' access are performed after you click the Resolve button**. 
 {% endhint %}
 
+
+## Reassign to Manager
+
+If the policy is set as Reassign Task and the workspace owners do not resolve the task by the due date, it is reassigned to the manager(s) of the workspace owner(s).
+
+When the due date for the task passes, the Manager of the owner(s) receives an email stating the following:
+
+* The name of the owner(s) that did not resolve the task
+* The expired date on which the task was due
+* A button to resolve the task in Syskit Point
+
+Clicking the NAME button opens Syskit Point and the task screen, where the manager can choose how to resolve the task. 
+
+
+![Policy Vulnerability - Reassign to Manager](../../.gitbook/assets/minimum-number-of-owners-policy-violation-task.png)
+
+
 ## Policy Vulnerability Resolved 
 
 **After you resolve the policy vulnerability, the History screen opens**, giving you an overview of all actions performed within the workflow.

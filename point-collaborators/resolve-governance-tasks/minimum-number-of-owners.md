@@ -17,7 +17,7 @@ When Syskit Point detects that the Microsoft Teams or Microsoft 365 Groups you a
 
 ## Policy Vulnerability E-mail
 
-**Syskit Point sends an e-mail to existing owners** when there are Microsoft Teams or Microsoft 365 Groups that have less than the minimum number of owners assigned, as defined in the policy settings. The e-mail includes a list of all workspaces where the policy vulnerability was detected.
+**Syskit Point sends an e-mail to existing owners** when there are Microsoft Teams or Microsoft 365 Groups with less than the minimum number of owners assigned, as defined in the policy settings. The e-mail includes a list of all workspaces where the policy vulnerability was detected.
 
 
 You can find the following information in the e-mail:
@@ -43,10 +43,26 @@ The following are available on the task screen:
 ![Policy Vulnerability Task](../../.gitbook/assets/minimum-number-of-owners-policy-violation-task.png)
 
 {% hint style="warning" %}
-**Please note!**  
+**Please note!**  
 **When you click an action within the policy vulnerability task, think of it as a preview** of what will happen after resolving the policy vulnerability.
 **All actions that change users' access are performed after you click the Resolve button**. 
 {% endhint %}
+
+## Reassign to Manager
+
+If the policy is set as Reassign Task and the workspace owners do not resolve the task by the due date, it is reassigned to the manager(s) of the workspace owner(s).
+
+When the due date for the task passes, the Manager of the owner(s) receives an email stating the following:
+
+* The name of the owner(s) that did not resolve the task
+* The expired date on which the task was due
+* A button to resolve the task in Syskit Point
+
+Clicking the NAME button opens Syskit Point and the task screen, where the manager can choose how to resolve the task. 
+
+
+![Policy Vulnerability - Reassign to Manager](../../.gitbook/assets/minimum-number-of-owners-policy-violation-task.png)
+
 
 ## Policy Vulnerability Resolved 
 
@@ -69,7 +85,7 @@ If 1 owner is assigned to a workspace when resolving the Orphaned Workspaces vul
 * **View Details button** that **opens the History screen** in Syskit Point, showing all the activities that were performed within the workflow
 
 {% hint style="warning" %}
-**Please note!**  
+**Please note!**  
 **In case you decide to click Accept Risk for the policy vulnerability**, **Microsoft Teams** or **Microsoft 365 Groups where the policy vulnerability was detected is considered compliant for the duration of time you selected when accepting the risk**. Syskit Point will not send policy vulnerability e-mails or create policy vulnerability tasks for this workspace during this timeframe.
 {% endhint %}
 
