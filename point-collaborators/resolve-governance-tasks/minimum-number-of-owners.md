@@ -48,19 +48,31 @@ The following are available on the task screen:
 **All actions that change users' access are performed after you click the Resolve button**. 
 {% endhint %}
 
-## Reassign to Manager
+## Reassign Task
 
-If the policy is set as **Reassign Task** and the workspace owners do not resolve the task by the due date, you can select to have it **reassigned to the manager(s)** of the workspace owner(s).
+If the policy is set as **Reassign Task** and the workspace owners do not resolve the task by the due date, you can select to have it reassigned to:
 
-In that case, when the due date for the task passes, the Manager of the owner(s) receives an email stating the following:
+* **Manager of Reviewer**
+* **Syskit Point Administrators**
+* **Custom Recipients**
+ 
 
-* **The name of policy** the vulnerability is detected for
-* **The name of the workspace(s)** where the vulnerability was detected
-* **The name of the workspace owner(s)** that did not resolve the task
-* **The expired date** on which the task was due
-* **The Resolve button** to resolve the task in Syskit Point
+The e-mail is sent to the one(s) specified in that selection step in the policy settings. However, **the e-mail sent contains the same information** regardless of which of the three options is selected. 
 
-**Clicking the Resolve button** opens Syskit Point and the **Task screen**, where the manager can choose how to resolve the task. 
+The **Manager of Reviewer** selection is being used as an example for this article.
+
+In that case, when the due date for the task passes, the Manager of the owner(s) receives an e-mail stating the following:
+
+* **The date (1)** until which you should resolve the policy
+* **The name of policy (2)** the vulnerability is detected for
+* **The name of the workspace(s) (3)** where the vulnerability was detected
+* **The name of the workspace owner(s) (4)** that did not resolve the task
+* **The expired date (5)** on which the task was due
+* **The Resolve button (6)** to resolve the task in Syskit Point
+
+**Clicking the Resolve button (6)** opens Syskit Point and the **Task screen**, where the manager can choose how to resolve the task.
+
+![Policy Vulnerability - Reassign Task E-mail](../../.gitbook/assets/minimum-number-of-owners-reassign-task-email.png)
 
 
 ## Policy Vulnerability Resolved 
