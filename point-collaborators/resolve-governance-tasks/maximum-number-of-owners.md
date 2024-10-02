@@ -46,20 +46,15 @@ The following are available on the task screen:
 {% endhint %}
 
 
-## Reassign Task
+## Reassigned Task
 
-If the policy is set as **Reassign Task** and the workspace owners do not resolve the task by the due date, the Syskit Point Administrators can select to have it reassigned to:
+Syskit Point admins can set the vulnerability tasks to be reassigned in case the workspace owners do not resolve the task by the due date. Tasks can be reassigned to:
 
 * **Manager of Reviewer**
 * **Syskit Point Administrators**
 * **Custom Recipients**
- 
 
-The e-mail is sent to the one(s) specified in that selection step in the policy settings. However, **the e-mail sent contains the same information** regardless of which of the three options is selected. 
-
-The **Manager of Reviewer** selection is being used as an example for this article.
-
-In that case, when the due date for the task passes, the Manager of the owner(s) receives an e-mail stating the following:
+If you are among the selected roles or users, when the due date for the initially created task passes, and the owners did not resolve the task, you will receive an e-mail stating the following:
 
 * **The date (1)** until which you should resolve the policy
 * **The name of policy (2)** the vulnerability is detected for
