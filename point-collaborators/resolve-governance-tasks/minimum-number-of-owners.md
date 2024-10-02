@@ -50,7 +50,7 @@ The following are available on the task screen:
 
 ## Reassign Task
 
-If the policy is set as **Reassign Task** and the workspace owners do not resolve the task by the due date, you can select to have it reassigned to:
+If the policy is set as **Reassign Task** and the workspace owners do not resolve the task by the due date, the Syskit Point Administrators can select to have it reassigned to:
 
 * **Manager of Reviewer**
 * **Syskit Point Administrators**
