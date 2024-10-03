@@ -82,7 +82,7 @@ If you are among the selected roles or users, when the due date for the initiall
 
 **Please note:** By default, the Minimum Number of Owners Orphaned policy vulnerability is detected when there are less than 2 active owners assigned to a workspace. If there are no active owners assigned to a workspace, the [Orphaned Workspaces](../automated-workflows/orphaned-resources-admin.md) vulnerability is detected instead. 
 
-If 1 owner is assigned to a workspace when resolving the Orphaned Workspaces vulnerability, Syskit Point will then detect the Minimum Number of Owners vulnerability.
+If 1 owner is assigned to a workspace when resolving the Orphaned Workspaces vulnerability, Syskit Point will detect the Minimum Number of Owners vulnerability.
 
 {% endhint %}
 
@@ -93,6 +93,6 @@ If 1 owner is assigned to a workspace when resolving the Orphaned Workspaces vul
 
 {% hint style="warning" %}
 **Please note!**  
-**In case you decide to click Accept Risk for the policy vulnerability**, **Microsoft Teams** or **Microsoft 365 Groups where the policy vulnerability was detected is considered compliant for the duration of time you selected when accepting the risk**. Syskit Point will not send policy vulnerability e-mails or create policy vulnerability tasks for this workspace during this timeframe.
+**If you click Accept Risk for the policy vulnerability**, **Microsoft Teams** or **Microsoft 365 Groups where the policy vulnerability was detected is considered compliant for the duration you selected when accepting the risk**. Syskit Point will not send policy vulnerability e-mails or create policy vulnerability tasks for this workspace during this timeframe.
 {% endhint %}
 
