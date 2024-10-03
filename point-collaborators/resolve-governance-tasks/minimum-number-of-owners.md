@@ -22,8 +22,9 @@ When Syskit Point detects that the Microsoft Teams or Microsoft 365 Groups you a
 
 You can find the following information in the e-mail:
 * **Due date to resolve the policy vulnerability (1)**; you have 15 workdays to resolve the policy vulnerability
-* **Microsoft Teams** or **Microsoft 365 Group where the policy vulnerability was detected (2)**
-* **Resolve button (3) that takes you to Syskit Point**, where you can resolve the policy vulnerability
+* **The name of policy (2)** the vulnerability is detected for
+* **Microsoft Teams** or **Microsoft 365 Groups where the policy vulnerability was detected (3)**
+* **Resolve button (4) that takes you to Syskit Point**, where you can resolve the policy vulnerability
 
 ![Policy Vulnerability E-mail](../../.gitbook/assets/minimum-number-of-owners-email.png)
 
