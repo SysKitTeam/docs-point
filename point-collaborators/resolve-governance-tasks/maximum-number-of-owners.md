@@ -21,8 +21,9 @@ When Syskit Point detects that Microsoft Teams or Microsoft 365 Groups, which yo
 
 You can find the following information in the e-mail:
 * **Due date to resolve the policy vulnerability (1)**; you have 15 workdays to resolve the policy vulnerability
-* **Microsoft Teams** or **Microsoft 365 Group where the policy vulnerability was detected (2)**
-* **Resolve button (3) that takes you to Syskit Point**, where you can resolve the policy vulnerability
+* **The name of policy (2)** the vulnerability is detected for
+* **Microsoft Teams** or **Microsoft 365 Groups where the policy vulnerability was detected (3)**
+* **Resolve button (4) that takes you to Syskit Point**, where you can resolve the policy vulnerability
 
 ![Policy Vulnerability E-mail](../../.gitbook/assets/maximum-number-of-owners-email.png)
 
@@ -44,6 +45,28 @@ The following are available on the task screen:
 **When you click an action within the policy vulnerability task, think of it as a preview** of what will happen after resolving the policy vulnerability.
 **All actions that change users' access are performed after you click the Resolve button**. 
 {% endhint %}
+
+
+## Reassigned Task
+
+Syskit Point admins can set the vulnerability tasks to be reassigned in case the workspace owners do not resolve the task by the due date. Tasks can be reassigned to:
+
+* **Manager of Reviewer**
+* **Syskit Point Administrators**
+* **Custom Recipients**
+
+If you are among the selected roles or users, when the due date for the initially created task passes, and the owners did not resolve the task, you will receive an e-mail stating the following:
+
+* **The date (1)** until which you should resolve the policy
+* **The name of policy (2)** the vulnerability is detected for
+* **The name of the workspace(s) (3)** where the vulnerability was detected
+* **The name of the workspace owner(s) (4)** that did not resolve the task
+* **The expired date (5)** on which the task was due
+* **The Resolve button (6)** to resolve the task in Syskit Point
+
+**Clicking the Resolve button (6)** opens Syskit Point and the **Task screen**, where you can choose how to resolve the task.
+
+![Policy Vulnerability - Reassign Task E-mail](../../.gitbook/assets/maximum-number-of-owners-reassign-task-email.png)
 
 ## Policy Vulnerability Resolved 
 
