@@ -66,7 +66,7 @@ If you are among the selected roles or users, when the due date for the initiall
 * **The expired date (5)** on which the task was due
 * **The Resolve button (6)** to resolve the task in Syskit Point
 
-**Clicking the Resolve button (6)** opens Syskit Point and the **Task screen**, where the manager can choose how to resolve the task.
+**Clicking the Resolve button (6)** opens Syskit Point and the **Task screen**, where you can choose how to resolve the task.
 
 ![Policy Vulnerability - Reassign Task E-mail](../../.gitbook/assets/minimum-number-of-owners-reassign-task-email.png)
 
