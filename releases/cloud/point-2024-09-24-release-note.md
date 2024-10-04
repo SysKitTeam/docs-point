@@ -23,7 +23,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Fixed a bug** with the Advanced Options button on the Create/Edit Metadata dialog.
 
-* **The Manage Sensitivity action** on workspaces can now also be completed by Collaborators.
-  * Admins can decide which of the Manage Sensitivity actions are allowed for Collaborators: Apply, Remove, or both. 
+* **The Manage Sensitivity actions** on workspaces can now also be completed by Collaborators.
+  * Collaborators can run the sensitivity management actions (Apply, Remove) **only if the selected sensitivity label was published for them in Microsoft Purview**; if the sensitivity label is not published for a collaborator, they cannot manage it.
 
 * **Various improvements, including UX and UI fixes, are available**.
