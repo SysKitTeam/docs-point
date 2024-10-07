@@ -4,13 +4,13 @@ description: This article explains how to set up and request a Metadata Review f
 
 # Metadata Review 
 
-Metadata, explained in simple terms as data that describes other data, is often the easiest way to **structure, categorize, and manage** all of the content within your organization. 
+Metadata, explained in simple terms as data that describes other data, is often the easiest way to structure, categorize, and manage all of your organization's content. 
 
-In the context of Microsoft 365, **metadata helps classify, search, and retrieve** documents more efficiently which makes it a great management tool. However, outdated, incorrect or missing metadata can also lead to misfiled information, inefficient sorting, and make it difficult to successfully manage your environment. 
+In the context of Microsoft 365, metadata helps classify, search, and retrieve documents more efficiently, making it a great management tool. However, outdated, incorrect, or missing metadata can also lead to misfiled information and inefficient sorting and make it difficult to manage your environment successfully. 
 
-That’s why it’s **important for collaborators to regularly review and update metadata**. Regularly performing Metadata Reviews ensures the accuracy and relevance of your content, and, ultimately, improves productivity and governance.
+That’s why it’s important for collaborators to review and update metadata regularly. Regularly performing Metadata Reviews ensures that your content is accurate and relevant, ultimately improving productivity and governance.
 
-With the Metadata Review feature, you can select metadata that you want collaborators to maintain and update. 
+With the Metadata Review feature, you can select metadata you want collaborators to maintain and update. 
 
 ## Manage Metadata Review
 
@@ -18,7 +18,7 @@ To select the metadata you want to enable collaborators to review, go to the Set
 
 * In the Governance section, click the **Custom Metadata (1)** option. 
 * Click the **Edit button (2)** for the metadata you want to enable the review for
-  * This opens the Edit Metadata screen
+  * This opens the Edit Metadata screen
 * **Click the Allow collaborators to change this metadata value checkbox (3)** to enable the feature for this metadata
 * **Click the Update Metadata button (4)** to finalize your selection 
 
