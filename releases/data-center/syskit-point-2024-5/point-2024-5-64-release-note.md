@@ -10,7 +10,7 @@ description: This article lists improvements and bug fixes in Syskit Point versi
 
 **Build number:** XX
 
-**Release date:** October 07, 2024
+**Release date:** October 14, 2024
 
 ## Get the Latest Version
 
@@ -26,9 +26,10 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 * **New feature added to Provisioning!**
   * New section available when creating or editing Templates: **Content & Structure**
   * The Content & Structure section provides three options:
-    * **Start from scratch** - the new provisioned workspace is blank. 
+    * **Start from scratch** - the new provisioned workspace has the default Microsoft look and feel without any customizations.
     * **Use existing Microsoft Teams template** - when selected, predefined apps, channels, and tabs are created for the new provisioned workspace based on the template used. 
-    * **Copy from existing team** - selecting this will copy channels, apps, tabs, and settings from the selected existing workspace to the new one being provisioned.   
+    * **Copy from existing team** - selecting this will copy channels, apps, tabs, and settings from the selected existing workspace to the new one being provisioned. 
+      * You can choose whether to copy only **Structure** or **Structure & Content**.
   * [For more details, take a look at the Content & Structure article.](../../governance-and-automation/provisioning/content-and-structure.md)
 
 
@@ -52,8 +53,8 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
   * Teams & Groups Overview, Teams & Groups Details, Sites Overview (only for Microsoft Teams & Microsoft Groups)
   * The Change Privacy actions change the privacy of a workspace from Private to Public or vice versa. 
 
-* **The Manage Sensitivity action** on workspaces can now also be completed by Collaborators.
-  * Admins can decide which of the Manage Sensitivity actions are allowed for Collaborators: Apply, Remove, or both. 
+* **The Manage Sensitivity action** on workspaces can now be completed by Collaborators.
+  * Collaborators can run the sensitivity management actions (Apply, Remove) only if the selected sensitivity label was published for them in Microsoft Purview; if the sensitivity label is not published for a collaborator, they cannot manage it.
 
 * **Sensitivity Labels** can now be marked as sensitive by administrators in the Settings of Syskit Point. 
   * Content marked with such label(s) will be shown in reports that display sensitive content.
