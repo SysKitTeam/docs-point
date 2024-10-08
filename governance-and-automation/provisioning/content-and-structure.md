@@ -61,7 +61,6 @@ When deciding which option to select from the three available, it helps to know 
   * **Apps**
   * **Tabs**
   * **Document Libraries and Lists**
-  * **Folders**
 
 * If you select **Copy team SharePoint site - Copy structure and content**, the following is copied: 
   * **Channels & channel folders**
