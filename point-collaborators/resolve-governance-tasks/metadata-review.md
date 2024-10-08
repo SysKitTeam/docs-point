@@ -4,17 +4,20 @@ description: This article explains how to resolve the Metadata Review task.
 
 # Metadata Review 
 
-Metadata is, simply put, data that describes other data, and is often the easiest way to structure and manage all of your workspace's content. 
+Metadata, explained in simple terms as data that describes other data, is often the easiest way to structure, categorize, and manage your organization's content. 
 
-However, outdated, incorrect, or missing metadata can also lead to misfiled information and inefficient sorting, making it difficult to manage your workspace successfully. 
+In the context of Microsoft 365 and Syskit Point, metadata helps classify, search, and retrieve workspaces more efficiently, making it a great management tool. 
 
-That’s why it’s important for workspace owners to review and update metadata regularly. Regularly performing Metadata Reviews ensures that your content is accurate and relevant, ultimately improving productivity and governance.
+However, outdated, incorrect, or missing metadata can also lead to misfiled information and inefficient sorting and make it difficult to manage your environment successfully. 
+
+That’s why it’s important for workspace owners to review and update metadata regularly. Regularly performing Metadata Reviews ensures that your workspace information is accurate and relevant, ultimately improving productivity and governance.
 
 Here's how the Metadata Review process works.
 
 ## Metadata Review Tasks 
 
-After Syskit Point administrators determine which metadata can be edited by which users, they can request a Metadata Review from workspace owners. Admins select the workspace(s) and metadata they want reviewed and ask owners to perform the review. 
+After Syskit Point administrators determine which metadata can be edited by workspace owners, they can request a Metadata Review. 
+Admins select the workspace(s) and metadata they want reviewed and ask owners to perform the review. 
 
 Workspace owners receive an **e-mail** stating that your company requires you to add or update additional information for the selected workspaces. The e-mail contains the following information: 
 
@@ -42,10 +45,10 @@ If the workspaces should have the same metadata information included, you can **
 
 When individually changing the metadata: 
 
-* **Click the space in the column (1)** and an editable rectangle appears where you can enter a new value, keep the current value, or edit the current value
+* **Click the space in column (1)** and an editable rectangle appears where you can enter a new value, keep the current value, or edit the current value
 * **Click the Complete button (2)** to complete the review for the workspace
-  * When the review is completed, **that workspace fades to a gray color (3)**, and **cannot be modified** anymore
-* The **Complete pop-ups** appears, where you can **enter a comment (4)** that explains the actions you took and **click Confirm (5)** to finalize the changes
+    * When the review is completed, **that workspace fades to a gray color (3)**, and **cannot be modified** anymore
+* The **Complete pop-up** appears, where you can **enter a comment (4)** that explains the actions you took and **click Confirm (5)** to finalize the changes
 
 
 ![Resolve Metadata Review - Task](../../.gitbook/assets/resolve-metadata-review-task.png)
@@ -58,17 +61,7 @@ When changing the metadata in bulk:
 * **Enter the metadata information (2)** in the provided boxes
 * **Click the Update Rows button (3)** and the information you entered is filled in for the selected workspaces
 * **Click the Complete button (4)** to complete the review for the workspaces
-* The **Complete pop-ups** appears, where you can enter a comment that explains the actions you took and **click Confirm** to finalize the changes
+* The **Complete pop-up** appears, where you can enter a comment that explains the actions you took and **click Confirm** to finalize the changes
 * After clicking confirm, **those workspaces fade to a gray color**, and **cannot be modified** anymore
 
 ![Resolve Metadata Review - Bulk Changes](../../.gitbook/assets/resolve-metadata-review-bulk.png)
-
-
-{% hint style="information" %}
-**Please note the following:**
-* Owners will receive a new task and e-mail notification.
-* Owners will be able to update the metadata.
-* Owners will have **15 days** to complete this task.
-* After a **Metadata Review is completed or if it is overdue, administrators receive an e-mail** informing them of that 1 day after completion.
-
-{% endhint %}
