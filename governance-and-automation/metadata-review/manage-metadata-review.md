@@ -12,9 +12,15 @@ That’s why it’s important for collaborators to review and update metadata re
 
 With the Metadata Review feature, you can select metadata you want collaborators to maintain and update. 
 
+{% hint style="warning" %}
+
+**Please note:** To be able to request a review from owners in Syskit Point, that metadata needs to be editable by collaborators. 
+
+{% endhint %}
+
 ## Manage Metadata Review
 
-To select the metadata you want to enable collaborators to review, go to the Settings of your Syskit Point and complete the following:
+To select the metadata you want collaborators to review, go to the Settings of your Syskit Point and complete the following:
 
 * In the Governance section, click the **Custom Metadata (1)** option. 
 * Click the **Edit button (2)** for the metadata you want to enable the review for
