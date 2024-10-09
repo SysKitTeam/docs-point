@@ -47,8 +47,8 @@ When individually changing the metadata:
 
 * **Click the space in column (1)** and an editable rectangle appears where you can enter a new value, keep the current value, or edit the current value
 * **Click the Complete button (2)** to complete the review for the workspace
-    * When the review is completed, **that workspace fades to a gray color (3)**, and **cannot be modified** anymore
-* The **Complete pop-up** appears, where you can **enter a comment (4)** that explains the actions you took and **click Confirm (5)** to finalize the changes
+    * When the review is completed, **that workspace fades to a gray color (3)**, and **cannot be modified** anymore for the duration of that review
+* The **Complete confirmation dialog** appears, where you can **enter a comment (4)** that explains the actions you took and **click Confirm (5)** to finalize the changes
 
 
 ![Resolve Metadata Review - Task](../../.gitbook/assets/resolve-metadata-review-task.png)
@@ -61,7 +61,7 @@ When changing the metadata in bulk:
 * **Enter the metadata information (2)** in the provided boxes
 * **Click the Update Rows button (3)** and the information you entered is filled in for the selected workspaces
 * **Click the Complete button (4)** to complete the review for the workspaces
-* The **Complete pop-up** appears, where you can enter a comment that explains the actions you took and **click Confirm** to finalize the changes
-* After clicking confirm, **those workspaces fade to a gray color**, and **cannot be modified** anymore
+* The **Complete confirmation dialog** appears, where you can enter a comment that explains the actions you took and **click Confirm** to finalize the changes
+* After clicking confirm, **those workspaces fade to a gray color**, and **cannot be modified** anymore for the duration of the current review
 
 ![Resolve Metadata Review - Bulk Changes](../../.gitbook/assets/resolve-metadata-review-bulk.png)
