@@ -12,17 +12,27 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Already using Syskit Point Cloud?** Syskit Point Cloud is automatically upgraded to the latest version when available. The automatic update occurs outside working hours to ensure minimal interference with your day-to-day business.
 
+## New Features
+
+* **New feature enables workspace owners to perform Metadata Review.**
+    * Administrators can decide which metadata workspace owners can manage. 
+        * [For more details on this, take a look at the Manage Metadata Review article.](../../governance-and-automation/metadata-review/manage-metadata-review.md)
+    * Admins also decide which metadata is reviewed on the selected workspace(s) and ask owners to perform Metadata Review.
+        * [For more details on this, take a look at the Request Metadata Review article.](../../governance-and-automation/metadata-review/request-metadata-review.md)
+    * After admin's request, workspace owners get an email guiding them to a Syskit Point task where they can manage workspace metadata.
+        * [For more details on this, take a look at the Resolve Metadata Review article.](../../point-collaborators/resolve-governance-tasks/metadata-review.md) 
+
 
 ## Improvements & Bug Fixes
 
 * **Sensitivity Labels** can now be marked as sensitive by administrators in the Settings of Syskit Point. 
-  * Content marked with such label(s) will be shown in reports that display sensitive content.
-  * The Sensitivity Label with the highest priority rating is automatically set as sensitive.
-  * Administrators can find the list of Sensitivity Labels in settings and define which should be registered as sensitive.
+    * Content marked with such label(s) will be shown in reports that display sensitive content.
+    * The Sensitivity Label with the highest priority rating is automatically set as sensitive.
+    * Administrators can find the list of Sensitivity Labels in settings and define which should be registered as sensitive.
 
-* **New Reassign to Manager email** is sent when owners do not resolve the Minimum Number of Owners and Maximum Number of Owners vulnerability tasks and the reassign option is enabled in the policies.
-  * If the task is not completed by the due date, the defined users will receive an email stating that the task has been reassigned to them as it was not completed by the owner(s).
-  * Learn more about this in the [Resolve Minimum Number of Owners Tasks](../../point-collaborators/resolve-governance-tasks/minimum-number-of-owners.md) and [Resolve Maximum Number of Owners Tasks](../../point-collaborators/resolve-governance-tasks/maximum-number-of-owners.md) articles. 
+* **New Reassign to Manager e-mail** is sent when owners do not resolve the Minimum Number of Owners and Maximum Number of Owners vulnerability tasks, and the reassign option is enabled in the policies.
+    * If the task is not completed by the due date, the defined users will receive an e-mail stating that the task has been reassigned to them as it was not completed by the owner(s).
+    * Learn more about this in the [Resolve Minimum Number of Owners Tasks](../../point-collaborators/resolve-governance-tasks/minimum-number-of-owners.md) and [Resolve Maximum Number of Owners Tasks](../../point-collaborators/resolve-governance-tasks/maximum-number-of-owners.md) articles. 
 
 * **The Site Type** column was added to the following reports: Site Overview, Storage Metrics, Site Storage Metrics. You can show the column by enabling it in the column chooser.
 
