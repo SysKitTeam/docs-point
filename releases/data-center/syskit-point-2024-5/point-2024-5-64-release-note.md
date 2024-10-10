@@ -33,6 +33,14 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
   * [For more details, take a look at the Content & Structure article.](../../governance-and-automation/provisioning/content-and-structure.md)
 
 
+* **New feature enables workspace owners to perform Metadata Review.**
+  * Administrators can decide which metadata workspace owners can manage. 
+    * [For more details on this, take a look at the Manage Metadata Review article.](../../governance-and-automation/metadata-review/manage-metadata-review.md)
+  * Admins also decide which metadata is reviewed on the selected workspace(s) and ask owners to perform Metadata Review.
+    * [For more details on this, take a look at the Request Metadata Review article.](../../governance-and-automation/metadata-review/request-metadata-review.md)
+  * After admin's request, workspace owners get an email guiding them to a Syskit Point task where they can manage workspace metadata.
+    * [For more details on this, take a look at the Resolve Metadata Review article.](../../point-collaborators/resolve-governance-tasks/metadata-review.md) 
+
 ## Improvements & Bug Fixes
 
 * **Improvements made to reports.**
@@ -67,7 +75,6 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 * **Fixed an issue** where the link sent in the *task completed* e-mails, after completing an Access Review, would direct collaborators to the Govern screen of Syskit Point.
   * The link sent in the e-mail now directs collaborators to the completed Task in Syskit Point. 
-
 
 * **Fixed an issue** that caused the prefix not to show properly when a workspace was archived or restored. 
   * The prefix [Archived] is added to the workspace name if a workspace is archived.
