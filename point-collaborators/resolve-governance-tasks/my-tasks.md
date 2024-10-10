@@ -32,6 +32,7 @@ On the screen that opens, click the **link in the Task column** to continue and 
 ## Related Articles
 
 * [Complete Access Review Tasks](access-review.md)
+* [Complete Metadata Review Tasks](metadata-review.md)
 * [Perform Lifecycle Management Tasks](lifecycle-management.md)
 * [Resolve Inactive Guest Users Tasks](guest-users-expiration.md)
 * [Resolve Minimum Number of Owners Tasks](minimum-number-of-owners.md)
