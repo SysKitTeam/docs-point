@@ -1,14 +1,14 @@
 ---
-description: This article lists improvements and bug fixes in Syskit Point version 2024.5.64
+description: This article lists improvements and bug fixes in Syskit Point version 2024.5.65
 ---
 
-# Syskit Point 2024.5.64
+# Syskit Point 2024.5.65
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
-**Product version:** 2024.5.64 
+**Product version:** 2024.5.65 
 
-**Build number:** XX
+**Build number:** 23
 
 **Release date:** October 14, 2024
 
