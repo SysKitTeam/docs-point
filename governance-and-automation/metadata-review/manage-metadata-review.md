@@ -1,5 +1,5 @@
 ---
-description: This article explains how to set up and request a Metadata Review from collaborators. 
+description: This article explains how to select metadata that can be requested for review from collaborators. 
 ---
 
 # Metadata Review 
