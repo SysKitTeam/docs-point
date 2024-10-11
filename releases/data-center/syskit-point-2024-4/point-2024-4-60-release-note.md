@@ -1,5 +1,5 @@
 ---
-description: This article lists improvements and bug fixes in Syskit Point version 2024.4.54
+description: This article lists improvements and bug fixes in Syskit Point version 2024.4.60
 ---
 
 # Syskit Point 2024.4.60
