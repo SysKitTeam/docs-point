@@ -14,7 +14,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes
 
-* **Custom Metadata columns** were added to the User Access and Users with Privileged Access reports.
+* **Custom Metadata columns were added** to the User Access and Users with Privileged Access reports.
 
 * **The Department column was added** to the Users with Privileged Access report and can be selected from the column chooser. 
 
