@@ -81,6 +81,6 @@ After that, a pop-up confirms that the task has been sent and lets you know that
 
 ## Relevant Articles 
 
-* [monitor Metadata Review](monitor-metadata-review.md)
+* [Monitor Metadata Review](monitor-metadata-review.md)
 * [Resolve Metadata Review Tasks](../../point-collaborators/resolve-governance-tasks/metadata-review.md)
 * [Manage Custom Metadata](manage-custom-metadata.md)
