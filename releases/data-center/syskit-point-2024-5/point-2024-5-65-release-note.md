@@ -30,16 +30,16 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
     * **Use existing Microsoft Teams template** - when selected, predefined apps, channels, and tabs are created for the new provisioned workspace based on the template used. 
     * **Copy from existing team** - selecting this will copy channels, apps, tabs, and settings from the selected existing workspace to the new one being provisioned. 
       * You can choose whether to copy only **Structure** or **Structure & Content**.
-  * [For more details, take a look at the Content & Structure article.](../../governance-and-automation/provisioning/content-and-structure.md)
+  * [For more details, take a look at the Content & Structure article.](../../../governance-and-automation/provisioning/content-and-structure.md)
 
 
 * **New feature enables workspace owners to perform Metadata Review.**
   * Administrators can decide which metadata workspace owners can manage. 
-    * [For more details on this, take a look at the Manage Metadata Review article.](../../governance-and-automation/metadata-review/manage-metadata-review.md)
+    * [For more details on this, take a look at the Manage Metadata Review article.](../../../governance-and-automation/metadata-review/manage-metadata-review.md)
   * Admins also decide which metadata is reviewed on the selected workspace(s) and ask owners to perform Metadata Review.
-    * [For more details on this, take a look at the Request Metadata Review article.](../../governance-and-automation/metadata-review/request-metadata-review.md)
+    * [For more details on this, take a look at the Request Metadata Review article.](../../../governance-and-automation/metadata-review/request-metadata-review.md)
   * After admin's request, workspace owners get an email guiding them to a Syskit Point task where they can manage workspace metadata.
-    * [For more details on this, take a look at the Resolve Metadata Review article.](../../point-collaborators/resolve-governance-tasks/metadata-review.md) 
+    * [For more details on this, take a look at the Resolve Metadata Review article.](../../../point-collaborators/resolve-governance-tasks/metadata-review.md) 
 
 ## Improvements & Bug Fixes
 
@@ -71,7 +71,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 * **New Reassign to Manager e-mail** is sent when owners do not resolve the Minimum Number of Owners and Maximum Number of Owners vulnerability tasks, and the reassign option is enabled in the policies.
   * If the task is not completed by the due date, the defined users will receive an e-mail stating that the task has been reassigned to them as it was not completed by the owner(s).
-  * Learn more about this in the [Resolve Minimum Number of Owners Tasks](../../point-collaborators/resolve-governance-tasks/minimum-number-of-owners.md) and [Resolve Maximum Number of Owners Tasks](../../point-collaborators/resolve-governance-tasks/maximum-number-of-owners.md) articles. 
+  * Learn more about this in the [Resolve Minimum Number of Owners Tasks](../../../point-collaborators/resolve-governance-tasks/minimum-number-of-owners.md) and [Resolve Maximum Number of Owners Tasks](../../../point-collaborators/resolve-governance-tasks/maximum-number-of-owners.md) articles. 
 
 * **Fixed an issue** where the link sent in the *task completed* e-mails, after completing an Access Review, would direct collaborators to the Govern screen of Syskit Point.
   * The link sent in the e-mail now directs collaborators to the completed Task in Syskit Point. 
