@@ -217,7 +217,7 @@
     * [Approval Process](governance-and-automation/access-requests/approval-process.md)
   * [Metadata](governance-and-automation/metadata/README.md)
     * [Manage Custom Metadata](governance-and-automation/metadata/manage-custom-metadata.md)
-    * [Request Metadata Review](governance-and-automation/metadata/manage-metadata-review.md)
+    * [Request Metadata Review](governance-and-automation/metadata/request-metadata-review.md)
     * [Monitor Metadata Review](governance-and-automation/metadata/monitor-metadata-review.md)
   * [Syskit Point Teams App](governance-and-automation/syskit-point-teams-app.md)
   * [Schedule Reports](governance-and-automation/scheduled-reports.md)

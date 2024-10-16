@@ -36,7 +36,7 @@ To start, take the following steps:
    * This screen provides insight into what **custom metadata has already been set up**, along with the option to create new custom metadata.  
 * Click the **Create New (3)** button to create new custom metadata.
 
-![Custom Metadata Settings](../.gitbook/assets/manage-custom-metadata-create-new.png)
+![Custom Metadata Settings](../../.gitbook/assets/manage-custom-metadata-create-new.png)
 
 Once the create new metadata dialog opens, fill in the following information.
 * **Metadata Name (1)**; the name of the metadata.
@@ -57,7 +57,7 @@ Once the create new metadata dialog opens, fill in the following information.
 * Use the **null text (6)** area to add a short hint describing the input field for end users.
 * When satisfied, click **Confirm (7)** to save the metadata definiton.
 
-![Create New Metadata](../.gitbook/assets/manage-custom-metadata-create-new-dialog.png)
+![Create New Metadata](../../.gitbook/assets/manage-custom-metadata-create-new-dialog.png)
 
  {% hint style="info" %}
 **Hint!** To connect to metadata from your environment, when creating custom metadata, click the Advanced Options action and insert the property bag key in the designated space.
@@ -72,7 +72,7 @@ To change the custom metadata that has been set up on workspaces, select Sites o
 * On the Sites overview screen, **select one or multiple workspaces (1)** to edit their metadata.
 * Click **Manage Metadata > Change Metadata (2)** option available on the right side of the screen.
 
-![Change Metadata](../.gitbook/assets/manage-custom-metadata-change-metadata.png) 
+![Change Metadata](../../.gitbook/assets/manage-custom-metadata-change-metadata.png) 
 
 On the Change Metadata dialog:
 * **Specify custom metadata (1)** by clicking the Change Another Column action
@@ -81,7 +81,7 @@ On the Change Metadata dialog:
 * **Click Complete (4)** when finished
   * This will start the process of changing the custom metadata, and once completed, the information input will be displayed under the selected workspaces.
 
-![Change Metadata](../.gitbook/assets/manage-custom-metadata-change-metadata-dialog.png)
+![Change Metadata](../../.gitbook/assets/manage-custom-metadata-change-metadata-dialog.png)
 
 ## Remove Custom Metadata
 
@@ -89,7 +89,7 @@ To remove custom metadata:
 * On the Sites overview screen, **select one or multiple workspaces (1)** to remove the custom metadata.
 * Click **Manage Metadata > Remobve Metadata (2)** option available on the right side of the screen.
 
-![Remove Metadata](../.gitbook/assets/manage-custom-metadata-remove-metadata.png) 
+![Remove Metadata](../../.gitbook/assets/manage-custom-metadata-remove-metadata.png) 
 
 Remove Metadata dialog opens; **select the metadata you want to remove**, and **click Remove**.
 
@@ -101,12 +101,12 @@ When generating a report, you can filter out workspaces with desired custom meta
 * On the Selection step, use the **Column Chooser (1)** to select custom metadata, thus making the custom metadata column and values visible on the Selection step.
 * Once the custom metadata column is added, use the **filter dropdown menu (2)** in the custom metadata column to filter and show workspaces with selected metadata values. 
 
-![Filtering by metadata](../.gitbook/assets/manage-custom-metadata-filter.png)
+![Filtering by metadata](../../.gitbook/assets/manage-custom-metadata-filter.png)
  
 **Workspaces with selected custom metadata values (3) are displayed**.
 * **Select (4)** one or more of the filtered workspaces to include in the report.
 * Click **Run Report (5)** to generate the report for selected workspaces. 
 
-![Filtered workspaces](../.gitbook/assets/manage-custom-metadata-filter-run-report.png)
+![Filtered workspaces](../../.gitbook/assets/manage-custom-metadata-filter-run-report.png)
 
 This can be applied to any reports from the Report section that include **Sites, Microsoft Teams & Groups, and OneDrive**.
