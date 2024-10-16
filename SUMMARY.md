@@ -215,7 +215,7 @@
     * [Create Access Requests](governance-and-automation/access-requests/create-access-requests-policy.md)
     * [Apply Access Requests](governance-and-automation/access-requests/apply-access-requests-policy.md)
     * [Approval Process](governance-and-automation/access-requests/approval-process.md)
-  * [Metadata Review](governance-and-automation/metadata/README.md)
+  * [Metadata](governance-and-automation/metadata/README.md)
     * [Manage Custom Metadata](governance-and-automation/metadata/manage-custom-metadata.md)
     * [Request Metadata Review](governance-and-automation/metadata/manage-metadata-review.md)
     * [Monitor Metadata Review](governance-and-automation/metadata/monitor-metadata-review.md)
