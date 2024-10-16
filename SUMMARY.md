@@ -143,6 +143,7 @@
   * [Audit for Syskit Point Settings](configuration/audit-log-for-settings.md)
 * [Reporting](reporting/README.md)
   * [Overview](reporting/overview.md)
+  * [Copilot Readiness](reporting/copilot-readiness.md)
   * [External Sharing Reports](reporting/external-sharing-reports.md)
   * [Access Reports](reporting/access-reports.md)
   * [Audit Reports](reporting/audit-reports.md)
