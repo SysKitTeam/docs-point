@@ -60,7 +60,7 @@ Once the create new metadata dialog opens, fill in the following information.
 ![Create New Metadata](../../.gitbook/assets/manage-custom-metadata-create-new-dialog.png)
 
  {% hint style="info" %}
-**Hint!** To connect to metadata from your environment, when creating custom metadata, click the Advanced Options action and insert the property bag key in the designated space.
+**Hint!** To connect to metadata from your environment, click the Advanced Options action and insert the property bag key in the designated space.
 {% endhint %}
 
 ## Change Custom Metadata

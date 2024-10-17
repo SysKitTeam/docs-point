@@ -14,21 +14,29 @@ With the Metadata Review feature, you can select metadata you want collaborators
 
 {% hint style="warning" %}
 
-**Please note:** To be able to request a review from workspace owners in Syskit Point, ensure the following:
+**Please note:** To be able to request a review from workspace owners in Syskit Point, **ensure the following**:
 * The Collaborator role is enabled. 
-    * For more details, read the [Assign and Manage Access to Syskit Point article](../../configuration/enable-role-based-access.md#syskit-point-collaborators-1).
-*  Metadata needs to be editable by collaborators. 
-    * Continue reading this article and discover how to allow collaborators to manage custom metadata.
+    * For more details, read the [Assign and Manage Access to Syskit Point article](../../configuration/enable-role-based-access.md#syskit-point-collaborators-1).
+* Metadata is be editable by collaborators. 
+    * Continue reading this article and discover how to allow collaborators to manage custom metadata.
 
 {% endhint %}
 
 ## Enable Collaborators to Manage Metadata
 
+{% hint style="warning" %}
+* This section explains how to enable the metadata you want reviewed by workspace owners. **If your metadata is already enabled for review, you can skip this section.**
+
+* If the Collaborator role is not enabled in your environment, take a look at the [Assign and Manage Access to Syskit Point article](../../configuration/enable-role-based-access.md#syskit-point-collaborators-1). Collaborators must be allowed to enable and request a metadata review.  
+
+{% endhint %}
+
+
 To select the metadata you want collaborators to manage, go to Syskit Point settings and complete the following:
 
 * In the Governance section, click the **Custom Metadata (1)** option. 
 * Click the **Edit button (2)** for the metadata you want to edit
-    * This opens the Edit Metadata screen
+    * This opens the Edit Metadata screen
 * **Click the Allow collaborators to change this metadata value checkbox (3)**
 * **Click the Update Metadata button (4)** to finalize your selection 
 
@@ -44,7 +52,7 @@ Once your preferences have been saved, you can request Metadata Reviews from col
 Once you've [defined which metadata can be managed by collaborators through Syskit Point](#enable-collaborators-to-manage-metadata), you can request a review by going to the **Sites Overview or Teams & Groups Overview**. 
 
 {% hint style="warning" %}
-**Please note:** You cannot request a review for the metadata that was not approved for owner review. 
+**Please note:** Metadata that was not approved for owner review cannot be requested.
 {% endhint %}
 
 In this article, we are using the **Teams & Groups Overview** screen. To request a review, complete the following:
@@ -58,9 +66,13 @@ The **Ask Owners (1)** pop-up appears, where you can:
 
 * **Click the Select metadata (2)** action, and a dropdown list of all metadata in your environment opens
 * **Select the metadata (3)** you want the review performed for
-  * If the metadata is a faded gray color and cannot be selected, it means that the administrator did not enable metadata management for collaborators on that specific metadata, or a review for that metadata is already in progress.
+ * If the metadata is a faded gray color and cannot be selected, the administrator did not enable metadata management for collaborators on that specific metadata, or a review for that metadata is already in progress.
 * Once you've selected the metadata, you can **leave a comment (4)** for the owners 
 * **Click the Ask Owners (5)** button to finalize the selection and send the task to the workspace owners
+
+{% hint style="information" %}
+**Please note:** If you've already requested a review for **specific metadata for selected workspaces**, you cannot select that metadata **until the pending review** for that metadata **is completed**.
+{% endhint %}
 
 ![Request Metadata Review - Ask Owners](../../.gitbook/assets/request-metadata-review-ask-owners-1.png)
 
@@ -71,12 +83,14 @@ The **Ask Owners (1)** pop-up appears, where you can:
 After that, a pop-up confirms that the task has been sent and lets you know that you can **check the newly created tasks by going to the Governance screen, selecting Metadata Review, and clicking Requested Reviews**. 
 
 {% hint style="information" %}
-**Please note the following:**
+
+**After a metadata review is requested:**
 * Owners will receive a new task and e-mail notification.
 * Owners will be able to update the metadata.
 * Owners will have **15 days** to complete this task.
-* After a **Metadata Review is completed or if it is overdue, administrators receive an e-mail** informing them of that 1 day after completion.
-* If you've already requested a review for **specific metadata for selected workspaces**, you are not able to select that metadata until the pending review for that metadata is completed.
+
+**After a Metadata Review is completed or if it is overdue**, administrators receive an e-mail informing them of that 1 day after completion.
+
 {% endhint %}
 
 ## Relevant Articles 
