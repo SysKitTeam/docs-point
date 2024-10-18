@@ -13,6 +13,7 @@ The options you have are the following:
   * Default apps or channels will not be created, and the content and structure will not be copied from an existing workspace. 
 
 * **Use existing Microsoft Teams template (2)**
+  * This option is **available only** when provisioning **Microsoft Teams**.
   * After selecting this option, you need to enter Microsoft template ID for an existing template.
   * Syskit Point integrates with team templates you have created in the **Microsoft 365 Teams admin center**. 
   * When you enter a team template ID, Syskit Point creates predefined apps, channels, and tabs for the new workspaces that use the template.
@@ -21,6 +22,7 @@ The options you have are the following:
   * When selecting this, you need to select the workspace you want to copy by entering the name (or identifying information) of the workspace in the space provided.
   * This copies channels, apps, tabs, and settings from the selected workspace to the one being provisioned. 
   * You can also select whether to **check the Copy team SharePoint site (4)** checkbox
+    * This checkbox is **only available for Microsoft Teams**.
     * If the check is marked, you can also select whether to:
       * Copy structure - this copies only the structure of the workspace but not the content
       * Copy structure and content - this copies both the structure of the workspace and the content within the workspace
@@ -72,6 +74,7 @@ When deciding which option to select from the three available, it helps to know 
 
 {% hint style="warning" %}
 **Please note** the following: 
+* **OneNote is not** supported or copied.
 * **Channels & channel folders are provisioned by Microsoft** 365 and visible only after the first post is made and by **navigating to the Files tab** in the Teams app
 * **Site Themes** and **Subsites** are currently **not copied** under any of the options
 * **Empty folders** are not copied
