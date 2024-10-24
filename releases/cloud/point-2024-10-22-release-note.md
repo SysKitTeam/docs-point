@@ -10,7 +10,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **New to Syskit Point Cloud?** Explore Syskit Point Cloud with a 21-day [free trial](https://www.syskit.com/products/point/free-trial/) for an easy and effective way to manage and secure your environment.
 
-* **Already using Syskit Point Cloud?** Syskit Point Cloud is automatically upgraded to the latest version when available. The automatic update occurs outside working hours to ensure minimal interference with your day-to-day business. The new version starts rolling out with the announcement and is expected to reach all customers within 3 workdays.
+* **Already using Syskit Point Cloud?** Syskit Point Cloud is automatically upgraded to the latest version when available. The automatic update occurs outside working hours to ensure minimal interference with your day-to-day business. The new version starts rolling out with this announcement and is expected to reach all customers within 3 workdays.
 
 ## Improvements & Bug Fixes
 
