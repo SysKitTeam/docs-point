@@ -4,24 +4,22 @@ description: The Sensitivity Labels report provides an overview of your sensitiv
 
 # Sensitivity Labels Reports
 
-In this article, you can locate information on the following external sharing reports:
+In this article, you can locate information on the following reports:
 
 * [Sensitivity Labels Report](#sensitivity-labels-report)
 * [Sensitivity Labels Inventory Report](#sensitivity-labels-inventory-report)
 
 These reports can be used to **ensure sensitive data is properly labeled and assigned** to the correct number of resources, **identify gaps in data security**, and **maintain compliance** with company policies.
 
-To access an external sharing report, complete the following steps:
+To access sensitivity label reports, complete the following steps:
 
- * **Click the Reports tile**; located on the Syskit Point home screen.
- * **Select the Sensitivity Labels category in the filter** located in the upper left corner.
+ * **Click the Reports tile** located on the Syskit Point home screen.
+ * **Select the Sensitivity Labels category in the filter** in the upper left corner.
  * **Click the Sensitivity Labels or Sensitivity Labels Inventory report tile**; this will generate that specific report.
 
 ## Sensitivity Labels Report
 
-This article contains information on the Sensitivity Labels report available through the **Report Center**:
-
-The Sensitivity Labels report provides a complete overview of your Sensitivity Labels and summarized data about your workspaces and files.
+The Sensitivity Labels report provides a complete overview of your Sensitivity Labels and summarized data about the number of workspaces and files where the sensitivity labels are applied.
 
 
 ### Generate Report
@@ -53,8 +51,6 @@ The Sensitivity Labels report can be **exported as PDF and XLSX files**. There i
 
 ## Sensitivity Labels Inventory Report
 
-This article contains information on the Sensitivity Labels report available through the **Report Center**:
-
 The Sensitivity Labels Inventory report lets you find workspaces and files where a specific sensitivity label is applied.
 
 
@@ -64,11 +60,11 @@ The Sensitivity Labels Inventory report lets you find workspaces and files where
 * **Select the Sensitivity Labels category in the filter** you can find in the upper left corner.
 * **Click the Sensitivity Labels Inventory report tile** to be redirected to the Selection screen.
 
-After clicking the **Sensitivity Labels inventory** report tile, the Sensitivity Labels Inventory report is generated, which contains the summarized data.
+The report can be generated from the Sensitivity Labels report as well. Select a label and click the Sensitivity Labels Inventory report action in the Go to Report side menu.
 
-### Report Data
+### Selection & Filters
 
-The default columns displayed in the initial report are:  
+The selection screen shows information available on the Sensitivity Labels report:  
 
 * **Name** of the sensitivity labels
 * **Priority** shows the level of priority for the label, with 0 being the lowest and 1 being the highest
@@ -81,16 +77,19 @@ The additional columns available in the **column chooser**, located in the top r
 * **Parent Label**
 * **Description**
 
+**Selecting one or more sensitivity labels** from the list lets you generate a report that shows **where the sensitivity labels are applied down to the file level**.  Click the Run Report button after selection to generate the report.
 
-**Selecting one or more sensitivity labels** from the list, lets you generate a report that shows **where the sensitivity labels are applied down to the file level**.
+### Report Data
 
-This report shows the following:
+The report shows the following:
 
-* **Name** of the label and the workspaces and files the label is applied to
+* **Name** of the label, workspaces, and files the label is applied to
 * **Object Type** shows what type the object is (Ex. Microsoft Team, List Item, etc.)
-* **Workspaces Affected** shows the names of workspaces that the sensitivity label is applied to
+* **Workspaces Name** shows the names of workspaces that the sensitivity label is applied to
 * **Path** shows the URL path for the workspace or file
-  * Clicking the workspace opens it on SharePoint, and clicking the file opens the file  
+    * Clicking the link for the workspace object opens the workspace SharePoint site; clicking the file link opens the file in case the file is supported for web view; otherwise, you can download the file
 
+The additional columns available in the **column chooser**, located in the top right corner of the report, are:  
+* **Workspace Privacy**
 
 The Sensitivity Labels Inventory report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
