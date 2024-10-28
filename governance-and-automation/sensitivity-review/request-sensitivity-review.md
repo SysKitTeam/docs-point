@@ -1,5 +1,5 @@
 ---
-description: This article explains how to request a owners to review the sensitivity for their workspaces. 
+description: This article explains how to request owners to review their workspaces' sensitivity. 
 ---
 
 # Sensitivity Review
@@ -8,7 +8,7 @@ Sensitivity labels, designed to classify and protect your data, should be kept u
 
 Regularly reviewing sensitivity labels helps prevent unauthorized access, ensures data is correctly classified, and avoids any potential security risks. 
 
-The best way to ensure all workspaces are properly classified, is to involve workspace owners in this process. Owners have firsthand knowledge of the data within their environments and can ensure the labels applied align with both your company policies and the specific needs of their teams.
+The best way to ensure all workspaces are properly classified is to involve workspace owners in this process. Owners have firsthand knowledge of the data within their environments and can ensure the labels applied align with both your company policies and the specific needs of their teams.
 
 With the new Ask Owners to Manage Sensitivity action, you can now select workspaces that you want owners to review the sensitivity level for.
 
@@ -23,17 +23,17 @@ With the new Ask Owners to Manage Sensitivity action, you can now select workspa
 Here's how to request owners to review the sensitivity labels on their workspaces. 
 
 * Navigate to the **Sites Overview screen** by clicking the Sites button on the left side of the screen
-  * The same actions can also be taken from the **Teams & Groups Overview** screen.
+  * The same actions can also be taken from the **Teams & Groups Overview** screen.
 * **Select one or more workspaces (1)** that you want to request a sensitivity labels review for
 * On the right side of the screen, **click the arrow next to Manage Sensitivity (2)** button 
-* **Click the Ask Owners action (3)** and a confirmnation dialog opens 
+* **Click the Ask Owners action (3)**, and a confirmation dialog opens 
 * Here, you can **leave a comment (4)** if you feel one is needed and **click the Ask Owners button (5)** to request a review
 
 ![Sensitivity Review](../../.gitbook/assets/request-sensitivity-review.png)
 
 ![Sensitivity Review - Request](../../.gitbook/assets/request-sensitivity-review-request.png)
 
-After that, the dialog confirms that the task has been sent and lets you know that you can **check the newly created tasks by going to the Governance screen, and under Sensitivity Review, clicking Requested Reviews**. 
+After that, the dialog confirms that the task has been sent and lets you know that you can **check the newly created tasks by going to the Governance screen and, under Sensitivity Review, clicking Requested Reviews**. 
 
 {% hint style="information" %}
 

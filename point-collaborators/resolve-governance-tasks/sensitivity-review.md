@@ -8,13 +8,13 @@ Keeping your workspace's data secure is an important part of maintaining securit
 
 You may be asked to review the sensitivity label on your workspace to ensure it still aligns with your team’s current needs and company policies. For example, if a project’s focus has shifted or if your workspace now includes more sensitive data, it might be time to update the label.
 
-This article walks you through the simple steps for reviewing and, if necessary, adjusting the sensitivity label for your workspace. With just a few actions, you’ll help protect your workspace and keep data access limited to those that need it.
+This article walks you through the simple steps for reviewing and, if necessary, adjusting the sensitivity label for your workspace. With just a few actions, you’ll help protect your workspace and limit data access to those who need it.
 
 Here's how you can perform a sensitivity review.
 
 ## Sensitivity Review Tasks
 
-Admins select the workspace(s) they want the sensitivity reviewed for and ask owners to perform the review. 
+Admins select the workspace(s) for which they want the sensitivity label reviewed and ask owners to perform the review. 
 
 Workspace owners receive an **e-mail** stating that your company requires you to add or update the sensitivity for the selected workspaces. The e-mail contains the following information: 
 
@@ -33,7 +33,7 @@ Workspace owners receive an **e-mail** stating that your company requires you to
 
 ## Resolve Sensitivity Review Tasks 
 
-The Sensitivity Review task screen shows you the list of workspaces that the review was requested for, and you'll also see the sensitivity column. 
+The Sensitivity Review task screen shows the list of workspaces for which the review was requested, as well as the sensitivity column. 
 
 You can change the sensitivity for each workspace **individually** if the sensitivity level between the workspaces differs.
 
@@ -41,9 +41,9 @@ If the workspaces should have the same sensitivity level, you can **select more 
 
 When individually changing the sensitivity: 
 
-* **Click the space in the column (1)** where the sensitivity is stated, and an **editable rectangle appears** where you can select a new value, keep the current value, or change the current value
+* **Click the space in column (1)** where the sensitivity is stated, and an **editable rectangle appears** where you can select a new value, keep the current value, or change the current value
 * **Click the Complete button (2)** to complete the review for the workspace
-    * When the review is completed, **that workspace fades to a gray color (3)**, and **cannot be modified** anymore for the duration of that review
+    * When the review is completed, **that workspace fades to a gray color (3)**, and **cannot be modified** anymore for the duration of that review
 * The **Complete confirmation dialog** appears, where you can **enter a comment (4)** that explains the actions you took and **click Confirm (5)** to finalize the changes
 
 
@@ -60,4 +60,4 @@ When changing the sensitivity in bulk:
 * The **Complete confirmation dialog** appears, where you can enter a comment that explains the actions you took and **click Confirm** to finalize the changes
 * After clicking confirm, **those workspaces fade to a gray color**, and **cannot be modified** anymore for the duration of the current review
 
-![Resolve Sensitivity Review - Bulk Changes](../../.gitbook/assets/resolve-metadata-review-bulk.png)
+![Resolve Sensitivity Review - Bulk Changes](../../.gitbook/assets/resolve-sensitivity-review-bulk.png)
