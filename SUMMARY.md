@@ -48,6 +48,7 @@
   * [Syskit Point Data Center](releases/data-center/README.md)
     * [Syskit Point 2024.5](releases/data-center/syskit-point-2024-5/README.md)  
       * [Syskit Point 2024.5.65](releases/data-center/syskit-point-2024-5/point-2024-5-65-release-note.md)
+      * [Syskit Point 2024.5.67](releases/data-center/syskit-point-2024-5/point-2024-5-67-release-note.md)
     * [Syskit Point 2024.4](releases/data-center/syskit-point-2024-4/README.md)  
       * [Syskit Point 2024.4.60](releases/data-center/syskit-point-2024-4/point-2024-4-60-release-note.md)
       * [Syskit Point 2024.4.54](releases/data-center/syskit-point-2024-4/point-2024-4-54-release-note.md)
