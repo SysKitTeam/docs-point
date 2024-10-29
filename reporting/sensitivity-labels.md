@@ -13,9 +13,9 @@ These reports can be used to **ensure sensitive data is properly labeled and ass
 
 To access sensitivity label reports, complete the following steps:
 
- * **Click the Reports tile** located on the Syskit Point home screen.
- * **Select the Sensitivity Labels category in the filter** in the upper left corner.
- * **Click the Sensitivity Labels or Sensitivity Labels Inventory report tile**; this will generate that specific report.
+* **Click the Reports tile** located on the Syskit Point home screen.
+* **Select the Sensitivity Labels category in the filter** in the upper left corner.
+* **Click the Sensitivity Labels or Sensitivity Labels Inventory report tile**; this will generate that specific report.
 
 ## Sensitivity Labels Report
 
