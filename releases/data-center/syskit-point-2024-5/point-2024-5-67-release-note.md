@@ -8,7 +8,7 @@ description: This article lists improvements and bug fixes in Syskit Point versi
 
 **Product version:** 2024.5.67
 
-**Build number:** 22
+**Build number:** 24
 
 **Release date:** October 29, 2024
 
