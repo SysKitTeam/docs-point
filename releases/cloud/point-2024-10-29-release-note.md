@@ -28,6 +28,11 @@ description: This article lists improvements and bug fixes in the Syskit Point C
   * **By clicking a workspace** on the completed Metadata Review overview screen, **you are taken to the Review - Summary**.
     * On the Review - Summary screen, you can see the actions taken for this workspace, who the action was performed by and when, and any comments the reviewer left when resolving the task.  
 
+* **When Provisioning a workspace**, the Site Theme is now copied when you select one of the following options: 
+  * Copy Team SharePoint Site - **Structure**
+  * Copy Team SharePoint Site - **Structure & Content**
+  * **Only the Site Theme is copied**, which means the header, navigation, or other aspects of **the site's look are not copied**.
+
 * **Fixed an issue** that caused sensitivity labels not to apply properly when provisioning a workspace.
 
 * **Various improvements, including UX and UI fixes, are available**.
