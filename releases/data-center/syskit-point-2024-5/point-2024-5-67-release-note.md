@@ -45,9 +45,6 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
   * **The Editing Allowed column** provides information on whether owners can manage this metadata through actions on the Sites or Teams & Groups overview screen or as a part of the Metadata Review task. 
   * If **editing is allowed**, a **green check** is shown in the column. 
 
-* **When completing the Lifecycle Management** review on a workspace and choosing the Keep action, the two options now available are **6 months** and **Custom**.
-  * You can decide to keep the workspace for 6 months or enter a custom period, however, the custom period cannot exceed the time frame set by the administrators in the Settings of Syskit Point. 
-
 * **Improved the sync process** to ensure that if the last sync was not executed successfully, the next sync that Syskit Point performs is a full sync instead of a partial.
 
 * **The subject line** for policy vulnerability e-mails has been changed to reflect that there is an **Action Required**.
