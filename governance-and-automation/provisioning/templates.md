@@ -103,7 +103,7 @@ Please note that available options depend on defined tenant-level external shari
 * **Terms & Conditions (11)** - define the terms & conditions text displayed to end-users when they request a new workspace.
 * **Custom Metadata (12)** - custom metadata provides expanded information collected and included in reports. Set up which fields users will need to input or select for the custom metadata when using the template.
   * If no custom metadata was created, it can be set up directly in the form by selecting **Create New Custom Field**.
-  * For more information on managing and creating custom metadata, take a look at [this article](../manage-custom-metadata.md).
+  * For more information on managing and creating custom metadata, take a look at [this article](../metadata/manage-custom-metadata.md).
 
 ![New Teams Template Dialog - Step 4](../../.gitbook/assets/provisioning-templates-teams-dialog-step-4.png)
 
