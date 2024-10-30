@@ -55,6 +55,7 @@ When deciding which option to select from the three available, it helps to know 
 | Document Libraries & Lists | Not copied | Not copied | Not copied | Copied | Copied |
 | Folders | Not copied | Not copied | Not copied | Copied | Copied |
 | Files/Documents | Not copied | Not copied | Not copied | Not copied | Copied |
+| Site Theme |Not copied | Not copied | Not copied | Copied | Copied |
 
 {% hint style="information" %}
 
@@ -71,7 +72,8 @@ When deciding which option to select from the three available, it helps to know 
 * **Empty folders**
 * **Folder color**
 * **OneNote**
-* **Site Themes** and **Subsites** 
+* **Subsites** 
+* **Plans**
 
 {% endhint %}
 
