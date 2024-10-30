@@ -25,9 +25,6 @@ description: This article lists improvements and bug fixes in the Syskit Point C
         * **Deleted** - shows whether the user was deleted or not
         * **Last Logged In** - shows the last log-in date for the user
 
-* **When completing the Lifecycle Management** review on a workspace and choosing the Keep action, the two options now available are **6 months** and **Custom**.
-    * You can decide to keep the workspace for 6 months or enter a custom period, however, the custom period cannot exceed the time frame set by the administrators in the Settings of Syskit Point. 
-
 * **Improved the sync process** to ensure that if the last sync was not executed successfully, the next sync that Syskit Point performs is a full sync instead of a partial. 
 
 * **Fixed a bug** that did not include users that are both Microsoft Team Owners and Private Channel Owners as reviewers when performing the Access Review.
