@@ -43,7 +43,7 @@ Copying structure/content from live production workspaces that are subject to ch
 
 ## What if I want to exclude these “template” workspaces from vulnerability detection?
 
-This is currently not possible. Let us know if clients request this.
+This is currently not possible.
 
 A possible workaround is to “Accept Risk” for these workspaces when they appear as a vulnerability.
 
