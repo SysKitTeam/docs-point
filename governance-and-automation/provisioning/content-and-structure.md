@@ -49,17 +49,17 @@ When deciding which option to select from the three available, it helps to know 
 
 | Objects to Copy | From Scratch | Use Microsoft Teams template | Copy from existing team | Copy Team SharePoint Site - Structure | Copy Team SharePoint Site - Structure & Content |
 | --- | --- | --- | --- | --- | --- |
-| Channels (& Channel Folders)| Not copied | Copied | Copied | Copied | Copied |
-| Apps | Not copied | Copied | Copied | Copied | Copied |
-| Tabs | Not copied | Copied | Copied | Copied | Copied |
-| Document Libraries & Lists | Not copied | Not copied | Not copied | Copied | Copied |
-| Folders | Not copied | Not copied | Not copied | Copied | Copied |
-| Files/Documents | Not copied | Not copied | Not copied | Not copied | Copied |
-| Site Theme |Not copied | Not copied | Not copied | Copied | Copied |
+| Channels (& Channel Folders)| No | Yes | Yes | Yes | Yes |
+| Apps | No | Yes | Yes | Yes | Yes |
+| Tabs | No | Yes | Yes | Yes | Yes |
+| Document Libraries & Lists | No | No | No | Yes | Yes |
+| Folders | No | No | No | Yes | Yes |
+| Files/Documents | No | No | No | No | Yes |
+| Site Theme |No | No | No | Yes | Yes |
 
 {% hint style="information" %}
 
-**Please note** the following: 
+**Please note** that: 
 * **Channels & channel folders are provisioned by Microsoft** 365 and visible only after the first post is made and by **navigating to the Files tab** in the Teams app
 * When copying files, **up to 20 files can be copied** 
 * If **more than 20 files are detected**, they are **not copied and the Admin receives an email** stating that the Content will not be applied
@@ -68,7 +68,7 @@ When deciding which option to select from the three available, it helps to know 
 
 
 {% hint style="warning" %}
-**Please note** that the following is **NOT copied or supported**: 
+The following is **NOT copied or supported**: 
 * **Empty folders**
 * **Folder color**
 * **OneNote**
