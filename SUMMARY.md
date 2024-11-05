@@ -268,6 +268,7 @@
   * [Partner Program](faq/partner-program.md)
   * [Site Storage Limits](faq/site-storage-limits.md)
   * [Orphaned Users](faq/orphaned-users.md)
+  * [Provisioning - Content & Structure](faq/provisioning-content-structure.md)
 * [Troubleshooting](troubleshooting/README.md)
   * [Export Diagnostic Logs](troubleshooting/export-diagnostic-logs.md)
   * [Setup Diagnostic Logs Export](troubleshooting/setup-diagnostic-logs-export.md)
