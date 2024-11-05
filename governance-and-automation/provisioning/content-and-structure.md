@@ -13,7 +13,7 @@ The options you have are the following:
   * Default apps or channels will not be created, and the content and structure will not be copied from an existing workspace. 
 
 * **Use existing Microsoft Teams template (2)**
-  * This option is **available only** when provisioning **Microsoft Teams**.
+  * This option is **only available** when provisioning **Microsoft Teams**.
   * After selecting this option, you need to enter Microsoft template ID for an existing template.
   * Syskit Point integrates with team templates you have created in the **Microsoft 365 Teams admin center**. 
   * When you enter a team template ID, Syskit Point creates predefined apps, channels, and tabs for the new workspaces that use the template.
@@ -46,43 +46,40 @@ The objects available for copying are:
 
 When deciding which option to select from the three available, it helps to know which option copies which objects. Here's what each option copies: 
 
-* If you select **Start from scratch**, none of the objects are copied, your workspace is a clean slate.
 
-* If you select **Use existing Microsoft Teams template**, the following is copied:
-  * **Channels & channel folders**
-  * **Apps**
-  * **Tabs**
+| Objects to Copy | From Scratch | Use Microsoft Teams template | Copy from existing team | Copy Team SharePoint Site - Structure | Copy Team SharePoint Site - Structure & Content |
+| --- | --- | --- | --- | --- | --- |
+| Channels (& Channel Folders)| No | Yes | Yes | Yes | Yes |
+| Apps | No | Yes | Yes | Yes | Yes |
+| Tabs | No | Yes | Yes | Yes | Yes |
+| Document Libraries & Lists | No | No | No | Yes | Yes |
+| Folders | No | No | No | No | Yes |
+| Files/Documents | No | No | No | No | Yes |
+| Site Theme |No | No | No | Yes | Yes |
 
-* If you select **Copy from existing team**, the following is copied: 
-  * **Channels & channel folders**
-  * **Apps**
-  * **Tabs**
+{% hint style="information" %}
 
-* If you select **Copy team SharePoint site - Copy structure**, the following is copied: 
-  * **Channels & channel folders**
-  * **Apps**
-  * **Tabs**
-  * **Document Libraries and Lists**
-
-* If you select **Copy team SharePoint site - Copy structure and content**, the following is copied: 
-  * **Channels & channel folders**
-  * **Apps**
-  * **Tabs**
-  * **Document Libraries and Lists**
-  * **Folders**
-  * **Files/Documents**
-
-{% hint style="warning" %}
-**Please note** the following: 
-* **OneNote is not** supported or copied.
+**Please note** that: 
 * **Channels & channel folders are provisioned by Microsoft** 365 and visible only after the first post is made and by **navigating to the Files tab** in the Teams app
-* **Site Themes** and **Subsites** are currently **not copied** under any of the options
-* **Empty folders** are not copied
-* **Folder color** is not copied
 * When copying files, **up to 20 files can be copied** 
 * If **more than 20 files are detected**, they are **not copied and the Admin receives an email** stating that the Content will not be applied
 
 {% endhint %}
 
 
-Find more details on how to create Provisioning templates in the [Templates article](templates.md).
+{% hint style="warning" %}
+The following is **NOT copied or supported**: 
+* **Empty folders**
+* **Folder color**
+* **OneNote**
+* **Subsites** 
+* **Plans**
+
+{% endhint %}
+
+
+Find more details on how to create Provisioning templates in the [Templates article](templates.md). For any additional questions about the content & structure aspect of Provisioning, please [take a look at the FAQ article.](../../faq/provisioning-content-structure.md)
+
+
+
+
