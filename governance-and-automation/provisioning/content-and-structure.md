@@ -53,7 +53,7 @@ When deciding which option to select from the three available, it helps to know 
 | Apps | No | Yes | Yes | Yes | Yes |
 | Tabs | No | Yes | Yes | Yes | Yes |
 | Document Libraries & Lists | No | No | No | Yes | Yes |
-| Folders | No | No | No | Yes | Yes |
+| Folders | No | No | No | No | Yes |
 | Files/Documents | No | No | No | No | Yes |
 | Site Theme |No | No | No | Yes | Yes |
 
