@@ -20,6 +20,12 @@ Some sites might be smaller and require a small amount of storage, while other, 
 
 The only thing you need to keep in mind is that the cumulative storage for all your sites **cannot exceed the total tenant storage** you have available. 
 
+{% hint style="warning" %}
+
+**Please note** that **only Global Admins and SharePoint Site Admins can change the storage limit**. 
+
+While Syskit Point admins can also see the action, they cannot perform it unless they are also a Global Admin or SharePoint Site Admin.
+{% endhint %}
 
 ## Change Site Storage Limits
 
