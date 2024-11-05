@@ -17,6 +17,6 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 * **Improved the processing** of e-mails sent from Syskit Point. 
   * E-mails are now sent in batches to handle underlying job queues better.
 
-* **Fixed a bug** that caused a failure to start an Access Review for a site that had Private Channels connected. 
+* **Fixed a bug** that caused a failure to start an Access Review for a team that had Private Channels connected. 
 
 * **Various improvements, including UX and UI fixes, are available**.
