@@ -14,12 +14,6 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes
 
-* **Added custom views** to the Storage Metrics report and Site Storage Metrics report. 
-  * The custom view for the reports can be saved and is automatically applied when generating the reports.
-  * For the Site Storage Metrocs report, the custom view option can only be applied to the grid view. 
-
-* **Improved the logging** for the Workspaces Shared with Everyone policy. 
-
 * **Fixed a bug** that caused a failure to start an Access Review for a site that had Private Channels connected. 
 
 * **Improved the processing** of e-mails sent from Syskit Point. 
