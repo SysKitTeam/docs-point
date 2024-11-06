@@ -16,9 +16,9 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **New feature enables workspace owners to perform Metadata Review.**
     * Administrators can decide which metadata workspace owners can manage. 
-        * [For more details on this, take a look at the Manage Metadata Review article.](../../governance-and-automation/metadata-review/manage-metadata-review.md)
+        * [For more details on this, take a look at the Manage Metadata Review article.](../../governance-and-automation/metadata/manage-custom-metadata.md)
     * Admins also decide which metadata is reviewed on the selected workspace(s) and ask owners to perform Metadata Review.
-        * [For more details on this, take a look at the Request Metadata Review article.](../../governance-and-automation/metadata-review/request-metadata-review.md)
+        * [For more details on this, take a look at the Request Metadata Review article.](../../governance-and-automation/metadata/request-metadata-review.md)
     * After admin's request, workspace owners get an email guiding them to a Syskit Point task where they can manage workspace metadata.
         * [For more details on this, take a look at the Resolve Metadata Review article.](../../point-collaborators/resolve-governance-tasks/metadata-review.md) 
 

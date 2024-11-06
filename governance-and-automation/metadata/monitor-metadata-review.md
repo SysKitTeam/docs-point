@@ -35,6 +35,6 @@ Here, you can find the list of performed changes, as described for the active Me
 
 ## Relevant Articles 
 
-* [Manage Metadata Review](manage-metadata-review.md)
+* [Request Metadata Review](request-metadata-review.md)
 * [Resolve Metadata Review Tasks](../../point-collaborators/resolve-governance-tasks/metadata-review.md)
 * [Manage Custom Metadata](manage-custom-metadata.md)

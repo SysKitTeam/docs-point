@@ -41,8 +41,8 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 
 * **Fixed an issue** that caused the prefix not to show properly when a workspace was archived or restored. 
-  * The prefix [Archived] is added to the workspace name if a workspace is archived.
-  * The prefix [Archived] is removed from the workspace name if a workspace is restored.  
+  * The prefix `[Archived]` is added to the workspace name if a workspace is archived.
+  * The prefix `[Archived]` is removed from the workspace name if a workspace is restored.  
 
 * **Fixed an issue** where the link sent in the *task completed* e-mails, after completing an Access Review, would direct collaborators to the Govern screen of Syskit Point.
   * The link sent in the e-mail now directs collaborators to the completed Task in Syskit Point. 

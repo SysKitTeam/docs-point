@@ -50,7 +50,7 @@ The next step that should be completed while setting up the Azure SQL server is 
 * **Click Save (3)** to  finalize 
   * After that, the SQL authentification can be used normally 
 
-![Azure SQL - authentication for server](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication_sql-server-allow-sql-auth.png)
+![Azure SQL - authentication for server](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-sql-server-allow-sql-auth.png)
 
 ## Creating Server Login and Database User for Power BI App
 
@@ -58,7 +58,7 @@ Before running the SQL scripts listed below, open **SQL Server Management Studio
 [Learn how to connect to an Azure SQL Database here](https://docs.microsoft.com/en-us/sql/ssms/quickstarts/ssms-connect-query-azure-sql?view=sql-server-ver15#connect-to-an-azure-sql-database-or-azure-sql-managed-instance).
 
 {% hint style="info" %}
-To connect, use the SQL credentials created when [deploying Syskit Point](../installation/deploy-syskit-point.md).
+To connect, use the SQL credentials created when [deploying Syskit Point](../set-up-point-data-center/deployment/deploy-syskit-point.md).
 {% endhint %}
 
 ### New Server Login

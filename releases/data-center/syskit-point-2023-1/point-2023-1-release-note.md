@@ -45,7 +45,7 @@ Global admin re-consent is required after the upgrade to the 2023.1 version. Glo
 * **Access Request feature** is now available! Syskit Point admins can now:
   * [Create Access Request policies](../../../governance-and-automation/access-requests/create-access-requests-policy.md) where they can specify the level of access that can be requested, as well as the desired approval process.
   * [Apply the policies](../../../governance-and-automation/access-requests/apply-access-requests-policy.md) to **Microsoft Teams**, **Microsoft 365 groups**, **distribution lists**, **mail-enabled security groups**, **security groups**, and **SharePoint sites**. [Use the Access Requests setup article to guide through the initial setup process](../../../governance-and-automation/access-requests/set-up-access-requests.md). End-users can utilize the Syskit Point Teams app to:
-  * [Request to join a specific workspace](../../../point-collaborators/request-workspace-access.md) and **approve requests** when users ask to join a workspace; emails are sent to notify when these actions occur.
+  * [Request to join a specific workspace](../../../point-collaborators/manage-workspaces/request-workspace-access.md) and **approve requests** when users ask to join a workspace; emails are sent to notify when these actions occur.
   * **Discover All Workspaces in their environment** and **workspaces they have joined, listed under My Workspaces**.
 
 {% hint style="info" %}

@@ -21,7 +21,7 @@ While you wait for spring to come, we bring you the latest and greatest **Syskit
   * **Define who will get an email in case the alert is triggered**
   * **View all active alerts and resolve them** after ensuring that your environment is secure
 
-  [To learn more about alerts in Syskit Point, read the following article.](../governance-and-automation/configure-alerts.md)
+  [To learn more about alerts in Syskit Point, read the following article.](../../governance-and-automation/configure-alerts.md)
 
   * **New Analytics and Adoption reports and dashboards are available!** They enable you to:
     * **discover most active Microsoft Teams, channels, and users**
@@ -39,7 +39,7 @@ While you wait for spring to come, we bring you the latest and greatest **Syskit
   Once created, **you can apply review policies to Microsoft Teams**, **Groups**, and **sites**.  
   Besides that, you can now **decide which users will be responsible for the Access Review** of selected **Microsoft Teams**, **Groups**, and **sites**.
 
-  [To learn all about the new capabilities of the automated Access Review, read the following article.](../governance-and-automation/permissions-review/enable-permissions-review.md)
+  [To learn all about the new capabilities of the automated Access Review, read the following article.](../../governance-and-automation/permissions-review/enable-permissions-review.md)
 
 * **New License Reports are available!** You can now find detailed information on license usage in the following reports:
 
@@ -52,7 +52,7 @@ While you wait for spring to come, we bring you the latest and greatest **Syskit
 
 * **New user actions added – Delete and Restore User**!
 
-  New actions are available on the **Users** overview screen. [To learn more about these actions and permissions needed to run them, navigate to the following article.](../access-management/delete-and-restore-users.md)
+  New actions are available on the **Users** overview screen. [To learn more about these actions and permissions needed to run them, navigate to the following article.](../../access-management/delete-and-restore-users.md)
 
 * **New group management actions are available**:
 

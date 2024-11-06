@@ -10,7 +10,7 @@ This article contains information on analytics reports available through the **R
 
 * [Site Analytics Report](#site-analytics-report)
 * [Site Structure Report](#site-structure-report)
-* [Inactive Workspaces Report](#inactive-content-report)
+* [Inactive Workspaces Report](#inactive-workspaces-report)
 
 {% hint style="information" %}
 **Site Structure and Inactive Workspaces reports** are available in all plans.

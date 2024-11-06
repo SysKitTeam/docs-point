@@ -25,7 +25,7 @@ That's where you can set up certain metrics that help you clean up your storage,
 Here's how to get started with your storage management in Syskit Point: 
 
   * [The first step is to configure your environment for Storage Management, so take a look at this article.](../configuration/configure-point-for-storage-management.md) Please note, **this is only needed for the Syskit Point Data Center customers**. You can skip this step if you are using the Syskit Point Cloud.
-  * Make sure to [read through the Configure Storage Management within Syskit Point article.](../../configuration/configure-storage-management.md) 
+  * Make sure to [read through the Configure Storage Management within Syskit Point article.](../configuration/configure-storage-management.md) 
   * Next, it's time to configure your [Tenant Storage Limit Policy](../governance-and-automation/automated-workflows/tenant-storage-admin.md). This policy is used to detect and monitor your storage, but if you choose to, you can also enable task delegation.  
  * Once the policy has been edited based on your preferences, you can [take a look at the Tenant Storage Security & Compliance Check article](../governance-and-automation/security-compliance-checks/tenant-storage.md) to see all the details and information you can get from this policy being detected in your environment.
 

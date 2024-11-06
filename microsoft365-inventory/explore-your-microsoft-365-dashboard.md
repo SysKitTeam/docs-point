@@ -61,7 +61,7 @@ On the bottom, colored in red, you will find the number of **inactive** and **or
 
 By **clicking the number** of the inactive workspaces, the **Inactive Workspaces** report opens.
 
-For more information about the Inactive Workspaces report, click [here](../governance-and-automation/lifecycle-management/inactive-content.md#inactive-content-report).
+For more information about the Inactive Workspaces report, click [here](../governance-and-automation/lifecycle-management/inactive-content.md#inactive-workspaces-report).
 
 {% hint style="warning" %}
 **Please note!**  
