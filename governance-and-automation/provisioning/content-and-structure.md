@@ -39,10 +39,10 @@ The objects available for copying are:
 * **Channels & channel folders**
 * **Apps**
 * **Tabs**
+* **Site navigation**
 * **Document Libraries and Lists**
 * **Folders**
 * **Files/Documents**
-* **Site navigation**
 * **Default & custom file templates**
 
 
