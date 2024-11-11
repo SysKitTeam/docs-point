@@ -13,11 +13,11 @@ The **Syskit Point** Dashboard shows Syskit Point administrators the following i
  * Active Access Review
  * Lifecycle Management
  * Microsoft 365 Licenses
+ * Copilot Readiness
 
 The **Syskit Point** Dashboard shows Syskit Point collaborators the following information in the tiles:
  * Inventory
  * Users
- * Storage
  * External Collaboration
 
 You can customize the order in which these tiles are shown based on which of the features shown on the dashboard are most important to you. 
