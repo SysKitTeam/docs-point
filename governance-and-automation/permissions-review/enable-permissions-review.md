@@ -86,7 +86,7 @@ To enable Teams and Groups owners and site administrators to perform the Access 
 For more information about role-based access in Syskit Point, go to the [following article](../../configuration/enable-role-based-access.md).
 
 {% hint style="information" %}
-**Please note!** If a user, security group, or mail-enabled security group is added to the Governance-Excluded Users list, they do not receive any Access Review related tasks or task-related emails. [For more details on setting up Governance-Excluded Users, take a look at this article.](../configuration/exclude-users-tasks.md)
+**Please note!** If a user, security group, or mail-enabled security group is added to the Governance-Excluded Users list, they do not receive any Access Review related tasks or task-related emails. [For more details on setting up Governance-Excluded Users, take a look at this article.](../../configuration/exclude-users-tasks.md)
 {% endhint %}
 
 ## Next Steps

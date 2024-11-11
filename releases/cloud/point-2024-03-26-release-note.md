@@ -72,7 +72,7 @@ You can expect to see the improved emails in the upcoming month.
 
 * **When creating new custom metadata**, there is a new checkbox that, when selected, includes this metadata in the SharePoint search index. 
   * Selecting this checkbox ensures that editing or provisioning the metadata through Syskit Point results in an indexed property bag value.
-  * [Learn how to create and manage custom metadata in Syskit Point in the following article.](../../governance-and-automation/manage-custom-metadata.md)
+  * [Learn how to create and manage custom metadata in Syskit Point in the following article.](../../governance-and-automation/metadata/manage-custom-metadata.md)
 
 * **Additional actions added for workspaces** when solving Security & Compliance checks: Archive and Delete. 
   * This can be accessed by clicking the Govern button on the left sidebar, navigating to the Security & Compliance section, and clicking on Active Tasks or History. 

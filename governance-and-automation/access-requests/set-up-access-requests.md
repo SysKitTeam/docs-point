@@ -36,4 +36,4 @@ To completely set up Access Requests, there are a couple of steps that should be
 
 ## End-users 
 
-Learn how to [Request Access to Workspaces](../../point-collaborators/request-workspace-access.md).
+Learn how to [Request Access to Workspaces](../../point-collaborators/manage-workspaces/request-workspace-access.md).

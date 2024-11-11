@@ -16,7 +16,7 @@ To do so, follow these steps:
 * **Select the Manual option (1)**
 * **Click Save (2)**
 
-![Site storage limits settings](../../.gitbook/assets/optimize-storage-site-storage-limits.png)
+![Site storage limits settings](../.gitbook/assets/optimize-storage-site-storage-limits.png)
 
 Afterward, you can define the storage limit for each site:
 * **Open SharePoint admin center > [Active Sites](https://go.microsoft.com/fwlink/?linkid=2185220)**
@@ -27,9 +27,9 @@ Afterward, you can define the storage limit for each site:
     * **Enable email notifications (3)** for site owners that are sent when a defined percentage of storage limit is used
     * **Save (4)** your changes
 
-![Site settings](../../.gitbook/assets/optimize-storage-site-settings.png)
+![Site settings](../.gitbook/assets/optimize-storage-site-settings.png)
 
-![Edit site storage limit](../../.gitbook/assets/optimize-storage-edit-site-storage-limit.png)
+![Edit site storage limit](../.gitbook/assets/optimize-storage-edit-site-storage-limit.png)
 
 {% hint style="success" %}
 Defined site storage limit and percentage of used storage defined for email notifications are synced and visible in Syskit Point.

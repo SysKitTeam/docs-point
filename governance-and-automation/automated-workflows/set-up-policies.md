@@ -71,7 +71,7 @@ After this change, Syskit Point will no longer send individual e-mails for each 
 * **When you acquire Syskit Point, default policies are created with task delegation disabled.** Edit the default policies settings to enable task delegation.
 
 {% hint style="information" %}
-**Please note!** If a user, security group, or mail-enabled security group is added to the Governance-Excluded Users list, they do not receive any Governance-related tasks or task-related e-mails. [For more details on setting up Governance-Excluded Users, take a look at this article.](../configuration/exclude-users-tasks.md)
+**Please note!** If a user, security group, or mail-enabled security group is added to the Governance-Excluded Users list, they do not receive any Governance-related tasks or task-related e-mails. [For more details on setting up Governance-Excluded Users, take a look at this article.](../../configuration/exclude-users-tasks.md)
 {% endhint %}
 
 ## Syskit Point Policies
