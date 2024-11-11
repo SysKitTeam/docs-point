@@ -5,6 +5,10 @@ description: This article provides a full overview of the lifecycle management a
 # Monitor Lifecycle Management Tasks in Syskit Point
 
 {% hint style="warning" %}
+**Lifecycle Management Automation** will be deprecared and replaced by the [Inactive Workspaces policy](../automated-workflows/inactive-workspaces-admin.md). After approximately two months, the feature will be fully removed from Syskit Point.
+{% endhint %}
+
+{% hint style="warning" %}
 **Please note!**  
 First, make sure to check how to [enable and configure Lifecycle Management Automation in Syskit Point.](enable-lifecycle-management.md)
 {% endhint %}
