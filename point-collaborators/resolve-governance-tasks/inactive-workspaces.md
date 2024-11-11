@@ -92,28 +92,22 @@ The My Tasks screen shows:
 On the task details screen, the following information is available:
 
 * **Owner(s) list (1)**
+* **Additional info (2)** 
 * **General workspace information (2)**
   * Description
   * Creation date
   * Workspace sharing policy
+  * Workspace type
+
 * **Last Activity**, **All Users**, and **All Files tile (3)**;
   * The All Users and All Files tile redirects to the relevant reports where more information can be found on the users and content in that workspace.
 * **Actions (4)**; this section provides options on what to do with the inactive workspace
+* **Activity Timeline (5)** that shows who the task was assigned to and when the policy vulnerability was detected
+
 
 ![Inactive Workspaces - Task details](../../.gitbook/assets/inactive-workspaces-task-details.png)
 
 **After successfully running an Inactive Workspaces action, Syskit Point automatically completes the Inactive Workspaces task for the reviewed workspace.**
-
-
-### Overdue Tasks
-
-If the opportunity to decide what to do with the inactive workspace is missed, **Owners can still complete the overdue tasks** for all policies.
-
-**Collaborators** can find the overdue task under Active Tasks in their My Tasks section, but it will show as Overdue.
-
-They can be found on the **My Tasks screen** under the Active Inactive Workspaces view.
-
-![My Tasks – Expired tasks](../../.gitbook/assets/inactive-workspaces-expired-tasks.png)
 
 
 ## Inactive Workspaces Actions
@@ -129,28 +123,25 @@ The following actions are available:
 
 Each action can be executed by **Syskit Point Admin** and **Syskit Point Collaborator** users.  
 
-When resolving the **Inactive Workspaces task**, actions are **displayed in a ribbon (1)**.
+When resolving the **Inactive Workspaces task**, actions are **displayed in a ribbon**.
 
-![Inactive Workspaces Task - Actions](../../.gitbook/assets/inactive-workspaces-actions-task.png)
-
-The **Restore** action is **available for deleted and archived workspaces only.** You can find these workspaces on the overview screens by selecting the **Deleted/Archived Sites/Groups view (1)**.
+The **Restore** action is **available for deleted and archived workspaces only.** You can find these workspaces on the overview screens by selecting the **Deleted/Archived Sites/Groups view**.
 
 On the view, additional columns are available:
 
-* **Deleted By (2)**
-* **Deleted On (3)**
-* **Can be Restored (4)** – A green checkmark is displayed for workspaces currently in the Recycle Bin and can be restored
-* **Restore action (5)** is available in the side panel, as already described.
+* **Deleted By**
+* **Deleted On**
+* **Can be Restored** – A green checkmark is displayed for workspaces currently in the Recycle Bin and can be restored
+* **Restore action** is available in the side panel, as already described.
 
 ![Deleted Sites View - Restore](../../.gitbook/assets/lifecycle-management-actions-restore.png)
-
 
 {% hint style="info" %}
 **Hint!**  
 On the Sites overview screen and the Microsoft Teams & Groups overview screen, you **run the Restore action on workspaces in bulk** by selecting multiple workspaces and clicking the wanted action from the side panel.
 {% endhint %}
 
-Inactive Workspaces actions are also available in e-mails that Syskit Point sends to site owners and admins as a part of the Inactive Workspaces task delegation. Still, **actions can be executed in Syskit Point only**. Follow [this link](../../point-collaborators/resolve-governance-tasks/lifecycle-management.md) to learn more about Lifecycle Management e-mails and tasks.
+Inactive Workspaces actions are also available in e-mails that Syskit Point sends to site owners and admins as a part of the Inactive Workspaces task delegation. Still, **actions can be executed in Syskit Point only**.
 
 Below, you can find all of the actions described in greater detail.
 
@@ -184,7 +175,7 @@ The Keep action can be executed on inactive workspaces only!
 
 ### Archive
 
-The **Archive action** has additional options available that are set up according to the administrator’s preference. More information on that can be found in the [Inactive Workspaces policy article](enable-lifecycle-management.md).
+The **Archive action** has additional options available that are set up according to the administrator’s preference. More information on that can be found in the [Inactive Workspaces policy article](../../governance-and-automation/automated-workflows/inactive-workspaces-admin.md).
 
 Archiving a workspace within Syskit Point results in the following:
 * **The workspace goes into a read-only state**
