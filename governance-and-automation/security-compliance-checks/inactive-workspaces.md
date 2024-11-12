@@ -8,7 +8,7 @@ Syskit Point detects inactive workspaces based on the settings defined in the te
 
 Managing inactive workspaces is important for security, compliance, and resource optimization. If these workspaces are left unattended, they can pose security risks and lead to compliance issues. By extending the responsibility to your workspace owners, you can ensure the data safety of your environment.
 
-When the task delegation option is enabled for the Inactive Workspaces policy, Syskit Point creates tasks and sends e-mails to users as defined in the policy settings. To learn more, take a look at the [Inactive Guest Users policy article](../../governance-and-automation/automated-workflows/inactive-guest-users-admin.md). 
+When the task delegation option is enabled for the Inactive Workspaces policy, Syskit Point creates tasks and sends e-mails to users as defined in the policy settings. To learn more, take a look at the [Inactive Workspaces policy article](../../governance-and-automation/automated-workflows/inactive-workspaces-admin.md). 
 
 By default, task delegation is turned off for this policy, but the inactive workspaces **are still detected**. **This means that Syskit Point detects a vulnerability on a workspace** based on the applied policy, but it does not create tasks or send any e-mails to workspace owners. 
 
