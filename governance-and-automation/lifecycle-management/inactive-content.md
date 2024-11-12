@@ -83,19 +83,6 @@ Workload activity data is shown only for the **root site level**. Document libra
 
 ### Inactive Workspaces Report
 
-The easiest way to **find all inactive workspaces** is by using the **Inactive Workspaces report**, which you can find in the Report Center. By clicking the Inactive Workspaces report tile, the **Options** screen opens where you can choose whether to include **Sites**, **Microsoft Teams**, and/or **Microsoft 365 Groups** in the report. By default, all options are selected.
+The easiest way to **find all inactive workspaces** is by using the **Inactive Workspaces report**, which you can find in the Report Center. 
 
-![Inactive Workspaces report - Options screen](../../.gitbook/assets/inactive-content-inactive-content-report-options-screen.png)
-
-Click the **Run Report** button to generate the Inactive Workspaces report. There are four columns in the grid - the **Name** column, which you can **click to open the** **Details screen**, and **four activity columns** for **SharePoint**, **Exchange**, **Microsoft Teams**, and **Yammer**. Additional columns, such as **Type** or **Owner\(s\)**, can be added from the **Column Chooser (1)**.
-
-![Inactive Workspaces report - Column Chooser](../../.gitbook/assets/inactive-content-inactive-content-report-column-chooser.png)
-
-Notice the **blue info icon (1)** next to the Activity columns. **Hovering above the icons displays a tooltip** with information on how the last activity date was determined.
-
-![Inactive Workspaces report - Activity column tooltip](../../.gitbook/assets/inactive-content-inactive-content-report-activity-tooltip.png)
-
-A **grey circle** icon represents an existing **workload with no activity. Hovering** **over** will show the information from when Syskit Point monitors the activity.
-
-**Dash \(-\)** **is displayed in case there is** **no workload** associated with the selected item. An appropriate tooltip is displayed on hover.
-
+[For more details on the Inactive Workspaces report and the actions available, take a look at this article.](../../reporting/analytics-reports.md#inactive-workspaces-report) 
