@@ -48,6 +48,32 @@ The **Edit Policy** dialog opens where you can:
 
 ![Edit Policy Dialog - Step 3](../../.gitbook/assets/inactive-workspaces-admin-edit-step-3.png)
 
-Based on your configuration, **Syskit Point will start the task delegation workflow when an inactive workspace is detected**. 
+**Syskit Point will start the task delegation workflow based on your configuration when an inactive workspace is detected**. 
 
 For details on how collaborators can [**resolve Inactive Workspaces tasks**, navigate to the following article](../../point-collaborators/resolve-governance-tasks/inactive-workspaces.md).
+
+## Detection for Inactive Workspaces
+
+To decide whether something is inactive in your Microsoft 365 environment, we collect activity data for **SharePoint, Exchange, Yammer, and Microsoft Teams**. If any kind of activity is detected, the workspace will not be declared inactive. The amount of time that needs to pass for a workspace to be considered inactive is determined by administrators when creating or editing the Inactive Workspaces policy. 
+
+The following type of activity is checked to determine if a workspace is inactive:
+
+* **SharePoint activity** - collected via Microsoft 365 audit logs. **The last activity is based on the latest date when a file was viewed, edited, or downloaded**.
+* **Exchange activity** - collected via Microsoft 365 Groups activity report available in the Microsoft 365 admin center. **The last activity is based on the latest date when an email was delivered to a group**.
+* **Yammer activity** - the collection is also accomplished through the Microsoft 365 admin center usage report for Yammer groups activity. **The last activity is based on the latest date a message was read, posted, or liked by the group**.
+* **Microsoft Teams** - activity is collected using protected APIs in Microsoft Graph. **The last activity is based on the latest date when a message was posted or replied to**.
+
+
+The following conditions also have to be met:
+ 
+* **Violations are NOT raised for the first 10 days** after Syskit Point is first connected to your tenant.
+* **Only Alive workspaces are checked** (Archived and Deleted workspaces are ignored)
+* **Violations are NOT raised for sites that have not been fully synced** (discovered by Autodiscover but not synced by Site sync) 
+* **Audit logs collection needs to be working** without any issues 
+* **Violations are NOT raised for recently created sites**
+ 
+
+{% hint style="warning" %}
+**Please note!**  
+Activity is being monitored from the Syskit Point installation onward! This applies to SharePoint and Exchange workloads since historical data for these workloads is unavailable in usage reports.
+{% endhint %}
