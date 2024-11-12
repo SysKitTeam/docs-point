@@ -10,7 +10,12 @@ This article contains information on analytics reports available through the **R
 
 * [Site Analytics Report](#site-analytics-report)
 * [Site Structure Report](#site-structure-report)
-* [Inactive Workspaces Report](#inactive-content-report)
+* [Inactive Workspaces Report](#inactive-workspaces-report)
+* [SharePoint Activity Report](#sharePoint-activity-report)
+* [Most Popular Content Report](#most-popular-content-report)
+* [Meeting Interactions Report](#meeting-interactions-report)
+* [Conversation Interactions Report](#conversation-interactions-report)
+* [Network Interaction Details Report](#network-interaction-details-report)
 
 {% hint style="information" %}
 **Site Structure and Inactive Workspaces reports** are available in all plans.
@@ -109,15 +114,17 @@ The Inactive Workspaces report data can be **exported into PDF and XLSX formats*
 
 Select one or multiple workspaces to perform Lifecycle Management actions on them:
 
- * Choose to **Keep, Archive or Delete** the workspaces or ask the **owner to Renew** the workspaces. 
+ * Choose to **Keep, Archive or Delete** the workspaces or ask the **Send Reminder** to owners to resolve the inactive workspace tasks. 
 
 When any of those actions are completed on a workspace, it will no longer be visible on the Inactive Workspaces Report.
 
 When looking at the generated reports, the following columns can be found:
 
-- **Name**; shows the name of the inactive workspace.
-- **SharePoint, Exchange, Teams, and Yammer activity column;** shows inactivity based on the last date any activity was made on the workspace.
-- **Lifecycle Management**; shows if the site was monitored for activity by Syskit Point Lifecycle Management.
+* **Workspace**; shows the name of the inactive workspace.
+* **URL**; shows the URL of the workspace
+* **Owner(s)**; lists the workspace owners
+* **Last Activity Date**; shows the date and time when the workspace was last active
+* **Storge Used**; shows the amount of storage used by the workspace
 
 ## SharePoint Activity Report
 
