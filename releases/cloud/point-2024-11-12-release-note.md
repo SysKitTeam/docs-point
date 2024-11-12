@@ -23,6 +23,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
   * [For more details about the Inactive Workspaces policy, read this article.](../../governance-and-automation/automated-workflows/inactive-workspaces-admin.md)
   * [To find out more on how to resolve the detected vulnerability, read the related Security & Compliance report article.](../../governance-and-automation/security-compliance-checks/inactive-workspaces.md)
   * [Read this article to learn how collaborators can resolve the Inactive Workspaces task.](../../point-collaborators/resolve-governance-tasks/inactive-workspaces.md)
+  * [The Inactive Workspaces report](../../reporting/analytics-reports.md#inactive-workspaces-report) has been improved to reflect the new Inactive Workspaces policy. 
   
 
 ## Improvements & Bug Fixes
