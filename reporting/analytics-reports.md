@@ -11,11 +11,6 @@ This article contains information on analytics reports available through the **R
 * [Site Analytics Report](#site-analytics-report)
 * [Site Structure Report](#site-structure-report)
 * [Inactive Workspaces Report](#inactive-workspaces-report)
-* [SharePoint Activity Report](#sharePoint-activity-report)
-* [Most Popular Content Report](#most-popular-content-report)
-* [Meeting Interactions Report](#meeting-interactions-report)
-* [Conversation Interactions Report](#conversation-interactions-report)
-* [Network Interaction Details Report](#network-interaction-details-report)
 
 {% hint style="information" %}
 **Site Structure and Inactive Workspaces reports** are available in all plans.
@@ -125,6 +120,28 @@ When looking at the generated reports, the following columns can be found:
 * **Owner(s)**; lists the workspace owners
 * **Last Activity Date**; shows the date and time when the workspace was last active
 * **Storge Used**; shows the amount of storage used by the workspace
+
+There are additional columns available from the column chooser:
+* **Detected**
+* **Status**
+* **Workspace Type**
+* **Last Modified**
+* **Storage Limit**
+* **Privacy**
+* **Sharing Settings**
+* **Policy**
+* **Rule**
+* **Assigned to**
+* **SharePoint Activity**
+* **SharePoint Last Activity Date**
+* **Exchange Activity**
+* **Exchange Last Activity Date**
+* **Teams Activity**
+* **Teams Last Activity Date**
+* **Yammer Activity**
+* **Yammer Last Activity Date**
+* **Planner Activity**
+* **Planner Last Activity Date**
 
 ## SharePoint Activity Report
 
