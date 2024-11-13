@@ -27,10 +27,10 @@ description: This article lists improvements and bug fixes in the Syskit Point C
   * [For details on what will happen to the Lifecycle Management feature, please read this article.](../../governance-and-automation/lifecycle-management/deprecating-lifecycle-management.md)
   
 * **New Review types available:**
-  * **Ask Owners to Manage Sensitivity**
+  * **Sensitivity Review**
     * Administrators can now enable workspace owners to review sensitivity labels for their workspaces. This helps ensure that all workspaces and documents are labeled appropriately. 
     * [For more information on the Ask Owners to Manage Sensitivity action, take a look at this article.](../../governance-and-automation/sensitivity-review/request-sensitivity-review.md)
-  * **Ask Owners to Manage Privacy**
+  * **Privacy Review**
     * Administrators can now enable workspace owners to review the privacy settings for their workspaces. This gives workspace owners the ability to ensure only the necessary people have access and that their workspace has the correct privacy level. 
     * [Take a look at the Ask Owners to Manage Privacy article for more details.](../../governance-and-automation/privacy-review/request-privacy-review.md)    
 
