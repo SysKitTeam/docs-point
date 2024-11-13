@@ -43,7 +43,7 @@ When individually changing privacy:
 
 * **Click the space in column (1)** where the privacy is stated, and an **editable rectangle appears** where you can enter a new value, keep the current value, or edit the current value
 * **Click the Complete button (2)** to complete the review for the workspace
-    * When the review is completed, **that workspace fades to a gray color (3)**, and **cannot be modified** anymore for the duration of that review
+    * When the review is completed, **that workspace fades to a gray color (3)**, and **cannot be modified** anymore for the duration of that review
 * The **Complete confirmation dialog** appears, where you can **enter a comment (4)** that explains the actions you took and **click Confirm (5)** to finalize the changes
 
 
