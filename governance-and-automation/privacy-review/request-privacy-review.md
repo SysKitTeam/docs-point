@@ -14,7 +14,7 @@ For example, a public workspace used for initial brainstorming that everyone was
 
 By regularly reviewing and updating privacy levels, workspace owners can ensure that sensitive information is safeguarded and only shared with the appropriate individuals, minimizing the risk of privacy breaches.
 
-With the new Ask Owners to Manage Privacy action, you can now select workspaces that you want owners to review the privacy level for.
+With the new Ask Owners to Review Privacy action, you can now select workspaces that you want owners to review the privacy level for.
 
 {% hint style="warning" %}
 
@@ -22,9 +22,9 @@ With the new Ask Owners to Manage Privacy action, you can now select workspaces 
 
 {% endhint %}
 
-## Ask Owners to Manage Privacy
+## Ask Owners to Review Privacy
 
-Here's how to request owners to review the privacy labels on their workspaces. 
+Here's how to request owners to review the privacy of their workspaces. 
 
 * Navigate to the **Microsoft Teams & Groups Overview screen** by clicking the Teams & Groups button on the left side of the screen
 * **Select one or more workspaces (1)** that you want to request a privacy review for

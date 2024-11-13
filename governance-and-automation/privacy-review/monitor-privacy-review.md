@@ -11,7 +11,7 @@ The **Requested Reviews** screen shows all the currently requested Privacy Revie
 Open the Privacy Review by clicking the **View Details** button.
 Here you can find:
 * **Basic Privacy Review information (1)**
-    * Date when the Metadata Review was requested
+    * Date when the Privacy Review was requested
     * Due date
     * Progress - number of workspaces where the review was completed next to the total number of workspaces included in the review
     * Any comment that was left when requesting the review
@@ -25,9 +25,9 @@ Here you can find:
 * **Comment provided by the reviewer (9)**
 * **Review action (10)**
     * Click this action to perform the Sensitivity Review
-    * For more information about the reviewer experience, read the [Metadata Review article](../../point-collaborators/resolve-governance-tasks/metadata-review.md)
+    * For more information about the reviewer experience, read the [Privacy Review article](../../point-collaborators/resolve-governance-tasks/privacy-review.md)
 
-![Metadata Review](../../.gitbook/assets/monitor-privacy-review-govern.png)
+![Privacy Review](../../.gitbook/assets/monitor-privacy-review-govern.png)
 
 **Clicking the name of a workspace where the review is already completed opens the Summary screen that lists all changes done by the reviewer during the Privacy Review.**
 * The Summary screen can also be accessed by selecting a workspace and clicking the View Details action in the side panel.
