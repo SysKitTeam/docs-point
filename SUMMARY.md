@@ -228,7 +228,7 @@
     * [Monitor Sensitivity Review](governance-and-automation/sensitivity-review/monitor-sensitivity-review.md)
   * [Privacy Review](governance-and-automation/privacy-review/README.md)
     * [Request Privacy Review](governance-and-automation/privacy-review/request-privacy-review.md)
-    * [Monitor Sensitivity Review](governance-and-automation/privacy-review/monitor-privacy-review.md)
+    * [Monitor Privacy Review](governance-and-automation/privacy-review/monitor-privacy-review.md)
   * [Syskit Point Teams App](governance-and-automation/syskit-point-teams-app.md)
   * [Schedule Reports](governance-and-automation/scheduled-reports.md)
   * [Configure Alerts](governance-and-automation/configure-alerts.md)
