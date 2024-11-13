@@ -1,5 +1,5 @@
 ---
-description: This article explains how to monitor Privacy reviews as an admin. 
+description: This article explains how to monitor Privacy Reviews as an admin. 
 ---
 
 
@@ -39,4 +39,4 @@ Here, you can find the list of performed changes, as described for the active Pr
 ## Relevant Articles 
 
 * [Request Privacy Review](request-privacy-review.md)
-* [Resolve Privacy Review Tasks](../../point-collaborators/resolve-governance-tasks/privacy-review.md)
+* [Complete Privacy Review Tasks](../../point-collaborators/resolve-governance-tasks/privacy-review.md)
