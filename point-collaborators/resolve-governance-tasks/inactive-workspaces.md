@@ -6,7 +6,7 @@ description: This article explains how to resolve the Inactive Workspaces task i
 
 **This article shows how you can resolve the Inactive Workspaces policy vulnerability** when Syskit Point detects a workspace that is inactive. 
 
-This policy helps you ensure there are no inactive workspaces, which is important for security and resource optimization. If these workspaces are left unattended, they can pose security risks and lead to compliance issues. By reglarly resolving inactive workspaces tasks, you ensure data safety and effectivness for all of your workspaces.
+This policy helps you ensure there are no inactive workspaces, which is important for security and resource optimization. If these workspaces are left unattended, they can pose security risks and lead to compliance issues. By regularly resolving inactive workspaces tasks, you ensure data safety and effectiveness for all of your workspaces.
 
 In this article, you can find information on the following:
 
