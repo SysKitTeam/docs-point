@@ -1,5 +1,5 @@
 ---
-description: This article explains how to monitor Sensitivity reviews as an admin. 
+description: This article explains how to monitor Sensitivity Reviews as an admin. 
 ---
 
 # Monitor Sensitivity Reviews as an Admin
@@ -10,7 +10,7 @@ The **Requested Reviews** screen shows all the currently requested Sensitivity R
 Open the Sensitivity Review by clicking the **View Details** button.
 Here you can find:
 * **Basic Sensitivity Review information (1)**
-    * Date when the Metadata Review was requested
+    * Date when the Sensitivity Review was requested
     * Due date
     * Progress - number of workspaces where the review was completed next to the total number of workspaces included in the review
     * Any comment that was left when requesting the review
@@ -23,7 +23,7 @@ Here you can find:
 * **Comment provided by the reviewer (8)**
 * **Review action (9)**
     * Click this action to perform the Sensitivity Review
-    * For more information about the reviewer experience, read the [Metadata Review article](../../point-collaborators/resolve-governance-tasks/metadata-review.md)
+    * For more information about the reviewer experience, read the [Sensitivity Review article](../../point-collaborators/resolve-governance-tasks/sensitivity-review.md)
 
 ![Sensitivity Review - Govern](../../.gitbook/assets/monitor-sensitivity-review-govern.png)
 
@@ -32,9 +32,9 @@ Here you can find:
 
 Navigating to the **Govern > Sensitivity Review > History** screen and clicking **View Details** for a Sensitivity Review shows past **Sensitivity Review tasks**. 
 
-Here, you can find the list of changes that were performed for the active Sensitivity Review tasks.
+Here, you can find the list of changes that were performed for the past Sensitivity Review tasks.
 
 ## Relevant Articles 
 
 * [Request Sensitivity Review](request-sensitivity-review.md)
-* [Resolve Sensitivity Review Tasks](../../point-collaborators/resolve-governance-tasks/sensitivity-review.md)
+* [Complete Sensitivity Review Tasks](../../point-collaborators/resolve-governance-tasks/sensitivity-review.md)

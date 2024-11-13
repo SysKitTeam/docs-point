@@ -10,20 +10,20 @@ Regularly reviewing sensitivity labels helps prevent unauthorized access, ensure
 
 The best way to ensure all workspaces are properly classified is to involve workspace owners in this process. Owners have firsthand knowledge of the data within their environments and can ensure the labels applied align with both your company policies and the specific needs of their teams.
 
-With the new Ask Owners to Manage Sensitivity action, you can now select workspaces that you want owners to review the sensitivity level for.
+With the new Ask Owners to Review Sensitivity action, you can now select workspaces that you want owners to review the sensitivity level for.
 
 {% hint style="warning" %}
 
-**Please note:** You can Ask Owners to review Sensitivity Labels for Microsoft Teams, Microsoft Groups and Sites.
+**Please note:** You can Ask Owners to review Sensitivity Labels for Microsoft Teams, Microsoft 365 Groups and Sites.
 
 {% endhint %}
 
-## Ask Owners to Manage Sensitivity
+## Ask Owners to Review Sensitivity
 
 Here's how to request owners to review the sensitivity labels on their workspaces. 
 
 * Navigate to the **Sites Overview screen** by clicking the Sites button on the left side of the screen
-  * The same actions can also be taken from the **Teams & Groups Overview** screen.
+    * The same actions can also be taken from the **Teams & Groups Overview** screen.
 * **Select one or more workspaces (1)** that you want to request a sensitivity labels review for
 * On the right side of the screen, **click the arrow next to Manage Sensitivity (2)** button 
 * **Click the Ask Owners action (3)**, and a confirmation dialog opens 
