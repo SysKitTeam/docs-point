@@ -19,6 +19,7 @@ The **Syskit Point** Dashboard shows Syskit Point administrators the following i
  * Users
  * Storage
  * Security & Compliance
+ * Copilot Readiness
  * External Collaboration
  * Active Access Review
  * Lifecycle Management
@@ -101,9 +102,13 @@ This tile provides the following storage metrics:
 * **used storage**
 * **free storage**
 
-Information about used storage is also given for each workspace type separately.
+The **View All** link opens the **Storage Metrics report** showing tenant-wide storage usage, usage trend through time, and the largest sites in your tenant.
 
-**View All** link opens the **Storage Metrics report** showing tenant-wide storage usage, usage trend through time, and the largest sites in your tenant.
+You can also find information on:
+* How much storage you saved
+* How much storage you could save
+
+The **Clean Up** link opens the **Storage Metrics report** where you can select the workspaces you want to perform a storage clean up on.
 
 ![Storage tile ](../.gitbook/assets/dashboard-storage-tile.png)
 
@@ -145,6 +150,22 @@ The following information is tracked and available there:
 Syskit Point performs regular security and compliance checks for you and presents the results directly on your home screen.
 
 [For more details on Security and Compliance checks, take a look at this article.](../governance-and-automation/security-compliance-checks/security-compliance-checks.md)
+
+## Copilot Readiness
+
+The Copilot Readiness tile on the Syskit dashboard **helps  businesses as they prepare to integrate Copilot into their workflow** or those that want to stay on top of policy vulnerabilities or overshared workspaces that could pose a security risk. By providing a **clear and comprehensive Copilot Readiness score**, you are able to quickly **identify vulnerabilities**.
+
+The tile on the Dashboard shows:
+* Number of vulnerabilities detected for the Workspaces **Shared with Everyone policies (1)**, the Workspaces with **Too Many Members (2)**, Workspaces with **Shadow Users (3)**
+* The **Group Access (4) and Sharing Links reports (5)**
+* The number of **company-wide sharing links (6)** as well as **company-wide sharing links that contain sensitive files (7)**
+* The number of **links shared with anyone (8) and links shared with anyone that contain sensitive files (9)**
+* The number of **public workspaces (10)** and the **public workspaces with sensitive files (11)**
+
+![Copilot Readiness Tile](../.gitbook/assets/copilot-readiness-tile.png)
+
+
+[For more details on how to navigate the Copilot Readiness tile, take a look at this article.](../microsoft365-inventory/copilot-readiness.md)
 
 ## External Collaboration
 

@@ -128,6 +128,7 @@
   * [Sites](microsoft365-inventory/sites.md)
   * [Microsoft Teams & Groups](microsoft365-inventory/microsoft-teams-and-groups.md)
   * [Users](microsoft365-inventory/users.md)
+  * [Copilot Readiness](microsoft365-inventory/copilot-readiness.md)
 * [Configuration](configuration/README.md)
   * [Syskit Point Configuration Guide](configuration/how-to-configure-Point.md)
   * [Assign and Manage Access to Syskit Point](configuration/enable-role-based-access.md)
