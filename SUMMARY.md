@@ -282,6 +282,8 @@
     * [My Tasks](point-collaborators/resolve-governance-tasks/my-tasks.md)
     * [Complete Access Review Tasks](point-collaborators/resolve-governance-tasks/access-review.md)
     * [Complete Metadata Review Tasks](point-collaborators/resolve-governance-tasks/metadata-review.md)
+    * [Complete Privacy Review Tasks](point-collaborators/resolve-governance-tasks/privacy-review.md)
+    * [Complete Sensitivity Review Tasks](point-collaborators/resolve-governance-tasks/sensitivity-review.md)
     * [Resolve Lifecycle Management Tasks](point-collaborators/resolve-governance-tasks/lifecycle-management.md)
     * [Resolve Inactive Guest Users Tasks](point-collaborators/resolve-governance-tasks/guest-users-expiration.md)
     * [Resolve Minimum Number of Owners Tasks](point-collaborators/resolve-governance-tasks/minimum-number-of-owners.md)
