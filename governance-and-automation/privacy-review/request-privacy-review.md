@@ -18,7 +18,7 @@ With the new Ask Owners to Review Privacy action, you can now select workspaces 
 
 {% hint style="warning" %}
 
-**Please note:** You can Ask Owners to review the Privacy of Microsoft Teams and Microsoft Groups only.
+**Please note:** You can Ask Owners to review the Privacy of Microsoft Teams and Microsoft 365 Groups only.
 
 {% endhint %}
 
