@@ -28,7 +28,7 @@ Workspace owners receive an **e-mail** stating that your company requires you to
 
 {% endhint %}
 
-![Resolve Sensitivity Review - E-mail](../../.gitbook/assets/resolve-metadata-review-email.png)
+![Resolve Sensitivity Review - E-mail](../../.gitbook/assets/resolve-sensitivity-review-email.png)
 
 
 ## Resolve Sensitivity Review Tasks 
@@ -49,7 +49,7 @@ When individually changing the sensitivity:
 
 ![Resolve Sensitivity Review - Task](../../.gitbook/assets/resolve-sensitivity-review-task.png)
 
-![Resolve Sensitivity Review - Complete Task](../../.gitbook/assets/resolve-metadata-review-task-complete.png)
+![Resolve Sensitivity Review - Complete Task](../../.gitbook/assets/resolve-sensitivity-review-task-complete.png)
 
 When changing the sensitivity in bulk: 
 
