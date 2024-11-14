@@ -32,7 +32,7 @@ Here's how to request owners to review the privacy of their workspaces.
 * **Click the Ask Owners action (3)**, and a confirmation dialog opens 
 * Here, you can **leave a comment (4)** if you feel one is needed and **click the Ask Owners button (5)** to request a review
 
-After that, the dialog confirms that the task has been sent and lets you know that you can **check the newly created tasks by going to the Governance screen and, under Privacy Review, clicking Requested Reviews**. 
+After that, the dialog confirms that the task has been sent and lets you know that you can **check the newly created tasks by going to the Governance > Privacy Review > Requested Reviews** screen. 
 
 ![Privacy Review](../../.gitbook/assets/request-privacy-review.png)
 

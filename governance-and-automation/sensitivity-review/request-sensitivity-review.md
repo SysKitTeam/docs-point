@@ -33,7 +33,7 @@ Here's how to request owners to review the sensitivity labels on their workspace
 
 ![Sensitivity Review - Request](../../.gitbook/assets/request-sensitivity-review-request.png)
 
-After that, the dialog confirms that the task has been sent and lets you know that you can **check the newly created tasks by going to the Governance screen and, under Sensitivity Review, clicking Requested Reviews**. 
+After that, the dialog confirms that the task has been sent and lets you know that you can **check the newly created tasks by going to the Governance > Sensitivity Review > Requested Reviews** screen. 
 
 {% hint style="information" %}
 
