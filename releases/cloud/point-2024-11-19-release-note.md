@@ -1,8 +1,8 @@
 ---
-description: This article lists improvements and bug fixes in the Syskit Point Cloud version 2024.6.70.28
+description: This article lists improvements and bug fixes in the Syskit Point Cloud version 2024.6.70.47
 ---
 
-# November 14, 2024
+# November 19, 2024
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think](https://www.syskit.com/company/contact-us/).
 
@@ -24,7 +24,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
   * Administrators can resolve the vulnerability, or workspace owners can resolve the task if task delegation is enabled.
     * [Read this article to learn how collaborators can resolve the Inactive Workspaces task.](../../point-collaborators/resolve-governance-tasks/inactive-workspaces.md)
   * [The Inactive Workspaces report](../../reporting/analytics-reports.md#inactive-workspaces-report) has been improved to reflect the new Inactive Workspaces policy. 
-  * [For details on what will happen to the Lifecycle Management feature, please read this article.](../../governance-and-automation/lifecycle-management/deprecating-lifecycle-management.md)
+  * [For details on what will happen to the Lifecycle Management feature, please read this article.](../../governance-and-automation/lifecycle-management/deprecating-lifecyle-management.md)
   
 * **New Review types available:**
   * **Sensitivity Review**
