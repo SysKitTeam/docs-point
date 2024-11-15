@@ -79,7 +79,7 @@ If you have inactive users, you can remove their license through Syskit Point th
 
 {% hint style="information" %}
 
-**Please note** that if the license is assigned automatically to the user or resource once they are added as a member of a specific group, **it cannot be manually removed**. The license is removed automatically once the user or resource is removed from being a group member. [For more information about removing users from workspaces, read this article](../point-collaborators/manage-workspaces/manage-workspaces.md#remove-access).
+**Please note** that if the license is assigned automatically to the user or resource once they are added as a member of a specific group, **it cannot be manually removed**. The license is removed automatically once the user or resource is removed from being a group member. [For more information about removing users from workspaces, read this article](../point-collaborators/manage-workspaces/manage-workspaces.md#remove-group-access).
 
 {% endhint %}
 

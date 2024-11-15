@@ -21,7 +21,7 @@ Complete the following steps to manage your sensitivity labels:
 * **Click the arrow next to the Manage Sensitivity button (3)** to see your options; located on the right side of the screen.
   * **The Apply Sensitivity Label** and **Remove Sensitivity Label** actions show up.
 
-![Manage Sensitivity Labels - Overview](../../.gitbook/assets/manage-sensitivity-labels-manage-screen.png)
+![Manage Sensitivity Labels - Overview](../.gitbook/assets/manage-sensitivity-labels-manage-screen.png)
 
 Clicking Apply Sensitivity Label opens the Apply Sensitivity Label pop-up.
 
@@ -30,13 +30,13 @@ To apply a sensitivity label to the workspace:
   * **Type APPLY (2)** in the designated space.
   * **Click Apply Sensitivity Label (3)** to finalize.
 
-![Apply Sensitivity Labels - Overview](../../.gitbook/assets/manage-sensitivity-labels-apply-label.png)
+![Apply Sensitivity Labels - Overview](../.gitbook/assets/manage-sensitivity-labels-apply-label.png)
 
 Clicking Remove Sensitivity Label opens the Remove Sensitivity Label pop-up.
   * To remove the sensitivity label **type REMOVE (1)** in the designated space.
   * **Click Remove Sensitivity Label (2)** to finalize.
 
-![Remove Sensitivity Labels - Overview](../../.gitbook/assets/manage-sensitivity-labels-remove-label.png)
+![Remove Sensitivity Labels - Overview](../.gitbook/assets/manage-sensitivity-labels-remove-label.png)
 
 {% hint style="warning" %}
 **Please note!**  

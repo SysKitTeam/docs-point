@@ -56,12 +56,12 @@ Next, the table needs to be populated with appropriate fields. To add fields:
 ![Adding Fields](../.gitbook/assets/create-custom-reports_fields.png)
 
 Make sure to add the following fields to the Table visual:
-* [Microsoft Teams and Groups].Teams and Groups Name 
-* [Microsoft Teams and Groups].Type 
-* [Microsoft Teams and Groups].Created On Date 
-* [Microsoft Teams and Groups <-> Users].User Name 
-* [Microsoft Teams and Groups <-> Users].Users.Email 
-* [Microsoft Teams and Groups <-> Users].Microsoft Teams and Groups.Role Type 
+* \[Microsoft Teams and Groups\].Teams and Groups Name 
+* \[Microsoft Teams and Groups\].Type 
+* \[Microsoft Teams and Groups\].Created On Date 
+* \[Microsoft Teams and Groups <-> Users\].User Name 
+* \[Microsoft Teams and Groups <-> Users\].Users.Email 
+* \[Microsoft Teams and Groups <-> Users\].Microsoft Teams and Groups.Role Type 
 
 The image below shows the report after adding all mentioned fields.
 

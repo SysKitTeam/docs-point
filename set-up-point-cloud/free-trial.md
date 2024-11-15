@@ -98,7 +98,7 @@ A new page opens showing the Configure step:
   * **USA**
   * **Europe**
   * **Asia-Pacific & Australia**
-* **Mark the checkbox (5)** to confirm you read and agree with the [Syskit End User Software License Agreement](https://www.syskit.com/wp-content/uploads/2022/10/EULA_SysKit-Point-2022.pdf)
+* **Mark the checkbox (5)** to confirm you read and agree with the [Syskit End User Software License Agreement](https://www.syskit.com/eula/)
 * **Click Next (6) when finished**
 
 ![Configure Step](../.gitbook/assets/free-trial-subscriptions-configure-step.png)

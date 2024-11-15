@@ -28,10 +28,10 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 ## Features
 
 * **Syskit Point now enables the creation, management, and provisioning of custom metadata on Microsoft Teams, Microsoft 365 Groups, sites and OneDrive**! Syskit Point admins can now:
-  * [Create new custom metadata in Syskit Point](../../../governance-and-automation/manage-custom-metadata.md#create-custom-metadata)
-  * [Change metadata on Microsoft Teams, Microsoft 365 Groups, sites, and OneDrive](../../../governance-and-automation/manage-custom-metadata.md#change-custom-metadata)
+  * [Create new custom metadata in Syskit Point](../../../governance-and-automation/metadata/manage-custom-metadata.md#create-custom-metadata)
+  * [Change metadata on Microsoft Teams, Microsoft 365 Groups, sites, and OneDrive](../../../governance-and-automation/metadata/manage-custom-metadata.md#change-custom-metadata)
   * [Define custom metadata in provisioning templates](../../../governance-and-automation/provisioning/templates.md#create-a-new-provisioning-template)
-  * [Filter reports by custom metadata](../../../governance-and-automation/manage-custom-metadata.md#filter-workspaces-by-metadata)\
+  * [Filter reports by custom metadata](../../../governance-and-automation/metadata/manage-custom-metadata.md#filter-workspaces-by-metadata)\
     \\
 * **Configuration Inventory module is now a part of Syskit Point**! Formerly known as Syskit Trace, this solution for documenting Microsoft 365 tenant configuration settings is now integrated into Syskit Point. Use the following links to:
   * [learn more about Configuration Inventory requirements](../../../configuration-inventory/configuration-inventory-requirements.md)

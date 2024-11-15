@@ -35,9 +35,9 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 * **New feature enables workspace owners to perform Metadata Review.**
   * Administrators can decide which metadata workspace owners can manage. 
-    * [For more details on this, take a look at the Manage Metadata Review article.](../../../governance-and-automation/metadata-review/manage-metadata-review.md)
+    * [For more details on this, take a look at the Manage Metadata Review article.](../../../governance-and-automation/metadata/manage-custom-metadata.md)
   * Admins also decide which metadata is reviewed on the selected workspace(s) and ask owners to perform Metadata Review.
-    * [For more details on this, take a look at the Request Metadata Review article.](../../../governance-and-automation/metadata-review/request-metadata-review.md)
+    * [For more details on this, take a look at the Request Metadata Review article.](../../../governance-and-automation/metadata/request-metadata-review.md)
   * After admin's request, workspace owners get an email guiding them to a Syskit Point task where they can manage workspace metadata.
     * [For more details on this, take a look at the Resolve Metadata Review article.](../../../point-collaborators/resolve-governance-tasks/metadata-review.md) 
 
@@ -77,8 +77,8 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
   * The link sent in the e-mail now directs collaborators to the completed Task in Syskit Point. 
 
 * **Fixed an issue** that caused the prefix not to show properly when a workspace was archived or restored. 
-  * The prefix [Archived] is added to the workspace name if a workspace is archived.
-  * The prefix [Archived] is removed from the workspace name if a workspace is restored.  
+  * The prefix `[Archived]` is added to the workspace name if a workspace is archived.
+  * The prefix `[Archived]` is removed from the workspace name if a workspace is restored.  
 
 * **Fixed an issue** where the policy vulnerability reminder e-mails were erroneously sent after a site sync was performed.
 

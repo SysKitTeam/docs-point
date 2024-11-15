@@ -10,7 +10,7 @@ This task helps you identify which Microsoft Teams & Groups don't have the requi
 
 {% hint style="success" %}
 By default, **Syskit Point suggests that Microsoft Teams and Microsoft 365 Groups should have at least 2 owners** so that if one owner leaves, Microsoft Teams and Microsoft 365 Groups are not left without an owner. 
-[Syskit Point Administrators can change the minimum number of required owners to fit the organization’s policies.](set-up-policies.md)
+[Syskit Point Administrators can change the minimum number of required owners to fit the organization’s policies.](../../governance-and-automation/automated-workflows/set-up-policies.md)
 {% endhint %}
 
 When Syskit Point detects that the Microsoft Teams or Microsoft 365 Groups you are the owner of do not have a minimum number of owners predefined by your organization’s policies, **you will receive an e-mail to resolve the policy vulnerability**.
@@ -80,7 +80,7 @@ If you are among the selected roles or users, when the due date for the initiall
 
 {% hint style="info" %}
 
-**Please note:** By default, the Minimum Number of Owners Orphaned policy vulnerability is detected when there are less than 2 active owners assigned to a workspace. If there are no active owners assigned to a workspace, the [Orphaned Workspaces](../automated-workflows/orphaned-resources-admin.md) vulnerability is detected instead. 
+**Please note:** By default, the Minimum Number of Owners Orphaned policy vulnerability is detected when there are less than 2 active owners assigned to a workspace. If there are no active owners assigned to a workspace, the [Orphaned Workspaces](../../governance-and-automation/automated-workflows/orphaned-resources-admin.md) vulnerability is detected instead. 
 
 If 1 owner is assigned to a workspace when resolving the Orphaned Workspaces vulnerability, Syskit Point will detect the Minimum Number of Owners vulnerability.
 

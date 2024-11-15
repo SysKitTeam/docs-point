@@ -36,7 +36,7 @@ See detailed step-by-step instructions on how to upgrade Configuration Inventory
 ## Features
 
 * **Syskit Point now supports connecting to SQL database using a managed identity**! This method enables Syskit Point to securely connect to the SQL database without needing a username and password. Keep in mind the following:
-  * **If you are a new user** [deploying Syskit Point for the first time](../../../installation/deploy-syskit-point.md), **managed identity is used by default**.
+  * **If you are a new user** [deploying Syskit Point for the first time](../../../set-up-point-data-center/deployment/deploy-syskit-point.md), **managed identity is used by default**.
   * **If you are an existing user**, **Syskit Point continues to use the SQL authentication after the upgrade to the latest version**. [To switch to the managed identity option, please read the following article](../../../configuration/upgrade-SQL-to-managed-identity-authentication.md).
   * **If you are using the Power BI companion app**, [discover how to set up Power BI data sync wit SQL authentication here](../../../power-bi-app/requirements.md).
 * **Syskit Point now supports Microsoft Authentication Flow to connect a service account with multifactor authentication enabled**! [Check out the following article to learn more about requirements and how to connect the service account in Syskit Point](../../../configuration/connect-service-account.md).

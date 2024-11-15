@@ -52,4 +52,4 @@ By selecting the checkbox of an orphaned user, you can perform the **Remove User
 * This opens the Remove User pop-up
 * **Type REMOVE** in the space available and **click the Remove button** to finalize your decision
 
-The Orphaned Users report can be **exported as PDF and XLSX files**. There is also the [**option to schedule the report**](broken-reference).
+The Orphaned Users report can be **exported as PDF and XLSX files**. There is also the [**option to schedule the report**](schedule-reports.md).

@@ -10,7 +10,7 @@ This task helps you identify which teams or groups have more than 5 owners. To a
 
 {% hint style="success" %}
 By default, **Syskit Point suggests that Microsoft Teams and Microsoft 365 Groups should have no more than 5 owners** since no one feels accountable for access and content management if there are too many owners.
-[Syskit Point Administrators can change the maximum number of allowed owners to fit the organization’s policies.](set-up-policies.md)
+[Syskit Point Administrators can change the maximum number of allowed owners to fit the organization’s policies.](../../governance-and-automation/automated-workflows/set-up-policies.md)
 {% endhint %}
 
 When Syskit Point detects that Microsoft Teams or Microsoft 365 Groups, which you are the owner of, have too many owners, **you will receive an e-mail to resolve the policy vulnerability**.

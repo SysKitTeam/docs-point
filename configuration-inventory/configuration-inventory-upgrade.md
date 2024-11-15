@@ -25,14 +25,14 @@ Here you need to:
 * **Enter App service Name (3)** - enter the App Service resource Name; you can **find the App Service name (5)** by navigating to the Overview screen of the Syskit Point resource group
 * **Click Next: Review + create > (4)** - Review + create screen opens showing entered data; check that the entered data is correct and click **Create**
 
-![Azure Portal - Custom Deployment](../.gitbook/assets/upgrade-syskit-point_custom-deployment.png)
+![Azure Portal - Custom Deployment](../.gitbook/assets/upgrade-syskit-point-custom-deployment.png)
 
-![Resource Group - App Service Name](../.gitbook/assets/upgrade-syskit-point_app-service-name.png)
+![Resource Group - App Service Name](../.gitbook/assets/upgrade-syskit-point-app-service-name.png)
 ## Next Steps
 
 After the deployment is completed, you can:
 * **Access the Syskit Point web app**
-* [Check if a re-consent is needed after the upgrade](../requirements-licensing/permission-requirements-change-log.md)
+* [Check if a re-consent is needed after the upgrade](../requirements/permission-requirements-change-log.md)
 
 {% hint style="info" %}
 **Hint!**  
