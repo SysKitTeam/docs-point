@@ -109,7 +109,7 @@ The Inactive Workspaces report data can be **exported into PDF and XLSX formats*
 
 Select one or multiple workspaces to perform Lifecycle Management actions on them:
 
- * Choose to **Keep, Archive or Delete** the workspaces or ask the **Send Reminder** to owners to resolve the inactive workspace tasks. 
+ * Choose to **Keep, Archive or Delete** the workspaces or **Send Reminder** to owners to resolve the inactive workspace tasks. 
 
 When any of those actions are completed on a workspace, it will no longer be visible on the Inactive Workspaces Report.
 
@@ -119,7 +119,7 @@ When looking at the generated reports, the following columns can be found:
 * **URL**; shows the URL of the workspace
 * **Owner(s)**; lists the workspace owners
 * **Last Activity Date**; shows the date and time when the workspace was last active
-* **Storge Used**; shows the amount of storage used by the workspace
+* **Storage Used**; shows the amount of storage used by the workspace
 
 There are additional columns available from the column chooser:
 * **Detected**
