@@ -1,5 +1,5 @@
 ---
-description: This article explains why Lifecycle Management is getting deprecated and what we are replacing it with in Syskit Point.
+description: This article explains why Lifecycle Management is getting deprecated and what will replace it in Syskit Point.
 ---
 
 # Lifecycle Management - Deprecated
@@ -13,7 +13,7 @@ Even if task delegation is not enabled, inactive workspaces are still detected a
 Below is information on what will happen as we prepare to deprecate Lifecycle Management. 
 
 * Lifecycle Management will be shown as `[Deprecated]`
-* Workspace owners will still be able to resolve existing Lifecycle Management tasks
+* Workspace owners will still be able to [resolve existing Lifecycle Management tasks](../../point-collaborators/resolve-governance-tasks/lifecycle-management.md)
 * Lifecycle Management will no longer send e-mails and tasks to workspace owners, but admins will still see active and resolved tasks
 * The existing Lifecycle Management tile on the dashboard will be replaced with the Inactive Workspaces tile, which will use data from the Inactive Workspaces policy
 
