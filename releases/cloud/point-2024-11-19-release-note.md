@@ -46,7 +46,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 * **E-mails sent to owners/task resolvers** when accepting risk for policy vulnerability tasks, now use a grouped e-mail template. If the action was performed in bulk, resolvers will get one e-mail with multiple workspaces listed.
   * E-mails sent when undoing the accept risk command and those sent when clicking the Send Reminder action on Security & Compliance reports are grouped as well, thus reducing the number of e-mails sent to task resolvers while providing the same essential information.
 
-* **Fixed an issue** when Provisioning a new site by using the "Copy from existing site/team" option that caused Provisioning to fail in the following situations:
+* **Fixed an issue** when provisioning a new site by using the "Copy from existing site/team" option that caused provisioning to fail in the following situations:
   * When copying content types with fields that do not exist in the destination site. 
   * When copying theme options when certain colors were used.
 
