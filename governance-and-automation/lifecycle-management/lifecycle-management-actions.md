@@ -6,6 +6,10 @@ description: This article explains how to use Lifecycle Management Actions in Sy
 
 ## Lifecycle Management Actions in Syskit Point
 
+{% hint style="warning" %}
+**Lifecycle Management Automation** will be deprecared and replaced by the [Inactive Workspaces policy](../automated-workflows/inactive-workspaces-admin.md). After approximately two months, the feature will be fully removed from Syskit Point.
+{% endhint %}
+
 Syskit Point includes a set of **Lifecycle Management actions** that can be executed on Microsoft 365 workspaces - Microsoft Teams, Microsoft 365 Groups, and sites. The following actions are available:
 
 * **Keep**

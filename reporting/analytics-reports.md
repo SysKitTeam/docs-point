@@ -109,15 +109,39 @@ The Inactive Workspaces report data can be **exported into PDF and XLSX formats*
 
 Select one or multiple workspaces to perform Lifecycle Management actions on them:
 
- * Choose to **Keep, Archive or Delete** the workspaces or ask the **owner to Renew** the workspaces. 
+ * Choose to **Keep, Archive or Delete** the workspaces or **Send Reminder** to owners to resolve the inactive workspace tasks. 
 
 When any of those actions are completed on a workspace, it will no longer be visible on the Inactive Workspaces Report.
 
 When looking at the generated reports, the following columns can be found:
 
-- **Name**; shows the name of the inactive workspace.
-- **SharePoint, Exchange, Teams, and Yammer activity column;** shows inactivity based on the last date any activity was made on the workspace.
-- **Lifecycle Management**; shows if the site was monitored for activity by Syskit Point Lifecycle Management.
+* **Workspace**; shows the name of the inactive workspace.
+* **URL**; shows the URL of the workspace
+* **Owner(s)**; lists the workspace owners
+* **Last Activity Date**; shows the date and time when the workspace was last active
+* **Storage Used**; shows the amount of storage used by the workspace
+
+There are additional columns available from the column chooser:
+* **Detected**
+* **Status**
+* **Workspace Type**
+* **Last Modified**
+* **Storage Limit**
+* **Privacy**
+* **Sharing Settings**
+* **Policy**
+* **Rule**
+* **Assigned to**
+* **SharePoint Activity**
+* **SharePoint Last Activity Date**
+* **Exchange Activity**
+* **Exchange Last Activity Date**
+* **Teams Activity**
+* **Teams Last Activity Date**
+* **Yammer Activity**
+* **Yammer Last Activity Date**
+* **Planner Activity**
+* **Planner Last Activity Date**
 
 ## SharePoint Activity Report
 

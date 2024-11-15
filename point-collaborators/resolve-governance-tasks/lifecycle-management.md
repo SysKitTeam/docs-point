@@ -6,6 +6,10 @@ description: >-
 
 # Workspace Lifecycle
 
+{% hint style="warning" %}
+**Lifecycle Management Automation** will be deprecared and replaced by the [Inactive Workspaces policy](../resolve-governance-tasks/inactive-workspaces.md). After approximately two months, the feature will be fully removed from Syskit Point.
+{% endhint %}
+
 Workspaces in Microsoft 365 usually display the following lifecycle stages:
 
 * **Creation**; for example, when an admin creates a new workspace (Microsoft Team) or end-users request a new workspace from a menu of templated options created by admins in SysKit Point. 
