@@ -4,9 +4,9 @@ description: This article explains how to resolve the Inactive Workspaces task i
 
 # Inactive Workspaces
 
-**This article shows how you can resolve the Inactive Workspaces policy vulnerability** when Syskit Point detects a workspace that is inactive. 
+**This article shows how you can resolve the Inactive Workspaces policy vulnerability** when Syskit Point detects an inactive workspace. 
 
-This policy helps you ensure there are no inactive workspaces, which is important for security and resource optimization. If these workspaces are left unattended, they can pose security risks and lead to compliance issues. By regularly resolving inactive workspaces tasks, you ensure data safety and effectiveness for all of your workspaces.
+This policy helps you ensure there are no inactive workspaces, which is important for security and resource optimization. If these workspaces are left unattended, they can pose security risks and lead to compliance issues. By regularly resolving inactive workspace tasks, you ensure data safety and effectiveness for all of your workspaces.
 
 In this article, you can find information on the following:
 
@@ -101,7 +101,7 @@ On the task details screen, the following information is available:
 
 * **Last Activity**, **All Users**, and **All Files tile (3)**;
   * The All Users and All Files tile redirects to the relevant reports where more information can be found on the users and content in that workspace.
-* **Actions (4)**; this section provides options on what to do with the inactive workspace
+* **Actions (4)**; This section provides options on what to do with the inactive workspace
 * **Activity Timeline (5)** that shows who the task was assigned to and when the policy vulnerability was detected
 
 
@@ -121,7 +121,7 @@ The following actions are available:
 * **Delete**
 * **Restore**
 
-Each action can be executed by **Syskit Point Admin** and **Syskit Point Collaborator** users.  
+Each action can be executed by **Syskit Point Admin** and **Workspace Owners**.  
 
 When resolving the **Inactive Workspaces task**, actions are **displayed in a ribbon**.
 
@@ -170,7 +170,7 @@ Kept workspaces are depicted with a yellow circle. **On hover (2)**, the circle 
 
 {% hint style="warning" %}
 **Please note!**  
-The Keep action can be executed on inactive workspaces only!
+The Keep action can be executed for inactive workspaces only!
 {% endhint %}
 
 ### Archive
