@@ -56,7 +56,8 @@ Afterward, configure API permissions:
 * **Click Add a permission option (2)** - a sidebar opens where you should:
     * **Select the APIs my organization uses tab; search and find Syskit Point API (3) and click to select** - sidebar shows new information
     * **Select the displayed permission (4)**
-        * For demo purposes, you can select the Point.Admin role permitting you to try out all available API actions
+        * We strongly encourage applying the principle of least privilege and provide the minimum level of permissions required to accommodate your integration requirements
+        * [Find more details about available permissions in the Permissions section](#permissions)
     * **Click Add permissions (5)**
 * **Click the Grant admin consent option (6)** - confirmation dialog opens:
     **Click Yes to confirm**
@@ -69,6 +70,18 @@ Lastly, **collect the following data and save to side with the client secret val
 * **Application (client) ID** 
 * **Directory (tenant) ID** 
 * **Syskit Point API Application (client) ID** - find the _Syskit Point API_ app registration and copy the Application (client) ID from the Overview screen
+
+## Permissions 
+
+There are 4 permissions associated with Syskit Point API:
+
+| Permission | Privileges |
+| ----- | ----- |
+| SharePoint.Read.All ||
+| Point.AsyncRequests ||
+| Point.Provisioning ||
+| Point.Admin ||
+
 
 ## Fetch the `access_token`
 
@@ -83,12 +96,12 @@ Replace the \<tenant-id\> in your request with your Directory (tenant) ID saved 
 **Body**
 Include the following parameters in the request body
 
-| Name       | Type   | Description            |
-| ---------- | ------ | ---------------------- |
-| `client_id` | string | Application (client) ID of the created app registration  |
-| `client_secret`| string  | Client secret created in the previous step |
-| `grant_type`| string  | `client_credentials` |
-| `scope`| string  | `Syskit Point API Application (client) ID`/.default |
+| Name | Type | Description | Example Value |
+| --- | --- | --- | --- |
+| `client_id` | string | Application (client) ID of the created app registration | 0a1948f2-b37b-4c38-8430-2c3ad19ba71c |
+| `client_secret`| string  | Client secret created in the previous step | Ma~8Q~hffkTUrO53J8XpKQWl-rnsw.4l~_AG-arJ |
+| `grant_type`| string  | Enter the string 'client_credentials' | client_credentials |
+| `scope`| string  | Combine the Application (client) ID of Syskit Point API app registration and string '/.default' | ee22be9d-e792-45c2-8955-deb8fd565aa5/.default |
 
 Click Send and wait for the response.
 
