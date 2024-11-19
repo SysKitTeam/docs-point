@@ -132,6 +132,8 @@ Required permission: **Point.Admin**
 
 Required permission: **SharePoint.Read.All** OR **Point.AsyncRequests**
 
+| Request | Description |
+| --- | --- |
 | <mark style="color:blue;">`GET`</mark> {{pointWebAppUrl}}/v1.0/requests/{requestId}/status | Get the status of a request with the specified request ID. |
 | <mark style="color:blue;">`GET`</mark> {{pointWebAppUrl}}/v1.0/requests/{requestId}/result  | Get the result of a request with the specified request ID. |
 
