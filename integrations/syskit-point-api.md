@@ -73,15 +73,67 @@ Lastly, **collect the following data and save to side with the client secret val
 
 ## Permissions 
 
-There are 4 permissions associated with Syskit Point API:
+There are 4 permissions providing access to different Syskit Point endpoints:
 
-| Permission | Privileges |
-| ----- | ----- |
-| SharePoint.Read.All ||
-| Point.AsyncRequests ||
-| Point.Provisioning ||
-| Point.Admin ||
+* **SharePoint.Read.All**
+* **Point.AsyncRequests**
+* **Point.Provisioning**
+* **Point.Admin**
 
+Find permission required for specific endpoints/requests below.
+
+### WebHooksEndpoint
+
+Required permission: **Point.Admin**
+
+| Request | Description |
+| --- | --- |
+| <mark style="color:green;">`POST`</mark> {{pointWebAppUrl}}/v1.0/webhook/endpoints | Add an endpoint to which Syskit Point will post webhooks events. Specify a valid URL and list of event types to be notified about. |
+
+### Users
+
+Required permission: **Point.AsyncRequests**
+
+| Request | Description |
+| --- | --- |
+| <mark style="color:green;">`POST`</mark> {{pointWebAppUrl}}/v1.0/users/access/generate | Initiate a request to receive information about SharePoint access for a given user. |
+
+### SharePointSites
+
+Required permission: **SharePoint.Read.All**
+
+| Request | Description |
+| --- | --- |
+| <mark style="color:green;">`POST`</mark> {{pointWebAppUrl}}/v1.0/sites/permissions/generate | Initiate a request to receive information about permissions on a list of SharePoint sites. |
+| <mark style="color:blue;">`GET`</mark> {{pointWebAppUrl}}/v1.0/sites | Get a list of all SharePoint sites Syskit Point is tracking. |
+
+### Provisioning
+
+Required permission: **Point.Provisioning**
+
+| Request | Description |
+| --- | --- |
+| <mark style="color:green;">`POST`</mark> {{pointWebAppUrl}}/v1.0/provision/teams | Provision Microsoft Teams based on a provisioning template. |
+| <mark style="color:green;">`POST`</mark> {{pointWebAppUrl}}/v1.0/provision/groups | Provision Microsoft 365 Groups based on a provisioning template. |
+| <mark style="color:green;">`POST`</mark> {{pointWebAppUrl}}/v1.0/provision/sites | Provision SharePoint sites based on a provisioning template. |
+| <mark style="color:green;">`POST`</mark> {{pointWebAppUrl}}/v1.0/provision/sites | Provision Yammer Communities based on a provisioning template. |
+| <mark style="color:blue;">`GET`</mark> {{pointWebAppUrl}}/v1.0/provision/templates | Get all provisioning templates in Syskit Point. |
+| <mark style="color:blue;">`GET`</mark> {{pointWebAppUrl}}/v1.0/provision/requests/{requestId} | Get status for a provisioning request with specified request ID. |
+
+### Options
+
+Required permission: **Point.Admin**
+
+| Request | Description |
+| --- | --- |
+| <mark style="color:blue;">`GET`</mark> {{pointWebAppUrl}}/v1.0/options | Get options available for use with Syskit Point API and Webhooks. |
+
+### AsyncRequests
+
+Required permission: **SharePoint.Read.All** OR **Point.AsyncRequests**
+
+| <mark style="color:blue;">`GET`</mark> {{pointWebAppUrl}}/v1.0/requests/{requestId}/status | Get the status of a request with the specified request ID. |
+| <mark style="color:blue;">`GET`</mark> {{pointWebAppUrl}}/v1.0/requests/{requestId}/result  | Get the result of a request with the specified request ID. |
 
 ## Fetch the `access_token`
 
@@ -89,7 +141,7 @@ Here, you can find an example of how to fetch the `access_token` using Postman.
 
 Create a new POST request:
 
-<mark style="color:yellow;">`POST`</mark> https://login.microsoftonline.com/\<tenant-id\>/oauth2/v2.0/token
+<mark style="color:green;">`POST`</mark> https://login.microsoftonline.com/\<tenant-id\>/oauth2/v2.0/token
 
 Replace the \<tenant-id\> in your request with your Directory (tenant) ID saved in the previous step.
 
@@ -117,7 +169,7 @@ Using Postman, let's create the first request to your Syskit Point web app.
 
 Create a new GET request:
 
-<mark style="color:green;">`GET`</mark> {{pointWebAppUrl}}/v1.0/sites
+<mark style="color:blue;">`GET`</mark> {{pointWebAppUrl}}/v1.0/sites
 
 Under Authorization > Type, select `Bearer Token` and paste the `access_token` retrieved in the previous step.
 
