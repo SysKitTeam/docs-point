@@ -89,7 +89,7 @@ Find permission required for specific endpoints/requests below.
 
 Required permission: **Point.Admin**
 
-<table><thead><tr><th width="384">Request</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:green;"><code>POST</code></mark> {{pointWebAppUrl}}/v1.0/webhook/endpoints</td><td>Add an endpoint to which Syskit Point will post webhooks events. Specify a valid URL and list of event types to be notified about.</td></tr></tbody></table>
+<table><thead><tr><th width="384">Request</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:green;"><code>POST</code></mark> /v1.0/webhook/endpoints</td><td>Add an endpoint to which Syskit Point will post webhooks events. Specify a valid URL and list of event types to be notified about.</td></tr></tbody></table>
 
 ### Users
 
@@ -103,7 +103,7 @@ Required permission: **Point.AsyncRequests**
 
 Required permission: **SharePoint.Read.All**
 
-<table><thead><tr><th width="435">Request</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:green;"><code>POST</code></mark> {{pointWebAppUrl}}/v1.0/sites/permissions/generate</td><td>Initiate a request to receive information about permissions on a list of SharePoint sites.</td></tr><tr><td><mark style="color:blue;"><code>GET</code></mark> /v1.0/sites</td><td>Get a list of all SharePoint sites Syskit Point is tracking.</td></tr></tbody></table>
+<table><thead><tr><th width="435">Request</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:green;"><code>POST</code></mark> /v1.0/sites/permissions/generate</td><td>Initiate a request to receive information about permissions on a list of SharePoint sites.</td></tr><tr><td><mark style="color:blue;"><code>GET</code></mark> /v1.0/sites</td><td>Get a list of all SharePoint sites Syskit Point is tracking.</td></tr></tbody></table>
 
 ### Provisioning
 
