@@ -97,19 +97,19 @@ Required permission: **Point.AsyncRequests**
 
 | Request                                                                                  | Description                                                                         |
 | ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| <mark style="color:green;">`POST`</mark> \{{pointWebAppUrl\}}/v1.0/users/access/generate | Initiate a request to receive information about SharePoint access for a given user. |
+| <mark style="color:green;">`POST`</mark> /v1.0/users/access/generate | Initiate a request to receive information about SharePoint access for a given user. |
 
 ### SharePointSites
 
 Required permission: **SharePoint.Read.All**
 
-<table><thead><tr><th width="435">Request</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:green;"><code>POST</code></mark> {{pointWebAppUrl}}/v1.0/sites/permissions/generate</td><td>Initiate a request to receive information about permissions on a list of SharePoint sites.</td></tr><tr><td><mark style="color:blue;"><code>GET</code></mark> {{pointWebAppUrl}}/v1.0/sites</td><td>Get a list of all SharePoint sites Syskit Point is tracking.</td></tr></tbody></table>
+<table><thead><tr><th width="435">Request</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:green;"><code>POST</code></mark> {{pointWebAppUrl}}/v1.0/sites/permissions/generate</td><td>Initiate a request to receive information about permissions on a list of SharePoint sites.</td></tr><tr><td><mark style="color:blue;"><code>GET</code></mark> /v1.0/sites</td><td>Get a list of all SharePoint sites Syskit Point is tracking.</td></tr></tbody></table>
 
 ### Provisioning
 
 Required permission: **Point.Provisioning**
 
-<table><thead><tr><th width="455">Request</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:green;"><code>POST</code></mark> {{pointWebAppUrl}}/v1.0/provision/teams</td><td>Provision Microsoft Teams based on a provisioning template.</td></tr><tr><td><mark style="color:green;"><code>POST</code></mark> {{pointWebAppUrl}}/v1.0/provision/groups</td><td>Provision Microsoft 365 Groups based on a provisioning template.</td></tr><tr><td><mark style="color:green;"><code>POST</code></mark> {{pointWebAppUrl}}/v1.0/provision/sites</td><td>Provision SharePoint sites based on a provisioning template.</td></tr><tr><td><mark style="color:green;"><code>POST</code></mark> {{pointWebAppUrl}}/v1.0/provision/sites</td><td>Provision Yammer Communities based on a provisioning template.</td></tr><tr><td><mark style="color:blue;"><code>GET</code></mark> {{pointWebAppUrl}}/v1.0/provision/templates</td><td>Get all provisioning templates in Syskit Point.</td></tr><tr><td><mark style="color:blue;"><code>GET</code></mark> {{pointWebAppUrl}}/v1.0/provision/requests/{requestId}</td><td>Get status for a provisioning request with specified request ID.</td></tr></tbody></table>
+<table><thead><tr><th width="455">Request</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:green;"><code>POST</code></mark> /v1.0/provision/teams</td><td>Provision Microsoft Teams based on a provisioning template.</td></tr><tr><td><mark style="color:green;"><code>POST</code></mark> /v1.0/provision/groups</td><td>Provision Microsoft 365 Groups based on a provisioning template.</td></tr><tr><td><mark style="color:green;"><code>POST</code></mark> /v1.0/provision/sites</td><td>Provision SharePoint sites based on a provisioning template.</td></tr><tr><td><mark style="color:green;"><code>POST</code></mark> /v1.0/provision/sites</td><td>Provision Yammer Communities based on a provisioning template.</td></tr><tr><td><mark style="color:blue;"><code>GET</code></mark> /v1.0/provision/templates</td><td>Get all provisioning templates in Syskit Point.</td></tr><tr><td><mark style="color:blue;"><code>GET</code></mark> /v1.0/provision/requests/{requestId}</td><td>Get status for a provisioning request with specified request ID.</td></tr></tbody></table>
 
 ### Options
 
@@ -117,13 +117,13 @@ Required permission: **Point.Admin**
 
 | Request                                                                  | Description                                                       |
 | ------------------------------------------------------------------------ | ----------------------------------------------------------------- |
-| <mark style="color:blue;">`GET`</mark> \{{pointWebAppUrl\}}/v1.0/options | Get options available for use with Syskit Point API and Webhooks. |
+| <mark style="color:blue;">`GET`</mark> /v1.0/options | Get options available for use with Syskit Point API and Webhooks. |
 
 ### AsyncRequests
 
 Required permission: **SharePoint.Read.All** OR **Point.AsyncRequests**
 
-<table><thead><tr><th width="438">Request</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:blue;"><code>GET</code></mark> {{pointWebAppUrl}}/v1.0/requests/{requestId}/status</td><td>Get the status of a request with the specified request ID.</td></tr><tr><td><mark style="color:blue;"><code>GET</code></mark> {{pointWebAppUrl}}/v1.0/requests/{requestId}/result</td><td>Get the result of a request with the specified request ID.</td></tr></tbody></table>
+<table><thead><tr><th width="438">Request</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:blue;"><code>GET</code></mark> /v1.0/requests/{requestId}/status</td><td>Get the status of a request with the specified request ID.</td></tr><tr><td><mark style="color:blue;"><code>GET</code></mark> /v1.0/requests/{requestId}/result</td><td>Get the result of a request with the specified request ID.</td></tr></tbody></table>
 
 ## Fetch the `access_token`
 
