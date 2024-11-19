@@ -74,39 +74,51 @@ Below, you can find examples for all types:
 {% tab title="ProvisioningStarted" %}
 ```json
 {
-  "ProvisioningStarted":  
-  {
-     name = "name",
-     type = "teams",
-     requestedOn = "datetime",
-     requesterId = "guid"
-  }
+    "type": "ProvisioningStarted",
+    "content": {
+      "name": "Resource Name",
+      "type": "MicrosoftTeams|SharePointSiteCollection|YammerCommunity|M365Group",
+      "requestedOn": "2023-10-05T14:48:00",
+      "requesterId": "235ec2cb-0767-40b3-a1de-4da2c42b19e9"
+    },
+    "meta": {
+      "timeStamp": "2023-10-05T14:48:00",
+      "idempotencyKey": "f9ac8355-ddd7-48a3-98fb-9d4142501510"
+    }
 }
 ```
 {% endtab %}
 {% tab title="ProvisioningCompleted" %}
 ```json
 {
-  "ProvisioningCompleted": 
-  {
-    name = "name",
-    type = "teams",
-    url = @"url",
-    microsoftId = "guid"
-  }
+    "type": "ProvisioningCompleted",
+    "content": {
+      "name": "Resource Name",
+      "type": "MicrosoftTeams|SharePointSiteCollection|YammerCommunity|M365Group",
+      "url": "https://contoso.sharepoint.com/sites/resourcename",
+      "microsoftId": "3b735b14-de6f-4cf8-adc6-da7eaccbdc31"
+    },
+    "meta": {
+      "timeStamp": "2023-10-05T14:48:00",
+      "idempotencyKey": "854d127b-95c2-4b5f-bb45-7813946dee72"
+    }
 }
 ```
 {% endtab %}
 {% tab title="ProvisioningFailed" %}
 ```json
 {
-  "ProvisioningFailed":  
-  {
-    name = "name",
-    type = "teams",
-    error = "error message",
-    correlationId = "correlationId"
-  }
+    "type": "ProvisioningFailed",
+    "content": {
+      "name": "Resource Name",
+      "type": "MicrosoftTeams|SharePointSiteCollection|YammerCommunity|M365Group",
+      "error": "Error Message",
+      "correlationId ": "f65cefa6-01b7-47d6-a2cb-9442d13dd535"
+    },
+    "meta": {
+      "timeStamp": "2023-10-05T14:48:00",
+      "idempotencyKey": "45285061-1288-4899-b108-ad06cfbbcf6f"
+    }
 }
 ```
 {% endtab %}
