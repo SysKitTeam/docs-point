@@ -37,7 +37,7 @@ For instance, the provisioning of a workspace depends on a manager or admin appr
 
 For a quick jump into Syskit Point API and registering webhook endpoints, advanced users can go to Swagger API Documentation.
 Given that you already have an up-and-running Syskit Point instance, you can find the documentation on the following URL:
-* `<YourSyskitPointBaseURL/swagger>`
+* `<YourSyskitPointWebAppURL/swagger>`
 * For example, `contoso.syskit365demo.com/swagger`
 
 
