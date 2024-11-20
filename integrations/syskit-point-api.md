@@ -167,5 +167,5 @@ The provided example is shown in the image below:
 
 To find more information about the Syskit Point API, navigate to the provided Swagger documentation. You can find it on the following URL:
 
-* `<YourSyskitPointBaseURL/swagger>`
+* `<YourSyskitPointWebAppURL/swagger>`
 * For example, `contoso.syskit365demo.com/swagger`
