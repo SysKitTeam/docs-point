@@ -9,7 +9,7 @@ description: This article explains how to get started with Syskit Point API.
 See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 {% endhint %}
 
-In this article, you can find steps on how to create your first request to your Syskit Point web app. You will need to perform the following steps:
+In this article, you can find steps to create your first request to your Syskit Point web app. You will need to perform the following steps:
 
 * **Create and set an app registration in Microsoft Entra ID**
 * **Fetch the `access_token`**

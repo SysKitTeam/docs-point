@@ -25,7 +25,7 @@ The application used to access the webhooks endpoint needs to have the `Point.Ad
 
 To register a webhook endpoint via the Syskit Point API, you need to use the following POST request:
 
-<mark style="color:green;">`POST`</mark> \{{baseURL\}}/v1.0/webhooks/endpoints
+<mark style="color:green;">`POST`</mark> \{{pointWebAppUrl\}}/v1.0/webhooks/endpoints
 
 **Headers**
 
@@ -172,7 +172,7 @@ To verify the notification was sent by Syskit Point:
 
 To get the signature key, send the following GET request.
 
-<mark style="color:blue;">`GET`</mark> \{{baseURL\}}/v1.0/options
+<mark style="color:blue;">`GET`</mark> \{{pointWebAppUrl\}}/v1.0/options
 
 **Response**
 
