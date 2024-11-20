@@ -9,18 +9,18 @@ Most often, multiple apps are used to support various processes in a company.
 Therefore, integration between apps proves important, as it enables you to connect multiple apps in a comprehensive workflow.  
 
 Syskit Point offers 2 types of integration:
-    * **Syskit Point API**
-    * **Webhooks**
+* **Syskit Point API**
+* **Webhooks**
 
 Below, you can find more information and examples for both types.
 
 ## Syskit Point API
 
 **Syskit Point API** is an interface that enables 3rd party apps to:
-    * **Access data available in Syskit Point**
-        * For example - synced workspaces, provisioning templates available in Syskit Point, etc.
-    * **Trigger operations in Syskit Point**
-        * Such as provisioning of workspaces or generating a permissions report for a workspace.
+* **Access data available in Syskit Point**
+    * For example - synced workspaces, provisioning templates available in Syskit Point, etc.
+* **Trigger operations in Syskit Point**
+    * Such as provisioning of workspaces or generating a permissions report for a workspace.
 
 [Read the following article to help you get started with Syskit Point API](syskit-point-api.md).
 

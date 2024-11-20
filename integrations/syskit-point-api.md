@@ -109,6 +109,10 @@ Required permission: **Point.Provisioning**
 
 <table><thead><tr><th width="357">Request</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:green;"><code>POST</code></mark> /v1.0/provision/teams</td><td>Provision Microsoft Teams based on a provisioning template.</td></tr><tr><td><mark style="color:green;"><code>POST</code></mark> /v1.0/provision/groups</td><td>Provision Microsoft 365 Groups based on a provisioning template.</td></tr><tr><td><mark style="color:green;"><code>POST</code></mark> /v1.0/provision/sites</td><td>Provision SharePoint sites based on a provisioning template.</td></tr><tr><td><mark style="color:green;"><code>POST</code></mark> /v1.0/provision/sites</td><td>Provision Yammer Communities based on a provisioning template.</td></tr><tr><td><mark style="color:blue;"><code>GET</code></mark> /v1.0/provision/templates</td><td>Get all provisioning templates in Syskit Point.</td></tr><tr><td><mark style="color:blue;"><code>GET</code></mark> /v1.0/provision/requests/{requestId}</td><td>Get status for a provisioning request with specified request ID.</td></tr></tbody></table>
 
+{% hint style="info" %}
+**Please note!** To automatically approve provisioning requests created via API requests, use provisioning templates with the Approval Process property set to 'Automatically Approve'.
+{% endhint %}
+
 ### Options
 
 Required permission: **Point.Admin**
