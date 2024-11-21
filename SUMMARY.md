@@ -149,6 +149,7 @@
   * [Customize Dashboard](configuration/customize-dashboard.md)
   * [Customize Syskit Point Appearance](configuration/customize-appearance.md)
   * [Configure Your Environment for Storage Management](configuration/configure-point-for-storage-management.md)
+  * [Save Custom Views](configuration/custom-views.md)
   * [Audit for Syskit Point Settings](configuration/audit-log-for-settings.md)
 * [Reporting](reporting/README.md)
   * [Overview](reporting/overview.md)
