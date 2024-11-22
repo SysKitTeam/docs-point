@@ -4,11 +4,11 @@ description: This article explains how to save and export custom views for repor
 
 # Custom Views
 
-The Custom Views feature allows you to create and save customized views for your reports in Syskit Point. 
+The Custom Views feature allows you to **create and save customized views for your reports** in Syskit Point. 
 
-Tailored reports are often needed to accurately track inventory, access, activity or other important information. However, these needs often differ from business to business - what one company finds important another might see as non-essential. 
+Tailored reports are often needed to track inventory, access, activity, or other important information accurately. However, these needs often differ from business to business - what one company finds important, another might see as non-essential. 
 
-The ability to save custom views enables you to filter, sort, add, or remove columns in your report based on your specific needs, and then retain those customizations for future use. This includes exporting or scheduling reports with your customized view.
+The ability to save custom views **lets you filter, sort, add, or remove columns in your report based on your specific needs and then retain those customizations for future use**. This includes exporting or scheduling reports with your customized view.
 
 
 Custom Views can be saved on all overview screens and grid reports, which are the following:
@@ -30,21 +30,30 @@ Custom Views can be saved on all overview screens and grid reports, which are th
 
 ## Save Custom Views
 
-This example uses the Sites Oveview report to explain how to save custom views, however the same actions can be performed on any of the above listed reports.
+This example uses the Sites Overview report to explain how to save custom views. However, the same actions can be performed on any of the above-listed reports.
 
 First, you need to customize your report based on your preferences. 
 
 This means that you should:
 
-* Select the colums you want visible from the column chooser
-* Organize the columns in the order you want to view the columns 
+* **Select the columns (1)** you want visible from the column chooser
+* **Organize the columns (2)** in the order you want to view them by hovering your mouse between two columns
+* **Click the Save Custom Views (3)** button on the top right side of the report
+  * **The confirmation dialog** appears where you can **name the custom view (5)** you created and **click Save View (6)** to finalize
+  * Now, you can schedule the report or export it as the new custom view you created
+  * The next time you generate this report, it opens as the custom view you created
+* To reset the custom view you created for a report, **click the Reset Layout (4)** button 
+
+![Save Custom Views](../.gitbook/assets/custom-views-save.png)
+
+![Save Custom Views - Confirmation](../.gitbook/assets/custom-views-save-confirm.png)
 
 
 ## Custom Views Options
 
-In the table below, you can find what custom views are saved, and how it impacts the export of the report. 
+The table below shows what custom views are saved and how this impacts the export of reports. 
 
-| View Feature | UI | Direct Export - XLSX | Scheduled Export - XLSX |  Direct Export - PDF |  Scheduled Export - PDF |
+| View Feature | UI | Direct Export - XLSX | Scheduled Export - XLSX |  Direct Export - PDF |  Scheduled Export - PDF |
 | --- | --- | --- | --- | --- | --- |
 | Column visibility | Yes | Yes | Yes | Yes | Yes |
 | Column order | Yes | Yes | Yes | Yes | Yes | 
@@ -56,12 +65,6 @@ In the table below, you can find what custom views are saved, and how it impacts
 | Date period, any other filter operations | Yes | Yes | Yes | Yes | Yes | 
 
 
-
-{% hint style="info" %}
-Please note, info here if there is any. [Any links needed here](customize-emails.md) for details on how to do things go here.
-{% endhint %}
-
-![Syskit Point - Appearance - New Banner](../.gitbook/assets/customize-appearance-new-banne-r.png)
 
 
 
