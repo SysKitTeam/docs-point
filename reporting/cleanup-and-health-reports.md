@@ -14,6 +14,11 @@ In this article, you can locate information on:
 
 Use Orphaned Users and Orphaned Workspaces reports to **detect and manage orphaned users and workspaces**.
 
+{% hint style="information" %}
+**Please note!**  
+You can save custom views for your reports based on your needs and preferences. [For more details on this, take a look at the Save Custom Views article.](../configuration/custom-views.md)
+{% endhint %}
+
 ## Orphaned Users
 
 The Orphaned Users report displays all orphaned users in your tenant environment. 

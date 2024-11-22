@@ -10,7 +10,7 @@ The Sites dashboard provides **a list of all SharePoint sites in your Microsoft 
 
 The Sites report can be accessed by **clicking Sites** on the Home page. 
 
-This will open the Sites report, which can be viewed and filtered in multiple ways. 
+This opens the Sites report, which can be viewed and filtered in multiple ways. 
 
 In the top left corner, **All Sites** is automatically selected in the filter. Clicking the **View filter** will provide the following additional options: 
   * All Sites
@@ -67,6 +67,11 @@ There are additional columns available in the **column chooser**, located in the
  * Project Category
  * Project Manager
  * Project Start Date
+
+{% hint style="information" %}
+**Please note!**  
+You can save custom views for your reports based on your needs and preferences. [For more details on this, take a look at the Save Custom Views article.](../configuration/custom-views.md)
+{% endhint %}
 
 ## Report Actions
 
