@@ -12,17 +12,9 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Already using Syskit Point Cloud?** Syskit Point Cloud is automatically upgraded to the latest version when available. The automatic update occurs outside working hours to ensure minimal interference with your day-to-day business. The new version will start rolling out with this announcement and is expected to reach all customers in the upcoming days.
 
-## New Features
-
-* **Save Custom Views feature now available!**
-  * Custom View can be saved for Overview screens and specific reports.
-  * This feature **lets you filter, sort, add, or remove columns** in your report based on your specific needs **and retain those customizations for future use**.
-  * [For more details on how to Save Custom Views and a list of where custom views can be saved, take a look at this article.](../../governance-and-automation/automated-workflows/inactive-workspaces-admin.md)
-
- 
 ## Improvements & Bug Fixes
 
-* **Fixed an issue** that caused a time-out when clicking the View All Actions button and loading the Actions Report.
+* **Fixed an issue** that caused a timeout when clicking the View All Actions button and loading the Actions Report.
   * New views were added to the report with the default time set as 7 days.  
 
 * **Fixed issues with Provisioning.**
