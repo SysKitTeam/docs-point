@@ -41,6 +41,7 @@ The objects available for copying are:
 * **Tabs**
 * **Site navigation**
 * **Document Libraries and Lists**
+* **Content types**
 * **Folders**
 * **Files/Documents**
 * **Default & custom file templates**
@@ -57,6 +58,7 @@ When deciding which option to select from the three available, it helps to know 
 | Site Theme |No | No | No | Yes | Yes |
 | Site Navigation| No | No | No | Yes | Yes |
 | Document Libraries & Lists | No | No | No | Yes | Yes |
+| Content Types | No | No | No | Yes | Yes |
 | Folders | No | No | No | Yes | Yes |
 | File templates | No | No | No | Yes | Yes |
 | Files/Documents | No | No | No | No | Yes |
