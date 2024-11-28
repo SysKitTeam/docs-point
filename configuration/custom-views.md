@@ -1,5 +1,5 @@
 ---
-description: This article explains how to save and export custom views for reports in Syskit Point.
+description: This article explains how to save and export reports with custom views applied in Syskit Point.
 ---
 
 # Custom Views
@@ -30,40 +30,57 @@ Custom Views can be saved on all overview screens and grid reports, which are th
 
 ## Save Custom Views
 
-This example uses the Sites Overview report to explain how to save custom views. However, the same actions can be performed on any of the above-listed reports.
+This example uses the Sites Overview report to explain how to save custom views. However, the same actions can be performed on the above-listed reports.
 
 First, you need to customize your report based on your preferences. 
 
 This means that you should:
 
 * **Select the columns (1)** you want visible from the column chooser
-* **Organize the columns (2)** in the order you want to view them by hovering your mouse between two columns
-* **Click the Save Custom Views (3)** button on the top right side of the report
-  * **The confirmation dialog** appears where you can **name the custom view (5)** you created and **click Save View (6)** to finalize
-  * Now, you can schedule the report or export it as the new custom view you created
-  * The next time you generate this report, it opens as the custom view you created
-* To reset the custom view you created for a report, **click the Reset Layout (4)** button 
+* **Modify visible columns**, their order, sorting, and other filters based on your preference
+  * [Click here to see the table of report customization saved in custom views](#custom-views-options)
+* **Click the Save Custom Views (2)** button on the top right side of the report
+  * **The confirmation dialog** appears where you can **name the custom view (3)** you created and **click Save View (4)** to finalize
+  * Now, you can schedule or export the report with the custom view(s) you created
+  * the next time you generate the report, you can select the custom view(s) you created
+* Once your custom views are created, you can **select them from the View filter (5)** in the top left of the report
+  * You can find your views there every time you access the report they were created for
+  * The top views you see in the filter are the default views for the report, and below the separator line, you can find your custom views 
+
 
 ![Save Custom Views](../.gitbook/assets/custom-views-save.png)
 
 ![Save Custom Views - Confirmation](../.gitbook/assets/custom-views-save-confirm.png)
 
+![Save Custom Views - Filter](../.gitbook/assets/custom-views-save-filter.png)
+
+
+When you are ready, you can choose to schedule your report or export it as:
+* A **PDF (1)** file
+* An **Excel (2)** file
+
+This exports the report filtered by the custom view you selected.
+
+Clicking the **arrow symbol (3)** next to either of the two options provides the ability to **Export All (4)**. 
+* The Export All button exports all the information that is included in the report view by default
+
+![Save Custom Views - Filter](../.gitbook/assets/custom-views-save-export.png)
+
 
 ## Custom Views Options
 
-The table below shows what custom views are saved and how this impacts the export of reports. 
+The table below shows report customizations saved when creating custom views and how this impacts report export.
 
-| View Feature | UI | Direct Export - XLSX | Scheduled Export - XLSX |  Direct Export - PDF |  Scheduled Export - PDF |
+| View Feature | Point UI | Direct Export - XLSX | Scheduled Export - XLSX |  Direct Export - PDF |  Scheduled Export - PDF |
 | --- | --- | --- | --- | --- | --- |
-| Column visibility | Yes | Yes | Yes | Yes | Yes |
-| Column order | Yes | Yes | Yes | Yes | Yes | 
+| Column visibility | Yes | No | No | No | No |
+| Column order | Yes | No | No | No | No | 
 | Column sort | Yes | Yes | Yes | Yes | Yes | 
 | Column search cell (searchbox in column) | Yes | Yes | Yes | Yes | Yes |
-| Global Search (searchbox top right in grid) | No | No | No | No | No |
-| Column group | Yes | Adjusted | Adjusted | Adjusted | Adjusted | 
+| Global Search (searchbox top right in grid) | Yes | Yes | Yes | Yes | Yes |
+| Column group | Yes | No | No | No | No | 
 | Filter tiles | Yes | Yes | Yes | Yes | Yes | 
 | Date period, any other filter operations | Yes | Yes | Yes | Yes | Yes | 
-
 
 
 
