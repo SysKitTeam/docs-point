@@ -76,6 +76,7 @@ The table below shows report customizations saved when creating custom views and
 | Column visibility | Yes | No | No | No | No |
 | Column order | Yes | No | No | No | No | 
 | Column sort | Yes | Yes | Yes | Yes | Yes | 
+| Column filters | Yes | Yes | Yes | Yes | Yes | 
 | Column search cell (searchbox in column) | Yes | Yes | Yes | Yes | Yes |
 | Global Search (searchbox top right in grid) | Yes | Yes | Yes | Yes | Yes |
 | Column group | Yes | No | No | No | No | 
