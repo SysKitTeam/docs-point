@@ -1,5 +1,5 @@
 * [Syskit Point](README.md)
-* [Setup](README.md)
+* [Setup](setup/README.md)
   * [Requirements & Licensing](setup/requirements-and-licensing/README.md)
      * [Requirements](setup/requirements-and-licensing/README.md)
        * [Permission Requirements](requirements-and-licensing/permission-requirements.md)
