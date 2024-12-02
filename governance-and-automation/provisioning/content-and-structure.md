@@ -79,6 +79,8 @@ The following is **NOT copied or supported**:
 * **Subsites** 
 * **Plans**
 * **Unpublished pages**
+* **Header**
+* **Footer**
 * **Folder color**
 * **OneNote**
 {% endhint %}
