@@ -14,18 +14,18 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## New Features
 
-* **Save Custom Views feature now available!**
-  * Custom View can be saved for Overview screens and specific reports.
+* **Custom Views are now available!**
   * This feature **lets you filter, sort, add, or remove columns** in your report based on your specific needs **and retain those customizations for future use**.
+  * Custom Views can be saved for Overview screens and other grid reports.
   * [For more details on how to Save Custom Views and a list of where custom views can be saved, take a look at this article.](../../governance-and-automation/automated-workflows/inactive-workspaces-admin.md)
 
 ## Improvements & Bug Fixes
 
 * **Fixed a bug** that caused Microsoft Teams and Microsoft Groups to retain an Alive state, even after it was deleted while completing a Lifecycle Management or Inactive Workspaces tasks. 
 
-* **Fixed an issue** that caused the following error during storage sync: `AMR API reported a fatal error. SiteId: 415944, ListIds: 62620d25-c6be-4f12-9d23-2f9b8f791ec4,b8644cc4-aeed-41e3-8060-7ae77e6bad5c,c29e2a2e-b1a8-4733-ac46-85f4d06135c6,2c87cab7-5142-4a66-a596-96dd9814ab2c,c5abcf3b-23e6-4ae2-8668-c25d36f4ec21,`
+* **Fixed an issue** that caused the following error during storage sync: `AMR API reported a fatal error. SiteId: <SiteID>, ListIds: <ListID>`
 
-* **Fixed an issue** that caused timeouts for the Ensure Special Groups jobs. 
+* **Fixed an issue** that caused timeouts for the background job handling special groups - Everyone, Everyone except external users, etc. 
 
 * **Fixed an issue** with the Update Privacy action that caused the action to fail when performed in bulk. 
 
@@ -33,8 +33,9 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Extension Attributes** can now be added to relevant reports by checking the Settings > General > Extension Attributes box.
   * Selecting the checkbox adds extension attributes from Entra ID to relevant reports. 
+    * Extension Attributes columns are available on the **Users with Privileged Access report**, with additional reports to be added in upcoming Point versions.
 
 * **Improved the functionality** when completing Inactive Workspace tasks.
-  * Workspaces with a completed review within an active task are now grayed out and placed at the bottom of the task with Completed stated where the button had previously been. 
+  * Workspaces with a completed review within an active task are now grayed out and placed at the bottom of the task with the Completed state displayed where the button had previously been. 
 
 * **Various improvements, including UX and UI fixes, are available**.
