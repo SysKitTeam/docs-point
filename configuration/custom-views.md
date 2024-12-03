@@ -41,11 +41,11 @@ This means that you should:
   * [Click here to see the table of report customization saved in custom views](#custom-views-options)
 * **Click the Save Custom Views (2)** button on the top right side of the report
   * **The confirmation dialog** appears where you can **name the custom view (3)** you created and **click Save View (4)** to finalize
-  * Now, you can schedule or export the report with the custom view(s) you created
-  * the next time you generate the report, you can select the custom view(s) you created
+  * Now, you can schedule or export the report with the custom view you created
+  * the next time you generate the report, you can select the custom view you created
 * Once your custom views are created, you can **select them from the View filter (5)** in the top left of the report
   * You can find your views there every time you access the report they were created for
-  * The top views you see in the filter are the default views for the report, and below the separator line, you can find your custom views 
+  * The top views you see in the filter are the predefined views for the report, and below the separator line, you can find your saved custom views 
 
 
 ![Save Custom Views](../.gitbook/assets/custom-views-save.png)
