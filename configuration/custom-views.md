@@ -58,6 +58,7 @@ This means that you should:
 When you are ready, you can choose to schedule your report or export it as:
 * A **PDF (1)** file
 * An **Excel (2)** file
+
 **This exports the rows you see in your filtered report**. 
   * For example, when you select a custom view and then additionally filter the report, use Excel or PDF export actions to generate a file containing the final result of your filtering. 
 
