@@ -14,10 +14,15 @@ You'll find information such as:
 * Who was given **permission** to access a Site, Team or Group and what **level of access** they have
 * And other important information
 
-
 These inventory reports can all be accessed through the **home page**:
 
 * [Explore Your Microsoft 365 Dashboard](explore-your-microsoft-365-dashboard.md)
 * [Sites Report](sites.md)
 * [Microsoft Teams & Groups Report](microsoft-teams-and-groups.md)
 * [Users Report](users.md)
+* [Copilot Readiness](copilot-readiness.md)
+
+{% hint style="information" %}
+**Please note!**  
+You can save custom views for your reports based on your needs and preferences. [For more details on this, take a look at the Save Custom Views article.](../configuration/custom-views.md)
+{% endhint %}
