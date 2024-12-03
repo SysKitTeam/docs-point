@@ -1,12 +1,12 @@
 ---
-description: This article explains how to save and export reports with custom views applied in Syskit Point.
+description: This article explains how to save and export reports with applied custom views in Syskit Point.
 ---
 
 # Custom Views
 
 The Custom Views feature allows you to **create and save customized views for your reports** in Syskit Point. 
 
-Tailored reports are often needed to track inventory, access, activity, or other important information accurately. However, these needs often differ from business to business - what one company finds important, another might see as non-essential. 
+Tailored reports are often needed to track inventory, access, activity, or other important information accurately. However, these needs usually differ from business to business - what one company finds important, another might see as non-essential. 
 
 The ability to save custom views **lets you filter, sort, add, or remove columns in your report based on your specific needs and then retain those customizations for future use**. This includes exporting or scheduling reports with your customized view.
 
@@ -58,11 +58,12 @@ This means that you should:
 When you are ready, you can choose to schedule your report or export it as:
 * A **PDF (1)** file
 * An **Excel (2)** file
+**This exports the rows you see in your filtered report**. 
+  * For example, when you select a custom view and then additionally filter the report, use Excel or PDF export actions to generate a file containing the final result of your filtering. 
 
-This exports the report filtered by the custom view you selected.
-
-Clicking the **arrow symbol (3)** next to either of the two options provides the ability to **Export All (4)**. 
-* The Export All button exports all the information that is included in the report view by default
+Clicking the **arrow symbol (3)** next to either of the two export options enables you to run the **Export All (4)** action. 
+* **The Export All action generates a file containing all the information that is included in the selected report view.**
+  * For example, when you select a custom view and then additionally filter the report but you still want to export rows as filtered in the selected view without additional filters applied, use the Export All action. 
 
 ![Save Custom Views - Filter](../.gitbook/assets/custom-views-save-export.png)
 
