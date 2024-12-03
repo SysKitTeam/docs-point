@@ -59,6 +59,11 @@ Additional columns are available in the **column chooser**, located in the top r
  * OneDrive Client Synced
  * External User Type
 
+{% hint style="information" %}
+**Please note!**  
+You can save custom views for your reports based on your needs and preferences. [For more details on this, take a look at the Save Custom Views article.](../configuration/custom-views.md)
+{% endhint %}
+
 ## Report Actions
 
 The Users report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.

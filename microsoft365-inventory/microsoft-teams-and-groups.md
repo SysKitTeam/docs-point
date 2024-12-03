@@ -72,6 +72,11 @@ There are additional columns available in the **column chooser**, located in the
  * Department
  * Additional Custom Metadata Columns if configured
 
+{% hint style="information" %}
+**Please note!**  
+You can save custom views for your reports based on your needs and preferences. [For more details on this, take a look at the Save Custom Views article.](../configuration/custom-views.md)
+{% endhint %}
+
 ## Report Actions
 
 The Microsoft Teams & Groups report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.

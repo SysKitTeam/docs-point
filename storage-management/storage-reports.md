@@ -12,6 +12,11 @@ In this article, you can locate information on:
 
 Use the Storage Metrics report to view your **tenant-wide storage consumption** and **determine if you're at risk of running out of storage**, the Site Storage Metrics report to gain **insight into the storage used by a particular site** and identify any potentially unusual spikes, and the File Storage Details report to view all of the versions of your selected file with the most important information about each version.
 
+{% hint style="information" %}
+**Please note!**  
+You can save custom views for your reports based on your needs and preferences. [For more details on this, take a look at the Save Custom Views article.](../configuration/custom-views.md)
+{% endhint %}
+
 ## Storage Metrics
 
 The Storage Metrics report displays your tenant-wide storage consumption over time. &#x20;
