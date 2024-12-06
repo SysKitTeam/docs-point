@@ -12,6 +12,11 @@ Click the **Manage Policies button (1)** to apply the policy.
 
 ![Manage Policies screen](../../.gitbook/assets/apply-access-request-manage-policies.png)
 
+{% hint style="information" %}
+The Access Request policy is not automatically applied to workspaces, distribution lists, or security groups. You can either manually apply the policy to workspaces or set up [Rules](../automated-workflows/policy-automation.md) to apply your policies automatically. 
+{% endhint %}
+
+
 ## Applying the Policy to Workspaces
 
 Select one or more workspaces that the Access Requests policy should be applied to by **clicking the checkbox (1)** on the left side of the screen.
