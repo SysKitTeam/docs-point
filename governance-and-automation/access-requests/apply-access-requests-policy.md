@@ -16,12 +16,6 @@ Click the **Manage Policies button (1)** to apply the policy.
 The Access Request policy is not automatically applied to workspaces, distribution lists, or security groups. You can either manually apply the policy to workspaces or set up [Rules](../automated-workflows/policy-automation.md) to apply your policies automatically. 
 {% endhint %}
 
-customer je shvatio da će policy biti automatski dodan na sve distribution liste i sec grupe
-nasi docsi objasnjavaju kako applyati policy kroz settings, i manually apply, a tamo nema dist lista i sec grupa
-treba malo razjasniti taj dio
-
-TODO:
-dodati please note da se access request policy ne applya automatski out of the box
 
 ## Applying the Policy to Workspaces
 
