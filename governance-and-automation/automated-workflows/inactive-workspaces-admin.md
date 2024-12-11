@@ -22,8 +22,8 @@ The **Edit Policy** dialog opens where you can:
 * **Select the time period (3)** after which the workspaces are marked as inactive
 * **Select the time period (4)** for how long a workspace can be **Kept**
 * **Choose the type of archival (5)**: 
-  * In-Place Archival (Read-Only) - choosing this archives the site through Syskit Point, and places it into a read-only state
-    * If a read-only site is restored you are not additionally charged. 
+  * In-Place Archival (Read-Only) - choosing this archives the site through Syskit Point and places it into a read-only state
+    * If a read-only site is restored, you will not be charged. 
   * Microsoft 365 Archive (Cold storage) - choosing this archives the site through Microsoft 365 Archive and places it into a storage tier for archived sites
     * If a cold storage site is restored, you are charged at a per-GB rate by Microsoft 365 
   * For more details about this, [take a look at the SharePoint Site Archive Options article](#sharepoint-site-archival-options).
@@ -65,18 +65,17 @@ The **Edit Policy** dialog opens where you can:
 For details on how collaborators can [**resolve Inactive Workspaces tasks**, navigate to the following article](../../point-collaborators/resolve-governance-tasks/inactive-workspaces.md).
 
 
-
 ## SharePoint Site Archival Options
 
 With the introduction of the Microsoft 365 Archive option, there are some key differences you should keep in mind when choosing how to archive a workspace.
 
-Here's a few things you should keep in mind when it comes to the archive feature both in Microsoft 365 and Syskit Point:
+Here are a few things you should keep in mind when it comes to the archive feature both in Microsoft 365 and Syskit Point:
 
 * **Microsoft 365 Archive** allows site-level archiving of SharePoint sites. When a site is archived, it is moved into a storage tier designated for archived sites, pausing active user access but retaining compliance settings.
 
 * **Microsoft 365 Archive** [charges site reactivation at a per-GB rate](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-pricing?view=o365-worldwide).
 
-* When **Syskit Point archives workspaces**, the workspace is put into a **read-only state**, access to the workspace is removed for members and/or owners, permission inheritance is restored on all objects, all memberships on the workspace are removed in Microsoft 365 but saved in the Syskit Point database to support the restore action. 
+* When **Syskit Point archives workspaces**, the workspace is put into a **read-only state**, access to the workspace is removed for members and/or owners, permission inheritance is restored on all objects, and all memberships on the workspace are removed in Microsoft 365 but saved in the Syskit Point database to support the restore action. 
 
 * **Restoring a read-only workspace** that was archived through Syskit Point **does not create any additional costs**. 
 
