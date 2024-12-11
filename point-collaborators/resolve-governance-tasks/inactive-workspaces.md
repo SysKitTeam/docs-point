@@ -199,12 +199,17 @@ After selecting the Archive option for a workspace, it opens the Archive action 
 
 {% hint style="warning" %}
 **Please note!**  
-This action can be executed only on workspaces that are not archived or deleted.
+This action can be executed only on workspaces that are not archived or deleted. 
 {% endhint %}
 
 {% hint style="info" %}
 **Hint!**  
-As described in the introduction, you can find the archived workspaces by switching to the Archived view on the overview screens.
+As described in the introduction, you can find the archived workspaces by switching to the **Archived view on the overview screens**.
+
+The Archive Status column shows whether a workspace was archived through Syskit Point or through Microsoft 365. **If a workspace is archived through Microsoft 365, it cannot be restored through Syskit Point**. 
+
+[To learn more about Microsoft 365 Archive, take a look at their article.](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-overview?view=o365-worldwide)
+
 {% endhint %}
 
 ### Delete
@@ -251,10 +256,17 @@ The **Restore action** can be executed on archived and deleted workspaces.
 
 When running the Restore action, a confirmation dialog appears. To execute the action, click the **Restore button**.
 
+{% hint style="warning" %}
+
+When a **SharePoint site is archived with Microsoft 365 Archive, it cannot be restored through Syskit Point**. Only workspaces archived through Syskit Point can be restored in Syskit Point. [To learn more about Microsoft 365 Archive, take a look at their article.](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-overview?view=o365-worldwide).
+
+{% endhint %}
+
 {% hint style="info" %}
 **Hint!**  
 There is no time limit for **performing the Restore action on the Archived workspace**. 
 {% endhint %}
+
 
 ![Restoring a deleted workspace](../../.gitbook/assets/lifecycle-management-actions-restore-dialog.png)
 

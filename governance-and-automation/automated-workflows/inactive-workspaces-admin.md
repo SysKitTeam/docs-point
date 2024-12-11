@@ -58,6 +58,19 @@ The **Edit Policy** dialog opens where you can:
 
 For details on how collaborators can [**resolve Inactive Workspaces tasks**, navigate to the following article](../../point-collaborators/resolve-governance-tasks/inactive-workspaces.md).
 
+{% hint style="information" %}
+If a **SharePoint site has been archived through the Microsoft 365 Archive** option, it is **not flagged** as an Inactive Workspace. 
+
+When a **SharePoint site is archived with Microsoft 365 Archive, it cannot be restored through Syskit Point**. Only workspaces archived through Syskit Point can be restored in Syskit Point. 
+
+Here's how the Archive action works for Microsoft 365 and Syskit Point:
+
+* **Microsoft 365 Archive** allows site-level archiving of SharePoint sites. When a site is archived, it is moved into a storage tier designated for archived sites, pausing active user access but retaining compliance settings.
+* When **Syskit Point archives workspaces**, access to the workspace is removed for members and/or owners, permission inheritance is restored on all objects, all memberships on the workspace are removed in Microsoft 365 but saved in the Syskit Point database to support the restore action. 
+
+[To learn more about Microsoft 365 Archive and how to utilize it, take a look at their article.](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-overview?view=o365-worldwide).
+{% endhint %}
+
 ## Detection for Inactive Workspaces
 
 To decide whether something is inactive in your Microsoft 365 environment, we collect activity data for **SharePoint, Exchange, Yammer, and Microsoft Teams**. If any type of activity is detected, the workspace will not be declared inactive. The amount of time that needs to pass for a workspace to be considered inactive is determined by administrators when creating or editing the Inactive Workspaces policy. 
