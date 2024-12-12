@@ -26,7 +26,7 @@ The **Edit Policy** dialog opens where you can:
     * If a read-only site is restored, you will not be charged. 
   * Microsoft 365 Archive (Cold storage) - choosing this archives the site through Microsoft 365 Archive and places it into a storage tier for archived sites
     * If a cold storage site is restored, you are charged at a per-GB rate by Microsoft 365 
-  * For more details about this, [take a look at the SharePoint Site Archive Options article](#sharepoint-site-archival-options).
+  * For more details about this, [take a look at the SharePoint Site Archive Options section of this article.](#sharepoint-site-archival-options).
 * **Enable Set Naming Rule (6)** by clicking the toggle next to it
     * This lets you **apply the naming rule to your workspaces** to let you know they are archived
     * You can select to:
