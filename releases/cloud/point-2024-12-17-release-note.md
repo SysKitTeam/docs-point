@@ -23,13 +23,10 @@ description: This article lists improvements and bug fixes in the Syskit Point C
   * Now, the change is immediately applied, and after refreshing the workspace, the added users can be found in the members list.
 
 * **Extension Attributes** were added to the Users Overview report.
-  * Additional properties (extension attributes) tied to users in Azure AD are now stored and can be seen on the Users Overview report. 
 
 * **When creating a Provisioning Template**, you can now select Inactive Workspaces from the list of available policies.
 
 * **Fixed a bug** that made the Request Review action visible for Collaborators on the Access Reviews report. 
-
-
 
 * **Fixed an issue** where editing Provisioning templates resulted in the site picker loading indefinitely when copying content or structure from an archived or deleted workspace. 
   * Error messages have also been improved to better handle and explain such scenarios. 
