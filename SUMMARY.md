@@ -168,6 +168,7 @@
   * [Licenses Reports](reporting/licenses-reports.md)
   * [Analytics Reports](reporting/analytics-reports.md)
   * [Sensitivity Labels Reports](reporting/sensitivity-labels.md)
+  * [Power Platform Reports](reporting/power-bi-reports.md)
   * [Power BI Reports](reporting/power-bi-reports.md)
 * [Storage Management](storage-management/README.md)
   * [Storage Management Overview](storage-management/storage-management-overview.md)
