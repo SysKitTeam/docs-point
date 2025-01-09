@@ -22,11 +22,9 @@ The **Edit Policy** dialog opens where you can:
 * **Select the time period (3)** after which the workspaces are marked as inactive
 * **Select the time period (4)** for how long a workspace can be **Kept**
 * **Choose the type of archival (5)**: 
-  * In-Place Archival (Read-Only) - choosing this archives the site through Syskit Point and places it into a read-only state
-    * If a read-only site is restored, you will not be charged. 
+  * In-Place Archival (Read-Only) - choosing this archives the site through Syskit Point and places it into a read-only state 
   * Microsoft 365 Archive (Cold storage) - choosing this archives the site through Microsoft 365 Archive and places it into a storage tier for archived sites
     * If a cold storage site is restored, you are charged at a per-GB rate by Microsoft 365 
-  * For more details about this, [take a look at the SharePoint Site Archive Options section of this article.](#sharepoint-site-archival-options).
 * **Enable Set Naming Rule (6)** by clicking the toggle next to it
     * This lets you **apply the naming rule to your workspaces** to let you know they are archived
     * You can select to:
