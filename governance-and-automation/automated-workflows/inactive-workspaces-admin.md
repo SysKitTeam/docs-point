@@ -81,7 +81,7 @@ Here are a few things you should keep in mind when it comes to the archive featu
 
 * If an **Inactive Workspaces task was created and the site was then archived** through Microsoft 365 Archive, the **task is automatically resolved**. 
 
-[To learn more about Microsoft 365 Archive and how to utilize it, take a look at their article.](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-overview?view=o365-worldwide).
+[To learn more about Microsoft 365 Archive and how to utilize it, take a look at their article](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-overview?view=o365-worldwide).
 {% endhint %}
 
 
