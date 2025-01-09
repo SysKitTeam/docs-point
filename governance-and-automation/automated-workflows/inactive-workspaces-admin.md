@@ -24,7 +24,10 @@ The **Edit Policy** dialog opens where you can:
 * **Choose the type of archival (5)**: 
   * In-Place Archival (Read-Only) - choosing this archives the site through Syskit Point and places it into a read-only state 
   * Microsoft 365 Archive (Cold storage) - choosing this archives the site through Microsoft 365 Archive and places it into a storage tier for archived sites
-    * If a cold storage site is restored, you are charged at a per-GB rate by Microsoft 365 
+    * During the free restoration period, both collaborators and admins can restore a Microsoft 365 archived site
+    * If a cold storage site is restored after the free period expires, the restoration can only be completed by the admins and you are charged at a per-GB rate by Microsoft 365
+    * [This option is only available if Microsoft 365 Archive is set up for your tenant.](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-overview?view=o365-worldwide).
+
 * **Enable Set Naming Rule (6)** by clicking the toggle next to it
     * This lets you **apply the naming rule to your workspaces** to let you know they are archived
     * You can select to:
@@ -73,9 +76,7 @@ Here are a few things you should keep in mind when it comes to the archive featu
 
 * **Microsoft 365 Archive** [charges site reactivation at a per-GB rate](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-pricing?view=o365-worldwide).
 
-* When **Syskit Point archives workspaces**, the workspace is put into a **read-only state**, access to the workspace is removed for members and/or owners, permission inheritance is restored on all objects, and all memberships on the workspace are removed in Microsoft 365 but saved in the Syskit Point database to support the restore action. 
-
-* **Restoring a read-only workspace** that was archived through Syskit Point **does not create any additional costs**. 
+* When **a workspace is archived through the In-place method**, the workspace is put into a **read-only state**, access to the workspace is removed for members and/or owners, permission inheritance is restored on all objects, and all memberships on the workspace are removed in Microsoft 365 but saved in the Syskit Point database to support the restore action. 
 
 * If a **SharePoint site has already been archived through the Microsoft 365 Archive** option, it is **not flagged** as an Inactive Workspace. 
 

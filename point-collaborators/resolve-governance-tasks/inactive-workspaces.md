@@ -178,7 +178,8 @@ The Keep action can be executed for inactive workspaces only!
 The **Archive action** has additional options available that are set up according to the administrator’s preference. More information on that can be found in the [Inactive Workspaces policy article](../../governance-and-automation/automated-workflows/inactive-workspaces-admin.md).
 
 Archiving a workspace within Syskit Point results in the following:
-* **The workspace goes into a read-only state**
+* **If the In-place Archival method is selected**, the workspace goes into a **read-only state**
+* **If the Microsoft 365 Archive option is selected**, the workspace is placed into the **cold storage archive** of Microsoft 365
 * **If the Remove Access option was enabled and depending on the parameters set by the admin, access to the workspace is removed for**:
   * **Members**; all members are removed when a workspace is archived
    * **Owners**; all owners are removed when a workspace is archived; when this option is set up, **at least 1 owner will still exist for all workspaces** as set by the admin.
@@ -195,7 +196,7 @@ After selecting the Archive option for a workspace, it opens the Archive action 
 * **Confirm the action by typing ARCHIVE (2)**
 * **Execute the action by clicking the Archive button (3)**
 
-![Archive action dialog](../../.gitbook/assets/lifecycle-management-actions-archive-dialog.png)
+![Archive action dialog](../../.gitbook/assets/inactive-workspaces-actions-archive-dialog.png)
 
 {% hint style="warning" %}
 **Please note!**  
@@ -206,7 +207,7 @@ This action can be executed only on workspaces that are not archived or deleted.
 **Hint!**  
 As described in the introduction, you can find the archived workspaces by switching to the **Archived view on the overview screens**.
 
-The Archive Status column shows whether a workspace was archived through Syskit Point or through Microsoft 365. **If a workspace is archived through Microsoft 365, it cannot be restored through Syskit Point**. 
+The Archive Status column shows what method was used to archive a workspace. The In-place archival method can be completed only through Syskit Point. The Microsoft 365 Archive can be completed through both Syskit Point and Microsoft 365. **You can restore the workspace through Syskit Point regardless of which method was used to archive it**. 
 
 [To learn more about Microsoft 365 Archive, take a look at their article.](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-overview?view=o365-worldwide)
 
@@ -256,11 +257,8 @@ The **Restore action** can be executed on archived and deleted workspaces.
 
 When running the Restore action, a confirmation dialog appears. To execute the action, click the **Restore button**.
 
-{% hint style="warning" %}
+[To learn more about Microsoft 365 Archive, take a look at their article.](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-overview?view=o365-worldwide).
 
-When a **SharePoint site is archived with Microsoft 365 Archive, it cannot be restored through Syskit Point**. Only workspaces archived through Syskit Point can be restored in Syskit Point. [To learn more about Microsoft 365 Archive, take a look at their article.](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-overview?view=o365-worldwide).
-
-{% endhint %}
 
 {% hint style="info" %}
 **Hint!**  
