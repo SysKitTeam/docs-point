@@ -109,3 +109,8 @@ When using the Inactive Workspaces policy in Syskit Point, keep the following in
 **Please note!**  
 Activity is being monitored from the Syskit Point deployment onward! This applies to SharePoint and Exchange workloads since historical data for these workloads is unavailable in usage reports.
 {% endhint %}
+
+## Relevant Articles
+
+* [**Security and Compliance Checks: Inactive Workspaces**](../security-compliance-checks/inactive-workspaces.md)
+* [**Resolve Inactive Workspace Tasks**](../../point-collaborators/resolve-governance-tasks/inactive-workspaces.md)

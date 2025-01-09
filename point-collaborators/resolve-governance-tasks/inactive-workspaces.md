@@ -272,3 +272,7 @@ There is no time limit for **performing the Restore action on the Archived works
 
 ![Restoring an archived workspace](../../.gitbook/assets/lifecycle-management-actions-restore-archived-dialog.png)
 
+## Relevant Articles
+
+* [**Inactive Workspaces Policy**](../../governance-and-automation/automated-workflows/inactive-workspaces-admin.md)
+* [**Security & Compliance Checks: Inactive Workspaces**](../../governance-and-automation/security-compliance-checks/inactive-workspaces.md)

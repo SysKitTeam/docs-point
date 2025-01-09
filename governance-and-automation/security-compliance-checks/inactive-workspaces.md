@@ -40,3 +40,8 @@ The following actions can be performed on the report:
 By **selecting all or more than one workspace**, you can perform the actions above in bulk. 
 
 ![Inactive Workspaces Check](../../.gitbook/assets/security-compliance-checks-inactive-workspaces.png)
+
+## Relevant Articles
+
+* [**Inactive Workspaces Policy**](../automated-workflows/inactive-workspaces-admin.md)
+* [**Resolve Inactive Workspace Tasks**](../../point-collaborators/resolve-governance-tasks/inactive-workspaces.md)
