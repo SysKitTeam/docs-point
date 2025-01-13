@@ -39,13 +39,14 @@ The objects available for copying are:
 * **Channels & channel folders**
 * **Apps**
 * **Tabs**
+* **Site theme**
 * **Site navigation**
+* **Site logo**
 * **Document Libraries and Lists**
 * **Content types**
 * **Folders**
-* **Files/Documents**
 * **Default & custom file templates**
-
+* **Files/Documents**
 
 When deciding which option to select from the three available, it helps to know which option copies which objects. Here's what each option copies: 
 
@@ -57,6 +58,7 @@ When deciding which option to select from the three available, it helps to know 
 | Tabs | No | Yes | Yes | Yes | Yes |
 | Site Theme |No | No | No | Yes | Yes |
 | Site Navigation| No | No | No | Yes | Yes |
+| Site Logo | No | No | No | Yes | Yes |
 | Document Libraries & Lists | No | No | No | Yes | Yes |
 | Content Types | No | No | No | Yes | Yes |
 | Folders | No | No | No | Yes | Yes |
