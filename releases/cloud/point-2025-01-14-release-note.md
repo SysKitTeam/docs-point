@@ -1,5 +1,5 @@
 ---
-description: This article lists improvements and bug fixes in the Syskit Point Cloud version 2025.1.76.1
+description: This article lists improvements and bug fixes in the Syskit Point Cloud version 2025.1.76.11
 ---
 
 # January 14, 2025
@@ -14,18 +14,18 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## New Features
 
-* **New Archive methods available!**
-  * With the introduction of Microsoft 365 Archive, Syskit Point now provides an additional option for archiving workspaces:
-    * **In-place archival** - the standard Syskit Point method that archives the site and places it into a read-only state.
-    * **Microsoft 365 Archive** - archives the site through Microsoft 365 and moves it into a cold storage tier for archived sites. 
-  * [More details on archiving are available in the Resolve Inactive Workspaces Tasks article.](../../point-collaborators/resolve-governance-tasks/inactive-workspaces.md)
-  * [For information on the Inactive Workspaces policy, take a look at this article.](../../governance-and-automation/automated-workflows/inactive-workspaces-admin.md)
+* **New Archive method available!**
+  * With the introduction of Microsoft 365 Archive, Syskit Point now provides an additional option for archiving workspaces:
+    * **Microsoft 365 Archive** - archives the site through Microsoft 365 and moves it into a cold storage tier for archived sites. 
+    * The standard Syskit Point archiving method has been renamed into **In-place Archive** - this method places the workspace into a read-only state.
+  * [More details on archiving are available in the Resolve Inactive Workspaces Tasks article.](../../point-collaborators/resolve-governance-tasks/inactive-workspaces.md)
+  * [For information on the Inactive Workspaces policy, take a look at this article.](../../governance-and-automation/automated-workflows/inactive-workspaces-admin.md)
 
 
 ## Improvements & Bug Fixes
 
 * **Improvements made to the Activity column** on the Inactive Sites view on the Sites overview screen and Inactive Groups view on the Teams & Groups overview screen. 
-  * Activity is determined by the usage of SharePoint, Exchange, Teams, and Yammer within the timeframe specified in the Inactive Workspaces policy. 
+  * Activity is determined by the usage of SharePoint, Exchange, Teams, and Yammer within the timeframe specified in the Inactive Workspaces policy. 
 
 * **When copying** Structure or Structure & Content from an existing workspace using a Provisioning template, the site logo is also copied. 
 
