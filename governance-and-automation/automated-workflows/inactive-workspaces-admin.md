@@ -21,32 +21,39 @@ The **Edit Policy** dialog opens where you can:
 * **Select the severity level (2)** for the policy
 * **Select the time period (3)** after which the workspaces are marked as inactive
 * **Select the time period (4)** for how long a workspace can be **Kept**
-* **Enable Set Naming Rule (5)** by clicking the toggle next to it
+* **Choose the type of archival (5)**: 
+  * In-Place Archival (Read-Only) - choosing this archives the site through Syskit Point and places it into a read-only state 
+  * Microsoft 365 Archive (Cold storage) - choosing this archives the site through Microsoft 365 Archive and places it into a storage tier for archived sites
+    * During the free restoration period, both collaborators and admins can restore a Microsoft 365 archived site
+    * If a cold storage site is restored after the free period expires, the restoration can only be completed by the admins and you are charged at a per-GB rate by Microsoft 365
+    * [This option is only available if Microsoft 365 Archive is set up for your tenant.](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-overview?view=o365-worldwide).
+
+* **Enable Set Naming Rule (6)** by clicking the toggle next to it
     * This lets you **apply the naming rule to your workspaces** to let you know they are archived
     * You can select to:
         * Add Prefix
         * Add Suffix
-* **Enable Remove Access (6)** by clicking the toggle next to it
+* **Enable Remove Access (7)** by clicking the toggle next to it
     * Selecting this removes access for members and owners of archived workspaces   
     * You can choose to remove access for:
         * Members
         * Owners
-* **Select to hide the archived workspace's group (7)** from your organization's global address list
-* **Enable Task Delegation (8)** by clicking the toggle next to it
-    * **Select the actions that owners can perform when they receive a task (9)**:
+* **Select to hide the archived workspace's group (8)** from your organization's global address list
+* **Enable Task Delegation (9)** by clicking the toggle next to it
+    * **Select the actions that owners can perform when they receive a task (10)**:
         * **Keep**
             * This action is visible by default, and if the workspace is kept, it won't be marked as inactive for the period defined in the first step
         * **Archive**
             * If this action is selected and the workspace is archived, it can still be restored later
         * **Delete**
             * If this action is selected, and a workspace is deleted, it can be restored from the recycle bin within 93 days, after which it is deleted for good
-    * **Enter the number of total work days reviewers have to complete the task (10)**:
-        * **Click the checkbox if you want a reminder sent (11)** 3 work days before the due date 
-        * **Select what Syskit Point should do if owners do not resolve this task until due date (12)**:
+    * **Enter the number of total work days reviewers have to complete the task (11)**:
+        * **Click the checkbox if you want a reminder sent (12)** 3 work days before the due date 
+        * **Select what Syskit Point should do if owners do not resolve this task until due date (13)**:
             * Perform no action
             * Automatically Archive
             * Automatically Delete
-* Click **Finish (13)** once you are done with the policy configuration   
+* Click **Finish (14)** once you are done with the policy configuration   
 
 ![Edit Policy Dialog - Step 1](../../.gitbook/assets/inactive-workspaces-admin-edit-step-1.png)
 
@@ -57,6 +64,27 @@ The **Edit Policy** dialog opens where you can:
 **Syskit Point will start the task delegation workflow based on your configuration when an inactive workspace is detected**. 
 
 For details on how collaborators can [**resolve Inactive Workspaces tasks**, navigate to the following article](../../point-collaborators/resolve-governance-tasks/inactive-workspaces.md).
+
+
+## SharePoint Site Archival Options
+
+With the introduction of the Microsoft 365 Archive option, there are some key differences you should keep in mind when choosing how to archive a workspace.
+
+Here are a few things you should keep in mind when it comes to the archive feature both in Microsoft 365 and Syskit Point:
+
+* **Microsoft 365 Archive** allows site-level archiving of SharePoint sites. When a site is archived, it is moved into a storage tier designated for archived sites, pausing active user access but retaining compliance settings.
+
+* **Microsoft 365 Archive** [charges site reactivation at a per-GB rate](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-pricing?view=o365-worldwide).
+
+* When **a workspace is archived through the In-place method**, the workspace is put into a **read-only state**, access to the workspace is removed for members and/or owners, permission inheritance is restored on all objects, and all memberships on the workspace are removed in Microsoft 365 but saved in the Syskit Point database to support the restore action. 
+
+* If a **SharePoint site has already been archived through the Microsoft 365 Archive** option, it is **not flagged** as an Inactive Workspace. 
+
+* If an **Inactive Workspaces task was created and the site was then archived** through Microsoft 365 Archive, the **task is automatically resolved**. 
+
+[To learn more about Microsoft 365 Archive and how to utilize it, take a look at their article](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-overview?view=o365-worldwide).
+{% endhint %}
+
 
 ## Detection for Inactive Workspaces
 
@@ -82,3 +110,8 @@ When using the Inactive Workspaces policy in Syskit Point, keep the following in
 **Please note!**  
 Activity is being monitored from the Syskit Point deployment onward! This applies to SharePoint and Exchange workloads since historical data for these workloads is unavailable in usage reports.
 {% endhint %}
+
+## Relevant Articles
+
+* [**Security and Compliance Checks: Inactive Workspaces**](../security-compliance-checks/inactive-workspaces.md)
+* [**Resolve Inactive Workspace Tasks**](../../point-collaborators/resolve-governance-tasks/inactive-workspaces.md)
