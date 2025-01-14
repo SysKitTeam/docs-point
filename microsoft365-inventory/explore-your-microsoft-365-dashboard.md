@@ -249,13 +249,21 @@ For more information on the license reports available, take a look at the [Licen
 The Power Platform tile on the Syskit Point dashboard **provides an overview of all of your Power Platform apps and flow usage**.
 
 The tile on the Dashboard shows:
-* **Inventory** - which provides a quick overview of your Power Platform inventory and shows the numbers of: Environments, Apps, Flows, Connections
-  * Clicking the number directs you to the specific report
-  * For more details [on the Power Platform reports, take a look at thos article.](../reporting/power-platform-reports.md)
-* **Orphaned Resources** - shows the number of apps and flows without an original creator or owner available.
+* **Inventory** - which provides a quick overview of your Power Platform inventory and shows the numbers of
+  * Environments
+  * Apps
+  * Flows
+  * Connections
+
+* **Orphaned Resources** - shows the number of apps and flows without an original creator or owner available
+  * Clicking the **Orphaned Apps** number, opens the Power Apps Inventory report with the Orphaned Apps filter applied
+  * Clicking the **Orphaned Flows** number, opens the Power Automate Inventory report with the Orphaned Flows filter applied
 * **Manage Inactivity** - provides an overview of inactive apps and flows to help you determine which are no longer necessary 
+  * Clicking the **Inactive Apps** number, opens the Power Apps Inventory report with the Inactive Apps filter applied
+  * Clicking the **Inactive Flows** number, opens the Power Automate Inventory report with the Inactive Flows filter applied
 
+* For more details [on the Power Platform reports, take a look at thos article.](../reporting/power-platform-reports.md)
 
-![Copilot Readiness Tile](../.gitbook/assets/copilot-readiness-tile.png)
+![Copilot Readiness Tile](../.gitbook/assets/power-platform-tile.png)
 
 
