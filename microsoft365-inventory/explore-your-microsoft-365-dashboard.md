@@ -24,6 +24,7 @@ The **Syskit Point** Dashboard shows Syskit Point administrators the following i
  * Active Access Review
  * Lifecycle Management
  * Microsoft 365 Licenses
+ * Power Platform
 
 The **Syskit Point** Dashboard shows Syskit Point collaborators the following information in the tiles:
  * Inventory
@@ -153,7 +154,7 @@ Syskit Point performs regular security and compliance checks for you and present
 
 ## Copilot Readiness
 
-The Copilot Readiness tile on the Syskit dashboard **helps  businesses as they prepare to integrate Copilot into their workflow** or those that want to stay on top of policy vulnerabilities or overshared workspaces that could pose a security risk. By providing a **clear and comprehensive Copilot Readiness score**, you are able to quickly **identify vulnerabilities**.
+The Copilot Readiness tile on the Syskit Point dashboard **helps businesses as they prepare to integrate Copilot into their workflow** or those that want to stay on top of policy vulnerabilities or overshared workspaces that could pose a security risk. By providing a **clear and comprehensive Copilot Readiness score**, you are able to quickly **identify vulnerabilities**.
 
 The tile on the Dashboard shows:
 * Number of vulnerabilities detected for the Workspaces **Shared with Everyone policies (1)**, the Workspaces with **Too Many Members (2)**, Workspaces with **Shadow Users (3)**
@@ -241,3 +242,20 @@ You can also click the View All button, which takes you to the Licenses Overview
 For more information on the license reports available, take a look at the [Licenses Reports article](../reporting/licenses-reports.md).
 
 ![Microsoft 365 Licenses tile](../.gitbook/assets/dashboard-licenses-tile.png)
+
+
+## Power Platform 
+
+The Power Platform tile on the Syskit Point dashboard **provides an overview of all of your Power Platform apps and flow usage**.
+
+The tile on the Dashboard shows:
+* **Inventory** - which provides a quick overview of your Power Platform inventory and shows the numbers of: Environments, Apps, Flows, Connections
+  * Clicking the number directs you to the specific report
+  * For more details [on the Power Platform reports, take a look at thos article.](../reporting/power-platform-reports.md)
+* **Orphaned Resources** - shows the number of apps and flows without an original creator or owner available.
+* **Manage Inactivity** - provides an overview of inactive apps and flows to help you determine which are no longer necessary 
+
+
+![Copilot Readiness Tile](../.gitbook/assets/copilot-readiness-tile.png)
+
+
