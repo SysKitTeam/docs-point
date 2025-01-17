@@ -30,7 +30,9 @@ To enable Power Apps and Power Automate, after granting permissions, please do t
 * When collection is enabled, you can also set your **Reporting Limit (2)**
   * You can **enter the number of days (3)** in the designated space, after which the report does not include inactive environments/flows/apps that haven't been run once in the designated time
 * **Click Save (4)** to store your preferences
- 
+
+
 ![Power Apps and Power Automate](../.gitbook/assets/power-platform-enable-power-apps-and-automate.png)
  
+
 Once this is enabled, you can find the Power Platform reports in the Report Center. For more details, [take a look at the Power Platform reports article](../reporting/power-platform-reports.md)
