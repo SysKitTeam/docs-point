@@ -45,7 +45,7 @@ If the box is unchecked, the Status is yellow and states, 'Please Enable Data Co
 To make sure Power Apps and Power Automate are enabled, after granting permissions, please do the following:
 
 * Ensure that the **checkbox is selected (1)** next to Collect Power Apps and Power Automate Data
-* You can then set your **Reporting Limit (2)** the following can be set:
+* You can then set your **Reporting Limit (2)** for how long environments, flows or apps need to be inactive before they are flagged. The following can be set:
   * Inactive environments that don't have any activities in the last XX days
   * Inactive flows that haven't been run in the last XX days
   * Inactive apps that haven't been launched in the last XX days
@@ -59,3 +59,9 @@ To make sure Power Apps and Power Automate are enabled, after granting permissio
 Once this is enabled, you can find the Power Platform reports in the Report Center. 
 
 For more details, [take a look at the Power Platform reports article](../reporting/power-platform-reports.md)
+
+{% hint style="information" %}
+
+You can currently use this feature as a FREE preview. After a certain amount of time has passed, this feature will be available as an add-on to your current subscription. 
+
+{% endhint %}
