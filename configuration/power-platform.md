@@ -10,7 +10,7 @@ To configure Power Platform for Syskit Point, complete the following:
 
 * Before the set up, the **Power Platform tile (1)** on the Dashboard shows the **Configure Now button (2)**
 
-![Dashboard tile - Configure Now](../.gitbook\assets\power-platform-tile-configure.png)
+![Dashboard tile - Configure Now](../.gitbook/assets/power-platform-tile-configure.png)
 
 * Clicking the button redirects you to the **Power Platform section of Settings (1)** 
 * Under Power Apps and Power Automate, **select the checkbox** next to **Collect Power Apps and Power Automate data (2)**
@@ -23,9 +23,9 @@ To collect Power Platform data, you need to **provide consent** for us to start 
   * If this is not selected, Power Platform data will not be collected until the login is authenticated. 
 * **Click Accept (5)** to start collecting Power Platform data in Syskit Point
 
-![Configure Power Platform](../.gitbook\assets\power-platform-configuration.png)
+![Configure Power Platform](../.gitbook/assets/power-platform-configuration.png)
 
-![Configure Power Platform - Consent](../.gitbook\assets\power-platform-configuration-consent.png)
+![Configure Power Platform - Consent](../.gitbook/assets/power-platform-configuration-consent.png)
 
 
 * [For details on how to enable Power BI data collection, take a look at this article.](../configuration/enable-powerBI-data-collection.md)
