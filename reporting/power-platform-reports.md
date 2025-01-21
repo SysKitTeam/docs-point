@@ -1,5 +1,5 @@
 ---
-description: Power Platform reports provide insight into the state of your Power BI workspaces.
+description: Power Platform reports provide insight into the state of your Power Platform environments.
 ---
 
 # Power Platform Reports
@@ -8,15 +8,16 @@ This article contains information on six Power Platform reports available throug
 
 * [Power Platform Environments Report](#power-platform-environments-report)
 * [Power Apps Inventory Report](#power-apps-inventory-report)
-* [Flow Inventory Report](#flow-inventory-report)
+* [Power Automate Inventory Report](#power-automate-inventory-report)
 * [Power Platform Connections Report](#power-platform-connections-report)
-* [Flow Permissions Report](#flow-permissions-report)
+* [Power Automate Permissions Report](#power-automate-permissions-report)
 * [Power App Permissions Report](#power-app-permissions-report)
 
 You can also find the Power BI reports under the Power Platform filter. For more information on those reports, [take a look at the Power BI reports article](../reporting/power-bi-reports.md).
 
 {% hint style="information" %}
-**Power Platform Reports** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+**Power Platform Reports** are currently available as a free preview. After a certain amount of time has passed, this feature will be available as an add-on to your current subscription. 
+
 {% endhint %}
 
 ## Power Platform Environments Report
@@ -25,7 +26,7 @@ The Power Platform Environments report provides a complete overview of your Powe
 
 ### Generate Report
 
- * **Click the Reports button**; located on the left side of the screen.
+* **Click the Reports button**; located on the left side of the screen.
 * **Select the Power Platform category in the filter** in the upper left corner.
 * **Click the Power Platform Environments report tile** to be redirected to the Selection screen.
 
@@ -42,7 +43,6 @@ On the **Power Platform Environments** report, the default columns displayed are
 * **Connectors** - the number of connectors contained within the environment
 * **External Users** - the number of external users in the environment
 
-      
 The additional columns available in the **column chooser**, located in the top right corner of the report, are:
       
 * **State**
@@ -59,7 +59,7 @@ The Power Apps Inventory report gives a complete overview of all your Power Apps
 
 ### Generate Report
 
- * **Click the Reports button** on the screen's left side.
+ * **Click the Reports button** on the screen's left side.
 * **Select the Power Platform category in the filter** in the upper left corner.
 * **Click the Power Apps Inventory report tile** to be redirected to the Selection screen.
 
@@ -75,7 +75,7 @@ The **Power Platform Environments** report opens, where the default columns disp
 * **Flows** - the number of flows contained within the environment
 * **Connectors** - the number of connectors contained within the environment
 * **External Users** - the number of external users in the environment
-      
+
 The additional columns available in the **column chooser**, located in the top right corner of the report, are:
       
 * **State**
@@ -109,6 +109,11 @@ Here, you can find the following information in the columns:
 * **Unique Users in Last 30 Days** - number of unique users in the last 30 days
 * **Launches in 30 Days** - number of times the app was launched in the last 30 days
 
+In the top left corner, you can also select a specific view for the report:
+* **All Apps**
+* **Inactive Apps**
+* **Orphaned Apps**
+
 The additional columns available in the **column chooser**, located in the top right corner of the report, are:
 
 * **App ID**
@@ -122,14 +127,14 @@ The additional columns available in the **column chooser**, located in the top r
 * **Launches in the Last 180 Days**
 * **Active**
 
-## Flow Inventory Report
+## Power Automate Inventory Report
 
-The Flow Inventory report provides a complete overview of all your Power Automate Flows across every environment.
+The Power Automate Inventory report provides a complete overview of all your Power Automate Flows across every environment.
 
 ### Generate Report
 
 * **Click the Reports button** on the screen's left side.
-* **Select the Power Platform category in the filter** you can find in the upper left corner.
+* **Select the Power Platform category in the filter** in the upper left corner.
 * **Click the Flow Inventory report tile** to be redirected to the Selection screen.
 
 ### Report Data
@@ -144,7 +149,7 @@ The **Power Platform Environments** report opens, where the default columns disp
 * **Flows** - the number of flows contained within the environment
 * **Connectors** - the number of connectors contained within the environment
 * **External Users** - the number of external users in the environment
-      
+
 The additional columns available in the **column chooser**, located in the top right corner of the report, are:
       
 * **State**
@@ -193,8 +198,8 @@ The Power Platform Connections report provides a complete overview of all your P
 
 ### Generate Report
 
- * **Click the Reports button** on the screen's left side.
-* **Select the Power Platform category in the filter** you can find in the upper left corner.
+* **Click the Reports button** on the screen's left side.
+* **Select the Power Platform category in the filter** in the upper left corner.
 * **Click the Power Platform Connections report tile** to be redirected to the Selection screen.
 
 ### Report Data
@@ -209,7 +214,7 @@ The **Power Platform Environments** report opens, where the default columns disp
 * **Flows** - the number of flows contained within the environment
 * **Connectors** - the number of connectors contained within the environment
 * **External Users** - the number of external users in the environment
-      
+
 The additional columns available in the **column chooser**, located in the top right corner of the report, are:
       
 * **State**
@@ -235,14 +240,14 @@ Here, you can find the following information in the columns:
 The additional column available in the **column chooser**, located in the top right corner of the report, is the **Creator Sign-in Status**.
 
 
-## Flow Permissions Report
+## Power Automate Permissions Report
 
-The Flow Permissions report gives insight into the permissions given to Power Automate Flows.
+The Flow Permissions report gives insight into the permissions granted to Power Automate Flows.
 
 ### Generate Report
 
- * **Click the Reports button** on the screen's left side.
-* **Select the Power Platform category in the filter** you can find in the upper left corner.
+* **Click the Reports button** on the screen's left side.
+* **Select the Power Platform category in the filter** in the upper left corner.
 * **Click the Flow Permissions report tile** to be redirected to the Selection screen.
 
 ### Report Data
@@ -257,7 +262,7 @@ The **Power Platform Environments** report opens, where the default columns disp
 * **Flows** - the number of flows contained within the environment
 * **Connectors** - the number of connectors contained within the environment
 * **External Users** - the number of external users in the environment
-      
+
 The additional columns available in the **column chooser**, located in the top right corner of the report, are:
       
 * **State**
@@ -283,12 +288,12 @@ The additional columns available in the **column chooser**, located in the top r
 
 ## Power App Permissions Report
 
-The Power App Permissions report gives insight into the permissions given to Power Platform Apps.
+The Power App Permissions report gives insight into the permissions granted to Power Platform Apps.
 
 ### Generate Report
 
- * **Click the Reports button** on the screen's left side.
-* **Select the Power Platform category in the filter** you can find in the upper left corner.
+* **Click the Reports button** on the screen's left side.
+* **Select the Power Platform category in the filter** in the upper left corner.
 * **Click the Power App Permissions report tile** to be redirected to the Selection screen.
 
 ### Report Data
@@ -303,7 +308,7 @@ The **Power Platform Environments** report opens, where the default columns disp
 * **Flows** - the number of flows contained within the environment
 * **Connectors** - the number of connectors contained within the environment
 * **External Users** - the number of external users in the environment
-      
+
 The additional columns available in the **column chooser**, located in the top right corner of the report, are:
       
 * **State**

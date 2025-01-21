@@ -4,7 +4,7 @@ description: This article explains how to enable Power Platform data collection 
 
 # Power Platform Data Collection
 
-Enabling Power Platform data collection lets you generate Power Platform reports to keep track of your Power Platform usage. It also enables the Power Platform Dashboard tile. 
+Enabling Power Platform data collection lets you generate Power Platform reports for a detailed overview of your Power Platform environments. It also enables the Power Platform Dashboard tile. 
 
 To configure Power Platform for Syskit Point, complete the following:
 
@@ -20,32 +20,26 @@ To collect Power Platform data, you need to **provide consent** for us to start 
 * **Click the Login with Microsoft Authentication flow (3)** button and log in with your admin account
   * The confirmation modal appears up, listing the permissions that are required for the Power Platform feature
   * **Selecting the 'Consent on behalf of your organization' checkbox (4)** gives Syskit Point access to the specified resources for all users in your environment, and no one else will be prompted to review these permissions
-  * If this is not selected, WHAT HAPPENS?
+  * If this is not selected, Power Platform data will not be collected until the login is authenticated. 
 * **Click Accept (5)** to start collecting Power Platform data in Syskit Point
 
 ![Configure Power Platform](../.gitbook\assets\power-platform-configuration.png)
 
 ![Configure Power Platform - Consent](../.gitbook\assets\power-platform-configuration-consent.png)
 
-{% hint style="information" %}
-
-Permissions granted to Syskit Point can be removed after syncing data, as they are not required until the next Power Platform login.
-  * If the permission granted is not removed, you are never required to repeat the configuration steps again.
-
-{% endhint %}
 
 * [For details on how to enable Power BI data collection, take a look at this article.](../configuration/enable-powerBI-data-collection.md)
 
-## Enable Power Apps and Power Automate
+## Enable Power Apps and Power Automate Data Collection
 
 Once the permissions are granted, you can see the **Status** in the Settings change to **Collecting Data** with a **green** checkbox next to it. 
 
 If the box is unchecked, the Status is yellow and states, 'Please Enable Data Collection Above to Continue.'
 
-To make sure Power Apps and Power Automate are enabled, after granting permissions, please do the following:
+To make sure Power Apps and Power Automate data collection is enabled, after granting permissions, please do the following:
 
 * Ensure that the **checkbox is selected (1)** next to Collect Power Apps and Power Automate Data
-* You can then set your **Reporting Limit (2)** for how long environments, flows or apps need to be inactive before they are flagged. The following can be set:
+* You can then set your **Reporting Limit (2)** for how long environments, flows, or apps must be inactive before being flagged. The following can be set:
   * Inactive environments that don't have any activities in the last XX days
   * Inactive flows that haven't been run in the last XX days
   * Inactive apps that haven't been launched in the last XX days
@@ -62,6 +56,6 @@ For more details, [take a look at the Power Platform reports article](../reporti
 
 {% hint style="information" %}
 
-You can currently use this feature as a FREE preview. After a certain amount of time has passed, this feature will be available as an add-on to your current subscription. 
+You can currently use this feature as a free preview. After a certain amount of time has passed, this feature will be available as an add-on to your current subscription. 
 
 {% endhint %}

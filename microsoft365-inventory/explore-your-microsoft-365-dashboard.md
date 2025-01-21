@@ -15,21 +15,22 @@ You can use Dashboard to:
 The Dashboard is the home page of Syskit Point and shows as soon as you log in. 
 
 The **Syskit Point** Dashboard shows Syskit Point administrators the following information in the tiles:
- * Inventory
- * Users
- * Storage
- * Security & Compliance
- * Copilot Readiness
- * External Collaboration
- * Active Access Review
- * Lifecycle Management
- * Microsoft 365 Licenses
- * Power Platform
+* Inventory
+* Users
+* Storage
+* Security & Compliance
+* Copilot Readiness
+* External Collaboration
+* Active Access Review
+* Lifecycle Management
+* Microsoft 365 Licenses
+* Power Platform
+
 
 The **Syskit Point** Dashboard shows Syskit Point collaborators the following information in the tiles:
- * Inventory
- * Users
- * External Collaboration
+* Inventory
+* Users
+* External Collaboration
 
 
 ![Dashboard tile on the Welcome Home screen](../.gitbook/assets/explore-dashboard-dashboard-tiles-on-welcome-home-screen.png)
@@ -258,12 +259,12 @@ The tile on the Dashboard shows:
 * **Orphaned Resources** - shows the number of apps and flows without an original creator or owner available
   * Clicking the **Orphaned Apps** number, opens the Power Apps Inventory report with the Orphaned Apps filter applied
   * Clicking the **Orphaned Flows** number, opens the Power Automate Inventory report with the Orphaned Flows filter applied
-* **Manage Inactivity** - provides an overview of inactive apps and flows to help you determine which are no longer necessary 
+* **Inactive Resources** - provides an overview of inactive apps and flows to help you determine which are no longer necessary 
   * Clicking the **Inactive Apps** number, opens the Power Apps Inventory report with the Inactive Apps filter applied
   * Clicking the **Inactive Flows** number, opens the Power Automate Inventory report with the Inactive Flows filter applied
 
 * For more details [on the Power Platform reports, take a look at thos article.](../reporting/power-platform-reports.md)
 
-![Copilot Readiness Tile](../.gitbook/assets/power-platform-tile.png)
+![Power Platform Tile](../.gitbook/assets/power-platform-tile.png)
 
 
