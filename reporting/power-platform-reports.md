@@ -180,6 +180,11 @@ Here, you can find the following information in the columns:
 * **Last Run Duration** - how long the last flow run lasted
 * **Status** - current status of the flow
 
+In the top left corner, you can also select a specific view for the report:
+* **All Flows**
+* **Inactive Flows**
+* **Orphaned Flows**
+
 The additional columns available in the **column chooser**, located in the top right corner of the report, are:
 
 * **Flow ID**
