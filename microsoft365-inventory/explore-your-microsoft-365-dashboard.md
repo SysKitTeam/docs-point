@@ -221,6 +221,7 @@ The following information can be found on the tile:
 * **Number of Inactive Workspaces** - shows the number of Inactive Workspaces that were detected based on the policy settings
   * Clicking this opens the Inactive Workspaces screen in the Security and Compliance section
 * **Workspaces that Require Your Attention** - the number of Inactive Workspaces that need to be reviewed
+  * Clicking this opens the Inactive Workspaces screen in the Security and Compliance section with the Require Attention filter applied
 * **Task completion** - provides an overview of your task completion status and shows the number of:
   * **Kept** workspaces
   * **Archived** workspaces
