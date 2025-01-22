@@ -22,7 +22,7 @@ The **Syskit Point** Dashboard shows Syskit Point administrators the following i
 * Copilot Readiness
 * External Collaboration
 * Active Access Review
-* Lifecycle Management
+* Inactive Workspaces 
 * Microsoft 365 Licenses
 * Power Platform
 
@@ -190,41 +190,46 @@ Clicking the **Anonymous Links** number opens the **Sharing Links** report in th
 
 The last information on this tile is the number of **Sites With Anonymous Sharing**. The drill opens the **Anonymous Sharing view** on the Sites Overview screen. Here, only workspaces with the external sharing settings set to **'Anyone'** are displayed.
 
-## Access Review & Lifecycle Management
+## Access Review
 
-The **Access** and **Lifecycle Management** tiles show the progress of current automated tasks.
+The **Access Review** tile shows the progress of current automated tasks.
 
-If the Access Review and Lifecycle Management automation is not configured, the tiles will help you navigate to the settings screen by clicking the **Configure Now** button.
+If the Access Review automation is not configured, the tiles will help you navigate to the settings screen by clicking the **Configure Now** button.
 
-{% hint style="info" %}
-**Learn more!**  
-Use the following articles to learn how to enable and configure automation in Syskit Point:
-
-* [Enable Automated Access Review](../governance-and-automation/permissions-review/enable-permissions-review.md)
-* [Enable Lifecycle Management Automation](../governance-and-automation/lifecycle-management/enable-lifecycle-management.md)
-{% endhint %}
+* For more details, take a look at the [Enable Automated Access Review article](../governance-and-automation/permissions-review/enable-permissions-review.md)!
 
 When the Access Review is configured, the tile shows information about the upcoming Review, previous Review, or the current active Review, depending on the Access Review's current state.
 
-Below, you can see the information for the active Access Review. The **View All** link guides you to the **Governance screen**, where additional information is provided about the active Access Review.
+Below, you can see the information for the active Access Review. The **View All** link guides you to the **Governance screen**, where additional information about the active Access Review is provided.
 
 ![Access Review tile with active Access Review information ](../.gitbook/assets/dashboard-access-review-tile.png)
 
-When the **Lifecycle Management feature** is configured, the tile gives information on whether it is in an active state or just turned on but inactive.
 
-If inactive, the numbers in the tile will be zero.
 
-In the picture below, you can see the tile when Lifecycle Management is in the active state.
+## Inactive Workspaces
 
-![Lifecycle Management tile in active state ](../.gitbook/assets/dashboard-lifecycle-management-tile.png)
+The **Inactive Workspaces** tile shows the progress of current automated tasks.
 
-**View All** link opens the **Governance screen for Lifecycle Management Overview** with additional information.
+The **Inactive Workspaces** policy is turned on by default, so the Inactive Workspaces tile shows data based on the default configuration. 
 
-The **chart shows information about performed actions in the last 30 days**.
+You can change the Settings for your Inactive Workspaces policy to suit your needs better or create new ones. Learn how in the [Enable Inactive Workspaces policy](../governance-and-automation/automated-workflows/inactive-workspaces-admin.md) article.
 
-Every number is drillable and opens the dedicated screen in the Governance section.
+The **Inactive Workspaces** tile shows the progress of your current Inactive Workspaces tasks.
 
-**Workspaces that require attention are highlighted with red color** and displayed on the bottom of the tile. Clicking the link opens the **Awaiting Response** screen, where you can decide how to resolve tasks for these workspaces.
+The following information can be found on the tile:
+
+* **Number of Inactive Workspaces** - shows the number of Inactive Workspaces that were detected based on the policy settings
+  * Clicking this opens the Inactive Workspaces screen in the Security and Compliance section
+* **Workspaces that Require Your Attention** - the number of Inactive Workspaces that need to be reviewed
+* **Task completion** - provides an overview of your task completion status and shows the number of:
+  * **Kept** workspaces
+  * **Archived** workspaces
+  * **Deleted** workspaces
+
+The **View All** link opens the **Governance** section, showing the **Vulnerabilities History Details** screen with additional information.
+
+![Inactive Workspaces tile](../.gitbook/assets/dashboard-inactive-workspaces-tile.png)
+
 
 ## Microsoft 365 Licenses
 
