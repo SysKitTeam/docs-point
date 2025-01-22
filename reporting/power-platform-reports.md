@@ -13,10 +13,10 @@ This article contains information on six Power Platform reports available throug
 * [Power Automate Permissions Report](#power-automate-permissions-report)
 * [Power App Permissions Report](#power-app-permissions-report)
 
-You can also find the Power BI reports under the Power Platform filter. For more information on those reports, [take a look at the Power BI reports article](../reporting/power-bi-reports.md).
+You can also find the Power BI reports under the Power Platform filter. For more information on those reports, [look at the Power BI reports article](../reporting/power-bi-reports.md).
 
 {% hint style="success" %}
-**Power Platform Reports** are currently available as a free preview. After a certain amount of time has passed, this feature will be available as an add-on to your current subscription. 
+**Power Platform Reports** are currently available as a free preview, allowing you to explore its benefits at no cost.
 {% endhint %}
 
 ## Power Platform Environments Report
@@ -25,7 +25,7 @@ The Power Platform Environments report provides a complete overview of your Powe
 
 ### Generate Report
 
-* **Click the Reports button**; located on the left side of the screen.
+* **Click the Reports button** located on the left side of the screen.
 * **Select the Power Platform category in the filter** in the upper left corner.
 * **Click the Power Platform Environments report tile** to be redirected to the Selection screen.
 

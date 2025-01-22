@@ -68,8 +68,8 @@ Permissions are added for the app registration only if the Power Platform data c
 
 | App Registration | Permission Name | Reason |
 | --- | --- | --- |
-| Syskit Point Client | PowerAppManagementApp | Allows Syskit Point to collect Power Platform resources data.  |
-| Syskit Point Power Platform | PowerAppManagementApp | Allows Syskit Point to collect Power Platform resources data. |
+| Syskit Point Client | PowerAppManagementApp | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data.  |
+| Syskit Point Power Platform | PowerAppManagementApp | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data. |
 
 {% hint style="warning" %}
 **Please note!**  
