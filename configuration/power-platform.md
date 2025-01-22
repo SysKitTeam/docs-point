@@ -6,6 +6,10 @@ description: This article explains how to enable Power Platform data collection 
 
 Configuring the Power Platform feature in Syskit Point starts the Power Platform data collection, which enables you to generate Power Platform reports for a detailed overview of your Power Platform resources.
 
+{% hint style="success" %}
+**Power Platform functionality** is currently available as a free preview, allowing you to explore its benefits at no cost.
+{% endhint %}
+
 To enable the Power Platform data collection in Syskit Point, complete the following:
 
 * Before the set up, the **Power Platform tile (1)** on the Dashboard shows the **Configure Now button (2)**
@@ -38,10 +42,6 @@ If the box is unchecked, the Status shows the 'Please Enable Data Collection Abo
 
 Once this is enabled, you can find the Power Platform reports in the Report Center. 
 For more details, [take a look at the Power Platform reports article](../reporting/power-platform-reports.md)
-
-{% hint style="success" %}
-**Power Platform functionality** is currently available as a free preview, allowing you to explore its benefits at no cost.
-{% endhint %}
 
 {% hint style="information" %}
 To stop the Power Platform data collection, uncheck the Collect Power Apps and Power Automate Data checkbox and save the change.
