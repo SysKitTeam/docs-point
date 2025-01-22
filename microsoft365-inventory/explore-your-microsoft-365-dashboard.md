@@ -67,7 +67,7 @@ By **clicking the number** of the inactive workspaces, the **Inactive Workspaces
 For more information about the Inactive Workspaces report, click [here](../governance-and-automation/lifecycle-management/inactive-content.md#inactive-workspaces-report).
 
 {% hint style="warning" %}
-**Please note!**  
+**Please note!**  
 The number of inactive workspaces **will be visible 10 days after the first installation of Syskit Point.**
 {% endhint %}
 
@@ -110,17 +110,17 @@ You can also find information on:
 * How much storage you saved
 * How much storage you could save
 
-The **Clean Up** link opens the **Storage Metrics report** where you can select the workspaces you want to perform a storage clean up on.
+The **Clean Up** link opens the **Storage Metrics report**, where you can select the workspaces on which you want to perform a storage clean-up.
 
 ![Storage tile ](../.gitbook/assets/dashboard-storage-tile.png)
 
 {% hint style="info" %}
-**Hint!**  
-The used storage number is calculated for all the files, including those in the recycle bin, as well as archived files. OneDrive storage is not included in the metrics.
+**Hint!**  
+The used storage number is calculated for all files, including those in the recycle bin and archived files. OneDrive storage is not included in the metrics.
 {% endhint %}
 
 {% hint style="warning" %}
-**Please note!**  
+**Please note!**  
 Storage data displayed on the Dashboard can differ from the data provided by the **SharePoint admin center** since it doesn't include changes made within the last 24-48 hours, as described [here](https://docs.microsoft.com/en-us/sharepoint/manage-site-collection-storage-limits).
 {% endhint %}
 
@@ -128,24 +128,24 @@ Storage data displayed on the Dashboard can differ from the data provided by the
 
 ## Security & Compliance
 
-The Security and Compliance Checks tile shows the most important vulnerabilities and misalignments in your environment. These checks keep you up-to-date in order to react quickly and efficiently to keep your environment secure and under control.
+The Security and Compliance Checks tile shows the most important vulnerabilities and misalignments in your environment. These checks keep you up-to-date so you can react quickly and efficiently to keep your environment secure and under control.
 
 The tile on the Dashboard shows:
- * The number of high-risk vulnerabilities
- * The number of medium-risk vulnerabilities
- * The number of low-risk vulnerabilities
+* The number of high-risk vulnerabilities
+* The number of medium-risk vulnerabilities
+* The number of low-risk vulnerabilities
 
 Clicking on **View All** redirects you to the Security and Compliance checks screen. 
 
 The following information is tracked and available there:
 
- * **Orphaned Workspaces**
- * **Inactive Guest Users**
- * **Tenant Storage Limit**
- * **Blocked Users with Assigned Licenses**
- * **Workspaces with Not Enough Owners**
- * **Orphaned Users**
- * **Workspaces with Too Many Owners**
+* **Orphaned Workspaces**
+* **Inactive Guest Users**
+* **Tenant Storage Limit**
+* **Blocked Users with Assigned Licenses**
+* **Workspaces with Not Enough Owners**
+* **Orphaned Users**
+* **Workspaces with Too Many Owners**
 
 ![Security and Compliance tile](../.gitbook/assets/dashboard-security-compliance-tile.png)
 
@@ -155,7 +155,7 @@ Syskit Point performs regular security and compliance checks for you and present
 
 ## Copilot Readiness
 
-The Copilot Readiness tile on the Syskit Point dashboard **helps businesses as they prepare to integrate Copilot into their workflow** or those that want to stay on top of policy vulnerabilities or overshared workspaces that could pose a security risk. By providing a **clear and comprehensive Copilot Readiness score**, you are able to quickly **identify vulnerabilities**.
+The Copilot Readiness tile on the Syskit Point dashboard **helps businesses as they prepare to integrate Copilot into their workflow** or those that want to stay on top of policy vulnerabilities or overshared workspaces that could pose a security risk. By providing a **clear and comprehensive Copilot Readiness score**, you can quickly **identify vulnerabilities**.
 
 The tile on the Dashboard shows:
 * Number of vulnerabilities detected for the Workspaces **Shared with Everyone policies (1)**, the Workspaces with **Too Many Members (2)**, Workspaces with **Shadow Users (3)**
@@ -178,7 +178,7 @@ Here you can find the total number of:
 * **External users** 
 * **Sites with External Sharing**
 * **Links Shared with Anyone**
-* **Sites Shared with Anyone**  
+* **Sites Shared with Anyone**  
 
 ![External Collaboration tile ](../.gitbook/assets/dashboard-external-collaboration-tile.png)
 
@@ -196,7 +196,7 @@ The **Access Review** tile shows the progress of current automated tasks.
 
 If the Access Review automation is not configured, the tiles will help you navigate to the settings screen by clicking the **Configure Now** button.
 
-* For more details, take a look at the [Enable Automated Access Review article](../governance-and-automation/permissions-review/enable-permissions-review.md)!
+* For more details, see the [Enable Automated Access Review article](../governance-and-automation/permissions-review/enable-permissions-review.md)!
 
 When the Access Review is configured, the tile shows information about the upcoming Review, previous Review, or the current active Review, depending on the Access Review's current state.
 
@@ -208,24 +208,22 @@ Below, you can see the information for the active Access Review. The **View All*
 
 ## Inactive Workspaces
 
-The **Inactive Workspaces** tile shows the progress of current automated tasks.
+The **Inactive Workspaces** tile shows the progress of your current Inactive Workspaces tasks.
 
 The **Inactive Workspaces** policy is turned on by default, so the Inactive Workspaces tile shows data based on the default configuration. 
 
 You can change the Settings for your Inactive Workspaces policy to suit your needs better or create new ones. Learn how in the [Enable Inactive Workspaces policy](../governance-and-automation/automated-workflows/inactive-workspaces-admin.md) article.
 
-The **Inactive Workspaces** tile shows the progress of your current Inactive Workspaces tasks.
-
 The following information can be found on the tile:
 
 * **Number of Inactive Workspaces** - shows the number of Inactive Workspaces that were detected based on the policy settings
-  * Clicking this opens the Inactive Workspaces screen in the Security and Compliance section
+  * Clicking this opens the Inactive Workspaces screen in the Security and Compliance section
 * **Workspaces that Require Your Attention** - the number of Inactive Workspaces that need to be reviewed
-  * Clicking this opens the Inactive Workspaces screen in the Security and Compliance section with the Require Attention filter applied
+  * Clicking this opens the Inactive Workspaces screen in the Security and Compliance section with the Require Attention view applied
 * **Task completion** - provides an overview of your task completion status and shows the number of:
-  * **Kept** workspaces
-  * **Archived** workspaces
-  * **Deleted** workspaces
+  * **Kept** workspaces
+  * **Archived** workspaces
+  * **Deleted** workspaces
 
 The **View All** link opens the **Governance** section, showing the **Vulnerabilities History Details** screen with additional information.
 
@@ -237,12 +235,12 @@ The **View All** link opens the **Governance** section, showing the **Vulnerabil
 The Microsoft 365 Licenses tile shows an overview of the paid licenses used for your Syskit Point subscription. 
 
 You can find the following information on the tile screen:
- 
- * Number of active licenses
- * Number of licenses assigned to inactive users
- * Number of unassigned licenses
- * The total annual cost for your licenses
- * The amount you can save annually by removing inactive licenses 
+ 
+* Number of active licenses
+* Number of licenses assigned to inactive users
+* Number of unassigned licenses
+* The total annual cost for your licenses
+* The amount you can save annually by removing inactive licenses 
 
 You can also click the View All button, which takes you to the Licenses Overview report screen.
 
@@ -253,7 +251,7 @@ For more information on the license reports available, take a look at the [Licen
 
 ## Power Platform 
 
-The Power Platform tile on the Syskit Point dashboard **provides an overview of all of your Power Platform apps and flow usage**.
+The Power Platform tile on the Syskit Point dashboard **provides an overview of your Power Platform environments**.
 
 The tile on the Dashboard shows:
 * **Inventory** - which provides a quick overview of your Power Platform inventory and shows the numbers of
@@ -263,13 +261,13 @@ The tile on the Dashboard shows:
   * Connections
 
 * **Orphaned Resources** - shows the number of apps and flows without an original creator or owner available
-  * Clicking the **Orphaned Apps** number, opens the Power Apps Inventory report with the Orphaned Apps filter applied
-  * Clicking the **Orphaned Flows** number, opens the Power Automate Inventory report with the Orphaned Flows filter applied
+  * Clicking the **Orphaned Apps** number opens the Power Apps Inventory report with the Orphaned Apps filter applied
+  * Clicking the **Orphaned Flows** number opens the Power Automate Inventory report with the Orphaned Flows filter applied
 * **Inactive Resources** - provides an overview of inactive apps and flows to help you determine which are no longer necessary 
-  * Clicking the **Inactive Apps** number, opens the Power Apps Inventory report with the Inactive Apps filter applied
-  * Clicking the **Inactive Flows** number, opens the Power Automate Inventory report with the Inactive Flows filter applied
+  * Clicking the **Inactive Apps** number opens the Power Apps Inventory report with the Inactive Apps filter applied
+  * Clicking the **Inactive Flows** number opens the Power Automate Inventory report with the Inactive Flows filter applied
 
-* For more details [on the Power Platform reports, take a look at thos article.](../reporting/power-platform-reports.md)
+* For more details [on the Power Platform reports, take a look at this article.](../reporting/power-platform-reports.md)
 
 ![Power Platform Tile](../.gitbook/assets/power-platform-tile.png)
 
