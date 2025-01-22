@@ -58,6 +58,27 @@ After clicking the Manage Connection button, you can expect the following to hap
 
 Depending on which version you are upgrading to, below you can find the list of changes in permissions requested and which features depend on them.
 
+### Syskit Point Cloud 2025.1.77
+
+With the introduction of Power Platform support, new permissions are added to the following app registrations when the Global Administrator turns on the Power Platform data collection and provides consent.
+
+{% hint style="information" %}
+Permissions are added for the app registration only if the Power Platform data collection is enabled.
+{% endhint %}
+
+| App Registration | Permission Name | Reason |
+| --- | --- | --- |
+| Syskit Point Client | PowerAppManagementApp | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data.  |
+| Syskit Point Power Platform | PowerAppManagementApp | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data. |
+
+{% hint style="warning" %}
+**Please note!**  
+Added permissions are not visible in the Microsoft Entra interface. 
+To manage the permissions, you can run the related PowerShell cmdlets described in the following articles:
+* [Get-PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/get-powerappmanagementapp?view=pa-ps-latest)
+* [Remove-PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/remove-powerappmanagementapp?view=pa-ps-latest)
+{% endhint %}
+
 ### Syskit Point Data Center 2024.4.45
 
 **Consent is required if you are using the Access Request feature to enable the addition of members and owners to security groups.**
