@@ -15,9 +15,8 @@ This article contains information on six Power Platform reports available throug
 
 You can also find the Power BI reports under the Power Platform filter. For more information on those reports, [take a look at the Power BI reports article](../reporting/power-bi-reports.md).
 
-{% hint style="information" %}
+{% hint style="success" %}
 **Power Platform Reports** are currently available as a free preview. After a certain amount of time has passed, this feature will be available as an add-on to your current subscription. 
-
 {% endhint %}
 
 ## Power Platform Environments Report
