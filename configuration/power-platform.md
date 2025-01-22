@@ -4,9 +4,9 @@ description: This article explains how to enable Power Platform data collection 
 
 # Power Platform Data Collection
 
-Enabling Power Platform data collection lets you generate Power Platform reports for a detailed overview of your Power Platform environments. It also enables the Power Platform Dashboard tile. 
+Configuring the Power Platform feature in Syskit Point starts the Power Platform data collection, which enables you to generate Power Platform reports for a detailed overview of your Power Platform resources.
 
-To configure Power Platform for Syskit Point, complete the following:
+To enable the Power Platform data collection in Syskit Point, complete the following:
 
 * Before the set up, the **Power Platform tile (1)** on the Dashboard shows the **Configure Now button (2)**
 
@@ -15,18 +15,17 @@ To configure Power Platform for Syskit Point, complete the following:
 * Clicking the button redirects you to the **Power Platform section of Settings (1)** 
 * Under Power Apps and Power Automate, **select the checkbox** next to **Collect Power Apps and Power Automate data (2)**
 
-To collect Power Platform data, you need to **provide consent** for us to start collecting it.
+To collect Power Platform data, you need to **consent** for Syskit Point to start collecting it.
 
-* **Click the Login with Microsoft Authentication flow (3)** button and log in with your admin account
-  * The confirmation modal appears up, listing the permissions that are required for the Power Platform feature
-  * **Selecting the 'Consent on behalf of your organization' checkbox (4)** gives Syskit Point access to the specified resources for all users in your environment, and no one else will be prompted to review these permissions
-  * If this is not selected, Power Platform data will not be collected until the login is authenticated. 
+* **Click the Login with Microsoft Authentication flow (3)** button and **log in with the Global Administrator account**
+  * The confirmation modal appears, listing the permissions required for the Power Platform data collection
+  * **Select the 'Consent on behalf of your organization' checkbox (4)** to provide Syskit Point with access to the specified resources
+  * Note that the Power Platform data will not be collected until consented
 * **Click Accept (5)** to start collecting Power Platform data in Syskit Point
 
 ![Configure Power Platform](../.gitbook/assets/power-platform-configuration.png)
 
 ![Configure Power Platform - Consent](../.gitbook/assets/power-platform-configuration-consent.png)
-
 
 * [For details on how to enable Power BI data collection, take a look at this article.](../configuration/enable-powerBI-data-collection.md)
 
@@ -34,28 +33,32 @@ To collect Power Platform data, you need to **provide consent** for us to start 
 
 Once the permissions are granted, you can see the **Status** in the Settings change to **Collecting Data** with a **green** checkbox next to it. 
 
-If the box is unchecked, the Status is yellow and states, 'Please Enable Data Collection Above to Continue.'
+If the box is unchecked, the Status shows the 'Please Enable Data Collection Above to Continue' warning message.
 
-To make sure Power Apps and Power Automate data collection is enabled, after granting permissions, please do the following:
+Once this is enabled, you can find the Power Platform reports in the Report Center. 
+For more details, [take a look at the Power Platform reports article](../reporting/power-platform-reports.md)
 
-* Ensure that the **checkbox is selected (1)** next to Collect Power Apps and Power Automate Data
-* You can then set your **Reporting Limit (2)** for how long environments, flows, or apps must be inactive before being flagged. The following can be set:
+{% hint style="success" %}
+You can currently use this feature as a free preview. After a certain amount of time has passed, this feature will be available as an add-on to your current subscription. 
+{% endhint %}
+
+{% hint style="information" %}
+To stop the Power Platform data collection, uncheck the Collect Power Apps and Power Automate Data checkbox and save the change.
+{% endhint %}
+
+## Configure Reporting Limits
+
+After enabling the Power Platform data collection, additional setting are displayed, which affect the Power Platform reports and dashboard tile.
+
+* You can set **Reporting Limits (2)** for how long environments, flows, or apps must be inactive before being flagged as such in the reports. The following can be set:
   * Inactive environments that don't have any activities in the last XX days
   * Inactive flows that haven't been run in the last XX days
   * Inactive apps that haven't been launched in the last XX days
-* **Enter the number of days (3)** in the designated space, after which the reports do not include inactive environments/flows/apps that haven't been used even once in the designated time
+* **Enter the number of days (3)** in the designated space
   * The number of days selected here is **reflected when showing data on the Power Platform reports** and the Power Platform **Dashboard tile**
+  * The default/minimum number of days set as the inactivity period is 30 days
 * **Click Save (4)** to store your preferences
 
 ![Power Apps and Power Automate](../.gitbook/assets/power-platform-power-point-reports.png)
  
 
-Once this is enabled, you can find the Power Platform reports in the Report Center. 
-
-For more details, [take a look at the Power Platform reports article](../reporting/power-platform-reports.md)
-
-{% hint style="information" %}
-
-You can currently use this feature as a free preview. After a certain amount of time has passed, this feature will be available as an add-on to your current subscription. 
-
-{% endhint %}
