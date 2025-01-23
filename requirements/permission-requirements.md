@@ -226,12 +226,16 @@ By default, no permissions are added during the initial connection to your tenan
 Permissions are added when Power BI or Power Apps and Power Automate data collection is enabled. 
 {% endhint %}
 
+**Power BI**
+
 **If Power BI data collection is configured**, the following Admin API permissions are given through a specified security group:
 
 * read-only access to all the information available through Power BI admin APIs; for example, user names and emails, dataset and report detailed metadata
 * read-only access to detailed metadata about Power BI items; for example, responses from GetScanResult APIs will contain the names of dataset tables and columns
 
 [Read the following article to learn how to enable Power BI data collection in Syskit Point](../configuration/enable-powerBI-data-collection.md)
+
+**Power Apps and Power Automate**
 
 **When Power Apps and Power Automate data collection is configured**, new permissions are added to the following app registrations when the Global Administrator provides consent.
 
