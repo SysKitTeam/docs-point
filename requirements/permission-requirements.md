@@ -152,6 +152,28 @@ When using Microsoft Authentication Flow to connect a service account, the follo
 | ----------------------------------------- | --------- | ---------------------------------------------------------------------- |
 | Have full control of all site collections | Delegated | Allows you to manage your Site Collections directly from Syskit Point. |
 
+**Power Platform**
+
+{% hint style="information" %}
+By default, the following permissions are not added during the initial connection to your tenant.
+Permissions are added when Power Apps and Power Automate data collection is enabled. 
+{% endhint %}
+
+**When Power Apps and Power Automate data collection is configured**, new permissions are added to the following app registrations when the Global Administrator provides consent.
+
+| App Registration | Permission Name | Reason |
+| --- | --- | --- |
+| Syskit Point Client | PowerAppManagementApp | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data.  |
+| Syskit Point Power Platform | PowerAppManagementApp | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data. |
+
+{% hint style="warning" %}
+**Please note!**  
+Added permissions for Power Apps and Power Automate data collection are not visible in the Microsoft Entra interface. 
+To manage the permissions, you can run the related PowerShell cmdlets described in the following articles:
+* [Get-PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/get-powerappmanagementapp?view=pa-ps-latest)
+* [Remove-PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/remove-powerappmanagementapp?view=pa-ps-latest)
+{% endhint %}
+
 ### Syskit Point Permissions Loader
 
 **Syskit Point Permissions Loader** app registration is used for optimized [data Sync](../get-to-know-syskit-point/collect-office-365-data.md) for SharePoint and OneDrive data paired with the Syskit Point Service app registration. The following permissions enable Syskit Point to perform these actions:
@@ -199,12 +221,34 @@ When using Microsoft Authentication Flow to connect a service account, the follo
 
 ### Syskit Point Power Platform
 
-By default, no permissions are added. If Power BI data collection is configured, the following Admin API permissions are given through a specified security group:
+{% hint style="information" %}
+By default, no permissions are added during the initial connection to your tenant.
+Permissions are added when Power BI or Power Apps and Power Automate data collection is enabled. 
+{% endhint %}
+
+**If Power BI data collection is configured**, the following Admin API permissions are given through a specified security group:
 
 * read-only access to all the information available through Power BI admin APIs; for example, user names and emails, dataset and report detailed metadata
 * read-only access to detailed metadata about Power BI items; for example, responses from GetScanResult APIs will contain the names of dataset tables and columns
 
 [Read the following article to learn how to enable Power BI data collection in Syskit Point](../configuration/enable-powerBI-data-collection.md)
+
+**When Power Apps and Power Automate data collection is configured**, new permissions are added to the following app registrations when the Global Administrator provides consent.
+
+| App Registration | Permission Name | Reason |
+| --- | --- | --- |
+| Syskit Point Client | PowerAppManagementApp | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data.  |
+| Syskit Point Power Platform | PowerAppManagementApp | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data. |
+
+{% hint style="warning" %}
+**Please note!**  
+Added permissions for Power Apps and Power Automate data collection are not visible in the Microsoft Entra interface. 
+To manage the permissions, you can run the related PowerShell cmdlets described in the following articles:
+* [Get-PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/get-powerappmanagementapp?view=pa-ps-latest)
+* [Remove-PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/remove-powerappmanagementapp?view=pa-ps-latest)
+{% endhint %}
+
+[See the following article to learn how to enable Power Apps and Power Automate data collection in Syskit Point](../configuration/power-platform.md)
 
 ### Configuration Inventory Module
 
