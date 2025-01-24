@@ -28,7 +28,7 @@ To enable Postman to get access tokens for API requests, you must create and con
 
 First, create the New app registration:
 
-* **Navigate to** [Microsoft Entra > Identity > Applications > App registrations](https://entra.microsoft.com/#view/Microsoft\_AAD\_RegisteredApps/ApplicationsListBlade/quickStartType\~/null/sourceType/Microsoft\_AAD\_IAM) **(1)**
+* **Navigate to** [Microsoft Entra > Identity > Applications > App registrations](https://entra.microsoft.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade/quickStartType~/null/sourceType/Microsoft_AAD_IAM) **(1)**
 * **Create a new registration** by clicking the **New registration button (2)**
   * **Provide a Name (3)** - e.g., **API Demo**
   * **Click Register (4)**
@@ -102,6 +102,12 @@ Required permission: **Point.AsyncRequests**
 Required permission: **SharePoint.Read.All**
 
 <table><thead><tr><th width="347">Request</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:green;"><code>POST</code></mark> /v1.0/sites/permissions/generate</td><td>Initiate a request to receive information about permissions on a list of SharePoint sites.</td></tr><tr><td><mark style="color:blue;"><code>GET</code></mark> /v1.0/sites</td><td>Get a list of all SharePoint sites Syskit Point is tracking.</td></tr></tbody></table>
+
+### Groups
+
+Required permission: **SharePoint.Read.All** OR **Point.AsyncRequests**
+
+<table><thead><tr><th width="364">Request</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:green;"><code>POST</code></mark> /v1.0/groups/memberships</td><td>Initiate a request to receive information about group memberships for provided group IDs.</td></tr><tr><td><mark style="color:blue;"><code>GET</code></mark> /v1.0/groups</td><td>Get the groupID and other relevant information for all groups tracked by Syskit Point.</td></tr><tr><td><mark style="color:blue;"><code>GET</code></mark> /v1.0/groups/{groupName}</td><td>Get the groupID and other relevant information for a single group based on the provided group name.</td></tr><tr><td><mark style="color:blue;"><code>GET</code></mark> /v1.0/groups?groupType={groupType}</td><td>Get the groupID and other relevant information for all groups that match the provided groupType. The following group types are available: DistributionList, UnifiedGroup, SecurityGroup, MailEnabledSecurityGroup</td></tr></tbody></table>
 
 ### Provisioning
 
