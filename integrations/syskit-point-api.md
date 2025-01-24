@@ -103,6 +103,17 @@ Required permission: **SharePoint.Read.All**
 
 <table><thead><tr><th width="347">Request</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:green;"><code>POST</code></mark> /v1.0/sites/permissions/generate</td><td>Initiate a request to receive information about permissions on a list of SharePoint sites.</td></tr><tr><td><mark style="color:blue;"><code>GET</code></mark> /v1.0/sites</td><td>Get a list of all SharePoint sites Syskit Point is tracking.</td></tr></tbody></table>
 
+### Groups
+
+Required permission: **Point.AsyncRequests**
+
+| Request | Description |
+| --- | --- |
+| <mark style="color:green;"><code>POST</code></mark> /v1.0/groups/memberships | Initiate a request to receive information about group memberships for provided group IDs. |
+| <mark style="color:blue;"><code>GET</code></mark> /v1.0/groups | Get the groupID and other relevant information for all groups tracked by Syskit Point. |
+| <mark style="color:blue;"><code>GET</code></mark> /v1.0/groups/{groupName} | Get the groupID and other relevant information for a single group based on the provided group name. |
+| <mark style="color:blue;"><code>GET</code></mark> /v1.0/groups?groupType={groupType} | Get the groupID and other relevant information for all groups that match the provided groupType. The following group types are available: DistributionList, UnifiedGroup, SecurityGroup, MailEnabledSecurityGroup |
+
 ### Provisioning
 
 Required permission: **Point.Provisioning**
