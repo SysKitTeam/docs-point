@@ -105,7 +105,7 @@ Required permission: **SharePoint.Read.All**
 
 ### Groups
 
-Required permission: **Point.AsyncRequests**
+Required permission: **SharePoint.Read.All** OR **Point.AsyncRequests**
 
 | Request | Description |
 | --- | --- |
