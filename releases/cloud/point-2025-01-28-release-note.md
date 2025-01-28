@@ -15,15 +15,16 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes
 
-* **API for distribution lists (groups)!**
-  * An API was developed to retrieve group membership and distribution list data.
+* **Groups endpoint added to Syskit Point API!**
+  * You can now retrieve all groups collected by Syskit Point via API call. You can also get data for specific group types or a single group by providing the group name.
+  * Additionally, you can get information about group memberships for all groups.
   * [You can find more details in the Syskit Point API article.](../../integrations/syskit-point-api.md)
 
 * **The Settings icon and User icon** placements have now been updated.
-  * The Settings icon has been moved back to the top-right corner of Syskit Point, and the User icon has been moved to the far right corner for better accessibility. 
+  * The Settings icon has been moved to the top-right corner of Syskit Point, and the User icon has been moved to the far right corner for better accessibility. 
 
-* **Added additional audit events** for Intelligent SharePoint versioning.
-  * Seven new audit events have been added under the *File and Page Activities* category. 
+* **Syskit Point now collects additional audit events** for SharePoint versioning.
+  * Seven new audit events have been added: _File version trimming setting on site for new libraries is changed_, _File version trimming setting on tenant for new libraries is changed_, _Started bulk deleting file versions_, _Started bulk expiring file versions by using a schedule file_, _Started generating file version expiration export_, _Started updating version settings on all document libraries on the site_, _Updated expiration date of a file version_
   * These help you track changes to version limits at the tenant, site, or list level. 
 
 * **A new column was added** to the External Users screen.
@@ -33,7 +34,6 @@ description: This article lists improvements and bug fixes in the Syskit Point C
   * The date now shows in the format of MMMM, D, YYYY (ex. June 5, 2025)
   * The emails no longer show an exact time next to the date.  
 
-
 * **Fixed an issue** where custom metadata that was not defined in Syskit Point did not show a red warning in the column, leaving that space empty instead. 
   * Custom metadata must be defined in Point before the correct metadata value is shown in the column. 
 
@@ -41,14 +41,8 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Fixed an issue** where the Shared with Everyone policy was incorrectly resolved when it was set to resolve automatically. 
 
-* **Fixed issues** with the Power Platform feature that caused the following:
-  * The error occurred during Flow Permissions sync: `Error while processing {SyncStep} for flow {FlowId}
-System.ArgumentNullException: Value cannot be null. (Parameter 'input')
- at System.ArgumentNullException.Throw(String paramName)
- at System.Guid.Parse(String input).`
-  * The following error occurred when attempting to perform an Apps Permissions sync: `NullReferenceException kod ParsePrincipalType
- System.NullReferenceException: Object reference not set to an instance of an object.
- at SysKit.Point.PowerPlatform.Infrastructure.Principals.PrincipalsCache.ParsePrincipalType(String principalType) in E:\agent2\_work\1\s\SysKit.SecurityManager.Backend\SysKit.Point.PowerPlatform.Infrastructure\Principals\PrincipalsCache.cs:line 244`
-  * The following error occurred during SharePoint List Permissions sync: `Microsoft.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_FlowListPermissions'. Cannot insert duplicate key in object 'PowerPlatform.FlowListPermissions'. The duplicate key value is (93, 800393).`
-
+* **The Power Platform data sync was improved** to better handle cases where a SharePoint List has multiple permission levels assigned on a flow.
+  * The following error occurred during SharePoint List Permissions sync: `Microsoft.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_FlowListPermissions'. Cannot insert duplicate key in object 'PowerPlatform.FlowListPermissions'.`
+  * Other minor Power Platform data sync fixes.
+  
 * **Various improvements, including UX and UI fixes, are available**.
