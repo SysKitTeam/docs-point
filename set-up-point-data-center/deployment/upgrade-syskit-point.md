@@ -18,7 +18,6 @@ This article describes Syskit Point upgrades for Syskit Point Data Center custom
 **Syskit Point automatically checks for updates** every day, outside working hours.
 
 **Upgrade banner is displayed at the bottom of the Home screen to all users signed into the Syskit Point web app** in case there is a new Syskit Point version detected, which comes with one or several changes from the following categories:
-
 * **Major features**
   * The new version of Syskit Point comes with new reports, actions, policies, etc., or significant improvements in existing features.
   * This is usually reflected by changing the 2nd number in Syskit Point version; for example, old version is `2024.1.44`, and new version is `2024.2.45`.
@@ -26,14 +25,14 @@ This article describes Syskit Point upgrades for Syskit Point Data Center custom
   * Hotfix version is released in order to remedy critical issues in Syskit Point or breaking changes coming from the Microsoft 365 platform.
   * Expect the third number in the Syskit Point version to change; for example, the old version is `2024.1.44`, and the new version is `2024.1.45`.
 * **Security Updates**
-  * A new version of Syskit Point resolves security vulnerabilities found in 3rd party dependencies or Syskit Point codebase itself.
+  * A new version of Syskit Point resolves security vulnerabilities found in 3rd party dependencies or Syskit Point codebase itself. 
   * Here, you can also expect the third number in the Syskit Point version to change; for example, the old version is `2024.1.46`, and the new version is `2024.1.47`.
 
 {% hint style="warning" %}
 **Please note!**\
 The upgrade banner will not show in the case of Syskit Point releases with new versions containing minor changes in functionality or non-critical fixes.
 
-[For a list of all Syskit Point Data Center releases, follow this link](../../releases/data-center/syskit-point-2023-1/).
+[For a list of all Syskit Point Data Center releases, follow this link](../../releases/data-center/).
 {% endhint %}
 
 ![Home screen - New Update Available](../../.gitbook/assets/upgrade-syskit-point-new-update-available.png)
@@ -46,7 +45,7 @@ Clicking the **Download Latest Version (2)** link will redirect you to the lates
 
 ## Upgrading to the Latest Version
 
-After you **open the latest Release note**, **click** the **Deploy to Azure button (1)**.
+After you **open the latest Release note**, **click** the **Deploy to Azure button (1)**. 
 
 ![Deploy to Azure Button](../../.gitbook/assets/upgrade-syskit-point-deploy.png)
 
