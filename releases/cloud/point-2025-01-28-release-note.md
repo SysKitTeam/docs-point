@@ -41,8 +41,6 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Fixed an issue** where the Shared with Everyone policy was incorrectly resolved when it was set to resolve automatically. 
 
-* **The Power Platform data sync was improved** to better handle cases where a SharePoint List has multiple permission levels assigned on a flow.
-  * The following error occurred during SharePoint List Permissions sync: `Microsoft.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_FlowListPermissions'. Cannot insert duplicate key in object 'PowerPlatform.FlowListPermissions'.`
-  * Other minor Power Platform data sync fixes.
+* **The Power Platform data sync was improved** to better handle cases where a SharePoint List has multiple permission levels assigned on a flow. Before, only the highest privilege permission was displayed; now, all permissions are collected and shown on related Power Platform reports.
   
 * **Various improvements, including UX and UI fixes, are available**.
