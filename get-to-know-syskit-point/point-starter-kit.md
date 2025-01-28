@@ -15,7 +15,7 @@ Your flow of using Syskit Point can go like this, and we will explain each part 
 
 {% hint style="warning" %}
 **Please note!**\
-If you are a free trial user, we recommend reading about activation, some limitations, and instructions [here](../releases/cloud/).
+If you are a free trial user, we recommend reading about activation, some limitations, and instructions [here](../releases/data-center/syskit-point-2023-4/).
 {% endhint %}
 
 ## DISCOVER: MICROSOFT 365 INVENTORY <a href="#discover-microsoft-365-inventory" id="discover-microsoft-365-inventory"></a>
@@ -114,7 +114,7 @@ Manage workspace lifecycles from creation to end with **automated actions and po
   * Enable your admins to set up automated requests.
   * Allow content owners to regularly review workspace memberships, sharing, and external users.
   * Delegate the responsibility to those with the best operational knowledge – content owners.
-* **Enforce** [**governance policies and rules**](../governance-and-automation/automated-workflows/README.md)
+* **Enforce** [**governance policies and rules**](../governance-and-automation/automated-workflows/)
   * Re-certify guest users, clean up orphaned workspaces, and enforce ownership best practices.
 * [**Keep your tenant clean**](../governance-and-automation/lifecycle-management/)
   * Automatically detect inactive SharePoint sites, groups, and teams.

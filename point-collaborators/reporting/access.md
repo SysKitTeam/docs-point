@@ -12,7 +12,7 @@ Access reports can also help you **monitor the activities of users that you mana
 
 Use the **Access Reports feature in Syskit Point to track user activities, detect unauthorized access, and maintain the security and compliance of your workspaces**.
 
-[For more details on how to manage access to your workspaces, take a look at this section.](../../microsoft365-inventory/)
+[For more details on how to manage access to your workspaces, take a look at this section.](../../governance-and-automation/sensitivity-review/)
 
 ## Generate Reports
 

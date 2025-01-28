@@ -1,19 +1,21 @@
 ---
-description: Power Platform reports provide insight into the state of your Power Platform environments.
+description: >-
+  Power Platform reports provide insight into the state of your Power Platform
+  environments.
 ---
 
 # Power Platform Reports
 
 This article contains information on six Power Platform reports available through the **Report Center**:
 
-* [Power Platform Environments Report](#power-platform-environments-report)
-* [Power Apps Inventory Report](#power-apps-inventory-report)
-* [Power Automate Inventory Report](#power-automate-inventory-report)
-* [Power Platform Connections Report](#power-platform-connections-report)
-* [Power Automate Permissions Report](#power-automate-permissions-report)
-* [Power App Permissions Report](#power-app-permissions-report)
+* [Power Platform Environments Report](power-platform-reports.md#power-platform-environments-report)
+* [Power Apps Inventory Report](power-platform-reports.md#power-apps-inventory-report)
+* [Power Automate Inventory Report](power-platform-reports.md#power-automate-inventory-report)
+* [Power Platform Connections Report](power-platform-reports.md#power-platform-connections-report)
+* [Power Automate Permissions Report](power-platform-reports.md#power-automate-permissions-report)
+* [Power App Permissions Report](power-platform-reports.md#power-app-permissions-report)
 
-You can also find the Power BI reports under the Power Platform filter. For more information on those reports, [look at the Power BI reports article](../reporting/power-bi-reports.md).
+You can also find the Power BI reports under the Power Platform filter. For more information on those reports, [look at the Power BI reports article](power-bi-reports.md).
 
 {% hint style="success" %}
 **Power Platform Reports** are currently available as a free preview, allowing you to explore its benefits at no cost.
@@ -21,7 +23,7 @@ You can also find the Power BI reports under the Power Platform filter. For more
 
 ## Power Platform Environments Report
 
-The Power Platform Environments report provides a complete overview of your Power Platform environments and gives summarized data about their users and content. 
+The Power Platform Environments report provides a complete overview of your Power Platform environments and gives summarized data about their users and content.
 
 ### Generate Report
 
@@ -31,8 +33,8 @@ The Power Platform Environments report provides a complete overview of your Powe
 
 ### Report Data
 
-On the **Power Platform Environments** report, the default columns displayed are:
-      
+On the **Power Platform Environments** report, the default columns displayed are:     &#x20;
+
 * **Name** of the Power Platform environment
 * **Type** of environment it is
 * **Created By** - who created the environment
@@ -42,8 +44,8 @@ On the **Power Platform Environments** report, the default columns displayed are
 * **Connectors** - the number of connectors contained within the environment
 * **External Users** - the number of external users in the environment
 
-The additional columns available in the **column chooser**, located in the top right corner of the report, are:
-      
+The additional columns available in the **column chooser**, located in the top right corner of the report, are:     &#x20;
+
 * **State**
 * **Dataverse**
 * **Release Cycle**
@@ -51,21 +53,20 @@ The additional columns available in the **column chooser**, located in the top r
 
 The Power Platform Environments report can be **exported as PDF and XLSX files**. The option to **schedule the report** is also available.
 
-
 ## Power Apps Inventory Report
 
 The Power Apps Inventory report gives a complete overview of all your Power Apps across every environment.
 
 ### Generate Report
 
- * **Click the Reports button** on the screen's left side.
+* **Click the Reports button** on the screen's left side.
 * **Select the Power Platform category in the filter** in the upper left corner.
 * **Click the Power Apps Inventory report tile** to be redirected to the Selection screen.
 
 ### Report Data
 
-The **Power Platform Environments** report opens, where the default columns displayed are:
-      
+The **Power Platform Environments** report opens, where the default columns displayed are:     &#x20;
+
 * **Name** of the environment
 * **Type** of environment it is
 * **Created By** - who created the environment
@@ -75,22 +76,22 @@ The **Power Platform Environments** report opens, where the default columns disp
 * **Connectors** - the number of connectors contained within the environment
 * **External Users** - the number of external users in the environment
 
-The additional columns available in the **column chooser**, located in the top right corner of the report, are:
-      
+The additional columns available in the **column chooser**, located in the top right corner of the report, are:     &#x20;
+
 * **State**
 * **Dataverse**
 * **Release Cycle**
 * **Environment ID**
 
-**Selecting one or more environments** provides the **Run Report button**. This generates the Power Apps Inventory report for the selected workspaces. 
+**Selecting one or more environments** provides the **Run Report button**. This generates the Power Apps Inventory report for the selected workspaces.
 
 Here, you can find the following information in the columns:
 
 * **Name** of the app
 * **Environment** - which environment the app belongs to
 * **App Type** - the number of apps contained within the environment
-* **Bypass Consent** 
-* **Primary Owner** - shows who is the primary owner of the app 
+* **Bypass Consent**
+* **Primary Owner** - shows who is the primary owner of the app
 * **Created By** - shows who the app was created by
 * **Created On** - shows when the app was created on
 * **Modified On** - shows the last time the app was modified
@@ -109,6 +110,7 @@ Here, you can find the following information in the columns:
 * **Launches in 30 Days** - number of times the app was launched in the last 30 days
 
 In the top left corner, you can also select a specific view for the report:
+
 * **All Apps**
 * **Inactive Apps**
 * **Orphaned Apps**
@@ -138,8 +140,8 @@ The Power Automate Inventory report provides a complete overview of all your Pow
 
 ### Report Data
 
-The **Power Platform Environments** report opens, where the default columns displayed are:
-      
+The **Power Platform Environments** report opens, where the default columns displayed are:     &#x20;
+
 * **Name** of the environment
 * **Type** of environment it is
 * **Created By** - who created the environment
@@ -149,21 +151,21 @@ The **Power Platform Environments** report opens, where the default columns disp
 * **Connectors** - the number of connectors contained within the environment
 * **External Users** - the number of external users in the environment
 
-The additional columns available in the **column chooser**, located in the top right corner of the report, are:
-      
+The additional columns available in the **column chooser**, located in the top right corner of the report, are:     &#x20;
+
 * **State**
 * **Dataverse**
 * **Release Cycle**
 * **Environment ID**
 
-**Selecting one or more environments** provides the **Run Report button**. This generates the Flow Inventory report for the selected workspaces. 
+**Selecting one or more environments** provides the **Run Report button**. This generates the Flow Inventory report for the selected workspaces.
 
 Here, you can find the following information in the columns:
 
 * **Name** of the Power Automate Flow
 * **Environment** - which environment the flow belongs to
 * **Type** - the type the flow is
-* **Primary Owner** - shows who is the primary owner of the flow 
+* **Primary Owner** - shows who is the primary owner of the flow
 * **Created By** - shows who the flow was created by
 * **Created On** - shows when the flow was created on
 * **Modified On** - shows the last time the flow was modified
@@ -180,6 +182,7 @@ Here, you can find the following information in the columns:
 * **Status** - current status of the flow
 
 In the top left corner, you can also select a specific view for the report:
+
 * **All Flows**
 * **Inactive Flows**
 * **Orphaned Flows**
@@ -198,7 +201,7 @@ The additional columns available in the **column chooser**, located in the top r
 
 ## Power Platform Connections Report
 
-The Power Platform Connections report provides a complete overview of all your Power Platform Connections across every environment. 
+The Power Platform Connections report provides a complete overview of all your Power Platform Connections across every environment.
 
 ### Generate Report
 
@@ -208,8 +211,8 @@ The Power Platform Connections report provides a complete overview of all your P
 
 ### Report Data
 
-The **Power Platform Environments** report opens, where the default columns displayed are:
-      
+The **Power Platform Environments** report opens, where the default columns displayed are:     &#x20;
+
 * **Name** of the environment
 * **Type** of environment it is
 * **Created By** - who created the environment
@@ -219,14 +222,14 @@ The **Power Platform Environments** report opens, where the default columns disp
 * **Connectors** - the number of connectors contained within the environment
 * **External Users** - the number of external users in the environment
 
-The additional columns available in the **column chooser**, located in the top right corner of the report, are:
-      
+The additional columns available in the **column chooser**, located in the top right corner of the report, are:     &#x20;
+
 * **State**
 * **Dataverse**
 * **Release Cycle**
 * **Environment ID**
 
-**Selecting one or more environments** provides the **Run Report button**. This generates the Power Platform Connections report for the selected workspaces. 
+**Selecting one or more environments** provides the **Run Report button**. This generates the Power Platform Connections report for the selected workspaces.
 
 Here, you can find the following information in the columns:
 
@@ -239,10 +242,9 @@ Here, you can find the following information in the columns:
 * **Modified On** - shows the last time the connection was modified
 * **Expires on** - the date and time on which the connection expires
 * **Connection Type** - the type of connection it is
-* **Tier** - the tier the connection belongs to 
+* **Tier** - the tier the connection belongs to
 
 The additional column available in the **column chooser**, located in the top right corner of the report, is the **Creator Sign-in Status**.
-
 
 ## Power Automate Permissions Report
 
@@ -256,8 +258,8 @@ The Flow Permissions report gives insight into the permissions granted to Power 
 
 ### Report Data
 
-The **Power Platform Environments** report opens, where the default columns displayed are:
-      
+The **Power Platform Environments** report opens, where the default columns displayed are:     &#x20;
+
 * **Name** of the environment
 * **Type** of environment it is
 * **Created By** - who created the environment
@@ -267,28 +269,27 @@ The **Power Platform Environments** report opens, where the default columns disp
 * **Connectors** - the number of connectors contained within the environment
 * **External Users** - the number of external users in the environment
 
-The additional columns available in the **column chooser**, located in the top right corner of the report, are:
-      
+The additional columns available in the **column chooser**, located in the top right corner of the report, are:     &#x20;
+
 * **State**
 * **Dataverse**
 * **Release Cycle**
 * **Environment ID**
 
-**Selecting one or more environments** provides the **Run Report button**. This generates the Flow Permissions report for the selected workspaces. 
+**Selecting one or more environments** provides the **Run Report button**. This generates the Flow Permissions report for the selected workspaces.
 
 Here, you can find the following information in the columns:
 
 * **Name** of the environment and flow
 * **Type** - the type of Power Platform service it is
 * **User Permissions**
-* **External** 
+* **External**
 
 The additional columns available in the **column chooser**, located in the top right corner of the report, are:
 
 * **E-mail**
 * **Username**
 * **Sign-in Status**
-
 
 ## Power App Permissions Report
 
@@ -302,8 +303,8 @@ The Power App Permissions report gives insight into the permissions granted to P
 
 ### Report Data
 
-The **Power Platform Environments** report opens, where the default columns displayed are:
-      
+The **Power Platform Environments** report opens, where the default columns displayed are:     &#x20;
+
 * **Name** of the environment
 * **Type** of environment it is
 * **Created By** - who created the environment
@@ -313,21 +314,21 @@ The **Power Platform Environments** report opens, where the default columns disp
 * **Connectors** - the number of connectors contained within the environment
 * **External Users** - the number of external users in the environment
 
-The additional columns available in the **column chooser**, located in the top right corner of the report, are:
-      
+The additional columns available in the **column chooser**, located in the top right corner of the report, are:     &#x20;
+
 * **State**
 * **Dataverse**
 * **Release Cycle**
 * **Environment ID**
 
-**Selecting one or more environments** provides the **Run Report button**. This generates the Power App Permissions report for the selected workspaces. 
+**Selecting one or more environments** provides the **Run Report button**. This generates the Power App Permissions report for the selected workspaces.
 
 Here, you can find the following information in the columns:
 
 * **Name** of the environment and app
-* **User Permissions** 
+* **User Permissions**
 * **Type** - the type of Power Platform service it is
-* **External** 
+* **External**
 
 The additional columns available in the **column chooser**, located in the top right corner of the report, are:
 

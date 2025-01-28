@@ -1,8 +1,10 @@
 ---
-description: This article outlines the most frequently asked questions about the content & structure section of Provisioning for Syskit Point.
+description: >-
+  This article outlines the most frequently asked questions about the content &
+  structure section of Provisioning for Syskit Point.
 ---
 
-# Provisioning - Content & Structure FAQ
+# Provisioning - Content & Structure
 
 ## What emails are sent?
 
@@ -18,13 +20,14 @@ Only the structure/content available at the moment of provisioning will be copie
 
 ## How many files can be copied? What if there are more files?
 
-The maximum number of files that can be copied is **20 files**. 
+The maximum number of files that can be copied is **20 files**.
 
 **Workspaces with more than 20 files cannot be selected to copy content** and will have a warning icon in Point.
 
 If the workspace used for the Provisioning Template later adds more files, when a new workspace is provisioned using this template, copying content will fail, and no files will be copied (admin will receive an email about the error, and the structure will still be copied).
 
 Here's an example:
+
 * Today - **"Site A"** has 15 files. This site is used to create **“Template A”**.
 * Tomorrow - **“Site A”** adds 20 more files, so now it has 35 files.
 * Next week - New workspace is provisioned using **“Template A”** - during the process, the engine checks and sees that the workspace has 35 files (more than the limit). The engine will only copy the structure, but it will not copy any files. Instead, it will notify the admin via email that copying content failed because there were too many files.
@@ -48,6 +51,7 @@ This is currently not possible.
 A possible workaround is to “Accept Risk” for these workspaces when they appear as a vulnerability.
 
 ## Are these copy options available via API?
+
 Yes, everything available via the GUI is also available via the API.
 
- 
+&#x20;
