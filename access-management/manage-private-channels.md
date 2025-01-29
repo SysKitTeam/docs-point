@@ -52,12 +52,8 @@ When the **private channel details screen** opens, two options are listed on the
 Clicking the **Add Owners/Members** button opens a pop-up that provides the following options:
 
 * **Add members to private channel (1)**; enter the names of the users that should be added as members to the private channel.
-* **Add the selected users as group members (2)**; clicking this check box saves the user(s) entered above as members of the private channel.
-  * Members can access everything in the group.
-* **Add the selected users as group owners (3)**; clicking this check box saves the user(s) entered above as owners of the private channel.
-  * Owners manage and handle administrative tasks for the workspace.
-  * If a user is added only as an owner and not a member, they are able to complete administrative tasks but cannot access group content and chats.
-* **Add when finished (4)**; when all the new members and/or owners have been selected, click Add to save the changes.
+* **Make the selected members owners of the private channel (2)**; clicking this check box saves the user(s) entered above as owners of the private channel.
+* **Confirm when finished (3)**; when all the new members/owners have been selected, click Confirm to save the changes.
   * After confirming, a **notification** is sent to **acknowledge** the new changes.
   * If the change is unsuccessful, the notification states that the action was **completed with errors** and has **failed**.
   * Clicking **check details** redirects to the **Action Details screen** with a detailed log of all changes.
