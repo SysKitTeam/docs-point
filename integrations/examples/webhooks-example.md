@@ -12,7 +12,7 @@ While Syskit Point helps streamline the provisioning of Microsoft 365 workspaces
 
 When an existing service desk is in place, customers often opt to build the approval and provisioning process in the tool their end users are already familiar with. They then rely on Syskit Point to provision the needed workspace.
 
-Here are some benefits to integrating with Service Desk Solutions:
+Here are some benefits of integrating with Service Desk Solutions:
 
 * **Leverage familiar tools** for end-users
 * **Design robust, customizable approval workflows** that align with business processes
@@ -49,14 +49,14 @@ There are a couple of steps to complete before preparing a 3rd third-party syste
   * Client Id
   * Client Secret
 
-  
+  
 * Navigate to the [API Swagger article](../overview.md#swagger-documentation) to familiarize yourself with the API you will be using
   * Use the GET “/v1.0/provision/templates” to retrieve the list of existing provisioning templates and note the template ID you created in Step 1 of this guide
 
 ## What’s next
 
-To continue exploring different ways you can integrate Syskit Point with 3rd party tools such as Jira or ServiceNow taka a look at the following articles:
+To continue exploring different ways you can integrate Syskit Point with 3rd party tools such as Jira or ServiceNow, take a look at the following articles:
 
 
 * [Integrate Syskit Point with Service Now](jira-example.md) 
-* [Integrate Syskit Point with Jira](servicenow-example.md)  
+* [Integrate Syskit Point with Jira](servicenow-example.md)  
