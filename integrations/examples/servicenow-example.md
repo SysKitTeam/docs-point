@@ -60,8 +60,8 @@ Next, you need to set up an approval workflow.
 
 You can use the prepared script below that as part of your workflow.
 
-{% code overflow="wrap" fullWidth="true" %}
-```csharp
+{% code title="servicenow.js" overflow="wrap" lineNumbers="true" fullWidth="false" %}
+```javascript
 /*
 This script integrates ServiceNow with Syskit Point's provisioning engine to create a new team based on a ServiceNow request item.
 The script retrieves user emails and other request details from ServiceNow, formats the data, and sends it to Syskit Point's provisioning API.
