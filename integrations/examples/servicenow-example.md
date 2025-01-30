@@ -1,14 +1,14 @@
 ---
-description: This article showcases how you can utilize Syskit Point's webhooks with ServiceNow.
+description: This article showcases how you can utilize Syskit Point webhooks with ServiceNow.
 ---
 
 # ServiceNow Integration with Syskit Point 
 
-In this article, we’ll guide you through the steps to set up a ServiceNow integration with Syskit Point. 
+In this article, you can find steps to set up a ServiceNow integration with Syskit Point. 
 
 This setup will allow you to automate the provisioning of Microsoft 365 workspaces directly from ServiceNow by using Syskit Point’s API. 
 
-In the [3rd Party Integrations Using Webhooks article](webhooks-example.md), we explained all the prerequisites needed for this to work. 
+All the prerequisites needed for this to work are explained in the [3rd Party Integrations Using Webhooks article](webhooks-example.md). 
 
 ## Setting up ServiceNow Integration
 
@@ -29,7 +29,7 @@ In ServiceNow, navigate to System Properties and add the following custom proper
 * provisioning.application_id
   * Set this property to your Syskit Point API Application (Client) ID.
 
-Now, create a custom request form in ServiceNow to capture the required details for provisioning Microsoft 365 workspaces. 
+Next, create a custom request form in ServiceNow to capture the required details for provisioning Microsoft 365 workspaces. 
 
 This form will gather the information that Syskit Point needs to complete the provisioning process. 
 
@@ -45,7 +45,6 @@ Define the Form Fields:
 
 The image above shows the Request Form that Users can use to request provisioning of new workspaces.
 
-
 Next, you need to set up an approval workflow.
 
 * Configure the catalog item’s workflow to include an approval step
@@ -57,7 +56,7 @@ Next, you need to set up an approval workflow.
 
 ### Integration script
 
-We prepared a comprehensive script below that you can use as part of your workflow.
+You can use the prepared script below that as part of your workflow.
 
 ```
 /*
