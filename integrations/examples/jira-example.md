@@ -117,7 +117,7 @@ There are a couple of changes you need to make before pasting this text:
 * Headers
   * Key: Content-Type, Value: application/json-patch+json
   * Key: accept, Value: application/json
-  * Authorization, Value: Bearer \{{webResponse.body.access\_token\}}
+  * Authorization, Value: Bearer `{{webResponse.body.access_token}}`
 
 This reads the response from the previous call. The name of this step might be different in your automation.
 
