@@ -58,7 +58,7 @@ Next, you need to set up an approval workflow.
 
 ### Integration script
 
-You can use the prepared script below that as part of your workflow.
+You can use the prepared script below as a part of your workflow.
 
 {% code title="servicenow.js" overflow="wrap" lineNumbers="true" fullWidth="false" %}
 ```javascript

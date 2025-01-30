@@ -1,12 +1,12 @@
 ---
-description: This article showcases how you can utilize Syskit Point's webhooks with Jira.
+description: This article showcases how you can utilize Syskit Point webhooks with Jira.
 ---
 
 # Jira Cloud Integration with Syskit Point
 
-This article will show you how to set up Jira Cloud integration with Syskit Point. This integration lets you automate Microsoft 365 workspace provisioning directly from Jira using Syskit Point’s provisioning API.
+This article will show you how to set up Jira Cloud integration with Syskit Point. This integration lets you automate Microsoft 365 workspace provisioning directly from Jira using Syskit Point provisioning API.
 
-In the [3rd Party Integrations Using Webhooks article](webhooks-example.md), we explained all the prerequisites needed for this to work.
+All the prerequisites needed for this to work are explained in the [3rd Party Integrations Using Webhooks article](webhooks-example.md).
 
 Before you start, make sure you have done the following: 
 
@@ -47,17 +47,17 @@ Below, you can see an example of a very simple workflow in Jira.
 ![Jira Workflow](../../.gitbook/assets/jira-example-workflow.png)
 
 
-### Automations
+### Automation
 
-The final step of setting up Jira to work with Syskit Point is to configure the automation to call the Syskit Point Provisioning API and initiate provisioning. 
+The final step of setting up Jira to work with Syskit Point is configuring the automation to call the Syskit Point Provisioning API and initiate provisioning. 
 
-Jira allows for a fully no-code solution to be implemented, and the solution is very simple but make sure you follow all the steps outlined in this article for solution to work properly.
+Jira allows for a fully no-code solution to be implemented, and the solution is very simple, but make sure you follow all the steps outlined in this article for the solution to work properly.
 
 Create a new automation in your project.
 
 * The **automation triggers** when issues transition to the **Approved state (1)**
 * Configure variables that will be used in the following steps: 
-  * Add them as automation variables and hardcode the value you obtained in the Prerequisite steps of this article.
+  * Add them as automation variables and hardcode the values you obtained in the Prerequisite steps of this article.
     * **clientId (2)**
     * **clientSecret (3)**
     * **scope (4)**
@@ -67,16 +67,18 @@ Now, we need to call Point API web services. The first call is to authenticate a
 
 * To your automation **add the action “Send web request” (6)** to authenticate, use the following setup
 
-  * Web request URL [https://login.microsoftonline.com/{{tenantId}}/oauth2/v2.0/token](https://login.microsoftonline.com/{{tenantId}}/oauth2/v2.0/token)
-    * Note that we are using a variable {{tenantId}} labeled as number **(5)** here.
+  * Web request URL: \
+  [https://login.microsoftonline.com/{{tenantId}}/oauth2/v2.0/token](https://login.microsoftonline.com/{{tenantId}}/oauth2/v2.0/token)
+    * Note that we are using a variable `{{tenantId}}` labeled as number **(5)** here.
 
-  * HTTP method: POST
+  * HTTP method:\
+  <mark style="color:green;"><code>POST</code></mark>
 
   * Web request body: Custom Data
   * Custom Data:
     * Please note you should use the variables listed under number **(2-5)** in this request.
 
-    * grant_type=client_credentials&client_id={{clientId.urlEncode}}&client_secret={{clientSecret.urlEncode}}&scope={{scope.urlEncode}}
+    * `grant_type=client_credentials&client_id={{clientId.urlEncode}}&client_secret={{clientSecret.urlEncode}}&scope={{scope.urlEncode}}`
 
   * Headers: Key: Content-Type, Value: application/x-www-form-urlencoded
 
@@ -88,13 +90,15 @@ With the token we acquired when completing the “Send web request” action, we
 
 * Add another “Send web request” to your automation and fill in the fields:
 
-  * Web request URL:
-[https://your_instance.syskit365.com/v1.0/provision/teams](https://your_instance.syskit365.com/v1.0/provision/teams)
-Change your_instance.syskit365.com with the actual URL of your instance. 
+  * Web request URL: \
+`https://your_instance.syskit365.com/v1.0/provision/teams` \
+Change `your_instance.syskit365.com` with the actual URL of your instance. 
 
-  * HTTP method: POST 
+  * HTTP method: \ 
+  <mark style="color:green;"><code>POST</code></mark>
 
-  * Web request body: Custom data 
+  * Web request body: \
+  Custom data 
 
   * Custom Data, use the following sample
 
@@ -123,7 +127,7 @@ There are a couple of changes you need to make before pasting this text:
 * Use the smart values helper to detect the names of the fields for the “Site Name”, “Owners”, and “Members” fields you created. The names of these fields usually look like something like customfield_10054. 
   *  **Replace the values** in the text above. 
 
-* isPrivate is set to be true i.e. the created workspace will be private. You can change this or even tie this to a field and allow users to change it. 
+* isPrivate is set to be true, i.e., the created workspace will be private. You can change this or even tie this to a field and allow users to change it. 
 
 * Headers
   * Key: Content-Type, Value: application/json-patch+json 
@@ -137,13 +141,13 @@ This reads the response from the previous call. The name of this step might be d
 
 ![Full request](../../.gitbook/assets/jira-example-full-request.png)
 
-* The image above show how a full request should look like.
-The fully assembled automation is shown on the following image:
+* The image above shows what a full request should look like.
+The fully assembled automation is shown in the following image:
 
 ![Full automation call Syskit Provisioning API](../../.gitbook/assets/jira-example-full-automation.png)
 
-* The image above show the full automation to call Syskit Provisioning API, marked with numbers (1-7) reflecting the above labeled steps.
+* The image above shows the full automation to call Syskit Provisioning API, marked with numbers (1-7) reflecting the above-labeled steps.
 
 This setup enables automated provisioning of Microsoft 365 workspaces directly from Jira. 
 
-While this article covers a basic setup, **Jira’s automation and Syskit Point’s API offer significant flexibility** to adapt this workflow to your specific business needs.
+While this article covers a basic setup, **Jira automation and Syskit Points API offer significant flexibility** to adapt this workflow to your specific business needs.
