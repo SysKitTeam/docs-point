@@ -1,45 +1,47 @@
 ---
-description: This article showcases how you can utilize Syskit Point webhooks with ServiceNow.
+description: >-
+  This article showcases how you can utilize Syskit Point webhooks with
+  ServiceNow.
 ---
 
-# ServiceNow Integration with Syskit Point 
+# ServiceNow
 
-In this article, you can find steps to set up a ServiceNow integration with Syskit Point. 
+In this article, you can find steps to set up a ServiceNow integration with Syskit Point.
 
-This setup will allow you to automate the provisioning of Microsoft 365 workspaces directly from ServiceNow by using Syskit Point’s API. 
+This setup will allow you to automate the provisioning of Microsoft 365 workspaces directly from ServiceNow by using Syskit Point’s API.
 
-All the prerequisites needed for this to work are explained in the [3rd Party Integrations Using Webhooks article](webhooks-example.md). 
+All the prerequisites needed for this to work are explained in the [3rd Party Integrations Using Webhooks article](webhooks-example.md).
 
 ## Setting up ServiceNow Integration
 
 The first step is to **configure OAuth credentials in ServiceNow**.
 
 * Add the OAuth credentials in ServiceNow to allow ServiceNow to authenticate against Syskit Point’s API securely
-
 * Store OAuth credentials as System Properties
 
 In ServiceNow, navigate to System Properties and add the following custom properties for secure access:
 
-* provisioning.client_id
-  * Set this property to your Syskit Point Client ID. 
-* provisioning.client_secret 
-  * Set this property to your Syskit Point Client Secret. 
-* provisioning.tenant_id
-  * Set this property to your Directory (Tenant) ID. 
-* provisioning.application_id
+* provisioning.client\_id
+  * Set this property to your Syskit Point Client ID.
+* provisioning.client\_secret
+  * Set this property to your Syskit Point Client Secret.
+* provisioning.tenant\_id
+  * Set this property to your Directory (Tenant) ID.
+* provisioning.application\_id
   * Set this property to your Syskit Point API Application (Client) ID.
 
-Next, create a custom request form in ServiceNow to capture the required details for provisioning Microsoft 365 workspaces. 
+Next, create a custom request form in ServiceNow to capture the required details for provisioning Microsoft 365 workspaces.
 
-This form will gather the information that Syskit Point needs to complete the provisioning process. 
+This form will gather the information that Syskit Point needs to complete the provisioning process.
 
 Define the Form Fields:
+
 * Go to Service Catalog > Maintain Items and create a new catalog item for “Workspace Provisioning.”
-* Add the following fields: 
-  * Site/Team Name (text): The name of the workspace to be provisioned. (Type: Single Line Text, Variable name: site_name, mandatory)
-  * Site/Team Description (text): A brief description of the workspace. (Type: Single Line Text, Variable: site_description, mandatory)
-  * Owners (multi-select dropdown): A field to select users who will have ownership rights. Configure this field to pull user data from the sys_user table. (Type: List Collector, Variable: owners, mandatory)
-  * Members (multi-select dropdown): A field to select users to add as members, also referencing sys_user. (Type: List Collector, Variable: members, mandatory)
+* Add the following fields:
+  * Site/Team Name (text): The name of the workspace to be provisioned. (Type: Single Line Text, Variable name: site\_name, mandatory)
+  * Site/Team Description (text): A brief description of the workspace. (Type: Single Line Text, Variable: site\_description, mandatory)
+  * Owners (multi-select dropdown): A field to select users who will have ownership rights. Configure this field to pull user data from the sys\_user table. (Type: List Collector, Variable: owners, mandatory)
+  * Members (multi-select dropdown): A field to select users to add as members, also referencing sys\_user. (Type: List Collector, Variable: members, mandatory)
 
 ![Request Form to request provisioning of new workspaces](../../.gitbook/assets/servicenow-example-request-form.png)
 
@@ -51,14 +53,15 @@ Next, you need to set up an approval workflow.
   * This step ensures that the request is reviewed before triggering the Syskit Point API call
 
 ![ServiceNow workflow designer](../../.gitbook/assets/servicenow-examples-workflow-approval.png)
- 
+
 * Use the ServiceNow workflow designer to adjust the workflow for your business process. Once approved, Run the Script script listed below.
 
 ### Integration script
 
 You can use the prepared script below that as part of your workflow.
 
-```
+{% code overflow="wrap" fullWidth="true" %}
+```csharp
 /*
 This script integrates ServiceNow with Syskit Point's provisioning engine to create a new team based on a ServiceNow request item.
 The script retrieves user emails and other request details from ServiceNow, formats the data, and sends it to Syskit Point's provisioning API.
@@ -205,8 +208,8 @@ Note: Ensure that each request variable (e.g., `site_name`, `owners`, `members`)
 })(current);
 
 ```
+{% endcode %}
 
-
-By following these steps, you can integrate ServiceNow with Syskit Point, enabling seamless provisioning of Microsoft 365 resources directly from your service desk. 
+By following these steps, you can integrate ServiceNow with Syskit Point, enabling seamless provisioning of Microsoft 365 resources directly from your service desk.
 
 This process streamlines approvals, enhances resource management, and provides your users with a unified experience.
