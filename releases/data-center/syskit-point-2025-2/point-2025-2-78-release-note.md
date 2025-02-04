@@ -23,18 +23,17 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 ## New Features
 
+* **Power Platform inventory available in Syskit Point!**
+  * You can now enable Power Platform data collection and generate reports that show the state of your Power Platform environments, apps, flows, and connections.
+  * [Find more details on how to configure Power Platform data collection in this article.](../../../configuration/power-platform.md)
+  * [For information on all the Power Platform reports available in Syskit Point, take a look at this article.](../../../reporting/power-platform-reports.md)
+
 * **New Archive method available!**
   * With the introduction of Microsoft 365 Archive, Syskit Point now provides an additional option for archiving workspaces:
     * **Microsoft 365 Archive** - archives the site through Microsoft 365 and moves it into a cold storage tier for archived sites. 
     * The standard Syskit Point archiving method has been renamed into **In-place Archive** - this method places the workspace into a read-only state.
   * [More details on archiving are available in the Resolve Inactive Workspaces Tasks article.](../../../point-collaborators/resolve-governance-tasks/inactive-workspaces.md)
   * [For information on the Inactive Workspaces policy, take a look at this article.](../../../governance-and-automation/automated-workflows/inactive-workspaces-admin.md)
-
-* **Power Platform inventory available in Syskit Point!**
-  * You can now enable Power Platform data collection and generate reports that show the state of your Power Platform environments, apps, flows, and connections.
-  * [Find more details on how to configure Power Platform data collection in this article.](../../../configuration/power-platform.md)
-  * [For information on all the Power Platform reports available in Syskit Point, take a look at this article.](../../../reporting/power-platform-reports.md)
-
 
 ## Improvements & Bug Fixes
 
