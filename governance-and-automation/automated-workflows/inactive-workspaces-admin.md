@@ -24,9 +24,7 @@ The **Edit Policy** dialog opens where you can:
 * **Choose the type of archival (5)**: 
   * In-Place Archival (Read-Only) - choosing this archives the site through Syskit Point and places it into a read-only state 
   * Microsoft 365 Archive (Cold storage) - choosing this archives the site through Microsoft 365 Archive and places it into a storage tier for archived sites
-    * During the free restoration period, both collaborators and admins can restore a Microsoft 365 archived site
-    * If a cold storage site is restored after the free period expires, the restoration can only be completed by the admins and you are charged at a per-GB rate by Microsoft 365
-    * [This option is only available if Microsoft 365 Archive is set up for your tenant.](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-overview?view=o365-worldwide).
+    * [Learn more about Microsoft 365 Archive in the designated section below.](#microsoft-365-archive).
 
 * **Enable Set Naming Rule (6)** by clicking the toggle next to it
     * This lets you **apply the naming rule to your workspaces** to let you know they are archived
@@ -109,6 +107,19 @@ When using the Inactive Workspaces policy in Syskit Point, keep the following in
 {% hint style="warning" %}
 **Please note!**  
 Activity is being monitored from the Syskit Point deployment onward! This applies to SharePoint and Exchange workloads since historical data for these workloads is unavailable in usage reports.
+{% endhint %}
+
+## Microsoft 365 Archive
+
+Microsoft 365 Archive is a built-in feature that allows organizations to move inactive SharePoint sites into cold storage, reducing storage costs while retaining access when needed. This feature is managed directly through Microsoft 365 and has to be **enabled in the Microsoft 365 Admin Center** before it can be used.
+
+[To learn more about how to enable and manage Microsoft 365 Archive, take a look at their official documentation.](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-overview?view=o365-worldwide)
+
+{% hint style="infromation" %}
+**Please note!**  
+* During the free restoration period, both collaborators and admins can restore a Microsoft 365 archived site
+* If a cold storage site is restored after the free period expires, the restoration can only be completed by the admins, and you are charged at a per GB rate by Microsoft 365
+
 {% endhint %}
 
 ## Relevant Articles
