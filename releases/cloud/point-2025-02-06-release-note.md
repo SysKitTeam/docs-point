@@ -19,8 +19,6 @@ description: This article lists improvements and bug fixes in the Syskit Point C
   * **Clicking the ellipsis (three dots)** next to the *Send Reminder* button opens a dropdown menu with the following actions: **Change Admins, Keep, Delete, Archive**. 
   * Hovering over the ellipsis now displays a *More Actions* tooltip. 
 
-* **The Power Platform reports** provide a banner stating it is a free trial, with a *Learn more* link and a *Contact Us* button to encourage customer feedback. 
-
-* **Fixed an issue** where Users who were not shadow users did not appear in the Sharing Links report despite being members of the Unified Group and a SharePoint group associated with the sharing link.
+* **Fixed an issue** where users falsely appeared as shadow users on the security & compliance report, although they are members of the workspace's unified group. This happened if the same members also had access given via a sharing link.
 
 * **Various improvements, including UX and UI fixes, are available**.
