@@ -5,7 +5,7 @@ description: This article explains how to enable and configure the Lifecycle Man
 # Enable Lifecycle Management Automation
 
 {% hint style="warning" %}
-**Lifecycle Management Automation** will be deprecared and replaced by the [Inactive Workspaces policy](../automated-workflows/inactive-workspaces-admin.md). After approximately two months, the feature will be fully removed from Syskit Point.
+**Lifecycle Management Automation** will be deprecated and replaced by the [Inactive Workspaces policy](../automated-workflows/inactive-workspaces-admin.md). After approximately two months, the feature will be fully removed from Syskit Point.
 {% endhint %}
 
 {% hint style="information" %}
