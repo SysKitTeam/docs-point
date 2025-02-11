@@ -1,7 +1,7 @@
 ---
 description: >-
-  This article explains how to create and apply Storage Versioning Limits in
-  Syskit Point.
+ This article explains how to create and apply Storage Versioning Limits in
+ Syskit Point.
 ---
 
 # Storage Versioning Limits
@@ -45,6 +45,23 @@ The Create New Manual Storage Limit pop-up opens. There, you can select:
   * File versions older than the time limit you set get removed once the threshold you set is passed.
 * **Click Save (6)** to finalize your selection and create the new storage versioning limit.
 
+
+{% hint style="info" %}
+**Please note** the following:
+
+* If **Count Limit is selected**, after the versions surpass the set number, they are automatically deleted from older to newest. (ex. if 100 versions are selected for the count limit, then after the 101 version is created, the older version is deleted)  
+
+* If **Time Limit is selected**, versions older than the set period will automatically be deleted. (ex. If 30 days are set as the time limit, then versions older than 30 days are deleted)  
+
+* If both Count Limit and Time Limit are selected, then both are taken into account for version limits. For example, with a 100 count limit and 30 days time limit selected, the following happens: 
+  * All versions older than 30 days are deleted even if there are less than 100 versions.
+  * If 100 versions are reached before the 30-day time limit, the older versions are automatically deleted even though they are still within the time limit.
+
+* The new rule **will not affect any versions created before** the versioning limits are applied. 
+
+
+{% endhint %}
+
 ![Storage Versioning Limits - Create New](../.gitbook/assets/storage-versioning-limits-new-limit-create.png)
 
 &#x20;
@@ -70,7 +87,7 @@ Selecting this opens the Storage Metrics report where you can:
 * **Clicking Set Version** Limit opens the pop-up where you can set the file version limit on the whole tenant for new document libraries.
   * The options available are Automatic & Manual. &#x20;
 * **Selecting Automatic (2)** means that file versions are deleted based on their activity and age, with the algorithm keeping the most valuable versions.
-* **Selecting Manual (3)** means that file versions are deleted after exceeding the set number of versions and/or after a set period of time-based on the metrics you previously set.
+* **Selecting Manual (3)** means that file versions are deleted after exceeding the set number of versions and/or after a set period of time based on the metrics you previously set.
   * If you select manual, you can also **select the storage versioning limit (4)** that you want to apply tenant-wide
 * **Click Set Version Limit (5)** to finalize your selection and apply the changes.
 
@@ -88,7 +105,7 @@ This opens the Set Version Limit pop-up, where you can set the file version limi
 There, you can decide between Automatic, Manual, or Reset to Tenant Limit.
 
 * **Selecting Automatic (1)** means that file versions are deleted based on their activity and age, with the algorithm keeping the most valuable versions.
-* **Selecting Manual (2)** means that file versions are deleted after exceeding the set number of versions and/or after a set period of time-based on the metrics you previously set.
+* **Selecting Manual (2)** means that file versions are deleted after exceeding the set number of versions and/or after a set period of time based on the metrics you previously set.
   * If you select manual, you can also **select the storage versioning limit (3)** that you want to apply tenant-wide
 * **Selecting Reset to Tenant Limits (4)** means the workspace(s) inherit the versioning limit policy set at the tenant level.
 
@@ -111,9 +128,9 @@ After manual versioning limits have been applied, they can still be removed from
 To remove vesion limits, **open the Storage Metrics report**.
 
 * **Select one or more workspaces (1)** for which you want to remove the manually applied storage version limits.
-* On the rigt side of the screen, **click the arrow (2)** next to the Set Version Limit action.
+* On the right side of the screen, **click the arrow (2)** next to the Set Version Limit action.
 * **Click the Remove Version Limit action (3)** that shows up.
-* This makes a pop-up appear that asks you to confirm your decison to remove manually applied limits by **clicking the Remove Version Limit button (4)**.
+* This makes a pop-up appear that asks you to confirm your decision to remove manually applied limits by **clicking the Remove Version Limit button (4)**.
 
 ![Storage Versioning Limits - Remove Manually Applied Limits](../.gitbook/assets/storage-versioning-limits-remove-manually-applied.png)
 
