@@ -4,7 +4,7 @@ description: This article explains how to edit the Inactive Workspaces policy.
 
 # Inactive Workspaces
 
-Syskit Point provides a built-in **Inactive Workspaces policy** that is applied to all workspaces via the [default rule](policy-automation#default-rule). This policy helps you clean up **inactive workspaces to save storage space and keep your environment running smoothly**. Once an inactive workspace is detected, it is flagged as a vulnerability and can be found in the **Security & Compliance dashboard**. 
+Syskit Point provides a built-in **Inactive Workspaces policy** that is applied to all workspaces via the [default rule](../automated-workflows/policy-automation.md#default-rule). This policy helps you clean up **inactive workspaces to save storage space and keep your environment running smoothly**. Once an inactive workspace is detected, it is flagged as a vulnerability and can be found in the **Security & Compliance dashboard**. 
 
 While the default Inactive Workspaces policy detects inactivity for all workspaces, you can also **create additional Inactive Workspace policies that are edited based on your preferences** and can only be applied to certain workspaces.
 
