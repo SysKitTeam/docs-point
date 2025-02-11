@@ -17,13 +17,13 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Improvements made to Provisioning.**
   * Fixed an issue where Outlook & E-mail Settings properties were not correctly applied when Provisioning a workspace.
-  * Fixed an issue where Provisioning requests failed due to the following error: `Error happened while resolving teamAsyncOperation`.
+  * Fixed an issue where Provisioning requests failed with the following error: `Error happened while resolving teamAsyncOperation`.
 
 
 * **Fixed an issue** with the Change Owners action on the Inactive Workspaces policy screen of the Security and Compliance dashboard.
   * Due to the issue, the Change Owners action could not be completed when a Site did not have a group connected.  
 
-* **Fixed an issue** that caused the following Storage sync error: `Violation of PRIMARY KEY constraint 'PK_Crawl_AmrApiJobListMapping'. Cannot insert duplicate key in object 'Crawl.AmrApiJobListMapping'. The duplicate key value is (b2f58674-60c4-4628-a3b5-f5a2e5844c85, c511b4e3-085b-4a41-bb28-0ac7457990da).`
+* **Fixed an issue** that caused the following Storage sync error: `Violation of PRIMARY KEY constraint 'PK_Crawl_AmrApiJobListMapping'. Cannot insert duplicate key in object 'Crawl.AmrApiJobListMapping'.` 
 
 * **The Accept Risk action** has now been added as part of the Security Plan Subscription for Syskit Point. 
 
