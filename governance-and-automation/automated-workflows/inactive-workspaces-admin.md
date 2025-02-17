@@ -115,7 +115,7 @@ Microsoft 365 Archive is a built-in feature that allows organizations to move in
 
 [To learn more about how to enable and manage Microsoft 365 Archive, take a look at their official documentation.](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-overview?view=o365-worldwide)
 
-{% hint style="infromation" %}
+{% hint style="warning" %}
 **Please note!**  
 * During the free restoration period, both collaborators and admins can restore a Microsoft 365 archived site
 * If a cold storage site is restored after the free period expires, the restoration can only be completed by the admins, and you are charged at a per GB rate by Microsoft 365
