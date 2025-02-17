@@ -15,14 +15,13 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes
 
-* **Improved the error message** that is shown when removing inherited Sharing Links. 
-  * When removing a sharing link on Permissions Copied from the Parent section of the Permissions Matrix report and Access Review task, the message would state: 'Incorrect associated SharePoint object for this link.'
-  * This has now been updated to provide a clearer message stating that the link can only be removed from the parent. 
+* **Improved the error message** that is shown when removing Sharing Links. 
+  * When removing a sharing link from the Permissions Copied section on the Permissions Matrix report or Matrix report and Access Review task, the action would fail with the following error message: 'Incorrect associated SharePoint object for this link.'
+  * The message has been updated and states that the link can only be removed from the parent object. 
 
-* **Fixed an issue** where the following error occurred when accessing a Dynamics 365 environment that was disabled due to inactivity: `SysKit.Point.PowerPlatform.Application.PowerPlatform.Clients.PowerPlatformApiException: Error while retrieving PowerPlatformFlowsResponse Status Code: NotFound` 
+* **Fixed an issue** with Power Platform sync, which occurred when trying to sync an environment disabled due to inactivity. Inactive environments are no longer synced. 
+  * Find the inactive environments in the Power Platform Environments report by selecting the Inactive Environments view.
 
-* **Fixed an issue** that caused a failure to occur when upgrading the script.
-
-* **Fixed an issue** that caused scheduled jobs to be sent in the incorrect timezone. (For example, the weekly summary Security & Compliance email that was scheduled for 10 AM would be sent at 5 AM instead)
+* **Fixed an issue** that caused scheduled jobs to always run in the UTC Time zone instead of the one selected when connecting the tenant.
 
 * **Various improvements, including UX and UI fixes, are available**.
