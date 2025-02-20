@@ -62,8 +62,16 @@ After enabling the Power Platform data collection, additional settings are displ
  
 ## Power Platform Sync Limits
 
-The following Power Platform data is not collected in Syskit Point:
-* Solutions
-* Model-driven apps
-* Desktop flows
+Syskit Point collects data for the following Power Platform resources:
+* Power apps
+  * Canvas (Standard & SharePoint Form)
+* Cloud flows 
+  * Automated
+  * Instant
+  * Scheduled
+
+{% hint style="warning" %}
+Solutions, Model-driven apps, and Desktop flows are not supported.
+{% endhint %}
+
 
