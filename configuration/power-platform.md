@@ -60,4 +60,9 @@ After enabling the Power Platform data collection, additional settings are displ
 
 ![Power Apps and Power Automate](../.gitbook/assets/power-platform-power-point-reports.png)
  
+## Power Platform Sync Limits
+
+The following Power Platform data is not collected in Syskit Point:
+* Model-driven Power Platform apps
+* Solutions
 
