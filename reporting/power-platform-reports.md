@@ -19,6 +19,20 @@ You can also find the Power BI reports under the Power Platform filter. For more
 **Power Platform Reports** are currently available as a free preview, allowing you to explore its benefits at no cost.
 {% endhint %}
 
+{% hint style="information" %}
+Syskit Point collects data for the following Power Platform resources:
+* Power apps
+  * Canvas (Standard & SharePoint Form)
+* Cloud flows 
+  * Automated
+  * Instant
+  * Scheduled
+{% endhint %}
+
+{% hint style="warning" %}
+Solutions, Model-driven apps, and Desktop flows are not supported.
+{% endhint %}
+
 ## Power Platform Environments Report
 
 The Power Platform Environments report provides a complete overview of your Power Platform environments and gives summarized data about their users and content. 
