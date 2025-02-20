@@ -63,6 +63,7 @@ After enabling the Power Platform data collection, additional settings are displ
 ## Power Platform Sync Limits
 
 The following Power Platform data is not collected in Syskit Point:
-* Model-driven Power Platform apps
 * Solutions
+* Model-driven Power Platform apps
+* Desktop flows
 
