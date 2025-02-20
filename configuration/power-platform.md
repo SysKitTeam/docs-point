@@ -64,6 +64,6 @@ After enabling the Power Platform data collection, additional settings are displ
 
 The following Power Platform data is not collected in Syskit Point:
 * Solutions
-* Model-driven Power Platform apps
+* Model-driven apps
 * Desktop flows
 
