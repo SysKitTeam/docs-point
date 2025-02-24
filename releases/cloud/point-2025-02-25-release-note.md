@@ -15,15 +15,11 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes
 
-* **Improved scheduling for the Access Review policy.**
-  * You can now schedule Access Review policies on Monthly, Quarterly, and One-Time schedules.
-  * Point triggers the policy and starts the scheduled review based on the defined schedule. 
-
-* **Fixed an issue** where the expiration dates for the Share with Specific People links were not synced correctly.
+* **Added the option to export audit reports** without including the details section.
+  * This option is available on all Audit reports by clicking the arrow next to Export > Export without details.   
 
 * **Added a new column** to the Power Automate Inventory report, which can be selected from the column chooser: **Premium License**.
 
-* **Added the option to export audit reports** without including the details section.
-  * This option is available on all Audit reports by clicking the arrow next to Export > Export without details.   
+* **Fixed an issue** where the expiration dates for the Share with Specific People links were not synced correctly.
 
 * **Various improvements, including UX and UI fixes, are available**
