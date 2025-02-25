@@ -1,16 +1,16 @@
 ---
-description: This article lists improvements and bug fixes in Syskit Point version 2025.2.78
+description: This article lists improvements and bug fixes in Syskit Point version 2025.2.82
 ---
 
-# Syskit Point 2025.2.78
+# Syskit Point 2025.2.82
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
-**Product version:** 2025.2.78
+**Product version:** 2025.2.82
 
-**Build number:** 60
+**Build number:** XX
 
-**Release date:** February 06, 2025
+**Release date:** March 04, 2025
 
 ## Get the Latest Version
 
@@ -20,10 +20,6 @@ description: This article lists improvements and bug fixes in Syskit Point versi
  [![](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitassetsstorage.blob.core.windows.net%2Fpoint%2FARMTemplates%2FPointUpdateDeploy%2FPointUpdateTemplate.json)
 
 See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../set-up-point-data-center/deployment/upgrade-syskit-point.md).
-
-## New Features
-
-
 
 
 ## Improvements & Bug Fixes
@@ -40,7 +36,12 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
   * Fixed an issue where Outlook & E-mail Settings properties were not correctly applied when Provisioning a workspace.
   * Fixed an issue where Provisioning requests failed with the following error: `Error happened while resolving teamAsyncOperation`.
 
-* **The Accept Risk action** has now been added as part of the Security Plan Subscription for Syskit Point. 
+* **Added the option to export audit reports** without including the details section.
+  * This option is available on all Audit reports by clicking the arrow next to Export > Export without details.   
+
+* **Added a new column** to the Power Automate Inventory report, which can be selected from the column chooser: **Premium License**.
+
+* **Fixed an issue** where the expiration dates for the Share with Specific People links were not synced correctly.
 
 * **Fixed an issue** where users falsely appeared as shadow users on the security & compliance report, although they are members of the workspace's unified group. This happened if the same members also had access given via a sharing link.
 
