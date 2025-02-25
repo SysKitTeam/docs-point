@@ -65,7 +65,9 @@ To see more details, **expand each row** by clicking the arrow next to the date 
 
 ### Report Actions
 
-The Audit Logs Overview report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+The Audit Logs Overview report can be **exported an XLSX file**. **Clicking the arrown symbol** next to Export provides two options: **Export all** and **Export without details**. Selecting Export without details means that the exported report **won't include the details section**.  
+
+There is also the **option to schedule the report**. 
 
 There are no additional actions available for this report.
 
@@ -115,7 +117,9 @@ To see more details, **expand each row** by clicking the arrow next to the date 
 
 ### Report Actions
 
-The Exchange Logs report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+The Exchange Logs report can be **exported an XLSX file**. **Clicking the arrown symbol** next to Export provides two options: **Export all** and **Export without details**. Selecting Export without details means that the exported report **won't include the details section**.  
+
+There is also the **option to schedule the report**. 
 
 There are no additional actions available for this report.
 
@@ -165,10 +169,11 @@ To see more details, **expand each row** by clicking the arrow next to the date 
 
 ### Report Actions
 
-The Site Permissions Changes report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+The Site Permissions Changes report can be **exported an XLSX file**. **Clicking the arrown symbol** next to Export provides two options: **Export all** and **Export without details**. Selecting Export without details means that the exported report **won't include the details section**.  
+
+There is also the **option to schedule the report**. 
 
 There are no additional actions available for this report.
-
 
 
 ## User Activity Report
@@ -218,7 +223,9 @@ To see more details, **expand each row** by clicking the arrow next to the date 
 
 ### Report Actions
 
-The User Activity report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+The User Activity report can be **exported an XLSX file**. **Clicking the arrown symbol** next to Export provides two options: **Export all** and **Export without details**. Selecting Export without details means that the exported report **won't include the details section**.  
+
+There is also the **option to schedule the report**. 
 
 There are no additional actions available for this report.
 
@@ -270,6 +277,8 @@ To see more details, **expand each row** by clicking the arrow next to the date 
 
 ### Report Actions
 
-The File and Page Activities report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+The File and Page Activities report can be **exported an XLSX file**. **Clicking the arrown symbol** next to Export provides two options: **Export all** and **Export without details**. Selecting Export without details means that the exported report **won't include the details section**.  
+
+There is also the **option to schedule the report**. 
 
 There are no additional actions available for this report.
