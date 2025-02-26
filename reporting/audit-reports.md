@@ -65,9 +65,9 @@ To see more details, **expand each row** by clicking the arrow next to the date 
 
 ### Report Actions
 
-The Audit Logs Overview report can be **exported as an XLSX file**. **Clicking the arrown symbol** next to Export provides two options: **Export all** and **Export without details**. Selecting Export without details means that the exported report **won't include the details section**.  
+The Audit Logs Overview report can be **exported as an XLSX file**. **Clicking the arrow symbol** next to Export provides two options: **Export all** and **Export without details**. Selecting Export without details means that the exported report **won't include the details section**.  
 
-There is also the **option to schedule the report**. 
+There is also the **option to schedule the report**. **A scheduled report includes the details section**. The Export without details action cannot be scheduled. 
 
 There are no additional actions available for this report.
 
@@ -84,7 +84,7 @@ Use this report to **see all Exchange-related activity in your environment**.
 {% hint style="warning" %} Please note!
 By default, Exchange logs are not collected; at least one Exchange activity must be selected for Syskit Point to collect and store Exchange log data. {% endhint %}
 
-Click [here](../configuration/customize-audit-logs-collection.md) to find out more about customizing the Exchange logs collection.
+Click [here](../configuration/customize-audit-logs-collection.md) to learn more about customizing the Exchange logs collection.
 
 ### Filtering Options
 The following filtering options are available:
@@ -117,16 +117,16 @@ To see more details, **expand each row** by clicking the arrow next to the date 
 
 ### Report Actions
 
-The Exchange Logs report can be **exported as an XLSX file**. **Clicking the arrown symbol** next to Export provides two options: **Export all** and **Export without details**. Selecting Export without details means that the exported report **won't include the details section**.  
+The Exchange Logs report can be **exported as an XLSX file**. **Clicking the arrow symbol** next to Export provides two options: **Export all** and **Export without details**. Selecting Export without details means that the exported report **won't include the details section**.  
 
 There is also the **option to schedule the report**. 
 
-There are no additional actions available for this report.
+There are no additional actions available for this report. **A scheduled report includes the details section**. The Export without details action cannot be scheduled. 
 
 ## Site Permissions Changes Report
 
 This report provides insight into details for any permissions changes on selected site(s). 
-* For example, if somebody shared a file or created any kind of sharing link, you can see it here.
+* For example, if somebody shares a file or creates a sharing link, you can see it here.
 
 
 ### Generate Report
@@ -169,11 +169,11 @@ To see more details, **expand each row** by clicking the arrow next to the date 
 
 ### Report Actions
 
-The Site Permissions Changes report can be **exported as an XLSX file**. **Clicking the arrown symbol** next to Export provides two options: **Export all** and **Export without details**. Selecting Export without details means that the exported report **won't include the details section**.  
+The Site Permissions Changes report can be **exported as an XLSX file**. **Clicking the arrow symbol** next to Export provides two options: **Export all** and **Export without details**. Selecting Export without details means that the exported report **won't include the details section**.  
 
 There is also the **option to schedule the report**. 
 
-There are no additional actions available for this report.
+There are no additional actions available for this report. **A scheduled report includes the details section**. The Export without details action cannot be scheduled. 
 
 
 ## User Activity Report
@@ -227,7 +227,7 @@ The User Activity report can be **exported as an XLSX file**. **Clicking the arr
 
 There is also the **option to schedule the report**. 
 
-There are no additional actions available for this report.
+There are no additional actions available for this report. **A scheduled report includes the details section**. The Export without details action cannot be scheduled. 
 
 
 ## File and Page Activities Report
@@ -277,8 +277,8 @@ To see more details, **expand each row** by clicking the arrow next to the date 
 
 ### Report Actions
 
-The File and Page Activities report can be **exported as an XLSX file**. **Clicking the arrown symbol** next to Export provides two options: **Export all** and **Export without details**. Selecting Export without details means that the exported report **won't include the details section**.  
+The File and Page Activities report can be **exported as an XLSX file**. **Clicking the arrow symbol** next to Export provides two options: **Export all** and **Export without details**. Selecting Export without details means that the exported report **won't include the details section**.  
 
 There is also the **option to schedule the report**. 
 
-There are no additional actions available for this report.
+There are no additional actions available for this report. **A scheduled report includes the details section**. The Export without details action cannot be scheduled. 
