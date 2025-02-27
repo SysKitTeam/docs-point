@@ -20,7 +20,7 @@ These reports can be accessed in the Report section by selecting the **Audit Log
 {% endhint %}
 
 {% hint style="information" %}
-**Please note!**  
+**Please note!**  
 You can save custom views for your reports based on your needs and preferences. [For more details on this, take a look at the Save Custom Views article.](../configuration/custom-views.md)
 {% endhint %}
 
@@ -32,16 +32,16 @@ Quickly detect and troubleshoot potential issues, security breaches, or suspicio
 
 ### Generate Report
 
-* **Click the Reports button**; it is located on left side of your Syskit Point.
- * **Select Audit Logs in the filter**; it can be found in the upper left corner.
- * **Click the Audit Logs Overview report** to generate the report.
+* **Click the Reports button**; it is located on the left side of your Syskit Point.
+* **Select Audit Logs in the filter**; it can be found in the upper left corner.
+* **Click the Audit Logs Overview report** to generate the report.
 
 ### Filtering Options
 The following filtering options are available:
 * **timeframe selection**; choose from the following options to show events from:
   * Today
   * Yesterday
-  * Last 7 Days  - selected by default
+  * Last 7 Days  - selected by default
   * Last 30 Days
   * Custom - which enables you to select specific start and end dates for events to be shown
 * **activities filter**
@@ -51,21 +51,23 @@ The following filtering options are available:
 ### Report Data
 
 The default columns displayed in the report are:
-    
+    
 * **Date**
 * **Activity** type
 * **Performed By**
 * **IP Address**
 * **Item**
 * **Details**
-    
+    
 There are no additional columns available in the **column chooser**.
 
 To see more details, **expand each row** by clicking the arrow next to the date column. Here, you will find **all properties for the selected event**.
 
 ### Report Actions
 
-The Audit Logs Overview report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+The Audit Logs Overview report can be **exported as an XLSX file**. **Clicking the arrow symbol** next to Export provides two options: **Export all** and **Export without details**. Selecting Export without details means that the exported report **won't include the details section**.  
+
+There is also the **option to schedule the report**. **A scheduled report includes the details section**. The Export without details action cannot be scheduled. 
 
 There are no additional actions available for this report.
 
@@ -75,21 +77,21 @@ Use this report to **see all Exchange-related activity in your environment**.
 
 ### Generate Report
 
-* **Click the Reports button**; it is located on left side of your Syskit Point.
- * **Select Audit Logs in the filter**; it can be found in the upper left corner.
- * **Click the Exchange Logs report** to generate the report.
+* **Click the Reports button**; it is located on the left side of your Syskit Point.
+* **Select Audit Logs in the filter**; it can be found in the upper left corner.
+* **Click the Exchange Logs report** to generate the report.
 
 {% hint style="warning" %} Please note!
 By default, Exchange logs are not collected; at least one Exchange activity must be selected for Syskit Point to collect and store Exchange log data. {% endhint %}
 
-Click [here](../configuration/customize-audit-logs-collection.md) to find out more about customizing the Exchange logs collection.
+Click [here](../configuration/customize-audit-logs-collection.md) to learn more about customizing the Exchange logs collection.
 
 ### Filtering Options
 The following filtering options are available:
 * **timeframe selection**; choose from the following options to show events from:
   * Today
   * Yesterday
-  * Last 7 Days  - selected by default
+  * Last 7 Days  - selected by default
   * Last 30 Days
   * Custom - which enables you to select specific start and end dates for events to be shown
 * **activities filter**
@@ -100,14 +102,14 @@ The following filtering options are available:
 ### Report Data
 
 The default columns displayed in the report are:
-    
+    
 * **Date**
 * **Activity** type
 * **Performed By**
 * **IP Address**
 * **Item**
 * **Details**
-    
+    
 There are no additional columns in the **column chooser**.
 
 To see more details, **expand each row** by clicking the arrow next to the date column. Here, you will find **all properties for the selected event**.
@@ -115,21 +117,23 @@ To see more details, **expand each row** by clicking the arrow next to the date 
 
 ### Report Actions
 
-The Exchange Logs report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+The Exchange Logs report can be **exported as an XLSX file**. **Clicking the arrow symbol** next to Export provides two options: **Export all** and **Export without details**. Selecting Export without details means that the exported report **won't include the details section**.  
 
-There are no additional actions available for this report.
+There is also the **option to schedule the report**. 
+
+There are no additional actions available for this report. **A scheduled report includes the details section**. The Export without details action cannot be scheduled. 
 
 ## Site Permissions Changes Report
 
 This report provides insight into details for any permissions changes on selected site(s). 
-   * For example, if somebody shared a file or created any kind of sharing link, you can see it here.
+* For example, if somebody shares a file or creates a sharing link, you can see it here.
 
 
 ### Generate Report
 
-* **Click the Reports button**; it is located on left side of your Syskit Point.
- * **Select Audit Logs in the filter**; it can be found in the upper left corner.
- * **Click the Site Permissions Changes report** to generate the report.
+* **Click the Reports button**; it is located on the left side of your Syskit Point.
+* **Select Audit Logs in the filter**; it can be found in the upper left corner.
+* **Click the Site Permissions Changes report** to generate the report.
 
 ### Selection & Filters
 After clicking the **Site Permissions Changes Report** tile, a selection step opens where you can:
@@ -139,7 +143,7 @@ After clicking the **Site Permissions Changes Report** tile, a selection step op
 * **Show events from**:
   * Today
   * Yesterday
-  * Last 7 Days  - selected by default
+  * Last 7 Days  - selected by default
   * Last 30 Days
   * Custom - which enables you to select specific start and end dates for events to be shown
 * **Select activities to show**:
@@ -151,7 +155,7 @@ After clicking the **Site Permissions Changes Report** tile, a selection step op
 ### Report Data
 
 The default columns displayed in the report are:
-    
+    
 * **Date**
 * **Activity** type
 * **Performed By**
@@ -165,10 +169,11 @@ To see more details, **expand each row** by clicking the arrow next to the date 
 
 ### Report Actions
 
-The Site Permissions Changes report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+The Site Permissions Changes report can be **exported as an XLSX file**. **Clicking the arrow symbol** next to Export provides two options: **Export all** and **Export without details**. Selecting Export without details means that the exported report **won't include the details section**.  
 
-There are no additional actions available for this report.
+There is also the **option to schedule the report**. 
 
+There are no additional actions available for this report. **A scheduled report includes the details section**. The Export without details action cannot be scheduled. 
 
 
 ## User Activity Report
@@ -176,14 +181,14 @@ There are no additional actions available for this report.
 This report shows all actions performed by internal or external users in your environment. 
 
 Selecting a single user provides insight into what they have been doing in the environment, from logging in to viewing a file. 
-   * If the admin or manager added or removed permissions for a particular user, this would also be shown in this report.
+* If the admin or manager added or removed permissions for a particular user, this would also be shown in this report.
 
 
 ### Generate Report
 
-* **Click the Reports button**; it is located on left side of your Syskit Point.
- * **Select Audit Logs in the filter**; it can be found in the upper left corner.
- * **Click the User Activity report** to generate the report.
+* **Click the Reports button**; it is located on the left side of your Syskit Point.
+* **Select Audit Logs in the filter**; it can be found in the upper left corner.
+* **Click the User Activity report** to generate the report.
 
 ### Selection & Filters
 After clicking the **User Activity** report tile, a selection step opens where you can:
@@ -191,7 +196,7 @@ After clicking the **User Activity** report tile, a selection step opens where y
 * **Show events from**:
   * Today
   * Yesterday
-  * Last 7 Days  - selected by default
+  * Last 7 Days  - selected by default
   * Last 30 Days
   * Custom - which enables you to select specific start and end dates for events to be shown
 * **Select activities to show**:
@@ -204,23 +209,25 @@ After clicking the **User Activity** report tile, a selection step opens where y
 ### Report Data
 
 The default columns displayed in the report are:
-    
+    
 * **Date**
 * **Activity** type
 * **Performed By**
 * **IP Address**
 * **Item**
 * **Details**
-    
+    
 There are no additional columns in the **column chooser**.
 
 To see more details, **expand each row** by clicking the arrow next to the date column. Here, you will find **all properties for the selected event**.
 
 ### Report Actions
 
-The User Activity report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+The User Activity report can be **exported as an XLSX file**. **Clicking the arrown symbol** next to Export provides two options: **Export all** and **Export without details**. Selecting Export without details means that the exported report **won't include the details section**.  
 
-There are no additional actions available for this report.
+There is also the **option to schedule the report**. 
+
+There are no additional actions available for this report. **A scheduled report includes the details section**. The Export without details action cannot be scheduled. 
 
 
 ## File and Page Activities Report
@@ -229,9 +236,9 @@ View who accessed and edited files/folders in your environment, as well as who v
 
 ### Generate Report
 
-* **Click the Reports button**; it is located on left side of your Syskit Point.
- * **Select Audit Logs in the filter**; it can be found in the upper left corner.
- * **Click the File and Page Activities report** to generate the report.
+* **Click the Reports button**; it is located on the left side of your Syskit Point.
+* **Select Audit Logs in the filter**; it can be found in the upper left corner.
+* **Click the File and Page Activities report** to generate the report.
 
 ### Selection & Filters
 After clicking the **Site Permissions Changes Report** tile, a selection step opens where you can:
@@ -241,7 +248,7 @@ After clicking the **Site Permissions Changes Report** tile, a selection step op
 * **Show events from**:
   * Today
   * Yesterday
-  * Last 7 Days  - selected by default
+  * Last 7 Days  - selected by default
   * Last 30 Days
   * Custom - which enables you to select specific start and end dates for events to be shown
 * **Select activities to show**:
@@ -251,25 +258,27 @@ After clicking the **Site Permissions Changes Report** tile, a selection step op
   * All users - selected by default
   * Only internal users
   * Only external users
-  * Specific - select users whose events you want to see  
+  * Specific - select users whose events you want to see  
 
 ### Report Data
 
 The default columns displayed in the report are:
-    
+    
 * **Date**
 * **Activity** type
 * **Performed By**
 * **IP Address**
 * **Item**
 * **Details**
-    
+    
 There are no additional columns in the **column chooser**.
 
 To see more details, **expand each row** by clicking the arrow next to the date column. Here, you will find **all properties for the selected event**.
 
 ### Report Actions
 
-The File and Page Activities report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+The File and Page Activities report can be **exported as an XLSX file**. **Clicking the arrow symbol** next to Export provides two options: **Export all** and **Export without details**. Selecting Export without details means that the exported report **won't include the details section**.  
 
-There are no additional actions available for this report.
+There is also the **option to schedule the report**. 
+
+There are no additional actions available for this report. **A scheduled report includes the details section**. The Export without details action cannot be scheduled. 
