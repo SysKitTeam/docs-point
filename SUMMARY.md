@@ -93,7 +93,7 @@
       * [Workspaces with Shadow Users](governance-and-automation/automated-workflows/shadow-users-admin.md)
       * [Apply Policies](governance-and-automation/automated-workflows/manage-policies.md)
       * [Upgrade to Rules](governance-and-automation/automated-workflows/upgrade-to-policy-automation.md)
-   * [Provisioning & Microsoft Teams App](governance-and-automation/README.md)
+   * [Provisioning & Microsoft Teams App](governance-and-automation/provisioning/README.md)
       * [Provisioning](governance-and-automation/provisioning/README.md)
         * [Set Up Provisioning](governance-and-automation/provisioning/set-up-provisioning.md)
         * [Enable or Disable Provisioning](governance-and-automation/provisioning/enable-disable-provisioning.md)
