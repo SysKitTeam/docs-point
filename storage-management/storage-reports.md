@@ -26,7 +26,7 @@ This report lets you check if you are at risk of running out of storage so that 
 ### Generate Storage Metrics Report
 
 * **Click the Reports button** located on the left side of the screen.
-* **Select Cleanup & Health Check in the filter**; you can find it in the upper left corner.
+* **Select Storage in the filter**; you can find it in the upper left corner.
 * **Click the Storage Metrics report** to generate the report.
 
 ### Report Data
@@ -70,12 +70,12 @@ The report lets you check the amount of storage used by sites in your tenant. Th
 ### Generate Site Storage Report
 
 * **Click the Reports button** located on the left side of the screen.
-* **Select Cleanup & Health Check in the filter**; it can be found in the upper left corner.
+* **Select Storage in the filter**; it can be found in the upper left corner.
 * **Click the Site Storage Metrics report** to generate the report.
 
-### Report Data
+### Selection & Filters
 
-Once the site report is successfully generated, the following information is available:
+Once the Site Storage Metrics report is successfully generated, the following information is available:
 
 * **Name**; shows the name of the workspace
 * **URL**; shows the URL for the workspace
@@ -87,7 +87,9 @@ Once the site report is successfully generated, the following information is ava
 
 **Clicking on a workspace** opens the Site Storage Metrics report for that specific workspace.
 
-There, the following information can be found:
+### Report Data
+
+On the Site Storage Metrics report for the individual workspace, the following information can be found:
 
 * **The Site Trend chart** shows a graph that depicts your site storage usage over time in the last 180 days.
 * **The Site Storage Usage tile** on the right side shows the percentage of used storage out of the total number of available storage for your site.
