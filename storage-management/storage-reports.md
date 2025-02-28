@@ -63,7 +63,7 @@ Storage data for workspaces is collected from the **date of your initial Syskit 
 
 ## Site Storage Metrics
 
-The Site Storage Metrics report displays your storage consumption across your sites over time. &#x20;
+The Site Storage Metrics report displays your storage consumption across your sites over time. 
 
 The report lets you check the amount of storage used by sites in your tenant. This makes it easier to maintain and organize your sites to optimize storage per site.
 
@@ -71,11 +71,11 @@ The report lets you check the amount of storage used by sites in your tenant. Th
 
 * **Click the Reports button** located on the left side of the screen.
 * **Select Storage in the filter**; it can be found in the upper left corner.
-* **Click the Site Storage Metrics report** to generate the report.
+* **Click the Site Storage Metrics report** to proceed.
 
 ### Selection & Filters
 
-Once the Site Storage Metrics report is successfully generated, the following information is available:
+Once the Site Storage Metrics report is clicked, the Selection step opens, with the following information available:
 
 * **Name**; shows the name of the workspace
 * **URL**; shows the URL for the workspace
@@ -85,7 +85,7 @@ Once the Site Storage Metrics report is successfully generated, the following in
 * **Storage Limit**; shows the storage limit for the workspace
 * **Storage Warning Level**; shows the storage level at which you are warned that you are approaching the limit
 
-**Clicking on a workspace** opens the Site Storage Metrics report for that specific workspace.
+**Clicking on a workspace** enables the Run Report button. Click it to generate the Site Storage Metrics report for that specific workspace.
 
 ### Report Data
 
@@ -101,7 +101,7 @@ On the Site Storage Metrics report for the individual workspace, the following i
     * **Other**: any extensions not categorized in one of the above groups
 * **The File Version Cleanup tile** shows the amount of space you can free up by cleaning up the outdated versions of the site.
 
-The Largest Files & Folders section of the report is, by default, set as a **Files Only view**, which means it shows a list of all files on the site. You can change the report to be seen as the **Site Structure view** by clicking the **Show by:** button located on the top right side of the Largest Files & Folders part of the report. &#x20;
+The Largest Files & Folders section of the report is, by default, set as a **Files Only view**, which means it shows a list of all files on the site. You can change the report to be seen as the **Site Structure view** by clicking the **Show by:** button located on the top right side of the Largest Files & Folders part of the report.
 
 The following data will be displayed in the columns:
 
@@ -115,7 +115,7 @@ The following data will be displayed in the columns:
 * **Size (% of the site storage)**; shows the percentage of storage used by the site or content.
 * **File Versions**; shows the versions of the files.
 * **Author**; shows the author of the content.
-* **Storage Limit**; show the storage limit for the site.
+* **Storage Limit**; shows the storage limit for the site.
 * **Last Activity**; shows the date the last activity on the site or content happened.
 
 **Selecting the site** or one or more of the files included in the site provides the **action to Clean Up File Versions**, located on the right side of the screen under the **Manage section**.
