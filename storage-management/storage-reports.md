@@ -13,7 +13,7 @@ In this article, you can locate information on:
 Use the Storage Metrics report to view your **tenant-wide storage consumption** and **determine if you're at risk of running out of storage**, the Site Storage Metrics report to gain **insight into the storage used by a particular site** and identify any potentially unusual spikes, and the File Storage Details report to view all of the versions of your selected file with the most important information about each version.
 
 {% hint style="information" %}
-**Please note!**  
+**Please note!**  
 You can save custom views for your reports based on your needs and preferences. [For more details on this, take a look at the Save Custom Views article.](../configuration/custom-views.md)
 {% endhint %}
 
@@ -36,7 +36,7 @@ Once the report is generated successfully, the following information is availabl
 * **The Tenant Storage tile** on the left side shows the percentage of used storage out of the total available storage for your tenant.
 * **The Potential Savings tile** shows how much you can save by cleaning up File versions older than X months or All but the last X number of file versions.
   * You can **set your values for X** through Settings > Storage Management, which you can quickly access by **clicking the Settings button in the top right corner of the tile**
-* **The Storage Trend chart** shows a graph that depicts your storage usage across time over the last 180 days.
+* **The Site Trend chart** shows a graph that depicts your storage usage across time over the last 180 days.
 
 The following data will be displayed in the columns:
 
@@ -51,9 +51,10 @@ The following data will be displayed in the columns:
 * **% of Limit**; shows the percentage of how close to the storage limit your site is.
 * **Alert on % of Limit**; shows the percentage at which you are alerted of being close to your storage limit.
 * **Last Activity**; shows the date the last activity on the site happened.
+* **Version Limit**; shows the version limit applied to the workspace
 
 {% hint style="info" %}
-**Please note:** If the **Last Activity column is empty** for a workspace, it means that the last activity for that workspace was performed before Syskit Point was deployed. Additionally, the activity is older than the Microsoft 365 audit logs retention period and can no longer be collected and processed by Syskit Point.
+**Please note:** If the **Last Activity column is empty** for a workspace, it means that the last activity for that workspace was performed before Syskit Point was deployed. Additionally, the activity is older than the retention period for the Microsoft 365 audit logs and can no longer be collected and processed by Syskit Point.
 
 Storage data for workspaces is collected from the **date of your initial Syskit Point deployment**.
 
@@ -76,9 +77,21 @@ The report lets you check the amount of storage used by sites in your tenant. Th
 
 Once the site report is successfully generated, the following information is available:
 
+* **Name**; shows the name of the workspace
+* **URL**; shows the URL for the workspace
+* **Primary Admin**; shows who the primary admin is of the workspace
+* **Last Modified**; shows when the workspace was last modified
+* **Storage Usage**; shows the current usage of the workspace
+* **Storage Limit**; shows the storage limit for the workspace
+* **Storage Warning Level**; shows the storage level at which you are warned that you are approaching the limit
+
+**Clicking on a workspace** opens the Site Storage Metrics report for that specific workspace.
+
+There, the following information can be found:
+
 * **The Site Trend chart** shows a graph that depicts your site storage usage over time in the last 180 days.
 * **The Site Storage Usage tile** on the right side shows the percentage of used storage out of the total number of available storage for your site.
-* **The File Type tile** that shows a chart and list of the types of files in your site and the amount of storage each file takes up.
+* **The File Type tile** shows a chart and list of the types of files on your site and the amount of storage each file takes up.
   * The File types tracked are the following:
     * **Videos**: mp4, mov, wmv, avi, avchd, webm
     * **Images**: jpeg, jpg, png, gif, raw, psd
@@ -86,7 +99,7 @@ Once the site report is successfully generated, the following information is ava
     * **Other**: any extensions not categorized in one of the above groups
 * **The File Version Cleanup tile** shows the amount of space you can free up by cleaning up the outdated versions of the site.
 
-The Largest Files & Folders section of the report is by default, set as a **Files Only view**, which means it shows a list of all files on the site. You can change the report to be seen as the **Site Structure view** by clicking the **Show by:** button located on the top right side of the Largest Files & Folders part of the report. &#x20;
+The Largest Files & Folders section of the report is, by default, set as a **Files Only view**, which means it shows a list of all files on the site. You can change the report to be seen as the **Site Structure view** by clicking the **Show by:** button located on the top right side of the Largest Files & Folders part of the report. &#x20;
 
 The following data will be displayed in the columns:
 
