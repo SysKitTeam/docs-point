@@ -12,6 +12,16 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Already using Syskit Point Cloud?** Syskit Point Cloud is automatically upgraded to the latest version when available. The automatic update occurs outside working hours to ensure minimal interference with your day-to-day business. The new version will start rolling out with this announcement and is expected to reach all customers in the upcoming days.
 
+## New Feature
+
+* **New Dashboard tile** is available: **Workspace Sensitivity**.
+  * The new Workspace Sensitivity Dashboard tile provides an overview of workspaces missing Sensitivity Tiles.
+  * From this tile, you can: 
+    * View All to open the Unlabeled Sites view 
+    * Select multiple workspaces and Ask Owners to review them
+    * Directly apply Sensitivity Labels to workspaces for an immediate resolution
+    * [For more details take a look at the XXX section of the XXX article.](../../microsoft365-inventory/explore-your-microsoft-365-dashboard.md)
+
 
 ## Improvements & Bug Fixes
 
