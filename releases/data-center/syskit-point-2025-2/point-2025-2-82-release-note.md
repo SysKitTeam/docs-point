@@ -8,7 +8,7 @@ description: This article lists improvements and bug fixes in Syskit Point versi
 
 **Product version:** 2025.2.82
 
-**Build number:** XX
+**Build number:** 57
 
 **Release date:** March 04, 2025
 
@@ -24,6 +24,9 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 ## Improvements & Bug Fixes
 
+* **Added the option to export audit reports** without including the details section.
+  * This option is available on all Audit reports by clicking the arrow next to Export > Export without details.   
+
 * **Improvements made to Security and Compliance Checks**: Inactive Workspaces.
   * **Clicking the ellipsis (three dots)** next to the *Send Reminder* button opens a dropdown menu with the following actions: **Change Admins, Keep, Delete, Archive**. 
   * Hovering over the ellipsis now displays a *More Actions* tooltip. 
@@ -35,9 +38,6 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 * **Improvements made to Provisioning.**
   * Fixed an issue where Outlook & E-mail Settings properties were not correctly applied when Provisioning a workspace.
   * Fixed an issue where Provisioning requests failed with the following error: `Error happened while resolving teamAsyncOperation`.
-
-* **Added the option to export audit reports** without including the details section.
-  * This option is available on all Audit reports by clicking the arrow next to Export > Export without details.   
 
 * **Added a new column** to the Power Automate Inventory report, which can be selected from the column chooser: **Premium License**.
 
