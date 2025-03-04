@@ -12,7 +12,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Already using Syskit Point Cloud?** Syskit Point Cloud is automatically upgraded to the latest version when available. The automatic update occurs outside working hours to ensure minimal interference with your day-to-day business. The new version will start rolling out with this announcement and is expected to reach all customers in the upcoming days.
 
-## New Feature
+## New Features
 
 * **New Dashboard tile** is available: **Workspace Sensitivity**.
   * The new Workspace Sensitivity Dashboard tile provides an overview of workspaces without Sensitivity labels applied.
@@ -21,6 +21,10 @@ description: This article lists improvements and bug fixes in the Syskit Point C
     * Select multiple workspaces and Ask Owners to review them
     * Directly apply Sensitivity Labels to workspaces for an immediate resolution
   * [Learn more about the importance of sensitivity labels in the following Syskit blog.](https://www.syskit.com/blog/microsoft-365-sensitivity-labels-guide/)
+
+* **Custom views are available on tree reports.**
+  * Now, you can customize and save views on tree reports. (e.g., Permissions Matrix, User access, etc.)
+  * Excel export of reports with applied views reflects the filtering from the view selected in Syskit Point.  
 
 ## Improvements & Bug Fixes
 
