@@ -20,6 +20,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
     * View All to open the Unlabeled Sites view 
     * Select multiple workspaces and Ask Owners to review them
     * Directly apply Sensitivity Labels to workspaces for an immediate resolution
+  * [Learn more about the importance of sensitivity labels in the following Syskit blog.](https://www.syskit.com/blog/microsoft-365-sensitivity-labels-guide/)
 
 ## Improvements & Bug Fixes
 
