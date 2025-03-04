@@ -20,7 +20,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
     * View All to open the Unlabeled Sites view 
     * Select multiple workspaces and Ask Owners to review them
     * Directly apply Sensitivity Labels to workspaces for an immediate resolution
-  * [Learn more about the importance of sensitivity labels in the following Syskit blog.](https://www.syskit.com/blog/microsoft-365-sensitivity-labels-guide/)
+  * [Learn more about the Workspace Sensitivity tile in the following article.](../../microsoft365-inventory/explore-your-microsoft-365-dashboard.md#workspace-sensitivity)
 
 * **Custom views are available on tree reports.**
   * Now, you can customize and save views on tree reports. (e.g., Permissions Matrix, User access, etc.)
