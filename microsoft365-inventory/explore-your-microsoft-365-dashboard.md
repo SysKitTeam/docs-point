@@ -291,4 +291,8 @@ The tile on the Dashboard shows:
 
 * **Infomation box** - this provides some additional information on sensitivity labels in general as well as a link to an article that explains it in more detail
 
+* [For details on how to enable Sensitivity Labels in Point, take a look at this article.](../governance-and-automation/provisioning/enable-sensitivity-labels.md)
+
+* [If you want to learn how to manage your Sensitivity Labels in Point, take a look at this article.](../governance-and-automation/manage-sensitivity-labels.md)
+
 ![Workspace Sensitivity Tile](../.gitbook/assets/dashboard-workspace-sensitivity-tile.png)
