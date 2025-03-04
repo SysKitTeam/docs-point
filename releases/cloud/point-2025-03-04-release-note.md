@@ -15,21 +15,17 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 ## New Feature
 
 * **New Dashboard tile** is available: **Workspace Sensitivity**.
-  * The new Workspace Sensitivity Dashboard tile provides an overview of workspaces missing Sensitivity Tiles.
+  * The new Workspace Sensitivity Dashboard tile provides an overview of workspaces without Sensitivity labels applied.
   * From this tile, you can: 
     * View All to open the Unlabeled Sites view 
     * Select multiple workspaces and Ask Owners to review them
     * Directly apply Sensitivity Labels to workspaces for an immediate resolution
-    * [For more details take a look at the XXX section of the XXX article.](../../microsoft365-inventory/explore-your-microsoft-365-dashboard.md)
-
 
 ## Improvements & Bug Fixes
 
 * **Improvements made to the Sharing Links report.**
-  * **Added new filters** for Sharing Links reports in order to make it easier to find links shared with external users.
-  * The Sharing Links report now has the following columns available: Created By, Share ID (unique link identifier), and External Guest Invitees. 
-
-* **Added additional logging** for site URL changes to improve sync performance for sites. 
+  * **Added new filters** for Sharing Links reports to make it easier to find links shared with external users; you can choose between the following options when generating the report: **all, only internal and only external users and groups**. 
+  * The Sharing Links report now has the Created By column enabled for SharePoint sites.
 
 * **Fixed an issue** with the in-place archive (read-only) action for SharePoint sites, which prevented members and owners from accessing the archived site. 
 
@@ -38,10 +34,8 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Fixed a bug** with user roles that caused a failure when performing user sync. 
 
-* **Fixed an issue** that caused the following error when provisioning a Yammer site: `System.NullReferenceException: Object reference not set to an instance of an object. at SysKit.Point.Provisioning.Infrastructure.ResourceProvisionRequests YammerProvisioningService.<>c__DisplayClass7_0.`
+* **Fixed an issue** that caused the following error when provisioning a Yammer site: `System.NullReferenceException: Object reference not set to an instance of an object.`
 
-* **Improved the functionality** of Storage Resync and Data Retention to increase performance with large-scale lists.
-
-* **Added new filters** for Sharing Links reports in order make it easier to find links shared with external users. 
+* **Improved the Storage sync** to increase performance in large environments.
 
 * **Various improvements, including UX and UI fixes, are available**
