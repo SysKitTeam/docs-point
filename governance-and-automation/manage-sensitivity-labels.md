@@ -9,7 +9,7 @@ description: This article explains how to manage sensitivity labels on your work
 To use sensitivity labels, a service account needs to be connected to Syskit Point. For details on how to set up sensitivity labels, take a look at the [Enable Sensitivity Labels article](provisioning/enable-sensitivity-labels.md). 
 {% endhint %}
 
-Once set up, **Syskit Point admins can apply or remove the sensitivity labels from workspaces**. 
+Once set up, **Syskit Point admins and workspace owners can apply or remove the sensitivity labels from workspaces**. 
 
 These changes can be done on the **Sites Overview** and the **Microsoft Teams & Groups Overview** screens.
 
