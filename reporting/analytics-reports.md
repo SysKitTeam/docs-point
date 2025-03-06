@@ -32,28 +32,37 @@ The Adoption and Analytics module brings additional reports available through th
 
 ## Site Analytics Report
 
-Site Analytics report provides an overview of all sites; it shows the total hits each site had in the last seven days, the highest number of unique daily visitors, and other details.
+The Site Analytics report provides an overview of all sites; it shows the total hits each site had in the last seven days, the highest number of unique daily visitors, and other details.
 
-### Generate File and Page Activities Report
+### Generate Site Analytics Report
 
 * **Click the Reports button**; it is located on the left side of your Syskit Point.
- * **Select Audit Logs in the filter**; it can be found in the upper left corner.
- * **Click the Site Analytics report** to generate the report.
+* **Select Audit Logs in the filter**; it can be found in the upper left corner.
+* **Click the Site Analytics report** to generate the report.
 
-### Analytics Report Data 
+### Site Analytics Report Data 
 
 Once the report has been successfully generated, the following data will be available in the columns:
 
 * **Site Name**; shows the site's name in the column. 
-   * When selecting a site, the charts for that site showing Site Hits, Site Visitors, and Site Storage will be visible at the bottom of the screen.
+  * When clicking on the row for a workspace, the charts at the bottom of the screen (Site Hits, Site Visitors, Site Storage) change to reflect information for that site show.
 * **URL**; provides a direct link to the site on the Microsoft 365 tenant.
+* **Type**; shows what type of workspace it is
 * **Total Hits**; shows the total number of hits the site had in the last seven days.
 * **Visitors**; shows the total number of unique visitors to the site.
 * **Size**; shows the total size of the site.
 * **Last Content Modified**; shows the date the site was last modified.
 
+Below the report, you can see three different charts. You can select the time frame for the data shown in the charts in the left-side filter. The default setting is Last 7 Days.
+
+The charts contain information on:
+
+* **Site Hits**; shows the number of site hits on different days/dates
+* **Site Vistors**; shows the number of site visitors on different days/dates
+* **Site Storage**; shows the state of your storage on different days/dates
+
 For a detailed insight into data about a specific site, click the Site Name. 
-  * The page that opens will show tiles with the site's General Info, Overview, Content, Permissions, Site Activity, User Activity, Documents Activity, and Pages Activity.
+* The page that opens will show tiles with the site's General Info, Overview, Content, Permissions, Site Activity, User Activity, Documents Activity, and Pages Activity.
 
 The analytics can show data from the last seven days, 14 days, 30 days, or a custom time frame.
 
