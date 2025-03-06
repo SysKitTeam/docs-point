@@ -25,6 +25,7 @@ The **Syskit Point** Dashboard shows Syskit Point administrators the following i
 * Inactive Workspaces 
 * Microsoft 365 Licenses
 * Power Platform
+* Workspace Sensitivity
 
 
 The **Syskit Point** Dashboard shows Syskit Point collaborators the following information in the tiles:
@@ -272,3 +273,28 @@ The tile on the Dashboard shows:
 ![Power Platform Tile](../.gitbook/assets/power-platform-tile.png)
 
 
+## Workspace Sensitivity 
+
+The Workspace Sensitivity tile provides an **overview of workspaces without a Sensitivity Label** applied to them. 
+
+The tile on the Dashboard shows:
+
+* **An overview of Labeled and Unlabeled workspaces** - this bar provides quick overview of:
+  * How many of your workspaces have a sensitivity label applied 
+  * How many of your workspaces are still unlabeled 
+  * A recommendation that at least 80% of your workspaces should have a label applied, represented as a shield icon
+
+* **View All** button, which opens the Sites overview screen with the Unlabeled Sites filter applied
+
+* **Not Enough Sensitivity Labels** - this section only shows up if your organization does not have enough sensitivity labels, with the recommended minimum being 4
+
+* **The number of Unlabeled Workspaces** - clicking on this opens the Sites overview screen with the Unlabeled Sites filter applied
+  * Next to it is the **Ask Owners button** - clicking this opens the same Sites overview screen with the Unlabeled Sites filter, where you can select one or more sites, and by going to Manage Sensitivity > Ask Owners, you can request that workspace owners review and apply sensitivity labels
+
+* **Infomation box** - this provides some additional information on sensitivity labels in general as well as a link to an article that explains it in more detail
+
+* [For details on how to enable Sensitivity Labels in Point, take a look at this article.](../governance-and-automation/provisioning/enable-sensitivity-labels.md)
+
+* [If you want to learn how to manage your Sensitivity Labels in Point, take a look at this article.](../governance-and-automation/manage-sensitivity-labels.md)
+
+![Workspace Sensitivity Tile](../.gitbook/assets/dashboard-workspace-sensitivity-tile.png)
