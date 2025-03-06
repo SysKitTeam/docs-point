@@ -11,7 +11,7 @@ Tailored reports are often needed to track inventory, access, activity, or other
 The ability to save custom views **lets you filter, sort, add, or remove columns in your report based on your specific needs and then retain those customizations for future use**. This includes exporting or scheduling reports with your customized view.
 
 
-Custom Views can be saved on all overview screens and grid reports, which are the following:
+Custom Views can be saved on all overview screens, grid reports, and tree reports which are the following:
 
 * **Overview Reports**
   * Sites
@@ -19,14 +19,16 @@ Custom Views can be saved on all overview screens and grid reports, which are th
   * Microsoft Groups
   * Users
 * **Report center**
-  * External Users
-  * Orphaned Users
-  * Orphaned Workspaces
-  * Inactive Workspaces
-  * Audit Reports
-  * License Reports
-  * Sensitivity Labels Reports
-  * Storage Reports
+  * External Sharing reports
+  * Access reports
+  * Audit reports
+  * Cleanup & Health reports
+  * Licenses reports
+  * Sensitivity Labels reports
+  * Storage reports
+  * Analytics reports (except for the Site Analytics report)
+  * Power Platform reports
+  * Power BI reports
 
 ## Save Custom Views
 
