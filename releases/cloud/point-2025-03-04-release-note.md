@@ -15,11 +15,9 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 ## New Features
 
 * **New Dashboard tile** is available: **Workspace Sensitivity**.
-  * The new Workspace Sensitivity Dashboard tile provides an overview of workspaces without Sensitivity labels applied.
-  * From this tile, you can: 
-    * View All to open the Unlabeled Sites view 
-    * Select multiple workspaces and Ask Owners to review them
-    * Directly apply Sensitivity Labels to workspaces for an immediate resolution
+  * The new Workspace Sensitivity Dashboard tile provides an overview of workspaces without Sensitivity labels applied. From this tile, you can: 
+    * Open the Unlabeled Sites view 
+    * From there, select multiple workspaces and **Ask Owners** to review them or directly **apply Sensitivity Labels to workspaces** for an immediate resolution
   * [Learn more about the Workspace Sensitivity tile in the following article.](../../microsoft365-inventory/explore-your-microsoft-365-dashboard.md#workspace-sensitivity)
 
 * **Custom views are available on tree reports.**
