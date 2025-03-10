@@ -15,18 +15,14 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes
 
-* **Improvements made to the Sharing Links report.**
-  * **A new filter was added to the selection step** of the Sharing Links report.
-    * Users can now generate the report for the following access options: 
-      * **All** 
-      * **Only internal**
-      * **Only external**
-  * **New columns added** to the Sharing Links report: Last Used and Last Used By. 
-    * These columns show the last time a link was accessed and who accessed it.
+* **New columns added to the Sites Overview screen**: **Number of Owners** and **Number of Admins**.
+  * **Number of Owners** 
+    * For Teams and M365 groups, this is the number of defined M365 group owners.
+    * For SharePoint sites, the column shows the number of users in the **Owners SharePoint group** associated with the SharePoint site.
+  * **Number of Admins** column shows the total number of users within the Site admins group. The Primary owner is counted here as well.
+  * You can find and enable these columns from the Column Chooser.
 
-* **The Metadata, Privacy and Sensitivity Review tasks** can now have multiple actions performed on the same site. 
+* **New columns added** to the Sharing Links report: **Last Used** and **Last Used By**. 
+  * These columns show the last time the content was accessed via a sharing link and who accessed it.
 
-* **New columns added to the Sites Overview screen**: Number of Owners and Number of Admins.
-  * These columns can be selected from the column chooser.
-
-* **Various improvements, including UX and UI fixes, are available**
+* **Various improvements, including UX and UI fixes, are available.**
