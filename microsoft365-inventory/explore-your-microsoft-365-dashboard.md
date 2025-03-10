@@ -284,14 +284,16 @@ The tile on the Dashboard shows:
   * How many of your workspaces are still unlabeled 
   * A recommendation that at least 80% of your workspaces should have a label applied, represented as a shield icon
 
-* **View All** button, which opens the Sites overview screen with the Unlabeled Sites filter applied
+* **View All** button, which opens the Sites overview screen with the Workspace Sensitivity view applied
+  * Here, you can see all your Microsoft Teams, M365 Groups, and SharePoint sites and discover whether there is a sensitivity label applied or not
 
 * **Not Enough Sensitivity Labels** - this section only shows up if your organization does not have enough sensitivity labels, with the recommended minimum being 4
 
-* **The number of Unlabeled Workspaces** - clicking on this opens the Sites overview screen with the Unlabeled Sites filter applied
-  * Next to it is the **Ask Owners button** - clicking this opens the same Sites overview screen with the Unlabeled Sites filter, where you can select one or more sites, and by going to Manage Sensitivity > Ask Owners, you can request that workspace owners review and apply sensitivity labels
+* **The number of Unlabeled Workspaces** and the **Ask Owners button** open the Sites overview screen with the Unlabeled Sites view filtering applied
+  * Here, you can select one or more sites, and by going to Manage Sensitivity > Ask Owners, you can **request that workspace owners review and apply sensitivity labels**
+  * You can also **apply a sensitivity label by running the Apply Sensitivity Label action** available within the Manage Sensitivity action dropdown
 
-* **Infomation box** - this provides some additional information on sensitivity labels in general as well as a link to an article that explains it in more detail
+* **Infomation box** - this provides some additional information on sensitivity labels in general as well as a link to an article that explains it in more detail.
 
 * [For details on how to enable Sensitivity Labels in Point, take a look at this article.](../governance-and-automation/provisioning/enable-sensitivity-labels.md)
 
