@@ -37,7 +37,7 @@ The Site Analytics report provides an overview of all sites; it shows the total 
 ### Generate Site Analytics Report
 
 * **Click the Reports button**; it is located on the left side of your Syskit Point.
-* **Select Audit Logs in the filter**; it can be found in the upper left corner.
+* **Select Analytics in the filter**; it can be found in the upper left corner.
 * **Click the Site Analytics report** to generate the report.
 
 ### Site Analytics Report Data 
@@ -77,7 +77,7 @@ Use this report to display the structure of the SharePoint environment.
 ### Generate Site Structure Report
 
 * **Click the Reports button**; it is located on the left side of your Syskit Point.
-* **Select Audit Logs in the filter**; it can be found in the upper left corner.
+* **Select Analytics in the filter**; it can be found in the upper left corner.
 * **Click the Site Structure report** to be redirected to the selection screen.
 * **Select one or multiple sites** for which to generate the report. 
   * Once selected, there are several options available to show content down to; Subsites, Document libraries & lists, Folders and Files, and folders. 
