@@ -284,7 +284,7 @@ The tile on the Dashboard shows:
   * How many of your workspaces are still unlabeled 
   * A recommendation that at least 80% of your workspaces should have a label applied, represented as a shield icon
 
-* **View All** button, which opens the Sites overview screen with the Unlabeled Sites filter applied
+* **View All** button, which opens the Sites overview screen with the Workspace Sensitivity filter applied
 
 * **Not Enough Sensitivity Labels** - this section only shows up if your organization does not have enough sensitivity labels, with the recommended minimum being 4
 
