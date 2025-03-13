@@ -11,6 +11,7 @@ This article contains information on analytics reports available through the **R
 * [Site Analytics Report](#site-analytics-report)
 * [Site Structure Report](#site-structure-report)
 * [Inactive Workspaces Report](#inactive-workspaces-report)
+* [Workspaces with Stale Content Report](#workspaces-with-stale-content-report)
 
 {% hint style="information" %}
 **Site Structure and Inactive Workspaces reports** are available in all plans.
@@ -151,6 +152,54 @@ There are additional columns available from the column chooser:
 * **Yammer Last Activity Date**
 * **Planner Activity**
 * **Planner Last Activity Date**
+
+## Workspaces with Stale Content Report
+
+The Workspaces with Stale Content report can detect workspaces with old or unused files quickly. 
+
+This report can be used to maintain clean and healthy workspaces by keeping track of any outdated content.
+
+### Generate Workspaces with Stale Content Report
+
+* **Click the Reports button**; it is located on the left side of your Syskit Point.
+* **Select Analytics in the filter**; it can be found in the upper left corner.
+* **Click the Workspaces with Stale Content report** to be redirected to the options screen.
+  * **Select which type of workspaces** the report should be generated for (Site, Microsoft 365 Group, or Microsoft Team).
+  * **Select whether you want to include files** that were created or modified.
+  * **Select the date** before which the report is generated.
+* **Click the Run Report button**.
+
+### Workspaces with Stale Content Report Data
+
+When the report has been successfully generated, all the workspaces with the parameters you entered on the selection step can be found there. 
+
+The Workspaces with Stale Content report data can be **exported in the XLSX format** and be **scheduled**.
+
+Selecting one or multiple workspaces provides the **Manage Metadata** action. 
+
+When looking at the generated reports, the following columns can be found:
+
+* **Name**; shows the name of the workspace
+* **URL**; shows the URL of the workspace
+* **Primary Admin**; shows the primary admin for the workspace
+* **Sensitivity Label**; shows the type of sensitivity label applied to the workspace if there is one
+
+There are additional columns available from the column chooser:
+* **Site Guid**
+* **Template**
+* **Data Location**
+* **Owners Emails**
+* **Created on**
+* **Last Modified**
+* **Storage Used**
+* **Primary Contact**
+* **Secondary Contact**
+* **Department**
+* **Project**
+* **Tier**
+* **Today's Date 365**
+* **Number of People on Project**
+
 
 ## SharePoint Activity Report
 
