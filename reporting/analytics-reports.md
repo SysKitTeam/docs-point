@@ -46,7 +46,7 @@ The Site Analytics report provides an overview of all sites; it shows the total 
 Once the report has been successfully generated, the following data will be available in the columns:
 
 * **Site Name**; shows the site's name in the column. 
-  * When clicking on the row for a workspace, the charts at the bottom of the screen (Site Hits, Site Visitors, Site Storage) change to reflect information for that site show.
+  * When clicking on the row for a workspace, the charts at the bottom of the screen (Site Hits, Site Visitors, Site Storage) change to reflect information for that site.
 * **URL**; provides a direct link to the site on the Microsoft 365 tenant.
 * **Type**; shows what type of workspace it is
 * **Total Hits**; shows the total number of hits the site had in the last seven days.
@@ -166,7 +166,7 @@ This report can be used to maintain clean and healthy workspaces by keeping trac
 * **Click the Workspaces with Stale Content report** to be redirected to the options screen.
   * **Select which type of workspaces** the report should be generated for (Site, Microsoft 365 Group, or Microsoft Team).
   * **Select whether you want to include files** that were created or modified.
-  * **Select the date** before which the report is generated.
+  * **Select the date** before which the files were created or modified.
 * **Click the Run Report button**.
 
 ### Workspaces with Stale Content Report Data
@@ -195,10 +195,6 @@ There are additional columns available from the column chooser:
 * **Primary Contact**
 * **Secondary Contact**
 * **Department**
-* **Project**
-* **Tier**
-* **Today's Date 365**
-* **Number of People on Project**
 
 
 ## SharePoint Activity Report
@@ -302,7 +298,7 @@ When the report is generated, the connection tree of all users in the selected e
 
 Network Interaction Details report provides insight into details about members' interactions via meetings or conversations.
 
-To see this report, the Adoption and Analytics module needs to be installed in Syskit Point.
+To see this report, the Adoption and Analytics module must be installed in Syskit Point.
 
 ### Generate Network Interaction Details Report
 
