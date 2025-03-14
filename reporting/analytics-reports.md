@@ -11,6 +11,7 @@ This article contains information on analytics reports available through the **R
 * [Site Analytics Report](#site-analytics-report)
 * [Site Structure Report](#site-structure-report)
 * [Inactive Workspaces Report](#inactive-workspaces-report)
+* [Workspaces with Stale Content Report](#workspaces-with-stale-content-report)
 
 {% hint style="information" %}
 **Site Structure and Inactive Workspaces reports** are available in all plans.
@@ -32,28 +33,37 @@ The Adoption and Analytics module brings additional reports available through th
 
 ## Site Analytics Report
 
-Site Analytics report provides an overview of all sites; it shows the total hits each site had in the last seven days, the highest number of unique daily visitors, and other details.
+The Site Analytics report provides an overview of all sites; it shows the total hits each site had in the last seven days, the highest number of unique daily visitors, and other details.
 
-### Generate File and Page Activities Report
+### Generate Site Analytics Report
 
 * **Click the Reports button**; it is located on the left side of your Syskit Point.
- * **Select Audit Logs in the filter**; it can be found in the upper left corner.
- * **Click the Site Analytics report** to generate the report.
+* **Select Analytics in the filter**; it can be found in the upper left corner.
+* **Click the Site Analytics report** to generate the report.
 
-### Analytics Report Data 
+### Site Analytics Report Data 
 
 Once the report has been successfully generated, the following data will be available in the columns:
 
 * **Site Name**; shows the site's name in the column. 
-   * When selecting a site, the charts for that site showing Site Hits, Site Visitors, and Site Storage will be visible at the bottom of the screen.
+  * When clicking on the row for a workspace, the charts at the bottom of the screen (Site Hits, Site Visitors, Site Storage) change to reflect information for that site.
 * **URL**; provides a direct link to the site on the Microsoft 365 tenant.
+* **Type**; shows what type of workspace it is
 * **Total Hits**; shows the total number of hits the site had in the last seven days.
 * **Visitors**; shows the total number of unique visitors to the site.
 * **Size**; shows the total size of the site.
 * **Last Content Modified**; shows the date the site was last modified.
 
+Below the report, you can see three different charts. You can select the time frame for the data shown in the charts in the left-side filter. The default setting is Last 7 Days.
+
+The charts contain information on:
+
+* **Site Hits**; shows the number of site hits on different days/dates
+* **Site Vistors**; shows the number of site visitors on different days/dates
+* **Site Storage**; shows the state of your storage on different days/dates
+
 For a detailed insight into data about a specific site, click the Site Name. 
-  * The page that opens will show tiles with the site's General Info, Overview, Content, Permissions, Site Activity, User Activity, Documents Activity, and Pages Activity.
+* The page that opens will show tiles with the site's General Info, Overview, Content, Permissions, Site Activity, User Activity, Documents Activity, and Pages Activity.
 
 The analytics can show data from the last seven days, 14 days, 30 days, or a custom time frame.
 
@@ -68,7 +78,7 @@ Use this report to display the structure of the SharePoint environment.
 ### Generate Site Structure Report
 
 * **Click the Reports button**; it is located on the left side of your Syskit Point.
-* **Select Audit Logs in the filter**; it can be found in the upper left corner.
+* **Select Analytics in the filter**; it can be found in the upper left corner.
 * **Click the Site Structure report** to be redirected to the selection screen.
 * **Select one or multiple sites** for which to generate the report. 
   * Once selected, there are several options available to show content down to; Subsites, Document libraries & lists, Folders and Files, and folders. 
@@ -142,6 +152,50 @@ There are additional columns available from the column chooser:
 * **Yammer Last Activity Date**
 * **Planner Activity**
 * **Planner Last Activity Date**
+
+## Workspaces with Stale Content Report
+
+The Workspaces with Stale Content report can detect workspaces with old or unused files quickly. 
+
+This report can be used to maintain clean and healthy workspaces by keeping track of any outdated content.
+
+### Generate Workspaces with Stale Content Report
+
+* **Click the Reports button**; it is located on the left side of your Syskit Point.
+* **Select Analytics in the filter**; it can be found in the upper left corner.
+* **Click the Workspaces with Stale Content report** to be redirected to the options screen.
+  * **Select which type of workspaces** the report should be generated for (Site, Microsoft 365 Group, or Microsoft Team).
+  * **Select whether you want to include files** that were created or modified.
+  * **Select the date** before which the files were created or modified.
+* **Click the Run Report button**.
+
+### Workspaces with Stale Content Report Data
+
+When the report has been successfully generated, all the workspaces with the parameters you entered on the selection step can be found there. 
+
+The Workspaces with Stale Content report data can be **exported in the XLSX format** and be **scheduled**.
+
+Selecting one or multiple workspaces provides the **Manage Metadata** action. 
+
+When looking at the generated reports, the following columns can be found:
+
+* **Name**; shows the name of the workspace
+* **URL**; shows the URL of the workspace
+* **Primary Admin**; shows the primary admin for the workspace
+* **Sensitivity Label**; shows the type of sensitivity label applied to the workspace if there is one
+
+There are additional columns available from the column chooser:
+* **Site Guid**
+* **Template**
+* **Data Location**
+* **Owners Emails**
+* **Created on**
+* **Last Modified**
+* **Storage Used**
+* **Primary Contact**
+* **Secondary Contact**
+* **Department**
+
 
 ## SharePoint Activity Report
 
@@ -244,7 +298,7 @@ When the report is generated, the connection tree of all users in the selected e
 
 Network Interaction Details report provides insight into details about members' interactions via meetings or conversations.
 
-To see this report, the Adoption and Analytics module needs to be installed in Syskit Point.
+To see this report, the Adoption and Analytics module must be installed in Syskit Point.
 
 ### Generate Network Interaction Details Report
 
