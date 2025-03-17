@@ -15,16 +15,6 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes 
 
-* **The Power Platform** People Picker supports SharePoint lists.
-  * When assigning owners in Power Platform Flows, you can search for and select SharePoint lists used in your connections. 
-
-* **The People Picker now resets** after a user is selected. 
-  * After picking a user, the input field clears automatically, making it easier to search for and select multiple users. 
-
-* **Review Reminders** are now sent automatically to users for any pending reviews, with the option for admins to manually send a reminders when needed. 
-
-* **Improved the logic** used to assign tasks when requesting a review based on policy settings.
-
 * **Improved the site sync** for larger SharePoint sites to prevent sync failures due to timeouts.
 
 * **Fixed a bug** that caused deleted users to appear in the Inactive Licenses report.
