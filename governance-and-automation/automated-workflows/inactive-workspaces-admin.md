@@ -94,7 +94,7 @@ The following type of activity is checked to determine if a workspace is inactiv
 * **Exchange activity** - collected via Microsoft 365 Groups activity report available in the Microsoft 365 admin center. **The last activity is based on the latest date when an email was delivered to a group**.
 * **Yammer activity** - the collection is also accomplished through the Microsoft 365 admin center usage report for Yammer groups activity. **The last activity is based on the latest date a message was read, posted, or liked by the group**.
 * **Microsoft Teams** - activity is collected using protected APIs in Microsoft Graph. **The last activity is based on the latest date when a message was posted or replied to**.
-
+* **Planner** - detected via Microsoft 365 Audit Logs Planner activity. **The last activity is based on the latest date when a plan within the workspace was created, deleted, modified, read, or shared.** 
 When using the Inactive Workspaces policy in Syskit Point, keep the following in mind:
  
 * **Vulnerabilities are NOT raised for the first 10 days** after Syskit Point is first connected to your tenant.
