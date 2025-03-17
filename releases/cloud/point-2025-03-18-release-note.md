@@ -22,7 +22,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 * **Fixed an issue** that caused archived workspaces to be shown as active. 
 
 * **Fixed an issue** that caused the following errors: 
-  * When syncing Power Platform apps: `[{"severityLevel":"Error","outerId":"0","message":"Error reading string. Unexpected token: StartObject.`
-  * When storing Power Platform App Flow usage: `[{"severityLevel":"Error","outerId":"0","message":"Violation of PRIMARY KEY constraint 'PK_PowerAppFlowUsages'. Cannot insert duplicate key in object 'PowerPlatform.PowerAppFlowUsages'.`
+  * When syncing Power Platform apps: `Error reading string. Unexpected token: StartObject.`
+  * When storing Power Platform App Flow usage: `Violation of PRIMARY KEY constraint 'PK_PowerAppFlowUsages'. Cannot insert duplicate key in object 'PowerPlatform.PowerAppFlowUsages'.`
 
 * **Various improvements, including UX and UI fixes, are available.**
