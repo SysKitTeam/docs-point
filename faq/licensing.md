@@ -58,7 +58,3 @@ Please [contact us](https://www.syskit.com/company/contact-us) or your dedicated
 ## Can I reassign Syskit Point license to some other owner?
 
 To reassign a license to a new owner, please visit our customers portal [https://subscriptions.syskit.com/](https://subscriptions.syskit.com/) to update billing and/or delivery contact.
-
-## Can I reassign Syskit Point license to some other owner?
-
-To reassign a license to a new owner, please visit our customers portal [https://subscriptions.syskit.com/](https://subscriptions.syskit.com/) to update billing and/or delivery contact.
