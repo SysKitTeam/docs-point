@@ -1,32 +1,31 @@
 ---
-description: This article explains how Syskit Point licensing depends on the Microsoft 365 licenses in your tenant.
+description: This article explains how Syskit Point licensing depends on the licensed Microsoft 365 accounts.
 ---
 
 # Licensed Users Count
 
-The licensing of the Syskit Point subscription **depends on the number of licensed users and resources within the Microsoft 365 tenant connected to Syskit Point**.
+The licensing of the Syskit Point subscription **is based on licensed Microsoft 365 accounts.**.
 
-**Licensed users are all users and resources with any Microsoft 365 license attached to them, except for those listed as [Free Licenses](#list-of-free-licenses).**
- * Resources include any **meeting rooms, service accounts**, and others with licenses.
- * Only **unique licensed users or guest users and resources will be counted**, regardless of how many licenses the unique user or resource has assigned to them. 
+**Licensed users are all users with any Microsoft 365 license attached to them, except for those listed as [Free Licenses](#list-of-free-licenses).**
+ * Only **unique licensed users or guest users will be counted**, regardless of how many licenses the unique user has assigned to them. 
  * **Guest users** only fit into that category **if they have a paid license assigned**. 
    * Having a license assigned to guest users is unnecessary for rudimentary use cases such as sharing content and using the Microsoft Teams app.
 
-The number of licensed users and resources within Syskit Point can be found by going to **Settings (1) > General (2) > Point License (3) > Number of licensed users M/N (4)**.
+The number of licensed users within Syskit Point can be found by going to **Settings (1) > General (2) > Point License (3) > Number of licensed users M/N (4)**.
 * Open a report with all your assigned paid licenses by clicking the **View Point Licenses button (5)**. 
 
 ![Number of Licensed Users](../.gitbook/assets/activation-licensed-users-point.png)
 
- * **M** is the **number of licensed users and resources in the tenant** 
- * **N** is the **number of Paid users and resources that are included in the Syskit Point license**
+ * **M** is the **number of licensed users in the tenant** 
+ * **N** is the **number of Paid users that are included in the Syskit Point license**
 
-**Clicking the View Point Licenses button** opens the Point Licenses report screen with a list of all paid licenses assigned to users and resources in Syskit Point. 
+**Clicking the View Point Licenses button** opens the Point Licenses report screen with a list of all paid licenses assigned to users in Syskit Point. 
 
 On that screen, you will find the following information:
-  * **Display Name (1)** of the user or resource
-  * **Licenses (2)** assigned to the user or resource
-  * **Username (3)** shows the email of the user or resource
-  * **Department (4)** that the user or resource belongs to 
+  * **Display Name (1)** of the user 
+  * **Licenses (2)** assigned to the user 
+  * **Username (3)** shows the email of the user 
+  * **Department (4)** that the user belongs to 
 
 You can also use the **column chooser (5)** to add columns to the report. 
 
@@ -42,20 +41,20 @@ You can also use the **column chooser (5)** to add columns to the report.
 To access information on how many assigned licenses exist in your Microsoft 365 environment, visit the admin center and take the following steps. 
 
 Under **Billing (1)**, select **Licenses (2)**. The list of **owned licenses (3)** will then be shown. 
- * The **Available Licenses (4)** column shows the number of licenses available to be assigned to users or resources. 
+ * The **Available Licenses (4)** column shows the number of licenses available to be assigned to users. 
  * The **Assigned Licenses (5)** column shows the number of assigned licenses compared to the available number. 
 
 ![How to Check the Microsoft 365 Licenses](../.gitbook/assets/licensed-users-count-m365-licenses.png)
 
-Selecting each license allows you to **Assign** it to additional users or resources or **Unassign** it from current ones. This can help with optimizing the cost of the Syskit Point subscription to suit your needs better.
+Selecting each license allows you to **Assign** it to additional users or **Unassign** it from current ones. This can help with optimizing the cost of the Syskit Point subscription to suit your needs better.
 
-**To unassign users or resources from a license**, click on the license name to select it. The **License details (1)** screen will open.
+**To unassign users from a license**, click on the license name to select it. The **License details (1)** screen will open.
 
- * Once there, **select an individual user or resource, or the top box to select all users and resources (2)**.
+ * Once there, **select an individual user, or the top box to select all users (2)**.
  * This will provide the option to click on **Unassign licenses (3)**; a pop-up will open requesting you click the **Unassign button to confirm**.
 
-The pricing for Syskit Point is **calculated based on each user or resource with an assigned license**. 
-For example, if one user or resource has three licenses, the charge would still be for that single user or resource, regardless of the number of licenses assigned. 
+The pricing for Syskit Point is **calculated based on each user with an assigned license**. 
+For example, if one user has three licenses, the charge would still be for that single user, regardless of the number of licenses assigned. 
 
 ![Unassign Microsoft 365 Licenses](../.gitbook/assets/licensed-users-count-unassign-m365-licenses.png)
 
@@ -79,7 +78,7 @@ If you have inactive users, you can remove their license through Syskit Point th
 
 {% hint style="information" %}
 
-**Please note** that if the license is assigned automatically to the user or resource once they are added as a member of a specific group, **it cannot be manually removed**. The license is removed automatically once the user or resource is removed from being a group member. [For more information about removing users from workspaces, read this article](../point-collaborators/manage-workspaces/manage-workspaces.md#remove-group-access).
+**Please note** that if the license is assigned automatically to the user once they are added as a member of a specific group, **it cannot be manually removed**. The license is removed automatically once the user is removed from being a group member. [For more information about removing users from workspaces, read this article](../point-collaborators/manage-workspaces/manage-workspaces.md#remove-group-access).
 
 {% endhint %}
 

@@ -18,7 +18,7 @@ To change your subscription plan, please visit our Subscriptions portal [https:/
 
 ## What does Syskit consider as a licensed Microsoft 365 account?
 
-Syskit Point licenses are calculated based on your M365 assigned licenses. Only unique users and resources will be counted. Guest Users only fit into that category if they have a license assigned. Licenses that have FREE in their name are not counted when calculating cost. [Read more details here](../licensing-activation/licensed-users-count.md).
+Syskit Point licenses are calculated based on your M365 assigned licenses. Only unique users will be counted. Guest Users only fit into that category if they have a license assigned. Licenses that have FREE in their name are not counted when calculating cost. [Read more details here](../licensing-activation/licensed-users-count.md).
 
 ## What will my Syskit Point subscription cost?
 
@@ -54,6 +54,10 @@ The minimum number of users for the Data Center plan is 1000 licensed Microsoft 
 ## I purchased Data Center edition. How do I acquire the Analytics&Adoption, or Power BI Companion App?
 
 Please [contact us](https://www.syskit.com/company/contact-us) or your dedicated sales/CSM representative for additional information on how to acquire these additional modules for Syskit Point.
+
+## Can I reassign Syskit Point license to some other owner?
+
+To reassign a license to a new owner, please visit our customers portal [https://subscriptions.syskit.com/](https://subscriptions.syskit.com/) to update billing and/or delivery contact.
 
 ## Can I reassign Syskit Point license to some other owner?
 
