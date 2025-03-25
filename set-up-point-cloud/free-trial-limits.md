@@ -20,12 +20,6 @@ You'll be able to utilize most of the Syskit Point features while in the free tr
 * **You will have a limit** of running 10 File Version Cleanup actions
 * **The Set Version Limit action** for Storage is not available during your trial period 
 
-{% hint style="warning" %}
-**Please note!**&#x20;
-
-**The Configuration Inventory Module** is only available in the Data Center plan and cannot be utilized with any of the Syskit Point Cloud plans. For more information on available plans for Syskit Point, follow [this link](https://www.syskit.com/products/point/pricing/).
-{% endhint %}
-
 In the Syskit Point web app, you will notice the **trial banner** located at the top of the screen for the trial duration.
 
 Here you can find the following:

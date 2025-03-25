@@ -25,21 +25,7 @@ description: >-
 
 See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../set-up-point-data-center/deployment/upgrade-syskit-point.md).
 
-### Configuration Inventory Module
-
-* **Want to try out the Configuration Inventory module?** [Contact us](https://www.syskit.com/contact-us/).
-* **Already using the Configuration Inventory module?** Upgrade to the latest version.\
-  [![](../../../.gitbook/assets/deployconfigurationinventory.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitassetsstorage.blob.core.windows.net%2Fpoint%2FARMTemplates%2FPointUpdateDeploy%2FCimUpdateVersion.json)
-
-See detailed step-by-step instructions on how to upgrade the Configuration Inventory module in the [Configuration Inventory upgrade article](../../../configuration-inventory/configuration-inventory-upgrade.md).
-
 ## Improvements & Bug Fixes
 
-{% hint style="warning" %}
-**Please note!**\
-Please [upgrade the Configuration Inventory module](../../../configuration-inventory/configuration-inventory-upgrade.md) to get the latest improvements and bug fixes delivered in the latest version.
-{% endhint %}
-
-* **Configuration Inventory was improved to support connecting to SQL database using a managed identity.** This method enables the Configuration Inventory module to securely connect to the SQL database without needing a username and password.
 * **Fixed an issue** where SharePoint site owners were not able to archive sites, Microsoft 365 Groups, and Microsoft Teams. The following error would show: `Error: Code: Authorization_RequestDenied Message: Insufficient privileges to complete the operation.`
 * **Fixed a bug** where the Syskit Point teams app would not show a notification to the requester in case the approver rejected the provisioning request.

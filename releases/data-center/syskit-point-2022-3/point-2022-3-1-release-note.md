@@ -23,8 +23,6 @@ description: >-
 
 See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../set-up-point-data-center/deployment/upgrade-syskit-point.md).
 
-* **Want to try out the Configuration Inventory module?** [Contact us](https://www.syskit.com/contact-us/).
-
 ## Improvements & Bug Fixes
 
 * **Improved the loading speed** for Access Review task steps and **optimized the complete functionality** of Access Review.

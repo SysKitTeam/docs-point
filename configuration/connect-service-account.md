@@ -5,7 +5,6 @@ description: This article explains how to connect a service account to Syskit Po
 # Connect Service Account
 
 **A service account** in Syskit Point is utilized for:
- * [The Configuration Inventory module](../configuration-inventory/configuration-inventory-requirements.md)
  * [Sensitivity labels in provisioning templates](../governance-and-automation/provisioning/enable-sensitivity-labels.md)
  * [Applying Versioning limits to workspaces via rules](../storage-management/versioning-limits.md)
 
@@ -25,12 +24,6 @@ Two options are available:
   * To enable multi-factor authentication, follow the instructions in [this article](https://support.microsoft.com/en-us/office/set-up-your-microsoft-365-sign-in-for-multi-factor-authentication-ace1d096-61e5-449b-a875-58eb3d74de14).
 
 ## Enter Credentials
-
-{% hint style="warning" %}
-**Please note!**  
-Use this option when connecting the service account to collect Configuration Inventory data. 
-The Configuration Inventory module currently does not support a service account with multi-factor authentication enabled.
-{% endhint %}
 
 If credentials are selected, additional fields are displayed where you can:
 * **Enter service account email address (1)**

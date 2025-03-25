@@ -174,16 +174,6 @@ Due to the listed permission changes, **Global Admin is required to re-consent p
 
 [To see the complete list of used App Registrations and assigned permissions, navigate to the Permission Requirements article](permission-requirements.md).
 
-### Syskit Point 2022.3
-
-**The following app registration was added**:
-
-* **Syskit Point Configuration Inventory** - created when the Configuration Inventory module is deployed with Syskit Point; used to collect Microsoft 365 configuration data
-
-Therefore, a **Global Admin will have to re-consent in the Syskit Point Welcome Home screen**.
-
-[To see the complete list of permissions assigned to the Syskit Point Configuration Inventory app registration, navigate to the following article](../configuration-inventory/configuration-inventory-requirements.md#configuration-inventory-app-permissions).
-
 ### Syskit Point 2022.2
 
 * A **redirect URI was added to the Syskit Point Service app registration** that **enables Syskit Point Admins to access the new Hangfire dashboard**. The Hangfire dashboard offers an overview of the status of all the background jobs Syskit Point is periodically running. Therefore, a **Global Admin will have to**:
