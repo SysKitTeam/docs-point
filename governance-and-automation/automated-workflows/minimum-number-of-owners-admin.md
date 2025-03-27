@@ -21,6 +21,7 @@ The **Edit Policy** dialog opens where you can:
     * **Perform no Action**; task remains active, and owners can continue to resolve them
     * **Reassign Task**; when selected, you can define who will get the task - **Manager of the Reviewer**, **Syskit Point Administrators**, or **custom recipients**; this option is selected by default, and the tasks are reassigned to Manager of Reviewer; you must define a fallback user in case there is no manager of the reviewer   
       * You can **select the Also add as a workspace member checkbox (7)** there if you want to add this user as a workspace member; selecting this adds the selected user(s) as members to the workspace(s) with the policy assigned in case they are not already members
+        * This option is useful for situations where the reviewer's manager does not have access to the workspace; by providing membership access, the manager can gather more information on the workspace and make an informed decision on the best way to resolve the vulnerability. 
     * **Automatically Archive**; if selected, **Syskit Point will archive Microsoft Teams/Groups** where owners don't resolve the task within 15 workdays
     * **Automatically Delete**; if selected, **Syskit Point will delete Microsoft Teams/Groups** where owners don't resolve the task within 15 workdays
   * **Click the checkbox to allow owners to accept risk for the policy (8)**; the accept risk action excludes this policy from the Security & Compliance check for a specified time period
@@ -29,10 +30,12 @@ The **Edit Policy** dialog opens where you can:
 
 ![Edit Policy Dialog](../../.gitbook/assets/set-up-automated-workflows-min-owners-dialog.png)
 
-{% hint style="info" %}
-**Please note:** By default, the Minimum Number of Owners Orphaned policy vulnerability is detected when less than two active owners are assigned to a workspace. If there are no active owners assigned to a workspace, the [Orphaned Workspaces](orphaned-resources-admin.md) vulnerability is detected instead.
+![Edit Policy Dialog - Task Delegation](../../.gitbook/assets/set-up-automated-workflows-min-owners-dialog-task-delegation.png)
 
-If one owner is assigned to a workspace when resolving the Orphaned Workspaces vulnerability, Syskit Point will detect the Minimum Number of Owners vulnerability.
+{% hint style="info" %}
+**Please note:** By default, the Minimum Number of Owners Orphaned policy vulnerability is detected when less than 2 active owners are assigned to a workspace. If there are no active owners assigned to a workspace, the [Orphaned Workspaces](orphaned-resources-admin.md) vulnerability is detected instead.
+
+If 1 owner is assigned to a workspace when resolving the Orphaned Workspaces vulnerability, Syskit Point will detect the Minimum Number of Owners vulnerability.
 {% endhint %}
 
 For details on how collaborators can [**resolve Minimum Number of Owners policy vulnerability tasks**, navigate to the following article](../../point-collaborators/resolve-governance-tasks/minimum-number-of-owners.md).
