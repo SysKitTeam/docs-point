@@ -15,6 +15,9 @@ The **Edit Policy** dialog opens where you can:
 * **Define the policy name (1)**
 * **Define the minimum number of required owners (2)**; this is set to 2 by default
 * **Choose the severity level (3)**; this option is enabled by default
+
+![Edit Policy Dialog](../../.gitbook/assets/set-up-automated-workflows-min-owners-dialog.png)
+
 * **Enable Task Delegation (4)** by clicking the toggle next to it and selecting your task delegation preferences:  
   * **Send reminder to reviewers (5)** 3 work days before due date; this option is enabled by default  
   * **Choose what to do if owners don't resolve the policy vulnerability until the due date (6)**. The following options are available:   
@@ -27,8 +30,6 @@ The **Edit Policy** dialog opens where you can:
   * **Click the checkbox to allow owners to accept risk for the policy (8)**; the accept risk action excludes this policy from the Security & Compliance check for a specified time period
   * **A message (9)** is displayed within the dialog in case you enable the Task Delegation option; Syskit Point will create tasks and send emails to owners the next time the underlying daily Policy Monitor job runs
 * Click **Save (10)** once you complete the policy configuration.
-
-![Edit Policy Dialog](../../.gitbook/assets/set-up-automated-workflows-min-owners-dialog.png)
 
 ![Edit Policy Dialog - Task Delegation](../../.gitbook/assets/set-up-automated-workflows-min-owners-dialog-task-delegation.png)
 
