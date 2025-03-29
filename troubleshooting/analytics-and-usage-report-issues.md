@@ -16,7 +16,6 @@ The **following components will stop working in Syskit Point** as a result of ps
 
 * **Licenses Usage by Service report**
 * **Yammer, Exchange, and Microsoft Teams last activity detection**
-* **Adoption metrics** and **Teams messages metrics** available on Dashboard
 
 ## Solution
 
