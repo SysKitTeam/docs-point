@@ -254,12 +254,6 @@ To manage the permissions, you can run the related PowerShell cmdlets described 
 
 [See the following article to learn how to enable Power Apps and Power Automate data collection in Syskit Point.](../configuration/power-platform.md)
 
-### Configuration Inventory Module
-
-If the Configuration Inventory module is deployed, Syskit Point creates an Azure AD Application named **Syskit Point Configuration Inventory** when establishing a [connection](../set-up-point-data-center/deployment/connect-to-tenant.md) to your tenant.
-
-[Open this article to see all permissions granted to Syskit Point Configuration Inventory app registration](../configuration-inventory/configuration-inventory-requirements.md).
-
 ### Syskit Point API
 
 **Syskit Point API** app registration is used for third-party app integration, meaning you can get Syskit Point data via Syskit Point API and use it in other business applications and web services.\
