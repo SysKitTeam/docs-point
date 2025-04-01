@@ -51,9 +51,9 @@ The minimum number of users you can purchase a Syskit Point Cloud plan for is 10
 
 The minimum number of users for the Data Center plan is 1000 licensed Microsoft 365 users.
 
-## I purchased Data Center edition. How do I acquire the Analytics&Adoption, or Power BI Companion App?
+## I purchased the Data Center edition. How do I acquire the Power BI Companion App?
 
-Please [contact us](https://www.syskit.com/company/contact-us) or your dedicated sales/CSM representative for additional information on how to acquire these additional modules for Syskit Point.
+Please [contact us](https://www.syskit.com/company/contact-us) or your dedicated sales/CSM representative for additional information on how to acquire additional modules for Syskit Point.
 
 ## Can I reassign Syskit Point license to some other owner?
 

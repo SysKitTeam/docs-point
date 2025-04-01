@@ -4,7 +4,7 @@ description: Analytics reports provide insight into user interactions with Micro
 
 # Analytics Reports
 
-Reports in this article help keep track of **user interaction** with Microsoft 365 services, compare adoption between **departments**, and detect which **content and services** are not being used.
+Reports in this article help keep track of **user interaction** with Microsoft 365 workspaces, see the **content structure**, and detect which **content** is not being used.
  
 This article contains information on analytics reports available through the **Report Center**:
 
@@ -14,21 +14,8 @@ This article contains information on analytics reports available through the **R
 * [Workspaces with Stale Content Report](#workspaces-with-stale-content-report)
 
 {% hint style="information" %}
-**Site Structure and Inactive Workspaces reports** are available in all plans.
-**Site Analytics report** is available in the Security & Compliance plan and higher tiers. 
+**Site Structure and Inactive Workspaces reports** are available in all plans. **Site Analytics report** is available in the Security & Compliance plan and higher tiers. 
 See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
-{% endhint %}
-
-## Adoption and Analytics Module Reports
-The Adoption and Analytics module brings additional reports available through the **Report Center**.
-* [SharePoint Activity Report](#sharepoint-activity-report)
-* [Most Popular Content Report](#most-popular-content-report)
-* [Meeting Interactions Report](#meeting-interactions-report)
-* [Conversation Interactions Report](#conversation-interactions-report)
-* [Network Interaction Details Report](#network-interaction-details-report)
-
-{% hint style="warning" %}
-**Please note!** **Adoption & Analytics module support ends on January 1st, 2024**. No further fixes, feature updates, or general support will be available after the date. 
 {% endhint %}
 
 ## Site Analytics Report
@@ -197,126 +184,3 @@ There are additional columns available from the column chooser:
 * **Department**
 
 
-## SharePoint Activity Report
-
-SharePoint Activity report **provides a detailed overview of SharePoint usage**. It offers insight into the most active users, most popular sites, documents, or pages. 
-
-This report can be used to **track the adoption of SharePoint** in your environment.
-
-To see this report, **the Adoption and Analytics module** needs to be installed in Syskit Point.
-
-### Generate SharePoint Activity Report
-
-* **Click the Reports button**; it is located on the left side of your Syskit Point.
-* **Select Analytics in the filter**; located in the upper left corner.
-* **Click the SharePoint Activity report** to be redirected to the **Selections screen**.
-  * **Select which workspace** the report should be generated for, and select the time frame on the bottom filter.
-* **Click the Run Report button**.
-
-### SharePoint Activity Report Data
-
-When the report is successfully generated, detailed graphs that show the activity of Users, Sites, Pages, and Documents will be shown along with the following:
-  * The Most Active Users 
-  * Sites
-  * Top five pages 
-  * Top five Document visitors
-  * Top five Documents visited
-  
-The number of Unique Visitors, the most popular days, which type of devices the visitors are using, and other details will also be visible. 
-
-## Most Popular Content Report
-
-The Most Popular Content report makes it easy to **identify the most popular documents and pages** in your Microsoft 365 environment.
-
-To view this report, the Adoption and Analytics module needs to be installed in Syskit Point.
-
-### Generate Most Popular Content Report
-
-* **Click the Reports button**; it is located on the left side of your Syskit Point.
-* **Select Analytics in the filter**; located in the upper left corner.
-* **Click the Most Popular Content report** to be redirected to the **Selections screen**.
-  * **Select which workspace** the report should be generated for; in the bottom filter, select the time frame and choose between **Pages or Documents**. 
-* **Click the Run Report button**.
-
-### Most Popular Content Report Data
-
-Once the report is successfully generated, it shows the most popular pages or documents in your Microsoft 365 environment. 
-
-The Most Popular Content report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
-
-The columns that are seen by default are:
-
-- **Name**; shows the name of the page or document. 
-  * When clicked on, it redirects to the details page of that page or document in Syskit Point.
-- **Site Name**; shows the name of the workspace where the most popular document is. 
-  * When clicked on, it redirects to the site details page in Syskit Point.
-- **Hit Count**; shows the unique number of hits on the page or document.
-- **Unique Visitors Count**; shows the number of unique visitors that have visited the page or document.
-
-## Meeting Interactions Report
-
-The Meeting Interactions report allows the exploration of how people interact in Microsoft Teams via 1:1 calls and meetings.
-
-This report can be used to see how users are adopting Microsoft Teams in your environment.
-
-To see this report, the Adoption and Analytics module needs to be installed in Syskit Point.
-
-### Generate Meeting Interactions Report
-
-* **Click the Reports button**; it is located on the left side of your Syskit Point.
-* **Select Analytics in the filter**; located in the upper left corner.
-* **Click the Meeting Interactions report** to be redirected to the **Selections screen**.
-  * **Select which company department** the report should be generated for; in the bottom filter, select the time frame for the report. 
-* **Click the Run Report button**.
-
-### Meeting Interactions Report Data
-
-When the report is generated, the connection tree of all users in the selected environment can be seen, as well as whether they interact via 1:1 calls or meetings and how often they interact. The Activity tab can also be seen, where the most active users in that department are shown.
-
-## Conversation Interactions Report
-
-The Conversation Interactions report provides the ability to **explore how people interact with each other** via chat messages in Microsoft Teams. 
-
-Use this report to track the adoption of Microsoft Teams in your environment.
-
-To see this report, the Adoption and Analytics module needs to be installed in Syskit Point.
-
-### Generate Conversation Interactions Report
-
-
-* **Click the Reports button**; it is located on the left side of your Syskit Point.
-* **Select Analytics in the filter**; located in the upper left corner.
-* **Click the Conversation Interactions report** to be redirected to the **Selections screen**.
-  * **Select which company department** the report should be generated for; in the bottom filter, select the time frame for the report. 
-* **Click the Run Report button**.
-
-### Conversation Interactions Report Data
-
-When the report is generated, the connection tree of all users in the selected environment can be seen, as well as whether they interact via Microsoft Teams chat messages and how often they interact. The Activity tab can also be seen, where the most active users in that department are shown.
-
-## Network Interaction Details Report
-
-Network Interaction Details report provides insight into details about members' interactions via meetings or conversations.
-
-To see this report, the Adoption and Analytics module must be installed in Syskit Point.
-
-### Generate Network Interaction Details Report
-
-
-* **Click the Reports button**; it is located on the left side of your Syskit Point.
-* **Select Analytics in the filter**; located in the upper left corner.
-* **Click the Network Interaction Details report** to be redirected to the **Selections screen**.
-  * **Select which company department** the report should be generated for; in the bottom filter, select the time frame for the report. 
-* **Click the Run Report button**.
-
-### Network Interaction Details Report Data
-
-Once the report is generated, the details about members' interactions through meetings or conversations can be seen. 
-
-The Network Interaction Details report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
-
-The Network Interaction Details report is a tree-type style report that shows the user as a Parent branch and all other users they interacted with as a Child branch. 
-
-The report shows departments for each user to see which departments are interacting with each other. 
-
-It also shows the number of calls and chat messages users exchanged.
