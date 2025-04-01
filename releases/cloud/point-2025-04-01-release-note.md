@@ -15,11 +15,12 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes 
 
-* **Syskit Point now automatically assigns an alternative Admin** if no valid approvers are left.
-  * Approval Policies can no longer be saved or updated if all the approvers are deleted or disabled. 
+* **Syskit Point now automatically assigns tasks to Syskit Point Admins** if a defined fallback user is no longer active.
+  * **For example**, a fallback user can be defined when a user doesn't have a manager. Still, the specified user can be deleted or blocked from his sign-in.  In that case, Syskit Point admins will be assigned to unresolved tasks to ensure task completion.
 
 * **Fixed an issue** that caused the export action to not work on the Manage Reviewers screen. 
 
-* **Fixed an issue** where Service Accounts were removed from being Site Admins even when the removal was not requested as part of the policy enforcement. 
+* **Fixed an issue** where the service account was erroneously removed from being Site Admin when applying a sensitivity label or applying the versioning limit policy via rule. 
+  * The service account will no longer be removed if it is set as Site Admin before running the actions.
 
 * **Various improvements, including UX and UI fixes, are available.**
