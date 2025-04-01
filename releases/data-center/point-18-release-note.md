@@ -23,12 +23,6 @@ While you wait for spring to come, we bring you the latest and greatest **Syskit
 
   [To learn more about alerts in Syskit Point, read the following article.](../../governance-and-automation/configure-alerts.md)
 
-  * **New Analytics and Adoption reports and dashboards are available!** They enable you to:
-    * **discover most active Microsoft Teams, channels, and users**
-    * **find information about meetings**, such as average duration, number of meetings through time, among others
-    * **track adoption of different workloads over time**
-    * **view SharePoint activity for selected sites**; find most active users, the most popular sites, as well as pages and documents with most hits within a selected time frame 
-
 * **New Access Review setup, policies, and capabilities are now available!**  
   You can now set up the automated Access Review with the help of the new Access Review wizard. Access review policies are also introduced to give you more possibilities and greater flexibility. Per each review policy, you can define the following:
 
