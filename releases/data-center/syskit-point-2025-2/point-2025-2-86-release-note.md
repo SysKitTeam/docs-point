@@ -22,6 +22,12 @@ description: This article lists improvements and bug fixes in Syskit Point versi
 See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../set-up-point-data-center/deployment/upgrade-syskit-point.md).
 
 
+{% hint style="warning" %}
+**Please note!**\
+**This is a mandatory release that must be deployed before upgrading to all future updates**.\
+The 2025.2.86 release brings important improvements to Syskit Point’s backend architecture, which is part of our ongoing commitment to **ensuring the platform remains highly scalable**.
+{% endhint %}
+
 ## New Features
 
 * **New Dashboard tile** is available: **Workspace Sensitivity**.
