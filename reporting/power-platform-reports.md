@@ -56,6 +56,12 @@ On the **Power Platform Environments** report, the default columns displayed are
 * **Connectors** - the number of connectors contained within the environment
 * **External Users** - the number of external users in the environment
 
+**Selecting one or more environments** lets you complete **the Delete Environment action**. 
+* **Clicking the Delete Environment action** opens the confirmation modal that states that performing this action means:
+  * The environments resources and backups will be deleted, including dataverse, apps, and data
+  * Administrators of environments will have 7 days to recover it by going to the main Microsoft environments page
+* **Type Delete in the confirmation bar and click the delete button** to complete the action
+
 The additional columns available in the **column chooser**, located in the top right corner of the report, are:
       
 * **State**
@@ -64,7 +70,6 @@ The additional columns available in the **column chooser**, located in the top r
 * **Environment ID**
 
 The Power Platform Environments report can be **exported as PDF and XLSX files**. The option to **schedule the report** is also available.
-
 
 ## Power Apps Inventory Report
 
@@ -126,6 +131,17 @@ In the top left corner, you can also select a specific view for the report:
 * **All Apps**
 * **Inactive Apps**
 * **Orphaned Apps**
+
+**Selecting one App** lets you complete **the Change Owners action**. 
+* **Clicking the Change Owners action** opens the confirmation modal that lets you add:
+  * Primary Owner - you can select one primary owner by typing the name or email of the user you want to set as the primary owner
+  * Co-Owners - you can select one or more co-owners by typing the name or email of the users you want to set as co-owner(s)
+* **Click the Change button** to complete the action and set the new App owners
+
+**Selecting one or more Apps** lets you complete **the Add Co-owners action**. 
+* **Clicking the Add Co-owners action** opens the confirmation modal that lets you:
+  * **Select one or more co-owners** by typing the name or email of the users you want to set as the co-owner(s)
+* **Click the Change button** to complete the action and set the new App co-owners
 
 The additional columns available in the **column chooser**, located in the top right corner of the report, are:
 
@@ -197,6 +213,17 @@ In the top left corner, you can also select a specific view for the report:
 * **All Flows**
 * **Inactive Flows**
 * **Orphaned Flows**
+
+**Selecting one Flow** lets you complete **the Change Owners action**. 
+* **Clicking the Change Owners action** opens the confirmation modal that lets you add:
+  * Primary Owner - you can select one primary owner by typing the name or email of the user you want to set as the primary owner
+  * Co-Owners - you can select one or more co-owners by typing the name or email of the users you want to set as co-owner(s)
+* **Click the Change button** to complete the action and set the new Flow owners
+
+**Selecting one or more Flows** lets you complete **the Add Co-owners action**. 
+* **Clicking the Add Co-owners action** opens the confirmation modal that lets you:
+  * **Select one or more co-owners** by typing the name or email of the users you want to set as the co-owner(s)
+* **Click the Change button** to complete the action and set the new Flow co-owners
 
 The additional columns available in the **column chooser**, located in the top right corner of the report, are:
 
