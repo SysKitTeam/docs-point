@@ -288,8 +288,8 @@ The tile on the Dashboard shows:
 
 * **Not Enough Sensitivity Labels** - this section only shows up if your organization does not have enough sensitivity labels, with the recommended minimum being 4
 
-* **The number of Unlabeled Workspaces** - clicking on this opens the Sites overview screen with the Unlabeled Sites filter applied
-  * Next to it is the **Ask Owners button** - clicking this opens the same Sites overview screen with the Unlabeled Sites filter, where you can select one or more sites, and by going to Manage Sensitivity > Ask Owners, you can request that workspace owners review and apply sensitivity labels
+* **The number of Unlabeled Workspaces** - clicking on this or the **Ask Owners** button next to it opens the Workspaces Without a Sensitivity Label screen in the Security and Compliance checks section, where you can perform the **Apply Label** or **Ask Owners** actions.
+  * [For details on how to resolve the Workspaces without a Sensitivity Label vulnerability, take a look at this article.](../governance-and-automation/security-compliance-checks/workspaces-without-sensitivity.md)
 
 * **Infomation box** - this provides some additional information on sensitivity labels in general as well as a link to an article that explains it in more detail
 
