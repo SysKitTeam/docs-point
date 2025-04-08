@@ -46,10 +46,10 @@ To view and manage the shadow users for this workspace, click the **View Users b
 This opens the Remove Access for Shadow users screen, where you can:
 
 * Click the **View Access button (1)** to see the access the user has in the workspace.
-  * This opens the User Access report that shows a list of all workspaces where this user has access and shows the level of access they have per workspace. 
+  * This opens the User Access report that shows a list of all workspaces where this user has access and shows the level of access they have per workspace. 
 * Click the **Remove Access button (2)**.
-  * This opens the Remove User Access button
-  * To remove access **type REMOVE (3)** in the designated space and **click the Remove Access button (4)** to finalize your choice.
+  * This opens the Remove User Access button
+  * To remove access **type REMOVE (3)** in the designated space and **click the Remove Access button (4)** to finalize your choice.
 
 ![Workspaces with Shadow Users - Remove Access from Shadow Users Screen](../../.gitbook/assets/security-compliance-checks-shadow-users-access.png)
 
