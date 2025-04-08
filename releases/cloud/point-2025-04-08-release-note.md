@@ -38,7 +38,7 @@ Consent is required due to permission change introduced to enable [running Power
   * This policy helps you detect workspaces that don't have a sensitivity label attached and could pose a security risk.
     * [For more details about the Workspaces without a Sensitivity Label policy, read this article.](../../governance-and-automation/automated-workflows/workspaces-no-sensitivity-admin.md)
   * Once a workspace without a sensitivity label is detected, it is flagged as a vulnerability and can be found in the Security & Compliance dashboard.
-    * [To find out more about actions available to Syskit Point admins and how they can resolve the detected vulnerability, read the related Security & Compliance report article.](../../governance-and-automation/security-compliance-checks/inactive-workspaces.md)
+    * [To find out more about actions available to Syskit Point admins and how they can resolve the detected vulnerability, read the related Security & Compliance report article.](../../governance-and-automation/security-compliance-checks/workspaces-without-sensitivity.md)
     * [Learn how workspace owners can resolve the Sensitivity review tasks in the following article.](../../point-collaborators/resolve-governance-tasks/sensitivity-review.md)
   * Clicking the **Unlabeled Workspaces** button on the Dashboard Workspace Sensitivity tile now redirects to the Security & Compliance checks screen for the Workspaces Without a Sensitivity Label policy.
 
