@@ -279,6 +279,7 @@
   * [View Permission Changes in Microsoft 365](access-management/view-permission-changes.md)
   * [Supervise Microsoft Teams Private Channels](access-management/supervise-microsoft-teams-private-channels.md)
   * [Manage Private Channels Access](access-management/manage-private-channels.md)
+  * [Complete Power Platform Actions](access-management/power-platform-actions.md)
 * [Integrations](integrations/README.md)
   * [Overview](integrations/overview.md)
   * [Syskit Point API](integrations/syskit-point-api.md)
