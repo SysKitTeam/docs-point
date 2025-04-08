@@ -23,9 +23,15 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **New Power Platform actions are available.**
   * You can now complete the following actions on Power Platform reports:
-    * **Change Owners** - this action can currently be completed for Apps on the Power Apps Inventory report
-    * **Add Co-Owners** - this action can be completed for Flows on the Power Automate Inventory report and Apps on the Power Apps Inventory report
-    * **Delete Environment** - this action helps you remove unused environments and can be completed on the Power Platform Environments report
+    * **Change Owners**
+      * This action can be completed for Flows on the Power Automate Inventory and Permissions reports, as well as Apps on the Power Apps Inventory and Permissions reports
+      * On the reports, select a single App or Flow and modify the Primary owner and Co-owners
+      * Note that the Primary owner cannot be changed for the non-solution Flows currently synced in Syskit Point    
+    * **Add Co-Owners**
+      * This action can be completed for Flows on the Power Automate Inventory report and Apps on the Power Apps Inventory report
+      * On the reports, select one or multiple Apps or Flows and add additional Co-owners, which can come in handy when trying to define Co-owners on multiple orphaned Flows
+    * **Delete Environment**
+      * This action helps you remove unused environments and can be completed on the Power Platform Environments report
   * [For more details, please take a look at the Power Platform actions article.](../../access-management/power-platform-actions.md)
 
 
@@ -35,9 +41,9 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Fixed a bug** with the File Storage Details report that caused the File Details columns to not load data correctly when viewing files Older than 6 months. 
 
-* **Fixed an issue** where Microsoft Team Owners who were not also Site Admins could not perform the expected actions in Syskit Point.
-  * The **Add users with Full Control** setting needs to be enabled for sites that want to ensure that collaborators who are only Team owners can complete team-related actions. 
+* **Fixed an issue** where Microsoft Team Owners who were not also Site Admins could not perform the expected actions in Syskit Point to resolve security & compliance vulnerabilities.
+  * The **Add users with Full Control** setting needs to be enabled for the Syskit Point Collaborators role to ensure that collaborators who are Team owners can access Syskit Point and resolve their tasks. 
 
-* **Fixed the issue** caused by the Storage sync action only considering when the last storage sync was attempted instead of when the sync was last successful.
+* **Fixed the issue** where the Storage sync job would sync storage data based on the last sync time instead of when the sync was last successful.
 
 * **Various improvements, including UX and UI fixes, are available.**
