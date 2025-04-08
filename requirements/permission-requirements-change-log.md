@@ -58,6 +58,19 @@ After clicking the Manage Connection button, you can expect the following to hap
 
 Depending on which version you are upgrading to, below you can find the list of changes in permissions requested and which features depend on them.
 
+### Syskit Point Cloud 2025.2.88
+
+{% hint style="warning" %}
+**Syskit Point will require reconsent only if you enabled Power Platform data collection in one of the previous versions.**\
+**New permission is added for the app registration after reconsenting if the Power Platform data collection is enabled.**
+{% endhint %}
+
+**The following permission is added to the existing Syskit Point app registration**:
+
+| App Registration    | API/Permissions Name                     | Permission                        | Type      | Reason                                                                                         |
+| ------------------- | ---------------------------------------- | --------------------------------- | --------- | ---------------------------------------------------------------------------------------------- |
+| Syskit Point Client | PowerApps Service/User | Access the PowerApps Service API | Delegated | Allows you to run Power Platform actions in Syskit Point. |
+
 ### Syskit Point Cloud 2025.1.77
 
 With the introduction of Power Platform support, new permissions are added to the following app registrations when the Global Administrator turns on the Power Platform data collection and provides consent.
