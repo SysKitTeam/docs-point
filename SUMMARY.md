@@ -303,6 +303,7 @@
   * [Partner Program](faq/partner-program.md)
   * [Site Storage Limits](faq/site-storage-limits.md)
   * [Orphaned Users](faq/orphaned-users.md)
+  * [Inactive Users Detection](faq/inactive-users-detection.md)
   * [Provisioning - Content & Structure](faq/provisioning-content-structure.md)
 * [Troubleshooting](troubleshooting/README.md)
   * [Export Diagnostic Logs](troubleshooting/export-diagnostic-logs.md)
