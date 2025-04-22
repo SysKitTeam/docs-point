@@ -17,7 +17,7 @@ Reconsent can be performed:
 
 ### Reconsent After Upgrade
 
-If the latest Syskit Point version has some new permissions requirements to which your Global Administrator has not consented before, you will get a notification at the bottom of the Home screen after your first sign-in to the new version:
+If the latest Syskit Point version has some new permissions requirements to which your Global Administrator has not consented before, you will get a notification at the top of the Home screen after your first sign-in to the new version:
 
 **Global Admin Reconsent Needed** - Grant permissions to Syskit Point to use the latest feature.
 
@@ -57,6 +57,21 @@ After clicking the Manage Connection button, you can expect the following to hap
 ## Permission Changes
 
 Depending on which version you are upgrading to, below you can find the list of changes in permissions requested and which features depend on them.
+
+### Syskit Point Cloud 2025.2.89
+
+**Consent is required due to permission changes introduced with switching from the beta endpoint to the Graph v1 endpoint to ensure uninterrupted detection of Microsoft Teams activity based on the latest message date**. 
+
+**The following permission is added to the existing Syskit Point app registration**:
+
+| App Registration    | API/Permissions Name                     | Permission                        | Type      | Reason                                                                                         |
+| ------------------- | ---------------------------------------- | --------------------------------- | --------- | ---------------------------------------------------------------------------------------------- |
+| Syskit Point Service | Microsoft Graph/ChannelMessage.Read.All | Read all channel messages | Application | Enables Syskit Point to calculate Teams activity based on the latest channel message date. |
+
+{% hint style="warning" %}
+**Please note!**\
+Syskit Point **does not read or save** the content of messages to detect Microsoft Teams activity. 
+{% endhint %}
 
 ### Syskit Point Cloud 2025.2.88
 
