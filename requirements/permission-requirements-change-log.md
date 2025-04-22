@@ -60,17 +60,15 @@ Depending on which version you are upgrading to, below you can find the list of 
 
 ### Syskit Point Cloud 2025.2.89
 
-**Consent is required due to permission changes introduced with switching from the beta endpoint to the Graph v1 endpoint to ensure uninterrupted detection of Microsoft Teams activity based on the latest message date**. 
+**Consent is required due to permission changes introduced with switching from the beta endpoint to the Graph v1 endpoint to ensure uninterrupted detection of Microsoft Teams activity based on the latest message date**.
 
 **The following permission is added to the existing Syskit Point app registration**:
 
-| App Registration    | API/Permissions Name                     | Permission                        | Type      | Reason                                                                                         |
-| ------------------- | ---------------------------------------- | --------------------------------- | --------- | ---------------------------------------------------------------------------------------------- |
-| Syskit Point Service | Microsoft Graph/ChannelMessage.Read.All | Read all channel messages | Application | Enables Syskit Point to calculate Teams activity based on the latest channel message date. |
+<table><thead><tr><th>App Registration</th><th width="206">API/Permissions Name</th><th width="103">Permission</th><th width="111">Type</th><th>Reason</th></tr></thead><tbody><tr><td>Syskit Point Service</td><td>Microsoft Graph/ChannelMessage.Read.All</td><td>Read all channel messages</td><td>Application</td><td>Enables Syskit Point to calculate Teams activity based on the latest channel message date.</td></tr></tbody></table>
 
 {% hint style="warning" %}
 **Please note!**\
-Syskit Point **does not read or save** the content of messages to detect Microsoft Teams activity. 
+Syskit Point **does not read or save** the content of messages to detect Microsoft Teams activity.
 {% endhint %}
 
 ### Syskit Point Cloud 2025.2.88
@@ -82,27 +80,26 @@ Syskit Point **does not read or save** the content of messages to detect Microso
 
 **The following permission is added to the existing Syskit Point app registration**:
 
-| App Registration    | API/Permissions Name                     | Permission                        | Type      | Reason                                                                                         |
-| ------------------- | ---------------------------------------- | --------------------------------- | --------- | ---------------------------------------------------------------------------------------------- |
-| Syskit Point Client | PowerApps Service/User | Access the PowerApps Service API | Delegated | Allows you to run Power Platform actions in Syskit Point. |
+<table><thead><tr><th>App Registration</th><th width="210">API/Permissions Name</th><th width="115">Permission</th><th width="104">Type</th><th>Reason</th></tr></thead><tbody><tr><td>Syskit Point Client</td><td>PowerApps Service/User</td><td>Access the PowerApps Service API</td><td>Delegated</td><td>Allows you to run Power Platform actions in Syskit Point.</td></tr></tbody></table>
 
 ### Syskit Point Cloud 2025.1.77
 
 With the introduction of Power Platform support, new permissions are added to the following app registrations when the Global Administrator turns on the Power Platform data collection and provides consent.
 
-{% hint style="information" %}
+{% hint style="info" %}
 Permissions are added for the app registration only if the Power Platform data collection is enabled.
 {% endhint %}
 
-| App Registration | Permission Name | Reason |
-| --- | --- | --- |
-| Syskit Point Client | PowerAppManagementApp | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data.  |
+| App Registration            | Permission Name       | Reason                                                                                             |
+| --------------------------- | --------------------- | -------------------------------------------------------------------------------------------------- |
+| Syskit Point Client         | PowerAppManagementApp | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data. |
 | Syskit Point Power Platform | PowerAppManagementApp | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data. |
 
 {% hint style="warning" %}
-**Please note!**  
-Added permissions are not visible in the Microsoft Entra interface. 
+**Please note!**\
+Added permissions are not visible in the Microsoft Entra interface.\
 To manage the permissions, you can run the related PowerShell cmdlets described in the following articles:
+
 * [Get-PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/get-powerappmanagementapp?view=pa-ps-latest)
 * [Remove-PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/remove-powerappmanagementapp?view=pa-ps-latest)
 {% endhint %}
@@ -113,9 +110,9 @@ To manage the permissions, you can run the related PowerShell cmdlets described 
 
 **The following permissions were added to the existing Syskit Point app registrations**:
 
-| App Registration    | API/Permissions Name                     | Permission                        | Type      | Reason                                                                                         |
-| ------------------- | ---------------------------------------- | --------------------------------- | --------- | ---------------------------------------------------------------------------------------------- |
-| Syskit Point Service | Microsoft Graph/GroupMember.ReadWrite.All | Read and write all group memberships | Application | Allows Syskit Point to add users in AAD to security groups after an access request is approved by the group owner. |
+| App Registration     | API/Permissions Name                         | Permission                                 | Type        | Reason                                                                                                             |
+| -------------------- | -------------------------------------------- | ------------------------------------------ | ----------- | ------------------------------------------------------------------------------------------------------------------ |
+| Syskit Point Service | Microsoft Graph/GroupMember.ReadWrite.All    | Read and write all group memberships       | Application | Allows Syskit Point to add users in AAD to security groups after an access request is approved by the group owner. |
 | Syskit Point Service | Microsoft Graph/RoleManagement.ReadWrite.All | Read and write all directory RBAC settings | Application | Allows Syskit Point to add users in AAD to security groups after an access request is approved by the group owner. |
 
 ### Syskit Point Data Center 2023.4.1
