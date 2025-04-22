@@ -15,33 +15,36 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes 
 
-* **The Permission Matrix report** now supports filtering down to specific document libraries and folders. 
-  * Folder and library drill-downs were added to the Permission Matrix report filters, which allows users to generate detailed reports even on large sites with many files. 
+* **Improved the Sync job in Syskit Point to handle sites with high subsite count better**. 
 
-* **Added fallback methods** when syncing sites with high subsite counts. 
+* **The Permission Matrix report** can now be generated for specific document libraries or folders. 
+  * Folder and library drill-downs were added to the Permission Matrix selection step, which allows users to generate detailed reports even on large sites with many files. 
+  * Drill down by clicking the workspace or document library name on the selection step.
 
-* **Audit logs are now collected even if the status is lagging.**
+* **Added the Company Name column** to the Users Overview screen. 
+  * The Company Name is now retrieved during the user sync and can be selected from the column chooser on the Users Overview screen. 
 
-* **Fixed an issue** that caused the following errors: 
-  * When connecting **Power Platform**: `Microsoft.Data.SqlClient.SqlException: Cannot insert the value NULL into column 'ExternalApiId', table '@Connections'; column does not allow nulls. INSERT fails.`
-  * When performing **user sync**: `at SysKit.Point.SPO.Graph.GraphLoaders.Batch.GraphBatchRequestExecutor.shouldHandleResponse(GraphBatchRequestExecutorOptions options, GraphBatchResponse batchResponse, Dictionary`
+* **Introduced multiple Power Platform improvements and fixes**:
+  * Improved error handling in Power Platform sync.
+  * Improved error handling and action log messaging for Power Platform actions.
+  * Fixed an issue where SharePoint Form apps were incorrectly shown as orphaned. 
+  * Other UX/UI improvements.
 
-* **Fixed an issue** where Power Platform and Power BI sync failed on environments with custom networking and firewall configurations.
+* **Fixed an issue** with audit log processing where the audit log collection was incorrectly stopped due to a high load.
 
-* **Fixed an issue** with storage sync caused by primary key violations. 
+* **Fixed an issue** with the User sync where some special characters would cause failure to perform a complete user sync.
 
-* **Fixed an issue** that caused SharePoint Form apps to appear orphaned.
-  * SharePoint List Forms **no longer show as orphane** on the Orphaned Power Apps view. 
+* **Fixed a bug** where the Manage Sensitivity action was erroneously available for Private and Shared channels, and running the action resulted in an error. 
+  * Private and Shared channels inherit the sensitivity label applied to the parent team workspace. Apply the label to the parent team to get the desired outcome.
+
+* **Fixed an issue** where storage sync would fail with the following error: `Violation of PRIMARY KEY constraint 'PK_FileInfos'. Cannot insert duplicate key in object 'Storage.FileInfos'.`
 
 * **Fixed a bug** that caused missing filters in Provisioning Request reports. 
   * When the Provisioning Requests report had no results, filters (e.g., Date) were not visible, but now the filters can be found even when the report is empty. 
 
 * **Fixed the Microsoft 365 Archive action** for Microsoft 365 Groups.
-  * Users with only the SharePoint Admin role can now successfully archive Microsoft 365 Groups even when not listed as group owners. 
+  * Users with the SharePoint Admin role can now successfully archive Microsoft 365 Groups even when not listed as group owners. 
 
 * **Fixed the bug** that caused deleted policies to appear in the filter for the Applied Policies column on the Overview screen reports.
-
-* **Added the Company Name column** to the Users Overview screen. 
-  * The Company Name is now retrieved during the user sync and can be selected from the column chooser on the Users Overview screen. 
 
 * **Various improvements, including UX and UI fixes, are available.**
