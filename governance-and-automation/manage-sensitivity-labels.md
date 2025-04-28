@@ -30,7 +30,9 @@ To apply a sensitivity label to the workspace:
   * **Type APPLY (2)** in the designated space.
   * **Click Apply Sensitivity Label (3)** to finalize.
 
-![Apply Sensitivity Labels - Overview](../.gitbook/assets/manage-sensitivity-labels-apply-label.png)
+![Apply Sensitivity Labels - Selection](../.gitbook/assets/manage-sensitivity-labels-apply-label.png)
+
+![Apply Sensitivity Labels - Overview](../.gitbook/assets/manage-sensitivity-labels-apply-label-confirm.png)
 
 Clicking Remove Sensitivity Label opens the Remove Sensitivity Label pop-up.
   * To remove the sensitivity label **type REMOVE (1)** in the designated space.
