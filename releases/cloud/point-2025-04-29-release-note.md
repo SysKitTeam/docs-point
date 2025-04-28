@@ -15,11 +15,8 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes 
 
-* **Improved the visibility of Sensitivity Labels** on the Workspace Detauks screen. 
+* **Improved the visibility of Sensitivity Labels** on the Workspace Details screen. 
   * Sites with sub-labels now show both the parent and sublabel names. 
-
-* **Audit logs** are now collected even when the status is Lagging
-  * Audit log collection continues to work even if the audit processing status is marked as lagging.
 
 * **Improvements made to action tracking for the Action Log details screen.**
   * When you remove sharing links, update group membership, or change workspace privacy settings, the system categorizes and shows what actions were taken. 
@@ -28,7 +25,6 @@ description: This article lists improvements and bug fixes in the Syskit Point C
   * New types of events, such as job errors, cancellations, and warnings, are now properly logged. 
 
 * **Fixed an issue** with custom dropdown metadata in the Change Metadata dialog. 
-  * You can select a specific option from the custom dropdown type metadata field without issues. 
 
 * **Fixed an issue** which caused the Site Sync to fail with the following error: `Violation of PRIMARY KEY constraint 'PK_SharePointSharingLinks'. Cannot insert duplicate key in object 'dbo.SharePointSharingLinks'`
 
