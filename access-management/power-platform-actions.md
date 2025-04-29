@@ -15,6 +15,8 @@ To help you manage these resources, Syskit Point is introducing new Power Platfo
 * [Change Owners](#change-owners)
 * [Add Co-Owners](#add-co-owners)
 * [Delete Environment](#delete-environment)
+* [Delete Flows](#delete-flow)
+* [Delete App](#delete-app)
 
 These actions help manage access, resolve the risks of orphaned resources by adding ownership, and eliminate sprawl by removing inactive environments.
 
@@ -114,7 +116,7 @@ You can access the report by:
 * **Clicking the number of environments** on the Power Platform Dashboard tile
 * **Click the Reports button** located on the left side of the screen, **select the Power Platform category** in the filter in the upper left corner, and **click the Power Platform Environments report tile** to generate the report.
 
-Once the Power Platform Environments report is generated: 
+Once you generate the Power Platform Environments report: 
 
 * **Selecting one or more environments** lets you complete **the Delete Environment action**. 
 * **Clicking the Delete Environment action (1)** opens the confirmation modal that states that performing this action means:
@@ -122,9 +124,50 @@ Once the Power Platform Environments report is generated:
   * Administrators of environments will have 7 days to recover it by going to the main Microsoft environments page
 * **Type Delete (2) in the confirmation bar and click the Delete button (3)** to complete the action
 
-![Power Platform - Actions](../.gitbook/assets/power-platform-actions-delete-environment.png)
+![Power Platform - Environments](../.gitbook/assets/power-platform-actions-delete-environment.png)
 
-![Power Platform - Change Owners - Apps](../.gitbook/assets/power-platform-actions-delete-environment-confirm.png)
+![Power Platform - Delete Environment](../.gitbook/assets/power-platform-actions-delete-environment-confirm.png)
 
 
+## Delete Flow
 
+The Delete Flow action can be completed for Flows on the Power Automate Inventory report.
+
+You can access the report by:
+* **Clicking the number of Flows** on the Power Platform Dashboard tile
+* **Click the Reports button** located on the left side of the screen, **select the Power Platform category** in the filter in the upper left corner, and **click the Power Automate Inventory report tile** to generate the report.
+
+Once you generate the Power Automate Inventory report: 
+
+* **Selecting one or more flows** lets you complete **the Delete Flow action**. 
+* **Clicking the Delete Flow action (1)** opens the confirmation modal that states that performing this action means:
+  * The flows will be removed for all co-owners and uninstalled for all users
+  * The delete flow action cannot be undone
+  * An information box that states you should ensure you have canceled any pending runs to prevent data loss before deleting any flows
+* **Type Delete (2) in the confirmation bar and click the Delete button (3)** to complete the action
+
+![Power Platform - Flows](../.gitbook/assets/power-platform-actions-delete-flow.png)
+
+![Power Platform - Delete Flow](../.gitbook/assets/power-platform-actions-delete-flow-confirm.png)
+
+
+## Delete App
+
+The Delete App action can be completed for Apps on the Power Apps Inventory report.
+
+You can access the report by:
+* **Clicking the number of Apps** on the Power Platform Dashboard tile
+* **Click the Reports button** located on the left side of the screen, **select the Power Platform category** in the filter in the upper left corner, and **click the Power Apps Inventory report tile** to generate the report.
+
+Once you generate the Power Apps Inventory report: 
+
+* **Selecting one or more apps** lets you complete **the Delete App action**. 
+* **Clicking the Delete App action (1)** opens the confirmation modal that states that performing this action means:
+  * The apps will be uninstalled for all users
+  * The apps will be deleted, but components and data contained within them will not be deleted
+  * The delete app action cannot be undone
+* **Type Delete (2) in the confirmation bar and click the Delete button (3)** to complete the action
+
+![Power Platform - Apps](../.gitbook/assets/power-platform-actions-delete-app.png)
+
+![Power Platform - Delete App](../.gitbook/assets/power-platform-actions-delete-app-confirm.png)
