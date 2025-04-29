@@ -10,17 +10,22 @@ This article explains **how a user's activity is determined based on the user ty
 
 ## Determining a User's Activity
 
-Syskit Point determines a user's last activity based on **sign-in data from Microsoft 365 and Azure AD, depending on the user type**.
+Syskit Point determines a user's last activity based on **sign-in data from Microsoft 365 and Entra ID, depending on the user type**.
+
+{% hint style="information" %}
+**Please note!** For Syskit Point to track Inactive Users in your environment, please ensure you meet all of **the requirements** as [explained in this Microsoft article.](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-manage-inactive-user-accounts?tabs=admin-center)
+
+{% endhint %}
 
 ### Internal (Organization) Users
 
-For **Internal Users**, activity is determined using the **Unified Audit Log**, which includes events such as **the last date the user logged into their Microsoft 365 account or e-mail**.
+For **Internal Users**, activity is determined using the **Unified Audit Log**, including the events UserLoggedIn and MailboxLogin which show **the last date the user logged into their Microsoft 365 account or e-mail**.
 
-This **applies to regular and external users that still appear in your organization's Azure AD directory**. 
+This **applies to regular and external users that still appear in your organization's Entra ID**. 
 
 ### Guest Users
 
-For **Guest Users**, who do not appear in the Unified Audit Log (e.x. Teams-only guests), activity is **determined by querying Microsoft Entra (Azure AD) sign-in logs using the Microsoft Graph API**, which tracks the sign-in activity for the resource. 
+For **Guest Users**, who do not appear in the Unified Audit Log (e.x. Teams-only guests), activity is **determined by querying Microsoft Entra ID sign-in logs using the Microsoft Graph API**, which tracks the sign-in activity for the resource. 
  
 * Syskit Point takes into account **the last time a user signed in interactively** (e.x. by using their credentials) and the **last time a non-interactive sign-in is logged**, meaning a service accessed the account on behalf of the user. 
 
