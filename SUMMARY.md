@@ -3,7 +3,7 @@
 * [Syskit Point](README.md)
 * [Releases](releases/README.md)
   * [Syskit Point Cloud](releases/cloud/README.md)
-    * [May 06, 2025](releases/cloud/point-2025-04-29-release-note.md)
+    * [May 06, 2025](releases/cloud/point-2025-05-06-release-note.md)
     * [April 29, 2025](releases/cloud/point-2025-05-06-release-note.md)
     * [April 22, 2025](releases/cloud/point-2025-04-22-release-note.md)
     * [April 08, 2025](releases/cloud/point-2025-04-08-release-note.md)
