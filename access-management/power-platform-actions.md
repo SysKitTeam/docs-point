@@ -143,7 +143,7 @@ Once you generate the Power Automate Inventory report:
 * **Clicking the Delete Flow action (1)** opens the confirmation modal that states that performing this action means:
   * The flows will be removed for all co-owners and uninstalled for all users
   * The delete flow action cannot be undone
-  * An information box that states you should ensure you have canceled any pending runs to prevent data loss before deleting any flows
+* There is also an information box which states you should ensure you have canceled any pending runs to prevent data loss before deleting any flows
 * **Type Delete (2) in the confirmation bar and click the Delete button (3)** to complete the action
 
 ![Power Platform - Flows](../.gitbook/assets/power-platform-actions-delete-flow.png)
