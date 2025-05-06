@@ -9,7 +9,7 @@ Here are the instructions on how to make your Syskit Point web application publi
 ## Prerequisites
 
 * Syskit Point app deployed as App Service in Azure
-* Custom domain added to your Azure Active Directory
+* Custom domain added to your Entra ID
 * Access to your public DNS hosting provider
 * SSL certificate
 
