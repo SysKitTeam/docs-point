@@ -1,16 +1,16 @@
 ---
-description: This article lists improvements and bug fixes in Syskit Point version 2025.2.86
+description: This article lists improvements and bug fixes in Syskit Point version 2025.2.90
 ---
 
-# Syskit Point 2025.2.86
+# Syskit Point 2025.2.90
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
-**Product version:** 2025.2.86
+**Product version:** 2025.2.90
 
-**Build number:** 68
+**Build number:** 29
 
-**Release date:** April 01, 2025
+**Release date:** May 06, 2025
 
 ## Get the Latest Version
 
