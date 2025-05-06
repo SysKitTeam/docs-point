@@ -8,7 +8,7 @@ description: This article lists improvements and bug fixes in Syskit Point versi
 
 **Product version:** 2025.2.90
 
-**Build number:** 29
+**Build number:** 30
 
 **Release date:** May 06, 2025
 
@@ -43,8 +43,6 @@ Consent is required due to permission change introduced to enable [running Power
     * **Delete Environment**
       * This action helps you remove unused environments and can be completed on the Power Platform Environments report
   * [For more details, please take a look at the Power Platform actions article.](../../../access-management/power-platform-actions.md)
-
-
 
 ## Improvements & Bug Fixes
 
