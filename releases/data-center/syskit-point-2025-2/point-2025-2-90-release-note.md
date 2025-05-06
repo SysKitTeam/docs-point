@@ -42,10 +42,6 @@ Consent is required due to permission change introduced to enable [running Power
       * On the reports, select one or multiple Apps or Flows and add additional Co-owners, which can come in handy when trying to define Co-owners on multiple orphaned Flows
     * **Delete Environment**
       * This action helps you remove unused environments and can be completed on the Power Platform Environments report
-    * **Delete Flow**
-      * This action helps you remove unused flows and can be completed on the Power Automate Inventory report
-    * **Delete App**
-      * This action helps you remove unused apps and can be completed on the Power Apps Inventory report
   * [For more details, please take a look at the Power Platform actions article.](../../../access-management/power-platform-actions.md)
 
 
