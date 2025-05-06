@@ -35,7 +35,7 @@ Make sure the **Syskit Point Power Platform application** is selected as the mem
 
 ![Create New Security Group - Power BI](../.gitbook/assets/enable-powerBI-data-collection-power-platform.png)
 
-Once created, the group can be found by going to **Azure Active Directory > Groups**.
+Once created, the group can be found by going to **Entra ID > Groups**.
 
 Enter the name of the Power BI security group into **Search** to filter the list by title or scroll down. 
 

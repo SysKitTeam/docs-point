@@ -58,7 +58,7 @@ As an admin, you can expect such emails when:
 
 * **Improved user details screen for external users.** On the external user's details screen, Syskit Point Collaborators can no longer see the list of workspaces to which an external user has access, except for workspaces to which the said Collaborator is the owner.
 
-* **Fixed an issue** with the User Sync Status data for users synced from On-Premises Active Directory. Some users were erroneously classified as Cloud users if their SID (Security Identifier) was not synced to Azure Active Directory. 
+* **Fixed an issue** with the User Sync Status data for users synced from On-Premises Active Directory. Some users were erroneously classified as Cloud users if their SID (Security Identifier) was not synced to Entra ID. 
 
 * **Fixed a bug** where syncing Power BI workspaces would fail with the following error: `Saving Power BI Workspace with Id {WorkspaceId} to database failed.
 Microsoft.Data.SqlClient.SqlException: Cannot insert the value NULL into column 'Name', table '@Dataflows'; column does not allow nulls.`
