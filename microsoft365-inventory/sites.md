@@ -86,7 +86,9 @@ The Manage actions available are:
   * Remove Owners/Members
   * Change Sharing Settings
   * Configure Alerts
-  * Change Metadata
+  * Manage Metadata
+  * Manage Sensitivity
+  * Manage Privacy
 
 The Go to Reports section lists all the related reports that can be generated. The available reports are:
   * Permissions Matrix

@@ -91,7 +91,9 @@ The Manage actions available are:
   * Add Owners/Members
   * Remove Owners/Members
   * Configure Alerts
-  * Change Metadata
+  * Manage Metadata
+  * Manage Sensitivity
+  * Manage Privacy
 
 The Go to Report section provides a list of related reports that are available: 
   * Permissions Matrix
