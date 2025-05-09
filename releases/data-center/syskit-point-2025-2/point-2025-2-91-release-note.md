@@ -8,7 +8,7 @@ description: This article lists improvements and bug fixes in Syskit Point versi
 
 **Product version:** 2025.2.91
 
-**Build number:** XX?
+**Build number:** 52
 
 **Release date:** May 13, 2025
 
@@ -21,6 +21,13 @@ description: This article lists improvements and bug fixes in Syskit Point versi
 
 See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../set-up-point-data-center/deployment/upgrade-syskit-point.md).
 
+
+{% hint style="warning" %}
+**Please note!**
+
+The upgrade to this Syskit Point version may take longer to complete, so we kindly ask for your patience while upgrading. Larger environments may take up to an hour to finish upgrading. 
+
+{% endhint %}
 
 ## New Features
 
