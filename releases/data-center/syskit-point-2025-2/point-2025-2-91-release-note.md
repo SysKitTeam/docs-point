@@ -25,13 +25,13 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 {% hint style="warning" %}
 **Please note!** 
 
-**Building on the foundational changes introduced in the mandatory 2025.2.86 release, this update continues the transition toward a more scalable platform**. As part of this process, **the migration progress percentage may reset** as additional data validations are performed. 
+This update continues the transition toward a more scalable platform.  
 
-**While this release is not mandatory, it is strongly recommended to install it before upgrading to any future versions**. 
+**Although not mandatory**, **we strongly recommend installing this version before future upgrades**. **Please expect a longer upgrade time for this release**, especially in larger environments, where it may take up to an hour. 
 
-**The upgrade to this Syskit Point version may take longer to complete**, so we kindly ask for your patience while upgrading. Larger environments may take up to an hour to finish upgrading. 
+During the additional data validations performed, **the migration progress may reset**. 
 
-**Regular upgrades of the release versions will help prevent extended upgrade times that may occur due to version skipping**. 
+**Regular updates help prevent delays caused by skipping versions**. 
 
 {% endhint %}
 
