@@ -15,11 +15,6 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes 
 
-* **Updated the permissions** for Power Platform and Power BI reports to ensure visibility for Power Platform Admins, Syskit Point Admins, and Syskit Point Global Viewer roles.
-  * The reports are no longer visible for Collaborators.
-
-* **Improved the Table Migration Job** to better handle and retry SQL errors during migration. 
-
 * **Fixed an issue** where the number of Orphaned Apps on the Power Platform Dashboard tile did not match the number shown on the Orphaned Apps view of the Power Apps Inventory report.
 
 * **Fixed the issue** when migrating data from SPO tables, where large data gaps caused incorrect batch processing. 
