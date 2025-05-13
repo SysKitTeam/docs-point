@@ -92,6 +92,15 @@ Consent is required due to permission change introduced to enable [running Power
 * **Fixed the Microsoft 365 Archive action** for Microsoft 365 Groups.
   * Users with the SharePoint Admin role can now successfully archive Microsoft 365 Groups even when not listed as group owners. 
 
+* **Fixed an issue** that didn't include the Details and Error columns on the Actions report when exporting it to Excel. 
+
+* **Fixed an issue** where Microsoft Team Owners who were not also Site Admins could not perform the expected actions in Syskit Point to resolve security & compliance vulnerabilities.
+  * The **Add users with Full Control** setting needs to be enabled for the Syskit Point Collaborators role to ensure that collaborators who are Team owners can access Syskit Point and resolve their tasks. 
+
+* **Fixed the issue** where the Storage sync job would sync storage data based on the last sync time instead of when the sync was last successful.
+
+* **Fixed a bug** with the File Storage Details report that caused the File Details columns to not load data correctly when viewing files Older than 6 months. 
+
 * **Fixed the bug** that caused deleted policies to appear in the filter for the Applied Policies column on the Overview screen reports.
 
 * **Syskit Point now automatically assigns tasks to Syskit Point Admins** if a defined fallback user is no longer active.
