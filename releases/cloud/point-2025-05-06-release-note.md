@@ -25,6 +25,6 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 ## Improvements & Bug Fixes 
 
 * **Fixed an issue** where the Remove All Sharing Links action removed all links instead of only the selected ones. 
-  * This option has been removed, and the updated action now removes only the selected links. 
+  * This option has been changed, and the updated action now removes only the selected links. 
 
 * **Various improvements, including UX and UI fixes, are available.**

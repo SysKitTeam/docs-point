@@ -109,7 +109,7 @@ Consent is required due to permission change introduced to enable [running Power
 * **Fixed an issue** that caused the export action to not work on the Manage Reviewers screen. 
 
 * **Fixed an issue** where the Remove All Sharing Links action removed all links instead of only the selected ones. 
-  * This option has been removed, and the updated action now removes only the selected links. 
+  * This option has been changed, and the updated action now removes only the selected links. 
 
 * **Fixed an issue** where the service account was erroneously removed from being Site Admin when applying a sensitivity label or applying the versioning limit policy via rule. 
   * The service account will no longer be removed if it is set as Site Admin before running the actions.
