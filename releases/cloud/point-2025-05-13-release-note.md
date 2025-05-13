@@ -17,6 +17,4 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Fixed an issue** where the number of Orphaned Apps on the Power Platform Dashboard tile did not match the number shown on the Orphaned Apps view of the Power Apps Inventory report.
 
-* **Fixed the issue** when migrating data from SPO tables, where large data gaps caused incorrect batch processing. 
-
 * **Various improvements, including UX and UI fixes, are available.**
