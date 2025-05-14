@@ -8,7 +8,7 @@ description: This article lists improvements and bug fixes in Syskit Point versi
 
 **Product version:** 2025.2.90
 
-**Build number:** 30
+**Build number:** 31
 
 **Release date:** May 06, 2025
 
@@ -21,6 +21,9 @@ description: This article lists improvements and bug fixes in Syskit Point versi
 
 See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../set-up-point-data-center/deployment/upgrade-syskit-point.md).
 
+{% hint style="information" %}
+The 2025.2.90 release brings important improvements to Syskit Point’s backend architecture, which is part of our **ongoing commitment to ensuring the platform remains highly scalable**. The migration percentage for this process will reset with this update. **This is expected** and serves to continue delivering improvements.
+{% endhint %}
 
 {% hint style="warning" %}
 **Please note!**\
@@ -89,6 +92,15 @@ Consent is required due to permission change introduced to enable [running Power
 * **Fixed the Microsoft 365 Archive action** for Microsoft 365 Groups.
   * Users with the SharePoint Admin role can now successfully archive Microsoft 365 Groups even when not listed as group owners. 
 
+* **Fixed an issue** that didn't include the Details and Error columns on the Actions report when exporting it to Excel. 
+
+* **Fixed an issue** where Microsoft Team Owners who were not also Site Admins could not perform the expected actions in Syskit Point to resolve security & compliance vulnerabilities.
+  * The **Add users with Full Control** setting needs to be enabled for the Syskit Point Collaborators role to ensure that collaborators who are Team owners can access Syskit Point and resolve their tasks. 
+
+* **Fixed the issue** where the Storage sync job would sync storage data based on the last sync time instead of when the sync was last successful.
+
+* **Fixed a bug** with the File Storage Details report that caused the File Details columns to not load data correctly when viewing files Older than 6 months. 
+
 * **Fixed the bug** that caused deleted policies to appear in the filter for the Applied Policies column on the Overview screen reports.
 
 * **Syskit Point now automatically assigns tasks to Syskit Point Admins** if a defined fallback user is no longer active.
@@ -97,7 +109,7 @@ Consent is required due to permission change introduced to enable [running Power
 * **Fixed an issue** that caused the export action to not work on the Manage Reviewers screen. 
 
 * **Fixed an issue** where the Remove All Sharing Links action removed all links instead of only the selected ones. 
-  * This option has been removed, and the updated action now removes only the selected links. 
+  * This option has been changed, and the updated action now removes only the selected links. 
 
 * **Fixed an issue** where the service account was erroneously removed from being Site Admin when applying a sensitivity label or applying the versioning limit policy via rule. 
   * The service account will no longer be removed if it is set as Site Admin before running the actions.
