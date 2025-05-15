@@ -122,6 +122,8 @@ The tile on the Dashboard shows:
 * The number of medium-risk vulnerabilities
 * The number of low-risk vulnerabilities
 
+![Security and Compliance tile](../.gitbook/assets/dashboard-security-compliance-tile.png)
+
 Clicking on **View All** redirects you to the Security and Compliance checks screen. 
 
 The following information is tracked and available there:
@@ -133,8 +135,6 @@ The following information is tracked and available there:
 * **Workspaces with Not Enough Owners**
 * **Orphaned Users**
 * **Workspaces with Too Many Owners**
-
-![Security and Compliance tile](../.gitbook/assets/dashboard-security-compliance-tile.png)
 
 Syskit Point performs regular security and compliance checks for you and presents the results directly on your home screen.
 
