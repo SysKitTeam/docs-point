@@ -24,5 +24,6 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **New columns added** to the Sharing Links report: **Last Used** and **Last Used By**. 
   * These columns show the last time the content was accessed via a sharing link and who accessed it.
+  * At this time, these additional columns are **not available for OneDrive**
 
 * **Various improvements, including UX and UI fixes, are available.**

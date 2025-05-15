@@ -50,6 +50,7 @@ The 2025.2.86 release brings important improvements to Syskit Point’s backend 
     * **Created by** - enabled for SharePoint sites, shows who created the site. 
     * **Last Used** - shows the last time the content was accessed via a sharing link.
     * **Last Used By** - shows the last person who accessed the content via sharing link.
+  * At this time, these additional columns are **not available for OneDrive**
 
 * **New columns added to the Sites Overview screen**: **Number of Owners** and **Number of Admins**.
   * **Number of Owners** 
