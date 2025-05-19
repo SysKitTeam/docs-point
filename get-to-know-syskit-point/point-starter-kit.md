@@ -93,11 +93,11 @@ Control how your sensitive data is being used and accessed!
 * Deleting or creating sites, teams, or groups
 * Changing admins or modifying organization-wide settings
 
-\--> Learn how to [turn on auditing](../configuration/turn-on-auditing.md) in the Microsoft 365 Security & Compliance Center
+\--> Learn how to [turn on auditing](../setup/configuration/configure/turn-on-auditing.md) in the Microsoft 365 Security & Compliance Center
 
 \--> Learn how to track [external users](../access-management/track-external-users-and-their-activities.md) and their activity.
 
-**Plus**: Set up [alerts](../governance-and-automation/configure-alerts.md), prevent security issues, get real-time updates, and react quickly.
+**Plus**: Set up [alerts](../setup/configuration/configure/configure-alerts.md), prevent security issues, get real-time updates, and react quickly.
 
 ## CONTROL: GOVERNANCE AUTOMATION AND LIFECYCLE MANAGEMENT <a href="#control-governance-automation-and-lifecycle-management" id="control-governance-automation-and-lifecycle-management"></a>
 
@@ -126,11 +126,11 @@ Now that you know just some of the benefits of using Syskit Point, **there are a
 
 Follow the instructions in these articles to get started:
 
-* [Set Up E-mail](../configuration/set-up-email.md)
-  * [Customize E-mails](../configuration/customize-emails.md)
-* [Enable Role-Based Access](../configuration/enable-role-based-access.md)
-* [Enable Microsoft Teams Activity Tracking](../configuration/microsoft-teams-activity.md)
-* [Ignore Service Account Activity tracking](../configuration/ignore-service-account-activity-tracking.md)
-* [Customize Audit Logs collection](../configuration/customize-audit-logs-collection.md)
-* [Customize License Reports](../configuration/customize-license-reports.md)
-* [Enable Power BI Data Collection](../configuration/enable-powerBI-data-collection.md)
+* [Set Up E-mail](../setup/configuration/configure/set-up-email.md)
+  * [Customize E-mails](../setup/configuration/customize/customize-emails.md)
+* [Enable Role-Based Access](../setup/configuration/configure/enable-role-based-access.md)
+* [Enable Microsoft Teams Activity Tracking](../setup/configuration/configure/microsoft-teams-activity.md)
+* [Ignore Service Account Activity tracking](../setup/configuration/configure/ignore-service-account-activity-tracking.md)
+* [Customize Audit Logs collection](../setup/configuration/customize/customize-audit-logs-collection.md)
+* [Customize License Reports](../setup/configuration/customize/customize-license-reports.md)
+* [Enable Power BI Data Collection](../setup/configuration/configure/enable-powerBI-data-collection.md)

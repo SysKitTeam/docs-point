@@ -19,7 +19,7 @@ This action redirects you to the well-known Microsoft Sign-in screen.
 Here, you have to enter your existing Microsoft 365 credentials.
 
 {% hint style="warning" %}
-**Please note!** When signing in for the first time, using Global Administrator credentials and proceeding with [Role-based Access configuration](../configuration/enable-role-based-access.md) is advisable.
+**Please note!** When signing in for the first time, using Global Administrator credentials and proceeding with [Role-based Access configuration](../setup/configuration/configure/enable-role-based-access.md) is advisable.
 {% endhint %}
 
 After the sign-in, the Syskit Point Home screen opens.
@@ -114,4 +114,4 @@ There are two types of actions/reports:
 
 Syskit Point presents you with the inventory of your workspaces, meaning you are able to see Sites, Teams, and Microsoft 365 Groups you are the owner/administrator of.
 
-Check the [following link](../configuration/enable-role-based-access.md) for more details about **role-based access configuration**.
+Check the [following link](../setup/configuration/configure/enable-role-based-access.md) for more details about **role-based access configuration**.

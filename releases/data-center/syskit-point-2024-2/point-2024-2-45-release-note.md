@@ -16,11 +16,11 @@ description: >-
 ## Get the Latest Version
 
 * **New to Syskit Point?** Get the latest Syskit Point version from [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit\_point).\
-  Find all steps described in detail in the [deployment article](../../../set-up-point-data-center/deployment/deploy-syskit-point.md).
+  Find all steps described in detail in the [deployment article](../../../setup/set-up-point-data-center/deployment/deploy-syskit-point.md).
 * **Already using Syskit Point?** Upgrade to the latest Syskit Point version.\
   [![](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitassetsstorage.blob.core.windows.net%2Fpoint%2FARMTemplates%2FPointUpdateDeploy%2FPointUpdateTemplate.json)
 
-See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../set-up-point-data-center/deployment/upgrade-syskit-point.md).
+See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../setup/set-up-point-data-center/deployment/upgrade-syskit-point.md).
 
 ## New Features
 
@@ -35,8 +35,8 @@ The first site sync after the upgrade will be a full site sync instead of a part
 * **Storage Management for SharePoint Online gets new improvements!**
   * **Views were added** to the Storage Metrics report:
     * **Largest Sites** view sorts the report based on site size.
-    * **Potential Savings - Number of Versions** view sorts the report based on the amount of saved storage you can achieve with the Clean Up action, keeping the [defined number of file versions](../../../configuration/configure-storage-management.md).
-    * **Potential Saving - Old Versions** view sorts the report based on the amount of saved storage you get if running the Clean Up action, deleting file versions older than you defined in [Storage Management settings](../../../configuration/configure-storage-management.md). 
+    * **Potential Savings - Number of Versions** view sorts the report based on the amount of saved storage you can achieve with the Clean Up action, keeping the [defined number of file versions](../../../setup/configuration/configure/configure-storage-management.md).
+    * **Potential Saving - Old Versions** view sorts the report based on the amount of saved storage you get if running the Clean Up action, deleting file versions older than you defined in [Storage Management settings](../../../setup/configuration/configure/configure-storage-management.md). 
   * **Two new columns were added** to the Storage Metrics report and can be selected from the column chooser: **Potential Savings (Old Versions)** and **Potential Savings (Number of Versions)**.
   * **The Clean Up File Versions** action is now available on the Storage Metrics report when bulk selecting multiple workspaces! 
     * You can now select up to 500 workspaces at a time, run the Clean Up action, and free up your tenant storage even faster.

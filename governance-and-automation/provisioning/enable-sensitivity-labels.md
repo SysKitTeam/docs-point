@@ -41,7 +41,7 @@ Learn more about how to set up multifactor authentication for Microsoft 365 by t
 
 ## Next Steps
 
-To connect a service account in Syskit Point, please follow the instructions provided in [this article](../../configuration/connect-service-account.md ).
+To connect a service account in Syskit Point, please follow the instructions provided in [this article](../../setup/configuration/configure/connect-service-account.md ).
 
 Once the service account is connected to Syskit Point, you can specify a sensitivity label when creating provisioning templates.
 

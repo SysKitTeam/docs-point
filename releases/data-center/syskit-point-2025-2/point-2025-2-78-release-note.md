@@ -15,17 +15,17 @@ description: This article lists improvements and bug fixes in Syskit Point versi
 ## Get the Latest Version
 
 * **New to Syskit Point?** Get the latest Syskit Point version from [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit\_point).\
- Find all steps described in detail in the [deployment article](../../../set-up-point-data-center/deployment/deploy-syskit-point.md).
+ Find all steps described in detail in the [deployment article](../../../setup/set-up-point-data-center/deployment/deploy-syskit-point.md).
 * **Already using Syskit Point?** Upgrade to the latest Syskit Point version.\
  [![](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitassetsstorage.blob.core.windows.net%2Fpoint%2FARMTemplates%2FPointUpdateDeploy%2FPointUpdateTemplate.json)
 
-See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../set-up-point-data-center/deployment/upgrade-syskit-point.md).
+See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../setup/set-up-point-data-center/deployment/upgrade-syskit-point.md).
 
 ## New Features
 
 * **Power Platform inventory available in Syskit Point!**
   * You can now enable Power Platform data collection and generate reports that show the state of your Power Platform environments, apps, flows, and connections.
-  * [Find more details on how to configure Power Platform data collection in this article.](../../../configuration/power-platform.md)
+  * [Find more details on how to configure Power Platform data collection in this article.](../../../setup/configuration/configure/power-platform.md)
   * [For information on all the Power Platform reports available in Syskit Point, take a look at this article.](../../../reporting/power-platform-reports.md)
 
 * **New Archive method available!**

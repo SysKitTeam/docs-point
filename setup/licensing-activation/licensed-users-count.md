@@ -105,4 +105,4 @@ The licenses that do not count toward calculating the price for your Syskit Poin
 
 ## Related Articles
 
-Read the [Customize License Reports article](../configuration/customize/customize-license-reports.md) article for more information on customizing license reports.
+Read the [Customize License Reports article](../../setup/configuration/customize/customize-license-reports.md) article for more information on customizing license reports.

@@ -31,7 +31,7 @@ The screen shows **additional actions** required before enabling the Lifecycle M
 ![Lifecycle Management - Additional Action Required](../../.gitbook/assets/enable-lifecycle-management-collaborators-disabled.png)
 
 {% hint style="info" %}
-Use the following links and learn how to [set up e-mail](../../configuration/set-up-email.md) and enable [Syskit Point Collaborators](../../configuration/enable-role-based-access.md#syskit-point-collaborators-1).
+Use the following links and learn how to [set up e-mail](../../setup/configuration/configure/set-up-email.md) and enable [Syskit Point Collaborators](../../setup/configuration/configure/enable-role-based-access.md#syskit-point-collaborators-1).
 {% endhint %}
 
 Once all requirements are met, you can enable Lifecycle Management automation by completing the following:
@@ -72,13 +72,13 @@ The **Archive** action has additional options available:
 ![Lifecycle Management - Archive Options](../../.gitbook/assets/enable-lifecycle-management-archive-options.png)
 
 {% hint style="information" %}
-**Please note!** If a user, security group, or mail-enabled security group is added to the Governance-Excluded Users list, they do not receive any Lifecycle Management tasks or task-related emails. [For more details on setting up Governance-Excluded Users, take a look at this article.](../../configuration/exclude-users-tasks.md)
+**Please note!** If a user, security group, or mail-enabled security group is added to the Governance-Excluded Users list, they do not receive any Lifecycle Management tasks or task-related emails. [For more details on setting up Governance-Excluded Users, take a look at this article.](../../setup/configuration/configure/exclude-users-tasks.md)
 {% endhint %}
 
 ## E-Mail Customization
 
 In the **Customize E-mail section**, you can adjust the look and feel of the e-mail sent out by Syskit Point when an inactive workspace is detected.
-[Navigate to the Customize E-mails article to find all available options regarding e-mail customization](../../configuration/customize-emails.md).
+[Navigate to the Customize E-mails article to find all available options regarding e-mail customization](../../setup/configuration/customize/customize-emails.md).
 
 ## Lifecycle Management Targeting
 
@@ -97,7 +97,7 @@ Additionally, you can:
 {% hint style="warning" %}
 **Please note!** 
 If you haven't received approval from **Microsoft** for detecting the activity of **Microsoft Teams**, Microsoft Teams **will not be monitored** with **Lifecycle Management Automation**.
-[Find out how to enable Microsoft Teams activity tracking here](../../configuration/microsoft-teams-activity.md). 
+[Find out how to enable Microsoft Teams activity tracking here](../../setup/configuration/configure/microsoft-teams-activity.md). 
 {% endhint %}
 
 When you click the **Preview tile**, the **Lifecycle Management - Preview** report opens, showing detailed information about workspaces that will be included in the lifecycle management automation. Here, you can:

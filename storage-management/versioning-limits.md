@@ -15,7 +15,7 @@ Having to manually keep up with file versions in your workspaces can be unnecess
 **A service account must be connected to Syskit Point to enable the automatic application of Versioning limits to workspaces via rules.** \
 The service account doesn't require additional permissions to apply Versioning limits. &#x20;
 
-[See the Connect Service Account article for more details on connecting the service account in Syskit Point](../configuration/connect-service-account.md)
+[See the Connect Service Account article for more details on connecting the service account in Syskit Point](../setup/configuration/configure/connect-service-account.md)
 {% endhint %}
 
 ## Create Storage Versioning Limits

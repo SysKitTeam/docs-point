@@ -12,8 +12,8 @@ description: This article explains how to enable and configure policies in Syski
 
 To use the advantages of Policies in Syskit Point, you need to:
 
-* [set up e-mail settings](../../configuration/set-up-email.md)
-* [enable Syskit Point Collaborators role](../../configuration/enable-role-based-access.md)
+* [set up e-mail settings](../../setup/configuration/configure/set-up-email.md)
+* [enable Syskit Point Collaborators role](../../setup/configuration/configure/enable-role-based-access.md)
 
 Additionally, you can also [set up policy rules](../../governance-and-automation/automated-workflows/policy-automation.md) to have policies automatically applied to current and all future workspaces without having to assign them manually. 
 
@@ -71,7 +71,7 @@ After this change, Syskit Point will no longer send individual e-mails for each 
 * **When you acquire Syskit Point, default policies are created with task delegation disabled.** Edit the default policies settings to enable task delegation.
 
 {% hint style="information" %}
-**Please note!** If a user, security group, or mail-enabled security group is added to the Governance-Excluded Users list, they do not receive any Governance-related tasks or task-related e-mails. [For more details on setting up Governance-Excluded Users, take a look at this article.](../../configuration/exclude-users-tasks.md)
+**Please note!** If a user, security group, or mail-enabled security group is added to the Governance-Excluded Users list, they do not receive any Governance-related tasks or task-related e-mails. [For more details on setting up Governance-Excluded Users, take a look at this article.](../../setup/configuration/configure/exclude-users-tasks.md)
 {% endhint %}
 
 ## Syskit Point Policies

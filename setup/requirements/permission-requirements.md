@@ -63,7 +63,7 @@ To allow safer access to your Microsoft 365 tenant data and optimize the data sy
 
 ### Syskit Point Service
 
-**Syskit Point Service** app registration is used for [data Sync](../../get-to-know-syskit-point/collect-office-365-data.md), [audit log collection](../configuration/customize/customize-audit-logs-collection.md), and sending emails. The following permissions enable Syskit Point to perform these actions:
+**Syskit Point Service** app registration is used for [data Sync](../../get-to-know-syskit-point/collect-office-365-data.md), [audit log collection](../../setup/configuration/customize/customize-audit-logs-collection.md), and sending emails. The following permissions enable Syskit Point to perform these actions:
 
 **Microsoft Graph**
 

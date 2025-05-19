@@ -22,7 +22,7 @@ description: >-
 * **Additional License information and customizations are available**! With the help of the **new Licenses dashboard tile**, you can easily **track the number of active and inactive licenses and see their total cost**. With the help of the **new License Reports settings screen**, you can define the following values:
   * **Number of inactivity days after which a user and assigned licenses will be considered inactive**
   * **Currency used in the license reports**
-  * **Monthly license cost per user for all licenses** in your environment **Syskit Point Admins can now decide whether to show or hide the license reports for site admins and group owners** by simply checking an option on the Manage Access settings screen. [To learn more about license reports and settings, navigate to the following article.](../../../configuration/customize-license-reports.md)
+  * **Monthly license cost per user for all licenses** in your environment **Syskit Point Admins can now decide whether to show or hide the license reports for site admins and group owners** by simply checking an option on the Manage Access settings screen. [To learn more about license reports and settings, navigate to the following article.](../../../setup/configuration/customize/customize-license-reports.md)
 * **New alerts added – External User Logged in**, and **External User Login Failed**! New alerts help you track external user activity, so you are always aware.
 
 ## Improvements & Bug Fixes

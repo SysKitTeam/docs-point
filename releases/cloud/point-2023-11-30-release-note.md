@@ -20,7 +20,7 @@ description: >-
     * This means you can select any site, folder, document library, or even **the entire site** and clean up the older file versions.
   * The Site Storage Metrics report now has a new **File Type tile** added. 
     * There, you can check how much **storage is occupied by different types of files**: videos, photos, office documents, or others.
-  * [Read this article to learn how to configure Storage Management settings](../../configuration/configure-storage-management.md).
+  * [Read this article to learn how to configure Storage Management settings](../../setup/configuration/configure/configure-storage-management.md).
   * The Storage Metrics report can have **metadata columns** added by selecting them from the column chooser. 
   * The File Storage Details report has a **Delete Version action** added when files are selected. 
   * [Learn more about Storage optimization in the following article](../../storage-management/free-up-storage.md).

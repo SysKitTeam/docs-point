@@ -23,7 +23,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 * **Custom views are available on tree reports.**
   * Now, you can customize and save views on tree reports. (e.g., Permissions Matrix, User access, etc.)
   * Excel export of reports with applied views reflects the filtering from the view selected in Syskit Point.  
-  * [Learn more about Custom Views in the configuration article.](../../configuration/custom-views.md)
+  * [Learn more about Custom Views in the configuration article.](../../setup/configuration/customize/custom-views.md)
 
 ## Improvements & Bug Fixes
 

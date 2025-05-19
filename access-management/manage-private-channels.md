@@ -132,4 +132,4 @@ The Microsoft Teams with Private Channels report can be **exported as PDF and XL
 ## Related Articles
 
 * [Supervise Microsoft Teams Private Channels](supervise-microsoft-teams-private-channels.md)
-* [Enable Microsoft Teams Activity Tracking](../configuration/microsoft-teams-activity.md)
+* [Enable Microsoft Teams Activity Tracking](../setup/configuration/configure/microsoft-teams-activity.md)

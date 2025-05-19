@@ -17,7 +17,7 @@ description: >-
 
 * **Logging changes made in Point Settings**. Implemented audit options detailing what changes were made, who made them, when, and the before and after values.
 * **Exclude certain users from receiving governance emails and tasks**. Added a new feature in Settings > General > Governance-Excluded Users, which excludes specific users, security groups, and mail-enabled security groups from receiving tasks and emails for Security & Compliance policies, Lifecycle Management, and Access Review.
-  * [Find out more on how to set it up in the Configuration article](../../configuration/exclude-users-tasks.md).
+  * [Find out more on how to set it up in the Configuration article](../../setup/configuration/configure/exclude-users-tasks.md).
 
 ## Improvements & Bug Fixes
 

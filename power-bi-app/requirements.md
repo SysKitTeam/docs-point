@@ -58,7 +58,7 @@ Before running the SQL scripts listed below, open **SQL Server Management Studio
 [Learn how to connect to an Azure SQL Database here](https://docs.microsoft.com/en-us/sql/ssms/quickstarts/ssms-connect-query-azure-sql?view=sql-server-ver15#connect-to-an-azure-sql-database-or-azure-sql-managed-instance).
 
 {% hint style="info" %}
-To connect, use the SQL credentials created when [deploying Syskit Point](../set-up-point-data-center/deployment/deploy-syskit-point.md).
+To connect, use the SQL credentials created when [deploying Syskit Point](../setup/set-up-point-data-center/deployment/deploy-syskit-point.md).
 {% endhint %}
 
 ### New Server Login

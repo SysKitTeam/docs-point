@@ -19,28 +19,28 @@ description: >-
 ### Syskit Point
 
 * **New to Syskit Point?** Get the latest Syskit Point version from [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit\_point).\
-  Find all steps described in detail in the [deployment article](../../../set-up-point-data-center/deployment/deploy-syskit-point.md).
+  Find all steps described in detail in the [deployment article](../../../setup/set-up-point-data-center/deployment/deploy-syskit-point.md).
 * **Already using Syskit Point?** Upgrade to the latest Syskit Point version.\
   [![](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitassetsstorage.blob.core.windows.net%2Fpoint%2FARMTemplates%2FPointUpdateDeploy%2FPointUpdateTemplate.json)
 
-See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../set-up-point-data-center/deployment/upgrade-syskit-point.md).
+See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../setup/set-up-point-data-center/deployment/upgrade-syskit-point.md).
 
 ## Features
 
 * **Syskit Point now supports connecting to SQL database using a managed identity**! This method enables Syskit Point to securely connect to the SQL database without needing a username and password. Keep in mind the following:
-  * **If you are a new user** [deploying Syskit Point for the first time](../../../set-up-point-data-center/deployment/deploy-syskit-point.md), **managed identity is used by default**.
-  * **If you are an existing user**, **Syskit Point continues to use the SQL authentication after the upgrade to the latest version**. [To switch to the managed identity option, please read the following article](../../../configuration/upgrade-SQL-to-managed-identity-authentication.md).
+  * **If you are a new user** [deploying Syskit Point for the first time](../../../setup/set-up-point-data-center/deployment/deploy-syskit-point.md), **managed identity is used by default**.
+  * **If you are an existing user**, **Syskit Point continues to use the SQL authentication after the upgrade to the latest version**. [To switch to the managed identity option, please read the following article](../../../setup/configuration/configure/upgrade-SQL-to-managed-identity-authentication.md).
   * **If you are using the Power BI companion app**, [discover how to set up Power BI data sync wit SQL authentication here](../../../power-bi-app/requirements.md).
-* **Syskit Point now supports Microsoft Authentication Flow to connect a service account with multifactor authentication enabled**! [Check out the following article to learn more about requirements and how to connect the service account in Syskit Point](../../../configuration/connect-service-account.md).
+* **Syskit Point now supports Microsoft Authentication Flow to connect a service account with multifactor authentication enabled**! [Check out the following article to learn more about requirements and how to connect the service account in Syskit Point](../../../setup/configuration/configure/connect-service-account.md).
 
 ## Improvements & Bug Fixes
 
 {% hint style="warning" %}
 **Please note!**\
-Global admin re-consent is required after the upgrade to the 2022.5 version due to changes in APIs used to send emails. [Learn more about permission changes here](../../../requirements/permission-requirements-change-log.md#syskit-point-20225).
+Global admin re-consent is required after the upgrade to the 2022.5 version due to changes in APIs used to send emails. [Learn more about permission changes here](../../../setup/requirements/permission-requirements-change-log.md#syskit-point-20225).
 {% endhint %}
 
-* **Syskit Point now uses Microsoft Graph API to send on-demand and automatic emails**. The switch was done due to the Outlook REST APIs being fully decommissioned on November 30, 2022. [To learn more about the permission changes performed because of this, open the Permission Requirements Change Log article](../../../requirements/permission-requirements-change-log.md).
+* **Syskit Point now uses Microsoft Graph API to send on-demand and automatic emails**. The switch was done due to the Outlook REST APIs being fully decommissioned on November 30, 2022. [To learn more about the permission changes performed because of this, open the Permission Requirements Change Log article](../../../setup/requirements/permission-requirements-change-log.md).
 * **Multiple improvements are available for User sync**.
   * **Improved handling of various user types and user roles** during User sync.
   * **Fixed an issue where duplicate users could appear** in the Syskit Point database, which would cause degradation in Syskit Point performance.

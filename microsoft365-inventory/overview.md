@@ -24,5 +24,5 @@ These inventory reports can all be accessed through the **home page**:
 
 {% hint style="information" %}
 **Please note!**  
-You can save custom views for your reports based on your needs and preferences. [For more details on this, take a look at the Save Custom Views article.](../configuration/custom-views.md)
+You can save custom views for your reports based on your needs and preferences. [For more details on this, take a look at the Save Custom Views article.](../setup/configuration/customize/custom-views.md)
 {% endhint %}

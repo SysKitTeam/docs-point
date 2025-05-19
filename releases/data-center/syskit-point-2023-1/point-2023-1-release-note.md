@@ -19,17 +19,17 @@ description: >-
 ### Syskit Point
 
 * **New to Syskit Point?** Get the latest Syskit Point version from [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit\_point).\
-  Find all steps described in detail in the [deployment article](../../../set-up-point-data-center/deployment/deploy-syskit-point.md).
+  Find all steps described in detail in the [deployment article](../../../setup/set-up-point-data-center/deployment/deploy-syskit-point.md).
 * **Already using Syskit Point?** Upgrade to the latest Syskit Point version.\
   [![](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitassetsstorage.blob.core.windows.net%2Fpoint%2FARMTemplates%2FPointUpdateDeploy%2FPointUpdateTemplate.json)
 
-See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../set-up-point-data-center/deployment/upgrade-syskit-point.md).
+See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../setup/set-up-point-data-center/deployment/upgrade-syskit-point.md).
 
 ## Features
 
 {% hint style="warning" %}
 **Please note!**\
-Global admin re-consent is required after the upgrade to the 2023.1 version. Global admins can expect to receive an email with the subject **Syskit Point – Global Admin consent needed**. Consent is required due to permission changes added for the new Access Requests feature. [Learn more about permission changes here](../../../requirements/permission-requirements-change-log.md#syskit-point-20231).
+Global admin re-consent is required after the upgrade to the 2023.1 version. Global admins can expect to receive an email with the subject **Syskit Point – Global Admin consent needed**. Consent is required due to permission changes added for the new Access Requests feature. [Learn more about permission changes here](../../../setup/requirements/permission-requirements-change-log.md#syskit-point-20231).
 
 [Syskit Point Teams app upgrade](../../../governance-and-automation/syskit-point-teams-app.md#upgrade-syskit-point-teams-app) is required after upgrading to the 2023.1 version.
 {% endhint %}
@@ -49,7 +49,7 @@ Global admin re-consent is required after the upgrade to the 2023.1 version. Glo
 * **Microsoft Teams & Groups Overview** now shows additional group types: Security Groups, Exchange Groups, and Distribution Lists.
   * **Group Access reports** will provide information on owners and members for Distribution Lists and Security Groups.
 * Syskit Point now has the option to **enable or disable provisioning**.
-* **Syskit Point trial** no longer has a 5k limit for documents and libraries, and the 1M items limit has been increased. [Read more about the trial here.](../../../set-up-point-cloud/free-trial.md)
+* **Syskit Point trial** no longer has a 5k limit for documents and libraries, and the 1M items limit has been increased. [Read more about the trial here.](../../../setup/set-up-point-cloud/free-trial.md)
 * **Optimized Power BI views in the Syskit Point database.** Before, large sets of data would allocate all available space for temporary SQL objects, which would, in the end, cause issues when syncing the Power BI model.
 * **Improved responsiveness of the Syskit Point Teams app.** The Teams app now better scales on smaller screens, avoiding the overflow of interface elements.
 * **Improved the date format in Syskit Point generated emails**. Emails now show the long date format; for example, **Monday, January 3, 2023.**; thus avoiding the confusion of different day/month formats. Issues with emails showing the UTC were fixed.

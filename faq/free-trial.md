@@ -23,7 +23,7 @@ Therefore, **only for trial purposes**, we have put in place the following limit
  * Load is limited to 10 000 000 files, ​
  * OneDrive sync is disabled​
 
-Please see our [documentation](../set-up-point-cloud/free-trial-limits.md) for more information.
+Please see our [documentation](../setup/set-up-point-cloud/free-trial-limits.md) for more information.
 
 ## What does it mean if, during the trial, the External Users report doesn't show a last login date? Does it mean the users have never logged in? 
 
@@ -40,7 +40,7 @@ If your External Users report isn't showing any data, the following scenarios ar
 
 ## Can multiple people in my organization try out Syskit Point together? 
 
-Yes. You can allow different levels of access to Syskit Point to multiple people. Please see our [documentation](../configuration/enable-role-based-access.md) for more details about Role Based Access configuration process.
+Yes. You can allow different levels of access to Syskit Point to multiple people. Please see our [documentation](../setup/configuration/configure/enable-role-based-access.md) for more details about Role Based Access configuration process.
 
 ## Will I be eligible for customer support during the trial?
 

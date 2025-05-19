@@ -18,7 +18,7 @@ To change your subscription plan, please visit our Subscriptions portal [https:/
 
 ## What does Syskit consider as a licensed Microsoft 365 account?
 
-Syskit Point licenses are calculated based on your M365 assigned licenses. Only unique users will be counted. Guest Users only fit into that category if they have a license assigned. Licenses that have FREE in their name are not counted when calculating cost. [Read more details here](../licensing-activation/licensed-users-count.md).
+Syskit Point licenses are calculated based on your M365 assigned licenses. Only unique users will be counted. Guest Users only fit into that category if they have a license assigned. Licenses that have FREE in their name are not counted when calculating cost. [Read more details here](../setup/licensing-activation/licensed-users-count.md).
 
 ## What will my Syskit Point subscription cost?
 
@@ -42,7 +42,7 @@ You may license up to 10.000 users for our Cloud plans. For Data Center edition,
 
 For **Syskit Point Cloud editions, audit logs are kept for 1 year**, and this cannot be modified.
 
-For **Syskit Point Data Center, you have the option to set up unlimited storage** for audit logs. You can decide how long you want to keep Audit Logs by [changing your Data Retention settings](../configuration/customize-audit-logs-collection.md#point-data-center).
+For **Syskit Point Data Center, you have the option to set up unlimited storage** for audit logs. You can decide how long you want to keep Audit Logs by [changing your Data Retention settings](../setup/configuration/customize/customize-audit-logs-collection.md#point-data-center).
 
 
 ## What is the minimum number of users I can purchase Syskit Point for?

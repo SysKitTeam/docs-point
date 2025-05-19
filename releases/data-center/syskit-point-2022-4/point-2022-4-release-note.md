@@ -17,17 +17,17 @@ description: >-
 ## Get the Latest Version
 
 * **New to Syskit Point?** Get the latest Syskit Point version from [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit\_point).\
-  Find all steps described in detail in the [deployment article](../../../set-up-point-data-center/deployment/deploy-syskit-point.md).
+  Find all steps described in detail in the [deployment article](../../../setup/set-up-point-data-center/deployment/deploy-syskit-point.md).
 * **Already using Syskit Point?** Upgrade to the latest Syskit Point version.\
   [![](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitassetsstorage.blob.core.windows.net%2Fpoint%2FARMTemplates%2FPointUpdateDeploy%2FPointUpdateTemplate.json)
 
-See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../set-up-point-data-center/deployment/upgrade-syskit-point.md).
+See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../setup/set-up-point-data-center/deployment/upgrade-syskit-point.md).
 
 ## Features
 
 {% hint style="warning" %}
 **Please note!**\
-Global admin re-consent is required after the upgrade to the 2022.4 version. [Learn more about permission changes here](../../../requirements/permission-requirements-change-log.md#syskit-point-20224).
+Global admin re-consent is required after the upgrade to the 2022.4 version. [Learn more about permission changes here](../../../setup/requirements/permission-requirements-change-log.md#syskit-point-20224).
 
 [Syskit Point Teams app upgrade](../../../governance-and-automation/syskit-point-teams-app.md#upgrade-syskit-point-teams-app) is required after the upgrade to the 2022.4 version.
 {% endhint %}
@@ -41,7 +41,7 @@ Global admin re-consent is required after the upgrade to the 2022.4 version. [Le
     * Power BI Inventory
     * Power BI Workspaces
     * Power BI Permissions
-  * Learn [how to enable Power BI data collection here](../../../configuration/enable-powerBI-data-collection.md).
+  * Learn [how to enable Power BI data collection here](../../../setup/configuration/configure/enable-powerBI-data-collection.md).
 * **Syskit Point now supports Shared Channels**, and they can be found under the Microsoft Teams & Groups Inventory.
   * Find out which **internal and external members have access to Shared Channels**, their domain and content, and see whether any Team was added to a specific shared channel.
 * Admins for private channels can now **remove, add or change owners and members** or promote members to owners directly in Syskit Point.

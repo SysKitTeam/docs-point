@@ -23,7 +23,7 @@ These actions help manage access, resolve the risks of orphaned resources by add
 * [Take a look at the Power Platform Reports article for more details on all the available Power Platform reports.](../reporting/power-platform-reports.md)
 
 {% hint style="warning" %}
-To generate the [Power Platform reports](../configuration/enable-role-based-access.md) and complete the Power Platform actions, please ensure [you have enabled Power Platform data collection](../configuration/power-platform.md).\
+To generate the [Power Platform reports](../setup/configuration/configure/enable-role-based-access.md) and complete the Power Platform actions, please ensure [you have enabled Power Platform data collection](../setup/configuration/configure/power-platform.md).\
 Power Platform actions can only be completed by Global Admin users.  
 {% endhint %}
 

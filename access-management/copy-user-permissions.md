@@ -11,7 +11,7 @@ The **Copy User Permissions action** enables you to copy all directly given perm
 The Copy User Permissions action is available only for Syskit Point users with the Syskit Point Admin role.
 {% endhint %}
 
-To learn more about roles in Syskit Point, see the [following article](../configuration/enable-role-based-access.md).
+To learn more about roles in Syskit Point, see the [following article](../setup/configuration/configure/enable-role-based-access.md).
 
 You can take advantage of the Copy User Permissions action in the following cases:
 
