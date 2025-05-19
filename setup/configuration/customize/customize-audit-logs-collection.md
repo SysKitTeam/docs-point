@@ -22,7 +22,7 @@ After registering **Syskit Point**, on the **Connect tenant** step, you have the
 * **Store audit logs \(1\)**
 * **Protect user privacy \(2\)**
 
-![Connect Tenant step](../.gitbook/assets/customize-audit-logs-collection-connect-tenant.png)
+![Connect Tenant step](../../../.gitbook/assets/customize-audit-logs-collection-connect-tenant.png)
 
 {% hint style="information" %}
 **Please note!**  
@@ -79,7 +79,7 @@ Here, you can:
 * **Select activities to collect \(3\)**
 * **View the number of events \(4\)** in the Audit Index
 
-![Audit Logs Settings](../.gitbook/assets/customize-audit-logs-collection-settings-saas.png)
+![Audit Logs Settings](../../../.gitbook/assets/customize-audit-logs-collection-settings-saas.png)
 
 Audit logs activities that are being collected can be found by clicking the **Select activities to collect \(3\)** link.
 
@@ -91,7 +91,7 @@ A new dialog opens, showing all audit log categories and activities available in
 * **Mark only specific activities within a category to be collected \(4\)**
 * **Confirm your changes** by clicking the **OK button \(5\)** and **Save** button on the **Audit Logs** screen.
 
-![Select activities to collect screen](../.gitbook/assets/customize-audit-logs-collection-select-activities-to-collect.png)
+![Select activities to collect screen](../../../.gitbook/assets/customize-audit-logs-collection-select-activities-to-collect.png)
 
 Available audit log categories:
 
@@ -130,7 +130,7 @@ To find the information on how long the Audit logs are stored for you:
 * Navigate to **Settings** > **Audit** > **Audit Logs**
 * **Find the info section where the audit logs storage period is visible (1)**
 
-![Audit logs storage period](../.gitbook/assets/customize-audit-logs-collection-point-cloud-retention.png)
+![Audit logs storage period](../../../.gitbook/assets/customize-audit-logs-collection-point-cloud-retention.png)
 
 {% hint style="information" %}
 **Purchased audit logs storage period will be added to the default period of 1-year audit log storage**. For example, if you purchased 2 years of additional storage, your audit logs will be stored for 3 years.
@@ -149,7 +149,7 @@ Go to the **General Settings** screen in your Syskit Point to enable it.
     * Once set up, audit logs that are older than the timeframe you select will be deleted 
  * Click **Save (4)** to finalize
 
-![Data retention for audit logs](../.gitbook/assets/customize-audit-logs-collection-data-retention-settings.png)
+![Data retention for audit logs](../../../.gitbook/assets/customize-audit-logs-collection-data-retention-settings.png)
 
 ## Exchange Logs
 
@@ -166,7 +166,7 @@ To select Exchange activities:
   * **Exchange mailbox activities \(2\)**
 * **Click OK** to confirm
 
-![Exchange log categories](../.gitbook/assets/customize-audit-logs-collection-exchange-categories.png)
+![Exchange log categories](../../../.gitbook/assets/customize-audit-logs-collection-exchange-categories.png)
 
 {% hint style="success" %}
 **Please note!** It can take up to 30 minutes for Syskit Point to collect Exchange log data.
@@ -179,7 +179,7 @@ To view collected Exchange logs, use the **Exchange Logs report** available in t
 ### Type of Audit Logs Collected
 
 Syskit Point collects audit logs accessible in the unified audit log. Out of the box, you can review the audit logs from the [Microsoft 365 compliance center](https://compliance.microsoft.com/auditlogsearch).
-You can additionally [customize for which activities Syskit Point will collect audit logs](../configuration/customize-audit-logs-collection.md).
+You can additionally [customize for which activities Syskit Point will collect audit logs](../customize/customize-audit-logs-collection.md).
 
 ### Sign-in Logs from Azure Active Directory 
 

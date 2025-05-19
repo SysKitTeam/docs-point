@@ -50,11 +50,11 @@ This means that you should:
   * The top views you see in the filter are the predefined views for the report, and below the separator line, you can find your saved custom views 
 
 
-![Save Custom Views](../.gitbook/assets/custom-views-save.png)
+![Save Custom Views](../../../.gitbook/assets/custom-views-save.png)
 
-![Save Custom Views - Confirmation](../.gitbook/assets/custom-views-save-confirm.png)
+![Save Custom Views - Confirmation](../../../.gitbook/assets/custom-views-save-confirm.png)
 
-![Save Custom Views - Filter](../.gitbook/assets/custom-views-save-filter.png)
+![Save Custom Views - Filter](../../../.gitbook/assets/custom-views-save-filter.png)
 
 
 When you are ready, you can choose to schedule your report or export it as:
@@ -68,7 +68,7 @@ Clicking the **arrow symbol (3)** next to either of the two export options enabl
 * **The Export All action generates a file containing all the information that is included in the selected report view.**
   * For example, when you select a custom view and then additionally filter the report but you still want to export rows as filtered in the selected view without additional filters applied, use the Export All action. 
 
-![Save Custom Views - Filter](../.gitbook/assets/custom-views-save-export.png)
+![Save Custom Views - Filter](../../../.gitbook/assets/custom-views-save-export.png)
 
 
 ## Custom Views Options

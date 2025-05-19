@@ -30,7 +30,7 @@ Here, you can:
 * **Define monthly license price per user (4)** – prices are used to calculate total costs on the Licenses Overview and License Distribution reports
 Once you are finished with the modifications, **click Save (5)**.
 
-![License Reports Settings](../.gitbook/assets/customize-license-reports-settings.png)
+![License Reports Settings](../../../.gitbook/assets/customize-license-reports-settings.png)
 
 ## License Reports Visibility
 
@@ -43,7 +43,7 @@ To make the License reports visible for Syskit Point Collaborators :
 * **Check** the **Give users access to license reports option (2)** under Syskit Point Collaborators role 
 * **Click Save (3)**
 
-![License Reports Visibility](../.gitbook/assets/customize-license-reports-collaborators.png)
+![License Reports Visibility](../../../.gitbook/assets/customize-license-reports-collaborators.png)
 
 {% hint style="warning" %}
 **Please note!**  

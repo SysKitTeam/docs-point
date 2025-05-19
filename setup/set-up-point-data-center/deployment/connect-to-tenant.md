@@ -28,7 +28,7 @@ Open the **Syskit Point Web App URL** in a browser to start the initial connecti
 
 To obtain the **Application (client) ID** and **Directory (tenant) ID**, create the **Syskit Point Installer** app registration.
 
-![Register Syskit Point](../../.gitbook/assets/connect-to-tenant-register.png)
+![Register Syskit Point](../../../.gitbook/assets/connect-to-tenant-register.png)
 
 ## Create App Registration
 
@@ -42,9 +42,9 @@ To create the required app registration used by Syskit Point, do the following:
 * in the **Redirect URI** section, select the **Single-page Application (SPA) (4)** option and paste the **URL (5)** copied from the second step on the **Register Syskit Point** page described in the previous section
 * click **Register (6)**
 
-![New App Registration](../../.gitbook/assets/connect-to-tenant-new-app-registration.png)
+![New App Registration](../../../.gitbook/assets/connect-to-tenant-new-app-registration.png)
 
-![Register an Application](../../.gitbook/assets/connect-to-tenant-register-application.png)
+![Register an Application](../../../.gitbook/assets/connect-to-tenant-register-application.png)
 
 After the app registration is created, the App Registration's **Overview screen** opens. Here, you can find the following data needed for the initial connection:
 
@@ -53,7 +53,7 @@ After the app registration is created, the App Registration's **Overview screen*
 
 Copy the **Application (client) ID** and **Directory (tenant) ID** values, and paste them to the input fields in the third step in the Register Syskit Point page.
 
-![App Registration Overview](../../.gitbook/assets/connect-to-tenant-app-registration-overview.png)
+![App Registration Overview](../../../.gitbook/assets/connect-to-tenant-app-registration-overview.png)
 
 ## Consent
 
@@ -67,7 +67,7 @@ For this, **you need to use a Microsoft 365 Global Admin account**. This account
 
 When you first connect to your tenant, Syskit Point will request permissions to collect data from your Microsoft 365 environment.
 
-![Consent](../../.gitbook/assets/connect-to-tenant-consent.png)
+![Consent](../../../.gitbook/assets/connect-to-tenant-consent.png)
 
 To continue, check the **Consent on behalf of your organization option (1)**, and click the **Accept button (2)**.
 
@@ -88,16 +88,16 @@ You can change connection options anytime from the **Settings** > **General** > 
 {% endhint %}
 
 {% hint style="warning" %}
-**Please note!**  For Syskit Point to collect, process, and save audit logs, you must enable auditing in your tenant. [Navigate here to find out how to turn on auditing.](../../configuration/turn-on-auditing.md)
+**Please note!**  For Syskit Point to collect, process, and save audit logs, you must enable auditing in your tenant. [Navigate here to find out how to turn on auditing.](../../configuration/configure/turn-on-auditing.md)
 {% endhint %}
 
 Click the **Connect (5)** button after defining the connection options. A new screen will open and show the progress of the initial connection. **Please do not refresh the page** as it will provide important information needed for troubleshooting in the unlikely event of an error.
 
-![Connection Settings](../../.gitbook/assets/connect-to-tenant-settings.png)
+![Connection Settings](../../../.gitbook/assets/connect-to-tenant-settings.png)
 
-![Initial Connection Progress](../../.gitbook/assets/connect-to-tenant-progress.png)
+![Initial Connection Progress](../../../.gitbook/assets/connect-to-tenant-progress.png)
 
-After all initial connection steps are completed, you will be redirected to the [Sign in page](../../get-to-know-syskit-point/navigate-through-syskit-point.md#sign-in-screen).
+After all initial connection steps are completed, you will be redirected to the [Sign in page](../../../get-to-know-syskit-point/navigate-through-syskit-point.md#sign-in-screen).
 
 ## Related Topics
 

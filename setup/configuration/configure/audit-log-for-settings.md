@@ -39,7 +39,7 @@ customEvents
 * If no actions are shown in the results, try to adjust and increase the **time range (5)** and run the query again. 
 * Expanding **customDimensions (5)** for each log gives you more details about what changed.
 
-![Application Insights - Run Query](../.gitbook/assets/settings-audit-run-query.png)
+![Application Insights - Run Query](../../../.gitbook/assets/settings-audit-run-query.png)
 
 ## Common Log Properties
 
@@ -58,11 +58,11 @@ In the table below, you can find common properties for all logs, along with more
 
 ## Related Articles
 
-* [Configure Your Environment for Storage Management](../configuration/configure-point-for-storage-management.md)
-* [Free Up Storage](../storage-management/free-up-storage.md)
-* [Configure Tenant Storage Limit Policy](../governance-and-automation/automated-workflows/tenant-storage-admin.md)
-* [Tenant Storage Security & Compliance Check](../governance-and-automation/security-compliance-checks/tenant-storage.md)
-* [Resolve Tenant Storage Limit Task](../point-collaborators/resolve-governance-tasks/tenant-storage-limit.md)
-* [Storage Metrics Report](../storage-management/storage-reports.md)
-* [Site Storage Metrics Report](../storage-management/storage-reports.md#site-storage-metrics)
-* [File Storage Details Report](../storage-management/storage-reports.md#file-storage-details)
+* [Configure Your Environment for Storage Management](../configure/configure-point-for-storage-management.md)
+* [Free Up Storage](../../../storage-management/free-up-storage.md)
+* [Configure Tenant Storage Limit Policy](../../../governance-and-automation/automated-workflows/tenant-storage-admin.md)
+* [Tenant Storage Security & Compliance Check](../../../governance-and-automation/security-compliance-checks/tenant-storage.md)
+* [Resolve Tenant Storage Limit Task](../../../point-collaborators/resolve-governance-tasks/tenant-storage-limit.md)
+* [Storage Metrics Report](../../../storage-management/storage-reports.md)
+* [Site Storage Metrics Report](../../../storage-management/storage-reports.md#site-storage-metrics)
+* [File Storage Details Report](../../../storage-management/storage-reports.md#file-storage-details)

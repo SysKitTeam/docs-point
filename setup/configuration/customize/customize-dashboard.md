@@ -34,4 +34,4 @@ Once you've set up the tiles to suit your preference, Syskit Point stores that i
 
 If you want to revert the order of the tiles, **click the Reset Layout (2)**, and the dashboard is returned to its original state. 
 
-![Syskit Point - Customizing the Dashboard](../.gitbook/assets/customize-dashboard.png)
+![Syskit Point - Customizing the Dashboard](../../../.gitbook/assets/customize-dashboard.png)

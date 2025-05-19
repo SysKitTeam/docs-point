@@ -42,18 +42,18 @@ To get started:
 * **Enter your e-mail (1)**
 * **Click the Send verification code button(2)**
 
-![Sign Up Form](../.gitbook/assets/free-trial-sign-up.png)
+![Sign Up Form](../../.gitbook/assets/free-trial-sign-up.png)
 
 You will receive an e-mail with the verification code.
 
-![Verification Code](../.gitbook/assets/free-trial-verification-code.png)
+![Verification Code](../../.gitbook/assets/free-trial-verification-code.png)
 
 Copy the verification code and return to the Sign Up form:
 * **Paste the received verification code (1)**
 * **Click Verify code (2)** to continue
   * Use the Send new code button if the prior verification code expires
 
-![Verify Code](../.gitbook/assets/free-trial-verify-code.png)
+![Verify Code](../../.gitbook/assets/free-trial-verify-code.png)
 
 Next, provide information in the Sign Up form:
 * **Define and confirm your password**
@@ -64,7 +64,7 @@ Next, provide information in the Sign Up form:
 * **Click Sign Up to finish**
   * Note that all fields are required
 
-![Sign Up Information](../.gitbook/assets/free-trial-sign-up-information.png)
+![Sign Up Information](../../.gitbook/assets/free-trial-sign-up-information.png)
 
 **After a successful sign up**, **Syskit Point web app opens**, **and shows demo data**.
 
@@ -80,12 +80,12 @@ To connect with your tenant:
 * Navigate to [Syskit Point with demo data](https://demo.syskit.com/) acquired in the previous step
 * Click the **Connect Tenant button(1)** 
 
-![Connect Tenant](../.gitbook/assets/free-trial-connect-tenant.png)
+![Connect Tenant](../../.gitbook/assets/free-trial-connect-tenant.png)
 
 The Subscriptions portal opens, where you will be guided through the initial connection.
 If you are not signed in to the Subscriptions portal, **sign in with your account created during sign-up (1)**.
 
-![Sign In](../.gitbook/assets/free-trial-subscriptions-sign-in-aad-b2c.png)
+![Sign In](../../.gitbook/assets/free-trial-subscriptions-sign-in-aad-b2c.png)
 
 A new page opens showing the Configure step:
 
@@ -101,20 +101,20 @@ A new page opens showing the Configure step:
 * **Mark the checkbox (5)** to confirm you read and agree with the [Syskit End User Software License Agreement](https://www.syskit.com/eula/)
 * **Click Next (6) when finished**
 
-![Configure Step](../.gitbook/assets/free-trial-subscriptions-configure-step.png)
+![Configure Step](../../.gitbook/assets/free-trial-subscriptions-configure-step.png)
 
 Next, consent is required on the Connect step, permitting Syskit Point to collect your Microsoft 365 tenant data.
 * Click **Grant Consent (1)** to proceed. **Sign in with your Microsoft work account and provide your consent**.
 * [Learn more about permission requirements here](../requirements/permission-requirements.md).
 
- ![Connect](../.gitbook/assets/free-trial-subscriptions-connect-step.png)
+ ![Connect](../../.gitbook/assets/free-trial-subscriptions-connect-step.png)
 
- ![Consent](../.gitbook/assets/free-trial-subscriptions-consent.png)
+ ![Consent](../../.gitbook/assets/free-trial-subscriptions-consent.png)
 
 After the consent, your Syskit Point instance starts to provision.
 You can track the progress on the Complete step.
 
-![Creating Syskit Point Instance](../.gitbook/assets/free-trial-subscriptions-complete-step.png)
+![Creating Syskit Point Instance](../../.gitbook/assets/free-trial-subscriptions-complete-step.png)
 
 After the Syskit Point instance is created, you can find the following in the Complete step:
 
@@ -123,7 +123,7 @@ After the Syskit Point instance is created, you can find the following in the Co
 * **Manage Subscription button (2)**
   * Opens the Subscription portal where you can [manage your Syskit Point subscription](syskit-point-subscriptions.md)
 
-![Syskit Point instance created](../.gitbook/assets/free-trial-subscriptions-complete-point-instance-created.png)
+![Syskit Point instance created](../../.gitbook/assets/free-trial-subscriptions-complete-point-instance-created.png)
 
 {% hint style="warning" %}
 **Please note!**&#x20;

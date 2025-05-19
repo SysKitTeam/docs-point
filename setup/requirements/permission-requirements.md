@@ -22,7 +22,7 @@ When [connecting to a Microsoft 365 tenant](../set-up-point-data-center/deployme
 
 **The first time you connect to your Microsoft 365 tenant, you will be prompted to consent** to a set of permissions that Syskit Point requires to function correctly. Additional prompts may appear in the future when installing a newer version of Syskit Point because of new functionality and, consequently, new permissions required.
 
-![Microsoft 365 Global Admin Consent](../.gitbook/assets/permission-requirements-ga-consent.png)
+![Microsoft 365 Global Admin Consent](../../.gitbook/assets/permission-requirements-ga-consent.png)
 
 ## Syskit Point App Permissions
 
@@ -63,7 +63,7 @@ To allow safer access to your Microsoft 365 tenant data and optimize the data sy
 
 ### Syskit Point Service
 
-**Syskit Point Service** app registration is used for [data Sync](../get-to-know-syskit-point/collect-office-365-data.md), [audit log collection](../configuration/customize-audit-logs-collection.md), and sending emails. The following permissions enable Syskit Point to perform these actions:
+**Syskit Point Service** app registration is used for [data Sync](../../get-to-know-syskit-point/collect-office-365-data.md), [audit log collection](../configuration/customize/customize-audit-logs-collection.md), and sending emails. The following permissions enable Syskit Point to perform these actions:
 
 **Microsoft Graph**
 
@@ -183,7 +183,7 @@ To manage the permissions, you can run the related PowerShell cmdlets described 
 
 ### Syskit Point Permissions Loader
 
-**Syskit Point Permissions Loader** app registration is used for optimized [data Sync](../get-to-know-syskit-point/collect-office-365-data.md) for SharePoint and OneDrive data paired with the Syskit Point Service app registration. The following permissions enable Syskit Point to perform these actions:
+**Syskit Point Permissions Loader** app registration is used for optimized [data Sync](../../get-to-know-syskit-point/collect-office-365-data.md) for SharePoint and OneDrive data paired with the Syskit Point Service app registration. The following permissions enable Syskit Point to perform these actions:
 
 **Microsoft Graph**
 
@@ -240,7 +240,7 @@ Permissions are added when Power BI or Power Apps and Power Automate data collec
 * read-only access to all the information available through Power BI admin APIs; for example, user names and emails, dataset and report detailed metadata
 * read-only access to detailed metadata about Power BI items; for example, responses from GetScanResult APIs will contain the names of dataset tables and columns
 
-[Read the following article to learn how to enable Power BI data collection in Syskit Point.](../configuration/enable-powerBI-data-collection.md)
+[Read the following article to learn how to enable Power BI data collection in Syskit Point.](../configuration/configure/enable-powerBI-data-collection.md)
 
 **Power Apps and Power Automate**
 
@@ -259,7 +259,7 @@ To manage the permissions, you can run the related PowerShell cmdlets described 
 * [Remove-PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/remove-powerappmanagementapp?view=pa-ps-latest)
 {% endhint %}
 
-[See the following article to learn how to enable Power Apps and Power Automate data collection in Syskit Point.](../configuration/power-platform.md)
+[See the following article to learn how to enable Power Apps and Power Automate data collection in Syskit Point.](../configuration/configure/power-platform.md)
 
 ### Syskit Point API
 

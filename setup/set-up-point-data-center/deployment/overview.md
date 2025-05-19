@@ -10,7 +10,7 @@ description: >-
 
 After the deployment, the key Azure resources shown in the architecture diagram below will be created and ready to run Syskit Point.
 
-![Syskit Point - Architecture Diagram](../../.gitbook/assets/overview-architecture-diagram.png)
+![Syskit Point - Architecture Diagram](../../../.gitbook/assets/overview-architecture-diagram.png)
 
 Find additional diagrams available for download in the following table:
 
@@ -41,6 +41,6 @@ If you run into any issues when preparing your environment, please [contact us](
 
 By now, your Syskit Point is up and running. You can sign in to the Syskit Point web application, and it will continuously collect data from Microsoft 365. There are a few important considerations to make to complete the setup and secure your Point web application:
 
-* [**Request access to Protected APIs in Microsoft Teams**](../../configuration/microsoft-teams-activity.md) - Point needs **additional approval from Microsoft** in order to be able to **detect inactive Teams**
-* [**Manage who can access Point**](../../configuration/enable-role-based-access.md) - by default only **Global Administrators** and **SharePoint admins** have the rights to log in to the Point web application
-* [**Setup data retention for Audit logs**](../../configuration/customize-audit-logs-collection.md) - depending on your company policy, set the data retention policy for stored Microsoft 365 audit logs
+* [**Request access to Protected APIs in Microsoft Teams**](../../configuration/configure/microsoft-teams-activity.md) - Point needs **additional approval from Microsoft** in order to be able to **detect inactive Teams**
+* [**Manage who can access Point**](../../configuration/configure/enable-role-based-access.md) - by default only **Global Administrators** and **SharePoint admins** have the rights to log in to the Point web application
+* [**Setup data retention for Audit logs**](../../configuration/customize/customize-audit-logs-collection.md) - depending on your company policy, set the data retention policy for stored Microsoft 365 audit logs

@@ -14,7 +14,7 @@ The licensing of the Syskit Point subscription **is based on licensed Microsoft 
 The number of licensed users within Syskit Point can be found by going to **Settings (1) > General (2) > Point License (3) > Number of licensed users M/N (4)**.
 * Open a report with all your assigned paid licenses by clicking the **View Point Licenses button (5)**. 
 
-![Number of Licensed Users](../.gitbook/assets/activation-licensed-users-point.png)
+![Number of Licensed Users](../../.gitbook/assets/activation-licensed-users-point.png)
 
  * **M** is the **number of licensed users in the tenant** 
  * **N** is the **number of Paid users that are included in the Syskit Point license**
@@ -29,14 +29,14 @@ On that screen, you will find the following information:
 
 You can also use the **column chooser (5)** to add columns to the report. 
 
-![View Point Licenses - Report](../.gitbook/assets/activation-licensed-users-licenses-report.png)
+![View Point Licenses - Report](../../.gitbook/assets/activation-licensed-users-licenses-report.png)
 
 **The exact number and type of licenses** assigned to users in Syskit Point can be found on the **Licensed Users screen**. 
 * Click **Users (1)** on the left side of the Home page
 * Select **Licensed Users (2)** from the drop-down menu or tile
 * **Browse (3)** by type of license assigned to users under the Licenses section
 
-![Browse Licensed Users by license](../.gitbook/assets/activation-licensed-users-browse-license.png)
+![Browse Licensed Users by license](../../.gitbook/assets/activation-licensed-users-browse-license.png)
 
 To access information on how many assigned licenses exist in your Microsoft 365 environment, visit the admin center and take the following steps. 
 
@@ -44,7 +44,7 @@ Under **Billing (1)**, select **Licenses (2)**. The list of **owned licenses (3)
  * The **Available Licenses (4)** column shows the number of licenses available to be assigned to users. 
  * The **Assigned Licenses (5)** column shows the number of assigned licenses compared to the available number. 
 
-![How to Check the Microsoft 365 Licenses](../.gitbook/assets/licensed-users-count-m365-licenses.png)
+![How to Check the Microsoft 365 Licenses](../../.gitbook/assets/licensed-users-count-m365-licenses.png)
 
 Selecting each license allows you to **Assign** it to additional users or **Unassign** it from current ones. This can help with optimizing the cost of the Syskit Point subscription to suit your needs better.
 
@@ -56,7 +56,7 @@ Selecting each license allows you to **Assign** it to additional users or **Unas
 The pricing for Syskit Point is **calculated based on each user with an assigned license**. 
 For example, if one user has three licenses, the charge would still be for that single user, regardless of the number of licenses assigned. 
 
-![Unassign Microsoft 365 Licenses](../.gitbook/assets/licensed-users-count-unassign-m365-licenses.png)
+![Unassign Microsoft 365 Licenses](../../.gitbook/assets/licensed-users-count-unassign-m365-licenses.png)
 
 ## License Cleanup
 
@@ -65,7 +65,7 @@ If you have inactive users, you can remove their license through Syskit Point th
  * **Select Licenses from the drop-down menu (2)** of the reports screen; 
  * **Click the Inactive Licenses report (3)**; this will generate the report that will show you all of the licenses currently assigned to inactive users or guest users
 
-![Inactive License Report](../.gitbook/assets/activation-licensed-users-count-inactive-report.png)
+![Inactive License Report](../../.gitbook/assets/activation-licensed-users-count-inactive-report.png)
 
  * **Select the license of an inactive user (1)**; you can select one or multiple licenses. 
     * To select all inactive licenses, press the top checkbox on the left side next to the title 'License.' 
@@ -73,12 +73,12 @@ If you have inactive users, you can remove their license through Syskit Point th
     * Once selected, a pop-up appears.
     * **Type REMOVE and click the Remove button to proceed**. 
 
-![Removing Licenses](../.gitbook/assets/activation-licensed-users-count-inactive-remove.png)
+![Removing Licenses](../../.gitbook/assets/activation-licensed-users-count-inactive-remove.png)
 
 
 {% hint style="information" %}
 
-**Please note** that if the license is assigned automatically to the user once they are added as a member of a specific group, **it cannot be manually removed**. The license is removed automatically once the user is removed from being a group member. [For more information about removing users from workspaces, read this article](../point-collaborators/manage-workspaces/manage-workspaces.md#remove-group-access).
+**Please note** that if the license is assigned automatically to the user once they are added as a member of a specific group, **it cannot be manually removed**. The license is removed automatically once the user is removed from being a group member. [For more information about removing users from workspaces, read this article](../../point-collaborators/manage-workspaces/manage-workspaces.md#remove-group-access).
 
 {% endhint %}
 
@@ -105,4 +105,4 @@ The licenses that do not count toward calculating the price for your Syskit Poin
 
 ## Related Articles
 
-Read the [Customize License Reports article](../configuration/customize-license-reports.md) article for more information on customizing license reports.
+Read the [Customize License Reports article](../configuration/customize/customize-license-reports.md) article for more information on customizing license reports.

@@ -65,7 +65,7 @@ Here, you will find:
 * **Assign to role (5)** button enabling you to add a user to a role easily
 * **Save (6)** button to save changes
 
-![Settings - Manage Access](../.gitbook/assets/enable-role-based-access-manage-access.png)
+![Settings - Manage Access](../../../.gitbook/assets/enable-role-based-access-manage-access.png)
 
 Clicking the tile showing the number of assigned users per role opens a **report for the corresponding role**
 Here, you can:
@@ -73,7 +73,7 @@ Here, you can:
 * **Assign (2)** new users to the role; you can add **users**, **Microsoft 365 Administration roles**, **security groups,** and **Microsoft 365 Groups**
 * **Export or schedule (3)** the report
 
-![Manage Access - Syskit Point Admins](../.gitbook/assets/enable-role-based-access-admins.png)
+![Manage Access - Syskit Point Admins](../../../.gitbook/assets/enable-role-based-access-admins.png)
 
 Additionally, you can **remove** a user from the role. To do so:
 * **Select the user by clicking the checkbox next to the user name \(1\)**
@@ -81,7 +81,7 @@ Additionally, you can **remove** a user from the role. To do so:
 
 A **dialog** shows, asking you to **confirm** the removal action.
 
-![Manage Access - Remove](../.gitbook/assets/enable-role-based-access-remove.png)
+![Manage Access - Remove](../../../.gitbook/assets/enable-role-based-access-remove.png)
 
 When the action is **completed**, the selected user **no longer has access** to **Syskit Point**.
 
@@ -135,7 +135,7 @@ Additional options are available when the Syskit Point Collaborators role is ena
 * **Give users access to license reports (3)**; when enabled, Collaborators can access License reports
 * **Give Collaborators access to subordinate user's activities (4)**; when enabled, Collaborators will be able to view the OneDrive tile, the Analytics & Usage tile, Audit log reports when accessing User details or workspaces they manage
 
-![Collaborators - Options](../.gitbook/assets/enable-role-based-access-collaborator-options.png)
+![Collaborators - Options](../../../.gitbook/assets/enable-role-based-access-collaborator-options.png)
 
 ### Why Should You Enable Role-Based Access
 
@@ -150,6 +150,6 @@ When said **Syskit Point Collaborator** opens the URL, the report will be genera
 
 When **Syskit Point Collaborator** tries to **drill** to the **user details** page of a user they are not a manager of, they will be redirected to an **Unauthorized Access** page.
 
-![Unauthorized access page](../.gitbook/assets/enable-role-based-access-unauthorized-access.png)
+![Unauthorized access page](../../../.gitbook/assets/enable-role-based-access-unauthorized-access.png)
 
 **As demonstrated, the Role-Based Access provides a secure framework for collaboration in your Microsoft 365 environment**.

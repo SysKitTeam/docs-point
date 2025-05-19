@@ -20,4 +20,4 @@ Take the following steps to set up your governance-excluded users:
   * **Mail-Enabled Security Group** - all users included in the mail-enabled security group are added to the list of governance-excluded users, and they do not receive any governance tasks or task-related e-mails-
 * Once you enter the user(s) or security group(s) that you want to exclude, **click Save (4)** to store your preference
 
-![Governance-Excluded Users - Setup](../.gitbook/assets/exclude-users-task-setup.png)
+![Governance-Excluded Users - Setup](../../../.gitbook/assets/exclude-users-task-setup.png)

@@ -4,7 +4,7 @@ description: This article explains how to upgrade from SQL to Managed Identity a
 
 # Managed Identity Authentication
 
-Instead of using SQL authentication, you are now able to **use Managed Identity authentication with Syskit Point**. If you deploy Syskit Point after the [v2022.5 release](../releases/data-center/syskit-point-2022-5/point-2022-5-release-note.md), Managed Identity will be the authentication method by default. 
+Instead of using SQL authentication, you are now able to **use Managed Identity authentication with Syskit Point**. If you deploy Syskit Point after the [v2022.5 release](../../../releases/data-center/syskit-point-2022-5/point-2022-5-release-note.md), Managed Identity will be the authentication method by default. 
 
 Those that deployed Syskit Point before that release can manually upgrade to Managed Identity. 
 
@@ -17,12 +17,12 @@ In order to enable Managed Identity authentication instead of SQL authentication
 * **Navigate to [Azure Portal](https://portal.azure.com/) and open the Syskit Point resource group**
 * **Find and open the SQL Server resource (1)**; this can be located under Resources, with the **Type listed as SQL server**
 
-![Syskit Point resource group - SQL server](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-sql-server.png)
+![Syskit Point resource group - SQL server](../../../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-sql-server.png)
 
 * **Copy the SQL server name (2)** listed on the right side. The name is formatted as: servername.database.windows.net
   * This information will be needed for one of the next steps, so store it somewhere easy to access
 
-![SQL server name](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-copy-server-name.png)
+![SQL server name](../../../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-copy-server-name.png)
 
 
 ## Upgrade to Managed Identity Authentication
@@ -30,39 +30,39 @@ In order to enable Managed Identity authentication instead of SQL authentication
 * On the Syskit Point resource group, **click the Managed Identity resource (1)**
   * Located under Resources and marked as Managed Identity in the Type column
 
-![Syskit Point resource group - Managed Identity](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-managed-identity.png)
+![Syskit Point resource group - Managed Identity](../../../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-managed-identity.png)
 
 * **Copy the Client ID (2)**; located on the right side of the Managed Identity resource screen 
    * This will be needed later, so store the copied text somewhere it will be easy to locate
 
-![Managed Identity - Client ID](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-copy-client-ID.png)
+![Managed Identity - Client ID](../../../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-copy-client-ID.png)
 
 * Return to the **Syskit Point resource group** page
 * **Click the Key Vault resource (1)** 
   * Located under Resources and marked as Key Vault in the Type column
 
-![Syskit Point resource group - Key Vault](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-key-vault.png)
+![Syskit Point resource group - Key Vault](../../../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-key-vault.png)
 
 * **Select the Access Policies option (2)**; located on the left side of the screen
 * Click the **Create (3)** button at the top of the screen
   * This will provide the option to **Create an access policy**
 
-![Key Vault - Access Policies option](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-key-vault-create-access-policy.png)
+![Key Vault - Access Policies option](../../../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-key-vault-create-access-policy.png)
 
 * Under **Configure from a template** select the **Secret Management (4)** option and click on **Next (5)**
 
-![Key Vault - Access policy - Template](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-key-vault-create-access-policy-permission.png)
+![Key Vault - Access policy - Template](../../../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-key-vault-create-access-policy-permission.png)
 
 * Find and **select your system admin account (6)** and **click Next (7)**
    * With this, you will gain permission to perform changes in the key vault
 
-![Key Vault - Access Policy - Principal](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-key-vault-create-access-policy-principal.png)
+![Key Vault - Access Policy - Principal](../../../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-key-vault-create-access-policy-principal.png)
 
 * The Application section can be skipped, so **select Next**
 * Under the **Review + Create** section, check to make sure all the information is correct and **click Create (8)**
   * This will complete the process
 
-![Key Vault - Access Policy - Review and Create](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-key-vault-create-access-policy-review-and-create.png)
+![Key Vault - Access Policy - Review and Create](../../../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-key-vault-create-access-policy-review-and-create.png)
 
 When this is set up, **the Access Policies screen should now show the name of the person selected** during the creation process under the **User** section. 
 
@@ -74,17 +74,17 @@ If this was completed successfully, proceed to the following steps:
 * Under Firewall, **click Add your client IP address** and **paste your public IP address (3)** here
 * **Click Apply** when finished
 
-![Key Vault - Networking](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-key-vault-networking.png)
+![Key Vault - Networking](../../../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-key-vault-networking.png)
 
 * **Select Secrets** (1)
   * Located on the left side under Objects
 * **Select the PointDatabase option (2)** from the list of available names
 
-![Key Vault - Secrets](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-key-vault-db-secret.png)
+![Key Vault - Secrets](../../../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-key-vault-db-secret.png)
 
 * On the PointDatabase screen, **click the New Version button (3)**
 
-![Key Vault - Secrets - Point Database](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-key-vault-db-secret-new-version.png)
+![Key Vault - Secrets - Point Database](../../../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-key-vault-db-secret-new-version.png)
 
 * On the form that opens, you will need to enter the following text as **Secret value (4)**
 
@@ -106,7 +106,7 @@ For example, after being edited with your server information, the text should lo
 
 * When the **edited text** has been entered, **click Create**
 
-![Key Vault - Create a secret](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-key-vault-db-secret-create.png)
+![Key Vault - Create a secret](../../../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-key-vault-db-secret-create.png)
 
 
 After successfully setting this up, the next step will be removing the access granted to perform the previous changes to secure Syskit Point Azure resources. 
@@ -122,10 +122,10 @@ The last steps to finish setting up your Managed Identity authentication are the
 * Once there, **click the Azure Active Directory (1)**; located on the left side under Settings
 * **Click the Set Admin (2)** button at the top of the screen
 
-![SQL server - Azure Active Directory](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-sql-server-set-admin.png)
+![SQL server - Azure Active Directory](../../../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-sql-server-set-admin.png)
 
 * In the search bar, **paste the client ID for the Managed Identity (3)** that was used in the previous steps and **click select (4)**
 
-![SQL server - Azure Active Directory - Managed Identity setup](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-sql-server-set-admin-select.png)
+![SQL server - Azure Active Directory - Managed Identity setup](../../../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-sql-server-set-admin-select.png)
 
 Once all of these steps have been completed, the only thing left to do for the Managed Identity authentication to be enabled is to **Restart Application Services**.

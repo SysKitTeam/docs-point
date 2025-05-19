@@ -31,14 +31,14 @@ To purchase the subscription, complete the following steps:
 * Click the **Buy Now** button, located in the top right corner of your Syskit Point trial screen
 * On the **Syskit Subscriptions** site that opens, **click the Sign in (1)** button
 
-![Syskit Point Subscriptions - Sign in](../.gitbook/assets/purchasing-syskit-point-subscriptions.png)
+![Syskit Point Subscriptions - Sign in](../../.gitbook/assets/purchasing-syskit-point-subscriptions.png)
 
 **Syskit Sign in screen opens**, where you can either:
 
 * **Sign in with your Syskit credentials (1)** - created in the [process of acquiring Syskit Point with demo data](free-trial.md#get-syskit-point-with-demo-data); or
 * **Sign in with Microsoft Work Account (2)** - used to [connect your Microsoft 365 tenant to get the free trial](free-trial.md#connect-your-tenant)
 
-![Syskit Sign in](../.gitbook/assets/purchasing-syskit-point-syskit-sign-in.png)
+![Syskit Sign in](../../.gitbook/assets/purchasing-syskit-point-syskit-sign-in.png)
 
 After signing in, a new screen opens showing **information about your Syskit Point subscription**.
 
@@ -52,7 +52,7 @@ The **Overview section (1)** provides insight into general information on the st
 * This shows as Trial while your free trial period is still active
 * Next to **Purchased Plan** you can click on the **Buy Now button (7)** to purchase your Syskit Point subscription or manually click the **Subscriptions section (8)** on the left side of the screen under Overview
 
-![Syskit Point Subscription - Overview Screen](../.gitbook/assets/purchasing-syskit-point-subscriptions-overview.png)
+![Syskit Point Subscription - Overview Screen](../../.gitbook/assets/purchasing-syskit-point-subscriptions-overview.png)
 
 The **Subscription section (1)** is where you can purchase your subscription and select the specific details that suit your needs.
 
@@ -77,7 +77,7 @@ Your preferences for the following information need to be selected:
 * **Summary (8)** - located on the right side of the screen, it shows a quick summary of the selection you've made with a cost estimate for your chosen subscription
 * Click the **Buy Now button (9)** for the final step to complete your purchase
 
-![Syskit Point Subscription - Subscriptions Screen](../.gitbook/assets/purchasing-syskit-point-subscriptions-screen.png)
+![Syskit Point Subscription - Subscriptions Screen](../../.gitbook/assets/purchasing-syskit-point-subscriptions-screen.png)
 
 After clicking **Buy Now**, you are redirected to the purchasing site.
 
@@ -85,7 +85,7 @@ After clicking **Buy Now**, you are redirected to the purchasing site.
 * On the right side of the screen, you can **pay with link (2)** or you need to input your **credit card details (3)**.
 * **Click the Pay and Subscribe button (4)** to finalize the purchase.
 
-![Syskit Point Subscription - Purchasing Screen](../.gitbook/assets/purchasing-syskit-point-subscriptions-payment.png)
+![Syskit Point Subscription - Purchasing Screen](../../.gitbook/assets/purchasing-syskit-point-subscriptions-payment.png)
 
 Once you've purchased your Syskit Point subscription, you are redirected to the Syskit Point Subscriptions site.
 
@@ -95,9 +95,9 @@ The **Purchased Plan (1)** section will now show the name of the subscription yo
 
 The section titled **Users (2)** is where you can find a **list of users (2)** you have given Administrator rights to the Subscriptions portal, which means **these users are allowed to manage your subscription by adding additional user licenses, purchasing a different subscriptions plan**, and so on.
 
-![Syskit Point Subscription - Purchased Plan & Users](../.gitbook/assets/syskit-point-subscriptions-users-purchased-plan.png)
+![Syskit Point Subscription - Purchased Plan & Users](../../.gitbook/assets/syskit-point-subscriptions-users-purchased-plan.png)
 
-![Syskit Point Subscription - Purchased Plan & Users](../.gitbook/assets/syskit-point-subscriptions-users-list.png)
+![Syskit Point Subscription - Purchased Plan & Users](../../.gitbook/assets/syskit-point-subscriptions-users-list.png)
 
 ## Purchase Additional User Licenses
 
@@ -110,9 +110,9 @@ To increase the number of user licenses included in your plan, take the followin
 * Click the **Update plan (3)** button, located on the right side of the screen
 * Select your current plan by clicking the **Continue button** on the right side, next to your current plan
 
-![Syskit Point Subscription - Increase Users Licenses](../.gitbook/assets/syskit-point-cloud-licensing-buy-more.png)
+![Syskit Point Subscription - Increase Users Licenses](../../.gitbook/assets/syskit-point-cloud-licensing-buy-more.png)
 
-![Syskit Point Subscription - Increase Users Licenses - Update plan](../.gitbook/assets/syskit-point-cloud-licensing-update-plan.png)
+![Syskit Point Subscription - Increase Users Licenses - Update plan](../../.gitbook/assets/syskit-point-cloud-licensing-update-plan.png)
 
 The screen to update your plan opens. Here you can:
 
@@ -120,7 +120,7 @@ The screen to update your plan opens. Here you can:
 * **Select the number of licenses (2)** you want to purchase
 * **Click Continue (3)** when you are satisfied with your selection
 
-![Syskit Point Subscription - Update Plan - Selection](../.gitbook/assets/syskit-point-cloud-licensing-plan-selection.png)
+![Syskit Point Subscription - Update Plan - Selection](../../.gitbook/assets/syskit-point-cloud-licensing-plan-selection.png)
 
 You are redirected to the confirmation screen, where the following information is shown:
 
@@ -130,7 +130,7 @@ You are redirected to the confirmation screen, where the following information i
 * This number will show the necessary payment based on the price of the added licenses; you will not be charged for the licenses you have already purchased
 * Click **Confirm (4)** to finalize your selection and proceed with your payment
 
-![Syskit Point Subscription - Increased Users Licenses - Finalized](../.gitbook/assets/syskit-point-cloud-licensing-users-licenses.png)
+![Syskit Point Subscription - Increased Users Licenses - Finalized](../../.gitbook/assets/syskit-point-cloud-licensing-users-licenses.png)
 
 ## Upgrade Your Subscription Plan
 
@@ -143,9 +143,9 @@ To change or upgrade the Syskit Point subscription plan you currently have, comp
 * Click the **Update plan (3)** button, located on the right side of the screen
 * This opens a pop-up where you can edit your current subscription and enhance your user licenses
 
-![Syskit Point Subscription - Manage Subscription](../.gitbook/assets/syskit-point-cloud-licensing-manage-subs.png)
+![Syskit Point Subscription - Manage Subscription](../../.gitbook/assets/syskit-point-cloud-licensing-manage-subs.png)
 
-![Syskit Point Subscription - Update Plan](../.gitbook/assets/syskit-point-cloud-licensing-update-plan.png)
+![Syskit Point Subscription - Update Plan](../../.gitbook/assets/syskit-point-cloud-licensing-update-plan.png)
 
 The **Update your plan screen** opens where you can:
 
@@ -155,7 +155,7 @@ The **Update your plan screen** opens where you can:
 * **Selecting the number of licenses (3)** you want to purchase
 * Click the **Continue button (4)** to finalize your choice
 
-![Syskit Point Subscription - Upgrade Plan](../.gitbook/assets/syskit-point-cloud-licensing-new-plan.png)
+![Syskit Point Subscription - Upgrade Plan](../../.gitbook/assets/syskit-point-cloud-licensing-new-plan.png)
 
 * The site that opens will show the **Changing your updates**, which lists the new plan you selected
 * The two sections below show:
@@ -164,7 +164,7 @@ The **Update your plan screen** opens where you can:
 * This number will be the increased amount based on the pay difference between your initial plan and the new one; the amount paid for the initial plan is deducted from the price of the new plan
 * Click **Confirm (1)** to finalize your selection and proceed with your payment
 
-![Syskit Point Subscription - Upgrade Plan - Finalized](../.gitbook/assets/syskit-point-cloud-licensing-users-licenses-new.png)
+![Syskit Point Subscription - Upgrade Plan - Finalized](../../.gitbook/assets/syskit-point-cloud-licensing-users-licenses-new.png)
 
 ## Manage Subscription Administrators
 
@@ -185,7 +185,7 @@ To add users as your Syskit Point subscription administrators, complete these st
 * **Remove (7)** - clicking this opens a pop-up where you are asked to confirm and **Remove Access** from the selected user &#x20;
 * To add a new user as a subscriptions administrator, click the **Invite User (8)** button
 
-![Syskit Point Subscription - Manage Subscription Admins](../.gitbook/assets/syskit-point-subscriptions-manage-sub-admins.png)
+![Syskit Point Subscription - Manage Subscription Admins](../../.gitbook/assets/syskit-point-subscriptions-manage-sub-admins.png)
 
 Clicking the Invite User button opens the Invite User pop-up. There, you can:
 
@@ -193,7 +193,7 @@ Clicking the Invite User button opens the Invite User pop-up. There, you can:
 * **Enter the e-mail (2)** of the user you want to add as an admin
 * **Click Invite User (3)** to send the request
 
-![Syskit Point Subscription - Manage Subscription Admins - Invite User](../.gitbook/assets/syskit-point-subscriptions-manage-sub-admins-invite.png)
+![Syskit Point Subscription - Manage Subscription Admins - Invite User](../../.gitbook/assets/syskit-point-subscriptions-manage-sub-admins-invite.png)
 
 Once the invitation is sent, the user gets an e-mail invitation to become a Subscription admin.
 
@@ -205,7 +205,7 @@ The user needs to click the **Accept Invite (1)** button to join the subscriptio
   * Their e-mail is automatically filled out, but the user needs to specify their display name and set up their password for the subscriptions portal.   
 * After filling out and submitting the requested details, the Subscriptions Portal opens, where the user can manage the Syskit Point subscription.
 
-![Syskit Point Subscription - Manage Subscription Admins - Invite User](../.gitbook/assets/syskit-point-subscriptions-manage-sub-admins-invite-accept.png)
+![Syskit Point Subscription - Manage Subscription Admins - Invite User](../../.gitbook/assets/syskit-point-subscriptions-manage-sub-admins-invite-accept.png)
 
 ## Reconnect After Purchasing
 
@@ -218,7 +218,7 @@ In case your Syskit Point is licensed, but your instance was deleted, you will s
 
 To reconnect your tenant **click the Connect Tenant button (1)**.
 
-![Syskit Point Subscription - Canceled](../.gitbook/assets/syskit-point-subscriptions-reconnect-tenant.png)
+![Syskit Point Subscription - Canceled](../../.gitbook/assets/syskit-point-subscriptions-reconnect-tenant.png)
 
 [For more details about connecting your tenant to Syskit Point, take a look at this article.](free-trial.md)
 
@@ -230,7 +230,7 @@ For more information about audit logs, you can click the **Audit Logs Retention 
 
 If you want to purchase additional storage years for Audit Logs, click the **Contact Us link (3)** to e-mail our Sales team directly, or fill out the form on our [Contact page](https://www.syskit.com/contact-us/).
 
-![Syskit Point Subscription - Additional Audit Logs Storage](../.gitbook/assets/syskit-point-subscriptions-audit-logs-storage.png)
+![Syskit Point Subscription - Additional Audit Logs Storage](../../.gitbook/assets/syskit-point-subscriptions-audit-logs-storage.png)
 
 {% hint style="info" %}
 **Please note!** If you request the removal of additional retention years that you previously purchased, the change will be applied after 3 days. &#x20;
@@ -249,9 +249,9 @@ To cancel the Syskit Point subscription plan you currently have, complete the fo
 * Click the **Cancel plan (3)** button, located on the right side of the screen
 * This opens a screen where you can cancel your current plan
 
-![Syskit Point Subscription - Cancel Subscription](../.gitbook/assets/syskit-point-cloud-licensing-manage-subs.png)
+![Syskit Point Subscription - Cancel Subscription](../../.gitbook/assets/syskit-point-cloud-licensing-manage-subs.png)
 
-![Syskit Point Subscription - Cancel Subscription](../.gitbook/assets/setup-point-cloud-syskit-point-subscriptions-cancel-overview.png)
+![Syskit Point Subscription - Cancel Subscription](../../.gitbook/assets/setup-point-cloud-syskit-point-subscriptions-cancel-overview.png)
 
 The Cancel Your Plan site will show an overview of your current plan with information about:
 
@@ -265,10 +265,10 @@ Click the **Cancel plan button (1)**to cancel your plan.
 
 Your subscription will now be canceled, and once the current plan you had already purchased expires, you can no longer utilize Syskit Point.
 
-![Syskit Point Subscription - Canceled](../.gitbook/assets/setup-point-cloud-syskit-point-subscriptions-cancel.png)
+![Syskit Point Subscription - Canceled](../../.gitbook/assets/setup-point-cloud-syskit-point-subscriptions-cancel.png)
 
 ## Related Articles
 
-* [Licensing FAQ](../faq/licensing.md)
-* [Purchasing and Discounts FAQ](../faq/purchasing-and-discounts.md)
-* [Partner Program FAQ](../faq/partner-program.md)
+* [Licensing FAQ](../../faq/licensing.md)
+* [Purchasing and Discounts FAQ](../../faq/purchasing-and-discounts.md)
+* [Partner Program FAQ](../../faq/partner-program.md)

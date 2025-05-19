@@ -26,7 +26,7 @@ To modify your tenant connection, complete the following:
   * An information bubble on what to do in case you want to disconnect your tenant ([contact Syskit support](https://support.syskit.com/hc/en-us/requests/new?ticket_form_id=21891417027473)) (6)
   * Connect Service Account section where you can disable the connection or remove the service account (7)
 
-![Connected Tenant - Point Settings](../.gitbook/assets/manage-tenant-connection-settings.png)
+![Connected Tenant - Point Settings](../../../.gitbook/assets/manage-tenant-connection-settings.png)
 
 To manage your connection, **click the Manage Connection button. (5)**
   * You are asked to reconsent to provide Syskit Point permission to your tenant by **clicking Accept**
@@ -40,4 +40,4 @@ To manage your connection, **click the Manage Connection button. (5)**
   * Once you are done, **click the Connect button (6)** to finalize
   * When Syskit Point is done updating your tenant, you are redirected back to the Syskit Point Dashboard
 
-![Connect Tenant - Modify](../.gitbook/assets/manage-tenant-connection-modify.png)
+![Connect Tenant - Modify](../../../.gitbook/assets/manage-tenant-connection-modify.png)
