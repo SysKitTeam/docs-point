@@ -47,7 +47,6 @@ In Inventory, you can find the information about the total number of:
 * **Microsoft 365 Groups** 
 * **SharePoint Sites** 
 * **OneDrive**
-* **Inactive workspaces**
 
 Each of these numbers is drillable and, once clicked, opens the Sites Overview screen filtered to show appropriate data.
 
@@ -61,19 +60,6 @@ If you **hover over a bar**, which represents a newly added workspace, a **toolt
 
 To see more details about all workspaces, click the **View All** link, which opens the **Sites Overview** screen.
 
-On the bottom, colored in red, you will find the number of **inactive** and **orphaned workspaces** if they are present in your environment.
-
-By **clicking the number** of the inactive workspaces, the **Inactive Workspaces** report opens.
-
-For more information about the Inactive Workspaces report, click [here](../governance-and-automation/lifecycle-management/inactive-content.md#inactive-workspaces-report).
-
-{% hint style="warning" %}
-**Please note!**  
-The number of inactive workspaces **will be visible 10 days after the first installation of Syskit Point.**
-{% endhint %}
-
-Similarly, **clicking the number** of orphaned workspaces will open the **Orphaned Workspaces** report in the **Report Center**.
-
 You can find more details on your workspaces by taking a look at the:
 
 * [Microsoft Teams & Groups article](../microsoft365-inventory/microsoft-teams-and-groups.md)
@@ -84,10 +70,10 @@ You can find more details on your workspaces by taking a look at the:
 
 This tile contains the following information:
 
-* **the total number of users** in your environment
-* **the number of newly added users** in the past 30 days
-* **the number of external users**, **administrators**, **inactive users**, and **users with blocked sign-in**
-* **the View All** link
+* **The total number of users** in your environment
+* **The number of newly added users** in the past 30 days
+* **The number of external users**, **administrators**, **inactive users**, and **users with blocked sign-in**
+* **The View All** link
 
 To access detailed information about all users, click the total number of users or the **View All** link, which opens the **Users Overview** screen.
 
@@ -101,9 +87,9 @@ Each of the numbers drills to the appropriate view in the **Users Overview** scr
 
 This tile provides the following storage metrics:
 
-* **total storage**
-* **used storage**
-* **free storage**
+* **Total storage**
+* **Used storage**
+* **Free storage**
 
 The **View All** link opens the **Storage Metrics report** showing tenant-wide storage usage, usage trend through time, and the largest sites in your tenant.
 
@@ -136,6 +122,8 @@ The tile on the Dashboard shows:
 * The number of medium-risk vulnerabilities
 * The number of low-risk vulnerabilities
 
+![Security and Compliance tile](../.gitbook/assets/dashboard-security-compliance-tile.png)
+
 Clicking on **View All** redirects you to the Security and Compliance checks screen. 
 
 The following information is tracked and available there:
@@ -147,8 +135,6 @@ The following information is tracked and available there:
 * **Workspaces with Not Enough Owners**
 * **Orphaned Users**
 * **Workspaces with Too Many Owners**
-
-![Security and Compliance tile](../.gitbook/assets/dashboard-security-compliance-tile.png)
 
 Syskit Point performs regular security and compliance checks for you and presents the results directly on your home screen.
 
@@ -230,6 +216,11 @@ The **View All** link opens the **Governance** section, showing the **Vulnerabil
 
 ![Inactive Workspaces tile](../.gitbook/assets/dashboard-inactive-workspaces-tile.png)
 
+{% hint style="warning" %}
+**Please note!**  
+The number of inactive workspaces **will be visible 10 days after the first installation of Syskit Point.**
+{% endhint %}
+
 
 ## Microsoft 365 Licenses
 
@@ -288,8 +279,8 @@ The tile on the Dashboard shows:
 
 * **Not Enough Sensitivity Labels** - this section only shows up if your organization does not have enough sensitivity labels, with the recommended minimum being 4
 
-* **The number of Unlabeled Workspaces** - clicking on this opens the Sites overview screen with the Unlabeled Sites filter applied
-  * Next to it is the **Ask Owners button** - clicking this opens the same Sites overview screen with the Unlabeled Sites filter, where you can select one or more sites, and by going to Manage Sensitivity > Ask Owners, you can request that workspace owners review and apply sensitivity labels
+* **The number of Unlabeled Workspaces** - clicking on this or the **Ask Owners** button next to it opens the Workspaces Without a Sensitivity Label screen in the Security and Compliance checks section, where you can perform the **Apply Label** or **Ask Owners** actions.
+  * [For details on how to resolve the Workspaces without a Sensitivity Label vulnerability, take a look at this article.](../governance-and-automation/security-compliance-checks/workspaces-without-sensitivity.md)
 
 * **Infomation box** - this provides some additional information on sensitivity labels in general as well as a link to an article that explains it in more detail
 

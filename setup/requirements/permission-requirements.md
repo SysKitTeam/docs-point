@@ -71,6 +71,7 @@ To allow safer access to your Microsoft 365 tenant data and optimize the data sy
 | ---------------------------------------------------------------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Read all audit log data                                          | Application | Enables Syskit Point to access data used to determine the time of the last sign-in for guest users.                                                                                                                          |
 | Read the members of all channels                                 | Application | Allows Syskit Point to collect membership data for private and shared channels.                                                                                                                                              |
+| Read all channel messages                                        | Application | Enables Syskit Point to calculate Teams activity based on the latest channel message date.                                                                                                                                           |
 | Read directory data                                              | Application | Allows Syskit Point to autodiscover your sites, groups, and users.                                                                                                                                                           |
 | Read files in all site collections                               | Application | Enables Syskit Point to perform partial site syncs containing changed files only.                                                                                                                                            |
 | Read and write all groups                                        | Application | Allows Syskit Point to read Microsoft 365 Group data and show you reports based on that data. Additionally, it allows you to manage your groups from Syskit Point.                                                           |
@@ -174,6 +175,12 @@ To manage the permissions, you can run the related PowerShell cmdlets described 
 * [Remove-PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/remove-powerappmanagementapp?view=pa-ps-latest)
 {% endhint %}
 
+**With introduction of Power Platform Actions in Point Cloud v2025.2.88, reconsent is required from the Global Administrator.** With reconsent, the following permission is added:
+
+| API/Permissions Name                     | Permission                        | Type      | Reason                                                                                         |
+| ---------------------------------------- | --------------------------------- | --------- | ---------------------------------------------------------------------------------------------- |
+| PowerApps Service/User | Access the PowerApps Service API | Delegated | Allows you to run Power Platform actions in Syskit Point. |
+
 ### Syskit Point Permissions Loader
 
 **Syskit Point Permissions Loader** app registration is used for optimized [data Sync](../get-to-know-syskit-point/collect-office-365-data.md) for SharePoint and OneDrive data paired with the Syskit Point Service app registration. The following permissions enable Syskit Point to perform these actions:
@@ -253,12 +260,6 @@ To manage the permissions, you can run the related PowerShell cmdlets described 
 {% endhint %}
 
 [See the following article to learn how to enable Power Apps and Power Automate data collection in Syskit Point.](../configuration/power-platform.md)
-
-### Configuration Inventory Module
-
-If the Configuration Inventory module is deployed, Syskit Point creates an Azure AD Application named **Syskit Point Configuration Inventory** when establishing a [connection](../set-up-point-data-center/deployment/connect-to-tenant.md) to your tenant.
-
-[Open this article to see all permissions granted to Syskit Point Configuration Inventory app registration](../configuration-inventory/configuration-inventory-requirements.md).
 
 ### Syskit Point API
 

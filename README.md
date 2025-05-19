@@ -39,5 +39,5 @@ Take necessary actions to **prevent security problems and data leaks**, stay com
 
 **Automate governance** procedures, **avoid uncontrolled sprawl, and manage workspaces lifecycle**, from its creation to end of life.
 
-With Syskit Point governance features and Point Teams app, **end users increase productivity, get simplified processes, and reduce dependency on the support** team to manage access and create workspaces. **Admins get the platform that helps them support** **adoption** of modern ways of cloud collaboration, **keeping the data secured and controlling** everything with policies applied in the background.
+With Syskit Point governance features and Point Teams app, **end users increase productivity, get simplified processes, and reduce dependency on the support** team to manage access and create workspaces. **Admins get the platform that helps them support adoption** of modern ways of cloud collaboration, **keeping the data secured and controlling** everything with policies applied in the background.
 

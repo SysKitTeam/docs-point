@@ -23,8 +23,6 @@ description: >-
 
 See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../set-up-point-data-center/deployment/upgrade-syskit-point.md).
 
-* **Want to try out the Configuration Inventory module?** [Contact us](https://www.syskit.com/contact-us/).
-
 ## Features
 
 {% hint style="warning" %}
