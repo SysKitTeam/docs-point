@@ -31,7 +31,7 @@ For **Guest Users**, who do not appear in the Unified Audit Log (e.x. Teams-only
 
 * After collecting the data, **Syskit Point takes the most recent of the two values** in order to determine the guest user's last activity. 
 
-[For more details on this, take a look at the Customize Audit Logs Collection article.](../configuration/customize-audit-logs-collection.md#sign-in-logs-from-azure-active-directory)
+[For more details on this, take a look at the Customize Audit Logs Collection article.](../setup/configuration/customize/customize-audit-logs-collection.md#sign-in-logs-from-azure-active-directory)
 
 {% hint style="information" %}
 **Please note!** 
@@ -48,7 +48,7 @@ To configure inactivity for license reports:
 * Go to **Settings > License reports**
 * Under **Inactive Licenses**, define the **number of days since the last login after which a user is considered inactive**
 
-[For detailed instructions on how to customize your license reports, take a look at the Customize License Reports article.](../configuration/customize-license-reports.md)
+[For detailed instructions on how to customize your license reports, take a look at the Customize License Reports article.](../setup/configuration/customize/customize-license-reports.md)
 
 To configure inactivity for Governance policies: 
 * Go to **Settings > Governance > Policies > Inactive Guest Users policy**

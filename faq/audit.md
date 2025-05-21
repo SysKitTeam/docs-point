@@ -7,7 +7,7 @@ description: This article provides answers to the most common questions regardin
 ## What type of audit logs does Syskit Point collect?
 
 Syskit Point collects audit logs accessible in the unified audit log. Out of the box, you can review the audit logs from the [Microsoft 365 compliance center](https://compliance.microsoft.com/auditlogsearch).
-You can additionaly [customize for which activities will Syskit Point collect audit logs](../configuration/customize-audit-logs-collection.md).
+You can additionaly [customize for which activities will Syskit Point collect audit logs](../setup/configuration/customize/customize-audit-logs-collection.md).
 
 ## Why can't I see sign-in logs from Azure Active Directory in Syskit Point audit reports?
 

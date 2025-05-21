@@ -15,18 +15,18 @@ description: This article lists improvements and bug fixes in Syskit Point versi
 ## Get the Latest Version
 
 * **New to Syskit Point?** Get the latest Syskit Point version from [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit\_point).\
- Find all steps described in detail in the [deployment article](../../../set-up-point-data-center/deployment/deploy-syskit-point.md).
+ Find all steps described in detail in the [deployment article](../../../setup/set-up-point-data-center/deployment/deploy-syskit-point.md).
 * **Already using Syskit Point?** Upgrade to the latest Syskit Point version.\
  [![](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitassetsstorage.blob.core.windows.net%2Fpoint%2FARMTemplates%2FPointUpdateDeploy%2FPointUpdateTemplate.json)
 
-See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../set-up-point-data-center/deployment/upgrade-syskit-point.md).
+See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../setup/set-up-point-data-center/deployment/upgrade-syskit-point.md).
 
 ## New Features
 
 * **Custom Views are now available!**
   * This feature **lets you filter, sort, add, or remove columns** in your report based on your specific needs **and retain those customizations for future use**.
   * Custom Views can be saved for Overview screens and other grid reports.
-  * [For more details on how to Save Custom Views and a list of where custom views can be saved, take a look at this article.](../../../configuration/custom-views.md)
+  * [For more details on how to Save Custom Views and a list of where custom views can be saved, take a look at this article.](../../../setup/configuration/customize/custom-views.md)
 
 
 ## Improvements & Bug Fixes

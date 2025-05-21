@@ -21,7 +21,7 @@ These reports can be accessed in the Report section by selecting the **Audit Log
 
 {% hint style="information" %}
 **Please note!**  
-You can save custom views for your reports based on your needs and preferences. [For more details on this, take a look at the Save Custom Views article.](../configuration/custom-views.md)
+You can save custom views for your reports based on your needs and preferences. [For more details on this, take a look at the Save Custom Views article.](../setup/configuration/customize/custom-views.md)
 {% endhint %}
 
 ## Audit Logs Overview Report
@@ -84,7 +84,7 @@ Use this report to **see all Exchange-related activity in your environment**.
 {% hint style="warning" %} Please note!
 By default, Exchange logs are not collected; at least one Exchange activity must be selected for Syskit Point to collect and store Exchange log data. {% endhint %}
 
-Click [here](../configuration/customize-audit-logs-collection.md) to learn more about customizing the Exchange logs collection.
+Click [here](../setup/configuration/customize/customize-audit-logs-collection.md) to learn more about customizing the Exchange logs collection.
 
 ### Filtering Options
 The following filtering options are available:
