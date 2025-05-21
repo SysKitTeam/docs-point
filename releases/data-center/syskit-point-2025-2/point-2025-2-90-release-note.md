@@ -27,7 +27,7 @@ The 2025.2.90 release brings important improvements to Syskit Point’s backend 
 
 {% hint style="warning" %}
 **Please note!**\
-Global admin re-consent is required after the upgrade to the latest version due to changes in APIs used to [detect Teams chat activity](../../../setup/configuration/configure/microsoft-teams-activity.md) and if you enabled Power Platform data collection in one of the previous versions.
+Global admin re-consent is required after the upgrade to the latest version due to changes in APIs used to [detect Teams chat activity](../../../setup/configuration/configure/additional/microsoft-teams-activity.md) and if you enabled Power Platform data collection in one of the previous versions.
 Consent is required due to permission change introduced to enable [running Power Platform actions](../../../access-management/power-platform-actions.md) in Syskit Point. [Learn more about permission changes here](../../../setup/requirements/permission-requirements-change-log.md)
 {% endhint %}
 

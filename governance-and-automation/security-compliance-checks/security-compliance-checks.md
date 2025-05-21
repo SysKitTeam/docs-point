@@ -57,7 +57,7 @@ After clicking View All, the Security and Compliance checks dashboard will open,
 To keep all vulnerabilities **under control proactively and prevent possible issues**, explore and \[[**set up governance policies**](../automated-workflows/set-up-policies.md) **and** [**policy rules**](../automated-workflows/policy-automation.md)] in Syskit Point.
 
 {% hint style="info" %}
-**Please note!** If a user, security group, or mail-enabled security group is added to the Governance-Excluded Users list, those users do not receive any Governance-related tasks or task-related emails. [For more details on setting up Governance-Excluded Users, take a look at this article.](../../setup/configuration/configure/exclude-users-tasks.md)
+**Please note!** If a user, security group, or mail-enabled security group is added to the Governance-Excluded Users list, those users do not receive any Governance-related tasks or task-related emails. [For more details on setting up Governance-Excluded Users, take a look at this article.](../../setup/configuration/configure/additional/exclude-users-tasks.md)
 {% endhint %}
 
 &#x20;

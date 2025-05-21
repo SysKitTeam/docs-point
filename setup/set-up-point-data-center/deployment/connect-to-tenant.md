@@ -88,7 +88,7 @@ You can change connection options anytime from the **Settings** > **General** > 
 {% endhint %}
 
 {% hint style="warning" %}
-**Please note!**  For Syskit Point to collect, process, and save audit logs, you must enable auditing in your tenant. [Navigate here to find out how to turn on auditing.](../../configuration/configure/turn-on-auditing.md)
+**Please note!**  For Syskit Point to collect, process, and save audit logs, you must enable auditing in your tenant. [Navigate here to find out how to turn on auditing.](../../configuration/configure/essential/turn-on-auditing.md)
 {% endhint %}
 
 Click the **Connect (5)** button after defining the connection options. A new screen will open and show the progress of the initial connection. **Please do not refresh the page** as it will provide important information needed for troubleshooting in the unlikely event of an error.

@@ -23,7 +23,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 ## Improvements & Bug Fixes
 
-* **Sensitivity Label Changes** alert is now available! The alert can be enabled tenant-wide or on specific Microsoft Teams, Microsoft 365 Groups, or sites. [See the full list of alerts available in Syskit Point here.](../../setup/configuration/configure/configure-alerts.md)
+* **Sensitivity Label Changes** alert is now available! The alert can be enabled tenant-wide or on specific Microsoft Teams, Microsoft 365 Groups, or sites. [See the full list of alerts available in Syskit Point here.](../../setup/configuration/configure/additional/configure-alerts.md)
 * **Cosmos DB timeout and retry handling is improved**. Syskit Point is now more resistant to timeouts when collecting Unified Audit Logs.
 * **Users Overview screen is optimized**. As a result, generating the report, searching and filtering by licenses and assigned admin roles is faster.
 * **Microsoft Teams chat activity detection is optimized**. When determining Teams activity, Syskit Point is now faster and uses fewer Azure resources.

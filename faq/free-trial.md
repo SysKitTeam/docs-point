@@ -40,7 +40,7 @@ If your External Users report isn't showing any data, the following scenarios ar
 
 ## Can multiple people in my organization try out Syskit Point together? 
 
-Yes. You can allow different levels of access to Syskit Point to multiple people. Please see our [documentation](../setup/configuration/configure/enable-role-based-access.md) for more details about Role Based Access configuration process.
+Yes. You can allow different levels of access to Syskit Point to multiple people. Please see our [documentation](../setup/configuration/configure/essential/enable-role-based-access.md) for more details about Role Based Access configuration process.
 
 ## Will I be eligible for customer support during the trial?
 

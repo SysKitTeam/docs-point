@@ -26,7 +26,7 @@ Once the Storage Metrics Report is generated, complete the next steps:
   * **Clicking the arrow** next to the Clean Up File versions action provides several clean up actions:
     * **Old File Versions (3)** - lets you clean up old file versions based on the value you set up in Settings.
     * **Number of File Versions (4)** - lets you clean up several old file versions based on the value you set up in Settings.
-      * For more details on setting up these values, look at the [Configure Storage Management article](../setup/configuration/configure/configure-storage-management.md).
+      * For more details on setting up these values, look at the [Configure Storage Management article](../setup/configuration/configure/additional/configure-storage-management.md).
     * **All but the last file versions (5)** - lets you clean up all versions of the files, except for the most recent one. Clean Up Action on Site Storage Metrics Report
 
 {% hint style="information" %}
@@ -55,7 +55,7 @@ There are three ways to clean up the storage space across your sites.
  * In the File Version Cleanup tile, you can:
    * **Choose to Clean Up file versions older than X month(s) (2)**
    * **Choose to Clean Up all but the last X file version(s) (3)**
-     * The exact numbers shown here can be customized in your Syskit Point settings; for more details on this, take a look at the [Configure Storage Management article](../setup/configuration/configure/configure-storage-management.md)
+     * The exact numbers shown here can be customized in your Syskit Point settings; for more details on this, take a look at the [Configure Storage Management article](../setup/configuration/configure/additional/configure-storage-management.md)
 
   * **Selecting the site (4)**, or the files included in the site and clicking the **Clean Up File Versions button (5)**, located on the right side of the screen under the **Manage section**. 
 

@@ -16,7 +16,7 @@ With the Metadata Review feature, you can select metadata you want collaborators
 
 **Please note:** To be able to request a review from workspace owners in Syskit Point, **ensure the following**:
 * The Collaborator role is enabled. 
-    * For more details, read the [Assign and Manage Access to Syskit Point article](../../setup/configuration/configure/enable-role-based-access.md#syskit-point-collaborators-1).
+    * For more details, read the [Assign and Manage Access to Syskit Point article](../../setup/configuration/configure/essential/enable-role-based-access.md#syskit-point-collaborators-1).
 * Metadata is be editable by collaborators. 
     * Continue reading this article and discover how to allow collaborators to manage custom metadata.
 
@@ -27,7 +27,7 @@ With the Metadata Review feature, you can select metadata you want collaborators
 {% hint style="warning" %}
 * This section explains how to enable the metadata you want reviewed by workspace owners. **If your metadata is already enabled for review, you can skip this section.**
 
-* If the Collaborator role is not enabled in your environment, take a look at the [Assign and Manage Access to Syskit Point article](../../setup/configuration/configure/enable-role-based-access.md#syskit-point-collaborators-1). Collaborators must be allowed to enable and request a metadata review.  
+* If the Collaborator role is not enabled in your environment, take a look at the [Assign and Manage Access to Syskit Point article](../../setup/configuration/configure/essential/enable-role-based-access.md#syskit-point-collaborators-1). Collaborators must be allowed to enable and request a metadata review.  
 
 {% endhint %}
 

@@ -68,7 +68,7 @@ Multiple improvements are available for the Storage Management for SharePoint On
 * **The Remove Access action was enabled** for users in the Access review task on the Sharing step - Users View.   
   * Multiselection of users is also enabled.
 
-* **When [configuring e-mail SMTP settings](../../../setup/configuration/configure/set-up-email.md#smtp-settings)**, along with the classic email@email.com format, the Sent From e-mail can now also be in the following format: DisplayName <email@email.com>.
+* **When [configuring e-mail SMTP settings](../../../setup/configuration/configure/essential/set-up-email.md#smtp-settings)**, along with the classic email@email.com format, the Sent From e-mail can now also be in the following format: DisplayName <email@email.com>.
 
 * **Newly created licensed users** who have never logged in are no longer shown on the Inactive Licenses report. 
   * Additionally, on the Users Overview screen in the Inactive Users tile and Inactive Users view, newly created users (those created in the last 30 days) will not show.

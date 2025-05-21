@@ -35,8 +35,8 @@ The first site sync after the upgrade will be a full site sync instead of a part
 * **Storage Management for SharePoint Online gets new improvements!**
   * **Views were added** to the Storage Metrics report:
     * **Largest Sites** view sorts the report based on site size.
-    * **Potential Savings - Number of Versions** view sorts the report based on the amount of saved storage you can achieve with the Clean Up action, keeping the [defined number of file versions](../../../setup/configuration/configure/configure-storage-management.md).
-    * **Potential Saving - Old Versions** view sorts the report based on the amount of saved storage you get if running the Clean Up action, deleting file versions older than you defined in [Storage Management settings](../../../setup/configuration/configure/configure-storage-management.md). 
+    * **Potential Savings - Number of Versions** view sorts the report based on the amount of saved storage you can achieve with the Clean Up action, keeping the [defined number of file versions](../../../setup/configuration/configure/additional/configure-storage-management.md).
+    * **Potential Saving - Old Versions** view sorts the report based on the amount of saved storage you get if running the Clean Up action, deleting file versions older than you defined in [Storage Management settings](../../../setup/configuration/configure/additional/configure-storage-management.md). 
   * **Two new columns were added** to the Storage Metrics report and can be selected from the column chooser: **Potential Savings (Old Versions)** and **Potential Savings (Number of Versions)**.
   * **The Clean Up File Versions** action is now available on the Storage Metrics report when bulk selecting multiple workspaces! 
     * You can now select up to 500 workspaces at a time, run the Clean Up action, and free up your tenant storage even faster.

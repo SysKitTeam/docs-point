@@ -35,7 +35,7 @@ Drills, breadcrumbs, views, contextual and global actions, filters, and each and
 **Collaborator roles** are available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 {% endhint %}
 
-Not only Global Administrators but also **Site Owners and users with Full Control Permissions can access Syskit Point** and manage their Sites and Microsoft 365 Groups. Find out how to [enable their access in few mouse clicks here.](../../setup/configuration/configure/enable-role-based-access.md)
+Not only Global Administrators but also **Site Owners and users with Full Control Permissions can access Syskit Point** and manage their Sites and Microsoft 365 Groups. Find out how to [enable their access in few mouse clicks here.](../../setup/configuration/configure/essential/enable-role-based-access.md)
 
 ## Sync it!
 

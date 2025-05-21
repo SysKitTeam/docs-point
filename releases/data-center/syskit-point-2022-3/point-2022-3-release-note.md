@@ -35,7 +35,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
   * The Service Account page hits and views **will be ignored when detecting any workspace activity**
   * The Service Account audit logs **won’t be stored**
   * The Service Account changes **will be ignored and won’t trigger alerts**\
-    Learn [how to Ignore Service accounts here](../../../setup/configuration/configure/ignore-service-account-activity-tracking.md).
+    Learn [how to Ignore Service accounts here](../../../setup/configuration/configure/additional/ignore-service-account-activity-tracking.md).
 
 ## Improvements & Bug Fixes
 

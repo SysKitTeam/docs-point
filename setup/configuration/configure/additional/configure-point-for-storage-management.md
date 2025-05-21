@@ -48,11 +48,11 @@ To collect the data:
     * **Resource group name** 
     * **Subscription ID**
 
-![Resource Group](../../../.gitbook/assets/configure-storage-management-subscription-id.png)
+![Resource Group](../../../../.gitbook/assets/configure-storage-management-subscription-id.png)
 
 * Find the Storage account and write down its name (name starts with pointsa*)
 
-![Storage Account](../../../.gitbook/assets/configure-storage-management-storage-account.png)
+![Storage Account](../../../../.gitbook/assets/configure-storage-management-storage-account.png)
 
 * Modify the provided script and enter the collected data instead of default values.
 * To run the script, start Azure CLI 
@@ -72,4 +72,4 @@ After completing the above, restart **both** App Services inside the Point resou
 
 ## Related Articles
 
-* [Learn how to manage storage using Syskit Point](../../../storage-management/storage-management-overview.md)
+* [Learn how to manage storage using Syskit Point](../../../../storage-management/storage-management-overview.md)

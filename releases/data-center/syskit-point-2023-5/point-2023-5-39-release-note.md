@@ -27,7 +27,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 {% hint style="warning" %}
 **Please note!**\
 Additional configuration is needed for the Storage Management feature to work.
-[Navigate to the following article to find information on how to configure your environment](../../../setup/configuration/configure/configure-point-for-storage-management.md).
+[Navigate to the following article to find information on how to configure your environment](../../../setup/configuration/configure/additional/configure-point-for-storage-management.md).
 {% endhint %}
 
 * **The Storage Management feature is now fully available**!
@@ -38,7 +38,7 @@ Additional configuration is needed for the Storage Management feature to work.
       * Use this report to see all file versions and the total storage used by all versions.
       * Find how much storage is used by the file versions older than 6 months.
       * Find out how much storage can be saved by keeping the latest 20 versions.
-        * These numbers are set by default and can be changed, visit the [Configure Storage Management](../../../setup/configuration/configure/configure-storage-management.md) article to learn how.
+        * These numbers are set by default and can be changed, visit the [Configure Storage Management](../../../setup/configuration/configure/additional/configure-storage-management.md) article to learn how.
       * See how much storage is used by the file versions other than the latest 20 versions. 
       * **Please note that the File Storage Details report is available in the Governance plan only**.
 
@@ -46,7 +46,7 @@ Additional configuration is needed for the Storage Management feature to work.
     * This means you can select any site, folder, document library, or even **the entire site** and clean up the older file versions.
   * The Site Storage Metrics report now has a new **File Type tile** added. 
     * There, you can check how much **storage is occupied by different types of files**: videos, photos, office documents, or others.
-  * [Read this article to learn how to configure Storage Management settings](../../../setup/configuration/configure/configure-storage-management.md).
+  * [Read this article to learn how to configure Storage Management settings](../../../setup/configuration/configure/additional/configure-storage-management.md).
   * The Storage Metrics report can have **metadata columns** added by selecting them from the column chooser. 
   * The File Storage Details report has a **Delete Version action** added when files are selected. 
   * [Learn more about Storage optimization in the following article](../../../storage-management/free-up-storage.md).

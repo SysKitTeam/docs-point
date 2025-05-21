@@ -24,8 +24,8 @@ description: >-
 * **Storage Management for SharePoint Online gets new improvements!**
   * **Views were added** to the Storage Metrics report:
     * **Largest Sites** view sorts the report based on site size.
-    * **Potential Savings - Number of Versions** view sorts the report based on the amount of saved storage you can achieve with the Clean Up action, keeping the [defined number of file versions](../../setup/configuration/configure/configure-storage-management.md).
-    * **Potential Saving - Old Versions** view sorts the report based on the amount of saved storage you get if running the Clean Up action, deleting file versions older than you defined in [Storage Management settings](../../setup/configuration/configure/configure-storage-management.md). 
+    * **Potential Savings - Number of Versions** view sorts the report based on the amount of saved storage you can achieve with the Clean Up action, keeping the [defined number of file versions](../../setup/configuration/configure/additional/configure-storage-management.md).
+    * **Potential Saving - Old Versions** view sorts the report based on the amount of saved storage you get if running the Clean Up action, deleting file versions older than you defined in [Storage Management settings](../../setup/configuration/configure/additional/configure-storage-management.md). 
   * **Views were added to the Site Storage Metrics report** for both the Files Only and Site Structure layout:
     * **Largest Files** view sorts the report by file size descending.
     * **File Type Views - Office files, Video, Photos, and Other files** help you filter and show the files by their type.

@@ -39,7 +39,7 @@ Find out what's new in the latest [release note](../../../power-bi-app/releases/
 **Syskit Point e-mail customization improved.** You can now define which banner will be visible for all e-mails and define a custom banner for the Access Review and Lifecycle Management e-mail which can differ from the global settings. [Read the following article to learn how to customize e-mails in Syskit Point](../../../setup/configuration/customize/customize-emails.md).
 
 **New data privacy option added!** The option lets you define if owners and admins can access audit reports in Syskit Point.\
-[Learn more about access settings in this article](../../../setup/configuration/configure/enable-role-based-access.md).
+[Learn more about access settings in this article](../../../setup/configuration/configure/essential/enable-role-based-access.md).
 
 **Diagnostic Logs export is now available in Syskit Point.** Syskit Point support team might ask you to provide the logs if you experience issues when running Syskit Point. For existing customers, there are several [steps to enable the new functionality](../../../troubleshooting/setup-diagnostic-logs-export.md).\
 [Use this link to learn how to export diagnostic logs](../../../troubleshooting/export-diagnostic-logs.md) .

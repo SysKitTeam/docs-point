@@ -26,7 +26,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 * **Exclude certain users from receiving governance emails and tasks**. 
   * A new feature was added and can be found in Settings > General > Governance-Excluded Users. 
   * The Governance-Excluded Users feature **excludes specific users, security groups, and mail-enabled security groups from receiving tasks and emails** for Security & Compliance policies, Lifecycle Management, and Access Review. 
-  * [Find out more on how to set it up in the Configuration article](../../../setup/configuration/configure/exclude-users-tasks.md).
+  * [Find out more on how to set it up in the Configuration article](../../../setup/configuration/configure/additional/exclude-users-tasks.md).
 
 * **Logging changes made in Point Settings**. 
   * Implemented audit options detailing **what changes were made, who made them, when, and the before and after values**. 

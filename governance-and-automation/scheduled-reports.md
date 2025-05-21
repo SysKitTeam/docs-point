@@ -24,7 +24,7 @@ Users with the following roles assigned in Syskit Point can create Scheduled rep
 * **Syskit Point Global Viewers**
 * **Syskit Point Collaborators**
 
-To learn more about roles in Syskit Point, see the [following article](../setup/configuration/configure/enable-role-based-access.md).
+To learn more about roles in Syskit Point, see the [following article](../setup/configuration/configure/essential/enable-role-based-access.md).
 
 ## Schedule a Report
 

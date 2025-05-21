@@ -240,7 +240,7 @@ Permissions are added when Power BI or Power Apps and Power Automate data collec
 * read-only access to all the information available through Power BI admin APIs; for example, user names and emails, dataset and report detailed metadata
 * read-only access to detailed metadata about Power BI items; for example, responses from GetScanResult APIs will contain the names of dataset tables and columns
 
-[Read the following article to learn how to enable Power BI data collection in Syskit Point.](../configuration/configure/enable-powerBI-data-collection.md)
+[Read the following article to learn how to enable Power BI data collection in Syskit Point.](../configuration/configure/additional/enable-powerBI-data-collection.md)
 
 **Power Apps and Power Automate**
 
@@ -259,7 +259,7 @@ To manage the permissions, you can run the related PowerShell cmdlets described 
 * [Remove-PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/remove-powerappmanagementapp?view=pa-ps-latest)
 {% endhint %}
 
-[See the following article to learn how to enable Power Apps and Power Automate data collection in Syskit Point.](../configuration/configure/power-platform.md)
+[See the following article to learn how to enable Power Apps and Power Automate data collection in Syskit Point.](../configuration/configure/additional/power-platform.md)
 
 ### Syskit Point API
 
