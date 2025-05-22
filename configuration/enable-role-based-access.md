@@ -146,10 +146,13 @@ The **Syskit Point Power Platform Admins** role enables users to:
 * **Perform Power Platform actions** on environments, apps, and flows
 * **Have access to the Power Platform Dashboard tile**
 
+{% hint style="warning" %}
+**Please note the following:**  
+* Users with the **Power Platform Administrator role in Entra ID** are automatically assigned the Power Platform Administrator role in Syskit Point.
+* If users are added to the Power Platform Administrator role in Syskit Point, they are also assigned the Power Platform Administrator role in Entra ID.
+* Additional permissions might need to be granted in the **Power Platform Admin Center**, such as being given System Administrator access to environments where the Power Platform Admin should be able to perform actions on resources. 
 
-Along with that, Power Platform Admins have the same access as Collaborators, meaning they can: 
-
-WAIT FOR CONFIRMATION FOR THIS! 
+{% endhint %}
 
 
 
