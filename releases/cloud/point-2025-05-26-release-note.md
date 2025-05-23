@@ -1,5 +1,5 @@
 ---
-description: This article lists improvements and bug fixes in the Syskit Point Cloud version 2025.2.93.1
+description: This article lists improvements and bug fixes in the Syskit Point Cloud version 2025.3.93.1
 ---
 
 # May 26, 2025
@@ -21,9 +21,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Fixed an issue** where retention labels added to files in SharePoint were not syncing correctly.
 
-* **Fixed a bug** that caused the Resolve Task screen to fail for Minimum Owners policy tasks due to an error.
-
-* **Optimized the migration process** of SharePointSiteObjects to prevent timeouts.  
+* **Fixed a bug** that caused the Resolve Task screen to fail for Minimum Owners policy tasks.
 
 * **Syskit Point now collects and displays sponsor information** for guest users and their associated groups. 
 
