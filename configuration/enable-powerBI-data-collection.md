@@ -4,8 +4,10 @@ description: This article explains how to enable Power BI data collection for Sy
 
 # Enable Power BI Data Collection
 
-{% hint style="information" %}
-**Power BI reports** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% hint style="warning" %}
+**Please note**: 
+
+**Power BI reports** will soon become a part of the Power **Platform add-on** and an additional license will be required to access them.
 {% endhint %}
 
 Enabling Power BI data collection for Syskit Point requires initial setup through your Azure Portal. 

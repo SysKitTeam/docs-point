@@ -11,8 +11,8 @@ This article contains information on three Power BI reports available through th
 * [Power BI Permissions Report](#power-bi-permissions-report)
 
 
-{% hint style="information" %}
-**Power BI Reports** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+{% hint style="warning" %}
+**Please note**: Power BI reports will soon become a part of the Power Platform add-on and an additional license will be required to access them.
 {% endhint %}
 
 ## Power BI Inventory Report
