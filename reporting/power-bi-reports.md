@@ -12,7 +12,7 @@ This article contains information on three Power BI reports available through th
 
 
 {% hint style="warning" %}
-**Please note**: Power BI reports will soon become a part of the Power Platform add-on and an additional license will be required to access them.
+**Please note**: Power BI reports will soon become a part of the Power Platform add-on and an additional license will be required to access them. For more details, please feel free to [contact us](https://www.syskit.com/contact-us/).
 {% endhint %}
 
 ## Power BI Inventory Report
