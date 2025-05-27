@@ -23,6 +23,4 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Fixed a bug** that caused the Resolve Task screen to fail for Minimum Owners policy tasks.
 
-* **Syskit Point now collects and displays sponsor information** for guest users and their associated groups. 
-
 * **Various improvements, including UX and UI fixes, are available.**
