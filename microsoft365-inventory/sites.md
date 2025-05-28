@@ -6,7 +6,7 @@ description: This article provides detailed information on everything that can b
 
 The Sites Overview provides **a list of all SharePoint sites in your Microsoft 365 environment**, which helps you gain insight into your most important properties and metadata, such as assigned sensitivity labels, privacy settings, sharing settings, the primary admin, and more. 
 
-## Generate Report
+## Generate Overview
 
 The Sites Overview can be accessed by **clicking Sites** on the Home page. 
 

@@ -6,7 +6,7 @@ description: This article provides detailed information on everything that can b
 
 The Users Overview screen provides insight into **all the users in your environment** and an overview of key data relating to them, such as who their manager is, which department a user is in, if they have a license assigned, whether they're an external user and more.
 
-## Generate Report
+## Generate Overview
 
 The Users Overview can be accessed by **clicking Users** on the Home page. 
 
