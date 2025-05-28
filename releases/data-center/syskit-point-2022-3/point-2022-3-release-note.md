@@ -44,7 +44,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 * **Improved performance** for Privileged Identity Management (PIM).
   * **Privileged Identity Management (PIM)** allows some users to assign themselves Global Admin rights for a limited amount of time.
   * **Global Admin sync** improved to occur every 4 minutes.
-  * **Fixed a bug** where AAD groups weren’t taken into account for PIM if some members of those groups had administrative roles assigned.
+  * **Fixed a bug** where Microsoft Entra ID groups weren’t taken into account for PIM if some members of those groups had administrative roles assigned.
 * **Improved speed and performance** for the OneDrive tile when accessing through User details.
 * **Optimized speed and performance** when loading the Lifecycle Management details screen.
 * **Improved speed** for loading the Overview tile when accessing the Private Channel details screen.
@@ -62,7 +62,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 * **Fixed a bug** where the number of workdays was not visible on the Access Review Options screen when viewed on a 2K resolution display.
   * When setting up the Access Review and entering the number of workdays allowed to complete the request, the number wouldn’t show in the selection box when using 2k resolution (2560x1440).
 * **Fixed an issue** where the Group Sync would fail in environments with more than 1000 deleted Security Groups.
-* **Fixed a bug** where the Users overview showed additional users that no longer existed in the Azure Active Directory.
+* **Fixed a bug** where the Users overview showed additional users that no longer existed in Microsoft Entra ID.
   * Users overview would show Orphaned users that were not detected as permanently deleted.
 * **Fixed an issue** where Sites Overview showed deleted sites as Active.
 * **Fixed an issue** with OneDrive sync, resulting in erroneously displaying items as having unique permissions.

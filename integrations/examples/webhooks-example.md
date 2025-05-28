@@ -43,7 +43,7 @@ There are a couple of steps to complete before preparing a 3rd third-party syste
   * While you can choose other options freely, you must choose an automated approval process for this template.
   * The [provisioning template](../../governance-and-automation/provisioning/templates.md) used by API should have the approval process property set to `Automatically Approve`.
 
-* Follow the instructions in the [Syskit Point API article](../syskit-point-api.md) on how to create an Entra ID App used to authenticate against the API
+* Follow the instructions in the [Syskit Point API article](../syskit-point-api.md) on how to create an Microsoft Entra ID App used to authenticate against the API
   * This app should have the “Point.Provisioning” privilege selected and consented to
 
 * Make sure you note the following info as it will be needed when configuring integration later on:
