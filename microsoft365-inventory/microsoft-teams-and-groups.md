@@ -1,16 +1,16 @@
 ---
-description: This article provides a detailed overview of the reports available for Sites, Microsoft Teams & Groups, and Users. 
+description: This article provides detailed information on everything that can be found on the Microsoft Teams & Groups Overview screen.
 ---
 
-# Microsoft Teams and Groups Report
+# Microsoft Teams and Groups Overview
 
-The Microsoft Teams & Groups report provides **insight into the properties and metadata relating to the Microsoft Teams & Groups in your environment** such as the number of members, owners, and guests in a specific Team or Group. 
+The Microsoft Teams & Groups Overview provides **insight into the properties and metadata relating to the Microsoft Teams & Groups in your environment**, such as the number of members, owners, and guests in a specific Team or Group. 
 
-## Generate Report
+## Generate Overview
 
-The Microsoft Teams & Groups report can be accessed by **clicking Microsoft Teams & Groups** on the Home page. 
+The Microsoft Teams & Groups Overview can be accessed by **clicking Microsoft Teams & Groups** on the Home page. 
 
-This will open the Microsoft Teams & Groups report, which can be viewed and filtered in multiple ways. 
+This will open the Microsoft Teams & Groups Overview, which can be viewed and filtered in multiple ways. 
 
 In the top left corner, **All Groups** is automatically selected in the filter. Clicking the **View filter** will provide the following additional options: 
   * Microsoft 365 Groups
@@ -32,16 +32,16 @@ In the top left corner, **All Groups** is automatically selected in the filter. 
   * Teams and Groups with Only One Owner
   * Teams and Groups with Too Many Owners
 
-Clicking any of those categories will filter the report based on the selected. 
+Clicking any of those categories will filter the overview screen based on the selected. 
 
-At the top, 5 tiles can be used to filter the report. The following options are available and can be selected by clicking them:
+At the top, 5 tiles can be used to filter the overview screen. The following options are available and can be selected by clicking them:
   * The Number of Microsoft Teams
   * The Number of Microsoft 365 Groups 
   * Recently Created
   * Externally Shared
   * Inactive
 
-The default columns displayed in the report are the following:
+The default columns displayed in the overview are the following:
   * Name
   * Email
   * Type
@@ -51,7 +51,7 @@ The default columns displayed in the report are the following:
   * Guests
   * Activity
 
-There are additional columns available in the **column chooser**, located in the top right part of the report. The additional columns available are:
+There are additional columns available in the **column chooser**, located in the top right part of the overview. The additional columns available are:
 
  * Connected Site
  * Created On
@@ -74,14 +74,14 @@ There are additional columns available in the **column chooser**, located in the
 
 {% hint style="information" %}
 **Please note!**  
-You can save custom views for your reports based on your needs and preferences. [For more details on this, take a look at the Save Custom Views article.](../configuration/custom-views.md)
+You can save custom views for your overview screens based on your needs and preferences. [For more details on this, take a look at the Save Custom Views article.](../configuration/custom-views.md)
 {% endhint %}
 
-## Report Actions
+## Overview Actions
 
-The Microsoft Teams & Groups report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+The Microsoft Teams & Groups Overview can be **exported as PDF and XLSX files**. There is also the **option to schedule the overview**.
 
-On the right side of the report, there is a Manage section that provides the ability to **Configure Tenant Wide Alerts**.
+On the right side of the overview, there is a Manage section that provides the ability to **Configure Tenant Wide Alerts**.
 
 Selecting workspaces provides several actions that can be taken.
 
