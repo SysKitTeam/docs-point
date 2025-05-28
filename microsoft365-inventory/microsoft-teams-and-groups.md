@@ -4,7 +4,7 @@ description: This article provides detailed information on everything that can b
 
 # Microsoft Teams and Groups Overview
 
-The Microsoft Teams & Groups Overview provides **insight into the properties and metadata relating to the Microsoft Teams & Groups in your environment** such as the number of members, owners, and guests in a specific Team or Group. 
+The Microsoft Teams & Groups Overview provides **insight into the properties and metadata relating to the Microsoft Teams & Groups in your environment**, such as the number of members, owners, and guests in a specific Team or Group. 
 
 ## Generate Overview
 

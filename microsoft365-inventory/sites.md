@@ -4,7 +4,7 @@ description: This article provides detailed information on everything that can b
 
 # Sites Overview
 
-The Sites Overview provides **a list of all SharePoint sites in your Microsoft 365 environment** which helps you gain insight into your most important properties and metadata, such as assigned sensitivity labels, privacy, sharing settings, who the primary admin is, and more. 
+The Sites Overview provides **a list of all SharePoint sites in your Microsoft 365 environment**, which helps you gain insight into your most important properties and metadata, such as assigned sensitivity labels, privacy settings, sharing settings, the primary admin, and more. 
 
 ## Generate Report
 
@@ -27,7 +27,7 @@ In the top left corner, **All Sites** is automatically selected in the filter. C
 
 Clicking any of those categories will filter the Overview based on the selected. 
 
-At the top, 4 tiles can be used to filter the overview based on the type of workspaces. The following options are available and can be selected by clicking them:
+At the top, 4 tiles can be used to filter the overview based on the type of workspace. The following options are available and can be selected by clicking them:
 
   * Microsoft Teams
   * Microsoft 365 Groups 
@@ -43,7 +43,7 @@ The default columns displayed in the overview are the following:
   * Storage Used
   * Sharing Settings
 
-There are additional columns available in the **column chooser**, located in the top right part of the overview. The additional columns available are:
+Additional columns are available in the **column chooser**, located in the top right of the overview. The additional columns available are:
 
  * Sensitivity Label
  * Archived By

@@ -4,7 +4,7 @@ description: This article provides detailed information on everything that can b
 
 # Users 
 
-The Users Overview screen provides insight into **all the users in your environment** and an overview of key data relating to them such as who is a manager, which department a user is in, if they have a license assigned, whether they're an external user, and more.
+The Users Overview screen provides insight into **all the users in your environment** and an overview of key data relating to them, such as who their manager is, which department a user is in, if they have a license assigned, whether they're an external user and more.
 
 ## Generate Report
 
@@ -44,7 +44,7 @@ The default columns displayed in the overview are the following:
   * External
   * Last Logged In
 
-Additional columns are available in the **column chooser**, located in the top right part of the overview. The additional columns available are:
+Additional columns are available in the **column chooser**, located in the top right of the overview. The additional columns available are:
  * Manager
  * Email
  * Licenses
@@ -68,9 +68,9 @@ You can save custom views for your overview screens based on your needs and pref
 
 The Users overview can be **exported as PDF and XLSX files**. There is also the **option to schedule the overview**.
 
-On the right side, there is a Manage section which provides the ability to **Configure Tenant Wide Alerts**.
+On the right side, there is a Manage section, which provides the ability to **Configure Tenant Wide Alerts**.
 
-Selecting users provides several different actions that can be taken. The Manage actions available are: 
+Selecting users provides several different actions to run. The Manage actions available are: 
   * Delete User
   * Block User Sign-in
   * Copy User Permissions
