@@ -1,37 +1,41 @@
 ---
-description: This article provides a detailed overview of the reports available for Sites, Microsoft Teams & Groups, and Users. 
+description: This article provides detailed information on everything that can be found on the Sites Overview screen. 
 ---
 
-# Sites Report
+# Sites Overview
 
-The Sites dashboard provides **a list of all SharePoint sites in your Microsoft 365 environment** which will help you gain insight into your most important properties and metadata, such as assigned sensitivity labels, privacy, sharing settings, who the primary admin is, and more. 
+The Sites Overview provides **a list of all SharePoint sites in your Microsoft 365 environment**, which helps you gain insight into your most important properties and metadata, such as assigned sensitivity labels, privacy settings, sharing settings, the primary admin, and more. 
 
 ## Generate Report
 
-The Sites report can be accessed by **clicking Sites** on the Home page. 
+The Sites Overview can be accessed by **clicking Sites** on the Home page. 
 
-This opens the Sites report, which can be viewed and filtered in multiple ways. 
+This opens the Sites Overview screen, which can be viewed and filtered in multiple ways. 
 
 In the top left corner, **All Sites** is automatically selected in the filter. Clicking the **View filter** will provide the following additional options: 
-  * All Sites
-  * Deleted Sites
-  * Recently Created Sites
-  * Largest Sites
-  * Inactive Sites
-  * Archived Sites
-  * Externally Shared Sites
-  * Anonymously Shared Sites
-  * Hub Sites
+* All Sites
+* Deleted Sites
+* Recently Created Sites
+* Largest Sites
+* Inactive Sites
+* Archived Sites
+* Externally Shared Sites
+* Anonymously Shared Sites
+* Hub Sites
+* Unlabeled Sites 
+* Workspace Sensitivity
 
-Clicking any of those categories will filter the report based on the selected. 
+Clicking any of those categories will filter the Overview based on the selected. 
 
-At the top, above the report, 4 tiles can be used to filter the report based on the type of workspaces. The following options are available and can be selected by clicking them:
+At the top, 4 tiles can be used to filter the overview based on the type of workspace. The following options are available and can be selected by clicking them:
+
   * Microsoft Teams
   * Microsoft 365 Groups 
   * Sites
   * One Drive
 
-The default columns displayed in the report are the following:
+The default columns displayed in the overview are the following:
+
   * Name
   * URL 
   * Primary Admin
@@ -39,7 +43,8 @@ The default columns displayed in the report are the following:
   * Storage Used
   * Sharing Settings
 
-There are additional columns available in the **column chooser**, located in the top right part of the report. The additional columns available are:
+Additional columns are available in the **column chooser**, located in the top right of the overview. The additional columns available are:
+
  * Sensitivity Label
  * Archived By
  * Archived On
@@ -70,14 +75,16 @@ There are additional columns available in the **column chooser**, located in the
 
 {% hint style="information" %}
 **Please note!**  
-You can save custom views for your reports based on your needs and preferences. [For more details on this, take a look at the Save Custom Views article.](../configuration/custom-views.md)
+You can save custom views for your overview screens based on your needs and preferences. [For more details on this, take a look at the Save Custom Views article.](../configuration/custom-views.md)
 {% endhint %}
 
-## Report Actions
+**Clicking an individual workspace** directly, opens the **Sites Details screen** for that workspace. 
 
-The Sites report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+## Overview Actions
 
-Selecting workspaces provides several actions that can be taken, **located on the right side** of the report.
+The Sites Overview can be **exported as PDF and XLSX files**. There is also the **option to schedule the Sites Overview**.
+
+Selecting the checkbox next to the workspaces provides several actions that can be taken, **located on the right side** of the overview.
 
 The Manage actions available are: 
   * Change Owners
@@ -97,7 +104,6 @@ The Go to Reports section lists all the related reports that can be generated. T
   * File and Page Activities
   * Permissions Changes
 
-
 Under Lifecycle Management, the following actions are available:
   * Keep
   * Archive
@@ -105,3 +111,5 @@ Under Lifecycle Management, the following actions are available:
   * Ask Owners to Renew
 
 For Access Review, the action available is to **Request Review**.
+
+
