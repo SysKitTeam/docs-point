@@ -14,7 +14,7 @@ The Cleanup and Health report **includes details on orphaned users** which you c
 
 The Orphaned Users report displays all orphaned users in your tenant environment. Use the Orphaned Users report to **detect and manage orphaned users**.
 
-It shows **all the users that have been blocked or deleted from the Entra ID**, which means they should no longer be a part of your workspace.
+It shows **all the users that have been blocked or deleted from Microsoft Entra ID**, which means they should no longer be a part of your workspace.
 
 This report helps detect and remove blocked/disabled or deleted users from your Microsoft 365 workspaces.
 
@@ -32,9 +32,9 @@ Once the report is successfully generated, the following data will be displayed 
   * When clicked, the User Details page of the selected user is opened.
 * **Site**; the name of the workspace where said user is a member.
   * When clicked, the page will be redirected to the Site Details screen of the selected workspace.
-* **Status**; defines whether the user was deleted or disabled in Entra ID.
+* **Status**; defines whether the user was deleted or disabled in Microsoft Entra ID.
 * **Department**; shows which department in the company the Orphaned User operated in.
-  * Only if that data is available from Entra ID.
+  * Only if that data is available from Microsoft Entra ID.
 * **Manager**; shows who the manager was of the orphaned user.
 
 For more details, there are also additional columns available in the column chooser:

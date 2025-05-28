@@ -22,7 +22,7 @@ description: This article describes the new features and improvements in Syskit 
 ## Improvements & Bug Fixes
 * **A new security group filter was added to the Permissions Matrix report**. The filter enables you to show or hide security group members depending on your needs.  
 * **Improved how the Inactive Licenses report detects inactive users** after the first Syskit Point installation. Users without recent sign-ins are considered inactive only after the number of days defined in the Inactive Content settings is reached, which is by default 90 days. 
-* **Detection of deleted users and groups was improved**. Syskit Point now performs additional checks to ensure users and groups deleted from the Entra ID are marked as such in the Syskit Point database. 
+* **Detection of deleted users and groups was improved**. Syskit Point now performs additional checks to ensure users and groups deleted from Microsoft Entra ID are marked as such in the Syskit Point database. 
 * **The Object Type column was added to the User Access report**. This addition helps you find user permissions defined on the selected objects – sites, document libraries, folders, or files. 
 * **Fixed an issue** where Syskit Point did not collect audit logs if all activities were selected for collection.
 * **Fixed an issue** where external users with the Syskit Point admin role assigned couldn’t export reports because of a bug with notifications. The notifications are now displayed correctly, enabling the user to download and view the exported files. 

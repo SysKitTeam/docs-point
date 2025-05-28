@@ -181,10 +181,10 @@ To view collected Exchange logs, use the **Exchange Logs report** available in t
 Syskit Point collects audit logs accessible in the unified audit log. Out of the box, you can review the audit logs from the [Microsoft 365 compliance center](https://compliance.microsoft.com/auditlogsearch).
 You can additionally [customize for which activities Syskit Point will collect audit logs](../configuration/customize-audit-logs-collection.md).
 
-### Sign-in Logs from Entra ID 
+### Sign-in Logs from Microsoft Entra ID 
 
-Entra ID shows all sing-ins performed by users, service principals, apps, and Azure resources.
-**Syskit Point does not collect Entra ID sign-in logs.** 
+Microsoft Entra ID shows all sing-ins performed by users, service principals, apps, and Azure resources.
+**Syskit Point does not collect Microsoft Entra ID sign-in logs.** 
 Syskit Point collects unified audit logs, which contain a subset of said logs related to Microsoft 365 and are visible in the [Microsoft 365 compliance center](https://compliance.microsoft.com/auditlogsearch).
 
 ### Frequency of Audit Log Collection

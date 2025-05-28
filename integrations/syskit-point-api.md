@@ -20,7 +20,7 @@ In this article, you can find steps to create your first request to your Syskit 
 To complete the steps described in this article, make sure to have the following:
 
 * **Syskit Point Instance** - running Point Cloud or Data Center instance
-* **Microsoft Entra/Entra ID Access** - you should be able to create an App registration in Microsoft Entra ID
+* **Microsoft Entra/Microsoft Entra ID Access** - you should be able to create an App registration in Microsoft Entra ID
 
 ## Microsoft Entra Setup
 

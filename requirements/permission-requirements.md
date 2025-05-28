@@ -31,7 +31,7 @@ When [connecting to a Microsoft 365 tenant](../set-up-point-data-center/deployme
 Permissions described below are automatically granted to Syskit Point by giving consent during the initial connection process.
 {% endhint %}
 
-To achieve its functionality, Syskit Point is registered as an **Enterprise Application in Entra ID.** The permissions model is based on OAuth and OpenID Connect flows. This enables Syskit Point to consume all of the APIs provided by Microsoft in a standard and well-defined way. It also allows the use of modern authentication, including Multi-Factor Authentication.\
+To achieve its functionality, Syskit Point is registered as an **Enterprise Application in Microsoft Entra ID.** The permissions model is based on OAuth and OpenID Connect flows. This enables Syskit Point to consume all of the APIs provided by Microsoft in a standard and well-defined way. It also allows the use of modern authentication, including Multi-Factor Authentication.\
 Syskit Point requires permissions to access several Microsoft APIs. There are two types of required permissions:
 
 * **Application permissions** - define what Syskit Point can do without a signed-in user.
@@ -130,7 +130,7 @@ The second app registration, **Syskit Point Client**, enables users to securely 
 | Read all users' relevant people lists                       | Delegated | Allows Syskit Point to display users' relevant people lists in People Picker within Syskit Point Teams app.                                                        |
 | Read presence information of all users in your organization | Delegated | Allows Syskit Point Microsoft Teams application to show the status of users.                                                                                       |
 | View users' basic profile                                   | Delegated | Allows Syskit Point Microsoft Teams application to show users basic data and allow secure communication with Syskit Point.                                         |
-| Add and remove members from teams | Delegated | Allows Syskit Point to add newly created users in Entra ID to Microsoft Teams and private channels. |
+| Add and remove members from teams | Delegated | Allows Syskit Point to add newly created users in Microsoft Entra ID to Microsoft Teams and private channels. |
 | Send a teamwork activity to any user                        | Application | Allows Syskit Point Microsoft Teams application to send notifications to users.                                                                                    |
 | Read and write all users' full profiles                     | Delegated | Allows Syskit Point to read your users' profiles and show you reports based on that data; allows license management actions to be performed.                       |
 

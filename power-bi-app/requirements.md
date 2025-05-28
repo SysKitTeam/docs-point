@@ -44,9 +44,9 @@ To do so:
 The next step that should be completed while setting up the Azure SQL server is the following:
 
 * On the home page of the SQL server, under **Features**, click the **Active Directory admin** option
-  * The **Entra ID (1)** site will open
-* **Deselect (2)** the Support only Entra ID authentication for this server
-  * This option needs to be turned off and is located under the Entra ID authentication section
+  * The **Microsoft Entra ID (1)** site will open
+* **Deselect (2)** the Support only Microsoft Entra ID authentication for this server
+  * This option needs to be turned off and is located under the Microsoft Entra ID authentication section
 * **Click Save (3)** to  finalize 
   * After that, the SQL authentification can be used normally 
 

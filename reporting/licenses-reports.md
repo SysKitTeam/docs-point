@@ -119,7 +119,7 @@ Other columns that are enabled by default are:
 * **Assigned Licenses**; the number of currently assigned licenses per license
 * **Assigned Licenses Cost**; the total cost of assigned licenses 
   * It also shows the **Total cost of licenses distributed by Departments or Locations**
-* **Inactive Licenses**; the number of currently assigned licenses to inactive, blocked, or deleted users in Entra ID
+* **Inactive Licenses**; the number of currently assigned licenses to inactive, blocked, or deleted users in Microsoft Entra ID
 * **Possible savings (Inactive)**; the potential savings on inactive licenses
 
 The License Distribution report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
@@ -146,10 +146,10 @@ Other columns that are enabled by default are:
 
 * **License**; the name of the License currently assigned to an inactive user
 * **Last logged in**; the exact date when the user was last active
-* **User State**; shows if the user is inactive, has a blocked sign-in, or is deleted from Entra ID
+* **User State**; shows if the user is inactive, has a blocked sign-in, or is deleted from Microsoft Entra ID
 * **Department**; Shows the name of the company Department that said user was a part of
 * **Manager**; shows the user that was the said user's manager 
-  * Only if that information is available in the Entra ID
+  * Only if that information is available in Microsoft Entra ID
 
 The Inactive Licenses report **provides the ability to select licenses assigned to an inactive user easily**. 
 

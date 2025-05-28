@@ -112,28 +112,28 @@ To manage the permissions, you can run the related PowerShell cmdlets described 
 
 | App Registration     | API/Permissions Name                         | Permission                                 | Type        | Reason                                                                                                             |
 | -------------------- | -------------------------------------------- | ------------------------------------------ | ----------- | ------------------------------------------------------------------------------------------------------------------ |
-| Syskit Point Service | Microsoft Graph/GroupMember.ReadWrite.All    | Read and write all group memberships       | Application | Allows Syskit Point to add users in Entra ID to security groups after an access request is approved by the group owner. |
-| Syskit Point Service | Microsoft Graph/RoleManagement.ReadWrite.All | Read and write all directory RBAC settings | Application | Allows Syskit Point to add users in Entra ID to security groups after an access request is approved by the group owner. |
+| Syskit Point Service | Microsoft Graph/GroupMember.ReadWrite.All    | Read and write all group memberships       | Application | Allows Syskit Point to add users in Microsoft Entra ID to security groups after an access request is approved by the group owner. |
+| Syskit Point Service | Microsoft Graph/RoleManagement.ReadWrite.All | Read and write all directory RBAC settings | Application | Allows Syskit Point to add users in Microsoft Entra ID to security groups after an access request is approved by the group owner. |
 
 ### Syskit Point Data Center 2023.4.1
 
-**Consent is required due to permission changes introduced to make the Copy User Permissions action more robust**. Before, when adding members to private channels in Microsoft Teams, the action would often result in an error for users recently added to the Entra ID.
+**Consent is required due to permission changes introduced to make the Copy User Permissions action more robust**. Before, when adding members to private channels in Microsoft Teams, the action would often result in an error for users recently added to Microsoft Entra ID.
 
 **The following permissions were added to the existing Syskit Point app registrations**:
 
 | App Registration    | API/Permissions Name                     | Permission                        | Type      | Reason                                                                                         |
 | ------------------- | ---------------------------------------- | --------------------------------- | --------- | ---------------------------------------------------------------------------------------------- |
-| Syskit Point Client | Microsoft Graph/TeamMember.ReadWrite.All | Add and remove members from teams | Delegated | Allows Syskit Point to add newly created users in Entra ID to Microsoft Teams and private channels. |
+| Syskit Point Client | Microsoft Graph/TeamMember.ReadWrite.All | Add and remove members from teams | Delegated | Allows Syskit Point to add newly created users in Microsoft Entra ID to Microsoft Teams and private channels. |
 
 ### Syskit Point Cloud - November 02, 2023
 
-**Consent is required due to permission changes introduced to make the Copy User Permissions action more robust**. Before, when adding members to private channels in Microsoft Teams, the action would often result in an error for users recently added to the Entra ID.
+**Consent is required due to permission changes introduced to make the Copy User Permissions action more robust**. Before, when adding members to private channels in Microsoft Teams, the action would often result in an error for users recently added to Microsoft Entra ID.
 
 **The following permissions were added to the existing Syskit Point app registrations**:
 
 | App Registration    | API/Permissions Name                     | Permission                        | Type      | Reason                                                                                         |
 | ------------------- | ---------------------------------------- | --------------------------------- | --------- | ---------------------------------------------------------------------------------------------- |
-| Syskit Point Client | Microsoft Graph/TeamMember.ReadWrite.All | Add and remove members from teams | Delegated | Allows Syskit Point to add newly created users in Entra ID to Microsoft Teams and private channels. |
+| Syskit Point Client | Microsoft Graph/TeamMember.ReadWrite.All | Add and remove members from teams | Delegated | Allows Syskit Point to add newly created users in Microsoft Entra ID to Microsoft Teams and private channels. |
 
 ### Syskit Point 2023.1
 
