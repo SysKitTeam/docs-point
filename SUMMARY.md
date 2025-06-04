@@ -313,6 +313,7 @@
   * [Orphaned Users](faq/orphaned-users.md)
   * [Inactive Users Detection](faq/inactive-users-detection.md)
   * [Provisioning - Content & Structure](faq/provisioning-content-structure.md)
+  * [Multi-Geo](faq/multi-geo.md)
 * [Troubleshooting](troubleshooting/README.md)
   * [Export Diagnostic Logs](troubleshooting/export-diagnostic-logs.md)
   * [Setup Diagnostic Logs Export](troubleshooting/setup-diagnostic-logs-export.md)
