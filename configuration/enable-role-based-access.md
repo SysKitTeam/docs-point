@@ -7,7 +7,8 @@ description: This article explains how you can enable Role-based Access in Syski
 After deploying **Syskit Point**, your Microsoft 365 users can be given access to the **Syskit Point** web app.
 
 By using the built-in **role-based security** of Syskit Point, you can easily manage who has access to Syskit Point and what features are available to them. Those assigned a role will be **able to view all data collected from the Microsoft 365 tenant and perform actions based on the permissions granted to them in Microsoft 365** or have access to all data related to sites, Microsoft 365 Groups, and Microsoft teams.
- * Level of access **depends on the roles assigned**.
+
+* Level of access **depends on the roles assigned**.
 
 This allows **site owners to perform Access Reviews on their site and complete Lifecycle Management tasks** to determine which workspaces should be archived or kept. 
 
@@ -45,7 +46,7 @@ A **dialog** shows, asking you to **confirm** the removal action.
 When the action is **completed**, the selected user **no longer has access** to **Syskit Point**.
 
 {% hint style="warning" %}
-**Please note!**  
+**Please note!**  
 Removing user access from **Syskit Point** will not remove a user from your **Microsoft 365** environment.
 {% endhint %}
 
@@ -67,12 +68,12 @@ Users with the Syskit Point Admins role assigned can:
 * **Manage all settings in Syskit Point** 
 * **Perform actions** based on the permissions granted in Microsoft 365
 
-During the initial user sync, Syskit Point will automatically add two **Microsoft 365** administration roles \(**Company Administrator** and **SharePoint Service Administrator**\) as **Syskit Point Admins**. 
+During the initial user sync, Syskit Point will automatically add two **Microsoft Entra built-in roles**,  **Global Administrator** and **SharePoint Administrator** as **Syskit Point Admins**. 
 
-Any user in your **Microsoft 365 environment** with that role will **automatically** have **full access** to **Syskit Point**.
+Any user in your **Microsoft 365 environment** with that role will **automatically have full access to Syskit Point**.
 
 {% hint style="warning" %}
-**Please note!**  
+**Please note!**  
 You cannot assign or remove a user from a **Microsoft 365 administration role** in **Syskit Point**.
 {% endhint %}
 
@@ -94,12 +95,12 @@ However, **Global Viewers will not be able to**:
 
 ### Syskit Point Exchange Admins
 
-Users with the Syskit Point Exchange Admins role assigned can access the Exchange Logs report exclusively.
+Users with the assigned Syskit Point Exchange Admins role can access the Exchange Logs report exclusively.
 
 They have **Read-Only** access and **cannot execute actions or manage application settings**.
 
-**The Exchange Admins** role gives the assigned user the ability to:
-* **Can view Exchange Log reports for your environment**
+With **the Exchange Admins** role assigned, the user can:
+* **View Exchange Log reports for your environment**
 * **Have Read-Only access on the Exchange Logs report**
 * **Cannot execute actions and manage application settings**
 
@@ -112,7 +113,7 @@ When signed in to Syskit Point, they can:
 * **Access all data related to Microsoft 365 workspaces** where they are owners/administrators
 * **Perform actions based on the permissions granted** in Microsoft 365
 
-Additional options enable you to control if actions and specific reports are available to Collaborators in Syskit Point. 
+Additional options enable you to control whether actions and specific reports are available to Collaborators in Syskit Point. 
 
 The **Syskit Point Collaborators** role enables site admins, Microsoft Teams, and Microsoft 365 Group owners to:
 
@@ -122,7 +123,7 @@ The **Syskit Point Collaborators** role enables site admins, Microsoft Teams, an
 * **See user data collected** from Microsoft 365 for users they are the manager of
 
 {% hint style="warning" %}
-**Please note!**  
+**Please note!**  
 When the Collaborators role is enabled, **Syskit Point automatically** assigns **site admins, Microsoft Teams, and Microsoft 365 Group owners** to **Syskit Point Collaborators** role.
 {% endhint %}
 
@@ -138,7 +139,7 @@ Additional options available when the Collaborators role is enabled:
 
 ### Syskit Point Power Platform Admins
 
-Syskit Point Power Platform Admins have read-write priviledges on Power Platform reports and Power Platform Settings. By default, the Syskit Point Power Platform Admins role is turned off. 
+Syskit Point Power Platform Admins have read-write privileges on Power Platform reports and Power Platform Settings. By default, the Syskit Point Power Platform Admins role is turned off. 
 
 The **Syskit Point Power Platform Admins** role enables users to:
 * **Access Syskit Point Power Platform reports**
@@ -159,7 +160,7 @@ The **Syskit Point Power Platform Admins** role enables users to:
 ### Why Should You Enable Role-Based Access
 
 **Role-Based Access** brings the following benefits:
-* **Empowers all admins and owners** \(and users with **Full Control** permissions\) to manage their workspaces
+* **Empowers all admins and owners** +and users with **Full Control** permissions to manage their workspaces
 * **Gives admins and owners access to all reports and relevant information without disclosing the content they are not allowed to see**
 
 
