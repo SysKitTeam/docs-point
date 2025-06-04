@@ -11,7 +11,7 @@ Syskit Point supports Microsoft 365 Multi-Geo environments and automatically det
 
 ## Does Syskit Point automatically detect all Microsoft 365 geo locations?
 
-Yes, Syskit Point automatically detects and collects all sites across your configured Microsoft 365 geo locations. 
+Yes, Syskit Point automatically detects and collects all sites across your configured Microsoft 365 geo-locations. 
 
 There’s no need for additional configuration. Syskit Point will pull data from each region to provide full coverage for your tenant.
 
