@@ -6,7 +6,7 @@ description: This article explains how you can enable Role-based Access in Syski
 
 After deploying **Syskit Point**, your Microsoft 365 users can be given access to the **Syskit Point** web app.
 
-By using the built-in **role-based security** of Syskit Point, you can easily manage who has access to Syskit Point and what features are available to them. Those assigned a role will be **able to view all data collected from the Microsoft 365 tenant and perform actions based on the permissions granted to them in Microsoft 365** or have access to all data related to sites, Microsoft 365 Groups, and Microsoft teams.
+By using the built-in **role-based security** of Syskit Point, you can easily manage who has access to Syskit Point and what features are available to them. Those assigned a role will be **able to view all data collected from the Microsoft 365 tenant and perform actions based on the permissions granted to them in Microsoft 365** or have access to all data related to sites, Microsoft 365 Groups, and Microsoft Teams.
 
 * Level of access **depends on the roles assigned**.
 
@@ -52,7 +52,7 @@ Removing user access from **Syskit Point** will not remove a user from your **Mi
 
 ## Syskit Point Roles
 
-Syskit Point offers four predefined access roles:
+Syskit Point offers five predefined access roles:
 
 * **Syskit Point Admins**
 * **Syskit Point Global Viewers**
@@ -139,23 +139,20 @@ Additional options available when the Collaborators role is enabled:
 
 ### Syskit Point Power Platform Admins
 
+{% hint style="warning" %}
+**Please note!** \
+* Assigning the **Power Platform Administrator role in Syskit Point** to users **does not grant the Power Platform Administrator role in Entra ID** 
+* **To successfully run actions** on Power Platform environments, apps, and flows, **Power Platform Administrators in Syskit Point must have the Power Platform Administrator role assigned in Entra ID**
+{% endhint %}
+
 Syskit Point Power Platform Admins have read-write privileges on Power Platform reports and Power Platform Settings. By default, the Syskit Point Power Platform Admins role is turned off. 
 
 The **Syskit Point Power Platform Admins** role enables users to:
 * **Access Syskit Point Power Platform reports**
 * **Schedule Power Platform reports**
 * **Perform Power Platform actions** on environments, apps, and flows
+    * Note that Power Platform Administrators in Syskit Point must have the Power Platform Administrator Entra ID role assigned to successfully run actions on Power Platform environments, apps, and flows
 * **Have access to the Power Platform Dashboard tile**
-
-{% hint style="warning" %}
-**Please note the following:**  
-* Users with the **Power Platform Administrator role in Entra ID** are automatically assigned the Power Platform Administrator role in Syskit Point.
-* If users are added to the Power Platform Administrator role in Syskit Point, they are also assigned the Power Platform Administrator role in Entra ID.
-* Additional permissions might need to be granted in the **Power Platform Admin Center**, such as being given System Administrator access to environments where the Power Platform Admin should be able to perform actions on resources. 
-
-{% endhint %}
-
-
 
 ### Why Should You Enable Role-Based Access
 
@@ -163,8 +160,7 @@ The **Syskit Point Power Platform Admins** role enables users to:
 * **Empowers all admins and owners** and users with **Full Control** permissions to manage their workspaces
 * **Gives admins and owners access to all reports and relevant information without disclosing the content they are not allowed to see**
 
-
-**For example**, **Syskit Point Admin** generates the **User Access** report. Instead of sharing the URL of the generated report to another **Syskit Point Admin**, they sent it to the **Syskit Point Collaborator** that doesn't have access to all the users on the said environment. This is where the **Role-Based Access** kicks in.
+**For example**, **Syskit Point Admin** generates the **User Access** report. Instead of sharing the URL of the generated report with another **Syskit Point Admin**, they sent it to the **Syskit Point Collaborator** that doesn't have access to all the users in the said environment. This is where the **Role-Based Access** kicks in.
 
 When said **Syskit Point Collaborator** opens the URL, the report will be generated but only contain **users** the Collaborator manages. Also, the **report will only show workspaces that the Collaborator owns**.
 
@@ -172,4 +168,4 @@ When **Syskit Point Collaborator** tries to **drill** to the **user details** pa
 
 ![Unauthorized access page](../.gitbook/assets/enable-role-based-access-unauthorized-access.png)
 
-**As demonstrated, the Role-Based Access provides a secure framework for collaboration in your Microsoft 365 environment**.
+**As demonstrated, Role-Based Access provides a secure framework for collaboration in your Microsoft 365 environment**.
