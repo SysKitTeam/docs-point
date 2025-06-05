@@ -140,7 +140,8 @@ Additional options available when the Collaborators role is enabled:
 ### Syskit Point Power Platform Admins
 
 {% hint style="warning" %}
-**Please note!** \
+**Please note!**
+
 * Assigning the **Power Platform Admin role in Syskit Point** to users **does not grant the Power Platform Administrator role in Entra ID** 
 * **To successfully run actions** on Power Platform environments, apps, and flows, **Power Platform Admins in Syskit Point must have the Power Platform Administrator role assigned in Entra ID**
 {% endhint %}
