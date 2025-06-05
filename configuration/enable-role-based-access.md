@@ -141,8 +141,8 @@ Additional options available when the Collaborators role is enabled:
 
 {% hint style="warning" %}
 **Please note!** \
-* Assigning the **Power Platform Administrator role in Syskit Point** to users **does not grant the Power Platform Administrator role in Entra ID** 
-* **To successfully run actions** on Power Platform environments, apps, and flows, **Power Platform Administrators in Syskit Point must have the Power Platform Administrator role assigned in Entra ID**
+* Assigning the **Power Platform Admin role in Syskit Point** to users **does not grant the Power Platform Administrator role in Entra ID** 
+* **To successfully run actions** on Power Platform environments, apps, and flows, **Power Platform Admins in Syskit Point must have the Power Platform Administrator role assigned in Entra ID**
 {% endhint %}
 
 Syskit Point Power Platform Admins have read-write privileges on Power Platform reports and Power Platform Settings. By default, the Syskit Point Power Platform Admins role is turned off. 
@@ -151,7 +151,7 @@ The **Syskit Point Power Platform Admins** role enables users to:
 * **Access Syskit Point Power Platform reports**
 * **Schedule Power Platform reports**
 * **Perform Power Platform actions** on environments, apps, and flows
-    * Note that Power Platform Administrators in Syskit Point must have the Power Platform Administrator Entra ID role assigned to successfully run actions on Power Platform environments, apps, and flows
+    * Note that Power Platform Admins in Syskit Point must have the Power Platform Administrator Entra ID role assigned to successfully run actions on Power Platform environments, apps, and flows
 * **Have access to the Power Platform Dashboard tile**
 
 ### Why Should You Enable Role-Based Access
