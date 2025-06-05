@@ -160,7 +160,7 @@ The **Syskit Point Power Platform Admins** role enables users to:
 ### Why Should You Enable Role-Based Access
 
 **Role-Based Access** brings the following benefits:
-* **Empowers all admins and owners** +and users with **Full Control** permissions to manage their workspaces
+* **Empowers all admins and owners** and users with **Full Control** permissions to manage their workspaces
 * **Gives admins and owners access to all reports and relevant information without disclosing the content they are not allowed to see**
 
 
