@@ -52,7 +52,7 @@ Global admin re-consent is required after the upgrade to the latest version. Con
         * **Hint**! If you want to apply new task delegation options to all tasks, turn off task delegation - which will close all existing tasks - and turn it on again, which will create new tasks with new settings applied. 
     * **Turning off the task delegation results in the closing of previously opened tasks**. You will continue to see the detected vulnerabilities on the Security and Compliance dashboard even though the related tasks are closed.
 
-* **The Copy user permissions action was enhanced**! Before, when adding members to private channels in Microsoft Teams, the action would often result in an error for users recently added to the Azure Active Directory.
+* **The Copy user permissions action was enhanced**! Before, when adding members to private channels in Microsoft Teams, the action would often result in an error for users recently added to Microsoft Entra ID.
 
 * **Action log was improved** to provide better feedback when trying to remove access from sites for users that have access granted through security groups, Microsoft Teams, or Microsoft 365 groups.
 

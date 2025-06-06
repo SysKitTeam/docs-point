@@ -17,7 +17,7 @@ description: This article lists improvements and bug fixes in Syskit Point versi
 * **New to Syskit Point?** Get the latest Syskit Point version from [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/syskitltd.syskit\_point).\
  Find all steps described in detail in the [deployment article](../../../setup/set-up-point-data-center/deployment/deploy-syskit-point.md).
 * **Already using Syskit Point?** Upgrade to the latest Syskit Point version.\
- [![](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitassetsstorage.blob.core.windows.net%2Fpoint%2FARMTemplates%2Fv2025-2-90%2FPointUpdateTemplate.json)
+ [![](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitassetsstorage.blob.core.windows.net%2Fpoint%2FARMTemplates%2Fv2025-2-91%2FPointUpdateTemplate.json)
 
 See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../setup/set-up-point-data-center/deployment/upgrade-syskit-point.md).
 
@@ -50,6 +50,7 @@ The 2025.2.86 release brings important improvements to Syskit Point’s backend 
     * **Created by** - enabled for SharePoint sites, shows who created the site. 
     * **Last Used** - shows the last time the content was accessed via a sharing link.
     * **Last Used By** - shows the last person who accessed the content via sharing link.
+  * **Please note** that the added columns currently do not display data for OneDrive sharing links.
 
 * **New columns added to the Sites Overview screen**: **Number of Owners** and **Number of Admins**.
   * **Number of Owners** 

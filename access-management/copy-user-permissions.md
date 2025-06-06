@@ -4,7 +4,7 @@ description: This article provides information about the Copy User Permissions a
 
 # Copy User Permissions
 
-The **Copy User Permissions action** enables you to copy all directly given permissions and group memberships from one user to another user, or even multiple users, eliminating the daunting task of comparing permissions between users and manually applying them if needed.
+The **Copy User Permissions action** enables you to copy all directly given permissions and group memberships from one user to another user or even multiple users, eliminating the daunting task of comparing permissions between users and manually applying them as needed.
 
 {% hint style="warning" %}
 **Please note!**  
@@ -15,12 +15,12 @@ To learn more about roles in Syskit Point, see the [following article](../setup/
 
 You can take advantage of the Copy User Permissions action in the following cases:
 
-* **Onboarding a user** – make the process faster by copying permissions from an existing team member to the new one, for example; you can even copy permissions to multiple users at once
-* **Offboarding a user** – copy all permissions from a user that is leaving your company to a new colleague that is filling his position; after that, all permissions are removed from the old colleague if you decide to do so
+* **Onboarding a user** – make the process faster by copying permissions from an existing team member to the new one; for example, you can even copy permissions to multiple users at once
+* **Offboarding a user** – copy all permissions from a user who is leaving your company to a new colleague who is filling his position; after that, all permissions are removed from the old colleague if you decide to do so
 
 ## Running the Action
 
-Start with accessing the Users overview screen by **clicking the Users button on the left side** of the Syskit Point home page.  
+Start by accessing the Users overview screen by **clicking the Users button on the left side** of the Syskit Point home page.  
 
 To copy permissions from one user to another, follow these steps:
 
@@ -46,10 +46,12 @@ Once the Copy User Permissions action is started, a notification is displayed. *
 
 When using the Copy User Permissions action, **the following is copied**:
 
-* **O365 Group and Microsoft Teams memberships**
+* **M365 Group and Microsoft Teams memberships**
 * **Site administrator privileges**
 * **All directly given permissions on sites and items with broken permission inheritance**
 * **SharePoint group memberships**
+* **Memberships in Microsoft Teams private channels** 
+    * If the corresponding checkbox in the Copy User Permissions dialog is checked
 
 ## What is not Copied
 
@@ -59,6 +61,8 @@ The Copy User Permissions **does not copy the following**:
 * **OneDrive permissions**
 * **Security Group memberships**
 * **Azure AD role privileges**
+* **Memberships in Microsoft Teams private channels**
+    * If the corresponding checkbox in the Copy User Permissions dialog is unchecked
 
 ## Existing Permissions 
 

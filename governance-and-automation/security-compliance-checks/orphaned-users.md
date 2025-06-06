@@ -4,9 +4,9 @@ description: This article provides information on the Orphaned Users report.
 
 # Orphaned Users
 
-Syskit Point detects users that have been disabled or deleted in Entra ID but still have access to SharePoint content, which could lead to security risks in case they become active again. 
+Syskit Point detects users that have been disabled or deleted in Microsoft Entra ID but still have access to SharePoint content, which could lead to security risks in case they become active again. 
 
-Orphaned users are **all the users that have been blocked or deleted from Entra ID** and:
+Orphaned users are **all the users that have been blocked or deleted from Microsoft Entra ID** and:
   * Have access to workspace content, or
   * Had access to workspace content and visited the SharePoint site containing that content but lost access in the meantime
   * [For more details on Orphaned Users in Syskit Point, take a look at the FAQ article.](../../faq/orphaned-users.md)
@@ -20,7 +20,7 @@ bringing awareness of potential issues in their Microsoft 365 environment.
 
 On the Security & Compliance dashboard, click the **Orphaned Users** button to see the report.
 
-The Orphaned Users screen opens, showing a list of all **users that have the sign-in blocked or are deleted from Entra ID** without having their SharePoint permissions revoked.
+The Orphaned Users screen opens, showing a list of all **users that have the sign-in blocked or are deleted from Microsoft Entra ID** without having their SharePoint permissions revoked.
 
 The report itself provides information on:
   * **User (1)** name

@@ -32,7 +32,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 ## Improvements & Bug Fixes
 
 * **Extension Attributes** can now be added to relevant reports by checking the Settings > General > Extension Attributes box.
-  * Selecting the checkbox adds extension attributes from Entra ID to relevant reports. 
+  * Selecting the checkbox adds extension attributes from Microsoft Entra ID to relevant reports. 
     * Extension Attributes columns are available on the **Users with Privileged Access report**, with additional reports to be added in upcoming Point versions.
 
 * **Improved the functionality** when completing Inactive Workspace tasks and the following Ask Owners for Review tasks: Metadata, Privacy, Sensitivity.

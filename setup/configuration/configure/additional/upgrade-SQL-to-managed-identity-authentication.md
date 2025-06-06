@@ -119,13 +119,11 @@ The last steps to finish setting up your Managed Identity authentication are the
 
 * **Navigate back to the Syskit Point resource group**
 * **Open the SQL Server resource**
-* Once there, **click the Azure Active Directory (1)**; located on the left side under Settings
+* Once there, **click Microsoft Entra ID (1)**; located on the left side under Settings
 * **Click the Set Admin (2)** button at the top of the screen
 
-![SQL server - Azure Active Directory](../../../../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-sql-server-set-admin.png)
+![SQL server - Microsoft Entra ID](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-sql-server-set-admin.png)
 
 * In the search bar, **paste the client ID for the Managed Identity (3)** that was used in the previous steps and **click select (4)**
-
-![SQL server - Azure Active Directory - Managed Identity setup](../../../../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-sql-server-set-admin-select.png)
 
 Once all of these steps have been completed, the only thing left to do for the Managed Identity authentication to be enabled is to **Restart Application Services**.

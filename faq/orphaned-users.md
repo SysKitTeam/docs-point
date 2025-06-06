@@ -6,13 +6,13 @@ description: This article provides a detailed explanation of how orphaned users 
 
 ## What Are Orphaned Users in Syskit Point?
 
-Orphaned users are **all users who have been blocked or deleted from Entra ID** and:
+Orphaned users are **all users who have been blocked or deleted from Microsoft Entra ID** and:
   * Have access to workspace content, or
   * Had access to workspace content and visited the SharePoint site containing that content but lost access in the meantime
 
 ## How are Orphaned Users Detected in Syskit Point?
 Orphaned users in Syskit Point are detected by syncing information from the SharePoint site's hidden list. 
-If a user is found on the list and is deleted or blocked in Entra ID, they will be displayed as an Orphaned User in the [Orphaned Users report](../reporting/cleanup-and-health-reports.md#orphaned-users) in Syskit Point.
+If a user is found on the list and is deleted or blocked in Microsoft Entra ID, they will be displayed as an Orphaned User in the [Orphaned Users report](../reporting/cleanup-and-health-reports.md#orphaned-users) in Syskit Point.
 
 To access the hidden list, you need to construct and open the following URL:
 * `<SharePointSiteURL>/_catalogs/users/simple.aspx`

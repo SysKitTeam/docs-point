@@ -31,7 +31,7 @@ To begin with the migration:
 }`
 
 {% hint style="info" %} Hint!
-You can find the Tenant ID in the **Azure Active Directory admin center** > **Overview screen**. Follow the [link](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) to access the screen.
+You can find the Tenant ID in the **Microsoft Entra ID admin center** > **Overview screen**. Follow the [link](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) to access the screen.
 
 Endpoint **(1)** and key **(2)** can be found in the **Microsoft Azure** > **Azure Cosmos DB account** > **Settings > Keys**. See the picture below.
     

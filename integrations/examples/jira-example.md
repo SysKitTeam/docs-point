@@ -12,7 +12,7 @@ Before you start, make sure you have done the following:
 
 * **Syskit Point Provisioning Template**
   * Configured with automated approvals in Syskit Point
-* **Entra ID App for API Authentication**
+* **Microsoft Entra ID App for API Authentication**
   * This will be used to retrieve an OAuth token for Syskit Point API authentication
 * **Syskit Point API Credentials**
   * Syskit Point URL

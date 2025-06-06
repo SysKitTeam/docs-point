@@ -23,7 +23,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 ## Features
 
-* **You can now define the availability of provisioning templates for users and groups**! You can define your templates to be **visible only for certain users or groups**, be it **based on an Azure Active Directory property** or **by selecting wanted users and groups**. Multiple conditions can be applied to ensure that the right users will have access to a specific provisioning template.
+* **You can now define the availability of provisioning templates for users and groups**! You can define your templates to be **visible only for certain users or groups**, be it **based on an Microsoft Entra ID property** or **by selecting wanted users and groups**. Multiple conditions can be applied to ensure that the right users will have access to a specific provisioning template.
 * **Additional site sharing options added to provisioning templates**! Syskit Point Admins can now choose how users share content in a provisioned site and how access requests work. The following options are available in the Sharing Permissions section in all provisioning templates:
   * **Site owners and members can share files, folders, and the site. People with edit permissions can share files and folders.**
   * **Site owners and members, and people with Edit permissions can share files and folders, but only site owners can share the site.**

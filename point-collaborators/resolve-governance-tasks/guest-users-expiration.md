@@ -35,7 +35,7 @@ Along with the e-mail, Syskit Point creates a policy vulnerability task that pro
 The following information is available on the task screen:
 
 * **Guest User Information (1)**; here, you can find **information about the guest user**, most importantly, the time they last signed into Microsoft 365
-* **Remove button (2)**; when clicked, you need to enter a comment and confirm the action, which **results in the guest user being deleted in the Azure Active Directory**
+* **Remove button (2)**; when clicked, you need to enter a comment and confirm the action, which **results in the guest user being deleted in Microsoft Entra ID**
 * **Keep button (3)**; when clicked, you need to enter a comment and confirm the action, which **results in the guest user keeping the access**
 
 ![Inactive Guest User Task](../../.gitbook/assets/guest-users-expiration-policy-violation-task.png)

@@ -14,7 +14,7 @@ Requirements listed in this article apply to the self-hosted Syskit Point option
 **Syskit Point is dependent upon the use of**:
 * **Microsoft 365 tenant**
 * **Azure Subscription**
-* **Azure Active Directory** 
+* **Microsoft Entra ID** 
 
 ## Azure Resources Requirements
 

@@ -32,7 +32,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 * **Fixed an issue** where an owner without a mailbox couldn't be set as an owner in the Inactive workspace policy settings.
 
 * **Extension Attributes** can now be added to relevant reports by checking the Settings > General > Extension Attributes box.
-  * Selecting the checkbox adds extension attributes from Entra ID to relevant reports. 
+  * Selecting the checkbox adds extension attributes from Microsoft Entra ID to relevant reports. 
     * Extension Attributes columns are available on the **Users with Privileged Access report**, with additional reports to be added in upcoming Point versions.
 
 * **Improved the functionality** when completing Inactive Workspace tasks.

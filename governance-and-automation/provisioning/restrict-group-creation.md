@@ -20,7 +20,7 @@ However, **Office 365 Global Administrators will be able to create groups via va
 ## Requirements
 
 Note the following requirements:
-* The **admin who configures the group creation settings needs the Entra ID Premium license or Entra ID Basic EDU license assigned** to them
+* The **admin who configures the group creation settings needs the Microsoft Entra ID Premium license or Microsoft Entra ID Basic EDU license assigned** to them
 * [Microsoft Graph PowerShell Beta module](https://learn.microsoft.com/en-us/powershell/microsoftgraph/installation?view=graph-powershell-1.0) needs to be installed
 
 ## PowerShell Command
