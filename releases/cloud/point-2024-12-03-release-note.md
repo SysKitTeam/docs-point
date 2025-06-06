@@ -17,7 +17,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 * **Custom Views are now available!**
   * This feature **lets you filter, sort, add, or remove columns** in your report based on your specific needs **and retain those customizations for future use**.
   * Custom Views can be saved for Overview screens and other grid reports.
-  * [For more details on how to Save Custom Views and a list of where custom views can be saved, take a look at this article.](../../configuration/custom-views.md)
+  * [For more details on how to Save Custom Views and a list of where custom views can be saved, take a look at this article.](../../setup/configuration/customize/custom-views.md)
 
 ## Improvements & Bug Fixes
 
