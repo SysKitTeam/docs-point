@@ -122,7 +122,7 @@ The last steps to finish setting up your Managed Identity authentication are the
 * Once there, **click Microsoft Entra ID (1)**; located on the left side under Settings
 * **Click the Set Admin (2)** button at the top of the screen
 
-![SQL server - Microsoft Entra ID](../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-sql-server-set-admin.png)
+![SQL server - Microsoft Entra ID](../../../../.gitbook/assets/upgrade-SQL-to-managed-identity-authentication-sql-server-set-admin.png)
 
 * In the search bar, **paste the client ID for the Managed Identity (3)** that was used in the previous steps and **click select (4)**
 

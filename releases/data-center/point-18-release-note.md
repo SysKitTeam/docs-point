@@ -21,7 +21,7 @@ While you wait for spring to come, we bring you the latest and greatest **Syskit
   * **Define who will get an email in case the alert is triggered**
   * **View all active alerts and resolve them** after ensuring that your environment is secure
 
-  [To learn more about alerts in Syskit Point, read the following article.](../../governance-and-automation/configure-alerts.md)
+  [To learn more about alerts in Syskit Point, read the following article.](../../setup/configuration/configure/additional/configure-alerts.md)
 
 * **New Access Review setup, policies, and capabilities are now available!**  
   You can now set up the automated Access Review with the help of the new Access Review wizard. Access review policies are also introduced to give you more possibilities and greater flexibility. Per each review policy, you can define the following:

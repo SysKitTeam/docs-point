@@ -33,7 +33,7 @@ You can only set up **Alerts for workspaces where you are the owner** and for us
 
 {% endhint %}
 
-[To learn how to set up an alert, take a look at this article.](../../governance-and-automation/configure-alerts.md#enabling-and-customizing-alerts)
+[To learn how to set up an alert, take a look at this article.](../../setup/configuration/configure/additional/configure-alerts.md#enabling-and-customizing-alerts)
 
 ## Manage Alerts
 

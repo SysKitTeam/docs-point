@@ -47,11 +47,11 @@ Once finished, **click Save (8)** to save your storage management preferences.
 
 ## Related Articles
 
-* [Configure Your Environment for Storage Management](../configure/additional/configure-point-for-storage-management.md)
+* [Configure Your Environment for Storage Management](../additional/configure-point-for-storage-management.md)
 * [Free Up Storage](../../../../storage-management/free-up-storage.md)
 * [Configure Tenant Storage Limit Policy](../../../../governance-and-automation/automated-workflows/tenant-storage-admin.md)
 * [Tenant Storage Security & Compliance Check](../../../../governance-and-automation/security-compliance-checks/tenant-storage.md)
 * [Resolve Tenant Storage Limit Task](../../../../point-collaborators/resolve-governance-tasks/tenant-storage-limit.md)
 * [Storage Metrics Report](../../../../storage-management/storage-reports.md)
 * [Site Storage Metrics Report](../../../../storage-management/storage-reports.md#site-storage-metrics)
-* [File Storage Details Report](../../../storage-management/storage-reports.md#file-storage-details)
+* [File Storage Details Report](../../../../storage-management/storage-reports.md#file-storage-details)

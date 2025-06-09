@@ -92,7 +92,7 @@ When finished, **click Confirm (6)** to store the preferences.
 
 {% hint style="warning" %}
 **Please note!** 
-If you added [users with Full Control access to the Collaborator role](../../setup/configuration/configure/essential/enable-role-based-access.md#syskit-point-collaborators-1), depending on advanced settings, they will receive an Access Review task.
+If you added [users with Full Control access to the Collaborator role](../../setup/configuration/configure/essential/enable-role-based-access.md#syskit-point-collaborators), depending on advanced settings, they will receive an Access Review task.
 Keep the following in mind:
 * Users with Full Control access given via the default Site Owners SharePoint group and the Site Admins group on a SharePoint site will get an Access Review task.
 * Users who have Full Control access given in any other way - be it directly given Full Control access or via membership in any other non-default SharePoint group with Full Control access - will not get an Access Review task
