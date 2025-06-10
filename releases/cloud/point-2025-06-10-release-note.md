@@ -10,11 +10,10 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **New to Syskit Point Cloud?** Explore Syskit Point Cloud with a 21-day [free trial](https://www.syskit.com/products/point/free-trial/) for an easy and effective way to manage and secure your environment.
 
-* **Already using Syskit Point Cloud?** Syskit Point Cloud is automatically upgraded to the latest version when available. The automatic update occurs outside working hours to ensure minimal interference with your day-to-day business. The new version will start rolling out with this announcement and is expected to reach all customers in the upcoming days.
-
+* **Already using Syskit Point Cloud?** Syskit Point Cloud is automatically upgraded to the latest version when available. The automatic update occurs outside working hours to ensure minimal interference with your day-to-day business. The new version will begin rolling out with this announcement and is expected to reach all customers within the next few days.
 
 ## Improvements & Bug Fixes 
 
-* **Fixed layout issues** when using long workspace names in the Teams App and e-mails. 
+* **Fixed layout issues** when displaying long workspace names in the Point Teams App and e-mails related to provisioning requests. 
 
 * **Various improvements, including UX and UI fixes, are available.**
