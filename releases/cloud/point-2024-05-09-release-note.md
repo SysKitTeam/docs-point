@@ -31,7 +31,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
     * **Banner** - the Sign in page for Syskit Point can show your official company banner
     * **Colors** - define your brand colors and transform the interface of Syskit Point
   * **Dark Mode** is now available for Syskit Point, so if you normally prefer dark mode, you can change the background of Syskit Point from the default white color to a darker shade.
-  * [For more details on how to customize the look and feel of your Syskit Point, take a look at the Customize Appearance article.](../../configuration/customize-appearance.md)
+  * [For more details on how to customize the look and feel of your Syskit Point, take a look at the Customize Appearance article.](../../setup/configuration/customize/customize-appearance.md)
 
 
 ## Improvements & Bug Fixes

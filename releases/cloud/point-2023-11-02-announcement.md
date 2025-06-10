@@ -21,7 +21,7 @@ To ensure that the functionality work seamlessly:
 * Click on the "Reconsent" option on the displayed notification. 
 * Grant permissions in the Microsoft dialog  
 
-[For a detailed step-by-step guide, please refer to our documentation](../../requirements/permission-requirements-change-log.md).  
+[For a detailed step-by-step guide, please refer to our documentation](../../setup/requirements/permission-requirements-change-log.md).  
 
 **What Happens If You Don't Reconsent?**
 

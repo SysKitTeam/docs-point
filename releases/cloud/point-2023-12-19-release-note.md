@@ -22,7 +22,7 @@ description: >-
 * **Additional years for storing your Audit Logs** can now be purchased.
   * Until now, Point Cloud provided a default period of 1 year of audit log retention.
   * Now, you can [purchase additional years of audit logs storage by contacting our Sales team](https://www.syskit.com/contact-us/). 
-  * [Read more about Audit Logs retention in Syskit Point Cloud in the following article.](../../configuration/customize-audit-logs-collection.md#point-cloud)
+  * [Read more about Audit Logs retention in Syskit Point Cloud in the following article.](../../setup/configuration/customize/customize-audit-logs-collection.md)
   
 
 ## Improvements & Bug Fixes

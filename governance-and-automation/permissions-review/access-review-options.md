@@ -14,7 +14,7 @@ Here, you can find 3 sections:
 * **Review Options**
 * **Customize E-mail**
 
-Access Review e-mail customization is described in the [following article](../../configuration/customize-emails.md#access-review-settings).
+Access Review e-mail customization is described in the [following article](../../setup/configuration/customize/customize-emails.md#access-review-settings).
 
 ## Manage Reviewers
 
