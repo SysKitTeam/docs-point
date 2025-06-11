@@ -4,25 +4,25 @@ description: This article explains how to resolve the Maximum number of Owners p
 
 # Maximum Number of Owners
 
-**This article shows how Microsoft Teams and Microsoft 365 Group owners can resolve a policy vulnerability regarding the maximum number of owners** allowed by the organization’s policy defined in Syskit Point.
+**This article shows how Microsoft Teams, Microsoft 365 Group, and SharePoint Site owners can resolve a policy vulnerability regarding the maximum number of owners** allowed by the organization’s policy defined in Syskit Point.
 
-This task helps you identify which teams or groups have more than 5 owners. To avoid risks associated with having too many owners assigned, it's important to stay up to date with all current owners. 
+This task helps you identify which teams, groups or sites have more than the allowed number of owners. To avoid risks associated with having too many owners assigned, it's important to stay up to date with all current owners. 
 
 {% hint style="success" %}
-By default, **Syskit Point suggests that Microsoft Teams and Microsoft 365 Groups should have no more than 5 owners** since no one feels accountable for access and content management if there are too many owners.
+By default, **Syskit Point suggests that Microsoft Teams, Microsoft 365 Groups or SharePoint Sites should have no more than 5 owners** since no one feels accountable for access and content management if there are too many owners.
 [Syskit Point Administrators can change the maximum number of allowed owners to fit the organization’s policies.](../../governance-and-automation/automated-workflows/set-up-policies.md)
 {% endhint %}
 
-When Syskit Point detects that Microsoft Teams or Microsoft 365 Groups, which you are the owner of, have too many owners, **you will receive an e-mail to resolve the policy vulnerability**.
+When Syskit Point detects that a workspace, which you are the owner of, has too many owners, **you will receive an e-mail to resolve the policy vulnerability**.
 
 ## Policy Vulnerability E-mail
 
-**Syskit Point sends an e-mail to existing owners** when Microsoft Teams or Microsoft 365 Groups having more than the defined maximum number of owners are detected. The e-mail includes a list of all workspaces where the policy vulnerability was detected.
+**Syskit Point sends an e-mail to existing owners** when it detects that Microsoft Teams, Microsoft Groups or SharePoint Sites have more than the defined maximum number of owners. The e-mail includes a list of all workspaces where the policy vulnerability was detected.
 
 You can find the following information in the e-mail:
 * **Due date to resolve the policy vulnerability (1)**; you have 15 workdays to resolve the policy vulnerability
 * **The name of policy (2)** the vulnerability is detected for
-* **Microsoft Teams** or **Microsoft 365 Groups where the policy vulnerability was detected (3)**
+* **Workspaces where the policy vulnerability was detected (3)**
 * **Resolve button (4) that takes you to Syskit Point**, where you can resolve the policy vulnerability
 
 ![Policy Vulnerability E-mail](../../.gitbook/assets/maximum-number-of-owners-email.png)
@@ -75,7 +75,7 @@ If you are among the selected roles or users, when the due date for the initiall
 ![Policy Vulnerability History Screen](../../.gitbook/assets/maximum-number-of-owners-workflow-history.png)
 
 **After you resolve the policy vulnerability, a confirmation e-mail is also sent to owners**, showing the following information:
-* **Microsoft Teams or Microsoft 365 Group where an owner resolved the policy vulnerability (1)**
+* **Workspaces where an owner resolved the policy vulnerability (1)**
 * **Who and when (2) resolved the policy vulnerability**
 * **View Details button (3)** that **opens the History screen** in Syskit Point, showing all the activities that were performed within the workflow
 

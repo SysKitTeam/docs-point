@@ -13,16 +13,17 @@ To learn more, take a look at the [Minimum Number of Owners policy article](../.
 By default, task delegation is turned off for this policy, but workspaces with not enough owners **are still detected** and shown on the Security and Compliance dashboard. **This means that Syskit Point detects a vulnerability on a workspace** based on the applied policy, but it does not create tasks or send any emails to workspace owners. 
 
 The purpose of this is to assist Syskit Point admins by
-bringing awareness of potential issues in their Microsoft 365 environment. 
+bringing awareness of potential issues across their Microsoft 365 workspaces, including Microsoft Teams, Microsoft Groups, and SharePoint Sites. 
 
 On the Security & Compliance dashboard, click the **Workspaces with not enough owners** button to see the report.
 
 The Workspaces with Not Enough Owners screen opens, showing a list of all **workspaces with not enough owners assigned** to them.
 
 Above the report, you can see the number of:
- * All workspaces with a policy vulnerability
- * Microsoft Teams with a policy vulnerability
- * Microsoft Groups with a policy vulnerability
+* All workspaces with a policy vulnerability
+* Microsoft Teams with a policy vulnerability
+* Microsoft Groups with a policy vulnerability
+* SharePoint Sites with a policy vulnerability
 
 The report itself provides information on:
   * **Workspace (1)** name
@@ -39,9 +40,9 @@ Additionally, you can complete the following actions for the policy vulnerabilit
   * **Accept risk (8)** - this means you will close the policy vulnerability task without making any changes to the current state of the workspace
   * **Send reminder (9)** - this sends a reminder to the person responsible for resolving this task
 
-If the policy is set up without task delegation being enabled, instead of sending a reminder you will have the option to **Ask Owners**.
+If the policy is set up without task delegation being enabled, instead of sending a reminder you will have the option to **Ask Owners (10)**.
 
-By **selecting all (10)** or more than one workspaces, you can perform the bulk action for **Send reminder (11)** and **Accept risk (12)**, or if the task delegation is not enabled, **Ask Owners**. 
+By **selecting all (11)** or more than one workspaces, you can perform the bulk action for **Send reminder (12)** and **Accept risk (13)**, or if the task delegation is not enabled, **Ask Owners (14)**. 
 
 ![Workspaces with Not Enough Owners](../../.gitbook/assets/security-compliance-checks-workspaces-not-enough-owners.png)
 
