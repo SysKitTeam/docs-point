@@ -4,7 +4,12 @@ description: This article explains how to set up the Maximum Number of Owners po
 
 # Maximum Number of Owners
 
-A predefined policy - set as **Maximum 5 Owners** - is located on the Policies screen. 
+{% hint style="info" %}
+**Please note:** This policy now also applies to SharePoint Sites after the next AutoDiscover job. 
+{% endhint %}
+
+A predefined policy - set as **Maximum 5 Owners** - is located on the Policies screen. This policy applies to **Microsoft Teams, Microsoft Groups, and SharePoint Sites**.
+
 
 Click the **Edit (1)** icon to view all defined options for the policy. 
 
@@ -18,10 +23,14 @@ The **Edit Policy** dialog opens where you can:
   * **Send reminder to reviewers (5)** 3 work days before due date; this option is enabled by default
   * **Choose what to do if owners don't resolve the policy vulnerability until the due date (6)**. The following options are available:
     * **Reassign Task**; when selected, you can define who will get the task - **Manager of the Reviewer**, **Syskit Point Administrators**, or **custom recipients**; this option is selected by default, and the tasks are reassigned to Manager of Reviewer
+      * You can **click the Also add as a workspace member toggle (7)** there if you want to add this user as a workspace member; selecting this adds the selected user(s) as members to the workspace(s) with the policy assigned in case they are not already members
+        * This option is useful for situations where the reviewer's manager does not have access to the workspace; by providing membership access, the manager can gather more information on the workspace and make an informed decision on the best way to resolve the vulnerability. 
     * **Automatically Remove Owners**; if selected, **Syskit Point will remove existing owners starting from users with the oldest sign-in date** until the defined maximum number of owners is reached to comply with the policy
 * Click **Save (7)** once you are done with the policy configuration.  
 
-![Edit Policy Dialog](../../.gitbook/assets/set-up-automated-workflows-max-owners-dialog.png)
+![Edit Policy Dialog](../../.gitbook/assets/set-up-automated-workflows-max-owners-dialog-1.png)
+
+![Edit Policy Dialog](../../.gitbook/assets/set-up-automated-workflows-max-owners-dialog-2.png)
 
 
 For details on how collaborators can [**resolve Maximum Number of Owners policy vulnerability tasks**, navigate to the following article](../../point-collaborators/resolve-governance-tasks/maximum-number-of-owners.md).
