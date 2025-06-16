@@ -1,5 +1,5 @@
 ---
-description: This article lists improvements and bug fixes in Syskit Point version 2025.3.95
+description: This article lists features, improvements, and bug fixes in Syskit Point version 2025.3.95
 ---
 
 # Syskit Point 2025.3.95
@@ -31,9 +31,9 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 ## Improvements & Bug Fixes 
 
-* **The following improvements** to Provisioning have been made:
+* **The following improvements** to provisioning have been made:
   * **Users are now prevented** from adding guest users as group or team owners when provisioning a workspace. 
-  * **The maximum allowed length** for group or team emails has been restricted to avoid provisioning failure.
+  * **The maximum allowed length** for group or team e-mails has been restricted to avoid provisioning failure.
   * **Fixed the missing error message** when provisioning fails, so it no longer shows as `null`.
   * **Fixed the issue** that caused provisioning to fail when the same user is assigned as both the primary and secondary contact.
 
