@@ -7,10 +7,19 @@ description: This article explains how to set up the Minimum Number of Owners po
 Syskit Point detects workspaces that don't have enough owners, which can make your workspaces less secure and difficult to manage.
 
 {% hint style="info" %}
-**Please note:** This policy now also applies to SharePoint Sites after the next AutoDiscover job. 
+**Please note:** This policy now also applies to SharePoint Sites after the next AutoDiscover sync. 
+
+When it comes to detecting owners for workspaces, the following applies:
+* **Owners of Microsoft 365 Groups & Microsoft Teams** are counted as **Group Owner**.
+- **Owners of SharePoint Sites** are counted as **users** that are a **member** of the **sites' default Owners SharePoint Group**.
+
 {% endhint %}
  
-The Policies screen contains a predefined policy - **Minimum 2 Owners**. Click the **Edit (1)** icon to view the policy's defined options.
+The Policies screen contains a predefined policy - **Minimum 2 Owners**. 
+
+By default, task delegation is turned off for this policy, but workspaces with not enough owners **are still detected** and shown on the [**Security and Compliance Dashboard**](../security-compliance-checks/workspaces-not-enough-owners.md). **This means that Syskit Point detects a vulnerability on a workspace** based on the applied policy, but it does not create tasks or send any emails to workspace owners. 
+
+Click the **Edit (1)** icon to view the policy's defined options.
 
 ![Minimum Number of Owners - Edit Policy](../../.gitbook/assets/set-up-automated-workflows-min-owners-edit.png)
 

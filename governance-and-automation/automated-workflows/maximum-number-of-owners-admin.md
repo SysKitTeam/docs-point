@@ -2,14 +2,20 @@
 description: This article explains how to set up the Maximum Number of Owners policy in Syskit Point.
 ---
 
-# Maximum Number of Owners
+# Maximum Number of Owners.
 
 {% hint style="info" %}
-**Please note:** This policy now also applies to SharePoint Sites after the next AutoDiscover job. 
+**Please note:** This policy now also applies to SharePoint Sites after the next AutoDiscover sync. 
+
+When it comes to detecting owners for workspaces, the following applies:
+* **Owners of Microsoft 365 Groups & Microsoft Teams** are counted as **Group Owner**.
+- **Owners of SharePoint Sites** are counted as **users** that are a **member** of the **sites' default Owners SharePoint Group**.
+
 {% endhint %}
 
 A predefined policy - set as **Maximum 5 Owners** - is located on the Policies screen. This policy applies to **Microsoft Teams, Microsoft Groups, and SharePoint Sites**.
 
+By default, task delegation is turned off for this policy, but workspaces with too many owners **are still detected** and shown on the [**Security & Compliance Dashboard**](../security-compliance-checks/workspaces-too-many-owners.md). **This means that Syskit Point detects a vulnerability on a workspace** based on the applied policy, but it does not create tasks or send any emails to workspace owners. 
 
 Click the **Edit (1)** icon to view all defined options for the policy. 
 
