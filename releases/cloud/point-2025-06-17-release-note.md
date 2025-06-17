@@ -15,7 +15,8 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 ## Improvements & Bug Fixes 
 
 * **Improvements made to policies**: Maximum Number of Owners and Minimum Number of Owners.
-  * The policies now **also apply to SharePoint Sites**, starting from the next AutoDiscover sync.
+  * **Default policies** will automatically apply to SharePoint Sites after the next autodiscover sync.
+  * **User-defined policies** can also be applied to SharePoint Sites by setting up rules or manually applying the policy to specific sites. 
   * [For more details on the Maximum Number of Owners policy, read this article.](../../governance-and-automation/automated-workflows/maximum-number-of-owners-admin.md)
   * [For more details on the Minimum Number of Owners policy, take a look here.](../../governance-and-automation/automated-workflows/minimum-number-of-owners-admin.md)
 
@@ -23,7 +24,5 @@ description: This article lists improvements and bug fixes in the Syskit Point C
   * Fixed a bug that caused exporting filtered views for the Users Overview to include all users instead of the selected view. 
   * The exported Excel file now properly reflects column values and filters, as shown in Syskit Point.
   * The Company Name column was added to the export report.
-
-* **New Alert added** to monitor **Elastic Pool storage availability %**.
 
 * **Various improvements, including UX and UI fixes, are available.**
