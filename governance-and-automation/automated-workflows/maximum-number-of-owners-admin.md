@@ -8,7 +8,7 @@ description: This article explains how to set up the Maximum Number of Owners po
 **Please note!** 
 The default Maximum 5 Owners policy now also applies to SharePoint Sites. 
 You can expect to see the changes after the next AutoDiscover sync following the upgrade to the latest Point version.
-Custom Maximum Number of Owners policies created by Syskit Point admins can be applied to SharePoint sites as well, via Rules or manually. 
+Custom Maximum Number of Owners policies created by Syskit Point admins can also be applied to SharePoint sites using Rules, or manually.
 {% endhint %}
 
 {% hint style="info" %}
