@@ -15,7 +15,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 ## Improvements & Bug Fixes 
 
 * **Improvements made to policies**: Maximum Number of Owners and Minimum Number of Owners.
-  * **Default policies** will automatically apply to SharePoint Sites after the next autodiscover sync.
+  * **Default policies** will automatically apply to SharePoint Sites after the next Auto Discover sync.
   * **User-defined policies** can also be applied to SharePoint Sites by setting up rules or manually applying the policy to specific sites. 
   * [For more details on the Maximum Number of Owners policy, read this article.](../../governance-and-automation/automated-workflows/maximum-number-of-owners-admin.md)
   * [For more details on the Minimum Number of Owners policy, take a look here.](../../governance-and-automation/automated-workflows/minimum-number-of-owners-admin.md)
