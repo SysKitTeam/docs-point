@@ -10,7 +10,7 @@ Syskit Point detects workspaces that don't have enough owners, which can make yo
 **Please note!** 
 The default Minimum 2 Owners policy now also applies to SharePoint Sites. 
 You can expect to see the changes after the next AutoDiscover sync following the upgrade to the latest Point version.
-Custom Minimum Number of Owners policies created by Syskit Point admins can also be applied to SharePoint sites using Rules, or manually.
+Custom Minimum Number of Owners policies created by Syskit Point admins can also be applied to SharePoint sites using Rules or manually.
 {% endhint %}
 
 {% hint style="info" %}

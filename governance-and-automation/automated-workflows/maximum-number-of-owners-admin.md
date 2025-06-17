@@ -4,11 +4,13 @@ description: This article explains how to set up the Maximum Number of Owners po
 
 # Maximum Number of Owners
 
+Syskit Point detects workspaces with too many owners, which can lead to diffusion of responsibility.
+
 {% hint style="warning" %}
 **Please note!** 
 The default Maximum 5 Owners policy now also applies to SharePoint Sites. 
 You can expect to see the changes after the next AutoDiscover sync following the upgrade to the latest Point version.
-Custom Maximum Number of Owners policies created by Syskit Point admins can also be applied to SharePoint sites using Rules, or manually.
+Custom Maximum Number of Owners policies created by Syskit Point admins can also be applied to SharePoint sites using Rules or manually.
 {% endhint %}
 
 {% hint style="info" %}
