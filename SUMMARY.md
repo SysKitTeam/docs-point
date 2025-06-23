@@ -202,6 +202,7 @@
   * [Licenses Reports](reporting/licenses-reports.md)
   * [Analytics Reports](reporting/analytics-reports.md)
   * [Sensitivity Labels Reports](reporting/sensitivity-labels.md)
+  * [AI Agents Reports](reporting/ai-agents-reports.md)
   * [Power Platform Reports](reporting/power-platform-reports.md)
   * [Power BI Reports](reporting/power-bi-reports.md)
 * [Storage Management](storage-management/README.md)
