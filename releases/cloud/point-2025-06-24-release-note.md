@@ -25,12 +25,10 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 * **Fixed an issue** that caused missing data for the Number of Owners and Number of Admins columns when exporting the Sites Overview.  
 
 * **Added tooltips to Sensitivity Labels.**
-  * When hovering above a sensitivity label, it now displays the user or admin descriptions attached to the label. 
+  * When hovering above a sensitivity label, it now displays the user descriptions attached to the label. 
   * The tooltips can be found on the following screens:
     * Manage Sensitivity action on the Workspaces Overview
     * Sensitivity Review
     * Settings under General and Provisioning
-
-* **Access to Swagger UI has been restricted** and will no longer be publicly available. 
 
 * **Various improvements, including UX and UI fixes, are available.**
