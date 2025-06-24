@@ -6,7 +6,7 @@ description: The AI Agents reports provide an overview of your AI agents with th
 
 In this article, you can locate information on the [Custom SharePoint Agents Inventory Report](#custom-sharePoint-agents-inventory-report).
 
-This reports can be used to **identify potential security risks**, ensure compliance, and maintain your visibility over **all custom solutions deployed across your SharePoint environment**.  
+This report can be used to **identify potential security risks**, ensure compliance, and maintain your visibility over **all custom solutions deployed across your SharePoint environment**.  
 
 
 ## Custom SharePoint Agents Inventory Report
@@ -26,12 +26,12 @@ Here, you can find a summary of the workspaces in your environment that contain 
 * **Last Modified** shows the date the workspace was last modified
 * **Custom SharePoint Agents** shows the number of Custom SharePoint Agents for the workspace
 
-To generate the Custom SharePoint Agents Inventory report, select **one or more workspaces** from the list and the click the **Run Report** button at the bottom of the screen.
+To generate the Custom SharePoint Agents Inventory report, select **one or more workspaces** from the list and lick the **Run Report** button at the bottom of the screen.
 
 
 ### Report Data
 
-Clicking the **Run Report** button, generates the Custom SharePoint Agents Inventory report. The default columns displayed in the report are:    
+Clicking the **Run Report** button generates the Custom SharePoint Agents Inventory report. The default columns displayed in the report are:    
 
 * **Agent Name** of the Custom SharePoint Agent
 * **URL** shows the link to the Custom SharePoint Agent 
@@ -39,7 +39,7 @@ Clicking the **Run Report** button, generates the Custom SharePoint Agents Inven
 * **Created On** shows when the Custom SharePoint Agent was created
 * **Modified On** shows when the Custom SharePoint Agent was modified on
 * **Is Approved** shows whether the Custom SharePoint Agent was approved by showing a green checkbox in the column
-* **Retention Label** shows which, is any, retention label is applied
+* **Retention Label** shows which, if any, retention label is applied
 
 The Custom SharePoint Agents Inventory report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
