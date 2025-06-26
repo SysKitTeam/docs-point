@@ -93,7 +93,7 @@ Customizing license reports can only be done by users with the assigned Syskit P
 If your Microsoft 365 utilizes the Power BI data collection software, you can connect it with Syskit Point. 
 
 {% hint style="warning" %}
-**For instructions on how to set-up the Power BI data collection follow the instructions in the [Enable Power BI Data Collection article](../configuration/enable-powerBI-data-collection.md).**
+**For instructions on how to set-up the Power BI data collection follow the instructions in the [Enable Power BI Data Collection article](../power-platform/enable-powerBI-data-collection.md).**
 {% endhint %}
 
 

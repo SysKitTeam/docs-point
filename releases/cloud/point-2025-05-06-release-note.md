@@ -20,7 +20,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
       * This action helps you remove unused flows and can be completed on the Power Automate Inventory report
     * **Delete App**
       * This action helps you remove unused apps and can be completed on the Power Apps Inventory report
-  * [For more details, please take a look at the Power Platform actions article.](../../access-management/power-platform-actions.md)
+  * [For more details, please take a look at the Power Platform actions article.](../../power-platform/power-platform-actions.md)
 
 ## Improvements & Bug Fixes 
 

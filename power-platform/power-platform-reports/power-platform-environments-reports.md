@@ -1,6 +1,6 @@
 ---
 description: Power Platform Environments reports provide insight into the state of your Power Platform environments.
-----
+---
 
 # Power Platform Environments Report
 
