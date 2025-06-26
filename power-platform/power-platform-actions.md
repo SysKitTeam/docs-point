@@ -4,9 +4,13 @@ description: This article provides information about the actions you can take on
 
 # Power Platform Actions
 
-{% hint style="success" %}
-**Power Platform actions** are currently available as a free preview, allowing you to explore its benefits at no cost.
+{% hint style="info" %}
+**Please Note!** Power Platform is **now available as an add-on** purchase to your Syskit Point subscription. 
+
+To enable the use of Power Platform for Syskit Point, [please contact us](https://www.syskit.com/contact-us/).
+
 {% endhint %}
+
 
 Many organizations use Power Platform to build apps, automate workflows, and analyze data. Through Syskit Point, you can generate detailed reports for your Power Platform resources. 
 
