@@ -291,7 +291,7 @@
   * [Supervise Microsoft Teams Private Channels](access-management/supervise-microsoft-teams-private-channels.md)
   * [Manage Private Channels Access](access-management/manage-private-channels.md)
 * [Power Platform](power-platform/README.md)
-  * [Power Platform Overview](integrations/overview.md)
+  * [Power Platform Overview](power-platform/power-platform-overview.md)
   * [Enable Power Platform Data Collection](power-platform/power-platform.md)
   * [Enable Power BI Data Collection](power-platform/enable-powerBI-data-collection.md)
   * [Complete Power Platform Actions](power-platform/power-platform-actions.md)
