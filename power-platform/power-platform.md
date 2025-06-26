@@ -1,8 +1,26 @@
 ---
-description: This article explains how to enable Power Platform data collection for Syskit Point
+description: This article explains how to enable and set up Power Platform data collection for Syskit Point. 
 ---
 
-# Power Platform Data Collection
+# Power Platform for Syskit Point
+
+In order to start **collecting and monitoring Power Apps, Power Flows, Power Platform Environments,** you need to first connect your Power Platform to Syskit Point. This helps you keep track of your Power Platform resources in one place to manage them more effectively. 
+
+In this article, you can find details on how to:
+
+* [Enable Power Platform Data Collection](#enable-power-platform-data-collection)
+* [Configure Reporting Limits](#configure-reporting-limits)
+* [Assign Syskit Point Power Platform Admins](#syskit-point-power-platform-admins)
+
+
+{% hint style="info" %}
+**Please Note!** Power Platform is **now available as an add-on** purchase to your Syskit Point subscription. 
+
+To enable the use of Power Platform for Syskit Point, [please contact us](https://www.syskit.com/contact-us/).
+
+{% endhint %}
+
+## Enable Power Platform Data Collection
 
 Configuring the Power Platform feature in Syskit Point starts the Power Platform data collection, which enables you to generate Power Platform reports for a detailed overview of your Power Platform resources.
 
@@ -75,3 +93,24 @@ Solutions, Model-driven apps, and Desktop flows are not supported.
 {% endhint %}
 
 
+## Syskit Point Power Platform Admins
+
+In Syskit Point, **role-based access ensures that users can only see and manage the resources they are responsible for**. To manage Power Platform resources in Point, you need to **enable access for Power Platform admins**. 
+
+{% hint style="warning" %}
+**Please note!**
+
+* Assigning the **Power Platform Admin role in Syskit Point** to users **does not grant the Power Platform Administrator role in Entra ID** 
+* **To successfully run actions** on Power Platform environments, apps, and flows, **Power Platform Admins in Syskit Point must have the Power Platform Administrator role assigned in Entra ID**
+{% endhint %}
+
+When signed in to Syskit Point, Syskit Point Power Platform Admins can:
+* **Access all data related to Power Platform environments, apps, and flows**
+* **Perform actions on Power Platform environments, apps, and flows, given they have the Power Platform Administrator role assigned in Entra ID**
+
+The **Syskit Point Power Platform Admins** role enables users to:
+* **Access Syskit Point Power Platform reports**
+* **Schedule Power Platform reports**
+* **Perform Power Platform actions** on environments, apps, and flows
+    * Note that the Power Platform Administrator Entra ID role must be assigned to successfully run actions on Power Platform environments, apps, and flows
+* **Have access to the Power Platform Dashboard tile**
