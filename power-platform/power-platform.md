@@ -24,10 +24,6 @@ To enable the use of Power Platform for Syskit Point, [please contact us](https:
 
 Configuring the Power Platform feature in Syskit Point starts the Power Platform data collection, which enables you to generate Power Platform reports for a detailed overview of your Power Platform resources.
 
-{% hint style="success" %}
-**Power Platform functionality** is currently available as a free preview, allowing you to explore its benefits at no cost.
-{% endhint %}
-
 To enable the Power Platform data collection in Syskit Point, complete the following:
 
 * Before the set up, the **Power Platform tile (1)** on the Dashboard shows the **Configure Now button (2)**

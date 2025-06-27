@@ -15,10 +15,6 @@ This article contains information on six Power Platform reports available throug
 
 You can also find the Power BI reports under the Power Platform filter. For more information on those reports, [look at the Power BI reports article](../power-platform-reports/power-bi-reports.md).
 
-{% hint style="success" %}
-**Power Platform Reports** are currently available as a free preview, allowing you to explore its benefits at no cost.
-{% endhint %}
-
 {% hint style="information" %}
 Syskit Point collects data for the following Power Platform resources:
 * Power apps
