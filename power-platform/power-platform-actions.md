@@ -28,7 +28,7 @@ These actions help manage access, resolve the risks of orphaned resources by add
 
 {% hint style="warning" %}
 To generate the [Power Platform reports](../configuration/enable-role-based-access.md) and complete the Power Platform actions, please ensure [you have enabled Power Platform data collection](../power-platform/power-platform.md).\
-Power Platform actions can only be completed by Global Admin users.  
+Power Platform actions can be completed by Global Admin users and users who have the Power Platform Admin role assigned in Microsoft Entra ID.
 {% endhint %}
 
 ## Change Owners

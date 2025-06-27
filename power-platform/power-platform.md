@@ -105,6 +105,8 @@ When signed in to Syskit Point, Syskit Point Power Platform Admins can:
 * **Perform actions on Power Platform environments, apps, and flows, given they have the Power Platform Administrator role assigned in Entra ID**
 
 The **Syskit Point Power Platform Admins** role enables users to:
+
+* **View and manage Power Platform Settings** in Syskit Point
 * **Access Syskit Point Power Platform reports**
 * **Schedule Power Platform reports**
 * **Perform Power Platform actions** on environments, apps, and flows
