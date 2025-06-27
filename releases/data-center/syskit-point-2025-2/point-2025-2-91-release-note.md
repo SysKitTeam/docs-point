@@ -45,7 +45,7 @@ Although not mandatory, **we strongly recommend installing this version before f
     * **Delete App**
       * This action helps you remove unused apps and can be completed on the Power Apps Inventory report
 
-  * [For more details, please take a look at the Power Platform actions article.](../../../access-management/power-platform-actions.md)
+  * [For more details, please take a look at the Power Platform actions article.](../../../power-platform/power-platform-actions.md)
 
 * **New policy available**: Workspaces Without a Sensitivity Label
   * This policy helps you detect workspaces that don't have a sensitivity label attached and could pose a security risk.

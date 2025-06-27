@@ -28,7 +28,7 @@ The 2025.2.90 release brings important improvements to Syskit Point’s backend 
 {% hint style="warning" %}
 **Please note!**\
 Global admin re-consent is required after the upgrade to the latest version due to changes in APIs used to [detect Teams chat activity](../../../configuration/microsoft-teams-activity.md) and if you enabled Power Platform data collection in one of the previous versions.
-Consent is required due to permission change introduced to enable [running Power Platform actions](../../../access-management/power-platform-actions.md) in Syskit Point. [Learn more about permission changes here](../../../requirements/permission-requirements-change-log.md)
+Consent is required due to permission change introduced to enable [running Power Platform actions](../../../power-platform/power-platform-actions.md) in Syskit Point. [Learn more about permission changes here](../../../requirements/permission-requirements-change-log.md)
 {% endhint %}
 
 ## New Features
@@ -45,7 +45,7 @@ Consent is required due to permission change introduced to enable [running Power
       * On the reports, select one or multiple Apps or Flows and add additional Co-owners, which can come in handy when trying to define Co-owners on multiple orphaned Flows
     * **Delete Environment**
       * This action helps you remove unused environments and can be completed on the Power Platform Environments report
-  * [For more details, please take a look at the Power Platform actions article.](../../../access-management/power-platform-actions.md)
+  * [For more details, please take a look at the Power Platform actions article.](../../../power-platform/power-platform-actions.md)
 
 ## Improvements & Bug Fixes
 

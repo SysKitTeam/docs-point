@@ -259,7 +259,7 @@ The tile on the Dashboard shows:
   * Clicking the **Inactive Apps** number opens the Power Apps Inventory report with the Inactive Apps filter applied
   * Clicking the **Inactive Flows** number opens the Power Automate Inventory report with the Inactive Flows filter applied
 
-* For more details [on the Power Platform reports, take a look at this article.](../reporting/power-platform-reports.md)
+* For more details [on the Power Platform reports, take a look at this article.](../power-platform/power-platform-reports/README.md)
 
 ![Power Platform Tile](../.gitbook/assets/power-platform-tile.png)
 

@@ -31,7 +31,7 @@ For **Guest Users**, who do not appear in the Unified Audit Log (e.x. Teams-only
 
 * After collecting the data, **Syskit Point takes the most recent of the two values** in order to determine the guest user's last activity. 
 
-[For more details on this, take a look at the Customize Audit Logs Collection article.](../configuration/customize-audit-logs-collection.md#sign-in-logs-from-azure-active-directory)
+[For more details on this, take a look at the Customize Audit Logs Collection article.](../configuration/customize-audit-logs-collection.md#sign-in-logs-from-microsoft-entra-id)
 
 {% hint style="information" %}
 **Please note!** 
