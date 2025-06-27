@@ -46,14 +46,14 @@ To collect Power Platform data, you need to **consent** for Syskit Point to star
 
 ![Configure Power Platform - Consent](../.gitbook/assets/power-platform-configuration-consent.png)
 
-* [For details on how to enable Power BI data collection, take a look at this article.](../configuration/enable-powerBI-data-collection.md)
+* [For details on how to enable Power BI data collection, take a look at this article.](../power-platform/enable-powerBI-data-collection.md)
 
 Once the permissions are granted, you can see the **Status** in the Settings change to **Collecting Data** with a **green** checkbox next to it. 
 
 If the box is unchecked, the Status shows the 'Please Enable Data Collection Above to Continue' warning message.
 
 Once this is enabled, the first Power Platform data sync starts. When completed, summary data will show on the Power Platform dashboard tile. From there, you can drill to open specific reports, which provide more details about selected Power Platform resources.
-For more details, [take a look at the Power Platform reports article](../reporting/power-platform-reports.md)
+For more details, [take a look at the Power Platform reports article](../power-platform/power-platform-reports/README.md)
 
 {% hint style="information" %}
 To stop the Power Platform data collection, uncheck the Collect Power Apps and Power Automate Data checkbox and save the change.
