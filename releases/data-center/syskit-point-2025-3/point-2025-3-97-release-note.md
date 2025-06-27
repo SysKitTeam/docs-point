@@ -8,7 +8,7 @@ description: This article lists features, improvements, and bug fixes in Syskit 
 
 **Product version:** 2025.3.97
 
-**Build number:** XX
+**Build number:** 34
 
 **Release date:** July 01, 2025
 
