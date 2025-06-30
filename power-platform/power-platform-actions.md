@@ -4,9 +4,13 @@ description: This article provides information about the actions you can take on
 
 # Power Platform Actions
 
-{% hint style="success" %}
-**Power Platform actions** are currently available as a free preview, allowing you to explore its benefits at no cost.
+{% hint style="info" %}
+**Please Note!** Power Platform is **now available as an add-on** purchase to your Syskit Point subscription. 
+
+To enable the use of Power Platform for Syskit Point, [please contact us](https://www.syskit.com/contact-us/).
+
 {% endhint %}
+
 
 Many organizations use Power Platform to build apps, automate workflows, and analyze data. Through Syskit Point, you can generate detailed reports for your Power Platform resources. 
 
@@ -20,11 +24,11 @@ To help you manage these resources, Syskit Point is introducing new Power Platfo
 
 These actions help manage access, resolve the risks of orphaned resources by adding ownership, and eliminate sprawl by removing inactive environments.
 
-* [Take a look at the Power Platform Reports article for more details on all the available Power Platform reports.](../reporting/power-platform-reports.md)
+* [Take a look at the Power Platform Reports article for more details on all the available Power Platform reports.](/power-platform/power-platform-reports/README.md)
 
 {% hint style="warning" %}
-To generate the [Power Platform reports](../configuration/enable-role-based-access.md) and complete the Power Platform actions, please ensure [you have enabled Power Platform data collection](../configuration/power-platform.md).\
-Power Platform actions can only be completed by Global Admin users.  
+To generate the [Power Platform reports](../configuration/enable-role-based-access.md) and complete the Power Platform actions, please ensure [you have enabled Power Platform data collection](../power-platform/power-platform.md).\
+Power Platform actions can be completed by Global Admin users and users who have the Power Platform Admin role assigned in Microsoft Entra ID.
 {% endhint %}
 
 ## Change Owners
