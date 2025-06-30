@@ -25,8 +25,8 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 * **Power Platform inventory available in Syskit Point!**
   * You can now enable Power Platform data collection and generate reports that show the state of your Power Platform environments, apps, flows, and connections.
-  * [Find more details on how to configure Power Platform data collection in this article.](../../../configuration/power-platform.md)
-  * [For information on all the Power Platform reports available in Syskit Point, take a look at this article.](../../../reporting/power-platform-reports.md)
+  * [Find more details on how to configure Power Platform data collection in this article.](../../../power-platform/power-platform.md)
+  * [For information on all the Power Platform reports available in Syskit Point, take a look at this article.](../../../power-platform/power-platform-reports/README.md)
 
 * **New Archive method available!**
   * With the introduction of Microsoft 365 Archive, Syskit Point now provides an additional option for archiving workspaces:
