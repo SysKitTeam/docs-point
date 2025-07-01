@@ -243,7 +243,15 @@ For more information on the license reports available, take a look at the [Licen
 
 ## Power Platform 
 
-The Power Platform tile on the Syskit Point dashboard **provides an overview of your Power Platform environments**.
+{% hint style="info" %}
+**Please Note!** Power Platform is **now available as an add-on** purchase to your Syskit Point subscription. 
+
+To enable the use of Power Platform for Syskit Point, [please contact us](https://www.syskit.com/contact-us/).
+
+{% endhint %}
+
+
+The Power Platform tile on the Syskit Point dashboard **provides an overview of your Power Platform environments, apps, flows, and connections**.
 
 The tile on the Dashboard shows:
 * **Inventory** - which provides a quick overview of your Power Platform inventory and shows the numbers of
@@ -262,6 +270,10 @@ The tile on the Dashboard shows:
 * For more details [on the Power Platform reports, take a look at this article.](../power-platform/power-platform-reports/README.md)
 
 ![Power Platform Tile](../.gitbook/assets/power-platform-tile.png)
+
+If Power Platform is not enabled for Syskit Point, the tile on the Dashboard asks you to [contact us](https://www.syskit.com/contact-us/).
+
+![Power Platform Tile - Contact Us](../.gitbook/assets/power-platform-tile-contact.png)
 
 
 ## Workspace Sensitivity 
