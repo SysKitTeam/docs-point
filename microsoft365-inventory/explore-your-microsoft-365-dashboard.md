@@ -26,6 +26,7 @@ The **Syskit Point** Dashboard shows Syskit Point administrators the following i
 * Microsoft 365 Licenses
 * Power Platform
 * Workspace Sensitivity
+* SharePoint Agents
 
 
 The **Syskit Point** Dashboard shows Syskit Point collaborators the following information in the tiles:
@@ -301,3 +302,18 @@ The tile on the Dashboard shows:
 * [If you want to learn how to manage your Sensitivity Labels in Point, take a look at this article.](../governance-and-automation/manage-sensitivity-labels.md)
 
 ![Workspace Sensitivity Tile](../.gitbook/assets/dashboard-workspace-sensitivity-tile.png)
+
+
+## SharePoint Agents 
+
+The SharePoint Agents tile provides an **overview of all custom-built SharePoint Agents in your organization**. 
+
+The tile on the Dashboard shows:
+
+* **The total number of custom SharePoint Agents** in your environment
+* **The number of newly added custom SharePoint Agents** in the past 30 days
+* **The Explore** button
+
+Clicking the Explore button opens the Custom SharePoint Agents Inventory report. [For more details on the report, take a look at this article.](../reporting/ai-agents-reports.md) 
+
+![SharePoint Agents Tile](../.gitbook/assets/dashboard-sharepoint-agents-tile.png)
