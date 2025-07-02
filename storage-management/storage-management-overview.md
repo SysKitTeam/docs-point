@@ -37,7 +37,7 @@ The [Storage Metrics report](../storage-management/storage-reports.md#storage-me
 * **Discover the percentage of used storage in your tenant (1)**
 * **Observe the trend of your storage usage over time (2)**
 * **See the Potential Savings for how much storage you can save(3)**
-  * You can clean up File versions older than X months or All but the last X number of file versions 
+  * You can Cleanup File Versions older than X months or All but the last X number of file versions 
 
 You can also find the most important storage-related information for the largest sites:
 * **Size (4)** - storage used up by the SharePoint site
@@ -63,6 +63,12 @@ Selecting one or more sites provides the following actions:
 Once you detect the largest sites with the help of the Storage Metrics report, you can **click the name of the site** to open the site-specific Storage Metrics report.
 
 ![Storage Metrics Report in Point](../.gitbook/assets/optimize-storage-storage-metrics-report-point.png)
+
+{% hint style="information" %}
+
+**Please note**: the Cleanup File Versions action cannot be fully completed across all locations, so it is currently unavailable for multi-geo.
+
+{% endhint %}
 
 Along with the Storage Metrics report, you can access the following Storage reports:
 * [Site Storage Metrics](../storage-management/storage-reports.md#site-storage-metrics); shows site storage usage over time, along with an overview of all files (and types of files) stored on the site and the option to clean up older file versions.
