@@ -261,7 +261,7 @@ The tile on the Dashboard shows:
 
 * For more details [on the Power Platform reports, take a look at this article.](../power-platform/power-platform-reports/README.md)
 
-![Power Platform Tile](../.gitbook/assets/power-platform-tile.png)
+![Power Platform Tile](../.gitbook/assets/dashboard-power-platform-tile.png)
 
 
 ## Workspace Sensitivity 
