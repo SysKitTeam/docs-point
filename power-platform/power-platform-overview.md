@@ -6,7 +6,7 @@ description: This article explains how to enable and set up Power Platform data 
 
 **Microsoft Power Platform can now be connected to Syskit Point** and provide you with an overview of your organization's Power Platform resources: Power Platform Apps, Power Platform Flows, and Power Platform Environments. 
 
-**To purchase and enable the Power Platform add-on to Syskit Point, [please contact us](https://www.syskit.com/contact-us/).**
+**To purchase and enable the Power Platform add-on to Syskit Point, [please contact us](https://www.syskit.com/contact-us-power-platform/).**
 
 Connecting your Power Platform to Syskit Point provides you with a **centralized view of environments, apps, and flows across your tenant** and helps you **detect inactive or orphaned resources**, **review inventory and usage reports** and **perform management actions** such as deleting orphaned apps or changing owners.
 
