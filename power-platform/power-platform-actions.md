@@ -7,7 +7,7 @@ description: This article provides information about the actions you can take on
 {% hint style="info" %}
 **Please Note!** Power Platform is **now available as an add-on** purchase to your Syskit Point subscription. 
 
-To enable the use of Power Platform for Syskit Point, [please contact us](https://www.syskit.com/contact-us/).
+To enable the use of Power Platform for Syskit Point, [please contact us](https://www.syskit.com/contact-us-power-platform/).
 
 {% endhint %}
 

@@ -247,7 +247,7 @@ For more information on the license reports available, take a look at the [Licen
 {% hint style="info" %}
 **Please Note!** Power Platform is **now available as an add-on** purchase to your Syskit Point subscription. 
 
-To enable the use of Power Platform for Syskit Point, [please contact us](https://www.syskit.com/contact-us/).
+To enable the use of Power Platform for Syskit Point, [please contact us](https://www.syskit.com/contact-us-power-platform/).
 
 {% endhint %}
 
@@ -272,7 +272,7 @@ The tile on the Dashboard shows:
 
 ![Power Platform Tile](../.gitbook/assets/power-platform-tile.png)
 
-If Power Platform is not enabled for Syskit Point, the tile on the Dashboard asks you to [contact us](https://www.syskit.com/contact-us/).
+If Power Platform is not enabled for Syskit Point, the tile on the Dashboard asks you to [contact us](https://www.syskit.com/contact-us-power-platform/).
 
 ![Power Platform Tile - Contact Us](../.gitbook/assets/power-platform-tile-contact.png)
 
