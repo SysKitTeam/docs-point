@@ -181,7 +181,7 @@ To manage the permissions, you can run the related PowerShell cmdlets described 
 | API/Permissions Name                     | Permission                        | Type      | Reason                                                                                         |
 | ---------------------------------------- | --------------------------------- | --------- | ---------------------------------------------------------------------------------------------- |
 | PowerApps Service/User | Access the PowerApps Service API | Delegated | Allows you to run Power Platform actions in Syskit Point. |
-| Graph/Graph/Application.ReadWrite.All | Read and write all applications | Delegated | Enables Syskit Point to update the Syskit Point Client app registration on behalf of the signed-in user. |
+| Graph/Application.ReadWrite.All | Read and write all applications | Delegated | Enables Syskit Point to update the Syskit Point Client app registration on behalf of the signed-in user. |
 
 {% hint style="warning" %}
 **Please note!**
