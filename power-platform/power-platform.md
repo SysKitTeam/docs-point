@@ -37,10 +37,14 @@ To collect Power Platform data, you need to **consent** for Syskit Point to star
 
 * **Click the Login with Microsoft Authentication flow (3)** button and **log in with the Global Administrator account**
   * The confirmation modal appears, listing the permissions required for the Power Platform data collection
-  * **Select the 'Consent on behalf of your organization' checkbox (4)** to provide Syskit Point with access to the specified resources
-  * Note that the Power Platform data will not be collected until consented
   * For more information about the permissions, check the [Permission Requirements Change Log article](../requirements/permission-requirements-change-log.md#syskit-point-cloud-2025177)
-* **Click Accept (5)** to start collecting Power Platform data in Syskit Point
+* **Click Accept (4)** to start collecting Power Platform data in Syskit Point
+
+{% hint style="warning" %}
+**Please note!**
+The Read and Write applications permission (Graph/Application.ReadWrite.All) is used only once to update the Syskit Point Client app registration with the required PowerApps Service/User permission. After the permission is added, you can remove the Application.ReadWrite.All permission from the Syskit Point Client enterprise app.
+{% endhint %}
+
 
 ![Configure Power Platform](../.gitbook/assets/power-platform-configuration.png)
 

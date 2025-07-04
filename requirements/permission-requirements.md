@@ -167,6 +167,7 @@ Permissions are added when Power Apps and Power Automate data collection is enab
 | Syskit Point Client | PowerAppManagementApp | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data.  |
 | Syskit Point Power Platform | PowerAppManagementApp | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data. |
 
+
 {% hint style="warning" %}
 **Please note!**  
 Added permissions for Power Apps and Power Automate data collection are not visible in the Microsoft Entra interface. 
@@ -180,6 +181,12 @@ To manage the permissions, you can run the related PowerShell cmdlets described 
 | API/Permissions Name                     | Permission                        | Type      | Reason                                                                                         |
 | ---------------------------------------- | --------------------------------- | --------- | ---------------------------------------------------------------------------------------------- |
 | PowerApps Service/User | Access the PowerApps Service API | Delegated | Allows you to run Power Platform actions in Syskit Point. |
+| Graph/Graph/Application.ReadWrite.All | Read and write all applications | Delegated | Enables Syskit Point to update the Syskit Point Client app registration on behalf of the signed-in user. |
+
+{% hint style="warning" %}
+**Please note!**
+The Application.ReadWrite.All permission is used only once to update the Syskit Point Client app registration with the required PowerApps Service/User permission. After the permission is added, you can remove the Application.ReadWrite.All permission from the Syskit Point Client enterprise app.
+{% endhint %}
 
 ### Syskit Point Permissions Loader
 
