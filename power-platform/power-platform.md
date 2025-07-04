@@ -37,7 +37,7 @@ To collect Power Platform data, you need to **consent** for Syskit Point to star
 
 * **Click the Login with Microsoft Authentication flow (3)** button and **log in with the Global Administrator account**
   * The confirmation modal appears, listing the permissions required for the Power Platform data collection
-  * For more information about the permissions, check the [Permission Requirements Change Log article](../requirements/permission-requirements.md#syskit-point-client)
+  * For more information about the permissions, check the [Permission Requirements article](../requirements/permission-requirements.md#syskit-point-client)
 * **Click Accept (4)** to start collecting Power Platform data in Syskit Point
 
 {% hint style="warning" %}

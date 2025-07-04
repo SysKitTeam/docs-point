@@ -78,7 +78,7 @@ Syskit Point **does not read or save** the content of messages to detect Microso
 **New permission is added for the app registration after reconsenting if the Power Platform data collection is enabled.**
 {% endhint %}
 
-**The following permissions are added to the existing Syskit Point app registration**:
+**The following permission is added to the existing Syskit Point app registration**:
 
 <table><thead><tr><th>App Registration</th><th width="210">API/Permissions Name</th><th width="115">Permission</th><th width="104">Type</th><th>Reason</th></tr></thead><tbody><tr><td>Syskit Point Client</td><td>PowerApps Service/User</td><td>Access the PowerApps Service API</td><td>Delegated</td><td>Allows you to run Power Platform actions in Syskit Point.</td></tr>
 </tbody></table>
