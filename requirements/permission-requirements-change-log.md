@@ -80,7 +80,8 @@ Syskit Point **does not read or save** the content of messages to detect Microso
 
 **The following permission is added to the existing Syskit Point app registration**:
 
-<table><thead><tr><th>App Registration</th><th width="210">API/Permissions Name</th><th width="115">Permission</th><th width="104">Type</th><th>Reason</th></tr></thead><tbody><tr><td>Syskit Point Client</td><td>PowerApps Service/User</td><td>Access the PowerApps Service API</td><td>Delegated</td><td>Allows you to run Power Platform actions in Syskit Point.</td></tr></tbody></table>
+<table><thead><tr><th>App Registration</th><th width="210">API/Permissions Name</th><th width="115">Permission</th><th width="104">Type</th><th>Reason</th></tr></thead><tbody><tr><td>Syskit Point Client</td><td>PowerApps Service/User</td><td>Access the PowerApps Service API</td><td>Delegated</td><td>Allows you to run Power Platform actions in Syskit Point.</td></tr>
+</tbody></table>
 
 ### Syskit Point Cloud 2025.1.77
 
