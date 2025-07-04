@@ -75,18 +75,13 @@ Syskit Point **does not read or save** the content of messages to detect Microso
 
 {% hint style="warning" %}
 **Syskit Point will require reconsent only if you enabled Power Platform data collection in one of the previous versions.**\
-**New permissions are added for the app registration after reconsenting if the Power Platform data collection is enabled.**
+**New permission is added for the app registration after reconsenting if the Power Platform data collection is enabled.**
 {% endhint %}
 
 **The following permissions are added to the existing Syskit Point app registration**:
 
 <table><thead><tr><th>App Registration</th><th width="210">API/Permissions Name</th><th width="115">Permission</th><th width="104">Type</th><th>Reason</th></tr></thead><tbody><tr><td>Syskit Point Client</td><td>PowerApps Service/User</td><td>Access the PowerApps Service API</td><td>Delegated</td><td>Allows you to run Power Platform actions in Syskit Point.</td></tr>
-<tr><td>Syskit Point Client enterprise app</td><td>Graph/Application.ReadWrite.All</td><td>Read and write all applications</td><td>Delegated</td><td>Enables Syskit Point to update the Syskit Point Client app registration on behalf of the signed-in user.</td></tr></tbody></table>
-
-{% hint style="warning" %}
-**Please note!**
-The Application.ReadWrite.All permission is used only once to update the Syskit Point Client app registration with the required PowerApps Service/User permission. After the permission is added, you can remove the Application.ReadWrite.All permission from the Syskit Point Client enterprise app.
-{% endhint %}
+</tbody></table>
 
 ### Syskit Point Cloud 2025.1.77
 
