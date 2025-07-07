@@ -77,6 +77,7 @@
     * [May 16, 2023](releases/cloud/point-2023-2-release-note.md)
   * [Syskit Point Data Center](releases/data-center/README.md)
     * [Syskit Point 2025.3](releases/data-center/syskit-point-2025-3/README.md)
+      * [Syskit Point 2025.3.99](releases/data-center/syskit-point-2025-3/point-2025-3-99-release-note.md)
       * [Syskit Point 2025.3.97](releases/data-center/syskit-point-2025-3/point-2025-3-97-release-note.md)
       * [Syskit Point 2025.3.95](releases/data-center/syskit-point-2025-3/point-2025-3-95-release-note.md)
       * [Syskit Point 2025.3.93](releases/data-center/syskit-point-2025-3/point-2025-3-93-release-note.md)
