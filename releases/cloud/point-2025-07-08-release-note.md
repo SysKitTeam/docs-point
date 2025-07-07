@@ -19,6 +19,8 @@ description: This article lists improvements and bug fixes in the Syskit Point C
   * **SharePoint Agent details screen** in the General Info tile.
   * **Note that syncing the workspace is required to collect the Created By and Modified By data for SharePoint Agents.**
 
+* **Added support for multi-geo environments** when using the **Clean Up File Versions** action for storage.
+
 * **Improved the performance** of the Teams & Groups overview screen when filtering by Sensitivity labels.
 
 * **Fixed an issue** where the PowerBI sync would result in the following error: 
