@@ -64,11 +64,6 @@ Once you detect the largest sites with the help of the Storage Metrics report, y
 
 ![Storage Metrics Report in Point](../.gitbook/assets/optimize-storage-storage-metrics-report-point.png)
 
-{% hint style="information" %}
-
-**Please note**: the Cleanup File Versions action cannot be fully completed across all locations, so it is currently unavailable for multi-geo.
-
-{% endhint %}
 
 Along with the Storage Metrics report, you can access the following Storage reports:
 * [Site Storage Metrics](../storage-management/storage-reports.md#site-storage-metrics); shows site storage usage over time, along with an overview of all files (and types of files) stored on the site and the option to clean up older file versions.
