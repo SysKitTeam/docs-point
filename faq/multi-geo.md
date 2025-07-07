@@ -19,5 +19,5 @@ There’s no need for additional configuration. Syskit Point will pull data from
 
 While most features work normally, some actions currently have limited functionality in multi-geo. 
 
-For example, the Cleanup File Versions and Remove Sharing Link actions cannot be fully completed across all locations at this time. 
+For example, the Remove Sharing Link action cannot be fully completed across all locations at this time. 
  
