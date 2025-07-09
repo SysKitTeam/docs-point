@@ -323,6 +323,7 @@
   * [Licensing](faq/licensing.md)
   * [Activation](faq/activation-faq.md)
   * [Purchasing and Discounts](faq/purchasing-and-discounts.md)
+  * [Audit Logs](faq/audit.md)
   * [Customer Terms](faq/customer-terms.md)
   * [Privacy and Compliance](faq/privacy-and-compliance.md)
   * [Partner Program](faq/partner-program.md)
