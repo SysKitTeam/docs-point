@@ -14,11 +14,6 @@ In Syskit Point, there are several ways you can free up space and complete the c
 
 ## Clean Up Action on Storage Metrics report
 
-{% hint style="information" %}
-
-**Please note**: the Cleanup File Versions action cannot be fully completed across all locations, so it is currently unavailable for multi-geo.
-
-{% endhint %}
 
 **The Storage Metrics report** is where you can complete a bulk clean up action. The report can be generated in the following way:
  
