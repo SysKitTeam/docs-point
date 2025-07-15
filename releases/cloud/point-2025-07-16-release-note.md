@@ -1,8 +1,8 @@
 ---
-description: This article lists improvements and bug fixes in the Syskit Point Cloud version 2025.3.100.1
+description: This article lists improvements and bug fixes in the Syskit Point Cloud version 2025.3.100.11
 ---
 
-# July 15, 2025
+# July 16, 2025
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think](https://www.syskit.com/company/contact-us/).
 
