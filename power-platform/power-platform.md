@@ -22,6 +22,11 @@ To enable the use of Power Platform for Syskit Point, [please contact us](https:
 
 ## Enable Power Platform Data Collection
 
+{% hint style="warning" %}
+**Please Note!** 
+Syskit Point currently doesn't support Power Platform data collection for GCC and GCC High tenants.
+{% endhint %}
+
 Configuring the Power Platform feature in Syskit Point starts the Power Platform data collection, which enables you to generate Power Platform reports for a detailed overview of your Power Platform resources.
 
 To enable the Power Platform data collection in Syskit Point, complete the following:
