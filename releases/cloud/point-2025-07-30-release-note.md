@@ -16,7 +16,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 
 * **Fixed an issue** that caused the drill down for security groups to be missing after performing the Change Owner actions.
-  * You can now drill into security groups correctly from both the Task Result and Action Log when a security group is set as the workspace owner.
+    * You can now drill into security groups correctly from both the Task Result and Action Log when a security group is set as the workspace owner.
 
 * **Fixed a bug** that caused the tooltips to appear empty when hovering over column headers in the Manually Apply Policies section.
 
