@@ -14,7 +14,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes 
 
-* **Fixed an issue** that caused the audit logs for some events to fail during Provisioning due to the following error: `Failed to process content blob
+* **Fixed an issue** that caused the audit logs for some events to fail due to the following error: `Failed to process content blob
 System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')`
 
 * **Fixed an issue** that made the Accept Risk and Undo Accept Risk actions unavailable under the Security Plan subscription.
