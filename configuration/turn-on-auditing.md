@@ -14,22 +14,22 @@ For Syskit Point to collect, process, and save audit logs, you must enable audit
 
 You can use the Syskit Point app, but audit data won't be collected.
 
-First, open the following URL: [https://security.microsoft.com/auditlogsearch](https://security.microsoft.com/auditlogsearch)
+First, open the following URL: [https://security.microsoft.com/auditlogsearch](https://purview.microsoft.com/audit/auditsearch)
 
-The Microsoft 365 Security Center opens, showing the Audit log search page. At the top of the screen, a blue button is available to turn on auditing.
+The Microsoft Purview portal opens, showing the Audit log search page. At the top of the screen, a blue button is available to turn on auditing.
 
-![Microsoft 365 Security Center - Start recording user and admin activity](../.gitbook/assets/turn-on-auditing-audit-log-search-screen.png)
+![Microsoft Purview - Start recording user and admin activity](../.gitbook/assets/turn-on-auditing-audit-log-search-screen.png)
 
 After you click the button, a security dialog appears. Click Yes to continue.
 
-![Microsoft 365 Security Center - Security dialog](../.gitbook/assets/turn-on-auditing-security-dialog.png)
+![Microsoft Purview - Security dialog](../.gitbook/assets/turn-on-auditing-security-dialog.png)
 
 After you complete the steps described, wait for audit logs to show on the Audit Log Search page.
 
 {% hint style="warning" %}
 **Please note!**  
 When you initially connect your tenant to Syskit Point, **Syskit Point collects audit logs no more than 7 days in the past**; this is a technical limit of the Office 365 Management API utilized in the audit log collection process.
-Syskit Point will not collect audit log data before it becomes available in the Microsoft 365 Security Center. **It can take up to 24 hours for audit log data to become available.**
+Syskit Point will not collect audit log data before it becomes available in the Microsoft Purview portal. **It can take up to 24 hours for audit log data to become available.**
 {% endhint %}
 
 {% hint style="info" %}
