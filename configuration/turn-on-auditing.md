@@ -14,7 +14,7 @@ For Syskit Point to collect, process, and save audit logs, you must enable audit
 
 You can use the Syskit Point app, but audit data won't be collected.
 
-First, open the following URL: [https://security.microsoft.com/auditlogsearch](https://security.microsoft.com/auditlogsearch)
+First, open the following URL: [https://security.microsoft.com/auditlogsearch](https://purview.microsoft.com/audit/auditsearch)
 
 The Microsoft Purview portal opens, showing the Audit log search page. At the top of the screen, a blue button is available to turn on auditing.
 
@@ -22,7 +22,7 @@ The Microsoft Purview portal opens, showing the Audit log search page. At the to
 
 After you click the button, a security dialog appears. Click Yes to continue.
 
-![MMicrosoft Purview - Security dialog](../.gitbook/assets/turn-on-auditing-security-dialog.png)
+![Microsoft Purview - Security dialog](../.gitbook/assets/turn-on-auditing-security-dialog.png)
 
 After you complete the steps described, wait for audit logs to show on the Audit Log Search page.
 
