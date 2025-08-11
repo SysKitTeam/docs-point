@@ -1,5 +1,5 @@
 ---
-description: This article lists improvements and bug fixes in the Syskit Point Cloud version 2025.4.104.1
+description: This article lists improvements and bug fixes in the Syskit Point Cloud version 2025.4.104.2
 ---
 
 # August 12, 2025
@@ -14,8 +14,8 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes 
 
-* **Fixed an issue** that caused the audit logs for some events to fail due to the following error: `Failed to process content blob
-System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')`
+* **Fixed an issue** that caused storing audit logs for some Power BI-related events to fail due to the following error: `Failed to process content blob
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.`
 
 * **Fixed an issue** that made the Accept Risk and Undo Accept Risk actions unavailable under the Security Plan subscription.
 
