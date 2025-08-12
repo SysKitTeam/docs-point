@@ -32,3 +32,12 @@ Once you've selected the one that best suits your needs for this policy, **click
 ![Private Workspaces Shared with Everyone - Severity](../../.gitbook/assets/private-workspaces-shared-with-everyone-severity.png)
 
 For more information on how to resolve the vulnerability in Syskit Point, read the [following article](../security-compliance-checks/private-workspaces-shared-with-everyone.md).
+
+{% hint style="Information" %}
+**Please note**, this policy can be applied to the following workspaces:
+* **Microsoft Teams**
+* **Microsoft 365 Group**
+* **Yammer Group**
+* **SharePoint Site**
+
+{% endhint %}
