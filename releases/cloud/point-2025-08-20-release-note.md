@@ -1,5 +1,5 @@
 ---
-description: This article lists improvements and bug fixes in the Syskit Point Cloud version 2025.4.105.1
+description: This article lists improvements and bug fixes in the Syskit Point Cloud version 2025.4.105.20
 ---
 
 # August 20, 2025
