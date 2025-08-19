@@ -14,12 +14,9 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes 
 
-* **Fixed an issue** where completing the Ask Members action caused Syskit Point to crash if the workspace for which the action was performed had no members. 
+* **Fixed an issue** where completing the Ask Members action could cause Syskit Point to crash if the workspace for which the action was performed had no members. 
 
-* **Fixed an issue** that caused some Sensitivity Review tasks to be generated incorrectly due to the following error: `System.NullReferenceException: Object reference not set to an instance of an object.
-at SysKit.Point.Reports.Reviews.ReviewReportBase`1.loadAdditionalData()`
-
-* **Fixed a bug** that caused issues when exporting PDF reports for workspaces. 
+* **Fixed an issue** that caused some Sensitivity Review tasks to be generated incorrectly, which resulted in an error when trying to resolve the review task.
 
 * **Various improvements, including UX and UI fixes, are available.**
 
