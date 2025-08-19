@@ -37,7 +37,6 @@ For more information on how to resolve the vulnerability in Syskit Point, read t
 **Please note**, this policy can be applied to the following workspaces:
 * **Microsoft Teams**
 * **Microsoft 365 Group**
-* **Yammer Group**
 * **SharePoint Site**
 
 {% endhint %}
