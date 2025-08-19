@@ -67,7 +67,7 @@ For details on how collaborators can [**resolve Inactive Workspaces tasks**, nav
 **Please note**, this policy can be applied to the following workspaces:
 * **Microsoft Teams**
 * **Microsoft 365 Group**
-* **Yammer Group**
+* **Yammer Community**
 * **SharePoint Site**
 
 {% endhint %}

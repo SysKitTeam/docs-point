@@ -40,6 +40,6 @@ For details on how collaborators can [**resolve Orphanes Workspaces policy vulne
 **Please note**, this policy can be applied to the following workspaces:
 * **Microsoft Teams**
 * **Microsoft 365 Group**
-* **Yammer Group**
+* **Yammer Community**
 
 {% endhint %}
