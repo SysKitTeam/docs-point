@@ -35,3 +35,11 @@ If 1 owner is assigned to a workspace when resolving the Orphaned Workspaces vul
 {% endhint %}
 
 For details on how collaborators can [**resolve Orphanes Workspaces policy vulnerability tasks**, navigate to the following article](../../point-collaborators/resolve-governance-tasks/orphaned-resources.md).
+
+{% hint style="Information" %}
+**Please note**, this policy can be applied to the following workspaces:
+* **Microsoft Teams**
+* **Microsoft 365 Group**
+* **Yammer Community**
+
+{% endhint %}

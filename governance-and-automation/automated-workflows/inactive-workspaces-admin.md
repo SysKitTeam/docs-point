@@ -63,6 +63,15 @@ The **Edit Policy** dialog opens where you can:
 
 For details on how collaborators can [**resolve Inactive Workspaces tasks**, navigate to the following article](../../point-collaborators/resolve-governance-tasks/inactive-workspaces.md).
 
+{% hint style="Information" %}
+**Please note**, this policy can be applied to the following workspaces:
+* **Microsoft Teams**
+* **Microsoft 365 Group**
+* **Yammer Community**
+* **SharePoint Site**
+
+{% endhint %}
+
 
 ## SharePoint Site Archival Options
 
