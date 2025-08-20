@@ -1,5 +1,5 @@
 ---
-description: This article explains how the content and structure aspect of Provisioning works.
+description: This article explains how the content and structure aspects of Provisioning work.
 ---
 
 # Content & Structure
@@ -14,7 +14,7 @@ The options you have are the following:
 
 * **Use existing Microsoft Teams template (2)**
   * This option is **only available** when provisioning **Microsoft Teams**.
-  * After selecting this option, you need to enter Microsoft template ID for an existing template.
+  * After selecting this option, you need to enter the Microsoft template ID for an existing template.
   * Syskit Point integrates with team templates you have created in the **Microsoft 365 Teams admin center**. 
   * When you enter a team template ID, Syskit Point creates predefined apps, channels, and tabs for the new workspaces that use the template.
 
@@ -24,7 +24,7 @@ The options you have are the following:
   * You can also select whether to **check the Copy team SharePoint site (4)** checkbox
     * This checkbox is **only available for Microsoft Teams**.
     * If the check is marked, you can also select whether to:
-      * Copy structure - this copies only the structure of the workspace but not the content
+      * Copy structure - this copies only the structure of the workspace, but not the content
       * Copy structure and content - this copies both the structure of the workspace and the content within the workspace
 
 ![Provisioning - Content & Structure](../../.gitbook/assets/provisioning-content-and-structure-section.png)
