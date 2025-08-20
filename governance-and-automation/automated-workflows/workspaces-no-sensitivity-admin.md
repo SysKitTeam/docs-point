@@ -25,3 +25,12 @@ Once you've selected the one that best suits your needs for this policy, **click
 
 
 ![Workspaces Without a Sensitivity Label - Severity](../../.gitbook/assets/workspaces-without-sensitivity-severity.png)
+
+{% hint style="Information" %}
+**Please note**, this policy can be applied to the following workspaces:
+* **Microsoft Teams**
+* **Microsoft 365 Group**
+* **Yammer Community**
+* **SharePoint Site**
+
+{% endhint %}

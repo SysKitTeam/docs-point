@@ -30,3 +30,12 @@ Once you've selected the one that best suits your needs for this policy, **click
 
 
 ![Workspaces with Too Many Members - Selection](../../.gitbook/assets/workspaces-with-too-many-members-selection.png)
+
+{% hint style="Information" %}
+**Please note**, this policy can be applied to the following workspaces:
+* **Microsoft Teams**
+* **Microsoft 365 Group**
+* **Yammer Community**
+* **SharePoint Site**
+
+{% endhint %}
