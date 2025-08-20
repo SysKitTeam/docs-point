@@ -53,7 +53,9 @@ When deciding which option to select from the three available, it helps to know 
 
 | Objects to Copy | From Scratch | Use Microsoft Teams template | Copy from existing team | Copy Team SharePoint Site - Structure | Copy Team SharePoint Site - Structure & Content |
 | --- | --- | --- | --- | --- | --- |
-| Channels (& Channel Folders)| No | Yes | Yes | Yes | Yes |
+| Standard Channels (& Channel Folders)| No | Yes | Yes | Yes | Yes |
+| Private Channels | No | Copied as standard channel | Yes | Yes | Yes |
+| Shared Channels | No | Copied as standard channel | Copied as standard channel | Copied as standard channel | Copied as standard channel |
 | Apps | No | Yes | Yes | Yes | Yes |
 | Tabs | No | Yes | Yes | Yes | Yes |
 | Site Theme |No | No | No | Yes | Yes |
@@ -68,10 +70,12 @@ When deciding which option to select from the three available, it helps to know 
 {% hint style="information" %}
 
 **Please note** that: 
+* **When copying Teams with Private Channels, owners of the provisioned Teams are set as Private Channel owners as well**
 * **Channels & channel folders are provisioned by Microsoft** 365 and visible only after the first post is made and by **navigating to the Files tab** in the Teams app
 * When copying files, **up to 20 files can be copied** 
   * If **more than 20 files are detected**, they are **not copied and the Admin receives an email** stating that the Content will not be applied
   * Default & custom file templates are not counted toward the 20-file copy limit
+  * Private & Shared channel files are not copied
 
 {% endhint %}
 
