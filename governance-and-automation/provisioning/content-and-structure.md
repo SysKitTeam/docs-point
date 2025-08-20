@@ -85,7 +85,7 @@ The following is **NOT copied or supported**:
 * **Footer**
 * **Folder color**
 * **OneNote**
-* **Files with double space characters in their file name**
+* **Files with double space characters in the file name**
 {% endhint %}
 
 
