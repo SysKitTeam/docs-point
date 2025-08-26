@@ -15,41 +15,11 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 ## Improvements & Bug Fixes 
 
 
-* **Fixed an issue** that caused colla
-Kolaborator je dobio task koji se odnosi na inactive guest users. Kada pokuša obrisati usera -> akcija padne s greškom "Error while deleting user. Insufficient privileges to complete the operation".
-Customer setup: 
-In our M365 tenant, the users do not have the right to create a guest user.
-They have to create a support ticket, so the admin team can create a guest user, and user that asked for the creation is set as the guest’s manager.
-So he received the mail, as the guest user manager
-Analiza je pokazala da imamo bug nastao prilikom zadnjeg refaktora (micanje managera). Izgleda kao da nemamo ispravnu implementaciju  metode:
-Fix Result: Will correctly elevate permissions when needed to remove inactive guest users from tenant.
+* **Fixed an issue** that caused an error when collaborators tried to remove inactive guest users while resolving a task.
 
+* **Fixed a bug** that caused incorrect values for the Last Activity date column in the Sites Overview report. 
 
-
-
-problem: Fallback value of LastActivityOn column in ConnectedSiteCollectionsTable
-Asics kaze ovako:
-we started with cleanup of inactive sites in our tenant and need some clarity on one point
-the last activity date in Syskit is not matching what we have in MS SharePoint admin center, one example -
-Fix Result: Different fallback value is now used for the initial activity of the site
-
-
-
-
-Problem: Max Owners Policy - change owners ne radi ništa
-U userActionPermissionResult se neispravno punio resurs IDem policya umjesto policy violation IDem .
-Steps to reproduce
-dodaj vise od 5 ljudi da budu owneri
-jedan od tih ownera nek bude i primary admin
-okini job da dobijes violation i task
-ulogiraj se sa collaborator accountom
-otvori task i probaj maknut sve osim sebe (ukljucujuci lika koji je primary admin)
-Expected result
-Akcija prolazi i owneri se mijenjaju u membere
-Actual result
-ekran se samo refresha i ništa se ne dogodi
-FIX RESULT: Fixed so that the Change Owners action for the min/max policy correctly determines which sites are eligible for the action.
-
+* **Fixed an issue** where the Change Owners action did not execute correctly when resolving a Maximum Number of Owners policy task. 
 
 * **Various improvements, including UX and UI fixes, are available.**
 
