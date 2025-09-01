@@ -89,8 +89,8 @@ Once the report is successfully generated, the following data will be displayed 
 There are also additional columns in the column chooser:
 
 * **Detected**; shows when the Orphaned Workspaces policy vulnerability was detected
-* **Site Type**; defines the workspace, whether it was a SharePoint Site, Microsoft Team, or Microsoft 365 Group
-* **URL**; direct link to the selected workspace on the Microsoft 365 tenant.
+* **Status**; shows whether a policy vulnerability was detected and the current status of the task
+* **Assigned To**; shows who the task is assigned to
 
 Selecting one or multiple workspaces on the report lets you perform the following actions:
 * **Add owners** - clicking this opens the confirmation modal where you can add new users as owners for the workspace
