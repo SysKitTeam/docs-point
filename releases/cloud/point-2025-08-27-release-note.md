@@ -14,10 +14,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes 
 
-
 * **Fixed an issue** that caused an error when collaborators tried to remove inactive guest users while resolving a task.
-
-* **Fixed a bug** that caused incorrect values for the Last Activity date column in the Sites Overview report. 
 
 * **Fixed an issue** where the Change Owners action did not execute correctly when resolving a Maximum Number of Owners policy task. 
 
