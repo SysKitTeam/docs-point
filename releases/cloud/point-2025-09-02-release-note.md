@@ -14,12 +14,11 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes 
 
-
 * **Improvements were made to the Orphaned Workspaces policy.**
   * **The default Orphaned Workspaces policy** will automatically apply to SharePoint Sites after the next Auto Discover sync.
   * **The user-defined Orphaned Workspaces policy** can also be applied to SharePoint Sites by setting up rules or manually applying the policy to specific sites. 
   * **The [Orphaned Workspaces report](../../reporting/cleanup-and-health-reports.md#orphaned-workspaces)** has been modified to reflect the updated policy.
-  * [For more details on the Orphaned Workspaces policy, read this article.](../../governance-and-automation/automated-workflows/maximum-number-of-owners-admin.md)
+  * [For more details on the Orphaned Workspaces policy, read this article.](../../governance-and-automation/automated-workflows/orphaned-resources-admin.md)
 
 * **Fixed an issue** that prevented a workspace member who is also the Manager of an inactive guest user from successfully resolving the Inactive Guest Users tasks.
 
