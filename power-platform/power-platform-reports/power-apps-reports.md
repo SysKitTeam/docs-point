@@ -33,7 +33,6 @@ Solutions, Model-driven apps, and Desktop flows are not supported.
 {% endhint %}
 
 
-
 ## Power Apps Inventory Report
 
 The Power Apps Inventory report gives a complete overview of all your Power Apps across every environment.
@@ -44,8 +43,7 @@ The Power Apps Inventory report gives a complete overview of all your Power Apps
 * **Select the Power Platform category in the filter** in the upper left corner.
 * **Click the Power Apps Inventory report tile** to be redirected to the Selection screen.
 
-
-When generating the Power Apps Inventory report, the first step is the **selection screen** which opens the [Power Platform Environments report](power-platform-environments-reports.md). This step allows you to **select which environments you want included** in the report.
+When generating the Power Apps Inventory report, the first step is the **selection screen** which opens as a list of available [Power Platform Environments](power-platform-environments-reports.md). This step allows you to **select which environments you want included** in the report.
 
 * **Selecting one or more environments** provides the **Run Report button**. This generates the **Power Apps Inventory report** for the selected environments. 
 
