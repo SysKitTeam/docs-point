@@ -9,6 +9,8 @@ description: Power Platform Environments reports provide insight into the state 
 
 To enable the use of Power Platform for Syskit Point, [please contact us](https://www.syskit.com/contact-us-power-platform/).
 
+{% endhint %}
+
 The Power Platform Environments report provides a complete overview of your Power Platform environments and gives summarized data about their users and content. 
 
 ## Generate Report
