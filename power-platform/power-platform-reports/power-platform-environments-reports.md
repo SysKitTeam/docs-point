@@ -13,13 +13,13 @@ To enable the use of Power Platform for Syskit Point, [please contact us](https:
 
 The Power Platform Environments report provides a complete overview of your Power Platform environments and gives summarized data about their users and content. 
 
-## Generate Report
+## Step 1: Generate Report
 
 * **Click the Reports button** located on the left side of the screen.
 * **Select the Power Platform category in the filter** in the upper left corner.
 * **Click the Power Platform Environments report tile** to be redirected to the Selection screen.
 
-## Report Data
+## Step 2: Report Data
 
 On the **Power Platform Environments** report, the default columns displayed are:
       
