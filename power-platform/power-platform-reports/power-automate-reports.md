@@ -100,7 +100,7 @@ The additional columns available in the **column chooser**, located in the top r
 
 The Power Automate Permissions report gives insight into the permissions granted to Power Automate Flows.
 
-### Generate Report
+### Step 1: Generate Report
 
 * **Click the Reports button** on the screen's left side.
 * **Select the Power Platform category in the filter** in the upper left corner.
