@@ -28,7 +28,7 @@ The Power BI Workspaces report gives insight into the Power BI workspaces inside
 * **Select the Power BI category in the filter** you can find in the upper left corner.
 * **Click the Power BI Workspaces report tile** to be redirected to the Selection screen.
 
-### Report Data
+### Step 2: Report Data
 
 The default columns displayed in the report are:
       
