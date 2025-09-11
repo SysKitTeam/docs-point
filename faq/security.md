@@ -9,7 +9,7 @@ Syskit Point uses two types of Azure resources to store data:
 
 **Azure SQL** provides automated backups which use integrated SQL Transparent Data Encryption. These backups are retained for 7 days. With these backups, Azure SQL Database supports Point in Time Restore, which allows a database to be restored to any point in time, up to the millisecond, within a database’s retention period.
 
-**Azure Cosmos DB** automatically takes a full backup of your data every 4 hours, and at any point in time, the latest two backups are stored. This configuration is the default option, and it is offered without any extra cost. You can change the default backup interval in the Azure Portal. 
+**Azure Cosmos DB** is set to Continuous (7-day) backup policy mode. The Continuous backup policy mode enables point-in-time restore and self-service restore (without the need to contact Microsoft support). This configuration is the default option for new Data Center deployments from [July 15, 2025 onwards](../releases/data-center/syskit-point-2025-3/point-2025-3-99-release-note.md#improvements--bug-fixes), and it is offered without any extra cost. Existing Data Center customers can change the default backup interval in the Azure Portal.
 
 ## How is data at rest encrypted?
 

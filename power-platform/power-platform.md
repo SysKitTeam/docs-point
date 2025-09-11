@@ -22,6 +22,11 @@ To enable the use of Power Platform for Syskit Point, [please contact us](https:
 
 ## Enable Power Platform Data Collection
 
+{% hint style="warning" %}
+**Please Note!** 
+Syskit Point currently doesn't support Power Platform data collection for GCC and GCC High tenants.
+{% endhint %}
+
 Configuring the Power Platform feature in Syskit Point starts the Power Platform data collection, which enables you to generate Power Platform reports for a detailed overview of your Power Platform resources.
 
 To enable the Power Platform data collection in Syskit Point, complete the following:
@@ -65,16 +70,16 @@ To stop the Power Platform data collection, uncheck the Collect Power Apps and P
 
 ## Configure Reporting Limits
 
-After enabling the Power Platform data collection, additional settings are displayed, which affect the Power Platform reports and dashboard tile.
+After **enabling the Power Platform data collection (1)**, additional settings are displayed, which affect the Power Platform reports and dashboard tile.
 
-* You can set **Reporting Limits (1)** for how long environments, flows, or apps must be inactive before being flagged as such in the reports. The following can be set:
+* You can set **Reporting Limits (2)** for how long environments, flows, or apps must be inactive before being flagged as such in the reports. The following can be set:
   * Inactive environments that don't have any activities in the last XX days
   * Inactive flows that haven't been run in the last XX days
   * Inactive apps that haven't been launched in the last XX days
-* **Enter the number of days (2)** in the designated space
+* **Enter the number of days (3)** in the designated space
   * The number of days selected here is **reflected when showing data on the Power Platform reports** and the Power Platform **Dashboard tile**
   * The default/minimum number of days set as the inactivity period is 30 days
-* **Click Save (3)** to store your preferences
+* **Click Save (4)** to store your preferences
 
 ![Power Apps and Power Automate](../.gitbook/assets/power-platform-power-point-reports.png)
  

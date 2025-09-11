@@ -6,8 +6,8 @@ description: Power BI reports provide insight into the state of your Power BI wo
 
 This article contains information on three Power BI reports available through the **Report Center**:
 
-* [Power BI Inventory Report](#power-bi-inventory-report)
 * [Power BI Workspaces Report](#power-bi-workspaces-report)
+* [Power BI Inventory Report](#power-bi-inventory-report)
 * [Power BI Permissions Report](#power-bi-permissions-report)
 
 
@@ -17,26 +17,66 @@ This article contains information on three Power BI reports available through th
 For more details, please feel free to [contact us](https://www.syskit.com/contact-us-power-platform/).
 {% endhint %}
 
+
+## Power BI Workspaces Report
+
+The Power BI Workspaces report gives insight into the Power BI workspaces inside of your environment.
+
+### Step 1: Generate Report
+
+* **Click the Reports button**; located on the left side of the screen.
+* **Select the Power BI category in the filter** you can find in the upper left corner.
+* **Click the Power BI Workspaces report tile** to be redirected to the Selection screen.
+
+### Step 2: Report Data
+
+The default columns displayed in the report are:
+      
+* **Workspace** is the name of the Power BI Workspace
+* **Type** shows the type of workspace it is
+* **Status** shows the current state of the workspace
+* **Owners** shows the number of owners for the workspace
+* **Members** shows the number of members in the workspace
+* **Dashboards** shows the number of dashboards in the workspace
+* **Reports** shows the number of reports for the workspace
+* **Datasets** shows the number of datasets for the workspace
+* **Dataflows** shows the number of dataflows for the workspace
+      
+The additional columns available in the **column chooser**, located in the top right corner of the report, are:
+      
+* **Workspace Guid**
+* **Contributors**
+* **Viewers**
+* **External Users**
+
+Selecting a **Power BI Workspaces**, provides the option to generate the following related reports: 
+* Power BI Inventory
+* Power BI Permissions
+
+The Power BI Workspaces overview report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+
+
 ## Power BI Inventory Report
 
 The Power BI Inventory reports give insight into the Power BI workspaces inside of your environment and the dashboards, datasets, dataflows, and reports within the workspaces.
 
 It allows you to view the Power BI resources based on their classification and see which resource is located under which workspace.
 
-### Generate Report
+### Step 1: Generate Report
 
- * **Click the Reports button**; located on the left side of the screen.
+* **Click the Reports button**; located on the left side of the screen.
 * **Select the Power BI category in the filter** you can find in the upper left corner.
 * **Click the Power BI Inventory report tile** to be redirected to the Selection screen.
 
-After clicking the **Power BI Inventory** report tile, the Selection step opens where you can:
+When generating the Power BI Inventory report, the first step is the **selection screen** which opens as a list of available Power BI Workspaces. This step allows you to **select which Power BI workspaces you want included** in the report.
+
 * **Select the workspaces** for which the report should be generated.
    * Click the checkboxes on the screen's left side to select one or more workspaces. 
 * **Select the resource types** that should be included in the report.
   * The choice includes dashboards, datasets, dataflows, and reports.
 * **Click the Run Report button** once the selected parameters have been set.
 
-### Report Data
+### Step 2: Report Data
 
 The default columns displayed in the report are:
       
@@ -56,43 +96,25 @@ The additional columns available in the **column chooser**, located in the top r
 
 The Power BI Inventory report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
-
-## Power BI Workspaces Report
-
-The Power BI Workspaces report gives insight into the Power BI workspaces inside of your environment.
-
-### Generate Report
-
- * **Click the Reports button**; located on the left side of the screen.
-* **Select the Power BI category in the filter** you can find in the upper left corner.
-* **Click the Power BI Workspaces report tile** to be redirected to the Selection screen.
-
-After clicking the **Power BI Workspaces** report tile, the Selection step opens where you can:
-* **Selecting a workspace** will provide the option to generate the following related reports: 
-   * Power BI Inventory
-   * Power BI Permissions
-
-The Power BI Workspaces overview report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
-
-
 ## Power BI Permissions Report
 
 The Power BI Permissions report gives insight into the permissions given within the Power BI resources inside your environment, such as dashboards, datasets, dataflows, and reports. 
 
-### Generate Report
+### Step 1: Generate Report
 
  * **Click the Reports button**; located on the left side of the screen.
 * **Select the Power BI category in the filter** you can find in the upper left corner.
 * **Click the Power BI Permissions report tile** to be redirected to the Selection screen.
 
-After clicking the **Power BI Permissions** report tile, the Selection step opens where you can:
+When generating the Power BI Permissions report, the first step is the **selection screen** which opens as a list of available Power BI Workspaces. This step allows you to **select which Power BI workspaces you want included** in the report.
+
 * **Select the workspaces** for which the report should be generated.
    * Click the checkboxes on the screen's left side to select one or more workspaces. 
 * **Select the resource types** that should be included in the report.
   * The choice includes dashboards, datasets, dataflows, and reports.
 * **Click the Run Report button** once the selected parameters have been set.
 
-### Report Data
+### Step 2: Report Data
 
 The default columns displayed in the report are:
       
