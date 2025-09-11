@@ -1,10 +1,8 @@
 ---
-description: >-
- This article explains how to create and apply Storage Versioning Limits in
- Syskit Point.
+description:  This article explains how to create and apply Storage Versioning Limits in Syskit Point.
 ---
 
-# Storage Versioning Limits
+# Storage Versioning Limits 
 
 Having to manually keep up with file versions in your workspaces can be unnecessarily time-consuming. Now, you can **set up versioning limits for your storage**, and automate actions based on the limit settings.
 
@@ -27,7 +25,7 @@ There are three default limits set up:
 * **Automatic (Default Limit) (3)** - automatically applies optimal storage of versions based on their age and probability of getting restored
 * **Inherit Tenant (Default Limit) (4)** - inherits global tenant limit
   * The Automatic and Inherit Tenant limits cannot be edited.
-* **Manual (Default Limit) (5)** - Manual cleanup that runs daily with 100 count limit and 180 day(s) time limit
+* **Manual (Default Limit) (5)** - Manual cleanup that runs daily with a 100 count limit and 180 day time limit
   * The Manual limit can be **edited (6)** to adjust the count and time limits based on your personal preferences.
 
 To create a new storage versioning limit, click the **Create New Limit (6)** button.
@@ -49,12 +47,12 @@ The Create New Manual Storage Limit pop-up opens. There, you can select:
 {% hint style="info" %}
 **Please note** the following:
 
-* If **Count Limit is selected**, after the versions surpass the set number, they are automatically deleted from older to newest. (ex. if 100 versions are selected for the count limit, then after the 101 version is created, the older version is deleted)  
+* If **Count Limit is selected**, after the versions surpass the set number, they are automatically deleted from older to newest. (ex. if 100 versions are selected for the count limit, then after the 101 version is created, the older version is deleted).
 
-* If **Time Limit is selected**, versions older than the set period will automatically be deleted. (ex. If 30 days are set as the time limit, then versions older than 30 days are deleted)  
+* If **Time Limit is selected**, versions older than the set period will automatically be deleted. (ex. If 30 days are set as the time limit, then versions older than 30 days are deleted).  
 
-* If both Count Limit and Time Limit are selected, then both are taken into account for version limits. For example, with a 100 count limit and 30 days time limit selected, the following happens: 
-  * All versions older than 30 days are deleted even if there are less than 100 versions.
+* If both Count Limit and Time Limit are selected, then both are taken into account for version limits. For example, with a 100-count limit and 30-day time limit selected, the following happens: 
+  * All versions older than 30 days are deleted even if there are fewer than 100 versions.
   * If 100 versions are reached before the 30-day time limit, the older versions are automatically deleted even though they are still within the time limit.
 
 * The new rule **will not affect any versions created before** the versioning limits are applied. 
@@ -81,7 +79,7 @@ Once you have created your storage versioning limits, **you can apply them manua
 
 ### **Manually Apply Limits**
 
-Selecting this opens the Storage Metrics report where you can:
+Selecting this opens the Storage Metrics report, where you can:
 
 * **Set Version Limit (Tenant-Wide)(1)** by clicking the button on the right side of the screen.
 * **Clicking Set Version** Limit opens the pop-up where you can set the file version limit on the whole tenant for new document libraries.
@@ -125,7 +123,7 @@ You can also decide whether you want to **clean up existing file versions (5)** 
 
 After manual versioning limits have been applied, they can still be removed from sites.
 
-To remove vesion limits, **open the Storage Metrics report**.
+To remove version limits, **open the Storage Metrics report**.
 
 * **Select one or more workspaces (1)** for which you want to remove the manually applied storage version limits.
 * On the right side of the screen, **click the arrow (2)** next to the Set Version Limit action.
@@ -135,3 +133,24 @@ To remove vesion limits, **open the Storage Metrics report**.
 ![Storage Versioning Limits - Remove Manually Applied Limits](../.gitbook/assets/storage-versioning-limits-remove-manually-applied.png)
 
 ![Storage Versioning Limits - Confirm Removal](../.gitbook/assets/storage-versioning-limits-remove-manually-applied-confirmation.png)
+
+## Manual Cleanup after Storage Versioning Limits
+
+In some instances, even after setting up storage versioning limits, you **might need to perform a manual storage cleanup**. 
+
+The **Storage Versioning Limits only apply to new file versions created after the policy is enabled**. Older file versions are not automatically deleted **unless a manual cleanup is performed first**. For example:
+
+* If you only set a **version count limit** (for example, keep 100 versions), and run the manual cleanup once **before** enabling the policy, the **manual cleanup removes all excess file versions** and from then on the **cleanup is handled automatically** for new versions
+
+* If you are using the version count limit in combination with the time limit, the feature **only applies the time-based deletion to versions created after the policy was set**, so versions that were not old enough at the time of the initial cleanup will not be deleted later, unless you repeat manual cleanup over time
+  * If you are using the **Time Limit**, we recommend **repeating manual cleanup periodically during the first year**.
+
+
+{% hint style="info" %}
+**Please note**: Even with storage cleanup automation turned on, you might notice that Potential Savings are still growing. This is expected due to:
+* **Some older file versions may remain if they were not manually deleted during the initial cleanup**
+* **There is a delay in storage sync, which can happen in large environments** which means that file versions that were already deleted in SharePoint could still appear in reports until the next sync is completed
+  * Depending on the size of the environment, the storage sync can take **up to a month**
+  * If you have a large tenant, you can use **on-demand sync to target specific environments or sites** instead of waiting for the full sync cycle to be completed
+
+{% endhint %}
