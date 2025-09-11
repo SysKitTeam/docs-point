@@ -24,7 +24,7 @@ Since each step is logged separately, you’ll usually see the following audit l
 
 These logs are expected and indicate that the task was performed with elevated rights and subsequently cleaned up.
 
-## Audit Log shows a “shared this file” entry when access is removed
+## Audit Logs show a “shared this file” entry when access is removed
 
 This is a known Microsoft behavior. Even when a sharing link is updated to remove user access, Microsoft may log this as User A shared this file with User B. 
 
