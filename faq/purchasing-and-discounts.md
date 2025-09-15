@@ -74,7 +74,7 @@ If you are not satisfied within 30 days, you can get a full refund. We do not wa
 
  * Monthly Subscriptions - Refunds for subscriptions are available within the first paid month after the trial period. 
  * Annual Subscriptions – Refunds for subscriptions are available within 30 days of payment for annual subscriptions.  
-* Syskit Point Data Center licenses can be refunded within 30 days of the original purchase. 
+* Syskit Point Enterprise licenses can be refunded within 30 days of the original purchase. 
 
 After these periods, we cannot offer refunds.  
 
