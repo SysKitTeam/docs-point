@@ -155,38 +155,48 @@ The Insights screen can be be **exported as PDF and XLSX files**.
 
 ## Workspace Review - Completion Summary
 
-When at least one workspace has their workspace review task completed, you can view the Actions Performed screen. Here's how you'll get a summary of your workspace reviews per workspace. 
+When at least one workspace has their workspace review task completed, you can view the **Actions Performed** screen. Here's how you'll **get a summary of your workspace reviews per workspace**. 
 
-On the Govern > Overview screen, scroll to the Workspaces Included section and from the left side filter select **Completed**. 
+On the **Govern > Overview screen**, scroll to the Workspaces Included section and from the left side filter select **Completed**. 
 
-On the Workspace Review Overview  - Summary report offers a complete overview of actions performed during an Access Review. To generate the report:
+This lists the workspaces for which the review was completed, and by clicking the **View Details button**, the Actions Performed screen opens for that workspace. 
 
-* **Open the Access Review screen**; you can open this screen for an active Access Review or a completed one
-* **Select one or more workspaces (1)** for which you want to see what was done during the Access Review
-* **Click the View Details link (2)**
+On the **Actions Performed** screen, the following is available:
+
+* **About This Workspace Review section** that contains information on:
+  * **Status** of the review 
+  * **Reviewed By** shows who reviewed the workspace and when
+  * **Workspace Name** shows the name of the workspace
+  * **URL** shows a clickable URL for the workspace
+  * **Comments** shows any comments left by reviewers while resolving the workspace review task for the workspace
+
+* **Actions Performed filter**, which lists all the actions performed on the workspace, along with the number of times it was performed
+  * Clicking on an action filters the actions report below to reflect only information for the action selected
+
+* **Actions Performed report** with the following columns:
+  * **Action** shows what action was performed
+  * **Performed By** shows who performed the action
+  * **Performed On** shows when the action was performed
+  * **Status** shows the status of the action, and whether it was performed successfully
+  * **Details** shows more details about the action performed
+
+* The additional columns available from the column chooser are:
+  * **Scope**
+  * **Execution End Time**
+  * **Name**
+  * **URL**
+  * **Error**
+
+* At the bottom, you can find information on who completed the review and when, along with a **Close button**. 
+  * Clicking on the Close button brings you back to the Workspace Review Overview screen. 
 
 ![Access Review - View Details](../../.gitbook/assets/monitor-access-review-view-details.png)
-
-The generated **Access Review - Summary** report shows the following information:
-
-* **Workspace Name (1)**
-* **Action (2)**
-* **URL - external link to the said workspace (3)**
-* **Who performed the action (4)**
-* **When the action was performed (5)**
-* **Action details (6)** that provides all information about performed actions
-* **Export button (7)** that generates an XLSX file with all data visible in the Syskit Point interface
-
-![Access Review - Summary report](../../.gitbook/assets/monitor-access-review-summary.png)
-
-With that, we finish the Access Review overview for Syskit Point Admin users.
-
 
 
 ## Workspace Review Completion
 
 
-INFO ABOUT HOW IT WORKS FOR WORKSPACE REVIEW
+INFO ABOUT HOW EMAILS WORK FOR WORKSPACE REVIEW
 
 The Access Review is automatically marked as completed ten days after the start. Syskit Point also sends summary emails regarding the completed review to all Syskit Point Admin users. The email contains the following information:
 
