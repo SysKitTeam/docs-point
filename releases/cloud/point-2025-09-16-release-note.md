@@ -24,6 +24,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Fixed an issue** that caused the number of owners and members to be incorrectly displayed in certain reports and tasks, such as the Too Many Members policy task and the Orphaned Workspaces report.
 
-* **Fixed a bug** with the Point Teams app, where workspace provisioning requests could be created despite not being compliant with the ownership policy constraints defined in the provisioning template. The validation now correctly prevents creating requests with insufficient or excessive owners defined, or with an undefined Primary admin.
+* **Fixed a bug** with the Point Teams app, where workspace provisioning requests could be created despite not being compliant with the ownership policy constraints defined in the provisioning template. 
+  * The validation now correctly prevents creating requests with insufficient or excessive owners defined, or with an undefined Primary admin.
 
 * **Various improvements, including UX and UI fixes, are available.**
