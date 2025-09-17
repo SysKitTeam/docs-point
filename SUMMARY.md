@@ -171,7 +171,7 @@
     * [Azure Networking](set-up-point-data-center/deployment/azure-networking.md)
   * [Activation](set-up-point-data-center/activation/README.md)
     * [Activate Syskit Point](set-up-point-data-center/activation/activate-syskit-point.md)
-    * [Free Trial Data Center](set-up-point-data-center/activation/free-trial-data-center.md)
+    * [Free Trial Enterprise](set-up-point-data-center/activation/free-trial-data-center.md)
 * [Licensing & Activation](licensing-activation/README.md)
   * [Licensed Users Count](licensing-activation/licensed-users-count.md)
   * [Activation Privacy Statement](licensing-activation/activation-privacy-statement.md)

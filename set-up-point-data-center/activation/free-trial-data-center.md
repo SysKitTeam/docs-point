@@ -22,14 +22,14 @@ To get the free trial:
 * [Activate free trial](activate-syskit-point.md) using the provided trial key
     * Try out Syskit Point Enterprise without limits for 21 days
 
-After the trial period, or within the 21 days of your trial, you can purchase the Data Center plan and enter the newly provided license key
+After the trial period, or within the 21 days of your trial, you can purchase the Enterprise plan and enter the newly provided license key
    * [Contact us](https://www.syskit.com/company/contact-us) to receive your activation key
 
 ## Free Trial Limits
 
 With the Syskit Point trial, you will receive **21 days of free usage of the Syskit Point Enterprise plan**. During that time, you can **explore everything Syskit Point offers and see what makes it the best governance and security software for Microsoft 365**. 
 
-The Data Center trial enables you to utilize all of the Syskit Point features while in the free trial; however, notice the following:
+The Enterprise trial enables you to utilize all of the Syskit Point features while in the free trial; however, notice the following:
 
 * **PDF exports will have a watermark** stating you exported the file during the Syskit Point Trial
 
