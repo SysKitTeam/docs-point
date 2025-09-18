@@ -193,63 +193,13 @@ On the **Actions Performed** screen, the following is available:
 ![Access Review - View Details](../../.gitbook/assets/monitor-access-review-view-details.png)
 
 
-## Workspace Review Completion
-
-
-INFO ABOUT HOW EMAILS WORK FOR WORKSPACE REVIEW
-
-The Access Review is automatically marked as completed ten days after the start. Syskit Point also sends summary emails regarding the completed review to all Syskit Point Admin users. The email contains the following information:
-
-* **Total number of workspaces per workspace type** for which the Access Review was completed
-* **Total number of workspaces** where Access Review was not completed
-* **View Uncompleted Tasks (1)** button 
-  * Clicking the button in the e-mail opens the Access Review report in Syskit Point, where you can see all workspaces in the completed Access Review
-  * Except via e-mail, you can find the completed Access Review by clicking the **Govern** button, located on the left side of the screen. 
-
-![Email - Access Review completed](../../.gitbook/assets/monitor-access-review-email-completed.png)
-
-To see the progress of an ongoing Access Review, click the **Scheduled Review (1)** button located under the Access Review section. 
-
-This screen contains information on:
-
-* **The percentage** of your environment that has been secured
-* **The date** when the active Access Review was started
-* **The remaining time** left to complete the Access review
-* **The last date** that the Access Review should be completed by
-* **The number of Access Reviews** completed compared t0 how many are left to complete
-
-You can also see an **overview of the workspaces and how many reviews per workspace were completed** out of how many are still left to complete. 
-
-**Click the See Review Details button (2)** to be redirected to the Access Review report.
-
-Here, you are able to:
-
-* **See that all tasks where the Access Review was not completed have the status set to Pending (1)**
-* **Select one or multiple workspaces (2)**
-* **Generate the** [**Access Review - Summary report**](monitor-permissions-review.md#access-review---summary) **(3)**
-
-Syskit Point changes the status automatically when the Access Review ends.
-
-![Access Review - Overdue tasks](../../.gitbook/assets/monitor-access-review-overdue.png)
-
-If you take a step back and look at the Governance screen, you can see the following:
-
-* **Scheduled Review (1)** category is displaying the **No active Access Review (2)** message
-* **History (3)** category has a new entry - **the completed Access review (4)**
-* **See Details (5)** button is visible on the completed Access Review tile
-
-The **See Details** button opens the **Access Review** report, already described in this section.
-
-![Governance - Scheduled Review category](../../.gitbook/assets/monitor-access-review-no-active.png)
-
-![Governance - History category](../../.gitbook/assets/monitor-access-review-history.png)
-
-For more information on the **Manually Requested Reviews category**, [read the following article](manually-request-permissions-review.md).
-
-
 ## Admin E-mails for Workspace Reviews
 
-Three workdays before the start of automated Workspace Review, Syskit Point Admin users receive a reminder email with the most important information about the upcoming Workspace Review:
+Syskit Point Admin users receive an e-mail before the very start of the review as a reminder, and at the end of the review, with a quick summary of reviews completed. 
+
+### Admin Reminder
+
+Three workdays before the start of automated Workspace Review, Syskit Point Admin receive a reminder email with the most important information about the upcoming Workspace Review:
 
 * **Start date** of the upcoming Workspace Review
 * **The number of workspaces** - Microsoft Teams, Microsoft 365 Groups, sites, and OneDrive - included in the upcoming Workspace Review
@@ -263,14 +213,23 @@ Three workdays before the start of automated Workspace Review, Syskit Point Admi
 To ensure that all sites have an owner responsible for the upcoming Workspace Review, set active users as site owners for all orphaned sites.
 {% endhint %}
 
+
+### Workspace Review Completion
+
+INFO ABOUT HOW EMAILS WORK FOR WORKSPACE REVIEW
+
 Once the entire Workspace Review is completed or the time frame for the Workspace Review resolution has passed, you receive a **Workspace Review Completion e-mail**. 
 
 In this email you can find a quick look into how many workspace review tasks were completed, and how many workspaces were reviewed. 
 
 The following information is provided:
-* Number of tasks resolved during the Workspace Review
+* **Total number of workspaces** for which the Workspace Review was completed
+* **Total number of workspaces** where Workspace Review was not completed
+* **View Details** button 
 * MORE INFO ONCE I GET TO SEE AND SCREENSHOT THE E-MAIL
 
 Clicking the **View Details** button takes you to the [Overview](#overview) screen, where you can find more details on each workspace and the actions that were completed during the review. 
 
+Other than via e-mail, you can find the completed Workspace Review by clicking the **Govern** button, located on the left side of the screen. 
 
+![Email - Access Review completed](../../.gitbook/assets/monitor-access-review-email-completeed.png)
