@@ -277,5 +277,5 @@ By default, the **app registration has no permissions added**.
 
 ## Related Topics
 
-* [System Requirements for Data Center](../set-up-point-data-center/deployment/system-requirements.md)
-* [Deploy Syskit Point for Data Center](../set-up-point-data-center/deployment/deploy-syskit-point.md)
+* [System Requirements for Point Enterprise](../set-up-point-data-center/deployment/system-requirements.md)
+* [Deploy Syskit Point for Point Enterprise](../set-up-point-data-center/deployment/deploy-syskit-point.md)

@@ -6,7 +6,7 @@ description: >-
 
 # Overview
 
-**Syskit Point** app can, apart from being used in software-as-a-service form, be deployed in your Azure subscription. The self-hosted deployment option described in this article is a requirement when using the Syskit Point Data Center plan, and requires a customized approach considering the number of users, sites, collected audit logs, and other variables from your environment.
+**Syskit Point** app can, apart from being used in software-as-a-service form, be deployed in your Azure subscription. The self-hosted deployment option described in this article is a requirement when using the Syskit Point Enterprise plan, and requires a customized approach considering the number of users, sites, collected audit logs, and other variables from your environment.
 
 After the deployment, the key Azure resources shown in the architecture diagram below will be created and ready to run Syskit Point.
 
