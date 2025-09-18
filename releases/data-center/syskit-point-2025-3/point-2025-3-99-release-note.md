@@ -36,14 +36,14 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 ## Improvements & Bug Fixes
 
-* **Changed the default Cosmos backup policy mode from Periodic to Continuous (7 days) for new Data Center deployments**. \
+* **Changed the default Cosmos backup policy mode from Periodic to Continuous (7 days) for new Enterprise deployments**. \
 This brings the following advantages:
   * 7 days of Cosmos backup for free
   * Point in time restore
   * Self-service restore (without the need to contact Microsoft support)
   * **Please note that a one-time charge occurs when restoring the Cosmos DB.**
     * [Find more information about the cost calculation in the following article.](https://learn.microsoft.com/en-us/azure/cosmos-db/continuous-backup-restore-introduction#continuous-backup-pricing)
-  * **This change doesn't affect existing Data Center customers**. Still, it is recommended to switch to the continuous backup policy mode due to the advantages listed above.
+  * **This change doesn't affect existing Enterprise customers**. Still, it is recommended to switch to the continuous backup policy mode due to the advantages listed above.
     * [For more information about the migration from periodic to continuous backup mode, please visit this link.](https://learn.microsoft.com/en-us/azure/cosmos-db/migrate-continuous-backup)
 
 * **Created By** and **Modified By** information for SharePoint Agents is now available in Syskit Point. You can find the information on the:

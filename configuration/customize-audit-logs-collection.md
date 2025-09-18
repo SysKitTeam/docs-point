@@ -136,7 +136,7 @@ To find the information on how long the Audit logs are stored for you:
 **Purchased audit logs storage period will be added to the default period of 1-year audit log storage**. For example, if you purchased 2 years of additional storage, your audit logs will be stored for 3 years.
 {% endhint %}
 
-### Point Data Center
+### Point Enterprise
 
 When audit log data retention is **enabled and set up, Syskit Point will delete audit logs** that are older than the specified timeframe. 
 

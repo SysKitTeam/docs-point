@@ -6,7 +6,7 @@ description: This article lists requirements to consider when deploying Syskit P
 
 {% hint style="warning" %}
 **Please note!**  
-Requirements listed in this article apply to the self-hosted Syskit Point option required when using the Data Center plan only.
+Requirements listed in this article apply to the self-hosted Syskit Point option required when using the Enterprise plan only.
 {% endhint %}
 
 ## Syskit Point Requirements

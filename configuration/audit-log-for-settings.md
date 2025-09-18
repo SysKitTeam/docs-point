@@ -1,11 +1,11 @@
 ---
-description:  This article describes how Data Center customers can access the audit log for all changes made in Syskit Point settings. 
+description:  This article describes how Point Enterprise customers can access the audit log for all changes made in Syskit Point settings. 
 ---
 
 # Audit for Settings
 
 {% hint style="warning" %}
-**Please note!** Settings audit logs are readily available for Data Center customers. SaaS customers are advised to [contact Syskit Support]() if they require audit logs for changes made in Syskit Point settings.
+**Please note!** Settings audit logs are readily available for Point Enterprise customers. SaaS customers are advised to [contact Syskit Support]() if they require audit logs for changes made in Syskit Point settings.
 {% endhint %}
 
 Syskit Point logs all changes in settings along with important additional information, such as the user who changed a setting, which setting was changed, as well as the values before and after the change, thus providing a complete picture of what was changed, when, and by whom. The Audit Log for your Point Settings can be accessed through the Application Insights resource.

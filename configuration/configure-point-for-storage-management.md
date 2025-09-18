@@ -6,7 +6,7 @@ description:  This article describes configuring Syskit Point to enable the Stor
 
 {% hint style="information" %}
 **Please note!** 
-The configuration described in this article is needed for the Storage Management feature to work for Point Data Center customers only.
+The configuration described in this article is needed for the Storage Management feature to work for Point Enterprise customers only.
 Point Cloud instances require no additional configuration for Storage Management.  
 {% endhint %}
 

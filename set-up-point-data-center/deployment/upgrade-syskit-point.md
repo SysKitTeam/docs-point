@@ -10,7 +10,7 @@ Since **Syskit Point** frequently gets new features, we highly recommend deployi
 
 {% hint style="warning" %}
 **Please note!**\
-This article describes Syskit Point upgrades for Syskit Point Data Center customers only.
+This article describes Syskit Point upgrades for Syskit Point Enterprise customers only.
 {% endhint %}
 
 ## Checking for Updates
@@ -32,7 +32,7 @@ This article describes Syskit Point upgrades for Syskit Point Data Center custom
 **Please note!**\
 The upgrade banner will not show in the case of Syskit Point releases with new versions containing minor changes in functionality or non-critical fixes.
 
-[For a list of all Syskit Point Data Center releases, follow this link](../../releases/data-center/).
+[For a list of all Syskit Point Enterprise releases, follow this link](../../releases/data-center/).
 {% endhint %}
 
 ![Home screen - New Update Available](../../.gitbook/assets/upgrade-syskit-point-new-update-available.png)
