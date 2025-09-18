@@ -78,7 +78,7 @@ If you are not satisfied within 30 days, you can get a full refund. We do not wa
 
 After these periods, we cannot offer refunds.  
 
-## Is the onboarding package mandatory for Enterpriser customers? 
+## Is the onboarding package mandatory for Enterprise customers? 
 
 Yes, the onboarding package is mandatory as a part of the Enterprise edition to help you get the best value for your environment and team members. It helps you successfully use the product as soon as possible and get the desired ROI by quickly improving your administration and governance processes after the onboarding. 
 
