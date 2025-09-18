@@ -247,19 +247,30 @@ The **See Details** button opens the **Access Review** report, already described
 For more information on the **Manually Requested Reviews category**, [read the following article](manually-request-permissions-review.md).
 
 
-## Admin Reminder for Workspace Reviews
+## Admin E-mails for Workspace Reviews
 
-Three workdays before the start of automated Access Review, Syskit Point Admin users will receive a reminder email with the most important information about the upcoming Access Review:
+Three workdays before the start of automated Workspace Review, Syskit Point Admin users receive a reminder email with the most important information about the upcoming Workspace Review:
 
-* **Start date** of the upcoming Access Review
-* **The number of workspaces** - Microsoft Teams, Microsoft 365 Groups, sites, and OneDrive - included in the upcoming Access Review
-* **Resolve Now (1)** in case some workspaces don't have active owners who will be responsible for performing the Access Review
-  * Clicking the Resolve Now button in the e-mail opens the Manage Reviewers report in Syskit Point where you can add active owners to workspaces by running the Change Owners action
+* **Start date** of the upcoming Workspace Review
+* **The number of workspaces** - Microsoft Teams, Microsoft 365 Groups, sites, and OneDrive - included in the upcoming Workspace Review
+* **Resolve Now (1)** in case some workspaces don't have active owners who will be responsible for performing the Workspace Review
+  * Clicking the Resolve Now button in the e-mail opens the XXX screen and lets you complete the workspace review personally
 
-![Access Review reminder email](../../.gitbook/assets/monitor-access-review-reminder-email.png)
+![Workspace Review reminder email](../../.gitbook/assets/monitor-access-review-reminder-emaill.png)
 
 {% hint style="warning" %}
 **Please note!**\
-To ensure that all sites have an owner responsible for the upcoming Access Review, set active users as site owners for all orphaned sites.
+To ensure that all sites have an owner responsible for the upcoming Workspace Review, set active users as site owners for all orphaned sites.
 {% endhint %}
+
+Once the entire Workspace Review is completed or the time frame for the Workspace Review resolution has passed, you receive a **Workspace Review Completion e-mail**. 
+
+In this email you can find a quick look into how many workspace review tasks were completed, and how many workspaces were reviewed. 
+
+The following information is provided:
+* Number of tasks resolved during the Workspace Review
+* MORE INFO ONCE I GET TO SEE AND SCREENSHOT THE E-MAIL
+
+Clicking the **View Details** button takes you to the [Overview](#overview) screen, where you can find more details on each workspace and the actions that were completed during the review. 
+
 
