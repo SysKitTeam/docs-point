@@ -42,7 +42,7 @@ You may license up to 10.000 users for our Cloud plans. For the Enterprise editi
 
 For **Syskit Point Cloud editions, audit logs are kept for 1 year**, and this cannot be modified.
 
-For **Syskit Point Enterprise, you have the option to set up unlimited storage** for audit logs. You can decide how long you want to keep Audit Logs by [changing your Data Retention settings](../configuration/customize-audit-logs-collection.md#point-data-center).
+For **Syskit Point Enterprise, you have the option to set up unlimited storage** for audit logs. You can decide how long you want to keep Audit Logs by [changing your Data Retention settings](../configuration/customize-audit-logs-collection.md#point-enterprise).
 
 
 ## What is the minimum number of users I can purchase Syskit Point for?
