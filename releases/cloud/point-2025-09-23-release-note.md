@@ -15,12 +15,15 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 ## Improvements & Bug Fixes 
 
 * **Yammer is now Viva Engage.**
-  * Yammer was renamed and the icons were changed to reflect the Microsoft 365 branding.
+  * Yammer was renamed, and the icons were changed to reflect the Microsoft 365 branding.
+
+* **Fixed a bug** that caused missing information when generating the Group Access report on larger tenants.
+
+* **Fixed the issues** when resolving policy vulnerability tasks. 
+  * The task no longer fails when deleting a site or team.
+  * The progress indicator now accurately shows the progress of the task. 
 
 * **Fixed an issue** that caused the Swagger documentation to show the wrong domain name. 
   * In some instances, if a request was sent with a custom header, the domain shown in the Swagger documentation was replaced with an incorrect one or cached.
-
-* **Fixed an issue** where ownership policies in provisioning templates weren't enforced during workspace requests. 
-  * Despite the template settings, requests could previously be submitted without meeting the required number of owners or selecting a Primary Admin; this was now fixed, and requests cannot be sent without complying with ownership policies. 
 
 * **Various improvements, including UX and UI fixes, are available.**
