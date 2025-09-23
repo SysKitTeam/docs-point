@@ -1,5 +1,5 @@
 ---
-description: This article lists improvements and bug fixes in the Syskit Point Cloud version 2025.4.110.1
+description: This article lists improvements and bug fixes in the Syskit Point Cloud version 2025.4.110.13
 ---
 
 # September 23, 2025
@@ -16,6 +16,10 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Yammer is now Viva Engage.**
   * Yammer was renamed, and the icons were changed to reflect the Microsoft 365 branding.
+
+* **Fixed an issue** that caused the Swagger documentation to cache and display the wrong host domain name.
+  * In some instances, if a request was sent with an X-Forwarded-Host header, that value would be cached and returned to all clients accessing the Swagger documentation endpoints. 
+  * The received host value is now validated against a whitelist of allowed domains, which can be edited in the web service App Settings as XForwardedHostHeaderOptions__AllowedHosts settings.
 
 * **Fixed a bug** that caused missing information when generating the Group Access report on larger tenants.
 
