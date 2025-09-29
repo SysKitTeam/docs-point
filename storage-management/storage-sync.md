@@ -3,7 +3,7 @@ description:  This article explains how the automatic and on-demand storage syn
 ---
  
 # Storage Sync
- 
+
 Storage Management helps organizations gain detailed insight into their storage usage all the way down to the file level. It provides you with an easy way to manage your storage through versioning limits, all while providing quick insight into your potential storage savings. 
 
 If you've already set up everything you can for your storage management, you might be wondering how the storage sync works and when you'll see the changes reflected in Syskit Point. 
