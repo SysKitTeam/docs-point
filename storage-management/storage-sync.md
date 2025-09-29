@@ -28,7 +28,7 @@ To ensure automatic storage sync is set up, please do the following:
 **Occasionally, there is a delay in storage sync, especially with large environments**, which means that file versions that were already deleted in SharePoint could still appear in reports until the next sync is completed.
   * Depending on the size of the environment, the storage sync can take **up to a month**.
 
-In these instances, especially if you have a larger tenant, we recommend using **on-demand sync to target specific environments or sites** instead of waiting for the full sync cycle to be completed.
+In these instances, especially if you have a larger tenant, we recommend using **on-demand sync to target specific workspaces** instead of waiting for the full sync cycle to be completed.
 
 ![Storage Management - Automatic Storage Sync](../.gitbook/assets/storage-sync-automatic-storage-sync.png)
  
