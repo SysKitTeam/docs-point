@@ -106,7 +106,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://www.syskit.com/products/point/free-trial/',
+          href: 'https://demo.syskit.com/auth?startSignUpFlow=true',
           label: 'Start a Free Trial',
           position: 'right',
         },
