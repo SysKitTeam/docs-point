@@ -14,7 +14,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes 
 
-* **Two new endpoints have been added** to the public Webhooks API.
+* **Two new endpoints have been added** to the Syskit Point API.
   * **GET /1.0/webhooks/endpoints** - retrieves all existing webhook endpoints registered in Syskit Point.
   * **DELETE /1.0/webhooks/endpoints** - deletes a specified webhook endpoint.
   * If the webhook endpoint URL doesn't exist, the API returns a **404 Not Found**.
