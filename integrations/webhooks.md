@@ -204,7 +204,7 @@ private static string generateSignature(string content, string authKey)
 }
 ```
 
-### Get & Delete Webooks
+### Get & Delete Webook Endpoints
 
 To retrieve an overview of your registered webhook endpoints, use the following: 
 * **GET /v1.0/webhooks/endpoints**
