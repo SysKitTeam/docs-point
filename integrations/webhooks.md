@@ -27,7 +27,7 @@ To register a webhook endpoint via the Syskit Point API, you need to use the fol
 
 <mark style="color:green;">`POST`</mark> \{{pointWebAppUrl\}}/v1.0/webhooks/endpoints
 
-**Headers**
+### **Headers**
 
 | Name          | Value              |
 | ------------- | ------------------ |
@@ -124,7 +124,7 @@ Below, you can find examples for all types:
 {% endtab %}
 {% endtabs %}
 
-**Response**
+### **Response**
 
 Successful registration of the webhook endpoint results in response status 200.
 
@@ -174,7 +174,7 @@ To get the signature key, send the following GET request.
 
 <mark style="color:blue;">`GET`</mark> \{{pointWebAppUrl\}}/v1.0/options
 
-**Response**
+### **Response**
 
 Successful request results in response status 200 and provides the Signature Authentication Key.
 
@@ -188,7 +188,7 @@ Successful request results in response status 200 and provides the Signature Aut
 {% endtab %}
 {% endtabs %}
 
-**Create Signature**
+### **Create Signature**
 
 Below is the code example you can use to create the signature, which can then be compared with the one received in the event object to verify it was sent from Syskit Point.
 
@@ -203,3 +203,12 @@ private static string generateSignature(string content, string authKey)
     return Convert.ToBase64String(hashBytes);
 }
 ```
+
+### Get & Delete Webooks
+
+To retrieve an overview of your registered webhook endpoints, use the following: 
+* **GET /v1.0/webhooks/endpoints**
+
+To delete a registered webhook endpoint, use the following: 
+* **DELETE /v1.0/webhooks/endpoints**
+* Please make sure to include the endpoint URL in the body of the request to identify which webhook should be deleted

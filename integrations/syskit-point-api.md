@@ -90,6 +90,12 @@ Find permission required for specific endpoints/requests below.
 Required permission: **Point.Admin**
 
 <table><thead><tr><th width="295">Request</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:green;"><code>POST</code></mark> /v1.0/webhook/endpoints</td><td>Add an endpoint to which Syskit Point will post webhooks events. Specify a valid URL and list of event types to be notified about.</td></tr></tbody></table>
+<table><thead><tr><th width="295">
+</th><th>
+</th></tr></thead><tbody><tr><td><mark style="color:green;"><code>GET</code></mark> v1.0/webhooks/endpoints</td><td>Retrieves a list of all webhook endpoints currently registered in the system. Use this to view all registered webhook endpoints.</td></tr></tbody></table>
+<table><thead><tr><th width="295">
+</th><th>
+</th></tr></thead><tbody><tr><td><mark style="color:green;"><code>DELETE</code></mark> /v1.0/webhooks/endpoints</td><td>Deletes a specific webhook endpoint from the system. Include the endpoint URL in the request body to identify which endpoint to remove.</td></tr></tbody></table>
 
 ### Users
 
