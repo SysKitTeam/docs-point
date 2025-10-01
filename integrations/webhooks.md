@@ -204,11 +204,66 @@ private static string generateSignature(string content, string authKey)
 }
 ```
 
-### Get & Delete Webook Endpoints
+## Get Webook Endpoints
 
-To retrieve an overview of your registered webhook endpoints, use the following: 
-* **GET /v1.0/webhooks/endpoints**
+To retrieve a list of all registered webhook endpoints, use the following GET request:
+<mark style="color:blue;">`GET`</mark> \{{pointWebAppUrl\}}/v1.0/webhooks/endpoints 
 
-To delete a registered webhook endpoint, use the following: 
-* **DELETE /v1.0/webhooks/endpoints**
-* Please make sure to include the endpoint URL in the body of the request to identify which webhook should be deleted
+### Response
+
+{% tabs %}
+{% tab title="200" %}
+```json
+[
+  {
+    "endpoint": "https://contoso.azurewebsites.net/api/Logger?code=o74oKsbrgHDI-RnekJXdbR3Fba7mZxEmJQNyCIpV6z-ZAzFuwnaWJg==",
+    "types": [
+      *
+    ]
+  }
+]
+```
+{% endtab %}
+{% endtabs %}
+
+## Delete Webook Endpoints
+
+To delete a registered webhook endpoint, use the following DELETE request: 
+<mark style="color:red;">`DELETE`</mark> \{{pointWebAppUrl\}}/v1.0/webhooks/endpoints**
+
+Make sure to include the endpoint URL in the body of the request to identify which webhook should be deleted
+
+**Body**
+
+| Name       | Type   | Description            |
+| ---------- | ------ | ---------------------- |
+| `endpoint` | string | Webhook endpoint URL   |
+
+{% tabs %}
+{% tab title="Example" %}
+```json
+{
+  "endpoint": "https://contoso.azurewebsites.net/api/Logger?code=o74oKsbrgHDI-RnekJXdbR3Fba7mZxEmJQNyCIpV6z-ZAzFuwnaWJg==",
+}
+```
+{% endtab %}
+{% endtabs %}
+
+### Response
+
+In case of successful deletion, '204 No content' status code is sent in the response.
+
+If the enpoint is not found in Syskit Point the '404 Not Found' status code is returned.
+
+{% tabs %}
+{% tab title="404" %}
+```json
+{
+  "message": "An error has occurred.",
+  "exceptionMessage": "WebhookEndpoint with id https://contoso.azurewebsites.net/api/Logger?code=o74oKsbrgHDI-RnekJXdbR3Fba7mZxEmJQNyCIpV6z-ZAzFuwnaWJg== not found.",
+  "exceptionType": "SysKit.Point.Application.SeedWork.Exceptions.ResourceMissingException"
+}
+```
+{% endtab %}
+{% endtabs %}
+
