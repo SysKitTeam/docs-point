@@ -27,7 +27,7 @@ The Copilot Agents Inventory report helps you discover and monitor all Copilot A
 * **Select the AI Agents category in the filter** in the upper left corner.
 * **Click the Copilot Agents Inventory report tile** to be redirected to the Selection screen.
 
-When generating the Copilot Agents Inventory report, the first step is the **selection screen** which opens as a list of [Power Platform Environments](power-platform-environments-reports.md) containing Copilot agents. This step allows you to **select which environments you want included** in the report.
+When generating the Copilot Agents Inventory report, the first step is the **selection screen** which opens as a list of [Power Platform Environments](power-platform-environments-reports.md). By default, only Evironments with Copilot agents are shown. This step allows you to **select which environments you want included** in the report. 
 
 * **Selecting one or more environments** provides the **Run Report button**. This generates the **Copilot Agents Inventory report** for the selected environments. 
 
@@ -67,7 +67,7 @@ The Copilot Agent Knowledge Sources report helps you discover all knowledge sour
 * **Select the AI Agents category in the filter** in the upper left corner.
 * **Click the Copilot Agent Knowledge Sources** to be redirected to the Selection screen.
 
-When generating the Copilot Agent Knowledge Sources report, the first step is the **selection screen**, which opens as a list of [Power Platform Environments](power-platform-environments-reports.md) containing Copilot agents. This step allows you to **select which environments you want included** in the report.
+When generating the Copilot Agent Knowledge Sources report, the first step is the **selection screen**, which opens as a list of [Power Platform Environments](power-platform-environments-reports.md). By default, only Evironments with Copilot agents are shown. This step allows you to **select which environments you want included** in the report.
 
 * **Selecting one or more environments** provides the **Run Report button**. This generates the **Copilot Agent Knowledge Sources report** for the selected environments. 
 
@@ -78,10 +78,12 @@ On the Copilot Agent Knowledge Sources report, you can find the following inform
 * **Agent** - shows the name of the Copilot agent
     * Note that the report is grouped by Copilot agent column to easily see all of the knowledge sources belonging to a Copilot agent
     * To remove the grouping, drag the Agent filter from the top left to the grid, which will insert the Agent column in the report
+    * Additionally, you can group by other columns by simply drag-and-dropping the wanted column to the top left corner above the report grid
 * **Name** of the knowledge source
 * **Last Modified** - shows when the knowledge source was last modified
 * **Type** - shows the type of the knowledge source, e.g., Dataverse, Files, SharePoint, Public Website
-* **Sensitive Content** - shows whether the knowledge source has a sensitivity label applied, which is marked as sensitive in Syskit Point; check = sensitive, empty = not sensitive
+* **Sensitive Content** - shows whether the knowledge source has a sensitivity label applied, which is marked as sensitive in Syskit Point; green checkmark is placed next to knowledge sources whose sensitivity label is considered sensitive content
+    * [To see how to view and manage sensitivity labels defined as sensitive content, navigate to this section](https://docs.syskit.com/point/microsoft365-inventory/copilot-readiness#sensitive-files)
 * **Sensitivity Label** - Shows the sensitivity label applied to the knowledge source
 
 The Copilot Agent Knowledge Sources report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
