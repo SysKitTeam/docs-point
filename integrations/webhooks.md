@@ -253,9 +253,9 @@ Make sure to include the endpoint URL in the body of the request to identify whi
 
 ### Response
 
-In case of successful deletion, '204 No content' status code is sent in the response.
+In case of successful deletion, `204 No content` status code is sent in the response.
 
-If the enpoint is not found in Syskit Point the '404 Not Found' status code is returned.
+If the enpoint is not found in Syskit Point the `404 Not Found` status code is returned.
 
 {% tabs %}
 {% tab title="404" %}
