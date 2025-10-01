@@ -105,7 +105,7 @@ To manage the permissions, you can run the related PowerShell cmdlets described 
 * [Remove-PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/remove-powerappmanagementapp?view=pa-ps-latest)
 {% endhint %}
 
-### Syskit Point Data Center 2024.4.45
+### Syskit Point Enterprise 2024.4.45
 
 **Consent is required if you are using the Access Request feature to enable the addition of members and owners to security groups.**
 
@@ -116,7 +116,7 @@ To manage the permissions, you can run the related PowerShell cmdlets described 
 | Syskit Point Service | Microsoft Graph/GroupMember.ReadWrite.All    | Read and write all group memberships       | Application | Allows Syskit Point to add users in Microsoft Entra ID to security groups after an access request is approved by the group owner. |
 | Syskit Point Service | Microsoft Graph/RoleManagement.ReadWrite.All | Read and write all directory RBAC settings | Application | Allows Syskit Point to add users in Microsoft Entra ID to security groups after an access request is approved by the group owner. |
 
-### Syskit Point Data Center 2023.4.1
+### Syskit Point Enterprise 2023.4.1
 
 **Consent is required due to permission changes introduced to make the Copy User Permissions action more robust**. Before, when adding members to private channels in Microsoft Teams, the action would often result in an error for users recently added to Microsoft Entra ID.
 

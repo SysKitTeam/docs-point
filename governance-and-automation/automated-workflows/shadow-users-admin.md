@@ -30,3 +30,11 @@ Once you've selected the one that best suits your needs for this policy, **click
 
 
 ![Workspaces with Shadow Users - Selection](../../.gitbook/assets/workspaces-with-shadow-users-selection.png)
+
+{% hint style="Information" %}
+**Please note**, this policy can be applied to the following workspaces:
+* **Microsoft Teams**
+* **Microsoft 365 Group**
+* **Yammer Community**
+
+{% endhint %}

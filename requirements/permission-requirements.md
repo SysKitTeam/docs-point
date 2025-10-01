@@ -7,7 +7,7 @@ description: >-
 
 ## Microsoft 365
 
-When [connecting to your Microsoft 365 tenant](../set-up-point-data-center/deployment/connect-to-tenant.md), it is **required for you to connect with a Global Administrator account**.
+When [connecting to your Microsoft 365 tenant](../set-up-point-enterprise/deployment/connect-to-tenant.md), it is **required for you to connect with a Global Administrator account**.
 
 {% hint style="warning" %}
 **Please note!**\
@@ -18,7 +18,7 @@ Below, the reasons for such requirements are described in greater detail.
 
 ## Global Administrator
 
-When [connecting to a Microsoft 365 tenant](../set-up-point-data-center/deployment/connect-to-tenant.md) for the first time, **you must connect with a Global Administrator account.**
+When [connecting to a Microsoft 365 tenant](../set-up-point-enterprise/deployment/connect-to-tenant.md) for the first time, **you must connect with a Global Administrator account.**
 
 **The first time you connect to your Microsoft 365 tenant, you will be prompted to consent** to a set of permissions that Syskit Point requires to function correctly. Additional prompts may appear in the future when installing a newer version of Syskit Point because of new functionality and, consequently, new permissions required.
 
@@ -54,7 +54,7 @@ The following permissions are required for **Syskit Point Installer** Enterprise
 | ----------------------------------------------------- | --------- | --------------------------------------------------------------------------------------------- |
 | Access Azure Service Management as organization users | Delegated | Allows Syskit Point to create an additional application in your tenant for safer data access. |
 
-To allow safer access to your Microsoft 365 tenant data and optimize the data sync process, additional app registrations are created during the [initial connect](../set-up-point-data-center/deployment/connect-to-tenant.md) process:
+To allow safer access to your Microsoft 365 tenant data and optimize the data sync process, additional app registrations are created during the [initial connect](../set-up-point-enterprise/deployment/connect-to-tenant.md) process:
 
 * **Syskit Point Service**
 * **Syskit Point Client**
@@ -277,5 +277,5 @@ By default, the **app registration has no permissions added**.
 
 ## Related Topics
 
-* [System Requirements for Data Center](../set-up-point-data-center/deployment/system-requirements.md)
-* [Deploy Syskit Point for Data Center](../set-up-point-data-center/deployment/deploy-syskit-point.md)
+* * [System Requirements for Point Enterprise](../set-up-point-enterprise/deployment/system-requirements.md)
+* [Deploy Syskit Point for Point Enterprise](../set-up-point-enterprise/deployment/deploy-syskit-point.md)

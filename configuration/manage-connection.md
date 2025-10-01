@@ -7,7 +7,7 @@ description: This article shows how to modify and manage your tenant connection 
 {% hint style="info" %}
 * Point Cloud customers can manage and edit their tenant connection after deploying Syskit Point.
 
-* Point Data Center customers who set up their tenant connection when deploying Syskit Point can manage or edit their connection by following the steps in this article. 
+* Point Enterprise customers who set up their tenant connection when deploying Syskit Point can manage or edit their connection by following the steps in this article. 
 {% endhint %}
 
 Once Syskit Point is set up, you can manage or modify your tenant connection anytime through your Syskit Point Settings. This allows you to adjust Autodiscover and Audit Logs options and ensure accurate data collection. 

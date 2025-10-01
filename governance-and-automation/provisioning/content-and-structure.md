@@ -1,5 +1,5 @@
 ---
-description: This article explains how the content and structure aspect of Provisioning works.
+description: This article explains how the content and structure aspects of Provisioning work.
 ---
 
 # Content & Structure
@@ -14,7 +14,7 @@ The options you have are the following:
 
 * **Use existing Microsoft Teams template (2)**
   * This option is **only available** when provisioning **Microsoft Teams**.
-  * After selecting this option, you need to enter Microsoft template ID for an existing template.
+  * After selecting this option, you need to enter the Microsoft template ID for an existing template.
   * Syskit Point integrates with team templates you have created in the **Microsoft 365 Teams admin center**. 
   * When you enter a team template ID, Syskit Point creates predefined apps, channels, and tabs for the new workspaces that use the template.
 
@@ -24,7 +24,7 @@ The options you have are the following:
   * You can also select whether to **check the Copy team SharePoint site (4)** checkbox
     * This checkbox is **only available for Microsoft Teams**.
     * If the check is marked, you can also select whether to:
-      * Copy structure - this copies only the structure of the workspace but not the content
+      * Copy structure - this copies only the structure of the workspace, but not the content
       * Copy structure and content - this copies both the structure of the workspace and the content within the workspace
 
 ![Provisioning - Content & Structure](../../.gitbook/assets/provisioning-content-and-structure-section.png)
@@ -53,7 +53,9 @@ When deciding which option to select from the three available, it helps to know 
 
 | Objects to Copy | From Scratch | Use Microsoft Teams template | Copy from existing team | Copy Team SharePoint Site - Structure | Copy Team SharePoint Site - Structure & Content |
 | --- | --- | --- | --- | --- | --- |
-| Channels (& Channel Folders)| No | Yes | Yes | Yes | Yes |
+| Standard Channels (& Channel Folders)| No | Yes | Yes | Yes | Yes |
+| Private Channels | No | Copied as standard channel | Yes | Yes | Yes |
+| Shared Channels | No | Copied as standard channel | Copied as standard channel | Copied as standard channel | Copied as standard channel |
 | Apps | No | Yes | Yes | Yes | Yes |
 | Tabs | No | Yes | Yes | Yes | Yes |
 | Site Theme |No | No | No | Yes | Yes |
@@ -68,10 +70,12 @@ When deciding which option to select from the three available, it helps to know 
 {% hint style="information" %}
 
 **Please note** that: 
+* **When copying Teams with Private Channels, owners of the provisioned Teams are set as Private Channel owners as well**
 * **Channels & channel folders are provisioned by Microsoft** 365 and visible only after the first post is made and by **navigating to the Files tab** in the Teams app
 * When copying files, **up to 20 files can be copied** 
   * If **more than 20 files are detected**, they are **not copied and the Admin receives an email** stating that the Content will not be applied
   * Default & custom file templates are not counted toward the 20-file copy limit
+  * Private & Shared channel files are not copied
 
 {% endhint %}
 
@@ -85,6 +89,7 @@ The following is **NOT copied or supported**:
 * **Footer**
 * **Folder color**
 * **OneNote**
+* **Files with double space characters in the file name**
 {% endhint %}
 
 
