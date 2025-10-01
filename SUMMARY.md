@@ -319,6 +319,7 @@
   * [Enable Power Platform Data Collection](power-platform/power-platform.md)
   * [Enable Power BI Data Collection](power-platform/enable-powerBI-data-collection.md)
   * [Power Platform Reports](power-platform/power-platform-reports/README.md)
+    * [Copilot Agents](power-platform/power-platform-reports/copilot-agents-reports.md)
     * [Power Platform Environments](power-platform/power-platform-reports/power-platform-environments-reports.md)
     * [Power Platform Apps](power-platform/power-platform-reports/power-apps-reports.md)
     * [Power Platform Automate](power-platform/power-platform-reports/power-automate-reports.md)
