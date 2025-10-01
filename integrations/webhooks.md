@@ -231,7 +231,7 @@ To retrieve a list of all registered webhook endpoints, use the following GET re
 
 To delete a registered webhook endpoint, use the following DELETE request: 
 
-<mark style="color:red;">`DELETE`</mark> \{{pointWebAppUrl\}}/v1.0/webhooks/endpoints**
+<mark style="color:red;">`DELETE`</mark> \{{pointWebAppUrl\}}/v1.0/webhooks/endpoints
 
 Make sure to include the endpoint URL in the body of the request to identify which webhook should be deleted
 
