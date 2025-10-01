@@ -65,6 +65,21 @@ Whether your storage is being synced automatically or you've used the on-demand 
 ![Storage Metrics - Storage Sync](../.gitbook/assets/storage-sync-storage-metrics-last-sync.png)
 
 * Select a workspace on the [Sites Overview screen](../microsoft365-inventory/sites.md), which opens the **Workspace Details screen**
-  * In the top right corner, if the storage is being synced, you can **view the current progress (1)** and see if there are any potential conflicts stopping a full storage sync.
+  * **Clicking the sync button (1)** in the top right corner of the workspace details screen starts the storage sync and the content and permissions sync
+  * If the storage is being synced, you can **view the current progress (2)** and see if any potential conflicts are stopping a full storage sync.
+  * **Clicking the View Details button (3)** opens the Sync Status report, where you can find the following:
+    * Above the report, you can see the number of workspaces that are **Successfully Synced, Sync Failed, In Progress, Not Yet Synced**
+    * **Name** of the workspace
+    * **URL** of the workspace
+    * **Last Synced** shows the date the workspace was last synced
+    * **Last Sync Duration** shows how long the last sync took
+    * **Current Status** of the workspace
+    * **Error Text** shows if there was any error during sync
+    * **Last Storage Sync (4)** shows the last time storage was synced
+    * **Storage Sync Progress (5)** shows the current sync status on the workspace, for example, idle, in progress, etc.
+    * **Selecting one or more workspaces (6)** on the report shows the **Sync Now button (7)** on the right side of the screen
+    * Pressing the Sync Now button starts the storage sync for the selected workspaces
 
 ![Storage Metrics - Storage Sync](../.gitbook/assets/storage-sync-workspace-details-current-progress.png)
+
+![Storage Metrics - Storage Sync](../.gitbook/assets/storage-sync-workspace-details-sync-status.png)
