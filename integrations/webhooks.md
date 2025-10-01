@@ -126,7 +126,7 @@ Below, you can find examples for all types:
 
 ### **Response**
 
-Successful registration of the webhook endpoint results in response status 200.
+Successful registration of the webhook endpoint results in a response status 200.
 
 {% tabs %}
 {% tab title="200" %}
@@ -140,7 +140,8 @@ Successful registration of the webhook endpoint results in response status 200.
 
 ## Webhook Events
 
-Syskit Point sends a POST request to the registered webhook endpoint URL.\
+Syskit Point sends a POST request to the registered webhook endpoint URL.
+
 The event object has the following body structure:
 
 {% tabs %}
@@ -176,7 +177,7 @@ To get the signature key, send the following GET request.
 
 ### **Response**
 
-Successful request results in response status 200 and provides the Signature Authentication Key.
+A successful request results in a response status 200 and provides the Signature Authentication Key.
 
 {% tabs %}
 {% tab title="200" %}
@@ -233,7 +234,7 @@ To delete a registered webhook endpoint, use the following DELETE request:
 
 <mark style="color:red;">`DELETE`</mark> \{{pointWebAppUrl\}}/v1.0/webhooks/endpoints
 
-Make sure to include the endpoint URL in the body of the request to identify which webhook should be deleted
+Include the endpoint URL in the body of the request to identify which webhook endpoint should be deleted.
 
 **Body**
 
@@ -253,9 +254,9 @@ Make sure to include the endpoint URL in the body of the request to identify whi
 
 ### Response
 
-In case of successful deletion, `204 No content` status code is sent in the response.
+If the deletion was successful, the `204 No content` status code is returned.
 
-If the enpoint is not found in Syskit Point the `404 Not Found` status code is returned.
+If the endpoint is not found in Syskit Point, the `404 Not Found` status code is returned.
 
 {% tabs %}
 {% tab title="404" %}

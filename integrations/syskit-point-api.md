@@ -1,5 +1,5 @@
 ---
-description: This article explains how to get started with Syskit Point API.
+description: This article explains how to get started with the Syskit Point API.
 ---
 
 # Syskit Point API
@@ -9,7 +9,7 @@ description: This article explains how to get started with Syskit Point API.
 See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 {% endhint %}
 
-In this article, you can find steps to create your first request to your Syskit Point web app. You will need to perform the following steps:
+In this article, you can find the steps to create your first request to your Syskit Point web app. You will need to perform the following steps:
 
 * **Create and set an app registration in Microsoft Entra ID**
 * **Fetch the `access_token`**
@@ -59,7 +59,7 @@ Afterward, configure API permissions:
 * **Click Add a permission option (2)** - a sidebar opens where you should:
   * **Select the APIs my organization uses tab; search and find Syskit Point API (3) and click to select** - sidebar shows new information
   * **Select the displayed permission (4)**
-    * We strongly encourage applying the principle of least privilege and provide the minimum level of permissions required to accommodate your integration requirements
+    * We strongly encourage applying the principle of least privilege and providing the minimum level of permissions required to accommodate your integration requirements
     * [Find more details about available permissions in the Permissions section](syskit-point-api.md#permissions)
   * **Click Add permissions (5)**
 * **Click the Grant admin consent option (6)** - confirmation dialog opens: **Click Yes to confirm**
@@ -68,7 +68,7 @@ Afterward, configure API permissions:
 
 ![Grant Admin Consent](../.gitbook/assets/syskit-point-api-grant-admin-consent.png)
 
-Lastly, **collect the following data and save to side with the client secret value stored before**:
+Lastly, **collect the following data and save to the side with the client secret value stored before**:
 
 * **Application (client) ID**
 * **Directory (tenant) ID**
@@ -83,7 +83,7 @@ There are 4 permissions providing access to different Syskit Point endpoints:
 * **Point.Provisioning**
 * **Point.Admin**
 
-Find permission required for specific endpoints/requests below.
+Find the permission required for specific endpoints/requests below.
 
 ### WebHooksEndpoint
 
