@@ -12,6 +12,18 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Already using Syskit Point Cloud?** Syskit Point Cloud is automatically upgraded to the latest version when available. The automatic update occurs outside working hours to ensure minimal interference with your day-to-day business. The new version will begin rolling out with this announcement and is expected to reach all customers within the next few days.
 
+## New Features
+
+* **Two new Power Platform reports are available in Syskit Point!**
+  * **Copilot Agents Inventory report**, and
+  * **Copilot Agent Knowledge Sources report**
+  * [Find more information about the reports in the Copilot Agents Reports article.](../../power-platform/power-platform-reports/copilot-agents-reports.md)
+
+{% hint style="warning" %}
+**Please Note!** 
+To configure Copilot Agents data sync and reports currently available in early access, [please contact us](https://www.syskit.com/contact-us-power-platform/).
+{% endhint %}
+
 ## Improvements & Bug Fixes 
 
 * **Two new endpoints have been added** to the Syskit Point API.
