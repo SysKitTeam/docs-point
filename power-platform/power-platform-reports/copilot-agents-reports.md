@@ -11,7 +11,7 @@ To enable the use of Power Platform for Syskit Point, [please contact us](https:
 
 {% endhint %}
 
-This article contains information on two Copilot Agents reports available throuhg the Report Center:
+This article contains information on two Copilot Agents reports available through the Report Center:
 * [Copilot Agents Inventory Report](#copilot-agents-inventory-report)
 * [Copilot Agent Knowledge Sources](#copilot-agent-knowledge-sources)
 
@@ -25,7 +25,7 @@ The Copilot Agents Inventory report helps you discover and monitor all Copilot A
 * **Select the AI Agents category in the filter** in the upper left corner.
 * **Click the Copilot Agents Inventory report tile** to be redirected to the Selection screen.
 
-When generating the Copilot Agents Inventory report, the first step is the **selection screen** which opens as a list of [Power Platform Environments](power-platform-environments-reports.md), which contain Copilot agents. This step allows you to **select which environments you want included** in the report.
+When generating the Copilot Agents Inventory report, the first step is the **selection screen** which opens as a list of [Power Platform Environments](power-platform-environments-reports.md) containing Copilot agents. This step allows you to **select which environments you want included** in the report.
 
 * **Selecting one or more environments** provides the **Run Report button**. This generates the **Copilot Agents Inventory report** for the selected environments. 
 
@@ -47,7 +47,7 @@ The additional columns available in the **column chooser**, located in the top r
       
 * **Active Owners** shows the number of agent owners who are not deleted or blocked
 
-The report provides the following views you can find in the top left dropdown:
+The report provides the following views, which you can find in the top left dropdown:
 * **Orphaned Copilot Agents** - shows Copilot agents with no active owners
 * **Sensitive Agents** - shows Copilot agents with sensitive knowledge sources
 
@@ -57,7 +57,7 @@ The Copilot Agents Inventory report can be **exported as PDF and XLSX files**. T
 
 ## Copilot Agent Knowledge Sources
 
-The Copilot Agents Knowledge Sources report helps you discover all knowledge source for one or multiple Copilot Agents.
+The Copilot Agent Knowledge Sources report helps you discover all knowledge sources for one or multiple Copilot Agents.
 
 ### Generate Report
 
@@ -65,7 +65,7 @@ The Copilot Agents Knowledge Sources report helps you discover all knowledge sou
 * **Select the AI Agents category in the filter** in the upper left corner.
 * **Click the Copilot Agent Knowledge Sources** to be redirected to the Selection screen.
 
-When generating the Power Apps Inventory report, the first step is the **selection screen** which opens as a list of [Power Platform Environments](power-platform-environments-reports.md), which contain Copilot agents. This step allows you to **select which environments you want included** in the report.
+When generating the Copilot Agent Knowledge Sources report, the first step is the **selection screen**, which opens as a list of [Power Platform Environments](power-platform-environments-reports.md) containing Copilot agents. This step allows you to **select which environments you want included** in the report.
 
 * **Selecting one or more environments** provides the **Run Report button**. This generates the **Copilot Agent Knowledge Sources report** for the selected environments. 
 
@@ -79,7 +79,7 @@ On the Copilot Agent Knowledge Sources report, you can find the following inform
 * **Name** of the knowledge source
 * **Last Modified** - shows when the knowledge source was last modified
 * **Type** - shows the type of the knowledge source, e.g., Dataverse, Files, SharePoint, Public Website
-* **Sensitive Content** - shows whether the knowledge source has a sensitivity label applied which is marked as sensitive in Syskit Point; check = sensitive, empty = not sensitive
+* **Sensitive Content** - shows whether the knowledge source has a sensitivity label applied, which is marked as sensitive in Syskit Point; check = sensitive, empty = not sensitive
 * **Sensitivity Label** - Shows the sensitivity label applied to the knowledge source
 
 The Copilot Agent Knowledge Sources report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
