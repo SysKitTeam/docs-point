@@ -207,6 +207,7 @@ private static string generateSignature(string content, string authKey)
 ## Get Webook Endpoints
 
 To retrieve a list of all registered webhook endpoints, use the following GET request:
+
 <mark style="color:blue;">`GET`</mark> \{{pointWebAppUrl\}}/v1.0/webhooks/endpoints 
 
 ### Response
@@ -229,6 +230,7 @@ To retrieve a list of all registered webhook endpoints, use the following GET re
 ## Delete Webook Endpoints
 
 To delete a registered webhook endpoint, use the following DELETE request: 
+
 <mark style="color:red;">`DELETE`</mark> \{{pointWebAppUrl\}}/v1.0/webhooks/endpoints**
 
 Make sure to include the endpoint URL in the body of the request to identify which webhook should be deleted
