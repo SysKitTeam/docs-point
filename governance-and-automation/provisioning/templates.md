@@ -38,7 +38,7 @@ Templates can be created for the following workspaces:
 
 * **Microsoft Teams**
 * **SharePoint Site**
-* **Yammer Community**
+* **Viva Engage Community**
 * **Microsoft 365 Group**
 
 {% hint style="warning" %}
@@ -186,9 +186,9 @@ When creating a SharePoint Site template, there are a couple of differences comp
 **Please note**: SharePoint Site templates do not have a Customize E-mail option.
 {% endhint %}
 
-### Yammer Community Template
+### Viva Engage Community Template
 
-When creating a Yammer Community template, there are a couple of differences compared to the Microsoft Teams template.
+When creating a Viva Engage Community template, there are a couple of differences compared to the Microsoft Teams template.
 
 * **Community Admins** – allows multiple options:
   * Predefine community admins that are always added to this type of workspace
@@ -200,7 +200,7 @@ When creating a Yammer Community template, there are a couple of differences com
   * Leave this option altogether to the end-user who is requesting a new workspace
 
 {% hint style="info" %}
-**Please note:** Yammer templates do not have URL & E-mail customization options.
+**Please note:** Viva Engage templates do not have URL & E-mail customization options.
 {% endhint %}
 
 ### Microsoft 365 Group Template

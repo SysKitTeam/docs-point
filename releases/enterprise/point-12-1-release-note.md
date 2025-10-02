@@ -14,7 +14,7 @@ Although Valentine’s day is behind us, we want to share some love by adding an
 
 ## Features
 
-* **Syskit Point now supports Microsoft Teams activity tracking**! Microsoft Teams chat activity tracking was added to the SharePoint, Exchange, and Yammer trio supported from version 12. [Learn how to configure](../../configuration/microsoft-teams-activity.md) this new capability, and find unused Microsoft Teams in your Microsoft 365 environment.
+* **Syskit Point now supports Microsoft Teams activity tracking**! Microsoft Teams chat activity tracking was added to the SharePoint, Exchange, and Viva Engage trio supported from version 12. [Learn how to configure](../../configuration/microsoft-teams-activity.md) this new capability, and find unused Microsoft Teams in your Microsoft 365 environment.
 
 ## Improvements & Bug Fixes
 

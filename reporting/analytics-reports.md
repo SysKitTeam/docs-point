@@ -135,8 +135,8 @@ There are additional columns available from the column chooser:
 * **Exchange Last Activity Date**
 * **Teams Activity**
 * **Teams Last Activity Date**
-* **Yammer Activity**
-* **Yammer Last Activity Date**
+* **Viva Engage Activity**
+* **Viva Engage Last Activity Date**
 * **Planner Activity**
 * **Planner Last Activity Date**
 

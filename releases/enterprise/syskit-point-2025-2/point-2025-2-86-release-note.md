@@ -79,7 +79,7 @@ The 2025.2.86 release brings important improvements to Syskit Point’s backend 
   * Sensitivity Labels that were created for files no longer appear as an option when provisioning a site.
   * Sensitivity Labels with child labels now correctly appear when provisioning. 
 
-* **Fixed an issue** that caused the following error when provisioning a Yammer site: `System.NullReferenceException: Object reference not set to an instance of an object.`
+* **Fixed an issue** that caused the following error when provisioning a Viva Engage community: `System.NullReferenceException: Object reference not set to an instance of an object.`
 
 * **Fixed an issue** that caused the following errors: 
   * When syncing Power Platform apps: `Error reading string. Unexpected token: StartObject.`

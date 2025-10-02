@@ -77,7 +77,7 @@ Additional configuration is needed for the Storage Management feature to work.
 
 * **Fixed a bug** where actions performed by Ignored accounts were counted toward the Last Activity for workspaces. 
 
-* **Fixed a bug** that prevented Yammer sites from being included in Lifecycle Management when selecting All under Monitoring Activity. 
+* **Fixed a bug** that prevented Viva Engage communities from being included in Lifecycle Management when selecting All under Monitoring Activity. 
 
 * **Fixed a bug** where creating a SharePoint site provisioning request resulted in an error.
 

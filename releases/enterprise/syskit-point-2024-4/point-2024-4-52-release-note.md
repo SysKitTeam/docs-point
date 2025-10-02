@@ -104,5 +104,5 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 * **Fixed an issue** with creating and editing Rules in Syskit Point while WAF (web application firewall) is enabled.
 * **Fixed an issue** where users were not added to Distribution Lists or Email-Enabled Security Groups after their Access Request was approved.
 * **Fixed an issue** where comments were not shown in the task summary after deleting an Orphaned Workspace or resolving the Orphaned Workspaces vulnerability task.
-* **Fixed an issue** where the following error would occur when attempting to complete the Yammer registration setup: `{"message":"An error has occurred.","exceptionMessage":"Unexpected character encountered while parsing value: i. Path '', line 0, position 0.","exceptionType":"Newtonsoft.Json.JsonReaderException"}`
+* **Fixed an issue** where the following error would occur when attempting to complete the Viva Engage app registration: `{"message":"An error has occurred.","exceptionMessage":"Unexpected character encountered while parsing value: i. Path '', line 0, position 0.","exceptionType":"Newtonsoft.Json.JsonReaderException"}`
 * **Various improvements and minor UX and UI fixes are available**.
