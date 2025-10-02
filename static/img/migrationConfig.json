@@ -1,0 +1,10 @@
+{
+"DatabaseID": "PointAudit", 
+"TenantGuid": "TenantID",
+"Endpoint" : "CosmosURI",
+"Key" : "CosmosPrimaryKey",
+"AuditIndexLocation" : "AuditIndexFullPath",
+"MigrateFromDate" : "YYYY-MM-DD",
+"MigrateUntilDate" : "YYYY-MM-DD"
+}
+
