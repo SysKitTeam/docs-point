@@ -25,7 +25,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 ## Features
 
-* **Provisioning of SharePoint sites**, **Yammer communities**, and **Microsoft 365 groups is now available in Syskit Point**! Besides Microsoft Teams, **you can now create provisioning templates for Microsoft 365 groups**, **Yammer communities**, and **SharePoint sites**, right from Syskit Point. [Click here to learn how to configure Syskit Point to start creating Yammer provisioning templates](../../governance-and-automation/provisioning/register-yammer-app.md). [To learn more about template settings available for each type of workspace, use this link](../../governance-and-automation/provisioning/templates.md).
+* **Provisioning of SharePoint sites**, **Viva Engage communities**, and **Microsoft 365 groups is now available in Syskit Point**! Besides Microsoft Teams, **you can now create provisioning templates for Microsoft 365 groups**, **Viva Engage communities**, and **SharePoint sites**, right from Syskit Point. [Click here to learn how to configure Syskit Point to start creating Viva Engage community provisioning templates](../../governance-and-automation/provisioning/register-viva-engage-app.md). [To learn more about template settings available for each type of workspace, use this link](../../governance-and-automation/provisioning/templates.md).
 * **Metadata definition is now available in provisioning**! When creating provisioning templates, you can now define the following metadata for workspaces:
   * **Primary Contact**
   * **Secondary Contact**

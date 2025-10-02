@@ -126,7 +126,7 @@ Global admin re-consent is required after the upgrade to the latest version. Con
 
 * **Fixed an issue** where dates were not sorted in charts.
 
-* **Fixed a bug** where Microsoft Teams activity sync failed if Yammer activity was fetched with errors.
+* **Fixed a bug** where Microsoft Teams activity sync failed if Viva Engage activity was fetched with errors.
 
 * **Fixed an issue** where Names for some groups were not displayed on the selection step before generating the Group Access report.
 

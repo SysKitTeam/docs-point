@@ -53,6 +53,6 @@ For details on how collaborators can [**resolve Orphanes Workspaces policy vulne
 * **Microsoft Teams**
 * **Microsoft 365 Group**
 * **SharePoint Sites**
-* **Yammer Community**
+* **Viva Engage Community**
 
 {% endhint %}

@@ -32,10 +32,10 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
   * **Choose who will receive access requests for the site**:
     * **Site owners**
     * **Specific email** All mentioned options can be accessed and changed in SharePoint site settings.
-* **Additional Group settings added to provisioning templates**! Teams, M365 Group, and Yammer templates enable you to now choose from the following 3 options:
+* **Additional Group settings added to provisioning templates**! Teams, M365 Group, and Viva Engage templates enable you to now choose from the following 3 options:
   * **Allow external senders to email this group**
   * **Send copies of group conversations and events to group members**
-  * **Hide from my organization's global address list** Listed options are also available in the Microsoft Admin center for all Teams, M365 Groups, and Yammer groups.
+  * **Hide from my organization's global address list** Listed options are also available in the Microsoft Admin center for all Teams, M365 Groups, and Viva Engage communities.
 * **Support for sensitivity sub-labels added to provisioning templates**.
 * **New automatic action - Disabling Guest user in Azure AD - added as an option when resolving Guest Users Expiration policy vulnerability**. Suppose guest users are not verified in time. In that case, Syskit Point will automatically disable the guest user in Azure AD to secure your environment and ensure that unverified guest users don't access shared content.
 

@@ -25,7 +25,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 ## Improvements & Bug Fixes
 
 * **Improvements made to the Activity column** on the Inactive Sites view on the Sites overview screen and Inactive Groups view on the Teams & Groups overview screen. 
-  * Activity is determined by the usage of SharePoint, Exchange, Teams, and Yammer within the timeframe specified in the Inactive Workspaces policy. 
+  * Activity is determined by the usage of SharePoint, Exchange, Teams, and Viva Engage within the timeframe specified in the Inactive Workspaces policy. 
 
 * **When copying** Structure or Structure & Content from an existing workspace using a Provisioning template, the site logo is also copied. 
 
