@@ -27,7 +27,7 @@ To register a webhook endpoint via the Syskit Point API, you need to use the fol
 
 <mark style="color:green;">`POST`</mark> \{{pointWebAppUrl\}}/v1.0/webhooks/endpoints
 
-**Headers**
+### **Headers**
 
 | Name          | Value              |
 | ------------- | ------------------ |
@@ -124,9 +124,9 @@ Below, you can find examples for all types:
 {% endtab %}
 {% endtabs %}
 
-**Response**
+### **Response**
 
-Successful registration of the webhook endpoint results in response status 200.
+Successful registration of the webhook endpoint results in a response status 200.
 
 {% tabs %}
 {% tab title="200" %}
@@ -140,7 +140,8 @@ Successful registration of the webhook endpoint results in response status 200.
 
 ## Webhook Events
 
-Syskit Point sends a POST request to the registered webhook endpoint URL.\
+Syskit Point sends a POST request to the registered webhook endpoint URL.
+
 The event object has the following body structure:
 
 {% tabs %}
@@ -174,9 +175,9 @@ To get the signature key, send the following GET request.
 
 <mark style="color:blue;">`GET`</mark> \{{pointWebAppUrl\}}/v1.0/options
 
-**Response**
+### **Response**
 
-Successful request results in response status 200 and provides the Signature Authentication Key.
+A successful request results in a response status 200 and provides the Signature Authentication Key.
 
 {% tabs %}
 {% tab title="200" %}
@@ -188,7 +189,7 @@ Successful request results in response status 200 and provides the Signature Aut
 {% endtab %}
 {% endtabs %}
 
-**Create Signature**
+### **Create Signature**
 
 Below is the code example you can use to create the signature, which can then be compared with the one received in the event object to verify it was sent from Syskit Point.
 
@@ -203,3 +204,69 @@ private static string generateSignature(string content, string authKey)
     return Convert.ToBase64String(hashBytes);
 }
 ```
+
+## Get Webook Endpoints
+
+To retrieve a list of all registered webhook endpoints, use the following GET request:
+
+<mark style="color:blue;">`GET`</mark> \{{pointWebAppUrl\}}/v1.0/webhooks/endpoints 
+
+### Response
+
+{% tabs %}
+{% tab title="200" %}
+```json
+[
+  {
+    "endpoint": "https://contoso.azurewebsites.net/api/Logger?code=o74oKsbrgHDI-RnekJXdbR3Fba7mZxEmJQNyCIpV6z-ZAzFuwnaWJg==",
+    "types": [
+      *
+    ]
+  }
+]
+```
+{% endtab %}
+{% endtabs %}
+
+## Delete Webook Endpoints
+
+To delete a registered webhook endpoint, use the following DELETE request: 
+
+<mark style="color:red;">`DELETE`</mark> \{{pointWebAppUrl\}}/v1.0/webhooks/endpoints
+
+Include the endpoint URL in the body of the request to identify which webhook endpoint should be deleted.
+
+**Body**
+
+| Name       | Type   | Description            |
+| ---------- | ------ | ---------------------- |
+| `endpoint` | string | Webhook endpoint URL   |
+
+{% tabs %}
+{% tab title="Example" %}
+```json
+{
+  "endpoint": "https://contoso.azurewebsites.net/api/Logger?code=o74oKsbrgHDI-RnekJXdbR3Fba7mZxEmJQNyCIpV6z-ZAzFuwnaWJg==",
+}
+```
+{% endtab %}
+{% endtabs %}
+
+### Response
+
+If the deletion was successful, the `204 No content` status code is returned.
+
+If the endpoint is not found in Syskit Point, the `404 Not Found` status code is returned.
+
+{% tabs %}
+{% tab title="404" %}
+```json
+{
+  "message": "An error has occurred.",
+  "exceptionMessage": "WebhookEndpoint with id https://contoso.azurewebsites.net/api/Logger?code=o74oKsbrgHDI-RnekJXdbR3Fba7mZxEmJQNyCIpV6z-ZAzFuwnaWJg== not found.",
+  "exceptionType": "SysKit.Point.Application.SeedWork.Exceptions.ResourceMissingException"
+}
+```
+{% endtab %}
+{% endtabs %}
+

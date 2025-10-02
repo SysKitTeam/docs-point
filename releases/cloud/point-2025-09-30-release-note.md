@@ -29,8 +29,9 @@ To configure Copilot Agents data sync and reports currently available in early a
 * **Two new endpoints have been added** to the Syskit Point API.
   * **GET /1.0/webhooks/endpoints** - retrieves all existing webhook endpoints registered in Syskit Point.
   * **DELETE /1.0/webhooks/endpoints** - deletes a specified webhook endpoint.
-  * If the webhook endpoint URL doesn't exist, the API returns a **404 Not Found**.
-  * If a webhook endpoint is successfully deleted, the delete returns a **204 No Content**. 
+  * If the webhook endpoint URL doesn't exist, the API returns a **404 Not Found** response.
+  * If a webhook endpoint is successfully deleted, the API returns a **204 No Content** response. 
+  * [Find more information in the dedicated Webhooks article.](../../integrations/webhooks.md)
 
 * **Fixed a bug** that caused errors when generating the Group Access report on large tenants; the report is now generated without missing data. 
 
