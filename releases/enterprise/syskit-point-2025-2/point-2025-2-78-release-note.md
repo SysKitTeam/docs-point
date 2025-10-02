@@ -56,7 +56,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
   * On the **Govern > Provisioning report**, the **Resolved By** column can now be selected from the column chooser.
 
 * **Improvements made to the Activity column** on the Inactive Sites view on the Sites overview screen and Inactive Groups view on the Teams & Groups overview screen. 
-  * Activity is determined by the usage of SharePoint, Exchange, Teams, and Yammer within the timeframe specified in the Inactive Workspaces policy. 
+  * Activity is determined by the usage of SharePoint, Exchange, Teams, and Viva Engage within the timeframe specified in the Inactive Workspaces policy. 
 
 * **The Settings icon and User icon** placements have now been updated.
   * The Settings icon has been moved to the top-right corner of Syskit Point, and the User icon has been moved to the far right corner for better accessibility. 

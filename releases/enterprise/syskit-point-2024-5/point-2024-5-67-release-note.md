@@ -57,6 +57,6 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 * **Fixed an issue** that caused the Chat button to overlap with the expand icon in the right corner of reports.
 
-* **Fixed an issue** that caused Yammer provisioning to fail and not include the defined owners and members in the provisioned workspace. 
+* **Fixed an issue** that caused Viva Engage community provisioning to fail and not include the defined owners and members in the provisioned workspace. 
 
 * **Various improvements and minor UX and UI fixes are available**.

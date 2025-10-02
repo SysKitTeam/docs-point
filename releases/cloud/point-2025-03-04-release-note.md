@@ -38,7 +38,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Fixed a bug** with user roles that caused a failure when performing user sync. 
 
-* **Fixed an issue** that caused the following error when provisioning a Yammer site: `System.NullReferenceException: Object reference not set to an instance of an object.`
+* **Fixed an issue** that caused the following error when provisioning a Viva Engage community: `System.NullReferenceException: Object reference not set to an instance of an object.`
 
 * **Improved the Storage sync** to increase performance in large environments.
 

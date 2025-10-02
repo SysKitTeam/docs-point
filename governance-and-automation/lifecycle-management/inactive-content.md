@@ -15,17 +15,17 @@ Now, you can find it all in one place with the help of **Syskit Point**.
 
 ## Monitored Workloads
 
-To decide whether something is inactive in your Microsoft 365 environment, we collect activity data for the following workloads: **SharePoint**, **Exchange**, **Yammer**, and **Microsoft Teams**.
+To decide whether something is inactive in your Microsoft 365 environment, we collect activity data for the following workloads: **SharePoint**, **Exchange**, **Viva Engage**, and **Microsoft Teams**.
 
 **SharePoint activity** is collected via Microsoft 365 audit logs. The last activity is based on the latest date when a file was viewed, edited, or downloaded.
 
 For the collection of **Exchange activity**, Syskit Point uses the Microsoft 365 Groups activity report available in the Microsoft 365 admin center. The **last activity is based on the latest date when an email was delivered** to a group.
 
-The **Yammer activity** collection is also accomplished through the Microsoft 365 admin center usage report for Yammer groups activity. The **last activity is based on the latest date a message was read, posted, or liked** by the group.
+The **Viva Engage activity** collection is also accomplished through the Microsoft 365 admin center usage report for Viva Engage Groups activity. The **last activity is based on the latest date a message was read, posted, or liked** by the group.
 
 **Microsoft Teams activity** is collected using protected APIs in Microsoft Graph. The **last activity is based on the latest date when a message was posted or replied to**.
 
-**Data for Exchange, Yammer, and Microsoft Teams activities are collected by Syskit Point's dedicated service within non-working hours**, between 7:00 PM and 7:00 AM.
+**Data for Exchange, Viva Engage, and Microsoft Teams activities are collected by Syskit Point's dedicated service within non-working hours**, between 7:00 PM and 7:00 AM.
 
 {% hint style="warning" %}
 **Please note!  

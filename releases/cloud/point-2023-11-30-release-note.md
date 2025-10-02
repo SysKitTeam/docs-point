@@ -45,7 +45,7 @@ description: >-
 
 * **Fixed an issue** where hard deleted groups still provided membership information, seemingly giving permissions to users who were no longer members.
 
-* **Fixed a bug** that prevented Yammer sites from being included in Lifecycle Management when selecting All under Monitoring Activity. 
+* **Fixed a bug** that prevented Viva Engage communities from being included in Lifecycle Management when selecting All under Monitoring Activity. 
 
 * **Fixed a bug** where creating a SharePoint site provisioning request resulted in an error.
 

@@ -21,7 +21,7 @@ description: >-
 
 * **The Add Owners/Members action** now allows you to add a user just as an owner without adding them to the group as a member.
 
-* **The Shadow users policy** can now only be applied to Teams, Groups, and Yammer workspaces.
+* **The Shadow users policy** can now only be applied to Teams, Groups, and Viva Engage workspaces.
   * All users who have permissions on a site but are not part of the Members or Owners group of that workspace are now considered Shadow Users.
 
 * **Improved the Provisioning feature** in Syskit Point.

@@ -54,7 +54,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
   * The Activity column shows the current state of the workspace: 
     * If the light is **green**, the workspace is **active**.
     * If the light is **gray**, the workspace is **inactive**.
-  * Activity is **based on usage** of SharePoint, Exchange, Teams and Yammer in **the last 90 days**.
+  * Activity is **based on usage** of SharePoint, Exchange, Teams and Viva Engage in **the last 90 days**.
   * This column is available for both **Active Tasks and History**. 
 
 * **New Change Privacy action has been added** to the following reports: 

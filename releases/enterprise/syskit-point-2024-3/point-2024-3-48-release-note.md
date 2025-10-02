@@ -67,7 +67,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
   * **When determining whether a workspace is inactive in the Lifecycle Management** automation feature, the Planner activity is taken into account, so if there is Planner activity in a workspace, it is not considered inactive.
 * **Improvements made to policies!**
   * **Improved functionality** of the Workspaces with too Many Members policy.
-  * **The Shadow users policy** can now only be applied to Teams, Groups, and Yammer workspaces.
+  * **The Shadow users policy** can now only be applied to Teams, Groups, and Viva Engage workspaces.
     * All users who have permissions on a site but are not part of the Members or Owners group of that workspace are now considered Shadow Users.
 * **The Add Owners/Members action** now allows you to add a user just as an owner without adding them to the group as a member.
 * **Added new columns** to the Security and Compliance section of the Govern feature: **Number of owners and Number of members**.

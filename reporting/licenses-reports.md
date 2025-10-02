@@ -63,7 +63,7 @@ The Licenses Overview report can be **exported as PDF and XLSX files**. There is
 
 ## Licenses Usage by Service Report
 
-The **Licenses Usage by Service** report helps **identify underutilized licenses** per service (Exchange, Microsoft Teams, OneDrive, SharePoint, Yammer, etc.). 
+The **Licenses Usage by Service** report helps **identify underutilized licenses** per service (Exchange, Microsoft Teams, OneDrive, SharePoint, Viva Engage, etc.). 
 
 Use this report to quickly **check if users are fully utilizing their assigned licenses**. This helps determine if they should have **different licenses assigned to optimize usage and cost**.
 
@@ -75,7 +75,7 @@ Use this report to quickly **check if users are fully utilizing their assigned l
 
 ### Licenses Usage by Service Report Data
 
-Once the Licenses Usage by Service report is successfully generated, by default, **the result is grouped by the Service (Exchange, Microsoft Teams, OneDrive, SharePoint, Skype for Business, and Yammer) column**. 
+Once the Licenses Usage by Service report is successfully generated, by default, **the result is grouped by the Service (Exchange, Microsoft Teams, OneDrive, SharePoint, Skype for Business, and Viva Engage) column**. 
 
 The following data can also be found in the columns:
 

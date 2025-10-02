@@ -55,7 +55,7 @@ For more details on how to create Provisioning Templates, take a look at the [te
 **Please note the following:**
 
 * SharePoint Site templates do not have a Customize E-mail option
-* Yammer templates do not have URL & E-mail customization options due to technical limitations
+* Viva Engage templates do not have URL & E-mail customization options due to technical limitations
 
 {% endhint %}
 

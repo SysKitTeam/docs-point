@@ -277,7 +277,7 @@
   * [Provisioning](governance-and-automation/provisioning/README.md)
     * [Set Up Provisioning](governance-and-automation/provisioning/set-up-provisioning.md)
     * [Enable or Disable Provisioning](governance-and-automation/provisioning/enable-disable-provisioning.md)
-    * [Register Yammer App](governance-and-automation/provisioning/register-yammer-app.md)
+    * [Register Viva Engage App](governance-and-automation/provisioning/register-viva-engage-app.md)
     * [Enable Sensitivity Labels](governance-and-automation/provisioning/enable-sensitivity-labels.md)
     * [Restrict Microsoft 365 Groups Creation](governance-and-automation/provisioning/restrict-group-creation.md)
     * [Templates](governance-and-automation/provisioning/templates.md)
