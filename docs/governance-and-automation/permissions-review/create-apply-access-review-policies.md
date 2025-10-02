@@ -30,9 +30,9 @@ Here, you can choose to:
  **Apply automatically with rules (5)**
  **Manually apply policies (5)**
 
-{% hint style="warning" %}
+:::warning
 **Please note!** The predefined Access Review policy is not applied to any workspaces and will not trigger an automated Access Review.
-{% endhint %}
+:::
 
 ![Policies Screen](../../../static/img/create-access-review-policies-default-policy.png)
 
@@ -90,14 +90,14 @@ When finished, **click Confirm (6)** to store the preferences.
 
 ![Advanced Settings](../../../static/img/create-access-review-policies-advanced-settings.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!** 
 If you added [users with Full Control access to the Collaborator role](../../configuration/enable-role-based-access.md#syskit-point-collaborators), depending on advanced settings, they will receive an Access Review task.
 Keep the following in mind:
 * Users with Full Control access given via the default Site Owners SharePoint group and the Site Admins group on a SharePoint site will get an Access Review task.
 * Users who have Full Control access given in any other way - be it directly given Full Control access or via membership in any other non-default SharePoint group with Full Control access - will not get an Access Review task
 * For Microsoft Teams, Microsoft 365 Groups, and OneDrive, there is no option to include the Site Owners group members; only the Site Admins group can be included in the Access Review, meaning that Site Admins group members will receive Access Review tasks.
-{% endhint %}
+:::
 
 ## Apply Policies
 
@@ -125,17 +125,17 @@ The **Apply Access Review Policy** dialog opens where you can:
 
 ![Apply Policy Dialog - Policy](../../../static/img/create-access-review-policies-apply-policy-dialog-part-2.png)
 
-{% hint style="info" %}
+:::info
 
 **You will receive a warning** when trying to change or apply policies that state you will override selected policies. [Rules](../automated-workflows/policy-automation.md) automatically apply policies to your workspaces. 
 
 The warning serves as a reminder that **if you have rules set up**, manually changing or adding policies will replace the ones applied by the rules you have set up. Manually applied policies will take precedence over those applied with rules. An example of the warning can be seen below.
 
-{% endhint %}
+:::
 
 ![Apply Policy Dialog - Warning](../../../static/img/create-access-review-policies-apply-policy-warning.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!** 
 
 Only **one Access Review policy can be active at a time** on a workspace.
@@ -147,7 +147,7 @@ When a new Access Review policy is created and applied to workspaces, **it will 
  * **If the date** in the Settings > Access Review Options **is set in the past**, the policy will be triggered based on the recurrence set for the policy.
    * Let's say your Access Review is set to occur every 2 months; it will be triggered approximately 2 months after the policy was created and applied to the workspace(s). For this example, if the date in the Settings is the 24th of February 2024, the policy would be triggered on the 24th of April 2024.   
 
-{% endhint %}
+:::
 
 ## Next Steps
 

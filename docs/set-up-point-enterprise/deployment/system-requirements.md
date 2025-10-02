@@ -4,10 +4,10 @@ description: This article lists requirements to consider when deploying Syskit P
 
 # Requirements
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 Requirements listed in this article apply to the self-hosted Syskit Point option required when using the Enterprise plan only.
-{% endhint %}
+:::
 
 ## Syskit Point Requirements
 
@@ -31,22 +31,22 @@ The following Azure components are used:
 * **Key vault**
 
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 Each customer's environment is unique, and depending on the number of users, the number of files, and the number of event logs your tenant is generating, the resources will need to be scaled accordingly.
 Before deploying Syskit Point, your dedicated customer success manager will provide you with recommendations for all mentioned Azure components.
-{% endhint %}
+:::
 
 ## Azure Reservations
 
 To optimize cost, consider using Azure reservations.
 The table below lists potential savings in percentage for App Service, SQL Database, and Cosmos components.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 Potential savings depend on Azure region, resource tier, and other factors. 
 Use the [Azure pricing calculator](https://azure.microsoft.com/en-us/pricing/calculator/) to discover detailed pricing information for your environment.
-{% endhint %}
+:::
 
 | Azure Component | 1 Year Reservation | 3 Years Reservation |
 | :--- | :--- | :--- |
@@ -54,11 +54,11 @@ Use the [Azure pricing calculator](https://azure.microsoft.com/en-us/pricing/cal
 | SQL | ~22% | ~34% |
 | Cosmos | ~15% up to ~23% | ~25% up to ~33% |
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 When considering reservations, note the following planned Point changes:
 * Q1 2024 - replacing Windows App Services with Linux App Services
-{% endhint %}
+:::
 
 ## Supported Browsers
 
@@ -69,10 +69,10 @@ Once **Syskit Point** is installed and configured, you can access the Syskit Poi
 * **Opera**
 * **Microsoft Edge** \(Chromium-based\)
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 **Internet Explorer is not supported.**
-{% endhint %}
+:::
 
 ## Related Topics
 

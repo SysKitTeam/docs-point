@@ -4,13 +4,13 @@ description: This article explains how to enable and configure the Lifecycle Man
 
 # Enable Lifecycle Management Automation
 
-{% hint style="warning" %}
+:::warning
 **Lifecycle Management Automation** will be deprecated and replaced by the [Inactive Workspaces policy](../automated-workflows/inactive-workspaces-admin.md). After approximately two months, the feature will be fully removed from Syskit Point.
-{% endhint %}
+:::
 
-{% hint style="information" %}
+:::info
 **Lifecycle Management Automation** is available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
-{% endhint %}
+:::
 
 To use the advantages of **Lifecycle Management Automation** in **Syskit Point**, you need to:
 
@@ -18,9 +18,9 @@ To use the advantages of **Lifecycle Management Automation** in **Syskit Point**
 * **Enable the Syskit Point Collaborators role**
 * **Configure Lifecycle Management Automation in settings**
 
-{% hint style="warning" %}
+:::warning
 **Please note!** Only users assigned to the **Syskit Point Admin** role can access and configure Settings in Syskit Point.
-{% endhint %}
+:::
 
 ## Enable Lifecycle Management
 
@@ -30,9 +30,9 @@ The screen shows **additional actions** required before enabling the Lifecycle M
 
 ![Lifecycle Management - Additional Action Required](../../../static/img/enable-lifecycle-management-collaborators-disabled.png)
 
-{% hint style="info" %}
+:::info
 Use the following links and learn how to [set up e-mail](../../configuration/set-up-email.md) and enable [Syskit Point Collaborators](../../configuration/enable-role-based-access.md#syskit-point-collaborators).
-{% endhint %}
+:::
 
 Once all requirements are met, you can enable Lifecycle Management automation by completing the following:
 * **Click the checkbox to Enable Lifecycle Management Automation (1)** under the Automation option
@@ -54,10 +54,10 @@ In the **Automation Options** section, you can:
 
 ![Lifecycle Management - Automation Options](../../../static/img/enable-lifecycle-management-automation-options.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!**
 The **Keep** action cannot be disabled. A minimum of **2** selected actions is required.
-{% endhint %}
+:::
 
 The **Archive** action has additional options available:
 * **Remove access for**:
@@ -71,9 +71,9 @@ The **Archive** action has additional options available:
 
 ![Lifecycle Management - Archive Options](../../../static/img/enable-lifecycle-management-archive-options.png)
 
-{% hint style="information" %}
+:::info
 **Please note!** If a user, security group, or mail-enabled security group is added to the Governance-Excluded Users list, they do not receive any Lifecycle Management tasks or task-related emails. [For more details on setting up Governance-Excluded Users, take a look at this article.](../../configuration/exclude-users-tasks.md)
-{% endhint %}
+:::
 
 ## E-Mail Customization
 
@@ -94,11 +94,11 @@ Additionally, you can:
 
 ![Lifecycle Management - Monitored Workspace Types](../../../static/img/enable-lifecycle-management-monitor-all.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!** 
 If you haven't received approval from **Microsoft** for detecting the activity of **Microsoft Teams**, Microsoft Teams **will not be monitored** with **Lifecycle Management Automation**.
 [Find out how to enable Microsoft Teams activity tracking here](../../configuration/microsoft-teams-activity.md). 
-{% endhint %}
+:::
 
 When you click the **Preview tile**, the **Lifecycle Management - Preview** report opens, showing detailed information about workspaces that will be included in the lifecycle management automation. Here, you can:
 * **Click the tiles \(1\)** to show only a certain site type; the tiles show the number of sites included in the Lifecycle Management automation, grouped by type

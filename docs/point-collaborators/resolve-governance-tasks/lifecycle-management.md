@@ -6,9 +6,9 @@ description: >-
 
 # Workspace Lifecycle
 
-{% hint style="warning" %}
+:::warning
 **Lifecycle Management Automation** will be deprecated and replaced by the [Inactive Workspaces policy](../resolve-governance-tasks/inactive-workspaces.md). After approximately two months, the feature will be fully removed from Syskit Point.
-{% endhint %}
+:::
 
 Workspaces in Microsoft 365 usually display the following lifecycle stages:
 
@@ -60,10 +60,10 @@ After the action is executed, **the information is displayed in the bottom ribbo
 
 ![Lifecycle Management task – Workspace deleted](../../../static/img/lifecycle-management-action-completed.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 You can find more detailed information on all Lifecycle Management actions available in Syskit Point [here](../../governance-and-automation/lifecycle-management/lifecycle-management-actions.md).
-{% endhint %}
+:::
 
 All Lifecycle Management tasks assigned to you can be found on the **My Tasks screen**.
 
@@ -124,7 +124,7 @@ They can be found on the **My Tasks screen** under the Active Lifecycle Manageme
 
 * **Watch this short video for a quick start on Lifecycle Management tasks in Syskit Point**.
 
-{% embed url="https://www.youtube.com/embed/VnUb48kjYeo?si=-DIiVUQbyH500A6o" %}
+[Watch the video: Lifecycle Management tasks in Syskit Point](https://www.youtube.com/embed/VnUb48kjYeo?si=-DIiVUQbyH500A6o)
 
 
 ## Related Topics

@@ -4,9 +4,9 @@ description: This article describes how to enable and customize alerts in Syskit
 
 # Configure Alerts
 
-{% hint style="info" %}
+:::info
 **Alerts** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
-{% endhint %}
+:::
 
 **Alerts** feature in Syskit Point **allows you to monitor events** that are collected within **Microsoft 365 audit logs**.
 
@@ -44,10 +44,10 @@ The **Configure Tenant Wide Alerts action (1)** is available in the right-side p
 
 ![Sites - Configure Tenant Wide Alerts action](../../static/img/configure-alerts-configure-tenant-wide-alerts.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 Tenant-wide alerts available on the **Sites overview screen** and **Microsoft Teams & Groups overview screen** are identical because they monitor the same SharePoint events; therefore, changes on one screen will also be visible on the other.
-{% endhint %}
+:::
 
 The following **tenant-wide alert categories and alerts are available** for Microsoft Teams, Microsoft 365 Groups, OneDrive, and sites:
 
@@ -112,10 +112,10 @@ The following **alert categories and alerts are available for a specific user**:
 
 ## Enabling and Customizing Alerts
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 The following section explains how to enable and customize an alert on a specific site. The same principles from this example also apply when dealing with alerts for other types of workspaces - Microsoft Teams, Microsoft 365 Groups, OneDrive, users, or SharePoint objects such as document libraries or folders.
-{% endhint %}
+:::
 
 To enable alerts for a specific site:
 
@@ -148,10 +148,10 @@ After you enable the alert, the alert options section is activated. Here you can
 
 ![Configure Alerts - Tabs](../../static/img/configure-alerts-configure-alerts-tabs.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 Tabs and filters are displayed depending on the selected alert. For example, the **Event Type** tab is only available on alerts that monitor multiple events.
-{% endhint %}
+:::
 
 Let's examine the options on each tab separately.
 
@@ -218,9 +218,9 @@ The **Edit Alert** action is available on two screens - **Alerts overview screen
 
 ![Edit Alert dialog](../../static/img/configure-alerts-alerts-overview-edit-alert-action-dialog.png)
 
-{% hint style="success" %}
+:::tip
 **You can edit all alerts on overview screens where you initially enabled them** - both tenant-wide, and site-wide or user-specific alerts.
-{% endhint %}
+:::
 
 ## Alert Reports
 
@@ -238,9 +238,9 @@ On the **Alerts** overview screen, you can:
 
 ![Alerts overview screen](../../static/img/configure-alerts-alerts-overview-screen.png)
 
-{% hint style="success" %}
+:::tip
 **Disable alert** action allows selecting multiple rows.
-{% endhint %}
+:::
 
 When you haven't selected anything on the screen, an **Add Alert (2)** action is visible in the side panel. With this, you can define tenant-wide alerts for sites.
 
@@ -264,11 +264,11 @@ On the **Alerts History** screen, you can:
 
 ![Alert Details screen](../../static/img/configure-alerts-alert-details-screen.png)
 
-{% hint style="info" %}
+:::info
 **Hint!** When you open the **Notifications dropdown** from the user profile menu, you can:
 
 * Click the **View Details link (1)** to open the **Alert Details** screen for a specific alert
 * Click the **View All Alerts link (2)** to open the **Alerts History** screen
-{% endhint %}
+:::
 
 ![Notifications dropdown](../../static/img/configure-alerts-notifications-dropdown.png)

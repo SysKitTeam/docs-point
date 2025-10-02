@@ -39,8 +39,8 @@ To manage all the policies assigned to your workspaces and remove them, take the
 ![Manage Policies - Removal](../../../static/img/upgrade-policy-automation-manage-policies.png)
 
 
-{% hint style="information" %}
+:::info
 
 You can also **access your workspaces by clicking Sites** on the homepage of Syskit Point and following the rest of the **steps listed above to remove the policies** assigned to your workspaces.
 
-{% endhint %}
+:::

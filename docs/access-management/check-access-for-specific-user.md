@@ -45,9 +45,9 @@ It will redirect you to the **Syskit Point Report Center**, where you can click 
 
 ![Syskit Point - Report Center](../../static/img/access-for-specific-user-report-screen.png)
 
-{% hint style="info" %}
+:::info
 **Hint! -** you can also access the **User Access report** through various other **Syskit Point** **reports**, **User overview screen**, and **User details screens**.
-{% endhint %}
+:::
 
 Now that you are located on the **User Access selection** **screen**:
 * Choose **one** or **multiple users \(1\)** you wish to generate the report for
@@ -85,10 +85,10 @@ There are several ways to remove access for a user through the report:
 
 After completing the action, you will receive a **notification** containing the **see the result** link, which reloads the report data when clicked. Once the action is completed, the user will no longer have access to any workspace. 
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 Any user that had their access removed will successfully be removed from any private channels they had access to; however, at this time, it is **not possible to remove access from shared channels and Power BI workspaces**.
-{% endhint %}
+:::
 
 You can also remove access for a specific user by clicking the user's name from the report. This will redirect you to the **user details screen**.
   * Scroll down to the **Access tile (1)**, and you'll have the option to either **select all workspaces (2)** or select them individually to perform the **Remove Access (3)** action.

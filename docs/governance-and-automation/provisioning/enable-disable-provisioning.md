@@ -7,9 +7,9 @@ description: This article explains how to enable and disable provisioning in the
 
 When the Syskit Point Teams app is deployed, **Provisioning is marked as enabled by default**; however, there is an option to disable it. 
 
-{% hint style="information" %}
+:::info
 **If Provisioning is disabled**, the Request Workspace button will no longer be visible in the Syskit Point Teams app.
-{% endhint %}
+:::
 
 
 ## How to Enable or Disable the Feature

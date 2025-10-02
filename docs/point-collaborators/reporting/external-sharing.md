@@ -14,10 +14,10 @@ Or maybe your management has asked you to eliminate all potentially risky ways t
 
 Tracking externally shared content is essential as it helps **maintain data security, control permissions, monitor collaboration**, and much more.
 
-{% hint style="information" %}
+:::info
 
 If there are multiple workspaces where you are encountering an issue and want to create a report for, you can **bulk select all of the workspaces** when generating a report to learn more about the problem.
-{% endhint %}
+:::
 
 
 [For more details on how to manage external sharing, take a look at this article.](../manage-access/manage-external-sharing.md)
@@ -35,7 +35,7 @@ For easy access to the external sharing reports, complete the following steps:
  * **Click the Externally Shared Content, External Users, or Sharing Links report tile** to generate that specific report.
 
 
-{% hint style="warning" %}
+:::warning
 **Please note:**  
 You can only gain insight into **workspaces where you are the owner** and **users whom you manage**.
-{% endhint %}
+:::

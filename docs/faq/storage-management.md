@@ -28,12 +28,12 @@ Microsoft calculates the storage usage as a sum of the following components:
 
 **Archive storage used is displayed separately on the Archived Sites screen, in the upper-right corner**.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**   
 Please note! 
 Permanently deleted sites no longer contribute to the total storage used.
 Microsoft excludes sites archived via M365 Archive from the used storage numbers displayed in the SharePoint admin center.
-{% endhint %}
+:::
 
 ### Syskit Point
 
@@ -43,13 +43,13 @@ Syskit Point calculates used storage as a sum of the storage used by each site c
 * Soft deleted - Both the first-stage and second-stage recycle bin count toward used storage
 * **M365 Archived** - **Sites archived via M365 Archive are calculated in the used storage by Syskit Point**
 
-{% hint style="warning" %}
+:::warning
 **Please note!**   
 Please note! 
 Permanently deleted sites no longer contribute to the total storage used.
 Syskit Point calculates the M365 archived data in the used storage numbers, as exceeding your standard storage quota results in additional charges, although archiving the data can reduce these charges.
 For more information about billing scenarios, navigate to the [following article](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-pricing?view=o365-worldwide#billing-scenarios).
-{% endhint %}
+:::
 
 ### Differences
 The storage used data you see in M365 vs Syskit Point can differ due to the following reasons:

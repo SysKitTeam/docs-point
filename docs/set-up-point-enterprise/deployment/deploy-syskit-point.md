@@ -4,10 +4,10 @@ description: This article lists all the steps to be performed when deploying Sys
 
 # Deploy Syskit Point
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 Before you continue, make sure to read the [resource requirements article.](system-requirements.md)
-{% endhint %}
+:::
 
 Prepare the following for Syskit Point deployment:
 * **pre-created Azure resource group** and **user credentials of a resource group owner**, or
@@ -61,9 +61,9 @@ Define the following on the **Storage settings** tab:
 * **Cosmos Tier (5)**
 * **Click Next (6)** to move to the **Network configuration** tab
 
-{% hint style="warning" %}
+:::warning
 **Please note!** This is mandatory to **provision a new SQL server** as this is a Microsoft requirement. Without the SQL credentials, it would not be possible to create the SQL server; however, after the initial deployment, the credentials will not be used again. The SQL authentication is disabled, and Managed Identity authentication will be used in the future. 
-{% endhint %}
+:::
 
 ![Azure SQL Settings Tab](../../../static/img/deploy-syskit-point-azure-sql-settings.png)
 
@@ -80,11 +80,11 @@ If you click the Edit virtual option, a new screen appears where you can change 
 * **Names and address ranges (3)** for **Default**, **FE app service**, and **BE app service subnets**
 
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 Predefined ranges comply with the minimum requirements for Syskit Point resources to work properly.
 If you decide to change the predefined values, **ensure that all subnets have 255 IP addresses reserved**.
-{% endhint %}
+:::
 
 **Click OK** when you finish the virtual network setup. 
 
@@ -100,10 +100,10 @@ At the start of the deployment, you will be redirected to a page showing the dep
 
 ![Go to resource group Button](../../../static/img/deploy-syskit-point-go-to-resource-group.png)
 
-{% hint style="success" %}
+:::tip
 With the described deployment, **all Azure resources needed to run Syskit Point are created**, and no additional installation is needed.
 You can now **access Syskit Point by opening the Syskit Point web app URL in a browser**.
-{% endhint %}
+:::
 
 ## Syskit Point Web App URL
 

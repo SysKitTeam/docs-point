@@ -8,13 +8,13 @@ Having to manually keep up with file versions in your workspaces can be unnecess
 
 **Storage Versioning Limits help you limit the number of file versions kept in SharePoint document libraries**. File versions are deleted after exceeding the number of versions you set, the time period you set, or both.
 
-{% hint style="warning" %}
+:::warning
 **Please note!** \
 **A service account must be connected to Syskit Point to enable the automatic application of Versioning limits to workspaces via rules.** \
 The service account doesn't require additional permissions to apply Versioning limits. &#x20;
 
 [See the Connect Service Account article for more details on connecting the service account in Syskit Point](../configuration/connect-service-account.md)
-{% endhint %}
+:::
 
 ## Create Storage Versioning Limits
 
@@ -44,7 +44,7 @@ The Create New Manual Storage Limit pop-up opens. There, you can select:
 * **Click Save (6)** to finalize your selection and create the new storage versioning limit.
 
 
-{% hint style="info" %}
+:::info
 **Please note** the following:
 
 * If **Count Limit is selected**, after the versions surpass the set number, they are automatically deleted from older to newest. (ex. if 100 versions are selected for the count limit, then after the 101 version is created, the older version is deleted).
@@ -58,15 +58,15 @@ The Create New Manual Storage Limit pop-up opens. There, you can select:
 * The new rule **will not affect any versions created before** the versioning limits are applied. 
 
 
-{% endhint %}
+:::
 
 ![Storage Versioning Limits - Create New](../../static/img/storage-versioning-limits-new-limit-create.png)
 
 &#x20;
 
-{% hint style="info" %}
+:::info
 **Please note** that the **manual storage limit runs daily**. &#x20;
-{% endhint %}
+:::
 
 ## Apply Storage Versioning Limits
 
@@ -146,11 +146,11 @@ The **Storage Versioning Limits only apply to new file versions created after th
   * If you are using the **Time Limit**, we recommend **repeating manual cleanup periodically during the first year**.
 
 
-{% hint style="info" %}
+:::info
 **Please note**: Even with storage cleanup automation turned on, you might notice that Potential Savings are still growing. This is expected due to:
 * **Some older file versions may remain if they were not manually deleted during the initial cleanup**
 * **There is a delay in storage sync, which can happen in large environments** which means that file versions that were already deleted in SharePoint could still appear in reports until the next sync is completed
   * Depending on the size of the environment, the storage sync can take **up to a month**
   * If you have a large tenant, you can use **on-demand sync to target specific environments or sites** instead of waiting for the full sync cycle to be completed
 
-{% endhint %}
+:::

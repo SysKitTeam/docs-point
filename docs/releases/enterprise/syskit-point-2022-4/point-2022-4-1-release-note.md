@@ -25,10 +25,10 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 ## Features
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 Global admin re-consent is required after the upgrade to the 2022.4.1 version. [Learn more about permission changes here](../../../requirements/permission-requirements-change-log.md#syskit-point-20224).
-{% endhint %}
+:::
 
 * **Added Access Review for Private Channels.**
   * The Members and Sharing steps of the Access Review task now include Private Channels.

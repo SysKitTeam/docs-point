@@ -4,10 +4,10 @@ description: This article explains how to manage sensitivity labels on your work
 
 # Manage Sensitivity Labels
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 To use sensitivity labels, a service account needs to be connected to Syskit Point. For details on how to set up sensitivity labels, take a look at the [Enable Sensitivity Labels article](provisioning/enable-sensitivity-labels.md). 
-{% endhint %}
+:::
 
 Once set up, **Syskit Point admins and workspace owners can apply or remove the sensitivity labels from workspaces**. 
 
@@ -40,7 +40,7 @@ Clicking Remove Sensitivity Label opens the Remove Sensitivity Label pop-up.
 
 ![Remove Sensitivity Labels - Overview](../../static/img/manage-sensitivity-labels-remove-label.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 The sensitivity label changes can take up to 24 hours to apply to all apps and services. 
-{% endhint %}
+:::

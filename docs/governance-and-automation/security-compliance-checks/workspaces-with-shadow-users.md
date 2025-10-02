@@ -55,7 +55,7 @@ This opens the Remove Access for Shadow users screen, where you can:
 
 ![Workspaces with Shadow Users - Remove Access](../../../static/img/security-compliance-checks-shadow-users-remove-access.png)
 
-{% hint style="information" %}
+:::info
 
 **Please note** the following situations might occur:
 
@@ -67,4 +67,4 @@ This opens the Remove Access for Shadow users screen, where you can:
 
 * When the Marketing group has its access removed from the Sales team, John no longer shows up as a shadow user.
 
-{% endhint %}
+:::

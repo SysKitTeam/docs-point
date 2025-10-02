@@ -6,12 +6,12 @@ description: This article describes how to migrate Lucene Audit Index into Cosmo
 
 After you successfully finish **deployment of Syskit Point 20**, you can proceed with the migration of Audit logs collected with Syskit Point 19, stored in the Lucene Index, to Cosmos DB.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 Necessary steps before the migration:
 * Stop **Syskit Point Service** on the server where Syskit Point 19 is installed, and keep it that way during the whole process of migration
 * Stop both **Web App Service** and **BE App Service** created during the Syskit Point deployment. Open **Microsoft Azure > your Resource group > here you will find App services**. Open each of them and in the **ribbon bar** on the **Overview screen** click the **Stop** button. See the picture below.
-{% endhint %}
+:::
 
 ![Microsoft Azure - Resource group](../../static/img/migrate-lucene-to-cosmos-microsoft-azure-resource-group.png)
 
@@ -30,12 +30,12 @@ To begin with the migration:
     "AuditIndexLocation": "C:\\\ProgramData\\\SysKit\\\Point\\\AuditIndex"    
 }`
 
-{% hint style="info" %} Hint!
+:::info Hint!
 You can find the Tenant ID in the **Microsoft Entra ID admin center** > **Overview screen**. Follow the [link](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) to access the screen.
 
 Endpoint **(1)** and key **(2)** can be found in the **Microsoft Azure** > **Azure Cosmos DB account** > **Settings > Keys**. See the picture below.
     
-{% endhint %}
+:::
 
 ![Cosmos Endpoint and Primary key information](../../static/img/migrate-lucene-to-cosmos-cosmos-endpoint-and-key-information.png)
 

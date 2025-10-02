@@ -45,6 +45,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           showLastUpdateTime: true,
           showLastUpdateAuthor: false,
+          exclude: ['**/SUMMARY.md'], // Exclude SUMMARY.md files from build
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:

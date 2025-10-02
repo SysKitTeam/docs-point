@@ -4,12 +4,12 @@ description: This article provides information about the actions you can take on
 
 # Power Platform Actions
 
-{% hint style="info" %}
+:::info
 **Please Note!** Power Platform is **now available as an add-on** purchase to your Syskit Point subscription. 
 
 To enable the use of Power Platform for Syskit Point, [please contact us](https://www.syskit.com/contact-us-power-platform/).
 
-{% endhint %}
+:::
 
 
 Many organizations use Power Platform to build apps, automate workflows, and analyze data. Through Syskit Point, you can generate detailed reports for your Power Platform resources. 
@@ -24,20 +24,20 @@ To help you manage these resources, Syskit Point is introducing new Power Platfo
 
 These actions help manage access, resolve the risks of orphaned resources by adding ownership, and eliminate sprawl by removing inactive environments.
 
-* [Take a look at the Power Platform Reports article for more details on all the available Power Platform reports.](/power-platform/power-platform-reports/README.md)
+* [Take a look at the Power Platform Reports article for more details on all the available Power Platform reports.](power-platform-reports/power-platform-reports.md)
 
-{% hint style="warning" %}
-To generate the [Power Platform reports](../power-platform/power-platform-reports/README.md) and complete the Power Platform actions, please ensure [you have enabled Power Platform data collection](../power-platform/power-platform.md).\
+:::warning
+To generate the [Power Platform Reports](power-platform-reports/power-platform-reports.md) and complete the Power Platform actions, please ensure [you have enabled Power Platform data collection](power-platform.md).\
 Power Platform actions can be completed by Global Admin users and users who have the Power Platform Admin role assigned in Microsoft Entra ID.
-{% endhint %}
+:::
 
 ## Change Owners
 
 The Change Owners action can be completed for Flows on the Power Automate Inventory and Power Automate Permissions reports, as well as for Power Apps on the Power Apps Inventory and Permissions reports. 
 
-{% hint style="warning" %}
+:::warning
 Please note that the Change Owner action cannot currently be performed to change the Primary Owner of Flows; only the co-owners can be modified. The Primary Owner selection for Flows is disabled as you cannot modify the Primary Owner on non-solution flows. 
-{% endhint %}
+:::
 
 You can access the Apps report by:
 * **Clicking the number of apps** on the Power Platform Dashboard tile

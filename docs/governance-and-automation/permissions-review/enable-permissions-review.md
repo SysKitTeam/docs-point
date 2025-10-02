@@ -11,10 +11,10 @@ To use the advantages of Automated Access Review in Syskit Point, first, you nee
 * **Set up e-mail settings**
 * **Enable Syskit Point Collaborators role**
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 Only users assigned to the **Syskit Point Admin** role can access and configure Settings in Syskit Point.
-{% endhint %}
+:::
 
 To start with the configuration, open the **Settings** > **Governance** > **Access Review** screen. Initially, you may find the Access Review settings screen displaying the following warnings:
 
@@ -29,17 +29,17 @@ As a part of the Automated Access Review process, e-mails are sent to Syskit Poi
 * **Exchange Online**
 * **SMTP** - Simple Mail Transfer Protocol
 
-{% hint style="warning" %}
+:::warning
 **Please Note!**\
 The e-mail address set up in this section will appear in the **Sent from** field in all e-mails sent from Syskit Point.
-{% endhint %}
+:::
 
 ### Exchange Online Settings
 
-{% hint style="warning" %}
+:::warning
 **Please Note!**\
 Exchange Online has a sending limit of 10000 e-mails per day.
-{% endhint %}
+:::
 
 The Exchange Online method enables you to use an existing Exchange account in your Microsoft 365 tenant to send e-mails from Syskit Point. Here, you can:
 
@@ -72,9 +72,9 @@ Click the **Save** button once you confirm you received the test e-mail.
 
 ## Enable Syskit Point Collaborators
 
-{% hint style="info" %}
+:::info
 **Managing Access for Collaborators** is available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
-{% endhint %}
+:::
 
 To enable Teams and Groups owners and site administrators to perform the Access Review on their sites, you need to enable them to access Syskit Point. To do so, navigate to the **Settings** > **Security** > **Manage Access** screen. Here you should:
 
@@ -85,9 +85,9 @@ To enable Teams and Groups owners and site administrators to perform the Access 
 
 For more information about role-based access in Syskit Point, go to the [following article](../../configuration/enable-role-based-access.md).
 
-{% hint style="information" %}
+:::info
 **Please note!** If a user, security group, or mail-enabled security group is added to the Governance-Excluded Users list, they do not receive any Access Review related tasks or task-related emails. [For more details on setting up Governance-Excluded Users, take a look at this article.](../../configuration/exclude-users-tasks.md)
-{% endhint %}
+:::
 
 ## Next Steps
 

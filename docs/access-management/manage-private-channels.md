@@ -8,12 +8,12 @@ description: >-
 
 This article helps you set up and manage who the owners and members are for private channels in Microsoft Teams.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**   The following users can manage private channels access:
 
 * **Global administrator**
 * **Private channel owner**
-{% endhint %}
+:::
 
 There are several ways to manage and change the access to private channels from within Syskit Point.
 
@@ -58,9 +58,9 @@ Clicking the **Add Owners/Members** button opens a pop-up that provides the foll
   * If the change is unsuccessful, the notification states that the action was **completed with errors** and has **failed**.
   * Clicking **check details** redirects to the **Action Details screen** with a detailed log of all changes.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**   To add members to a private channel, the selected user must already be a member of the Microsoft Teams where the private channel is located.
-{% endhint %}
+:::
 
 ![Manage Private Channels - Add Owners/Members options](../../static/img/manage-private-channels-add-owners-members.png)
 
@@ -76,9 +76,9 @@ Clicking the **Change Owners** button opens a pop-up that provides the following
 
 &#x20;
 
-{% hint style="warning" %}
+:::warning
 **Please note!**   To set owners of a private channel, the selected user must already be a member of the Microsoft Teams where the private channel is located.
-{% endhint %}
+:::
 
 ![Manage Private Channels - Change Owners options](../../static/img/manage-private-channels-change-owners.png)
 
@@ -95,9 +95,9 @@ The **Members tile (1)** shows a list of all members and owners available, and t
 
 &#x20;
 
-{% hint style="warning" %}
+:::warning
 **Please note!**   After making these changes to private channels in Syskit Point, it could take up to a few hours for the changes to show in the SharePoint admin center.
-{% endhint %}
+:::
 
 ## Private Channels Report
 

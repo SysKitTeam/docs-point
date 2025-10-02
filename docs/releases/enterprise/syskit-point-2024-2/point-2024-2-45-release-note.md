@@ -24,13 +24,13 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 ## New Features
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 The upgrade to this Syskit Point version may take longer to complete, so we kindly ask for your patience while upgrading. 
 
 After upgrading to the latest version, sites need to be synced for data to show on the Storage Metrics report due to performance optimization changes introduced.
 The first site sync after the upgrade will be a full site sync instead of a partial one, which is required for the optimization changes to take effect.
-{% endhint %}
+:::
 
 * **Storage Management for SharePoint Online gets new improvements!**
   * **Views were added** to the Storage Metrics report:

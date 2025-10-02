@@ -12,10 +12,10 @@ In this article, you can locate information on:
 
 Use the Storage Metrics report to view your **tenant-wide storage consumption** and **determine if you're at risk of running out of storage**, the Site Storage Metrics report to gain **insight into the storage used by a particular site** and identify any potentially unusual spikes, and the File Storage Details report to view all of the versions of your selected file with the most important information about each version.
 
-{% hint style="information" %}
+:::info
 **Please note!**  
 You can save custom views for your reports based on your needs and preferences. [For more details on this, take a look at the Save Custom Views article.](../configuration/custom-views.md)
-{% endhint %}
+:::
 
 ## Storage Metrics
 
@@ -53,13 +53,13 @@ The following data will be displayed in the columns:
 * **Last Activity**; shows the date the last activity on the site happened.
 * **Version Limit**; shows the version limit applied to the workspace
 
-{% hint style="info" %}
+:::info
 **Please note:** If the **Last Activity column is empty** for a workspace, it means that the last activity for that workspace was performed before Syskit Point was deployed. Additionally, the activity is older than the retention period for the Microsoft 365 audit logs and can no longer be collected and processed by Syskit Point.
 
 Storage data for workspaces is collected from the **date of your initial Syskit Point deployment**.
 
 **If your Point was deployed before the Storage Management feature** integration, the data is collected from the date you **update your Syskit Point version** to the one that contains the Storage Management feature.
-{% endhint %}
+:::
 
 ## Site Storage Metrics
 
@@ -120,15 +120,15 @@ The following data will be displayed in the columns:
 
 **Selecting the site** or one or more of the files included in the site provides the **action to Clean Up File Versions**, located on the right side of the screen under the **Manage section**.
 
-{% hint style="info" %}
+:::info
 **Please note!** The Clean Up File Versions action is only available in the Governance plan or above. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
-{% endhint %}
+:::
 
 ## File Storage Details
 
-{% hint style="info" %}
+:::info
 **The File Storage Details Report** is only available in the Governance plan or above. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
-{% endhint %}
+:::
 
 The File Storage Details report displays all of the versions of the selected file with the most important information about each of the versions.
 

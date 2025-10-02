@@ -9,10 +9,10 @@ description: >-
 
 When [connecting to your Microsoft 365 tenant](../set-up-point-enterprise/deployment/connect-to-tenant.md), it is **required for you to connect with a Global Administrator account**.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 Microsoft 365 Global Admin credentials are only needed when connecting for the first time.
-{% endhint %}
+:::
 
 Below, the reasons for such requirements are described in greater detail.
 
@@ -26,10 +26,10 @@ When [connecting to a Microsoft 365 tenant](../set-up-point-enterprise/deploymen
 
 ## Syskit Point App Permissions
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 Permissions described below are automatically granted to Syskit Point by giving consent during the initial connection process.
-{% endhint %}
+:::
 
 To achieve its functionality, Syskit Point is registered as an **Enterprise Application in Microsoft Entra ID.** The permissions model is based on OAuth and OpenID Connect flows. This enables Syskit Point to consume all of the APIs provided by Microsoft in a standard and well-defined way. It also allows the use of modern authentication, including Multi-Factor Authentication.\
 Syskit Point requires permissions to access several Microsoft APIs. There are two types of required permissions:
@@ -105,11 +105,11 @@ To allow safer access to your Microsoft 365 tenant data and optimize the data sy
 
 
 
-{% hint style="information" %}
+:::info
 
 **Please note:** The Syskit Point Service Principal is also added to the Exchange Administrator; this enables syncing the distribution list and email-enabled security group owners and running management actions for such groups in Syskit Point.
 
-{% endhint %}
+:::
 
 
 ### Syskit Point Client
@@ -155,10 +155,10 @@ When using Microsoft Authentication Flow to connect a service account, the follo
 
 **Power Platform**
 
-{% hint style="information" %}
+:::info
 By default, the following permissions are not added during the initial connection to your tenant.
 Permissions are added when Power Apps and Power Automate data collection is enabled. 
-{% endhint %}
+:::
 
 **When Power Apps and Power Automate data collection is configured**, new permissions are added to the following app registrations when the Global Administrator provides consent.
 
@@ -168,13 +168,13 @@ Permissions are added when Power Apps and Power Automate data collection is enab
 | Syskit Point Power Platform | PowerAppManagementApp | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data. |
 
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 Added permissions for Power Apps and Power Automate data collection are not visible in the Microsoft Entra interface. 
 To manage the permissions, you can run the related PowerShell cmdlets described in the following articles:
 * [Get-PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/get-powerappmanagementapp?view=pa-ps-latest)
 * [Remove-PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/remove-powerappmanagementapp?view=pa-ps-latest)
-{% endhint %}
+:::
 
 **With introduction of Power Platform Actions in Point Cloud v2025.2.88, reconsent is required from the Global Administrator.** With reconsent, the following permission is added:
 
@@ -183,10 +183,10 @@ To manage the permissions, you can run the related PowerShell cmdlets described 
 | PowerApps Service/User | Access the PowerApps Service API | Delegated | Allows you to run Power Platform actions in Syskit Point. |
 | Graph/Application.ReadWrite.All | Read and write all applications | Delegated | Enables Syskit Point to update the Syskit Point Client app registration on behalf of the signed-in user. |
 
-{% hint style="warning" %}
+:::warning
 **Please note!**
 The Application.ReadWrite.All permission is used only once to update the Syskit Point Client app registration with the required PowerApps Service/User permission. After the permission is added, you can remove the Application.ReadWrite.All permission from the Syskit Point Client enterprise app.
-{% endhint %}
+:::
 
 ### Syskit Point Permissions Loader
 
@@ -227,18 +227,18 @@ The Application.ReadWrite.All permission is used only once to update the Syskit 
 | Have full control on all sites | Application | Allows Syskit Point to read documents and list items in all site collections and show you reports based on that data. |
 
 
-{% hint style="information" %}
+:::info
 
 **Please note:** The Syskit Point Permissions Loader Principal is also added to the Exchange Administrator role; this enables syncing the distribution list and email-enabled security group owners and running management actions for such groups in Syskit Point.
 
-{% endhint %}
+:::
 
 ### Syskit Point Power Platform
 
-{% hint style="information" %}
+:::info
 By default, no permissions are added during the initial connection to your tenant.
 Permissions are added when Power BI or Power Apps and Power Automate data collection is enabled. 
-{% endhint %}
+:::
 
 **Power BI**
 
@@ -258,13 +258,13 @@ Permissions are added when Power BI or Power Apps and Power Automate data collec
 | Syskit Point Client | PowerAppManagementApp | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data.  |
 | Syskit Point Power Platform | PowerAppManagementApp | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data. |
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 Added permissions for Power Apps and Power Automate data collection are not visible in the Microsoft Entra interface. 
 To manage the permissions, you can run the related PowerShell cmdlets described in the following articles:
 * [Get-PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/get-powerappmanagementapp?view=pa-ps-latest)
 * [Remove-PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/remove-powerappmanagementapp?view=pa-ps-latest)
-{% endhint %}
+:::
 
 [See the following article to learn how to enable Power Apps and Power Automate data collection in Syskit Point.](../power-platform/power-platform.md)
 

@@ -63,14 +63,14 @@ The **Edit Policy** dialog opens where you can:
 
 For details on how collaborators can [**resolve Inactive Workspaces tasks**, navigate to the following article](../../point-collaborators/resolve-governance-tasks/inactive-workspaces.md).
 
-{% hint style="Information" %}
+:::info
 **Please note**, this policy can be applied to the following workspaces:
 * **Microsoft Teams**
 * **Microsoft 365 Group**
 * **Viva Engage Community**
 * **SharePoint Site**
 
-{% endhint %}
+:::
 
 
 ## SharePoint Site Archival Options
@@ -90,7 +90,7 @@ Here are a few things you should keep in mind when it comes to the archive featu
 * If an **Inactive Workspaces task was created and the site was then archived** through Microsoft 365 Archive, the **task is automatically resolved**. 
 
 [To learn more about Microsoft 365 Archive and how to utilize it, take a look at their article](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-overview?view=o365-worldwide).
-{% endhint %}
+:::
 
 
 ## Detection for Inactive Workspaces
@@ -115,10 +115,10 @@ When using the Inactive Workspaces policy in Syskit Point, keep the following in
 * **Vulnerabilities are NOT raised for recently created sites**
 
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 Activity is being monitored from the Syskit Point deployment onward! This applies to SharePoint and Exchange workloads since historical data for these workloads is unavailable in usage reports.
-{% endhint %}
+:::
 
 ## Microsoft 365 Archive
 
@@ -126,12 +126,12 @@ Microsoft 365 Archive is a built-in feature that allows organizations to move in
 
 [To learn more about how to enable and manage Microsoft 365 Archive, take a look at their official documentation.](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-overview?view=o365-worldwide)
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 * During the free restoration period, both collaborators and admins can restore a Microsoft 365 archived site
 * If a cold storage site is restored after the free period expires, the restoration can only be completed by the admins, and you are charged at a per GB rate by Microsoft 365
 
-{% endhint %}
+:::
 
 ## Relevant Articles
 

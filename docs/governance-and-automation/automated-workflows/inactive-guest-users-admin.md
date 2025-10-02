@@ -29,9 +29,9 @@ The **Edit Policy** dialog opens where you can:
 
 Based on your configuration, **Syskit Point will start the task delegation workflow when an inactive Guest User is detected**. 
 
-{% hint style="warning" %}
+:::warning
 **Please note!**
 **You should have at least one user in your tenant with the Azure AD Premium P1 license assigned to detect sign-in times for guest users accurately.**
-{% endhint %}
+:::
 
 For details on how collaborators can [**resolve Inactive Guest Users  tasks**, navigate to the following article](../../point-collaborators/resolve-governance-tasks/guest-users-expiration.md).

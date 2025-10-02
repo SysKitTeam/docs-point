@@ -8,9 +8,9 @@ description: This article explains how to remove or keep guest user access in Sy
 
 This policy helps you ensure there are no inactive guest users with access to sites, teams, or groups. 
 
-{% hint style="info" %}
+:::info
 Syskit Point Administrators can [decide whether the guest user validation will be performed periodically or when Syskit Point detects that a guest user is inactive](../../governance-and-automation/automated-workflows/inactive-guest-users-admin.md). 
-{% endhint %}
+:::
 
 In both cases, Syskit Point will send you an e-mail to revalidate the guest user’s access.
 
@@ -40,10 +40,10 @@ The following information is available on the task screen:
 
 ![Inactive Guest User Task](../../../static/img/guest-users-expiration-policy-violation-task.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!**
 When keeping the guest user's access, **it is kept for the next 90 days by default**.
-{% endhint %}
+:::
 
 ## Guest Users Task Resolved
 

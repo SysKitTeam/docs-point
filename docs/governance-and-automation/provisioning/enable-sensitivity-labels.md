@@ -15,10 +15,10 @@ The connected service account enables Syskit Point to:
 * **Collect existing sensitivity labels**
 * **Apply sensitivity labels when creating new workspaces with provisioning workflows**
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 The sensitivity label changes can take up to 24 hours to replicate in all apps and services.
-{% endhint %}
+:::
 
 ## Service Account Requirements
 When preparing a service account for Syskit Point, consider the following requirements:
@@ -32,10 +32,10 @@ When preparing a service account for Syskit Point, consider the following requir
 * **No licenses are required for the service account**
 
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 To successfully **provision sensitivity labels onto newly created workspaces** when using the **Microsoft Authentication Flow** method, **only the service account** can create all provisioning templates.
-{% endhint %}
+:::
 
 Learn more about how to set up multifactor authentication for Microsoft 365 by taking a look at [this Microsoft article](https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide)
 

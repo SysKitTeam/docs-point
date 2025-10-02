@@ -4,11 +4,11 @@ description: The AI Agents reports provide an overview of your AI agents with th
 
 # AI Agents Reports
 
-In this article, you can find information on the [Custom SharePoint Agents Inventory Report](#custom-sharePoint-agents-inventory-report).
+In this article, you can find information on the [Custom SharePoint Agents Inventory Report](#custom-sharepoint-agents-inventory-report).
 
-{% hint style="info" %}
+:::info
 Copilot Agents reports are a part of the Power Platform add-on. Navigate to the [Copilot Agents Reports article located in the Power Platform section to find more information on the available reports.](../power-platform/power-platform-reports/copilot-agents-reports.md)
-{% endhint %}
+:::
 
 **The Custom SharePoint Agents Inventory** report can be used to identify all custom SharePoint agents, their locations, and approval statuses, among other details. The report also enables you to **navigate to the Agent Details screen for the selected agent, where you can find all of the agent's knowledge sources**.
 

@@ -12,11 +12,11 @@ The best way to ensure all workspaces are properly classified is to involve work
 
 With the new Ask Owners to Review Sensitivity action, you can now select workspaces that you want owners to review the sensitivity level for.
 
-{% hint style="warning" %}
+:::warning
 
 **Please note:** You can Ask Owners to review Sensitivity Labels for Microsoft Teams, Microsoft 365 Groups and Sites.
 
-{% endhint %}
+:::
 
 ## Ask Owners to Review Sensitivity
 
@@ -35,7 +35,7 @@ Here's how to request owners to review the sensitivity labels on their workspace
 
 After that, the dialog confirms that the task has been sent and lets you know that you can **check the newly created tasks by going to the Governance > Sensitivity Review > Requested Reviews** screen. 
 
-{% hint style="information" %}
+:::info
 
 **After a sensitivity labels review is requested:**
 * Owners receive a new task and e-mail notification.
@@ -44,6 +44,6 @@ After that, the dialog confirms that the task has been sent and lets you know th
 
 **After a Sensitivity labels review is completed or if it is overdue**, administrators receive an e-mail informing them of that 1 day after completion.
 
-{% endhint %}
+:::
 
 

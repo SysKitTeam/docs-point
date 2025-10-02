@@ -4,12 +4,12 @@ description: Power Apps reports provide insight into the state of your Power Pla
 
 # Power Apps Reports
 
-{% hint style="info" %}
+:::info
 **Please Note!** Power Platform is **now available as an add-on** purchase to your Syskit Point subscription. 
 
 To enable the use of Power Platform for Syskit Point, [please contact us](https://www.syskit.com/contact-us-power-platform/).
 
-{% endhint %}
+:::
 
 
 This article contains information on two Power Platform reports available through the **Report Center**:
@@ -18,7 +18,7 @@ This article contains information on two Power Platform reports available throug
 * [Power App Permissions Report](#power-app-permissions-report)
 
 
-{% hint style="information" %}
+:::info
 Syskit Point collects data for the following Power Platform resources:
 * Power apps
   * Canvas (Standard & SharePoint Form)
@@ -26,11 +26,11 @@ Syskit Point collects data for the following Power Platform resources:
   * Automated
   * Instant
   * Scheduled
-{% endhint %}
+:::
 
-{% hint style="warning" %}
+:::warning
 Solutions, Model-driven apps, and Desktop flows are not supported.
-{% endhint %}
+:::
 
 
 ## Power Apps Inventory Report

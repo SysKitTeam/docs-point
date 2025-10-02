@@ -14,17 +14,17 @@ Several things need to be set up before you can utilize everything Syskit Point 
 
 To help you stay up to date with the workings of your Microsoft 365 environment, **Syskit Point sends e-mails** to owners, administrators and other users when policies are applied. For these e-mails to work properly and be successfully sent, you will need to set up your e-mail within Syskit Point.
 
-{% hint style="warning" %}
+:::warning
 **For detailed instructions on configuring your e-mail settings within Syskit Point, please follow the steps listed in the [Set Up E-mail article](../configuration/set-up-email.md).**
-{% endhint %}
+:::
 
 Once the e-mail has been set up, you can also customize the e-mails that are **sent to site owners** as a part of the **Access Review and Lifecycle Management Automation**.  
 
 E-mails are used for **Access Review and Lifecycle Management** tasks, any policies applied under **Policies or Rules**, and for receiving reports available in the **Reports** section of Syskit Point. 
 
-{% hint style="warning" %}
+:::warning
 **Learn more on which aspects of the e-mails can be customized along with a step-by-step guide on how to customize them in the [Customize E-mails article](../configuration/customize-emails.md).**
-{% endhint %}
+:::
 
 ## Enable and Manage Access for Syskit Point
 
@@ -37,9 +37,9 @@ Assigning these roles to users provides the users with different levels of acces
 
 These roles also allow **site owners to perform Access Reviews on their site and complete Lifecycle Management tasks** to determine which workspaces should be archived or kept. 
 
-{% hint style="warning" %}
+:::warning
 **To learn more about the specifics of each role and how to assign them to your users, take a look at the [Enable Role-Based Access article](../configuration/enable-role-based-access.md).**
-{% endhint %}
+:::
 
 
 ## Enable Microsoft Teams Activity Tracking
@@ -52,9 +52,9 @@ Clicking the configure now button gets you started with the process of enabling 
 
 Through this, you'll gain insight into when a workspace should be assessed to determine its value for the future with options to **keep, archive or delete the workspace**. 
 
-{% hint style="warning" %}
+:::warning
 **For more details on what this includes and a guide on how to successfully set it up, follow the instructions in the [Enable Microsoft Teams Activity Tracking article](../configuration/microsoft-teams-activity.md).**
-{% endhint %}
+:::
 
 ## Ignore Service Account Activity Tracking 
 
@@ -66,17 +66,17 @@ The Ignored Service Accounts option in Syskit Point allows you to **avoid tracki
  * The Service Account audit logs **won't be stored**
  * The Service Account changes **will be ignored and won't trigger alerts**
 
-{% hint style="warning" %}
+:::warning
 **Learn all about service accounts in Syskit Point and how to avoid tracking their activity by reading through the [Ignore Service Account Activity tracking article](../configuration/ignore-service-account-activity-tracking.md).**
-{% endhint %}
+:::
 
 ## Customize Audit Logs Collection
 
 The Audit Logs provide insights into all user and administration activities in your Microsoft 365 environment.‌ They contain activity information related to **groups, documents, permissions, directory services and much more**. 
 
-{% hint style="warning" %}
+:::warning
 **For more details on Audit Logs collection and how to customize it, take a look at the [Customize Audit Logs collection article](../configuration/customize-audit-logs-collection.md).**
-{% endhint %}
+:::
 
 ## Customize License Reports
 
@@ -84,17 +84,17 @@ The License Reports can discover assigned, unassigned or inactive Microsoft 365 
 
 Customizing license reports can only be done by users with the assigned Syskit Point Admin role. 
 
-{% hint style="warning" %}
+:::warning
 **Learn more about license reports and how to customize them in the [Customize License Reports article](../configuration/customize-license-reports.md).**
-{% endhint %}
+:::
 
 ## Enable Power BI Data Collection
 
 If your Microsoft 365 utilizes the Power BI data collection software, you can connect it with Syskit Point. 
 
-{% hint style="warning" %}
+:::warning
 **For instructions on how to set-up the Power BI data collection follow the instructions in the [Enable Power BI Data Collection article](../power-platform/enable-powerBI-data-collection.md).**
-{% endhint %}
+:::
 
 
 ## Syskit Point for Collaborators and Owners

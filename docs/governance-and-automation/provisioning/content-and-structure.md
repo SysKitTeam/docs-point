@@ -67,7 +67,7 @@ When deciding which option to select from the three available, it helps to know 
 | File templates | No | No | No | Yes | Yes |
 | Files/Documents | No | No | No | No | Yes |
 
-{% hint style="information" %}
+:::info
 
 **Please note** that: 
 * **When copying Teams with Private Channels, owners of the provisioned Teams are set as Private Channel owners as well**
@@ -77,10 +77,10 @@ When deciding which option to select from the three available, it helps to know 
   * Default & custom file templates are not counted toward the 20-file copy limit
   * Private & Shared channel files are not copied
 
-{% endhint %}
+:::
 
 
-{% hint style="warning" %}
+:::warning
 The following is **NOT copied or supported**: 
 * **Subsites** 
 * **Plans**
@@ -90,7 +90,7 @@ The following is **NOT copied or supported**:
 * **Folder color**
 * **OneNote**
 * **Files with double space characters in the file name**
-{% endhint %}
+:::
 
 
 Find more details on how to create Provisioning templates in the [Templates article](templates.md). For any additional questions about the content & structure aspect of Provisioning, please [take a look at the FAQ article.](../../faq/provisioning-content-structure.md)

@@ -4,14 +4,14 @@ description: This article provides information on available Copilot Agents repor
 
 # Copilot Agents Reports
 
-{% hint style="info" %}
+:::info
 Power Platform is **available as an add-on** purchase to your Syskit Point subscription. 
 To enable the use of Power Platform for Syskit Point, [please contact us](https://www.syskit.com/contact-us-power-platform/).
-{% endhint %}
+:::
 
-{% hint style="warning" %}
+:::warning
 **Please Note!** To configure Copilot Agents data sync and reports currently available in early access, [please contact us](https://www.syskit.com/contact-us-power-platform/).
-{% endhint %}
+:::
 
 This article contains information on two Copilot Agents reports available through the Report Center:
 * [Copilot Agents Inventory Report](#copilot-agents-inventory-report)

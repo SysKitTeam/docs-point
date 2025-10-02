@@ -4,9 +4,9 @@ description: This article describes how to turn on auditing in the Microsoft 365
 
 # Turn On Auditing
 
-{% hint style="information" %}
+:::info
 **Audit Reports** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
-{% endhint %}
+:::
 
 For Syskit Point to collect, process, and save audit logs, you must enable auditing in your tenant. The following warning message shows in Syskit Point if auditing is not enabled:
 
@@ -26,14 +26,14 @@ After you click the button, a security dialog appears. Click Yes to continue.
 
 After you complete the steps described, wait for audit logs to show on the Audit Log Search page.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 When you initially connect your tenant to Syskit Point, **Syskit Point collects audit logs no more than 7 days in the past**; this is a technical limit of the Office 365 Management API utilized in the audit log collection process.
 Syskit Point will not collect audit log data before it becomes available in the Microsoft Purview portal. **It can take up to 24 hours for audit log data to become available.**
-{% endhint %}
+:::
 
-{% hint style="info" %}
+:::info
 **Hint!**  
 You can also use **PowerShell** to turn on auditing. Find detailed instructions on how to do so in the [following article](https://docs.microsoft.com/en-us/microsoft-365/compliance/turn-audit-log-search-on-or-off).
-{% endhint %}
+:::
 

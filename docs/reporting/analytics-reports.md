@@ -13,10 +13,10 @@ This article contains information on analytics reports available through the **R
 * [Inactive Workspaces Report](#inactive-workspaces-report)
 * [Workspaces with Stale Content Report](#workspaces-with-stale-content-report)
 
-{% hint style="information" %}
+:::info
 **Site Structure and Inactive Workspaces reports** are available in all plans. **Site Analytics report** is available in the Security & Compliance plan and higher tiers. 
 See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
-{% endhint %}
+:::
 
 ## Site Analytics Report
 

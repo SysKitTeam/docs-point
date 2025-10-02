@@ -15,10 +15,10 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes 
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 Global admin re-consent is required after the upgrade to the latest version due to changes in APIs used to [detect Teams chat activity](../../configuration/microsoft-teams-activity.md). [Learn more about permission changes here](../../requirements/permission-requirements-change-log.md)
-{% endhint %}
+:::
 
 * **Improved the Sync job in Syskit Point to handle sites with high subsite count better**. 
 

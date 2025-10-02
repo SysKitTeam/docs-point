@@ -27,12 +27,12 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 ## Features
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 Global admin re-consent is required after the upgrade to the 2023.1 version. Global admins can expect to receive an email with the subject **Syskit Point – Global Admin consent needed**. Consent is required due to permission changes added for the new Access Requests feature. [Learn more about permission changes here](../../../requirements/permission-requirements-change-log.md#syskit-point-20231).
 
 [Syskit Point Teams app upgrade](../../../governance-and-automation/syskit-point-teams-app.md#upgrade-syskit-point-teams-app) is required after upgrading to the 2023.1 version.
-{% endhint %}
+:::
 
 * **Access Request feature** is now available! Syskit Point admins can now:
   * [Create Access Request policies](../../../governance-and-automation/access-requests/create-access-requests-policy.md) where they can specify the level of access that can be requested, as well as the desired approval process.
@@ -40,9 +40,9 @@ Global admin re-consent is required after the upgrade to the 2023.1 version. Glo
   * [Request to join a specific workspace](../../../point-collaborators/manage-workspaces/request-workspace-access.md) and **approve requests** when users ask to join a workspace; emails are sent to notify when these actions occur.
   * **Discover All Workspaces in their environment** and **workspaces they have joined, listed under My Workspaces**.
 
-{% hint style="info" %}
+:::info
 **Access Requests** are available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
-{% endhint %}
+:::
 
 ## Improvements & Bug Fixes
 

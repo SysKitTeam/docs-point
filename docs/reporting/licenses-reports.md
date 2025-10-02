@@ -18,14 +18,14 @@ These reports can be used to **identify underutilized licenses to drive adoption
 
 
 
-{% hint style="information" %}
+:::info
 **License Reports** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
-{% endhint %}
+:::
 
-{% hint style="information" %}
+:::info
 **Please note!**  
 You can save custom views for your reports based on your needs and preferences. [For more details on this, take a look at the Save Custom Views article.](../configuration/custom-views.md)
-{% endhint %}
+:::
 
 ## Licenses Overview Report
 

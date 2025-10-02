@@ -102,10 +102,10 @@ This step provides general information about the workspace that you are about to
 
 The **Close & Continue Later** option is available on all steps on the left-bottom and enables you to leave the Access Review wizard.
 
-{% hint style="success" %}
+:::tip
 **Hint!**\
 If you choose to leave the Access Review Wizard all performed actions take effect immediately and will be visible in the Summary step at the end of the Access Review.
-{% endhint %}
+:::
 
 ### Members/Users Step
 
@@ -143,10 +143,10 @@ The **Users step** is available **when reviewing sites**. The following options 
 
 ![Access Review wizard - Users step](../../../static/img/permissions-review-users.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 Members/Users step is not available when reviewing permissions for OneDrive.
-{% endhint %}
+:::
 
 ### Sharing Step
 
@@ -222,9 +222,9 @@ To complete the Access Review, take the following steps:
 * **Type CONFIRM (3)** in the appropriate field.
 * **Click the Confirm button (4)**.
 
-{% hint style="warning" %}
+:::warning
 **Please note!** The **Complete Review** action cannot be undone or edited.
-{% endhint %}
+:::
 
 ![Complete Review dialog](../../../static/img/access-review-complete-review.png)
 
@@ -271,7 +271,7 @@ The Access Review cycle will repeat based on the schedule defined by the Syskit 
 
 * **Watch this short video for a quick start on Access Review tasks in Syskit Point**.
 
-{% embed url="https://www.youtube.com/embed/Jku8GqPifvI?si=YpNBlu2TrLY47JCn" %}
+[Watch the video: Access Review tasks in Syskit Point](https://www.youtube.com/embed/Jku8GqPifvI?si=YpNBlu2TrLY47JCn)
 
 
 ## Related Topics

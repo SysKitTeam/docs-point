@@ -4,9 +4,9 @@ description: This article explains how to customize e-mails within Syskit Point.
 
 # Customize E-mails
 
-{% hint style="information" %}
+:::info
 **Customized E-mails** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
-{% endhint %}
+:::
 
 Syskit Point **provides the option to customize e-mails** that are **sent to site owners** as a part of **Access Review and Lifecycle Management Automation**.  
 
@@ -25,10 +25,10 @@ These changes can be performed in three locations within Syskit Point Settings:
 * **Governance Settings &gt; Access Review** 
 * **Governance Settings &gt; Lifecycle Management**
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 Only Syskit Point Admin users can customize e-mails.
-{% endhint %}
+:::
 
 ## E-mail Settings
 
@@ -57,17 +57,17 @@ To define a banner used in e-mails:
 
 ![Customize Banner](../../static/img/customize-emails-define-banner.png)
 
-{% hint style="info" %}
+:::info
 **Hint!**  
 **Modifying the logo and banner** as described here **is a global action**, meaning that it **will affect all e-mails**.
-{% endhint %}
+:::
 
 ## Access Review Settings
 
-{% hint style="info" %}
+:::info
 **Hint!**  
 The customization affects automatic emails sent for workspaces with assigned Access Review policies. For more information on that topic, visit the [following article](../governance-and-automation/permissions-review/create-apply-access-review-policies.md).
-{% endhint %}
+:::
 
 To customize the Access Review e-mail, first, navigate to **Settings** > **Governance** > **Access Review Options \(1\)**. 
 
@@ -88,10 +88,10 @@ When finished, click the **Confirm button \(5\)** to save your changes.
 
 ![Customize Access Review E-mail](../../static/img/customize-emails-access-review-dialog.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!** 
 The custom message can contain **plain text** or **HTML**. A **link has to be defined in the HTML form** `<a href="URL">LinkDisplayText</a>` where `URL` represents a web address to a web resource, and the `LinkDisplayText` is an arbitrary text that will be displayed in the e-mail, and, when clicked, lead to the defined URL.
-{% endhint %}
+:::
 
 
 You can immediately see the e-mail changes by clicking the before-mentioned **Preview e-mail button**.

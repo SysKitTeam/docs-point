@@ -37,10 +37,10 @@ Here, you can:
 
 ![Generating Reports - Selection Screen](../../static/img/reporting-overview-selection-step.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 Different reports show different objects to select and different filters to adjust. 
-{% endhint %}
+:::
 
 In the example given, **the Selection step for the Permissions Matrix report shows Microsoft Teams, Microsoft 365 Groups, OneDrive, and sites to select**. 
 
@@ -51,9 +51,9 @@ Some reports, such as **the External Users report, generate right after clicking
 
 ## Report Categories
 
-{% hint style="warning" %}
+:::warning
 Check the articles below for information on what [subscription plans](https://www.syskit.com/products/point/pricing/) the reports will be available in.
-{% endhint %}
+:::
 
 Reports in Syskit Point can be divided into the following categories:
 * [External Sharing Reports](external-sharing-reports.md)

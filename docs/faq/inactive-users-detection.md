@@ -12,10 +12,10 @@ This article explains **how a user's activity is determined based on the user ty
 
 Syskit Point determines a user's last activity based on **sign-in data from Microsoft 365 and Entra ID, depending on the user type**.
 
-{% hint style="information" %}
+:::info
 **Please note!** For Syskit Point to track Inactive Users in your environment, please ensure you meet all of **the requirements** as [explained in this Microsoft article.](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-manage-inactive-user-accounts?tabs=admin-center)
 
-{% endhint %}
+:::
 
 ### Internal (Organization) Users
 
@@ -33,12 +33,12 @@ For **Guest Users**, who do not appear in the Unified Audit Log (e.x. Teams-only
 
 [For more details on this, take a look at the Customize Audit Logs Collection article.](../configuration/customize-audit-logs-collection.md#sign-in-logs-from-microsoft-entra-id)
 
-{% hint style="information" %}
+:::info
 **Please note!** 
 * This method is required as certain guest users, such as those using only Microsoft Teams, may not generate typical audit log entries. 
 * Some users may not generate any login records if they haven't interacted with your tenant in a way that gets logged. This is a limitation of Microsoft logs and APIs, not Syskit Point. 
 
-{% endhint %}
+:::
 
 ## The Inactivity Threshold
 

@@ -8,10 +8,10 @@ description: This article explains how to resolve the Minimum number of Owners p
 
 This task helps you identify which Microsoft Teams, Microsoft Groups or SharePoint Sites don't have the required number of owners. You will be notified only for the workspaces where you are the owner.
 
-{% hint style="success" %}
+:::tip
 By default, **Syskit Point suggests that Microsoft Teams and Microsoft 365 Groups should have at least 2 owners** so that if one owner leaves, Microsoft Teams and Microsoft 365 Groups are not left without an owner. 
 [Syskit Point Administrators can change the minimum number of required owners to fit the organization’s policies.](../../governance-and-automation/automated-workflows/set-up-policies.md)
-{% endhint %}
+:::
 
 When Syskit Point detects that the Microsoft Teams or Microsoft 365 Groups you are the owner of do not have a minimum number of owners predefined by your organization’s policies, **you will receive an e-mail to resolve the policy vulnerability**.
 
@@ -43,11 +43,11 @@ The following are available on the task screen:
 
 ![Policy Vulnerability Task](../../../static/img/minimum-number-of-owners-policy-violation-task.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 **When you click an action within the policy vulnerability task, think of it as a preview** of what will happen after resolving the policy vulnerability.
 **All actions that change users' access are performed after you click the Resolve button**. 
-{% endhint %}
+:::
 
 ## Reassigned Task
 
@@ -78,21 +78,21 @@ If you are among the selected roles or users, when the due date for the initiall
 ![Policy Vulnerability History Screen](../../../static/img/minimum-number-of-owners-workflow-history.png)
 
 
-{% hint style="info" %}
+:::info
 
 **Please note:** By default, the Minimum Number of Owners Orphaned policy vulnerability is detected when there are less than 2 active owners assigned to a workspace. If there are no active owners assigned to a workspace, the [Orphaned Workspaces](../../governance-and-automation/automated-workflows/orphaned-resources-admin.md) vulnerability is detected instead. 
 
 If 1 owner is assigned to a workspace when resolving the Orphaned Workspaces vulnerability, Syskit Point will detect the Minimum Number of Owners vulnerability.
 
-{% endhint %}
+:::
 
 **After you resolve the policy vulnerability, an e-mail is also sent to owners**, showing the following information:
 * **Microsoft Teams or Microsoft 365 Group where an owner resolved the policy vulnerability**
 * **Who and when resolved the policy vulnerability**
 * **View Details button** that **opens the History screen** in Syskit Point, showing all the activities that were performed within the workflow
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 **If you click Accept Risk for the policy vulnerability**, **Microsoft Teams**, **Microsoft 365 Groups or SharePoint Sites where the policy vulnerability was detected is considered compliant for the duration you selected when accepting the risk**. Syskit Point will not send policy vulnerability e-mails or create policy vulnerability tasks for this workspace during this timeframe.
-{% endhint %}
+:::
 

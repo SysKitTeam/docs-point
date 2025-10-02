@@ -31,10 +31,10 @@ Once you've selected the one that best suits your needs for this policy, **click
 
 ![Workspaces with Shadow Users - Selection](../../../static/img/workspaces-with-shadow-users-selection.png)
 
-{% hint style="Information" %}
+:::info
 **Please note**, this policy can be applied to the following workspaces:
 * **Microsoft Teams**
 * **Microsoft 365 Group**
 * **Viva Engage Community**
 
-{% endhint %}
+:::

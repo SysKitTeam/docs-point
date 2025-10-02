@@ -6,12 +6,12 @@ description: This article explains how to set up the Orphaned Workspaces policy 
 
 Syskit Point detects **workspaces that don't have active owners**, which helps you ensure there is always someone responsible for access and content management for your workspaces. 
 
-{% hint style="warning" %}
+:::warning
 **Please note!** 
 The default Orphaned Workspaces policy now also applies to SharePoint Sites. 
 You can expect to see the changes after the next AutoDiscover sync following the upgrade to the latest Point version.
 Custom Orphaned Workspaces policies created by Syskit Point admins can also be applied to SharePoint sites using Rules or manually.
-{% endhint %}
+:::
 
 A predefined policy - **Orphaned Workspaces** - can be found on the Policies screen. 
 
@@ -33,7 +33,7 @@ The **Edit Policy** dialog opens, where you can:
 ![Edit Policy Dialog](../../../static/img/set-up-automated-workflows-orphaned-dialog.png)
 
 
-{% hint style="info" %}
+:::info
 
 **Please note the following:** 
 * **The Orphaned Workspaces policy vulnerability is detected when there are 0 active owners assigned to a workspace.** 
@@ -44,15 +44,15 @@ The **Edit Policy** dialog opens, where you can:
 * **Site Owners are determined by the SharePoint Owners group.**
   * Only users in the SharePoint Owners group are considered Site Owners and can resolve tasks. **Site Admins cannot resolve tasks** and are not considered Site Owners.
 
-{% endhint %}
+:::
 
 For details on how collaborators can [**resolve Orphanes Workspaces policy vulnerability tasks**, navigate to the following article](../../point-collaborators/resolve-governance-tasks/orphaned-resources.md).
 
-{% hint style="Information" %}
+:::info
 **Please note**, this policy can be applied to the following workspaces:
 * **Microsoft Teams**
 * **Microsoft 365 Group**
 * **SharePoint Sites**
 * **Viva Engage Community**
 
-{% endhint %}
+:::

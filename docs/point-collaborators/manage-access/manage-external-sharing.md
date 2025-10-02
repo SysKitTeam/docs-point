@@ -16,11 +16,11 @@ This can be done through **sharing links or by adding external users** to Micros
 
 Syskit Point helps you manage external sharing, which means you can easily **control who has access to your organization's data** and **limit the risk of data breaches** or other security issues.
 
-{% hint style="information" %}
+:::info
 
 You are only able to **manage external sharing for workspaces where you are the owner**.
 
-{% endhint %}
+:::
 
 In this article, you will learn how to:
 

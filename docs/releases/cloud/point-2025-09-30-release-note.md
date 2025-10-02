@@ -19,10 +19,10 @@ description: This article lists improvements and bug fixes in the Syskit Point C
   * **Copilot Agent Knowledge Sources report**
   * [Find more information about the reports in the Copilot Agents Reports article.](../../power-platform/power-platform-reports/copilot-agents-reports.md)
 
-{% hint style="warning" %}
+:::warning
 **Please Note!** 
 To configure Copilot Agents data sync and reports currently available in early access, [please contact us](https://www.syskit.com/contact-us-power-platform/).
-{% endhint %}
+:::
 
 ## Improvements & Bug Fixes 
 

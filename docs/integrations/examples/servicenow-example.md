@@ -60,8 +60,7 @@ Next, you need to set up an approval workflow.
 
 You can use the prepared script below as a part of your workflow.
 
-{% code title="servicenow.js" overflow="wrap" lineNumbers="true" fullWidth="false" %}
-```javascript
+```javascript title="servicenow.js"
 /*
 This script integrates ServiceNow with Syskit Point's provisioning engine to create a new team based on a ServiceNow request item.
 The script retrieves user emails and other request details from ServiceNow, formats the data, and sends it to Syskit Point's provisioning API.
@@ -208,7 +207,6 @@ Note: Ensure that each request variable (e.g., `site_name`, `owners`, `members`)
 })(current);
 
 ```
-{% endcode %}
 
 By following these steps, you can integrate ServiceNow with Syskit Point, enabling seamless provisioning of Microsoft 365 resources directly from your service desk.
 

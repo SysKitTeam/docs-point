@@ -6,18 +6,18 @@ description: This article explains how to set up the Maximum Number of Owners po
 
 Syskit Point detects workspaces with too many owners, which can lead to diffusion of responsibility.
 
-{% hint style="warning" %}
+:::warning
 **Please note!** 
 The default Maximum 5 Owners policy now also applies to SharePoint Sites. 
 You can expect to see the changes after the next AutoDiscover sync following the upgrade to the latest Point version.
 Custom Maximum Number of Owners policies created by Syskit Point admins can also be applied to SharePoint sites using Rules or manually.
-{% endhint %}
+:::
 
-{% hint style="info" %}
+:::info
 The following users are counted as Owners in Syskit Point:
 * **Microsoft 365 Group Owners** for Microsoft 365 Groups & Microsoft Teams workspaces.
 * **Members** of the **SharePoint sites' default Owners SharePoint Group** for **SharePoint Site** workspaces.
-{% endhint %}
+:::
 
 A predefined policy - set as **Maximum 5 Owners** - is located on the Policies screen. This policy applies to **Microsoft Teams, Microsoft Groups, and SharePoint Sites**.
 
@@ -47,11 +47,11 @@ The **Edit Policy** dialog opens where you can:
 
 For details on how collaborators can [**resolve Maximum Number of Owners policy vulnerability tasks**, navigate to the following article](../../point-collaborators/resolve-governance-tasks/maximum-number-of-owners.md).
 
-{% hint style="Information" %}
+:::info
 **Please note**, this policy can be applied to the following workspaces:
 * **Microsoft Teams**
 * **Microsoft 365 Group**
 * **Viva Engage Community**
 * **SharePoint Site**
 
-{% endhint %}
+:::

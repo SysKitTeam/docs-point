@@ -31,11 +31,11 @@ Once you've selected the one that best suits your needs for this policy, **click
 
 ![Workspaces with Too Many Members - Selection](../../../static/img/workspaces-with-too-many-members-selection.png)
 
-{% hint style="Information" %}
+:::info
 **Please note**, this policy can be applied to the following workspaces:
 * **Microsoft Teams**
 * **Microsoft 365 Group**
 * **Viva Engage Community**
 * **SharePoint Site**
 
-{% endhint %}
+:::

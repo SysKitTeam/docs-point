@@ -90,15 +90,15 @@ If this was completed successfully, proceed to the following steps:
 
  `Data Source=tcp:{serverName},1433;Initial Catalog=SysKitPointDB;User Id="{managed identity client id}";Authentication=Active Directory Managed Identity;`
 
-{% hint style="warning" %}
+:::warning
 **IMPORTANT!**  
 There are two parts of the above text that will need to be changed:
 
-Data Source=tcp:**{serverName}** should be pasted from your SQL server for Syskit Point. The text is formatted as: servername.database.windows.net
+Data Source=tcp:**\{serverName\}** should be pasted from your SQL server for Syskit Point. The text is formatted as: servername.database.windows.net
 
-User Id="**{managed identity client id}** needs to be changed. The Client ID you previously copied from your Managed Identity resource should be placed where the text says **managed identity client id**. 
+User Id="**\{managed identity client id\}**" needs to be changed. The Client ID you previously copied from your Managed Identity resource should be placed where the text says **managed identity client id**. 
 
-{% endhint %}
+:::
 
 For example, after being edited with your server information, the text should look like this: 
 

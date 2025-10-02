@@ -4,9 +4,9 @@ description: This article provides all information about scheduled reports in Sy
 
 # Schedule Reports
 
-{% hint style="information" %}
+:::info
 **Scheduled Reports** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
-{% endhint %}
+:::
 
 When you manage permissions and workspaces in your Microsoft 365 tenant, creating reports, sharing them, or saving them for future reference might take up a lot of your time – that’s where the Scheduled Reports in Syskit Point can help!
 
@@ -42,10 +42,10 @@ For example, in the picture below, a generated Permissions Matrix report is show
 
 ![Scheduling a generated report](../../static/img/scheduled-reports-schedule-report.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 One subscription can contain multiple reports, but they all share the same schedule and delivery options.
-{% endhint %}
+:::
 
 The Schedule Report button opens the Schedule Report dialog displayed in the picture below. Here, you can see and do the following:
 
@@ -59,10 +59,10 @@ The Schedule Report button opens the Schedule Report dialog displayed in the pic
 
 ![Schedule Report dialog - New Subscription](../../static/img/scheduled-reports-new-subscription-dialog.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 Schedule & Delivery options are defined per Subscription.
-{% endhint %}
+:::
 
 In the Report Settings tab, you can:
 
@@ -74,10 +74,10 @@ In the Report Settings tab, you can:
 
 ![Schedule Report dialog - Report Settings](../../static/img/scheduled-reports-report-settings.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 Report options are defined per each report in the subscription separately.
-{% endhint %}
+:::
 
 A confirmation dialog appears. Close it or use the **View Subscriptions button** to open the **Scheduled Reports** screen.
 

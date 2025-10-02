@@ -27,10 +27,10 @@ Workspace owners receive an **e-mail** stating that your company requires you to
 * **The names of the workspaces (4)** where the review was requested on
 * **Go to Syskit Point button (5)** that opens the task in Syskit Point
 
-{% hint style="information" %}
+:::info
 **Please note:** You can also access the task by going to Syskit Point > **Tasks** > Active > **Metadata Review**. 
 
-{% endhint %}
+:::
 
 ![Resolve Metadata Review - E-mail](../../../static/img/resolve-metadata-review-email.png)
 

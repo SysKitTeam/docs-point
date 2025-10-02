@@ -6,9 +6,9 @@ description: This article provides all the information about the Syskit Point Te
 Syskit Point Teams application provides a familiar interface for your end-users to request new workspaces without leaving Microsoft Teams. 
 
 
-{% hint style="information" %}
+:::info
 **The Microsoft Teams App** feature is available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
-{% endhint %}
+:::
 
 ## Deploy Microsoft Teams Application 
 

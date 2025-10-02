@@ -18,9 +18,9 @@ This action redirects you to the well-known Microsoft Sign-in screen.
 
 Here, you have to enter your existing Microsoft 365 credentials.
 
-{% hint style="warning" %}
+:::warning
 **Please note!** When signing in for the first time, using Global Administrator credentials and proceeding with [Role-based Access configuration](../configuration/enable-role-based-access.md) is advisable.
-{% endhint %}
+:::
 
 After the sign-in, the Syskit Point Home screen opens.
 

@@ -14,11 +14,11 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## New Features
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 Global admin re-consent is required after the upgrade to the latest version if you enabled Power Platform data collection in one of the previous versions.
 Consent is required due to permission change introduced to enable [running Power Platform actions](../../power-platform/power-platform-actions.md) in Syskit Point. [Learn more about permission changes here](../../requirements/permission-requirements-change-log.md)
-{% endhint %}
+:::
 
 * **New Power Platform actions are available.**
   * You can now complete the following actions on Power Platform reports:

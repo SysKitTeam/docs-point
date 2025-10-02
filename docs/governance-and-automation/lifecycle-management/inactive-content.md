@@ -5,9 +5,9 @@ description: This section describes how to find inactive workspaces within Syski
 # Identify Inactive Workspaces
 
 
-{% hint style="warning" %}
+:::warning
 **Lifecycle Management Automation** will be deprecated and replaced by the [Inactive Workspaces policy](../automated-workflows/inactive-workspaces-admin.md). After approximately two months, the feature will be fully removed from Syskit Point.
-{% endhint %}
+:::
 
 Have you ever wondered how to discover all inactive workspaces in your Microsoft 365 environment?  
 It is important to have this kind of information because you want a well-organized and clutter-free Microsoft 365 environment.  
@@ -27,10 +27,10 @@ The **Viva Engage activity** collection is also accomplished through the Microso
 
 **Data for Exchange, Viva Engage, and Microsoft Teams activities are collected by Syskit Point's dedicated service within non-working hours**, between 7:00 PM and 7:00 AM.
 
-{% hint style="warning" %}
+:::warning
 **Please note!  
 Activity is being monitored from the Syskit Point installation onward!** This applies to SharePoint and Exchange workloads since historical data for these workloads is not available in usage reports.
-{% endhint %}
+:::
 
 ## Define What Is Inactive
 
@@ -56,9 +56,9 @@ When you **hover over the info icon**, you will see which workloads are included
 
 Hover over circle icons for each row to get more information about the **activity**. The **circle is colored gray** if there **was no activity since the application started collecting the activity data**. If the **circle is colored** **green**, the **content is** **active**. The date of the last activity is displayed on hover.
 
-{% hint style="info" %}
+:::info
 **Hint!** If more than one workload was active, then the latest date among all workloads will be shown.
-{% endhint %}
+:::
 
 There is also a separate **Inactive Sites view \(1\)** available, accessed from the View drop-down menu. By selecting it, the Activity column becomes visible in the grid.
 
@@ -76,10 +76,10 @@ You can **access** **Details** **screens** for Sites, Microsoft 365 Groups, and 
 
 ![Details screen - Analytics and Usage tile - Activity section](../../../static/img/inactive-content-analytics-and-usage-tile-activity-section.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 Workload activity data is shown only for the **root site level**. Document libraries, lists, folders, and list items **won't have the Activity section displayed** in the **Analytics and Usage** tile.
-{% endhint %}
+:::
 
 ### Inactive Workspaces Report
 

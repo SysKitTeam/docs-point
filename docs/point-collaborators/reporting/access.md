@@ -33,7 +33,7 @@ For easy access to the access reports, complete the following steps:
 * **Select the Permissions Reports category in the filter** in the upper left corner.
 * Depending on the report you want to generate, **click on the selected report tile** to generate the report.
 
-{% hint style="warning" %}
+:::warning
 **Please note:**\
 You can only gain insight into **workspaces where you are the owner** and **users whom you manage**.
-{% endhint %}
+:::

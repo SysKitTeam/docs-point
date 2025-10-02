@@ -35,9 +35,9 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 * **If you are a workspace owner**, you will continue to receive tasks for workspaces with automated policies applied as configured by Syskit Point Admin. \
   [**Use this link to learn how to resolve governance tasks in Syskit Point**](../../../point-collaborators/resolve-governance-tasks/my-tasks.md).
 
-{% hint style="info" %}
+:::info
 **The Security & compliance dashboard is available to Syskit Point administrators only**.
-{% endhint %}
+:::
 
 **With the new dashboard, important policy changes were introduced.**
 
@@ -71,7 +71,10 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 **Syskit Point 2023.4 brings a new look and feel and a revamped homepage experience!** We're excited to introduce the new look and feel of Syskit Point following our company rebranding. With improved platform capabilities and a redefined product vision as the central hub for administration, security, and compliance, we are thrilled to unveil the new homepage experience. This revamped interface features a left-hand menu and a centralized dashboard, offering a comprehensive overview of your Microsoft 365. Easily navigate and delve into specifics as needed.
 
-<figure><img src="../../../../static/img/newHomepagev2.gif" alt=""><figcaption><p>New Home Page Experience</p></figcaption></figure>
+<figure>
+<img src="../../../../static/img/newHomepagev2.gif" alt="" />
+<figcaption><p>New Home Page Experience</p></figcaption>
+</figure>
 
 ## Improvements & Bug Fixes
 

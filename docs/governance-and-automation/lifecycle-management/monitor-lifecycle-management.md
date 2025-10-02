@@ -4,14 +4,14 @@ description: This article provides a full overview of the lifecycle management a
 
 # Monitor Lifecycle Management Tasks in Syskit Point
 
-{% hint style="warning" %}
+:::warning
 **Lifecycle Management Automation** will be deprecated and replaced by the [Inactive Workspaces policy](../automated-workflows/inactive-workspaces-admin.md). After approximately two months, the feature will be fully removed from Syskit Point.
-{% endhint %}
+:::
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 First, make sure to check how to [enable and configure Lifecycle Management Automation in Syskit Point.](enable-lifecycle-management.md)
-{% endhint %}
+:::
 
 All **content** and **workspaces** in your **Microsoft 365** Environment have a certain **lifecycle**, be it the **creation** of the **new** workspace, that workspace being **used** for collaboration, file sharing, chat, or when a product is retired and when the previously used workspace becomes **stale**, **inactive** and **no longer needed**.
 
@@ -50,10 +50,10 @@ Clicking on **Resolve now** opens the lifecycle management **Awaiting Response**
 
 ![Syskit Point - Awaiting Response report](../../../static/img/monitor-lifecycle-management-awiting-response.png)
 
-{% hint style="info" %}
+:::info
 **Hint**!  
 To ensure that every workspace has an owner responsible for lifecycle management, always set an active user as an owner for the orphaned workspace.
-{% endhint %}
+:::
 
 ## Governance – Lifecycle Management
 
@@ -109,7 +109,7 @@ You can also:
 
 You can also perform the **Restore** action on workspaces that were **deleted** \(if they haven’t been permanently deleted\) or **archived.**
 
-{% hint style="info" %}
+:::info
 **Hint**!  
 To learn more, visit the articles for running [lifecycle management actions](lifecycle-management-actions.md) and [resolving lifecycle management tasks](../../point-collaborators/resolve-governance-tasks/lifecycle-management.md).
-{% endhint %}
+:::

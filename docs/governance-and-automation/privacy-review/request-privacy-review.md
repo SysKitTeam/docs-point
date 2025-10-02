@@ -16,11 +16,11 @@ By regularly reviewing and updating privacy levels, workspace owners can ensure 
 
 With the new Ask Owners to Review Privacy action, you can now select workspaces that you want owners to review the privacy level for.
 
-{% hint style="warning" %}
+:::warning
 
 **Please note:** You can Ask Owners to review the Privacy of Microsoft Teams and Microsoft 365 Groups only.
 
-{% endhint %}
+:::
 
 ## Ask Owners to Review Privacy
 
@@ -38,7 +38,7 @@ After that, the dialog confirms that the task has been sent and lets you know th
 
 ![Privacy Review - Request](../../../static/img/request-privacy-review-request.png)
 
-{% hint style="information" %}
+:::info
 
 **After a privacy review is requested:**
 * Owners receive a new task and e-mail notification.
@@ -47,6 +47,6 @@ After that, the dialog confirms that the task has been sent and lets you know th
 
 **After a Privacy review is completed or if it is overdue**, administrators receive an e-mail informing them of that 1 day after completion.
 
-{% endhint %}
+:::
 
 

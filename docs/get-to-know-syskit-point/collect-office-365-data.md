@@ -16,15 +16,15 @@ On the Home page, you will see a notification that the initial load is in progre
 
 ![Syskit Point - Initial load screen](../../static/img/collect-m365-data-initial-sync-in-progress.png)
 
-{% hint style="info" %}
+:::info
 **Hint!**  
 While the initial Sync is in progress, if you drill to Site details of a not-yet-synced site, the site automatically gets a higher Sync priority and will be synced as soon as possible.
-{% endhint %}
+:::
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 Initial Sync can take considerably longer than 24 hours to complete, all depending on the size of your Microsoft 365 environment.
-{% endhint %}
+:::
 
 ## Sync
 
@@ -42,18 +42,18 @@ Here is an overview of screens and actions triggered by clicking the Sync button
 
 While the first Sync collects data for all SharePoint Online Sites, Microsoft Teams, Microsoft 365 Groups, Microsoft 365 tenant users and their OneDrive \(optional\), **all following Sync recurrences take changes into account, meaning that only SharePoint Online Sites and Microsoft 365 Groups with discovered changes will be synced.**
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 Since change detection is based on Microsoft 365 audit log data, it can take up to 24 hours after a change event occurs for the corresponding audit log entry to be available for Syskit Point to process.
-{% endhint %}
+:::
 
 **Auto Discover of Sites and Microsoft 365 Groups is by default run every 24 hours.**
 
 **User Sync is by default run every 24 hours** and collects data for all Microsoft 365 tenant users. Single user sync is not available at this point.
 
-{% hint style="info" %}
+:::info
 **Hint!**  
 All changes in your Microsoft 365 environment should be synced in no more than 24 hours.  
 Should you require data to be synced immediately, you can start the Sync manually at any time by clicking the Sync button on the appropriate screen, be it for a Site, Microsoft 365 Group or all users in your tenant.
-{% endhint %}
+:::
 

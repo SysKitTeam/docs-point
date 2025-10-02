@@ -102,15 +102,15 @@ The **Clean Up** link opens the **Storage Metrics report**, where you can select
 
 ![Storage tile ](../../static/img/dashboard-storage-tile.png)
 
-{% hint style="info" %}
+:::info
 **Hint!**  
 The used storage number is calculated for all files, including those in the recycle bin and archived files. OneDrive storage is not included in the metrics.
-{% endhint %}
+:::
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 Storage data displayed on the Dashboard can differ from the data provided by the **SharePoint admin center** since it doesn't include changes made within the last 24-48 hours, as described [here](https://docs.microsoft.com/en-us/sharepoint/manage-site-collection-storage-limits).
-{% endhint %}
+:::
 
 [For more details on Storage Management for SharePoint Online, take a look at the Storage Management Overview article.](../storage-management/storage-management-overview.md)
 
@@ -217,10 +217,10 @@ The **View All** link opens the **Governance** section, showing the **Vulnerabil
 
 ![Inactive Workspaces tile](../../static/img/dashboard-inactive-workspaces-tile.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 The number of inactive workspaces **will be visible 10 days after the first installation of Syskit Point.**
-{% endhint %}
+:::
 
 
 ## Microsoft 365 Licenses
@@ -244,12 +244,12 @@ For more information on the license reports available, take a look at the [Licen
 
 ## Power Platform 
 
-{% hint style="info" %}
+:::info
 **Please Note!** Power Platform is **now available as an add-on** purchase to your Syskit Point subscription. 
 
 To enable the use of Power Platform for Syskit Point, [please contact us](https://www.syskit.com/contact-us-power-platform/).
 
-{% endhint %}
+:::
 
 
 The Power Platform tile on the Syskit Point dashboard **provides an overview of your Power Platform environments, apps, flows, and connections**.
@@ -268,7 +268,7 @@ The tile on the Dashboard shows:
   * Clicking the **Inactive Apps** number opens the Power Apps Inventory report with the Inactive Apps filter applied
   * Clicking the **Inactive Flows** number opens the Power Automate Inventory report with the Inactive Flows filter applied
 
-* For more details [on the Power Platform reports, take a look at this article.](../power-platform/power-platform-reports/README.md)
+* For more details [on the Power Platform reports, take a look at this article.](../power-platform/power-platform-reports/power-platform-reports.md)
 
 ![Power Platform Tile](../../static/img/dashboard-power-platform-tile.png)
 

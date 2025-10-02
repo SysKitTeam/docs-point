@@ -8,10 +8,10 @@ description: This article provides a step-by-step guide on how to get a free 21-
 
 In this article, you can find out **how and where to get your 21 days of Syskit Point trial**.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**&#x20;
 This article shows how to get a free trial of the Syskit Point solution as a service. If your company policies require using a self-hosted solution, please [contact us](https://www.syskit.com/company/contact-us) to acquire a trial key.
-{% endhint %}
+:::
 
 There are two steps to exploring Syskit Point in the free trial:
 * **Try Syskit Point with demo data**
@@ -22,10 +22,10 @@ There are two steps to exploring Syskit Point in the free trial:
   * You will be prompted to connect your Microsoft 365 tenant and provide Global Admin consent
   * Syskit Point will sync and display data from your Microsoft 365 tenant
 
-{% hint style="warning" %}
+:::warning
 **Please note!**&#x20;
 To connect your Microsoft 365 tenant, you first need to sign up. 
-{% endhint %}
+:::
 
 ## Get Syskit Point with Demo Data
 
@@ -70,10 +70,10 @@ Next, provide information in the Sign Up form:
 
 ## Connect Your Tenant
 
-{% hint style="warning" %}
+:::warning
 **Please note!**&#x20;
 We recommend Global Administrators perform the initial connection since consent is required multiple times during the initial setup process, giving Syskit Point permissions to collect your Microsoft 365 tenant data.
-{% endhint %}
+:::
 
 To connect with your tenant:
 
@@ -125,7 +125,7 @@ After the Syskit Point instance is created, you can find the following in the Co
 
 ![Syskit Point instance created](../../static/img/free-trial-subscriptions-complete-point-instance-created.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!**&#x20;
 The Syskit Point trial comes with limitations. To learn about the limits of your Syskit Point trial, see the [Syskit Point trial limits article](free-trial-limits.md). 
-{% endhint %}
+:::

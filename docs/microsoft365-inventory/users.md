@@ -59,10 +59,10 @@ Additional columns are available in the **column chooser**, located in the top r
  * OneDrive Client Synced
  * External User Type
 
-{% hint style="information" %}
+:::info
 **Please note!**  
 You can save custom views for your overview screens based on your needs and preferences. [For more details on this, take a look at the Save Custom Views article.](../configuration/custom-views.md)
-{% endhint %}
+:::
 
 ## Report Actions
 

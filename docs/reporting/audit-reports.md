@@ -15,14 +15,14 @@ In this article, there is information on five audit logs reports available throu
 
 These reports can be accessed in the Report section by selecting the **Audit Logs** category from the dropdown filter.
 
-{% hint style="information" %}
+:::info
 **Audit Logs Reports** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
-{% endhint %}
+:::
 
-{% hint style="information" %}
+:::info
 **Please note!**  
 You can save custom views for your reports based on your needs and preferences. [For more details on this, take a look at the Save Custom Views article.](../configuration/custom-views.md)
-{% endhint %}
+:::
 
 ## Audit Logs Overview Report
 
@@ -81,8 +81,8 @@ Use this report to **see all Exchange-related activity in your environment**.
 * **Select Audit Logs in the filter**; it can be found in the upper left corner.
 * **Click the Exchange Logs report** to generate the report.
 
-{% hint style="warning" %} Please note!
-By default, Exchange logs are not collected; at least one Exchange activity must be selected for Syskit Point to collect and store Exchange log data. {% endhint %}
+:::warning Please note!
+By default, Exchange logs are not collected; at least one Exchange activity must be selected for Syskit Point to collect and store Exchange log data. :::
 
 Click [here](../configuration/customize-audit-logs-collection.md) to learn more about customizing the Exchange logs collection.
 

@@ -4,9 +4,9 @@ description: This article explains the Site Storage limits in Microsoft 365.
 
 # Enable Manual Site Storage Limits in Microsoft 365
 
-{% hint style="information" %}
+:::info
 Steps described in this section can be performed with SharePoint Admin or Global Admin permissions only.
-{% endhint %}
+:::
 
 By default, all SharePoint sites use a pool of SharePoint storage without any limits until the pool runs out of all available storage. 
 
@@ -31,8 +31,8 @@ Afterward, you can define the storage limit for each site:
 
 ![Edit site storage limit](../../static/img/optimize-storage-edit-site-storage-limit.png)
 
-{% hint style="success" %}
+:::tip
 Defined site storage limit and percentage of used storage defined for email notifications are synced and visible in Syskit Point.
-{% endhint %}
+:::
 
 [Read this article to find all details on storage settings available in the SharePoint admin center](https://learn.microsoft.com/en-us/sharepoint/manage-site-collection-storage-limits). 

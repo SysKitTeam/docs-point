@@ -6,10 +6,10 @@ description: This article provides information about the Copy User Permissions a
 
 The **Copy User Permissions action** enables you to copy all directly given permissions and group memberships from one user to another user or even multiple users, eliminating the daunting task of comparing permissions between users and manually applying them as needed.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 The Copy User Permissions action is available only for Syskit Point users with the Syskit Point Admin role.
-{% endhint %}
+:::
 
 To learn more about roles in Syskit Point, see the [following article](../configuration/enable-role-based-access.md).
 
@@ -66,8 +66,8 @@ The Copy User Permissions **does not copy the following**:
 
 ## Existing Permissions 
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 **Existing permissions of the destination user are not affected by the Copy User Permissions action**.
 Copied permissions are appended to the existing ones.
-{% endhint %}
+:::

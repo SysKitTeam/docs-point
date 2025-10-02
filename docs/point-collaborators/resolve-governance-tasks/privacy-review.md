@@ -23,10 +23,10 @@ Workspace owners receive an **e-mail** stating that your company requires you to
 * **The names of the workspaces (3)** where the review was requested on
 * **Go to Syskit Point button (4)** that opens the task in Syskit Point
 
-{% hint style="information" %}
+:::info
 **Please note:** You can access the task by going to Syskit Point > **Tasks** > Active > **Privacy Review**. 
 
-{% endhint %}
+:::
 
 ![Resolve Privacy Review - E-mail](../../../static/img/resolve-privacy-review-email.png)
 

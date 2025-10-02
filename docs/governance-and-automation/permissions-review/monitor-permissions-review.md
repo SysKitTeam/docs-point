@@ -6,10 +6,10 @@ description: >-
 
 # Monitor Access Review in Syskit Point
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 First, make sure to check how to [enable and configure the Automated Access Review in Syskit Point](enable-permissions-review.md).
-{% endhint %}
+:::
 
 **Access review**, in the context of the Microsoft 365 environment, is an activity where a person responsible for a Microsoft 365 workspace - be it a Communication site, Microsoft Team, Microsoft 365 Group, or OneDrive - checks whether permissions given to users inside (internal) and outside (external) of company, comply with the organizational rules and guidelines.
 
@@ -50,10 +50,10 @@ Three workdays before the start of automated Access Review, Syskit Point Admin u
 
 ![Access Review reminder email](../../../static/img/monitor-access-review-reminder-email.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 To ensure that all sites have an owner responsible for the upcoming Access Review, set active users as site owners for all orphaned sites.
-{% endhint %}
+:::
 
 ## Governance - Access Review
 
@@ -94,10 +94,10 @@ The Access Review report gives Syskit Point Admins the following information:
 
 Use the **Remind Owners action** to send a reminder email to site owners regarding the ongoing Access Review. You can use this action **once a day**, whenever you think appropriate, **as long as the Access Review is active**. **Only site owners with pending tasks will receive an email**.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 Access Review has, by default, a duration of **ten days**. In this time frame, site owners should be able to complete the Access Review on their sites. By default, **three days before the Access Review end date**, Syskit Point sends an automatic **email reminder to all site owners with pending tasks**.
-{% endhint %}
+:::
 
 ## Access Review Completion
 

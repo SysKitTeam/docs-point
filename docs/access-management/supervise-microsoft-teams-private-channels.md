@@ -12,10 +12,10 @@ description: >-
 
 You might want to use a Private Channel in a situation where you have a group of people who need a focused space to collaborate without having to create a separate team, or they need to discuss sensitive information, such as budgets, resourcing, strategic positioning, and so on.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 Anyone, **including guest users**, can be a member of a Private Channel as long as they are a member of the Team within which the Private channel was created.
-{% endhint %}
+:::
 
 ### Who Can Create a Private channel
 
@@ -58,10 +58,10 @@ The next thing you have to do is to **click the Filter icon (1)** of the Templat
 
 Now, **only the sites of Private Channels will be visible** on the Site Overview screen. You can **recognize them by the lock icon** displayed next to the name of the site.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 The name of the Private Channel site consists of the **name of its Team** + the **name of said Private Channel**.
-{% endhint %}
+:::
 
 ![Syskit Point Site Overview - Filtered sites of Private Channels](../../static/img/supervise-microsoft-teams-private-channels-private-channels.png)
 
@@ -85,10 +85,10 @@ Here, click the **View chooser (1)** and select the **Teams with Private Channel
 
 The report now shows only Microsoft Teams with Private Channels.
 
-{% hint style="info" %}
+:::info
 **Hint!**\
 You can also see which Microsoft Teams have Private Channels by enabling the **Private Channels** column in the **Column Chooser**.
-{% endhint %}
+:::
 
 When you click the name column of a Team you wish to inspect, the Group Details page opens. 
 

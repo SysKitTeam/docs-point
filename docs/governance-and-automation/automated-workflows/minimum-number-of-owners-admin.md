@@ -6,18 +6,18 @@ description: This article explains how to set up the Minimum Number of Owners po
 
 Syskit Point detects workspaces that don't have enough owners, which can make your workspaces less secure and difficult to manage.
 
-{% hint style="warning" %}
+:::warning
 **Please note!** 
 The default Minimum 2 Owners policy now also applies to SharePoint Sites. 
 You can expect to see the changes after the next AutoDiscover sync following the upgrade to the latest Point version.
 Custom Minimum Number of Owners policies created by Syskit Point admins can also be applied to SharePoint sites using Rules or manually.
-{% endhint %}
+:::
 
-{% hint style="info" %}
+:::info
 The following users are counted as Owners in Syskit Point:
 * **Microsoft 365 Group Owners** for Microsoft 365 Groups & Microsoft Teams workspaces.
 * **Members** of the **SharePoint sites' default Owners SharePoint Group** for **SharePoint Site** workspaces.
-{% endhint %}
+:::
  
 The Policies screen contains a predefined policy - **Minimum 2 Owners**. 
 
@@ -49,19 +49,19 @@ The **Edit Policy** dialog opens where you can:
 
 ![Edit Policy Dialog - Task Delegation](../../../static/img/set-up-automated-workflows-min-owners-dialog-task-delegation.png)
 
-{% hint style="info" %}
+:::info
 **Please note:** By default, the Minimum Number of Owners Orphaned policy vulnerability is detected when less than 2 active owners are assigned to a workspace (Microsoft Teams, Microsoft Groups, or SharePoint Sites). If there are no active owners assigned to a workspace, the [Orphaned Workspaces](orphaned-resources-admin.md) vulnerability is detected instead.
 
 If 1 owner is assigned to a workspace when resolving the Orphaned Workspaces vulnerability, Syskit Point will detect the Minimum Number of Owners vulnerability.
-{% endhint %}
+:::
 
 For details on how collaborators can [**resolve Minimum Number of Owners policy vulnerability tasks**, navigate to the following article](../../point-collaborators/resolve-governance-tasks/minimum-number-of-owners.md).
 
-{% hint style="Information" %}
+:::info
 **Please note**, this policy can be applied to the following workspaces:
 * **Microsoft Teams**
 * **Microsoft 365 Group**
 * **Viva Engage Community**
 * **SharePoint Site**
 
-{% endhint %}
+:::

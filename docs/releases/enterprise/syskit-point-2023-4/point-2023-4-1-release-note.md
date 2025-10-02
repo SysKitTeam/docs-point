@@ -24,12 +24,12 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 ## Features
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 Global admin re-consent is required after the upgrade to the latest version. Consent is required due to permission changes introduced with enhancements in the Copy User Permissions action. [Learn more about permission changes here](../../../requirements/permission-requirements-change-log.md).
 
 [Syskit Point Teams app upgrade](../../../governance-and-automation/syskit-point-teams-app.md#upgrade-syskit-point-teams-app) is required after upgrading to the latest version due to changes introduced in the new Microsoft Teams app.
-{% endhint %}
+:::
 
   * **New Storage Metrics report is available!**
     * The Storage Metrics report shows your storage usage over time in your tenant to help you: 

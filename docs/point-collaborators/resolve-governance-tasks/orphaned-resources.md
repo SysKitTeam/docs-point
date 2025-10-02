@@ -10,7 +10,7 @@ description: >-
 
 When a team no longer has an active owner, there is no longer a person on the other end of an automated governance policy which means the site could potentially have shared files that are outdated and pose a serious security risk.
 
-{% hint style="info" %}
+:::info
 When configuring the Orphaned Workspaces policy, Syskit Point Administrators can [decide how the process of assigning owners to orphaned workspaces will look like](../../governance-and-automation/automated-workflows/orphaned-resources-admin.md). There are 3 options available:
 
 * **Specific users are asked to assign new owners**
@@ -20,7 +20,7 @@ When configuring the Orphaned Workspaces policy, Syskit Point Administrators can
 * **Syskit Point automatically assigns new owners**
   * The last owner's manager is assigned as the new group owner
   * In case the manager is not found, a defined user gets a task to resolve the vulnerability
-{% endhint %}
+:::
 
 In all cases, Syskit Point will send you an e-mail that will guide you through resolving the policy vulnerability, or notify you if you were assigned as a workspace owner.
 
@@ -53,9 +53,9 @@ Along with the e-mail, Syskit Point creates a policy vulnerability task that pro
 
 ![Policy Vulnerability Task](../../../static/img/orphaned-resources-policy-violation-task.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!** **When you click an action within the policy vulnerability task, think of it as a preview** of what will happen after resolving the policy vulnerability. **All actions that change users' access are performed after you click the Resolve button**.
-{% endhint %}
+:::
 
 ### Policy Vulnerability Resolved
 
@@ -98,9 +98,9 @@ You can find the following information in the e-mail:
 
 ![Policy Vulnerability Task](../../../static/img/orphaned-resources-policy-violation-task-member.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!** When you suggest a new owner or the team/group to be archived or deleted, **your suggestion is forwarded to the approvers along with suggestions from other members**. The **approvers will finalize the actions and resolve the policy vulnerability** based on the suggestions.
-{% endhint %}
+:::
 
 ### Members’ Policy Vulnerability Task Resolved
 
@@ -110,9 +110,9 @@ You can find the following information in the e-mail:
 
 In the second stage of the process, **if you are defined to approve members' suggestions** for the team/group having no owners, you will receive an e-mail asking you to assign new owners and resolve the policy vulnerability.
 
-{% hint style="warning" %}
+:::warning
 **Please note!** **You will receive the e-mail after all members suggest what to do with the team/group** or **the due date for the first stage is reached**.
-{% endhint %}
+:::
 
 You can find the following information in the e-mail:
 
@@ -148,11 +148,11 @@ You can find the following information in the e-mail:
 * **Who and when resolved the policy vulnerability**
 * **View Details button** that opens the History screen in Syskit Point, showing all the activities that were performed within the workflow
 
-{% hint style="info" %}
+:::info
 **Please note:** The Orphaned Workspaces policy vulnerability is detected when there are 0 active owners assigned to a workspace.
 
 If 1 owner is assigned to a workspace when resolving the Orphaned Workspaces vulnerability, Syskit Point will detect the [Minimum Number of Owners policy](minimum-number-of-owners.md) vulnerability, as the default requirement is to have at least 2 owners per workspace.
-{% endhint %}
+:::
 
 ## Syskit Point Automatically Assigns New Owners
 
@@ -175,8 +175,8 @@ Once a workspace is detected as without any active owners, the following situati
 * If a **new owner was located**, however, **the action of assigning them** as the new owner of the workspace **ends in failure, the task is assigned to Syskit Point Administrators**.
   * In this case, an e-mail notification is not sent to Syskit Point Administrators.
 
-{% hint style="info" %}
+:::info
 **Please note:** The Orphaned Workspaces policy vulnerability is detected when there are 0 active owners assigned to a workspace.
 
 If 1 owner is assigned to a workspace when resolving the Orphaned Workspaces vulnerability, Syskit Point will detect the [Minimum Number of Owners policy](minimum-number-of-owners.md) vulnerability, as the default requirement is to have at least 2 owners per workspace.
-{% endhint %}
+:::

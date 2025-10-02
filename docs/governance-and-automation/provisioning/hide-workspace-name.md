@@ -17,9 +17,9 @@ With the new option, you can easily change the name, but the URL and e-mail can 
 
 ## Creating a Provisioning Template
 
-{% hint style="warning" %}
+:::warning
 After upgrading Syskit Point, please refresh the Microsoft Teams web client to ensure the new provisioning request will work correctly.
-{% endhint %}
+:::
 
 When creating a [Provisioning template](templates.md), the fifth step in the process shows you the screen where you can customize your:
 
@@ -43,21 +43,21 @@ In the e-mail customization section, you can:
 * Customize e-mail prefix/suffix
     * Selecting this gives the ability to change the e-mail prefix and suffix
 
-{% hint style="success" %}
+:::tip
 For all options, when selected, you can see what the end-result URL or e-mail for the workspace will look like.
-{% endhint %}
+:::
 
 For more details on how to create Provisioning Templates, take a look at the [templates article](../provisioning/templates.md).
 
 
-{% hint style="information" %}
+:::info
 
 **Please note the following:**
 
 * SharePoint Site templates do not have a Customize E-mail option
 * Viva Engage templates do not have URL & E-mail customization options due to technical limitations
 
-{% endhint %}
+:::
 
 ## Upgrading the Existing Provisioning Templates
 
@@ -84,10 +84,10 @@ The following table shows how different template setups in the old version are u
 | Naming Rule toggle enabled; prefix and suffix defined; Apply naming rule to workspace URL and e-mail option disabled | Workspace Name Rule toggle enabled; Name prefix and suffix set to the value defined in previous version; all URL and e-mail customization options disabled |
 | Naming Rule toggle enabled; prefix and suffix defined; Apply naming rule to workspace URL and e-mail option enabled | Workspace Name Rule toggle enabled; Name prefix and suffix set to the value defined in previous version; Customize URL prefix/suffix option enabled - URL prefix and suffix defined and equal to Name prefix and suffix; Customize e-mail prefix/suffix option enabled - E-mail prefix and suffix defined and equal to Name prefix and suffix |
 
-{% hint style="warning" %}
+:::warning
 **Please Note!** In all upgrade scenarios, __Allow end user to edit URL/e-mail__ and __Hide workspace name from URL/e-mail__ options are disabled. 
 If you want to allow end-users to edit URL/e-mail or want to hide the workspace name from URL/e-mail, please edit existing provisioning templates or create new ones and enable appropriate options to fit your needs.
-{% endhint %}
+:::
 
 
 

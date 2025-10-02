@@ -44,18 +44,18 @@ This redirects you to the **Rules** screen in the Settings of your Syskit Point.
 
 ### Apply Manually
 
-{% hint style="information" %}
+:::info
 Rules can simplify policy assignments to workspaces by introducing conditions based on which the policies are automatically assigned. 
 This way, existing workspaces and new ones that will be created in the future are covered without any manual intervention.
 Where possible, we encourage you to use rules for applying policies. 
 [To learn how to upgrade from manually applied policies to rules, read this article](upgrade-to-policy-automation.md).
-{% endhint %}
+:::
 
 Applying policies manually means you can select the workspaces to which you want a specific policy applied. 
 
-{% hint style="information" %}
+:::info
 **If you have [Rules](../automated-workflows/policy-automation.md) set up**, when you manually apply a policy to a workspace that already had a policy of the same type assigned via Rules, the automatically assigned policy will be replaced with the new manually applied policy. 
-{% endhint %}
+:::
 
 To start, open the Policies settings screen, navigate to the Apply Policies section, and click the Manually Apply Policies button.
 
@@ -76,11 +76,11 @@ The Manage Policies screen opens where you can:
 
 After clicking the **Manage Policies (6)** button, the **Manage Policy** dialog opens, where you can **select a policy** and **apply** the chosen policy on the selected workspaces grouped by the policy type.
 
-{% hint style="information" %}
+:::info
 
 When manually applying a policy, you **receive a warning** that it will replace any automatically assigned policies. The warning will still appear even if you do not have Rules set up.  
 
-{% endhint %}
+:::
 
 ![Manage Policies Dialog](../../../static/img/set-up-automated-workflows-apply-policy-dialog.png)
 
@@ -88,9 +88,9 @@ When manually applying a policy, you **receive a warning** that it will replace 
 
 
 
-{% hint style="success" %}
+:::tip
 **Once a policy is applied, Syskit Point automates detection for a policy vulnerability**. 
-{% endhint %}
+:::
 
 
 You can find an article on how to create or edit each policy here:

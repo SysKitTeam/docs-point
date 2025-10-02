@@ -66,44 +66,62 @@ Depending on which version you are upgrading to, below you can find the list of 
 
 <table><thead><tr><th>App Registration</th><th width="206">API/Permissions Name</th><th width="103">Permission</th><th width="111">Type</th><th>Reason</th></tr></thead><tbody><tr><td>Syskit Point Service</td><td>Microsoft Graph/ChannelMessage.Read.All</td><td>Read all channel messages</td><td>Application</td><td>Enables Syskit Point to calculate Teams activity based on the latest channel message date.</td></tr></tbody></table>
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 Syskit Point **does not read or save** the content of messages to detect Microsoft Teams activity.
-{% endhint %}
+:::
 
 ### Syskit Point Cloud 2025.2.88
 
-{% hint style="warning" %}
+:::warning
 **Syskit Point will require reconsent only if you enabled Power Platform data collection in one of the previous versions.**\
 **New permission is added for the app registration after reconsenting if the Power Platform data collection is enabled.**
-{% endhint %}
+:::
 
 **The following permission is added to the existing Syskit Point app registration**:
 
-<table><thead><tr><th>App Registration</th><th width="210">API/Permissions Name</th><th width="115">Permission</th><th width="104">Type</th><th>Reason</th></tr></thead><tbody><tr><td>Syskit Point Client</td><td>PowerApps Service/User</td><td>Access the PowerApps Service API</td><td>Delegated</td><td>Allows you to run Power Platform actions in Syskit Point.</td></tr>
-</tbody></table>
+<table>
+<thead>
+<tr>
+<th>App Registration</th>
+<th width="210">API/Permissions Name</th>
+<th width="115">Permission</th>
+<th width="104">Type</th>
+<th>Reason</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Syskit Point Client</td>
+<td>PowerApps Service/User</td>
+<td>Access the PowerApps Service API</td>
+<td>Delegated</td>
+<td>Allows you to run Power Platform actions in Syskit Point.</td>
+</tr>
+</tbody>
+</table>
 
 ### Syskit Point Cloud 2025.1.77
 
 With the introduction of Power Platform support, new permissions are added to the following app registrations when the Global Administrator turns on the Power Platform data collection and provides consent.
 
-{% hint style="info" %}
+:::info
 Permissions are added for the app registration only if the Power Platform data collection is enabled.
-{% endhint %}
+:::
 
 | App Registration            | Permission Name       | Reason                                                                                             |
 | --------------------------- | --------------------- | -------------------------------------------------------------------------------------------------- |
 | Syskit Point Client         | PowerAppManagementApp | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data. |
 | Syskit Point Power Platform | PowerAppManagementApp | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data. |
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 Added permissions are not visible in the Microsoft Entra interface.\
 To manage the permissions, you can run the related PowerShell cmdlets described in the following articles:
 
 * [Get-PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/get-powerappmanagementapp?view=pa-ps-latest)
 * [Remove-PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/remove-powerappmanagementapp?view=pa-ps-latest)
-{% endhint %}
+:::
 
 ### Syskit Point Enterprise 2024.4.45
 

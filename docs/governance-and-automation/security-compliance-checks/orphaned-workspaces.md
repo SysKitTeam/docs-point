@@ -68,7 +68,7 @@ Here you can find the following information:
 ![Orphaned Workspaces - More Details](../../../static/img/security-compliance-checks-orphaned-workspaces-details.png)
 
 
-{% hint style="info" %}
+:::info
 
 **Please note:**
 * **Nested group members are counted** when resolving a policy.
@@ -76,4 +76,4 @@ Here you can find the following information:
 * **Site Owners are determined by the SharePoint Owners group.**
   * Only users who are part of the SharePoint Owners group are considered Site Owners and can resolve tasks. **Site Admins cannot resolve tasks** and are not considered Site Owners.
 
-{% endhint %}
+:::

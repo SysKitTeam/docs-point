@@ -7,9 +7,9 @@ description: This article explains how to set up and utilize the policy rules fe
 
 The Rules feature **lets you create rules for auto-applying policies** based on conditions - be it predefined in Syskit Point or your custom metadata.
 
-{% hint style="information" %}
+:::info
 Available conditions are explained in more detail in the [Conditions section](#conditions)
-{% endhint %}
+:::
 
 Rules for policies make managing your environment and keeping it secure easier and more efficient. **You can define rules in Syskit Point that will automatically apply policies** (for example, Access review, Maximum or Minimum number of owners, etc.) to your newly created workspaces **without having to apply them manually**. It also means you'll need to create fewer provisioning templates to secure your environment. 
 
@@ -26,10 +26,9 @@ In this article, you can find information on the following:
 * [Priority and Priority Overrides](#priority-and-priority-overrides)
 * [Managing Rules](#manage-rules)
 
-{% hint style="important" %}
-**Please Note!**
+:::warning Please Note!
 To activate rules for auto-applying policies, please make sure you have already set up your policies under the policies section. [Follow this article for more information. ](../automated-workflows/set-up-policies.md)
-{% endhint %}
+:::
 
 ## Default Rule
 
@@ -66,9 +65,9 @@ To create the rule, fill out the following information, as requested on the pop-
   * Once saved, if you want to delete it, **click the delete button**
 * When you're ready, **click Next to continue (4)**
 
-{% hint style="information" %}
+:::info
 Available conditions are explained in more detail in the [Conditions section](#conditions)
-{% endhint %}
+:::
 
 ![Rules - New Rule - Add Conditions](../../../static/img/policy-automation-conditions.png)
 
@@ -88,10 +87,9 @@ The rule is enabled once you've created it and will start applying defined polic
 ![Rules - New Rule - Apply Policy](../../../static/img/policy-automation-new-policy-fourth.png)
 
 
-{% hint style="important" %}
-**Please Note!**
+:::warning Please Note!
 While you can create more than 10 rules for policies, **only 10 rules can be active at once**. If you already have 10 rules active, you will not be able to create new rules without disabling one or [contacting Syskit support](https://www.syskit.com/contact-us/). 
-{% endhint %}
+:::
 
 
 ## Conditions
@@ -174,14 +172,14 @@ To manage your rules, complete the following:
 
 ![Rules - Manage Rule](../../../static/img/policy-automation-manage-policy.png)
 
-{% hint style="important" %}
-
+:::warning
 If you **disable, delete, or update a rule with policies assigned to it**, any tasks related to those policies will be set as Canceled.
 
-Additionally, by clicking on the resolve task email you received, the site in Syskit Point will show the task as canceled due to the policy having been removed from the workspace. 
+Additionally, by clicking on the resolve task email you received, the site in Syskit Point will show the task as canceled due to the policy having been removed from the workspace.
+::: 
 
 When the rule is **enabled again**, the **old tasks will remain as canceled**, but when triggered, a **new task will be assigned**. 
 
 **Access Review is the only policy** where the task will **not be canceled if the rule is disabled, deleted, or updated**. 
 
-{% endhint %}
+:::

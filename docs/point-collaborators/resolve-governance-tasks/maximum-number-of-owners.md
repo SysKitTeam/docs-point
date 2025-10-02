@@ -8,10 +8,10 @@ description: This article explains how to resolve the Maximum number of Owners p
 
 This task helps you identify which teams, groups or sites have more than the allowed number of owners. To avoid risks associated with having too many owners assigned, it's important to stay up to date with all current owners. 
 
-{% hint style="success" %}
+:::tip
 By default, **Syskit Point suggests that Microsoft Teams, Microsoft 365 Groups or SharePoint Sites should have no more than 5 owners** since no one feels accountable for access and content management if there are too many owners.
 [Syskit Point Administrators can change the maximum number of allowed owners to fit the organization’s policies.](../../governance-and-automation/automated-workflows/set-up-policies.md)
-{% endhint %}
+:::
 
 When Syskit Point detects that a workspace, which you are the owner of, has too many owners, **you will receive an e-mail to resolve the policy vulnerability**.
 
@@ -40,11 +40,11 @@ The following are available on the task screen:
 
 ![Policy Vulnerability Task](../../../static/img/maximum-number-of-owners-policy-violation-task.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 **When you click an action within the policy vulnerability task, think of it as a preview** of what will happen after resolving the policy vulnerability.
 **All actions that change users' access are performed after you click the Resolve button**. 
-{% endhint %}
+:::
 
 
 ## Reassigned Task

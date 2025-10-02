@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Syskit Point](README.md)
+* [Syskit Point](home.md)
 * [Releases](releases/README.md)
   * [Syskit Point Cloud](releases/cloud/README.md)
     * [October 7, 2025](releases/cloud/point-2025-10-07-release-note.md)
@@ -315,11 +315,11 @@
   * [View Permission Changes in Microsoft 365](access-management/view-permission-changes.md)
   * [Supervise Microsoft Teams Private Channels](access-management/supervise-microsoft-teams-private-channels.md)
   * [Manage Private Channels Access](access-management/manage-private-channels.md)
-* [Power Platform](power-platform/README.md)
+* [Power Platform](power-platform/power-platform.md)
   * [Power Platform Overview](power-platform/power-platform-overview.md)
   * [Enable Power Platform Data Collection](power-platform/power-platform.md)
   * [Enable Power BI Data Collection](power-platform/enable-powerBI-data-collection.md)
-  * [Power Platform Reports](power-platform/power-platform-reports/README.md)
+  * [Power Platform Reports](power-platform/power-platform-reports/power-platform-reports.md)
     * [Copilot Agents](power-platform/power-platform-reports/copilot-agents-reports.md)
     * [Power Platform Environments](power-platform/power-platform-reports/power-platform-environments-reports.md)
     * [Power Platform Apps](power-platform/power-platform-reports/power-apps-reports.md)

@@ -11,9 +11,9 @@ After you [deploy Syskit Point](deploy-syskit-point.md) in your Azure environmen
 * **Point Web Application URL**
 * **Microsoft 365 Global Admin account**
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  The Global Admin account is used only for the initial setup; Point does not store any passwords you enter here. Syskit Point upgrades do not need a Global Admin account.
-{% endhint %}
+:::
 
 ## Connect for the First Time
 
@@ -61,9 +61,9 @@ After you provide information on the **Register Syskit Point** page and click th
 
 For this, **you need to use a Microsoft 365 Global Admin account**. This account will be used only for the initial setup; Syskit Point does not store any passwords you enter here. The Global Admin account will not be required in future Syskit Point upgrades.
 
-{% hint style="warning" %}
+:::warning
 **Why do I need to provide a global admin account?**  You can find answers in the [following article](../../requirements/permission-requirements.md#microsoft-365).
-{% endhint %}
+:::
 
 When you first connect to your tenant, Syskit Point will request permissions to collect data from your Microsoft 365 environment.
 
@@ -83,13 +83,13 @@ On the **Connect Tenant** page, you can choose which information you would like 
 * **Store audit logs (3)** – Syskit Point will also collect all audit logs to monitor internal and external user activities and changes and store them on a hard drive. To stop storing audit logs, uncheck this option.
 * **Protect user privacy (4)** - When enabled, user activity data will be hidden from Syskit Point and protected from Administrator supervision. By default, this option is disabled.
 
-{% hint style="success" %}
+:::tip
 You can change connection options anytime from the **Settings** > **General** > **Connected Tenant** > **Manage Connection** screen in Syskit Point application.
-{% endhint %}
+:::
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  For Syskit Point to collect, process, and save audit logs, you must enable auditing in your tenant. [Navigate here to find out how to turn on auditing.](../../configuration/turn-on-auditing.md)
-{% endhint %}
+:::
 
 Click the **Connect (5)** button after defining the connection options. A new screen will open and show the progress of the initial connection. **Please do not refresh the page** as it will provide important information needed for troubleshooting in the unlikely event of an error.
 

@@ -27,7 +27,7 @@ Please see our [documentation](../set-up-point-cloud/free-trial-limits.md) for m
 
 ## What does it mean if, during the trial, the External Users report doesn't show a last login date? Does it mean the users have never logged in? 
 
-Login time for [Ad Hoc and Guest External Users](../access-management/track-external-users-and-their-activities.md#microsoft-365-external-users) is tracked from the moment Point was installed. It's possible that the External Users had not logged in since Syskit Point was installed. 
+Login time for [Ad Hoc and Guest External Users](../access-management/track-external-users-and-their-activities.md) is tracked from the moment Point was installed. It's possible that the External Users had not logged in since Syskit Point was installed. 
 
 Additionally, when it comes to Guest External Users, Syskit Point also checks Azure AD logs for information about the last login date. The logs store 90 days of login history. 
 

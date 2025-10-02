@@ -24,11 +24,11 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 ## Features
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 Additional configuration is needed for the Storage Management feature to work.
 [Navigate to the following article to find information on how to configure your environment](../../../configuration/configure-point-for-storage-management.md).
-{% endhint %}
+:::
 
 * **The Storage Management feature is now fully available**!
   * The report section now also contains the: 

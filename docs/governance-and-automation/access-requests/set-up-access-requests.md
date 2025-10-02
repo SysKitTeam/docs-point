@@ -4,9 +4,9 @@ description: This article explains how to get started with Access Requests in Sy
 
 # Set Up Access Requests
 
-{% hint style="warning" %} 
+:::warning 
 **Access Requests** are available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
-{% endhint %}
+:::
 
 The **Access Requests** feature provides end-users the ability to **request access for specific workspaces** through the Syskit Point Teams app.
 The following workspace types are supported:
@@ -19,10 +19,10 @@ The following workspace types are supported:
 
 When the Access Requests policy is assigned to a workspace, the **Ask To Join** action is visible next to the workspace on the **All Workspaces** screen in the Microsoft Teams app.  
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 **For public workspaces**, for example, Microsoft Teams and Microsoft 365 groups with privacy set to public, the **Join action is visible** next to the workspace in the Syskit Point Teams app, and users can join these workspaces without additional approvals.
-{% endhint %}
+:::
 
 ## Admins 
 

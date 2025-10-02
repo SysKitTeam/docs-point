@@ -8,15 +8,15 @@ description: This article provides a full overview of the manual access review p
 
 While the **Automated Access Review** was introduced in Syskit Point 14, Syskit Point 15 brings the **Manually Requested Access Review** to the table.
 
-{% hint style="success" %}
+:::tip
 Use **Manual Access Review** in situations **when you need a fast response on an urgent issue**, such as sudden offboarding of a user, or unauthorized external sharing, where you want a workspace to be checked as soon as possible.  
 You can also **use the Manual Access Review to test and prepare** your users for the **Automated Access Review**.
-{% endhint %}
+:::
 
-{% hint style="info" %}
+:::info
 **Learn more!**  
 To find more about the Automated Access Review, visit the [following article](enable-permissions-review.md).
-{% endhint %}
+:::
 
 ## Request Review
 
@@ -26,10 +26,10 @@ To manually create an Access Review, use the **Request Review action**, **availa
 * **Microsoft Teams & Groups overview**
 * **Site or Group details**
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 You must be signed in to Syskit Point with a Syskit Point Admin account to see the Request Review action.
-{% endhint %}
+:::
 
 To manually request an Access Review, do the following:
 

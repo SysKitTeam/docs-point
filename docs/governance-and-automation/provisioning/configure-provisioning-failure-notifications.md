@@ -24,9 +24,9 @@ To define who will get e-mail notifications:
     * **Specific users** - select the checkbox and start typing the user's name to add specific users; click the user to add; continue typing to search and add a new user
 * **Save** when finished
 
-{% hint style="information" %}
+:::info
 **If you want to turn off the provisioning failure notifications** deselect both available options in the described settings and save your changes.
-{% endhint %}
+:::
 
 ## Provisioning Failure E-mail
 

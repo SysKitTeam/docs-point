@@ -15,17 +15,17 @@ description: >-
 
 ## Improvements & Bug Fixes
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 After upgrading to the latest version, sites need to be synced for data to show on the Storage Metrics report due to performance optimization changes introduced.
 The first site sync after the upgrade will be a full site sync instead of a partial one, which is required for the optimization changes to take effect.
-{% endhint %}
+:::
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 Summarized policy vulnerability emails will be gradually rolled out, beginning with the Point Cloud 2024.2.45 release.
 You can expect to see the improved emails in the upcoming month.
-{% endhint %}
+:::
 
 * **Storage Management for SharePoint Online gets new improvements!**
   * **The Clean Up File Versions** action is now available on the Storage Metrics report when bulk selecting multiple workspaces! 

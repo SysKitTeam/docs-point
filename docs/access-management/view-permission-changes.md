@@ -16,10 +16,10 @@ If you are a Microsoft 365 global administrator or a site owner, one of the most
 
 With Syskit Point you can get the information you need using **Site Permissions Activities** report. The report shows changes made to group memberships, sharing activities, changes made to permission inheritance, and other important security activities. The data for this report comes from the audit logs – this report filters audit logs and shows only activities that are related to security.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 In order to run this report, audit logs collection must be enabled. Check [this article](../configuration/customize-audit-logs-collection.md) to find out more.
-{% endhint %}
+:::
 
 ## Generate Site Permissions Activities report
 
@@ -50,8 +50,8 @@ When you click the **Run Report** button, you’ll get the report data. The repo
 * **Details** – short description of the activity
 * **Details when expanded** – shows more detailed properties and it depends on the activity
 
-{% hint style="info" %}
+:::info
 **Hint!**  
 For Microsoft 365 Groups and their connected sites, both SharePoint and Microsoft 365 Group activities will be shown.
-{% endhint %}
+:::
 

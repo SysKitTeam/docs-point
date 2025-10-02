@@ -21,7 +21,7 @@ description: This article lists improvements and bug fixes in Syskit Point versi
 
 See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../set-up-point-enterprise/deployment/upgrade-syskit-point.md).
 
-{% hint style="warning" %}
+:::warning
 **Please note!**
 
 **This update continues the transition toward a more scalable platform**.  
@@ -33,7 +33,7 @@ The migration progress is displayed when you open the Syskit Point web app.
 
 **Regular updates help prevent delays caused by skipping versions**. 
 
-{% endhint %}
+:::
 
 ## Improvements & Bug Fixes
 

@@ -2,6 +2,10 @@
 description: This article explains how to enable and set up Power Platform data collection for Syskit Point. 
 ---
 
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
+
 # Power Platform for Syskit Point
 
 In order to start **collecting and monitoring Power Apps, Power Flows, Power Platform Environments,** you need to first connect your Power Platform to Syskit Point. This helps you keep track of your Power Platform resources in one place to manage them more effectively. 
@@ -13,19 +17,19 @@ In this article, you can find details on how to:
 * [Assign Syskit Point Power Platform Admins](#syskit-point-power-platform-admins)
 
 
-{% hint style="info" %}
+:::info
 **Please Note!** Power Platform is **now available as an add-on** purchase to your Syskit Point subscription. 
 
 To enable the use of Power Platform for Syskit Point, [please contact us](https://www.syskit.com/contact-us-power-platform/).
 
-{% endhint %}
+:::
 
 ## Enable Power Platform Data Collection
 
-{% hint style="warning" %}
+:::warning
 **Please Note!** 
 Syskit Point currently doesn't support Power Platform data collection for GCC and GCC High tenants.
-{% endhint %}
+:::
 
 Configuring the Power Platform feature in Syskit Point starts the Power Platform data collection, which enables you to generate Power Platform reports for a detailed overview of your Power Platform resources.
 
@@ -45,10 +49,10 @@ To collect Power Platform data, you need to **consent** for Syskit Point to star
   * For more information about the permissions, check the [Permission Requirements article](../requirements/permission-requirements.md#syskit-point-client)
 * **Click Accept (4)** to start collecting Power Platform data in Syskit Point
 
-{% hint style="warning" %}
+:::warning
 **Please note!**
 The Read and Write applications permission (Graph/Application.ReadWrite.All) is used only once to update the Syskit Point Client app registration with the required PowerApps Service/User permission. After the permission is added, you can remove the Application.ReadWrite.All permission from the Syskit Point Client enterprise app.
-{% endhint %}
+:::
 
 
 ![Configure Power Platform](../../static/img/power-platform-configuration.png)
@@ -62,11 +66,11 @@ Once the permissions are granted, you can see the **Status** in the Settings cha
 If the box is unchecked, the Status shows the 'Please Enable Data Collection Above to Continue' warning message.
 
 Once this is enabled, the first Power Platform data sync starts. When completed, summary data will show on the Power Platform dashboard tile. From there, you can drill to open specific reports, which provide more details about selected Power Platform resources.
-For more details, [take a look at the Power Platform reports article](../power-platform/power-platform-reports/README.md)
+For more details, [take a look at the Power Platform reports article](power-platform-reports/power-platform-reports.md)
 
-{% hint style="information" %}
+:::info
 To stop the Power Platform data collection, uncheck the Collect Power Apps and Power Automate Data checkbox and save the change.
-{% endhint %}
+:::
 
 ## Configure Reporting Limits
 
@@ -93,21 +97,21 @@ Syskit Point collects data for the following Power Platform resources:
   * Instant
   * Scheduled
 
-{% hint style="warning" %}
+:::warning
 Solutions, Model-driven apps, and Desktop flows are not supported.
-{% endhint %}
+:::
 
 
 ## Syskit Point Power Platform Admins
 
 In Syskit Point, **role-based access ensures that users can only see and manage the resources they are responsible for**. To manage Power Platform resources in Point, you need to **enable access for Power Platform admins**. 
 
-{% hint style="warning" %}
+:::warning
 **Please note!**
 
 * Assigning the **Power Platform Admin role in Syskit Point** to users **does not grant the Power Platform Administrator role in Entra ID** 
 * **To successfully run actions** on Power Platform environments, apps, and flows, **Power Platform Admins in Syskit Point must have the Power Platform Administrator role assigned in Entra ID**
-{% endhint %}
+:::
 
 When signed in to Syskit Point, Syskit Point Power Platform Admins can:
 * **Access all data related to Power Platform environments, apps, and flows**

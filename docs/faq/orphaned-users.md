@@ -30,9 +30,9 @@ To access the hidden list, you need to construct and open the following URL:
   * Security group membership - security group where the user is a member is given direct access to the site or added as a member to the site's SharePoint groups
   * Company-wide sharing link
 
-{% hint style="warning" %}
+:::warning
 **Please note** that if a user is granted access to a SharePoint site through document_number_1 group membership, security group membership, or a company-wide sharing link, but does not visit the site, they will not be added to the site's hidden list.
-{% endhint %}
+:::
 
 * **If a user visits the site via an Anyone/Anonymous link, they are not added to the hidden list**.
 
@@ -43,11 +43,11 @@ To access the hidden list, you need to construct and open the following URL:
   * In the Access tile, select a site/workspace from which you want to remove the user
   * In the sidebar, click Remove Access
  
-{% hint style="info" %}
+:::info
 **Please note!**\
 To be able to remove a user from the hidden list:
  * The site needs to be synced in Syskit Point
    * Otherwise, the following error could be displayed when running the Remove Access action: `The user's SharePoint ID is null. Please sync the site and try again.`
  * User should have some access to the site
    * If they are in the site's hidden list only and don't have any access/permissions, Point will not show them as having access
-{% endhint %}
+:::

@@ -6,11 +6,11 @@ description: This article explains how to configure Azure resources to enable di
 
 Syskit Point allows you to export diagnostics logs saved in Application Insights. They contain data that helps the Syskit Point support team resolve issues you might be facing when using Syskit Point. 
 
-{% hint style="warning" %}
+:::warning
 **Please note!**
 If you are a new customer and deployed **Syskit Point version 2022.2.2 or later**, **all requirements for diagnostic logs export are set up for you automatically**.
 **Use the steps described in this article if you are an existing customer upgrading from a previous version to set up diagnostic logs export in Syskit Point manually**.
-{% endhint %}
+:::
 
 You will need to set up the following in the Syskit Point Azure resource group:
 * **Enable user access to key vault**
@@ -18,10 +18,10 @@ You will need to set up the following in the Syskit Point Azure resource group:
 * **Remove user access from the key vault**
 * **Assign a role to the user-assigned managed identity**
 
-{% hint style="warning" %}
+:::warning
 **Please note!**
 To perform changes described in this article, you need to have the owner role assigned on the Syskit Point resource group.
-{% endhint %}
+:::
  
 ## Enable User Access to Key Vault
 

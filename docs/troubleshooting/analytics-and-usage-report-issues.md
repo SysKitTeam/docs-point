@@ -27,6 +27,6 @@ To restore complete reporting functionality in Syskit Point, revert the change t
 * **Deselect the 'Display concealed user, group, and site names in all reports' option**
 * **Click Save**
 
-{% hint style="warning" %}
+:::warning
 **Please note!** It can take up to 24 hours for the data to be available.
-{% endhint %}
+:::

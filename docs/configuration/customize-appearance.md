@@ -13,11 +13,11 @@ In this article, we will cover the following customizations.
 * [Colors](customize-appearance.md#colors)
 * [Dark Mode](customize-appearance.md#dark-mode)
 
-{% hint style="info" %}
+:::info
 **Please note:** the changes you make to the **logo, banner, and colors** are a company-wide setting. It is visible to all users within your company who utilize Syskit Point.
 
 **Dark Mode (Beta) is a per-user setting**, meaning that its state is saved for each user separately and is not applied company-wide. &#x20;
-{% endhint %}
+:::
 
 To change the look of your Syskit Point, first go to Settings > General and **click the Appearance button (1)** on the left side of the screen.
 
@@ -40,9 +40,9 @@ Once your logo is selected, you can:
 
 ![Syskit Point - Appearance - New Logo](../../static/img/customize-appearance-new-logo.png)
 
-{% hint style="info" %}
+:::info
 Please note, this change to the logo is also applied to e-mails sent out. If you want to use a different logo for your e-mails, take a look at the [Customize E-mails article](customize-emails.md) for details on how to do so.
-{% endhint %}
+:::
 
 ## Banner
 
@@ -61,9 +61,9 @@ Once your banner is selected, you can:
 
 ![Syskit Point - Appearance - New Banner](../../static/img/customize-appearance-new-banner.png)
 
-{% hint style="info" %}
+:::info
 Please note, this action only changes the banner on the Sign in page of Syskit Point. To add a custom banner for e-mails, please take a look at the [Customize E-mails article](customize-emails.md).
-{% endhint %}
+:::
 
 ## Colors
 

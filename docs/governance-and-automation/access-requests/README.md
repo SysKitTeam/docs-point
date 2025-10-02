@@ -3,6 +3,7 @@ description: This section provides all information about the Access Request feat
 ---
 
 # Access Request
+
 import DocCardList from '@theme/DocCardList';
 
 <DocCardList />

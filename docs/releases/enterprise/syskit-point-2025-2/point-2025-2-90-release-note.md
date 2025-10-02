@@ -21,15 +21,15 @@ description: This article lists improvements and bug fixes in Syskit Point versi
 
 See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../set-up-point-enterprise/deployment/upgrade-syskit-point.md).
 
-{% hint style="information" %}
+:::info
 The 2025.2.90 release brings important improvements to Syskit Point’s backend architecture, which is part of our **ongoing commitment to ensuring the platform remains highly scalable**. The migration percentage for this process will reset with this update. **This is expected** and serves to continue delivering improvements.
-{% endhint %}
+:::
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 Global admin re-consent is required after the upgrade to the latest version due to changes in APIs used to [detect Teams chat activity](../../../configuration/microsoft-teams-activity.md) and if you enabled Power Platform data collection in one of the previous versions.
 Consent is required due to permission change introduced to enable [running Power Platform actions](../../../power-platform/power-platform-actions.md) in Syskit Point. [Learn more about permission changes here](../../../requirements/permission-requirements-change-log.md)
-{% endhint %}
+:::
 
 ## New Features
 

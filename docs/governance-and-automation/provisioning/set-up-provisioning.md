@@ -4,9 +4,9 @@ description: This article explains how to get started with provisioning in Syski
 
 # Set up Provisioning 
 
-{% hint style="information" %}
+:::info
 **Provisioning** is available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
-{% endhint %}
+:::
 
 ## Admins 
 

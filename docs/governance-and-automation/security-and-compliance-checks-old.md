@@ -8,9 +8,9 @@ The new **Security and Compliance Checks**, visible directly from your Syskit Po
 
 Collecting all the important info about the security and compliance state of the environment is a time-consuming and repetitive administration task. Syskit Point will perform regular security and compliance checks for you and present the results on your home screen from where you can click and **drill down to a specific report to investigate further** and decide if you want to take some action and **resolve** specific issue. 
 
-{% hint style="information" %}
+:::info
 **Want to join Early Access?** Security and Compliance Checks are not yet publicly available for all users. If you want to learn how it works and see what's coming up next, [schedule a call (bookings)](https://outlook.office365.com/owa/calendar/SecurityandComplianceChecksEAP@syskit.com/bookings/) with our Product Manager and provide feedback to help us shape up this feature to fit your needs.   
-{% endhint %}
+:::
 
 Directly from your home screen, you will see several things that need to be investigated for each check, and if all is good, there will be a green checkmark. We plan to expand this list of checks. For now, you will be able to see: 
 
@@ -46,10 +46,10 @@ At the bottom of the screen, you will find:
 
 By clicking each of the options, you are provided with **more information about the current state of your environment**. 
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 In case you have any security and compliance checks that need to be resolved, an **email is automatically sent each Wednesday** to Syskit Point admins. Click the **Resolve button** within the email to access the reports in Syskit Point directly and perform the needed actions.
-{% endhint %}
+:::
 
 ### Teams and Groups With Too Many Owners
 

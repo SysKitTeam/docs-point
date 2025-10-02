@@ -72,10 +72,10 @@ There are additional columns available in the **column chooser**, located in the
  * Department
  * Additional Custom Metadata Columns if configured
 
-{% hint style="information" %}
+:::info
 **Please note!**  
 You can save custom views for your overview screens based on your needs and preferences. [For more details on this, take a look at the Save Custom Views article.](../configuration/custom-views.md)
-{% endhint %}
+:::
 
 ## Overview Actions
 
@@ -111,6 +111,6 @@ Under Lifecycle Management, the following actions are available:
 
 For Access Review, the action available is to **Request Review**.
 
-{% hint style="warning" %}
+:::warning
 **Please note!** The following actions are available for security groups, mail-enabled security groups, and distribution lists: Add Owners/Members, Remove Owners/Members, and Manage Policies.
-{% endhint %}
+:::

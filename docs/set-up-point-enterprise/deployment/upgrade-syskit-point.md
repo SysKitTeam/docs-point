@@ -8,10 +8,10 @@ description: >-
 
 Since **Syskit Point** frequently gets new features, we highly recommend deploying the latest version to use its maximum potential.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 This article describes Syskit Point upgrades for Syskit Point Enterprise customers only.
-{% endhint %}
+:::
 
 ## Checking for Updates
 
@@ -28,12 +28,12 @@ This article describes Syskit Point upgrades for Syskit Point Enterprise custome
   * A new version of Syskit Point resolves security vulnerabilities found in 3rd party dependencies or Syskit Point codebase itself. 
   * Here, you can also expect the third number in the Syskit Point version to change; for example, the old version is `2024.1.46`, and the new version is `2024.1.47`.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 The upgrade banner will not show in the case of Syskit Point releases with new versions containing minor changes in functionality or non-critical fixes.
 
 [For a list of all Syskit Point Enterprise releases, follow this link](../../releases/enterprise/).
-{% endhint %}
+:::
 
 ![Home screen - New Update Available](../../../static/img/upgrade-syskit-point-new-update-available.png)
 
@@ -49,9 +49,9 @@ After you **open the latest Release note**, **click** the **Deploy to Azure butt
 
 ![Deploy to Azure Button](../../../static/img/upgrade-syskit-point-deploy.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!** When entering the App service name, **make sure NOT to enter the app service name ending with '-BE'**. **Entering the backend app service name in the upgrade process results in an invalid upgrade and Syskit Point not working correctly.**
-{% endhint %}
+:::
 
 The **Custom deployment** screen in Azure Portal opens. Here you need to:
 
@@ -71,7 +71,7 @@ After the deployment is completed, you can:
 * **Access the Syskit Point web app**
 * [Check if a re-consent is needed after the upgrade](../../requirements/permission-requirements-change-log.md)
 
-{% hint style="info" %}
+:::info
 **Hint!**\
 Use the [What's new](https://www.syskit.com/products/point/whats-new/) page as an additional source of information on new features available in the latest version of Syskit Point.
-{% endhint %}
+:::

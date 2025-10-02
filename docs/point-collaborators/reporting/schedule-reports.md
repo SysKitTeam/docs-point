@@ -23,10 +23,10 @@ With the help of the Scheduled Reports feature, you can:
 * **Define how often and when to send Scheduled Reports**
 * **Create a Subscription - group of Scheduled Reports** that share the same schedule frequency and delivery options
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 You can only set up **Scheduled Reports for workspaces where you are the owner**.
-{% endhint %}
+:::
 
 [To learn how to schedule a report, take a look at this article.](../../governance-and-automation/scheduled-reports.md#schedule-a-report)
 

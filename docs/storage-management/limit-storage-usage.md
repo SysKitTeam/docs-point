@@ -10,9 +10,9 @@ This can be done by enabling the [Tenant Storage Limit policy](../governance-and
 
 Another way to ensure that your storage has been fully utilized is by manually setting your site storage limits within Syskit Point.
 
-{% hint style="information" %}
+:::info
 **Please make sure** you have enabled the manual setting of site storage limits through SharePoint. For detailed instructions, [take a look at this article.](../faq/site-storage-limits.md)
-{% endhint %}
+:::
 
 Once manual editing for site storage limits is enabled, you can now change your site storage limits directly through Syskit Point.
 
@@ -20,12 +20,12 @@ Some sites might be smaller and require a small amount of storage, while other, 
 
 The only thing you need to keep in mind is that the cumulative storage for all your sites **cannot exceed the total tenant storage** you have available. 
 
-{% hint style="warning" %}
+:::warning
 
 **Please note** that **only Global Admins and SharePoint Site Admins can change the storage limit**. 
 
 While Syskit Point admins can also see the action, they cannot perform it unless they are also a Global Admin or SharePoint Site Admin.
-{% endhint %}
+:::
 
 ## Change Site Storage Limits
 
@@ -46,9 +46,9 @@ Here, you can set the following:
  * **Click Confirm (4)** to finalize your selection.
 
  
-{% hint style="information" %}
+:::info
 **Please remember** that the **total storage limit for all your sites cannot exceed the total storage available for your tenant**. Make sure you divide the storage across the sites in a way that will help you maximize the usage.  
-{% endhint %}
+:::
 
 ![Change Site Limit](../../static/img/limit-storage-usage-site-change.png)
 

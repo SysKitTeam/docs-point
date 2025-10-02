@@ -20,9 +20,9 @@ In this article, you will find information on the following:
 * [Purchasing Additional Audit Logs Storage](syskit-point-subscriptions.md#purchasing-additional-audit-logs-storage)
 * [Cancel Your Subscription](syskit-point-subscriptions.md#cancel-your-subscription)
 
-{% hint style="warning" %}
+:::warning
 **Please note!** If you didn't start your free 21-day trial, take a look at the [**Syskit Point trial article**](free-trial.md) for details on getting started. At any point during the 21 days of the free trial, you can purchase a Syskit Point Cloud subscription. To retain your data after your free trial has expired, you need to purchase a Syskit Point subscription within 21 days of your trial period ending.
-{% endhint %}
+:::
 
 ## Purchase Your Syskit Point Cloud Subscription
 
@@ -232,11 +232,11 @@ If you want to purchase additional storage years for Audit Logs, click the **Con
 
 ![Syskit Point Subscription - Additional Audit Logs Storage](../../static/img/syskit-point-subscriptions-audit-logs-storage.png)
 
-{% hint style="info" %}
+:::info
 **Please note!** If you request the removal of additional retention years that you previously purchased, the change will be applied after 3 days. &#x20;
 
 This serves as a safety measure, as once the change is final, all audit logs that exceed your currently purchased retention period will be erased.
-{% endhint %}
+:::
 
 ## Cancel Your Subscription
 

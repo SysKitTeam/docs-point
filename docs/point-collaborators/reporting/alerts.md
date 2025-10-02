@@ -26,12 +26,12 @@ You can **enable alerts on the following screens**:
   * **Document**
 * **Specific user**; to monitor events caused by a specific user
 
-{% hint style="warning" %}
+:::warning
 **Please note!**
 
 You can only set up **Alerts for workspaces where you are the owner** and for users to whom you are the manager.
 
-{% endhint %}
+:::
 
 [To learn how to set up an alert, take a look at this article.](../../governance-and-automation/configure-alerts.md#enabling-and-customizing-alerts)
 

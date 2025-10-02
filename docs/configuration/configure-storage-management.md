@@ -20,9 +20,9 @@ To configure the Storage Management feature within Syskit Point, complete the fo
 
 ![Storage Management Settings](../../static/img/configure-storage-management-collect-storage-data.png)
 
-{% hint style="information" %}
+:::info
 **Please note!** When the _Collect storage data_ checkbox is deselected and collecting storage data is turned off, you will not be able to access any of the Storage Management reports.
-{% endhint %}
+:::
 
 ## Storage Reporting
 

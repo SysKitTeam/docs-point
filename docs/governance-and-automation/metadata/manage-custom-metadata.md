@@ -4,9 +4,9 @@ description: This article explains how to set up and use custom metadata for rep
 
 # Custom Metadata
 
-{% hint style="information" %}
+:::info
 **Managing Custom Metadata** is available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
-{% endhint %}
+:::
 
 In the context of Microsoft 365, the metadata in Syskit Point provides detailed information on **Microsoft Teams, Microsoft 365 Groups, Sites, and OneDrive**.
 
@@ -59,9 +59,9 @@ Once the create new metadata dialog opens, fill in the following information.
 
 ![Create New Metadata](../../../static/img/manage-custom-metadata-create-new-dialog.png)
 
- {% hint style="info" %}
+ :::info
 **Hint!** To connect to metadata from your environment, click the Advanced Options action and insert the property bag key in the designated space.
-{% endhint %}
+:::
 
 ## Change Custom Metadata
 

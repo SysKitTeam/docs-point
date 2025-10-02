@@ -3,6 +3,7 @@ description: This section provides information about reports that you can genera
 ---
 
 # Generate Reports
+
 import DocCardList from '@theme/DocCardList';
 
 <DocCardList />

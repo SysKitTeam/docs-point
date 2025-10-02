@@ -11,11 +11,11 @@ This article contains information on three Power BI reports available through th
 * [Power BI Permissions Report](#power-bi-permissions-report)
 
 
-{% hint style="warning" %}
+:::warning
 **Please note!** \
 **Power BI reports are a part of the Power Platform add-on**, and an additional license is required to access them. 
 For more details, please feel free to [contact us](https://www.syskit.com/contact-us-power-platform/).
-{% endhint %}
+:::
 
 
 ## Power BI Workspaces Report

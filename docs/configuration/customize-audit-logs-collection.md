@@ -4,9 +4,9 @@ description: This section describes how to customize the Audit Logs collection u
 
 # Customize Audit Logs Collection
 
-{% hint style="information" %}
+:::info
 **Audit Logs** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
-{% endhint %}
+:::
 
 Audit logs can provide you with **insights into all activities** related to the user and administration activities in your Microsoft 365 environment. The Audit Logs contain information on activities within your organization related to **groups, documents, permissions, directory services, and much more**. 
 
@@ -24,19 +24,19 @@ After registering **Syskit Point**, on the **Connect tenant** step, you have the
 
 ![Connect Tenant step](../../static/img/customize-audit-logs-collection-connect-tenant.png)
 
-{% hint style="information" %}
+:::info
 **Please note!**  
 You can change these settings by managing your tenant connection in Settings > General > Connected Tenant. 
-{% endhint %}
+:::
 
 ### Store Audit Logs Option
 
 By default, the **Store audit logs** option is enabled, meaning that Syskit Point will process and store the audit logs to your **Azure Cosmos DB account**.
 
-{% hint style="information" %}
+:::info
 **Tip!**  
 You can change the Audit Logs settings after the initial connection by managing your tenant connection in Settings > General > Connected Tenant. 
-{% endhint %}
+:::
 
 ### Protect User Privacy Option
 
@@ -48,10 +48,10 @@ Turning this option on results in the following:
   * **Summary data in the Analytics & Usage tile will remain visible but cannot be drilled to access data for a specific user**
 * **User activity** data will, however, be collected and stored
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 User activity data continues to be collected and stored to be readily available, if needed, in case of a security incident.
-{% endhint %}
+:::
 
 The following rules apply regarding the User Privacy option:
 
@@ -59,10 +59,10 @@ The following rules apply regarding the User Privacy option:
 * **The option can be set for each tenant connected with Syskit Point independently**
 * **Changing the option is possible through the Manage Connection button in the Syskit Point Settings > General > Connected Tenant screen**
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 The **Protect user privacy** option is disabled automatically if the **Store audit logs option** is turned off.
-{% endhint %}
+:::
 
 
 
@@ -132,9 +132,9 @@ To find the information on how long the Audit logs are stored for you:
 
 ![Audit logs storage period](../../static/img/customize-audit-logs-collection-point-cloud-retention.png)
 
-{% hint style="information" %}
+:::info
 **Purchased audit logs storage period will be added to the default period of 1-year audit log storage**. For example, if you purchased 2 years of additional storage, your audit logs will be stored for 3 years.
-{% endhint %}
+:::
 
 ### Point Enterprise
 
@@ -153,10 +153,10 @@ Go to the **General Settings** screen in your Syskit Point to enable it.
 
 ## Exchange Logs
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 By default, Exchange logs are **not collected**; at least one Exchange activity must be selected for Syskit Point to start collecting and storing Exchange log data.
-{% endhint %}
+:::
 
 To select Exchange activities:
 
@@ -168,9 +168,9 @@ To select Exchange activities:
 
 ![Exchange log categories](../../static/img/customize-audit-logs-collection-exchange-categories.png)
 
-{% hint style="success" %}
+:::tip
 **Please note!** It can take up to 30 minutes for Syskit Point to collect Exchange log data.
-{% endhint %}
+:::
 
 To view collected Exchange logs, use the **Exchange Logs report** available in the Report Center.
 

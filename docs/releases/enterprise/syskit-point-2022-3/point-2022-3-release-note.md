@@ -52,7 +52,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
   * Names of columns changed to include Status, Performed On and Performed By.
     * Status bar states whether the action was Completed or Expired, and hovering above it provides information on who completed the task.
 * **Improved speed** for accessing the Lifecycle Management Email Preview.
-* **Fixed an issue** with the {groupName} variable used in the Lifecycle Management e-mail subject. If the subject line was customized, the variable was not resolved properly.
+* **Fixed an issue** with the &#123;groupName&#125; variable used in the Lifecycle Management e-mail subject. If the subject line was customized, the variable was not resolved properly.
 * **Fixed a bug** where the New Update Available ribbon was showing even after updating Syskit Point to the newest version.
 * **Fixed a bug** where the loading screen was cut off when generating a Site’s Access Review details report.
   * Once loading was completed, the report would be unresponsive when trying to select lines.

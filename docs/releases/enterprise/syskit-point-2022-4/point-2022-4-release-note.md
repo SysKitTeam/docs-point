@@ -25,23 +25,23 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 ## Features
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 Global admin re-consent is required after the upgrade to the 2022.4 version. [Learn more about permission changes here](../../../requirements/permission-requirements-change-log.md#syskit-point-20224).
 
 [Syskit Point Teams app upgrade](../../../governance-and-automation/syskit-point-teams-app.md#upgrade-syskit-point-teams-app) is required after the upgrade to the 2022.4 version.
-{% endhint %}
+:::
 
 * **Power Platform data sync can now be enabled for Syskit Point.** Collect Power BI data and utilize it for **Access Reports**.
 * Enabling Power BI data collection provides:
   * **List of all Power BI workspaces** and ability to explore all workspaces with a list of **reports, dashboards, datasets, and dataflows**, including information on **who created them, who the owner is, when it was last modified**, and more!
   * Option to check which **users have access to Power BI workspaces and reports** and their level of access.
-  * Get insight into **users with a Power BI Pro license** assigned to them, the date **when the Power BI Pro license was assigned**, and when the **license was last used**. Data is available in the [new version of Syskit Point Power BI companion app](../../../power-bi-app/releases/power-bi-app-25-release-note.md).
+  * Get insight into **users with a Power BI Pro license** assigned to them, the date **when the Power BI Pro license was assigned**, and when the **license was last used**. Data is available in the [Power BI reports in Syskit Point](../../../power-platform/power-platform-reports/power-bi-reports.md).
   * The following **Power BI reports** have been added:
     * Power BI Inventory
     * Power BI Workspaces
     * Power BI Permissions
-  * Learn [how to enable Power BI data collection here](../../../configuration/enable-powerBI-data-collection.md).
+  * Learn [how to enable Power BI data collection here](../../../power-platform/enable-powerBI-data-collection.md).
 * **Syskit Point now supports Shared Channels**, and they can be found under the Microsoft Teams & Groups Inventory.
   * Find out which **internal and external members have access to Shared Channels**, their domain and content, and see whether any Team was added to a specific shared channel.
 * Admins for private channels can now **remove, add or change owners and members** or promote members to owners directly in Syskit Point.

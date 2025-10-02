@@ -11,11 +11,11 @@ Such **workspaces might not comply with your business policies**,  which, on the
 
 Here, you can **find how to restrict Microsoft 365 group creation**, and thus **ensure that all created workspaces comply with your business policies defined in Syskit Point**.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 **Restricting group creation affects all services that leverage groups for access** - Outlook, SharePoint, Viva Engage, Microsoft Teams, Planner, Project for the web (roadmap)
 However, **Office 365 Global Administrators will be able to create groups via various admin centers**, for example, Microsoft 365 admin center.
-{% endhint %}
+:::
 
 ## Requirements
 
@@ -72,10 +72,10 @@ Update-MgBetaDirectorySetting -DirectorySettingId $settingsObjectID -BodyParamet
 (Get-MgBetaDirectorySetting -DirectorySettingId $settingsObjectID).Values
 ```
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 Changes can take 30 minutes or more to take effect.
-{% endhint %}
+:::
 
 ## Verify Changes
 

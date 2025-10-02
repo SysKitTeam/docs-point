@@ -6,9 +6,9 @@ description: This article explains how to use Lifecycle Management Actions in Sy
 
 ## Lifecycle Management Actions in Syskit Point
 
-{% hint style="warning" %}
+:::warning
 **Lifecycle Management Automation** will be deprecated and replaced by the [Inactive Workspaces policy](../automated-workflows/inactive-workspaces-admin.md). After approximately two months, the feature will be fully removed from Syskit Point.
-{% endhint %}
+:::
 
 Syskit Point includes a set of **Lifecycle Management actions** that can be executed on Microsoft 365 workspaces - Microsoft Teams, Microsoft 365 Groups, and sites. The following actions are available:
 
@@ -17,10 +17,10 @@ Syskit Point includes a set of **Lifecycle Management actions** that can be exec
 * **Delete**
 * **Restore**
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 The Keep action is available for inactive workspaces only.
-{% endhint %}
+:::
 
 Each action can be executed by **Syskit Point Admin** and **Syskit Point Collaborator** users.  
 **Lifecycle Management actions** – **Keep, Archive, and Delete –** are available on the following screens in Syskit Point:
@@ -47,15 +47,15 @@ The **Restore** action is **available for deleted and archived workspaces only.*
 
 ![Deleted Sites View - Restore](../../../static/img/lifecycle-management-actions-restore.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 When the Lifecycle Management flow is enabled, **executing an action** \(except Restore\) from any of the mentioned screens **will resolve existing unresolved Lifecycle Management tasks** for the workspace.
-{% endhint %}
+:::
 
-{% hint style="info" %}
+:::info
 **Hint!**  
 On the Sites overview screen and the Microsoft Teams & Groups overview screen, you **run actions on workspaces in bulk** by selecting multiple workspaces and clicking the wanted action from the side panel.
-{% endhint %}
+:::
 
 Lifecycle Management actions are also available in emails that Syskit Point sends to site owners and admins as a part of the Lifecycle Management Automation. Still, **actions can be executed in Syskit Point only**. Follow [this link](../../point-collaborators/resolve-governance-tasks/lifecycle-management.md) to learn more about Lifecycle Management emails and tasks.
 
@@ -83,10 +83,10 @@ As a result of this action, you can see the workspace getting a new activity sta
 
 ![Sites overview screen - Kept workspace](../../../static/img/lifecycle-management-actions-kept-workspace.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 The Keep action can be executed on inactive workspaces only!
-{% endhint %}
+:::
 
 ### Archive
 
@@ -111,33 +111,33 @@ After selecting the Archive option for a workspace, it opens the Archive action 
 
 ![Archive action dialog](../../../static/img/lifecycle-management-actions-archive-dialog.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 This action can be executed only on workspaces that are not archived or deleted.
-{% endhint %}
+:::
 
-{% hint style="info" %}
+:::info
 **Hint!**  
 As described in the introduction, you can find the archived workspaces by switching to the Archived view on the overview screens.
-{% endhint %}
+:::
 
 ### Delete
 
 With this action, you can easily delete a workspace inside Microsoft 365.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 This action **does not delete** a workspace **permanently**.  
 **The deleted workspace is moved to the Recycle Bin**, and **you can restore it within the period defined by Microsoft**. Microsoft 365 keeps your sites for **93 days**, and after that, they are deleted permanently. Microsoft 365 Groups are kept in the Recycle Bin for **30 days**.
-{% endhint %}
+:::
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 You can find more about Microsoft’s retention policies on the following links:
 
 * [Microsoft 365 Groups](https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide)
 * [SharePoint Online](https://support.microsoft.com/en-us/office/restore-items-in-the-recycle-bin-that-were-deleted-from-sharepoint-or-teams-6df466b6-55f2-4898-8d6e-c0dff851a0be?ui=en-us&rs=en-us&ad=us#ID0EAADAAA=Online)
-{% endhint %}
+:::
 
 When running the delete action, do the following:
 
@@ -147,10 +147,10 @@ When running the delete action, do the following:
 
 ![Delete action dialog](../../../static/img/lifecycle-management-actions-delete-dialog.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 This action can be executed on workspaces that are not deleted or archived.
-{% endhint %}
+:::
 
 ### Restore
 
@@ -166,10 +166,10 @@ The **Restore action** can be executed on archived and deleted workspaces.
 
 When running the Restore action, a confirmation dialog appears. To execute the action, click the **Restore button**.
 
-{% hint style="info" %}
+:::info
 **Hint!**  
 There is no time limit for **performing the Restore action on Archived workspace**. 
-{% endhint %}
+:::
 
 ![Restoring a deleted workspace](../../../static/img/lifecycle-management-actions-restore-dialog.png)
 

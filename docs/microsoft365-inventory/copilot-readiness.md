@@ -21,11 +21,11 @@ The following is counted for the Copilot Readiness:
 
 ## Sensitive Files 
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 For sensitive files to be detected and shown on the Copilot Readiness tile, you need to set it up through the Settings of Syskit Point. 
 
-{% endhint %}
+:::
 
 To enable sensitive files being shown on the Copilot Readiness score **go to Settings**.
 

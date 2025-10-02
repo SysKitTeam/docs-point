@@ -4,9 +4,9 @@ description: This article explains how to enable and configure policies in Syski
 
 # Set Up Policies
 
-{% hint style="information" %}
+:::info
 **Policies** are available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
-{% endhint %}
+:::
 
 ## Prerequisites
 
@@ -17,10 +17,10 @@ To use the advantages of Policies in Syskit Point, you need to:
 
 Additionally, you can also [set up policy rules](../../governance-and-automation/automated-workflows/policy-automation.md) to have policies automatically applied to current and all future workspaces without having to assign them manually. 
 
-{% hint style="warning" %}
+:::warning
 **Please note!**
 Only users assigned the role of **Syskit Point Admin** can access and configure Settings in Syskit Point.
-{% endhint %}
+:::
 
 ## Detection vs Task Delegation
 
@@ -60,7 +60,7 @@ Task Delegation can be enabled in policy settings for each policy listed below.
 **Please note!**\
 Summarized policy vulnerability emails will be gradually rolled out, beginning with the Point Cloud 2024.2.45 release.
 After this change, Syskit Point will no longer send individual e-mails for each workspace or user where a policy vulnerability was discovered.  
-{% endhint %}
+:::
 
 **The emails are summarized per policy type**:
 * One email shows up to 10 workspaces grouped by governance policies; if there are more workspaces with vulnerabilities, they will not be listed; instead, the total number of such workspaces is given in the email
@@ -70,9 +70,9 @@ After this change, Syskit Point will no longer send individual e-mails for each 
 * **Access Requests** and **Access Review** policies don't represent vulnerabilities and will not appear on the Security & Compliance dashboard; think of them as automation-only policies.
 * **When you acquire Syskit Point, default policies are created with task delegation disabled.** Edit the default policies settings to enable task delegation.
 
-{% hint style="information" %}
+:::info
 **Please note!** If a user, security group, or mail-enabled security group is added to the Governance-Excluded Users list, they do not receive any Governance-related tasks or task-related e-mails. [For more details on setting up Governance-Excluded Users, take a look at this article.](../../configuration/exclude-users-tasks.md)
-{% endhint %}
+:::
 
 ## Syskit Point Policies
 
@@ -89,10 +89,10 @@ When dealing with policies, you can either:
 * **Create new policies from scratch and apply them to your workspaces**
 * **Set up policy rules to have policies automatically applied to current and new workspaces**
 
-{% hint style="success" %}
+:::tip
 **For simple use cases** where the same policies are applied to all workspaces, you can **adjust the predefined policies to speed up the configuration**. 
 **For a more complex setup**, you can **create multiple policies of the same policy type** and **apply them to a subset of your workspaces**.
-{% endhint %}
+:::
 
 ## Available Policies
 
@@ -140,10 +140,10 @@ When you decide to modify existing governance policies, there is a notification 
  * **Turning on the task delegation for the first time results in tasks being created and emails being sent** within 24 hours.
 * **Modifying the task delegation options**, in case the task delegation is already enabled for a policy, results in new options being applied to future vulnerabilities. **Existing tasks stay the same.
 
-{% hint style="information" %}
+:::info
 **Hint**! If you want to apply new task delegation options to all tasks, turn off task delegation - which closes all existing tasks - and turn it on again, which creates new tasks with the new settings applied. 
 
-{% endhint %}
+:::
 
  * **Turning off the task delegation results in closing previously opened tasks**. 
    * You will continue to see the detected vulnerabilities on the Security and Compliance checks dashboard even though the related tasks are closed.

@@ -45,10 +45,10 @@ A **dialog** shows, asking you to **confirm** the removal action.
 
 When the action is **completed**, the selected user **no longer has access** to **Syskit Point**.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 Removing user access from **Syskit Point** will not remove a user from your **Microsoft 365** environment.
-{% endhint %}
+:::
 
 ## Syskit Point Roles
 
@@ -72,10 +72,10 @@ During the initial user sync, Syskit Point will automatically add two **Microsof
 
 Any user in your **Microsoft 365 environment** with that role will **automatically have full access to Syskit Point**.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 You cannot assign or remove a user from a **Microsoft 365 administration role** in **Syskit Point**.
-{% endhint %}
+:::
 
 ### Syskit Point Global Viewers
 
@@ -122,10 +122,10 @@ The **Syskit Point Collaborators** role enables site admins, Microsoft Teams, an
 * **Efficiently manage their workspaces** by running actions based on their assigned permissions
 * **See user data collected** from Microsoft 365 for users they are the manager of
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 When the Collaborators role is enabled, **Syskit Point automatically** assigns **site admins, Microsoft Teams, and Microsoft 365 Group owners** to **Syskit Point Collaborators** role.
-{% endhint %}
+:::
 
 
 Additional options available when the Collaborators role is enabled:
@@ -139,12 +139,12 @@ Additional options available when the Collaborators role is enabled:
 
 ### Syskit Point Power Platform Admins
 
-{% hint style="warning" %}
+:::warning
 **Please note!**
 
 * Assigning the **Power Platform Admin role in Syskit Point** to users **does not grant the Power Platform Administrator role in Entra ID** 
 * **To successfully run actions** on Power Platform environments, apps, and flows, **Power Platform Admins in Syskit Point must have the Power Platform Administrator role assigned in Entra ID**
-{% endhint %}
+:::
 
 When signed in to Syskit Point, Syskit Point Power Platform Admins can:
 * **Access all data related to Power Platform environments, apps, and flows**

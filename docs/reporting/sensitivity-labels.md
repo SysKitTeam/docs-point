@@ -17,10 +17,10 @@ To access sensitivity label reports, complete the following steps:
 * **Select the Sensitivity Labels category in the filter** in the upper left corner.
 * **Click the Sensitivity Labels or Sensitivity Labels Inventory report tile**; this will generate that specific report.
 
-{% hint style="information" %}
+:::info
 **Please note!**  
 You can save custom views for your reports based on your needs and preferences. [For more details on this, take a look at the Save Custom Views article.](../configuration/custom-views.md)
-{% endhint %}
+:::
 
 ## Sensitivity Labels Report
 

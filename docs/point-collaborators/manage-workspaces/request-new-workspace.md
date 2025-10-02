@@ -50,9 +50,9 @@ All updates and notifications about your requests and approval progress will be 
 ![Request New Workspace - Finalize Request](../../../static/img/request-new-workspace-requests-screen.png)
 
 
-{% hint style="info" %}
+:::info
 
 Your Syskit Point admin can **add additional metadata fields that provide you with more information** and can help you govern and secure your environment.
-{% endhint %}
+:::
 
  [To learn more about custom metadata, take a look at this article.](../manage-workspaces/manage-custom-metadata.md)

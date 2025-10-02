@@ -4,9 +4,9 @@ description: This article explains how to free up your storage on SharePoint sit
 
 # Free Up Storage
 
-{% hint style="information" %}
+:::info
 **Please note!** If a certain site **has a hold or retention policy applied**, the Clean Up Storage action fails for that workspace, and storage is not freed. If a certain file has a hold or retention policy applied, that file is not cleaned up or deleted. 
-{% endhint %}
+:::
 
 Regularly cleaning up older file versions is the best way to optimize performance, improve collaboration, increase cost efficiency, and ensure better data security. 
 
@@ -30,9 +30,9 @@ Once the Storage Metrics Report is generated, complete the next steps:
       * For more details on setting up these values, look at the [Configure Storage Management article](../configuration/configure-storage-management.md).
     * **All but the last file versions (5)** - lets you clean up all versions of the files, except for the most recent one. Clean Up Action on Site Storage Metrics Report
 
-{% hint style="information" %}
+:::info
 **Please note**: Completing the cleanup action from the Storage Metrics report cleans up all files located at the selected site or sites. Freeing up space from one specific file or files on the site is possible from the [Site Storage Metrics](#clean-up-action-on-site-storage-metrics-report) and [File Storage Details](#clean-up-action-on-site-storage-metrics-report) reports.
-{% endhint %}
+:::
 
 ![Storage Metrics Report- Clean Up File Versions](../../static/img/optimize-storage-storage-metrics-report-cleanup.png)
 
@@ -71,10 +71,10 @@ Once you click the **Clean Up button** on the File Version Cleanup tile or the *
 ![Clean Up File Versions - Confirm](../../static/img/optimize-storage-site-storage-cleanup.png)
 
 
-{% hint style="information" %}
+:::info
 **Please note**: If you do not permanently delete files, they are sent to the site's Recycle bin for the defined retention period. The retention period for your site's Recycle bin depends on the period you previously defined in SharePoint. For more details on this, [take a look at this Microsoft 365 article.](https://support.microsoft.com/en-us/office/manage-the-recycle-bin-of-a-sharepoint-site-8a6c2198-910e-42dc-9a9c-bc5bc4f327da)
 
-{% endhint %}
+:::
 
 
 ## Clean Up Action on File Storage Details report
@@ -88,9 +88,9 @@ From there:
 
 ![File Storage Details - Delete Version](../../static/img/optimize-storage-file-storage-details-delete.png)
 
-{% hint style="information" %}
+:::info
 **Hint!** The latest version is never deleted, even if you select all versions and run the Delete Version or Clean Up File Versions action.
-{% endhint %}
+:::
 
 You can also manage storage directly from SharePoint by clicking the **link in the Storage Metrics URL column**. 
   * The SharePoint site-specific Storage Metrics report opens in your browser.

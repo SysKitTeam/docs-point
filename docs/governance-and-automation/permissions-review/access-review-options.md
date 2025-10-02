@@ -4,9 +4,9 @@ description: This article explains how to customize additional Access Review opt
 
 # Modify Access Review Options
 
-{% hint style="information" %}
+:::info
 **Access Review options** are available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
-{% endhint %}
+:::
 
 To start with the configuration, navigate to **Settings** > **Governance** > **Access Review Options**
 Here, you can find 3 sections:
@@ -38,9 +38,9 @@ The **Manage Reviewers report** opens, where you can:
 
 ## Review Options
 
-{% hint style="warning" %}
+:::warning
 **Please note!** Review options will apply to all workspaces included in the Automated Access Review process, regardless of the applied policy.
-{% endhint %}
+:::
 
 Here you can:
 

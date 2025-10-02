@@ -52,10 +52,10 @@ You can also **leave a comment (1)** for the Owners explaining what you expect f
 ![Workspaces Without a Sensitivity Label - Ask Owners Action](../../../static/img/security-compliance-checks-workspace-without-sensitivity-ask-owners.png)
 
 
-{% hint style="information" %}
+:::info
 
 **Please note**: When selecting the Ask Owners action, the owners will receive the task as part of the Sensitivity review. 
 
 [For details on how to complete the task, take a look at the Complete Sensitivity Review Tasks article](../../point-collaborators/resolve-governance-tasks/sensitivity-review.md).
 
-{% endhint %}
+:::

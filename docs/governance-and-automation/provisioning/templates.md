@@ -41,10 +41,10 @@ Templates can be created for the following workspaces:
 * **Viva Engage Community**
 * **Microsoft 365 Group**
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 When creating a provisioning template in Syskit Point, if you want to use existing Microsoft Teams templates or site templates, set your browser language to English (USA). That way, the correct format of calls directed from Syskit Point to Microsoft endpoints is ensured, which uses Locale set to "en-US" (LocaleID equals 1033).
-{% endhint %}
+:::
 
 ### Microsoft Teams Template
 
@@ -182,9 +182,9 @@ When creating a SharePoint Site template, there are a couple of differences comp
   * Allow end-users to specify additional members in addition to predefined members
   * Leave this option altogether to the end-user who is requesting a new workspace
 
-{% hint style="info" %}
+:::info
 **Please note**: SharePoint Site templates do not have a Customize E-mail option.
-{% endhint %}
+:::
 
 ### Viva Engage Community Template
 
@@ -199,9 +199,9 @@ When creating a Viva Engage Community template, there are a couple of difference
   * Allow end-users to specify additional community members in addition to predefined community members
   * Leave this option altogether to the end-user who is requesting a new workspace
 
-{% hint style="info" %}
+:::info
 **Please note:** Viva Engage templates do not have URL & E-mail customization options.
-{% endhint %}
+:::
 
 ### Microsoft 365 Group Template
 

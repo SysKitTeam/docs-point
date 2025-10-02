@@ -6,10 +6,10 @@ description: This article provides a detailed overview of the reports available 
 
 Through SysKit Point, you can effectively **manage documents, streamline communication, improve teamwork, enhance productivity, and much more** by utilizing the **Sites, Users, Microsoft Teams & Groups, and Dashboard** features located on the home page of SysKit Point. 
 
-{% hint style="warning" %}
+:::warning
 **Please note:**  
 You can only view **workspaces where you are the owner** and **users whom you manage**.
-{% endhint %}
+:::
 
 
 ## Sites Report

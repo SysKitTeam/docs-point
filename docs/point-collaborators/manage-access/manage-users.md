@@ -4,11 +4,11 @@ description: This article provides details helpful for managers and workspace ow
 
 # Manage Users
 
-{% hint style="information" %}
+:::info
 
 You can only **manage users you are in charge of and who belong to the workspaces where you are the owner**.
 
-{% endhint %}
+:::
 
 Syskit Point enables you to **manage users' activity and permissions** in your Microsoft 365 workspaces. 
 

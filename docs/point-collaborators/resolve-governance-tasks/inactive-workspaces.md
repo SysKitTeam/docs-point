@@ -136,10 +136,10 @@ On the view, additional columns are available:
 
 ![Deleted Sites View - Restore](../../../static/img/lifecycle-management-actions-restore.png)
 
-{% hint style="info" %}
+:::info
 **Hint!**  
 On the Sites overview screen and the Microsoft Teams & Groups overview screen, you **run the Restore action on workspaces in bulk** by selecting multiple workspaces and clicking the wanted action from the side panel.
-{% endhint %}
+:::
 
 Inactive Workspaces actions are also available in e-mails that Syskit Point sends to site owners and admins as a part of the Inactive Workspaces task delegation. Still, **actions can be executed in Syskit Point only**.
 
@@ -168,10 +168,10 @@ Kept workspaces are depicted with a yellow circle. **On hover (2)**, the circle 
 
 ![Sites overview screen - Kept workspace](../../../static/img/lifecycle-management-actions-kept-workspace.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 The Keep action can be executed for inactive workspaces only!
-{% endhint %}
+:::
 
 ### Archive
 
@@ -198,12 +198,12 @@ After selecting the Archive option for a workspace, it opens the Archive action 
 
 ![Archive action dialog](../../../static/img/inactive-workspaces-actions-archive-dialog.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 This action can be executed only on workspaces that are not archived or deleted. 
-{% endhint %}
+:::
 
-{% hint style="info" %}
+:::info
 **Hint!**  
 As described in the introduction, you can find the archived workspaces by switching to the **Archived view on the overview screens**.
 
@@ -211,25 +211,25 @@ The Archive Status column shows what method was used to archive a workspace. The
 
 [To learn more about Microsoft 365 Archive, take a look at their article.](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-overview?view=o365-worldwide)
 
-{% endhint %}
+:::
 
 ### Delete
 
 With this action, you can easily delete a workspace inside Microsoft 365.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 This action **does not delete** a workspace **permanently**.  
 **The deleted workspace is moved to the Recycle Bin**, and **you can restore it within the period defined by Microsoft**. Microsoft 365 keeps your sites for **93 days**, and after that, they are deleted permanently. Microsoft 365 Groups are kept in the Recycle Bin for **30 days**.
-{% endhint %}
+:::
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 You can find more about Microsoft’s retention policies on the following links:
 
 * [Microsoft 365 Groups](https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide)
 * [SharePoint Online](https://support.microsoft.com/en-us/office/restore-items-in-the-recycle-bin-that-were-deleted-from-sharepoint-or-teams-6df466b6-55f2-4898-8d6e-c0dff851a0be?ui=en-us&rs=en-us&ad=us#ID0EAADAAA=Online)
-{% endhint %}
+:::
 
 When running the delete action, do the following:
 
@@ -239,10 +239,10 @@ When running the delete action, do the following:
 
 ![Delete action dialog](../../../static/img/lifecycle-management-actions-delete-dialog.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 This action can be executed on workspaces that are not deleted or archived.
-{% endhint %}
+:::
 
 ### Restore
 
@@ -260,10 +260,10 @@ When running the Restore action, a confirmation dialog appears. To execute the a
 [To learn more about Microsoft 365 Archive, take a look at their article.](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-overview?view=o365-worldwide).
 
 
-{% hint style="info" %}
+:::info
 **Hint!**  
 There is no time limit for **performing the Restore action on the Archived workspace**. 
-{% endhint %}
+:::
 
 
 ![Restoring a deleted workspace](../../../static/img/lifecycle-management-actions-restore-dialog.png)

@@ -10,10 +10,10 @@ This task notifies you when **your storage percentage gets close to the limit th
 
 If you run out of storage, you are **not able to create any more SharePoint sites**. Optimizing your storage usage or adding more storage ensures your organization can continue working seamlessly and efficiently. 
 
-{% hint style="success" %}
+:::tip
 By default, **Syskit Point notifies the Syskit Point admins** of this vulnerability. However, the Syskit Point admin can customize this policy to include custom recipients instead. Learn more about how to
 [configure your tenant storage limit policy in this article.](../../governance-and-automation/automated-workflows/tenant-storage-admin.md)
-{% endhint %}
+:::
 
 
 ## Policy Vulnerability E-mail

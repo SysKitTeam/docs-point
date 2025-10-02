@@ -15,12 +15,12 @@ description: >-
 
 ## Features
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 Global admin re-consent is required after the upgrade to the latest version. Consent is required due to permission changes introduced with enhancements in the Copy User Permissions action. [Learn more about permission changes here](../../requirements/permission-requirements-change-log.md).
 
 [Syskit Point Teams app upgrade](../../governance-and-automation/syskit-point-teams-app.md#upgrade-syskit-point-teams-app) is required after upgrading to the latest version due to changes introduced in the new Microsoft Teams app.
-{% endhint %}
+:::
 
 * **New action added** - **Manage Sensitivity** - for Microsoft Teams, Microsoft 365 Groups and sites!
     * Syskit Point administrators can now apply to or remove a sensitivity label from workspaces!

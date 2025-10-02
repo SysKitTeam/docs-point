@@ -3,6 +3,7 @@ description: This section contains all articles explaining the Lifecycle Managem
 ---
 
 # Lifecycle Management
+
 import DocCardList from '@theme/DocCardList';
 
 <DocCardList />

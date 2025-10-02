@@ -45,10 +45,10 @@ Once the account is successfully connected, you will see the email listed statin
 
 ![Microsoft Authentication Flow - Connected Account](../../static/img/connect-service-account-MFA-connected.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 **Global Admin consent is required** when connecting the service account through Microsoft Authentication Flow for the first time. 
-{% endhint %}
+:::
 
 ![Microsoft Authentication Flow - Global Admin Consent](../../static/img/connect-service-account-consent.png)
 

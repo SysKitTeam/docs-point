@@ -33,10 +33,10 @@ Once you've selected the one that best suits your needs for this policy, **click
 
 For more information on how to resolve the vulnerability in Syskit Point, read the [following article](../security-compliance-checks/private-workspaces-shared-with-everyone.md).
 
-{% hint style="Information" %}
+:::info
 **Please note**, this policy can be applied to the following workspaces:
 * **Microsoft Teams**
 * **Microsoft 365 Group**
 * **SharePoint Site**
 
-{% endhint %}
+:::

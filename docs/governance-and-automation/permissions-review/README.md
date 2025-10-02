@@ -3,6 +3,7 @@ description: This section provides all information about Automated Access Review
 ---
 
 # Access Review
+
 import DocCardList from '@theme/DocCardList';
 
 <DocCardList />

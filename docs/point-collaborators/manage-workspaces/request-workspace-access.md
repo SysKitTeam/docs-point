@@ -47,6 +47,6 @@ View Details opens an information section for the group, which will list the fol
   * Members
     * You can search for a specific user in the workspace by using the search bar located in the top right of the screen
 
-{% hint style="information" %}
+:::info
 After you've submitted the request, **it will need to be approved by a third party**. This will depend on who the Access Requests policy lists as responsible for approving requests for that workspace.
-{% endhint %}
+:::

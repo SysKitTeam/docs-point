@@ -12,9 +12,9 @@ Click the **Manage Policies button (1)** to apply the policy.
 
 ![Manage Policies screen](../../../static/img/apply-access-request-manage-policies.png)
 
-{% hint style="information" %}
+:::info
 The Access Request policy is not automatically applied to workspaces, distribution lists, or security groups. You can either manually apply the policy to workspaces or set up [Rules](../automated-workflows/policy-automation.md) to apply your policies automatically. 
-{% endhint %}
+:::
 
 
 ## Applying the Policy to Workspaces
@@ -47,9 +47,9 @@ If you want to remove an Access Requests Policy that has been applied to a works
 
 This will remove the Access Requests policy that was assigned.
 
-{% hint style="warning" %}
+:::warning
 Instead of removing the policy, you can also select a different Access Requests policy to apply from the drop-down menu. 
-{% endhint %}
+:::
 
 If you want to remove an Access Requests Policy that has been applied to multiple workspaces, take the following steps:
   * **Select the workspaces** 
