@@ -1,13 +1,32 @@
 .grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Grid for tiles with images - 2 per row in 800px */
+.gridWithImages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Grid for tiles without images - 3 per row in 800px */
+.gridWithoutImages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 1rem;
   margin-bottom: 2rem;
 }
 
 @media (max-width: 768px) {
   .grid {
-    grid-template-columns: 1fr;
+    justify-content: flex-start;
     gap: 1rem;
     margin-bottom: 1.5rem;
   }
@@ -15,7 +34,9 @@
 
 @media (max-width: 480px) {
   .grid {
+    justify-content: flex-start;
     gap: 0.75rem;
     margin-bottom: 1rem;
+    padding: 0 1rem;
   }
 }

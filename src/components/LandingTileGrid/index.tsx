@@ -3,11 +3,14 @@ import styles from './styles.module.css';
 
 interface LandingTileGridProps {
   children: React.ReactNode;
+  hasImages?: boolean;
 }
 
-export default function LandingTileGrid({ children }: LandingTileGridProps) {
+export default function LandingTileGrid({ children, hasImages = true }: LandingTileGridProps) {
+  const gridClass = hasImages ? styles.gridWithImages : styles.gridWithoutImages;
+  
   return (
-    <div className={styles.grid}>
+    <div className={gridClass}>
       {children}
     </div>
   );

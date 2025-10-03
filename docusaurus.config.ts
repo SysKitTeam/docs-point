@@ -54,7 +54,7 @@ const config: Config = {
         blog: false, // Disable the blog feature
         pages: false, // Disable the pages feature
         theme: {
-          customCss: ['./src/css/custom.css', './src/css/search.css'],
+          customCss: ['./src/css/custom.css', './src/css/search.css', './src/css/landing-override.css'],
         },
       } satisfies Preset.Options,
     ],

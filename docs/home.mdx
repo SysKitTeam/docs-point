@@ -4,6 +4,10 @@ hide_table_of_contents: true
 slug: /
 title: Syskit Point
 sidebar_position: 1
+custom_edit_url: null
+hide_title: false
+sidebar_class_name: hidden
+displayed_sidebar: null
 ---
 
 # Syskit Point
@@ -21,14 +25,14 @@ import LandingTileGrid from '@site/src/components/LandingTileGrid';
   <LandingTile
     title="Syskit Point - Cloud"
     description="Get information about product updates, SaaS installation and activation."
-    imageUrl="../static/img/cloud_icon_color_syskit.png"
+    imageUrl="/img/cloud_icon_color_syskit.png"
     linkUrl="/set-up-point-cloud/overview"
     imageAlt="Syskit Point Cloud"
   />
   <LandingTile
     title="Syskit Point - Enterprise"
     description="Get information about product updates, self-hosted installation and activation."
-    imageUrl="../static/img/data centar_icon_color_syskit.png"
+    imageUrl="/img/data centar_icon_color_syskit.png"
     linkUrl="/set-up-point-enterprise/deployment/overview"
     imageAlt="Syskit Point Enterprise"
   />
@@ -40,14 +44,14 @@ import LandingTileGrid from '@site/src/components/LandingTileGrid';
   <LandingTile
     title="Administrator"
     description="Learn how to configure it all, as well as how to use reporting, auditing, management, and governance features."
-    imageUrl="../static/img/admin_icon_color_syskit.png"
+    imageUrl="/img/admin_icon_color_syskit.png"
     linkUrl="/configuration/how-to-configure-Point"
     imageAlt="Point Administrators"
   />
   <LandingTile
     title="M365 End User/Workspaces Owner"
     description="Learn how to easily get an overview across workspaces, request and manage access, or even create new workspaces."
-    imageUrl="../static/img/business users_icon_color_syskit.png"
+    imageUrl="/img/business users_icon_color_syskit.png"
     linkUrl="/point-collaborators/"
     imageAlt="Point End-Users"
   />
@@ -59,23 +63,23 @@ import LandingTileGrid from '@site/src/components/LandingTileGrid';
   <LandingTile
     title="Product Updates"
     description="We regularly launch updates to keep you up-to-date with the latest technology and provide you with new ways of managing M365. Be efficient and gain control at every point."
-    imageUrl="../static/img/logo.svg"
     linkUrl="/releases/"
-    imageAlt="Product Updates"
+    showLink={true}
+    linkUrlDisplayText="Releases"
   />
   <LandingTile
     title="FAQ"
     description="Security, free trial, activation, licensing, we tried to cover it all for you. Please check if there is an answer to your question here, and if not, please feel free to contact us."
-    imageUrl="../static/img/logo.svg"
     linkUrl="/faq/"
-    imageAlt="FAQ"
+    showLink={true}
+    linkUrlDisplayText="FAQ"
   />
   <LandingTile
     title="Troubleshooting"
     description="If you are facing issues with Syskit Point, our team is happy to help. In this section, you can locate information our team might need to get your problems solved quickly and efficiently."
-    imageUrl="../static/img/logo.svg"
     linkUrl="/troubleshooting/"
-    imageAlt="Troubleshooting"
+    showLink={true}
+    linkUrlDisplayText="Troubleshooting"
   />
 </LandingTileGrid>
 

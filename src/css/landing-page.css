@@ -1,0 +1,118 @@
+/* Landing Page Styles for Home Page - Nuclear Approach */
+
+/* Hide sidebar when sidebar is disabled */
+.theme-doc-sidebar-container.hidden,
+[data-displayed-sidebar="null"] .theme-doc-sidebar-container {
+  display: none !important;
+}
+
+/* Override containers ONLY for home page (displayed_sidebar: null) */
+[data-displayed-sidebar="null"] .main-wrapper,
+[data-displayed-sidebar="null"] .theme-doc-page-wrapper .main-wrapper,
+[data-displayed-sidebar="null"] main .main-wrapper {
+  max-width: 800px !important;
+  margin: 0 auto !important;
+  padding: 0 2rem !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* Target containers ONLY for home page */
+[data-displayed-sidebar="null"] .main-wrapper .container,
+[data-displayed-sidebar="null"] .theme-doc-page-wrapper .main-wrapper .container {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Target rows and columns ONLY for home page */
+[data-displayed-sidebar="null"] .main-wrapper .container .row {
+  margin: 0 !important;
+  width: 100% !important;
+}
+
+[data-displayed-sidebar="null"] .main-wrapper .container .row div[class*="col"],
+[data-displayed-sidebar="null"] .main-wrapper .container .row .col--9 {
+  flex: 0 0 100% !important;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Additional targeting for home page specifically */
+html body .theme-doc-page-wrapper article[data-page-title="Syskit Point"] {
+  max-width: 800px !important;
+  margin: 0 auto !important;
+}
+
+/* Force override using page slug */
+html body [data-current-route="/"] .main-wrapper,
+html body .theme-doc-page-wrapper:has([data-current-route="/"]) .main-wrapper {
+  max-width: 800px !important;
+  margin: 0 auto !important;
+  padding: 0 2rem !important;
+}
+
+/* Very specific targeting for home page content */
+.theme-doc-page-wrapper .main-wrapper .container .row .col article h1:first-child:contains("Syskit Point") {
+  max-width: 800px !important;
+  margin: 0 auto !important;
+}
+
+/* Nuclear option - target by exact path */
+body[data-path="/point/"] .main-wrapper,
+body[data-pathname="/point/"] .main-wrapper,
+html[data-current-path="/point/"] .main-wrapper {
+  max-width: 800px !important;
+  margin: 0 auto !important;
+  padding: 0 2rem !important;
+}
+
+/* Last resort - apply to ALL elements if on home page */
+body:has(h1:contains("Syskit Point")) .main-wrapper,
+body:has([data-displayed-sidebar="null"]) .main-wrapper,
+html:has([data-displayed-sidebar="null"]) body .main-wrapper {
+  max-width: 800px !important;
+  width: 800px !important;
+  margin: 0 auto !important;
+  padding: 0 2rem !important;
+  box-sizing: border-box !important;
+}
+
+/* Global override for any page without sidebar */
+.main-wrapper:not(:has(~ .theme-doc-sidebar-container)) {
+  max-width: 800px !important;
+  margin: 0 auto !important;
+  padding: 0 2rem !important;
+}
+
+/* Responsive adjustments with maximum specificity */
+@media (max-width: 996px) {
+  html body div.docs-wrapper div.main-wrapper,
+  html body .theme-doc-page-wrapper .main-wrapper,
+  html body main .main-wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 1.5rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  html body div.docs-wrapper div.main-wrapper,
+  html body .theme-doc-page-wrapper .main-wrapper,
+  html body main .main-wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 1rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  html body div.docs-wrapper div.main-wrapper,
+  html body .theme-doc-page-wrapper .main-wrapper,
+  html body main .main-wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 0.75rem !important;
+  }
+}

@@ -16,17 +16,50 @@
   height: 100%;
   background: var(--ifm-card-background-color);
   border: 1px solid var(--ifm-color-emphasis-200);
-  border-radius: var(--ifm-card-border-radius);
-  box-shadow: var(--ifm-global-shadow-lw);
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: all 0.2s ease-in-out;
   padding: 0;
 }
 
+/* Tiles with images - 2 per row (736px available - 1.5rem gap = ~360px each) */
+.tileWithImage {
+  width: calc((100% - 1.5rem) / 2);
+  max-width: 360px;
+  min-width: 280px;
+}
+
+/* Tiles without images - 3 per row (736px available - 2rem gaps = ~240px each) */
+.tileWithoutImage {
+  width: calc((100% - 2rem) / 3);
+  max-width: 240px;
+  min-width: 180px;
+}
+
+/* Responsive breakpoints for tiles */
+@media (max-width: 768px) {
+  .tileWithImage,
+  .tileWithoutImage {
+    width: calc((100% - 1rem) / 2);
+    max-width: none;
+    min-width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tileWithImage,
+  .tileWithoutImage {
+    width: 100%;
+    max-width: none;
+    min-width: auto;
+  }
+}
+
 .tile:hover {
-  box-shadow: var(--ifm-global-shadow-md);
-  transform: translateY(-2px);
-  border-color: var(--ifm-color-primary);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
+  border-color: var(--ifm-color-emphasis-300);
 }
 
 .imageContainer {
@@ -34,20 +67,21 @@
   align-items: center;
   justify-content: center;
   padding: 2rem 1.5rem 1rem 1.5rem;
-  background: var(--ifm-color-primary-lightest);
+  background: #f8f9fa;
   min-height: 120px;
+  overflow: hidden;
 }
 
 [data-theme='dark'] .imageContainer {
-  background: var(--ifm-color-emphasis-100);
+  background: var(--ifm-color-emphasis-200);
 }
 
 .tileImage {
-  max-width: 80px;
-  max-height: 80px;
   width: auto;
-  height: auto;
-  object-fit: contain;
+  height: calc(100% + 50px);
+  object-fit: cover;
+  object-position: center;
+  margin: -25px 0;
 }
 
 .content {
@@ -56,6 +90,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+/* Adjust padding for tiles without images */
+.tile:not(:has(.imageContainer)) .content {
+  padding: 2rem 1.5rem;
 }
 
 .title {
@@ -74,24 +113,43 @@
   flex: 1;
 }
 
+.linkDisplay {
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .tile {
+    width: 360px;
     margin-bottom: 1rem;
   }
   
   .imageContainer {
     padding: 1.5rem 1rem 0.75rem 1rem;
     min-height: 100px;
+    overflow: hidden;
   }
   
   .tileImage {
-    max-width: 60px;
-    max-height: 60px;
+    width: auto;
+    height: calc(100% + 50px);
+    object-fit: cover;
+    object-position: center;
+    margin: -25px 0;
   }
   
   .content {
     padding: 1rem;
+  }
+  
+  .tile:not(:has(.imageContainer)) .content {
+    padding: 1.5rem 1rem;
   }
   
   .title {
@@ -101,21 +159,40 @@
   .description {
     font-size: 0.9rem;
   }
+  
+  .linkDisplay {
+    margin-top: 0.75rem;
+    padding-top: 0.5rem;
+    font-size: 0.85rem;
+  }
 }
 
 @media (max-width: 480px) {
+  .tile {
+    width: 100%;
+    max-width: 360px;
+  }
+  
   .imageContainer {
     padding: 1rem 0.75rem 0.5rem 0.75rem;
     min-height: 80px;
+    overflow: hidden;
   }
   
   .tileImage {
-    max-width: 50px;
-    max-height: 50px;
+    width: auto;
+    height: calc(100% + 50px);
+    object-fit: cover;
+    object-position: center;
+    margin: -25px 0;
   }
   
   .content {
     padding: 0.75rem;
+  }
+  
+  .tile:not(:has(.imageContainer)) .content {
+    padding: 1.25rem 0.75rem;
   }
   
   .title {
@@ -125,5 +202,11 @@
   
   .description {
     font-size: 0.85rem;
+  }
+  
+  .linkDisplay {
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    font-size: 0.8rem;
   }
 }

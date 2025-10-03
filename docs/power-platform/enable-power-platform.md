@@ -9,7 +9,7 @@ In order to start **collecting and monitoring Power Apps, Power Flows, Power Pla
 
 In this article, you can find details on how to:
 
-* [Enable Power Platform Data Collection](#enable-power-platform-data-collection)
+* [Enable Power Platform Data Collection](#enable-data-collection)
 * [Configure Reporting Limits](#configure-reporting-limits)
 * [Assign Syskit Point Power Platform Admins](#syskit-point-power-platform-admins)
 
@@ -21,7 +21,7 @@ To enable the use of Power Platform for Syskit Point, [please contact us](https:
 
 :::
 
-## Enable Power Platform Data Collection
+## Enable Data Collection
 
 :::warning
 **Please Note!** 

@@ -3,12 +3,14 @@ import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
-interface LandingTileProps {
+export interface LandingTileProps {
   title: string;
   description: string;
-  imageUrl: string;
+  imageUrl?: string;
   linkUrl: string;
   imageAlt?: string;
+  showLink?: boolean;
+  linkUrlDisplayText?: string;
 }
 
 export default function LandingTile({
@@ -17,28 +19,40 @@ export default function LandingTile({
   imageUrl,
   linkUrl,
   imageAlt = title,
+  showLink = false,
+  linkUrlDisplayText,
 }: LandingTileProps): React.JSX.Element {
-  // Convert relative paths to absolute paths for useBaseUrl
-  const absoluteImageUrl = imageUrl.startsWith('/') ? imageUrl : `/${imageUrl}`;
-  const imgUrl = useBaseUrl(absoluteImageUrl);
+  const imgUrl = imageUrl ? useBaseUrl(imageUrl) : null;
   const link = useBaseUrl(linkUrl);
+  
+  // Determine tile class based on whether it has an image
+  const tileClass = imageUrl 
+    ? `${styles.tile} ${styles.tileWithImage}` 
+    : `${styles.tile} ${styles.tileWithoutImage}`;
 
   return (
     <Link
       to={link}
       className={styles.tileLink}
     >
-      <div className={styles.tile}>
-        <div className={styles.imageContainer}>
-          <img
-            src={imgUrl}
-            alt={imageAlt}
-            className={styles.tileImage}
-          />
-        </div>
+      <div className={tileClass}>
+        {imageUrl && (
+          <div className={styles.imageContainer}>
+            <img
+              src={imgUrl}
+              alt={imageAlt}
+              className={styles.tileImage}
+            />
+          </div>
+        )}
         <div className={styles.content}>
           <h3 className={styles.title}>{title}</h3>
           <p className={styles.description}>{description}</p>
+          {showLink && linkUrlDisplayText && (
+            <div className={styles.linkDisplay}>
+              {linkUrlDisplayText}
+            </div>
+          )}
         </div>
       </div>
     </Link>
