@@ -27,7 +27,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 * **Microsoft Power Platform is now available as an add-on to Syskit Point**.
   * This add-on provides visibility into your Power Apps, Power Flows, and Power Platform environments through detailed reports and helps you manage your resources through additional actions. 
   * [To get the additional license needed for Power Platform, contact our team for more details.](https://www.syskit.com/company/contact-us/)
-  * [For more details on Power Platform for Syskit Point, please look through this section.](../../../power-platform/power-platform.md)
+  * [For more details on Power Platform for Syskit Point, please look through this section.](../../../power-platform/enable-power-platform.md)
 
 * **Syskit Point now syncs custom SharePoint Agents!**
   * **New report is available**: **Custom SharePoint Agents Inventory**

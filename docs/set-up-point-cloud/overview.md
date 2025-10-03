@@ -1,5 +1,6 @@
 ---
 description: This article shows an overview of all steps to take to try out and purchase Syskit Point Cloud.
+sidebar_position: 1
 ---
 
 # Overview

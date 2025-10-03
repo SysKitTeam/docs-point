@@ -2,6 +2,7 @@
 description: >-
   This article explains how Global Administrators can reconsent and provides a
   list of permission changes in Syskit Point app registrations through versions.
+sidebar_position: 2
 ---
 
 # Change Log

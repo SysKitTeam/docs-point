@@ -133,4 +133,4 @@ Follow the instructions in these articles to get started:
 * [Ignore Service Account Activity tracking](../configuration/ignore-service-account-activity-tracking.md)
 * [Customize Audit Logs collection](../configuration/customize-audit-logs-collection.md)
 * [Customize License Reports](../configuration/customize-license-reports.md)
-* [Power Platform for Syskit Point](../power-platform/power-platform.md)
+* [Power Platform for Syskit Point](../power-platform/enable-power-platform.md)

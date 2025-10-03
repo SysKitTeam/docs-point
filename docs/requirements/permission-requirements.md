@@ -1,4 +1,8 @@
 ---
+description: >
+  This article discusses the permission requirements necessary to run Syskit Point successfully.
+sidebar_position: 1
+---
 description: >-
   This article discusses the permission requirements necessary to run Syskit Point successfully.
 ---
@@ -266,7 +270,7 @@ To manage the permissions, you can run the related PowerShell cmdlets described 
 * [Remove-PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/remove-powerappmanagementapp?view=pa-ps-latest)
 :::
 
-[See the following article to learn how to enable Power Apps and Power Automate data collection in Syskit Point.](../power-platform/power-platform.md)
+[See the following article to learn how to enable Power Apps and Power Automate data collection in Syskit Point.](../power-platform/enable-power-platform.md)
 
 ### Syskit Point API
 

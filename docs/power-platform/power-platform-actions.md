@@ -27,7 +27,7 @@ These actions help manage access, resolve the risks of orphaned resources by add
 * [Take a look at the Power Platform Reports article for more details on all the available Power Platform reports.](power-platform-reports/power-platform-reports.md)
 
 :::warning
-To generate the [Power Platform Reports](power-platform-reports/power-platform-reports.md) and complete the Power Platform actions, please ensure [you have enabled Power Platform data collection](power-platform.md).\
+To generate the [Power Platform Reports](power-platform-reports/power-platform-reports.md) and complete the Power Platform actions, please ensure [you have enabled Power Platform data collection](enable-power-platform.md).\
 Power Platform actions can be completed by Global Admin users and users who have the Power Platform Admin role assigned in Microsoft Entra ID.
 :::
 

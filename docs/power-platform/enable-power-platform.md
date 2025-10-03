@@ -1,12 +1,9 @@
 ---
-description: This article explains how to enable and set up Power Platform data collection for Syskit Point. 
+description: This article explains how to enable and set up Power Platform data collection for Syskit Point.
+sidebar_position: 1
 ---
 
-import DocCardList from '@theme/DocCardList';
-
-<DocCardList />
-
-# Power Platform for Syskit Point
+# Enable Power Platform Data Collection
 
 In order to start **collecting and monitoring Power Apps, Power Flows, Power Platform Environments,** you need to first connect your Power Platform to Syskit Point. This helps you keep track of your Power Platform resources in one place to manage them more effectively. 
 
