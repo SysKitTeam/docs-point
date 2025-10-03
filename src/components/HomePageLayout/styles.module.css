@@ -1,0 +1,19 @@
+.homePageWrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Hide any Docusaurus "Last Updated" info on home page */
+.homePageWrapper ~ .theme-last-updated,
+.homePageWrapper + .theme-last-updated {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .homePageWrapper {
+    padding: 0 1rem;
+  }
+}

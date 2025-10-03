@@ -11,8 +11,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  align-items: stretch;
   gap: 1.5rem;
   margin-bottom: 2rem;
+  width: 100%;
 }
 
 /* Grid for tiles without images - 3 per row in 800px */
@@ -20,8 +22,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  align-items: stretch;
   gap: 1rem;
   margin-bottom: 2rem;
+  width: 100%;
 }
 
 @media (max-width: 768px) {

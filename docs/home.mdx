@@ -8,7 +8,15 @@ custom_edit_url: null
 hide_title: false
 sidebar_class_name: hidden
 displayed_sidebar: null
+hide_last_update_author: true
+hide_last_update_time: true
 ---
+
+import HomePageLayout from '@site/src/components/HomePageLayout';
+import LandingTile from '@site/src/components/LandingTile';
+import LandingTileGrid from '@site/src/components/LandingTileGrid';
+
+<HomePageLayout>
 
 # Syskit Point
 
@@ -18,10 +26,7 @@ Deep visibility, powerful management, and automated governance – gain it all w
 
 **Setup & Product Updates**
 
-import LandingTile from '@site/src/components/LandingTile';
-import LandingTileGrid from '@site/src/components/LandingTileGrid';
-
-<LandingTileGrid>
+<LandingTileGrid hasImages={true}>
   <LandingTile
     title="Syskit Point - Cloud"
     description="Get information about product updates, SaaS installation and activation."
@@ -40,7 +45,7 @@ import LandingTileGrid from '@site/src/components/LandingTileGrid';
 
 **You are using Syskit Point as...**
 
-<LandingTileGrid>
+<LandingTileGrid hasImages={true}>
   <LandingTile
     title="Administrator"
     description="Learn how to configure it all, as well as how to use reporting, auditing, management, and governance features."
@@ -59,7 +64,7 @@ import LandingTileGrid from '@site/src/components/LandingTileGrid';
 
 **Useful sections to keep an eye on!**
 
-<LandingTileGrid>
+<LandingTileGrid hasImages={false}>
   <LandingTile
     title="Product Updates"
     description="We regularly launch updates to keep you up-to-date with the latest technology and provide you with new ways of managing M365. Be efficient and gain control at every point."
@@ -102,4 +107,8 @@ Take necessary actions to **prevent security problems and data leaks**, stay com
 **Automate governance** procedures, **avoid uncontrolled sprawl, and manage workspaces lifecycle**, from its creation to end of life.
 
 With Syskit Point governance features and Point Teams app, **end users increase productivity, get simplified processes, and reduce dependency on the support** team to manage access and create workspaces. **Admins get the platform that helps them support adoption** of modern ways of cloud collaboration, **keeping the data secured and controlling** everything with policies applied in the background.
+
+</HomePageLayout>
+
+
 
