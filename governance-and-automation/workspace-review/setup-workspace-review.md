@@ -4,22 +4,28 @@ description: This article explains how to enable and configure the Automated Acc
 
 # Workspace Review
 
-The Workspace Review policy helps you maintain control over your Microsoft 365 workspaces by regularly asking workspace owners to confirm the importance, access, activity, and security of their workspaces. This policy includes a privacy and sensitivity review, broader governance policies, and introduces smarter, recommendation-driven tasks. 
+The Workspace Review policy helps you maintain control over your Microsoft 365 workspaces by regularly asking workspace owners to confirm the access, activity, and security of their workspaces. This policy includes a privacy and sensitivity review, broader governance policies, and introduces smarter, recommendation-driven tasks. 
 
-Admins can define custom policies that trigger review cycles at regular intervals, ensuring each workspace is evaluated based on criteria like inactivity, sensitivity labels, ownership, or missing classification data.
+Admins can define custom workspace review policies that trigger during specified review cycles, ensuring that workspace owners regularly evaluate theirs workspace for their inactivity, privacy requirements, sensitivity labels, permissions given, or ownership level.
 
-Here's a quick overview of what you can expect from the Workspace Review policy: 
+Here's a quick overview of what setting up and using the Workspace Review looks like: 
 
 * **Admins configure Workspace Review policies**
-  * Set the schedule, define the review scope, and select which workspaces should be included based on filters like inactivity or sensitivity labels
+  * Set the schedule, define the review scope, and select which workspaces should be included 
 * **Workspace owners complete reviews**
-  * When a review is due, owners receive a task in Syskit Point along with an email notification. Tasks include workspace details and suggested actions (for example, archive, change owner, update label) to simplify your decision-making
+  * When a review is due, owners receive a task in Syskit Point along with an email notification. Tasks include workspace details and suggested actions (for example, change the privacy or sensitivity label, remove user access, remove sharing link) to simplify your decision-making
 * **Admins monitor the review progress**
   * From the Workspace Review dashboard, admins can track which workspaces have been reviewed, see completed actions, and gain insights into the effectiveness of each review cycle 
 
 ## Configure Workspace Review Policies
 
-With Workspace Review, you can ask site owners to perform regular Workspace Reviews on their workspaces as well as have more than one Workspace Review active with different Settings. 
+With Workspace Review, you can ask site owners to perform regular Workspace Reviews on their workspaces, and depending on the specific needs of a workspace, have different Workspace Reviews active with different Settings. 
+
+{% hint style="info" %}
+
+**Please note:** A workspace can currently have only one active Workspace Review assigned to it. 
+
+{% endhint %}
 
 To set up your Workspace Review, navigate to **Settings > Policies**. 
 
@@ -50,18 +56,25 @@ Selecting the Memberships template gives you the following options:
   * **Click the checkmark** if you want to:
      * Send a reminder 3 work days before the due date
      * Receive completion e-mails - selecting this sends an e-mail every time a reviewer finishes the workspace review
+       * The e-mail will be sent to the co-reviewers for that Workspace Review task
 * **Choose what you want the reviewers to check** regarding the workspace's activity status, privacy settings and sensitivity review
+  * **Allow Reviewers to Change Owners** - reviewers will be able to change owners of the workspace on the overview step
   * **Inactive Workspace** - reviewers will be able to archive or delete workspace. Archiving or deleting the workspace will complete the workspace review
   * **Privacy Settings** - reviewers will be able to change the privacy settings of the workspace
   * **Sensitivity label** - reviewers will be able to change the sensitivity label of the workspace
-* For this template, the **Membership toggle is automatically switche on**, however, clicking the toggle turn this step off
+* For this template, the **Membership toggle is automatically switched on**, however, clicking the toggle turn this step off
   * Here, you **choose what you want the reviewers to check** regarding users who will have access to the workspace as members
     * The **All Members checkbox is automatically selected** as it is a default part of the Membership step and will always be visible in any review where Membership is enabled
     * In this step you can also **add recommendations that help ensure compliance** with the Minimum Number or Owners and Maximum Number of Owners policies assigned to the workspace
        * Not Enough Owners - reviewers will see prompt if their workspace has too few owners
        * Too Many Owners - reviewers will see prompt if their workspace has too many owners
+
+{% hint style="warning" %}
+* If the Not Enough Owners and/or Too Many Owners options are selected as part of the Workspace Review and a vulnerability is detected, reviewers will not be able to move forward and complete the review without resolving the vulnerability. 
+{% endhint %}
+
 * Next, **you can turn on Shadow Users by clicking the toggle next to it** if you want reviewers to check on **users that have access to workspace content but are not official members**
-  * If you click the toggle and turn the option on, you can find the **Review All Shadow Users** checkbox - with this, reviewers can review all shadow users and remove those who no lonher need access
+  * If you click the toggle and turn the option on, you can find the **Review All Shadow Users** checkbox - with this, reviewers can review all shadow users and remove those who no longer need access
     * The checkbox will be automatically selected as it is a default part of the step
 * **Turn on Sharing by clicking the toggle next to it** if you want reviewers to choose what you would like reviewers to check regarding **content that has been shared from the workspace**
   * If you click the toggle and turn the option on, the following options are available:
