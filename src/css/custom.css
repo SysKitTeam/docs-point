@@ -44,6 +44,55 @@ html, body {
   font-family: Arial, sans-serif;
 }
 
+/* Center images in articles with caption support */
+.markdown p:has(img) {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.markdown img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style for image captions using the alt text */
+.markdown p:has(img[alt]:not([alt=""])) {
+  position: relative;
+}
+
+.markdown p:has(img[alt]:not([alt=""])):after {
+  content: attr(alt);
+  display: block;
+  text-align: center;
+  font-style: italic;
+  font-size: 0.9em;
+  color: var(--ifm-color-content-secondary);
+  margin-top: 0.5rem;
+  font-weight: 400;
+}
+
+/* Alternative: For browsers that don't support :has(), use a class-based approach */
+.image-with-caption {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.image-with-caption img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.image-with-caption .caption {
+  font-style: italic;
+  font-size: 0.9em;
+  color: var(--ifm-color-content-secondary);
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
 /* sidebar links*/
 .menu__link {
   font-size: 14px;
