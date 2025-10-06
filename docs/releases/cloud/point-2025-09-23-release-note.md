@@ -1,8 +1,6 @@
 ---
-description: This article lists improvements and bug fixes in the Syskit Point Cloud version 2025.4.110.X
-sidebar_position: 3
----
 description: This article lists improvements and bug fixes in the Syskit Point Cloud version 2025.4.110.13
+sidebar_position: 3
 ---
 
 # September 23, 2025
