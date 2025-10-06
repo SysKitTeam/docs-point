@@ -2,7 +2,7 @@
 description: >-
   This article lists improvements and bug fixes in the Syskit Point Cloud
   version 2023.4.1.30
-sidebar_position: 76
+sidebar_position: 75
 ---
 
 # November 02, 2023
