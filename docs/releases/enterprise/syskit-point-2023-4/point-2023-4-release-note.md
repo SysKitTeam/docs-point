@@ -4,7 +4,7 @@ description: >-
 sidebar_position: 2
 ---
 
-# Syskit Point 2023.4
+# Syskit Point 2023.4.0
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
@@ -72,10 +72,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 **Syskit Point 2023.4 brings a new look and feel and a revamped homepage experience!** We're excited to introduce the new look and feel of Syskit Point following our company rebranding. With improved platform capabilities and a redefined product vision as the central hub for administration, security, and compliance, we are thrilled to unveil the new homepage experience. This revamped interface features a left-hand menu and a centralized dashboard, offering a comprehensive overview of your Microsoft 365. Easily navigate and delve into specifics as needed.
 
-<figure>
-<img src="../../../../static/img/newHomepagev2.gif" alt="" />
-<figcaption><p>New Home Page Experience</p></figcaption>
-</figure>
+![New Home Page Experience](../../../../static/img/newHomepagev2.gif)
 
 ## Improvements & Bug Fixes
 
