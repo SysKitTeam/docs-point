@@ -1,6 +1,9 @@
 import { useEffect } from 'react';
+import { useLocation } from '@docusaurus/router';
 
 export default function ImageCaptions(): null {
+  const location = useLocation();
+  
   useEffect(() => {
     const addImageCaptions = () => {
       // Find all images in markdown content that have alt text
@@ -35,31 +38,62 @@ export default function ImageCaptions(): null {
       });
     };
 
-    // Run immediately
-    addImageCaptions();
+    // Wait for the page content to be fully rendered
+    const waitForContent = () => {
+      const markdownContent = document.querySelector('.markdown');
+      if (markdownContent) {
+        addImageCaptions();
+      } else {
+        // If markdown content not found, try again after a short delay
+        setTimeout(waitForContent, 100);
+      }
+    };
+
+    // Use multiple strategies to ensure captions are added
+    // 1. Run immediately
+    waitForContent();
     
-    // Run after a short delay to catch any dynamically loaded content
-    setTimeout(addImageCaptions, 100);
-    setTimeout(addImageCaptions, 500);
+    // 2. Run after short delays
+    setTimeout(waitForContent, 200);
+    setTimeout(waitForContent, 500);
+    setTimeout(waitForContent, 1000);
     
-    // Set up intersection observer to handle lazy-loaded images
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          setTimeout(addImageCaptions, 50);
+    // 3. Set up mutation observer to watch for DOM changes
+    const observer = new MutationObserver((mutations) => {
+      let shouldUpdate = false;
+      mutations.forEach((mutation) => {
+        if (mutation.type === 'childList') {
+          // Check if new images were added
+          mutation.addedNodes.forEach((node) => {
+            if (node.nodeType === Node.ELEMENT_NODE) {
+              const element = node as Element;
+              if (element.tagName === 'IMG' || element.querySelector('img')) {
+                shouldUpdate = true;
+              }
+            }
+          });
         }
       });
+      
+      if (shouldUpdate) {
+        setTimeout(addImageCaptions, 100);
+      }
     });
     
-    // Observe all images
-    const allImages = document.querySelectorAll('.markdown img');
-    allImages.forEach((img) => observer.observe(img));
+    // Start observing
+    const markdownContent = document.querySelector('.markdown');
+    if (markdownContent) {
+      observer.observe(markdownContent, {
+        childList: true,
+        subtree: true
+      });
+    }
     
     // Cleanup
     return () => {
       observer.disconnect();
     };
-  }, []);
+  }, [location.pathname]); // Re-run when route changes
 
   return null;
 }

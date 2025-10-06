@@ -1,5 +1,6 @@
 ---
 description: This article provides a step-by-step guide on how to get a free 21-day trial of Syskit Point.
+sidebar_position: 2
 ---
 
 # Free Trial

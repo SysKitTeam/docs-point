@@ -278,5 +278,5 @@ By default, the **app registration has no permissions added**.
 
 ## Related Topics
 
-* * [System Requirements for Point Enterprise](../set-up-point-enterprise/deployment/system-requirements.md)
+* [System Requirements for Point Enterprise](../set-up-point-enterprise/deployment/system-requirements.md)
 * [Deploy Syskit Point for Point Enterprise](../set-up-point-enterprise/deployment/deploy-syskit-point.md)
