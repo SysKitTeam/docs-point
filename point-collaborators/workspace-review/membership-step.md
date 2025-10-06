@@ -1,48 +1,52 @@
 ---
-description: This article provides a full overview of the Workspace Review task resolution process in Syskit Point from a workspace owner's perspective.
+description: This article provides an overview of the Workspace Review Wizard Membership step from a workspace owner's perspective.
 ---
 
 # Membership Step
 
 The first screen on the Membership step is the task overview. Here, you can find information on what is expected of you for this step:
 
-* You'll be asked to **review the list of users who have access to workspace content**, which is critical to ensure workspace security, maintaining appropriate permissions, and streamline collaboration within the team. 
+* You'll be asked to **review the list of users who have access to workspace content**, which is critical to ensuring workspace security, maintaining appropriate permissions, and streamlining collaboration within the team. 
 
-* Explanation of how many sections this step has: **Review All members.**
+* Explanation of how many sections this step has: **Review All members (1)**
 
-* **Review button** you can click when you're ready to start your review.
+* **Review button (2)** you can click when you're ready to start your review.
+
+![Workspace Review - Membership Step - Overview](../../.gitbook/assets/workspace-review-membership-step-overview.png)
 
 After clicking the Review button, the Membership Review screen opens. On this screen, the following information and actions are available:
 
-* At the top right corner, there is a **Add Owners/Members button**
-  * Clicking this opens the Add Owners/Members dialog where you can add more members or owners to the workspace
+* At the top right corner, there is a **Add Owners/Members button (1)**
+  * Clicking this opens the Add Owners/Members dialog, where you can add more members or owners to the workspace
 
-* On the left side, there are there filters you can use to view the list with:
-  * **All** users 
-  * **Owners** only 
-  * **Members** only 
+* On the left side, there are three **filters (2)** you can use to view the list with:
+* **All** users 
+* **Owners** only 
+* **Members** only 
 
 * The columns available are: 
-  * **Name** - the name of the user
-  * **Username** - the e-mail for the user
-  * **Role** - the role of the user in the workspace
-  * **Last Tenant Logged In** - last date the tenant with the user was logged in
-  * **Department** - the department of the user
-  * **Recommendation** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made
-
-* **Promote to Owner** action
+  * **Name (3)** - the name of the user
+  * **Username (4)** - the e-mail for the user
+  * **Role (5)** - the role of the user in the workspace
+  * **Last Tenant Logged In (6)** - last date the tenant with the user was logged in
+  * **Department (7)** - the department of the user
+  * **Recommendation (8)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made
+* **Promote to Owner (9)** action
   * Clicking this action promotes the user from member status to owner status
-* **Remove from Group** action
+* **Change to Member (10)** action
+  * Clicking this action promotes the user from owner status to member status
+* **Remove from Group (11)** action
   * Clicking this action removes the user from the workspace
-* **Selecting more than one workspace** lets you perform these two actions on multiple workspaces at once
 
+**Selecting more than one workspace** lets you perform these two actions on multiple workspaces at once
+
+![Workspace Review - Membership Step](../../.gitbook/assets/workspace-review-membership-step.png)
 
 {% hint style="warning" %}
 * If the [Minimum Number of Owners](../resolve-governance-tasks/minimum-number-of-owners.md) and/or [Maximum Number of Owners](../resolve-governance-tasks/maximum-number-of-owners.md) policies were assigned as part of the Workspace Review by the Administrator, and a vulnerability on the workspace was detected, you will not be able to move forward without resolving the vulnerability. 
 {% endhint %}
 
-Once you've completed the actions you decide to take, clicking Next take you to the next, [Shadow Users](shadow-users-step.md), step.
-
+Once you've completed the actions you decide to take, clicking Next takes you to the next step, [Shadow Users](shadow-users-step.md).
 
 {% hint style="information" %}
 **Please note!** 

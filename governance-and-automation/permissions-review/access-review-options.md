@@ -4,6 +4,14 @@ description: This article explains how to customize additional Access Review opt
 
 # Modify Access Review Options
 
+{% hint style="warning" %}
+ 
+With the introduction of the [Workspace Review](#overview) **we will slowly begin fading out our Access Review**. The Syskit Point Workspace Review **lets workspace owners complete more than just an access review** on their workspace; depending on the configuration, you can **have owners check over the ownership, privacy, sensitivity and overall security of their workspaces as part of a Workspace Review**.
+ 
+**Access Review will be fully removed from Syskit Point by January 2027.** Make sure you've finished all your Access Reviews by that point and created at least one Workspace Review policy. 
+ 
+{% endhint %}
+
 {% hint style="information" %}
 **Access Review options** are available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 {% endhint %}

@@ -1,5 +1,5 @@
 ---
-description: This article provides a full overview of the Workspace Review task resolution process in Syskit Point from a workspace owner's perspective.
+description: This article provides an overview of the Workspace Review Wizard Shadow Users step from a workspace owner's perspective.
 ---
 
 # Shadow Users Step
@@ -9,37 +9,38 @@ The first screen on the Shadow Users step is the task overview. Here, you can fi
 * You'll be asked to **review the list of shadow users connected to the workspace**. 
   * Shadow users are users that are not group members, but they have access to some content within your workspace. 
 
-* Explanation of how many sections this step has: **Review All Shadow Users.**
+* Explanation of how many sections this step has: **Review All Shadow Users (1)**
 
-* **Review button** you can click when you're ready to start your review.
+* **Review button (2)** you can click when ready to start your review.
+
+![Workspace Review - Shadow Users Step - Overview](../../.gitbook/assets/workspace-review-shadow-users-step-overview.png)
 
 After **clicking the Review button**, the Shadow Users Review screen opens. On this screen, the following information and actions are available:
 
-* On the left side, there are two filters you can use to view the list with:
+* On the left side, there are **two filters (1)** you can use to view the list with:
   * **All**
   * **Internal** 
 
 * The columns available are: 
-  * **Name** - the name of the shadow user or workspace the shadow user is a part of
-  * **Username** - the e-mail for the shadow user or workspace
-  * **Department** - the department of the shadow user
-  * **Is deleted** - whether the user or workspace is deleted
-  * **Recommendation** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made
-
-* **View Access** action
-  * Clicking this action opens the Access Details for Everyone except external users screen where you can gain more details on the workspace or shadow user through the following columns:
+  * **Name (2)** - the name of the shadow user or workspace the shadow user is a part of
+  * **Username (3)** - the e-mail for the shadow user or workspace
+  * **Department (4)** - the department of the shadow user
+  * **Is deleted (5)** - whether the user or workspace is deleted
+  * **Recommendation (6)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made
+* **View Access (7)** action
+  * Clicking this action opens the Access Details for Everyone except external users screen, where you can gain more details on the workspace or shadow user through the following columns:
     * **Name** of the workspace
     * **Access**, shows the type of access given
     * **Details**, shows where the user got the permission from
     * **Given Through**, shows where the permission was given through
     * **Sensitivity label**, shows which sensitivity label, if any, is assigned to the workspace
     * **Remove Access button**, which removes the access for the shadow user
+* **Remove Access (8)** action
+  * Clicking this action opens the Remove Group Access modal, where you have to confirm the removal of the access for the shadow user
 
-* **Remove from Group** action
-  * Clicking this action opens the Remove Group Access modal where you have to confirm the removal of the access for the shadow user
+Once you've completed the actions you decide to take, clicking Next takes you to the next step, [Sharing](sharing-step.md).
 
-Once you've completed the actions you decide to take, clicking Next take you to the next, [Sharing](sharing-step.md), step.
-
+![Workspace Review - Shadow Users Step](../../.gitbook/assets/workspace-review-shadow-users-step.png)
 
 {% hint style="information" %}
 **Please note!** 
