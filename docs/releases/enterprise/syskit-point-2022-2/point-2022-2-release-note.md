@@ -3,7 +3,7 @@ description: This article lists improvements and bug fixes in Syskit Point versi
 sidebar_position: 4
 ---
 
-# Syskit Point 2022.2
+# Syskit Point 2022.2.0
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 

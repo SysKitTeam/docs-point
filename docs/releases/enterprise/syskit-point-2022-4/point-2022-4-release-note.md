@@ -5,7 +5,7 @@ description: >-
 sidebar_position: 2
 ---
 
-# Syskit Point 2022.4
+# Syskit Point 2022.4.0
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
