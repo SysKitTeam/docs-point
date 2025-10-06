@@ -86,7 +86,7 @@ html, body {
 }
 
 .image-with-caption .caption {
-  font-style: italic;
+  font-style: normal;
   font-size: 0.9em;
   color: var(--ifm-color-content-secondary);
   margin-top: 0.5rem;
