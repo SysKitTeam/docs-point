@@ -2,7 +2,7 @@
 description: This article provides a step-by-step guide on how to get a free 21-day trial of Syskit Point.
 ---
 
-# Syskit Point Free Trial
+# Free Trial
 
 **Syskit Point trial** enables you to **test drive Syskit Point for free for 21 days** and discover how to utilize it when managing your Microsoft 365 environment. 
 

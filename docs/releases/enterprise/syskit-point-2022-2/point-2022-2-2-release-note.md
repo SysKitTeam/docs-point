@@ -2,6 +2,7 @@
 description: >-
   This article lists improvements and bug fixes in Syskit Point version
   2022.2.2.
+sidebar_position: 57
 ---
 
 # Syskit Point 2022.2.2

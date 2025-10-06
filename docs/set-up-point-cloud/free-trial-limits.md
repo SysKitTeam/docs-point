@@ -1,5 +1,6 @@
 ---
 description: This article provides a list of limitations when using Syskit Point during your 21-day trial.
+title: Free Trial Limits
 ---
 
 # Syskit Point Free Trial Limits

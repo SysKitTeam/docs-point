@@ -1,5 +1,6 @@
 ---
 description: This article lists improvements and bug fixes in the Syskit Point Cloud version 2025.3.97.1
+sidebar_position: 16
 ---
 
 # June 24, 2025

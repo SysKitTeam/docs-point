@@ -1,6 +1,7 @@
 ---
 description: >-
   This article lists improvements and bug fixes in the Syskit Point Cloud version 2024.1.43.28
+sidebar_position: 68
 ---
 
 # February 22, 2024
