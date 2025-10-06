@@ -1,7 +1,7 @@
 ---
 description: >-
   This article lists improvements and bug fixes in Syskit Point version 2023.3
-sidebar_position: 39
+sidebar_position: 12
 ---
 
 # Syskit Point 2023.3

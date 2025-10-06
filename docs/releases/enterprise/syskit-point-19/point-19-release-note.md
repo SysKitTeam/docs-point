@@ -2,7 +2,7 @@
 description: >-
   This article describes the new features and improvements in Syskit Point
   version 19.
-sidebar_position: 67
+sidebar_position: 3
 ---
 
 # Syskit Point 19

@@ -2,7 +2,7 @@
 description: >-
   This article describes the new features and improvements in Syskit Point
   version 2021.10.
-sidebar_position: 62
+sidebar_position: 21
 ---
 
 # Syskit Point 2021.10

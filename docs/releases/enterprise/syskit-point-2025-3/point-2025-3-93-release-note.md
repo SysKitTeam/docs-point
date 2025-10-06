@@ -1,6 +1,6 @@
 ---
 description: This article lists improvements and bug fixes in Syskit Point version 2025.3.93
-sidebar_position: 9
+sidebar_position: 5
 ---
 
 # Syskit Point 2025.3.93
