@@ -85,18 +85,40 @@ After **enabling the Power Platform data collection (1)**, additional settings a
  
 ## Power Platform Sync Limits
 
-Syskit Point collects data for the following Power Platform resources:
-* Power apps
-  * Canvas (Standard & SharePoint Form)
-* Cloud flows 
-  * Automated
-  * Instant
-  * Scheduled
+Syskit Point collects data for the Power Platform resources listed below.
+
+### Environments with Dataverse Enabled
+
+| Resource |	Type	| Is synced |
+| ----- |----- |----- |
+| Solution	| All types	| No |
+| App |	A part of unmanaged solutions |	Yes |
+| App |	Imported from managed solutions |	Yes |
+| App |	Imported from unmanaged solutions |	Yes |
+| App |	Part of a Common Data Service Default solution | Yes |
+| App |	Model-driven app that is apart of a solution |	No |
+| App |	Model-driven app that is not a part of a solution |	No |
+| Flow | Imported from unmanaged solutions | Yes |
+| Flow | Created in unmanaged solution | No |
+| Flow | Imported with managed solutions | No |
+| Flow | Part of a Common Data Service Default solution |	No |
+| Flow | Desktop flow	| No |
+
+### Managed Environments
+The same rules apply as with Environments with [Dataverse enabled](#environments-with-dataverse-enabled) listed above.
+
+### Environments with Dataverse Disabled
+
+| Resource |	Type	| Is synced |
+| ----- | ----- | ----- |
+| App |	All types |	Yes |
+| Flow |	All types |	Yes |
 
 {% hint style="warning" %}
-Solutions, Model-driven apps, and Desktop flows are not supported.
+**Please note!**\
+Solutions cannot exist in environments without dataverse.
+Desktop flows cannot exist in environments without dataverse.
 {% endhint %}
-
 
 ## Syskit Point Power Platform Admins
 
