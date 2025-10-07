@@ -17,17 +17,7 @@ This article contains information on two Power Platform reports available throug
 * [Power Automate Permissions Report](#power-automate-permissions-report)
 
 {% hint style="information" %}
-Syskit Point collects data for the following Power Platform resources:
-* Power apps
-  * Canvas (Standard & SharePoint Form)
-* Cloud flows 
-  * Automated
-  * Instant
-  * Scheduled
-{% endhint %}
-
-{% hint style="warning" %}
-Solutions, Model-driven apps, and Desktop flows are not supported.
+[Read this article to learn which types of Power Platform resources are synced in Syskit Point.](../power-platform.md#power-platform-sync-limits)
 {% endhint %}
 
 ## Power Automate Inventory Report
