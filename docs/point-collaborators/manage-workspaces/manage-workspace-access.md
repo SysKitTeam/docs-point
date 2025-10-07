@@ -2,11 +2,7 @@
 description: This article provides details helpful to collaborators and site owners on how to manage your workspaces.
 ---
 
-import DocCardList from '@theme/DocCardList';
-
-<DocCardList />
-
-# Manage Workspaces
+# Manage Workspace Access
 
 Managing your workspaces in Syskit Point can **simplify the day-to-day management of teams, sites and groups** where you are the owner.
 
