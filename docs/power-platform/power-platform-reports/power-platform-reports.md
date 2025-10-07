@@ -20,17 +20,7 @@ This article contains information on six Power Platform reports available throug
 You can also find the Power BI reports under the Power Platform filter. For more information on those reports, [look at the Power BI reports article](../power-platform-reports/power-bi-reports.md).
 
 :::info
-Syskit Point collects data for the following Power Platform resources:
-* Power apps
-  * Canvas (Standard & SharePoint Form)
-* Cloud flows 
-  * Automated
-  * Instant
-  * Scheduled
-:::
-
-:::warning
-Solutions, Model-driven apps, and Desktop flows are not supported.
+[Read this article to learn which types of Power Platform resources are synced in Syskit Point.](../power-platform.md#power-platform-sync-limits)
 :::
 
 ## Power Platform Environments Report
