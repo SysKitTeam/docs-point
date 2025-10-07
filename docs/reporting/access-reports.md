@@ -279,7 +279,7 @@ The Group Access report can be generated for:
 * **Security Groups (On-Premises)**
 * **Mail-Enabled Security Groups**
 
-[For more details on how to Manage Group Access, take a look at this article.](../point-collaborators/manage-workspaces/manage-workspaces.md) 
+[For more details on how to Manage Group Access, take a look at this article.](../point-collaborators/manage-workspaces/manage-workspace-access.md) 
 
 ### Generate Report
 

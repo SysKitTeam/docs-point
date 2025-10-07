@@ -377,7 +377,7 @@
   * [Manage Workspaces](point-collaborators/manage-workspaces/README.md)
     * [Request New Workspace](point-collaborators/manage-workspaces/request-new-workspace.md)
     * [Request Workspace Access](point-collaborators/manage-workspaces/request-workspace-access.md)
-    * [Manage Workspaces](point-collaborators/manage-workspaces/manage-workspaces.md)
+    * [Manage Workspaces](point-collaborators/manage-workspaces/manage-workspace-access.md)
     * [Manage Custom Metadata](point-collaborators/manage-workspaces/manage-custom-metadata.md)
   * [Reporting](point-collaborators/reporting/README.md)
     * [Syskit Icons Glossary](point-collaborators/reporting/syskit-glossary-icons.md)

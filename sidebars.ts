@@ -847,12 +847,12 @@ const sidebars: SidebarsConfig = {
           label: 'Manage Workspaces',
           link: {
             type: 'doc',
-            id: 'point-collaborators/manage-workspaces/manage-workspaces/README',
+            id: 'point-collaborators/manage-workspaces/README',
           },
           items: [
             'point-collaborators/manage-workspaces/request-new-workspace',
             'point-collaborators/manage-workspaces/request-workspace-access',
-            'point-collaborators/manage-workspaces/manage-workspaces',
+            'point-collaborators/manage-workspaces/manage-workspace-access',
             'point-collaborators/manage-workspaces/manage-custom-metadata',         
           ],
         },
