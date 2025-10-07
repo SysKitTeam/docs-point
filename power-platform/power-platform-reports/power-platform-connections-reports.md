@@ -14,17 +14,7 @@ To enable the use of Power Platform for Syskit Point, [please contact us](https:
 The Power Platform Connections report provides a complete overview of all your Power Platform Connections across every environment. 
 
 {% hint style="information" %}
-Syskit Point collects data for the following Power Platform resources:
-* Power apps
-  * Canvas (Standard & SharePoint Form)
-* Cloud flows 
-  * Automated
-  * Instant
-  * Scheduled
-{% endhint %}
-
-{% hint style="warning" %}
-Solutions, Model-driven apps, and Desktop flows are not supported.
+[Read this article to learn which types of Power Platform resources are synced in Syskit Point.](../power-platform.md#power-platform-sync-limits)
 {% endhint %}
 
 ## Step 1: Generate Report
