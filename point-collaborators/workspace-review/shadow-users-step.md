@@ -17,18 +17,23 @@ The first screen on the Shadow Users step is the task overview. Here, you can fi
 
 After **clicking the Review button**, the Shadow Users Review screen opens. On this screen, the following information and actions are available:
 
-* On the left side, there are **two filters (1)** you can use to view the list with:
+* On the left side, there are **filters (1)** you can use to view the list with:
   * **All**
   * **Internal** 
+  * **Blocked**
+  * **Orphaned**
 
 * The columns available are: 
   * **Name (2)** - the name of the shadow user or workspace the shadow user is a part of
   * **Username (3)** - the e-mail for the shadow user or workspace
   * **Department (4)** - the department of the shadow user
   * **Is deleted (5)** - whether the user or workspace is deleted
-  * **Recommendation (6)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made
+  * **Recommendation (6)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made. The following recommendations could be suggested:
+    * **Remove Blocked Users** - these are shadow users whose sign-in has been disabled by an admin. They can’t log in, but you should remove their access to the workspace content to keep things clean. 
+    * **Remove Deleted Users** - these are shadow users who are deleted by an admin. They can’t log in, but you should remove their access to the workspace content to keep things clean. 
+    * **Remove Inactive External Users** - these are shadow users outside your organization who have not been active in the last 90 days. 
 * **View Access (7)** action
-  * Clicking this action opens the Access Details for Everyone except external users screen, where you can gain more details on the workspace or shadow user through the following columns:
+  * Clicking this action shows where exactly (on which files or folders) the selected user has access across the workspace with the following columns:
     * **Name** of the workspace
     * **Access**, shows the type of access given
     * **Details**, shows where the user got the permission from

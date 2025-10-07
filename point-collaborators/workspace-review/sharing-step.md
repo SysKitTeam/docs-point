@@ -19,7 +19,8 @@ After **clicking the Review button**, the first section opens where you can revi
 * **Link Type (2)** - the level of sharing given through the link, for example, view-only, password-protected (edit), etc.
 * **Expiration Date (3)** - shows when the link is set to expire
 * **Sensitivity label (4)** - shows if there is a sensitivity label assigned to the content
-* **Recommendation (5)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made
+* **Recommendation (5)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made. The following recommendation could be suggested:
+   * **Remove Expired Links** - expired sharing links are no longer valid. You can safely remove them to reduce clutter and keep your workspace clean and secure. 
 * The **Remove Sharing Link (6)** action
   * Clicking this action opens the Remove Sharing Link modal, where you need to confirm the removal of the sharing link
 

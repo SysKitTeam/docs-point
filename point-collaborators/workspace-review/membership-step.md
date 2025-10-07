@@ -30,7 +30,9 @@ After clicking the Review button, the Membership Review screen opens. On this sc
   * **Role (5)** - the role of the user in the workspace
   * **Last Tenant Logged In (6)** - last date the tenant with the user was logged in
   * **Department (7)** - the department of the user
-  * **Recommendation (8)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made
+  * **Recommendation (8)** - this section provides a recommendation from Syskit Point on what actions should be taken if any notable recommendations can be made. The following recommendations could be suggested:
+    * **Remove Blocked Members** - a blocked member is someone whose sign-in access has been disabled by an admin. Blocked members can’t log in, and you can safely remove them from your workspace. 
+    * **Remove Inactive Guests** - An inactive guest user is someone outside your organization who wasn’t active during the period defined in the Inactive Guest Users policy. 
 * **Promote to Owner (9)** action
   * Clicking this action promotes the user from member status to owner status
 * **Change to Member (10)** action

@@ -4,21 +4,9 @@ description: This article provides a complete overview of the Workspace Review t
 
 # Workspace Review
 
-**The Workspace review**, in the context of the Microsoft 365 environment, is a scheduled review for Microsoft 365 workspaces that ensures each workspace follows your organization's policies for governance, such as:
-* The maximum or minimum number of owners per workspace
-* Keeping sensitive information secure
-* Reviewing shared content and permissions
-* Make decisions regarding inactive workspaces
+**The Workspace review**, in the context of the Microsoft 365 environment, is a scheduled review for Microsoft 365 workspaces that ensures each workspace follows your organization's policies for governance.
 
-A few examples of such Microsoft 365 workspaces are as follows:
-
-* SharePoint Sites
-* Microsoft Teams
-* Microsoft 365 Groups
-* OneDrive
-* Yammer
-
-The **Workspace Review task is usually performed by a workspace owner**, however, reviewers for workspace review policies can be defined by the Syskit Point Admins. Depending on the [settings for the workspace review policy](../../governance-and-automation/workspace-review/monitor-workspace-review.md), you might be asked to:
+The **Workspace Review task is usually performed by a workspace owner**, however, reviewers for workspace review policies can be defined by the Syskit Point Admins. Depending on the [settings for the workspace review policy](../../governance-and-automation/workspace-review/setup-workspace-review.md), you might be asked to:
 * Confirm or edit workspace ownership
 * Review external sharing and guest access
 * Check file and folder sharing
@@ -68,6 +56,11 @@ The first step of the Workspace Review is the Overview. Here, you can find the f
 * **Co-reviewer(s) (3)**, shows who the other reviewers are for this workspace review
 * **Start Chat button (4)**, which lets you starts a Microsoft Teams chat with your co-reviewers in order to discuss the workspace review task
 
+{% hint style="information" %}
+**Please note!** When a **workspace is inactive**, you'll see an information box here, asking if you still need the workspace. You can then complete the **Keep, Archive, or Delete** actions on the workspace. 
+
+{% endhint %}
+
 In the About this Workspace section, you can see the following:
 * **View More Details button (5)**, clicking on this opens the workspace details screen
 * **Site URL (6)**, shows the workspace URL
@@ -80,6 +73,7 @@ In the About this Workspace section, you can see the following:
 * **Archive button (13)**, clicking this archives the workspace
 * **Delete button (14)**, clicking this delete the workspace
 * **Change Owners button (15)**, clicking this opens the Change Owners modal, where you can add or remove owners from the workspace
+
 
 ![Workspace Review Task - Overview](../../.gitbook/assets/workspace-review-overview-screen.png)
 
