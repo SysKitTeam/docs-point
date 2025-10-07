@@ -13,7 +13,7 @@ Even if task delegation is not enabled, inactive workspaces are still detected a
 Below is information on what will happen as we prepare to deprecate Lifecycle Management. 
 
 * Lifecycle Management will be shown as `[Deprecated]`
-* Workspace owners will still be able to [resolve existing Lifecycle Management tasks](../../point-collaborators/resolve-governance-tasks/lifecycle-management.md)
+* Workspace owners will still be able to [resolve existing Lifecycle Management tasks](../../point-collaborators/resolve-governance-tasks/lifecycle-management.mdx)
 * Lifecycle Management will no longer send e-mails and tasks to workspace owners, but admins will still see active and resolved tasks
 * The existing Lifecycle Management tile on the dashboard will be replaced with the Inactive Workspaces tile, which will use data from the Inactive Workspaces policy
 

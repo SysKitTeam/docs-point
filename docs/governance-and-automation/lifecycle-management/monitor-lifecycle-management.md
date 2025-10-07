@@ -111,5 +111,5 @@ You can also perform the **Restore** action on workspaces that were **deleted** 
 
 :::info
 **Hint**!  
-To learn more, visit the articles for running [lifecycle management actions](lifecycle-management-actions.md) and [resolving lifecycle management tasks](../../point-collaborators/resolve-governance-tasks/lifecycle-management.md).
+To learn more, visit the articles for running [lifecycle management actions](lifecycle-management-actions.md) and [resolving lifecycle management tasks](../../point-collaborators/resolve-governance-tasks/lifecycle-management.mdx).
 :::

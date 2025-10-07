@@ -74,7 +74,7 @@ The link in the email leads you directly to the Access Review task in Syskit Poi
 
 ![Access Review task screen](../../../static/img/manually-request-permissions-review-task.png)
 
-The **Access Review wizard** opens, where you can **perform actions**, **check permission changes**, and, in the end, **complete the Access Review** for a workspace. Actions and reports available here are the **same as in the Automated Access Review** tasks. You can find them all described in greater detail [here](../../point-collaborators/resolve-governance-tasks/access-review.md#access-review-wizard).
+The **Access Review wizard** opens, where you can **perform actions**, **check permission changes**, and, in the end, **complete the Access Review** for a workspace. Actions and reports available here are the **same as in the Automated Access Review** tasks. You can find them all described in greater detail [here](../../point-collaborators/resolve-governance-tasks/access-review.mdx#access-review-wizard).
 
 ![Access Review wizard](../../../static/img/manually-request-permissions-review-wizard.png)
 

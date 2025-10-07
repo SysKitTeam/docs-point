@@ -8,8 +8,8 @@ description: This article lists all types of tasks available in Syskit Point.
 
 In the latest version of Syskit Point, the following types of tasks are available:
 
-* [**Access Review**](../point-collaborators/resolve-governance-tasks/access-review.md)
-* [**Lifecycle Management**](../point-collaborators/resolve-governance-tasks/lifecycle-management.md)
+* [**Access Review**](../point-collaborators/resolve-governance-tasks/access-review.mdx)
+* [**Lifecycle Management**](../point-collaborators/resolve-governance-tasks/lifecycle-management.mdx)
 * **Ownership Review**
     * [**Minimum Number of Owners**](../point-collaborators/resolve-governance-tasks/minimum-number-of-owners.md)
     * [**Maximum Number of Owners**](../point-collaborators/resolve-governance-tasks/maximum-number-of-owners.md)
