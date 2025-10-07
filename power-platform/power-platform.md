@@ -116,7 +116,7 @@ The same rules apply as with Environments with [Dataverse enabled](#environments
 
 {% hint style="warning" %}
 **Please note!**\
-Solutions cannot exist in environments without dataverse.
+Solutions cannot exist in environments without dataverse.\
 Desktop flows cannot exist in environments without dataverse.
 {% endhint %}
 
