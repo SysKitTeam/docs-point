@@ -847,7 +847,7 @@ const sidebars: SidebarsConfig = {
           label: 'Manage Workspaces',
           link: {
             type: 'doc',
-            id: 'point-collaborators/manage-workspaces/manage-workspaces',
+            id: 'point-collaborators/manage-workspaces/manage-workspaces/README',
           },
           items: [
             'point-collaborators/manage-workspaces/request-new-workspace',
