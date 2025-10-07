@@ -2,7 +2,7 @@
 description: This article explains how to resolve the Maximum number of Owners policy vulnerabilities.
 ---
 
-# Maximum Number of Owners
+# Resolve Maximum Number of Owners Tasks
 
 **This article shows how Microsoft Teams, Microsoft 365 Group, and SharePoint Site owners can resolve a policy vulnerability regarding the maximum number of owners** allowed by the organization’s policy defined in Syskit Point.
 

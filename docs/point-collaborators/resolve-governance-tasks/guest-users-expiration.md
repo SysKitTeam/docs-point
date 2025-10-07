@@ -2,7 +2,7 @@
 description: This article explains how to remove or keep guest user access in Syskit Point.
 ---
 
-# Inactive Guest Users
+# Resolve Inactive Guest Users Tasks
 
 **This article shows how you can resolve the Inactive Guest Users policy vulnerability** when Syskit Point detects that a guest user is inactive. 
 

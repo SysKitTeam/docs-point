@@ -4,7 +4,7 @@ description: >-
   in Syskit Point from a site owner's perspective.
 ---
 
-# Workspace Access Review
+# Complete Access Review Tasks
 
 **Access review**, in the context of the Microsoft 365 environment, is an activity where a person responsible for a Microsoft 365 workspace verifies whether permissions are given to users inside (internal) and outside (external) of the company, and comply with the organizational rules and guidelines.
 

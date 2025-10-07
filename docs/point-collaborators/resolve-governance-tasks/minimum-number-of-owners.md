@@ -2,7 +2,7 @@
 description: This article explains how to resolve the Minimum number of Owners policy vulnerabilities.
 ---
 
-# Minimum Number of Owners
+# Resolve Minimum Number of Owners Tasks
 
 **This article shows how Microsoft Teams, Microsoft 365 Group, and SharePoint Site owners can resolve a policy vulnerability regarding the minimum number of owners** required by the organization’s policy defined in Syskit Point. 
 

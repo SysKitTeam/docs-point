@@ -4,7 +4,7 @@ description: >-
 ---
 
 
-# Tasks
+# My Tasks
 
 The **Tasks** tile is located on the left side of Syskit Point, and a notification bubble displays the number of tasks that need to be reviewed.
 

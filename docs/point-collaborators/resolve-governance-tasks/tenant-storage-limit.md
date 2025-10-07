@@ -2,7 +2,7 @@
 description: This article explains how to resolve the Tenant Storage Limit policy vulnerability.
 ---
 
-# Tenant Storage Limit
+# Resolve Tenant Storage Limit Tasks
 
 **This article shows how Syskit Admins or custom recipients, as set in the [Tenant Storage Limit policy settings](../../governance-and-automation/automated-workflows/tenant-storage-admin.md), can resolve a policy vulnerability regarding the tenant storage limit**.
 

@@ -2,7 +2,7 @@
 description: This article explains how to resolve the Metadata Review task. 
 ---
 
-# Metadata Review 
+# Complete Metadata Review Tasks
 
 Metadata, explained in simple terms as data that describes other data, is often the easiest way to structure, categorize, and manage your organization's content. 
 

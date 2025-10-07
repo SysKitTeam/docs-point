@@ -4,7 +4,7 @@ description: >-
   Automation process in Syskit Point.
 ---
 
-# Workspace Lifecycle
+# Resolve Lifecycle Management Tasks
 
 :::warning
 **Lifecycle Management Automation** will be deprecated and replaced by the [Inactive Workspaces policy](../resolve-governance-tasks/inactive-workspaces.md). After approximately two months, the feature will be fully removed from Syskit Point.

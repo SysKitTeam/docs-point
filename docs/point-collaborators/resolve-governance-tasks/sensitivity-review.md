@@ -2,7 +2,7 @@
 description: This article explains how to resolve the Sensitivity Review task. 
 ---
 
-# Sensitivity Review 
+# Complete Sensitivity Review Tasks
 
 Keeping your workspace's data secure is an important part of maintaining security and compliance, and sensitivity labels help by categorizing information based on its confidentiality level. 
 

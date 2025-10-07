@@ -2,7 +2,7 @@
 description: This article explains how to resolve the Inactive Workspaces task in Syskit Point.
 ---
 
-# Inactive Workspaces
+# Resolve Inactive Workspaces Tasks
 
 **This article shows how you can resolve the Inactive Workspaces policy vulnerability** when Syskit Point detects an inactive workspace. 
 

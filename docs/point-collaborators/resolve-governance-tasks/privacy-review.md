@@ -2,7 +2,7 @@
 description: This article explains how to resolve the Privacy Review task. 
 ---
 
-# Privacy Review 
+# Complete Privacy Review Tasks
 
 Privacy settings help control who can see and access information within your workspace, which is essential for keeping sensitive data secure. 
 
