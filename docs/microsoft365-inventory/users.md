@@ -1,5 +1,6 @@
 ---
 description: This article provides detailed information on everything that can be found on the Users Overview screen. 
+sidebar_position: 5
 ---
 
 # Users 

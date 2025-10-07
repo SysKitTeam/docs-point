@@ -2,6 +2,7 @@
 description: >-
   This article explains how you can connect to your tenant and start using
   Syskit Point.
+sidebar_position: 4
 ---
 
 # Connect to Microsoft 365 Tenant

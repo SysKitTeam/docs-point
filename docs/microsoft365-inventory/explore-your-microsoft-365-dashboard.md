@@ -1,5 +1,6 @@
 ---
 description: This article describes all the information presented in the Syskit Point Dashboard.
+sidebar_position: 2
 ---
 
 # Control Your Microsoft 365 Environment

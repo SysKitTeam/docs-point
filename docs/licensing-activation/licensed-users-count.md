@@ -1,5 +1,6 @@
 ---
 description: This article explains how Syskit Point licensing depends on the licensed Microsoft 365 accounts.
+sidebar_position: 1
 ---
 
 # Licensed Users Count

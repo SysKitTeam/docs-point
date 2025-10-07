@@ -1,5 +1,6 @@
 ---
 description: The Copilot Readiness tile on the Syskit Point Dashboard helps you detect areas of improvement or potential security concerns.
+sidebar_position: 6
 ---
 
 # Copilot Readiness

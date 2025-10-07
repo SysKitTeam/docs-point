@@ -2,6 +2,7 @@
 description: >-
   This article shows an overview of steps to take when deploying Syskit Point in
   your Azure environment.
+sidebar_position: 1
 ---
 
 # Overview

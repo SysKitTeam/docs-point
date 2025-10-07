@@ -2,6 +2,7 @@
 description: >-
   This article describes how to navigate Syskit Point when starting the
   application for the first time.
+sidebar_position: 2
 ---
 
 # Navigate Through Syskit Point

@@ -1,5 +1,6 @@
 ---
-description: This article provides a detailed overview of the reports available for Sites, Microsoft Teams & Groups, and Users. 
+description: This article provides a detailed overview of the reports available for Sites, Microsoft Teams & Groups, and Users.
+sidebar_position: 1 
 ---
 
 # Microsoft 365 Inventory Reports

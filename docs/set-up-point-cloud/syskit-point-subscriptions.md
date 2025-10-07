@@ -260,7 +260,7 @@ The Cancel Your Plan site will show an overview of your current plan with inform
 * Cost per year
 * Date until which your plan is available when canceled
 
-Click the **Cancel plan button (1)**to cancel your plan.
+Click the **Cancel plan button (1)** to cancel your plan.
 
 * This will open a pop-up that asks for feedback on why you are choosing to cancel, but leaving this comment is optional
 

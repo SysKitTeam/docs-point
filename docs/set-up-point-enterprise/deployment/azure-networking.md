@@ -2,6 +2,7 @@
 description: >-
   This article describes the configuration of Azure network resources used by
   Syskit Point.
+sidebar_position: 7
 ---
 
 # Azure Networking
