@@ -2,7 +2,7 @@
 description: This article explains how to request to join a workspace after an Access Requests policy is applied. 
 ---
 
-#  Request Access to Workspaces
+#  Request Workspace Access
 
 If you're ever in a situation where you **need access to a certain site, team, or group** but don't have permission, the **Request Access to Workspaces feature is a quick and easy solution to this problem**. 
 
