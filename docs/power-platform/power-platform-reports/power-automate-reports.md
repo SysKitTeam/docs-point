@@ -17,7 +17,7 @@ This article contains information on two Power Platform reports available throug
 * [Power Automate Permissions Report](#power-automate-permissions-report)
 
 :::info
-[Read this article to learn which types of Power Platform resources are synced in Syskit Point.](../power-platform.md#power-platform-sync-limits)
+[Read this article to learn which types of Power Platform resources are synced in Syskit Point.](../enable-power-platform.md#power-platform-sync-limits)
 :::
 
 ## Power Automate Inventory Report

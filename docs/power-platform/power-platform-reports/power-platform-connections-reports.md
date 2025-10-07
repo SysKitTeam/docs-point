@@ -14,7 +14,7 @@ To enable the use of Power Platform for Syskit Point, [please contact us](https:
 The Power Platform Connections report provides a complete overview of all your Power Platform Connections across every environment. 
 
 :::info
-[Read this article to learn which types of Power Platform resources are synced in Syskit Point.](../power-platform.md#power-platform-sync-limits)
+[Read this article to learn which types of Power Platform resources are synced in Syskit Point.](../enable-power-platform.md#power-platform-sync-limits)
 :::
 
 ## Step 1: Generate Report
