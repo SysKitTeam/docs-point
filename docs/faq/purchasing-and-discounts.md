@@ -2,7 +2,7 @@
 description: This article outlines the most frequently asked questions about purchasing and discounts for Syskit Point.
 ---
 
-# Purchasing and Discounts FAQ
+# Purchasing and Discounts
 
 ## Can I try a product for free before purchasing it? 
 

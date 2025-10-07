@@ -2,7 +2,7 @@
 description: This article outlines the most frequently asked questions about storage management in Syskit Point.
 ---
 
-# Storage Management in Syskit Point FAQ
+# Storage Management
 
 ## Where can I find information about used storage in Microsoft 365?
 

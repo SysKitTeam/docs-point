@@ -2,7 +2,7 @@
 description: This article outlines the most frequently asked questions about Syskit Point licensing.
 ---
 
-# Licensing FAQ
+# Licensing
 
 ## How is Syskit Point licensed?
 

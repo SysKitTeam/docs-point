@@ -2,7 +2,7 @@
 description: This article outlines the most frequently asked questions about the content & structure section of Provisioning for Syskit Point.
 ---
 
-# Provisioning - Content & Structure FAQ
+# Provisioning - Content & Structure
 
 ## What emails are sent?
 

@@ -1,6 +1,8 @@
 ---
 description: This article provides answers regarding backups and data security. 
 ---
+
+# Security
   
 ## Does Syskit Point perform database backups? Are these backups encrypted? 
 Syskit Point uses two types of Azure resources to store data:

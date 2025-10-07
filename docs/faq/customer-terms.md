@@ -2,7 +2,7 @@
 description: This article outlines the most frequently asked questions about the customer terms for Syskit Point.
 ---
 
-# Customer Terms FAQ
+# Customer Terms
 
 ## What kind of support Syskit offers?
 

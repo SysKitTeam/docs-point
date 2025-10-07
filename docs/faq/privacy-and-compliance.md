@@ -2,7 +2,7 @@
 description: This article outlines the most frequently asked questions about privacy and compliance with Syskit Point.
 ---
 
-# Privacy and Compliance FAQ
+# Privacy and Compliance
 
 ## Where can I find Syskit Point Service License Agreement?
 

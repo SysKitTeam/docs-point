@@ -2,7 +2,7 @@
 description: This article outlines the most frequently asked questions about the Syskit Point partner program.
 ---
 
-# Partner Program FAQ
+# Partner Program
 
 ## Is it possible to join Syskit's partner program?
 

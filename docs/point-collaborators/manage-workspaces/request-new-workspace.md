@@ -2,7 +2,7 @@
 description: This article describes how to request new Microsoft 365 workspaces.
 ---
 
-# New Workspace
+# Request New Workspace
 
 If your team or department is starting a **new project that will require collaborating and file-sharing**, you may need to **create a new workspace**.
 

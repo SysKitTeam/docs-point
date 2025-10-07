@@ -2,7 +2,7 @@
 description: This article outlines activation and licensing most frequently asked questions.
 ---
 
-# Activation FAQ
+# Activation
 
 ## What happens during product activation?
 

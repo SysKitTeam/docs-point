@@ -2,7 +2,7 @@
 description: This article outlines the most frequently asked questions about the Syskit Point free trial.
 ---
 
-# Free Trial FAQ
+# Free Trial
 
 ## Where can I sign up for a free trial?
 

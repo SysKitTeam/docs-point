@@ -2,7 +2,7 @@
 description: This article provides a detailed explanation of how orphaned users are seen in Syskit Point.
 ---
 
-# Orphaned Users FAQ
+# Orphaned Users
 
 ## What Are Orphaned Users in Syskit Point?
 

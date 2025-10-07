@@ -2,7 +2,7 @@
 description: This article explains how Inactive Users are detected and defined within Syskit Point.
 ---
 
-# Inactive Users
+# Inactive Users Detection
 
 **Inactive Users** across your Microsoft 365 environment are **detected to help you optimize your license usage** and maintain a **safe and healthy environment**. 
 

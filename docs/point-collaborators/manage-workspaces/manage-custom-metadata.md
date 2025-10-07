@@ -2,7 +2,7 @@
 description: This article explains how to manage custom metadata in Syskit Point for collaborators.
 ---
 
-# Custom Metadata
+# Manage Custom Metadata
 
 
 :::warning

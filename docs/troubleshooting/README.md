@@ -1,5 +1,4 @@
 ---
-description: Troubleshooting guides and solutions for common Syskit Point issues.
 sidebar_position: 17
 ---
 

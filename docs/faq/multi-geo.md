@@ -2,7 +2,7 @@
 description: This article outlines the most frequently asked questions about multi-geo availability in Syskit Point.
 ---
 
-# Multi-Geo FAQ
+# Multi-Geo
 
 Microsoft 365 Multi-Geo is a feature that **allows global organizations to store their users’ data in different geographic regions**. [For more details about Microsoft 365 multi-geo, take a look at their article here.](https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-multi-geo?view=o365-worldwide)
 
