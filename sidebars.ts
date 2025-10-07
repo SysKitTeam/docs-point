@@ -714,25 +714,24 @@ const sidebars: SidebarsConfig = {
       items: [
         'power-platform/power-platform-overview',
         'power-platform/enable-power-platform',
-        'power-platform/enable-powerBI-data-collection',
-        'power-platform/power-platform-actions',
+        'power-platform/enable-powerBI-data-collection',       
         {
           type: 'category',
           label: 'Power Platform Reports',
           link: {
             type: 'doc',
-            id: 'power-platform/power-platform-reports/power-platform-reports',
+            id: 'power-platform/power-platform-reports/README',
           },
           items: [
-            'power-platform/power-platform-reports/power-platform-reports',
             'power-platform/power-platform-reports/copilot-agents-reports',
+            'power-platform/power-platform-reports/power-platform-environments-reports',
             'power-platform/power-platform-reports/power-apps-reports',
             'power-platform/power-platform-reports/power-automate-reports',
-            'power-platform/power-platform-reports/power-bi-reports',
             'power-platform/power-platform-reports/power-platform-connections-reports',
-            'power-platform/power-platform-reports/power-platform-environments-reports',
+            'power-platform/power-platform-reports/power-bi-reports',
           ],
         },
+        'power-platform/power-platform-actions',
       ],
     },
     {
@@ -754,9 +753,9 @@ const sidebars: SidebarsConfig = {
             id: 'integrations/examples/README',
           },
           items: [
-            'integrations/examples/jira-example',
-            'integrations/examples/servicenow-example',
             'integrations/examples/webhooks-example',
+            'integrations/examples/servicenow-example',
+            'integrations/examples/jira-example',
           ],
         },
       ],
