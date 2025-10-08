@@ -493,15 +493,14 @@ const sidebars: SidebarsConfig = {
       },
       items: [
         'reporting/overview',
+        'reporting/external-sharing-reports',
         'reporting/access-reports',
-        'reporting/ai-agents-reports',
-        'reporting/analytics-reports',
         'reporting/audit-reports',
         'reporting/cleanup-and-health-reports',
-        'reporting/external-sharing-reports',
         'reporting/licenses-reports',
+        'reporting/analytics-reports',
         'reporting/sensitivity-labels',
-        'reporting/storage-management',
+        'reporting/ai-agents-reports',
       ],
     },
     {

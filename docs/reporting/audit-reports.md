@@ -2,7 +2,7 @@
 description: Audit reports provide a detailed overview of all activities in your environment collected from Microsoft 365 unified audit logs.
 ---
 
-# Audit Logs Reports
+# Audit Reports
 
 In this article, there is information on five audit logs reports available through the **Report Center**:
 

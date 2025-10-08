@@ -2,7 +2,7 @@
 description: This article provides a list of available report categories and shows how to generate reports in Syskit Point.
 ---
 
-# Reports in Syskit Point
+# Overview
 
 Syskit Point Reports provide insight into what's happening within your Microsoft 365 environment. 
 

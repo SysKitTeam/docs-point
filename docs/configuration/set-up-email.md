@@ -9,7 +9,7 @@ description: This article explains how to set up e-mail settings in Syskit Point
 Here, you can find all the information needed to successfully configure e-mail settings, which Syskit Point will use to send the e-mails.
 
 :::warning
-**Please note!**
+**Please note!**\
 Only users assigned to the **Syskit Point Admin** role can access and configure Settings in Syskit Point.
 :::
 
@@ -31,7 +31,7 @@ Exchange Online has a sending limit of 10000 e-mails per day.
 :::
 
 :::warning
-**Please Note!** 
+**Please Note!**\
 When setting up the e-mail, please use a supported mailbox address, as specified in the table below.
 :::
 

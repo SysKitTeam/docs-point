@@ -75,7 +75,7 @@ Clicking the **arrow symbol (3)** next to either of the two export options enabl
 
 The table below shows report customizations saved when creating custom views and how this impacts report export.
 
-| View Feature | Point UI | Direct Export - XLSX | Scheduled Export - XLSX |  Direct Export - PDF |  Scheduled Export - PDF |
+| View Feature | Point UI | Direct Export - XLSX | Scheduled Export - XLSX | Direct Export - PDF | Scheduled Export - PDF |
 | --- | --- | --- | --- | --- | --- |
 | Column visibility | Yes | No | No | No | No |
 | Column order | Yes | No | No | No | No | 
