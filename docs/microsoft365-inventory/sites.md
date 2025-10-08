@@ -1,6 +1,5 @@
----
+﻿---
 description: This article provides detailed information on everything that can be found on the Sites Overview screen. 
-sidebar_position: 3
 ---
 
 # Sites Overview

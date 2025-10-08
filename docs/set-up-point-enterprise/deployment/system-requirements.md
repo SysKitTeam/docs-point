@@ -1,6 +1,5 @@
----
+﻿---
 description: This article lists requirements to consider when deploying Syskit Point in your Azure subscription.
-sidebar_position: 2
 ---
 
 # Requirements

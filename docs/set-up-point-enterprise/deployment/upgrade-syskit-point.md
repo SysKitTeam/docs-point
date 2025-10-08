@@ -1,8 +1,7 @@
----
+﻿---
 description: >-
   This article explains how to upgrade Syskit Point to the latest version
   available.
-sidebar_position: 6
 ---
 
 # Upgrade Syskit Point

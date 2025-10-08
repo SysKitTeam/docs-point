@@ -1,6 +1,5 @@
----
+﻿---
 description: Deployment guides for Syskit Point Enterprise.
-sidebar_position: 1
 ---
 
 # Deployment

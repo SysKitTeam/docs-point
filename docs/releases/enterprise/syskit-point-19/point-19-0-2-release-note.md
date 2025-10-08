@@ -1,6 +1,5 @@
----
+﻿---
 description: This article describes improvements and bug fixes in Syskit Point version 19.0.2.
-sidebar_position: 1
 ---
 
 # Syskit Point 19.0.2

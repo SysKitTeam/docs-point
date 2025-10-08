@@ -1,6 +1,5 @@
----
+﻿---
 description: This article provides a guide on how to get a free 21-day trial of the Syskit Point Enterprise plan.
-sidebar_position: 2
 ---
 
 # Syskit Point Enterprise - Free Trial

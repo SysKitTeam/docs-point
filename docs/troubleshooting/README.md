@@ -1,8 +1,4 @@
----
-sidebar_position: 17
----
-
-# Troubleshooting
+﻿# Troubleshooting
 
 import DocCardList from '@theme/DocCardList';
 

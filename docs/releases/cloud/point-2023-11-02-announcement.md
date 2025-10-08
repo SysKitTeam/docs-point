@@ -1,7 +1,6 @@
----
+﻿---
 description: >-
   This article provides important information about the upcoming release of Syskit Point Cloud.
-sidebar_position: 76
 ---
 
 # November 2, 2023 - Announcement

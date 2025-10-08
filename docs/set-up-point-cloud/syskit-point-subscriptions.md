@@ -1,8 +1,7 @@
----
+﻿---
 description: >-
   This article provides information on everything you need to know about
   licensing Syskit Point for Cloud.
-sidebar_position: 4
 ---
 
 # Manage Syskit Point Subscriptions

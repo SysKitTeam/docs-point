@@ -1,6 +1,5 @@
----
+﻿---
 description: Read important info about the activation process.
-sidebar_position: 2
 ---
 
 # Activation Privacy Statement

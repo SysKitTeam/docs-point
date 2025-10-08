@@ -1,6 +1,5 @@
----
+﻿---
 description: This article explains how to enable and set up Power Platform data collection for Syskit Point.
-sidebar_position: 1
 ---
 
 # Enable Power Platform Data Collection

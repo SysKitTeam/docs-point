@@ -1,6 +1,5 @@
----
+﻿---
 description: This article helps you learn more about using your Syskit Point.
-sidebar_position: 1
 ---
 
 # The Syskit Point Starter Kit

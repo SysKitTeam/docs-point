@@ -1,8 +1,7 @@
----
+﻿---
 description: >-
   This article lists improvements and bug fixes in Syskit Point version
   2024.4.52
-sidebar_position: 3
 ---
 
 # Syskit Point 2024.4.52

@@ -1,6 +1,5 @@
----
+﻿---
 description: This article lists improvements and bug fixes in Syskit Point version 2021.12.
-sidebar_position: 19
 ---
 
 # Syskit Point 2021.12

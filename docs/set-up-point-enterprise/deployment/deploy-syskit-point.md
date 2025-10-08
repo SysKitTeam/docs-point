@@ -1,6 +1,5 @@
----
+﻿---
 description: This article lists all the steps to be performed when deploying Syskit Point to the Azure environment.
-sidebar_position: 3
 ---
 
 # Deploy Syskit Point

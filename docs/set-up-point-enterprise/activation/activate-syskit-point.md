@@ -1,6 +1,5 @@
----
+﻿---
 description: This article outlines the steps needed to perform product activation.
-sidebar_position: 1
 ---
 
 # Activate Syskit Point

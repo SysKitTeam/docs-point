@@ -1,8 +1,4 @@
----
-sidebar_position: 2
----
-
-# Releases
+﻿# Releases
 
 import DocCardList from '@theme/DocCardList';
 

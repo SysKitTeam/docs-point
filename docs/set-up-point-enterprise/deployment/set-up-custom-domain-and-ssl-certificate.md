@@ -1,6 +1,5 @@
----
+﻿---
 description: This article explains how to set up a custom domain and SSL certificate.
-sidebar_position: 5
 ---
 
 # Set Up Custom Domain and SSL Certificate

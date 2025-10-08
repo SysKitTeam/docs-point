@@ -1,6 +1,5 @@
----
+﻿---
 description: This article explains options available regarding Microsoft 365 data collection, also known as Sync.
-sidebar_position: 3
 ---
 
 # How Syskit Point Collects Microsoft 365 Data

@@ -1,8 +1,7 @@
----
+﻿---
 description: >-
   This article describes the new features and improvements in Syskit Point
   version 20.
-sidebar_position: 22
 ---
 
 # Syskit Point 20

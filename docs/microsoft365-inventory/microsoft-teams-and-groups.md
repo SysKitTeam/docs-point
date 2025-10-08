@@ -1,6 +1,5 @@
----
+﻿---
 description: This article provides detailed information on everything that can be found on the Microsoft Teams & Groups Overview screen.
-sidebar_position: 4
 ---
 
 # Microsoft Teams and Groups Overview

@@ -1,8 +1,4 @@
----
-sidebar_position: 16
----
-
-# FAQ
+﻿# FAQ
 
 import DocCardList from '@theme/DocCardList';
 

@@ -1,7 +1,6 @@
----
+﻿---
 description: >
   This article discusses the permission requirements necessary to run Syskit Point successfully.
-sidebar_position: 1
 ---
 
 # Permission Requirements
