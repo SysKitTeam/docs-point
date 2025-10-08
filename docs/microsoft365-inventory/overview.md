@@ -2,7 +2,7 @@
 description: This article provides a detailed overview of the reports available for Sites, Microsoft Teams & Groups, and Users.
 ---
 
-# Microsoft 365 Inventory Reports
+# Microsoft 365 Inventory Overview
 
 In this article, you'll find a list of reports that provide an overview of your tenant inventory filtered through **Sites, Microsoft Teams & Groups, and Users**. 
 

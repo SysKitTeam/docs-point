@@ -447,10 +447,11 @@ const sidebars: SidebarsConfig = {
       items: [
         'microsoft365-inventory/overview',
         'microsoft365-inventory/explore-your-microsoft-365-dashboard',
-        'microsoft365-inventory/copilot-readiness',
-        'microsoft365-inventory/microsoft-teams-and-groups',
         'microsoft365-inventory/sites',
+        'microsoft365-inventory/microsoft-teams-and-groups',
         'microsoft365-inventory/users',
+        'microsoft365-inventory/copilot-readiness',
+        'power-platform/power-platform-reports/README'       
       ],
     },
     {

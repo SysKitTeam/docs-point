@@ -2,7 +2,7 @@
 description: This article describes all the information presented in the Syskit Point Dashboard.
 ---
 
-# Control Your Microsoft 365 Environment
+# Explore Your Microsoft 365 Dashboard
 
 The **Dashboard** screen provides you with the information needed to see the whole picture of your **Microsoft 365 environment**.
 
