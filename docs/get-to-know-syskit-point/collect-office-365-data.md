@@ -2,7 +2,7 @@
 description: This article explains options available regarding Microsoft 365 data collection, also known as Sync.
 ---
 
-# How Syskit Point Collects Microsoft 365 Data
+# Collect Microsoft 365 Data
 
 ## First Run
 
