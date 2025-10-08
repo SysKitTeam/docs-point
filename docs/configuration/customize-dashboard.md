@@ -2,7 +2,7 @@
 description:  This article describes how you can customize your Dashboard by rearranging the tiles. 
 ---
 
-# Syskit Point Dashboard
+# Customize Dashboard
 
 The **Syskit Point** Dashboard shows Syskit Point administrators the following information in the tiles:
  * Inventory

@@ -2,7 +2,7 @@
 description: This article explains what Service Accounts are and how to ignore Service Account activities within Syskit Point.
 ---
 
-# Ignored Service Accounts
+# Ignore Service Account Activity Tracking
 
 **Service accounts are user accounts created specifically to fulfill automated, expected changes to the server.**
 

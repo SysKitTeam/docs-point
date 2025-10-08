@@ -2,7 +2,7 @@
 description: This article explains how to save and export reports with applied custom views in Syskit Point.
 ---
 
-# Custom Views
+# Save Custom Views
 
 The Custom Views feature allows you to **create and save customized views for your reports** in Syskit Point. 
 

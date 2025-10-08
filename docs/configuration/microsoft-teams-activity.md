@@ -4,7 +4,7 @@ description: >-
   activity in your tenant.
 ---
 
-# Microsoft Teams Activity Tracking
+# Enable Microsoft Teams Activity Tracking
 
 :::info
 **Microsoft Teams Activity Tracking** is available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.

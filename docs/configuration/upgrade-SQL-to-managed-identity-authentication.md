@@ -2,7 +2,7 @@
 description: This article explains how to upgrade from SQL to Managed Identity authentication in Syskit Point. 
 ---
 
-# Managed Identity Authentication
+# Upgrade SQL to Managed Identity Authentication
 
 Instead of using SQL authentication, you are now able to **use Managed Identity authentication with Syskit Point**. If you deploy Syskit Point after the [v2022.5 release](../releases/enterprise/syskit-point-2022-5/point-2022-5-release-note.md), Managed Identity will be the authentication method by default. 
 
