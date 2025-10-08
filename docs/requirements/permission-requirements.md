@@ -48,7 +48,8 @@ The following permissions are required for **Syskit Point Installer** Enterprise
 | Read directory data                      | Delegated | Allows Syskit Point to autodiscover your sites, groups, and users.                                                         |
 | Sign users in                            | Delegated | Allows Syskit Point to scan your environment as a signed-in user                                                           |
 | View users' basic profile                | Delegated | Allows Syskit Point Microsoft Teams application to show users basic data and allow secure communication with Syskit Point. |
-| **Windows Azure Service Management API** |           |                                                                                                                            |
+
+**Windows Azure Service Management API**
 
 | Permissions                                           | Type      | Reason                                                                                        |
 | ----------------------------------------------------- | --------- | --------------------------------------------------------------------------------------------- |
