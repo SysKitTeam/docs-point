@@ -7,10 +7,13 @@ description: >-
 # Monitor Access Review in Syskit Point
 
 {% hint style="warning" %}
- 
-With the introduction of the [Workspace Review](../workspace-review/setup-workspace-review.md) **we slowly begin fading out our Access Review**. The Syskit Point Workspace Review **lets workspace owners complete more than just an access review** on their workspace; depending on the configuration, you can **have owners check over the ownership, privacy, sensitivity and overall security of their workspaces as part of a Workspace Review**.
- 
-**Access Review will be fully removed from Syskit Point by January 2027.** Make sure you've finished all your Access Reviews by that point and created at least one Workspace Review policy. 
+
+**Automated Access Review is evolving into [Workspace Review](../workspace-review/setup-workspace-review.md)**, a more powerful solution that covers not only access but also ownership, privacy, sensitivity, and overall workspace security. 
+
+**⚠️ Note: Access Review will be retired in January 2025**. For a richer governance experience, we recommend completing your current reviews and then moving to Workspace Review. 
+
+Learn more in the [Workspace Review documentation](../workspace-review/README.md).
+
  
 {% endhint %}
 
