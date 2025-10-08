@@ -6,7 +6,7 @@ description: The AI Agents reports provide an overview of your AI agents with th
 
 AI Reports in Point provide easy monitoring for AI usage across your environments, which helps you track your AI Agents and see who's using them. The following AI Agents reports are available:
 
-* [Custom SharePoint Agents Inventory Report](#custom-sharePoint-agents-inventory-report)
+* [Custom SharePoint Agents Inventory Report](#custom-sharepoint-agents-inventory-report)
 * [Copilot Agents Report](../power-platform/power-platform-reports/copilot-agents-reports.md)
 
 :::info

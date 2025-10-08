@@ -9,7 +9,7 @@ Managing your workspaces in Syskit Point can **simplify the day-to-day managemen
 Managing your workspaces helps you **ensure users have access to all the workspaces they need** to do their work effectively as well as **identify and remove users** that should no longer have access. 
 
 When it comes to workspace management, Syskit Point lets you easily:
- * [Manage Workspace Access](#manage-workspace-access)
+ * [Manage Permissions](#manage-permissions)
  * [Add and Remove Owners](#add-and-remove-owners)
  * [Remove Access](#remove-group-access)
 
@@ -48,7 +48,7 @@ Once users have been added to your workspace, you can manage their permissions b
   * **Contribute** - user can view, add, update, and delete list items and documents
   * **Read** - user can view pages and list items, and download documents
 
-To change permissions, repeat [the initial steps above](#manage-workspace-access) so that only your **Microsoft Groups** are visible on the Microsoft Teams & Groups screen. 
+To change permissions, repeat [the initial steps above](#manage-permissions) so that only your **Microsoft Groups** are visible on the Microsoft Teams & Groups screen. 
 
 When you see a list of your groups, take the following steps:
 
@@ -66,7 +66,7 @@ When you see a list of your groups, take the following steps:
 
 Adding and removing owners from the workspace can be done directly on the workspace's section of Syskit Point. 
 
-To start, repeat [the initial steps above](#manage-workspace-access) so that only your **Microsoft Groups** are visible on the Microsoft Teams & Groups screen. 
+To start, repeat [the initial steps above](#manage-permissions) so that only your **Microsoft Groups** are visible on the Microsoft Teams & Groups screen. 
 
   * When your groups are visible, **select the group (1)** you want to change owners for
 * **Click the Change Owners button (2)** located on the right side of the screen
@@ -83,7 +83,7 @@ To start, repeat [the initial steps above](#manage-workspace-access) so that onl
 
 Removing Group Access from members or owners of the workspace can be done directly on its specific section of Syskit Point. 
 
-To start, repeat [the initial steps above](#manage-workspace-access) so that only your **Microsoft Groups** are visible on the Microsoft Teams & Groups screen. 
+To start, repeat [the initial steps above](#manage-permissions) so that only your **Microsoft Groups** are visible on the Microsoft Teams & Groups screen. 
 
   * When your groups are visible, **select the group (1)** you want to remove access from
 * **Click the Remove Owners/Members button (2)** located on the right side of the screen, and the Remove Owners/Members pop-up will open

@@ -17,7 +17,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 * **Power Platform inventory available in Syskit Point!**
     * You can now enable Power Platform data collection and generate reports that show the state of your Power Platform environments, apps, flows, and connections.
     * [Find more details on how to configure Power Platform data collection in this article.](../../power-platform/enable-power-platform.md)
-    * [For information on all the Power Platform reports available in Syskit Point, take a look at this article.](../../power-platform/power-platform-reports/power-platform-reports.md)
+    * [For information on all the Power Platform reports available in Syskit Point, take a look at this article.](../../power-platform/power-platform-reports/README.md)
 
 ## Improvements & Bug Fixes
 
