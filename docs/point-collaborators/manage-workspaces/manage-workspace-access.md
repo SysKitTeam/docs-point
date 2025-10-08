@@ -39,7 +39,7 @@ You are only able to **manage access for groups where you are the owner**.
 
 :::
 
-## Manage Workspace Access
+## Manage Permissions
 
 Once users have been added to your workspace, you can manage their permissions by assigning roles to the workspace. Roles control what members can do within the workspace and are as follows: 
   * **Full Control** - user has complete control of the group
