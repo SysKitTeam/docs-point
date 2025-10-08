@@ -2,7 +2,7 @@
 description: This article lists requirements to consider when deploying Syskit Point in your Azure subscription.
 ---
 
-# System equirements
+# System Requirements
 
 :::warning
 **Please note!**  
