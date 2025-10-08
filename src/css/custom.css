@@ -58,11 +58,11 @@ html, body {
 }
 
 /* Exception: Don't center Azure deployment buttons */
-.markdown p:has(a[href*="aka.ms/deploytoazurebutton"]) {
+.markdown p:has(img[src*="aka.ms/deploytoazurebutton"]) {
   text-align: left;
 }
 
-.markdown a[href*="aka.ms/deploytoazurebutton"] img {
+.markdown img[src*="aka.ms/deploytoazurebutton"] {
   display: inline;
   margin: 0;
 }
