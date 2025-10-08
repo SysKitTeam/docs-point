@@ -57,6 +57,16 @@ html, body {
   height: auto;
 }
 
+/* Exception: Don't center Azure deployment buttons */
+.markdown p:has(a[href*="aka.ms/deploytoazurebutton"]) {
+  text-align: left;
+}
+
+.markdown a[href*="aka.ms/deploytoazurebutton"] img {
+  display: inline;
+  margin: 0;
+}
+
 /* Style for image captions using the alt text */
 .markdown p:has(img[alt]:not([alt=""])) {
   position: relative;
