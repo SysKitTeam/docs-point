@@ -81,8 +81,10 @@ Use this report to **see all Exchange-related activity in your environment**.
 * **Select Audit Logs in the filter**; it can be found in the upper left corner.
 * **Click the Exchange Logs report** to generate the report.
 
-:::warning Please note!
-By default, Exchange logs are not collected; at least one Exchange activity must be selected for Syskit Point to collect and store Exchange log data. :::
+:::warning 
+**Please note!**\
+By default, Exchange logs are not collected; at least one Exchange activity must be selected for Syskit Point to collect and store Exchange log data. 
+:::
 
 Click [here](../configuration/customize-audit-logs-collection.md) to learn more about customizing the Exchange logs collection.
 
