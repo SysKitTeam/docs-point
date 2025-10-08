@@ -2,7 +2,7 @@
 description: This article provides information on available Copilot Agents reports.
 ---
 
-# Copilot Agents Reports
+# Copilot Agents
 
 :::info
 Power Platform is **available as an add-on** purchase to your Syskit Point subscription. 

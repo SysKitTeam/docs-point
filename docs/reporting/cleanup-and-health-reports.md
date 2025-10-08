@@ -57,7 +57,7 @@ For more details, there are also additional columns available in the column choo
 * **Username**; shows the Microsoft 365 tenant username for the orphaned user.
 
 To group the report results by one or multiple columns, drag a column header to the designated place in the upper left corner of the report. 
-  * Doing that provides a clearer view of where the orphaned user is still a member.
+* Doing that provides a clearer view of where the orphaned user is still a member.
 
 By selecting the checkbox of an orphaned user, you can perform the **Remove User** action and see the additional information, like who blocked it and when the selected user was blocked.
 
