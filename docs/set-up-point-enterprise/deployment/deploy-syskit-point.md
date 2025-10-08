@@ -124,7 +124,7 @@ Once activated, Syskit Point will guide you through the process of [connecting t
 ## Related Topics
 
 * [System Requirements](system-requirements.md)
-* * [Activate Syskit Point](../../set-up-point-enterprise/activation/activate-syskit-point.md)
+* [Activate Syskit Point](../../set-up-point-enterprise/activation/activate-syskit-point.md)
 * [Connect to Microsoft 365 Tenant](connect-to-tenant.md)
 * [Set Up Custom Domain and SSL Certificate](set-up-custom-domain-and-ssl-certificate.md)
 

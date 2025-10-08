@@ -2,7 +2,7 @@
 description: This article provides a guide on how to get a free 21-day trial of the Syskit Point Enterprise plan.
 ---
 
-# Syskit Point Enterprise - Free Trial
+# Free Trial Enterprise
 
 **Syskit Point trial** enables you to **test drive Syskit Point for free for 21 days** and discover how to utilize it when managing your Microsoft 365 environment. 
 
