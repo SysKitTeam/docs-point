@@ -110,7 +110,7 @@ There are two types of actions/reports:
 
 ![Syskit Point - Contextual actions after selection](../../static/img/syskit-point-quick-start-guide-syskit-point-contextual-actions-after-selection.png)
 
-## **What Can a Site Owner See?**
+## What Can a Site Owner See?
 
 Syskit Point presents you with the inventory of your workspaces, meaning you are able to see Sites, Teams, and Microsoft 365 Groups you are the owner/administrator of.
 
