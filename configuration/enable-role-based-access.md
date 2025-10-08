@@ -137,6 +137,15 @@ Additional options available when the Collaborators role is enabled:
 
 ![Collaborators - Options](../.gitbook/assets/enable-role-based-access-collaborator-options.png)
 
+{% hint style="information" %}
+**Please note the following:**  
+* Syskit Point Collaborators **cannot exceed the permissions** they have already been assigned **in Microsoft 365**.
+* Syskit Point Collaborators will **not be notified that they have access** to Syskit Point **until a Syskit Point Administrator shares that** information with them. 
+* **Any actions** performed by Collaborators in Syskit Point **are stored under their name in the Audit Logs**.
+
+{% endhint %}
+
+
 ### Syskit Point Power Platform Admins
 
 {% hint style="warning" %}
