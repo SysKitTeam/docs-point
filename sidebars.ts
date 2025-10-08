@@ -383,18 +383,6 @@ const sidebars: SidebarsConfig = {
       items: [
         {
           type: 'category',
-          label: 'Activation',
-          link: {
-            type: 'doc',
-            id: 'set-up-point-enterprise/activation/README',
-          },
-          items: [
-            'set-up-point-enterprise/activation/activate-syskit-point',
-            'set-up-point-enterprise/activation/free-trial-enterprise',
-          ],
-        },
-        {
-          type: 'category',
           label: 'Deployment',
           link: {
             type: 'doc',
@@ -408,6 +396,18 @@ const sidebars: SidebarsConfig = {
             'set-up-point-enterprise/deployment/set-up-custom-domain-and-ssl-certificate',
             'set-up-point-enterprise/deployment/upgrade-syskit-point',
             'set-up-point-enterprise/deployment/azure-networking',
+          ],
+        },
+                {
+          type: 'category',
+          label: 'Activation',
+          link: {
+            type: 'doc',
+            id: 'set-up-point-enterprise/activation/README',
+          },
+          items: [
+            'set-up-point-enterprise/activation/activate-syskit-point',
+            'set-up-point-enterprise/activation/free-trial-enterprise',
           ],
         },
       ],

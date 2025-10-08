@@ -1,8 +1,4 @@
-﻿---
-description: Deployment guides for Syskit Point Enterprise.
----
-
-# Deployment
+﻿# Deployment
 
 import DocCardList from '@theme/DocCardList';
 

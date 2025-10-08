@@ -1,8 +1,4 @@
-﻿---
-description: Activation procedures and license management for Syskit Point Enterprise.
----
-
-# Activation
+﻿# Activation
 
 import DocCardList from '@theme/DocCardList';
 
