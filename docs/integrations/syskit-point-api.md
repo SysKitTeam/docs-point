@@ -143,9 +143,9 @@ Here, you can find an example of how to fetch the `access_token` using Postman.
 
 Create a new POST request:
 
-<HttpMethod method="POST" /> https://login.microsoftonline.com/\&lt;tenant-id&gt;/oauth2/v2.0/token
+<HttpMethod method="POST" /> `https://login.microsoftonline.com/<tenant-id>/oauth2/v2.0/token`
 
-Replace the &lt;tenant-id&gt; in your request with your Directory (tenant) ID saved in the previous step.
+Replace the `<tenant-id>` in your request with your Directory (tenant) ID saved in the previous step.
 
 **Body** Include the following parameters in the request body
 
@@ -165,7 +165,7 @@ Using Postman, let's create the first request to your Syskit Point web app.
 
 Create a new GET request:
 
-<mark style={{color: 'blue'}}>`GET`</mark> \{\{pointWebAppUrl\}\}/v1.0/sites
+<HttpMethod method="GET" /> \{\{pointWebAppUrl\}\}/v1.0/sites
 
 Under Authorization > Type, select `Bearer Token` and paste the `access_token` retrieved in the previous step.
 
