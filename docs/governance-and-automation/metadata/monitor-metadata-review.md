@@ -3,7 +3,7 @@ description: This article explains how to monitor Metadata Reviews as an admin.
 ---
 
 
-# Monitor Metadata Reviews as an Admin
+# Monitor Metadata Review
 
 **You can find active and completed Metadata Reviews on the Govern screen** in Syskit Point.
 

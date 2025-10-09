@@ -1,5 +1,5 @@
 ---
-description: Manage custom metadata for workspaces to improve organization and governance.
+description: Manage custom metadata for workspaces.
 ---
 
 # Metadata

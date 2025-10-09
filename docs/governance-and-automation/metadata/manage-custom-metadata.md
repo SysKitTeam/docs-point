@@ -2,7 +2,7 @@
 description: This article explains how to set up and use custom metadata for reports in Syskit Point.
 ---
 
-# Custom Metadata
+# Manage Custom Metadata
 
 :::info
 **Managing Custom Metadata** is available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
