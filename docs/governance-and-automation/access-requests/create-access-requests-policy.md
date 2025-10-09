@@ -2,7 +2,7 @@
 description: This article explains how to create an Access Requests policy in Syskit Point. 
 ---
 
-#  Access Requests Policy
+#  Create Access Requests
 
 To create the **Access Requests policy**, open Syskit point and go to **Settings**. 
 

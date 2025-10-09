@@ -2,7 +2,7 @@
 description: This article explains how to apply Access Requests policies in Syskit Point. 
 ---
 
-#  Apply Access Requests policy
+#  Apply Access Requests
 
 When an Access Requests policy is created, in order to enforce it for specific workspaces, it needs to be manually applied. 
 

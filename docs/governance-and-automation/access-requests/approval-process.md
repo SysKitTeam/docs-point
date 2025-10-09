@@ -2,7 +2,7 @@
 description: This article explains how to approve Access Requests for workspaces in Syskit Point. 
 ---
 
-#  Access Requests Approval
+#  Approval Process
 
 After a user requests access to a workspace, it will need to be approved based on the approval process selected when creating the Access Requests policy.
 
