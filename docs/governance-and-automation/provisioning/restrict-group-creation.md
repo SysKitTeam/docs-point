@@ -30,7 +30,7 @@ To restrict group creation:
 * **Copy & paste, and run the PowerShell script given below**
 * **Sign in with Global Administrator account when prompted**
 
-```
+```powershell
 Import-Module Microsoft.Graph.Beta.Identity.DirectoryManagement
 Import-Module Microsoft.Graph.Beta.Groups
 

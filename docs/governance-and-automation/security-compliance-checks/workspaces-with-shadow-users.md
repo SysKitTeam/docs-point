@@ -35,7 +35,7 @@ You can complete the following actions for the policy vulnerability:
 Clicking the Accept Risk button opens the Accept Risk pop-up. To delay this violation, complete the following:
 
 * **Select the number of days (1)** this policy vulnerability should be delayed for.
-  * Once you accept the risk, this vulnerability is moved to the Govern > Security & Compliance > History section, and you can undo the action there. 
+  * Once you accept the risk, this vulnerability is moved to the Govern > Security & Compliance > History section, and you can undo the action there. 
 * **Click the Accept Risk button (2)** to finalize your decision.
 
 ![Workspaces with Shadow Users - Accept Risk Action](../../../static/img/security-compliance-checks-shadow-users-accept-risk.png)
