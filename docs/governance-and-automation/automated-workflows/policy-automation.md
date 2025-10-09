@@ -26,7 +26,8 @@ In this article, you can find information on the following:
 * [Priority and Priority Overrides](#priority-and-priority-overrides)
 * [Managing Rules](#manage-rules)
 
-:::warning Please Note!
+:::warning 
+Please Note! \
 To activate rules for auto-applying policies, please make sure you have already set up your policies under the policies section. [Follow this article for more information. ](../automated-workflows/set-up-policies.md)
 :::
 
