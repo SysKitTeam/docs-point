@@ -6,6 +6,8 @@ description: >-
 
 # Azure Networking
 
+<mark style="color:purple;">Last updated on January 28th, 2025</mark>
+
 :::warning
 **Please note!**\
 **By default**, **the Front-end and Back-end app services are accessible from the Public Internet**. **The rest of the utilized Azure resources – Key Vault**, **Azure SQL Server**, **Azure Cosmos DB and Storage Account - are secured behind firewalls and private connections**.
