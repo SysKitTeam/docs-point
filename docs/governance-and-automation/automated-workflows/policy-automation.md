@@ -27,7 +27,7 @@ In this article, you can find information on the following:
 * [Managing Rules](#manage-rules)
 
 :::warning 
-Please Note! \
+Please Note!\
 To activate rules for auto-applying policies, please make sure you have already set up your policies under the policies section. [Follow this article for more information. ](../automated-workflows/set-up-policies.md)
 :::
 
@@ -88,7 +88,8 @@ The rule is enabled once you've created it and will start applying defined polic
 ![Rules - New Rule - Apply Policy](../../../static/img/policy-automation-new-policy-fourth.png)
 
 
-:::warning Please Note!
+:::warning 
+Please Note!
 While you can create more than 10 rules for policies, **only 10 rules can be active at once**. If you already have 10 rules active, you will not be able to create new rules without disabling one or [contacting Syskit support](https://www.syskit.com/contact-us/). 
 :::
 

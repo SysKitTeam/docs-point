@@ -3,7 +3,7 @@ description: This article explains how to upgrade to Rules and remove currently 
 
 ---
 
-# Upgrade to Policy Rules
+# Upgrade to Rules
 
 Syskit Point's feature, Rules, provides an easy way to automatically apply policies to all existing and newly created workspaces in order to ensure security and compliance.
 

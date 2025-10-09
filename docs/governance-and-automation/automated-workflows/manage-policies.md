@@ -3,7 +3,7 @@ description: This article explains how to apply and manage policies in Syskit Po
 ---
 
 
-# Creating a Policy
+# Apply Policies
 To create a new policy, navigate to the Policies settings screen and click the **Create New Policy (1)** button.
 
 ![Create Policy](../../../static/img/set-up-automated-workflows-create-policy.png)
