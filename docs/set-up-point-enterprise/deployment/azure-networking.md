@@ -6,7 +6,7 @@ description: >-
 
 # Azure Networking
 
-<mark style="color:purple;">Last updated on January 28th, 2025</mark>
+<mark style={{color: 'purple'}}>Last updated on January 28th, 2025</mark>\
 
 :::warning
 **Please note!**\

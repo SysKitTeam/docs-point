@@ -1,0 +1,72 @@
+/* HTTP Method Badge Styling */
+.http-method {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  min-width: 60px;
+  margin-right: 8px;
+  letter-spacing: 0.5px;
+  background-color: #f5f5f5;
+  border: 1px solid #d0d0d0;
+}
+
+/* GET Method - Blue */
+.http-method--get {
+  color: #61affe;
+}
+
+/* POST Method - Green */
+.http-method--post {
+  color: #49cc90;
+}
+
+/* PUT Method - Orange */
+.http-method--put {
+  color: #fca130;
+}
+
+/* DELETE Method - Red */
+.http-method--delete {
+  color: #f93e3e;
+}
+
+/* PATCH Method - Purple */
+.http-method--patch {
+  color: #50e3c2;
+}
+
+/* Dark theme adjustments for better contrast */
+[data-theme='dark'] .http-method {
+  background-color: #2a2a2a;
+  border: 1px solid #404040;
+}
+
+[data-theme='dark'] .http-method--get {
+  color: #5090d3;
+}
+
+[data-theme='dark'] .http-method--post {
+  color: #3ba672;
+}
+
+[data-theme='dark'] .http-method--put {
+  color: #d88425;
+}
+
+[data-theme='dark'] .http-method--delete {
+  color: #d32f2f;
+}
+
+[data-theme='dark'] .http-method--patch {
+  color: #3eb8a0;
+}
+
+/* Ensure badges don't break in tables */
+.markdown table .http-method {
+  display: inline-block;
+  vertical-align: middle;
+}
