@@ -2,7 +2,7 @@
 description: "This article showcases how you can utilize Syskit Point webhooks with Jira for automated workspace provisioning."
 ---
 
-# Jira Example
+# Jira
 
 This article will show you how to set up Jira Cloud integration with Syskit Point. This integration lets you automate Microsoft 365 workspace provisioning directly from Jira using Syskit Point provisioning API.
 

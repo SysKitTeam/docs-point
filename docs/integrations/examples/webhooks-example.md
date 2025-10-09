@@ -2,7 +2,7 @@
 description: This article showcases how you can utilize Syskit Point webhooks.
 ---
 
-# 3rd Party Integrations Using Webhooks
+# Webhooks
 
 Webhooks are **push notifications sent by Syskit Point as HTTP requests to a registered webhook endpoint when an event occurs**.
 

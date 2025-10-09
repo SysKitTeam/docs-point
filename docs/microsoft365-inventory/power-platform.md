@@ -9,7 +9,7 @@ description: Power Platform reports provide insight into the state of your Power
 To enable the use of Power Platform for Syskit Point, [please contact us](https://www.syskit.com/contact-us-power-platform/).
 :::
 
-In Syskit Point, you can find the following Power Platform-related reports and report types available through the **Report Center**:
+In Syskit Point, you can find the following Power Platform-related reports available through the **Report Center**:
 
 * [Copilot Agents Reports](../power-platform/power-platform-reports/copilot-agents-reports.md)
     * [Copilot Agents Inventory Report](../power-platform/power-platform-reports/copilot-agents-reports.md#copilot-agents-inventory-report)
@@ -27,4 +27,4 @@ In Syskit Point, you can find the following Power Platform-related reports and r
     * [Power BI Inventory Report](../power-platform/power-platform-reports/power-bi-reports.md#power-bi-inventory-report)
     * [Power BI Permissions Report](../power-platform/power-platform-reports/power-bi-reports.md#power-bi-permissions-report)
 
-Follow the links to learn more about each of the available reports.
+**Follow the links to learn more about each of the available reports**.

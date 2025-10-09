@@ -1,8 +1,4 @@
----
-description: Integration examples and code samples for connecting Syskit Point with external systems.
----
-
-# Integration Examples
+# Examples
 
 import DocCardList from '@theme/DocCardList';
 

@@ -1,8 +1,4 @@
-﻿---
-description: Integrate Syskit Point with external systems using APIs, webhooks, and third-party applications.
----
-
-# Integrations
+﻿# Integrations
 
 import DocCardList from '@theme/DocCardList';
 
