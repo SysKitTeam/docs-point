@@ -2,7 +2,7 @@
 description: This article explains how to request owners to review the privacy of their workspaces. 
 ---
 
-# Privacy Review
+# Request Privacy Review
 
 The Privacy settings for your workspaces play a vital role in maintaining control over sensitive information.
 

@@ -2,7 +2,7 @@
 description: This article explains how to request owners to review their workspaces' sensitivity. 
 ---
 
-# Sensitivity Review
+# Request Sensitivity Review
 
 Sensitivity labels, designed to classify and protect your data, should be kept up-to-date to reflect any changes to your business needs, handling practices, or compliance requirements. For example, if a certain workspace starts dealing with sensitive matters, the sensitivity level of that workspace might need to be updated. 
 

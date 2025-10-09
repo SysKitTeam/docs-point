@@ -2,7 +2,7 @@
 description: This article explains how to monitor Sensitivity Reviews as an admin. 
 ---
 
-# Monitor Sensitivity Reviews as an Admin
+# Monitor Sensitivity Review
 
 **You can find active and completed Sensitivity Reviews on the Govern screen** in Syskit Point.
 

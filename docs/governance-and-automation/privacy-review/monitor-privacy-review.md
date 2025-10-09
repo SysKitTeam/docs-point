@@ -3,7 +3,7 @@ description: This article explains how to monitor Privacy Reviews as an admin.
 ---
 
 
-# Monitor Privacy Reviews as an Admin
+# Monitor Privacy Review
 
 **You can find active and completed Privacy Reviews on the Govern screen** in Syskit Point.
 
