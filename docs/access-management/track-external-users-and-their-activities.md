@@ -2,7 +2,7 @@
 description: This section describes how to find information about External users in your environment using Syskit Point.
 ---
 
-# Microsoft 365 External Users
+# Track Microsoft 365 External Users and Their Activities
 
 **External Users refers to individuals who are not part of your organization but need access to your Microsoft 365 resources**, such as files, documents, etc. External users can collaborate with your organization's users, sharing and working on content. 
 

@@ -694,13 +694,13 @@ const sidebars: SidebarsConfig = {
         id: 'access-management/README',
       },
       items: [
-        'access-management/check-access-for-specific-user',
+        'access-management/track-external-users-and-their-activities',        
+        'access-management/check-access-for-specific-user',        
         'access-management/copy-user-permissions',
         'access-management/delete-and-restore-users',
-        'access-management/manage-private-channels',
-        'access-management/supervise-microsoft-teams-private-channels',
-        'access-management/track-external-users-and-their-activities',
         'access-management/view-permission-changes',
+        'access-management/supervise-microsoft-teams-private-channels',
+        'access-management/manage-private-channels',       
       ],
     },
     {
