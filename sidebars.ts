@@ -586,10 +586,10 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: 'Security & Compliance Checks',
+          label: 'Security and Compliance Checks',
           link: {
             type: 'doc',
-            id: 'governance-and-automation/security-compliance-checks/security-compliance-checks',
+            id: 'governance-and-automation/security-compliance-checks/README',
           },
           items: [
             'governance-and-automation/security-compliance-checks/security-compliance-checks',

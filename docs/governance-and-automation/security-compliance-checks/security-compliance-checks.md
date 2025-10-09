@@ -4,11 +4,7 @@ description: >-
   feature in Syskit Point.
 ---
 
-import DocCardList from '@theme/DocCardList';
-
-<DocCardList />
-
-# Security and Compliance Checks
+# Overview
 
 The **Security and Compliance Checks**, visible directly on your Syskit Point home screen, pinpoint the **most important vulnerabilities and misalignments** with Microsoft 365 best practices. These checks keep you aware and help you **react quickly to keep your environment secure and under control**.
 
