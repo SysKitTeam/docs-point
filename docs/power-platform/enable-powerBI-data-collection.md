@@ -33,7 +33,8 @@ Fill out the following details when creating the new group:
 
 :::warning
 **Please note!**  
-Make sure the **Syskit Point Power Platform application** is selected as the member of this group, as shown in the picture below. :::
+Make sure the **Syskit Point Power Platform application** is selected as the member of this group, as shown in the picture below. 
+:::
 
 ![Create New Security Group - Power BI](../../static/img/enable-powerBI-data-collection-power-platform.png)
 
@@ -68,8 +69,9 @@ The next step is to configure Power BI tenant settings which can be done in the 
 
 
 :::warning
-**Please note!**  
-It can take **up to 15 minutes** for these changes to apply. :::
+**Please note!**\
+It can take **up to 15 minutes** for these changes to apply. 
+:::
 
 
 ## Enable Power BI Data Collection in Syskit Point
