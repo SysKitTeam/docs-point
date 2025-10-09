@@ -2,7 +2,7 @@
 description: This article shows options regarding e-mail notifications Syskit Point can send in case of a provisioning failure. 
 ---
 
-# Provisioning Failure Notifications
+# Configure Provisioning Failure Notifications
 
 **Syskit Point admins** can define who gets an e-mail if Syskit Point fails in provisioning new workspaces.
 

@@ -2,7 +2,7 @@
 description: This article explains how to customize and hide the name of your workspace in URLs and e-mails.
 ---
 
-# Customize Your Workspace Name
+# Hide Workspace Name
 
 In the current collaborative work environment, **protecting sensitive information** is more important than ever. Syskit Point is here to help you ensure your **data is safe and secure**. Another effort to do so comes with the newest feature: the ability to **hide workspace names from workspace URLs and e-mails**. 
 
