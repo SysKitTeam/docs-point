@@ -451,7 +451,7 @@ const sidebars: SidebarsConfig = {
         'microsoft365-inventory/microsoft-teams-and-groups',
         'microsoft365-inventory/users',
         'microsoft365-inventory/copilot-readiness',
-        'power-platform/power-platform-reports/README'       
+        'microsoft365-inventory/power-platform'       
       ],
     },
     {
