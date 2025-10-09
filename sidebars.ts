@@ -592,7 +592,7 @@ const sidebars: SidebarsConfig = {
             id: 'governance-and-automation/security-compliance-checks/README',
           },
           items: [
-            'governance-and-automation/security-compliance-checks/security-compliance-checks',
+            'governance-and-automation/security-compliance-checks/overview',
             'governance-and-automation/security-compliance-checks/inactive-workspaces',
             'governance-and-automation/security-compliance-checks/orphaned-workspaces',
             'governance-and-automation/security-compliance-checks/inactive-guest-users',
