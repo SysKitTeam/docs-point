@@ -2,7 +2,7 @@
 description: Power Apps reports provide insight into the state of your Power Platform apps.
 ---
 
-# Power Apps Reports
+# Power Platform Apps
 
 :::info
 **Please Note!** Power Platform is **now available as an add-on** purchase to your Syskit Point subscription. 

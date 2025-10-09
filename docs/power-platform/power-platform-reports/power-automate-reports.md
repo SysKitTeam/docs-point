@@ -2,7 +2,7 @@
 description: Power Automate reports provide insight into the state of your Power Platform flows.
 ---
 
-# Power Automate Reports
+# Power Platform Automate
 
 :::info
 **Please Note!** Power Platform is **now available as an add-on** purchase to your Syskit Point subscription. 

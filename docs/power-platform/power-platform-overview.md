@@ -2,7 +2,7 @@
 description: This article explains how to enable and set up Power Platform data collection for Syskit Point. 
 ---
 
-# Power Platform for Syskit Point
+# Power Platform Overview
 
 **Microsoft Power Platform can now be connected to Syskit Point** and provide you with an overview of your organization's Power Platform resources: Power Platform Apps, Power Platform Flows, and Power Platform Environments. 
 

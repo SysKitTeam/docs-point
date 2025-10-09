@@ -2,7 +2,7 @@
 description: Power Connections reports provide insight into the state of your Power Platform connections.
 ---
 
-# Power Platform Connections Report
+# Power Platform Connections
 
 :::info
 **Please Note!** Power Platform is **now available as an add-on** purchase to your Syskit Point subscription. 

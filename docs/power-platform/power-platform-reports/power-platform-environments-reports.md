@@ -2,7 +2,7 @@
 description: Power Platform Environments reports provide insight into the state of your Power Platform environments.
 ---
 
-# Power Platform Environments Report
+# Power Platform Environments
 
 :::info
 **Please Note!** Power Platform is **now available as an add-on** purchase to your Syskit Point subscription. 

@@ -2,7 +2,7 @@
 description: Power BI reports provide insight into the state of your Power BI workspaces.
 ---
 
-# Power BI Reports
+# Power BI
 
 This article contains information on three Power BI reports available through the **Report Center**:
 
