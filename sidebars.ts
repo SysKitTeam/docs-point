@@ -512,11 +512,11 @@ const sidebars: SidebarsConfig = {
       },
       items: [
         'storage-management/storage-management-overview',
-        'storage-management/storage-reports',
         'storage-management/free-up-storage',
+        'storage-management/storage-reports',        
         'storage-management/limit-storage-usage',
-        'storage-management/storage-sync',
         'storage-management/versioning-limits',
+        'storage-management/storage-sync',
       ],
     },
     {
