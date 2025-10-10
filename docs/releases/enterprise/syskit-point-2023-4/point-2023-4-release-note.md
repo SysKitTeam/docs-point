@@ -28,7 +28,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 **Security & compliance dashboard and reports are available!** Visible from your new home screen, the dashboard pinpoints the most important vulnerabilities and misalignments with Microsoft 365 best practices. These checks will keep you aware and help you react promptly to maintain a secure and controlled environment. You will receive an overview of all checks, along with severity, the number of detected vulnerabilities, and the option to drill down for more details to decide if you want to take action to resolve a specific issue.
 
-* **If you are a Syskit Point Admin**, [**read the Security & compliance checks article**](../../../governance-and-automation/security-compliance-checks/security-compliance-checks.md) to learn how to:
+* **If you are a Syskit Point Admin**, [**read the Security & compliance checks article**](../../../governance-and-automation/security-compliance-checks/overview.md) to learn how to:
   * **Access and use the new dashboard**
   * **Monitor and resolve detected vulnerabilities**
   * **Perform additional automation actions** - use the **Ask Owners** option to include them in the vulnerabilities cleanup process, or **Send Reminder** to users that already received tasks to resolve vulnerabilities.

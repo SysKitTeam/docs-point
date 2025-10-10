@@ -45,7 +45,7 @@ Global admin re-consent is required after the upgrade to the latest version. Con
 
   * **There is a new tenant-wide policy - Tenant Storage Limits**.
   * You can modify the percentage of used tenant storage that, once reached, results in Syskit Point raising a check on the Security & Compliance dashboard. Find more details in the [Tenant Storage Limit policy article](../../../governance-and-automation/automated-workflows/tenant-storage-admin.md).
-  * You can find the Tenant Storage Limit check on the [Security & Compliance dashboard](../../../governance-and-automation/security-compliance-checks/security-compliance-checks.md). For more information about the Tenant Storage Limit report, [take a look at this article](../../../governance-and-automation/security-compliance-checks/tenant-storage.md).
+  * You can find the Tenant Storage Limit check on the [Security & Compliance dashboard](../../../governance-and-automation/security-compliance-checks/overview.md). For more information about the Tenant Storage Limit report, [take a look at this article](../../../governance-and-automation/security-compliance-checks/tenant-storage.md).
   * **Task delegation for the policy is, by default turned on**, meaning that **an email will be sent to Syskit Point administrators when Syskit Point detects that the defined tenant-wide storage limit was reached**. Along with an email, **a task is created for Syskit Point administrators in Syskit Point**. 
   * **[Find more information on how to resolve the task here](../../../point-collaborators/resolve-governance-tasks/tenant-storage-limit.md)**.
   * The policy has a **vulnerability history available** that enables you to see all previously detected and resolved tenant storage limit vulnerabilities. 

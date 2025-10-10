@@ -91,11 +91,7 @@ Find the permission required for specific endpoints/requests below.
 
 Required permission: **Point.Admin**
 
-| Request | Description |
-|---------|-------------|
-| <HttpMethod method="POST" /> /v1.0/webhook/endpoints | Add an endpoint to which Syskit Point will post webhook events. Specify a valid URL and list of event types to be notified about. |
-| <HttpMethod method="GET" /> /v1.0/webhooks/endpoints | Retrieves a list of all webhook endpoints currently registered in Syskit Point. Use this to view all registered webhook endpoints. |
-| <HttpMethod method="DELETE" /> /v1.0/webhooks/endpoints | Deletes a specific webhook endpoint from Syskit Point. Include the endpoint URL in the request body to identify which endpoint to remove. |
+<table><thead><tr><th width="400">Request</th><th>Description</th></tr></thead><tbody><tr><td><HttpMethod method="POST" /> /v1.0/webhook/endpoints</td><td>Add an endpoint to which Syskit Point will post webhook events. Specify a valid URL and list of event types to be notified about.</td></tr><tr><td><HttpMethod method="GET" /> /v1.0/webhooks/endpoints</td><td>Retrieves a list of all webhook endpoints currently registered in Syskit Point. Use this to view all registered webhook endpoints.</td></tr><tr><td><HttpMethod method="DELETE" /> /v1.0/webhooks/endpoints</td><td>Deletes a specific webhook endpoint from Syskit Point. Include the endpoint URL in the request body to identify which endpoint to remove.</td></tr></tbody></table>
 
 ### Users
 

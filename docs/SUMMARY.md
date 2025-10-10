@@ -262,7 +262,7 @@
     * [Apply Policies](governance-and-automation/automated-workflows/manage-policies.md)
     * [Upgrade to Rules](governance-and-automation/automated-workflows/upgrade-to-policy-automation.md)
   * [Security and Compliance Checks](governance-and-automation/security-compliance-checks/README.md)
-    * [Security and Compliance Checks](governance-and-automation/security-compliance-checks/security-compliance-checks.md)
+    * [Security and Compliance Checks](governance-and-automation/security-compliance-checks/overview.md)
     * [Inactive Workspaces](governance-and-automation/security-compliance-checks/inactive-workspaces.md)
     * [Orphaned Workspaces](governance-and-automation/security-compliance-checks/orphaned-workspaces.md)
     * [Inactive Guest Users](governance-and-automation/security-compliance-checks/inactive-guest-users.md)

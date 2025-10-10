@@ -139,7 +139,7 @@ The following information is tracked and available there:
 
 Syskit Point performs regular security and compliance checks for you and presents the results directly on your home screen.
 
-[For more details on Security and Compliance checks, take a look at this article.](../governance-and-automation/security-compliance-checks/security-compliance-checks.md)
+[For more details on Security and Compliance checks, take a look at this article.](../governance-and-automation/security-compliance-checks/overview.md)
 
 ## Copilot Readiness
 

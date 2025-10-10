@@ -4,6 +4,7 @@ description: This article explains how to configure and use Syskit Point's webho
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import HttpMethod from '@site/src/components/HttpMethod';
 
 # Webhooks
 
@@ -28,9 +29,9 @@ The application used to access the webhooks endpoint needs to have the `Point.Ad
 
 To register a webhook endpoint via the Syskit Point API, you need to use the following POST request:
 
-<mark style={{color: 'green'}}>`POST`</mark> &#123;&#123;pointWebAppUrl&#125;&#125;/v1.0/webhooks/endpoints
+<HttpMethod method="POST" /> &#123;&#123;pointWebAppUrl&#125;&#125;/v1.0/webhooks/endpoints
 
-### **Headers**
+### Headers
 
 | Name          | Value              |
 | ------------- | ------------------ |
@@ -44,7 +45,8 @@ To register a webhook endpoint via the Syskit Point API, you need to use the fol
 | `endpoint` | string | Webhook endpoint URL   |
 | `types`    | array  | Types of notifications |
 
-**Example:**
+<Tabs>
+<TabItem value="example" label="Example">
 
 ```json
 {
@@ -54,6 +56,8 @@ To register a webhook endpoint via the Syskit Point API, you need to use the fol
   ]
 }
 ```
+</TabItem>
+</Tabs>
 
 :::info
 You can subscribe to all event types using the `*` symbol, as shown in the example.
@@ -131,7 +135,7 @@ Below, you can find examples for all types:
 </TabItem>
 </Tabs>
 
-### **Response**
+### Response
 
 Successful registration of the webhook endpoint results in a response status 200.
 
@@ -180,9 +184,9 @@ To verify the notification was sent by Syskit Point:
 
 To get the signature key, send the following GET request.
 
-<mark style={{color: 'blue'}}>`GET`</mark> &#123;&#123;pointWebAppUrl&#125;&#125;/v1.0/options
+<HttpMethod method="GET" /> &#123;&#123;pointWebAppUrl&#125;&#125;/v1.0/options
 
-### **Response**
+### Response
 
 A successful request results in a response status 200 and provides the Signature Authentication Key.
 
@@ -196,7 +200,7 @@ A successful request results in a response status 200 and provides the Signature
 </TabItem>
 </Tabs>
 
-### **Create Signature**
+### Create Signature
 
 Below is the code example you can use to create the signature, which can then be compared with the one received in the event object to verify it was sent from Syskit Point.
 
@@ -216,7 +220,7 @@ private static string generateSignature(string content, string authKey)
 
 To retrieve a list of all registered webhook endpoints, use the following GET request:
 
-<mark style={{color: 'blue'}}>`GET`</mark> &#123;&#123;pointWebAppUrl&#125;&#125;/v1.0/webhooks/endpoints 
+<HttpMethod method="GET" /> &#123;&#123;pointWebAppUrl&#125;&#125;/v1.0/webhooks/endpoints 
 
 ### Response
 
@@ -239,7 +243,7 @@ To retrieve a list of all registered webhook endpoints, use the following GET re
 
 To delete a registered webhook endpoint, use the following DELETE request: 
 
-<mark style={{color: 'red'}}>`DELETE`</mark> &#123;&#123;pointWebAppUrl&#125;&#125;/v1.0/webhooks/endpoints
+<HttpMethod method="DELETE" /> &#123;&#123;pointWebAppUrl&#125;&#125;/v1.0/webhooks/endpoints
 
 Include the endpoint URL in the body of the request to identify which webhook endpoint should be deleted.
 
