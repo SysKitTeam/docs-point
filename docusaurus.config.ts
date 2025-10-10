@@ -61,10 +61,7 @@ const config: Config = {
   ],
 
   plugins: [
-    // Conditionally enable HubSpot only on main branch
-    ...(process.env.BRANCH === 'main' || process.env.CF_PAGES_BRANCH === 'main'
-      ? ['docusaurus-plugin-hubspot']
-      : []),
+    //'docusaurus-plugin-hubspot',
     [
       'docusaurus-lunr-search',
       {
@@ -75,14 +72,10 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // HubSpot configuration - only for main branch
-    ...(process.env.BRANCH === 'main' || process.env.CF_PAGES_BRANCH === 'main'
-      ? {
-          hubspot: {
-            accountId: '145896435',
-          },
-        }
-      : {}),
+    // HubSpot configuration
+   //hubspot: {
+    //  accountId: '145896435',
+    //},
     // Comment if not needed
     // announcementBar: {
     //   id: 'power_platform_promotion',
