@@ -3,6 +3,16 @@ description: This article explains how to customize additional Access Review opt
 ---
 
 # Modify Access Review Options
+{% hint style="warning" %}
+
+**Automated Access Review is evolving into [Workspace Review](../workspace-review/setup-workspace-review.md)**, a more powerful solution that covers not only access but also ownership, privacy, sensitivity, and overall workspace security. 
+
+**⚠️ Note: Access Review will be retired in January 2027**. For a richer governance experience, we recommend completing your current reviews and then moving to Workspace Review. 
+
+Learn more in the [Workspace Review documentation](../workspace-review/README.md).
+
+ 
+{% endhint %}
 
 {% hint style="information" %}
 **Access Review options** are available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
