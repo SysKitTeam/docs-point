@@ -6,11 +6,11 @@ description: This article provides an overview of the Workspace Review Wizard Me
 
 The first screen on the Membership step is the task overview. Here, you can find information on what is expected of you for this step:
 
-* You'll be asked to **review the list of users who have access to workspace content**, which is critical to ensuring workspace security, maintaining appropriate permissions, and streamlining collaboration within the team. 
+* You will be asked to **review the list of users who have access to workspace content**, which is critical to ensuring workspace security, maintaining appropriate permissions, and streamlining collaboration within the team. 
 
 * Explanation of how many sections this step has: **Review All members (1)**
 
-* **Review button (2)** you can click when you're ready to start your review.
+* **Review button (2)** you can click when you are ready to start your review.
 
 ![Workspace Review - Membership Step - Overview](../../.gitbook/assets/workspace-review-membership-step-overview.png)
 
@@ -31,8 +31,8 @@ After clicking the Review button, the Membership Review screen opens. On this sc
   * **Last Tenant Logged In (6)** - last date the tenant with the user was logged in
   * **Department (7)** - the department of the user
   * **Recommendation (8)** - this section provides a recommendation from Syskit Point on what actions should be taken if any notable recommendations can be made. The following recommendations could be suggested:
-    * **Remove Blocked Members** - a blocked member is someone whose sign-in access has been disabled by an admin. Blocked members can’t log in, and you can safely remove them from your workspace. 
-    * **Remove Inactive Guests** - An inactive guest user is someone outside your organization who wasn’t active during the period defined in the Inactive Guest Users policy. 
+    * **Remove Blocked Members** - a blocked member is someone whose sign-in access has been disabled by an admin. Blocked members cannot log in, and you can safely remove them from your workspace. 
+    * **Remove Inactive Guests** - An inactive guest user is someone outside your organization who was inactive during the period defined in the Inactive Guest Users policy. 
 * **Promote to Owner (9)** action
   * Clicking this action promotes the user from member status to owner status
 * **Change to Member (10)** action
@@ -48,11 +48,11 @@ After clicking the Review button, the Membership Review screen opens. On this sc
 * If the [Minimum Number of Owners](../resolve-governance-tasks/minimum-number-of-owners.md) and/or [Maximum Number of Owners](../resolve-governance-tasks/maximum-number-of-owners.md) policies were assigned as part of the Workspace Review by the Administrator, and a vulnerability on the workspace was detected, you will not be able to move forward without resolving the vulnerability. 
 {% endhint %}
 
-Once you've completed the actions you decide to take, clicking Next takes you to the next step, [Shadow Users](shadow-users-step.md).
+Once you have completed the actions you decide to take, clicking Next takes you to the next step, [Shadow Users](shadow-users-step.md).
 
 {% hint style="information" %}
 **Please note!** 
 
-If you are unsure of what to do at any point and want to **consult your co-reviewers, you can Start a Chat with them by clicking the Microsoft Teams icon in the top right corner** of the Syskit Point app. 
+If you are unsure of what to do at any point and want to **consult your co-reviewers, you can start a chat with them by clicking the Microsoft Teams icon in the top right corner** of the Syskit Point app. 
 
 {% endhint %}

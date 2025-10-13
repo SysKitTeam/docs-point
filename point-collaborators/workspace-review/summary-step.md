@@ -29,6 +29,6 @@ The following information is available:
 {% hint style="information" %}
 **Please note!** 
 
-If you are unsure of what to do at any point and want to **consult your co-reviewers, you can Start a Chat with them by clicking the Microsoft Teams icon at the top right corner** of the Syskit Point app. 
+If you are unsure of what to do at any point and want to **consult your co-reviewers, you can start a chat with them by clicking the Microsoft Teams icon at the top right corner** of the Syskit Point app. 
 
 {% endhint %}
