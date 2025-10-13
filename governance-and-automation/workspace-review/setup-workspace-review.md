@@ -1,5 +1,5 @@
 ---
-description: This article explains how to enable and configure the Automated Access Review in Syskit Point.
+description: This article explains how to enable and configure the Automated Workspace Review in Syskit Point.
 ---
 
 # Workspace Review
@@ -13,21 +13,19 @@ Here's a quick overview of what setting up and using the Workspace Review looks 
 * **Admins configure Workspace Review policies**
   * Set the schedule, define the review scope, and select which workspaces should be included 
 * **Workspace owners complete reviews**
-  * When a review is due, owners receive a task in Syskit Point along with an email notification. Tasks include workspace details and suggested actions (for example, change the privacy or sensitivity label, remove user access, remove sharing link) to simplify your decision-making
+  * When a review is due, owners receive a task in Syskit Point along with an email notification. Tasks include workspace details and suggested actions (for example, change the privacy or sensitivity label, remove user access, remove sharing link) to simplify their decision-making
 * **Admins monitor the review progress**
   * From the Workspace Review dashboard, admins can track which workspaces have been reviewed, see completed actions, and gain insights into the effectiveness of each review cycle 
 
 ## Configure Workspace Review Policies
 
-With Workspace Review, you can **ask site owners to perform regular Workspace Reviews on their workspaces**, and depending on the specific needs of a workspace, have different Workspace Reviews active with different settings. 
+With Workspace Review, you can **ask site owners to perform regular Workspace Reviews on their workspaces**, and depending on the specific needs of a workspace, have different Workspace Reviews active with distinct settings. 
 
 {% hint style="info" %}
-
-**Please note:** A workspace can currently have only one active Workspace Review assigned to it. 
-
+**Please note:** A workspace can currently have only one active Workspace Review policy assigned to it. 
 {% endhint %}
 
-To set up your Workspace Review, navigate to **Settings > Policies**. 
+To set up your Workspace Review policy, navigate to **Settings > Policies**. 
 
 * **Click the Create New Policy button (1)**
 * **Select Workspace Review (2)** from the list of available policies
@@ -41,11 +39,11 @@ To set up your Workspace Review, navigate to **Settings > Policies**.
 
 ![Workspace Review - New Policy](../../.gitbook/assets/setup-workspace-review-create-new-policy-template.png)
 
-While **the steps for the policy setup are the same** for all of the above options, when one of the **template options** are selected and depending on the template, **certain steps are automatically enabled**. These steps can always be turned off while editing the policy.
+While **the steps for the policy setup are the same** for all of the above options, when one of the **template options** is selected, and depending on the template, **certain steps are automatically enabled**. These steps can be turned off while editing the policy.
 
 ### Policy Steps
 
-As an example, for this article, we will select the Membership template for the Workspace Review policy. 
+As an example for this article, we will select the Membership template for the Workspace Review policy. 
 
 Selecting the Memberships template gives you the following options:
 * **Define the policy name (1)**
@@ -66,7 +64,7 @@ Selecting the Memberships template gives you the following options:
   * **Inactive Workspace (8)** - reviewers will be able to archive or delete the workspace. Archiving or deleting the workspace will complete the workspace review
   * **Privacy Settings (9)** - reviewers will be able to change the privacy settings of the workspace
   * **Sensitivity label (10)** - reviewers will be able to change the sensitivity label of the workspace
-* For this template, the **Membership toggle is automatically switched on (11)**, however, clicking the toggle turns this step off
+* For this template, the **Membership toggle is automatically switched on (11)**; however, clicking the toggle turns this step off
   * Here, you **choose what you want the reviewers to check** regarding users who will have access to the workspace as members
     * The **All Members checkbox is automatically selected (12)** as it is a default part of the Membership step and will always be visible in any review where Membership is enabled
     * In this step, you can also **add recommendations that help ensure compliance** with the Minimum Number or Owners and Maximum Number of Owners policies assigned to the workspace
@@ -120,7 +118,7 @@ Selecting the Memberships template gives you the following options:
 
 ## Next Steps
 
-The Workspace Review policy needs to be applied to workspace either automatically with Rules or manually. [For details on how to apply the policy to your workspaces, take a look at this article.](/governance-and-automation/automated-workflows/manage-policies.md#apply-policies)
+The Workspace Review policy needs to be applied to a workspace either automatically with Rules or manually. [For details on how to apply the policy to your workspaces, take a look at this article.](/governance-and-automation/automated-workflows/manage-policies.md#apply-policies)
 
 Once you are finished with the policy configuration, read the [Monitor Workspace Review](/governance-and-automation/permissions-review/create-apply-access-review-policies.md) article for more details on how to monitor the progress of your workspace reviews.
 

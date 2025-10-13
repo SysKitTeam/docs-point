@@ -9,7 +9,7 @@ description: This article provides a complete overview of the workspace review p
 To monitor workspace reviews, please make sure you have [enabled and configured at least one Workspace Review policy](setup-workspace-review.md).
 {% endhint %}
 
-The **Workspace Review policy** helps organizations **maintain and secure their Microsoft 365 environment by enabling regular, structured, and recommendation-driven review of the most essential workspace settings**. It provides automated tasks for workspace owners to review and resolve policy violations related to **access, privacy and sensitivity**. 
+The **Workspace Review policy** helps organizations **maintain and secure their Microsoft 365 environment by enabling regular, structured, and recommendation-driven review of the most essential workspace settings**. It provides automated tasks for workspace owners to review and resolve policy violations related to **access, privacy, and sensitivity**. 
 
 Unlike Access Review, which focuses on reviewing users' access, the Workspace Review includes additional governance checks, such as: 
 
@@ -35,7 +35,7 @@ While Syskit Point Collaborators can **perform the Workspace Review on workspace
 
 These two roles have **different reports and actions available** before and during the Workspace Review and receive different emails.
 
-In this article you can find our  how **Syskit Point Admin** can monitor the progress of an active Access Review.
+In this article, you can find out how **Syskit Point Admins** can monitor the progress of an active Access Review.
 
 ## Workspace Review - Governance
 
@@ -72,9 +72,9 @@ Each workspace review contains the following:
 * **Percentage of tasks (6)** complete and number of workspaces where the review was completed out of the number of workspaces where it was requested
 * **Cancel Review button (7)** - clicking this opens the confirmation dialog, where you need to confirm the cancellation
   * If you cancel a Workspace Review, the following happens:
-    * All workspace review tasks are automatically closed with the status 'Cancelled'
+    * All workspace review tasks are automatically closed with the status 'Canceled'
     * No emails are sent to workspace owners 
-    * The cancelled review is visible under Govern > Insights > Show by Review
+    * The canceled review is visible under Govern > Insights > Show by Review
 * **View Details (8)** - clicking this opens the review details screen for that workspace review policy
 
 ![Governance - Workspace Review - Overview](../../.gitbook/assets/monitor-workspace-review-governance-overview.png)
@@ -175,7 +175,7 @@ On the **Actions Performed** screen, the following is available:
   * **Reviewed By (1)** shows who reviewed the workspace and when
   * **Workspace Name (3)** shows the name of the workspace
   * **URL (4)** shows a clickable URL for the workspace
-  * **Comments (5)** shows any comments left by reviewers while resolving the workspace review task for the workspace
+  * **Comments (5)** column shows any comments left by reviewers while resolving the workspace review task for the workspace
 
 ![Governance - Workspace Review - Summary](../../.gitbook/assets/monitor-workspace-review-governance-actions-performed.png)
 
@@ -225,7 +225,7 @@ To ensure that all sites have an owner responsible for the upcoming Workspace Re
 
 Once the entire Workspace Review is completed or the time frame for the Workspace Review resolution has passed, you receive a **Workspace Review Completion email**. 
 
-In this email you can find a quick look into how many workspace review tasks were completed, and how many workspaces were reviewed. 
+In this email, you can find out how many workspace review tasks were completed and how many workspaces were reviewed. 
 
 The following information is provided:
 * **Total number of workspaces** for which the Workspace Review was completed
@@ -234,4 +234,4 @@ The following information is provided:
 
 Clicking the **View Details** button takes you to the [Overview](#overview) screen, where you can find more details on each workspace and the actions completed during the review. 
 
-In addition to receiving an email it, you can find the completed Workspace Review by clicking the **Govern** button on the left side of the screen. 
+In addition to receiving an email, you can find the completed Workspace Review by clicking the **Govern** button on the left side of the screen. 
