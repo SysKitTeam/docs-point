@@ -9,7 +9,7 @@ Syskit Point uses two types of Azure resources to store data:
 
 **Azure SQL** provides automated backups which use integrated SQL Transparent Data Encryption. These backups are retained for 7 days. With these backups, Azure SQL Database supports Point in Time Restore, which allows a database to be restored to any point in time, up to the millisecond, within a database’s retention period.
 
-**Azure Cosmos DB** is set to Continuous (7-day) backup policy mode. The Continuous backup policy mode enables point-in-time restore and self-service restore (without the need to contact Microsoft support). This configuration is the default option for new Data Center deployments from [July 15, 2025 onwards](../releases/data-center/syskit-point-2025-3/point-2025-3-99-release-note.md#improvements--bug-fixes), and it is offered without any extra cost. Existing Data Center customers can change the default backup interval in the Azure Portal.
+**Azure Cosmos DB** is set to Continuous (7-day) backup policy mode. The Continuous backup policy mode enables point-in-time restore and self-service restore (without the need to contact Microsoft support). This configuration is the default option for new Enterprise deployments from [July 15, 2025 onwards](../releases/enterprise/syskit-point-2025-3/point-2025-3-99-release-note.md#improvements--bug-fixes), and it is offered without any extra cost. Existing Enterprise customers can change the default backup interval in the Azure Portal.
 
 ## How is data at rest encrypted?
 
@@ -23,7 +23,7 @@ The solution uses TLS 1.2 and HTTPS to secure all messages.
 
 ## Can I host Syskit Point in my own Azure subscription?
 
-Yes, Syskit Point can be hosted by yourself in your own Azure subscription. Self-hosting is only available for the Data Center plan and will require additional installation and onboarding fees. Feel free to contact us to get more information about the Data Center plan.
+Yes, Syskit Point can be hosted by yourself in your own Azure subscription. Self-hosting is only available for the Enterprise plan and will require additional installation and onboarding fees. Feel free to contact us to get more information about the Enterprise plan.
 
 
 ## Do you perform both manual and automated testing as a part of your Quality Assurance process?

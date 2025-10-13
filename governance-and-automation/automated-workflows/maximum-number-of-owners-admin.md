@@ -46,3 +46,12 @@ The **Edit Policy** dialog opens where you can:
 
 
 For details on how collaborators can [**resolve Maximum Number of Owners policy vulnerability tasks**, navigate to the following article](../../point-collaborators/resolve-governance-tasks/maximum-number-of-owners.md).
+
+{% hint style="Information" %}
+**Please note**, this policy can be applied to the following workspaces:
+* **Microsoft Teams**
+* **Microsoft 365 Group**
+* **Viva Engage Community**
+* **SharePoint Site**
+
+{% endhint %}

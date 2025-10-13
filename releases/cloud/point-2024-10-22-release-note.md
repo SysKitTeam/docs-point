@@ -25,6 +25,6 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Fixed an issue** that caused the Chat button to overlap with the expand icon in the right corner of reports.
 
-* **Fixed an issue** that caused Yammer provisioning to fail and not include the defined owners and members in the provisioned workspace. 
+* **Fixed an issue** that caused Viva Engage provisioning to fail and not include the defined owners and members in the provisioned workspace. 
 
 * **Various improvements, including UX and UI fixes, are available**.

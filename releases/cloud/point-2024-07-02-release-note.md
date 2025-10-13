@@ -66,7 +66,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Fixed an issue** that prevented the Private Workspaces Shared with Everyone policy from correctly detecting vulnerabilities.
 
-* **Fixed an issue** where the following error would occur when attempting to complete the Yammer registration setup: 
+* **Fixed an issue** where the following error would occur when attempting to complete the Viva Engage app registration: 
 `{"message":"An error has occurred.","exceptionMessage":"Unexpected character encountered while parsing value: i. Path '', line 0, position 0.","exceptionType":"Newtonsoft.Json.JsonReaderException"}`
 
 * **Fixed a bug** that allowed users to apply previously deleted sensitivity labels.

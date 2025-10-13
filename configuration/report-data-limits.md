@@ -5,7 +5,7 @@ description: This article describes thresholds and other report limits available
 # Report Data Limits
 
 {% hint style="info" %}
-**Data Limits settings** are available in the Data Center plan. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+**Data Limits settings** are available in the Point Enterprise plan. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 {% endhint %}
 
 ## Settings

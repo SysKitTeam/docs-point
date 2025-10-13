@@ -14,7 +14,7 @@ Our pricing information is available on the [Syskit Point product page](https://
 
 ## Does Syskit offer any discounts?
 
-We offer frontline, non-profit, and educational discounts for our annual Cloud and Data Center editions. [Contact us](https://www.syskit.com/company/contact-us) to get a custom quote.
+We offer frontline, non-profit, and educational discounts for our annual Cloud and Enterprise editions. [Contact us](https://www.syskit.com/company/contact-us) to get a custom quote.
 
 ## How does Syskit determine who qualifies for non-profit discounts? 
 
@@ -74,13 +74,13 @@ If you are not satisfied within 30 days, you can get a full refund. We do not wa
 
  * Monthly Subscriptions - Refunds for subscriptions are available within the first paid month after the trial period. 
  * Annual Subscriptions – Refunds for subscriptions are available within 30 days of payment for annual subscriptions.  
-* Syskit Point Data Center licenses can be refunded within 30 days of the original purchase. 
+* Syskit Point Enterprise licenses can be refunded within 30 days of the original purchase. 
 
 After these periods, we cannot offer refunds.  
 
-## Is the onboarding package mandatory for Data Center customers? 
+## Is the onboarding package mandatory for Enterprise customers? 
 
-Yes, the onboarding package is mandatory as a part of the Data Center edition to help you get the best value for your environment and team members. It helps you successfully use the product as soon as possible and get the desired ROI by quickly improving your administration and governance processes after the onboarding. 
+Yes, the onboarding package is mandatory as a part of the Enterprise edition to help you get the best value for your environment and team members. It helps you successfully use the product as soon as possible and get the desired ROI by quickly improving your administration and governance processes after the onboarding. 
 
 ## US Purchases - W9 or W8 form Requirement 
 

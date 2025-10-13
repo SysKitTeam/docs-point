@@ -19,54 +19,26 @@ This article contains information on two Power Platform reports available throug
 
 
 {% hint style="information" %}
-Syskit Point collects data for the following Power Platform resources:
-* Power apps
-  * Canvas (Standard & SharePoint Form)
-* Cloud flows 
-  * Automated
-  * Instant
-  * Scheduled
+[Read this article to learn which types of Power Platform resources are synced in Syskit Point.](../power-platform.md#power-platform-sync-limits)
 {% endhint %}
-
-{% hint style="warning" %}
-Solutions, Model-driven apps, and Desktop flows are not supported.
-{% endhint %}
-
-
 
 ## Power Apps Inventory Report
 
 The Power Apps Inventory report gives a complete overview of all your Power Apps across every environment.
 
-### Generate Report
+### Step 1: Generate Report
 
- * **Click the Reports button** on the screen's left side.
+* **Click the Reports button** on the screen's left side.
 * **Select the Power Platform category in the filter** in the upper left corner.
 * **Click the Power Apps Inventory report tile** to be redirected to the Selection screen.
 
-### Report Data
+When generating the Power Apps Inventory report, the first step is the **selection screen** which opens as a list of available [Power Platform Environments](power-platform-environments-reports.md). This step allows you to **select which environments you want included** in the report.
 
-The **Power Platform Environments** report opens, where the default columns displayed are:
-      
-* **Name** of the environment
-* **Type** of environment it is
-* **Created By** - who created the environment
-* **Created On** - which date and year the environment was created on
-* **Apps** - the number of apps contained within the environment
-* **Flows** - the number of flows contained within the environment
-* **Connectors** - the number of connectors contained within the environment
-* **External Users** - the number of external users in the environment
+* **Selecting one or more environments** provides the **Run Report button**. This generates the **Power Apps Inventory report** for the selected environments. 
 
-The additional columns available in the **column chooser**, located in the top right corner of the report, are:
-      
-* **State**
-* **Dataverse**
-* **Release Cycle**
-* **Environment ID**
+### Step 2: Report Data
 
-**Selecting one or more environments** provides the **Run Report button**. This generates the Power Apps Inventory report for the selected workspaces. 
-
-Here, you can find the following information in the columns:
+On the Power Apps Inventory report, you can find the following information in the columns:
 
 * **Name** of the app
 * **Environment** - which environment the app belongs to
@@ -124,35 +96,20 @@ The additional columns available in the **column chooser**, located in the top r
 
 The Power App Permissions report gives insight into the permissions granted to Power Platform Apps.
 
-### Generate Report
+### Step 1: Generate Report
 
 * **Click the Reports button** on the screen's left side.
 * **Select the Power Platform category in the filter** in the upper left corner.
 * **Click the Power App Permissions report tile** to be redirected to the Selection screen.
 
-### Report Data
 
-The **Power Platform Environments** report opens, where the default columns displayed are:
-      
-* **Name** of the environment
-* **Type** of environment it is
-* **Created By** - who created the environment
-* **Created On** - which date and year the environment was created on
-* **Apps** - the number of apps contained within the environment
-* **Flows** - the number of flows contained within the environment
-* **Connectors** - the number of connectors contained within the environment
-* **External Users** - the number of external users in the environment
+When generating the Power App Permissions report, the first step is the **selection screen** which opens as a list of available [Power Platform Environments](power-platform-environments-reports.md). This step allows you to **select which environments you want included** in the report.
 
-The additional columns available in the **column chooser**, located in the top right corner of the report, are:
-      
-* **State**
-* **Dataverse**
-* **Release Cycle**
-* **Environment ID**
+* **Selecting one or more environments** provides the **Run Report button**. This generates the **Power App Permissions report** for the selected environments. 
 
-**Selecting one or more environments** provides the **Run Report button**. This generates the Power App Permissions report for the selected workspaces. 
+### Step 2: Report Data
 
-Here, you can find the following information in the columns:
+on the Power App Permissions, you can find the following information in the columns:
 
 * **Name** of the environment and app
 * **User Permissions** 

@@ -63,6 +63,15 @@ The **Edit Policy** dialog opens where you can:
 
 For details on how collaborators can [**resolve Inactive Workspaces tasks**, navigate to the following article](../../point-collaborators/resolve-governance-tasks/inactive-workspaces.md).
 
+{% hint style="Information" %}
+**Please note**, this policy can be applied to the following workspaces:
+* **Microsoft Teams**
+* **Microsoft 365 Group**
+* **Viva Engage Community**
+* **SharePoint Site**
+
+{% endhint %}
+
 
 ## SharePoint Site Archival Options
 
@@ -86,13 +95,13 @@ Here are a few things you should keep in mind when it comes to the archive featu
 
 ## Detection for Inactive Workspaces
 
-To decide whether something is inactive in your Microsoft 365 environment, we collect activity data for **SharePoint, Exchange, Yammer, and Microsoft Teams**. If any type of activity is detected, the workspace will not be declared inactive. The amount of time that needs to pass for a workspace to be considered inactive is determined by administrators when creating or editing the Inactive Workspaces policy. 
+To decide whether something is inactive in your Microsoft 365 environment, we collect activity data for **SharePoint, Exchange, Viva Engage, and Microsoft Teams**. If any type of activity is detected, the workspace will not be declared inactive. The amount of time that needs to pass for a workspace to be considered inactive is determined by administrators when creating or editing the Inactive Workspaces policy. 
 
 The following type of activity is checked to determine if a workspace is inactive:
 
 * **SharePoint activity** - collected via Microsoft 365 audit logs. **The last activity is based on the latest date when a file was viewed, edited, or downloaded**.
 * **Exchange activity** - collected via Microsoft 365 Groups activity report available in the Microsoft 365 admin center. **The last activity is based on the latest date when an email was delivered to a group**.
-* **Yammer activity** - the collection is also accomplished through the Microsoft 365 admin center usage report for Yammer groups activity. **The last activity is based on the latest date a message was read, posted, or liked by the group**.
+* **Viva Engage activity** - the collection is also accomplished through the Microsoft 365 admin center usage report for Viva Engage Groups activity. **The last activity is based on the latest date a message was read, posted, or liked by the group**.
 * **Microsoft Teams** - activity is collected using protected APIs in Microsoft Graph. **The last activity is based on the latest date when a message was posted or replied to**.
 * **Planner** - detected via Microsoft 365 Audit Logs Planner activity. **The last activity is based on the latest date when a plan within the workspace was created, deleted, modified, read, or shared.** 
 

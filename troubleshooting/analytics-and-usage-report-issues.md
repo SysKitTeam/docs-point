@@ -15,7 +15,7 @@ On September 1st, Microsoft changed to **Microsoft 365 usage analytics** and **p
 The **following components will stop working in Syskit Point** as a result of pseudonymization of user-level information:
 
 * **Licenses Usage by Service report**
-* **Yammer, Exchange, and Microsoft Teams last activity detection**
+* **Viva Engage, Exchange, and Microsoft Teams last activity detection**
 
 ## Solution
 

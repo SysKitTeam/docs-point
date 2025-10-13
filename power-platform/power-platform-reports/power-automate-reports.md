@@ -11,59 +11,32 @@ To enable the use of Power Platform for Syskit Point, [please contact us](https:
 
 {% endhint %}
 
-
 This article contains information on two Power Platform reports available through the **Report Center**:
 
 * [Power Automate Inventory Report](#power-automate-inventory-report)
 * [Power Automate Permissions Report](#power-automate-permissions-report)
 
 {% hint style="information" %}
-Syskit Point collects data for the following Power Platform resources:
-* Power apps
-  * Canvas (Standard & SharePoint Form)
-* Cloud flows 
-  * Automated
-  * Instant
-  * Scheduled
-{% endhint %}
-
-{% hint style="warning" %}
-Solutions, Model-driven apps, and Desktop flows are not supported.
+[Read this article to learn which types of Power Platform resources are synced in Syskit Point.](../power-platform.md#power-platform-sync-limits)
 {% endhint %}
 
 ## Power Automate Inventory Report
 
 The Power Automate Inventory report provides a complete overview of all your Power Automate Flows across every environment.
 
-### Generate Report
+### Step 1: Generate Report
 
 * **Click the Reports button** on the screen's left side.
 * **Select the Power Platform category in the filter** in the upper left corner.
-* **Click the Flow Inventory report tile** to be redirected to the Selection screen.
+* **Click the Power Automate Inventory report tile** to be redirected to the Selection screen.
 
-### Report Data
+When generating the Power Automate Inventory report, the first step is the **selection screen** which opens as a list of available [Power Platform Environments](power-platform-environments-reports.md). This step allows you to **select which environments you want included** in the report.
 
-The **Power Platform Environments** report opens, where the default columns displayed are:
-      
-* **Name** of the environment
-* **Type** of environment it is
-* **Created By** - who created the environment
-* **Created On** - which date and year the environment was created on
-* **Apps** - the number of apps contained within the environment
-* **Flows** - the number of flows contained within the environment
-* **Connectors** - the number of connectors contained within the environment
-* **External Users** - the number of external users in the environment
+* **Selecting one or more environments** provides the **Run Report button**. This generates the **Power Automate Inventory report** for the selected environments. 
 
-The additional columns available in the **column chooser**, located in the top right corner of the report, are:
-      
-* **State**
-* **Dataverse**
-* **Release Cycle**
-* **Environment ID**
+### Step 2: Report Data
 
-**Selecting one or more environments** provides the **Run Report button**. This generates the Flow Inventory report for the selected workspaces. 
-
-Here, you can find the following information in the columns:
+On the Power Automate Inventory, you can find the following information in the columns:
 
 * **Name** of the Power Automate Flow
 * **Environment** - which environment the flow belongs to
@@ -115,37 +88,21 @@ The additional columns available in the **column chooser**, located in the top r
 
 ## Power Automate Permissions Report
 
-The Flow Permissions report gives insight into the permissions granted to Power Automate Flows.
+The Power Automate Permissions report gives insight into the permissions granted to Power Automate Flows.
 
-### Generate Report
+### Step 1: Generate Report
 
 * **Click the Reports button** on the screen's left side.
 * **Select the Power Platform category in the filter** in the upper left corner.
-* **Click the Flow Permissions report tile** to be redirected to the Selection screen.
+* **Click the Power Automate Permissions report tile** to be redirected to the Selection screen.
 
-### Report Data
+When generating the Power Automate Permissions report, the first step is the **selection screen** which opens as a list of available [Power Platform Environments](power-platform-environments-reports.md). This step allows you to **select which environments you want included** in the report.
 
-The **Power Platform Environments** report opens, where the default columns displayed are:
-      
-* **Name** of the environment
-* **Type** of environment it is
-* **Created By** - who created the environment
-* **Created On** - which date and year the environment was created on
-* **Apps** - the number of apps contained within the environment
-* **Flows** - the number of flows contained within the environment
-* **Connectors** - the number of connectors contained within the environment
-* **External Users** - the number of external users in the environment
+* **Selecting one or more environments** provides the **Run Report button**. This generates the **Power Automate Permissions report** for the selected environments. 
 
-The additional columns available in the **column chooser**, located in the top right corner of the report, are:
-      
-* **State**
-* **Dataverse**
-* **Release Cycle**
-* **Environment ID**
+### Step 2: Report Data
 
-**Selecting one or more environments** provides the **Run Report button**. This generates the Flow Permissions report for the selected workspaces. 
-
-Here, you can find the following information in the columns:
+On the Power Automate Permissions report, you can find the following information in the columns:
 
 * **Name** of the environment and flow
 * **Type** - the type of Power Platform service it is

@@ -1,5 +1,5 @@
 ---
-description: This article explains how to get started with Syskit Point API.
+description: This article explains how to get started with the Syskit Point API.
 ---
 
 # Syskit Point API
@@ -9,7 +9,7 @@ description: This article explains how to get started with Syskit Point API.
 See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 {% endhint %}
 
-In this article, you can find steps to create your first request to your Syskit Point web app. You will need to perform the following steps:
+In this article, you can find the steps to create your first request to your Syskit Point web app. You will need to perform the following steps:
 
 * **Create and set an app registration in Microsoft Entra ID**
 * **Fetch the `access_token`**
@@ -19,7 +19,7 @@ In this article, you can find steps to create your first request to your Syskit 
 
 To complete the steps described in this article, make sure to have the following:
 
-* **Syskit Point Instance** - running Point Cloud or Data Center instance
+* **Syskit Point Instance** - running Point Cloud or Enterprise instance
 * **Microsoft Entra/Microsoft Entra ID Access** - you should be able to create an App registration in Microsoft Entra ID
 
 ## Microsoft Entra Setup
@@ -59,7 +59,7 @@ Afterward, configure API permissions:
 * **Click Add a permission option (2)** - a sidebar opens where you should:
   * **Select the APIs my organization uses tab; search and find Syskit Point API (3) and click to select** - sidebar shows new information
   * **Select the displayed permission (4)**
-    * We strongly encourage applying the principle of least privilege and provide the minimum level of permissions required to accommodate your integration requirements
+    * We strongly encourage applying the principle of least privilege and providing the minimum level of permissions required to accommodate your integration requirements
     * [Find more details about available permissions in the Permissions section](syskit-point-api.md#permissions)
   * **Click Add permissions (5)**
 * **Click the Grant admin consent option (6)** - confirmation dialog opens: **Click Yes to confirm**
@@ -68,7 +68,7 @@ Afterward, configure API permissions:
 
 ![Grant Admin Consent](../.gitbook/assets/syskit-point-api-grant-admin-consent.png)
 
-Lastly, **collect the following data and save to side with the client secret value stored before**:
+Lastly, **collect the following data and save to the side with the client secret value stored before**:
 
 * **Application (client) ID**
 * **Directory (tenant) ID**
@@ -83,13 +83,19 @@ There are 4 permissions providing access to different Syskit Point endpoints:
 * **Point.Provisioning**
 * **Point.Admin**
 
-Find permission required for specific endpoints/requests below.
+Find the permission required for specific endpoints/requests below.
 
 ### WebHooksEndpoint
 
 Required permission: **Point.Admin**
 
-<table><thead><tr><th width="295">Request</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:green;"><code>POST</code></mark> /v1.0/webhook/endpoints</td><td>Add an endpoint to which Syskit Point will post webhooks events. Specify a valid URL and list of event types to be notified about.</td></tr></tbody></table>
+<table><thead><tr><th width="295">Request</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:green;"><code>POST</code></mark> /v1.0/webhook/endpoints</td><td>Add an endpoint to which Syskit Point will post webhook events. Specify a valid URL and list of event types to be notified about.</td></tr></tbody></table>
+<table><thead><tr><th width="295">
+</th><th>
+</th></tr></thead><tbody><tr><td><mark style="color:blue;"><code>GET</code></mark> /v1.0/webhooks/endpoints</td><td>Retrieves a list of all webhook endpoints currently registered in Syskit Point. Use this to view all registered webhook endpoints.</td></tr></tbody></table>
+<table><thead><tr><th width="295">
+</th><th>
+</th></tr></thead><tbody><tr><td><mark style="color:red;"><code>DELETE</code></mark> /v1.0/webhooks/endpoints</td><td>Deletes a specific webhook endpoint from Syskit Point. Include the endpoint URL in the request body to identify which endpoint to remove.</td></tr></tbody></table>
 
 ### Users
 
@@ -113,7 +119,7 @@ Required permission: **SharePoint.Read.All** OR **Point.AsyncRequests**
 
 Required permission: **Point.Provisioning**
 
-<table><thead><tr><th width="357">Request</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:green;"><code>POST</code></mark> /v1.0/provision/teams</td><td>Provision Microsoft Teams based on a provisioning template.</td></tr><tr><td><mark style="color:green;"><code>POST</code></mark> /v1.0/provision/groups</td><td>Provision Microsoft 365 Groups based on a provisioning template.</td></tr><tr><td><mark style="color:green;"><code>POST</code></mark> /v1.0/provision/sites</td><td>Provision SharePoint sites based on a provisioning template.</td></tr><tr><td><mark style="color:green;"><code>POST</code></mark> /v1.0/provision/yammer</td><td>Provision Yammer Communities based on a provisioning template.</td></tr><tr><td><mark style="color:blue;"><code>GET</code></mark> /v1.0/provision/templates</td><td>Get all provisioning templates in Syskit Point.</td></tr><tr><td><mark style="color:blue;"><code>GET</code></mark> /v1.0/provision/requests/{requestId}</td><td>Get status for a provisioning request with specified request ID.</td></tr></tbody></table>
+<table><thead><tr><th width="357">Request</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:green;"><code>POST</code></mark> /v1.0/provision/teams</td><td>Provision Microsoft Teams based on a provisioning template.</td></tr><tr><td><mark style="color:green;"><code>POST</code></mark> /v1.0/provision/groups</td><td>Provision Microsoft 365 Groups based on a provisioning template.</td></tr><tr><td><mark style="color:green;"><code>POST</code></mark> /v1.0/provision/sites</td><td>Provision SharePoint sites based on a provisioning template.</td></tr><tr><td><mark style="color:green;"><code>POST</code></mark> /v1.0/provision/yammer</td><td>Provision Viva Engage Communities based on a provisioning template.</td></tr><tr><td><mark style="color:blue;"><code>GET</code></mark> /v1.0/provision/templates</td><td>Get all provisioning templates in Syskit Point.</td></tr><tr><td><mark style="color:blue;"><code>GET</code></mark> /v1.0/provision/requests/{requestId}</td><td>Get status for a provisioning request with specified request ID.</td></tr></tbody></table>
 
 {% hint style="info" %}
 **Please note!** To automatically approve provisioning requests created via API requests, use provisioning templates with the Approval Process property set to 'Automatically Approve'.

@@ -108,7 +108,7 @@ Manage workspace lifecycles from creation to end with **automated actions and po
 ![Syskit Point - Policies](../.gitbook/assets/point-starter-kit-policies.png)
 
 * [**Set up provisioning**](../governance-and-automation/provisioning/)
-  * **Control workspace creation and avoid sprawl**: Set up **templates for new workspace requests** for Teams, Groups, sites, and Yammer with custom metadata, naming, and governance policies in place.
+  * **Control workspace creation and avoid sprawl**: Set up **templates for new workspace requests** for Teams, Groups, sites, and Viva Engage communities with custom metadata, naming, and governance policies in place.
   * **Unburden IT teams and simplify the process for end-users**: Customize requests and approval workflows with our user-friendly Teams app.
 * [**Collaborate on access reviews**](../governance-and-automation/permissions-review/)
   * Enable your admins to set up automated requests.

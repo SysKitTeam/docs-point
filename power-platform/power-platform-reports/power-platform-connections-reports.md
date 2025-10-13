@@ -2,7 +2,7 @@
 description: Power Connections reports provide insight into the state of your Power Platform connections.
 ---
 
-## Power Platform Connections Report
+# Power Platform Connections Report
 
 {% hint style="info" %}
 **Please Note!** Power Platform is **now available as an add-on** purchase to your Syskit Point subscription. 
@@ -11,53 +11,25 @@ To enable the use of Power Platform for Syskit Point, [please contact us](https:
 
 {% endhint %}
 
-
 The Power Platform Connections report provides a complete overview of all your Power Platform Connections across every environment. 
 
-
 {% hint style="information" %}
-Syskit Point collects data for the following Power Platform resources:
-* Power apps
-  * Canvas (Standard & SharePoint Form)
-* Cloud flows 
-  * Automated
-  * Instant
-  * Scheduled
+[Read this article to learn which types of Power Platform resources are synced in Syskit Point.](../power-platform.md#power-platform-sync-limits)
 {% endhint %}
 
-{% hint style="warning" %}
-Solutions, Model-driven apps, and Desktop flows are not supported.
-{% endhint %}
-
-### Generate Report
+## Step 1: Generate Report
 
 * **Click the Reports button** on the screen's left side.
 * **Select the Power Platform category in the filter** in the upper left corner.
 * **Click the Power Platform Connections report tile** to be redirected to the Selection screen.
 
-### Report Data
+When generating the Power Platform Connections report, the first step is the **selection screen** which opens as a list of available [Power Platform Environments](power-platform-environments-reports.md). This step allows you to **select which environments you want included** in the report.
 
-The **Power Platform Environments** report opens, where the default columns displayed are:
-      
-* **Name** of the environment
-* **Type** of environment it is
-* **Created By** - who created the environment
-* **Created On** - which date and year the environment was created on
-* **Apps** - the number of apps contained within the environment
-* **Flows** - the number of flows contained within the environment
-* **Connectors** - the number of connectors contained within the environment
-* **External Users** - the number of external users in the environment
+* **Selecting one or more environments** provides the **Run Report button**. This generates the **Power Platform Connections report** for the selected environments. 
 
-The additional columns available in the **column chooser**, located in the top right corner of the report, are:
-      
-* **State**
-* **Dataverse**
-* **Release Cycle**
-* **Environment ID**
+## Step 2: Report Data
 
-**Selecting one or more environments** provides the **Run Report button**. This generates the Power Platform Connections report for the selected workspaces. 
-
-Here, you can find the following information in the columns:
+On the Power Platform Connections report, you can find the following information in the columns:
 
 * **Name** of the environment and the Power Platform Connections within the environment
 * **Status** - of the connection
