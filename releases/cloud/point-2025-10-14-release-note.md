@@ -18,7 +18,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **The Workspace review**, in the context of the Microsoft 365 environment, is a scheduled review for Microsoft 365 workspaces that ensures each workspace follows your organization's governance policies.
 * The new **Workspace Review policy** helps organizations **maintain and secure their Microsoft 365 environment by enabling regular, structured, and recommendation-driven review of the most essential workspace settings**. It provides automated tasks for workspace owners to review and resolve policy vulnerabilities related to **access, privacy, and sensitivity**. 
-* **Admins can define custom workspace review policies that trigger during specified review cycles, ensuring that workspace owners regularly evaluate their workspaces** for inactivity, privacy requirements, sensitivity labels, permissions given, or ownership level.
+* **Admins can define custom workspace review policies that trigger during specified review cycles, ensuring that workspace owners regularly evaluate their workspaces**.
 
 **Read the articles listed below to learn more about the new Workspace Review**:
 
