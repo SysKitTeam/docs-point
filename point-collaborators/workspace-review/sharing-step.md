@@ -45,7 +45,7 @@ Here, the following information and actions are available:
 
 ![Workspace Review - Sharing Step - Shared with Your Organization](../../.gitbook/assets/workspace-review-sharing-step-organization.png)
 
-Once you've taken all the necessary actions, clicking Next takes you to the last step, [Summary](sharing-step.md).
+Once you've taken all the necessary actions, clicking Next takes you to the last step, [Summary](summary-step.md).
 
 {% hint style="information" %}
 **Please note!** 
