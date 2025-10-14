@@ -23,7 +23,7 @@ Once you've [created your Workspace Review policies](setup-workspace-review.md),
 The Workspace Review in Syskit Point can be viewed from two different roles:
 
 * **Syskit Point Admin user**, as described in this article
-* [Syskit Point Collaborator user](../../point-collaborators/resolve-governance-tasks/access-review.md)
+* [Syskit Point Collaborator user](../../point-collaborators/workspace-review/workspace-review-overview.md)
 
 When working with Workspace Review, Syskit Point Admin users can:
 
