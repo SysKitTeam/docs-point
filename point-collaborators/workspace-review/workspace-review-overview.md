@@ -81,7 +81,7 @@ The **Workspace Review Wizard** has a total of five steps:
 
 * **Overview**, which includes a **Privacy and Sensitivity review** if they were enabled in settings
 * [Membership](membership-step.md)(for Microsoft 365 Groups and Microsoft Teams), or **Users** (for sites)
-  * This step is not available for OneDrive
+  * This step is not available for OneDrive
 * [Shadow Users](shadow-users-step.md)
 * [Sharing](sharing-step.md)
 * [Summary](summary-step.md)
