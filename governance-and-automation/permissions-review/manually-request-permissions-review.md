@@ -10,7 +10,7 @@ description: This article provides a full overview of the manual access review p
 
 **⚠️ Note: Access Review will be retired in January 2027**. For a richer governance experience, we recommend completing your current reviews and then moving to Workspace Review. 
 
-Learn more in the [Workspace Review documentation](../workspace-review/README.md).
+Learn more in the [Workspace Review documentation](../workspace-review/).
 
  
 {% endhint %}
