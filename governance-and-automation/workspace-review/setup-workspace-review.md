@@ -120,6 +120,6 @@ Selecting the Memberships template gives you the following options:
 
 The Workspace Review policy needs to be applied to a workspace either automatically with Rules or manually. [For details on how to apply the policy to your workspaces, take a look at this article.](/governance-and-automation/automated-workflows/manage-policies.md#apply-policies)
 
-Once you are finished with the policy configuration, read the [Monitor Workspace Review](/governance-and-automation/permissions-review/create-apply-access-review-policies.md) article for more details on how to monitor the progress of your workspace reviews.
+Once you are finished with the policy configuration, read the [Monitor Workspace Review](monitor-workspace-review.md) article for more details on how to monitor the progress of your workspace reviews.
 
 For information on Syskit Point Collaborators completing Workspace Review tasks, take a look at the [Complete Workspace Review article](../../point-collaborators/workspace-review/workspace-review-overview.md).
