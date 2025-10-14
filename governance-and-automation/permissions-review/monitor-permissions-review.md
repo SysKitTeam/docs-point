@@ -7,6 +7,17 @@ description: >-
 # Monitor Access Review in Syskit Point
 
 {% hint style="warning" %}
+
+**Automated Access Review is evolving into [Workspace Review](../workspace-review/setup-workspace-review.md)**, a more powerful solution that covers not only access but also ownership, privacy, sensitivity, and overall workspace security. 
+
+**⚠️ Note: Access Review will be retired in January 2027**. For a richer governance experience, we recommend completing your current reviews and then moving to Workspace Review. 
+
+Learn more in the [Workspace Review documentation](../workspace-review/).
+
+ 
+{% endhint %}
+
+{% hint style="warning" %}
 **Please note!**\
 First, make sure to check how to [enable and configure the Automated Access Review in Syskit Point](enable-permissions-review.md).
 {% endhint %}

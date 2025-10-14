@@ -6,6 +6,17 @@ description: >-
 
 # Enable Automated Access Review
 
+{% hint style="warning" %}
+
+**Automated Access Review is evolving into [Workspace Review](../workspace-review/setup-workspace-review.md)**, a more powerful solution that covers not only access but also ownership, privacy, sensitivity, and overall workspace security. 
+
+**⚠️ Note: Access Review will be retired in January 2027**. For a richer governance experience, we recommend completing your current reviews and then moving to Workspace Review. 
+
+Learn more in the [Workspace Review documentation](../workspace-review/).
+
+ 
+{% endhint %}
+
 To use the advantages of Automated Access Review in Syskit Point, first, you need to:
 
 * **Set up e-mail settings**
