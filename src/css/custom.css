@@ -44,27 +44,43 @@ html, body {
   font-family: Arial, sans-serif;
 }
 
-/* Center images in articles with caption support */
-.markdown p:has(img) {
-  text-align: center;
-  margin: 1rem 0;
-}
-
-.markdown img {
-  display: block;
-  margin: 0 auto;
+/* Basic image styling */
+img {
   max-width: 100%;
   height: auto;
 }
 
-/* Exception: Don't center Azure deployment buttons */
-.markdown p:has(img[src*="aka.ms/deploytoazurebutton"]) {
-  text-align: left;
+/* Center images that are alone in a paragraph (typical content images) - but not in cards */
+.theme-doc-markdown.markdown > p > img:only-child {
+  display: block;
+  margin: 1rem auto;
 }
 
+/* Override: Ensure card images are never centered */
+.cardContainer_S8oU *,
+.docCardListItem_W1sv *,
+.card *,
+[class*="Card"] *,
+[class*="card"] * {
+  text-align: initial !important;
+}
+
+.cardContainer_S8oU img,
+.docCardListItem_W1sv img,
+.card img,
+[class*="Card"] img,
+[class*="card"] img {
+  display: initial !important;
+  margin: initial !important;
+}
+
+/* Exception: Don't center Azure deployment buttons */
 .markdown img[src*="aka.ms/deploytoazurebutton"] {
   display: inline;
   margin: 0;
+  height: 32px;
+  width: auto;
+  min-width: 140px;
 }
 
 /* Style for image captions using the alt text */
@@ -771,5 +787,26 @@ pre[class*="language-"] {
   padding: 0 1rem !important;
   margin-top: 0 !important;
   margin-bottom: 0 !important;
+}
+
+/* Disable zoom for card images and table images */
+.cardContainer_S8oU img,
+.docCardListItem_W1sv img,
+.card img,
+[class*="Card"] img,
+[class*="card"] img,
+table img,
+.markdown table img,
+img[src*="deploytoazurebutton"] {
+  cursor: default !important;
+  pointer-events: none !important;
+}
+
+/* Re-enable pointer events for links around images */
+.cardContainer_S8oU a,
+.docCardListItem_W1sv a,
+.card a,
+table a {
+  pointer-events: auto !important;
 }
 

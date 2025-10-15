@@ -28,6 +28,18 @@ const config: Config = {
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
+  // Preload external images to prevent layout shift
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preload',
+        href: 'https://aka.ms/deploytoazurebutton',
+        as: 'image',
+      },
+    },
+  ],
+
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
@@ -74,9 +86,13 @@ const config: Config = {
 
   themeConfig: {
     // HubSpot configuration
-   //hubspot: {
-    //  accountId: '145896435',
-    //},
+    hubspot: {
+      accountId: '145896435',
+    },
+    // Image zoom configuration
+    imageZoom: {
+      selector: '.markdown img:not([src*="deploytoazurebutton"]):not(table img):not(.cardContainer_S8oU img):not(.docCardListItem_W1sv img):not([class*="card"] img):not([class*="Card"] img)',
+    },
     // Comment if not needed
     // announcementBar: {
     //   id: 'power_platform_promotion',
