@@ -15,8 +15,20 @@ export default function ImageCaptions(): null {
           return;
         }
         
-        // Skip if image is inside a card container
-        if (img.closest('.cardContainer_S8oU, .docCardListItem_W1sv, [class*="Card"], [class*="card"], table')) {
+        // Skip if image is inside a card container, tile, or table
+        const isInCard = img.closest('.cardContainer_S8oU') || 
+                        img.closest('.docCardListItem_W1sv') ||
+                        img.closest('[class*="tile"]') ||
+                        img.closest('[class*="Tile"]') ||
+                        img.closest('article[class*="card"]') ||
+                        img.closest('article[class*="Card"]') ||
+                        img.closest('ul[class*="card"]') ||
+                        img.closest('ul[class*="Card"]') ||
+                        img.closest('li[class*="card"]') ||
+                        img.closest('li[class*="Card"]') ||
+                        img.closest('table');
+        
+        if (isInCard) {
           return;
         }
         

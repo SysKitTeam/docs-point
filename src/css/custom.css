@@ -90,6 +90,21 @@ article[class*="docCard"] img {
   position: static !important;
 }
 
+/* Tile images should use their intrinsic dimensions */
+[class*="tile"] img,
+[class*="Tile"] img {
+  width: auto !important;
+  height: auto !important;
+  max-width: 100% !important;
+  display: block !important;
+}
+
+/* Image container should match the image height */
+[class*="imageContainer"] {
+  height: auto !important;
+  min-height: auto !important;
+}
+
 /* Exception: Don't center Azure deployment buttons */
 .markdown img[src*="aka.ms/deploytoazurebutton"] {
   display: inline;
