@@ -44,15 +44,15 @@ After clicking the Review button, the Membership Review screen opens. On this sc
 
 ![Workspace Review - Membership Step](../../../static/img/workspace-review-membership-step.png)
 
-{% hint style="warning" %}
+:::warning
 * If the [Minimum Number of Owners](../resolve-governance-tasks/minimum-number-of-owners.md) and/or [Maximum Number of Owners](../resolve-governance-tasks/maximum-number-of-owners.md) policies were assigned as part of the Workspace Review by the Administrator, and a vulnerability on the workspace was detected, you will not be able to move forward without resolving the vulnerability. 
-{% endhint %}
+:::
 
 Once you have completed the actions you decide to take, clicking Next takes you to the next step, [Shadow Users](shadow-users-step.md).
 
-{% hint style="information" %}
+:::info
 **Please note!** 
 
 If you are unsure of what to do at any point and want to **consult your co-reviewers, you can start a chat with them by clicking the Microsoft Teams icon in the top right corner** of the Syskit Point app. 
 
-{% endhint %}
+:::

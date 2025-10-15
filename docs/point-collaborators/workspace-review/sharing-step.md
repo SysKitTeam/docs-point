@@ -47,9 +47,9 @@ Here, the following information and actions are available:
 
 Once you've taken all the necessary actions, clicking Next takes you to the last step, [Summary](summary-step.md).
 
-{% hint style="information" %}
+:::info
 **Please note!** 
 
 If you are unsure of what to do at any point and want to **consult your co-reviewers, you can start a chat with them by clicking the Microsoft Teams icon at the top right corner** of the Syskit Point app. 
 
-{% endhint %}
+:::

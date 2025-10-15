@@ -4,10 +4,10 @@ description: This article provides a complete overview of the workspace review p
 
 # Monitor Workspace Review in Syskit Point
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 To monitor workspace reviews, please make sure you have [enabled and configured at least one Workspace Review policy](setup-workspace-review.md).
-{% endhint %}
+:::
 
 The **Workspace Review policy** helps organizations **maintain and secure their Microsoft 365 environment by enabling regular, structured, and recommendation-driven review of the most essential workspace settings**. It provides automated tasks for workspace owners to review and resolve policy violations related to **access, privacy, and sensitivity**. 
 
@@ -216,10 +216,10 @@ Three workdays before the start of the automated Workspace Review, the Syskit Po
 
 ![Workspace Review reminder email](../../../static/img/monitor-workspace-review-reminder-email.png)
 
-{% hint style="warning" %}
+:::warning
 **Please note!**\
 To ensure that all sites have an owner responsible for the upcoming Workspace Review, set active users as site owners for all orphaned sites.
-{% endhint %}
+:::
 
 ### Workspace Review Completion
 

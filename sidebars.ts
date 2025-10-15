@@ -537,7 +537,7 @@ const sidebars: SidebarsConfig = {
             id: 'governance-and-automation/workspace-review/README',
           },
           items: [
-            'governance-and-automation/workspace-review/enable-workspace-review',
+            'governance-and-automation/workspace-review/setup-workspace-review',
             'governance-and-automation/workspace-review/monitor-workspace-review',
           ],
         },
@@ -830,10 +830,10 @@ const sidebars: SidebarsConfig = {
           },
           items: [
             'point-collaborators/workspace-review/workspace-review-overview',
-            'point-collaborators/workspace-review/workspace-review/membership-step',
-            'point-collaborators/workspace-review/workspace-review/shadow-users-step',
-            'point-collaborators/workspace-review/workspace-review/sharing-step',
-            'point-collaborators/workspace-review/workspace-review/summary-step',
+            'point-collaborators/workspace-review/membership-step',
+            'point-collaborators/workspace-review/shadow-users-step',
+            'point-collaborators/workspace-review/sharing-step',
+            'point-collaborators/workspace-review/summary-step',
           ],
         },
 

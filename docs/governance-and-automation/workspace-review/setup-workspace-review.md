@@ -21,9 +21,9 @@ Here's a quick overview of what setting up and using the Workspace Review looks 
 
 With Workspace Review, you can **ask site owners to perform regular Workspace Reviews on their workspaces**, and depending on the specific needs of a workspace, have different Workspace Reviews active with distinct settings. 
 
-{% hint style="info" %}
+:::info
 **Please note:** A workspace can currently have only one active Workspace Review policy assigned to it. 
-{% endhint %}
+:::
 
 To set up your Workspace Review policy, navigate to **Settings > Policies**. 
 
@@ -71,11 +71,11 @@ Selecting the Memberships template gives you the following options:
       * **Not Enough Owners (13)** - reviewers will see a prompt if their workspace has too few owners
       * **Too Many Owners (14)** - reviewers will see a prompt if their workspace has too many owners
 
-{% hint style="warning" %}
+:::warning
 
 * If the Not Enough Owners and/or Too Many Owners options are selected as part of the Workspace Review and a vulnerability is detected, reviewers cannot move forward from this step and complete the review without resolving the vulnerability.
 
-{% endhint %}
+:::
 
 * Next, **you can turn on Shadow Users by clicking the toggle next to it (16)** if you want reviewers to check on **users that have access to workspace content but are not official members**
   * If you click the toggle and turn the option on, you can find the **Review All Shadow Users (17)** checkbox - with this, reviewers can review all shadow users and remove those who no longer need access
