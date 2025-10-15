@@ -15,6 +15,11 @@ export default function ImageCaptions(): null {
           return;
         }
         
+        // Skip if image is inside a card container
+        if (img.closest('.cardContainer_S8oU, .docCardListItem_W1sv, [class*="Card"], [class*="card"], table')) {
+          return;
+        }
+        
         const altText = img.getAttribute('alt');
         if (altText && altText.trim()) {
           // Create wrapper div
