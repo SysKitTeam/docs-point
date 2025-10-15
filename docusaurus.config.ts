@@ -61,7 +61,8 @@ const config: Config = {
   ],
 
   plugins: [
-    //'docusaurus-plugin-hubspot',
+    'docusaurus-plugin-hubspot',
+    'plugin-image-zoom',
     [
       'docusaurus-lunr-search',
       {
