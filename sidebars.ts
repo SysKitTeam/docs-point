@@ -26,6 +26,7 @@ const sidebars: SidebarsConfig = {
             id: 'releases/cloud/README',
           },
           items: [
+            'releases/cloud/point-2025-10-14-release-note',
             'releases/cloud/point-2025-10-07-release-note',
             'releases/cloud/point-2025-09-30-release-note',
             'releases/cloud/point-2025-09-23-release-note',
@@ -346,7 +347,7 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
-    // Documentation sections - CORRECT ORDER FROM SUMMARY.MD
+
     {
       type: 'category',
       label: 'Requirements',
@@ -528,6 +529,18 @@ const sidebars: SidebarsConfig = {
       },
       items: [
         'governance-and-automation/syskit-point-tasks',
+        {
+          type: 'category',
+          label: 'Workspace Review',
+          link: {
+            type: 'doc',
+            id: 'governance-and-automation/workspace-review/README',
+          },
+          items: [
+            'governance-and-automation/workspace-review/enable-workspace-review',
+            'governance-and-automation/workspace-review/monitor-workspace-review',
+          ],
+        },
         {
           type: 'category',
           label: 'Access Review',
@@ -807,6 +820,23 @@ const sidebars: SidebarsConfig = {
       },
       items: [
         'point-collaborators/point-starter-kit-collaborators',
+
+                {
+          type: 'category',
+          label: 'Complete Workspace Review',
+          link: {
+            type: 'doc',
+            id: 'point-collaborators/workspace-review/README',
+          },
+          items: [
+            'point-collaborators/workspace-review/workspace-review-overview',
+            'point-collaborators/workspace-review/workspace-review/membership-step',
+            'point-collaborators/workspace-review/workspace-review/shadow-users-step',
+            'point-collaborators/workspace-review/workspace-review/sharing-step',
+            'point-collaborators/workspace-review/workspace-review/summary-step',
+          ],
+        },
+
         {
           type: 'category',
           label: 'Resolve Governance Tasks',

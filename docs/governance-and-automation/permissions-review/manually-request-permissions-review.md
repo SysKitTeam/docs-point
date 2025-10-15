@@ -4,6 +4,15 @@ description: This article provides a full overview of the manual access review p
 
 # Manually Request Access Review in Syskit Point
 
+:::warning
+
+**Automated Access Review is evolving into [Workspace Review](../workspace-review/setup-workspace-review.md)**, a more powerful solution that covers not only access but also ownership, privacy, sensitivity, and overall workspace security. 
+
+**⚠️ Note: Access Review will be retired in January 2027**. For a richer governance experience, we recommend completing your current reviews and then moving to Workspace Review. 
+
+Learn more in the [Workspace Review documentation](../workspace-review/).
+:::
+
 **Access review**, in the context of the Microsoft 365 environment, is an activity where a person responsible for a Microsoft 365 workspace - be it a Communication site, Microsoft Team, Microsoft 365 Group, or OneDrive - checks whether permissions given to users inside \(internal\) and outside \(external\) of company, comply with the organizational rules and guidelines.
 
 While the **Automated Access Review** was introduced in Syskit Point 14, Syskit Point 15 brings the **Manually Requested Access Review** to the table.

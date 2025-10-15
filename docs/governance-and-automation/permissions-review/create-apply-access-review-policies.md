@@ -5,6 +5,15 @@ description: This article explains how to create Access Review policies and appl
 
 # Create and Apply Access Review Policies
 
+:::warning
+
+**Automated Access Review is evolving into [Workspace Review](../workspace-review/setup-workspace-review.md)**, a more powerful solution that covers not only access but also ownership, privacy, sensitivity, and overall workspace security. 
+
+**⚠️ Note: Access Review will be retired in January 2027**. For a richer governance experience, we recommend completing your current reviews and then moving to Workspace Review. 
+
+Learn more in the [Workspace Review documentation](../workspace-review/).
+:::
+
 Access Review in Syskit Point is enabled through Access Review policies applied to Microsoft Teams, Microsoft 365 Groups, sites, and OneDrive in Syskit Point.
 
 Access Review policies in Syskit Point enable you to define the following settings of an Access Review:
