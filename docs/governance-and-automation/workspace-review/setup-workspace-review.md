@@ -118,7 +118,7 @@ Selecting the Memberships template gives you the following options:
 
 ## Next Steps
 
-The Workspace Review policy needs to be applied to a workspace either automatically with Rules or manually. [For details on how to apply the policy to your workspaces, take a look at this article.](/governance-and-automation/automated-workflows/manage-policies.md#apply-policies)
+The Workspace Review policy needs to be applied to a workspace either automatically with Rules or manually. [For details on how to apply the policy to your workspaces, take a look at this article.](../automated-workflows/manage-policies.md#apply-policies-1)
 
 Once you are finished with the policy configuration, read the [Monitor Workspace Review](monitor-workspace-review.md) article for more details on how to monitor the progress of your workspace reviews.
 
