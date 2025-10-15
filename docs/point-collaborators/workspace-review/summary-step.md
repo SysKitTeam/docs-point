@@ -2,7 +2,7 @@
 description: This article provides an overview of the Workspace Review Completion Summary step from a workspace owner's perspective.
 ---
 
-# Summary Step
+# Workspace Review Summary
 
 The final step in the Workspace Review Wizard is the Summary step. Here, you'll see an overview of your actions taken during the review. 
 

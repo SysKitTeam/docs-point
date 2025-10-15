@@ -2,7 +2,7 @@
 description: This article explains how to enable and configure the Automated Workspace Review in Syskit Point.
 ---
 
-# Workspace Review
+# Configure Workspace Review
 
 The **Workspace Review** policy helps you maintain control over your Microsoft 365 workspaces by **regularly asking workspace owners to confirm the access, activity, and security of their workspaces**. This policy includes a **privacy and sensitivity review, broader governance policies, and introduces smarter, recommendation-driven tasks**. 
 

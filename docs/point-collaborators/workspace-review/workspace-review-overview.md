@@ -2,7 +2,7 @@
 description: This article provides a complete overview of the Workspace Review task resolution process in Syskit Point from a workspace owner's perspective.
 ---
 
-# Workspace Review
+# Workspace Review Overview
 
 **The Workspace review**, in the context of the Microsoft 365 environment, is a scheduled review for Microsoft 365 workspaces that ensures each workspace follows your organization's governance policies.
 

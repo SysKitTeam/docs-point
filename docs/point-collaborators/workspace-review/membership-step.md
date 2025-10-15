@@ -2,7 +2,7 @@
 description: This article provides an overview of the Workspace Review Wizard Membership step from a workspace owner's perspective.
 ---
 
-# Membership Step
+# Workspace Review Membership
 
 The first screen on the Membership step is the task overview. Here, you can find information on what is expected of you for this step:
 

@@ -2,7 +2,7 @@
 description: This article provides a complete overview of the workspace review process for Syskit Point Admins.
 ---
 
-# Monitor Workspace Review in Syskit Point
+# Monitor Workspace Review
 
 :::warning
 **Please note!**\

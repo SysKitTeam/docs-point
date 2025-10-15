@@ -2,7 +2,7 @@
 description: This article provides an overview of the Workspace Review Wizard Shadow Users step from a workspace owner perspective.
 ---
 
-# Shadow Users Step
+# Workspace Review Shadow Users
 
 The first screen on the Shadow Users step is the task overview. Here, you can find information on what is expected of you for this step:
 

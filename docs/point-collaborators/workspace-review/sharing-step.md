@@ -2,7 +2,7 @@
 description: This article provides an overview of the Workspace Review Wizard Sharing step from a workspace owner's perspective.
 ---
 
-# Sharing Step
+# Workspace Review Sharing
 
 The first screen on the Sharing Users step is the task overview. Here, you can find information on what is expected of you for this step:
 
