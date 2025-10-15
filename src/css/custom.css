@@ -50,28 +50,30 @@ img {
   height: auto;
 }
 
-/* Center images that are alone in a paragraph (typical content images) - but not in cards */
+/* Center images that are alone in a paragraph (typical content images) */
 .theme-doc-markdown.markdown > p > img:only-child {
   display: block;
   margin: 1rem auto;
 }
 
-/* Override: Ensure card images are never centered */
+/* Prevent card images from being affected by centering rules */
+.cardContainer_S8oU,
 .cardContainer_S8oU *,
+.docCardListItem_W1sv,
 .docCardListItem_W1sv *,
-.card *,
-[class*="Card"] *,
-[class*="card"] * {
-  text-align: initial !important;
+article[class*="DocCard"],
+article[class*="DocCard"] * {
+  text-align: left !important;
 }
 
 .cardContainer_S8oU img,
 .docCardListItem_W1sv img,
-.card img,
-[class*="Card"] img,
-[class*="card"] img {
-  display: initial !important;
-  margin: initial !important;
+article[class*="DocCard"] img {
+  display: inline-block !important;
+  margin: 0 !important;
+  vertical-align: top !important;
+  transform: none !important;
+  transition: none !important;
 }
 
 /* Exception: Don't center Azure deployment buttons */

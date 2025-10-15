@@ -91,7 +91,10 @@ const config: Config = {
     },
     // Image zoom configuration
     imageZoom: {
-      selector: '.markdown img:not([src*="deploytoazurebutton"]):not(table img):not(.cardContainer_S8oU img):not(.docCardListItem_W1sv img):not([class*="card"] img):not([class*="Card"] img)',
+      selector: '.markdown p img:not([src*="deploytoazurebutton"]), .markdown > img:not([src*="deploytoazurebutton"])',
+      options: {
+        background: 'rgba(0, 0, 0, 0.9)',
+      },
     },
     // Comment if not needed
     // announcementBar: {
