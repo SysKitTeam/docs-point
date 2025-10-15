@@ -90,19 +90,67 @@ article[class*="docCard"] img {
   position: static !important;
 }
 
-/* Tile images should use their intrinsic dimensions */
+/* Tile images should use their intrinsic dimensions - override negative margins */
+.tileImage_Wb8c,
+.imageContainer_HQKA img,
+[class*="imageContainer"] img,
 [class*="tile"] img,
 [class*="Tile"] img {
   width: auto !important;
   height: auto !important;
+  min-height: auto !important;
   max-width: 100% !important;
+  max-height: none !important;
+  min-width: auto !important;
+  margin: 0 !important;
+  object-fit: contain !important;
+  object-position: top center !important;
+  flex-shrink: 0 !important;
+}
+
+/* Image container should match the image height - use block display */
+.imageContainer_HQKA,
+[class*="imageContainer"] {
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  padding: 20px 0 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: flex-start !important;
+  overflow: visible !important;
+}
+
+/* Tile containers should not add extra spacing */
+.gridWithImages_Fntt,
+.tile_ki10,
+.tileWithImage_m8JP,
+.tileLink_WcUu,
+[class*="tile"],
+[class*="Tile"],
+[class*="grid"] {
+  height: auto !important;
+  min-height: auto !important;
+}
+
+/* Image-with-caption inside tiles should not add spacing */
+[class*="tile"] .image-with-caption,
+[class*="Tile"] .image-with-caption {
+  margin: 0 !important;
+  padding: 0 !important;
+  text-align: left !important;
   display: block !important;
 }
 
-/* Image container should match the image height */
-[class*="imageContainer"] {
-  height: auto !important;
-  min-height: auto !important;
+/* Fix tile width on medium screens (between 480px and 770px) */
+@media (min-width: 480px) and (max-width: 770px) {
+  .tile_ki10,
+  .tileWithImage_m8JP,
+  [class*="tile"] {
+    min-width: 250px !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
 }
 
 /* Exception: Don't center Azure deployment buttons */
