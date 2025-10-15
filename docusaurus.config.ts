@@ -93,7 +93,8 @@ const config: Config = {
     imageZoom: {
       selector: '.markdown p img:not([src*="deploytoazurebutton"]), .markdown > img:not([src*="deploytoazurebutton"])',
       options: {
-        background: 'rgba(0, 0, 0, 0.9)',
+        background: 'rgba(128, 128, 128, 0.85)',
+        margin: 48,
       },
     },
     // Comment if not needed
