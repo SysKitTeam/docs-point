@@ -50,6 +50,12 @@ img {
   height: auto;
 }
 
+/* Ensure navbar logo displays properly */
+.navbar__logo img {
+  height: 2rem !important;
+  width: auto !important;
+}
+
 /* Center images that are alone in a paragraph (typical content images) - but NOT in cards */
 .theme-doc-markdown.markdown > p > img:only-child {
   display: block;
