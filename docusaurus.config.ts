@@ -57,8 +57,6 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           showLastUpdateTime: true,
           showLastUpdateAuthor: false,
-          exclude: ['**/SUMMARY.md'], // Exclude SUMMARY.md files from build
-          // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
             //'https://github.com/SysKitTeam/docs-point',
@@ -80,6 +78,12 @@ const config: Config = {
       {
         highlightResult: true,
         disableVersioning: true,
+      },
+    ],
+    [
+      '@docusaurus/plugin-google-tag-manager',
+      {
+        containerId: 'GTM-XXXXXXX', // Replace with your GTM container ID
       },
     ],
   ],
