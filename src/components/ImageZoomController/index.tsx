@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useLocation } from '@docusaurus/router';
 import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 
-export default function ZoomFix(): null {
+export default function ImageZoomController(): null {
   const location = useLocation();
   
   useEffect(() => {
