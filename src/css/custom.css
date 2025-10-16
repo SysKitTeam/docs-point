@@ -750,6 +750,10 @@ pre[class*="language-"] {
   background-color: var(--ifm-color-emphasis-100);
 }
 
+[data-theme='dark'] .markdown table tbody td:last-child {
+  border-right: none;
+}
+
 /* Make table responsive */
 .markdown table {
   display: table;
