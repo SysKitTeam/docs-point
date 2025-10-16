@@ -83,7 +83,7 @@ const config: Config = {
     [
       '@docusaurus/plugin-google-tag-manager',
       {
-        containerId: 'GTM-XXXXXXX', // Replace with your GTM container ID
+        containerId: 'GTM-NFPDG3D', // Replace with your GTM container ID
       },
     ],
   ],
