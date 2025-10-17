@@ -68,7 +68,7 @@ Users with the Syskit Point Admins role assigned can:
 * **Manage all settings in Syskit Point** 
 * **Perform actions** based on the permissions granted in Microsoft 365
 
-During the initial user sync, Syskit Point will automatically add two **Microsoft Entra built-in roles**,  **Global Administrator** and **SharePoint Administrator** as **Syskit Point Admins**. 
+During the initial user sync, Syskit Point will automatically add two **Microsoft Entra built-in roles**,  **Global Administrator** and **SharePoint Administrator**, as **Syskit Point Admins**.
 
 Any user in your **Microsoft 365 environment** with that role will **automatically have full access to Syskit Point**.
 
@@ -99,7 +99,7 @@ Users with the assigned Syskit Point Exchange Admins role can access the Exchang
 
 They have **Read-Only** access and **cannot execute actions or manage application settings**.
 
-With **the Exchange Admins** role assigned, the user can:
+With the **Exchange Admins** role assigned, the user can:
 * **View Exchange Log reports for your environment**
 * **Have Read-Only access on the Exchange Logs report**
 * **Cannot execute actions and manage application settings**
@@ -133,7 +133,7 @@ Additional options available when the Collaborators role is enabled:
 * **Give users read-only access (1)** – when enabled, Collaborators cannot run actions in Syskit Point
 * **Add users with Full Control (2)** – when enabled, users with Full Control permissions on workspaces will be assigned the Collaborators role
 * **Give users access to license reports (3)** – allows access to License reports
-* **Give Collaborators access to subordinate user’s activities (4)** – allows them to view the OneDrive tile, Analytics & Usage tile, and Audit log reports when accessing User details or workspaces they manage
+* **Give Collaborators access to subordinate users- activities (4)** – allows them to view the OneDrive tile, Analytics & Usage tile, and Audit log reports when accessing User details or workspaces they manage
 
 ![Collaborators - Options](../../static/img/enable-role-based-access-collaborator-options.png)
 
@@ -169,7 +169,7 @@ The **Syskit Point Power Platform Admins** role enables users to:
 * **Empowers all admins and owners** and users with **Full Control** permissions to manage their workspaces
 * **Gives admins and owners access to all reports and relevant information without disclosing the content they are not allowed to see**
 
-**For example**, **Syskit Point Admin** generates the **User Access** report. Instead of sharing the URL of the generated report with another **Syskit Point Admin**, they sent it to the **Syskit Point Collaborator** that doesn't have access to all the users in the said environment. This is where the **Role-Based Access** kicks in.
+**For example**, **Syskit Point Admin** generates the **User Access** report. Instead of sharing the URL of the generated report with another **Syskit Point Admin**, they sent it to the **Syskit Point Collaborator**, who doesn't have access to all the users in the said environment. This is where the **Role-Based Access** kicks in.
 
 When said **Syskit Point Collaborator** opens the URL, the report will be generated but only contain **users** the Collaborator manages. Also, the **report will only show workspaces that the Collaborator owns**.
 
