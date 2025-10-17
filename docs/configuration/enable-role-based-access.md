@@ -133,7 +133,7 @@ Additional options available when the Collaborators role is enabled:
 * **Give users read-only access (1)** – when enabled, Collaborators cannot run actions in Syskit Point
 * **Add users with Full Control (2)** – when enabled, users with Full Control permissions on workspaces will be assigned the Collaborators role
 * **Give users access to license reports (3)** – allows access to License reports
-* **Give Collaborators access to subordinate users- activities (4)** – allows them to view the OneDrive tile, Analytics & Usage tile, and Audit log reports when accessing User details or workspaces they manage
+* **Give Collaborators access to subordinate users' activities (4)** – allows them to view the OneDrive tile, Analytics & Usage tile, and Audit log reports when accessing User details or workspaces they manage
 
 ![Collaborators - Options](../../static/img/enable-role-based-access-collaborator-options.png)
 
