@@ -46,7 +46,7 @@ A **dialog** shows, asking you to **confirm** the removal action.
 When the action is **completed**, the selected user **no longer has access** to **Syskit Point**.
 
 :::warning
-**Please note!**  
+**Please note!**\
 Removing user access from **Syskit Point** will not remove a user from your **Microsoft 365** environment.
 :::
 
@@ -73,7 +73,7 @@ During the initial user sync, Syskit Point will automatically add two **Microsof
 Any user in your **Microsoft 365 environment** with that role will **automatically have full access to Syskit Point**.
 
 :::warning
-**Please note!**  
+**Please note!**\
 You cannot assign or remove a user from a **Microsoft 365 administration role** in **Syskit Point**.
 :::
 
@@ -123,7 +123,7 @@ The **Syskit Point Collaborators** role enables site admins, Microsoft Teams, an
 * **See user data collected** from Microsoft 365 for users they are the manager of
 
 :::warning
-**Please note!**  
+**Please note!**\
 When the Collaborators role is enabled, **Syskit Point automatically** assigns **site admins, Microsoft Teams, and Microsoft 365 Group owners** to **Syskit Point Collaborators** role.
 :::
 
@@ -138,7 +138,7 @@ Additional options available when the Collaborators role is enabled:
 ![Collaborators - Options](../../static/img/enable-role-based-access-collaborator-options.png)
 
 :::warning
-**Please note the following:**  
+**Please note!**\
 * Syskit Point Collaborators **cannot exceed the permissions** they have already been assigned **in Microsoft 365**.
 * Syskit Point Collaborators will **not be notified that they have access** to Syskit Point **until a Syskit Point Administrator shares that** information with them. 
 * **Any actions** performed by Collaborators in Syskit Point **are stored under their name in the Audit Logs**.
@@ -147,8 +147,7 @@ Additional options available when the Collaborators role is enabled:
 ### Syskit Point Power Platform Admins
 
 :::warning
-**Please note!**
-
+**Please note!**\
 * Assigning the **Power Platform Admin role in Syskit Point** to users **does not grant the Power Platform Administrator role in Entra ID** 
 * **To successfully run actions** on Power Platform environments, apps, and flows, **Power Platform Admins in Syskit Point must have the Power Platform Administrator role assigned in Entra ID**
 :::
