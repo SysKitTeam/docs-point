@@ -138,7 +138,7 @@ Additional options available when the Collaborators role is enabled:
 ![Collaborators - Options](../../static/img/enable-role-based-access-collaborator-options.png)
 
 :::warning
-**Please note!**\
+**Please note!**
 * Syskit Point Collaborators **cannot exceed the permissions** they have already been assigned **in Microsoft 365**.
 * Syskit Point Collaborators will **not be notified that they have access** to Syskit Point **until a Syskit Point Administrator shares that** information with them. 
 * **Any actions** performed by Collaborators in Syskit Point **are stored under their name in the Audit Logs**.
@@ -147,7 +147,7 @@ Additional options available when the Collaborators role is enabled:
 ### Syskit Point Power Platform Admins
 
 :::warning
-**Please note!**\
+**Please note!**
 * Assigning the **Power Platform Admin role in Syskit Point** to users **does not grant the Power Platform Administrator role in Entra ID** 
 * **To successfully run actions** on Power Platform environments, apps, and flows, **Power Platform Admins in Syskit Point must have the Power Platform Administrator role assigned in Entra ID**
 :::
