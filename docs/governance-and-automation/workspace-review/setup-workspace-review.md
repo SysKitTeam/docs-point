@@ -50,6 +50,9 @@ Selecting the Memberships template gives you the following options:
 * **Choose what to review (2)**:
   * **Internal and External Access** - reviewers will be asked to check both internal and external access
   * **External Access Only** - reviewers will be asked to check external access
+
+![Workspace Review - Create Policy - Step 1](../../../static/img/setup-workspace-review-create-policy-step1.png)
+
 * **Select the Review start date and time (3)**
   * The first Workspace Review with these settings will start at the date and time you select here
 * **Choose the Recurrence pattern (4)** 
@@ -59,17 +62,25 @@ Selecting the Memberships template gives you the following options:
     * **Send a reminder 3 work days before** the due date
     * **Receive completion emails** - selecting this sends an email every time a reviewer finishes the workspace review
       * The email will be sent to the co-reviewers for that Workspace Review task
+
+![Workspace Review - Create Policy - Step 2](../../../static/img/setup-workspace-review-create-policy-step2.png)
+
 * **Choose what you want the reviewers to check** regarding the workspace's activity status, privacy settings, and sensitivity review
   * **Allow Reviewers to Change Owners (7)** - reviewers will be able to change the owners of the workspace on the overview step
   * **Inactive Workspace (8)** - reviewers will be able to archive or delete the workspace. Archiving or deleting the workspace will complete the workspace review
   * **Privacy Settings (9)** - reviewers will be able to change the privacy settings of the workspace
   * **Sensitivity label (10)** - reviewers will be able to change the sensitivity label of the workspace
+
+![Workspace Review - Create Policy - Step 3](../../../static/img/setup-workspace-review-create-policy-step2-2.png)
+
 * For this template, the **Membership toggle is automatically switched on (11)**; however, clicking the toggle turns this step off
   * Here, you **choose what you want the reviewers to check** regarding users who will have access to the workspace as members
     * The **All Members checkbox is automatically selected (12)** as it is a default part of the Membership step and will always be visible in any review where Membership is enabled
     * In this step, you can also **add recommendations that help ensure compliance** with the Minimum Number or Owners and Maximum Number of Owners policies assigned to the workspace
       * **Not Enough Owners (13)** - reviewers will see a prompt if their workspace has too few owners
       * **Too Many Owners (14)** - reviewers will see a prompt if their workspace has too many owners
+
+![Workspace Review - Create Policy - Step 4](../../../static/img/setup-workspace-review-create-policy-step3.png)
 
 :::warning
 
@@ -80,10 +91,15 @@ Selecting the Memberships template gives you the following options:
 * Next, **you can turn on Shadow Users by clicking the toggle next to it (16)** if you want reviewers to check on **users that have access to workspace content but are not official members**
   * If you click the toggle and turn the option on, you can find the **Review All Shadow Users (17)** checkbox - with this, reviewers can review all shadow users and remove those who no longer need access
     * The checkbox will be automatically selected as it is a default part of the step
+
+![Workspace Review - Create Policy - Step 5](../../../static/img/setup-workspace-review-create-policy-step4.png)
+
 * **Turn on Sharing by clicking the toggle next to it (18)** if you want reviewers to choose what you would like reviewers to check regarding **content that has been shared from the workspace**
   * If you click the toggle and turn the option on, the following options are available:
     * **Shared with Anyone (19)** - clicking the checkbox lets reviewers view usage and remove links shared with anyone
     * **Shared with People in Your Organization (20)** - clicking the checkbox lets reviewers view usage and remove links shared with people in your organization
+
+![Workspace Review - Create Policy - Step 6](../../../static/img/setup-workspace-review-create-policy-step5.png)
 
 * Finally, **define the reviewers** by deciding who will be performing workspace reviews on each workspace where this policy is applied: 
   * **For SharePoint Sites (21)**
@@ -102,18 +118,7 @@ Selecting the Memberships template gives you the following options:
     
 * Click **Finish (25)** once you are done with the policy configuration 
 
-
-![Workspace Review - Create Policy - Step 1](../../../static/img/setup-workspace-review-create-policy-step1.png)
-
-![Workspace Review - Create Policy - Step 2](../../../static/img/setup-workspace-review-create-policy-step2.png)
-
-![Workspace Review - Create Policy - Step 3](../../../static/img/setup-workspace-review-create-policy-step3.png)
-
-![Workspace Review - Create Policy - Step 4](../../../static/img/setup-workspace-review-create-policy-step4.png)
-
-![Workspace Review - Create Policy - Step 5](../../../static/img/setup-workspace-review-create-policy-step5.png)
-
-![Workspace Review - Create Policy - Step 8](../../../static/img/setup-workspace-review-create-policy-step6.png)
+![Workspace Review - Create Policy - Step 7](../../../static/img/setup-workspace-review-create-policy-step6.png)
 
 
 ## Next Steps
