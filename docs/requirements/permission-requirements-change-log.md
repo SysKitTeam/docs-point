@@ -68,7 +68,7 @@ Depending on which version you are upgrading to, below you can find the list of 
   * Point Admins who don't use Viva Engage provisioning templates will not receive any reconsent prompts and do not need to reconsent.
 :::
 
-**The following permission is added to the existing Syskit Point app registration**:
+**The following permission is added to the existing Syskit Point app registrations**:
 | App Registration | Permission Name | Reason |
 | ----- | ----- | ----- |
 | Syskit Point Service | Read and write all Viva Engage communities | Allows Syskit Point to provision Viva Engage communities. |
