@@ -179,6 +179,8 @@ The **Archive action** has additional options available that are set up accordin
 
 Archiving a workspace within Syskit Point results in the following:
 * **If the In-place Archival method is selected**, the workspace goes into a **read-only state**
+  * ***Note that archival of Private and Shared channels can be accomplished by archiving the parent team.**
+  * **Direct archival of Private and Shared channels is not possible due to Microsoft's limitation.**
 * **If the Microsoft 365 Archive option is selected**, the workspace is placed into the **cold storage archive** of Microsoft 365
 * **If the Remove Access option was enabled and depending on the parameters set by the admin, access to the workspace is removed for**:
   * **Members**; all members are removed when a workspace is archived

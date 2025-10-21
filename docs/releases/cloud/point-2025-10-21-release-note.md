@@ -14,18 +14,21 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes 
 
+* **Viva Engage (Yammer) provisioning** migrated to Graph API.
+  * **Point Admins with existing Viva Engage provisioning templates will receive a reconsent prompt.**
+  * **Point Admins who create their first Viva Engage provisioning template will receive a reconsent prompt.**
+  * Point Admins who don't use Viva Engage provisioning templates will not receive any reconsent prompts and do not need to reconsent.
+  * [Learn more about the added permission in the Permission Requirements Change Log article.](../../requirements/permission-requirements-change-log.md#syskit-point-cloud-20255114)
+
+* **Improved the Teams app people picker** to no longer show users with blocked sign-in.
+
 * **Fixed an issue** where users could click the Archive action for Private and Shared Channel sites from the Storage Metrics report, which caused an error to occur.
   * The Archive action is now unavailable for private and shared channel sites, and they can only be archived as part of their parent Team.
 
 * **Fixed an issue** where collaborators could not perform the File Version Cleanup action due to the following error: `System.UnauthorizedAccessException: Attempted to perform an unauthorized operation.`
 
-* **Viva Engage (Yammer)** migrated to Graph API with improvements to provisioning.
-  * Disabled users are no longer shown in the Teams app people picker.
-  * Users with Viva Engage templates will receive a reconsent prompt.
-  * Users creating a new Viva Engage template will be asked to consent if needed.
+* **Fixed a bug** where Archived sites were incorrectly flagged for the Orphaned Workspace policy vulnerability. 
 
-* **Fixed a bug** where Archived sites were still incorrectly flagged for the Orphaned Workspace policy vulnerability. 
-
-* **Fixed an issue** where the storing procedure didn't handle bigint values correctly, which caused errors on the Channel Details page in certain situations. 
+* **Fixed an issue**, which caused errors on the Channel Details page in certain situations. 
 
 * **Various improvements, including UX and UI fixes, are available.**

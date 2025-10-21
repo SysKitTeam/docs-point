@@ -58,6 +58,22 @@ After clicking the Manage Connection button, you can expect the following to hap
 
 Depending on which version you are upgrading to, below you can find the list of changes in permissions requested and which features depend on them.
 
+### Syskit Point Cloud 2025.5.114
+**Reconsent is required for customers using Viva Engage community provisioning templates due to permission changes introduced when switching from Viva Engage app registrations to Graph API permissions for Viva Engage community provisioning**.
+
+:::warning
+**Please note!**
+  * **Point Admins with existing Viva Engage provisioning templates will receive a reconsent prompt.**
+  * **Point Admins who create their first Viva Engage provisioning template will receive a reconsent prompt.**
+  * Point Admins who don't use Viva Engage provisioning templates will not receive any reconsent prompts and do not need to reconsent.
+:::
+
+**The following permission is added to the existing Syskit Point app registration**:
+| App Registration | Permission Name | Reason |
+| ----- | ----- | ----- |
+| Syskit Point Service | Read and write all Viva Engage communities | Allows Syskit Point to provision Viva Engage communities. |
+| Syskit Point Permissions Loader | Read and write all Viva Engage communities | Allows Syskit Point to provision Viva Engage communities. |
+
 ### Syskit Point Cloud 2025.2.89
 
 **Consent is required due to permission changes introduced with switching from the beta endpoint to the Graph v1 endpoint to ensure uninterrupted detection of Microsoft Teams activity based on the latest message date**.
