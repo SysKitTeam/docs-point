@@ -126,6 +126,17 @@ const sidebars: SidebarsConfig = {
           items: [
             {
               type: 'category',
+              label: 'Syskit Point 2025.5',
+              link: {
+                type: 'doc',
+                id: 'releases/enterprise/syskit-point-2025-5/README',
+              },
+              items: [
+                'releases/enterprise/syskit-point-2025-5/point-2025-5-113-release-note',
+              ],
+            },
+            {
+              type: 'category',
               label: 'Syskit Point 2025.4',
               link: {
                 type: 'doc',
