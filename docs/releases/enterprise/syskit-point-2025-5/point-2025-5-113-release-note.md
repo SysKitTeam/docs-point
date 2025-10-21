@@ -64,7 +64,10 @@ To configure Copilot Agents data sync and reports currently available in early a
   * This change was made to ensure clarity with users that the column references the last tenant log in, not the last workspace log in. 
 
 * **New site metric** was added: Number of Items Shared with Everyone. 
-  * The Number of Items Shared with Everyone column can be selected from the column chooser on the Sites Overview and Teams & Groups Overview screens. 
+  * The Number of Items Shared with Everyone column can be selected from the column chooser on the Sites Overview and Teams & Groups Overview screens.
+
+* **Fixed an issue** where users could click the Archive action for Private and Shared Channel sites from the Storage Metrics report, which caused an error to occur.
+  * The Archive action is now unavailable for private and shared channel sites, and they can only be archived as part of their parent Team.
 
 * **Fixed the issues** when resolving policy vulnerability tasks. 
   * The task no longer fails when deleting a site or team.
