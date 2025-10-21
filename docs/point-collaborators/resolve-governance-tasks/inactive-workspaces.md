@@ -179,7 +179,7 @@ The **Archive action** has additional options available that are set up accordin
 
 Archiving a workspace within Syskit Point results in the following:
 * **If the In-place Archival method is selected**, the workspace goes into a **read-only state**
-  * ***Note that archival of Private and Shared channels can be accomplished by archiving the parent team.**
+  * **Note that archival of Private and Shared channels can be accomplished by archiving the parent team.**
   * **When the parent team is archived:**
     * Users can no longer access Private and Shared channels via Teams app.
     * Further channel activity in Teams app is not possible.
