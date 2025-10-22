@@ -198,10 +198,10 @@ Viva Engage provisioning has been migrated to the Microsoft Graph API. Due to th
 * **Point Admins who don't use** Viva Engage provisioning templates **will not receive any reconsent prompts** and do not need to reconsent.
 
 
-For more details on the [permissions given to Viva Engage Community for provisioning, take a look at this article.](../../requirements/permission-requirements-change-log.md#syskit-point-cloud-20255114).
+For more details on the [permissions required for Viva Engage community provisioning, take a look at this article.](../../requirements/permission-requirements-change-log.md#syskit-point-cloud-20255114).
 :::
 
-When creating a Viva Engage Community template, there are a couple of differences compared to the Microsoft Teams template.
+When creating a Viva Engage community template, there are a couple of differences compared to the Microsoft Teams template.
 
 * **Community Admins** – allows the following options:
   * Predefine community admins that are always added to this type of workspace:
@@ -218,7 +218,7 @@ When creating a Viva Engage Community template, there are a couple of difference
 
 
 :::info
-**Please note:** Viva Engage Community templates do not have URL & E-mail customization options. When selecting Outlook & E-mail Settings, the Viva Engage Community template does not provide an option for sending a welcome e-mail. 
+**Please note:** Viva Engage community templates do not have URL & E-mail customization options. When selecting Outlook & E-mail Settings, the Viva Engage template does not provide an option for sending a welcome e-mail. 
 :::
 
 ### Microsoft 365 Group Template
