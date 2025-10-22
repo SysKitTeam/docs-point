@@ -84,6 +84,9 @@ To create a brand-new Teams template in the admin center, follow the [Microsoft 
   * New and existing guests
   * Existing guests only
   * Only people in your organization
+  * Limit Sharing by Domain - selecting this checkbox lets you select between teo options:
+    * Allow only specific domains - when selected, you will be asked to type in the domains you want to allow, separating them with commas
+    * Block specific domains - when selected, you will be asked to type in the domains you want to block sharing for, separating them with commas 
 
 Please note that available options depend on defined tenant-level external sharing policies. For example, if sharing files and folders using links that don't require sign-in is not allowed, the Anyone option will not be enabled.
 
@@ -188,19 +191,34 @@ When creating a SharePoint Site template, there are a couple of differences comp
 
 ### Viva Engage Community Template
 
+:::info
+Viva Engage provisioning has been migrated to the Microsoft Graph API. Due to that, the following will hapen:
+* **Point Admins with existing** Viva Engage provisioning templates will **receive a reconsent prompt**.
+* **Point Admins who create their first** Viva Engage provisioning template will also **receive a reconsent prompt**.
+* **Point Admins who don't use** Viva Engage provisioning templates **will not receive any reconsent prompts** and do not need to reconsent.
+
+
+For more details on the [permissions given to Viva Engage Community for provisioning, take a look at this article.](../../requirements/permission-requirements-change-log.md#syskit-point-cloud-20255114).
+:::
+
 When creating a Viva Engage Community template, there are a couple of differences compared to the Microsoft Teams template.
 
-* **Community Admins** – allows multiple options:
-  * Predefine community admins that are always added to this type of workspace
-  * Allow end-users to specify additional ones in addition to predefined community admins
-  * Leave this option altogether to the end-user who is requesting a new workspace
+* **Community Admins** – allows the following options:
+  * Predefine community admins that are always added to this type of workspace:
+    * Requester
+    * Manager of Requester
+    * Custom
+  * Allow end-users to specify additional owners in addition to predefined community admins
 * **Community Members**
-  * Predefine community members that are always added to this type of workspace
+  * Predefine community members that are always added to this type of workspace:
+    * Requester
+    * Manager of Requester
+    * Custom
   * Allow end-users to specify additional community members in addition to predefined community members
-  * Leave this option altogether to the end-user who is requesting a new workspace
+
 
 :::info
-**Please note:** Viva Engage templates do not have URL & E-mail customization options.
+**Please note:** Viva Engage Community templates do not have URL & E-mail customization options. When selecting Outlook & E-mail Settings, the Viva Engage Community template does not provide the option to send a welcome e-mail. 
 :::
 
 ### Microsoft 365 Group Template

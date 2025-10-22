@@ -631,7 +631,6 @@ const sidebars: SidebarsConfig = {
           items: [
             'governance-and-automation/provisioning/set-up-provisioning',
             'governance-and-automation/provisioning/enable-disable-provisioning',
-            'governance-and-automation/provisioning/register-viva-engage-app',
             'governance-and-automation/provisioning/enable-sensitivity-labels',
             'governance-and-automation/provisioning/restrict-group-creation',
             'governance-and-automation/provisioning/templates',
