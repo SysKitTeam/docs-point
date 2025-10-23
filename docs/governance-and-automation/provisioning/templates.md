@@ -1,8 +1,5 @@
 ---
-description: >-
-  Syskit Point templates help you define which types of workspaces your
- end-users can request and create. Each template contains properties and rules
- that guide the creation process.
+description: Syskit Point templates help you define which types of workspaces your end-users can request and create. Each template contains properties and rules that guide the creation process.
 ---
 
 # Templates
