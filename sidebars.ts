@@ -550,9 +550,20 @@ const sidebars: SidebarsConfig = {
           },
           items: [
             'governance-and-automation/workspace-review/setup-workspace-review',
-            'governance-and-automation/workspace-review/monitor-workspace-review',
-          ],
-        },
+            {
+              type: 'category',
+              label: 'Monitor Workspace Review',
+              link: {
+              type: 'doc',
+              id: 'governance-and-automation/workspace-review/monitor-workspace-review/README',
+            },
+            items: [
+              'governance-and-automation/workspace-review/monitor-workspace-review/workspace-review-governance',
+              'governance-and-automation/workspace-review/monitor-workspace-review/workspace-review-overview',
+              'governance-and-automation/workspace-review/monitor-workspace-review/workspace-review-insights',
+              'governance-and-automation/workspace-review/monitor-workspace-review/workspace-review-summary',
+         ],
+         },
         {
           type: 'category',
           label: 'Access Review',
