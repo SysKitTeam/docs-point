@@ -126,6 +126,17 @@ const sidebars: SidebarsConfig = {
           items: [
             {
               type: 'category',
+              label: 'Syskit Point 2025.5',
+              link: {
+                type: 'doc',
+                id: 'releases/enterprise/syskit-point-2025-5/README',
+              },
+              items: [
+                'releases/enterprise/syskit-point-2025-5/point-2025-5-113-release-note',
+              ],
+            },
+            {
+              type: 'category',
               label: 'Syskit Point 2025.4',
               link: {
                 type: 'doc',
@@ -631,7 +642,6 @@ const sidebars: SidebarsConfig = {
           items: [
             'governance-and-automation/provisioning/set-up-provisioning',
             'governance-and-automation/provisioning/enable-disable-provisioning',
-            'governance-and-automation/provisioning/register-viva-engage-app',
             'governance-and-automation/provisioning/enable-sensitivity-labels',
             'governance-and-automation/provisioning/restrict-group-creation',
             'governance-and-automation/provisioning/templates',
