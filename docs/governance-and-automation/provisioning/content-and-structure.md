@@ -42,11 +42,13 @@ The objects available for copying are:
 * **Site theme**
 * **Site navigation**
 * **Site logo**
+* **Header**
 * **Document Libraries and Lists**
 * **Content types**
 * **Folders**
 * **Default & custom file templates**
 * **Files/Documents**
+
 
 When deciding which option to select from the three available, it helps to know which option copies which objects. Here's what each option copies: 
 
@@ -61,6 +63,7 @@ When deciding which option to select from the three available, it helps to know 
 | Site Theme |No | No | No | Yes | Yes |
 | Site Navigation| No | No | No | Yes | Yes |
 | Site Logo | No | No | No | Yes | Yes |
+| Header | No | No | No | Yes | Yes |
 | Document Libraries & Lists | No | No | No | Yes | Yes |
 | Content Types | No | No | No | Yes | Yes |
 | Folders | No | No | No | Yes | Yes |
@@ -85,7 +88,6 @@ The following is **NOT copied or supported**:
 * **Subsites** 
 * **Plans**
 * **Unpublished pages**
-* **Header**
 * **Footer**
 * **Folder color**
 * **OneNote**
