@@ -1,5 +1,5 @@
 ---
-description: This article lists improvements and bug fixes in the Syskit Point Cloud version 2025.5.115.1
+description: This article lists improvements and bug fixes in the Syskit Point Cloud version 2025.5.115.26
 ---
 
 # October 28, 2025
@@ -17,6 +17,5 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 * **Fixed the following issues** when using Provisioning templates that copy content & structure from another workspace:
   * **Fixed an issue** where provisioning would fail when applying a template with the following error: `An error occurred while applying content and structure. Microsoft.SharePoint.Client.ServerException: Value does not fall within the expected range.` 
   * **Fixed an issue where** a site's appearance was not correctly copied when using the copy content & structure templates. 
-  * **Fixed an issue** where log files were not created even when logging to file was enabled. 
 
 * **Various improvements, including UX and UI fixes, are available.**
