@@ -40,7 +40,7 @@ The objects available for copying are:
 * **Apps**
 * **Tabs**
 * **Site theme**
-* **Header**
+* **Site Header**
 * **Site logo**
 * **Site navigation**
 * **Document Libraries and Lists**
@@ -61,7 +61,7 @@ When deciding which option to select from the three available, it helps to know 
 | Apps | No | Yes | Yes | Yes | Yes |
 | Tabs | No | Yes | Yes | Yes | Yes |
 | Site Theme |No | No | No | Yes | Yes |
-| Header | No | No | No | Yes | Yes |
+| Site Header | No | No | No | Yes | Yes |
 | Site Logo | No | No | No | Yes | Yes |
 | Site Navigation| No | No | No | Yes | Yes |
 | Document Libraries & Lists | No | No | No | Yes | Yes |
