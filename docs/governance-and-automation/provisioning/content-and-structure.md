@@ -40,7 +40,7 @@ The objects available for copying are:
 * **Apps**
 * **Tabs**
 * **Site theme**
-* **Site Header**
+* **Site header**
 * **Site logo**
 * **Site navigation**
 * **Document Libraries and Lists**
