@@ -62,6 +62,7 @@ Once the permissions are granted, you can see the **Status** in the Settings cha
 If the box is unchecked, the Status shows the 'Please Enable Data Collection Above to Continue' warning message.
 
 Once this is enabled, the first Power Platform data sync starts. When completed, summary data will show on the Power Platform dashboard tile. From there, you can drill to open specific reports, which provide more details about selected Power Platform resources.
+
 For more details, [take a look at the Power Platform reports article](power-platform-reports/README.md)
 
 :::info
