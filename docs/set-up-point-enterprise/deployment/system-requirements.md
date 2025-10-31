@@ -18,6 +18,7 @@ Requirements listed in this article apply to the self-hosted Syskit Point option
 
 :::warning
 **Please note!**  
+
 To successfully deploy Syskit Point, you need:
 
 * A **user with Global Admin access**
