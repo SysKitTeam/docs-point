@@ -16,6 +16,17 @@ Requirements listed in this article apply to the self-hosted Syskit Point option
 * **Azure Subscription**
 * **Microsoft Entra ID** 
 
+:::warning
+**Please note!**  
+
+To successfully deploy Syskit Point, you need:
+
+* A **user with Global Admin access**
+* A **user that is an owner of the resource group** you'll be using for Syskit Point
+* Or alternatively, a **user with Azure owner access** that can create new Azure resource groups 
+
+:::
+
 ## Azure Resources Requirements
 
 Syskit Point uses Azure cloud components managed by Microsoft. [You can view the architecture diagram of these components by following this link](https://www.syskit.com/products/point/resources/architecture-diagrams/).
