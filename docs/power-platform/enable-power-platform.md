@@ -6,11 +6,11 @@ description: This article explains how to enable and set up Power Platform data 
 
 In order to start **collecting and monitoring Power Apps, Power Flows, Power Platform Environments,** you need to first connect your Power Platform to Syskit Point. This helps you keep track of your Power Platform resources in one place to manage them more effectively. 
 
-In this article, you can find details on how to:
+In this article, you can find details on:
 
-* [Enable Power Platform Data Collection](#enable-data-collection)
-* [Configure Reporting Limits](#configure-reporting-limits)
-* [Assign Syskit Point Power Platform Admins](#syskit-point-power-platform-admins)
+* [Enabling Power Platform Data Collection](#enable-data-collection)
+* [Configuring Reporting Limits](#configure-reporting-limits)
+* [Assigning Syskit Point Power Platform Admins](#syskit-point-power-platform-admins)
 * [Power Platform Sync Limits](#power-platform-sync-limits)
 
 

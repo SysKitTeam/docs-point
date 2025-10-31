@@ -27,7 +27,7 @@ When generating the Power Platform Connections report, the first step is the **s
 
 * **Selecting one or more environments** provides the **Run Report button**. This generates the **Power Platform Connections report** for the selected environments. 
 
-:::info
+:::warning
 
 **Please Note!** Syskit Point **displays all existing connections** but can only **show relationships between connections and flows**. Relationship data for apps is not available due to Microsoft API limitations. 
 
