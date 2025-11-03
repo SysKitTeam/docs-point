@@ -20,6 +20,15 @@ Find additional diagrams available for download in the following table:
 
 ## Getting Started
 
+:::warning
+**Please note!**  
+To successfully deploy Syskit Point, you need:
+
+* A **user that is an owner of the resource group** you'll be using for Syskit Point
+   * Or a **user who can create a new Azure resource group**
+* A **user with Global Admin access**
+:::
+
 These are the 3 most important steps to get you started with Syskit Point:
 
 1. [Deploy Syskit Point](deploy-syskit-point.md) to an empty **Azure resource group**
