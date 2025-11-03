@@ -20,7 +20,7 @@ Prepare the following for Syskit Point deployment:
 To successfully deploy Syskit Point, you need:
 
 * A **user that is an owner of the resource group** you'll be using for Syskit Point
-  * Or a **user who can create a new Azure resource group**
+    * Or a **user who can create a new Azure resource group**
 * A **user with Global Admin access**
 
 :::

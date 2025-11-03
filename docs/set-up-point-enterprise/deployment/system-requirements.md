@@ -22,7 +22,7 @@ Requirements listed in this article apply to the self-hosted Syskit Point option
 To successfully deploy Syskit Point, you need:
 
 * A **user that is an owner of the resource group** you'll be using for Syskit Point
-  * Or a **user who can create a new Azure resource group**
+    * Or a **user who can create a new Azure resource group**
 * A **user with Global Admin access**
 
 :::

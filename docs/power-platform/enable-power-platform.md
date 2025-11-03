@@ -92,7 +92,6 @@ Syskit Point collects data for the Power Platform resources listed below.
 ### Power Platform Connections
 
 * Syskit Point **displays all existing connections** but can only **show relationships between connections and flows**. 
-
 * Relationship data for apps is not available due to Microsoft API limitations. 
 
 
