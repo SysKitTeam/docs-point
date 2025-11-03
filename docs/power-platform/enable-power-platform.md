@@ -6,11 +6,12 @@ description: This article explains how to enable and set up Power Platform data 
 
 In order to start **collecting and monitoring Power Apps, Power Flows, Power Platform Environments,** you need to first connect your Power Platform to Syskit Point. This helps you keep track of your Power Platform resources in one place to manage them more effectively. 
 
-In this article, you can find details on how to:
+In this article, you can find details on:
 
-* [Enable Power Platform Data Collection](#enable-data-collection)
-* [Configure Reporting Limits](#configure-reporting-limits)
-* [Assign Syskit Point Power Platform Admins](#syskit-point-power-platform-admins)
+* [Enabling Power Platform Data Collection](#enable-data-collection)
+* [Configuring Reporting Limits](#configure-reporting-limits)
+* [Assigning Syskit Point Power Platform Admins](#syskit-point-power-platform-admins)
+* [Power Platform Sync Limits](#power-platform-sync-limits)
 
 
 :::info
@@ -62,6 +63,7 @@ Once the permissions are granted, you can see the **Status** in the Settings cha
 If the box is unchecked, the Status shows the 'Please Enable Data Collection Above to Continue' warning message.
 
 Once this is enabled, the first Power Platform data sync starts. When completed, summary data will show on the Power Platform dashboard tile. From there, you can drill to open specific reports, which provide more details about selected Power Platform resources.
+
 For more details, [take a look at the Power Platform reports article](power-platform-reports/README.md)
 
 :::info
@@ -86,6 +88,13 @@ After **enabling the Power Platform data collection (1)**, additional settings a
 ## Power Platform Sync Limits
 
 Syskit Point collects data for the Power Platform resources listed below.
+
+### Power Platform Connections
+
+* Syskit Point **displays all existing connections** but can only **show relationships between connections and flows**. 
+
+* Relationship data for apps is not available due to Microsoft API limitations. 
+
 
 ### Environments with Dataverse Enabled
 
