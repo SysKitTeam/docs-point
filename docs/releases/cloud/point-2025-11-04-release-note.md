@@ -1,5 +1,5 @@
 ---
-description: This article lists improvements and bug fixes in the Syskit Point Cloud version 2025.5.116.1
+description: This article lists improvements and bug fixes in the Syskit Point Cloud version 2025.5.116.38
 ---
 
 # November 04, 2025
@@ -14,11 +14,11 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes 
 
-* **Fixed a bug** that caused Reviewers with the Global Reader role to be able to go through Workspace Review tasks, but with the following error: `There was an error while executing user action 
-System.InvalidOperationException: Action not allowed.` 
-  * Users with the Global Reader role cannot complete Workspace Review tasks, even if they are included as reviewers. 
+* **Fixed an issue** where the Power BI sync would result in an error.
+
+* **Fixed a bug** where reviewers with the Syskit Point Global Viewer role had the option to complete a Workspace review, which resulted in the following error: `There was an error while executing user action System.InvalidOperationException: Action not allowed.` 
+    * Users with the Global Viewer role no longer have the option to complete the Workspace Review tasks, even if they are included as reviewers. 
 
 * **Fixed an issue** on the Sharing Links report where the bulk removal of sharing links did not remove all selected links. 
-  * Any active selection is now automatically reset when a filter is applied to the report.
 
 * **Various improvements, including UX and UI fixes, are available.**
