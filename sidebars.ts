@@ -134,6 +134,7 @@ const sidebars: SidebarsConfig = {
               },
               items: [
                 'releases/enterprise/syskit-point-2025-5/point-2025-5-113-release-note',
+                'releases/enterprise/syskit-point-2025-5/point-2025-5-114-release-note',
               ],
             },
             {
