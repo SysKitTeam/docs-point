@@ -16,7 +16,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Fixed an issue** where the Power BI sync would result in an error.
 
-* **Fixed a bug** where workspace owners with the Syskit Point Global Viewer role couldn't complete the Workspace Review tasks: `There was an error while executing user action System.InvalidOperationException: Action not allowed.` 
+* **Fixed a bug** where workspace owners with the Syskit Point Global Viewer role couldn't complete the Workspace Review tasks. The completion attempt would result in the following error: `There was an error while executing user action System.InvalidOperationException: Action not allowed.` 
     * Workspace owners with the Global Viewer role can now complete the Workspace Review tasks for their workspaces. 
 
 * **Fixed an issue** on the Sharing Links report where the bulk removal of sharing links did not remove all selected links. 
