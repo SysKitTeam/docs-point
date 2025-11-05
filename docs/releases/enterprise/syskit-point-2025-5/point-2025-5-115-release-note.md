@@ -31,6 +31,11 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 * **Improved the Teams app people picker** to no longer show users with blocked sign-in.
 
+* **Fixed an issue** where the Power BI sync would result in an error.
+
+* **Fixed a bug** where workspace owners with the Syskit Point Global Viewer role couldn't complete the Workspace Review tasks. The completion attempt would result in the following error: `There was an error while executing user action System.InvalidOperationException: Action not allowed.` 
+    * Workspace owners with the Global Viewer role can now complete the Workspace Review tasks for their workspaces. 
+
 * **Fixed the following issues** when using Provisioning templates that copy content & structure from another workspace:
   * **Fixed an issue** where provisioning would fail when applying a template with the following error: `An error occurred while applying content and structure. Microsoft.SharePoint.Client.ServerException: Value does not fall within the expected range.` 
   * **Fixed an issue where** a site's appearance was not correctly copied when using the copy content & structure templates. 
