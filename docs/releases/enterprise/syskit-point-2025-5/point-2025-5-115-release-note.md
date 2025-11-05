@@ -1,14 +1,14 @@
 ---
-description: This article lists improvements and bug fixes in Syskit Point version 2025.5.114
+description: This article lists improvements and bug fixes in Syskit Point version 2025.5.115
 ---
 
-# Syskit Point 2025.5.114
+# Syskit Point 2025.5.115
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
-**Product version:** 2025.5.114
+**Product version:** 2025.5.115
 
-**Build number:** XX
+**Build number:** 47
 
 **Release date:** November 05, 2025
 
@@ -21,16 +21,13 @@ description: This article lists improvements and bug fixes in Syskit Point versi
 
 See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../set-up-point-enterprise/deployment/upgrade-syskit-point.md).
 
-## New Features
-
-
 ## Improvements & Bug Fixes
 
 * **Viva Engage (Yammer) provisioning** migrated to Graph API.
   * **Point Admins with existing Viva Engage provisioning templates will receive a reconsent prompt.**
   * **Point Admins who create their first Viva Engage provisioning template will receive a reconsent prompt.**
   * Point Admins who don't use Viva Engage provisioning templates will not receive any reconsent prompts and do not need to reconsent.
-  * [Learn more about the added permission in the Permission Requirements Change Log article.](../../../requirements/permission-requirements-change-log.md#syskit-point-cloud-20255114)
+  * [Learn more about the added permission in the Permission Requirements Change Log article.](../../../requirements/permission-requirements-change-log.md#syskit-point-enterprise-20255115)
 
 * **Improved the Teams app people picker** to no longer show users with blocked sign-in.
 
