@@ -594,6 +594,8 @@ const sidebars: SidebarsConfig = {
           items: [
             'governance-and-automation/automated-workflows/set-up-policies',
             'governance-and-automation/automated-workflows/policy-automation',
+            'governance-and-automation/automated-workflows/manage-policies',  
+            'governance-and-automation/automated-workflows/workspace-type-and-reviewers',  
             'governance-and-automation/automated-workflows/blocked-users-with-licenses-admin',
             'governance-and-automation/automated-workflows/inactive-guest-users-admin',
             'governance-and-automation/automated-workflows/inactive-workspaces-admin',
@@ -605,8 +607,7 @@ const sidebars: SidebarsConfig = {
             'governance-and-automation/automated-workflows/workspaces-with-too-many-members-admin',
             'governance-and-automation/automated-workflows/shadow-users-admin',
             'governance-and-automation/automated-workflows/private-workspaces-shared-with-everyone-admin',
-            'governance-and-automation/automated-workflows/workspaces-no-sensitivity-admin',
-            'governance-and-automation/automated-workflows/manage-policies',            
+            'governance-and-automation/automated-workflows/workspaces-no-sensitivity-admin',          
             'governance-and-automation/automated-workflows/upgrade-to-policy-automation', 
           ],
         },
