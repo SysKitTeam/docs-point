@@ -16,7 +16,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Improvements made to Provisioning.**
   * An option was added when creating a Provisioning template that allows you to limit the maximum number of characters allowed in workspace URLs.
-    * When this option is enabled, any URL exceeding the limit will be automatically shortened (? tako sam skuzila bar?). 
+    * When this option is enabled, any URL exceeding the limit will be automatically shortened and the finished URL is shown for an overview of how it looks. 
     * This option is automatically disabled, and the checkbox needs to be selected to enable it.
     * The minimum number of characters required is 1 and the maximum number allowed is 256.
   * If the option to Hide workspace name from URL is selected, a message will inform users that the final URL will be masked when provisioning from that template. 
@@ -28,11 +28,9 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 * **Fixed an issue** where Access Review tasks were not created and Access Review e-mail were not sent out due to the following error: `Access Review Notifier Job failed on step: ReviewStartEmail.
 Microsoft.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_UserPermissionReview_SitePermissionReview".`
 
-* **Fixed an issue** nested security groups were not synced properly.
+* **Fixed an issue** where nested security groups were not synced properly.
   * Only users, not nested security groups, were shown as members of parent groups in reports such as the Permissions Matrix, Group Memberships, or Group Access.
 
 * **Fixed an issue** where the Power BI data sync failed due to the wrong authentication token being used during the sync process. 
-
-* **Fixed a bug** that caused the Sensitivity Labels Inventory report to fail when handling large values with the following error: `Arithmetic overflow error converting expression to data type int.`
 
 * **Various improvements, including UX and UI fixes, are available.**
