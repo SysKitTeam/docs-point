@@ -104,7 +104,10 @@ This report can also be **used to help calculate possible savings that can achie
  * **Click the Reports button**; located on the left side of the screen.
  * **Select Licenses in the filter**; can be found in the upper left corner.
  * **Click the License Distribution** tile to generate the report.
-* **Select one of the two options** when redirected to the filter screen; the report data can be filtered by **Department or Usage Location**.
+* **Select one of the three options** when redirected to the filter screen, the report data can be filtered by:
+  * **Department**
+  * **Usage Location**
+  * **Country or Region**
 * **Click the Run Report button** to generate the desired report.
 
 ### License Distribution Report Data
@@ -119,7 +122,7 @@ Other columns that are enabled by default are:
 * **Assigned Licenses**; the number of currently assigned licenses per license
 * **Assigned Licenses Cost**; the total cost of assigned licenses 
   * It also shows the **Total cost of licenses distributed by Departments or Locations**
-* **Inactive Licenses**; the number of currently assigned licenses to inactive, blocked, or deleted users in Microsoft Entra ID
+* **Inactive Users with Assigned Licenses**; the number of inactive, blocked, or deleted users in Microsoft Entra ID with currently assigned licenses 
 * **Possible savings (Inactive)**; the potential savings on inactive licenses
 
 The License Distribution report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
