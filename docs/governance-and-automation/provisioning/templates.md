@@ -111,6 +111,10 @@ Please note that available options depend on defined tenant-level external shari
   * For example, setting the prefix to **Marketing** results in each workspace created from this template being named in a form **Marketing – (Request Name)**
   * **Select the checkbox Apply naming rule to workspace URL and e-mail** to have **all workspaces created from this template have the same URL based on the Name Prefix and Name Suffix** you entered into the form
 * **Customize URL (14)** - here, you can select how the URL of the workspace will look when the workspace is created
+  * Limit URL length to
+    * After selecting this, enter a value from 1 to 256 to set the URL length limit, and the URL will be limited to the number of characters you choose
+      * You must enter the URL length limit before proceeding to the next step
+    * When this option is selected, a URL exceeding the limit is automatically shortened, and the resulting shortened URL is displayed for a quick overview
   * Allow end users to edit URL
     * Selecting this lets workspace owners and end users edit the URL based on their preference
   * Hide workspace name from URL
