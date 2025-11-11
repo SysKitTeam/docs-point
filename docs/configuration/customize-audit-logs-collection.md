@@ -97,19 +97,23 @@ Available audit log categories:
 
 * **Application administration activities**
 * **Azure AD group administration activities**
+* **Copilot activities**
 * **Data governance**
 * **Directory administration activities**
 * **Exchange admin activities**
 * **Exchange mailbox activities**
 * **File and page activities**
 * **Folder activities**
+* **Information barriers activities**
 * **Microsoft Forms**
 * **Microsoft Power Automate**
 * **Microsoft Stream**
 * **Microsoft Teams activities**
+* **Other SharePoint activities**
 * **Power Apps activities**
 * **Power BI activities**
 * **Role administration activities**
+* **Sensitivity label activities**
 * **SharePoint list events**
 * **Sharing and access request activities**
 * **Site administration activities**
@@ -117,6 +121,7 @@ Available audit log categories:
 * **Synchronization activities**
 * **User activities**
 * **User administration activities**
+* **Viva Engage activities**
 
 ## Data Retention
 

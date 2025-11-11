@@ -50,6 +50,7 @@ Selecting the Memberships template gives you the following options:
 * **Choose what to review (2)**:
   * **Internal and External Access** - reviewers will be asked to check both internal and external access
   * **External Access Only** - reviewers will be asked to check external access
+    * **Please note** that Membership step recommendations for Minimum and Maximum number of Owners policies are not available if you select this option
 
 ![Workspace Review - Create Policy - Step 1](../../../static/img/setup-workspace-review-create-policy-step1.png)
 
