@@ -14,18 +14,17 @@ Below you can find details on:
 
 
 :::info
-
 **Please note the following**: 
 
 * Policies that are user-centered do not have specific workspaces they can be applied to, as they are applied tenant-wide.
-* For certain policies with task delegation enabled, when a task is not resolved by workspace owners, you can select secondary reviewers. If workspace owners do not complete the task, it will be reassigned to the secondary reviewers you have chosen.
+* For certain policies with task delegation enabled, when workspace owners don't resolve their tasks on time, you can select who the task will be reassigned to. If workspace owners do not complete the task, it will be reassigned to the reviewers you choose.
 * Policies that do not have task delegation available do not have active tasks to resolve, and no e-mails are sent.
-  * Syskit Point Administrators can monitor and complete actions for those policies on the [Security & Compliance Checks](../security-compliance-checks/overview.md) screen, when a vulnerability is detected.
+  * Syskit Point Administrators can monitor and complete actions for those policies on the [Security & Compliance Checks](../security-compliance-checks/overview.md) screen when a vulnerability is detected.
 
 :::
 
 
-| Policy Name | Workspace Type | Task Delegation | Default Reviewer | Reassign to|
+| Policy Name | Workspace Type | Task Delegation | Reviewers | Reassign to|
 | ----- | ----- | ----- | ----- | ----- |
 | Blocked Users with Assigned Licenses | Tenant-Wide | Not available | N/A | N/A |
 | Inactive Guest Users | Tenant-Wide | Available | Manager of Guest User, Syskit Point Administrators, Custom Recipients | N/A |
