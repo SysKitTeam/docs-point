@@ -13,13 +13,13 @@ Below you can find details on:
 * **Which policies can be delegated** 
 
 
-:::info
+:::warning
 **Please note the following**: 
 
-* Policies that are user-centered do not have specific workspaces they can be applied to, as they are applied tenant-wide.
-* For certain policies with task delegation enabled, when workspace owners don't resolve their tasks on time, you can select who the task will be reassigned to. If workspace owners do not complete the task, it will be reassigned to the reviewers you choose.
-* Policies that do not have task delegation available do not have active tasks to resolve, and no e-mails are sent.
+* **Policies that do not have task delegation available do not have active tasks to resolve, there are no reviewers, and no e-mails are sent.**
   * Syskit Point Administrators can monitor and complete actions for those policies on the [Security & Compliance Checks](../security-compliance-checks/overview.md) screen when a vulnerability is detected.
+* For certain policies with task delegation enabled, when workspace owners don't resolve their tasks on time, you can select who the task will be reassigned to. If workspace owners do not complete the task, it will be reassigned to the reviewers you choose.
+* Policies that are user-centered do not have specific workspaces they can be applied to, as they are applied tenant-wide.
 
 :::
 
@@ -29,9 +29,10 @@ Below you can find details on:
 | Blocked Users with Assigned Licenses | Tenant-Wide | Not available | N/A | N/A |
 | Inactive Guest Users | Tenant-Wide | Available | Manager of Guest User, Syskit Point Administrators, Custom Recipients | N/A |
 | Inactive Workspaces | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site | Available | Workspace Owners | N/A |
-| Minimum Number of Owners | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site | Available | Workspace Owners  | Manager of Guest User, Syskit Point Administrators, Custom Recipients |
-| Maximum Number of Owners | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site | Available | Workspace Owners | Manager of Guest User, Syskit Point Administrators, Custom Recipients |
-| Orphaned Workspaces | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site | Available | Specific Users, Members | New member approval can be given by: Syskit Point Administrators, Custom Recipients |
+| Minimum Number of Owners | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site | Available | Workspace Owners  | Manager of Reviewer, Syskit Point Administrators, Custom Recipients |
+| Maximum Number of Owners | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site | Available | Workspace Owners | Manager of Reviewer, Syskit Point Administrators, Custom Recipients |
+| Orphaned Workspaces | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site | Available | Workspace Members or Specific Users suggest new owners, Point Administrators or Custom recipients approve new owners | Not available |
+| Tenant Storage Limit | Tenant-Wide | Available | Syskit Point Administrators, Custom recipients |	Not available	|
 | Orphaned Users | Tenant-Wide | Not available | N/A | N/A |
 | Maximum Number of Members | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site | Not Available | N/A | N/A |
 | Workspaces with Shadow Users | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site | Not Available | N/A | N/A |
