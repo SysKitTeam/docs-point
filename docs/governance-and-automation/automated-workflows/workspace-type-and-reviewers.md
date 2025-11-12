@@ -26,18 +26,18 @@ Below you can find details on:
 
 | Policy Name | Workspace Type | Task Delegation | Reviewers | Reassign to|
 | ----- | ----- | ----- | ----- | ----- |
-| Blocked Users with Assigned Licenses | Tenant-Wide | Not available | N/A | N/A |
-| Inactive Guest Users | Tenant-Wide | Available | Manager of Guest User, Syskit Point Administrators, Custom Recipients | N/A |
-| Inactive Workspaces | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site | Available | Workspace Owners | N/A |
-| Minimum Number of Owners | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site | Available | Workspace Owners  | Manager of Reviewer, Syskit Point Administrators, Custom Recipients |
+| Blocked Users with Assigned Licenses | Tenant-Wide | Not available | Not applicable | Not applicable |
+| Inactive Guest Users | Tenant-Wide | Available | Manager of Guest User, Syskit Point Administrators, Custom Recipients | Not available |
+| Inactive Workspaces | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site | Available | Workspace Owners | Not available |
+| Minimum Number of Owners | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site | Available | Workspace Owners | Manager of Reviewer, Syskit Point Administrators, Custom Recipients |
 | Maximum Number of Owners | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site | Available | Workspace Owners | Manager of Reviewer, Syskit Point Administrators, Custom Recipients |
 | Orphaned Workspaces | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site | Available | Workspace Members or Specific Users suggest new owners, Point Administrators or Custom recipients approve new owners | Not available |
 | Tenant Storage Limit | Tenant-Wide | Available | Syskit Point Administrators, Custom recipients |	Not available	|
-| Orphaned Users | Tenant-Wide | Not available | N/A | N/A |
-| Maximum Number of Members | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site | Not Available | N/A | N/A |
-| Workspaces with Shadow Users | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site | Not Available | N/A | N/A |
-| Private Workspaces Shared with Everyone | Microsoft Teams, Microsoft 365 Group, SharePoint Site | Not Available | N/A | N/A |
-| Workspaces Without a Sensitivity Label | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site  | Not Available | N/A | N/A |
+| Orphaned Users | Tenant-Wide | Not available | Not applicable | Not applicable |
+| Maximum Number of Members | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site | Not Available | Not applicable | Not applicable |
+| Workspaces with Shadow Users | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site | Not Available | Not applicable | Not applicable |
+| Private Workspaces Shared with Everyone | Microsoft Teams, Microsoft 365 Group, SharePoint Site | Not Available | Not applicable | Not applicable |
+| Workspaces Without a Sensitivity Label | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site  | Not Available | Not applicable | Not applicable |
 
 
 
