@@ -4,13 +4,14 @@ description: This article explains which workspace types can have which policies
 
 # Policies: Workspace Types and Reviewers
 
-Before applying the policies you've created or enabled in Syskit Point, it's useful to know which workspace policies can be applied to and who can be selected as reviewers.
+Before applying the policies you've created or enabled in Syskit Point, it is useful to know which workspace the policies can be applied to, who can be selected as a reviewer, and who receives tasks and emails if the delegation option is enabled.
 
 Below you can find details on:
 
-* **Which types of workspaces** (Microsoft Teams, Microsoft 365 Groups, SharePoint Sites, etc.) are supported by each policy
-* **Which users can be defined as reviewers** to complete tasks when the delegation option is enabled
-* **Which policies can be delegated** 
+* **Types of workspaces** (Microsoft Teams, Microsoft 365 Groups, SharePoint Sites, etc.) supported by each policy
+* **Delegation option availability** for policies 
+* **Which users you can define as reviewers** who complete tasks when the delegation option is enabled
+* **Who are the users considered as workspace owners** for each workspace type
 
 
 :::warning
@@ -39,9 +40,9 @@ Below you can find details on:
 | Private Workspaces Shared with Everyone | Microsoft Teams, Microsoft 365 Group, SharePoint Site | Not Available | Not applicable | Not applicable |
 | Workspaces Without a Sensitivity Label | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site  | Not Available | Not applicable | Not applicable |
 
-
-
-
-
-
-
+| Workspace Type | Workspace Owners |
+| ---| --- |
+| Microsoft Teams | Owners of the connected Microsoft 365 Group |
+| Microsoft 365 Group | Owners of the connected Microsoft 365 Group | 
+| Viva Engage Community | Owners of the connected Microsoft 365 Group |
+| SharePoint Site | Users in the Owners SharePoint group - the Owners SharePoint group is created by default with the site creation and has the following naming pattern: `<SharePointSiteName> Owners`; for example, SharePoint Site named `Sales` has the `Sales Owners` SharePoint group |
