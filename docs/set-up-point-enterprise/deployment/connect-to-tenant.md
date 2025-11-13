@@ -21,7 +21,7 @@ When **connecting to a Microsoft 365 tenant for the first time, you are required
 
 Open the **Syskit Point Web App URL** in a browser to start the initial connection process. The **Register Syskit Point** page opens, guiding you through the initial connecting process:
 
-* click the **Open Azure Active Directory button (1)** to open the **App registrations** screen in Azure Active Directory admin center and create the **Syskit Point Installer** app registration
+* click the **Open Microsoft Entra ID button (1)** to open the **App registrations** screen in Microsoft Entra ID portal and create the **Syskit Point Installer** app registration
 * copy the provided **URL (2)** needed when creating the **Syskit Point Installer** app registration
 * input the **Application (client) ID** and **Directory (tenant) ID (3)** available once you create the **Syskit Point Installer** app registration
 * click the **Register button (4)** after you enter the required data
@@ -32,7 +32,7 @@ To obtain the **Application (client) ID** and **Directory (tenant) ID**, create 
 
 ## Create App Registration
 
-Open the **App registrations** screen in Azure Active Directory admin center by clicking the **Open Azure Active Directory button** available on the **Register Syskit Point** screen described in the previous section.
+Open the **App registrations** screen in Microsoft Entra ID portal by clicking the **Open Microsoft Entra ID button** available on the **Register Syskit Point** screen described in the previous section.
 
 To create the required app registration used by Syskit Point, do the following:
 
