@@ -10,12 +10,14 @@ This article explains **how a user's activity is determined based on the user ty
 
 ## Determining a User's Activity
 
-Syskit Point determines a user's last activity based on **sign-in data from Microsoft 365 and Entra ID, depending on the user type**.
+Syskit Point determines a user's last activity based on **sign-in data from Microsoft 365 and Entra ID, depending on the user type**. Users are considered as inactive if they have been inactive in the last 30 days. 
+
 
 :::info
 **Please note!** For Syskit Point to track Inactive Users in your environment, please ensure you meet all of **the requirements** as [explained in this Microsoft article.](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-manage-inactive-user-accounts?tabs=admin-center)
 
 :::
+
 
 ### Internal (Organization) Users
 
