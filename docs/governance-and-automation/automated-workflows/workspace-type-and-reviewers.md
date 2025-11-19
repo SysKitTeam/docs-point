@@ -1,5 +1,5 @@
 ---
-description: This article explains which workspace types can have which policies applied and who can be selected as a reviewer.
+description: This article provides an overview of policies available in Syskit Point with details on which workspace types can have which policies applied and who can be selected as a reviewer.
 ---
 
 # Policies: Workspace Types and Reviewers
@@ -39,6 +39,11 @@ Below you can find details on:
 | Workspaces with Shadow Users | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site | Not Available | Not applicable | Not applicable |
 | Private Workspaces Shared with Everyone | Microsoft Teams, Microsoft 365 Group, SharePoint Site | Not Available | Not applicable | Not applicable |
 | Workspaces Without a Sensitivity Label | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site  | Not Available | Not applicable | Not applicable |
+| Workspace Review | Microsoft Teams, Microsoft 365 Group, OneDrive, SharePoint Site  | Available | As defined when creating the policy | Not applicable |
+| Access Review | Microsoft Teams, Microsoft 365 Group, OneDrive, SharePoint Site  | Available | As defined when creating the policy | Not applicable |
+| Access Requests | Microsoft Teams, Microsoft 365 Group, SharePoint Site, Distribution Lists, Security Groups  | Not applicable | Manager of Requester, Workspace Owner, Syskit Point Administrators, Custom Recipients | Not applicable |
+
+
 
 | Workspace Type | Workspace Owners |
 | ---| --- |
