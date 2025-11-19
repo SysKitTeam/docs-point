@@ -29,7 +29,7 @@ Below you can find details on:
 | ----- | ----- | ----- | ----- | ----- |
 | Blocked Users with Assigned Licenses | Tenant-Wide | Not available | Not applicable | Not applicable |
 | Inactive Guest Users | Tenant-Wide | Available | Manager of Guest User, Syskit Point Administrators, Custom Recipients | Not available |
-| Inactive Workspaces | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site | Available | Workspace Owners | Not available |
+| Inactive Workspaces | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site | Available | Workspace Owners or Site Admins (for nongroup connected sites) | Not available |
 | Minimum Number of Owners | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site | Available | Workspace Owners | Manager of Reviewer, Syskit Point Administrators, Custom Recipients |
 | Maximum Number of Owners | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site | Available | Workspace Owners | Manager of Reviewer, Syskit Point Administrators, Custom Recipients |
 | Orphaned Workspaces | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site | Available | Workspace Members or Specific Users suggest new owners, Point Administrators or Custom recipients approve new owners | Not available |
