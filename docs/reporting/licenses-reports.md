@@ -34,6 +34,13 @@ It also **shows the overall cost of all the current licenses** you've purchased 
 
 This report can be **used to help calculate future license costs**. 
 
+:::info
+
+**Please note!**  
+A banner appears at the top of this report if any licenses are missing required pricing information (price or default price), with a direct link to the Settings screen where you can complete the missing pricing details. 
+
+:::
+
 ### Generate the Licenses Overview Report
 
  * **Click the Reports button**; located on the left side of the screen.
@@ -98,6 +105,12 @@ Use this report to see how licenses are distributed within the organization's de
 
 This report can also be **used to help calculate possible savings that can achieve by removing inactive licenses**. 
 
+:::info
+
+**Please note!**  
+A banner appears at the top of this report if any licenses are missing required pricing information (price or default price), with a direct link to the Settings screen where you can complete the missing pricing details. 
+
+:::
 
 ### Generate License Distribution Report
 
@@ -132,6 +145,13 @@ The License Distribution report can be **exported as PDF and XLSX files**. There
 The **Inactive Licenses** report helps with **finding and reclaiming licenses assigned to inactive or blocked users** to optimize your Microsoft 365 license cost.
 
 Use this report to **easily remove the assigned licenses from inactive users**. The license can then be **assigned to other users or removed to reduce costs**.
+
+:::info
+
+**Please note!**  
+A banner appears at the top of this report if any licenses are missing required pricing information (price or default price), with a direct link to the Settings screen where you can complete the missing pricing details. 
+
+:::
 
 ### Generate Inactive Licenses report
 
