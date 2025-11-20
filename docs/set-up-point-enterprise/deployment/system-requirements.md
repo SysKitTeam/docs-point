@@ -41,6 +41,9 @@ The following Azure components are used:
 * **Storage account**
 * **Key vault**
 
+The Azure App Service has a setting called **WEBSITE_RUN_FROM_PACKAGE**. 
+* To **allow PDF downloads to work, set WEBSITE_RUN_FROM_PACKAGE to 0**. 
+* If this setting is 1, the app's file system is read-only, and the files needed for the PDF cannot be extracted, resulting in a failed PDF download. 
 
 :::warning
 **Please note!**  
