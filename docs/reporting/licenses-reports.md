@@ -37,7 +37,7 @@ This report can be **used to help calculate future license costs**.
 :::info
 
 **Please note!**  
-A banner appears at the top of this report if any licenses are missing required pricing information (price or default price), with a direct link to the Settings screen where you can complete the missing pricing details. 
+A banner appears at the top of this report if any licenses are missing required pricing information (price or default price), with a direct link to the Settings screen where you can provide the missing pricing details. 
 
 :::
 
@@ -108,7 +108,7 @@ This report can also be **used to help calculate possible savings that can achie
 :::info
 
 **Please note!**  
-A banner appears at the top of this report if any licenses are missing required pricing information (price or default price), with a direct link to the Settings screen where you can complete the missing pricing details. 
+A banner appears at the top of this report if any licenses are missing required pricing information (price or default price), with a direct link to the Settings screen where you can provide the missing pricing details. 
 
 :::
 
@@ -149,7 +149,7 @@ Use this report to **easily remove the assigned licenses from inactive users**. 
 :::info
 
 **Please note!**  
-A banner appears at the top of this report if any licenses are missing required pricing information (price or default price), with a direct link to the Settings screen where you can complete the missing pricing details. 
+A banner appears at the top of this report if any licenses are missing required pricing information (price or default price), with a direct link to the Settings screen where you can provide the missing pricing details. 
 
 :::
 
