@@ -57,4 +57,4 @@ To configure inactivity for Governance policies:
 
 [For detailed instructions on how to modify the inactive guest users policy, take a look at the Inactive Guest Users policy article.](../governance-and-automation/automated-workflows/inactive-guest-users-admin.md)
 
-**Users are considered as inactive** if no activity was recorded for the user **in the last 30 days**. Currently, the 30-day time frame is fixed and cannot be altered. This information can be found on the Users Overview screen by clicking on the Inactive Users top tile.
+**Users are considered inactive** if no activity was recorded for the user **in the last 30 days**. Currently, the 30-day time frame is fixed and cannot be altered. This information can be found on the Users Overview screen by clicking the Inactive Users top tile.
