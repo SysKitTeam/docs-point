@@ -51,10 +51,10 @@ To configure inactivity for license reports:
 
 [For detailed instructions on how to customize your license reports, take a look at the Customize License Reports article.](../configuration/customize-license-reports.md)
 
-**Users are considered as inactive** if there has been no recorded activity for the user **in the last 30 days**. Currently, the 30-day time frame is fixed and cannot be altered.  
-
 To configure inactivity for Governance policies: 
 * Go to **Settings > Governance > Policies > Inactive Guest Users policy**
 * When editing the **Inactive Guest Users policy**, you can define the **number of days after which a user is considered inactive**
 
 [For detailed instructions on how to modify the inactive guest users policy, take a look at the Inactive Guest Users policy article.](../governance-and-automation/automated-workflows/inactive-guest-users-admin.md)
+
+**Users are considered as inactive** on the Users overview screen, if no activity was recorded for the user **in the last 30 days**. Currently, the 30-day time frame is fixed and cannot be altered.  
