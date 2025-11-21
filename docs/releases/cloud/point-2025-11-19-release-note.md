@@ -14,11 +14,12 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes 
 
-* **Fixed an issue** that caused a 403 error when workspace owners who were not Site Admins tried to complete their assigned Inactive Workspace tasks. 
-  * Workspace Owners can now successfully complete all inactive workspace task actions: Keep, Delete, and Archive.
+* **Fixed an issue** that caused a 403 error when workspace owners tried to complete their assigned Inactive Workspace tasks. 
+  * The issue affected Microsoft Teams and Microsoft 365 Group owners who were not Site Admins of the connected SharePoint site. 
+  * Workspace Owners can now complete all inactive workspace task actions: Keep, Delete, and Archive.
 
 * **Added a banner** to the Inactive Licenses, License Overview, and License Distribution reports.
-  * The banner appears whenever licenses are missing information like the price or default price.
-  * The banner includes a link that directs users to the Settings screen where pricing information can be included. 
+  * The banner appears whenever licenses are missing information, like the price or default price.
+  * The banner includes a link that directs users to the Settings screen, where pricing information can be included. 
 
 * **Various improvements, including UX and UI fixes, are available.**

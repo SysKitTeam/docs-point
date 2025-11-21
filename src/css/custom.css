@@ -742,6 +742,14 @@ pre[class*="language-"] {
   color: var(--ifm-color-emphasis-800);
 }
 
+/* Fix bolded text in dark mode tables */
+[data-theme='dark'] .markdown table td strong,
+[data-theme='dark'] .markdown table td b,
+[data-theme='dark'] .markdown table th strong,
+[data-theme='dark'] .markdown table th b {
+  color: var(--ifm-color-emphasis-900);
+}
+
 [data-theme='dark'] .markdown table tbody tr {
   background-color: var(--ifm-background-color);
 }
