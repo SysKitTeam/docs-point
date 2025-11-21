@@ -10,10 +10,15 @@ The **Syskit Point** Dashboard shows Syskit Point administrators the following i
  * Storage
  * Security & Compliance
  * External Collaboration
- * Active Access Review
- * Lifecycle Management
+ * Access Review
+ * Inactive Workspaces
+ * AI agents
+ * Workspace Review 
  * Microsoft 365 Licenses
  * Copilot Readiness
+ * License Optimization
+ * Power Platform
+ * Workspace Sensitivity
 
 The **Syskit Point** Dashboard shows Syskit Point collaborators the following information in the tiles:
  * Inventory

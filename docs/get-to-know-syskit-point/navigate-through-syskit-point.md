@@ -36,7 +36,6 @@ You can see 8 major sections:
 * **Security & Compliance** - shows the vulnerabilities in your environment through security and compliance checks; clicking View All opens the Security & Compliance checks dashboard
 * **External Collaboration** - shows a list and number for all external collaboration in your environment
 * **Active Access Review** - shows the progress of your active Access Review tasks; clicking View All opens the Govern Overview screen on the Scheduled Review section of the Access Review
-* **Lifecycle Management** - shows the progress of your Lifecycle Management tasks; clicking View All opens the Govern Overview screen on the Overview section of Lifecycle Management
 * **Microsoft 365 Licenses** - shows an overview of your Microsoft 365 Licenses; clicking View All opens the Licenses Overview report
 
 On the left side of the screen, you will find buttons to access the following features:

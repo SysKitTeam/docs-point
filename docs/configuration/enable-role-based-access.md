@@ -10,9 +10,7 @@ By using the built-in **role-based security** of Syskit Point, you can easily ma
 
 * Level of access **depends on the roles assigned**.
 
-This allows **site owners to perform Access Reviews on their site and complete Lifecycle Management tasks** to determine which workspaces should be archived or kept. 
-
-Read on to learn more about the specifics of each role and how to assign them to your users. 
+This allows **site owners to perform Access Reviews on their site**. Read on to learn more about the specifics of each role and how to assign them to your users. 
 
 
 ## Setting up Role-Based Access

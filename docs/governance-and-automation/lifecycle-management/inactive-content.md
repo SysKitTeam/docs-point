@@ -4,11 +4,6 @@ description: This section describes how to find inactive workspaces within Syski
 
 # Identify Inactive Workspaces
 
-
-:::warning
-**Lifecycle Management Automation** will be deprecated and replaced by the [Inactive Workspaces policy](../automated-workflows/inactive-workspaces-admin.md). After approximately two months, the feature will be fully removed from Syskit Point.
-:::
-
 Have you ever wondered how to discover all inactive workspaces in your Microsoft 365 environment?  
 It is important to have this kind of information because you want a well-organized and clutter-free Microsoft 365 environment.  
 Now, you can find it all in one place with the help of **Syskit Point**.

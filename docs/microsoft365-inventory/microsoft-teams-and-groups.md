@@ -103,7 +103,7 @@ The Go to Report section provides a list of related reports that are available:
   * File and Page Activities
   * Permissions Changes
 
-Under Lifecycle Management, the following actions are available:
+For Inactive Workspaces, the following actions are available:
   * Keep
   * Archive
   * Delete

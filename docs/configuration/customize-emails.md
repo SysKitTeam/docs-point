@@ -8,9 +8,9 @@ description: This article explains how to customize e-mails within Syskit Point.
 **Customized E-mails** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 :::
 
-Syskit Point **provides the option to customize e-mails** that are **sent to site owners** as a part of **Access Review and Lifecycle Management Automation**.  
+Syskit Point **provides the option to customize e-mails** that are **sent to site owners** as a part of **Access Review Automation**.  
 
-E-mails are used for **Access Review and Lifecycle Management** tasks and any policies created under **Policies**. They are also used for receiving reports that are available in the **Reports** section of Syskit Point. 
+E-mails are used for **Access Review** tasks and any policies created under **Policies**. They are also used for receiving reports that are available in the **Reports** section of Syskit Point. 
 
 The following aspects of the e-mails can be customized:
 
@@ -23,7 +23,6 @@ These changes can be performed in three locations within Syskit Point Settings:
 
 * **General Settings &gt; E-mail section** 
 * **Governance Settings &gt; Access Review** 
-* **Governance Settings &gt; Lifecycle Management**
 
 :::warning
 **Please note!**  
@@ -98,29 +97,3 @@ You can immediately see the e-mail changes by clicking the before-mentioned **Pr
 The Preview dialog opens, as shown in the image below.
 
 ![Access Review - E-mail Preview](../../static/img/customize-emails-access-review-preview.png)
-
-## Lifecycle Management Settings
-
-Similar to the Access Review e-mail customization, there is an option to customize Lifecycle Management e-mails.
-
-To customize the Lifecycle Management e-mail, **navigate to Settings** > **Governance** > **Lifecycle Management \(1\)**.
-
-Here you can:
-* **Customize the Lifecycle Management e-mail \(2\)** by clicking Customize e-mail button 
-* **Preview the Lifecycle Management e-mail \(3\)**
-
-![Settings - Lifecycle Management Options](../../static/img/customize-emails-lifecycle-management-settings.png)
-
-Similar to the Access Review e-mail, you can edit the following sections after clicking the Customize e-mail button:
-
-* **Subject \(1\)** -  only applies to the Lifecycle Management e-mail sent to the owners and administrators
-* **Define the banner image \(2\)** - only applies to the Lifecycle Management e-mail sent to the owners or administrators; initially, no banner image is set up
-* **Define custom message \(3\)** - only applies to the Lifecycle Management e-mail sent to the owners or administrators
-
-When done with editing, click the **Confirm button \(4\)** to save your changes.
-
-![Customize Lifecycle Management E-mail](../../static/img/customize-emails-lifecycle-management-dialog.png)
-
-You can access the e-mail preview by clicking the **Preview e-mail button**.
-
-![Lifecycle Management - E-mail Preview](../../static/img/customize-emails-lifecycle-management-preview.png)

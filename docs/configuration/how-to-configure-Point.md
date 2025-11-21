@@ -18,9 +18,9 @@ To help you stay up to date with the workings of your Microsoft 365 environment,
 **For detailed instructions on configuring your e-mail settings within Syskit Point, please follow the steps listed in the [Set Up E-mail article](../configuration/set-up-email.md).**
 :::
 
-Once the e-mail has been set up, you can also customize the e-mails that are **sent to site owners** as a part of the **Access Review and Lifecycle Management Automation**.  
+Once the e-mail has been set up, you can also customize the e-mails that are **sent to site owners** as a part of the **Access Review Automation**.  
 
-E-mails are used for **Access Review and Lifecycle Management** tasks, any policies applied under **Policies or Rules**, and for receiving reports available in the **Reports** section of Syskit Point. 
+E-mails are used for **Access Review** tasks, any policies applied under **Policies or Rules**, and for receiving reports available in the **Reports** section of Syskit Point. 
 
 :::warning
 **Learn more on which aspects of the e-mails can be customized along with a step-by-step guide on how to customize them in the [Customize E-mails article](../configuration/customize-emails.md).**
@@ -35,7 +35,7 @@ Assigning these roles to users provides the users with different levels of acces
  * Perform actions based on the permissions granted to them in Microsoft 365 
  * Have access to all data related to sites, Microsoft 365 Groups, and Microsoft Teams
 
-These roles also allow **site owners to perform Access Reviews on their site and complete Lifecycle Management tasks** to determine which workspaces should be archived or kept. 
+These roles also allow **site owners to perform Access Reviews on their site**. 
 
 :::warning
 **To learn more about the specifics of each role and how to assign them to your users, take a look at the [Enable Role-Based Access article](../configuration/enable-role-based-access.md).**
@@ -103,4 +103,3 @@ When the initial set-up is finalized, the users from your Microsoft 365 environm
 
 Depending on the level of access permitted to a user, there are certain actions that can be completed:
   * **[Complete Access Review Tasks in Syskit Point](../point-collaborators/resolve-governance-tasks/access-review.mdx)**
-  * **[Resolve Lifecycle Management Tasks in Syskit Point](../point-collaborators/resolve-governance-tasks/lifecycle-management.mdx)** 
