@@ -112,7 +112,9 @@ After clicking the **View Details button**, the Workspace Review details screen 
   * **Performed on (16)** - shows the date when the review was performed
   * **Number of Actions (17)** - the number of actions taken on the workspace as part of the workspace review
   * **Remind Owners action (18)** - in the top right corner, clicking this sends an email reminder to reviewers for the workspaces where the Workspace Review was not yet completed
-  * **Review Now action (19)** - lets you complete the review on that workspace by yourself 
+  * **Show Reviewers per Workspace (19)** - this changes how you view the Workspaces Included report; clicking this shows a list of all workspaces included in the workspace review and the reviewers for that workspace
+  * **Review Now action (20)** - lets you complete the review on that workspace by yourself 
+  * **View Details (21)** - if the workspace was already reviewed, clicking this will redirect you to the Actions Performed screen
 
 ![Governance - Workspace Review - Overview - View Details](../../../static/img/monitor-workspace-review-governance-overview-view-details.png)
 
