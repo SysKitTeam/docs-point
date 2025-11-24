@@ -16,7 +16,7 @@ The **Workspace Review task is usually performed by a workspace owner**; however
 Two different roles can view and complete the Workspace Review in Syskit Point:
 
 * **Workspace Owners with the Syskit Point Collaborator** role assigned in Syskit Point who were set as reviewers in the policy settings, as described in this article
-* [Syskit Point Admin users](../../governance-and-automation/workspace-review/monitor-workspace-review.md)
+* [Syskit Point Admin users](../../governance-and-automation/workspace-review/monitor-workspace-review/README.md)
 
 When working with Workspace Review, Syskit Point Collaborators can **perform the Workspace Review on workspaces where they are an owner or admin**.
 
