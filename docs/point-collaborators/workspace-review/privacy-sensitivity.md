@@ -2,7 +2,7 @@
 description: This article provides an overview of the Workspace Review Wizard Privacy and Sensitivity step from a workspace owner perspective.
 ---
 
-# Workspace Review Sensitivity and Privacy
+# Workspace Review Privacy and Sensitivity
 
 If Sensitivity and Privacy reviews were set up as a part of the Workspace Review, they will be a part of the Overview step. 
 

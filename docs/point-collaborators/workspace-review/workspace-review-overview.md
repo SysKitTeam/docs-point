@@ -80,7 +80,7 @@ In the About this Workspace section, you can see the following:
 The **Workspace Review Wizard** has a total of five steps: 
 
 * **Overview**, which includes the **[Privacy and Sensitivity](privacy-sensitivity.md) review** if they were enabled in settings
-* [Membership](membership-step.md)(for Microsoft 365 Groups and Microsoft Teams), or **Users** (for sites)
+* [Membership](membership-step.md) (for Microsoft 365 Groups and Microsoft Teams), or **Users** (for sites)
   * This step is not available for OneDrive
 * [Shadow Users](shadow-users-step.md)
 * [Sharing](sharing-step.md)
