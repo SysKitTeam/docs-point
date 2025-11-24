@@ -10,14 +10,14 @@ description: This section describes how to customize the Audit Logs collection u
 
 Audit logs can provide you with **insights into all activities** related to the user and administration activities in your Microsoft 365 environment. The Audit Logs contain information on activities within your organization related to **groups, documents, permissions, directory services, and much more**. 
 
-Users that are assigned **Syskit Point Admin role** can configure activities that are going to be collected in these locations:
+Users who are assigned the **Syskit Point Admin role** can configure activities that are going to be collected in these locations:
 
 * **Syskit Point Registration > Tenant settings**
 * **Audit Logs section in Settings**
 
 ## Syskit Point Registration > Tenant settings
 
-After registering **Syskit Point**, on the **Connect tenant** step, you have the following audit options on disposal:
+After registering **Syskit Point**, on the **Connect tenant** step, you have the following audit options at your disposal:
 
 * **Store audit logs \(1\)**
 * **Protect user privacy \(2\)**
@@ -43,9 +43,9 @@ You can change the Audit Logs settings after the initial connection by managing 
 Turning this option on results in the following:
 
 * **User activity data**, such as file and permissions changes, **will be hidden and protected from Administrator supervision** 
-  * **User Activity report will be hidden from Syskit Point user interface**
+  * **User Activity report will be hidden from the Syskit Point user interface**
   * **Access to the File and Page Activities report will be hidden**
-  * **Summary data in the Analytics & Usage tile will remain visible but cannot be drilled to access data for a specific user**
+  * **Summary data in the Analytics & Usage tile will remain visible, but cannot be drilled to access data for a specific user**
 * **User activity** data will, however, be collected and stored
 
 :::warning
@@ -97,19 +97,23 @@ Available audit log categories:
 
 * **Application administration activities**
 * **Azure AD group administration activities**
+* **Copilot activities**
 * **Data governance**
 * **Directory administration activities**
 * **Exchange admin activities**
 * **Exchange mailbox activities**
 * **File and page activities**
 * **Folder activities**
+* **Information barriers activities**
 * **Microsoft Forms**
 * **Microsoft Power Automate**
 * **Microsoft Stream**
 * **Microsoft Teams activities**
+* **Other SharePoint activities**
 * **Power Apps activities**
 * **Power BI activities**
 * **Role administration activities**
+* **Sensitivity label activities**
 * **SharePoint list events**
 * **Sharing and access request activities**
 * **Site administration activities**
@@ -117,6 +121,7 @@ Available audit log categories:
 * **Synchronization activities**
 * **User activities**
 * **User administration activities**
+* **Viva Engage activities**
 
 ## Data Retention
 
@@ -178,14 +183,14 @@ To view collected Exchange logs, use the **Exchange Logs report** available in t
 
 ### Type of Audit Logs Collected
 
-Syskit Point collects audit logs accessible in the unified audit log. Out of the box, you can review the audit logs from the [Microsoft 365 compliance center](https://compliance.microsoft.com/auditlogsearch).
+Syskit Point collects audit logs, which are accessible in the unified audit log. Out of the box, you can review the audit logs from the [Microsoft Purview admin center](https://purview.microsoft.com/audit/auditsearch).
 You can additionally [customize for which activities Syskit Point will collect audit logs](../configuration/customize-audit-logs-collection.md).
 
 ### Sign-in Logs from Microsoft Entra ID 
 
-Microsoft Entra ID shows all sing-ins performed by users, service principals, apps, and Azure resources.
+Microsoft Entra ID shows all sign-ins performed by users, service principals, apps, and Azure resources.
 **Syskit Point does not collect Microsoft Entra ID sign-in logs.** 
-Syskit Point collects unified audit logs, which contain a subset of said logs related to Microsoft 365 and are visible in the [Microsoft 365 compliance center](https://compliance.microsoft.com/auditlogsearch).
+Syskit Point collects unified audit logs, which contain a subset of said logs related to Microsoft 365 and are visible in the [Microsoft Purview admin center](https://purview.microsoft.com/audit/auditsearch).
 
 ### Frequency of Audit Log Collection
 
@@ -194,4 +199,4 @@ Note that it can take up to 24 hours after an event occurs for the corresponding
 
 ### Unified Audit Logs
 
-You can find additional information about unified audit logs in the [following Microsoft's article](https://docs.microsoft.com/en-us/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide).
+You can find additional information about unified audit logs in the [following Microsoft article](https://learn.microsoft.com/en-us/purview/audit-search?view=o365-worldwide).

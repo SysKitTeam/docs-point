@@ -7,7 +7,7 @@ description: This article explains how to upgrade to Rules and remove currently 
 
 Syskit Point's feature, Rules, provides an easy way to automatically apply policies to all existing and newly created workspaces in order to ensure security and compliance.
 
-You can read more about this feature and how to create rules for auto-applying policies in the [Rules article](../../../static/img/policy-automation-settings.png).
+You can read more about this feature and how to create rules for auto-applying policies in the [Rules article](policy-automation.md).
 
 One aspect of this feature is that it does not automatically apply policies when a policy has already been manually applied to a workspace. 
 
