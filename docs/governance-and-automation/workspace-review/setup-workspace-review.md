@@ -119,6 +119,12 @@ Selecting the Memberships template gives you the following options:
     
 * Click **Finish (25)** once you are done with the policy configuration 
 
+:::warning
+
+**Please note:** To ensure Site Owners and Admins can access Syskit Point and complete their assigned Workspace Review tasks, make sure the **Add users with Full Control** option is selected for the [Syskit Point Collaborators role](../../configuration/enable-role-based-access.md#syskit-point-collaborators). 
+
+:::
+
 ![Workspace Review - Create Policy - Step 7](../../../static/img/setup-workspace-review-create-policy-step6.png)
 
 
