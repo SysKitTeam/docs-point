@@ -30,7 +30,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
   * **Read the articles listed below to learn more about the new Workspace Review**:
     * **Syskit Point Admins**:
       * [Enable and configure the automated Workspace Review in Syskit Point](../../../governance-and-automation/workspace-review/setup-workspace-review.md)
-      * [Monitor Workspace Reviews in Syskit Point](../../../governance-and-automation/workspace-review/monitor-workspace-review.md)
+      * [Monitor Workspace Reviews in Syskit Point](../../../governance-and-automation/workspace-review/monitor-workspace-review/README.md)
     * **Syskit Point Collaborators/Reviewers**
       * [Learn how to resolve Workspace Review tasks in Syskit Point](../../../point-collaborators/workspace-review/workspace-review-overview.md)
 
