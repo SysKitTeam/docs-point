@@ -19,12 +19,11 @@ description: This article lists improvements and bug fixes in the Syskit Point C
   * Access the new report view by enabling the Show Reviewers per Workspace toggle icon in the report toolbar for a detailed breakdown of reviewers assigned to each workspace. 
   * The report lists all reviewers for each workspace, including the designated manager and that manager’s email address.
 
-* **Fixed an issue** on the Shared Channel Details screen that caused the wrong Microsoft Team to be opened when drilling down to the teams level. 
+* **Fixed an issue** on the Shared Channel Details screen that caused the wrong Microsoft Team to be opened when navigating to the teams level. 
 
 * **Fixed an issue** that prevented archiving Sites that contain subsites, with the following unauthorized access error: `An exception occurred while trying to archive [workspace name]. System.UnauthorizedAccessException: Attempted to perform an unauthorized operation.`
 
 * **Added an option** for creating modern SharePoint Sites through **Provisioning templates**.
-  * You can now provision a SharePoint Site without creating a Microsoft 365 Group or Team.
 
 * **Fixed an issue** where the site URL was missing from the Orphaned Workspaces report when exported as an XLSX file.
   * The site URL is now included in Excel exports for the report, and the URL column is available in the column chooser. 
