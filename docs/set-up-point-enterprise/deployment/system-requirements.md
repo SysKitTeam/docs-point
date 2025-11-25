@@ -16,6 +16,17 @@ Requirements listed in this article apply to the self-hosted Syskit Point option
 * **Azure Subscription**
 * **Microsoft Entra ID** 
 
+:::warning
+**Please note!**  
+
+To successfully deploy Syskit Point, you need:
+
+* A **user that is an owner of the resource group** you'll be using for Syskit Point
+    * Or a **user who can create a new Azure resource group**
+* A **user with Global Admin access**
+
+:::
+
 ## Azure Resources Requirements
 
 Syskit Point uses Azure cloud components managed by Microsoft. [You can view the architecture diagram of these components by following this link](https://www.syskit.com/products/point/resources/architecture-diagrams/).
@@ -30,6 +41,10 @@ The following Azure components are used:
 * **Storage account**
 * **Key vault**
 
+The Azure App Service has a setting called **WEBSITE_RUN_FROM_PACKAGE**. 
+* To **allow exporting reports as PDF files, set WEBSITE_RUN_FROM_PACKAGE to 0** for both Host, and Background app services.
+* If this setting is 1, the app's file system is read-only, and the files needed for the PDF cannot be extracted, resulting in a failed PDF download. 
+* [For more details, take a look at this Microsoft article.](https://learn.microsoft.com/en-us/azure/app-service/deploy-run-package) 
 
 :::warning
 **Please note!**  

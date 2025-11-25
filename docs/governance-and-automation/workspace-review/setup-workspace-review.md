@@ -50,6 +50,7 @@ Selecting the Memberships template gives you the following options:
 * **Choose what to review (2)**:
   * **Internal and External Access** - reviewers will be asked to check both internal and external access
   * **External Access Only** - reviewers will be asked to check external access
+    * **Please note** that Membership step recommendations for Minimum and Maximum number of Owners policies are not available if you select this option
 
 ![Workspace Review - Create Policy - Step 1](../../../static/img/setup-workspace-review-create-policy-step1.png)
 
@@ -118,6 +119,12 @@ Selecting the Memberships template gives you the following options:
     
 * Click **Finish (25)** once you are done with the policy configuration 
 
+:::warning
+
+**Please note:** To ensure Site Owners and Admins can access Syskit Point and complete their assigned Workspace Review tasks, make sure the **Add users with Full Control** option is selected for the [Syskit Point Collaborators role](../../configuration/enable-role-based-access.md#syskit-point-collaborators). 
+
+:::
+
 ![Workspace Review - Create Policy - Step 7](../../../static/img/setup-workspace-review-create-policy-step6.png)
 
 
@@ -125,6 +132,6 @@ Selecting the Memberships template gives you the following options:
 
 The Workspace Review policy needs to be applied to a workspace either automatically with Rules or manually. [For details on how to apply the policy to your workspaces, take a look at this article.](../automated-workflows/manage-policies.md#apply-policies-1)
 
-Once you are finished with the policy configuration, read the [Monitor Workspace Review](monitor-workspace-review.md) article for more details on how to monitor the progress of your workspace reviews.
+Once you are finished with the policy configuration, read the [Monitor Workspace Review](monitor-workspace-review/README.md) article for more details on how to monitor the progress of your workspace reviews.
 
 For information on Syskit Point Collaborators completing Workspace Review tasks, take a look at the [Complete Workspace Review article](../../point-collaborators/workspace-review/workspace-review-overview.md).

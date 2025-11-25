@@ -26,6 +26,10 @@ const sidebars: SidebarsConfig = {
             id: 'releases/cloud/README',
           },
           items: [
+            'releases/cloud/point-2025-11-25-release-note',
+            'releases/cloud/point-2025-11-19-release-note',
+            'releases/cloud/point-2025-11-11-release-note',
+            'releases/cloud/point-2025-11-04-release-note',
             'releases/cloud/point-2025-10-28-release-note',
             'releases/cloud/point-2025-10-21-release-note',
             'releases/cloud/point-2025-10-14-release-note',
@@ -133,6 +137,8 @@ const sidebars: SidebarsConfig = {
                 id: 'releases/enterprise/syskit-point-2025-5/README',
               },
               items: [
+                'releases/enterprise/syskit-point-2025-5/point-2025-5-117-release-note',
+                'releases/enterprise/syskit-point-2025-5/point-2025-5-115-release-note',
                 'releases/enterprise/syskit-point-2025-5/point-2025-5-113-release-note',
               ],
             },
@@ -551,7 +557,20 @@ const sidebars: SidebarsConfig = {
           },
           items: [
             'governance-and-automation/workspace-review/setup-workspace-review',
-            'governance-and-automation/workspace-review/monitor-workspace-review',
+            {
+              type: 'category',
+              label: 'Monitor Workspace Review',
+              link: {
+                type: 'doc',
+                id: 'governance-and-automation/workspace-review/monitor-workspace-review/README',
+              },
+              items: [
+                'governance-and-automation/workspace-review/monitor-workspace-review/workspace-review-governance',
+                'governance-and-automation/workspace-review/monitor-workspace-review/workspace-review-overview',
+                'governance-and-automation/workspace-review/monitor-workspace-review/workspace-review-insights',
+                'governance-and-automation/workspace-review/monitor-workspace-review/workspace-review-summary',
+              ],
+           },
           ],
         },
         {
@@ -594,6 +613,8 @@ const sidebars: SidebarsConfig = {
           items: [
             'governance-and-automation/automated-workflows/set-up-policies',
             'governance-and-automation/automated-workflows/policy-automation',
+            'governance-and-automation/automated-workflows/manage-policies',  
+            'governance-and-automation/automated-workflows/workspace-type-and-reviewers',  
             'governance-and-automation/automated-workflows/blocked-users-with-licenses-admin',
             'governance-and-automation/automated-workflows/inactive-guest-users-admin',
             'governance-and-automation/automated-workflows/inactive-workspaces-admin',
@@ -605,8 +626,7 @@ const sidebars: SidebarsConfig = {
             'governance-and-automation/automated-workflows/workspaces-with-too-many-members-admin',
             'governance-and-automation/automated-workflows/shadow-users-admin',
             'governance-and-automation/automated-workflows/private-workspaces-shared-with-everyone-admin',
-            'governance-and-automation/automated-workflows/workspaces-no-sensitivity-admin',
-            'governance-and-automation/automated-workflows/manage-policies',            
+            'governance-and-automation/automated-workflows/workspaces-no-sensitivity-admin',          
             'governance-and-automation/automated-workflows/upgrade-to-policy-automation', 
           ],
         },
@@ -842,6 +862,7 @@ const sidebars: SidebarsConfig = {
           },
           items: [
             'point-collaborators/workspace-review/workspace-review-overview',
+            'point-collaborators/workspace-review/privacy-sensitivity',
             'point-collaborators/workspace-review/membership-step',
             'point-collaborators/workspace-review/shadow-users-step',
             'point-collaborators/workspace-review/sharing-step',
