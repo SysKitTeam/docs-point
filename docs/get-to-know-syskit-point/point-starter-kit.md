@@ -24,7 +24,7 @@ Gain a highly accurate and centralized view of all users and workspaces **across
 
 Drill down into detailed reports about structure, memberships, permissions, and much more - gain efficiency and secure your data. Avoid jumping from one admin center to another.
 
-![Syskit Point - Home screen](../../static/img/point-starter-kit-home-screen.png)
+![Syskit Point - Home screen](../../static/img/point-starter-kit-home-screen-all.png)
 
 ## Users Overview
 
@@ -99,7 +99,7 @@ Control how your sensitive data is being used and accessed!
 
 **Plus**: Set up [alerts](../governance-and-automation/configure-alerts.md), prevent security issues, get real-time updates, and react quickly.
 
-## CONTROL: GOVERNANCE AUTOMATION AND LIFECYCLE MANAGEMENT
+## CONTROL: GOVERNANCE AUTOMATION AND WORKSPACE REVIEW
 
 Setting up proper governance is key to the success of your organization’s Microsoft 365 deployment. When established appropriately, governance can help empower users to get maximum value from the platform.
 
@@ -110,14 +110,18 @@ Manage workspace lifecycles from creation to end with **automated actions and po
 * [**Set up provisioning**](../governance-and-automation/provisioning/)
   * **Control workspace creation and avoid sprawl**: Set up **templates for new workspace requests** for Teams, Groups, sites, and Viva Engage communities with custom metadata, naming, and governance policies in place.
   * **Unburden IT teams and simplify the process for end-users**: Customize requests and approval workflows with our user-friendly Teams app.
+* [**Maintain control over your workspace**](../governance-and-automation/workspace-review/monitor-workspace-review.md)
+  * Enable your admins to define workspace review policies that are triggered during specified review cycles.
+  * Allow workspace owners to regularly review their workspace's memberships, sharing settings, external users, sensitivity, privacy, permissions, or ownership levels.
+  * Delegate responsibility to those with the best operational knowledge and select your reviewers.
 * [**Collaborate on access reviews**](../governance-and-automation/permissions-review/)
   * Enable your admins to set up automated requests.
   * Allow content owners to regularly review workspace memberships, sharing, and external users.
   * Delegate the responsibility to those with the best operational knowledge – content owners.
 * **Enforce** [**governance policies and rules**](../governance-and-automation/automated-workflows/README.md)
   * Re-certify guest users, clean up orphaned workspaces, and enforce ownership best practices.
-* [**Keep your tenant clean**](../governance-and-automation/lifecycle-management/)
-  * Automatically detect inactive SharePoint sites, groups, and teams.
+* [**Keep your tenant clean**](../governance-and-automation/automated-workflows/inactive-workspaces-admin.md)
+  * Detect inactive SharePoint sites, groups, and teams.
   * Define policies for keeping, deleting, or archiving data.
 
 ## Set Up Your Syskit Point

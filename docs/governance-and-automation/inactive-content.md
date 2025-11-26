@@ -5,7 +5,9 @@ description: This section describes how to find inactive workspaces within Syski
 # Identify Inactive Workspaces
 
 Have you ever wondered how to discover all inactive workspaces in your Microsoft 365 environment?  
+
 It is important to have this kind of information because you want a well-organized and clutter-free Microsoft 365 environment.  
+
 Now, you can find it all in one place with the help of **Syskit Point**.
 
 ## Monitored Workloads
@@ -26,12 +28,6 @@ The **Viva Engage activity** collection is also accomplished through the Microso
 **Please note!  
 Activity is being monitored from the Syskit Point installation onward!** This applies to SharePoint and Exchange workloads since historical data for these workloads is not available in usage reports.
 :::
-
-## Define What Is Inactive
-
-You can **configure what is considered to be inactive** in Syskit Point by changing the number of inactive days, after which workspaces will be marked as inactive. To do so, open the **Settings** page from any screen within the application and go to the **Governance &gt; Lifecycle Management** screen, where you will find the **Inactive Content** section. **Enter the number of days** in the field and click the **Save** button to update the value. The number of days can be set to a value between 30 and 1000.
-
-![Settings - Governance screen - Inactive Content section](../../../static/img/inactive-content-settings-inactive-content.png)
 
 ## View Inactive Workspaces in Syskit Point
 

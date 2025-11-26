@@ -700,6 +700,7 @@ const sidebars: SidebarsConfig = {
         'governance-and-automation/scheduled-reports',
         'governance-and-automation/configure-alerts',
         'governance-and-automation/manage-sensitivity-labels',
+        'governance-and-automation/inactive-content',
       ],
     },
     {
