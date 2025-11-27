@@ -26,7 +26,13 @@ const config: Config = {
   projectName: 'Syskit Point', // Usually your repo name.
 
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+
+  // Markdown configuration
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   // Preload external images to prevent layout shift
   headTags: [

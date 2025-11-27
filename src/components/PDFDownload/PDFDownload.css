@@ -1,0 +1,74 @@
+.pdf-download-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 6px;
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  flex-shrink: 0;
+  align-self: flex-end;
+}
+
+.pdf-download-button:hover {
+  background: var(--ifm-color-primary);
+  color: white;
+  border-color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.pdf-download-button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.pdf-download-button:disabled:hover {
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  border-color: var(--ifm-color-emphasis-300);
+  cursor: wait;
+}
+
+.pdf-icon {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.pdf-text {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .pdf-download-button {
+    padding: 6px 8px;
+    font-size: 12px;
+    margin-left: 8px;
+  }
+  
+  .pdf-icon {
+    font-size: 14px;
+  }
+  
+  .pdf-text {
+    font-size: 11px;
+  }
+}
+
+/* Dark theme adjustments */
+[data-theme='dark'] .pdf-download-button {
+  border-color: var(--ifm-color-emphasis-400);
+}
+
+[data-theme='dark'] .pdf-download-button:hover {
+  background: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
