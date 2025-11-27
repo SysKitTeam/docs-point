@@ -82,9 +82,6 @@ For more explanations of the terms, click on the names to be redirected to the M
 
 ![Icons for Reports](../../../static/img/syskit-icons-glossary-access-reports-list-item.png)
 
-### Users & Groups
-
-
 ## Miscellaneous 
 
 When browsing through reports or Overviews for your workspaces, a few icons repeat and can help you get the most out of your data. They also enable you to change the look of the interface. 
