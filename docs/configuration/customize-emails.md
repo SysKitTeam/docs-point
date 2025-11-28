@@ -8,9 +8,9 @@ description: This article explains how to customize e-mails within Syskit Point.
 **Customized E-mails** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 :::
 
-Syskit Point **provides the option to customize e-mails** that are **sent to site owners** as a part of **Access Review Automation**.  
+Syskit Point **provides the option to customize e-mails** that are **sent to site owners** as a part of **Workspace Review** **Inactive Workspaces** tasks and other policies.  
 
-E-mails are used for **Access Review** tasks and any policies created under **Policies**. They are also used for receiving reports that are available in the **Reports** section of Syskit Point. 
+E-mails are used for **Workspace Review** tasks and any policies created under **Policies**. They are also used for receiving reports that are available in the **Reports** section of Syskit Point. 
 
 The following aspects of the e-mails can be customized:
 
@@ -61,39 +61,67 @@ To define a banner used in e-mails:
 **Modifying the logo and banner** as described here **is a global action**, meaning that it **will affect all e-mails**.
 :::
 
-## Access Review Settings
+## Customize Workspace Review E-Mail
 
 :::info
 **Hint!**  
-The customization affects automatic emails sent for workspaces with assigned Access Review policies. For more information on that topic, visit the [following article](../governance-and-automation/permissions-review/create-apply-access-review-policies.md).
+The customization affects automatic e-mails sent for workspaces with assigned Workspace Review policies. For more information on that topic, visit the [following article](../governance-and-automation/workspace-review/setup-workspace-review.md).
 :::
 
-To customize the Access Review e-mail, first, navigate to **Settings** > **Governance** > **Access Review Options \(1\)**. 
+To customize the Workspace Review e-mail, navigate to **Settings** > **General** > **E-mail** > **Customize Workspace Review E-mail (1)**. 
 
 Here you can:
-* **Customize the Access Review e-mail \(2\)** by clicking Customize e-mail button 
-* **Preview the Access Review e-mail \(3\)**
+* **Customize the Workspace Review e-mail (2)** by clicking Customize e-mail button 
+* **Preview the Workspace Review e-mail (3)**
 
-![Settings - Access Review Options](../../static/img/customize-emails-access-review-settings.png)
+![Settings - Workspace Review E-mail](../../static/img/customize-emails-workspace-review-settings.png)
 
 After clicking the Customize e-mail button, you will see the following sections:
 
-* **Subject \(1\)** -  only applies to the Access Review e-mail sent to the owners and administrators
-* **Upload new banner image \(2\)** - only applies to the Access Review e-mail sent to the owners or administrators; initially, a default banner image is set up
-* **Remove banner image \(3\)**
-* **Define custom message \(4\)** - only applies to the Access Review e-mail sent to the owners or administrators
+* **Subject (1)** -  only applies to the Workspace Review e-mail sent to the owners and administrators
+* **Upload new banner image (2)** - only applies to the Workspace Review e-mail sent to the owners or administrators; initially, a default banner image is set up
+* **Define custom message (4)** - only applies to the Workspace Review e-mail sent to the owners or administrators
 
-When finished, click the **Confirm button \(5\)** to save your changes.
+When finished, click the **Confirm button (5)** to save your changes.
 
-![Customize Access Review E-mail](../../static/img/customize-emails-access-review-dialog.png)
+![Customize Workspace Review E-mail](../../static/img/customize-emails-workspace-review-dialog.png)
 
 :::warning
 **Please note!** 
 The custom message can contain **plain text** or **HTML**. A **link has to be defined in the HTML form** `<a href="URL">LinkDisplayText</a>` where `URL` represents a web address to a web resource, and the `LinkDisplayText` is an arbitrary text that will be displayed in the e-mail, and, when clicked, lead to the defined URL.
 :::
 
+You can immediately see the e-mail changes by clicking the before-mentioned **Preview e-mail button**, and a preview dialog opens, showing how your e-mail would look like when sent.
 
-You can immediately see the e-mail changes by clicking the before-mentioned **Preview e-mail button**.
-The Preview dialog opens, as shown in the image below.
 
-![Access Review - E-mail Preview](../../static/img/customize-emails-access-review-preview.png)
+## Customize Inactive Workspaces E-Mail
+
+:::info
+**Hint!**  
+The customization affects automatic e-mails sent for workspaces with assigned Inactive Workspaces policies. For more information on that topic, visit the [following article](../governance-and-automation/automated-workflows/inactive-workspaces-admin.md).
+:::
+
+To customize the Workspace Review e-mail, navigate to **Settings** > **General** > **E-mail** > **Customize Inactive Workspace E-mail (1)**. 
+
+Here you can:
+* **Customize the Inactive Workspace e-mail (2)** by clicking Customize e-mail button 
+* **Preview the Inactive Workspace e-mail (3)**
+
+![Settings - Workspace Review E-mail](../../static/img/customize-emails-inactive-workspace-settings.png)
+
+After clicking the Customize e-mail button, you will see the following sections:
+
+* **Subject (1)** -  only applies to the Inactive Workspace e-mail sent to the owners and administrators
+* **Upload new banner image (2)** - only applies to the Inactive Workspace e-mail sent to the owners or administrators; initially, a default banner image is set up
+* **Define custom message (4)** - only applies to the Inactive Workspace e-mail sent to the owners or administrators
+
+When finished, click the **Confirm button (5)** to save your changes.
+
+![Customize Workspace Review E-mail](../../static/img/customize-emails-inactive-workspace-dialog.png)
+
+:::warning
+**Please note!** 
+The custom message can contain **plain text** or **HTML**. A **link has to be defined in the HTML form** `<a href="URL">LinkDisplayText</a>` where `URL` represents a web address to a web resource, and the `LinkDisplayText` is an arbitrary text that will be displayed in the e-mail, and, when clicked, lead to the defined URL.
+:::
+
+You can immediately see the e-mail changes by clicking the before-mentioned **Preview e-mail button**, and a preview dialog opens, showing how your e-mail would look like when sent.

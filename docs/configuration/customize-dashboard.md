@@ -16,7 +16,6 @@ The **Syskit Point** Dashboard shows Syskit Point administrators the following i
  * Workspace Review 
  * Microsoft 365 Licenses
  * Copilot Readiness
- * License Optimization
  * Power Platform
  * Workspace Sensitivity
 

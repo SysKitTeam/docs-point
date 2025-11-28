@@ -33,6 +33,7 @@ On the screen that opens, click the **link in the Task column** to continue and 
 
 * [Complete Access Review Tasks](access-review.mdx)
 * [Complete Metadata Review Tasks](metadata-review.md)
+* [Resolve Inactive Workspaces Tasks](inactive-workspaces.md)
 * [Resolve Inactive Guest Users Tasks](guest-users-expiration.md)
 * [Resolve Minimum Number of Owners Tasks](minimum-number-of-owners.md)
 * [Resolve Maximum Number of Owners Tasks](maximum-number-of-owners.md)

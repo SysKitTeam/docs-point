@@ -36,6 +36,8 @@ You can see 8 major sections:
 * **Security & Compliance** - shows the vulnerabilities in your environment through security and compliance checks; clicking View All opens the Security & Compliance checks dashboard
 * **External Collaboration** - shows a list and number for all external collaboration in your environment
 * **Active Access Review** - shows the progress of your active Access Review tasks; clicking View All opens the Govern Overview screen on the Scheduled Review section of the Access Review
+* **Power Platform** - provides an overview of your Power Platform environment and easy access links to relevant Power Platform reports
+* **Inactive Workspaces** - shows the number of inactive workspaces and the progress of your Inactive Workspaces tasks; clicking View All opens the Vulnerability History Details screen in the Govern section
 * **Microsoft 365 Licenses** - shows an overview of your Microsoft 365 Licenses; clicking View All opens the Licenses Overview report
 
 On the left side of the screen, you will find buttons to access the following features:
@@ -46,7 +48,6 @@ On the left side of the screen, you will find buttons to access the following fe
 * **Report** – create security and audit activities across your workspaces.
 * **Tasks** - resolve current tasks and keep your environment secure and organized
 * **Govern** - stay up to date with governance in your environment
-* **Settings** - set up & configure your Syskit Point preferences; this is available and visible only to Syskit Point Administrators
 
 To view a specific section, click the appropriate tile or button.
 
@@ -55,8 +56,9 @@ To view a specific section, click the appropriate tile or button.
 The top right corner contains 3 additional buttons:
 
 * **Notifications** - shows alerts and actions that occurred recently in your Syskit Point environment
-* **Profile** - includes your profile details and contains buttons that lead to **Scheduled Reports** and **Alerts** as well as the **Sing Out** button
+* **Settings** - set up & configure your Syskit Point preferences; this is available and visible only to Syskit Point Administrators
 * **Help** - quick access to Syskit Point documentation, contact us form, and what's new dialog
+* **Profile** - includes your profile details and contains buttons that lead to **Scheduled Reports** and **Alerts** as well as the **Sing Out** button
 
 ## Navigation
 

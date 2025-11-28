@@ -6,7 +6,8 @@ description: This section describes how to exclude certain users from being able
 
 The Governance-Excluded Users settings in Syskit Point allow you to exclude certain users receiving any of the following Governance tasks or task-related e-mails:
 
-* Access Review tasks 
+* Workspace Review tasks 
+* Inactive Workspaces tasks
 * Security and Compliance Checks tasks (for policies where task delegation is enabled)
 
 Take the following steps to set up your governance-excluded users:

@@ -10,7 +10,7 @@ Your flow of using Syskit Point can go like this, and we will explain each part 
 
 * [**Discover**](#discover-microsoft-365-inventory): Start by centralizing users, structure, and workspaces across Microsoft 365 Groups, Microsoft Teams, OneDrive, SharePoint, and Power Platform services.
 * [**Secure**](#secure-reporting-and-management) & [**Protect**](#protect-auditing): Drill down and dig deep to get a detailed overview of who has access to what and audit user actions, including external users, supported by bulk management actions.
-* [**Efficient Control**](#control-governance-automation-and-workspace-review): Automate and enforce governance procedures and policies across Microsoft 365 to gain control over all processes. Manage workspaces lifecycle from its creation to its end of life.
+* [**Efficient Control**](#control-governance-automation-and-lifecycle-management): Automate and enforce governance procedures and policies across Microsoft 365 to gain control over all processes. Manage workspaces lifecycle from its creation to its end of life.
 * **Collaborate**: Make end users your reliable partners in governance. Enable them to help you secure the data and manage their workspaces to reduce uncontrolled sprawl and unnecessary sharing.
 
 :::warning
@@ -99,7 +99,7 @@ Control how your sensitive data is being used and accessed!
 
 **Plus**: Set up [alerts](../governance-and-automation/configure-alerts.md), prevent security issues, get real-time updates, and react quickly.
 
-## CONTROL: GOVERNANCE AUTOMATION AND WORKSPACE REVIEW
+## CONTROL: GOVERNANCE AUTOMATION AND LIFECYCLE MANAGEMENT
 
 Setting up proper governance is key to the success of your organization’s Microsoft 365 deployment. When established appropriately, governance can help empower users to get maximum value from the platform.
 
