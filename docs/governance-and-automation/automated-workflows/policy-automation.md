@@ -156,9 +156,6 @@ When it comes to setting the priority for your rules and how an override is appl
 
 * If **two rules contain different policy types** that apply to the same workspace, **both rules apply the policies**
 
-* If there is a **workspace that has a Do not apply/No policy option enabled**, no policies are applied for the workspace that meets the conditions
-
-
 ## Manage Rules
 
 Once you save a rule, it is enabled by default, but you can still edit or remove it. 
