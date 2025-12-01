@@ -34,7 +34,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 * **Added an option** for creating modern SharePoint Sites through **Provisioning templates**.
 
-* **Fixed an issue** where changes made on a SharePoint workspace did not trigger the full content & permission sync as expected which caused the workspace to only update after a manual sync. 
+* **Fixed an issue** where changes made on a workspace did not trigger the full content & permission sync as expected, which caused the workspace to only update after a manual sync. 
 
 * **Fixed an issue** on the Shared Channel Details screen that caused the wrong Microsoft Team to be opened when navigating to the teams level. 
 
