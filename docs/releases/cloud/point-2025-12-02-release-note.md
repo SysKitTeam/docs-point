@@ -1,0 +1,22 @@
+---
+description: This article lists improvements and bug fixes in the Syskit Point Cloud version 2025.5.120.25
+---
+
+# December 02, 2025
+
+[Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think](https://www.syskit.com/company/contact-us/).
+
+## About Syskit Point Cloud
+
+* **New to Syskit Point Cloud?** Explore Syskit Point Cloud with a 21-day [free trial](https://www.syskit.com/products/point/free-trial/) for an easy and effective way to manage and secure your environment.
+
+* **Already using Syskit Point Cloud?** Syskit Point Cloud is automatically upgraded to the latest version when available. The automatic update occurs outside working hours to ensure minimal interference with your day-to-day business. The new version will begin rolling out with this announcement and is expected to reach all customers within the next few days.
+
+## Improvements & Bug Fixes 
+
+* **Fixed an issue** where changes made on a workspace did not trigger the full content & permission sync as expected, which caused the workspace to only update after a manual sync. 
+
+* **Fixed an issue** where recently deleted or archived workspaces were included when re-starting a Workspace Review.
+  * If a Workspace Review was partially completed, canceled, and then requested again, workspaces that were deleted or archived during the partial review would appear as if they were still active when the Workspace Review was requested again.
+
+* **Various improvements, including UX and UI fixes, are available.**
