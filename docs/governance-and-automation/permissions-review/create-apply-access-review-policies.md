@@ -163,4 +163,4 @@ When a new Access Review policy is created and applied to workspaces, **it will 
 Once you're done assigning policies to **Microsoft Teams**, **Microsoft 365 Groups**, **OneDrive**, and **sites,** you can:
 * [Define who will perform the Access Review in greater detail](access-review-options.md#manage-reviewers) by removing specific users from reviewers
 * [Configure general Access Review options](access-review-options.md#review-options) applied to all Access Review Policies
-* [Customize Access Review e-mail](../../configuration/customize-emails.md#access-review-settings)
+* [Customize Access Review e-mail](../../configuration/customize-emails.md#customize-access-review-e-mails)

@@ -125,3 +125,41 @@ The custom message can contain **plain text** or **HTML**. A **link has to be de
 :::
 
 You can immediately see the e-mail changes by clicking the before-mentioned **Preview e-mail button**, and a preview dialog opens, showing how your e-mail would look like when sent.
+
+
+## Customize Access Review E-mails
+
+:::info
+**Hint!**  
+The customization affects automatic emails sent for workspaces with assigned Access Review policies. For more information on that topic, visit the [following article](../governance-and-automation/permissions-review/create-apply-access-review-policies.md).
+:::
+
+To customize the Access Review e-mail, first, navigate to **Settings** > **Governance** > **Access Review Options \(1\)**. 
+
+Here you can:
+* **Customize the Access Review e-mail \(2\)** by clicking Customize e-mail button 
+* **Preview the Access Review e-mail \(3\)**
+
+![Settings - Access Review Options](../../static/img/customize-emails-access-review-settings.png)
+
+After clicking the Customize e-mail button, you will see the following sections:
+
+* **Subject \(1\)** -  only applies to the Access Review e-mail sent to the owners and administrators
+* **Upload new banner image \(2\)** - only applies to the Access Review e-mail sent to the owners or administrators; initially, a default banner image is set up
+* **Remove banner image \(3\)**
+* **Define custom message \(4\)** - only applies to the Access Review e-mail sent to the owners or administrators
+
+When finished, click the **Confirm button \(5\)** to save your changes.
+
+![Customize Access Review E-mail](../../static/img/customize-emails-access-review-dialog.png)
+
+:::warning
+**Please note!** 
+The custom message can contain **plain text** or **HTML**. A **link has to be defined in the HTML form** `<a href="URL">LinkDisplayText</a>` where `URL` represents a web address to a web resource, and the `LinkDisplayText` is an arbitrary text that will be displayed in the e-mail, and, when clicked, lead to the defined URL.
+:::
+
+
+You can immediately see the e-mail changes by clicking the before-mentioned **Preview e-mail button**.
+The Preview dialog opens, as shown in the image below.
+
+![Access Review - E-mail Preview](../../static/img/customize-emails-access-review-preview.png)
