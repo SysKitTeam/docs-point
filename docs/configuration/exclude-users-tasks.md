@@ -15,9 +15,9 @@ Take the following steps to set up your governance-excluded users:
 * Open the Settings of Syskit Point and navigate to the **General section (1)**
 * Scroll down to the **Governance-Excluded Users section (2)**
 * Here, you can **enter the following (3)**:
-  * **Name or e-mail-** of an individual user - this individual is added to the list of governance-excluded users and does not receive any governance tasks or task-related e-mails-
-  * **Security Group** - all users included in the security group are added to the list of governance-excluded users, and they do not receive any governance tasks or task-related e-mails-
-  * **Mail-Enabled Security Group** - all users included in the mail-enabled security group are added to the list of governance-excluded users, and they do not receive any governance tasks or task-related e-mails-
+  * **Name or e-mail** of an individual user - this individual is added to the list of governance-excluded users and does not receive any governance tasks or task-related e-mails
+  * **Security Group** - all users included in the security group are added to the list of governance-excluded users, and they do not receive any governance tasks or task-related e-mails
+  * **Mail-Enabled Security Group** - all users included in the mail-enabled security group are added to the list of governance-excluded users, and they do not receive any governance tasks or task-related e-mails
 * Once you enter the user(s) or security group(s) that you want to exclude, **click Save (4)** to store your preference
 
 ![Governance-Excluded Users - Setup](../../static/img/exclude-users-task-setup.png)
