@@ -26,6 +26,8 @@ const sidebars: SidebarsConfig = {
             id: 'releases/cloud/README',
           },
           items: [
+            'releases/cloud/point-2025-12-02-release-note',
+            'releases/cloud/point-2025-11-25-release-note',
             'releases/cloud/point-2025-11-19-release-note',
             'releases/cloud/point-2025-11-11-release-note',
             'releases/cloud/point-2025-11-04-release-note',
@@ -136,6 +138,7 @@ const sidebars: SidebarsConfig = {
                 id: 'releases/enterprise/syskit-point-2025-5/README',
               },
               items: [
+                'releases/enterprise/syskit-point-2025-5/point-2025-5-119-release-note',
                 'releases/enterprise/syskit-point-2025-5/point-2025-5-117-release-note',
                 'releases/enterprise/syskit-point-2025-5/point-2025-5-115-release-note',
                 'releases/enterprise/syskit-point-2025-5/point-2025-5-113-release-note',
@@ -556,7 +559,20 @@ const sidebars: SidebarsConfig = {
           },
           items: [
             'governance-and-automation/workspace-review/setup-workspace-review',
-            'governance-and-automation/workspace-review/monitor-workspace-review',
+            {
+              type: 'category',
+              label: 'Monitor Workspace Review',
+              link: {
+                type: 'doc',
+                id: 'governance-and-automation/workspace-review/monitor-workspace-review/README',
+              },
+              items: [
+                'governance-and-automation/workspace-review/monitor-workspace-review/workspace-review-governance',
+                'governance-and-automation/workspace-review/monitor-workspace-review/workspace-review-overview',
+                'governance-and-automation/workspace-review/monitor-workspace-review/workspace-review-insights',
+                'governance-and-automation/workspace-review/monitor-workspace-review/workspace-review-summary',
+              ],
+           },
           ],
         },
         {
@@ -834,6 +850,7 @@ const sidebars: SidebarsConfig = {
           },
           items: [
             'point-collaborators/workspace-review/workspace-review-overview',
+            'point-collaborators/workspace-review/privacy-sensitivity',
             'point-collaborators/workspace-review/membership-step',
             'point-collaborators/workspace-review/shadow-users-step',
             'point-collaborators/workspace-review/sharing-step',
