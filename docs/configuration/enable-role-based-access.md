@@ -10,7 +10,7 @@ By using the built-in **role-based security** of Syskit Point, you can easily ma
 
 * Level of access **depends on the roles assigned**.
 
-This allows **workspace owners to perform Workspace Reviews and other governance related tasks related to their workspace**. Read on to learn more about the specifics of each role and how to assign them to your users. 
+This allows **workspace owners to perform Workspace Reviews and other governance-related tasks related to their workspace**. Read on to learn more about the specifics of each role and how to assign them to your users. 
 
 
 ## Setting up Role-Based Access

@@ -8,9 +8,9 @@ description: This article explains how to customize e-mails within Syskit Point.
 **Customized E-mails** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 :::
 
-Syskit Point **provides the option to customize e-mails** that are **sent to site owners** as a part of **Workspace Review** **Inactive Workspaces** tasks and other policies.  
+Syskit Point **provides the option to customize e-mails sent to site owners** as a part of **Workspace Review**, **Inactive Workspaces**, **Access Review tasks** (replaced by Workspace Review), and other policy tasks.
 
-E-mails are used for **Workspace Review** tasks and any policies created under **Policies**. They are also used for receiving reports that are available in the **Reports** section of Syskit Point. 
+E-mails are also used to receive [scheduled reports](../governance-and-automation/scheduled-reports.md) available in the **Reports** section of Syskit Point. 
 
 The following aspects of the e-mails can be customized:
 
@@ -19,10 +19,10 @@ The following aspects of the e-mails can be customized:
 * **Subject**
 * **Additional message in the body of the e-mail**
 
-These changes can be performed in three locations within Syskit Point Settings:
+These changes can be performed in two locations within Syskit Point Settings:
 
 * **General Settings &gt; E-mail section** 
-* **Governance Settings &gt; Access Review** 
+* **Governance Settings &gt; Access Review Options** 
 
 :::warning
 **Please note!**  
@@ -71,7 +71,7 @@ The customization affects automatic e-mails sent for workspaces with assigned Wo
 To customize the Workspace Review e-mail, navigate to **Settings** > **General** > **E-mail** > **Customize Workspace Review E-mail (1)**. 
 
 Here you can:
-* **Customize the Workspace Review e-mail (2)** by clicking Customize e-mail button 
+* **Customize the Workspace Review e-mail (2)** by clicking the Customize e-mail button 
 * **Preview the Workspace Review e-mail (3)**
 
 ![Settings - Workspace Review E-mail](../../static/img/customize-emails-workspace-review-settings.png)
@@ -91,7 +91,7 @@ When finished, click the **Confirm button (5)** to save your changes.
 The custom message can contain **plain text** or **HTML**. A **link has to be defined in the HTML form** `<a href="URL">LinkDisplayText</a>` where `URL` represents a web address to a web resource, and the `LinkDisplayText` is an arbitrary text that will be displayed in the e-mail, and, when clicked, lead to the defined URL.
 :::
 
-You can immediately see the e-mail changes by clicking the before-mentioned **Preview e-mail button**, and a preview dialog opens, showing how your e-mail would look like when sent.
+You can immediately see the e-mail changes by clicking the **Preview e-mail button**, and a preview dialog opens, showing what your e-mail would look like when sent.
 
 
 ## Customize Inactive Workspaces E-Mail
@@ -101,10 +101,10 @@ You can immediately see the e-mail changes by clicking the before-mentioned **Pr
 The customization affects automatic e-mails sent for workspaces with assigned Inactive Workspaces policies. For more information on that topic, visit the [following article](../governance-and-automation/automated-workflows/inactive-workspaces-admin.md).
 :::
 
-To customize the Workspace Review e-mail, navigate to **Settings** > **General** > **E-mail** > **Customize Inactive Workspace E-mail (1)**. 
+To customize the Inactive Workspace e-mail, navigate to **Settings** > **General** > **E-mail** > **Customize Inactive Workspace E-mail (1)**. 
 
 Here you can:
-* **Customize the Inactive Workspace e-mail (2)** by clicking Customize e-mail button 
+* **Customize the Inactive Workspace e-mail (2)** by clicking the Customize e-mail button 
 * **Preview the Inactive Workspace e-mail (3)**
 
 ![Settings - Workspace Review E-mail](../../static/img/customize-emails-inactive-workspace-settings.png)
@@ -124,20 +124,29 @@ When finished, click the **Confirm button (5)** to save your changes.
 The custom message can contain **plain text** or **HTML**. A **link has to be defined in the HTML form** `<a href="URL">LinkDisplayText</a>` where `URL` represents a web address to a web resource, and the `LinkDisplayText` is an arbitrary text that will be displayed in the e-mail, and, when clicked, lead to the defined URL.
 :::
 
-You can immediately see the e-mail changes by clicking the before-mentioned **Preview e-mail button**, and a preview dialog opens, showing how your e-mail would look like when sent.
+You can immediately see the e-mail changes by clicking the **Preview e-mail button**, and a preview dialog opens, showing what your e-mail would look like when sent.
 
 
 ## Customize Access Review E-mails
 
 :::info
 **Hint!**  
-The customization affects automatic emails sent for workspaces with assigned Access Review policies. For more information on that topic, visit the [following article](../governance-and-automation/permissions-review/create-apply-access-review-policies.md).
+The customization affects automatic e-mails sent for workspaces with assigned Access Review policies. For more information on that topic, visit the [following article](../governance-and-automation/permissions-review/create-apply-access-review-policies.md).
+:::
+
+:::warning
+
+**Automated Access Review is evolving into [Workspace Review](../governance-and-automation/workspace-review/setup-workspace-review.md)**, a more powerful solution that covers not only access but also ownership, privacy, sensitivity, and overall workspace security. 
+
+**⚠️ Note: Access Review will be retired in January 2027**. For a richer governance experience, we recommend completing your current reviews and then moving to Workspace Review. 
+
+Learn more in the [Workspace Review documentation](../governance-and-automation/workspace-review/).
 :::
 
 To customize the Access Review e-mail, first, navigate to **Settings** > **Governance** > **Access Review Options \(1\)**. 
 
 Here you can:
-* **Customize the Access Review e-mail \(2\)** by clicking Customize e-mail button 
+* **Customize the Access Review e-mail \(2\)** by clicking the Customize e-mail button 
 * **Preview the Access Review e-mail \(3\)**
 
 ![Settings - Access Review Options](../../static/img/customize-emails-access-review-settings.png)
@@ -159,7 +168,7 @@ The custom message can contain **plain text** or **HTML**. A **link has to be de
 :::
 
 
-You can immediately see the e-mail changes by clicking the before-mentioned **Preview e-mail button**.
+You can immediately see the e-mail changes by clicking the **Preview e-mail button**.
 The Preview dialog opens, as shown in the image below.
 
 ![Access Review - E-mail Preview](../../static/img/customize-emails-access-review-preview.png)
