@@ -30,30 +30,15 @@ E-mails are also used to receive [scheduled reports](../governance-and-automatio
 
 After deploying **Syskit Point**, you'll be able to give your Microsoft 365 users access to the Syskit Point web app. 
 
-Assigning these roles to users provides the users with different levels of access. Depending on the role assigned, users will be able to:
- * View all data collected from the Microsoft 365 tenant
- * Perform actions based on the permissions granted to them in Microsoft 365 
- * Have access to all data related to sites, Microsoft 365 Groups, and Microsoft Teams
+Assigning these roles to users provides them with different levels of access. Depending on the role assigned, users will be able to:
+* View all data collected from the Microsoft 365 tenant
+* Perform actions based on the permissions granted to them in Microsoft 365 
+* Have access to all data related to sites, Microsoft 365 Groups, and Microsoft Teams
 
 These roles also allow **workspace owners to resolve governance tasks for their workspaces**. 
 
 :::warning
 **To learn more about the specifics of each role and how to assign them to your users, take a look at the [Enable Role-Based Access article](../configuration/enable-role-based-access.md).**
-:::
-
-
-## Enable Microsoft Teams Activity Tracking
-
-One of the first things you might have noticed upon logging into Syskit Point is the notification located at the bottom of the screen that states the following:
-
-**Detect inactive Teams in your environment** 
-
-Clicking the configure now button gets you started with the process of enabling Microsoft Teams activity tracking, which helps you easily **discover which of your Microsoft Teams are not being actively used**. 
-
-Through this, you'll gain insight into when a workspace should be assessed to determine its value for the future, with options to **keep, archive, or delete the workspace**. 
-
-:::warning
-**For more details on what this includes and a guide on how to successfully set it up, follow the instructions in the [Enable Microsoft Teams Activity Tracking article](../configuration/microsoft-teams-activity.md).**
 :::
 
 ## Ignore Service Account Activity Tracking 
@@ -62,9 +47,9 @@ Through this, you'll gain insight into when a workspace should be assessed to de
 
 The Ignored Service Accounts option in Syskit Point allows you to **avoid tracking the service accounts' activities** collected from the Unified Audit Logs, meaning:
 
- * The Service Account page hits and views **will be ignored when detecting any workspace activity**
- * The Service Account audit logs **won't be stored**
- * The Service Account changes **will be ignored and won't trigger alerts**
+* The Service Account page hits and views **will be ignored when detecting any workspace activity**
+* The Service Account audit logs **won't be stored**
+* The Service Account changes **will be ignored and won't trigger alerts**
 
 :::warning
 **Learn all about service accounts in Syskit Point and how to avoid tracking their activity by reading through the [Ignore Service Account Activity tracking article](../configuration/ignore-service-account-activity-tracking.md).**
@@ -88,12 +73,12 @@ Customizing license reports can only be done by users with the assigned Syskit P
 **Learn more about license reports and how to customize them in the [Customize License Reports article](../configuration/customize-license-reports.md).**
 :::
 
-## Enable Power BI Data Collection
+## Enable Power Platform Data Collection
 
-If your Microsoft 365 utilizes the Power BI data collection software, you can connect it with Syskit Point. 
+If you utilize Power Apps, Power Automate, or Power BI in your Microsoft 365 environment, you can collect related data and manage these resources in Syskit Point. 
 
 :::warning
-**For instructions on how to set up the Power BI data collection, follow the instructions in the [Enable Power BI Data Collection article](../power-platform/enable-powerBI-data-collection.md).**
+**For instructions on how to set up the Power Platform and Power BI data collection, follow the instructions in the [Power Platform section](../power-platform/README.md)**
 :::
 
 
@@ -102,4 +87,4 @@ If your Microsoft 365 utilizes the Power BI data collection software, you can co
 When the initial set-up is finalized, the users from your Microsoft 365 environment with assigned roles can start exploring Syskit Point.
 
 Depending on the level of access permitted to a user, there are certain actions that can be completed:
-  * **[Complete Access Review Tasks in Syskit Point](../point-collaborators/resolve-governance-tasks/access-review.mdx)**
+* **[Resolve Governance Tasks in Syskit Point](../point-collaborators/resolve-governance-tasks/README.md)**
