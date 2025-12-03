@@ -110,7 +110,7 @@ Manage workspace lifecycles from creation to end with **automated actions and po
 * [**Set up provisioning**](../governance-and-automation/provisioning/)
   * **Control workspace creation and avoid sprawl**: Set up **templates for new workspace requests** for Teams, Groups, sites, and Viva Engage communities with custom metadata, naming, and governance policies in place.
   * **Unburden IT teams and simplify the process for end-users**: Customize requests and approval workflows with our user-friendly Teams app.
-* [**Maintain control over your workspace**](../governance-and-automation/workspace-review/monitor-workspace-review.md)
+* [**Maintain control over your workspace**](../governance-and-automation/workspace-review/monitor-workspace-review/workspace-review-governance.md)
   * Enable your admins to define workspace review policies that are triggered during specified review cycles.
   * Allow workspace owners to regularly review their workspace's memberships, sharing settings, external users, sensitivity, privacy, permissions, or ownership levels.
   * Delegate responsibility to those with the best operational knowledge and select your reviewers.

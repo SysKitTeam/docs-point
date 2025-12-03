@@ -78,4 +78,4 @@ Workload activity data is shown only for the **root site level**. Document libra
 
 The easiest way to **find all inactive workspaces** is by using the **Inactive Workspaces report**, which you can find in the Report Center. 
 
-[For more details on the Inactive Workspaces report and the actions available, take a look at this article.](../../reporting/analytics-reports.md#inactive-workspaces-report) 
+[For more details on the Inactive Workspaces report and the actions available, take a look at this article.](../reporting/analytics-reports.md#inactive-workspaces-report) 
