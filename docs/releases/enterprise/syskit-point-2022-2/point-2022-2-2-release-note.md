@@ -34,7 +34,6 @@ Find out more about [Power BI integration with Syskit Point](../../../power-plat
 
 * **define prefix and suffix added to workspace names when archiving them through Syskit Point**
 * **choose to remove access for both members and owners when archiving a workspace**\
-  [Find all Lifecycle Management-related options explained in this article](../../../governance-and-automation/lifecycle-management/enable-lifecycle-management.md).
 
 **Syskit Point e-mail customization improved.** You can now define which banner will be visible for all e-mails and define a custom banner for the Access Review and Lifecycle Management e-mail which can differ from the global settings. [Read the following article to learn how to customize e-mails in Syskit Point](../../../configuration/customize-emails.md).
 
