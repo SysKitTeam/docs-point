@@ -10,7 +10,7 @@ Your flow of using Syskit Point can go like this, and we will explain each part 
 
 * [**Discover**](#discover-microsoft-365-inventory): Start by centralizing users, structure, and workspaces across Microsoft 365 Groups, Microsoft Teams, OneDrive, SharePoint, and Power Platform services.
 * [**Secure**](#secure-reporting-and-management) & [**Protect**](#protect-auditing): Drill down and dig deep to get a detailed overview of who has access to what and audit user actions, including external users, supported by bulk management actions.
-* [**Efficient Control**](#control-governance-automation-and-lifecycle-management): Automate and enforce governance procedures and policies across Microsoft 365 to gain control over all processes. Manage workspaces lifecycle from its creation to its end of life.
+* [**Efficient Control**](#control-governance-automation-and-lifecycle-management): Automate and enforce governance procedures and policies across Microsoft 365 to gain control over all processes. Manage workspace lifecycle from its creation to its end of life.
 * **Collaborate**: Make end users your reliable partners in governance. Enable them to help you secure the data and manage their workspaces to reduce uncontrolled sprawl and unnecessary sharing.
 
 :::warning
@@ -35,11 +35,11 @@ You can also click on a specific user through the Users Overview screen. The use
 * General information about the user
 * The user's analytics and usage
 * Microsoft Teams and Group Memberships the user is a part of
-* Which workplaces the user has access to
+* Which workspaces does the user have access to
 
 ## Sites, Microsoft Teams, Groups, OneDrive Overviews
 
-These overviews can also be found directly on the home screen, and **allows you to explore and filter through your** [**Sites**](../microsoft365-inventory/sites.md)**,** [**Microsoft Teams & Groups**](../microsoft365-inventory/microsoft-teams-and-groups.md)**, and OneDrive**. Selecting one or more sites also gives you a lot of useful details as well as the ability to **manage different options for the sites with one simple click**. You can also click on a specific site for a more detailed overview of it. Here you'll find information like:
+These overviews can also be found directly on the home screen, and **allow you to explore and filter through your** [**Sites**](../microsoft365-inventory/sites.md)**,** [**Microsoft Teams & Groups**](../microsoft365-inventory/microsoft-teams-and-groups.md)**, and OneDrive**. Selecting one or more sites also gives you a lot of useful details as well as the ability to **manage different options for the sites with one simple click**. You can also click on a specific site for a more detailed overview of it. Here you will find information like:
 
 * Overview of the site with the number of users, external users, anonymous links, and unique permissions
 * Content overview, which includes a list of all files included in the site
@@ -60,8 +60,8 @@ With the one-click report generation, these detailed insights make it easy to ma
 There are many reports available in Syskit Point, and **the categories that the reports cover** are:
 
 * [**Permissions**](../reporting/access-reports.md): Detect and manage who has access to what across Microsoft 365 sites. Drill down into user permissions and memberships. Detect broken inheritance for all your content where permissions differ from a parent!
-* [**External Sharing**](../reporting/external-sharing-reports.md): Control external access and excessive content sharing. Find all external users, and guests, and detect externally shared content along with all sharing links.
-* [**License Usage**](../reporting/licenses-reports.md): Discover assigned, unassigned, and inactive Microsoft 365 licenses and the overall cost or find and reclaim licenses assigned to inactive or blocked users - optimize the budget.
+* [**External Sharing**](../reporting/external-sharing-reports.md): Control external access and excessive content sharing. Find all external users and guests, and detect externally shared content along with all sharing links.
+* [**License Usage**](../reporting/licenses-reports.md): Discover assigned, unassigned, and inactive Microsoft 365 licenses and the overall cost, or find and reclaim licenses assigned to inactive or blocked users - optimize the budget.
 * [**Cleanup**](../reporting/cleanup-and-health-reports.md): Check Microsoft 365 Groups and Microsoft Teams with disabled or deleted owners and assign new ones. Identify and remove orphaned users.
 
 ![Syskit Point - Reports](../../static/img/point-starter-kit-reports.png)
@@ -126,7 +126,7 @@ Manage workspace lifecycles from creation to end with **automated actions and po
 
 ## Set Up Your Syskit Point
 
-Now that you know just some of the benefits of using Syskit Point, **there are a few things you'll need to set up before you can start**.
+Now that you know just some of the benefits of using Syskit Point, **there are a few things you will need to set up before you can start**.
 
 Follow the instructions in these articles to get started:
 
