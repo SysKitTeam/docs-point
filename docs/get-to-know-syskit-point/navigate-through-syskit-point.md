@@ -34,7 +34,7 @@ You can see 8 major sections:
 * **Users** - shows the number of users in your environment; clicking View All opens the Users Overview screen
 * **Storage** - shows the amount of your used tenant's storage, as well as which workspaces utilize the storage; clicking View All opens the Storage Metrics report
 * **Security & Compliance** - shows the vulnerabilities in your environment through security and compliance checks; clicking View All opens the Security & Compliance checks dashboard
-* **External Collaboration** - shows a list and number for all external collaboration in your environment
+* **External Collaboration** - shows summary numbers related to external collaboration in your environment; clicking the numbers opens reports which provide detailed information
 * **Active Access Review** - shows the progress of your active Access Review tasks; clicking View All opens the Govern Overview screen on the Scheduled Review section of the Access Review
 * **Power Platform** - provides an overview of your Power Platform environment and easy access links to relevant Power Platform reports
 * **Inactive Workspaces** - shows the number of inactive workspaces and the progress of your Inactive Workspaces tasks; clicking View All opens the Vulnerability History Details screen in the Govern section
@@ -66,26 +66,26 @@ There are multiple ways of navigating through the application.
 
 * **Main Navigation (1)** – click the Home orange circle to access the main sections of the application.
 * **Back Button (2)** – takes you to the previous screen, the one that you were at before jumping to a different report.
-* **Breadcrumbs (3)** – easily detect where you are currently located and, by clicking them, return back to the previous screen
+* **Breadcrumbs (3)** – easily detect where you are currently located and, by clicking them, return to the previous screen
 * **Drill (4)** – clicking on the objects takes you to a more detailed report about that workspace.
 
 ![Syskit Point Navigation Introduction](../../static/img/syskit-point-quick-start-guide-navigation-elements.png)
 
 ## Built-in Views
 
-Each overview screen comes with a set of predefined views to help you select the most important information for you. On the left-hand side of the report, click the drop-down menu to select the views you are most interested in.
+Each overview screen comes with a set of predefined views to help you select the most important information for you. On the left-hand side of the report, click the drop-down menu to choose the views you are most interested in.
 
 ![Syskit Point - Built-in Views on the Sites screen](../../static/img/syskit-point-quick-start-guide-syskit-point-built-in-views-on-the-sites-screen.png)
 
 ## Custom Views
 
-As an easy workaround, you can add additional columns on your own with the help of **column chooser (1)** or **column filter (2)** each column to get the desired results.
+As an easy workaround, you can add additional columns on your own with the help of **column chooser (1)** or **column filter (2)** for each column to get the desired results.
 
 ![Syskit Point - Column Chooser and Column Filter](../../static/img/syskit-point-quick-start-guide-syskit-point-column-chooser-and-column-filter.png)
 
 ## Drill for Details
 
-The basic principle in the application is - whenever you wish to see more details about a specific workspace, you **click the name to drill (1)** deeper. Workspaces, numbers, and details that can be drilled on will be marked with the underline when hovering over it or displayed in bold.
+The basic principle in the application is - whenever you wish to see more details about a specific workspace, you **click the name to drill (1)** deeper. Workspaces, numbers, and details that can be drilled on will be marked with an underline when hovering over them or displayed in bold.
 
 Everything is connected, and we made it accessible for you to navigate from a specific site to the user details and vice versa.
 
@@ -93,7 +93,7 @@ Everything is connected, and we made it accessible for you to navigate from a sp
 
 ## External Links
 
-Whenever possible, Syskit Point shows you an external link so you can, e.g., quickly open a site in SharePoint Online or send an email to Microsoft 365 Group. **External links (1)** are marked with an icon that suggests you will leave the current context, and to distinguish them from drill links mentioned above, they are colored blue.
+Whenever possible, Syskit Point shows you an external link so you can, e.g., quickly open a site in SharePoint Online or send an email to a Microsoft 365 Group. **External links (1)** are marked with an icon that suggests you will leave the current context, and to distinguish them from drill links mentioned above, they are colored blue.
 
 ![Syskit Point - External link for a site](../../static/img/syskit-point-quick-start-guide-syskit-point-external-link-for-a-site.png)
 
@@ -107,7 +107,7 @@ There are two types of actions/reports:
 
 ![Syskit Point - Global actions on site details screen](../../static/img/syskit-point-quick-start-guide-syskit-point-global-actions-on-site-details-screen.png)
 
-* **Contextual Actions/Reports** - when you select something on the screen, additional actions and reports may appear. If you choose to create a report/perform an action, they will impact the currently selected object in one of the tiles. **Example:** If you select the Documents library in the Content tile, reports on the right-hand side will be related to that selection only, meaning that they will present information about that selected folder, not the entire site you are currently exploring.
+* **Contextual Actions/Reports** - when you select something on the screen, additional actions and reports may appear. If you choose to create a report/perform an action, it will impact the currently selected object in one of the tiles. **Example:** If you select the Documents library in the Content tile, reports on the right-hand side will be related to that selection only, meaning that they will present information about that selected folder, not the entire site you are currently exploring.
 
 ![Syskit Point - Contextual actions after selection](../../static/img/syskit-point-quick-start-guide-syskit-point-contextual-actions-after-selection.png)
 
