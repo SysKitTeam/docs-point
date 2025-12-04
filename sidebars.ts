@@ -592,21 +592,6 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: 'Lifecycle Management',
-          link: {
-            type: 'doc',
-            id: 'governance-and-automation/lifecycle-management/README',
-          },
-          items: [
-            'governance-and-automation/lifecycle-management/deprecating-lifecyle-management',
-            'governance-and-automation/lifecycle-management/inactive-content',
-            'governance-and-automation/lifecycle-management/enable-lifecycle-management',
-            'governance-and-automation/lifecycle-management/monitor-lifecycle-management',
-            'governance-and-automation/lifecycle-management/lifecycle-management-actions',
-          ],
-        },
-        {
-          type: 'category',
           label: 'Policies',
           link: {
             type: 'doc',
@@ -731,6 +716,7 @@ const sidebars: SidebarsConfig = {
         'governance-and-automation/scheduled-reports',
         'governance-and-automation/configure-alerts',
         'governance-and-automation/manage-sensitivity-labels',
+        'governance-and-automation/inactive-content',
       ],
     },
     {
@@ -886,7 +872,6 @@ const sidebars: SidebarsConfig = {
             'point-collaborators/resolve-governance-tasks/privacy-review',
             'point-collaborators/resolve-governance-tasks/sensitivity-review',
             'point-collaborators/resolve-governance-tasks/inactive-workspaces',
-            'point-collaborators/resolve-governance-tasks/lifecycle-management',
             'point-collaborators/resolve-governance-tasks/guest-users-expiration',
             'point-collaborators/resolve-governance-tasks/minimum-number-of-owners',
             'point-collaborators/resolve-governance-tasks/maximum-number-of-owners',

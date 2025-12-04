@@ -23,8 +23,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
     * [To find out more on how to resolve the detected vulnerability, read the related Security & Compliance report article.](../../governance-and-automation/security-compliance-checks/inactive-workspaces.md)
   * Administrators can resolve the vulnerability, or workspace owners can resolve the task if task delegation is enabled.
     * [Read this article to learn how collaborators can resolve the Inactive Workspaces task.](../../point-collaborators/resolve-governance-tasks/inactive-workspaces.md)
-  * [The Inactive Workspaces report](../../reporting/analytics-reports.md#inactive-workspaces-report) has been improved to reflect the new Inactive Workspaces policy. 
-  * [For details on what will happen to the Lifecycle Management feature, please read this article.](../../governance-and-automation/lifecycle-management/deprecating-lifecyle-management.md)
+  * [The Inactive Workspaces report](../../reporting/analytics-reports.md#inactive-workspaces-report) has been improved to reflect the new Inactive Workspaces policy.
   
 * **New Review types available:**
   * **Sensitivity Review**

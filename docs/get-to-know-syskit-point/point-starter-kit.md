@@ -10,7 +10,7 @@ Your flow of using Syskit Point can go like this, and we will explain each part 
 
 * [**Discover**](#discover-microsoft-365-inventory): Start by centralizing users, structure, and workspaces across Microsoft 365 Groups, Microsoft Teams, OneDrive, SharePoint, and Power Platform services.
 * [**Secure**](#secure-reporting-and-management) & [**Protect**](#protect-auditing): Drill down and dig deep to get a detailed overview of who has access to what and audit user actions, including external users, supported by bulk management actions.
-* [**Efficient Control**](#control-governance-automation-and-lifecycle-management): Automate and enforce governance procedures and policies across Microsoft 365 to gain control over all processes. Manage workspaces lifecycle from its creation to its end of life.
+* [**Efficient Control**](#control-governance-automation-and-lifecycle-management): Automate and enforce governance procedures and policies across Microsoft 365 to gain control over all processes. Manage workspace lifecycle from its creation to its end of life.
 * **Collaborate**: Make end users your reliable partners in governance. Enable them to help you secure the data and manage their workspaces to reduce uncontrolled sprawl and unnecessary sharing.
 
 :::warning
@@ -24,7 +24,7 @@ Gain a highly accurate and centralized view of all users and workspaces **across
 
 Drill down into detailed reports about structure, memberships, permissions, and much more - gain efficiency and secure your data. Avoid jumping from one admin center to another.
 
-![Syskit Point - Home screen](../../static/img/point-starter-kit-home-screen.png)
+![Syskit Point - Home screen](../../static/img/point-starter-kit-home-screen-all.png)
 
 ## Users Overview
 
@@ -35,19 +35,19 @@ You can also click on a specific user through the Users Overview screen. The use
 * General information about the user
 * The user's analytics and usage
 * Microsoft Teams and Group Memberships the user is a part of
-* Which workplaces the user has access to
+* Which workspaces does the user have access to
 
 ## Sites, Microsoft Teams, Groups, OneDrive Overviews
 
-These overviews can also be found directly on the home screen, and **allows you to explore and filter through your** [**Sites**](../microsoft365-inventory/sites.md)**,** [**Microsoft Teams & Groups**](../microsoft365-inventory/microsoft-teams-and-groups.md)**, and OneDrive**. Selecting one or more sites also gives you a lot of useful details as well as the ability to **manage different options for the sites with one simple click**. You can also click on a specific site for a more detailed overview of it. Here you'll find information like:
+These overviews can also be found directly on the home screen, and **allow you to explore and filter through your** [**Sites**](../microsoft365-inventory/sites.md)**,** [**Microsoft Teams & Groups**](../microsoft365-inventory/microsoft-teams-and-groups.md)**, and OneDrive**. Selecting one or more sites also gives you a lot of useful details as well as the ability to **manage different options for the sites with one simple click**. You can also click on a specific site for a more detailed overview of it. Here you will find information like:
 
 * Overview of the site with the number of users, external users, anonymous links, and unique permissions
 * Content overview, which includes a list of all files included in the site
 * Who has permission for the site
 
-\--> Learn how to [Navigate](navigate-through-syskit-point.md) through Syskit Point.
+➡ Learn how to [Navigate](navigate-through-syskit-point.md) through Syskit Point.
 
-\--> Learn more about the [Dashboard](../microsoft365-inventory/explore-your-microsoft-365-dashboard.md) and get the entire picture of the **Microsoft 365 environment**.
+➡ Learn more about the [Dashboard](../microsoft365-inventory/explore-your-microsoft-365-dashboard.md) and get the entire picture of the **Microsoft 365 environment**.
 
 ## SECURE: REPORTING AND MANAGEMENT
 
@@ -60,8 +60,8 @@ With the one-click report generation, these detailed insights make it easy to ma
 There are many reports available in Syskit Point, and **the categories that the reports cover** are:
 
 * [**Permissions**](../reporting/access-reports.md): Detect and manage who has access to what across Microsoft 365 sites. Drill down into user permissions and memberships. Detect broken inheritance for all your content where permissions differ from a parent!
-* [**External Sharing**](../reporting/external-sharing-reports.md): Control external access and excessive content sharing. Find all external users, and guests, and detect externally shared content along with all sharing links.
-* [**License Usage**](../reporting/licenses-reports.md): Discover assigned, unassigned, and inactive Microsoft 365 licenses and the overall cost or find and reclaim licenses assigned to inactive or blocked users - optimize the budget.
+* [**External Sharing**](../reporting/external-sharing-reports.md): Control external access and excessive content sharing. Find all external users and guests, and detect externally shared content along with all sharing links.
+* [**License Usage**](../reporting/licenses-reports.md): Discover assigned, unassigned, and inactive Microsoft 365 licenses and the overall cost, or find and reclaim licenses assigned to inactive or blocked users - optimize the budget.
 * [**Cleanup**](../reporting/cleanup-and-health-reports.md): Check Microsoft 365 Groups and Microsoft Teams with disabled or deleted owners and assign new ones. Identify and remove orphaned users.
 
 ![Syskit Point - Reports](../../static/img/point-starter-kit-reports.png)
@@ -77,7 +77,7 @@ Some of the options include:
 * Manage Microsoft Teams and Groups **membership and ownership**.
 * **Restore permissions inheritance** on items where you find unique permissions.
 
-\--> Learn how to use [Access Management](../access-management/)
+➡ Learn how to use [Access Management](../access-management/)
 
 ## PROTECT: AUDITING
 
@@ -93,9 +93,9 @@ Control how your sensitive data is being used and accessed!
 * Deleting or creating sites, teams, or groups
 * Changing admins or modifying organization-wide settings
 
-\--> Learn how to [turn on auditing](../configuration/turn-on-auditing.md) in the Microsoft 365 Security & Compliance Center
+➡ Learn how to [turn on auditing](../configuration/turn-on-auditing.md) in the Microsoft 365 Security & Compliance Center
 
-\--> Learn how to track [external users](../access-management/track-external-users-and-their-activities.md) and their activity.
+➡ Learn how to track [external users](../access-management/track-external-users-and-their-activities.md) and their activity.
 
 **Plus**: Set up [alerts](../governance-and-automation/configure-alerts.md), prevent security issues, get real-time updates, and react quickly.
 
@@ -110,19 +110,23 @@ Manage workspace lifecycles from creation to end with **automated actions and po
 * [**Set up provisioning**](../governance-and-automation/provisioning/)
   * **Control workspace creation and avoid sprawl**: Set up **templates for new workspace requests** for Teams, Groups, sites, and Viva Engage communities with custom metadata, naming, and governance policies in place.
   * **Unburden IT teams and simplify the process for end-users**: Customize requests and approval workflows with our user-friendly Teams app.
+* [**Maintain control over your workspace**](../governance-and-automation/workspace-review/monitor-workspace-review/workspace-review-governance.md)
+  * Enable your admins to define workspace review policies that are triggered during specified review cycles.
+  * Allow workspace owners to regularly review their workspace's memberships, sharing settings, external users, sensitivity, privacy, permissions, or ownership levels.
+  * Delegate responsibility to those with the best operational knowledge and select your reviewers.
 * [**Collaborate on access reviews**](../governance-and-automation/permissions-review/)
   * Enable your admins to set up automated requests.
   * Allow content owners to regularly review workspace memberships, sharing, and external users.
   * Delegate the responsibility to those with the best operational knowledge – content owners.
 * **Enforce** [**governance policies and rules**](../governance-and-automation/automated-workflows/README.md)
   * Re-certify guest users, clean up orphaned workspaces, and enforce ownership best practices.
-* [**Keep your tenant clean**](../governance-and-automation/lifecycle-management/)
-  * Automatically detect inactive SharePoint sites, groups, and teams.
+* [**Keep your tenant clean**](../governance-and-automation/automated-workflows/inactive-workspaces-admin.md)
+  * Detect inactive SharePoint sites, groups, and teams.
   * Define policies for keeping, deleting, or archiving data.
 
 ## Set Up Your Syskit Point
 
-Now that you know just some of the benefits of using Syskit Point, **there are a few things you'll need to set up before you can start**.
+Now that you know just some of the benefits of using Syskit Point, **there are a few things you will need to set up before you can start**.
 
 Follow the instructions in these articles to get started:
 
