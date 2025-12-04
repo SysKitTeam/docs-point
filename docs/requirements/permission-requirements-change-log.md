@@ -210,7 +210,7 @@ Due to [Outlook REST APIs being fully decommissioned on November 30, 2022](https
 
 | App Registration     | API/Permissions Name           | Permission                           | Type        | Reason                                                                                                                                  |
 | -------------------- | ------------------------------ | ------------------------------------ | ----------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Syskit Point Service | Microsoft Graph/Mail.ReadWrite | Read and write mail in all mailboxes | Application | Allows Syskit Point to send emails as a part of the Access Review, Workspace Review, Scheduled Reports, Alerts, and other features. |
+| Syskit Point Service | Microsoft Graph/Mail.ReadWrite | Read and write mail in all mailboxes | Application | Allows Syskit Point to send emails as a part of the Access Review, Workspace Review, Inactive Workspaces policy, Scheduled Reports, Alerts, and other features. |
 | Syskit Point Service | Microsoft Graph/Mail.Send      | Send mail as any user                | Application | Allows Syskit Point to send emails as a part of the Access Review, Workspace Review, Inactive Workspaces policy, Scheduled Reports, Alerts, and other features. |
 
 **The following permissions were removed from the existing Syskit Point service app registration**:

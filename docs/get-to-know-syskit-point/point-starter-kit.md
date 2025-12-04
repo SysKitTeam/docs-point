@@ -45,9 +45,9 @@ These overviews can also be found directly on the home screen, and **allow you t
 * Content overview, which includes a list of all files included in the site
 * Who has permission for the site
 
-\--> Learn how to [Navigate](navigate-through-syskit-point.md) through Syskit Point.
+➡ Learn how to [Navigate](navigate-through-syskit-point.md) through Syskit Point.
 
-\--> Learn more about the [Dashboard](../microsoft365-inventory/explore-your-microsoft-365-dashboard.md) and get the entire picture of the **Microsoft 365 environment**.
+➡ Learn more about the [Dashboard](../microsoft365-inventory/explore-your-microsoft-365-dashboard.md) and get the entire picture of the **Microsoft 365 environment**.
 
 ## SECURE: REPORTING AND MANAGEMENT
 
@@ -77,7 +77,7 @@ Some of the options include:
 * Manage Microsoft Teams and Groups **membership and ownership**.
 * **Restore permissions inheritance** on items where you find unique permissions.
 
-\--> Learn how to use [Access Management](../access-management/)
+➡ Learn how to use [Access Management](../access-management/)
 
 ## PROTECT: AUDITING
 
@@ -93,9 +93,9 @@ Control how your sensitive data is being used and accessed!
 * Deleting or creating sites, teams, or groups
 * Changing admins or modifying organization-wide settings
 
-\--> Learn how to [turn on auditing](../configuration/turn-on-auditing.md) in the Microsoft 365 Security & Compliance Center
+➡ Learn how to [turn on auditing](../configuration/turn-on-auditing.md) in the Microsoft 365 Security & Compliance Center
 
-\--> Learn how to track [external users](../access-management/track-external-users-and-their-activities.md) and their activity.
+➡ Learn how to track [external users](../access-management/track-external-users-and-their-activities.md) and their activity.
 
 **Plus**: Set up [alerts](../governance-and-automation/configure-alerts.md), prevent security issues, get real-time updates, and react quickly.
 
