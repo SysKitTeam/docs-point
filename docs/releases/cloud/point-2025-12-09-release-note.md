@@ -16,6 +16,9 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Improvements made to Workspace Review.**
   * When a Workspace Review is manually requested for a workspace without the policy assigned, a dialog appears informing the admin that one or more selected workspaces do not have a Workspace Review policy applied.
-  * A drop-down menu is provided with a list of available Workspace Review policies and, after selecting one, you can click the Request Review button. 
+  * A drop-down menu is provided with a list of available Workspace Review policies, and after selecting one, you can click the Request Review button. 
+
+* **Improved the License Reports settings screen.**
+  * Licenses are now grouped into tiles: **Microsoft 365 Core and Enterpise Plans**, **Add-ons**, and **Other**.
 
 * **Various improvements, including UX and UI fixes, are available.**
