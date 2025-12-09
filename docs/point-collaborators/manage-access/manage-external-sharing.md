@@ -4,7 +4,7 @@ description: This article provides details helpful to group owners on how to Man
 
 # Manage External Sharing 
 
-External Sharing is the **ability to share documents, folders, and sites** with someone who is not part of your Teams or Sites usually or might not even be within your organization.
+External Sharing is the **ability to share documents, folders, and sites** with someone who is usually not part of your Teams or Sites,  or might not even be within your organization.
 
 This can be done through **sharing links or by adding external users** to Microsoft Teams & Groups or sites.
 
@@ -45,8 +45,8 @@ Under the External Collaboration section, you will have two options to manage ex
 To manage external users:
  * Click the **External Users button**, and you will be redirected to the Users site with the **filter showing External Users**
  * Here you will be able to access the **User Activity and User Access reports** and can complete the **following actions**:
-    * Add to Groups
-    * Configure Alerts
+    * **Add to Groups**
+    * **Configure Alerts**
  * Additionally, clicking on the user and opening the user details screen provides the option to:
     * **Promote to Owner**
     * **Remove from Group**
@@ -73,13 +73,16 @@ To start, complete the next steps:
 
  * Click the Sites with External Sharing button, and you will be redirected to the Sites page with the **filter showing Externally Shared Sites (1)**
  * Selecting an externally shared site provides the following options, located on the right side of the screen:
-   * Change Owners
-   * Add Owners/Members
-   * Remove Owners/Members
-   * Configure Alerts
-   * Manage Metadata
-   * Manage Sensitivity
-   * Manage Privacy
+   * **Change Owners**
+   * **Change Admins** (for SharePoint sites)
+   * **Add Owners/Members**
+   * **Add Admins** (for SharePoint sites)
+   * **Remove Owners/Members**
+   * **Remove Admins** (for SharePoint sites)
+   * **Configure Alerts**
+   * **Manage Metadata**
+   * **Manage Sensitivity**
+   * **Manage Privacy**
 
 Clicking on a site will open the details screen for that site and provide several more actions you can take.
 
@@ -99,7 +102,7 @@ Scrolling to the Lifecycle Management section on the left side, you can choose t
   * **Archive** the workspace
   * **Delete** the workspace
 
-In the middle part, under the content section, you will find a list of all content included in this site. Depending on the item selected, you will have additional options to:
+In the middle part, under the content section, you will find a list of all the content included in this site. Depending on the item selected, you will have additional options to:
   * **Stop Inheriting Permissions**
   * **Delete Unique Permissions**
 
@@ -139,7 +142,7 @@ To manage links shared with anyone, complete the following:
 
 While talking about proper governance and Microsoft 365 security, one of the first things you will want to expose and address is all the content under your ownership that is shared with anyone. 
 
-This segment potentially exposes you and your organization to data leakage and should be one of your priorities. Through Syskit Point – you can achieve this in a couple of clicks.
+This segment potentially exposes you and your organization to data leakage and should be one of your priorities. Through Syskit Point, you can achieve this in a couple of clicks.
 
 To manage sites that have been shared with anyone, go back to the **External Collaboration section of the Dashboard**. 
 
@@ -147,26 +150,36 @@ To start, complete the next steps:
 
  * Click the Sites Shared with Anyone button, and you will be redirected to the Sites page with the **filter showing Anonymously Shared Sites (1)**
  * Selecting an externally shared site provides the following options, located on the right side of the screen:
-   * Add Admins
-   * Remove Admins
-   * Change Admins
-   * Configure Alerts
-   * Change Metadata
+   * **Change Owners**
+   * **Change Admins** (for SharePoint sites)
+   * **Add Owners/Members**
+   * **Add Admins** (for SharePoint sites)
+   * **Remove Owners/Members**
+   * **Remove Admins** (for SharePoint sites)
+   * **Configure Alerts**
+   * **Manage Metadata**
+   * **Manage Sensitivity**
+   * **Manage Privacy**
 
 Clicking on a site will open the details screen for that site and provide several more actions you can take.
 
 On the right side of the screen, under Manage, you will have the option to:
 
-  * **Grant Access** - where you can add users to the site and assign the level of access you want to provide
-  * **Change Admins** - allows you to change the admins in charge of the side
-  * **Configure Alerts** - lets you set up specific alerts for your site
+  * **Grant Access** - where you can add users to the workspace and assign the level of access you want to provide
+  * **Change Admins** - define primary and site admins for a SharePoint site
+  * **Change Owners** - allows you to change the owners in charge of the workspace
+  * **Add Owners/Members** - lets you add owners or members to the workspace
+  * **Configure Alerts** - lets you set up specific alerts for your workspace
+  * **Manage Metadata** - lets you manage the metadata attached to the workspace
+  * **Manage Sensitivity** - lets you manage the sensitivity labels attached to the workspace
+  * **Manage Privacy** - lets you manage the privacy level of the workspace
 
 Scrolling to the Lifecycle Management section on the left side, you can choose to: 
-  * **Keep** the site
-  * **Archive** the site
-  * **Delete** the site
+  * **Keep** the workspace
+  * **Archive** the workspace
+  * **Delete** the workspace
 
-In the middle part, under the content section, you will find a list of all content that is included in this site. Depending on the item selected, you will have additional options to:
+In the middle part, under the content section, you will find a list of all the content that is included in this site. Depending on the item selected, you will have additional options to:
   * **Stop Inheriting Permissions**
   * **Delete Unique Permissions**
 
