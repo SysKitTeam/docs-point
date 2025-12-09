@@ -485,7 +485,7 @@ const sidebars: SidebarsConfig = {
         id: 'configuration/README',
       },
       items: [
-        'configuration/how-to-configure-Point',
+        'configuration/how-to-configure-point',
         'configuration/enable-role-based-access',
         'configuration/microsoft-teams-activity',
         'configuration/configure-storage-management',
