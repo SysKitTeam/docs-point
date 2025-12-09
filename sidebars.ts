@@ -747,7 +747,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'power-platform/power-platform-overview',
         'power-platform/enable-power-platform',
-        'power-platform/enable-powerBI-data-collection',       
+        'power-platform/enable-powerbi-data-collection',       
         {
           type: 'category',
           label: 'Power Platform Reports',

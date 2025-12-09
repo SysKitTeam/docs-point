@@ -13,7 +13,7 @@ Connecting your Power Platform to Syskit Point provides you with a **centralized
 In this section, you can find the following Power Platform articles that tell you how to:
 
 * [Enable Power Platform Data Collection](enable-power-platform.md)
-* [Enable Power BI Data Collection](../power-platform/enable-powerBI-data-collection.md)
+* [Enable Power BI Data Collection](../power-platform/enable-powerbi-data-collection.md)
 * [Generate Power Platform Reports](power-platform-reports/README.md)
 * [Manage Your Power Platform](../power-platform/power-platform-actions.md)
  
