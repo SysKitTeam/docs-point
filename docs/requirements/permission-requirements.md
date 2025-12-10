@@ -250,7 +250,7 @@ Permissions are added when Power BI or Power Apps and Power Automate data collec
 * read-only access to all the information available through Power BI admin APIs; for example, user names and emails, dataset and report detailed metadata
 * read-only access to detailed metadata about Power BI items; for example, responses from GetScanResult APIs will contain the names of dataset tables and columns
 
-[Read the following article to learn how to enable Power BI data collection in Syskit Point.](../power-platform/enable-powerBI-data-collection.md)
+[Read the following article to learn how to enable Power BI data collection in Syskit Point.](../power-platform/enable-powerbi-data-collection.md)
 
 **Power Apps and Power Automate**
 

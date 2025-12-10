@@ -485,7 +485,7 @@ const sidebars: SidebarsConfig = {
         id: 'configuration/README',
       },
       items: [
-        'configuration/how-to-configure-Point',
+        'configuration/how-to-configure-point',
         'configuration/enable-role-based-access',
         'configuration/microsoft-teams-activity',
         'configuration/configure-storage-management',
@@ -747,7 +747,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'power-platform/power-platform-overview',
         'power-platform/enable-power-platform',
-        'power-platform/enable-powerBI-data-collection',       
+        'power-platform/enable-powerbi-data-collection',       
         {
           type: 'category',
           label: 'Power Platform Reports',

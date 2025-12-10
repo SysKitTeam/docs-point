@@ -1,4 +1,5 @@
 ---
+id: how-to-configure-point
 description: This article helps you learn everything you need to start using your Syskit Point. 
 ---
 
