@@ -25,10 +25,15 @@ This article will show you how to:
 
 To modify license report settings, navigate to **Settings** &gt; **License Reports (1)**.
 Here, you can:
-* **Define the number of days after which users will be considered inactive (2)** – the value is used in the Inactive Licenses and Licenses Usage by Service reports; by default, this is set to 30 days
-* **Define the currency used in license reports (3)** – the currency is displayed on the Licenses Overview, and License Distribution reports, as well as the Dashboard; by default, this is set to USD
-* **Define monthly license price per user (4)** – prices are used to calculate total costs on the Licenses Overview and License Distribution reports
-Once you are finished with the modifications, **click Save (5)**.
+* **Define the number of days after which users will be considered inactive (2)** – the value is used in the Inactive Users with Assigned Licenses and Licenses Usage by Service reports; by default, this is set to 30 days
+* **Define the number of days an add-on license must remain unused to be considered an unused license (3)** – the value is used in the Inactive Users with Assigned Licenses and Licenses Usage by Service reports; by default, this is set to 30 days
+* **Define monthly license price per user for**:
+  * **Microsoft 365 Core and Enterprise Plans** licenses
+  * **Microsoft Add-on** licenses
+  * **Other** licenses
+  * Prices entered here are used to calculate total costs on the Licenses Overview and License Distribution reports
+  
+Once you are finished with the modifications, **click Save (6)**.
 
 ![License Reports Settings](../../static/img/customize-license-reports-settings.png)
 
