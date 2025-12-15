@@ -30,10 +30,3 @@ The **Edit Policy** dialog opens, where you can:
 Once you've selected the options that best suit your needs for this policy, **click the Save button (4)** to store your preferences.
 
 ![Blocked Users with Assigned Licenses - Severity](../../../static/img/orphaned-users-admin-policy.png)
-
-:::warning
-
-**Please note!**  
-If automation is selected to resolve the Orphaned Users vulnerability, **Syskit Point also removes OneDrives** from sites with orphaned users.
-
-:::
