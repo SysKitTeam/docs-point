@@ -22,6 +22,13 @@ On the task overview screen, you can find information on what is expected of you
 
 * The **Review button (5)**, which you can click when you're ready to start your review.
 
+:::info
+**Please note!** 
+
+If there are no Sharing Links to report, this step in the review is automatically skipped. Each section that does not have data to report, is automatically skipped. 
+
+:::
+
 
 ## Review Expired Links
 

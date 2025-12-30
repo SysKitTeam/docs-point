@@ -4,6 +4,13 @@ description: This article provides an overview of the Workspace Review Wizard 'E
 
 # Workspace Review Everyone
 
+:::info
+**Please note!** 
+
+If there is no content shared with large "Everyone" Groups to report, this step in the review is automatically skipped.
+
+:::
+
 The first screen on the Everyone step is the task overview. Here, you can find information on what is expected of you for this step:
 
 * You will be asked to **review content shared with "All Users", "Everyone", or "Everyone Except External Users"**. 
