@@ -560,6 +560,7 @@ const sidebars: SidebarsConfig = {
           },
           items: [
             'governance-and-automation/workspace-review/setup-workspace-review',
+            'governance-and-automation/workspace-review/reminders',
             {
               type: 'category',
               label: 'Monitor Workspace Review',
@@ -854,6 +855,7 @@ const sidebars: SidebarsConfig = {
             'point-collaborators/workspace-review/privacy-sensitivity',
             'point-collaborators/workspace-review/membership-step',
             'point-collaborators/workspace-review/shadow-users-step',
+            'point-collaborators/workspace-review/everyone-step',
             'point-collaborators/workspace-review/sharing-step',
             'point-collaborators/workspace-review/summary-step',
           ],
