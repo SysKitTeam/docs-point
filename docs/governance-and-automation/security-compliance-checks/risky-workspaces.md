@@ -20,6 +20,6 @@ Here, you can find the following information:
 * **Risk Score** - shows a numerical score for the risk assessment, calculated based on various health factors
 * **Risk Severity** - shows the level of severity for the risky workspace 
 * **Risk Factors** - shows all of the potential vulnerabilities that were detected on the risky workspace
-* **Clicking the ellipsis** (three dots) in the right corner of each workspace provides options for reports that can highlight the vulnerabilities for that workspace
+* **Clicking the ellipsis** (three dots) in the right corner of each workspace provides options for reports that can be generated to highlight the vulnerabilities for that workspace
 
 ![Risky Workspaces View](../../../static/img/risky-workspaces-view.png)
