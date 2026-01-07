@@ -25,7 +25,7 @@ Added columns are also visible in the generated Excel file when exporting to XLS
 
 * **Fixed a bug** with Users sync, which would fail for users with unexpected characters in various user properties. Sync failed with the following error: `SysKit.Point.SPO.Graph.GraphException : There was an unexpected error performing the graph batch request. System.Text.Json.JsonReaderException : '0x0D' is invalid within a JSON string. The string should be correctly escaped.` 
 
-* **Fixed a bug** where provisioning of Teams failed with the following error `System.Exception: Team with group id <groupID> was not created. <n> attempts made.`. 
+* **Fixed a bug** where provisioning of Teams failed with the following error `System.Exception: Team with group id <groupID> was not created. <n> attempts made.`
 
 * **Fixed an issue** where clicking the Resolve button for a task on the Tasks screen resulted in an error. The issue was limited to groups with a large number of members.
 
@@ -33,5 +33,5 @@ Added columns are also visible in the generated Excel file when exporting to XLS
 
 * **Various improvements, including UX and UI fixes, are available.**
   * **Fixed the date format** visible in the Start Date field and the first Workspace Review start date information visible on the Create New Policy dialog when creating a new Workspace Review policy.
-  * **The Apply policy dialog is now automatically displayed after policy creation**. It shows 2 options for applying the created policy: Apply Automatically with Rules (Recommended) and Manually Apply Policies.
+  * **The Apply policy dialog is now automatically displayed after the policy is created**. It shows 2 options for applying the created policy: Apply Automatically with Rules (Recommended) and Manually Apply Policies.
 
