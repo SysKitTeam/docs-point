@@ -32,6 +32,6 @@ Once you've selected the options that best suit your needs for this policy, **cl
 ![Blocked Users with Assigned Licenses - Severity](../../../static/img/orphaned-users-admin-policy.png)
 
 :::info
-**Policy vulnerability is not detected for OneDrive workspaces where the Primary admin is blocked or deleted**, as this is expected during user offboarding and similar scenarios.
-**Primary admins cannot be deleted from a workspace** automatically. This requires manual intervention and replacing the deleted or blocked Primary admin with an active user. 
+* **Policy vulnerability is not detected for OneDrive workspaces where the Primary admin is blocked or deleted**, as this is expected during user offboarding and similar scenarios.
+* **Primary admins cannot be deleted from a workspace** automatically. This requires manual intervention and replacing the deleted or blocked Primary admin with an active user. 
 :::
