@@ -30,7 +30,7 @@ Two modes of policy operation for Governance policies are available in Syskit Po
 The following are **detection-only policies** that are applied tenant-wide: 
 * [**Blocked Users with Assigned Licenses (Tenant-Wide)**](../../governance-and-automation/security-compliance-checks/blocked-users-assigned-license.md) 
 * [**Orphaned Users (Tenant-Wide)**](../../governance-and-automation/security-compliance-checks/orphaned-users.md)
-* [**Workspaces with Expired Sharing Links (Tenant-Wide**](../../governance-and-automation/security-compliance-checks/workspaces-with-expired-sharing-links.md)
+* [**Workspaces with Expired Sharing Links (Tenant-Wide)**](../../governance-and-automation/security-compliance-checks/workspaces-with-expired-sharing-links.md)
 * [**Workspaces with shadow users**](../../governance-and-automation/security-compliance-checks/workspaces-with-shadow-users.md) 
 * [**Workspaces with too many members**](../../governance-and-automation/security-compliance-checks/workspaces-with-too-many-members.md)
 
