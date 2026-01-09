@@ -28,7 +28,7 @@ There are 2 options on how to resolve the detected vulnerability:
 
 Here, you can find more details if you decide to manually resolve the Orphaned Users vulnerability.
 
-On the Security & Compliance dashboard, click the **Orphaned Users** button to see the report.
+On the Security & Compliance dashboard, click the **Orphaned Users** vulnerability to open the report.
 
 The Orphaned Users screen opens, showing a list of all **users who have the sign-in blocked or are deleted from Microsoft Entra ID** without having their SharePoint permissions revoked.
 
