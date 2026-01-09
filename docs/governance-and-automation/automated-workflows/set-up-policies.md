@@ -18,7 +18,7 @@ To use the advantages of Policies in Syskit Point, you need to:
 Additionally, you can also [set up policy rules](../../governance-and-automation/automated-workflows/policy-automation.md) to have policies automatically applied to current and all future workspaces without having to assign them manually. 
 
 :::warning
-**Please note!**
+**Please note!**\
 Only users assigned the role of **Syskit Point Admin** can access and configure Settings in Syskit Point.
 :::
 
@@ -58,6 +58,7 @@ Task Delegation can be enabled in policy settings for each policy listed below.
 
 **When task delegation is enabled, Syskit Point creates tasks and sends emails to users as defined in the policy settings**.
 
+:::warning
 **Please note!**\
 Summarized policy vulnerability emails will be gradually rolled out, beginning with the Point Cloud 2024.2.45 release.
 After this change, Syskit Point will no longer send individual e-mails for each workspace or user where a policy vulnerability was discovered.  
@@ -72,7 +73,8 @@ After this change, Syskit Point will no longer send individual e-mails for each 
 * **When you acquire Syskit Point, default policies are created with task delegation disabled.** Edit the default policies settings to enable task delegation.
 
 :::info
-**Please note!** If a user, security group, or mail-enabled security group is added to the Governance-Excluded Users list, they do not receive any Governance-related tasks or task-related e-mails. [For more details on setting up Governance-Excluded Users, take a look at this article.](../../configuration/exclude-users-tasks.md)
+**Please note!**\
+ If a user, security group, or mail-enabled security group is added to the Governance-Excluded Users list, they do not receive any Governance-related tasks or task-related e-mails. [For more details on setting up Governance-Excluded Users, take a look at this article.](../../configuration/exclude-users-tasks.md)
 :::
 
 ## Syskit Point Policies
@@ -122,10 +124,16 @@ To **open the Policies settings screen**, navigate to **Settings** &gt; **Govern
 
 Here, you can:
 * **Create a new policy (1)**
-* **Manage and apply policies to Microsoft Teams, Microsoft 365 Groups, OneDrive, and sites (2)**
-* **View all predefined policies by name (3)**; Syskit Point comes with multiple predefined policies to help you get started.
-* **View additional information about each policy**; the following information is available: **policy type (4)**, **severity of policy(5)**, **category policy fits under (6)**, **to how many workspaces a policy is applied (7)**, and **whether the policy is automated or not (8)**
-* **Manage policies (9)**; **Edit** and **Delete** actions are provided for each policy, **except for those applied tenant-wide and the default policies used by the default rule.**
+* **Apply policies to workspaces based on conditions via Rules (2) or manually (3) by selecting the desired workspaces**.
+* **View all predefined policies by name (4)**; Syskit Point comes with multiple predefined policies to help you get started.
+* **View additional information about each policy**:
+  * **Created By (5)**
+  * **Policy Type (6)**
+  * **Severity (7)**,
+  * **To how many workspaces a policy is applied (8)**
+  * **Status (9)**  
+  * **Task Delegation (10)** status - Enabled or not
+* **Manage policies (11)**; **Edit** and **Delete** actions are provided for each policy, **except for those applied tenant-wide and the default policies used by the default rule, which cannot be deleted.**
 
 ![Policy Settings](../../../static/img/set-up-policies-settings.png)
 
@@ -140,10 +148,12 @@ When you decide to modify existing governance policies, there is a notification 
   * Once changes are made, previously detected vulnerabilities and tasks are examined again and closed if the workspace no longer violates the defined parameters. 
   * All workspaces are rechecked; if any vulnerabilities now exist, they are detected, and tasks are created if needed.
  * **Turning on the task delegation for the first time results in tasks being created and emails being sent** within 24 hours.
-* **Modifying the task delegation options**, in case the task delegation is already enabled for a policy, results in new options being applied to future vulnerabilities. **Existing tasks stay the same.
+* **Modifying the task delegation options**, in case the task delegation is already enabled for a policy, results in new options being applied to future vulnerabilities. 
+* **Existing tasks stay the same**.
 
 :::info
-**Hint**! If you want to apply new task delegation options to all tasks, turn off task delegation - which closes all existing tasks - and turn it on again, which creates new tasks with the new settings applied. 
+**Hint**!\
+ If you want to apply new task delegation options to all tasks, turn off task delegation - which closes all existing tasks - and turn it on again, which creates new tasks with the new settings applied. 
 
 :::
 

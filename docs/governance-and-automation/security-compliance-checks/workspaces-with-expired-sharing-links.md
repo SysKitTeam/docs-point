@@ -6,7 +6,7 @@ description: This article provides information on the Workspaces with Expired Sh
 
 Syskit Point detects expired sharing links in workspaces, which should be deleted to reduce clutter and increase security.
 
-Expired sharing links don't provide access anyway; therefore, deleting them poses a low-impact action, but still contributes to improved security posture of your tenant.
+Expired sharing links don't provide access anyway; therefore, deleting them poses a low-impact action, but still contributes to the improved security posture of your tenant.
 
 ## Workspaces with Expired Sharing Links Policy
 
@@ -44,8 +44,9 @@ You can also:
   * Click the button to open the Workspaces with Expired Sharing Links policy settings and select from one of the available automation options.
   * **Syskit Point can automatically remove expired sharing links and resolve the vulnerability**, which is the recommended option here.
 
-:::info
-* **It can take up to 24 hours for the vulnerabilities to appear on the Security & Compliance dashboard and for the expired sharing links to be deleted if the automatic resolving option is selected.**
+:::warning
+* **Please note!**\
+**It can take up to 24 hours for the vulnerabilities to appear on the Security & Compliance dashboard and for the expired sharing links to be deleted if the automatic resolving option is selected.**
 :::
 
 ![Workspaces with Expired Sharing Links](../../../static/img/security-compliance-checks-workspaces-with-expired-sharing-links.png)

@@ -11,8 +11,8 @@ The **Security and Compliance Checks**, visible directly on your Syskit Point ho
 Collecting all the important information about the security and compliance state of your environment is a time-consuming and repetitive administration task. **Syskit Point performs regular security and compliance checks** for you, and **presents the results directly on your home screen**.
 
 :::info
-**Please note:** The Security and Compliance checks **email is sent to Syskit Point admins weekly**, on Wednesdays.
-
+**Please note!**\
+The Security and Compliance checks **email is sent to Syskit Point admins weekly**, on Wednesdays.
 * If there are no vulnerabilities in your environment, no email is sent.
 * If Wednesday is less than 2 days from your installation date, the email will be sent next week.
 :::
@@ -79,5 +79,6 @@ Take a look at the following articles to learn how to settle your security and c
 * [**Workspaces with shadow users**](workspaces-with-shadow-users.md)
 
 :::warning
-**Please note!**   In case you have any security and compliance checks that need to be resolved, an **email is automatically sent each Wednesday** to Syskit Point admins. Click the **Resolve button** within the email to access the reports in Syskit Point directly and perform the needed actions.
+**Please note!**\
+   In case you have any security and compliance checks that need to be resolved, an **email is automatically sent each Wednesday** to Syskit Point admins. Click the **Resolve button** within the email to access the reports in Syskit Point directly and perform the needed actions.
 :::
