@@ -45,8 +45,8 @@ You can also:
   * **Syskit Point can automatically remove expired sharing links and resolve the vulnerability**, which is the recommended option here.
 
 :::warning
-* **Please note!**\
-**It can take up to 24 hours for the vulnerabilities to appear on the Security & Compliance dashboard and for the expired sharing links to be deleted if the automatic resolving option is selected.**
+**Please note!**\
+It can take up to 24 hours for the vulnerabilities to appear on the Security & Compliance dashboard and for the expired sharing links to be deleted if the automatic resolving option is selected.
 :::
 
 ![Workspaces with Expired Sharing Links](../../../static/img/security-compliance-checks-workspaces-with-expired-sharing-links.png)
