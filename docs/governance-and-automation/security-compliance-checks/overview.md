@@ -10,7 +10,7 @@ The **Security and Compliance Checks**, visible directly on your Syskit Point ho
 
 Collecting all the important information about the security and compliance state of your environment is a time-consuming and repetitive administration task. **Syskit Point performs regular security and compliance checks** for you, and **presents the results directly on your home screen**.
 
-:::info
+:::warning
 **Please note!**\
 The Security and Compliance checks **email is sent to Syskit Point admins weekly**, on Wednesdays.
 * If there are no vulnerabilities in your environment, no email is sent.
@@ -35,7 +35,7 @@ On your home screen, you can see the number of:
 
 You are also able to apply policies manually or [set up policy rules](../automated-workflows/policy-automation.md) if you haven't already, by clicking the **Manage Policies button**.
 
-![Security & Compliance checks - Home](../../../static/img/security-and-compliance-checks-home.png)
+![Security and Compliance checks - Home](../../../static/img/security-and-compliance-checks-home.png)
 
 After clicking View All, the Security and Compliance checks dashboard will open, showing the vulnerabilities:
 
@@ -51,14 +51,15 @@ After clicking View All, the Security and Compliance checks dashboard will open,
 * **Workspaces with Too Many Owners** – shows the number of workspaces with too many owners. If there are **too many owners, no one feels accountable for access and content management**. This helps you keep track of and remove extra members. &#x20;
 * **Tenant Storage Limit (10)** - shows whether you reached the tenant storage limit based on the percentage set for the policy.
 
-![Security & Compliance Checks](../../../static/img/security-compliance-checks-dashboard.png)
+![Security and Compliance Checks](../../../static/img/security-compliance-checks-dashboard.png)
 
 ## Automated Governance
 
 To keep all vulnerabilities **under control proactively and prevent possible issues**, explore and [**set up governance policies**](../automated-workflows/set-up-policies.md) **and** [**policy rules**](../automated-workflows/policy-automation.md) in Syskit Point.
 
-:::info
-**Please note!** If a user, security group, or mail-enabled security group is added to the Governance-Excluded Users list, those users do not receive any Governance-related tasks or task-related emails. [For more details on setting up Governance-Excluded Users, take a look at this article.](../../configuration/exclude-users-tasks.md)
+:::warning
+**Please note!**\
+ If a user, security group, or mail-enabled security group is added to the Governance-Excluded Users list, those users do not receive any Governance-related tasks or task-related emails. [For more details on setting up Governance-Excluded Users, take a look at this article.](../../configuration/exclude-users-tasks.md)
 :::
 
 &#x20;
