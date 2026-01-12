@@ -13,7 +13,6 @@ License reports can be used to discover assigned, unassigned, or inactive Micros
 
 This article will show you how to:
 * **Define the number of days after which users will be considered inactive**
-* **Change the currency** used in license reports
 * **Specify monthly license price per user**
 * **Show/hide license reports for users with the assigned Syskit Point Collaborators role**
 
