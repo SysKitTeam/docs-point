@@ -35,6 +35,7 @@ Below you can find details on:
 | Orphaned Workspaces | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site | Available | Workspace Members or Specific Users suggest new owners, Point Administrators or Custom recipients approve new owners | Not available |
 | Tenant Storage Limit | Tenant-Wide | Available | Syskit Point Administrators, Custom recipients |	Not available	|
 | Orphaned Users | Tenant-Wide | Not available | Not applicable | Not applicable |
+| Workspaces with Expired Sharing Links | Tenant-Wide | Not available | Not applicable | Not applicable |
 | Maximum Number of Members | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site | Not Available | Not applicable | Not applicable |
 | Workspaces with Shadow Users | Microsoft Teams, Microsoft 365 Group, Viva Engage Community, SharePoint Site | Not Available | Not applicable | Not applicable |
 | Private Workspaces Shared with Everyone | Microsoft Teams, Microsoft 365 Group, SharePoint Site | Not Available | Not applicable | Not applicable |
