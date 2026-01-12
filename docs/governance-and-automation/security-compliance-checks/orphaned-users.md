@@ -4,7 +4,7 @@ description: This article provides information on the Orphaned Users report.
 
 # Orphaned Users
 
-Syskit Point detects users who have been disabled or deleted in Microsoft Entra ID but still have access to SharePoint content, which could lead to security risks if they become active again. 
+Syskit Point detects users who have been blocked from signing in or deleted from Microsoft Entra ID but still have access to SharePoint content, which could lead to security risks if they become active again. 
 
 Orphaned users are **all the users who have been blocked or deleted from Microsoft Entra ID** and:
   * Have access to workspace content, or
@@ -28,7 +28,7 @@ There are 2 options on how to resolve the detected vulnerability:
 
 Here, you can find more details if you decide to manually resolve the Orphaned Users vulnerability.
 
-On the Security & Compliance dashboard, click the **Orphaned Users** button to see the report.
+On the Security & Compliance dashboard, click the **Orphaned Users** vulnerability to open the report.
 
 The Orphaned Users screen opens, showing a list of all **users who have the sign-in blocked or are deleted from Microsoft Entra ID** without having their SharePoint permissions revoked.
 
@@ -36,10 +36,12 @@ The report itself provides information on:
   * **User (1)** name
   * **Detected (2)** - when the policy vulnerability was detected
   * **Username (3)** - the username of the orphaned user
-  * **E-Mail (4)** - the email of the orphaned user
+  * **Status (4)** - vulnerability status
   * **Manager (5)** - the name of the person who manages the orphaned user
   * **User Status (6)** - status of the user (deleted or blocked)
   * **Workspaces (7)** - the number of workspaces this user has access to
+
+Additionally, you can add the Email column by enabling it in the Column Chooser.   
 
 You can complete the following actions for the policy vulnerability:
 * **Click the workspaces number (8)** to open the Orphaned Users report, showing a list of workspaces where the orphaned user still has access.
