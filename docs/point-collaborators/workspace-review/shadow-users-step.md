@@ -11,13 +11,15 @@ The first screen on the Shadow Users step is the task overview. Here, you can fi
   * Review all the shadow users and make sure there is no unwanted access. Reviewing shadow users helps prevent unauthorized access and data exposure. By ensuring only the right people have access, you maintain workspace security, protect sensitive information, and keep permissions clear and compliant.
 
 * Explanation of how many sections this step has: 
-  * **Blocked Shadow Users (1)** - this section is only available if the admin selected it when [setting up the Workspace Review policy](../../governance-and-automation/workspace-review/setup-workspace-review.md)
-  * **Inactive External Shadow Users (2)** - this section is only available if the admin selected it when [setting up the Workspace Review policy](../../governance-and-automation/workspace-review/setup-workspace-review.md)
-  * **Review All Shadow Users (3)**
+  * [**Blocked Shadow Users (1)**](#remove-blocked-shadow-users) - this section is only available if the admin selected it when [setting up the Workspace Review policy](../../governance-and-automation/workspace-review/setup-workspace-review.md)
+  * [**Inactive External Shadow Users (2)**](#remove-inactive-external-shadow-users) - this section is only available if the admin selected it when [setting up the Workspace Review policy](../../governance-and-automation/workspace-review/setup-workspace-review.md)
+  * [**Review All Shadow Users (3)**](#review-all-shadow-users)
 
 * **Review button (4)** you can click when ready to start your review.
 
 ![Workspace Review - Shadow Users Step - Overview](../../../static/img/workspace-review-shadow-users-step-overview.png)
+
+## Remove Blocked Shadow Users
 
 If the Blocked Shadow Users option was selected for this policy, after clicking the Review button, the Remove Blocked Shadow Users section opens, where you can:
 
@@ -45,6 +47,7 @@ If the Blocked Shadow Users option was selected for this policy, after clicking 
 
 ![Workspace Review - Blocked Shadow Users Step](../../../static/img/workspace-review-shadow-users-step-blocked-section.png)
 
+## Remove Inactive External Shadow Users
 
 If the Inactive External Shadow Users option was selected for this policy, after clicking Next, the Remove Inactive External Shadow Users section opens, where you can:
 
@@ -69,6 +72,8 @@ If the Inactive External Shadow Users option was selected for this policy, after
 **Selecting more than one workspace** lets you perform these two actions on multiple guests at once.
 
 ![Workspace Review - Inactive External Shadow Users Step](../../../static/img/workspace-review-shadow-users-step-inactive-external.png)
+
+## Review All Shadow Users
 
 Clicking Next opens the **Review All Shadow Users** section. On this screen, the following information and actions are available:
 

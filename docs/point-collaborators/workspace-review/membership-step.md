@@ -9,13 +9,15 @@ The first screen on the Membership step is the task overview. Here, you can find
 * You will be asked to **review the list of users who have access to workspace content**, which is critical to ensuring workspace security, maintaining appropriate permissions, and streamlining collaboration within the team. 
 
 * Explanation of how many sections this step has: 
-  * **Blocked Members (1)** - this section is only available if the admin selected it when [setting up the Workspace Review policy](../../governance-and-automation/workspace-review/setup-workspace-review.md)
-  * **Inactive Guests (2)** - this section is only available if the admin selected it when [setting up the Workspace Review policy](../../governance-and-automation/workspace-review/setup-workspace-review.md)
-  * **Review All Members (3)** - this section is available by default when the Membership step is selected, you are still able to review blocked members and inactive guests during this section
+  * [**Blocked Members (1)**](#remove-blocked-members) - this section is only available if the admin selected it when [setting up the Workspace Review policy](../../governance-and-automation/workspace-review/setup-workspace-review.md)
+  * [**Inactive Guests (2)**](#remove-inactive-guests) - this section is only available if the admin selected it when [setting up the Workspace Review policy](../../governance-and-automation/workspace-review/setup-workspace-review.md)
+  * [**Review All Members (3)**](#review-all-members) - this section is available by default when the Membership step is selected, you are still able to review blocked members and inactive guests during this section
 
 * The **Review button (4)** – click this when you are ready to start your review.
 
 ![Workspace Review - Membership Step - Overview](../../../static/img/workspace-review-membership-step-overview.png)
+
+## Remove Blocked Members
 
 If the Blocked Members option was selected for this policy, after clicking the Review button, the Remove Blocked Members section opens, where the following can be found: 
 
@@ -43,6 +45,8 @@ If the Blocked Members option was selected for this policy, after clicking the R
 
 ![Workspace Review - Membership Step - Blocked Members Section](../../../static/img/workspace-review-membership-step-blocked-section.png)
 
+## Remove Inactive Guests
+ 
 If the Inactive Guests option was selected for this policy, after clicking Next, the Remove Inactive Guests section opens, where the following can be found: 
 
 * **Remove All (1)** action button next to the name of the workspace, which removes all inactive guests in bulk 
@@ -64,7 +68,9 @@ If the Inactive Guests option was selected for this policy, after clicking Next,
 
 **Selecting more than one workspace** lets you perform these two actions on multiple guests at once.
 
-![Workspace Review - Membership Step - Inactive Guests Section](../../../static/img/workspace-review-membership-step-blocked-section.png)
+![Workspace Review - Membership Step - Inactive Guests Section](../../../static/img/workspace-review-membership-step-inactive-section.png)
+
+## Review All Members
 
 Clicking Next opens the Review All Members section. On this screen, the following information and actions are available:
 

@@ -14,10 +14,11 @@ On the task overview screen, you can find information on what is expected of you
   * Carefully going through and removing unnecessary access helps keep your data safe. 
 
 * Explanation of how many sections this step has: 
-  * **Expired Links (1)**
-  * **Unused Links (2)**
-  * **Shared with Anyone (3)** 
-  * **Shared with People in Your Organization (4)**
+  * [**Expired Links (1)**](#review-expired-links) 
+  * [**Unused Links (2)** ](#review-unused-links) 
+  * [**Shared with Anyone (3)**](#review-anyone-links) 
+  * [**Shared with People in Your Organization (4)**](#review-links-shared-with-people-in-your-organization) 
+  * [**Review All Sharing Links** ](#review-all-shared-files)
     * Please note, if a section was not selected during setup, it will not appear here
 
 * The **Review button (5)**, which you can click when you're ready to start your review.
@@ -25,7 +26,7 @@ On the task overview screen, you can find information on what is expected of you
 :::info
 **Please note!** 
 
-If there are no Sharing Links to report, this step in the review is automatically skipped. Each section that does not have data to report, is automatically skipped. 
+If there are no Sharing Links to report, this step in the review is automatically skipped. Each section that does not have data to report is automatically skipped. 
 
 :::
 
@@ -137,3 +138,28 @@ Once you've taken all the necessary actions, clicking Next takes you to the last
 If you are unsure of what to do at any point and want to **consult your co-reviewers, you can start a chat with them by clicking the Microsoft Teams icon at the top right corner** of the Syskit Point app. 
 
 :::
+
+## Review All Shared Files
+
+If the Review All Shared Files option was selected for this policy, after clicking Next, the section opens where you can review all shared content to ensure only the correct people have access. 
+
+Here you can find the information: 
+
+* On the left side, there are three **filters (1)** you can use to view the list with:
+  * **All** files 
+  * **Internal** shows only internally shared files
+  * **External** shows only externally shared files
+
+The columns available are: 
+
+* **Name (2)** - of the files 
+* **Access (3)** - the level of access given for that file
+* **Given Through (4)** - shows how the file was shared
+* **Sensitivity label (5)** - shows if there is a sensitivity label assigned to the file
+* **Remove Sharing Link (6)** action
+  * Clicking this action opens the Remove Sharing Link modal, where you need to confirm the removal of the sharing link
+* **Remove Access (7)** action
+  * Clicking this opens the Remove Access modal, where you need to confirm the removal of access for this user
+  * This action removes access for that specific user to the file that was shared
+
+![Workspace Review - Sharing Step - Review All Shared Files](../../../static/img/workspace-review-sharing-step-all.png)
