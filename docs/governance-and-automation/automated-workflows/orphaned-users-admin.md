@@ -8,9 +8,9 @@ Syskit Point provides a predefined **Orphaned Users policy** that is applied ten
 
 This policy helps you identify and remove users who may pose risks or complications when managing workspaces.
 
-To edit the policy, go to the Policies settings screen and **click the Edit Policy icon (1)** next to the Oprhaned Users policy.
+To edit the policy, go to the Policies settings screen and **click the Edit Policy icon (1)** next to the Orphaned Users policy.
 
-![Oprhaned User Policy](../../../static/img/orphaned-users-admin.png)
+![Orphaned User Policy](../../../static/img/orphaned-users-admin.png)
 
 The **Edit Policy** dialog opens, where you can:
 * Select the **Severity level (2)**.
