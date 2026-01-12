@@ -21,7 +21,8 @@ Here's a quick overview of what setting up and using the Workspace Review looks 
 
 With Workspace Review, you can **ask site owners to perform regular Workspace Reviews on their workspaces**, and depending on the specific needs of a workspace, have different Workspace Reviews active with distinct settings. 
 
-:::info
+:::warning
+
 **Please note:** A workspace can currently have only one active Workspace Review policy assigned to it. 
 :::
 

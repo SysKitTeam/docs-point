@@ -9,9 +9,75 @@ The first screen on the Sharing Users step is the task overview. Here, you can f
 * You'll be asked to **review what's been shared from your workspace**. 
   * Carefully going through and removing unnecessary access helps keep your data safe. 
 
-* Explanation of how many sections this step has: **Shared with Anyone** and **Shared with People in Your Organization**.
+* Explanation of how many sections this step has: 
+  * [**Expired Links (1)**](#review-expired-links) 
+  * [**Unused Links (2)** ](#review-unused-links) 
+  * [**Shared with Anyone (3)**](#review-anyone-links) 
+  * [**Shared with People in Your Organization (4)**](#review-links-shared-with-people-in-your-organization) 
+  * [**Review All Sharing Links (5)** ](#review-all-shared-files)
+    * Please note, if a section was not selected during setup, it will not appear here
 
-* The **Review button**, which you can click when you're ready to start your review.
+* The **Review button (5)**, which you can click when you're ready to start your review.
+
+![Workspace Review - Sharing Step - Overview](../../../static/img/workspace-review-sharing-step-overview.png)
+
+:::warning
+**Please note!** 
+
+If there are no Sharing Links to report, this step in the review is automatically skipped. Each section that does not have data to report is automatically skipped. 
+
+:::
+
+
+## Review Expired Links
+
+After **clicking the Review button**, the Remove Expired Links section opens where you can review and remove **expired sharing links that are no longer valid**. 
+
+On this screen, you can find the following:
+
+* **Remove All (1)** action button next to the name of the workspace, which removes all blocked shadow users in bulk
+
+The columns available are: 
+
+* **Name (2)** of the content shared 
+* **Link Type (3)** - the level of sharing given through the link, for example, view-only, password-protected (edit), etc.
+* **Expiration Date (4)** - shows when the link is set to expire
+* **Last Used (5)** - the date the content was last used
+* **Sensitivity label (6)** - shows if there is a sensitivity label assigned to the content
+* **Created On (7)** - shows when the content was originally created
+* **Recommendation (8)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made. The following recommendation could be suggested:
+   * **Expired Links** - expired sharing links are no longer valid. You can safely remove them to reduce clutter and keep your workspace clean and secure 
+* The **Remove Sharing Link (9)** action
+  * Clicking this action opens the Remove Sharing Link modal, where you need to confirm the removal of the sharing link
+  
+![Workspace Review - Sharing Step - Expired Links](../../../static/img/workspace-review-sharing-step-expired.png)
+
+Once you've completed the actions you want to take, clicking Next takes you to the next section of this step.
+
+## Review Unused Links
+
+On the **Remove Unused Links** sections, you can identify and remove **unused sharing links to ensure links are cleaned up and the workspace remains secure**. 
+
+On this screen, you can find the following:
+
+* **Remove All (1)** action button next to the name of the workspace, which removes all unused links
+
+The columns available are: 
+
+* **Name (2)** of the content 
+* **Link Type (3)** - the level of sharing given through the link, for example, view-only, password-protected (edit), etc.
+* **Expiration Date (4)** - shows when the link is set to expire
+* **Last Used (5)** - the date the content was last used
+* **Sensitivity label (6)** - shows if there is a sensitivity label assigned to the content
+* **Created On (7)** - shows when the content was originally created
+* **Recommendation (8)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made. The following recommendation could be suggested:
+   * **Unused Link** - unused links are links that haven't been used in the last 30 days
+* The **Remove Sharing Link (9)** action
+  * Clicking this action opens the Remove Sharing Link modal, where you need to confirm the removal of the sharing link
+  
+![Workspace Review - Sharing Step - Shared with Anyone](../../../static/img/workspace-review-sharing-step-unused.png)
+
+Once you've completed the actions you want to take, clicking Next takes you to the next section of this step.
 
 ## Review Anyone Links
 
