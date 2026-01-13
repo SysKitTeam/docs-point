@@ -4,9 +4,11 @@ description: Licenses Reports provide information on managing your Microsoft 365
 
 # Licenses Reports
 
-:::info
+:::warning
 
-**License Reports** are now a part of the Licensing Add-on package. To access license reports, XXX, and other licensing-related features, please see the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+**License Reports** are now a part of the License Optimization Add-on package. To access license reports, and other licensing-related features, please see the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+
+For current Syskit Point users, the License Optimization add-on will remain available for a 3-month trial. After this period, unless the add-on is purchased, access to License Reports will be removed. 
 
 :::
 
@@ -15,27 +17,16 @@ Reports in this section **help manage your Microsoft 365 licenses**.
 In this article, you can find information about the following license reports:
 
 * [Licenses Overview Report](#licenses-overview-report)
-
 * [Licenses Usage by Service Report](#licenses-usage-by-service-report)
-
 * [License Distribution](#license-distribution)
-
 * [Inactive Users with Assigned Licenses Report](#inactive-users-with-assigned-licenses-report)
-
 * [Redundant Licenses Report](#redundant-licenses-report)
-
 * [Unused Add-On Licenses](#unused-add-on-licenses-report)
 
 
 Use them to **identify assigned, unassigned Microsoft 365 licenses or Microsoft 365 licenses assigned to inactive users** and review their overall cost.
 
 These reports can be used to **discover underutilized licenses to drive adoption and optimize license costs**.
-
-:::info
-
-**License Reports** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
-
-:::
 
 :::info
 
