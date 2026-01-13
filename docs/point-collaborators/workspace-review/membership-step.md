@@ -41,7 +41,7 @@ If the Blocked Members option was selected for this policy, after clicking the R
 * **Remove from Group (10)** action
   * Clicking this action removes the user from the workspace
 
-**Selecting more than one workspace** lets you perform these two actions on multiple members at once.
+**Selecting more than one member** lets you perform these two actions on multiple members at once.
 
 ![Workspace Review - Membership Step - Blocked Members Section](../../../static/img/workspace-review-membership-step-blocked-section.png)
 
@@ -66,7 +66,7 @@ If the Inactive Guests option was selected for this policy, after clicking Next,
 * **Remove from Group (9)** action
   * Clicking this action removes the user from the workspace
 
-**Selecting more than one workspace** lets you perform these two actions on multiple guests at once.
+**Selecting more than one guests** lets you perform these two actions on multiple guests at once.
 
 ![Workspace Review - Membership Step - Inactive Guests Section](../../../static/img/workspace-review-membership-step-inactive-section.png)
 
@@ -98,7 +98,7 @@ Clicking Next opens the Review All Members section. On this screen, the followin
 * **Remove from Group (11)** action
   * Clicking this action removes the user from the workspace
 
-**Selecting more than one workspace** lets you perform these two actions on multiple workspaces at once
+**Selecting more than one member** lets you perform these two actions on multiple members at once
 
 ![Workspace Review - Membership Step](../../../static/img/workspace-review-membership-step-all.png)
 
@@ -109,6 +109,6 @@ Clicking Next opens the Review All Members section. On this screen, the followin
 Once you have completed the actions you decide to take, clicking Next takes you to the next step, [Shadow Users](shadow-users-step.md).
 
 :::warning
-**Please note!**\ 
+**Please note!**\
 If you are unsure of what to do at any point and want to **consult your co-reviewers, you can start a chat with them by clicking the Microsoft Teams icon in the top right corner** of the Syskit Point app. 
 :::
