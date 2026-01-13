@@ -60,6 +60,10 @@ Here, you can also:
 * **Primary admins cannot be deleted from a workspace** automatically. This requires manual intervention and replacing the deleted or blocked Primary admin with an active user. 
 :::
 
+:::warning
+**Please note!**\
+It can take up to 24 hours for the vulnerabilities to appear on the Security & Compliance dashboard and for orphaned users to be removed if the automatic resolving option is selected.
+:::
 
 
 ![Orphaned Users](../../../static/img/security-compliance-checks-orphaned-users.png)
