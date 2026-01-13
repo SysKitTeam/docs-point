@@ -56,7 +56,7 @@ The Read and Write applications permission (Graph/Application.ReadWrite.All) is 
 
 ![Configure Power Platform - Consent](../../static/img/power-platform-configuration-consent.png)
 
-* [For details on how to enable Power BI data collection, take a look at this article.](../power-platform/enable-powerBI-data-collection.md)
+* [For details on how to enable Power BI data collection, take a look at this article.](../power-platform/enable-powerbi-data-collection.md)
 
 Once the permissions are granted, you can see the **Status** in the Settings change to **Collecting Data** with a **green** checkbox next to it. 
 

@@ -23,7 +23,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Improvements made to the License Distribution report.**
   * New filter was added to the selection step: **Country or Region**.
-  * The Inactive Licenses column has been renamed to Inactive Users with Assigned Licenses for improved clarity.
+  * The **Inactive Licenses column** has been **renamed** to **Inactive Users with Assigned Licenses** for improved clarity.
 
 * **Fixed an issue** where Access Review tasks were not created and Access Review e-mail were not sent out due to the following error: `Access Review Notifier Job failed on step: ReviewStartEmail.
 Microsoft.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_UserPermissionReview_SitePermissionReview".`
