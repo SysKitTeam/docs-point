@@ -43,7 +43,7 @@ If the Blocked Shadow Users option was selected for this policy, after clicking 
 * **Remove Access (9)** action
   * Clicking this action removes the user's access to the workspace
 
-**Selecting more than one workspace** lets you perform these two actions on multiple users at once.
+**Selecting more than one user** lets you perform these two actions on multiple users at once.
 
 ![Workspace Review - Blocked Shadow Users Step](../../../static/img/workspace-review-shadow-users-step-blocked-section.png)
 
@@ -69,7 +69,7 @@ If the Inactive External Shadow Users option was selected for this policy, after
 * **Remove Access (11)** action
   * Clicking this action removes the user's access to the workspace
 
-**Selecting more than one workspace** lets you perform these two actions on multiple guests at once.
+**Selecting more than one users** lets you perform these two actions on multiple users at once.
 
 ![Workspace Review - Inactive External Shadow Users Step](../../../static/img/workspace-review-shadow-users-step-inactive-external.png)
 
