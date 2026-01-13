@@ -26,6 +26,7 @@ const sidebars: SidebarsConfig = {
             id: 'releases/cloud/README',
           },
           items: [
+            'releases/cloud/point-2026-01-13-release-note',
             'releases/cloud/point-2026-01-08-release-note',
             'releases/cloud/point-2025-12-16-release-note',
             'releases/cloud/point-2025-12-09-release-note',
@@ -562,6 +563,7 @@ const sidebars: SidebarsConfig = {
           },
           items: [
             'governance-and-automation/workspace-review/setup-workspace-review',
+            'governance-and-automation/workspace-review/reminders',
             {
               type: 'category',
               label: 'Monitor Workspace Review',
@@ -612,6 +614,7 @@ const sidebars: SidebarsConfig = {
             'governance-and-automation/automated-workflows/maximum-number-of-owners-admin',
             'governance-and-automation/automated-workflows/orphaned-resources-admin',
             'governance-and-automation/automated-workflows/orphaned-users-admin',
+            'governance-and-automation/automated-workflows/workspaces-with-expired-sharing-links-admin',
             'governance-and-automation/automated-workflows/tenant-storage-admin',
             'governance-and-automation/automated-workflows/workspaces-with-too-many-members-admin',
             'governance-and-automation/automated-workflows/shadow-users-admin',
@@ -635,6 +638,7 @@ const sidebars: SidebarsConfig = {
             'governance-and-automation/security-compliance-checks/blocked-users-assigned-license',
             'governance-and-automation/security-compliance-checks/workspaces-not-enough-owners',
             'governance-and-automation/security-compliance-checks/orphaned-users',
+            'governance-and-automation/security-compliance-checks/workspaces-with-expired-sharing-links',
             'governance-and-automation/security-compliance-checks/workspaces-too-many-owners',
             'governance-and-automation/security-compliance-checks/tenant-storage',
             'governance-and-automation/security-compliance-checks/workspaces-with-too-many-members',
@@ -856,6 +860,7 @@ const sidebars: SidebarsConfig = {
             'point-collaborators/workspace-review/privacy-sensitivity',
             'point-collaborators/workspace-review/membership-step',
             'point-collaborators/workspace-review/shadow-users-step',
+            'point-collaborators/workspace-review/everyone-step',
             'point-collaborators/workspace-review/sharing-step',
             'point-collaborators/workspace-review/summary-step',
           ],
