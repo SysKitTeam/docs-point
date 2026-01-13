@@ -108,9 +108,7 @@ Once you have completed the actions you decide to take, clicking Next takes you 
 
 ![Workspace Review - Shadow Users Step](../../../static/img/workspace-review-shadow-users-step.png)
 
-:::info
-**Please note!** 
-
+:::warning
+**Please note!**\
 If you are unsure of what to do at any point and want to **consult your co-reviewers, you can start a chat with them by clicking the Microsoft Teams icon in the top right corner** of the Syskit Point app. 
-
 :::

@@ -6,10 +6,9 @@ description: This article provides an overview of the Workspace Review Completio
 
 The final step in the Workspace Review Wizard is the Summary step. Here, you'll see an overview of your actions taken during the review. 
 
-:::info
-**Please note!** 
+:::warning
+**Please note!**\ 
 Certain **actions may still be in progress** by the time you reach the Summary step. However, even if you **click the Complete Review button** and finish the review, the actions that are in progress **will still finish processing**. 
-
 :::
 
 The following information is available: 
@@ -26,9 +25,8 @@ The following information is available:
 
 ![Workspace Review - Completion Summary](../../../static/img/workspace-review-completion-summary.png)
 
-:::info
-**Please note!** 
-
+:::warning
+**Please note!**\ 
 If you are unsure of what to do at any point and want to **consult your co-reviewers, you can start a chat with them by clicking the Microsoft Teams icon at the top right corner** of the Syskit Point app. 
 
 :::

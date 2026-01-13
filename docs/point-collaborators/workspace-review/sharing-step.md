@@ -26,14 +26,12 @@ On the task overview screen, you can find information on what is expected of you
 ![Workspace Review - Sharing Step - Overview](../../../static/img/workspace-review-sharing-step-overview.png)
 
 :::warning
-**Please note!** 
-
+**Please note!**\
 If there are no Sharing Links to report, this step in the review is automatically skipped. Each section that does not have data to report is automatically skipped. 
-
 :::
 
 
-## Review Expired Links
+## Remove Expired Links
 
 After **clicking the Review button**, the Remove Expired Links section opens where you can review and remove **expired sharing links that are no longer valid**. 
 
@@ -58,7 +56,7 @@ The columns available are:
 
 Once you've completed the actions you want to take, clicking Next takes you to the next section of this step.
 
-## Review Unused Links
+## Remove Unused Links
 
 On the **Remove Unused Links** sections, you can identify and remove **unused sharing links to ensure links are cleaned up and the workspace remains secure**. 
 
@@ -134,11 +132,9 @@ The columns available are:
 
 Once you've taken all the necessary actions, clicking Next takes you to the last step, [Summary](summary-step.md).
 
-:::info
-**Please note!** 
-
+:::warning
+**Please note!**\
 If you are unsure of what to do at any point and want to **consult your co-reviewers, you can start a chat with them by clicking the Microsoft Teams icon at the top right corner** of the Syskit Point app. 
-
 :::
 
 ## Review All Shared Files

@@ -5,10 +5,8 @@ description: This article provides an overview of the Workspace Review Wizard 'E
 # Workspace Review Everyone
 
 :::warning
-**Please note!** 
-
+**Please note!**\
 If there is no content shared with large "Everyone" Groups to report, this step in the review is automatically skipped.
-
 :::
 
 The first screen on the Everyone step is the task overview. Here, you can find information on what is expected of you for this step:
@@ -38,9 +36,7 @@ Once you have completed the actions you decide to take, clicking Next takes you 
 
 ![Workspace Review - Everyone Step](../../../static/img/workspace-review-everyone-step.png)
 
-:::info
-**Please note!** 
-
+:::warning
+**Please note!**\
 If you are unsure of what to do at any point and want to **consult your co-reviewers, you can start a chat with them by clicking the Microsoft Teams icon in the top right corner** of the Syskit Point app. 
-
 :::
