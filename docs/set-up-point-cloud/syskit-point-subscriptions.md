@@ -63,9 +63,8 @@ Your preferences for the following information need to be selected:
 * Syskit Point - Security and Compliance Plan
 * Syskit Point - Governance Plan
 * If you are unsure which subscription suits your needs, clicking the **Compare Plans button (3)** underneath opens the [Pricing page](https://www.syskit.com/products/point/pricing/) with more details on each plan
-* **Billing Cycle (4)** - clicking on it opens a drop-down menu where you can select how often you want to be billed for your subscription:
-* Annually
-* Monthly
+* **Billing Cycle (4)**
+  * Annually
 * **Currency (5)** - clicking on it opens a drop-down menu where you can select the currency in which you want to be charged:
 * USD - US Dollar
 * GBP - British Pound

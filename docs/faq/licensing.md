@@ -6,7 +6,7 @@ description: This article outlines the most frequently asked questions about Sys
 
 ## How is Syskit Point licensed?
 
-The price for Syskit Point is calculated based on the number of licensed Microsoft 365 accounts in your tenant. Syskit Point does not count any licenses that have FREE in their name when determining price. You can choose between available Syskit Point plans according to your needs. Check out the [feature comparison](https://www.syskit.com/products/point/pricing/).
+The price for Syskit Point is calculated based on the number of licensed Microsoft 365 accounts in your tenant. Syskit Point does not count any licenses that have FREE in their name when determining price. You can choose between the available Syskit Point plans according to your needs. Check out the [feature comparison](https://www.syskit.com/products/point/pricing/).
 
 ## Can I try Syskit Point for free?
 
@@ -32,7 +32,7 @@ Our Enterprise plan enables you the flexibility to deploy on an infrastructure o
 
 ## Do you offer monthly subscriptions?
 
-Monthly subscriptions are available for our Management, Security, and Enterprise Cloud plans, while the Governance plan is available only on a yearly basis. Use our pricing calculator to determine [your exact price](https://www.syskit.com/products/point/pricing/).
+Monthly subscriptions are not offered. All plans are available on a yearly basis only. Use our pricing calculator to determine [your exact price](https://www.syskit.com/products/point/pricing/).
 
 ## Is there a user limit for Syskit Point plans?
 

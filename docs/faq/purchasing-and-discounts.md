@@ -72,7 +72,6 @@ An additional VAT charge applies for EU customers who do not supply their own VA
 
 If you are not satisfied within 30 days, you can get a full refund. We do not want you to pay for a product you aren't satisfied with. 
 
- * Monthly Subscriptions - Refunds for subscriptions are available within the first paid month after the trial period. 
  * Annual Subscriptions – Refunds for subscriptions are available within 30 days of payment for annual subscriptions.  
 * Syskit Point Enterprise licenses can be refunded within 30 days of the original purchase. 
 
