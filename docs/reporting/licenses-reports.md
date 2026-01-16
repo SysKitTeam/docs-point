@@ -24,7 +24,7 @@ In this article, you can find information about the following license reports:
 * [Unused Add-On Licenses](#unused-add-on-licenses-report)
 
 
-Use them to **identify assigned, unassigned Microsoft 365 licenses or Microsoft 365 licenses assigned to inactive users** and review their overall cost.
+Use them to **identify Microsoft 365 licenses that are currently assigned, unassigned or assigned to inactive users, review their overall cost, and optimize your license distribution to ensure everyone has the necessary licenses**. 
 
 These reports can be used to **discover underutilized licenses to drive adoption and optimize license costs**.
 
@@ -43,7 +43,7 @@ The **Licenses Overview report** helps discover the assigned, unassigned, and in
 
 It also **shows the overall cost of all the current licenses** you've purchased from Microsoft.
 
-This report can be **used to help calculate future license costs**.
+This report can be **used to help you calculate your needed number of licenses and estimate future license costs upon renewal**.
 
 
 :::info
@@ -75,11 +75,11 @@ In the top three tiles, the following information is provided:
   * Total Purchased Licenses, which shows the number of total purchased licenses
   * Paid Licenses, which shows the number of paid licenses
   * Free Licenses, which shows the number of free licenses
-  * A chart that provides a visual view of your number of licenses that are Active, Assigned to an Inactive User, or Unassigned
+  * A chart that provides a visual view of your number of licenses that are Assigned to an Active Users, Assigned to an Inactive User, or Unassigned
 
 
 * **Potential Savings**, which includes:
-  * Inactive Users, showing the amount of money you could save by removing licenses from inactive users
+  * Inactive Users, showing the amount of money you could save by removing licenses from users that are inactive or have their sign-in blocked
   * Unused Add-on Licenses, showing the amount of money you could save by removing unused add-on licenses
   * Redundant Licenses, showing the amount of money you could save by removing redundant licenses
 
@@ -98,7 +98,7 @@ Below the tiles, you can find the report with the following data displayed in th
 * **Assigned Licenses Cost**; shows the cost per assigned license
 * **Unassigned Licenses**; shows the number of currently unassigned licenses
 * **Inactive users**; shows the number of currently inactive, blocked, or deleted users with assigned licenses
-* **Potential Savings (Inactive)**; shows the potential savings you can obtain on inactive licenses
+* **Potential Savings (Inactive)**; shows the potential savings you can obtain by removing licenses from inactive users or users with a blocked sign-in
 
 The **total cost for All licenses, Assigned Licenses, and Total potential savings on unassigned and inactive licenses are located at the bottom** of the generated report.
 
