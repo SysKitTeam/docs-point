@@ -1,14 +1,12 @@
 ---
-description: >-
-  This article provides information on the Security and Compliance checks
-  feature in Syskit Point.
+description: This article provides information on the Security and Compliance checks feature in Syskit Point.
 ---
 
 # Overview
 
-The **Security and Compliance Checks**, visible directly on your Syskit Point home screen, pinpoint the **most important vulnerabilities and misalignments** with Microsoft 365 best practices. These checks keep you aware and help you **react quickly to keep your environment secure and under control**.
+The **Security and Compliance Checks** on your Syskit Point home screen **highlight key vulnerabilities and misalignments** with Microsoft 365 best practices. These checks **keep you informed, helping you react quickly and maintain a secure environment**.
 
-Collecting all the important info about the security and compliance state of your environment is a time-consuming and repetitive administration task. **Syskit Point performs regular security and compliance checks** for you, and **presents the results directly on your home screen**.
+Collecting all the important information about the security and compliance state of your environment is a time-consuming, repetitive administrative task. **Syskit Point performs regular security and compliance checks** for you, and **presents the results directly on your home screen**.
 
 :::info
 **Please note:** The Security and Compliance checks **email is sent to Syskit Point admins weekly**, on Wednesdays.
@@ -38,19 +36,30 @@ You are also able to apply policies manually or [set up policy rules](../automat
 ![Security & Compliance checks - Home](../../../static/img/security-and-compliance-checks-home.png)
 
 After clicking View All, the Security and Compliance checks dashboard will open, showing the following:
-
-* **Orphaned Workspaces (1)** - shows the number of workspaces without an active owner. It helps you manage your Microsoft 365 workspace's health and helps **ensure there are no workspaces without owners** in your tenant.
-* **Inactive Guest Users (2)** - shows the number of guest users that have been inactive for a certain amount of time and helps you optimize your environment and keep it safe.
-* **Blocked Users with Assigned Licenses (3)** - shows the number of users with one or more active licenses assigned that have been blocked, which helps you **detect and remove licenses** that are not being utilized.
-* **Private Workspaces Shared with Everyone (4)** - shows the number of private workspaces shared with Everyone, Everyone except external users, or All Users security groups, which helps you **detect and remove access** on workspaces that pose a potential security risk.
 * **Workspaces with Not Enough Owners (5)** – shows the number of workspaces that don't have enough owners. You will be able to investigate further and assign additional owners if needed. Keep an eye on workspaces with only 1 owner because **if that one owner leaves, a workspace is left without an owner**.
-* **Workspaces with Too Many Members (6)** – shows the number of workspaces with too many members. If there are **too many members, it may be more difficult to control access and permissions, leading to security concerns**. This helps you keep track of and manage groups with more members than the limit you set.
+* **Workspaces with Too Many Members (6)** – shows the number of workspaces with too many members. If there are **too many members, it may be more difficult to control access and permissions, leading to security concerns**. This helps you keep track of and manage groups with more members than your set limit.
+* **Blocked Users with Assigned Licenses (3)** - shows the number of users with one or more active licenses assigned that have been blocked, which helps you **detect and remove licenses** that are not being utilized.
+* **Inactive Guest Users (2)** - shows the number of guest users that have been inactive for a certain amount of time and helps you optimize your environment and keep it safe.
+* **Private Workspaces Shared with Everyone (4)** - shows the number of private workspaces shared with Everyone, Everyone except external users, or All Users security groups, which helps you **detect and remove access** on workspaces that pose a potential security risk.
+* **Workspaces without a Sensitivity Label** - shows the number of workspaces without a sensitivity label assigned, which helps secure workspaces and ensure they are correctly categorized.
+* **Orphaned Workspaces (1)** - shows the number of workspaces without an active owner. It helps you manage your Microsoft 365 workspace's health and helps **ensure there are no workspaces without owners** in your tenant.
+* **Workspaces with Too Many Owners (9)** – shows the number of workspaces with too many owners. If there are **too many owners, no one feels accountable for access and content management**. This helps you keep track of and remove extra members. 
+* **Inactive Workspaces (2)** - shows the number of workspaces that have been inactive longer than the specified time period, making it easier for you to decide when a workspace needs to be kept, archived, or deleted.
 * **Orphaned Users (7)** - shows the number of orphaned users and takes you to the Orphaned Users report, which helps **detect and remove blocked or deleted users** from your Microsoft 365 workspaces.
-* **Workspaces with Shadow Users (8)** – shows the number of workspaces with **shadow users** - users who have access to specific content on the SharePoint site but are not members of the Microsoft 365 Group or Team associated with it. Access given to shadow users can be a security concern if you don't keep up with them regularly. This helps you keep track of and remove access given to shadow users.
-* **Workspaces with Too Many Owners (9)** – shows the number of workspaces with too many owners. If there are **too many owners, no one feels accountable for access and content management**. This helps you keep track of and remove extra members. &#x20;
-* **Tenant Storage Limit (10)** - shows whether you reached the tenant storage limit based on the percentage set for the policy.
+* **Workspaces with Shadow Users (8)** – shows the number of workspaces with **shadow users** - users who have access to specific content on the SharePoint site but are not members of the Microsoft 365 Group or Team associated with it. Access granted to shadow users can be a security concern if you don't regularly monitor them. This helps you keep track of and remove access given to shadow users.
+* **Workspaces with Expired Sharing Links (8)** – shows the number of workspaces that contain at least one expired sharing link, which helps you keep your workspaces secure and ensure files can be accessed only by the necessary people.  
+* **Tenant Storage Limit** - shows whether you reached the tenant storage limit based on the percentage set for the policy.
 
 ![Security & Compliance Checks](../../../static/img/security-compliance-checks-dashboard.png)
+
+:::warning
+
+You can choose to view the Security & Compliance screen by having it **Shown by: Workspace**. This opens the [Risky Workspaces](risky-workspaces.md) view. 
+
+For more details on this view, take a look at the [Risky Workspaces article](risky-workspaces.md).
+:::
+
+
 
 ## Automated Governance
 
@@ -60,7 +69,6 @@ To keep all vulnerabilities **under control proactively and prevent possible iss
 **Please note!** If a user, security group, or mail-enabled security group is added to the Governance-Excluded Users list, those users do not receive any Governance-related tasks or task-related emails. [For more details on setting up Governance-Excluded Users, take a look at this article.](../../configuration/exclude-users-tasks.md)
 :::
 
-&#x20;
 
 ## Navigate Security and Compliance Checks
 
