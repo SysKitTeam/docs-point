@@ -6,9 +6,9 @@ description: Licenses Reports provide information on managing your Microsoft 365
 
 :::warning
 
-**License Reports** are now a part of the License Optimization Add-on package. To access license reports, and other licensing-related features, please see the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+**License Reports** are now a part of the License Optimization add-on. The "Free Preview" allows existing customers to continue having access to these features for three months after release. 
 
-For current Syskit Point users, the License Optimization add-on will remain available for a 3-month trial. After this period, unless the add-on is purchased, access to License Reports will be removed. 
+After this period ends, a separate add-on will be required to access licensing features. Please [contact support](https://www.syskit.com/contact-us/) for more details.
 
 :::
 
@@ -72,16 +72,22 @@ In the top three tiles, the following information is provided:
 
 * An **Overview**, which includes
   * Total Annual Cost, which shows the total amount your licenses cost
-  * Total Purchased Licenses, which shows the number of total purchased licenses
+  * Total Licenses, which shows the number of total purchased licenses
   * Paid Licenses, which shows the number of paid licenses
   * Free Licenses, which shows the number of free licenses
-  * A chart that provides a visual view of your number of licenses that are Assigned to an Active Users, Assigned to an Inactive User, or Unassigned
+  * A chart that provides a visual view of your number of licenses that are Assigned to Active Users, Assigned to an Inactive User, or Unassigned
 
 
-* **Potential Savings**, which includes:
+* **Annual Potential Savings**, which includes:
   * Inactive Users, showing the amount of money you could save by removing licenses from users that are inactive or have their sign-in blocked
   * Unused Add-on Licenses, showing the amount of money you could save by removing unused add-on licenses
   * Redundant Licenses, showing the amount of money you could save by removing redundant licenses
+
+:::info
+
+**Please note!** The cases on the Annual Potential Savings tile is a**utomatically sorted** by potential savings, showing from **highest to lowest**. The case in which you can achieve the largest savings is always shown first and highlighted. 
+
+:::
 
 
 * **Most purchased licenses**, showing a list of your licenses with the highest number of available seats, with graphs demonstrating the amount used for each
@@ -98,13 +104,11 @@ Below the tiles, you can find the report with the following data displayed in th
 * **Assigned Licenses Cost**; shows the cost per assigned license
 * **Unassigned Licenses**; shows the number of currently unassigned licenses
 * **Inactive users**; shows the number of currently inactive, blocked, or deleted users with assigned licenses
-* **Potential Savings (Inactive)**; shows the potential savings you can obtain by removing licenses from inactive users or users with a blocked sign-in
+* **Potential Savings (Inactive users)**; shows the potential savings you can obtain by removing licenses from inactive users or users with a blocked sign-in
 
-The **total cost for All licenses, Assigned Licenses, and Total potential savings on unassigned and inactive licenses are located at the bottom** of the generated report.
+The **total montly cost for All licenses** and the **total potential monthly savings for licenses assigned to inactive users** are located at the bottom of the generated report.
 
-Clicking a row in the report enables you to generate an Inactive Licenses report for that license.
-
-The Licenses Overview report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+In the top right corner, you can find the button to **schedule the Licenses Overview report** or **export it as PDF and XLSX files**. 
 
 ## Licenses Usage by Service Report
 
@@ -152,7 +156,7 @@ The Licenses Usage by Service report can be **exported as PDF and XLSX files**. 
 
 ## License Distribution
 
-The **License Distribution** report enables **viewing the license distribution and cost by department or location**.
+The **License Distribution** report enables **viewing the license distribution and cost by department, usage location, country or region. and Company**.
 
 View this report to understand license distribution by department and the total cost of assigned licenses.
 
@@ -174,10 +178,11 @@ A banner appears at the top of this report if any licenses are missing required 
 
 * **Click the License Distribution** tile to generate the report.
 
-* **Select one of the three options** when redirected to the filter screen, the report data can be filtered by:
+* **Select one of the available options** when redirected to the filter screen, the report data can be filtered by:
   * **Department**
   * **Usage Location**
   * **Country or Region**
+  * **Company**
 
 * **Click the Run Report button** to generate the desired report.
 
