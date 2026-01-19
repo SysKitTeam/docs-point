@@ -15,14 +15,14 @@ description: This article lists new features, improvements, and bug fixes in the
 ## New Features
 
 * **New add-on available**: License Optimization
-  * You can [get the new License Optimization add-on by following this link](https://www.syskit.com/pricing/). 
+  * [To get the new License Optimization add-on, please contact us](https://www.syskit.com/contact-us/?utm_source=syskit-point&utm_medium=in-product&utm_campaign=311269578-License-Optimization&utm_content=button). 
   * The License Optimization add-on contains:
       * New license reports
       * Enhanced current license reports
       * Help with cost optimization upon your license renewals 
-      * Insight into licenses assigned to inactive users, blocked-sign in users, or deleted users
+      * Insight into redundant licenses or unused add-on licenses
       * Overview of the state of your Licenses from the Dashboard tile
-  * Current Syskit Point users will receive access to the License Optimization add-on for a trial period of 3 months, after which it will be disabled unless the add-on is purchased.
+  * Current Syskit Point users will receive access to the License Optimization add-on for a trial period of 3 months. After this period ends, a separate add-on will be required to access licensing features.
   * [For details on License reports, take a look at this article.](../../reporting/licenses-reports.md). 
 
    
