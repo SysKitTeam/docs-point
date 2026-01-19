@@ -8,7 +8,7 @@ description: Licenses Reports provide information on managing your Microsoft 365
 
 **License Reports** are now a part of the License Optimization add-on. The "Free Preview" allows existing customers to continue having access to these features for three months after release. 
 
-After this period ends, a separate add-on will be required to access licensing features. Please [contact support](https://www.syskit.com/contact-us/) for more details.
+After this period ends, a separate add-on will be required to access licensing features. Please [contact support](https://www.syskit.com/contact-us/?utm_source=syskit-point&utm_medium=in-product&utm_campaign=311269578-License-Optimization&utm_content=button) for more details.
 
 :::
 
@@ -66,7 +66,7 @@ A banner appears at the top of this report if any licenses are missing required 
 
 ### Licenses Overview Report Data
 
-Now that your report is successfully generated, you have a complete overview of your licenses.
+Now that your report has been generated successfully, you have a complete overview of your licenses.
 
 In the top three tiles, the following information is provided:
 
@@ -85,7 +85,7 @@ In the top three tiles, the following information is provided:
 
 :::info
 
-**Please note!** The cases on the Annual Potential Savings tile is a**utomatically sorted** by potential savings, showing from **highest to lowest**. The case in which you can achieve the largest savings is always shown first and highlighted. 
+**Please note!** The cases on the Annual Potential Savings tile is a**utomatically sorted** by potential savings, showing from **highest to lowest**. The case that yields the largest savings is always shown first and highlighted. 
 
 :::
 
@@ -103,7 +103,7 @@ Below the tiles, you can find the report with the following data displayed in th
 * **Assigned Licenses**; shows the number of currently assigned licenses
 * **Assigned Licenses Cost**; shows the cost per assigned license
 * **Unassigned Licenses**; shows the number of currently unassigned licenses
-* **Inactive users**; shows the number of currently inactive, blocked, or deleted users with assigned licenses
+* **Inactive users**; shows the number of currently inactive, or blocked sign-in users with assigned licenses
 * **Potential Savings (Inactive users)**; shows the potential savings you can obtain by removing licenses from inactive users or users with a blocked sign-in
 
 The **total montly cost for All licenses** and the **total potential monthly savings for licenses assigned to inactive users** are located at the bottom of the generated report.
@@ -199,7 +199,7 @@ Other columns that are enabled by default are:
 * **Assigned Active Licenses**; the number of currently assigned licenses per license
 * **Assigned Licenses Cost**; the total cost of assigned licenses
   * It also shows the **Total cost of licenses distributed by Departments or Locations**
-* **Inactive Users with Assigned Licenses**; the number of inactive, blocked, or deleted users in Microsoft Entra ID with currently assigned licenses
+* **Inactive Users with Assigned Licenses**; the number of inactive or blocked sign-in users in Microsoft Entra ID with currently assigned licenses
 
 With an additional **SKU ID column** available for selection from the column chooser. 
 
@@ -210,7 +210,7 @@ The License Distribution report can be **exported as PDF and XLSX files**. There
 
 The **Inactive Users with Assigned Licenses** report helps with **finding and reclaiming licenses assigned to inactive or blocked users** to optimize your Microsoft 365 license cost.
 
-Use this report to **easily remove the assigned licenses from inactive users**. The license can then be **assigned to other users or removed to reduce costs**.
+Use this report to **easily remove the assigned licenses from inactive users** and assign them to another user. It can also help you estimate how many licenses are needed upon renewal, which assists cost reduction efforts. 
 
 
 :::info
@@ -237,7 +237,7 @@ The **Inactive Users with Assigned Licenses** report is generated with three top
 In the top three tiles, the following information is provided:
 
 * An overview, with the Number of Inactive Users with Assigned Licenses
-  * A chart that shows the number of Inactive Users with licenses assigned and Users with Blocked Sign-in with licenses assigned
+  * A chart that breaksdown the total number to show how many users with assigned licenses are inactive versus how many have blocked sign-in 
 
 * Potential Savings, with the amount of total potential savings and:
   * Potential savings if licenses are removed from Inactive Users
@@ -245,11 +245,11 @@ In the top three tiles, the following information is provided:
 
 * Top licenses assigned to inactive users, represented through a graph
 
-Below the tiles, you can find the report with that can be Shown by: **License or User**. The columns for the report are the same regardless of how it is viewed. The following information is displayed in the columns:
+Below the tiles, you can find the report that can be Shown by: **User or License**. The columns for the report are the same regardless of how it is viewed. The following information is displayed in the columns:
 
 * **License**; the name of the License currently assigned to an inactive user
-* **Last logged in**; the exact date when the user was last active
-* **User State**; shows if the user is inactive, has a blocked sign-in, or is deleted from Microsoft Entra ID
+* **Last logged in**; the exact date when the user was last logged into the tenant
+* **User State**; shows if the user is inactive or has a blocked sign-in 
 * **Department**; Shows the name of the company Department that said user was a part of
 * **Manager**; shows the user that was the said user's manager
   * Only if that information is available in Microsoft Entra ID
@@ -259,6 +259,12 @@ In the final column, you'll see the **Remove Licenses** action. Clicking the act
 
 **Selecting more than one user**, moves the action to the top of the report, and lets you perform the **Remove Licenses action in bulk**. 
 
+:::info
+
+**Please note!** If any licenses are missing required pricing information (price or default price), the remove licenses modal will contain an additional step where you can enter the missing pricing details. You can still proceed with the removal without entering the pricing; this is not a mandatory step. 
+
+:::
+
 The Inactive users with Assigned Licenses report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
 
@@ -266,6 +272,9 @@ The Inactive users with Assigned Licenses report can be **exported as PDF and XL
 
 The **Redundant Licenses report** helps you detect license conbinations with overlapping functionality and safely remove redundant ones to optimize costs. 
 
+This report shows **overlapping license** cases, where a **user is assigned both a primary license and a redundant license**. In these cases, the primary license covers all functionality that is included in the redundant license. 
+
+The report clearly shows which license is the primary one and which is redundant which **makes it easier to remove the redundant license while keeping the primary license assigned**. 
 
 :::info
 
@@ -287,7 +296,7 @@ A banner appears at the top of this report if any licenses are missing required 
 
 ### Redundant Licenses Report Data
 
-Now that your report is successfully generated, you have a complete overview of your redundant licenses.
+Now that your report has been generated successfully, you have a complete overview of your redundant licenses.
 
 In the top three tiles, the following information is provided:
 
@@ -299,7 +308,7 @@ In the top three tiles, the following information is provided:
 
 * Top Redundant License Combinations, which shows a graph with the most frequent license overlap combinations
 
-Below the tiles, you can find the report with the following data displayed in the columns:
+Below the tiles, you can find the report that can be Shown by: **User or License**. The columns for the report are the same regardless of how it is viewed. The following data is displayed in the columns:
 
 * **Primary License**; shows the name of the primary license assigned to a user
 * **Redundant License**; shows the name of the licenses that have the same functionality as the primary one, which means they can be safely removed
@@ -352,12 +361,12 @@ Now that your report is successfully generated, you have a complete overview of 
 In the top three tiles, the following information is provided:
 
 * Overview, which includes:
-  * Number of add-On licenses
+  * Number of add-on licenses
   * Amount of money the add-on licenses cost
   * A chart, which provides a visual overview of the number of used assigned add-on licenses compared to unused assigned add-on licenses
 
 * Potential Savings, which shows the amount of money you could save by removing unused or excess licenses with:
-  * The amount if total potential savings
+  * The amount of total potential savings
   * List of licenses with the highest savings potential, and the amount you could save
 
 *  Top unused add-on licenses, which provides an overview of the most commonly used add-on licenses, with a chart depicting the amount
@@ -375,4 +384,3 @@ Below the tiles, you can find the report with the following data displayed in th
 
 
 The Unused Add-on Licenses report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
-
