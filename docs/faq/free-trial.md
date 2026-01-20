@@ -48,7 +48,7 @@ Of course! Our support team is available Monday through Friday from 8AM to 8PM C
 
 ## Do you offer trial extensions? 
 
-We do not offer trial extensions. We recommend starting a monthly subscription, which you can cancel at any time.
+We do not offer trial extensions.
 
 ## What happens when my trial ends? 
 

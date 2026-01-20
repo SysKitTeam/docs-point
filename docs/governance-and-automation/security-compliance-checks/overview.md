@@ -6,20 +6,20 @@ description: This article provides information on the Security and Compliance ch
 
 The **Security and Compliance Checks** on your Syskit Point home screen **highlight key vulnerabilities and misalignments** with Microsoft 365 best practices. These checks **keep you informed, helping you react quickly and maintain a secure environment**.
 
-Collecting all the important information about the security and compliance state of your environment is a time-consuming, repetitive administrative task. **Syskit Point performs regular security and compliance checks** for you, and **presents the results directly on your home screen**.
+Collecting all the important information about the security and compliance state of your environment is a time-consuming and repetitive administration task. **Syskit Point performs regular security and compliance checks** for you, and **presents the results directly on your home screen**.
 
-:::info
-**Please note:** The Security and Compliance checks **email is sent to Syskit Point admins weekly**, on Wednesdays.
-
-* If there are no vulnerabilities in your environment, there is no email sent.
+:::warning
+**Please note!**\
+The Security and Compliance checks **email is sent to Syskit Point admins weekly**, on Wednesdays.
+* If there are no vulnerabilities in your environment, no email is sent.
 * If Wednesday is less than 2 days from your installation date, the email will be sent next week.
 :::
 
 When you acquire SysKit Point, a [**default rule**](../automated-workflows/policy-automation.md#default-rule) **will automatically apply default governance policies to your workspaces**.
 
 * **The default policies are configured to detect vulnerabilities without sending any emails or creating any tasks**.
-* **All vulnerabilities detected by Syskit Point are displayed on the Security & Compliance Dashboard**
-* **Both the vulnerabilities detected by default policies, as well as the policies created by Syskit Point admins, are displayed on the Security & Compliance Dashboard**
+* **All vulnerabilities detected by Syskit Point are displayed on the Security & Compliance Dashboard**.
+* **Both the vulnerabilities detected by default policies, as well as the policies created by Syskit Point admins, are displayed on the Security & Compliance Dashboard**.
 
 ## Security & Compliance Dashboard
 
@@ -31,9 +31,9 @@ On your home screen, you can see the number of:
 * **Medium-risk** vulnerabilities
 * **Low-risk** vulnerabilities
 
-You are also able to apply policies manually or [set up policy rules](../automated-workflows/policy-automation.md) if you haven't already by clicking the **Manage Policies button**.
+You are also able to apply policies manually or [set up policy rules](../automated-workflows/policy-automation.md) if you haven't already, by clicking the **Manage Policies button**.
 
-![Security & Compliance checks - Home](../../../static/img/security-and-compliance-checks-home.png)
+![Security and Compliance checks - Home](../../../static/img/security-and-compliance-checks-home.png)
 
 After clicking View All, the Security and Compliance checks dashboard will open, showing the following:
 * **Workspaces with Not Enough Owners (5)** – shows the number of workspaces that don't have enough owners. You will be able to investigate further and assign additional owners if needed. Keep an eye on workspaces with only 1 owner because **if that one owner leaves, a workspace is left without an owner**.
@@ -63,10 +63,11 @@ For more details on this view, take a look at the [Risky Workspaces article](ris
 
 ## Automated Governance
 
-To keep all vulnerabilities **under control proactively and prevent possible issues**, explore and \[[**set up governance policies**](../automated-workflows/set-up-policies.md) **and** [**policy rules**](../automated-workflows/policy-automation.md)] in Syskit Point.
+To keep all vulnerabilities **under control proactively and prevent possible issues**, explore and [**set up governance policies**](../automated-workflows/set-up-policies.md) **and** [**policy rules**](../automated-workflows/policy-automation.md) in Syskit Point.
 
-:::info
-**Please note!** If a user, security group, or mail-enabled security group is added to the Governance-Excluded Users list, those users do not receive any Governance-related tasks or task-related emails. [For more details on setting up Governance-Excluded Users, take a look at this article.](../../configuration/exclude-users-tasks.md)
+:::warning
+**Please note!**\
+ If a user, security group, or mail-enabled security group is added to the Governance-Excluded Users list, those users do not receive any Governance-related tasks or task-related emails. [For more details on setting up Governance-Excluded Users, take a look at this article.](../../configuration/exclude-users-tasks.md)
 :::
 
 
@@ -79,11 +80,13 @@ Take a look at the following articles to learn how to settle your security and c
 * [**Orphaned workspaces**](orphaned-workspaces.md)
 * [**Workspaces with not enough owners**](workspaces-not-enough-owners.md)
 * [**Orphaned users**](orphaned-users.md)&#x20;
+* [**Workspaces with Expired Sharing Links**](workspaces-with-expired-sharing-links.md)
 * [**Workspaces with too many owners**](inactive-guest-users.md)
 * [**Tenant Storage Limit**](tenant-storage.md)
 * [**Workspaces with too many members**](workspaces-with-too-many-members.md)
 * [**Workspaces with shadow users**](workspaces-with-shadow-users.md)
 
 :::warning
-**Please note!**   In case you have any security and compliance checks that need to be resolved, an **email is automatically sent each Wednesday** to Syskit Point admins. Click the **Resolve button** within the email to access the reports in Syskit Point directly and perform the needed actions.
+**Please note!**\
+   In case you have any security and compliance checks that need to be resolved, an **email is automatically sent each Wednesday** to Syskit Point admins. Click the **Resolve button** within the email to access the reports in Syskit Point directly and perform the needed actions.
 :::
