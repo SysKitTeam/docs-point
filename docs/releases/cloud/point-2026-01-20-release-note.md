@@ -25,10 +25,6 @@ description: This article lists new features, improvements, and bug fixes in the
   * Current Syskit Point users will receive access to the License Optimization add-on for a trial period of 3 months. After this period ends, a separate add-on will be required to access licensing features.
   * [For details on License reports, take a look at this article.](../../reporting/licenses-reports.md) 
 
-* **New Security & Compliance view available**: Workspaces
-  * The new Workspaces view in the Security & Compliance checks highlights risky workspaces, which are identified based on various health factors.
-  * [For more details about the new Risky Workspaces view and how the risk factor is determined, take a look at this article.](../../governance-and-automation/security-compliance-checks/risky-workspaces.md).
-
    
 ## Improvements & Bug Fixes 
 
