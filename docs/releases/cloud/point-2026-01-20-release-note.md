@@ -23,7 +23,7 @@ description: This article lists new features, improvements, and bug fixes in the
       * Insight into redundant licenses or unused add-on licenses
       * Overview of the state of your Licenses from the Dashboard tile
   * Current Syskit Point users will receive access to the License Optimization add-on for a trial period of 3 months. After this period ends, a separate add-on will be required to access licensing features.
-  * [For details on License reports, take a look at this article.](../../reporting/licenses-reports.md). 
+  * [For details on License reports, take a look at this article.](../../reporting/licenses-reports.md) 
 
    
 ## Improvements & Bug Fixes 
