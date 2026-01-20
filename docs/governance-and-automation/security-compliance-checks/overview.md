@@ -76,6 +76,7 @@ To keep all vulnerabilities **under control proactively and prevent possible iss
 
 Take a look at the following articles to learn how to settle your security and compliance checks:
 
+* [**Risky Workspaces View**](risky-workspaces.md)
 * [**Inactive Guest Users**](inactive-guest-users.md)
 * [**Blocked users with assigned licenses**](blocked-users-assigned-license.md)
 * [**Orphaned workspaces**](orphaned-workspaces.md)
