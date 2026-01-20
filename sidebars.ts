@@ -724,6 +724,7 @@ const sidebars: SidebarsConfig = {
         'governance-and-automation/configure-alerts',
         'governance-and-automation/manage-sensitivity-labels',
         'governance-and-automation/inactive-content',
+        'governance-and-automation/licenses-overview',
       ],
     },
     {
