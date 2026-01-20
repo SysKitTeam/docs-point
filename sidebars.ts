@@ -26,6 +26,7 @@ const sidebars: SidebarsConfig = {
             id: 'releases/cloud/README',
           },
           items: [
+            'releases/cloud/point-2026-01-20-release-note',
             'releases/cloud/point-2026-01-13-release-note',
             'releases/cloud/point-2026-01-08-release-note',
             'releases/cloud/point-2025-12-16-release-note',
@@ -724,6 +725,7 @@ const sidebars: SidebarsConfig = {
         'governance-and-automation/configure-alerts',
         'governance-and-automation/manage-sensitivity-labels',
         'governance-and-automation/inactive-content',
+        'governance-and-automation/licenses-overview',
       ],
     },
     {
