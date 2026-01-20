@@ -5,7 +5,7 @@ description: Licenses Reports provide information on managing your Microsoft 365
 # Licenses Reports
 
 :::warning
-
+**Please note!**\
 **License Reports** are now a part of the License Optimization add-on. The "Free Preview" allows existing customers to continue having access to these features for three months after release. 
 
 After this period ends, a separate add-on will be required to access licensing features. Please [contact support](https://www.syskit.com/contact-us/?utm_source=syskit-point&utm_medium=in-product&utm_campaign=311269578-License-Optimization&utm_content=button) for more details.
@@ -28,9 +28,9 @@ Use them to **identify Microsoft 365 licenses that are currently assigned, unass
 
 These reports can be used to **discover underutilized licenses to drive adoption and optimize license costs**.
 
-:::warning
+:::info
 
-**Please note!**  
+**Hint!**  
 
 You can save custom views for your reports tailored to your specific needs and preferences. [For more details on this, take a look at the Save Custom Views article.](../configuration/custom-views.md)
 
@@ -46,12 +46,8 @@ It also **shows the overall cost of all the current licenses** you've purchased 
 This report can be **used to help you calculate your needed number of licenses and estimate future license costs upon renewal**.
 
 
-:::warning
-
-**Please note!**  
-
-A banner appears at the top of this report if any licenses are missing required pricing information (price or default price), with a direct link to the Settings screen where you can provide the missing pricing details.
-
+:::info
+**A banner appears at the top of this report if any licenses are missing required pricing information** (price or default price), with a direct link to the Settings screen where you can provide the missing pricing details.
 :::
 
 
@@ -83,11 +79,8 @@ In the top three tiles, the following information is provided:
   * Unused Add-on Licenses, showing the amount of money you could save by removing unused add-on licenses
   * Redundant Licenses, showing the amount of money you could save by removing redundant licenses
 
-:::warning
-
-**Please note!**\
-The cases on the Annual Potential Savings tile is a**utomatically sorted** by potential savings, showing from **highest to lowest**. The case that yields the largest savings is always shown first and highlighted. 
-
+:::info
+The cases on the Annual Potential Savings tile are **automatically sorted** by potential savings, showing from **highest to lowest**. The case that yields the largest savings is always shown first and highlighted. 
 :::
 
 
@@ -163,12 +156,8 @@ View this report to understand license distribution by department and the total 
 
 This report can also be **used to help calculate possible savings that can achieve by removing inactive licenses**.
 
-:::warning
-
-**Please note!**  
-
-A banner appears at the top of this report if any licenses are missing required pricing information (price or default price), with a direct link to the Settings screen where you can provide the missing pricing details.
-
+:::info
+**A banner appears at the top of this report if any licenses are missing required pricing information** (price or default price), with a direct link to the Settings screen where you can provide the missing pricing details.
 :::
 
 ### Generate License Distribution Report
@@ -214,11 +203,8 @@ The **Inactive Users with Assigned Licenses** report helps with **finding and re
 Use this report to **easily remove the assigned licenses from inactive users** and assign them to another user. It can also help you estimate how many licenses are needed upon renewal, which assists cost reduction efforts. 
 
 
-:::warning
-
-**Please note!**  
-
-A banner appears at the top of this report if any licenses are missing required pricing information (price or default price), with a direct link to the Settings screen where you can provide the missing pricing details.
+:::info
+**A banner appears at the top of this report if any licenses are missing required pricing information** (price or default price), with a direct link to the Settings screen where you can provide the missing pricing details.
 
 :::
 
@@ -260,10 +246,8 @@ In the final column, you'll see the **Remove Licenses** action. Clicking the act
 
 **Selecting more than one user**, moves the action to the top of the report, and lets you perform the **Remove Licenses action in bulk**. 
 
-:::warning
-
-**Please note!**\
-If any licenses are missing required pricing information (price or default price), the remove licenses modal will contain an additional step where you can enter the missing pricing details. You can still proceed with the removal without entering the pricing; this is not a mandatory step. 
+:::info
+**If any licenses are missing required pricing information** (price or default price), the remove licenses modal will contain an additional step where you can enter the missing pricing details. You can still proceed with the removal without entering the pricing; this is not a mandatory step. 
 
 :::
 
@@ -278,11 +262,8 @@ This report shows **overlapping license** cases, where a **user is assigned both
 
 The report clearly shows which license is the primary one and which is redundant which **makes it easier to remove the redundant license while keeping the primary license assigned**. 
 
-:::warning
-
-**Please note!**  
-
-A banner appears at the top of this report if any licenses are missing required pricing information (price or default price), with a direct link to the Settings screen where you can provide the missing pricing details.
+:::info
+**A banner appears at the top of this report if any licenses are missing required pricing information** (price or default price), with a direct link to the Settings screen where you can provide the missing pricing details.
 
 :::
 
@@ -337,11 +318,9 @@ The Redundant Licenses report can be **exported as PDF and XLSX files**. There i
 
 The **Unused Add-on Licenses report** helps you find add-on licenses that aren't being used and remove them to save on expenses. 
 
-:::warning
+:::info
 
-**Please note!**  
-
-* A banner appears at the top of this report if any licenses are missing required pricing information (price or default price), with a direct link to the Settings screen where you can provide the missing pricing details.
+* **A banner appears at the top of this report if any licenses are missing required pricing information** (price or default price), with a direct link to the Settings screen where you can provide the missing pricing details.
 
 * A banner might also appear if license data is still being collected, with insight into when all data will be visible. 
 
