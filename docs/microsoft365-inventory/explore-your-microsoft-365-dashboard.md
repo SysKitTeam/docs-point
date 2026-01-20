@@ -15,18 +15,19 @@ You can use Dashboard to:
 The Dashboard is the home page of Syskit Point and shows as soon as you log in. 
 
 The **Syskit Point** Dashboard shows Syskit Point administrators the following information in the tiles:
-* Inventory
-* Users
-* Storage
-* Security & Compliance
-* Copilot Readiness
-* External Collaboration
-* Active Access Review
-* Inactive Workspaces 
-* Microsoft 365 Licenses
-* Power Platform
-* Workspace Sensitivity
-* SharePoint Agents
+
+* [Inventory](#inventory)
+* [Users](#users)
+* [Storage](#storage)
+* [Security & Compliance](#security--compliance)
+* [Copilot Readiness](#copilot-readiness)
+* [External Collaboration](#external-collaboration)
+* [Access Review](#access-review)
+* [Inactive Workspaces](#inactive-workspaces)
+* [License Optimization](#license-optimization)
+* [Power Platform](#power-platform)
+* [Workspace Sensitivity](#workspace-sensitivity)
+* [SharePoint Agents](#sharepoint-agents)
 
 
 The **Syskit Point** Dashboard shows Syskit Point collaborators the following information in the tiles:
@@ -226,29 +227,32 @@ The **View All** link opens the **Governance** section, showing the **Vulnerabil
 The number of inactive workspaces **will be visible 10 days after the first installation of Syskit Point.**
 :::
 
+## License Optimization
 
-## Microsoft 365 Licenses
+The License Optimization tile provides an **overview of your licenses and real-time costs**, making it easier for you to discover opportunities to increase your savings. 
 
-The Microsoft 365 Licenses tile shows an overview of the paid licenses used for your Syskit Point subscription. 
+The tile on the Dashboard shows:
 
-You can find the following information on the tile screen:
- 
-* Number of active licenses
-* Number of licenses assigned to inactive users
-* Number of unassigned licenses
-* The total annual cost for your licenses
-* The amount you can save annually by removing inactive licenses 
+* Potential Savings section, which shows the amount of money you could save by removing unused or excess licenses, is divided into:
+  * Inactive Users
+  * Inactive Add-on Licenses
 
-You can also click the View All button, which takes you to the Licenses Overview report screen.
+* License Overview section, which shows the **number of purchased licenses** and the **total annual cost** for your licenses
 
-For more information on the license reports available, take a look at the [Licenses Reports article](../reporting/licenses-reports.md).
+* A chart thatr shows the number of:
+  * Active licenses
+  * Active licenses assigned to an Inactive User
+  * Unassigned licenses
+* Clicking the **View All button** opens the License Overview report. [For more details on the report, take a look at this article.](../reporting/licenses-reports.md#licenses-overview-report) 
 
-![Microsoft 365 Licenses tile](../../static/img/dashboard-licenses-tile.png)
+If some licenses are missing price information, you get a warning at the bottom of the tile. There is a button that redirects to **Settings**, where you can add any missing values to keep your calculations accurate.
+
+![SharePoint Agents Tile](../../static/img/dashboard-license-optimization-tile.png)
 
 
 ## Power Platform 
 
-:::info
+:::warning
 **Please Note!** Power Platform is **now available as an add-on** purchase to your Syskit Point subscription. 
 
 To enable the use of Power Platform for Syskit Point, [please contact us](https://www.syskit.com/contact-us-power-platform/).
@@ -321,3 +325,4 @@ The tile on the Dashboard shows:
 Clicking the Explore button opens the Custom SharePoint Agents Inventory report. [For more details on the report, take a look at this article.](../reporting/ai-agents-reports.md) 
 
 ![SharePoint Agents Tile](../../static/img/dashboard-sharepoint-agents-tile.png)
+

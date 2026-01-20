@@ -14,8 +14,8 @@ On the task overview screen, you can find information on what is expected of you
   * Carefully going through and removing unnecessary access helps keep your data safe. 
 
 * Explanation of how many sections this step has: 
-  * [**Expired Links (1)**](#review-expired-links) 
-  * [**Unused Links (2)** ](#review-unused-links) 
+  * [**Expired Links (1)**](#remove-expired-links) 
+  * [**Unused Links (2)** ](#remove-unused-links) 
   * [**Shared with Anyone (3)**](#review-anyone-links) 
   * [**Shared with People in Your Organization (4)**](#review-links-shared-with-people-in-your-organization) 
   * [**Review All Sharing Links (5)** ](#review-all-shared-files)
