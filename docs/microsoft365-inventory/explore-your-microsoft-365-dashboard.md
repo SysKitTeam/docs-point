@@ -248,7 +248,7 @@ If some licenses are missing price information, you get a warning at the bottom 
 
 ## Power Platform 
 
-:::info
+:::warning
 **Please Note!** Power Platform is **now available as an add-on** purchase to your Syskit Point subscription. 
 
 To enable the use of Power Platform for Syskit Point, [please contact us](https://www.syskit.com/contact-us-power-platform/).

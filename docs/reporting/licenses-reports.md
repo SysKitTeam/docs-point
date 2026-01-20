@@ -28,7 +28,7 @@ Use them to **identify Microsoft 365 licenses that are currently assigned, unass
 
 These reports can be used to **discover underutilized licenses to drive adoption and optimize license costs**.
 
-:::info
+:::warning
 
 **Please note!**  
 
@@ -46,7 +46,7 @@ It also **shows the overall cost of all the current licenses** you've purchased 
 This report can be **used to help you calculate your needed number of licenses and estimate future license costs upon renewal**.
 
 
-:::info
+:::warning
 
 **Please note!**  
 
@@ -83,9 +83,10 @@ In the top three tiles, the following information is provided:
   * Unused Add-on Licenses, showing the amount of money you could save by removing unused add-on licenses
   * Redundant Licenses, showing the amount of money you could save by removing redundant licenses
 
-:::info
+:::warning
 
-**Please note!** The cases on the Annual Potential Savings tile is a**utomatically sorted** by potential savings, showing from **highest to lowest**. The case that yields the largest savings is always shown first and highlighted. 
+**Please note!**\
+The cases on the Annual Potential Savings tile is a**utomatically sorted** by potential savings, showing from **highest to lowest**. The case that yields the largest savings is always shown first and highlighted. 
 
 :::
 
@@ -162,7 +163,7 @@ View this report to understand license distribution by department and the total 
 
 This report can also be **used to help calculate possible savings that can achieve by removing inactive licenses**.
 
-:::info
+:::warning
 
 **Please note!**  
 
@@ -213,7 +214,7 @@ The **Inactive Users with Assigned Licenses** report helps with **finding and re
 Use this report to **easily remove the assigned licenses from inactive users** and assign them to another user. It can also help you estimate how many licenses are needed upon renewal, which assists cost reduction efforts. 
 
 
-:::info
+:::warning
 
 **Please note!**  
 
@@ -259,9 +260,10 @@ In the final column, you'll see the **Remove Licenses** action. Clicking the act
 
 **Selecting more than one user**, moves the action to the top of the report, and lets you perform the **Remove Licenses action in bulk**. 
 
-:::info
+:::warning
 
-**Please note!** If any licenses are missing required pricing information (price or default price), the remove licenses modal will contain an additional step where you can enter the missing pricing details. You can still proceed with the removal without entering the pricing; this is not a mandatory step. 
+**Please note!**\
+If any licenses are missing required pricing information (price or default price), the remove licenses modal will contain an additional step where you can enter the missing pricing details. You can still proceed with the removal without entering the pricing; this is not a mandatory step. 
 
 :::
 
@@ -276,7 +278,7 @@ This report shows **overlapping license** cases, where a **user is assigned both
 
 The report clearly shows which license is the primary one and which is redundant which **makes it easier to remove the redundant license while keeping the primary license assigned**. 
 
-:::info
+:::warning
 
 **Please note!**  
 
@@ -335,7 +337,7 @@ The Redundant Licenses report can be **exported as PDF and XLSX files**. There i
 
 The **Unused Add-on Licenses report** helps you find add-on licenses that aren't being used and remove them to save on expenses. 
 
-:::info
+:::warning
 
 **Please note!**  
 
