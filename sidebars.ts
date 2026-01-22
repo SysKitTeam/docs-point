@@ -633,6 +633,7 @@ const sidebars: SidebarsConfig = {
           },
           items: [
             'governance-and-automation/security-compliance-checks/overview',
+            'governance-and-automation/security-compliance-checks/risky-workspaces',
             'governance-and-automation/security-compliance-checks/inactive-workspaces',
             'governance-and-automation/security-compliance-checks/orphaned-workspaces',
             'governance-and-automation/security-compliance-checks/inactive-guest-users',
