@@ -58,12 +58,34 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 ## Improvements & Bug Fixes
 
+* **Improvements made to the Orphaned Users policy.**
+  * **Added automation options** to the Orphaned Users policy, enabling easier resolution when vulnerabilities are detected.
+  * When automatic policy resolution is enabled, you can specify which types of orphaned users should be **automatically removed** from the workspace:
+    * **Deleted orphaned users**
+    * **Disabled orphaned users**
+    * **All orphaned users**
+  * For more details on this new option, [**take a look at the Orphaned Users policy article**](../../../governance-and-automation/automated-workflows/orphaned-users-admin.md).
+
+* **Improved the License Reports settings screen.**
+  * Licenses are now grouped into tiles: **Microsoft 365 Core and Enterpise Plans**, **Add-ons**, and **Other**.
+
+* **Improvements made to Workspace Review.**
+  * When a Workspace Review is manually requested for a workspace without the policy assigned, a dialog appears informing the admin that one or more selected workspaces do not have a Workspace Review policy applied.
+  * A drop-down menu is provided with a list of available Workspace Review policies, and after selecting one, you can click the Request Review button. 
+  * **Added PDF and XLSX export options** to Workspace Review screens showing performed actions. 
+
+* **Fixed an issue** where recently deleted or archived workspaces were included when restarting a Workspace Review.
+  * If a Workspace Review was partially completed, canceled, and then requested again, workspaces that were deleted or archived during the partial review would appear as if they were still active when the Workspace Review was requested again.
 
 * **Improved the performance of the tenant-wide Storage Metrics report**, preventing timeouts on tenants with a large number of workspaces. 
 
-* **Added PDF and XLSX export options to Workspace Review screens showing performed actions**. 
+* **Fixed an issue** where the Tenant-Wide Storage report took longer to generate or timed out when switching views.
 
 * **Added Job Title and Company** columns to the Group Memberships report. These columns are not displayed by default. Use the Column Chooser to enable them. They are also visible in the generated Excel file when exporting to XLSX.
+
+* **Fixed an issue** where clicking the Resolve button for a task on the Tasks screen resulted in an error. The issue was limited to groups with a large number of members.
+
+* **Fixed an issue** with Provisioning-related emails where certain images were not displayed correctly in older versions of desktop Outlook. 
 
 * **Fixed an issue** where OneDrive sync would fail with the following error:
   ```
@@ -79,30 +101,6 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
   ```
   System.Exception: Team with group id <groupID> was not created. <n> attempts made.
   ```
-
-* **Fixed an issue** where clicking the Resolve button for a task on the Tasks screen resulted in an error. The issue was limited to groups with a large number of members.
-
-* **Fixed an issue** with Provisioning-related emails where certain images were not displayed correctly in older versions of desktop Outlook. 
-
-* **Fixed an issue** where the Tenant-Wide Storage report took longer to generate or timed out when switching views.
-
-* **Improvements made to the Orphaned Users policy.**
-  * **Added automation options** to the Orphaned Users policy, enabling easier resolution when vulnerabilities are detected.
-  * When automatic policy resolution is enabled, you can specify which types of orphaned users should be **automatically removed** from the workspace:
-    * **Deleted orphaned users**
-    * **Disabled orphaned users**
-    * **All orphaned users**
-  * For more details on this new option, [**take a look at the Orphaned Users policy article**](../../../governance-and-automation/automated-workflows/orphaned-users-admin.md).
-
-* **Improvements made to Workspace Review.**
-  * When a Workspace Review is manually requested for a workspace without the policy assigned, a dialog appears informing the admin that one or more selected workspaces do not have a Workspace Review policy applied.
-  * A drop-down menu is provided with a list of available Workspace Review policies, and after selecting one, you can click the Request Review button. 
-
-* **Improved the License Reports settings screen.**
-  * Licenses are now grouped into tiles: **Microsoft 365 Core and Enterpise Plans**, **Add-ons**, and **Other**.
-
-* **Fixed an issue** where recently deleted or archived workspaces were included when restarting a Workspace Review.
-  * If a Workspace Review was partially completed, canceled, and then requested again, workspaces that were deleted or archived during the partial review would appear as if they were still active when the Workspace Review was requested again.
 
 * **Various improvements, including UX and UI fixes, are available.**
   * **Fixed the date format** visible in the Start Date field and the first Workspace Review start date information visible on the Create New Policy dialog when creating a new Workspace Review policy.
