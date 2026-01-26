@@ -123,6 +123,10 @@ The tile on the Dashboard shows:
 * The number of high-risk vulnerabilities
 * The number of medium-risk vulnerabilities
 * The number of low-risk vulnerabilities
+* The number of Risky Workspaces
+  * Clicking the number shown opens the Risky Workspaces Security & Compliance screen.
+  * [For more details, take a look at the Risky Workspaces article.](../governance-and-automation/security-compliance-checks/risky-workspaces.md)
+
 
 ![Security and Compliance tile](../../static/img/dashboard-security-compliance-tile.png)
 
