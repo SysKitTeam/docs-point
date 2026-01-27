@@ -8,7 +8,7 @@ description: This article lists improvements and bug fixes in Syskit Point versi
 
 **Product version:** 2026.1.125
 
-**Build number:** XX
+**Build number:** 54
 
 **Release date:** January 27, 2026
 
@@ -45,7 +45,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 * **New Security & Compliance view available**: Workspaces
   * The new Workspaces view in the Security & Compliance checks highlights risky workspaces, which are identified based on various health factors.
-  * [For more details about the new Risky Workspaces view and how the risk factor is determined, take a look at this article.](../../../governance-and-automation/security-compliance-checks/risky-workspaces.md).
+  * [For more details about the new Risky Workspaces view and how the risk factor is determined, take a look at this article.](../../../governance-and-automation/security-compliance-checks/risky-workspaces.md)
 
 * **New steps added to the Workspace Review**.
     * **Remove Blocked Members** and **Remove Inactive Guests** added to the Membership step.
@@ -67,7 +67,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
   * For more details on this new option, [**take a look at the Orphaned Users policy article**](../../../governance-and-automation/automated-workflows/orphaned-users-admin.md).
 
 * **Improved the License Reports settings screen.**
-  * Licenses are now grouped into tiles: **Microsoft 365 Core and Enterpise Plans**, **Add-ons**, and **Other**.
+  * Licenses are now grouped into tiles: **Microsoft 365 Core and Enterprise Plans**, **Add-ons**, and **Other**.
 
 * **Improvements made to Workspace Review.**
   * When a Workspace Review is manually requested for a workspace without the policy assigned, a dialog appears informing the admin that one or more selected workspaces do not have a Workspace Review policy applied.
