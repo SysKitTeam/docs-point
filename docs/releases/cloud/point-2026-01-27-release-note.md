@@ -15,11 +15,11 @@ description: This article lists new features, improvements, and bug fixes in the
    
 ## Improvements & Bug Fixes 
 
-* **Fixed an issue** where SharePoint sites remained in Point even after their geo-location was removed which caused sync failures. 
+* **Fixed an issue** where SharePoint sites remained in Point even after their geo-location was removed, which caused sync failures. 
   * Syskit Point now detects geo-locations that no longer exist in Microsoft 365 and automatically deletes affected sites.
 
-* **Fixed an issue** where OneDrive sites that were deleted years ago were shown as *Deleted* but still incorrectly marked as *Can Be Restored*.
-  * OneDrive sites that were deleted more than 93 dys ago are now correctly detected as hard-deleted during autodiscovery and sync. 
+* **Fixed an issue** where OneDrive sites that were deleted more than 93 days ago were shown as *Deleted* but still incorrectly marked as *Can Be Restored*.
+  * OneDrive sites that were deleted more than 93 days ago are now correctly detected as hard-deleted during autodiscovery and sync. 
 
 * **Fixed an issue** where certain folders were missing from sync due to invalid or incomplete sharing link data, and would show the following error: 
   ```
@@ -27,10 +27,7 @@ description: This article lists new features, improvements, and bug fixes in the
   invitedOnField is nullable and can accept empty value 
   ```
 
-* **Removed the requirement** for the RoleManagement.ReadWrite.Directory permission during consent for new installations. 
-  * If you already have Point installed, this permission will remain until it is manually removed. 
-
 * **Added a column** to the Sharing Links report: **Recommendations** 
-  * The column can include the Expired Link recommendation, making it easier to spot links that can be removed at glance. 
+  * The column can include the Expired Link recommendation, making it easier to spot links that can be removed at a glance. 
 
 * **Various improvements, including UX and UI fixes, are available.**
