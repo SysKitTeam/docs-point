@@ -64,7 +64,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
     * **Deleted orphaned users**
     * **Disabled orphaned users**
     * **All orphaned users**
-  * For more details on this new option, [**take a look at the Orphaned Users policy article**](../../../governance-and-automation/automated-workflows/orphaned-users-admin.md).
+  * For more details on this new option, [take a look at the Orphaned Users policy article](../../../governance-and-automation/automated-workflows/orphaned-users-admin.md).
 
 * **Improved the License Reports settings screen.**
   * Licenses are now grouped into tiles: **Microsoft 365 Core and Enterprise Plans**, **Add-ons**, and **Other**.
