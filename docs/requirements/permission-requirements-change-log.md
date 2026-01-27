@@ -164,7 +164,6 @@ To manage the permissions, you can run the related PowerShell cmdlets described 
 | App Registration     | API/Permissions Name                         | Permission                                 | Type        | Reason                                                                                                             |
 | -------------------- | -------------------------------------------- | ------------------------------------------ | ----------- | ------------------------------------------------------------------------------------------------------------------ |
 | Syskit Point Service | Microsoft Graph/GroupMember.ReadWrite.All    | Read and write all group memberships       | Application | Allows Syskit Point to add users in Microsoft Entra ID to security groups after an access request is approved by the group owner. |
-| Syskit Point Service | Microsoft Graph/RoleManagement.ReadWrite.All | Read and write all directory RBAC settings | Application | Allows Syskit Point to add users in Microsoft Entra ID to security groups after an access request is approved by the group owner. |
 
 ### Syskit Point Enterprise 2023.4.1
 
