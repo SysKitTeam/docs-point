@@ -26,6 +26,7 @@ const sidebars: SidebarsConfig = {
             id: 'releases/cloud/README',
           },
           items: [
+            'releases/cloud/point-2026-01-27-release-note',
             'releases/cloud/point-2026-01-20-release-note',
             'releases/cloud/point-2026-01-13-release-note',
             'releases/cloud/point-2026-01-08-release-note',
@@ -135,6 +136,17 @@ const sidebars: SidebarsConfig = {
             id: 'releases/enterprise/README',
           },
           items: [
+            {
+              type: 'category',
+              label: 'Syskit Point 2026.1',
+              link: {
+                type: 'doc',
+                id: 'releases/enterprise/syskit-point-2026-1/README',
+              },
+              items: [
+                'releases/enterprise/syskit-point-2026-1/point-2026-1-125-release-note',
+              ],
+            },
             {
               type: 'category',
               label: 'Syskit Point 2025.5',
