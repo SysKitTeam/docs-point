@@ -12,6 +12,17 @@ description: This article lists new features, improvements, and bug fixes in the
 
 * **Already using Syskit Point Cloud?** Syskit Point Cloud is automatically upgraded to the latest version when available. The automatic update occurs outside working hours to ensure minimal interference with your day-to-day business. The new version will begin rolling out with this announcement and is expected to reach all customers within the next few days.
 
+:::warning
+**Please note!**
+
+* For new deployments, the **RoleManagement.ReadWrite.Directory permission is no longer requested** or added during consent.  
+  
+* For an **already deployed Point**, this permission is **not removed automatically** and will remain until manually removed. You can choose to remove this permission if you **do not need to manage security groups with allowed role assignments**.
+
+* If managing role-based security groups is required, after deploying Point for the first time, you will have to manually add this permission, as it is not included by default in new deployments. 
+
+:::
+
    
 ## Improvements & Bug Fixes 
 
