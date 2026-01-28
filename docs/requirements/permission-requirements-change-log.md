@@ -73,8 +73,6 @@ Depending on which version you are upgrading to, below you can find the list of 
 
 **The following permission has been removed from Syskit Point app registrations**:
 
-| App Registration     | API/Permissions Name                         | Permission                                 | Type        | Reason         
-
 | App Registration | API/Permission Name | Permission | Type | Reason |
 | ----- | ----- | ----- | ----- | ----- |
 | Syskit Point Service | Microsoft Graph/RoleManagement.ReadWrite.All | Read and write all directory RBAC settings | Application | Allows Syskit Point to add users in Microsoft Entra ID to security groups after an access request is approved by the group owner. |
@@ -94,8 +92,6 @@ Depending on which version you are upgrading to, below you can find the list of 
 :::
 
 **The following permission has been removed from Syskit Point app registrations**:
-
-| App Registration     | API/Permissions Name                         | Permission                                 | Type        | Reason         
 
 | App Registration | API/Permission Name | Permission | Type | Reason |
 | ----- | ----- | ----- | ----- | ----- |
