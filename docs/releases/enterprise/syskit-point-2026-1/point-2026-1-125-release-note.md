@@ -22,6 +22,19 @@ description: This article lists improvements and bug fixes in Syskit Point versi
 See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../set-up-point-enterprise/deployment/upgrade-syskit-point.md).
 
 
+:::warning
+**Please note!**
+
+* For new deployments, the **RoleManagement.ReadWrite.Directory permission is no longer requested** or added during consent.  
+  
+* For an **already deployed Point**, this permission is **not removed automatically** and will remain until manually removed. You can choose to remove this permission if you **do not need to manage security groups with allowed role assignments**.
+
+* If managing role-based security groups is required, after deploying Point for the first time, you will have to manually add this permission, as it is not included by default in new deployments. 
+
+* [For more information about permission requirements changes, see the change log.](../../../requirements/permission-requirements-change-log.md#syskit-point-enterprise-20261125)
+
+:::
+
 ## New Features
 
 

@@ -21,6 +21,8 @@ description: This article lists new features, improvements, and bug fixes in the
 
 * If managing role-based security groups is required, after deploying Point for the first time, you will have to manually add this permission, as it is not included by default in new deployments. 
 
+* [For more information about permission requirements changes, see the change log.](../../requirements/permission-requirements-change-log.md#syskit-point-cloud-20261126)
+
 :::
 
    
