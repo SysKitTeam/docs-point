@@ -58,6 +58,46 @@ After clicking the Manage Connection button, you can expect the following to hap
 
 Depending on which version you are upgrading to, below you can find the list of changes in permissions requested and which features depend on them.
 
+### Syskit Point Enterprise 2026.1.125
+
+:::warning
+**Please note!**
+
+* For new deployments, the **RoleManagement.ReadWrite.Directory permission is no longer requested** or added during consent.  
+  
+* For an **already deployed Point**, this permission is **not removed automatically** and will remain until manually removed. You can choose to remove this permission if you **do not need to manage security groups with allowed role assignments**.
+
+* If managing role-based security groups is required, after deploying Point for the first time, you will have to manually add this permission, as it is not included by default in new deployments. 
+
+:::
+
+**The following permission has been removed from Syskit Point app registrations**:
+
+| App Registration | API/Permission Name | Permission | Type | Reason |
+| ----- | ----- | ----- | ----- | ----- |
+| Syskit Point Service | Microsoft Graph/RoleManagement.ReadWrite.All | Read and write all directory RBAC settings | Application | Allows Syskit Point to add users in Microsoft Entra ID to security groups after an access request is approved by the group owner. |
+
+
+### Syskit Point Cloud 2026.1.126
+
+:::warning
+**Please note!**
+
+* For new deployments, the **RoleManagement.ReadWrite.Directory permission is no longer requested** or added during consent.  
+  
+* For an **already deployed Point**, this permission is **not removed automatically** and will remain until manually removed. You can choose to remove this permission if you **do not need to manage security groups with allowed role assignments**.
+
+* If managing role-based security groups is required, after deploying Point for the first time, you will have to manually add this permission, as it is not included by default in new deployments. 
+
+:::
+
+**The following permission has been removed from Syskit Point app registrations**:
+
+| App Registration | API/Permission Name | Permission | Type | Reason |
+| ----- | ----- | ----- | ----- | ----- |
+| Syskit Point Service | Microsoft Graph/RoleManagement.ReadWrite.All | Read and write all directory RBAC settings | Application | Allows Syskit Point to add users in Microsoft Entra ID to security groups after an access request is approved by the group owner. |
+
+
 ### Syskit Point Enterprise 2025.5.115
 **Reconsent is required for customers using Viva Engage community provisioning templates due to permission changes introduced when switching from Viva Engage app registrations to Graph API permissions for Viva Engage community provisioning**.
 
