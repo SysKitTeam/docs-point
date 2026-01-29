@@ -8,6 +8,7 @@ description: This article lists all types of tasks available in Syskit Point.
 
 In the latest version of Syskit Point, the following types of tasks are available:
 
+* [**Workspace Review**](../point-collaborators/workspace-review/workspace-review-overview.md)
 * [**Access Review**](../point-collaborators/resolve-governance-tasks/access-review.mdx)
 * [**Inactive Workspaces**](../point-collaborators/resolve-governance-tasks/inactive-workspaces.md)
 * **Ownership Review**
