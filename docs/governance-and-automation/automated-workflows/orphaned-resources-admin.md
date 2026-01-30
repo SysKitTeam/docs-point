@@ -30,6 +30,21 @@ The **Edit Policy** dialog opens, where you can:
       * If the manager cannot be found, Syskit Point escalates the task to the user you defined when creating the policy
 * Click **Save (5)** once you are done with the policy configuration 
 
+:::warning
+**Please note!** 
+When resolving the Orphaned Workspaces task by selecting the Automatically Assign New Owners option, Syskit Point tries to find the most appropriate owner by using the following logic:
+
+* **Check for disabled or deleted owners** 
+  * If the workspace had disabled or deleted owners, Point assigns ownership to the manager of one of those users.
+    * The selected manager cannot be disabled or deleted and is chosen based on the most recent sign-in. 
+  * If no disabled or deleted owners are found, Point checks audit logs for users who were removed as owners within the last 7 days.
+    * If such users exists, ownership is assigned to the manager of one of those users while using the same criteria as mentioned above. 
+* **Fallback to tasks**
+  * If no suitable owner can be found during the above step, resolution tasks are assigned to the configured resolvers and an e-mail is sent to them.
+  * If an owner is found, but assignment fails, tasks are assigned to Syskit Point Admins, without sending an e-mail notification. 
+
+:::
+
 ![Edit Policy Dialog](../../../static/img/set-up-automated-workflows-orphaned-dialog.png)
 
 

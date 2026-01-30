@@ -36,6 +36,7 @@ The report itself provides information on:
 
 Additionally, you can complete the following actions for the policy vulnerability:
 * **Ask Members (8)** - this action requests that the workspace members select new workspace owners
+  * For more details on the Ask Members action, [please check out the section below](#ask-members-action)
 * **The Ellipsis (more options) Menu (9)** - clicking the 3 dots next to the Ask Members button provides the option to complete the following actions:
   * **Archive** - this action archives the workspaces
   * **Delete** - this action deletes the workspace
@@ -75,5 +76,58 @@ Here you can find the following information:
   * If the required number of members has not been added or removed, including those within nested groups, the Resolve button remains disabled until that condition is met.
 * **Site Owners are determined by the SharePoint Owners group.**
   * Only users who are part of the SharePoint Owners group are considered Site Owners and can resolve tasks. **Site Admins cannot resolve tasks** and are not considered Site Owners.
+
+:::
+
+## Ask Members Action
+
+The **Ask Members action** helps resolved orphaned workspace tasks by **asking workspace members to suggest new owners when no active owners exist**. 
+
+The Ask Members action is a two-stage process:
+
+* **Stage One - Members suggest new owners**
+  * When the Ask Members action is triggered, e-mails and tasks are sent to all members of the workspace
+  * Members are asked to suggest one or more users as new owners
+  * Members can resolve the task directly from the e-mail they receive
+  * The suggestions are stored as members resolve their tasks, and stage one stays active until all members resolve their tasks
+
+:::info
+
+**Please note:**
+
+**If the team has no members**, this action cannot be completed. In that case, the admins have to resolve the vulnerability by using one of the following actions;
+  * Add Owners
+  * Archive Workspace
+  * Delete Workspace
+
+:::
+
+
+* **Stage 2 - Resolving the task**
+  * After all members tasks are completed, a new task is created for admins or designated reviewers to take one of the following actions:
+    * **Add Owners**, by approving the suggestions made by members or deciding on an owner yourself
+    * Archive the workspace
+    * Delete the workspace
+
+:::warning
+
+For more details, on **how the Ask Members task resolution looks like from the perspective of members that receive the task**, [**take a look at the Resolve Orphaned Workspaces Tasks.**](../../point-collaborators/resolve-governance-tasks/orphaned-resources.md#members-suggest-new-owners)
+
+:::
+
+The **policy vulnerability is closed only after the second stage is resolved**. Collecting suggestions alone from members does not close the vulnerability. 
+
+
+:::info
+
+**Please note the following:**
+* **Designated reviewers are determined** using the following:
+   * Point tries to use the currently defined reviewers and respects existing policy settings 
+   * If specific reviewers are are designed as custom recipients in the policy settings, the task is sent to them
+   * If the reviewer type is set to anything other than Point Admins or custom recipients, the task is sent to Point Admins
+   * If the reviewer type is set to Custom Recipients, but the recipient list is empty, the task defaults to Point Admins
+* **Tasks are sent to all workspace members**, if a Guest User is a member, they will receive the task as well and can submit suggestions.
+* **Users cannot become owners based on suggestion alone**, this decision needs to be approved during stage 2 by either a Point Admin or a specified designated reviewer.
+
 
 :::
