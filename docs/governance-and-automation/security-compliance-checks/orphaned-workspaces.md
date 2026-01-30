@@ -127,6 +127,7 @@ The **policy vulnerability is closed only after the second stage is resolved**. 
    * If the reviewer type is set to anything other than Point Admins or custom recipients, the task is sent to Point Admins
    * If the reviewer type is set to Custom Recipients, but the recipient list is empty, the task defaults to Point Admins
 * **Tasks are sent to all workspace members**, if a Guest User is a member, they will receive the task as well and can submit suggestions.
+* **Users have 15 days to resolve Tasks**, after 15 days the second stage is triggered and the approval task is created
 * **Users cannot become owners based on suggestion alone**, this decision needs to be approved during stage 2 by either a Point Admin or a specified designated reviewer.
 
 
