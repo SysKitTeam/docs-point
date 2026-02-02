@@ -39,7 +39,9 @@ This report helps detect and remove blocked/disabled or deleted users from your 
 
 ### Report Data
 
-Once the report is successfully generated, the following data will be displayed in the columns:
+Once the report is successfully generated, you can also **set up automation for the Orphaned Users policy directly from the report** by clicking the **Setup Automation button** on the right of the report. Automation can be set up only by the admin from the report itself or directly from the policy settings. For more details about automation, take a look at the [Orphaned Users policy article](../governance-and-automation/automated-workflows/orphaned-users-admin.md).
+
+The following data will be displayed in the columns:
 
 * **User**; the name of the orphaned user. 
   * When clicked, the User Details page of the selected user is opened.
