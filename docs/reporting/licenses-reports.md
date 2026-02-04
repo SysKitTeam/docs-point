@@ -8,7 +8,7 @@ description: Licenses Reports provide information on managing your Microsoft 365
 **Please note!**\
 **License Reports** are now a part of the License Optimization add-on. The "Free Preview" allows existing customers to continue having access to these features for three months after release. 
 
-After this period ends, a separate add-on will be required to access licensing features. Please [contact support](https://www.syskit.com/contact-us/?utm_source=syskit-point&utm_medium=in-product&utm_campaign=311269578-License-Optimization&utm_content=button) for more details.
+After this period ends, a separate add-on will be required to access licensing features. Please [contact us](https://www.syskit.com/contact-us/?utm_source=syskit-point&utm_medium=in-product&utm_campaign=311269578-License-Optimization&utm_content=button) for more details.
 
 :::
 
