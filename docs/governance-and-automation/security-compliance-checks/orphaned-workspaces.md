@@ -118,17 +118,16 @@ For more details, on **how the Ask Members task resolution looks like from the p
 The **policy vulnerability is closed only after the second stage is resolved**. Collecting suggestions alone from members does not close the vulnerability. 
 
 
-:::info
+## Designated Reviewers
 
-**Please note the following:**
-* **Designated reviewers are determined** using the following:
-   * Point tries to use the currently defined reviewers and respects existing policy settings 
-   * If specific reviewers are are designed as custom recipients in the policy settings, the task is sent to them
-   * If the reviewer type is set to anything other than Point Admins or custom recipients, the task is sent to Point Admins
-   * If the reviewer type is set to Custom Recipients, but the recipient list is empty, the task defaults to Point Admins
-* **Tasks are sent to all workspace members**, if a Guest User is a member, they will receive the task as well and can submit suggestions.
-* **Users have 15 days to resolve Tasks**, after 15 days the second stage is triggered and the approval task is created
-* **Users cannot become owners based on suggestion alone**, this decision needs to be approved during stage 2 by either a Point Admin or a specified designated reviewer.
+**Designated reviewers are determined** using the following:
+  * Point tries to use the currently defined reviewers and respects existing policy settings 
+  * If specific reviewers are are designed as custom recipients in the policy settings, the task is sent to them
+  * If the reviewer type is set to anything other than Point Admins or custom recipients, the task is sent to Point Admins
+  * If the reviewer type is set to Custom Recipients, but the recipient list is empty, the task defaults to Point Admins
 
+**Tasks are sent to all workspace members**, if a Guest User is a member, they will receive the task as well and can submit suggestions.
 
-:::
+**Users have 15 days to resolve Tasks**, after 15 days the second stage is triggered and the approval task is created.
+
+**Users cannot become owners based on suggestion alone**, this decision needs to be approved during stage 2 by either a Point Admin or a specified designated reviewer.
