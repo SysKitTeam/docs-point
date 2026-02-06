@@ -146,6 +146,7 @@ const sidebars: SidebarsConfig = {
               },
               items: [
                 'releases/enterprise/syskit-point-2026-1/point-2026-1-125-release-note',
+                'releases/enterprise/syskit-point-2026-1/point-2026-1-127-release-note',
               ],
             },
             {
