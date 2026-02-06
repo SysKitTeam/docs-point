@@ -32,18 +32,18 @@ The report itself provides information on:
   * If task delegation is enabled for the policy, it shows the task status, for example, *Awaiting response* from members
 * **Members (5)** - the number of members in the workspace
 * **Assigned to (6)** - who the policy vulnerability is assigned to for a resolution
-* **Last Activity Date (7)** - the date and time of the last time there was an activity logged on the workspace
+* **Last Activity Date (7)** - the date and time when activity was last logged on the workspace
 
 Additionally, you can complete the following actions for the policy vulnerability:
 * **Ask Members (8)** - this action requests that the workspace members select new workspace owners
   * For more details on the Ask Members action, [please check out the section below](#ask-members-action)
 * **The Ellipsis (more options) Menu (9)** - clicking the 3 dots next to the Ask Members button provides the option to complete the following actions:
-  * **Archive** - this action archives the workspaces
+  * **Archive** - this action archives the workspace
   * **Delete** - this action deletes the workspace
   * **Add Owners** - this action lets you manually add additional owners to the workspace to resolve the task yourself
   * **Accept Risk** - this action means you will close the policy vulnerability task without making any changes to the current state of the workspace
 
-If the the task delegation is not enabled in policy settings, instead of sending a reminder you will have the option to **Ask Owners**. This will send emails and create tasks for users responsible for resolving the task.
+If task delegation is not enabled in the policy settings, instead of sending a reminder, you will have the option to **Ask Owners**. This will send emails and create tasks for the users responsible for resolving them.
 
 By **selecting all (10)** or more than one workspace, you can perform the bulk action for **Archive (11)**, **Delete (12)**, **Add Owners (13)**, **Send reminder (14)**, and **Accept risk (15)**. 
 
@@ -81,7 +81,7 @@ Here you can find the following information:
 
 ## Ask Members Action
 
-The **Ask Members action** helps resolved orphaned workspace tasks by **asking workspace members to suggest new owners when no active owners exist**. 
+The **Ask Members action** helps resolve orphaned workspace tasks by **asking workspace members to suggest new owners when no active owners exist**. 
 
 The Ask Members action is a two-stage process:
 
@@ -91,7 +91,7 @@ The Ask Members action is a two-stage process:
   * Members can resolve the task directly from the e-mail they receive
   * The suggestions are stored as members resolve their tasks, and stage one stays active until all members resolve their tasks
 
-:::info
+:::warning
 
 **Please note:**
 
@@ -104,12 +104,12 @@ The Ask Members action is a two-stage process:
 
 
 * **Stage 2 - Resolving the task**
-  * After all members tasks are completed, a new task is created for admins or designated reviewers to take one of the following actions:
+  * After all members tasks are completed, a new task is created for admins or [designated reviewers](#designated-reviewers) to take one of the following actions:
     * **Add Owners**, by approving the suggestions made by members or deciding on an owner yourself
     * Archive the workspace
     * Delete the workspace
 
-:::warning
+:::info
 
 For more details, on **how the Ask Members task resolution looks like from the perspective of members that receive the task**, [**take a look at the Resolve Orphaned Workspaces Tasks.**](../../point-collaborators/resolve-governance-tasks/orphaned-resources.md#members-suggest-new-owners)
 
@@ -117,17 +117,19 @@ For more details, on **how the Ask Members task resolution looks like from the p
 
 The **policy vulnerability is closed only after the second stage is resolved**. Collecting suggestions alone from members does not close the vulnerability. 
 
-
-## Designated Reviewers
-
-**Designated reviewers are determined** using the following:
-  * Point tries to use the currently defined reviewers and respects existing policy settings 
-  * If specific reviewers are are designed as custom recipients in the policy settings, the task is sent to them
-  * If the reviewer type is set to anything other than Point Admins or custom recipients, the task is sent to Point Admins
-  * If the reviewer type is set to Custom Recipients, but the recipient list is empty, the task defaults to Point Admins
+:::info
 
 **Tasks are sent to all workspace members**, if a Guest User is a member, they will receive the task as well and can submit suggestions.
 
 **Users have 15 days to resolve Tasks**, after 15 days the second stage is triggered and the approval task is created.
 
-**Users cannot become owners based on suggestion alone**, this decision needs to be approved during stage 2 by either a Point Admin or a specified designated reviewer.
+**Users cannot become owners based on suggestions alone**, this decision needs to be approved during stage 2 by either a Point Admin or a specified designated reviewer.
+
+:::
+
+## Designated Reviewers
+
+**Designated reviewers for Stage 2 are determined** using the following:
+  * Point tries to use the currently defined reviewers and respects existing policy settings 
+  * If specific reviewers are selected as custom recipients in the policy settings, the task is sent to them
+  * If the reviewer type is set to anything other than Point Admins or custom recipients, the task is sent to Point Admins

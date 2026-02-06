@@ -12,10 +12,7 @@ Syskit Point detects **workspaces that don't have active owners**, which helps y
 * **Microsoft 365 Group**
 * **SharePoint Sites**
 * **Viva Engage Community**
-
-The default Orphaned Workspaces policy can applies to **SharePoint Sites**.
-
-**Custom Orphaned Workspaces policies** created by Syskit Point admins **can also be applied to SharePoint sites using Rules or manually**.
+* **SharePoint Sites**
 
 :::
 
@@ -56,9 +53,9 @@ The **Edit Policy** dialog opens, where you can:
 
 The **Ask Specific Users to Assign New Owners** option is a **1-stage process**.
 
-When an Orphaned Workspace is detected, **selected users (Syskit Point Administrators and/or custom recipients) receive a task to assign a new owner to the workspace**. No additional steps or user involvement is required beyond this. 
+When an Orphaned Workspace is detected, **selected users (Syskit Point Administrators and/or custom recipients) receive a task to assign a new owner to the workspace**. No additional steps or user involvement are required beyond this. 
 
-For more details on how this task is resolved from the specific users perspective, take a look at the [Resolve Orphaned Workspace tasks article.](../../point-collaborators/resolve-governance-tasks/orphaned-resources.md#specific-users-assign-new-owners)    
+For more details on how this task is resolved from the specific user's perspective, take a look at the [Resolve Orphaned Workspace tasks article.](../../point-collaborators/resolve-governance-tasks/orphaned-resources.md#specific-users-assign-new-owners)    
 
 
 ## Ask Members to Suggest New Owners
@@ -84,13 +81,13 @@ In the first stage, **Members suggest new owners**:
 :::
 
 
-* In the second stage, **admins or designated resolvers get a new the task**:
+* In the second stage, **admins or designated reviewers get a new the task**:
   * After all members tasks are completed, a new task is created for admins or designated reviewers to take one of the following actions:
     * **Add Owners**, by approving the suggestions made by members or deciding on an owner yourself
     * **Archive** the workspace
     * **Delete** the workspace
 
-For more details on how this task is resolved from the specific users perspective, take a look at the [Resolve Orphaned Workspace tasks article.](../../point-collaborators/resolve-governance-tasks/orphaned-resources.md#members-suggest-new-owners)    
+For more details on how this task is resolved from the specific user's perspective, take a look at the [Resolve Orphaned Workspace tasks article.](../../point-collaborators/resolve-governance-tasks/orphaned-resources.md#members-suggest-new-owners)    
 
 
 ## Automatically Assign New Owners
@@ -101,10 +98,10 @@ When resolving the Orphaned Workspaces task by selecting the Automatically Assig
 
 * **Check for disabled or deleted owners** 
   * If the workspace had disabled or deleted owners, Point assigns ownership to the manager of one of those users.
-    * The selected manager cannot be disabled or deleted and is chosen based on the most recent sign-in. 
+    * The selected manager has to be an active user and is chosen based on the most recent sign-in. 
   * If no disabled or deleted owners are found, Point checks audit logs for users who were removed as owners within the last 7 days.
     * If such users exists, ownership is assigned to the manager of one of those users while using the same criteria as mentioned above.
 
 * **Fallback to tasks**
-  * If no suitable owner can be found during the above step, resolution tasks are assigned to the configured resolvers and an e-mail is sent to them.
-  * If an owner is found, but assignment fails, tasks are assigned to Syskit Point Admins, without sending an e-mail notification. 
+  * If no suitable owner can be found during the above steps, resolution tasks are assigned to the configured resolvers and an e-mail is sent to them.
+  * If an owner is found, but assignment fails, tasks are assigned to Syskit Point Admins, without sending an e-mail notification.
