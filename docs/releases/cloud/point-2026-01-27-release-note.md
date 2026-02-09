@@ -36,7 +36,7 @@ description: This article lists new features, improvements, and bug fixes in the
 
 * **Fixed an issue** where certain folders were missing from sync due to invalid or incomplete sharing link data, and would show the following error: 
   ```
-  .System.InvalidOperationException: There is an error in XML document (1, 55567).
+  System.InvalidOperationException: There is an error in XML document (1, 55567).
   invitedOnField is nullable and can accept empty value 
   ```
 
