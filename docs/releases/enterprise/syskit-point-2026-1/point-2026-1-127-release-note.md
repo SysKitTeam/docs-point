@@ -25,7 +25,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 ## Improvements & Bug Fixes
 
 * **Automation for orphaned users** can now be set up directly from the Orphaned Users report in the Reports Center.
-  * For more details, [take a look at the Orphaned Users article. ](../../reporting/cleanup-and-health-reports.md#orphaned-users)
+  * For more details, [take a look at the Orphaned Users article. ](../../../reporting/cleanup-and-health-reports.md#orphaned-users)
 
 * **Added a column** to the Sharing Links report: **Recommendations** 
   * The column can include the Expired Link recommendation, making it easier to spot links that can be removed at a glance. 
