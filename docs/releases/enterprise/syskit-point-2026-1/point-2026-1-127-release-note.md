@@ -42,7 +42,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 * **Fixed an issue** where certain folders were missing from sync due to invalid or incomplete sharing link data, and would show the following error: 
   ```
-  .System.InvalidOperationException: There is an error in XML document (1, 55567).
+  System.InvalidOperationException: There is an error in XML document (1, 55567).
   invitedOnField is nullable and can accept empty value 
   ```
 
