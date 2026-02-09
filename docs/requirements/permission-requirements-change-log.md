@@ -58,6 +58,33 @@ After clicking the Manage Connection button, you can expect the following to hap
 
 Depending on which version you are upgrading to, below you can find the list of changes in permissions requested and which features depend on them.
 
+
+### Syskit Point Cloud 2026.1.128
+
+
+:::warning
+**Please note!**
+
+* **Reconsent is required after updating to the latest version** for customers using <License Name>, due to permission changes introduced when adding the User Purpose Sync job that fetches user purpose data using Microsoft Graph.
+
+* The following **permission is added** to the existing Syskit Point app registrations:
+  * **MailboxSettings.Read** – allows Syskit Point to read users' mailbox settings without a signed-in user. This does not include permission to send emails.
+
+* For **new deployments**, the **MailboxSettings.Read permission is automatically added** during consent.
+  
+* For an **already deployed Point**, this permission is **not added automatically**. Syskit Point admins will **receive a reconsent prompt** to grant the required permission.
+
+* [For more information about permission requirements changes, see the change log.](../../requirements/permission-requirements-change-log.md#syskit-point-cloud-20261128)
+
+:::
+
+**The following permission is added to the Syskit Point app registrations**:
+
+| App Registration | API/Permission Name | Permission | Type | Reason |
+| ----- | ----- | ----- | ----- | ----- |
+| Syskit Point Service | MailboxSettings.Read | Read mailbox settings | Application | Allows Syskit Point to read user's mailbox settings without a signed-in user. Does not include permission to send mail. |
+
+
 ### Syskit Point Enterprise 2026.1.125
 
 :::warning
