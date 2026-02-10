@@ -65,7 +65,7 @@ Depending on which version you are upgrading to, below you can find the list of 
 :::warning
 **Please note!**
 
-* **Reconsent is required after updating to the latest version** for customers using <License Name>, due to permission changes introduced when adding the User Purpose Sync job that fetches user purpose data using Microsoft Graph.
+* **Reconsent is required after updating to the latest version** due to permission changes introduced when adding the User Purpose Sync job that fetches user purpose data using Microsoft Graph.
 
 * The following **permission is added** to the existing Syskit Point app registrations:
   * **MailboxSettings.Read** – allows Syskit Point to read users' mailbox settings without a signed-in user. This does not include permission to send emails.
