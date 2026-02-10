@@ -135,6 +135,8 @@ Additional options available when the Collaborators role is enabled:
 * **Give users access to license reports (3)** – allows access to License reports
 * **Give Collaborators access to subordinate users' activities (4)** – allows them to view the OneDrive tile, Analytics & Usage tile, and Audit log reports when accessing User details or workspaces they manage
 * **Restrict access to private channels not owned by the team owner (5)** – when enabled, allows team owners to see private channels they don't own but does not allow them access to the private channel's content, which ensures transparency without compromising privacy
+  * This option is enabled by default
+  * The team owner can still view content for private channels of which they are owners
 
 
 ![Collaborators - Options](../../static/img/enable-role-based-access-collaborator-options.png)
