@@ -8,7 +8,7 @@ After deploying **Syskit Point**, your Microsoft 365 users can be given access t
 
 By using the built-in **role-based security** of Syskit Point, you can easily manage who has access to Syskit Point and which features are available to them. Those assigned a role will be **able to view all data collected from the Microsoft 365 tenant and perform actions based on the permissions granted to them in Microsoft 365** or have access to all data related to sites, Microsoft 365 Groups, and Microsoft Teams.
 
-* Level of access **depends on the roles assigned**.
+* Access level **depends on the assigned roles**.
 
 This allows **workspace owners to perform Workspace Reviews and other governance-related tasks for their workspace**. Read on to learn more about the specifics of each role and how to assign them to your users.
 
@@ -19,7 +19,7 @@ To manage access to Syskit Point, navigate to **Settings** > **Security** > **Ma
 Here, you will find:
 * **All Syskit Point roles (2)** in a separate section
 * **Toggle (3)** that enables a particular role; by default, all roles except the Syskit Point Admin role are initially disabled 
-* **Tile with number of assigned users (4)** for each role; the total number of users with the assigned role is displayed in the tile
+* **Tile with the number of assigned users (4)** for each role; the total number of users with the assigned role is displayed in the tile
 * **Assign to role (5)** button, enabling you to easily add a user to a role.
 * **Save (6)** button to save changes
 
@@ -122,7 +122,7 @@ The **Syskit Point Collaborators** role enables site admins, Microsoft Teams, an
 
 :::warning
 **Please note!**\
-When the Collaborators role is enabled, **Syskit Point automatically** assigns **site admins, Microsoft Teams, and Microsoft 365 Group owners** to **Syskit Point Collaborators** role.
+When the Collaborators role is enabled, **Syskit Point automatically** assigns **site admins, Microsoft Teams, and Microsoft 365 Group owners** to the **Syskit Point Collaborators** role.
 :::
 
 
@@ -134,7 +134,7 @@ Additional options available when the Collaborators role is enabled:
   * This option is important to select if you have any nongroup connected sites
 * **Give users access to license reports (3)** – allows access to License reports
 * **Give Collaborators access to subordinate users' activities (4)** – allows them to view the OneDrive tile, Analytics & Usage tile, and Audit log reports when accessing User details or workspaces they manage
-* **Restrict access to private channels not owned by the team owner (5)** – when enabled, allows team owners to see private channels they don't own but does not allow them access to the private channel's content, which ensures transparency without compromising privacy
+* **Restrict access to private channels not owned by the team owner (5)** – when enabled, allows team owners to see private channels they don't own, but does not allow them access to the private channel's content, which ensures transparency without compromising privacy
   * This option is enabled by default
   * The team owner can still view content for private channels of which they are owners
 
@@ -170,12 +170,12 @@ The **Syskit Point Power Platform Admins** role enables users to:
 ### Why Should You Enable Role-Based Access
 
 **Role-Based Access** brings the following benefits:
-* **Empowers all admins and owners** and users with **Full Control** permissions to manage their workspaces
+* **Empowers all admins, owners**, and users with **Full Control** permissions to manage their workspaces
 * **Gives admins and owners access to all reports and relevant information without disclosing the content they are not allowed to see**
 
 **For example**, **Syskit Point Admin** generates the **User Access** report. Instead of sharing the URL of the generated report with another **Syskit Point Admin**, they sent it to the **Syskit Point Collaborator**, who doesn't have access to all the users in the said environment. This is where the **Role-Based Access** kicks in.
 
-When said **Syskit Point Collaborator** opens the URL, the report will be generated but only contain **users** the Collaborator manages. Also, the **report will only show workspaces that the Collaborator owns**.
+When **Syskit Point Collaborator** opens the URL, the report will be generated, but it will only contain **users** that the Collaborator manages. Also, the **report will only show workspaces that the Collaborator owns**.
 
 When **Syskit Point Collaborator** tries to **drill** to the **user details** page of a user they are not a manager of, they will be redirected to an **Unauthorized Access** page.
 
