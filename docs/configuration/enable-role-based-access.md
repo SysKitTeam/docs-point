@@ -6,26 +6,26 @@ description: This article explains how you can enable Role-based Access in Syski
 
 After deploying **Syskit Point**, your Microsoft 365 users can be given access to the **Syskit Point** web app.
 
-By using the built-in **role-based security** of Syskit Point, you can easily manage who has access to Syskit Point and what features are available to them. Those assigned a role will be **able to view all data collected from the Microsoft 365 tenant and perform actions based on the permissions granted to them in Microsoft 365** or have access to all data related to sites, Microsoft 365 Groups, and Microsoft Teams.
+By using the built-in **role-based security** of Syskit Point, you can easily manage who has access to Syskit Point and which features are available to them. Those assigned a role will be **able to view all data collected from the Microsoft 365 tenant and perform actions based on the permissions granted to them in Microsoft 365** or have access to all data related to sites, Microsoft 365 Groups, and Microsoft Teams.
 
 * Level of access **depends on the roles assigned**.
 
-This allows **workspace owners to perform Workspace Reviews and other governance-related tasks related to their workspace**. Read on to learn more about the specifics of each role and how to assign them to your users. 
+This allows **workspace owners to perform Workspace Reviews and other governance-related tasks for their workspace**. Read on to learn more about the specifics of each role and how to assign them to your users.
 
 
 ## Setting up Role-Based Access
 
-To manage who has access to Syskit Point, navigate to **Settings** > **Security** > **Manage Access (1)**
+To manage access to Syskit Point, navigate to **Settings** > **Security** > **Manage Access (1)**.
 Here, you will find:
 * **All Syskit Point roles (2)** in a separate section
 * **Toggle (3)** that enables a particular role; by default, all roles except the Syskit Point Admin role are initially disabled 
 * **Tile with number of assigned users (4)** for each role; the total number of users with the assigned role is displayed in the tile
-* **Assign to role (5)** button enabling you to add a user to a role easily
+* **Assign to role (5)** button, enabling you to easily add a user to a role.
 * **Save (6)** button to save changes
 
 ![Settings - Manage Access](../../static/img/enable-role-based-access-manage-access.png)
 
-Clicking the tile showing the number of assigned users per role opens a **report for the corresponding role**
+Clicking the tile showing the number of assigned users per role opens a **report for the corresponding role**.
 Here, you can:
 * **See all users with the assigned role (1)**; by default, **Company Administrator and SharePoint Service Administrator Azure AD Roles are automatically assigned with the Syskit Point Admin role**
 * **Assign (2)** new users to the role; you can add **users**, **Microsoft 365 Administration roles**, **security groups,** and **Microsoft 365 Groups**
@@ -33,7 +33,7 @@ Here, you can:
 
 ![Manage Access - Syskit Point Admins](../../static/img/enable-role-based-access-admins.png)
 
-Additionally, you can **remove** a user from the role. To do so:
+Additionally, you can **remove** a user from a role. To do so:
 * **Select the user by clicking the checkbox next to the user name \(1\)**
 * **Click the Remove Access from Syskit Point \(2\)** action
 
@@ -128,12 +128,14 @@ When the Collaborators role is enabled, **Syskit Point automatically** assigns *
 
 Additional options available when the Collaborators role is enabled:
 
-* **Give users read-only access (1)** – when enabled, Collaborators cannot run actions in Syskit Point
+* **Give users read-only access (disable actions) (1)** – when enabled, Collaborators cannot run actions in Syskit Point
 * **Add users with Full Control (2)** – when enabled, users with Full Control permissions on workspaces will be assigned the Collaborators role
   * Selecting this option ensures that Site Owners and Admins are included in the Syskit Point Collaborators role and allows them to access Syskit Point and complete governance tasks, such as Workspace Review tasks
   * This option is important to select if you have any nongroup connected sites
 * **Give users access to license reports (3)** – allows access to License reports
 * **Give Collaborators access to subordinate users' activities (4)** – allows them to view the OneDrive tile, Analytics & Usage tile, and Audit log reports when accessing User details or workspaces they manage
+* **Restrict access to private channels not owned by the team owner (5)** – when enabled, allows team owners to see private channels they don't own but does not allow them access to the private channel's content, which ensures transparency without compromising privacy
+
 
 ![Collaborators - Options](../../static/img/enable-role-based-access-collaborator-options.png)
 
