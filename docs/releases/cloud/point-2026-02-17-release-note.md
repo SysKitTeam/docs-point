@@ -36,13 +36,16 @@ description: This article lists new features, improvements, and bug fixes in the
     * Ignore Service Principal Names (AnyEvent)
     * Define Criteria Collection 
 
-* **New column added to the Sites Overview screen:** Restrictions.
-  * The new Restrictions column is hidden by default and can be selected from the column chooser.
-  * Displays whether a site has: 
-    * **Restricted Access**, if access to the site is restricted to members of whitelisted groups 
-    * **Restricted Content Discoverability**, if site content is exempt from Microsoft 365 Copilot
-    * **Restricted Access and Restricted Content Discoverability**, in case both restrictions are applied to the site
-    * **No Restrictions**, if no access restrictions are applied to the site.
+* **Improvements made to the Sites Overview screen.** 
+   * **New column added to the Sites Overview screen:** Restrictions.
+     * The new Restrictions column is hidden by default and can be selected from the column chooser.
+     * Displays whether a site has: 
+        * **Restricted Access**, if access to the site is restricted to members of whitelisted groups. 
+        * **Restricted Content Discoverability**, if site content is exempt from Microsoft 365 Copilot.
+        * **Restricted Access and Restricted Content Discoverability**, in case both restrictions are applied to the site.
+        * **No Restrictions**, if no access restrictions are applied to the site.
+   * **New action added:** Edit Restrictions
+     * This action lets you edit restrictions placed on a site and choose whether you want to restrict access to content, restrict content discoverability, or neither.
 
 * **Improvements made to the Workspace Review policy for SharePoint sites.**
   * Added a **new Change SharePoint Owners action** that retrieves and displays members of the default SharePoint Owners group. 
