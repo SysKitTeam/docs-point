@@ -322,7 +322,14 @@ The **Unused Add-on Licenses report** helps you find add-on licenses that aren't
 
 * **A banner appears at the top of this report if any licenses are missing required pricing information** (price or default price), with a direct link to the Settings screen where you can provide the missing pricing details.
 
-* A banner might also appear if license data is still being collected, with insight into when all data will be visible. 
+* A banner might also appear if license data is still being collected, with insight into when all data will be visible.
+
+* Only the following licenses are counted **when generating the unused add-on licenses report**:
+  * Copilot
+  * Power BI Pro
+  * Power BI Premium
+  * Visio Plan 1
+  * Visio Plan 2
 
 :::
 
