@@ -41,16 +41,20 @@ description: This article lists new features, improvements, and bug fixes in the
   * Displays whether a site has: 
     * **Restricted Access**, if access to the site is restricted to members of whitelisted groups 
     * **Restricted Content Discoverability**, if site content is exempt from Microsoft 365 Copilot
-    * **Restricted Access and Restricted Content Discoverability**, in case both restrictions are applied the site
+    * **Restricted Access and Restricted Content Discoverability**, in case both restrictions are applied to the site
     * **No Restrictions**, if no access restrictions are applied to the site.
 
 * **Improvements made to the Workspace Review policy for SharePoint sites.**
   * Added a **new Change SharePoint Owners action** that retrieves and displays members of the default SharePoint Owners group. 
   * Refined the reviewer type and action labels displayed on the Workspace Review Overview step.
 
-* **Improvements made to the Manually Apply Policies** screen.
+* **Improvements were made to the Manually Apply Policies** screen.
   * Admins can now **apply Workspace Review policies to Private Channels**.
   * **Fixed an issue** where the Site Type column was empty, and filtering the report by Site Type resulted in an error.
+
+* **E-mail column names were unified across Point**:
+  * Email column renamed to E-mail on the Orphaned Users report.
+  * E-Mail column renamed to E-mail on the Inactive Users with Assigned Licenses report and the Users overview screen.
 
 * **Fixed an issue** that caused policy violations to be triggered for already deleted sites. 
 
