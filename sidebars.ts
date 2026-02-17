@@ -738,6 +738,7 @@ const sidebars: SidebarsConfig = {
           ],
         },
         'governance-and-automation/syskit-point-teams-app',
+        'governance-and-automation/restrictions',
         'governance-and-automation/scheduled-reports',
         'governance-and-automation/configure-alerts',
         'governance-and-automation/manage-sensitivity-labels',
