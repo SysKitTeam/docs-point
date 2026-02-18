@@ -28,11 +28,16 @@ To modify license report settings, navigate to **Settings** &gt; **License Repor
 Here, you can:
 * **Define the number of days after which users will be considered inactive (2)** – the value is used in the Inactive Users with Assigned Licenses and Licenses Usage by Service reports; by default, this is set to 30 days
 * **Define the number of days an add-on license must remain unused to be considered an unused license (3)** – the value is used in the Inactive Users with Assigned Licenses and Licenses Usage by Service reports; by default, this is set to 30 days
-* **Define monthly license price per user for**:
+* **Show resource users in reports and policies toggle (4)**
+  * Resource users are non-human accounts used for shared resources such as rooms, equipment
+  * When enabled, **resource users** (e.g., rooms and equipment accounts) with assigned licenses are **included in license reports** (Inactive users with assigned licenses and Unused add-on licenses) **and in the Blocked Users with Assigned Licenses policy**
+  * When disabled, **resource users are excluded** from these reports and policies
+* **Define monthly license price per user for (5)**:
   * **Microsoft 365 Core and Enterprise Plans** licenses
   * **Microsoft Add-on** licenses
   * **Other** licenses
   * Prices entered here are used to calculate total costs on the Licenses Overview and License Distribution reports
+  * If some licenses are missing prices, a warning bubble appears informing you that a license does not currently have a value assigned
   
 Once you are finished with the modifications, **click Save (6)**.
 
