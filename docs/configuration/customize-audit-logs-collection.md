@@ -8,16 +8,16 @@ description: This section describes how to customize the Audit Logs collection u
 **Audit Logs** are available in the Security & Compliance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 :::
 
-Audit logs can provide you with **insights into all activities** related to the user and administration activities in your Microsoft 365 environment. The Audit Logs contain information on activities within your organization related to **groups, documents, permissions, directory services, and much more**. 
+Audit logs provide **insights into all activities** related to users and administrative activities in your Microsoft 365 environment. The Audit Logs contain information about activities within your organization, including **groups, documents, permissions, directory services, and much more**.
 
-Users who are assigned the **Syskit Point Admin role** can configure activities that are going to be collected in these locations:
+Users who are assigned the **Syskit Point Admin role** can configure which activities will be collected in the following locations:
 
 * **Syskit Point Registration > Tenant settings**
 * **Audit Logs section in Settings**
 
 ## Syskit Point Registration > Tenant settings
 
-After registering **Syskit Point**, on the **Connect tenant** step, you have the following audit options at your disposal:
+After registering **Syskit Point**, during the **Connect tenant** step, the following audit options are available:
 
 * **Store audit logs \(1\)**
 * **Protect user privacy \(2\)**
@@ -31,7 +31,7 @@ You can change these settings by managing your tenant connection in Settings > G
 
 ### Store Audit Logs Option
 
-By default, the **Store audit logs** option is enabled, meaning that Syskit Point will process and store the audit logs to your **Azure Cosmos DB account**.
+By default, the **Store audit logs** option is enabled, which means Syskit Point will process and store audit logs in your **Azure Cosmos DB account**.
 
 :::info
 **Tip!**  
@@ -43,14 +43,14 @@ You can change the Audit Logs settings after the initial connection by managing 
 Turning this option on results in the following:
 
 * **User activity data**, such as file and permissions changes, **will be hidden and protected from Administrator supervision** 
-  * **User Activity report will be hidden from the Syskit Point user interface**
-  * **Access to the File and Page Activities report will be hidden**
-  * **Summary data in the Analytics & Usage tile will remain visible, but cannot be drilled to access data for a specific user**
-* **User activity** data will, however, be collected and stored
+  * **The User Activity report will be hidden from the Syskit Point user interface**
+  * **Access to the File and Page Activities reports will be hidden**
+  * **Summary data in the Analytics & Usage tile will remain visible, but you cannot drill down to view data for a specific user**
+* **User activity** data will, however, still be collected and stored
 
 :::warning
 **Please note!**  
-User activity data continues to be collected and stored to be readily available, if needed, in case of a security incident.
+User activity data continues to be collected and stored to be readily available if needed in the event of a security incident.
 :::
 
 The following rules apply regarding the User Privacy option:
@@ -71,25 +71,26 @@ The **Protect user privacy** option is disabled automatically if the **Store aud
 Audit log settings can also be configured after the initial configuration of **Syskit Point**. To do so:
 
 * Open the **Settings** screen
-* Navigate to the **Audit** &gt; **Audit Logs \(1\)** page
+* Navigate to the **Audit** > **Audit Logs (1)** page
 
 Here, you can:
 
-* **Turn the storage of Audit Logs on or off \(2\)**
-* **Select activities to collect \(3\)**
-* **View the number of events \(4\)** in the Audit Index
+* **Turn the storage of Audit Logs on or off (2)**
+* **Select activities to collect (3)**
+* **View the number of events (4)** in the Audit Index
+* **Configure Audit Log Advanced Filters (5)**
 
 ![Audit Logs Settings](../../static/img/customize-audit-logs-collection-settings-saas.png)
 
-Audit logs activities that are being collected can be found by clicking the **Select activities to collect \(3\)** link.
+Audit logs activities that are being collected can be found by clicking the **Select activities to collect (3)** link.
 
 A new dialog opens, showing all audit log categories and activities available in Syskit Point. Here you can:
 
-* Use the **Select All** option to enable the collection of all available activities **\(1\)**
-* **Adjust which audit log categories will be collected by clicking the checkbox \(2\)** next to a category
-* **Expand categories \(3\)**
-* **Mark only specific activities within a category to be collected \(4\)**
-* **Confirm your changes** by clicking the **OK button \(5\)** and **Save** button on the **Audit Logs** screen.
+* Use the **Select All** option to enable the collection of all available activities **(1)**
+* **Adjust which audit log categories will be collected by clicking the checkbox (2)** next to a category
+* **Expand categories (3)**
+* **Mark only specific activities within a category to be collected (4)**
+* **Confirm your changes** by clicking the **OK button (5)** and the **Save** button on the **Audit Logs** screen.
 
 ![Select activities to collect screen](../../static/img/customize-audit-logs-collection-select-activities-to-collect.png)
 
@@ -123,13 +124,49 @@ Available audit log categories:
 * **User administration activities**
 * **Viva Engage activities**
 
+### Audit Log Advanced Filters
+
+The Audit Log Advanced Filters allow you to **exclude specific events, accounts, or sources from workspace activity detection**. 
+
+You can use these options to **ignore system-generated or low-value activities in audit log processing**.
+
+The following options are available: 
+* **Ignore Service Accounts** - events generated by these accounts will be ignored when detecting workspace activity and won't be stored
+* **Ignore OneDrive Synchronization Activities** - events related to OneDrive synchronization activities will be ignored when detecting workspace activity, and won't be stored
+* **Ignore User Agents** - events generated by these user agents will be ignored when detecting workspace activity and won't be stored
+* **Ignore Workloads** - events from these workloads will be ignored when detecting workspace activity and won't be stored
+* **Ignore Record Types** - events matching these record types will be ignored when detecting workspace activity and won't be stored
+* **Ignore Sites** - events associated with these sites will be ignored when detecting workspace activity and won't be stored
+* **Ignore Service Principal IDs (AnyEvent)** - events generated by these service principals (any event type) will be ignored when detecting workspace activity and won't be stored
+* **Ignore Service Principal IDs (AppOnlyEvent)** - app-only events generated by these service principals will be ignored when detecting workspace activity and won't be stored
+* **Ignore Service Principal Names (AnyEvent)** - events generated by these service principals (any event type) will be ignored when detecting workspace activity and won't be stored
+* **Define Criteria Collection** - define the set of conditions used to filter or match audit log events
+
+To exclude specific events, accounts, or sources:
+
+* **Select the checkbox (1)** next to the option you want to ignore
+  * Selecting the checkbox excludes this option from workspace activity detection
+* Once selected, **you are asked to enter (2)** the following information:
+  * For Ignore Service Accounts, **enter the service account names**
+  * For Ignore OneDrive Synchronization Activities, **no additional information is needed**
+  * For Ignore User Agents, **enter user agent names**
+  * For Ignore Workloads, **by default Endpoint is added**
+  * For Ignore Record Types, **by default DLPEndpoint is added**
+  * For Ignore Sites, **enter the names of Microsoft Teams, SharePoint Sites, Viva Engage Communities, or Microsoft 365 Groups**
+  * For Ignore Service Principal IDs (AnyEvent), **enter service principal IDs**
+  * Ignore Service Principal IDs (AppOnlyEvent), **enter service principal IDs**
+  * Ignore Service Principal Names (AnyEvent), **enter service principal names**
+  * For Define Criteria Collection, **paste your JSON file**
+
+![Audit Log Advanced Filters](../../static/img/customize-audit-logs-collection-advanced-filters.png)
+
 ## Data Retention
 
 ### Point Cloud
 
 **By default, audit logs data retention is set to 1 year in Syskit Point Cloud**. 
 
-You can purchase additional years of audit logs storage by contacting our Sales team. [Contact us](https://www.syskit.com/contact-us/)
+You can purchase additional years of audit log storage by contacting our Sales team. [Contact us](https://www.syskit.com/contact-us/)
 
 To find the information on how long the Audit logs are stored for you:
 * Navigate to **Settings** > **Audit** > **Audit Logs**
@@ -195,7 +232,7 @@ Syskit Point collects unified audit logs, which contain a subset of said logs re
 ### Frequency of Audit Log Collection
 
 Syskit Point checks for and collects new audit logs every 15 minutes. 
-Note that it can take up to 24 hours after an event occurs for the corresponding audit log record to be returned in the results of an audit log search. 
+Note that it can take up to 24 hours after an event occurs for the corresponding audit log record to appear in the results of an audit log search. 
 
 ### Unified Audit Logs
 
