@@ -13,7 +13,7 @@ With **the new Restrictions column on the Site Overview screen**, you can now ea
 * **Restricted Access and Restricted Content Discoverability**, if both restrictions are applied to the site
 * **No Restrictions**, if no access restrictions are applied to the site.
 
-By using **the Edit Restrictions action**, located on the right side of **the Site Overview screen**, you can update these settings for selected sites and choose whether to restrict access to content, restrict content discoverability, both, or leave a workspace without restrictions.
+By using **the Edit Restrictions action**, located on the **the Site Overview and Site Details screens**, you can update these settings for selected sites and choose whether to restrict access to content, restrict content discoverability, both, or leave a workspace without restrictions.
 
 **Clicking the Edit Restrictions action (1)** opens the Edit Restrictions dialog where you can make your selection. 
 
