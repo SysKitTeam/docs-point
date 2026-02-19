@@ -21,6 +21,9 @@ description: This article lists improvements and bug fixes in Syskit Point versi
 
 See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../set-up-point-enterprise/deployment/upgrade-syskit-point.md).
 
+**For IT admins with specific version requirements:** Deploy version 2025.5.119 instead of the latest.\
+[![](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitdownloadsstorage.blob.core.windows.net%2Fpoint%2Fdeployment-packages%2Fv2025-5-119-53%2FPointUpdateTemplate.json)
+
 ## Improvements & Bug Fixes
 
 * **Improvements made to Workspace Review.**
