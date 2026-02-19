@@ -14,6 +14,8 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes 
 
+* **Fixed an issue** where changes made on a workspace did not trigger the full content & permission sync as expected, which caused the workspace to only update after a manual sync. 
+
 * **Fixed an issue** where recently deleted or archived workspaces were included when restarting a Workspace Review.
   * If a Workspace Review was partially completed, canceled, and then requested again, workspaces that were deleted or archived during the partial review would appear as if they were still active when the Workspace Review was requested again.
 
