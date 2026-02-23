@@ -738,7 +738,6 @@ const sidebars: SidebarsConfig = {
           ],
         },
         'governance-and-automation/syskit-point-teams-app',
-        'governance-and-automation/restrictions',
         'governance-and-automation/scheduled-reports',
         'governance-and-automation/configure-alerts',
         'governance-and-automation/manage-sensitivity-labels',
@@ -760,7 +759,8 @@ const sidebars: SidebarsConfig = {
         'access-management/delete-and-restore-users',
         'access-management/view-permission-changes',
         'access-management/supervise-microsoft-teams-private-channels',
-        'access-management/manage-private-channels',       
+        'access-management/manage-private-channels',
+        'access-management/restrictions'
       ],
     },
     {
