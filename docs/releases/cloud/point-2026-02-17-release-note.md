@@ -35,6 +35,7 @@ description: This article lists new features, improvements, and bug fixes in the
     * Ignore Service Principal IDs (AppOnlyEvent)
     * Ignore Service Principal Names (AnyEvent)
     * Define Criteria Collection 
+  * [Find more details in the related article](../../configuration/customize-audit-logs-collection.md#audit-log-advanced-filters)
 
 * **Improvements made to the Sites Overview screen.** 
    * **New column added to the Sites Overview screen:** Restrictions.
@@ -46,6 +47,7 @@ description: This article lists new features, improvements, and bug fixes in the
         * **No Restrictions**, if no access restrictions are applied to the site.
    * **New action added:** Edit Restrictions
      * This action lets you edit restrictions placed on a site and choose whether you want to restrict access to content, restrict content discoverability, or neither.
+   * [Learn more about the Edit Restrictions action in this article](../../access-management/restrictions.md)
 
 * **Improvements made to the Workspace Review policy for SharePoint sites.**
   * Added a **new Change SharePoint Owners action** that retrieves and displays members of the default SharePoint Owners group. 
