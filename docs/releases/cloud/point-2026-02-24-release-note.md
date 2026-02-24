@@ -15,14 +15,14 @@ description: This article lists new features, improvements, and bug fixes in the
    
 ## Improvements & Bug Fixes 
 
-* **Improvements made to the following License Reports**: Inactive Users with Assigned Licenses, Redundant Licenses, Unused Add-on Licenses.
-  * The **Assignment Type** column was added, showing whether a license is assigned Directly, via Group, OnPrem Group or Dynamic group. This column is visible by default.
-  * The **Assigned Group** column was added showing the related group(s) when applicable. This column is not visible by default and can be selected from the column chooser. 
+* **Improvements made to the following License Reports**: Inactive Users with Assigned Licenses, Redundant Licenses, and Unused Add-on Licenses.
+  * The **Assignment Type** column was added, showing whether a license is assigned directly, via group, on-premises group, or dynamic group. This column is visible by default.
+  * The **Assigned Group** column was added, showing the related group(s) when applicable. This column is not visible by default and can be selected from the column chooser. 
 
-* **Improved the default currency setup** for new installations.
+* **Improved the default currency setup** for new customers.
   * For new deployments, the default currency is now set based on the region (USD, EUR, AUD).
-  * Default exchange rate values are initialized during first installation.
+  * Default exchange rate values are initialized during the connect.
 
-* **Fixed an issue** where currency information was not displayed in PDF exports of license reports. It is now clearly shown in generated PDF reports.
+* **Fixed an issue** where currency information was not displayed in PDF exports of license reports. It is now clearly shown in the generated PDF reports.
 
 * **Various improvements, including UX and UI fixes, are available.**
