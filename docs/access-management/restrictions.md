@@ -17,7 +17,7 @@ By using **the Edit Restrictions action**, located on the **Site Overview and Si
 
 **Clicking the Edit Restrictions action (1)** opens the Edit Restrictions dialog, where you can make your selection. 
 
-![Edit Restrictions](../../static/img/restrictions-edit.png)
+![Edit Restrictions](../../static/img/restrictions-action.png)
 
 
 ## Restrict access to content
