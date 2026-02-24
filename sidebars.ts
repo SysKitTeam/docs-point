@@ -760,7 +760,8 @@ const sidebars: SidebarsConfig = {
         'access-management/delete-and-restore-users',
         'access-management/view-permission-changes',
         'access-management/supervise-microsoft-teams-private-channels',
-        'access-management/manage-private-channels',       
+        'access-management/manage-private-channels',
+        'access-management/restrictions'
       ],
     },
     {
