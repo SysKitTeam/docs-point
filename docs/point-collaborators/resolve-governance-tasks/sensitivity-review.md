@@ -29,7 +29,7 @@ Workspace owners receive an **e-mail** stating that your company requires you to
 
 * **The date (1)** until which you should perform the review
 * **The comment (2)** that was left by admins when requesting the review, if any comment was left
-* **The names of the workspaces (3)** where the review was requested
+* **The names of the workspaces (3)** for which the review was requested
 * **Go to Syskit Point button (4)** that opens the task in Syskit Point
 
 :::info

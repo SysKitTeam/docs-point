@@ -32,7 +32,7 @@ With the **Ask Owners to Review Sensitivity** action, you can select workspaces 
 ## Ask Owners to Review Sensitivity
 
 :::info
-**Prerequisites:** To request owners to review sensitivity labels, you must have the **Syskit Point Administrator** role.
+To request owners to review sensitivity labels, you must have the **Syskit Point Administrator** role.
 :::
 
 Here's how to request owners to review the sensitivity labels on their workspaces. 
