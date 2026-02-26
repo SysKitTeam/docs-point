@@ -6,9 +6,29 @@ description: This article provides a detailed explanation of how orphaned users 
 
 ## What Are Orphaned Users in Syskit Point?
 
-Orphaned users are **all users who have been blocked or deleted from Microsoft Entra ID** and:
+Orphaned users are **all users whose accounts have been blocked, soft-deleted or permanently (hard) deleted from Microsoft Entra ID**, but they may still appear on SharePoint's hidden user list and may retain residual access to the workspace's content. 
+
+In Syskit Point, these orphaned users:
   * Have access to workspace content, or
   * Had access to workspace content and visited the SharePoint site containing that content but lost access in the meantime
+
+When a user's sign-in is blocked or their account is deleted in Microsoft Entra ID, their SharePoint permissions are not automatically revoked, which makes them an orphaned user. 
+
+### Soft-Delete vs Hard-Delete
+
+It's important to understand the Microsoft Entra ID deletion lifecycle when managing orphaned users. 
+
+The **Soft-Delete** functions as follows: 
+* When a user is deleted in Microsoft Entra ID, they enter a soft-deleted state for 30 days.
+* During the 30 day period the account can be restored.
+  * If restored within 30 days, the user regains their original identity
+  * Previously assigned SharePoint permissions should remain intact
+
+Any soft-deleted user that was restored within the 30 day window will regain access to previously shared content. 
+
+The **Hard-Delete** functions as follows: 
+
+
 
 ## How are Orphaned Users Detected in Syskit Point?
 Orphaned users in Syskit Point are detected by syncing information from the SharePoint site's hidden list. 
