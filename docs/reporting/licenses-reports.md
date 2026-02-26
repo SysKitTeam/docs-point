@@ -126,6 +126,8 @@ The following data can also be found in the columns:
 
 * **User**; shows the names of users and their usage of licenses per service
 
+* **User Type**; shows what type of user it is (user, room,equipment, etc)
+
 * **Days Since Last Usage**; shows how many days have passed since the service was used last time by said users
   * If the user never used it, the column will say Unused
 
@@ -235,6 +237,8 @@ In the top three tiles, the following information is provided:
 Below the tiles, you can find the report that can be Shown by: **User or License**. The columns for the report are the same regardless of how it is viewed. The following information is displayed in the columns:
 
 * **License**; the name of the License currently assigned to an inactive user
+* **Assignment Types**; shows how licenses were applied
+* **User Type**; shows what type of user it is (user, room,equipment, etc)
 * **Last logged in**; the exact date when the user was last logged into the tenant
 * **User State**; shows if the user is inactive or has a blocked sign-in 
 * **Department**; Shows the name of the company Department that said user was a part of
@@ -293,9 +297,11 @@ In the top three tiles, the following information is provided:
 
 Below the tiles, you can find the report that can be Shown by: **User or License**. The columns for the report are the same regardless of how it is viewed. The following data is displayed in the columns:
 
+* **Assignment Types**; shows how licenses were applied
 * **Primary License**; shows the name of the primary license assigned to a user
 * **Redundant License**; shows the name of the licenses that have the same functionality as the primary one, which means they can be safely removed
 * **User**; shows the name of the user that has redundant licenses
+* **User Type**; shows what type of user it is (user, room,equipment, etc)
 * **User State**; shows the current activity state of the user and whether a user has blocked sign-in
 * **Manager**; shows the name of the manager of the user
 * **Department**; shows the department the user is assigned to
@@ -365,9 +371,11 @@ Below the tiles, you can find the report with the following data displayed in th
 * **Name**; shows the name of the license and below, a list of all the users the license is assigned to
 * **Last License Use**; shows date when the license was last used
 * **User State**; shows the current activity state of the user and whether a user has blocked sign-in
+* **Assignment Types**; shows how licenses were applied
 * **Department**; shows the department the user is assigned to
 * **Manager**; shows the name of the manager of the user
 * **Company**; shows the name of the company the user works for
+* **User Type**; shows what type of user it is (user, room,equipment, etc)
 * **Remove License action**; clicking this opens a confirmation dialog that lets you remove the selected license
 
 
