@@ -1,5 +1,5 @@
 ---
-description: This article provides a detailed explanation of how orphaned users are seen in Syskit Point.
+description: This article provides a detailed explanation of how orphaned users appear in Syskit Point.
 ---
 
 # Orphaned Users
@@ -12,7 +12,7 @@ In Syskit Point, these orphaned users:
   * Have access to workspace content, or
   * Had access to workspace content and visited the SharePoint site containing that content but lost access in the meantime
 
-When a user's sign-in is blocked or their account is deleted in Microsoft Entra ID, their SharePoint permissions are not automatically revoked, which makes them an orphaned user. 
+When a user's sign-in is blocked or their account is deleted in Microsoft Entra ID, their SharePoint permissions are not automatically revoked, leaving them as an orphaned user. 
 
 ### Soft-Delete vs Hard-Delete
 
@@ -24,15 +24,21 @@ The **Soft-Delete** functions as follows:
   * If restored within 30 days, the user regains their original identity
   * Previously assigned SharePoint permissions should remain intact
 
-Any soft-deleted user that was restored within the 30 day window will regain access to previously shared content. 
+Any soft-deleted user that was restored within the 30-day window will regain access to previously shared content. 
 
 The **Hard-Delete** functions as follows: 
+* Once the 30-day window expires, the user is **permanently removed** from Microsoft Entra ID and the **account cannot be restored**
+* Even if a new account is created with the same e-mail address, it will be considered as a completely new user and the recreated account will not inherit any previous SharePoint permissions
+  * This can result in a *User ID Mismatch* issue in SharePoint because the recreated account is treated as a different identity.
 
-
+:::info
+**Please note!** You should still complete the cleanup of residual permissions from the original permanently deleted user. Recreating the account after hard deletion is outside of the scope of restoration behavior, and so the new account has no relationship to those residual permissions.  
+:::
 
 ## How are Orphaned Users Detected in Syskit Point?
-Orphaned users in Syskit Point are detected by syncing information from the SharePoint site's hidden list. 
-If a user is found on the list and is deleted or blocked in Microsoft Entra ID, they will be displayed as an Orphaned User in the [Orphaned Users report](../reporting/cleanup-and-health-reports.md#orphaned-users) in Syskit Point.
+Orphaned users in Syskit Point are detected by syncing information from the SharePoint site's hidden list.
+
+If a user appears on the site's hidden list and is blocked, soft-deleted, or permanently deleted in Microsoft Entra ID, they will be displayed as an Orphaned User in the [Orphaned Users report](../reporting/cleanup-and-health-reports.md#orphaned-users) in Syskit Point.
 
 To access the hidden list, you need to construct and open the following URL:
 * `<SharePointSiteURL>/_catalogs/users/simple.aspx`
