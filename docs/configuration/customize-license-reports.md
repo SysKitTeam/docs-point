@@ -24,7 +24,7 @@ This article shows you how to:
 
 ## License Reports Settings
 
-To modify license report settings, navigate to **Settings** &gt; **License Reports (1)**.
+To modify license report settings, navigate to **Settings** &gt; **Licenses (1)**.
 Here, you can:
 * **Define the number of days after which users will be considered inactive (2)** – the value is used in the Inactive Users with Assigned Licenses and Licenses Usage by Service reports; by default, this is set to 30 days
 * **Define the number of days an add-on license must remain unused to be considered an unused license (3)** – the value is used in the Inactive Users with Assigned Licenses and Licenses Usage by Service reports; by default, this is set to 30 days
