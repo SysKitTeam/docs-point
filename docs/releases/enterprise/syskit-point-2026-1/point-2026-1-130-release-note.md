@@ -47,6 +47,10 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
   * When enabled, **resource users** (e.g., rooms and equipment accounts) with assigned licenses are **included in license reports and in the Blocked Users with Assigned Licenses policy**.
   * When disabled, **resource users are excluded** from these reports and policies.
 
+* **Improvements made to the following License Reports**: Inactive Users with Assigned Licenses, Redundant Licenses, and Unused Add-on Licenses.
+  * The **Assignment Type** column was added, showing whether a license is assigned directly, via group, on-premises group, or dynamic group. This column is visible by default.
+  * The **Assigned Group** column was added, showing the related group(s) when applicable. This column is not visible by default and can be selected from the column chooser. 
+
 * **Improvements made to Audit Logs settings:** Audit Log Advanced Filters.
   * Added configuration for **new Audit Ignore options** in the Audit Logs settings. 
   * Configure the audit log advanced filters to exclude specific events, accounts, or sources from workspace activity detection. 
@@ -76,6 +80,13 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
      * This action lets you edit restrictions placed on a site and choose whether you want to restrict access to content, restrict content discoverability, or neither.
    * [Learn more about the Edit Restrictions action in this article](../../../access-management/restrictions.md)
 
+* **Added a new setting** for managing access in Syskit Point: **Restrict access to private channels not owned by the team owner**.
+  * This setting can be found by going to **Settings > Manage Access > Syskit Point Collaborators**. 
+  * This setting **controls whether Team Owners can access private channels they do not own**.
+  * The setting is **enabled by default and restricts access to private channel details** unless the Team Owner is also the channel owner.
+  * **When enabled**, Team Owners cannot be selected as reviewers for private channels in the Workspace Review policy wizard.
+  * **When disabled**, Team Owners can view private channel details and can be selected as reviewers.
+
 * **Improvements made to the Workspace Review policy for SharePoint sites.**
   * Added a **new Change SharePoint Owners action** that retrieves and displays members of the default SharePoint Owners group. 
   * Refined the reviewer type and action labels displayed on the Workspace Review Overview step.
@@ -88,12 +99,9 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
   * Email column renamed to E-mail on the Orphaned Users report.
   * E-Mail column renamed to E-mail on the Inactive Users with Assigned Licenses report and the Users overview screen.
 
-* **Added a new setting** for managing access in Syskit Point: **Restrict access to private channels not owned by the team owner**.
-  * This setting can be found by going to **Settings > Manage Access > Syskit Point Collaborators**. 
-  * This setting **controls whether Team Owners can access private channels they do not own**.
-  * The setting is **enabled by default and restricts access to private channel details** unless the Team Owner is also the channel owner.
-  * **When enabled**, Team Owners cannot be selected as reviewers for private channels in the Workspace Review policy wizard.
-  * **When disabled**, Team Owners can view private channel details and can be selected as reviewers.
+* **Improved the default currency setup** for new customers.
+  * For new deployments, the default currency is now set based on the region (USD, EUR, AUD).
+  * Default exchange rate values are initialized during the connect.
 
 * **Improved user synchronization** by retrieving the Last Successful Sign-In time for both internal and external users during tenant sync, instead of relying only on audit data.
 
@@ -101,14 +109,6 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
   * It is now clearly indicated that the action has failed due to missing licenses when performed by users who are not admins.
 
 * **Fixed an issue** where Power Platform actions would stop working after a period of time due to an expired access token, requiring users to restart Syskit Point.
-
-* **Improvements made to the following License Reports**: Inactive Users with Assigned Licenses, Redundant Licenses, and Unused Add-on Licenses.
-  * The **Assignment Type** column was added, showing whether a license is assigned directly, via group, on-premises group, or dynamic group. This column is visible by default.
-  * The **Assigned Group** column was added, showing the related group(s) when applicable. This column is not visible by default and can be selected from the column chooser. 
-
-* **Improved the default currency setup** for new customers.
-  * For new deployments, the default currency is now set based on the region (USD, EUR, AUD).
-  * Default exchange rate values are initialized during the connect.
 
 * **Fixed an issue** where currency information was not displayed in PDF exports of license reports. It is now clearly shown in the generated PDF reports.
 
