@@ -35,7 +35,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
   
 * For an **already deployed Point**, this permission is **not added automatically**. Syskit Point admins will **receive a reconsent prompt** to grant the required permission.
 
-* [For more information about permission requirements changes, see the change log.](../../../requirements/permission-requirements-change-log.md#syskit-point-cloud-20261128)
+* [For more information about permission requirements changes, see the change log.](../../../requirements/permission-requirements-change-log.md#syskit-point-enterprise-20261130)
 
 :::
    
