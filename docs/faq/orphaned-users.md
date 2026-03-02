@@ -53,11 +53,11 @@ To access the hidden list, you need to construct and open the following URL:
 
 * **A user is added to the SharePoint site's hidden list when they visit the site/content and have access to the site or site content via**:
   * M365 group membership - M365 group where the user is a member is given direct access to the site, or added as a member to the site's SharePoint groups
-  * Security group membership - the security group where the user is a member is given direct access to the site or added as a member to the site's SharePoint groups
+  * Security group membership - the security group where the user is a member is given direct access to the site, or added as a member to the site's SharePoint groups
   * Company-wide sharing link
 
 :::warning
-**Please note** that if a user is granted access to a SharePoint site through document_number_1 group membership, security group membership, or a company-wide sharing link, but does not visit the site, they will not be added to the site's hidden list.
+**Please note** that if a user is granted access to a SharePoint site through M365 group membership, security group membership, or a company-wide sharing link, but does not visit the site, they will not be added to the site's hidden list.
 :::
 
 * **If a user visits the site via an Anyone/Anonymous link, they are not added to the hidden list**.
