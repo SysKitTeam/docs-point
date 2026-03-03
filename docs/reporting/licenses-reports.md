@@ -100,7 +100,7 @@ Below the tiles, you can find the report with the following data displayed in th
 * **Inactive users**; shows the number of currently inactive, or blocked sign-in users with assigned licenses
 * **Potential Savings (Inactive users)**; shows the potential savings you can obtain by removing licenses from inactive users or users with a blocked sign-in
 
-The **total montly cost for All licenses** and the **total potential monthly savings for licenses assigned to inactive users** are located at the bottom of the generated report.
+The **total monthly cost for all licenses** and the **total potential monthly savings for licenses assigned to inactive users** are located at the bottom of the generated report.
 
 In the top right corner, you can find the button to **schedule the Licenses Overview report** or **export it as PDF and XLSX files**. 
 
@@ -152,11 +152,11 @@ The Licenses Usage by Service report can be **exported as PDF and XLSX files**. 
 
 ## License Distribution
 
-The **License Distribution** report enables **viewing the license distribution and cost by department, usage location, country or region. and Company**.
+The **License Distribution** report enables **viewing the license distribution and cost by department, usage location, country or region, and company**.
 
 View this report to understand license distribution by department and the total cost of assigned licenses.
 
-This report can also be **used to help calculate possible savings that can achieve by removing inactive licenses**.
+This report shows all of the **licenses in the Microsoft 365 environment assigned by your company departments and in various locations** and can also be **used to help calculate possible savings that can achieve by removing inactive licenses**.
 
 :::info
 **A banner appears at the top of this report if any licenses are missing required pricing information** (price or default price), with a direct link to the Settings screen where you can provide the missing pricing details.
@@ -178,14 +178,89 @@ This report can also be **used to help calculate possible savings that can achie
 
 * **Click the Run Report button** to generate the desired report.
 
+When the License Distribution report is successfully generated, it will be grouped by either Department, Usage Location, Country or Region, or Company.
+
+#### Department
+
+When selected, the report and the top report tiles have the **data grouped by Department**. 
+
+In the top three tiles, the following information is provided:
+
+* An Overview tile, with the: 
+  * Number of departments with assigned licenses
+  * The number of assigned licenses
+  * The cost of the assigned licenses
+  * A chart that breaks down the total number to show how many active assigned licenses there are compared to inactive assigned licenses 
+
+* Annual Potential Savings, with the amount of annual potential savings and:
+  * Top Savings by Department, which shows:  
+    * The names of the departments where you can achieve the most savings 
+    * The amount of money you can save from licenses in each department
+
+* A graph, showing departments with the highest annual license cost, for a visual overview
+
+#### Usage Location
+
+When selected, the report and the top report tiles have the **data grouped by Usage Location**. 
+
+In the top three tiles, the following information is provided:
+
+* An Overview tile, with the: 
+  * The number of usage locations
+  * The number of assigned licenses
+  * The cost of the assigned licenses
+  * A chart that breaks down the total number to show how many active assigned licenses there are compared to inactive assigned licenses 
+
+* Annual Potential Savings, with the amount of annual potential savings and:
+  * Top Savings by Usage Location, which shows:  
+    * The names of the usage locations where you can achieve the most savings 
+    * The amount of money you can save from licenses from each usage location
+
+* A graph, showing usage locations with the highest annual license cost, for a visual overview
+
+
+#### Country or Region
+
+When selected, the report and the top report tiles have the **data grouped by Country or Region**. 
+
+In the top three tiles, the following information is provided:
+
+* An Overview tile, with the: 
+  * Number of countries or regions
+  * The number of assigned licenses
+  * The cost of the assigned licenses
+  * A chart that breaks down the total number to show how many active assigned licenses there are compared to the inactive assigned licenses 
+
+* Annual Potential Savings, with the amount of annual potential savings and:
+  * Top Savings by Countries or Regions, which shows:  
+    * The names of the Countries or Regions where you can achieve the most savings 
+    * The amount of money you can save from licenses in each department
+
+* A graph, showing countries or regions with the highest annual license cost, for a visual overview
+
+#### Company
+
+When selected, the report and the top report tiles have the **data grouped by Company**. 
+
+In the top three tiles, the following information is provided:
+
+* An Overview tile, with the: 
+  * Number of companies with assigned licenses
+  * The number of assigned licenses
+  * The cost of the assigned licenses
+  * A chart that breaks down the total number to show how many active assigned licenses there are compared to the inactive assigned licenses 
+
+* Annual Potential Savings, with the amount of annual potential savings and:
+  * Top Savings by Company, which shows:  
+    * The names of the departments where you can achieve the most savings 
+    * The amount of money you can save from licenses in each department
+
+* A graph, showing companies with the highest annual license cost, for a visual overview
+
+
 ### License Distribution Report Data
 
-When the License Distribution report is successfully generated, it will be grouped by either Department or Usage Location.
-
-It shows all of the **licenses in the Microsoft 365 environment assigned by your company departments or various locations**.
-
-
-Other columns that are enabled by default are:
+The columns that are enabled by default and available regardless of how you grouped your data on the selection step are the following:
 
 * **License**; the name of the purchased Microsoft 365 license
 * **Assigned Active Licenses**; the number of currently assigned licenses per license
@@ -202,7 +277,7 @@ The License Distribution report can be **exported as PDF and XLSX files**. There
 
 The **Inactive Users with Assigned Licenses** report helps with **finding and reclaiming licenses assigned to inactive or blocked users** to optimize your Microsoft 365 license cost.
 
-Use this report to **easily remove the assigned licenses from inactive users** and assign them to another user. It can also help you estimate how many licenses are needed upon renewal, which assists cost reduction efforts. 
+Use this report to **easily remove the assigned licenses from inactive users** and assign them to another user. It can also help you estimate how many licenses are needed at renewal, which supports cost-reduction efforts. 
 
 
 :::info
@@ -226,15 +301,15 @@ The **Inactive Users with Assigned Licenses** report is generated with three top
 In the top three tiles, the following information is provided:
 
 * An overview, with the Number of Inactive Users with Assigned Licenses
-  * A chart that breaksdown the total number to show how many users with assigned licenses are inactive versus how many have blocked sign-in 
+  * A chart that breaks down the total number to show how many users with assigned licenses are inactive versus how many have blocked sign-in 
 
-* Potential Savings, with the amount of total potential savings and:
+* Potential Savings, with the amount of annual potential savings and:
   * Potential savings if licenses are removed from Inactive Users
   * Potential savings if licenses are removed from Users with Blocked Sign-in
 
 * Top licenses assigned to inactive users, represented through a graph
 
-Below the tiles, you can find the report that can be Shown by: **User or License**. The columns for the report are the same regardless of how it is viewed. The following information is displayed in the columns:
+Below the tiles, you can find the report that can be Shown by: **User or License**. The report's columns are the same regardless of how it is viewed. The following information is displayed in the columns:
 
 * **License**; the name of the License currently assigned to an inactive user
 * **Assignment Types**; shows how licenses were applied
@@ -250,6 +325,20 @@ In the final column, you'll see the **Remove Licenses** action. Clicking the act
 
 **Selecting more than one user**, moves the action to the top of the report, and lets you perform the **Remove Licenses action in bulk**. 
 
+There are additional columns available from the column chooser:
+
+* Assignment Groups
+* E-mail
+* License Status
+* Country
+* Is External User
+* Sign-in Status
+* Is Deleted
+* Username
+* User Domain
+* Is License Paid
+
+
 :::info
 **If any licenses are missing required pricing information** (price or default price), the remove licenses modal will contain an additional step where you can enter the missing pricing details. You can still proceed with the removal without entering the pricing; this is not a mandatory step. 
 
@@ -260,7 +349,7 @@ The Inactive users with Assigned Licenses report can be **exported as PDF and XL
 
 ## Redundant Licenses Report
 
-The **Redundant Licenses report** helps you detect license conbinations with overlapping functionality and safely remove redundant ones to optimize costs. 
+The **Redundant Licenses report** helps you detect license combinations with overlapping functionality and safely remove redundant ones to optimize costs. 
 
 This report shows **overlapping license** cases, where a **user is assigned both a primary license and a redundant license**. In these cases, the primary license covers all functionality that is included in the redundant license. 
 
@@ -288,9 +377,9 @@ Now that your report has been generated successfully, you have a complete overvi
 In the top three tiles, the following information is provided:
 
 * Potential Savings, which includes:
-  * The amount of total potential savings
+  * Total annual cost, which shows the amount of money spent on both primary licenses and redundant licenses assigned to the same user
+  * The amount of annual potential savings
   * The number of redundant license combinations
-  * Total cost, which shows the amount of money spent on both primary licenses and redundant licenses assigned to the same user
   * License combinations with the highest savings potential 
 
 * Top Redundant License Combinations, which shows a graph with the most frequent license overlap combinations
@@ -310,6 +399,7 @@ Below the tiles, you can find the report that can be Shown by: **User or License
 
 **Additional columns can be enabled via Column Chooser** next to the search box on the report:
 
+* Assignment Groups
 * Primary License Price
 * Redundant License Price
 * Sign-in Status
@@ -355,13 +445,13 @@ Now that your report is successfully generated, you have a complete overview of 
 In the top three tiles, the following information is provided:
 
 * Overview, which includes:
+  * Annual cost of the add-on licenses
   * Number of add-on licenses
-  * Amount of money the add-on licenses cost
   * A chart, which provides a visual overview of the number of used assigned add-on licenses compared to unused assigned add-on licenses
 
-* Potential Savings, which shows the amount of money you could save by removing unused or excess licenses with:
+* Annual Potential Savings, which shows the amount of money you could save by removing unused or excess licenses with:
   * The amount of total potential savings
-  * List of licenses with the highest savings potential, and the amount you could save
+  * List of licenses with the highest savings potential, and the amount you could save by removing them
 
 *  Top unused add-on licenses, which provides an overview of the most commonly used add-on licenses, with a chart depicting the amount
 
