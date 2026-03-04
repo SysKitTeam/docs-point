@@ -28,7 +28,6 @@ description: This article lists new features, improvements, and bug fixes in the
 * **Fixed an issue** when generating the Sharing Links report and resolving the Workspace Review All Shared Content step, which caused the following timeout error:
   ```
   Microsoft.Data.SqlClient.SqlException: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
-  at System.Threading.Tasks.
   ```
 
 * **Various improvements, including UX and UI fixes, are available.**
