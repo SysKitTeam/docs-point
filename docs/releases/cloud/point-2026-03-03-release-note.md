@@ -15,17 +15,19 @@ description: This article lists new features, improvements, and bug fixes in the
    
 ## Improvements & Bug Fixes 
 
-* **Fixed an issue** when generating the Sharing Links report and resolving the Workspace Review All Shared Content step, which caused the following timeout error:
-  ```
-  Microsoft.Data.SqlClient.SqlException: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
-  at System.Threading.Tasks.
-  ```
+* **Added the exact search option** to the People Picker component. 
+  * When a search term is entered within quotation marks (" "), the People Picker returns only matches that exactly fit the specified value.
+
+* **Added a new column** to the Users with Privileged Access report: **Company**
+  * This column is not visible by default and can be enabled from the column chooser.
 
 * **Improvements made to the Licenses reports**.
   * Replaced the *Total Annual Cost* with *Annual Cost* in reports to better reflect your potential savings.
   * Updated tiles to show only **paid licenses** for assigned, unassigned, active, and inactive users.
 
-* **Added a new column** to the Users with Privileged Access report: **Company**
-  * This column is not visible by default and can be selected from the column chooser.
+* **Fixed an issue** when generating the Sharing Links report and resolving the Workspace Review All Shared Content step, which caused the following timeout error:
+  ```
+  Microsoft.Data.SqlClient.SqlException: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+  ```
 
 * **Various improvements, including UX and UI fixes, are available.**
