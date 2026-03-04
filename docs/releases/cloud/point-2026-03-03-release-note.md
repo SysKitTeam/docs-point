@@ -15,7 +15,7 @@ description: This article lists new features, improvements, and bug fixes in the
    
 ## Improvements & Bug Fixes 
 
-* **Added the exact search option** to the people picker component. 
+* **Added the exact search option** to the People Picker component. 
   * When a search term is entered within quotation marks (" "), the People Picker returns only matches that exactly fit the specified value.
 
 * **Added a new column** to the Users with Privileged Access report: **Company**
