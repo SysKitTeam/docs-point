@@ -234,7 +234,7 @@ In the top three tiles, the following information is provided:
 * Annual Potential Savings, with the amount of annual potential savings and:
   * Top Savings by Countries or Regions, which shows:  
     * The names of the Countries or Regions where you can achieve the most savings 
-    * The amount of money you can save from licenses in each department
+    * The amount of money you can save from licenses in each country or region
 
 * A graph showing countries or regions with the highest annual license cost, for a visual overview
 
@@ -252,8 +252,8 @@ In the top three tiles, the following information is provided:
 
 * Annual Potential Savings, with the amount of annual potential savings and:
   * Top Savings by Company, which shows:  
-    * The names of the departments where you can achieve the most savings 
-    * The amount of money you can save from licenses in each department
+    * The names of the companies where you can achieve the most savings 
+    * The amount of money you can save from licenses in each company
 
 * A graph showing companies with the highest annual license cost, for a visual overview
 
