@@ -6,7 +6,7 @@ description: Licenses Reports provide information on managing your Microsoft 365
 
 :::warning
 **Please note!**\
-**License Reports** are now a part of the License Optimization add-on. The "Free Preview" allows existing customers to continue accessing these features for three months after release. 
+**Licenses Reports** are now a part of the License Optimization add-on. The "Free Preview" allows existing customers to continue accessing these features for three months after release. 
 
 After this period ends, a separate add-on will be required to access licensing features. Please [contact us](https://www.syskit.com/contact-us/?utm_source=syskit-point&utm_medium=in-product&utm_campaign=311269578-License-Optimization&utm_content=button) for more details.
 
@@ -21,7 +21,7 @@ In this article, you can find information about the following license reports:
 * [License Distribution](#license-distribution)
 * [Inactive Users with Assigned Licenses Report](#inactive-users-with-assigned-licenses-report)
 * [Redundant Licenses Report](#redundant-licenses-report)
-* [Unused Add-On Licenses](#unused-add-on-licenses-report)
+* [Unused Add-On Licenses Report](#unused-add-on-licenses-report)
 
 
 Use them to **identify Microsoft 365 licenses that are currently assigned, unassigned, or assigned to inactive users, review their overall cost, and optimize your license distribution to ensure everyone has the necessary licenses**. 
@@ -84,23 +84,21 @@ The cases on the Annual Potential Savings tile are **automatically sorted** by p
 :::
 
 
-* **Most purchased licenses**, showing a list of your licenses with the highest number of available seats, with graphs demonstrating the amount used for each
+* **Top paid licenses**, showing a list of your licenses with the highest number of available seats, with graphs demonstrating the amount used for each
 
 
 Below the tiles, you can find the report with the following data displayed in the columns:
 
 
 * **License**; shows the name of all licenses purchased in the Microsoft 365 subscription
-* **Unit Cost**; shows the monthly price of the license per user
-* **Purchased Licenses**; shows the number of licenses purchased
-* **Total Cost**; shows the total cost per purchased license
+* **Unit Cost (Monthly)**; shows the monthly price of the license per user
+* **Total Licenses**; shows the total number of licenses
+* **Total Annual Cost**; shows the total cost per purchased license
 * **Assigned Licenses**; shows the number of currently assigned licenses
-* **Assigned Licenses Cost**; shows the cost per assigned license
 * **Unassigned Licenses**; shows the number of currently unassigned licenses
 * **Inactive users**; shows the number of currently inactive, or blocked sign-in users with assigned licenses
-* **Potential Savings (Inactive users)**; shows the potential savings you can obtain by removing licenses from inactive users or users with a blocked sign-in
 
-The **total monthly cost for all licenses** and the **total potential monthly savings for licenses assigned to inactive users** are located at the bottom of the generated report.
+The **total annual cost for all licenses** is located at the bottom of the generated report.
 
 In the top right corner, you can find the button to **schedule the Licenses Overview report** or **export it as PDF and XLSX files**. 
 
@@ -154,7 +152,7 @@ The Licenses Usage by Service report can be **exported as PDF and XLSX files**. 
 
 The **License Distribution** report enables **viewing the license distribution and cost by department, usage location, country or region, and company**.
 
-View this report to understand license distribution by department and the total cost of assigned licenses.
+View this report to understand license distribution by department, usage location, country or region, and company, along with the total cost of assigned licenses.
 
 This report shows all of the **licenses in the Microsoft 365 environment assigned by your company departments and in various locations**, and can also be **used to help calculate possible savings that can be achieved by removing inactive licenses**.
 
@@ -453,7 +451,7 @@ In the top three tiles, the following information is provided:
   * The amount of total potential savings
   * List of licenses with the highest savings potential, and the amount you could save by removing them
 
-*  Top unused add-on licenses, which provides an overview of the most commonly used add-on licenses, with a chart depicting the amount
+*  Top unused add-on licenses, which provides an overview of the most commonly unused add-on licenses, with a chart depicting the amount
 
 
 Below the tiles, you can find the report with the following data displayed in the columns:
