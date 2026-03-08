@@ -18,7 +18,7 @@ description: This article lists new features, improvements, and bug fixes in the
   * The Remove License action now supports licenses assigned directly, through Entra ID security groups, and through on-premises Active Directory groups. 
     * For on-premises groups, you are required to have the Syskit Point On-Prem Agent, a separate service that syncs data between Syskit Point and your local Active Directory.
   * **New columns added** to licenses reports: 
-    * Assignment Type - shows how the license is assigned to the user (Directly, Group, OnPrem Group, Dynamic).
+    * Assignment Type – shows how the license is assigned to the user (Direct, Group, On-Prem Group, Dynamic).
     * Assigned Group - shows the specific group through which the license is assigned.
 
 * **Fixed an issue** where Workspace Reviews did not work for private and shared channels. 
@@ -26,7 +26,7 @@ description: This article lists new features, improvements, and bug fixes in the
 * **Fixed an issue** where OneDrive audit events were collected even when OneDrive Autodiscovery was disabled.
   * When OneDrive Autodiscovery is turned off in the General Settings, OneDrive activity is no longer collected for audit data. 
 
-* **Fixed an issue** in Settings > General > Governance-Excluded Users where adding more than 15 users in the People Picker caused the field to clear after clicking Save, with none of the selected users retained. 
+* **Fixed an issue** in Settings > General > Governance-Excluded Users where adding more than 15 users in the People Picker caused the field to clear after clicking Save, resulting in none of the selected users being retained.
 
 * **Fixed an issue** that caused Autodiscover to sync for a long time or result in a timeout. 
 
@@ -56,4 +56,4 @@ description: This article lists new features, improvements, and bug fixes in the
   System.ArgumentNullException: Value cannot be null. (Parameter 'input')
   ```
 
-* **Various improvements, including UX and UI fixes, are available.**
+* **Various improvements, including UX and UI fixes, have been implemented.**
