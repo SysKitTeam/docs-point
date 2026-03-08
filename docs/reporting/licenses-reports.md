@@ -26,7 +26,7 @@ In this article, you can find information about the following license reports:
 
 Use them to **identify Microsoft 365 licenses that are currently assigned, unassigned or assigned to inactive users, review their overall cost, and optimize your license distribution to ensure everyone has the necessary licenses**. 
 
-These reports can be used to **discover underutilized licenses to drive adoption and optimize license costs**.
+These reports can be used to **discover underutilized licenses to drive adoption and optimize license costs** by [Removing Licenses](#remove-license-action) 
 
 :::info
 
@@ -43,7 +43,7 @@ The **Licenses Overview report** helps discover the assigned, unassigned, and in
 
 It also **shows the overall cost of all the current licenses** you've purchased from Microsoft.
 
-This report can be **used to help you calculate your needed number of licenses and estimate future license costs upon renewal**.
+Use this report to **calculate needed license numbers and estimate future renewal costs**.
 
 
 :::info
@@ -100,7 +100,7 @@ Below the tiles, you can find the report with the following data displayed in th
 * **Inactive users**; shows the number of currently inactive, or blocked sign-in users with assigned licenses
 * **Potential Savings (Inactive users)**; shows the potential savings you can obtain by removing licenses from inactive users or users with a blocked sign-in
 
-The **total montly cost for All licenses** and the **total potential monthly savings for licenses assigned to inactive users** are located at the bottom of the generated report.
+The **total monthly cost for all licenses** and the **total potential monthly savings for licenses assigned to inactive users** are located at the bottom of the generated report.
 
 In the top right corner, you can find the button to **schedule the Licenses Overview report** or **export it as PDF and XLSX files**. 
 
@@ -152,11 +152,11 @@ The Licenses Usage by Service report can be **exported as PDF and XLSX files**. 
 
 ## License Distribution
 
-The **License Distribution** report enables **viewing the license distribution and cost by department, usage location, country or region. and Company**.
+The **License Distribution** report enables **viewing the license distribution and cost by department, usage location, country or region, and company**.
 
 View this report to understand license distribution by department and the total cost of assigned licenses.
 
-This report can also be **used to help calculate possible savings that can achieve by removing inactive licenses**.
+This report can also be **used to help calculate possible savings that can be achieved by removing inactive licenses**.
 
 :::info
 **A banner appears at the top of this report if any licenses are missing required pricing information** (price or default price), with a direct link to the Settings screen where you can provide the missing pricing details.
@@ -226,7 +226,7 @@ The **Inactive Users with Assigned Licenses** report is generated with three top
 In the top three tiles, the following information is provided:
 
 * An overview, with the Number of Inactive Users with Assigned Licenses
-  * A chart that breaksdown the total number to show how many users with assigned licenses are inactive versus how many have blocked sign-in 
+  * A chart that breaks down the total number to show how many users with assigned licenses are inactive versus how many have blocked sign-in 
 
 * Potential Savings, with the amount of total potential savings and:
   * Potential savings if licenses are removed from Inactive Users
@@ -260,7 +260,7 @@ The Inactive users with Assigned Licenses report can be **exported as PDF and XL
 
 ## Redundant Licenses Report
 
-The **Redundant Licenses report** helps you detect license conbinations with overlapping functionality and safely remove redundant ones to optimize costs. 
+The **Redundant Licenses report** helps you detect license combinations with overlapping functionality and safely remove redundant ones to optimize costs. 
 
 This report shows **overlapping license** cases, where a **user is assigned both a primary license and a redundant license**. In these cases, the primary license covers all functionality that is included in the redundant license. 
 
@@ -350,7 +350,7 @@ The **Unused Add-on Licenses report** helps you find add-on licenses that aren't
 
 ### Unused Add-on Licenses Report Data
 
-Now that your report is successfully generated, you have a complete overview of your unused add-on licenses. 
+Now that your report has been generated successfully, you have a complete overview of your unused add-on licenses. 
 
 In the top three tiles, the following information is provided:
 
@@ -378,5 +378,27 @@ Below the tiles, you can find the report with the following data displayed in th
 * **User Type**; shows what type of user it is (user, room,equipment, etc)
 * **Remove License action**; clicking this opens a confirmation dialog that lets you remove the selected license
 
-
 The Unused Add-on Licenses report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+
+## Remove License Action
+
+Clicking the Remove License action removes licenses that were assigned through different methods. 
+
+The **Remove License** action works in the following situation:
+* When a license is **assigned directly to a user**
+* When a license is **assigned through a Security Group in Microsoft Entra ID**
+* When a license is **assigned through a local Active Directory (on-prem) group**
+
+When the Remove License action is selected:
+* If the license was **assigned directly**, the license is **removed from the user**
+* If the license was **assigned through a group**, the user is **removed from the group**
+* If a license was **assigned through multiple methods** (for example, directly and through multiple groups), the **Remove License** action resolves all of the assigned methods 
+  * For example, the license is removed from the user and the user is removed from the groups
+
+### On-Premises Groups
+
+Support for licenses assigned through local **Active Directory (on-prem) groups** requires the user of the **Syskit Point On-Prem Agent**.
+
+The **Syskit Point On-Prem Agent** is a separate service that **syncs data between Syskit Point and the local Active Directory**. 
+
+To enable support for on-premises groups, [please contact us](https://www.syskit.com/contact-us/?utm_source=syskit-point&utm_medium=in-product&utm_campaign=311269578-License-Optimization&utm_content=button).
