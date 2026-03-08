@@ -246,7 +246,7 @@ Below the tiles, you can find the report that can be Shown by: **User or License
   * Only if that information is available in Microsoft Entra ID
 * **Created on**; the date and time when the user was first created
 
-In the final column, you'll see the **Remove Licenses** action. Clicking the action removes the licenses assigned to that user. 
+In the final column, you'll see the [**Remove License**](#remove-license-action) action. Clicking the action removes the licenses assigned to that user. 
 
 **Selecting more than one user**, moves the action to the top of the report, and lets you perform the **Remove Licenses action in bulk**. 
 
@@ -376,7 +376,7 @@ Below the tiles, you can find the report with the following data displayed in th
 * **Manager**; shows the name of the manager of the user
 * **Company**; shows the name of the company the user works for
 * **User Type**; shows what type of user it is (user, room,equipment, etc)
-* **Remove License action**; clicking this opens a confirmation dialog that lets you remove the selected license
+* [**Remove License action**](#remove-license-action); clicking this opens a confirmation dialog that lets you remove the selected license
 
 The Unused Add-on Licenses report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
