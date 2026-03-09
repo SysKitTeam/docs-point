@@ -1,5 +1,5 @@
 ---
-description: This article lists new features, improvements, and bug fixes in the Syskit Point Cloud version 2026.1.132.1
+description: This article lists new features, improvements, and bug fixes in the Syskit Point Cloud version 2026.1.132.4
 ---
 
 # March 10, 2026
@@ -16,9 +16,10 @@ description: This article lists new features, improvements, and bug fixes in the
 
 * **Improvements made to Group-Based Licensing.**
   * The Remove License action now supports licenses assigned directly, through Entra ID security groups, and through on-premises Active Directory groups. 
-    * For on-premises groups, you are required to have the Syskit Point On-Prem Agent, a separate service that syncs data between Syskit Point and your local Active Directory.
+    * For on-premises groups, you are required to have the Syskit Point On-Prem Agent, a separate service that syncs data between Syskit Point and your local Active Directory.\
+    [Contact us to set up the Syskit Point On-Prem Agent in your environment.](https://www.syskit.com/contact-support/)
   * **New columns added** to licenses reports: 
-    * Assignment Type – shows how the license is assigned to the user (Direct, Group, On-Prem Group, Dynamic).
+    * Assignment Type - shows how the license is assigned to the user (Direct, Group, On-Prem Group, Dynamic).
     * Assigned Group - shows the specific group through which the license is assigned.
 
 * **Fixed an issue** where Workspace Reviews did not work for private and shared channels. 
@@ -30,13 +31,12 @@ description: This article lists new features, improvements, and bug fixes in the
 
 * **Fixed an issue** that caused Autodiscover to sync for a long time or result in a timeout. 
 
-* **Fixed an issue** in the Teams & Groups Overview where
- drilling down to the Workspace Details screen, and selecting the General Channel, could cause the Content tile to display a *Bad Request* error instead of showing the channel content.
+* **Fixed an issue** in the Teams & Groups Overview where drilling down to the Workspace Details screen and selecting the General Channel could cause the Content tile to display a *Bad Request* error instead of showing the channel content.
 
 * **Fixed an issue** with user discovery that caused the following error to occur during the permissions sync: 
 
   ```
-   System.ArgumentException: principal with id 218 not found
+   System.ArgumentException: principal with id <ID> not found
    at SysKit.Point.SPO.Model.BaseClientObject.
   ```
 
@@ -47,7 +47,7 @@ description: This article lists new features, improvements, and bug fixes in the
   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
   ```
 
-* **Fixed a bug** that caused the Remove Sharing Links action to fail when completed by a Point Admin without Microsoft 365 admin permissions with the following error:
+* **Fixed a bug** that caused the Remove Sharing Links action to fail when completed by a Point Admin without Microsoft 365 admin permissions, with the following error:
 
   ```
   System.ArgumentNullException: Value cannot be null. (Parameter 'input')
