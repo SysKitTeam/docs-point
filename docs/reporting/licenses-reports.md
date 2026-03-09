@@ -388,7 +388,7 @@ Below the tiles, you can find the report that can be shown by: **User or License
 * **Primary License**; shows the name of the primary license assigned to a user
 * **Redundant License**; shows the names of the licenses that have the same functionality as the primary one, which means they can be safely removed
 * **User**; shows the name of the user having redundant licenses
-* **User Type**; shows what type of user it is (user, room,equipment, etc.)
+* **User Type**; shows what type of user it is (user, room, equipment, etc.)
 * **User State**; shows the current activity state of the user and whether a user has blocked sign-in
 * **Manager**; shows the name of the manager of the user
 * **Department**; shows the department the user is assigned to
