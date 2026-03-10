@@ -26,7 +26,7 @@ In this article, you can find information about the following license reports:
 
 Use them to **identify Microsoft 365 licenses that are currently assigned, unassigned, or assigned to inactive users, review their overall cost, and optimize your license distribution to ensure everyone has the necessary licenses**. 
 
-These reports can be used to **discover underutilized licenses to drive adoption and optimize license costs**.
+These reports can be used to **discover underutilized licenses to drive adoption and optimize license costs** by [Removing Licenses](#remove-license-action) 
 
 :::info
 
@@ -71,7 +71,7 @@ In the top three tiles, the following information is provided:
   * Total Licenses, which shows the total number of purchased licenses
   * Paid Licenses, which shows the number of paid licenses
   * Free Licenses, which shows the number of free licenses
-  * A chart that provides a visual view of the number of licenses that are Assigned to Active Users, Assigned to an Inactive User, or Unassigned
+  * A chart that provides a visual view of the number of licenses that are assigned to active users, assigned to inactive users, or unassigned
 
 
 * **Annual Potential Savings**, which includes:
@@ -96,7 +96,7 @@ Below the tiles, you can find the report with the following data displayed in th
 * **Total Annual Cost**; shows the total cost per purchased license
 * **Assigned Licenses**; shows the number of currently assigned licenses
 * **Unassigned Licenses**; shows the number of currently unassigned licenses
-* **Inactive users**; shows the number of currently inactive, or blocked sign-in users with assigned licenses
+* **Inactive users**; shows the number of currently inactive or blocked sign-in users with assigned licenses
 
 The **total annual cost for all licenses** is located at the bottom of the generated report.
 
@@ -190,7 +190,7 @@ In the top three tiles, the following information is provided:
   * The cost of the assigned licenses
   * A chart that breaks down the total number to show how many active assigned licenses there are compared to inactive assigned licenses 
 
-* Annual Potential Savings, with the amount of annual potential savings and:
+* Annual Potential Savings, with the amount of annual potential savings:
   * Top Savings by Department, which shows:  
     * The names of the departments where you can achieve the most savings 
     * The amount of money you can save from licenses in each department
@@ -319,7 +319,7 @@ Below the tiles, you can find the report that can be shown by: **User or License
   * Only if that information is available in Microsoft Entra ID
 * **Created on**; the date and time when the user was first created
 
-In the final column, you'll see the **Remove Licenses** action. Clicking the action removes the licenses assigned to that user. 
+In the final column, you'll see the [**Remove License**](#remove-license-action) action. Clicking the action removes the licenses assigned to that user. 
 
 **Selecting more than one user** moves the action to the top of the report and lets you perform the **Remove Licenses action in bulk**. 
 
@@ -388,7 +388,7 @@ Below the tiles, you can find the report that can be shown by: **User or License
 * **Primary License**; shows the name of the primary license assigned to a user
 * **Redundant License**; shows the names of the licenses that have the same functionality as the primary one, which means they can be safely removed
 * **User**; shows the name of the user having redundant licenses
-* **User Type**; shows what type of user it is (user, room,equipment, etc.)
+* **User Type**; shows what type of user it is (user, room, equipment, etc.)
 * **User State**; shows the current activity state of the user and whether a user has blocked sign-in
 * **Manager**; shows the name of the manager of the user
 * **Department**; shows the department the user is assigned to
@@ -438,7 +438,7 @@ The **Unused Add-on Licenses report** helps you find add-on licenses that aren't
 
 ### Unused Add-on Licenses Report Data
 
-Now that your report is successfully generated, you have a complete overview of your unused add-on licenses. 
+Now that your report has been generated successfully, you have a complete overview of your unused add-on licenses. 
 
 In the top three tiles, the following information is provided:
 
@@ -464,7 +464,33 @@ Below the tiles, you can find the report with the following data displayed in th
 * **Manager**; shows the name of the manager of the user
 * **Company**; shows the name of the company the user works for
 * **User Type**; shows what type of user it is (user, room,equipment, etc.)
-* **Remove License action**; clicking this opens a confirmation dialog that lets you remove the selected license
-
+* [**Remove License action**](#remove-license-action); clicking this opens a confirmation dialog that lets you remove the selected license
 
 The Unused Add-on Licenses report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+
+## Remove License Action
+
+Clicking the Remove License action removes licenses that were assigned through different methods. 
+
+The **Remove License** action works in the following situation:
+* When a license is **assigned directly to a user**
+* When a license is **assigned through a Security Group in Microsoft Entra ID**
+* When a license is **assigned through a local Active Directory (on-prem) group**
+
+When the Remove License action is selected:
+* If the license was **assigned directly**, the license is **removed from the user**
+* If the license was **assigned through a group**, the user is **removed from the group**
+* If a license was **assigned through multiple methods** (for example, directly and through multiple groups), the **Remove License** action resolves all of the assigned methods 
+  * For example, the license is removed from the user, and the user is removed from the groups
+
+:::info
+Users cannot be removed from **dynamic groups** (Security or Microsoft 365 group type). Therefore, the **Remove License** action will not work in such cases.
+:::
+
+### On-Premises Groups
+
+Support for licenses assigned through local **Active Directory (on-prem) groups** requires the use of the **Syskit Point On-Prem Agent**.
+
+The **Syskit Point On-Prem Agent** is a separate service that **syncs data between Syskit Point and the local Active Directory**. 
+
+To enable support for on-premises groups, [please contact us](https://www.syskit.com/contact-us/?utm_source=syskit-point&utm_medium=in-product&utm_campaign=311269578-License-Optimization&utm_content=button).
