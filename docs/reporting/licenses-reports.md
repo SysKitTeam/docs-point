@@ -71,7 +71,7 @@ In the top three tiles, the following information is provided:
   * Total Licenses, which shows the total number of purchased licenses
   * Paid Licenses, which shows the number of paid licenses
   * Free Licenses, which shows the number of free licenses
-  * A chart that provides a visual view of the number of licenses that are Assigned to Active Users, Assigned to an Inactive User, or Unassigned
+  * A chart that provides a visual view of the number of licenses that are assigned to active users, assigned to inactive users, or unassigned
 
 
 * **Annual Potential Savings**, which includes:
@@ -96,7 +96,7 @@ Below the tiles, you can find the report with the following data displayed in th
 * **Total Annual Cost**; shows the total cost per purchased license
 * **Assigned Licenses**; shows the number of currently assigned licenses
 * **Unassigned Licenses**; shows the number of currently unassigned licenses
-* **Inactive users**; shows the number of currently inactive, or blocked sign-in users with assigned licenses
+* **Inactive users**; shows the number of currently inactive or blocked sign-in users with assigned licenses
 
 The **total annual cost for all licenses** is located at the bottom of the generated report.
 
@@ -190,7 +190,7 @@ In the top three tiles, the following information is provided:
   * The cost of the assigned licenses
   * A chart that breaks down the total number to show how many active assigned licenses there are compared to inactive assigned licenses 
 
-* Annual Potential Savings, with the amount of annual potential savings and:
+* Annual Potential Savings, with the amount of annual potential savings:
   * Top Savings by Department, which shows:  
     * The names of the departments where you can achieve the most savings 
     * The amount of money you can save from licenses in each department
@@ -481,11 +481,15 @@ When the Remove License action is selected:
 * If the license was **assigned directly**, the license is **removed from the user**
 * If the license was **assigned through a group**, the user is **removed from the group**
 * If a license was **assigned through multiple methods** (for example, directly and through multiple groups), the **Remove License** action resolves all of the assigned methods 
-  * For example, the license is removed from the user and the user is removed from the groups
+  * For example, the license is removed from the user, and the user is removed from the groups
+
+:::info
+Users cannot be removed from **dynamic groups** (Security or Microsoft 365 group type). Therefore, the **Remove License** action will not work in such cases.
+:::
 
 ### On-Premises Groups
 
-Support for licenses assigned through local **Active Directory (on-prem) groups** requires the user of the **Syskit Point On-Prem Agent**.
+Support for licenses assigned through local **Active Directory (on-prem) groups** requires the use of the **Syskit Point On-Prem Agent**.
 
 The **Syskit Point On-Prem Agent** is a separate service that **syncs data between Syskit Point and the local Active Directory**. 
 

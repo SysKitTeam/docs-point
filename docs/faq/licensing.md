@@ -53,7 +53,7 @@ The minimum number of users for the Enterprise plan is 1000 licensed Microsoft 3
 
 ## I purchased the Point Enterprise edition. How do I acquire the Power BI Companion App?
 
-Please [contact us](https://www.syskit.com/company/contact-us) or your dedicated sales/CSM representative for additional information on how to acquire additional modules for Syskit Point.
+Please [contact support](https://www.syskit.com/company/contact-us) or your dedicated sales/CSM representative for additional information on how to acquire additional modules for Syskit Point.
 
 ## Can I reassign the Syskit Point license to some other owner?
 
