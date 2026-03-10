@@ -17,7 +17,7 @@ description: This article lists new features, improvements, and bug fixes in the
 * **Improvements made to Group-Based Licensing.**
   * The Remove License action now supports licenses assigned directly, through Entra ID security groups, and through on-premises Active Directory groups. 
     * For on-premises groups, you are required to have the Syskit Point On-Prem Agent, a separate service that syncs data between Syskit Point and your local Active Directory.\
-    [Contact us to set up the Syskit Point On-Prem Agent in your environment.](https://www.syskit.com/contact-support/)
+    [Contact us to set up the Syskit Point On-Prem Agent in your environment.](https://www.syskit.com/contact-us/?utm_source=syskit-point&utm_medium=in-product&utm_campaign=311269578-License-Optimization&utm_content=button)
   * **New columns added** to licenses reports: 
     * Assignment Type - shows how the license is assigned to the user (Direct, Group, On-Prem Group, Dynamic).
     * Assigned Group - shows the specific group through which the license is assigned.
