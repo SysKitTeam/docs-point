@@ -560,6 +560,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'storage-management/storage-management-overview',
         'storage-management/free-up-storage',
+        'storage-management/archive-delete-files',
         'storage-management/storage-reports',        
         'storage-management/limit-storage-usage',
         'storage-management/versioning-limits',
@@ -842,6 +843,7 @@ const sidebars: SidebarsConfig = {
         'faq/privacy-and-compliance',
         'faq/partner-program',
         'faq/site-storage-limits',
+        'faq/archive-files',
         'faq/orphaned-users',        
         'faq/inactive-users-detection',
         'faq/provisioning-content-structure',
