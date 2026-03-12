@@ -95,7 +95,7 @@ Required permission: **Point.Admin**
 
 ### Users
 
-Required permission: **Point.AsyncRequests**
+Required permission: **SharePoint.Read.All**
 
 <table><thead><tr><th width="316">Request</th><th>Description</th></tr></thead><tbody><tr><td><HttpMethod method="POST" /> /v1.0/users/access/generate</td><td>Initiate a request to receive information about SharePoint access for a given user.</td></tr></tbody></table>
 

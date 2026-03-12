@@ -25,7 +25,7 @@ To view tasks assigned to you, click the **Tasks button (1)** in your Syskit Poi
 
 Click **Review** to continue. The **Access Review Task** screen opens - the same screen that can be accessed from email, as explained in the previous section.
 
-The same can be done for any type of task assigned to you, for example, [lifecycle management](../resolve-governance-tasks/lifecycle-management.mdx), or others.  
+The same can be done for any type of task assigned to you, for example, [inactive workspaces](../resolve-governance-tasks/inactive-workspaces.md), or others.  
 
 On the screen that opens, click the **link in the Task column** to continue and review a site.
 
@@ -33,7 +33,7 @@ On the screen that opens, click the **link in the Task column** to continue and 
 
 * [Complete Access Review Tasks](access-review.mdx)
 * [Complete Metadata Review Tasks](metadata-review.md)
-* [Perform Lifecycle Management Tasks](lifecycle-management.mdx)
+* [Resolve Inactive Workspaces Tasks](inactive-workspaces.md)
 * [Resolve Inactive Guest Users Tasks](guest-users-expiration.md)
 * [Resolve Minimum Number of Owners Tasks](minimum-number-of-owners.md)
 * [Resolve Maximum Number of Owners Tasks](maximum-number-of-owners.md)

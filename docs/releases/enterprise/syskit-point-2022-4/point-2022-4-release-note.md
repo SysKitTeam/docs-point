@@ -41,7 +41,7 @@ Global admin re-consent is required after the upgrade to the 2022.4 version. [Le
     * Power BI Inventory
     * Power BI Workspaces
     * Power BI Permissions
-  * Learn [how to enable Power BI data collection here](../../../power-platform/enable-powerBI-data-collection.md).
+  * Learn [how to enable Power BI data collection here](../../../power-platform/enable-powerbi-data-collection.md).
 * **Syskit Point now supports Shared Channels**, and they can be found under the Microsoft Teams & Groups Inventory.
   * Find out which **internal and external members have access to Shared Channels**, their domain and content, and see whether any Team was added to a specific shared channel.
 * Admins for private channels can now **remove, add or change owners and members** or promote members to owners directly in Syskit Point.

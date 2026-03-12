@@ -56,9 +56,9 @@ The first step of the Workspace Review is the Overview. Here, you can find the f
 * **Co-reviewer(s) (3)**, shows who the other reviewers are for this workspace review
 * **Start Chat button (4)**, which lets you start a Microsoft Teams chat with your co-reviewers to discuss the workspace review task
 
-:::info
-**Please note!** When a **workspace is inactive**, you'll see an information box here, asking if you still need the workspace. You can then complete the **Keep, Archive, or Delete** actions on the workspace. 
-
+:::warning
+**Please note!**\
+When a **workspace is inactive**, you'll see an information box here, asking if you still need the workspace. You can then complete the **Keep, Archive, or Delete** actions on the workspace. 
 :::
 
 In the About this Workspace section, you can see the following:

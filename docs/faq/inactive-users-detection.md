@@ -47,7 +47,7 @@ In Syskit Point, you can **configure how many days of inactivity qualify** a use
 
 To configure inactivity for license reports: 
 * Go to **Settings > License reports**
-* Under **Inactive Licenses**, define the **number of days since the last login after which a user is considered inactive**
+* Under **License Assigned to Inactive User**, define the **number of days since the last login after which a user is considered inactive**
 
 [For detailed instructions on how to customize your license reports, take a look at the Customize License Reports article.](../configuration/customize-license-reports.md)
 

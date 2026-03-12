@@ -72,6 +72,8 @@ Additional columns are available in the **column chooser**, located in the top r
  * Project Category
  * Project Manager
  * Project Start Date
+ * Restrictions
+   * Displays whether a site has: **Restricted Access**, if access to the site is restricted to members of whitelisted groups, **Restricted Content Discoverability**, if site content is exempt from Microsoft 365 Copilot, **Restricted Access and Restricted Content Discoverability**, in case both restrictions are applied the site or **No Restrictions**, if no access restrictions are applied to the site
 
 :::info
 **Please note!**  

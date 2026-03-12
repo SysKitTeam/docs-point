@@ -10,10 +10,14 @@ The **Syskit Point** Dashboard shows Syskit Point administrators the following i
  * Storage
  * Security & Compliance
  * External Collaboration
- * Active Access Review
- * Lifecycle Management
+ * Access Review
+ * Inactive Workspaces
+ * AI agents
+ * Workspace Review 
  * Microsoft 365 Licenses
  * Copilot Readiness
+ * Power Platform
+ * Workspace Sensitivity
 
 The **Syskit Point** Dashboard shows Syskit Point collaborators the following information in the tiles:
  * Inventory
@@ -24,9 +28,9 @@ You can customize the order in which these tiles are shown based on which of the
 
 To customize the dashboard, complete these steps:
   * Hover over the feature you want to move, and 6 dots appear in the right corner of the tile
-    * This signifies that the tile is moveable
+    * This signifies that the tile is movable
   * **Click and hold anywhere on the tile (1)**
-    * This makes the tile moveable
+    * This makes the tile movable
   * **Drag the feature** to the place on the dashboard you want it moved to
   * **Release the hold** on the tile to save it in the place you selected
 

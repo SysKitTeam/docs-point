@@ -26,6 +26,19 @@ const sidebars: SidebarsConfig = {
             id: 'releases/cloud/README',
           },
           items: [
+            'releases/cloud/point-2026-03-10-release-note',
+            'releases/cloud/point-2026-03-03-release-note',
+            'releases/cloud/point-2026-02-24-release-note',
+            'releases/cloud/point-2026-02-17-release-note',
+            'releases/cloud/point-2026-02-10-release-note',
+            'releases/cloud/point-2026-02-03-release-note',
+            'releases/cloud/point-2026-01-27-release-note',
+            'releases/cloud/point-2026-01-20-release-note',
+            'releases/cloud/point-2026-01-13-release-note',
+            'releases/cloud/point-2026-01-08-release-note',
+            'releases/cloud/point-2025-12-16-release-note',
+            'releases/cloud/point-2025-12-09-release-note',
+            'releases/cloud/point-2025-12-02-release-note',
             'releases/cloud/point-2025-11-25-release-note',
             'releases/cloud/point-2025-11-19-release-note',
             'releases/cloud/point-2025-11-11-release-note',
@@ -131,12 +144,26 @@ const sidebars: SidebarsConfig = {
           items: [
             {
               type: 'category',
+              label: 'Syskit Point 2026.1',
+              link: {
+                type: 'doc',
+                id: 'releases/enterprise/syskit-point-2026-1/README',
+              },
+              items: [
+                'releases/enterprise/syskit-point-2026-1/point-2026-1-130-release-note',
+                'releases/enterprise/syskit-point-2026-1/point-2026-1-127-release-note',
+                'releases/enterprise/syskit-point-2026-1/point-2026-1-125-release-note',
+              ],
+            },
+            {
+              type: 'category',
               label: 'Syskit Point 2025.5',
               link: {
                 type: 'doc',
                 id: 'releases/enterprise/syskit-point-2025-5/README',
               },
               items: [
+                'releases/enterprise/syskit-point-2025-5/point-2025-5-119-release-note',
                 'releases/enterprise/syskit-point-2025-5/point-2025-5-117-release-note',
                 'releases/enterprise/syskit-point-2025-5/point-2025-5-115-release-note',
                 'releases/enterprise/syskit-point-2025-5/point-2025-5-113-release-note',
@@ -482,7 +509,7 @@ const sidebars: SidebarsConfig = {
         id: 'configuration/README',
       },
       items: [
-        'configuration/how-to-configure-Point',
+        'configuration/how-to-configure-point',
         'configuration/enable-role-based-access',
         'configuration/microsoft-teams-activity',
         'configuration/configure-storage-management',
@@ -557,6 +584,7 @@ const sidebars: SidebarsConfig = {
           },
           items: [
             'governance-and-automation/workspace-review/setup-workspace-review',
+            'governance-and-automation/workspace-review/reminders',
             {
               type: 'category',
               label: 'Monitor Workspace Review',
@@ -590,21 +618,6 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: 'Lifecycle Management',
-          link: {
-            type: 'doc',
-            id: 'governance-and-automation/lifecycle-management/README',
-          },
-          items: [
-            'governance-and-automation/lifecycle-management/deprecating-lifecyle-management',
-            'governance-and-automation/lifecycle-management/inactive-content',
-            'governance-and-automation/lifecycle-management/enable-lifecycle-management',
-            'governance-and-automation/lifecycle-management/monitor-lifecycle-management',
-            'governance-and-automation/lifecycle-management/lifecycle-management-actions',
-          ],
-        },
-        {
-          type: 'category',
           label: 'Policies',
           link: {
             type: 'doc',
@@ -622,6 +635,7 @@ const sidebars: SidebarsConfig = {
             'governance-and-automation/automated-workflows/maximum-number-of-owners-admin',
             'governance-and-automation/automated-workflows/orphaned-resources-admin',
             'governance-and-automation/automated-workflows/orphaned-users-admin',
+            'governance-and-automation/automated-workflows/workspaces-with-expired-sharing-links-admin',
             'governance-and-automation/automated-workflows/tenant-storage-admin',
             'governance-and-automation/automated-workflows/workspaces-with-too-many-members-admin',
             'governance-and-automation/automated-workflows/shadow-users-admin',
@@ -639,12 +653,14 @@ const sidebars: SidebarsConfig = {
           },
           items: [
             'governance-and-automation/security-compliance-checks/overview',
+            'governance-and-automation/security-compliance-checks/risky-workspaces',
             'governance-and-automation/security-compliance-checks/inactive-workspaces',
             'governance-and-automation/security-compliance-checks/orphaned-workspaces',
             'governance-and-automation/security-compliance-checks/inactive-guest-users',
             'governance-and-automation/security-compliance-checks/blocked-users-assigned-license',
             'governance-and-automation/security-compliance-checks/workspaces-not-enough-owners',
             'governance-and-automation/security-compliance-checks/orphaned-users',
+            'governance-and-automation/security-compliance-checks/workspaces-with-expired-sharing-links',
             'governance-and-automation/security-compliance-checks/workspaces-too-many-owners',
             'governance-and-automation/security-compliance-checks/tenant-storage',
             'governance-and-automation/security-compliance-checks/workspaces-with-too-many-members',
@@ -729,6 +745,8 @@ const sidebars: SidebarsConfig = {
         'governance-and-automation/scheduled-reports',
         'governance-and-automation/configure-alerts',
         'governance-and-automation/manage-sensitivity-labels',
+        'governance-and-automation/inactive-content',
+        'governance-and-automation/licenses-overview',
       ],
     },
     {
@@ -745,7 +763,8 @@ const sidebars: SidebarsConfig = {
         'access-management/delete-and-restore-users',
         'access-management/view-permission-changes',
         'access-management/supervise-microsoft-teams-private-channels',
-        'access-management/manage-private-channels',       
+        'access-management/manage-private-channels',
+        'access-management/restrictions'
       ],
     },
     {
@@ -758,7 +777,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'power-platform/power-platform-overview',
         'power-platform/enable-power-platform',
-        'power-platform/enable-powerBI-data-collection',       
+        'power-platform/enable-powerbi-data-collection',       
         {
           type: 'category',
           label: 'Power Platform Reports',
@@ -865,6 +884,7 @@ const sidebars: SidebarsConfig = {
             'point-collaborators/workspace-review/privacy-sensitivity',
             'point-collaborators/workspace-review/membership-step',
             'point-collaborators/workspace-review/shadow-users-step',
+            'point-collaborators/workspace-review/everyone-step',
             'point-collaborators/workspace-review/sharing-step',
             'point-collaborators/workspace-review/summary-step',
           ],
@@ -884,7 +904,6 @@ const sidebars: SidebarsConfig = {
             'point-collaborators/resolve-governance-tasks/privacy-review',
             'point-collaborators/resolve-governance-tasks/sensitivity-review',
             'point-collaborators/resolve-governance-tasks/inactive-workspaces',
-            'point-collaborators/resolve-governance-tasks/lifecycle-management',
             'point-collaborators/resolve-governance-tasks/guest-users-expiration',
             'point-collaborators/resolve-governance-tasks/minimum-number-of-owners',
             'point-collaborators/resolve-governance-tasks/maximum-number-of-owners',

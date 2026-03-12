@@ -45,5 +45,5 @@ description: >-
 * **Fixed an issue** with the User Sync Status data for users synced from On-Premises Active Directory. Some users were erroneously classified as Cloud users if their SID (Security Identifier) was not synced to Microsoft Entra ID.
 * **Various UX/UI improvements and minor fixes are available**.
   * Improved the message displayed in case the license limit is exceeded - the number of users in the M365 environment is greater than the number of users purchased with a Point license. Now, the message shows both - the total number of users and the number of users purchased with a Point license.
-  * Export option added to all reports on the Governance screens, enabling you to export a list of active or resolved Acess Reviews, Lifecycle Management tasks, policy vulnerabilities, and provisioning requests.
+  * Export option added to all reports on the Governance screens, enabling you to export a list of active or resolved Acess Reviews, policy vulnerabilities, and provisioning requests.
   * Fixed an issue where custom metadata, defined in provisioning templates, wasn't correctly displayed in Point Teams app.

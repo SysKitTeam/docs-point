@@ -19,11 +19,8 @@ No. Syskit doesn’t collect any billing information during the trial period.
 ## Are there any limits in the trial version of the tool?
 
 We believe it is best to see Syskit Point in action using your real data, and we want to give you the possibility to set up and try Syskit Point in under 10 minutes.
-Therefore, **only for trial purposes**, we have put in place the following limitations:
- * Load is limited to 10 000 000 files, ​
- * OneDrive sync is disabled​
 
-Please see our [documentation](../set-up-point-cloud/free-trial-limits.md) for more information.
+**For trial purposes**, we have put in place the [following limitations](../set-up-point-cloud/free-trial-limits.md).
 
 ## What does it mean if, during the trial, the External Users report doesn't show a last login date? Does it mean the users have never logged in? 
 
@@ -48,7 +45,7 @@ Of course! Our support team is available Monday through Friday from 8AM to 8PM C
 
 ## Do you offer trial extensions? 
 
-We do not offer trial extensions. We recommend starting a monthly subscription, which you can cancel at any time.
+We do not offer trial extensions.
 
 ## What happens when my trial ends? 
 

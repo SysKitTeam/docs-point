@@ -135,5 +135,6 @@ Microsoft 365 Archive is a built-in feature that allows organizations to move in
 
 ## Relevant Articles
 
+* [**Inactive Content**](../inactive-content.md)
 * [**Security and Compliance Checks: Inactive Workspaces**](../security-compliance-checks/inactive-workspaces.md)
 * [**Resolve Inactive Workspace Tasks**](../../point-collaborators/resolve-governance-tasks/inactive-workspaces.md)

@@ -58,6 +58,90 @@ After clicking the Manage Connection button, you can expect the following to hap
 
 Depending on which version you are upgrading to, below you can find the list of changes in permissions requested and which features depend on them.
 
+
+### Syskit Point Enterprise 2026.1.130
+
+
+:::warning
+**Please note!**
+
+* **Reconsent is required after updating to the latest version** due to permission changes introduced by collecting data related to the User Type (user, equipment, room) visible on License reports.
+
+* For **new deployments**, the **MailboxSettings.Read permission is automatically added** during consent.
+  
+* For an **already deployed Point**, this permission is **not added automatically**. Syskit Point admins will **receive a reconsent prompt** to grant the required permission.
+
+:::
+
+**The following permission is added to the Syskit Point app registrations**:
+
+| App Registration | API/Permission Name | Permission | Type | Reason |
+| ----- | ----- | ----- | ----- | ----- |
+| Syskit Point Service | MailboxSettings.Read | Read mailbox settings | Application | Allows Syskit Point to read user's mailbox settings without a signed-in user. Does not include permission to send mail. |
+
+
+
+### Syskit Point Cloud 2026.1.128
+
+
+:::warning
+**Please note!**
+
+* **Reconsent is required after updating to the latest version** due to permission changes introduced by collecting data related to the User Type (user, equipment, room) visible on License reports.
+
+* For **new deployments**, the **MailboxSettings.Read permission is automatically added** during consent.
+  
+* For an **already deployed Point**, this permission is **not added automatically**. Syskit Point admins will **receive a reconsent prompt** to grant the required permission.
+
+:::
+
+**The following permission is added to the Syskit Point app registrations**:
+
+| App Registration | API/Permission Name | Permission | Type | Reason |
+| ----- | ----- | ----- | ----- | ----- |
+| Syskit Point Service | MailboxSettings.Read | Read mailbox settings | Application | Allows Syskit Point to read user's mailbox settings without a signed-in user. Does not include permission to send mail. |
+
+
+### Syskit Point Enterprise 2026.1.125
+
+:::warning
+**Please note!**
+
+* For new deployments, the **RoleManagement.ReadWrite.Directory permission is no longer requested** or added during consent.  
+  
+* For an **already deployed Point**, this permission is **not removed automatically** and will remain until manually removed. You can choose to remove this permission if you **do not need to manage security groups with allowed role assignments**.
+
+* If managing role-based security groups is required, after deploying Point for the first time, you will have to manually add this permission, as it is not included by default in new deployments. 
+
+:::
+
+**The following permission has been removed from Syskit Point app registrations**:
+
+| App Registration | API/Permission Name | Permission | Type | Reason |
+| ----- | ----- | ----- | ----- | ----- |
+| Syskit Point Service | Microsoft Graph/RoleManagement.ReadWrite.All | Read and write all directory RBAC settings | Application | Allows Syskit Point to add users in Microsoft Entra ID to security groups after an access request is approved by the group owner. |
+
+
+### Syskit Point Cloud 2026.1.126
+
+:::warning
+**Please note!**
+
+* For new deployments, the **RoleManagement.ReadWrite.Directory permission is no longer requested** or added during consent.  
+  
+* For an **already deployed Point**, this permission is **not removed automatically** and will remain until manually removed. You can choose to remove this permission if you **do not need to manage security groups with allowed role assignments**.
+
+* If managing role-based security groups is required, after deploying Point for the first time, you will have to manually add this permission, as it is not included by default in new deployments. 
+
+:::
+
+**The following permission has been removed from Syskit Point app registrations**:
+
+| App Registration | API/Permission Name | Permission | Type | Reason |
+| ----- | ----- | ----- | ----- | ----- |
+| Syskit Point Service | Microsoft Graph/RoleManagement.ReadWrite.All | Read and write all directory RBAC settings | Application | Allows Syskit Point to add users in Microsoft Entra ID to security groups after an access request is approved by the group owner. |
+
+
 ### Syskit Point Enterprise 2025.5.115
 **Reconsent is required for customers using Viva Engage community provisioning templates due to permission changes introduced when switching from Viva Engage app registrations to Graph API permissions for Viva Engage community provisioning**.
 
@@ -210,14 +294,14 @@ Due to [Outlook REST APIs being fully decommissioned on November 30, 2022](https
 
 | App Registration     | API/Permissions Name           | Permission                           | Type        | Reason                                                                                                                                  |
 | -------------------- | ------------------------------ | ------------------------------------ | ----------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Syskit Point Service | Microsoft Graph/Mail.ReadWrite | Read and write mail in all mailboxes | Application | Allows Syskit Point to send emails as a part of the Access Review, Lifecycle Management, Scheduled Reports, Alerts, and other features. |
-| Syskit Point Service | Microsoft Graph/Mail.Send      | Send mail as any user                | Application | Allows Syskit Point to send emails as a part of the Access Review, Lifecycle Management, Scheduled Reports, Alerts, and other features. |
+| Syskit Point Service | Microsoft Graph/Mail.ReadWrite | Read and write mail in all mailboxes | Application | Allows Syskit Point to send emails as a part of the Access Review, Workspace Review, Inactive Workspaces policy, Scheduled Reports, Alerts, and other features. |
+| Syskit Point Service | Microsoft Graph/Mail.Send      | Send mail as any user                | Application | Allows Syskit Point to send emails as a part of the Access Review, Workspace Review, Inactive Workspaces policy, Scheduled Reports, Alerts, and other features. |
 
 **The following permissions were removed from the existing Syskit Point service app registration**:
 
 | App Registration     | API/Permissions Name                    | Permission            | Type        | Reason                                                                                                                           |
 | -------------------- | --------------------------------------- | --------------------- | ----------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| Syskit Point Service | Microsoft 365 Exchange Online/Mail.Send | Send mail as any user | Application | Allows Syskit Point to send emails as a part of the Access Review, Lifecycle Management, Scheduled Reports, and Alerts features. |
+| Syskit Point Service | Microsoft 365 Exchange Online/Mail.Send | Send mail as any user | Application | Allows Syskit Point to send emails as a part of the Access Review, Workspace Review, Inactive Workspaces policy, Scheduled Reports, and Alerts features. |
 
 ### Syskit Point 2022.4.1
 

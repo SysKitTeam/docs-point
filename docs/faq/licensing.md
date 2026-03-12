@@ -6,33 +6,33 @@ description: This article outlines the most frequently asked questions about Sys
 
 ## How is Syskit Point licensed?
 
-The price for Syskit Point is calculated based on the number of licensed Microsoft 365 accounts in your tenant. Syskit Point does not count any licenses that have FREE in their name when determining price. You can choose between available Syskit Point plans according to your needs. Check out the [feature comparison](https://www.syskit.com/products/point/pricing/).
+The price for Syskit Point is calculated based on the number of licensed Microsoft 365 accounts in your tenant. Syskit Point does not count any licenses with FREE in their name when determining the price. You can choose from the available Syskit Point plans according to your needs. Check out the [feature comparison](https://www.syskit.com/products/point/pricing/).
 
 ## Can I try Syskit Point for free?
 
-You can sign up for a 21-day free trial. No credit card is needed for the trial activation.
+You can sign up for a 21-day free trial. No credit card is required to activate the trial.
 
 ## Can I change my plan?
 
-To change your subscription plan, please visit our Subscriptions portal [https://subscriptions.syskit.com/](https://subscriptions.syskit.com/) or [contact us](https://www.syskit.com/company/contact-us).
+To change your subscription plan, please visit our Subscriptions portal at [https://subscriptions.syskit.com/](https://subscriptions.syskit.com/) or [contact us](https://www.syskit.com/company/contact-us).
 
-## What does Syskit consider as a licensed Microsoft 365 account?
+## What does Syskit consider a licensed Microsoft 365 account?
 
-Syskit Point licenses are calculated based on your M365 assigned licenses. Only unique users will be counted. Guest Users only fit into that category if they have a license assigned. Licenses that have FREE in their name are not counted when calculating cost. [Read more details here](../licensing-activation/licensed-users-count.md).
+Syskit Point licenses are calculated based on your assigned M365 licenses. Only unique users are counted. Guest users are included only if they have a license assigned. Licenses with FREE in their name are not counted when calculating the cost. [Read more details here](../licensing-activation/licensed-users-count.md).
 
 ## What will my Syskit Point subscription cost?
 
 Please use our [pricing calculator](https://www.syskit.com/products/point/pricing/) to determine your exact price. 
 
-## What's the difference between Syskit Point Cloud plan and Enterprise plan?
+## What's the difference between the Syskit Point Cloud plan and the Enterprise plan?
 
-Our Cloud plans provide a complete SaaS solution, ready-made for all Syskit customers. With Cloud editions, we do the heavy lifting for you by providing built-in platform security and compliance with a quick and simple setup. Cloud comes with the added benefit of continuous innovation, so your end-users will always have the latest and greatest features and functionality.
+Our Cloud plans provide a complete SaaS solution, ready-made for all Syskit customers. With our Cloud editions, we handle the heavy lifting by providing built-in platform security and compliance with a quick and simple setup. The Cloud plan also offers the benefit of continuous innovation, so your end-users will always have the latest features and functionality.
 
-Our Enterprise plan enables you the flexibility to deploy on an infrastructure of your choice. It’s best for those who have unique or complex operating requirements or need to scale beyond our current cloud user tiers. You’ll have complete control over data management, security and compliance when you upgrade and how you manage uptime and performance. We recommend Enterprise for those who have specific security requirements and can’t move to the cloud just yet. Make sure to check the comparison table as well to see [which feature sets are available in each option](https://www.syskit.com/products/point/pricing/).
+Our Enterprise plan gives you the flexibility to deploy on the infrastructure of your choice. It’s best for those with unique or complex operating requirements or who need to scale beyond our current cloud user tiers. You’ll have complete control over data management, security, and compliance, as well as when you upgrade and how you manage uptime and performance. We recommend the Enterprise plan for those who have specific security requirements and can’t move to the cloud yet. Make sure to check the comparison table to see [which feature sets are available in each option](https://www.syskit.com/products/point/pricing/).
 
 ## Do you offer monthly subscriptions?
 
-Monthly subscriptions are available for our Management, Security, and Enterprise Cloud plans, while the Governance plan is available only on a yearly basis. Use our pricing calculator to determine [your exact price](https://www.syskit.com/products/point/pricing/).
+Monthly subscriptions are not offered. All plans are available on a yearly basis only. Use our pricing calculator to determine [your exact price](https://www.syskit.com/products/point/pricing/).
 
 ## Is there a user limit for Syskit Point plans?
 
@@ -53,8 +53,20 @@ The minimum number of users for the Enterprise plan is 1000 licensed Microsoft 3
 
 ## I purchased the Point Enterprise edition. How do I acquire the Power BI Companion App?
 
-Please [contact us](https://www.syskit.com/company/contact-us) or your dedicated sales/CSM representative for additional information on how to acquire additional modules for Syskit Point.
+Please [contact support](https://www.syskit.com/company/contact-us) or your dedicated sales/CSM representative for additional information on how to acquire additional modules for Syskit Point.
 
-## Can I reassign Syskit Point license to some other owner?
+## Can I reassign the Syskit Point license to some other owner?
 
-To reassign a license to a new owner, please visit our customers portal [https://subscriptions.syskit.com/](https://subscriptions.syskit.com/) to update billing and/or delivery contact.
+To reassign a license to a new owner, please visit our customer portal at [https://subscriptions.syskit.com/](https://subscriptions.syskit.com/) to update billing and/or delivery contact information.
+
+## Do you support Group-Based Licensing?
+
+Yes, Syskit Point supports removing licenses assigned through **direct user assignment**, **Microsoft Entra ID Security Groups**, and **local Active Directory (on-premises) groups**.
+
+For more details, [please take a look at the Remove License action section of the License Reports article.](../reporting/licenses-reports.md#remove-license-action)
+
+## How do I enable local Active Directory (on-prem) group support?
+
+Support for local Active Directory (on-premises) groups requires the **Syskit Point On-Prem Agent**, a separate service that syncs data between Syskit Point and local Active Directory environments.
+
+To enable this functionality, [please contact support](https://www.syskit.com/contact-us/?utm_source=syskit-point&utm_medium=in-product&utm_campaign=311269578-License-Optimization&utm_content=button).

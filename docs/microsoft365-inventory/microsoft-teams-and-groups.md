@@ -32,7 +32,7 @@ In the top left corner, **All Groups** is automatically selected in the filter. 
   * Teams and Groups with Only One Owner
   * Teams and Groups with Too Many Owners
 
-Clicking any of those categories will filter the overview screen based on the selected. 
+Clicking any of those categories will filter the overview screen based on the selection. 
 
 At the top, 5 tiles can be used to filter the overview screen. The following options are available and can be selected by clicking them:
   * The Number of Microsoft Teams
@@ -81,7 +81,7 @@ You can save custom views for your overview screens based on your needs and pref
 
 The Microsoft Teams & Groups Overview can be **exported as PDF and XLSX files**. There is also the **option to schedule the overview**.
 
-On the right side of the overview, there is a Manage section that provides the ability to **Configure Tenant Wide Alerts**.
+On the right side of the overview, there is a Manage section that provides the ability to **Configure Tenant-Wide Alerts**.
 
 Selecting workspaces provides several actions that can be taken.
 
@@ -103,7 +103,7 @@ The Go to Report section provides a list of related reports that are available:
   * File and Page Activities
   * Permissions Changes
 
-Under Lifecycle Management, the following actions are available:
+For Lifecycle Management, the following actions are available:
   * Keep
   * Archive
   * Delete
