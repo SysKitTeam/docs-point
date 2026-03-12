@@ -69,7 +69,12 @@ To access the hidden list, you need to construct and open the following URL:
   * In the Access tile, select a site/workspace from which you want to remove the user
   * In the sidebar, click Remove Access
 
-**We recommend enabling automation with the Orphaned Users policy** to automatically detect orphaned users in your environment and create tasks to resolve the vulnerability as soon as it's detected. For more details, see the [Orphaned Users policy article](../governance-and-automation/automated-workflows/orphaned-users-admin.md).
+**We recommend enabling automation with the Orphaned Users policy**. Once **Resolve Automatically** is selected, Syskit Point automatically resolves the detected Orphaned Users vulnerability by:
+  * Removing deleted users
+  * Removing users with blocked sign-in, or
+  * Removing all orphaned users
+
+For more details, see the [Orphaned Users policy article](../governance-and-automation/automated-workflows/orphaned-users-admin.md).
  
 :::info
 **Please note!**\
