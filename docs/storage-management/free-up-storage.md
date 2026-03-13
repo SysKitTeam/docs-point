@@ -8,12 +8,40 @@ description: This article explains how to free up your storage on SharePoint sit
 **Please note!** If a certain site **has a hold or retention policy applied**, the Clean Up Storage action fails for that workspace, and storage is not freed. If a certain file has a hold or retention policy applied, that file is not cleaned up or deleted. 
 :::
 
+The more your content grows over time, the harder it becomes to manage large amounts of data in your environment. 
+Over time, SharePoint sites might contain duplicate, outdated, or otherwise unnecessary files. Removing these files helps you:
+
+* Reduce SharePoint storage usage
+* Keep SharePoint sites organized and easier to manage
+* Ensure that only relevant and valuable content is retained
+
 Regularly cleaning up older file versions is the best way to optimize performance, improve collaboration, increase cost efficiency, and ensure better data security. 
 
 In Syskit Point, there are several ways you can free up space and complete the clean up action. 
 
-## Clean Up Action on Storage Metrics report
+* [Delete Files Action](#delete-files)
+* [Clean Up Action on Storage Metrics report](#clean-up-action-on-site-storage-metrics-report)
+* [Clean Up Action on Site Storage Metrics report](#clean-up-action-on-site-storage-metrics-report)
+* [Clean Up Action on File Storage Details report](#clean-up-action-on-file-storage-details-report)
 
+
+## Delete Files
+
+The Delete Files action allows you to delete files and send them to the site recycle bin. You can access it by following these steps:
+
+* **Go to Reports > Storage > Storage Metrics report**
+* On the report, **click the SharePoint site** you want to delete files for
+  * This opens the **Site Storage Metrics report**
+* On the Site Storage Metrics report, **select the file you want to remove (1)**
+* **Click the Delete Files (2)** action which opens the Delete Files confirmation modal
+* On the Delete Files confirmation modal, **type Delete in the box (3)** and **click Delete (4)** to confirm your decision and remove the unwanted files
+
+![Site Storage Metrics Report- Delete Files](../../static/img/optimize-storage-site-storage-metrics-delete.png)
+
+![Site Storage Metrics Report- Delete Files](../../static/img/optimize-storage-site-storage-metrics-delete-confirmation.png)
+
+
+## Clean Up Action on Storage Metrics report
 
 **The Storage Metrics report** is where you can complete a bulk clean up action. The report can be generated in the following way:
  
