@@ -22,6 +22,11 @@ description: This article lists new features, improvements, and bug fixes in the
     * Assignment Type - shows how the license is assigned to the user (Direct, Group, On-Prem Group, Dynamic).
     * Assigned Group - shows the specific group through which the license is assigned.
 
+* **Added a Delete Files action** to the Storage Metrics report.
+  * You can now remove unnecessary files and reduce SharePoint storage usage, while files with assigned retention labels remain protected.
+  * You can also access a site's recycle bin from the Site Storage Metrics report.
+  * [Take a look at this article for more details.](../../storage-management/free-up-storage.md#delete-files)
+
 * **Fixed an issue** where Workspace Reviews did not work for private and shared channels. 
 
 * **Fixed an issue** where OneDrive audit events were collected even when OneDrive Autodiscovery was disabled.
