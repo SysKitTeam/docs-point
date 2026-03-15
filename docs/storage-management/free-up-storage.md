@@ -17,7 +17,7 @@ Over time, SharePoint sites might contain duplicate, outdated, or otherwise unne
 
 Regularly cleaning up older file versions is the best way to optimize performance, improve collaboration, increase cost efficiency, and ensure better data security. 
 
-In Syskit Point, there are several ways you can free up space and complete the clean up action. 
+In Syskit Point, there are several ways you can free up space and complete the clean up action. In this article, you'll find details on the:
 
 * [Delete Files Action](#delete-files)
 * [Clean Up Action on Storage Metrics report](#clean-up-action-on-site-storage-metrics-report)
@@ -39,6 +39,21 @@ The Delete Files action allows you to delete files and send them to the site rec
 ![Site Storage Metrics Report- Delete Files](../../static/img/optimize-storage-site-storage-metrics-delete.png)
 
 ![Site Storage Metrics Report- Delete Files](../../static/img/optimize-storage-site-storage-metrics-delete-confirmation.png)
+
+Once a file is **deleted** it is removed to the Recycle Bin for the workspace. 
+
+### Open Recycle Bin
+
+The **Open Recycle Bin action** opens the recycle bin for the SharePoint site you are on, allowing you to empty the recycle bin or restore files.
+
+You can access it by following these steps:
+
+* **Go to Reports > Storage > Storage Metrics report**
+* On the report, **click the SharePoint site** for which you want to access deleted files
+  * This opens the **Site Storage Metrics report (1)**
+* **Click the Open Recycle Bin (2)** action, which opens the SharePoint site's recycle bin
+
+![Site Storage Metrics Report- Open Recycle Bin](../../static/img/optimize-storage-site-storage-metrics-recycle-bin.png)
 
 
 ## Clean Up Action on Storage Metrics report
