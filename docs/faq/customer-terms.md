@@ -8,6 +8,10 @@ description: This article outlines the most frequently asked questions about the
 
 Our support team is available Monday through Friday from 8AM to 8PM CET, but you can email them 24/7 at support@syskit.com. Also, there is a detailed technical documentation to help you [get started more easily](../get-to-know-syskit-point/point-starter-kit.md).
 
+## Are bug fixes provided for older Syskit Point Enterprise versions?
+
+No. Bug fixes and patches are provided for the latest version only. Syskit Point Enterprise customers control their own upgrade schedule, so we strongly recommend keeping Syskit Point up to date to benefit from the latest fixes and improvements. Cloud customers always run the latest version automatically.
+
 ## Are there any limits in terms of the tenant size?
 
 Absolutely not - We believe that performance is the core of great UX, so we take great pride in Syskit Point's performance. Currently, Syskit Point is being used successfully by organizations with more than 300.000 users on a daily basis.
