@@ -17,7 +17,7 @@ Over time, SharePoint sites might contain duplicate, outdated, or otherwise unne
 
 Regularly cleaning up older file versions is the best way to optimize performance, improve collaboration, increase cost efficiency, and ensure better data security. 
 
-In Syskit Point, there are several ways you can free up space and complete the clean up action. In this article, you'll find details on the:
+In Syskit Point, there are several ways you can free up space and complete the cleanup action. In this article, you'll find details on the:
 
 * [Delete Files Action](#delete-files)
 * [Clean Up Action on Storage Metrics report](#clean-up-action-on-site-storage-metrics-report)
@@ -27,20 +27,20 @@ In Syskit Point, there are several ways you can free up space and complete the c
 
 ## Delete Files
 
-The Delete Files action allows you to delete files and send them to the site recycle bin. You can access it by following these steps:
+The Delete Files action allows you to delete files and send them to the site's recycle bin. You can access it by following these steps:
 
 * **Go to Reports > Storage > Storage Metrics report**
 * On the report, **click the SharePoint site** you want to delete files for
   * This opens the **Site Storage Metrics report**
 * On the Site Storage Metrics report, **select the file you want to remove (1)**
-* **Click the Delete Files (2)** action which opens the Delete Files confirmation modal
+* **Click the Delete Files (2)** action, which opens the Delete Files confirmation modal
 * On the Delete Files confirmation modal, **type Delete in the box (3)** and **click Delete (4)** to confirm your decision and remove the unwanted files
 
 ![Site Storage Metrics Report- Delete Files](../../static/img/optimize-storage-site-storage-metrics-delete.png)
 
 ![Site Storage Metrics Report- Delete Files](../../static/img/optimize-storage-site-storage-metrics-delete-confirmation.png)
 
-Once a file is **deleted** it is removed to the Recycle Bin for the workspace. 
+Once a file is **deleted**, it is removed to the Recycle Bin for the workspace. 
 
 ### Open Recycle Bin
 
@@ -56,9 +56,9 @@ You can access it by following these steps:
 ![Site Storage Metrics Report- Open Recycle Bin](../../static/img/optimize-storage-site-storage-metrics-recycle-bin.png)
 
 
-## Clean Up Action on Storage Metrics report
+## Clean Up Action on Storage Metrics Report
 
-**The Storage Metrics report** is where you can complete a bulk clean up action. The report can be generated in the following way:
+**The Storage Metrics report** is where you can complete a bulk cleanup action. The report can be generated in the following way:
  
  * **Click the View All** button on the Storage tile located on the dashboard.
    * Alternatively, **click the Reports button** located on the left side of the screen, **select Storage** from the dropdown filter, and **click the Storage Metrics report**.
@@ -67,7 +67,7 @@ Once the Storage Metrics Report is generated, complete the next steps:
 
   * **Select one or more sites (1)** you want to remove storage from. 
   * **The Clean Up File Versions action (2)** is now available on the right side of the screen.
-  * **Clicking the arrow** next to the Clean Up File versions action provides several clean up actions:
+  * **Clicking the arrow** next to the Clean Up File versions action provides several clean-up actions:
     * **Old File Versions (3)** - lets you clean up old file versions based on the value you set up in Settings.
     * **Number of File Versions (4)** - lets you clean up several old file versions based on the value you set up in Settings.
       * For more details on setting up these values, look at the [Configure Storage Management article](../configuration/configure-storage-management.md).
@@ -80,17 +80,17 @@ Once the Storage Metrics Report is generated, complete the next steps:
 ![Storage Metrics Report- Clean Up File Versions](../../static/img/optimize-storage-storage-metrics-report-cleanup.png)
 
 * **Clicking any of the Clean Up options opens the Clean Up File Versions pop-up (1)**
-  * The information on the pop-up slightly varies depending on whether you're cleaning up file versions older than X months, cleaning up all but the last X file versions, or cleaning up all but the latest file version; however, the options available for the clean up are the same.
-* To premanantly delete the file(s), check the **Permanantly delete checkbox (2)**; doing this instantly frees up space for your site.
-    * If the checkbox is not selected, the file(s) are sent to the site's Recycle bin for the defined retention period; doing this does not instantly free up space for your site, and the space is only cleared once the file(s) are removed from recycle bin. 
-* **Type Clean Up (3)** in the the available space to proceed.
+  * The information on the pop-up slightly varies depending on whether you're cleaning up file versions older than X months, cleaning up all but the last X file versions, or cleaning up all but the latest file version; however, the options available for the cleanup are the same.
+* To permanently delete the file(s), check the **Permanently delete checkbox (2)**; doing this instantly frees up space for your site.
+    * If the checkbox is not selected, the file(s) are sent to the site's Recycle bin for the defined retention period; doing this does not instantly free up space for your site, and the space is only cleared once the file(s) are removed from the recycle bin. 
+* **Type Clean Up (3)** in the available space to proceed.
 * **Click the Clean Up button (4)** to finalize. 
 
 ![Clean Up File Versions - Confirm](../../static/img/optimize-storage-site-storage-cleanup.png)
 
-## Clean Up Action on Site Storage Metrics report
+## Clean Up Action on Site Storage Metrics Report
 
-You can complete the clean up action from the Site Storage Metrics report by doing the following: 
+You can complete the cleanup action from the Site Storage Metrics report by doing the following: 
   * When the Storage Metrics Report is generated, **click the name of the site** you want to remove storage from. This opens the **Site Storage Metrics report**.
   * **Click the Report button** on the left of the screen and **select Storage from the dropdown menu**. There, you can **click the Site Storage Metrics report** to access it. 
 
@@ -101,14 +101,14 @@ There are three ways to clean up the storage space across your sites.
    * **Choose to Clean Up all but the last X file version(s) (3)**
      * The exact numbers shown here can be customized in your Syskit Point settings; for more details on this, take a look at the [Configure Storage Management article](../configuration/configure-storage-management.md)
 
-  * **Selecting the site (4)**, or the files included in the site and clicking the **Clean Up File Versions button (5)**, located on the right side of the screen under the **Manage section**. 
+  * **Selecting the site (4)**, or the files included in the site, and clicking the **Clean Up File Versions button (5)**, located on the right side of the screen under the **Manage section**. 
 
 ![Site Storage Metrics Report- Clean Up File Versions](../../static/img/optimize-storage-site-storage-metrics-report-cleanup.png)
 
 Once you click the **Clean Up button** on the File Version Cleanup tile or the **Clean Up File Versions button** in the Manage section, a **Clean Up File Versions pop-up opens (1)**.
-  * To permanently delete the file(s), check the **Permanantly delete checkbox (2)**; doing this instantly frees up space for your site.
-    * If the checkbox is not selected, the file(s) are sent to the site's Recycle bin for the defined retention period; doing this does not instantly free up space for your site, and the space is only cleared once the file(s) are removed from recycle bin. 
-  * **Type Clean Up (3)** in the the available space to proceed.
+  * To permanently delete the file(s), check the **Permanently delete checkbox (2)**; doing this instantly frees up space for your site.
+    * If the checkbox is not selected, the file(s) are sent to the site's Recycle bin for the defined retention period; doing this does not instantly free up space for your site, and the space is only cleared once the file(s) are removed from the recycle bin. 
+  * **Type Clean Up (3)** in the available space to proceed.
   * **Click the Clean Up button (4)** to finalize.
 
 ![Clean Up File Versions - Confirm](../../static/img/optimize-storage-site-storage-cleanup.png)
@@ -120,13 +120,13 @@ Once you click the **Clean Up button** on the File Version Cleanup tile or the *
 :::
 
 
-## Clean Up Action on File Storage Details report
+## Clean Up Action on File Storage Details Report
 
 You can complete the cleanup on the File Storage details screen as well. To navigate there, repeat the above steps until you reach the Site Storage Metrics report. 
 
 From there:
 
- * Under the Largest Files & Folders section and **click the name of the file** you want to generate the File Details report for.
+ * Under the Largest Files & Folders section, **click the name of the file** you want to generate the File Details report for.
  * Once the report is generated, **select one or more of the file versions (1)**, and the **action to Delete Version (2)** is then available on the right side of the screen under the **Manage section**. 
 
 ![File Storage Details - Delete Version](../../static/img/optimize-storage-file-storage-details-delete.png)
