@@ -19,7 +19,7 @@ In this article, you can find information about the following license reports:
 * [Licenses Overview Report](#licenses-overview-report)
 * [Licenses Usage by Service Report](#licenses-usage-by-service-report)
 * [License Distribution](#license-distribution)
-* [Licenses Assigned to Inactive Users Report](#inactive-users-with-assigned-licenses-report)
+* [Licenses Assigned to Inactive Users Report](#licenses-assigned-to-inactive-users-report)
 * [Redundant Licenses Report](#redundant-licenses-report)
 * [Unused Add-On Licenses Report](#unused-add-on-licenses-report)
 
