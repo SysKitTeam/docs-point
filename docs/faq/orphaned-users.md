@@ -19,16 +19,16 @@ When a user's sign-in is blocked or their account is deleted in Microsoft Entra 
 It's important to understand the Microsoft Entra ID deletion lifecycle when managing orphaned users. 
 
 The **Soft-Delete** functions as follows: 
-* When a user is deleted in Microsoft Entra ID, they enter a soft-deleted state for 30 days.
-* During the 30 days, the account can be restored.
-  * If restored within 30 days, the user regains their original identity
-  * Previously assigned SharePoint permissions should remain intact
+* When a user is deleted in Microsoft Entra ID, their account enters a soft-deleted state for 30 days.
+* During these 30 days, the account can be restored.
+  * If restored within 30 days, the user regains their original identity.
+  * Previously assigned SharePoint permissions should remain intact.
 
-Any soft-deleted user that was restored within the 30-day window will regain access to previously shared content. 
+Any soft-deleted user restored within the 30-day window will regain access to previously shared content.
 
 The **Hard-Delete** functions as follows: 
 * Once the 30-day window expires, the user is **permanently removed** from Microsoft Entra ID, and the **account cannot be restored**
-* Even if a new account is created with the same e-mail address, it will be considered as a completely new user, and the recreated account will not inherit any previous SharePoint permissions
+* Even if a new account is created with the same e-mail address, it will be considered a completely new user, and the recreated account will not inherit any previous SharePoint permissions.
   * This can result in a *User ID Mismatch* issue in SharePoint because the recreated account is treated as a different identity.
 
 :::info
@@ -68,6 +68,13 @@ To access the hidden list, you need to construct and open the following URL:
   * Open the User details screen
   * In the Access tile, select a site/workspace from which you want to remove the user
   * In the sidebar, click Remove Access
+
+**We recommend enabling automation with the Orphaned Users policy**. Once **Resolve Automatically** is selected, Syskit Point automatically resolves the detected Orphaned Users vulnerability by:
+  * Removing deleted users
+  * Removing users with blocked sign-in, or
+  * Removing all orphaned users
+
+For more details, see the [Orphaned Users policy article](../governance-and-automation/automated-workflows/orphaned-users-admin.md).
  
 :::info
 **Please note!**\
