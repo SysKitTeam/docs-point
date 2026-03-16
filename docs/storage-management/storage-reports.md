@@ -118,7 +118,9 @@ The following data will be displayed in the columns:
 * **Storage Limit**; shows the storage limit for the site.
 * **Last Activity**; shows the date the last activity on the site or content happened.
 
-**Selecting the site** or one or more of the files included in the site provides the **action to Clean Up File Versions**, located on the right side of the screen under the **Manage section**.
+**Selecting the site** or one or more of the files included in the site provides the: 
+* **Action to Clean Up File Versions**, located on the right side of the screen under the **Manage section**
+* **Action to Delete Files**, located on the right side of the screen under the **Manage section**
 
 :::info
 **Please note!** The Clean Up File Versions action is only available in the Governance plan or above. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
