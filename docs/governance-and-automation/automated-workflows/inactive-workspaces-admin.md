@@ -14,7 +14,7 @@ Alternatively, **you can also manually apply the policy** to only select workspa
  
 To edit the policy, navigate to the Policies settings screen and **click the Edit Policy (1)** icon.
 
-![Inactive Guest Users - Edit Policy](../../../static/img/inactive-workspaces-admin-edit.png)
+![Inactive Workspaces - Edit Policy](../../../static/img/inactive-workspaces-admin-edit.png)
 
 The **Edit Policy** dialog opens where you can:
 * **Edit the policy name (1)**
@@ -24,7 +24,7 @@ The **Edit Policy** dialog opens where you can:
 * **Choose the type of archival (5)**: 
   * In-Place Archival (Read-Only) - choosing this archives the site through Syskit Point and places it into a read-only state 
   * Microsoft 365 Archive (Cold storage) - choosing this archives the site through Microsoft 365 Archive and places it into a storage tier for archived sites
-    * [Learn more about Microsoft 365 Archive in the designated section below.](#microsoft-365-archive).
+    * [Learn more about Microsoft 365 Archive in the designated section below.](#microsoft-365-archive)
 
 * **Enable Set Naming Rule (6)** by clicking the toggle next to it
     * This lets you **apply the naming rule to your workspaces** to let you know they are archived
@@ -47,7 +47,7 @@ The **Edit Policy** dialog opens where you can:
             * If this action is selected, and a workspace is deleted, it can be restored from the recycle bin within 93 days, after which it is deleted for good
     * **Enter the number of total work days reviewers have to complete the task (11)**:
         * **Click the checkbox if you want a reminder sent (12)** 3 work days before the due date 
-        * **Select what Syskit Point should do if owners do not resolve this task until due date (13)**:
+        * **Select what Syskit Point should do if owners do not resolve this task until the due date (13)**:
             * Perform no action
             * Automatically Archive
             * Automatically Delete
@@ -81,7 +81,7 @@ Here are a few things you should keep in mind when it comes to the archive featu
 
 * **Microsoft 365 Archive** allows site-level archiving of SharePoint sites. When a site is archived, it is moved into a storage tier designated for archived sites, pausing active user access but retaining compliance settings.
 
-* **Microsoft 365 Archive** [charges site reactivation at a per-GB rate](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-pricing?view=o365-worldwide).
+* **Microsoft 365 Archive** does not charge a reactivation fee for archived SharePoint sites. Note that once a site is reactivated, it cannot be re-archived for 120 days.
 
 * When **a workspace is archived through the In-place method**, the workspace is put into a **read-only state**, access to the workspace is removed for members and/or owners, permission inheritance is restored on all objects, and all memberships on the workspace are removed in Microsoft 365 but saved in the Syskit Point database to support the restore action. 
 
@@ -90,18 +90,17 @@ Here are a few things you should keep in mind when it comes to the archive featu
 * If an **Inactive Workspaces task was created and the site was then archived** through Microsoft 365 Archive, the **task is automatically resolved**. 
 
 [To learn more about Microsoft 365 Archive and how to utilize it, take a look at their article](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-overview?view=o365-worldwide).
-:::
 
 
 ## Detection for Inactive Workspaces
 
 To decide whether something is inactive in your Microsoft 365 environment, we collect activity data for **SharePoint, Exchange, Viva Engage, and Microsoft Teams**. If any type of activity is detected, the workspace will not be declared inactive. The amount of time that needs to pass for a workspace to be considered inactive is determined by administrators when creating or editing the Inactive Workspaces policy. 
 
-The following type of activity is checked to determine if a workspace is inactive:
+The following types of activity are checked to determine if a workspace is inactive:
 
 * **SharePoint activity** - collected via Microsoft 365 audit logs. **The last activity is based on the latest date when a file was viewed, edited, or downloaded**.
 * **Exchange activity** - collected via Microsoft 365 Groups activity report available in the Microsoft 365 admin center. **The last activity is based on the latest date when an email was delivered to a group**.
-* **Viva Engage activity** - the collection is also accomplished through the Microsoft 365 admin center usage report for Viva Engage Groups activity. **The last activity is based on the latest date a message was read, posted, or liked by the group**.
+* **Viva Engage activity** - the collection is also accomplished through the Microsoft 365 admin center usage report for Viva Engage Groups activity. **The last activity is based on the latest date when a message was read, posted, or liked by the group**.
 * **Microsoft Teams** - activity is collected using protected APIs in Microsoft Graph. **The last activity is based on the latest date when a message was posted or replied to**.
 * **Planner** - detected via Microsoft 365 Audit Logs Planner activity. **The last activity is based on the latest date when a plan within the workspace was created, deleted, modified, read, or shared.** 
 
@@ -128,8 +127,8 @@ Microsoft 365 Archive is a built-in feature that allows organizations to move in
 
 :::warning
 **Please note!**  
-* During the free restoration period, both collaborators and admins can restore a Microsoft 365 archived site
-* If a cold storage site is restored after the free period expires, the restoration can only be completed by the admins, and you are charged at a per GB rate by Microsoft 365
+* Sites archived for **7 days or less** can be reactivated instantly; sites archived longer may take up to 24 hours to reactivate
+* Once a site is reactivated, it **cannot be re-archived for 120 days**
 
 :::
 
