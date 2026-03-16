@@ -26,6 +26,9 @@ const sidebars: SidebarsConfig = {
             id: 'releases/cloud/README',
           },
           items: [
+            'releases/cloud/point-2026-03-10-release-note',
+            'releases/cloud/point-2026-03-03-release-note',
+            'releases/cloud/point-2026-02-24-release-note',
             'releases/cloud/point-2026-02-17-release-note',
             'releases/cloud/point-2026-02-10-release-note',
             'releases/cloud/point-2026-02-03-release-note',
@@ -147,8 +150,9 @@ const sidebars: SidebarsConfig = {
                 id: 'releases/enterprise/syskit-point-2026-1/README',
               },
               items: [
+                'releases/enterprise/syskit-point-2026-1/point-2026-1-130-release-note',
                 'releases/enterprise/syskit-point-2026-1/point-2026-1-127-release-note',
-                'releases/enterprise/syskit-point-2026-1/point-2026-1-125-release-note'
+                'releases/enterprise/syskit-point-2026-1/point-2026-1-125-release-note',
               ],
             },
             {
@@ -759,7 +763,8 @@ const sidebars: SidebarsConfig = {
         'access-management/delete-and-restore-users',
         'access-management/view-permission-changes',
         'access-management/supervise-microsoft-teams-private-channels',
-        'access-management/manage-private-channels',       
+        'access-management/manage-private-channels',
+        'access-management/restrictions'
       ],
     },
     {
