@@ -1,5 +1,5 @@
 ---
-description: This article lists new features, improvements, and bug fixes in the Syskit Point Cloud version 2026.1.133.1
+description: This article lists new features, improvements, and bug fixes in the Syskit Point Cloud version 2026.1.133.17
 ---
 
 # March 17, 2026
@@ -19,18 +19,16 @@ description: This article lists new features, improvements, and bug fixes in the
   * In the License Distribution report, the **Inactive Users with Assigned Licenses** column has been renamed to **Licenses Assigned to Inactive Users** for improved clarity.
 
 * **Improvements made to the Risky Workspaces view on the Security & Compliance screen**.
-  * Added the Request Workspace Review action which allows admins to trigger a Workspace Review directly from the Risky Workspaces view. 
+  * Added the Request Workspace Review action, which allows admins to trigger a Workspace Review directly from the Risky Workspaces view. 
   * If no Workspace Review policy is assigned to the workspace, clicking the actions opens a confirmation modal that asks you to select a workspace review policy from the dropdown menu before initiating a review. 
 
 * **Added the Workspace Type column** to the Orphaned Workspaces report. 
   * The column is hidden by default and can be selected from the column chooser. 
 
-* **Fixed an issue** where Workspace Reviews did not work for Private and Shared Channels. 
-
-* **Fixed an issue** where Power Platform Connections would fail to successfully save and result in the following error:
+* **Fixed an issue** where Power Platform Connections would fail to save successfully and result in the following error:
 
   ```
-  Error while saving connections batch to database for environment Id - {EnvironmentId} Microsoft.Data.SqlClient.SqlException: String or binary data would be truncated in table 'tempdb.dbo.#ABF50E8D', column 'DisplayName'.
+  Error while saving connections batch to database for environment Id - {EnvironmentId} Microsoft.Data.SqlClient.SqlException: String or binary data would be truncated in table 'tempdb.dbo.#ABF50E8E', column 'DisplayName'.
   ```
 
 * **Various improvements, including UX and UI fixes, have been implemented.**
