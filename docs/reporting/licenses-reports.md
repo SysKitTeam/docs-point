@@ -19,7 +19,7 @@ In this article, you can find information about the following license reports:
 * [Licenses Overview Report](#licenses-overview-report)
 * [Licenses Usage by Service Report](#licenses-usage-by-service-report)
 * [License Distribution](#license-distribution)
-* [Inactive Users with Assigned Licenses Report](#inactive-users-with-assigned-licenses-report)
+* [Licenses Assigned to Inactive Users Report](#licenses-assigned-to-inactive-users-report)
 * [Redundant Licenses Report](#redundant-licenses-report)
 * [Unused Add-On Licenses Report](#unused-add-on-licenses-report)
 
@@ -112,7 +112,7 @@ Use this report to quickly **check if users are fully utilizing their assigned l
 
 * **Click the Reports button**, located on the left side of the screen.
 
-* **Select Licenses in the filter**; can be found in the upper left corner.
+* **Select Licenses in the filter**; it can be found in the upper left corner.
 
 * **Click the Licenses Usage by Service** tile to generate the report.
 
@@ -164,7 +164,7 @@ This report shows all of the **licenses in the Microsoft 365 environment assigne
 
 * **Click the Reports button**, located on the left side of the screen.
 
-* **Select Licenses in the filter**; can be found in the upper left corner.
+* **Select Licenses in the filter**; it can be found in the upper left corner.
 
 * **Click the License Distribution** tile to generate the report.
 
@@ -264,16 +264,16 @@ The columns that are enabled by default and available regardless of how you grou
 * **Assigned Active Licenses**; the number of currently assigned licenses per license
 * **Assigned Licenses Cost**; the total cost of assigned licenses
   * It also shows the **Total cost of licenses distributed by Departments or Locations**
-* **Inactive Users with Assigned Licenses**; the number of inactive or blocked sign-in users in Microsoft Entra ID with currently assigned licenses
+* **Licenses Assigned to Inactive Users**; the number of inactive or blocked sign-in users in Microsoft Entra ID with currently assigned licenses
 
 An additional **SKU ID column** is available for selection from the column chooser. 
 
 The License Distribution report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
 
-## Inactive Users with Assigned Licenses Report
+## Licenses Assigned to Inactive Users Report
 
-The **Inactive Users with Assigned Licenses** report helps with **finding and reclaiming licenses assigned to inactive or blocked users** to optimize your Microsoft 365 license cost.
+The **Licenses Assigned to Inactive Users** report helps with **finding and reclaiming licenses assigned to inactive or blocked users** to optimize your Microsoft 365 license cost.
 
 Use this report to **easily remove the assigned licenses from inactive users** and assign them to another user. It can also help you estimate how many licenses are needed at renewal, which supports cost-reduction efforts. 
 
@@ -284,21 +284,21 @@ Use this report to **easily remove the assigned licenses from inactive users** a
 :::
 
 
-### Generate Inactive Users with Assigned Licenses Report
+### Generate Licenses Assigned to Inactive Users Report
 
  * **Click the Reports button**, located on the left side of the screen.
 
  * **Select Licenses in the filter**; it can be found in the upper left corner.
 
- * **Click the Inactive Users with Assigned Licenses report** to generate the report.
+ * **Click the Licenses Assigned to Inactive Users report** to generate the report.
 
-### Inactive Users with Assigned Licenses Report Data
+### Licenses Assigned to Inactive Users Report Data
 
-The **Inactive Users with Assigned Licenses** report is generated with three top tiles and a report that contains additional information.
+The **Licenses Assigned to Inactive Users** report is generated with three top tiles and a report that contains additional information.
 
 In the top three tiles, the following information is provided:
 
-* An overview showing the Number of Inactive Users with Assigned Licenses
+* An overview showing the Number of Licenses Assigned to Inactive Users
   * A chart that breaks down the total number to show how many users with assigned licenses are inactive versus how many have blocked sign-in 
 
 * Potential Savings, with the amount of annual potential savings and:
@@ -307,7 +307,7 @@ In the top three tiles, the following information is provided:
 
 * Top licenses assigned to inactive users, represented through a graph
 
-Below the tiles, you can find the report that can be shown by: **User or License**. The report's columns are the same regardless of how it is viewed. The following information is displayed in the columns:
+Below the tiles, you can find the report that can be shown by: **User or License**. By default, the view shown on the report is by **License**. The report's columns are the same regardless of how it is viewed. The following information is displayed in the columns:
 
 * **License**; the name of the License currently assigned to an inactive user
 * **Assignment Types**; shows how licenses were applied
@@ -342,7 +342,7 @@ There are additional columns available from the column chooser:
 
 :::
 
-The Inactive users with Assigned Licenses report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+The Licenses Assigned to Inactive Users report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
 
 ## Redundant Licenses Report
