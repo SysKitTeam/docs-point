@@ -13,7 +13,6 @@ The Orphaned Workspaces policy can be applied to the following workspace types:
 * **Microsoft 365 Group**
 * **SharePoint Sites**
 * **Viva Engage Community**
-* **SharePoint Sites**
 :::
 
 A predefined policy - **Orphaned Workspaces (Default Policy)** - can be found on the Policies screen. 
