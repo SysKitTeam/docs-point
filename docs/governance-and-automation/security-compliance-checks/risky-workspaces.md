@@ -16,7 +16,7 @@ This approach makes it easier to reduce oversharing and maintain better control 
 You can access the **Risky Workspaces** view from the **Security & Compliance checks screen** by:
 
 * **Clicking the number of Risky Workspaces** on the Security & Compliance Dashboard tile
-* **Navigating to the Security & Compliance** screen and selecting **Show by: Workspace (1)**
+* **Navigating to the Security & Compliance** screen and selecting **Show by: Workspace (1).**
 
 Here, you can find:
 * The **top filters (2)** allow you to filter the report by the following:
@@ -34,14 +34,18 @@ The risky workspaces report provides information on:
 * **Risk Severity (6)** - shows the severity level for the risky workspace
 * **Risk Factors (7)** - lists all potential risks detected in the workspace
   * You can find the list of potential risk factors [in the table below](#workspace-risk-assessment)
-* **Clicking the ellipsis (8)** in the right corner of each workspace provides options that let you view detailed information for each identified risk factor within the workspace through dedicated reports
-
+* **Clicking the ellipsis (8)** in the right corner of each workspace can provide the following options, depending on the workspace:
+  * **Dedicated reports** with detailed information for each identified risk factor within the workspace
+  * **Request Workspace Review** - this action lets you trigger a Workspace Review directly from the risky workspaces view
+    * If the **selected workspace does not have an active workspace review policy** assigned, clicking this action opens a confirmation modal that **asks you to select a workspace review policy from the dropdown menu** before initiating a review
+  * **Change Owners** - this action lets you change the owners for the workspace directly from the risky workspaces view
+  * **Lifecycle management actions**: Delete, Archive, Keep
 
 ![Risky Workspaces View](../../../static/img/risky-workspaces-view.png)
 
 ## Workspace Risk Assessment 
 
-The following table lists **all possible workspace risk factors and their assigned severity levels**. These risk factors are used to calculate the overall workspace risk score, which indicates how risky a workspace is.
+The following table lists **all possible workspace risk factors and their assigned severity levels**. These risk factors are used to calculate the overall workspace risk score, which indicates the workspace's risk level.
 
 Risk factors marked with **High** severity have a greater impact on the total risk score than those with **Medium** or **Low** severity.
 
@@ -59,4 +63,4 @@ Risk factors marked with **High** severity have a greater impact on the total ri
 | Too many external shares | Medium | This workspace includes too many files or folders shared with external users, increasing exposure risk | SharePoint Site, M365 Group, Teams, OneDrive, Private Channels, Shared Channels |
 | Not enough owners | Low | This workspace doesn't have enough owners, risking loss of accountability if existing one(s) become unavailable | SharePoint Site, M365 Group, Teams, Private Channels |  
 | Too many owners | Low | There are too many owners in this workspace, which can reduce accountability and control | SharePoint Site, M365 Group, Teams, Private Channels |  
-| Inactive | Low | This workspace has been inactive for over 90 days and should be reviewed to determine if it’s needed | SharePoint Site, M365 Group, Teams, OneDrive, Private Channels, Shared Channels |  
+| Inactive | Low | This workspace has been inactive for over 90 days and should be reviewed to determine if it’s needed | SharePoint Site, M365 Group, Teams, OneDrive, Private Channels, Shared Channels |

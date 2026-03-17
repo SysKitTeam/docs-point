@@ -25,7 +25,8 @@ description: This article lists new features, improvements, and bug fixes in the
 * **Added the Workspace Type column** to the Orphaned Workspaces report. 
   * The column is hidden by default and can be selected from the column chooser. 
 
-   * **Improved stability of Teams provisioning** — Resolved an issue where provisioning could occasionally fail when creating Microsoft 365 Groups. The process is now more reliable.
+* **Improved the stability of Teams provisioning.** 
+  * Resolved an issue where provisioning could occasionally fail when creating Microsoft 365 Groups. The process is now more reliable.
 
 * **Fixed an issue** where Power Platform Connections would fail to save successfully and result in the following error:
 

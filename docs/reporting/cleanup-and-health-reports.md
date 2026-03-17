@@ -92,6 +92,7 @@ There are also additional columns in the column chooser:
 * **Detected**; shows when the Orphaned Workspaces policy vulnerability was detected
 * **Status**; shows whether a policy vulnerability was detected and the current status of the task
 * **Assigned To**; shows who the task is assigned to
+* **Workspace Type**; shows the type of workspace it is
 
 Selecting one or multiple workspaces on the report lets you perform the following actions:
 * **Add owners** - clicking this opens the confirmation modal where you can add new users as owners for the workspace
