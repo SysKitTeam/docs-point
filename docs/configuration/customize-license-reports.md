@@ -13,7 +13,7 @@ License reports can be used to discover assigned, unassigned, or inactive Micros
 
 This article shows you how to:
 * **Define the number of days after which users will be considered inactive**
-* **Specify monthly license price per user**
+* **Specify the monthly license price per user**
 * **Show/hide license reports for users with the assigned Syskit Point Collaborators role**
 
 :::info
@@ -32,7 +32,7 @@ Here, you can:
   * Resource users are non-human accounts used for shared resources such as rooms, equipment
   * When enabled, **resource users** (e.g., rooms and equipment accounts) with assigned licenses are **included in license reports** (Licenses Assigned to Inactive Users and Unused Add-on Licenses) **and in the Blocked Users with Assigned Licenses policy**
   * When disabled, **resource users are excluded** from these reports and policies
-* **Define monthly license price per user for (5)**:
+* **Define the monthly license price per user for (5)**:
   * **Microsoft 365 Core and Enterprise Plans** licenses
   * **Microsoft Add-on** licenses
   * **Other** licenses
@@ -51,14 +51,14 @@ By default, **license reports in Syskit Point are only visible for Syskit Point 
 
 To make the License reports visible for Syskit Point Collaborators : 
 * **Navigate to Settings** > **Security** > **Manage Access (1)**
-* **Check** the **Give users access to license reports option (2)** under Syskit Point Collaborators role 
+* **Check** the **Give users access to license reports option (2)** under the Syskit Point Collaborators role 
 * **Click Save (3)**
 
 ![License Reports Visibility](../../static/img/customize-license-reports-collaborators.png)
 
 :::warning
 **Please note!**  
-When the **Give users access to license reports option (2)** option is enabled, Syskit Point Collaborators can access the following reports: 
+When the **Give users access to license reports option (2)** is enabled, Syskit Point Collaborators can access the following reports: 
 * **Licenses Usage by Service**
 * **License Distribution**
 * **Inactive Licenses**

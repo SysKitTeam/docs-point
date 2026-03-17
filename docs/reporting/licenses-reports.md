@@ -112,7 +112,7 @@ Use this report to quickly **check if users are fully utilizing their assigned l
 
 * **Click the Reports button**, located on the left side of the screen.
 
-* **Select Licenses in the filter**; can be found in the upper left corner.
+* **Select Licenses in the filter**; it can be found in the upper left corner.
 
 * **Click the Licenses Usage by Service** tile to generate the report.
 
@@ -164,7 +164,7 @@ This report shows all of the **licenses in the Microsoft 365 environment assigne
 
 * **Click the Reports button**, located on the left side of the screen.
 
-* **Select Licenses in the filter**; can be found in the upper left corner.
+* **Select Licenses in the filter**; it can be found in the upper left corner.
 
 * **Click the License Distribution** tile to generate the report.
 
