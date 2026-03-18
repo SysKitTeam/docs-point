@@ -19,7 +19,7 @@ description: This article lists new features, improvements, and bug fixes in the
 * **Reconsent is required after updating to the latest version** due to permission changes introduced by collecting data related to the User Type (user, equipment, room) visible on License reports.
 
 * The following **permission is added** to the existing Syskit Point app registrations:
-  * **MailboxSettings.Read** – allows Syskit Point to read users' mailbox settings without a signed-in user. This does not include permission to send emails.
+  * **MailboxSettings.Read** – allows Syskit Point to read users' mailbox settings without a signed-in user. **This does not grant Syskit Point the ability to read or send emails.** The permission is used solely to read mailbox settings in order to detect the user type (user, equipment, or room) shown on License reports.
 
 * For **new deployments**, the **MailboxSettings.Read permission is automatically added** during consent.
   

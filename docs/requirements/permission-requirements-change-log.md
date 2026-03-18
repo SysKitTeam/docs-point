@@ -77,7 +77,7 @@ Depending on which version you are upgrading to, below you can find the list of 
 
 | App Registration | API/Permission Name | Permission | Type | Reason |
 | ----- | ----- | ----- | ----- | ----- |
-| Syskit Point Service | MailboxSettings.Read | Read mailbox settings | Application | Allows Syskit Point to read user's mailbox settings without a signed-in user. Does not include permission to send mail. |
+| Syskit Point Service | MailboxSettings.Read | Read mailbox settings | Application | Allows Syskit Point to read user's mailbox settings without a signed-in user. This does not grant Syskit Point the ability to read or send emails. The permission is used solely to read mailbox settings in order to detect the user type (user, equipment, or room) shown on License reports. |
 
 
 
@@ -99,7 +99,7 @@ Depending on which version you are upgrading to, below you can find the list of 
 
 | App Registration | API/Permission Name | Permission | Type | Reason |
 | ----- | ----- | ----- | ----- | ----- |
-| Syskit Point Service | MailboxSettings.Read | Read mailbox settings | Application | Allows Syskit Point to read user's mailbox settings without a signed-in user. Does not include permission to send mail. |
+| Syskit Point Service | MailboxSettings.Read | Read mailbox settings | Application | Allows Syskit Point to read user's mailbox settings without a signed-in user. This does not grant Syskit Point the ability to read or send emails. The permission is used solely to read mailbox settings in order to detect the user type (user, equipment, or room) shown on License reports. |
 
 
 ### Syskit Point Enterprise 2026.1.125
