@@ -38,3 +38,10 @@ Clicking New Template, opens the **New Template dialog** screen where you can:
 Once you've created your Reminder Template, you'll want to apply it to your policies. Currently, you can only apply reminder templates to Workspace Review policies.
 
 To ensure a Reminder Template is included in your workspace review, **please follow [the directions in the set up Workspace Review article](setup-workspace-review.md).** You can apply your reminder template during the second step of the setup process, in the Schedule Review section.
+
+
+:::warning
+
+**Please note:** You can only apply **one template** to a workspace review policy. If you want a workspace review policy to contain both reminders and [escalations](escalations.md), you need to create a template that has both.  
+
+:::
