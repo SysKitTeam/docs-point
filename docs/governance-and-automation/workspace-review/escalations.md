@@ -20,16 +20,16 @@ Before diving into the configuration, note that some escalations may not be supp
 
 To create your Escalations Templates, go to **Settings > Governance > Reminders & Escalations (1)**. Here, you are able to:
 * Create a **New Template (2)**
-* View your **current reminder & escalation templates (3)** if there are any
+* View your **current reminder & escalation templates (3)**, if there are any
 
 ![Reminders - Template](../../../static/img/reminders-template.png)
 
-Clicking New Template, opens the **New Template dialog** screen where you can:
+Clicking New Template opens the **New Template dialog** screen, where you can:
 
 * When you have decided on a name for your escalation template, enter the **Template Name (1)** in the designated space
   * The first step involves [reminders](../workspace-review/reminders.md), and for Escalations, you can move on to the next step
 * **Turn the toggle on (2)** to enable **Escalations**
-* Click the **Add Escalation (3)** button, which opens an Esclations section where you can:
+* Click the **Add Escalation (3)** button, which opens an Escalations section where you can:
   * **Enter the number of work days past the due date (4)**, after which the escalation should be triggered
   * **Select from the following available actions (5)**: 
     * **Add manager to CC** - sends e-mail to the owner and their manager, or to Point admins if the manager is excluded from governance tasks
@@ -37,13 +37,13 @@ Clicking New Template, opens the **New Template dialog** screen where you can:
     * **E-mail to task owners** - sends a reminder to task owners that the due date has passed
     * **Archive the workspace** - archives the workspace and automatically closes the associated task
     * **Restrict site access** - limits access to workspace files and folders
-    * **Restrict Copilot content discoverability** - restrict site's content from appearing in Microsoft 365 Copilot, SharePoint agents, and organization-wide search results
+    * **Restrict Copilot content discoverability** - restrict the site's content from appearing in Microsoft 365 Copilot, SharePoint agents, and organization-wide search results
     * Click the **Save Escalation (6)** button to save your preferences
-* You can set up more than one escalation for a template, by clicking the **Add Escalation** button and repeating this process again
+* You can set up more than one escalation for a template by clicking the **Add Escalation** button and repeating this process again
   * This helps ensure multiple escalation measures within a policy. For example, email task owners after 5 work days, include managers after 10, and archive the workspace after 20.
 * Use the **delete (7)** icon to remove an escalation if you change your mind
 * Use the **edit (8)** icon to make any changes
-  * An Escalation can be edited only when a Workspace Review with that escalation is not active, if a workspace review is active, the escalation cannot be edited
+  * An Escalation can be edited only when a Workspace Review with that escalation is not active. If a workspace review is active, the escalation cannot be edited
 * Click **Save (9)** once you are done to store your template
 
 ![Escalations - Template - Create New](../../../static/img/escalations-template-new.png)
@@ -114,17 +114,17 @@ To use the **Restrict Copilot Content Discoverability** escalation, the followin
 
 Escalation e-mails are sent when an escalation is triggered.
 * Depending on the escalation you selected, **e-mails are sent to your designated users** 
-* Each recipent **receives an e-mail that includes only the workspaces assigned to them**
-* E-mails are sent **when an escalation is triggered on one or more workspaces**, if no workspaces are escalated, no e-mails are sent
+* Each recipient **receives an e-mail that includes only the workspaces assigned to them**
+* E-mails are sent **when an escalation is triggered on one or more workspaces**. If no workspaces are escalated, no e-mails are sent
 * If the **workspace review does not exist** at the time an escalation is triggered, **no e-mail is sent**
 
 The content and subject of the e-mail depend on the type of escalation selected:
-  * When the **Archive the workspace** escalation is selected, the recipients receive an **e-mail with the subject containing *Workspaces Archived*** and the e-mail **lists only the workspaces that were archived**
+  * When the **Archive the workspace** escalation is selected, the recipients receive an **e-mail with the subject containing *Workspaces Archived***, and the e-mail **lists only the workspaces that were archived**
   * When other non-archive escalations are selected (e.g., restrict site access), recipients receive an **email with the subject stating tasks are overdue**, and the e-mail **lists all affected workspaces**
 
 Each escalation e-mail includes:
 * The **names** of the workspaces
-* The **types** of the workspaces (e.g., Team, SharePoint site)
+* The **types** of workspaces (e.g., Team, SharePoint site)
 * A **link** to the corresponding workspace review in Syskit Point
 
 
@@ -132,7 +132,7 @@ Each escalation e-mail includes:
 
 Once you've created your Escalation Template, you'll want to apply it to your policies. Currently, you can only apply escalation templates to Workspace Review policies.
 
-To ensure a Escalation Template is included in your workspace review, **please follow [the directions in the set up Workspace Review article](setup-workspace-review.md).** You can apply your reminder template during the second step of the setup process, in the Schedule Review section.
+To ensure an Escalation Template is included in your workspace review, **please follow [the directions in the set up Workspace Review article](setup-workspace-review.md).** You can apply your reminder template during the second step of the setup process, in the Schedule Review section.
 
 
 :::warning
