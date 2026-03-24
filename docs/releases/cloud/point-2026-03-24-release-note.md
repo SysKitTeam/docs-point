@@ -27,7 +27,7 @@ description: This article lists new features, improvements, and bug fixes in the
    
 ## Improvements & Bug Fixes 
 
-* **Actions added to the Risky Workspaces view** on the Security & Compliance screen: **Edit Content Discoverability and Edit Restricted Access Control**
+* **Actions added to the Risky Workspaces view** on the Security & Compliance screen: **Restrict Content from M365 Copilot and Restrict Site Access**
   * These actions allow you to manage access and discoverability restrictions directly from the report.
   * For more details on restrictions, [take a look at the Edit Restrictions article](../../access-management/restrictions.md).
   
