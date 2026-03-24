@@ -18,11 +18,11 @@ With Reminders, you can create multiple reminder templates that automatically se
 
 To create your Reminder Templates, go to **Settings > Governance > Reminders & Escalations (1)**. Here, you are able to:
 * Create a **New Template (2)**
-* View your **current templates (3)** if there are any
+* View your **current templates (3)**, if there are any
 
 ![Reminders - Template](../../../static/img/reminders-template.png)
 
-Clicking New Template, opens the **New Template dialog** screen where you can:
+Clicking New Template opens the **New Template dialog** screen, where you can:
 * When you have decided on a name for your reminder template, enter the **Template Name (1)** in the designated space
 * **Decide on the number of workdays (2)** before the due date that a reminder should be sent
 * If you want multiple reminders, click the **Add Reminder (3)** button, which adds another Reminder box where you can enter the number of days.

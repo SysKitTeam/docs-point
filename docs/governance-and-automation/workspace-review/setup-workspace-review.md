@@ -67,7 +67,7 @@ Selecting the Memberships template gives you the following options:
 
 ![Workspace Review - Create Policy - Step 2](../../../static/img/setup-workspace-review-create-policy-step2.png)
 
-* Next, **you can turn on Reminders & Escalations by clicking the toggle next to them (7)** if you want to assign a reminder, an escalations, or a template that contains both, to the workspace review
+* Next, **you can turn on Reminders & Escalations by clicking the toggle next to them (7)** if you want to assign a reminder, an escalation, or a template that contains both to the workspace review
   * Once turned on, you'll be able to **select the template (8)** of your choice from the dropdown menu
     * If you have not created any [reminders](reminders.md) or [escalations](escalations.md), no options are shown in the dropdown menu 
     * Only one template can be assigned, so if you want to assign both escalations and reminders to the workspace review policy, your template must contain both
@@ -83,7 +83,7 @@ Selecting the Memberships template gives you the following options:
 ![Workspace Review - Create Policy - Step 4](../../../static/img/setup-workspace-review-create-policy-step2-2.png)
 
 * For this template, the **Membership toggle is automatically switched on (13)**; however, clicking the toggle turns this step off
-  * Here, you **choose what you want the reviewers to check** regarding users that have access to the workspace as members, with the following options available: 
+  * Here, you **choose what you want the reviewers to check** regarding users who have access to the workspace as members, with the following options available: 
     * Selecting the **Blocked Members (14)** checkbox means reviewers are able to remove all members with disabled sign-in
       * By selecting this, the membership step includes a section dedicated to only Blocked Members, making it easier to complete actions in bulk
       * If this is not selected, you are still able to view and complete actions for Blocked Members as part of the Review All Members section 
@@ -92,8 +92,8 @@ Selecting the Memberships template gives you the following options:
       * By selecting this, the membership step includes a section dedicated to only Inactive Guests, making it easier to complete actions in bulk
       * If this is not selected, you are still able to view and complete actions for Inactive Guests as part of the Review All Members section 
     * The **All Members checkbox is automatically selected (16)** as it is a default part of the Membership step and will always be visible in any review where Membership is enabled
-      * If the Membership step is enabled, this checkbox cannot be unselected and All Members are automatically included in the Membership step
-  * In this step, you can also **add recommendations that help ensure compliance** with the Minimum Number or Owners and Maximum Number of Owners policies assigned to the workspace
+      * If the Membership step is enabled, this checkbox cannot be unselected, and All Members are automatically included in the Membership step
+  * In this step, you can also **add recommendations that help ensure compliance** with the Minimum Number of Owners and Maximum Number of Owners policies assigned to the workspace
     * **Not Enough Owners (17)** - reviewers will see a prompt if their workspace has too few owners
     * **Too Many Owners (18)** - reviewers will see a prompt if their workspace has too many owners
 
@@ -105,8 +105,8 @@ Selecting the Memberships template gives you the following options:
 
 :::
 
-* Next, **you can turn on Shadow Users by clicking the toggle next to it (19)** if you want reviewers to check on **users that have access to workspace content but are not official members**
-  * Now, you **choose what you want the reviewers to check** regarding users that have access to workspace content but are not official members, with the following options available: 
+* Next, **you can turn on Shadow Users by clicking the toggle next to it (19)** if you want reviewers to check on **users who have access to workspace content but are not official members**
+  * Now, you **choose what you want the reviewers to check** regarding users who have access to workspace content but are not official members, with the following options available: 
     * Selecting the **Blocked Shadow Users (20)** checkbox means reviewers are able to remove all members with disabled sign-in
       * By selecting this, the Shadow Users step includes a section dedicated to only Blocked Shadow Users, making it easier to complete actions in bulk
       * If this is not selected, you are still able to view and complete actions for Blocked Members as part of the Review Shadow Users section 
@@ -114,11 +114,11 @@ Selecting the Memberships template gives you the following options:
       * User inactivity is determined based on the [settings for your Inactive Guest Users policy](../automated-workflows/inactive-guest-users-admin.md)
       * By selecting this, the shadow users step includes a section dedicated to only Inactive External Shadow Users, making it easier to complete actions in bulk
       * If this is not selected, you are still able to view and complete actions for Inactive External Guest Users as part of the Review Shadow Users section 
-    * The **Review All Shadow Users checkbox is automatically selected (22)** as it is a default part of the Shadow Users step and is always be visible in any review this step is enabled
-      * If the Shadow Users step is enabled, this checkbox cannot be unselected and all shadow users are automatically included in the Shadow Users step
+    * The **Review All Shadow Users checkbox is automatically selected (22)** as it is a default part of the Shadow Users step and is always visible in any review where this step is enabled
+      * If the Shadow Users step is enabled, this checkbox cannot be unselected, and all shadow users are automatically included in the Shadow Users step
 
 * **You can turn on the Everyone Step by clicking the toggle next to it (23)** if you want to validate users who have access to workspace content through large "Everyone" groups
-  * If you click the toggle, **the Large "Everyone" Groups (24) checkbox is automatically selected** as it is the default part of the step
+  * If you click the toggle, **the Large "Everyone" Groups (24) checkbox is automatically selected**, as it is the default part of the step
   * When turned on, reviewers can check content shared with large groups to ensure only intended users retain access
 
 ![Workspace Review - Create Policy - Step 6](../../../static/img/setup-workspace-review-create-policy-step4.png)
