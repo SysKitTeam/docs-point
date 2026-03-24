@@ -18,7 +18,7 @@ description: This article lists new features, improvements, and bug fixes in the
   * Escalations help you set up additional actions when Workspace Reviews become overdue. 
   * The following types of escalations are available: 
     * Add manager to CC
-    * Add specific people or group to CC
+    * Add specific people or groups to CC
     * E-mail to task owners
     * Archive the workspace
     * Restrict site access
