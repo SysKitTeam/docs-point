@@ -16,7 +16,7 @@ This approach makes it easier to reduce oversharing and maintain better control 
 You can access the **Risky Workspaces** view from the **Security & Compliance checks screen** by:
 
 * **Clicking the number of Risky Workspaces** on the Security & Compliance Dashboard tile
-* **Navigating to the Security & Compliance** screen and selecting **Show by: Workspace (1).**
+* **Navigating to the Security & Compliance** screen and selecting **Show by: Workspace (1)**.
 
 Here, you can find:
 * The **top filters (2)** allow you to filter the report by the following:
@@ -39,13 +39,15 @@ The risky workspaces report provides information on:
   * **Request Workspace Review** - this action lets you trigger a Workspace Review directly from the risky workspaces view
     * If the **selected workspace does not have an active workspace review policy** assigned, clicking this action opens a confirmation modal that **asks you to select a workspace review policy from the dropdown menu** before initiating a review
   * **Change Owners** - this action lets you change the owners for the workspace directly from the risky workspaces view
+  * **Restrict Content from M365 Copilot** - this action lets you modify how content is made available for discovery by Copilot
+  * **Restrict Site Access** - this action lets you manage access restrictions applied to a site
   * **Lifecycle management actions**: Delete, Archive, Keep
 
 ![Risky Workspaces View](../../../static/img/risky-workspaces-view.png)
 
 ## Workspace Risk Assessment 
 
-The following table lists **all possible workspace risk factors and their assigned severity levels**. These risk factors are used to calculate the overall workspace risk score, which indicates the workspace's risk level.
+The following table lists **all possible workspace risk factors and their assigned severity levels**. These risk factors are used to calculate the workspace's overall risk score, which indicates its risk level.
 
 Risk factors marked with **High** severity have a greater impact on the total risk score than those with **Medium** or **Low** severity.
 
