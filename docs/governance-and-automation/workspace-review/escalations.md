@@ -41,7 +41,7 @@ Clicking New Template, opens the **New Template dialog** screen where you can:
     * Click the **Save Escalation (6)** button to save your preferences
 * You can set up more than one escalation for a template, by clicking the **Add Escalation** button and repeating this process again
   * This helps ensure multiple escalation measures within a policy. For example, email task owners after 5 work days, include managers after 10, and archive the workspace after 20.
-* Use the **delete (7)** icon to remove a reminder if you change your mind
+* Use the **delete (7)** icon to remove an escalation if you change your mind
 * Use the **edit (8)** icon to make any changes
   * An Escalation can be edited only when a Workspace Review with that escalation is not active, if a workspace review is active, the escalation cannot be edited
 * Click **Save (9)** once you are done to store your template
