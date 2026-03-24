@@ -46,7 +46,11 @@ Clicking New Template, opens the **New Template dialog** screen where you can:
   * An Escalation can be edited only when a Workspace Review with that escalation is not active, if a workspace review is active, the escalation cannot be edited
 * Click **Save (9)** once you are done to store your template
 
-![Reminders - Template - Create New](../../../static/img/reminders-template-new.png)
+![Escalations - Template - Create New](../../../static/img/escalations-template-new.png)
+
+![Escalations - Template - Create New](../../../static/img/escalations-template-new-1.png)
+
+![Escalations - Template - Create New](../../../static/img/escalations-template-new-2.png)
 
 :::warning
 

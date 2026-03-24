@@ -16,9 +16,9 @@ With Reminders, you can create multiple reminder templates that automatically se
 
 ## Create Reminder Template
 
-To create your Reminder Templates, go to **Settings > Governance > Reminders (1)**. Here, you are able to:
+To create your Reminder Templates, go to **Settings > Governance > Reminders & Escalations (1)**. Here, you are able to:
 * Create a **New Template (2)**
-* View your **current reminder templates (3)** if there are any
+* View your **current templates (3)** if there are any
 
 ![Reminders - Template](../../../static/img/reminders-template.png)
 
@@ -28,9 +28,11 @@ Clicking New Template, opens the **New Template dialog** screen where you can:
 * If you want multiple reminders, click the **Add Reminder (3)** button, which adds another Reminder box where you can enter the number of days.
   * This can be useful if you want to ensure multiple reminders for a policy are sent. For example, 15 work days before the due date, 10 work days before the due date, and 5 work days before the due date
 * Use the **delete (4)** icon to remove a reminder if you change your mind
-* Click **Save (5)** once you are done to store your template
+* Click **next (6)**, and then **Save (5)** once you are done to store your template
 
 ![Reminders - Template - Create New](../../../static/img/reminders-template-new.png)
+
+![Reminders - Template - Create New](../../../static/img/reminders-template-new-1.png)
 
 
 ## Apply Reminder Template
