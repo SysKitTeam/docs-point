@@ -39,8 +39,8 @@ The risky workspaces report provides information on:
   * **Request Workspace Review** - this action lets you trigger a Workspace Review directly from the risky workspaces view
     * If the **selected workspace does not have an active workspace review policy** assigned, clicking this action opens a confirmation modal that **asks you to select a workspace review policy from the dropdown menu** before initiating a review
   * **Change Owners** - this action lets you change the owners for the workspace directly from the risky workspaces view
-  * **Edit Content Discoverability** - this action lets you modify how content is made available for discovery 
-  * **Edit Restricted Access Control** - this action lets you manage access restrictions applied to a site
+  * **Restrict Content from M365 Copilot** - this action lets you modify how content is made available for discovery by Copilot
+  * **Restrict Site Access** - this action lets you manage access restrictions applied to a site
   * **Lifecycle management actions**: Delete, Archive, Keep
 
 ![Risky Workspaces View](../../../static/img/risky-workspaces-view.png)
