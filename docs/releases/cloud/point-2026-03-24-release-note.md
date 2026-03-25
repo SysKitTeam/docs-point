@@ -30,8 +30,6 @@ description: This article lists new features, improvements, and bug fixes in the
 * **Actions added to the Risky Workspaces view** on the Security & Compliance screen: **Restrict Content from M365 Copilot and Restrict Site Access**
   * These actions allow you to manage access and discoverability restrictions directly from the report.
   * For more details on restrictions, [take a look at the Edit Restrictions article](../../access-management/restrictions.md).
-  
-* **Fixed an issue** with the Inactive Workspaces policy that caused outdated vulnerabilities to remain even after the inactivity threshold was changed. 
 
 * **Improved the alert** for Sensitivity Labels, which is now triggered even when sensitivity labels are changed through Microsoft Teams or the Admin Center. 
 
