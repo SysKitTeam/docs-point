@@ -18,7 +18,7 @@ Here's why you should maintain an active approach to your Storage Management:
 
 ## Storage Management in Syskit Point
 
-To start with your Storage Management, make sure it's configured based on your preferences within Syskit Point.
+To start with your Storage Management, make sure it's configured according to your preferences in Syskit Point.
 
 That's where you can set up certain metrics that help you clean up your storage, such as how many versions of a file you want to keep or how old files should be before you delete them. 
 
@@ -29,36 +29,49 @@ Here's how to get started with your storage management in Syskit Point:
   * Next, it's time to configure your [Tenant Storage Limit Policy](../governance-and-automation/automated-workflows/tenant-storage-admin.md). This policy is used to detect and monitor your storage, but if you choose to, you can also enable task delegation.  
  * Once the policy has been edited based on your preferences, you can [take a look at the Tenant Storage Security & Compliance Check article](../governance-and-automation/security-compliance-checks/tenant-storage.md) to see all the details and information you can get from this policy being detected in your environment.
 
-Now that we've covered how to begin utilizing your storage management within Syskit Point let's look into the valuable information and actions that can be taken from the Storage Metrics reports.
+Now that we've covered how to begin utilizing your storage management within Syskit Point, let's look into the valuable information and actions that can be taken from the Storage Metrics reports.
 
 ### The Storage Metrics Reports
 
 The [Storage Metrics report](../storage-management/storage-reports.md#storage-metrics) is available in the latest Syskit Point version and helps you:
-* **Discover the percentage of used storage in your tenant (1)**
-* **Observe the trend of your storage usage over time (2)**
-* **See the Potential Savings for how much storage you can save(3)**
-  * You can Cleanup File Versions older than X months or All but the last X number of file versions 
 
-You can also find the most important storage-related information for the largest sites:
-* **Size (4)** - storage used up by the SharePoint site
-* **Last 180 Days (5)**; shows the storage trend for a site during this period of time along with an arrow that signifies the growth or reduction, and hovering above it gives you a percentage by how much.
-   * By default, the Last 180 Days column is shown on the report but the following views are also available: **Largest Growth in last 7 days, Largest Growth in last 30 days, Largest Growth in last 90 days**.
-* **State (6)** - current state of the site 
-* **Storage Limit (7)**
+* **Get an overview of your tenant storage** with insight into:
+  * **The percentage of used storage in your tenant (1)** 
+  * **The version limit (2)** for the workspace, if one is applied
+  * If activated, **the size of your Microsoft 365 Archive storage (3)**, with details on how much is spent of archived sites compared to archived files
+* **See the Potential Savings for how much storage you can save** by:
+  * Cleaning up **Inactive Workspaces (4)**
+  * Cleaning up **file versions older than (5)** X months 
+  * Cleaning up **everything but the last (6)** X number of file versions 
+* **Observe the trend of your storage usage over time (7)**
+
+You can also find important storage-related information for the largest sites in the **columns(8)** for the report:
+* **Name** - the name of the workspace
+* **Size** - storage used up by the SharePoint site
+* **Last 180 Days** - shows the storage trend for a site during this period of time along with an arrow that signifies the growth or reduction, and hovering above it gives you a percentage by how much
+   * By default, the Last 180 Days column is shown on the report but the following views are also available: **Largest Growth in last 7 days, Largest Growth in last 30 days, Largest Growth in last 90 days**
+* **State** - current state of the workspace 
+* **Storage Limit**
     * Storage limit defined per site
     * By default, set in SharePoint to 25TB if not otherwise defined manually for the observed site; 25TB represents the pool of total available storage, although the actual size of available storage can be smaller, depending on the number of purchased licenses
     * Storage Limit for soft deleted sites is set to = KB
-* **% of Limit (8)** - shows the percentage of the site's size in the defined site storage limit
-* **Alert on % of Limit (9)** - shows the site's defined percentage limit when email notifications are sent to owners
-* **Last Activity (10)** - shows the date and time of the site's last activity
+* **% of Limit** - shows the percentage of the site's size in the defined site storage limit
+* **Alert on % of Limit** - shows the site's defined percentage limit when email notifications are sent to owners
+* **Last Activity** - shows the date and time of the site's last activity
+* **Version Limit** - shows which if any version limits are applied to the workspace
+  * [For more details, take a look at the Storage Versioning Limits article.](../storage-management/versioning-limits.md)
+* **Last Storage Sync** - shows when the last storage sync for the workspace was performed
+* **Storage Sync Status** - shows the current status of the storage sync for the workspace
 
 Selecting one or more sites provides the following actions:
-  * **Change Storage Limit (11)** - lets you change the storage limit for sites.
+  * **Sync now (9)** - lets you initiate a storage sync for that workspace
+  * **Change Storage Limit (10)** - lets you change the storage limit for sites
     * [For more details on how to set different storage limits, take a look at the Limit Storage Usage article.](../storage-management/limit-storage-usage.md)
-  * **Set Version Limit (12)** - lets you set up a limit on the file versions kept per site based on your settings and preference.
+  * **Set Version Limit (11)** - lets you set up a limit on the file versions kept per site based on your settings and preference
     * [For more details how to set up versioning limits, take a look at the Storage Versioning Limits article.](../storage-management/versioning-limits.md)
-  * **Clean Up File Versions (13)** - lets you clean up old file versions, several file versions, or all but the last file version.
+  * **Clean Up File Versions (12)** - lets you clean up old file versions, several file versions, or all but the last file version
     * [For more details on all of the ways you can complete the Clean Up File action, take a look at the Free Up Storage article.](../storage-management/free-up-storage.md)
+  * **Lifecycle Management actions for the workspace (13)**: Archive and Delete
 
 Once you detect the largest sites with the help of the Storage Metrics report, you can **click the name of the site** to open the site-specific Storage Metrics report.
 

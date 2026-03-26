@@ -21,7 +21,7 @@ You can save custom views for your reports based on your needs and preferences. 
 
 The Storage Metrics report displays your tenant-wide storage consumption over time. &#x20;
 
-This report lets you check if you are at risk of running out of storage so that you can decrease clutter by optimizing or expanding your storage capability.
+This report lets you check if you are at risk of running out of storage. You can then decrease clutter by optimizing or expanding your storage capability.
 
 ### Generate Storage Metrics Report
 
@@ -33,9 +33,17 @@ This report lets you check if you are at risk of running out of storage so that 
 
 Once the report is generated successfully, the following information is available:
 
-* **The Tenant Storage tile** on the left side shows the percentage of used storage out of the total available storage for your tenant.
-* **The Potential Savings tile** shows how much you can save by cleaning up File versions older than X months or All but the last X number of file versions.
+* **The Tenant Storage tile** on the left side shows:
+  * **The percentage of used storage** out of the total available storage for your tenant.
+  * **The version limit** for the workspace, if one is applied.
+  * If activated, **the size of your Microsoft 365 Archive storage**, with details on how much is spent of archived sites compared to archived files 
+
+* **The Potential Savings tile shows how much storage you can save** by:
+  * Cleaning up **Inactive Workspaces (4)**
+  * Cleaning up **file versions older than (5)** X months 
+  * Cleaning up **everything but the last (6)** X number of file versions 
   * You can **set your values for X** through Settings > Storage Management, which you can quickly access by **clicking the Settings button in the top right corner of the tile**
+
 * **The Site Trend chart** shows a graph that depicts your storage usage across time over the last 180 days.
 
 The following data will be displayed in the columns:
@@ -51,7 +59,10 @@ The following data will be displayed in the columns:
 * **% of Limit**; shows the percentage of how close to the storage limit your site is.
 * **Alert on % of Limit**; shows the percentage at which you are alerted of being close to your storage limit.
 * **Last Activity**; shows the date the last activity on the site happened.
-* **Version Limit**; shows the version limit applied to the workspace
+* **Version Limit**; shows the version limit applied to the workspace.
+  * [For more details, take a look at the Storage Versioning Limits article.](../storage-management/versioning-limits.md)
+* **Last Storage Sync**; shows when the last storage sync for the workspace was performed.
+* **Storage Sync Status**; shows the current status of the storage sync for the workspace.
 
 :::info
 **Please note:** If the **Last Activity column is empty** for a workspace, it means that the last activity for that workspace was performed before Syskit Point was deployed. Additionally, the activity is older than the retention period for the Microsoft 365 audit logs and can no longer be collected and processed by Syskit Point.
@@ -91,14 +102,19 @@ Once the Site Storage Metrics report is clicked, the Selection step opens, with 
 
 On the Site Storage Metrics report for the individual workspace, the following information can be found:
 
-* **The Site Trend chart** shows a graph that depicts your site storage usage over time in the last 180 days.
-* **The Site Storage Usage tile** on the right side shows the percentage of used storage out of the total number of available storage for your site.
+* **The Site Storage Usage tile** with the **name of the workspace** shows: 
+  * **The percentage of used storage** and archived storage (if you have Microsoft 365 Archive), out of the total amount of available storage for your workspace.
+  * **The version limit** for the workspace, if one is applied
+
 * **The File Type tile** shows a chart and list of the types of files on your site and the amount of storage each file takes up.
   * The File types tracked are the following:
     * **Videos**: mp4, mov, wmv, avi, avchd, webm
     * **Images**: jpeg, jpg, png, gif, raw, psd
     * **Office**: doc, docx, rtf, xls, xlsx, ppt, pptx, pdf, txt, one
     * **Other**: any extensions not categorized in one of the above groups
+
+* **The Site Trend chart** shows a graph that depicts your site storage usage over time in the last 180 days.
+
 * **The File Version Cleanup tile** shows the amount of space you can free up by cleaning up the outdated versions of the site.
 
 The Largest Files & Folders section of the report is, by default, set as a **Files Only view**, which means it shows a list of all files on the site. You can change the report to be seen as the **Site Structure view** by clicking the **Show by:** button located on the top right side of the Largest Files & Folders part of the report.
@@ -132,7 +148,7 @@ The following data will be displayed in the columns:
 **The File Storage Details Report** is only available in the Governance plan or above. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 :::
 
-The File Storage Details report displays all of the versions of the selected file with the most important information about each of the versions.
+The File Storage Details report displays all of the versions of the selected file, with the most important information about each of the versions.
 
 The report lets you check on the amount of storage used by files in your tenant. This makes it easier to track and organize your content on specific sites to optimize storage.
 

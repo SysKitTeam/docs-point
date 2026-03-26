@@ -5,7 +5,7 @@ description: This article explains how to free up your storage on SharePoint sit
 # Free Up Storage
 
 :::info
-**Please note!** If a certain site **has a hold or retention policy applied**, the Clean Up Storage action fails for that workspace, and storage is not freed. If a certain file has a hold or retention policy applied, that file is not cleaned up or deleted. 
+**Please note!** If a certain site **has a hold or retention policy applied**, the Clean Up Storage action fails for that workspace, and storage is not freed. If a file has a hold or retention policy applied, it is not cleaned up or deleted. 
 :::
 
 The more your content grows over time, the harder it becomes to manage large amounts of data in your environment. 
@@ -20,6 +20,7 @@ Regularly cleaning up older file versions is the best way to optimize performanc
 In Syskit Point, there are several ways you can free up space and complete the cleanup action. In this article, you'll find details on the:
 
 * [Delete Files Action](#delete-files)
+* 
 * [Clean Up Action on Storage Metrics report](#clean-up-action-on-site-storage-metrics-report)
 * [Clean Up Action on Site Storage Metrics report](#clean-up-action-on-site-storage-metrics-report)
 * [Clean Up Action on File Storage Details report](#clean-up-action-on-file-storage-details-report)
@@ -27,9 +28,10 @@ In Syskit Point, there are several ways you can free up space and complete the c
 
 ## Delete Files
 
-The Delete Files action allows you to delete files and send them to the site's recycle bin. You can access it by following these steps:
+The Delete Files action allows you to delete files and send them to the site's recycle bin. You can complete the action by following these steps:
 
 * **Go to Reports > Storage > Storage Metrics report**
+  * Alternatively, you can also access the report by clicking the **View All** button on the **Storage Dashboard tile**
 * On the report, **click the SharePoint site** you want to delete files for
   * This opens the **Site Storage Metrics report**
 * On the Site Storage Metrics report, **select the file you want to remove (1)**
@@ -49,14 +51,108 @@ The **Open Recycle Bin action** opens the recycle bin for the SharePoint site yo
 You can access it by following these steps:
 
 * **Go to Reports > Storage > Storage Metrics report**
+  * Alternatively, you can also access the report by clicking the **View All** button on the **Storage Dashboard tile**
 * On the report, **click the SharePoint site** for which you want to access deleted files
   * This opens the **Site Storage Metrics report (1)**
 * **Click the Open Recycle Bin (2)** action, which opens the SharePoint site's recycle bin
 
 ![Site Storage Metrics Report- Open Recycle Bin](../../static/img/optimize-storage-site-storage-metrics-recycle-bin.png)
 
+## Archive Files
+
+:::info
+
+**Please note** that the use of this feature depends on a Microsoft 365 functionality that is currently available in Public Preview.
+
+:::
+
+The Archive Files action lets you move inactive or unused SharePoint files to cold storage by using [Microsoft 365 Archive](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-setup?view=o365-worldwide). This helps you reduce active SharePoint storage usage while keeping files available for search, compliance, and future access. 
+
+Archived files are not removed from SharePoint; they remain visible in the document library, marked with an archive icon, and are searchable through Microsoft 365. However, the files must be **reactivated** before they can be opened and **read**. 
+
+When a file is archived, it:
+* Is moved to a cold storage tier within SharePoint
+* No longer consumes active SharePoint storage quota
+* Retains metadata, permissions, and compliance policies
+
+:::info
+
+**Please note**: Before archiving a file, you can also complete the Clean Up File Versions action to trim the unwanted file versions from the file you plan to archive. This helps reduce the number of versions stored in the archive, as by default, the Microsoft 365 Archive retains all file versions. File versions can still be cleaned up even when a file is archived. 
+
+:::
+
+You can archive a file by following these steps:
+
+* **Go to Reports > Storage > Storage Metrics report**
+  * Alternatively, you can also access the report by clicking the **View All** button on the **Storage Dashboard tile**
+* On the report, **click the SharePoint site** you want to archive files for
+  * This opens the **Site Storage Metrics report**
+* On the Site Storage Metrics report, **select the file you want to archive (1)**
+* **Click the Archive Files (2)** action, which opens the Archive Files confirmation modal
+* On the Archive Files confirmation modal, **click the Archive button (3)** to confirm your decision and archive the file
+
+:::info
+
+**Please note**: Before archiving a file, you can complete the Clean Up File Versions action to trim unwanted file versions. This helps reduce the number of versions stored in the archive, as by default, the Microsoft 365 Archive retains all file versions. **File versions can still be cleaned up even when a file is archived**. 
+
+:::
+
+
+![Site Storage Metrics Report- Archive Files](../../static/img/optimize-storage-site-storage-metrics-archive.png)
+
+![Site Storage Metrics Report- Archive Files](../../static/img/optimize-storage-site-storage-metrics-archive-confirmation.png)
+
+:::info
+
+**Please note the following**: 
+* Files with **retention labels can be archived and retention policies continue to apply**
+* The **Archive Files action** is only available for SharePoint sites, **OneDrive is not supported**
+* **Some file types cannot be archived** (e.g. OneNote, SharePoint pages) (ovaj info je sa MS docsa pa ne znam jel zelimo to tu naglasavat) 
+
+:::
+
+Once a file is **archived**, it is placed into cold storage and can be reactivated if the need arises.
+
+
+### Reactivate Archived Files
+
+The **Reactivate Recycle Bin action** lets you reactivate archived files to make them accessible again. 
+
+* Files archived within the last 7 days can be reactivated instantly
+* Files archived more than 7 days ago might take up to 24 hours to become available again
+
+Workspace owners (end users?) can restore files through Microsoft 365 directly, while Administrators can reactivate files directly from Syskit Point. 
+
+You can access it by following these steps:
+
+* **Go to Reports > Storage > Storage Metrics report**
+  * Alternatively, you can also access the report by clicking the **View All** button on the **Storage Dashboard tile**
+* On the report, **click the SharePoint site** for which you want to reactivate archived files
+  * This opens the **Site Storage Metrics report**
+* **Select the Archived Files view (1)** from the dropdown filter 
+* **Select the archived file (2)** you want to reactivate
+* **Click the Reactivate Files button (3)** located on the right side of the report
+* The Reactivate Archived Files modal opens, where you can **click Reactivate (5)** to reactivate the file
+
+![Site Storage Metrics Report- Open Recycle Bin](../../static/img/optimize-storage-site-storage-metrics-reactivate-file.png)
+
+![Site Storage Metrics Report- Open Recycle Bin](../../static/img/optimize-storage-site-storage-metrics-reactivate-file-confirmation.png)
+
+
+:::info
+
+**Please note**: After reactivating the file, it can take up to 24 hours for the file to become active, with the state of the file marked as Reactivating until then. 
+
+:::
+
 
 ## Clean Up Action on Storage Metrics Report
+
+:::info
+
+**Please note**: The Clean Up actions can be completed even on files that have been archived.
+
+:::
 
 **The Storage Metrics report** is where you can complete a bulk cleanup action. The report can be generated in the following way:
  
@@ -122,7 +218,7 @@ Once you click the **Clean Up button** on the File Version Cleanup tile or the *
 
 ## Clean Up Action on File Storage Details Report
 
-You can complete the cleanup on the File Storage details screen as well. To navigate there, repeat the above steps until you reach the Site Storage Metrics report. 
+You can also complete the cleanup on the File Storage details screen. To navigate there, repeat the above steps until you reach the Site Storage Metrics report. 
 
 From there:
 
