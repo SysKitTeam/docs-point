@@ -20,7 +20,7 @@ Regularly cleaning up older file versions is the best way to optimize performanc
 In Syskit Point, there are several ways you can free up space and complete the cleanup action. In this article, you'll find details on the:
 
 * [Delete Files Action](#delete-files)
-* 
+* [Archive Files Action](#archive-files)
 * [Clean Up Action on Storage Metrics report](#clean-up-action-on-site-storage-metrics-report)
 * [Clean Up Action on Site Storage Metrics report](#clean-up-action-on-site-storage-metrics-report)
 * [Clean Up Action on File Storage Details report](#clean-up-action-on-file-storage-details-report)
