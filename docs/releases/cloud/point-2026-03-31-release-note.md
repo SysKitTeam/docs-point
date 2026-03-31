@@ -30,7 +30,7 @@ description: This article lists new features, improvements, and bug fixes in the
 ## Improvements & Bug Fixes
 
 * **Improvements made to the Inactive Workspaces workflow.**
-  * The Summary step is now displayed when you create or edit an Inactive Workspaces policy. It displays all important information about the policy configuration, as well as the outcomes when you enable task delegation or make any changes to the policy configuration.
+  * The Summary step is now displayed when you [create or edit an Inactive Workspaces policy](../../governance-and-automation/automated-workflows/inactive-workspaces-admin.md). It displays all important information about the policy configuration, as well as the outcomes when you enable task delegation or make any changes to the policy configuration.
   * The 'Detected' column was renamed to 'Inactivity Detected' to better describe the data it displays.
 
 * **Workspace Health improvements.**
