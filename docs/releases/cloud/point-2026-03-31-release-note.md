@@ -16,6 +16,7 @@ description: This article lists new features, improvements, and bug fixes in the
 
 * **Rule Engine now supports conditioning based on metrics.**
   * You can now configure rules that evaluate metric values as conditions, enabling more targeted and flexible automation.
+  * [Find the added metrics listed in the Conditions sections of the Rules article.](../../governance-and-automation/automated-workflows/policy-automation.md#conditions)
 
 * **The Risk Score column was added to the Sites and Teams & Groups overview screens, along with the new Risky Sites/Groups & Teams view.**
   * The Risk Score column is now visible on the Sites and Teams & Groups overview screens
