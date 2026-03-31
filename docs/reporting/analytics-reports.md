@@ -41,7 +41,7 @@ Once the report has been successfully generated, the following data will be avai
 * **Size**; shows the total size of the site.
 * **Last Content Modified**; shows the date the site was last modified.
 
-Below the report, you can see three different charts. You can select the time frame for the data shown in the charts in the left-side filter. The default setting is Last 7 Days.
+Below the report, you can see three different charts. You can select the time frame for the data shown in the charts on the left side filter. The default setting is Last 7 Days.
 
 The charts contain information on:
 
@@ -56,7 +56,7 @@ The analytics can show data from the last seven days, 14 days, 30 days, or a cus
 
 ## Site Structure Report
 
-The Site Structure report provides the option to check the hierarchical structure for sites down to the file level. 
+The Site Structure report allows you to view the hierarchical structure of sites down to the file level. 
 
 Use this report to display the structure of the SharePoint environment. 
 
@@ -100,7 +100,7 @@ This report can be used to stay up to date with any unused workspaces in the env
 
 ### Inactive Workspaces Report Data
 
-When the report has been successfully generated, all of the currently inactive workspaces in your environment can be found there. 
+Once the report has been generated successfully, all currently inactive workspaces in your environment can be found there. 
 
 The Inactive Workspaces report data can be **exported into PDF and XLSX formats**.
 
@@ -112,14 +112,15 @@ When any of those actions are completed on a workspace, it will no longer be vis
 
 When looking at the generated reports, the following columns can be found:
 
-* **Workspace**; shows the name of the inactive workspace.
+* **Workspace**; shows the name of the inactive workspace
+* **Inactivity Detected**; shows when the workspace was first detected as inactive
+* **Last Activity Date**; shows the date and time when the workspace was last active
 * **URL**; shows the URL of the workspace
 * **Owner(s)**; lists the workspace owners
-* **Last Activity Date**; shows the date and time when the workspace was last active
 * **Storage Used**; shows the amount of storage used by the workspace
 
 There are additional columns available from the column chooser:
-* **Detected**
+
 * **Status**
 * **Workspace Type**
 * **Last Modified**
@@ -158,7 +159,7 @@ This report can be used to maintain clean and healthy workspaces by keeping trac
 
 ### Workspaces with Stale Content Report Data
 
-When the report has been successfully generated, all the workspaces with the parameters you entered on the selection step can be found there. 
+Once the report has been generated successfully, all workspaces with the parameters you entered during the selection step can be found there. 
 
 The Workspaces with Stale Content report data can be **exported in the XLSX format** and be **scheduled**.
 
@@ -182,5 +183,3 @@ There are additional columns available from the column chooser:
 * **Primary Contact**
 * **Secondary Contact**
 * **Department**
-
-
