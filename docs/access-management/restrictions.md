@@ -8,9 +8,9 @@ description: This article explains how to edit restrictions on your workspaces w
 
 With **the new Restrictions column on the Site Overview screen**, you can now easily view whether a site has: 
 
-* **Restricted Access**, if access to the site is restricted to members of whitelisted groups 
-* **Restricted Content Discoverability**, if site content is exempt from Microsoft 365 Copilot
-* **Restricted Access and Restricted Content Discoverability**, if both restrictions are applied to the site
+* **Restricted SiteAccess**, if access to the site is restricted to members of whitelisted groups 
+* **Restricted Copilot Content Discoverability**, if site content is exempt from Microsoft 365 Copilot
+* **Restricted Site Access and Restricted Copilot Content Discoverability**, if both restrictions are applied to the site
 * **No Restrictions**, if no access restrictions are applied to the site.
 
 By using **the Edit Restrictions action**, located on the **Site Overview and Site Details screens**, you can update these settings for selected sites and choose whether to restrict access to content, restrict content discoverability, both, or leave a workspace without restrictions.
@@ -20,7 +20,7 @@ By using **the Edit Restrictions action**, located on the **Site Overview and Si
 ![Edit Restrictions](../../static/img/restrictions-action.png)
 
 
-## Restrict access to content
+## Restrict Site Access to Content
 
 Restricting access to content prevents oversharing by limiting access to a SharePoint site and its content to specific groups.
 
@@ -41,17 +41,18 @@ For more details, take a look at this Microsoft article: [Restrict SharePoint si
 In Syskit Point, you can restrict access to content by doing the following: 
 * On the Sites Overview screen, **select a workspace (1)**
 * **Click the Edit Restrictions button (2)** on the right side
-* The Edit Restrictions dialog opens, where you can:
-  * **Turn the toggle on to Restrict access to content (3)** - this limits access to workspace files and folders
-    * To allow access to users in security groups or Microsoft 365 groups, **click the checkbox (4)** and enter the name of the groups
-  * Additionally, if you want to also restrict content discoverability, you can **turn the toggle on to Restrict content discoverability (5)** - this hides the workspace and its content from search and browsing results
-    * If you do not want to restrict content discoverability, ensure the toggle is turned off
+   * **Select Restrict Site Access** from the dropdown
+* The **Restrict Site Access dialog opens (3)**, where you can:
+  * **Turn the toggle on to Restrict access to content (4)** - this limits access to workspace files and folders
+  * **Enter the names of the groups (5)** you want to retain access when restrictions are enabled in the available space
+    * Your site's connected Microsoft 365 Group is pre-filled as a starting point, however it can be removed, and/or additional groups can be added
+    * Only the groups added to the list are able to access contect when restrictions are enabled
   * **Type Confirm (6)** to continue
   * **Click Save (7)** to finalize your selection
 
 ![Edit Restrictions - Restrict access to content](../../static/img/restrictions-access-to-content.png)
 
-## Restrict content discoverability
+## Restrict Content from M365 Copilot
 
 Restricting content discoverability limits how SharePoint site content appears in organization-wide search and Microsoft 365 Copilot. When enabled for a site, the site's content does not appear in a tenant-wide search, such as the SharePoint home page or Bing, unless a user has recently interacted with it.
 
@@ -64,12 +65,10 @@ For more details, take a look at this Microsoft article: [Restrict discovery of 
 In Syskit Point, you can restrict content discoverability: 
 * On the Sites Overview screen, **select a workspace (1)**
 * **Click the Edit Restrictions button (2)** on the right side
-* The Edit Restrictions dialog opens, where you can:
-  * **Turn the toggle on to Restrict content discoverability (3)** - this hides the workspace and its content from search and browsing results
-  * Additionally, if you want to also restrict access to content, you can **turn the toggle on to Restrict access to content (4)** - this limits access to workspace files and folders
-    * To allow access to users in security groups or Microsoft 365 groups, **click the checkbox (5)** and enter the name of the groups
-    * If you do not want to restrict access to content, ensure the toggle is turned off
-  * **Type Confirm (6)** to continue
-  * **Click Save (7)** to finalize your selection
+  * **Select Restrict Content from M365 Copilot** from the dropdown
+* The **Restrict Content from M365 Copilot dialog opens (3)**, where you can:
+  * **Turn the toggle on to Restrict content discoverability (4)** - this hides the workspace and its content from search and browsing results
+  * **Type Confirm (5)** to continue
+  * **Click Save (6)** to finalize your selection
 
 ![Edit Restrictions - Restrict access to content](../../static/img/restrictions-content-discoverability.png)
