@@ -587,8 +587,7 @@ const sidebars: SidebarsConfig = {
           },
           items: [
             'governance-and-automation/workspace-review/setup-workspace-review',
-            'governance-and-automation/workspace-review/reminders-and-escalations',
-            'governance-and-automation/workspace-review/escalations',            {
+            'governance-and-automation/workspace-review/reminders-and-escalations',        {
               type: 'category',
               label: 'Monitor Workspace Review',
               link: {
