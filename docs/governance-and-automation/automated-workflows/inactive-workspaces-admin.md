@@ -51,13 +51,16 @@ The **Edit Policy** dialog opens where you can:
             * Perform no action
             * Automatically Archive
             * Automatically Delete
-* Click **Finish (14)** once you are done with the policy configuration   
+* Review your policy on the **Summary step (14)** which includes an overview of the policy configuration you selected along with the outcome of options such as task delgation if selected, and any changes made to the policy settings 
+* Click **Finish (15)** once you are done with the policy configuration   
 
 ![Edit Policy Dialog - Step 1](../../../static/img/inactive-workspaces-admin-edit-step-1.png)
 
 ![Edit Policy Dialog - Step 2](../../../static/img/inactive-workspaces-admin-edit-step-2.png)
 
 ![Edit Policy Dialog - Step 3](../../../static/img/inactive-workspaces-admin-edit-step-3.png)
+
+![Edit Policy Dialog - Step 3](../../../static/img/inactive-workspaces-admin-edit-step-4.png)
 
 **Syskit Point will start the task delegation workflow based on your configuration when an inactive workspace is detected**. 
 
@@ -77,9 +80,9 @@ For details on how collaborators can [**resolve Inactive Workspaces tasks**, nav
 
 With the introduction of the Microsoft 365 Archive option, there are some key differences you should keep in mind when choosing how to archive a workspace.
 
-Here are a few things you should keep in mind when it comes to the archive feature both in Microsoft 365 and Syskit Point:
+Here are a few things you should keep in mind when it comes to the archive feature, both in Microsoft 365 and Syskit Point:
 
-* **Microsoft 365 Archive** allows site-level archiving of SharePoint sites. When a site is archived, it is moved into a storage tier designated for archived sites, pausing active user access but retaining compliance settings.
+* **Microsoft 365 Archive** allows site-level archiving of SharePoint sites. When a site is archived, it is moved to a storage tier dedicated to archived sites, pausing active user access while retaining compliance settings.
 
 * **Microsoft 365 Archive** does not charge a reactivation fee for archived SharePoint sites. Note that once a site is reactivated, it cannot be re-archived for 120 days.
 
