@@ -26,6 +26,7 @@ const sidebars: SidebarsConfig = {
             id: 'releases/cloud/README',
           },
           items: [
+            'releases/cloud/point-2026-03-31-release-note',
             'releases/cloud/point-2026-03-24-release-note',
             'releases/cloud/point-2026-03-17-release-note',
             'releases/cloud/point-2026-03-10-release-note',
@@ -587,8 +588,7 @@ const sidebars: SidebarsConfig = {
           },
           items: [
             'governance-and-automation/workspace-review/setup-workspace-review',
-            'governance-and-automation/workspace-review/reminders',
-            'governance-and-automation/workspace-review/escalations',            {
+            'governance-and-automation/workspace-review/reminders-and-escalations',        {
               type: 'category',
               label: 'Monitor Workspace Review',
               link: {

@@ -96,7 +96,7 @@ While you can create more than 10 rules for policies, **only 10 rules can be act
 
 ## Conditions
 
-Conditions are one of the key elements in rules since they enable filtering of workspaces where Syskit Point will apply defined governance policies. 
+Conditions are one of the key elements in rules, as they enable the filtering of workspaces where Syskit Point will apply the defined governance policies. 
 
 When defining conditions, you need to:
 * Select a property that is checked
@@ -106,28 +106,42 @@ When defining conditions, you need to:
 * Select the value of the property that satisfies the condition
   * **Private** or **Public**
 
-In this example, if you define the condition to state **Privacy is set to Private**, the Rule will apply defined policies to Private workspaces only. 
+In this example, if you define the condition to state **Privacy is set to Private**, the Rule will apply the defined policies to Private workspaces only. 
 
 There are two types of available properties you can select when setting up conditions:
 * **Predefined properties**
   * Such as Privacy or workspace Name
 * **Custom metadata**
   * Workspace properties defined in [Custom Metadata in Syskit Point](../../governance-and-automation/metadata/manage-custom-metadata.md) or via third-party tools and synced to Syskit Point
-  * Since there is no limitation on how you should name your custom metadata or how many custom metadata properties you create, Syskit Point focuses on supporting custom metadata types - e.g., number, boolean, string, etc.
+  * Since there is no limitation on how you should name your custom metadata or the number of custom metadata properties you create, Syskit Point focuses on supporting custom metadata types, such as number, boolean, and string
   * For example, if you define custom metadata named **Project End Date**, the data type would be set to Date; for **Project Name**, the data type would be set to Text, etc.
 
 In the following table, you can find all predefined properties and operators currently available in Syskit Point.
 
-  | Workspaces property | Operator(s) |
-  |-----|-----|
-  | Created | After, Before, Between | 
-  | Name | Equals, Not Equals, Starts With, Contains | 
-  | Number of Guest Users | Equal, Greater Than, Greater Than or Equal, Less Than, Less Than or Equal | 
-  | Privacy | Is set to | 
-  | Sensitivity Label | Is set to |
-  | Sharing Settings | Is set to |
-  | URL | Equals, Not Equals, Starts With, Contains |
-  | Workspace Type | Is set to |
+  | Workspaces property | Operator(s) | Value |
+  | ----- | ----- | ----- | 
+  | Created | After, Before, Between | Select date in date picker |
+  | Data Location | Equals, Not Equals, Starts With, Contains | Enter text |
+  | Department | Is set to | Select one or multiple departments from available values | 
+  | Lock State | Is set to | Select one or more of the following values: `Unlocked`, `Read-only`, `Locked` |
+  | Name | Equals, Not Equals, Starts With, Contains | Enter text |
+  | Number of Admins | Is Equal, Greater Than, Greater Than or Equal, Less Than, Less Than or Equal | Enter a number |
+  | Number of Anonymous Links | Is Equal, Greater Than, Greater Than or Equal, Less Than, Less Than or Equal | Enter a number |
+  | Number of Company-Wide Links | Is Equal, Greater Than, Greater Than or Equal, Less Than, Less Than or Equal | Enter a number |
+  | Number of Guest Users | Is Equal, Greater Than, Greater Than or Equal, Less Than, Less Than or Equal | Enter a number | 
+  | Number of Inactive Guests | Is Equal, Greater Than, Greater Than or Equal, Less Than, Less Than or Equal | Enter a number |
+  | Number of Items shared externally | Is Equal, Greater Than, Greater Than or Equal, Less Than, Less Than or Equal | Enter a number |
+  | Number of Items shared with Everyone | Is Equal, Greater Than, Greater Than or Equal, Less Than, Less Than or Equal | Enter a number |
+  | Number of Owners | Is Equal, Greater Than, Greater Than or Equal, Less Than, Less Than or Equal | Enter a number |
+  | Number of Sensitive Anonymous Links | Is Equal, Greater Than, Greater Than or Equal, Less Than, Less Than or Equal | Enter a number |
+  | Number of Sensititve Company-Wide Links | Is Equal, Greater Than, Greater Than or Equal, Less Than, Less Than or Equal | Enter a number |
+  | Number of Sensitive Files | Is Equal, Greater Than, Greater Than or Equal, Less Than, Less Than or Equal | Enter a number |
+  | Number of Shadow Users | Is Equal, Greater Than, Greater Than or Equal, Less Than, Less Than or Equal | Enter a number |
+  | Privacy | Is set to | Select from the available values: `Private`, `Public` |
+  | Sensitivity Label | Is set to | Select one or multiple sensitivity labels from available values |
+  | Sharing Settings | Is set to | Select one or more of the available values: `Only people in your organization`, `New and existing guests`, `Anyone`, `Existing guest only` |
+  | URL | Equals, Not Equals, Starts With, Contains | Enter text |
+  | Workspace Type | Is set to | Select one or more of the available values: `Security Group`, `Distribution List`, `Mail-Enabled Security Group`, `Microsoft 365 Group`, `Microsoft Teams`, `SharePoint Site`, `OneDrive`, `Microsoft 365 Group with Viva Engage` |
 
 Additionally, the following custom metadata types and related operators are supported:
 

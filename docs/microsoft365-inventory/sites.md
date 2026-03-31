@@ -14,20 +14,22 @@ This opens the Sites Overview screen, which can be viewed and filtered in multip
 
 In the top left corner, **All Sites** is automatically selected in the filter. Clicking the **View filter** will provide the following additional options: 
 * All Sites
-* Deleted Sites
-* Recently Created Sites
-* Largest Sites
-* Inactive Sites
-* Archived Sites
-* Externally Shared Sites
 * Anonymously Shared Sites
+* Archived Sites
+* Custom SharePoint Agents
+* Deleted Sites
+* Externally Shared Sites
 * Hub Sites
+* Inactive Sites
+* Largest Sites
+* Recently Created Sites
+* Risky Sites
 * Unlabeled Sites 
 * Workspace Sensitivity
 
-Clicking any of those categories will filter the Overview based on the selected. 
+Clicking any of those categories will filter the Overview based on the selection. 
 
-At the top, 4 tiles can be used to filter the overview based on the type of workspace. The following options are available and can be selected by clicking them:
+At the top, 4 tiles can be used to filter the overview based on the type of workspace. The following options are available and can be selected by clicking on them:
 
   * Microsoft Teams
   * Microsoft 365 Groups 
@@ -45,12 +47,17 @@ The default columns displayed in the overview are the following:
 
 Additional columns are available in the **column chooser**, located in the top right of the overview. The additional columns available are:
 
- * Sensitivity Label
+ * Site Type
+ * Archive Status
  * Archived By
  * Archived On
  * Deleted By
  * Deleted On
  * Can be Restored
+ * Activity
+ * Sensitivity Label
+ * Restrictions
+     * Displays whether a site has: **Restricted Access**, if access to the site is restricted to members of whitelisted groups, **Restricted Content Discoverability**, if site content is exempt from Microsoft 365 Copilot, **Restricted Access and Restricted Content Discoverability**, in case both restrictions are applied on the site, or **No Restrictions**, if no access restrictions are applied to the site
  * Template
  * Storage Limit
  * Storage Warning Level
@@ -59,28 +66,37 @@ Additional columns are available in the **column chooser**, located in the top r
  * External User
  * Is Hub Site
  * Hub Title
- * Activity
  * Last Activity Date 
  * Privacy
  * Policies Applied
+ * Lock State
+ * Last Reviewed
+ * Custom SharePoint Agents
+ * Data Location
+ * Risk Score
  * Primary Contact
  * Secondary Contact
  * Department
- * Project End Date
- * Certification Required
- * Priority
- * Project Category
- * Project Manager
- * Project Start Date
- * Restrictions
-   * Displays whether a site has: **Restricted Access**, if access to the site is restricted to members of whitelisted groups, **Restricted Content Discoverability**, if site content is exempt from Microsoft 365 Copilot, **Restricted Access and Restricted Content Discoverability**, in case both restrictions are applied the site or **No Restrictions**, if no access restrictions are applied to the site
+ * Sensitive Anonymous Links
+ * Sensitive Company-Wide Links
+ * Sensitive Files
+ * Admins
+ * Number of Owners
+ * Anonymous Links
+ * Company-Wide Links
+ * Items shared externally
+ * Items shared with Everyone
+ * Inactive Guests
+ * Shadow Users
+ * Additional Custom Metadata Columns, if configured
+
 
 :::info
 **Please note!**  
 You can save custom views for your overview screens based on your needs and preferences. [For more details on this, take a look at the Save Custom Views article.](../configuration/custom-views.md)
 :::
 
-**Clicking an individual workspace** directly, opens the **Sites Details screen** for that workspace. 
+**Clicking an individual workspace** opens the **Sites Details screen** for that workspace. 
 
 ## Overview Actions
 
@@ -88,7 +104,7 @@ The Sites Overview can be **exported as PDF and XLSX files**. There is also the 
 
 Selecting the checkbox next to the workspaces provides several actions that can be taken, **located on the right side** of the overview.
 
-The Manage actions available are: 
+The available actions are: 
   * Change Owners
   * Manage Policies
   * Add Owners/Members

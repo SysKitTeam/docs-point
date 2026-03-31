@@ -8,33 +8,32 @@ The Microsoft Teams & Groups Overview provides **insight into the properties and
 
 ## Generate Overview
 
-The Microsoft Teams & Groups Overview can be accessed by **clicking Microsoft Teams & Groups** on the Home page. 
-
-This will open the Microsoft Teams & Groups Overview, which can be viewed and filtered in multiple ways. 
+Access the overview screen by **clicking Microsoft Teams & Groups** on the Home page. 
+The overview screen can be viewed and filtered in multiple ways. 
 
 In the top left corner, **All Groups** is automatically selected in the filter. Clicking the **View filter** will provide the following additional options: 
-  * Microsoft 365 Groups
-  * Microsoft Teams
-  * Inactive Groups
   * Archived Groups
-  * Inactive Groups
-  * Archived Groups
-  * Security Groups
-  * Security Groups (On-Premises)
-  * Mail-Enabled Security Groups
+  * Deleted Groups
   * Distribution Lists
   * Distribution Lists (On-Premises)
-  * Recently Created Groups
-  * Deleted Groups
   * Externally Shared Groups
+  * Inactive Groups
+  * Mail-Enabled Security Groups
+  * Microsoft 365 Groups
+  * Microsoft Teams
+  * Public Groups & Teams
+  * Recently Created Groups
+  * Risky Groups & Teams
+  * Security Groups
+  * Security Groups (On-Premises)
+  * Teams & Groups with Only 1 Owner
+  * Teams & Groups with Too Many Owners
   * Teams with Private Channels
   * Teams with Shared Channels
-  * Teams and Groups with Only One Owner
-  * Teams and Groups with Too Many Owners
 
 Clicking any of those categories will filter the overview screen based on the selection. 
 
-At the top, 5 tiles can be used to filter the overview screen. The following options are available and can be selected by clicking them:
+At the top, 5 tiles can be used to filter the overview screen. The following options are available and can be selected by clicking on them:
   * The Number of Microsoft Teams
   * The Number of Microsoft 365 Groups 
   * Recently Created
@@ -54,23 +53,39 @@ The default columns displayed in the overview are the following:
 There are additional columns available in the **column chooser**, located in the top right part of the overview. The additional columns available are:
 
  * Connected Site
+ * Site Archive Status
+ * Team Archived 
+ * Archived By
+ * Archived On
  * Created On
  * Private Channels
  * Shared Channels
  * Standard Channels
  * Deleted By
  * Deleted On
- * Archived By
- * Archived On
  * Sensitivity Label
  * Last Activity Date
  * Is Team
  * Can be Restored
  * Policies Applied
+ * Last Reviewed
+ * Data Location
+ * Risk Score
  * Primary Contact
  * Secondary Contact
  * Department
- * Additional Custom Metadata Columns if configured
+ * Sensitive Anonymous Links
+ * Sensitive Company-Wide Links
+ * Sensitive Files
+ * Admins
+ * Number of Owners
+ * Anonymous Links
+ * Company-Wide Links
+ * Items shared externally
+ * Items shared with Everyone
+ * Inactive Guests
+ * Shadow Users
+ * Additional Custom Metadata Columns, if configured
 
 :::info
 **Please note!**  
@@ -85,7 +100,7 @@ On the right side of the overview, there is a Manage section that provides the a
 
 Selecting workspaces provides several actions that can be taken.
 
-The Manage actions available are: 
+The available actions are: 
   * Change Owners
   * Manage Policies
   * Add Owners/Members
