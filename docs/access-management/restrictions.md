@@ -8,7 +8,7 @@ description: This article explains how to edit restrictions on your workspaces w
 
 With **the new Restrictions column on the Site Overview screen**, you can now easily view whether a site has: 
 
-* **Restricted SiteAccess**, if access to the site is restricted to members of whitelisted groups 
+* **Restricted Site Access**, if access to the site is restricted to members of whitelisted groups 
 * **Restricted Copilot Content Discoverability**, if site content is exempt from Microsoft 365 Copilot
 * **Restricted Site Access and Restricted Copilot Content Discoverability**, if both restrictions are applied to the site
 * **No Restrictions**, if no access restrictions are applied to the site.
@@ -46,7 +46,7 @@ In Syskit Point, you can restrict access to content by doing the following:
   * **Turn the toggle on to Restrict access to content (4)** - this limits access to workspace files and folders
   * **Enter the names of the groups (5)** you want to retain access when restrictions are enabled in the available space
     * Your site's connected Microsoft 365 Group is pre-filled as a starting point, however it can be removed, and/or additional groups can be added
-    * Only the groups added to the list are able to access contect when restrictions are enabled
+    * Only the groups added to the list are able to access content when restrictions are enabled
   * **Type Confirm (6)** to continue
   * **Click Save (7)** to finalize your selection
 
