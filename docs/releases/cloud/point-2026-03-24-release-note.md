@@ -23,7 +23,7 @@ description: This article lists new features, improvements, and bug fixes in the
     * Archive the workspace
     * Restrict site access
     * Restrict Copilot content discoverability
-  * [For more details, take a look at the Escalations article.](../../governance-and-automation/workspace-review/escalations.md)
+  * [For more details, take a look at the Escalations article.](../../governance-and-automation/workspace-review/reminders-and-escalations.md#escalations)
    
 ## Improvements & Bug Fixes 
 

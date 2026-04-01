@@ -53,7 +53,7 @@ To ensure a Reminder Template is included in your workspace review, **please fol
 
 :::warning
 
-**Please note:** You can only apply **one template** to a workspace review policy. If you want a workspace review policy to contain both reminders and [escalations](escalations.md), you need to create a template that has both.  
+**Please note:** You can only apply **one template** to a workspace review policy. If you want a workspace review policy to contain both reminders and [escalations](#escalations), you need to create a template that has both.  
 
 :::
 
