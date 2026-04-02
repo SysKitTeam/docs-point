@@ -69,7 +69,7 @@ Selecting the Memberships template gives you the following options:
 
 * Next, **you can turn on Reminders & Escalations by clicking the toggle next to them (7)** if you want to assign a reminder, an escalation, or a template that contains both to the workspace review
   * Once turned on, you'll be able to **select the template (8)** of your choice from the dropdown menu
-    * If you have not created any [reminders](reminders.md) or [escalations](escalations.md), no options are shown in the dropdown menu 
+    * If you have not created any [reminders](reminders-and-escalations.md#reminders) or [escalations](reminders-and-escalations.md#escalations), no options are shown in the dropdown menu 
     * Only one template can be assigned, so if you want to assign both escalations and reminders to the workspace review policy, your template must contain both
 
 ![Workspace Review - Create Policy - Step 3](../../../static/img/setup-workspace-review-create-policy-step-new-3.png)
