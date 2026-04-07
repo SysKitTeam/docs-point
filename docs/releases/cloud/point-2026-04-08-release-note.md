@@ -17,7 +17,7 @@ description: This article lists new features, improvements, and bug fixes in the
 
 * **Improvements made to Risky Workspaces** on the Security and Compliance screen.
   * Admins can now resolve risks for workspaces directly from the report.
-  * [For more details, please take a look at the Risky Workspaces article.](../../governance-and-automation/security-compliance-checks/risky-workspaces.md#resolve-risk)
+  * [For more details, please take a look at the Risky Workspaces article.](../../governance-and-automation/security-compliance-checks/risky-workspaces.md)
 
 * **Fixed an issue** where a Group Membership sync could fail due to SQL timeouts. 
 
