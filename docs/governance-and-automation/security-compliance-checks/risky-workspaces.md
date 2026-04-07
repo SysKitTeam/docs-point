@@ -31,17 +31,22 @@ The risky workspaces report provides information on:
   * This value is recalculated automatically every 2 hours
 * **Name (4)** of the workspace
 * **Risk Score (5)** - shows a numerical score for the risk assessment, calculated based on various health factors; a higher score indicates a higher risk
-* **Risk Severity (6)** - shows the severity level for the risky workspace
-* **Risk Factors (7)** - lists all potential risks detected in the workspace
+* **Risk Factors (6)** - lists all potential risks detected in the workspace
   * You can find the list of potential risk factors [in the table below](#workspace-risk-assessment)
-* **Clicking the ellipsis (8)** in the right corner of each workspace can provide the following options, depending on the workspace:
-  * **Dedicated reports** with detailed information for each identified risk factor within the workspace
-  * **Request Workspace Review** - this action lets you trigger a Workspace Review directly from the risky workspaces view
+* The **Not a risk? Tell us why (7)** button - this action opens a dialog modal where you can provide more details on why you think this workspace is not risky despite the detected risks 
+  * You can also select the checkbox to be contacted by Syskit for more details
+* The **Request Review (8)** button - this action lets you **trigger a Workspace Review** directly from the risky workspaces view
     * If the **selected workspace does not have an active workspace review policy** assigned, clicking this action opens a confirmation modal that **asks you to select a workspace review policy from the dropdown menu** before initiating a review
-  * **Change Owners** - this action lets you change the owners for the workspace directly from the risky workspaces view
+* **Clicking the ellipsis (9)** in the right corner of each workspace can provide the following options, depending on the workspace:
+  * **Dedicated reports** with detailed information for each identified risk factor within the workspace
+  * **Change Owners** - this action lets you change the owners for the workspace directly from the risky workspaces view, if available for the workspace
   * **Restrict Content from M365 Copilot** - this action lets you modify how content is made available for discovery by Copilot
   * **Restrict Site Access** - this action lets you manage access restrictions applied to a site
   * **Lifecycle management actions**: Delete, Archive, Keep
+  * **Resolve All** action - this action lets you resolve all risks immediately, without having to wait for a workspace review you requested to be completed
+    * Clicking the Resolve All actions **opens a dedicated resolution flow** that takes you through the **steps where you can resolve risks detected on the workspace**
+    * For example, if a workspace's content is shared with large 'Everyone' groups, you'll see the Everyone step where you can review and, if needed, restrict that access
+    * Each step focuses on a specific risk area and provides all the relevenat data you need to resolve it
 
 ![Risky Workspaces View](../../../static/img/risky-workspaces-view.png)
 
