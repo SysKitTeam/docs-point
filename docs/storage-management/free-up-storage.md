@@ -85,12 +85,6 @@ When a file is archived, it:
 * No longer consumes active SharePoint storage quota
 * Retains metadata, permissions, and compliance policies
 
-:::info
-
-**Please note**: Before archiving a file, you can also complete the Clean Up File Versions action to trim the unwanted file versions from the file you plan to archive. This helps reduce the number of versions stored in the archive, as by default, the Microsoft 365 Archive retains all file versions. File versions can still be cleaned up even when a file is archived. 
-
-:::
-
 You can archive a file by following these steps:
 
 * **Go to Reports > Storage > Storage Metrics report**
@@ -118,6 +112,7 @@ You can archive a file by following these steps:
 **Please note the following**: 
 * Archived files are not included in Microsoft Copilot results until they are reactivated. 
 * Files with **retention labels can be archived and retention policies continue to apply**
+* **File versions can still be cleaned** up even **when** a file is **archived**. 
 * The **Archive Files action** is only available for SharePoint sites, **OneDrive is not supported**
 * [For a full list of limitations, check the official documentation.](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-overview?view=o365-worldwide#file-archive-preview-limitations)
 

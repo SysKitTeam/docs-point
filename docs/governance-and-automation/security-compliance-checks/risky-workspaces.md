@@ -37,6 +37,7 @@ The risky workspaces report provides information on:
   * You can also select the checkbox to be contacted by Syskit for more details
 * The **Request Review (8)** button - this action lets you **trigger a Workspace Review** directly from the risky workspaces view
     * If the **selected workspace does not have an active workspace review policy** assigned, clicking this action opens a confirmation modal that **asks you to select a workspace review policy from the dropdown menu** before initiating a review
+    * When a workspace review is requested, workspace owners are notified, sent an e-mail, and a task is created where they can review their workspace's membership, sharing and, overall compliance. [For more details, take a look at this article.](../../point-collaborators/workspace-review/workspace-review-overview.md)
 * **Clicking the ellipsis (9)** in the right corner of each workspace can provide the following options, depending on the workspace:
   * **Dedicated reports** with detailed information for each identified risk factor within the workspace
   * **Change Owners** - this action lets you change the owners for the workspace directly from the risky workspaces view, if available for the workspace

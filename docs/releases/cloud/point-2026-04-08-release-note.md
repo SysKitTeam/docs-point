@@ -12,12 +12,20 @@ description: This article lists new features, improvements, and bug fixes in the
 
 * **Already using Syskit Point Cloud?** Syskit Point Cloud is automatically upgraded to the latest version when available. The automatic update occurs outside working hours to ensure minimal interference with your day-to-day business. The new version will begin rolling out with this announcement and is expected to reach all customers within the next few days.
 
+## New Feature
 
-## Improvements & Bug Fixes
+* **New file-level action** available: **Archive Files**
+  * The Archive Files action allows you to **move inactive files to Microsoft 365 Archive** directly from the Storage Metrics report, which helps **reduce active SharePoint storage usage** while keeping files available.
+  * This feature **relies on a Microsoft functionality that is currently in Public Preview**.
+  * [For more details on archiving files, take a look at this article.](../../storage-management/free-up-storage.md#archive-files)
 
-* **Improvements made to Risky Workspaces** on the Security and Compliance screen.
+* **New Risky Workspaces action available** on the Security & Compliance screen: **Resolve All**
   * Admins can now resolve risks for workspaces directly from the report.
   * [For more details, please take a look at the Risky Workspaces article.](../../governance-and-automation/security-compliance-checks/risky-workspaces.md)
+
+
+
+## Improvements & Bug Fixes
 
 * **Fixed an issue** where a Group Membership sync could fail due to SQL timeouts. 
 
