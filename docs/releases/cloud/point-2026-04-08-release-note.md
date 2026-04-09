@@ -1,5 +1,5 @@
 ---
-description: This article lists new features, improvements, and bug fixes in the Syskit Point Cloud version 2026.2.136
+description: This article lists new features, improvements, and bug fixes in the Syskit Point Cloud version 2026.2.136.26
 ---
 
 # April 08, 2026
