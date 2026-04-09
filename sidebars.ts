@@ -148,6 +148,17 @@ const sidebars: SidebarsConfig = {
           items: [
             {
               type: 'category',
+              label: 'Syskit Point 2026.2',
+              link: {
+                type: 'doc',
+                id: 'releases/enterprise/syskit-point-2026-2/README',
+              },
+              items: [
+                'releases/enterprise/syskit-point-2026-2/point-2026-2-136-release-note',
+              ],
+            },
+            {
+              type: 'category',
               label: 'Syskit Point 2026.1',
               link: {
                 type: 'doc',
