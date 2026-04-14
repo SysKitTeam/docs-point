@@ -149,10 +149,10 @@ Read more about Approval processes and how to create custom ones in this [articl
 Read more about setting up these governance policies and customizing them to your needs [here](../automated-workflows/set-up-policies.md).
 
 * **Outlook & Email Settings (18)** – define if the newly created workspace will:
-  * Be **hidden** from your organization's global address list
+  * **Not show** the group e-mail address in Outlook
   * Send a **welcome e-mail**
   * If a **service account is added to the template**, two additional options are available:
-    * Allow external senders to e-mail this group
+    * Let people outside the organization e-mail this group
     * Send copies of group conversations and events to group members
 
 ![New Teams Template Dialog - Step 5](../../../static/img/provisioning-templates-teams-dialog-step-5.png)
