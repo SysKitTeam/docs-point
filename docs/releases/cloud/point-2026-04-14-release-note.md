@@ -18,16 +18,12 @@ description: This article lists new features, improvements, and bug fixes in the
 * **Added the** ability to select a time range for storage trend graphs on the Storage reports. 
   * A dropdown for selecting the time range was added and supports predefined and custom time ranges, depending on retention settings.
 
-
 * **Fixed an issue** where Collaborators completing an archive action on a workspace received an incorrect error notice. 
   * Error messages now correctly reflect when the action is intended for SharePoint Admins. 
 
+* **Fixed an issue** where invalid audit filter values could be saved which caused errors in audit collection.
 
-* **Fixed an issue** where  file actions failed for admins without site access with the following error:
-  ```
-  System.UnauthorizedAccessException: Attempted to perform an unauthorized operation.
-  ```
-  * The Delete, Archive, and Reactivate Files actions now work for Point Administrators even when they are not site members. 
-
+* **Fixed an issue** where incorrect status messages were shown when promoting an existing member or adding a new Admin to a workspace.
+  * Status messages now accurately show whether the user was added as an admin, was already an admin, or the action failed.
 
 * **Various improvements, including UX and UI fixes, have been implemented.**
