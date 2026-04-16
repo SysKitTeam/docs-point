@@ -1,5 +1,5 @@
 ---
-description: Syskit Point Enterprise 2026.2.136.41 hotfix - fixes Site Analytics critical bug
+description: Syskit Point Enterprise 2026.2.136.41 Hotfix Release
 ---
 
 # Syskit Point 2026.2.136.41

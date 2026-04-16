@@ -1,5 +1,5 @@
 ---
-description: This article lists new features, improvements, and bug fixes in the Syskit Point Cloud hotfix version 2026.2.137.83
+description: This article lists fixes in the Syskit Point Cloud hotfix version 2026.2.137.83
 ---
 
 # April 16, 2026
