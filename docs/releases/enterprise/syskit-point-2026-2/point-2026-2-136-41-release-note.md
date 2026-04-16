@@ -16,7 +16,7 @@ description: Syskit Point Enterprise 2026.2.136.41 hotfix - fixes Site Analytics
 See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../set-up-point-enterprise/deployment/upgrade-syskit-point.md).
 
 :::warning
-**Please note!** This is a critical hotfix release. The issue was observed in a subset of customer environments, with no clear pattern by Azure region or other tenant properties. We recommend upgrading to the latest version for all customers to avoid audit collection lag.
+**Please note!** This is a critical hotfix release. The issue was observed in a subset of customer environments, with no clear pattern by Azure region or other tenant properties, and appears to have been triggered by unexpected changes in Microsoft audit log data that adversely affected Syskit Point audit log processing. We recommend upgrading to the latest version for all customers to avoid audit collection lag.
 :::
 
 ## Improvements & Bug Fixes
