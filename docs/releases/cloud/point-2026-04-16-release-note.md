@@ -13,7 +13,7 @@ description: This article lists new features, improvements, and bug fixes in the
 * **Already using Syskit Point Cloud?** Syskit Point Cloud is automatically upgraded to the latest version when available. The automatic update occurs outside working hours to ensure minimal interference with your day-to-day business. The new version will begin rolling out with this announcement and is expected to reach all customers within the next few days.
 
 :::warning
-This is a critical hotfix release. We recommend upgrading to the latest version for all customers to avoid audit collection lag.
+**Please note!** This is a critical hotfix release. The issue was observed in a subset of customer environments, with no clear pattern by Azure region or other tenant properties. We recommend upgrading to the latest version for all customers to avoid audit collection lag.
 :::
 
 ## Improvements & Bug Fixes
