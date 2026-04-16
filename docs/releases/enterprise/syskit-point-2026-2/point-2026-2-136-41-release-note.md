@@ -16,17 +16,16 @@ description: Syskit Point Enterprise 2026.2.136.41 hotfix - fixes Site Analytics
 See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../set-up-point-enterprise/deployment/upgrade-syskit-point.md).
 
 :::warning
-This is a critical hotfix release. We recommend upgrading as soon as possible if you have Site Analytics reports in use.
+This is a critical hotfix release. We recommend upgrading to the latest version for all customers to avoid audit collection lag.
 :::
 
 ## Improvements & Bug Fixes
 
-* **Fixed a critical issue** in audit log processing caused by the same user appearing in audit logs with different username casing.
+* **Fixed a critical audit log issue** caused by the same user appearing with a different username casing in audit logs.
   * Processing would fail with the following error:
   ```
   "Violation of PRIMARY KEY constraint 'PK_SiteVisits'. Cannot insert duplicate key in object 'Analytics.SiteVisits'."
   ```
-  * This prevented site visits metrics from being saved in the database. Additionally, last login information was not updated for users.
-  * Site visitor aggregation now correctly deduplicates users regardless of how Microsoft audit logs represent their usernames. This ensures accurate visitor counts and stable report generation.
-
-* **Various improvements, including UX and UI fixes, have been implemented.**
+  * Due to the issue, audit collection starts lagging, meaning more audit logs are being produced than Syskit Point can process. The existing "audit collection lagging" message does not appear to end-users, making this issue even harder to discover.
+  * The issue prevented site-visit metrics from being successfully saved to the database. Additionally, the last login information was not updated for users.
+  * User deduplication in site visitor aggregation now works regardless of Microsoft audit log username variation. This ensures accurate counts and stable reports.
