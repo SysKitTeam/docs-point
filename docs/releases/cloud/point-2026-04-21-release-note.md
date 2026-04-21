@@ -15,13 +15,17 @@ description: This article lists new features, improvements, and bug fixes in the
 
 ## Improvements & Bug Fixes
 
-* **Improvements made to** the Risky Workspaces view on the Security & Compliance screen. 
+* **Improvements made to** the Risky Workspaces view on the Security & Compliance screen.
   * Report performance has been increased by **optimizing how site metrics are loaded** and ensuring they load only when selected. 
 
-* **Improvements made to the File and Page Activities report.**
-  * The **default** export now **excludes detailed data**.
-  * Two option are now available: **Export All**, which includes detailed data, or **Export without details**.
-  * **Scheduled** reports now **follow the default export behavior**, and will not include details.
+* **Improvements made to Reports.**
+  * The **Details column** on **all Audit Logs reports** has been **renamed to Additional Info**.
+  * On the File and Page Activities report, the following changes were made for exporting: 
+     * The **default** export now **excludes detailed data**.
+     * The two options available are: 
+        * **Export All**, which now includes detailed data, or 
+        * **Export without details**, which does not include detailed data and is the default export method.
+     * **Scheduled** reports now **follow the default export behavior** and will not include details.
 
 * **Fixed an issue** with the *Next automatic content and permissions sync* where the time of the sync did not reflect the previously configured threshold settings. 
 
