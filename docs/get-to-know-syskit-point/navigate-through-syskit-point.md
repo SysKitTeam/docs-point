@@ -58,7 +58,7 @@ The top right corner contains 3 additional buttons:
 * **Notifications** - shows alerts and actions that occurred recently in your Syskit Point environment
 * **Settings** - set up & configure your Syskit Point preferences; this is available and visible only to Syskit Point Administrators
 * **Help** - quick access to Syskit Point documentation, contact us form, and what's new dialog
-* **Profile** - includes your profile details and contains buttons that lead to **Scheduled Reports** and **Alerts** as well as the **Sing Out** button
+* **Profile** - includes your profile details and contains buttons that lead to **Scheduled Reports** and **Alerts** as well as the **Sign Out** button
 
 ## Navigation
 
