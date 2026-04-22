@@ -57,7 +57,7 @@ The default columns displayed in the report are:
 * **Performed By**
 * **IP Address**
 * **Item**
-* **Details**
+* **Additional Info**
     
 There are no additional columns available in the **column chooser**.
 
@@ -65,10 +65,14 @@ To see more details, **expand each row** by clicking the arrow next to the date 
 
 ### Report Actions
 
-The Audit Logs Overview report can be **exported as an XLSX file**. **Clicking the arrow symbol** next to Export provides two options: **Export all** and **Export without details**. Selecting Export without details means that the exported report **won't include the details section**.  
-
-There is also the **option to schedule the report**. **A scheduled report includes the details section**. The Export without details action cannot be scheduled. 
-
+The Audit Logs Overview report can be **exported as an XLSX file**. 
+* By **clicking Export** directly, **the default file exported won't include the details section**.
+* **Clicking the arrow symbol** next to Export provides two options:
+  * **Export with details** - selecting this means that the exported report **will include the details section**.
+  * **Export without details**- selecting this means that the exported report **won't include the details section**.
+ 
+There is also the **option to schedule** the report. **A scheduled report does not includes the details section**.
+ 
 There are no additional actions available for this report.
 
 ## Exchange Logs Report
@@ -110,7 +114,7 @@ The default columns displayed in the report are:
 * **Performed By**
 * **IP Address**
 * **Item**
-* **Details**
+* **Additional Info**
     
 There are no additional columns in the **column chooser**.
 
@@ -119,15 +123,19 @@ To see more details, **expand each row** by clicking the arrow next to the date 
 
 ### Report Actions
 
-The Exchange Logs report can be **exported as an XLSX file**. **Clicking the arrow symbol** next to Export provides two options: **Export all** and **Export without details**. Selecting Export without details means that the exported report **won't include the details section**.  
+The Exchange Logs report can be **exported as an XLSX file**. 
+* By **clicking Export** directly, **the default file exported won't include the details section**.
+* **Clicking the arrow symbol** next to Export provides two options:
+  * **Export with details** - selecting this means that the exported report **will include the details section**.
+  * **Export without details**- selecting this means that the exported report **won't include the details section**.
+ 
+There is also the **option to schedule** the report. **A scheduled report does not includes the details section**.
 
-There is also the **option to schedule the report**. 
-
-There are no additional actions available for this report. **A scheduled report includes the details section**. The Export without details action cannot be scheduled. 
+There are no additional actions available for this report. 
 
 ## Site Permissions Changes Report
 
-This report provides insight into details for any permissions changes on selected site(s). 
+This report provides details on any permission changes for selected site(s). 
 * For example, if somebody shares a file or creates a sharing link, you can see it here.
 
 
@@ -163,7 +171,7 @@ The default columns displayed in the report are:
 * **Performed By**
 * **IP Address**
 * **Item**
-* **Details**
+* **Additional Info**
 
 There are no additional columns available in the **column chooser**.
 
@@ -171,12 +179,15 @@ To see more details, **expand each row** by clicking the arrow next to the date 
 
 ### Report Actions
 
-The Site Permissions Changes report can be **exported as an XLSX file**. **Clicking the arrow symbol** next to Export provides two options: **Export all** and **Export without details**. Selecting Export without details means that the exported report **won't include the details section**.  
+The Site Permissions Changes report can be **exported as an XLSX file**.
+* By **clicking Export** directly, **the default file exported won't include the details section**.
+* **Clicking the arrow symbol** next to Export provides two options:
+  * **Export with details** - selecting this means that the exported report **will include the details section**.
+  * **Export without details**- selecting this means that the exported report **won't include the details section**.
+ 
+There is also the **option to schedule** the report. **A scheduled report does not includes the details section**. 
 
-There is also the **option to schedule the report**. 
-
-There are no additional actions available for this report. **A scheduled report includes the details section**. The Export without details action cannot be scheduled. 
-
+There are no additional actions available for this report.
 
 ## User Activity Report
 
@@ -217,7 +228,7 @@ The default columns displayed in the report are:
 * **Performed By**
 * **IP Address**
 * **Item**
-* **Details**
+* **Additional Info**
     
 There are no additional columns in the **column chooser**.
 
@@ -225,12 +236,15 @@ To see more details, **expand each row** by clicking the arrow next to the date 
 
 ### Report Actions
 
-The User Activity report can be **exported as an XLSX file**. **Clicking the arrown symbol** next to Export provides two options: **Export all** and **Export without details**. Selecting Export without details means that the exported report **won't include the details section**.  
+The User Activity report can be **exported as an XLSX file**. 
+* By **clicking Export** directly, **the default file exported won't include the details section**.
+* **Clicking the arrow symbol** next to Export provides two options:
+  * **Export with details** - selecting this means that the exported report **will include the details section**.
+  * **Export without details**- selecting this means that the exported report **won't include the details section**.
+ 
+There is also the **option to schedule** the report. **A scheduled report does not includes the details section**.
 
-There is also the **option to schedule the report**. 
-
-There are no additional actions available for this report. **A scheduled report includes the details section**. The Export without details action cannot be scheduled. 
-
+There are no additional actions available for this report.
 
 ## File and Page Activities Report
 
@@ -271,7 +285,7 @@ The default columns displayed in the report are:
 * **Performed By**
 * **IP Address**
 * **Item**
-* **Details**
+* **Additional Info**
     
 There are no additional columns in the **column chooser**.
 
@@ -279,8 +293,12 @@ To see more details, **expand each row** by clicking the arrow next to the date 
 
 ### Report Actions
 
-The File and Page Activities report can be **exported as an XLSX file**. **Clicking the arrow symbol** next to Export provides two options: **Export all** and **Export without details**. Selecting Export without details means that the exported report **won't include the details section**.  
-
-There is also the **option to schedule the report**. 
-
-There are no additional actions available for this report. **A scheduled report includes the details section**. The Export without details action cannot be scheduled. 
+The File and Page Activities report can be **exported as an XLSX file**. 
+* By **clicking Export** directly, **the default file exported won't include the details section**.
+* **Clicking the arrow symbol** next to Export provides two options:
+  * **Export with details** - selecting this means that the exported report **will include the details section**.
+  * **Export without details**- selecting this means that the exported report **won't include the details section**.
+ 
+There is also the **option to schedule** the report. **A scheduled report does not includes the details section**.
+ 
+There are no additional actions available for this report.
