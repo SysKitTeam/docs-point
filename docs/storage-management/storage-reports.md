@@ -44,7 +44,11 @@ Once the report is generated successfully, the following information is availabl
   * Cleaning up **everything but the last (6)** X number of file versions 
   * You can **set your values for X** through Settings > Storage Management, which you can quickly access by **clicking the Settings button in the top right corner of the tile**
 
-* **The Site Trend chart** shows a graph that depicts your storage usage across time over the last 180 days.
+* **The Storage Trend chart** shows a graph that depicts your storage usage across time, with the ability to select your own time frame to view storage in the last: 
+  * 180 days
+  * 1 year
+  * 2 years
+  * Custom period
 
 The following data will be displayed in the columns:
 
@@ -113,7 +117,11 @@ On the Site Storage Metrics report for the individual workspace, the following i
     * **Office**: doc, docx, rtf, xls, xlsx, ppt, pptx, pdf, txt, one
     * **Other**: any extensions not categorized in one of the above groups
 
-* **The Site Trend chart** shows a graph that depicts your site storage usage over time in the last 180 days.
+* **The Site Trend chart** shows a graph that depicts your site storage usage across time, with the ability to select your own time frame to view site storage in the last: 
+  * 180 days
+  * 1 year
+  * 2 years
+  * Custom period
 
 * **The File Version Cleanup tile** shows the amount of space you can free up by cleaning up the outdated versions of the site.
 
