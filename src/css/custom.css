@@ -20,7 +20,7 @@
   --ifm-color-warning: #FFA100 ;
   --ifm-color-danger: #FA6452 ;
   --ifm-color-success: #008F4C;
-  --custom-admonition-info-bg-light: color-mix(in srgb, var(--ifm-color-primary) 5%, transparent);
+  --custom-admonition-info-bg-light: rgba(87, 0, 175, 0.05);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -586,7 +586,7 @@ a[target="_blank"] svg {
 /* Success/Tip admonition */
 .theme-admonition-tip {
   border-left-color: var(--ifm-color-success);
-  background-color: color-mix(in srgb, var(--ifm-color-success) 12%, transparent);
+  background-color: rgba(0, 143, 76, 0.12);
 }
 
 .theme-admonition-tip::before {
@@ -594,7 +594,7 @@ a[target="_blank"] svg {
 }
 
 [data-theme='dark'] .theme-admonition-tip {
-  background-color: color-mix(in srgb, var(--ifm-color-success) 18%, transparent);
+  background-color: rgba(0, 143, 76, 0.18);
 }
 
 [data-theme='dark'] .theme-admonition-tip::before {
