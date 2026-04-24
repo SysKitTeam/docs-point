@@ -435,6 +435,7 @@ const sidebars: SidebarsConfig = {
       },
       items: [
         'set-up-point-cloud/overview',
+        'set-up-point-cloud/demo-data',
         'set-up-point-cloud/free-trial',
         'set-up-point-cloud/free-trial-limits',
         'set-up-point-cloud/syskit-point-subscriptions',
