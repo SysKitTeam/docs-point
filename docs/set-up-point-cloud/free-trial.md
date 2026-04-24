@@ -4,7 +4,7 @@ description: This article provides a step-by-step guide on how to get a free 21-
 
 # Free Trial
 
-**Syskit Point trial** enables you to **test drive Syskit Point for free for 21 days** and discover how to utilize it when managing your Microsoft 365 environment. 
+**The Syskit Point trial** enables you to **test drive Syskit Point for free for 21 days** and discover how to utilize it when managing your Microsoft 365 environment. 
 
 In this article, you can find out **how and where to get your 21 days of Syskit Point trial**.
 
@@ -14,7 +14,7 @@ This article shows how to get a free trial of the Syskit Point solution as a ser
 :::
 
 There are two steps to exploring Syskit Point in the free trial:
-* **Try Syskit Point with demo data**
+* [**Try Syskit Point with demo data**](demo-data.md)
   * Sign up with any e-mail
   * No additional permissions or consents are required
   * Syskit Point shows demo data right after signing up 
@@ -27,14 +27,12 @@ There are two steps to exploring Syskit Point in the free trial:
 To connect your Microsoft 365 tenant, you first need to sign up. 
 :::
 
-## Get Syskit Point with Demo Data
+## Syskit Point with Demo Data
 
-Syskit Point with demo data enables you to explore the main features and capabilities without connecting your Microsoft 365 tenant.
-Still, there are some limits:
-* **Syskit Point settings are not available**
-  * To explore Syskit Point settings, you need to connect your Microsoft 365 tenant
-* **Running actions is not available**
-  * To run actions, you need to connect your Microsoft 365 tenant
+:::warning
+**Please note!**&#x20;
+If you have already set up and explored Syskit Point with demo data, you can skip this section. Please proceed to the [connect your tenant step](#connect-your-tenant)
+:::
 
 To get started:
 * **Navigate to the [Free Trial start page](https://www.syskit.com/products/point/free-trial/)**
@@ -66,7 +64,7 @@ Next, provide information in the Sign Up form:
 
 ![Sign Up Information](../../static/img/free-trial-sign-up-information.png)
 
-**After a successful sign up**, **Syskit Point web app opens**, **and shows demo data**.
+After a successful sign up, **Syskit Point web app opens** and shows demo data**. To view your own organization's data, you'll need to connect your tenant. 
 
 ## Connect Your Tenant
 
