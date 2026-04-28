@@ -18,9 +18,9 @@ description: This article lists new features, improvements, and bug fixes in the
 * **Fixed an issue** where mail-enabled security groups could not be added as exceptions when completing the Restrict Site Access action on a workspace.
   * Mail-enabled security groups can now be selected when configuring site access restrictions. 
 
-* **Fixed a bug** that caused an action in the Inactive Workspaces report on the Security & Compliance screen to appear as text instead of an clickable action button. 
+* **Fixed a bug** that caused an action in the Inactive Workspaces report on the Security & Compliance screen to appear as text instead of a clickable action button. 
 
 * **Fixed an issue** where Workspace Review policies could be saved without entering required reviewers. 
-  * Now, at least one reviewer has to be defined for each type of workspace before saving. 
+  * Now, at least one reviewer must be specified for each workspace type before saving.
 
 * **Various improvements, including UX and UI fixes, have been implemented.**
