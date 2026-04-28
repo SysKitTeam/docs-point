@@ -8,6 +8,8 @@ Having to manually keep up with file versions in your workspaces can be unnecess
 
 **Storage Versioning Limits help you limit the number of file versions kept in SharePoint document libraries**. File versions are deleted after exceeding the number of versions you set, the time period you set, or both.
 
+Since Microsoft requires a defined retention limit, **by default, the major version count limit is enabled for manual version settings in Point**. The major version count limit controls how many major versions are kept for a file before older versions are permenantly deleted. 
+
 :::warning
 **Please note!** \
 **A service account must be connected to Syskit Point to enable the automatic application of Versioning limits to workspaces via rules.** \
@@ -38,6 +40,7 @@ The Create New Manual Storage Limit pop-up opens. There, you can select:
 * **Count Limit (2)** - select the checkbox if you want to place a count limit on your workspaces
   * Select the **count limit (3)** you want to place as the maximum limit for the number of versions a file can have
   * Once a file exceeds the number of versions you place, the oldest versions start getting removed
+  * This is **turned on by default, and cannot be turned off** due to Microsoft required retention limits
 * **Time Limit (4)** - select the checkbox if you want to place a time limit on your workspaces
   * Select the **time limit (5)** you want to place as the maximum limit for how old a version can be before getting removed
   * File versions older than the time limit you set get removed once the threshold you set is passed.
