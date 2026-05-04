@@ -137,6 +137,8 @@ Additional options available when the Collaborators role is enabled:
 * **Restrict access to private channels not owned by the team owner (5)** – when enabled, allows team owners to see private channels they don't own, but does not allow them access to the private channel's content, which ensures transparency without compromising privacy
   * This option is enabled by default
   * The team owner can still view content for private channels of which they are owners
+* **Restrict alert configuration for collaborators (6)** - when enabled, alert configuration for collaborators is restricted, but exceptions can be added by selecting collaborators that can create alerts despite the restriction. 
+   * To select exceptions, **click the Select collaborators** button below and search for the users you want to set as exceptions.
 
 
 ![Collaborators - Options](../../static/img/enable-role-based-access-collaborator-options.png)
