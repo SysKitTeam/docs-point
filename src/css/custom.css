@@ -326,7 +326,7 @@ article[class*="docCard"] img {
 /* Remove default Docusaurus external link icon */
 .theme-edit-this-page svg,
 .hash-link svg,
-a[target="_blank"] .iconExternalLink_nPIU {
+a[target="_blank"] svg[class*="iconExternalLink"] {
   display: none !important;
 }
 
