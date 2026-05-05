@@ -15,9 +15,10 @@ description: This article lists new features, improvements, and bug fixes in the
 
 ## Improvements & Bug Fixes
 
-* **Added the option** to restrict alert configuration for collaborators to Manage Access settings.
+* **Added the option** to restrict alert configuration for collaborators to the Manage Access settings.
   * When enabled, **alert configuration for collaborators is restricted**.
-  * Exceptions can be added by **selecting collaborators** that can configure alerts regardless of the restriction.
+  * Exceptions can be added by **selecting collaborators** who can configure alerts regardless of the restriction.
+  * [See the updated article on managing access to Syskit Point for more information](../../configuration/enable-role-based-access.md#syskit-point-collaborators)
 
 * **Added support** for collecting file archive and file restore action events in audit logs.
 
