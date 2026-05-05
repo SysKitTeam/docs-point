@@ -4,9 +4,11 @@ description:  This article explains how to create and apply Storage Versioning 
 
 # Storage Versioning Limits 
 
-Having to manually keep up with file versions in your workspaces can be unnecessarily time-consuming. Now, you can **set up versioning limits for your storage**, and automate actions based on the limit settings.
+Having to manually track file versions in your workspaces can be unnecessarily time-consuming. Now, you can **set up versioning limits for your storage**, and automate actions based on the limit settings.
 
 **Storage Versioning Limits help you limit the number of file versions kept in SharePoint document libraries**. File versions are deleted after exceeding the number of versions you set, the time period you set, or both.
+
+Since Microsoft requires a defined retention limit, **the major version count limit is enabled by default for manual version settings in Point**. The major version count limit controls how many major versions are kept for a file before older versions are permanently deleted. 
 
 :::warning
 **Please note!** \
@@ -25,7 +27,7 @@ There are three default limits set up:
 * **Automatic (Default Limit) (3)** - automatically applies optimal storage of versions based on their age and probability of getting restored
 * **Inherit Tenant (Default Limit) (4)** - inherits global tenant limit
   * The Automatic and Inherit Tenant limits cannot be edited.
-* **Manual (Default Limit) (5)** - Manual cleanup that runs daily with a 100 count limit and 180 day time limit
+* **Manual (Default Limit) (5)** - Manual cleanup that runs daily with a 100 count limit and a 180-day time limit
   * The Manual limit can be **edited (6)** to adjust the count and time limits based on your personal preferences.
 
 To create a new storage versioning limit, click the **Create New Limit (6)** button.
@@ -38,6 +40,7 @@ The Create New Manual Storage Limit pop-up opens. There, you can select:
 * **Count Limit (2)** - select the checkbox if you want to place a count limit on your workspaces
   * Select the **count limit (3)** you want to place as the maximum limit for the number of versions a file can have
   * Once a file exceeds the number of versions you place, the oldest versions start getting removed
+  * This is **turned on by default, and cannot be turned off** due to Microsoft's required retention limits
 * **Time Limit (4)** - select the checkbox if you want to place a time limit on your workspaces
   * Select the **time limit (5)** you want to place as the maximum limit for how old a version can be before getting removed
   * File versions older than the time limit you set get removed once the threshold you set is passed.
@@ -47,12 +50,12 @@ The Create New Manual Storage Limit pop-up opens. There, you can select:
 :::info
 **Please note** the following:
 
-* If **Count Limit is selected**, after the versions surpass the set number, they are automatically deleted from older to newest. (ex. if 100 versions are selected for the count limit, then after the 101 version is created, the older version is deleted).
+* If **Count Limit is selected**, after the versions surpass the set number, they are automatically deleted from oldest to newest. (for example, if 100 versions are selected for the count limit, then after the 101 version is created, the older version is deleted).
 
-* If **Time Limit is selected**, versions older than the set period will automatically be deleted. (ex. If 30 days are set as the time limit, then versions older than 30 days are deleted).  
+* If the **Time Limit is selected**, versions older than the set period will automatically be deleted. (for example, if 30 days are set as the time limit, then versions older than 30 days are deleted).  
 
-* If both Count Limit and Time Limit are selected, then both are taken into account for version limits. For example, with a 100-count limit and 30-day time limit selected, the following happens: 
-  * All versions older than 30 days are deleted even if there are fewer than 100 versions.
+* If both Count Limit and Time Limit are selected, then both are taken into account for version limits. For example, with a 100-count limit and a 30-day time limit selected, the following happens: 
+  * All versions older than 30 days are deleted, even if there are fewer than 100 versions.
   * If 100 versions are reached before the 30-day time limit, the older versions are automatically deleted even though they are still within the time limit.
 
 * The new rule **will not affect any versions created before** the versioning limits are applied. 
@@ -93,7 +96,7 @@ Selecting this opens the Storage Metrics report, where you can:
 
 ![Storage Versioning Limits - Tenant - Selection](../../static/img/storage-versioning-limits-new-limit-tenant-select.png)
 
-* **Set Version Limit** on one or more sites by **select one or more workspaces (1)**.
+* **Set Version Limit** on one or more sites by **selecting one or more workspaces (1)**.
 * Click the **Set Version Limit (2)** button on the right side.
 
 ![Storage Versioning Limits - Set Version Limit on Workspace](../../static/img/storage-versioning-limits-new-limit-workspaces.png)
@@ -140,7 +143,7 @@ In some instances, even after setting up storage versioning limits, you **might 
 
 The **Storage Versioning Limits only apply to new file versions created after the policy is enabled**. Older file versions are not automatically deleted **unless a manual cleanup is performed first**. For example:
 
-* If you only set a **version count limit** (for example, keep 100 versions), and run the manual cleanup once **before** enabling the policy, the **manual cleanup removes all excess file versions** and from then on the **cleanup is handled automatically** for new versions
+* If you only set a **version count limit** (for example, keep 100 versions) and run the manual cleanup once **before** enabling the policy, the **manual cleanup removes all excess file versions**, and from then on, the **cleanup is handled automatically** for new versions
 
 * If you are using the version count limit in combination with the time limit, the feature **only applies the time-based deletion to versions created after the policy was set**, so versions that were not old enough at the time of the initial cleanup will not be deleted later, unless you repeat manual cleanup over time
   * If you are using the **Time Limit**, we recommend **repeating manual cleanup periodically during the first year**.
@@ -149,7 +152,7 @@ The **Storage Versioning Limits only apply to new file versions created after th
 :::info
 **Please note**: Even with storage cleanup automation turned on, you might notice that Potential Savings are still growing. This is expected due to:
 * **Some older file versions may remain if they were not manually deleted during the initial cleanup**
-* **There is a delay in storage sync, which can happen in large environments** which means that file versions that were already deleted in SharePoint could still appear in reports until the next sync is completed
+* **There is a delay in storage sync, which can happen in large environments**, which means that file versions that were already deleted in SharePoint could still appear in reports until the next sync is completed
   * Depending on the size of the environment, the storage sync can take **up to a month**
   * If you have a large tenant, you can use **on-demand sync to target specific environments or sites** instead of waiting for the full sync cycle to be completed
 
