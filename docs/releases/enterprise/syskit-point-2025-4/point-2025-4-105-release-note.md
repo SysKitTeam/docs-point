@@ -30,8 +30,9 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 
 **When upgrading from Point versions older than 2025.2.91**, database migration is performed, which must finish before you can use the new version.
 The migration progress is displayed when you open the Syskit Point web app.
+  * **If you upgraded to Point version 2025.2.91 before this upgrade**, you can expect the upgrade completion without any significant downtime.
 
-**If you upgraded to Point version 2025.2.91 before this upgrade**, you can expect the upgrade completion without any significant downtime.
+**When upgrading from Point version 2025.2.91, you will be required to first upgrade to version 2025.3.101 before proceeding to the latest version.** Due to major database changes, upgrading directly to the newest version of Syskit Point is not supported. 
 
 **Regular updates help prevent delays caused by skipping versions**. 
 
