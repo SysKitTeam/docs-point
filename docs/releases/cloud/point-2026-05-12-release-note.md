@@ -28,7 +28,7 @@ description: This article lists new features, improvements, and bug fixes in the
      * Use the **Upload Templates** option to upload your modified templates as a zip file.
        * Modified templates take effect immediately for all subsequent emails.
      * Use the **Reset All to Default** option to remove all customizations and revert to the default templates.
-  * [Find more information about E-mail templates in the E-mail customization article](../../configuration/customize-emails.md/#e-mail-templates)
+  * [Find more information about E-mail templates in the E-mail customization article](../../configuration/customize-emails#e-mail-templates)
 
 ## Improvements & Bug Fixes
 
