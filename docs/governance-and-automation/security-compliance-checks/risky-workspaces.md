@@ -47,7 +47,14 @@ The risky workspaces report provides information on:
   * **Resolve All** action - this action lets you resolve all risks immediately, without having to wait for a workspace review you requested to be completed
     * Clicking the Resolve All actions **opens a dedicated resolution flow** that takes you through the **steps where you can resolve risks detected on the workspace**
     * For example, if a workspace's content is shared with large 'Everyone' groups, you'll see the Everyone step where you can review and, if needed, restrict that access
-    * Each step focuses on a specific risk area and provides all the relevenat data you need to resolve it
+    * Each step focuses on a specific risk area and provides all the relevant data you need to resolve it
+  * **Accept Risk** action - this action lets you accept a specific risk factor(s) for a workspace, temporarily excluding it from the workspace's risk score
+     * Clicking the Accept Risk actions **opens a confirmation dialog** where you should:
+       * **Accept the risk for a workspace** by selecting the checkbox next to it from the available list
+       * **Select the time frame** for how long the risk should be accepted 
+         * Once that time passes, the **risk is automatically re-evaluated and will reappear** if it is still present.
+         * If the accepted risk is resolved before the expiration date (for example, owners are added to a workspace where Not enough owners was the accepted risk), it is removed automatically on the next recalculation.
+       * You can also, optionally, **leave a written note** with the reason why you're accepting the risks
 
 ![Risky Workspaces View](../../../static/img/risky-workspaces-view.png)
 
