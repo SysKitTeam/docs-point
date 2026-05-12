@@ -129,7 +129,7 @@ You can immediately see the e-mail changes by clicking the **Preview e-mail butt
 
 ## E-mail Templates
 
-The **E-mail Templates** section in E-mail Settings, lets you download the Syskit Point built-in templates, edit them to match your organization's requirements, and upload your customized versions. You can also reset all e-mail templates to their default setting.
+The **E-mail Templates** section in E-mail Settings lets you download the Syskit Point built-in templates, edit them to match your organization's requirements, and upload your customized versions. You can also reset all e-mail templates to their default setting.
 
 This is useful when you want to, for example, add organization-specific legal disclaimers or footer content to e-mails or adjust the HTML structure of a template to match your company's branding guidelines.
 
@@ -142,7 +142,7 @@ To manage e-mail templates, navigate to **Settings** > **General** > **E-mail** 
 
 Here you can:
 
-* **Download Templates (1)** - clicking this downloads a zip file containing all e-mail templates included in your Point. The zip file you receive contains two folders:
+* **Download Templates (1)** - clicking this downloads a zip file containing all e-mail templates included by default in Point. The zip file you receive contains two folders:
   * **Default** - this folder always contains the original built-in templates.
   * **Custom** - this folder is included only when there are customized templates and contains the modified templates.
 * **Upload Templates (2)** - clicking this lets you upload a zip file containing your modified templates to apply them. Two rules apply:
