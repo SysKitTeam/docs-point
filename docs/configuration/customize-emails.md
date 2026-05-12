@@ -150,7 +150,7 @@ Here you can:
   * The file name must match the original template name exactly. 
     * Files with unrecognized names are ignored.
 * **Reset All to Default (3)** - clicking this removes all customized templates and reverts to the default built-in Point templates.
-* Clicking **Save** stores any changes you made. 
+* Clicking **Save (4)** stores any changes you made. 
 
 
 ![Access Review - E-mail Preview](../../static/img/customize-emails-e-mail-templates.png)
