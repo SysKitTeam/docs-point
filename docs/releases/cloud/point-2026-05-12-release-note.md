@@ -20,6 +20,7 @@ description: This article lists new features, improvements, and bug fixes in the
      * The accepted risk(s) are then excluded from the workspace's risk score.
    * When accepting a risk, you can **select the time frame** for how long the risk should be accepted.
      * Once that time passes, the **risk is automatically re-evaluated and will reappear** if it is still present.
+  * [See the Risky Workspaces article for more details](../../governance-and-automation/security-compliance-checks/risky-workspaces.md)
 
 * **E-mail templates can now be managed in Syskit Point settings.**
   * A new **E-mail Templates** section is available in the Point E-mail Settings, where you can download, upload, or reset the email templates used by Syskit Point.
@@ -27,6 +28,7 @@ description: This article lists new features, improvements, and bug fixes in the
      * Use the **Upload Templates** option to upload your modified templates as a zip file.
        * Modified templates take effect immediately for all subsequent emails.
      * Use the **Reset All to Default** option to remove all customizations and revert to the default templates.
+  * [Find more information about E-mail templates in the E-mail customization article](../../configuration/customize-emails.md/#e-mail-templates)
 
 ## Improvements & Bug Fixes
 
