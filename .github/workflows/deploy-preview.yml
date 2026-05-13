@@ -1,0 +1,130 @@
+# Deploys a Cloudflare Workers preview of the docs-point site for a pull request
+# when an authorized user comments `/preview` on the PR.
+#
+# Notes:
+# - Triggered by `issue_comment` so we can scope deploys to explicit human intent.
+# - Skips PRs from forks: even though `issue_comment` workflows have access to
+#   secrets, building untrusted fork code with our credentials is unsafe.
+# - Deploys without `--env`, which means wrangler uses the top-level `[assets]`
+#   block in `wrangler.toml` and ignores the production/staging routes.
+name: Deploy PR Preview
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  pull-requests: write
+  contents: read
+  issues: write
+
+concurrency:
+  group: preview-pr-${{ github.event.issue.number }}
+  cancel-in-progress: true
+
+jobs:
+  deploy-preview:
+    if: >-
+      github.event.issue.pull_request &&
+      contains(github.event.comment.body, '/preview') &&
+      (github.event.comment.author_association == 'OWNER' ||
+       github.event.comment.author_association == 'MEMBER' ||
+       github.event.comment.author_association == 'COLLABORATOR')
+    runs-on: ubuntu-latest
+    env:
+      WORKER_NAME: docs-point-pr-${{ github.event.issue.number }}
+
+    steps:
+      - name: React to trigger comment
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          comment-id: ${{ github.event.comment.id }}
+          reactions: rocket
+
+      - name: Resolve PR head
+        id: pr
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr view ${{ github.event.issue.number }} \
+            --repo ${{ github.repository }} \
+            --json headRefOid,headRefName,headRepositoryOwner,isCrossRepository \
+            > pr.json
+          echo "sha=$(jq -r .headRefOid pr.json)" >> "$GITHUB_OUTPUT"
+          echo "ref=$(jq -r .headRefName pr.json)" >> "$GITHUB_OUTPUT"
+          echo "fork=$(jq -r .isCrossRepository pr.json)" >> "$GITHUB_OUTPUT"
+
+      - name: Reject fork PRs
+        if: steps.pr.outputs.fork == 'true'
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            :no_entry: Preview deployments are not available for pull requests from forks.
+            Please open the PR from a branch in this repository.
+
+      - name: Stop on fork PR
+        if: steps.pr.outputs.fork == 'true'
+        run: exit 1
+
+      - name: Checkout PR head
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ steps.pr.outputs.sha }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build site
+        run: npm run build
+
+      - name: Deploy to Cloudflare Workers
+        id: deploy
+        run: |
+          npx wrangler deploy --name "$WORKER_NAME" | tee deploy.log
+          # Wrangler prints the deployed URL on a line like
+          #   "  https://docs-point-pr-123.<subdomain>.workers.dev"
+          url=$(grep -Eo 'https://[a-zA-Z0-9.-]+\.workers\.dev' deploy.log | head -n1)
+          if [ -z "$url" ]; then
+            echo "::error::Could not determine deployed worker URL from wrangler output."
+            exit 1
+          fi
+          echo "url=${url}/point/" >> "$GITHUB_OUTPUT"
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Find existing preview comment
+        id: find-comment
+        uses: peter-evans/find-comment@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          comment-author: 'github-actions[bot]'
+          body-includes: '<!-- docs-point-preview -->'
+
+      - name: Post or update preview comment
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          comment-id: ${{ steps.find-comment.outputs.comment-id }}
+          issue-number: ${{ github.event.issue.number }}
+          edit-mode: replace
+          body: |
+            <!-- docs-point-preview -->
+            ### :rocket: docs-point preview deployed
+
+            | | |
+            |---|---|
+            | **Preview URL** | ${{ steps.deploy.outputs.url }} |
+            | **Worker** | `${{ env.WORKER_NAME }}` |
+            | **Commit** | `${{ steps.pr.outputs.sha }}` |
+            | **Branch** | `${{ steps.pr.outputs.ref }}` |
+            | **Updated** | ${{ github.event.comment.created_at }} |
+
+            Comment `/preview` again to redeploy the latest commit.
+            The preview is automatically removed when this PR is closed.
