@@ -18,12 +18,9 @@ Learn more in the [Workspace Review documentation](../workspace-review/).
 :::
 
 To start with the configuration, navigate to **Settings** > **Governance** > **Access Review Options**
-Here, you can find 3 sections:
+Here, you can find the following sections:
 * **Manage Reviewers**
 * **Review Options**
-* **Customize E-mail**
-
-Access Review e-mail customization is described in the [following article](../../configuration/customize-emails.md#customize-access-review-e-mails).
 
 ## Manage Reviewers
 
