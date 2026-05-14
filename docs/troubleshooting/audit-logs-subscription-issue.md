@@ -28,9 +28,9 @@ Enable-OrganizationCustomization
 
 Or:
 
-```powershell
+```console
 Enable-OrganizationCustomization:
-This operation is not required. Organization is already enabled \f\o\r customization.
+This operation is not required. Organization is already enabled for customization.
 ```
 
 ## Solution
@@ -69,7 +69,7 @@ Enable-OrganizationCustomization
 
 You may see the following output:
 
-```powershell
+```console
 This operation is not required. Organization is already enabled for customization.
 ```
 
@@ -156,7 +156,7 @@ Connect-ExchangeOnline
 * Exchange Online PowerShell must be used for these commands.
 * Global Administrator permissions are recommended.
 
-:::information
+:::info
 For initial setup steps and details on enabling auditing from Syskit Point's perspective, see [Turn On Auditing](../configuration/turn-on-auditing.md).
 :::
 
