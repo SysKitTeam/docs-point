@@ -40,19 +40,19 @@ There are two supported ways to enable auditing:
 * **Microsoft Purview portal** (recommended)
 * **Exchange Online PowerShell**
 
-### Option 1: Enable auditing in Microsoft Purview (recommended)
+### Option 1: Enable Auditing in Microsoft Purview (Recommended)
 
 This is the fastest and easiest approach.
 
-1. Open the [Microsoft Purview audit search portal](https://purview.microsoft.com/audit/auditsearch).
-2. Sign in with a **Global Administrator** or **Compliance Administrator** account.
-3. If auditing is not enabled, you will see a banner with a button similar to ***Start recording user and admin activity***.
-4. Click the button to enable auditing.
-5. Wait for Microsoft 365 to complete provisioning.
+1. **Open** the [Microsoft Purview audit search portal](https://purview.microsoft.com/audit/auditsearch).
+2. **Sign in** with a **Global Administrator** or **Compliance Administrator** account.
+3. If auditing is not enabled, a banner with the ***Start recording user and admin activity*** button is shown.
+4. **Click the button** to enable auditing.
+5. **Wait** for Microsoft 365 to complete provisioning.
 
-### Option 2: Enable auditing with PowerShell
+### Option 2: Enable Auditing With PowerShell
 
-#### Step 1: Install and connect to Exchange Online PowerShell
+#### Step 1: Install and Connect to Exchange Online PowerShell
 
 ```powershell
 Install-Module ExchangeOnlineManagement -Scope CurrentUser
@@ -61,13 +61,13 @@ Import-Module ExchangeOnlineManagement
 Connect-ExchangeOnline
 ```
 
-#### Step 2: Enable organization customization
+#### Step 2: Enable Organization Customization
 
 ```powershell
 Enable-OrganizationCustomization
 ```
 
-Possible output:
+You may see the following output:
 
 ```powershell
 This operation is not required. Organization is already enabled for customization.
@@ -75,27 +75,26 @@ This operation is not required. Organization is already enabled for customizatio
 
 This is normal and simply means customization has already been enabled previously.
 
-#### Step 3: Enable Unified Audit Log ingestion
+#### Step 3: Enable Unified Audit Log Ingestion
 
 ```powershell
 Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true
 ```
 
-#### Step 4: Verify configuration
+#### Step 4: Verify Configuration
 
 ```powershell
 Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled
 ```
 
-Expected result:
+The expected result is:
 
 ```powershell
 UnifiedAuditLogIngestionEnabled : True
 ```
 
 :::warning
-**Propagation delay**
-
+**Please note!**
 Microsoft 365 audit configuration changes are not always immediate. Even after enabling auditing successfully:
 
 * PowerShell commands may still fail temporarily
@@ -105,7 +104,7 @@ Microsoft 365 audit configuration changes are not always immediate. Even after e
 According to Microsoft documentation, changes can take from **30 minutes** to **several hours**, and **up to 72 hours** in some environments. This is especially common in developer, trial, and newly created tenants.
 :::
 
-## Common scenario
+## Common Scenario
 
 A common sequence is:
 
@@ -117,15 +116,15 @@ A common sequence is:
 
 In many cases, simply waiting and retrying later resolves the issue.
 
-## Troubleshooting checklist
+## Troubleshooting Checklist
 
-### Verify auditing status in Purview
+### Verify Auditing Status in Purview
 
-Open the [Microsoft Purview audit search portal](https://purview.microsoft.com/audit/auditsearch).
+**Open** the [Microsoft Purview audit search portal](https://purview.microsoft.com/audit/auditsearch).
 
 If you see ***Start recording user and admin activity***, auditing is not enabled yet.
 
-### Verify PowerShell status
+### Verify PowerShell Status
 
 Run:
 
@@ -141,18 +140,16 @@ UnifiedAuditLogIngestionEnabled : False
 
 Auditing is still disabled.
 
-### Use a fresh PowerShell session
+### Use a Fresh PowerShell Session
 
-Sometimes stale sessions cause misleading errors. Reconnect:
+Sometimes stale sessions cause misleading errors. Reconnect and retry the command:
 
 ```powershell
 Disconnect-ExchangeOnline -Confirm:$false
 Connect-ExchangeOnline
 ```
 
-Then retry the command.
-
-## Additional notes
+## Additional Notes
 
 * Production tenants usually already have auditing enabled by default.
 * This issue is more common in development or newly provisioned tenants.
@@ -165,7 +162,7 @@ For initial setup steps and details on enabling auditing from Syskit Point's per
 
 ## References
 
-Microsoft Learn:
+You can find additional information in the following Microsoft Learn articles:
 
 * [Turn auditing on or off](https://learn.microsoft.com/en-us/purview/audit-log-enable-disable#turn-on-auditing)
 * [Enable-OrganizationCustomization](https://learn.microsoft.com/en-us/powershell/module/exchange/enable-organizationcustomization)
