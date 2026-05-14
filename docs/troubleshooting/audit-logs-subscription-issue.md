@@ -16,7 +16,7 @@ It is most commonly encountered in:
 
 You may see the following warning in Syskit Point:
 
-> Audit Logs Subscription issue! Audit logs subscription is not enabled. Please contact your Administrators or Syskit Support for help.
+```Audit Logs Subscription issue! Audit logs subscription is not enabled. Please contact your Administrators or Syskit Support for help.```
 
 You may also encounter PowerShell errors similar to:
 
@@ -30,7 +30,7 @@ Or:
 
 ```powershell
 Enable-OrganizationCustomization:
-This operation is not required. Organization is already enabled for customization.
+This operation is not required. Organization is already enabled \f\o\r customization.
 ```
 
 ## Solution
@@ -156,7 +156,7 @@ Connect-ExchangeOnline
 * Exchange Online PowerShell must be used for these commands.
 * Global Administrator permissions are recommended.
 
-:::tip
+:::information
 For initial setup steps and details on enabling auditing from Syskit Point's perspective, see [Turn On Auditing](../configuration/turn-on-auditing.md).
 :::
 
