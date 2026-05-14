@@ -32,8 +32,10 @@ When you initially connect your tenant to Syskit Point, **Syskit Point collects 
 Syskit Point will not collect audit log data before it becomes available in the Microsoft Purview portal. **It can take up to 24 hours for audit log data to become available.**
 :::
 
-:::info
-**Hint!**  
-You can also use **PowerShell** to turn on auditing. Find detailed instructions on how to do so in the [following article](https://docs.microsoft.com/en-us/microsoft-365/compliance/turn-audit-log-search-on-or-off).
-:::
+## Related Articles
+
+* You can also use **PowerShell** to turn on auditing. Find detailed instructions on how to do so in this Microsoft article
+  * [Turn audit log search on or off](https://docs.microsoft.com/en-us/microsoft-365/compliance/turn-audit-log-search-on-or-off)
+* If Syskit Point continues to display the *Audit Logs Subscription issue* warning after enabling auditing, see this article for troubleshooting steps
+  * [Audit Logs Subscription Issue](../troubleshooting/audit-logs-subscription-issue.md)
 
