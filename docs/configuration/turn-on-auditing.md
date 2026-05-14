@@ -37,3 +37,7 @@ Syskit Point will not collect audit log data before it becomes available in the 
 You can also use **PowerShell** to turn on auditing. Find detailed instructions on how to do so in the [following article](https://docs.microsoft.com/en-us/microsoft-365/compliance/turn-audit-log-search-on-or-off).
 :::
 
+:::tip
+If Syskit Point continues to display the *Audit Logs Subscription issue* warning after enabling auditing, see [Audit Logs Subscription Issue](../troubleshooting/audit-logs-subscription-issue.md) for troubleshooting steps and Microsoft 365 propagation details.
+:::
+

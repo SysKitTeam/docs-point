@@ -881,6 +881,7 @@ const sidebars: SidebarsConfig = {
         'troubleshooting/export-diagnostic-logs',
         'troubleshooting/setup-diagnostic-logs-export',
         'troubleshooting/analytics-and-usage-report-issues',
+        'troubleshooting/audit-logs-subscription-issue',
         'troubleshooting/unexpected-audit-logs',
       ],
     },
