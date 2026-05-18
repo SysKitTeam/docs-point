@@ -52,6 +52,17 @@ The default columns displayed in the overview are the following:
 
 There are additional columns available in the **column chooser**, located in the top right part of the overview. The additional columns available are:
 
+* Files 
+  * Shows the total number of files
+* Files with Sensitivity Label 
+  * Shows the number of files that have any sensitivity label applied
+* % Files with Sensitivity Label 
+  * Shows the percentage of files that have any sensitivity label applied
+* Sensitive Files 
+  * Shows the number of files to which one of the labels marked as “Sensitive Content” has been applied (Syskit Point Settings > General)
+* % Sensitive Files
+  * Shows the percentage of files with a label marked as Sensitive Content
+* Restrictions 
  * Connected Site
  * Site Archive Status
  * Team Archived 
@@ -76,7 +87,6 @@ There are additional columns available in the **column chooser**, located in the
  * Department
  * Sensitive Anonymous Links
  * Sensitive Company-Wide Links
- * Sensitive Files
  * Admins
  * Number of Owners
  * Anonymous Links
