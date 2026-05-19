@@ -22,9 +22,14 @@ description: This article lists new features, improvements, and bug fixes in the
   * Additional filters are now available: **Connection Type**, **Status**, **Created By**, and **Creator sign-in status**.
   * When opening connections directly from the dashboard, a message now guides you to use the report with filters for more actionable results.
 
+  
+* **Improvements made to** Excel report exports.
+  * Large reports are now automatically split across multiple sheets when the row limit of a single sheet is exceeded, ensuring all data is included in the exported file.
+
 * **Fixed an issue** with the count limit option when setting Storage Versioning Limits.
   * The Count Limit checkbox is now disabled and cannot be turned off, due to Microsoft's required retention limits.
   * [For more details, please take a look at this article.](../../storage-management/versioning-limits.md)
+
 
 * **Fixed a bug** where adding guest users to private Teams channels failed with an error, even when the action was permitted.
 
