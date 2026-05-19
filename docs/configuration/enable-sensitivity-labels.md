@@ -4,12 +4,14 @@ description: This article explains how to enable the usage of sensitivity labels
 
 # Enable Sensitivity Labels
 
-Sensitivity labels classify and protect workspaces when users create them through provisioning workflows. To use sensitivity labels in Syskit Point, complete the setup steps in both Microsoft and Syskit Point.
+**Sensitivity labels help organizations classify and protect content** based on its sensitivity. Before sensitivity labels can be used in Syskit Point, they first have to be configured in Microsoft 365. This includes creating and publishing sensitivity labels in the Microsoft compliance center, as well as enabling sensitivity labels for supported containers. 
 
-**In Microsoft** — complete these steps first:
+To use sensitivity labels in Syskit Point, make sure the folloowing steps are completed: 
+
+**In Microsoft**, complete these steps first:
 * **Sensitivity labels are created and published** in the [Microsoft Purview compliance portal](https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabels)
   * [Learn how to create and configure sensitivity labels and their policies](https://docs.microsoft.com/en-us/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide)
-* **Sensitivity labels are enabled for containers** — Microsoft Teams sites, Microsoft 365 groups, and SharePoint sites
+* **Sensitivity labels are enabled for containers**  (Microsoft Teams sites, Microsoft 365 groups, and SharePoint sites)
   * [Learn how to enable sensitivity labels for containers](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels-teams-groups-sites?view=o365-worldwide#enable-this-preview-and-synchronize-labels)
 
 :::warning
@@ -25,6 +27,7 @@ The connected service account enables Syskit Point to:
 * **Apply sensitivity labels when creating new workspaces with provisioning workflows**
 
 ## Service Account Requirements
+
 When preparing a service account for Syskit Point, consider the following requirements:
 
 * **Multifactor authentication can be enabled for the service account**, but it isn't mandatory
@@ -45,6 +48,8 @@ Learn more about how to set up multifactor authentication for Microsoft 365 by t
 
 ## Sensitive Files
 
+The Sensitive Content setting lets you **define which sensitivity labels Syskit Point treats as sensitive**. Files marked with those labels are then detected and highlighted across reports that display sensitive content.
+
 :::warning
 **Please note!**  
 For sensitive files to be detected and shown in Syskit Point reports, you need to configure this in the Settings of Syskit Point.
@@ -58,7 +63,7 @@ To enable sensitive files being shown in reports, **go to Settings**.
   * Content marked with this label is shown in reports that display sensitive content
 * **Click Save (3)** to finalize your selection
 
-![Settings - Sensitive Content](/img/copilot-readiness-tile-sensitive-files.png)
+![Copilot Readiness Tile - Settings for Sensitive Files](../../static/img/copilot-readiness-tile-sensitive-files.png)
 
 ## Next Steps
 
