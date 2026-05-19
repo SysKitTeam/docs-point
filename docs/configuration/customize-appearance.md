@@ -11,6 +11,7 @@ In this article, we will cover the following customizations.
 * [Logo](customize-appearance.md#logo)
 * [Banner](customize-appearance.md#banner)
 * [Colors](customize-appearance.md#colors)
+* [Support Link](customize-appearance.md#support-link)
 * [Dark Mode](customize-appearance.md#dark-mode)
 
 :::info
@@ -80,6 +81,31 @@ To select your colors:
 * **Click Save (6)** to store the settings if you are satisfied with your changes.
 
 ![Syskit Point - Appearance - Colors](../../static/img/customize-appearance-colors.png)
+
+## Support Link
+
+You can also **control what collaborators see in the Help & Support menu of Syskit Point**. By default, collaborators see the same Syskit support link as admins, but you can change or remove it entirely.
+
+:::info
+
+**Please note**: This setting only affects collaborators. Admins still see the default Syskit support link in the Help & Support menu, regardless of this configuration.
+
+:::
+
+To customize the support link, navigate to the **Customize Support Link for Collaborators (1)** section on the Appearance screen. 
+
+The following options are available:
+
+* **Default Syskit support link (2)** - collaborators see the same Syskit support link as admins. This is the default setting.
+* **Remove support link (3)** - collaborators do not see any support link in the Help & Support menu.
+* **Show custom support link (4)** - lets you provide your own URL that collaborators will see instead of the default Syskit link.
+  * If you select Show custom support link, an additional field appears where you can **enter your custom URL (5)**.
+
+Once you have selected your preferred option, **click Save (6) to store the settings**.
+
+
+![Syskit Point - Appearance - Customize Support Link](../../static/img/customize-appearance-support-link.png)
+
 
 ## Dark Mode
 
