@@ -1,16 +1,16 @@
 ---
-description: This article lists improvements and bug fixes in Syskit Point version 2026.2.136
+description: This article lists improvements and bug fixes in Syskit Point version 2026.2.141
 ---
 
-# Syskit Point 2026.2.136
+# Syskit Point 2026.2.141
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think.](https://www.syskit.com/company/contact-us/)
 
-**Product version:** 2026.2.136
+**Product version:** 2026.2.141
 
-**Build number:** 39
+**Build number:** XX
 
-**Release date:** April 14, 2026
+**Release date:** May 20, 2026
 
 ## Get the Latest Version
 
