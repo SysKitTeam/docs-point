@@ -67,8 +67,16 @@ To enable sensitive files being shown in reports, **go to Settings**.
 
 ## Next Steps
 
-To connect a service account in Syskit Point, please follow the instructions provided in [this article](../../configuration/connect-service-account.md ).
+To connect a service account in Syskit Point, please follow the instructions provided in [this article](../configuration/connect-service-account.md ).
 
 Once the service account is connected to Syskit Point, you can specify a sensitivity label when creating provisioning templates.
 
-To learn more about templates and available options while setting them up, open the [following article](templates.md).
+To learn more about templates and available options while setting them up, open the [following article](../governance-and-automation/provisioning/templates.md).
+
+## Related Articles
+
+* [Manage Sensitivity Labels](../governance-and-automation/manage-sensitivity-labels.md)
+* [Sensitivity Review](../governance-and-automation/sensitivity-review/README.md)
+* [Sensitivity Labels Reports](../reporting/sensitivity-labels.md)
+
+

@@ -99,7 +99,7 @@ Please note that available options depend on defined tenant-level external shari
   * Specific user(s)
     * If a specific user(s) is selected, the name of at least one specific user needs to be entered in the provided space.
 * **Sensitivity Label (10)** - choose from the available sensitivity labels in your tenant to define which are applied to all workspaces created from the template.
-  * To use sensitivity labels in Syskit Point, make sure to set up your environment as described in the [following article](enable-sensitivity-labels.md).
+  * To use sensitivity labels in Syskit Point, make sure to set up your environment as described in the [following article](../../configuration/enable-sensitivity-labels.md).
 * **Terms & Conditions (11)** - define the terms & conditions text displayed to end-users when they request a new workspace.
 * **Custom Metadata (12)** - custom metadata provides expanded information collected and included in reports. Set up which fields users will need to input or select for the custom metadata when using the template.
   * If no custom metadata was created, it can be set up directly in the form by selecting **Create New Custom Field**.
