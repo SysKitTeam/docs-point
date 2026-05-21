@@ -540,6 +540,7 @@ const sidebars: SidebarsConfig = {
         'configuration/configure-storage-management',
         'configuration/set-up-email',
         'configuration/connect-service-account',
+        'configuration/enable-sensitivity-labels',
         'configuration/customize-audit-logs-collection',
         'configuration/upgrade-SQL-to-managed-identity-authentication',
         'configuration/ignore-service-account-activity-tracking',
@@ -703,7 +704,6 @@ const sidebars: SidebarsConfig = {
           items: [
             'governance-and-automation/provisioning/set-up-provisioning',
             'governance-and-automation/provisioning/enable-disable-provisioning',
-            'governance-and-automation/provisioning/enable-sensitivity-labels',
             'governance-and-automation/provisioning/restrict-group-creation',
             'governance-and-automation/provisioning/templates',
             'governance-and-automation/provisioning/content-and-structure',

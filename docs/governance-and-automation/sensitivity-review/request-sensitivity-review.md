@@ -61,7 +61,11 @@ After that, the dialog confirms that the task has been sent and lets you know th
 
 ## Related Articles
 
-Learn how workspace owners can review and update sensitivity labels on their workspaces
 * [Complete Sensitivity Review Tasks](../../point-collaborators/resolve-governance-tasks/sensitivity-review.md)
 
+* [Enable Sensitivity Labels](../../configuration/enable-sensitivity-labels.md)
+
+* [Manage Sensitivity Labels](../../governance-and-automation/manage-sensitivity-labels.md)
+
+* [Sensitivity Labels Reports](../../reporting/sensitivity-labels.md)
 

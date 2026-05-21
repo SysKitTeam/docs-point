@@ -47,6 +47,19 @@ The default columns displayed in the overview are the following:
 
 Additional columns are available in the **column chooser**, located in the top right of the overview. The additional columns available are:
 
+
+* Files 
+  * Shows the total number of files
+* Files with Sensitivity Label 
+  * Shows the number of files that have any sensitivity label applied
+* % Files with Sensitivity Label 
+  * Shows the percentage of files that have any sensitivity label applied
+* Sensitive Files 
+  * Shows the number of files to which one of the labels marked as “Sensitive Content” has been applied (Syskit Point Settings > General)
+* % Sensitive Files
+  * Shows the percentage of files with a label marked as Sensitive Content
+* Restrictions 
+  * Displays whether a site has: **Restricted Access**, if access to the site is restricted to members of whitelisted groups, **Restricted Content Discoverability**, if site content is exempt from Microsoft 365 Copilot, **Restricted Access and Restricted Content Discoverability**, in case both restrictions are applied on the site, or **No Restrictions**, if no access restrictions are applied to the site
  * Site Type
  * Archive Status
  * Archived By
@@ -56,8 +69,6 @@ Additional columns are available in the **column chooser**, located in the top r
  * Can be Restored
  * Activity
  * Sensitivity Label
- * Restrictions
-     * Displays whether a site has: **Restricted Access**, if access to the site is restricted to members of whitelisted groups, **Restricted Content Discoverability**, if site content is exempt from Microsoft 365 Copilot, **Restricted Access and Restricted Content Discoverability**, in case both restrictions are applied on the site, or **No Restrictions**, if no access restrictions are applied to the site
  * Template
  * Storage Limit
  * Storage Warning Level
@@ -79,7 +90,6 @@ Additional columns are available in the **column chooser**, located in the top r
  * Department
  * Sensitive Anonymous Links
  * Sensitive Company-Wide Links
- * Sensitive Files
  * Admins
  * Number of Owners
  * Anonymous Links
