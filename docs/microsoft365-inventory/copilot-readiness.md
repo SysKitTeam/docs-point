@@ -31,6 +31,8 @@ To enable sensitive files being shown on the Copilot Readiness score **go to Set
 
  * Under **General**, navigate to the **Sensitive Content section (1)**
  * **Click the arrow (2)** to open selection box where you can **check the box for the sensitivity labels** you want included in the sensitive files reports
+   * Selecting sensitivity labels lets you appropriately tag content you consider senesitive. 
+   * Content marked with this label is shown in reports that display sensitive content. 
 * **Click Save (3)** to finalize your selection
 
 ![Copilot Readiness Tile - Settings for Sensitive Files](../../static/img/copilot-readiness-tile-sensitive-files.png)

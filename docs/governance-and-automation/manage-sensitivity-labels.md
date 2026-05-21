@@ -6,7 +6,7 @@ description: This article explains how to manage sensitivity labels on your work
 
 :::warning
 **Please note!**  
-To use sensitivity labels, a service account needs to be connected to Syskit Point. For details on how to set up sensitivity labels, take a look at the [Enable Sensitivity Labels article](provisioning/enable-sensitivity-labels.md). 
+To use sensitivity labels, a service account needs to be connected to Syskit Point. For details on how to set up sensitivity labels, take a look at the [Enable Sensitivity Labels article](../configuration/enable-sensitivity-labels.md). 
 :::
 
 Once set up, **Syskit Point admins and workspace owners can apply or remove sensitivity labels from workspaces**.
@@ -47,3 +47,9 @@ Clicking Remove Sensitivity Label opens the Remove Sensitivity Label modal.
 * When a sensitivity label is not updated via the SharePoint Admin Center, Microsoft does not create a site log for the sensitivity label change, only a log for the associated group.
 
 :::
+
+## Related Articles
+
+* [Enable Sensitivity Labels](../configuration/enable-sensitivity-labels.md)
+* [Sensitivity Review](../governance-and-automation/sensitivity-review/README.md)
+* [Sensitivity Labels Reports](../reporting/sensitivity-labels.md)

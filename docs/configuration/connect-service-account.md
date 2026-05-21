@@ -5,7 +5,7 @@ description: This article explains how to connect a service account to Syskit Po
 # Connect Service Account
 
 **A service account** in Syskit Point is utilized for:
- * [Sensitivity labels in provisioning templates](../governance-and-automation/provisioning/enable-sensitivity-labels.md)
+ * [Sensitivity labels](../configuration/enable-sensitivity-labels.md)
  * [Applying Versioning limits to workspaces via rules](../storage-management/versioning-limits.md)
 
 To connect the service account in Syskit Point:

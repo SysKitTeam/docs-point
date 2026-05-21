@@ -98,3 +98,9 @@ The additional columns available in the **column chooser**, located in the top r
 * **Workspace Privacy**
 
 The Sensitivity Labels Inventory report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+
+## Related Articles
+
+* [Enable Sensitivity Labels](../configuration/enable-sensitivity-labels.md)
+* [Manage Sensitivity Labels](../governance-and-automation/manage-sensitivity-labels.md)
+* [Sensitivity Review](../governance-and-automation/sensitivity-review/README.md)
