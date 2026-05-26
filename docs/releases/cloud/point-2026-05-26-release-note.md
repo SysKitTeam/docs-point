@@ -21,7 +21,7 @@ description: This article lists new features, improvements, and bug fixes in the
 
 * **The license expiration notification banner** is now displayed again to administrators when their subscription is approaching its renewal date.
   * The banner includes a link to the **Settings** > **Point License** page for reviewing subscription details.
-  * Clicking the link dismisses the banner until the next log in.
+  * Clicking the link dismisses the banner until the next login.
 
 * **Fixed an issue** where the SharePoint sync on larger tenants could get stuck repeatedly stopping and restarting instead of completing.
   * Long-running site syncs now complete without being interrupted.
