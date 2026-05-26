@@ -23,7 +23,7 @@ description: This article lists new features, improvements, and bug fixes in the
   * The banner includes a link to the **Settings** > **Point License** page for reviewing subscription details.
   * Clicking the link dismisses the banner until the next login.
 
-* **Fixed an issue** where the SharePoint sync on larger tenants could get stuck repeatedly stopping and restarting instead of completing.
+* **Fixed an issue** where the SharePoint sync on larger tenants could get stuck, repeatedly stopping and restarting instead of completing.
   * Long-running site syncs now complete without being interrupted.
 
 * **Various improvements, including UX and UI fixes, have been implemented.**
