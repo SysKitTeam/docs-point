@@ -4,7 +4,7 @@ description: This article provides a step-by-step guide on how to get a free 21-
 
 # Free Trial
 
-**Syskit Point trial** enables you to **test drive Syskit Point for free for 21 days** and discover how to utilize it when managing your Microsoft 365 environment. 
+**The Syskit Point trial** enables you to **test drive Syskit Point for free for 21 days** and discover how to utilize it when managing your Microsoft 365 environment. 
 
 In this article, you can find out **how and where to get your 21 days of Syskit Point trial**.
 
@@ -13,60 +13,18 @@ In this article, you can find out **how and where to get your 21 days of Syskit 
 This article shows how to get a free trial of the Syskit Point solution as a service. If your company policies require using a self-hosted solution, please [contact us](https://www.syskit.com/company/contact-us) to acquire a trial key.
 :::
 
-There are two steps to exploring Syskit Point in the free trial:
-* **Try Syskit Point with demo data**
-  * Sign up with any e-mail
-  * No additional permissions or consents are required
-  * Syskit Point shows demo data right after signing up 
-* **Try Syskit Point with your Microsoft 365 tenant data for free for 21 days**
-  * You will be prompted to connect your Microsoft 365 tenant and provide Global Admin consent
-  * Syskit Point will sync and display data from your Microsoft 365 tenant
+Getting started with Syskit Point Cloud has two steps:
 
-:::warning
-**Please note!**&#x20;
-To connect your Microsoft 365 tenant, you first need to sign up. 
-:::
+1. [**Sign up and explore Syskit Point with demo data**](demo-data.md) - no Microsoft 365 tenant or admin consent needed; get access immediately with any email.
+2. **Connect your Microsoft 365 tenant** to start your 21-day free trial with your own data - requires Global Admin consent.
 
-## Get Syskit Point with Demo Data
+## Sign Up and Access Demo Data
 
-Syskit Point with demo data enables you to explore the main features and capabilities without connecting your Microsoft 365 tenant.
-Still, there are some limits:
-* **Syskit Point settings are not available**
-  * To explore Syskit Point settings, you need to connect your Microsoft 365 tenant
-* **Running actions is not available**
-  * To run actions, you need to connect your Microsoft 365 tenant
+Before connecting your tenant, you first need to sign up and access Syskit Point with demo data.
 
-To get started:
-* **Navigate to the [Free Trial start page](https://www.syskit.com/products/point/free-trial/)**
-* **Click the Start a Free Trial button**; you are redirected to a Sign Up form 
-* **Enter your e-mail (1)**
-* **Click the Send verification code button(2)**
+[Follow the steps in the Demo Data article to sign up.](demo-data.md)
 
-![Sign Up Form](../../static/img/free-trial-sign-up.png)
-
-You will receive an e-mail with the verification code.
-
-![Verification Code](../../static/img/free-trial-verification-code.png)
-
-Copy the verification code and return to the Sign Up form:
-* **Paste the received verification code (1)**
-* **Click Verify code (2)** to continue
-  * Use the Send new code button if the prior verification code expires
-
-![Verify Code](../../static/img/free-trial-verify-code.png)
-
-Next, provide information in the Sign Up form:
-* **Define and confirm your password**
-  * The sign-up results in a Syskit account that only you can access with the defined password
-* **Enter your first and last name**
-* **Enter the number of Microsoft 365 users in your company**
-* **Agree to the terms of service and privacy policy**
-* **Click Sign Up to finish**
-  * Note that all fields are required
-
-![Sign Up Information](../../static/img/free-trial-sign-up-information.png)
-
-**After a successful sign up**, **Syskit Point web app opens**, **and shows demo data**.
+Once you have access to Syskit Point, return here and continue with the Connect Your Tenant step below.
 
 ## Connect Your Tenant
 
