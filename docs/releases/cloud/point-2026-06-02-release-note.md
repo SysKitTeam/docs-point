@@ -14,8 +14,8 @@ description: This article lists new features, improvements, and bug fixes in the
 
 ## New Features
 
-* **New tile adde to the Dashboard: Cleanup Opportunities**
- * The new Cleanup Opportunities tile on the Syskit Point dashboard highlights actionable cleanup opportunities in your environment.
+* **New tile adde to the Dashboard: Cleanup Opportunities.**
+  * The new Cleanup Opportunities tile on the Syskit Point dashboard highlights actionable cleanup opportunities in your environment.
   * The tile shows metrics such as stale unique permissions from expired links, access that violates your current sharing policies, and files with permissions that haven't been used in a long time.
   * From the tile, you can fix issues directly, resolve them manually via the relevant report, or send feedback.
   * [For more details, take a look at the Cleanup Opportunities article.](../../microsoft365-inventory/cleanup-opportunities.md).
