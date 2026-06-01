@@ -26,7 +26,6 @@
 		"clsx": "^2.0.0",
 		"docusaurus-lunr-search": "^3.6.0",
 		"docusaurus-plugin-hubspot": "^1.0.1",
-		"html2canvas": "^1.4.1",
 		"jspdf": "^2.5.2",
 		"lunr": "^2.3.9",
 		"plugin-image-zoom": "github:flexanalytics/plugin-image-zoom",

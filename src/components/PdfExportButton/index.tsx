@@ -44,9 +44,8 @@ export default function PdfExportButton(): React.ReactNode {
     return () => document.removeEventListener('mousedown', handler);
   }, [open]);
 
-
   const run = useCallback(
-    async (includeImages: boolean, hybrid = false) => {
+    async (includeImages: boolean) => {
       if (!ExecutionEnvironment.canUseDOM) return;
       const articleEl = document.querySelector('article') as HTMLElement | null;
       if (!articleEl) return;
@@ -67,31 +66,17 @@ export default function PdfExportButton(): React.ReactNode {
           .map((b) => ({label: b.label ?? ''}))
           .filter((b) => b.label);
 
-        if (hybrid) {
-          const {hybridGeneratePdf} = await import('./hybridGeneratePdf');
-          await hybridGeneratePdf({
-            articleEl,
-            title: metadata.title,
-            sourceUrl,
-            siteBase,
-            breadcrumbs,
-            includeImages,
-            exportDate: getExportDate(),
-          });
-        } else {
-          const {generatePdf} = await import('./generatePdf');
-          await generatePdf({
-            articleEl,
-            title: metadata.title,
-            sourceUrl,
-            siteBase,
-            breadcrumbs,
-            includeImages,
-            exportDate: getExportDate(),
-          });
-        }
+        const {generatePdf} = await import('./generatePdf');
+        await generatePdf({
+          articleEl,
+          title: metadata.title,
+          sourceUrl,
+          siteBase,
+          breadcrumbs,
+          includeImages,
+          exportDate: getExportDate(),
+        });
       } catch (err) {
-        // Surface failures without crashing the page.
         // eslint-disable-next-line no-console
         console.error('[PdfExportButton] generation failed', err);
         if (typeof window !== 'undefined') {
@@ -108,7 +93,6 @@ export default function PdfExportButton(): React.ReactNode {
 
   // Articles without images get a single-action button (no dropdown), since
   // the two export modes would produce identical output.
-
   if (!hasImages) {
     return (
       <div
@@ -123,15 +107,6 @@ export default function PdfExportButton(): React.ReactNode {
           disabled={busy}
         >
           <span>{busy ? 'Generating\u2026' : 'Export PDF'}</span>
-        </button>
-        <button
-          type="button"
-          className={styles.trigger}
-          style={{marginLeft: 8}}
-          onClick={() => run(false, true)}
-          disabled={busy}
-        >
-          <span>{busy ? 'Generating…' : 'Hybrid (text+images)'}</span>
         </button>
       </div>
     );
@@ -180,14 +155,6 @@ export default function PdfExportButton(): React.ReactNode {
             onClick={() => run(false)}
           >
             PDF (text only)
-          </button>
-          <button
-            type="button"
-            className={styles.menuItem}
-            role="menuitem"
-            onClick={() => run(true, true)}
-          >
-            Hybrid (text+images)
           </button>
         </div>
       )}
