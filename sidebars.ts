@@ -567,6 +567,7 @@ const sidebars: SidebarsConfig = {
       },
       items: [
         'reporting/overview',
+        'reporting/exported-reports',
         'reporting/external-sharing-reports',
         'reporting/access-reports',
         'reporting/audit-reports',
