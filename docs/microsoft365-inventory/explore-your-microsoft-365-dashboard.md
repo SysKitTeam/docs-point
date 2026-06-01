@@ -12,7 +12,7 @@ You can use Dashboard to:
 * **Find summary data** on your workspaces, internal and external users, sharing links, and used storage - all numbers are drillable, taking you to the related reports, which will show more details.
 * **Detect potential issues**, for example, if your environment has inactive or orphaned workspaces.
 
-The Dashboard is the home page of Syskit Point and shows as soon as you log in. 
+The Dashboard is the home page of Syskit Point and is shown as soon as you log in. 
 
 The **Syskit Point** Dashboard shows Syskit Point administrators the following information in the tiles:
 
@@ -27,7 +27,9 @@ The **Syskit Point** Dashboard shows Syskit Point administrators the following i
 * [License Optimization](#license-optimization)
 * [Power Platform](#power-platform)
 * [Workspace Sensitivity](#workspace-sensitivity)
-* [SharePoint Agents](#sharepoint-agents)
+* [AI Agents](#AI-agents)
+* [Workspace Review](#workspace-review)
+* [Cleanup Opportunities](#cleanup-opportunities)
 
 
 The **Syskit Point** Dashboard shows Syskit Point collaborators the following information in the tiles:
@@ -179,7 +181,7 @@ Clicking the External users opens the **Users Overview** screen with filtered ex
 
 Drill on the **Sites With External Sharing** number opens the **External Sharing** view on the **Sites Overview** screen. Here, you can find Microsoft Teams, Microsoft 365 Groups, sites, and OneDrive with **external sharing setting set to any other value than 'Only people in your organization'**.
 
-Clicking the **Anonymous Links** number opens the **Sharing Links** report in the Report Center. Here, only links shared with anyone are displayed. You can remove specific links with the help of actions available in the side panel.
+Clicking the **Anonymous Links** number opens the **Sharing Links** report in the Report Center. Here, only links shared with anyone are displayed. You can remove specific links with the help of the actions available in the side panel.
 
 The last information on this tile is the number of **Sites With Anonymous Sharing**. The drill opens the **Anonymous Sharing view** on the Sites Overview screen. Here, only workspaces with the external sharing settings set to **'Anyone'** are displayed.
 
@@ -239,7 +241,7 @@ The tile on the Dashboard shows:
 
 * License Overview section, which shows the **number of purchased licenses** and the **total annual cost** for your licenses
 
-* A chart thatr shows the number of:
+* A chart that shows the number of:
   * Active licenses
   * Active licenses assigned to an Inactive User
   * Unassigned licenses
@@ -303,7 +305,7 @@ The tile on the Dashboard shows:
 * **The number of Unlabeled Workspaces** - clicking on this or the **Ask Owners** button next to it opens the Workspaces Without a Sensitivity Label screen in the Security and Compliance checks section, where you can perform the **Apply Label** or **Ask Owners** actions.
   * [For details on how to resolve the Workspaces without a Sensitivity Label vulnerability, take a look at this article.](../governance-and-automation/security-compliance-checks/workspaces-without-sensitivity.md)
 
-* **Infomation box** - this provides some additional information on sensitivity labels in general as well as a link to an article that explains it in more detail
+* **Information box** - this provides some additional information on sensitivity labels in general as well as a link to an article that explains it in more detail
 
 * [For details on how to enable Sensitivity Labels in Point, take a look at this article.](../configuration/enable-sensitivity-labels.md)
 
@@ -312,17 +314,55 @@ The tile on the Dashboard shows:
 ![Workspace Sensitivity Tile](../../static/img/dashboard-workspace-sensitivity-tile.png)
 
 
-## SharePoint Agents 
+## AI Agents 
 
-The SharePoint Agents tile provides an **overview of all custom-built SharePoint Agents in your organization**. 
+The AI Agents tile provides an **overview of all custom-built agents in your organization**. 
 
 The tile on the Dashboard shows:
 
-* **The total number of custom SharePoint Agents** in your environment
-* **The number of newly added custom SharePoint Agents** in the past 30 days
-* **The Explore** button
+* The **total number of custom SharePoint Agents** in your environment and the number of **newly added custom SharePoint Agents** in the past 30 days
+  * Clicking the number opens the **Custom SharePoint Agents Inventory** report
+* The **total number of custom Copilot Agents** in your environment and the number of **newly added custom Copilot Agents** in the past 30 days
+  * Clicking the number opens the **Copilot Agents Inventory** report
+* **The number of custom orphaned agents**
+  * Clicking the number opens the **Copilot Agents Inventory** report with the filter set as Orphaned Copilot Agents
+* **The number of custom sensitive agents**
+  * Clicking the number opens the **Copilot Agents Inventory** report with the filter set as Sensitive Agents
 
 Clicking the Explore button opens the Custom SharePoint Agents Inventory report. [For more details on the report, take a look at this article.](../reporting/ai-agents-reports.md) 
 
-![SharePoint Agents Tile](../../static/img/dashboard-sharepoint-agents-tile.png)
+![AI Agents Tile](../../static/img/dashboard-sharepoint-agents-tile.png)
 
+## Workspace Review
+
+The **Workspace Review** tile shows the progress of current automated tasks.
+
+If the Workspace Review automation is not configured, the tile will help you navigate to the settings screen.
+
+* For more details, see the [Configure Workspace Review article](../governance-and-automation/workspace-review/setup-workspace-review.md)!
+
+When the Workspace Review is configured, the tile shows the following information:
+
+* The **number of workspaces reviewed**
+* The **number of actions performed** as part of a Workspace Review
+* The **top 3 used actions** with graphs showing the number estimate
+
+Clicking the **View All** button takes you to the [Workspace Review Insights screen](../governance-and-automation/workspace-review/monitor-workspace-review/workspace-review-insights.md)
+
+![Workspace Review Tile with Active Workspace Review Information](../../static/img/dashboard-workspace-review-tile.png)
+
+
+## Cleanup Opportunities
+
+The **Cleanup Opportunities** tile helps you identify and act on permission issues that build up over time, such as, stale unique permissions, inactive access, and sharing that no longer aligns with your current policies.
+
+The tile on the Dashboard shows the following:
+
+* The number of **Redundant Unique Permissions** and the Fix Now button that opens the **Unique Permissions** report
+* The number of **Inactive Unique Permissions** and the Fix Now button that opens the **Permissions Matrix** report
+* The number of **Leftover Anyone Links** and the Fix Now button that opens the **Sharing Links** report
+* The number of **Leftover External Users** and the Fix Now button that opens the **Externally Shared Content** report
+
+[For more details on the Cleanup Opportunities tile, take a look at this article.](cleanup-opportunities.md)
+
+![Cleanup Opportunities tile](../../static/img/dashboard-cleanup-opportunities-tile.png)
