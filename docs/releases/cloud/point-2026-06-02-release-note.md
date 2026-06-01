@@ -26,6 +26,8 @@ description: This article lists new features, improvements, and bug fixes in the
   * The Exported Reports button, located in the right corner of the Reports screen, provides access to an overview of reports that were generated and delivered to your email.
   * Clicking a link in a report delivery email takes you directly to the page and automatically starts the download.
   * If a report has expired, a message informs you that it can no longer be downloaded.
+  * [For more details, take a look at the Exported Reports article.](../../reporting/exported-reports.md).
+
 
 * **Reports can now be exported to CSV format.** 
   * The CSV format is availble both from the report view and when configuring scheduled report deliveries.
