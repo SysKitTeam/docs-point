@@ -14,20 +14,21 @@ description: This article lists new features, improvements, and bug fixes in the
 
 ## New Features
 
-* **New tile adde to the Dashboard: Cleanup Opportunities.**
+* **New tile added to the Dashboard: Cleanup Opportunities.**
   * The new Cleanup Opportunities tile on the Syskit Point dashboard highlights actionable cleanup opportunities in your environment.
-  * The tile shows metrics such as stale unique permissions from expired links, access that violates your current sharing policies, and files with permissions that haven't been used in a long time.
-  * From the tile, you can fix issues directly, resolve them manually via the relevant report, or send feedback.
+  * The tile shows the following metrics: redundant unique permissions, leftover anyone links, leftover external users, and inactive unique permissions.
+  * From the tile, you can click the Fix Now button to:  manually resolve the issues via the relevant report, or send feedback requesting automation.
   * [For more details, take a look at the Cleanup Opportunities article.](../../microsoft365-inventory/cleanup-opportunities.md).
 
 ## Improvements & Bug Fixes
 
 * **A new Exported Reports** page is now available on the Reports screen.
+  * When a report takes too long to generate or contains too much data, Syskit Point now offers to generate the export in the background and send it to you by e-mail when it's ready. 
+    * These reports can be downloaded from the Exported Reports page.
   * The Exported Reports button, located in the right corner of the Reports screen, provides access to an overview of reports that were generated and delivered to your email.
   * Clicking a link in a report delivery email takes you directly to the page and automatically starts the download.
   * If a report has expired, a message informs you that it can no longer be downloaded.
   * [For more details, take a look at the Exported Reports article.](../../reporting/exported-reports.md).
-
 
 * **Reports can now be exported to CSV format.** 
   * The CSV format is availble both from the report view and when configuring scheduled report deliveries.
@@ -45,12 +46,12 @@ description: This article lists new features, improvements, and bug fixes in the
   * **Error messages for Keep and Delete actions have been updated** to correctly describe the required conditions, such as being a site admin or having an active review task.
   **Fixed an issue** where the Keep, Archive, and Delete lifecycle action buttons were displayed in the side panel for users who did not have the required permissions to use them.
 
+* **Fixed a bug** where deleted sites unexpectedly triggered policy vulnerabilities displayed in the Security & Compliance dashboard. 
+  * Additionally, tasks were created, and e-mail notifications were sent if the applied policies had the Task Delegation option enabled.
 
-* **Fixed a bug** where deleted sites still triggered policy violations and e-mail notifications were sent when a task was delegated.
+* **Fixed a bug** where Sensitivity Labels and Sharing Settings were not applied to workspaces created using a template with the Copy structure and content option enabled.
 
-* **Fixed a bug** where Sensitivity Labels and Sharing Settings were not applied to workspaces created using a template with Structure and Content.
-
-* **Fixed a bug** where policies were not correctly handling deleted sites, causing incorrect policy violations to persist.
+* **Fixed a bug** where policies were not correctly handling deleted sites, causing incorrect policy vulnerabilities to persist.
 
 * **Fixed a bug** where archived workspaces were appearing in the Inactive Workspaces report.
 
@@ -60,6 +61,6 @@ description: This article lists new features, improvements, and bug fixes in the
 
 * **Fixed a bug** where the Policy Add Members step did not complete all member additions, which could result in some members not being added as expected.
 
-* **Fixed a bug** where a minimum owners policy violation on a SharePoint site incorrectly triggered the escalation to Add Members to All groups and teams in the tenant.
+* **Fixed a bug** where, on rare occasions, a minimum owners policy vulnerability on a SharePoint site incorrectly triggered the escalation to Add Members to all groups and teams in the tenant.
 
 * **Various improvements, including UX and UI fixes, have been implemented.**
