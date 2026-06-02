@@ -1147,18 +1147,6 @@ class Renderer {
       this.ensureSpace(lineHeight);
       const baselineY = this.y + lineHeight - 1;
 
-      // Re-tag inter-style boundary spaces so they get grouped with — and
-      // drawn as part of — the following word. Some PDF viewers drop the
-      // trailing whitespace from a text-show operator, which would make
-      // e.g. "into " + bold "workspaces" visually collide as "intoworkspaces".
-      for (let k = 0; k < curLine.length - 1; k++) {
-        const cur = curLine[k];
-        const nxt = curLine[k + 1];
-        if (cur.isSpace && !nxt.isSpace && !sameStyle(cur.run, nxt.run)) {
-          cur.run = nxt.run;
-        }
-      }
-
       // Paint tokens, merging adjacent same-style tokens into single text calls
       // for tighter kerning and cleaner link rectangles.
       let i = 0;
@@ -1181,6 +1169,22 @@ class Renderer {
         ) {
           groupText += curLine[j].text;
           j++;
+        }
+        // If this group ends with a normal space and is followed (on the
+        // same line) by a different-style group, substitute the trailing
+        // space with a non-breaking space. Trailing spaces drawn via the
+        // PDF text-show operator are dropped by some viewers when followed
+        // by an immediate font change, which would visually collapse e.g.
+        // "into " + bold "workspaces" into "intoworkspaces". NBSP is the
+        // same width but never trimmed.
+        if (
+          j < curLine.length &&
+          !curLine[j].isSpace &&
+          groupText.length > 0 &&
+          groupText.charCodeAt(groupText.length - 1) === 0x20
+        ) {
+          groupText =
+            groupText.slice(0, -1) + '\u00A0';
         }
         setFontFor(groupRun);
         const linkColor = groupRun.href ? PRIMARY_RGB : style.color;
