@@ -354,7 +354,7 @@ Clicking the **View All** button takes you to the [Workspace Review Insights scr
 
 ## Cleanup Opportunities
 
-The **Cleanup Opportunities** tile helps you identify and act on permission issues that build up over time, such as, stale unique permissions, inactive access, and sharing that no longer aligns with your current policies.
+The **Cleanup Opportunities** tile helps you identify and act on permission issues that build up over time, such as, redundant unique permissions, inactive access, and sharing that no longer aligns with your current policies.
 
 The tile on the Dashboard shows the following:
 
