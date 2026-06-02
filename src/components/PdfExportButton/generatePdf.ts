@@ -283,6 +283,17 @@ function normalizeRuns(runs: InlineRun[]): InlineRun[] {
       }
     }
   }
+  // Collapse consecutive newline runs into a single newline. Markdown
+  // `<br/>` followed by the text node's own leading "\n" would otherwise
+  // render as a blank row between e.g. "Please note:" and the next line.
+  const collapsed: InlineRun[] = [];
+  for (const r of out) {
+    const prev = collapsed[collapsed.length - 1];
+    if (prev && prev.text === '\n' && r.text === '\n') continue;
+    collapsed.push(r);
+  }
+  out.length = 0;
+  out.push(...collapsed);
   // Trim leading/trailing whitespace-only runs.
   while (out.length && !out[0].text.trim() && out[0].text !== '\n') out.shift();
   while (
