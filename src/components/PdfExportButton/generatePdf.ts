@@ -1322,15 +1322,32 @@ export function drawHeaderFooter(
  * We rasterize at a deliberately high pixel resolution (4× the target
  * print size) so the printed result stays sharp on 300 dpi devices.
  */
-async function loadLogoAsPng(
+async function loadWhiteLogoAsPng(
   siteBase: string,
 ): Promise<{url: string; width: number; height: number} | null> {
+  // Resolve the logo relative to the page the user is currently on. The
+  // configured `siteBase` may point at the production origin (from
+  // siteConfig.url) which would fail in dev / staging due to CORS. The
+  // current page's origin + baseUrl is the only origin we can fetch from
+  // without CORS and is guaranteed to host the static asset.
+  let logoUrl: string;
   try {
-    const logoUrl = new URL('img/logo.svg', siteBase).toString();
+    const path = new URL(siteBase).pathname.replace(/\/+$/, '/') || '/';
+    logoUrl = new URL(
+      `${path}img/syskit-horizontal-white-logotype.png`.replace(/\/+/g, '/'),
+      window.location.origin,
+    ).toString();
+  } catch {
+    logoUrl = '/img/syskit-horizontal-white-logotype.png';
+  }
+  try {
     const response = await fetch(logoUrl, {credentials: 'same-origin'});
-    if (!response.ok) return null;
-    const svgText = await response.text();
-    const blob = new Blob([svgText], {type: 'image/svg+xml'});
+    if (!response.ok) {
+      // eslint-disable-next-line no-console
+      console.warn('[PdfExportButton] logo fetch failed', logoUrl, response.status);
+      return null;
+    }
+    const blob = await response.blob();
     const blobUrl = URL.createObjectURL(blob);
     try {
       const img = new Image();
@@ -1339,145 +1356,202 @@ async function loadLogoAsPng(
         img.onload = () => resolve();
         img.onerror = () => reject(new Error('logo decode failed'));
       });
-      // Target ~40 mm wide at 300 dpi → ~472 px wide.
-      const targetWidthPx = 600;
-      const ratio =
-        img.naturalHeight && img.naturalWidth
-          ? img.naturalHeight / img.naturalWidth
-          : 0.3;
       const canvas = document.createElement('canvas');
-      canvas.width = targetWidthPx;
-      canvas.height = Math.round(targetWidthPx * ratio);
+      canvas.width = img.naturalWidth;
+      canvas.height = img.naturalHeight;
       const ctx = canvas.getContext('2d');
       if (!ctx) return null;
-      ctx.fillStyle = '#ffffff';
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
-      ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+      ctx.drawImage(img, 0, 0);
+
+      // Trim transparent padding so the logo aligns flush with the cover's
+      // left text margin. The source PNG has substantial empty space on all
+      // sides which would otherwise visually indent the artwork.
+      let trimmed: HTMLCanvasElement = canvas;
+      try {
+        const imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+        const {data, width: w, height: h} = imgData;
+        let minX = w;
+        let minY = h;
+        let maxX = -1;
+        let maxY = -1;
+        for (let y = 0; y < h; y++) {
+          for (let x = 0; x < w; x++) {
+            if (data[(y * w + x) * 4 + 3] > 10) {
+              if (x < minX) minX = x;
+              if (x > maxX) maxX = x;
+              if (y < minY) minY = y;
+              if (y > maxY) maxY = y;
+            }
+          }
+        }
+        if (maxX >= minX && maxY >= minY) {
+          const tw = maxX - minX + 1;
+          const th = maxY - minY + 1;
+          const trimCanvas = document.createElement('canvas');
+          trimCanvas.width = tw;
+          trimCanvas.height = th;
+          const tctx = trimCanvas.getContext('2d');
+          if (tctx) {
+            tctx.drawImage(canvas, minX, minY, tw, th, 0, 0, tw, th);
+            trimmed = trimCanvas;
+          }
+        }
+      } catch {
+        // getImageData can throw if the canvas is tainted; fall back to the
+        // untrimmed canvas in that case.
+      }
+
       return {
-        url: canvas.toDataURL('image/png'),
-        width: canvas.width,
-        height: canvas.height,
+        url: trimmed.toDataURL('image/png'),
+        width: trimmed.width,
+        height: trimmed.height,
       };
     } finally {
       URL.revokeObjectURL(blobUrl);
     }
-  } catch {
+  } catch (err) {
+    // eslint-disable-next-line no-console
+    console.warn('[PdfExportButton] logo load failed', err);
     return null;
   }
 }
 
 // --- Cover page -----------------------------------------------------------
 
+const WHITE_RGB: [number, number, number] = [255, 255, 255];
+
 const SNAPSHOT_DISCLAIMER =
   'This is a point-in-time snapshot of the Syskit Point documentation. ' +
-  'For the most up-to-date information, always refer to the live article at the source URL below.';
+  'For the most up-to-date information, always refer to the source article.';
 
+interface CoverTocRect {
+  x: number;
+  y: number;
+  w: number;
+  h: number;
+}
+
+/**
+ * Render the cover page on the current (first) page of `doc`. Returns one
+ * link rectangle per H2 entry rendered in the "In this article" list (in
+ * the same order as `h2Texts`); the caller wires each rectangle to its
+ * target page number with `doc.link()` once content has been rendered.
+ */
 function renderCoverPage(
   doc: JsPDFType,
   opts: GeneratePdfOptions,
-  logo: {url: string; width: number; height: number} | null,
-): void {
-  // Logo (centered, top third).
-  let y = 55;
-  if (logo) {
-    const targetW = 50; // mm
-    const targetH = (logo.height * targetW) / logo.width;
-    doc.addImage(
-      logo.url,
-      'PNG',
-      (A4_WIDTH_MM - targetW) / 2,
-      y,
-      targetW,
-      targetH,
-    );
-    y += targetH + 8;
-  } else {
-    doc.setFont('helvetica', 'bold');
-    doc.setFontSize(20);
-    doc.setTextColor(...PRIMARY_RGB);
-    doc.text('Syskit Point', A4_WIDTH_MM / 2, y, {align: 'center'});
-    y += 12;
-  }
+  whiteLogo: {url: string; width: number; height: number} | null,
+  h2Texts: string[],
+): CoverTocRect[] {
+  const padX = 20;
+  const contentW = A4_WIDTH_MM - padX * 2;
 
-  doc.setFont('helvetica', 'normal');
-  doc.setFontSize(10);
-  doc.setTextColor(...MUTED_RGB);
-  doc.text('Documentation', A4_WIDTH_MM / 2, y, {align: 'center'});
-  y += 25;
+  // Full-page purple background.
+  doc.setFillColor(...PRIMARY_RGB);
+  doc.rect(0, 0, A4_WIDTH_MM, A4_HEIGHT_MM, 'F');
 
-  // Title.
+  // --- Title (white, bold, left-aligned) ---
+  let y = 50;
   doc.setFont('helvetica', 'bold');
-  doc.setFontSize(26);
-  doc.setTextColor(...PRIMARY_RGB);
-  const titleLines = doc.splitTextToSize(
-    opts.title,
-    CONTENT_WIDTH_MM,
-  ) as string[];
+  doc.setFontSize(60);
+  doc.setTextColor(...WHITE_RGB);
+  const titleLineHeight = 24;
+  const titleLines = doc.splitTextToSize(opts.title, contentW) as string[];
   for (const ln of titleLines) {
-    doc.text(ln, A4_WIDTH_MM / 2, y, {align: 'center'});
-    y += 10;
+    doc.text(ln, padX, y);
+    y += titleLineHeight;
   }
   y += 4;
 
-  // Breadcrumb path under the title.
-  const breadcrumbText = opts.breadcrumbs
-    .map((b) => b.label)
-    .filter(Boolean)
-    .join('  ›  ');
-  if (breadcrumbText) {
+  // --- Subtitle ---
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(20);
+  doc.setTextColor(...WHITE_RGB);
+  doc.text('Syskit Point Documentation', padX, y);
+  y += 12;
+
+  // --- Separator line (white) ---
+  doc.setDrawColor(...WHITE_RGB);
+  doc.setLineWidth(0.5);
+  doc.line(padX, y, A4_WIDTH_MM - padX, y);
+  y += 14;
+
+  // --- "In this article" heading + H2 anchor list ---
+  const rects: CoverTocRect[] = [];
+  if (h2Texts.length > 0) {
+    doc.setFont('helvetica', 'bold');
+    doc.setFontSize(16);
+    doc.setTextColor(...WHITE_RGB);
+    doc.text('In this article', padX, y);
+    y += 10;
+
     doc.setFont('helvetica', 'normal');
-    doc.setFontSize(11);
-    doc.setTextColor(...MUTED_RGB);
-    const crumbLines = doc.splitTextToSize(
-      breadcrumbText,
-      CONTENT_WIDTH_MM,
-    ) as string[];
-    for (const ln of crumbLines) {
-      doc.text(ln, A4_WIDTH_MM / 2, y, {align: 'center'});
-      y += 6;
+    doc.setFontSize(12);
+    const itemH = 6.5;
+    // Reserve space at the bottom for the logo + footer block (~70 mm).
+    const maxY = A4_HEIGHT_MM - 70;
+    for (const text of h2Texts) {
+      if (y + itemH > maxY) break;
+      const lines = doc.splitTextToSize(text, contentW) as string[];
+      const first = lines[0];
+      doc.text(first, padX, y);
+      const w = doc.getTextWidth(first);
+      rects.push({
+        x: padX,
+        y: y - 3.5,
+        w: Math.min(w, contentW),
+        h: itemH,
+      });
+      y += itemH;
+      for (let i = 1; i < lines.length; i++) {
+        if (y + itemH > maxY) break;
+        doc.text(lines[i], padX + 4, y);
+        y += itemH;
+      }
     }
   }
 
-  // Snapshot disclaimer in a soft purple-tinted box towards the bottom.
-  const boxX = MARGIN_X_MM + 10;
-  const boxW = A4_WIDTH_MM - (MARGIN_X_MM + 10) * 2;
-  doc.setFont('helvetica', 'italic');
-  doc.setFontSize(10);
-  doc.setTextColor(...TEXT_RGB);
-  const disclaimerLines = doc.splitTextToSize(
-    SNAPSHOT_DISCLAIMER,
-    boxW - 8,
-  ) as string[];
-  const boxH = disclaimerLines.length * 5 + 8;
-  const boxY = A4_HEIGHT_MM - 75;
-  doc.setFillColor(247, 243, 252); // very light purple tint
-  doc.setDrawColor(...PRIMARY_RGB);
-  doc.setLineWidth(0.3);
-  doc.roundedRect(boxX, boxY, boxW, boxH, 2, 2, 'FD');
-  let dy = boxY + 6;
-  for (const ln of disclaimerLines) {
-    doc.text(ln, boxX + 4, dy);
-    dy += 5;
+  // --- White Syskit logo (above the footer block) ---
+  const footerBlockTop = A4_HEIGHT_MM - 42;
+  if (whiteLogo) {
+    const targetW = 27.5;
+    const targetH = (whiteLogo.height * targetW) / whiteLogo.width;
+    const logoY = footerBlockTop - targetH - 8;
+    doc.addImage(whiteLogo.url, 'PNG', padX, logoY, targetW, targetH);
   }
 
-  // Footer block: generated date + source URL (both centered).
-  const footY = A4_HEIGHT_MM - 32;
+  // --- Footer: export line + disclaimer (white, left aligned) ---
   doc.setFont('helvetica', 'normal');
   doc.setFontSize(10);
-  doc.setTextColor(...MUTED_RGB);
-  doc.text(`Generated on ${opts.exportDate}`, A4_WIDTH_MM / 2, footY, {
-    align: 'center',
-  });
+  doc.setTextColor(...WHITE_RGB);
+  let fy = footerBlockTop;
 
-  doc.setFont('helvetica', 'normal');
-  doc.setFontSize(9);
-  doc.setTextColor(...MUTED_RGB);
-  doc.text('Source:', A4_WIDTH_MM / 2, footY + 6, {align: 'center'});
-  doc.setTextColor(...PRIMARY_RGB);
-  const urlW = doc.getTextWidth(opts.sourceUrl);
-  doc.textWithLink(opts.sourceUrl, (A4_WIDTH_MM - urlW) / 2, footY + 11, {
-    url: opts.sourceUrl,
-  });
+  const exportedLabel = `Exported on ${opts.exportDate} from `;
+  const exportedLabelW = doc.getTextWidth(exportedLabel);
+  doc.text(exportedLabel, padX, fy);
+  const urlMaxW = Math.max(20, contentW - exportedLabelW);
+  const urlLines = doc.splitTextToSize(opts.sourceUrl, urlMaxW) as string[];
+  if (urlLines.length > 0) {
+    doc.textWithLink(urlLines[0], padX + exportedLabelW, fy, {
+      url: opts.sourceUrl,
+    });
+    for (let i = 1; i < urlLines.length; i++) {
+      fy += 5;
+      doc.textWithLink(urlLines[i], padX, fy, {url: opts.sourceUrl});
+    }
+  }
+  fy += 8;
+
+  doc.setFont('helvetica', 'italic');
+  doc.setFontSize(9.5);
+  doc.setTextColor(...WHITE_RGB);
+  const dLines = doc.splitTextToSize(SNAPSHOT_DISCLAIMER, contentW) as string[];
+  for (const ln of dLines) {
+    doc.text(ln, padX, fy);
+    fy += 4.8;
+  }
+
+  return rects;
 }
 
 // --- Back page ------------------------------------------------------------
@@ -1577,135 +1651,6 @@ function renderBackPage(doc: JsPDFType): void {
   );
 }
 
-// --- Table of contents ----------------------------------------------------
-
-interface TocEntry {
-  level: number;
-  text: string;
-  targetPage: number; // final page number of the heading (after TOC insertion)
-  // Position of this TOC entry on its own page — used to attach the click
-  // annotation after the TOC pages have been moved into their final slot.
-  tocPage: number; // temporary page index where rendered; updated post-move
-  linkRectMm: {x: number; y: number; w: number; h: number};
-}
-
-const TOC_ENTRY_HEIGHT_MM = 5.5;
-
-/**
- * Heuristic estimate of the number of A4 pages required to fit `n` TOC
- * entries. We over-reserve by ~10 % so multi-line titles still fit on the
- * page we estimated.
- */
-function estimateTocPageCount(headings: {level: number}[]): number {
-  // Only level 2–3 headings appear in the TOC.
-  const tocHeadings = headings.filter((h) => h.level === 2 || h.level === 3);
-  if (tocHeadings.length === 0) return 0;
-  const availableMm = CONTENT_BOTTOM_MM - MARGIN_TOP_MM - 14; // minus TOC title
-  const perPage = Math.floor(availableMm / TOC_ENTRY_HEIGHT_MM);
-  // 10 % safety margin for wrapped titles.
-  return Math.max(1, Math.ceil((tocHeadings.length * 1.1) / perPage));
-}
-
-/**
- * Render the TOC onto `tocPageCount` pages that already exist at
- * `startPage..startPage+tocPageCount-1`. Returns entry records whose link
- * rectangles must later be wired up with `doc.link()` after any subsequent
- * page reorder.
- */
-function renderToc(
-  doc: JsPDFType,
-  headings: {level: number; text: string; page: number; y: number}[],
-  startPage: number,
-  tocPageCount: number,
-): TocEntry[] {
-  const entries: TocEntry[] = [];
-  const tocHeadings = headings.filter((h) => h.level === 2 || h.level === 3);
-  if (tocHeadings.length === 0) return entries;
-
-  let pageOffset = 0;
-  doc.setPage(startPage + pageOffset);
-
-  const writeTitle = () => {
-    doc.setFont('helvetica', 'bold');
-    doc.setFontSize(20);
-    doc.setTextColor(...PRIMARY_RGB);
-    doc.text('Contents', MARGIN_X_MM, MARGIN_TOP_MM + 6);
-  };
-  writeTitle();
-  let y = MARGIN_TOP_MM + 18;
-
-  for (const h of tocHeadings) {
-    // Page break across TOC pages if needed.
-    if (y + TOC_ENTRY_HEIGHT_MM > CONTENT_BOTTOM_MM) {
-      pageOffset += 1;
-      if (pageOffset >= tocPageCount) break;
-      doc.setPage(startPage + pageOffset);
-      writeTitle();
-      y = MARGIN_TOP_MM + 18;
-    }
-
-    const indentMm = h.level === 3 ? 6 : 0;
-    const textX = MARGIN_X_MM + indentMm;
-    const pageNumStr = String(h.page);
-
-    doc.setFont('helvetica', h.level === 2 ? 'bold' : 'normal');
-    doc.setFontSize(h.level === 2 ? 11 : 10);
-    doc.setTextColor(...TEXT_RGB);
-
-    const pageNumWidth = doc.getTextWidth(pageNumStr);
-    const pageNumX = A4_WIDTH_MM - MARGIN_X_MM - pageNumWidth;
-    // Reserve a small gap between title and page number for the dot leaders.
-    const titleMaxW = pageNumX - textX - 4;
-    const titleLines = doc.splitTextToSize(h.text, titleMaxW) as string[];
-
-    // Draw the first line of the title, dot leaders, and the page number.
-    doc.text(titleLines[0], textX, y);
-    const titleWidth = doc.getTextWidth(titleLines[0]);
-    // Dot leaders between title end and page number.
-    const dotsStartX = textX + titleWidth + 1.5;
-    const dotsEndX = pageNumX - 1.5;
-    if (dotsEndX > dotsStartX) {
-      doc.setTextColor(...MUTED_RGB);
-      const dotChar = '.';
-      const dotW = doc.getTextWidth(dotChar);
-      const dotCount = Math.floor((dotsEndX - dotsStartX) / (dotW + 0.6));
-      doc.text(
-        dotChar.repeat(Math.max(0, dotCount)),
-        dotsStartX,
-        y,
-      );
-      doc.setTextColor(...TEXT_RGB);
-    }
-    doc.text(pageNumStr, pageNumX, y);
-
-    // Click rectangle covers the whole entry row.
-    const rect = {
-      x: MARGIN_X_MM,
-      y: y - 4,
-      w: CONTENT_WIDTH_MM,
-      h: TOC_ENTRY_HEIGHT_MM,
-    };
-    entries.push({
-      level: h.level,
-      text: h.text,
-      targetPage: h.page,
-      tocPage: startPage + pageOffset,
-      linkRectMm: rect,
-    });
-
-    y += TOC_ENTRY_HEIGHT_MM;
-
-    // Continuation lines for wrapped titles.
-    for (let i = 1; i < titleLines.length; i++) {
-      if (y + TOC_ENTRY_HEIGHT_MM > CONTENT_BOTTOM_MM) break;
-      doc.text(titleLines[i], textX + 4, y);
-      y += TOC_ENTRY_HEIGHT_MM;
-    }
-  }
-
-  return entries;
-}
-
 // --- Outline / bookmarks --------------------------------------------------
 
 function buildOutline(
@@ -1749,7 +1694,7 @@ export async function generatePdf(opts: GeneratePdfOptions): Promise<void> {
   if (opts.includeImages) {
     await preloadArticleImages(opts.articleEl);
   }
-  const logo = await loadLogoAsPng(opts.siteBase);
+  const whiteLogo = await loadWhiteLogoAsPng(opts.siteBase);
 
   const clone = opts.articleEl.cloneNode(true) as HTMLElement;
   stripNonContent(clone, opts.includeImages);
@@ -1771,8 +1716,17 @@ export async function generatePdf(opts: GeneratePdfOptions): Promise<void> {
     keywords: 'Syskit Point, Microsoft 365, documentation',
   });
 
+  // Collect H2 texts up-front so the cover page can list them as anchors.
+  const h2Texts: string[] = [];
+  for (const b of blocks) {
+    if (b.type === 'heading' && b.level === 2) {
+      const txt = runsToPlainText(b.runs);
+      if (txt) h2Texts.push(txt);
+    }
+  }
+
   // --- Page 1: cover ---
-  renderCoverPage(doc, opts, logo);
+  const coverRects = renderCoverPage(doc, opts, whiteLogo, h2Texts);
 
   // --- Pages 2..N: article content ---
   doc.addPage();
@@ -1789,46 +1743,22 @@ export async function generatePdf(opts: GeneratePdfOptions): Promise<void> {
 
   // --- Final page: back / support ---
   doc.addPage();
-  const backPageIndex = doc.getNumberOfPages();
   renderBackPage(doc);
 
-  // --- Insert TOC pages between cover and content ---
-  const tocPageCount = estimateTocPageCount(renderer.headings);
-  let tocEntries: TocEntry[] = [];
-  if (tocPageCount > 0) {
-    // insertPage(beforePage=2) puts a blank page at position 2 each time.
-    // After T inserts the layout is:
-    //   page 1: cover
-    //   pages 2..1+T: TOC (in reverse insertion order; we fill them next)
-    //   pages 2+T..: original content + back page
-    for (let i = 0; i < tocPageCount; i++) {
-      doc.insertPage(2);
-    }
-    // Shift every captured heading page forward by tocPageCount so the TOC
-    // entries point at the correct (new) page numbers.
-    for (const h of renderer.headings) {
-      h.page += tocPageCount;
-    }
-    tocEntries = renderToc(doc, renderer.headings, 2, tocPageCount);
-    // Attach clickable rectangles now that targetPage numbers are final.
-    for (const e of tocEntries) {
-      doc.setPage(e.tocPage);
-      doc.link(
-        e.linkRectMm.x,
-        e.linkRectMm.y,
-        e.linkRectMm.w,
-        e.linkRectMm.h,
-        {pageNumber: e.targetPage},
-      );
-    }
+  // --- Wire cover "In this article" entries to their target H2 pages ---
+  const h2Pages = renderer.headings.filter((h) => h.level === 2);
+  for (let i = 0; i < coverRects.length && i < h2Pages.length; i++) {
+    const rect = coverRects[i];
+    doc.setPage(1);
+    doc.link(rect.x, rect.y, rect.w, rect.h, {
+      pageNumber: h2Pages[i].page,
+    });
   }
 
   // --- Outline / bookmarks panel ---
   buildOutline(doc, opts.title, renderer.headings);
 
   // --- Header & footer on every page EXCEPT cover (1) and back page (last)
-  // Back page is now at index backPageIndex + tocPageCount.
-  void backPageIndex; // (kept for clarity; computed page is last by construction)
   const breadcrumbText = opts.breadcrumbs
     .map((b) => b.label)
     .filter(Boolean)
