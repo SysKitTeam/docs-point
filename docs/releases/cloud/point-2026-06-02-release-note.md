@@ -31,7 +31,7 @@ description: This article lists new features, improvements, and bug fixes in the
   * [For more details, take a look at the Exported Reports article.](../../reporting/exported-reports.md).
 
 * **Reports can now be exported to CSV format.** 
-  * The CSV format is availble both from the report view and when configuring scheduled report deliveries.
+  * The CSV format is available both from the report view and when configuring scheduled report deliveries.
 
 * **Improvements made to** the Workspace Review feature.
   * Workspace Review reports now include a new **Restrictions** column, showing whether a workspace has Restricted Site Access applied.
