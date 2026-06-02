@@ -2,6 +2,9 @@
   position: relative;
   display: inline-block;
   margin-left: auto;
+  /* Keep the button at its natural width even when the sibling breadcrumb
+     row wraps onto two lines. */
+  flex: 0 0 auto;
 }
 
 .trigger {
@@ -19,6 +22,7 @@
   transition: background-color 0.15s ease, color 0.15s ease;
   font-family: inherit;
   line-height: 1.2;
+  white-space: nowrap;
 }
 
 .trigger:hover:not(:disabled) {
