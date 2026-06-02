@@ -27,7 +27,7 @@ The **Syskit Point** Dashboard shows Syskit Point administrators the following i
 * [License Optimization](#license-optimization)
 * [Power Platform](#power-platform)
 * [Workspace Sensitivity](#workspace-sensitivity)
-* [AI Agents](#AI-agents)
+* [AI Agents](#ai-agents)
 * [Workspace Review](#workspace-review)
 * [Cleanup Opportunities](#cleanup-opportunities)
 
