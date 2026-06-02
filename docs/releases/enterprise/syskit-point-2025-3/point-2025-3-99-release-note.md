@@ -26,7 +26,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 * **New Dashboard tile: SharePoint Agents.**
   * The new SharePoint Agents tile provides an overview of all custom-built SharePoint agents in your organization.
   * Clicking the **Explore button opens the Custom SharePoint Agents Inventory report**.
-  * [For more information, navigate to the Dashboard article.](../../../microsoft365-inventory/explore-your-microsoft-365-dashboard.md#sharepoint-agents)  
+  * [For more information, navigate to the Dashboard article.](../../../microsoft365-inventory/explore-your-microsoft-365-dashboard.md#ai-agents)  
 
 ## Security Updates
 * **Removed the following HTTP headers to reduce attack surface and risk of targeted attacks**:
