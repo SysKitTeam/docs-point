@@ -1170,21 +1170,24 @@ class Renderer {
           groupText += curLine[j].text;
           j++;
         }
-        // If this group ends with a normal space and is followed (on the
-        // same line) by a different-style group, substitute the trailing
-        // space with a non-breaking space. Trailing spaces drawn via the
-        // PDF text-show operator are dropped by some viewers when followed
+        // If this group ends with a trailing space AND is followed (on the
+        // same line) by a different-style group, split that trailing space
+        // off and paint it as its own text-show call. Trailing spaces inside
+        // a text-show operator are dropped by some PDF viewers when followed
         // by an immediate font change, which would visually collapse e.g.
-        // "into " + bold "workspaces" into "intoworkspaces". NBSP is the
-        // same width but never trimmed.
+        // "into " + bold "workspaces" into "intoworkspaces". By painting the
+        // space alone (non-trailing inside its own op), it is preserved at
+        // the exact width reserved during layout.
+        let trailingSpaceX: number | null = null;
         if (
           j < curLine.length &&
           !curLine[j].isSpace &&
           groupText.length > 0 &&
           groupText.charCodeAt(groupText.length - 1) === 0x20
         ) {
-          groupText =
-            groupText.slice(0, -1) + '\u00A0';
+          // The last token in the merged group is the trailing space token.
+          trailingSpaceX = curLine[j - 1].x;
+          groupText = groupText.slice(0, -1);
         }
         setFontFor(groupRun);
         const linkColor = groupRun.href ? PRIMARY_RGB : style.color;
@@ -1200,6 +1203,9 @@ class Renderer {
           this.doc.line(groupX, baselineY + 0.6, groupX + w, baselineY + 0.6);
         } else {
           this.doc.text(groupText, groupX, baselineY);
+        }
+        if (trailingSpaceX !== null) {
+          this.doc.text(' ', trailingSpaceX, baselineY);
         }
         i = j;
       }
