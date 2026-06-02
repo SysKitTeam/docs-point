@@ -83,7 +83,7 @@ type Block =
   | {type: 'paragraph'; runs: InlineRun[]}
   | {type: 'list'; ordered: boolean; items: ListItem[]; level: number}
   | {type: 'code'; lines: string[]}
-  | {type: 'table'; rows: InlineRun[][][]; header: boolean}
+  | {type: 'table'; rows: TableCell[][]; header: boolean}
   | {type: 'admonition'; kind: string; title: string; children: Block[]}
   | {type: 'image'; src: string; alt: string}
   | {type: 'hr'};
@@ -91,6 +91,18 @@ type Block =
 interface ListItem {
   runs: InlineRun[];
   children: Block[]; // nested lists or sub-blocks
+}
+
+interface TableCellImage {
+  src: string;
+  alt: string;
+  naturalWidth: number;
+  naturalHeight: number;
+}
+
+interface TableCell {
+  images: TableCellImage[];
+  runs: InlineRun[];
 }
 
 // --- Filename utility -----------------------------------------------------
@@ -317,15 +329,29 @@ function extractTable(
   table: HTMLTableElement,
   siteBase: string,
   pageUrl: string,
-): {rows: InlineRun[][][]; header: boolean} {
-  const rows: InlineRun[][][] = [];
+): {rows: TableCell[][]; header: boolean} {
+  const rows: TableCell[][] = [];
   let header = false;
   const trs = Array.from(table.querySelectorAll('tr'));
   for (const tr of trs) {
     const cells = Array.from(tr.querySelectorAll('th, td')) as HTMLElement[];
     if (cells.length === 0) continue;
     if (cells.some((c) => c.tagName.toLowerCase() === 'th')) header = true;
-    rows.push(cells.map((c) => inlineFromElement(c, siteBase, pageUrl)));
+    rows.push(
+      cells.map((c) => {
+        const imgs = Array.from(c.querySelectorAll('img')) as HTMLImageElement[];
+        const images: TableCellImage[] = imgs.map((img) => ({
+          src: img.currentSrc || img.src,
+          alt: img.alt,
+          naturalWidth: img.naturalWidth,
+          naturalHeight: img.naturalHeight,
+        }));
+        return {
+          images,
+          runs: inlineFromElement(c, siteBase, pageUrl),
+        };
+      }),
+    );
   }
   return {rows, header};
 }
@@ -772,7 +798,7 @@ class Renderer {
 
   // --- Tables ---
   renderTable(
-    rows: InlineRun[][][],
+    rows: TableCell[][],
     header: boolean,
     indent: number,
     maxWidth: number,
@@ -784,27 +810,72 @@ class Renderer {
     const colWidth = width / colCount;
     const cellPadding = 1.5;
     const lineHeight = (FONT_SMALL * LINE_HEIGHT_FACTOR) / 2.83465;
+    // Cap embedded cell images so a single oversized icon doesn't blow up
+    // the row height.
+    const MAX_CELL_IMG_H_MM = 16;
+
+    // Precompute, per cell, the rendered images (data + mm dimensions) and
+    // the wrapped text lines so we can determine row heights ahead of
+    // painting borders.
+    interface RenderedCellImage {
+      data: ImageData;
+      wMm: number;
+      hMm: number;
+    }
+    interface PreparedCell {
+      images: RenderedCellImage[];
+      lines: string[];
+      imagesBlockH: number; // total mm taken by stacked images
+    }
 
     for (let rIdx = 0; rIdx < rows.length; rIdx++) {
       const row = rows[rIdx];
       const isHeaderRow = header && rIdx === 0;
 
-      // Pre-wrap each cell to compute row height.
       this.doc.setFont('helvetica', isHeaderRow ? 'bold' : 'normal');
       this.doc.setFontSize(FONT_SMALL);
-      const cellLines: string[][] = row.map((cell) => {
-        const text = runsToPlainText(cell);
-        return this.doc.splitTextToSize(
-          text || ' ',
+
+      const prepared: PreparedCell[] = row.map((cell) => {
+        const maxImgW = colWidth - cellPadding * 2;
+        const images: RenderedCellImage[] = [];
+        if (this.includeImages) {
+          for (const im of cell.images) {
+            const data = imageToDataUrl(im.src);
+            if (!data) continue;
+            const w = data.width || im.naturalWidth || 1;
+            const h = data.height || im.naturalHeight || 1;
+            const naturalWmm = (w * 25.4) / 96;
+            const naturalHmm = (h * 25.4) / 96;
+            let wMm = Math.min(naturalWmm, maxImgW);
+            let hMm = (wMm * h) / w;
+            if (hMm > MAX_CELL_IMG_H_MM) {
+              hMm = MAX_CELL_IMG_H_MM;
+              wMm = (hMm * w) / h;
+            }
+            images.push({data, wMm, hMm});
+          }
+        }
+        const text = runsToPlainText(cell.runs);
+        const lines = this.doc.splitTextToSize(
+          text || (images.length ? '' : ' '),
           colWidth - cellPadding * 2,
         ) as string[];
+        const imagesBlockH = images.reduce(
+          (acc, im, i) => acc + im.hMm + (i > 0 ? 1 : 0),
+          0,
+        );
+        return {images, lines, imagesBlockH};
       });
-      // Pad missing cells.
-      while (cellLines.length < colCount) cellLines.push([' ']);
+      while (prepared.length < colCount) {
+        prepared.push({images: [], lines: [' '], imagesBlockH: 0});
+      }
 
-      const rowHeight =
-        Math.max(...cellLines.map((l) => l.length)) * lineHeight +
-        cellPadding * 2;
+      const rowContentHeights = prepared.map((p) => {
+        const textH = p.lines.length * lineHeight;
+        const gap = p.images.length > 0 && p.lines.some((l) => l.trim()) ? 1.5 : 0;
+        return p.imagesBlockH + gap + textH;
+      });
+      const rowHeight = Math.max(...rowContentHeights) + cellPadding * 2;
 
       // Page break if needed.
       if (this.y + rowHeight > CONTENT_BOTTOM_MM) {
@@ -823,14 +894,29 @@ class Renderer {
       for (let c = 0; c < colCount; c++) {
         this.doc.rect(x + c * colWidth, this.y, colWidth, rowHeight);
       }
-      // Text.
+      // Cell content.
       this.doc.setTextColor(...TEXT_RGB);
       for (let c = 0; c < colCount; c++) {
-        const lines = cellLines[c];
-        let yLine = this.y + cellPadding + lineHeight - 1;
-        for (const ln of lines) {
-          this.doc.text(ln, x + c * colWidth + cellPadding, yLine);
-          yLine += lineHeight;
+        const p = prepared[c];
+        const cellX = x + c * colWidth + cellPadding;
+        let cellY = this.y + cellPadding;
+        for (let i = 0; i < p.images.length; i++) {
+          const im = p.images[i];
+          if (i > 0) cellY += 1;
+          this.doc.addImage(im.data.url, im.data.format, cellX, cellY, im.wMm, im.hMm);
+          cellY += im.hMm;
+        }
+        const hasText = p.lines.some((l) => l.trim());
+        if (hasText && p.images.length > 0) cellY += 1.5;
+        if (hasText) {
+          // Reset font for text in each cell.
+          this.doc.setFont('helvetica', isHeaderRow ? 'bold' : 'normal');
+          this.doc.setFontSize(FONT_SMALL);
+          let yLine = cellY + lineHeight - 1;
+          for (const ln of p.lines) {
+            this.doc.text(ln, cellX, yLine);
+            yLine += lineHeight;
+          }
         }
       }
       this.y += rowHeight;
@@ -1446,12 +1532,15 @@ function renderCoverPage(
   const padX = 20;
   const contentW = A4_WIDTH_MM - padX * 2;
 
-  // Full-page purple background.
-  doc.setFillColor(...PRIMARY_RGB);
+  // Full-page deep purple background (cover-only color).
+  const COVER_BG_RGB: [number, number, number] = [35, 0, 86];
+  doc.setFillColor(...COVER_BG_RGB);
   doc.rect(0, 0, A4_WIDTH_MM, A4_HEIGHT_MM, 'F');
 
   // --- Title (white, bold, left-aligned) ---
-  let y = 50;
+  // Positioned around the vertical center of the page so the cover reads
+  // as a balanced hero block rather than a top-heavy title.
+  let y = A4_HEIGHT_MM / 2 - 30;
   doc.setFont('helvetica', 'bold');
   doc.setFontSize(60);
   doc.setTextColor(...WHITE_RGB);
