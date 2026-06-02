@@ -18,7 +18,7 @@ From the Exported Reports screen, you can:
 * Download a report directly from the list
 * See when a report has expired and is no longer available for download
 
-You can find it by going to the Reports screen, and **clicking the Exported Reports button (1)**, located in the right screen corner.
+You can find it by going to the Reports screen and **clicking the Exported Reports button (1)**, located in the right screen corner.
 
 ![Reports - Exported Reports Button](../../static/img/exported-reports-button.png)
 
@@ -35,6 +35,6 @@ This opens the Exported Reports screen, where you can find the following:
 
 :::info
 
-After receiving a **report delivery e-mail and clicking the link**, you are taken directly to **this page and the download starts automatically**.
+After receiving a **report delivery e-mail and clicking the link**, you are taken directly to **this page, and the download starts automatically**.
 
 :::
