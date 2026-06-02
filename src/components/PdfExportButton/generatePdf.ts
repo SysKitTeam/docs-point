@@ -1137,6 +1137,7 @@ class Renderer {
       x: number;
       width: number;
       run: InlineRun;
+      isSpace: boolean;
     }
     let curLine: PlacedToken[] = [];
     let curX = 0;
@@ -1145,6 +1146,18 @@ class Renderer {
       // Page break check.
       this.ensureSpace(lineHeight);
       const baselineY = this.y + lineHeight - 1;
+
+      // Re-tag inter-style boundary spaces so they get grouped with — and
+      // drawn as part of — the following word. Some PDF viewers drop the
+      // trailing whitespace from a text-show operator, which would make
+      // e.g. "into " + bold "workspaces" visually collide as "intoworkspaces".
+      for (let k = 0; k < curLine.length - 1; k++) {
+        const cur = curLine[k];
+        const nxt = curLine[k + 1];
+        if (cur.isSpace && !nxt.isSpace && !sameStyle(cur.run, nxt.run)) {
+          cur.run = nxt.run;
+        }
+      }
 
       // Paint tokens, merging adjacent same-style tokens into single text calls
       // for tighter kerning and cleaner link rectangles.
@@ -1206,6 +1219,7 @@ class Renderer {
         x: x + curX,
         width: w,
         run: tok.run,
+        isSpace: tok.isSpace,
       });
       curX += w;
     }
