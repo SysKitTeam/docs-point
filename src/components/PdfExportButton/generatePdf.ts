@@ -1215,12 +1215,25 @@ class Renderer {
       curX = 0;
     };
 
-    for (const tok of tokens) {
+    for (let ti = 0; ti < tokens.length; ti++) {
+      const tok = tokens[ti];
       if (tok.isNewline) {
         flushLine(false);
         continue;
       }
-      const w = measure(tok.text, tok.run);
+      let w = measure(tok.text, tok.run);
+      // Widen a space token that bridges a style change. Regular Helvetica
+      // space placed before bold text leaves a visually tight gap because
+      // the bold glyphs (especially 'w') have small left-side bearings.
+      // Reserving +35% layout width pushes the following word right enough
+      // to look like a normal inter-word gap.
+      if (tok.isSpace) {
+        const next = tokens[ti + 1];
+        if (next && !next.isNewline && !next.isSpace &&
+            !sameStyle(tok.run, next.run)) {
+          w *= 1.35;
+        }
+      }
       if (curX + w > width && curLine.length > 0) {
         flushLine(false);
       }
