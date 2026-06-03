@@ -30,7 +30,7 @@ After selecting Fix Now, the **information dialog** opens, providing more detail
 * **Clicking the Request Automation** button lets you send us a request for this feature to be automated, which helps us prioritize the improvements you're requesting
 
 * **Clicking Resolve Manually** opens the [**Unique Permissions** report](../reporting/access-reports.md#unique-permissions-report)
-  * After generating the report, you'll see the **recommendation to Delete Redundant Unique Permissions (1)**, where applicable
+  * After generating the report, you'll see the **recommendation to Remove Redundant Unique Permissions (1)**, where applicable
   * Selecting that object lets you complete the **Delete Unique Permissions action (2)**
 
 :::information
