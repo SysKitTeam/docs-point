@@ -44,7 +44,7 @@ For detailed step-by-step instructions on how to upgrade Syskit Point, refer to 
 
 * **Fixed an issue** with the count limit option when setting Storage Versioning Limits.
   * The Count Limit checkbox is now disabled and cannot be turned off, due to Microsoft's required retention limits.
-  * [For more details, please take a look at this article.](../../storage-management/versioning-limits.md)
+  * [For more details, please take a look at this article.](../../../storage-management/versioning-limits.md)
 
 * **The license expiration notification banner** is now displayed again to administrators when their subscription is approaching its renewal date.
   * The banner includes a link to the **Settings** > **Point License** page for reviewing subscription details.
