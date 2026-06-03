@@ -26,6 +26,7 @@ const sidebars: SidebarsConfig = {
             id: 'releases/cloud/README',
           },
           items: [
+            'releases/cloud/point-2026-06-02-release-note',
             'releases/cloud/point-2026-05-26-release-note',
             'releases/cloud/point-2026-05-19-release-note',
             'releases/cloud/point-2026-05-12-release-note',
@@ -523,6 +524,7 @@ const sidebars: SidebarsConfig = {
         'microsoft365-inventory/sites',
         'microsoft365-inventory/microsoft-teams-and-groups',
         'microsoft365-inventory/users',
+        'microsoft365-inventory/cleanup-opportunities',
         'microsoft365-inventory/copilot-readiness',
         'microsoft365-inventory/power-platform'       
       ],
@@ -567,6 +569,7 @@ const sidebars: SidebarsConfig = {
       },
       items: [
         'reporting/overview',
+        'reporting/exported-reports',
         'reporting/external-sharing-reports',
         'reporting/access-reports',
         'reporting/audit-reports',
