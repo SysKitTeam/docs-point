@@ -163,6 +163,7 @@ const sidebars: SidebarsConfig = {
                 id: 'releases/enterprise/syskit-point-2026-2/README',
               },
               items: [
+                'releases/enterprise/syskit-point-2026-2/point-2026-2-143-release-note',
                 'releases/enterprise/syskit-point-2026-2/point-2026-2-141-release-note',
                 'releases/enterprise/syskit-point-2026-2/point-2026-2-136-41-release-note',
                 'releases/enterprise/syskit-point-2026-2/point-2026-2-136-release-note',
