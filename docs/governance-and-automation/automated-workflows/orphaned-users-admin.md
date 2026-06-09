@@ -1,12 +1,29 @@
 ---
-description: This article explains how to activate the Orphaned Users policy. 
+description: This article explains what orphaned users are, describes the potential access issues, and explains how to configure the Orphaned Users policy in Syskit Point.
 ---
 
 # Orphaned Users
 
-Syskit Point provides a predefined **Orphaned Users policy** that is applied tenant-wide and cannot be deleted. 
+Syskit Point provides a predefined **Orphaned Users policy** that is applied tenant-wide and cannot be deleted.
 
-This policy helps you identify and remove users who may pose risks or complications when managing workspaces.
+## Orphaned Users Explained
+
+When a **user account is deleted from Microsoft Entra ID, or has sign-in blocked, their entry typically remains cached in the SharePoint UserInfo list** on every site they visited. This redundant entry becomes a problem when a new account is later created with the same username (UPN). Microsoft 365 assigns a new internal ID to the new account, but the UserInfo list still contains the old one, causing a mismatch.
+
+**Symptoms of orphaned or mismatched user entries include:**
+* "Access Denied" errors when users try to access a SharePoint site or OneDrive
+* Inconsistent behavior in the people picker and sharing dialogs
+* A new OneDrive URL with a numeric or GUID suffix appended to the expected address
+
+**The root cause is a UserInfo list mismatch.** When an account is deleted and re-created with the same UPN, the new account receives a different ID. SharePoint and OneDrive still reference the old ID in the UserInfo list, causing access checks to fail.
+
+Syskit Point detects these stale entries and removes them from the UserInfo list, the same course of action [recommended by Microsoft](https://learn.microsoft.com/en-us/troubleshoot/sharepoint/sharing-and-permissions/fix-site-user-id-mismatch). This prevents access issues and keeps the workspace membership clean.
+
+:::info
+**Removing a user from the SharePoint UserInfo list is a safe action with no data loss.** All site content, files, documents, and list items, is fully preserved. Metadata fields such as **Created By** and **Modified By** on existing content remain intact and are not overwritten or removed. The UserInfo list is only an identity cache; clearing stale entries does not affect any stored content. For more details, [take a look at this Microsoft article.](https://learn.microsoft.com/en-us/sharepoint/remove-users).
+:::
+
+## Orphaned Users Policy
 
 To edit the policy, go to the Policies settings screen and **click the Edit Policy icon (1)** next to the Orphaned Users policy.
 
