@@ -1,5 +1,5 @@
 ---
-description: This article explains how to activate the Orphaned Users policy. 
+description: This article explains what orphaned users are, describes the potential access issues, and explains how to configure the Orphaned Users policy in Syskit Point.
 ---
 
 # Orphaned Users
