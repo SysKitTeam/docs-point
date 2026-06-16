@@ -28,6 +28,7 @@ description: This article lists new features, improvements, and bug fixes in the
 
 * **The Inactive Guest Users Policy now supports custom domain exclusions.** 
   * In the **Ignored Domains section** of the policy, you can define a list of guest user e-mail domains to exclude from the policy, and the guest users belonging to those domains are not affected when the policy is triggered.
+  * [Find more information about the policy in the Inactive Guest Users policy article.](../../governance-and-automation/automated-workflows/inactive-guest-users-admin.md)
 
 * **Improvements made to Workspace Review.**
   * **Fixed an issue** with the Workspace Review policy when recurrence is set to One Time, where a reused one-time policy did not auto-start after being cancelled and continued to show a Future status, despite there not being an active task.
