@@ -10,7 +10,7 @@ To activate the policy, navigate to the Policies settings screen and **click the
 
 ![Inactive Guest Users - Edit Policy](../../../static/img/set-up-automated-workflows-guest-users-edit.png)
 
-The **Edit Policy** dialog opens where you can:
+The **Edit Policy** dialog opens, where you can:
 * **Select when a user is considered inactive (1)** by choosing the number of days that need to pass
 * **Select the severity level (2)** for the policy
 * **Enter ignored domains (3)** in the designated space
@@ -20,7 +20,7 @@ The **Edit Policy** dialog opens where you can:
   * **Select who will validate guest users (5):**
      * **Manager of Guest User**; when the option is selected, **the person responsible for the validation, in case the Guest User does not have a defined manager, needs to be chosen**
      * **Syskit Point Administrators**; this option is selected by default
-     * **Custom Recipients**; when selected, use the input field to select custom users that will be responsible for the validation of Guest Users
+     * **Custom Recipients**; when selected, use the input field to select custom users who will be responsible for the validation of Guest Users
   * **Select what Syskit Point should do if there is no validation response(6)**:
     * Automatically disable guest user
     * Automatically delete guest user
