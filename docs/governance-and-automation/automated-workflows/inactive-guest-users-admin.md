@@ -26,7 +26,7 @@ The **Edit Policy** dialog opens, where you can:
     * Automatically delete guest user
     * Perform no action
   * **Click the checkbox if you want a reminder sent (7)** 3 workdays before the due date 
-* Click **Save (8)** once you are done with the policy configuration.   
+* Click **Finish (8)** once you are done with the policy configuration.   
 
 ![Edit Policy Dialog](../../../static/img/set-up-automated-workflows-guest-users-edit-dialog-1.png)
 
