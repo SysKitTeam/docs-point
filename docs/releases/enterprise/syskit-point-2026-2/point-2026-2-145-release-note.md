@@ -85,11 +85,7 @@ For detailed step-by-step instructions on how to upgrade Syskit Point, refer to 
   * If a report has expired, a message informs you that it can no longer be downloaded.
   * [For more details, take a look at the Exported Reports article.](../../../reporting/exported-reports.md)
 
-* **Reports can now be exported to CSV format.**
-  * The CSV format is available both from the report view and when configuring scheduled report deliveries.
-
 * **Improvements made to Reports.**
-  * **Fixed an issue** where scheduled reports in CSV format would display an incorrect icon when sent.
   * **Fixed an issue** where the **Recommendation** column values would not appear in the Permissions Matrix exports.
 
 * **Improvements made to** the Sync Status report.
