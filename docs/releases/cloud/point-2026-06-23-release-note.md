@@ -21,8 +21,6 @@ description: This article lists new features, improvements, and bug fixes in the
 
 * **A new filter is available** when generating the Permissions Matrix report that lets you limit results to groups with up to a specified number of members, making the report easier to work with in large environments.
 
-* **Conditions and policies are now automatically saved** when navigating between steps in the policy wizard, preventing accidental data loss when moving forward without explicitly saving. (NE ZNAM JEL OVO POTREBNO SPOMENUT?)
-
 * **Fixed an issue** where the number of admins and owners was missing from the site overview PDF export.
 
 * **Various improvements, including UX and UI fixes, have been implemented.**
