@@ -50,6 +50,12 @@ After clicking the **Permissions Matrix** report tile, the Selection step opens 
    * **show content down to**:
       * subsites, document libraries & lists, folders, or files & folders
    * **show or hide security group members**
+   * **show group members for groups with less than**: 
+      * 300 members
+      * 500 members
+      * 1000 members
+      * Full member lists are only shown for smaller groups, for larger groups, exporting the report during the next step provides the full list
+   * **show files with sensitivity labels**, and select from your available labels
 * **Click the Run Report button** once the selected parameters have been set.
 
 ### Report Data
