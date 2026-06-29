@@ -15,7 +15,7 @@ description: This article lists new features, improvements, and bug fixes in the
 ## New Feature
 
 * **You can now see exactly how a policy applies to your workspaces.**
-  * The new policy impact preview shows the workspaces a policy currently applies to, the active reviewers for each workspace, and how the policy was assigned to each one.
+  * The new policy impact preview shows which workspaces a policy currently applies to, the active reviewers for each workspace, and how the policy was assigned to each one.
   * Access the view by:
     * Drilling into the **Applied to** column under **Settings** > **Policies**, or 
     * Drilling into **Workspaces included** under **Govern** > **Workspace Review** > **Overview**.
@@ -23,6 +23,11 @@ description: This article lists new features, improvements, and bug fixes in the
 
 
 ## Improvements & Bug Fixes
+
+* **The Inactive Guest Users Policy now supports sponsors as reviewers.**
+  * A new **Sponsor of Guest User** option is available in the **Select who will validate guest users** section of the policy.
+    * You can also define fallback users or groups for guest users without a defined sponsor.
+  * Sponsor information is now visible on the **User Details** screen and as a default column in the **External Users Report**.
 
 * **Fixed an issue** with Cleanup Opportunities where the dashboard tile showed a count for leftover anyone links or leftover external users, while the related drill-down view appeared empty.
 
