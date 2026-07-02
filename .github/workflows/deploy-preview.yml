@@ -86,7 +86,7 @@ jobs:
       - name: Deploy to Cloudflare Workers
         id: deploy
         run: |
-          npx wrangler deploy --name "$WORKER_NAME" | tee deploy.log
+          npx wrangler deploy --name "$WORKER_NAME" --env="" | tee deploy.log
           # Wrangler prints the deployed URL on a line like
           #   "  https://docs-point-pr-123.<subdomain>.workers.dev"
           url=$(grep -Eo 'https://[a-zA-Z0-9.-]+\.workers\.dev' deploy.log | head -n1)
