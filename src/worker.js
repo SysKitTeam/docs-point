@@ -27,18 +27,32 @@ export default {
       // Try to get the asset from the ASSETS binding
       const asset = await env.ASSETS.fetch(assetRequest);
       
+      // The ASSETS binding may return redirects (e.g. 301 to add a
+      // trailing slash).  Those Location headers use the internal path
+      // (without /point), so we must prepend /point back before the
+      // browser follows the redirect.
+      if (asset.status >= 300 && asset.status < 400) {
+        const location = asset.headers.get('Location');
+        if (location) {
+          const locUrl = new URL(location, url.origin);
+          if (!locUrl.pathname.startsWith('/point')) {
+            locUrl.pathname = '/point' + locUrl.pathname;
+          }
+          return Response.redirect(locUrl.toString(), asset.status);
+        }
+      }
+
       if (asset.status === 404) {
-        // If the asset is not found, try to serve index.html for SPA routing
-        const indexRequest = new Request(
-          new URL('/index.html', url.origin),
+        // Serve the Docusaurus 404 page instead of falling back to the
+        // root index.html — Docusaurus is a static site, not an SPA.
+        const notFoundRequest = new Request(
+          new URL('/404.html', url.origin),
           request
         );
-        const indexAsset = await env.ASSETS.fetch(indexRequest);
-        
-        if (indexAsset.status === 200) {
-          // Return index.html with proper headers for SPA routing
-          return new Response(await indexAsset.text(), {
-            status: 200,
+        const notFoundAsset = await env.ASSETS.fetch(notFoundRequest);
+        if (notFoundAsset.status === 200) {
+          return new Response(notFoundAsset.body, {
+            status: 404,
             headers: {
               'Content-Type': 'text/html',
               'Cache-Control': 'no-cache',
@@ -46,7 +60,7 @@ export default {
           });
         }
       }
-      
+
       // Add proper cache headers for static assets
       if (asset.status === 200) {
         const response = new Response(asset.body, asset);
