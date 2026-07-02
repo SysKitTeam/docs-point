@@ -64,6 +64,18 @@ export default {
           response.headers.set('Cache-Control', 'public, max-age=3600');
         }
         
+        // PR preview workers run on *.workers.dev where Cloudflare Rules
+        // don't apply. Set the same anti-caching/security headers that the
+        // Response Header Transform Rules set for docs.syskit.com and
+        // docs-staging.syskit.com so preview links behave consistently.
+        if (url.hostname.endsWith('.workers.dev')) {
+          response.headers.set('Cache-Control', 'no-cache, no-store, must-revalidate, max-age=0');
+          response.headers.set('Expires', 'Thu, 01 Jan 1970 00:00:00 GMT');
+          response.headers.set('Pragma', 'no-cache');
+          response.headers.set('X-Frame-Options', 'DENY');
+          response.headers.set('X-Redirect-Disabled', 'true');
+        }
+        
         return response;
       }
       
