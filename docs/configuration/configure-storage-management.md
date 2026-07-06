@@ -50,6 +50,7 @@ Once finished, **click Save (8)** to save your storage management preferences.
 * [Configure Your Environment for Storage Management](../configuration/configure-point-for-storage-management.md)
 * [Free Up Storage](../storage-management/free-up-storage.md)
 * [Configure Tenant Storage Limit Policy](../governance-and-automation/automated-workflows/tenant-storage-admin.md)
+* [Stale Files Policies](../governance-and-automation/stale-files/stale-files-admin.md) - classify inactive files across your tenant based on multi-criteria rules; requires storage sync to be running.
 * [Tenant Storage Security & Compliance Check](../governance-and-automation/security-compliance-checks/tenant-storage.md)
 * [Resolve Tenant Storage Limit Task](../point-collaborators/resolve-governance-tasks/tenant-storage-limit.md)
 * [Storage Metrics Report](../storage-management/storage-reports.md)
