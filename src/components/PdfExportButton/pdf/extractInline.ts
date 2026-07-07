@@ -23,7 +23,9 @@ export function extractInline(
   out: InlineRun[],
 ): void {
   if (node.nodeType === Node.TEXT_NODE) {
-    const text = (node.textContent ?? '').replace(/\u00ad/g, ''); // soft hyphen
+    const text = (node.textContent ?? '')
+      .replace(/\u00ad/g, '') // soft hyphen
+      .replace(/[\u2794\u27a1\u2192\u21d2\u279c\u279e\u27a4]/g, '-'); // arrows unsupported by standard PDF fonts
     if (!text) return;
     out.push({
       text,
