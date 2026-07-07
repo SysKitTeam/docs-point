@@ -16,7 +16,8 @@ import type {InlineRun} from './types';
 export function sanitizeFilename(title: string): string {
   return (
     title
-      .replace(/[\\/:*?"<>|]+/g, '')
+      .replace(/[\\/:*?"<>|,]+/g, '')
+      .replace(/\./g, '-')
       .replace(/\s+/g, '-')
       .replace(/-+/g, '-')
       .replace(/^-|-$/g, '')

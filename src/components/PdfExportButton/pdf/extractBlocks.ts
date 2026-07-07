@@ -32,8 +32,21 @@ export function stripNonContent(
   for (const sel of selectors) {
     clone.querySelectorAll(sel).forEach((el) => el.remove());
   }
+
+  // Replace known image-link buttons (e.g. the "Deploy to Azure" button)
+  // with a plain text node so the surrounding <a> keeps visible link text.
+  // This runs unconditionally: even with images enabled, an <a><img></a>
+  // produces no extractable text for inline runs.
+  clone.querySelectorAll('a > img').forEach((img) => {
+    const src =
+      img.getAttribute('src') || (img as HTMLImageElement).src || '';
+    if (/deploytoazurebutton/i.test(src)) {
+      const textNode = img.ownerDocument.createTextNode('Deploy to Azure');
+      img.replaceWith(textNode);
+    }
+  });
+
   if (!includeImages) {
-    // Remove every image-bearing element and its caption so neither the image
     // nor its alt text / figcaption leaks into a text-only export.
     // `.image-with-caption` is a runtime wrapper injected by
     // src/components/ImageCaptions which contains a visible `.caption` div
