@@ -39,9 +39,12 @@ Once the report is generated successfully, the following information is availabl
   * If activated, **the size of your Microsoft 365 Archive storage**, with details on how much is spent of archived sites compared to archived files 
 
 * **The Potential Savings tile shows how much storage you can save** by:
-  * Cleaning up **Inactive Workspaces (4)**
-  * Cleaning up **file versions older than (5)** X months 
-  * Cleaning up **everything but the last (6)** X number of file versions 
+  * Archiving **Inactive Workspaces**
+  * Archiving **Stale Files** 
+    * The number shown is he total size of tenant-wide files currently classified as stale by your [Stale Files policies](../governance-and-automation/stale-files/stale-files-admin.md) 
+      * Clicking **Stale Files** opens the **Stale Files - Potential Savings** view for the report, where you can see which workspaces have the most stale content
+  * Cleaning up **file versions older than** X months 
+  * Cleaning up **everything but the last** X number of file versions
   * You can **set your values for X** through Settings > Storage Management, which you can quickly access by **clicking the Settings button in the top right corner of the tile**
 
 * **The Storage Trend chart** shows a graph that depicts your storage usage across time, with the ability to select your own time frame to view storage in the last: 
@@ -56,7 +59,7 @@ The following data will be displayed in the columns:
   * Clicking the name opens the Site Storage report for the selected workspaces.
 * **Size**; shows the size of the site.
 * **Last 180 Days**; shows the storage trend for a site during this period along with an arrow that signifies the growth or reduction. Hovering above it gives you a percentage of how much.
-  * By default, the Last 180 Days column is shown on the report, but the following views are also available: **Largest Growth in last 7 days, Largest Growth in last 30 days, Largest Growth in last 90 days**.
+  * By default, the Last 180 Days column is shown on the report, but the following views are also available: **Largest Growth in last 7 days, Largest Growth in last 30 days, Largest Growth in last 90 days**, and **Stale Files - Potential Savings**.
 * **State**; show the state of the site, whether it is active, archived, or other.
   * Keep in mind that soft deleted and archived sites also count towards your storage usage until they are permanently deleted.
 * **Storage Limit**; show the storage limit for the site.
@@ -117,15 +120,29 @@ On the Site Storage Metrics report for the individual workspace, the following i
     * **Office**: doc, docx, rtf, xls, xlsx, ppt, pptx, pdf, txt, one
     * **Other**: any extensions not categorized in one of the above groups
 
+* **The Storage Optimization Opportunities tile** shows the amount of space you can free up by cleaning up the outdated versions of the site, including a Stale Files section that shows you can **Archive up to X GB** based on the files classified as stale by your [Stale Files policies](../governance-and-automation/stale-files/stale-files-admin.md). 
+  * Clicking **Archive** lets you archive all the stale files on the workspace. [For more details on archiving stale files, take a look at this article.](../storage-management/free-up-storage.md#archive-stale-files)
+
 * **The Site Trend chart** shows a graph that depicts your site storage usage across time, with the ability to select your own time frame to view site storage in the last: 
   * 180 days
   * 1 year
   * 2 years
   * Custom period
 
-* **The File Version Cleanup tile** shows the amount of space you can free up by cleaning up the outdated versions of the site.
-
 The Largest Files & Folders section of the report is, by default, set as a **Files Only view**, which means it shows a list of all files on the site. You can change the report to be seen as the **Site Structure view** by clicking the **Show by:** button located on the top right side of the Largest Files & Folders part of the report.
+
+The following additional views are available from the view dropdown:
+
+* **Archived Files**
+* **Images**
+* **Office files**
+* **Other files**
+* **Stale Files**
+* **Videos**
+* **Without Activity in the last 180 Days**
+* **Without Activity in the last 365 Days**
+* **Without Activity in the last 90 Days**
+
 
 The following data will be displayed in the columns:
 
@@ -142,9 +159,16 @@ The following data will be displayed in the columns:
 * **Storage Limit**; shows the storage limit for the site.
 * **Last Activity**; shows the date the last activity on the site or content happened.
 
-**Selecting the site** or one or more of the files included in the site provides the: 
-* **Action to Clean Up File Versions**, located on the right side of the screen under the **Manage section**
-* **Action to Delete Files**, located on the right side of the screen under the **Manage section**
+**Selecting the site** or one or more of the files included in the site provides the following actions in the **Manage section** on the right side of the screen:
+
+* **Clean Up File Versions**
+* **Delete Files** 
+* **Archive Files** 
+* **Archive Stale Files** 
+* **Reactivate Files**
+* **Open Recycle Bin**
+
+ [For more details on all the storage management actions, please take a look at the Free Up Storage article.](../storage-management/free-up-storage.md)
 
 :::info
 **Please note!** The Clean Up File Versions action is only available in the Governance plan or above. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
