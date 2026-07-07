@@ -37,16 +37,35 @@ export function renderCoverPage(
   doc.setFillColor(...COVER_BG_RGB);
   doc.rect(0, 0, A4_WIDTH_MM, A4_HEIGHT_MM, 'F');
 
+  // --- Pre-measure content to position the title dynamically ---
+  const titleLineHeight = 24;
+  doc.setFont('helvetica', 'bold');
+  doc.setFontSize(60);
+  const titleLines = doc.splitTextToSize(opts.title, contentW) as string[];
+  const titleH = titleLines.length * titleLineHeight + 4;
+  const subtitleH = 12;
+  const separatorH = 14;
+
+  const itemH = 6.5;
+  const maxDisplayed = 5;
+  const displayCount = Math.min(h2Texts.length, maxDisplayed);
+  const remaining = h2Texts.length - displayCount;
+  const tocSectionH =
+    h2Texts.length > 0
+      ? 10 + displayCount * itemH + (remaining > 0 ? itemH : 0)
+      : 0;
+
+  const totalH = titleH + subtitleH + separatorH + tocSectionH;
+
+  // Reserve space at the bottom for the logo + footer block (~70 mm).
+  const maxY = A4_HEIGHT_MM - 70;
+  const defaultY = (A4_HEIGHT_MM / 2 - 30) * 0.8;
+  let y = Math.max(30, Math.min(defaultY, maxY - totalH));
+
   // --- Title (white, bold, left-aligned) ---
-  // Positioned around the upper-middle of the page (~20% higher than the
-  // geometric center) so the cover reads as a balanced hero block with
-  // breathing room above the "In this article" list below it.
-  let y = (A4_HEIGHT_MM / 2 - 30) * 0.8;
   doc.setFont('helvetica', 'bold');
   doc.setFontSize(60);
   doc.setTextColor(...WHITE_RGB);
-  const titleLineHeight = 24;
-  const titleLines = doc.splitTextToSize(opts.title, contentW) as string[];
   for (const ln of titleLines) {
     doc.text(ln, padX, y);
     y += titleLineHeight;
@@ -77,11 +96,8 @@ export function renderCoverPage(
 
     doc.setFont('helvetica', 'normal');
     doc.setFontSize(12);
-    const itemH = 6.5;
-    // Reserve space at the bottom for the logo + footer block (~70 mm).
-    const maxY = A4_HEIGHT_MM - 70;
-    for (const text of h2Texts) {
-      if (y + itemH > maxY) break;
+    for (let idx = 0; idx < displayCount; idx++) {
+      const text = h2Texts[idx];
       const lines = doc.splitTextToSize(text, contentW) as string[];
       const first = lines[0];
       doc.text(first, padX, y);
@@ -94,10 +110,15 @@ export function renderCoverPage(
       });
       y += itemH;
       for (let i = 1; i < lines.length; i++) {
-        if (y + itemH > maxY) break;
         doc.text(lines[i], padX + 4, y);
         y += itemH;
       }
+    }
+    if (remaining > 0) {
+      doc.setFont('helvetica', 'italic');
+      doc.setFontSize(11);
+      doc.text(`and ${remaining} more`, padX, y);
+      y += itemH;
     }
   }
 
