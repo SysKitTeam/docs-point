@@ -33,7 +33,7 @@ After selecting Fix Now, the **information dialog** opens, providing more detail
   * After generating the report, you'll see the **recommendation to Remove Redundant Unique Permissions (1)**, where applicable
   * Selecting that object lets you complete the **Delete Unique Permissions action (2)**
 
-:::information
+:::info
 
 **Please note:** When using multiselect, **be mindful that parent nodes in the tree may have unique permissions without the Redundant Unique Permissions recommendation**. Selecting them will delete their unique permissions even if those are still needed.
 
