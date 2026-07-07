@@ -141,8 +141,16 @@ function extractList(
     // Markdown "loose" lists wrap each item's text in <p>. Promote any
     // leading <p> children to inline runs so the bullet sits next to its
     // text instead of on its own line above a paragraph-spaced block.
+    // Check for *meaningful* inline content — whitespace-only text nodes
+    // (common in Docusaurus output between <li> and <p>) should not
+    // prevent promotion.
+    const hasVisibleInline = inlineNodes.some(
+      (n) =>
+        n.nodeType === Node.ELEMENT_NODE ||
+        (n.textContent ?? '').trim() !== '',
+    );
     while (
-      inlineNodes.length === 0 &&
+      !hasVisibleInline &&
       blockChildren.length > 0 &&
       blockChildren[0].tagName.toLowerCase() === 'p'
     ) {
