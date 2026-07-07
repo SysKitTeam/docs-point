@@ -20,7 +20,6 @@ description: This article lists new features, improvements, and bug fixes in the
   * The new Archive Stale Files action is available and can be found: 
     * Under the Manage section on the Storage Metrics report, when using the Stale Files view.
     * On the Site Storage Metrics report, the Storage Optimization tile provides an easy way to perform a bulk archive action on stale files. 
-  * [For more details, take a look at the Stale Files Policy article.](../../governance-and-automation/stale-files/stale-files-admin.md)
 
 ## Improvements & Bug Fixes
 
@@ -34,12 +33,8 @@ description: This article lists new features, improvements, and bug fixes in the
   * The **Resolve Manually** option on the **Inactive Unique Permissions** and **Redundant Unique Permissions** tiles now navigates to the corresponding view on the Permissions Matrix report.
 
 * **Improvements made to Sync Status visibility for large SharePoint lists.**
-  * When Syskit Point excludes very large lists, you now see a clear notification on the **Site details**, **Team & Group details**, and **Sync Status** screens, along with a **View Details** action that shows exactly what was excluded.
-
-* **Improvements made to the Support Hub audit statistics.**
-  * Audit statistics now accurately reflect the actual state of audit collection, so the numbers match what is still pending processing.
-  * A new **lagging details** view shows which content is delayed and for how long, so you can quickly identify what needs attention.
-  * The audit filter has been simplified to a single **Last 2 days** option, as the default threshold for audit is now 2 days. 
+  * The default threshold for automatically excluding lists, document libraries and folders has been set to **1,000,000 items**.
+  * When anything is excluded due to size, you now see a clear notification on the **Site details**, **Team & Group details**, and **Sync Status** screens, along with a **View Details** action that shows exactly what was excluded.
 
 * The **Collaborator support link** settings have been moved from **Settings > Appearance** to **Settings > Manage access**, under the **Collaborators** section.
 
