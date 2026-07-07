@@ -8,17 +8,21 @@ description: This article explains how to configure Stale Files policies in Sysk
 
 **Stale Files policies** are available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 
-CONFIRMATION NEEDED?
+<!-- IS THIS TRUE? Check before release. -->
 
 :::
 
-The **Stale Files policies** lets you define what stale means for different parts of the Microsoft 365 tenant. Instead of one broad rule, admins can set up policies with different criteria that can detect the right content for cleanup, show you how much stale content exists tenant-wide and where it's where it can be found, before taking any action.
+Stale files affect your tenant in two ways: 
+ * They **consume active SharePoint storage quota**, which increases your Microsoft 365 storage costs, and
+ * They **hurt Copilot readiness**, since Microsoft 365 Copilot bases its answers on your tenant's content, and outdated files used in AI responses can mislead users.
 
+The **Stale Files policies** let you define what stale means for different parts of the Microsoft 365 tenant in order to easily archive stale files. Instead of one broad rule, admins can set up policies with different criteria that can detect the right content for cleanup, show you how much stale content exists tenant-wide and where it's where it can be found, before taking action.
 
 To use Stale Files policies, you need to [Configure Storage Management](../../configuration/configure-storage-management.md) with **Collect storage data** enabled.
 
-Microsoft only tracks when files were last modified, not when they were last accessed. Files that are read often but rarely edited can look stale even if they are not, which leaves you with inaccurate information for cleanup. By combining certain properties in a single rule, you can get an accurate view of what is actually stale, instead of finding files that have just not been modified but are still actively used.
+Microsoft only tracks when files were last modified, not when they were last accessed. Files that are read often but rarely edited can look stale even if they are not, which leaves you with inaccurate information for cleanup. 
 
+By combining certain properties in a single rule, you can get an accurate view of what is actually stale, instead of finding files that have just not been modified but are still actively used.
 
 ## Stale Files Settings
 
@@ -71,9 +75,9 @@ The following properties are available:
 | **Last activity** | is older than, is in the last, is before, is after, is between | `is older than 90 days` |
 | **File size** | is more than, is less than, is between | `is more than 100 MB` |
 | **Total size** (all versions combined) | is more than, is less than, is between | `is between 1 GB and 5 GB` |
-| **File extension** | is one of, is not one of | `is one of mp4, mov, avi` |
-| **Sensitivity label** | is one of, is not one of | `is not one of Confidential, Legal` |
-| **Retention label** | is one of, is not one of | `is one of General` |
+| **File extension** | is one of | `is one of mp4, mov, avi` |
+| **Sensitivity label** | is one of | `is not one of Confidential, Legal` |
+| **Retention label** | is one of | `is one of General` |
 
 Once you've made your selection, a **summary panel** provides you with a summary of your policy as you add conditions, so you can verify the logic before saving.
 
@@ -102,6 +106,22 @@ However, when editing an active policy, the Overview step includes a **More Deta
 
 * **Applied To** - the number of workspaces the policy is applied to
 * **Created By** - the name of the user who created the policy
+
+## Where to Find Stale Files and What to Do with Them
+
+Once your Stale Files policies are configured and your files have been assessed against the applied policies, stale content information can be found in the following ways: 
+
+* On the **Dashboard**, the **Storage tile** has the **Archive Opportunities** section which shows how much storage across your tenant is currently classified as stale and can be feed if stale files are archived.
+  * Clicking the Optimize Storage button on the Storage tile, opens the [Storage Metrics report](../../storage-management/storage-reports.md).
+    * On the **Potential Savings** tile, clicking Stale Files opens the **Stale Files - Potential Savings** view for the report where you can see which workspaces hold the most stale content and how much storage archiving stale files could reclaim on each.
+* **Selecting a specific workspace in the [Site Storage Metrics report](../../storage-management/storage-reports.md#site-storage-metrics)** and selecting the **Stale Files** view for the report. 
+  * This lists the individual files classified as stale on that workspace, and the **Archive up to X GB** section of the Storage Optimization Opportunities tile shows the total that can be reclaimed.
+
+From there, you have two options for what to do with the stale files you found:
+
+* **Archive them in bulk** using the [Archive Stale Files action](../../storage-management/free-up-storage.md#archive-stale-files) - available on both the Storage Metrics and Site Storage Metrics reports. 
+  * This archives every file currently classified as stale on the selected workspace(s) in a single operation.
+* **Review or clean up individual files** directly from the Site Storage Metrics view by using the standard [Archive Files](../../storage-management/free-up-storage.md#archive-files), [Delete Files](../../storage-management/free-up-storage.md#delete-files), or [Clean Up File Versions](../../storage-management/free-up-storage.md#clean-up-action-on-site-storage-metrics-report) actions on the files you select.
 
 ## Related Articles
 
