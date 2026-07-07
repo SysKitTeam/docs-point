@@ -55,7 +55,11 @@ export function extractInline(
   if (tag === 'a') {
     const raw = el.getAttribute('href') ?? '';
     if (isFootnoteCandidate(raw)) {
-      nextCtx.href = toAbsoluteUrl(raw, siteBase, pageUrl);
+      // Keep hash-only links (e.g. "#inventory") as-is so the renderer
+      // can wire them as internal PDF anchor links to the target heading.
+      nextCtx.href = raw.startsWith('#')
+        ? raw
+        : toAbsoluteUrl(raw, siteBase, pageUrl);
     }
   }
 
