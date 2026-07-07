@@ -105,6 +105,15 @@ export async function generatePdf(opts: GeneratePdfOptions): Promise<void> {
     });
   }
 
+  // --- Wire in-content anchor links (#id) to their target headings ---
+  for (const link of renderer.anchorLinks) {
+    const target = renderer.headings.find((h) => h.id === link.href.slice(1));
+    if (target) {
+      doc.setPage(link.page);
+      doc.link(link.x, link.y, link.w, link.h, {pageNumber: target.page});
+    }
+  }
+
   // --- Outline / bookmarks panel ---
   buildOutline(doc, opts.title, renderer.headings);
 

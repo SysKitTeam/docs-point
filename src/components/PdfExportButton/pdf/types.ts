@@ -48,7 +48,7 @@ export interface TableCell {
 }
 
 export type Block =
-  | {type: 'heading'; level: 1 | 2 | 3 | 4; runs: InlineRun[]}
+  | {type: 'heading'; level: 1 | 2 | 3 | 4; runs: InlineRun[]; id?: string}
   | {type: 'paragraph'; runs: InlineRun[]}
   | {type: 'list'; ordered: boolean; items: ListItem[]; level: number}
   | {type: 'code'; lines: string[]}

@@ -46,7 +46,9 @@ export class Renderer {
   // Headings captured during content rendering, used afterwards to build
   // the table of contents and the PDF outline / bookmarks panel.
   // `page` is the absolute page index at the time of rendering.
-  readonly headings: {level: number; text: string; page: number; y: number}[] = [];
+  readonly headings: {level: number; text: string; page: number; y: number; id?: string}[] = [];
+  // Deferred internal anchor links — wired to target headings after rendering.
+  readonly anchorLinks: {href: string; x: number; y: number; w: number; h: number; page: number}[] = [];
 
   constructor(doc: JsPDFType, includeImages: boolean, siteBase: string) {
     this.doc = doc;
@@ -69,7 +71,7 @@ export class Renderer {
   renderBlock(b: Block, indent: number, maxWidth: number): void {
     switch (b.type) {
       case 'heading':
-        this.renderHeading(b.level, b.runs);
+        this.renderHeading(b.level, b.runs, b.id);
         break;
       case 'paragraph':
         this.renderParagraph(b.runs, indent, maxWidth);
@@ -99,7 +101,7 @@ export class Renderer {
   // Render as a single native text call (no per-token positioning) so the
   // font's natural kerning is preserved — token-by-token placement caused
   // visibly wider letter spacing at larger sizes (H2 in particular).
-  renderHeading(level: 1 | 2 | 3 | 4, runs: InlineRun[]): void {
+  renderHeading(level: 1 | 2 | 3 | 4, runs: InlineRun[], id?: string): void {
     const size =
       level === 1 ? FONT_H1 : level === 2 ? FONT_H2 : level === 3 ? FONT_H3 : FONT_H4;
     const lineHeight = (size * LINE_HEIGHT_FACTOR) / 2.83465; // pt -> mm
@@ -125,6 +127,7 @@ export class Renderer {
           text: plain,
           page: this.doc.getCurrentPageInfo().pageNumber,
           y: this.y,
+          id,
         });
         firstDrawn = true;
       }
@@ -636,7 +639,23 @@ export class Renderer {
         setFontFor(groupRun);
         const linkColor = groupRun.href ? PRIMARY_RGB : style.color;
         this.doc.setTextColor(...linkColor);
-        if (groupRun.href) {
+        if (groupRun.href && groupRun.href.startsWith('#')) {
+          // Internal anchor link — render styled text now, wire to target
+          // heading page after all content has been rendered.
+          this.doc.text(groupText, groupX, baselineY);
+          const w = this.doc.getTextWidth(groupText);
+          this.doc.setDrawColor(...linkColor);
+          this.doc.setLineWidth(0.1);
+          this.doc.line(groupX, baselineY + 0.6, groupX + w, baselineY + 0.6);
+          this.anchorLinks.push({
+            href: groupRun.href,
+            x: groupX,
+            y: baselineY - 3.5,
+            w,
+            h: 5,
+            page: this.doc.getCurrentPageInfo().pageNumber,
+          });
+        } else if (groupRun.href) {
           this.doc.textWithLink(groupText, groupX, baselineY, {
             url: groupRun.href,
           });

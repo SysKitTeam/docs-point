@@ -214,7 +214,8 @@ export function extractBlocks(
     if (isHeadingTag(tag)) {
       const level = Math.min(4, parseInt(tag[1], 10)) as 1 | 2 | 3 | 4;
       const runs = inlineFromElement(child, siteBase, pageUrl);
-      if (runs.length) blocks.push({type: 'heading', level, runs});
+      const id = child.id || undefined;
+      if (runs.length) blocks.push({type: 'heading', level, runs, id});
       continue;
     }
 

@@ -41,7 +41,6 @@ export function isFootnoteCandidate(href: string): boolean {
   if (!href) return false;
   const trimmed = href.trim();
   if (!trimmed) return false;
-  if (trimmed.startsWith('#')) return false;
   if (/^(mailto:|tel:|javascript:)/i.test(trimmed)) return false;
   return true;
 }
