@@ -8,8 +8,6 @@ description: This article explains how to configure Stale Files policies in Sysk
 
 **Stale Files policies** are available in the Governance plan and higher tiers. See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
 
-<!-- IS THIS TRUE? Check before release. -->
-
 :::
 
 Stale files affect your tenant in two ways: 
