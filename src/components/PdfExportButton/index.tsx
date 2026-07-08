@@ -43,6 +43,7 @@ export default function PdfExportButton(): React.ReactNode {
       await generatePdf({
         articleEl,
         title: metadata.title,
+        description: metadata.description,
         sourceUrl,
         siteBase,
         breadcrumbs,

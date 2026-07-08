@@ -26,7 +26,7 @@ import {Renderer} from './pdf/renderer';
 import {renderCoverPage} from './pdf/coverPage';
 import {renderBackPage} from './pdf/backPage';
 import {buildOutline, drawHeaderFooter} from './pdf/chrome';
-import {MARGIN_TOP_MM} from './pdf/constants';
+import {CONTENT_WIDTH_MM, MARGIN_TOP_MM} from './pdf/constants';
 import {runsToPlainText, sanitizeFilename} from './pdf/utils';
 
 // Public re-exports so existing imports of this file keep working.
@@ -48,7 +48,7 @@ export async function generatePdf(opts: GeneratePdfOptions): Promise<void> {
 
   const clone = opts.articleEl.cloneNode(true) as HTMLElement;
   stripNonContent(clone, opts.includeImages);
-  const blocks = extractBlocks(clone, opts.siteBase, opts.sourceUrl);
+  let blocks = extractBlocks(clone, opts.siteBase, opts.sourceUrl);
 
   const doc = new jsPDF({
     unit: 'mm',
@@ -88,7 +88,17 @@ export async function generatePdf(opts: GeneratePdfOptions): Promise<void> {
   const first = blocks[0];
   if (!first || first.type !== 'heading' || first.level !== 1) {
     renderer.renderHeading(1, [{text: opts.title, bold: true}]);
+  } else {
+    // Render the extracted H1 so the description appears after it.
+    renderer.renderBlock(first, 0, CONTENT_WIDTH_MM);
+    blocks = blocks.slice(1);
   }
+
+  // Render the frontmatter description as a muted paragraph below the title.
+  if (opts.description) {
+    renderer.renderDescription(opts.description);
+  }
+
   renderer.renderBlocks(blocks);
 
   // --- Final page: back / support ---

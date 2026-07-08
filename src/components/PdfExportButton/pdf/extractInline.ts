@@ -13,6 +13,7 @@ interface InlineContext {
   italic?: boolean;
   code?: boolean;
   href?: string;
+  httpMethod?: string;
 }
 
 export function extractInline(
@@ -33,6 +34,7 @@ export function extractInline(
       italic: ctx.italic,
       code: ctx.code,
       href: ctx.href,
+      httpMethod: ctx.httpMethod,
     });
     return;
   }
@@ -52,6 +54,17 @@ export function extractInline(
   if (tag === 'strong' || tag === 'b') nextCtx.bold = true;
   if (tag === 'em' || tag === 'i') nextCtx.italic = true;
   if (tag === 'code' && !ctx.code) nextCtx.code = true;
+  // Detect <HttpMethod> badges rendered as <span class="http-method ...">
+  if (tag === 'span' && el.classList.contains('http-method')) {
+    const text = (el.textContent ?? '').trim().toUpperCase();
+    if (text) {
+      out.push({
+        text,
+        httpMethod: text,
+      });
+      return;
+    }
+  }
   if (tag === 'a') {
     const raw = el.getAttribute('href') ?? '';
     if (isFootnoteCandidate(raw)) {
@@ -95,6 +108,7 @@ export function normalizeRuns(runs: InlineRun[]): InlineRun[] {
         italic: r.italic,
         code: r.code,
         href: r.href,
+        httpMethod: r.httpMethod,
       };
       if (!piece.text) continue;
       const prev = out[out.length - 1];
@@ -104,6 +118,7 @@ export function normalizeRuns(runs: InlineRun[]): InlineRun[] {
         prev.italic === piece.italic &&
         prev.code === piece.code &&
         prev.href === piece.href &&
+        prev.httpMethod === piece.httpMethod &&
         prev.text !== '\n' &&
         piece.text !== '\n'
       ) {

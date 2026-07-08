@@ -68,7 +68,8 @@ export function sameStyle(a: InlineRun, b: InlineRun): boolean {
     !!a.bold === !!b.bold &&
     !!a.italic === !!b.italic &&
     !!a.code === !!b.code &&
-    a.href === b.href
+    a.href === b.href &&
+    a.httpMethod === b.httpMethod
   );
 }
 
@@ -105,7 +106,19 @@ export function isBlockTag(tag: string): boolean {
 
 // --- Color helpers --------------------------------------------------------
 
+export function httpMethodColor(method: string): [number, number, number] {
+  switch (method.toUpperCase()) {
+    case 'GET': return [97, 175, 254];    // blue
+    case 'POST': return [73, 204, 144];   // green
+    case 'PUT': return [252, 161, 48];    // orange
+    case 'DELETE': return [249, 62, 62];  // red
+    case 'PATCH': return [80, 227, 194];  // teal
+    default: return [160, 160, 160];      // gray fallback
+  }
+}
+
 export function admonitionColor(kind: string): [number, number, number] {
+
   switch (kind.toLowerCase()) {
     case 'warning':
     case 'caution':

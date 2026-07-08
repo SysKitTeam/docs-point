@@ -10,6 +10,61 @@ import type {Block, InlineRun, ListItem, TableCell, TableCellImage} from './type
 import {extractInline, inlineFromElement, normalizeRuns} from './extractInline';
 import {collapse, isBlockTag, isHeadingTag} from './utils';
 
+// --- Video extraction helper ----------------------------------------------
+
+/** Map embed hostnames to a human-readable label and optional watch-URL builder. */
+function resolveVideoUrl(
+  src: string,
+): {url: string; provider: string} | null {
+  let parsed: URL;
+  try { parsed = new URL(src); } catch { return null; }
+  const host = parsed.hostname.replace(/^www\./, '');
+
+  // YouTube
+  const ytMatch = host.match(/youtube(?:-nocookie)?\.com/) ? src.match(/\/embed\/([^?/]+)/) : null;
+  if (ytMatch) return {url: `https://www.youtube.com/watch?v=${ytMatch[1]}`, provider: 'YouTube'};
+  if (host === 'youtu.be') return {url: src, provider: 'YouTube'};
+
+  // Vimeo
+  const vimeoMatch = host === 'player.vimeo.com' ? src.match(/\/video\/(\d+)/) : null;
+  if (vimeoMatch) return {url: `https://vimeo.com/${vimeoMatch[1]}`, provider: 'Vimeo'};
+
+  // Microsoft Stream / SharePoint embed
+  if (host.endsWith('sharepoint.com') || host.endsWith('microsoftstream.com'))
+    return {url: src, provider: 'Microsoft Stream'};
+
+  // Loom
+  if (host.endsWith('loom.com'))
+    return {url: src.replace('/embed/', '/share/'), provider: 'Loom'};
+
+  // Wistia
+  if (host.endsWith('wistia.com') || host.endsWith('wistia.net'))
+    return {url: src, provider: 'Wistia'};
+
+  // Generic fallback — any other iframe with video-like attributes.
+  return null;
+}
+
+function extractVideoBlock(
+  iframe: HTMLElement,
+): Extract<Block, {type: 'video'}> | null {
+  const src = iframe.getAttribute('src') ?? '';
+  if (!src) return null;
+
+  const resolved = resolveVideoUrl(src);
+  if (!resolved) return null;
+
+  const title = (iframe.getAttribute('title') ?? '').trim();
+  const genericTitles = ['', 'youtube video player', 'video player', 'embedded video'];
+  const isGeneric = genericTitles.includes(title.toLowerCase());
+
+  return {
+    type: 'video',
+    url: resolved.url,
+    title: isGeneric ? `Watch video on ${resolved.provider}` : title,
+  };
+}
+
 // --- DOM cleanup ----------------------------------------------------------
 
 export function stripNonContent(
@@ -62,7 +117,22 @@ export function stripNonContent(
 // --- Helpers --------------------------------------------------------------
 
 function extractCodeLines(pre: HTMLElement): string[] {
-  // Docusaurus wraps highlighted code in nested spans. Use textContent.
+  // Docusaurus wraps highlighted code in <span class="token-line"> elements.
+  // Use those as line boundaries when available, because the SSR output may
+  // not include literal \n characters between the spans.
+  const tokenLines = pre.querySelectorAll('[class*="token-line"], .token-line');
+  if (tokenLines.length > 0) {
+    const lines: string[] = [];
+    tokenLines.forEach((span) => {
+      // Each token-line's textContent may end with \n — strip it.
+      const text = (span.textContent ?? '').replace(/\n$/, '');
+      lines.push(text);
+    });
+    // Remove trailing empty lines.
+    while (lines.length && !lines[lines.length - 1]) lines.pop();
+    return lines;
+  }
+  // Fallback: plain <pre> without syntax highlighting.
   const text = pre.textContent ?? '';
   return text.replace(/\r\n/g, '\n').replace(/\n+$/, '').split('\n');
 }
@@ -211,6 +281,22 @@ export function extractBlocks(
       continue;
     }
 
+    // Detect embedded videos (YouTube iframes) and emit a video block.
+    if (tag === 'iframe') {
+      const vb = extractVideoBlock(child);
+      if (vb) { blocks.push(vb); continue; }
+    }
+    // The responsive wrapper <div> that contains a YouTube iframe.
+    // Only match shallow wrappers (iframe is a direct child) to avoid
+    // consuming an entire content section that happens to contain a video.
+    if (tag === 'div') {
+      const iframe = child.querySelector(':scope > iframe') as HTMLIFrameElement | null;
+      if (iframe) {
+        const vb = extractVideoBlock(iframe);
+        if (vb) { blocks.push(vb); continue; }
+      }
+    }
+
     if (isHeadingTag(tag)) {
       const level = Math.min(4, parseInt(tag[1], 10)) as 1 | 2 | 3 | 4;
       const runs = inlineFromElement(child, siteBase, pageUrl);
@@ -261,12 +347,14 @@ export function extractBlocks(
             const innerImg = sub.querySelector('img');
             if (innerImg) {
               flushPending();
+              const captionEl = sub.querySelector('.caption');
+              const captionText = captionEl
+                ? (captionEl.textContent ?? '').trim()
+                : innerImg.alt;
               blocks.push({
                 type: 'image',
                 src: innerImg.currentSrc || innerImg.src,
-                // The wrapper already renders a visible caption next to the
-                // image, so don't repeat it ourselves — alt is left empty.
-                alt: '',
+                alt: captionText,
               });
               return;
             }
@@ -326,6 +414,49 @@ export function extractBlocks(
       tag === 'header' ||
       tag === 'main'
     ) {
+      // image-with-caption wrapper: extract image + its caption text.
+      if (child.classList.contains('image-with-caption')) {
+        const innerImg = child.querySelector('img') as HTMLImageElement | null;
+        if (innerImg) {
+          const captionEl = child.querySelector('.caption');
+          const captionText = captionEl
+            ? (captionEl.textContent ?? '').trim()
+            : innerImg.alt;
+          blocks.push({
+            type: 'image',
+            src: innerImg.currentSrc || innerImg.src,
+            alt: captionText,
+          });
+          continue;
+        }
+      }
+      // Docusaurus tabs: interleave each tab title with its panel content
+      // so the PDF reads "Title 1 / Content 1 / Title 2 / Content 2 …"
+      // instead of "all titles / all content".
+      if (child.classList.contains('tabs-container')) {
+        const tabButtons = Array.from(
+          child.querySelectorAll(':scope > ul[role="tablist"] > li[role="tab"]'),
+        ) as HTMLElement[];
+        const tabPanels = Array.from(
+          child.querySelectorAll(':scope > div > [role="tabpanel"]'),
+        ) as HTMLElement[];
+        for (let t = 0; t < tabButtons.length; t++) {
+          const label = collapse(tabButtons[t].textContent ?? '').trim();
+          if (label) {
+            blocks.push({
+              type: 'heading',
+              level: 4,
+              runs: [{text: label}],
+            });
+          }
+          if (t < tabPanels.length) {
+            // Remove hidden attribute so content is extractable.
+            tabPanels[t].removeAttribute('hidden');
+            blocks.push(...extractBlocks(tabPanels[t], siteBase, pageUrl));
+          }
+        }
+        continue;
+      }
       // Recurse — also pick up any <img> directly inside.
       const directImg = child.querySelector(':scope > img') as HTMLImageElement | null;
       if (directImg && child.children.length === 1) {

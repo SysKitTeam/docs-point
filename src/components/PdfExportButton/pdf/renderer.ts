@@ -34,7 +34,7 @@ import {
 } from './constants';
 import {imageToDataUrl} from './images';
 import type {Block, ImageData, InlineRun, TableCell} from './types';
-import {admonitionColor, runsToPlainText, sameStyle, tintColor} from './utils';
+import {admonitionColor, httpMethodColor, runsToPlainText, sameStyle, tintColor} from './utils';
 
 export class Renderer {
   doc: JsPDFType;
@@ -91,10 +91,28 @@ export class Renderer {
       case 'image':
         if (this.includeImages) this.renderImage(b.src, b.alt, indent, maxWidth);
         break;
+      case 'video':
+        this.renderVideo(b.url, b.title, indent, maxWidth);
+        break;
       case 'hr':
         this.renderHr();
         break;
     }
+  }
+
+  // --- Description (frontmatter) ---
+  renderDescription(text: string): void {
+    const lineHeight = (FONT_BODY * LINE_HEIGHT_FACTOR) / 2.83465;
+    this.doc.setFont('helvetica', 'italic');
+    this.doc.setFontSize(FONT_BODY);
+    this.doc.setTextColor(...MUTED_RGB);
+    const lines = this.doc.splitTextToSize(text, CONTENT_WIDTH_MM) as string[];
+    for (const ln of lines) {
+      this.ensureSpace(lineHeight);
+      this.doc.text(ln, MARGIN_X_MM, this.y + lineHeight - 1);
+      this.y += lineHeight;
+    }
+    this.y += PARAGRAPH_GAP_MM;
   }
 
   // --- Headings ---
@@ -272,6 +290,7 @@ export class Renderer {
     interface PreparedCell {
       images: RenderedCellImage[];
       lines: string[];
+      runs: InlineRun[];
       imagesBlockH: number; // total mm taken by stacked images
     }
 
@@ -311,10 +330,10 @@ export class Renderer {
           (acc, im, i) => acc + im.hMm + (i > 0 ? 1 : 0),
           0,
         );
-        return {images, lines, imagesBlockH};
+        return {images, lines, runs: cell.runs, imagesBlockH};
       });
       while (prepared.length < colCount) {
-        prepared.push({images: [], lines: [' '], imagesBlockH: 0});
+        prepared.push({images: [], lines: [' '], runs: [], imagesBlockH: 0});
       }
 
       const rowContentHeights = prepared.map((p) => {
@@ -356,13 +375,28 @@ export class Renderer {
         const hasText = p.lines.some((l) => l.trim());
         if (hasText && p.images.length > 0) cellY += 1.5;
         if (hasText) {
-          // Reset font for text in each cell.
-          this.doc.setFont('helvetica', isHeaderRow ? 'bold' : 'normal');
-          this.doc.setFontSize(FONT_SMALL);
-          let yLine = cellY + lineHeight - 1;
-          for (const ln of p.lines) {
-            this.doc.text(ln, cellX, yLine);
-            yLine += lineHeight;
+          // Use layoutInlineRuns for styled content (HTTP method badges, etc.)
+          // by temporarily pointing this.y at the cell's text area.
+          const hasStyledRuns = p.runs.some((r) => r.httpMethod || r.code || r.href);
+          if (hasStyledRuns && p.runs.length > 0) {
+            const savedY = this.y;
+            this.y = cellY;
+            this.layoutInlineRuns(p.runs, cellX, colWidth - cellPadding * 2, {
+              fontSize: FONT_SMALL,
+              bold: isHeaderRow,
+              color: TEXT_RGB,
+            });
+            this.y = savedY;
+          } else {
+            // Plain text fast path.
+            this.doc.setFont('helvetica', isHeaderRow ? 'bold' : 'normal');
+            this.doc.setFontSize(FONT_SMALL);
+            this.doc.setTextColor(...TEXT_RGB);
+            let yLine = cellY + lineHeight - 1;
+            for (const ln of p.lines) {
+              this.doc.text(ln, cellX, yLine);
+              yLine += lineHeight;
+            }
           }
         }
       }
@@ -371,9 +405,65 @@ export class Renderer {
     this.y += PARAGRAPH_GAP_MM;
   }
 
+  // --- Admonition icon helpers ---
+
+  private drawAdmonitionIcon(
+    kind: string,
+    cx: number,
+    cy: number,
+    color: [number, number, number],
+  ): void {
+    const r = 1.8; // icon radius in mm
+    const k = kind.toLowerCase();
+
+    if (k === 'warning' || k === 'caution') {
+      // Filled triangle pointing up with "!" inside.
+      const h = r * 2 * 0.866; // equilateral height
+      const topY = cy - h * 0.6;
+      const botY = cy + h * 0.4;
+      this.doc.setFillColor(...color);
+      this.doc.triangle(
+        cx, topY,                // top vertex
+        cx - r, botY,            // bottom-left
+        cx + r, botY,            // bottom-right
+        'F',
+      );
+      // "!" glyph inside
+      this.doc.setFont('helvetica', 'bold');
+      this.doc.setFontSize(7);
+      this.doc.setTextColor(255, 255, 255);
+      const tw = this.doc.getTextWidth('!');
+      this.doc.text('!', cx - tw / 2, botY - 0.5);
+    } else {
+      // Filled circle for info, note, tip, danger, etc.
+      this.doc.setFillColor(...color);
+      this.doc.circle(cx, cy, r, 'F');
+
+      this.doc.setFont('helvetica', 'bold');
+      this.doc.setTextColor(255, 255, 255);
+
+      if (k === 'danger') {
+        this.doc.setFontSize(7);
+        const tw = this.doc.getTextWidth('!');
+        this.doc.text('!', cx - tw / 2, cy + 0.9);
+      } else if (k === 'tip' || k === 'success') {
+        // Draw a checkmark using lines.
+        this.doc.setDrawColor(255, 255, 255);
+        this.doc.setLineWidth(0.45);
+        this.doc.line(cx - 0.9, cy, cx - 0.2, cy + 0.8);
+        this.doc.line(cx - 0.2, cy + 0.8, cx + 0.9, cy - 0.6);
+      } else {
+        // info / note: "i" glyph
+        this.doc.setFontSize(7.5);
+        const tw = this.doc.getTextWidth('i');
+        this.doc.text('i', cx - tw / 2, cy + 1);
+      }
+    }
+  }
+
   // --- Admonitions ---
-  // Tinted background panel with a slim colored left accent bar. No title
-  // row, no outer border — the bar + fill alone signal the callout.
+  // Tinted background panel with a slim colored left accent bar and a
+  // hanging icon to the left of the body text.
   renderAdmonition(
     kind: string,
     _title: string,
@@ -389,16 +479,26 @@ export class Renderer {
     const padX = 4;
     const padTop = 3;
     const padBottom = 3;
+    const iconDiam = 3.6;
+    const iconTextGap = 2; // gap between icon and text column
 
     this.ensureSpace(padTop + padBottom + 4);
 
     const startY = this.y;
     const startPage = this.doc.getCurrentPageInfo().pageNumber;
 
-    // Render body content with internal padding & indent past the bar.
     this.y = startY + padTop;
-    const contentIndent = indent + barWidth + padX;
-    const contentWidth = maxWidth - barWidth - padX * 2;
+
+    // Icon sits in the gutter between the bar and the text column.
+    const iconCx = x + barWidth + padX + iconDiam / 2;
+    const firstLineH = (FONT_BODY * LINE_HEIGHT_FACTOR) / 2.83465;
+    const iconCy = this.y + firstLineH / 2;
+    this.drawAdmonitionIcon(kind, iconCx, iconCy, color);
+
+    // Body text starts after: bar + padX + icon + gap.
+    const textIndentExtra = barWidth + padX + iconDiam + iconTextGap;
+    const contentIndent = indent + textIndentExtra;
+    const contentWidth = maxWidth - textIndentExtra - padX;
     this.renderBlocks(children, contentIndent, contentWidth);
 
     const endPage = this.doc.getCurrentPageInfo().pageNumber;
@@ -504,6 +604,46 @@ export class Renderer {
       }
       this.y += PARAGRAPH_GAP_MM;
     }
+  }
+
+  // --- Video ---
+  // Renders a play-button icon with a clickable link to the video.
+  renderVideo(url: string, title: string, indent: number, maxWidth: number): void {
+    const x = MARGIN_X_MM + indent;
+    const lineHeight = (FONT_BODY * LINE_HEIGHT_FACTOR) / 2.83465;
+    const iconR = 2; // play-button circle radius
+    const iconDiam = iconR * 2;
+    const gap = 2;
+
+    this.ensureSpace(iconDiam + PARAGRAPH_GAP_MM);
+
+    // Draw a filled play-button circle.
+    const iconCx = x + iconR;
+    const iconCy = this.y + lineHeight / 2;
+    this.doc.setFillColor(...PRIMARY_RGB);
+    this.doc.circle(iconCx, iconCy, iconR, 'F');
+    // Triangle (play arrow) inside.
+    const ax = iconCx - 0.6;
+    const ay1 = iconCy - 1;
+    const ay2 = iconCy + 1;
+    const bx = iconCx + 1;
+    this.doc.setFillColor(255, 255, 255);
+    this.doc.triangle(ax, ay1, ax, ay2, bx, iconCy, 'F');
+
+    // Clickable title text next to the icon.
+    const textX = x + iconDiam + gap;
+    this.doc.setFont('helvetica', 'normal');
+    this.doc.setFontSize(FONT_BODY);
+    this.doc.setTextColor(...PRIMARY_RGB);
+    const baselineY = this.y + lineHeight - 1;
+    this.doc.textWithLink(title, textX, baselineY, {url});
+    const tw = this.doc.getTextWidth(title);
+    // Underline.
+    this.doc.setDrawColor(...PRIMARY_RGB);
+    this.doc.setLineWidth(0.1);
+    this.doc.line(textX, baselineY + 0.6, textX + tw, baselineY + 0.6);
+
+    this.y += Math.max(iconDiam, lineHeight) + PARAGRAPH_GAP_MM;
   }
 
   renderHr(): void {
@@ -637,12 +777,55 @@ export class Renderer {
           groupText = groupText.slice(0, -1);
         }
         setFontFor(groupRun);
-        const linkColor = groupRun.href ? PRIMARY_RGB : style.color;
+        const groupW = this.doc.getTextWidth(groupText);
+        // Inline code background — light gray pill behind the code span.
+        if (groupRun.code) {
+          const padX = 0.6;
+          const padY = 0.4;
+          const bgY = baselineY - lineHeight + 1 + padY;
+          const bgH = lineHeight + padY;
+          this.doc.setFillColor(...CODE_BG_RGB);
+          this.doc.roundedRect(
+            groupX - padX,
+            bgY,
+            groupW + padX * 2,
+            bgH,
+            0.6, 0.6, 'F',
+          );
+        }
+        // HTTP method badge — colored pill, same geometry as inline code.
+        if (groupRun.httpMethod) {
+          const badgeColor = httpMethodColor(groupRun.httpMethod);
+          const padX = 1;
+          const padY = 0.4;
+          const bgY = baselineY - lineHeight + 1 + padY;
+          const bgH = lineHeight + padY;
+          this.doc.setFillColor(
+            Math.round(badgeColor[0] + (255 - badgeColor[0]) * 0.85),
+            Math.round(badgeColor[1] + (255 - badgeColor[1]) * 0.85),
+            Math.round(badgeColor[2] + (255 - badgeColor[2]) * 0.85),
+          );
+          this.doc.roundedRect(
+            groupX - padX,
+            bgY,
+            groupW + padX * 2,
+            bgH,
+            0.6, 0.6, 'F',
+          );
+        }
+        // All-caps method text has no descenders — nudge text down so it
+        // sits visually centered in the badge pill.
+        const textBaselineY = groupRun.httpMethod
+          ? baselineY + 0.5
+          : baselineY;
+        const linkColor = groupRun.href ? PRIMARY_RGB
+          : groupRun.httpMethod ? httpMethodColor(groupRun.httpMethod)
+          : style.color;
         this.doc.setTextColor(...linkColor);
         if (groupRun.href && groupRun.href.startsWith('#')) {
           // Internal anchor link — render styled text now, wire to target
           // heading page after all content has been rendered.
-          this.doc.text(groupText, groupX, baselineY);
+          this.doc.text(groupText, groupX, textBaselineY);
           const w = this.doc.getTextWidth(groupText);
           this.doc.setDrawColor(...linkColor);
           this.doc.setLineWidth(0.1);
@@ -656,16 +839,16 @@ export class Renderer {
             page: this.doc.getCurrentPageInfo().pageNumber,
           });
         } else if (groupRun.href) {
-          this.doc.textWithLink(groupText, groupX, baselineY, {
+          this.doc.textWithLink(groupText, groupX, textBaselineY, {
             url: groupRun.href,
           });
           // Underline the link segment.
           const w = this.doc.getTextWidth(groupText);
           this.doc.setDrawColor(...linkColor);
           this.doc.setLineWidth(0.1);
-          this.doc.line(groupX, baselineY + 0.6, groupX + w, baselineY + 0.6);
+          this.doc.line(groupX, textBaselineY + 0.6, groupX + w, textBaselineY + 0.6);
         } else {
-          this.doc.text(groupText, groupX, baselineY);
+          this.doc.text(groupText, groupX, textBaselineY);
         }
         if (trailingSpaceX !== null) {
           this.doc.text(' ', trailingSpaceX, baselineY);
@@ -696,6 +879,13 @@ export class Renderer {
             !sameStyle(tok.run, next.run)) {
           w *= 1.35;
         }
+      }
+      // HTTP method badge gap: the CSS margin-right doesn't survive DOM
+      // extraction, so inject layout-only padding after the badge token.
+      // This covers cases with or without a space node following the span.
+      if (tok.run.httpMethod && !tok.isSpace) {
+        const BADGE_PAD_X = 1; // must match the padX used when drawing the pill
+        w += BADGE_PAD_X + 0.5; // padX overhang + small visual gap
       }
       if (curX + w > width && curLine.length > 0) {
         flushLine(false);

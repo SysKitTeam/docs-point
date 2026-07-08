@@ -13,6 +13,7 @@ export interface PdfBreadcrumb {
 export interface GeneratePdfOptions {
   articleEl: HTMLElement;
   title: string;
+  description: string;
   sourceUrl: string;
   siteBase: string;
   breadcrumbs: PdfBreadcrumb[];
@@ -28,6 +29,7 @@ export interface InlineRun {
   italic?: boolean;
   code?: boolean;
   href?: string; // absolute URL when this run is a link
+  httpMethod?: string; // HTTP method badge (GET, POST, etc.)
 }
 
 export interface ListItem {
@@ -55,6 +57,7 @@ export type Block =
   | {type: 'table'; rows: TableCell[][]; header: boolean}
   | {type: 'admonition'; kind: string; title: string; children: Block[]}
   | {type: 'image'; src: string; alt: string}
+  | {type: 'video'; url: string; title: string}
   | {type: 'hr'};
 
 // --- Image / cover / back-page support ------------------------------------
