@@ -67,13 +67,8 @@ export const BACK_PAGE_LINKS: BackPageLink[] = [
     url: 'https://www.syskit.com/company/contact-us/',
   },
   {
-    label: 'Syskit Point product page',
-    description: 'Features, integrations, and customer stories.',
-    url: 'https://www.syskit.com/products/point/',
-  },
-  {
     label: 'Syskit website',
-    description: 'Explore the full Syskit product portfolio.',
+    description: 'Learn more about Syskit Point — features, pricing, and customer stories.',
     url: 'https://www.syskit.com/',
   },
 ];
