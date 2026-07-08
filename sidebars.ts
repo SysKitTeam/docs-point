@@ -654,6 +654,11 @@ const sidebars: SidebarsConfig = {
           ],
         },
         {
+          type: 'doc',
+          id: 'governance-and-automation/stale-files/stale-files-admin',
+          label: 'Stale Files',
+        },
+        {
           type: 'category',
           label: 'Policies',
           link: {
