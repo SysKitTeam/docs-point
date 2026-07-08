@@ -98,10 +98,11 @@ This tile provides the following storage metrics:
 The **View All** link opens the **Storage Metrics report** showing tenant-wide storage usage, usage trend through time, and the largest sites in your tenant.
 
 You can also find information on:
-* How much storage you saved
-* How much storage you could save
+* Storage Saved - how much **storage you saved**
+* Cleanup Opportunities - how much **storage you could save** 
+* Archive Opportunities - how much **storage you could reclaim by archiving stale files** across your tenant, based on your [Stale Files policies](../governance-and-automation/stale-files/stale-files-admin.md)
 
-The **Clean Up** link opens the **Storage Metrics report**, where you can select the workspaces on which you want to perform a storage clean-up.
+The **Optimize Storage** link opens the [**Storage Metrics report**](../storage-management/storage-reports.md#storage-metrics), where you can select the workspaces on which you want to perform a storage clean-up or archive stale files.
 
 ![Storage tile ](../../static/img/dashboard-storage-tile.png)
 
@@ -119,7 +120,7 @@ Storage data displayed on the Dashboard can differ from the data provided by the
 
 ## Security & Compliance
 
-The Security and Compliance Checks tile shows the most important vulnerabilities and misalignments in your environment. These checks keep you up-to-date so you can react quickly and efficiently to keep your environment secure and under control.
+The Security and Compliance Checks tile shows the most important vulnerabilities and misalignments in your environment. These checks keep you up to date so you can react quickly and efficiently to keep your environment secure and under control.
 
 The tile on the Dashboard shows:
 * The number of high-risk vulnerabilities
@@ -179,7 +180,7 @@ Here you can find the total number of:
 
 Clicking the External users opens the **Users Overview** screen with filtered external/ad-hoc users.
 
-Drill on the **Sites With External Sharing** number opens the **External Sharing** view on the **Sites Overview** screen. Here, you can find Microsoft Teams, Microsoft 365 Groups, sites, and OneDrive with **external sharing setting set to any other value than 'Only people in your organization'**.
+Clicking the **Sites With External Sharing** number opens the **External Sharing** view on the **Sites Overview** screen. Here, you can find Microsoft Teams, Microsoft 365 Groups, sites, and OneDrive with the **external sharing setting set to any value other than 'Only people in your organization'**.
 
 Clicking the **Anonymous Links** number opens the **Sharing Links** report in the Report Center. Here, only links shared with anyone are displayed. You can remove specific links with the help of the actions available in the side panel.
 
@@ -354,7 +355,7 @@ Clicking the **View All** button takes you to the [Workspace Review Insights scr
 
 ## Cleanup Opportunities
 
-The **Cleanup Opportunities** tile helps you identify and act on permission issues that build up over time, such as, redundant unique permissions, inactive access, and sharing that no longer aligns with your current policies.
+The **Cleanup Opportunities** tile helps you identify and act on permission issues that build up over time, such as redundant unique permissions, inactive access, and sharing that no longer aligns with your current policies.
 
 The tile on the Dashboard shows the following:
 
