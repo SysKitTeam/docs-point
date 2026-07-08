@@ -102,8 +102,6 @@ You can also find information on:
 * Cleanup Opportunities - how much **storage you could save** 
 * Archive Opportunities - how much **storage you could reclaim by archiving stale files** across your tenant, based on your [Stale Files policies](../governance-and-automation/stale-files/stale-files-admin.md)
 
-The **Clean Up** link opens the **Storage Metrics report**, where you can select the workspaces on which you want to perform a storage clean-up.
-
 The **Optimize Storage** link opens the [**Storage Metrics report**](../storage-management/storage-reports.md#storage-metrics), where you can select the workspaces on which you want to perform a storage clean-up or archive stale files.
 
 ![Storage tile ](../../static/img/dashboard-storage-tile.png)
