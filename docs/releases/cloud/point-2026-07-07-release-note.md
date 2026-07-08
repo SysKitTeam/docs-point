@@ -20,6 +20,7 @@ description: This article lists new features, improvements, and bug fixes in the
   * The new Archive Stale Files action is available and can be found: 
     * Under the Manage section on the Storage Metrics report, when using the Stale Files view.
     * On the Site Storage Metrics report, the Storage Optimization tile provides an easy way to perform a bulk archive action on stale files. 
+  * [For more details, take a look at the Stale Files Policy article.](../../governance-and-automation/stale-files/stale-files-admin.md)
 
 ## Improvements & Bug Fixes
 
