@@ -34,7 +34,13 @@ export default {
       if (asset.status >= 300 && asset.status < 400) {
         const location = asset.headers.get('Location');
         if (location) {
+          // Always construct the redirect from the request's own origin
+          // to prevent open-redirect if the upstream ever returns an
+          // absolute external URL in the Location header.
           const locUrl = new URL(location, url.origin);
+          if (locUrl.origin !== url.origin) {
+            return new Response('Bad redirect', { status: 502 });
+          }
           if (!locUrl.pathname.startsWith('/point')) {
             locUrl.pathname = '/point' + locUrl.pathname;
           }
@@ -82,11 +88,15 @@ export default {
         // don't apply. Set the same anti-caching/security headers that the
         // Response Header Transform Rules set for docs.syskit.com and
         // docs-staging.syskit.com so preview links behave consistently.
+        // NOTE: This intentionally overrides the Cache-Control set above
+        // for static assets — preview deployments must never be cached.
         if (url.hostname.endsWith('.workers.dev')) {
           response.headers.set('Cache-Control', 'no-cache, no-store, must-revalidate, max-age=0');
           response.headers.set('Expires', 'Thu, 01 Jan 1970 00:00:00 GMT');
           response.headers.set('Pragma', 'no-cache');
           response.headers.set('X-Frame-Options', 'DENY');
+          response.headers.set('Content-Security-Policy', "frame-ancestors 'none'");
+          response.headers.set('X-Content-Type-Options', 'nosniff');
           response.headers.set('X-Redirect-Disabled', 'true');
         }
         

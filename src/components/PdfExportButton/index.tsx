@@ -18,6 +18,7 @@ export default function PdfExportButton(): React.ReactNode {
   const {metadata} = useDoc();
   const {siteConfig} = useDocusaurusContext();
   const [busy, setBusy] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   const run = useCallback(async () => {
     if (!ExecutionEnvironment.canUseDOM) return;
@@ -25,6 +26,7 @@ export default function PdfExportButton(): React.ReactNode {
     if (!articleEl) return;
 
     setBusy(true);
+    setError(null);
     try {
       const origin = siteConfig.url.replace(/\/+$/, '');
       const baseUrl = siteConfig.baseUrl.startsWith('/')
@@ -56,11 +58,9 @@ export default function PdfExportButton(): React.ReactNode {
     } catch (err) {
       // eslint-disable-next-line no-console
       console.error('[PdfExportButton] generation failed', err);
-      if (typeof window !== 'undefined') {
-        window.alert(
-          'Sorry, generating the PDF failed. Please try again or use your browser\u2019s Print to PDF option.',
-        );
-      }
+      setError(
+        'PDF generation failed. Please try again or use your browser\u2019s Print to PDF option.',
+      );
     } finally {
       setBusy(false);
     }
@@ -76,6 +76,7 @@ export default function PdfExportButton(): React.ReactNode {
       >
         <span>{busy ? 'Generating\u2026' : 'Export PDF'}</span>
       </button>
+      {error && <div className={styles.error}>{error}</div>}
     </div>
   );
 }

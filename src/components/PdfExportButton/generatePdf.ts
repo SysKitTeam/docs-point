@@ -21,7 +21,7 @@
 
 import type {GeneratePdfOptions} from './pdf/types';
 import {extractBlocks, stripNonContent} from './pdf/extractBlocks';
-import {loadWhiteLogoAsPng, preloadArticleImages} from './pdf/images';
+import {clearImageCache, loadWhiteLogoAsPng, preloadArticleImages} from './pdf/images';
 import {Renderer} from './pdf/renderer';
 import {renderCoverPage} from './pdf/coverPage';
 import {renderBackPage} from './pdf/backPage';
@@ -138,4 +138,7 @@ export async function generatePdf(opts: GeneratePdfOptions): Promise<void> {
   });
 
   doc.save(`${sanitizeFilename(opts.title)}.pdf`);
+
+  // Release the image element lookup cache built during this export cycle.
+  clearImageCache();
 }

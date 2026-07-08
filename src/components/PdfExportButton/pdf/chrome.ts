@@ -108,7 +108,9 @@ export function buildOutline(
         outline.add(lastH2Node ?? rootNode, h.text, {pageNumber: h.page});
       }
     }
-  } catch {
+  } catch (err) {
     // Outline plugin is optional; ignore failures so the export still works.
+    // eslint-disable-next-line no-console
+    console.warn('[PdfExport] outline construction failed', err);
   }
 }

@@ -5,9 +5,34 @@
  * - `imageToDataUrl`: rasterizes an already-decoded live <img> via canvas.
  * - `loadWhiteLogoAsPng`: fetches the bundled white Syskit logo and crops
  *   its transparent padding so it aligns flush on the cover page.
+ * - `clearImageCache`: resets the lookup cache after an export cycle.
  */
 
 import type {ImageData} from './types';
+
+// --- Image element lookup cache -------------------------------------------
+// Built lazily on the first `imageToDataUrl` call so every subsequent lookup
+// is O(1) instead of scanning `document.images` each time (was O(n²) for
+// articles with many images).
+
+let imageMap: Map<string, HTMLImageElement> | null = null;
+
+function getImageMap(): Map<string, HTMLImageElement> {
+  if (imageMap) return imageMap;
+  imageMap = new Map();
+  for (const img of Array.from(document.images)) {
+    if (!img.complete || !img.naturalWidth) continue;
+    for (const key of [img.currentSrc, img.src].filter(Boolean)) {
+      if (!imageMap.has(key)) imageMap.set(key, img);
+    }
+  }
+  return imageMap;
+}
+
+/** Reset the image lookup cache. Call after an export cycle completes. */
+export function clearImageCache(): void {
+  imageMap = null;
+}
 
 /**
  * Force any lazy-loaded images inside the article to decode so the
@@ -44,19 +69,17 @@ export async function preloadArticleImages(
  * Returns null for images that taint the canvas (cross-origin without CORS)
  * or fail to load — the renderer then silently skips them.
  *
- * We look up the live image element on the page (by src match) so the browser
- * has already loaded & decoded it; we never trigger a fresh network request.
+ * Uses a lazily-built lookup map so repeated calls are O(1) per image
+ * instead of scanning `document.images` each time.
+ *
+ * Opaque images (no transparent pixels) are encoded as JPEG at 85% quality
+ * to significantly reduce the data URL size for large screenshots. Images
+ * with any transparency are kept as PNG to preserve alpha.
  */
 export function imageToDataUrl(src: string): ImageData | null {
   if (!src) return null;
-  // Find a matching live <img> that is already decoded so we don't re-fetch.
-  // Match against currentSrc OR src — a cloned <img> may report only one of
-  // them depending on whether srcset/picture was involved.
-  const matches = Array.from(document.images).filter((i) => {
-    const liveSrc = i.currentSrc || i.src;
-    return liveSrc === src || i.src === src || i.currentSrc === src;
-  });
-  const img = matches.find((i) => i.complete && i.naturalWidth > 0) ?? matches[0];
+  const map = getImageMap();
+  const img = map.get(src);
   if (!img || !img.complete || !img.naturalWidth) return null;
   try {
     const canvas = document.createElement('canvas');
@@ -65,11 +88,29 @@ export function imageToDataUrl(src: string): ImageData | null {
     const ctx = canvas.getContext('2d');
     if (!ctx) return null;
     ctx.drawImage(img, 0, 0);
+
+    // Detect transparency by sampling the alpha channel. If the image is
+    // fully opaque, JPEG at 95% quality is much smaller than PNG (often
+    // 5-10× for photographic screenshots).
+    let hasAlpha = false;
+    try {
+      const data = ctx.getImageData(0, 0, canvas.width, canvas.height).data;
+      for (let i = 3; i < data.length; i += 4) {
+        if (data[i] < 250) { hasAlpha = true; break; }
+      }
+    } catch {
+      // getImageData can throw on tainted canvases; default to PNG.
+      hasAlpha = true;
+    }
+
+    const format = hasAlpha ? 'PNG' : 'JPEG';
     // toDataURL throws SecurityError for tainted canvases.
-    const url = canvas.toDataURL('image/png');
+    const url = hasAlpha
+      ? canvas.toDataURL('image/png')
+      : canvas.toDataURL('image/jpeg', 0.95);
     return {
       url,
-      format: 'PNG',
+      format,
       width: img.naturalWidth,
       height: img.naturalHeight,
     };
