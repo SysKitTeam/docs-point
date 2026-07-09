@@ -82,7 +82,7 @@ The following properties are available:
 | **File size** | is more than, is less than, is between | `is more than 100 MB` |
 | **Total size** (all versions combined) | is more than, is less than, is between | `is between 1 GB and 5 GB` |
 | **File extension** | is one of | `is one of mp4, mov, avi` |
-| **Sensitivity label** | is one of | `is not one of Confidential, Legal` |
+| **Sensitivity label** | is one of | `is one of Confidential, Legal` |
 | **Retention label** | is one of | `is one of General` |
 
 Once you've made your selection, a **summary panel** provides you with a summary of your policy as you add conditions, so you can verify the logic before saving.
