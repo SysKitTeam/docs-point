@@ -128,7 +128,7 @@ When the Collaborators role is enabled, **Syskit Point automatically** assigns *
 
 Additional options available when the Collaborators role is enabled:
 
-* **Give users read-only access (disable actions) (1)** – when enabled, Collaborators cannot run actions in Syskit Point
+* **Give users read-only access (disable actions) (1)** – when enabled, Collaborators can view and complete Workspace Review tasks but cannot perform other actions in Syskit Point
 * **Add users with Full Control (2)** – when enabled, users with Full Control permissions on workspaces will be assigned the Collaborators role
   * Selecting this option ensures that Site Owners and Admins are included in the Syskit Point Collaborators role and allows them to access Syskit Point and complete governance tasks, such as Workspace Review tasks
   * This option is important to select if you have any nongroup connected sites
