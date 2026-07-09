@@ -3,6 +3,19 @@
   margin-top: 0;
 }
 
+.docItemHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.docItemHeader > :first-child {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
 @media (min-width: 997px) {
   .docItemCol {
     max-width: 75% !important;

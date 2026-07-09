@@ -12,6 +12,7 @@ import DocItemContent from '@theme/DocItem/Content';
 import DocBreadcrumbs from '@theme/DocBreadcrumbs';
 import ContentVisibility from '@theme/ContentVisibility';
 import type {Props} from '@theme/DocItem/Layout';
+import PdfExportButton from '@site/src/components/PdfExportButton';
 
 import styles from './styles.module.css';
 
@@ -41,7 +42,8 @@ function useDocTOC() {
 
 export default function DocItemLayout({children}: Props): ReactNode {
   const docTOC = useDocTOC();
-  const {metadata} = useDoc();
+  const {metadata, frontMatter} = useDoc();
+  const showPdfButton = shouldShowPdfButton(metadata, frontMatter);
   return (
     <div className="row">
       <div className={clsx('col', !docTOC.hidden && styles.docItemCol)}>
@@ -49,7 +51,10 @@ export default function DocItemLayout({children}: Props): ReactNode {
         <DocVersionBanner />
         <div className={styles.docItemContainer}>
           <article>
-            <DocBreadcrumbs />
+            <div className={styles.docItemHeader}>
+              <DocBreadcrumbs />
+              {showPdfButton && <PdfExportButton />}
+            </div>
             <DocVersionBadge />
             {docTOC.mobile}
             <DocItemContent>{children}</DocItemContent>
@@ -61,4 +66,22 @@ export default function DocItemLayout({children}: Props): ReactNode {
       {docTOC.desktop && <div className="col col--3">{docTOC.desktop}</div>}
     </div>
   );
+}
+
+/**
+ * Show the PDF button on regular doc articles only.
+ *
+ * Excludes:
+ *   - The homepage (slug "/").
+ *   - Folder landing pages, which are README.md/README.mdx files rendering a
+ *     <DocCardList /> of their children.
+ */
+function shouldShowPdfButton(
+  metadata: ReturnType<typeof useDoc>['metadata'],
+  frontMatter: ReturnType<typeof useDoc>['frontMatter'],
+): boolean {
+  if (frontMatter?.slug === '/') return false;
+  const source = (metadata as {source?: string}).source ?? '';
+  if (/\/README\.mdx?$/i.test(source)) return false;
+  return true;
 }
