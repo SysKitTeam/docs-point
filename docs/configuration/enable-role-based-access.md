@@ -138,7 +138,10 @@ Additional options available when the Collaborators role is enabled:
   * This option is enabled by default
   * The team owner can still view content for private channels of which they are owners
 * **Restrict alert configuration for collaborators (6)** - when enabled, alert configuration for collaborators is restricted, but exceptions can be added by selecting collaborators who can create alerts despite the restriction. 
-   * To select exceptions, **click the Select collaborators** button below and search for the users you want to set as exceptions.
+   * To select exceptions, **click the Select collaborators (7)** button below and search for the users you want to set as exceptions.
+* **Customize support link for collaborators (8)** – when enabled, allows you to customize the support link that collaborators see in Syskit Point
+   * **Remove Syskit support link** – collaborators will not see any support link in the Help & Support menu
+   * **Replace Syskit support link** – provide your own URL that collaborators will be directed to
 
 
 ![Collaborators - Options](../../static/img/enable-role-based-access-collaborator-options.png)
