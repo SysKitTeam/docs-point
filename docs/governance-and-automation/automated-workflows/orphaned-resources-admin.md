@@ -62,7 +62,8 @@ The **Ask Members to Suggest New Owners** is a **2-stage process** and is the de
 
 
 In the first stage, **Members suggest new owners**:
-  * When the Ask Members action is triggered, e-mails and tasks are sent to all members of the workspace
+  * When the Ask Members action is triggered, e-mails and tasks are sent to all **internal** members of the workspace
+    * **Guest users do not receive any tasks or e-mails**
   * Members are asked to suggest one or more users as new owners
   * Members can resolve the task directly from the e-mail they receive
   * The suggestions are stored as members resolve their tasks, and stage one stays active until all members resolve their tasks
@@ -80,8 +81,10 @@ In the first stage, **Members suggest new owners**:
 
 
 * In the second stage, **admins or defined custom reviewers get a new task**:
-  * After all members complete their task, a new task is created for admins or custom reviewers to take one of the following actions:
-    * **Add Owners**, by approving the suggestions made by members or deciding on an owner themself 
+  * After all members complete their task, the second-stage task is created on the next scheduled policy check — members **do not need to wait** the full due-date period
+  * If the due date is reached before all members respond, the second-stage task is created regardless
+  * Admins or custom reviewers can take one of the following actions:
+    * **Add Owners**; by approving the suggestions made by members or deciding on an owner themself 
     * **Archive** the workspace
     * **Delete** the workspace
 

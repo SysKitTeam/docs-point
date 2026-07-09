@@ -40,7 +40,7 @@ To get started:
 * **Navigate to the [Free Trial start page](https://www.syskit.com/products/point/free-trial/)**
 * **Click the Start a Free Trial button**; you are redirected to a Sign Up form 
 * **Enter your e-mail (1)**
-* **Click the Send verification code button(2)**
+* **Click the Send verification code button (2)**
 
 ![Sign Up Form](../../static/img/free-trial-sign-up.png)
 

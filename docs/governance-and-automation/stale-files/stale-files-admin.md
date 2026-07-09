@@ -14,7 +14,7 @@ Stale files affect your tenant in two ways:
  * They **consume active SharePoint storage quota**, which increases your Microsoft 365 storage costs, and
  * They **hurt Copilot readiness**, since Microsoft 365 Copilot bases its answers on your tenant's content, and outdated files used in AI responses can mislead users.
 
-The **Stale Files policies** let you define what stale means for different parts of the Microsoft 365 tenant in order to easily archive stale files. Instead of one broad rule, admins can set up policies with different criteria that can detect the right content for cleanup, show you how much stale content exists tenant-wide and where it's where it can be found, before taking action.
+The **Stale Files policies** let you define what "stale" means for different parts of your Microsoft 365 tenant, making it easier to archive unnecessary files. Instead of one broad rule, admins can set up policies with varying criteria to detect the right content for cleanup. These policies show you how much stale content exists across the tenant and where it can be found before you take action.
 
 To use Stale Files policies, you need to [Configure Storage Management](../../configuration/configure-storage-management.md) with **Collect storage data** enabled.
 
@@ -29,7 +29,7 @@ To open the Stale Files settings screen, navigate to **Settings** > **Governance
 Here, you can:
 
 * **Create a new Stale Files policy (2)**
-* **Recalculate now (3)** - files are automatically reevaluated daily, but clicking this manually triggers the assesment of your files against the current policies rules 
+* **Recalculate now (3)** - files are automatically reevaluated daily, but clicking this manually triggers the assessment of your files against the current policy rules
   * If this action is currently running, the button is gray and cannot be clicked
 * **View the last time stale files were recalculated (4)** - shows the last time your files were assessed based on your existing stale files policies
 * **View all existing policies by name (5)**, including the default policy
@@ -41,9 +41,17 @@ Here, you can:
   * **Applied to (10)** - shows how many workspaces the policy is applied to
   * **Manage (11)** - shows the edit and delete actions
     * Clicking Edit opens the edit module, as described in the Create New Policy section below
-    * Clicking Delete erases the policy from the list, this acrion is not available for the default policy as it cannot be deleted
+    * Clicking Delete removes the policy from the list. This action is not available for the default policy, as it cannot be deleted.
 
 ![Stale Files Policy](../../../static/img/stale-files-settings-list.png)
+
+The default Stale Files policy classifies files as stale when their **Last modified date is older than 180 days**. To ensure files are being classified as stale accurately, and based on your organization's requirements, edit the default policy or create an additional one that, for example, combines **Last modified** with **Last activity**.
+  * **Last activity reflects the latest date a file was viewed, edited, or downloaded**, so it also recognizes content that is read often but rarely modified.
+
+:::warning
+**Please note!**  
+**Last activity is monitored from the Syskit Point deployment onward**. Files that existed before deployment will **only accumulate Last activity data from the moment Syskit Point was connected** to your tenant.
+:::
 
 
 ## Create New Stale Files Policy
@@ -57,7 +65,7 @@ On the first step, you can use the condition builder to define what makes a file
 You can combine multiple conditions using **AND / OR** groups so a single rule captures the exact activities you want to recognize.
 
 * Each condition consists of a **Property (1)**, an **Operator (2)**, and a **Value (3)**
-  * At least 1 condition has to be created for a stable content policy to be valid
+   * At least one condition must be created for a stale content policy to be valid
 * When you've selected the initial condition, **Click Add Condition (4)** button to add another condition
 * To add another group of conditions that should apply, **click the Add Group (5)** button
 * When more than one group is created, you have the **Remove group (6)** action available
@@ -74,7 +82,7 @@ The following properties are available:
 | **File size** | is more than, is less than, is between | `is more than 100 MB` |
 | **Total size** (all versions combined) | is more than, is less than, is between | `is between 1 GB and 5 GB` |
 | **File extension** | is one of | `is one of mp4, mov, avi` |
-| **Sensitivity label** | is one of | `is not one of Confidential, Legal` |
+| **Sensitivity label** | is one of | `is one of Confidential, Legal` |
 | **Retention label** | is one of | `is one of General` |
 
 Once you've made your selection, a **summary panel** provides you with a summary of your policy as you add conditions, so you can verify the logic before saving.
@@ -109,7 +117,7 @@ However, when editing an active policy, the Overview step includes a **More Deta
 
 Once your Stale Files policies are configured and your files have been assessed against the applied policies, stale content information can be found in the following ways: 
 
-* On the **Dashboard**, the **Storage tile** has the **Archive Opportunities** section which shows how much storage across your tenant is currently classified as stale and can be feed if stale files are archived.
+* On the **Dashboard**, the **Storage tile** has the **Archive Opportunities** section, which shows how much storage across your tenant is currently classified as stale and can be freed if stale files are archived.
   * Clicking the Optimize Storage button on the Storage tile, opens the [Storage Metrics report](../../storage-management/storage-reports.md).
     * On the **Potential Savings** tile, clicking Stale Files opens the **Stale Files - Potential Savings** view for the report where you can see which workspaces hold the most stale content and how much storage archiving stale files could reclaim on each.
 * **Selecting a specific workspace in the [Site Storage Metrics report](../../storage-management/storage-reports.md#site-storage-metrics)** and selecting the **Stale Files** view for the report. 
