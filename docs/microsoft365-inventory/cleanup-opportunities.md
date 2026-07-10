@@ -77,7 +77,7 @@ After selecting Fix Now, the **information dialog** opens, providing more detail
 
 ## Leftover External Users
 
-**When external sharing settings become more restrictive, SharePoint blocks existing guest users, but doesn't remove them.** These users had valid access when it was granted, but once your settings became more restrictive, **they no longer comply with your external sharing settings and should be removed.** Removing these external accounts eliminates
+**When external sharing settings become more restrictive, SharePoint blocks existing guest users, but doesn't remove them.** These users had valid access when it was granted, but once your settings became more restrictive, **they no longer comply with your external sharing settings and should be removed.** Removing these external accounts eliminates outdated access and keeps your guest users list aligned with your current sharing policies.
 
 On the dashboard tile, you'll see the number of leftover external users ready to be cleaned up, **click Fix Now** to start.
 
