@@ -35,7 +35,7 @@ description: This article lists new features, improvements, and bug fixes in the
 
 * **The Risky Workspaces report** can now be accessed directly from the Copilot Readiness Dashboard tile by clicking the number of Risky Workspaces.
 
-* **Fixed an issue** that caused the OneDrive sync to run for longer than expected on tenants with a large number of OneDrive sites.
+* **Fixed an issue** that caused the OneDrive sync to take longer than expected on tenants with a large number of OneDrive sites.
 
 * **Fixed an issue** where restoring the permission inheritance would fail for large lists.
 
