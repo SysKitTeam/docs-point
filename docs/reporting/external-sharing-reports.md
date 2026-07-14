@@ -95,10 +95,11 @@ The default columns displayed in the report are:
     
 * **Name** of the user
 * **Site Name**
-* **Email**
+* **E-mail**
 * **Username**
 * **Domain**
-* **Last Logged In** DateTime
+* **Last Logged In** 
+* **Sponsor**; the internal user or sponsor group synced from Microsoft 365 who is responsible for the guest user's access
     
 There is one additional column available in the column chooser.
   * **Site Type**; shows the type of workspace

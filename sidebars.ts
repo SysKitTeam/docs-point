@@ -671,6 +671,7 @@ const sidebars: SidebarsConfig = {
             'governance-and-automation/automated-workflows/set-up-policies',
             'governance-and-automation/automated-workflows/policy-automation',
             'governance-and-automation/automated-workflows/manage-policies',  
+            'governance-and-automation/automated-workflows/policy-impact-report',
             'governance-and-automation/automated-workflows/workspace-type-and-reviewers',  
             'governance-and-automation/automated-workflows/blocked-users-with-licenses-admin',
             'governance-and-automation/automated-workflows/inactive-guest-users-admin',

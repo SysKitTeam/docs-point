@@ -19,6 +19,8 @@ The **Edit Policy** dialog opens, where you can:
 * **Enable Task Delegation (4)** by clicking the toggle next to it
   * **Select who will validate guest users (5):**
      * **Manager of Guest User**; when the option is selected, **the person responsible for the validation, in case the Guest User does not have a defined manager, needs to be chosen**
+     * **Sponsor of Guest User**; when the option is selected, Syskit Point sends the validation task to the guest user's **sponsor**, or **sponsor group** members, depending on data collected from your Microsoft 365
+       * A fallback recipient must be chosen for guest users without a defined sponsor
      * **Syskit Point Administrators**; this option is selected by default
      * **Custom Recipients**; when selected, use the input field to select custom users who will be responsible for the validation of Guest Users
   * **Select what Syskit Point should do if there is no validation response(6)**:
@@ -38,6 +40,13 @@ Based on your configuration, **Syskit Point will start the task delegation workf
 :::warning
 **Please note!**
 **You should have at least one user in your tenant with the Azure AD Premium P1 license assigned to detect sign-in times for guest users accurately.**
+:::
+
+:::warning
+
+**Sponsors that are external users do not receive tasks.**
+When the **Sponsor of Guest User** option is selected and the sponsor is themselves an external user, Syskit Point skips them when delegating the validation task so that governance actions stay within your organization. Make sure a fallback recipient is selected to cover these cases.
+
 :::
 
 For details on how collaborators can [**resolve Inactive Guest Users tasks**, navigate to the following article](../../point-collaborators/resolve-governance-tasks/guest-users-expiration.md).

@@ -27,6 +27,7 @@ description: This article lists new features, improvements, and bug fixes in the
     * The report shows which workspaces and reviewers are covered by your active policies.
   * On manually applied policies, you can complete the **Exclude from Policy** action which removes the policy from the selected workspace(s).
   * The report supports filtering and PDF or XLSX exports.
+  * [For more details, take a look at the Policy Impact report article.](../../governance-and-automation/automated-workflows/policy-impact-report.md) 
 
 ## Improvements & Bug Fixes
 
