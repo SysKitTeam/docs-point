@@ -25,7 +25,7 @@ description: This article lists new features, improvements, and bug fixes in the
   * The **Policy Impact** report can be accessed by clicking the number of workspaces associated with a policy in Settings. 
   * The Policy Impact report can be sorted **by Workspaces** and, when task delegation is enabled, **by Reviewers** 
     * The report shows which workspaces and reviewers are covered by your active policies.
-  * On manually applied policies, you can complete the **Exclude from Policy** action.
+  * On manually applied policies, you can complete the **Exclude from Policy** action which removes the policy from the selected workspace(s).
   * The report supports filtering and PDF or XLSX exports.
 
 ## Improvements & Bug Fixes
@@ -33,13 +33,10 @@ description: This article lists new features, improvements, and bug fixes in the
 * **Improvements made to Workspace Review.**
   * You can now configure the Workspace Review policy to **require reviewers to set a sensitivity label on the reviewed workspace** before completing the review.
 
-* **The Risky Workspaces report** can now be accessed directly from the Security & Compliance Dashboard tile by clicking the number of Risky Workspaces.
+* **The Risky Workspaces report** can now be accessed directly from the Copilot Readiness Dashboard tile by clicking the number of Risky Workspaces.
 
-* **Fixed an issue** that caused the OneDrive sync to run for a longer than expected time on tenants with a large number of OneDrive sites.
+* **Fixed an issue** that caused the OneDrive sync to run for longer than expected on tenants with a large number of OneDrive sites.
 
-* **Fixed an issue** where the permissions sync could fail with the following error on tenants with a large number of permission changes: 
-```
-{""assembly"":""SysKit.Point.Repository, Version=2026.2.143.2, Culture=neutral, PublicKeyToken=null"",""method"":""SysKit.Point.Repository.SharePointObjectsRepository+
-```
+* **Fixed an issue** where restoring the permission inheritance would fail for large lists.
 
 * **Various improvements, including UX and UI fixes, have been implemented.**
