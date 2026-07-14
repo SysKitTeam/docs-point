@@ -8,7 +8,7 @@ description: This article lists new features, improvements, and bug fixes in Sys
 
 **Product version:** 2026.2.149
 
-**Build number:** XX
+**Build number:** 20
 
 **Release date:** July 14, 2026
 
