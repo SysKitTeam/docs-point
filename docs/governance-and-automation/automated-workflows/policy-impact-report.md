@@ -7,7 +7,7 @@ description: This article describes the Policy Impact report, which shows the wo
 The **Policy Impact** report gives you a quick overview of everything a single policy currently affects in your tenant:
 
 * The workspaces where the policy is applied
-* The reviewers responsible for validating those workspaces, if the policies are task delegated
+* The reviewers responsible for validating those workspaces, for policies with task delegation enabled
 
 You can use this report to check a policy's reach before making changes or to find workspaces that might not have a reviewer assigned.
 
@@ -15,8 +15,8 @@ You can use this report to check a policy's reach before making changes or to fi
 
 The Policy Impact report can be accessed from two places:
 
-* **From the Policies settings screen**; go to **Settings > Policies** and **click the number in the Applied To column** for a policy.
-* **From the Workspace Review overview**; go to **Govern > Workspace Review** and **click the Workspaces included number** for a Workspace Review policy.
+* **From the Policies settings screen**, go to **Settings > Policies** and **click the number in the Applied To column** for a policy.
+* **From the Workspace Review overview**, go to **Govern > Workspace Review** and **click the Workspaces included number** for a Workspace Review policy.
 
 ![Policy Impact - Settings > Policies](../../../static/img/policy-impact-settings-policy.png)
 
@@ -31,10 +31,10 @@ The Policy Impact report can be accessed from two places:
 
 :::
 
-If the policy has **no workspaces applied** but has a rule assigned, the report is not shown. Once you click on the **0 workspaces**, a short message is displayed with two options:
+If the policy has **no workspaces** despite being applied by using Rules, the report is not shown. Once you click on the **0 workspaces**, a short message is displayed with two options:
 
-* **Apply Automatically with Rules**; opens the **Rules** screen where you can review or edit rules.
-* **Manually Apply Policies**; opens the **Manage Policies** screen where you can apply the policy to workspaces yourself.
+* **Apply Automatically with Rules**; opens the **Rules** screen, where you can review or edit rules.
+* **Manually Apply Policies**; opens the **Manage Policies** screen, where you can apply the policy to workspaces yourself.
 
 For more details on both options, [take a look at the Apply Policies article.](manage-policies.md)
 
@@ -50,10 +50,10 @@ The Policy Impact report opens on the **Workspaces** view by default. For polici
 You can filter the **Workspace view** by:
 
 * **All**; shows the total number of workspaces where the policy is applied
-* **Workspace type filters** (Microsoft Teams, Microsoft 365 Groups, SharePoint sites, etc.); each tile shows the amount for that type of workspace. 
-  * **Click a tile** to display only workspaces of that type.
-* **Without Reviewers**; marked with a warning icon. 
-  * **Click this tile** to display only the workspaces that have no active reviewer assigned for this policy.
+* **Workspace type filters** (Microsoft Teams, Microsoft 365 Groups, SharePoint sites, etc.); each tile shows the amount for that type of workspace
+  * **Click a tile** to display only workspaces of that type
+* **Without Reviewers**; marked with a warning icon
+  * **Click this tile** to display only the workspaces that have no active reviewer assigned for this policy
 
 The following information is available on the report:
 
@@ -70,7 +70,7 @@ Selecting any workspace provides the action to **Exclude from Policy**.
 
 If a workspace has no active reviewers, you can also perform the **Change Owners** or **Change Admins** actions. You can use these actions to assign an owner or admin to the workspace so that the policy has someone to delegate tasks to.
 
-The report can be **exported** as a **PDF**, **XLSX** or **CSV** file.
+The report can be **exported** as a **PDF**, **XLSX**, or **CSV** file.
 
 ### Reviewers View
 
@@ -79,9 +79,9 @@ Each row in the Reviewers view represents a user who is responsible for at least
 You can filter the **Reviewers view** by:
 
 * **All**; the total number of reviewers for the policy
-* **Governance Excluded Users**; shown only when the policy has excluded reviewers. 
+* **Governance Excluded Users**; shown only when the policy has excluded reviewers
   * Click this tile to display users who are excluded from governance
-  * Excluded users are shown for reference and no actions can be performed on them from this report
+  * Excluded users are shown for reference, and no actions can be performed on them from this report
 
 The following information is available on the **Reviewers view**:
 
@@ -90,13 +90,13 @@ The following information is available on the **Reviewers view**:
 * **Department** the user belongs to
 * **Assigned Workspaces** shows the number of workspaces they are a reviewer for
 
-You can **export the report** as a **PDF**, **XLSX** or **CSV** file.
+You can **export the report** as a **PDF**, **XLSX**, or **CSV** file.
 
 :::info
 
 **Please note!**  
 
-For policies **without task delegation**, such as **Access Requests**, reviewers are not tracked. In this case, the **Workspaces/Reviewers** toggle is hidden and only the Workspaces view is available.
+For policies **without task delegation**, such as **Access Requests**, reviewers are not tracked. In this case, the **Workspaces/Reviewers** toggle is hidden, and only the Workspaces view is available.
 
 :::
 
