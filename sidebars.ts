@@ -559,6 +559,7 @@ const sidebars: SidebarsConfig = {
         'configuration/ignore-service-account-activity-tracking',
         'configuration/customize-license-reports',
         'configuration/customize-emails',
+        'configuration/email-templates-overview',
         'configuration/report-data-limits',
         'configuration/turn-on-auditing',
         'configuration/exclude-users-tasks',

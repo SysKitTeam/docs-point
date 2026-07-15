@@ -138,6 +138,21 @@ This is useful when you want to, for example, add organization-specific legal di
 **Uploaded templates take effect immediately.** All e-mails sent after the upload will use the new templates.
 :::
 
+:::warning
+**Please note!**  
+
+E-mail templates apply globally. Some templates are **shared across all policies that use them**:
+
+* `GroupByResolverAndPolicyTypeTemplate`
+* `GroupByPolicyTypeWithSeparateReassignemailTemplate`
+* `GroupByPolicyTypeRiskAcceptedTemplate`
+* `GroupByNewOwnerTemplate`
+
+These templates are used by the **Not Enough Owners**, **Too Many Owners**, **Orphaned Workspaces**, and **Inactive Workspaces** policies. If you edit any of them, the changes apply to **every policy** that uses the template. It is not possible to customize a template for a single policy.
+
+If you want per-policy wording, use the **subject, banner, and custom message** customization available for individual policies, for example **Workspace Review** and **Inactive Workspaces**. For the full list of templates and the policies that use them, [take a look at the E-mail Templates Overview article](email-templates-overview.md).
+:::
+
 To manage e-mail templates, navigate to **Settings** > **General** > **E-mail** > **E-mail Templates**.
 
 Here you can:
