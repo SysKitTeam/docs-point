@@ -28,6 +28,7 @@ Here's how to get started with your storage management in Syskit Point:
   * Make sure to [read through the Configure Storage Management within Syskit Point article.](../configuration/configure-storage-management.md) 
   * Next, it's time to configure your [Tenant Storage Limit Policy](../governance-and-automation/automated-workflows/tenant-storage-admin.md). This policy is used to detect and monitor your storage, but if you choose to, you can also enable task delegation.  
  * Once the policy has been edited based on your preferences, you can [take a look at the Tenant Storage Security & Compliance Check article](../governance-and-automation/security-compliance-checks/tenant-storage.md) to see all the details and information you can get from this policy being detected in your environment.
+ * Configure [Stale Files policies](../governance-and-automation/stale-files/stale-files-admin.md) to classify inactive files across your tenant and surface potential storage savings, then reclaim space in bulk with the [Archive Stale Files action](../storage-management/free-up-storage.md#archive-stale-files).
 
 Now that we've covered how to begin utilizing your storage management within Syskit Point, let's look into the valuable information and actions that can be taken from the Storage Metrics reports.
 
@@ -97,6 +98,7 @@ For more details on exactly what information can be found in the reports, [take 
 * [Configure Your Environment for Storage Management](../configuration/configure-point-for-storage-management.md)
 * [Configure Storage Management](../configuration/configure-storage-management.md)
 * [Configure Tenant Storage Limit Policy](../governance-and-automation/automated-workflows/tenant-storage-admin.md)
+* [Stale Files Policies](../governance-and-automation/stale-files/stale-files-admin.md)
 * [Tenant Storage Security & Compliance Check](../governance-and-automation/security-compliance-checks/tenant-storage.md)
 * [Resolve Tenant Storage Limit Task](../point-collaborators/resolve-governance-tasks/tenant-storage-limit.md)
 * [Storage Metrics Report](../storage-management/storage-reports.md)

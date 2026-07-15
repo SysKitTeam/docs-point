@@ -8,10 +8,10 @@ description: >-
 
 **This article shows how you can resolve the Orphaned Workspaces policy vulnerability** when Syskit Point detects that Microsoft Teams and Microsoft 365 Groups don’t have active owners.
 
-When a team no longer has an active owner, there is no longer a person on the other end of an automated governance policy which means the site could potentially have shared files that are outdated and pose a serious security risk.
+When a team no longer has an active owner, there is no longer a person on the other end of an automated governance policy, which means the site could potentially have shared files that are outdated and pose a serious security risk.
 
 :::info
-When configuring the Orphaned Workspaces policy, Syskit Point Administrators can [decide how the process of assigning owners to orphaned workspaces will look like](../../governance-and-automation/automated-workflows/orphaned-resources-admin.md). There are 3 options available:
+When configuring the Orphaned Workspaces policy, Syskit Point Administrators can [decide how the process of assigning owners to orphaned workspaces will look](../../governance-and-automation/automated-workflows/orphaned-resources-admin.md). There are 3 options available:
 
 * **Specific users are asked to assign new owners**
   * A 1-stage process where the policy vulnerability is resolved when you promote members to owners or add new owners
@@ -75,6 +75,10 @@ Along with the e-mail, Syskit Point creates a policy vulnerability task that pro
 
 In the first stage, **if you are a member of the team/group that has no owners, you will receive an e-mail asking you to suggest new owners**.
 
+:::info
+**Guest users** do not receive tasks or e-mails in this stage. Only internal members are asked to suggest new owners.
+:::
+
 You can find the following information in the e-mail:
 
 * **Microsoft Teams or Microsoft 365 Group where the policy vulnerability was detected (1)**
@@ -111,7 +115,7 @@ You can find the following information in the e-mail:
 In the second stage of the process, **if you are defined to approve members' suggestions** for the team/group having no owners, you will receive an e-mail asking you to assign new owners and resolve the policy vulnerability.
 
 :::warning
-**Please note!** **You will receive the e-mail after all members suggest what to do with the team/group** or **the due date for the first stage is reached**.
+**Please note!** **You will receive the e-mail after all members have suggested what to do with the team/group**, or when **the due date for the first stage is reached** — whichever comes first. If all members complete their tasks early, the second-stage task is created on the next scheduled policy check without waiting for the full due-date period.
 :::
 
 You can find the following information in the e-mail:
@@ -124,7 +128,7 @@ You can find the following information in the e-mail:
 
 **Click the Resolve button** to open the policy vulnerability task in Syskit Point.
 
-### Approvers’ Policy vulnerability Task
+### Approvers’ Policy Vulnerability Task
 
 **Along with the e-mail, Syskit Point creates a policy vulnerability task** that provides you with all the information and actions needed to resolve the policy vulnerability. The following are available on the task screen:
 
@@ -142,7 +146,7 @@ You can find the following information in the e-mail:
 
 **After you resolve the policy vulnerability, the History screen opens**, giving you an overview of all actions performed within the workflow.
 
-**After you resolve the policy vulnerability**, a **confirmation e-mail is also sent to all users that were assigned with the task**, showing the following information:
+**After you resolve the policy vulnerability**, a **confirmation e-mail is also sent to all users that were assigned the task**, showing the following information:
 
 * **Microsoft Teams or Microsoft 365 Group where the policy vulnerability was resolved**
 * **Who and when resolved the policy vulnerability**
