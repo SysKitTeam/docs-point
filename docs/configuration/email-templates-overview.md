@@ -40,6 +40,21 @@ You can create a **custom e-mail subject, banner and message for owners** by con
 
 Co-reviewers receive a separate e-mail (`CoReviewersReviewTaskCompletedTemplate.html`) after their Workspace Review task is completed.
 
+:::info
+**Please note!**  
+
+Some of the templates listed in the sections below are **shared across all policies that use them**:
+
+* `GroupByResolverAndPolicyTypeTemplate`
+* `GroupByPolicyTypeWithSeparateReassignemailTemplate`
+* `GroupByPolicyTypeRiskAcceptedTemplate`
+* `GroupByNewOwnerTemplate`
+
+These templates are used by the **Not Enough Owners**, **Too Many Owners**, **Orphaned Workspaces**, and **Inactive Workspaces** policies. If you edit any of them, the changes apply to **every policy** that uses the template. It is not possible to customize a template for a single policy.
+
+If you want per-policy wording, use the **subject, banner, and custom message** customization available for individual policies, for example **Workspace Review** and **Inactive Workspaces**. For more details, [take a look at the Customize E-mails article](customize-emails.md).
+:::
+
 
 ## Not Enough Owners
 
