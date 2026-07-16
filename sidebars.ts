@@ -26,6 +26,9 @@ const sidebars: SidebarsConfig = {
             id: 'releases/cloud/README',
           },
           items: [
+            'releases/cloud/point-2026-07-14-release-note',
+            'releases/cloud/point-2026-07-07-release-note',
+            'releases/cloud/point-2026-06-30-release-note',
             'releases/cloud/point-2026-06-23-release-note',
             'releases/cloud/point-2026-06-16-release-note',
             'releases/cloud/point-2026-06-09-release-note',
@@ -166,6 +169,8 @@ const sidebars: SidebarsConfig = {
                 id: 'releases/enterprise/syskit-point-2026-2/README',
               },
               items: [
+                'releases/enterprise/syskit-point-2026-2/point-2026-2-149-release-note',
+                'releases/enterprise/syskit-point-2026-2/point-2026-2-147-release-note',
                 'releases/enterprise/syskit-point-2026-2/point-2026-2-145-release-note',
                 'releases/enterprise/syskit-point-2026-2/point-2026-2-143-release-note',
                 'releases/enterprise/syskit-point-2026-2/point-2026-2-141-release-note',
@@ -554,6 +559,7 @@ const sidebars: SidebarsConfig = {
         'configuration/ignore-service-account-activity-tracking',
         'configuration/customize-license-reports',
         'configuration/customize-emails',
+        'configuration/email-templates-overview',
         'configuration/report-data-limits',
         'configuration/turn-on-auditing',
         'configuration/exclude-users-tasks',
@@ -651,6 +657,11 @@ const sidebars: SidebarsConfig = {
           ],
         },
         {
+          type: 'doc',
+          id: 'governance-and-automation/stale-files/stale-files-admin',
+          label: 'Stale Files',
+        },
+        {
           type: 'category',
           label: 'Policies',
           link: {
@@ -661,6 +672,7 @@ const sidebars: SidebarsConfig = {
             'governance-and-automation/automated-workflows/set-up-policies',
             'governance-and-automation/automated-workflows/policy-automation',
             'governance-and-automation/automated-workflows/manage-policies',  
+            'governance-and-automation/automated-workflows/policy-impact-report',
             'governance-and-automation/automated-workflows/workspace-type-and-reviewers',  
             'governance-and-automation/automated-workflows/blocked-users-with-licenses-admin',
             'governance-and-automation/automated-workflows/inactive-guest-users-admin',

@@ -1,5 +1,5 @@
 ---
-description:  This article explains how the automatic and on-demand storage sync works in Syskit Point.
+description: This article explains how the automatic and on-demand storage sync works in Syskit Point.
 ---
  
 # Storage Sync

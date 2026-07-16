@@ -27,18 +27,38 @@ export default {
       // Try to get the asset from the ASSETS binding
       const asset = await env.ASSETS.fetch(assetRequest);
       
+      // The ASSETS binding may return redirects (e.g. 301 to add a
+      // trailing slash).  Those Location headers use the internal path
+      // (without /point), so we must prepend /point back before the
+      // browser follows the redirect.
+      if (asset.status >= 300 && asset.status < 400) {
+        const location = asset.headers.get('Location');
+        if (location) {
+          // Always construct the redirect from the request's own origin
+          // to prevent open-redirect if the upstream ever returns an
+          // absolute external URL in the Location header.
+          const locUrl = new URL(location, url.origin);
+          if (locUrl.origin !== url.origin) {
+            return new Response('Bad redirect', { status: 502 });
+          }
+          if (!locUrl.pathname.startsWith('/point')) {
+            locUrl.pathname = '/point' + locUrl.pathname;
+          }
+          return Response.redirect(locUrl.toString(), asset.status);
+        }
+      }
+
       if (asset.status === 404) {
-        // If the asset is not found, try to serve index.html for SPA routing
-        const indexRequest = new Request(
-          new URL('/index.html', url.origin),
+        // Serve the Docusaurus 404 page instead of falling back to the
+        // root index.html — Docusaurus is a static site, not an SPA.
+        const notFoundRequest = new Request(
+          new URL('/404.html', url.origin),
           request
         );
-        const indexAsset = await env.ASSETS.fetch(indexRequest);
-        
-        if (indexAsset.status === 200) {
-          // Return index.html with proper headers for SPA routing
-          return new Response(await indexAsset.text(), {
-            status: 200,
+        const notFoundAsset = await env.ASSETS.fetch(notFoundRequest);
+        if (notFoundAsset.status === 200) {
+          return new Response(notFoundAsset.body, {
+            status: 404,
             headers: {
               'Content-Type': 'text/html',
               'Cache-Control': 'no-cache',
@@ -46,11 +66,15 @@ export default {
           });
         }
       }
-      
+
       // Add proper cache headers for static assets
       if (asset.status === 200) {
         const response = new Response(asset.body, asset);
         
+        // Serve .txt files with UTF-8 charset for proper encoding (llms.txt, etc.)
+        if (pathname.match(/\.txt$/)) {
+          response.headers.set('Content-Type', 'text/plain; charset=utf-8');
+        }
         // Handle downloadable files with proper headers
         if (pathname.match(/\.(zip|7z|rar|tar|gz|pdf|doc|docx|xls|xlsx|ppt|pptx|ps1)$/)) {
           const filename = pathname.split('/').pop();
@@ -62,6 +86,22 @@ export default {
           response.headers.set('Cache-Control', 'public, max-age=31536000, immutable');
         } else if (pathname.match(/\.(html)$/)) {
           response.headers.set('Cache-Control', 'public, max-age=3600');
+        }
+        
+        // PR preview workers run on *.workers.dev where Cloudflare Rules
+        // don't apply. Set the same anti-caching/security headers that the
+        // Response Header Transform Rules set for docs.syskit.com and
+        // docs-staging.syskit.com so preview links behave consistently.
+        // NOTE: This intentionally overrides the Cache-Control set above
+        // for static assets — preview deployments must never be cached.
+        if (url.hostname.endsWith('.workers.dev')) {
+          response.headers.set('Cache-Control', 'no-cache, no-store, must-revalidate, max-age=0');
+          response.headers.set('Expires', 'Thu, 01 Jan 1970 00:00:00 GMT');
+          response.headers.set('Pragma', 'no-cache');
+          response.headers.set('X-Frame-Options', 'DENY');
+          response.headers.set('Content-Security-Policy', "frame-ancestors 'none'");
+          response.headers.set('X-Content-Type-Options', 'nosniff');
+          response.headers.set('X-Redirect-Disabled', 'true');
         }
         
         return response;

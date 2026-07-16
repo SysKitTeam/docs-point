@@ -33,7 +33,7 @@ After selecting Fix Now, the **information dialog** opens, providing more detail
   * After generating the report, you'll see the **recommendation to Remove Redundant Unique Permissions (1)**, where applicable
   * Selecting that object lets you complete the **Delete Unique Permissions action (2)**
 
-:::information
+:::info
 
 **Please note:** When using multiselect, **be mindful that parent nodes in the tree may have unique permissions without the Redundant Unique Permissions recommendation**. Selecting them will delete their unique permissions even if those are still needed.
 
@@ -77,7 +77,7 @@ After selecting Fix Now, the **information dialog** opens, providing more detail
 
 ## Leftover External Users
 
-**When external sharing settings become more restrictive, SharePoint blocks existing guest users, but doesn't remove them.** These users had valid access when it was granted, but once your settings became more restrictive, **they no longer comply with your external sharing settings and should be removed.** Removing these external accounts eliminates
+**When external sharing settings become more restrictive, SharePoint blocks existing guest users, but doesn't remove them.** These users had valid access when it was granted, but once your settings became more restrictive, **they no longer comply with your external sharing settings and should be removed.** Removing these external accounts eliminates outdated access and keeps your guest users list aligned with your current sharing policies.
 
 On the dashboard tile, you'll see the number of leftover external users ready to be cleaned up, **click Fix Now** to start.
 

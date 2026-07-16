@@ -35,6 +35,12 @@ When storage management is configured, you can also customize your storage repor
 
 ![Storage Management Settings - Reporting & Data Retention](../../static/img/configure-storage-management-reporting-and-data-retention.png)
 
+:::info
+
+With storage data collection enabled, you can also [set up Stale Files policies](../governance-and-automation/stale-files/stale-files-admin.md) to classify inactive files across your tenant, and archive them in bulk from the Storage Metrics and Site Storage Metrics reports.
+
+:::
+
 ## Storage Data Retention
 
 In this section, you can define how long you want to keep the storage-related analytics data in Syskit Point. 
@@ -48,8 +54,10 @@ Once finished, **click Save (8)** to save your storage management preferences.
 ## Related Articles
 
 * [Configure Your Environment for Storage Management](../configuration/configure-point-for-storage-management.md)
+* [Stale Files Policy](../governance-and-automation/stale-files/stale-files-admin.md)
 * [Free Up Storage](../storage-management/free-up-storage.md)
 * [Configure Tenant Storage Limit Policy](../governance-and-automation/automated-workflows/tenant-storage-admin.md)
+* [Stale Files Policies](../governance-and-automation/stale-files/stale-files-admin.md) - classify inactive files across your tenant based on multi-criteria rules; requires storage sync to be running.
 * [Tenant Storage Security & Compliance Check](../governance-and-automation/security-compliance-checks/tenant-storage.md)
 * [Resolve Tenant Storage Limit Task](../point-collaborators/resolve-governance-tasks/tenant-storage-limit.md)
 * [Storage Metrics Report](../storage-management/storage-reports.md)

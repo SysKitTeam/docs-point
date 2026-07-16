@@ -92,6 +92,51 @@ const config: Config = {
         containerId: 'GTM-NFPDG3D', // Replace with your GTM container ID
       },
     ],
+    [
+      'docusaurus-plugin-llms',
+      {
+        title: 'Syskit Point Documentation',
+        description: 'Technical documentation for Syskit Point — Microsoft 365 management and governance.',
+        docsDir: 'docs',
+        generateLLMsTxt: true,
+        generateLLMsFullTxt: true,
+        excludeImports: true,
+        removeDuplicateHeadings: true,
+        includeUnmatchedLast: false,
+        pathTransformation: {
+          ignorePaths: ['docs'],
+          addPaths: ['point'],
+        },
+        includeOrder: [
+          'home.mdx',
+          'get-to-know-syskit-point/**',
+          'requirements/**',
+          'set-up-point-cloud/**',
+          'set-up-point-enterprise/**',
+          'configuration/**',
+          'governance-and-automation/**',
+          'access-management/**',
+          'microsoft365-inventory/**',
+          'reporting/**',
+          'storage-management/**',
+          'point-collaborators/**',
+          'power-platform/**',
+          'integrations/**',
+          'licensing-activation/**',
+          'faq/**',
+          'troubleshooting/**',
+        ],
+        customLLMFiles: [
+          {
+            filename: 'llms-releases.txt',
+            includePatterns: ['releases/**/*.md'],
+            fullContent: true,
+            title: 'Syskit Point Release Notes',
+            description: 'Release notes for Syskit Point Cloud and Enterprise editions.',
+          },
+        ],
+      },
+    ],
   ],
 
   themeConfig: {

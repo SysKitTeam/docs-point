@@ -24,6 +24,7 @@ In Syskit Point, there are several ways to free up space and complete the cleanu
 
 * [Delete Files Action](#delete-files)
 * [Archive Files Action](#archive-files)
+* [Archive Stale Files Action](#archive-stale-files)
 * [Clean Up Action on Storage Metrics report](#clean-up-action-on-site-storage-metrics-report)
 * [Clean Up Action on Site Storage Metrics report](#clean-up-action-on-site-storage-metrics-report)
 * [Clean Up Action on File Storage Details report](#clean-up-action-on-file-storage-details-report)
@@ -156,6 +157,48 @@ You can access your archived files by following these steps:
 :::
 
 
+## Archive Stale Files
+
+The **Archive Stale Files** action lets you archive every file currently classified as stale on the selected site(s) in one bulk operation. It uses the same underlying [Archive Files](#archive-files) mechanism (Microsoft 365 Archive) but targets everything that matches your configured [Stale Files policies](../governance-and-automation/stale-files/stale-files-admin.md) instead of individually selected files.
+
+:::info
+* At least one [Stale Files policy](../governance-and-automation/stale-files/stale-files-admin.md) must be configured and applied to be able to Archive Stale Files.
+:::
+
+You can archive stale files from three places:
+
+* On the **Storage Metrics report (1)**: 
+  * Open the **Stale Files - Potential Savings (2)** view by manually selecting it or **clicking Stale Files on the Potential Savings tile** 
+  * **Select one or more workspaces (3)** with stale files, based on your policies 
+  * Click **Archive Stale Files (4)** in the Manage section
+
+![Storage Metrics Report- Archive Stale Files](../../static/img/optimize-storage-storage-metrics-stale-files.png)
+
+* On the **Site Storage Metrics report (1)**: 
+  * In the Storage Optimization Opportunities tile, you can find the Stale Files section that states that you can **Archive up to X GB (2)** by archiving stale files 
+  * Click the **Archive (3)** button to archive all files that were determined stale by your policies
+    * The Archive Stale Files confirmation module opens, where you can confirm the archival and find **information on what conditions the files met (4)** to be determined stale.
+
+![Site Storage Metrics Report- Archive Stale Files](../../static/img/optimize-storage-site-storage-metrics-stale-files.png)
+
+![Site Storage Metrics Report- Archive Stale Files](../../static/img/optimize-storage-site-storage-metrics-stale-files-confirmation.png)
+
+* On the **Site Storage Metrics report (1)**: 
+  * **Select the Stale Files view (2)** for the report
+  * **Select one or more files (3)** that were classified as stale based on your policies 
+  * Click **Archive Files (4)** in the Manage section 
+
+![Storage Metrics Report- Archive Stale Files](../../static/img/optimize-storage-site-storage-metrics-stale-files-bulk.png)
+
+The same behaviors and limitations as the regular [Archive Files](#archive-files) action apply:
+
+* Files with retention labels can be archived; retention policies continue to apply.
+* Archived files remain visible in the document library, marked with an archive icon.
+* The action is only supported for SharePoint sites; OneDrive is not supported.
+
+Once a file is archived, it is excluded from the Stale Files view and from the potential-savings calculation.
+
+
 ## Clean Up Action on Storage Metrics Report
 
 :::info
@@ -177,7 +220,7 @@ Once the Storage Metrics Report is generated, complete the next steps:
     * **Old File Versions (3)** - lets you clean up old file versions based on the value you set up in Settings.
     * **Number of File Versions (4)** - lets you clean up several old file versions based on the value you set up in Settings.
       * For more details on setting up these values, look at the [Configure Storage Management article](../configuration/configure-storage-management.md).
-    * **All but the last file versions (5)** - lets you clean up all versions of the files, except for the most recent one. Clean Up Action on Site Storage Metrics Report
+    * **All but the last file versions (5)** - lets you clean up all versions of the files, except for the most recent one.
 
 :::info
 **Please note**: Completing the cleanup action from the Storage Metrics report cleans up all files located at the selected site or sites. Freeing up space for one or more specific files on the site is possible via the [Site Storage Metrics](#clean-up-action-on-site-storage-metrics-report) and [File Storage Details](#clean-up-action-on-site-storage-metrics-report) reports.
