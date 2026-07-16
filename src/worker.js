@@ -71,6 +71,10 @@ export default {
       if (asset.status === 200) {
         const response = new Response(asset.body, asset);
         
+        // Serve .txt files with UTF-8 charset for proper encoding (llms.txt, etc.)
+        if (pathname.match(/\.txt$/)) {
+          response.headers.set('Content-Type', 'text/plain; charset=utf-8');
+        }
         // Handle downloadable files with proper headers
         if (pathname.match(/\.(zip|7z|rar|tar|gz|pdf|doc|docx|xls|xlsx|ppt|pptx|ps1)$/)) {
           const filename = pathname.split('/').pop();
