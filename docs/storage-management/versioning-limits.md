@@ -1,5 +1,5 @@
 ---
-description:  This article explains how to create and apply Storage Versioning Limits in Syskit Point.
+description: This article explains how to create and apply Storage Versioning Limits in Syskit Point.
 ---
 
 # Storage Versioning Limits 
