@@ -76,16 +76,23 @@ const config: Config = {
     ],
   ],
 
+  themes: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: false,
+        docsRouteBasePath: '/',
+        hashed: true,
+        highlightSearchTermsOnTargetPage: true,
+      },
+    ],
+  ],
+
   plugins: [
     'docusaurus-plugin-hubspot',
     'plugin-image-zoom',
-    [
-      'docusaurus-lunr-search',
-      {
-        highlightResult: true,
-        disableVersioning: true,
-      },
-    ],
     [
       '@docusaurus/plugin-google-tag-manager',
       {
