@@ -917,6 +917,7 @@ const sidebars: SidebarsConfig = {
         id: 'point-collaborators/README',
       },
       items: [
+        'point-collaborators/quick-start-guide',
         'point-collaborators/point-starter-kit-collaborators',
 
                 {
