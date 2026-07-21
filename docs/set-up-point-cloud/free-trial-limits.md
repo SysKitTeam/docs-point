@@ -1,17 +1,17 @@
 ﻿---
-description: This article provides a list of limitations when using Syskit Point during your 21-day trial.
+description: This article provides a list of limitations when using Syskit Point Cloud during your 21-day trial.
 title: Free Trial Limits
 ---
 
-# Syskit Point Free Trial Limits
+# Syskit Point Cloud Free Trial Limits
 
-**Syskit Point trial** enables you to **test drive Syskit Point for free for 21 days**. To find out how to start your 21-day free trial, take a look at the [Syskit Point Trial article](free-trial.md). 
+**Syskit Point Cloud trial** enables you to **test drive Syskit Point Cloud for free for 21 days**. To find out how to start your 21-day free trial, take a look at the [Syskit Point Trial article](free-trial.md). 
 
 In this article, you can find information on the **limitations when using Syskit Point during your trial period**.
 
 ## Free Trial Limits
 
-With the Syskit Point trial, you will receive **21 days of free usage of the Syskit Point Governance plan**. During that time, you'll be able to **explore everything Syskit Point offers and see what makes it the best governance and security software for Microsoft 365**. 
+With the Syskit Point Cloud trial, you will receive **21 days of free usage of the Syskit Point Governance plan**. During that time, you'll be able to **explore everything Syskit Point offers and see what makes it the best governance and security software for Microsoft 365**. 
 
 You'll be able to utilize most of the Syskit Point features while in the free trial; however, there will be some limitations:
 
@@ -36,4 +36,4 @@ When the trial expires, you can expect the following:
 * **Data collected in Syskit Point is kept for 21 days after the trial expiration** 
     * New changes in your environment will not be synced (for example, permission changes, newly added Teams, and so on)
     * 21 days after the last day of your trial, all of the data collected in Syskit Point will be erased as per the [DPA (Data Processing Addendum)](https://www.syskit.com/data-processing-addendum/)
-    * If, during 21 days after trial expiration, you purchase a Syskit Point license, all of your data will remain intact; Syskit Point will continue to sync changes after license purchase
+    * If, during the 21 days after trial expiration, you purchase a Syskit Point license, all of your data will remain intact; Syskit Point will continue to sync changes after license purchase

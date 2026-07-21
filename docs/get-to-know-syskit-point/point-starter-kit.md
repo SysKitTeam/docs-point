@@ -15,7 +15,7 @@ Your flow of using Syskit Point can go like this, and we will explain each part 
 
 :::warning
 **Please note!**\
-If you are a free trial user, we recommend reading about activation, some limitations, and instructions [here](../releases/cloud/).
+If you are a free trial user, we recommend reading about activation, some limitations, and instructions [here](../set-up-point-cloud/overview.md).
 :::
 
 ## DISCOVER: MICROSOFT 365 INVENTORY
