@@ -22,7 +22,7 @@ description: This article lists new features, improvements, and bug fixes in the
   * **Fixed an issue** where the **Last Logged In** column was lacking data on the External Users report.
 
 * **You can now remove a previously accepted risk** from a workspace by running the **Manage Risks** action on the **Risky Workspaces** screen with the **Show by Workspace** view applied.
-  * The **Manage Risks** dialog shows all previously accepted risks along with who accepted them and until when they are accepted.
+  * The **Manage Risks** dialog shows all previously accepted risks, who accepted them, and until when they are accepted.
   * When deselecting an accepted risk, a message is displayed indicating that the risk will be calculated again toward the risk score on save.
   * Once removed, the workspace's risk score is recalculated immediately.
 
