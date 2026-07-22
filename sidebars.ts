@@ -569,7 +569,8 @@ const sidebars: SidebarsConfig = {
         'configuration/configure-point-for-storage-management',
         'configuration/custom-views',
         'configuration/audit-log-for-settings',
-        'configuration/manage-connection', 
+        'configuration/manage-connection',
+        'configuration/restrict-site-creation-for-apps', 
       ],
     },
     {
