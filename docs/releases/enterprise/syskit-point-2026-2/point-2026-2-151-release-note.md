@@ -32,12 +32,13 @@ For detailed step-by-step instructions on how to upgrade Syskit Point, refer to 
   * External users are prevented from receiving sponsor tasks, which means reviews stay within your organization.
   * The **Users Overview** report now includes a **Sponsors** column, available from the column chooser.
     * This lets you see who is sponsoring each user at a glance.
+  * [For more details, take a look at the Inactive Guest Users Policy article.](../../../governance-and-automation/automated-workflows/inactive-guest-users-admin.md)
 
 * **New Policy Impact reports are now available in Policies.**
   * The **Policy Impact** report can be accessed by clicking the number of workspaces associated with a policy in Settings.
   * The Policy Impact report can be sorted **by Workspaces** and, when task delegation is enabled, **by Reviewers**
     * The report shows which workspaces and reviewers are covered by your active policies.
-  * On manually applied policies, you can complete the **Exclude from Policy** action which removes the policy from the selected workspace(s).
+  * On manually applied policies, you can complete the **Exclude from Policy** action, which removes the policy from the selected workspace(s).
   * The report supports filtering and PDF or XLSX exports.
   * [For more details, take a look at the Policy Impact report article.](../../../governance-and-automation/automated-workflows/policy-impact-report.md)
 
