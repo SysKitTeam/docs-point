@@ -14,7 +14,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes
 
-* **New total count metrics** for **Sharing Links** and **Unique Permissions** are now available as columns on the **Sites Overview** report.
+* **New total-count metrics** for **Sharing Links** and **Unique Permissions** are now available as columns in the **Sites Overview** report.
   * Enable them from the **Column Chooser**.
 
 * **Improvements made to the Inactive Workspaces Policy.**
