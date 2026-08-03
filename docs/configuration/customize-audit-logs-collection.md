@@ -160,6 +160,35 @@ To exclude specific events, accounts, or sources:
 
 ![Audit Log Advanced Filters](../../static/img/customize-audit-logs-collection-advanced-filters.png)
 
+#### Define Criteria Collection
+
+**Define Criteria Collection** lets you stop collecting audit logs for a specific SharePoint location. You choose whether to ignore a **whole folder** or a **single document** by using one of these two options:
+
+* **`objectIdPath`** - ignores audit logs for a **folder and everything inside it** (all subfolders and documents).
+* **`objectIdPathExact`** - ignores audit logs for **one specific document only**. Everything else in the folder keeps being collected.
+
+For either option, paste the **full URL** of the folder or document. A partial or relative path will not work.
+
+##### Example
+
+For example, let's say that on the SharePoint site **Human Resources**, there is a folder called **Policies** under **Shared Documents**.
+
+* To ignore audit logs for the **entire folder**, use `objectIdPath`:
+
+```json
+{
+  "objectIdPath": "https://contoso.sharepoint.com/sites/humanresources/Shared Documents/Policies"
+}
+```
+
+* To ignore audit logs for **only the document `Employee Handbook.docx`** (while still collecting logs for the rest of the folder), use `objectIdPathExact`:
+
+```json
+{
+  "objectIdPathExact": "https://contoso.sharepoint.com/sites/humanresources/Shared Documents/Policies/Employee Handbook.docx"
+}
+```
+
 ## Data Retention
 
 ### Point Cloud
