@@ -8,7 +8,7 @@ description: This article lists improvements and bug fixes in Syskit Point versi
 
 **Product version:** 2026.2.153
 
-**Build number:** 1
+**Build number:** 41
 
 **Release date:** August 11, 2026
 
