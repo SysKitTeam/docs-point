@@ -20,4 +20,6 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Fixed an issue** in the **Orphaned Users** report where the **Site Type** column was empty and the **Site** column displayed an incorrect icon.
 
+* **Fixed an issue** where a user requesting access to a public Teams workspace was not added as a member.
+
 * **Various improvements, including UX and UI fixes, have been implemented.**
