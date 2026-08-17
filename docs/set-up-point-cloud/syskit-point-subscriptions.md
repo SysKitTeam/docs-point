@@ -13,6 +13,7 @@ The **My Subscriptions** portal provides insight into the current state of your 
 In this article, you will find information on the following:
 
 * [Purchase Your Syskit Point Cloud Subscription](syskit-point-subscriptions.md#purchase-your-syskit-point-cloud-subscription)
+* [Provide Account Contacts](syskit-point-subscriptions.md#provide-account-contacts)
 * [Purchase Additional User Licenses](syskit-point-subscriptions.md#purchase-additional-user-licenses)
 * [Upgrade Your Subscription Plan](syskit-point-subscriptions.md#upgrade-your-subscription-plan)
 * [Manage Subscription Administrators](syskit-point-subscriptions.md#manage-subscription-administrators)
@@ -97,6 +98,25 @@ The section titled **Users (2)** is where you can find a **list of users (2)** y
 ![Syskit Point Subscription - Purchased Plan & Users](../../static/img/syskit-point-subscriptions-users-purchased-plan.png)
 
 ![Syskit Point Subscription - Purchased Plan & Users](../../static/img/syskit-point-subscriptions-users-list.png)
+
+## Provide Account Contacts
+
+Once your license is activated, you are asked to provide your account contacts. Contacts are requested for four roles:
+
+* **Primary**
+* **Technical**
+* **Billing**
+* **Legal**
+
+For each role, enter a valid **e-mail** address. You can add more than one e-mail address per role.
+
+The first time your license is activated, adding these contacts is a required step, and all four roles need to be filled in before you can continue. If your license is already active, a banner reminds you to add your contacts until they are submitted.
+
+To keep your contacts up to date, we ask you to confirm them once a year. When it is time to review them, a banner in Syskit Point lets you know.
+
+:::info
+**Please note!** No contacts are collected during the free trial. During the trial, we only reach out to the person who started the trial period.
+:::
 
 ## Purchase Additional User Licenses
 
