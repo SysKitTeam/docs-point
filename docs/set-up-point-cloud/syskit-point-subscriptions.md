@@ -103,10 +103,18 @@ The section titled **Users (2)** is where you can find a **list of users (2)** y
 
 Once your license is activated, you are asked to provide your account contacts. Contacts are requested for four roles:
 
-* **Primary**
-* **Technical**
-* **Billing**
-* **Legal**
+* **Main Contacts (Primary)**
+  * The main person(s) working in Syskit Point on a regular basis
+  * These contacts will receive all important product and change updates
+* **Technical Contacts**
+  * The main person(s) working in charge of technical related information
+  * These contacts will receive information about product updates
+* **Billing Contacts**
+  * The main person(s) in charge of billing
+  * These contacts will receive copies of the invoices, renewal information and other billing-related updates
+* **Legal Contacts**
+  * The main person(s) in charge of legal aspects
+  * These contacts will receive all important legal changes (e.g. to our EULA or Privacy Policy)
 
 For each role, enter a valid **e-mail** address. You can add more than one e-mail address per role.
 
