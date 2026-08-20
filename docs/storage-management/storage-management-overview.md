@@ -70,7 +70,7 @@ Selecting one or more sites provides the following actions:
     * [For more details on how to set different storage limits, take a look at the Limit Storage Usage article.](../storage-management/limit-storage-usage.md)
   * **Set Version Limit (11)** - lets you set up a limit on the file versions kept per site based on your settings and preference
     * [For more details how to set up versioning limits, take a look at the Storage Versioning Limits article.](../storage-management/versioning-limits.md)
-  * **Clean Up File Versions (12)** - lets you clean up old file versions, several file versions, or all but the last file version
+  * **Clean Up File Versions (12)** - lets you clean up old file versions, several file versions, all but the last file version, or entering a custom amount to keep a select number of the most recent versions
     * [For more details on all of the ways you can complete the Clean Up File action, take a look at the Free Up Storage article.](../storage-management/free-up-storage.md)
   * **Lifecycle Management actions for the workspace (13)**: Archive and Delete
 
