@@ -4,8 +4,6 @@ description: This article explains how to free up your storage on SharePoint sit
 
 # Free Up Storage
 
-
-
 The more your content grows over time, the harder it becomes to manage large amounts of data in your environment. 
 Over time, SharePoint sites might contain duplicate, outdated, or otherwise unnecessary files. Removing these files helps you:
 
@@ -254,7 +252,10 @@ There are three ways to clean up the storage space across your sites.
 
 ![Site Storage Metrics Report- Clean Up File Versions](../../static/img/optimize-storage-site-storage-metrics-report-cleanup.png)
 
-Once you click the **Clean Up button** on the File Version Cleanup tile or the **Clean Up File Versions button** in the Manage section, a **Clean Up File Versions pop-up opens (1)**.
+Once you click the **Clean Up button** on the File Version Cleanup tile or the **Clean Up File Versions button** in the Manage section.
+  * The **Clean Up File Versions dialog modal opens (1)** where you can **choose how many file versions to keep (2)**:
+    * **All but the last file version** - keeps only the most recent version and removes all older ones
+    * **All but the last (enter amount) file versions** - enter the number of most recent versions you want to keep in the box, and older versions are removed
   * To permanently delete the file(s), check the **Permanently delete checkbox (2)**; doing this instantly frees up space for your site.
     * If the checkbox is not selected, the file(s) are sent to the site's Recycle bin for the defined retention period; doing this does not instantly free up space for your site, and the space is only cleared once the file(s) are removed from the recycle bin. 
   * **Type Clean Up (3)** in the available space to proceed.
