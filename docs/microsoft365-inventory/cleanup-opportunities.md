@@ -23,15 +23,18 @@ Clicking any of the counts in the tile opens the relevant report, where you can 
 
 **After sharing links expire, get deleted, or access is granted ad hoc, unique permissions are often left behind even when they're no longer needed, making them redundant. Redundant unique permissions also happen with items where unique permissions match the parent.** Over time, they accumulate silently: permission reviews become harder to complete, SharePoint performance degrades on heavily affected sites, and admins lose a clear picture of who actually has access. These redundant unique permissions can be safely removed to simplify your structure without changing anyone's access.
 
-On the dashboard tile, you'll see the number of redundant unique permissions ready to be cleaned up, **click Fix Now** to start.
+On the dashboard tile, you'll see the number of redundant unique permissions ready to be cleaned up, **click Set up Automation** to start.
 
-After selecting Fix Now, the **information dialog** opens, providing more details on Redundant Unique Permissions and leaves you with two options:
+After selecting Set Up Automation, the **information dialog** opens, providing more details on Redundant Unique Permissions and leaves you with two options:
 
-* **Clicking the Request Automation** button lets you send us a request for this feature to be automated, which helps us prioritize the improvements you're requesting
+* **Turning on the Automated cleanup toggle (1)** lets Syskit Point clean up redundant unique permissions for you automatically
+  * The Automated Cleanup toggle is turned off by default
+  * When it's turned on, redundant unique permissions are cleaned up once a day
+  * Every object the automation cleans up is stored in the action history log
 
-* **Clicking Resolve Manually** opens the [**Unique Permissions** report](../reporting/access-reports.md#unique-permissions-report)
-  * After generating the report, you'll see the **recommendation to Remove Redundant Unique Permissions (1)**, where applicable
-  * Selecting that object lets you complete the **Delete Unique Permissions action (2)**
+* **Clicking Resolve Manually (2)** opens the [**Unique Permissions** report](../reporting/access-reports.md#unique-permissions-report)
+  * After generating the report, you'll see the **recommendation to Remove Redundant Unique Permissions (3)**, where applicable
+  * Selecting that object lets you complete the **Delete Unique Permissions action (4)**
 
 :::info
 
@@ -39,6 +42,7 @@ After selecting Fix Now, the **information dialog** opens, providing more detail
 
 :::
 
+![Cleanup Opportunities tile - Redundant Unique Permissions](../../static/img/cleanup-opportunities-tile-redundant.png)
 
 ![Cleanup Opportunities tile - Redundant Unique Permissions](../../static/img/cleanup-opportunities-tile-redundant.png)
 
@@ -47,9 +51,9 @@ After selecting Fix Now, the **information dialog** opens, providing more detail
 
 **Files shared for ad hoc collaborations, one-off requests, or short-term projects often retain unique permissions long after the work is done.** With no activity, no views or edits, the access just sits there unchallenged, with no signal to tell admins which permissions are still needed and which have been overlooked. **Files with Inactive Unique Permissions haven't been accessed or modified in the last 180 days.** Over time, inactive unique permissions accumulate and create real risk: ongoing access to files that no one is actively monitoring. By cleaning them up, you're removing that unnecessary risk exposure. 
 
-On the dashboard tile, you'll see the number of inactive unique permissions ready to be cleaned up, **click Fix Now** to start.
+On the dashboard tile, you'll see the number of inactive unique permissions ready to be cleaned up, **click Resolve Manually** to start.
 
-After selecting Fix Now, the **information dialog** opens, providing more details on Inactive Unique Permissions and leaves you with two options:
+After selecting Resolve Manually, the **information dialog** opens, providing more details on Inactive Unique Permissions and leaves you with two options:
 
 * **Clicking the Request Automation** button lets you send us a request for this feature to be automated, which helps us prioritize the improvements you're requesting
 * **Clicking Resolve Manually** opens the [**Permissions Matrix** report](../reporting/access-reports.md#permissions-matrix-report)
@@ -63,9 +67,9 @@ After selecting Fix Now, the **information dialog** opens, providing more detail
 
 **When external sharing settings become more restrictive, SharePoint blocks existing Anyone links, but doesn't delete them.** These links were valid when created, but once your settings became more restrictive, **they no longer comply with your external sharing policy and should be removed**. Deleting these links permanently removes the risk. Unlike tightened settings that can be reverted, a deleted link cannot be reactivated.  
 
-On the dashboard tile, you'll see the number of leftover anyone links ready to be cleaned up, **click Fix Now** to start.
+On the dashboard tile, you'll see the number of leftover anyone links ready to be cleaned up, **click Resolve Manually** to start.
 
-After selecting Fix Now, the **information dialog** opens, providing more details on Leftover Anyone Links and leaves you with two options:
+After selecting Resolve Manually, the **information dialog** opens, providing more details on Leftover Anyone Links and leaves you with two options:
 
 * **Clicking the Request Automation** button lets you send us a request for this feature to be automated, which helps us prioritize the improvements you're requesting
 * **Clicking Resolve Manually** opens the [**Sharing Links** report](../reporting/access-reports.md#unique-permissions-report)
@@ -79,9 +83,9 @@ After selecting Fix Now, the **information dialog** opens, providing more detail
 
 **When external sharing settings become more restrictive, SharePoint blocks existing guest users, but doesn't remove them.** These users had valid access when it was granted, but once your settings became more restrictive, **they no longer comply with your external sharing settings and should be removed.** Removing these external accounts eliminates outdated access and keeps your guest users list aligned with your current sharing policies.
 
-On the dashboard tile, you'll see the number of leftover external users ready to be cleaned up, **click Fix Now** to start.
+On the dashboard tile, you'll see the number of leftover external users ready to be cleaned up, **click Resolve Manually** to start.
 
-After selecting Fix Now, the **information dialog** opens, providing more details on Leftover External Users and leaves you with two options:
+After selecting Resolve Manually, the **information dialog** opens, providing more details on Leftover External Users and leaves you with two options:
 
 * **Clicking the Request Automation** button lets you send us a request for this feature to be automated, which helps us prioritize the improvements you're requesting
 * **Clicking Resolve Manually** opens the [**Externally Shared Content** report](../reporting/access-reports.md#unique-permissions-report)

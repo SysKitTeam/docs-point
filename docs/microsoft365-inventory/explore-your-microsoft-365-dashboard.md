@@ -359,10 +359,10 @@ The **Cleanup Opportunities** tile helps you identify and act on permission issu
 
 The tile on the Dashboard shows the following:
 
-* The number of **Redundant Unique Permissions** and the Fix Now button that opens the **Unique Permissions** report
-* The number of **Inactive Unique Permissions** and the Fix Now button that opens the **Permissions Matrix** report
-* The number of **Leftover Anyone Links** and the Fix Now button that opens the **Sharing Links** report
-* The number of **Leftover External Users** and the Fix Now button that opens the **Externally Shared Content** report
+* The number of **Redundant Unique Permissions** and the **Set Up Automation** button, which opens the information dialog where you can turn on the **Automated cleanup** toggle or choose to Resolve Manually which open the **Unique Permissions** report
+* The number of **Inactive Unique Permissions** and the Resolve Manually button that opens the **Permissions Matrix** report
+* The number of **Leftover Anyone Links** and the Resolve Manually button that opens the **Sharing Links** report
+* The number of **Leftover External Users** and the Resolve Manually button that opens the **Externally Shared Content** report
 
 [For more details on the Cleanup Opportunities tile, take a look at this article.](cleanup-opportunities.md)
 
