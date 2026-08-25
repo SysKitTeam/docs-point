@@ -43,14 +43,14 @@ For detailed step-by-step instructions on how to upgrade Syskit Point, refer to 
 
 ### Reporting
 
-* **Fixed an issue** in the **Orphaned Users** report where the **Site Type** column was empty and the **Site** column displayed an incorrect icon.
+* **Fixed an issue** in the **Orphaned Users** report where the **Site Type** column was empty, and the **Site** column displayed an incorrect icon.
 
 * **Fixed an issue** in the **Sharing Links** report where some sharing links were not resolved correctly when SharePoint created two separate access grants for the same type of link.
 
 ### Storage
 
 * **The Clean Up File Versions action for Storage** now lets you choose how many file versions to keep.
-  * On the Clean Up File Versions modal you can choose whether to keep only the latest version or **enter the number of most recent versions** you want to keep, and older versions are removed to free up storage.
+  * On the Clean Up File Versions modal, you can choose whether to keep only the latest version or **enter the number of most recent versions** you want to keep, and older versions are removed to free up storage.
 
 ### Power Platform
 
