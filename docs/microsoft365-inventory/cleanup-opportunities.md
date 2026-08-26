@@ -11,9 +11,9 @@ The tile gives you a single place to see how many of these issues exist in your 
 The Cleanup Opportunities tile shows the state for four categories:
 
 * **[Redundant Unique Permissions](#redundant-unique-permissions) (1)** - these are items where unique permissions match the parent so removing them simplifies your structure without changing anyone’s access.
-* **[Inactive Unique Permissions](#inactive-unique-permissions) (2)** - these are files with unique permissions that haven’t been accessed or modified within the defined inactivity period.
-* **[Leftover Anyone Links](#leftover-anyone-links) (3)** - these are anyone links that now aren't aligned with your external sharing policy because your external sharing settings have since become more restrictive.
-* **[Leftover External Users](#leftover-external-users) (4)** - these are external users whose access now aren't in compliance with your external sharing policy because your settings became more restrictive.
+* **[Leftover Anyone Links](#leftover-anyone-links) (2)** - these are anyone links that now aren't aligned with your external sharing policy because your external sharing settings have since become more restrictive.
+* **[Leftover External Users](#leftover-external-users) (3)** - these are external users whose access now aren't in compliance with your external sharing policy because your settings became more restrictive.
+* **[Inactive Unique Permissions](#inactive-unique-permissions) (4)** - these are files with unique permissions that haven’t been accessed or modified within the defined inactivity period.
 
 ![Cleanup Opportunities tile](../../static/img/cleanup-opportunities-tile.png)
 
@@ -42,7 +42,7 @@ After selecting Set Up Automation, the **information dialog** opens, providing m
 
 :::
 
-![Cleanup Opportunities tile - Redundant Unique Permissions](../../static/img/cleanup-opportunities-tile-redundant.png)
+![Cleanup Opportunities tile - Redundant Unique Permissions](../../static/img/cleanup-opportunities-tile-redundant-automation.png)
 
 ![Cleanup Opportunities tile - Redundant Unique Permissions](../../static/img/cleanup-opportunities-tile-redundant.png)
 
