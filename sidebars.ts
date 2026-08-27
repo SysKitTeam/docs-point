@@ -26,6 +26,7 @@ const sidebars: SidebarsConfig = {
             id: 'releases/cloud/README',
           },
           items: [
+            'releases/cloud/point-2026-08-26-release-note',
             'releases/cloud/point-2026-08-19-release-note',
             'releases/cloud/point-2026-08-12-release-note',
             'releases/cloud/point-2026-08-04-release-note',
@@ -924,6 +925,7 @@ const sidebars: SidebarsConfig = {
         id: 'point-collaborators/README',
       },
       items: [
+        'point-collaborators/quick-start-guide',
         'point-collaborators/point-starter-kit-collaborators',
 
                 {
