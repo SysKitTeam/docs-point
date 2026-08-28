@@ -59,7 +59,7 @@ When you see a list of your groups, take the following steps:
 
 ![Change Group Permissions](../../../static/img/manage-group-access-change-group-permissions.png)
 
-[For more information on how to complete the Access Review task, take a look at this article.](../resolve-governance-tasks/access-review.mdx)
+[For more information on how to complete the Access Review task, take a look at this article.](../resolve-governance-tasks/access-review.md)
 
 
 ## Add and Remove Owners

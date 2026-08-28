@@ -128,6 +128,8 @@ export function admonitionColor(kind: string): [number, number, number] {
     case 'tip':
     case 'success':
       return [22, 128, 73]; // green
+    case 'video':
+      return [8, 145, 178]; // teal
     case 'info':
     case 'note':
     default:
