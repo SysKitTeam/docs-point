@@ -6,7 +6,7 @@ description: Ticketing Integrations let your ticketing system forward Microsoft 
 
 :::info
 
-**Uses LLM functionality — admin opt-in required.** Off by default; processing runs through Microsoft Foundry (Azure-hosted models) in your selected Azure region, and your data is never used to train the foundation models. See [AI Data Privacy & Security](../ai-data-privacy-and-security.md).
+**Uses LLM functionality - admin opt-in required.** Off by default; processing runs through Microsoft Foundry (Azure-hosted models) in your selected Azure region, and your data is never used to train the foundation models. See [AI Data Privacy & Security](../ai-data-privacy-and-security.md).
 
 :::
 
@@ -18,23 +18,44 @@ With Ticketing Integrations, your ticketing system forwards Microsoft 365-relate
 
 Syskit Point provides the answers; the integration itself is set up and controlled by you, within your ticketing tool. The flow:
 
-1. **A ticket arrives** in your ticketing system.
-2. **Your ticketing system forwards it to Syskit Point.** Based on your internal setup in the ticketing tool, you decide which tickets or notes are forwarded to Point.
-3. **Point AI provides the answer back** to the ticketing system, based on Point's own data — permissions, audit logs, group memberships, sharing events — with what happened, when, and who did it.
-4. **Your ticketing system posts the answer.** Based on your setup, it can be added as an **internal note (recommended)** or as a reply to the ticket.
+* **A ticket arrives** in your ticketing system.
+* **Your ticketing system forwards it to Syskit Point.** 
+  * Based on your internal setup in the ticketing tool, you decide which tickets or notes are forwarded to Point.
+* **Point AI provides the answer back** to the ticketing system, based on Point's own data - permissions, audit logs, group memberships, sharing events - with what happened, when, and who did it.
+* **Your ticketing system posts the answer.** 
+  * Based on your setup, it can be added as an **internal note (recommended)** or as a reply to the ticket.
 
-Because steps 2 and 4 live in your ticketing system, you stay in full control of which tickets Point sees and how its answers are used.
+Because steps 2 and 4 happen in your ticketing system, you stay in full control of which tickets Point sees and how its answers are used.
 
 ## Setting up a connection
 
-In Syskit Point, go to **Settings** > **Integrations** > **Ticketing** and pick your ticketing system. **[Navigation path to be confirmed.]** Connection setup is explained in-app for every connection — follow the steps shown for your platform.
+In Syskit Point, go to **Settings** > **Integrations** > **Ticketing (1)**.
 
-There is also an **Other** option you can use to integrate ticketing platforms we currently don't have a native connection with.
+* **Click Add Connection (2)** and pick your ticketing system. 
+  * In this example, for the sake of the screenshots we are using Jira Service Management. 
+  * The connection setup and requirements is explained in-app on the right side of the screen for every connection. 
+    * **Follow the steps shown for your platform.**
 
-## What the integration does not do
+![Ticketing - Add Connection](../../../static/img/point-assistant-ai.png)
 
-* It does not make changes in your Microsoft 365 tenant — restoring Eva's access is still an admin action, done through Point or your admin tools.
-* It does not decide how tickets are handled — forwarding rules and how answers are posted are controlled by your setup in the ticketing tool.
+![Ticketing - Jira - General](../../../static/img/point-assistant-ai.png)
+
+![Ticketing - Jira - Ticketing Setup](../../../static/img/point-assistant-ai.png)
+
+![Ticketing - Jira - Callback](../../../static/img/point-assistant-ai.png)
+
+There is also an **Custom / Other** option you can use to integrate ticketing platforms we currently don't have a native connection with.
+
+
+:::info
+
+**Please Note,** the Ticketing integration **does not**:
+
+* Make changes in your Microsoft 365 tenant — restoring Eva's access is still an admin action, done through Point or your admin tools.
+* Decide how tickets are handled — forwarding rules and how answers are posted are controlled by your setup in the ticketing tool.
+
+:::
+
 
 ## Data handling
 
