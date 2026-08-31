@@ -29,7 +29,7 @@ To enable AI features:
 
 :::
 
-![Enable AI-powered Features](../../../static/img/enable-ai-features-toggle.png)
+![Enable AI-powered Features](../../static/img/enable-ai-features-toggle.png)
 
 ## What to Expect when Enabling AI Features
 
@@ -43,7 +43,8 @@ To enable AI features:
 
 * Change what data Syskit Point collects from your tenant.
 * Give any user access to data beyond their Point role.
-* Allow AI to make changes in your environment — AI features only deliver findings and recommendations.
+* Allow AI to make changes in your environment.
+  * AI features only deliver findings and recommendations.
 
 [Permission Anomaly Reports](features/permission-anomaly-reports.md) and [Sensitivity Label Recommendations](features/sensitivity-label-recommendations.md) use machine learning with no LLM involved. They are part of Syskit Point's standard functionality and are not controlled by the AI features toggle.
 
