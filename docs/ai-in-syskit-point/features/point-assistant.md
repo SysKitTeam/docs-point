@@ -38,9 +38,9 @@ Try these to get a feel for how it works:
 * *"Which groups and sites can Eva Green access?"*
 * *"Who owns the Marketing team?"*
 * *"Show inactive SharePoint sites."*
-* *"Who deleted [file name] last week?"*
+* *"Who deleted (file name) last week?"*
 * *"Find sites nearing their storage quota and tell me where version cleanup would save the most space."*
-* *"[User] is leaving on Friday. Show their groups, sites, apps, flows, and ownership responsibilities."*
+* *"(User Name) is leaving on Friday. Show their groups, sites, apps, flows, and ownership responsibilities."*
 
 ## Sugestions for Better Answers
 
