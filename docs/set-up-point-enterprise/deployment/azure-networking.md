@@ -77,6 +77,7 @@ The following destinations must be permitted through your firewall:
 | Protocol | Host | Port | Description |
 |----------|------|------|-------------|
 | HTTPS | my.syskit.com | 443 | Syskit portal for license activation and "Check for updates" functionality, hosted in Azure West Europe. |
+| HTTPS | subscriptions.syskit.com | 443 | Syskit portal for license activation and subscription management, hosted in Azure US East. |
 | HTTPS | downloads.syskit.com | 443 | Required for future updates, hosting the deployment packages. |
 | HTTPS | dc.applicationinsights.azure.com | 443 | Application Insights, owned by Syskit, is used for critical error reporting and performance metrics. https://docs.microsoft.com/en-us/azure/azure-monitor/app/ip-addresses |
 | HTTPS | dc.applicationinsights.microsoft.com | 443 | -\\|\\|- |
