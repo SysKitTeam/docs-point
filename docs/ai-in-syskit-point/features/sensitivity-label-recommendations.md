@@ -6,7 +6,7 @@ description: Sensitivity Label Recommendations use machine learning to recommend
 
 :::info
 
-**Machine learning feature - no LLM involved, no AI toggle required.** Analysis runs entirely within Syskit Point. See [AI Data Privacy & Security](../ai-data-privacy-and-security.md).
+**Machine learning feature - no LLM involved, no AI toggle required.** Analysis runs entirely within Syskit Point. Take a look at the [AI Data Privacy & Security](../ai-data-privacy-and-security.md) article for more details.
 
 :::
 

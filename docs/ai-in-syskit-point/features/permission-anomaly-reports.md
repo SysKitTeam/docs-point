@@ -6,7 +6,7 @@ description: Permission Anomaly Reports use statistical and machine learning ana
 
 :::info
 
-**Machine learning feature - no LLM involved, no AI toggle required.** These reports use statistical and machine learning analysis that runs entirely within Syskit Point. See [AI Data Privacy & Security](../ai-data-privacy-and-security.md).
+**Machine learning feature - no LLM involved, no AI toggle required.** These reports use statistical and machine learning analysis that runs entirely within Syskit Point. Take a look at the [AI Data Privacy & Security](../ai-data-privacy-and-security.md) article for more details.
 
 :::
 
