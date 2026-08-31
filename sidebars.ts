@@ -601,6 +601,36 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'AI in Syskit Point',
+      link: {
+        type: 'doc',
+        id: 'ai-in-syskit-point/README',
+      },
+      items: [
+        'ai-in-syskit-point/early-access-program',
+        'ai-in-syskit-point/ai-data-privacy-and-security',
+        'ai-in-syskit-point/enable-ai-features',
+        {
+          type: 'category',
+          label: 'AI Features',
+          link: {
+            type: 'doc',
+            id: 'ai-in-syskit-point/features/README',
+          },
+          items: [
+            'ai-in-syskit-point/features/point-assistant',
+            'ai-in-syskit-point/features/ticketing-integrations',
+            'ai-in-syskit-point/features/mcp-server',
+            'ai-in-syskit-point/features/workspace-summaries',
+            'ai-in-syskit-point/features/permission-anomaly-reports',
+            'ai-in-syskit-point/features/sensitivity-label-recommendations',
+            'ai-in-syskit-point/features/naming-recommendations',
+          ],
+        },
+      ],
+    },
+    {
+      type: 'category',
       label: 'Storage Management',
       link: {
         type: 'doc',
