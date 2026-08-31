@@ -63,6 +63,9 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           showLastUpdateTime: true,
           showLastUpdateAuthor: false,
+          admonitions: {
+            keywords: ['note', 'tip', 'info', 'warning', 'danger', 'video'],
+          },
           // Remove this to remove the "edit this page" links.
           //editUrl:
             //'https://github.com/SysKitTeam/docs-point',
