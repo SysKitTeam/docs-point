@@ -49,7 +49,7 @@ The **MCP Server is read-and-report** only: it **delivers findings and report re
 
 :::
 
-## Connect your AI tool
+## Connect Your AI Tool
 
 To connect you AI tool, you'll need the endpoint URL and a credential from your Point admin. 
 
@@ -61,12 +61,12 @@ The **configuration snippets (1)** are located in **Settings** > **Integrations*
 
 ![MCP Server - Configuration Snippets](../../../static/img/mcp-server-connect-config-snippets.png)
 
-## Manage access
+## Manage Access
 
 * **Rotate credentials:** create a new credential, update the client tool, revoke the old one.
 * **Revoke a credential:** takes effect immediately; the tool's next request fails with an authentication error.
 * **Disable the server:** turns off all MCP access at once without deleting registered credentials.
 
-## Early Access status
+## Early Access Status
 
 The **MCP Server is in Early Access and under active development**. If a query fails or returns unexpected results, share it when the product team reaches out for feedback. **MCP feedback is a top priority** right now.

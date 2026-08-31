@@ -32,17 +32,23 @@ Because steps 2 and 4 happen in your ticketing system, you stay in full control 
 In Syskit Point, go to **Settings** > **Integrations** > **Ticketing (1)**.
 
 * **Click Add Connection (2)** and pick your ticketing system. 
-  * In this example, for the sake of the screenshots we are using Jira Service Management. 
-  * The connection setup and requirements is explained in-app on the right side of the screen for every connection. 
+* You can also complete the following actions:
+  * **Click disable (3)** to disable a connection.
+  * **Click enable (4)** to enable a connection that has been disabled. 
+  * **Click the edit icon (5)** to change the details for this connection.
+  * **Click the delete icon (6)** to erase the created connection from the list.
+
+![Ticketing - Add Connection](../../../static/img/ticketing-integrations-add-connection.png)
+
+In this example, for the sake of the screenshots we are using Jira Service Management. 
+  * The connection setup and requirements are explained in-app on the right side of the screen for every connection. 
     * **Follow the steps shown for your platform.**
 
-![Ticketing - Add Connection](../../../static/img/point-assistant-ai.png)
+![Ticketing - Jira - General](../../../static/img/ticketing-integrations-jira.png)
 
-![Ticketing - Jira - General](../../../static/img/point-assistant-ai.png)
+![Ticketing - Jira - Ticketing Setup](../../../static/img/ticketing-integrations-jira-setup.png)
 
-![Ticketing - Jira - Ticketing Setup](../../../static/img/point-assistant-ai.png)
-
-![Ticketing - Jira - Callback](../../../static/img/point-assistant-ai.png)
+![Ticketing - Jira - Callback](../../../static/img/ticketing-integrations-jira-callback.png)
 
 There is also an **Custom / Other** option you can use to integrate ticketing platforms we currently don't have a native connection with.
 
@@ -57,6 +63,6 @@ There is also an **Custom / Other** option you can use to integrate ticketing pl
 :::
 
 
-## Data handling
+## Data Handling
 
-Point processes the ticket content it receives (to understand the question) and returns an answer. Ticket content is processed under the same rules as all LLM features in Point — within your Azure boundary, never used to train the foundation models. Details are in [AI Data Privacy & Security](../ai-data-privacy-and-security.md).
+Syskit Point processes the ticket content it receives (to understand the question) and returns an answer. Ticket content is processed under the same rules as all LLM features in Point - within your Azure boundary, never used to train the foundation models. You can find more details in the [AI Data Privacy & Security](../ai-data-privacy-and-security.md) article.
