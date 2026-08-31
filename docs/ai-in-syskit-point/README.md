@@ -2,7 +2,7 @@
 description: AI in Syskit Point turns your Microsoft 365 governance data into faster answers and clearer priorities, with features that are off by default and keep your data in your boundary.
 ---
 
-# AI in Syskit Point
+# Syskit Point AI
 
 import DocCardList from '@theme/DocCardList';
 

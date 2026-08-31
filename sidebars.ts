@@ -622,7 +622,6 @@ const sidebars: SidebarsConfig = {
             'ai-in-syskit-point/features/ticketing-integrations',
             'ai-in-syskit-point/features/mcp-server',
             'ai-in-syskit-point/features/workspace-summaries',
-            'ai-in-syskit-point/features/permission-anomaly-reports',
             'ai-in-syskit-point/features/sensitivity-label-recommendations',
             'ai-in-syskit-point/features/naming-recommendations',
           ],
