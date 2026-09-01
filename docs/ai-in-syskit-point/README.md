@@ -31,7 +31,6 @@ For full details, see [AI Data Privacy & Security](ai-data-privacy-and-security.
 | [Syskit Point MCP Server](features/mcp-server.md) | Connect your own AI tools and agents to Syskit Point data | LLM | Yes |
 | [Workspace Summaries](features/workspace-summaries.md) | One-click plain-language health summary of any workspace | LLM | Yes |
 | [Naming Recommendations](features/naming-recommendations.md) | Suggests names for provisioning templates and policies | LLM | Yes |
-
 | [Sensitivity Label Recommendations](features/sensitivity-label-recommendations.md) | Recommends labels for unlabeled workspaces and flags labels that look wrong | Machine learning (no LLM) | No |
 
 :::info

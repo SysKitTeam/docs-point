@@ -47,7 +47,7 @@ To enable AI features:
 * Allow AI to make changes in your environment.
   * AI features only deliver findings and recommendations.
 
-The [Sensitivity Label Recommendations](features/sensitivity-label-recommendations.md) report uses machine learning with no LLM involved. Is is part of Syskit Point's standard functionality and are not controlled by the Point AI setting.
+The [Sensitivity Label Recommendations](features/sensitivity-label-recommendations.md) report uses machine learning with no LLM involved. It is part of Syskit Point's standard functionality and are not controlled by the Point AI setting.
 
 ## Disable Point AI
 
