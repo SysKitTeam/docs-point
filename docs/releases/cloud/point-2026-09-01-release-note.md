@@ -16,7 +16,7 @@ description: This article lists new features, improvements, and bug fixes in the
 
 * **Syskit Point AI is now available in Early Access.** 
   * Syskit Point now uses AI to turn your governance data into faster answers and clearer priorities.
-  * Features that use large language models are off by default and must be enabled by a Syskit Point admin, while the new machine learning report is available to everyone with no setup. 
+  * Features that use large language models are off by default and must be enabled by a Syskit Point admin, while the new machine learning-supported report is available to everyone with no setup. 
   * [Explore what Syskit Point AI can do in this section.](../../ai-in-syskit-point/)
 
 ## Improvements & Bug Fixes
