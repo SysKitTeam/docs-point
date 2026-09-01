@@ -601,7 +601,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'AI in Syskit Point',
+      label: 'Syskit Point AI',
       link: {
         type: 'doc',
         id: 'ai-in-syskit-point/README',
@@ -612,7 +612,7 @@ const sidebars: SidebarsConfig = {
         'ai-in-syskit-point/enable-ai-features',
         {
           type: 'category',
-          label: 'AI Features',
+          label: 'Syskit Point AI',
           link: {
             type: 'doc',
             id: 'ai-in-syskit-point/features/README',
