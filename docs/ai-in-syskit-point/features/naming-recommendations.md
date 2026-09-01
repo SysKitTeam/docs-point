@@ -6,7 +6,7 @@ description: Naming Recommendations suggest clear, descriptive names for provisi
 
 :::info
 
-****This feature uses LLM functionality which means admin opt-in required.** It is off by default; processing runs through Microsoft Foundry (Azure-hosted models) in your selected Azure region, and your data is never used to train the foundation models. Take a look at the [AI Data Privacy & Security](../ai-data-privacy-and-security.md) and [Enable AI features](../enable-ai-features.md) articles for more details.
+**This feature uses LLM functionality which means admin opt-in required.** It is off by default; processing runs through Microsoft Foundry (Azure-hosted models) in your selected Azure region, and your data is never used to train the foundation models. Take a look at the [AI Data Privacy & Security](../ai-data-privacy-and-security.md) and [Enable AI features](../enable-ai-features.md) articles for more details.
 
 :::
 
@@ -24,8 +24,9 @@ Naming Recommendations remove that moment. As you create a provisioning template
 
 ![Provisioning - AI Naming Recommendation](../../../static/img/naming-recommendations-provisioning.png)
 
-## Good to know
-
+:::info
+**Please note:**
 * Suggestions are based on the template or policy configuration — not on tenant content.
 * This feature is intentionally small. It exists to speed up admin workflows, and that's it.
-* Available for: **[to be confirmed — provisioning templates, governance policies, others?]**.
+
+:::

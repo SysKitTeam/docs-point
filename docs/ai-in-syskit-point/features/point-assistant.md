@@ -6,13 +6,13 @@ description: Point Assistant lets you ask everyday governance questions in plain
 
 :::info
 
-****This feature uses LLM functionality which means admin opt-in required.** It is off by default; processing runs through Microsoft Foundry (Azure-hosted models) in your selected Azure region, and your data is never used to train the foundation models. Take a look at the [AI Data Privacy & Security](../ai-data-privacy-and-security.md) and [Enable AI features](../enable-ai-features.md) articles for more details.
+**This feature uses LLM functionality which means admin opt-in required.** It is off by default; processing runs through Microsoft Foundry (Azure-hosted models) in your selected Azure region, and your data is never used to train the foundation models. Take a look at the [AI Data Privacy & Security](../ai-data-privacy-and-security.md) and [Enable AI features](../enable-ai-features.md) articles for more details.
 
 :::
 
 **Point Assistant lets you ask everyday governance questions in plain language** - who has access to what, why a user is risky, what an account has been doing — without knowing which of dozens of reports to run or where each setting lives.
 
-The Assistant answers from Syskit Point's own data: audit logs, users, workspaces, permissions, and reports. It turns "go dig through dashboards" into a conversation.
+The Assistant answers from Syskit Point's own data: audit logs, users, workspaces, permissions, and reports. It turns "go look through dashboards" into a conversation.
 
 ## Requirements
 

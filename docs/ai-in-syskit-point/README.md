@@ -31,12 +31,12 @@ For full details, see [AI Data Privacy & Security](ai-data-privacy-and-security.
 | [Syskit Point MCP Server](features/mcp-server.md) | Connect your own AI tools and agents to Syskit Point data | LLM | Yes |
 | [Workspace Summaries](features/workspace-summaries.md) | One-click plain-language health summary of any workspace | LLM | Yes |
 | [Naming Recommendations](features/naming-recommendations.md) | Suggests names for provisioning templates and policies | LLM | Yes |
-| [Permission Anomaly Reports](features/permission-anomaly-reports.md) | Flags genuinely abnormal access using statistical and ML analysis | Machine learning (no LLM) | No |
+
 | [Sensitivity Label Recommendations](features/sensitivity-label-recommendations.md) | Recommends labels for unlabeled workspaces and flags labels that look wrong | Machine learning (no LLM) | No |
 
 :::info
 
-**Please note:** Machine learning features (Permission Anomaly Reports, Sensitivity Label Recommendations) do not use LLMs and do not require the AI toggle. They analyze your data with statistical models inside Syskit Point, the same way other Point reports do.
+**Please note:** Machine learning features (Sensitivity Label Recommendations) do not use LLMs and do not require the AI toggle. They analyze your data with statistical models inside Syskit Point, the same way other Point reports do.
 
 :::
 

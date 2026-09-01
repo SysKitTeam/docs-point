@@ -24,8 +24,8 @@ The use of AI features is governed by the [Syskit AI Terms](https://www.syskit.c
     * See *Is prompt and response data retained?* below and the [Syskit AI Terms](https://www.syskit.com/legal/ai-terms).
 
 * **Machine learning features involve no LLM.** 
-  * Permission Anomaly Reports and Sensitivity Label Recommendations use statistical and machine learning analysis that runs entirely within Syskit Point, with no LLM involved. 
-  * They do not require the AI toggle and are governed by the same data handling as Syskit Point's standard reports.
+  * Sensitivity Label Recommendations use statistical and machine learning analysis that runs entirely within Syskit Point, with no LLM involved. 
+  * It does not require the AI toggle and is governed by the same data handling as Syskit Point's standard reports.
 
 ## AI features and Data Access
 
@@ -49,11 +49,11 @@ AI features in Syskit Point **deliver findings and recommendations**.
 
 **Which AI models are used, and where does processing happen?** 
 
-LLM features run through Microsoft Foundry (Azure-hosted models) in the Azure region your organization selects. Machine learning features (Permission Anomaly Reports, Sensitivity Label Recommendations) run entirely within Syskit Point with no LLM involved.
+LLM features run through Microsoft Foundry (Azure-hosted models) in the Azure region your organization selects. Machine learning features (Sensitivity Label Recommendations) run entirely within Syskit Point with no LLM involved.
 
 **Which features involve an LLM?** 
 
-Point Assistant, Ticketing Integrations, Syskit Point MCP Server, Workspace Summaries, and Naming Recommendations use an LLM and require opt-in. Permission Anomaly Reports and Sensitivity Label Recommendations are machine learning only - no LLM, no toggle.
+Point Assistant, Ticketing Integrations, Syskit Point MCP Server, Workspace Summaries, and Naming Recommendations use an LLM and require opt-in. The Sensitivity Label Recommendations report is machine learning only - no LLM, no toggle.
 
 **Does enabling AI give Syskit Point access to more of our data?** 
 
@@ -93,8 +93,4 @@ Prompts, yes; responses, no. When you use the Point Assistant, we collect the pr
 
 **Responses are not retained.** We never use your prompts or their responses to train the foundation models that power Point's AI features. Full details are in the [Syskit AI Terms](https://www.syskit.com/legal/ai-terms).
 
-:::warning
 
-**To be confirmed before publishing:** the exact Azure region-selection mechanics and the list of supported regions.
-
-:::

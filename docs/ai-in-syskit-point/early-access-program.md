@@ -14,7 +14,7 @@ This page explains what's included, how to opt in, and what to expect.
   * Early Access is a public preview, no invitation or sign-up process. Any Syskit Point Cloud customer can opt in by [enabling AI features](enable-ai-features.md) in Settings.
 
 * **All AI features are included from the start.** 
-  * Opting in gives you the complete set: Point Assistant, Ticketing Integrations, Syskit Point MCP Server, Workspace Summaries, and Naming Recommendations, plus the machine learning features (Permission Anomaly Reports, Sensitivity Label Recommendations), which are part of standard functionality and need no opt-in.
+  * Opting in gives you the complete set: Point Assistant, Ticketing Integrations, Syskit Point MCP Server, Workspace Summaries, and Naming Recommendations, plus the machine learning features (Sensitivity Label Recommendations), which are part of standard functionality and need no opt-in.
 
 * **Free during Early Access.** 
   * AI features are included at no additional cost during the Early Access period.
