@@ -128,6 +128,7 @@ const config: Config = {
           'access-management/**',
           'microsoft365-inventory/**',
           'reporting/**',
+          'ai-in-syskit-point/**',
           'storage-management/**',
           'point-collaborators/**',
           'power-platform/**',
