@@ -22,8 +22,7 @@ Below, storage usage and total storage numbers are displayed (in TB).
 ### Microsoft 
 
 Microsoft calculates the storage usage as a sum of the following components:
-* Active sites - All files, lists, libraries, and metadata
-* Soft deleted sites - Both the first-stage and second-stage recycle bin count toward used storage
+* Active sites - All non-archived files on active sites
 * Read-only sites - The state of a site that was In-place Archived in Syskit Point
 
 **Archive storage used is displayed separately on the Archived Sites screen, in the upper-right corner**.
