@@ -37,14 +37,14 @@ Now that we've covered how to begin utilizing your storage management within Sys
 The [Storage Metrics report](../storage-management/storage-reports.md#storage-metrics) is available in the latest Syskit Point version and helps you:
 
 * **Get an overview of your tenant storage** with insight into:
-  * **The percentage of used storage in your tenant (1)** 
+  * **The percentage of active storage in your tenant (1)** 
   * **The version limit (2)** for the workspace, if one is applied
   * If activated, **the size of your Microsoft 365 Archive storage (3)**, with details on how much is spent of archived sites compared to archived files
 * **See the Potential Savings for how much storage you can save** by:
   * Cleaning up **Inactive Workspaces (4)**
   * Cleaning up **file versions older than (5)** X months 
   * Cleaning up **everything but the last (6)** X number of file versions 
-* **Observe the trend of your storage usage over time (7)**
+* **Observe the trend of your active and archived storage usage over time (7)**
 
 You can also find important storage-related information for the largest sites in the **columns(8)** for the report:
 * **Name** - the name of the workspace
@@ -55,7 +55,6 @@ You can also find important storage-related information for the largest sites in
 * **Storage Limit**
     * Storage limit defined per site
     * By default, set in SharePoint to 25TB if not otherwise defined manually for the observed site; 25TB represents the pool of total available storage, although the actual size of available storage can be smaller, depending on the number of purchased licenses
-    * Storage Limit for soft deleted sites is set to = KB
 * **% of Limit** - shows the percentage of the site's size in the defined site storage limit
 * **Alert on % of Limit** - shows the site's defined percentage limit when email notifications are sent to owners
 * **Last Activity** - shows the date and time of the site's last activity

@@ -150,7 +150,7 @@ You can access your archived files by following these steps:
 **Please note**: 
 * After reactivating the file, it can take up to 24 hours for the file to become active, with the state of the file marked as Reactivating until then. 
 * There is no reactivation fee when reactivating archived files.
-* Files that are reactivated cannot be archived again for 30 days.
+* Files that are reactivated cannot be archived again for 120 days.
 
 :::
 

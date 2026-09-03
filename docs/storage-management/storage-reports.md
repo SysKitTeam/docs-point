@@ -33,8 +33,8 @@ This report lets you check if you are at risk of running out of storage. You can
 
 Once the report is generated successfully, the following information is available:
 
-* **The Tenant Storage tile** on the left side shows:
-  * **The percentage of used storage** out of the total available storage for your tenant.
+* **The SharePoint Storage tile** on the left side shows:
+  * **The percentage of active storage** out of the total available storage for your tenant.
   * **The version limit** for the workspace, if one is applied.
   * If activated, **the size of your Microsoft 365 Archive storage**, with details on how much is spent of archived sites compared to archived files 
 
@@ -47,7 +47,7 @@ Once the report is generated successfully, the following information is availabl
   * Cleaning up **everything but the last** X number of file versions
   * You can **set your values for X** through Settings > Storage Management, which you can quickly access by **clicking the Settings button in the top right corner of the tile**
 
-* **The Storage Trend chart** shows a graph that depicts your storage usage across time, with the ability to select your own time frame to view storage in the last: 
+* **The Storage Trend chart** shows a graph that depicts your active storage, archived files and archived sites usage across time, with the ability to select your own time frame to view storage in the last: 
   * 180 days
   * 1 year
   * 2 years
@@ -61,7 +61,7 @@ The following data will be displayed in the columns:
 * **Last 180 Days**; shows the storage trend for a site during this period along with an arrow that signifies the growth or reduction. Hovering above it gives you a percentage of how much.
   * By default, the Last 180 Days column is shown on the report, but the following views are also available: **Largest Growth in last 7 days, Largest Growth in last 30 days, Largest Growth in last 90 days**, and **Stale Files - Potential Savings**.
 * **State**; show the state of the site, whether it is active, archived, or other.
-  * Keep in mind that soft deleted and archived sites also count towards your storage usage until they are permanently deleted.
+  * Keep in mind that sites archived via In-place Archive still count towards your active storage usage. Sites archived via Microsoft 365 Archive no longer consume your active storage quota and are billed separately.
 * **Storage Limit**; show the storage limit for the site.
 * **% of Limit**; shows the percentage of how close to the storage limit your site is.
 * **Alert on % of Limit**; shows the percentage at which you are alerted of being close to your storage limit.
@@ -99,19 +99,19 @@ Once the Site Storage Metrics report is clicked, the Selection step opens, with 
 * **URL**; shows the URL for the workspace
 * **Primary Admin**; shows who the primary admin is of the workspace
 * **Last Modified**; shows when the workspace was last modified
-* **Storage Usage**; shows the current usage of the workspace
+* **Storage Used**; shows the current used storage of the workspace
 * **Storage Limit**; shows the storage limit for the workspace
 * **Storage Warning Level**; shows the storage level at which you are warned that you are approaching the limit
 
-**Clicking on a workspace** enables the Run Report button. Click it to generate the Site Storage Metrics report for that specific workspace.
+**Clicking on a workspace** generates the Site Storage Metrics report for that specific workspace.
 
 ### Report Data
 
 On the Site Storage Metrics report for the individual workspace, the following information can be found:
 
 * **The Site Storage Usage tile** with the **name of the workspace** shows: 
-  * **The percentage of used storage** and archived storage (if you have Microsoft 365 Archive), out of the total amount of available storage for your workspace.
-  * **The version limit** for the workspace, if one is applied
+  * **The amount of used storage** shown as active, archived and available storage (if you have Microsoft 365 Archive), out of the total amount of available storage for your workspace.
+  * **The version limit** for the workspace, if one is applied.
 
 * **The File Type tile** shows a chart and list of the types of files on your site and the amount of storage each file takes up.
   * The File types tracked are the following:
@@ -123,7 +123,7 @@ On the Site Storage Metrics report for the individual workspace, the following i
 * **The Storage Optimization Opportunities tile** shows the amount of space you can free up by cleaning up the outdated versions of the site, including a Stale Files section that shows you can **Archive up to X GB** based on the files classified as stale by your [Stale Files policies](../governance-and-automation/stale-files/stale-files-admin.md). 
   * Clicking **Archive** lets you archive all the stale files on the workspace. [For more details on archiving stale files, take a look at this article.](../storage-management/free-up-storage.md#archive-stale-files)
 
-* **The Site Trend chart** shows a graph that depicts your site storage usage across time, with the ability to select your own time frame to view site storage in the last: 
+* **The Site Trend chart** shows a graph that depicts your active and archived site storage usage across time, with the ability to select your own time frame to view site storage in the last: 
   * 180 days
   * 1 year
   * 2 years

@@ -37,17 +37,16 @@ Microsoft excludes sites archived via M365 Archive from the used storage numbers
 
 ### Syskit Point
 
-Syskit Point calculates used storage as a sum of the storage used by each site collection, which includes sites in the following states:
+Syskit Point calculates active storage as a sum of the storage used by each site collection, which includes sites in the following states:
 * Active sites - All files, lists, libraries, and metadata
 * Read-only sites - The state of a site that was In-place Archived in Syskit Point
-* Soft deleted - Both the first-stage and second-stage recycle bin count toward used storage
-* **M365 Archived** - **Sites archived via M365 Archive are calculated in the used storage by Syskit Point**
+* **M365 Archived** - **Sites archived via M365 Archive do not count toward the active storage quota**
 
 :::warning
 **Please note!**   
 Please note! 
 Permanently deleted sites no longer contribute to the total storage used.
-Syskit Point calculates the M365 archived data in the used storage numbers, as exceeding your standard storage quota results in additional charges, although archiving the data can reduce these charges.
+When data is archived via M365 Archive, it no longer consumes your tenant's active storage quota. Instead, archived data incurs costs only if your total storage (active and archived) exceeds your licensed quota. Archiving helps reduce overall storage costs by moving inactive data to a lower-cost tier.
 For more information about billing scenarios, navigate to the [following article](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-pricing?view=o365-worldwide#billing-scenarios).
 :::
 

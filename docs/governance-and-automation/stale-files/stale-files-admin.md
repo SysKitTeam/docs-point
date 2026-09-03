@@ -11,7 +11,7 @@ description: This article explains how to configure Stale Files policies in Sysk
 :::
 
 Stale files affect your tenant in two ways: 
- * They **consume active SharePoint storage quota**, which increases your Microsoft 365 storage costs, and
+ * They **consume active SharePoint storage quota** until they are archived, which increases your Microsoft 365 storage costs, and
  * They **hurt Copilot readiness**, since Microsoft 365 Copilot bases its answers on your tenant's content, and outdated files used in AI responses can mislead users.
 
 The **Stale Files policies** let you define what "stale" means for different parts of your Microsoft 365 tenant, making it easier to archive unnecessary files. Instead of one broad rule, admins can set up policies with varying criteria to detect the right content for cleanup. These policies show you how much stale content exists across the tenant and where it can be found before you take action.
