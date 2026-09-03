@@ -117,11 +117,11 @@ However, when editing an active policy, the Overview step includes a **More Deta
 
 Once your Stale Files policies are configured and your files have been assessed against the applied policies, stale content information can be found in the following ways: 
 
-* On the **Dashboard**, the **Storage tile** has the **Archive Opportunities** section, which shows how much storage across your tenant is currently classified as stale and can be freed if stale files are archived.
+* On the **Dashboard**, the **Storage tile** has the **Archive Opportunities** section, which shows how much storage across your tenant is currently classified as stale and can be moved out of active storage if stale files are archived.
   * Clicking the Optimize Storage button on the Storage tile, opens the [Storage Metrics report](../../storage-management/storage-reports.md).
-    * On the **Potential Savings** tile, clicking Stale Files opens the **Stale Files - Potential Savings** view for the report where you can see which workspaces hold the most stale content and how much storage archiving stale files could reclaim on each.
+    * On the **Potential Savings** tile, clicking Stale Files opens the **Stale Files - Potential Savings** view for the report where you can see which workspaces hold the most stale content and how much storage archiving stale files could move out of active storage on each.
 * **Selecting a specific workspace in the [Site Storage Metrics report](../../storage-management/storage-reports.md#site-storage-metrics)** and selecting the **Stale Files** view for the report. 
-  * This lists the individual files classified as stale on that workspace, and the **Archive up to X GB** section of the Storage Optimization Opportunities tile shows the total that can be reclaimed.
+  * This lists the individual files classified as stale on that workspace, and the **Archive up to X GB** section of the Storage Optimization Opportunities tile shows the total that can be moved out of active storage.
 
 From there, you have two options for what to do with the stale files you found:
 

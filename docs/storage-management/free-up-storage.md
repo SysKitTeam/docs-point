@@ -26,6 +26,7 @@ In Syskit Point, there are several ways to free up space and complete the cleanu
 * [Clean Up Action on Storage Metrics report](#clean-up-action-on-site-storage-metrics-report)
 * [Clean Up Action on Site Storage Metrics report](#clean-up-action-on-site-storage-metrics-report)
 * [Clean Up Action on File Storage Details report](#clean-up-action-on-file-storage-details-report)
+* [How Deleting and Archiving Affect Storage](#how-deleting-and-archiving-affect-storage)
 
 
 :::info
@@ -82,6 +83,7 @@ Archived files are not removed from SharePoint; they remain visible in the docum
 When a file is archived, it:
 * Is moved to a cold storage tier within SharePoint
 * No longer consumes active SharePoint storage quota
+* Still counts towards the site's Size and storage limit, even though it no longer counts towards your tenant's active storage quota
 * Retains metadata, permissions, and compliance policies
 
 You can archive a file by following these steps:
@@ -287,3 +289,14 @@ From there:
 
 You can also manage storage directly from SharePoint by clicking the **link in the Storage Metrics URL column**. 
   * The SharePoint site-specific Storage Metrics report opens in your browser.
+
+
+## How Deleting and Archiving Affect Storage
+
+Deleting and archiving affect your storage differently. Deleting removes content to free up space, while archiving keeps your content available but moves it out of your active storage.
+
+| Action | What happens to the content | Effect on your active storage | Effect on the site's Size and % of Limit |
+|---|---|---|---|
+| **Delete a site** | The site is kept in the site collection recycle bin, then permanently deleted | Stops counting towards your active storage once the deletion is processed, which can take up to around 48 hours | Not applicable once the site is removed |
+| **Delete files** | Files are sent to the site's recycle bin, then permanently removed once it is emptied or the retention period expires | Freed once the files leave the recycle bin; while they stay in the recycle bin they still consume storage | Reduced once the files are permanently removed |
+| **Archive files** | Files stay in the document library in cold storage and must be reactivated before they can be opened | No longer counts towards your active storage quota | Unchanged — archived files still count towards the site's Size and % of Limit |

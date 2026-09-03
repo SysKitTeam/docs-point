@@ -34,9 +34,11 @@ This report lets you check if you are at risk of running out of storage. You can
 Once the report is generated successfully, the following information is available:
 
 * **The SharePoint Storage tile** on the left side shows:
-  * **The percentage of active storage** out of the total available storage for your tenant.
+  * **The percentage of active storage** out of your active storage quota.
   * **The version limit** for the workspace, if one is applied.
   * If activated, **the size of your Microsoft 365 Archive storage**, with details on how much is spent of archived sites compared to archived files 
+    * Sites archived via In-place Archival (Read-only) are not included in this figure; they still count towards your active storage. For the differences between the two methods, see the [SharePoint site archival options](../governance-and-automation/automated-workflows/inactive-workspaces-admin.md#sharepoint-site-archival-options).
+    * The size reported for an archived site is not fixed; it can decrease over time even without reactivation, for example as items in its recycle bin expire or retention policies remove content.
 
 * **The Potential Savings tile shows how much storage you can save** by:
   * Archiving **Inactive Workspaces**
@@ -52,6 +54,7 @@ Once the report is generated successfully, the following information is availabl
   * 1 year
   * 2 years
   * Custom period
+  * The division into active storage, archived files, and archived sites is shown only for dates after Syskit Point started collecting archive data in your environment; for earlier dates, the chart shows your total storage
 
 The following data will be displayed in the columns:
 
@@ -61,9 +64,10 @@ The following data will be displayed in the columns:
 * **Last 180 Days**; shows the storage trend for a site during this period along with an arrow that signifies the growth or reduction. Hovering above it gives you a percentage of how much.
   * By default, the Last 180 Days column is shown on the report, but the following views are also available: **Largest Growth in last 7 days, Largest Growth in last 30 days, Largest Growth in last 90 days**, and **Stale Files - Potential Savings**.
 * **State**; show the state of the site, whether it is active, archived, or other.
-  * Keep in mind that sites archived via In-place Archive still count towards your active storage usage. Sites archived via Microsoft 365 Archive no longer consume your active storage quota and are billed separately.
+  * Keep in mind that sites archived via In-place Archive still count towards your active storage usage. Sites archived via Microsoft 365 Archive no longer consume your active storage quota; this archived data incurs costs only if your total storage (active and archived) exceeds your licensed quota.
 * **Storage Limit**; show the storage limit for the site.
 * **% of Limit**; shows the percentage of how close to the storage limit your site is.
+  * Files archived within a site via Microsoft 365 Archive still count towards the site's Size and % of Limit, even though they no longer count towards your tenant's active storage quota.
 * **Alert on % of Limit**; shows the percentage at which you are alerted of being close to your storage limit.
 * **Last Activity**; shows the date the last activity on the site happened.
 * **Version Limit**; shows the version limit applied to the workspace.

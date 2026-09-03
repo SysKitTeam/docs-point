@@ -10,9 +10,9 @@ description: This article explains how to manage and free up your storage on Sha
 
 Here's why you should maintain an active approach to your Storage Management:
 
-  * **Your monthly expenses are directly linked** to the efficiency of your storage management, particularly within SharePoint sites connected to your organization's purchased licenses.
-  * When you run out of storage for your SharePoint sites, depending on your plan, you would have to use the Office 365 Extra File Storage add-on to **buy more storage** in 1GB increments. 
- * **The best thing you can do to avoid additional costs is to clean up your storage proactively** and use tools that are available to manage and optimize the usage of your storage.
+ * **Your monthly expenses are directly linked** to the efficiency of your storage management, particularly within SharePoint sites connected to your organization's purchased licenses.
+ * When you run out of storage for your SharePoint sites, depending on your plan, you would have to use the Office 365 Extra File Storage add-on to **buy more storage** in 1GB increments. 
+ * **The best thing you can do to avoid additional costs is to clean up or archive your storage proactively** and use tools that are available to manage and optimize the usage of your storage.
 
 [For more details about site storage limits, take a look at this article.](../faq/site-storage-limits.md)
 
@@ -45,6 +45,7 @@ The [Storage Metrics report](../storage-management/storage-reports.md#storage-me
   * Cleaning up **file versions older than (5)** X months 
   * Cleaning up **everything but the last (6)** X number of file versions 
 * **Observe the trend of your active and archived storage usage over time (7)**
+  * The split into active storage, archived files, and archived sites is shown only for dates after Syskit Point started collecting archive data in your environment; for earlier dates, the trend shows your total storage
 
 You can also find important storage-related information for the largest sites in the **columns(8)** for the report:
 * **Name** - the name of the workspace
