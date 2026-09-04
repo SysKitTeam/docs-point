@@ -70,12 +70,6 @@ You can access it by following these steps:
 
 ## Archive Files
 
-:::info
-
-**Please note** that the use of this feature depends on a Microsoft 365 functionality that is currently available in Public Preview and needs to be manually enabled on your tenant. General availability is expected in July 2026. [For more details, take a look at this Microsoft article.](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-manage?view=o365-worldwide#manage-file-level-archive-preview)
-
-:::
-
 The Archive Files action lets you move inactive or unused SharePoint files to cold storage by using [Microsoft 365 Archive](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-setup?view=o365-worldwide). This helps you reduce active SharePoint storage usage while keeping files available for search, compliance, and future access. 
 
 Archived files are not removed from SharePoint; they remain visible in the document library, marked with an archive icon, and are searchable through Microsoft 365. However, the files must be **reactivated** before they can be opened and **read**. 
@@ -252,7 +246,7 @@ There are three ways to clean up the storage space across your sites.
 
   * **Selecting the site (4)**, or the files included in the site, and clicking the **Clean Up File Versions button (5)**, located on the right side of the screen under the **Manage section**. 
 
-![Site Storage Metrics Report- Clean Up File Versions](../../static/img/optimize-storage-site-storage-metrics-report-cleanup.png)
+![Site Storage Metrics Report- Clean Up File Versions](../../static/img/optimize-storage-site-storage-metrics-report-cleanup-1.png)
 
 Once you click the **Clean Up button** on the File Version Cleanup tile or the **Clean Up File Versions button** in the Manage section.
   * The **Clean Up File Versions dialog modal opens (1)** where you can **choose how many file versions to keep (2)**:

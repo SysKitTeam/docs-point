@@ -37,9 +37,10 @@ Here, you can:
 * **View the following additional information about each policy**:
   * **Policy Name (7)** - shows the name of the stale files policy
   * **Description (8)** - shows the description entered for the stale files policy
-  * **Resolution Method (9)** - shows what the resolution method for the policy is
-  * **Applied to (10)** - shows how many workspaces the policy is applied to
-  * **Manage (11)** - shows the edit and delete actions
+  * **Created By (9)** - shows who the policy was created by
+  * **Resolution Method (10)** - shows what the resolution method for the policy is
+  * **Applied to (11)** - shows how many workspaces the policy is applied to
+  * **Manage (12)** - shows the edit and delete actions
     * Clicking Edit opens the edit module, as described in the Create New Policy section below
     * Clicking Delete removes the policy from the list. This action is not available for the default policy, as it cannot be deleted.
 

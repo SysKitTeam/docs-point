@@ -40,6 +40,8 @@ The **Syskit Point** Dashboard shows Syskit Point collaborators the following in
 
 ![Dashboard tile on the Welcome Home screen](../../static/img/explore-dashboard-dashboard-tiles-on-welcome-home-screen.png)
 
+![Dashboard tile on the Welcome Home screen](../../static/img/explore-dashboard-dashboard-tiles-on-welcome-home-screen-2.png)
+
 Below, each tile is described in more detail.
 
 
@@ -98,11 +100,12 @@ This tile provides the following storage metrics:
 The **View All** link opens the **Storage Metrics report** showing tenant-wide storage usage, usage trend through time, and the largest sites in your tenant.
 
 You can also find information on:
+* Amount of current active storage and the total storage available
 * Storage Saved - how much **storage you saved**
 * Cleanup Opportunities - how much **storage you could save** 
 * Archive Opportunities - how much **storage you could reclaim by archiving stale files** across your tenant, based on your [Stale Files policies](../governance-and-automation/stale-files/stale-files-admin.md)
 
-The **Optimize Storage** link opens the [**Storage Metrics report**](../storage-management/storage-reports.md#storage-metrics), where you can select the workspaces on which you want to perform a storage clean-up or archive stale files.
+The **View All** link opens the [**Storage Metrics report**](../storage-management/storage-reports.md#storage-metrics), where you can select the workspaces on which you want to perform a storage clean-up or archive stale files.
 
 ![Storage tile ](../../static/img/dashboard-storage-tile.png)
 
