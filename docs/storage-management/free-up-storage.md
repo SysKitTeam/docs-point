@@ -26,6 +26,7 @@ In Syskit Point, there are several ways to free up space and complete the cleanu
 * [Clean Up Action on Storage Metrics report](#clean-up-action-on-site-storage-metrics-report)
 * [Clean Up Action on Site Storage Metrics report](#clean-up-action-on-site-storage-metrics-report)
 * [Clean Up Action on File Storage Details report](#clean-up-action-on-file-storage-details-report)
+* [How Deleting and Archiving Affect Storage](#how-deleting-and-archiving-affect-storage)
 
 
 :::info
@@ -69,12 +70,6 @@ You can access it by following these steps:
 
 ## Archive Files
 
-:::info
-
-**Please note** that the use of this feature depends on a Microsoft 365 functionality that is currently available in Public Preview and needs to be manually enabled on your tenant. General availability is expected in July 2026. [For more details, take a look at this Microsoft article.](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-manage?view=o365-worldwide#manage-file-level-archive-preview)
-
-:::
-
 The Archive Files action lets you move inactive or unused SharePoint files to cold storage by using [Microsoft 365 Archive](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-setup?view=o365-worldwide). This helps you reduce active SharePoint storage usage while keeping files available for search, compliance, and future access. 
 
 Archived files are not removed from SharePoint; they remain visible in the document library, marked with an archive icon, and are searchable through Microsoft 365. However, the files must be **reactivated** before they can be opened and **read**. 
@@ -82,6 +77,7 @@ Archived files are not removed from SharePoint; they remain visible in the docum
 When a file is archived, it:
 * Is moved to a cold storage tier within SharePoint
 * No longer consumes active SharePoint storage quota
+* Still counts towards the site's Size and storage limit, even though it no longer counts towards your tenant's active storage quota
 * Retains metadata, permissions, and compliance policies
 
 You can archive a file by following these steps:
@@ -150,7 +146,7 @@ You can access your archived files by following these steps:
 **Please note**: 
 * After reactivating the file, it can take up to 24 hours for the file to become active, with the state of the file marked as Reactivating until then. 
 * There is no reactivation fee when reactivating archived files.
-* Files that are reactivated cannot be archived again for 30 days.
+* Files that are reactivated cannot be archived again for 120 days.
 
 :::
 
@@ -250,7 +246,7 @@ There are three ways to clean up the storage space across your sites.
 
   * **Selecting the site (4)**, or the files included in the site, and clicking the **Clean Up File Versions button (5)**, located on the right side of the screen under the **Manage section**. 
 
-![Site Storage Metrics Report- Clean Up File Versions](../../static/img/optimize-storage-site-storage-metrics-report-cleanup.png)
+![Site Storage Metrics Report- Clean Up File Versions](../../static/img/optimize-storage-site-storage-metrics-report-cleanup-1.png)
 
 Once you click the **Clean Up button** on the File Version Cleanup tile or the **Clean Up File Versions button** in the Manage section.
   * The **Clean Up File Versions dialog modal opens (1)** where you can **choose how many file versions to keep (2)**:
@@ -287,3 +283,14 @@ From there:
 
 You can also manage storage directly from SharePoint by clicking the **link in the Storage Metrics URL column**. 
   * The SharePoint site-specific Storage Metrics report opens in your browser.
+
+
+## How Deleting and Archiving Affect Storage
+
+Deleting and archiving affect your storage differently. Deleting removes content to free up space, while archiving keeps your content available but moves it out of your active storage.
+
+| Action | What happens to the content | Effect on your active storage | Effect on the site's Size and % of Limit |
+|---|---|---|---|
+| **Delete a site** | The site is kept in the site collection recycle bin, then permanently deleted | Stops counting towards your active storage once the deletion is processed, which can take up to around 48 hours | Not applicable once the site is removed |
+| **Delete files** | Files are sent to the site's recycle bin, then permanently removed once it is emptied or the retention period expires | Freed once the files leave the recycle bin; while they stay in the recycle bin they still consume storage | Reduced once the files are permanently removed |
+| **Archive files** | Files stay in the document library in cold storage and must be reactivated before they can be opened | No longer counts towards your active storage quota | Unchanged — archived files still count towards the site's Size and % of Limit |

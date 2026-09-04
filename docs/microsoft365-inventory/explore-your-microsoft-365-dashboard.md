@@ -40,6 +40,8 @@ The **Syskit Point** Dashboard shows Syskit Point collaborators the following in
 
 ![Dashboard tile on the Welcome Home screen](../../static/img/explore-dashboard-dashboard-tiles-on-welcome-home-screen.png)
 
+![Dashboard tile on the Welcome Home screen](../../static/img/explore-dashboard-dashboard-tiles-on-welcome-home-screen-2.png)
+
 Below, each tile is described in more detail.
 
 
@@ -92,31 +94,37 @@ Each of the numbers drills to the appropriate view in the **Users Overview** scr
 This tile provides the following storage metrics:
 
 * **Total storage**
-* **Used storage**
+* **Active storage**
 * **Free storage**
 
 The **View All** link opens the **Storage Metrics report** showing tenant-wide storage usage, usage trend through time, and the largest sites in your tenant.
 
 You can also find information on:
+* Amount of current active storage and the total storage available
 * Storage Saved - how much **storage you saved**
 * Cleanup Opportunities - how much **storage you could save** 
 * Archive Opportunities - how much **storage you could reclaim by archiving stale files** across your tenant, based on your [Stale Files policies](../governance-and-automation/stale-files/stale-files-admin.md)
 
-The **Optimize Storage** link opens the [**Storage Metrics report**](../storage-management/storage-reports.md#storage-metrics), where you can select the workspaces on which you want to perform a storage clean-up or archive stale files.
+The **View All** link opens the [**Storage Metrics report**](../storage-management/storage-reports.md#storage-metrics), where you can select the workspaces on which you want to perform a storage clean-up or archive stale files.
 
 ![Storage tile ](../../static/img/dashboard-storage-tile.png)
 
 :::info
+
 **Hint!**  
-The used storage number is calculated for all files, including those in the recycle bin and archived files. OneDrive storage is not included in the metrics.
+The active storage number is calculated for all non-archived files, including those in the recycle bin. OneDrive storage is not included in the metrics. Files and sites archived via M365 Archive are shown as a separate figure and do not count toward this number.
+
 :::
+
 
 :::warning
-**Please note!**  
-Storage data displayed on the Dashboard can differ from the data provided by the **SharePoint admin center** since it doesn't include changes made within the last 24-48 hours, as described [here](https://docs.microsoft.com/en-us/sharepoint/manage-site-collection-storage-limits).
-:::
 
-[For more details on Storage Management for SharePoint Online, take a look at the Storage Management Overview article.](../storage-management/storage-management-overview.md)
+**Please note!**  
+Storage data on the Dashboard reflects Microsoft's storage numbers, which update on a delay, so it can differ from the **SharePoint admin center**. Microsoft's capacity meter does not include changes made within the last 24-48 hours, it can take around 48 hours after a site is deleted for its storage to stop counting, and the SharePoint Storage report can lag by 48-72 hours, [as described here](https://docs.microsoft.com/en-us/sharepoint/manage-site-collection-storage-limits).
+
+* [For more details on Storage Management for SharePoint Online, take a look at the Storage Management Overview article.](../storage-management/storage-management-overview.md)
+
+:::
 
 ## Security & Compliance
 
