@@ -14,9 +14,11 @@ description: This article lists new features, improvements, and bug fixes in the
 
 ## Improvements & Bug Fixes
 
-* **Improvements made to the Sync Status report view.** (#75249)
-  * Metadata columns can now be added to the **Sync Status** report through the column chooser.
-  * These columns are hidden by default, and can be selected from the column chooser.
+* **Improvements made to the Sync Status report view.** 
+  * The **Sync Status** report, located in the top right corner of Point when on the Sites Overview and Teams & Groups Overview screens, lets you review each site's sync state and trigger a manual sync.
+  * You can now **add metadata columns** to filter and sync sites by their metadata.
+    * These columns are hidden by default, and can be selected from the column chooser.
+
 
 * **Fixed an issue** where archived and deleted storage was overcounted in storage ROI calculations. (#75312)
   * An upgrade corrects the affected historical data, so the impacted categories are reset to accurate values.
