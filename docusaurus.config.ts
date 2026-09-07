@@ -1,6 +1,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import {getLlmIncludeOrder} from './src/config/llmIncludeOrder';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -117,26 +118,7 @@ const config: Config = {
           ignorePaths: ['docs'],
           addPaths: ['point'],
         },
-        includeOrder: [
-          'home.mdx',
-          'get-to-know-syskit-point/**',
-          'requirements/**',
-          'set-up-point-cloud/**',
-          'set-up-point-enterprise/**',
-          'configuration/**',
-          'governance-and-automation/**',
-          'access-management/**',
-          'microsoft365-inventory/**',
-          'reporting/**',
-          'ai-in-syskit-point/**',
-          'storage-management/**',
-          'point-collaborators/**',
-          'power-platform/**',
-          'integrations/**',
-          'licensing-activation/**',
-          'faq/**',
-          'troubleshooting/**',
-        ],
+        includeOrder: getLlmIncludeOrder(),
         customLLMFiles: [
           {
             filename: 'llms-releases.txt',

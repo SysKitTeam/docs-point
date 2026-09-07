@@ -10,9 +10,9 @@ description: This article explains how to manage and free up your storage on Sha
 
 Here's why you should maintain an active approach to your Storage Management:
 
-  * **Your monthly expenses are directly linked** to the efficiency of your storage management, particularly within SharePoint sites connected to your organization's purchased licenses.
-  * When you run out of storage for your SharePoint sites, depending on your plan, you would have to use the Office 365 Extra File Storage add-on to **buy more storage** in 1GB increments. 
- * **The best thing you can do to avoid additional costs is to clean up your storage proactively** and use tools that are available to manage and optimize the usage of your storage.
+ * **Your monthly expenses are directly linked** to the efficiency of your storage management, particularly within SharePoint sites connected to your organization's purchased licenses.
+ * When you run out of storage for your SharePoint sites, depending on your plan, you would have to use the Office 365 Extra File Storage add-on to **buy more storage** in 1GB increments. 
+ * **The best thing you can do to avoid additional costs is to clean up or archive your storage proactively** and use tools that are available to manage and optimize the usage of your storage.
 
 [For more details about site storage limits, take a look at this article.](../faq/site-storage-limits.md)
 
@@ -37,16 +37,18 @@ Now that we've covered how to begin utilizing your storage management within Sys
 The [Storage Metrics report](../storage-management/storage-reports.md#storage-metrics) is available in the latest Syskit Point version and helps you:
 
 * **Get an overview of your tenant storage** with insight into:
-  * **The percentage of used storage in your tenant (1)** 
+  * **The percentage of active storage in your tenant (1)** 
   * **The version limit (2)** for the workspace, if one is applied
   * If activated, **the size of your Microsoft 365 Archive storage (3)**, with details on how much is spent of archived sites compared to archived files
 * **See the Potential Savings for how much storage you can save** by:
   * Cleaning up **Inactive Workspaces (4)**
-  * Cleaning up **file versions older than (5)** X months 
-  * Cleaning up **everything but the last (6)** X number of file versions 
-* **Observe the trend of your storage usage over time (7)**
+  * Cleaning up **Stale Files (5)** 
+  * Cleaning up **file versions older than (6)** X months 
+  * Cleaning up **everything but the last (7)** X number of file versions 
+* **Observe the trend of your active and archived storage usage over time (8)**
+  * The split into active storage, archived files, and archived sites is shown only for dates after Syskit Point started collecting archive data in your environment; for earlier dates, the trend shows your total storage
 
-You can also find important storage-related information for the largest sites in the **columns(8)** for the report:
+You can also find important storage-related information for the largest sites in the **columns(9)** for the report:
 * **Name** - the name of the workspace
 * **Size** - storage used up by the SharePoint site
 * **Last 180 Days** - shows the storage trend for a site during this period of time along with an arrow that signifies the growth or reduction, and hovering above it gives you a percentage by how much
@@ -55,7 +57,6 @@ You can also find important storage-related information for the largest sites in
 * **Storage Limit**
     * Storage limit defined per site
     * By default, set in SharePoint to 25TB if not otherwise defined manually for the observed site; 25TB represents the pool of total available storage, although the actual size of available storage can be smaller, depending on the number of purchased licenses
-    * Storage Limit for soft deleted sites is set to = KB
 * **% of Limit** - shows the percentage of the site's size in the defined site storage limit
 * **Alert on % of Limit** - shows the site's defined percentage limit when email notifications are sent to owners
 * **Last Activity** - shows the date and time of the site's last activity
@@ -65,14 +66,14 @@ You can also find important storage-related information for the largest sites in
 * **Storage Sync Status** - shows the current status of the storage sync for the workspace
 
 Selecting one or more sites provides the following actions:
-  * **Sync now (9)** - lets you initiate a storage sync for that workspace
-  * **Change Storage Limit (10)** - lets you change the storage limit for sites
+  * **Sync now (10)** - lets you initiate a storage sync for that workspace
+  * **Change Storage Limit (11)** - lets you change the storage limit for sites
     * [For more details on how to set different storage limits, take a look at the Limit Storage Usage article.](../storage-management/limit-storage-usage.md)
-  * **Set Version Limit (11)** - lets you set up a limit on the file versions kept per site based on your settings and preference
+  * **Set Version Limit (12)** - lets you set up a limit on the file versions kept per site based on your settings and preference
     * [For more details how to set up versioning limits, take a look at the Storage Versioning Limits article.](../storage-management/versioning-limits.md)
-  * **Clean Up File Versions (12)** - lets you clean up old file versions, several file versions, all but the last file version, or entering a custom amount to keep a select number of the most recent versions
+  * **Clean Up File Versions (13)** - lets you clean up old file versions, several file versions, all but the last file version, or entering a custom amount to keep a select number of the most recent versions
     * [For more details on all of the ways you can complete the Clean Up File action, take a look at the Free Up Storage article.](../storage-management/free-up-storage.md)
-  * **Lifecycle Management actions for the workspace (13)**: Archive and Delete
+  * **Lifecycle Management actions for the workspace (14)**: Archive and Delete
 
 Once you detect the largest sites with the help of the Storage Metrics report, you can **click the name of the site** to open the site-specific Storage Metrics report.
 
