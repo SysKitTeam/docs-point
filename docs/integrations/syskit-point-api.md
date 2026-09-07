@@ -2,6 +2,8 @@
 description: This article explains how to get started with the Syskit Point API.
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 import HttpMethod from '@site/src/components/HttpMethod';
 
 # Syskit Point API
@@ -121,6 +123,14 @@ Required permission: **Point.Provisioning**
 **Please note!** To automatically approve provisioning requests created via API requests, use provisioning templates with the Approval Process property set to 'Automatically Approve'.
 :::
 
+### Governance
+
+Required permission: **Point.Admin**
+
+<table><thead><tr><th width="400">Request</th><th>Description</th></tr></thead><tbody><tr><td><HttpMethod method="POST" /> /beta/governance/metadata/update</td><td>Bulk update custom metadata on multiple SharePoint sites using a JSON request body.</td></tr><tr><td><HttpMethod method="POST" /> /beta/governance/metadata/update/upload</td><td>Bulk update custom metadata on multiple SharePoint sites using a <code>.csv</code> or <code>.json</code> file upload.</td></tr></tbody></table>
+
+For request body schemas, file formats, and the polling pattern, see [Bulk Metadata Update](syskit-point-api.md#bulk-metadata-update).
+
 ### Options
 
 Required permission: **Point.Admin**
@@ -132,6 +142,23 @@ Required permission: **Point.Admin**
 Required permission: **SharePoint.Read.All** OR **Point.AsyncRequests**
 
 <table><thead><tr><th width="342">Request</th><th>Description</th></tr></thead><tbody><tr><td><HttpMethod method="GET" /> /v1.0/requests/&#123;requestId&#125;/status</td><td>Get the status of a request with the specified request ID.</td></tr><tr><td><HttpMethod method="GET" /> /v1.0/requests/&#123;requestId&#125;/result</td><td>Get the result of a request with the specified request ID.</td></tr></tbody></table>
+
+While a request has `Status = InProgress`, the status response may include an optional `progress` object that reports how far a long-running job has advanced:
+
+<Tabs>
+<TabItem value="in-progress" label="InProgress">
+```json
+{
+  "progress": {
+    "processedSites": 3500,
+    "totalSites": 10000
+  }
+}
+```
+</TabItem>
+</Tabs>
+
+The `progress` field is **omitted from the payload** (not returned as `null`) when progress information is not available for the request.
 
 ## Fetch the `access_token`
 
@@ -170,6 +197,153 @@ Click Send and wait for the response.
 The provided example is shown in the image below:
 
 ![GET Request to Syskit Point](../../static/img/syskit-point-api-get-request.png)
+
+## Bulk Metadata Update
+
+The Governance endpoints allow you to apply custom metadata across many SharePoint sites in a single asynchronous request, instead of updating each workspace individually.
+
+:::warning
+**Please note!**\
+The application used to run bulk metadata updates needs to have the `Point.Admin` app role.
+:::
+
+You can submit an update in two ways:
+
+* **Using a JSON request body**
+* **Using a `.csv` or `.json` file upload**
+
+Both requests return a `202 Accepted` response with a `RequestStatus`. Use the returned request ID to poll for progress and results, as described in [Poll for Status and Result](syskit-point-api.md#poll-for-status-and-result).
+
+### Update Metadata Using a JSON Body
+
+To update metadata using a JSON request body, use the following POST request:
+
+<HttpMethod method="POST" /> &#123;&#123;pointWebAppUrl&#125;&#125;/beta/governance/metadata/update
+
+#### Headers
+
+| Name          | Value              |
+| ------------- | ------------------ |
+| Content-Type  | `application/json` |
+| Authorization | `Bearer <token>`   |
+
+**Body**
+
+| Name       | Type  | Description                                                               |
+| ---------- | ----- | ------------------------------------------------------------------------ |
+| `siteUrls` | array | URLs of the SharePoint sites to update.                                  |
+| `metadata` | array | Metadata definitions to apply, each as a `name` and `value` pair.        |
+
+<Tabs>
+<TabItem value="example" label="Example">
+
+```json
+{
+  "siteUrls": ["https://contoso.sharepoint.com/sites/finance"],
+  "metadata": [{ "name": "Department", "value": "Finance" }]
+}
+```
+
+</TabItem>
+</Tabs>
+
+### Update Metadata Using a File Upload
+
+To update metadata using a file, use the following POST request with a `multipart/form-data` body that contains a single `.csv` or `.json` file:
+
+<HttpMethod method="POST" /> &#123;&#123;pointWebAppUrl&#125;&#125;/beta/governance/metadata/update/upload
+
+#### Headers
+
+| Name          | Value                   |
+| ------------- | ----------------------- |
+| Content-Type  | `multipart/form-data`   |
+| Authorization | `Bearer <token>`        |
+
+**CSV file format**
+
+When uploading a `.csv` file, follow these rules:
+
+* The **first column header** must be `SiteUrl` (case-insensitive).
+* Each **subsequent column header** is the name of a custom metadata definition, and each cell holds the value to apply to that site.
+* An **empty cell** skips that metadata field for that row.
+
+<Tabs>
+<TabItem value="csv" label="Sample CSV">
+
+```csv
+SiteUrl,Department,CostCenter,DataOwner
+https://contoso.sharepoint.com/sites/finance,Finance,CC-1001,Jane Doe
+https://contoso.sharepoint.com/sites/hr,HR,CC-2002,John Smith
+https://contoso.sharepoint.com/sites/legal,Legal,,Ana Kelly
+```
+
+</TabItem>
+</Tabs>
+
+**JSON file format**
+
+When uploading a `.json` file, use the same schema as the JSON request body and send it as the file part of the request.
+
+<Tabs>
+<TabItem value="json-file" label="Sample JSON">
+
+```json
+{
+  "siteUrls": [
+    "https://contoso.sharepoint.com/sites/finance",
+    "https://contoso.sharepoint.com/sites/hr"
+  ],
+  "metadata": [
+    { "name": "Department", "value": "Finance" },
+    { "name": "CostCenter", "value": "CC-1001" }
+  ]
+}
+```
+
+</TabItem>
+</Tabs>
+
+### Poll for Status and Result
+
+Bulk metadata updates run asynchronously. After the request returns a `202 Accepted` response, use the request ID to follow the job to completion:
+
+* **Submit** the update to `/beta/governance/metadata/update` or `/beta/governance/metadata/update/upload`, then read the request ID from the returned `RequestStatus`.
+* **Poll** the status endpoint until the status changes. While the status is `InProgress`, the response may include a `progress` object, as described in the [AsyncRequests](syskit-point-api.md#asyncrequests) section.
+
+  <HttpMethod method="GET" /> &#123;&#123;pointWebAppUrl&#125;&#125;/v1.0/requests/&#123;requestId&#125;/status
+* **Retrieve the result** once the status is `Succeeded`. The status endpoint then returns a `302` redirect to the result location.
+
+  <HttpMethod method="GET" /> &#123;&#123;pointWebAppUrl&#125;&#125;/v1.0/requests/&#123;requestId&#125;/result
+
+### Result Payload
+
+The result of a bulk metadata job summarizes how many sites succeeded or failed:
+
+<Tabs>
+<TabItem value="result" label="Result">
+
+```json
+{
+  "totalSites": 10000,
+  "successCount": 8000,
+  "failedCount": 2000,
+  "errorsTruncated": false,
+  "errors": [
+    { "siteUrl": "https://contoso.sharepoint.com/sites/unknown", "error": "Site not found in SysKit Point" }
+  ]
+}
+```
+
+</TabItem>
+</Tabs>
+
+The `errors` array lists the sites that could not be updated:
+
+* The array is capped at **1000** entries. When more sites fail than that, `errorsTruncated` is set to `true` to indicate the list was truncated.
+* Common error messages include:
+  * `Site not found in SysKit Point`
+  * `Metadata definition '<name>' not found`
 
 ## Syskit Point API Documentation
 

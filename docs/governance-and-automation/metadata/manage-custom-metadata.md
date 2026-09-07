@@ -93,6 +93,15 @@ To remove custom metadata:
 
 Remove Metadata dialog opens; **select the metadata you want to remove**, and **click Remove**.
 
+## Bulk Update Metadata via API
+
+Besides changing metadata directly from a workspace, you can update custom metadata on many sites at once using the Syskit Point API. This is helpful when you want to apply the same metadata values across a large number of workspaces without editing them one by one.
+
+* A governance administrator with the **Point.Admin** permission can run the update.
+* The sites and their metadata values can be provided as a JSON body, a `.csv` file, or a `.json` file.
+
+To find the request details, file formats, and examples, see the [Bulk Metadata Update](../../integrations/syskit-point-api.md#bulk-metadata-update) section in the Syskit Point API article.
+
 ## Filter Workspaces by Metadata
 
 When generating a report, you can filter out workspaces with desired custom metadata values:
