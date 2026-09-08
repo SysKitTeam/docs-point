@@ -1,5 +1,5 @@
 ---
-description: This article lists new features, improvements, and bug fixes in the Syskit Point Cloud version 2026.2.158
+description: This article lists new features, improvements, and bug fixes in the Syskit Point Cloud version 2026.2.158.1
 ---
 
 # September 9, 2026
@@ -23,14 +23,17 @@ description: This article lists new features, improvements, and bug fixes in the
 * **A new Cleanup Opportunities Insights report is available.**
   * You can find the report in the **Governance** area, under the **Security & Compliance** section, and it provides an overview of all completed and pending cleanup actions taken from the Cleanup Opportunities tile.
   * The Cleanup Opportunities Insights report tracks the cleanup opportunities that have been resolved or are currently pending, split into **Automated** and **Manual** cleanup.
-  * The Cleanup Trend graph is cumulative and shows the total number of resolved items change across time.
+  * The Cleanup Trend graph is cumulative and shows the total number of resolved items as it changes across time.
 
 ## Improvements & Bug Fixes
+
+* **Cleanup automations are now available only with a licensed subscription and cannot be accessed during your free trial.**
+  * During the free trial, you can still review your cleanup opportunities and resolve them manually, but automated cleanup cannot be turned on.
 
 * **Improvements made to the Sync Status report.**
   * The **Sync Status** report, located in the top right corner of Syskit Point when on the Sites Overview and Teams & Groups Overview screens, lets you review each site's sync state and trigger a manual sync.
   * You can now **add metadata columns** to filter and sync sites by their metadata.
-    * These columns are hidden by default, and can be selected from the column chooser.
+    * These columns are hidden by default and can be selected from the column chooser.
 
 * **Fixed an issue** where archived and deleted storage was overcounted when calculating how much storage you've saved over time.
   * The Storage Saved metric on the Dashboard now correctly shows how much storage you've freed up by archiving and deleting content.
