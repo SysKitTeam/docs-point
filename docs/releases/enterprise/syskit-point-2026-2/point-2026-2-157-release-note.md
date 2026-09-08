@@ -32,8 +32,7 @@ For detailed step-by-step instructions on how to upgrade Syskit Point, refer to 
 * If you use the **standard Syskit Point upgrade path or ARM template**, **no action is required** — the runtime stack is updated for you.
 
 * If you **maintain your own custom deployment**, update the **runtime stack** setting for **both Point App Services (Frontend and Backend)**:
-  * **Windows:** set `netFrameworkVersion` to `v10.0`
-  * **Linux:** set `linuxFxVersion` to `DOTNETCORE|10.0`
+  * Set `netFrameworkVersion` to `v10.0`
 
 * [For more information on upgrading Syskit Point, see the upgrade article.](../../../set-up-point-enterprise/deployment/upgrade-syskit-point.md)
 
