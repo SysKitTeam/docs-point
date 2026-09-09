@@ -452,6 +452,15 @@ export class Renderer {
         this.doc.setLineWidth(0.45);
         this.doc.line(cx - 0.9, cy, cx - 0.2, cy + 0.8);
         this.doc.line(cx - 0.2, cy + 0.8, cx + 0.9, cy - 0.6);
+      } else if (k === 'video') {
+        // Draw a play triangle.
+        this.doc.setFillColor(255, 255, 255);
+        this.doc.triangle(
+          cx - 0.6, cy - 1,
+          cx - 0.6, cy + 1,
+          cx + 1, cy,
+          'F',
+        );
       } else {
         // info / note: "i" glyph
         this.doc.setFontSize(7.5);

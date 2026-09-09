@@ -96,6 +96,10 @@ The Permissions Matrix report can be **exported as PDF and XLSX files**. There i
 
 With this report, you will see where exactly the user has access and if permissions are given directly or through Microsoft 365 Group, Security group, or SharePoint group.
 
+:::video
+ See the User Access Report in action in the [Review User Access in Microsoft 365 video](https://www.youtube.com/watch?v=f9NKHK8Ijqc).
+:::
+
 ### Generate Report
 
 To generate the User Access report:

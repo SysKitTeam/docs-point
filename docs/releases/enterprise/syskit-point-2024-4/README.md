@@ -1,4 +1,8 @@
-﻿# Syskit Point 2024.4
+﻿---
+description: Release notes for Syskit Point 2024.4.
+---
+
+# Syskit Point 2024.4
 
 import DocCardList from '@theme/DocCardList';
 

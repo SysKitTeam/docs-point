@@ -8,6 +8,7 @@ In this article, you can locate information on the following reports:
 
 * [Sensitivity Labels Report](#sensitivity-labels-report)
 * [Sensitivity Labels Inventory Report](#sensitivity-labels-inventory-report)
+* [Suggested Sensitivity Labels Report](#suggested-sensitivity-labels-report)
 
 These reports can be used to **ensure sensitive data is properly labeled and assigned** to the correct number of resources, **identify gaps in data security**, and **maintain compliance** with company policies.
 
@@ -98,6 +99,46 @@ The additional columns available in the **column chooser**, located in the top r
 * **Workspace Privacy**
 
 The Sensitivity Labels Inventory report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+
+
+## Suggested Sensitivity Labels Report
+
+The Suggested Sensitivity Labels report uses machine learning to recommend sensitivity labels for unlabeled workspaces and flag existing labels that look incorrect, based on the labeling decisions your organization has already made. For more details on how the recommendations are generated, take a look at the [Sensitivity Label Recommendations](../ai-in-syskit-point/features/sensitivity-label-recommendations.md) article.
+
+
+### Generate Report
+
+* **Click the Reports button** located on the left side of the screen.
+* **Select the Sensitivity Labels category in the filter** you can find in the upper left corner.
+* **Click the Suggested Sensitivity Labels report tile** to be redirected to the Selection screen.
+
+After clicking the **Suggested Sensitivity Labels** report tile, the Suggested Sensitivity Labels report is generated.
+
+### Report Data
+
+The default columns displayed in the report are:    
+
+* **Workspace** shows the name of the workspace the recommendation applies to
+* **URL** shows the URL path for the workspace
+* **Current Label** shows the sensitivity label currently applied to the workspace
+* **Suggested Label** shows the sensitivity label recommended by Syskit Point
+* **Suggestion status** shows how the suggestion compares to the current label (e.g., Different from current, No current label)
+* **Confidence** shows how confident the model is in the recommendation, expressed as a percentage
+
+
+The additional column available in the **column chooser**, located in the top right corner of the report, is:   
+* **Workspace Type**
+
+The Suggested Sensitivity Labels report can be **exported as PDF, XLSX, and CSV files**. There is also the **option to schedule the report**.
+
+### Apply a Suggested Sensitivity Label
+
+**Select a workspace** and click the **Apply Sensitivity Label** button to open the Apply Sensitivity Label confirmation modal. 
+
+When a single workspace is selected, the **suggested sensitivity label is already entered** in the *Select sensitivity label to be applied* section.
+
+If **more than one workspace is selected**, the sensitivity label is not entered automatically, and you need to select which sensitivity label should be applied yourself.
+
 
 ## Related Articles
 

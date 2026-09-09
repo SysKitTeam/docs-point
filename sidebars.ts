@@ -26,6 +26,11 @@ const sidebars: SidebarsConfig = {
             id: 'releases/cloud/README',
           },
           items: [
+            'releases/cloud/point-2026-09-01-release-note',
+            'releases/cloud/point-2026-08-27-release-note',
+            'releases/cloud/point-2026-08-19-release-note',
+            'releases/cloud/point-2026-08-12-release-note',
+            'releases/cloud/point-2026-08-04-release-note',
             'releases/cloud/point-2026-07-29-release-note',
             'releases/cloud/point-2026-07-22-release-note',
             'releases/cloud/point-2026-07-14-release-note',
@@ -171,6 +176,9 @@ const sidebars: SidebarsConfig = {
                 id: 'releases/enterprise/syskit-point-2026-2/README',
               },
               items: [
+                'releases/enterprise/syskit-point-2026-2/point-2026-2-157-release-note',
+                'releases/enterprise/syskit-point-2026-2/point-2026-2-155-release-note',
+                'releases/enterprise/syskit-point-2026-2/point-2026-2-153-release-note',
                 'releases/enterprise/syskit-point-2026-2/point-2026-2-151-release-note',
                 'releases/enterprise/syskit-point-2026-2/point-2026-2-149-release-note',
                 'releases/enterprise/syskit-point-2026-2/point-2026-2-147-release-note',
@@ -596,6 +604,35 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'Syskit Point AI',
+      link: {
+        type: 'doc',
+        id: 'ai-in-syskit-point/README',
+      },
+      items: [
+        'ai-in-syskit-point/early-access-program',
+        'ai-in-syskit-point/ai-data-privacy-and-security',
+        'ai-in-syskit-point/enable-ai-features',
+        {
+          type: 'category',
+          label: 'Syskit Point AI',
+          link: {
+            type: 'doc',
+            id: 'ai-in-syskit-point/features/README',
+          },
+          items: [
+            'ai-in-syskit-point/features/point-assistant',
+            'ai-in-syskit-point/features/ticketing-integrations',
+            'ai-in-syskit-point/features/mcp-server',
+            'ai-in-syskit-point/features/workspace-summaries',
+            'ai-in-syskit-point/features/sensitivity-label-recommendations',
+            'ai-in-syskit-point/features/naming-recommendations',
+          ],
+        },
+      ],
+    },
+    {
+      type: 'category',
       label: 'Storage Management',
       link: {
         type: 'doc',
@@ -919,6 +956,7 @@ const sidebars: SidebarsConfig = {
         id: 'point-collaborators/README',
       },
       items: [
+        'point-collaborators/quick-start-guide',
         'point-collaborators/point-starter-kit-collaborators',
 
                 {

@@ -59,5 +59,5 @@ Here you can:
 ## Next Steps
 
 Now that everything is defined, the **Access Review will start automatically**. 
-To learn how to perform an Access Review in Syskit Point, visit the [following article](../../point-collaborators/resolve-governance-tasks/access-review.mdx).
+To learn how to perform an Access Review in Syskit Point, visit the [following article](../../point-collaborators/resolve-governance-tasks/access-review.md).
 
