@@ -67,15 +67,19 @@ After selecting Resolve Manually, the **information dialog** opens, providing mo
 
 **When external sharing settings become more restrictive, SharePoint blocks existing Anyone links, but doesn't delete them.** These links were valid when created, but once your settings became more restrictive, **they no longer comply with your external sharing policy and should be removed**. Deleting these links permanently removes the risk. Unlike tightened settings that can be reverted, a deleted link cannot be reactivated.  
 
-On the dashboard tile, you'll see the number of leftover anyone links ready to be cleaned up, **click Resolve Manually** to start.
+On the dashboard tile, you'll see the number of leftover anyone links ready to be cleaned up, **click Set up Automation** to start.
 
-After selecting Resolve Manually, the **information dialog** opens, providing more details on Leftover Anyone Links and leaves you with two options:
+After selecting Set Up Automation, the **information dialog** opens, providing more details on Leftover Anyone Links and leaves you with two options:
 
-* **Clicking the Request Automation** button lets you send us a request for this feature to be automated, which helps us prioritize the improvements you're requesting
-* **Clicking Resolve Manually** opens the [**Sharing Links** report](../reporting/access-reports.md#unique-permissions-report)
+* **Turning on the Automated cleanup toggle (1)** lets Syskit Point remove leftover anyone links for you automatically
+  * The Automated Cleanup toggle is turned off by default
+  * When it's turned on, leftover anyone links are removed once a day
+  * Every link the automation removes is stored in the action history log
+
+* **Clicking Resolve Manually (2)** opens the [**Sharing Links** report](../reporting/access-reports.md#unique-permissions-report)
   * After clicking the report, you'll see the workspaces where there are leftover sharing links, and selecting them lets you **generate the report**
-  * Once the report is generated, you'll see the **recommendation to Remove Leftover Anyone Link (1)**, where applicable
-  * Selecting object lets you **complete the Remove Sharing Link (2)** action
+  * Once the report is generated, you'll see the **recommendation to Remove Leftover Anyone Link (3)**, where applicable
+  * Selecting the object lets you **complete the Remove Sharing Link (4)** action
 
 ![Cleanup Opportunities tile - Leftover Anyone Links](../../static/img/cleanup-opportunities-tile-leftover.png)
 
@@ -95,3 +99,20 @@ After selecting Resolve Manually, the **information dialog** opens, providing mo
 
 
 ![Cleanup Opportunities tile - Leftover External Users](../../static/img/cleanup-opportunities-tile-leftover-users.png)
+
+## Cleanup Opportunities Insights
+
+**The Cleanup Opportunities Insights report gives you an overview of the cleanup work done across your environment**. With it, you can see how much has been resolved automatically and how much still needs your attention.
+
+You can find the Cleanup Opportunities Insights report in the **Governance** area, under the **Security & Compliance** section.
+
+The report provides an overview of all completed and pending cleanup actions taken from the Cleanup Opportunities tile. 
+
+The following information is available on the report: 
+
+* **Resolved and pending cleanup opportunities** are tracked across all four categories, split into **Automated** and **Manual** cleanup
+
+* **The Cleanup Trend graph** is cumulative, so it shows the total number of resolved items grow over time
+
+
+![Cleanup Opportunities Insights](../../static/img/cleanup-opportunities-tile-leftover-users.png)
