@@ -1,5 +1,5 @@
 ---
-description: This article lists new features, improvements, and bug fixes in the Syskit Point Cloud version 2026.2.158.1
+description: This article lists new features, improvements, and bug fixes in the Syskit Point Cloud version 2026.2.158.10
 ---
 
 # September 9, 2026
@@ -23,7 +23,7 @@ description: This article lists new features, improvements, and bug fixes in the
 * **A new Cleanup Opportunities Insights report is available.**
   * You can find the report in the **Governance** area, under the **Security & Compliance** section, and it provides an overview of all completed and pending cleanup actions taken from the Cleanup Opportunities tile.
   * The Cleanup Opportunities Insights report tracks the cleanup opportunities that have been resolved or are currently pending, split into **Automated** and **Manual** cleanup.
-  * The Cleanup Trend graph is cumulative and shows the total number of resolved items as it changes across time.
+  * The Cleanup Trend graph is cumulative and shows the total number of resolved items as it changes over time.
 
 ## Improvements & Bug Fixes
 
