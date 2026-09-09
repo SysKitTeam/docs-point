@@ -99,7 +99,6 @@ To allow safer access to your Microsoft 365 tenant data and optimize the data sy
 | Permissions                                           | Type                   | Reason                                                      |
 | ----------------------------------------------------- | ---------------------- | ----------------------------------------------------------- |
 | Read activity data for your organization              | Delegated, Application | Allows Syskit Point to read your organization's audit logs. |
-| Read service health information for your organization | Delegated, Application | Allows Syskit Point to read your organization's audit logs. |
 
 **SharePoint**
 
@@ -223,7 +222,7 @@ The Application.ReadWrite.All permission is used only once to update the Syskit 
 | Permissions                                           | Type                   | Reason                                                      |
 | ----------------------------------------------------- | ---------------------- | ----------------------------------------------------------- |
 | Read activity data for your organization              | Delegated, Application | Allows Syskit Point to read your organization's audit logs. |
-| Read service health information for your organization | Delegated, Application | Allows Syskit Point to read your organization's audit logs. |
+
 
 **SharePoint**
 
