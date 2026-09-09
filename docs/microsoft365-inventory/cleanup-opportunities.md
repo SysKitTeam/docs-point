@@ -21,7 +21,7 @@ Clicking any of the counts in the tile opens the relevant report, where you can 
 
 ## Redundant Unique Permissions
 
-**After sharing links expire, get deleted, or access is granted ad hoc, unique permissions are often left behind even when they're no longer needed, making them redundant. Redundant unique permissions also happen with items where unique permissions match the parent.** Over time, they accumulate silently: permission reviews become harder to complete, SharePoint performance degrades on heavily affected sites, and admins lose a clear picture of who actually has access. These redundant unique permissions can be safely removed to simplify your structure without changing anyone's access.
+**After sharing links expire, get deleted, or after ad-hoc access is removed, unique permissions are often left behind even when they're no longer needed, making them redundant. This means that redundant unique permissions happen with items where unique permissions match that of its parent.** Over time, they accumulate silently: permission reviews become harder to complete, SharePoint performance degrades on heavily affected sites, and admins lose a clear picture of who actually has access. These redundant unique permissions can be safely removed to simplify your structure without changing anyone's access.
 
 On the dashboard tile, you'll see the number of redundant unique permissions ready to be cleaned up, **click Set up Automation** to start.
 
@@ -35,6 +35,9 @@ After selecting Set Up Automation, the **information dialog** opens, providing m
 * **Clicking Resolve Manually (2)** opens the [**Unique Permissions** report](../reporting/access-reports.md#unique-permissions-report)
   * After generating the report, you'll see the **recommendation to Remove Redundant Unique Permissions (3)**, where applicable
   * Selecting that object lets you complete the **Delete Unique Permissions action (4)**
+
+* **Clicking View Cleanup Insights (3)** opens the [**Cleanup Opportunities Insights** report](#cleanup-opportunities-insights) on the Security & Compliance section of the Govern screen
+
 
 :::info
 
@@ -81,6 +84,11 @@ After selecting Set Up Automation, the **information dialog** opens, providing m
   * Once the report is generated, you'll see the **recommendation to Remove Leftover Anyone Link (3)**, where applicable
   * Selecting the object lets you **complete the Remove Sharing Link (4)** action
 
+* **Clicking View Cleanup Insights (3)** opens the [**Cleanup Opportunities Insights** report](#cleanup-opportunities-insights) on the Security & Compliance section of the Govern screen
+
+
+![Cleanup Opportunities tile - Leftover Anyone Links](../../static/img/cleanup-opportunities-tile-leftover-automation.png)
+
 ![Cleanup Opportunities tile - Leftover Anyone Links](../../static/img/cleanup-opportunities-tile-leftover.png)
 
 ## Leftover External Users
@@ -104,15 +112,32 @@ After selecting Resolve Manually, the **information dialog** opens, providing mo
 
 **The Cleanup Opportunities Insights report gives you an overview of the cleanup work done across your environment**. With it, you can see how much has been resolved automatically and how much still needs your attention.
 
-You can find the Cleanup Opportunities Insights report in the **Governance** area, under the **Security & Compliance** section.
+You can find the Cleanup Opportunities Insights report by:
+* Clicking **Govern** on the left side of the screen, going to the **Security & Compliance** section and clicking Cleanup Opportunities Insights
+* Clicking **View All** on the Cleanup Opportunities dashboard tile opens the Cleanup Opportunities Insights report
 
 The report provides an overview of all completed and pending cleanup actions taken from the Cleanup Opportunities tile. 
 
-The following information is available on the report: 
+The following information is available: 
 
-* **Resolved and pending cleanup opportunities** are tracked across all four categories, split into **Automated** and **Manual** cleanup
+* The **Overview section (1)**, which provides the number of:
+  * **Total Items Cleaned**
+  * **Number of items cleaned through automation**, as well as the percentage
+  * **Number of items cleaned manually**, as well as the percentage
 
-* **The Cleanup Trend graph** is cumulative, so it shows the total number of resolved items grow over time
+* The **Cleanup Trend section (2)**, which shows the amount of all-time cumulative cleaned items shown through a graph for automated items and manual items
 
+* The report for the current state of your Cleanup Opportiunities with the following columns included: 
 
-![Cleanup Opportunities Insights](../../static/img/cleanup-opportunities-tile-leftover-users.png)
+  * **Cleanup Opportunity (3)** - shows the name of the cleanup category
+  * **Cleaned Items (4)** - shows the number of cleaned items so far
+  * **Pending (5)** - shows the number of items still pending
+  * **Resolution Method (6)** - shows the resolution method, whether it is automated or manual
+  * **Last Automated Run (7)** - if automated, shows when the last automated cleanup happened
+
+* Depending on whether automation is available for the category or not, you can also see the following buttons:
+  * **Request Automation (8)** - available for cleanup opportunities that are currently without automation
+  * **Set Up Automation (9)** - available for cleanup opportunities that can already be automated
+  * **Turn Off Automation (10)** - available for cleanup opportunities that already have automation enabled
+
+![Cleanup Opportunities Insights](../../static/img/cleanup-opportunities-insights.png)
