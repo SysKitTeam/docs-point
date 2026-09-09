@@ -99,7 +99,6 @@ To allow safer access to your Microsoft 365 tenant data and optimize the data sy
 | Permissions                                           | Type                   | Reason                                                      |
 | ----------------------------------------------------- | ---------------------- | ----------------------------------------------------------- |
 | Read activity data for your organization              | Delegated, Application | Allows Syskit Point to read your organization's audit logs. |
-| Read service health information for your organization | Delegated, Application | Allows Syskit Point to read your organization's audit logs. |
 
 **SharePoint**
 
