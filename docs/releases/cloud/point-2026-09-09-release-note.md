@@ -19,11 +19,13 @@ description: This article lists new features, improvements, and bug fixes in the
   * When enabled, Syskit Point detects leftover anyone links that no longer comply with your external sharing policy and removes them.
   * Every removed link is recorded in the action history, so you can track what was changed and when.
   * By default, automation is turned off.
+  * For more details, [please take a look at the Leftover Anyone Links section of the Cleanup Opportunities article.](../../microsoft365-inventory/cleanup-opportunities.md#leftover-anyone-links)
 
 * **A new Cleanup Opportunities Insights report is available.**
   * You can find the report in the **Governance** area, under the **Security & Compliance** section, and it provides an overview of all completed and pending cleanup actions taken from the Cleanup Opportunities tile.
   * The Cleanup Opportunities Insights report tracks the cleanup opportunities that have been resolved or are currently pending, split into **Automated** and **Manual** cleanup.
   * The Cleanup Trend graph is cumulative and shows the total number of resolved items as it changes over time.
+  * For more details, [please take a look at the Cleanup opportunities Insights section of the Cleanup Opportunities article.](../../microsoft365-inventory/cleanup-opportunities.md#cleanup-opportunities-insights)
 
 ## Improvements & Bug Fixes
 
