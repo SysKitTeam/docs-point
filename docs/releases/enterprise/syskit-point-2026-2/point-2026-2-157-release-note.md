@@ -8,7 +8,7 @@ description: This article lists improvements and bug fixes in Syskit Point versi
 
 **Product version:** 2026.2.157
 
-**Build number:** 87
+**Build number:** 93
 
 **Release date:** September 8, 2026
 
@@ -19,7 +19,7 @@ description: This article lists improvements and bug fixes in Syskit Point versi
 * **Already using Syskit Point?** Upgrade to the latest Syskit Point version.\
  [![](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitassetsstorage.blob.core.windows.net%2Fpoint%2FARMTemplates%2FPointUpdateDeploy%2FPointUpdateTemplate.json)
 * **Need this specific version?**\
-[Deploy Syskit Point version 2026.2.157](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitdownloadsstorage.blob.core.windows.net%2Fpoint%2Fdeployment-packages%2Fv2026-2-157-87%2FPointUpdateTemplate.json)
+[Deploy Syskit Point version 2026.2.157](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitdownloadsstorage.blob.core.windows.net%2Fpoint%2Fdeployment-packages%2Fv2026-2-157-93%2FPointUpdateTemplate.json)
 
 For detailed step-by-step instructions on how to upgrade Syskit Point, refer to the [upgrade article](../../../set-up-point-enterprise/deployment/upgrade-syskit-point.md).
 
@@ -40,11 +40,6 @@ For detailed step-by-step instructions on how to upgrade Syskit Point, refer to 
 
 
 ## New Features
-
-* **Syskit Point AI is now available in Early Access.**
-  * Syskit Point now uses AI to turn your governance data into faster answers and clearer priorities.
-  * Features that use large language models are off by default and must be enabled by a Syskit Point admin, while the new machine learning-supported report is available to everyone with no setup.
-  * [Explore what Syskit Point AI can do in this section.](../../../ai-in-syskit-point/)
 
 * **Automated cleanup is now available for Redundant Unique Permissions on the Cleanup Opportunities tile.**
   * Syskit Point can now resolve redundant unique permissions automatically, instead of you having to fix them manually.
