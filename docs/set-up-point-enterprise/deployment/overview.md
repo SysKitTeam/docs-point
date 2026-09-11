@@ -38,7 +38,7 @@ These are the 3 most important steps to get you started with Syskit Point:
 2. [Activate Syskit Point](../activation/activate-syskit-point.md)
    * [Contact our team](https://www.syskit.com/contact-us/) to provide you with a free trial key that enables you to try out all Syskit Point features, without limits, for 21 days
    * After the end of the trial period, our team will provide the license key for the activation after purchasing the selected edition of Syskit Point
-   * At any time, you can find your keys in the [Customers Portal](https://my.syskit.com/)
+   * At any time, you can find your keys in the [Subscriptions Portal](https://subscriptions.syskit.com/)
    * If you do not have the activation information, please [contact us](https://www.syskit.com/company/contact-us)
 3. [Connect to Your Microsoft 365 Tenant](connect-to-tenant.md)
    * You will be asked to create an App registration in your Microsoft Entra ID

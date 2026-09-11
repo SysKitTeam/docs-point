@@ -16,7 +16,7 @@ To obtain the Syskit Point **Enterprise plan**, complete the following:
 
 You will be provided with the license key for the product activation after purchasing the selected edition of Syskit Point.
 
-Anytime, you can log in to Syskit [Customers Portal](https://my.syskit.com/) and navigate to the list of your licensed products. If you are not seeing the activation information, please [contact us](https://www.syskit.com/company/contact-us).
+Anytime, you can log in to the [Subscriptions Portal](https://subscriptions.syskit.com/) and copy the license key. If you are not seeing the activation information, please [contact us](https://www.syskit.com/company/contact-us).
 
 When opening the Syskit Point web app URL for the first time, you will be prompted to **activate your copy of Syskit Point (1) or start the trial (2)**.
 
