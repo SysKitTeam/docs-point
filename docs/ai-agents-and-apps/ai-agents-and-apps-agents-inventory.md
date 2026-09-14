@@ -4,11 +4,11 @@ description: The Agents Inventory report provides an overview of the Microsoft a
 
 # Agents Inventory Report
 
-The **Agents Inventory** report gives you an overview of the **Microsoft agents across your tenant**. It provides details on SharePoint agents, Copilot Studio agents, and Agent Builder agents including their **type, ownership, and access**. 
+The **Agents Inventory** report gives you an overview of the **Microsoft agents across your tenant**. It provides details on SharePoint agents, Copilot Studio agents, and Agent Builder agents, including their **type, ownership, and access**. 
 
 :::info
 
-**AI Agents & Apps is currently in Early Access** and still in development. Due to that changes are still possible. 
+**AI Agents in Syskit Point is currently in Early Access** and free to use while the feature is in active development. Feature behavior and scope may change as new capabilities are released.
 
 :::
 
@@ -21,7 +21,7 @@ You can open the Agents Inventory report in two ways:
   * **Select the AI Agents category in the filter** in the upper left corner.
   * **Click the Agents Inventory report tile** to open the report.
 * From the **Dashboard**: 
-  * Go to the [AI Agents tile](ai-agents-and-apps-dashboard-tile.md) and click **View all agents** to open the Agents Inventory report. 
+  * Go to the [AI Agents tile](ai-agents-and-apps-dashboard-tile.md) and click **View all agents** to open the full report, or click any of the counts on the tile to open the report filtered to that view. 
 
 
 ## Report Data
@@ -30,10 +30,10 @@ Once the report is generated successfully, two tiles at the top summarize the st
 
 * **The Overview tile** shows the total number of **agents deployed across your tenant**, with a breakdown by type (Copilot Studio, SharePoint agents, and Agent Builder).
 * **The Needs Attention tile** highlights the agents that may require action, with numbers showing the amount for the following:
-  * **Sensitive agents**
-  * **Orphaned agents**
-  * **Shared**
-  * **Shared with everyone**
+  * **Sensitive agents** - agents that reference sensitive content through their knowledge sources (see the [Sensitive Agents](#sensitive-agents) section below)
+  * **Orphaned agents** - agents that do not have an active owner
+  * **Shared** - agents shared with at least one other person
+  * **Shared with everyone** - agents shared with everyone in the organization
 
 The report grid shows the following columns:
 
@@ -63,7 +63,7 @@ The additional columns available in the column chooser are:
 * Published On
 * URL
 
-The Agents Inventory report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
+The Agents Inventory report can be **exported as PDF, CSV and XLSX files**. There is also the **option to schedule the report**.
 
 ## Sensitive Agents
 

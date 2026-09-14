@@ -2,15 +2,15 @@
 description: The AI Agents tile on the Syskit Point Dashboard gives you an overview of the Microsoft agents and connected apps active in your tenant.
 ---
 
-# AI Agents & Apps Dashboard
+# AI Agents Dashboard
 
-The **AI Agents** tile on the Syskit Point Dashboard shows the Microsoft agents and connected apps that are active in your tenant, how they break down by type, and how many of them need your attention.
+The **AI Agents** tile on the Syskit Point Dashboard shows the Microsoft agents and connected Entra apps that are active in your tenant, how they break down by type, and how many of them need your attention.
 
-The tile gives you a single place to see how many agents and apps exist in your tenant and lets you jump straight into the detailed inventory reports, without having to search through the Report Center.
+The tile gives you a single place to see how many agents and Entra apps exist in your tenant and lets you jump straight into the detailed inventory reports, without having to search through the Report Center.
 
 :::info
 
-**AI Agents & Apps is currently in Early Access** and still in further development.
+**AI Agents in Syskit Point is currently in Early Access** and free to use while the feature is in active development. Feature behavior and scope may change as new capabilities are released.
 
 :::
 
@@ -33,7 +33,7 @@ The section shows the number of agents by type - **Copilot Studio**, **SharePoin
 * **Orphaned Agents** - agents whose owner is no longer an active user
 * **Sensitive Agents** - agents that reference sensitive content through their knowledge sources
 
-Clicking **View all agents** opens the [Agents Inventory](ai-agents-and-apps-agents-inventory.md) report, where you can review every agent in detail and take action.
+Clicking **View all agents** opens the [Agents Inventory](ai-agents-and-apps-agents-inventory.md) report, where you can review every agent in detail and take action. You can also click any of the counts to open the report filtered to that view.
 
 ## Entra Apps
 
@@ -48,4 +48,4 @@ The section shows the counts you'll want to keep an eye on:
 * **Inactive Apps** - apps with no recent activity
 * **Accessed Sensitive Data** - apps that have accessed sensitive content
 
-Clicking **View all apps** opens the [Apps Inventory](ai-agents-and-apps-apps-inventory.md) report, where you can review every app in detail and take action.
+Clicking **View all apps** opens the [Apps Inventory](ai-agents-and-apps-apps-inventory.md) report, where you can review every app in detail and take action. You can also click any of the counts to open the report filtered to that view.
