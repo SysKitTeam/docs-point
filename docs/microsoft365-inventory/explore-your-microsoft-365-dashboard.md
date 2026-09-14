@@ -323,24 +323,20 @@ The tile on the Dashboard shows:
 ![Workspace Sensitivity Tile](../../static/img/dashboard-workspace-sensitivity-tile.png)
 
 
-## AI Agents 
+## AI Agents
 
-The AI Agents tile provides an **overview of all custom-built agents in your organization**. 
+The **AI Agents** tile gives you an overview of the Microsoft agents and connected apps that are active in your tenant, and highlights how many of them need your attention.
 
-The tile on the Dashboard shows:
+The tile on the Dashboard shows the following:
 
-* The **total number of custom SharePoint Agents** in your environment and the number of **newly added custom SharePoint Agents** in the past 30 days
-  * Clicking the number opens the **Custom SharePoint Agents Inventory** report
-* The **total number of custom Copilot Agents** in your environment and the number of **newly added custom Copilot Agents** in the past 30 days
-  * Clicking the number opens the **Copilot Agents Inventory** report
-* **The number of custom orphaned agents**
-  * Clicking the number opens the **Copilot Agents Inventory** report with the filter set as Orphaned Copilot Agents
-* **The number of custom sensitive agents**
-  * Clicking the number opens the **Copilot Agents Inventory** report with the filter set as Sensitive Agents
+* Under **Agents**, the number of agents by type - **Copilot Studio**, **SharePoint Agents**, and **Agent Builder** - together with the number of **Shared Agents**, **Orphaned Agents**, and **Sensitive Agents**
+  * Clicking **View all agents** opens the [**Agents Inventory**](../ai-agents-and-apps/ai-agents-and-apps-agents-inventory.md) report
+* Under **Entra Apps**, the number of **AI Assistants**, **Agent Identity**, **High Privileged**, **Unverified Publisher**, and **Inactive Apps**, as well as the number of apps that have **Accessed Sensitive Data**
+  * Clicking **View all apps** opens the [**Apps Inventory**](../ai-agents-and-apps/ai-agents-and-apps-apps-inventory.md) report
 
-Clicking the Explore button opens the Custom SharePoint Agents Inventory report. [For more details on the report, take a look at this article.](../reporting/ai-agents-reports.md) 
+[For more details on the AI Agents tile, take a look at this article.](../ai-agents-and-apps/ai-agents-and-apps-dashboard-tile.md)
 
-![AI Agents Tile](../../static/img/dashboard-sharepoint-agents-tile.png)
+![AI Agents Tile](../../static/img/dashboard-ai-agents-tile.png)
 
 ## Workspace Review
 

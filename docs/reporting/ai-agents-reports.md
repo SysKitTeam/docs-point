@@ -1,58 +1,44 @@
 ---
-description: The AI Agents reports provide an overview of your AI agents with the Custom SharePoint Agents Inventory report.
+description: The AI Agents reports provide an overview of the agents and apps in your tenant through the Agents Inventory, Apps Inventory, and Copilot Agent Knowledge Sources reports.
 ---
 
 # AI Agents Reports
 
-AI Reports in Point provide easy monitoring for AI usage across your environments, which helps you track your AI Agents and see who's using them. The following AI Agents reports are available:
+AI Reports in Syskit Point provide easy monitoring for AI usage across your tenant, which helps you track the agents and apps that can access your Microsoft 365 data. When you select the **AI Agents** category in the Report Center, the following reports are available:
 
-* [Custom SharePoint Agents Inventory Report](#custom-sharepoint-agents-inventory-report)
-* [Copilot Agents Report](../power-platform/power-platform-reports/copilot-agents-reports.md)
+* [Agents Inventory](../ai-agents-and-apps/ai-agents-and-apps-agents-inventory.md) - an overview of the Microsoft agents across your tenant, including their type, ownership, and access
+* [Apps Inventory](../ai-agents-and-apps/ai-agents-and-apps-apps-inventory.md) - an overview of the Entra ID app registrations, enterprise applications, and service principals in your tenant
+* [Copilot Agent Knowledge Sources](#copilot-agent-knowledge-sources) - an overview of the knowledge sources for one or more Copilot agents
 
-:::info
-Copilot Agents reports are a part of the Power Platform add-on. Navigate to the [Copilot Agents Reports article located in the Power Platform section to find more information on the available reports.](../power-platform/power-platform-reports/copilot-agents-reports.md)
-:::
+The Agents Inventory and Apps Inventory reports each have a dedicated article. This article covers the **Copilot Agent Knowledge Sources** report.
 
-In this article, you can find information on the [Custom SharePoint Agents Inventory Report](#custom-sharepoint-agents-inventory-report).
+## Copilot Agent Knowledge Sources
 
-**The Custom SharePoint Agents Inventory** report can be used to identify all custom SharePoint agents, their locations, and approval statuses, among other details. The report also enables you to **navigate to the Agent Details screen for the selected agent, where you can find all of the agent's knowledge sources**.
-
-## Custom SharePoint Agents Inventory Report
-
-The Custom SharePoint Agents Inventory report helps you discover and monitor all custom-built SharePoint Agents in your organization. 
+The Copilot Agent Knowledge Sources report helps you discover all knowledge sources for one or multiple Copilot agents.
 
 ### Generate Report
 
 * **Click the Reports button** on the screen's left side.
 * **Select the AI Agents category in the filter** in the upper left corner.
-* **Click the Custom SharePoint Agents Inventory report tile** to be redirected to the Selection screen.
+* **Click the Copilot Agent Knowledge Sources** to be redirected to the Selection screen.
 
-When generating the report, the first step is the **selection screen**, which shows a list of workspaces with custom SharePoint agents. This step allows you to select which workspaces, and their custom SharePoint agents, you want included in the report.
-On the selection step, the following workspace data is available
-* **Name** of the workspace with Custom SharePoint Agents
-* **URL** of the workspace
-* **Last Modified** shows the date the workspace was last modified
-* **Custom SharePoint Agents** shows the number of Custom SharePoint Agents for the workspace
+When generating the Copilot Agent Knowledge Sources report, the first step is the **selection screen**, which opens as a list of [Power Platform Environments](../power-platform/power-platform-reports/power-platform-environments-reports.md). By default, only Evironments with Copilot agents are shown. This step allows you to **select which environments you want included** in the report.
 
-
-* **Selecting one or more workspaces provides the Run Report button.** This generates the Custom SharePoint Agents Inventory report for the selected workspaces.
+* **Selecting one or more environments** provides the **Run Report button**. This generates the **Copilot Agent Knowledge Sources report** for the selected environments. 
 
 ### Report Data
 
-Clicking the **Run Report** button generates the Custom SharePoint Agents Inventory report. The default columns displayed in the report are:    
+On the Copilot Agent Knowledge Sources report, you can find the following information in the columns:
 
-* **Agent Name** of the custom SharePoint agent
-    * **Clicking the Agent Name opens the Agent Details screen** where you can **find all of the agent's knowledge sources** listed in the separate tile
-* **URL** shows the link to the custom SharePoint agent 
-* **Site Name** shows the name of the workspace that contains the Custom SharePoint agent
-* **Created By** shows the user who created the custom SharePoint agent
-* **Created On** shows when the custom SharePoint agent was created
-* **Modified By** shows the user who last modified the custom SharePoint agent 
-* **Modified On** shows when the custom SharePoint agent was last modified
-* **Is Approved** shows whether the Custom SharePoint Agent was approved by showing a green checkbox in the column
-* **Retention Label** shows which, if any, retention label is applied
+* **Agent** - shows the name of the Copilot agent
+    * Note that the report is grouped by Copilot agent column to easily see all of the knowledge sources belonging to a Copilot agent
+    * To remove the grouping, drag the Agent filter from the top left to the grid, which will insert the Agent column in the report
+    * Additionally, you can group by other columns by simply drag-and-dropping the wanted column to the top left corner above the report grid
+* **Name** of the knowledge source
+* **Last Modified** - shows when the knowledge source was last modified
+* **Type** - shows the type of the knowledge source, e.g., Dataverse, Files, SharePoint, Public Website
+* **Sensitive Content** - shows whether the knowledge source has a sensitivity label applied, which is marked as sensitive in Syskit Point; green checkmark is placed next to knowledge sources whose sensitivity label is considered sensitive content
+    * [To see how to view and manage sensitivity labels defined as sensitive content, navigate to this section](https://docs.syskit.com/point/microsoft365-inventory/copilot-readiness#sensitive-files)
+* **Sensitivity Label** - Shows the sensitivity label applied to the knowledge source
 
-The Custom SharePoint Agents Inventory report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
-
-
-
+The Copilot Agent Knowledge Sources report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
