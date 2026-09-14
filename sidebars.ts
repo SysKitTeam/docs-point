@@ -634,6 +634,21 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'AI Agents & Apps',
+      link: {
+        type: 'doc',
+        id: 'ai-agents-and-apps/README',
+      },
+      items: [
+        'ai-agents-and-apps/ai-agents-and-apps-overview',
+        'ai-agents-and-apps/ai-agents-and-apps-setup',
+        'ai-agents-and-apps/ai-agents-and-apps-dashboard-tile',
+        'ai-agents-and-apps/ai-agents-and-apps-agents-inventory',
+        'ai-agents-and-apps/ai-agents-and-apps-apps-inventory',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Storage Management',
       link: {
         type: 'doc',
