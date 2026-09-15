@@ -95,16 +95,30 @@ After selecting Set Up Automation, the **information dialog** opens, providing m
 
 **When external sharing settings become more restrictive, SharePoint blocks existing guest users, but doesn't remove them.** These users had valid access when it was granted, but once your settings became more restrictive, **they no longer comply with your external sharing settings and should be removed.** Removing these external accounts eliminates outdated access and keeps your guest users list aligned with your current sharing policies.
 
-On the dashboard tile, you'll see the number of leftover external users ready to be cleaned up, **click Resolve Manually** to start.
+On the dashboard tile, you'll see the number of leftover external users ready to be cleaned up, **click Set up Automation** to start.
 
-After selecting Resolve Manually, the **information dialog** opens, providing more details on Leftover External Users and leaves you with two options:
+After selecting Set Up Automation, the **information dialog** opens, providing more details on Leftover External Users and leaves you with two options:
 
-* **Clicking the Request Automation** button lets you send us a request for this feature to be automated, which helps us prioritize the improvements you're requesting
-* **Clicking Resolve Manually** opens the [**Externally Shared Content** report](../reporting/access-reports.md#unique-permissions-report)
+* **Turning on the Automated cleanup toggle (1)** lets Syskit Point remove leftover external users for you automatically
+  * The Automated Cleanup toggle is turned off by default
+  * When it's turned on, leftover external users are removed once a day
+  * Every access the automation removes is stored in the action history log
+
+* **Clicking Resolve Manually (2)** opens the [**Externally Shared Content** report](../reporting/access-reports.md#unique-permissions-report)
   * After clicking the report, you'll see the workspaces that include leftover external users, and selecting them lets you generate the report
-  * Once the report is generated, you'll see the **recommendation to Remove Leftover External User Access (1)**, where applicable
-  * Selecting that user lets you **complete the Remove Access (2)** actions
+  * Once the report is generated, you'll see the **recommendation to Remove Leftover External User Access (3)**, where applicable
+  * Selecting that user lets you **complete the Remove Access (4)** action
 
+* **Clicking View Cleanup Insights (3)** opens the [**Cleanup Opportunities Insights** report](#cleanup-opportunities-insights) on the Security & Compliance section of the Govern screen
+
+
+:::info
+
+**Please note:** Automated cleanup skips external users who have access through Microsoft 365 Groups, Teams, or security groups. Removing them could affect access beyond one site.
+
+:::
+
+![Cleanup Opportunities tile - Leftover External Users](../../static/img/cleanup-opportunities-tile-leftover-users-automation.png)
 
 ![Cleanup Opportunities tile - Leftover External Users](../../static/img/cleanup-opportunities-tile-leftover-users.png)
 
