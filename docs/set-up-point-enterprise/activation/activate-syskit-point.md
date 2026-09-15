@@ -34,7 +34,7 @@ You can check the license information in Syskit Point and manage the license on 
 
 To change the existing license key with a new one, e.g., when you are upgrading to a different license edition, here are the instructions on how to do so:
 
-1. **Navigate to Settings** &gt; **License**.
+1. **Navigate to Settings** &gt; **General** &gt; **Syskit Point Subscription**.
 2. **Click the Deactivate button**.
 3. **Enter the new license key and user details**.
 
@@ -42,7 +42,7 @@ To change the existing license key with a new one, e.g., when you are upgrading 
 
 To deactivate the Syskit Point license, please proceed with the following steps:
 
-1. **Navigate to Settings** &gt; **License**. 
+1. **Navigate to Settings** &gt; **General** &gt; **Syskit Point Subscription**.
 2. **Click the Deactivate button**. 
 
 Once that product license has been deactivated, you won’t be able to sign in and access the application until it is activated.
