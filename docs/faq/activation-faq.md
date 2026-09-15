@@ -12,7 +12,7 @@ For customers using our Point Cloud versions, the activation is automatic after 
 
 ## Who will be required to activate their products?
 
-The user who deployed Syskit Point will be required to activate the product. To activate the product, use the license key provided in the Syskit [customers portal](https://my.syskit.com/). 
+The user who deployed Syskit Point will be required to activate the product. To activate the product, use the license key provided in the [Subscriptions Portal](https://subscriptions.syskit.com/). 
 
 For customers using our Point Cloud versions, the activation is automatic after you purchase the subscription. 
 

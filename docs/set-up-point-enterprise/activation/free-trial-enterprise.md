@@ -18,7 +18,7 @@ To get the free trial:
 * [Deploy Syskit Point](../deployment/overview.md) to your Azure subscription 
    * In this step, all Syskit Point resources are created in Azure - no additional resources or migrations are needed when you decide to purchase a Syskit Point Enterprise plan
 * [Contact us](https://www.syskit.com/contact-us/) to provide you with the trial key
-    * Keys for the Enterprise trial are provided via [Syskit customers portal](https://my.syskit.com/)
+    * Keys for the Enterprise trial are provided via the [Subscriptions Portal](https://subscriptions.syskit.com/)
 * [Activate free trial](activate-syskit-point.md) using the provided trial key
     * Try out Syskit Point Enterprise without limits for 21 days
 
