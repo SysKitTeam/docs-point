@@ -43,7 +43,7 @@ description: This article lists new features, improvements, and bug fixes in the
 * **Improved the performance of the stale files dialogs.**
   * The top 20 extensions are now displayed by default, with the option to search all of the available extensions by name.
 
-* **Fixed a bug** where a points of contact email address was not saved when moving focus to another field unless you first pressed Enter.
+* **Fixed a bug** where a point of contact email address was not saved when moving focus to another field unless you first pressed Enter.
 
 * **The redundant unique permissions recommendation is no longer shown** for items that still have an active sharing link, since removing the unique permissions there could affect that sharing.
 
