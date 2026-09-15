@@ -4,8 +4,6 @@ description: AI Agents gives you a unified inventory of the Microsoft agents and
 
 # AI Agents Overview
 
-**Syskit Point now gives you a unified inventory of the Microsoft agents and Entra apps that can access your Microsoft 365 data.**
-
 :::info
 
 **AI Agents in Syskit Point is currently in Early Access** and free to use while the feature is in active development. Feature behavior and scope may change as new capabilities are released.

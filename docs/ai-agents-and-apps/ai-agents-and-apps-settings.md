@@ -2,7 +2,7 @@
 description: This article explains how to set up AI Agents in Syskit Point to start discovering the Microsoft agents and Entra apps that can access your Microsoft 365 data.
 ---
 
-# AI Agents
+# Configure AI Agents
 
 In order to start discovering the **Microsoft agents and Entra apps that can access your Microsoft 365 data**, you need to first set up **AI Agents** in Syskit Point. During the setup, you connect a service account and grant Syskit Point the permissions it needs to read the agents across your tenant. This helps you keep track of the agents and Entra apps in one place through the [Agents Inventory](ai-agents-and-apps-agents-inventory.md) and [Apps Inventory](ai-agents-and-apps-apps-inventory.md) reports.
 
