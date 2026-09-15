@@ -1,5 +1,5 @@
 ---
-description: This article lists new features, improvements, and bug fixes in the Syskit Point Cloud version 2026.3.159
+description: This article lists new features, improvements, and bug fixes in the Syskit Point Cloud version 2026.3.159.23
 ---
 
 # September 15, 2026
@@ -18,8 +18,8 @@ description: This article lists new features, improvements, and bug fixes in the
 * **New inventory of AI Agents and Apps is now available!**
   * Syskit Point now provides a unified inventory of the Microsoft agents and apps that can access your Microsoft 365 data.
   * The new **AI Agents** dashboard tile shows how many AI agents and Entra apps are present in your environment and lets you drill into the underlying reports directly from the tile or the Report Center.
-  * The **Agents Inventory** report covers custom SharePoint agents and Copilot agents, while the **Apps Inventory** report covers Entra ID app registrations, enterprise applications, and service principals that can reach your Microsoft 365 data.
-  * This feature is in early access and still being expanded.
+  * The **Agents Inventory** report covers custom SharePoint agents, Copilot agents, and Agent Builder, while the **Apps Inventory** report covers Entra ID app registrations, enterprise applications, and service principals that can reach your Microsoft 365 data.
+  * This feature is in early access and is still being expanded.
   * For more details, [please take a look at the AI Agents overview article.](../../ai-agents-and-apps/ai-agents-and-apps-overview.md)
 
 * **Automated cleanup is now available for Leftover External Users!**
@@ -32,15 +32,18 @@ description: This article lists new features, improvements, and bug fixes in the
 
 ## Improvements & Bug Fixes
 
-* **Improvements made to the Sharing Links report!**
-  * **Non-materialized organization-wide and anonymous hero links are now displayed** on the Sharing Links report and other related reports, giving you a complete view of how content is shared.
-  * **The Default Link column has been renamed to Hero Link** to better reflect what it represents.
-  * **The Hero Link column has been removed** from the Group Access report and other group-based reports where it did not apply.
+* **Syskit Point now supports Microsoft's new Hero Links sharing experience!**
+  * Microsoft is moving SharePoint and OneDrive sharing to a single link per file, referred to as Hero Links. 
+  * **A new Hero Link column is now available on link-based reports.**
+    * The column is available on all reports that list individual sharing links, including the Sharing Links and User Access reports, as well as the Workspace Review wizard steps for All Shared Content, Anyone Links, Company-Wide Links, Unused Links, and User Access.
+    * It identifies Microsoft's default per-item sharing links and distinguishes them from classic sharing links.
+  * **The Remove Sharing Link and Remove Access actions now work on hero links.**
+    * Since SharePoint does not allow deleting a hero link, the Remove Sharing Link action switches its audience to Specific people instead.
+
+* **Improved the performance of the stale files dialogs.**
+  * The top 20 extensions are now displayed by default, with the option to search all of the available extensions by name.
 
 * **Fixed a bug** where a points of contact email address was not saved when moving focus to another field unless you first pressed Enter.
-
-* **Fixed a bug** where the stale files dialogs listed every file extension.
-  * They now show only the top 20 extensions.
 
 * **The redundant unique permissions recommendation is no longer shown** for items that still have an active sharing link, since removing the unique permissions there could affect that sharing.
 
