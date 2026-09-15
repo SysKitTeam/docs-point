@@ -39,6 +39,7 @@ jobs:
           }
 
           gh pr list \
+            --repo "$REPO" \
             --state merged \
             --base staging \
             --limit 200 \
@@ -49,7 +50,7 @@ jobs:
                 echo "Skip protected branch: $branch"; continue
               fi
 
-              open=$(gh pr list --state open --head "$branch" --json number --jq 'length')
+              open=$(gh pr list --repo "$REPO" --state open --head "$branch" --json number --jq 'length')
               if [[ "$open" != "0" ]]; then
                 echo "Skip $branch (still head of an open PR)"; continue
               fi
@@ -81,7 +82,7 @@ jobs:
           gh api --paginate "repos/$REPO/branches" --jq '.[].name' > all_branches.txt
 
           # Every branch that has ever been the head of any PR (open, closed, merged)
-          gh pr list --state all --limit 1000 --json headRefName --jq '.[].headRefName' \
+          gh pr list --repo "$REPO" --state all --limit 1000 --json headRefName --jq '.[].headRefName' \
             | sort -u > pr_branches.txt
 
           echo ""
