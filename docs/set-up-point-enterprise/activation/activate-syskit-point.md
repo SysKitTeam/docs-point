@@ -16,7 +16,7 @@ To obtain the Syskit Point **Enterprise plan**, complete the following:
 
 You will be provided with the license key for the product activation after purchasing the selected edition of Syskit Point.
 
-Anytime, you can log in to Syskit [Customers Portal](https://my.syskit.com/) and navigate to the list of your licensed products. If you are not seeing the activation information, please [contact us](https://www.syskit.com/company/contact-us).
+Anytime, you can log in to the [Subscriptions Portal](https://subscriptions.syskit.com/) and copy the license key. If you are not seeing the activation information, please [contact us](https://www.syskit.com/company/contact-us).
 
 When opening the Syskit Point web app URL for the first time, you will be prompted to **activate your copy of Syskit Point (1) or start the trial (2)**.
 
@@ -34,7 +34,7 @@ You can check the license information in Syskit Point and manage the license on 
 
 To change the existing license key with a new one, e.g., when you are upgrading to a different license edition, here are the instructions on how to do so:
 
-1. **Navigate to Settings** &gt; **License**.
+1. **Navigate to Settings** &gt; **General** &gt; **Syskit Point Subscription**.
 2. **Click the Deactivate button**.
 3. **Enter the new license key and user details**.
 
@@ -42,7 +42,7 @@ To change the existing license key with a new one, e.g., when you are upgrading 
 
 To deactivate the Syskit Point license, please proceed with the following steps:
 
-1. **Navigate to Settings** &gt; **License**. 
+1. **Navigate to Settings** &gt; **General** &gt; **Syskit Point Subscription**.
 2. **Click the Deactivate button**. 
 
 Once that product license has been deactivated, you won’t be able to sign in and access the application until it is activated.

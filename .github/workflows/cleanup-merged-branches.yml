@@ -1,0 +1,99 @@
+name: Cleanup merged branches
+
+on:
+  schedule:
+    - cron: '0 3 * * *'   # daily at 03:00 UTC
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (log only, do not delete)'
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  pull-requests: read
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      REPO: ${{ github.repository }}
+      OWNER: ${{ github.repository_owner }}
+      DRY_RUN: ${{ github.event.inputs.dry_run || 'true' }}
+      PROTECTED_BRANCHES: 'main staging'
+    steps:
+      - name: Delete branches merged to staging > 7 days ago
+        run: |
+          set -euo pipefail
+          CUTOFF=$(date -u -d '7 days ago' +%Y-%m-%dT%H:%M:%SZ)
+          echo "Cutoff: $CUTOFF"
+          echo "Dry run: $DRY_RUN"
+
+          is_protected() {
+            for p in $PROTECTED_BRANCHES; do
+              [[ "$1" == "$p" ]] && return 0
+            done
+            return 1
+          }
+
+          gh pr list \
+            --state merged \
+            --base staging \
+            --limit 200 \
+            --json number,headRefName,mergedAt,headRepositoryOwner \
+            --jq ".[] | select(.mergedAt < \"$CUTOFF\") | select(.headRepositoryOwner.login == \"$OWNER\") | [.number, .headRefName, .mergedAt] | @tsv" \
+          | while IFS=$'\t' read -r num branch merged; do
+              if is_protected "$branch"; then
+                echo "Skip protected branch: $branch"; continue
+              fi
+
+              open=$(gh pr list --state open --head "$branch" --json number --jq 'length')
+              if [[ "$open" != "0" ]]; then
+                echo "Skip $branch (still head of an open PR)"; continue
+              fi
+
+              if ! gh api "repos/$REPO/branches/$branch" >/dev/null 2>&1; then
+                echo "Already gone: $branch"; continue
+              fi
+
+              if [[ "$DRY_RUN" == "true" ]]; then
+                echo "[dry-run] Would delete $branch (PR #$num, merged $merged)"
+              else
+                echo "Deleting $branch (PR #$num, merged $merged)"
+                gh api -X DELETE "repos/$REPO/git/refs/heads/$branch"
+              fi
+            done
+
+      - name: Flag branches that were never in a PR
+        run: |
+          set -euo pipefail
+
+          is_protected() {
+            for p in $PROTECTED_BRANCHES; do
+              [[ "$1" == "$p" ]] && return 0
+            done
+            return 1
+          }
+
+          # All branches in the repo
+          gh api --paginate "repos/$REPO/branches" --jq '.[].name' > all_branches.txt
+
+          # Every branch that has ever been the head of any PR (open, closed, merged)
+          gh pr list --state all --limit 1000 --json headRefName --jq '.[].headRefName' \
+            | sort -u > pr_branches.txt
+
+          echo ""
+          echo "::group::Branches never associated with a PR (flagged, not deleted)"
+          FOUND=0
+          while read -r branch; do
+            [[ -z "$branch" ]] && continue
+            if is_protected "$branch"; then continue; fi
+            if ! grep -Fxq "$branch" pr_branches.txt; then
+              echo "::warning::Branch '$branch' has never been in a PR"
+              FOUND=$((FOUND+1))
+            fi
+          done < all_branches.txt
+          echo "Total flagged: $FOUND"
+          echo "::endgroup::"
