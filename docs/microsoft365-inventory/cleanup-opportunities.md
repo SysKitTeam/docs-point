@@ -4,7 +4,7 @@ description: The Cleanup Opportunities tile on the Syskit Point Dashboard shows 
 
 # Cleanup Opportunities
 
-The **Cleanup Opportunities** tile on the Syskit Point Dashboard shows any permission cleanup opportunities such as, redundant unique permissions from expired links, access that differs from your current sharing policies, and files with permissions that haven't been used in a long time.
+The **Cleanup Opportunities** tile on the Syskit Point Dashboard shows any permission cleanup opportunities such as redundant unique permissions from expired links, access that differs from your current sharing policies, and files with permissions that haven't been used in a long time.
 
 The tile gives you a single place to see how many of these issues exist in your tenant and lets you take action on them directly, without having to search through reports.
 
@@ -12,7 +12,7 @@ The Cleanup Opportunities tile shows the state for four categories:
 
 * **[Redundant Unique Permissions](#redundant-unique-permissions) (1)** - these are items where unique permissions match the parent so removing them simplifies your structure without changing anyone’s access.
 * **[Leftover Anyone Links](#leftover-anyone-links) (2)** - these are anyone links that now aren't aligned with your external sharing policy because your external sharing settings have since become more restrictive.
-* **[Leftover External Users](#leftover-external-users) (3)** - these are external users whose access now aren't in compliance with your external sharing policy because your settings became more restrictive.
+* **[Leftover External Users](#leftover-external-users) (3)** - these are external users whose access is no longer in compliance with your external sharing policy because your settings became more restrictive.
 * **[Inactive Unique Permissions](#inactive-unique-permissions) (4)** - these are files with unique permissions that haven’t been accessed or modified within the defined inactivity period.
 
 ![Cleanup Opportunities tile](../../static/img/cleanup-opportunities-tile.png)
@@ -21,11 +21,11 @@ Clicking any of the counts in the tile opens the relevant report, where you can 
 
 ## Redundant Unique Permissions
 
-**After sharing links expire, get deleted, or after ad-hoc access is removed, unique permissions are often left behind even when they're no longer needed, making them redundant. This means that redundant unique permissions happen with items where unique permissions match that of its parent.** Over time, they accumulate silently: permission reviews become harder to complete, SharePoint performance degrades on heavily affected sites, and admins lose a clear picture of who actually has access. These redundant unique permissions can be safely removed to simplify your structure without changing anyone's access.
+**After sharing links expire, get deleted, or after ad-hoc access is removed, unique permissions are often left behind even when they're no longer needed, making them redundant. This means that redundant unique permissions happen with items where unique permissions match those of their parent.** Over time, they accumulate silently: permission reviews become harder to complete, SharePoint performance degrades on heavily affected sites, and admins lose a clear picture of who actually has access. These redundant unique permissions can be safely removed to simplify your structure without changing anyone's access.
 
 On the dashboard tile, you'll see the number of redundant unique permissions ready to be cleaned up, **click Set up Automation** to start.
 
-After selecting Set Up Automation, the **information dialog** opens, providing more details on Redundant Unique Permissions and leaves you with two options:
+After selecting Set Up Automation, the **information dialog** opens, providing more details on Redundant Unique Permissions and leaving you with two options:
 
 * **Turning on the Automated cleanup toggle (1)** lets Syskit Point clean up redundant unique permissions for you automatically
   * The Automated Cleanup toggle is turned off by default
@@ -33,15 +33,16 @@ After selecting Set Up Automation, the **information dialog** opens, providing m
   * Every object the automation cleans up is stored in the action history log
 
 * **Clicking Resolve Manually (2)** opens the [**Unique Permissions** report](../reporting/access-reports.md#unique-permissions-report)
-  * After generating the report, you'll see the **recommendation to Remove Redundant Unique Permissions (3)**, where applicable
-  * Selecting that object lets you complete the **Delete Unique Permissions action (4)**
+  * After generating the report, you'll see the **Remove Redundant Unique Permissions recommendation (3)** next to affected objects, where applicable 
+    * Optionally, you can use the filter next to the recommendations column to search for Redundant Unique Permissions recommendations
+  * Selecting that object lets you complete the **Delete Redundant Unique Permissions action (4)**
 
 * **Clicking View Cleanup Insights (3)** opens the [**Cleanup Opportunities Insights** report](#cleanup-opportunities-insights) on the Security & Compliance section of the Govern screen
 
 
-:::info
+:::warning
 
-**Please note:** When using multiselect, **be mindful that parent nodes in the tree may have unique permissions without the Redundant Unique Permissions recommendation**. Selecting them will delete their unique permissions even if those are still needed.
+**Please note:** Always use the **Delete Redundant Unique Permissions** action, which removes only redundant unique permissions. Do **not** use the **Delete Unique Permissions** action as it also removes unique permissions from parent nodes that may still be needed.
 
 :::
 
@@ -56,12 +57,18 @@ After selecting Set Up Automation, the **information dialog** opens, providing m
 
 On the dashboard tile, you'll see the number of inactive unique permissions ready to be cleaned up, **click Resolve Manually** to start.
 
-After selecting Resolve Manually, the **information dialog** opens, providing more details on Inactive Unique Permissions and leaves you with two options:
+After selecting Resolve Manually, the **information dialog** opens, providing more details on Inactive Unique Permissions and leaving you with two options:
 
 * **Clicking the Request Automation** button lets you send us a request for this feature to be automated, which helps us prioritize the improvements you're requesting
 * **Clicking Resolve Manually** opens the [**Permissions Matrix** report](../reporting/access-reports.md#permissions-matrix-report)
-  * After generating the report, use the **filter next to the recommendations column (1)** to search for **Delete Inactive Unique Permissions (2)**
-  * Selecting that object lets you complete the **Delete Unique Permissions (3)** actions
+  * After generating the report, you can optionally use the **filter next to the recommendations column (1)** to search for the **Delete Inactive Unique Permissions recommendation (2)**
+  * Selecting that object lets you complete the **Delete Inactive Unique Permissions action (3)**
+
+:::warning
+
+**Please note:** Always use the **Delete Inactive Unique Permissions** action, which removes only inactive unique permissions. Do **not** use the **Delete Unique Permissions** action as it also removes unique permissions from parent nodes that may still be needed.
+
+:::
 
 ![Cleanup Opportunities tile - Inactive Unique Permissions](../../static/img/cleanup-opportunities-tile-inactive.png)
 
@@ -72,7 +79,7 @@ After selecting Resolve Manually, the **information dialog** opens, providing mo
 
 On the dashboard tile, you'll see the number of leftover anyone links ready to be cleaned up, **click Set up Automation** to start.
 
-After selecting Set Up Automation, the **information dialog** opens, providing more details on Leftover Anyone Links and leaves you with two options:
+After selecting Set Up Automation, the **information dialog** opens, providing more details on Leftover Anyone Links and leaving you with two options:
 
 * **Turning on the Automated cleanup toggle (1)** lets Syskit Point remove leftover anyone links for you automatically
   * The Automated Cleanup toggle is turned off by default
@@ -97,7 +104,7 @@ After selecting Set Up Automation, the **information dialog** opens, providing m
 
 On the dashboard tile, you'll see the number of leftover external users ready to be cleaned up, **click Set up Automation** to start.
 
-After selecting Set Up Automation, the **information dialog** opens, providing more details on Leftover External Users and leaves you with two options:
+After selecting Set Up Automation, the **information dialog** opens, providing more details on Leftover External Users and leaving you with two options:
 
 * **Turning on the Automated cleanup toggle (1)** lets Syskit Point remove leftover external users for you automatically
   * The Automated Cleanup toggle is turned off by default
@@ -141,7 +148,7 @@ The following information is available:
 
 * The **Cleanup Trend section (2)**, which shows the amount of all-time cumulative cleaned items shown through a graph for automated items and manual items
 
-* The report for the current state of your Cleanup Opportiunities with the following columns included: 
+* The report for the current state of your Cleanup Opportunities with the following columns included: 
 
   * **Cleanup Opportunity (3)** - shows the name of the cleanup category
   * **Cleaned Items (4)** - shows the number of cleaned items so far
