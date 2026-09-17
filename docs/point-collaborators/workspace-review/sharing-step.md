@@ -26,8 +26,12 @@ On the task overview screen, you can find information on what is expected of you
 ![Workspace Review - Sharing Step - Overview](../../../static/img/workspace-review-sharing-step-overview.png)
 
 :::warning
-**Please note!**\
-If there are no Sharing Links to report, this step in the review is automatically skipped. Each section that does not have data to report is automatically skipped. 
+
+**Please note the following:**
+* If there are no Sharing Links to report, this step in the review is automatically skipped. Each section that does not have data to report is automatically skipped. 
+ 
+* Since SharePoint does not allow deleting a hero link, running **Remove Sharing Link** on a hero link switches its audience to **Specific people** instead of removing the link.
+
 :::
 
 
@@ -49,7 +53,8 @@ The columns available are:
 * **Created On (7)** - shows when the content was originally created
 * **Recommendation (8)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made. The following recommendation could be suggested:
    * **Expired Links** - expired sharing links are no longer valid. You can safely remove them to reduce clutter and keep your workspace clean and secure 
-* The **Remove Sharing Link (9)** action
+* **Hero link (9)** - identifies Microsoft's default per-item sharing link (the new sharing experience) and distinguishes it from classic sharing links
+* The **Remove Sharing Link (10)** action
   * Clicking this action opens the Remove Sharing Link modal, where you need to confirm the removal of the sharing link
   
 ![Workspace Review - Sharing Step - Expired Links](../../../static/img/workspace-review-sharing-step-expired.png)
@@ -106,7 +111,8 @@ The columns available are:
 * **Created On (7)** - shows when the content was originally created* **Hero link** - identifies Microsoft's default per-item sharing link (the new sharing experience) and distinguishes it from classic sharing links* **Recommendation (8)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made. The following recommendation could be suggested:
    * **Expired Links** - expired sharing links are no longer valid, you can safely remove them to reduce clutter and keep your workspace clean and secure 
    * **Unused Link** - unused links are links that haven't been used in the last 30 days
-* The **Remove Sharing Link (9)** action
+* **Hero link (9)** - identifies Microsoft's default per-item sharing link (the new sharing experience) and distinguishes it from classic sharing links
+* The **Remove Sharing Link (10)** action
   * Clicking this action opens the Remove Sharing Link modal, where you need to confirm the removal of the sharing link
 
 :::info
@@ -138,7 +144,8 @@ The columns available are:
 * **Created On (7)** - shows when the content was originally created* **Hero link** - identifies Microsoft's default per-item sharing link (the new sharing experience) and distinguishes it from classic sharing links* **Recommendation (8)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made. The following recommendation could be suggested:
    * **Expired Links** - expired sharing links are no longer valid, you can safely remove them to reduce clutter and keep your workspace clean and secure 
    * **Unused Link** - unused links are links that haven't been used in the last 30 days
-* **Remove Sharing Link (9)** action
+* **Hero link (9)** - identifies Microsoft's default per-item sharing link (the new sharing experience) and distinguishes it from classic sharing links
+* **Remove Sharing Link (10)** action
   * Clicking this action opens the Remove Sharing Link modal, where you need to confirm the removal of the sharing link
 
 :::info
