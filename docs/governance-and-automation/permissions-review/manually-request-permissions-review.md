@@ -10,7 +10,9 @@ description: This article provides a full overview of the manual access review p
 
 **⚠️ Note: Access Review will be retired in January 2027**. For a richer governance experience, we recommend completing your current reviews and then moving to Workspace Review. 
 
-Learn more in the [Workspace Review documentation](../workspace-review/).
+**New to Syskit Point?** Your Syskit Point instance comes with **Workspace Review** instead of Access Review. Access Review remains available only in Syskit Point instances that already had it enabled. To review access and permissions going forward, take a look at the [Workspace Review](../workspace-review/setup-workspace-review.md) article. 
+
+You can learn more in the [Workspace Review documentation](../workspace-review/).
 :::
 
 **Access review**, in the context of the Microsoft 365 environment, is an activity where a person responsible for a Microsoft 365 workspace - be it a Communication site, Microsoft Team, Microsoft 365 Group, or OneDrive - checks whether permissions given to users inside \(internal\) and outside \(external\) of company, comply with the organizational rules and guidelines.
@@ -38,6 +40,10 @@ To manually create an Access Review, use the **Request Review action**, **availa
 :::warning
 **Please note!**  
 You must be signed in to Syskit Point with a Syskit Point Admin account to see the Request Review action.
+:::
+
+:::tip
+**Using Workspace Review?** The on-demand equivalent is the **Request Review** action on the [Risky Workspaces](../security-compliance-checks/risky-workspaces.md) view, which lets you trigger a review of a single workspace outside its scheduled cycle.
 :::
 
 To manually request an Access Review, do the following:

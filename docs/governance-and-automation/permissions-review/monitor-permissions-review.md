@@ -12,7 +12,9 @@ description: >-
 
 **⚠️ Note: Access Review will be retired in January 2027**. For a richer governance experience, we recommend completing your current reviews and then moving to Workspace Review. 
 
-Learn more in the [Workspace Review documentation](../workspace-review/).
+**New to Syskit Point?** Your Syskit Point instance comes with **Workspace Review** instead of Access Review. Access Review remains available only in Syskit Point instances that already had it enabled. To review access and permissions going forward, take a look at the [Workspace Review](../workspace-review/setup-workspace-review.md) article. 
+
+You can learn more in the [Workspace Review documentation](../workspace-review/).
 :::
 
 :::warning
