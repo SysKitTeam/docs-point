@@ -6,6 +6,17 @@ description: >-
 
 # Complete Access Review Tasks
 
+:::warning
+
+**Automated Access Review is evolving into [Workspace Review](../workspace-review/workspace-review-overview.md)**, a more powerful solution that covers not only access but also ownership, privacy, sensitivity, and overall workspace security. 
+
+**⚠️ Note: Access Review will be retired in January 2027**. For a richer governance experience, we recommend completing your current reviews and then moving to Workspace Review. 
+
+**New to Syskit Point?** Your Syskit Point instance comes with **Workspace Review** instead of Access Review. Access Review remains available only in Syskit Point instances that already had it enabled. 
+
+You can learn more in the [Workspace Review documentation](../workspace-review/).
+:::
+
 **Access review**, in the context of the Microsoft 365 environment, is an activity where a person responsible for a Microsoft 365 workspace verifies whether permissions are given to users inside (internal) and outside (external) of the company, and comply with the organizational rules and guidelines.
 
 Some examples of such Microsoft 365 workspaces are:
