@@ -168,6 +168,7 @@ There are default columns displayed in the report which list the following:
 * **URL**
 * **Link**
 * **Link Type**
+* **Hero link** - identifies Microsoft's default per-item sharing link (the new sharing experience) and distinguishes it from classic sharing links
 * **Created On**
 * **Expiration Date**
 
@@ -177,5 +178,14 @@ The following actions can be performed within the report:
 * **Remove sharing link**
 * **Remove user access**
 * **Open related reports**
+
+:::info
+
+**Please note!**  
+Since SharePoint does not allow deleting a hero link, running **Remove sharing link** on a hero link switches its audience to **Specific people** instead of removing the link.
+
+:::
+
+
 
 The Sharing Links report can be **exported as a PDF or XLSX file**. There is also the **option to schedule the report**.

@@ -106,7 +106,13 @@ To generate the User Access report:
 
 * **Click the Reports button**; it is located on left side of your Syskit Point.
 * **Select Permission Reports in the filter**; it can be found in the upper left corner.
-* **Click the User Access report** to be redirected to the options screen.
+* **Click the User Access report** to be redirected to the options screen, the following columns are shown:
+  * Display Name
+  * Username
+  * Department
+  * Sign-in
+  * External
+  * Last Tenant Log In
 * **Select one or multiple users** to include in the report.
    * Click the checkboxes on the left side of the screen. 
 * **Click the Run Report button**.
@@ -127,6 +133,9 @@ The default columns displayed in the report are:
 * **Access**; the permissions level of the user
 * **Given Through**
 * **Details**; shows where the user received the permission from
+* **Created On**; shows the date user was created on
+* **Last Tenant Log in**; shows the last time user was logged into the tenant
+* **Hero link**; identifies Microsoft's default per-item sharing link (the new sharing experience) and distinguishes it from classic sharing links
       
 The additional columns available in the **column chooser**, located in the top right corner of the report, are:
       
