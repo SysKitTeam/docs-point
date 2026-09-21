@@ -108,7 +108,7 @@ The columns available are:
 * **Expiration Date (4)** - shows when the link is set to expire
 * **Last Used (5)** - the date the content was last used
 * **Sensitivity label (6)** - shows if there is a sensitivity label assigned to the content
-* **Created On (7)** - shows when the content was originally created* **Hero link** - identifies Microsoft's default per-item sharing link (the new sharing experience) and distinguishes it from classic sharing links 
+* **Created On (7)** - shows when the content was originally created
 * **Recommendation (8)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made. The following recommendation could be suggested:
    * **Expired Links** - expired sharing links are no longer valid, you can safely remove them to reduce clutter and keep your workspace clean and secure 
    * **Unused Link** - unused links are links that haven't been used in the last 30 days
