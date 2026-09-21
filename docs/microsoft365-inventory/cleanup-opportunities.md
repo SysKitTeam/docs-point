@@ -50,6 +50,11 @@ After selecting Set Up Automation, the **information dialog** opens, providing m
 
 ![Cleanup Opportunities tile - Redundant Unique Permissions](../../static/img/cleanup-opportunities-tile-redundant.png)
 
+### Cleanup Redundant Unique Permissions
+
+* **Watch this 2-minute video to learn what redundant unique permissions are, why you should clean them up, and how to automate the process.**
+
+<YouTubeEmbed videoId="-NsAPMp2a1U" />
 
 ## Inactive Unique Permissions
 
