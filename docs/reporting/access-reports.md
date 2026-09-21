@@ -22,6 +22,10 @@ The Permissions Matrix report gives insight into who has access to which content
 
 It allows viewing site hierarchy and permissions down to the document level.
 
+:::video
+ See the Permissions Matrix Report in action in the [Audit Permissions Across Microsoft 365 Sites video](https://www.youtube.com/watch?v=NiT_0YJVDTU).
+:::
+
 ### Generate Report
 
 * **Click the Reports button**; it is located on left side of your Syskit Point.
@@ -208,6 +212,9 @@ The Group Memberships report shows all members, owners, and guest users across y
 * **Distribution Lists**
 * **Distribution Lists (On-Premises)**
 
+:::video
+ See the Group Memberships Report in action in the [Review Group Memberships in Microsoft 365 video](https://www.youtube.com/watch?v=INXJR9uOwm8).
+:::
 
 The views available when generating the report are the following:
   * Microsoft 365 Groups
