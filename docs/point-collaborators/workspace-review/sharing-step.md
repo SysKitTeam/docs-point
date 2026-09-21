@@ -77,10 +77,10 @@ The columns available are:
 * **Last Used (5)** - the date the content was last used
 * **Sensitivity label (6)** - shows if there is a sensitivity label assigned to the content
 * **Created On (7)** - shows when the content was originally created
-* **Hero link** - identifies Microsoft's default per-item sharing link (the new sharing experience) and distinguishes it from classic sharing links
 * **Recommendation (8)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made. The following recommendation could be suggested:
    * **Unused Link** - unused links are links that haven't been used in the last 30 days
-* The **Remove Sharing Link (9)** action
+* **Hero link (9)** - identifies Microsoft's default per-item sharing link (the new sharing experience) and distinguishes it from classic sharing links
+* The **Remove Sharing Link (10)** action
   * Clicking this action opens the Remove Sharing Link modal, where you need to confirm the removal of the sharing link
 
 :::info
@@ -108,7 +108,8 @@ The columns available are:
 * **Expiration Date (4)** - shows when the link is set to expire
 * **Last Used (5)** - the date the content was last used
 * **Sensitivity label (6)** - shows if there is a sensitivity label assigned to the content
-* **Created On (7)** - shows when the content was originally created* **Hero link** - identifies Microsoft's default per-item sharing link (the new sharing experience) and distinguishes it from classic sharing links* **Recommendation (8)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made. The following recommendation could be suggested:
+* **Created On (7)** - shows when the content was originally created* **Hero link** - identifies Microsoft's default per-item sharing link (the new sharing experience) and distinguishes it from classic sharing links 
+* **Recommendation (8)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made. The following recommendation could be suggested:
    * **Expired Links** - expired sharing links are no longer valid, you can safely remove them to reduce clutter and keep your workspace clean and secure 
    * **Unused Link** - unused links are links that haven't been used in the last 30 days
 * **Hero link (9)** - identifies Microsoft's default per-item sharing link (the new sharing experience) and distinguishes it from classic sharing links
@@ -141,7 +142,8 @@ The columns available are:
 * **Expiration Date (4)** - shows when the link is set to expire
 * **Last Used (5)** - shows when the link was last used
 * **Sensitivity label (6)** - shows if there is a sensitivity label assigned to the content
-* **Created On (7)** - shows when the content was originally created* **Hero link** - identifies Microsoft's default per-item sharing link (the new sharing experience) and distinguishes it from classic sharing links* **Recommendation (8)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made. The following recommendation could be suggested:
+* **Created On (7)** - shows when the content was originally created
+* **Recommendation (8)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made. The following recommendation could be suggested:
    * **Expired Links** - expired sharing links are no longer valid, you can safely remove them to reduce clutter and keep your workspace clean and secure 
    * **Unused Link** - unused links are links that haven't been used in the last 30 days
 * **Hero link (9)** - identifies Microsoft's default per-item sharing link (the new sharing experience) and distinguishes it from classic sharing links
@@ -181,10 +183,10 @@ The columns available are:
 * **Access (3)** - the level of access given for that file
 * **Given Through (4)** - shows how the file was shared
 * **Sensitivity label (5)** - shows if there is a sensitivity label assigned to the file
-* **Hero link** - identifies Microsoft's default per-item sharing link (the new sharing experience) and distinguishes it from classic sharing links
-* **Remove Sharing Link (6)** action
+* **Hero link (6)** - identifies Microsoft's default per-item sharing link (the new sharing experience) and distinguishes it from classic sharing links
+* **Remove Sharing Link (7)** action
   * Clicking this action opens the Remove Sharing Link modal, where you need to confirm the removal of the sharing link
-* **Remove Access (7)** action
+* **Remove Access (8)** action
   * Clicking this opens the Remove Access modal, where you need to confirm the removal of access for this user
   * This action removes access for that specific user to the file that was shared
 
