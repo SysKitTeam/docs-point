@@ -20,10 +20,11 @@ description: This article lists improvements and bug fixes in the Syskit Point C
   * **Org-wide and Anonymous default sharing links are now reported before they are used.** Syskit Point detects default (hero) links shared with your entire organization or with anyone and shows them on the Sharing Links report, and on the Anonymous Access Links report for Anyone links, even before SharePoint has fully registered them.
   * **Fixed an issue** where a report view could not be created when it contained too many filters.
 
-* **Fixed an issue** where a site's template could not always be determined during discovery.
+* **Fixed an issue** where some sites could be labeled with an incorrect site template when their actual template could not be determined during sync.
 
-* **Fixed a bug** where reports emailed as attachments larger than 3 MB, such as the All Users report, failed to send.
+* **Fixed a bug** where Point failed to send emails with attachments larger than 3MB when the Exchange Online send method was selected. 
+  * This could occur when PDF reports or multiple XLSX reports were sent in the same email.
 
-* **Fixed an issue** where emails sent through an SMTP server could time out before being sent.
+* **Fixed an issue** where emails sent using the SMTP method could time out before being sent.
 
 * **Various improvements, including UX and UI fixes, have been implemented.**
