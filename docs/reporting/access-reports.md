@@ -138,7 +138,8 @@ The default columns displayed in the report are:
 * **Given Through**
 * **Details**; shows where the user received the permission from
 * **Created On**; shows the date user was created on
-* **Last Tenant Log in**; shows the last time user was logged into the tenant
+* **Last Tenant Log in**; shows the last time the user signed in to the tenant 
+  * This value comes from the user's Microsoft Entra sign-in activity and reflects their most recent successful sign-in, whether they signed in themselves or were signed in automatically in the background; for ad hoc external users, who have no Microsoft Entra account, it reflects their most recent activity recorded in the Microsoft 365 audit log
 * **Hero link**; identifies Microsoft's default per-item sharing link (the new sharing experience) and distinguishes it from classic sharing links
       
 The additional columns available in the **column chooser**, located in the top right corner of the report, are:
