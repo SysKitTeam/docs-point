@@ -35,7 +35,7 @@ description: This article lists new features, improvements, and bug fixes in the
 * **Syskit Point now supports Microsoft's new Hero Links sharing experience!**
   * Microsoft is moving SharePoint and OneDrive sharing to a single link per file, referred to as Hero Links. 
   * **A new Hero Link column is now available on link-based reports.**
-    * The column is available on all reports that list individual sharing links, including the Sharing Links and User Access reports, as well as the Workspace Review wizard steps for All Shared Content, Anyone Links, Company-Wide Links, Unused Links, and User Access.
+    * The column is available on all reports that list individual sharing links, including the Sharing Links and User Access reports, as well as the Workspace Review wizard Sharing steps.
     * It identifies Microsoft's default per-item sharing links and distinguishes them from classic sharing links.
   * **The Remove Sharing Link and Remove Access actions now work on hero links.**
     * Since SharePoint does not allow deleting a hero link, the Remove Sharing Link action switches its audience to Specific people instead.
