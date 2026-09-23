@@ -20,9 +20,9 @@ In this article, you can find details on:
 ## Prerequisites
 
 To set up and configure AI Agents: 
-* The **service account** you connect in Syskit Point needs to have the **Power Platform Administrator** role.
-   * Syskit Point signs in with this account to read the agents across your tenant.
-* The user configuring these settings must have the **Global Administrator** role to grant all the agent configuration permissions required on the settings screen.
+* You need the Global Administrator role.
+* You need a **service account** with a **Power Platform Administrator** role assigned.
+  * Syskit Point signs in with this account to read the agents across your tenant.
 
 ## AI Agents in Settings
 
