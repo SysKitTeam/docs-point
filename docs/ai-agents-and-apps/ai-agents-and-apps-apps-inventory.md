@@ -83,4 +83,12 @@ Each app is assigned one of the following classifications:
 * **Microsoft First-Party** - apps published by Microsoft. These are classified so you can filter them out of the default view.
 * **Other** - apps that matched none of the above.
 
+## Related Articles
+
+* [AI Agents Overview](ai-agents-and-apps-overview.md)
+* [Configure AI Agents](ai-agents-and-apps-settings.md)
+* [AI Agents Dashboard](ai-agents-and-apps-dashboard-tile.md)
+* [Agents Inventory Report](ai-agents-and-apps-agents-inventory.md)
+* [AI Agents Reports](../reporting/ai-agents-reports.md)
+
 

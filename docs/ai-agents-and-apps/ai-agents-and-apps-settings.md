@@ -11,16 +11,17 @@ In this article, you can find details on:
 * [Prerequisites](#prerequisites)
 * [Set Up AI Agents](#ai-agents-in-settings)
 
-
 :::info
 **AI Agents in Syskit Point is currently in Early Access** and free to use while the feature is in active development. Feature behavior and scope may change as new capabilities are released.
 :::
 
-
 ## Prerequisites
 
-* To set up and configure AI Agents, you need the **Syskit Point Admin** role.
-* You need a **service account with a Power Platform Administrator role** assigned in Entra ID. Syskit Point signs in with this account to read the agents across your tenant.
+To set up and configure AI Agents: 
+
+* You need the Global Administrator role.
+* You need a **service account** with a **Power Platform Administrator** role assigned.
+  * Syskit Point signs in with this account to read the agents across your tenant.
 
 ## AI Agents in Settings
 
@@ -61,4 +62,12 @@ Under **Agent configuration**, grant the permissions Syskit Point needs to read 
 * **Click Save** to store your preferences.
 
 Once the service account is connected and the permissions are granted, the first **AI Agents data sync** starts. When completed, the summary data shows on the [AI Agents dashboard tile](ai-agents-and-apps-dashboard-tile.md). From there, you can drill to open the Agents Inventory and Apps Inventory reports for a detailed overview of the agents and Entra apps in your tenant.
+
+## Related Articles
+
+* [AI Agents Overview](ai-agents-and-apps-overview.md)
+* [AI Agents Dashboard](ai-agents-and-apps-dashboard-tile.md)
+* [Agents Inventory Report](ai-agents-and-apps-agents-inventory.md)
+* [Apps Inventory Report](ai-agents-and-apps-apps-inventory.md)
+* [AI Agents Reports](../reporting/ai-agents-reports.md)
 
