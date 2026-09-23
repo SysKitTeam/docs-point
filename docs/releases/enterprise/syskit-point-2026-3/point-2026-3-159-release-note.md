@@ -41,11 +41,6 @@ For detailed step-by-step instructions on how to upgrade Syskit Point, refer to 
 
 ## New Features
 
-* **Syskit Point AI is now available in Early Access.**
-  * Syskit Point now uses AI to turn your governance data into faster answers and clearer priorities.
-  * Features that use large language models are off by default and must be enabled by a Syskit Point admin, while the new machine learning-supported report is available to everyone with no setup.
-  * [Explore what Syskit Point AI can do in this section.](../../../ai-in-syskit-point/README.md)
-
 * **New inventory of AI Agents and Apps is now available!**
   * Syskit Point now provides a unified inventory of the Microsoft agents and apps that can access your Microsoft 365 data.
   * The new **AI Agents** dashboard tile shows how many AI agents and Entra apps are present in your environment and lets you drill into the underlying reports directly from the tile or the Report Center.
