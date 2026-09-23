@@ -49,3 +49,11 @@ The section shows the counts you'll want to keep an eye on:
 * **Accessed Sensitive Data** - apps that have accessed sensitive content
 
 Clicking **View all apps** opens the [Apps Inventory](ai-agents-and-apps-apps-inventory.md) report, where you can review every app in detail and take action. You can also click any of the counts to open the report filtered to that view.
+
+## Related Articles
+
+* [AI Agents Overview](ai-agents-and-apps-overview.md)
+* [Configure AI Agents](ai-agents-and-apps-settings.md)
+* [Agents Inventory Report](ai-agents-and-apps-agents-inventory.md)
+* [Apps Inventory Report](ai-agents-and-apps-apps-inventory.md)
+* [AI Agents Reports](../reporting/ai-agents-reports.md)
