@@ -34,3 +34,5 @@ The Enterprise trial enables you to utilize all of the Syskit Point features whi
 * **PDF exports will have a watermark** stating you exported the file during the Syskit Point Trial
 
 * **The Set Version Limit action** for Storage is not available during your trial period 
+
+* **Cleanup automations cannot be enabled** during your trial period; you can still review your cleanup opportunities and resolve them manually
