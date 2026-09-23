@@ -8,7 +8,7 @@ description: This article lists improvements and bug fixes in Syskit Point versi
 
 **Product version:** 2026.3.159
 
-**Build number:** 123
+**Build number:** 125
 
 **Release date:** September 23, 2026
 
@@ -19,7 +19,7 @@ description: This article lists improvements and bug fixes in Syskit Point versi
 * **Already using Syskit Point?** Upgrade to the latest Syskit Point version.\
  [![](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitassetsstorage.blob.core.windows.net%2Fpoint%2FARMTemplates%2FPointUpdateDeploy%2FPointUpdateTemplate.json)
 * **Need this specific version?**\
-[Deploy Syskit Point version 2026.3.159](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitdownloadsstorage.blob.core.windows.net%2Fpoint%2Fdeployment-packages%2Fv2026-3-159-123%2FPointUpdateTemplate.json)
+[Deploy Syskit Point version 2026.3.159](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsyskitdownloadsstorage.blob.core.windows.net%2Fpoint%2Fdeployment-packages%2Fv2026-3-159-125%2FPointUpdateTemplate.json)
 
 For detailed step-by-step instructions on how to upgrade Syskit Point, refer to the [upgrade article](../../../set-up-point-enterprise/deployment/upgrade-syskit-point.md).
 
