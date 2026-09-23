@@ -10,7 +10,7 @@ description: This article lists improvements and bug fixes in Syskit Point versi
 
 **Build number:** 123
 
-**Release date:** September 22, 2026
+**Release date:** September 23, 2026
 
 ## Get the Latest Version
 
