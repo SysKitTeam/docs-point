@@ -888,7 +888,6 @@ const sidebars: SidebarsConfig = {
             id: 'power-platform/power-platform-reports/README',
           },
           items: [
-            'power-platform/power-platform-reports/copilot-agents-reports',
             'power-platform/power-platform-reports/power-platform-environments-reports',
             'power-platform/power-platform-reports/power-apps-reports',
             'power-platform/power-platform-reports/power-automate-reports',
