@@ -20,13 +20,13 @@ This article describes Syskit Point upgrades for Syskit Point Enterprise custome
 **Upgrade banner is displayed at the bottom of the Home screen to all users signed into the Syskit Point web app** in case there is a new Syskit Point version detected, which comes with one or several changes from the following categories:
 * **Major features**
   * The new version of Syskit Point comes with new reports, actions, policies, etc., or significant improvements in existing features.
-  * This is usually reflected by changing the 2nd number in Syskit Point version; for example, old version is `2024.1.44`, and new version is `2024.2.45`.
+  * This is usually reflected by changing the 2nd number in Syskit Point version; for example, old version is `2026.2.157`, and new version is `2026.3.159`.
 * **Hotfixes**
   * Hotfix version is released in order to remedy critical issues in Syskit Point or breaking changes coming from the Microsoft 365 platform.
-  * Expect the third number in the Syskit Point version to change; for example, the old version is `2024.1.44`, and the new version is `2024.1.45`.
+  * Expect the third number in the Syskit Point version to change; for example, the old version is `2026.2.155`, and the new version is `2026.2.157`.
 * **Security Updates**
   * A new version of Syskit Point resolves security vulnerabilities found in 3rd party dependencies or Syskit Point codebase itself. 
-  * Here, you can also expect the third number in the Syskit Point version to change; for example, the old version is `2024.1.46`, and the new version is `2024.1.47`.
+  * Here, you can also expect the third number in the Syskit Point version to change; for example, the old version is `2026.2.141`, and the new version is `2024.2.143`.
 
 :::warning
 **Please note!**\
@@ -41,11 +41,11 @@ The **Read What's New** **link (1)** opens a new tab in your browser at the [Rel
 
 Clicking the **Download Latest Version (2)** link will redirect you to the latest **Release Note page** displaying the **Deploy to Azure** button.
 
-**To hide the Update message**, **click the Close link (3)** visible on the right side. The message will stay hidden until the next time you log in to Syskit Point.
+**To hide the Update message**, **click the close icon (3)** visible on the right side. The message will stay hidden until the next time you log in to Syskit Point.
 
 ## Upgrading to the Latest Version
 
-After you **open the latest Release note**, **click** the **Deploy to Azure button (1)**. 
+After you **open the latest Release note**, **click** the **Deploy to Azure button**. 
 
 ![Deploy to Azure Button](../../../static/img/upgrade-syskit-point-deploy.png)
 
