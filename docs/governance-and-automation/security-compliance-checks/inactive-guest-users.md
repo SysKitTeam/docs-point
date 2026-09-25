@@ -16,7 +16,7 @@ bringing awareness of potential issues in their Microsoft 365 environment.
 
 On the Security & Compliance dashboard, click the **Inactive Guest Users** button to see the report.
 
-The Inactive Guest Users screen opens, showing a list of all **users that have not been active for a defined period of time**.
+The Inactive Guest Users screen opens, showing a list of all **users that have not been active for a defined period of time**. This policy evaluates only guest users that have an Azure AD account. Ad hoc external users are not included in the report.
 
 The report itself provides information on:
   * **User (1)** name
@@ -25,7 +25,7 @@ The report itself provides information on:
   * **Status (4)** - status of the policy vulnerability
   * **Assigned to (5)** - who the policy vulnerability is assigned to for a resolution
   * **Sign-in (6)** - shows whether the user is blocked or not
-  * **Last Logged-in (7)** - date and time when the user was last online
+  * **Last Tenant Log In (7)** - date and time the user last signed in to the tenant, taken from their latest Azure AD sign-in activity
 
 You can remove the user and resolve the vulnerability by **clicking the Delete User button (7)**. 
 
