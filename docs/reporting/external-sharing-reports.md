@@ -98,7 +98,8 @@ The default columns displayed in the report are:
 * **E-mail**
 * **Username**
 * **Domain**
-* **Last Logged In** 
+* **Last Tenant Log In**; shows the most recent time the user signed in to the tenant
+  * This value comes from the user's Microsoft Entra sign-in activity and reflects their most recent successful sign-in, whether they signed in themselves or were signed in automatically in the background; for ad hoc external users, who have no Microsoft Entra account, it reflects their most recent activity recorded in the Microsoft 365 audit log
 * **Sponsor**; the internal user or sponsor group synced from Microsoft 365 who is responsible for the guest user's access
     
 There is one additional column available in the column chooser.
