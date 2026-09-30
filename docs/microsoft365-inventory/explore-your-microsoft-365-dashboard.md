@@ -360,6 +360,6 @@ The tile on the Dashboard shows the following:
 * The number of **Leftover Anyone Links** and the **Set Up Automation** button, which opens the information dialog where you can turn on the **Automated cleanup** toggle or choose to Resolve Manually which opens the **Sharing Links** report
 * The number of **Leftover External Users** and the **Set Up Automation** button, which opens the information dialog where you can turn on the **Automated cleanup** toggle or choose to Resolve Manually which opens the **Externally Shared Content** report
 
-[For more details on the Cleanup Opportunities tile, take a look at this article.](cleanup-opportunities.md)
+[For more details on the Cleanup Opportunities tile, take a look at this article.](../governance-and-automation/cleanup-opportunities.md)
 
 ![Cleanup Opportunities tile](../../static/img/dashboard-cleanup-opportunities-tile.png)
