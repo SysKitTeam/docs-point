@@ -10,7 +10,7 @@ The tile gives you a single place to see how many of these issues exist in your 
 
 The Cleanup Opportunities tile shows the state for four categories:
 
-* **[Redundant Unique Permissions](#redundant-unique-permissions) (1)** - these are items where unique permissions match the parent so removing them simplifies your structure without changing anyone’s access.
+* **[Redundant Unique Permissions](#redundant-unique-permissions) (1)** - these are items where unique permissions match the parent, with the same users and groups and the same permission levels, so removing them simplifies your structure without changing anyone’s access.
 * **[Leftover Anyone Links](#leftover-anyone-links) (2)** - these are anyone links that now aren't aligned with your external sharing policy because your external sharing settings have since become more restrictive.
 * **[Leftover External Users](#leftover-external-users) (3)** - these are external users whose access is no longer in compliance with your external sharing policy because your settings became more restrictive.
 * **[Inactive Unique Permissions](#inactive-unique-permissions) (4)** - these are files with unique permissions that haven’t been accessed or modified within the defined inactivity period.
@@ -21,7 +21,9 @@ Clicking any of the counts in the tile opens the relevant report, where you can 
 
 ## Redundant Unique Permissions
 
-**After sharing links expire, get deleted, or after ad-hoc access is removed, unique permissions are often left behind even when they're no longer needed, making them redundant. This means that redundant unique permissions happen with items where unique permissions match those of their parent.** Over time, they accumulate silently: permission reviews become harder to complete, SharePoint performance degrades on heavily affected sites, and admins lose a clear picture of who actually has access. These redundant unique permissions can be safely removed to simplify your structure without changing anyone's access.
+**After sharing links expire, get deleted, or after ad-hoc access is removed, unique permissions are often left behind even when they're no longer needed, making them redundant.** This means that **redundant unique permissions happen with items where unique permissions match those of their parent**, with the same users and groups directly assigned the same permission levels. Items with sharing links aren't flagged, since removing them would change access.
+
+Over time, redundant unique permissions can accumulate silently: permission reviews become harder to complete, SharePoint performance degrades on heavily affected sites, and admins lose a clear picture of who actually has access. These redundant unique permissions can be safely removed to simplify your structure without changing anyone's access.
 
 On the dashboard tile, you'll see the number of redundant unique permissions ready to be cleaned up, **click Set up Automation** to start.
 

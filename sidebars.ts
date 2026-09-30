@@ -560,7 +560,6 @@ const sidebars: SidebarsConfig = {
         'microsoft365-inventory/sites',
         'microsoft365-inventory/microsoft-teams-and-groups',
         'microsoft365-inventory/users',
-        'microsoft365-inventory/cleanup-opportunities',
         'microsoft365-inventory/copilot-readiness',
         'microsoft365-inventory/power-platform'       
       ],
@@ -686,6 +685,7 @@ const sidebars: SidebarsConfig = {
       },
       items: [
         'governance-and-automation/syskit-point-tasks',
+        'governance-and-automation/cleanup-opportunities',
         {
           type: 'category',
           label: 'Workspace Review',

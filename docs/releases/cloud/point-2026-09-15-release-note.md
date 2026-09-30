@@ -28,7 +28,7 @@ description: This article lists new features, improvements, and bug fixes in the
     * You can still resolve leftover external users manually from the Cleanup Opportunities tile.
   * Every removed access is recorded in the action history, so you can track what was changed and when.
   * Automated cleanup is turned off by default and is available only with a licensed subscription.
-  * For more details, [take a look at the Leftover External Users section of the Cleanup Opportunities article.](../../microsoft365-inventory/cleanup-opportunities.md#leftover-external-users)
+  * For more details, [take a look at the Leftover External Users section of the Cleanup Opportunities article.](../../governance-and-automation/cleanup-opportunities.md#leftover-external-users)
 
 ## Improvements & Bug Fixes
 

@@ -54,19 +54,19 @@ For detailed step-by-step instructions on how to upgrade Syskit Point, refer to 
     * When enabled, Syskit Point detects leftover anyone links that no longer comply with your external sharing policy and removes them.
     * Every removed link is recorded in the action history, so you can track what was changed and when.
     * By default, automation is turned off.
-    * For more details, [please take a look at the Leftover Anyone Links section of the Cleanup Opportunities article.](../../../microsoft365-inventory/cleanup-opportunities.md#leftover-anyone-links)
+    * For more details, [please take a look at the Leftover Anyone Links section of the Cleanup Opportunities article.](../../../governance-and-automation/cleanup-opportunities.md#leftover-anyone-links)
   * **Automated cleanup is now available for Leftover External Users.**
     * Syskit Point can now remove leftover external users automatically, instead of you having to resolve them manually.
     * When enabled, Syskit Point detects external users whose access no longer complies with your external sharing settings and removes it.
       * You can still resolve leftover external users manually from the Cleanup Opportunities tile.
     * Every removed access is recorded in the action history, so you can track what was changed and when.
     * Automated cleanup is turned off by default and is available only with a licensed subscription.
-    * For more details, [take a look at the Leftover External Users section of the Cleanup Opportunities article.](../../../microsoft365-inventory/cleanup-opportunities.md#leftover-external-users)
+    * For more details, [take a look at the Leftover External Users section of the Cleanup Opportunities article.](../../../governance-and-automation/cleanup-opportunities.md#leftover-external-users)
   * **A new Cleanup Opportunities Insights report is available.**
     * You can find the report in the **Governance** area, under the **Security & Compliance** section, and it provides an overview of all completed and pending cleanup actions taken from the Cleanup Opportunities tile.
     * The Cleanup Opportunities Insights report tracks the cleanup opportunities that have been resolved or are currently pending, split into **Automated** and **Manual** cleanup.
     * The Cleanup Trend graph is cumulative and shows the total number of resolved items as it changes over time.
-    * For more details, [please take a look at the Cleanup Opportunities Insights section of the Cleanup Opportunities article.](../../../microsoft365-inventory/cleanup-opportunities.md#cleanup-opportunities-insights)
+    * For more details, [please take a look at the Cleanup Opportunities Insights section of the Cleanup Opportunities article.](../../../governance-and-automation/cleanup-opportunities.md#cleanup-opportunities-insights)
   * **Cleanup automations are available only with a licensed subscription and cannot be accessed during your free trial.**
     * During the free trial, you can still review your cleanup opportunities and resolve them manually, but automated cleanup cannot be turned on.
 
