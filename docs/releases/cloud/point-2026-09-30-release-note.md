@@ -2,7 +2,7 @@
 description: This article lists improvements and bug fixes in the Syskit Point Cloud version 2026.3.161.1
 ---
 
-# September 29, 2026
+# September 30, 2026
 
 [Start a free trial](https://www.syskit.com/products/point/free-trial/) and [tell us what you think](https://www.syskit.com/company/contact-us/).
 
