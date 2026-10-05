@@ -170,6 +170,7 @@ There are default columns displayed in the report which list the following:
 * **Link**
 * **Link Type**
 * **Hero link** - identifies Microsoft's default per-item sharing link (the new sharing experience) and distinguishes it from classic sharing links
+  * [For more details, take a look at the Hero Links article.](hero-links.md)
 * **Created On**
 * **Expiration Date**
 
