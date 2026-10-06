@@ -28,7 +28,7 @@ description: This article lists new features, improvements, and bug fixes in the
     * **Knowledge Sources**
       * This action opens a list of all the knowledge sources the selected agent uses, with the **name**, **type**, **location**, and **sensitivity label** of each source.
   * To complete these actions, you need permission to manage the agent in Microsoft 365.
-  * For more details, [please take a look at the article link here.](../../ai-agents-and-apps/ai-agents-and-apps-overview.md)
+  * For more details, [please take a look at the AI Agents Actions article.](../../ai-agents-and-apps/ai-agents-and-apps-actions.md#agent-actions)
 
 * **New actions are available for Entra apps.**
   * You can now complete the following actions on the **Apps Inventory** report and on the app details screen:
@@ -37,15 +37,14 @@ description: This article lists new features, improvements, and bug fixes in the
     * **Delete**
       * This action helps you remove apps that are no longer needed.
       * For apps registered in your tenant, both the app registration and its enterprise application are deleted.
-  * For more details, [please take a look at the article link here.](../../ai-agents-and-apps/ai-agents-and-apps-overview.md)
+  * For more details, [please take a look at the Entra App Actions article.](../../ai-agents-and-apps/ai-agents-and-apps-actions.md#entra-app-actions)
 
 
 * **New details screens are available for AI agents and Entra apps.**
   * The details screens bring together all the key information about a single agent or app, along with the actions you can take on it.
-  * The AI Agents details screen can be accessed by clicking an Agent name on the Agents Inventory Report. 
-  * The AI Apps details screen can be accessed by clicking an Apps name on the Apps Inventory Report. 
+  * The [AI Agents details screen](../../ai-agents-and-apps/ai-agents-and-apps-agents-inventory.md#agent-details) can be accessed by clicking an Agent name on the Agents Inventory Report. 
+  * The [AI Apps details screen](../../ai-agents-and-apps/ai-agents-and-apps-apps-inventory.md#app-details) can be accessed by clicking an Apps name on the Apps Inventory Report. 
   * AI Agents in Syskit Point is still in early access, and the details screens will be expanded with new information over time.
-  * For more details, [please take a look at the article link here.](../../ai-agents-and-apps/ai-agents-and-apps-overview.md)
 
 ## Improvements & Bug Fixes
 
