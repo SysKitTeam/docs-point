@@ -65,6 +65,9 @@ The additional columns available in the column chooser are:
 
 The Agents Inventory report can be **exported as PDF, CSV and XLSX files**. There is also the **option to schedule the report**.
 
+Selecting one or more agents in the report lets you complete agent actions, such as Block, Reassign, and Delete.
+* [Take a look at the AI Agents Actions article for more details on all the available agent actions.](ai-agents-and-apps-actions.md)
+
 ## Sensitive Agents
 
 An agent is flagged as **Sensitive** when it references sensitive content through its knowledge sources. A knowledge source is considered sensitive when:
@@ -78,10 +81,43 @@ This applies to all agent types - SharePoint agents, Copilot Studio agents, and 
 
 To control which sensitivity labels are treated as sensitive content, [see how to view and manage sensitive content in the Settings](../microsoft365-inventory/copilot-readiness.md#sensitive-files).
 
+## Agent Details
+
+The agent details screen brings together all the key information about a single agent, along with the actions you can take on it.
+
+To open the agent details screen, **click the agent name** on the Agents Inventory report.
+
+The agent details screen is available for **Copilot Studio** and **Agent Builder** agents. SharePoint agents continue to use their existing details screen.
+
+The agent details screen contains the following tiles:
+
+* **The General Info tile** shows the key information about the agent. The tile header shows whether it is a Copilot Studio Agent or an Agent Builder Agent. The following information is available on the tile:
+
+  * **Agent type**
+  * **Location** - the Power Platform environment where the agent is located
+  * **Created** - when and by whom the agent was created
+  * **Last modified** - when and by whom the agent was last modified
+  * **Published** - whether the agent is published, and the publishing date
+  * **Agent identity** - whether the agent has an agent identity
+  * **Owners** and **Sponsors** - shown as links you can click to drill down
+  * **Access** - whether the agent is Private, Shared, or available to Everyone
+  * **Users & groups** - the number of users and groups the agent is shared with, or Everyone if the agent is shared with the entire organization
+  * **Last used** - date when the agent was last used
+  * **Blocked** - whether the agent is blocked
+  * If a value is not available for the agent, the tile shows **Not available**
+* **The Insights tile** shows the same highlights as the **Insights** column on the Agents Inventory report, with slightly more detail, showcasing any potential issues
+* **The Active users** tile shows the number and list of active users that have utilized the agent in the last 30 days
+* **The Knowledge Sources tile** lists the knowledge sources the agent uses, with the **Name**, **Type**, **Location**, and **Sensitivity Label** of each source.
+
+
+From the agent details screen, you can also complete the **Block** or **Unblock**, **Reassign**, and **Delete** actions for that agent.
+* [Take a look at the AI Agents Actions article for more details.](ai-agents-and-apps-actions.md)
+
 ## Related Articles
 
 * [AI Agents Overview](ai-agents-and-apps-overview.md)
 * [Configure AI Agents](ai-agents-and-apps-settings.md)
 * [AI Agents Dashboard](ai-agents-and-apps-dashboard-tile.md)
 * [Apps Inventory Report](ai-agents-and-apps-apps-inventory.md)
+* [AI Agents Actions](ai-agents-and-apps-actions.md)
 * [AI Agents Reports](../reporting/ai-agents-reports.md)
