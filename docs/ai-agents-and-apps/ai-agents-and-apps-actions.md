@@ -23,7 +23,7 @@ To help you manage them, the following actions are available in Syskit Point:
   * [Block sign-in and Allow sign-in](#block-sign-in-and-allow-sign-in)
   * [Delete](#delete-app)
 
-These actions help you stop people from using agents, stop apps from signing in to your tenant, resolve orphaned agents by assigning a new owner, and remove agents and apps that are no longer needed.
+These actions help you stop users from using agents, stop apps from signing in to your tenant, resolve orphaned agents by assigning a new owner, and remove agents and apps that are no longer needed.
 
 * [Take a look at the Agents Inventory Report article for more details on the agents report.](ai-agents-and-apps-agents-inventory.md)
 * [Take a look at the Apps Inventory Report article for more details on the apps report.](ai-agents-and-apps-apps-inventory.md)
@@ -50,27 +50,39 @@ The Block and Unblock actions can be completed for **Copilot Studio** and **Agen
 
 Once you generate the Agents Inventory report:
 
-* **Selecting one or more agents** lets you complete **the Block or Unblock action**.
-  * The **Block action** is available for agents that are not blocked.
-  * The **Unblock action** is available for agents that are already blocked.
-* **Clicking the Block or Unblock action** opens the confirmation dialog.
-  * When you select multiple agents, the dialog title and the confirmation button show the number of agents the action applies to.
-* **Confirm the action** to block or unblock the selected agents.
+* **Selecting one or more agents** lets you complete **the Block or Unblock action**
+  * The **Block action (1)** is available for agents that are not blocked
+  * The **Unblock action (2)** is available for agents that are already blocked
+* **Clicking the Block or Unblock action** opens the confirmation dialog
+  * When you select multiple agents, the dialog title and the confirmation button show the number of agents the action applies to
+* **Confirm the action** to block or unblock the selected agents
 
 On the agent details screen, the Block or Unblock action is available depending on whether the agent is already blocked.
 
+![AI Agents - Block and Unblock](../../static/img/ai-agents-apps-block-unblock.png)
+
+![AI Agents - Block Confirmation Screen](../../static/img/ai-agents-apps-block-action.png)
+
+![AI Agents - Unblock Confirmation Screen](../../static/img/ai-agents-apps-unblock-action.png)
+
 ### Reassign
 
-The Reassign action can be completed for **Copilot Studio** and **Agent Builder** agents. It lets you assign a new owner to an agent, which can come in handy for orphaned agents.
+The Reassign owner action can be completed for **Copilot Studio** and **Agent Builder** agents. It lets you assign a new owner to an agent, which can come in handy for orphaned agents.
 
 Once you generate the Agents Inventory report:
 
-* **Selecting one agent** lets you complete **the Reassign action**.
-  * You can also select multiple agents to reassign them at once.
-* **Clicking the Reassign action** opens the dialog where you can select the new owner.
-* **Confirm the action** to set the new owner of the agent.
+* **Selecting one agent** lets you complete **the Reassign owner action (1)**
+  * You can also select multiple agents to reassign them at once
+* **Clicking the Reassign owner action** opens the confirmation dialog where you can **select the new owner(s) (2)**
+* **Click the Reassign owner button (3)** to set the new owner(s) of the agent once you've made your choice
 
 Note that the new owner must have access to the Power Platform environment where the agent is located.
+
+![AI Agents - Reassign](../../static/img/ai-agents-apps-reassign.png)
+
+![AI Agents - Reassign Confirmation Screen](../../static/img/ai-agents-apps-reassign-action.png)
+
+
 
 ### Delete Agent
 
@@ -80,9 +92,14 @@ The Delete action helps you remove agents that are no longer needed. It can be c
 
 Once you generate the Agents Inventory report:
 
-* **Selecting an agent** lets you complete **the Delete action**.
-* **Clicking the Delete action** opens the confirmation dialog.
-* **Confirm the action** to delete the agent.
+* **Selecting an agent** lets you complete **the Delete action (1)**
+* **Clicking the Delete action** opens the confirmation dialog
+* **Type Delete (2)** in the designated area to confirm your choice
+* **Click the Delete agent (3)** button to delete the agent
+
+![AI Agents - Delete](../../static/img/ai-agents-apps-delete-agent.png)
+
+![AI Agents - Delete Confirmation Screen](../../static/img/ai-agents-apps-delete-agent-action.png)
 
 ### Knowledge Sources
 
@@ -93,7 +110,10 @@ The Knowledge Sources action opens a list of all the knowledge sources the selec
 * **Location**
 * **Sensitivity Label**
 
-Once you generate the Agents Inventory report, **select an agent** and **click the Knowledge Sources action** to open the list.
+Once you generate the Agents Inventory report, **select an agent** and **click the Knowledge Sources action (1)** to open the list.
+
+![AI Agents - Knowledge Sources](../../static/img/ai-agents-apps-knowledge-sources.png)
+
 
 ## Entra App Actions
 
@@ -115,7 +135,7 @@ On the app details screen, any app actions taken apply only to that app.
 
 Which of the two actions is available depends on the app's current sign-in state:
 
-* The **Block sign-in action** is available for apps that can currently sign in.
+* The **Block sign-in action (1)** is available for apps that can currently sign in.
 * The **Allow sign-in action** is available for apps whose sign-in is blocked.
 
 Once you generate the Apps Inventory report:
@@ -124,6 +144,11 @@ Once you generate the Apps Inventory report:
 * **Clicking the Block sign-in or Allow sign-in action** opens the confirmation dialog that lists the selected apps and the sign-in state that will be applied.
   * For multi-tenant apps, the dialog explains that the action affects only the enterprise application in your tenant, not the publisher's app registration or other tenants.
 * **Confirm the action** to apply the new sign-in state.
+
+![Entra Apps - Block Sign-in](../../static/img/ai-agents-apps-block-allow.png)
+
+![Entra Apps - Block Sign-in Confirmation Screen](../../static/img/ai-agents-apps-block-app-action.png)
+
 
 ### Delete App
 
@@ -134,11 +159,17 @@ The Delete action helps you remove apps that are no longer needed.
 
 Once you generate the Apps Inventory report:
 
-* **Selecting one or more apps** lets you complete **the Delete action**.
+* **Selecting one or more apps** lets you complete **the Delete action (1)**.
 * **Clicking the Delete action** opens the confirmation dialog that describes what will be deleted for the selected apps.
-* **Confirm the action** to delete the apps.
+* **Type Delete (2)** to confirm you want to delete the apps.
+* **Click the Delete applications (3)** button to finalize your decision.
 
 When you delete an app from the app details screen, you are returned to the Apps Inventory report once the action is completed.
+
+
+![Entra Apps - Delete](../../static/img/ai-agents-apps-delete.png)
+
+![Entra Apps - Delete Confirmation Screen](../../static/img/ai-agents-apps-delete-app-action.png)
 
 ## Related Articles
 
