@@ -26,6 +26,7 @@ const sidebars: SidebarsConfig = {
             id: 'releases/cloud/README',
           },
           items: [
+            'releases/cloud/point-2026-10-06-release-note',
             'releases/cloud/point-2026-09-30-release-note',
             'releases/cloud/point-2026-09-23-release-note',
             'releases/cloud/point-2026-09-15-release-note',
@@ -658,6 +659,7 @@ const sidebars: SidebarsConfig = {
         'ai-agents-and-apps/ai-agents-and-apps-dashboard-tile',
         'ai-agents-and-apps/ai-agents-and-apps-agents-inventory',
         'ai-agents-and-apps/ai-agents-and-apps-apps-inventory',
+        'ai-agents-and-apps/ai-agents-and-apps-actions',
       ],
     },
     {
