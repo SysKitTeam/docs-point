@@ -8,6 +8,16 @@ The Syskit Point Cloud subscription enables you to launch Syskit Point as a serv
 
 For more details on the differences between the available subscription plans, please visit our [pricing page](https://www.syskit.com/products/point/pricing/).
 
+:::info
+**Please note!**  
+Syskit Point supports Microsoft 365 Government Community Cloud (GCC) and GCC High tenants:
+
+* **GCC** tenants are supported in both Syskit Point Cloud and [Syskit Point Enterprise](../set-up-point-enterprise/deployment/overview.md).
+* **GCC High** tenants are supported only in [Syskit Point Enterprise](../set-up-point-enterprise/deployment/overview.md).
+
+[Power Platform data collection](../power-platform/enable-power-platform.md) is currently not available for GCC and GCC High tenants.
+:::
+
 ## Getting Started
 
 * [Syskit Point Trial](free-trial.md)
