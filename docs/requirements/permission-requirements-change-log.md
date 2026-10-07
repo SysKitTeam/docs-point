@@ -59,6 +59,81 @@ After clicking the Manage Connection button, you can expect the following to hap
 Depending on which version you are upgrading to, below you can find the list of changes in permissions requested and which features depend on them.
 
 
+### Syskit Point Cloud 2026.3.162
+
+With the introduction of AI agent actions, a new permission is added to the following app registration when the Global Administrator grants access in the AI Agents settings.
+
+:::warning
+**Please note!**
+
+* **The permission is added only if AI Agents is configured.** Customers who don't use AI Agents do not need to grant any new permissions.
+* The **CopilotStudio.AdminActions.Invoke** permission is used **only when you run an agent action** in Syskit Point. Agent actions run with the signed-in user's own rights, Syskit Point does not increase them.
+
+:::
+
+**The following permission is added to the existing Syskit Point app registration**:
+
+| App Registration | Permission Name | Reason |
+| --- | --- | --- |
+| Syskit Point Client | Power Platform API/CopilotStudio.AdminActions.Invoke | Allows you to block, unblock, reassign, and delete Copilot Studio and Agent Builder agents in Syskit Point. |
+
+[Take a look at the Permission Requirements article for more details on AI Agents permissions.](permission-requirements.md#ai-agents)
+
+### Syskit Point Enterprise 2026.3.159
+
+With the introduction of AI Agents, new permissions are added to the following app registration when the Global Administrator configures AI Agents and grants access in the AI Agents settings.
+
+:::warning
+**Please note!**
+
+* **Permissions are added only if AI Agents is configured.** Customers who don't use AI Agents will not receive any prompts and do not need to grant any new permissions.
+* Syskit Point uses these permissions with the connected **service account**, which must have the **Power Platform Administrator** role.
+* Syskit Point uses the **CopilotStudio.MinimalBot.ReadWrite** permission **solely to read agent data**, such as agent components and knowledge sources. **Syskit Point does not change your agents** with this permission.
+* The PowerAppManagementApp registration is not visible in the Microsoft Entra interface. To manage it, you can run the related PowerShell cmdlets described in the following articles:
+  * [Get-PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/get-powerappmanagementapp?view=pa-ps-latest)
+  * [Remove-PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/remove-powerappmanagementapp?view=pa-ps-latest)
+
+:::
+
+**The following permissions are added to the existing Syskit Point app registration**:
+
+| App Registration | Permission Name | Reason |
+| --- | --- | --- |
+| Syskit Point Client | PowerAppManagementApp | Registers Syskit Point as a Power Platform management application, which allows Syskit Point to read Copilot Studio and Agent Builder agents across your tenant. |
+| Syskit Point Client | Dynamics CRM/user_impersonation | Allows Syskit Point to read Copilot Studio agents across your tenant. |
+| Syskit Point Client | Power Platform API/ResourceQuery.Resources.Read | Allows Syskit Point to query Agent Builder agents across your tenant. |
+| Syskit Point Client | Power Platform API/CopilotStudio.MinimalBot.ReadWrite | Allows Syskit Point to read and write minimal bot resources for Copilot Studio agents across your tenant. Additionally, it allows Syskit Point to load Agent Builder agent components, such as knowledge sources. |
+
+[Take a look at the Permission Requirements article for more details on AI Agents permissions.](permission-requirements.md#ai-agents)
+
+### Syskit Point Cloud 2026.3.159
+
+With the introduction of AI Agents, new permissions are added to the following app registration when the Global Administrator configures AI Agents and grants access in the AI Agents settings.
+
+:::warning
+**Please note!**
+
+* **Permissions are added only if AI Agents is configured.** Customers who don't use AI Agents will not receive any prompts and do not need to grant any new permissions.
+* Syskit Point uses these permissions with the connected **service account**, which must have the **Power Platform Administrator** role.
+* Syskit Point uses the **CopilotStudio.MinimalBot.ReadWrite** permission **solely to read agent data**, such as agent components and knowledge sources. **Syskit Point does not change your agents** with this permission.
+* The PowerAppManagementApp registration is not visible in the Microsoft Entra interface. To manage it, you can run the related PowerShell cmdlets described in the following articles:
+  * [Get-PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/get-powerappmanagementapp?view=pa-ps-latest)
+  * [Remove-PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/remove-powerappmanagementapp?view=pa-ps-latest)
+
+:::
+
+**The following permissions are added to the existing Syskit Point app registration**:
+
+| App Registration | Permission Name | Reason |
+| --- | --- | --- |
+| Syskit Point Client | PowerAppManagementApp | Registers Syskit Point as a Power Platform management application, which allows Syskit Point to read Copilot Studio and Agent Builder agents across your tenant. |
+| Syskit Point Client | Dynamics CRM/user_impersonation | Allows Syskit Point to read Copilot Studio agents across your tenant. |
+| Syskit Point Client | Power Platform API/ResourceQuery.Resources.Read | Allows Syskit Point to query Agent Builder agents across your tenant. |
+| Syskit Point Client | Power Platform API/CopilotStudio.MinimalBot.ReadWrite | Allows Syskit Point to read and write minimal bot resources for Copilot Studio agents across your tenant. Additionally, it allows Syskit Point to load Agent Builder agent components, such as knowledge sources. |
+
+[Take a look at the Permission Requirements article for more details on AI Agents permissions.](permission-requirements.md#ai-agents)
+
+
 ### Syskit Point Enterprise 2026.1.130
 
 
