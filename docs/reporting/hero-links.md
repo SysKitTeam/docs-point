@@ -48,11 +48,12 @@ The following reports include a **Hero Link Setting** column, which shows the fi
 * **Permissions Matrix report** - see the [Permissions Matrix report](access-reports.md#permissions-matrix-report)
 * **Externally Shared Content report** - see the [Externally Shared Content report](external-sharing-reports.md#externally-shared-content)
 
-You can also see hero links in these places:
+The following site metrics are also affected by the new sharing model: 
 
-* **Site metrics** - the **Anonymous Links** and **Company-Wide Links** metrics count hero links, and drilling into a metric shows the hero links on the Sharing Links report
-  * You can see this on the [Sites overview](../microsoft365-inventory/sites.md)
-* **Anonymous Access Links report** - Anyone hero links appear here even before they are used
+* The **Anonymous Links** and **Company-Wide Links** metrics count files and folders that have the file or folder link setting set to `Anyone` or `People in your org`. 
+  * You can see these metrics on the [Sites overview](../microsoft365-inventory/sites.md) screen.
+
+* You can also see `Anyone` hero links in the **Anonymous Access Links report**, even before they are used.
 
 
 :::info
