@@ -58,8 +58,12 @@ Under **Agent configuration**, grant the permissions Syskit Point needs to read 
 * Under **Permissions**, grant the permissions listed below. Each permission shows as **Granted** with a green checkmark once approved:
   * **Dynamics CRM — user_impersonation** lets Syskit Point read Copilot Studio agents across your tenant.
   * **Power Platform — ResourceQuery.Resources.Read** lets Syskit Point query Agent Builder agents across your tenant.
-  * **Power Platform — CopilotStudio.MinimalBot.ReadWrite** lets Syskit Point read and write minimal bot resources for Copilot Studio agents across your tenant.
+  * **Power Platform — CopilotStudio.MinimalBot.ReadWrite** lets Syskit Point read and write minimal bot resources for Copilot Studio agents across your tenant. 
+    * It is also used to load Agent Builder agent components, such as knowledge sources.
+  * **Power Platform — CopilotStudio.AdminActions.Invoke** lets you block, unblock, reassign, and delete Copilot Studio and Agent Builder agents in Syskit Point.
 * **Click Save** to store your preferences.
+
+[Take a look at the Permission Requirements article for more details on why each permission is needed.](../requirements/permission-requirements.md#ai-agents)
 
 Once the service account is connected and the permissions are granted, the first **AI Agents data sync** starts. When completed, the summary data shows on the [AI Agents dashboard tile](ai-agents-and-apps-dashboard-tile.md). From there, you can drill to open the Agents Inventory and Apps Inventory reports for a detailed overview of the agents and Entra apps in your tenant.
 
@@ -70,4 +74,6 @@ Once the service account is connected and the permissions are granted, the first
 * [Agents Inventory Report](ai-agents-and-apps-agents-inventory.md)
 * [Apps Inventory Report](ai-agents-and-apps-apps-inventory.md)
 * [AI Agents Reports](../reporting/ai-agents-reports.md)
+* [Permission Requirements](../requirements/permission-requirements.md#ai-agents)
+* [Permission Requirements Change Log](../requirements/permission-requirements-change-log.md)
 
