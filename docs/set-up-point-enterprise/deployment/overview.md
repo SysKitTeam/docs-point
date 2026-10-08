@@ -8,6 +8,16 @@ description: >-
 
 **Syskit Point** app can, apart from being used in software-as-a-service form, be deployed in your Azure subscription. The self-hosted deployment option described in this article is a requirement when using the Syskit Point Enterprise plan, and requires a customized approach considering the number of users, sites, collected audit logs, and other variables from your environment.
 
+:::info
+**Please note!**  
+Syskit Point supports Microsoft 365 Government Community Cloud (GCC) and GCC High tenants:
+
+* **GCC** tenants are supported in both [Syskit Point Cloud](../../set-up-point-cloud/overview.md) and Syskit Point Enterprise.
+* **GCC High** tenants are supported only in Syskit Point Enterprise.
+
+[Power Platform data collection](../../power-platform/enable-power-platform.md) is currently not available for GCC and GCC High tenants.
+:::
+
 After the deployment, the key Azure resources shown in the architecture diagram below will be created and ready to run Syskit Point.
 
 ![Syskit Point - Architecture Diagram](../../../static/img/overview-architecture-diagram.png)
