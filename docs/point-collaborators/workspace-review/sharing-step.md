@@ -31,6 +31,7 @@ On the task overview screen, you can find information on what is expected of you
 * If there are no Sharing Links to report, this step in the review is automatically skipped. Each section that does not have data to report is automatically skipped. 
  
 * Since SharePoint does not allow deleting a hero link, running **Remove Sharing Link** on a hero link switches its audience to **Specific people** instead of removing the link.
+  * [For more details, take a look at the Hero Links article.](../../reporting/hero-links.md)
 
 :::
 

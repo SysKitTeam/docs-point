@@ -609,6 +609,7 @@ const sidebars: SidebarsConfig = {
         'reporting/exported-reports',
         'reporting/external-sharing-reports',
         'reporting/access-reports',
+        'reporting/hero-links',
         'reporting/audit-reports',
         'reporting/cleanup-and-health-reports',
         'reporting/licenses-reports',
