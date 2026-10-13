@@ -20,11 +20,11 @@ description: This article lists improvements and bug fixes in the Syskit Point C
   * **The default columns on the Sharing Links report have been updated.**
     * The **Recommendation** and **Hero Link** columns now appear after the **Created By** column.
     * The **URL**, **Link**, **Link from Parent**, and **Last Used By** columns are now hidden by default.
-  * **The Hero Link column has been removed** from the **User Access** report and Workspace Review **Sharing** step.
+  * **The Hero Link column** has been removed as a default column from the **User Access** report and the Workspace Review **Sharing** step but can still be selected from the column chooser.
   * **Fixed an issue** in the **Group Access** report that caused the **Sensitivity Label** filter to be ignored.
   * **Fixed an issue** where some completed actions, such as deleting guest users without site permissions, were missing from the **Actions Overview** report.
 
-* **The Last Used column in Workspace Review** now explains why a sharing link has no usage date instead of being left empty.
+* **The Last Used column in Workspace Review** now explains why a sharing link has no usage date instead of leaving the cell empty.
 
 * **Fixed a bug** where escalation emails for overdue review tasks were not sent until the service was restarted after a temporary Microsoft certificate error.
 
