@@ -58,6 +58,26 @@ After clicking the Manage Connection button, you can expect the following to hap
 
 Depending on which version you are upgrading to, below you can find the list of changes in permissions requested and which features depend on them.
 
+### Syskit Point Enterprise 2026.3.162
+
+With the introduction of AI agent actions, a new permission is added to the following app registration when the Global Administrator grants access in the AI Agents settings.
+
+:::warning
+**Please note!**
+
+* **The permission is added only if AI Agents is configured.** Customers who don't use AI Agents do not need to grant any new permissions.
+* The **CopilotStudio.AdminActions.Invoke** permission is used **only when you run an agent action** in Syskit Point. Agent actions run with the signed-in user's own rights, Syskit Point does not increase them.
+
+:::
+
+**The following permission is added to the existing Syskit Point app registration**:
+
+| App Registration | Permission Name | Reason |
+| --- | --- | --- |
+| Syskit Point Client | Power Platform API/CopilotStudio.AdminActions.Invoke | Allows you to block, unblock, reassign, and delete Copilot Studio and Agent Builder agents in Syskit Point. |
+
+[Take a look at the Permission Requirements article for more details on AI Agents permissions.](permission-requirements.md#ai-agents)
+
 
 ### Syskit Point Cloud 2026.3.162
 

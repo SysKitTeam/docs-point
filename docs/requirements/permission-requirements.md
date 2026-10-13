@@ -283,7 +283,7 @@ Permissions are added when AI Agents is configured in Syskit Point settings.
 
 | App Registration | Permission Name | Reason |
 | --- | --- | --- |
-| Syskit Point Client | PowerAppManagementApp/Another name?? | Registers Syskit Point as a Power Platform management application, which allows Syskit Point to read Copilot Studio and Agent Builder agents across your tenant. |
+| Syskit Point Client | PowerAppManagementApp | Registers Syskit Point as a Power Platform management application, which allows Syskit Point to read Copilot Studio and Agent Builder agents across your tenant. |
 | Syskit Point Client | Dynamics CRM/user_impersonation | Allows Syskit Point to read Copilot Studio agents across your tenant. |
 | Syskit Point Client | Power Platform API/ResourceQuery.Resources.Read | Allows Syskit Point to query Agent Builder agents across your tenant. |
 | Syskit Point Client | Power Platform API/CopilotStudio.MinimalBot.ReadWrite | Allows Syskit Point to read and write minimal bot resources for Copilot Studio agents across your tenant. Additionally, it allows Syskit Point to load Agent Builder agent components, such as knowledge sources. |
