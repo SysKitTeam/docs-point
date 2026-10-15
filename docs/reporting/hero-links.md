@@ -59,8 +59,7 @@ The following site metrics are also affected by the new sharing model:
 :::info
 
 **Please note!**  
-* Since SharePoint does not allow deleting a main link, running **Remove Sharing Link** on a main link switches its audience to **Specific people** instead of removing the link, so only people you shared the link with directly still have access. 
-* The **Remove Access** and **Restrict Sharing** actions also work on main links. 
+* Since SharePoint does not allow deleting a hero/main link, you can only run the **Restrict Sharing** action on main links, which removes access for everyone except the people you shared the link with directly.
 * **Restrict Sharing** applies to organization-wide and Anyone main links and reverts their sharing so that only people who were already added keep access; it is available from the **Sharing Links**, **Permissions Matrix**, and **User Access** reports.
 
 :::
