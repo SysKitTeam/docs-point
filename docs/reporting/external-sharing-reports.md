@@ -170,6 +170,7 @@ There are default columns displayed in the report which list the following:
 * **Link**
 * **Link Type**
 * **Hero link** - identifies Microsoft's default per-item sharing link (the new sharing experience) and distinguishes it from classic sharing links
+  * [For more details, take a look at the Hero Links article.](hero-links.md)
 * **Created On**
 * **Expiration Date**
 
@@ -183,7 +184,7 @@ The following actions can be performed within the report:
 :::info
 
 **Please note!**  
-Since SharePoint does not allow deleting a hero link, running **Remove sharing link** on a hero link switches its audience to **Specific people** instead of removing the link.
+Since SharePoint does not allow deleting a hero/main link, you can only run the **Restrict Sharing** action on main links, which removes access for everyone except the people you shared the link with directly.
 
 :::
 
