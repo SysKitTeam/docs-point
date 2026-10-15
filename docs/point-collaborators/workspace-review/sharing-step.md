@@ -69,19 +69,20 @@ On the **Remove Unused Links** sections, you can identify and remove **unused sh
 On this screen, you can find the following:
 
 * **Remove All (1)** action button next to the name of the workspace, which removes all unused links
+* **Restrict All (2)** action button, which restricts sharing on main/hero links so that only people who were already added keep access
 
 The columns available are: 
 
-* **Name (2)** of the content 
-* **Link Type (3)** - the level of sharing given through the link, for example, view-only, password-protected (edit), etc.
-* **Expiration Date (4)** - shows when the link is set to expire
-* **Last Used (5)** - the date the content was last used
-* **Sensitivity label (6)** - shows if there is a sensitivity label assigned to the content
-* **Created On (7)** - shows when the content was originally created
-* **Recommendation (8)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made. The following recommendation could be suggested:
+* **Name (3)** - the name of the content
+* **Link Type (4)** - the level of sharing given through the link, for example, view-only, password-protected (edit), etc.
+* **Expiration Date (5)** - shows when the link is set to expire
+* **Last Used (6)** - the date the content was last used
+* **Sensitivity Label (7)** - shows if there is a sensitivity label assigned to the content
+* **Link Created On (8)** - shows when the link was created
+* **Recommendation (9)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made. The following recommendation could be suggested:
    * **Unused Link** - unused links are links that haven't been used in the last 30 days
-* **Hero link (9)** - identifies Microsoft's default per-item sharing link (the new sharing experience) and distinguishes it from classic sharing links
-* The **Remove Sharing Link (10)** action
+* The **Restrict Sharing (10)** action, which restricts sharing so that only people who were already added keep access
+* The **Remove Sharing Link (11)** action
   * Clicking this action opens the Remove Sharing Link modal, where you need to confirm the removal of the sharing link
 
 :::info
@@ -91,7 +92,7 @@ Since SharePoint does not allow deleting a hero/main link, you can only run the 
 
 :::
 
-![Workspace Review - Sharing Step - Shared with Anyone](../../../static/img/workspace-review-sharing-step-unused.png)
+![Workspace Review - Sharing Step - Unused Links](../../../static/img/workspace-review-sharing-step-unused.png)
 
 Once you've completed the actions you want to take, clicking Next takes you to the next section of this step.
 
