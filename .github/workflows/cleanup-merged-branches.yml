@@ -21,7 +21,7 @@ jobs:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       REPO: ${{ github.repository }}
       OWNER: ${{ github.repository_owner }}
-      DRY_RUN: ${{ github.event.inputs.dry_run || 'true' }}
+      DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || false }}
       PROTECTED_BRANCHES: 'main staging'
     steps:
       - name: Delete branches merged to staging > 7 days ago
