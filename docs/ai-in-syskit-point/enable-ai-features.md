@@ -22,6 +22,7 @@ To enable AI features:
   * This is a single opt-in. 
   * Opting in makes all Point AI features available; there are no per-feature toggles.
 * Optionally, select the **Enable Point AI for collaborators checkbox (3)** below it to make Point AI available to collaborators.
+  * This checkbox does not control collaborator access to the [Syskit Point MCP Server](features/mcp-server.md#collaborator-access), which is set separately on the **MCP Integrations** page.
 * **Click Save (4)** to finalize your decision.
 
 :::info
