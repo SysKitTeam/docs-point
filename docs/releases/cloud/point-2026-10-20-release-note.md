@@ -14,6 +14,12 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes
 
+* **The Syskit Point MCP Server has been updated.**
+  * Connecting an AI tool is now simpler: add the server URL, sign in to Syskit Point, and approve access. Admin-issued credentials are no longer needed.
+  * Admins choose which capabilities are available, including the new **Governance** and **Licensing** capabilities, and can allow Point collaborators to use the MCP Server.
+    * Collaborators see only the data they have access to in Syskit Point.
+  * For more details, [please take a look at the MCP Server article.](../../ai-in-syskit-point/features/mcp-server.md)
+
 * **Improvements made to Reports.**
   * **The Sharing Links report now shows more clearly who can use a link and what they can do with it.**
     * The **Accessible to** and **Access level** columns are now shown by default.
