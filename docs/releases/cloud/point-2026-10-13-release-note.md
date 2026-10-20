@@ -14,6 +14,11 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes
 
+* **High volume e-mails can now be enabled in the E-mail Settings.**
+  * Enable high volume e-mails if you expect more than 10,000 e-mails to be sent at once.¸
+  * The setting covers all e-mails sent to collaborators, including policy tasks, reminders, and escalations, as well as Workspace Reviews.
+  * High volume e-mail is a paid Microsoft 365 service that you need to set up in your tenant first.
+
 * **Improvements made to Reports.**
   * **The Group Access report can now include items with inherited permissions.**
     * Choose between showing items with unique permissions only (default) or all items, the same as on the **Permissions Matrix** report.
