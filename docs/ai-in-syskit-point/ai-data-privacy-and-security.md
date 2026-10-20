@@ -66,6 +66,7 @@ No. All AI features deliver findings and recommendations. Administrative changes
 **Can a user see data through AI features that their Point role doesn't allow?** 
 
 No. The Point Assistant and the MCP Server answer within the connecting identity's Point role. AI is not a path around role-based access.
+  * For example, when collaborators use the MCP Server, searches return only users they are allowed to see, and restricted operations remain blocked. See [Collaborator Access](features/mcp-server.md#collaborator-access).
 
 **Is our data used to train AI models?** 
 
@@ -75,10 +76,12 @@ Your prompts and their responses are never used to train the foundation models t
 **Can we enable some AI features and not others?** 
 
 No. AI features are enabled with a single opt-in: turning AI on makes all AI features available.
+  * For the MCP Server, Syskit Point admins choose which capabilities AI tools can use. See [Syskit Point MCP Server](features/mcp-server.md#consent).
 
 **Who in our organization can use AI features once enabled?** 
 
 Users with access to Syskit Point, within the limits of their assigned Point role. Syskit Point admins can choose to enable or disable AI for collaborators. Enabling AI does not grant anyone access to data they couldn't already reach through Point.
+  * Collaborator access to the MCP Server is controlled separately, with the ***Allow collaborators to use MCP*** toggle on the **MCP Integrations** page. See [Collaborator Access](features/mcp-server.md#collaborator-access).
 
 **Can we turn it off later?** 
 
