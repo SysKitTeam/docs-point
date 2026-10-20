@@ -123,6 +123,7 @@ In the following table, you can find all predefined properties and operators cur
   | Created | After, Before, Between | Select date in date picker |
   | Data Location | Equals, Not Equals, Starts With, Contains | Enter text |
   | Department | Is set to | Select one or multiple departments from available values | 
+  | Last Review Date | After, Before, Between, Within the Last, Not Within the Last | For After, Before, and Between, select date in date picker; for Within the Last and Not Within the Last, enter a number and select `Days`, `Months`, or `Years` |
   | Lock State | Is set to | Select one or more of the following values: `Unlocked`, `Read-only`, `Locked` |
   | Name | Equals, Not Equals, Starts With, Contains | Enter text |
   | Number of Admins | Is Equal, Greater Than, Greater Than or Equal, Less Than, Less Than or Equal | Enter a number |
@@ -137,11 +138,25 @@ In the following table, you can find all predefined properties and operators cur
   | Number of Sensititve Company-Wide Links | Is Equal, Greater Than, Greater Than or Equal, Less Than, Less Than or Equal | Enter a number |
   | Number of Sensitive Files | Is Equal, Greater Than, Greater Than or Equal, Less Than, Less Than or Equal | Enter a number |
   | Number of Shadow Users | Is Equal, Greater Than, Greater Than or Equal, Less Than, Less Than or Equal | Enter a number |
+  | Owners | Includes Any Of, Includes None Of, Includes All Of | Search and select one or multiple users |
   | Privacy | Is set to | Select from the available values: `Private`, `Public` |
+  | Risk Severity | Is set to | Select one or more of the available values: `High Risk`, `Medium Risk`, `Low Risk`, `Healthy` |
   | Sensitivity Label | Is set to | Select one or multiple sensitivity labels from available values |
   | Sharing Settings | Is set to | Select one or more of the available values: `Only people in your organization`, `New and existing guests`, `Anyone`, `Existing guest only` |
   | URL | Equals, Not Equals, Starts With, Contains | Enter text |
-  | Workspace Type | Is set to | Select one or more of the available values: `Security Group`, `Distribution List`, `Mail-Enabled Security Group`, `Microsoft 365 Group`, `Microsoft Teams`, `SharePoint Site`, `OneDrive`, `Microsoft 365 Group with Viva Engage` |
+  | Workspace Type | Is set to | Select one or more of the available values: `Security Group`, `Distribution List`, `Mail-Enabled Security Group`, `Microsoft 365 Group`, `Microsoft Teams`, `SharePoint Site`, `OneDrive`, `Microsoft 365 Group with Viva Engage`, `Private Channel` |
+
+
+:::warning 
+When using the **Owners** condition, note the following:
+* **Includes Any Of** - the condition is met if at least one of the selected users is a workspace owner
+* **Includes None Of** - the condition is met if none of the selected users are workspace owners
+* **Includes All Of** - the condition is met if all selected users are workspace owners
+* Workspace owners are determined the same way as on the [Inactive Workspaces report](../../reporting/analytics-reports.md#inactive-workspaces-report), with the following exceptions:
+  * For **OneDrive**, the primary admin is considered the owner
+  * For **Private Channels**, channel owners are considered owners
+:::
+
 
 Additionally, the following custom metadata types and related operators are supported:
 
