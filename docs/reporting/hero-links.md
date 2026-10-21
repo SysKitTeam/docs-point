@@ -19,6 +19,12 @@ Here are the key characteristics of how the hero/main link works:
 * Changing the link setting to `People in your org` does not change the link or URL, but it changes who can access the file using it
 * Resetting the link deletes the current link and generates a new URL
 
+### Hero Links Explained
+
+* **Watch this 2-minute video to learn what hero links are and how the new sharing experience works in SharePoint and OneDrive.**
+
+<YouTubeEmbed videoId="5M8uJ9O2Jks" />
+
 ## Hero Links vs. Classic Sharing Links
 
 In the classic sharing model, each time a user shared a file with a different audience, SharePoint often generated a new sharing link. Over time, a single file could accumulate many sharing links, each containing a different permission scope.
