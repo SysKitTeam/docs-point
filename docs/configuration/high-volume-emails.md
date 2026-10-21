@@ -8,9 +8,6 @@ description: This article explains how High Volume E-mails work and how to enabl
 
 High Volume E-mails are **not a separate sending method**. They are used alongside the **Exchange Online** or **SMTP** method configured in the [E-mail settings](set-up-email.md). When High Volume E-mails are enabled, only [supported e-mails](#supported-e-mails) are sent through HVE, while all other e-mails are still sent using the selected Exchange Online or SMTP method.
 
-:::info
-High Volume E-mails are currently available in **Syskit Point Cloud**.
-:::
 
 :::warning
 **Please note!**\
