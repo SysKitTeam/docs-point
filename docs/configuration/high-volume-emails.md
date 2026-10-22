@@ -34,11 +34,10 @@ When High Volume E-mails are enabled, **the following e-mails are always sent th
 * **Workspace Review e-mails** sent automatically by Workspace Review policies
 * **Reminder and escalation e-mails** for Workspace Review tasks; [learn more about reminders and escalations here](../governance-and-automation/workspace-review/reminders-and-escalations.md)
 * **Policy violation e-mails** sent to collaborators when task delegation is enabled for a policy
-* **Review completed e-mails**
+* **Workspace Review completed e-mails** sent once Workspace Review tasks are completed
 
 The following e-mails **are not sent through HVE** and are still sent using the selected Exchange Online or SMTP method:
 * **Manually started reviews**, such as reviews started with the **Start Now** or **Request Workspace Review** actions
-* **Access Review e-mails**
 * **Scheduled reports** and all other e-mails sent by Syskit Point
 
 :::warning
