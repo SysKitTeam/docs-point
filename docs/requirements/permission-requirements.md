@@ -37,23 +37,25 @@ Syskit Point requires permissions to access several Microsoft APIs. There are tw
 * **Application permissions** - define what Syskit Point can do without a signed-in user.
 * **Delegated permissions** - define what Syskit Point can do in the name of the signed-in user.
 
+Each permission is listed by the name displayed on the Microsoft consent screen, followed by its technical name. Where available, the technical name links to the Microsoft documentation for that permission.
+
 The following permissions are required for **Syskit Point Installer** Enterprise Application:
 
 **Microsoft Graph**
 
 | Permissions                              | Type      | Reason                                                                                                                     |
 | ---------------------------------------- | --------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Read all users' full profiles            | Delegated | Allows Syskit Point to read your users' profiles and show you reports based on that data.                                  |
-| Access directory as the signed-in user   | Delegated | Allows Syskit Point to access your directory.                                                                              |
-| Read directory data                      | Delegated | Allows Syskit Point to autodiscover your sites, groups, and users.                                                         |
-| Sign users in                            | Delegated | Allows Syskit Point to scan your environment as a signed-in user                                                           |
-| View users' basic profile                | Delegated | Allows Syskit Point Microsoft Teams application to show users basic data and allow secure communication with Syskit Point. |
+| Read all users' full profiles ([User.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#userreadall)) | Delegated | Allows Syskit Point to read your users' profiles and show you reports based on that data.                                  |
+| Access directory as the signed-in user ([Directory.AccessAsUser.All](https://learn.microsoft.com/en-us/graph/permissions-reference#directoryaccessasuserall)) | Delegated | Allows Syskit Point to access your directory.                                                                              |
+| Read directory data ([Directory.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#directoryreadall)) | Delegated | Allows Syskit Point to autodiscover your sites, groups, and users.                                                         |
+| Sign users in ([openid](https://learn.microsoft.com/en-us/graph/permissions-reference#openid)) | Delegated | Allows Syskit Point to scan your environment as a signed-in user                                                           |
+| View users' basic profile ([profile](https://learn.microsoft.com/en-us/graph/permissions-reference#profile)) | Delegated | Allows Syskit Point Microsoft Teams application to show users basic data and allow secure communication with Syskit Point. |
 
 **Windows Azure Service Management API**
 
 | Permissions                                           | Type      | Reason                                                                                        |
 | ----------------------------------------------------- | --------- | --------------------------------------------------------------------------------------------- |
-| Access Azure Service Management as organization users | Delegated | Allows Syskit Point to create an additional application in your tenant for safer data access. |
+| Access Azure Service Management as organization users (`user_impersonation`) | Delegated | Allows Syskit Point to create an additional application in your tenant for safer data access. |
 
 To allow safer access to your Microsoft 365 tenant data and optimize the data sync process, additional app registrations are created during the [initial connect](../set-up-point-enterprise/deployment/connect-to-tenant.md) process:
 
@@ -70,20 +72,20 @@ To allow safer access to your Microsoft 365 tenant data and optimize the data sy
 
 | Permissions | Type | Reason |
 | ---------------------------------------------------------------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Read all audit log data | Application | Enables Syskit Point to access data used to determine the time of the last sign-in for guest users. |
-| Read the members of all channels | Application | Allows Syskit Point to collect membership data for private and shared channels. |
-| Read all channel messages | Application | Enables Syskit Point to calculate Teams activity based on the latest channel message date. |
-| Read and write all Viva Engage communities | Application | Allows Syskit Point to provision Viva Engage communities. |
-| Read directory data | Application | Allows Syskit Point to autodiscover your sites, groups, and users.                                                                                                                                                           |
-| Read files in all site collections                               | Application | Enables Syskit Point to perform partial site syncs containing changed files only.                                                                                                                                            |
-| Read and write all groups                                        | Application | Allows Syskit Point to read Microsoft 365 Group data and show you reports based on that data. Additionally, it allows you to manage your groups from Syskit Point.                                                           |
-| Read and write all group members                                | Application | Allows Syskit Point to add members and owners to all types of groups in the access request process after the request is approved. |   
-| Read all published labels and label policies for an organization | Application | Enables Syskit Point to sync published sensitivity labels and store them in the database.                                                                                                                                    |
-| Read and write mail in all mailboxes                             | Application | Allows Syskit Point to send emails as a part of the Access Review, Workspace Review, Inactive Workspaces policy, Scheduled Reports, Alerts, and other features.                                                                                      |
-| Send mail as any user                                            | Application | Allows Syskit Point to send emails as a part of the Access Review, Workspace Review, Inactive Workspaces policy, Scheduled Reports, Alerts, and other features.                                                                                      |
-| Read all usage reports                                           | Application | Allows Syskit Point to read usage reports generated by Microsoft.                                                                                                                                                            |
-| Read and write users' full profiles                              | Application | Allows Syskit Point to read your users' profiles and show you reports based on that data. Additionally, it allows Syskit Point to automatically remove inactive guest users if defined in the Inactive Guest Users policy. |                                                                                                                                                        |
-| Read mailbox settings  | Application | Allows Syskit Point to read user's mailbox settings without a signed-in user. This does not grant Syskit Point the ability to read or send emails. The permission is used solely to read mailbox settings in order to detect the user type (user, equipment, or room) shown on License reports.  |
+| Read all audit log data ([AuditLog.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#auditlogreadall)) | Application | Enables Syskit Point to access data used to determine the time of the last sign-in for guest users. |
+| Read the members of all channels ([ChannelMember.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#channelmemberreadall)) | Application | Allows Syskit Point to collect membership data for private and shared channels. |
+| Read all channel messages ([ChannelMessage.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#channelmessagereadall)) | Application | Enables Syskit Point to calculate Teams activity based on the latest channel message date. |
+| Read and write all Viva Engage communities ([Community.ReadWrite.All](https://learn.microsoft.com/en-us/graph/permissions-reference#communityreadwriteall)) | Application | Allows Syskit Point to provision Viva Engage communities. |
+| Read directory data ([Directory.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#directoryreadall)) | Application | Allows Syskit Point to autodiscover your sites, groups, and users.                                                                                                                                                           |
+| Read files in all site collections ([Files.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#filesreadall)) | Application | Enables Syskit Point to perform partial site syncs containing changed files only.                                                                                                                                            |
+| Read and write all groups ([Group.ReadWrite.All](https://learn.microsoft.com/en-us/graph/permissions-reference#groupreadwriteall)) | Application | Allows Syskit Point to read Microsoft 365 Group data and show you reports based on that data. Additionally, it allows you to manage your groups from Syskit Point.                                                           |
+| Read and write all group members ([GroupMember.ReadWrite.All](https://learn.microsoft.com/en-us/graph/permissions-reference#groupmemberreadwriteall)) | Application | Allows Syskit Point to add members and owners to all types of groups in the access request process after the request is approved. |   
+| Read all published labels and label policies for an organization ([InformationProtectionPolicy.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#informationprotectionpolicyreadall)) | Application | Enables Syskit Point to sync published sensitivity labels and store them in the database.                                                                                                                                    |
+| Read and write mail in all mailboxes ([Mail.ReadWrite](https://learn.microsoft.com/en-us/graph/permissions-reference#mailreadwrite)) | Application | Allows Syskit Point to send emails as a part of the Access Review, Workspace Review, Inactive Workspaces policy, Scheduled Reports, Alerts, and other features.                                                                                      |
+| Send mail as any user ([Mail.Send](https://learn.microsoft.com/en-us/graph/permissions-reference#mailsend)) | Application | Allows Syskit Point to send emails as a part of the Access Review, Workspace Review, Inactive Workspaces policy, Scheduled Reports, Alerts, and other features.                                                                                      |
+| Read all usage reports ([Reports.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#reportsreadall)) | Application | Allows Syskit Point to read usage reports generated by Microsoft.                                                                                                                                                            |
+| Read and write users' full profiles ([User.ReadWrite.All](https://learn.microsoft.com/en-us/graph/permissions-reference#userreadwriteall)) | Application | Allows Syskit Point to read your users' profiles and show you reports based on that data. Additionally, it allows Syskit Point to automatically remove inactive guest users if defined in the Inactive Guest Users policy. |                                                                                                                                                        |
+| Read mailbox settings ([MailboxSettings.Read](https://learn.microsoft.com/en-us/graph/permissions-reference#mailboxsettingsread)) | Application | Allows Syskit Point to read user's mailbox settings without a signed-in user. This does not grant Syskit Point the ability to read or send emails. The permission is used solely to read mailbox settings in order to detect the user type (user, equipment, or room) shown on License reports.  |
 
 
 
@@ -92,19 +94,19 @@ To allow safer access to your Microsoft 365 tenant data and optimize the data sy
 
 | Permissions                    | Type        | Reason                                                                            |
 | ------------------------------ | ----------- | --------------------------------------------------------------------------------- |
-| Manage Exchange as application | Application | Allows Syskit Point to sync distribution lists and email enabled security groups. |
+| Manage Exchange as application ([Exchange.ManageAsApp](https://learn.microsoft.com/en-us/powershell/exchange/app-only-auth-powershell-v2)) | Application | Allows Syskit Point to sync distribution lists and email enabled security groups. |
 
 **Microsoft 365 Management APIs**
 
 | Permissions                                           | Type                   | Reason                                                      |
 | ----------------------------------------------------- | ---------------------- | ----------------------------------------------------------- |
-| Read activity data for your organization              | Delegated, Application | Allows Syskit Point to read your organization's audit logs. |
+| Read activity data for your organization ([ActivityFeed.Read](https://learn.microsoft.com/en-us/office/office-365-management-api/get-started-with-office-365-management-apis)) | Delegated, Application | Allows Syskit Point to read your organization's audit logs. |
 
 **SharePoint**
 
 | Permissions                    | Type        | Reason                                                                                                                |
 | ------------------------------ | ----------- | --------------------------------------------------------------------------------------------------------------------- |
-| Have full control on all sites | Application | Allows Syskit Point to read documents and list items in all site collections and show you reports based on that data. |
+| Have full control on all sites ([Sites.FullControl.All](https://learn.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azuread)) | Application | Allows Syskit Point to read documents and list items in all site collections and show you reports based on that data. |
 
 
 
@@ -123,38 +125,38 @@ The second app registration, **Syskit Point Client**, enables users to securely 
 
 | Permissions                                                 | Type      | Reason                                                                                                                                                             |
 | ----------------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Add and remove members from channels                        | Delegated | Enables users to manage private channels in Syskit Point.                                                                                                          |
-| Access directory as the signed-in user                      | Delegated | Allows Syskit Point to access your directory.                                                                                                                      |
-| Read and write directory data                               | Delegated | Allows Syskit Point to autodiscover your sites, groups, and users; allows license management actions to be performed.                                              |
-| View users' email address                                   | Delegated | Allows Syskit Point to log users in Microsoft Teams application.                                                                                                   |
-| Read and write all groups                                   | Delegated | Allows Syskit Point to read Microsoft 365 Group data and show you reports based on that data. Additionally, it allows you to manage your groups from Syskit Point. |
-| Maintain access to data you have given it access to         | Delegated | Allows Syskit Point always to show you the latest data about your environment.                                                                                     |
-| Sign users in                                               | Delegated | Allows Syskit Point to scan your environment as the signed-in user.                                                                                                |
-| Read all users' relevant people lists                       | Delegated | Allows Syskit Point to display users' relevant people lists in People Picker within Syskit Point Teams app.                                                        |
-| Read presence information of all users in your organization | Delegated | Allows Syskit Point Microsoft Teams application to show the status of users.                                                                                       |
-| View users' basic profile                                   | Delegated | Allows Syskit Point Microsoft Teams application to show users basic data and allow secure communication with Syskit Point.                                         |
-| Add and remove members from teams | Delegated | Allows Syskit Point to add newly created users in Microsoft Entra ID to Microsoft Teams and private channels. |
-| Send a teamwork activity to any user                        | Application | Allows Syskit Point Microsoft Teams application to send notifications to users.                                                                                    |
-| Read and write all users' full profiles                     | Delegated | Allows Syskit Point to read your users' profiles and show you reports based on that data; allows license management actions to be performed.                       |
+| Add and remove members from channels ([ChannelMember.ReadWrite.All](https://learn.microsoft.com/en-us/graph/permissions-reference#channelmemberreadwriteall)) | Delegated | Enables users to manage private channels in Syskit Point.                                                                                                          |
+| Access directory as the signed-in user ([Directory.AccessAsUser.All](https://learn.microsoft.com/en-us/graph/permissions-reference#directoryaccessasuserall)) | Delegated | Allows Syskit Point to access your directory.                                                                                                                      |
+| Read and write directory data ([Directory.ReadWrite.All](https://learn.microsoft.com/en-us/graph/permissions-reference#directoryreadwriteall)) | Delegated | Allows Syskit Point to autodiscover your sites, groups, and users; allows license management actions to be performed.                                              |
+| View users' email address ([email](https://learn.microsoft.com/en-us/graph/permissions-reference#email)) | Delegated | Allows Syskit Point to log users in Microsoft Teams application.                                                                                                   |
+| Read and write all groups ([Group.ReadWrite.All](https://learn.microsoft.com/en-us/graph/permissions-reference#groupreadwriteall)) | Delegated | Allows Syskit Point to read Microsoft 365 Group data and show you reports based on that data. Additionally, it allows you to manage your groups from Syskit Point. |
+| Maintain access to data you have given it access to ([offline_access](https://learn.microsoft.com/en-us/graph/permissions-reference#offline_access)) | Delegated | Allows Syskit Point always to show you the latest data about your environment.                                                                                     |
+| Sign users in ([openid](https://learn.microsoft.com/en-us/graph/permissions-reference#openid)) | Delegated | Allows Syskit Point to scan your environment as the signed-in user.                                                                                                |
+| Read all users' relevant people lists ([People.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#peoplereadall)) | Delegated | Allows Syskit Point to display users' relevant people lists in People Picker within Syskit Point Teams app.                                                        |
+| Read presence information of all users in your organization ([Presence.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#presencereadall)) | Delegated | Allows Syskit Point Microsoft Teams application to show the status of users.                                                                                       |
+| View users' basic profile ([profile](https://learn.microsoft.com/en-us/graph/permissions-reference#profile)) | Delegated | Allows Syskit Point Microsoft Teams application to show users basic data and allow secure communication with Syskit Point.                                         |
+| Add and remove members from teams ([TeamMember.ReadWrite.All](https://learn.microsoft.com/en-us/graph/permissions-reference#teammemberreadwriteall)) | Delegated | Allows Syskit Point to add newly created users in Microsoft Entra ID to Microsoft Teams and private channels. |
+| Send a teamwork activity to any user ([TeamsActivity.Send](https://learn.microsoft.com/en-us/graph/permissions-reference#teamsactivitysend)) | Application | Allows Syskit Point Microsoft Teams application to send notifications to users.                                                                                    |
+| Read and write all users' full profiles ([User.ReadWrite.All](https://learn.microsoft.com/en-us/graph/permissions-reference#userreadwriteall)) | Delegated | Allows Syskit Point to read your users' profiles and show you reports based on that data; allows license management actions to be performed.                       |
 
 When using Microsoft Authentication Flow to connect a service account, the following Microsoft Graph permissions are added to the Syskit Point Client app registration:
 
 | Permissions                                                      | Type      | Reason                                                        |
 | ---------------------------------------------------------------- | --------- | ------------------------------------------------------------- |
 | Read all published labels and label policies for an organization | Delegated | Enables service account to read published sensitivity labels. |
-| Read users' full profiles                                        | Delegated | Allows service account to read your users' profiles.          |
+| Read users' full profiles ([User.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#userreadall)) | Delegated | Allows service account to read your users' profiles.          |
 
 **Microsoft 365 Exchange Online**
 
 | Permissions                   | Type      | Reason                                                                                                          |
 | ----------------------------- | --------- | --------------------------------------------------------------------------------------------------------------- |
-| Manage Exchange configuration | Delegated | Allows Syskit Point users to manage owners and members in distribution lists and email enabled security groups. |
+| Manage Exchange configuration (`Exchange.Manage`) | Delegated | Allows Syskit Point users to manage owners and members in distribution lists and email enabled security groups. |
 
 **SharePoint**
 
 | Permissions                               | Type      | Reason                                                                 |
 | ----------------------------------------- | --------- | ---------------------------------------------------------------------- |
-| Have full control of all site collections | Delegated | Allows you to manage your Site Collections directly from Syskit Point. |
+| Have full control of all site collections ([AllSites.FullControl](https://learn.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azuread)) | Delegated | Allows you to manage your Site Collections directly from Syskit Point. |
 
 **Power Platform**
 
@@ -167,8 +169,8 @@ Permissions are added when Power Apps and Power Automate data collection is enab
 
 | App Registration | Permission Name | Reason |
 | --- | --- | --- |
-| Syskit Point Client | PowerAppManagementApp | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data.  |
-| Syskit Point Power Platform | PowerAppManagementApp | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data. |
+| Syskit Point Client | [PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/new-powerappmanagementapp) | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data.  |
+| Syskit Point Power Platform | [PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/new-powerappmanagementapp) | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data. |
 
 
 :::warning
@@ -184,7 +186,7 @@ To manage the permissions, you can run the related PowerShell cmdlets described 
 | API/Permissions Name                     | Permission                        | Type      | Reason                                                                                         |
 | ---------------------------------------- | --------------------------------- | --------- | ---------------------------------------------------------------------------------------------- |
 | PowerApps Service/User | Access the PowerApps Service API | Delegated | Allows you to run Power Platform actions in Syskit Point. |
-| Graph/Application.ReadWrite.All | Read and write all applications | Delegated | Enables Syskit Point to update the Syskit Point Client app registration on behalf of the signed-in user. |
+| Graph/[Application.ReadWrite.All](https://learn.microsoft.com/en-us/graph/permissions-reference#applicationreadwriteall) | Read and write all applications | Delegated | Enables Syskit Point to update the Syskit Point Client app registration on behalf of the signed-in user. |
 
 :::warning
 **Please note!**
@@ -199,36 +201,36 @@ The Application.ReadWrite.All permission is used only once to update the Syskit 
 
 | Permissions                                                      | Type        | Reason                                                                                                                                                                                                                       |
 | ---------------------------------------------------------------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Read all audit log data                                          | Application | Enables Syskit Point to access data used to determine the exact time of the last sign-in for guest users.                                                                                                                    |
-| Read the members of all channels                                 | Application | Allows Syskit Point to collect membership data for private and shared channels.                                                                                                                                              |
-| Read and write all Viva Engage communities | Application | Allows Syskit Point to provision Viva Engage communities. |
-| Read directory data                                              | Application | Allows Syskit Point to autodiscover your sites, groups, and users.                                                                                                                                                           |
-| Read files in all site collections                               | Application | Enables Syskit Point to perform partial site syncs, containing changed files only.                                                                                                                                           |
-| Read and write all groups                                        | Application | Allows Syskit Point to read Microsoft 365 Group data and show you reports based on that data. Additionally, it allows you to manage your groups from Syskit Point.                                                           |
-| Read all published labels and label policies for an organization | Application | Enables Syskit Point to sync published sensitivity labels and store them in the database.                                                                                                                                    |
-| Read and write mail in all mailboxes                             | Application | Allows Syskit Point to send emails as a part of the Access Review, Workspace Review, Inactive Workspaces policy, Scheduled Reports, Alerts, and other features.                                                                                      |
-| Send mail as any user                                            | Application | Allows Syskit Point to send emails as a part of the Access Review, Workspace Review, Inactive Workspaces policy, Scheduled Reports, Alerts, and other features.                                                                                      |
-| Read all usage reports                                           | Application | Allows Syskit Point to read usage reports generated by Microsoft.                                                                                                                                                            |
-| Read and write users' full profiles                              | Application | Allows Syskit Point to read your users' profiles and show you reports based on that data. Additionally, it allows Syskit Point to automatically remove inactive guest users if defined in the Inactive Guest Users policy. |
+| Read all audit log data ([AuditLog.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#auditlogreadall)) | Application | Enables Syskit Point to access data used to determine the exact time of the last sign-in for guest users.                                                                                                                    |
+| Read the members of all channels ([ChannelMember.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#channelmemberreadall)) | Application | Allows Syskit Point to collect membership data for private and shared channels.                                                                                                                                              |
+| Read and write all Viva Engage communities ([Community.ReadWrite.All](https://learn.microsoft.com/en-us/graph/permissions-reference#communityreadwriteall)) | Application | Allows Syskit Point to provision Viva Engage communities. |
+| Read directory data ([Directory.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#directoryreadall)) | Application | Allows Syskit Point to autodiscover your sites, groups, and users.                                                                                                                                                           |
+| Read files in all site collections ([Files.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#filesreadall)) | Application | Enables Syskit Point to perform partial site syncs, containing changed files only.                                                                                                                                           |
+| Read and write all groups ([Group.ReadWrite.All](https://learn.microsoft.com/en-us/graph/permissions-reference#groupreadwriteall)) | Application | Allows Syskit Point to read Microsoft 365 Group data and show you reports based on that data. Additionally, it allows you to manage your groups from Syskit Point.                                                           |
+| Read all published labels and label policies for an organization ([InformationProtectionPolicy.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#informationprotectionpolicyreadall)) | Application | Enables Syskit Point to sync published sensitivity labels and store them in the database.                                                                                                                                    |
+| Read and write mail in all mailboxes ([Mail.ReadWrite](https://learn.microsoft.com/en-us/graph/permissions-reference#mailreadwrite)) | Application | Allows Syskit Point to send emails as a part of the Access Review, Workspace Review, Inactive Workspaces policy, Scheduled Reports, Alerts, and other features.                                                                                      |
+| Send mail as any user ([Mail.Send](https://learn.microsoft.com/en-us/graph/permissions-reference#mailsend)) | Application | Allows Syskit Point to send emails as a part of the Access Review, Workspace Review, Inactive Workspaces policy, Scheduled Reports, Alerts, and other features.                                                                                      |
+| Read all usage reports ([Reports.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#reportsreadall)) | Application | Allows Syskit Point to read usage reports generated by Microsoft.                                                                                                                                                            |
+| Read and write users' full profiles ([User.ReadWrite.All](https://learn.microsoft.com/en-us/graph/permissions-reference#userreadwriteall)) | Application | Allows Syskit Point to read your users' profiles and show you reports based on that data. Additionally, it allows Syskit Point to automatically remove inactive guest users if defined in the Inactive Guest Users policy. |
 
 **Microsoft 365 Exchange Online**
 
 | Permissions                    | Type        | Reason                                                                            |
 | ------------------------------ | ----------- | --------------------------------------------------------------------------------- |
-| Manage Exchange as application | Application | Allows Syskit Point to sync distribution lists and email enabled security groups. |
+| Manage Exchange as application ([Exchange.ManageAsApp](https://learn.microsoft.com/en-us/powershell/exchange/app-only-auth-powershell-v2)) | Application | Allows Syskit Point to sync distribution lists and email enabled security groups. |
 
 **Microsoft 365 Management APIs**
 
 | Permissions                                           | Type                   | Reason                                                      |
 | ----------------------------------------------------- | ---------------------- | ----------------------------------------------------------- |
-| Read activity data for your organization              | Delegated, Application | Allows Syskit Point to read your organization's audit logs. |
+| Read activity data for your organization ([ActivityFeed.Read](https://learn.microsoft.com/en-us/office/office-365-management-api/get-started-with-office-365-management-apis)) | Delegated, Application | Allows Syskit Point to read your organization's audit logs. |
 
 
 **SharePoint**
 
 | Permissions                    | Type        | Reason                                                                                                                |
 | ------------------------------ | ----------- | --------------------------------------------------------------------------------------------------------------------- |
-| Have full control on all sites | Application | Allows Syskit Point to read documents and list items in all site collections and show you reports based on that data. |
+| Have full control on all sites ([Sites.FullControl.All](https://learn.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azuread)) | Application | Allows Syskit Point to read documents and list items in all site collections and show you reports based on that data. |
 
 
 :::info
@@ -259,8 +261,8 @@ Permissions are added when Power BI or Power Apps and Power Automate data collec
 
 | App Registration | Permission Name | Reason |
 | --- | --- | --- |
-| Syskit Point Client | PowerAppManagementApp | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data.  |
-| Syskit Point Power Platform | PowerAppManagementApp | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data. |
+| Syskit Point Client | [PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/new-powerappmanagementapp) | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data.  |
+| Syskit Point Power Platform | [PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/new-powerappmanagementapp) | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data. |
 
 :::warning
 **Please note!**  
@@ -283,16 +285,16 @@ Permissions are added when AI Agents is configured in Syskit Point settings.
 
 | App Registration | Permission Name | Reason |
 | --- | --- | --- |
-| Syskit Point Client | PowerAppManagementApp | Registers Syskit Point as a Power Platform management application, which allows Syskit Point to read Copilot Studio and Agent Builder agents across your tenant. |
-| Syskit Point Client | Dynamics CRM/user_impersonation | Allows Syskit Point to read Copilot Studio agents across your tenant. |
-| Syskit Point Client | Power Platform API/ResourceQuery.Resources.Read | Allows Syskit Point to query Agent Builder agents across your tenant. |
+| Syskit Point Client | [PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/new-powerappmanagementapp) | Registers Syskit Point as a Power Platform management application, which allows Syskit Point to read Copilot Studio and Agent Builder agents across your tenant. |
+| Syskit Point Client | Dynamics CRM/[user_impersonation](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/walkthrough-register-app-azure-active-directory) | Allows Syskit Point to read Copilot Studio agents across your tenant. |
+| Syskit Point Client | Power Platform API/[ResourceQuery.Resources.Read](https://learn.microsoft.com/en-us/power-platform/admin/programmability-permission-reference) | Allows Syskit Point to query Agent Builder agents across your tenant. |
 | Syskit Point Client | Power Platform API/CopilotStudio.MinimalBot.ReadWrite | Allows Syskit Point to read and write minimal bot resources for Copilot Studio agents across your tenant. Additionally, it allows Syskit Point to load Agent Builder agent components, such as knowledge sources. |
 
 **With the introduction of AI agent actions in Point Cloud v2026.3.162, a Global Administrator needs to grant the new permission in the AI Agents settings.** With the grant, the following permission is added:
 
 | App Registration | Permission Name | Reason |
 | --- | --- | --- |
-| Syskit Point Client | Power Platform API/CopilotStudio.AdminActions.Invoke | Allows you to block, unblock, reassign, and delete Copilot Studio and Agent Builder agents in Syskit Point. |
+| Syskit Point Client | Power Platform API/[CopilotStudio.AdminActions.Invoke](https://learn.microsoft.com/en-us/power-platform/admin/programmability-permission-reference) | Allows you to block, unblock, reassign, and delete Copilot Studio and Agent Builder agents in Syskit Point. |
 
 :::warning
 
