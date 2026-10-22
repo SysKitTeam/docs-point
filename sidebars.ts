@@ -581,6 +581,7 @@ const sidebars: SidebarsConfig = {
         'configuration/microsoft-teams-activity',
         'configuration/configure-storage-management',
         'configuration/set-up-email',
+        'configuration/high-volume-emails',
         'configuration/connect-service-account',
         'configuration/enable-sensitivity-labels',
         'configuration/customize-audit-logs-collection',
