@@ -15,7 +15,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 ## Improvements & Bug Fixes
 
 * **High volume e-mails can now be enabled in the E-mail Settings.**
-  * Enable high volume e-mails if you expect more than 10,000 e-mails to be sent at once.¸
+  * Enable high volume e-mails if Syskit Point may need to send more than 10,000 e-mails in a day.
   * The setting covers all e-mails sent to collaborators, including policy tasks, reminders, and escalations, as well as Workspace Reviews.
   * High volume e-mail is a paid Microsoft 365 service that you need to set up in your tenant first.
   * To learn more, see the [High Volume E-mails](../../configuration/high-volume-emails.md) article.

@@ -4,7 +4,7 @@ description: This article explains how High Volume E-mails work and how to enabl
 
 # High Volume E-mails
 
-**High Volume E-mails allow Syskit Point to send a large number of e-mails to collaborators** using Microsoft's High Volume Email (HVE) service. Enable High Volume E-mails if you expect more than 10,000 e-mails to be sent at once.
+**High Volume E-mails allow Syskit Point to send a large number of e-mails to collaborators** using Microsoft's High Volume Email (HVE) service. Enable High Volume E-mails if Syskit Point may need to send more than 10,000 e-mails in a day. Exchange Online allows up to 10,000 recipients per day per mailbox, and Syskit Point stops at 9,500 to leave room for other e-mails.
 
 High Volume E-mails are **not a separate sending method**. They are used alongside the **Exchange Online** or **SMTP** method configured in the [E-mail settings](set-up-email.md). When High Volume E-mails are enabled, only [supported e-mails](#supported-e-mails) are sent through HVE, while all other e-mails are still sent using the selected Exchange Online or SMTP method.
 
@@ -31,14 +31,12 @@ High Volume Email is a **paid Microsoft 365 service** that you need to set up in
 ## Supported E-mails
 
 When High Volume E-mails are enabled, **the following e-mails are always sent through HVE**:
-* **Workspace Review e-mails** sent automatically by Workspace Review policies
+* **Workspace Review e-mails**, including reviews started automatically by Workspace Review policies and reviews started manually with the **Start Now** or **Request Workspace Review** actions
 * **Reminder and escalation e-mails** for Workspace Review tasks; [learn more about reminders and escalations here](../governance-and-automation/workspace-review/reminders-and-escalations.md)
 * **Policy violation e-mails** sent to collaborators when task delegation is enabled for a policy
 * **Workspace Review completed e-mails** sent once Workspace Review tasks are completed
 
-The following e-mails **are not sent through HVE** and are still sent using the selected Exchange Online or SMTP method:
-* **Manually started reviews**, such as reviews started with the **Start Now** or **Request Workspace Review** actions
-* **Scheduled reports** and all other e-mails sent by Syskit Point
+**Scheduled reports** and all other e-mails sent by Syskit Point **are not sent through HVE** and are still sent using the selected Exchange Online or SMTP method.
 
 :::warning
 **Please note!**
