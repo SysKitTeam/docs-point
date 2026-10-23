@@ -77,4 +77,4 @@ Click the **Save** button once you confirm that the test e-mail was received.
 
 ## High Volume E-mails
 
-If you expect more than 10,000 e-mails to be sent at once, you can enable **High Volume E-mails** alongside the Exchange Online or SMTP method. To learn more, see the [High Volume E-mails](high-volume-emails.md) article.
+If Syskit Point may need to send more than 10,000 e-mails in a day, you can enable **High Volume E-mails** alongside the Exchange Online or SMTP method. To learn more, see the [High Volume E-mails](high-volume-emails.md) article.
