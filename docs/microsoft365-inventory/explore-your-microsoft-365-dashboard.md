@@ -27,7 +27,7 @@ The **Syskit Point** Dashboard shows Syskit Point administrators the following i
 * [License Optimization](#license-optimization)
 * [Power Platform](#power-platform)
 * [Workspace Sensitivity](#workspace-sensitivity)
-* [AI Agents](#ai-agents)
+* [AI & app governance](#ai--app-governance)
 * [Workspace Review](#workspace-review)
 * [Cleanup Opportunities](#cleanup-opportunities)
 
@@ -315,20 +315,20 @@ The tile on the Dashboard shows:
 ![Workspace Sensitivity Tile](../../static/img/dashboard-workspace-sensitivity-tile.png)
 
 
-## AI Agents
+## AI & app governance
 
-The **AI Agents** tile gives you an overview of the Microsoft agents and connected apps that are active in your tenant, and highlights how many of them need your attention.
+The **AI & app governance** tile gives you an overview of the Microsoft agents and connected apps that are active in your tenant, and highlights how many of them need your attention.
 
 The tile on the Dashboard shows the following:
 
-* Under **Agents**, the number of agents by type - **Copilot Studio**, **SharePoint Agents**, and **Agent Builder** - together with the number of **Shared Agents**, **Orphaned Agents**, and **Sensitive Agents**
+* Under **Agents**, the number of agents by type - **Copilot Studio**, **SharePoint Agents**, and **Agent Builder** - together with the number of **Shared**, **Orphaned**, **Inactive**, and **Sensitive** agents
   * Clicking **View all agents** opens the [**Agents Inventory**](../ai-agents-and-apps/ai-agents-and-apps-agents-inventory.md) report, or click any of the counts to open the report filtered to that view
-* Under **Entra Apps**, the number of **AI Assistants**, **Agent Identity**, **High Privileged**, **Unverified Publisher**, and **Inactive Apps**, as well as the number of apps that have **Accessed Sensitive Data**
+* Under **Apps**, the number of **AI Assistants**, **Agent Identity**, **High Privileged**, **Unverified**, **Inactive**, and **Sensitive** apps
   * Clicking **View all apps** opens the [**Apps Inventory**](../ai-agents-and-apps/ai-agents-and-apps-apps-inventory.md) report, or click any of the counts to open the report filtered to that view
 
-[For more details on the AI Agents tile, take a look at this article.](../ai-agents-and-apps/ai-agents-and-apps-dashboard-tile.md)
+[For more details on the AI & app governance tile, take a look at this article.](../ai-agents-and-apps/ai-agents-and-apps-dashboard-tile.md)
 
-![AI Agents Tile](../../static/img/dashboard-ai-agents-tile.png)
+![AI & app governance Tile](../../static/img/dashboard-ai-agents-tile.png)
 
 ## Workspace Review
 

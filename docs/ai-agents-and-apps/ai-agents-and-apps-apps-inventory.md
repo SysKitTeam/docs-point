@@ -21,7 +21,7 @@ You can open the Apps Inventory report in two ways:
   * **Select the AI Agents category in the filter** in the upper left corner.
   * **Click the Apps Inventory report tile** to open the report.
 * From the **Dashboard**: 
-  * Go to the [AI Agents tile](ai-agents-and-apps-dashboard-tile.md) and in the Entra Apps section, click **View all apps** to open the full report, or click any of the counts on the tile to open the report filtered to that view. 
+  * Go to the [AI & app governance tile](ai-agents-and-apps-dashboard-tile.md) and in the Apps section, click **View all apps** to open the full report, or click any of the counts on the tile to open the report filtered to that view. 
 
 ## Report Data
 

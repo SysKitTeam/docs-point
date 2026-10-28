@@ -36,7 +36,7 @@ To complete agent actions, **you need permission to manage the agent** in Micros
 
 You can access the Agents Inventory report by:
 
-* **Clicking View all agents** on the [AI Agents Dashboard tile](ai-agents-and-apps-dashboard-tile.md)
+* **Clicking View all agents** on the [AI & app governance Dashboard tile](ai-agents-and-apps-dashboard-tile.md)
 * **Clicking the Reports button** located on the left side of the screen, **selecting the AI Agents category** in the filter in the upper left corner, and **clicking the Agents Inventory report tile** to generate the report
 
 To open the agent details screen, **click the agent name** on the Agents Inventory report.
@@ -121,7 +121,7 @@ Entra App actions can be completed on the **Apps Inventory** report and on the *
 
 You can access the Apps Inventory report by:
 
-* **Clicking View all apps** in the Entra Apps section of the [AI Agents Dashboard tile](ai-agents-and-apps-dashboard-tile.md)
+* **Clicking View all apps** in the Apps section of the [AI & app governance Dashboard tile](ai-agents-and-apps-dashboard-tile.md)
 * **Clicking the Reports button** located on the left side of the screen, **selecting the AI Agents category** in the filter in the upper left corner, and **clicking the Apps Inventory report tile** to generate the report
 
 To open the app details screen, **click the app name** on the Apps Inventory report.

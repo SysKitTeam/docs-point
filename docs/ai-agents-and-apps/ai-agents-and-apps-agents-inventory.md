@@ -21,7 +21,7 @@ You can open the Agents Inventory report in two ways:
   * **Select the AI Agents category in the filter** in the upper left corner.
   * **Click the Agents Inventory report tile** to open the report.
 * From the **Dashboard**: 
-  * Go to the [AI Agents tile](ai-agents-and-apps-dashboard-tile.md) and click **View all agents** to open the full report, or click any of the counts on the tile to open the report filtered to that view. 
+  * Go to the [AI & app governance tile](ai-agents-and-apps-dashboard-tile.md) and click **View all agents** to open the full report, or click any of the counts on the tile to open the report filtered to that view. 
 
 
 ## Report Data
@@ -34,6 +34,7 @@ Once the report is generated successfully, two tiles at the top summarize the st
   * **Orphaned agents** - agents that do not have an active owner
   * **Shared** - agents shared with at least one other person
   * **Shared with everyone** - agents shared with everyone in the organization
+  * **Inactive agents** - agents that are no longer being used
 
 The report grid shows the following columns:
 
@@ -42,7 +43,9 @@ The report grid shows the following columns:
 * **Owner** - the user who owns the agent
 * **Status** - for example, Published, Draft, Approved, or Not approved
 * **Access** - whether the agent is Private, Shared, or available to Everyone
-* **Insights** - highlights such as Orphaned, Blocked, or Sensitive
+* **Insights** - highlights such as Orphaned, Blocked, Sensitive, or Inactive
+
+Use the **Inactive** view to find agents that are no longer being used and decide whether they are still needed.
 
 The additional columns available in the column chooser are:
 

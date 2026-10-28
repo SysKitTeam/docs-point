@@ -18,14 +18,15 @@ Here are a few examples of the way the Scheduled Reports feature can be utilized
 
 With the help of the Scheduled Reports feature, you can:
 
-* **Create Scheduled Reports from views and reports generated in Syskit Point** - all of the filters you define when generating a report or view are then applied when sending the scheduled report
+* **Create Scheduled Reports from views and reports generated in Syskit Point** - the scheduled report is sent based on the selected built-in or custom report view
 * **Setup automatic sending of PDF or XLSX reports to one or more e-mail recipients** in your tenant
 * **Define how often and when to send Scheduled Reports**
 * **Create a Subscription - group of Scheduled Reports** that share the same schedule frequency and delivery options
 
 :::warning
 **Please note!**  
-You can only set up **Scheduled Reports for workspaces where you are the owner**.
+* You can only set up **Scheduled Reports for workspaces where you are the owner**.
+* Scheduled reports do not include any changes made directly in the report columns, such as column filters or sorting. The scheduled report is always sent based on the built-in or custom report view. [For more details on custom views, take a look at the Save Custom Views article.](../../configuration/custom-views.md)
 :::
 
 [To learn how to schedule a report, take a look at this article.](../../governance-and-automation/scheduled-reports.md#schedule-a-report)

@@ -69,6 +69,9 @@ The default columns displayed in the report are:
 * **Name** of the workspace
 * **Permissions levels**; depending on availability, several are shown in your environment.
    * For example **Full Control, Design, Edit, Contribute, Read, Restricted View**
+
+Main links have their own icon, are named **Main Link (Anyone)** or **Main Link (People in your org)**, and are always listed first under their file or folder.
+* [For more details, take a look at the Hero Links article.](hero-links.md)
       
 There are also additional columns in the **column chooser**, located in the top right corner of the report:
       
@@ -80,6 +83,7 @@ There are also additional columns in the **column chooser**, located in the top 
 * **Is Deleted**
 * **Is Licensed**
 * **Sign-in Status**
+* **Main link setting**; shows the file or folder link setting of the main link, using the same values as the **Sharing Links** report
 
 ### Report Actions
 
@@ -90,6 +94,7 @@ Select the item or user and choose the available action from the side panel.
 Some of the available actions are:
 
 *  **Remove sharing link**
+*  **Restrict Link Access**; for main links
 *  **Remove user access**
 *  **Edit user permissions**
 *  **Delete unique permissions**
@@ -140,14 +145,14 @@ The default columns displayed in the report are:
 * **Created On**; shows the date user was created on
 * **Last Tenant Log in**; shows the last time the user signed in to the tenant 
   * This value comes from the user's Microsoft Entra sign-in activity and reflects their most recent successful sign-in, whether they signed in themselves or were signed in automatically in the background; for ad hoc external users, who have no Microsoft Entra account, it reflects their most recent activity recorded in the Microsoft 365 audit log
-* **Hero link**; identifies Microsoft's default per-item sharing link (the new sharing experience) and distinguishes it from classic sharing links
-  * [For more details, take a look at the Hero Links article.](hero-links.md)
       
 The additional columns available in the **column chooser**, located in the top right corner of the report, are:
       
 * **URL**
 * **Object Type**
 * **Site Type**
+* **Sharing link type**; shows whether a link is the main link of a file or folder or another type of link
+  * [For more details, take a look at the Hero Links article.](hero-links.md)
 
 There is a **toggle button** above the grid that changes the data to **show only publicly accessible content**.
 
@@ -158,6 +163,7 @@ Users' access can be **removed and managed** directly from this report. **Select
 Some of the actions are:
 
 *  **Remove user access**
+*  **Restrict Link Access**; for main links
 *  **Edit user permissions**
 *  **Remove user/group from SharePoint group**
 *  **Change admins**
