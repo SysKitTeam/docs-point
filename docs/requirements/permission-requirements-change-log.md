@@ -1,4 +1,4 @@
-﻿---
+---
 description: >-
   This article explains how Global Administrators can reconsent and provides a
   list of permission changes in Syskit Point app registrations through versions.
@@ -175,7 +175,7 @@ With the introduction of AI Agents, new permissions are added to the following a
 
 | App Registration | API/Permission Name | Permission | Type | Reason |
 | ----- | ----- | ----- | ----- | ----- |
-| Syskit Point Service | [MailboxSettings.Read](https://learn.microsoft.com/en-us/graph/permissions-reference#mailboxsettingsread) | Read mailbox settings | Application | Allows Syskit Point to read user's mailbox settings without a signed-in user. This does not grant Syskit Point the ability to read or send emails. The permission is used solely to read mailbox settings in order to detect the user type (user, equipment, or room) shown on License reports. |
+| Syskit Point Service | [MailboxSettings.Read](https://learn.microsoft.com/en-us/graph/permissions-reference#mailboxsettingsread) | Read all user mailbox settings | Application | Allows Syskit Point to read user's mailbox settings without a signed-in user. This does not grant Syskit Point the ability to read or send emails. The permission is used solely to read mailbox settings in order to detect the user type (user, equipment, or room) shown on License reports. |
 
 
 
@@ -200,7 +200,7 @@ With the introduction of AI Agents, new permissions are added to the following a
 
 | App Registration | API/Permission Name | Permission | Type | Reason |
 | ----- | ----- | ----- | ----- | ----- |
-| Syskit Point Service | [MailboxSettings.Read](https://learn.microsoft.com/en-us/graph/permissions-reference#mailboxsettingsread) | Read mailbox settings | Application | Allows Syskit Point to read user's mailbox settings without a signed-in user. This does not grant Syskit Point the ability to read or send emails. The permission is used solely to read mailbox settings in order to detect the user type (user, equipment, or room) shown on License reports. |
+| Syskit Point Service | [MailboxSettings.Read](https://learn.microsoft.com/en-us/graph/permissions-reference#mailboxsettingsread) | Read all user mailbox settings | Application | Allows Syskit Point to read user's mailbox settings without a signed-in user. This does not grant Syskit Point the ability to read or send emails. The permission is used solely to read mailbox settings in order to detect the user type (user, equipment, or room) shown on License reports. |
 
 
 ### Syskit Point Enterprise 2026.1.125
@@ -310,7 +310,7 @@ Syskit Point **does not read or save** the content of messages to detect Microso
 <tbody>
 <tr>
 <td>Syskit Point Client</td>
-<td>PowerApps Service/User</td>
+<td>PowerApps Service/<a href="https://learn.microsoft.com/en-us/power-platform/admin/programmability-authentication#api-permissions">User</a></td>
 <td>Access the PowerApps Service API</td>
 <td>Delegated</td>
 <td>Allows you to run Power Platform actions in Syskit Point.</td>
