@@ -2,7 +2,7 @@
 description: The AI & app governance tile on the Syskit Point Dashboard gives you an overview of the Microsoft agents and connected apps active in your tenant.
 ---
 
-# AI Agents Dashboard
+# AI & app governance Dashboard
 
 The **AI & app governance** tile on the Syskit Point Dashboard shows the Microsoft agents and connected Entra apps that are active in your tenant, how they break down by type, and how many of them need your attention.
 

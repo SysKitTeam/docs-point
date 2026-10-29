@@ -19,7 +19,7 @@ Here are a few examples of the way the Scheduled Reports feature can be utilized
 With the help of the Scheduled Reports feature, you can:
 
 * **Create Scheduled Reports from views and reports generated in Syskit Point** - the scheduled report is sent based on the selected built-in or custom report view
-* **Setup automatic sending of PDF or XLSX reports to one or more e-mail recipients** in your tenant
+* **Set up automatic sending of PDF or XLSX reports to one or more e-mail recipients** in your tenant
 * **Define how often and when to send Scheduled Reports**
 * **Create a Subscription - group of Scheduled Reports** that share the same schedule frequency and delivery options
 

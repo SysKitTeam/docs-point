@@ -12,9 +12,9 @@ When you manage permissions and workspaces in your Microsoft 365 tenant, creatin
 
 With the help of this feature, you can do the following:
 
-* **create Scheduled Reports from views and reports generated in Syskit Point**, meaning that the scheduled report is sent based on the selected built-in or custom report view
+* **Create Scheduled Reports from views and reports generated in Syskit Point**, meaning that the scheduled report is sent based on the selected built-in or custom report view
 * **Set up automatic sending of PDF or XLSX reports to one or more email recipients** in your tenant
-* **Setup automatic saving of PDF or XLSX reports to a document library** in a SharePoint site
+* **Set up automatic saving of PDF or XLSX reports to a document library** in a SharePoint site
 * **Define how often and when to send Scheduled Reports**
 * **Create a Subscription - group of Scheduled Reports** that share the same schedule frequency and delivery options
 

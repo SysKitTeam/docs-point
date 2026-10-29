@@ -83,7 +83,7 @@ There are also additional columns in the **column chooser**, located in the top 
 * **Is Deleted**
 * **Is Licensed**
 * **Sign-in Status**
-* **Main link setting**; shows the file or folder link setting of the main link, using the same values as the **Sharing Links** report
+* **Main link setting**; shows the main link's setting for the file or folder, such as `Only people added`, `People in your org`, or `Anyone`
 
 ### Report Actions
 
@@ -94,7 +94,7 @@ Select the item or user and choose the available action from the side panel.
 Some of the available actions are:
 
 *  **Remove sharing link**
-*  **Restrict Link Access**; for main links
+*  **Restrict Link Access** for main links
 *  **Remove user access**
 *  **Edit user permissions**
 *  **Delete unique permissions**
@@ -163,7 +163,7 @@ Users' access can be **removed and managed** directly from this report. **Select
 Some of the actions are:
 
 *  **Remove user access**
-*  **Restrict Link Access**; for main links
+*  **Restrict Link Access** for main links
 *  **Edit user permissions**
 *  **Remove user/group from SharePoint group**
 *  **Change admins**

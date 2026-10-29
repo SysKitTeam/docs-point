@@ -21,7 +21,7 @@ You can open the Apps Inventory report in two ways:
   * **Select the AI Agents category in the filter** in the upper left corner.
   * **Click the Apps Inventory report tile** to open the report.
 * From the **Dashboard**: 
-  * Go to the [AI & app governance tile](ai-agents-and-apps-dashboard-tile.md) and in the Apps section, click **View all apps** to open the full report, or click any of the counts on the tile to open the report filtered to that view. 
+  * Go to the [AI & app governance Dashboard tile](ai-agents-and-apps-dashboard-tile.md) and in the Apps section, click **View all apps** to open the full report, or click any of the counts on the tile to open the report filtered to that view. 
 
 ## Report Data
 
@@ -124,7 +124,7 @@ From the app details screen, you can also complete the **Block sign-in** or **Al
 
 * [AI Agents Overview](ai-agents-and-apps-overview.md)
 * [Configure AI Agents](ai-agents-and-apps-settings.md)
-* [AI Agents Dashboard](ai-agents-and-apps-dashboard-tile.md)
+* [AI & app governance Dashboard tile](ai-agents-and-apps-dashboard-tile.md)
 * [Agents Inventory Report](ai-agents-and-apps-agents-inventory.md)
 * [AI Agents Actions](ai-agents-and-apps-actions.md)
 * [AI Agents Reports](../reporting/ai-agents-reports.md)

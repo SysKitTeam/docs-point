@@ -51,7 +51,7 @@ The following reports include a **Sharing link type** column, which shows whethe
 
 On the User Access report and in the Workspace Review Sharing step, the **Sharing link type** column is hidden by default but can be selected from the column chooser.
 
-On the following reports, main links have their own icon, are named **Main Link (Anyone)** or **Main Link (People in your org)**, and are always listed first under their file or folder. These reports also include a **Main link setting** column, which shows the file or folder link setting, using the same values as the **Sharing Links** report:
+On the following reports, main links have their own icon, are named **Main Link (Anyone)** or **Main Link (People in your org)**, and are always listed first under their file or folder. These reports also include a **Main link setting** column, which shows the main link's setting for the file or folder, such as `Only people added`, `People in your org`, or `Anyone`:
 
 * **Permissions Matrix report** - see the [Permissions Matrix report](access-reports.md#permissions-matrix-report)
 * **Externally Shared Content report** - see the [Externally Shared Content report](external-sharing-reports.md#externally-shared-content)

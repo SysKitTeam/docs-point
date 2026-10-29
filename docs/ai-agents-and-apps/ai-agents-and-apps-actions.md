@@ -175,6 +175,6 @@ When you delete an app from the app details screen, you are returned to the Apps
 
 * [AI Agents Overview](ai-agents-and-apps-overview.md)
 * [Configure AI Agents](ai-agents-and-apps-settings.md)
-* [AI Agents Dashboard](ai-agents-and-apps-dashboard-tile.md)
+* [AI & app governance Dashboard tile](ai-agents-and-apps-dashboard-tile.md)
 * [Agents Inventory Report](ai-agents-and-apps-agents-inventory.md)
 * [Apps Inventory Report](ai-agents-and-apps-apps-inventory.md)

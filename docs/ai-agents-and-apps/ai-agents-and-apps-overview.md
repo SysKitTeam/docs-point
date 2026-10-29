@@ -17,6 +17,6 @@ From here you can **review each agent's type, ownership, access, and sensitivity
 In this section, you can find the following AI Agents articles that tell you how to:
 
 * [Configure AI Agents](ai-agents-and-apps-settings.md)
-* [Explore the AI & app governance Dashboard Tile](ai-agents-and-apps-dashboard-tile.md)
+* [Explore the AI & app governance Dashboard](ai-agents-and-apps-dashboard-tile.md)
 * [Generate the Agents Inventory Report](ai-agents-and-apps-agents-inventory.md)
 * [Generate the Apps Inventory Report](ai-agents-and-apps-apps-inventory.md)

@@ -326,9 +326,9 @@ The tile on the Dashboard shows the following:
 * Under **Apps**, the number of **AI Assistants**, **Agent Identity**, **High Privileged**, **Unverified**, **Inactive**, and **Sensitive** apps
   * Clicking **View all apps** opens the [**Apps Inventory**](../ai-agents-and-apps/ai-agents-and-apps-apps-inventory.md) report, or click any of the counts to open the report filtered to that view
 
-[For more details on the AI & app governance tile, take a look at this article.](../ai-agents-and-apps/ai-agents-and-apps-dashboard-tile.md)
+[For more details on the AI & app governance Dashboard tile, take a look at this article.](../ai-agents-and-apps/ai-agents-and-apps-dashboard-tile.md)
 
-![AI & app governance Tile](../../static/img/dashboard-ai-agents-tile.png)
+![AI & app governance Dashboard tile](../../static/img/dashboard-ai-agents-tile.png)
 
 ## Workspace Review
 

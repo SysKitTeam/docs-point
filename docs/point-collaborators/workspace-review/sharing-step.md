@@ -65,12 +65,12 @@ Once you've completed the actions you want to take, clicking Next takes you to t
 
 ## Remove Unused Links
 
-On the **Remove Unused Links** sections, you can identify and remove **unused sharing links to ensure links are cleaned up and the workspace remains secure**. 
+In the **Remove Unused Links** section, you can identify and remove **unused sharing links to ensure links are cleaned up and the workspace remains secure**. 
 
 On this screen, you can find the following:
 
 * **Remove All (1)** action button next to the name of the workspace, which removes all unused links
-* **Restrict All (2)** action button, which restricts sharing on main/hero links so that only people who were already added keep access
+* **Restrict All (2)** action button, which restricts sharing on main links so that only people who were already added keep access
 
 The columns available are: 
 
@@ -100,7 +100,7 @@ Once you've completed the actions you want to take, clicking Next takes you to t
 
 ## Review Anyone Links
 
-On the **Review Anyone Links** section, you can review **anyone links to ensure you're not sharing sensitive information with people who shouldn't have access**.
+In the **Review Anyone Links** section, you can review **anyone links to ensure you're not sharing sensitive information with people who shouldn't have access**.
 
 On this screen, you can find the following:
 
@@ -134,7 +134,7 @@ Once you've completed the actions you want to take, clicking Next takes you to t
 
 ## Review Links Shared with People in Your Organization
 
-On the **Review Links Shared with People in Your Organization** section, you can review **links to ensure you're only sharing information that everyone in your organization should see**.
+In the **Review Links Shared with People in Your Organization** section, you can review **links to ensure you're only sharing information that everyone in your organization should see**.
 
 On this screen, you can find the following:
 
@@ -188,7 +188,7 @@ The columns available are:
 * **Sensitivity Label (5)** - shows if there is a sensitivity label assigned to the file
 * The **Remove Sharing Link (6)** action
   * Clicking this action opens the Remove Sharing Link modal, where you need to confirm the removal of the sharing link
-* The **Remove Access (7)** action, which removes access for users and groups given access directly on a file or folder
+* The **Remove Access (7)** action, which removes access for users and groups granted direct access to a file or folder
 * The **Restrict Link Access (8)** action, which restricts sharing so that only people who were already added keep access
 
 :::info
