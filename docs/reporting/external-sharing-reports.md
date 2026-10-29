@@ -43,6 +43,9 @@ The following columns are visible:
 * **Name**; the workspace, content, groups, and external users are shown in the tree grid.
 * **Permission levels**; the level of access for external users over the content. 
   * For example: **Full Control**, **Design**, **Read**, **Edit**, **Contribute** or custom permission levels
+
+Main links have their own icon, are named **Main Link (Anyone)** or **Main Link (People in your org)**, and are always listed first under their file or folder.
+* [For more details, take a look at the Hero Links article.](hero-links.md)
     
 Find and display additional columns in the **column chooser**, located in the top right corner, next to the search bar.
 
@@ -56,6 +59,7 @@ The options available to select are:
 * **Is Deleted**
 * **Is Licensed**
 * **Sign-in Status**
+* **Main link setting** - shows the main link's setting for the file or folder, such as `Only people added`, `People in your org`, or `Anyone`
 * **option to hide or show a specific permission level**
 
 ### Report Actions
@@ -71,6 +75,8 @@ When the report is displayed, the following actions can be completed by clicking
 The following access management actions can be performed:
 * **Change Owners/Admins**
 * **Remove Sharing Links**
+* **Restrict Link Access** for main links
+  * The confirmation dialog shows who can access the item through the main link before and after the change
 * **Grant**, **Remove**, and **Edit** user access
 * **Break** and **Restore** permission inheritance
 * **Add** users to groups, **Remove** users from groups, and **Delete** SharePoint groups
@@ -166,12 +172,21 @@ After clicking the **Sharing Links** report tile, a selection step opens where y
 There are default columns displayed in the report which list the following:
     
 * **Name** of the workspace
-* **URL**
-* **Link**
-* **Link Type**
-* **Hero link** - identifies Microsoft's default per-item sharing link (the new sharing experience) and distinguishes it from classic sharing links
+* **Accessible to** - shows who can use the link
+* **Access level** - shows what people can do with the link
+* **Recommendation**
+* **Sharing link type** - shows whether a link is the main link of a file or folder or another type of link
   * [For more details, take a look at the Hero Links article.](hero-links.md)
 * **Created On**
+* **Created By**
+* **Link**
+
+There are additional columns available in the **column chooser**, located in the top right corner of the report:
+
+* **Link Type**
+* **URL**
+* **Link from Parent**
+* **Last Used By**
 * **Expiration Date**
 
 ### Report Actions
@@ -184,7 +199,7 @@ The following actions can be performed within the report:
 :::info
 
 **Please note!**  
-Since SharePoint does not allow deleting a hero/main link, you can only run the **Restrict Sharing** action on main links, which removes access for everyone except the people you shared the link with directly.
+Since SharePoint does not allow deleting a hero/main link, you can only run the **Restrict Link Access** action on main links, which removes access for everyone except the people you shared the link with directly.
 
 :::
 

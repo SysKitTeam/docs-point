@@ -43,13 +43,15 @@ For more details on Microsoft's new sharing experience, take a look at the follo
 
 Syskit Point recognizes main links and surfaces them across its link-based reports and tasks, so you can tell them apart from classic sharing links and see how each file or folder is shared.
 
-The following reports include a **Hero link** column, which identifies Microsoft's default per-item sharing link and distinguishes it from classic sharing links:
+The following reports include a **Sharing link type** column, which shows whether a link is the main link of a file or folder or another type of link:
 
 * **Sharing Links report** - see the [Sharing Links report](external-sharing-reports.md#sharing-links)
 * **User Access report** - see the [User Access report](access-reports.md#user-access-report)
 * **Workspace Review Sharing step** - main links are marked across the sharing sections; see the [Workspace Review Sharing step](../point-collaborators/workspace-review/sharing-step.md)
 
-The following reports include a **Hero Link Setting** column, which shows the file or folder link setting, such as `Only people added`, `People in your org`, or `Anyone`:
+On the User Access report and in the Workspace Review Sharing step, the **Sharing link type** column is hidden by default but can be selected from the column chooser.
+
+On the following reports, main links have their own icon, are named **Main Link (Anyone)** or **Main Link (People in your org)**, and are always listed first under their file or folder. These reports also include a **Main link setting** column, which shows the main link's setting for the file or folder, such as `Only people added`, `People in your org`, or `Anyone`:
 
 * **Permissions Matrix report** - see the [Permissions Matrix report](access-reports.md#permissions-matrix-report)
 * **Externally Shared Content report** - see the [Externally Shared Content report](external-sharing-reports.md#externally-shared-content)
@@ -65,8 +67,9 @@ The following site metrics are also affected by the new sharing model:
 :::info
 
 **Please note!**  
-* Since SharePoint does not allow deleting a hero/main link, you can only run the **Restrict Sharing** action on main links, which removes access for everyone except the people you shared the link with directly.
-* **Restrict Sharing** applies to organization-wide and Anyone main links and reverts their sharing so that only people who were already added keep access; it is available from the **Sharing Links**, **Permissions Matrix**, and **User Access** reports.
+* Since SharePoint does not allow deleting a hero/main link, you can only run the **Restrict Link Access** action on main links, which removes access for everyone except the people you shared the link with directly.
+* **Restrict Link Access** applies to organization-wide and Anyone main links and reverts their sharing so that only people who were already added keep access; it is available from the **Sharing Links**, **Permissions Matrix**, **User Access**, and **Externally Shared Content** reports.
+* The confirmation dialog shows who can access the item through the main link before and after the change.
 
 :::
 
