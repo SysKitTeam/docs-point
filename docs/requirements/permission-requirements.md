@@ -43,9 +43,9 @@ The following permissions are required for **Syskit Point Installer** Enterprise
 
 **Microsoft Graph**
 
-| Permission | Description | Type | Reason |
-| --- | --- | --- | --- |
-| [User.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#userreadall) | Read all users' full profiles | Delegated | Allows Syskit Point to read your users' profiles and show you reports based on that data. |
+| Permission | Type | Reason |
+| --- | --- | --- |
+| Read all users' full profiles ([User.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#userreadall)) |  Delegated | Allows Syskit Point to read your users' profiles and show you reports based on that data. |
 
 | Permissions                              | Type      | Reason                                                                                                                     |
 | ---------------------------------------- | --------- | -------------------------------------------------------------------------------------------------------------------------- |
