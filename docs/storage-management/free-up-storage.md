@@ -155,8 +155,11 @@ You can access your archived files by following these steps:
 
 The **Archive Stale Files** action lets you archive every file currently classified as stale on the selected site(s) in one bulk operation. It uses the same underlying [Archive Files](#archive-files) mechanism (Microsoft 365 Archive) but targets everything that matches your configured [Stale Files policies](../governance-and-automation/stale-files/stale-files-admin.md) instead of individually selected files.
 
+**Archiving stale files is low risk**. Archived files stay in the same place in SharePoint. If somebody can see the file, they can retrieve it themselves without needing any approval or process.
+
 :::info
 * At least one [Stale Files policy](../governance-and-automation/stale-files/stale-files-admin.md) must be configured and applied to be able to Archive Stale Files.
+* To archive stale files with the **Archive Stale Files** action, **Microsoft 365 Archive** must be enabled in your tenant.
 :::
 
 You can archive stale files from three places:
