@@ -65,12 +65,12 @@ Under **Agent configuration**, grant the permissions Syskit Point needs to read 
 
 [Take a look at the Permission Requirements article for more details on why each permission is needed.](../requirements/permission-requirements.md#ai-agents)
 
-Once the service account is connected and the permissions are granted, the first **AI Agents data sync** starts. When completed, the summary data shows on the [AI Agents dashboard tile](ai-agents-and-apps-dashboard-tile.md). From there, you can drill to open the Agents Inventory and Apps Inventory reports for a detailed overview of the agents and Entra apps in your tenant.
+Once the service account is connected and the permissions are granted, the first **AI Agents & apps data sync** starts. When completed, the summary data shows on the [AI & app governance Dashboard tile](ai-agents-and-apps-dashboard-tile.md). From there, you can drill to open the Agents Inventory and Apps Inventory reports for a detailed overview of the agents and Entra apps in your tenant.
 
 ## Related Articles
 
 * [AI Agents Overview](ai-agents-and-apps-overview.md)
-* [AI Agents Dashboard](ai-agents-and-apps-dashboard-tile.md)
+* [AI & app governance Dashboard tile](ai-agents-and-apps-dashboard-tile.md)
 * [Agents Inventory Report](ai-agents-and-apps-agents-inventory.md)
 * [Apps Inventory Report](ai-agents-and-apps-apps-inventory.md)
 * [AI Agents Reports](../reporting/ai-agents-reports.md)

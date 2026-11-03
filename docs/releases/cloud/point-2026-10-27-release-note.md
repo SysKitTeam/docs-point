@@ -33,6 +33,6 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Inactive agents are now identified** in the Agents inventory.
   * Use the new **Inactive** insight and view to find agents that are no longer being used and decide whether they are still needed.
-  * The number of inactive agents is also **shown on the Agents Inventory report and the AI & app governance dashboard tile**.
+  * The number of inactive agents is also **shown on the Agents Inventory report and the AI & app governance Dashboard tile**.
 
 * **Various improvements, including UX and UI fixes, have been implemented.**
