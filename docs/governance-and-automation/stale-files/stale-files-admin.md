@@ -18,19 +18,18 @@ The **Stale Files policies** let you define what "stale" means for different par
 
 To use Stale Files policies, you need to [Configure Storage Management](../../configuration/configure-storage-management.md) with **Collect storage data** enabled.
 
-To archive stale files with the **Archive Stale Files** action, **Microsoft 365 Archive** must be enabled in your tenant.
+To archive stale files with the **Archive Stale Files** action, **Microsoft 365 Archive** must be enabled in your tenant. See the [Set up Microsoft 365 Archive](https://learn.microsoft.com/en-us/microsoft-365/archive/archive-setup?view=o365-worldwide) article.
 
 :::info
-**Recommendation: Switch to pay-as-you-go storage so archiving saves you money right away.**
+**We recommend switching to pay-as-you-go storage** so that archiving saves you money right away.
 
-If you buy extra storage in prepaid packs, archiving old files frees up active storage, but your cost stays the same because you've already paid for those packs. You only start saving when it's time to renew and you buy fewer packs.
-
-With pay-as-you-go (Microsoft 365 SharePoint Storage), you pay each month only for the storage you use above your included amount. When you archive old files, you use less active storage, so your next bill is lower. The archived files are still billed, but at a cheaper archive rate.
+* **With pay-as-you-go storage** (Microsoft 365 SharePoint Storage), you are billed monthly only for the storage you use above your included amount. Archiving stale files reduces your active storage, which **lowers your next bill**. Archived files are still billed, but at the cheaper archive rate.
+* **With prepaid storage packs**, archiving frees up active storage, but **your cost stays the same** because the packs are already paid for. You start saving only when you renew and buy fewer packs.
 
 See the [Add Microsoft 365 SharePoint Storage](https://learn.microsoft.com/en-us/microsoft-365/commerce/add-storage-space?view=o365-worldwide#add-microsoft-365-sharepoint-storage) article.
 :::
 
-Microsoft only tracks when files were last modified, not when they were last accessed. Files that are read often but rarely edited can look stale even if they are not, which leaves you with inaccurate information for cleanup. 
+Microsoft only tracks when files were last modified, not when they were last accessed. Files that are read often but rarely edited can look stale even if they are not, which leaves you with inaccurate information for cleanup.
 
 By combining certain properties in a single rule, you can get an accurate view of what is actually stale, instead of finding files that have just not been modified but are still actively used.
 
@@ -60,9 +59,8 @@ Here, you can:
 
 The default Stale Files policy classifies files as stale when their **Last modified date is older than 180 days**. To ensure files are being classified as stale accurately, and based on your organization's requirements, edit the default policy or create an additional one that, for example, combines **Last modified** with **Last activity**.
 
-  * **Last modified** is a native Microsoft property. It updates whenever anything about a file changes, including changes that don't touch the content itself, such as metadata updates.
-
-  * **Last activity** is calculated by Syskit Point based on audit data. It tracks actual activity on the file: whether it was viewed, edited, or downloaded.
+* **Last modified** is a native Microsoft property. It updates whenever anything about a file changes, including changes that don't touch the content itself, such as metadata updates.
+* **Last activity** is calculated by Syskit Point based on audit data. It tracks actual activity on the file: whether it was viewed, edited, or downloaded.
 
 We recommend setting **Last activity and Last modified** together, so you cover all bases. For example, a file's Last activity can be in 2024 while its Last modified date is in 2026, because its metadata was changed without anyone opening it.
 
@@ -141,13 +139,15 @@ Once your Stale Files policies are configured and your files have been assessed 
 * **Selecting a specific workspace in the [Site Storage Metrics report](../../storage-management/storage-reports.md#site-storage-metrics)** and selecting the **Stale Files** view for the report. 
   * This lists the individual files classified as stale on that workspace, and the **Archive up to X GB** section of the Storage Optimization Opportunities tile shows the total that can be moved out of active storage.
 
-**Archiving stale files is low risk**. Archived files stay in the same place in SharePoint. If somebody can see the file, they can retrieve it themselves without needing any approval or process.
-
 From there, you have two options for what to do with the stale files you found:
 
 * **Archive them in bulk** using the [Archive Stale Files action](../../storage-management/free-up-storage.md#archive-stale-files) - available on both the Storage Metrics and Site Storage Metrics reports. 
   * This archives every file currently classified as stale on the selected workspace(s) in a single operation.
 * **Review or clean up individual files** directly from the Site Storage Metrics view by using the standard [Archive Files](../../storage-management/free-up-storage.md#archive-files), [Delete Files](../../storage-management/free-up-storage.md#delete-files), or [Clean Up File Versions](../../storage-management/free-up-storage.md#clean-up-action-on-site-storage-metrics-report) actions on the files you select.
+
+:::tip
+**Archiving is reversible.** Archived files stay in the same location in SharePoint and keep their permissions and metadata. Anyone with access can reactivate a file without admin approval or a reactivation fee. Files archived in the last 7 days reactivate instantly; older files can take up to 24 hours. See [Reactivate Archived Files](../../storage-management/free-up-storage.md#reactivate-archived-files).
+:::
 
 ## Related Articles
 
