@@ -142,6 +142,8 @@ The default columns displayed in the report are:
 * **Access**; the permissions level of the user
 * **Given Through**
 * **Details**; shows where the user received the permission from
+  * If the user's access comes from a main link, this is shown as, for example, **Main Link (People in your org)**; this is also shown in exported reports
+  * [For more details, take a look at the Hero Links article.](hero-links.md)
 * **Created On**; shows the date user was created on
 * **Last Tenant Log in**; shows the last time the user signed in to the tenant 
   * This value comes from the user's Microsoft Entra sign-in activity and reflects their most recent successful sign-in, whether they signed in themselves or were signed in automatically in the background; for ad hoc external users, who have no Microsoft Entra account, it reflects their most recent activity recorded in the Microsoft 365 audit log
