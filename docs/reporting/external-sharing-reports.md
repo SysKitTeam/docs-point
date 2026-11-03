@@ -171,7 +171,7 @@ After clicking the **Sharing Links** report tile, a selection step opens where y
 
 There are default columns displayed in the report which list the following:
     
-* **Name** of the workspace
+* **Name** of the content shared
 * **Accessible to** - shows who can use the link
 * **Access level** - shows what people can do with the link
 * **Recommendation**
@@ -193,6 +193,7 @@ There are additional columns available in the **column chooser**, located in the
 
 The following actions can be performed within the report:
 * **Remove sharing link**
+* **Restrict Link Access** for main links
 * **Remove user access**
 * **Open related reports**
 
