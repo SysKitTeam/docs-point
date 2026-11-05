@@ -47,14 +47,15 @@ On this screen, you can find the following:
 The columns available are: 
 
 * **Name (2)** of the content shared 
-* **Link Type (3)** - the level of sharing given through the link, for example, view-only, password-protected (edit), etc.
-* **Expiration Date (4)** - shows when the link is set to expire
-* **Last Used (5)** - the date the content was last used
-* **Sensitivity label (6)** - shows if there is a sensitivity label assigned to the content
-* **Link Created On (7)** - shows when the link was created
-* **Recommendation (8)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made. The following recommendation could be suggested:
-   * **Expired Links** - expired sharing links are no longer valid. You can safely remove them to reduce clutter and keep your workspace clean and secure 
-* The **Remove Sharing Link (9)** action
+* **Accessible to (3)** - shows who can use the link
+* **Access (4)** - the level of sharing given through the link, for example, view-only, password-protected (edit), etc.
+* **Expiration Date (5)** - shows when the link is set to expire
+* **Last Used (6)** - the date the content was last used
+* **Sensitivity label (7)** - shows if there is a sensitivity label assigned to the content
+* **Link Created On (8)** - shows when the link was created
+* **Recommendation (9)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made. The following recommendation could be suggested:
+   * **Expired Links** - expired sharing links are no longer valid. You can safely remove them to reduce clutter and keep your workspace clean and secure 
+* The **Remove Sharing Link (10)** action
   * Clicking this action opens the Remove Sharing Link modal, where you need to confirm the removal of the sharing link
 
 The **Sharing link type** column, which shows whether a link is the main link of a file or folder or another type of link, is hidden by default but can be selected from the column chooser.
@@ -75,17 +76,18 @@ On this screen, you can find the following:
 The columns available are: 
 
 * **Name (3)** - the name of the content
-* **Link Type (4)** - the level of sharing given through the link, for example, view-only, password-protected (edit), etc.
-* **Expiration Date (5)** - shows when the link is set to expire
-* **Last Used (6)** - the date the content was last used
+* **Accessible to (4)** - shows who can use the link
+* **Access (5)** - the level of sharing given through the link, for example, view-only, password-protected (edit), etc.
+* **Expiration Date (6)** - shows when the link is set to expire
+* **Last Used (7)** - the date the content was last used
   * If a link has no usage date, a tooltip in this column explains why the date is missing
-* **Sensitivity Label (7)** - shows if there is a sensitivity label assigned to the content
-* **Link Created On (8)** - shows when the link was created
-* **Recommendation (9)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made. The following recommendation could be suggested:
+* **Sensitivity Label (8)** - shows if there is a sensitivity label assigned to the content
+* **Link Created On (9)** - shows when the link was created
+* **Recommendation (10)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made. The following recommendation could be suggested:
    * **Unused Link** - unused links are links that haven't been used in the last 30 days
-* The **Remove Sharing Link (10)** action
+* The **Remove Sharing Link (11)** action
   * Clicking this action opens the Remove Sharing Link modal, where you need to confirm the removal of the sharing link
-* The **Restrict Link Access (11)** action, which restricts sharing so that only people who were already added keep access
+* The **Restrict Link Access (12)** action, which restricts sharing so that only people who were already added keep access
 
 :::info
 
@@ -190,6 +192,8 @@ The columns available are:
   * Clicking this action opens the Remove Sharing Link modal, where you need to confirm the removal of the sharing link
 * The **Remove Access (7)** action, which removes access for users and groups granted direct access to a file or folder
 * The **Restrict Link Access (8)** action, which restricts sharing so that only people who were already added keep access
+
+Main links are marked in this section and are always listed first under their file or folder. [For more details, take a look at the Hero Links article.](../../reporting/hero-links.md)
 
 :::info
 

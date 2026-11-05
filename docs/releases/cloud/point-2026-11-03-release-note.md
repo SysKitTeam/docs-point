@@ -21,7 +21,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Improvements made to Reports.**
   * **The User Access report** now shows when a user's access comes from a main link.
-    * The main link is shown in the **Details** column, for example, **Main Link (People in your org)**, as well as in exported reports and Access Review tasks.
+    * The main link is shown in the **Details** column, for example, **Main Link (People in your org)**, as well as in exported reports and Workspace Review tasks.
     * For more details, [please take a look at the Hero Links article.](../../reporting/hero-links.md)
   * **Extension Attribute columns can now be filtered and sorted** on the Users Overview report.
 
