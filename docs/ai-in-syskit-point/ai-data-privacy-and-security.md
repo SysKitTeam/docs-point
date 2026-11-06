@@ -39,11 +39,12 @@ Existing boundaries continue to apply:
 
 AI features in Syskit Point **deliver findings and recommendations**. 
 
-**They do not make administrative changes so there will be**: 
+**They do not make administrative changes without your explicit approval, so there will be**: 
 * **No** permission removals 
 * **No** membership changes 
 * **No** deletions. 
-* **Every action remains a human decision made through Syskit Point's standard workflows**.
+* **Every action remains a human decision**.
+  * Changes are made through Syskit Point's standard workflows, or through an action you explicitly approve in [Point Assistant](features/point-assistant.md#block-or-unblock-user-sign-in), such as blocking a user's sign-in.
 
 ## Frequently Asked Security Questions
 
@@ -61,7 +62,8 @@ No. AI features work exclusively on data Syskit Point already collects. The AI o
 
 **Can AI features change things in our tenant?** 
 
-No. All AI features deliver findings and recommendations. Administrative changes remain human decisions made through standard Point workflows.
+Not without your explicit approval. AI features deliver findings and recommendations, and administrative changes remain human decisions made through standard Point workflows.
+  * The only exception is Point Assistant, which can block or unblock sign-in for a user, but only after a Syskit Point Admin approves each action. See [Block or Unblock User Sign-in](features/point-assistant.md#block-or-unblock-user-sign-in).
 
 **Can a user see data through AI features that their Point role doesn't allow?** 
 
