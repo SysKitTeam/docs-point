@@ -14,6 +14,11 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 ## Improvements & Bug Fixes
 
+* **New actions are available in Point Assistant.**
+  * You can now ask Point Assistant to **block** or **unblock** sign-in for a Microsoft 365 user.
+  * No changes are made until you approve the action in the chat.
+  * For more details, [please take a look at the Point Assistant article.](../../ai-in-syskit-point/features/point-assistant.md#block-or-unblock-user-sign-in)
+
 * **Improvements made to Workspace Review.**
   * **The Unused Links and Expired Links steps** now show who can use each link.
     * A new **Accessible to** column has been added, and the **Link Type** column has been renamed to **Access**.
