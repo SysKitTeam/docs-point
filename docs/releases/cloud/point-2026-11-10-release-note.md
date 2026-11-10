@@ -17,13 +17,15 @@ description: This article lists new features, improvements, and bug fixes in the
 * **Automation is now available for ownerless agents on the Agents Inventory report!**
   * Syskit Point can now automatically assign a new owner to Copilot Studio and Agent Builder agents whose owner is no longer an active user.
   * You can choose whether the new owner is the previous owner's manager or the agent's sponsor.
-  * Every change is recorded in the new **Ownerless Agents History** report.
+  * Every change is recorded in the new [**Ownerless Agents History**](../../ai-agents-and-apps/ai-agents-and-apps-automation.md#ownerless-agents-history-report) report.
   * The automation requires the AI Agents service account to have the **Power Platform Administrator** role.
+  * For more details, [please take a look at the Ownerless Agents Automation article.](../../ai-agents-and-apps/ai-agents-and-apps-automation.md)
 
 * **New Agent Activity and Agent Configuration Changes reports are available.**
   * You can open both reports from the **Agents Inventory** report and the agent details screen.
   * The **Agent Activity** report shows how users interact with agents in Microsoft 365 Copilot.
   * The **Agent Configuration Changes** report shows administrative and configuration changes made to agents, such as blocking, reassigning, or deleting an agent.
+  * For more details, [please take a look at the AI Agents Actions article.](../../ai-agents-and-apps/ai-agents-and-apps-actions.md#agent-activity)
 
 ## Improvements & Bug Fixes
 
@@ -39,15 +41,21 @@ description: This article lists new features, improvements, and bug fixes in the
   * **Orphaned agents have been renamed to ownerless agents** across Syskit Point, including insights, views, and email notifications.
   * **Tools and Topics tiles have been added** to the agent details screen.
   * **The AI & app governance Dashboard tile** now shows the agent data sync status.
+    * For more details, [please take a look at the AI & app governance Dashboard article.](../../ai-agents-and-apps/ai-agents-and-apps-dashboard-tile.md)
   * **The app details screen now has a more compact design**, making key information easier to find.
 
 * **AI Agents & Apps in Syskit Point is no longer in early access.**
   * The **Early Access** label has been replaced with the **New** label on all AI Agents screens.
+  * AI Agents & Apps features are now available according to your Syskit Point plan:
+    * **The Agents Inventory and Apps Inventory reports** are available in the Management plan and higher tiers.
+    * **The Agent Activity and Agent Configuration Changes reports** are available in the Security & Compliance plan and higher tiers.
+    * **The Ownerless agents automation** is available in the Governance plan and higher tiers.
+    * See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+  * For more details, [please take a look at the AI Agents Overview article.](../../ai-agents-and-apps/ai-agents-and-apps-overview.md)
 
 * **Improvements made to sharing link management.**
   * **The Restrict Link Access action is now available on file and folder rows** on the **Sharing Links** and **Permissions Matrix** reports.
     * The action is available when the main link setting is **Anyone** or **People in your organization**.
-    * For more details, [please take a look at the Hero Links article.](../../reporting/hero-links.md)
   * **The Sharing Links tile on the site, list, and library details screens is now full width.**
     * The **Access** and **Sharing link type** columns are now shown without horizontal scrolling.
   * **The Restrict Link Access and Remove Sharing Link buttons now look the same** in all Workspace Review sharing steps.
