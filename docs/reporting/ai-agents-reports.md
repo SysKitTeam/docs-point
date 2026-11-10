@@ -10,6 +10,8 @@ AI Reports in Syskit Point provide easy monitoring for AI usage across your tena
 * [Apps Inventory](../ai-agents-and-apps/ai-agents-and-apps-apps-inventory.md) - an overview of the Entra ID app registrations, enterprise applications, and service principals in your tenant
 * [Copilot Agent Knowledge Sources](#copilot-agent-knowledge-sources) - an overview of the knowledge sources for one or more Copilot agents
 
+The **Agent Activity** and **Agent Configuration Changes** audit reports are opened from the Agents Inventory report by selecting one or more agents. [Take a look at the AI Agents Actions article for more details.](../ai-agents-and-apps/ai-agents-and-apps-actions.md#agent-activity)
+
 The Agents Inventory and Apps Inventory reports each have a dedicated article. This article covers the **Copilot Agent Knowledge Sources** report.
 
 ## Copilot Agent Knowledge Sources

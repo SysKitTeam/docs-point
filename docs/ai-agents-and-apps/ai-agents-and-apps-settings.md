@@ -11,17 +11,15 @@ In this article, you can find details on:
 * [Prerequisites](#prerequisites)
 * [Set Up AI Agents](#ai-agents-in-settings)
 
-:::info
-**AI Agents in Syskit Point is currently in Early Access** and free to use while the feature is in active development. Feature behavior and scope may change as new capabilities are released.
-:::
-
 ## Prerequisites
 
 To set up and configure AI Agents: 
 
 * You need the Global Administrator role.
-* You need a **service account** with a **Power Platform Administrator** role assigned.
+* You need a **service account** with the **AI Reader** or **Power Platform Administrator** role assigned.
   * Syskit Point signs in with this account to read the agents across your tenant.
+  * The service account doesn't need the Global Administrator role.
+  * The **AI Reader** role is enough to view agents in Syskit Point reports, while the **Power Platform Administrator** role is required only if you want to use the [Ownerless agents automation](ai-agents-and-apps-automation.md).
 
 ## AI Agents in Settings
 
@@ -32,6 +30,8 @@ To configure AI Agents, go to the **AI Agents section (1)** of Settings, under *
 
 The rest of the AI Agents settings consists of two parts: **connecting a service account** and **granting the agent configuration permissions**.
 
+![AI Agents - Settings - Enable](../../static/img/ai-agents-apps-setup-settings.png)
+
 :::info
 
 The service account and Power Platform permissions are only required to discover **Copilot Studio** and **Agent Builder** agents. **SharePoint agents** and **Entra apps** are synced by default and don't require any additional setup.
@@ -41,13 +41,27 @@ The service account and Power Platform permissions are only required to discover
 
 ### Connect the Service Account
 
-Syskit Point uses your **service account** to sign in and read the agents across your tenant. The account **must have the Power Platform Administrator** role.
+Syskit Point uses the **service account** connected in the AI Agents settings to sign in and read the agents across your tenant. The account **must have the AI Reader or Power Platform Administrator** role.
 
-* Once connected, the **Status** shows the **connected account** with a **green** checkmark next to it and confirms the **Power Platform Administrator (3)** role.
-  * **Clicking Change account (4)** takes you to the **Connected Tenant** section of Settings, where you can change your connected service account.
+* **We recommend connecting a service account dedicated to AI Agents**, separate from the service account Syskit Point uses to collect the rest of your tenant data.
+  * This way, each service account has a single purpose, which is often required by company security policies.
+* **Click Connect account** and sign in with the service account. The sign-in is completed without leaving the settings screen.
+* Once connected, the **Status** shows the **connected account** with its **assigned role (3)**.
+  * **AI Reader** - lets you view agents in Syskit Point reports and perform manual actions on them.
+  * **Power Platform Administrator** - everything the AI Reader role allows, plus automated actions, such as the [Ownerless agents automation](ai-agents-and-apps-automation.md).
+  * If the account has neither role, the **Status** shows **Missing role**, with a link to assign the role in Microsoft Entra.
+* **Clicking Remove account (4)** disconnects the service account from AI Agents.
+  * Once removed, part of the AI Agents data stops syncing.
+  * The service account connected in the **Connected Tenant** section of Settings is not affected.
 
-![AI Agents - Settings](../../static/img/ai-agents-apps-setup-settings.png)
+:::info
 
+**Already using AI Agents?** You don't need to connect a new service account. The service account you previously connected is automatically used for AI Agents, and your agents data continues to sync without interruption.
+
+:::
+
+![AI Agents - Settings - Service Account](../../static/img/ai-agents-apps-setup-settings-service.png)
+   
 
 ### Grant the Agent Configuration Permissions
 
@@ -73,6 +87,7 @@ Once the service account is connected and the permissions are granted, the first
 * [AI & app governance Dashboard tile](ai-agents-and-apps-dashboard-tile.md)
 * [Agents Inventory Report](ai-agents-and-apps-agents-inventory.md)
 * [Apps Inventory Report](ai-agents-and-apps-apps-inventory.md)
+* [Ownerless Agents Automation](ai-agents-and-apps-automation.md)
 * [AI Agents Reports](../reporting/ai-agents-reports.md)
 * [Permission Requirements](../requirements/permission-requirements.md#ai-agents)
 * [Permission Requirements Change Log](../requirements/permission-requirements-change-log.md)
