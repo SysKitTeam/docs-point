@@ -8,15 +8,9 @@ The **AI & app governance** tile on the Syskit Point Dashboard shows the Microso
 
 The tile gives you a single place to see how many agents and Entra apps exist in your tenant and lets you jump straight into the detailed inventory reports, without having to search through the Report Center.
 
-:::info
-
-**AI Agents in Syskit Point is currently in Early Access** and free to use while the feature is in active development. Feature behavior and scope may change as new capabilities are released.
-
-:::
-
 The AI & app governance tile is split into two sections:
 
-* **[Agents](#agents) (1)** - the Microsoft agents deployed across your tenant, grouped by type, with counts for the shared, orphaned, inactive, and sensitive agents that most often need attention.
+* **[Agents](#agents) (1)** - the Microsoft agents deployed across your tenant, grouped by type, with counts for the shared, ownerless, inactive, and sensitive agents that most often need attention.
 * **[Apps](#apps) (2)** - the Entra ID apps that can access your Microsoft 365 data, with counts for the categories that carry the most risk.
 
 ![AI & app governance Dashboard tile](../../static/img/ai-agents-and-apps-dashboard-tile.png)
@@ -30,7 +24,8 @@ Clicking **View all agents** or **View all apps** opens the relevant inventory r
 The section shows the number of agents by type - **Copilot Studio**, **SharePoint Agents**, and **Agent Builder**, alongside the numbers for the following:
 
 * **Shared** - agents that have been shared with other users
-* **Orphaned** - agents whose owner is no longer an active user
+* **Ownerless** - agents whose owner is no longer an active user
+  * Clicking the count opens the Agents Inventory report on the **Ownerless agents** view, where you can set up the [Ownerless agents automation](ai-agents-and-apps-automation.md)
 * **Inactive agents** - agents that are no longer being used
   * If the number of inactive agents is not available yet, the tile shows the date when it will become available
 * **Sensitive** - agents that reference sensitive content through their knowledge sources
@@ -58,4 +53,5 @@ Clicking **View all apps** opens the [Apps Inventory](ai-agents-and-apps-apps-in
 * [Configure AI Agents](ai-agents-and-apps-settings.md)
 * [Agents Inventory Report](ai-agents-and-apps-agents-inventory.md)
 * [Apps Inventory Report](ai-agents-and-apps-apps-inventory.md)
+* [Ownerless Agents Automation](ai-agents-and-apps-automation.md)
 * [AI Agents Reports](../reporting/ai-agents-reports.md)
