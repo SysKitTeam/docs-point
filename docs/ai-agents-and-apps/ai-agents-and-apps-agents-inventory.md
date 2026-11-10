@@ -6,12 +6,6 @@ description: The Agents Inventory report provides an overview of the Microsoft a
 
 The **Agents Inventory** report gives you an overview of the **Microsoft agents across your tenant**. It provides details on SharePoint agents, Copilot Studio agents, and Agent Builder agents, including their **type, ownership, and access**. 
 
-:::info
-
-**AI Agents in Syskit Point is currently in Early Access** and free to use while the feature is in active development. Feature behavior and scope may change as new capabilities are released.
-
-:::
-
 ## Generate Report
 
 You can open the Agents Inventory report in two ways:
@@ -31,7 +25,8 @@ Once the report is generated successfully, two tiles at the top summarize the st
 * **The Overview tile** shows the total number of **agents deployed across your tenant**, with a breakdown by type (Copilot Studio, SharePoint agents, and Agent Builder).
 * **The Needs Attention tile** highlights the agents that may require action, with numbers showing the amount for the following:
   * **Sensitive agents** - agents that reference sensitive content through their knowledge sources (see the [Sensitive Agents](#sensitive-agents) section below)
-  * **Orphaned agents** - agents that do not have an active owner
+  * **Ownerless agents** - agents that do not have an active owner
+    * Clicking **Manage automation** lets you set up the [Ownerless agents automation](ai-agents-and-apps-automation.md), which automatically assigns a new owner to ownerless agents
   * **Shared** - agents shared with at least one other person
   * **Shared with everyone** - agents shared with everyone in the organization
   * **Inactive agents** - agents that are no longer being used
@@ -43,7 +38,7 @@ The report grid shows the following columns:
 * **Owner** - the user who owns the agent
 * **Status** - for example, Published, Draft, Approved, or Not approved
 * **Access** - whether the agent is Private, Shared, or available to Everyone
-* **Insights** - highlights such as Orphaned, Blocked, Sensitive, or Inactive
+* **Insights** - highlights such as Ownerless, Blocked, Sensitive, or Inactive
 
 Use the **Inactive** view to find agents that are no longer being used and decide whether they are still needed.
 
@@ -68,7 +63,7 @@ The additional columns available in the column chooser are:
 
 The Agents Inventory report can be **exported as PDF, CSV and XLSX files**. There is also the **option to schedule the report**.
 
-Selecting one or more agents in the report lets you complete agent actions, such as Block, Reassign, and Delete.
+Selecting one or more agents in the report lets you complete agent actions, such as Block, Reassign, and Delete, and open the Tools, Topics, Agent Activity, and Agent Configuration Changes reports.
 * [Take a look at the AI Agents Actions article for more details on all the available agent actions.](ai-agents-and-apps-actions.md)
 
 ## Sensitive Agents
@@ -123,4 +118,5 @@ From the agent details screen, you can also complete the **Block** or **Unblock*
 * [AI & app governance Dashboard tile](ai-agents-and-apps-dashboard-tile.md)
 * [Apps Inventory Report](ai-agents-and-apps-apps-inventory.md)
 * [AI Agents Actions](ai-agents-and-apps-actions.md)
+* [Ownerless Agents Automation](ai-agents-and-apps-automation.md)
 * [AI Agents Reports](../reporting/ai-agents-reports.md)

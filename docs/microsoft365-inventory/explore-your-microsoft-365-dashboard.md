@@ -321,7 +321,7 @@ The **AI & app governance** tile gives you an overview of the Microsoft agents a
 
 The tile on the Dashboard shows the following:
 
-* Under **Agents**, the number of agents by type - **Copilot Studio**, **SharePoint Agents**, and **Agent Builder** - together with the number of **Shared**, **Orphaned**, **Inactive**, and **Sensitive** agents
+* Under **Agents**, the number of agents by type - **Copilot Studio**, **SharePoint Agents**, and **Agent Builder** - together with the number of **Shared**, **Ownerless**, **Inactive**, and **Sensitive** agents
   * Clicking **View all agents** opens the [**Agents Inventory**](../ai-agents-and-apps/ai-agents-and-apps-agents-inventory.md) report, or click any of the counts to open the report filtered to that view
 * Under **Apps**, the number of **AI Assistants**, **Agent Identity**, **High Privileged**, **Unverified**, **Inactive**, and **Sensitive** apps
   * Clicking **View all apps** opens the [**Apps Inventory**](../ai-agents-and-apps/ai-agents-and-apps-apps-inventory.md) report, or click any of the counts to open the report filtered to that view

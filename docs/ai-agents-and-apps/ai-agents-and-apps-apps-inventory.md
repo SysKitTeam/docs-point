@@ -6,12 +6,6 @@ description: The Apps Inventory report provides an overview of the Entra apps in
 
 The **Apps Inventory** report gives you an overview of the **Entra ID app registrations, enterprise applications, and service principals** in your tenant, with their **usage, ownership, and permissions**. It helps you see which Entra apps can access your Microsoft 365 data and identify the ones that need attention.
 
-:::info
-
-**AI Agents in Syskit Point is currently in Early Access** and free to use while the feature is in active development. Feature behavior and scope may change as new capabilities are released.
-
-:::
-
 ## Generate Report
 
 You can open the Apps Inventory report in two ways:

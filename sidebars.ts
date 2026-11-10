@@ -668,6 +668,7 @@ const sidebars: SidebarsConfig = {
         'ai-agents-and-apps/ai-agents-and-apps-agents-inventory',
         'ai-agents-and-apps/ai-agents-and-apps-apps-inventory',
         'ai-agents-and-apps/ai-agents-and-apps-actions',
+        'ai-agents-and-apps/ai-agents-and-apps-automation',
       ],
     },
     {
