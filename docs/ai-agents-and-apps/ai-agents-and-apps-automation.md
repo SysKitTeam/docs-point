@@ -37,11 +37,11 @@ The Ownerless agents automation is set up from the [Agents Inventory](ai-agents-
   * **Select the AI Agents category in the filter** in the upper left corner
   * **Click the Agents Inventory report tile** to open the report
 
-Once the report opens, the **Needs attention** tile shows the number of ownerless agents, **click Manage automation (1)** to start.
+Once the report opens, the **Needs attention** tile shows the number of ownerless agents, **click Set up automation (1)** to start. If the automation is already turned on, the button is called **Manage automation**.
 
 ![AI & Apps Automation - Ownerless Agents](../../static/img/ai-agents-and-apps-ownerless-automation.png)
 
-After selecting Manage automation, the **information dialog** opens, providing more details on ownerless agents and leaving you with the following options:
+After selecting Set up automation, the **information dialog** opens, providing more details on ownerless agents and leaving you with the following options:
 
 * **Turning on the Automation toggle (1)** lets Syskit Point assign a new owner to ownerless agents for you automatically
   * Once the automation is turned on, the **Automated** label is shown next to the dialog title, and **Last run** shows when the automation last ran
@@ -60,7 +60,7 @@ After selecting Manage automation, the **information dialog** opens, providing m
 :::info
 
 **Please note:**
-* New owners receive **one email per previous owner**, listing the agents they received.
+* New owners receive **one email per previous owner**, listing the agents they now own.
 * **If there's nobody to assign**, the agent stays ownerless and needs to be resolved manually.
 
 :::
@@ -95,6 +95,8 @@ The report grid shows the following columns:
 * **Resolved on** - the date and time when the agent was resolved
 * **Method** - whether the agent was resolved **Automated** or **Manual**
 * **Resolved by** - Syskit Point for agents resolved by the automation, or the user who resolved the agent manually
+
+The additional **Error** column, available in the column chooser, explains why an action on an agent could not be completed.
 
 The Ownerless agents history report can be **exported as PDF, CSV and XLSX files**.
 

@@ -26,7 +26,8 @@ Once the report is generated successfully, two tiles at the top summarize the st
 * **The Needs Attention tile** highlights the agents that may require action, with numbers showing the amount for the following:
   * **Sensitive agents** - agents that reference sensitive content through their knowledge sources (see the [Sensitive Agents](#sensitive-agents) section below)
   * **Ownerless agents** - agents that do not have an active owner
-    * Clicking **Manage automation** lets you set up the [Ownerless agents automation](ai-agents-and-apps-automation.md), which automatically assigns a new owner to ownerless agents
+    * Clicking **Set up automation** lets you set up the [Ownerless agents automation](ai-agents-and-apps-automation.md), which automatically assigns a new owner to ownerless agents
+    * If the automation is already turned on, the button is called **Manage automation**
   * **Shared** - agents shared with at least one other person
   * **Shared with everyone** - agents shared with everyone in the organization
   * **Inactive agents** - agents that are no longer being used
@@ -106,6 +107,12 @@ The agent details screen contains the following tiles:
 * **The Insights tile** shows the same highlights as the **Insights** column on the Agents Inventory report, with slightly more detail, showcasing any potential issues
 * **The Active users** tile shows the number and list of active users that have utilized the agent in the last 30 days
 * **The Knowledge Sources tile** lists the knowledge sources the agent uses, with the **Name**, **Type**, **Location**, and **Sensitivity Label** of each source.
+* **The Tools tile** lists the tools the agent uses, with the **Tool**, **Type**, and whether the tool is **Enabled**
+  * The tile header shows the number of tools and how many of them are enabled
+  * Clicking **Explore** opens the full list of the agent's tools
+* **The Topics tile** lists the topics the agent uses, with the **Topic**, **Trigger**, **Type**, and whether the topic is **Enabled**
+  * The tile header shows the number of topics and how many of them are custom
+  * Clicking **Explore** opens the full list of the agent's topics
 
 
 From the agent details screen, you can also complete the **Block** or **Unblock**, **Reassign**, and **Delete** actions for that agent.
