@@ -94,7 +94,7 @@ Select the item or user and choose the available action from the side panel.
 Some of the available actions are:
 
 *  **Remove sharing link**
-*  **Restrict Link Access** for main links
+*  **Restrict Link Access** for main links, and for files and folders whose main link setting is `Anyone` or `People in your org`
 *  **Remove user access**
 *  **Edit user permissions**
 *  **Delete unique permissions**
