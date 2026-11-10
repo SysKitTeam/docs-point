@@ -193,7 +193,7 @@ There are additional columns available in the **column chooser**, located in the
 
 The following actions can be performed within the report:
 * **Remove sharing link**
-* **Restrict Link Access** for main links
+* **Restrict Link Access** for main links, and for files and folders whose main link setting is `Anyone` or `People in your org`
 * **Remove user access**
 * **Open related reports**
 

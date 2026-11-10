@@ -64,6 +64,7 @@ The following site metrics are also affected by the new sharing model:
   * You can see these metrics on the [Sites overview](../microsoft365-inventory/sites.md) screen.
 
 * You can also see `Anyone` main links in the **Anonymous Access Links report**, even before they are used.
+  * From this report, you can run the **Remove Sharing Link** action on Anyone links and the **Restrict Link Access** action on Anyone main links.
 
 
 :::info
@@ -71,6 +72,8 @@ The following site metrics are also affected by the new sharing model:
 **Please note!**  
 * Since SharePoint does not allow deleting a hero/main link, you can only run the **Restrict Link Access** action on main links, which removes access for everyone except the people you shared the link with directly.
 * **Restrict Link Access** applies to organization-wide and Anyone main links and reverts their sharing so that only people who were already added keep access; it is available from the **Sharing Links**, **Permissions Matrix**, **User Access**, and **Externally Shared Content** reports.
+* On the **Sharing Links** and **Permissions Matrix** reports, **Restrict Link Access** is also available on file and folder rows whose main link setting is `Anyone` or `People in your org`, so you can restrict the main link directly from the file or folder.
+  * Selecting multiple files or folders lets you restrict their main links at once.
 * The confirmation dialog shows who can access the item through the main link before and after the change.
 
 :::
