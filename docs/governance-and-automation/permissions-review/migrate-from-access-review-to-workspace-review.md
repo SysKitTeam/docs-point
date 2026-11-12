@@ -35,7 +35,6 @@ First, create Workspace Review policies and configure them depending on your nee
 * **Who performs the review** for each workspace type
 
 :::info
-
 **Use your current Access Review policies as a starting point.** Check their settings and create Workspace Review policies that match them.
 
 :::
