@@ -33,6 +33,10 @@ To start using Point Assistant, complete the following:
 
 ![Syskit Point AI Assistant](../../../static/img/point-assistant-ai.png)
 
+### Start from the Home Dashboard
+
+On the Home dashboard, a compact prompt rotator shows suggested questions that change every 8 seconds. **Click a prompt** to send it to Point Assistant. Hover over the prompt or focus it with the keyboard to show the previous, next, and pause/resume controls.
+
 ## Example Questions
 
 Point Assistant covers users, groups and teams, SharePoint sites, storage, audit activity, Syskit Point reports, and Power Platform.
