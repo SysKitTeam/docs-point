@@ -25,7 +25,8 @@ Point Assistant lets you ask these everyday governance questions in plain langua
 
 To start using Point Assistant, complete the following:
 
-* In Syskit Point, **click the Point Assistant icon (1)** in the bottom-right corner.
+* In Syskit Point, **click the AI Assistant button (1)** in the page header.
+  * Point Assistant opens docked next to the page on wide screens and can be expanded to full screen.
 * **Type your question (2)** in plain language; no special syntax is needed.
   * Alternatively, **select one of the suggested prompts (3)**.
 
