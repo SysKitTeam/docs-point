@@ -53,7 +53,7 @@ On the User Access report and in the Workspace Review Sharing step, the **Sharin
 
 On the **User Access report**, the **Details** column also shows when a user's access comes from a main link, for example, **Main Link (People in your org)**. This is also shown in exported reports and Workspace Review tasks.
 
-On the following reports, main links have their own icon, are named **Main Link (Anyone)** or **Main Link (People in your org)**, and are always listed first under their file or folder. These reports also include a **Main link setting** column, which shows the main link's setting for the file or folder, such as `Only people added`, `People in your org`, or `Anyone`:
+On the following reports, main links have their own icon, are named **Main Link (Anyone)** or **Main Link (People in your org)**, and are always listed first under their file or folder. These reports also include a **Main link setting** column, which is shown by default when your tenant has main links (otherwise, you can add it from the column chooser) and shows the main link's setting for the file or folder, such as `Only people added`, `People in your org`, or `Anyone`:
 
 * **Permissions Matrix report** - see the [Permissions Matrix report](access-reports.md#permissions-matrix-report)
 * **Externally Shared Content report** - see the [Externally Shared Content report](external-sharing-reports.md#externally-shared-content)
