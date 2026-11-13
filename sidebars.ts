@@ -731,6 +731,7 @@ const sidebars: SidebarsConfig = {
             id: 'governance-and-automation/permissions-review/README',
           },
           items: [
+            'governance-and-automation/permissions-review/migrate-from-access-review-to-workspace-review',
             'governance-and-automation/permissions-review/enable-permissions-review',
             'governance-and-automation/permissions-review/create-apply-access-review-policies',
             'governance-and-automation/permissions-review/access-review-options',
