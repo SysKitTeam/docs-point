@@ -27,6 +27,12 @@ Here's a quick overview of what the migration from Access Review to Workspace Re
 
 In the sections below, you can find detailed instructions on how to replicate your current Access Review configuration in Workspace Review.
 
+## Access Review Migration Explained
+
+* **Watch this video to learn how to migrate from Access Review to Workspace Review.**
+
+<YouTubeEmbed videoId="o1aphJ_Vde4" />
+
 ## Create Workspace Review Policies
 
 First, create Workspace Review policies and configure them depending on your needs. When creating a policy, you can define:
@@ -42,6 +48,8 @@ First, create Workspace Review policies and configure them depending on your nee
 For a detailed explanation of how to create Workspace Review policies, take a look at the [Configure Workspace Review article](../workspace-review/setup-workspace-review.md).
 
 ## Apply Workspace Review Policies
+
+Now that your Workspace Review policies are created, the next step is to **apply them to the workspaces you want to review**.
 
 How you apply Workspace Review policies depends on how you applied your Access Review policies:
 * [**Automatically with Rules**](#if-you-applied-access-review-policies-with-rules)
