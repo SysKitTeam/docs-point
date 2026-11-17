@@ -12,7 +12,8 @@ In this section, you can find the following AI Agents articles that tell you how
 
 * [Configure AI Agents](ai-agents-and-apps-settings.md)
 * [Explore the AI & app governance Dashboard](ai-agents-and-apps-dashboard-tile.md)
-* [Generate the Agents Inventory Report](ai-agents-and-apps-agents-inventory.md)
-* [Generate the Apps Inventory Report](ai-agents-and-apps-apps-inventory.md)
+* [Generate AI Agents Reports](reports/ai-agents-reports.md)
+* [Generate Entra Apps Reports](reports/entra-apps-reports.md)
+* [Generate the Permissions and Consent Report](reports/permissions-and-consent-report.md)
 * [Complete AI Agents Actions](ai-agents-and-apps-actions.md)
 * [Set Up the Ownerless Agents Automation](ai-agents-and-apps-automation.md)

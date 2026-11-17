@@ -30,7 +30,7 @@ The section shows the number of agents by type - **Copilot Studio**, **SharePoin
   * If the number of inactive agents is not available yet, the tile shows the date when it will become available
 * **Sensitive** - agents that reference sensitive content through their knowledge sources
 
-Clicking **View all agents** opens the [Agents Inventory](ai-agents-and-apps-agents-inventory.md) report, where you can review every agent in detail and take action. You can also click any of the counts to open the report filtered to that view.
+Clicking **View all agents** opens the [Agents Inventory](reports/ai-agents-reports.md#agents-inventory-report) report, where you can review every agent in detail and take action. You can also click any of the counts to open the report filtered to that view.
 
 ## Apps
 
@@ -45,13 +45,13 @@ The section shows the counts you'll want to keep an eye on:
 * **Inactive Apps** - apps with no recent activity
 * **Sensitive** - apps that have accessed sensitive content
 
-Clicking **View all apps** opens the [Apps Inventory](ai-agents-and-apps-apps-inventory.md) report, where you can review every app in detail and take action. You can also click any of the counts to open the report filtered to that view.
+Clicking **View all apps** opens the [Apps Inventory](reports/entra-apps-reports.md#apps-inventory-report) report, where you can review every app in detail and take action. You can also click any of the counts to open the report filtered to that view.
 
 ## Related Articles
 
 * [AI Agents Overview](ai-agents-and-apps-overview.md)
 * [Configure AI Agents](ai-agents-and-apps-settings.md)
-* [Agents Inventory Report](ai-agents-and-apps-agents-inventory.md)
-* [Apps Inventory Report](ai-agents-and-apps-apps-inventory.md)
+* [AI Agents Reports](reports/ai-agents-reports.md)
+* [Entra Apps Reports](reports/entra-apps-reports.md)
 * [Ownerless Agents Automation](ai-agents-and-apps-automation.md)
 * [AI Agents Reports](../reporting/ai-agents-reports.md)

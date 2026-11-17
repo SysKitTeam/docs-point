@@ -43,6 +43,7 @@ The following columns are visible:
 * **Name**; the workspace, content, groups, and external users are shown in the tree grid.
 * **Permission levels**; the level of access for external users over the content. 
   * For example: **Full Control**, **Design**, **Read**, **Edit**, **Contribute** or custom permission levels
+* **Main link setting**; the main link's setting for the file or folder, such as `Only people added`, `People in your org`, or `Anyone`
 
 Main links have their own icon, are named **Main Link (Anyone)** or **Main Link (People in your org)**, and are always listed first under their file or folder.
 * [For more details, take a look at the Hero Links article.](hero-links.md)
@@ -59,7 +60,6 @@ The options available to select are:
 * **Is Deleted**
 * **Is Licensed**
 * **Sign-in Status**
-* **Main link setting** - shows the main link's setting for the file or folder, such as `Only people added`, `People in your org`, or `Anyone`
 * **option to hide or show a specific permission level**
 
 ### Report Actions

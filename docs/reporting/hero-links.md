@@ -58,6 +58,13 @@ On the following reports, main links have their own icon, are named **Main Link 
 * **Permissions Matrix report** - see the [Permissions Matrix report](access-reports.md#permissions-matrix-report)
 * **Externally Shared Content report** - see the [Externally Shared Content report](external-sharing-reports.md#externally-shared-content)
 
+The **Main link setting** column is shown by default on these reports.
+
+The following reports also include the **Main link setting** column, which is hidden by default but can be selected from the column chooser:
+
+* **Unique Permissions report** - see the [Unique Permissions report](access-reports.md#unique-permissions-report)
+* **Site Structure report** - see the [Site Structure report](analytics-reports.md#site-structure-report)
+
 The following site metrics are also affected by the new sharing model: 
 
 * The **Anonymous Links** and **Company-Wide Links** metrics count files and folders that have the file or folder link setting set to `Anyone` or `People in your org`. 
@@ -74,9 +81,18 @@ The following site metrics are also affected by the new sharing model:
 * **Restrict Link Access** applies to organization-wide and Anyone main links and reverts their sharing so that only people who were already added keep access; it is available from the **Sharing Links**, **Permissions Matrix**, **User Access**, and **Externally Shared Content** reports.
 * On the **Sharing Links** and **Permissions Matrix** reports, **Restrict Link Access** is also available on file and folder rows whose main link setting is `Anyone` or `People in your org`, so you can restrict the main link directly from the file or folder.
   * Selecting multiple files or folders lets you restrict their main links at once.
+  * You can also run the action from the **Manage** menu on the file or folder details screen.
 * The confirmation dialog shows who can access the item through the main link before and after the change.
 
 :::
+
+### Main Links on File and Folder Details
+
+The **General Info** section on the file and folder details screens shows the **Main link setting** of the file or folder, such as `People in your org` or `Anyone`. This is the same value shown on reports, including a setting inherited from a parent folder.
+
+* Files and folders without a main link setting don't show a value
+* The **Restrict Link Access** action is available in the **Manage** menu when the file or folder has its own main link set to `Anyone` or `People in your org`
+  * The action is not shown when the main link setting is inherited from a parent folder
 
 ## Related Articles
 
