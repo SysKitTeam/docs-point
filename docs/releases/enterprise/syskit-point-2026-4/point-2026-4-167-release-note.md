@@ -25,6 +25,15 @@ For detailed step-by-step instructions on how to upgrade Syskit Point, refer to 
 
 ## New Features
 
+* **AI Agents & Apps in Syskit Point is no longer in early access.**
+  * The **Early Access** label has been replaced with the **New** label on all AI Agents screens.
+  * AI Agents & Apps features are now available according to your Syskit Point plan:
+    * **The Agents Inventory and Apps Inventory reports** are available in the Management plan and higher tiers.
+    * **The Agent Activity and Agent Configuration Changes reports** are available in the Security & Compliance plan and higher tiers.
+    * **The Ownerless agents automation** is available in the Governance plan and higher tiers.
+    * See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
+  * For more details, [please take a look at the AI Agents Overview article.](../../../ai-agents-and-apps/ai-agents-and-apps-overview.md)
+
 * **Automation is now available for ownerless agents on the Agents Inventory report!**
   * Syskit Point can now automatically assign a new owner to Copilot Studio and Agent Builder agents whose owner is no longer an active user.
   * You can choose whether the new owner is the previous owner's manager or the agent's sponsor.
@@ -45,15 +54,6 @@ For detailed step-by-step instructions on how to upgrade Syskit Point, refer to 
 * **Fixed a bug** where Point collaborators couldn't apply sensitivity labels to sites that aren't connected to a Microsoft 365 group, such as communication sites and classic sites.
 
 ### AI Agents & Apps
-
-* **AI Agents & Apps in Syskit Point is no longer in early access.**
-  * The **Early Access** label has been replaced with the **New** label on all AI Agents screens.
-  * AI Agents & Apps features are now available according to your Syskit Point plan:
-    * **The Agents Inventory and Apps Inventory reports** are available in the Management plan and higher tiers.
-    * **The Agent Activity and Agent Configuration Changes reports** are available in the Security & Compliance plan and higher tiers.
-    * **The Ownerless agents automation** is available in the Governance plan and higher tiers.
-    * See the [pricing page](https://www.syskit.com/products/point/pricing/) for more details.
-  * For more details, [please take a look at the AI Agents Overview article.](../../../ai-agents-and-apps/ai-agents-and-apps-overview.md)
 
 * **Improvements made to the AI Agents setup.**
   * **AI Agents now uses a dedicated service account**, separate from the service account Syskit Point uses to collect other data.
