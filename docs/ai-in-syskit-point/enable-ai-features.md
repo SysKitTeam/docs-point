@@ -45,8 +45,9 @@ To enable AI features:
 
 * Change what data Syskit Point collects from your tenant.
 * Give any user access to data beyond their Point role.
-* Allow AI to make changes in your environment.
-  * AI features only deliver findings and recommendations.
+* Allow AI to make changes in your environment without your explicit approval.
+  * AI features deliver findings and recommendations.
+  * Point Assistant can block or unblock sign-in for a user, but only after you approve each action. See [Point Assistant](features/point-assistant.md#block-or-unblock-user-sign-in).
 
 The [Sensitivity Label Recommendations](features/sensitivity-label-recommendations.md) report uses machine learning with no LLM involved. It is part of Syskit Point's standard functionality and are not controlled by the Point AI setting.
 

@@ -26,6 +26,10 @@ const sidebars: SidebarsConfig = {
             id: 'releases/cloud/README',
           },
           items: [
+            'releases/cloud/point-2026-11-17-release-note',
+            'releases/cloud/point-2026-11-10-release-note',
+            'releases/cloud/point-2026-11-03-release-note',
+            'releases/cloud/point-2026-10-27-release-note',
             'releases/cloud/point-2026-10-20-release-note',
             'releases/cloud/point-2026-10-13-release-note',
             'releases/cloud/point-2026-10-06-release-note',
@@ -177,12 +181,24 @@ const sidebars: SidebarsConfig = {
           items: [
             {
               type: 'category',
+              label: 'Syskit Point 2026.4',
+              link: {
+                type: 'doc',
+                id: 'releases/enterprise/syskit-point-2026-4/README',
+              },
+              items: [
+                'releases/enterprise/syskit-point-2026-4/point-2026-4-167-release-note',
+              ],
+            },
+            {
+              type: 'category',
               label: 'Syskit Point 2026.3',
               link: {
                 type: 'doc',
                 id: 'releases/enterprise/syskit-point-2026-3/README',
               },
               items: [
+                'releases/enterprise/syskit-point-2026-3/point-2026-3-164-release-note',
                 'releases/enterprise/syskit-point-2026-3/point-2026-3-162-release-note',
                 'releases/enterprise/syskit-point-2026-3/point-2026-3-159-release-note',
               ],
@@ -581,6 +597,7 @@ const sidebars: SidebarsConfig = {
         'configuration/microsoft-teams-activity',
         'configuration/configure-storage-management',
         'configuration/set-up-email',
+        'configuration/high-volume-emails',
         'configuration/connect-service-account',
         'configuration/enable-sensitivity-labels',
         'configuration/customize-audit-logs-collection',
@@ -618,7 +635,6 @@ const sidebars: SidebarsConfig = {
         'reporting/licenses-reports',
         'reporting/analytics-reports',
         'reporting/sensitivity-labels',
-        'reporting/ai-agents-reports',
       ],
     },
     {
@@ -661,9 +677,21 @@ const sidebars: SidebarsConfig = {
         'ai-agents-and-apps/ai-agents-and-apps-overview',
         'ai-agents-and-apps/ai-agents-and-apps-settings',
         'ai-agents-and-apps/ai-agents-and-apps-dashboard-tile',
-        'ai-agents-and-apps/ai-agents-and-apps-agents-inventory',
-        'ai-agents-and-apps/ai-agents-and-apps-apps-inventory',
+        {
+          type: 'category',
+          label: 'AI Agents & Apps Reports',
+          link: {
+            type: 'doc',
+            id: 'ai-agents-and-apps/reports/README',
+          },
+          items: [
+            'ai-agents-and-apps/reports/ai-agents-reports',
+            'ai-agents-and-apps/reports/entra-apps-reports',
+            'ai-agents-and-apps/reports/permissions-and-consent-report',
+          ],
+        },
         'ai-agents-and-apps/ai-agents-and-apps-actions',
+        'ai-agents-and-apps/ai-agents-and-apps-automation',
       ],
     },
     {
@@ -725,6 +753,7 @@ const sidebars: SidebarsConfig = {
             id: 'governance-and-automation/permissions-review/README',
           },
           items: [
+            'governance-and-automation/permissions-review/migrate-from-access-review-to-workspace-review',
             'governance-and-automation/permissions-review/enable-permissions-review',
             'governance-and-automation/permissions-review/create-apply-access-review-policies',
             'governance-and-automation/permissions-review/access-review-options',

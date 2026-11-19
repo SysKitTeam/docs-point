@@ -4,29 +4,33 @@ description: This article provides information about the actions you can take on
 
 # AI Agents Actions
 
-:::info
-
-**AI Agents in Syskit Point is currently in Early Access** and free to use while the feature is in active development. Feature behavior and scope may change as new capabilities are released.
-
-:::
-
 Through Syskit Point, you can get a unified inventory of the Microsoft agents and Entra apps that can access your Microsoft 365 data. 
 
-To help you manage them, the following actions are available in Syskit Point:
+To help you manage them, the following actions and reports are available in Syskit Point:
 
 * **Agent actions**
   * [Block and Unblock](#block-and-unblock)
   * [Reassign](#reassign)
   * [Delete](#delete-agent)
-  * [Knowledge Sources](#knowledge-sources)
+* **Agent reports**
+  * [Agent Knowledge Sources](reports/ai-agents-reports.md#agent-knowledge-sources-report)
+  * [Agent Tools](reports/ai-agents-reports.md#agent-tools-report)
+  * [Agent Topics](reports/ai-agents-reports.md#agent-topics-report)
+  * [Agent Activity](reports/ai-agents-reports.md#agent-activity-report)
+  * [Agent Configuration Changes](reports/ai-agents-reports.md#agent-configuration-changes-report)
 * **App actions**
   * [Block sign-in and Allow sign-in](#block-sign-in-and-allow-sign-in)
   * [Delete](#delete-app)
+* **App reports**
+  * [App Activity](reports/entra-apps-reports.md#app-activity-report)
+  * [App Configuration Changes](reports/entra-apps-reports.md#app-configuration-changes-report)
 
-These actions help you stop users from using agents, stop apps from signing in to your tenant, resolve orphaned agents by assigning a new owner, and remove agents and apps that are no longer needed.
+**Actions make changes** to your agents and apps in Microsoft 365, while **reports open a detailed view** of the selected agents or apps without changing anything.
 
-* [Take a look at the Agents Inventory Report article for more details on the agents report.](ai-agents-and-apps-agents-inventory.md)
-* [Take a look at the Apps Inventory Report article for more details on the apps report.](ai-agents-and-apps-apps-inventory.md)
+These actions and reports help you stop users from using agents, stop apps from signing in to your tenant, resolve ownerless agents by assigning a new owner, review what your agents and apps use and how they are used, and remove agents and apps that are no longer needed.
+
+* [Take a look at the AI Agents Reports article for more details on the agent reports.](reports/ai-agents-reports.md)
+* [Take a look at the Entra Apps Reports article for more details on the app reports.](reports/entra-apps-reports.md)
 
 ## Agent Actions
 
@@ -36,7 +40,7 @@ To complete agent actions, **you need permission to manage the agent** in Micros
 
 You can access the Agents Inventory report by:
 
-* **Clicking View all agents** on the [AI Agents Dashboard tile](ai-agents-and-apps-dashboard-tile.md)
+* **Clicking View all agents** on the [AI & app governance Dashboard tile](ai-agents-and-apps-dashboard-tile.md)
 * **Clicking the Reports button** located on the left side of the screen, **selecting the AI Agents category** in the filter in the upper left corner, and **clicking the Agents Inventory report tile** to generate the report
 
 To open the agent details screen, **click the agent name** on the Agents Inventory report.
@@ -67,7 +71,9 @@ On the agent details screen, the Block or Unblock action is available depending 
 
 ### Reassign
 
-The Reassign owner action can be completed for **Copilot Studio** and **Agent Builder** agents. It lets you assign a new owner to an agent, which can come in handy for orphaned agents.
+The Reassign owner action can be completed for **Copilot Studio** and **Agent Builder** agents. It lets you assign a new owner to an agent, which can come in handy for ownerless agents.
+
+* To assign new owners to ownerless agents automatically, [take a look at the Ownerless Agents Automation article.](ai-agents-and-apps-automation.md)
 
 Once you generate the Agents Inventory report:
 
@@ -101,19 +107,11 @@ Once you generate the Agents Inventory report:
 
 ![AI Agents - Delete Confirmation Screen](../../static/img/ai-agents-apps-delete-agent-action.png)
 
-### Knowledge Sources
+## Agent Reports
 
-The Knowledge Sources action opens a list of all the knowledge sources the selected agent uses. For each source, you can see its:
+Agent reports can be opened from the **Agents Inventory** report by selecting one or more agents, or from the **Report Center** by selecting the **AI Agents** category. They show more details about the selected agents and don't make any changes to them.
 
-* **Name**
-* **Type**
-* **Location**
-* **Sensitivity Label**
-
-Once you generate the Agents Inventory report, **select an agent** and **click the Knowledge Sources action (1)** to open the list.
-
-![AI Agents - Knowledge Sources](../../static/img/ai-agents-apps-knowledge-sources.png)
-
+* [Take a look at the AI Agents Reports article for more details on the Agent Knowledge Sources, Agent Tools, Agent Topics, Agent Activity, and Agent Configuration Changes reports.](reports/ai-agents-reports.md)
 
 ## Entra App Actions
 
@@ -121,7 +119,7 @@ Entra App actions can be completed on the **Apps Inventory** report and on the *
 
 You can access the Apps Inventory report by:
 
-* **Clicking View all apps** in the Entra Apps section of the [AI Agents Dashboard tile](ai-agents-and-apps-dashboard-tile.md)
+* **Clicking View all apps** in the Apps section of the [AI & app governance Dashboard tile](ai-agents-and-apps-dashboard-tile.md)
 * **Clicking the Reports button** located on the left side of the screen, **selecting the AI Agents category** in the filter in the upper left corner, and **clicking the Apps Inventory report tile** to generate the report
 
 To open the app details screen, **click the app name** on the Apps Inventory report.
@@ -171,10 +169,18 @@ When you delete an app from the app details screen, you are returned to the Apps
 
 ![Entra Apps - Delete Confirmation Screen](../../static/img/ai-agents-apps-delete-app-action.png)
 
+## App Reports
+
+App reports can be opened from the **Apps Inventory** report by selecting one or more apps, or from the **Report Center** by selecting the **AI Agents** category. They show more details about the selected apps and don't make any changes to them.
+
+* [Take a look at the Entra Apps Reports article for more details on the App Activity and App Configuration Changes reports.](reports/entra-apps-reports.md)
+
 ## Related Articles
 
 * [AI Agents Overview](ai-agents-and-apps-overview.md)
 * [Configure AI Agents](ai-agents-and-apps-settings.md)
-* [AI Agents Dashboard](ai-agents-and-apps-dashboard-tile.md)
-* [Agents Inventory Report](ai-agents-and-apps-agents-inventory.md)
-* [Apps Inventory Report](ai-agents-and-apps-apps-inventory.md)
+* [AI & app governance Dashboard tile](ai-agents-and-apps-dashboard-tile.md)
+* [AI Agents Reports](reports/ai-agents-reports.md)
+* [Entra Apps Reports](reports/entra-apps-reports.md)
+* [Permissions and Consent Report](reports/permissions-and-consent-report.md)
+* [Ownerless Agents Automation](ai-agents-and-apps-automation.md)
