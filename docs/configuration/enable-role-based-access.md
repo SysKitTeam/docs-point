@@ -146,7 +146,6 @@ Additional options available when the Collaborators role is enabled:
    * **Replace Syskit support link** – provide your own URL that collaborators will be directed to
 
 
-{/* TODO screenshot: update - tooltip next to Give users read-only access (disable actions) was removed */}
 ![Collaborators - Options](../../static/img/enable-role-based-access-collaborator-options.png)
 
 :::warning
