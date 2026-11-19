@@ -83,7 +83,7 @@ There are also additional columns in the **column chooser**, located in the top 
 * **Is Deleted**
 * **Is Licensed**
 * **Sign-in Status**
-* **Main link setting**; shows the main link's setting for the file or folder, such as `Only people added`, `People in your org`, or `Anyone`
+* **Main link setting**; shows the main link's setting for the file or folder, such as `Only people added`, `People in your org`, or `Anyone`; visible by default when your tenant has main links
 
 ### Report Actions
 

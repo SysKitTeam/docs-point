@@ -59,7 +59,7 @@ The options available to select are:
 * **Is Deleted**
 * **Is Licensed**
 * **Sign-in Status**
-* **Main link setting** - shows the main link's setting for the file or folder, such as `Only people added`, `People in your org`, or `Anyone`
+* **Main link setting** - shows the main link's setting for the file or folder, such as `Only people added`, `People in your org`, or `Anyone`; visible by default when your tenant has main links
 * **option to hide or show a specific permission level**
 
 ### Report Actions
