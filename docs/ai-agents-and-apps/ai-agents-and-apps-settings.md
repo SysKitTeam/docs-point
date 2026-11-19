@@ -88,7 +88,6 @@ Once the service account is connected and the permissions are granted, the first
 * [AI Agents Reports](reports/ai-agents-reports.md)
 * [Entra Apps Reports](reports/entra-apps-reports.md)
 * [Ownerless Agents Automation](ai-agents-and-apps-automation.md)
-* [AI Agents Reports](../reporting/ai-agents-reports.md)
 * [Permission Requirements](../requirements/permission-requirements.md#ai-agents)
 * [Permission Requirements Change Log](../requirements/permission-requirements-change-log.md)
 

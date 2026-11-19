@@ -50,7 +50,7 @@ For full details, see [AI Data Privacy & Security](ai-data-privacy-and-security.
 Looking for how to govern the AI your organization already uses — Microsoft 365 Copilot and AI agents? That's covered elsewhere in the documentation:
 
 * [Copilot Readiness](../microsoft365-inventory/copilot-readiness.md)
-* [AI Agents reports](../reporting/ai-agents-reports.md)
+* [AI Agents & Apps reports](../ai-agents-and-apps/reports/README.md)
 * [Copilot Agents reports](../power-platform/power-platform-reports/copilot-agents-reports.md)
 * [Restrict content from Microsoft 365 Copilot](../access-management/restrictions.md)
 

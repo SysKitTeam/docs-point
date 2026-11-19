@@ -79,15 +79,16 @@ In the About this Workspace section, you can see the following:
 If the admin has given Collaborators read-only access, the **Keep**, **Archive**, **Delete**, and **Change Admins** buttons are not shown. [Take a look at the Role-Based Access article for more details.](../../configuration/enable-role-based-access.md)
 :::
 
-{/* TODO screenshot: update - Owners renamed to Admins, Change Owners button renamed to Change Admins */}
 ![Workspace Review Task - Overview](../../../static/img/workspace-review-overview-screen.png)
 
-The **Workspace Review Wizard** has a total of five steps: 
+The **Workspace Review Wizard** has a total of six steps: 
 
 * **Overview**, which includes the **[Privacy and Sensitivity](privacy-sensitivity.md) review** if they were enabled in settings
 * [Membership](membership-step.md) (for Microsoft 365 Groups and Microsoft Teams), or **Users** (for sites)
   * This step is not available for OneDrive
 * [Shadow Users](shadow-users-step.md)
+* [Everyone](everyone-step.md)
+  * This step is skipped if there is no content shared with large "Everyone" groups
 * [Sharing](sharing-step.md)
 * [Summary](summary-step.md)
 

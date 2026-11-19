@@ -635,7 +635,6 @@ const sidebars: SidebarsConfig = {
         'reporting/licenses-reports',
         'reporting/analytics-reports',
         'reporting/sensitivity-labels',
-        'reporting/ai-agents-reports',
       ],
     },
     {

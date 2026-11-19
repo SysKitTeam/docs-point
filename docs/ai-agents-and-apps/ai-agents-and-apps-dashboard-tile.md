@@ -54,4 +54,3 @@ Clicking **View all apps** opens the [Apps Inventory](reports/entra-apps-reports
 * [AI Agents Reports](reports/ai-agents-reports.md)
 * [Entra Apps Reports](reports/entra-apps-reports.md)
 * [Ownerless Agents Automation](ai-agents-and-apps-automation.md)
-* [AI Agents Reports](../reporting/ai-agents-reports.md)
