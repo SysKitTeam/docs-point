@@ -57,6 +57,7 @@ On the following reports, main links have their own icon, are named **Main Link 
 
 * **Permissions Matrix report** - see the [Permissions Matrix report](access-reports.md#permissions-matrix-report)
 * **Externally Shared Content report** - see the [Externally Shared Content report](external-sharing-reports.md#externally-shared-content)
+
 The following reports also include the **Main link setting** column, which is hidden by default but can be selected from the column chooser:
 
 * **Unique Permissions report** - see the [Unique Permissions report](access-reports.md#unique-permissions-report)
