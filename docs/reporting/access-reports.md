@@ -69,6 +69,7 @@ The default columns displayed in the report are:
 * **Name** of the workspace
 * **Permissions levels**; depending on availability, several are shown in your environment.
    * For example **Full Control, Design, Edit, Contribute, Read, Restricted View**
+* **Main link setting**; shows the main link's setting for the file or folder, such as `Only people added`, `People in your org`, or `Anyone`
 
 Main links have their own icon, are named **Main Link (Anyone)** or **Main Link (People in your org)**, and are always listed first under their file or folder.
 * [For more details, take a look at the Hero Links article.](hero-links.md)
@@ -83,7 +84,6 @@ There are also additional columns in the **column chooser**, located in the top 
 * **Is Deleted**
 * **Is Licensed**
 * **Sign-in Status**
-* **Main link setting**; shows the main link's setting for the file or folder, such as `Only people added`, `People in your org`, or `Anyone`
 
 ### Report Actions
 
@@ -207,6 +207,9 @@ There are additional columns available in the **column chooser**, located in the
       
 * **Object Type**
 * **Unique Permissions**
+* **Main link setting**
+
+[For more details, take a look at the Hero Links article.](hero-links.md)
 
 
 ### Report Actions

@@ -32,7 +32,7 @@ See detailed step-by-step instructions on how to upgrade Syskit Point in the [up
 * **Syskit Point now syncs custom SharePoint Agents!**
   * **New report is available**: **Custom SharePoint Agents Inventory**
     * The Custom SharePoint Agents Inventory report lets you **discover all custom-built SharePoint Agents** in your organization.
-    * [For more details on the new report, take a look at the AI Agents report article.](../../../reporting/ai-agents-reports.md)
+    * [For more details on the new report, take a look at the AI Agents report article.](../../../ai-agents-and-apps/reports/ai-agents-reports.md#agents-inventory-report)
     * **Note** that SharePoint Agent files are synced gradually when changes are detected on your SharePoint sites. To sync them immediately, navigate to the site details screen and run the sync manually for your site of interest. 
 
 ## Improvements & Bug Fixes 

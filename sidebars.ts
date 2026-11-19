@@ -635,7 +635,6 @@ const sidebars: SidebarsConfig = {
         'reporting/licenses-reports',
         'reporting/analytics-reports',
         'reporting/sensitivity-labels',
-        'reporting/ai-agents-reports',
       ],
     },
     {
@@ -678,8 +677,19 @@ const sidebars: SidebarsConfig = {
         'ai-agents-and-apps/ai-agents-and-apps-overview',
         'ai-agents-and-apps/ai-agents-and-apps-settings',
         'ai-agents-and-apps/ai-agents-and-apps-dashboard-tile',
-        'ai-agents-and-apps/ai-agents-and-apps-agents-inventory',
-        'ai-agents-and-apps/ai-agents-and-apps-apps-inventory',
+        {
+          type: 'category',
+          label: 'AI Agents & Apps Reports',
+          link: {
+            type: 'doc',
+            id: 'ai-agents-and-apps/reports/README',
+          },
+          items: [
+            'ai-agents-and-apps/reports/ai-agents-reports',
+            'ai-agents-and-apps/reports/entra-apps-reports',
+            'ai-agents-and-apps/reports/permissions-and-consent-report',
+          ],
+        },
         'ai-agents-and-apps/ai-agents-and-apps-actions',
         'ai-agents-and-apps/ai-agents-and-apps-automation',
       ],

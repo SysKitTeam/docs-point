@@ -63,6 +63,9 @@ Reports in Syskit Point can be divided into the following categories:
 * [Licenses Reports](licenses-reports.md)
 * [Analytics Reports](analytics-reports.md)
 * [Sensitivity Labels Report](sensitivity-labels.md)
+* [Storage Reports](../storage-management/storage-reports.md)
+* [Power Platform Reports](../power-platform/power-platform-reports/README.md)
+* [AI Agents & Apps Reports](../ai-agents-and-apps/reports/README.md)
 
 
 **Click a link from the list to open an article showing all reports in the selected category.**

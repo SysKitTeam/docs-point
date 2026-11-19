@@ -69,20 +69,26 @@ In the About this Workspace section, you can see the following:
 * **Created On (9)** - shows when the workspace was created
 * **Last Reviewed By (10)** - shows who last reviewed the workspace
 * **Activity (11)** - shows the current activity status of the workspace
-* **Owners (12)** - shows who the owners of the workspace are
+* **Admins (12)** - shows who the admins of the workspace are
 * **Archive button (13)** - clicking this archives the workspace
 * **Delete button (14)** - clicking this delete the workspace
-* **Change Owners button (15)** - clicking this opens the Change Owners modal, where you can add or remove owners from the workspace
+* **Change Admins button (15)** - clicking this lets you add or remove admins of the workspace
 
+:::warning
+**Please note!**\
+If the admin has given Collaborators read-only access, the **Keep**, **Archive**, **Delete**, and **Change Admins** buttons are not shown. [Take a look at the Role-Based Access article for more details.](../../configuration/enable-role-based-access.md)
+:::
 
 ![Workspace Review Task - Overview](../../../static/img/workspace-review-overview-screen.png)
 
-The **Workspace Review Wizard** has a total of five steps: 
+The **Workspace Review Wizard** has a total of six steps: 
 
 * **Overview**, which includes the **[Privacy and Sensitivity](privacy-sensitivity.md) review** if they were enabled in settings
 * [Membership](membership-step.md) (for Microsoft 365 Groups and Microsoft Teams), or **Users** (for sites)
   * This step is not available for OneDrive
 * [Shadow Users](shadow-users-step.md)
+* [Everyone](everyone-step.md)
+  * This step is skipped if there is no content shared with large "Everyone" groups
 * [Sharing](sharing-step.md)
 * [Summary](summary-step.md)
 

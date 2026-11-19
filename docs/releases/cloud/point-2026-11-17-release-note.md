@@ -1,5 +1,5 @@
 ---
-description: This article lists improvements and bug fixes in the Syskit Point Cloud version 2026.4.168.1
+description: This article lists new features, improvements, and bug fixes in the Syskit Point Cloud version 2026.4.168.1
 ---
 
 # November 17, 2026
@@ -11,6 +11,13 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 * **New to Syskit Point Cloud?** Explore Syskit Point Cloud with a 21-day [free trial](https://www.syskit.com/products/point/free-trial/) for an easy and effective way to manage and secure your environment.
 
 * **Already using Syskit Point Cloud?** Syskit Point Cloud is automatically upgraded to the latest version when available. The automatic update occurs outside working hours to ensure minimal interference with your day-to-day business. The new version will begin rolling out with this announcement and is expected to reach all customers within the next few days.
+
+## New Features
+
+* **New Permissions and Consent report is available.**
+  * The report shows the **granted permissions, resource APIs, privilege levels, and consent scope** for the selected apps and agents.
+  * Use it to see what each app or agent can access, which permissions are highly privileged, and which ones grant access to Microsoft 365 data.
+  * For more details, [please take a look at the Permissions and Consent Report article.](../../ai-agents-and-apps/reports/permissions-and-consent-report.md)
 
 ## Improvements & Bug Fixes
 
