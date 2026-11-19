@@ -1,4 +1,4 @@
-﻿---
+---
 description: This article describes all the information presented in the Syskit Point Dashboard.
 ---
 
@@ -322,9 +322,9 @@ The **AI & app governance** tile gives you an overview of the Microsoft agents a
 The tile on the Dashboard shows the following:
 
 * Under **Agents**, the number of agents by type - **Copilot Studio**, **SharePoint Agents**, and **Agent Builder** - together with the number of **Shared**, **Ownerless**, **Inactive**, and **Sensitive** agents
-  * Clicking **View all agents** opens the [**Agents Inventory**](../ai-agents-and-apps/ai-agents-and-apps-agents-inventory.md) report, or click any of the counts to open the report filtered to that view
+  * Clicking **View all agents** opens the [**Agents Inventory**](../ai-agents-and-apps/reports/ai-agents-reports.md#agents-inventory-report) report, or click any of the counts to open the report filtered to that view
 * Under **Apps**, the number of **AI Assistants**, **Agent Identity**, **High Privileged**, **Unverified**, **Inactive**, and **Sensitive** apps
-  * Clicking **View all apps** opens the [**Apps Inventory**](../ai-agents-and-apps/ai-agents-and-apps-apps-inventory.md) report, or click any of the counts to open the report filtered to that view
+  * Clicking **View all apps** opens the [**Apps Inventory**](../ai-agents-and-apps/reports/entra-apps-reports.md#apps-inventory-report) report, or click any of the counts to open the report filtered to that view
 
 [For more details on the AI & app governance Dashboard tile, take a look at this article.](../ai-agents-and-apps/ai-agents-and-apps-dashboard-tile.md)
 

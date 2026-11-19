@@ -27,7 +27,7 @@ To set up the Ownerless agents automation:
 
 ## Set Up Ownerless Agents Automation
 
-The Ownerless agents automation is set up from the [Agents Inventory](ai-agents-and-apps-agents-inventory.md) report. You can open the report in two ways:
+The Ownerless agents automation is set up from the [Agents Inventory](reports/ai-agents-reports.md#agents-inventory-report) report. You can open the report in two ways:
 
 * From the **Dashboard**:
   * Go to the [AI & app governance Dashboard tile](ai-agents-and-apps-dashboard-tile.md) and **click the Ownerless count** under Agents
@@ -50,7 +50,7 @@ After selecting Set up automation, the **information dialog** opens, providing m
   * **Previous owner's manager** - the manager of the agent's previous owner becomes the new owner
   * **Sponsor** - the agent's sponsor becomes the new owner
     * This option is available for **Copilot Studio agents only**; Agent Builder agents are assigned to the previous owner's manager
-* **Clicking Resolve manually (3)** opens the [**Agents Inventory** report](ai-agents-and-apps-agents-inventory.md) filtered to ownerless agents
+* **Clicking Resolve manually (3)** opens the [**Agents Inventory** report](reports/ai-agents-reports.md#agents-inventory-report) filtered to ownerless agents
   * Selecting an agent lets you complete the [**Reassign owner** action](ai-agents-and-apps-actions.md#reassign)
 * **Clicking View history (4)** opens the [**Ownerless agents history** report](#ownerless-agents-history-report), where every resolved ownerless agent is stored
 
@@ -104,5 +104,5 @@ The Ownerless agents history report can be **exported as PDF, CSV and XLSX files
 
 * [AI Agents Overview](ai-agents-and-apps-overview.md)
 * [Configure AI Agents](ai-agents-and-apps-settings.md)
-* [Agents Inventory Report](ai-agents-and-apps-agents-inventory.md)
+* [AI Agents Reports](reports/ai-agents-reports.md)
 * [AI Agents Actions](ai-agents-and-apps-actions.md)

@@ -25,7 +25,7 @@ description: This article lists new features, improvements, and bug fixes in the
   * You can open both reports from the **Agents Inventory** report and the agent details screen.
   * The **Agent Activity** report shows how users interact with agents in Microsoft 365 Copilot.
   * The **Agent Configuration Changes** report shows administrative and configuration changes made to agents, such as blocking, reassigning, or deleting an agent.
-  * For more details, [please take a look at the AI Agents Actions article.](../../ai-agents-and-apps/ai-agents-and-apps-actions.md#agent-activity)
+  * For more details, [please take a look at the AI Agents Reports article.](../../ai-agents-and-apps/reports/ai-agents-reports.md#agent-activity-report)
 
 ## Improvements & Bug Fixes
 

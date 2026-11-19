@@ -19,6 +19,11 @@ The first screen on the Shadow Users step is the task overview. Here, you can fi
 
 ![Workspace Review - Shadow Users Step - Overview](../../../static/img/workspace-review-shadow-users-step-overview.png)
 
+:::warning
+**Please note!**\
+If the admin has given Collaborators read-only access, the **Remove All** and **Remove Access** actions in this step are not available, including when **selecting more than one user**. [Take a look at the Role-Based Access article for more details.](../../configuration/enable-role-based-access.md)
+:::
+
 ## Remove Blocked Shadow Users
 
 If the Blocked Shadow Users option was selected for this policy, after clicking the Review button, the Remove Blocked Shadow Users section opens, where you can:

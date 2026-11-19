@@ -87,6 +87,7 @@ Here are a few things you should keep in mind when it comes to the archive featu
 * **Microsoft 365 Archive** does not charge a reactivation fee for archived SharePoint sites. Note that once a site is reactivated, it cannot be re-archived for 120 days.
 
 * When **a workspace is archived through the In-place method**, the workspace is put into a **read-only state**, access to the workspace is removed for members and/or owners, permission inheritance is restored on all objects, and all memberships on the workspace are removed in Microsoft 365 but saved in the Syskit Point database to support the restore action. 
+  * SharePoint does not allow restoring permission inheritance on lists and libraries with more than 100,000 items. Syskit Point skips these lists and libraries and completes the rest of the archive action.
 
 * If a **SharePoint site has already been archived through the Microsoft 365 Archive** option, it is **not flagged** as an Inactive Workspace. 
 
