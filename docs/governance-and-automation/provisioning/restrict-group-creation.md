@@ -86,6 +86,22 @@ To verify that groups, and thus workspaces that rely on groups, cannot be create
 
 Create a team **From template**, including **From Scratch**, and **From another team** options are disabled.
 
+## Redirect SharePoint Site Creation
+
+You can now **connect SharePoint site creation directly to your organization's own provisioning flow**. SharePoint admins can **configure a custom URL in the SharePoint admin center**, so users who start creating a site in SharePoint are **redirected to your existing provisioning experience**, such as Syskit Point.
+
+This helps you:
+* **Guide users to the right place from the start** - users request new sites through Syskit Point instead of the built-in SharePoint experience
+* **Align site creation with your governance, approval, and business processes** - requests go through your Syskit Point [provisioning templates](templates.md) and [approval processes](approval-processes.md)
+
+To configure the redirect, follow the steps in [Microsoft's article](https://learn.microsoft.com/en-us/sharepoint/manage-site-creation).
+
+:::info
+**Please note!**  
+This setting only applies to the built-in SharePoint site creation experience. **It doesn't restrict the creation of Microsoft 365 groups and Teams** - to do that, use the [PowerShell command](#powershell-command) described above.  
+**Need help setting this up?** [Contact Syskit support](https://support.syskit.com/hc/en-us/requests/new?ticket_form_id=21891417027473), and we'll help you configure it.
+:::
+
 ## Additional information
 
 You can find additional information about this topic in the [following Microsoft's article](https://docs.microsoft.com/en-us/microsoft-365/solutions/manage-creation-of-groups?view=o365-worldwide).
