@@ -28,7 +28,7 @@ After you click the appropriate button, continue with the following steps:
 
 ![Activation Dialog](../../../static/img/activate-syskit-point-activation-dialog.png)
 
-You can check the license information in Syskit Point and manage the license on the Settings &gt; License page.
+You can check the license information in Syskit Point and manage the license on the **Settings** &gt; **General** &gt; **Syskit Point Subscription** page.
 
 ## Changing the License Key
 

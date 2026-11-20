@@ -46,7 +46,7 @@ For **Guest Users**, who do not appear in the Unified Audit Log (e.x. Teams-only
 In Syskit Point, you can **configure how many days of inactivity qualify** a user as inactive in two places: **for governance policies and license reports**. 
 
 To configure inactivity for license reports: 
-* Go to **Settings > License reports**
+* Go to **Settings > General > Licenses**
 * Under **License Assigned to Inactive User**, define the **number of days since the last login after which a user is considered inactive**
 
 [For detailed instructions on how to customize your license reports, take a look at the Customize License Reports article.](../configuration/customize-license-reports.md)

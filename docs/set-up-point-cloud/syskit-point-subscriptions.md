@@ -124,6 +124,8 @@ For each role, enter a valid **e-mail** address. You can add more than one e-mai
 
 The first time your license is activated, adding these contacts is a required step, and all four roles need to be filled in before you can continue. If your license is already active, a banner reminds you to add your contacts until they are submitted.
 
+You can review and update your contacts anytime in Syskit Point under **Settings** > **General** > **Syskit Point Subscription** > **Points of Contact**.
+
 To keep your contacts up to date, we ask you to confirm them once a year. When it is time to review them, a banner in Syskit Point lets you know.
 
 :::info
