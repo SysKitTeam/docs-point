@@ -11,13 +11,16 @@ The licensing of the Syskit Point subscription **is based on licensed Microsoft 
  * **Guest users** only fit into that category **if they have a paid license assigned**. 
    * Assigning a license to guest users is unnecessary for rudimentary use cases, such as sharing content and using the Microsoft Teams app.
 
-The number of licensed users within Syskit Point can be found by navigating to **Settings (1) > General (2) > Point License (3) > Number of licensed users M/N (4)**.
+The number of licensed users within Syskit Point can be found by navigating to **Settings (1) > General (2) > Syskit Point Subscription (3)**. Under the **Syskit Point License** section, check the **Number of licensed users M/N (4)**.
 * Open a report of all your assigned paid licenses by clicking the **View Point Licenses button (5)**.
 
 ![Number of Licensed Users](../../static/img/activation-licensed-users-point.png)
 
  * **M** is the **number of licensed users in the tenant** 
  * **N** is the **number of Paid users that are included in the Syskit Point license**
+ * During the free trial, this field is shown as **Number of users that require license**, and only the number of licensed users in the tenant is displayed
+
+In Syskit Point Cloud, click **Manage Subscription** on the same screen to open the [Syskit Point Subscriptions portal](../set-up-point-cloud/syskit-point-subscriptions.md), where you can manage your Syskit Point subscription.
 
 **Clicking the View Point Licenses button** opens the Point Licenses report screen with a list of all paid licenses assigned to users in Syskit Point. 
 
@@ -63,7 +66,7 @@ For example, if one user has three licenses, the charge would still be for that 
 If you have inactive users, you can remove their licenses in Syskit Point by following these steps:
  * **Click the Reports button (1)** on the left of the home screen; the Reports page will open with several available options
  * **Select Licenses from the drop-down menu (2)** on the reports screen; 
- * **Click the Inactive Licenses report (3)**; this will generate a report showing all licenses currently assigned to inactive users or guest users.
+ * **Click the Licenses Assigned to Inactive Users report (3)**; this will generate a report showing all licenses currently assigned to inactive users or guest users.
 
 ![Inactive License Report](../../static/img/activation-licensed-users-count-inactive-report.png)
 
