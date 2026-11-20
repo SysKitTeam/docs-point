@@ -14,7 +14,7 @@ The licensing of the Syskit Point subscription **is based on licensed Microsoft 
 The number of licensed users within Syskit Point can be found by navigating to **Settings (1) > General (2) > Syskit Point Subscription (3)**. Under the **Syskit Point License** section, check the **Number of licensed users M/N (4)**.
 * Open a report of all your assigned paid licenses by clicking the **View Point Licenses button (5)**.
 
-![Number of Licensed Users](../../static/img/activation-licensed-users-point.png)
+![Syskit Point Subscription - Number of Licensed Users](../../static/img/activation-licensed-users-point.png)
 
  * **M** is the **number of licensed users in the tenant** 
  * **N** is the **number of Paid users that are included in the Syskit Point license**
@@ -32,7 +32,7 @@ On that screen, you will find the following information:
 
 You can also use the **column chooser (5)** to add columns to the report. 
 
-![View Point Licenses - Report](../../static/img/activation-licensed-users-licenses-report.png)
+![Point Licenses Report](../../static/img/activation-licensed-users-licenses-report.png)
 
 **The exact number and type of licenses** assigned to users in Syskit Point can be found on the **Licensed Users screen**. 
 * Click **Users (1)** on the left side of the Home page
@@ -64,19 +64,19 @@ For example, if one user has three licenses, the charge would still be for that 
 ## License Cleanup
 
 If you have inactive users, you can remove their licenses in Syskit Point by following these steps:
- * **Click the Reports button (1)** on the left of the home screen; the Reports page will open with several available options
- * **Select Licenses from the drop-down menu (2)** on the reports screen; 
- * **Click the Licenses Assigned to Inactive Users report (3)**; this will generate a report showing all licenses currently assigned to inactive users or guest users.
+ * **Click Report (1)** in the left navigation; the Report Center opens with several available options
+ * **Select Licenses from the drop-down menu (2)** in the Report Center
+ * **Click the Licenses Assigned to Inactive Users report (3)**; this will generate a report showing all licenses currently assigned to inactive or blocked users.
 
-![Inactive License Report](../../static/img/activation-licensed-users-count-inactive-report.png)
+![Report Center - Licenses Assigned to Inactive Users](../../static/img/activation-licensed-users-count-inactive-report.png)
 
  * **Select the license of an inactive user (1)**; you can select one or multiple licenses.
-    * To select all inactive licenses, press the top checkbox on the left side next to the title 'License'.
- * **Press the Remove Licenses button (2)**; it is located on the right side of the screen.
+    * To select all inactive licenses, press the checkbox in the column header.
+ * **Click the Remove License button (2)** at the end of the selected row.
     * Once selected, a pop-up will appear.
     * **Type REMOVE and click the Remove button to proceed**. 
 
-![Removing Licenses](../../static/img/activation-licensed-users-count-inactive-remove.png)
+![Licenses Assigned to Inactive Users - Remove License](../../static/img/activation-licensed-users-count-inactive-remove.png)
 
 
 :::info
