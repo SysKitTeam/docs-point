@@ -44,7 +44,7 @@ No. During the free trial, we only contact the person who started the trial. You
 
 ## How often do I need to confirm my contacts?
 
-We ask you to confirm your contacts once a year. When it is time to review them, you are reminded with a banner in Syskit Point. 
+We ask you to confirm your contacts once a year. When it is time to review them, you are reminded with a banner in Syskit Point. You can review and update your contacts anytime under **Settings** > **General** > **Syskit Point Subscription** > **Points of Contact**.
 
 ## How long does the product activation take to complete?
 
