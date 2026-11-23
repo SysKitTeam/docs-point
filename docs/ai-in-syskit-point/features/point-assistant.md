@@ -26,9 +26,11 @@ Point Assistant lets you ask these everyday governance questions in plain langua
 To start using Point Assistant, complete the following:
 
 * In Syskit Point, **click the AI Assistant button (1)** in the page header.
-  * Point Assistant opens docked next to the page on wide screens and can be expanded to full screen.
-* **Type your question (2)** in plain language; no special syntax is needed.
-  * Alternatively, **select one of the suggested prompts (3)**.
+  * Alternatively, on the **Home** page, **click the arrow (2)** next to the suggested prompt in the top-right corner. This opens Point Assistant and asks that question right away.
+* **Point Assistant opens**, where you can ask questions about your Microsoft 365 environment.
+  * To switch to full screen, click the **expand** icon in the Point Assistant header.
+* **Type your question (3)** in plain language; no special syntax is needed.
+  * Alternatively, **select one of the suggested prompts (4)** shown above the message box.
 
 ![Syskit Point AI Assistant - Button](../../../static/img/point-assistant-ai-button.png)
 
