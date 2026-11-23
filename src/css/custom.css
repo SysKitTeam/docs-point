@@ -609,6 +609,23 @@ a[target="_blank"] svg {
   fill: var(--ifm-color-success);
 }
 
+/* Video admonition */
+.theme-admonition-video {
+  background-color: rgba(8, 145, 178, 0.08);
+}
+
+.theme-admonition-video::before {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3e%3ccircle cx='10' cy='10' r='10' fill='%230891B2'/%3e%3cpolygon points='8,6 8,14 15,10' fill='white'/%3e%3c/svg%3e");
+}
+
+[data-theme='dark'] .theme-admonition-video {
+  background-color: rgba(8, 145, 178, 0.18);
+}
+
+[data-theme='dark'] .theme-admonition-video::before {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3e%3ccircle cx='10' cy='10' r='10' fill='%2222D3EE'/%3e%3cpolygon points='8,6 8,14 15,10' fill='white'/%3e%3c/svg%3e");
+}
+
 /* Card list styling */
 .docCardListItem_W1sv .cardContainer_S8oU {
   border-radius: 5px !important;

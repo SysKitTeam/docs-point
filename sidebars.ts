@@ -26,6 +26,22 @@ const sidebars: SidebarsConfig = {
             id: 'releases/cloud/README',
           },
           items: [
+            'releases/cloud/point-2026-11-17-release-note',
+            'releases/cloud/point-2026-11-10-release-note',
+            'releases/cloud/point-2026-11-03-release-note',
+            'releases/cloud/point-2026-10-27-release-note',
+            'releases/cloud/point-2026-10-20-release-note',
+            'releases/cloud/point-2026-10-13-release-note',
+            'releases/cloud/point-2026-10-06-release-note',
+            'releases/cloud/point-2026-09-30-release-note',
+            'releases/cloud/point-2026-09-23-release-note',
+            'releases/cloud/point-2026-09-15-release-note',
+            'releases/cloud/point-2026-09-09-release-note',
+            'releases/cloud/point-2026-09-01-release-note',
+            'releases/cloud/point-2026-08-27-release-note',
+            'releases/cloud/point-2026-08-19-release-note',
+            'releases/cloud/point-2026-08-12-release-note',
+            'releases/cloud/point-2026-08-04-release-note',
             'releases/cloud/point-2026-07-29-release-note',
             'releases/cloud/point-2026-07-22-release-note',
             'releases/cloud/point-2026-07-14-release-note',
@@ -165,12 +181,39 @@ const sidebars: SidebarsConfig = {
           items: [
             {
               type: 'category',
+              label: 'Syskit Point 2026.4',
+              link: {
+                type: 'doc',
+                id: 'releases/enterprise/syskit-point-2026-4/README',
+              },
+              items: [
+                'releases/enterprise/syskit-point-2026-4/point-2026-4-167-release-note',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Syskit Point 2026.3',
+              link: {
+                type: 'doc',
+                id: 'releases/enterprise/syskit-point-2026-3/README',
+              },
+              items: [
+                'releases/enterprise/syskit-point-2026-3/point-2026-3-164-release-note',
+                'releases/enterprise/syskit-point-2026-3/point-2026-3-162-release-note',
+                'releases/enterprise/syskit-point-2026-3/point-2026-3-159-release-note',
+              ],
+            },
+            {
+              type: 'category',
               label: 'Syskit Point 2026.2',
               link: {
                 type: 'doc',
                 id: 'releases/enterprise/syskit-point-2026-2/README',
               },
               items: [
+                'releases/enterprise/syskit-point-2026-2/point-2026-2-157-release-note',
+                'releases/enterprise/syskit-point-2026-2/point-2026-2-155-release-note',
+                'releases/enterprise/syskit-point-2026-2/point-2026-2-153-release-note',
                 'releases/enterprise/syskit-point-2026-2/point-2026-2-151-release-note',
                 'releases/enterprise/syskit-point-2026-2/point-2026-2-149-release-note',
                 'releases/enterprise/syskit-point-2026-2/point-2026-2-147-release-note',
@@ -537,7 +580,6 @@ const sidebars: SidebarsConfig = {
         'microsoft365-inventory/sites',
         'microsoft365-inventory/microsoft-teams-and-groups',
         'microsoft365-inventory/users',
-        'microsoft365-inventory/cleanup-opportunities',
         'microsoft365-inventory/copilot-readiness',
         'microsoft365-inventory/power-platform'       
       ],
@@ -555,6 +597,7 @@ const sidebars: SidebarsConfig = {
         'configuration/microsoft-teams-activity',
         'configuration/configure-storage-management',
         'configuration/set-up-email',
+        'configuration/high-volume-emails',
         'configuration/connect-service-account',
         'configuration/enable-sensitivity-labels',
         'configuration/customize-audit-logs-collection',
@@ -586,12 +629,69 @@ const sidebars: SidebarsConfig = {
         'reporting/exported-reports',
         'reporting/external-sharing-reports',
         'reporting/access-reports',
+        'reporting/hero-links',
         'reporting/audit-reports',
         'reporting/cleanup-and-health-reports',
         'reporting/licenses-reports',
         'reporting/analytics-reports',
         'reporting/sensitivity-labels',
-        'reporting/ai-agents-reports',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Syskit Point AI',
+      link: {
+        type: 'doc',
+        id: 'ai-in-syskit-point/README',
+      },
+      items: [
+        'ai-in-syskit-point/early-access-program',
+        'ai-in-syskit-point/ai-data-privacy-and-security',
+        'ai-in-syskit-point/enable-ai-features',
+        {
+          type: 'category',
+          label: 'Syskit Point AI',
+          link: {
+            type: 'doc',
+            id: 'ai-in-syskit-point/features/README',
+          },
+          items: [
+            'ai-in-syskit-point/features/point-assistant',
+            'ai-in-syskit-point/features/ticketing-integrations',
+            'ai-in-syskit-point/features/mcp-server',
+            'ai-in-syskit-point/features/workspace-summaries',
+            'ai-in-syskit-point/features/sensitivity-label-recommendations',
+            'ai-in-syskit-point/features/naming-recommendations',
+          ],
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'AI Agents',
+      link: {
+        type: 'doc',
+        id: 'ai-agents-and-apps/README',
+      },
+      items: [
+        'ai-agents-and-apps/ai-agents-and-apps-overview',
+        'ai-agents-and-apps/ai-agents-and-apps-settings',
+        'ai-agents-and-apps/ai-agents-and-apps-dashboard-tile',
+        {
+          type: 'category',
+          label: 'AI Agents & Apps Reports',
+          link: {
+            type: 'doc',
+            id: 'ai-agents-and-apps/reports/README',
+          },
+          items: [
+            'ai-agents-and-apps/reports/ai-agents-reports',
+            'ai-agents-and-apps/reports/entra-apps-reports',
+            'ai-agents-and-apps/reports/permissions-and-consent-report',
+          ],
+        },
+        'ai-agents-and-apps/ai-agents-and-apps-actions',
+        'ai-agents-and-apps/ai-agents-and-apps-automation',
       ],
     },
     {
@@ -619,6 +719,7 @@ const sidebars: SidebarsConfig = {
       },
       items: [
         'governance-and-automation/syskit-point-tasks',
+        'governance-and-automation/cleanup-opportunities',
         {
           type: 'category',
           label: 'Workspace Review',
@@ -652,6 +753,7 @@ const sidebars: SidebarsConfig = {
             id: 'governance-and-automation/permissions-review/README',
           },
           items: [
+            'governance-and-automation/permissions-review/migrate-from-access-review-to-workspace-review',
             'governance-and-automation/permissions-review/enable-permissions-review',
             'governance-and-automation/permissions-review/create-apply-access-review-policies',
             'governance-and-automation/permissions-review/access-review-options',
@@ -834,7 +936,6 @@ const sidebars: SidebarsConfig = {
             id: 'power-platform/power-platform-reports/README',
           },
           items: [
-            'power-platform/power-platform-reports/copilot-agents-reports',
             'power-platform/power-platform-reports/power-platform-environments-reports',
             'power-platform/power-platform-reports/power-apps-reports',
             'power-platform/power-platform-reports/power-automate-reports',
@@ -919,6 +1020,7 @@ const sidebars: SidebarsConfig = {
         id: 'point-collaborators/README',
       },
       items: [
+        'point-collaborators/quick-start-guide',
         'point-collaborators/point-starter-kit-collaborators',
 
                 {

@@ -8,9 +8,11 @@ description: This article explains how to customize additional Access Review opt
 
 **Automated Access Review is evolving into [Workspace Review](../workspace-review/setup-workspace-review.md)**, a more powerful solution that covers not only access but also ownership, privacy, sensitivity, and overall workspace security. 
 
-**⚠️ Note: Access Review will be retired in January 2027**. For a richer governance experience, we recommend completing your current reviews and then moving to Workspace Review. 
+**⚠️ Note: Access Review will be retired in January 2027**. For a richer governance experience, we recommend completing your current reviews and then moving to Workspace Review. To learn how, see the [Migrate from Access Review to Workspace Review](migrate-from-access-review-to-workspace-review.md) article. 
 
-Learn more in the [Workspace Review documentation](../workspace-review/).
+**New to Syskit Point?** Your Syskit Point instance comes with **Workspace Review** instead of Access Review. Access Review remains available only in Syskit Point instances that already had it enabled. To review access and permissions going forward, take a look at the [Workspace Review](../workspace-review/setup-workspace-review.md) article. 
+
+You can learn more in the [Workspace Review documentation](../workspace-review/).
 :::
 
 :::info
@@ -59,5 +61,5 @@ Here you can:
 ## Next Steps
 
 Now that everything is defined, the **Access Review will start automatically**. 
-To learn how to perform an Access Review in Syskit Point, visit the [following article](../../point-collaborators/resolve-governance-tasks/access-review.mdx).
+To learn how to perform an Access Review in Syskit Point, visit the [following article](../../point-collaborators/resolve-governance-tasks/access-review.md).
 

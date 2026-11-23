@@ -18,6 +18,7 @@ You'll be able to utilize most of the Syskit Point features while in the free tr
 * **PDF exports will have a watermark** stating you exported the file during the Syskit Point Trial
 * **You will have a limit** of running 10 File Version Cleanup actions
 * **The Set Version Limit action** for Storage is not available during your trial period 
+* **Cleanup automations cannot be enabled** during your trial period; you can still review your cleanup opportunities and resolve them manually
 
 In the Syskit Point web app, you will notice the **trial banner** located at the top of the screen for the trial duration.
 

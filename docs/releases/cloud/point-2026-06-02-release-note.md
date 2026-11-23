@@ -18,7 +18,7 @@ description: This article lists new features, improvements, and bug fixes in the
   * The new Cleanup Opportunities tile on the Syskit Point dashboard highlights actionable cleanup opportunities in your environment.
   * The tile shows the following metrics: redundant unique permissions, leftover anyone links, leftover external users, and inactive unique permissions.
   * From the tile, you can click the Fix Now button to:  manually resolve the issues via the relevant report, or send feedback requesting automation.
-  * [For more details, take a look at the Cleanup Opportunities article.](../../microsoft365-inventory/cleanup-opportunities.md).
+  * [For more details, take a look at the Cleanup Opportunities article.](../../governance-and-automation/cleanup-opportunities.md).
 
 ## Improvements & Bug Fixes
 

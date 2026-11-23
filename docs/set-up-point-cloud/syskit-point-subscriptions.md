@@ -13,6 +13,7 @@ The **My Subscriptions** portal provides insight into the current state of your 
 In this article, you will find information on the following:
 
 * [Purchase Your Syskit Point Cloud Subscription](syskit-point-subscriptions.md#purchase-your-syskit-point-cloud-subscription)
+* [Provide Account Contacts](syskit-point-subscriptions.md#provide-account-contacts)
 * [Purchase Additional User Licenses](syskit-point-subscriptions.md#purchase-additional-user-licenses)
 * [Upgrade Your Subscription Plan](syskit-point-subscriptions.md#upgrade-your-subscription-plan)
 * [Manage Subscription Administrators](syskit-point-subscriptions.md#manage-subscription-administrators)
@@ -22,6 +23,10 @@ In this article, you will find information on the following:
 
 :::warning
 **Please note!** If you didn't start your free 21-day trial, take a look at the [**Syskit Point trial article**](free-trial.md) for details on getting started. At any point during the 21 days of the free trial, you can purchase a Syskit Point Cloud subscription. To retain your data after your free trial has expired, you need to purchase a Syskit Point subscription within 21 days of your trial period ending.
+:::
+
+:::warning
+**Self-service subscription management is temporarily unavailable.** Managing an existing subscription through the Syskit Point Subscriptions portal is currently not possible. To request any changes to your subscription — including license upgrades or downgrades, plan changes, credit card updates, cancellations, or access to invoice history — contact us at [support@syskit.com](mailto:support@syskit.com) or [sales@syskit.com](mailto:sales@syskit.com).
 :::
 
 ## Purchase Your Syskit Point Cloud Subscription
@@ -98,72 +103,54 @@ The section titled **Users (2)** is where you can find a **list of users (2)** y
 
 ![Syskit Point Subscription - Purchased Plan & Users](../../static/img/syskit-point-subscriptions-users-list.png)
 
+## Provide Account Contacts
+
+Once your license is activated, you are asked to provide your account contacts. Contacts are requested for four roles:
+
+* **Main Contacts (Primary)**
+  * The main person(s) working in Syskit Point on a regular basis
+  * These contacts will receive all important product and change updates
+* **Technical Contacts**
+  * The main person(s) working in charge of technical related information
+  * These contacts will receive information about product updates
+* **Billing Contacts**
+  * The main person(s) in charge of billing
+  * These contacts will receive copies of the invoices, renewal information and other billing-related updates
+* **Legal Contacts**
+  * The main person(s) in charge of legal aspects
+  * These contacts will receive all important legal changes (e.g. to our EULA or Privacy Policy)
+
+For each role, enter a valid **e-mail** address. You can add more than one e-mail address per role.
+
+The first time your license is activated, adding these contacts is a required step, and all four roles need to be filled in before you can continue. If your license is already active, a banner reminds you to add your contacts until they are submitted.
+
+You can review and update your contacts anytime in Syskit Point under **Settings** > **General** > **Syskit Point Subscription** > **Points of Contact**.
+
+To keep your contacts up to date, we ask you to confirm them once a year. When it is time to review them, a banner in Syskit Point lets you know.
+
+:::info
+**Please note!** No contacts are collected during the free trial. During the trial, we only reach out to the person who started the trial period.
+:::
+
 ## Purchase Additional User Licenses
 
-To increase the number of user licenses included in your plan, take the following steps:
+:::info
+Purchasing additional user licenses through the Syskit Point Subscriptions portal is currently not possible.
+:::
 
-* Log into your **Syskit Subscriptions** site
-* Under **Overview**, navigate down to the **Licenses section (1)**
-* Click the **Buy More button (2)** located in the Licenses section
-* This opens a pop-up where you can edit your current subscription and enhance your user licenses
-* Click the **Update plan (3)** button, located on the right side of the screen
-* Select your current plan by clicking the **Continue button** on the right side, next to your current plan
+To increase the number of user licenses included in your plan, contact us at [support@syskit.com](mailto:support@syskit.com) or [sales@syskit.com](mailto:sales@syskit.com). Please include your organization name and the number of additional licenses you'd like to add, and our team will process the change for you.
 
-![Syskit Point Subscription - Increase Users Licenses](../../static/img/syskit-point-cloud-licensing-buy-more.png)
-
-![Syskit Point Subscription - Increase Users Licenses - Update plan](../../static/img/syskit-point-cloud-licensing-update-plan.png)
-
-The screen to update your plan opens. Here you can:
-
-* **Select the plan (1)** you want to change to
-* **Select the number of licenses (2)** you want to purchase
-* **Click Continue (3)** when you are satisfied with your selection
-
-![Syskit Point Subscription - Update Plan - Selection](../../static/img/syskit-point-cloud-licensing-plan-selection.png)
-
-You are redirected to the confirmation screen, where the following information is shown:
-
-* **The name and price (1)** of the new plan
-* **What you'll be paying (2)** - the amount you will be paying once your plan renews
-* **Amount due today (3)** - the amount you will need to pay instantly to increase your license number
-* This number will show the necessary payment based on the price of the added licenses; you will not be charged for the licenses you have already purchased
-* Click **Confirm (4)** to finalize your selection and proceed with your payment
-
-![Syskit Point Subscription - Increased Users Licenses - Finalized](../../static/img/syskit-point-cloud-licensing-users-licenses.png)
+For details on how licenses are counted, see the [**Licensed Users Count article**](../licensing-activation/licensed-users-count.md).
 
 ## Upgrade Your Subscription Plan
 
-To change or upgrade the Syskit Point subscription plan you currently have, complete the following:
+:::info
+Changing or upgrading your Syskit Point subscription plan through the Syskit Point Subscriptions portal is currently not possible.
+:::
 
-* Log into your **Syskit Subscriptions** site
-* Under **Subscriptions (1)**, navigate down to the **Manage Subscription**
-* Click the **Manage Subscription button (2)**
-* This opens a pop-up where you can edit your current subscription and upgrade your subscription plan
-* Click the **Update plan (3)** button, located on the right side of the screen
-* This opens a pop-up where you can edit your current subscription and enhance your user licenses
+To change or upgrade your Syskit Point subscription plan, contact us at [support@syskit.com](mailto:support@syskit.com) or [sales@syskit.com](mailto:sales@syskit.com). Please include your organization name and the plan you'd like to switch to, and our team will process the change for you.
 
-![Syskit Point Subscription - Manage Subscription](../../static/img/syskit-point-cloud-licensing-manage-subs.png)
-
-![Syskit Point Subscription - Update Plan](../../static/img/syskit-point-cloud-licensing-update-plan.png)
-
-The **Update your plan screen** opens where you can:
-
-* Change your plan to being charged **Monthly or Yearly (1)**.
-* Change your subscription to a different plan by:
-* **Selecting the plan (2)** you want to change to
-* **Selecting the number of licenses (3)** you want to purchase
-* Click the **Continue button (4)** to finalize your choice
-
-![Syskit Point Subscription - Upgrade Plan](../../static/img/syskit-point-cloud-licensing-new-plan.png)
-
-* The site that opens will show the **Changing your updates**, which lists the new plan you selected
-* The two sections below show:
-* **What you'll be paying** - the amount you will be paying once your plan renews
-* **Amount due today** - the amount you will need to pay instantly to upgrade to a different plan
-* This number will be the increased amount based on the pay difference between your initial plan and the new one; the amount paid for the initial plan is deducted from the price of the new plan
-* Click **Confirm (1)** to finalize your selection and proceed with your payment
-
-![Syskit Point Subscription - Upgrade Plan - Finalized](../../static/img/syskit-point-cloud-licensing-users-licenses-new.png)
+If you're unsure which plan best suits your needs, see the [Pricing page](https://www.syskit.com/products/point/pricing/) for a comparison of available plans.
 
 ## Manage Subscription Administrators
 
@@ -239,32 +226,13 @@ This serves as a safety measure, as once the change is final, all audit logs tha
 
 ## Cancel Your Subscription
 
-To cancel the Syskit Point subscription plan you currently have, complete the following:
+:::info
+Canceling your Syskit Point subscription through the Syskit Point Subscriptions portal is currently not possible.
+:::
 
-* Log into your **Syskit Subscriptions** site
-* Under **Subscriptions (1)**, navigate down to the **Manage Subscription**
-* Click the **Manage Subscription button (2)**
-* This opens a pop-up where you can manage your current subscription by upgrading your subscription plan or canceling it
-* Click the **Cancel plan (3)** button, located on the right side of the screen
-* This opens a screen where you can cancel your current plan
+To cancel your Syskit Point subscription, contact us at [support@syskit.com](mailto:support@syskit.com) or [sales@syskit.com](mailto:sales@syskit.com). Please include your organization name in the request, and our team will process the cancellation for you.
 
-![Syskit Point Subscription - Cancel Subscription](../../static/img/syskit-point-cloud-licensing-manage-subs.png)
-
-![Syskit Point Subscription - Cancel Subscription](../../static/img/setup-point-cloud-syskit-point-subscriptions-cancel-overview.png)
-
-The Cancel Your Plan site will show an overview of your current plan with information about:
-
-* Name of your plan
-* Cost per year
-* Date until which your plan is available when canceled
-
-Click the **Cancel plan button (1)** to cancel your plan.
-
-* This will open a pop-up that asks for feedback on why you are choosing to cancel, but leaving this comment is optional
-
-Your subscription will now be canceled, and once the current plan you had already purchased expires, you can no longer utilize Syskit Point.
-
-![Syskit Point Subscription - Canceled](../../static/img/setup-point-cloud-syskit-point-subscriptions-cancel.png)
+Once your cancellation is processed, you can continue using Syskit Point until the end of your current billing period. After that, your subscription will end and Syskit Point will no longer be available.
 
 ## Related Articles
 

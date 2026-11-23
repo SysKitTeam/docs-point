@@ -1,4 +1,4 @@
-﻿---
+---
 description: This article describes all the information presented in the Syskit Point Dashboard.
 ---
 
@@ -27,7 +27,7 @@ The **Syskit Point** Dashboard shows Syskit Point administrators the following i
 * [License Optimization](#license-optimization)
 * [Power Platform](#power-platform)
 * [Workspace Sensitivity](#workspace-sensitivity)
-* [AI Agents](#ai-agents)
+* [AI & app governance](#ai--app-governance)
 * [Workspace Review](#workspace-review)
 * [Cleanup Opportunities](#cleanup-opportunities)
 
@@ -315,24 +315,20 @@ The tile on the Dashboard shows:
 ![Workspace Sensitivity Tile](../../static/img/dashboard-workspace-sensitivity-tile.png)
 
 
-## AI Agents 
+## AI & app governance
 
-The AI Agents tile provides an **overview of all custom-built agents in your organization**. 
+The **AI & app governance** tile gives you an overview of the Microsoft agents and connected apps that are active in your tenant, and highlights how many of them need your attention.
 
-The tile on the Dashboard shows:
+The tile on the Dashboard shows the following:
 
-* The **total number of custom SharePoint Agents** in your environment and the number of **newly added custom SharePoint Agents** in the past 30 days
-  * Clicking the number opens the **Custom SharePoint Agents Inventory** report
-* The **total number of custom Copilot Agents** in your environment and the number of **newly added custom Copilot Agents** in the past 30 days
-  * Clicking the number opens the **Copilot Agents Inventory** report
-* **The number of custom orphaned agents**
-  * Clicking the number opens the **Copilot Agents Inventory** report with the filter set as Orphaned Copilot Agents
-* **The number of custom sensitive agents**
-  * Clicking the number opens the **Copilot Agents Inventory** report with the filter set as Sensitive Agents
+* Under **Agents**, the number of agents by type - **Copilot Studio**, **SharePoint Agents**, and **Agent Builder** - together with the number of **Shared**, **Ownerless**, **Inactive**, and **Sensitive** agents
+  * Clicking **View all agents** opens the [**Agents Inventory**](../ai-agents-and-apps/reports/ai-agents-reports.md#agents-inventory-report) report, or click any of the counts to open the report filtered to that view
+* Under **Apps**, the number of **AI Assistants**, **Agent Identity**, **High Privileged**, **Unverified**, **Inactive**, and **Sensitive** apps
+  * Clicking **View all apps** opens the [**Apps Inventory**](../ai-agents-and-apps/reports/entra-apps-reports.md#apps-inventory-report) report, or click any of the counts to open the report filtered to that view
 
-Clicking the Explore button opens the Custom SharePoint Agents Inventory report. [For more details on the report, take a look at this article.](../reporting/ai-agents-reports.md) 
+[For more details on the AI & app governance Dashboard tile, take a look at this article.](../ai-agents-and-apps/ai-agents-and-apps-dashboard-tile.md)
 
-![AI Agents Tile](../../static/img/dashboard-sharepoint-agents-tile.png)
+![AI & app governance Dashboard tile](../../static/img/dashboard-ai-agents-tile.png)
 
 ## Workspace Review
 
@@ -359,11 +355,11 @@ The **Cleanup Opportunities** tile helps you identify and act on permission issu
 
 The tile on the Dashboard shows the following:
 
-* The number of **Redundant Unique Permissions** and the Fix Now button that opens the **Unique Permissions** report
-* The number of **Inactive Unique Permissions** and the Fix Now button that opens the **Permissions Matrix** report
-* The number of **Leftover Anyone Links** and the Fix Now button that opens the **Sharing Links** report
-* The number of **Leftover External Users** and the Fix Now button that opens the **Externally Shared Content** report
+* The number of **Redundant Unique Permissions** and the **Set Up Automation** button, which opens the information dialog where you can turn on the **Automated cleanup** toggle or choose to Resolve Manually which open the **Unique Permissions** report
+* The number of **Inactive Unique Permissions** and the Resolve Manually button that opens the **Permissions Matrix** report
+* The number of **Leftover Anyone Links** and the **Set Up Automation** button, which opens the information dialog where you can turn on the **Automated cleanup** toggle or choose to Resolve Manually which opens the **Sharing Links** report
+* The number of **Leftover External Users** and the **Set Up Automation** button, which opens the information dialog where you can turn on the **Automated cleanup** toggle or choose to Resolve Manually which opens the **Externally Shared Content** report
 
-[For more details on the Cleanup Opportunities tile, take a look at this article.](cleanup-opportunities.md)
+[For more details on the Cleanup Opportunities tile, take a look at this article.](../governance-and-automation/cleanup-opportunities.md)
 
 ![Cleanup Opportunities tile](../../static/img/dashboard-cleanup-opportunities-tile.png)

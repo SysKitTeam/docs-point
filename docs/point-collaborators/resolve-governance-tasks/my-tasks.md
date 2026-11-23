@@ -31,7 +31,7 @@ On the screen that opens, click the **link in the Task column** to continue and 
 
 ## Related Articles
 
-* [Complete Access Review Tasks](access-review.mdx)
+* [Complete Access Review Tasks](access-review.md)
 * [Complete Metadata Review Tasks](metadata-review.md)
 * [Resolve Inactive Workspaces Tasks](inactive-workspaces.md)
 * [Resolve Inactive Guest Users Tasks](guest-users-expiration.md)

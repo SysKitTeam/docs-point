@@ -110,7 +110,7 @@ Take a look at the articles below to learn how to set up each governance policy:
 * [**Workspaces with Expired Sharing Links**](workspaces-with-expired-sharing-links-admin.md) - **detects workspaces with expired sharing links**; links can be safely removed to reduce clutter and increase security.
 * [**Access Request**](../access-requests/README.md) - provides end-users with the **ability to request access to existing Microsoft Teams & Groups, sites, distribution lists, and security groups in the Microsoft 365 environment**; Syskit Point administrators can define workspaces visible to end-users and who is responsible for the approval of access requests.
 * [**Access Review**](../permissions-review/README.md) - enables Syskit Point admins to enforce regular Access reviews for workspace owners on their workspaces.
-* [**Tenant Storage Limit**](tenant-storage-admin.md) - **detects when total tenant storage usage exceeds the defined percentage.**
+* [**Tenant Storage Limit**](tenant-storage-admin.md) - **detects when your active SharePoint storage exceeds the defined percentage of your active storage quota.**
 * [**Workspaces with Shadow Users**](shadow-users-admin.md) - **detects users that have access to specific content but are not members** of the Microsoft 365 Group or Team associated with it.
 * [**Workspaces with Too Many Members**](workspaces-with-too-many-members-admin.md) - **detects which workspaces have more than the maximum number of members** predefined by your organization's policies.
 

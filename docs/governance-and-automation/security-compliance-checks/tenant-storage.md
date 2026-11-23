@@ -24,9 +24,9 @@ The Tenant Storage Limit screen opens, **showing the Tenant Storage Limit vulner
 The report provides information on:
   * **Name (1)** of the policy
   * **Detected (2)** - when the policy vulnerability was detected
-  * **Used Storage % (3)** - the percentage of storage that is used
-  * **Used (4)** - the amount of storage that is used
-  * **Total (5)** - the total amount of storage available
+  * **Active Storage % (3)** - the percentage of active storage that is used
+  * **Active Storage (4)** - the amount of active storage that is used
+  * **Active Storage Quota (5)** - the total amount of active storage available
   * **Potential Savings (Number of Versions) (6)** - the amount of storage that can be saved by cleaning up the X number of versions
     * X can be set by going to Syskit Point > Settings > Storage Management 
   * **Potential Savings (Old Versions) (7)** - the amount of storage that can be saved by cleaning up a certain number of versions

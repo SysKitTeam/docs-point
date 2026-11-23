@@ -6,6 +6,17 @@ description: >-
 
 # Complete Access Review Tasks
 
+:::warning
+
+**Automated Access Review is evolving into [Workspace Review](../workspace-review/workspace-review-overview.md)**, a more powerful solution that covers not only access but also ownership, privacy, sensitivity, and overall workspace security. 
+
+**⚠️ Note: Access Review will be retired in January 2027**. For a richer governance experience, we recommend completing your current reviews and then moving to Workspace Review. To learn how, see the [Migrate from Access Review to Workspace Review](../../governance-and-automation/permissions-review/migrate-from-access-review-to-workspace-review.md) article. 
+
+**New to Syskit Point?** Your Syskit Point instance comes with **Workspace Review** instead of Access Review. Access Review remains available only in Syskit Point instances that already had it enabled. 
+
+You can learn more in the [Workspace Review documentation](../workspace-review/).
+:::
+
 **Access review**, in the context of the Microsoft 365 environment, is an activity where a person responsible for a Microsoft 365 workspace verifies whether permissions are given to users inside (internal) and outside (external) of the company, and comply with the organizational rules and guidelines.
 
 Some examples of such Microsoft 365 workspaces are:
@@ -271,17 +282,7 @@ The Access Review cycle will repeat based on the schedule defined by the Syskit 
 
 * **Watch this short video for a quick start on Access Review tasks in Syskit Point**.
 
-<div style={{position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000'}}>
-  <iframe 
-    src="https://www.youtube.com/embed/Jku8GqPifvI?si=anlKSJvVP9m2bjfj" 
-    title="YouTube video player" 
-    frameBorder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    referrerPolicy="strict-origin-when-cross-origin" 
-    allowFullScreen
-    style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}
-  />
-</div>
+<YouTubeEmbed videoId="Jku8GqPifvI" />
 
 ## Related Topics
 

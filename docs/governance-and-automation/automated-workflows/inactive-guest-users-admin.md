@@ -4,7 +4,7 @@ description: This article explains how to activate the Inactive Guest Users poli
 
 # Inactive Guest Users
 
-Syskit Point provides a predefined **Inactive Guest Users policy** that is applied tenant-wide. 
+Syskit Point provides a predefined **Inactive Guest Users policy** that is applied tenant-wide. This policy applies only to guest users that have an Azure AD account. Ad hoc external users are outside its scope.
 
 To activate the policy, navigate to the Policies settings screen and **click the Edit Policy (1)** icon.
 

@@ -6,7 +6,7 @@ description: This article explains how to edit the Tenant Storage Limit policy.
 
 Syskit Point provides a predefined **Tenant Storage Limit** that is applied tenant-wide and cannot be deleted. 
 
-The Tenant Storage policy monitors your storage usage within your tenant and proactively notifies you when you approach a critical limit. This helps mitigate the risk of running out of storage. 
+The Tenant Storage policy monitors your active storage against your active storage quota and proactively notifies you when you approach a critical limit. This helps mitigate the risk of running out of storage. 
 
 To edit the policy, navigate to the Policies settings screen and **click the Edit Policy (1)** icon.
 

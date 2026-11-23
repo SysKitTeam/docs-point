@@ -1,0 +1,99 @@
+---
+description: This article explains what Microsoft's hero links are, how they work, and where you can see them in Syskit Point.
+---
+
+# Hero Links
+
+**Hero links** are Microsoft's new sharing experience for SharePoint and OneDrive, where each file or folder uses a **single, reusable link that controls all access to it**. In Syskit Point, this link is usually referred to as the **main link**.
+
+Instead of creating a new link every time content is shared with a different person or audience, the same main link is reused whenever you **copy a link, share by e-mail, or use the file URL**. This removes the need to create, delete, and manage multiple links for the same file and makes sharing simpler to understand and manage.
+
+Whether you click **Copy Link**, add access for new people, or send an e-mail, it is the same main link in the background.
+
+In the SharePoint and OneDrive interface, there is no separate *main link* or *hero link* label. This is presented as the **file or folder link settings**.
+
+Here are the key characteristics of how the hero/main link works:
+
+* By default, access is set to `Only people added`, which means only the people listed can access the file
+* Adding someone to the list of people gives them access through the same main link; in the background, access is granted directly on the file or folder
+* Changing the link setting to `People in your org` does not change the link or URL, but it changes who can access the file using it
+* Resetting the link deletes the current link and generates a new URL
+
+### Hero Links Explained
+
+* **Watch this 2-minute video to learn what hero links are and how the new sharing experience works in SharePoint and OneDrive.**
+
+<YouTubeEmbed videoId="5M8uJ9O2Jks" />
+
+## Hero Links vs. Classic Sharing Links
+
+In the classic sharing model, each time a user shared a file with a different audience, SharePoint often generated a new sharing link. Over time, a single file could accumulate many sharing links, each containing a different permission scope.
+
+With main links, a single link per file replaces that and reduces the number of links pointing to the same file.
+
+**Existing sharing links and permissions continue to work.** The experience for creating new classic-style sharing links is changing: it is less prominent and is available behind the three-dot menu.
+
+:::info
+
+For more details on Microsoft's new sharing experience, take a look at the following article: [The new sharing experience is coming to SharePoint Online: What admins need to know](https://techcommunity.microsoft.com/blog/microsoftmissioncriticalblog/the-new-sharing-experience-is-coming-to-sharepoint-online-what-admins-need-to-kn/4539859).
+
+:::
+
+## Main Links in Syskit Point
+
+Syskit Point recognizes main links and surfaces them across its link-based reports and tasks, so you can tell them apart from classic sharing links and see how each file or folder is shared.
+
+The following reports include a **Sharing link type** column, which shows whether a link is the main link of a file or folder or another type of link:
+
+* **Sharing Links report** - see the [Sharing Links report](external-sharing-reports.md#sharing-links)
+* **User Access report** - see the [User Access report](access-reports.md#user-access-report)
+* **Workspace Review Sharing step** - main links are marked across the sharing sections; see the [Workspace Review Sharing step](../point-collaborators/workspace-review/sharing-step.md)
+
+On the User Access report and in the Workspace Review Sharing step, the **Sharing link type** column is hidden by default but can be selected from the column chooser.
+
+On the **User Access report**, the **Details** column also shows when a user's access comes from a main link, for example, **Main Link (People in your org)**. This is also shown in exported reports and Workspace Review tasks.
+
+On the following reports, main links have their own icon, are named **Main Link (Anyone)** or **Main Link (People in your org)**, and are always listed first under their file or folder. These reports also include a **Main link setting** column, which shows the main link's setting for the file or folder, such as `Only people added`, `People in your org`, or `Anyone`. The **Main link setting** column is shown by default on these reports:
+
+* **Permissions Matrix report** - see the [Permissions Matrix report](access-reports.md#permissions-matrix-report)
+* **Externally Shared Content report** - see the [Externally Shared Content report](external-sharing-reports.md#externally-shared-content)
+
+The following reports also include the **Main link setting** column, which is hidden by default but can be selected from the column chooser:
+
+* **Unique Permissions report** - see the [Unique Permissions report](access-reports.md#unique-permissions-report)
+* **Site Structure report** - see the [Site Structure report](analytics-reports.md#site-structure-report)
+
+The following site metrics are also affected by the new sharing model: 
+
+* The **Anonymous Links** and **Company-Wide Links** metrics count files and folders that have the file or folder link setting set to `Anyone` or `People in your org`. 
+  * You can see these metrics on the [Sites overview](../microsoft365-inventory/sites.md) screen.
+
+* You can also see `Anyone` main links in the **Anonymous Access Links report**, even before they are used.
+  * From this report, you can run the **Remove Sharing Link** action on Anyone links and the **Restrict Link Access** action on Anyone main links.
+
+
+:::info
+
+**Please note!**  
+* Since SharePoint does not allow deleting a hero/main link, you can only run the **Restrict Link Access** action on main links, which removes access for everyone except the people you shared the link with directly.
+* **Restrict Link Access** applies to organization-wide and Anyone main links and reverts their sharing so that only people who were already added keep access; it is available from the **Sharing Links**, **Permissions Matrix**, **User Access**, and **Externally Shared Content** reports.
+* On the **Sharing Links** and **Permissions Matrix** reports, **Restrict Link Access** is also available on file and folder rows whose main link setting is `Anyone` or `People in your org`, so you can restrict the main link directly from the file or folder.
+  * Selecting multiple files or folders lets you restrict their main links at once.
+  * You can also run the action from the **Manage** menu on the file or folder details screen, unless the main link setting is inherited from a parent folder.
+* The confirmation dialog shows who can access the item through the main link before and after the change.
+
+:::
+
+### Main Links on File and Folder Details
+
+The **General Info** section on the file and folder details screens shows the **Main link setting** of the file or folder, such as `People in your org` or `Anyone`. This is the same value shown on reports, including a setting inherited from a parent folder.
+
+* Files and folders without a main link setting don't show a value
+* The **Restrict Link Access** action is available in the **Manage** menu when the file or folder has its own main link set to `Anyone` or `People in your org`
+  * The action is not shown when the main link setting is inherited from a parent folder
+
+## Related Articles
+
+* [External Sharing Reports](external-sharing-reports.md)
+* [Access Reports](access-reports.md)
+* [Workspace Review Sharing](../point-collaborators/workspace-review/sharing-step.md)

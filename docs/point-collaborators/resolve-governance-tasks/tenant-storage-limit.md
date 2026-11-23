@@ -35,12 +35,15 @@ Along with the e-mail, **Syskit Point creates a policy vulnerability task** that
 
 The following are available on the task screen:
 * The **information box (1) that explains what actions can be completed to resolve the task** and ensure your tenant storage drops below the limit predefined by the policy:
-  * Adding additional storage
   * Optimizing your current storage
-  * Or increasing the Tenant Storage Limit policy percentage 
+  * Archiving eligible inactive content via Microsoft 365 Archive, which moves it out of your active storage
+  * Increasing the Tenant Storage Limit policy percentage
+  * Or adding additional storage
+    * Purchasing more storage is not needed if optimizing or archiving brings your active storage below the quota
 * **Tenant information on your storage (2)**:
-  * Storage used shown as amount and percentage
-  * Total tenant storage available shown as amount and percentage
+  * Active Storage shown as amount and percentage
+  * Active Storage Quota shown as amount and percentage
+    * Archived content is excluded from these figures
 * **View Report button (3)** which redirects you to the [Storage Metrics Report](../../storage-management/storage-reports.md#storage-metrics)
 * **Add Storage button (4)** which redirects you to [Microsoft documentation](https://learn.microsoft.com/en-us/microsoft-365/commerce/add-storage-space?view=o365-worldwide) detailing how to add storage through Microsoft
 

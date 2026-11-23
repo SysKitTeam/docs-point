@@ -77,7 +77,10 @@ The following destinations must be permitted through your firewall:
 | Protocol | Host | Port | Description |
 |----------|------|------|-------------|
 | HTTPS | my.syskit.com | 443 | Syskit portal for license activation and "Check for updates" functionality, hosted in Azure West Europe. |
+| HTTPS | subscriptions.syskit.com | 443 | Syskit portal for license activation and subscription management, hosted in Azure US East. |
 | HTTPS | downloads.syskit.com | 443 | Required for future updates, hosting the deployment packages. |
+| HTTPS | papi.syskit.com | 443 | Syskit utility endpoint. |
+| HTTPS | assets.syskit.com | 443 | Syskit content delivery endpoint. |
 | HTTPS | dc.applicationinsights.azure.com | 443 | Application Insights, owned by Syskit, is used for critical error reporting and performance metrics. https://docs.microsoft.com/en-us/azure/azure-monitor/app/ip-addresses |
 | HTTPS | dc.applicationinsights.microsoft.com | 443 | -\\|\\|- |
 | HTTPS | *.in.applicationinsights.azure.com | 443 | -\\|\\|- |
@@ -87,6 +90,7 @@ The following destinations must be permitted through your firewall:
 | HTTPS | login.microsoftonline.com | 443 | Azure AD login endpoint to get access tokens necessary for API calls. |
 | HTTPS | graph.microsoft.com | 443 | Microsoft [Graph API](https://docs.microsoft.com/en-us/graph/) endpoint. |
 | HTTPS | manage.office.com | 443 | [Office 365 Management API](https://docs.microsoft.com/en-us/office/office-365-management-api/office-365-management-apis-overview) endpoint. |
+| HTTPS | outlook.office.com | 443 | Exchange Online endpoint. |
 | HTTPS | \{YourDomain\}-admin.sharepoint.com | 443 | Admin portal of your tenant. |
 | HTTPS | \{YourDomain\}.sharepoint.com | 443 | SharePoint Online sites of your tenant. |
 | HTTPS | \{YourDomain\}-my.sharepoint.com | 443 | OneDrive's location for your tenant. |

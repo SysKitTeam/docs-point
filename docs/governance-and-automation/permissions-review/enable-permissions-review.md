@@ -10,9 +10,11 @@ description: >-
 
 **Automated Access Review is evolving into [Workspace Review](../workspace-review/setup-workspace-review.md)**, a more powerful solution that covers not only access but also ownership, privacy, sensitivity, and overall workspace security. 
 
-**⚠️ Note: Access Review will be retired in January 2027**. For a richer governance experience, we recommend completing your current reviews and then moving to Workspace Review. 
+**⚠️ Note: Access Review will be retired in January 2027**. For a richer governance experience, we recommend completing your current reviews and then moving to Workspace Review. To learn how, see the [Migrate from Access Review to Workspace Review](migrate-from-access-review-to-workspace-review.md) article.
+ 
+**New to Syskit Point?** Your Syskit Point instance comes with **Workspace Review** instead of Access Review. Access Review remains available only in Syskit Point instances that already had it enabled. To review access and permissions going forward, take a look at the [Workspace Review](../workspace-review/setup-workspace-review.md) article. 
 
-Learn more in the [Workspace Review documentation](../workspace-review/).
+You can learn more in the [Workspace Review documentation](../workspace-review/).
 :::
 
 To use the advantages of Automated Access Review in Syskit Point, first, you need to:
@@ -102,4 +104,4 @@ For more information about role-based access in Syskit Point, go to the [followi
 
 Once you are finished with the e-mail and Collaborators role configuration, continue to the [Create and Apply Access Review Policies](create-apply-access-review-policies.md) article.
 
-For information on Syskit Point Collaborators completing Access Review tasks, take a look at the [Perform Access Review Tasks article](../../point-collaborators/resolve-governance-tasks/access-review.mdx).
+For information on Syskit Point Collaborators completing Access Review tasks, take a look at the [Perform Access Review Tasks article](../../point-collaborators/resolve-governance-tasks/access-review.md).

@@ -15,6 +15,9 @@ The two types of external users you can track in Syskit Point are **Ad Hoc Exter
     * For example, you've outsourced an agency to do your branding and they require access to certain documents and files in order to complete their job. This would make them an Ad Hoc external user as they do not belong to your organization but need temporary access to certain files.
 * You can distinguish Ad Hoc Users by their username that starts with `urn:spo:guest#`, for example, `urn:spo:guest#johndoe@gmail.com`.
     * You can also use the External User Type column on the Users Overview screen to filter out Ad Hoc Users.
+* Because they don't have an Azure AD account, their Last Tenant Log In value is based on their most recent activity recorded in the Microsoft 365 audit log, not on Azure AD sign-in data.
+* Ad Hoc Users are no longer supported by Microsoft and can no longer be used to access files. Existing Ad Hoc Users might still appear in your reports, but their access is blocked.
+* Ad Hoc Users are not evaluated by the tenant-wide [Inactive Guest Users policy](../governance-and-automation/automated-workflows/inactive-guest-users-admin.md).
 
 **Guest Users** 
 * Users who have an identity/guest account in your Azure AD directory.
@@ -23,6 +26,7 @@ The two types of external users you can track in Syskit Point are **Ad Hoc Exter
     * Let's say you hired a freelance developer to help you maintain your website. While this person might not work for your organization directly, they are hired long-term and might require access to more workspaces than a short-term hire would. 
 * Guest User's username contains `#EXT#` string in their username, for example, `johndoe_gmail.com#EXT#@contoso.onmicrosoft.com`.
     * You can also use the External User Type column on the Users Overview screen to filter out Guest Users.
+* Their Last Tenant Log In value reflects their latest Azure AD sign-in activity, whether they signed in themselves or were signed in automatically in the background.
 
 Keeping track of your external users and their activity is vital in order to ensure a safe and secure collaborative environment. 
 

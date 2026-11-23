@@ -1,4 +1,4 @@
-﻿---
+---
 description: >-
   This article explains how Global Administrators can reconsent and provides a
   list of permission changes in Syskit Point app registrations through versions.
@@ -58,6 +58,101 @@ After clicking the Manage Connection button, you can expect the following to hap
 
 Depending on which version you are upgrading to, below you can find the list of changes in permissions requested and which features depend on them.
 
+### Syskit Point Enterprise 2026.3.162
+
+With the introduction of AI agent actions, a new permission is added to the following app registration when the Global Administrator grants access in the AI Agents settings.
+
+:::warning
+**Please note!**
+
+* **The permission is added only if AI Agents is configured.** Customers who don't use AI Agents do not need to grant any new permissions.
+* The **CopilotStudio.AdminActions.Invoke** permission is used **only when you run an agent action** in Syskit Point. Agent actions run with the signed-in user's own rights, Syskit Point does not increase them.
+
+:::
+
+**The following permission is added to the existing Syskit Point app registration**:
+
+| App Registration | Permission Name | Reason |
+| --- | --- | --- |
+| Syskit Point Client | Power Platform API/[CopilotStudio.AdminActions.Invoke](https://learn.microsoft.com/en-us/power-platform/admin/programmability-permission-reference) | Allows you to block, unblock, reassign, and delete Copilot Studio and Agent Builder agents in Syskit Point. |
+
+[Take a look at the Permission Requirements article for more details on AI Agents permissions.](permission-requirements.md#ai-agents)
+
+
+### Syskit Point Cloud 2026.3.162
+
+With the introduction of AI agent actions, a new permission is added to the following app registration when the Global Administrator grants access in the AI Agents settings.
+
+:::warning
+**Please note!**
+
+* **The permission is added only if AI Agents is configured.** Customers who don't use AI Agents do not need to grant any new permissions.
+* The **CopilotStudio.AdminActions.Invoke** permission is used **only when you run an agent action** in Syskit Point. Agent actions run with the signed-in user's own rights, Syskit Point does not increase them.
+
+:::
+
+**The following permission is added to the existing Syskit Point app registration**:
+
+| App Registration | Permission Name | Reason |
+| --- | --- | --- |
+| Syskit Point Client | Power Platform API/[CopilotStudio.AdminActions.Invoke](https://learn.microsoft.com/en-us/power-platform/admin/programmability-permission-reference) | Allows you to block, unblock, reassign, and delete Copilot Studio and Agent Builder agents in Syskit Point. |
+
+[Take a look at the Permission Requirements article for more details on AI Agents permissions.](permission-requirements.md#ai-agents)
+
+### Syskit Point Enterprise 2026.3.159
+
+With the introduction of AI Agents, new permissions are added to the following app registration when the Global Administrator configures AI Agents and grants access in the AI Agents settings.
+
+:::warning
+**Please note!**
+
+* **Permissions are added only if AI Agents is configured.** Customers who don't use AI Agents will not receive any prompts and do not need to grant any new permissions.
+* Syskit Point uses these permissions with the connected **service account**, which must have the **Power Platform Administrator** role.
+* Syskit Point uses the **CopilotStudio.MinimalBot.ReadWrite** permission **solely to read agent data**, such as agent components and knowledge sources. **Syskit Point does not change your agents** with this permission.
+* The PowerAppManagementApp registration is not visible in the Microsoft Entra interface. To manage it, you can run the related PowerShell cmdlets described in the following articles:
+  * [Get-PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/get-powerappmanagementapp?view=pa-ps-latest)
+  * [Remove-PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/remove-powerappmanagementapp?view=pa-ps-latest)
+
+:::
+
+**The following permissions are added to the existing Syskit Point app registration**:
+
+| App Registration | Permission Name | Reason |
+| --- | --- | --- |
+| Syskit Point Client | [PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/new-powerappmanagementapp) | Registers Syskit Point as a Power Platform management application, which allows Syskit Point to read Copilot Studio and Agent Builder agents across your tenant. |
+| Syskit Point Client | Dynamics CRM/[user_impersonation](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/walkthrough-register-app-azure-active-directory) | Allows Syskit Point to read Copilot Studio agents across your tenant. |
+| Syskit Point Client | Power Platform API/[ResourceQuery.Resources.Read](https://learn.microsoft.com/en-us/power-platform/admin/programmability-permission-reference) | Allows Syskit Point to query Agent Builder agents across your tenant. |
+| Syskit Point Client | Power Platform API/CopilotStudio.MinimalBot.ReadWrite | Allows Syskit Point to read and write minimal bot resources for Copilot Studio agents across your tenant. Additionally, it allows Syskit Point to load Agent Builder agent components, such as knowledge sources. |
+
+[Take a look at the Permission Requirements article for more details on AI Agents permissions.](permission-requirements.md#ai-agents)
+
+### Syskit Point Cloud 2026.3.159
+
+With the introduction of AI Agents, new permissions are added to the following app registration when the Global Administrator configures AI Agents and grants access in the AI Agents settings.
+
+:::warning
+**Please note!**
+
+* **Permissions are added only if AI Agents is configured.** Customers who don't use AI Agents will not receive any prompts and do not need to grant any new permissions.
+* Syskit Point uses these permissions with the connected **service account**, which must have the **Power Platform Administrator** role.
+* Syskit Point uses the **CopilotStudio.MinimalBot.ReadWrite** permission **solely to read agent data**, such as agent components and knowledge sources. **Syskit Point does not change your agents** with this permission.
+* The PowerAppManagementApp registration is not visible in the Microsoft Entra interface. To manage it, you can run the related PowerShell cmdlets described in the following articles:
+  * [Get-PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/get-powerappmanagementapp?view=pa-ps-latest)
+  * [Remove-PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/remove-powerappmanagementapp?view=pa-ps-latest)
+
+:::
+
+**The following permissions are added to the existing Syskit Point app registration**:
+
+| App Registration | Permission Name | Reason |
+| --- | --- | --- |
+| Syskit Point Client | [PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/new-powerappmanagementapp) | Registers Syskit Point as a Power Platform management application, which allows Syskit Point to read Copilot Studio and Agent Builder agents across your tenant. |
+| Syskit Point Client | Dynamics CRM/[user_impersonation](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/walkthrough-register-app-azure-active-directory) | Allows Syskit Point to read Copilot Studio agents across your tenant. |
+| Syskit Point Client | Power Platform API/[ResourceQuery.Resources.Read](https://learn.microsoft.com/en-us/power-platform/admin/programmability-permission-reference) | Allows Syskit Point to query Agent Builder agents across your tenant. |
+| Syskit Point Client | Power Platform API/CopilotStudio.MinimalBot.ReadWrite | Allows Syskit Point to read and write minimal bot resources for Copilot Studio agents across your tenant. Additionally, it allows Syskit Point to load Agent Builder agent components, such as knowledge sources. |
+
+[Take a look at the Permission Requirements article for more details on AI Agents permissions.](permission-requirements.md#ai-agents)
+
 
 ### Syskit Point Enterprise 2026.1.130
 
@@ -80,7 +175,7 @@ Depending on which version you are upgrading to, below you can find the list of 
 
 | App Registration | API/Permission Name | Permission | Type | Reason |
 | ----- | ----- | ----- | ----- | ----- |
-| Syskit Point Service | MailboxSettings.Read | Read mailbox settings | Application | Allows Syskit Point to read user's mailbox settings without a signed-in user. This does not grant Syskit Point the ability to read or send emails. The permission is used solely to read mailbox settings in order to detect the user type (user, equipment, or room) shown on License reports. |
+| Syskit Point Service | [MailboxSettings.Read](https://learn.microsoft.com/en-us/graph/permissions-reference#mailboxsettingsread) | Read all user mailbox settings | Application | Allows Syskit Point to read user's mailbox settings without a signed-in user. This does not grant Syskit Point the ability to read or send emails. The permission is used solely to read mailbox settings in order to detect the user type (user, equipment, or room) shown on License reports. |
 
 
 
@@ -105,7 +200,7 @@ Depending on which version you are upgrading to, below you can find the list of 
 
 | App Registration | API/Permission Name | Permission | Type | Reason |
 | ----- | ----- | ----- | ----- | ----- |
-| Syskit Point Service | MailboxSettings.Read | Read mailbox settings | Application | Allows Syskit Point to read user's mailbox settings without a signed-in user. This does not grant Syskit Point the ability to read or send emails. The permission is used solely to read mailbox settings in order to detect the user type (user, equipment, or room) shown on License reports. |
+| Syskit Point Service | [MailboxSettings.Read](https://learn.microsoft.com/en-us/graph/permissions-reference#mailboxsettingsread) | Read all user mailbox settings | Application | Allows Syskit Point to read user's mailbox settings without a signed-in user. This does not grant Syskit Point the ability to read or send emails. The permission is used solely to read mailbox settings in order to detect the user type (user, equipment, or room) shown on License reports. |
 
 
 ### Syskit Point Enterprise 2026.1.125
@@ -161,8 +256,8 @@ Depending on which version you are upgrading to, below you can find the list of 
 **The following permission is added to the existing Syskit Point app registrations**:
 | App Registration | Permission Name | Reason |
 | ----- | ----- | ----- |
-| Syskit Point Service | Read and write all Viva Engage communities | Allows Syskit Point to provision Viva Engage communities. |
-| Syskit Point Permissions Loader | Read and write all Viva Engage communities | Allows Syskit Point to provision Viva Engage communities. |
+| Syskit Point Service | Read and write all Viva Engage communities ([Community.ReadWrite.All](https://learn.microsoft.com/en-us/graph/permissions-reference#communityreadwriteall)) | Allows Syskit Point to provision Viva Engage communities. |
+| Syskit Point Permissions Loader | Read and write all Viva Engage communities ([Community.ReadWrite.All](https://learn.microsoft.com/en-us/graph/permissions-reference#communityreadwriteall)) | Allows Syskit Point to provision Viva Engage communities. |
 
 ### Syskit Point Cloud 2025.5.114
 **Reconsent is required for customers using Viva Engage community provisioning templates due to permission changes introduced when switching from Viva Engage app registrations to Graph API permissions for Viva Engage community provisioning**.
@@ -177,8 +272,8 @@ Depending on which version you are upgrading to, below you can find the list of 
 **The following permission is added to the existing Syskit Point app registrations**:
 | App Registration | Permission Name | Reason |
 | ----- | ----- | ----- |
-| Syskit Point Service | Read and write all Viva Engage communities | Allows Syskit Point to provision Viva Engage communities. |
-| Syskit Point Permissions Loader | Read and write all Viva Engage communities | Allows Syskit Point to provision Viva Engage communities. |
+| Syskit Point Service | Read and write all Viva Engage communities ([Community.ReadWrite.All](https://learn.microsoft.com/en-us/graph/permissions-reference#communityreadwriteall)) | Allows Syskit Point to provision Viva Engage communities. |
+| Syskit Point Permissions Loader | Read and write all Viva Engage communities ([Community.ReadWrite.All](https://learn.microsoft.com/en-us/graph/permissions-reference#communityreadwriteall)) | Allows Syskit Point to provision Viva Engage communities. |
 
 ### Syskit Point Cloud 2025.2.89
 
@@ -215,7 +310,7 @@ Syskit Point **does not read or save** the content of messages to detect Microso
 <tbody>
 <tr>
 <td>Syskit Point Client</td>
-<td>PowerApps Service/User</td>
+<td>PowerApps Service/<a href="https://learn.microsoft.com/en-us/power-platform/admin/programmability-authentication#api-permissions">User</a></td>
 <td>Access the PowerApps Service API</td>
 <td>Delegated</td>
 <td>Allows you to run Power Platform actions in Syskit Point.</td>
@@ -233,8 +328,8 @@ Permissions are added for the app registration only if the Power Platform data c
 
 | App Registration            | Permission Name       | Reason                                                                                             |
 | --------------------------- | --------------------- | -------------------------------------------------------------------------------------------------- |
-| Syskit Point Client         | PowerAppManagementApp | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data. |
-| Syskit Point Power Platform | PowerAppManagementApp | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data. |
+| Syskit Point Client         | [PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/new-powerappmanagementapp) | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data. |
+| Syskit Point Power Platform | [PowerAppManagementApp](https://learn.microsoft.com/en-us/powershell/module/microsoft.powerapps.administration.powershell/new-powerappmanagementapp) | Allows Syskit Point to access the PowerApps Service API and collect Power Platform resources data. |
 
 :::warning
 **Please note!**\
@@ -253,7 +348,7 @@ To manage the permissions, you can run the related PowerShell cmdlets described 
 
 | App Registration     | API/Permissions Name                         | Permission                                 | Type        | Reason                                                                                                             |
 | -------------------- | -------------------------------------------- | ------------------------------------------ | ----------- | ------------------------------------------------------------------------------------------------------------------ |
-| Syskit Point Service | Microsoft Graph/GroupMember.ReadWrite.All    | Read and write all group memberships       | Application | Allows Syskit Point to add users in Microsoft Entra ID to security groups after an access request is approved by the group owner. |
+| Syskit Point Service | Microsoft Graph/[GroupMember.ReadWrite.All](https://learn.microsoft.com/en-us/graph/permissions-reference#groupmemberreadwriteall) | Read and write all group memberships       | Application | Allows Syskit Point to add users in Microsoft Entra ID to security groups after an access request is approved by the group owner. |
 | Syskit Point Service | Microsoft Graph/RoleManagement.ReadWrite.All | Read and write all directory RBAC settings | Application | Allows Syskit Point to add users in Microsoft Entra ID to security groups after an access request is approved by the group owner. |
 
 ### Syskit Point Enterprise 2023.4.1
@@ -264,7 +359,7 @@ To manage the permissions, you can run the related PowerShell cmdlets described 
 
 | App Registration    | API/Permissions Name                     | Permission                        | Type      | Reason                                                                                         |
 | ------------------- | ---------------------------------------- | --------------------------------- | --------- | ---------------------------------------------------------------------------------------------- |
-| Syskit Point Client | Microsoft Graph/TeamMember.ReadWrite.All | Add and remove members from teams | Delegated | Allows Syskit Point to add newly created users in Microsoft Entra ID to Microsoft Teams and private channels. |
+| Syskit Point Client | Microsoft Graph/[TeamMember.ReadWrite.All](https://learn.microsoft.com/en-us/graph/permissions-reference#teammemberreadwriteall) | Add and remove members from teams | Delegated | Allows Syskit Point to add newly created users in Microsoft Entra ID to Microsoft Teams and private channels. |
 
 ### Syskit Point Cloud - November 02, 2023
 
@@ -274,7 +369,7 @@ To manage the permissions, you can run the related PowerShell cmdlets described 
 
 | App Registration    | API/Permissions Name                     | Permission                        | Type      | Reason                                                                                         |
 | ------------------- | ---------------------------------------- | --------------------------------- | --------- | ---------------------------------------------------------------------------------------------- |
-| Syskit Point Client | Microsoft Graph/TeamMember.ReadWrite.All | Add and remove members from teams | Delegated | Allows Syskit Point to add newly created users in Microsoft Entra ID to Microsoft Teams and private channels. |
+| Syskit Point Client | Microsoft Graph/[TeamMember.ReadWrite.All](https://learn.microsoft.com/en-us/graph/permissions-reference#teammemberreadwriteall) | Add and remove members from teams | Delegated | Allows Syskit Point to add newly created users in Microsoft Entra ID to Microsoft Teams and private channels. |
 
 ### Syskit Point 2023.1
 
@@ -286,8 +381,8 @@ To manage the permissions, you can run the related PowerShell cmdlets described 
 
 | App Registration                | API/Permissions Name | Permission                     | Type        | Reason                                                                                                          |
 | ------------------------------- | -------------------- | ------------------------------ | ----------- | --------------------------------------------------------------------------------------------------------------- |
-| Syskit Point Service            | Exchange.ManageAsApp | Manage Exchange as application | Application | Allows Syskit Point to sync distribution lists and email enabled security groups.                               |
-| Syskit Point Permissions Loader | Exchange.ManageAsApp | Manage Exchange as application | Application | Allows Syskit Point to sync distribution lists and email enabled security groups.                               |
+| Syskit Point Service            | [Exchange.ManageAsApp](https://learn.microsoft.com/en-us/powershell/exchange/app-only-auth-powershell-v2) | Manage Exchange as application | Application | Allows Syskit Point to sync distribution lists and email enabled security groups.                               |
+| Syskit Point Permissions Loader | [Exchange.ManageAsApp](https://learn.microsoft.com/en-us/powershell/exchange/app-only-auth-powershell-v2) | Manage Exchange as application | Application | Allows Syskit Point to sync distribution lists and email enabled security groups.                               |
 | Syskit Point Client             | Exchange.Manage      | Manage Exchange configuration  | Delegated   | Allows Syskit Point users to manage owners and members in distribution lists and email enabled security groups. |
 
 ### Syskit Point 2022.5
@@ -300,8 +395,8 @@ Due to [Outlook REST APIs being fully decommissioned on November 30, 2022](https
 
 | App Registration     | API/Permissions Name           | Permission                           | Type        | Reason                                                                                                                                  |
 | -------------------- | ------------------------------ | ------------------------------------ | ----------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Syskit Point Service | Microsoft Graph/Mail.ReadWrite | Read and write mail in all mailboxes | Application | Allows Syskit Point to send emails as a part of the Access Review, Workspace Review, Inactive Workspaces policy, Scheduled Reports, Alerts, and other features. |
-| Syskit Point Service | Microsoft Graph/Mail.Send      | Send mail as any user                | Application | Allows Syskit Point to send emails as a part of the Access Review, Workspace Review, Inactive Workspaces policy, Scheduled Reports, Alerts, and other features. |
+| Syskit Point Service | Microsoft Graph/[Mail.ReadWrite](https://learn.microsoft.com/en-us/graph/permissions-reference#mailreadwrite) | Read and write mail in all mailboxes | Application | Allows Syskit Point to send emails as a part of the Access Review, Workspace Review, Inactive Workspaces policy, Scheduled Reports, Alerts, and other features. |
+| Syskit Point Service | Microsoft Graph/[Mail.Send](https://learn.microsoft.com/en-us/graph/permissions-reference#mailsend) | Send mail as any user                | Application | Allows Syskit Point to send emails as a part of the Access Review, Workspace Review, Inactive Workspaces policy, Scheduled Reports, Alerts, and other features. |
 
 **The following permissions were removed from the existing Syskit Point service app registration**:
 
@@ -332,9 +427,9 @@ Due to the listed permission changes, **Global Admin is required to re-consent p
 
 | App Registration                | Permissions                          | Type        | Reason                                                                          |
 | ------------------------------- | ------------------------------------ | ----------- | ------------------------------------------------------------------------------- |
-| Syskit Point Service            | Read the members of all channels     | Application | Allows Syskit Point to collect membership data for private and shared channels. |
-| Syskit Point Permissions Loader | Read the members of all channels     | Application | Allows Syskit Point to collect membership data for private and shared channels. |
-| Syskit Point Client             | Add and remove members from channels | Delegated   | Enables users to manage private channels in Syskit Point.                       |
+| Syskit Point Service            | Read the members of all channels ([ChannelMember.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#channelmemberreadall)) | Application | Allows Syskit Point to collect membership data for private and shared channels. |
+| Syskit Point Permissions Loader | Read the members of all channels ([ChannelMember.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#channelmemberreadall)) | Application | Allows Syskit Point to collect membership data for private and shared channels. |
+| Syskit Point Client             | Add and remove members from channels ([ChannelMember.ReadWrite.All](https://learn.microsoft.com/en-us/graph/permissions-reference#channelmemberreadwriteall)) | Delegated   | Enables users to manage private channels in Syskit Point.                       |
 
 Due to the listed permission changes, **Global Admin is required to re-consent permissions**.
 
@@ -358,9 +453,9 @@ Due to the listed permission changes, **Global Admin is required to re-consent p
 
 | App Registration                | Permissions                                                               | Type        | Reason                                                                                                      |
 | ------------------------------- | ------------------------------------------------------------------------- | ----------- | ----------------------------------------------------------------------------------------------------------- |
-| Syskit Point Client             | Read all users' relevant people lists                                     | Delegated   | Allows Syskit Point to display users' relevant people lists in People Picker within Syskit Point Teams app. |
-| Syskit Point Service            | Read files in all site collections                                        | Application | Enables Syskit Point to perform partial site syncs, containing changed files only.                          |
-| Syskit Point Service            | Read all published labels and label policies for an organization          | Application | Enables Syskit Point to sync published sensitivity labels and store them in the database.                   |
+| Syskit Point Client             | Read all users' relevant people lists ([People.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#peoplereadall)) | Delegated   | Allows Syskit Point to display users' relevant people lists in People Picker within Syskit Point Teams app. |
+| Syskit Point Service            | Read files in all site collections ([Files.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#filesreadall)) | Application | Enables Syskit Point to perform partial site syncs, containing changed files only.                          |
+| Syskit Point Service            | Read all published labels and label policies for an organization ([InformationProtectionPolicy.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#informationprotectionpolicyreadall)) | Application | Enables Syskit Point to sync published sensitivity labels and store them in the database.                   |
 | Syskit Point Permissions Loader | Uses the same set of permissions as Syskit Point Service App Registration | Application | Used for optimized SharePoint and OneDrive sync.                                                            |
 | Syskit Point API                | No permissions added                                                      | -           | Used for third-party app integration.                                                                       |
 

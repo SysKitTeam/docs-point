@@ -22,6 +22,10 @@ The Permissions Matrix report gives insight into who has access to which content
 
 It allows viewing site hierarchy and permissions down to the document level.
 
+:::video
+ See the Permissions Matrix Report in action in the [Audit Permissions Across Microsoft 365 Sites video](https://www.youtube.com/watch?v=NiT_0YJVDTU).
+:::
+
 ### Generate Report
 
 * **Click the Reports button**; it is located on left side of your Syskit Point.
@@ -65,6 +69,10 @@ The default columns displayed in the report are:
 * **Name** of the workspace
 * **Permissions levels**; depending on availability, several are shown in your environment.
    * For example **Full Control, Design, Edit, Contribute, Read, Restricted View**
+* **Main link setting**; shows the main link's setting for the file or folder, such as `Only people added`, `People in your org`, or `Anyone`
+
+Main links have their own icon, are named **Main Link (Anyone)** or **Main Link (People in your org)**, and are always listed first under their file or folder.
+* [For more details, take a look at the Hero Links article.](hero-links.md)
       
 There are also additional columns in the **column chooser**, located in the top right corner of the report:
       
@@ -86,6 +94,7 @@ Select the item or user and choose the available action from the side panel.
 Some of the available actions are:
 
 *  **Remove sharing link**
+*  **Restrict Link Access** for main links, and for files and folders whose main link setting is `Anyone` or `People in your org`
 *  **Remove user access**
 *  **Edit user permissions**
 *  **Delete unique permissions**
@@ -96,13 +105,23 @@ The Permissions Matrix report can be **exported as PDF and XLSX files**. There i
 
 With this report, you will see where exactly the user has access and if permissions are given directly or through Microsoft 365 Group, Security group, or SharePoint group.
 
+:::video
+ See the User Access Report in action in the [Review User Access in Microsoft 365 video](https://www.youtube.com/watch?v=f9NKHK8Ijqc).
+:::
+
 ### Generate Report
 
 To generate the User Access report:
 
 * **Click the Reports button**; it is located on left side of your Syskit Point.
 * **Select Permission Reports in the filter**; it can be found in the upper left corner.
-* **Click the User Access report** to be redirected to the options screen.
+* **Click the User Access report** to be redirected to the options screen, the following columns are shown:
+  * Display Name
+  * Username
+  * Department
+  * Sign-in
+  * External
+  * Last Tenant Log In
 * **Select one or multiple users** to include in the report.
    * Click the checkboxes on the left side of the screen. 
 * **Click the Run Report button**.
@@ -123,12 +142,19 @@ The default columns displayed in the report are:
 * **Access**; the permissions level of the user
 * **Given Through**
 * **Details**; shows where the user received the permission from
+  * If the user's access comes from a main link, this is shown as, for example, **Main Link (People in your org)**; this is also shown in exported reports
+  * [For more details, take a look at the Hero Links article.](hero-links.md)
+* **Created On**; shows the date user was created on
+* **Last Tenant Log in**; shows the last time the user signed in to the tenant 
+  * This value comes from the user's Microsoft Entra sign-in activity and reflects their most recent successful sign-in, whether they signed in themselves or were signed in automatically in the background; for ad hoc external users, who have no Microsoft Entra account, it reflects their most recent activity recorded in the Microsoft 365 audit log
       
 The additional columns available in the **column chooser**, located in the top right corner of the report, are:
       
 * **URL**
 * **Object Type**
 * **Site Type**
+* **Sharing link type**; shows whether a link is the main link of a file or folder or another type of link
+  * [For more details, take a look at the Hero Links article.](hero-links.md)
 
 There is a **toggle button** above the grid that changes the data to **show only publicly accessible content**.
 
@@ -139,6 +165,7 @@ Users' access can be **removed and managed** directly from this report. **Select
 Some of the actions are:
 
 *  **Remove user access**
+*  **Restrict Link Access** for main links
 *  **Edit user permissions**
 *  **Remove user/group from SharePoint group**
 *  **Change admins**
@@ -180,6 +207,9 @@ There are additional columns available in the **column chooser**, located in the
       
 * **Object Type**
 * **Unique Permissions**
+* **Main link setting**
+
+[For more details, take a look at the Hero Links article.](hero-links.md)
 
 
 ### Report Actions
@@ -204,6 +234,9 @@ The Group Memberships report shows all members, owners, and guest users across y
 * **Distribution Lists**
 * **Distribution Lists (On-Premises)**
 
+:::video
+ See the Group Memberships Report in action in the [Review Group Memberships in Microsoft 365 video](https://www.youtube.com/watch?v=INXJR9uOwm8).
+:::
 
 The views available when generating the report are the following:
   * Microsoft 365 Groups

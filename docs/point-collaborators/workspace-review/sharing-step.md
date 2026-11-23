@@ -26,8 +26,13 @@ On the task overview screen, you can find information on what is expected of you
 ![Workspace Review - Sharing Step - Overview](../../../static/img/workspace-review-sharing-step-overview.png)
 
 :::warning
-**Please note!**\
-If there are no Sharing Links to report, this step in the review is automatically skipped. Each section that does not have data to report is automatically skipped. 
+
+**Please note the following:**
+* If there are no Sharing Links to report, this step in the review is automatically skipped. Each section that does not have data to report is automatically skipped. 
+ 
+* Since SharePoint does not allow deleting a hero/main link, you can only run the **Restrict Link Access** action on main links, which removes access for everyone except the people you shared the link with directly.
+  * [For more details, take a look at the Hero Links article.](../../reporting/hero-links.md)
+
 :::
 
 
@@ -37,20 +42,23 @@ After **clicking the Review button**, the Remove Expired Links section opens whe
 
 On this screen, you can find the following:
 
-* **Remove All (1)** action button next to the name of the workspace, which removes all blocked shadow users in bulk
+* **Remove All (1)** action button next to the name of the workspace, which removes all expired links
 
 The columns available are: 
 
 * **Name (2)** of the content shared 
-* **Link Type (3)** - the level of sharing given through the link, for example, view-only, password-protected (edit), etc.
-* **Expiration Date (4)** - shows when the link is set to expire
-* **Last Used (5)** - the date the content was last used
-* **Sensitivity label (6)** - shows if there is a sensitivity label assigned to the content
-* **Created On (7)** - shows when the content was originally created
-* **Recommendation (8)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made. The following recommendation could be suggested:
-   * **Expired Links** - expired sharing links are no longer valid. You can safely remove them to reduce clutter and keep your workspace clean and secure 
-* The **Remove Sharing Link (9)** action
+* **Accessible to (3)** - shows who can use the link
+* **Access (4)** - the level of sharing given through the link, for example, view-only, password-protected (edit), etc.
+* **Expiration Date (5)** - shows when the link is set to expire
+* **Last Used (6)** - the date the content was last used
+* **Sensitivity label (7)** - shows if there is a sensitivity label assigned to the content
+* **Link Created On (8)** - shows when the link was created
+* **Recommendation (9)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made. The following recommendation could be suggested:
+   * **Expired Links** - expired sharing links are no longer valid. You can safely remove them to reduce clutter and keep your workspace clean and secure 
+* The **Remove Sharing Link (10)** action
   * Clicking this action opens the Remove Sharing Link modal, where you need to confirm the removal of the sharing link
+
+The **Sharing link type** column, which shows whether a link is the main link of a file or folder or another type of link, is hidden by default but can be selected from the column chooser.
   
 ![Workspace Review - Sharing Step - Expired Links](../../../static/img/workspace-review-sharing-step-expired.png)
 
@@ -58,75 +66,104 @@ Once you've completed the actions you want to take, clicking Next takes you to t
 
 ## Remove Unused Links
 
-On the **Remove Unused Links** sections, you can identify and remove **unused sharing links to ensure links are cleaned up and the workspace remains secure**. 
+In the **Remove Unused Links** section, you can identify and remove **unused sharing links to ensure links are cleaned up and the workspace remains secure**. 
 
 On this screen, you can find the following:
 
 * **Remove All (1)** action button next to the name of the workspace, which removes all unused links
+* **Restrict All (2)** action button, which restricts sharing on main links so that only people who were already added keep access
 
 The columns available are: 
 
-* **Name (2)** of the content 
-* **Link Type (3)** - the level of sharing given through the link, for example, view-only, password-protected (edit), etc.
-* **Expiration Date (4)** - shows when the link is set to expire
-* **Last Used (5)** - the date the content was last used
-* **Sensitivity label (6)** - shows if there is a sensitivity label assigned to the content
-* **Created On (7)** - shows when the content was originally created
-* **Recommendation (8)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made. The following recommendation could be suggested:
+* **Name (3)** - the name of the content
+* **Accessible to (4)** - shows who can use the link
+* **Access (5)** - the level of sharing given through the link, for example, view-only, password-protected (edit), etc.
+* **Expiration Date (6)** - shows when the link is set to expire
+* **Last Used (7)** - the date the content was last used
+  * If a link has no usage date, a tooltip in this column explains why the date is missing
+* **Sensitivity Label (8)** - shows if there is a sensitivity label assigned to the content
+* **Link Created On (9)** - shows when the link was created
+* **Recommendation (10)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made. The following recommendation could be suggested:
    * **Unused Link** - unused links are links that haven't been used in the last 30 days
-* The **Remove Sharing Link (9)** action
+* The **Remove Sharing Link (11)** action
   * Clicking this action opens the Remove Sharing Link modal, where you need to confirm the removal of the sharing link
-  
-![Workspace Review - Sharing Step - Shared with Anyone](../../../static/img/workspace-review-sharing-step-unused.png)
+* The **Restrict Link Access (12)** action, which restricts sharing so that only people who were already added keep access
+
+:::info
+
+**Please note!**  
+Since SharePoint does not allow deleting a hero/main link, you can only run the **Restrict Link Access** action on main links, which removes access for everyone except the people you shared the link with directly.
+
+:::
+
+![Workspace Review - Sharing Step - Unused Links](../../../static/img/workspace-review-sharing-step-unused.png)
 
 Once you've completed the actions you want to take, clicking Next takes you to the next section of this step.
 
 ## Review Anyone Links
 
-On the **Links Shared with Anyone** section, you can review **anyone links to ensure you're not sharing sensitive information with people who shouldn't have access**.
+In the **Review Anyone Links** section, you can review **anyone links to ensure you're not sharing sensitive information with people who shouldn't have access**.
 
 On this screen, you can find the following:
 
 * **Remove All (1)** action button next to the name of the workspace, which removes access to all links shared with anyone
+* **Restrict All (2)** action button, which restricts sharing on main links so that only people who were already added retain access
 
 The columns available are: 
-* **Name (2)** of the content 
-* **Link Type (3)** - the level of sharing given through the link, for example, view-only, password-protected (edit), etc.
-* **Expiration Date (4)** - shows when the link is set to expire
-* **Last Used (5)** - the date the content was last used
-* **Sensitivity label (6)** - shows if there is a sensitivity label assigned to the content
-* **Created On (7)** - shows when the content was originally created
-* **Recommendation (8)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made. The following recommendation could be suggested:
-   * **Expired Links** - expired sharing links are no longer valid, you can safely remove them to reduce clutter and keep your workspace clean and secure 
+* **Name (3)** - the name of the content
+* **Link Type (4)** - the level of sharing given through the link, for example, view-only, password-protected (edit), etc.
+* **Expiration Date (5)** - shows when the link is set to expire
+* **Last Used (6)** - the date the content was last used
+* **Sensitivity Label (7)** - shows if there is a sensitivity label assigned to the content
+* **Link Created On (8)** - shows when the link was created
+* **Recommendation (9)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made. The following recommendations could be suggested:
+   * **Expired Link** - expired sharing links are no longer valid, so you can remove them to reduce clutter and keep your workspace clean and secure
    * **Unused Link** - unused links are links that haven't been used in the last 30 days
-* The **Remove Sharing Link (9)** action
+* The **Remove Sharing Link (10)** action
   * Clicking this action opens the Remove Sharing Link modal, where you need to confirm the removal of the sharing link
-  
+* The **Restrict Link Access (11)** action, which restricts sharing so that only people who were already added keep access
+
+:::info
+
+**Please note!**  
+Since SharePoint does not allow deleting a hero/main link, you can only run the **Restrict Link Access** action on main links, which removes access for everyone except the people you shared the link with directly.
+
+:::
+
 ![Workspace Review - Sharing Step - Shared with Anyone](../../../static/img/workspace-review-sharing-step-anyone.png)
 
 Once you've completed the actions you want to take, clicking Next takes you to the next section of this step.
 
 ## Review Links Shared with People in Your Organization
 
-On the **Links Shared with People in Your Organization** section, you can review **links to ensure you're only sharing information that everyone in your organization should see**.
+In the **Review Links Shared with People in Your Organization** section, you can review **links to ensure you're only sharing information that everyone in your organization should see**.
 
 On this screen, you can find the following:
 
 * **Remove All (1)** action button next to the name of the workspace, which removes access to all links shared with people in your organization
+* **Restrict All (2)** action button, which restricts sharing on applicable links so that only people who were already added keep access
 
 The columns available are: 
 
-* **Name (2)** - of the content 
-* **Company-Wide Link Type (3)** - the level of sharing given through the link, for example, can edit, view-only, etc.
-* **Expiration Date (4)** - shows when the link is set to expire
-* **Last Used (5)** - shows when the link was last used
-* **Sensitivity label (6)** - shows if there is a sensitivity label assigned to the content
-* **Created On (7)** - shows when the content was originally created
-* **Recommendation (8)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made. The following recommendation could be suggested:
-   * **Expired Links** - expired sharing links are no longer valid, you can safely remove them to reduce clutter and keep your workspace clean and secure 
+* **Name (3)** - the name of the content
+* **Company-Wide Link Type (4)** - the level of sharing given through the link, for example, can edit, view-only, etc.
+* **Expiration Date (5)** - shows when the link is set to expire
+* **Last Used (6)** - shows when the link was last used
+* **Sensitivity Label (7)** - shows if there is a sensitivity label assigned to the content
+* **Link Created On (8)** - shows when the link was created
+* **Recommendation (9)** - this section provides a recommendation from Syskit Point on what actions should be taken if there are any notable recommendations to be made. The following recommendations could be suggested:
+   * **Expired Link** - expired sharing links are no longer valid, so you can remove them to reduce clutter and keep your workspace clean and secure
    * **Unused Link** - unused links are links that haven't been used in the last 30 days
-* **Remove Sharing Link (9)** action
+* The **Remove Sharing Link (10)** action
   * Clicking this action opens the Remove Sharing Link modal, where you need to confirm the removal of the sharing link
+* The **Restrict Link Access (11)** action, which restricts sharing so that only people who were already added keep access
+
+:::info
+
+**Please note!**  
+Since SharePoint does not allow deleting a hero/main link, you can only run the **Restrict Link Access** action on main links, which removes access for everyone except the people you shared the link with directly.
+
+:::
 
 ![Workspace Review - Sharing Step - Shared with Your Organization](../../../static/img/workspace-review-sharing-step-organization.png)
 
@@ -143,21 +180,26 @@ If the Review All Shared Files option was selected for this policy, after clicki
 
 Here you can find the information: 
 
-* On the left side, there are three **filters (1)** you can use to view the list with:
-  * **All** files 
-  * **Internal** shows only internally shared files
-  * **External** shows only externally shared files
+* Use the **filters (1)** on the left to view **All** files or only **Externally Shared** files
 
 The columns available are: 
 
-* **Name (2)** - of the files 
+* **Name (2)** - the name of the file or folder
 * **Access (3)** - the level of access given for that file
 * **Given Through (4)** - shows how the file was shared
-* **Sensitivity label (5)** - shows if there is a sensitivity label assigned to the file
-* **Remove Sharing Link (6)** action
+* **Sensitivity Label (5)** - shows if there is a sensitivity label assigned to the file
+* The **Remove Sharing Link (6)** action
   * Clicking this action opens the Remove Sharing Link modal, where you need to confirm the removal of the sharing link
-* **Remove Access (7)** action
-  * Clicking this opens the Remove Access modal, where you need to confirm the removal of access for this user
-  * This action removes access for that specific user to the file that was shared
+* The **Remove Access (7)** action, which removes access for users and groups granted direct access to a file or folder
+* The **Restrict Link Access (8)** action, which restricts sharing so that only people who were already added keep access
+
+Main links are marked in this section and are always listed first under their file or folder. [For more details, take a look at the Hero Links article.](../../reporting/hero-links.md)
+
+:::info
+
+**Please note!**  
+Since SharePoint does not allow deleting a hero/main link, you can only run the **Restrict Link Access** action on main links, which removes access for everyone except the people you shared the link with directly.
+
+:::
 
 ![Workspace Review - Sharing Step - Review All Shared Files](../../../static/img/workspace-review-sharing-step-all.png)

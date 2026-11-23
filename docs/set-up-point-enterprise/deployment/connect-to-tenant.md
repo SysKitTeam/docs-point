@@ -79,7 +79,11 @@ On the **Connect Tenant** page, you can choose which information you would like 
 
 * **Automatic Discovery** – by default, Syskit Point continuously monitors your Microsoft 365 environment and shows you the latest data. You cannot modify this setting.
 * **Autodiscover OneDrive (1)** – by default, Syskit Point will collect information and report on the users' OneDrive activity, content, and sharing. To stop collecting OneDrive data, uncheck this option.
-* **Protect OneDrive privacy (2)** – When enabled, Syskit Point will only show general information about the user's OneDrive, such as used storage. Syskit Point Admins won't be able to access any OneDrive content and personal data. By default, this option is disabled.
+* **Protect OneDrive privacy (2)** – Controls whether Syskit Point syncs OneDrive content and personal data. By default, this option is disabled.
+  * When enabled, Syskit Point stops collecting OneDrive content and personal data (files, sharing activity, and permissions), and only general information such as used storage keeps being shown.
+  * This setting does not hide OneDrive data from Syskit Point Admins — it only stops syncing new OneDrive data.
+  * If the setting was enabled and then disabled again, previously collected OneDrive data stays visible. To remove it, [contact Syskit support](https://support.syskit.com/hc/en-us/requests/new?ticket_form_id=21891417027473).
+  * When running Workspace Review on OneDrive, this option should be disabled.
 * **Store audit logs (3)** – Syskit Point will also collect all audit logs to monitor internal and external user activities and changes and store them on a hard drive. To stop storing audit logs, uncheck this option.
 * **Protect user privacy (4)** - When enabled, user activity data will be hidden from Syskit Point and protected from Administrator supervision. By default, this option is disabled.
 

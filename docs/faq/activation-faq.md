@@ -12,7 +12,7 @@ For customers using our Point Cloud versions, the activation is automatic after 
 
 ## Who will be required to activate their products?
 
-The user who deployed Syskit Point will be required to activate the product. To activate the product, use the license key provided in the Syskit [customers portal](https://my.syskit.com/). 
+The user who deployed Syskit Point will be required to activate the product. To activate the product, use the license key provided in the [Subscriptions Portal](https://subscriptions.syskit.com/). 
 
 For customers using our Point Cloud versions, the activation is automatic after you purchase the subscription. 
 
@@ -33,6 +33,18 @@ We use the information only to verify that your product is used within the scope
 ## Why does Syskit require its customers to activate the software?
 
 Product activation is a simple way to reduce and deter unauthorized use and casual copying of Syskit products with minimal effect on our loyal customers. 
+
+## What contact information do I need to provide?
+
+After your license is activated, you are asked to provide contacts for four roles: Primary, Technical, Billing, and Legal. For each role, please enter a valid e-mail address. You can add more than one e-mail address per role. 
+
+## Do I need to provide contacts during the free trial?
+
+No. During the free trial, we only contact the person who started the trial. You are asked to provide your account contacts once your Point license is activated. 
+
+## How often do I need to confirm my contacts?
+
+We ask you to confirm your contacts once a year. When it is time to review them, you are reminded with a banner in Syskit Point. You can review and update your contacts anytime under **Settings** > **General** > **Syskit Point Subscription** > **Points of Contact**.
 
 ## How long does the product activation take to complete?
 

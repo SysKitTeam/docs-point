@@ -81,6 +81,9 @@ Once the report has been successfully generated, the following data will be avai
 * **Last Modified**; shows the exact date the site was last modified.
 * **Created On**; shows the exact date when someone created the site or some of its structure.
 
+The **Main link setting** column, which shows the main link's setting for files and folders, is hidden by default but can be selected from the column chooser.
+* [For more details, take a look at the Hero Links article.](hero-links.md)
+
 The Site Structure report can be **exported as PDF and XLSX files**. There is also the **option to schedule the report**.
 
 

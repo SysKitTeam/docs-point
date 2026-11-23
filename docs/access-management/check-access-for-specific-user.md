@@ -30,6 +30,12 @@ Some of them are:
 * To check if some external collaborators have access to something they shouldn’t have.
 * When reorganizing your environment \(**removing users** from certain **security groups** or **changing permissions** for specific users in your environment\).
 
+### Review User Access in Microsoft 365
+* **Watch this 3-minute video to quickly identify where a specific user has access, understand how that access was granted, and review permissions that may require action.**
+
+<YouTubeEmbed videoId="f9NKHK8Ijqc" />
+
+
 ## How to
 
 ### Generate User Access Report
