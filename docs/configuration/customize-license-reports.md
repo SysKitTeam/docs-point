@@ -61,7 +61,7 @@ To make the License reports visible for Syskit Point Collaborators :
 When the **Give users access to license reports option (2)** is enabled, Syskit Point Collaborators can access the following reports: 
 * **Licenses Usage by Service**
 * **License Distribution**
-* **Inactive Licenses**
+* **Licenses Assigned to Inactive Users**
 
 A signed-in Syskit Point Collaborator can view license data only for users they manage. They do not have access to license data for users who are managed by others.   
 :::
