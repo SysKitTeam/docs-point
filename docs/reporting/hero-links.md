@@ -85,6 +85,12 @@ The following site metrics are also affected by the new sharing model:
 
 :::
 
+### Default Main Link Setting on Sites
+
+For tenants with the new sharing experience, the **Default Main Link Setting** shows the configured default for main links on files and folders in a site. This is different from an individual file or folder's main link setting; actual access is also subject to the site's sharing settings.
+
+You can find this setting in the **General Info** section of the site details screen. On the [Sites Overview](../microsoft365-inventory/sites.md), the **Default Main Link Setting** column is hidden by default but can be selected from the column chooser.
+
 ### Main Links on File and Folder Details
 
 The **General Info** section on the file and folder details screens shows the **Main link setting** of the file or folder, such as `People in your org` or `Anyone`. This is the same value shown on reports, including a setting inherited from a parent folder.

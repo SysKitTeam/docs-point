@@ -61,7 +61,7 @@ The first step of the Workspace Review is the Overview. Here, you can find the f
 When a **workspace is inactive**, you'll see an information box here, asking if you still need the workspace. You can then complete the **Keep, Archive, or Delete** actions on the workspace. 
 
 * If **activity was detected after the workspace was marked as inactive**, the information box lets you know, and **Last Activity (8)** shows the date of the latest activity
-* The **Archive** and **Delete** dialogs also show when the latest activity happened, so you can check whether the workspace is still needed before you continue
+* When activity was detected after the workspace was marked as inactive, the **Archive** and **Delete** dialogs also show when the latest activity happened, so you can check whether the workspace is still needed before you continue
 :::
 
 In the About this Workspace section, you can see the following:
