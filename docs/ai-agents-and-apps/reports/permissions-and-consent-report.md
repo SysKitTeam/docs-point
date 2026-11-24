@@ -45,7 +45,7 @@ The default columns displayed in the report are:
   * **Admin** - an administrator granted the permission for the whole organization
   * **User** - an individual user granted the permission for themselves
 * **Privilege** - shows how much impact the permission can have if misused, from **High** to **Low**
-  * High-privilege permissions match Syskit Point's catalog of high-privilege permissions, such as tenant-wide role and consent management, broad directory writes, full SharePoint control, and high-impact mail or Teams writes
+  * High-privilege permissions match Syskit Point's catalog of high-privilege permissions, such as tenant-wide role and consent management, broad directory writes, directory access as the signed-in user (`Directory.AccessAsUser.All`), full SharePoint control, and high-impact mail or Teams writes
 * **M365 data** - shows whether the permission grants access to Microsoft 365 data, such as mail, files, chats, calendars, or sites
 
 The Permissions and Consent report can be **exported as PDF, XLSX, and CSV files**. There is also the **option to schedule the report**.

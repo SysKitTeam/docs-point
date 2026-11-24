@@ -177,3 +177,8 @@ To find more information about the Syskit Point API, navigate to the provided Sw
 
 * `<YourSyskitPointWebAppURL/swagger>`
 * For example, `contoso.syskit365demo.com/swagger`
+
+:::info
+**Please note!**\
+Only **Syskit Point admins** can open the Swagger documentation. If you aren't signed in to Syskit Point, you are redirected to the sign-in page first.
+:::

@@ -38,7 +38,7 @@ Once the report is generated successfully, tiles at the top give you a quick ove
 * **The Overview tile shows** the total number of **apps found in your tenant**, with a breakdown by classification (AI assistants, Agent Identity, Microsoft first-party, and Other). Take a look at the [App Classification](#app-classification) section for what each classification means.
 * **The Needs Attention tile highlights** the apps that may require action, with numbers showing the amount for each insight:
   * **High Privileged** - means the app holds a granted delegated permission or application role that matches Syskit Point's maintained catalog of high-privilege permissions. 
-    * Examples include tenant-wide role and consent management, broad directory writes, full SharePoint control, and high-impact mail or Teams writes. 
+    * Examples include tenant-wide role and consent management, broad directory writes, directory access as the signed-in user (`Directory.AccessAsUser.All`), full SharePoint control, and high-impact mail or Teams writes. 
     * These permissions can enable privilege escalation, broad data changes, or tenant-wide actions.
   * **Unverified Publisher** - means the app comes from an external source and has no verified publisher (no verified MPN ID). 
     * Built-in tenant and Microsoft first-party apps are excluded. 

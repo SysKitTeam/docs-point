@@ -98,8 +98,15 @@ The following properties are available:
 | **File size** | is more than, is less than, is between | `is more than 100 MB` |
 | **Total size** (all versions combined) | is more than, is less than, is between | `is between 1 GB and 5 GB` |
 | **File extension** | is one of | `is one of mp4, mov, avi` |
-| **Sensitivity label** | is one of | `is one of Confidential, Legal` |
-| **Retention label** | is one of | `is one of General` |
+| **Sensitivity label** | is one of, is not one of, is not set | `is not set` |
+| **Retention label** | is one of, is not one of, is not set | `is not one of General` |
+
+For sensitivity and retention labels:
+
+* **is not set** matches files that don't have a sensitivity or retention label.
+* **is not one of** matches files whose label isn't among the labels you selected, including files with no label. Files with a selected label don't match.
+
+Label conditions rely on collected metadata. Missing or outdated label data can cause files to be incorrectly classified, so review the results before archiving.
 
 Once you've made your selection, a **summary panel** provides you with a summary of your policy as you add conditions, so you can verify the logic before saving.
 
