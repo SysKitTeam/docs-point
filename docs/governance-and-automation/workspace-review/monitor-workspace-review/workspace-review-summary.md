@@ -29,6 +29,7 @@ On the **Actions Performed** screen, the following is available:
 
 * **Actions Performed report** with the following columns:
   * **Action (2)** shows what action was performed
+    * When a main link was restricted, the action is listed as **Restrict Link Access**
   * **Performed By (3)** shows who performed the action
   * **Performed On (4)** shows when the action was performed
   * **Status (5)** shows the status of the action and whether it was performed successfully

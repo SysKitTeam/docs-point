@@ -81,8 +81,15 @@ The following site metrics are also affected by the new sharing model:
   * Selecting multiple files or folders lets you restrict their main links at once.
   * You can also run the action from the **Manage** menu on the file or folder details screen, unless the main link setting is inherited from a parent folder.
 * The confirmation dialog shows who can access the item through the main link before and after the change.
+* In the **Actions Performed** list of the Workspace Review summary, **Restrict Link Access** is listed under its own name.
 
 :::
+
+### Default Main Link Setting on Sites
+
+For tenants with the new sharing experience, the **Default Main Link Setting** shows the configured default for main links on files and folders in a site. This is different from an individual file or folder's main link setting; actual access is also subject to the site's sharing settings.
+
+You can find this setting in the **General Info** section of the site details screen. On the [Sites Overview](../microsoft365-inventory/sites.md), the **Default Main Link Setting** column is hidden by default but can be selected from the column chooser.
 
 ### Main Links on File and Folder Details
 
@@ -92,8 +99,25 @@ The **General Info** section on the file and folder details screens shows the **
 * The **Restrict Link Access** action is available in the **Manage** menu when the file or folder has its own main link set to `Anyone` or `People in your org`
   * The action is not shown when the main link setting is inherited from a parent folder
 
+### Main Link Audit Events
+
+Syskit Point collects audit events for main links, such as when a main link is used or when its setting is updated. The following activities are collected by default:
+
+* Under **Sharing and access request activities**:
+  * **Invalidated main link**
+  * **Materialized main link**
+  * **Updated main link**
+  * **Used main link**
+* Under **Site administration activities**:
+  * **Updated main link permission scope flags**
+
+You can see these events on the [Audit Logs Overview report](audit-reports.md#audit-logs-overview-report). For **Updated main link** events, the **Additional Info** column shows what changed on the main link.
+
+To check or change which activities are collected, take a look at the [Customize Audit Logs Collection article](../configuration/customize-audit-logs-collection.md).
+
 ## Related Articles
 
 * [External Sharing Reports](external-sharing-reports.md)
 * [Access Reports](access-reports.md)
+* [Audit Reports](audit-reports.md)
 * [Workspace Review Sharing](../point-collaborators/workspace-review/sharing-step.md)
