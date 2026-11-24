@@ -103,8 +103,8 @@ The following properties are available:
 
 For sensitivity and retention labels:
 
-* **is not set** matches files without that type of label. Combine this condition with other conditions using **AND** to classify only files without the label.
-* **is not one of** matches files with labels other than the selected labels, as well as files without a label. It excludes only the labels you select.
+* **is not set** matches files that don't have a sensitivity or retention label.
+* **is not one of** matches files whose label isn't among the labels you selected, including files with no label. Files with a selected label don't match.
 
 Label conditions rely on collected metadata. Missing or outdated label data can cause files to be incorrectly classified, so review the results before archiving.
 
