@@ -26,6 +26,7 @@ const sidebars: SidebarsConfig = {
             id: 'releases/cloud/README',
           },
           items: [
+            'releases/cloud/point-2026-11-24-release-note',
             'releases/cloud/point-2026-11-17-release-note',
             'releases/cloud/point-2026-11-10-release-note',
             'releases/cloud/point-2026-11-03-release-note',
