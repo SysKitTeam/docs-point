@@ -16,7 +16,7 @@ description: This article lists improvements and bug fixes in the Syskit Point C
 
 * **Improvements made to Workspace Review.**
   * **The Overview step now shows when an inactive workspace had activity after it was detected as inactive.**
-    * Instead of only stating that the workspace is inactive, the **step now explains that activity was detected afterward.
+    * Instead of only stating that the workspace is inactive, the step now explains that activity was detected afterward.
     * The **Archive** and **Delete** dialogs in the Overview step also show the date of the latest activity, so you can check whether the workspace is still needed before you continue.
 
 * **Improvements made to sharing link management.**
