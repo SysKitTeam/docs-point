@@ -127,6 +127,10 @@ description: This article describes how to...
 See detailed step-by-step instructions on how to upgrade Syskit Point in the [upgrade article](../../../set-up-point-enterprise/deployment/upgrade-syskit-point.md).
 ```
 
+#### Enterprise Build Number Check
+
+`BUILDNUMBER` must be the build released to Azure Marketplace — the latest successful **Marketplace Deploy** stage in the Azure DevOps [Continuous Delivery release pipeline](https://syskit.visualstudio.com/SysKitSecurityManager/_release?_a=releases&view=mine&definitionId=16) (release name `MAJOR.MINOR.BUILD.BUILDNUMBER`). Hotfixes can deploy a newer build after the note is written. The `Enterprise RN build check` workflow runs `.github/scripts/Test-EnterpriseRnBuild.ps1` on PRs and blocks merges to `main` when a changed Enterprise RN does not match that build, the version is not on Marketplace yet, or **Build number** and the deploy link disagree. Run it locally (after `az login`) with `./.github/scripts/Test-EnterpriseRnBuild.ps1 -BaseRef origin/main`. If the release owner confirms the note is correct anyway, add the `ent-rn-build-verified` label to the PR.
+
 ### Release Note Bullet Style
 
 - Start each bullet with **bold description** of what changed.
