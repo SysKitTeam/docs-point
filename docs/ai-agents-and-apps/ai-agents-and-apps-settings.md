@@ -4,7 +4,7 @@ description: This article explains how to set up AI Agents in Syskit Point to st
 
 # Configure AI Agents
 
-In order to start discovering the **Microsoft agents and Entra apps that can access your Microsoft 365 data**, you need to first set up **AI Agents** in Syskit Point. During the setup, you connect a service account, register Syskit Point as a Power Platform management application, and grant the permissions Syskit Point needs to read the agents across your tenant. This helps you keep track of the agents and Entra apps in one place through the [Agents Inventory](reports/ai-agents-reports.md#agents-inventory-report) and [Apps Inventory](reports/entra-apps-reports.md#apps-inventory-report) reports.
+The setup required to discover **Microsoft agents and Entra apps that can access your Microsoft 365 data** depends on the agent type. For example, Copilot Studio agents require Syskit Point to be registered as a Power Platform management application, while Agent Builder agents require a connected service account. The [Agents Inventory](reports/ai-agents-reports.md#agents-inventory-report) and [Apps Inventory](reports/entra-apps-reports.md#apps-inventory-report) reports help you keep track of these agents and apps.
 
 In this article, you can find details on:
 
@@ -19,9 +19,10 @@ To set up AI Agents:
 
 * You need the **Global Administrator** role.
 * To discover **Agent Builder agents**, you need a **service account** with the **AI Reader** or **Power Platform Administrator** role assigned. Syskit Point accepts only these two roles.
-  * **We recommend the AI Reader role**, as it gives read-only access to your agents.
-  * The **Power Platform Administrator** role is required only if you want to use the [Ownerless agents automation](ai-agents-and-apps-automation.md).
+  * **We recommend the AI Reader role** for read-only inventory collection.
+  * Some automated agent actions, including the [Ownerless agents automation](ai-agents-and-apps-automation.md), require the **Power Platform Administrator** role.
   * The service account doesn't need the Global Administrator role.
+  * The role must be active when the sync runs. If your organization uses PIM, an eligible assignment that hasn't been activated doesn't satisfy this requirement; Syskit Point doesn't activate PIM roles.
 * Discovering **Copilot Studio agents** doesn't require a service account. **SharePoint agents** and **Entra apps** sync by default with no additional setup.
 
 ## Setup Requirements by Agent Type
@@ -68,7 +69,7 @@ Syskit Point signs in with the **service account** connected in the AI Agents se
   * The sign-in is completed without leaving the Settings screen.
 * Once connected, the step shows the **connected account** and its **assigned role**.
   * **Click Compare roles (3)** to see what each role allows:
-    * **AI Reader** - lets you view agents in Syskit Point reports and perform manual actions on them
+    * **AI Reader** - provides read-only access for Agent Builder inventory collection. It doesn't grant permissions to the user who runs manual actions.
     * **Power Platform Administrator** - everything the AI Reader role allows, plus automated actions, such as the [Ownerless agents automation](ai-agents-and-apps-automation.md)
   * If the account has neither role, the step shows **Missing role**, with a link to assign the role in Microsoft Entra.
 * **Click Remove account (4)** to disconnect the service account from AI Agents.
@@ -91,7 +92,7 @@ Registering Syskit Point as a **Power Platform management application** lets Sys
 
 ### Grant Permissions
 
-Grant the permissions for what you want Syskit Point to do with your agents. You can choose which permissions to grant. Without a permission, you can't use what that permission allows. The step shows how many permissions are granted, for example, **4 of 4 permissions granted**.
+The grant action requests the permissions below together; the setup doesn't provide a separate selector for each permission. The descriptions explain what each permission supports. The step shows how many permissions are granted, for example, **4 of 4 permissions granted**.
 
 **To discover Agent Builder agents**, grant the following permissions:
 
@@ -111,9 +112,11 @@ Once AI Agents is configured, the first **AI Agents & apps data sync** starts, a
 
 ## Service Account Explained
 
-**Agent Builder agents can't be read with the application-only access** that Syskit Point uses for the rest of your Microsoft 365 data. The permissions used to read them, **ResourceQuery.Resources.Read** and **CopilotStudio.MinimalBot.ReadWrite**, are delegated permissions, which work only in the context of a signed-in user with the required role. That's why Syskit Point signs in with a dedicated service account to read them. Copilot Studio agents don't have this limitation, so registering Syskit Point as a Power Platform management application is enough to discover them.
+**Why the current Syskit Point setup uses a service account:** the **ResourceQuery.Resources.Read** and **CopilotStudio.MinimalBot.ReadWrite** permissions are delegated scopes, and Syskit Point's Agent Builder discovery and knowledge-source collection calls use tokens for the connected service account. The account provides the signed-in user context and required Power Platform role for those calls. Syskit Point's current collection path doesn't use an app-only identity, such as a service principal or managed identity, for Agent Builder agents.
 
-**The service account is the only way to discover Agent Builder agents.** Registering Syskit Point as a Power Platform management application doesn't cover Agent Builder agents, and there is no application-only alternative for reading them.
+Microsoft documents both user and service-principal authentication for Power Platform APIs generally ([authentication options](https://learn.microsoft.com/en-us/power-platform/admin/programmability-authentication-v2)). This requirement describes Syskit Point's current Agent Builder collection path, not a claim that Microsoft APIs can never support another identity model. Copilot Studio discovery uses a separate Power Platform management application registration and doesn't require this service account.
+
+The connected account is used as an identity for Power Platform API calls. Agent discovery doesn't access its mailbox or read user conversations.
 
 ### Collected Data
 
@@ -132,10 +135,9 @@ Once AI Agents is configured, the first **AI Agents & apps data sync** starts, a
 To follow the principle of least privilege:
 
 * **Assign the AI Reader role** to the service account. This role is read-only.
-* **Use a dedicated account** that isn't used for interactive sign-ins. For details on multifactor authentication, take a look at the [Connect Service Account](../configuration/connect-service-account.md) article.
-* Syskit Point uses the service account **only for the agent data sync** and, if turned on, **for the [Ownerless agents automation](ai-agents-and-apps-automation.md)**.
-* **Grant only the permissions you need.** [Agent actions](ai-agents-and-apps-actions.md), such as block, unblock, reassign, and delete, become available once you grant the **CopilotStudio.AdminActions.Invoke** permission. The **Dynamics CRM/user_impersonation** permission lets Syskit Point delete Copilot Studio agents.
-  * Agent actions run with the rights of the Syskit Point user who completes them.
+* **Use a dedicated account** that isn't used for day-to-day work. Connecting it requires signing in; the Microsoft authentication flow supports MFA. For details, see [Connect Service Account](../configuration/connect-service-account.md).
+* Syskit Point uses this account for Agent Builder inventory collection and for automated agent actions that run under the service account. Manual actions run with the permissions of the signed-in Syskit Point user.
+* The settings grant action requests all the listed permissions together. The permission descriptions explain which collection or actions use each one; see [Permission Requirements](../requirements/permission-requirements.md#ai-agents) for details.
 
 ## Related Articles
 

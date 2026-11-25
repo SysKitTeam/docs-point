@@ -288,7 +288,10 @@ Permissions are added when AI Agents is configured in Syskit Point settings.
 
 * **Copilot Studio agents** are discovered with the Power Platform management application registration alone. No service account is required.
 * **Agent Builder agents** are discovered with the permissions below, used with the connected **service account**. The service account must have the **AI Reader** or **Power Platform Administrator** role. We recommend the **AI Reader** role, as the Power Platform Administrator role isn't needed just to read agents.
+  * Syskit Point checks that the account is an active member of the required role when it evaluates sync readiness. If your organization uses PIM, an eligible assignment must be activated before the sync can use it; Syskit Point doesn't activate the role.
   * [Find out why a service account is required to discover Agent Builder agents.](../ai-agents-and-apps/ai-agents-and-apps-settings.md#service-account-explained)
+
+The AI Agents permission grant requests the delegated permissions listed below as a group; it doesn't let you select individual permissions in the setup screen.
 
 | App Registration | Permission Name | Reason |
 | --- | --- | --- |
