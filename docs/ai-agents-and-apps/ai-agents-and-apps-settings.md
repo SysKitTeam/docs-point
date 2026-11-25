@@ -114,8 +114,6 @@ Once AI Agents is configured, the first **AI Agents & apps data sync** starts, a
 
 **Why the current Syskit Point setup uses a service account:** the **ResourceQuery.Resources.Read** and **CopilotStudio.MinimalBot.ReadWrite** permissions are delegated scopes, and Syskit Point's Agent Builder discovery and knowledge-source collection calls use tokens for the connected service account. The account provides the signed-in user context and required Power Platform role for those calls. Syskit Point's current collection path doesn't use an app-only identity, such as a service principal or managed identity, for Agent Builder agents.
 
-Microsoft documents both user and service-principal authentication for Power Platform APIs generally ([authentication options](https://learn.microsoft.com/en-us/power-platform/admin/programmability-authentication-v2)). This requirement describes Syskit Point's current Agent Builder collection path, not a claim that Microsoft APIs can never support another identity model. Copilot Studio discovery uses a separate Power Platform management application registration and doesn't require this service account.
-
 The connected account is used as an identity for Power Platform API calls. Agent discovery doesn't access its mailbox or read user conversations.
 
 ### Collected Data
