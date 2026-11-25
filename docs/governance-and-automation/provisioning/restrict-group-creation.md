@@ -90,11 +90,11 @@ Create a team **From template**, including **From Scratch**, and **From another 
 
 You can now **connect SharePoint site creation directly to your organization's own provisioning flow**. SharePoint admins can **configure a custom URL in the SharePoint admin center**, so users who start creating a site in SharePoint are **redirected to your existing provisioning experience**, such as Syskit Point.
 
+**To configure the redirect, follow the steps in [Microsoft's article](https://learn.microsoft.com/en-us/sharepoint/manage-site-creation).**
+
 This helps you:
 * **Guide users to the right place from the start** - users request new sites through Syskit Point instead of the built-in SharePoint experience
 * **Align site creation with your governance, approval, and business processes** - requests go through your Syskit Point [provisioning templates](templates.md) and [approval processes](approval-processes.md)
-
-To configure the redirect, follow the steps in [Microsoft's article](https://learn.microsoft.com/en-us/sharepoint/manage-site-creation).
 
 :::info
 **Please note!**  
