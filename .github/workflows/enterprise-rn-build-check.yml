@@ -1,0 +1,73 @@
+# Blocks publishing an Enterprise Release Note whose build number and "Need this specific version?"
+# deploy link do not match the build released to Azure Marketplace — the latest successful
+# "Marketplace Deploy" stage of the Azure DevOps release pipeline.
+#
+# - PRs to main: blocking. Make "Enterprise RN build check" a required status check on main.
+#   The job runs without a paths filter so it always reports; it only calls Azure DevOps when the
+#   PR changes an Enterprise RN.
+# - PRs to staging: reports warnings only — notes are usually written before the Marketplace release.
+# - Every 30 minutes, re-runs the check on open PRs to main, so a hotfix deployed to Marketplace
+#   after the PR was opened turns the check red before merge.
+# - Override: add the `ent-rn-build-verified` label when the release owner confirms the note is
+#   correct anyway. The check then reports without blocking.
+#
+# Requires the AZURE_DEVOPS_RELEASE_PAT and AZURE_DEVOPS_RELEASE_DEPLOYMENTS_URL repository secrets.
+name: Enterprise RN build check
+
+on:
+  pull_request:
+    branches: [main, staging]
+    types: [opened, synchronize, reopened, labeled, unlabeled]
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Enterprise RN build check
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    concurrency:
+      group: ent-rn-build-check-${{ github.event.pull_request.number }}
+      cancel-in-progress: true
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Check Enterprise RN build numbers against Marketplace Deploy
+        shell: pwsh
+        env:
+          AZURE_DEVOPS_TOKEN: ${{ secrets.AZURE_DEVOPS_RELEASE_PAT }}
+          AZURE_DEVOPS_RELEASE_DEPLOYMENTS_URL: ${{ secrets.AZURE_DEVOPS_RELEASE_DEPLOYMENTS_URL }}
+          BASE_REF: origin/${{ github.base_ref }}
+          WARN_ONLY: ${{ github.base_ref != 'main' || contains(github.event.pull_request.labels.*.name, 'ent-rn-build-verified') }}
+        run: |
+          ./.github/scripts/Test-EnterpriseRnBuild.ps1 -BaseRef $env:BASE_REF -SummaryPath $env:GITHUB_STEP_SUMMARY -WarnOnly:($env:WARN_ONLY -eq 'true') |
+            Format-Table File, LinkedBuild, MarketplaceBuild, Status -AutoSize | Out-String -Width 200
+
+  recheck-open-prs:
+    name: Re-check open PRs to main
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      contents: read
+      pull-requests: read
+    steps:
+      - name: Re-run the latest check of each open PR to main
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          for sha in $(gh pr list --base main --state open --json headRefOid --jq '.[].headRefOid'); do
+            run=$(gh run list --workflow enterprise-rn-build-check.yml --event pull_request --commit "$sha" --limit 1 --json databaseId,status --jq '.[] | select(.status == "completed") | .databaseId')
+            if [ -n "$run" ]; then
+              echo "Re-running run $run for $sha"
+              gh run rerun "$run" || echo "Could not re-run $run"
+            fi
+          done
