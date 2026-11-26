@@ -16,11 +16,9 @@
 
     Exits with code 1 when any note is not OK, unless -WarnOnly is set.
 
-    The release pipeline is configured through environment variables (repository variables in CI):
-      - ADO_ORGANIZATION           : Azure DevOps organization
-      - ADO_PROJECT                : Azure DevOps project
-      - ADO_RELEASE_DEFINITION_ID  : release pipeline definition ID
-      - ADO_MARKETPLACE_STAGE_ID   : definition environment ID of the "Marketplace Deploy" stage
+    The Azure DevOps release deployments endpoint is configured through the
+    AZURE_DEVOPS_RELEASE_DEPLOYMENTS_URL environment variable. In CI, store it as a GitHub secret
+    to keep internal Azure DevOps identifiers out of public workflow logs.
 
     Azure DevOps authentication, in order:
       1. AZURE_DEVOPS_TOKEN environment variable — a PAT with the Release (Read) scope
@@ -91,26 +89,28 @@ function Get-AzureDevOpsHeaders {
 function Get-MarketplaceReleases {
     param([string[]]$Versions)
 
-    $missingSettings = @('ADO_ORGANIZATION', 'ADO_PROJECT', 'ADO_RELEASE_DEFINITION_ID', 'ADO_MARKETPLACE_STAGE_ID') |
-        Where-Object { -not [Environment]::GetEnvironmentVariable($_) }
-    if ($missingSettings) {
-        throw "Missing environment variables: $($missingSettings -join ', '). Set them to the release pipeline that deploys Point Enterprise to Azure Marketplace."
+    if (-not $env:AZURE_DEVOPS_RELEASE_DEPLOYMENTS_URL) {
+        throw 'Missing AZURE_DEVOPS_RELEASE_DEPLOYMENTS_URL. Set it to the Azure DevOps Marketplace Deployments API URL.'
     }
-    $releaseApi = "https://vsrm.dev.azure.com/$([uri]::EscapeDataString($env:ADO_ORGANIZATION))/$([uri]::EscapeDataString($env:ADO_PROJECT))/_apis/release"
-    $releaseDefinitionId = [int]$env:ADO_RELEASE_DEFINITION_ID
-    $marketplaceStageId = [int]$env:ADO_MARKETPLACE_STAGE_ID
+    $releaseDeploymentsUri = [uri]$env:AZURE_DEVOPS_RELEASE_DEPLOYMENTS_URL
+    if (-not $releaseDeploymentsUri.IsAbsoluteUri -or $releaseDeploymentsUri.Scheme -ne 'https' -or
+        $releaseDeploymentsUri.Host -ne 'vsrm.dev.azure.com' -or
+        $releaseDeploymentsUri.AbsolutePath -notmatch '/_apis/release/deployments$') {
+        throw 'AZURE_DEVOPS_RELEASE_DEPLOYMENTS_URL must be an HTTPS Azure DevOps release deployments API URL.'
+    }
 
     $headers = Get-AzureDevOpsHeaders
     $found = @{}
     $continuation = $null
     $scanned = 0
     do {
-        $uri = "$releaseApi/deployments?definitionId=$releaseDefinitionId&definitionEnvironmentId=$marketplaceStageId" +
-            "&deploymentStatus=succeeded&queryOrder=descending&`$top=100&api-version=7.1"
-        if ($continuation) { $uri += "&continuationToken=$continuation" }
+        $uri = $releaseDeploymentsUri.AbsoluteUri
+        if ($continuation) {
+            $uri += "&continuationToken=$([uri]::EscapeDataString($continuation))"
+        }
         $response = Invoke-WebRequest -Uri $uri -Headers $headers -UseBasicParsing -TimeoutSec 60
         if ($response.Headers['Content-Type'] -notmatch 'application/json') {
-            throw 'Azure DevOps rejected the credentials (sign-in page returned). Check that AZURE_DEVOPS_TOKEN is a valid PAT with Release (Read) scope.'
+            throw 'Azure DevOps rejected the request (sign-in page returned). Check AZURE_DEVOPS_TOKEN or az login, and verify AZURE_DEVOPS_RELEASE_DEPLOYMENTS_URL.'
         }
         $continuation = $response.Headers['x-ms-continuationtoken'] | Select-Object -First 1
         $deployments = @(($response.Content | ConvertFrom-Json).value)
