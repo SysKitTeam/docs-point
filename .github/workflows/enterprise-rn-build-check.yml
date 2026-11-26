@@ -1,7 +1,6 @@
 # Blocks publishing an Enterprise Release Note whose build number and "Need this specific version?"
 # deploy link do not match the build released to Azure Marketplace — the latest successful
-# "Marketplace Deploy" stage of the Azure DevOps "Continuous Delivery" release pipeline
-# (https://syskit.visualstudio.com/SysKitSecurityManager/_release?_a=releases&view=mine&definitionId=16).
+# "Marketplace Deploy" stage of the Azure DevOps release pipeline.
 #
 # - PRs to main: blocking. Make "Enterprise RN build check" a required status check on main.
 #   The job runs without a paths filter so it always reports; it only calls Azure DevOps when the
@@ -12,8 +11,10 @@
 # - Override: add the `ent-rn-build-verified` label when the release owner confirms the note is
 #   correct anyway. The check then reports without blocking.
 #
-# Requires the AZURE_DEVOPS_RELEASE_PAT repository secret: an Azure DevOps PAT for the syskit
-# organization with the Release (Read) scope.
+# Requires:
+# - AZURE_DEVOPS_RELEASE_PAT repository secret: an Azure DevOps PAT with the Release (Read) scope.
+# - Repository variables ADO_ORGANIZATION, ADO_PROJECT, ADO_RELEASE_DEFINITION_ID and
+#   ADO_MARKETPLACE_STAGE_ID that identify the release pipeline and its Marketplace Deploy stage.
 name: Enterprise RN build check
 
 on:
@@ -45,6 +46,10 @@ jobs:
         shell: pwsh
         env:
           AZURE_DEVOPS_TOKEN: ${{ secrets.AZURE_DEVOPS_RELEASE_PAT }}
+          ADO_ORGANIZATION: ${{ vars.ADO_ORGANIZATION }}
+          ADO_PROJECT: ${{ vars.ADO_PROJECT }}
+          ADO_RELEASE_DEFINITION_ID: ${{ vars.ADO_RELEASE_DEFINITION_ID }}
+          ADO_MARKETPLACE_STAGE_ID: ${{ vars.ADO_MARKETPLACE_STAGE_ID }}
           BASE_REF: origin/${{ github.base_ref }}
           WARN_ONLY: ${{ github.base_ref != 'main' || contains(github.event.pull_request.labels.*.name, 'ent-rn-build-verified') }}
         run: |

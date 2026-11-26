@@ -4,8 +4,7 @@
 
 .DESCRIPTION
     The released Enterprise build is the latest successful "Marketplace Deploy" stage deployment of
-    the Azure DevOps "Continuous Delivery" release pipeline (definition 16). Hotfixes can deploy a
-    newer build after the note is written.
+    the Azure DevOps release pipeline. Hotfixes can deploy a newer build after the note is written.
 
     For each Enterprise Release Note, compares the "Build number" text and the "Need this specific
     version?" deploy link with that build, and reports:
@@ -16,6 +15,12 @@
       - Missing     : no deploy link, or the linked PointUpdateTemplate.json is not in the download storage
 
     Exits with code 1 when any note is not OK, unless -WarnOnly is set.
+
+    The release pipeline is configured through environment variables (repository variables in CI):
+      - ADO_ORGANIZATION           : Azure DevOps organization
+      - ADO_PROJECT                : Azure DevOps project
+      - ADO_RELEASE_DEFINITION_ID  : release pipeline definition ID
+      - ADO_MARKETPLACE_STAGE_ID   : definition environment ID of the "Marketplace Deploy" stage
 
     Azure DevOps authentication, in order:
       1. AZURE_DEVOPS_TOKEN environment variable — a PAT with the Release (Read) scope
@@ -63,10 +68,6 @@ param(
 
 $ErrorActionPreference = 'Stop'
 
-$releaseApi = 'https://vsrm.dev.azure.com/syskit/SysKitSecurityManager/_apis/release'
-$releaseDefinitionId = 16
-$marketplaceStageId = 175
-$releasePipelineUrl = "https://syskit.visualstudio.com/SysKitSecurityManager/_release?_a=releases&view=mine&definitionId=$releaseDefinitionId"
 $azureDevOpsResourceId = '499b84ac-1321-427f-aa17-267ca6975798'
 $maxDeploymentsToScan = 500
 
@@ -89,6 +90,15 @@ function Get-AzureDevOpsHeaders {
 # Latest successful Marketplace Deploy per product version, e.g. '2026.4.167' -> build 42.
 function Get-MarketplaceReleases {
     param([string[]]$Versions)
+
+    $missingSettings = @('ADO_ORGANIZATION', 'ADO_PROJECT', 'ADO_RELEASE_DEFINITION_ID', 'ADO_MARKETPLACE_STAGE_ID') |
+        Where-Object { -not [Environment]::GetEnvironmentVariable($_) }
+    if ($missingSettings) {
+        throw "Missing environment variables: $($missingSettings -join ', '). Set them to the release pipeline that deploys Point Enterprise to Azure Marketplace."
+    }
+    $releaseApi = "https://vsrm.dev.azure.com/$([uri]::EscapeDataString($env:ADO_ORGANIZATION))/$([uri]::EscapeDataString($env:ADO_PROJECT))/_apis/release"
+    $releaseDefinitionId = [int]$env:ADO_RELEASE_DEFINITION_ID
+    $marketplaceStageId = [int]$env:ADO_MARKETPLACE_STAGE_ID
 
     $headers = Get-AzureDevOpsHeaders
     $found = @{}
@@ -221,7 +231,7 @@ if ($env:GITHUB_ACTIONS -eq 'true') {
 if ($SummaryPath) {
     $lines = @(
         '### Enterprise RN build check', '',
-        "Source: latest successful **Marketplace Deploy** in the [Continuous Delivery release pipeline]($releasePipelineUrl).", '',
+        'Source: latest successful **Marketplace Deploy** stage of the release pipeline.', '',
         '| File | Version | Linked build | Marketplace build | Status | Details |',
         '|---|---|---|---|---|---|'
     )
